@@ -4,3 +4,6 @@
 *.mid
 *.log
 *~
+.idea
+*.iml
+
