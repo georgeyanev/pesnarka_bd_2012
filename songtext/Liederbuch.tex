@@ -1,0 +1,5604 @@
+ \documentclass[11pt,a5paper,twoside]{article}
+ \usepackage[top=2cm,bottom=2.0cm,left=1.3cm,right=1.7cm,headsep=10pt,a5paper]{geometry}
+ \usepackage[utf8]{inputenc}
+ 
+ 
+\usepackage[T1]{fontenc}
+\usepackage[bulgarian,ngerman]{babel}
+\usepackage{amsmath}
+%\usepackage[left=0.9cm,right=0.9cm,top=0.9cm,bottom=1.2cm]{geometry}
+\usepackage{graphicx}
+\usepackage[hang]{footmisc}
+\setlength{\footnotemargin}{-0.8em}
+\usepackage{color}
+\usepackage{titlesec}
+%\titleformat{\section}[block]{\bfseries \centering}{\S \thesection}{.5em}{}
+%\titleformat{\section}[block]{\normalsize\bfseries\centering}{}{.5em}{}
+
+\titleformat{\section}[block]{\bfseries\centering\footnotesize}{}{.5em}{}
+\titleformat{\subsubsection}[block]{\bfseries\centering\footnotesize}{}{.5em}{}
+\parskip0.2ex plus0ex minus0ex
+\addto\sectionsngerman{\renewcommand\sectionname{}}
+\addto\sectionsngerman{\renewcommand\thesection{}}
+\setlength{\parindent}{0.3pt}
+
+\usepackage{lmodern} %za da ne izliza greshka poradi not scalable font
+\setlength{\footskip}{13pt} % razstoianie megdu text i nomer na stranicata
+
+\usepackage{endnotes}
+\let\footnote=\endnote
+
+
+%общи настройки
+\clubpenalty = 10000
+\widowpenalty = 10000
+\displaywidowpenalty = 10000
+
+\usepackage{tocloft}
+
+\usepackage{microtype}
+
+
+
+
+
+\begin{document}
+	
+	\clubpenalty = 0
+	\widowpenalty = 0
+
+
+
+%\frontmatter
+%
+\let\cleardoublepage\clearpage
+
+
+\begin{titlepage}
+
+\begin{center}
+{\large \textbf{BEINSA DUNO}}
+
+\vspace*{0.3cm}
+
+{\large \textbf{LIEDERBUCH}}
+
+
+\end{center}
+
+
+\end{titlepage}
+
+\newpage\thispagestyle{empty}~ % Seite 2 (links leer) bis auf ein Leerzeichen
+\newpage % Neue Seite rechts
+\thispagestyle{empty}
+
+
+
+ \newpage
+%\begin{titlepage}
+
+
+
+
+%\begin{center}
+%{\large \textbf{BEINSA DUNO}}\\[14.0em]
+
+
+%{\Huge \textbf{Liederbuch}}\\[2.0em]
+
+
+
+%\end{center}
+
+
+
+
+%\vspace*{6.0cm}
+%%\begin{center}
+%\includegraphics[width=1.5cm]{logo}
+%%\end{center}
+
+
+%\begin{center}
+%\textbf{Verlag Bjalo Bratstvo Sofia}\\[1.em]
+
+%\textbf{2016}
+%\end{center}
+
+%%\end{titlepage}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%\newpage
+%\begin{titlepage}
+
+
+
+
+%\vspace*{8.5cm}
+
+
+
+%Erste Auflage. Veröffentlicht in Bulgarien
+
+%Sofia 2016
+
+%\copyright Alle Rechte vorbehalten
+
+%Originaltitel: \foreignlanguage{bulgarian}{Песни от Учителя} 
+
+%Layout: Mariya Kireva
+
+%Verlag Bjalo Bratstvo\\
+ 
+% ISBN 
+
+%\end{titlepage}
+
+\renewcommand{\cfttoctitlefont}{\bfseries \Large} % golemina na zaglavieto na sydarganieto
+\def\contentstitlefont{\bfseries\small}
+\setlength{\cftbeforetoctitleskip}{0em} %razstoianie megdu nachaloto na stranicata i zaglavieto na sadarganieto
+\addtocontents{toc}{\vskip-20pt} % razstoianie megdu zaglavieto na sadarganieto i parvia mu red
+\renewcommand{\cftsecleader} {\cftdotfill{\cftdotsep}} % pribavi tochki kam sadarganieto
+\begin{center}
+\tableofcontents
+\end{center}
+
+\thispagestyle{empty}
+%
+%\mainmatter
+%
+
+
+\setcounter{page}{7}
+
+
+
+\newpage
+\begin{titlepage}
+	
+\vspace*{8.5cm}
+	
+\textit{Wenn die Natur sich erneuert, dann singen die Vögel.}
+
+\textit{Am Anfang jeder göttlicher Kultur singen die Menschen.}
+
+\textit{Wenn die Welt wieder erschaffen wird, dann singen die Engel.}
+
+
+\begin{flushright}
+	(Aus dem ältesten Buch der Welt)
+\end{flushright}
+
+\vspace*{1.0cm}
+
+Der Weg, die Wahrheit und das Leben -- das sind die ersten Grundtöne der ideellen Harmonie, die im Kosmos existiert. Auf sie gründet das vernünftige Leben.\\
+
+Die Melodie ist der musikalische, ideelle Ruf der menschlichen Seele zu Gott. Die Harmonie ist die Antwort Gottes. 
+
+
+
+
+
+
+\end{titlepage}
+
+
+\section[Vorwort zur ersten bulgarischen Ausgabe]{VORWORT ZUR ERSTEN BULGARISCHEN AUSGABE}
+
+Die Lieder in diesem Sammelband sind eine Verkörperung eines kleinen Teils der Achtung, der Liebe und der Bedeutung, die der Meister der Musik als Mittel zum Erwachen des göttlichen Bewusstseins im Menschen, jenen, die mit seinem Wort leben, schenkte. Die Entstehung der Lieder ist ein natürliches Phänomen, da sie das Kind eines heiligen Schimmers sind, in welchem eine göttliche Idee zur Musik wird. 
+
+Die vorliegende Ausgabe besteht aus zwei Teilen. Der erste Teil wurde "`Brüderliche Lieder"' betitelt und enthält Werke, die gegeben wurden und große Popularität genossen, noch bevor der Meister die okkulte Schule eröffnete. In dieser fügte er später noch die okkulten Musikübungen hinzu, die den zweiten Teil des Sammelbands ausmachen. Die letzteren entstanden während der Vorträge des Meisters Beinsa Duno, als er den Einfluss einer neuen, bis zu diesem Zeitpunkt unbekannten Musik auf das Bewusstsein der Schüler prüfte.
+
+Im ersten Teil gibt es viele Lieder, die vom Meister Beinsa Duno gegeben wurden. Deshalb wurde am Ende des Sammelbandes angegeben, welche Lieder von Schülern nach Motiven des Meisters geschrieben wurden und welche von anderen Autoren stammen. Charakteristisch für die ersten Lieder, die Brüderlichen Lieder, ist es, dass sie das Zeichen der ersten Schritte in der Schülerschaft in sich tragen, wenn die menschliche Seele nach Zuversicht in der Demut, also in der hingebungsvollen und herzlichen Beziehung des Menschen zur göttlichen Barmherzigkeit trachtet, die ihm das Leben schenkte. Diejenigen, die den Weg des Aufstiegs eingeschlagen haben, finden Zuversicht und reine Freude in der Hingebung und im Glauben, die aus diesen Liedern strömen.
+
+Die Übungen im zweiten Teil, "`Lieder des Meisters"', die okkulte Musikübungen genannt wurden, haben einen ganz anderen Charakter. Sie wurden von etwas Neuem, für die bisherige Musik Unbekanntem hinsichtlich des Aufbaus der Melodie und der musikalischen Architektonik durchdrungen, was innere Kraft in sich trägt. Dies sind keine gewöhnlichen Lieder, sondern Melodien, die derart mit dem Wort verbunden wurden, dass sie seine musikalische Eindeutigkeit zum Ausdruck bringen. Die Lieder haben eine geistig-umerzieherische Bedeutung. Sie bringen in das Bewusstsein ein neues Element hinein und verleihen der Seele einen neuen Wert.
+
+Wer den tieferen Sinn des Wortes kennt, wird sich leicht erklären, wie es sich in Musik und in Magie verwandeln kann, auf dass es mit Macht den Menschen transformiert, indem es seinen Gedankenhorizont erweitert, den Gefühlen lebendige Wärme und seinem schöpferischen Willen einen machtvollen Schwung gibt.
+
+In der Schule der Weißen Bruderschaft ist die Musik eines der mächtigsten Mittel für die geistige Arbeit. Deshalb übt jede der dargebotenen Übungen mit ihrer Melodie und ihrem Rhythmus Einfluss auf den Hörer aus. Sie berührt bestimmte Saiten der Seele und unterstützt die geistige Tätigkeit in einer bestimmten Richtung.
+
+Wie alles, was der Meister während der Arbeit mit seinen Schülern weitergab, weisen diese Lieder die charakteristische Färbung einer Einzigartigkeit auf, die für die hohen Aufgaben der Neuen Lehre geeignet ist – ein Keim der vorewigen Wahrheit, die hier bei uns, in Gestalt des Meisters, ihre originelle Verkörperung fand. Seine Stütze ist das heilige Wort Christi –  die Liebe.
+
+Die Lieder in diesem Sammelband haben auch einen anderen, innigen und geheimnisvollen Inhalt, der noch weniger einer gewöhnlichen Musikbewertung unterliegen kann, denn ihre Bestimmung unterscheidet sich wesentlich von der Bestimmung anderer Lieder.
+
+Die Liebhaber dieser Art von Musik, die bei der Geburt dieser Lieder anwesend waren (und diese sind nicht wenige, weil der Meister – wie oben erwähnt – auf seiner Geige während eines Morgenvortrags sang oder spielte), vernahmen am besten die innere psychologische Ursache für ihre Entstehung und ihren unmittelbaren Einfluss. Sie waren Zeugen, wie das Wort zum Lied wurde, das alle einbezogen hatte, die auf dem Weg der Schülerschaft bewusst nach reichhaltigem Leben streben.
+
+Es ist bekannt, dass die Menschen auf unterschiedliche Weise ein bestimmtes Werk verstehen und bewerten, aber diejenigen, die die sanftmütige Freude des Geistes erkannt haben, bewerteten die Lieder tiefgründiger und tragen sie als ein teures Geschenk in ihren Herzen.
+
+\begin{flushright}
+	Sofia, 1949
+\end{flushright}
+
+\section[Vorwort zur zweiten Ausgabe]{VORWORT ZUR ZWEITEN AUSGABE}
+
+
+Der gegenwärtige Sammelband enthält Lieder und instrumentelle Werke von Meister Beinsa Duno, dem Gründer der geistigen Gemeinschaft "`Weiße Bruderschaft"' in Bulgarien, sowie Lieder seiner Schüler. 
+
+Als Grundlage dieser Ausgabe dient die Ausgabe "`Lieder des Meisters"', die 1949 in Sofia unter der Redaktion von Maria Todorova gedruckt wurde. Genutzt wurden außerdem die Sammelbände "`Lieder der Weißen Bruderschaft"' von 1921-22, Liederbücher von 1939 und von 1944 sowie "`Brüderliche Lieder"' von 1941. 
+
+Zum ersten Mal werden sechzehn Werke vom Meister und sechs Texte zu seinen Melodien und Themen publiziert. Aufgenommen wurden auch sechs Lieder von seinen Schülern, die in der Ausgabe von 1949 nicht publiziert wurden, die jedoch im musikalischen Leben der Gesellschaft gegenwärtig sind.
+
+Es erfolgten nötige Korrekturen der metrorhythmischen Organisation, die dem Aufbau des musikalischen Gedankens entsprechen. Die Redaktion entspricht dem Prinzip der klassischen Prosodie, sodass die betonte musikalische Zeit der betonte Silbe des Textes entspricht. Die metronomischen Tempoangaben wurden nach Informationen bekannter Musiker aus der Bruderschaft wie Philip Stoizev, Irina Kisiova, Maria Zlateva und Katja Griva gesetzt. Die Kommentare zu den Liedern wurden der Ausgabe 1949 entnommen und mit neuen Informationen ergänzt. 
+
+
+
+\section[Vorwort zur letzten Ausgabe]{VORWORT ZUR LETZTEN AUSGABE}
+
+In diesen einleitenden Worten soll der Vorbereitungsprozess der letzten Ausgabe vorgestellt werden. Es entstand das Bedürfnis nach einer Überarbeitung der Lieder. Anschließend wurden sowohl die Arbeitsmethode als auch die Gruppe bestimmt, die die Reaktionsarbeit realisieren sollten.
+
+Es ist bekannt, dass Meister Beinsa Duno nie eigens seine Lieder aufschrieb. Meist spielte er auf der Geige eine okkulte Übung und unterrichtete sie dann mündlich in den Vorträgen der okkulten Schule. Falls während des Unterrichtens ein Musiker anwesend war, schrieb er die Übung als Notentext auf. Die heutigen Generationen sind allen Musikern verbunden, die diese so verantwortungsvolle Arbeit verrichteten. Zu nennen sind Prof. Asen Arnaudov, Bojan Ikonomov, Liljana-Zvetana Tabakova, Maria Todorova, Matei Kaludov, Hristo Darsev u.a. Leider wurden viele der Melodien nicht aufgezeichnet. 
+
+Im Notensatz der ersten vollständigen Ausgabe der Lieder des Meisters Beinsa Duno, die 1949 von Maria Todorova zusammengestellt und publiziert wurde, existierten nicht wenige Fehler. Maria Todorova selbst teilte mir mit, dass das Liederbuch wegen der ungünstigen politischen Bedingungen viel zu schnell vorbereitet wurde. Sie benutzte auch Notenaufzeichnungen, die während der Vorträge von nicht immer professionellen Musikern erstellt wurden. 
+
+Vergleicht man den Sammelband von Maria Todorova mit der Ausgabe von 1938, so kann man viele Unterschiede entdecken. Praktisch unterlagen manche Lieder einer zweifachen Veränderung: manche wurden weiterentwickelt, andere wurden der Bequemlichkeit halber von nicht ausreichend vorbereiteten Musiken vereinfacht, wodurch sie an energetischer Aufladung eingebüßt haben. In der Praxis behaupteten sie sich als wohlklingender. Eine Reihe Veränderungen mancher Tonhöhen sowie mancher rhythmischen Figuren haben ihren natürlicheren Klang gefunden. In dieser Hinsicht gibt es viele Beispiele, aber ihre Analyse ist nicht Gegenstand des gegenwärtigen Vorworts.
+
+In Bezug auf die Notenrechtschreibung hält sich die gegenwärtige Ausgabe an alle Forderungen der heutigen Musikverlage, die sich in der Musiktheorie bestätigt haben. Das gilt im höchsten Maße für die logischen Akzente im poetischen und musikalischen Text, die synchron im gegebenen Takt des Liedes verteilt wurden. Ein anderer wichtiger Faktor ist der harmonische Aufbau der Melodie, deren Richtungen die Musikbilder formen.
+
+Das Ziel der redaktionellen Arbeit war, den musikalischen und poetischen Text aufrechtzuerhalten, indem sie ihn logisch in den entsprechenden Takten gemäß des harmonischen Aufbaus der Melodie verteilten. Die Auswahl der Tonarten ist beim Meister nicht zufällig. Sie bringt die Verbindung zwischen den Farben, den Tönen der Planeten und den Zahlen zum Ausdruck. Jeder Versuch eines bequemeren Transponierens nimmt etwas von der Klangfarbe hinweg.
+
+Vom rein historischen Gesichtspunkt setzte Philip Stoizev den Beginn der redaktionellen Anmerkungen und Besprechungen. Später begann eine größere Gruppe, in der Georgi Stratev, Yoana Strateva, Stanka Zheleva, Penka Kadieva und der Autor dieses Textes teilnahmen, die methodische und lange redaktionelle Arbeit. Trotz der unterschiedlichen Meinungen über bestimmte Probleme kam der Prozess in Harmonie und in Eintracht voran. Blagovest Zhekov publizierte eine eigene Variante der Lieder. Sein Sammelband hat gewisse Vorzüge: Er löst einen Teil der Probleme bei der Notenschreibung und führt zum ersten Mal phonetische Transkriptionen in lateinischer Schrift ein. Der Wert der gegenwärtigen Ausgabe sind die erweiterten Anmerkungen zu jedem Lied sowie das Wörterbuch der Musikbegriffe am Ende des Buches. Der größte Vorzug liegt aber in der gemeinsamen Arbeit, in der mehrere Menschen mit unterschiedlicher Sensibilität und unterschiedlichen Einstellungen professionell diskutierten und objektive Resultate erreichten.  
+
+\begin{flushright}
+	Peter Ganev 2006
+\end{flushright}
+
+
+\section[Gedanken des Meisters über die Musik]{GEDANKEN DES MEISTERS ÜBER DIE MUSIK}
+
+Wir verstehen die Musik in einem etwas anderen Sinne. Ich spreche über die bewusste Musik und nicht über die statische. Wir haben den Bereich der statischen Musik schon verlassen und treten in die organische Musik ein, die sich ständig verändert. 
+
+In der neuen organischen Musik werdet ihr an erster Stelle die Harmonie eurer Gedanken, Gefühle und Taten einbringen. Dann werdet ihr als Sänger Widerhall finden – die unsichtbare Welt wird euch zur Hilfe stehen.
+
+Ihr könnt nicht musikalisch sein, wenn euer Gedanke unmusikalisch ist, wenn eure Gefühle nicht musikalisch sind und wenn ihr nicht alles musikalisch betrachtet, das in der Welt geschieht. Wir leben und bewegen uns in Gott, und in dieser Bewegung gibt es Harmonie.
+
+Das Lied soll nicht nur eine Stimme haben, sondern in seine Töne sollen Inhalt und Bedeutung hineingelegt werden. Damit der Mensch singen oder spielen kann, soll er eine Idee, einen tiefen inneren Impuls haben. Ohne Idee gibt es kein Lied.
+
+Die Musik bringt der Seele des Menschen Weite, dem Geiste Kraft und Macht, dem Herzen Milde und Wärme, dem Verstand Licht und Freiheit.
+
+Jedes Lied soll Licht, Wärme und Kraft bringen. Die Natur schätzt die Töne, die Licht, Wärme und Kraft haben. Sie sind ein göttlicher Segen für die Welt.
+
+Die Musik und das Singen haben nur dann einen Sinn, wenn sie der Veredelung des Menschen dienen. Durch die Musik könnt ihr euren Charakter bilden.
+
+Euer Glück in der Welt hängt nur von der Musik ab. Weil das Leben eine ganzheitliche Kunst ist, ist es die größte Musik, die in der Welt existiert. 
+
+Das Wort Gottes ist die Musik des Lebens. Ohne die Musik, ohne die Weisheit und ohne die Wahrheit kann das Wort nicht gesprochen werden. Der Mensch kann nicht musikalisch sprechen, ohne die Wahrheit zu sprechen.
+
+Liebe - das ist die erhabenste Musik. Denkt ihr nicht, so könnt ihr nicht gut spielen und singen.
+
+Undenkbar ist es, genial ohne Musik zu werden. Ein Genie ist ein Mensch, der in den musikalischen Strom der Natur hineingeraten ist.
+
+Diejenige Musik, die gleichermaßen das Herz, den Verstand und den Körper einstimmt, ist die Musik der Natur. Unter dem Begriff Natur verstehe ich die Welt der Harmonie – dort, wo die ganze Musik hervorgegangen ist.
+
+Die Natur arbeitet in jeder Hinsicht musikalisch. Es gibt keine großartigere Kunst, keine größere Musik, als die Kunst der Musik und die Musik der Natur. Wer die Gesetze der Natur beachtet, kann Sänger werden. 
+
+Sänger und Musiker haben ein gut entwickeltes Ohr, damit sie die Töne richtig vernehmen und wiedergeben, so, wie sie aus der erhabenen Welt kommen. 
+
+Als Orpheus spielte und sang, wurde die Natur lebendig: Die Pflanzen, die Vögel, die Tiere, die Flüsse – alles begann sich zu bewegen und zu spielen. Derart soll der wahre Musiker sein.
+
+Wenn ihr in die Natur rausgeht, hätte ich gerne, dass ihr in sie hineinhört. Wenn ein Musiker ein entwickeltes Ohr hat, dann wird er selbst das hören, was er niemals in seinem Leben gehört hat. 
+
+Ihr habt nie den fließenden Quellen gelauscht -- welch angenehme Musik gibt es unter den kleinen Steinchen. Geht in den Wald, dort werdet ihr solche Symphonien und Arien hören!
+
+Die Musik ist eine von den Methoden der Natur, in euch lebendig zu werden – die Steine werden lebendig, die Bäume, die Quellen, alles rund herum wird lebendig.
+
+Ich möchte, dass ihr die okkulte Musik kennenlernt, auf dass ihr Kräfte und Inspirationen von der lebendigen Natur schöpft.
+
+Die okkulte Musik ist eine Musik der Bilder und der Gestalten. Wenn wir singen, dann soll in uns immer ein Bild entstehen; es sollen keine gewöhnlichen oder toten, sondern lebendige Bilder entstehen.
+
+Worin unterscheidet sich die okkulte Musik von der gewöhnlichen Musik? In ihrer absoluten Milde, Klarheit, Bildhaftigkeit und in den Naturbildern.
+
+Ihr alle sollt beim Singen danach streben, dass es in eurem Singen Klarheit und Sanftheit gibt. Wenn ihr leise und sanft singt, dann werdet ihr um euch herum Wesen von einer höheren Kultur anziehen. Strebt danach, leise zu singen, denn das leise Singen veredelt. Das laute Singen geschieht willentlich.
+
+In der okkulten Musik möchten wir nicht wie die Menschen, sondern wie die Engel singen. Durch die Musik können wir die Engel anziehen – sie werden sich für uns interessieren. Ihr werdet ihnen sagen: "`Wir studieren eure Musik und möchten singen, wie ihr singt."' Sie werden sagen: "`Sehr gut, wir werden euch unsere Gegenwart und unsere Unterstützung schenken."'
+
+Ideelle Lieder gibt es auf der Erde nicht. Ideelle Lieder gibt es nur bei den Engeln.
+
+Die Natur hat in jedem Menschen eine spezielle Musik angelegt, mit der er sich bei Schwierigkeiten behilflich sein kann. 
+
+Ich möchte, dass ihr für euch singt – ich meine, nicht persönlich für euch selbst, sondern für das Göttliche in euch. Wenn ihr ein Lied für euch singt, dann werdet ihr die gute Disposition des Geistes spüren.
+
+Alle okkulten Schulen, in der Vergangenheit und von heute bedienen sich der Methode der Musik zur Erziehung und Selbsterziehung. Wenn der Mensch eine der musikalischen Methoden zur Transformierung des Bewusstseins anwendet, wird er sich in einer halben oder einer ganzen Stunde in einer anderen Tonleiter des Lebens, fern von seinen Schwierigkeiten befinden. Jetzt nämlich, bei den Bedingungen, unter denen wir leben, müssen wir uns andauernd einstimmen, und die Musik ist eine der göttlichen Methoden zur Einstimmung. Wenn jemand die Übung "`Gott ist Liebe"' ausführt, wie sie gesungen werden soll, wird er sich verwandeln; welche Leiden er auch immer hat, sie werden verschwinden, er wird fröhlich und munter sein und sich verjüngen.
+Die Musik soll im Menschen ein fröhliches Gefühl aufsteigenden Grades, ein Gefühl der Schöpfung hervorrufen. Jeder soll sich selbst sagen: Ich soll Musiker werden, ich soll lieben, ich soll gerade denken. 
+
+In der Heiligen Schrift wurde gesagt: "`Singt und lobpreist den Herrn in eurer Seele."' Ich aber sage: Singt und lobpreist den Herrn in eurem Geist, in eurem Herzen und in eurem Verstand. Alles in euch, von den Füßen bis zu den Haaren auf eurem Kopf, soll singen.  
+
+
+
+
+
+
+
+\newpage
+
+
+
+
+\section[Die Morgenröte des Lebens]{DIE MORGENRÖTE DES LEBENS}
+
+1. Die wunderbare Morgenröte bricht an.
+
+die wundervolle Morgenröte des hellen, neuen Lebens, (2)
+
+mit Herrlichkeit bescheint sie unsere Bundeslade
+
+Die wunderbare Morgenröte bricht an.
+
+die Morgenröte des neuen Lebens.\\
+
+
+
+2. Und die Vögel erfüllen die Luft
+
+mit Begeisterung und süßen Liedern im Chor,
+
+auf dass sie die Harmonie ergänzen
+
+im großen himmlischen Hof.\\
+
+Refrain: 
+
+In diesem neuen, leuchtenden Leben (2)
+
+ein Leben der Liebe,
+
+in diesem neuen Leben der Liebe,
+
+das Leben der Güte,
+
+in diesem neuen leuchtenden Leben,
+
+ein Leben der Freude.\\
+
+3. Die Morgenröte flimmert leichtbeschwingt
+
+und erweckt unsere Seelen;
+
+wie liebe, liebevolle Mutter
+
+ladet sie jeden ein: "`Stehe auf!"' \\
+
+
+\textit{Refrain ...}\\
+
+4. Strahlen aus Liebe flößen 
+
+in unserer Brust lebendige Wärme ein,
+
+mit süßem Glauben erheben sie uns
+
+in Stärke und Licht.
+
+\textit{Refrain ...}\\
+
+O, diese Strahlen kommen von Gott,
+
+sie erfüllen unsere Herzen
+
+und flüstern uns süß zu, wie Er ruft:
+
+"`Kommt, meine Kinder!"'
+
+\textit{Refrain ...}\\
+
+
+\section[Der Sämann ist hinausgegangen]{DER SÄMANN IST HINAUSGEGANGEN}
+
+
+1. Der Sämann ist hinausgegangen, 
+
+um das wunderbare Gute zu säen: das neue Leben!
+
+Und er sät und singt leise 
+
+vor jedem Haus und jeder Familie:\\
+
+Refrain: 
+
+"`Eine unschätzbare Gabe ist die Liebe (ljubovta), 
+
+ein schönes Gefühl die Liebe (obitschta), 
+
+und ein gutes Werk die Barmherzigkeit, 
+
+eine ergiebige Quelle die Weisheit."'\\
+
+2. Und wer sie hört, 
+
+erschauert vor dieser guten, liebevollen Melodie; 
+
+und erstrahlt und aufersteht
+
+und segnet diese Saat.\\
+
+3. Die Liebe strömt in das Universum aus, 
+
+aus Liebe strahlt jedes Wesen, 
+
+das Leben quillt in das Leben über; 
+
+hier gibt es weder Jung noch Alt mehr.
+
+\textit{Refrain ...}
+
+\section[Brüderlichkeit, Einheit]{BRÜDERLICHKEIT, EINHEIT}
+
+1. Wir wollen Brüderlichkeit und Einheit,
+
+Wir senden den Ruf der Liebe aus,
+
+Die Welt der Freude rufen wir:
+
+auf dass wir das gute Leben in uns
+ergießen!\\
+
+2. Auf dass wir das gute Leben in uns ergießen, (3)
+
+ergießen, ergießen, ergießen,
+
+Auf das wir das gute Leben in uns ergießen, (2)
+
+ergießen, ergießen, ergießen.
+
+\section[Ich werde mich erfreuen]{ICH WERDE MICH ERFREUEN}
+
+Ich werde mich sehr um des Herrn willen freuen;
+
+meine Seele wird fröhlich sein in meinem
+Gott:
+
+Denn Er hat mich mit den Gewändern
+des Heils bekleidet,
+
+mich mit dem Mantel der Gerechtigkeit
+umhüllt, (2)
+
+wie ein Bräutigam mit Kopfschmuck
+geziert,
+
+wie eine Braut mit ihrem Geschmeide
+geschmückt,
+
+wie eine Jungfrau, auserwählt unter
+ihren Gefährtinnen.
+
+
+\section[Der feierliche Tag bricht schon an]{DER FEIERLICHE TAG BRICHT SCHON AN}
+
+1. Der feierliche Tag bricht schon an, 
+
+der vorhergesagte göttliche Tag,
+
+ein Diadem der Tage,
+
+mit seinem großen Licht.\\
+
+Refrain:
+
+Kommt, auf das wir 
+
+in der wunderbaren Liebe leben.
+
+Kommt, auf das wir 
+
+diesen himmlischen Segen empfangen,
+
+welcher das Leben erneuert
+
+ und es ewig verjüngt.\\
+
+2. Und er bringt Freude für die Seele
+
+und verkündet die Freiheit
+
+Und den Frieden mit allheiliger Liebe
+
+für alle auf der Erde.\\
+
+
+\textit{Refrain ...}\\
+
+3. O, wunderschöner Tag, ewiges Wohl,
+ 
+wem ist das nicht wertvoll?
+
+Erneuere uns bald
+
+für all die Jahre.\\
+
+
+
+\section[Lobe]{LOBE}
+
+
+Lobe den Herrn, meine Seele,
+vergiss nicht all Seine Gnade,
+
+vergiss nicht all Seine Güte
+
+vergiss nicht all Seinen Wohltaten!
+
+Vergiss nicht seine Gnade
+
+vergiss nicht Seine Güte,
+
+vergiss nicht Seine Liebe, [obich]
+
+vergiss nicht Seine Liebe! [ljubov]
+
+\section[Wache auf, Bruder]{WACHE AUF, BRUDER}
+
+1. Wache auf, lieber Bruder, 
+
+erhebe dich vom tiefen Schlaf
+
+und nimm die jahrhundertealten Ketten 
+
+von deinen Füßen ab. \\
+
+
+Refrain:
+
+Die Liebe ist deine Mutter,
+
+deine Kraft, dein Pilot --
+
+sie wird dich stark aufrichten,
+
+dir das Leben schenken.\\
+
+
+2. Verlasse dein düsteres Gefängnis,
+
+draußen ist überall Licht; 
+
+Frieden und Freude erwarten dich, 
+
+und selige Nachwirkungen.\\
+
+Refrain:
+
+Die Liebe ist dein Meister,
+
+auf dass sie dir das lebendige Wort geben wird --
+ 
+sie wird dich das Gute lehren
+
+und dich in die Weisheit einweihen.\\
+
+3. Und sage deinem Bruder,
+
+ein süßes Wort mit einem neuen Impuls --
+
+damit du sein Herz erwärmst
+
+mit deiner aufrichtigen Liebe.\\
+
+Refrain:
+
+Die Liebe ist dein Retter:
+
+Ruf sie zur Hilfe --
+ 
+sie wird deine Seele vom Joch
+ 
+bald befreien.
+
+
+\section[Die Liebe ist eine Quelle]{DIE LIEBE IST EINE QUELLE}
+
+1. Die Liebe ist eine Quelle, 
+
+sie gebiert das Leben
+
+und sät sanft in ihm eine allheilige Pflicht:
+
+auf dass wir immer vorwärts schreiten, 
+
+im Streben nach dem Guten,
+
+das oben im Himmel 
+
+vollkommen ist. \\
+
+
+Refrain:
+
+Arbeite mit ihr, 
+
+in der gewünschten Barmherzigkeit,
+
+und bringe ihre Hilfe
+ 
+für die leidenden Seelen. \\
+
+
+2. Dies vollbringt sie selbst unaufhörlich
+
+wie eine zärtliche Mutter
+
+in jedermanns Seele --
+
+sie sät immerdar
+
+die lieben Samenkörner,
+
+aus denen die gütigen Wohltaten sprießen.\\
+
+\textit{Refrain ...}\\
+
+3. Dieses große Geheimnis
+
+wer es gut versteht,
+
+öffnet morgens
+
+seine liebe Seele,
+
+wie die weiße Lilie
+
+vom himmlischen Tau
+
+und von dem wunderbaren Sonnenlicht. \\
+
+\textit{Refrain ...}\\
+
+4. Die Sonne, die rechtzeitig den Menschen belebt,
+
+scheint warm, erweckt und lässt
+
+in ihm die Samenkörner gedeihen
+
+und füllt geheimnisvoll seine
+
+Seele mit Tugenden.\\
+
+
+\textit{Refrain ...}\\
+
+
+5. Diese so süßen Früchte,
+
+in der Liebe gereift,
+
+am seligsten wird der sein,
+
+der sie kostet.
+
+In himmlischen Wohnstätten
+
+wird er ewig leben,
+
+vor dem Thron Gottes
+
+wird er Lieder singen. \\
+
+\textit{Refrain ...}
+
+
+
+\section[Stehe auf, stehe auf]{STEHE AUF, STEHE AUF}
+
+Stehe auf, stehe auf
+
+und der Herr wird dich beleben;
+
+stehe auf, stehe auf
+
+und der Herr wird dich auferstehen lassen; 
+
+stehe auf, stehe auf 
+
+und beginne mit der Liebe;
+
+stehe auf, stehe auf 
+
+und kleide dich in Wahrheit.\\
+
+Kleide dich in Wahrheit
+
+und erbaue immer mit ihr,
+
+sie wird dich erneuern
+
+und mit Geist erleuchten.
+
+\section[Leidende Seele]{LEIDENDE SEELE}
+
+Leidende Seele, die du dich sehnst:
+
+Wofür brennst und glühst du? 
+
+"`Ich warte auf Dein Wort, oh Gott,
+
+und auf Deine reichliche Barmherzigkeit. 
+
+Dafür leide ich, danach sehne ich mich.\\
+
+
+2.  Und ich hungere und ich dürste, 
+
+ich erwarte dies Tag und Nacht. 
+
+Segne mich Gott, 
+
+auf dass ich Dir nahe bin 
+
+und bei Dir Trost finde.\\
+
+
+3.  Ich schaue Dein lichtvolles Antlitz 
+
+und Deine Größe,
+
+auf dass ich Dich lieben lerne. 
+
+Möge ich in dieser Liebe Deine machtvolle Kraft finden.\\
+
+
+4.  In den Heldentaten und der Vollkommenheit 
+
+möge ich Deine Barmherzigkeit erkennen,
+
+Dein allmächtiges Geheimnis,
+
+das dem Menschen Eitelkeit des Lebens
+
+offenbart. \\
+
+
+5. Alles Sündige auf der Erde
+
+ist vergänglich und flüchtig.
+
+Nur Du Gott, bist ewig:
+
+Wir loben Dich, wir lobpreisen Dich,
+
+Dich wird die Ewigkeit lobpreisen."' 
+
+
+
+\section[Gehe auf, du meine Sonne]{GEHE AUF, DU MEINE SONNE}
+
+1. Geh auf, geh auf, du meine Sonne, 
+
+denn ich warte auf dich jeden Tag; 
+
+nach dir sehnt sich mein ganzes Herz
+
+und ich bin auf meinem Weg ermattet;
+ 
+Du bringst mir das glückselige Leben.\\
+
+Refrain:
+
+Seliges Leben, seliges Leben
+
+seliges, seliges, seliges Leben,
+
+du, der du mir das selige Leben bringst.\\ 
+
+
+2. Bescheine den Himmel und die Erde,
+
+die azurblaue unterhimmlische Weite; 
+
+erfreue heute unaufhörlich meine Seele
+
+mit deinen Schwingungen.
+
+Oh, gib mir dieses Leben und diesen Frieden!\\
+
+Refrain:
+
+Leben und Frieden, Leben und Frieden,
+
+und Frieden, und Frieden, Leben und Frieden,
+
+oh, gib mir dieses Leben und diesen Frieden!\\
+
+
+3. Einzig bist du, die du alles mit Liebe erfüllst 
+
+und alles Alte erneuerst; 
+
+durch dich wird die Welt neu werden, 
+
+du bist auf ewig die heilige Liebe!\\
+
+Refrain:
+
+Heilige Liebe, heilige Liebe,
+
+Liebe, Liebe, heilige Liebe,
+
+du bist ewige heilige Liebe.\\
+
+\section[Es lärmt]{ES LÄRMT}
+
+1. Es lärmt, es lärmt, ich höre,
+
+die ganze Welt lärmen! 
+
+Die Herzen der Menschen lärmen 
+
+zwischen ihren Idolen und Fehlern; 
+
+die Gehirne lärmen unaufhörlich. 
+
+Es ist eine große Flut in den Häusern. 
+
+Es lärmt, ich höre,
+ 
+die ganze Welt lärmen!\\
+
+
+2. Und der Wind weht, 
+
+wohin er will. 
+
+Die Blätter des Waldes antworten 
+
+auf seinem Ruf, sie wiederholen ihr Lieblingslied,
+
+spielerisch wie ein tanzendes Mädchen.
+
+Und der Wind weht, 
+ 
+wohin er will.\\
+
+3. Oh, mein Wind, 
+
+wehe nun stark! 
+
+Bringe die göttliche Feuchtigkeit
+
+und die belebende Frische, 
+
+reinige die stickigen Hütten
+
+und zerstreue die schweren menschlichen Sorgen!
+
+Oh, mein Wind,
+
+wehe nun stark!\\
+
+
+4. Wehe, Wind, 
+
+muntere die Welt auf! 
+
+Bei reinen Gedanken und zärtlichen Gefühlen 
+
+erblühen die göttlichen Künste;
+
+möge überall Freude erstrahlen
+
+und die frische Jugend aufatmen! 
+
+Wehe, Wind, 
+
+kläre die Welt!
+
+
+\section[Bei der Quelle]{BEI DER QUELLE}
+
+Ein hoher Berggipfel funkelt,
+
+beschienen von himmlischen Strahlen. 
+
+Dort sprudelt eine reine Quelle 
+
+und in Hymnen gießt sie ihre Seele aus,
+
+Seele, Seele,
+
+und in Hymnen gießt sie ihre Seele aus.\\
+
+2. Zu ihr strebt mühsam ein müder Wanderer
+
+ mit Hoffnung. 
+
+Mit tiefer Trauer belastet,
+
+weist er sich dort ein neues Leben zu,
+
+er weist sich, er weist sich
+
+ein neues Leben zu.\\
+
+3. Und er fragt: 
+
+"`Darf ich von deinem
+
+reinen Wasser trinken, 
+
+damit ich meine Augen erquicke,
+
+damit ich meine leidende Seele reinige,
+
+reinige, reinige,
+
+damit ich meine leidende Seele reinige?\\
+
+4. Darf ich mich erholen;
+
+mein Gesicht und meine Füße 
+
+von diesem weltlichen Staub reinigen,
+
+mein mit Wunden bedecktes Herz öffnen,
+
+öffnen, öffnen,
+
+mein mit Wunden bedecktes Herz öffnen?"'\\
+
+5. "`Neige dein Haupt, oh, unglücklicher Wanderer: 
+
+lösche heute deinen unendlichen Durst
+
+durch mich und hoffe auf mich,
+
+hoffe, hoffe auf mich und
+
+hoffe du auf mich!\\
+
+6. Ich habe deine Märtyrerstimme gehört,
+
+deine liebe Klage vernommen. 
+
+Ich bin ein großer, göttlicher Geist
+
+und werde dir Leben und Kraft 
+
+und Kraft und Kraft
+
+und ich werde dir Leben und Kraft geben.\\
+
+7. Komm, komm und stille deinen Durst bei mir,
+
+oh geliebtes göttliches Geschöpf. 
+
+Angebrochen ist der letzte Tag
+
+von aller Qual und Trauer,
+
+Trauer, Trauer,
+
+von aller Qual und Trauer."'
+
+\section[Lasst uns vorwärts gehen]{LASST UNS VORWÄRTS GEHEN}
+
+1. Lasst uns kühn vorwärtsgehen
+ 
+in die stillen Paläste des geheimen Wissens,
+ 
+erfüllt mit Leben und Kraft.\\
+ 
+ 
+Refrain: 
+
+Wie ein Wirbel über den Wäldern,
+ 
+mit feurigem Geist in der Brust, 
+  
+lasst uns vorwärts fliegen 
+
+auf dass wir die Welt erneuern!\\
+ 
+ 
+2. Lasst uns die Erde
+ 
+mit reinen Gedanken umgrenzen 
+  
+und das allsündige Böse
+
+mit Gerechtigkeit besiegen.\\
+
+\textit{Refrain ...}\\
+
+3. Lasst uns den Schwachen
+
+Stütze und Erneuerung bringen,
+
+den Leidenden -- Barmherzigkeit
+
+und die neue Freiheit.\\
+
+4. Lasst uns in den Abgrund hinabsteigen,
+
+eine Fahne setzen
+
+und die gefallenen Brüdern
+
+aus der Qual befreien.\\
+
+\textit{Refrain ...}\\
+
+5. Lasst uns dann die Tore
+
+der neuen Stadt öffnen,
+
+lasst uns in Jerusalem eintreten --
+
+in die Welt der Lichter. \\
+
+
+\section[An den Meister]{AN DEN MEISTER}
+
+1. Ich werde dem Meister 
+
+bis zum Ende ergeben dienen, 
+
+Er ist für mich ein offener Weg, 
+
+der mich zum Vater führt.\\
+
+
+2. Herr, Du mein Meister, 
+
+führe mich in meinen Schritten, 
+
+und sei wie ein machtvoller Beschützer 
+
+immer bei mir.\\
+
+3. Gib mir Deine heilige Weisheit
+
+und Deine göttliche Liebe;
+
+auf dass ich immerdar bereit bin
+
+für die Liebe zu all meinen Brüdern.\\
+
+
+4. Und in den Tagen der Prüfungen, 
+
+sei Du mein Fels,
+
+so werde ich für Dich leben
+
+und für Dich sterben.\\
+
+5. Und wenn ich ein Bewohner 
+
+der unsichtbaren Welt werde, 
+
+oh mein geliebter Meister --
+
+gib mir Deinen Segen!
+
+
+
+\section[Die Barmherzigkeit]{DIE BARMHERZIGKEIT}
+
+1. Die Barmherzigkeit ist ein Paradiesgarten,
+
+wunderschön geschmückt, erfüllt von der Maischönheit; 
+
+Kräuter und Bäume, entwickelt in Schönheit,
+
+immerdar reichlich bedeckt mit Früchten. (2) \\
+
+2. Alles Wertvolle und Liebe lebt in Liebe, 
+
+blüht, bildet Frucht, gedeiht und reift.
+
+Frühling, Sommer, Herbst und Winter, 
+
+seitdem es Menschen auf der Erde gibt.\\
+
+3. Und wenn ein müder Reisender am Garten vorbeikommt,
+
+begrüßt ihn freundlich jedes kleine, lebendige Ästchen 
+
+und bietet ihm uneigennützig die reifen Früchte
+
+mit einer aufrichtigen Wonne und mit einem gütigen Lächeln an.\\
+
+4. Arme und Reiche, Gesunde oder Kranke
+
+sind in jeder Zeit hier zufrieden, 
+
+dass sie die Sorgen und das Joch in Freude verwandeln, 
+
+mit Trost den Sinn des Lebens sehen.\\
+
+
+5. Deshalb sollte jener, der nach dem wahren Sieg sucht,
+
+solch ein wunderbares Paradies großziehen. 
+
+Das Glück wird für ihn nicht enden 
+
+Erde und Himmel werden ihn segnen.
+
+\section[Ruf des Herzens]{RUF DES HERZENS}
+
+1. Wir fallen heute vor Dir nieder, Herr, 
+
+mit reinen zittrigen Seelen.
+
+Wir schütten unsere Herzen in einem Lied aus 
+
+und rufen Dich an, Allheiliger! Vergib!\\
+
+2. Vergiss unsere Sünden, 
+
+segne uns reichlich.
+
+Allgütiger König der leuchtenden Seelen,
+
+empfange uns in Deinem Reich!\\
+
+3. Wir lobpreisen Dich dort in der Ewigkeit,
+
+einzig Dir gebührt der Lobpreis.
+
+Umgrenze uns mit Deiner Barmherzigkeit,
+
+erleuchte uns mit Deinem Licht.\\
+
+
+\section[Gelobter Herr]{GELOBTER HERR}
+
+Gelobt sei der Herr, unser Gott,
+
+der Herr aller Zeiten!
+
+Gepriesen sei unser Vater,
+
+der Vater der lichtvollen Geister
+
+der lichtvollen Geister
+
+der lichtvollen Geister
+
+der lichtvollen Geister
+
+der lichtvollen Geister
+
+der lichtvollen Geister!
+
+\section[Für den himmlischen König]{FÜR DEN HIMMLISCHEN KÖNIG}
+
+Vorwärts, vorwärts zum Ruhm,
+
+in den Kampf für den himmlischen König, 
+
+der König der Gerechtigkeit,
+
+des Friedens und der Liebe
+
+des Friedens und der Liebe
+
+des Friedens und der Liebe!\\
+
+Der Ruhm, der Ruhm gebührt Dir;
+
+Du bist der König der Gerechtigkeit und des Friedens,
+
+Du bist der König der Gerechtigkeit und des Friedens,
+
+des Friedens und der Liebe
+
+des Friedens und der Liebe
+
+des Friedens und der Liebe
+
+des Friedens und der Liebe
+
+der Liebe, der Liebe.
+
+\section[Es ist Zeit, dass wir gehen]{ES IST ZEIT, DASS WIR GEHEN}
+
+1. Es ist Zeit, auf dass wir gehen, 
+
+auf das wir das Böse besiegen, 
+
+auf dass wir den Frieden wiederherstellen,
+
+auf dass wir Christus herrschen lassen! 
+
+Gerechtigkeit werden wir einführen, 
+
+Freiheit werden wir geben, 
+
+und in allen Tagen
+
+werden wir treu sein.\\
+
+Refrain: 
+
+Möge die Liebe herrschen 
+
+möge die Güte herrschen!
+
+Gott ist der König der Welt; 
+
+Er ist das Licht auf unserem Weg.\\
+
+2. Lasst uns schnell losfliegen 
+
+mächtig posaunen, 
+
+lasst uns die Freude verkünden,
+
+den Glauben wiederbeleben! 
+
+Die Welt wird wieder beschienen werden, 
+
+in der ersten Schönheit, 
+
+Freiheit, Frieden und Ordnung werden überall walten!\\
+
+Refrain: 
+
+Möge die Liebe herrschen!
+
+Möge die Güte herrschen!
+
+Gott ist der König der Welt,
+
+Er ist Lich auf unserem Weg.
+
+\section[Gruß an den Meister]{GRUSS AN DEN MEISTER}
+
+1. Gesegnet bist du von Gott, 
+
+oh Meister der Liebe, 
+
+denn gerade in diesen Tagen
+
+hast du Frieden und Licht gebracht.\\
+
+Refrain: 
+
+Sei willkommen, sei willkommen,
+
+Meister der Liebe; 
+
+sei willkommen, sei willkommen, 
+
+Meister der Weisheit!\\
+
+
+2. Bis zu dieser Stunde von Dunkelheit eingehüllt, 
+
+waren wir Sklaven der Sünde,
+
+aber wir haben deine sanfte Stimme gehört, 
+
+und Wärme hauchte uns an.\\
+
+\textit{Refrain ...}\\
+
+3. Gesegneter Meister,
+
+du hast unsere Herzen erneuert, 
+ 
+du hast in uns ein heiliges Feuer angezündet
+
+und süße Worte belebt.\\
+ 
+
+\textit{Refrain ...}\\
+
+
+4. Meister, unser lieber Gast, 
+
+nimm unseren Gruß an; 
+
+mit Freude sind wir bereit, 
+
+unser Leben zu opfern.
+
+\section[Mein Sohn, bewahre das Leben]{MEIN SOHN, BEWAHRE DAS LEBEN}
+
+1. Mein Sohn, bewahre das Leben, 
+
+die in dir verborgene Glut --
+
+Es ist seinem Sinn nach kostbar
+
+und ein herrliches Geschenk! 
+
+Unsterblicher, unvergänglicher Geist --
+
+der, der ewig wacht 
+
+und unermüdlich arbeitet,
+
+unaufhörlich in dir erschafft.\\
+ 
+2. Du bist dieses wirkliche Leben; 
+
+Sohn; erkenne dich! 
+
+Deine Kraft ist groß,
+
+deine Tage haben kein Ende. 
+
+Du erschaffst jeden Impuls, 
+
+das edle Streben, 
+
+die hohen Ideale 
+
+und die schöne Sehnsucht.\\
+
+3. Dieses Fleisch ist dein Gewand,
+
+und die Erde eine Schulbank.
+
+Du lebst und lernst, 
+ 
+wie ein kleiner Sohn Gottes. 
+
+Kühnheit, mein liebes Leben,
+
+die göttliche Liebe ist mit dir! 
+
+Sie ruft dich immer nach oben --
+
+in Vollkommenheit und in die neue Welt.
+
+\section[Tautropfen]{TAUTROPFEN}
+
+1. Tautropfen, azurblaue Welt,
+
+rein, schön, still und sturmfrei --
+
+Frieden des paradiesischen Lebens, (2)
+
+in dir, Tropfen, rufe ich alle lieben Brüder und Schwestern, 
+
+damit wir dein Volk werden.\\
+
+2. Jeden Morgen werden wir unsere Herzen
+
+im Tau baden
+
+wie die Sonnenstrahlen,
+  
+und wir werden neue Lieder singen,
+
+mit wunderbaren Melodien --
+
+auf dass das rote Himmelsgewölbe erklinge.\\
+
+3. Und so -- rein, in weißen Kleidern
+
+und umgürtet mit der Rüstung der großen Liebe 
+
+werden wir ein neues Reich errichten:
+
+auf dass wir unseren Gott verherrlichen, 
+
+jeden Tag, auf ewig.
+
+\section[Ich bin das weiße Schneeglöckchen]{ICH BIN DAS WEISSE SCHNEEGLÖCKCHEN}
+
+1. Ich bin das weiße Schneeglöckchen
+
+inmitten der Gräsern des Waldes,
+
+schüchtern wie ein junges Mädchen 
+
+unter den Blicken der Menschen. \\
+
+Refrain:
+
+Die böse Stiefmutter hat mich geweckt, 
+
+mit dem Schnee und mit dem Wind. 
+
+Alles Lebendige wundert sich, 
+
+dass ich eine Frühblüher bin.\\
+
+2. Ich zeige euch eine neue Freude
+
+mit einem früh erwachten Glöckchen,
+
+und erzähle über den Frühling
+
+ein wunderbares Märchen,\\
+
+Refrain:
+
+dass nach mir das Veilchen
+
+bei euch Gast sein wird, 
+
+und dass man mit dieser lieben Freundin
+
+die Nachtigall hören wird.\\
+
+3. dass Lämmer blöken werden
+
+auf grünen Weiden, 
+
+die Bauer werden 
+
+die gedüngten Feldern säen. \\
+
+Refrain:
+
+Goldene Ähren werden reifen,
+
+auf diesen wunderbaren Feldern. 
+
+Die Engel werden Gott loben 
+
+mit den allerschönsten Liedern.
+
+\section[Vorwärts, Kinder, Vorwärts]{VORWÄRTS, KINDER, VORWÄRTS}
+
+1. Vorwärts, Kinder, vorwärts,
+
+bringt das Wort überall hin! 
+
+Bringt ohne Angst vor dem neuen Leben 
+
+Gerechtigkeit, Frieden und Liebe!\\
+
+2. Vom neuen Himmel aus
+
+ruft uns heute der Erlöser.
+
+Hört diesen Ruf, 
+
+bringt Gerechtigkeit, Frieden und Liebe!\\
+
+3. Hier unten gibt es keinen Frieden, 
+
+Ungerechtigkeit ist weit und breit.
+
+Verbreitet heute schnell 
+
+die gute Nachricht von Frieden und Gerechtigkeit!\\
+
+4. Vorwärts, Kinder, vorwärts,
+
+bringt das Wort überall hin! 
+
+Bringt ohne Angst vor dem neuen Leben 
+
+Gerechtigkeit, Frieden und Liebe!\\
+
+\section[Die Waldnachtigallen]{DIE WALDNACHTIGALLEN}
+ 
+1. Wir sind die Nachtigallen des Waldes,
+
+mit Liedern preisen wir den Himmel. 
+
+sklavische Gefühle und menschliche Sorgen
+
+vertreiben wir mit Liedern.\\
+
+2. Unsere Lieder sind schwungvoll, 
+
+sie bringen uns ewig Freude;
+
+sie sind sowohl lebhaft als auch spielerisch
+
+wie ein schnell fließendes Bächlein.\\
+
+3. Nun, hört, wie unser Lied 
+
+in der Stille fließt --
+
+es fließt und es wiegt wie
+
+ein Strom in der Seele.\\
+
+4. Durch unsere ruhige und aufrichtige Stimme
+
+wird alles Böse gebannt; 
+
+einen neuen Soldaten, jung und gerecht, 
+
+werden wir durch unsere Lieder erwecken.\\
+
+5. Singt, singt ihr süßen Vögel, 
+
+nur so lebt man wahrhaftig; 
+
+singt, singt alle zusammen, 
+
+auf dass die ganze Welt mit euch singe!
+
+\section[Der Himmel öffnet sich]{DER HIMMEL ÖFFNET SICH}
+
+1. Der Himmel öffnet sich
+
+und die Engel singen
+
+Leuchtende Blitze 
+
+vertreiben Dunkelheit und Finsternis.\\
+
+2. Christus kommt herab 
+
+in sein Reich, 
+
+mit Macht und Kraft, 
+
+in all seinem Ruhm.\\
+
+3. Kommt, alle Brüder, 
+
+ganz in weiß gekleidet,
+
+auf dass wir ihn in Freude,
+
+feierlich und ehrerbietig willkommen heißen.\\
+ 
+4. Er kommt auf die Erde, 
+
+um ewiglich zu herrschen
+
+und allen ein Leben 
+
+in Wahrheit zu schenken.\\
+
+
+5. Gepriesen sei das Reich
+
+ unseres dreifaltigen Gottes,
+ 
+ von nun an und auf ewig
+ 
+ und in allen Zeiten.
+ 
+\section[Oh, gütiger Meister]{OH, GÜTIGER MEISTER}
+
+1. Oh, gütiger Meister, 
+
+du bist von Güte erfüllt,
+
+deine Worte sind beflügelt,
+
+voller Weisheit und Licht.\\
+
+2. Du bist der Bote Gottes 
+
+unter gequälten Seelen.
+
+Gieße in uns Frieden und Liebe, 
+
+ein neues Leben und glückliche Tage.\\
+
+3. In Zeiten von Kummer, Unglück und Elend
+
+nur du bist unsere Zuflucht, 
+ 
+du hast uns Trost gebracht.
+
+Dir, mein Meister, gilt Verneigung!\\
+
+4. Deine Worte -- reine Perlen, 
+
+dein Bild -- Licht. 
+
+Oh, verehrter Meister,
+
+fülle unsere Herzen mit Wärme!
+
+\section[Kühnheit in Christus]{KÜHNHEIT IN CHRISTUS}
+
+1. Kühnheit in Christus, Freunde, 
+
+auf das wir mit Ihm vorwärts gehen,
+
+Er ist der König des Lebens, 
+
+Sein Königreich ist überall, ist überall.\\
+
+2. Kühnheit in Christus, Freunde,
+ 
+auf das wir immer vorwärts gehen!
+
+Gott-Christus führt uns auf dem Weg,
+
+Er ist der mächtige König überall,
+
+König überall.\\
+
+3. Und hier unten, und dort oben,
+
+in den Universen ohne Enden,
+
+überall herrscht nur Er,
+
+Er ist das Zepter und die Krone,
+
+und die Krone.\\
+
+4. Er herrscht, segnet --
+
+auf dass alles in Weisheit gedeiht,
+
+auf das wir Ihm die Früchte der heiligen Gerechtigkeit
+
+als Opfer bringen,
+
+bringen.\\
+
+5. Siehe, heute rufen sie uns nach oben,
+
+auf das wir zum Himmel fahren,
+
+weil uns dort die Freude erwartet -- 
+
+auf das wir eine neue Stadt errichten,
+
+errichten.\\
+
+6. Fürchtet euch nicht vor dem Tod,
+
+die Wesenheit vergeht nicht,
+
+das, was wir hier Tod nennen,
+
+ist für den Himmel ein Tor.
+
+Ist ein Tor.\\
+
+7. Mit Freude und mit Lobeshymne
+
+Werden wir ihre Schwelle übertreten,
+
+und jenseits erwartet uns Christus
+
+immer so sanft, immer so gütig,
+
+immer so gütig.\\
+
+8. Und dort wird er uns lehren
+
+wie das Vergängliche nicht vergeht,
+
+wie der Mensch mit seinem Körper
+
+ewig leben kann,
+
+leben kann.\\
+
+
+\section[Die Herrlichkeit Gottes]{DIE HERRLICHKEIT GOTTES}
+
+Gib nicht mir, nicht mir, 
+
+sondern Deinem Namen Ruhm, Ruhm, Ruhm.
+
+\section[An Zion]{AN ZION}
+
+1. Mit Adlerschwingen, unser lieber Zion, 
+
+schwungvoll fliegen wir heute gemeinsam zu dir.
+
+Der Tod erschreckt uns nicht mehr, 
+
+in uns lebt der Heilige Geist, 
+
+gleichermaßen erfreut uns diese und die andere Welt.\\
+
+
+2. Über das Fleisch werden wir 
+
+mit Mut und mit neuer Heldentat siegen, 
+
+unsere Herzen werden wir zum Schmelzen bringen
+
+mit der Liebe Christi.\\
+
+
+3. Erstrahle, heiliges Zion,
+
+schnell fliegen bereits.
+
+Wir werden uns  bald dem Gott in dir
+
+im Geist verneigen.\\
+
+\section[Die Sonne der Liebe]{DIE SONNE DER LIEBE}
+
+1. Die Sonne der Liebe
+
+geht schon in der Welt auf.
+
+Sie bringt überall Licht hin
+
+und verbreitet Wärme.\\
+
+
+2. Wir sind die Sonnenstrahlen,
+
+bringen das neue Leben.
+
+Wir sind die Sonnenstrahlen,
+
+bringen das neue Leben.
+
+\section[Du bist die offenbarte Liebe]{DU BIST DIE OFFENBARTE LIEBE}
+
+Du bist die offenbarte Liebe zu mir, oh Herr.
+
+Meine Seele sehnt sich nach Deiner Reinheit,
+
+Meine Seele sehnt sich nach Deinem Licht.
+
+\section[Es kommen die Tage der Freude]{ES KOMMEN DIE TAGE DER FREUDE}
+
+Es kommen die Tage der Freude, 
+
+es kommen die Tage der Freude,
+
+es kommen die Tage der Freude,
+
+für diejenige, die Gott dienen. 
+
+\section[Ins Rila]{INS RILA}
+
+1. Ins Rila fliegen wir 
+
+mit machtvollem Gedanken jeden Tag. 
+
+Mit diesem Wunsch in der Brust
+ 
+leben wir in einer unvergänglichen Welt.\\
+
+2. Wieder werden wir uns
+
+bei den Rila-Augen treffen, 
+ 
+Hier wird die wunderbare Violine 
+
+in neuem Klang erklingen.\\
+
+3. Unsere Seelen -- Geigen --,
+
+werden Schönheit ausstrahlen,
+
+denn mit ihnen wird 
+
+das Gute, die Liebe spielen.\\
+
+4. Wir werden ins Rila gehen 
+
+wir werden den Musala sehen,
+
+die unendliche Natur
+
+und unseren lieben Vater.
+
+\section[Psalm 91]{PSALM 91}
+
+Wer im Schutz des Höchsten wohnt, 
+ 
+bleibt im Schatten des Allmächtigen.
+ 
+Ich sage zum HERRN:
+ 
+Meine Zuflucht und meine Burg, mein Gott, ich vertraue auf Ihn! 
+
+\section[An die weiße Farbe]{AN DIE WEISSE FARBE}
+
+Mögen wir noch höher nach oben gehen.
+
+zu den weißen Schneegipfeln,
+
+auf dass wir den weißen Äther begrüßen
+
+und die Schneekristalle.\\
+
+Refrain:
+
+Die Schönheit der göttlichen Welt,
+
+das Weiße, unsere Farbe --
+
+hat ewige Kraft,
+
+die Finsternis ergreift sie nicht.\\
+
+Höher nach oben! Dort blüht 
+
+die weiße Alpenrose,
+
+die Morgenröte goss die weiße Farbe
+
+in diese Rose hinein. \\
+
+\textit{Refrain ...}\\
+
+Nach oben! Eine weiße Sonne wird heute
+
+vom Osten aufgehen --
+
+das Emblem des Lebens für diejenigen,
+
+in denen Gott lebt.
+
+\textit{Refrain ...}\\
+
+Nach oben -- in dieses Weiße!
+
+Es wird alles ausfüllen
+
+und wird die tödliche Dunkelheit
+
+in einem weißen Tag verwandeln.\\
+
+\textit{Refrain ...}\\
+
+Wir werden die Erde verschönern,
+
+wir werden sie zum Paradies machen;
+
+Wir werden den Himmel erfreuen
+
+und Gott lobpreisen. 
+
+\section[Singt zu Christus]{SINGT ZU CHRISTUS}
+
+1. Mögen wir neue Hymnen zu Jesus
+
+in dieser Stunde singen --
+
+Er ist der ewige Sohn Gottes 
+
+im Himmel und in uns.
+
+Unser Meister, unser Führer, 
+
+unser wahres Leben,
+
+sein starker Name sei gepriesen
+
+von Geschlecht zu Geschlecht.\\
+
+Singt zu Christus neue Hymnen
+
+in dieser festlichen Stunde,
+
+Er ist der Sohn Gottes, 
+
+der auf die Erde um unsertwillen gesendet wurde.
+
+Er gab sein Leben, um uns von der Sünde zu retten, 
+
+wie ein Sterbender stieg er in das Grab hinab,
+
+um die Toten auferstehen zu lassen. \\
+
+3. Und nachdem er gepriesen worden war,
+
+gab er uns ein neues Testament,
+
+das größte von allen:
+
+die Liebe -- sein Gesetz.
+
+Er verkündete die frohe Botschaft und sagte:
+
+"`Ihr seid mein, ich bin euer,
+
+alle Menschen sind Brüder,
+
+Gottvater ist unser Vater.\\
+
+
+
+3. Liebet einander, 
+
+so dienen wir unserem Vater,
+
+und der Vater liebt euch alle
+ 
+wie Seine eigenen Kinder.
+
+Ich bin das lebendige Brot vom Himmel, 
+
+ich bin der wahre Weinstock;
+
+bewahrt Mein Wort und
+
+lebt in Liebe!\\
+
+4. Nur in ihr ist das Leben,
+
+in ihre ist auch die Freude,
+
+sie erschafft alles Gute --
+
+einzig sie -- die Liebe."'
+
+So lehrte Er uns damals,
+
+so flüstert er uns jetzt auch zu,
+
+und in meiner Seele
+
+erwachen seine Worte zum Leben. 
+
+
+
+\section[Neue Kleider]{NEUE KLEIDER}
+
+1. Wie der Mensch seine alten Kleider auszieht,
+
+damit er neue, reine, weiße anziehen kann,
+
+so verlässt der Geist das Fleisch,
+
+um ein anderes Fleisch zu bewohnen
+
+und geht, um andere Gebiete zu erben.\\
+
+2. So durchquert er die Welten
+
+und inkarniert sich in ihnen --
+
+auf dass er neue Talente entwickelt,
+
+auf dass er ein neues Leben kreiert. 
+
+So schreitet er unaufhörlich voran,
+
+in der unermesslichen Schönheit --
+
+und erreicht das Licht --
+
+dort, wo es die Vollkommenheit gibt. \\
+
+3. So erhaben und allweise
+
+schuf Gott alles
+
+und ließ niemanden ohne Bestrebung und Hoffnung.
+
+Und das Leben ist angenehm,
+
+jedem gefällt er immer wieder;
+
+möge alles Lebendige, das atmet,
+
+ewig den Herrn lobpreisen. 
+
+
+\section[Atme Tief]{ATME TIEF}
+
+1. Atme tief mit fröhlichem Herzen,
+
+und erfreue dich, Kind, am Leben.
+
+Die Luft ist für uns immer eine lebendige Kraft
+
+atme, atme und atme wieder,
+
+atme, auf dass du gesund bleibst!\\
+
+2. Wenn du, Kind, tief atmest,
+
+dann wirst du ein gesundes, gutes Herz haben.
+
+Ein gesundes Herz, einen guten Kreislauf,
+
+einen starken Magen, einen starken Körper
+
+wirst du, Kind, haben.\\
+
+3. Wenn du, Kind, tief atmest,
+
+soll dein Körper aufgerichtet sein!
+
+Aufrechte Haltung, ein munterer Schritt,
+
+mit einem Blick immer aufwärts.
+
+Atme, atme und atme wieder,
+
+atme du überall.
+
+
+\section[Ein Angel sang]{EIN ANGEL SANG}
+
+Ein Engel rief der Mutter Gottes zu:
+
+"`Reine Jungfrau, freue dich!"' Und ich sage dir wieder: Freue dich!
+
+Dein Sohn ist vom Grab am dritten Tag nach dem Tod
+
+auferstanden und erweckte die Toten zum Leben
+
+Menschen, freut euch!\\
+
+Geheiligt, geheiligt seist du, neues Jerusalem, 
+
+denn deine Herrlichkeit ist über dich erschienen: 
+
+frohlocke jetzt und jauchze, oh Zion!
+
+Du, Reine, freue dich, Mutter Gottes
+
+über die Auferstehung des von dir geborenen.
+
+
+
+\section[Das letzte Abendmahl]{DAS LETZTE ABENDMAHL}
+
+Zun meri manu,
+
+zun meri manundana,
+
+asavita vita nanda.
+
+Zun meri manu,
+
+zun meri manundana,
+
+asavita nanda.
+
+Alles ist hell,
+
+alles ist durchlichtet
+
+von meinen lebendigem Licht (videlina).
+
+Vsichko e svetlo,
+
+vsichko e osveteno
+
+s Mojta zhiva Videlina.
+
+Zun meri manu,
+
+zun meri manundana,
+
+asavita nanda.
+
+\section[Dich bedingen wir]{DICH BESINGEN WIR}
+
+Dich besingen wir, Dir danken wir.
+
+Dich preisen wir, unseren Herrn.
+
+Und wir beten Dich an, oh Herr.
+
+\section[Lied der Vokale]{LIED DER VOKALE}
+
+a-a-a (12) a
+
+o-o-o (12) o
+
+u-u-u (12) u
+
+a-o-u (12) a
+
+a-a-a (12) a
+
+e-e-e (12) e
+
+i-i-i (12) i
+
+a-e-i (12) a
+
+\newpage
+
+
+\section[Fir-für-fen]{FIR-FÜR-FEN}
+
+
+
+
+
+Fir-für-fen Tao Bi Aumen,
+
+Tao Bi Aumen, Tao Bi Aumen.
+
+Fir-für-fen Tao Bi Aumen,
+
+Fir-für-fen Tao Bi Aumen,
+
+Fir-für-fen Tao Bi Aumen.
+
+Oh meine Seele, lobpreise den Herrn, 
+
+lobpreise und vergiss nicht!
+
+
+
+
+
+\section[Die Sonne geht auf]{DIE SONNE GEHT AUF}
+
+
+
+Die Sonne geht auf, 
+
+sie sendet Licht,
+
+sie bringt Freude für das Leben.
+
+
+
+
+
+\section[Lebendige, quellenden Kraft]{LEBENDIGE, QUELLENDE KRAFT}
+
+
+Lebendige, quellende, fließende Kraft, 
+
+lebendige, quellende, fließende Kraft. 
+
+Sun me sun, Sun me sun binom to meto. (2) 
+
+
+
+
+
+
+\section[Güte]{GÜTE}
+
+Güte, Güte, Güte,
+
+bringt, bringt, bringt das Licht,
+
+das Licht, das Licht, das Licht. 
+
+Sie bringt Freude für das Leben, (3)
+
+für das Leben. (3)
+
+Alt und Jung lässt sie aus dem Bett erheben. (3)
+
+Sie liebkost die Kranken, sie erfreut die Gesunden, (3)
+
+wenn sie kommt. (3) 
+
+Und die Flüsse fließen reichlich 
+
+und die Blumen blühen schön,
+
+wenn sie kommt. (3)
+
+
+
+ 
+
+
+\section[Süß, honigsüß]{SÜSS, HONIGSÜSS}
+
+Süß, honigsüß (4)
+
+honigsüß, honigsüß, süß, honigsüß.
+
+Von der Sonne gesandt, von den Bienen gebracht. \\
+
+
+
+\section[Ein gütiges Wort]{EIN GUTES WORT}
+
+Ein gütiges Wort auf die Lippen, 
+
+das ist der Schlüssel zu den Herzen,
+
+zu den Herzen, zu den Herzen,
+
+das ist der Schlüssel zu den Herzen.\\
+
+
+Ein liebevoller Blick in den Augen,
+
+das ist die Sprache der Seelen.\\
+
+Ein zartes geäußertes Gefühl, 
+
+alles Böse ist geschmolzen.\\
+
+
+Ein starker Wille krönt jedes Werk und jede Äußerung,
+
+und die Liebe errichtet mit ihnen dieses Leben, 
+
+das hier geboren wird.
+
+\section[Aum]{AUM}
+
+Aum, aum, aum, 
+
+om, om, aumen.
+
+\section[Venir Benir]{VENIR BENIR}
+
+Venir benir, 
+
+Bihar Benum 
+
+Il bijut,
+
+Il besut, 
+
+Om bijut. 
+
+Il besut, 
+
+Om bijut. 
+
+Sun mesun, 
+
+sun me sun, 
+
+binom tu meto. 
+
+\section[Lebendige Kraft]{LEBENDIGE KRAFT}
+
+Lebendige Kraft, lebendige Kraft,
+
+sage mir, sage mir,
+
+woher das reine Wasser entspringt. (2)
+
+Entspringt, entspringt, wo das Wasser entspringt.
+
+Sage mir süße Worte zwei,
+
+deine Worte zwei, 
+
+süße Worte zwei.
+
+\section[Sage mir deine Trauer]{SAGE MIR DEINE TRAUER}
+
+Sage deine Trauer, öffne dein Herz für die Sonnenstrahlen.
+
+Die Sonnenstrahlen von Gott werden dir Güte bringen und Freude in die Seele hineinbringen,
+
+und sie werden Freude in die Seele hineinbringen.
+
+\section[Es scheint]{ES SCHEINT}
+
+Das Licht scheint,
+
+das Licht scheint,
+
+das Licht scheint,
+
+das Licht scheint,
+
+das Licht scheint,
+
+das Licht scheint,
+
+das Licht scheint,
+
+scheint, scheint, scheint, scheint, scheint.\\
+
+
+Auf die Gräser, auf die Gewässer (auf das Wasser), 
+
+auf die Blumen, bringt den Kindern Freude. 
+
+Es bescheint die Gräser, die Gewässer (auf das Wasser), 
+
+die Blumen, bringt Freude für die Herzen.
+
+\section[Der Geist Gottes]{DER GEIST GOTTES}
+
+Der Geist Gottes, der ewige Geist,
+
+der heilige Geist, der gütige Geist, 
+
+Wer erfüllt unsere Herzen mit Liebe, 
+
+Wer erfüllt unsere Herzen mit Liebe?!\\
+
+Wer erfüllt, Wer erfüllt, Wer erfüllt,
+
+Wer erfüllt unsere Herzen mit Liebe,
+
+Wer erfüllt unsere Herzen mit Liebe.\\
+
+
+Mit Liebe, mit Liebe, mit Liebe.
+
+Wer erfüllt unsere Herzen mit Liebe,
+
+Wer erfüllt unsere Herzen mit Liebe.
+
+
+
+\section[Mahar Benu Aba]{MAHAR BENU ABA}
+
+Mahar Benu Aba, Vejut Bilader, Ader,
+
+Benu schela, Benu schela, Benu schela,
+
+schela, schela, schela, Bilader Ader Benu schela.\\
+
+\section[In Finsternis, in Dunkelheit]{IN FINSTERNIS, IN DUNKELHEIT}
+
+Das Leben war in Finsternis und Dunkelheit. 
+
+Aber die Sonne des Lebens leuchtete auf über uns.
+
+Und wir gingen auf dem Weg, rein und heilig für uns. (2)
+
+Rein und heilig für uns, rein und heilig für uns, rein und heilig für uns. 
+
+\section[In der Morgenröte des Lebens]{IN DER MORGENRÖTE DES LEBENS}
+
+In der Morgenröte des Lebens,
+
+in der Morgenröte des Lebens
+
+ging die Sonne auf, 
+
+ging die Sonne auf. 
+
+Sie zeichnete die Grenzen der Natur, 
+
+sie zeichnete die Grenzen der Natur. 
+
+In meiner Seele erweckte sie einen mächtigen Geist  
+
+in meiner Seele erweckte sie einen mächtigen Geist 
+
+und in meinem Herzen erweckte sie die Liebe,
+
+und in meinem Herzen erweckte sie die Liebe,
+
+sie erweckte, sie erweckte, 
+
+sie erweckte in meinem Herzen die Liebe. 
+
+\section[Gott ist Liebe]{GOTT IST LIEBE}
+
+Gott ist Liebe, Gott ist Liebe, 
+
+Gott ist Liebe, Liebe,
+
+ewige, grenzenlose Liebe, 
+
+voll mit Leben, 
+
+das Leben des gütigen Geist Gottes. 
+
+Der Geist der Güte, 
+
+der Geist der Heiligkeit,
+
+der Geist des vollen Friedens und der Freude für jede Seele.\\
+
+Wir werden auf diesem Weg des Lichtes gehen, (3)
+
+in welchem die göttliche Liebe herrscht. (3)
+
+\section[Vehadi]{VEHADI}
+
+Vehadi, Vehadi, Vehadi,
+
+Vehadi, Vehadi, Vehadi. 
+
+\section[Abends, morgens ]{ABENDS, MORGENS }
+
+Abends, morgens es kommt es geht,
+
+abends, morgens es kommt es geht, 
+
+es kommt, es geht, es kommt, es geht,
+
+es kommt, es geht, es kommt.
+
+\section[Es war einmal]{ES WAR EINMAL}
+
+Da war ein Mensch, von Gott gesandt, 
+
+sein Name: Johannes.
+
+Dieser kam zum Zeugnis, 
+
+dass er zeugte von dem Licht,
+
+damit alle durch ihn glaubten.
+
+Er war nicht das Licht, 
+
+sondern er kam, dass er zeugte von dem Licht.
+
+Er war das wahrhaftige Licht, 
+
+das jeden Menschen erleuchtet,
+
+der in die Welt kommt.
+
+Er war in der Welt
+
+und die Welt wurde durch ihn
+
+und die Welt kannte ihn nicht.
+
+Er kam in das Seine
+
+und die Seinen nahmen ihn nicht an;
+
+so viele ihn aber aufnahmen, denen gab er Macht,
+
+Kinder Gottes zu werden,
+
+denen, die an seinen Namen glauben;
+
+die nicht aus Geblüt, 
+
+auch nicht aus dem Willen des Fleisches, 
+
+auch nicht aus dem Willen des Mannes, 
+
+sondern aus Gott geboren sind. 
+
+\section[Sage du mir die Wahrheit]{SAGE DU MIR DIE WAHRHEIT}
+
+Sage du mir die Wahrheit,
+
+die Freiheit bringt für meine Seele. 
+
+\section[Das gütige Lied]{DAS GÜTIGE LIED}
+
+Sei dir bewusst, 
+
+liebe, säe, errichte unaufhörlich
+
+und gib alles im Leben.\\
+
+
+Diese Wahrheit -- Gott -- erkenne du,
+
+erkenne du, erkenne du Gott.
+
+\section[Mussala]{MUSSALA}
+
+Einzig bist du, mein Mussala,
+
+heiliger Ort, göttlicher Gipfel!
+
+Mein Mussala, Mussala,
+
+mein Mussala.\\
+
+Habt ihr an einem klaren Frühlingstag vom Mussala aus den Sonnenaufgang gesehen?!\\
+
+Habt ihr beim ersten Strahl der Sonne den leichten Hauch des Mussala eingeatmet?!\\
+
+\section[Lauf, lauf]{LAUF, LAUF}
+
+1. Lauf, lauf, lauf, 
+
+lauf für Wasser,
+
+im Morgentau, 
+
+durch einen kristallklaren Bach,
+
+auf einem reinen Pfad. 
+
+Bringe dieses klare Wasser nach Hause, 
+
+zu den schönen Blümchen, 
+
+seinen kleinen Kindern.\\
+
+2.	Die Regentropfen bieten ebenfalls
+
+ reichlich Feuchtigkeit -- Strom des Leben.
+ 
+Samenkörner sprießen,
+ 
+Knospen öffnen sich,
+ 
+Früchte reifen.
+ 
+Alles erwacht; mächtig ist das Wasser!
+
+\section[Trauer, Gram]{TRAUER UND GRAM}
+
+Hebe, setze die Trauer und den Gramm auf 
+
+und gehe gerade.
+
+Stolpere nicht, hebe alles und setze es auf.
+
+Gehe, gehe, gehe, gerade gehe!
+
+Gehe, gehe, gehe, gerade gehe!
+
+Gehe, gehe, gehe, gerade gehe!
+
+Gehe, gehe, grade gehe,
+
+gehe, gehe grade gehe!
+
+
+
+
+\section[Heller Tag]{HELLER TAG}
+
+Heller Tag, heller Tag, Tag, Tag Tag,
+
+fröhlicher Tag, fröhlicher Tag, Tag, Tag.
+
+Heller Tag, heller Tag, göttlicher Tag,
+
+heller Tag, heller Tag, heller, göttlicher Tag.
+
+\section[Neva sanzu]{NEVA SANZU}
+
+Neva sanzu, Neva sanzu,
+
+biju mensi, 
+
+harien hadi hensi.
+
+Ava Mahar ven, haber mensi.
+
+Ava Mahar ven, haber mensi.
+
+Ava Mahar ven, haber mensi.
+
+Ava Mahar ven, haber mensi.
+
+
+
+\section[Kiamet zenu]{KIAMET ZENU}
+
+Kiamet Zenu,
+
+Mahar Benu,
+
+Hairi meschina sevat se mu si beni.
+
+Haberim jave, suberim save
+
+Kiamet Zenu.
+
+Mahar Benu, Mahar Benu.
+
+
+\section[Gib, gib]{GIB, GIB}
+
+Gib, gib, gib alles, reines Korn, Weizenkorn.
+
+Auf dass es auf dem Feld gesät wird,
+
+auf dem schönen Feld.
+
+Auf dass es im Winter gereinigt wird.
+
+Auf dass sich alles, was auf dem Acker gesät wurde, am Leben erfreue, auf dem Acker, vom Himmel, auf dem Acker vom Himmel.
+
+\section[Denke, denke gerade]{DENKE, DENKE GERADE}
+
+Denke gerade! Denke gerade!
+
+Stütze heilige Gedanken für das Leben! Stütze heilige Gedanken für das Leben!
+
+\section[Im Anfang war das Wort]{IM ANFANG WAR DAS WORT}
+
+Im Anfang war das Wort, 
+
+und das Wort war bei Gott,
+
+ und das Wort war Gott.
+ 
+Dieses war im Anfang bei Gott.\\
+
+
+Alles wurde durch dasselbe,
+
+und ohne dasselbe wurde auch nicht eines, 
+
+das geworden ist.\\
+
+
+In ihm war Leben, 
+
+und das Leben war 
+
+das Licht der Menschen.\\
+
+
+Und das Licht scheint
+
+in der Finsternis, 
+
+und die Finsternis hat es nicht erfasst.\\
+
+
+
+\section[Inspiration]{INSPIRATION}
+
+Inspiration, Inspiration, Inspiration, Inspiration, Inspiration, du bist ein Segen.
+
+\section[Guter Tag]{GUTER TAG}
+
+Ein guter Tag ist ein heller Tag. 
+
+Er ist schön und herrlich. 
+
+Er bescheint alles, er belebt alles
+
+und verteilt im Leben das göttliche Gute. 
+
+\section[Sei fröhlich]{SEI FRÖHLICH}
+
+Sei fröhlich, werde munter --
+
+die Sorgen des Lebens
+
+sind eine unnötige Last.\\
+
+Freundlich ruft dich das Leben. 
+
+Sei fröhlich, werde munter
+
+und erhöhe alles Lebendige mit deiner Liebe!\\
+
+Sei fröhlich, werde munter
+
+bringe Freude in das Leben,
+
+Freude bringe in das Leben. 
+
+Sei fröhlich, werde munter! 
+
+\section[Das Feuer entzündete sich]{DAS FEUER ENTZÜNDETE SICH}
+
+Das Feuer der Feuerstelle entzündete sich.
+
+Mein Herz begann zu schlagen, das Brot ist bereit.
+
+Das Brot ist bereit, der neue Leuchter wurde anzündet.
+
+Der Tisch ist gedeckt, mein Gedanke ist erschienen.
+
+Möge ich heute das wohlschmeckende Brot lieben 
+
+und seine süßen Worte hören.
+
+\section[Berschid Ba]{BERSCHID BA}
+
+Es war einmal, es war einmal,
+
+als alles Dunkelheit war
+
+und in ihr erschien das Licht.
+
+Und das Licht zeichnete die Schönheit des göttlichen Lebens, 
+
+das sich einverleibt hat 
+
+und erhob meine Seele.
+
+\section[Die kleine Quelle]{DIE KLEINE QUELLE}
+
+Ein heller Strahl kommt von oben,
+
+um die kleinen Blumen zu erleuchten. 
+
+Nah entspringt eine kleine Quelle.
+
+Sie sprudelt leicht, flüstert und plätschert,
+
+und erfreut auf ewig die Blumen. 
+
+Sie erfreut, erfreut, erfreut, sprudelt, flüstert, erfreut,
+
+sie erfreut, sie sprudelt, erfreut, erfreut, sprudelt leicht, plätschert und erfreut die Blumen.
+
+
+
+\section[Alles im Leben ist erreichbar]{ALLES IM LEBEN IST ERREICHBAR}
+
+Alles im Leben ist erreichbar,
+
+wenn die Zeit gut ist 
+
+und wir vernünftig sind.\\
+
+Denn das Gute ist ein Grund 
+
+und die Vernünftigkeit ein Ziel, 
+
+mit der der Geist die Zukunft, die große Zukunft, errichtet.
+
+\section[Trauer und Gram sind ein Reichtum]{TRAUER UND GRAM SIND EIN REICHTUM}
+
+Trauer und Gram sind ein Reichtum 
+
+für das Leben, die in der Seele verborgen liegen,
+
+für künftige Wohltaten 
+
+für süße Früchten,
+
+für helle Tagen, 
+ 
+für helle Tagen, 
+ 
+für helle Tagen. 
+
+\section[Der Geist flüstert mir das zu]{DER GEIST FLÜSTERT MIR DAS ZU}
+
+Mir wird es im Leben wohl ergehen, 
+
+mein Geist und meine Seele flüstern mir das zu. (2)
+
+Und der Geist flüstert mir das, flüstert mir das.
+
+Der Geist und die Seele flüstern mir das.
+
+\section[Kraft, Leben, Gesundheit]{KRAFT, LEBEN, GESUNDHEIT}
+
+Kraft, Leben, Gesundheit --
+
+sie sind eins. 
+
+Diener des Geistes, 
+
+Träger der Freude, 
+
+Stütze der Jugend, 
+
+Stütze der Jugend, 
+
+sie sind eins. 
+
+\section[Schön ist das Leben]{SCHÖN IST DAS LEBEN}
+
+Schön ist das Leben unserer Seele, 
+
+das die ganze Erde erfüllt. 
+
+Schön ist das Leben unserer Seele, 
+
+das die ganze Erde erfüllt. 
+
+Schön ist das Leben unserer Seele, 
+
+das die ganze Erde erfüllt. (2)
+
+
+\section[Hymne der großen Seele]{HYMNE DER GROSSEN SEELE}
+
+Die Sonne scheint, 
+
+überall ist es hell, 
+
+die Erde ist von einem warmen Gewand umhüllt. 
+
+Sie erweckt alles Lebendige; 
+
+das Wasser fließt, das Gras sprießt, 
+
+eine frische Brise weht überall. 
+
+Alles bewegt sich, kriecht und krabbelt.
+
+Die Vögel flattern, die Rehe laufen 
+
+und der Wind weht 
+
+und der Mensch steht
+
+und denkt nach, was er tun soll. 
+
+Dann erklingt ein fröhliches Lied:
+
+"`Groß bist Du, Herr,
+
+ groß sind Deine Werke, 
+ 
+ groß ist Dein Name über allem!
+
+Du herrschst in der Kraft und im Leben,
+
+im Wissen, in der Weisheit, 
+
+der Wahrheit und der Liebe.
+
+Groß bist Du, Herr, 
+
+groß sind Deine Werke, 
+
+groß ist Dein Name über allem!"'
+
+
+\section[Das Lied der Morgenröte]{DAS LIED DER MORGENRÖTE}
+
+Die helle Morgenröte bricht an,
+
+die helle Morgenröte bricht an,
+
+sie bricht an, sie bricht an.
+
+Volle Freude bringt sie in das Leben ein.
+
+Der Jugend bringt sie Gesundheit, 
+
+den Arbeitenden eine Gabe -- das Leben. 
+
+Mögen die Weisen gut leben, 
+
+die Guten im Wohlstand leben,
+
+mögen sie gut leben, mögen sie im Wohlstand leben;
+
+mögen die Weise gut leben,
+
+die Guten im Wohlstand leben.\\ 
+
+Die helle Morgenröte bricht für sie an,
+
+die helle Morgenröte bricht für sie an, 
+
+bricht an, bricht an.
+
+\section[Unter allen Bedingungen]{UNTER ALLEN BEDINGUNGEN}
+
+
+Unter allen Bedingungen des Lebens 
+
+verliere deinen Frieden, deinen Frieden nicht!
+
+Schön ist das Leben, 
+
+wenn der Mensch mutig ist.
+
+\section[Ich kann sagen]{ICH KANN SAGEN}
+
+Ich kann euch sagen, 
+
+dass die Sonne morgen aufgehen 
+
+und das Antlitz der Erde erleuchten wird.
+
+Sie wird in alles, was wächst, Wärme hineinbringen. 
+
+Scheine, mächtige Sonne, damit wir gut lernen!
+
+Alle Vernünftbegabten werden sich erheben
+
+und sich an die Arbeit machen. 
+
+Scheine, mächtige Sonne, damit wir gut lernen!
+
+Alles vernünftige wird sich erheben
+
+und wird sich an die Arbeit machen.
+
+Scheine, mächtige Sonne, damit wir gut lernen! 
+
+
+
+\section[Ich wage zu sagen]{ICH WAGE ZU SAGEN}
+
+Ich wage zu sagen, 
+
+dass die Sonne hell ist. 
+
+Ich wage zu sagen, 
+
+dass die Sonne hell ist.
+
+Das lässt sich nicht leugnen.
+
+Bei ihr schmilzt alles, 
+
+bei ihr wächst alles, 
+
+bei ihr blüht alles,
+
+bei ihr reift alles.
+
+Bei ihr steht alle auf, 
+
+faltet seine Decken zusammen
+
+und begibt sich an die Arbeit.  
+
+
+\section[Habe Glaube]{HABE GLAUBE}
+
+Habe Glaube, Glaube,
+
+Habe Glaube, Glaube,
+
+Habe Glaube, Glaube,
+
+Habe Glaube, Glaube, Glaube. (2)
+
+\section[In der Wüste des Lebens]{IN DER WÜSTE DES LEBENS}
+
+In der Wüste des Lebens,
+
+dort, wo Gewalt sich ausbreitet,
+
+herrschen Leiden und Qual.
+
+Jeder, mit dem sie befreundet sind,
+
+den nennen sie ihn Märtyrer, Helden, Heilige.
+
+\section[Ich kann lieben]{ICH KANN LIEBEN}
+
+Ich kann lieben (ljubia), auf dass ich gut werde, 
+
+ich kann lieben (obitscham), auf dass ich stark werde.
+
+
+Die Liebe (ljubovta) und die Liebe (obitschta) werden mich lehren, 
+
+ein Diener Gottes zu werden.
+
+\section[Kraft und Gesundheit sind ein Reichtum]{KRAFT UND GESUNDHEIT SIND EIN REICHTUM}
+
+Kraft und Gesundheit sind ein Reichtum für das Leben der Seele.
+
+\section[Der Ruf des Gebirges]{DER RUF DES GEBIRGES}
+
+Und ich springe wie ein Vöglein 
+
+vom Ast zu Ast, 
+
+auf dass sich jeder wundert, 
+
+wenn er mich sieht.
+
+Ich singe ein wunderbares Lied über die Sonne,
+
+klaren Quellen murmelt.
+
+Und ich sehe -- einen aufgerichteten Gipfel,
+
+der vor mir steht.
+
+Er ruft mich sanftmutig dort oben. 
+
+\section[Die Blumen blühen]{DIE BLUMEN BLÜHEN}
+
+Die Blumen erblühten unter den Strahlen der Sonne,
+
+und trugen bereits Früchte. 
+
+Und so gekleidet in Schönheit
+
+und so gekleidet in Reinheit,
+
+bringen sie uns die Jugend. 
+
+In ihr reifen süße Früchte.
+
+Und so, wenn wir sie empfangen, 
+
+erkennen wir, dass sie göttliche Gaben sind;
+
+und so, wenn wir sie empfangen,
+
+erkennen wir, dass sie eine Gabe der Liebe sind!
+
+
+\section[Er kommt]{ER KOMMT} 
+
+
+Er kommt, Er kommt, Er kommt, Er
+
+ist es, der kommt,
+
+Er kommt, Er kommt, Er kommt, Er
+
+ist es, der kommt,
+
+Er kommt, Er kommt, Er kommt, Er
+
+ist es, der kommt,
+
+um zu helfen,
+
+um zu helfen,
+
+um zu helfen.
+
+Der Mächtige, der Starke, möge er helfen,
+
+Der Mächtige, der Starke, möge er helfen,
+
+um zu helfen, möge er helfen.
+
+Wir werden mit Liebe arbeiten, wir
+
+werden mit Liebe arbeiten,
+
+möge Er helfen,
+
+möge Er helfen.
+
+\section[Das Lied des hellen Weges]{DAS LIED DES HELLEN WEGES}
+
+Ich kann erreichen, was ich mir wünsche. 
+
+Im Leben ist alles erreichbar!
+
+Ich werde die göttlichen Güter 
+
+in allen menschlichen Herzen tragen.
+
+Dort, wo die Freude geboren wird, 
+
+dort, wo die Liebe herrscht.
+
+\section[Es komme ein Tag]{ES KOMME EIN TAG}
+
+Ein Tag wird kommen, ein Tag wird kommen,
+
+ein Tag wird kommen, ein Tag wird kommen.
+
+Er wird ein heller Tag sein,
+
+er wird ein heller Tag sein,
+
+er wird ein heller Tag sein.\\
+
+Säe, säe!
+
+Erbaue, erbaue, erbaue 
+
+erbaue das Gute!
+
+Und die Freude wird dich gut belohnen.
+
+\section[Dort in der Ferne]{DORT IN DER FERNE}
+
+Dort, in der Ferne, kenne ich ein wunderbares Land:
+
+Sonne, Blumen und Früchte,
+
+eine Quelle sprudelt, es ist ein Paradiesgarten.\\
+
+Sag’ mir, was du weißt,
+
+über die Heimat, paradiesische Erde,
+
+wo der taubedeckt  Kirschbaum blüht und reift.
+
+Zeig’ mir den Weg in dieses schöne Land. \\
+
+Pflücke nur die reife Frucht,
+
+ohne die jungen Triebe zu brechen.
+
+Pflücke dir reichlich Früchte 
+
+und bringe sie allen mit Freude!
+
+\section[Der Tag kommt]{DER TAG KOMMT}
+
+1.	Ich kann sagen, dass der Tag kommt;
+
+die Sonne wird aufgehen und wir werden gut handeln. (2)\\
+
+2.	Ich kann sagen, dass Gott mich liebt
+
+Die Sonnenstrahlen flüstern es mir leise zu. (2) \\
+
+3.	Die Morgenröte atmet voller Frische, der Tag bricht an. 
+
+Freude und Hoffnung erfüllen unsere Herzen. (2)
+
+\section[Frühling]{FÜHLING}
+
+Hört die Stimme dieses Liedes,
+
+das der Frühling schon verbreitet.
+
+Er ist ein großes Geschenk für das Leben,
+
+er ist ein großes Geschenk für das Leben.
+
+
+
+\section[Verjüngung]{VERJÜNGUNG}
+
+Ich werde mich verjüngen, 
+
+du wirst dich verjüngen, 
+
+er wird sich verjüngen. 
+
+Das sagte mir die Liebe. 
+
+Wir, die wir den Weg des Guten befolgen,
+
+werden uns verjüngen, 
+ 
+ihr, die ihr den Weg des Guten befolgt,
+
+werdet euch verjüngen.
+ 
+Das sagte mir die Liebe.
+ 
+Das sagte mit die Liebe. 
+
+\section[Sturm]{STURM}
+
+Traurig ist meine Seele. 
+
+Trauer und Kummer überkommen mich.
+
+Ein starker Sturm erhebt sich in mir,
+
+ aber ich klage niemanden an.
+
+Der Sturm ist ein Sturm, aber Er ist in mir.
+
+Der Sturm versteht mich nicht,
+
+ich aber verstehe ihn.
+
+Der Sturm schüttelt mich durch
+
+für das Gute, das in mir ist.
+
+\section[Frühe Stunden]{FRÜHE STUNDE}
+
+Es ist früh am Morgen, 
+
+alles singt, alles schwingt.
+
+Die Sonne scheint,
+
+die Seele erfreut sich an der Welt, 
+
+um der großen Liebe willen.
+
+Singe Herz, 
+
+vergiss die Trauer
+
+und die menschlichen Sorgen
+
+in dieser wunderbaren Stunde.
+
+Höre meine Stimme! 
+
+Das große Leben wird 
+
+nur in schwerster Trauer geboren. 
+
+Leise Freude und ein neues Leben
+
+bringt dieser Sturm der Welt.
+
+Das neue Leben der Liebe -- 
+
+mögen meine Seele wärmen! 
+
+Freiheit, einen starken Geist 
+
+und Frieden wirst du haben! 
+
+Höre meine Stimme! 
+
+Leise Töne rufen dich,
+
+dort herrscht ewige Liebe!
+
+\section[Freude und Trauer]{FREUDE UND TRAUER}
+
+Ich hörte über dich, Trauer, 
+
+dass du grausam wärst, 
+
+dass du uns Leid zufügst. 
+
+Weißt du nicht,
+
+dass ich ein armer Fremder bin? 
+
+Sage mir, was du von mir willst, 
+
+sage es mir!
+
+"`Schwerlich kann mich jemand lieben. 
+
+Dort ist die Trauer!
+
+Wer mich liebt und mich willkommen heißt,
+
+nur der kann
+
+das Leben verstehen. 
+
+Schwierig und steil ist der Weg, 
+
+auf dem ich gehe. 
+
+Schwerlich kann mir dort jemand folgen 
+
+und für den Sterblichen 
+
+ist das fast unmöglich. 
+
+Wenn mich aber jemand liebt
+
+
+und über mich Gutes denkt,
+
+so sollte er ein Bürger 
+
+aus einer vollkommen anderen Welt sein."'
+
+Freude und Leid -- das sind Wege, 
+
+das große Leben zu verstehen. 
+
+Die Liebe schätzt sie beide gleich.\\
+
+Trauer und Freude sind eins,
+
+Trauer und Freude sind eins,
+ 
+wenn Liebe in ihnen herrscht.
+
+Die Gerechtigkeit wird in der Trauer geschätzt
+
+und das Gute in der Freude. 
+
+Mögen wir sie empfangen und gemeinsam vorwärts gehen.
+
+Die Liebe schätzt sie beide gleich.
+
+\section[Frühlingslied]{FRÜHLINGSLIED}
+
+Lieber Herr, höre unser Lied --
+
+wir singen für die Sonne, für den Frühling.
+
+Höre unser Lied:
+
+"`Der Frühling kommt, bringt neues Leben. 
+
+Die erste Frühlingsblume -- 
+
+ich erwecke alle aus dem Schlummer. 
+
+Zuallererst schaut mich die Sonne an.
+
+Sonne, Gottesgabe, 
+
+du bist die Quelle des Lebens, 
+
+du sendest uns einen Strahl, 
+
+der die frischen, zarten Blättchen öffnet.
+
+Frühling, Frühling, voll von Leben; 
+
+ewiger Frühling, du bist ein Paradies, 
+
+eine Gottesgabe, eine Gottesgabe.
+
+Ich lebe nur für Dich!"'
+
+\section[Sonnenlied -- die kleine Biene]{SONNENLIED -- DIE KLEINE BIENE}
+
+Es ist schon Frühling, überall ist es hell und warm:
+
+Die Sonne scheint -- ja, der Frühling ist da! 
+
+Die Freude entspringt in unserem Bienenstock: ban. 
+
+Alle eilen hinaus. 
+
+Sie vernehmen Frühlingsblumenduft, 
+
+sie stürzen sich auf die aufgeblühte Blume; 
+
+mit Freude sammeln sie den Pollen ein 
+
+und tragen ihn zur entfalteten Blüte.
+
+"`Ban! Zan, ban zan, wir bereiten einen süßen Honig für euch --
+
+liebet den gütigen Schöpfer! 
+
+Liebet den gütigen Schöpfer,
+ 
+lasst uns unseren großen, 
+
+guten Schöpfer lieben!
+
+Ban! Zan! Ban! Zan!"'
+
+\section[Die Kälte gibt alles]{DIE KÄLTE GIBT ALLES}
+
+
+
+Die Kälte gibt alles. 
+
+Du bist kalt,
+
+aber schützt uns vor dem Frost.
+
+Du bist kalt,
+
+aber schützt uns vor dem Frost.
+
+Du bist kalt, 
+
+aber bringst uns Reinheit.
+
+Du bist kalt, 
+
+aber bringst uns Reinheit.
+
+Die Kälte gibt alles.
+
+Sie ist der gute Diener,
+
+der von der Liebe inspiriert wird.
+
+Für viele ist das verwunderlich,
+
+aber das wissen 
+
+auch die Regentropfen.
+
+Sie ist kalt, aber schützt uns vor dem Frost
+
+und hört immer die Stimme der Liebe.
+
+Du bist kalt,
+
+aber rettest uns vor Frost
+
+und bringst nur das, was dir das Licht bringt. 
+
+Dein Gewand ist weiß.
+
+Du bist kalt,
+
+aber rettest du uns vor dem Frost.
+
+Seit Ewigkeit waren die menschlichen Herzen für dich verschlossen,
+
+da du das Alte ausziehst, das Alte und das Neue faltest, das Neue.
+
+Du bist kalt,
+
+aber rettest uns vor dem Frost.
+
+Und wenn es Frühling wird
+
+und das Leben erscheint,
+
+begleitest du sie wieder 
+
+und bekleidest du sie in deinem hellen Gewand.
+
+Du sprichst wenig, denkst viel,
+
+du versprichst wenig, gibst viel 
+
+und jede deiner Gaben begleitest du mit Reinheit. 
+
+\section[Die Sprache der lebendigen Natur]{DIE SPRACHE DER LEBENDINGEN NATUR}
+
+Furchtbar war der Wind,
+
+der den Wald durchschüttelte.
+
+Furchtbar und stark war er.
+
+Alle Blätter raschelten,
+
+sie raschelten und betteten:
+
+"`Höre auf, Wind, höre auf Wind,
+
+freier Frühlingswind."'
+
+Hast du kein Mitleid mit uns?
+
+Höre auf, wehe nicht!
+
+Erst in diesem Jahr kamen wir hier zu Besuch.
+
+Wehe nicht, oh Wind, wir werden herunterfallen.
+
+Unsere Rippen werden brechen."'
+
+"`Hier seid ihr kleine Blättchen, 
+
+ich hörte von ferne von euch
+
+und kam, euch zu sehen,
+
+mit euch zu spielen und euch umzuwehen.
+
+Dann hört mein Lied:
+
+Nach mir kommt mein treuer Freund,
+
+der Nieselregen.
+
+Er wird den Acker gießen,
+
+und er wird ihn für Spiele vorbereiten.
+
+Damit kein Staub aufsteigt, ihr Blätter,
+
+bei diesen fröhlichen Spiele.
+
+Von oben wird die Sonne beginnen zu scheinen,
+
+und uns bescheinen und wärmen,
+
+damit wir dann tanzen, 
+
+damit wir essen, 
+
+damit wir reines Wasser trinken
+
+und uns mit Freude trennen.
+
+Auf das wir uns wieder treffen
+
+und gut mit Liebe verstehen."'
+
+
+\section[Gerechtigkeit]{GERECHTIGKEIT}
+
+Gerechtigkeit, Gerechtigkeit, Gerechtigkeit,
+
+die du Freiheit in den Verstand bringst.
+
+Schön und mächtig bist du 
+
+und verteilst alles in der Welt. 
+
+Gerechtigkeit, Gerechtigkeit!
+
+\section[Ich wanderte in Wäldern und Bergen]{ICH WANDERTE IN WÄLDERN UND BERGEN}
+
+Ich wanderte in Wäldern und Bergen.
+
+Ein Unbekannter begleitete mich.
+
+Wir erklommen helle Gipfel und stiegen wieder hinab, 
+
+und während wir liefen, war Er immer bei mir. 
+
+Dort oben sah ich
+
+Sein Licht, 
+
+welches mich erleuchtete, 
+
+und Er sagte: 
+
+"`Erinnere dich daran, dass du oben sein sollst;
+
+steige hinab und wisse --
+
+sei allen nützlich!"'
+
+
+\section[Das gelobte Land]{DAS GELOBTE LAND}
+
+Tage des Leides und der Trauer 
+
+haben meine Seele durchdrungen,
+
+Wogen und Stürme haben sie überschwemmt.
+
+Aber mein Geist des Lebens
+
+ist mit Kraft und Stärke über sie aufgeschwommen.
+
+Ins Gelobte Land bin ich 
+
+als Reisender aufgebrochen  --
+
+dorthin, wo die Quellen sprudeln,
+
+wo die Flüsse fließen, 
+
+wo die Früchte reifen,
+
+wo die Vögel singen.
+
+Dort, wo die Menschen brüderlich leben;
+
+dort, wo die Liebe herrscht.
+
+\section[Ain fasi]{AIN FASI}
+
+Ain fasi, mekri sasi,
+
+fin semru, Aschan meru.
+
+Sua si sin mesul.
+
+Suma si sen fesul,
+
+Sua si sin mesul.
+
+Suma si sen fesul,
+
+Suma si sen fesul.\\
+
+In den himmlischen Weiten,
+
+in den himmlischen Tiefen,
+
+in den himmlischen Höhen,
+
+dort, wo das Licht wohnt
+
+und sich immerdar im Leben äußert. 
+
+
+
+
+\section[Wehe, Wind]{WEHE, WIND}
+
+Die göttliche Sonne scheint heute, 
+
+die göttliche Sonne scheint heute, 
+
+die göttliche Sonne scheint heute.
+ 
+Wehe, Wind, wehe leise, 
+
+wehe leise, schaue lieb,
+
+wehe leise, öffne die Blätter!
+
+Lasse die Blätter flattern, öffne die Blüten, 
+
+öffne die Blüten, verteile die Früchte,
+
+öffne die Blüten, verteile die Früchte.
+
+Hai di di di di, man soll gehen, um zu lernen, zu lernen, um zu erhalten,
+
+zu erhalten, etwas zu lernen.
+
+Hai di di di di, man soll gehen, 
+
+man soll gehen und das Gute sehen.
+
+\section[Ah, mein Sohn]{ACH, MEIN SOHN} 
+
+Ach, mein Sohn, weißt du, was die Nachbarn über dich sprechen?
+
+Dass du die Herde im Gebirge alleine gelassen hast und 
+
+abends zurückgekehrt bist, Mädchen bei sedenka\footnote{Abendtreffen der jungen Frauen und der jungen Männern, bei dem gearbeitet wird und die künftigen Bräute ausgewählt werden.} zu treffen.
+
+Mädchen, die Treffen anzetteln, anzetteln
+
+sie zetteln sie an, aber sie verderben auch.
+
+Ein Mädchen, mein Sohn, wählt man, nicht abends aus.
+
+
+\section[Lied des Vaters -- Schöndes Mädchen]{LIED DES VATERS -- SCHÖNES MÄDCHEN}
+
+Seit alten Zeiten, mein Sohn, ist bekannt,
+
+dass das schöne Mädchen am hellen Tag erkannt wird,
+
+wenn die Sonne morgens aufgeht,
+
+wenn die Sonne morgens aufgeht.\\
+
+
+Es ist frühaufstehnd; es steht früh auf (2)
+
+und geht mit den Krügen zu der Quelle,
+
+und füllt Wasser.
+
+So erfüllt und fröhlich,
+
+geht es nach Hause
+
+und umarmt lieblich ihre Mutter.\\
+
+Das schöne Mädchen, mein Sohn, erkennt man dann,
+
+wenn es den Weinberg umgräbt,
+
+und er reichlich Trauben gibt.
+
+Der Weinberg kennt gut die Hände des Mädchens.\\
+
+Das schöne Mädchen, mein Sohn, erkennt man am Feld
+
+wenn sie die Garben hebt und hinstellt,
+
+sie gut auf dem Boden hinlegt,
+
+und Gott lobpreist.\\
+
+Sie ist, mein Sohn stimmgewaltig,
+
+eine schöne Sängerin;
+
+der Weizen kennt sie gut,
+
+der Weizen kennt sie gut.
+
+Sie ist, mein Sohn stimmgewaltig,
+
+eine gute Sängerin;
+
+der Weizen kennt sie gut,
+
+der Weizen kennt sie gut.
+
+Das schöne Mädchen, mein Sohn, erkennt man gut, 
+
+wenn sie in der Tenne den Weizen drischt,
+
+ihn durchsiebt,
+
+ihn in den Speicher bringt 
+
+und den Armen Brot gibt.
+
+Kleine und Große kennen sie gut.\\
+
+Ein kluges Mädchen, mein Sohn erkennt man,
+
+wenn es ein Buch in die Hände nimmt 
+
+und die verborgene Zukunft enträtselt.
+
+Es stellt alles an seinem Platz.
+
+Ein schönes Mädchen, mein Sohn, ist der Tau,
+
+der den Boden befeuchtet.
+
+Es ist ein Engel, der von oben kommt,
+
+zu den Menschen herabsteigt,
+
+und bringt Frieden und Freude in ihrem Zuhause.
+
+Es ist hell wie die Morgenröte,
+
+es ist lieb wie das Wasser,
+
+es ist gut wie das Essen.
+
+\section[Stehe auf, meine Tochter]{STEHE AUF MEINE TOCHTER} 
+
+An einem Sommertag, in der frühen Morgenröte,
+
+näherte meine Mutter sich mir.
+
+Mit süßer Stimme sagte sie mir ein gütiges Wort:
+
+„Stehe auf Tochter, weil auf das Feld gegangen werden soll.
+
+Stehe auf, weil dein Vater draußen auf mich und auf dich wartet.“
+
+Wenn die Sonne aufgeht,
+
+sollst du auf dem Feld sein.
+
+Begrüße den Tag mit der Sichel 
+
+in der Hand und mit einem Lied.\\
+
+Stehe, meine Tochter auf, 
+
+weil alle Mädchen und Jungen zum Feld aufgebrochen sind.
+
+Der Acker, meine Tochter, ist das Leben,
+
+wo der gute Samen gesät wird.
+
+Wenn er gedeiht, dann trägt es Leben in uns ein.
+
+Stehe auf, Tochter, die Liebe wartet heute auf mich und auf dich.
+
+Stehe auf, sie bringt uns ihren neuen, lebendigen Staat.
+
+Stehe auf, weil das Leben draußen auf mich und auf dich mit Güte wartet.
+
+
+
+\section[Bulgarische Rhapsodie]{BULGARISCHE RHAPSODIE}
+
+Dort oben bei den Quellen traf ich ein lächelndes Mädchen,
+
+dort oben traf ich Liljana.
+
+Die Quelle strömt und entspringt,
+
+und gießt das reine Wasser
+
+und singt ein Berglied.
+
+Das Mädchen gießt die Kupferkessel ein
+
+und lauscht dem Lied.\\
+
+Ich werde dort oben hingehen,
+
+ich werde in die Bergen gehen,
+
+damit ich das reine Wasser anschaue 
+
+und dem leisen Lied lausche,
+
+ich werde dorthin gehen.
+
+Damit ich das reine Wasser anschaue,
+
+damit ich dem leisen Lied lausche,
+
+werde ich dorthin gehen.\\
+
+
+Liliano, Frühblume im Garten,
+
+wenn ich dieses Lied, Liliano, nicht höre,
+
+ah, wenn ich von diesem Wasser nicht trinke
+
+wird Trauer mein Herz erfüllen.
+
+Liliano, Mädchen,
+
+du wirst mich dort oben ins Gebirge bringen,
+
+dort, wo die Quelle entspringt.\\
+
+Oben im Gebirge,
+
+wo die Sonne scheint,
+
+zwischen den grünen Gräsern,
+
+zwischen den lächelnden Blumen.
+
+Oben im Gebirge,
+
+wo die Sonne schien.\\
+
+
+Dort oben bei den Quellen 
+
+traf ich ein lächelndes Mädchen,
+
+dort oben traf ich Liljana.\\
+
+\section[Bulgarische Idylle]{BULGARISCHE IDYLLE}
+
+
+\section[Sagte ich nicht]{SAGTE ICH NICHT}
+
+Sagte ich nicht, liebe Mutter, sagte ich nicht,
+
+dass unsere Donka nicht neben der Feuerstelle stehen
+
+und sich nur zuhause kuscheln soll,
+
+sondern sie soll in die Schule gehen 
+
+und beginnen zu lernen.
+
+Unsere Donka, liebe Mutter, wurde 
+
+klug und begabt geboren,
+
+so dass es an der Zeit ist,
+
+von der Schule des Lebens etwas Gutes zu lernen.\\
+
+
+Sie soll abends, liebe Mutter, nicht zum Brunnen gehen,
+
+um den Jungen volle Krüge zu reichen,
+
+ihnen taufrische Blumen zu versprechen,
+
+sondern sie soll abends den Kranken Wasser austragen.
+
+Unsere Donka, liebe Mutter,
+
+ist ihrer Seele nach gut, sanftmütig und barmherzig,
+
+aber sie soll ihr Herz, Mutter, lehren,
+
+die Jungen nicht zum Lächeln zu bringen.\\
+
+Morgen in der Früh soll sie zum Brunnen gehen,
+
+in weißen Kupferkrügen Wasser zu gießen,
+
+mit einem sauberen, weißen Hemd in einem schönen Staat,
+
+soll sie zum Beispiel werden.
+
+Wer sie im Dorf sieht,
+
+wie sie jedem hilft,
+
+soll das Gute zu lieben beginnen und es äußern,
+
+wie diese gute Seele.
+
+\section[Freude für die Seele]{FREUDE FÜR DIE SEELE}
+
+Freude, Freude für die Seele bringt die Reinheit. 
+
+Freude, Freude für die Seele bringt die Reinheit. 
+
+Seid rein, wie die Bienen.
+
+Seid rein wie die Blumen.
+
+\section[Der Frieden kommt]{DER FRIEDEN KOMMT}
+
+Er kommt schon mit dem Palmzweigchen des Friedens. 
+
+Er kommt von oben, er kommt, der gute Bote.
+
+Er kommt mit dem Palmzweigchen,
+
+wie ein Schein.
+
+Der versprochene Frieden kommt,
+
+mit seinem reinen Blick.
+
+Er begrüßt alle Seelen,
+
+inspiriert alle Herzen
+
+mit seinem gütigen, lieben, erleuchteten Antlitz.
+
+Freude und Wonne teilt er überall aus,
+
+wo er nur vorbeiläuft.
+
+Er kommt in der frühen Morgenröte,
+
+wenn die Sonne ihre streichelnde Hände ausstreckt
+
+und jeden Samen, jede Blume -- ihre Kinder -- erweckt.
+
+Die Feldblumen heißen ihn mit einem Duft willkommen.
+
+Die kleinen Waldvögel
+
+singen ihm Lieder von Begeisterung,
+
+und die frischen Ströme der Gebirgsbäche jubeln.
+
+Goldene Felder neigen ehrfurchtsvoll Weizenähren .
+
+Die ganze Natur ist ein großer Tempel.
+
+Ein Engel des Friedens kommt, um in diesem Tempel zu dienen.
+
+Und der Mensch steht vor dem heiligen Altar.
+
+Das Feuer brennt dort, im heiligen Altar
+
+Und mit einem Gebet in der Seele wartet er 
+
+auf den göttlichen Boten.
+
+Es kommt, der Engel des Friedens,
+
+mit einem Palmzweigchen und mit dem Zepter.
+
+Er kommt von oben herab
+
+herrlich und gewünscht,
+
+wie ein gutes Sonnenlächeln.
+
+und mit Freude erfüllt er die Herzen.
+
+\section[Der Frieden kommt II]{DER FREIDEN KOMMT II}
+
+\section[Wehe, Wind II]{WEHE, WIND II}
+
+\section[Marsch der hellen Kräfte]{MARSCH DER HELLEN KRÄFTE}
+
+\section[Berhan Asi]{BERHAN ASI}
+
+\section[Lied des Kindes]{LIED DES KINDES}
+
+\section[Die kleine Quelle]{DIE KEINE QUELLE}
+
+Die reine Quelle sprudelt und singt
+
+mit einem unschuldigen, munteren, hellen Blick,
+
+Im Schoss der Gebirge in der Morgenröte geboren,
+
+zitternde Freude, Munterkeit erklingt. 
+
+Klare Rinnsale singen, ihre Tropfen funkeln. (2) 
+
+Sie verbreitet Frische und Schönheit
+
+Sie flüstert über die Liebe. 
+
+Im Herzen des Menschen hallt das Lied wider.
+
+Zarte Blumen blühen um ihr herum,
+
+sie sprechen leise wunderbare Märchen.
+
+Spielerische Nymphen stricken Tänze,
+
+auf einem taubedeckten Teppich schwingen Schritte. 
+
+Nachts spiegeln sich die Sterne in der Quelle.
+
+Und sie sprudelt und gibt unaufhörlich.
+
+So gibt die Liebe. 
+
+In den Herzen der Menschen geht die Freude auf. (2)
+
+\section[Gott ist Liebe II]{GOTT IST LIEBE II}
+
+\section[Zu Fir-für-Fen]{ZU FIR-FÜR-FEN}
+
+\section[Sage mir du heller Strahl]{SAGE MIR DU HELLER STRAHL}
+
+Sage mir, du heller Strahl 
+
+das Gute im Leben, 
+
+den leuchtende geraden Weg 
+
+der reinen Seelen. (4)
+
+\section[Sage mir die Wahrheit II]{SAGE MIR DIE WAHRHEIT II:}
+
+\section[Sage mir die Wahrheit III]{SAGE MIR DIE WAHRHEIT III}
+
+\section[Freiheit ist nötig für die Seele]{FREIHEIT IST NÖTIG FÜR DIE SEELE}
+
+Freiheit ist nötig für die Seele. (2)
+
+\section[Heller Glaube I]{HELLER GLAUBE I}
+ 
+Heller, starker Glaube!
+
+Er stützt den Geist, 
+
+der das Leben gebiert. (2)
+
+\section[Heller Glaube II]{HELLER GLAUBE II}
+
+Heller, starker Glaube!
+
+Er führt uns zu Gott, 
+
+zum Guten des Lebens,
+
+zur Liebe Gottes,
+
+wo der Frieden herrscht 
+
+und die Wahrheit ewig scheint.\\
+
+
+Heller, starker Glaube!
+ 
+Er stützt den Geist, 
+
+der das Leben gebiert.
+
+
+\section[Heller Glaube III]{HELLER GLAUBE III}
+
+Heller, starker Glaube! 
+
+Er stützt den Geist, 
+
+der das Leben gebiert. (2)
+
+\section[Gnade, Güte]{GNADE, GÜTE}
+
+Gnade, Güte
+
+flößte Er ein. 
+
+Gnade, Güte flößte Er in mir ein.
+
+\section[Ich kann atmen]{ICH KANN ATMEN}
+
+Ich kann schon gut atmen, 
+
+ich kann schon gut atmen.
+
+\section[Das Spiel des Baches]{DAS SPIEL DES BACHES}
+
+\section[Der kleine Käfer]{DER KLEINE KÄFER}
+
+Mich hat Gott geboren,
+
+mit einem neuen Leben erleuchtet.
+
+Langsam, langsam gedeiht und reift meine Seele,
+
+aber sieh schon:
+
+Ich laufe aufwärts, wo die Sonne funkelt. Ich werde das sehen,
+
+was meine Seele liebt und wonach sie trachtet.
+
+So flüstert der Käfer,
+
+und strebt auf dem Weg nach oben,
+
+und nacheinander überwindet er die Hürden. 
+
+Tapfer durchquert er Felsen, 
+
+Felder und Täler,
+
+und strebt immer vorwärts
+
+und erhebt sich bis zum Gipfel.\\
+
+So vergehen viele Jahrhunderte
+
+und die Zeit verändert sich.
+
+Und so wuchs er: jungfräulich,
+
+reiner Tau, eine schöne Seele,
+
+Schöpfung Gottes --
+
+sie vergießt Frieden und helle Freude in der Welt.
+
+
+\section[Hätte ich auf dich gehört]{HÄTTE ICH AUF DICH GEHÖRT}
+
+Hätte ich auf dich gehört, hätte ich auf dich gehört,
+
+wenn ich auf dich gehört hätte,
+
+hätte sich das Gute in mir geäußert, 
+
+hätte sich das Gute in mir offenbart.
+
+\section[Ich höre]{ICH HÖRE}
+
+Ich höre, ich höre, ich höre ...
+
+\section[Freude]{FREUDE}
+
+Freude, Freude, Freude für mein Leben, 
+
+du erfreust mein Herz, 
+
+du erfreust mein Herz. 
+
+\section[Der Brief]{DER BRIEF}
+
+Wenn die Liebe herrscht, 
+
+entsteht keine Unruhe. 
+
+Wenn die Weisheit regiert, 
+
+wird die Ordnung nicht gestört.
+
+Wenn die Wahrheit scheint, 
+ 
+gedeiht und reift die Frucht. 
+
+\section[Mehein]{MEHEIN}
+
+1. Ohne dich ist Finsternis, ohne dich ist Trauer. 
+
+Oh, göttlicher Strahl, bescheine mich.
+
+Füge in meinem Herzen Freude und Frieden. 
+
+Ich glaube, dass du über mich mit mütterlicher Liebe wachst. \\
+
+2. Ich erwache aus tiefem Schlaf
+
+und rufe dich als Kind an.
+
+Ich glaube immer, dass du
+
+über mich mit mütterlicher Liebe wachst.
+
+\section[Weizenkorn]{WEIZENKORN}
+
+Ich war ein Weizenkorn, das in der Erde vergraben war.
+
+Im tiefen Schlummer kannte ich das Leben nicht.
+
+Aber ein Sonnenstrahl kam, das Licht erreichte mich
+
+und weckte mich mit seinem Ruf. \\
+
+Vom Weizenkorn bin ich zum kleinen Vöglein geworden,
+
+auf dass ich in die Lüfte fliege. 
+
+Heute habe ich mich, gut gekleidet, zum ersten Mal
+
+auf eine Weinrebe niedergelassen 
+
+und zum ersten Mal von den süßen Weintrauben gekostet.
+
+"`Wie schön ist das Leben…!"', sagte ich mir dann. \\
+
+
+\section[Quelle]{QUELLE}
+
+Dort oben, hoch im Gebirge,
+
+entspringt eine schöne Quelle;
+
+sie singt leise und gießt ihr Herz aus:
+
+"`Es gibt keine andere kleine, 
+
+so schöne Quelle wie mich, 
+
+Aus meinen Tiefen 
+
+entspringt ein reines und belebendes Wasser.
+
+Wer von meinem Wasser trinkt, 
+
+gewinnt das neue Leben,
+
+er umarmt die Lehre 
+
+und macht sich an die Arbeit."'
+
+\section[Gebet]{GEBET}
+
+Höre, Herr,
+
+an Dich richte ich mein Gebet. 
+
+Möge sich mein Körper von allen Ungerechtigkeiten befreien, 
+
+die ich in die Welt bringe. 
+
+Herr, Herr, Herr, möge deine Barmherzigkeit kommen,
+
+über mich, über mich.
+
+Ich, der ich noch nicht weiß,
+
+wie ich leben soll. 
+
+\section[Gebet II]{GEBET II}
+
+1. Herr, du bist alles für mich,
+
+hier unten -- so viel Trauer,
+
+alles ist so öde ohne Dich
+
+und nur Du verleihst ihm Bedeutung.
+
+Einzig Du liebst mich,
+
+ich weiß, nur Du.
+
+Ich liebe dich. \\
+
+
+2. Herr, lehre mich,
+
+alles Lebendige zu lieben,
+
+das, was du geschaffen hast,
+
+und dass ich überall deine Zartheit,
+
+Freude und Liebe verbreite.
+
+Möge ich lernen, 
+
+Dir zu dienen,
+
+zu danken. 
+
+\section[Lied der zwei Schwestern]{LIED DER ZWEI SCHWESTERN}
+
+
+Ich trage in meinem Leben die Trauer mit Freude --
+
+sie ist meine gute Freundin, die mich so gut lehrt. 
+
+Ich trage in meinem Leben die Trauer mit Freude.
+
+Sie ist meine Freundin, die mich lehrt.
+
+Obgleich ich unaufhörlich seufze, 
+
+bringt sie mich sanftmütig voran. 
+
+Und sie spricht zu mir süße Worte
+
+über ihre Schwester Freude,
+
+die mich mit Freude empfangen wird.
+
+Dann erzitterte mein Herz zum ersten Mal für meine Schwester Freude.
+
+\section[Frühlingslied]{FRÜHLINGSLIED}
+
+Nun kommt der wundervolle Frühling; 
+
+die Sonne geht auf, 
+
+alles erwacht, gedeiht, lebt, 
+
+und freut sich und dankt dem Herrn.
+
+Der Frühling, der Frühling ist da!
+
+Ein kleiner Vogel am Himmel zwitschert süß, 
+
+die Sonne überströmt freundlich die ganze Welt mit Freude und Liebe.
+
+Die gesamte Schöpfung frohlockt und dankt dem Herrn! 
+
+Der Frühling, der Frühling ist da!
+
+\section[Zehn Themen]{ZEHN THEMEN}
+
+\section[Musikalischer Moment]{MUSIKALISCHER MOMENT}
+
+\section[Melodie 1 -- Schönes Leben]{MELODIE -- SCHÖNES LEBEN}
+
+Schönes Leben -- unendlicher Weg!
+
+Ich erinnere mich manchmal,
+
+es war irgendwo fern.
+
+Dort ging die Sonne nie unter 
+
+und der Himmel -- immer azurbau,
+
+Frieden und Licht.
+
+Hymnen der Liebe
+
+singen die Engel unaufhörlich,
+
+schwingen, tönen im Einklang 
+
+die Sternuniversen. \\
+
+
+Und in der erschöpften Seele
+
+entsteht ein ewiges Streben.
+
+In Trauer, Freude und Tränen
+
+führt mich der Weg hinaus, ich weiß.
+
+Der mächtige Geist fliegt
+
+in die sonnige Heimat.
+
+\section[Melodie 2 -- In der Freude des Lebens]{MELODIE 2 -- IN DER FREUDE DES LEBENS}
+
+Die Erde freut sich,
+
+der Himmel freut sich im Licht.
+
+Das Korn, im Fruchtacker gesät,
+
+gedeiht heilig in der Liebe. 
+
+Gott lässt das neue Leben wachsen
+
+in Freude und Frieden
+
+und der ganze Himmel fließt von Liebe über.\\
+
+Refrain:
+
+Nun ist der Tag schön und heilig,
+
+und die Liebe ist ein lebendiger Segen.
+
+Scheine, verstreue Freude, Frieden und Liebe,
+
+heiliger göttlicher Tag. 
+
+Allgütiger, allweiser Gottvater
+
+lass Deine Gnade in den Seelen wachsen.
+
+Auf dass die Freude auf ewig ist,
+
+auf dass die Güte auf ewig ist
+
+im neuen seligen Leben.
+
+Möge der göttliche Wille heilig in diesem  
+
+gesegneten Tag auf ewig sein.
+
+Der Schwarm aus der Sonne segnet und scheint,
+
+damit der göttliche Ruhm das heilige Leben bescheint. \\
+
+Die ganze Welt ist Licht und das Licht
+
+ist Quelle von Freude, Kraft und Leben.\\
+
+
+\textit{Refrain ...}
+
+Nun scheint der Tag...
+
+\section[Melodie 3]{MELODIE 3}
+
+Wenn der Tag erwacht, 
+
+beginnen die Sonnenstrahlen zu singen.
+
+Aus den Quellen des Lebens
+
+strömt reichlich die Freude. 
+
+Und in dieser feierlichen Morgenstunde
+
+singt die ganze Natur.
+
+Zu den beschienenen Gipfeln
+
+fliegen unsere Seelen.\\
+
+Wenn der Tag erwacht,
+
+vernehmen wir den himmlischen Ruf --
+
+er bewegt und inspiriert uns
+
+zu einem hellen und schönen Leben.
+
+Er wird nach den Stürmen, nach den Kämpfen kommen.
+
+Frieden wird die Erde überfluten.
+
+Eine mächtige Kraft ist das Gute,
+
+wir glauben -- es wird siegen. 
+
+\section[Melodie 4]{MELODIE 4}
+
+Unendliche Weite,
+
+wunderbare Schönheit und Frieden,
+
+Sonne für die menschlichen Seelen
+
+bringt unaufhörlich die Liebe. (2) \\
+
+Das gute Leben strömt
+
+in den warmen Sonnenstrahlen
+
+und die Seelen lobpreisen im Licht
+
+der gütige Vater der Liebe. (2)
+
+Alles ist Liebe,
+
+Freude, Kraft und Leben.
+
+Ihr göttliches Licht
+
+bescheint diese Schönheit. (2) 
+
+
+\section[Die Stimme des lebendigen Gottes]{DIE STIMME DES LEBENDIGEN GOTTES}
+
+Steht auf, ihr Toten, steht auf aus dem Grab.
+
+Steht auf, erwacht zum Leben ihr, 
+
+die ihr aufgestanden seid.
+
+Steht auf, erwacht zum Leben,
+
+die ihr lebendig geworden seid.
+
+Hört, der Herr spricht jetzt zu euch:
+
+"`Meine Hand ist nicht kürzer geworden,
+
+um zu geben.
+
+Ich bin voll mit Überfluss
+
+und ich bin unerschöpflich,
+
+das, was ich für alle jene aufbewahre,
+
+die mich lieben und sich vor meinem Namen fürchten.
+
+Seid gesegnet ihr, die ihr mich liebt.
+
+Steht auf, erwacht zum Leben für den neuen Weg der Liebe."'
+
+\section[Die neue Genesis]{DIE NEUE GENESIS}
+
+\section[Erster Tag]{ERSTER TAG}
+
+Am Anfang schuf Gott Himmel und Erde.
+
+Und die Erde war wüst und leer, 
+
+es war keine Ordnung auf ihr. 
+
+Und es war finster auf der Tiefe;
+
+und der Geist Gottes schwebte über dem Wasser
+des Lebens.
+
+Und Gott sprach: Es entspringe Videlina, 
+
+das schöne geistige Licht! 
+
+Und es manifestierte sich in seinem Licht.
+
+Und Gott sah, dass das Licht gut war.
+
+Da schied Gott das Licht von der Finsternis
+
+und nannte das Licht Tag und die Finsternis
+Nacht.
+
+Da ward aus Abend und Morgen der erste
+Tag.
+
+\section[Zweiter Tag]{ZWEITER TAG}
+
+6 Und Gott sprach: Es werde eine Feste zwischen
+den Wassern, die da scheide zwischen den Wassern.
+
+7 Da machte Gott die Feste und schied das Wasser
+unter der Feste von dem Wasser über der Feste.
+Und es geschah so.
+
+8 Und Gott nannte die Feste Himmel. Da ward aus
+Abend und Morgen der zweite Tag.
+
+\section[Dritter Tag]{DRITTER TAG}
+
+9 Und Gott sprach: Es sammle sich das Wasser
+unter dem Himmel an besondere Orte, dass man
+das Trockene sehe. Und es geschah so.
+
+10 Und Gott nannte das Trockene Erde, und die
+Sammlung der Wasser nannte er Meer.
+
+11/12 Und Gott sprach, und die Erde ließ aufgehen
+Gras und Kraut, das Samen bringt, ein jedes nach
+seiner Art, und Bäume, die da Früchte tragen, ein
+jeder nach seiner Art. Und Gott sah, dass es gut
+war.
+
+13 Da ward aus Abend und Morgen der dritte Tag.
+
+\section[Vierter Tag]{VIERTER TAG}
+
+14/15 Und Gott sprach: Es werden Lichter an der
+Feste des Himmels, und es ward so.
+
+16 Und Gott machte zwei große Lichter: ein großes
+Licht, das den Tag regiere, und ein kleines Licht,
+das die Nacht regiere,
+
+17/18 dazu auch die Sterne. Und Gott setzte sie an
+die Feste des Himmels, und Gott sah, dass es gut
+war.
+
+19 Da ward aus Abend und Morgen der vierte Tag.
+
+\section[Fünfter Tag]{FÜNFTER TAG}
+
+20/21 Und Gott sprach: Es wimmle das Wasser von
+
+Fischen und lebendigem Getier, und Vögel sollen
+
+fliegen auf Erden unter der Feste des Himmels,
+
+einen jeden nach seiner Art. Und es ward so. Und
+
+Gott sah, dass es gut war.
+
+22 Und Gott segnete sie.
+
+23 Da ward aus Abend und Morgen der fünfte Tag.
+
+\section[Sechster Tag]{SECHSTER TAG}
+
+24/25 Und Gott sprach: Die Erde bringe hervor lebendiges
+
+Getier, ein jedes nach seiner Art: Vieh,
+
+Gewürm und Tiere des Feldes, ein jedes nach seiner
+
+Art. Und es geschah so. Und Gott sah, dass es
+gut war.
+
+26/27/28 Und Gott sprach und schuf den Menschen.
+
+Er schuf ihn selbst, nach seinem Bilde und Ihm ähnlich.
+
+Er segnete ihn, auf dass er über alles herrsche,
+
+was auf Erden lebt. Er soll lieben und schützen alle
+
+Geschöpfe im Meer, auf der Erde und in der Luft.
+
+29 Und Gott sprach: Sehet da, ich habe euch gegeben
+
+alle Pflanzen, die Samen bringen, und alle Bäume
+
+mit Früchten zu eurer Speise.
+
+30 Und Gott sprach: Allen Tieren auf Erden und allen
+
+Vögeln unter dem Himmel und allem Gewürm,
+
+das auf Erden kriecht und Leben hat, auf dass der
+
+Mensch ihnen nicht nach dem Leben trachte.
+
+31 Und Gott sah alles, was er gemacht hatte, und
+
+siehe, es war gut. Da ward aus Abend und Morgen
+
+der sechste Tag.
+
+\section[Siebter Tag]{SIEBTER TAG}
+
+1/2 So wurden vollendet Himmel und Erde mit ihrem
+ganzen Heer.
+
+3 Und Gott segnete den siebenten Tag und heiligte
+
+ihn, weil er an ihm ruhte von allen seinen Werken.
+
+Und Gott sah an alles, was er gemacht hatte, und
+
+siehe, es war gut.
+
+Aoum, Aoum, Aoumen.
+
+\section[Die innere Stimme Gottes]{DIE INNERE STIMME GOTTES}
+
+Venu Bahar sali mussenet. 
+
+Tussi Bahar.
+
+Venu senet.
+
+Tussi Bahar, 
+
+Venu Bahar Sali mussenet.
+
+Venu il Biut. 
+
+Biut, Biut, Biut.
+
+\section[Eine ewige Wahrheit, die Gott der Liebe ist]{EINE INNERE WAHRHEIT, DIE GOTT DER LIEBE IST}
+
+Ednata, Aditna, 
+
+Bi otna Amrihlna.
+
+Amerun, Schemerun.
+
+Il Bihr, Il Bihar, Il Bihar. 
+
+Bihar, Il Bihar. 
+
+Il mezun.
+
+
+Veiu, Veiu, Veiu,
+ 
+Tao Bi Om,
+ 
+Om Biut,
+
+Veiou, Veiou, Veiou.
+
+\section[Hymnen der Sonne]{DIE HYMNEN DER SONNE}
+
+Ich wecke. Meine Sonne geht in meiner Seele auf.
+
+Der Name Gottes sei gesegnet.
+
+Du weckst. Die göttliche Sonne geht in mir, im Herzen auf.
+
+
+Das Reich Gottes komme.
+
+Er weckt. Die Sonne meines Geistes geht auf.
+
+Der Wille Gottes geschehe.
+
+Wir wecken. Die Sonne unserer Engel geht auf.
+
+Das Reich unseres Vaters des Lichts komme!
+
+Ihr weckt. Die Sonne des großen, allmächtigen Gottes des
+Friedens geht in unseren Seelen auf.
+
+
+Auf dass sie unsere Seele durch Seine Kraft erneuere.
+
+Sie wecken. Die Sonne aller Sonnen unseres Geistes geht auf.
+
+Gott gebe uns Leben, Gesundheit und Freiheit!
+
+
+\section[Gebet]{GEBET}
+
+Ich glaube an Dich, Herr,
+
+der Du zu mir in der Vergangenheit gesprochen hast.
+
+Ich glaube an Dich, Herr,
+
+der Du zu mir jetzt sprichst.
+
+
+Ich glaube an Dich, Herr,
+
+der Du zu mir in der Zukunft sprechen wirst.
+
+Gesegnet sei dein Name,
+
+auf dass wir in Deiner Herrlichkeit leben. 
+
+Möge Dein Reich kommen
+
+und mögen wir an Deiner Freude teilhaben. 
+
+Dein Wille geschehe wie oben im Himmel,
+
+so unten auf der Erde. 
+
+Auf dass wir mit dir zusammenarbeiten. 
+
+Amen. So sei es. 
+
+
+\section[Die göttliche Liebe hat mich erleuchtet]{DIE GÖTTLICHE LIEBE HAT MICH ERLEUCHTET}
+
+Die göttliche Liebe 
+
+weitete meine Seele
+
+und erfüllte mein Herz mit Strahlen.
+
+Aus tiefen Gründen hob sie meinen Geist
+
+auf ihren gesegneten Schwingen in den Höhen empor, 
+
+vom Anblick Gottes erleuchtet, erleuchtet,
+
+vom Anblick Gottes erleuchtet. \\
+
+
+Die Liebe erleuchtet mich, 
+
+Die Liebe erleuchtet mich,
+
+sie weitete meine Seele, 
+
+sie heiligte meine Seele, 
+
+sie weitete meine Seele, 
+
+sie heiligte meine Seele, 
+
+stärkte meinen Geist; 
+
+und flößte mir Güte ein. (3)
+
+\section[Das Lied der Engel]{DAS LIED DER ENGEL}
+
+Wenn eure Seelen offen wären.
+
+würdet ihr die Stimme der Engel hören,
+
+die singen.
+
+Sie singen das Lied der Liebe.
+
+Sie singen: "`Ihr, die Menschen,
+
+die ihr geschaffen wurdet
+
+nach dem Ebenbild Gottes,
+
+hört die Stimme eures Schöpfers,
+
+hört die Stimme eures Vaters.
+
+Der, der zu euch heute spricht!
+
+Hört Ihn! Hört Ihn
+
+und wir werden ihn auch hören.
+
+Erfüllt seinen Willen,
+
+wie wir auch Seinen Willen erfüllen,
+
+Dies ist der Sinn des Lebens,
+
+dies ist der Sinn des Lebens,
+
+der Sinn des Lebens, der Unsterblichkeit."'
+
+Sieh, das Lied der Engel,
+
+die jetzt singen:
+
+"`Herrlichkeit zu unserem großen Schöpfer!
+
+Herrlichkeit, Herrlichkeit, Herrlichkeit unserem Vater!
+
+Herrlichkeit unserem Vater,
+
+unserem großen Vater.
+
+\section[Herr, wie ich dich liebe]{HERR, WIE ICH DICH LIEBE}
+
+Herr und Gott, wie sehr liebe ich Dich!
+
+Gott, Mein Herr, wie sehr liebe ich Dich!
+
+Ich liebe Dich, Herr.
+
+Ich liebe Deine Bäumchen, 
+
+ich liebe Deine Blümchen,
+
+ich liebe Deine Bäche,
+
+ich liebe Deine Berge.
+
+Herr, ich liebe alles,
+
+was Du erschaffen hast.
+
+Ich liebe Dich, ich liebe dich,
+
+ich liebe dich Herr!
+
+\section[Sage mir, heller göttlicher Strahl]{SAGE MIR, HELLER GÖTTLICHER STRAHL II}
+
+Herr, du lebst in mir,
+
+Du lebst in mir.
+
+Sage mir, heller göttlicher Strahl,
+
+sage mir du, das Gute des Lebens, 
+
+der helle gerade Weg
+
+der reinen Seelen,
+
+gewaschen in den Gewässern der Liebe,
+
+der reinen Liebe. 
+
+Herr, Du lebst in mir,
+
+Du lebst in mir.
+
+Mögen Deine gütige Stimme
+
+und Deine Barmherzigkeit, oh, Herr, 
+
+sich durch mich äußern!
+
+\section[Meine Sonne wird heute aufgehen]{MEINE SONNE WIRD HEUTE AUFGEHEN}
+
+Meine liebe Mutter, meine Sonne wird heute aufgehen. 
+
+Sie wird mir Licht und Freude bringen.
+
+Meine liebe Mutter,
+
+meine Sonne wird heute aufgehen
+
+und sie wird helle Freude in meinem Leben bringen.
+
+Dann werde ich, Mutter,
+
+mich äußern,
+
+dann werde ich bereit sein,
+
+das Gute in der Welt zu äußern. 
+
+Ich werde gut denken,
+
+ich werde gut fühlen,
+
+ich werde gut handeln, Mutter.
+
+Du wirst, Mutter, einen guten Sohn haben.
+
+Meine liebe Mutter,
+
+meine Sonne wird heute aufgehen 
+
+und sie wird mein Leben 
+
+mit Freude erfüllen. 
+
+
+\section[Du wirst im Leben Erfolg haben]{DU WIRST IM LEBEN ERFOLG HABEN}
+
+Schön ist das Leben der Engel. 
+
+Schön ist das Leben unserer Seele. 
+
+Du wirst im Leben erfolgreich sein.
+
+Höre die Stimme der Engel, 
+
+und du wirst im Leben erfolgreich sein. 
+
+Schön ist das Leben der Engel.
+
+\section[Die Morgenröte des neuen Lebens]{DIE MORGENRÖTE DES NEUEN LEBENS}
+
+Die wunderbare Morgenröte bricht an,
+
+die Morgenröte des neuen Lebens,
+
+die mich im Leben ruft.
+
+Die wunderbare Morgenröte bricht an,
+
+die Morgenröte des neuen Lebens.
+
+\section[Vater unser]{VATER UNSER,  führe uns nicht in Versuchung}
+
+Ich werde die Wärme meines Herzens aufbewahren,
+
+die die göttlichen Güter in meiner Seele bringt.
+
+Herr, führe uns nicht in Versuchung,
+
+führe uns nicht in Versuchung.
+
+\section[Ich bin ein Fremder in dieser Welt]{ICH BIN EIN FREMDER IN DIESER WELT}
+
+
+Ich bin ein Fremder in dieser Welt.
+
+Ich kenne niemand außer Dich. 
+
+Dich, oh Herr, mein Gott,
+
+der Du alles für mich erschaffen hast. 
+
+Ich richte mein Dank an Dich. 
+
+Auf Dich, Herr, setze ich mein Vertrauen.
+
+Möge mein Gebet erhört werden.
+
+\newpage
+
+\section[Anmerkungen]{ANMERKUNGEN}
+
+\begin{center}
+\textbf{Brüderliche Lieder}
+\end{center}
+
+
+1. \textbf{Zorara na novija zivot} -- Musik des Meisters, Text von einem Schüler nach den Ideen des Meisters.
+
+2. \textbf{Izljazal e sejach da see} -- Musik des Meisters, Text von einem Schüler nach den Ideen des Meisters.
+
+3. \textbf{Bratstvo, edinstvo} -- Musik und Text des Meisters
+
+4. \textbf{Ste se razveselja}: -- Musik des Meisters, Text Jes. 61,10
+
+5. \textbf{Izgrjava den tarzjestven}: -- Musik des Meisters, Text von einem Schüler nach den Ideen des Meisters.
+
+6. \textbf{Blagoslavjai} -- Musik und Text des Meisters nach dem Psalm 103
+
+7. \textbf{Sabudi se bratko mili} -- Musik des Meisters, Text von einem Schüler nach den Ideen des Meisters.
+
+8. \textbf{Ljuobta e izvor} -- Musik des Meisters, Text von einem Schüler nach den Ideen des Meisters. In den Notizen Bojan Boev wurde das Lied "`Lied der Liebe"' betitelt.
+
+9. \textbf{Stani, stani} -- Musik und Text des Meisters 
+
+10. \textbf{Stradna duscho} -- Musik vom Meister, Text von Michalaki Georgiev. In den Notitzen von Bojan Boev wurde dieses Lied "`Lied der Seele"' betitelt. Jede Strophe entspricht einer der Kardinaltugenden -- dem Gute, der Gerechtigkeit, der Liebe, der Weisheit und der Freiheit.
+
+11. \textbf{Izgrej ti, moe slunze}  -- Musik vom Meister, Text Stojan Russev (Djado Blago)
+
+12. \textbf{Schumi} -- Musik des Meisters, Text von einem Schüler nach den Ideen des Meisters.
+
+13. \textbf{Pri iztochnika} -- Musik des Meisters, Text Ivan Tolev.
+
+14. \textbf{Napred da hodim} -- Musik des Meisters, Text von einem Schüler nach den Ideen des Meisters. In den Notitzen von Bojan Boev heißt das Lied "`Marsch der Bruderschaft bei Ausflügen"'.
+
+15. \textbf{An den Meister} -- Musik und Text von Boris Hadjiandreev, Jambol, 1915. In den Notizen von Bojan Boev ist das Lied "`Der Schüler Christi und anstatt Herr, mein Meister wurde "`Oh, mein Herr und Meister"'. In manchen populären Versionen der vierten Strophe wird auch gesungen: "`und nach (mit) Dir werde ich gehen. 
+
+16. \textbf{Milosurdieto} -- Musik Atanas D. Kovachev, Test Stojan Russev. 
+
+17. \textbf{Sardetschen zov} -- Musik von Atanas D. Kovachev, die währen des Ersten Weltkrieges in Dobro pole komponiert wurde, nach dem Motiv des Meisters, Text von Ilija Zurkov.
+
+18. \textbf{Blagosloven Gospod} -- Musik und Text des Meisters. In den Notizen von Bojan Boev wurde das Lied "`Der kleine Lobgesang"' betitelt. 
+
+19. \textbf{Sa nebesnija Zar} -- Musik und Text des Meisters, 1888, Hotanza. In den Notizen von Bojan Boev wurde das Lied "`Der zionische Marsch"' betitelt. 
+
+20. \textbf{Vreme e da varvim} -- Musik des Meisters, Text von einem Schüler
+
+21. \textbf{Pozdrav na Uchitelja} -- Musik und Text von Elena Kazanlaklieva.
+
+22. \textbf{Sine moi, pazi zivota} -- Musik von Ivan G. Popov, Text von Stojan Rusev (Djado Blago), aufgeschrieben am 2. Mai 1922.
+
+23. \textbf{Rosna kapka} -- Musik und Text von Ivan Popov, aufgeschrieben am 1. August 1921.
+
+24. \textbf{Ich bin das weiße Schneeglöckchen} -- Musik Hristo Darsev, Text Pentscho Slaveikov. In manchen populären Versionen wird anstelle "`Böse Stiefmutter hat mich geweckt"' "`Die Sonne hat mich geweckt"' gesungen. Der Text der dritten Strophe wurde später von einem Schüler hinzugefügt.
+
+25. \textbf{Napred, chada napred} -- Musik und Text von einem Schüler.
+
+26. \textbf{Slavejcheta goski} -- Musik von Atanas D. Kovachev, Text von Stojan Russev (Djado Blago) Aufgeschrieben am 2. Februar 1918. 
+
+27. \textbf{Nebeto se otvarja} -- Musik Atanas D. Kovachev, Text Stojan Russev (Djado Blago), aufgeschrieben am 2. Februar 1918.
+
+28. \textbf{O, Uchitelju blagati} -- Musik und Text von Ljuba Roadoslavova.
+
+29. \textbf{Darsost in Christus} -- Musik und Text von einem Schüler, aufgeschrieben am 1. August 1921
+
+30. \textbf{Slava Bogia} -- Text und Musik Maria Todorova nach dem Psalm 115
+
+31. \textbf{An Zion} -- Musik und Text von Ivan Popov, aufgeschrieben am 15 Juni 1921.
+
+32. \textbf{Slanzeto na lubivta} -- Musik und Text von einem Schüler.
+
+33. \textbf{Ti si projavenata Ljubov} --   Text und Musik von Maria Savova
+
+34. \textbf{Idvat dni na radost} -- Text und Musik von Maria Savova
+
+35. \textbf{An Rila} -- Musik von Chudomir Kantardzhiev, Text von Margarita Nedjalkova.
+
+36. \textbf{Psalm 91} -- Musik von Christo Darzev, Text Psalm 91.
+
+37. \textbf{Na belija zvjat} -- Musik von Ivan Popov, Text von Stojan Rusev (Djado Blago), aufgeschriebem am 9. April 1922.
+
+38. \textbf{Na Hrista sapeite} -- Musik und Text von Ivan Popov, aufgeschrieben am 15. März 1921.
+
+39. \textbf{Neue Kleider} -- Musik von Ivan Kavaldzhiev, aufgeschrieben am 1. Juni 1922.
+
+40. \textbf{Dischai Dalboko} -- Musik und Text Penju Ganev.
+
+41. \textbf{Angel vopijasche.} Bulgarischer Kirchengesang, der zu Beginn des 20 Jahrhunderts sehr bekannt war. Text und Musik Konstantin Danovski
+ 
+ 42. \textbf{Tainata vecherja} -- Musik und Text von Vessela Nesstorova, gesegnet des Meisters. Die erste Strophe bedeutet folgendes: "`Alles ist hell, alles ist in meinem Licht erleuchtet.
+ 
+43. \textbf{Tebe poem} -- Bulgarischer Kirchengesang, populär in der Weißen Bruderschaft.
+
+44. \textbf{Pesen na glasnite bukvi.} -- Glasovo upraznenie des Meisters. 
+
+\begin{center}
+\textbf{Lieder des Meisters}
+\end{center}
+
+45. Fir-für-fen -- Segne: Das Lied wurde am 21 August 1922 während der Zusammenkunft in Veliko Tarnovo im Vortrag "`Musik, Arbeit, und Fasten"' gegeben. Dieses Lied dient der Harmonisierung und der Heilung -- es reguliert die Ströme und die Kräfte im Menschen, es bringt sie in Harmonie mit dem Sein. Die Worte entstammen einer heiligen Sprache und können nicht wortwörtlich übersetzt werden. Der Meister gibt nur eine ungefähre und partielle Übersetzung. Ohne Angst, ohne Finsternis. 
+	
+\textit{Fir-für} -- dasjenige, was den Menschen leitet
+	
+\textit{Fen} -- beseitigt die Hindernisse und reinigt.
+
+\textit{Tao} -- umzäunt und beschützt den Menschen als Umgebung, in die er eingetaucht ist. Tao ist außerdem das Absolute, das Nicht-Manifestierte, das Grenzenlose.
+	
+\textit{Bi} -- dasjenige, was sich manifestiert.
+	
+\textit{Aoumen} -- alle Eigenschaften, die im Göttlichen enthalten sind -- alles, was wachsen und sich in seiner Fülle manifestieren soll.
+	
+\textit{Fir für fen} ist ein rhythmischer Satz, dies sind rhythmische Worte mit starker Schwingung, deren Wesen im Bewusstsein der Menschen, die im materiellen Leben versunken sind, etwas Neues erwecken kann.
+
+
+46. \textbf{Izgrjava slunzeto} -- Das Lied wurde am 22. Oktober 1922 in der Allgemeinen Okkultklasse 2. Jahrgang, vierter Vortrag gegeben. Der Meister sagt: "`Hier wurde mit vollkommener Einfachheit von Ton und Wort das herrliche Bild der aufgehenden Sonne geschaffen.
+
+47. \textbf{Izgrjava slunzeto} -- Das Lied wurde am 12. Oktober 1922 in der Allgemeinen Okkultklasse, 2. Jahrgang, im zweiten Vortrag gegeben. Der Meister sagt: "`Die Töne dieses Liedes zeigen die Bewegungen, ein Quellen nach oben und ein Erweitern. Das Unterdrückte im Menschen wird befreit, es wird in Gang gesetzt und ihm die richtige Richtung gegeben. Damit der Mensch diese Übung singen kann, muss er in einem harmonischen Kontakt mit der göttlichen Natur treten. Die Worte \textit{Sun me sun} in der okkulten Musik regulieren, sie sind die Gleichgewicht bringende Kraft, sie sind das Maß, \textit{tu meto} eines der schönsten Inhalte.
+
+48. \textbf{Blagost} -- Die ersten fünf Takte des Liedes wurden am 19. Dezember 1923, in der Allgemeinen Okkultklasse, 3. Jahrgang, im 10. Vortrag gegeben. Das ganze Lied wurde am 26. Dezember 1923 gegeben. Der Meister sagt: "`Die Kraft dieses Liedes liegt in seinem Rhythmus. Es hat zum Ziel, den richtige Rhythmus des menschlichen Herzens wiederherzustellen.
+
+49. \textbf{Sladko medeno} -- Gegeben am 29. Oktober 1922, Allgemeine Okkultklasse, 2. Jahrgang, 5. Vortrag. Das ist eine positive Übung, jedes Bild ist aktiv. 
+
+50. \textbf{Blaga duma} -- gegeben am 5. November 1922, Allgemeine Okkultklasse, 2. Jahrgang, 6. Vortrag. 
+
+51. \textbf{Aum} -- Gegeben am 2. Dezember 1925. Diese Übung soll das Heilige in sich aufrechterhalten. Es ist aus einem alten heiligen Lied entnommen worden. Der Meister sagte: "`Wenn ich euch dieses Lied so geben konnte, wie es in Moll ist, dann werdet ihr ihrer Vibrationen nicht standhalten können -- sie werden euren Puls verändern."' Der Meister unterrichtete das Lied in Moll. Der Meister sagt: "`Es gibt heilige Worte."' Solch ein Wort ist auch das Wort Aum, die oft ausgesprochen werden sollen, auch dann, wenn man die Bedeutung dieses Wortes nicht versteht. Wenn ihr traurig seid, wenn ihr krank seid, befindet ihr euch geistig nicht in einer guten Kondition, sprecht ein paar Mal das Wort Aum -- sie ist das Wort des Geistes. Singt ihr das Wort in seiner Sprache, dann wird er euch verstehen und helfen, denn er versteht und weiß eure Bedürfnisse. 
+
+52. \textbf{Venir Benir} -- Gegeben am 5. November 1922. Allgemeine Okkultklasse, 2. Jahrgang, 6. Vortrag. Venir Benir ist ein 
+
+53. \textbf{Sila ziva} -- Gegeben am 19. November 1922, Allgemeine Okkultklasse, 2. Jahrgang, 8. Vortrag.
+
+54. \textbf{Skrabta si ti kazhi} --  19. November 1922 (gemeinsame okkulte Klasse, 2. Jahrgang, 8. Vortrag. Sila jiva und Skrabta si ti kaji sind zwei Teile einer einzigen okkulten Übung. Meister Peter Deunov gab dazu folgende Erklärung: "`Sila jiva, kaji mi, kaji mi, de voda izvira: Hier suchen wir nach der Quelle. Es handelt sich um ein traditionelles bulgarisches Motiv. Es wurde dem Lauf einer Quelle aus dem Hochgebirge entnommen, welche über die Steine springend nach und nach hinunterfließt. So habt ihr hier ein sehr angenehmes Bild vor Augen. Im bulgarischen Volkslied sind all diese Reigentanzlieder Stätten entnommen worden, wo Quellen entspringen. Skrabta si ti kaji, sarze si ti otvori na slanchevi lachi ...: In diesem Ausschnitt haben wir ein negatives Wort, die Trauer: skrabta (= Kummer, Traurigkeit, Leid, Schmerz). Sobald jemand Leid empfindet, gibt es eine Dunkelheit in seinem Verstand und seinem Herzen; es gibt kein Licht mehr. Sobald das Licht erscheint, verschwindet das Leid. Die Sonne ist es, die heilt.
+
+55. \textbf{Gree, gree} -- Gegeben im Frühjahr 1924.
+
+56. \textbf{Duhat Bojii} -- Gegeben am 13. November 1922. Allgemeine Okkultklasse, 2. Jahrgang, 7. Vortrag. Dieses Lied nennt der Meister der okkulte Übergang -- es führt uns in die okkulte Musik ein.
+
+57. \textbf{Mahar Benu Aba} -- Gegeben am 3. Dezember 1922 (gemeinsame okkulte Klasse, 2. Jahrgang, 10. Vortrag). Meister Peter Deunov hat diese Übung "`Das Gebet des Schülers"' genannt. Es sollte mit Konzentration, Ausdruck und Sanftheit gesungen werden. Mahar bedeutet "`der Große"', Benu "`der, welcher segnet"' und Aba "`der Vater aller Dinge"'. Derart hat der Meister die Idee von Mahar Benou Aba in Bildern entwickelt: "`Mahar ist eine natürliche, nach unten gerichtete Bewegung. Benu ist der Aufstieg nach oben. Aba bedeutet, den Ort bestiegen zu haben, den du erstrebst. Dort ist es eben -- es gibt genügend Raum und du kannst dich bewegen. Das bedeutet, dass es drei Konzepte gibt: den Abstieg, den Aufstieg und eine natürliche Bewegung, bei der die Hindernisse beseitigt werden. Die Hindernisse ergeben sich aus dem Auf- und Abstieg. Bei Aba wird das Marschieren zu etwas Natürlichem. Dies bedeutet, dass du zur Arbeit gehst. Mahar ist der schönste Ort, zu dem du hinabsteigen kannst; Benu ist der schönste Ort, zu dem du aufsteigen kannst; und Aba ist der schönste ebene Ort, wo du arbeiten und leben kannst."' (Kommentar vom 12. Dezember 1941, Allgemeine okkulte Klasse, 21. Jahrgang, 12. Vortrag)
+
+58. \textbf{V mrak, tamnota} -- Gegeben am 3. März Allgemeine okkulte Klasse, 5. Jahrgang, 16. Vortrag). Dieses Lied ist der zweite Teil von Mahar Benu Aba und auch seine Übersetzung. Bildlich gesprochen, entspricht v’mrak = Mahar, dem Abstieg. „No slånñeto na jivota“ entpricht Benou, dem Aufstieg. "`I nii tragnahme vav patia chist i sviat za nas"' entspricht Aba, was bedeutet: "`an die Arbeit gehen"'.
+
+59. \textbf{V zorite na zivota} -- Gegeben am 3. Dezember 1922. Allgemeine Okkultklasse, 2. Jahrgang, 10. Vortrag.
+
+60. \textbf{Gott ist Liebe} -- Der erste Teil dieses Liedes entstand am 10. Dezember 1922 (Allgemeine Okkultklasse, 2. Jahrgang, 11. Vortrag); der zweite Teil "`Ni ste hodim"' am 17. Dezember 1922 im Laufe des nachfolgenden Vortrages der gleichen Klasse. Diese Übung enthält Bilder und Gestalten. Man beginnt leise zu singen. Die Kraft dieses Liedes liegt im Erleben verborgen. Die menschliche Seele empfängt aus den höheren Regionen die ewige Symphonie, welche aus dem gesamte Universum als Lobpreisung des Unendlichen [Gott] kommt. Dieser Gedanke wird im ersten Teil des Liedes "`Gott ist Liebe ..."' ausgedrückt. Diese Symphonie erfüllt und verklärt die menschliche Seele, die nun freudig ihren Ruf nach oben erschallen lässt. Dies wird im zweiten Teil des Liedes "`Wir werden auf dem Weg des Lichts wandeln ..."' ausgedrückt. 
+
+61. \textbf{Vehadi} -- Gegeben am 17 Juni 1925 -- Allgemeine Okkultklasse, 4. Jahrgang, 28. Vortrag). Das Wort Vehadi bezeichnet den Beginn einer bestimmten Arbeit. Das Motiv stellt ein kleines Fragment eines heiligen Gesanges dar.
+
+62. \textbf{Vecher, sutrin} -- Gegeben am 10. Dezember 1924, Allgemeine Okkultklasse, 4. Jahrgang, 9. Vortrag.
+
+63. \textbf{Imasche chelovek} -- Gegeben am 30 November 1927 Allgemeine Okkultklasse, VII Jahrgang. Text Johannes 1,6-13
+
+64. \textbf{Kazi mi ti istinata} -- Gegeben am 26 November 1924, Allgemeine Okkultklasse, IV Jahrgang, 7. Vortrag.
+
+65. \textbf{Blagata pesen} -- Gegeben am 27 März 1929, Allgemeine Okkultklasse, VIII Jahrgang, 32. Vortrag. Dieses Lied wurde aus einer sehr alten Sprachen übersetzt. Der Titel des Liedes war Hadi -- henzi betitelt; 
+
+67. \textbf{Mussala} -- gegeben am 3. Dezember 1922 Allgemeine Okkultklasse, 2. Jahrgang, 10 Vortrag. 
+
+68. \textbf{Tagi, skurbi} -- gegeben am 16 April 1924 Allgemeine Okkultklasse, III. Jahrgang, 26. Vortrag. Wenn ihr diese Übung singt, dann werdet ihr eine Erfrischung spüren.
+
+69. \textbf{Svetal den} -- Gegeben am 1. Mai 1924. Allgemeine Okkultklasse, III. Jahrgang, 26. Vortrag.
+
+70. \textbf{Neva sanzu} -- Gegeben am 1. Mai 1929 Allgemeine Okkultklasse, VIII. Jahrgang, 37. Vortrag. Dieses Lied ist im östlichen Stil geschrieben und der Text ist einer alten Sprache entliehen. Wenn man sie übersetzen würde, würden sie ihre Kraft verlieren. Die Silben sind derart angeordnet, dass sie als Mittler dieser Kräfte dienen. Das Lied Neva Sanzou zeigt den geistigen Weg auf, der nicht glatt verläuft, sondern Hindernisse aufweist. Hier muss der Mensch von den Höhen in das Tal hinabsteigen, um bestimmte schwierige Fragen des Lebens zu lösen. Es handelt sich um das Lied der Adepten, dessen Musik sehr lange vor unserer Zeit erschaffen wurde.
+
+71. \textbf{Kiamet Zenu} -- 8. Dezember 1926. (Allgemeine okkulte Klasse, 6. Jahrgang, 12. Vortrag). Kiamet Zenou bedeutet, dass du einen Ort betrittst, der so schön, so außergewöhnlich ist, so dass du staunst, worauf du zuerst deinen Blick heften sollst. Das Wort Kiamet bedeutet: der Große im Leben, dasjenige, was in Raum und Zeit verbirgt. Er ist der Beginn aller Dinge, dasjenige, das der schöpferischen Kraft Schwung gibt. Dieses Wort bedeutet auch die Kraft, mit deren Hilfe du kämpfst, um die Einschränkungen zu Beginn der Wiederauferstehung zu besiegen. Mahar Benu ist der Große, der die Dinge ordnet und aufbaut. Er ist unveränderlich und beständig.
+
+72. \textbf{Davai, davai} -- 28. Dezember 1926 Allgemeine Okkultklasse, 6. Jahrgang, 4. Vortrag). Dieses Lied ist ein kraftvolles Motiv, welches Bilder und Gemälde im Bewusstsein des Menschen erweckt. Es ruft das Verlangen hervor zu geben, in das Feld des Lebens zu säen. Mit dem Singen von Davai, davai sagst du: "`Ich muss geben."' Wer reine Weizenkörner gibt, wird ebensolche wiederbekommen. Davai Davai beginnt mit dem Ton A, der die Quelle symbolisiert -- also du bist eine Quelle, die fließen muss. Du bist erschienen -- stehe auf und verrichte deine Arbeit. Der Begriff "Davai, davai"' hat eine breite Bedeutung. 
+
+73. \textbf{Misli, pravo misli} -- 6. Juni 1926 (Allgemeine Okkultklasse, 5. Jahrgang,
+30. Vortrag). Die Kraft des Menschen beruht auf den heiligen Ideen, die er in sich selbst für das Leben hegt. Solange er diese heiligen Gedanken aufbewahrt, schützen sie ihn ebenfalls. Bewahrt er sie jedoch nicht mehr, so ist sein Fall unvermeidlich. Dieses Lied wird mit Bewegungen der Arme gesungen.
+
+74. \textbf{V nachaloto be slovoto} -- Gegeben am 5. November 1924, Allgemeine Okkultklasse. IV Jahrgang. Die ersten beiden Verse stehen für die Aktivität des Geistes, der dritte für die Aktion der Intelligenz, der vierte für die Aktion des Herzens und der fünfte für die materielle Welt. Die Finsternis stellt die materielle Welt dar, die das Licht durchdringt. Aus diesem göttlichen Ursprung aller Dinge ist das Wort in grandioser Schönheit erschienen. V’nañalo be Slovoto, i Slovoto be ou Boga –  dieser Vers ist enorm wichtig. Der Mensch sollte ihn morgens, direkt nach dem Aufstehen, lesen, singen und darüber meditieren, bis das Licht seinen Intellekt erleuchtet und er diese großartige Idee akzeptiert. Dann wird sich sein Herz verwandeln und milder werden, seine Intelligenz wird sich verändern und er wird beginnen, richtiger zu denken. Dieses Lied repräsentiert die neue Richtung, die in die Musik kommt -- das ist die Musik der Liebe!
+
+75. \textbf{Vdahnovenie} -- Gegeben am 10 Dezember 1924. Allgemeine Okkultklasse IV Jahr, 9. Vortrag.
+
+76. \textbf{Dobur den} -- 11. September 1933, Vitoscha, El Schadai
+
+77. \textbf{Vesel ti badi} -- Gegeben am 21 August 1929, Rila, die Sieben Rila-Seen.
+
+78. \textbf{Zapali se oganja} --  Gegeben am 8. August 1933, Vitoscha, El Schadai.
+
+79. \textbf{Bereschid Ba} -- Gegeben am 1932. Der Titel stammt aus dem 1. Buch Mose und bedeutet der Anfang der Dinge.
+
+80. \textbf{Malkijat izvor} -- Gegeben am 21 Januar 1925. Allgemeine Okkultklasse, IV Jahrgang, 16. Vortrag. Das Lied erweckt die kindliche Reinheit beim Menschen. "`Christus sagt: "`Wenn ihr nicht werdet wie die Kinder, so werdet ihr nicht in das Reich Gottes eintreten."'
+
+81. \textbf{Vsichko v zivota e postigimo} -- Gegeben 1933
+
+82. \textbf{Tagi, skarbi sa bogatstvo} -- Gegeben am 7. Dezember 1927. Wenn ihr Trauer habt, dann singt dieses Lied. Es ist wichtig, dass der Mensch weiß, wie er dieses Lied singen soll. Beim Singen dieses Liedes sollte man das Gesetz der Kontraste berücksichtigen. Einmal kann man das Lied leise, einmal laut singen. Wenn man es mehrmals auf dieselbe Art uns Weise singt, dann wird es ihre Bedeutung verlieren. Mit den Liedern, die im Volksmusikstil komponiert wurden, brachte der Meister Erneuerung für die bulgarische Volksmusik. 
+
+83. \textbf{Duhat mi schepne tova} -- Gegeben am 19. Januar 1934 Jugendokkultklasse, XII Jahrgang, 14. Vortrag
+
+84. \textbf{Sila, zivot, zdrave} -- Gegeben am 7 Januar 1932.
+
+85. \textbf{Krasiv e zhivotat} -- gegeben am 19. November 1941.
+
+86. \textbf{Hymne der großen Seele} -- Gegeben im Sommer 1933. Dieses Lied lässt jene innere Sonne erahnen, die in allen Wesen arbeitet und sie von der Finsternis zum Licht, vom Tod ins Leben, von der Sklaverei in die Freiheit erhebt. Es endet mit einer Freudenhymne für den Großen Einen, der allem zugrunde liegt.
+
+87. \textbf{Pesen na zorata} -- Gegeben 1930 
+
+88. \textbf{Pri vsichkite ulovija} -- Gegeben am 4. November 1934
+
+89. \textbf{Az moga da kazha} -- Gegeben am 4 November 1934.
+
+91. \textbf{Az smeja da kazha } -- 1. September 1935 "`Ich wage zu sagen, dass die Sonne leuchtet"' -- sie leuchtet dort, wo die Intelligenz vorhanden ist. Unter dem Wort "`Licht"' verstehen wir die intelligente Welt, in der alles möglich ist. Alle intelligenten Wesen sind bereit, dir zu helfen, wenn du dich ihnen vorstellst.
+
+91. \textbf{Da imasch vjara} -- Gegeben am 9. Oktober 1936.
+
+92. \textbf{V pusnitjata na zhivota} -- Gegeben 1934. 
+
+93. \textbf{Moga da ljubja} -- Gegeben 1942
+
+94. \textbf{Sila, zdrave e bogatstvo} -- Gegeben am 3. Januar 1949. 
+
+95. \textbf{Zov na planinata} -- Gegeben 1937.
+
+96. \textbf{Zvetjata zaftjaha} -- Gegeben am 22. Januar 1941. Die Blume, die sich geöffnet hat, kann die Sonnenstrahlen empfangen. Das Herz und der Verstand des Menschen müssen sich den göttlichen Wohltaten öffnen, nur dann kann er wahre Errungenschaften haben.
+
+97. \textbf{Toi ide} -- Begonnen am 7 Januar, beendet am 5 Februar 1939.
+
+98. \textbf{Pesen na svetlija pat} -- Gegeben 1942.
+
+99. \textbf{Doste den} -- gegeben am 7. Februar 1940.
+
+100. \textbf{Tam daleche} -- Gegeben 1937
+
+101. \textbf{Denjat ide} -- Gegeben am 18 Februar 1938. Der Test der zweiten und der dritten sind von Stojanka Stojanka Ilieva. 
+
+102. \textbf{Prolet} -- Gegeben am 8. Januar 1942. Dieses Lied gab der Meister einer Schwester, die von Beruf Lehrerin war, damit sie ihre Schüler lehren kann.
+
+103. \textbf{Verjungen} -- Gegeben am 8. September 1943.
+
+104. \textbf{Burja} -- Gegeben am 15. Dezember 1935. Dieses Lied erinnert daran, dass es im Menschen eine Kraft gibt, die ihn stützt. Wenn der Mensch aufmerksam auf die vernünftige Stimme dieser Kraft horcht, wird er den Sinn aller Trauer, der Qualen und aller Stürme, die uns durchschütteln, verstehen; er wird ihren Stößen widerstehen. 
+
+106. \textbf{Radost i skrab }-- Begonnen am 9. November, beendet am 16 November 1933. Im Lied wird der Grundidee Ausdruck verliehen, dass Kummer und Freude die zwei Lebenswege darstellen. In der Trauer hat der Mensch bestimmte Errungenschaften an, andere in der Freude. Deshalb werden im großen Leben der Liebe beide Wege gleichwertig geschätzt.
+
+107. \textbf{Proletna pesen} -- Komponiert von Schülern nach den Motiven des Meisters im Februar 1935.
+
+108. \textbf{Sonnenlied} -- pchelna muschichka. Gegeben am Februar 1935. Dieses Lied würde vom Meister zum Lied "`Proletna pessen"', hinzugefügt. Das Lied wird als ihr Ende betrachtet. 
+
+109. \textbf{Studat vsichko dava} -- Begonnen am 5. Jaunuar und beendet am 16. Januar 1934. Wenn das Bewusstsein des Menschen durch die innere Kälte des Hasses, der Dunkelheit, des Egoismus, der Begrenzung erstarrt ist, gelangt der Mensch durch die äußere Kälte -- die ungünstigen Bedingungen, die Widerspüche, die Schwierigkeiten, die Kämpfe und das Leiden -- zum inneren Licht. Er steigt in eine höhere Welt auf, die von der Ankunft des Frühlings symbolisiert wird.
+
+110. \textbf{Die Sprache der lebendigen Natur} -- Begonnen am 18 Oktober, beendet am 19 Oktober 1933 -- Durch schöne Symbole und Bilder, die aus dem Leben der Natur entnommen wurden, werden die inneren Erlebnisse der Seele beschrieben.
+
+111. \textbf{Gerechtigkeit} -- Gegeben am 15 April 1943.
+
+112. \textbf{Skitah se po gori i planini} -- Gegeben 1933.
+
+113. \textbf{Obetovanata semja} -- Gegeben am 27. Januar 1933. Dieses Lied ist den Seelen all deren nah, die das alte Leben verlassen und sich an das schöne Leben des Lichtes, der Freude und der Wahrheit richten. 
+
+114. \textbf{Ain fassi} -- Gegeben am 7. Oktober 1931.  Dieser Text wurde in einer uralten, heiligen Sprache überliefert. Die Grundidee dieses Liedes lautet: Du, der Du der Grund von allem bist, Du, der Du mit Deiner Liebe alles durchdringst und stützt, sei gesegnet! Möge ich in Deinem Licht und Deiner Liebe leben! Wie sehr möchte ich auf Deinen Spuren wandeln! Mein ganzes Leben diene deinem Ruhm!
+
+115. \textbf{Duhai vetre} -- Das Lied besteht aus zwei Teilen, die zu unterschiedlicher Zeit gegeben wurden. Der erste Teil wurde 1944 in Matschaievo, der zweite "`Hai-di-di"' am 30. Dezember 1942 in Sofia Izgreva gegeben. Die urspüngliche Variante des Liedes wurde unter Nummer 125 auf Seite 160 gedruckt. Laut den Erinnerungen der Musiker fügte der Meister als Ende des Liedes der Text "`Za teb bulgarino"' (für dich, Bulgare)
+ 
+116.\textbf{A bre, sinko} --  Gegeben am 27. November 1934 als bulgarisches Volkslied, das in seiner ursprünglichen Reinheit wiederhergestellt wurde.
+
+117. \textbf{Bastina pesen} -- Ugledna moma -- Gegeben am 21 Januar 1935. Dieses Lied ist die Fortsetzung des Liedes "`A, bre sinko"'. Es ist das Vorbild des bulgarischen Volksliedes, das in seiner ursprünglichen Reinheit und Geist wiederhergestellt wurde
+
+118. \textbf{Stavai daste} -- Gegeben am 1934 als bulgarisches Volkslied, das in seiner ursprünglichen Reinheit wiederhergestellt wurde. Viele bulgarische Volkslieder haben einen okkulten Ursprung.
+
+\begin{center}
+\textbf{Lieder, Melodien und Themen des Meisters, die bis 1944 nicht publiziert wurden}
+\end{center}
+
+119. \textbf{Bulgarische Rapsodie} -- Gegeben 1934. Redaktion Maria Todorova. Hier hat der Meister die erhabensten Gestalten aus dem bulgarischen Epos dargestellt. Ihnen liegt eine tiefe Symbolik zugrunde -- das ist der mystische Weg der menschlichen Seele, die danach strebt, in berührung mit der göttlichen Liebe zu kommen.
+
+120. \textbf{Bulgarische Idylle} -- Notiert von einer Tonbandaufnahme von Petar Kamburov, redigiert von Georgi Stratec, Ioanna Strateva und Stanka Zeleva. Der Meister persönlich gab sie Peter Kamburov im Februar 1920 in Opultschenska-Straße 66. Die Idylle beschreibt das Streben der bulgarischen Seele nach dem Ewigen im Leben. Sie will die ewige Gerechtigkeit, die ewige Liebe, die das Sein erfüllen, erreichen. Sie ahnt die Existenz einer schönen Welt in sich und möchte sie Wirklichkeit werden lassen.
+
+121. \textbf{Ne li dumah} -- Gegeben a, 27. Oktober 1943, Sofia. Izgrev. 
+
+122. \textbf{Freude für die Seele} -- Niederschrift von Methodi Schivatschev -- Seid gegrüßt. (Zu Sladko medeno).
+
+123. \textbf{Mirat ide} -- Die Melodie wurde 1918 von Meister in der Opultschenska- Straße 66 gegeben, drei Tage danach (29. September 1918) beendet Bulgarien ihre Teilnahme am Ersten Weltkrieg. Später ergänzt der Meister die Melodie (21. Dezember 1933)
+
+124. \textbf{Mirat ide II} -- Adaptiert von Irina Kisiova und Liljana Tabakova. Der Text wurde von Stojanka Ilieva nach dem Wunsch des Meisters im Juli 1934 geschrieben. Dann sagte der Meister: "`Der Frieden kommt aber schwer. Deshalb suchen wir nach ihm und rufen ihn mit einer Melodie."'
+
+125. \textbf{Duhai, Vetre} II. Erster Teil, Bogieto slunze gree dnes, gegeben am 25. Dezember 1942; der zweite Teil, Hai- di di ... wurde am 30. Dezember 1942 gegeben. Dieses Lied wurde uspünglich in dieser Form gegeben. später wurde der erste Teil des Liedes nach dem Wunsch mancher Schüler vom Meister geändert und so in der Ausgabe von 1944 publiziert.
+
+126. \textbf{Marsch na Svetlite sili} -- Gegeben am 27. Mai. 1936. Siegreicher Marsch der hellen Engelkräfte in der lebendigen Natur, die in ihrem charakteristischen Rhythmus fortschreiten. Mit dieser Musik erhebt sich der Mensch in die Welt der Engel.
+
+127. \textbf{Berhan Azi} -- Gegeben 1936.
+
+128. \textbf{Pesen na deteto} -- Dies entspricht dem Bild eines Kindes, das aus dem Zuber aussteigen will, in dem es badet. Seine Mutter möchte ihn daran hindern, es ist jedoch unzufrieden. Endlich kommt der Sieg! Das Kind steigt aus dem Badezuber und ist glücklich, es geschafft zu haben. Es spielt. Schließlich geht das Kind in die Schule, um zu lernen und erhält sein erstes Lesebuch. Es spricht zu dem Buch: "`Ich habe es geschafft, aus dem Zuber zu kommen, und auf dieselbe Weise werde ich dich auch schaffen. Trotz der vielen Schwierigkeiten, die sich mir entgegenstellen, werde ich sie auf eine verschiedene Art und Weise überwinden."'
+Die verschiedenen Gefühle des Kindes sind in jedem der Teile dieses Stücks ausgedrückt. Diese schwierige Zeitspanne symbolisiert die Bewusstseinsstufen, die die Menschen auf ihrem Weg der Erweckung durchlaufen.
+
+129. \textbf{Malkijat planinski izvor} -- Gegben am 27 März 1937, Sofia, Izgrev, Text Stojanja Ilieva. 
+
+130. \textbf{Bog e Ljubov II} -- Gegeben am 25 Februar 1934. Sofia, Izgreva.
+
+131. Zu Fir-für-Fen -- Gegeben in den ersten Jahren der Schule.
+
+132. \textbf{Kazhi mi, svetli Bogi luch} -- Gegeben am 19 Dezember 1923, Allgemeine Okkultklasse, III Jahr, 10 Vortrag. Der Meister sagt: "`Diese Übung können wir jetzt unvollendet lassen -- es ist für die künftige Kultur. Der zweite Stadium der Musik ist das freie Singen. Bei diesem Singen kann die heutige Musik nicht funktionieren, weil der Text auf eine ganz andere Art und Weise geändert werde muss und die Betonung der Wörter eine besondere Zusammensetzung haben. Beim freien Singen kann der Mensch, wenn er nicht begeistert ist, nicht singen.
+
+133. \textbf{Kazhi mi istinata III}. -- Schließt das Original von 1924 ein mit dem instrumentellen Solo von Simeon Simeonov.
+
+136. \textbf{Vjara svetla} -- Gegeben vom Meister in den ersten Jahren der Schule.
+
+134. \textbf{Vjara svetla II} -- Einen andere Melodie die in der Allgemeinen Okkultklasse gegeben wurde.
+
+138. \textbf{Vjara svetla III} -- Unpublizierte Variante des Liedes.
+
+139.  \textbf{Milost, Blagost} -- Das Lied wurde vom Meister einer Schülerin in den ersten Jahren der Schule gegeben.
+
+140. \textbf{Az moga da discham} -- Musik und Text von Meister, gegeben 1938.
+
+141 -- \textbf{Igarta na potocheto} -- Gegeben 1933.
+
+142. \textbf{Malkata bubolechka} -- Gegeben am 27 Mai 1933.
+
+143. \textbf{Da buh te sluschal} -- Gegeben am 14. März 1940, Sofia, Izgrev.
+
+144. \textbf{Slucham} -- Gegeben 27. April 1935, Sofia, Izgrev.
+
+146. \textbf{Pismoto} -- Musik und Text des Meisters, gegeben 1926
+
+147. \textbf{Me-hein} -- Gegeben am 29. Januar 1941, Text Stojanka Ilieva.
+
+148. \textbf{Zhiteno zurno} -- Thema des Meisters, gegeben am 19 Januar 1942, ausgearbeitet von Vessela Nestorov, vollendet am 4. Februar 1942.
+
+149. \textbf{Izvorche} -- Musik von Vessela Nestorova, Text des Meisters.
+
+150. \textbf{Molitva} -- Musik und Text des Meisters, gegeben am 13 Oktober 1940.
+
+151. \textbf{Molitva} -- Melodie gegeben vom Meister am 3. September 1940. Text Joanna Strateva
+
+151. \textbf{Pesen sa dvete sestri} -- Gegeben während der Evaluation in Martschaevo 1944.
+
+154. \textbf{Deset temi:}
+
+\textbf{1.} Fröhliches Motiv, das dem Meister in seinen Studienjahren in Amerika eingefallen ist. In der Ausgabe von 1949 wurde das Lied unter dem Titel "`Thema 3."' publiziert. \textbf{2.} In der Ausgabe von 1942 wurde das Lied mit dem Titel "`Thema 6"' publiziert.
+\textbf{3.} Gegeben am 27. Januar 1933.
+\textbf{4.} Gegeben am 5. Juli 1938. 
+\textbf{5.} Gegeben vom Meister nach der Phrase "`Wir werden uns erneuern. "' In der Ausgabe von 1949 wurde das Lied mit dem Titel "`Thema 32"' publiziert. 
+\textbf{6., 7.} Wurden am 28 Mai 1941, Allgemeine Okkultklasse nach dem Thema "`Ich werde die Wärme aufbewahren, die in meinem Herzen die göttlichen Gütern bringt. In der Ausgabe von 1949 wurde das Lied mit dem Titel Thema 37 und Thema 38 publiziert.
+\textbf{8.} Gegeben in den ersten Jahren der Schule. In der Ausgabe von 1949 wurde das Lied mit dem Titel Thema 42 publiziert.
+\textbf{9.} Gegeben vom Meister in den ersten Jahren der Schule. In der Ausgabe von 1949 wurde das Lied mit dem Titel Thema 28 publiziert.
+\textbf{10.} Gegeben vom Meister am 27 und 29 Januar 1933, Sofia, Izgrev. In der Ausgabe von 1949 wurde das Lied mit dem Titel Variationen publiziert.
+
+155. \textbf{Melodie 1} -- Krasiv zhivot -- Gegeben 1933, Text von Stojanka Ilieva. In der Ausgabe von 1949 wurde das Lied mit dem Titel Melodie 13 publiziert.
+
+156. \textbf{Melodie 2.} -- V radostta na denja. Gegeben 1933. Der Text ist von Kalinka Stantschina. In der Ausgabe von 1949 wurde das Lied mit dem Titel Melodie 13 publiziert.
+
+157. \textbf{Melodie 3.} Gegeben am 5 November 1943. Jugendokkultklasse XXIII, 5. Vortrag. Test Stojanka Ilieva. In der Ausgabe von wurde das Lied mit dem Titel Melodie 31 publiziert.
+
+158. \textbf{Melodie 4. Osarenie} -- Gegeben am 17. November 1934. Der Text ist von Kalinka Stantschina. In der Ausgabe von wurde das Lied mit dem Titel Melodie 15 und Melodie 34. publiziert.
+
+159. \textbf{Glasa na zhivija Gospod} -- Novoto vazkresenie  -- Dieses Lied und noch elf weitere Lieder wurden nach den Erinnerungen von Opernsängerin Liljana Tabakova notiert. Dann wurden sie vor dem Meister zur endgültigen Bewilligung und wurden das erste Mal 1942 publiziert.  Diese Lieder zeichnet aus, dass sie von tiefer Mystik durchdrungen sind und im Werk des Meisters neue melodische Intonationen ausdrücken. Durch das Lehren dieses Liedes deutete der Meister eine neue musikalische Form an, die als Beispiel und Basis für die Musik der Zukunft dienen wird. Dies wurde mehrmals angedeutet (Auszug eines Vortrags vor der Allgemeinen Okkulten Klasse aus dem Jahr 1923, 3. Jahrgang, 10. Vortrag). Eine solche Andeutung erfolgte auch beim Lehren des Liedes Bei "`Kaji mi svetli Boji lach"', das jedoch unvollendet blieb. Um diese Lieder gut zu singen, bedarf es eines mystischen Element, d. h. sie sollen mit Ehrfurcht, Ehrlichkeit, Einfachheit, Reinheit und Bildhaftigkeit gesungen werden. 
+
+160. \textbf{Novoto Bitie} -- Das Erschaffen des neuen Adams. Gegeben vom Meister an Liljana Tabakova in der folgenden Reihenfolge: Erster göttlicher Tag --7. Dezember 1941., Zweiter göttlicher Tag -- 28- Juli 1942. Dritter göttlicher Tag -- 1. Oktover 1942. Vierter göttlicher Tag -- 12. November 1942, Fünfter göttlicher Tag -- 30. Mai 1943, Sechster göttlicher Tag, 21. Juli 1943, Siebter Göttlicher Tag -- 15. September 1943. 
+
+Unter "`Neuer Genesis"' verstehen wir das neue Leben, welches sich jetzt für die gesamte Menschheit und jedes einzelne Individuum an sich aufzubauen beginnt. Die erste „Genesis“, die in der Bibel beschrieben wurde, symbolisiert das alte Leben. Der alte Adam hat gesündigt. Musikalisch besprochen, hat er nicht das saubere F genommen, das dem Materiellen in dieser Welt entspricht. Der neue Adam wird diesen Fehler des alten Adams korrigieren. Er wird keine Fehler mehr begehen und nicht mehr sterben. Musikalisch gesprochen bedeutet dies: er wird die Noten der Tonleiter richtig bis zum A singen, welches auch sauber sein wird. Das A entspricht der 6. Rasse. Es bleibt dann nur noch die Note H, die reife Frucht, nicht gesungen. Diese Frucht symbolisiert die 7. Rasse. Die sieben Tage Gottes, aus der Genesis, entsprechen den sieben Noten der Tonleiter. So beginnt der erste Tag Gottes mit der Note C. Das bedeutet, dass die Mächte des Lichts, die die Schöpfung der neuen Welt begonnen haben, die Materie des alten Lebens in eine neue, höhere Tonleiter umformen und in sie das Element der Unsterblichkeit einfügen werden. Durch Analogie werden sich im Blut des neuen Adam neue rote Blutkörperchen formen, die von den Eigenschaften des neuen Lebens durchdrungen sein werden. Der zweite Tag Gottes, der mit dem Ton D beginnt, wird die Transformierung für das Nervensystem, die Knochen und den Willen bringen. Auf diese Art und Weise bringt jeder Tag Gottes etwas Neues in die Struktur des Kosmos und des Menschen. Jeder Mensch wird seine neue Existenz individuell leben. Das Lied endet mit den magischen Worten des kosmischen Geistes "`Aum"', und der Universalseele "`Aumen"'. Erklärung nach Ideen, vom Meister vorgegeben
+
+161. \textbf{Vatreschnija glas na Boga} -- Der Meister hat gesagt: "`Diese Worte sind in der Sprache Vatan geschrieben. Sie bedeuten: ‚Liebe und sei frei. Höre auf die innere Stimme Gottes. Schreite ohne
+Zögern auf deinem Wege fort."'
+
+162. \textbf{Edna vechna istina, kojato e Bog na lubovta} -- 18. April 1943 gegeben an Liljana Tabakova. Der Text ist in einer alten, nicht übersetzbaren Sprache geschrieben. Es geht um die erste Große Seele, die die Liebe bringt. Dieses Lied muss wie eine Meditation ausgeführt werden, mit Konzentration und mystischer Andacht. 
+
+163. \textbf{Hymnen der Sonne} -- Gegeben am 5. Mai 1942 vom Meister an Liljana Tabakova. Dank dieses Liedes begegnet man der aufgehenden Sonne. Dies ist das Gebet zum Sonnenaufgang. Es ist eine majestätische Hymne an alle Sonnen. Diese Hymnen werden auch von den Engeln gesungen."' Dieses Lied wird zusammen mit Molitva ausgeführt.
+
+164. \textbf{Molitva} -- Gegeben an Liljana Tabakova und wird mit den Hymnen an die Sonne gesungen.
+
+165. \textbf{Bogijata Ljubov me ozari} -- Gegeben am 13. März 1942 von Meister an Liljana Tabakova.
+
+166. \textbf{Pesen na Angelite} -- Gegeben am 15. April 1943 vom Meister an Liljana Tabakova. Der Meister sagte: "`Mithilfe dieses Liedes könnt ihr euch mit den Engeln verdingen, wie sie singen und beten. Ihr könnt wie sie werden, den Namen Gottes zu lobpreisen und seinen Willen hier auf der Erde und oben im Himmel zu erfüllen.
+
+167. \textbf{Gospodi, kolko te obicham!} Gegeben am 22. August 1943 von Meister an Liljana Tabakova. 
+
+168. \textbf{Kazji mi svetli bogi lach II.} Gegeben am 26. Mai 1943 vom Meister an Liljana Tabakova. Sie enthält den Text eines Liedes mit demselben Titel, gegeben 1923.
+
+169. \textbf{Moeto slunze dnes ste izgree} -- Begonnen in der Jugendokkultklasse, am 29. Oktober 1943, in Sofia, Izgreva, beendet im Dorf Martschaevo am 17. August 1944. Notiert von Liljana Tabakova.
+
+170. \textbf{Ti ste spoluchisch v zhovota} -- Gegeben am 24. Januar 1941 vom Meister an Liljana Tabakova. Der Meister sagte: "`Wenn der Mensch singt und an die Engel und an ihr außergewähnlich schönem Leben denkt, wird er im Leben immer erfolgreich sein."'
+
+171. \textbf{Zorata na novija zhivot} -- Gegeben am 3. Juni 1941 vom Meister an Liljana Tabakova.
+
+172. \textbf{Otsche nasch, führe uns nicht in Versuchung} -- Gegeben vom Meister am 17. August 1944 im Dorf Martscheievo, notiert von Liljana Tabakova.
+
+173. \textbf{Stranik sum v tosi svjat }-- Vom Meister gesungen in  Vitosha im Camp  El Schadai am 16. Juni 1941. Dieses Lied ist das Gebet des Meisters, der ein Fremder in dieser Welt war; fremd für alle auf der Erde und allem Irdischem gegenüber. Er verließ sich nur auf Ihn und wandte sich in seinen Gebeten allein an Ihn. Und Gott, der Herr, nahm sein Gebet an und wandelte es in eine Wirklichkeit  für das Leben der Erde um.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+  	
+ 
+\newpage\thispagestyle{empty}~ % Seite 2 (links leer) bis auf ein Leerzeichen
+\newpage % Neue Seite rechts
+\thispagestyle{empty}
+
+%\renewcommand{\notesname}{Anmerkungen}
+
+%\newpage
+
+%\begingroup
+
+%\parindent 0pt
+
+%\theendnotes
+
+%\endgroup 	
+
+
+
+
+
+\newpage\thispagestyle{empty}~ % Seite 2 (links leer) bis auf ein Leerzeichen
+ \newpage % Neue Seite rechts
+ \thispagestyle{empty}
+
+
+
+ \newpage\thispagestyle{empty}~ % Seite 2 (links leer) bis auf ein Leerzeichen
+ \newpage % Neue Seite rechts
+ \thispagestyle{empty}
+ 
+ \newpage\thispagestyle{empty}~ % Seite 2 (links leer) bis auf ein Leerzeichen
+ \newpage % Neue Seite rechts
+ \thispagestyle{empty}
+
+%\newpage
+%\begin{center}
+ 
+%\vspace*{3.5cm}
+%Beinsa Duno
+
+%\vspace*{0.3cm}
+%Liederbuch
+
+
+
+%\vspace*{0.3cm}
+
+%Verlag Bjalo Bratstvo
+
+%\vspace*{0.3cm}
+
+%www.bialobratstvo.info
+
+%\vspace*{0.3cm}
+
+%www.beinsadouno.org
+
+
+
+%\end{center}
+
+
+
+
+\end{document}
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
