@@ -31,6 +31,16 @@
 
     \acciaccatura g'8 (a2 \tuplet 3/2 { g8 [f g] } \bar "|"
     a4) a2 g4 a4 \bar "|"
+    a8 [bes a g f g] \acciaccatura { a16 [b] } c4 b!8 [c] a2 \bar "|" \break
+    
+    g4 a a8 ([g a bes]) g2 \bar "|" 
+    d'2 c4 (b8 [c]) a8. ([bes16 a8 g]) \bar "|"
+    f8 [g] \acciaccatura { a16 [b] } c4 b!8 [c] f,2 \bar "|"  \break
+    
+    
+    
+    
+    
     
     
   }
