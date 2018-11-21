@@ -49,7 +49,17 @@
     f4.( e8 d[ e16 f] d4) d2 r8 d \bar "|"
     \stemNeutral d'2 c4( b!8[ c]) a2 a4 \bar "|"  \break
     
-    \slurDown a8([bes] \acciaccatura { c16 [d] } c4)
+    \slurDown a8([bes] \acciaccatura { c16 [d] } c4) bes8( [a] g [a]) g2 \bar "|"
+    g4( f8 [e] d [e] c4) \bar "|"
+    d8([ e f g]) g2 \bar "|"  \break
+    
+    c8([ bes a g]) f([ e a g]) \bar "|"
+    f4.( e8) d([ e16 f] d4) d2 r8 d \bar "|"  \break
+    
+    g4 \acciaccatura { f16 [g] } f4 g a \acciaccatura { f16 [g] } f4 e8[  f] \bar "|"
+    d4.( e8) c4( d) \bar "|"  \break
+    
+    ees4.( d8 g8[ fis \acciaccatura { ees16 [fis] }  ees8 d])
     
     
     
