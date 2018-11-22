@@ -32,13 +32,13 @@
 
     \acciaccatura g'8 (a2 \tuplet 3/2 { g8 [f g] } \bar "|"
     a4) a2 g4 a4 \bar "|"
-    a8 [bes a g f g] \acciaccatura { a16 [b] } c4 b!8 [c] a2 \bar "|" \break
+    \slurDown a8( [bes a g f g] \acciaccatura { a16 [b] } c4 b!8 [c]) a2 \bar "|" \break
     
-    g4 a a8 ([g a bes]) g2 \bar "|" 
+    \slurNeutral g4 a a8 ([g a bes]) g2 \bar "|" 
     d'2 c4 (b8 [c]) a8. ([bes16 a8 g]) \bar "|"
-    f8 [g] \acciaccatura { a16 [b] } c4 b!8 [c] f,2 \bar "|"  \break
+    \slurDown f8([ g] \acciaccatura { a16 [b] } c4 b!8[ c]) f,2 \bar "|"  \break
     
-    \slurDown a8( [bes] \acciaccatura { c16 [d] } c4) bes8( [a g a]) g4. g8 \bar "|"
+    a8( [bes] \acciaccatura { c16 [d] } c4) bes8( [a g a]) g4. g8 \bar "|"
     \slurNeutral c8.( [bes16]) a8.( [g16]) g4 f8( [g \appoggiatura bes a g]) \bar "|"  \break
     
     f8( [e a g] f4. e8 d [e16 f]) d4 d2 \bar "|"
@@ -57,7 +57,7 @@
     c8([ bes a g]) f([ e a g]) \bar "|"
     f4.( e8) d([ e16 f] d4) d2 r8 d \bar "|"  \break
     
-    g4 \acciaccatura { f16 [g] } f4 g a \acciaccatura { f16 [g] } f4 e8[  f] \bar "|"
+    g4( \acciaccatura { f16 [g] } f4 g a \acciaccatura { f16 [g] } f4 e8[  f]) \bar "|"
     d4.( e8) c4( d) \bar "|"  \break
     
     ees4.( d8 g8[ fis \acciaccatura { ees16 [fis] }  ees8 d]) d2\fermata \bar "|"
@@ -87,12 +87,64 @@
     \stemNeutral d4( c \acciaccatura { d16[ ees!]} d4 c \stemUp bes a) \acciaccatura { bes16[ a] } g2 \bar "|" \break
 
     \stemNeutral c4 d d4.( e8 \bar "|" \noBreak
-    f4 e d c bes a) bes8([ a16 g] a4) \bar "|" \noBreak	
+    f4 e d c bes a) bes8([ a16 g] a4) \bar "|" \noBreak
+    a8([ g16 fis] g4. a8 \tuplet 3/2 { g4 fis ees } \bar "|" \break
     
+    d4. ees16[ g] fis8[ ees d ees] d2) d4 d \bar "|" \noBreak
+    \appoggiatura g8( a2 \acciaccatura { bes16[ c] } bes8[ a] g8[ fis g) a] a2 d,4 ees \bar "|" \break
     
-    
-    
+    g8([ fis g a] g4 fis8[ g] fis4. ees8) d([ ees16 fis)] d4 \bar "|" \noBreak
+    d2( c8[  d ees! d] g8[ fis! ees!16 fis  ees d] d2)\fermata \bar "|."
   }
+
+  \addlyrics {
+    Ан -- гел во -- пи -- я -- -- -- ше
+    Бла -- го -- дат -- ней: Чис -- та -- "я_______" Де -- во,
+    ра -- дуй -- ся! И па -- ки ре -- "ку:__________"
+    Ра -- -- дуй -ся! "Твой_________" Син "вос  -"
+    кре -- -- се три -- дне -- "вен_________" "от__________"
+    гро -- ба и мерт -- ви -- я "воз -"
+    двиг -- ну -- вий; лю -- -- ди -- е,
+    ве -- се -- ли -- те -- ся! "Све -"
+    ти -- -- -- -- -- -- ся, "све       -"
+    "-ти" --  -- ся, но -- -- "вий____" И -- "е -" 
+    ру -- -- са -- ли -- -- -- ме!
+    Сла -- "ва_____" бо Гос -- под -- ня на "те -"
+    "бе___________" воз -- -- си -- я: "ли -"
+    "куй________________________________________________________________"
+    ни -- -- "не____________________________________" 
+    и ве -- се -- ли -- ся, "Си -"
+    о -- -- -- -- -- -- не! Ти же,
+    чис -- та -- я, кра -- суй -- -- ся,
+    Бо -- го -- ро -- -- -- ди -- "це,_____________________" 
+    о во -- ста -- "ни-и" рож -- "-дес-"
+    "тва______________________" Тво -- е -- "го.___________________________"
+  }
+
+  \addlyrics {
+    An -- gel vo -- pi -- ya -- -- -- she
+    Bla -- go -- dat -- ney: CHis -- ta -- "ya_______" De -- vo,
+    ra -- duy -- sya! I pa -- ki re -- "ku:__________"
+    Ra -- -- duy -sya! "Tvoy_________" Sin "vos  -"
+    kre -- -- se tri -- dne -- "ven_________" "ot__________"
+    gro -- ba i mert -- vi -- ya "voz -"
+    dvig -- nu -- viy; lyu -- -- di -- e,
+    ve -- se -- li -- te -- sya! "Sve -"
+    ti -- -- -- -- -- -- sya, "sve       -"
+    "-ti" --  -- sya, no -- -- "viy____" I -- "e -" 
+    ru -- -- sa -- li -- -- -- me!
+    Sla -- "va_____" bo Gos -- pod -- nya na "te -"
+    "be___________" voz -- -- si -- ya: "li -"
+    "kuy________________________________________________________________"
+    ni -- -- "ne____________________________________" 
+    i ve -- se -- li -- sya, "Si -"
+    o -- -- -- -- -- -- ne! Ti zhe,
+    chis -- ta -- ya, kra -- suy -- -- sya,
+    Bo -- go -- ro -- -- -- di -- "tse,_____________________" 
+    o vo -- sta -- "ni-i" rozh -- "-des-"
+    "tva______________________" Tvo -- e -- "go.___________________________"  
+  }
+
 
   \header {
     title = "Ангел вопияше / Аngel vopiyashe"
