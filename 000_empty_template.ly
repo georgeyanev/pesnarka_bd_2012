@@ -2,6 +2,7 @@
 
 \paper {
   print-all-headers = ##t
+  print-page-number = ##f 
   left-margin = 2\cm
   right-margin = 2\cm
 }
