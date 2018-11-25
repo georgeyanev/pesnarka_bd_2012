@@ -1,3 +1,19 @@
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  top-margin = 2\cm
+  bottom-margin = 2\cm
+}
+
+\header {
+  tagline = ##f
+}
+
+
 
 
 
@@ -25,20 +41,6 @@ b'4 d'4 a'2 | a'4 b'4 g'2| b4 d'8 g'8 b'4. a'8 | a'4 b'8 b'8 g'2 | \break
  e''4.\fermata b'8 | d''4. c''8 | b'4 a'8 a'8 | b'8 g'8 g'8 fis'8 | a'2 \break  
  
  
- 
- 
- 
- 
- 
- 
-
-
-
-
-
-
-
-
 
 }
 
@@ -65,6 +67,19 @@ text = \lyricmode {
 }
 
 textL = \lyricmode {
+  Tsve -- tya -- ta tsaf -- tya -- ha pod slan -- che -- vi la -- chi 
+  
+  i ve -- che var -- za -- ha. I tay o -- ble -- che -- ni v~kra -- so ta,
+  
+  i tay o -- ble -- che -- ni v~chi -- sto -- ta, te ni do -- na syat
+  
+  mla -- dost -- ta. Vav ne -- ya zre -- yat slad -- ki plo -- do -- ve. I 
+  
+  tay, ka -- to gi pri -- e -- ma -- me, poz -- na -- va -- me, che sa 
+  
+  Bo -- zhi da -- ro -- ve;  I 
+  
+  tay, ka -- to gi pri -- e -- ma -- me, poz -- na -- va -- me, che sa dar na Lyu -- bov -- ta.
  
  
 }
@@ -90,6 +105,7 @@ textL = \lyricmode {
  
 }
 
+ 
 
 \markup { \hspace #37  \huge\bold   "Die Blumen erblüten"  }
 \markup {
