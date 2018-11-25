@@ -3,17 +3,19 @@
 
 melody = \absolute  {
   \clef treble
-  \key d \major
+  \key d \minor
   \time 2/4 \tempo "Moderato" 4 = 88
+  
+  \autoBeamOff
  
 
 a'4 d''4 | a'4 d''8. e''16 | \time 3/4 d''2 a'4 | \time 2/4 bes'4. ( d''8 ) | a'2 | g'4. ( a'8 ) | \break
 
-f'4 e'4 | d'4 cis'4 | d'2 | \repeat volta 2 { a'4 d''8. e''16 | f''2 | e''4 d''4  
+f'4 e'4 | d'4 cis'4 | d'2 | \repeat volta 2 { a'4 d''8. e''16 | f''2 | e''4 d''4  \break
 
-cis''4 d''8. bes'16 | a'2 | g'4. ( a'8 ) | f'2 | e'4 cis'4 | } \alternative { {d'2 } {\time 3/4 d'2 a'4} }
+cis''4 d''8. bes'16 | a'2 | g'4. ( a'8 ) | f'2 | e'4 cis'4 | } \alternative { {d'2 } {\time 3/4 d'2 a'4} } \break
 
-d''4 c''4 bes'8 a'8 | g'8 ( a'8 ) f'4-- e'4 | \time 2/4 d'8 ( e'8 ) f'4 | e'8 d'8 cis'8 e'8 | 
+d''4 c''4 bes'8 a'8 | g'8 ( a'8 ) f'4-- e'4 | \time 2/4 d'8 ( e'8 ) f'4 | e'8 d'8 cis'8 e'8 | \break
 
 \time 3/4 d'2 d''8 ( e''8 ) | f''4 e''4 d''4 | \time 4/4 c''4 bes'4 a'8 g'8 a'8 ( bes'8 ) | \time 3/4 a'2 d''8 ( e''8 ) | 
 
@@ -33,9 +35,9 @@ text = \lyricmode { Ще се раз -- ве -- се -- ля пре -- мно --
 
 ра -- ди Гос -- по -- да, ду -- ша -- та ми ще се 
 
-за -- ра -- ду -- ва в_Бо -- га мо -- е -- го, го: За --
+за -- ра -- ду -- ва в~Бо -- га мо -- е -- го, го: За --
 
-що -- то ме о -- бле -- че в_o -- деж -- ди на спа -- се -- ни --
+що -- то ме о -- бле -- че в~o -- деж -- ди на спа -- се -- ни --
 
 е, за -- гър -- на ме в_ман -- ти -- я на прав -- да, за -- 
 
@@ -57,7 +59,7 @@ textL = \lyricmode { Ste se raz -- ve -- se -- lya pre -- mno -- go za --
 
 ra -- di Gos -- po -- da, du -- sha -- ta mi ste se 
 
-za -- ra -- du -- va v_Bo -- ga mo -- e -- go, go: Za --
+za -- ra -- du -- va v~Bo -- ga mo -- e -- go, go: Za --
 
 sto -- to me о -- ble -- che v_o -- deg -- di na spa -- se -- ni --
 
