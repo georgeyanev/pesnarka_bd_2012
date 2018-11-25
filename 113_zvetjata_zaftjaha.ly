@@ -38,7 +38,7 @@ b'4 d'4 a'2 | a'4 b'4 g'2| b4 d'8 g'8 b'4. a'8 | a'4 b'8 b'8 g'2 | \break
  
  b'8 a'8 g'8 fis'8 | g'4. d'8 | g'2 | fis'8. g'16 a'8 b'8 | c''4 d''4 | \break
  
- e''4.\fermata b'8 | d''4. c''8 | b'4 a'8 a'8 | b'8 g'8 g'8 fis'8 | a'2 \break  
+ e''4.\fermata b'8 | d''4. c''8 | b'4 a'8 a'8 | b'8 a'8 g'8 fis'8 | a'2 \break  
  
  
 
