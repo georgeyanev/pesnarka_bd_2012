@@ -29,6 +29,13 @@
     \tempo "Largo" 4 = 50
     \autoBeamOff
     
+    d'4.( \tuplet 3/2 { ees16 [f ees]) } d8.([g16]) | \noBreak
+    g4..(f16) \tuplet 3/2 { f16( [g f] } ees8~ | \noBreak
+    ees16)[a, bes c] d8 d4. | \noBreak
+    \tuplet 3/2 { d16( [ees d] } c4.) bes16([c bes a\fermata]) | \break
+
+
+
     
   }
 
