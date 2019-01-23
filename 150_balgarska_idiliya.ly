@@ -88,10 +88,57 @@
       }
     }
     \stemNeutral c8 d16([d,]) d'8[d16] | \noBreak
-    d4~ d8[g16] | \break
+    \tieUp d4~ d8[g16] | \break
     
+    f8\trill ees d\trill[c16] | \noBreak
+    c8 \slurNeutral c16([d]) \acciaccatura { bes16[c] } bes8([a16]) | \noBreak
+    g8 g g[a16] | \noBreak
+    bes8 bes16([a]) c16([bes a]) | \noBreak
+    \tieNeutral g4~\trill g8[f16] | \noBreak
+    c'([d,]) c'([d]) bes8\trill[a16] \break
     
-    
+     g8 g g[a16] | \noBreak
+     \stemUp bes8 a bes8\prall[a16] | \noBreak
+     g4~\trill g8[f16]  | \noBreak
+     ees16[f] g8 g[f16] | \noBreak
+     g4 g8.\accent | \noBreak
+    \repeat volta 2 { 
+      \stemNeutral <d g,>8\stopped d'8 d8. | \noBreak
+      <d, g,>8\stopped c'8 c8. | \break
+      
+      <d, g,>8\stopped bes' \acciaccatura { bes16[c] } bes8[a16] | \noBreak
+      a8 g \acciaccatura { g16[a] } g8([f16]) | \noBreak
+    }
+    \alternative { 
+      { g4 g8. }
+      { g4~(g8[f16]) }
+    }
+    \repeat volta 2 { 
+      a16([f]) a16([f]) a8[c16] | \break
+      
+      \tieUp \slurDown bes4~\trill(bes8[a16])
+    }
+    \alternative { 
+      {
+        a8 g \acciaccatura { g16[a] } g8([f16]) | \noBreak
+        \tieNeutral g4~ g8[f16] | \noBreak
+      }
+      {
+        \tempo "rit." 
+        a8 \acciaccatura { f8 } g \acciaccatura { g16[a] } g8[f16] | \noBreak
+        <g g,>8~ g~ g8. | \noBreak
+      }
+    }
+    \time 3/4 \break
+    \repeat volta 2 { 
+      \tempo "Largo" 
+      \slurNeutral d'4 g4.^\markup{\musicglyph #"scripts.trill" {\raise #1 \flat}}(f8) | \noBreak
+      \time 4/4 f8.([ees16]) ees8.([d16]) d8.([c16]) d8.\prall([c16]) | \noBreak
+      \acciaccatura { c32[d c bes] } c8.\fermata([f16]) f8.([ees16]) ees8.([d16]) d8.([c16]) | \break
+      
+      c16.\prall([bes32 d16. c32]) bes8.([d16]) ees8.([])
+      
+    }    
     
   }
   \header {
