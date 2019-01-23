@@ -136,9 +136,27 @@
       \time 4/4 f8.([ees16]) ees8.([d16]) d8.([c16]) d8.\prall([c16]) | \noBreak
       \acciaccatura { c32[d c bes] } c8.\fermata([f16]) f8.([ees16]) ees8.([d16]) d8.([c16]) | \break
       
-      c16.\prall([bes32 d16. c32]) bes8.([d16]) ees8.([])
-      
+      c16.\prall([bes32 d16. c32]) bes8.([d16]) ees8.([d16]) c8.([bes16]) | \noBreak
+      \time 3/4 bes8.([a16]) a16.([g32] a16[r32 a32]) a4\trill | \noBreak
+      fis16([g) a g] \slurDown c4.( \tuplet 3/2 {bes32[ a g])} r16 | \time 2/4 \break
     }    
+    \alternative { 
+      { a8[r16 g16] g4 | \noBreak }
+      { \time 2/4 a8[r16 g16] g4\fermata~\( | \noBreak }
+    }
+    \tempo "Moderato" 
+    \time 4/4 
+    g8([g, g' g,]) g'8([g, g' g,]) | \noBreak
+    g'8([g, g' g,])\) g'8([f ees d] | \break
+    
+    c8) c4 c8 ees8([c ees c] | \noBreak
+    ees8[c ees c]) f8([ ees d c] | \noBreak
+    bes4) d8([bes] d8[bes d bes]) | \break
+    
+    ees8([d c bes] a4\prall) d8([a] | \noBreak
+    d8[a d a])
+    
+    
     
   }
   \header {
