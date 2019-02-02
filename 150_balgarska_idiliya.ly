@@ -154,8 +154,19 @@
     bes4) d8([bes] d8[bes d bes]) | \break
     
     ees8([d c bes] a4\prall) d8([a] | \noBreak
-    d8[a d a])
+    d8[a d a]) g8([a bes a\prall] | \noBreak
+    g[ d') g,( a] bes[a g) g'~(] | \time 5/4 \break
     
+    g[g, g' g,]  g'[g, g' g,] g'[g,]) | \noBreak 
+    \time 4/4 g'([f ees\prall	 d] c) c4 c8 | \noBreak
+    ees([c ees c]) f([ees d c] | \break
+    bes4) d8([bes] d8[bes] d4) | \noBreak
+    \time 3/4 ees8([d] c[bes] a4\prall) | \noBreak
+    d8([a] d8[a] d8[a]) | \noBreak
+    g([a] bes[a\prall] g[g']) | \break
+    
+    g,([a] bes[a\prall] g[)g'~]( | \noBreak
+    \time 4/4 g[g, g' g,] g'[g, g' g,]) | \noBreak
     
     
   }
