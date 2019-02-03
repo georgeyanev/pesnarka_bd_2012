@@ -167,9 +167,41 @@
     
     g,([a] bes[a\prall] g[)g'~]( | \noBreak
     \time 4/4 g[g, g' g,] g'[g, g' g,]) | \noBreak
+    g'([a bes a]) g([fis\prall ees! d] | \break
+    
+    c8) c4 c8 ees([c ees c] | \noBreak
+    ees[c ees c]) f([ees d c] | \noBreak
+    bes4) d8([bes] d[bes d bes]) | \time 3/4 \break
+    
+    ees([d] c[bes] a4\prall) | \noBreak
+    d8([a] d[a] d[a]) | \noBreak
+    g([a] bes[a] g[g']) | \noBreak
+    g,([a] bes[a\prall] g)[g]( | \break
+    
+    g'[g,] g'[g,] g'[g,]) | \noBreak
+    \time 4/4 <g' g,>([a bes c] d) \slurUp d4( d,8 | \noBreak
+    d'[d, d' d,] d'[d,] d'4) | \time 3/4 \break
+    
+    d8([c] bes[a] \slurDown g[)g~(] | \noBreak
+    \time 4/4 g[a bes c] d) d4 d8 | \noBreak
+    \slurNeutral g4.(a8) bes([a g fis]) | \break
+    
+    a([g fis ees!]) d([d, d' d,] | \noBreak
+    d'[d, d' d,] d'[d, d' d,] | \noBreak
+    d'[d, d' d,]) d'([c bes\prall a] | \break
+    
+    g) g,4. g'8([g, g' g,] | \noBreak
+    g'[g, g' g,]) g'([f ees\prall d] | \noBreak
+    c) c4 c8 ees c4 c8 \break
+    
+    f([ees d c] bes4) d8([bes] | \noBreak
+    d[bes] d4) ees8([d c bes] | \noBreak
+    \acciaccatura { bes } a4\prall)
+    d8([a] d[a d a]) \break
     
     
   }
+  
   \header {
     title = "Българска идилия / Balgarska idiliya"
   }
