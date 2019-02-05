@@ -199,6 +199,9 @@
     \acciaccatura { bes } a4\prall)
     d8([a] d[a d a]) \break
     
+    g([a bes a\prall] g[g']) g,4( | \noBreak
+    g'8[g, g' g,]) g'([f ees\prall d] | \noBreak
+    c8) c4  c8 ees c4 c8 \break
     
   }
   
