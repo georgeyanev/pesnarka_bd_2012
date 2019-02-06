@@ -201,7 +201,20 @@
     
     g([a bes a\prall] g[g']) g,4( | \noBreak
     g'8[g, g' g,]) g'([f ees\prall d] | \noBreak
-    c8) c4  c8 ees c4 c8 \break
+    c8) c4  c8 ees c4 c8 | \break
+    
+    f([ees d c] bes4) bes( | \noBreak
+    \time 3/4 d8[bes] d8[bes] d8[bes]) | \noBreak
+    ees([d] c[bes] \acciaccatura { bes } a4\prall)	| \noBreak
+    d8([a] d[a] d[a]) | \break
+    
+    g([a] bes[a\prall] g4) | \noBreak
+    \time 4/4 g'8([g, g' g,] g'[g, g' g,] | \noBreak
+    g'[g, g' g,]) g'([f ees\prall d] | \break
+    
+    c) c4 c8 ees([c ees c] | \noBreak
+    ees[c ees c]) f([ees d c] | \noBreak
+    bes4) bes( d8[bes d bes]) | \break	
     
   }
   
