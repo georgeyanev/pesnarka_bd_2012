@@ -15,7 +15,7 @@
 \score{
   \layout { 
     indent = 0.0\cm % remove first line indentation
-    ragged-last = ##t % do not spread last line to fill the whole space
+    %ragged-last = ##t % do not spread last line to fill the whole space
     \context {
       \Score
       \omit BarNumber %remove bar numbers
@@ -214,7 +214,23 @@
     
     c) c4 c8 ees([c ees c] | \noBreak
     ees[c ees c]) f([ees d c] | \noBreak
-    bes4) bes( d8[bes d bes]) | \break	
+    bes4) bes( d8[bes d bes]) | \break
+    
+    ees([ d c bes] a4\prall) d8([a] | \noBreak
+    d[a d a]) g([a bes a]) | \noBreak
+    g\staccato([g\staccato) g'( g,] g'[g, g' g,] | \break
+    
+    g'[g, g' g,]) g'([f ees d] | \noBreak
+    c) c4 c8 ees([c ees c] | \noBreak
+    ees[c ees c]) f([ees d c] | \break
+    
+    bes4) bes( d8[bes d bes]) | \noBreak
+    \time 3/4 ees([d] c[bes] \acciaccatura { bes } a4\prall) | \noBreak
+    \time 4/4 d8([a d a] d[a d a]) | \break
+    
+    g([a bes a] g[)g( g' g,] | \noBreak
+    g'[g, g' g,] g'[g, g' g,] | \noBreak
+    \time 3/4 g'[g,] g'[g,] g'4\fermata) \bar "|."
     
   }
   
