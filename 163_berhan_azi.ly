@@ -34,8 +34,6 @@
     \acciaccatura { dis8 } e2 \acciaccatura { dis'8 } e2 | \noBreak
     e,16([f) gis a] f4.. e16 a([gis f e]) | \break
     
-    
-    
     dis4 c b a | \noBreak
     gis2. r4 | \noBreak
     \time 5/4 e'4 dis a'8([gis]) f[e] d([e]) | \time 2/4 \break
@@ -61,8 +59,14 @@
     }
     \set Score.doubleRepeatType = #":|.|:"
     \repeat volta 1 {
-      \time 3/4 a8
-    }    
+      \time 3/4 \tempo "poco a poco accelerando" \tuplet 3/2 { a8([f e] } \tuplet 3/2 { a[f e] } \tuplet 3/2 { a[f e]) } | \noBreak
+      d4 d2 \noBreak
+      \tuplet 3/2 { a'8\p([ f e] } \tuplet 3/2 { a[f e] } \tempo "rit." \tuplet 3/2 { a[f e]) } | \noBreak
+      dis4 e2 
+    }
+    \time 9/16 \break
+    \tempo "Allegretto" 4 = 108 
+    dis16
     
   }
 
