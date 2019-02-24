@@ -65,8 +65,23 @@
       dis4 e2 
     }
     \time 9/16 \break
-    \tempo "Allegretto" 4 = 108 
-    dis16
+    
+    \tempo "Allegretto" 8 = 108 
+    dis16[dis] e[e] e8 a16[gis f] | \noBreak
+    \acciaccatura { f[gis] } f[e] f[gis!] f8 e16[e e] | \noBreak
+    e[f] gis[a] \acciaccatura { f[gis!] } f8 e16[e gis] | \break
+    
+    \acciaccatura { f[gis] } f[e] dis[e] c8 c16[c c] | \noBreak
+    \repeat volta 1 {
+      b[c] dis[e] \acciaccatura { c[dis!] } c8 b16[b dis] | \break
+      
+      \acciaccatura { c[dis!] } c[b] b[gis]  a8 a16[a a] | \noBreak
+    }
+    \repeat volta 1 {
+      g![c] b[g] a8 a16[a a] | \noBreak
+      g[c] b[g] a8 a16[a a] | \break
+    }
+    
     
   }
 
