@@ -15,7 +15,7 @@
 \score{
   \layout { 
     indent = 0.0\cm % remove first line indentation
-    ragged-last = ##t % do not spread last line to fill the whole space
+    %ragged-last = ##t % do not spread last line to fill the whole space
     \context {
       \Score
       \omit BarNumber %remove bar numbers
@@ -79,14 +79,11 @@
     }
     \repeat volta 1 {
       g![c] b[g] a8 a16[a a] | \noBreak
-      g[c] b[g] a8 a16[a a] | \break
+      g[c] b[g] a8 a16[a a] | \bar "|."
     }
-    
-    
   }
 
   \header {
     title = "Берхан Ази / Berhan Azi"
   }
-
 } % score
