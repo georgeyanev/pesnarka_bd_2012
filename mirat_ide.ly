@@ -11,65 +11,78 @@ g'8 f'8 es'8 d'8 | % 2
   f'8. es'16 d'16 c'16 d'16 f'16 | % 4
   bes8. bes16 bes16 bes16 bes16 bes16 | % 5
   es'8 d'8 c'8 bes8 \break | % 6
-  a4 d'4 | % 7
+
+a4 d'4 | % 7
   g'8. a'16 bes'16 a'16 bes'16 d''16 | % 8
   g'8 g'8 g'8 r8 | % 9
   g''8. f''16 es''16 d''16 es''16 g''16 | \barNumberCheck #10
   c''8. c''16 c''16 c''16 c''16 c''16 \break | % 11
+  
   f''8. es''16 d''8 c''8 | % 12
   d'4. d'8 | % 13
   es''8. d''16 c''16 bes'16 c''16 es''16 | % 14
   a'8. a'16 a'16 a'16 a'16 d''16 | % 15
   g'8. a'16 bes'8 a'8 | % 16
   g'8 d'8 g'8 r8 \break | % 17
+  
   g'8. a'16 bes'8 a'8 | % 18
   g'8 fis'8 a'8 g'8 | % 19
   bes2 | \barNumberCheck #20
   d'16 es'16 es'16 es'16 es'16 d'16 es'16 g'16 | % 21
   d'4 r8 d'8 | % 22
   g'4 a'4 \break | % 23
+  
   bes'16 a'16 bes'16 a'16 g'8 fis'8 | % 24
   bes2 | % 25
   g''16 ( f''16 es''16 d''16 c''16 bes'16 a'16 g'16 ) | % 26
   a'8 bes'8 c''8 d''8 | % 27
   es''8 d''8 d''4 ~ | % 28
   d''8 bes'8 g'8 d'8 \break | % 29
+  
   g''8. a''16 bes''8 a''8 | \barNumberCheck #30
   a''8 g''8 g''8 fis''8 | % 31
   g''2 ~ | % 32
   g''8 f''8 es''8 d''8 | % 33
   d''8 c''8 d''4 ~ | % 34
   d''8 c''8 bes'8. a'16 \break | % 35
+  
   bes'8 c''8 d''8 es''8 | % 36
   d''8 cis''8 d''4 ~ | % 37
   d''8 c''8 bes'8 a'8 | % 38
   fis'8. g'16 a'8 g'8 | % 39
   bes'8 a'8 c''8 bes'8 | \barNumberCheck #40
   a'8 g'8 fis'8 a'8 \break | % 41
+  
   g'4 bes'8. bes'16 | % 42
   bes'4 a'8 bes'8 | % 43
   c''16 bes'16 a'16 g'16 fis'8 g'8 | % 44
   a'8. bes'16 a'8 d'16 d'16 | % 45
   d'2 | % 46
   bes'8. bes'16 bes'8 bes'8 \break | % 47
+  
   bes'4 c''8 ( bes'8 ) | % 48
   a'8 bes'8 c''8 d''8 | % 49
   f''8 es''8 d''8. c''16 | \barNumberCheck #50
   d''2 ~ | % 51
   d''8 bes'8 g'8 d'8 | % 52
   g'8. g'16 g'8 g'8 \pageBreak | % 53
+  
   g'4. fis'8 | % 54
   g'8. a'16 bes'8 a'8 | % 55
   \acciaccatura { bes'8 ( } a'8 ) g'8 g'8 fis'8 | % 56
   g'8 es'8 d'4 ~ | % 57
   d'2 | % 58
   f''8 g''8 g''8 g''8 \break | % 59
+  
+  
   f''4 es''8 f''8 | \barNumberCheck #60
   g''8 g''8 f''8 es''8 | % 61
   \acciaccatura { f''8 ( } es''8 ) cis''8 d''4 ~ | % 62
   d''4 r4 | % 63
   c''8. c''16 c''8 c''8 | % 64
   c''4. bes'16 a'16 \break | % 65
+  
+  
   bes'8 c''8 d''8 es''8 | % 66
   d''2 | % 67
   a'8. a'16 a'8 a'8 | % 68
@@ -77,6 +90,8 @@ g'8 f'8 es'8 d'8 | % 2
   \acciaccatura { c''8 ( } bes'8 ) a'8 g'8 fis'8 | \barNumberCheck #70
   a'8 g'8 g'4 ~ | % 71
   g'4 r4 \break | % 72
+  
+  
   d''2 | % 73
   cis''8 d''8 es''8 d''8 | % 74
   d''2 ~ | % 75
@@ -84,6 +99,8 @@ g'8 f'8 es'8 d'8 | % 2
   g''2 -"mf" ~ | % 77
   g''2 | % 78
   fis''8 -"f" g''8 a''8 g''8 \break | % 79
+  
+  
   g''2 ~ | \barNumberCheck #80
   g''4. a''8 | % 81
   bes''2 | % 82
@@ -91,6 +108,8 @@ g'8 f'8 es'8 d'8 | % 2
   a''8 \< g''8 g''4 ~ | % 84
   g''2 | % 85
   a''4. bes''8 \! \break | % 86
+  
+  
   c'''2 | % 87
   \acciaccatura { c'''8 ( } bes''8 -\markup{ \bold {rit.} } ) -- a''8
   -- bes''8 -- c'''8 -- | % 88
@@ -100,20 +119,26 @@ g'8 f'8 es'8 d'8 | % 2
   \acciaccatura { c'''8 ( } bes''4. ) a''8 | % 91
   bes'4 bes'8. bes'16 | % 92
   g8 r8 r4 \break | % 93
+  
+  
   g'8. -"p" -\markup{ \bold {a tempo} } f'16 es'16 d'16 es'16 g'16 | % 94
   c'8. c'16 c'16 c'16 c'16 c'16 | % 95
   f'8. es'16 d'8 c'8 | % 96
   bes8 -. r8 bes8 -. r8 | % 97
   bes8 -. r8 bes8 -. r8 \break | % 98
+  
+  
   es'8. d'16 c'16 bes16 a16 d'16 | % 99
   a8. a16 a16 a16 a16 a16 | \barNumberCheck #100
   d'8. c'16 bes8 a8 | % 101
   g8 r8 g8 r8 | % 102
   g8 r8 g8 r8 \break | % 103
+  
   d'4 -"mf" -\markup{ \italic {largamente} } es'8 \< fis'8 | % 104
   bes4 bes'8. a'16 \! | % 105
   bes8 r8 bes8 bes8 | % 106
   bes8 r8 g8 r8 \bar "|."
+  
   \pageBreak | % 107
   \time 2/4  | % 107
   \tempo 4=100 g''8 f''8 es''8 d''8 | % 108
