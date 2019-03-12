@@ -137,14 +137,132 @@
     \acciaccatura { c8 } bes([a]) bes c | \noBreak
     d2 | \break
     
+    d,8^\markup{ \italic { largamente } } ees16([d]) cis8 d | \noBreak
+    \acciaccatura { c' } bes4. a8 | \noBreak
+    g4 g | \noBreak
+    g2 | \break
 
+    \tempo "a tempo" g'8. f16 ees([d]) ees([g]) | \noBreak
+    c,8. c16 c c c c | \break
+    
+    f8. ees16 d8 c | \noBreak
+    bes16 r bes r bes r bes r | \noBreak
+    ees8. d16 c bes c ees | \break
+    
+    a,8. a16 a a a a | \noBreak
+    d8 d16([c]) bes8 a | \noBreak
+    g16 r g r g r g r | \break
 
+    d4^\markup{ \italic { largamente } } e8 fis | \noBreak
+    g4 bes8. a16 | \noBreak
+    g4 g8 g | \noBreak
+    g2 \bar "|." \pageBreak
+  }
 
+  \addlyrics {
+    И -- де ве -- че, | и -- де | "с ͜ пал" -- мо -- во клон -- че |
+    на Ми ра. | Сли -- за той от -- | го -- ре, | сли -- за той, вес -- |
+    ти -- тел благ. | И -- де ве -- че | "с ͜ пал" -- мо -- во клон -- че |
+    ка -- то си -- | я -- ни -- е. | И -- де Ми -- рът |
+    о -- бе -- щан със | не -- го -- ви -- я | по -- глед чист. |
+    Всич -- ки ду -- ши | поз -- дра -- вя -- | ва, | всич -- ки сър -- ца вдъх -- но -- вя -- |
+    ва "с ͜ ли" -- | ка си | благ, мил, о -- за -- | рен. |
+    Ра -- дост и ве -- се -- ли -- е раз -- | на -- ся той на -- | вред, къ -- де -- 
+    то ми -- не. | И -- де той във  | ран -- ни -- те зо -- | ри, | 
+    Слън -- це -- то ко -- | га -- то про -- сти -- ра свой -- те мил -- ва -- | 
+    щи ръ -- це и бу -- ди | вся -- ко се -- ме, | вся -- ко цвет -- че, |
+    сво -- и -- те де -- | ца. Пол -- ски -- те цве -- | тя със |
+    а -- ро -- мат | го по -- сре -- | щат. Мал -- ки -- те гор -- ски |
+    птич -- ки от въз -- | торг | пес -- ни пе -- ят не -- му |
+    и све -- жи -- те | стру -- и | на пла -- нин -- ски | из -- вор -- че -- та |
+    тук ли -- ку -- | ват. | Злат -- ни ни -- ви | бла -- го -- го -- вей -- но |
+    кла -- со -- ве на -- | веж -- дат. | Ця -- ла -- та При -- | ро -- да |
+    е храм ве -- | лик. | И -- де Ан -- гел | на Ми ра |
+    "в ͜ то" -- зи | храм да слу -- | жи. | А |
+    сто -- и чо -- | ве -- | кът | пред | Све -- ти -- я ол -- |
+    тар. | О -- гън го -- | ри | там, "в ͜ Све" -- | ще -- ни -- я ол -- |
+    тар. | И "с ͜ мо" -- | лит -- | ва във ду -- | ша |
+    Бо -- жи -- я вес -- | ти -- тел | ча -- ка | той. |
+    И -- де ве -- че | Ан -- гел на Ми -- ра със |
+    клон -- че пал -- мо -- | во и же -- зъл. | Сли -- за той от -- го -- ре, |
+    цар -- ствен и же -- лан кат | слън -- че -- ва ус -- | мив -- ка бла -- га |
+    и "с ͜ Ра" -- дост | пъл -- ни сър -- | ца -- та ни той. |
+  }
 
+  \addlyrics {
+    I -- de ve -- che, | i -- de | "s ͜ pal" -- mo -- vo klon -- che |
+    na Mi ra. | Sli -- za toy ot -- | go -- re, | sli -- za toy, ves -- |
+    ti -- tel blag. | I -- de ve -- che | "s ͜ pal" -- mo -- vo klon -- che |
+    ka -- to si -- | ya -- ni -- e. | I -- de Mi -- rat |
+    o -- be -- shtan sas | ne -- go -- vi -- ya | po -- gled chist. |
+    Vsich -- ki du -- shi | poz -- dra -- vya -- | va, | vsich -- ki sar -- tsa vdah -- no -- vya -- |
+    va "s ͜ li" -- | ka si | blag, mil, o -- za -- | ren. |
+    Ra -- dost i ve -- se -- li -- e raz -- | na -- sya toy na -- | vred, ka -- de -- 
+    to mi -- ne. | I -- de toy vav  | ran -- ni -- te zo -- | ri, | 
+    Slan -- tse -- to ko -- | ga -- to pro -- sti -- ra svoy -- te mil -- va -- | 
+    shti ra -- tse i bu -- di | vsya -- ko se -- me, | vsya -- ko tsvet -- che, |
+    svo -- i -- te de -- | tsa. Pol -- ski -- te tsve -- | tya sas |
+    a -- ro -- mat | go po -- sre -- | shtat. Mal -- ki -- te gor -- ski |
+    ptich -- ki ot vaz -- | torg | pes -- ni pe -- yat ne -- mu |
+    i sve -- zhi -- te | stru -- i | na pla -- nin -- ski | iz -- vor -- che -- ta |
+    tuk li -- ku -- | vat. | Zlat -- ni ni -- vi | bla -- go -- go -- vey -- no |
+    kla -- so -- ve na -- | vezh -- dat. | TSya -- la -- ta Pri -- | ro -- da |
+    e hram ve -- | lik. | I -- de An -- gel | na Mi ra |
+    "v ͜ to" -- zi | hram da slu -- | zhi. | A |
+    sto -- i cho -- | ve -- | kat | pred | Sve -- ti -- ya ol -- |
+    tar. | O -- gan go -- | ri | tam, "v ͜ Sve" -- | shte -- ni -- ya ol -- |
+    tar. | I "s ͜ mo" -- | lit -- | va vav du -- | sha |
+    Bo -- zhi -- ya ves -- | ti -- tel | cha -- ka | toy. |
+    I -- de ve -- che | An -- gel na Mi -- ra sas |
+    klon -- che pal -- mo -- | vo i zhe -- zal. | Sli -- za toy ot -- go -- re, |
+    tsar -- stven i zhe -- lan kat | slan -- che -- va us -- | miv -- ka bla -- ga |
+    i "s ͜ Ra" -- dost | pal -- ni sar -- | tsa -- ta ni toy. |
   }
 
   \header {
-    title = "Мирът иде / Mirat ide"
+    title = "Мирът иде II/ Mirat ide II"
   }
 
 } % score
+
+  \markup { \hspace #37  \huge\bold   "Der Frieden kommt II"  }
+  \markup {
+    \hspace #1 \fontsize #+1 {
+      \halign #-1.5 {
+        \column {
+          \line { " " }
+          \line { Er kommt schon mit dem Palmzweigchen des Friedens. }
+          \line { Er kommt von oben, er kommt, der gute Bote. }
+          \line { Er kommt mit dem Palmzweigchen, }
+          \line { wie ein Schein. }
+          \line { Der versprochene Frieden kommt, }
+          \line { mit seinem reinen Blick. }
+          \line { Er begrüßt alle Seelen, }
+          \line { inspiriert alle Herzen }
+          \line { mit seinem gütigen, lieben, erleuchteten Antlitz. }
+          \line { Freude und Wonne teilt er überall aus, }
+          \line { wo er nur vorbeiläuft. }
+          \line { Er kommt in der frühen Morgenröte, }
+          \line { wenn die Sonne ihre streichelnde Hände ausstreckt }
+          \line { und jeden Samen, jede Blume -- ihre Kinder -- erweckt. }
+          \line { Die Feldblumen heißen ihn mit einem Duft willkommen. }
+          \line { Die kleinen Waldvögel }
+          \line { singen ihm Lieder von Begeisterung, }
+          \line { und die frischen Ströme der Gebirgsbäche jubeln. }
+          \line { Goldene Felder neigen ehrfurchtsvoll Weizenähren. }
+          \line { Die ganze Natur ist ein großer Tempel. }
+          \line { Ein Engel des Friedens kommt, um in diesem Tempel zu dienen. }
+          \line { Und der Mensch steht vor dem heiligen Altar. }
+          \line { Das Feuer brennt dort, im heiligen Altar }
+          \line { Und mit einem Gebet in der Seele wartet er }
+          \line { auf den göttlichen Boten. }
+          \line { Es kommt, der Engel des Friedens, }
+          \line { mit einem Palmzweigchen und mit dem Zepter. }
+          \line { Er kommt von oben herab }
+          \line { herrlich und gewünscht, }
+          \line { wie ein gutes Sonnenlächeln. }
+          \line { und mit Freude erfüllt er die Herzen. }
+        }
+      }
+    }
+  }
