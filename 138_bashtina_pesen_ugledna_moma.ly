@@ -121,7 +121,7 @@
     ees8~ ees8. | \break
     
     fis8 ees8 c16 | \noBreak
-    d8~ d8. | \bar "||" \noBreak
+    d8 d8. | \bar "||" \noBreak
     \key bes \major 
     \time 8/16
     \tempo "Andante sostenuto"
@@ -252,7 +252,7 @@
     \time 3/4 e'16--\startTextSpan e-- e-- e-- a2 | \break 
     
     g16 f e d e2 | \noBreak
-    \time 4/4 g4. f8 e(d) c d | \noBreak
+    \time 4/4 g4. f8 e[(d)] c d | \noBreak
     e4 e2. \stopTextSpan | \noBreak
     \bar "||" \time 5/16 \break 
     
@@ -269,8 +269,7 @@
     cis16 bes16 a8 g16 | \noBreak
     a8 a8. | \noBreak 
     
-    \bar "||" 
-    \time 9/16 
+    \bar ".|:-||" \time 9/16 
     \key g \major \break
     \repeat volta 1 {
       \tempo "a tempo"
@@ -283,6 +282,85 @@
       g8 a a a8. 
     }
   }
+
+  \addlyrics {
+    От ста -- ро вре -- ме, син -- ко, е знай -- но --
+    ху -- ба -- ва мо -- ма на све -- тъл ден се по --
+    зна -- ва, ко -- га Слън -- це сут -- рин из -- гря -- ва.
+    Тя е ра -- но -- буд -- ни -- ца, ра -- но ста -- ва 
+    и "с ͜ кър" -- ча -- зи на из -- во -- ра о -- ти -- ва, и во -- да 
+    си на -- ли -- ва. Тъй, пъл -- на и ве -- се -- ла,
+    тя до -- ма се връ -- ща, май -- ка си ми -- ло пре -- гръ -- ща.
+    Тъй, пъл -- на и ве -- се -- ла,  тя до -- ма се връ -- ща, май -- ка си 
+    ми -- ло пре -- гръ -- ща. Ху -- ба -- ва мо -- ма се, син -- ко, по --
+    зна -- ва, ко -- га ло -- зе ко -- па -- е и то
+    и -- зо -- бил -- но гроз -- де да -- ва. Ло -- зе мо -- мин -- ски ръ -- це
+    до -- бре по -- зна -- ва, ло -- зе мо -- мин -- ски ръ -- це
+    до -- бре по -- зна -- ва, ло -- зе мо -- мин -- ски ръ -- це
+    до -- бре по -- зна -- ва. Ху -- ба -- ва мо -- ма се, син -- ко,
+    на ни -- ва по -- зна -- ва, ко -- га ръ -- ко -- и ди -- га и 
+    сла -- га, и на  зе -- мя ги до -- бре по -- ла -- га,
+    и на Бо -- га хва -- ла да -- ва. Тя е,
+    син -- ко, гла -- со -- ви -- та, лич -- на пе -- ви -- ца;
+    не -- я жи -- то до -- бре по -- зна -- ва. Тя е,
+    син -- ко, гла -- со -- ви -- та, лич -- на пе -- ви -- ца; не -- я жи -- то 
+    до -- бре по -- зна -- ва, не -- я жи -- то до -- бре по -- зна -- ва.
+    Ху -- ба -- ва мо -- ма се, син -- ко, до -- бре по -- зна -- ва
+    ко -- га на гум -- но жи -- то от -- вя -- ва и във ре -- 
+    ше -- то го пре -- ся -- ва, "в ͜ жит" -- ни -- ци го ту -- ря 
+    и на бед -- ни хляб да -- ва. Не -- я всич -- ки,
+    мал -- ки и го -- ле -- ми, до -- бре я по -- зна -- ват,
+    не -- я всич -- ки, мал -- ки и го -- ле -- ми, до -- бре 
+    я по -- зна -- ват. Ум -- мна мо -- ма, син -- ко, се по -- 
+    зна -- ва, ко -- га кни -- га във ръ -- це си взе -- ма 
+    и скри -- то бъ -- де -- ще раз -- га -- да -- ва. Тя всич -- ко във жи --
+    во -- та на мяс -- то по -- ста -- вя. Ху -- ба -- ва мо -- ма, 
+    син -- ко, е ро -- са, що зе -- мя о -- ро -- ся ва.
+    Тя е Ан -- гел, що от го -- ре и -- де, при хо -- ра 
+    сли -- за  и "в ͜ до" -- ма им Мир и Ра -- дост вна -- ся.
+    Тя е свет -- ла кат зо -- ра -- та, тя е ми -- ла 
+    кат во -- да -- та, тя е до -- бра кат хра -- на -- та.
+  }
+
+  \addlyrics {
+    Ot sta -- ro vre -- me, sin -- ko, e znay -- no --
+    hu -- ba -- va mo -- ma na sve -- tal den se po --
+    zna -- va, ko -- ga Slan -- tse sut -- rin iz -- grya -- va.
+    Tya e ra -- no -- bud -- ni -- tsa, ra -- no sta -- va 
+    i "s ͜ kar" -- cha -- zi na iz -- vo -- ra o -- ti -- va, i vo -- da 
+    si na -- li -- va. Tay, pal -- na i ve -- se -- la,
+    tya do -- ma se vra -- shta, may -- ka si mi -- lo pre -- gra -- shta.
+    Tay, pal -- na i ve -- se -- la,  tya do -- ma se vra -- shta, may -- ka si 
+    mi -- lo pre -- gra -- shta. Hu -- ba -- va mo -- ma se, sin -- ko, po --
+    zna -- va, ko -- ga lo -- ze ko -- pa -- e i to
+    i -- zo -- bil -- no groz -- de da -- va. Lo -- ze mo -- min -- ski ra -- tse
+    do -- bre po -- zna -- va, lo -- ze mo -- min -- ski ra -- tse
+    do -- bre po -- zna -- va, lo -- ze mo -- min -- ski ra -- tse
+    do -- bre po -- zna -- va. Hu -- ba -- va mo -- ma se, sin -- ko,
+    na ni -- va po -- zna -- va, ko -- ga ra -- ko -- i di -- ga i 
+    sla -- ga, i na  ze -- mya gi do -- bre po -- la -- ga,
+    i na Bo -- ga hva -- la da -- va. Tya e,
+    sin -- ko, gla -- so -- vi -- ta, lich -- na pe -- vi -- tsa;
+    ne -- ya zhi -- to do -- bre po -- zna -- va. Tya e,
+    sin -- ko, gla -- so -- vi -- ta, lich -- na pe -- vi -- tsa; ne -- ya zhi -- to 
+    do -- bre po -- zna -- va, ne -- ya zhi -- to do -- bre po -- zna -- va.
+    Hu -- ba -- va mo -- ma se, sin -- ko, do -- bre po -- zna -- va
+    ko -- ga na gum -- no zhi -- to ot -- vya -- va i vav re -- 
+    she -- to go pre -- sya -- va, "v ͜ zhit" -- ni -- tsi go tu -- rya 
+    i na bed -- ni hlyab da -- va. Ne -- ya vsich -- ki,
+    mal -- ki i go -- le -- mi, do -- bre ya po -- zna -- vat,
+    ne -- ya vsich -- ki, mal -- ki i go -- le -- mi, do -- bre 
+    ya po -- zna -- vat. Um -- mna mo -- ma, sin -- ko, se po -- 
+    zna -- va, ko -- ga kni -- ga vav ra -- tse si vze -- ma 
+    i skri -- to ba -- de -- shte raz -- ga -- da -- va. Tya vsich -- ko vav zhi --
+    vo -- ta na myas -- to po -- sta -- vya. Hu -- ba -- va mo -- ma, 
+    sin -- ko, e ro -- sa, shto ze -- mya o -- ro -- sya va.
+    Tya e An -- gel, shto ot go -- re i -- de, pri ho -- ra 
+    sli -- za  i "v ͜ do" -- ma im Mir i Ra -- dost vna -- sya.
+    Tya e svet -- la kat zo -- ra -- ta, tya e mi -- la 
+    kat vo -- da -- ta, tya e do -- bra kat hra -- na -- ta.
+  }
+
 
   \header {
     title = "Бащина песен - Угледна мома / Bashtina pesen - Ugledna moma"
