@@ -80,7 +80,54 @@
     e8\accent e e d16 | \noBreak
     g8\accent f e d16 | \break
     
-    e8\accent
+    e8\accent d c b16 | \noBreak
+    c8\accent d e d16 | \noBreak
+    e8\accent d c b16 | \noBreak
+    a8^\accent \stemUp b \stemNeutral c d16 | \break
+    
+    e8\accent d c b16 | \noBreak
+    c8\accent d \stemUp b \stemNeutral g16 | \noBreak
+    a4 a8. | \noBreak
+    g8^\accent a f[e16] | \noBreak
+    e8^\accent g f[d16] | \break
+    
+    e4\prall~ e8[d16] | \noBreak
+    e8^\accent e e8. | \noBreak
+    g8^\accent a f e16 | \noBreak
+    e8^\accent g f e16 | \noBreak
+    e4\prall~ e8[d16] | \noBreak
+    e8^\accent e e d16 | \break
+    
+    \repeat volta 1 { 
+      c8 d e d16 | \noBreak
+      e8 d c b16 | \noBreak
+      a8 b c d16 | \noBreak
+      e8 d c b16 | \break
+      
+      c8 d b g16 | \noBreak
+      a4 a8. | \noBreak
+    }
+    \time 4/4 \tempo "Lento" a4 d8([e]) \tuplet 3/2 {f16([ g f]} e4.) | \time 5/4 \break
+    \override TupletNumber #'avoid-slur = #'ignore
+    c'4\fermata \acciaccatura{ b16[c] } \tuplet 3/2 { \stemUp b8 \stemNeutral a gis} a8 \tupletUp \tuplet 3/2 { b16(c b) } e,2 | \noBreak
+    \time 4/4 \tuplet 3/2 { e8\tenuto f\tenuto g\tenuto } g2 a4 | \time 3/4 \break
+    
+    \acciaccatura {f16[g]} \tuplet 3/2 { f8 e f } f4\tenuto e4\tenuto | \noBreak
+    a2 d,4 | \noBreak
+    \time 4/4 g16 f e d c b c d e2 | \break
+    
+    \tempo "rit." a,8 b c4 b8 d c b | \noBreak
+    a2 r2 | \noBreak
+    \tempo "a tempo" a'4  d8([e]) \tupletNeutral \tuplet 3/2 { f16([ g f] } e4.) \time 5/4 | \break
+
+    c'4\fermata \acciaccatura { b16[c] }  \tuplet 3/2 { b8[ a gis]} a8[ \tupletUp \tuplet 3/2 { b16(c b)] }  e,2 \tupletNeutral | \noBreak
+    \time 4/4 \tuplet 3/2 { e8\tenuto[f\tenuto g\tenuto] } g2 a4 | \noBreak
+    \time 3/4 \acciaccatura { f16[g] } \tuplet 3/2 { f8[e g] } f4 e | \break
+    
+    a2
+    
+    
+    
     
   }
 
