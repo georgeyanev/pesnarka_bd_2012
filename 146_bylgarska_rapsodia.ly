@@ -15,7 +15,7 @@
 \score{
   \layout { 
     indent = 0.0\cm % remove first line indentation
-    ragged-last = ##t % do not spread last line to fill the whole space
+    ragged-last = ##f % do spread last line to fill the whole space
     \context {
       \Score
       \omit BarNumber %remove bar numbers
@@ -124,11 +124,119 @@
     \time 4/4 \tuplet 3/2 { e8\tenuto[f\tenuto g\tenuto] } g2 a4 | \noBreak
     \time 3/4 \acciaccatura { f16[g] } \tuplet 3/2 { f8[e g] } f4 e | \break
     
-    a2
+    a2 d,4  | \noBreak
+    \time 4/4 g16[f e d] c[b\tenuto c\tenuto d\tenuto] e2 | \noBreak
+    a,8[b] c4 b8[d] c[b] | \noBreak
+    a2 a' | \time 2/4 \break
+    \repeat volta 1 {
+      \tempo "Vivo" c,8\accent[b] a[g] | \noBreak
+      a\accent[g] f[e] | \noBreak
+      g\accent[f] e[d] | \noBreak
+      e4\prall e | \noBreak
+    }
+    e8[d] c[b] | \noBreak
+    c[d] e[d] | \break
     
+    c[b] d[c] | \noBreak
+    b[g] a4~ | \noBreak
+    a8[b] c[d] | \noBreak
+    e[d] c[b] | \noBreak
+    d[c] b[g] | \noBreak
+    a2 | \noBreak
+    a4 a | \break
     
+    \repeat volta 1 {
+      c''8\accent[b] a[g] | \noBreak
+      a\accent[g] f[e] | \noBreak
+      g\accent[f] e[d] | \noBreak
+      e4\prall e | \noBreak
+    }
+    e8[d] c[b] | \noBreak
+    c[d] e[d] | \break
     
+    c[b] d[c] | \noBreak
+    b[g] a4~ | \noBreak
+    a8[b] c[d] | \noBreak
+    e[d] c[b] | \noBreak
+    d[c] b[g] | \noBreak
+    a2 | \noBreak
+    a4 a | \bar "||" \time 3/4 \break
     
+    \tempo "Andante" \acciaccatura { dis,8 } e2 d16\tenuto([c\tenuto b\tenuto c\tenuto]) | \noBreak
+    \acciaccatura { dis8 } e2 d16\tenuto([c\tenuto b\tenuto c\tenuto]) | \noBreak
+    \acciaccatura { dis8 } e2 d16\tenuto([c\tenuto b\tenuto g\tenuto]) | \noBreak
+    a4. b8 c4 \break
+    
+    d8([e]) \acciaccatura { d16[e] } d8[c] b[g] | \noBreak
+    a2. \noBreak
+    \acciaccatura { dis'8 } e2 d16\tenuto c\tenuto b\tenuto c\tenuto | \noBreak
+    \acciaccatura { dis8 } e2 d16\tenuto c\tenuto b\tenuto c\tenuto | \break
+    
+    \acciaccatura { dis8 } e2 d16 c b g | \noBreak
+    a4. b8 c4 | \noBreak
+    d8 e d c b\tenuto g\tenuto | \noBreak
+    a2. | \noBreak
+    a2. | \bar "||" \time 2/4 \break
+    
+    \tempo "Allegretto" g,16[c b g] a8[a] | \noBreak
+    g16[c b g] a8[a] | \noBreak
+    \acciaccatura { fis'8 } g[c,] \acciaccatura { dis } e[d16 c] | \noBreak
+    \acciaccatura { fis8 } g[c,] \acciaccatura { dis } e[d16 c] | \break
+    
+    b16[c d e] d[c b g] | \noBreak
+    a8.[g16] a[b c d] | \noBreak
+    e[f e d] c[d b g] | \noBreak
+    a4 a8 a \break
+    
+    \acciaccatura { fis''8 } g[c,] \acciaccatura { dis } e[d16 c] | \noBreak
+    \acciaccatura { fis8 } g[c,] \acciaccatura { dis } e[d16 c] | \noBreak
+    b[c d e] d[c b g] | \noBreak
+    a8.[g16] a[b c d] | \break
+    
+    e[f e d] c[d b g] | \noBreak
+    a4 a8 a | \bar "||" \noBreak
+    d,^\accent e e e | \noBreak
+    e4 e | \noBreak
+    d8^\accent c c c | \break
+    
+    c4 c | \noBreak
+    d8^\accent e e e | \noBreak
+    e4 e | \noBreak
+    d8^\accent c c c | \noBreak
+    c4 c | \break
+    
+    \repeat volta 1 {
+      b8^\accent g a b | \noBreak
+      c4 c | \noBreak
+      c8 b b g | \noBreak
+      a4 a | 
+    } \time 3/4 \break
+    
+    \override TupletBracket.positions = #'(3 . 3)
+    \tuplet 3/2 8 { c16([b g) a(b g]) c16([b g) a(b g]) c16([b g) b(a g])  } | \noBreak
+    a4 a2 | \bar "||" \time 7/16 \break
+    
+    \tempo "Andante maestoso" g8^\accent a16([b]) c8.~ | \noBreak
+    c4~ c8. | \noBreak
+    \acciaccatura { g8 } d'^\accent e c8. | \noBreak
+    \acciaccatura { g8 } d'^\accent e c8. | \noBreak
+    b8 d a([g16]) | \noBreak
+    b4 b8. | \break
+    
+    g8 a16([b]) c8. | \noBreak
+    b8 d a8. | \noBreak
+    a4 a8. | \noBreak
+    g''8\accent a16([b]) c8.~ | \noBreak
+    c4~ c8. | \noBreak
+    d8\accent e c8. | \break
+    
+    d8\accent e c8. | \noBreak
+    b8 d a[g16]| \noBreak
+    b4~ b8. | \noBreak
+    g8\accent a16[b] c8. | \noBreak
+    b8\accent d a8. | \noBreak
+    a4~ a8. | \noBreak
+    a4~ a8. | \bar "|."
   }
 
   \header {
