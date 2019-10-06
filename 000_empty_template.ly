@@ -11,7 +11,7 @@
   tagline = ##f
 }
 
-
+\bookpart {
 \score{
   \layout { 
     indent = 0.0\cm % remove first line indentation
@@ -31,3 +31,4 @@
   }
 
 } % score
+} % bookpart
