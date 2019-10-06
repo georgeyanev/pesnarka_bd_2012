@@ -239,6 +239,63 @@
     a4~ a8. | \bar "|."
   }
 
+  \addlyrics {
+    Там го -- ре край из -- во -- ра срещ -- нах мо -- ма за --
+    смя -- на, там го -- ре срещ -- нах Ли -- ля -- на.
+    \repeat unfold 22 { \skip 1 }
+    Из -- во -- рът стру -- и, из -- ви -- ра и чис -- ти во -- ди раз -- ли -- ва,
+    пла -- нин -- ска пе -- сен раз -- низ -- ва; мо -- ма -- та мен -- ци на -- ли -- ва,
+    "в ͜ пе" -- сен -- та ти -- хо се за -- слуш -- ва.
+    \repeat unfold 26 { \skip 1 }
+    Ще о -- ти -- да та -- мо го -- ре, ще о -- ти -- да
+    "в ͜ пла" -- ни -- на -- та, чис -- ти во -- ди да по -- гле -- дам, ти -- ха пе -- сен 
+    да по -- слу -- шам, ще о -- ти -- да та -- мо.
+    \repeat unfold 23 { \skip 1 }
+    Чис -- ти во -- ди да по -- гле -- дам, ти -- ха пе -- сен да по -- слу -- шам,
+    ще о -- ти -- да та -- мо. Ли -- ля -- но,
+    цве -- те ра -- но "в ͜ гра" -- ди -- на, а -- ко таз пе -- сен,
+    Ли -- ля -- но, не чу -- я, ах, от таз во -- да а -- ко не пи -- я,
+    скръб ще ми пъл -- ни сър -- це -- то.
+    \repeat unfold 85 { \skip 1 }
+    Ли -- ля -- но мо -- ме ти "в ͜ пла" -- ни -- на -- та
+    там го -- ре ще ме за -- ве -- деш, из -- во -- рът де -- то из -- ви -- ра.
+    \repeat unfold 30 { \skip 1 }
+    Го -- ре "в ͜ пла" -- ни -- на -- та, Слън -- це дей о- 
+    гря -- ло сред тре -- ви зе -- ле -- ни, сред цве -- тя за -- сме -- ни.
+    Го -- ре "в ͜ пла" -- ни -- на -- та, Слън -- це дей о -- гря -- ло.
+    \repeat unfold 5 { \skip 1 }
+    Там го -- ре край из -- во -- ра срещ -- нах мо -- ма зас -- мя -- на,
+    там го -- ре срещ -- нах Ли -- ля -- на.
+  }
+  \addlyrics {
+    Tam go -- re kray iz -- vo -- ra sresht -- nah mo -- ma za --
+    smya -- na, tam go -- re sresht -- nah Li -- lya -- na.
+    \repeat unfold 22 { \skip 1 }
+    Iz -- vo -- rat stru -- i, iz -- vi -- ra i chis -- ti vo -- di raz -- li -- va,
+    pla -- nin -- ska pe -- sen raz -- niz -- va; mo -- ma -- ta men -- tsi na -- li -- va,
+    "v ͜ pe" -- sen -- ta ti -- ho se za -- slush -- va.
+    \repeat unfold 26 { \skip 1 }
+    SHTe o -- ti -- da ta -- mo go -- re, shte o -- ti -- da
+    "v ͜ pla" -- ni -- na -- ta, chis -- ti vo -- di da po -- gle -- dam, ti -- ha pe -- sen 
+    da po -- slu -- sham, shte o -- ti -- da ta -- mo.
+    \repeat unfold 23 { \skip 1 }
+    CHis -- ti vo -- di da po -- gle -- dam, ti -- ha pe -- sen da po -- slu -- sham,
+    shte o -- ti -- da ta -- mo. Li -- lya -- no,
+    tsve -- te ra -- no "v ͜ gra" -- di -- na, a -- ko taz pe -- sen,
+    Li -- lya -- no, ne chu -- ya, ah, ot taz vo -- da a -- ko ne pi -- ya,
+    skrab shte mi pal -- ni sar -- tse -- to.
+    \repeat unfold 85 { \skip 1 }
+    Li -- lya -- no mo -- me ti "v ͜ pla" -- ni -- na -- ta
+    tam go -- re shte me za -- ve -- desh, iz -- vo -- rat de -- to iz -- vi -- ra.
+    \repeat unfold 30 { \skip 1 }
+    Go -- re "v ͜ pla" -- ni -- na -- ta, Slan -- tse dey o- 
+    grya -- lo sred tre -- vi ze -- le -- ni, sred tsve -- tya za -- sme -- ni.
+    Go -- re "v ͜ pla" -- ni -- na -- ta, Slan -- tse dey o -- grya -- lo.
+    \repeat unfold 5 { \skip 1 }
+    Tam go -- re kray iz -- vo -- ra sresht -- nah mo -- ma zas -- mya -- na,
+    tam go -- re sresht -- nah Li -- lya -- na.
+  }
+  
   \header {
     title = "Българска рапсодия / Balgarska rapsodiya"
   }
