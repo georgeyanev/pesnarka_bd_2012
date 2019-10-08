@@ -1,4 +1,4 @@
-
+\version "2.18.2"
 %temp = \markup { \tempo 16 = 167 }
 
 
@@ -13,13 +13,13 @@ melody = \absolute  {
  
  c'8 |e'4 g'8|c''4 g'8 |a'4 g'8 |c''4.| g'4. ( |  g'4  )  g'8 |\break
  
- c''4 c''8| \once \autoBeamOn c''8 (  b'8   )  \noBeam  c''8 |d''4 b'8  |c''4. ( | c''4 ) a'8| a'4 a'8| \break
+ c''4 c''8| \once \autoBeamOn c''8 ([  b'8  ])  \noBeam  c''8 |d''4 b'8  |c''4. ( | c''4 ) a'8| a'4 a'8| \break
  
  d''4  c''8| b'4 a'8| a'4. | g'4. ( |g'4 ) g'8 | a'4 g'8 | g'4 f'8 | \break
  
  
  
- e'4 d'8| c'4. ( | c'4. ) |
+ e'4 d'8| c'4. ( | c'4. ) | \bar "||"
  \tempo "Piu mosso" 8 = 176
  g'8  fis'8 g'8 | a'4 g'8 | g'4 g'8 |c''4. (| \break
  
@@ -27,7 +27,7 @@ melody = \absolute  {
  
  g'4 fis'8 | g'4. (| g'4. ) | a'8 g'8 f'8 | f'4 f'8 | e'4 f'8 | g'4. (| \break
  
- g'4 ) g'8 | a'4 g'8 | g'4 fis'8 | g'4. (| g'4. )| d'8 e'8 f'8| f'4 f'8 | \break
+ g'4 ) g'8 | a'4 g'8 | g'4 fis'8 | g'4. (| g'4. )| d'8 e'8 f'!8| f'4 f'8 | \break
  
  e'4 f'8 | g'4. (|g'4 ) e'8 | g'4 f'8 | e'4 d'8 | c'4. ( | c' 4 ) s8 | \break
 
@@ -36,32 +36,32 @@ melody = \absolute  {
 }
 
 text = \lyricmode {
-Зо -- ра се чуд -- на за -- зо -- ря -- ва, __ 
+Зо -- ра се чуд -- на за -- зо -- ря -- ва,  
 
-зо -- ра на све -- тъл нов жи -- вот, __ све -- ли -- ко -- 
+зо -- ра на све -- тъл нов жи -- вот, све -- ли -- ко -- 
 
-ле -- пи -- е ог -- ря -- ва __ по -- спре -- ли -- я се 
+ле -- пи -- е ог -- ря -- ва по -- спре -- ли -- я се 
 
-наш ки -- вот. __ В~но -- ви -- я све -- тъл тоз жи -- вот, __  в~но -- ви -- я све -- тъл тоз жи -- вот, __ 
+наш ки -- вот. В~но -- ви -- я све -- тъл тоз жи -- вот, __  в~но -- ви -- я све -- тъл тоз жи -- вот, 
 
 
-жи -- вот на Лю -- бов -- та.  в~но -- ви -- я све -- тъл тоз жи -- вот, __ жи -- вот на Бла -- гост -- та
+жи -- вот на Лю -- бов -- та.  в~но -- ви -- я све -- тъл тоз жи -- вот, __ жи -- вот на Бла -- гост -- та,
 
 в~но -- ви -- я све -- тъл тоз жи -- вот, жи -- вот на Ра -- дост -- та. 
  
  
 }
 
-textL = \lyricmode { So -- ra se tschud -- na sa -- so -- rja -- va, __ 
+textL = \lyricmode { So -- ra se tschud -- na sa -- so -- rja -- va, 
 
-so -- ra na sve -- tal nov shi -- vot, __ sve -- li -- ko -- 
+so -- ra na sve -- tal nov shi -- vot, sve -- li -- ko -- 
 
-le -- pi -- e og -- rja -- va __ po -- spre -- li -- ja se 
+le -- pi -- e og -- rja -- va po -- spre -- li -- ja se 
 
-nasch ki -- vot. __ V~no -- vi -- ja sve -- tyl tos shi -- vot, __  v~no -- vi -- ja sve -- tyl tos shi -- vot, __ 
+nasch ki -- vot. V~no -- vi -- ja sve -- tyl tos shi -- vot, __  v~no -- vi -- ja sve -- tyl tos shi -- vot, 
 
 
-shi -- vot na Lju -- bov -- ta.  v~no -- vi -- ja sve -- tyl tos shi -- vot, __ shi -- vot na Bla -- gost -- ta
+shi -- vot na Lju -- bov -- ta.  v~no -- vi -- ja sve -- tyl tos shi -- vot, __ shi -- vot na Bla -- gost -- ta,
 
 v~no -- vi -- ja sve -- tyl tos shi -- vot,  shi -- vot na Ra -- dost -- ta. 
  

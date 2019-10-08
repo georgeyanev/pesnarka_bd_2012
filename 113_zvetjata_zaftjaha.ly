@@ -36,7 +36,7 @@
  
 g'4 | g''2 fis''4 d''4 |e''2 d''2 | b'4  d''4 a'2| a'4 b'4 g'2 | \break
 
-b'4 d'4 a'2 | a'4 b'4 g'2| b4 d'8 g'8 b'4. a'8 | a'4 b'8 b'8 g'2 | \break
+b'4 d''4 a'2 | a'4 b'4 g'2| b4 d'8 g'8 b'4. a'8 | a'4 b'8 b'8 g'2 | \break
 
  b4 d'8 g'8 b'4. a'8 | a'4 b'8 b'8 g'2 | g'4 fis'8. e'16 e'4. d'8 | \break
  
@@ -46,7 +46,7 @@ b'4 d'4 a'2 | a'4 b'4 g'2| b4 d'8 g'8 b'4. a'8 | a'4 b'8 b'8 g'2 | \break
  
  b'8 a'8 g'8 fis'8 | g'4. d'8 | g'2 | fis'8. g'16 a'8 b'8 | c''4 d''4 | \break
  
- e''4.\fermata b'8 | d''4. c''8 | b'4 a'8 a'8 | b'8 a'8 g'8 fis'8 | a'2 \break  
+ e''4.\fermata b'8 | d''4. c''8 | b'4 a'8 a'8 | b'8 a'8 g'8 fis'8 | g'2 \break  
  
   }
 
