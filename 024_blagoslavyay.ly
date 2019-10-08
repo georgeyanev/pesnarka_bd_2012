@@ -1,6 +1,16 @@
+\version "2.18.2"
 
+\paper {
+  print-all-headers = ##t
+  left-margin = 2\cm
+  right-margin = 2\cm
+}
 
+\header {
+  tagline = ##f
+}
 
+\bookpart {
 melody = \absolute  {
   \clef treble
   \key d \major
@@ -77,3 +87,4 @@ textL = \lyricmode {Bla -- go --
   >>
  
 }
+} % bookpart

@@ -10,7 +10,7 @@
   tagline = ##f
 }
 
-
+\bookpart {
 \score{
   \layout { 
     indent = 0.0\cm % remove first line indentation
@@ -37,3 +37,4 @@
     title = "Зората на Новия живот / Zorata na Noviya zhivot"
   }
 } % score
+} % bookpart
