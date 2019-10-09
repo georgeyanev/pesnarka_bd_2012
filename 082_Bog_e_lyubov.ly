@@ -10,7 +10,7 @@
   tagline = ##f
 }
 
-
+\bookpart {
 \score{
   \layout { 
     indent = 0.0\cm % remove first line indentation
@@ -94,3 +94,4 @@
     title = "Бог е Любов / Bog e Lyubov"
   }
 }
+} % bookpart
