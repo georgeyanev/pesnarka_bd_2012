@@ -5,6 +5,7 @@
   print-page-number = ##f 
   left-margin = 2\cm
   right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
 }
 
 \header {
@@ -23,9 +24,11 @@
   } % layout
 
   \new Voice \relative c' {
-   % notes and lyrics here
+   % notes here
   }
-
+  
+  % lyrics here
+  
   \header {
     title = "Заглавие / Title"
   }
