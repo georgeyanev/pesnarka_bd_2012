@@ -61,9 +61,9 @@
 
 } % score
 
-%\markup {  \vspace #1.9 }
 \markup {
-    \hspace #1
+    \hspace #10
+    \vspace #4
     \fontsize #+1 {
     \column {
       \line { 1. Любовта е извор, }
@@ -74,13 +74,39 @@
       \line {   "   "в стремеж към доброто,}
        \line {   "   "що е съвършено}
       \line {   "   "горе на Небето.}
- \line { " " }
+      \line { " " }
        \line { "   " \italic {Припев: } }
       \line {  "   " Работи със нея }
       \line { "   " в милости желани, }
       \line { "   " помощта носи й }
       \line {  "   " за души страдални.}
+    }
+   \hspace #10 {
+    \column  {
+     \line { 1. Ljubovta e izvor, }
+      \line {   "   " tja shivota rashda }  
+      \line {   "   " i presvjata dlyshnost }
+      \line {   "   " v nego krotko vsashda. } 
+      \line {   "   "Vse napred da chodi}
+      \line {   "   "v stremesh kym dobroto,}
+      \line {   "   "shho e syvyrscheno}
+      \line {   "   "gore na Nebeto.}
       \line { " " }
+      \line { "   " \italic {Pripev: } }
+      \line {  "   " Raboti sys neja }
+      \line { "   " v milosti shelani, }
+      \line { "   " pomoshhta nosi i }
+      \line {  "   " za duschi stradalni.}
+    }
+   }
+   }
+}
+
+\markup {
+    \hspace #10
+    \vspace #1.9
+    \fontsize #+1 {
+    \column {
       \line { 2. И туй непрестанно  }
       \line {   "   " върши тя самата }  
       \line {   "   " като нежна майка }
@@ -125,21 +151,6 @@
     }
    \hspace #10 {
     \column  {
-     \line { 1. Ljubovta e izvor, }
-      \line {   "   " tja shivota rashda }  
-      \line {   "   " i presvjata dlyshnost }
-      \line {   "   " v nego krotko vsashda. } 
-      \line {   "   "Vse napred da chodi}
-      \line {   "   "v stremesh kym dobroto,}
-       \line {   "   "shho e syvyrscheno}
-      \line {   "   "gore na Nebeto.}
- \line { " " }
-       \line { "   " \italic {Pripev: } }
-      \line {  "   " Raboti sys neja }
-      \line { "   " v milosti shelani, }
-      \line { "   " pomoshhta nosi i }
-      \line {  "   " za duschi stradalni.}
-      \line { " " }
       \line { 2. I tui neprestanno  }
       \line {   "   " vyrschi tja samata }  
       \line {   "   " kato neshna maika }

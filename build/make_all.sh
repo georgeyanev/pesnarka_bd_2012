@@ -7,7 +7,11 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../022_izgryava_den_tarzhestven.ly \
     ../024_blagoslavyay.ly \
     ../025_sabudi_se_bratko.ly \
-    ../026_lyubovta_e_izvor.ly
+    ../026_lyubovta_e_izvor.ly \
+    ../028_stani_stani.ly \
+    ../029_stradna_dusho.ly \
+    ../030_izgrey_ti_moe_slantse.ly \
+    ../032_shumi.ly \
     > tmp.ly
 
 lilypond -o pesn_all tmp.ly

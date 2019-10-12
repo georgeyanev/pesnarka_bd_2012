@@ -79,7 +79,7 @@
 
 
   \header {
-    title = "Излязъл е сеяч / Иzlyazal e seyach"
+    title = "Излязъл е сеяч / Izlyazal e seyach"
   }
 
 } % score
