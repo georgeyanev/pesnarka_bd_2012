@@ -26,7 +26,7 @@
   \new Voice \absolute  {
     \clef treble
     \key g \minor
-    \time 3/4 \tempo "Moderato" 4 = 40
+    \time 3/4 \tempo "Moderato" 2. = 40
     \partial 4
  
       d'4 |  g'2 a'4 | bes'2 a'4 | g'2 fis'4 | a'2. | d'2. ~ | d'4 r d'' \break         

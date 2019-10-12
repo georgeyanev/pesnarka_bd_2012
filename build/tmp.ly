@@ -1430,3 +1430,282 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
 }
 
 } % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+  \clef treble
+  \key a \minor
+  \time 3/4 \tempo "Moderato" 4 = 88
+  \partial 4
+    e'4 |  a'2 b'4 | c''2 b'4 | a'2 e''4 | e''2 \fermata d''4 | e''2 d''4 | c''2 b'4 \break |
+    a'2 gis'4 | b'2. | b'2 \fermata e'4 |  a'2 b'4 | c''2 b'4 | a'2 g'4 | f'2 \fermata f'4 \break |
+    e'2 d'4 | c'2 d'4 | e'2 gis'4 | b'2. | a'2 \fermata a'4 | f'2. | a'2 g'4 \break |
+    f'2. | e'2 d'4 e'2 d'4 | c'2 b4 | e'2 gis'4 | b'2. | a'2.\fermata  | \bar "||" \break
+  }
+  
+  \addlyrics {
+    Ви -- сок
+    пла -- нин -- ски връх блес -- ти, об -- лян с~лъ
+    -- чи от не -- бе -- са -- та. Там чис -- то из
+    -- вор -- че шур -- ти и в~химн из -- ли -- ва
+    си ду -- ша -- та, ду -- ша -- та, ду -- ша --
+    та. И в~химн из -- ли -- ва си ду -- ша -- та.
+  }
+
+  \addlyrics {
+    Vi -- sok
+    pla -- nin -- ski vrah bles -- ti, ob -- lyan s~la
+    -- chi ot ne -- be -- sa -- ta. Tam chis -- to iz
+    -- vor -- che shur -- ti i v~himn iz -- li -- va
+    si du -- sha -- ta, du -- sha -- ta, du -- sha --
+    ta. I v~himn iz -- li -- va si du -- sha -- ta.
+  }
+
+  \header {
+    title = "При източника / Pri iztochnika"
+  }
+
+} % score
+
+\markup { \hspace #20 \vspace #10
+   \fontsize #+5 {
+     Missing text here ...
+   }
+}
+
+} % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+    \clef treble
+    \key g \major
+    \time 2/4 \tempo "Tempo di marcia" 4 = 100
+    \partial 8
+    \autoBeamOff
+
+      b8 | e'8. fis'16 g'8 a' | b'4 b'8 b' | e''8 d'' c'' b' | c''4 c''8 c'' \break |
+      d''8 c'' b' a' | b'4 b'8 b' | b'8 a' g' fis' | e'4 e'8 e' \break |
+      \repeat volta 2 {
+        fis'8. fis'16 fis'8 fis' | 
+        fis'4 fis'8 fis' | 
+        g'8. g'16 g'8 g' | 
+        g'4 g'8 g' | \break 
+        
+        a'8.  a'16 a'8 a' | 
+        b'4. a'8 | 
+        b'8 a' g'  fis'8 |
+      } \alternative { 
+        {  e'4. e'8 |}  
+        {e'4. \bar "|." \break } 
+        {e'4. \bar "|." \break } 
+      }
+  }
+  
+  \addlyrics {
+    На -- пред
+    да хо -- дим сме -- ло в~чер -- то -- зи -- те
+    без -- мъл -- вни на тай -- но -- то поз -- на --
+    ние, с~Жи -- вот и Си -- ла пъл -- ни. Кат вих
+    -- ри над го -- ри -- те с~дух пла -- мен във
+    гър -- ди -- те на -- пред да по -- ле -- тим,
+    све -- та да об -- но -- вим! Кат вим!
+  }
+
+  \addlyrics {
+    Na -- pred
+    da ho -- dim sme -- lo v~cher -- to -- zi -- te
+    bez -- mal -- vni na tay -- no -- to poz -- na --
+    nie, s~ZHi -- vot i Si -- la pal -- ni. Kat vih
+    -- ri nad go -- ri -- te s~duh pla -- men vav
+    gar -- di -- te na -- pred da po -- le -- tim,
+    sve -- ta da ob -- no -- vim! Kat vim!
+  }
+
+  \header {
+    title = "Напред да ходим / Napred da hodim"
+  }
+} % score
+
+\markup { \hspace #20 \vspace #10
+   \fontsize #+5 {
+     Missing text here ...
+   }
+}
+
+} % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+    \clef treble
+    \key e \minor
+    \time 3/4 \tempo "Lento" 4 = 50
+    \partial 4
+    \autoBeamOff
+    e'8 fis'8 | g'4 e'4 b'8 a'8 | g'4 fis'4 e'8 fis'8 | g'4 e'4 g'8 a'8 |  b'2 e''8  e''8 \break
+    d''4 c''4 b'8 b'8 | a'4 g'4 fis'8 g'8 | b'4 a'4 g'8 a'8 | b'2 e''8 e''8 \break
+    | d''4 c''4 b'8 b'8 | a'4 g'4 fis'8 g'8 | b'4 a'4 g'8 fis'8 | e'2 \bar "|."\break
+  }
+  
+  \addlyrics {
+    На У --  чи -- те -- ля по -- ко -- рен аз ще слу -- жа
+    до кон -- ца. Той за мен е път от -- во --
+    рен, що ме во -- ди към От -- ца. Той за мен
+    е път от -- во -- рен, що ме во -- ди към От -- ца.
+  }
+
+  \addlyrics {
+    Na U --  chi -- te -- lya po -- ko -- ren az shte slu -- zha
+    do kon -- tsa. Toy za men e pat ot -- vo --
+    ren, shto me vo -- di kam Ot -- tsa. Toy za men
+    e pat ot -- vo -- ren, shto me vo -- di kam Ot -- tsa.
+  }
+
+  \header {
+    title = "На Учителя / Na Uchitelya"
+  }
+
+} % score
+
+\markup {
+    \hspace #1
+    \vspace #5
+    \fontsize #+1 {
+    \column {
+      \line { 2.  Господи, Ти мой Учител, }
+      \line {   "   " в стъпките си ме води, }  
+      \line {   "   " и кат мощен покровител }
+      \line {   "   " всякога към мен бъди. } 
+      \line { " " }
+      \line { 3. Дай ми Твойта Мъдрост свята }
+      \line {   "   " и Божествена Любов – }  
+      \line {   "   " за любов към всички братя }
+      \line {   "   " винаги да съм готов. } 
+      \line { " " }
+      \line { 4. И във дни на изпитание }
+      \line {   "   " Ти бъди ми канара; }  
+      \line {   "   " тъй за Тебе ще живея }
+      \line {   "   " и за Тебе ще умра. } 
+      \line { " " }
+      \line { 5. И когато стана жител }
+      \line {   "   " на невидимия свят, }  
+      \line {   "   " о, любезни мой Учител,  }
+      \line {   "   " дай ми Твойта благодат! } 
+    }
+    }
+}
+
+} % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+    \clef treble
+    \key g \minor
+    \time 3/4 \tempo "Andante" 4 = 66
+    \partial 4
+    \autoBeamOff
+      f'8 f'8 | d'4. es'8 f' ( g' ) |  f'2 g'8 a' |  bes'4. g'8 g'4 |  f'2 f'8 f' \break |
+      c''4. b'8 c'' ( d'' ) |c''2 a'8 a' | bes'4 e' g' | f'2 f'8 f' \break |
+      d'4. es'8 f' ( g' ) | f'2 g'8 a' | bes'4. a'8 bes' ( c'' ) | d''2 es''8 es'' \break 
+      \repeat volta 2 {d''4 c'' c'' bes'2 bes'8 bes' | a'4. a'8 g' ( a' ) |} \alternative { { bes'2 es''8 es'' } {  bes'2 \break } }
+ }
+  
+  % lyrics here
+  
+  \header {
+    title = "Заглавие / Title"
+  }
+
+} % score
+} % bookpart
