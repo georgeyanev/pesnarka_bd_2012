@@ -1,5 +1,6 @@
-\markup {  \vspace #1.9 }
+\version "2.18.2"
 
+\markup {  \hspace #25   \huge\bold "Der feierliche Tag bricht schon an,"  }
 
 \markup {
     \hspace #1
@@ -7,8 +8,11 @@
       
       \halign #-1.5 {
   
+  
+  
      
     \column {
+     \line { " " }
      
       
       \line { 1. Der feierliche Tag bricht schon an, }

@@ -1,5 +1,8 @@
-\markup {  \vspace #1.9 }
+\version "2.18.2"
 
+%\markup {  \vspace #1.9 }
+
+\markup {  \hspace #25   \huge\bold "Brüderlichkeit, Einheit"  }
 
 \markup {
     \hspace #1
@@ -7,10 +10,11 @@
       
       \halign #-1.5 {
   
+  
+  
      
     \column {
-     
-      
+     \line { " " }      
       \line {  1. Wir wollen Brüderlichkeit und Einheit, }
       \line {   "   "Wir senden den Ruf der Liebe aus, }  
       \line {   "   " Die Welt der Freude rufen wir: }
