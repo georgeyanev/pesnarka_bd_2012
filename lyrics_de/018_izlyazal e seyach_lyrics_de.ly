@@ -1,5 +1,8 @@
-\markup {  \vspace #1.9 }
+\version "2.18.2"
 
+%\markup {  \vspace #1.9 }
+
+\markup {  \hspace #25   \huge\bold "Der Sämann ist hinausgegangen"  }
 
 \markup {
     \hspace #1
@@ -7,10 +10,11 @@
       
       \halign #-1.5 {
   
+  
+  
      
     \column {
-     
-      
+     \line { " " }
       \line { "   " 1. Der Sämann ist hinausgegangen, }
       \line {   "   " um das wunderbare Gute zu säen: das neue Leben! }  
       \line {   "   " Und er sät und singt leise }
@@ -19,6 +23,7 @@
       
       \line { " " }
       \line { "   " \italic { Refrain :}  }
+        \line { " " }
       \line {  "  " Eine unschätzbare Gabe ist die Liebe (ljubovta), }
       \line {   "   "ein schönes Gefühl die Liebe (obitschta), }  
       \line {   "   " und ein gutes Werk die Barmherzigkeit, }

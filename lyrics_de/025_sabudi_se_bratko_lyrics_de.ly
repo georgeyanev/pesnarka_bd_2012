@@ -1,5 +1,8 @@
-\markup {  \vspace #1.9 }
+\version "2.18.2"
 
+%\markup {  \vspace #1.9 }
+
+\markup {  \hspace #25   \huge\bold "Wach auf, Bruder"  }
 
 \markup {
     \hspace #1
@@ -7,19 +10,20 @@
       
       \halign #-1.5 {
   
+  
      
     \column {
-     
-      
+    
+       \line { " " }
+
       \line { 1. Wache auf, lieber Bruder, }
-      \line {   "   " erhebe dich vom tiefen Schlaf }  
-      \line {   "   " und nimm die jahrhundertealten Ketten }
-      \line {   "   " von deinen Füßen ab. } 
-   
+      \line {   "   " erhebe dich vom tiefen Schlaf}  
+      \line {   "   " und nimm die jahrhundertealten Ketten}
+      \line {   "   " von deinen Füßen ab.} 
       
       \line { " " }
       \line { "   " \italic { Refrain :}  }
-      \line { "   "Die Liebe ist deine Mutter, }
+      \line { "   "Die Liebe ist deine Mutter,}
       \line {   "   "deine Kraft, dein Pilot -- }  
       \line {   "   " sie wird dich stark aufrichten, }
       \line {   "   " dir das Leben schenken. } 
@@ -30,9 +34,7 @@
       \line {   "   " Frieden und Freude erwarten dich, }
       \line {   "   " und selige Nachwirkungen. } 
         
-     
- 
-       
+            
       \line { " " }
        \line { "   " \italic { Refrain :}  }
       \line { "   "Die Liebe ist dein Meister, }

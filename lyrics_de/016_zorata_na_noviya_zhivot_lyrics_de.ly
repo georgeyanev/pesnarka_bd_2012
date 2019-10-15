@@ -14,18 +14,17 @@
   
      
     \column {
-     
-      
-      \line { 1. Die wunderbare Morgenröte bricht an. }
+     \line { " " }
+      \line { 1. Die wunderbare Morgenröte bricht an, }
       \line {   "   " die wundervolle Morgenröte des hellen, neuen Lebens, }  
       \line {   "   " mit Herrlichkeit bescheint sie unsere Bundeslade }
-      \line {   "   " Die wunderbare Morgenröte bricht an. } 
+      \line {   "   " Die wunderbare Morgenröte bricht an, } 
       \line {   "   " die Morgenröte des neuen Lebens. } 
       
       \line { " " }
       \line { 2. Und die Vögel erfüllen die Luft }
       \line {   "   "mit Begeisterung und süßen Liedern im Chor, }  
-      \line {   "   " auf dass sie die Harmonie ergänzen }
+      \line {   "   " damit sie die Harmonie ergänzen }
       \line {   "   " im großen himmlischen Hof. } 
       
        \line { " " }
