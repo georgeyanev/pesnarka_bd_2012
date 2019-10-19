@@ -44,11 +44,11 @@
       << % now temporary add a second voice
         { 
           \voiceTwo % this voice is in the same context as parent
-           f''4 e'' d'' cis'' | d''4 a'2
+           f''4 e'' d'' cis'' | d''4 \stemUp a'2 \stemNeutral
         }
         \new Voice = "tempVoice" { % this is a new voice context
           \voiceOne \autoBeamOff
-           f''4 e''8 e'' d''4 cis'' | d''4 a'2
+           f''4 e''8 e'' d''4 cis'' | \hideNotes d''4 a'2 \unHideNotes
         }
       >>
       \oneVoice
@@ -78,11 +78,11 @@
   
   \new Lyrics \lyricsto "mainVoice" {
     Shu -- mi,
-    az slu -- sham tsyal svyat da shu -- mi! SHu -- myat
+    az slu -- sham tsyal svyat da shu -- mi! Shu -- myat
     sar -- tsa -- ta che -- lo --  vesh -- ki vsred
     svoy -- te i -- do -- li i gresh -- ki, shu -- myat
     bez -- spir -- no u -- mo -- ve -- te, go -- lyam
-    e pri -- liv v~do -- mo -- ve -- te. SHu -- mi,
+    e pri -- liv v~do -- mo -- ve -- te. Shu -- mi,
     az slu -- sham tsyal svyat da shu -- mi!
   }
   
