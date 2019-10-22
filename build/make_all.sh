@@ -17,6 +17,10 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../037_na_Uchitelya.ly \
     ../038_milosardieto.ly \
     ../039_sardechen_zov.ly \
+    ../040_blagosloven_Gospod.ly \
+    ../041_za_nebesniya_tsar.ly \
+    ../042_vreme_e_da_varvim.ly \
+    ../044_pozdrav_na_Uchitelya.ly \
     > tmp.ly
 
 lilypond -o pesn_all tmp.ly

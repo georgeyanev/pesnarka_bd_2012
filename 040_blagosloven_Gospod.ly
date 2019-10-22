@@ -45,7 +45,18 @@
     -- хо -- ве, на Свет -- ли -- те ду -- хо -- ве,
     на Свет -- ли -- те ду -- хо -- ве.
   }
-  
+
+\addlyrics {
+    Bla -- go --
+    slo -- ven Gos -- pod Bog nash na vsich -- ki ve
+    -- ko -- ve; bla -- go -- slo -- ven Ba -- shta nash
+    na Svet -- li -- te du -- ho -- ve, na Svet --
+    li -- te du -- ho -- ve, na Svet -- li -- te du
+    -- ho -- ve, na Svet -- li -- te du -- ho -- ve,
+    na Svet -- li -- te du -- ho -- ve.
+  }
+
+
   \header {
     title = "Благословен Господ / Blagosloven Gospod"
   }

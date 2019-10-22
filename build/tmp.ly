@@ -1273,7 +1273,7 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
   \new Voice \absolute  {
     \clef treble
     \key g \minor
-    \time 3/4 \tempo "Moderato" 4 = 40
+    \time 3/4 \tempo "Moderato" 2. = 40
     \partial 4
  
       d'4 |  g'2 a'4 | bes'2 a'4 | g'2 fis'4 | a'2. | d'2. ~ | d'4 r d'' \break         
@@ -1367,11 +1367,11 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
       << % now temporary add a second voice
         { 
           \voiceTwo % this voice is in the same context as parent
-           f''4 e'' d'' cis'' | d''4 a'2
+           f''4 e'' d'' cis'' | d''4 \stemUp a'2 \stemNeutral
         }
         \new Voice = "tempVoice" { % this is a new voice context
           \voiceOne \autoBeamOff
-           f''4 e''8 e'' d''4 cis'' | d''4 a'2
+           f''4 e''8 e'' d''4 cis'' | \hideNotes d''4 a'2 \unHideNotes
         }
       >>
       \oneVoice
@@ -1401,11 +1401,11 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
   
   \new Lyrics \lyricsto "mainVoice" {
     Shu -- mi,
-    az slu -- sham tsyal svyat da shu -- mi! SHu -- myat
+    az slu -- sham tsyal svyat da shu -- mi! Shu -- myat
     sar -- tsa -- ta che -- lo --  vesh -- ki vsred
     svoy -- te i -- do -- li i gresh -- ki, shu -- myat
     bez -- spir -- no u -- mo -- ve -- te, go -- lyam
-    e pri -- liv v~do -- mo -- ve -- te. SHu -- mi,
+    e pri -- liv v~do -- mo -- ve -- te. Shu -- mi,
     az slu -- sham tsyal svyat da shu -- mi!
   }
   
@@ -1695,17 +1695,467 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
     \time 3/4 \tempo "Andante" 4 = 66
     \partial 4
     \autoBeamOff
-      f'8 f'8 | d'4. es'8 f' ( g' ) |  f'2 g'8 a' |  bes'4. g'8 g'4 |  f'2 f'8 f' \break |
-      c''4. b'8 c'' ( d'' ) |c''2 a'8 a' | bes'4 e' g' | f'2 f'8 f' \break |
-      d'4. es'8 f' ( g' ) | f'2 g'8 a' | bes'4. a'8 bes' ( c'' ) | d''2 es''8 es'' \break 
-      \repeat volta 2 {d''4 c'' c'' bes'2 bes'8 bes' | a'4. a'8 g' ( a' ) |} \alternative { { bes'2 es''8 es'' } {  bes'2 \break } }
+      f'8 f'8 | d'4. es'8 f' ([ g' ]) |  f'2 g'8 a' |  bes'4. g'8 g'4 |  f'2 f'8 f' \break |
+      c''4. b'8 c'' ([ d'' ]) |c''2 a'8 a' | bes'4 e' g' | f'2 f'8 f' \break |
+      d'4. es'8 f' ([ g' ]) | f'2 g'8 a' | bes'4. a'8 bes' ([ c'' ]) | d''2 es''8 es'' \break 
+      \repeat volta 2 {d''4 c'' c'' bes'2 bes'8 bes' | a'4. a'8 g' ( a' ) |} \alternative { { bes'2 es''8 es'' } {  bes'2 \bar "|." \break } }
  }
   
-  % lyrics here
-  
+  \addlyrics {
+    Ми -- ло -- сър -- ди -- е -- то е гра -- ди -- на рай --
+    ска, чуд -- но пре -- ме -- не -- на, пъл -- на
+    с~ху -- бост май -- ска; бил -- ки и дър -- ве --
+    та, в_кра -- со -- та раз -- ви -- ти, с~и -- зо
+    -- бил -- на рож -- ба вся -- ко -- га по -- кри
+    -- ти, с~и -- зо -- ти.    
+  }
+
+  \addlyrics {
+    Mi -- lo -- sar -- di -- e -- to e gra -- di -- na ray --
+    ska, chud -- no pre -- me -- ne -- na, pal -- na
+    s~hu -- bost may -- ska; bil -- ki i dar -- ve --
+    ta, v_kra -- so -- ta raz -- vi -- ti, s~i -- zo
+    -- bil -- na rozh -- ba vsya -- ko -- ga po -- kri
+    -- ti, s~i -- zo -- ti.    
+  }
+
+
   \header {
-    title = "Заглавие / Title"
+    title = "Милосърдието / Milosardieto"
   }
 
 } % score
+
+\markup { \hspace #20 \vspace #10
+   \fontsize #+5 {
+     Missing text here ...
+   }
+}
+
+
+} % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do not spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+  
+  \new Staff <<
+    
+  \new Voice = "voice1" \absolute  {
+    \clef treble
+    \key c \major
+    \time 3/4 \tempo "Andante" 4 = 66
+    \autoBeamOff
+    \partial 4
+    \voiceOne % stems p
+
+    \slurDown e'8 ([f'8])  g'2 g'4 |  a'4 a' a' | g'2 f'4 | e'2 e'8 ([ f' ]) | \break  
+    
+    g'2 g'4 | \hideNotes c''2 d''4 | \unHideNotes 
+    \once \override NoteColumn.force-hshift = #1.5 e''4 
+    e'' \hideNotes d''4 | c''2 c''8 d'' | \break
+    
+    \repeat volta 2 { 
+      e''2 \unHideNotes e''8 e'' | \hideNotes e''4 d'' c'' | \unHideNotes b'4. a'8 \slurDashed b' (a') | g'2 e'8. f'16 | \break  
+      \unHideNotes g'4 c' d' | e' e' d' | 
+    }  \alternative { 
+      { c'2 \hideNotes c''8 d'' | \unHideNotes } 
+      { c'2 \bar "|." }     
+    }
+  }
+
+  \new Voice = "voice2" \absolute  {
+    \clef treble
+    \key c \major
+    \time 3/4 \tempo "Andante" 4 = 66
+    \autoBeamOff
+    \partial 4
+    \voiceTwo % stems down
+    
+    \hideNotes e'8 [f'8]  g'2 g'4 | \unHideNotes a'2 a'4 | \hideNotes g'2 f'4 | \unHideNotes e'4 e'4 \hideNotes e'8 [ f' ] | \break  
+    
+    g'2 g'4 | \unHideNotes c''2 d''4 | e''2 d''4^\fermata | c''2 \slurDashed \slurUp c''8 ([d'']) | \break 
+    
+    \repeat volta 2 { 
+      e''2 e''4 | e''4 (d'') c'' | \hideNotes b'4. a'8 b' a' | g'2 e'8. f'16 \break | 
+      g'4 c' d' | \unHideNotes e'2 \hideNotes d'4 | 
+    }  \alternative { 
+      { c'2 \unHideNotes c''8 ([ d'' ]) | \hideNotes } 
+      { c'2 \bar "|." } 
+    }
+  }
+
+
+  \new Lyrics \lyricsto "voice1" {
+    "1.Пред" Теб при -- па -- да -- ме, Гос -- по -- ди, днес 
+    с~чис -- ти, тре -- пет -- ни _ ду -- ши. Във _
+    пе -- сен из -- ли -- _ ва -- ме \set ignoreMelismata = ##t сър -- ца -- та си и зо --
+    вем Те, Пре -- свя -- тий, про -- сти! Във _ сти! 
+  }  
+  \new Lyrics \lyricsto "voice1" {
+    "1.Pred" Teb pri -- pa -- da -- me, Gos -- po -- di, dnes 
+    s~chis -- ti, tre -- pet -- ni _ du -- shi. Vav _
+    pe -- sen iz -- li -- _ va -- me \set ignoreMelismata = ##t sar -- tsa -- ta si i zo --
+    vem Te, Pre -- svya -- tiy, pro -- sti! Vav _ sti! 
+  }  
+
+  \new Lyrics \lyricsto "voice2" {
+    "2.За" -- бра -- вяй гре -- хо -- ве -- те на -- ши, о --
+    бил -- но нас бла -- го -- сло -- ви. Ца --
+    рю \set ignoreMelismata = ##t пре -- бла -- гий на свет -- ли -- те ду -- ши, в~цар -- ство --
+    то Си ни при -- е -- ми! Ца -- _ ми!
+  }  
+  \new Lyrics \lyricsto "voice2" {
+    "2.Za" -- bra -- vyay gre -- ho -- ve -- te na -- shi, o --
+    bil -- no nas bla -- go -- slo -- vi. TSa --
+    ryu \set ignoreMelismata = ##t pre -- bla -- giy na svet -- li -- te du -- shi, v~tsar -- stvo --
+    to Si ni pri -- e -- mi! TSa -- _ mi!
+  }  
+
+  \new Lyrics \lyricsto "voice1" {
+    "3.Там" да те сла -- вим през веч -- ност -- та, е --
+    дин Ти за слу -- жа -- ваш хва -- ла. О -- гра --
+    ди ни _ с~ми -- _ ло -- сти -- те Тво -- и, о -- за --
+    ри ни с~Твой -- та Свет -- ли -- на! О -- гра -- на!
+  }  
+  \new Lyrics \lyricsto "voice1" {
+    "3.Tam" da te sla -- vim prez vech -- nost -- ta, e --
+    din Ti za slu -- zha -- vash hva -- la. O -- gra --
+    di ni _ s~mi -- _ lo -- sti -- te Tvo -- i, o -- za --
+    ri ni s~Tvoy -- ta Svet -- li -- na! O -- gra -- na!
+  } 
+
+  >> %Staff
+  
+  \header {
+    title = "Сърдечен зов / Sardechen zov"
+  }
+
+} % score
+} % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+      \omit TimeSignature
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+    \clef treble
+    \key f \major
+    \tempo "Andante" 4 = 56 - 58
+    \autoBeamOff
+    
+    \time 8/4 c'4 f'8. g'16 a'4 d'' c'' a' c''2 | \bar "!" c''4 c'' c'' c''4. d''8 c''2 r4 | \bar "!" \break 
+    g'4 g'8. g'16 g'4 a' bes'2 bes' | \bar "!" bes'4 d'' d'' d'' c''4. bes'8 a'2 | \bar "!" \break  
+    g'4 g' g' g' g'4. a'8 bes'2 | \bar "!" a'4 a' a' a' a'4. bes'8 c''2 | \bar "!" \break 
+    d''4 d'' d'' d''8 ([f'']) \fermata e''4. d''8 c''2 | \bar "!" g'4 g' g' g'8 ([ bes' ]) \fermata a'4. g'8 f'2 | \bar "|."
+  }
+  
+  \addlyrics {
+    Бла -- го --
+    сло -- вен Гос -- под Бог наш на всич -- ки ве
+    -- ко -- ве; бла -- го -- сло -- вен Ба -- ща наш
+    на Свет -- ли -- те ду -- хо -- ве, на Свет --
+    ли -- те ду -- хо -- ве, на Свет -- ли -- те ду
+    -- хо -- ве, на Свет -- ли -- те ду -- хо -- ве,
+    на Свет -- ли -- те ду -- хо -- ве.
+  }
+
+\addlyrics {
+    Bla -- go --
+    slo -- ven Gos -- pod Bog nash na vsich -- ki ve
+    -- ko -- ve; bla -- go -- slo -- ven Ba -- shta nash
+    na Svet -- li -- te du -- ho -- ve, na Svet --
+    li -- te du -- ho -- ve, na Svet -- li -- te du
+    -- ho -- ve, na Svet -- li -- te du -- ho -- ve,
+    na Svet -- li -- te du -- ho -- ve.
+  }
+
+
+  \header {
+    title = "Благословен Господ / Blagosloven Gospod"
+  }
+
+} % score
+
+  \markup \halign #-34 {
+    \raise #3 \bold  { "D. C." }
+  }
+
+} % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+  \clef treble
+  \key c \major
+  \time 3/4 \tempo "Tempo di marcia" 4 = 96
+  \partial 8
+  \autoBeamOff
+ 
+    e'8 | g'4. fis'8 g' a' | g'4 e'2 | e'4 e'8. e'16 e'8 e' \break | 
+
+    g'4 f'2 | \time 4/4  f'4 f'8 f' d''4 c'' | b'4 a'8 b' c''2 \break |
+  
+    g'4 f'8 e' a'2 | d'4 e'8 f' g'4. e'8 | g'4 f' e'2 \break |
+  
+    e'8 f' g'4 g'2 | a'4 a'8. a'16 a'4 a' | d'8 e' f'4 f'2 \break | 
+    
+    b'8 ([ d'' ]) a' b' c''2 | b'8 a' g' f' e'4 d'8 e' \break | 
+  
+    \time 2/4  f'2 |  \time 4/4  b'4 a'8 b' c''2 |  a'4 b'8 c'' d''2 \break |
+  
+    c''4 b'8 a' e'2 | d'4 e'8 f' g'4. e'8 |  g'4 f' e'2 | \bar "|."
+  }
+  
+  \addlyrics {
+    На -- пред,
+    на -- пред за сла -- ва в~бой за Ца -- ря не --
+    бес -- ни, Ца -- ря на Прав -- да, Мир и Лю --
+    бов, Мир и Лю -- бов, Мир и Лю -- бов, Лю --
+    бов, Лю -- бов. Сла -- ва, сла -- ва Теб по --
+    до -- ба -- ва, Ти си цар на Прав -- да и Мир,
+    Ти си цар на Прав -- да и Мир, Мир и Лю --
+    бов, Мир и Лю -- бов, Мир и Лю -- бов, Мир и
+    Лю -- бов, Лю -- бов, Лю -- бов.
+  }
+
+  \addlyrics {
+    Na -- pred,
+    na -- pred za sla -- va v~boy za TSa -- rya ne --
+    bes -- ni, TSa -- rya na Prav -- da, Mir i Lyu --
+    bov, Mir i Lyu -- bov, Mir i Lyu -- bov, Lyu --
+    bov, Lyu -- bov. Sla -- va, sla -- va Teb po --
+    do -- ba -- va, Ti si tsar na Prav -- da i Mir,
+    Ti si tsar na Prav -- da i Mir, Mir i Lyu --
+    bov, Mir i Lyu -- bov, Mir i Lyu -- bov, Mir i
+    Lyu -- bov, Lyu -- bov, Lyu -- bov.
+  }
+
+
+  \header {
+    title = "За Небесния цар / Za Nebesniya tsar"
+  }
+
+} % score
+} % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##f % do spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+    \clef treble
+    \key f \major
+    \time 2/4 \tempo "Tempo di marcia" 4 = 100
+    \autoBeamOff
+    \partial 4
+ 
+    f'8 a'8 | c''4 c''8. d''16 |  c''4 f'8 g'8 | a'4 a'8. a'16 | a'4 g'8 a'8  \break
+
+    bes'4 bes'8. bes'16 | bes'4 a'8 bes'8 | d''4 c''8. b'16 | c''2 (| c''4) a'8 bes'8 | \break 
+
+    c''4 c''8. d''16 | c''4 f'8 g'8 | a'4 a'8. a'16 | g'4 c''8 c''8 | b'4 c''8 d''8| \break
+
+
+    e''4 e''8 d''8 | c''8 b'8 c''4 (| c''4) a'8. bes'16 | \repeat volta 2 { c''2 (| c''8) c''8 d''8 bes'8  |\break
+
+    g'2 (| g'4 ) g'8. a'16| bes'2 ( |  bes'8 ) bes'8 c''8 g'8|   a'2 ( | \break 
+
+    a'4 ) a'8. bes'16| c''2 ( | c''8 ) c''8 f''8 e''8 | d''2 (|d''4 ) e''4 \break  
+
+    f''8 c''8 d''8 bes'8 | a'4 g'4 |} \alternative { { f'2 ( | f'8 ) r8 a'8. bes'16 | } { f'2 (| f' 8 ) r8 \bar "|." \break } }
+ 
+  } 
+  
+  \addlyrics {
+    Вре -- ме е да вър -- вим, зло -- то да по -- бе -- дим, Мир -- ра 
+    да въ -- дво -- рим, Хри -- ста да въз -- ца -- рим!  Прав -- да 
+    ще въ -- ве -- дем, Сво -- бо -- да ще да -- дем и през всич -- ки -- те 
+    дни вер -- ни ще сме ний. Да ца -- ру -- ва Лю -- бов -- та! 
+    Да ца -- ру -- ва Бла -- гост -- та!
+    Бог е ца -- рят на све -- та, Той в~пъ -- тя ни е Све -- ли -- на. Да ца -- на.   
+  }
+
+  \addlyrics {
+    Vre -- me e da var -- vim, zlo -- to da po -- be -- dim, Mir -- ra 
+    da va -- dvo -- rim, Hri -- sta da vaz -- tsa -- rim!  Prav -- da 
+    shte va -- ve -- dem, Svo -- bo -- da shte da -- dem i prez vsich -- ki -- te 
+    dni ver -- ni shte sme niy. Da tsa -- ru -- va Lyu -- bov -- ta! 
+    Da tsa -- ru -- va Bla -- gost -- ta!
+    Bog e tsa -- ryat na sve -- ta, Toy v~pa -- tya ni e Sve -- li -- na. Da tsa -- na.   
+  }
+
+
+  \header {
+    title = "Време е да вървим / Vreme e da varvim"
+  }
+
+} % score
+
+\markup { \hspace #20 \vspace #10
+   \fontsize #+5 {
+     Missing text here ...
+   }
+}
+
+} % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+    \clef treble
+    \key f \major
+    \time 2/4 \tempo "Moderato" 4 = 52
+    \autoBeamOff  
+ 
+    c'4 f'8. g'16 | \time 3/4 a'4. g'8 a' bes' | c''4. c''8 e'' d'' | c''4. d''8 c'' bes' \break | 
+ 
+    \time 4/4  a'2 c'4 f'8. g'16 | a'4 f''2 g''8. f''16 | \time 3/4  e''4. d''8 e'' d'' | c''4. d''8 c'' bes' \break |
+
+    a'2 c''4 | \time 4/4  bes'8. a'16 g'2 bes'4 | \time 3/4  d''8 d'' c''4. c''8 \break | 
+
+    \time 4/4  f''8 f'' e''4. d''8 c'' bes' | \time 3/4  a'2 c''4 | \time 4/4  bes'8. a'16 g'2 bes'4 \break |
+
+    \time 3/4  d''8 d'' c''4. c''8 \time 4/4  f''8 f'' e''4. d''8 c'' bes' | \time 2/4  a'2 \bar "|."
+ 
+  }
+  
+  \addlyrics {
+    Бла -- го -- сло -- вен от Бо -- га ти, У -- чи -- те --
+    лю на Лю -- бов -- та, за -- де -- то тък -- мо
+    в~те -- зи дни до -- не -- се Мир и Свет -- ли -- на. 
+    До -- бре до -- шъл, до -- бре до -- шъл,
+    У -- чи -- те -- лю на Лю -- бов -- та; до --
+    бре до -- шъл, до -- бре до -- шъл, У -- чи --
+    те -- лю на Мъ -- дрост -- та.
+  }
+
+  \addlyrics {
+    Bla -- go -- slo -- ven ot Bo -- ga ti, U -- chi -- te --
+    lyu na Lyu -- bov -- ta, za -- de -- to tak -- mo
+    v~te -- zi dni do -- ne -- se Mir i Svet -- li -- na. 
+    Do -- bre do -- shal, do -- bre do -- shal,
+    U -- chi -- te -- lyu na Lyu -- bov -- ta; do --
+    bre do -- shal, do -- bre do -- shal, U -- chi --
+    te -- lyu na Ma -- drost -- ta.
+  }
+
+
+  \header {
+    title = "Поздрав на Учителя / Pozdrav na Uchitelya"
+  }
+
+} % score
+
+\markup { \hspace #20 \vspace #10
+   \fontsize #+5 {
+     Missing text here ...
+   }
+}
+
 } % bookpart
