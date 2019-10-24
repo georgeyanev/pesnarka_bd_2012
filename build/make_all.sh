@@ -22,6 +22,7 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../042_vreme_e_da_varvim.ly \
     ../044_pozdrav_na_Uchitelya.ly \
     ../045_sine_moy_pazi_zhivota.ly \
+    ../046_rosna_kapka.ly \
     > tmp.ly
 
 lilypond -o pesn_all tmp.ly
