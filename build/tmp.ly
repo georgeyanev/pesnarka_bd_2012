@@ -2232,3 +2232,325 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
 }
 
 } % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+    \clef treble
+    \key a \minor
+    \time 3/4 \tempo "Larghetto" 4 = 58
+    \partial 4
+    \autoBeamOff
+ 
+     e'8 e' a'4 b' c''8 b' |  a'4 a' b'8 b' | c''4 c'' d''8 c'' \break | % 5
+
+     b'4 a' e''8 e'' | e''4 d'' c''8 d'' | e''2 c''8 c'' | c''4 b' c''8 b' \break |
+
+     a'2 e''8 d'' \repeat volta 2 {| c''4 c'' d''8 c'' |  b'4 b' c''8 b' \break | 
+                              
+     a'4 gis' a'8 b' | }  \alternative { { c''4 b' a'8 b' | c''4 d'' e''8 f'' | e''2 e''8 d''  \break |  }                            
+  
+    { c''4 b' c''8 b'8 | a'4 gis'4 a'8 b'8 | a'2.| \bar "|." } }
+  }
+  
+  \addlyrics {
+    Рос -- на кап -- ко, свят ла -- зу -- рен, чист, кра -- сив и тих, без -- 
+    бу -- рен, мир на рай -- ски -- я Жи -- вот, мир на рай -- ски -- я Жи -- 
+    вот! В~те -- бе, кап -- ко, ви -- кам всич -- ки бра -- тя 
+    ми -- ли и се -- стрич -- ки, да ти ста -- не -- ме на -- род. В~те -- бе,
+    стрич -- ки, да ти ста -- не -- ме на -- род.  
+  }
+
+\addlyrics {
+    Ros -- na kap -- ko, svyat la -- zu -- ren, chist, kra -- siv i tih, bez -- 
+    bu -- ren, mir na ray -- ski -- ya ZHi -- vot, mir na ray -- ski -- ya ZHi -- 
+    vot! V~te -- be, kap -- ko, vi -- kam vsich -- ki bra -- tya 
+    mi -- li i se -- strich -- ki, da ti sta -- ne -- me na -- rod. V~te -- be,
+    strich -- ki, da ti sta -- ne -- me na -- rod.  
+  }
+  
+  \header {
+    title = "Росна капка / Rosna kapka"
+  }
+
+} % score
+
+\markup { \hspace #20 \vspace #10
+   \fontsize #+5 {
+     Missing text here ...
+   }
+}
+
+} % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do not spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+    \clef treble
+    \key f \major
+    \time 3/8 \tempo "Allegretto" 8 = 112
+    \autoBeamOff
+
+    f''16. e''32 d''8 bes' | a'16. g'32 a'8 f' | d'16. e'32 f'8 g' | a'4 a'8 \break |
+    f''16. e''32 d''8 bes' | a'16. g'32 a'8 f' | e'16. bes'32 a'8 cis' | d'8 d' r | \bar ":|." \break
+    \repeat volta 2 { 
+      \bar ":|.|:"
+      a'4 d''8 | cis''4 e''8 | d''4 bes'8 | a'4 g'8 | a'4 d''8 | cis''4 e''8 | d''4. |  d''4. \break | % 17
+      a'4 bes'8 | a'4 d''8 | cis''4 bes'8 |  a'4 g'8 | f'4 a'8 | e'4 a'8 |  d'4. | d'4. } \break |
+  }
+  
+  \addlyrics {
+    Аз съм бя -- ло -- то ко -- ки -- че всред тре -- ви -- те гор -- ски, 
+    сра -- меж -- ли -- во кат мо -- ми -- че от по -- гле -- ди хор -- ски. 
+    Зла ме ма -- ще -- ха съ -- бу -- ди с~сне -- га, вет -- ро -- ве -- те. 
+    Всич -- ко жи -- во да се чу -- ди, че съм ран -- но цве -- те.
+  }
+
+  \addlyrics {
+    Az sam bya -- lo -- to ko -- ki -- che vsred tre -- vi -- te gor -- ski, 
+    sra -- mezh -- li -- vo kat mo -- mi -- che ot po -- gle -- di hor -- ski. 
+    Zla me ma -- shte -- ha sa -- bu -- di s~sne -- ga, vet -- ro -- ve -- te. 
+    Vsich -- ko zhi -- vo da se chu -- di, che sam ran -- no tsve -- te.
+  }
+
+  \header {
+    title = "Аз съм бялото кокиче / Az sam byaloto kokiche"
+  }
+
+} % score
+
+\markup { \hspace #20 \vspace #10
+   \fontsize #+5 {
+     Missing text here ...
+   }
+}
+
+} % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+    \clef treble
+    \key g \minor
+    \time 4/4 \tempo "Tempo di marcia" 4 = 100
+    \partial 4
+    \autoBeamOff
+    d'4 | g'4. a'8 bes'4. a'8 | g'2. d'4 | g'4. a'8 bes'8 bes'8 a'8. a'16| \break
+    g'2. d''4 | \repeat volta 2 {  g''4. es''8 d''4. cis''8 | d''2 ( d''8 ) d'8 es'8 d'8 | \break
+    bes'4. bes'8 a'4. a'8 |} \alternative  { { g'2. d''4 | }  { g'2. } } \bar "|." 
+  }
+  
+  \addlyrics {
+    На -- пред ча -- да на -- пред, но -- се -- те Сло -- во -- то на -- 
+    вред! Без страх в~Жи -- во -- та нов но -- се -- те 
+    Прав -- да, Мир, Лю -- бов. Без бов!
+  }
+
+  \addlyrics {
+    Na -- pred cha -- da na -- pred, no -- se -- te Slo -- vo -- to na -- 
+    vred! Bez strah v~ZHi -- vo -- ta nov no -- se -- te 
+    Prav -- da, Mir, Lyu -- bov. Bez bov!
+  }
+ 
+  \header {
+    title = "Напред, чада, напред / Napred, chada, napred"
+  }
+
+} % score
+
+\markup { \hspace #20 \vspace #10
+   \fontsize #+5 {
+     Missing text here ...
+   }
+}
+
+} % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+    \clef treble
+    \key g \minor
+    \time 2/4 \tempo "Tempo di marcia" 4 = 112
+    \autoBeamOff
+  
+    bes'4. a'8 | c''8 bes' a' g' |  g'2 |  f'2 | a'4. g'8 \break | 
+    a'8 g' es' g' |  f'2 |  d'2 \repeat volta 2 { es'4. es'8 | g'8 g' f' e' \break | 
+    f'2 | bes'2 d''4. bes'8 | f'8 f' d'' d'' | c''2  bes'2 |\break }
+  }
+  
+  \addlyrics {
+    Ний сме сла -- вей -- че -- та гор -- ски, с~пес -- ни 
+    сла -- вим Не -- бе -- са -- та, чув -- ства роб -- ски, гри -- жи 
+    хор -- ски с~пес -- ни го -- ним от Зе -- мя -- та.
+  }
+  
+  \addlyrics {
+    Niy sme sla -- vey -- che -- ta gor -- ski, s~pes -- ni 
+    sla -- vim Ne -- be -- sa -- ta, chuv -- stva rob -- ski, gri -- zhi 
+    hor -- ski s~pes -- ni go -- nim ot Ze -- mya -- ta.
+  }
+
+  \header {
+    title = "Славейчета горски / Slaveycheta gorski"
+  }
+
+} % score
+
+\markup { \hspace #20 \vspace #10
+   \fontsize #+5 {
+     Missing text here ...
+   }
+}
+
+} % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+    \clef treble
+    \key c \major
+    \time 3/4 \tempo "Moderato" 4 = 88
+    \partial 4 g'4 | e'2 f'4 | g'2 g'4 | a'2. | g'2 g'4 | c''2 d''4 | e''2 d''4 | \break
+    d''2. | c''2 g'4 | \repeat volta 2 { e''2 e''4 | d''2 cis''4 | d''2. | \break
+    a'2 c''4 | b'2 b'4 | b'4 ( a'4 ) b'4 | d''2. | } \alternative {
+      { c''2 g'4 | } 
+      { c''2  s4 } 
+    } \bar "|."
+  }
+  
+  \addlyrics {
+    Не -- бе -- то се от -- ва -- ря и Ан -- ге -- ли -- те
+    пе -- ят. И мол -- ни -- и бле -- стя -- 
+    щи тъ -- ми и здрач пи -- ле -- ят. И ят.
+  }
+
+  \addlyrics {
+    Ne -- be -- to se ot -- va -- rya i An -- ge -- li -- te
+    pe -- yat. I mol -- ni -- i ble -- stya -- 
+    shti ta -- mi i zdrach pi -- le -- yat. I yat.
+  }
+
+  \header {
+    title = "Небето се отваря / Nebeto se otvarya"
+  }
+
+} % score
+
+\markup { \hspace #20 \vspace #10
+   \fontsize #+5 {
+     Missing text here ...
+   }
+}
+
+} % bookpart

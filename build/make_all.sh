@@ -23,6 +23,10 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../044_pozdrav_na_Uchitelya.ly \
     ../045_sine_moy_pazi_zhivota.ly \
     ../046_rosna_kapka.ly \
+    ../047_аz_sam_byaloto_kokiche.ly \
+    ../048_napred_chada_napred.ly \
+    ../049_slaveycheta_gorski.ly \
+    ../050_nebeto_se_otvarya.ly \
     > tmp.ly
 
 lilypond -o pesn_all tmp.ly
