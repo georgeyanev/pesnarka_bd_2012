@@ -2554,3 +2554,176 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
 }
 
 } % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+    \clef treble
+    \key f \major
+    \time 3/4 \tempo "Larghetto" 4 = 58
+    \partial 4
+    \autoBeamOff
+    f'8 a' c''4 c'' f''8 a' | c''4 c'' f'8 a' | c''4 c'' f''8 e'' \break
+    d''2 d''8 c'' \repeat volta 2 { | bes'4 d'' c''8 bes' | a'4 c'' f'8 g' \break |
+    a'4 c'' g'8 c'8 |} \alternative { { f'2 d''8 c''  | } { f'2. | \break } } \bar "|."
+  }
+  
+  \addlyrics {
+    О, У -- чи -- те -- лю бла -- га -- ти, теб из -- пъл -- ва До -- бри -- 
+    на. Твой -- те ду -- ми са кри -- ла -- ти, пъл -- ни 
+    с~Мъ -- дрост, Свет -- ли -- на. Твой -- те на.
+  }
+
+  \addlyrics {
+    O, U -- chi -- te -- lyu bla -- ga -- ti, teb iz -- pal -- va Do -- bri -- 
+    na. Tvoy -- te du -- mi sa kri -- la -- ti, pal -- ni 
+    s~Ma -- drost, Svet -- li -- na. Tvoy -- te na.
+  }
+
+  
+  \header {
+    title = "О, Учителю благати / O, Uchitelyu blagati"
+  }
+
+} % score
+
+\markup { \hspace #20 \vspace #10
+   \fontsize #+5 {
+     Missing text here ...
+   }
+}
+
+
+} % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+    \clef treble
+    \key f \major
+    \time 2/4 \tempo "Tempo di marcia" 4 = 100
+    \autoBeamOff
+    c'4 f' | a'8 g' f' e' | g'8 d'4. | c'4 f' \break |
+    g'8 a' bes' c'' | a'4. r8 \repeat volta 2 {  | c''4 c'' | d''8 c'' bes' a' | c''8 g'4. \break |
+    c'4  f'4 | g'8 a' bes' c'' a'4 g'8 g' | f'4. r8 } \break
+  }
+  
+  \addlyrics {
+    Дър -- зост във Хри -- ста, дру -- га -- ри, с~Не -- го 
+    да вър -- вим на -- пред, Той е ца -- рят на Жи -- во -- та, 
+    цар -- ство -- то Му е на -- вред, е на -- вред.
+  }
+
+  \addlyrics {
+    Dar -- zost vav Hri -- sta, dru -- ga -- ri, s~Ne -- go 
+    da var -- vim na -- pred, Toy e tsa -- ryat na ZHi -- vo -- ta, 
+    tsar -- stvo -- to Mu e na -- vred, e na -- vred.
+  }
+
+  \header {
+    title = "Дързост в Христа / Darzost v Hrista"
+  }
+
+} % score
+
+\markup { \hspace #20 \vspace #10
+   \fontsize #+5 {
+     Missing text here ...
+   }
+}
+
+} % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+    \clef treble
+    \key d \major
+    \time 4/4 \tempo "Andantino" 4 = 72
+    \autoBeamOff
+    d'8. cis'16 cis'4 b2 | fis'8. g'16 g'4 fis'2 | fis'8. fis'16 \tupletUp \tuplet 3/2 {  d''8 cis'' b'8 } ais'2 | \break 
+    \times 2/3  { ais'8 b' cis''8 } cis''4 b'2 | cis''8 [( d'' e'' d'' cis'' b' )] ais'4 | b'8 [( cis'' )] b'2. \bar "|."
+  }
+  
+  \addlyrics {
+    Не на ме -- не, не на ме -- не, но на И -- ме -- то Си
+    дай, Бо -- же, сла -- ва, сла -- ва, сла -- ва!  
+  }
+
+  \addlyrics {
+    Ne na me -- ne, ne na me -- ne, no na I -- me -- to Si
+    day, Bo -- zhe, sla -- va, sla -- va, sla -- va!  
+  }
+
+  \header {
+    title = "Слава Божия / Slava Bozhiya"
+  }
+
+} % score
+} % bookpart
