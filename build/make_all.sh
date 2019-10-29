@@ -30,6 +30,7 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../051_o_Uchitelyu_blagati.ly \
     ../052_darzost_v_Hrista.ly \
     ../053_slava_Bozhiya.ly \
+    ../054_kam_sion.ly \
     > tmp.ly
 
 lilypond -o pesn_all tmp.ly
