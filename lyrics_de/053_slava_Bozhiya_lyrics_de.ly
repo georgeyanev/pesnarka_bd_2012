@@ -17,7 +17,7 @@
      
      \line { " " Gib nicht mir, nicht mir, }
 
- \line { " " sondern Deinem Namen Ruhm, Ruhm, Ruhm.}
+ \line { " " sondern Deinem Namen gib Ruhm, Ruhm, Ruhm.}
      
      
      
