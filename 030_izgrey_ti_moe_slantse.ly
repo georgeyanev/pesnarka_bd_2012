@@ -55,7 +55,7 @@
     to cha -- kam vse -- ki den; za teb kop -- ne --
     e moy -- to sar -- tse i v~pa -- tya si sam iz
     -- mo -- ren; ti no -- sish mi ZHi -- vot bla --
-    zhen. ZHi -- vot bla -- zhen, ZHi -- vot bla -- zhen,
+    zhen. ZHi -- vot bla -- zhen, Zhi -- vot bla -- zhen,
     bla -- zhen, bla -- zhen, ZHi -- vot bla -- zhen; ti
     no -- sish mi ZHi -- vot bla -- zhen.
   }
@@ -67,10 +67,112 @@
 
 } % score
 
-\markup { \hspace #20 \vspace #10
-   \fontsize #+5 {
-     Missing text here ...
+\markup {
+    \hspace #5
+    \vspace #4
+    \fontsize #+1 {
+    \column {
+\line {   "   "2. Огрей небето и Земята,}
+
+\line {   "   "лазурни поднебесен шир,}
+
+\line {   "   "развесели ми днес душата}
+
+\line {   "   "в трептенията си безспир.}
+
+\line {   "   "О, дай ми тоз живот и мир!}
+\line { " " }
+ \line { "   " \italic {Припев ...} }
+       
+
+\line {   "   "Живот и мир, живот и мир,}
+
+\line {   "   "и мир, и мир, живот и мир,}
+
+\line {   "   "о, дай ми тоз живот и мир!}
+
+\line { " " }
+\line {   "   "2. Единствено си ти, което}
+
+\line {   "   "изпълваш всичко със любов}
+
+\line {   "   "и подновяваш всичко вехто:}
+
+\line {   "   "светът чрез теб ще бъде нов –}
+
+\line {   "   "ти вечно си света, Любов.}
+
+
+\line { " " }
+ \line { "   " \italic {Припев ...} }
+\line {   "   "3. Света любов, света любов,}
+
+\line {   "   "любов, любов, света любов,}
+
+\line {   "   "ти вечно си света, любов.}
+
+   
+   
    }
+
+
+
+   \hspace #5 {
+    \column  {
+      
+      
+      \line { 2. Ogrey Nebeto i Zemyata,}
+
+\line {   "   "lazurni podnebesen shir,}
+
+\line {   "   "razveseli mi dnes dushata}
+
+\line {   "   "v trepteniyata si bezspir.}
+      
+\line {   "   "O, day mi toz zhivot i mir!}
+ \line { " " }
+\line { "   " \italic {Pripev ...} }
+      
+
+\line {   "   "Zhivot i mir, zhivot i mir,}
+
+\line {   "   "i mir, i mir, zhivot i mir,}
+
+\line {   "   "o, day mi toz zhivot i mir!}
+\line { " " }
+\line {   3. Edinstveno si ti, koeto}
+\line {   "   "izpalvash vsichko sas lyubov}
+
+\line {   "   "i podnovyavash vsichko vehto:}
+
+\line {   "   "svetat chrez teb shte bade nov –}
+
+\line {   "   "ti vechno si sveta, Lyubov.}
+
+\line { " " }
+\line { "   " \italic {Pripev ...} }
+
+\line {   "   "Sveta lyubov, sveta lyubov,}
+
+\line {   "   "lyubov, lyubov, sveta lyubov,}
+\line {   "   "ti vechno si sveta, lyubov.}
+      
+      
+      
+
+    
+    
+    
+    } 
+    
+    
+    
+   
+   
+    }
+    }
+
 }
+
 
 } % bookpart

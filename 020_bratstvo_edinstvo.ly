@@ -58,7 +58,7 @@
   \addlyrics {
     Brat -- stvo, e -- din -- stvo ni -- e is -- ka -- me, 
     zo -- va na Lyu -- bov -- ta ni -- e pus -- ka -- me, mi -- ra na Ra -- dost -- ta
-    ni -- e vi -- ka -- me: blag ZHi -- vot v~nas da vli -- va -- me,
+    ni -- e vi -- ka -- me: blag Zhi -- vot v~nas da vli -- va -- me,
     blag ZHi -- vot v~nas da vli -- va -- me, blag ZHi -- vot v~nas
     da vli -- va -- me, blag ZHi -- vot v~nas da vli -- va -- me,
     da vli -- va -- me, da vli -- va -- me, da vli -- va -- me,

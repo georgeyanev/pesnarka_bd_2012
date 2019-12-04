@@ -100,10 +100,215 @@
 
 } % score
 
-\markup { \hspace #20 \vspace #10
-   \fontsize #+5 {
-     Missing text here ...
+\markup {
+    \hspace #10
+    \vspace #1
+    \fontsize #+1 {
+     
+        \column {
+     \line {  2. И вятър вее,}
+
+\line {   "   "където си ще.}
+
+\line {   "   "Листата горски отговарят}
+
+\line {   "   "на неговия зов, повтарят}
+
+\line {   "   "любимата си песенчица,}
+
+\line {   "   "игрива като ладанчица.}
+
+\line {   "   "И вятър вее,}
+
+\line {   "   "където си ще.}
+\line { " " }
+\line {   3. Мой ветре, буйно}
+
+\line {   "   "задухай сега!}
+
+\line {   "   "Носи Божествената влага}
+
+\line {   "   "и освежаваща прохлада;}
+
+\line {   "   "пречиствай задушливи хижи,}
+
+\line {   "   "разсейвай тежки земни грижи!}
+
+\line {   "   "Мой ветре, буйно}
+
+\line {   "   "задухай сега!}
+\line { " " }
+\line {      4. Задухай, ветре,}
+
+\line {   "   "света разведри!}
+
+\line {   "   "При чисти мисли и нежни чувства}
+
+\line {   "   "цъфтят Божествени изкуства;}
+
+\line {   "   "навред да просияе радост,}
+
+\line {   "   "навред да диша свежа младост.}
+
+\line {   "   "Задухай, ветре,}
+
+\line {   "   "света избистри!}
+
+
+        }
+        
+         \hspace #2 {
+    \column  {
+      
+      
+
+
+\line {  2. I vyatar vee,}
+
+\line {   "   "kadeto si shte.}
+
+\line {   "   "Listata gorski otgovaryat}
+
+\line {   "   "na negoviya zov, povtaryat}
+
+\line {   "   "lyubimata si pesenchitsa,}
+
+\line {   "   "igriva kato ladanchitsa.}
+
+\line {   "   "I vyatar vee,}
+
+\line {   "   "kadeto si shte.}
+\line { " " }
+\line {  3. Moy vetre, buyno}
+
+\line {   "   "zaduhay sega!}
+
+\line {   "   "Nosi Bozhestvenata vlaga}
+
+\line {   "   "i osvezhavashta prohlada;}
+
+\line {   "   "prechistvay zadushlivi hizhi,}
+
+\line {   "   "razseyvay tezhki zemni grizhi!}
+
+\line {   "   "Moy vetre, buyno}
+
+\line {   "   "zaduhay sega!}
+\line { " " }
+\line {  4. Zaduhay, vetre,}
+
+\line {   "   "sveta razvedri!}
+
+\line {   "   "Pri chisti misli i nezhni chuvstva}
+
+\line {   "   "tsaftyat Bozhestveni izkustva;}
+
+\line {   "   "navred da prosiyae radost,}
+
+\line {   "   "navred da disha svezha mladost.}
+
+\line {   "   "Zaduhay, vetre,}
+
+\line {   "   "sveta izbistri!}
+      
+      
+    }
+
+        }
    }
 }
 
 } % bookpart
+
+
+\markup {  \hspace #25   \huge\bold "Es lärmt"  }
+
+\markup {
+    \hspace #1
+    \fontsize #+1 {
+      
+      \halign #-1.5 {
+  
+  
+     
+    \column {
+    
+       \line { " " }
+       
+       
+       
+       \line {   1. Es lärmt, es lärmt, ich höre,}
+
+\line {   "   "die ganze Welt lärmen! }
+
+\line {   "   "Die Herzen der Menschen lärmen }
+
+\line {   "   "zwischen ihren Idolen und Fehlern; }
+
+\line {   "   "die Gehirne lärmen unaufhörlich. }
+
+\line {   "   "Es ist eine große Flut in den Häusern. }
+
+\line {   "   "Es lärmt, ich höre,}
+ 
+\line {   "   "die ganze Welt lärmen!}
+
+ \line { " " }
+\line {   2. Und der Wind weht, }
+
+\line {   "   "wohin er will. }
+
+\line {   "   "Die Blätter des Waldes antworten }
+
+\line {   "   "auf seinem Ruf, sie wiederholen ihr Lieblingslied,}
+
+\line {   "   "spielerisch wie ein tanzendes Mädchen.}
+
+\line {   "   "Und der Wind weht, }
+ 
+\line {   "   "wohin er will.}
+
+ \line { " " }
+
+\line {   3. Oh, mein Wind, }
+
+\line {   "   "wehe nun stark! }
+
+\line {   "   "Bringe die göttliche Feuchtigkeit}
+
+\line {   "   "und die belebende Frische, }
+
+\line {   "   "reinige die stickigen Hütten}
+
+\line {   "   "und zerstreue die schweren menschlichen Sorgen!}
+
+\line {   "   "Oh, mein Wind,}
+
+\line {   "   "wehe nun stark!}
+
+ \line { " " }
+\line {   4. Wehe, Wind, }
+
+\line {   "   "muntere die Welt auf! }
+
+\line {   "   "Bei reinen Gedanken und zärtlichen Gefühlen }
+
+\line {   "   "erblühen die göttlichen Künste;}
+
+\line {   "   "möge überall Freude erstrahlen}
+
+\line {   "   "und die frische Jugend aufatmen! }
+
+\line {   "   "Wehe, Wind, }
+
+\line {   "   "kläre die Welt!}
+       
+       
+       
+                    
+    }
+       
+    }    
+    }
+}
+%}
