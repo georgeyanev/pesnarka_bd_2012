@@ -26,6 +26,7 @@
   } % layout
 
   \new Voice \absolute  {
+       \set midiInstrument = #"violin"
     \clef treble
     \key d \minor
     \time 7/4 \tempo "Adagio, ad libitum" 4 = 56
