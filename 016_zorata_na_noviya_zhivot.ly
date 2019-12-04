@@ -187,7 +187,7 @@ v~no -- vi -- ja sve -- tyl tos shi -- vot,  shi -- vot na Ra -- dost -- ta.
 \markup {  \hspace #25   \huge\bold "Die wunderbare Mögenröte bricht an"  }
 
 \markup {
-    \hspace #1
+    \hspace #-1
     \fontsize #+1 {
       
       \halign #-1.5 {
@@ -217,7 +217,8 @@ v~no -- vi -- ja sve -- tyl tos shi -- vot,  shi -- vot na Ra -- dost -- ta.
       \line {   "   " in das Leben der Güte, } 
        \line {   "   "in diesem neuen leuchtenden Leben, }  
        \line {   "   "ein Leben der Freude.} 
-      
+       
+    
      
  
        
@@ -247,6 +248,7 @@ v~no -- vi -- ja sve -- tyl tos shi -- vot,  shi -- vot na Ra -- dost -- ta.
       
       \line { " " }
     \line { "   " \italic { Refrain } ... }
+    
     }
        
     }    
