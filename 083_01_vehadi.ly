@@ -60,8 +60,8 @@ Ve -- ha -- di, Ve -- ha -- di, Ve -- ha -- di.
   \header {
     title = "Вехади / Vehadi"
   }
-
+\midi { }
 } % score
 
-
+  
 } % bookpart

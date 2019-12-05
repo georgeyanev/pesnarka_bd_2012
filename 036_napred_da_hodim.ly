@@ -1,12 +1,19 @@
 \version "2.18.2"
 
+#(set! paper-alist (cons '("mein Format" . (cons (* 176 mm) (*  250 mm))) paper-alist))
+
+
 \paper {
   print-all-headers = ##t
   print-page-number = ##f 
-  left-margin = 2\cm
-  right-margin = 2\cm
+  left-margin = 1.5\cm
+  right-margin = 1.5\cm
+  top-margin = 2.5\cm
   ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+  #(set-paper-size "mein Format")
 }
+
+
 
 \header {
   tagline = ##f
@@ -73,10 +80,115 @@
   }
 } % score
 
-\markup { \hspace #20 \vspace #10
-   \fontsize #+5 {
-     Missing text here ...
-   }
+\markup { \hspace #2 \vspace #2
+   \fontsize #+1 {
+    
+    \column {
+
+\line {   "   "2. Земята с чисти мисли}
+
+\line {   "   "да оградиме здраво,}
+
+\line {   "   "и злото всепорочно}
+
+\line {   "   "да победиме с право.}
+\line { " " }
+\line { "   " \italic {Припев}}
+\line { " " }
+
+
+\line {   "   "На слабите да носим}
+
+\line {   "   "подкрепа и обнова,}
+
+\line {   "   "на страдущите – милост} 
+
+\line {   "   "и свободата нова.}
+\line { " " }
+\line { "   " \italic {Припев}}
+\line { " " }
+\line {   "   "Във бездната да слезем,}
+
+\line {   "   "хоругва да поставим}
+
+\line {   "   "и падналите братя}
+
+\line {   "   "от мъка да избавим.}
+\line { " " }
+\line { "   " \italic {Припев}}
+\line { " " }
+\line {   "   "Тогава да отворим}
+
+\line {   "   "на новий град вратите,}
+
+\line {   "   "в Иерусалим да влезем –}
+
+\line {   "   "света на Светлините.}
+\line { " " }
+\line { "   " \italic {Припев}}
+ \line { " " }   
+ 
+       }
+    
+   
+    
+ %}
+  %
+   \hspace #10 {
+    
+    \column  {
+       
+   
+
+\line { 2. Zemyata s chisti misli}
+
+\line { "   "da ogradime zdravo,}
+
+\line { "   "i zloto vseporochno}
+
+\line { "   "da pobedime s pravo.}
+\line { " " }
+    \line { "   " \italic { Refrain :} }
+\line { " " }
+\line { 3. Na slabite da nosim}
+
+\line { "   "podkrepa i obnova,}
+
+\line { "   "na stradushtite – milost}
+
+\line { "   "i svobodata nova.}
+\line { " " }
+    \line { "   " \italic { Refrain :} }
+\line { " " }
+\line { 4. Vav bezdnata da slezem,}
+
+\line { "   "horugva da postavim}
+
+\line { "   "i padnalite bratya}
+
+\line { "   "ot maka da izbavim.}
+\line { " " }
+    \line { "   " \italic { Refrain :} }
+\line { " " }
+\line { 5. Togava da otvorim}
+
+\line { "   "na noviy grad vratite,}
+
+\line { "   "v Ierusalim da vlezem –}
+
+\line { "   "sveta na Svetlinite.}
+
+\line { "   "Kat vihri nad gorite...}
+
+\line { "   " \italic { Refrain :} }
+       
+      
+      
+ }    
+    }
+    }
+ 
 }
 
-} % bookpart
+
+}

@@ -1,11 +1,12 @@
 \version "2.18.2"
-
+%#(set! paper-alist (cons '("mein Format" . (cons (* 176 mm) (*  250 mm))) paper-alist))
 \paper {
   print-all-headers = ##t
   print-page-number = ##f 
-  left-margin = 2\cm
-  right-margin = 2\cm
+  left-margin = 1.5\cm
+  right-margin = 1.5\cm
   ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+  %#(set-paper-size "mein Format") 
 }
 
 \header {
@@ -73,7 +74,7 @@ v~no -- vi -- ja sve -- tyl tos shi -- vot,  shi -- vot na Ra -- dost -- ta.
 } % score
 
 \markup {
-    \hspace #1
+    \hspace #10
     \fontsize #+1 {
   
      
@@ -127,7 +128,7 @@ v~no -- vi -- ja sve -- tyl tos shi -- vot,  shi -- vot na Ra -- dost -- ta.
     
  %}
   %
-   \hspace #10 {
+   \hspace #1 {
     
     \column  {
        
@@ -184,7 +185,7 @@ v~no -- vi -- ja sve -- tyl tos shi -- vot,  shi -- vot na Ra -- dost -- ta.
 
 } % bookpart
 
-\markup {  \hspace #25   \huge\bold "Die wunderbare Mögenröte bricht an"  }
+\markup {  \hspace #15   \huge\bold "Die wunderbare Mögenröte bricht an"  }
 
 \markup {
     \hspace #-1
