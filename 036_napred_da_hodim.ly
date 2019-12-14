@@ -97,7 +97,7 @@
 \line { " " }
 
 
-\line {   "   "На слабите да носим}
+\line {   3. На слабите да носим}
 
 \line {   "   "подкрепа и обнова,}
 
@@ -107,7 +107,7 @@
 \line { " " }
 \line { "   " \italic {Припев}}
 \line { " " }
-\line {   "   "Във бездната да слезем,}
+\line {  4. Във бездната да слезем,}
 
 \line {   "   "хоругва да поставим}
 
@@ -117,7 +117,7 @@
 \line { " " }
 \line { "   " \italic {Припев}}
 \line { " " }
-\line {   "   "Тогава да отворим}
+\line {   5. Тогава да отворим}
 
 \line {   "   "на новий град вратите,}
 
@@ -177,9 +177,7 @@
 \line { "   "v Ierusalim da vlezem –}
 
 \line { "   "sveta na Svetlinite.}
-
-\line { "   "Kat vihri nad gorite...}
-
+\line { " " }
 \line { "   " \italic { Refrain :} }
        
       
