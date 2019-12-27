@@ -51,6 +51,20 @@
      -- за -- ри.
   }
   
+  
+   \addlyrics {
+     
+     Sta -- ni, sta -- ni i Gos -- pod shte te o -- zhi -- vi;
+     sta -- ni, sta -- ni i Gos -- pod shte te vaz --
+     kre -- si; sta -- ni, sta -- ni i s~Lyu -- bov --
+     ta za -- poch -- ni; sta -- ni, sta -- ni i v~Is
+     -- ti -- na se ob -- le -- chi. V~Is -- ti -- na
+     se ob -- le -- chi i sas ne -- ya vse gra -- di:
+     tya shte te i ob -- no -- vi, i s~Duh shte te o
+     -- za -- ri.
+     
+     }
+  
   \header {
     title = "Стани, стани / Stani, stani"
   }

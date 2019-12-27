@@ -58,10 +58,120 @@
 
 } % score
 
-\markup { \hspace #20 \vspace #10
-   \fontsize #+5 {
-     Missing text here ...
-   }
+\markup {
+    \hspace #5
+    \vspace #4
+    \fontsize #+1 {
+    \column {
+
+\line {   "   " 2. И гладувам, и жадувам,}
+
+\line {   "   " тях очаквам денонощно.}
+
+\line {   "   " Ти ме, Боже, благославяй,}
+
+\line {   "   " при Теб близо аз да бъда}
+
+\line {   "   " и утеха в Теб да найда.}
+ \line { " " }
+
+\line {   "   " 3.Твоя светъл лик да гледам}
+
+\line {   "   " и величието Твое,}
+
+\line {   "   " да науча Теб да любя.}
+
+\line {   "   " таз Любов към Тебе, Боже,}
+
+\line {   "   " да намеря мощна сила.}
+
+ \line { " " }
+
+\line {   "   " 4. Във подвизи, съвършенство}
+
+\line {   "   " да познавам милостта Ти,}
+
+\line {   "   " превеликата Ти тайна,}
+
+\line {   "   " що разкрива на човека}
+
+\line {   "   " суетата на живота.}
+ \line { " " }
+\line {   "   " 5. Всичко грешно на Земята}
+
+\line {   "   " е преходно, мимолетно.}
+
+\line {   "   " Само Ти си вечен, Боже:}
+
+\line {   "   " Тебе хвалим, Тебе славим,}
+
+\line {   "   " Теб ще славят вековете.}
+
+    }
+
+
+   \hspace #5 {
+    \column  {
+
+\line {   2. I gladuvam, i zhaduvam }
+
+\line {   "   "tyah ochakvam denonoshtno.}
+
+\line {   "   "Ti me, Bozhe, blagoslavyay,}
+
+\line {   "   "pri Teb blizo az da bada}
+
+\line {   "   "i uteha v Teb da nayda.}
+
+ \line { " " }
+
+\line {  3. Tvoya svetal lik da gledam}
+
+\line {   "   "i velichieto Tvoe,}
+
+\line {   "   "da naucha Teb da lyubya.}
+
+\line {   "   "taz Lyubov kam Tebe, Bozhe,}
+
+\line {   "   "da namerya moshtna sila.}
+
+ \line { " " }
+
+\line {  4. Vav podvizi, savarshenstvo}
+
+\line {   "   "da poznavam milostta Ti,}
+
+\line {   "   "prevelikata Ti tayna,}
+
+\line {   "   "shto razkriva na choveka}
+
+\line {   "   "suetata na zhivota.}
+
+ \line { " " }
+
+\line {  5. Vsichko greshno na Zemyata}
+
+\line {   "   "e prehodno, mimoletno.}
+
+\line {   "   "Samo Ti si vechen, Bozhe:}
+
+\line {   "   "Tebe hvalim, Tebe slavim,}
+
+\line {   "   "Teb shte slavyat vekovete.}
+
+
+
+    } 
+    
+    
+    
+   
+   
+    }
+    }
+
 }
 
+
 } % bookpart
+

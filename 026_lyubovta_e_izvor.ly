@@ -118,7 +118,7 @@
     \line { " " }
        \line { "   " \italic {Припев ...} }
        \line { " " }
-      \line { 4. Таз велика тайна }
+      \line { 3. Таз велика тайна }
       \line {   "   " кой добре разбира, }  
       \line {   "   " свойта душа мила }
       \line {   "   " сутрина разкрива. } 
@@ -129,7 +129,7 @@
        \line { " " }
        \line { "   " \italic {Припев ...} }
       \line { " " }
-      \line { 5. Слънцето, което }
+      \line { 4. Слънцето, което }
       \line {   "   " оживотворява, }  
       \line {   "   " овреме човека}
       \line {   "   " топло озарява, } 
@@ -162,7 +162,7 @@
     \line { " " }
        \line { "   " \italic {Pripev ...} }
        \line { " " }
-      \line { 4. Taz velika taina }
+      \line { 3. Taz velika taina }
       \line {   "   " koi dobre razbira, }  
       \line {   "   " svoita duscha mila }
       \line {   "   " sutrina razkriva. } 
@@ -173,7 +173,7 @@
        \line { " " }
        \line { "   " \italic {Pripev ...} }
       \line { " " }
-      \line { 5. Slyntseto, koeto }
+      \line { 4. Slyntseto, koeto }
       \line {   "   " oshivotvorjava, }  
       \line {   "   " ovreme tschoveka}
       \line {   "   " toplo ozarjava, } 
