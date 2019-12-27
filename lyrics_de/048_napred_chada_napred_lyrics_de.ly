@@ -2,7 +2,7 @@
 
 %\markup {  \vspace #1.9 }
 
-\markup {  \hspace #25   \huge\bold "Ich bin das weiße Schneeglöckchen"  }
+\markup {  \hspace #25   \huge\bold "Vorwärts, Kinder, vorwärts"  }
 
 \markup {
     \hspace #1
@@ -17,42 +17,41 @@
      \line { " " }
 
 
-1. Vorwärts, Kinder, vorwärts,
+ \line { " "1. Vorwärts, Kinder, vorwärts,}
+ \line { " "bringt das Wort überall hin! }
 
-bringt das Wort überall hin! 
+ \line { " "Bringt ohne Angst vor dem neuen Leben }
 
-Bringt ohne Angst vor dem neuen Leben 
-
-Gerechtigkeit, Frieden und Liebe!
-
+ \line { " "Gerechtigkeit, Frieden und Liebe!}
 
 
-2. Vom neuen Himmel aus
+  \line { " " }
+ \line { " "2. Vom neuen Himmel aus}
 
-ruft uns heute der Erlöser.
+ \line { " "ruft uns heute der Erlöser.}
 
-Hört diesen Ruf, 
+ \line { " "Hört diesen Ruf, }
 
-bringt Gerechtigkeit, Frieden und Liebe!
-
-
-
-3. Hier unten gibt es keinen Frieden, 
-
-Ungerechtigkeit ist weit und breit.
-
-Verbreitet heute schnell 
-
-die gute Nachricht von Frieden und Gerechtigkeit!
+ \line { " "bringt Gerechtigkeit, Frieden und Liebe!}
 
 
-4. Vorwärts, Kinder, vorwärts,
+  \line { " " }
+ \line { " "3. Hier unten gibt es keinen Frieden, }
 
-bringt das Wort überall hin! 
+ \line { " "Ungerechtigkeit ist weit und breit.}
 
-Bringt ohne Angst vor dem neuen Leben 
+ \line { " "Verbreitet heute schnell }
 
-Gerechtigkeit, Frieden und Liebe!
+ \line { " "die gute Nachricht von Frieden und Gerechtigkeit!}
+
+  \line { " " }
+ \line { " "4. Vorwärts, Kinder, vorwärts,}
+
+ \line { " "bringt das Wort überall hin! }
+
+ \line { " "Bringt ohne Angst vor dem neuen Leben }
+
+ \line { " "Gerechtigkeit, Frieden und Liebe!}
 
      
      
