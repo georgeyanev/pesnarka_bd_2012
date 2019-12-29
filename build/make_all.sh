@@ -34,6 +34,8 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../055_1_slantseto_na_lyubovta.ly \
     ../055_2_ti_si_proyavenata_lyubov.ly \
     ../056_1_idvat_dni_na_radost.ly \
+    ../056_2_kam_rila.ly \
+    ../057_psalom_91.ly \
     > tmp.ly
 
 lilypond -o pesn_all tmp.ly

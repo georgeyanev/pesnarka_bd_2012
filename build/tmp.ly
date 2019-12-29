@@ -1,11 +1,12 @@
 \version "2.18.2"
-
+%#(set! paper-alist (cons '("mein Format" . (cons (* 176 mm) (*  250 mm))) paper-alist))
 \paper {
   print-all-headers = ##t
   print-page-number = ##f 
-  left-margin = 2\cm
-  right-margin = 2\cm
+  left-margin = 1.5\cm
+  right-margin = 1.5\cm
   ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+  %#(set-paper-size "mein Format") 
 }
 
 \header {
@@ -73,7 +74,7 @@ v~no -- vi -- ja sve -- tyl tos shi -- vot,  shi -- vot na Ra -- dost -- ta.
 } % score
 
 \markup {
-    \hspace #1
+    \hspace #10
     \fontsize #+1 {
   
      
@@ -127,13 +128,13 @@ v~no -- vi -- ja sve -- tyl tos shi -- vot,  shi -- vot na Ra -- dost -- ta.
     
  %}
   %
-   \hspace #10 {
+   \hspace #1 {
     
     \column  {
        
      \line { 2. I ptitschki vasduha izpulvat }
       \line {   "   " s vaztorg i sladki pesni v hor, }  
-      \line {   "   " Harmonijada da dopulnjat }
+      \line {   "   " Harmonijata da dopulnjat }
       \line {   "   " V golemija nebesen hor }
  
  
@@ -183,6 +184,20 @@ v~no -- vi -- ja sve -- tyl tos shi -- vot,  shi -- vot na Ra -- dost -- ta.
 
 
 } % bookpart
+
+
+%}
+   
+ 
+ 
+
+
+ 
+    
+   
+    
+ 
+%---------------------------------------------------------------------  
 \version "2.18.2"
 
 \paper {
@@ -414,7 +429,7 @@ v~no -- vi -- ja sve -- tyl tos shi -- vot,  shi -- vot na Ra -- dost -- ta.
   \addlyrics {
     Brat -- stvo, e -- din -- stvo ni -- e is -- ka -- me, 
     zo -- va na Lyu -- bov -- ta ni -- e pus -- ka -- me, mi -- ra na Ra -- dost -- ta
-    ni -- e vi -- ka -- me: blag ZHi -- vot v~nas da vli -- va -- me,
+    ni -- e vi -- ka -- me: blag Zhi -- vot v~nas da vli -- va -- me,
     blag ZHi -- vot v~nas da vli -- va -- me, blag ZHi -- vot v~nas
     da vli -- va -- me, blag ZHi -- vot v~nas da vli -- va -- me,
     da vli -- va -- me, da vli -- va -- me, da vli -- va -- me,
@@ -603,7 +618,7 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
     \hspace #1
     \fontsize #+1 {
     \column {
-      \line { "   "1. Изгрява вече ден тържествен, }
+      \line { 1. Изгрява вече ден тържествен, }
 \line {   "   " предреченият ден Божествен, }
 \line {   "   " на дните диадема}
 \line {   "   " със светлина голяма. }
@@ -618,7 +633,7 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
 \line {   "   " и вечно тя го подмладява! }
  
  \line { " " }
-\line { " "2. И носи радост за душата, }
+\line { 2. И носи радост за душата, }
 \line {   "   " и прогласява свободата}
 \line {   "   " и мир с Любов пресвята}
 \line {   "   " за всички на Земята. }
@@ -628,7 +643,7 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
        \line { "   " \italic {Припев: } }
        
  \line { " " }
-\line {   "   "3.  О, ден прекрасен, вечно благо, }
+\line {  3.  О, ден прекрасен, вечно благо, }
 \line {   "   " кому за тебе не е драго? }
 \line {   "   " За всичките години}
 \line {   "   " по-скоро обнови ни! }
@@ -644,7 +659,7 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
     
     \column  {
        
-     \line { "   "1. Izgrjava vetsche den tyrshestven, }
+     \line { 1. Izgrjava vetsche den tyrshestven, }
 \line {   "   " predretschenijat den Boshestven, }
 \line {   "   " na dnite diadema}
 \line {   "   " sys svetlina goljama. }
@@ -659,7 +674,7 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
 \line {   "   " i vetschno tja go podmladjava! }
  
  \line { " " }
-\line { " "2. I nosi radost za duschata, }
+\line { 2. I nosi radost za duschata, }
 \line {   "   " i proglasjava svobodata}
 \line {   "   " i mir s Ljubov presvjata}
 \line {   "   " za vsitschki na Zemjata. }
@@ -669,7 +684,7 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
        \line { "   " \italic {Refrain: } }
        
  \line { " " }
-\line {   "   "3.  O, den prekrasen, vetschno blago, }
+\line {   3.  O, den prekrasen, vetschno blago, }
 \line {   "   " komu za tebe ne e drago? }
 \line {   "   " Za vsitschkite godini}
 \line {   "   " po-skoro obnovi ni! }
@@ -1025,7 +1040,7 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
     \line { " " }
        \line { "   " \italic {Припев ...} }
        \line { " " }
-      \line { 4. Таз велика тайна }
+      \line { 3. Таз велика тайна }
       \line {   "   " кой добре разбира, }  
       \line {   "   " свойта душа мила }
       \line {   "   " сутрина разкрива. } 
@@ -1036,7 +1051,7 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
        \line { " " }
        \line { "   " \italic {Припев ...} }
       \line { " " }
-      \line { 5. Слънцето, което }
+      \line { 4. Слънцето, което }
       \line {   "   " оживотворява, }  
       \line {   "   " овреме човека}
       \line {   "   " топло озарява, } 
@@ -1069,7 +1084,7 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
     \line { " " }
        \line { "   " \italic {Pripev ...} }
        \line { " " }
-      \line { 4. Taz velika taina }
+      \line { 3. Taz velika taina }
       \line {   "   " koi dobre razbira, }  
       \line {   "   " svoita duscha mila }
       \line {   "   " sutrina razkriva. } 
@@ -1080,7 +1095,7 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
        \line { " " }
        \line { "   " \italic {Pripev ...} }
       \line { " " }
-      \line { 5. Slyntseto, koeto }
+      \line { 4. Slyntseto, koeto }
       \line {   "   " oshivotvorjava, }  
       \line {   "   " ovreme tschoveka}
       \line {   "   " toplo ozarjava, } 
@@ -1160,6 +1175,20 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
      -- за -- ри.
   }
   
+  
+   \addlyrics {
+     
+     Sta -- ni, sta -- ni i Gos -- pod shte te o -- zhi -- vi;
+     sta -- ni, sta -- ni i Gos -- pod shte te vaz --
+     kre -- si; sta -- ni, sta -- ni i s~Lyu -- bov --
+     ta za -- poch -- ni; sta -- ni, sta -- ni i v~Is
+     -- ti -- na se ob -- le -- chi. V~Is -- ti -- na
+     se ob -- le -- chi i sas ne -- ya vse gra -- di:
+     tya shte te i ob -- no -- vi, i s~Duh shte te o
+     -- za -- ri.
+     
+     }
+  
   \header {
     title = "Стани, стани / Stani, stani"
   }
@@ -1238,13 +1267,123 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
 
 } % score
 
-\markup { \hspace #20 \vspace #10
-   \fontsize #+5 {
-     Missing text here ...
-   }
+\markup {
+    \hspace #5
+    \vspace #4
+    \fontsize #+1 {
+    \column {
+
+\line {   "   " 2. И гладувам, и жадувам,}
+
+\line {   "   " тях очаквам денонощно.}
+
+\line {   "   " Ти ме, Боже, благославяй,}
+
+\line {   "   " при Теб близо аз да бъда}
+
+\line {   "   " и утеха в Теб да найда.}
+ \line { " " }
+
+\line {   "   " 3.Твоя светъл лик да гледам}
+
+\line {   "   " и величието Твое,}
+
+\line {   "   " да науча Теб да любя.}
+
+\line {   "   " таз Любов към Тебе, Боже,}
+
+\line {   "   " да намеря мощна сила.}
+
+ \line { " " }
+
+\line {   "   " 4. Във подвизи, съвършенство}
+
+\line {   "   " да познавам милостта Ти,}
+
+\line {   "   " превеликата Ти тайна,}
+
+\line {   "   " що разкрива на човека}
+
+\line {   "   " суетата на живота.}
+ \line { " " }
+\line {   "   " 5. Всичко грешно на Земята}
+
+\line {   "   " е преходно, мимолетно.}
+
+\line {   "   " Само Ти си вечен, Боже:}
+
+\line {   "   " Тебе хвалим, Тебе славим,}
+
+\line {   "   " Теб ще славят вековете.}
+
+    }
+
+
+   \hspace #5 {
+    \column  {
+
+\line {   2. I gladuvam, i zhaduvam }
+
+\line {   "   "tyah ochakvam denonoshtno.}
+
+\line {   "   "Ti me, Bozhe, blagoslavyay,}
+
+\line {   "   "pri Teb blizo az da bada}
+
+\line {   "   "i uteha v Teb da nayda.}
+
+ \line { " " }
+
+\line {  3. Tvoya svetal lik da gledam}
+
+\line {   "   "i velichieto Tvoe,}
+
+\line {   "   "da naucha Teb da lyubya.}
+
+\line {   "   "taz Lyubov kam Tebe, Bozhe,}
+
+\line {   "   "da namerya moshtna sila.}
+
+ \line { " " }
+
+\line {  4. Vav podvizi, savarshenstvo}
+
+\line {   "   "da poznavam milostta Ti,}
+
+\line {   "   "prevelikata Ti tayna,}
+
+\line {   "   "shto razkriva na choveka}
+
+\line {   "   "suetata na zhivota.}
+
+ \line { " " }
+
+\line {  5. Vsichko greshno na Zemyata}
+
+\line {   "   "e prehodno, mimoletno.}
+
+\line {   "   "Samo Ti si vechen, Bozhe:}
+
+\line {   "   "Tebe hvalim, Tebe slavim,}
+
+\line {   "   "Teb shte slavyat vekovete.}
+
+
+
+    } 
+    
+    
+    
+   
+   
+    }
+    }
+
 }
 
+
 } % bookpart
+
 \version "2.18.2"
 
 \paper {
@@ -1302,7 +1441,7 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
     to cha -- kam vse -- ki den; za teb kop -- ne --
     e moy -- to sar -- tse i v~pa -- tya si sam iz
     -- mo -- ren; ti no -- sish mi ZHi -- vot bla --
-    zhen. ZHi -- vot bla -- zhen, ZHi -- vot bla -- zhen,
+    zhen. ZHi -- vot bla -- zhen, Zhi -- vot bla -- zhen,
     bla -- zhen, bla -- zhen, ZHi -- vot bla -- zhen; ti
     no -- sish mi ZHi -- vot bla -- zhen.
   }
@@ -1314,11 +1453,113 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
 
 } % score
 
-\markup { \hspace #20 \vspace #10
-   \fontsize #+5 {
-     Missing text here ...
+\markup {
+    \hspace #5
+    \vspace #4
+    \fontsize #+1 {
+    \column {
+\line {   "   "2. Огрей небето и Земята,}
+
+\line {   "   "лазурни поднебесен шир,}
+
+\line {   "   "развесели ми днес душата}
+
+\line {   "   "в трептенията си безспир.}
+
+\line {   "   "О, дай ми тоз живот и мир!}
+\line { " " }
+ \line { "   " \italic {Припев ...} }
+       
+
+\line {   "   "Живот и мир, живот и мир,}
+
+\line {   "   "и мир, и мир, живот и мир,}
+
+\line {   "   "о, дай ми тоз живот и мир!}
+
+\line { " " }
+\line {   "   "2. Единствено си ти, което}
+
+\line {   "   "изпълваш всичко със любов}
+
+\line {   "   "и подновяваш всичко вехто:}
+
+\line {   "   "светът чрез теб ще бъде нов –}
+
+\line {   "   "ти вечно си света, Любов.}
+
+
+\line { " " }
+ \line { "   " \italic {Припев ...} }
+\line {   "   "3. Света любов, света любов,}
+
+\line {   "   "любов, любов, света любов,}
+
+\line {   "   "ти вечно си света, любов.}
+
+   
+   
    }
+
+
+
+   \hspace #5 {
+    \column  {
+      
+      
+      \line { 2. Ogrey Nebeto i Zemyata,}
+
+\line {   "   "lazurni podnebesen shir,}
+
+\line {   "   "razveseli mi dnes dushata}
+
+\line {   "   "v trepteniyata si bezspir.}
+      
+\line {   "   "O, day mi toz zhivot i mir!}
+ \line { " " }
+\line { "   " \italic {Pripev ...} }
+      
+
+\line {   "   "Zhivot i mir, zhivot i mir,}
+
+\line {   "   "i mir, i mir, zhivot i mir,}
+
+\line {   "   "o, day mi toz zhivot i mir!}
+\line { " " }
+\line {   3. Edinstveno si ti, koeto}
+\line {   "   "izpalvash vsichko sas lyubov}
+
+\line {   "   "i podnovyavash vsichko vehto:}
+
+\line {   "   "svetat chrez teb shte bade nov –}
+
+\line {   "   "ti vechno si sveta, Lyubov.}
+
+\line { " " }
+\line { "   " \italic {Pripev ...} }
+
+\line {   "   "Sveta lyubov, sveta lyubov,}
+
+\line {   "   "lyubov, lyubov, sveta lyubov,}
+\line {   "   "ti vechno si sveta, lyubov.}
+      
+      
+      
+
+    
+    
+    
+    } 
+    
+    
+    
+   
+   
+    }
+    }
+
 }
+
 
 } % bookpart
 \version "2.18.2"
@@ -1423,14 +1664,218 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
 
 } % score
 
-\markup { \hspace #20 \vspace #10
-   \fontsize #+5 {
-     Missing text here ...
+\markup {
+    \hspace #10
+    \vspace #1
+    \fontsize #+1 {
+     
+        \column {
+     \line {  2. И вятър вее,}
+
+\line {   "   "където си ще.}
+
+\line {   "   "Листата горски отговарят}
+
+\line {   "   "на неговия зов, повтарят}
+
+\line {   "   "любимата си песенчица,}
+
+\line {   "   "игрива като ладанчица.}
+
+\line {   "   "И вятър вее,}
+
+\line {   "   "където си ще.}
+\line { " " }
+\line {   3. Мой ветре, буйно}
+
+\line {   "   "задухай сега!}
+
+\line {   "   "Носи Божествената влага}
+
+\line {   "   "и освежаваща прохлада;}
+
+\line {   "   "пречиствай задушливи хижи,}
+
+\line {   "   "разсейвай тежки земни грижи!}
+
+\line {   "   "Мой ветре, буйно}
+
+\line {   "   "задухай сега!}
+\line { " " }
+\line {      4. Задухай, ветре,}
+
+\line {   "   "света разведри!}
+
+\line {   "   "При чисти мисли и нежни чувства}
+
+\line {   "   "цъфтят Божествени изкуства;}
+
+\line {   "   "навред да просияе радост,}
+
+\line {   "   "навред да диша свежа младост.}
+
+\line {   "   "Задухай, ветре,}
+
+\line {   "   "света избистри!}
+
+
+        }
+        
+         \hspace #2 {
+    \column  {
+      
+      
+
+
+\line {  2. I vyatar vee,}
+
+\line {   "   "kadeto si shte.}
+
+\line {   "   "Listata gorski otgovaryat}
+
+\line {   "   "na negoviya zov, povtaryat}
+
+\line {   "   "lyubimata si pesenchitsa,}
+
+\line {   "   "igriva kato ladanchitsa.}
+
+\line {   "   "I vyatar vee,}
+
+\line {   "   "kadeto si shte.}
+\line { " " }
+\line {  3. Moy vetre, buyno}
+
+\line {   "   "zaduhay sega!}
+
+\line {   "   "Nosi Bozhestvenata vlaga}
+
+\line {   "   "i osvezhavashta prohlada;}
+
+\line {   "   "prechistvay zadushlivi hizhi,}
+
+\line {   "   "razseyvay tezhki zemni grizhi!}
+
+\line {   "   "Moy vetre, buyno}
+
+\line {   "   "zaduhay sega!}
+\line { " " }
+\line {  4. Zaduhay, vetre,}
+
+\line {   "   "sveta razvedri!}
+
+\line {   "   "Pri chisti misli i nezhni chuvstva}
+
+\line {   "   "tsaftyat Bozhestveni izkustva;}
+
+\line {   "   "navred da prosiyae radost,}
+
+\line {   "   "navred da disha svezha mladost.}
+
+\line {   "   "Zaduhay, vetre,}
+
+\line {   "   "sveta izbistri!}
+      
+      
+    }
+
+        }
    }
 }
 
 } % bookpart
-\version "2.18.2"
+
+
+\markup {  \hspace #25   \huge\bold "Es lärmt"  }
+
+\markup {
+    \hspace #1
+    \fontsize #+1 {
+      
+      \halign #-1.5 {
+  
+  
+     
+    \column {
+    
+       \line { " " }
+       
+       
+       
+       \line {   1. Es lärmt, es lärmt, ich höre,}
+
+\line {   "   "die ganze Welt lärmen! }
+
+\line {   "   "Die Herzen der Menschen lärmen }
+
+\line {   "   "zwischen ihren Idolen und Fehlern; }
+
+\line {   "   "die Gehirne lärmen unaufhörlich. }
+
+\line {   "   "Es ist eine große Flut in den Häusern. }
+
+\line {   "   "Es lärmt, ich höre,}
+ 
+\line {   "   "die ganze Welt lärmen!}
+
+ \line { " " }
+\line {   2. Und der Wind weht, }
+
+\line {   "   "wohin er will. }
+
+\line {   "   "Die Blätter des Waldes antworten }
+
+\line {   "   "auf seinem Ruf, sie wiederholen ihr Lieblingslied,}
+
+\line {   "   "spielerisch wie ein tanzendes Mädchen.}
+
+\line {   "   "Und der Wind weht, }
+ 
+\line {   "   "wohin er will.}
+
+ \line { " " }
+
+\line {   3. Oh, mein Wind, }
+
+\line {   "   "wehe nun stark! }
+
+\line {   "   "Bringe die göttliche Feuchtigkeit}
+
+\line {   "   "und die belebende Frische, }
+
+\line {   "   "reinige die stickigen Hütten}
+
+\line {   "   "und zerstreue die schweren menschlichen Sorgen!}
+
+\line {   "   "Oh, mein Wind,}
+
+\line {   "   "wehe nun stark!}
+
+ \line { " " }
+\line {   4. Wehe, Wind, }
+
+\line {   "   "muntere die Welt auf! }
+
+\line {   "   "Bei reinen Gedanken und zärtlichen Gefühlen }
+
+\line {   "   "erblühen die göttlichen Künste;}
+
+\line {   "   "möge überall Freude erstrahlen}
+
+\line {   "   "und die frische Jugend aufatmen! }
+
+\line {   "   "Wehe, Wind, }
+
+\line {   "   "kläre die Welt!}
+       
+       
+       
+                    
+    }
+       
+    }    
+    }
+}
+%}\version "2.18.2"
 
 \paper {
   print-all-headers = ##t
@@ -1490,22 +1935,191 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
 
 } % score
 
-\markup { \hspace #20 \vspace #10
-   \fontsize #+5 {
-     Missing text here ...
-   }
+\markup {
+    \hspace #5
+    \vspace #5
+    \fontsize #+1 {
+    \column {
+     
+
+
+
+\line { 2. Към него пътник уморен}
+
+\line { " "усилно се стреми с надежда.}
+
+\line { " "С дълбока скръб обременен,}
+
+\line { " "той нов живот си там отрежда,}
+
+\line { " "отрежда, отрежда,}
+
+\line { " "той нов живот си там отрежда.}
+\line { " " }
+\line { 3. И пита той: Да пийна ли}
+
+\line { " "от твоята водица чиста –}
+
+\line { " "да освежа очите си,}
+
+\line { " "душа си страдна да очистя,}
+
+\line { " "очистя, очистя,}
+
+\line { " "душа си страдна да очистя?}
+\line { " " }
+\line { 4. Да отпочина ли; ръце,}
+
+\line { " "лице, нозе си да измия}
+
+\line { " "от тоз световен прах; сърце,}
+
+\line { " "покрито с рани, да разкрия,}
+
+\line { " "разкрия, разкрия,}
+
+\line { " "покрито с рани, да разкрия?}
+ 
+\line { " " } 
+\line { 5. Склони, о, пътниче злочест,}
+
+\line { " "глава си морна; утолявай}
+
+\line { " "безмерната си жажда днес}
+
+\line { " "от мен – и в мен се ти надявай,}
+
+\line { " "надявай, надявай,}
+
+\line { " "от мен и в мен се ти надявай!}
+\line { " " }
+\line { 6. Гласа ти мъченишки чух,}
+
+\line { " "приех и твойта жалба мила.}
+
+\line { " "Аз съм велик Божествен дух}
+
+\line { " "и ще ти дам живот и сила,}
+
+\line { " "и сила, и сила,}
+
+\line { " "и ще ти дам живот и сила.}
+\line { " " }
+\line { 7. Ела, ела и пий от мен,}
+
+\line { " "о, мило Божие създание!}
+
+\line { " "Настъпи веч последен ден}
+
+\line { " "на всяка мъка и страданье,}
+
+\line { " "страданье, страданье,}
+
+\line { " "на всяка мъка и страданье.}
+
+    }
+    
+    \hspace #5 {
+    \column  {
+      
+      
+    
+
+\line { " "2. Kam nego patnik umoren}
+
+\line { " "usilno se stremi s nadezhda.}
+\line { " "S dalboka skrab obremenen,}
+
+\line { " "toy nov zhivot si tam otrezhda,}
+
+\line { " "otrezhda, otrezhda,}
+
+\line { " "toy nov zhivot si tam otrezhda.}
+\line { " " }
+\line { " "3. I pita toy: “Da piyna li}
+
+\line { " "ot tvoyata voditsa chista –}
+
+\line { " "da osvezha ochite si,}
+
+\line { " "dusha si stradna da ochistya,}
+
+\line { " "ochistya, ochistya,}
+
+\line { " "dusha si stradna da ochistya?}
+\line { " " }
+\line { " "4. Da otpochina li; ratse,}
+
+\line { " "litse, noze si da izmiya}
+
+\line { " "ot toz svetoven prah; sartse,}
+
+\line { " "pokrito s rani, da razkriya,}
+
+\line { " "razkriya, razkriya,}
+
+\line { " "pokrito s rani, da razkriya?}
+\line { " " }
+\line { " "5. Skloni, o, patniche zlochest,}
+
+\line { " "glava si morna; utolyavay}
+
+\line { " "bezmernata si zhazhda dnes}
+
+\line { " "ot men – i v men se ti nadyavay,}
+
+\line { " "nadyavay, nadyavay,}
+
+\line { " "ot men i v men se ti nadyavay!}
+\line { " " }
+\line { " "6. Glasa ti machenishki chuh,}
+
+\line { " "prieh i tvoyta zhalba mila.}
+
+\line { " "Az sam velik Bozhestven duh}
+
+\line { " "i shte ti dam zhivot i sila,}
+
+\line { " "i sila, i sila,}
+
+\line { " "i shte ti dam zhivot i sila.}
+\line { " " }
+\line { " "7. Ela, ela i piy ot men,}
+
+\line { " "o, milo Bozhie sazdanie!}
+
+\line { " "Nastapi vech posleden den}
+
+\line { " "na vsyaka maka i stradanye,}
+
+\line { " "stradanye, stradanye,}
+
+\line { " "na vsyaka maka i stradanye.}
+      
+    }
+   
+    }
+    }
+
 }
 
-} % bookpart
-\version "2.18.2"
+
+} % bookpart\version "2.18.2"
+
+#(set! paper-alist (cons '("mein Format" . (cons (* 176 mm) (*  250 mm))) paper-alist))
+
 
 \paper {
   print-all-headers = ##t
   print-page-number = ##f 
-  left-margin = 2\cm
-  right-margin = 2\cm
+  left-margin = 1.5\cm
+  right-margin = 1.5\cm
+  top-margin = 2.5\cm
   ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+  #(set-paper-size "mein Format")
 }
+
+
 
 \header {
   tagline = ##f
@@ -1572,13 +2186,116 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
   }
 } % score
 
-\markup { \hspace #20 \vspace #10
-   \fontsize #+5 {
-     Missing text here ...
-   }
+\markup { \hspace #2 \vspace #2
+   \fontsize #+1 {
+    
+    \column {
+
+\line {   "   "2. Земята с чисти мисли}
+
+\line {   "   "да оградиме здраво,}
+
+\line {   "   "и злото всепорочно}
+
+\line {   "   "да победиме с право.}
+\line { " " }
+\line { "   " \italic {Припев}}
+\line { " " }
+
+
+\line {   3. На слабите да носим}
+
+\line {   "   "подкрепа и обнова,}
+
+\line {   "   "на страдущите – милост} 
+
+\line {   "   "и свободата нова.}
+\line { " " }
+\line { "   " \italic {Припев}}
+\line { " " }
+\line {  4. Във бездната да слезем,}
+
+\line {   "   "хоругва да поставим}
+
+\line {   "   "и падналите братя}
+
+\line {   "   "от мъка да избавим.}
+\line { " " }
+\line { "   " \italic {Припев}}
+\line { " " }
+\line {   5. Тогава да отворим}
+
+\line {   "   "на новий град вратите,}
+
+\line {   "   "в Иерусалим да влезем –}
+
+\line {   "   "света на Светлините.}
+\line { " " }
+\line { "   " \italic {Припев}}
+ \line { " " }   
+ 
+       }
+    
+   
+    
+ %}
+  %
+   \hspace #10 {
+    
+    \column  {
+       
+   
+
+\line { 2. Zemyata s chisti misli}
+
+\line { "   "da ogradime zdravo,}
+
+\line { "   "i zloto vseporochno}
+
+\line { "   "da pobedime s pravo.}
+\line { " " }
+    \line { "   " \italic { Refrain :} }
+\line { " " }
+\line { 3. Na slabite da nosim}
+
+\line { "   "podkrepa i obnova,}
+
+\line { "   "na stradushtite – milost}
+
+\line { "   "i svobodata nova.}
+\line { " " }
+    \line { "   " \italic { Refrain :} }
+\line { " " }
+\line { 4. Vav bezdnata da slezem,}
+
+\line { "   "horugva da postavim}
+
+\line { "   "i padnalite bratya}
+
+\line { "   "ot maka da izbavim.}
+\line { " " }
+    \line { "   " \italic { Refrain :} }
+\line { " " }
+\line { 5. Togava da otvorim}
+
+\line { "   "na noviy grad vratite,}
+
+\line { "   "v Ierusalim da vlezem –}
+
+\line { "   "sveta na Svetlinite.}
+\line { " " }
+\line { "   " \italic { Refrain :} }
+       
+      
+      
+ }    
+    }
+    }
+ 
 }
 
-} % bookpart
+
+}
 \version "2.18.2"
 
 \paper {
@@ -2862,4 +3579,126 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
   \raise #0 \bold  { "D. C." }
 }
 
+} % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+    \clef treble
+    \key g \major
+    \time 4/4 \tempo "Adagio" 4 = 56
+    \autoBeamOff
+    b4 e' g' b' | \time 3/4  a'4 g' fis'8. e'16 |fis'2 fis'4 | a'4 g' fis' | \break 
+    e'2 c''4 | \time 4/4  b'8. a'16 g'8. a'16 b'4. g'8 | \time 3/4  fis'8. a'16 g'4 fis' | \break 
+    e'2 c''4 | \time 4/4  b'8. a'16 g'8. a'16 b'4. g'8 | \time 3/4  fis'8. a'16 g'4 fis' | e'2 r4 \bar "|."
+  }
+  
+  \addlyrics {
+    Ти си про -- я -- ве -- на -- та Лю -- бов към мен, Гос -- по -- 
+    ди. Ду -- ша -- та ми коп -- неe за Твой -- та чис -- то -- 
+    та. Ду -- ша -- та ми коп -- неe за Твой -- та свет -- ли -- на.
+  }
+
+  \addlyrics {
+    Ti si pro -- ya -- ve -- na -- ta Lyu -- bov kam men, Gos -- po -- 
+    di. Du -- sha -- ta mi kop -- nee za Tvoy -- ta chis -- to -- 
+    ta. Du -- sha -- ta mi kop -- nee za Tvoy -- ta svet -- li -- na.
+  }
+
+
+  \header {
+    title = "Ти си проявената Любов / Ti si proyavenata Lyubov"
+  }
+
+} % score
+
+\markup \halign #-34 {
+  \raise #0 \bold  { "D. C." }
+}
+
+} % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+        \omit BarNumber %remove bar numbers
+    } % context
+    \context {
+      \Staff
+        \override VerticalAxisGroup.default-staff-staff-spacing = #'((basic-distance . 88)
+           (minimum-distance . 77)
+           (padding . 11)
+           (stretchability . 100))      
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+    \clef treble
+    \key d \minor
+    \autoBeamOff
+    \time 3/4 \tempo "Andante" 4 = 66
+    \repeat volta 2 {
+      a'8. a'16 a'4. bes'8 | a'4 g'2 | g'8. g'16 g'4. a'8 | \break
+      g'4 f'2 | e'8. e'16 e'4. f'8 | e'4 d'2 | \break
+      e'8 f'8 g'8 bes'4 bes'8 | a'4 g'4 f'8. f'16 | e'4 d'2 |
+    } 
+  }
+  
+  \addlyrics {
+    И -- дват дни на Ра -- дост, и -- дват дни на 
+    Ра -- дост, и -- дват дни на Ра -- дост 
+    за о -- ни -- я, ко -- и -- то слу -- жат Бо -- гу.
+  }
+
+  \addlyrics {
+    I -- dvat dni na Ra -- dost, i -- dvat dni na 
+    Ra -- dost, i -- dvat dni na Ra -- dost 
+    za o -- ni -- ya, ko -- i -- to slu -- zhat Bo -- gu.
+  }
+
+  \header {
+    title = "Идват дни на Радост / Idvat dni na Radost"
+  }
+
+} % score
 } % bookpart
