@@ -6,7 +6,3 @@
 *~
 .idea
 *.iml
-*.aux
-*.fls
-*.fdb_latexmk
-
