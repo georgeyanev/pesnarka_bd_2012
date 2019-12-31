@@ -36,6 +36,9 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../056_1_idvat_dni_na_radost.ly \
     ../056_2_kam_rila.ly \
     ../057_psalom_91.ly \
+    ../058_na_beliya_tsvyat.ly \
+    ../060_na_Hrista_zapeyte.ly \
+    ../062_novi_drehi.ly \
     > tmp.ly
 
 lilypond -o pesn_all tmp.ly
