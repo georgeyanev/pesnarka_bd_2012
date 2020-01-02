@@ -48,7 +48,7 @@
         }
         \new Voice = "tempVoice" { % this is a new voice context
           \voiceOne \autoBeamOff
-           f''4 e''8 e'' d''4 cis'' | \hideNotes d''4 a'2 \unHideNotes
+           f''4 e''8 e'' d''4 cis'' | \hideNotes d''4 \stemDown a'2 \stemNeutral \unHideNotes
         }
       >>
       \oneVoice
