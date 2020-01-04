@@ -1,13 +1,35 @@
 \version "2.18.2"
 
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
 
+\header {
+  tagline = ##f
+}
 
-melody = \absolute  {
-  \clef treble
-  \key g \major
-  \time 2/4 \tempo "Allegro" 4 = 126
- 
- d''4. cis''16 d''16 | % 2
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+    \clef treble
+    \key g \major
+    \time 2/4 \tempo "Allegro" 4 = 126
+    
+    
+  d''4. cis''16 d''16 | % 2
   e''8 d''8 d''8 c''8 | % 3
   c''8 b'8 b'8 a'8 | % 4
   a'8 g'8 g'8 fis'8 \break | % 5
@@ -50,42 +72,30 @@ melody = \absolute  {
     a8 b8 c'8 d'8 | % 39
     e'8 d'8 e'16 d'16 c'16 b16 |
     a8 b16 a16 b8 a8 | % 41
-    g8 g8 g4 -\markup{ \bold {D. C.} }
+    g8 g8 g4 
+  }
+    
+  }
+  
+
+
+  \header {
+    title = " Играта на поточето / Igrata na potocheto"
   }
 
+  \midi {
+  }
+} % score
 
-
-
-}
-
-text = \lyricmode {
-
- 
- 
-}
-
-textL = \lyricmode {
- 
- 
-}
-
-\score{
- \header {
-  title = \markup { \fontsize #0 "Песен на зората / Pesen na sorata" }
-  %subtitle = \markup \center-column { " " \vspace #1 } 
-  
-  tagline = " " %supress footer Music engraving by LilyPond 2.18.0—www.lilypond.org
- % arranger = \markup { \fontsize #+1 "Контекстуализация: Йордан Камджалов / Contextualization: Yordan Kamdzhalov" }
-  %composer = \markup \center-column { "Бейнса Дуно / Beinsa Duno" \vspace #1 } 
-
-}
-  <<
-    \new Voice = "one" {
-      
-      \melody
+  \markup \halign #-10 { 
+    \column  { 
+      \line  \halign #-5 { 
+        \bold  { "D. C." }
+      }
+      \line { 
+        \bold { con ripetizione }
+      }
     }
-    \new Lyrics \lyricsto "one" \text
-    \new Lyrics \lyricsto "one" \textL
-  >>
- 
-}
+  }
+
+} % bookpart
