@@ -148,7 +148,9 @@
   \header {
     title = "Ангел вопияше / Аngel vopiyashe"
   }
-
+  
+  \midi {
+  }
 } % score
 
 \markup { \hspace #37  \huge\bold   "Ein Angel sang"  }
