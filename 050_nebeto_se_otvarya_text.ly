@@ -1,7 +1,7 @@
 \markup {  \vspace #0.9 }
 
 brace_size = \markup {
-   \translate #'(0 . -1.5 )
+   \translate #'(3 . -1.5 )
   \right-brace #20 
 }
 
@@ -14,7 +14,7 @@ numberB = \markup {
 }
 
 brace_sizeB = \markup {
-   \translate #'(0 . -0.5 )
+   \translate #'(3 . -0.5 )
   \right-brace #20 
 }
 
