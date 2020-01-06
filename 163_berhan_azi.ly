@@ -50,7 +50,7 @@
     \tempo "poco a poco accelerando" c16([dis c b]) c([dis c b]) c([dis c b]) \tempo "rit." b8.(a16) a4 | \time 4/4 \break
     
     \repeat volta 1 {
-      e''16[f g a] b8 d,4. \acciaccatura { c16[d] } c4 | \noBreak
+      e''16[f gis a] b8 d,4. \acciaccatura { c16[d] } c4 | \noBreak
       \time 2/4 b2 | \noBreak
       \time 5/4 a,4 gis f'8.([e16]) e2 | \noBreak
       \time 4/4 d16([e) f a] gis4 f e8.([d16]) | \time 2/4 \break
@@ -86,5 +86,6 @@
   \header {
     title = "Берхан Ази / Berhan Azi"
   }
+  \midi { }
 } % score
 } % bookpart

@@ -237,6 +237,8 @@
   \header {
     title = "Българска идилия / Balgarska idiliya"
   }
+  
+  \midi { }
 
 } % score
 } % bookpart

@@ -222,6 +222,8 @@
   \header {
     title = "Мирът иде II/ Mirat ide II"
   }
+  
+  \midi{}
 
 } % score
 

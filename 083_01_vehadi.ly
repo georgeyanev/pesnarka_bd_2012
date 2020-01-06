@@ -30,11 +30,11 @@
     \clef treble
     \key d \minor
     \time 7/4 \tempo "Adagio, ad libitum" 4 = 56
-    \autoBeamOff
+    
     
   \omit Staff.TimeSignature
  
-\repeat volta 2 {  a'4^\p bes'8 ( a' gis' a' bes'2 ) a' \bar "!"  \breathe  d''4^\mp  e''8 ( d'' cis'' d'' b' a' c''16 b' a' gis' ) a'2 \bar "!" \breathe \break |
+\repeat volta 2 {  a'4^\p bes'8 ( a' gis' a' bes'2 ) a' \bar "!"  \breathe  d''4^\mp  e''8 ( d'' cis'' d'' bes' a' c''16 bes' a' gis' ) a'2 \bar "!" \breathe \break |
 
 \time 10/4 g'8 ( f' e' f' g'4 a' ) f'4. ( e'8 g'16 f' e' f' ) d'2 
 \once \override BreathingSign #'text = #(make-musicglyph-markup "scripts.caesura.straight")

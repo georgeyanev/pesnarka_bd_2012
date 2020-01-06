@@ -38,8 +38,7 @@
   d'2 | % 8
   a8. b16 c'8 d'8 | % 9
   e'8 e'8 e'8 fis'8 \break 
-  a8. b16 c'8 d'8 | % 9
-  e'8 e'8 e'8 fis'8 \break |
+
   \time 3/4  a'16 g'16 fis'16 e'16 e'8 d'8 d'4 | % 11
   \time 2/4  b8 d'8 d'8 c'8 | % 12
   c'8 e'8 e'8 d'8 | % 13

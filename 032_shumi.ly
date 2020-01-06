@@ -97,6 +97,8 @@
   \header {
     title = "Шуми / Shumi"
   }
+  
+  \midi {}
 
 } % score
 
