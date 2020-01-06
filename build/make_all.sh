@@ -39,6 +39,10 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../058_na_beliya_tsvyat.ly \
     ../060_na_Hrista_zapeyte.ly \
     ../062_novi_drehi.ly \
+    ../063_dishay_dalboko.ly \
+    ../064_angel_vopiyashe.ly \
+    ../066_1_taynata_vecherya.ly \
+    ../066_2_tebe_poem.ly \
     > tmp.ly
 
 lilypond -o pesn_all tmp.ly

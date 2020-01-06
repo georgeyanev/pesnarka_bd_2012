@@ -2,10 +2,10 @@
 
 \paper {
   print-all-headers = ##t
-  print-page-number = ##f
+  print-page-number = ##t
   left-margin = 2\cm
   right-margin = 2\cm
-  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+  ragged-bottom = ##f % do not spread the staves to fill the whole vertical space
 }
 
 \header {
@@ -13,115 +13,79 @@
 }
 
 \bookpart {
-  \score{
-    \layout {
-      indent = 0.0\cm % remove first line indentation
-      ragged-last = ##t % do not spread last line to fill the whole space
-      \context {
-        \Score
-        \omit BarNumber %remove bar numbers
-      } % context
-    } % layout
+\score{
+  \layout {
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
 
-    \new Voice \relative c' {
-      \clef treble
-      \key c \major
-      \time 7/8 \tempo "Vivo"
-      \autoBeamOff
-
-
-      c8 e8 g8. | g8 c8 g8. | c,8 e8 g8. | g8 c8 g8. | \break
-
-      c,8 d8 e8 | d8 e8  \autoBeamOn d16 e16  d8 c16 | g'8 \noBeam g8 g8. | c,8 d8 e8 | \break
-
-      d8 e8 d16 e16 d8 c16 | g'8 g8 g8. | c,8 d8 e8 | d8 e8 d16 e16 d8 c16 | c8 c8 c8. | \break
-
-      % notes here
-    }
+  \new Voice \relative c' {
+    \clef treble
+    \key c \major
+    \time 7/16 \tempo "Vivo"
+    \autoBeamOff
+    c8 e8 g8. | g8 c8 g8. | c,8 e8 g8. | g8 c8 g8. | \break
+    c,8 d8 e8. | d8 e8  \acciaccatura {d16[e16]} d8([c16]) | g'8 g8 g8. | c,8 d8 e8. | \break 
+    d8 e8 \acciaccatura {d16[e16]} d8([c16]) | g'8 g8 g8. | c,8 d8 e8. | d8 e8 \acciaccatura {d16[e16]} d8([c16]) | c8~ c8~ c8. | \bar "|." \break
+  }
     
   \addlyrics {
-    
-    a - a - a  a - a - a  a - a - a  a - a - a 
-    
-    a - a - a  a - a - a  a - a - a  a - a - a 
-    
-    a - a - a  a - a - a  a - a - a  a - a - a 
-    
+   "1. a" -- a -- a  a -- a -- a  a -- a -- a  a -- a -- a 
+    a -- a -- a  a -- a -- a  a -- a -- a  a -- a -- a 
+    a -- a -- a  a -- a -- a  a -- a -- a  a -- a -- a a
   }
-
-\addlyrics {
-  
-  o - o - o o - o -  o  o - o - o o - o - o 
-  
-  o - o - o o - o -  o  o - o - o o - o - o 
-   
-  o - o - o o - o -  o  o - o - o o - o - o 
-  
-}
-
-\addlyrics {
-  у - у - у  у - у - у  у - у - у  у - у - у 
-  
-  у - у - у  у - у - у  у - у - у  у - у - у 
-  
-  у - у - у  у - у - у  у - у - у  у - у - у 
-}
-
-
-\addlyrics {
-  a - o - у a - o - у a - o - у a - o - у 
-  
-  a - o - у a - o - у a - o - у a - o - у 
-  
-  a - o - у a - o - у a - o - у a - o - у  
-}
 
   \addlyrics {
-    
-    a - a - a  a - a - a  a - a - a  a - a - a 
-    
-    a - a - a  a - a - a  a - a - a  a - a - a 
-    
-    a - a - a  a - a - a  a - a - a  a - a - a 
-    
+    "2. o" -- o -- o  o -- o -- o  o -- o -- o  o -- o -- o 
+    o -- o -- o  o -- o -- o  o -- o -- o  o -- o -- o 
+    o -- o -- o  o -- o -- o  o -- o -- o  o -- o -- o o
   }
-  
+
   \addlyrics {
-    
-    e - e - e e - e - e e - e - e e - e - e 
-    
-    e - e - e e - e - e e - e - e e - e - e 
-    
-    e - e - e e - e - e e - e - e e - e - e 
-    
+    "3. у" -- у -- у  у -- у -- у  у -- у -- у  у -- у -- у 
+    у -- у -- у  у -- у -- у  у -- у -- у  у -- у -- у 
+    у -- у -- у  у -- у -- у  у -- у -- у  у -- у -- у у
   }
-  
+
   \addlyrics {
-     и - и - и и - и - и и - и - и и - и - и 
-     
-     и - и - и и - и - и и - и - и и - и - и 
-     
-     и - и - и и - и - и и - и - и и - и - и 
+    "4. а" -- о -- у  а -- о -- у  а -- о -- у  а -- о -- у 
+    а -- о -- у  а -- о -- у  а -- о -- у  а -- о -- у 
+    а -- о -- у  а -- о -- у  а -- о -- у  а -- о -- у а
   }
-  
+
   \addlyrics {
-    
-    a - е - и a - е - и a - е - и a - е - и
-    
-    a - е - и a - е - и a - е - и a - е - и
-    
-    a - е - и a - е - и a - е - и a - е - и
-    
-    
+    "5. a" -- a -- a  a -- a -- a  a -- a -- a  a -- a -- a 
+    a -- a -- a  a -- a -- a  a -- a -- a  a -- a -- a 
+    a -- a -- a  a -- a -- a  a -- a -- a  a -- a -- a a
   }
-  
 
+  \addlyrics {
+    "6. e" -- e -- e  e -- e -- e  e -- e -- e  e -- e -- e 
+    e -- e -- e  e -- e -- e  e -- e -- e  e -- e -- e 
+    e -- e -- e  e -- e -- e  e -- e -- e  e -- e -- e e
+  }
 
-    % lyrics here
+  \addlyrics {
+    "7. и" -- и -- и  и -- и -- и  и -- и -- и  и -- и -- и 
+    и -- и -- и  и -- и -- и  и -- и -- и  и -- и -- и 
+    и -- и -- и  и -- и -- и  и -- и -- и  и -- и -- и и
+  }
 
-    \header {
-      title = "Песен на гласните букви / Pesen na glasnite bukvi"
-    }
+  \addlyrics {
+    "8. а" -- е -- и  а -- е -- и  а -- е -- и  а -- е -- и 
+    а -- е -- и  а -- е -- и  а -- е -- и  а -- е -- и 
+    а -- е -- и  а -- е -- и  а -- е -- и  а -- е -- и а
+  }
 
-  } % score
+  \header {
+    title = "Песен на гласните букви / Pesen na glasnite bukvi"
+  }
+
+  \midi {
+  }
+} % score
 } % bookpart
