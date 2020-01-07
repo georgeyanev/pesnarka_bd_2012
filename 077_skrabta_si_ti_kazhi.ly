@@ -16,7 +16,7 @@
 \score{
   \layout { 
     indent = 0.0\cm % remove first line indentation
-    ragged-last = ##t % do not spread last line to fill the whole space
+    ragged-last = ##f % do not spread last line to fill the whole space
     \context {
       \Score
       \omit BarNumber %remove bar numbers
@@ -27,8 +27,7 @@
    % notes here
   }
   
-  \addlyrics {}
-  \addlyrics {}
+  % lyrics here
   
   \header {
     title = "Заглавие / Title"
