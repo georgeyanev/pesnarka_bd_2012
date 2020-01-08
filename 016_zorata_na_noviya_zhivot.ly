@@ -1,5 +1,4 @@
 \version "2.18.2"
-%#(set! paper-alist (cons '("mein Format" . (cons (* 176 mm) (*  250 mm))) paper-alist))
 \paper {
   print-all-headers = ##t
   print-page-number = ##f 
@@ -31,7 +30,7 @@
   \partial 8
   \autoBeamOff  
  
- c'8 |e'4 g'8|c''4 g'8 |a'4 g'8 |c''4.| g'4. ( |  g'4  )  g'8 |\break
+ c'8 |e'4 g'8|c''4 g'8 |a'4 g'8 |c''4.| g'4. ~ |  g'4    g'8 |\break
  
  c''4 c''8| \once \autoBeamOn c''8 ([  b'8  ])  \noBeam  c''8 |d''4 b'8  |c''4. ( | c''4 ) a'8| a'4 a'8| \break
  
@@ -71,6 +70,8 @@ v~no -- vi -- ja sve -- tyl tos shi -- vot,  shi -- vot na Ra -- dost -- ta.
   \header {
     title = "Зората на Новия живот / Zorata na Noviya zhivot"
   }
+  
+  \midi{}
 } % score
 
 \markup {
@@ -172,8 +173,7 @@ v~no -- vi -- ja sve -- tyl tos shi -- vot,  shi -- vot na Ra -- dost -- ta.
       \line {   "   " I schepnat sladko, kak Toj vika: }
       \line {   "   " Elate moite deza. } 
      
-      
-      
+        
       
        
     }    
@@ -182,6 +182,76 @@ v~no -- vi -- ja sve -- tyl tos shi -- vot,  shi -- vot na Ra -- dost -- ta.
  
 }
 
+\pageBreak
+
+\markup {  \hspace #20 \fontsize #3 \bold "Die wunderbare Mögenröte bricht an"  }
+
+\markup {
+    \hspace #1
+    \fontsize #+1 {
+      
+      \halign #-1.5 {
+  
+  
+  
+     
+    \column {
+     \line { " " }
+      \line { 1. Die wunderbare Morgenröte bricht an, }
+      \line {   "   " die wundervolle Morgenröte des hellen, neuen Lebens, }  
+      \line {   "   " mit Herrlichkeit bescheint sie unsere Bundeslade }
+      \line {   "   " Die wunderbare Morgenröte bricht an, } 
+      \line {   "   " die Morgenröte des neuen Lebens. } 
+      
+      \line { " " }
+      \line { 2. Und die Vögel erfüllen die Luft }
+      \line {   "   "mit Begeisterung und süßen Liedern im Chor, }  
+      \line {   "   " damit sie die Harmonie ergänzen }
+      \line {   "   " im großen himmlischen Hof. } 
+      
+       \line { " " }
+    \line { "   " \italic { Refrain :}  }
+      \line {    "   "In diesem neuen, leuchtenden Leben (2) }
+      \line {   "   "ein Leben der Liebe, }  
+      \line {   "   " in diesem neuen Leben der Liebe, }
+      \line {   "   " in das Leben der Güte, } 
+       \line {   "   "in diesem neuen leuchtenden Leben, }  
+       \line {   "   "ein Leben der Freude.} 
+      
+     
+ 
+       
+      \line { " " }
+      \line { 3. Die Morgenröte flimmert leichtbeschwingt }
+      \line {   "   " und erweckt unsere Seelen; }  
+      \line {   "   " wie liebe, liebevolle Mutter }
+      \line {   "   " ladet sie jeden ein: Stehe auf! } 
+      
+      \line { " " }
+    \line { "   " \italic { Refrain } ... }
+      
+      \line { " " }
+      \line { 4. Strahlen aus Liebe flößen }
+      \line {   "   " in unserer Brust lebendige Wärme ein, }  
+      \line {   "   " mit süßem Glauben erheben sie uns }
+      \line {   "   " in Stärke und Licht.} 
+      
+       \line { " " }
+    \line { "   " \italic { Refrain } ... }
+    
+       \line { " " }
+      \line { 5. O, diese Strahlen kommen von Gott, }
+      \line {   "   " sie erfüllen unsere Herzen }  
+      \line {   "   " und flüstern uns süß zu, wie Er ruft: }
+      \line {   "   " Kommt, meine Kinder!} 
+      
+      \line { " " }
+    \line { "   " \italic { Refrain } ... }
+    }
+       
+    }    
+    }
+}
 
 } % bookpart
 
