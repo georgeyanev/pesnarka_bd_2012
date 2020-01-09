@@ -1,5 +1,4 @@
 \version "2.18.2"
-%#(set! paper-alist (cons '("mein Format" . (cons (* 176 mm) (*  250 mm))) paper-alist))
 \paper {
   print-all-headers = ##t
   print-page-number = ##f 
@@ -31,7 +30,7 @@
   \partial 8
   \autoBeamOff  
  
- c'8 |e'4 g'8|c''4 g'8 |a'4 g'8 |c''4.| g'4. ( |  g'4  )  g'8 |\break
+ c'8 |e'4 g'8|c''4 g'8 |a'4 g'8 |c''4.| g'4. ~ |  g'4    g'8 |\break
  
  c''4 c''8| \once \autoBeamOn c''8 ([  b'8  ])  \noBeam  c''8 |d''4 b'8  |c''4. ( | c''4 ) a'8| a'4 a'8| \break
  
@@ -71,6 +70,8 @@ v~no -- vi -- ja sve -- tyl tos shi -- vot,  shi -- vot na Ra -- dost -- ta.
   \header {
     title = "Зората на Новия живот / Zorata na Noviya zhivot"
   }
+  
+  \midi{}
 } % score
 
 \markup {
@@ -172,8 +173,7 @@ v~no -- vi -- ja sve -- tyl tos shi -- vot,  shi -- vot na Ra -- dost -- ta.
       \line {   "   " I schepnat sladko, kak Toj vika: }
       \line {   "   " Elate moite deza. } 
      
-      
-      
+        
       
        
     }    
@@ -182,6 +182,76 @@ v~no -- vi -- ja sve -- tyl tos shi -- vot,  shi -- vot na Ra -- dost -- ta.
  
 }
 
+\pageBreak
+
+\markup {  \hspace #20 \fontsize #3 \bold "Die wunderbare Mögenröte bricht an"  }
+
+\markup {
+    \hspace #1
+    \fontsize #+1 {
+      
+      \halign #-1.5 {
+  
+  
+  
+     
+    \column {
+     \line { " " }
+      \line { 1. Die wunderbare Morgenröte bricht an, }
+      \line {   "   " die wundervolle Morgenröte des hellen, neuen Lebens, }  
+      \line {   "   " mit Herrlichkeit bescheint sie unsere Bundeslade }
+      \line {   "   " Die wunderbare Morgenröte bricht an, } 
+      \line {   "   " die Morgenröte des neuen Lebens. } 
+      
+      \line { " " }
+      \line { 2. Und die Vögel erfüllen die Luft }
+      \line {   "   "mit Begeisterung und süßen Liedern im Chor, }  
+      \line {   "   " damit sie die Harmonie ergänzen }
+      \line {   "   " im großen himmlischen Hof. } 
+      
+       \line { " " }
+    \line { "   " \italic { Refrain :}  }
+      \line {    "   "In diesem neuen, leuchtenden Leben (2) }
+      \line {   "   "ein Leben der Liebe, }  
+      \line {   "   " in diesem neuen Leben der Liebe, }
+      \line {   "   " in das Leben der Güte, } 
+       \line {   "   "in diesem neuen leuchtenden Leben, }  
+       \line {   "   "ein Leben der Freude.} 
+      
+     
+ 
+       
+      \line { " " }
+      \line { 3. Die Morgenröte flimmert leichtbeschwingt }
+      \line {   "   " und erweckt unsere Seelen; }  
+      \line {   "   " wie liebe, liebevolle Mutter }
+      \line {   "   " ladet sie jeden ein: Stehe auf! } 
+      
+      \line { " " }
+    \line { "   " \italic { Refrain } ... }
+      
+      \line { " " }
+      \line { 4. Strahlen aus Liebe flößen }
+      \line {   "   " in unserer Brust lebendige Wärme ein, }  
+      \line {   "   " mit süßem Glauben erheben sie uns }
+      \line {   "   " in Stärke und Licht.} 
+      
+       \line { " " }
+    \line { "   " \italic { Refrain } ... }
+    
+       \line { " " }
+      \line { 5. O, diese Strahlen kommen von Gott, }
+      \line {   "   " sie erfüllen unsere Herzen }  
+      \line {   "   " und flüstern uns süß zu, wie Er ruft: }
+      \line {   "   " Kommt, meine Kinder!} 
+      
+      \line { " " }
+    \line { "   " \italic { Refrain } ... }
+    }
+       
+    }    
+    }
+}
 
 } % bookpart
 
@@ -367,6 +437,70 @@ v~no -- vi -- ja sve -- tyl tos shi -- vot,  shi -- vot na Ra -- dost -- ta.
  
 }
 
+\pageBreak
+
+\markup {  \hspace #25 \fontsize #3 \bold "Der Sämann ist hinausgegangen"  }
+
+\markup {
+    \hspace #1
+    \fontsize #+1 {
+      
+      \halign #-1.5 {
+  
+  
+  
+     
+    \column {
+     \line { " " }
+      \line {  1. Der Sämann ist hinausgegangen, }
+      \line {   "   " um das wunderbare Gute zu säen: das neue Leben! }  
+      \line {   "   " Und er sät und singt leise }
+      \line {   "   " vor jedem Haus und jeder Familie: } 
+
+      
+      \line { " " }
+      \line { "   " \italic { Refrain :}  }
+        \line { " " }
+      \line {  "  " Eine unschätzbare Gabe ist die Liebe (ljubovta), }
+      \line {   "   "ein schönes Gefühl die Liebe (obitschta), }  
+      \line {   "   " und ein gutes Werk die Barmherzigkeit, }
+      \line {   "   " eine ergiebige Quelle die Weisheit. } 
+      
+       \line { " " }
+      \line {    2. Und wer sie hört, }
+      \line {   "   "erschauert vor dieser guten, liebevollen Melodie;  }  
+      \line {   "   " und erstrahlt und aufersteht }
+      \line {   "   " und segnet diese Saat. } 
+       
+      
+       \line { " " }
+    \line { "   " \italic { Refrain } ... }
+ 
+ 
+       
+      \line { " " }
+      \line { 3. Die Liebe strömt in das Universum aus, }
+      \line {   "   " aus Liebe strahlt jedes Wesen, }  
+      \line {   "   " das Leben quillt in das Leben über; }
+      \line {   "   " hier gibt es weder Jung noch Alt mehr. } 
+      
+      \line { " " }
+    \line { "   " \italic { Refrain } ... }
+      
+      \line { " " }
+      \line {  4. O, diese Strahlen kommen von Gott, }
+      \line {   "   " sie erfüllen unsere Herzen }  
+      \line {   "   " und flüstern uns süß zu, wie Er ruft: }
+      \line {   "   " Kommt, meine Kinder!} 
+      
+      \line { " " }
+    \line { "   " \italic { Refrain } ... }
+    }
+       
+    }    
+    }
+}
+
 
 } % bookpart
 \version "2.18.2"
@@ -412,7 +546,7 @@ v~no -- vi -- ja sve -- tyl tos shi -- vot,  shi -- vot na Ra -- dost -- ta.
          \override Score.MetronomeMark #'outside-staff-priority = #599
          \override Score.MetronomeMark.X-extent=#'(-4.5 . 0)
          \tempo "Meno mosso" 4 = 92
-         d'2 e'4 d'4 | b'1 | \tempo "rit." a'2 b'4 b'4 | g'1| \bar "|." \break } 
+         d'2 e'4 d'4 | b'1 | \tempo "rit." a'2 b'4 a'4 | g'1| \bar "|." \break } 
     }
   }
   
@@ -430,7 +564,7 @@ v~no -- vi -- ja sve -- tyl tos shi -- vot,  shi -- vot na Ra -- dost -- ta.
     Brat -- stvo, e -- din -- stvo ni -- e is -- ka -- me, 
     zo -- va na Lyu -- bov -- ta ni -- e pus -- ka -- me, mi -- ra na Ra -- dost -- ta
     ni -- e vi -- ka -- me: blag Zhi -- vot v~nas da vli -- va -- me,
-    blag ZHi -- vot v~nas da vli -- va -- me, blag ZHi -- vot v~nas
+    blag Zhi -- vot v~nas da vli -- va -- me, blag Zhi -- vot v~nas
     da vli -- va -- me, blag ZHi -- vot v~nas da vli -- va -- me,
     da vli -- va -- me, da vli -- va -- me, da vli -- va -- me,
     da vli -- va -- me, da vli -- va -- me. 
@@ -439,6 +573,8 @@ v~no -- vi -- ja sve -- tyl tos shi -- vot,  shi -- vot na Ra -- dost -- ta.
   \header {
     title = "Братство, единство / Bratstvo, edinstvo"
   }
+  
+  \midi{}
 
 } % score
 
@@ -452,6 +588,44 @@ v~no -- vi -- ja sve -- tyl tos shi -- vot,  shi -- vot na Ra -- dost -- ta.
       }
     }
   } 
+  
+  %gernman lyrics
+  
+  \markup { \hspace #25 \fontsize #3 \bold "Brüderlichkeit, Einheit" }
+  %\markup {  \hspace #25   \huge\bold "Brüderlichkeit, Einheit"  }
+
+\markup {
+    \hspace #1
+    \fontsize #+1 {
+      
+      \halign #-1.5 {
+  
+  
+  
+     
+    \column {
+     \line { " " }      
+      \line {  1. Wir wollen Brüderlichkeit und Einheit, }
+      \line {   "   "Wir senden den Ruf der Liebe aus, }  
+      \line {   "   " Die Welt der Freude rufen wir: }
+      \line {   "   " auf dass wir das gute Leben in uns
+ergießen! } 
+
+      
+      \line { " " }
+      \line {   2. Auf dass wir das gute Leben in uns ergießen, (3) }
+      \line {   "   "ergießen, ergießen, ergießen, }  
+      \line {   "   " Auf das wir das gute Leben in uns ergießen, (2) }
+      \line {   "   " ergießen, ergießen, ergießen. } 
+      
+       
+    }
+       
+    }    
+    }
+}
+  
+  
 } % bookpart
 \version "2.18.2"
 
@@ -535,8 +709,49 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
   \header {
     title = "Ще се развеселя / Shte se razveselya"
   }
+\midi {}
 
 } % score
+
+\pageBreak
+
+\markup {  \hspace #25 \fontsize #3 \bold "Ich werde mich erfreuen"  }
+
+\markup {
+    \hspace #1
+    \fontsize #+1 {
+      
+      \halign #-1.5 {
+  
+  
+  
+     
+    \column {
+     \line { " " }
+      
+      \line { "   " Ich werde mich sehr um des Herrn willen freuen; }
+      \line {   "   " meine Seele wird fröhlich sein in meinem
+Gott: }  
+      \line {   "   " Denn Er hat mich mit den Gewändern
+des Heils bekleidet, }
+      \line {   "   " mich mit dem Mantel der Gerechtigkeit
+umhüllt, (2) } 
+      \line {   "   " wie ein Bräutigam mit Kopfschmuck
+geziert, } 
+      \line { "   " wie eine Braut mit ihrem Geschmeide
+geschmückt, }
+      \line {   "   "wie eine Jungfrau, auserwählt unter
+ihren Gefährtinnen. }  
+      
+    }
+       
+    }    
+    }
+    
+    
+    
+}
+
 } % bookpart
 \version "2.18.2"
 
@@ -566,6 +781,7 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
   \new Voice \absolute  {
   \clef treble
   \key d \minor
+  
   \time 4/4 \tempo "Andante" 4 = 92
   \autoBeamOff
   \partial 4.
@@ -609,6 +825,8 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
   \header {
     title = "Изгрява ден тържествен / Izgryava den tarzhestven"
   }
+  
+  \midi { }
 
 } % score
 
@@ -694,6 +912,65 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
        \line { "   " \italic {Refrain: } }
     }    
     }
+    }
+}
+
+\pageBreak
+
+\markup {  \hspace #20 \fontsize #3 \bold "Der feierliche Tag bricht schon an"  }
+
+\markup {
+    \hspace #1
+    \fontsize #+1 {
+      
+      \halign #-1.5 {
+  
+  
+  
+     
+    \column {
+     \line { " " }
+     
+      
+      \line { 1. Der feierliche Tag bricht schon an, }
+      \line {   "   " der vorhergesagte göttliche Tag, }  
+      \line {   "   " ein Diadem der Tage,}
+      \line {   "   " mit seinem großen Licht. } 
+      \line {   "   " die Morgenröte des neuen Lebens. } 
+      
+      \line { " " }
+      \line { "   " \italic { Refrain :}  }
+      \line {"   " Kommt, auf dass wir }
+      \line {   "   "in der wunderbaren Liebe leben. }  
+      \line {   "   " Kommt, auf dass wir  }
+      \line {   "   " diesen himmlischen Segen empfangen, } 
+      \line {   "   " welcher das Leben erneuert } 
+      \line {   "   " und es ewig verjüngt. } 
+      
+       \line { " " }
+    
+      \line {    2. Und er bringt Freude für die Seele }
+      \line {   "   "und verkündet die Freiheit }  
+      \line {   "   " Und den Frieden mit allheiliger Liebe }
+      \line {   "   " für alle auf der Erde. } 
+       
+            \line { " " }
+    \line { "   " \italic { Refrain } ... }
+      
+     
+ 
+       
+      \line { " " }
+      \line { 3. O, wunderschöner Tag, ewiges Wohl, }
+      \line {   "   " wem ist das nicht wertvoll? }  
+      \line {   "   " Erneuere uns bald }
+      \line {   "   " für all die Jahre.} 
+      
+
+      
+    }
+       
+    }    
     }
 }
  
@@ -1612,7 +1889,7 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
         }
         \new Voice = "tempVoice" { % this is a new voice context
           \voiceOne \autoBeamOff
-           f''4 e''8 e'' d''4 cis'' | \hideNotes d''4 a'2 \unHideNotes
+           f''4 e''8 e'' d''4 cis'' | \hideNotes d''4 \stemDown a'2 \stemNeutral \unHideNotes
         }
       >>
       \oneVoice
@@ -3700,5 +3977,779 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
     title = "Идват дни на Радост / Idvat dni na Radost"
   }
 
+} % score
+} % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+    \clef treble
+    \key e \minor
+    \time 3/4 \tempo "Tempo di valzer" 2. = 54
+    \partial 4 b4 | e'2 g'4 | c''2 b'4 | b'2. | b'2 b4 | e'2 g'4 | \break
+    c''2 b'4 | b'2. ( | b'2 ) b'4 |
+    \repeat volta 2 { a'2 c''4 | b'2 a'4 | g'2. \break 
+      e'2 g'4 | b2 b4 | g'2 fis'4 } 
+    \alternative { 
+      { e'2. ( | e'2 ) b'4 | } 
+      { e'2. ( | e'2 ) s4 \bar "|." } 
+    }
+  }
+  
+  \addlyrics {
+    Към Ри -- ла с~мощ -- на ми -- съл ле -- тим ний
+    все -- ки ден. В~гър -- ди -- те с~туй же -- ла -- 
+    ние жи -- ве -- ем в~свят не -- тлен. В_гър -- тлен.    
+  }
+
+  \addlyrics {
+    Kam Ri -- la s~mosht -- na mi -- sal le -- tim niy
+    vse -- ki den. V~gar -- di -- te s~tuy zhe -- la -- 
+    nie zhi -- ve -- em v~svyat ne -- tlen. V_gar -- tlen.    
+  }
+
+
+  \header {
+    title = "Към Рила / Kam Rila"
+  }
+
+} % score
+
+\markup { \hspace #20 \vspace #10
+   \fontsize #+5 {
+     Missing text here ...
+   }
+}
+
+
+} % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \relative a' {
+    \clef treble
+    \key d \minor
+    \time 4/4 \tempo "Andante sustenuto" 4 = 60
+    \repeat volta 2 { 
+      a2 a4 a4 | bes2 a4 a4 |  a4 \autoBeamOff a8 a8 d,4 f4 |  a2 g2 |\break
+      f2 g4 ( a4 ) | bes2 bes2 | bes2 a4 a4 | a4 a8 a8 d,4 ( f4 ) | \break
+      a4 ( bes4 ) a4 ( g4 ) |  f2 e2 | 
+    } 
+    \alternative {
+      { d2. r4 | }
+      { d2. a'4 | \bar "||" \break }
+    } 
+    
+    d4 a4 bes4 ( c4 ) | d4 bes4 a4 g4 | bes2 a2 | a2 d,4 f4 | \break
+    a2 d,4 f4 | a4 ( bes4 ) a4 a4 | d4 ( a4 ) bes4 ( g4 ) | f2 ( e2 ) | \break
+    d2. r4 | bes'2 a2 | g2 f2 |  e4 ( f4 ) g4 a4 | \break
+    bes4 ( g4 ) a2 | f2 e2 | d2. r4 | bes'2 a2 | g2 f2 | \break
+    e4 ( f4 ) g4 a4 | bes4 ( g4 ) a2 | f2 e2 | d1| \bar "|." \break
+  }
+  
+  \addlyrics {
+    Кой -- то жи -- ве -- е под по -- кри -- ва на Все -- виш -- на -- 
+    го, ще пре -- би -- ва -- е под сян -- ка -- та на 
+    Все -- мо -- гъ -- ща -- го. го. Ще 
+    каз -- вам за Гос -- по -- да, ще каз -- вам: Той е при -- 
+    бе -- жи -- ще мо -- е и кре -- пост мо -- 
+    я, Бог мой, Бог мой, на Не -- го 
+    ще се на -- де -- я. Бог мой, Бог мой, 
+    на Не -- го ще се на -- де -- я.
+  }
+
+  \addlyrics {
+    Koy -- to zhi -- ve -- e pod po -- kri -- va na Vse -- vish -- na -- 
+    go, shte pre -- bi -- va -- e pod syan -- ka -- ta na 
+    Vse -- mo -- ga -- shta -- go. go. Shte 
+    kaz -- vam za Gos -- po -- da, shte kaz -- vam: Toy e pri -- 
+    be -- zhi -- shte mo -- e i kre -- post mo -- 
+    ya, Bog moy, Bog moy, na Ne -- go 
+    shte se na -- de -- ya. Bog moy, Bog moy, 
+    na Ne -- go shte se na -- de -- ya.
+  }
+
+  \header {
+    title = "Псалом 91 / Psalom 91"
+  }
+
+} % score
+} % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+    \clef treble
+    \key c \major
+    \time 2/4 \tempo "Vivo" 4 = 104
+    \autoBeamOff
+    \partial 8 e'8 | a'8  b'8 c''8 d''8 | e''4 c''4 | a'4. a'8 | d''4 e''4 | f''4 d''4 | e''8 ([ d''8 e''8 f''8 ]) | \break 
+    e''4. d''8 \repeat volta 2 {| d''4 d''4 |  c''4 b'4 |  c''4 d''4 |  e''4. c''8 |  b'4 d''4 | c''4 b'4 | \break
+    a'4 ( gis'8 [b'8]) |} \alternative { { a'4 r8 d''8 } {  a'4 r4 } } 
+    \repeat volta 2 { | g'4 g'4 | c''4 d''4 | e''4 f''4 | g''2\break
+    | g''4 a''4 |  g''4 f''4 |  e''4 d''4 |  c''2 | a'4 a'4 | a'4 b'4 | c''4 ( d''4 ) | \break   
+    e''2 | b'4 d''4| c''4 b'4 |} \alternative { { a'2 | g'2  }  {   a'4 (gis'8[b'8])  | a'4. \bar "|." \break } }
+  }
+  
+  \addlyrics {
+    На -- го -- ре о -- ще да вър -- вим, към вър -- хо -- ве -- те бе -- 
+    ли, е -- фи -- ра бял да поз -- дра -- вим и снеж -- ни -- те кри -- 
+    ста -- ли. е -- ли. Ху -- бост -- та на Бо -- жи свят, 
+    бе -- ли -- на -- та, наш е цвят-  веч -- на си -- ла и -- 
+    ма, мрак я не об -- зи -- ма. зи -- ма.
+  }
+
+  \addlyrics {
+    Na -- go -- re o -- shte da var -- vim, kam var -- ho -- ve -- te be -- 
+    li, e -- fi -- ra byal da poz -- dra -- vim i snezh -- ni -- te kri -- 
+    sta -- li. e -- li. Hu -- bost -- ta na Bo -- zhi svyat, 
+    be -- li -- na -- ta, nash e tsvyat-  vech -- na si -- la i -- 
+    ma, mrak ya ne ob -- zi -- ma. zi -- ma.
+  }
+
+  \header {
+    title = "На белия цвят / Na beliya tsvyat"
+  }
+
+} % score
+
+\markup { \hspace #20 \vspace #10
+   \fontsize #+5 {
+     Missing text here ...
+   }
+}
+
+} % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+    \clef treble
+    \key d \major
+    \time 3/4 \tempo "Moderato" 4 = 112
+ 
+    a'2 a'4| fis''2 e''4| d''2 b'4 | a'2 fis'4 | e'2 e'4 | cis'2 a4 | \break
+ 
+    d'2 fis'4 | a'2 r4| a'2 a'4| b'2 cis''4 | d''2 e''4| fis''2.| \break
+            
+    d''2. |  b'2 b'4| a'2 g'4 | fis'2 e'4 | d'2. | g'2 b'4 | d''2 b'4| \break
+ 
+    a'2 a'4 | fis'2 d'4 | d''2 d''4 | cis''2 b'4 | a'2 cis''4 | d''2. | b'2 b'4 |  \break
+ 
+    e''2 d''4 | cis''2 b'4 | a'2 fis'4 | a'2 g'4 | fis'2 e'4 | fis'2 cis'4| d'2. | \bar "|." \break
+  }
+  
+  \addlyrics {
+    Но -- ви хи -- мни на И -- су -- са да за -- пе -- ем
+    в~то -- я час, Бо -- жи Син е Той пред -- ве -- 
+    чен на Не -- бе -- то и във нас.  Наш У -- чи -- тел,
+    наш во -- ди -- тел, ис -- тин -- ски -- ят наш Жи -- вот, Не -- го --
+    во -- то креп -- ко И -- ме да се сла -- ви в~род и род.    
+  }
+
+  \addlyrics {
+    No -- vi hi -- mni na I -- su -- sa da za -- pe -- em
+    v~to -- ya chas, Bo -- zhi Sin e Toy pred -- ve -- 
+    chen na Ne -- be -- to i vav nas.  Nash U -- chi -- tel,
+    nash vo -- di -- tel, is -- tin -- ski -- yat nash Zhi -- vot, Ne -- go --
+    vo -- to krep -- ko I -- me da se sla -- vi v~rod i rod.    
+  }
+
+  \header {
+    title = "На Христа запейте / Na Hrista zapeyte"
+  }
+
+} % score
+
+\markup { \hspace #20 \vspace #10
+   \fontsize #+5 {
+     Missing text here ...
+   }
+}
+
+} % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+    \clef treble
+    \key d \major
+    \time 2/4 \tempo "Andante" 4 = 63
+    \autoBeamOff
+    a'4 a' | b'4. a'8 |  g'8 fis'  \autoBeamOn e' ( fis' ) |\autoBeamOff g'2 | b'4 b' | cis''4. b'8 \break |
+    a'8 gis' \autoBeamOn fis' ( gis' ) | a'2 |  a'4 a' | fis''4. e''8 | \autoBeamOff d''8 cis'' \autoBeamOn e'' ( d'' ) |\autoBeamOff cis''2 \break |
+    b'4 b' | cis''4. b'8 | g'8 g' b'4 | a'2 | fis'4 a' | e'8 fis' g' a' \break |
+    d''4 cis'' \fermata | cis''4 e'' | b'8 cis'' d'' e'' | g''4 fis'' \fermata | e''4 d'' \break |
+    cis''8 b' g' b' b'4 a' \fermata | cis''4 b' | a'8 g' e' a' | g'4 fis' \fermata \break | \bar "|."
+}
+  
+  \addlyrics {
+    Как -- то че -- ло -- век съ -- бли -- ча дре -- хи -- те си 
+    о -- вех -- те -- ли, за да мо -- же да на  -- де -- не 
+    но -- ви дре -- хи, чис -- ти, бе -- ли, тъй Ду -- хът плът -- та о -- 
+    ста -- вя в~дру -- га плът да се за -- се -- ли и о --
+    ти -- ва да на -- сле -- ди но -- ви ня -- ко -- и пре -- де -- ли.
+  }
+
+  \addlyrics {
+    Kak -- to che -- lo -- vek sa -- bli -- cha dre -- hi -- te si 
+    o -- veh -- te -- li, za da mo -- zhe da na  -- de -- ne 
+    no -- vi dre -- hi, chis -- ti, be -- li, tay Du -- hat plat -- ta o -- 
+    sta -- vya v~dru -- ga plat da se za -- se -- li i o --
+    ti -- va da na -- sle -- di no -- vi nya -- ko -- i pre -- de -- li.
+  }
+
+  \header {
+    title = "Нови дрехи / Novi drehi"
+  }
+
+} % score
+
+\markup { \hspace #20 \vspace #10
+   \fontsize #+5 {
+     Missing text here ...
+   }
+}
+
+
+} % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  <<
+  \new Voice = "mainVoice" \absolute  {
+    \clef treble
+    \key d \major
+    \time 2/4 \tempo "Tempo di marcia" 4 = 100
+    \autoBeamOff
+    
+    \repeat volta 1 {
+      a'4 b'8. a'16 | fis'4 d' | \noBreak	
+      
+      << % now temporary add a second voice
+        { 
+          \voiceTwo % this voice is in the same context as parent
+          \stemUp a'8. a'16 b'8 b' | a'2 \stemNeutral
+        }
+        \new Voice = "tempVoice1" { % this is a new voice context
+          \voiceOne \autoBeamOff
+          \stemDown \tiny a'4 b'8. b'16 | 
+          \once \override NoteColumn.force-hshift = #1.2
+          a'2 \stemNeutral
+        }
+      >>
+      \oneVoice
+      | \break
+
+      b'4 a'8. g'16 | fis'4 d' | \noBreak
+      
+      << % now temporary add a new voice
+        { 
+          \voiceTwo % this voice is in the same context as parent
+          \stemUp e'8. e'16 fis'8 e' | d'2 \stemNeutral
+        }
+        \new Voice = "tempVoice2" { % this is a new voice context
+          \voiceOne \autoBeamOff
+          \stemDown \tiny e'4 fis'8. e'16 |
+          \once \override NoteColumn.force-hshift = #1.2
+          d'2 \stemNeutral
+        }
+      >>
+      \oneVoice
+      | \break
+    }
+    \repeat volta 1 { a8 d' d' d' | a8 fis' fis' fis' | fis'8. e'16 fis'8 g' |  a'2 \break | 
+      b'8. b'16 b'8 b' | a'8 d'' a' g' |  fis'8 fis'8 e'8 e'8|  d'2 \break |
+    }
+  }
+
+  \new Lyrics \lyricsto "mainVoice" {
+    "1. Ди" -- шай дъл -- бо -- ко, с~ве -- се -- ло сър -- це 
+    и на жи -- во -- та рад -- вай се, де -- те. 
+    Въз -- ду -- хът е жи -- ва си -- ла ви -- на -- ги за нас. 
+    Ди -- шай, ди -- шай и пак ди -- шай, ди -- шай да си здрав!    
+  }
+  \new Lyrics \lyricsto "mainVoice" {
+    "1. Di" -- shay dal -- bo -- ko, s~ve -- se -- lo sar -- tse 
+    i na zhi -- vo -- ta rad -- vay se, de -- te. 
+    Vaz -- du -- hat e zhi -- va si -- la vi -- na -- gi za nas. 
+    Di -- shay, di -- shay i pak di -- shay, di -- shay da si zdrav!    
+  }
+
+  \new Lyrics \lyricsto "tempVoice1" {
+    "(2.,3.)...ди" -- шаш, де -- те,...
+  }
+  \new Lyrics \lyricsto "tempVoice1" {
+    "(2.,3.)...di" -- shash, de -- te,...
+  }
+
+  \new Lyrics \lyricsto "tempVoice2" {
+    "(2.)...доб" -- ро, сър -- це.
+  }
+  \new Lyrics \lyricsto "tempVoice2" {
+    "(2.)...dob" -- ro, sar -- tse.
+  }
+  >>  
+
+  \header {
+    title = "Дишай дълбоко / Dishay dalboko"
+  }
+
+  \midi { 
+  }
+} % score
+
+\markup { \hspace #20 \vspace #10
+   \fontsize #+5 {
+     Missing text here ...
+   }
+}
+
+} % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##t % do not spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \relative c' {
+    \clef treble
+    \key f \major
+    \tempo "Senza misura"
+    \autoBeamOff
+    \omit Score.TimeSignature
+    \cadenzaOn % allows custom bar lines
+
+    \acciaccatura g'8 (a2 \tuplet 3/2 { g8 [f g] } \bar "|"
+    a4) a2 g4 a4 \bar "|"
+    \slurDown a8( [bes a g f g] \acciaccatura { a16 [b] } c4 b!8 [c]) a2 \bar "|" \break
+    
+    \slurNeutral g4 a a8 ([g a bes]) g2 \bar "|" 
+    d'2 c4 (b8 [c]) a8. ([bes16 a8 g]) \bar "|"
+    \slurDown f8([ g] \acciaccatura { a16 [b] } c4 b!8[ c]) f,2 \bar "|"  \break
+    
+    a8( [bes] \acciaccatura { c16 [d] } c4) bes8( [a g a]) g4. g8 \bar "|"
+    \slurNeutral c8.( [bes16]) a8.( [g16]) g4 f8( [g \appoggiatura bes a g]) \bar "|"  \break
+    
+    f8( [e a g] f4. e8 d [e16 f]) d4 d2 \bar "|"
+    \appoggiatura g8  a2( \tuplet 3/2 { g8 [f g] } a4) a2 c4( \stemUp b) \bar "|"  \break
+    
+    \stemNeutral c4( d  c b!8 [c]) a2 g4 a \bar "|"
+    \stemUp a8( [b16 c] a8 [g]) f( [e a g]) \bar "|"  \break
+    
+    f4.( e8 d[ e16 f] d4) d2 r8 d \bar "|"
+    \stemNeutral d'2 c4( b!8[ c]) a2 a4 \bar "|"  \break
+    
+    \slurDown a8([bes] \acciaccatura { c16 [d] } c4) bes8( [a] g [a]) g2 \bar "|"
+    g4( f8 [e] d [e] c4) \bar "|"
+    d8([ e f g]) g2 \bar "|"  \break
+    
+    c8([ bes a g]) f([ e a g]) \bar "|"
+    f4.( e8) d([ e16 f] d4) d2 r8 d \bar "|"  \break
+    
+    g4( \acciaccatura { f16 [g] } f4 g a \acciaccatura { f16 [g] } f4 e8[  f]) \bar "|"
+    d4.( e8) c4( d) \bar "|"  \break
+    
+    ees4.( d8 g8[ fis \acciaccatura { ees16 [fis] }  ees8 d]) d2\fermata \bar "|"
+    a'4.( g8 fis16[ g] \acciaccatura { a16 [b] } c4) \slurNeutral b8([ c] a2) g4 a8 \bar "|"  \break
+    
+    \stemUp a8([ b16 c] a8  [g]) fis8([ ees a g]) fis4.( ees8 d[ ees16 fis] d4) d2 \bar "|"  \break
+    
+    \stemNeutral \slurDown a'4.( g8[ fis16 g] \acciaccatura { a16 [b!] } c4) \slurNeutral b8([ c]  a2)  a4 \stemUp b \bar "|"
+    \stemNeutral c4( d \appoggiatura d8 c4 b!8[ c]) a2 g4 a \bar "|"  \break
+    
+    a8([ bes16 c a8 g]) fis([ ees a g] fis4. ees8) \bar "|"
+    d8([ ees16 fis] d4) d r8 d \bar "|"  \break
+    
+    d'2( c4. d16[ ees] d4 c \appoggiatura c8 \stemUp bes4 a c8[ bes16 a]  \stemNeutral bes8[ c]) \bar "|"  \break
+    
+    d4( c \stemUp bes8[ c bes a] g16[ a bes c] \stemNeutral d4) \stemUp \slurDown c8([ bes16 a] \bar "|" \noBreak
+    bes4. \stemNeutral c8 \acciaccatura { bes16 [c] } \stemUp bes8[ a16 g]  \bar "|" \noBreak 
+    a4. bes8 a[ g16 fis] \bar "|" \break
+    
+    g4. a8 g8[ fis16 ees] \bar "|"
+    fis4) r8 fis \stemNeutral \slurNeutral c'4 d8([ c])  \bar "|"
+    \stemUp bes4( a8[ bes]) g2 d4( ees)  \bar "|" \break
+    
+    g8([ fis g a] g4 fis8[ g] fis4. ees8 d8[ ees16 fis] d4) d2\fermata d4 d  \bar "|" \break
+    
+    \appoggiatura g8 a2 \acciaccatura { bes16([ c] } bes8[ a g fis g a]) a2 a4 \bar "|"
+    \stemNeutral d4( c \acciaccatura { d16[ ees!]} d4 c \stemUp bes a) \acciaccatura { bes16[ a] } g2 \bar "|" \break
+
+    \stemNeutral c4 d d4.( e8 \bar "|" \noBreak
+    f4 e d c bes a) bes8([ a16 g] a4) \bar "|" \noBreak
+    a8([ g16 fis] g4. a8 \tuplet 3/2 { g4 fis ees } \bar "|" \break
+    
+    d4. ees16[ g] fis8[ ees d ees] d2) d4 d \bar "|" \noBreak
+    \appoggiatura g8( a2 \acciaccatura { bes16[ c] } bes8[ a] g8[ fis g) a] a2 d,4 ees \bar "|" \break
+    
+    g8([ fis g a] g4 fis8[ g] fis4. ees8) d([ ees16 fis)] d4 \bar "|" \noBreak
+    d2( c8[  d ees! d] g8[ fis! ees!16 fis  ees d] d2)\fermata \bar "|."
+    
+    \pageBreak
+  }
+
+  \addlyrics {
+    Ан -- гел во -- пи -- я -- -- -- ше
+    Бла -- го -- дат -- ней: Чис -- та -- я __ Де -- во,
+    ра -- дуй -- ся! И па -- ки ре -- ку: __
+    Ра -- -- дуй -ся! Твой __ Син "вос  -"
+    кре -- -- се три -- дне -- вен __  от __
+    гро -- ба и мерт -- ви -- я "воз -"
+    двиг -- ну -- вий; лю -- -- ди -- е,
+    ве -- се -- ли -- те -- ся! "Све -"
+    ти -- -- -- -- -- -- ся, "све       -"
+    "-ти" --  -- ся, но -- -- вий __ И -- "е -" 
+    ру -- -- са -- ли -- -- -- ме!
+    Сла -- ва __ бо Гос -- под -- ня на "те -"
+    бе __ воз -- -- си -- я: "ли -"
+    куй __ ни -- -- не __ 
+    и ве -- се -- ли -- ся, "Си -"
+    о -- -- -- -- -- -- не! Ти же,
+    чис -- та -- я, кра -- суй -- -- ся,
+    Бо -- го -- ро -- -- -- ди -- це, __
+    о во -- ста -- "ни - и      " рож -- "-дес-"
+    тва __ Тво -- е -- го. __
+  }
+
+  \addlyrics {
+    An -- gel vo -- pi -- ya -- -- -- she
+    Bla -- go -- dat -- ney: CHis -- ta -- ya __ De -- vo,
+    ra -- duy -- sya! I pa -- ki re -- ku: __
+    Ra -- -- duy -sya! Tvoy __ Sin "vos  -"
+    kre -- -- se tri -- dne -- ven __  ot __
+    gro -- ba i mert -- vi -- ya "voz -"
+    dvig -- nu -- viy; lyu -- -- di -- e,
+    ve -- se -- li -- te -- sya! "Sve -"
+    ti -- -- -- -- -- -- sya, "sve       -"
+    "-ti" --  -- sya, no -- -- viy __ I -- "e -" 
+    ru -- -- sa -- li -- -- -- me!
+    Sla -- va __ bo Gos -- pod -- nya na "te -"
+    be __ voz -- -- si -- ya: "li -"
+    kuy __ ni -- -- ne __ 
+    i ve -- se -- li -- sya, "Si -"
+    o -- -- -- -- -- -- ne! Ti zhe,
+    chis -- ta -- ya, kra -- suy -- -- sya,
+    Bo -- go -- ro -- -- -- di -- tse, __
+    o vo -- sta -- "ni - i      " rozh -- "-des-"
+    tva __ Tvo -- e -- go. __
+  }
+
+  \header {
+    title = "Ангел вопияше / Аngel vopiyashe"
+  }
+  
+  \midi {
+  }
+} % score
+
+\markup { \hspace #37  \huge\bold   "Ein Angel sang"  }
+\markup {
+  \hspace #1 \fontsize #+1 {
+    \halign #-1.5 {
+      \column {
+        \line { " " }
+        \line { Ein Engel rief der Mutter Gottes zu: }
+        \line { Reine Jungfrau, freue dich! Und ich sage dir wieder: Freue dich! }
+        \line { Dein Sohn ist vom Grab am dritten Tag nach dem Tod }
+        \line { auferstanden und erweckte die Toten zum Leben }
+        \line { Menschen, freut euch! }
+        \line { Geheiligt, geheiligt seist du, neues Jerusalem, }
+        \line { denn deine Herrlichkeit ist über dich erschienen: }
+        \line { frohlocke jetzt und jauchze, oh Zion! }
+        \line { Du, Reine, freue dich, Mutter Gottes }
+        \line { über die Auferstehung des von dir geborenen. }
+      }
+    }
+  }
+}
+} % bookpart
+
+
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+    \clef treble
+    \key a \minor
+    \time 2/4 \tempo "Andante" 4 = 60
+    \autoBeamOff
+    a8 ([ e'8 ]) d'8 c'8 | d'4 e'4 | a8 ([ e'8 ])  d'8 c'8 | d'8 e'8 e'8 e'8 \break |
+    c'8 g'8 g'8 g'8 | g'8 ([a'8]) g'8 f'8 | e'2 \repeat volta 2 { c'8 ([ d'8 ]) e'8 a'8 |\break
+    b'4 a'4 | c'8 ([ d'8 ]) e'8 a'8 | a'8 ([ c''8 ]) b'8 g'8 | a'2 | } \alternative { {  c'8 ([ d' e' ]) a'  | \break
+    b'8 ([ d''8 ]) c''8 b'8 | a'2 | } {  c'8 ([ d'8 e'8 ]) a8 | b8 ([ d'8 ]) c'8 b8 | a2 | \bar "|." \break } }
+  }
+  
+  \addlyrics {
+    "1. Зун" ме -- ри ма -- ну, зун ме -- ри -- ма -- нун -- да -- на,
+    а -- са -- ви -- та ви -- та нан -- да. Зун ме -- ри 
+    ма -- ну, Зун ме -- ри ма -- нун -- да -- на, а -- са -- 
+    ви -- та  нан -- да.  а -- са -- ви -- та  нан -- да.    
+  }
+
+  \addlyrics {
+    "1. Zun" me -- ri ma -- nu, zun me -- ri -- ma -- nun -- da -- na,
+    a -- sa -- vi -- ta vi -- ta nan -- da. Zun me -- ri 
+    ma -- nu, Zun me -- ri ma -- nun -- da -- na, a -- sa -- 
+    vi -- ta  nan -- da.  a -- sa -- vi -- ta  nan -- da.    
+  }
+
+  \addlyrics {
+    "2. Вси" -- чко е све -- тло, вси -- чко е о -- све -- те -- но
+    с~Мой -- та жи -- ва Ви -- де -- ли -- на. 
+  }
+
+  \addlyrics {
+    "2. Vsi" -- chko e sve -- tlo, vsi -- chko e o -- sve -- te -- no
+    s~Moy -- ta zhi -- va Vi -- de -- li -- na. 
+  }
+
+  \header {
+    title = "Тайната вечеря / Taynata vecherya"
+  }
+
+  \midi {
+  }
+} % score
+
+  \markup \halign #-10 { 
+    \column  { 
+      \line  \halign #-5 { 
+        \bold  { "D. C." }
+      }
+      \line { 
+        \bold { con ripetizione }
+      }
+    }
+  }
+
+} % bookpart
+\version "2.18.2"
+
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##f 
+  left-margin = 2\cm
+  right-margin = 2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+}
+
+\header {
+  tagline = ##f
+}
+
+\bookpart {
+\score{
+  \layout { 
+    indent = 0.0\cm % remove first line indentation
+    ragged-last = ##f % do spread last line to fill the whole space
+    \context {
+      \Score
+      \omit BarNumber %remove bar numbers
+    } % context
+  } % layout
+
+  \new Voice \absolute  {
+    \clef treble
+    \key c \minor
+    \time 5/4 \tempo "Andante" 4 = 80
+    c'4 es'4 d'4 c'2 | \time 7/4 c'4 es'4 d'4 c'4 b4 c'2 |  \break
+    \time 6/4 g'4 c''4 bes'4 as'4 g'4 f'4 |  es'2 d'4 c'2 c'8 ( d'8 ) | \break
+    \repeat volta 2 { es'4 d'4 c'4 c'2 f'8 ( g'8 ) | as'4 g'4 f'4 es'2  g'8 ( c''8 ) | \time 4/4 \break
+    c''4 bes'4 as'4 g'4 |} \alternative { { \time 6/4 f'4 es'4 d'4 c'2 c'8 ( d'8 ) } {  f'4 es'4 d'4 c'2. | \bar "|."} }
+  }
+  
+  \addlyrics {
+    Те -- бе по -- ем, Те -- бе бла -- го -- да -- рим.
+    Те -- бе бла -- го -- сло -- вим, Бо -- же наш.  И 
+    мо -- лим Ти ся, И  мо -- лим Ти ся,  И  
+    мо -- лим Ти ся, o, Бо -- же наш. И o, Бо -- же наш.
+  }
+
+  \addlyrics {
+    Te -- be po -- em, Te -- be bla -- go -- da -- rim.
+    Te -- be bla -- go -- slo -- vim, Bo -- zhe nash.  I 
+    mo -- lim Ti sya, I  mo -- lim Ti sya,  I  
+    mo -- lim Ti sya, o, Bo -- zhe nash. I o, Bo -- zhe nash.
+  }
+
+  \header {
+    title = "Тебе поем / Tebe poem"
+  }
+
+  \midi {
+  }  
 } % score
 } % bookpart

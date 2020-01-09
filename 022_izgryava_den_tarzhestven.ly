@@ -26,6 +26,7 @@
   \new Voice \absolute  {
   \clef treble
   \key d \minor
+  
   \time 4/4 \tempo "Andante" 4 = 92
   \autoBeamOff
   \partial 4.

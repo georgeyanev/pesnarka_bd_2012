@@ -86,7 +86,7 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
 
 \pageBreak
 
-\markup {  \hspace #25 \fontsize #4 \bold "Ich werde mich erfreuen"  }
+\markup {  \hspace #25 \fontsize #3 \bold "Ich werde mich erfreuen"  }
 
 \markup {
     \hspace #1

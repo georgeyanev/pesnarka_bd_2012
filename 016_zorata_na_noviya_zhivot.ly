@@ -2,11 +2,14 @@
 \paper {
   print-all-headers = ##t
   print-page-number = ##f 
+  
   left-margin = 1.5\cm
   right-margin = 1.5\cm
   ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
   %#(set-paper-size "mein Format") 
 }
+
+
 
 \header {
   tagline = ##f

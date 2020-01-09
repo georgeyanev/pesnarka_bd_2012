@@ -81,7 +81,7 @@
   \header {
     title = "Излязъл е сеяч / Izlyazal e seyach"
   }
-
+   
 } % score
 
 \markup {
@@ -190,7 +190,7 @@
       
       \line { " " }
       \line { "   " \italic { Refrain :}  }
-        \line { " " }
+      
       \line {  "  " Eine unschätzbare Gabe ist die Liebe (ljubovta), }
       \line {   "   "ein schönes Gefühl die Liebe (obitschta), }  
       \line {   "   " und ein gutes Werk die Barmherzigkeit, }
