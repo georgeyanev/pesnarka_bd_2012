@@ -36,7 +36,7 @@
     
     \slurNeutral g4 a a8 ([g a bes]) g2 \bar "|" 
     d'2 c4 (b8 [c]) a8. ([bes16 a8 g]) \bar "|"
-    \slurDown f8([ g] \acciaccatura { a16 [b] } c4 b!8[ c]) f,2 \bar "|"  \break
+    \slurDown f8([ g] \acciaccatura { a16 [b] } c4 b!8[ c]) a2 \bar "|"  \break
     
     a8( [bes] \acciaccatura { c16 [d] } c4) bes8( [a g a]) g4. g8 \bar "|"
     \slurNeutral c8.( [bes16]) a8.( [g16]) g4 f8( [g \appoggiatura bes a g]) \bar "|"  \break
