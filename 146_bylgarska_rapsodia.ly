@@ -112,7 +112,7 @@
     c'4\fermata \acciaccatura{ b16[c] } \tuplet 3/2 { \stemUp b8 \stemNeutral a gis} a8 \tupletUp \tuplet 3/2 { b16(c b) } e,2 | \noBreak
     \time 4/4 \tuplet 3/2 { e8\tenuto f\tenuto g\tenuto } g2 a4 | \time 3/4 \break
     
-    \acciaccatura {f16[g]} \tuplet 3/2 { f8 e f } f4\tenuto e4\tenuto | \noBreak
+    \acciaccatura {f16[g]} \tuplet 3/2 { f8 e g } f4\tenuto e4\tenuto | \noBreak
     a2 d,4 | \noBreak
     \time 4/4 g16 f e d c b c d e2 | \break
     
@@ -275,7 +275,7 @@
     pla -- nin -- ska pe -- sen raz -- niz -- va; mo -- ma -- ta men -- tsi na -- li -- va,
     "v ͜ pe" -- sen -- ta ti -- ho se za -- slush -- va.
     \repeat unfold 26 { \skip 1 }
-    SHTe o -- ti -- da ta -- mo go -- re, shte o -- ti -- da
+    Shte o -- ti -- da ta -- mo go -- re, shte o -- ti -- da
     "v ͜ pla" -- ni -- na -- ta, chis -- ti vo -- di da po -- gle -- dam, ti -- ha pe -- sen 
     da po -- slu -- sham, shte o -- ti -- da ta -- mo.
     \repeat unfold 23 { \skip 1 }
@@ -299,6 +299,8 @@
   \header {
     title = "Българска рапсодия / Balgarska rapsodiya"
   }
+  
+  \midi {}
 
 } % score
 } %bookpart
