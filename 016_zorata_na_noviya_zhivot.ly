@@ -1,6 +1,11 @@
 \version "2.18.2"
+
 \paper {
   #(set-paper-size "a5")
+}
+
+\bookpart {
+\paper {
   print-all-headers = ##t
   print-page-number = ##t 
   print-first-page-number = ##t
@@ -21,14 +26,22 @@
 
   left-margin = 1.5\cm
   right-margin = 1.5\cm
-  ragged-bottom = ##f % do spread the staves to fill the whole vertical space
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+  
+  fonts = #
+  (make-pango-font-tree
+   "Times New Roman"
+   "DejaVu Sans"
+   "DejaVu Sans Mono"
+   (/ (* staff-height pt) 3.2))
+  
+  
 }
 
 \header {
   tagline = ##f
 }
 
-\bookpart {
 \score{
   \layout { 
     indent = 0.0\cm % remove first line indentation
@@ -37,29 +50,41 @@
       \Score
       \omit BarNumber %remove bar numbers
     } % context
+    
+    \context {
+      \Staff
+      fontSize = #-1
+      \override StaffSymbol #'staff-space = #(magstep -3)
+    }
+    
+    \context {
+        \Lyrics
+          \override VerticalAxisGroup #'nonstaff-nonstaff-spacing = #'((basic-distance . 1))
+    }
   } % layout
-
   \new Voice \absolute  {
     \clef treble
     \key c \major
     \time 3/8 \tempo "Moderato" 8 = 160
     \partial 8
     \autoBeamOff  
- 
+
     c'8 |e'4 g'8|c''4 g'8 |a'4 g'8 |c''4.| g'4. ~ |  g'4    g'8 |\break
     c''4 c''8| \once \autoBeamOn c''8 ([  b'8  ])  \noBeam  c''8 |d''4 b'8  |c''4. ( | c''4 ) a'8| a'4 a'8| \break
     d''4  c''8| b'4 a'8| a'4. | g'4. ( |g'4 ) g'8 | a'4 g'8 | g'4 f'8 | \break
     e'4 d'8| c'4. ( | c'4. ) | \bar "||"
     \tempo "Piu mosso" 8 = 176
-    g'8  fis'8 g'8 | a'4 g'8 | g'4 g'8 |c''4. (| \break
+    g'8  fis'8 g'8 | a'4 g'8 | g'4 g'8 | c''4. (| \break 
     c''4. ) | c''8 b'8 c''8| d''4 c''8 | b'4  b'8 | b'4.  (| b'4 )  a'8| b'4 a'8 | \break
     g'4 fis'8 | g'4. (| g'4. ) | a'8 g'8 f'8 | f'4 f'8 | e'4 f'8 | g'4. (| \break
     g'4 ) g'8 | a'4 g'8 | g'4 fis'8 | g'4. (| g'4. )| d'8 e'8 f'!8| f'4 f'8 | \break
-    e'4 f'8 | g'4. (|g'4 ) e'8 | g'4 f'8 | e'4 d'8 | c'4. ( | c' 4 ) s8 | \bar "|."  \pageBreak
+    e'4 f'8 | g'4. (|g'4 ) e'8 | g'4 f'8 | e'4 d'8 | c'4. ( | c' 4 ) s8 | \bar "|." 
   }
   
-  \addlyrics {
-    Зо -- ра се чуд -- на за -- зо -- ря -- ва, зо -- 
+  \addlyrics { 
+    %Minimize the space between staff and lyrics
+    %\override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4))
+    "1. Зо" -- ра се чуд -- на за -- зо -- ря -- ва, зо -- 
     ра на све -- тъл нов жи -- вот, све -- ли -- ко -- 
     ле -- пи -- е ог -- ря -- ва по -- спре -- ли -- я се 
     наш ки -- вот. В~но -- ви -- я све -- тъл тоз жи -- вот, __  
@@ -70,7 +95,11 @@
   }
 
   \addlyrics {
-    Zo -- ra se chud -- na za -- zo -- rya -- va, zo -- 
+    \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 1))
+    \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((basic-distance . 1))
+    \override VerticalAxisGroup.nonstaff-unrelatedstaff-spacing = #'((basic-distance . 1))
+    \override VerticalAxisGroup.staff-affinity = #DOWN
+    "1. Zo" -- ra se chud -- na za -- zo -- rya -- va, zo -- 
     ra na sve -- tal nov zhi -- vot, sve -- li -- ko -- 
     le -- pi -- e og -- rya -- va po -- spre -- li -- ya se 
     nash ki -- vot. V~no -- vi -- ya sve -- tal toz zhi -- vot, __  
@@ -81,9 +110,10 @@
   }
 
   \header {
-    title = \markup \column { 
+    title = \markup \column \normal-text \fontsize #1.5 { 
               \line { Зората на Новия живот }
-              \line { Zorata na Noviya zhivot  }
+              \vspace #-0.6
+              \line { Zorata na Noviya zhivot }
             }
   }
   
