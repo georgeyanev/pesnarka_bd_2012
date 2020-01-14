@@ -51,17 +51,19 @@
       \omit BarNumber %remove bar numbers
     } % context
     
-    \context {
+    \context { % change staff size
       \Staff
-      fontSize = #-1
+      fontSize = #-1 
       \override StaffSymbol #'staff-space = #(magstep -3)
     }
     
-    \context {
-        \Lyrics
-          \override VerticalAxisGroup #'nonstaff-nonstaff-spacing = #'((basic-distance . 1))
+    \context { % adjust space between staff and lyrics and between the two lyric lines
+      \Lyrics
+      \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.2))
+      \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((basic-distance . 2))
     }
   } % layout
+  
   \new Voice \absolute  {
     \clef treble
     \key c \major
@@ -82,11 +84,9 @@
   }
   
   \addlyrics { 
-    %Minimize the space between staff and lyrics
-    %\override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4))
     "1. Зо" -- ра се чуд -- на за -- зо -- ря -- ва, зо -- 
-    ра на све -- тъл нов жи -- вот, све -- ли -- ко -- 
-    ле -- пи -- е ог -- ря -- ва по -- спре -- ли -- я се 
+    ра на све -- тъл нов жи -- вот; с~ве -- ли -- ко -- 
+    ле -- пи -- е о -- гря -- ва по -- спре -- ли -- я се 
     наш ки -- вот. В~но -- ви -- я све -- тъл тоз жи -- вот, __  
     в~но -- ви -- я све -- тъл тоз жи -- вот, жи -- вот на 
     Лю -- бов -- та.  в~но -- ви -- я све -- тъл тоз жи -- вот, __ 
@@ -95,13 +95,9 @@
   }
 
   \addlyrics {
-    \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 1))
-    \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((basic-distance . 1))
-    \override VerticalAxisGroup.nonstaff-unrelatedstaff-spacing = #'((basic-distance . 1))
-    \override VerticalAxisGroup.staff-affinity = #DOWN
     "1. Zo" -- ra se chud -- na za -- zo -- rya -- va, zo -- 
-    ra na sve -- tal nov zhi -- vot, sve -- li -- ko -- 
-    le -- pi -- e og -- rya -- va po -- spre -- li -- ya se 
+    ra na sve -- tal nov zhi -- vot; s~ve -- li -- ko -- 
+    le -- pi -- e o -- grya -- va po -- spre -- li -- ya se 
     nash ki -- vot. V~no -- vi -- ya sve -- tal toz zhi -- vot, __  
     v~no -- vi -- ya sve -- tal toz zhi -- vot, zhi -- vot na 
     Lyu -- bov -- ta.  v~no -- vi -- ya sve -- tal toz zhi -- vot, __ 
