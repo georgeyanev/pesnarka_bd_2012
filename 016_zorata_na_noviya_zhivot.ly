@@ -24,18 +24,34 @@
       ""
     }
 
+%  \markup { \column {
+%    \on-the-fly \print-all-headers { \bookTitleMarkup \hspace #1 }
+%  \fill-line {
+%    \fromproperty #'header:piece
+%    \fromproperty #'header:opus
+%  }
+% }  
+
   left-margin = 1.5\cm
   right-margin = 1.5\cm
+  top-margin = 1.6\cm
+  bottom-margin = 1.2\cm
   ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+  % change lyrics and titles font (affects notes also)
+  fonts = 
+    #(make-pango-font-tree
+     "Times New Roman"
+     "DejaVu Sans"
+     "DejaVu Sans Mono"
+     (/ (* staff-height pt) 3.2))
   
-  fonts = #
-  (make-pango-font-tree
-   "Times New Roman"
-   "DejaVu Sans"
-   "DejaVu Sans Mono"
-   (/ (* staff-height pt) 3.2))
-  
-  
+  % change distance between staves
+  system-system-spacing =
+    #'((basic-distance . 11)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
 }
 
 \header {
@@ -55,27 +71,42 @@
       \Staff
       fontSize = #-1 
       \override StaffSymbol #'staff-space = #(magstep -3)
+      \override StaffSymbol #'thickness = #0
+      %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
     }
     
     \context { % adjust space between staff and lyrics and between the two lyric lines
       \Lyrics
-      \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.2))
+      %\override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.2))
       \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((basic-distance . 2))
     }
   } % layout
-  
+
+
   \new Voice \absolute  {
     \clef treble
     \key c \major
-    \time 3/8 \tempo "Moderato" 8 = 160
+    \time 3/8 
+    %\tempo "Moderato" 8 = 160
+    \tempo \markup { % make tempo note smaller
+      \concat { "Moderato " \normal-text { "(" }
+          \teeny \general-align #Y #DOWN \note #"8" #0.8
+          \normal-text { " = 160)" }
+      }
+    }
     \partial 8
     \autoBeamOff  
-
     c'8 |e'4 g'8|c''4 g'8 |a'4 g'8 |c''4.| g'4. ~ |  g'4    g'8 |\break
     c''4 c''8| \once \autoBeamOn c''8 ([  b'8  ])  \noBeam  c''8 |d''4 b'8  |c''4. ( | c''4 ) a'8| a'4 a'8| \break
     d''4  c''8| b'4 a'8| a'4. | g'4. ( |g'4 ) g'8 | a'4 g'8 | g'4 f'8 | \break
     e'4 d'8| c'4. ( | c'4. ) | \bar "||"
-    \tempo "Piu mosso" 8 = 176
+    %\tempo "Più mosso" 8 = 176
+    \tempo \markup { % make tempo note smaller
+      \concat { "Più mosso " \normal-text { "(" }
+          \teeny \general-align #Y #DOWN \note #"8" #0.8
+          \normal-text { " = 176)" }
+      }
+    }
     g'8  fis'8 g'8 | a'4 g'8 | g'4 g'8 | c''4. (| \break 
     c''4. ) | c''8 b'8 c''8| d''4 c''8 | b'4  b'8 | b'4.  (| b'4 )  a'8| b'4 a'8 | \break
     g'4 fis'8 | g'4. (| g'4. ) | a'8 g'8 f'8 | f'4 f'8 | e'4 f'8 | g'4. (| \break
@@ -107,20 +138,22 @@
 
   \header {
     title = \markup \column \normal-text \fontsize #1.5 { 
+              \center-align
               \line { Зората на Новия живот }
               \vspace #-0.6
-              \line { Zorata na Noviya zhivot }
+              \center-align
+              \line \fontsize #-3 { Zorata na Noviya zhivot }
             }
   }
   
   \midi{}
 } % score
 
-\markup {
-    \hspace #10
-    \fontsize #+1 {
-  
-     
+\pageBreak
+
+\markup \fontsize #+1 {
+    \hspace #5
+    \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
       \line { 2. И птички въздуха изпълнят }
       \line {   "   " с възторг и сладки песни в хор, }  
@@ -161,9 +194,10 @@
       \line {   "   " И шепнат сладко, как Той вика: }
       \line {   "   " Елате, моите деца! } 
     }
-    
-   \hspace #1 {
-    \column  {
+
+    \hspace #5
+    \override #'(baseline-skip . 2.4)
+    \column {
       \line { 2. I ptichki vazduha izpalnyat }
       \line {   "   " s vaztorg i sladki pesni v hor, }  
       \line {   "   " Harmoniyata da dopalnyat }
@@ -202,95 +236,12 @@
       \line {   "   " Te palnyat nashite sartsa, }  
       \line {   "   " I shepnat sladko, kak Toy vika: }
       \line {   "   " Elate, moite detsa! } 
-    }    
-    }
-    }
- 
-}
+    } %column
+} % markup
 
 \pageBreak
 
-\markup {  \hspace #20 \fontsize #3 \bold "Die wunderbare Mögenröte bricht an"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
-  
-     
-    \column {
-     \line { " " }
-      \line { 1. Die wunderbare Morgenröte bricht an, }
-      \line {   "   " die wundervolle Morgenröte des hellen, neuen Lebens, }  
-      \line {   "   " mit Herrlichkeit bescheint sie unsere Bundeslade }
-      \line {   "   " Die wunderbare Morgenröte bricht an, } 
-      \line {   "   " die Morgenröte des neuen Lebens. } 
-      
-      \line { " " }
-      \line { 2. Und die Vögel erfüllen die Luft }
-      \line {   "   "mit Begeisterung und süßen Liedern im Chor, }  
-      \line {   "   " damit sie die Harmonie ergänzen }
-      \line {   "   " im großen himmlischen Hof. } 
-      
-       \line { " " }
-    \line { "   " \italic { Refrain :}  }
-      \line {    "   "In diesem neuen, leuchtenden Leben (2) }
-      \line {   "   "ein Leben der Liebe, }  
-      \line {   "   " in diesem neuen Leben der Liebe, }
-      \line {   "   " in das Leben der Güte, } 
-       \line {   "   "in diesem neuen leuchtenden Leben, }  
-       \line {   "   "ein Leben der Freude.} 
-      
-     
- 
-       
-      \line { " " }
-      \line { 3. Die Morgenröte flimmert leichtbeschwingt }
-      \line {   "   " und erweckt unsere Seelen; }  
-      \line {   "   " wie liebe, liebevolle Mutter }
-      \line {   "   " ladet sie jeden ein: Stehe auf! } 
-      
-      \line { " " }
-    \line { "   " \italic { Refrain } ... }
-      
-      \line { " " }
-      \line { 4. Strahlen aus Liebe flößen }
-      \line {   "   " in unserer Brust lebendige Wärme ein, }  
-      \line {   "   " mit süßem Glauben erheben sie uns }
-      \line {   "   " in Stärke und Licht.} 
-      
-       \line { " " }
-    \line { "   " \italic { Refrain } ... }
-    
-       \line { " " }
-      \line { 5. O, diese Strahlen kommen von Gott, }
-      \line {   "   " sie erfüllen unsere Herzen }  
-      \line {   "   " und flüstern uns süß zu, wie Er ruft: }
-      \line {   "   " Kommt, meine Kinder!} 
-      
-      \line { " " }
-    \line { "   " \italic { Refrain } ... }
-    }
-       
-    }    
-    }
-}
+% include foreign translation(s) of the song
+\include "lyrics_de/016_zorata_na_noviya_zhivot_lyrics_de.ly"
 
 } % bookpart
-
-
-%}
-   
- 
- 
-
-
- 
-    
-   
-    
- 
-%---------------------------------------------------------------------  
