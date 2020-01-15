@@ -48,7 +48,7 @@
   
   % change distance between staves
   system-system-spacing =
-    #'((basic-distance . 11)
+    #'((basic-distance . 12)
        (minimum-distance . 6)
        (padding . 1)
        (stretchability . 12))
@@ -77,8 +77,8 @@
     
     \context { % adjust space between staff and lyrics and between the two lyric lines
       \Lyrics
-      %\override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.2))
-      \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((basic-distance . 2))
+      %\override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.7))
+      \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2.3))
     }
   } % layout
 
