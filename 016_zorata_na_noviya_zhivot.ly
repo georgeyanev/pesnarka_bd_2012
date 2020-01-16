@@ -24,14 +24,6 @@
       ""
     }
 
-%  \markup { \column {
-%    \on-the-fly \print-all-headers { \bookTitleMarkup \hspace #1 }
-%  \fill-line {
-%    \fromproperty #'header:piece
-%    \fromproperty #'header:opus
-%  }
-% }  
-
   left-margin = 1.5\cm
   right-margin = 1.5\cm
   top-margin = 1.6\cm
@@ -44,7 +36,7 @@
      "Times New Roman"
      "DejaVu Sans"
      "DejaVu Sans Mono"
-     (/ (* staff-height pt) 3.2))
+     (/ (* staff-height pt) 3.8))
   
   % change distance between staves
   system-system-spacing =
@@ -69,16 +61,17 @@
     
     \context { % change staff size
       \Staff
-      fontSize = #-1 
+      fontSize = #+0 % affects notes size only 
       \override StaffSymbol #'staff-space = #(magstep -3)
       \override StaffSymbol #'thickness = #0
+      \override BarLine #'hair-thickness = #1     
       %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
     }
     
     \context { % adjust space between staff and lyrics and between the two lyric lines
       \Lyrics
-      %\override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.7))
-      \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2.3))
+      \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+      \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
     }
   } % layout
 
@@ -137,12 +130,15 @@
   }
 
   \header {
-    title = \markup \column \normal-text \fontsize #1.5 { 
+    title = \markup \column \normal-text \fontsize #2.5 { 
               \center-align
               \line { Зората на Новия живот }
               \vspace #-0.6
               \center-align
               \line \fontsize #-3 { Zorata na Noviya zhivot }
+              \vspace #-0.8
+              \center-align
+              \line \fontsize #-3 { " " }
             }
   }
   
@@ -151,7 +147,7 @@
 
 \pageBreak
 
-\markup \fontsize #+1 {
+\markup \fontsize #+2.5 {
     \hspace #5
     \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {

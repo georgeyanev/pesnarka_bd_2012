@@ -1,9 +1,9 @@
 \version "2.18.2"
 
-\markup \fill-line { \fontsize #4.5 "Die wunderbare Mögenröte bricht an" }
+\markup \fill-line { \fontsize #6 "Die wunderbare Mögenröte bricht an" }
 \markup \null
 \markup \null
-\markup \fontsize #+1 {
+\markup \fontsize #+2.5 {
     \hspace #10
     \override #'(baseline-skip . 2)
     \column {
