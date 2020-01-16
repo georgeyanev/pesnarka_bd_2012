@@ -115,7 +115,7 @@
     в~но -- ви -- я све -- тъл тоз жи -- вот, жи -- вот на 
     Лю -- бов -- та.  в~но -- ви -- я све -- тъл тоз жи -- вот, __ 
     жи -- вот на Бла -- гост -- та, в~но -- ви -- я све -- тъл 
-    тоз жи -- вот, жи -- вот на Ра -- дост -- та. 
+    тоз жи -- вот, жи -- вот на Ра -- дост -- та.
   }
 
   \addlyrics {
@@ -126,7 +126,7 @@
     v~no -- vi -- ya sve -- tal toz zhi -- vot, zhi -- vot na 
     Lyu -- bov -- ta.  v~no -- vi -- ya sve -- tal toz zhi -- vot, __ 
     zhi -- vot na Bla -- gost -- ta, v~no -- vi -- ya sve -- tal 
-    toz zhi -- vot, zhi -- vot na Ra -- dost -- ta. 
+    toz zhi -- vot, zhi -- vot na Ra -- dost -- ta.
   }
 
   \header {
