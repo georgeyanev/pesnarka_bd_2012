@@ -158,6 +158,8 @@
   \header {
     title = "Мирът иде / Mirat ide"
   }
+  
+\midi{}
 
 } % score
 } % bookpart

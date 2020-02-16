@@ -29,13 +29,13 @@
     \time 3/4 \tempo "Adagio" 4 = 56
     \autoBeamOff
     
-   \partial 4 g'8 bes8 | d2 es8. g16 | \time 4/4 d4 d2 es8. d16 | \break
+   \partial 4 g'8. bes16 | d2 es8. g16 | \time 4/4 d4 d2 es8. d16 | \break
    
    c2. c8. d16 | bes4 g2 bes8. bes16 | \time 3/4 a2 g8. a16| \time 4/4 \break
    
-   bes4 a2 bes8. g16 | \time 3/4 a2 g8. a16 | \time 4/4 \break
+   bes4 a2 bes8. g16 | \time 3/4 bes2 g8. a16 | \time 4/4 \break
    
-   bes4 a2 g8. a16| \time 3/4 bes2 a8. g16 | g4 a2| \break
+   bes4 a2 g8. a16| \time 3/4 bes2 a8. g16 | g4 g2| \break
    
    
    % notes here
@@ -64,6 +64,8 @@
   \header {
     title = "Към Фир фюр фен / Kam Fir fyur fen"
   }
+  
+  \midi { }
 
 } % score
 } % bookpart

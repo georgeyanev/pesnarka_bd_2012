@@ -114,6 +114,8 @@
   \header {
     title = "Сърдечен зов / Sardechen zov"
   }
+  
+  \midi{}
 
 } % score
 } % bookpart
