@@ -33,10 +33,10 @@
   % change lyrics and titles font (affects notes also)
   fonts = 
     #(make-pango-font-tree
-     "Garamond"
+     "Times New Roman"
      "DejaVu Sans"
      "DejaVu Sans Mono"
-     (/ (* staff-height pt) 3.9))
+     (/ (* staff-height pt) 3.6))
   
   % change distance between staves
   system-system-spacing =
@@ -63,7 +63,7 @@
       \Staff
       fontSize = #+0 % affects notes size only 
       \override StaffSymbol #'staff-space = #(magstep -3)
-      \override StaffSymbol #'thickness = #0
+      \override StaffSymbol #'thickness = #0.5
       \override BarLine #'hair-thickness = #1     
       %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
     }
@@ -147,11 +147,11 @@
 
 \pageBreak
 
-\markup \fontsize #+2.2 {
-    \hspace #-1
+\markup \fontsize #+2.5 {
+    \hspace #1
     \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
-      \line { 2. И птички въздуха изпълнят  }
+      \line { 2. И птички въздуха изпълнят }
       \line {   "   " с възторг и сладки песни в хор, }  
       \line {   "   " Хармонията да допълнят }
       \line {   "   " В големия небесен двор.} 
