@@ -41,7 +41,7 @@
          \override Score.MetronomeMark #'outside-staff-priority = #599
          \override Score.MetronomeMark.X-extent=#'(-4.5 . 0)
          \tempo "Meno mosso" 4 = 92
-         d'2 e'4 d'4 | b'1 | \tempo "rit." a'2 b'4 b'4 | g'1| \bar "|." \break } 
+         d'2 e'4 d'4 | b'1 | \tempo "rit." a'2 b'4 a'4 | g'1| \bar "|." \break } 
     }
   }
   
@@ -59,7 +59,7 @@
     Brat -- stvo, e -- din -- stvo ni -- e is -- ka -- me, 
     zo -- va na Lyu -- bov -- ta ni -- e pus -- ka -- me, mi -- ra na Ra -- dost -- ta
     ni -- e vi -- ka -- me: blag Zhi -- vot v~nas da vli -- va -- me,
-    blag ZHi -- vot v~nas da vli -- va -- me, blag ZHi -- vot v~nas
+    blag Zhi -- vot v~nas da vli -- va -- me, blag Zhi -- vot v~nas
     da vli -- va -- me, blag ZHi -- vot v~nas da vli -- va -- me,
     da vli -- va -- me, da vli -- va -- me, da vli -- va -- me,
     da vli -- va -- me, da vli -- va -- me. 
@@ -68,6 +68,8 @@
   \header {
     title = "Братство, единство / Bratstvo, edinstvo"
   }
+  
+  \midi{}
 
 } % score
 
@@ -81,4 +83,42 @@
       }
     }
   } 
+  
+  %gernman lyrics
+  
+  \markup { \hspace #25 \fontsize #3 \bold "Brüderlichkeit, Einheit" }
+  %\markup {  \hspace #25   \huge\bold "Brüderlichkeit, Einheit"  }
+
+\markup {
+    \hspace #1
+    \fontsize #+1 {
+      
+      \halign #-1.5 {
+  
+  
+  
+     
+    \column {
+     \line { " " }      
+      \line {  1. Wir wollen Brüderlichkeit und Einheit, }
+      \line {   "   "Wir senden den Ruf der Liebe aus, }  
+      \line {   "   " Die Welt der Freude rufen wir: }
+      \line {   "   " auf dass wir das gute Leben in uns
+ergießen! } 
+
+      
+      \line { " " }
+      \line {   2. Auf dass wir das gute Leben in uns ergießen, (3) }
+      \line {   "   "ergießen, ergießen, ergießen, }  
+      \line {   "   " Auf das wir das gute Leben in uns ergießen, (2) }
+      \line {   "   " ergießen, ergießen, ergießen. } 
+      
+       
+    }
+       
+    }    
+    }
+}
+  
+  
 } % bookpart
