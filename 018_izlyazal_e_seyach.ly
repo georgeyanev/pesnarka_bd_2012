@@ -1,18 +1,55 @@
 \version "2.18.2"
 
 \paper {
+  #(set-paper-size "a5")
+}
+
+\bookpart {
+\paper {
   print-all-headers = ##t
-  print-page-number = ##f 
-  left-margin = 2\cm
-  right-margin = 2\cm
+  print-page-number = ##t
+  print-first-page-number = ##t
+
+  % put page numbers on the bottom
+  oddHeaderMarkup = \markup ""
+  evenHeaderMarkup = \markup ""
+  oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+    }
+  evenFooterMarkup = \markup
+    \fill-line {
+      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+      ""
+    }
+
+  left-margin = 1.5\cm
+  right-margin = 1.5\cm
+  top-margin = 1.6\cm
+  bottom-margin = 1.2\cm
   ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+  % change lyrics and titles font (affects notes also)
+  fonts =
+    #(make-pango-font-tree
+     "Times New Roman"
+     "DejaVu Sans"
+     "DejaVu Sans Mono"
+     (/ (* staff-height pt) 3.6))
+
+  % change distance between staves
+  system-system-spacing =
+    #'((basic-distance . 12)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
 }
 
 \header {
   tagline = ##f
 }
 
-\bookpart {
 \score{
   \layout { 
     indent = 0.0\cm % remove first line indentation
@@ -21,12 +58,33 @@
       \Score
       \omit BarNumber %remove bar numbers
     } % context
+
+    \context { % change staff size
+      \Staff
+      fontSize = #+0 % affects notes size only
+      \override StaffSymbol #'staff-space = #(magstep -3)
+      \override StaffSymbol #'thickness = #0.5
+      \override BarLine #'hair-thickness = #1
+      %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
+    }
+
+    \context { % adjust space between staff and lyrics and between the two lyric lines
+      \Lyrics
+      \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+      \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
+    }
   } % layout
 
   \new Voice \absolute  {
     \clef treble
     \key c \major
-    \time 3/4 \tempo "Moderato" 4 = 144
+    \time 3/4 
+    \tempo \markup { % make tempo note smaller
+      \concat { "Moderato " \normal-text { "(" }
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \normal-text { " = 144)" }
+      }
+    }
     
     \partial 4 g'4| e''2 d''4| c''2 b'4|d''2 c''4| b'2. (|a'2.) g'2. (| \break
  
@@ -43,7 +101,12 @@
     } 
   
   \repeat volta 2 {  
-    \tempo "Piu mosso" 4 = 184
+    \tempo \markup { % make tempo note smaller
+      \concat { "Più mosso " \normal-text { "(" }
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \normal-text { " = 184)" }
+      }
+    }
     \bar ".|:" c''2 c''4 | c''4 ( b'4 ) c''4 | d''2 c''4 | b'2. (| b'4 ) r4 b'4 | a'2 a'4 | \break
      a'4 ( g'4 ) a'4 | b'2 a'4 | g'2. ( | g'4 ) r4 a'4 | a'2 a'4 | c''4 ( b'4) a'4 | a'2 e'4 |  \break
   }  
@@ -52,7 +115,7 @@
     {  f'2. (|  f'4 ) r4 g'4 | g'2 g'4 | a'2 
     \override Score.RehearsalMark #'outside-staff-priority = #599
     \mark\markup\normalsize\bold { "rit." } % places rit. below alternative bracket
-       a'4 | b'2 b'4 | c''2. ( | c''2 s4) | \bar "|." \pageBreak } }
+       a'4 | \stemUp b'2 b'4 | c''2. ( | c''2 s4) | \bar "|." \pageBreak } }
   }
  
   \addlyrics {
@@ -79,25 +142,33 @@
 
 
   \header {
-    title = "Излязъл е сеяч / Izlyazal e seyach"
+    title = \markup \column \normal-text \fontsize #2.5 {
+              \center-align
+              \line { Излязъл е сеяч }
+              \vspace #-0.6
+              \center-align
+              \line \fontsize #-3 { Izlyazal e seyach }
+              \vspace #-0.8
+              \center-align
+              \line \fontsize #-3 { " " }
+            }
   }
-   
+  
+  \midi{}
+
 } % score
 
-\markup {
+\markup \fontsize #+2.5 {
     \hspace #1
-    \fontsize #+1 {
-       
+    \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
-          
       \line { 1. Излязъл е сеяч да сее }
       \line {   "   " прекрасно благо – нов живот. }  
       \line {   "   " И сее той, и тихо пее }
-      \line {   "   " пред всеки дом и всеки род:
- } 
+      \line {   "   " пред всеки дом и всеки род: } 
  
- \line { " " }
-       \line { "   " \italic {Припев: } }
+      \line { " " }
+      \line { "   " \italic {Припев: } }
       \line {  "   " Безценен дар е Любовта, }
       \line { "   " красиво чувство – обичта, }
       \line { "   " и благо дело – милостта, }
@@ -109,127 +180,53 @@
       \line {   "   " и просиява, и възкръсва, }
       \line {   "   " и благославя тоз посев. } 
       
+      \line { " " }
+      \line { "   " \italic {Припев ...} }
       
-    \line { " " }
-       \line { "   " \italic {Припев ...} }
-      
-       \line { " " }
+      \line { " " }
       \line { 3. Любов Вселената облива, }
       \line {   "   " от обич грее всяка твар, }  
       \line {   "   " живот в живота се прелива – }
       \line {   "   " тук няма вече млад и стар. } 
-      
-      
-       \line { " " }
-       \line { "   " \italic {Припев ...} }
-     
+      \line { " " }
+      \line { "   " \italic {Припев ...} }
     }
- 
-   \hspace #10 {
-    
-    \column  {
-       
-     \line { 2. Izljasal e sejatsch da see }
-      \line {   "   " prekrasno blago - nov shivot. }  
-      \line {   "   " I see toj i ticho pee }
-      \line {   "   " Pred vseki dom i vseki rod. }
- 
- 
- \line { " " }
-       \line { "   " \italic { Refrain :} }
-      \line {  "   " Beszenen dar e Ljubovta }
-      \line { "   " krasivo chuvstvo -- obichta}
-      \line { "   " i blago delo -- milostta }
-      \line {  "   " obilen izvor -- madrostta. }
-   
+    \hspace #5
+    \override #'(baseline-skip . 2.4)
+    \column {
+      \line { 1. Izlyazal e seyach da see }
+      \line {   "   " prekrasno blago – nov zhivot. }  
+      \line {   "   " I see toy, i tiho pee }
+      \line {   "   " pred vseki dom i vseki rod: } 
  
       \line { " " }
-      \line { 3.  I kojto chue, v mig potrapva }
-      \line {   "   " ot toja blag i mil napev }  
-      \line {   "   " i prosijava, i vazkrasva, }
-      \line {   "   " i blagoslavja toz posev. } 
-      
-      \line { " " }
-    \line { "   " \italic { Refrain } ... }
-      
-       \line { " " }
-      \line { 4. Ljubov Vselenata obliva }
-      \line {   "   " ot obich gree vsjaka tvar, }  
-      \line {   "   " shivot v shivota se preliva }
-      \line {   "   " tuk veche njama mlad i star. } 
-      
-      \line { " " }
-    \line { "   " \italic { Refrain } ... }
-       
-    }    
-    }
-    }
+      \line { "   " \italic {Refrain: } }
+      \line {  "   " Beztsenen dar e Lyubovta, }
+      \line { "   " krasivo chuvstvo – obichta, }
+      \line { "   " i blago delo – milostta, }
+      \line {  "   " obilen izvor – madrostta.“}
  
+      \line { " " }
+      \line { 2. I koyto chue, v mig potrapva }
+      \line {   "   " ot toya blag i mil napev; }  
+      \line {   "   " i prosiyava, i vazkrasva, }
+      \line {   "   " i blagoslavya toz posev. } 
+      
+      \line { " " }
+      \line { "   " \italic {Refrain ...} }
+      
+      \line { " " }
+      \line { 3. Lyubov Vselenata obliva, }
+      \line {   "   " ot obich gree vsyaka tvar, }  
+      \line {   "   " zhivot v zhivota se preliva – }
+      \line {   "   " tuk nyama veche mlad i star. } 
+      \line { " " }
+      \line { "   " \italic {Refrain ...} }    }
 }
 
 \pageBreak
 
-\markup {  \hspace #25 \fontsize #3 \bold "Der Sämann ist hinausgegangen"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
-  
-     
-    \column {
-     \line { " " }
-      \line {  1. Der Sämann ist hinausgegangen, }
-      \line {   "   " um das wunderbare Gute zu säen: das neue Leben! }  
-      \line {   "   " Und er sät und singt leise }
-      \line {   "   " vor jedem Haus und jeder Familie: } 
-
-      
-      \line { " " }
-      \line { "   " \italic { Refrain :}  }
-      
-      \line {  "  " Eine unschätzbare Gabe ist die Liebe (ljubovta), }
-      \line {   "   "ein schönes Gefühl die Liebe (obitschta), }  
-      \line {   "   " und ein gutes Werk die Barmherzigkeit, }
-      \line {   "   " eine ergiebige Quelle die Weisheit. } 
-      
-       \line { " " }
-      \line {    2. Und wer sie hört, }
-      \line {   "   "erschauert vor dieser guten, liebevollen Melodie;  }  
-      \line {   "   " und erstrahlt und aufersteht }
-      \line {   "   " und segnet diese Saat. } 
-       
-      
-       \line { " " }
-    \line { "   " \italic { Refrain } ... }
- 
- 
-       
-      \line { " " }
-      \line { 3. Die Liebe strömt in das Universum aus, }
-      \line {   "   " aus Liebe strahlt jedes Wesen, }  
-      \line {   "   " das Leben quillt in das Leben über; }
-      \line {   "   " hier gibt es weder Jung noch Alt mehr. } 
-      
-      \line { " " }
-    \line { "   " \italic { Refrain } ... }
-      
-      \line { " " }
-      \line {  4. O, diese Strahlen kommen von Gott, }
-      \line {   "   " sie erfüllen unsere Herzen }  
-      \line {   "   " und flüstern uns süß zu, wie Er ruft: }
-      \line {   "   " Kommt, meine Kinder!} 
-      
-      \line { " " }
-    \line { "   " \italic { Refrain } ... }
-    }
-       
-    }    
-    }
-}
-
+% include foreign translation(s) of the song
+\include "lyrics_de/018_izlyazal_e_seyach_lyrics_de.ly"
 
 } % bookpart
