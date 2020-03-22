@@ -4,6 +4,36 @@
   #(set-paper-size "a5")
 }
 
+"rightBraces018" = \markup {
+  \column { % repeat braces
+    \translate #'(0 . -5.6 )
+    \right-brace #18
+
+    \translate #'(0 . -12.4 )
+    \right-brace #18
+
+    \translate #'(0 . -8 )
+    \right-brace #45
+
+    \translate #'(0 . -14.7 )
+    \right-brace #18
+
+  }
+  \column { % repeat numbers
+    \translate #'(0 . -6.2 )
+    2
+    
+    \translate #'(0 . -14.2 )
+    2
+
+    \translate #'(0 . -9.8 )
+    2
+
+    \translate #'(0 . -19.2 )
+    2
+  }
+}
+
 \bookpart {
 \paper {
   print-all-headers = ##t
@@ -44,6 +74,7 @@
        (minimum-distance . 6)
        (padding . 1)
        (stretchability . 12))
+
 }
 
 \header {
@@ -158,21 +189,21 @@
 
 } % score
 
+
 \markup \fontsize #+2 {
     \hspace #1
     \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
       \line { 1. Излязъл е сеяч да сее }
       \line {   "   " прекрасно благо – нов живот. }  
-      \line {   "   " И сее той, и тихо пее }
+      \line {   "   " И сее той, и тихо пее } 
       \line {   "   " пред всеки дом и всеки род: } 
- 
       \line { " " }
       \line { "   " \italic {Припев: } }
       \line {  "   " Безценен дар е Любовта, }
-      \line { "   " красиво чувство – обичта, }
-      \line { "   " и благо дело – милостта, }
-      \line {  "   " обилен извор – мъдростта.“}
+      \line { "   " красиво чувство – Обичта }
+      \line { "   " и благо дело – Милостта, }
+      \line {  "   " обилен извор – Мъдростта.}
  
       \line { " " }
       \line { 2. И който чуе, в миг потръпва }
@@ -185,12 +216,14 @@
       
       \line { " " }
       \line { 3. Любов Вселената облива, }
-      \line {   "   " от обич грее всяка твар, }  
-      \line {   "   " живот в живота се прелива – }
+      \line {   "   " от обич грее всяка твар; }  
+      \line {   "   " живот в живота се прелива, }
       \line {   "   " тук няма вече млад и стар. } 
       \line { " " }
       \line { "   " \italic {Припев ...} }
     }
+    \"rightBraces018"
+    
     \hspace #7
     \override #'(baseline-skip . 2.4)
     \column {
@@ -202,9 +235,9 @@
       \line { " " }
       \line { "   " \italic {Refrain: } }
       \line {  "   " Beztsenen dar e Lyubovta, }
-      \line { "   " krasivo chuvstvo – obichta, }
-      \line { "   " i blago delo – milostta, }
-      \line {  "   " obilen izvor – madrostta.“}
+      \line { "   " krasivo chuvstvo – Obichta }
+      \line { "   " i blago delo – Milostta, }
+      \line {  "   " obilen izvor – Madrostta.}
  
       \line { " " }
       \line { 2. I koyto chue, v mig potrapva }
@@ -217,11 +250,14 @@
       
       \line { " " }
       \line { 3. Lyubov Vselenata obliva, }
-      \line {   "   " ot obich gree vsyaka tvar, }  
-      \line {   "   " zhivot v zhivota se preliva – }
+      \line {   "   " ot obich gree vsyaka tvar; }  
+      \line {   "   " zhivot v zhivota se preliva, }
       \line {   "   " tuk nyama veche mlad i star. } 
       \line { " " }
-      \line { "   " \italic {Refrain ...} }    }
+      \line { "   " \italic {Refrain ...} }    
+    }
+    \"rightBraces018"
+
 }
 
 \pageBreak
