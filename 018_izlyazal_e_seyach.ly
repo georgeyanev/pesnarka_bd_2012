@@ -158,7 +158,7 @@
 
 } % score
 
-\markup \fontsize #+2.5 {
+\markup \fontsize #+2 {
     \hspace #1
     \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
@@ -191,7 +191,7 @@
       \line { " " }
       \line { "   " \italic {Припев ...} }
     }
-    \hspace #5
+    \hspace #7
     \override #'(baseline-skip . 2.4)
     \column {
       \line { 1. Izlyazal e seyach da see }
