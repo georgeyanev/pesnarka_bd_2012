@@ -1,19 +1,13 @@
 \version "2.18.2"
 
-%\markup {  \vspace #1.9 }
-
-\markup {  \hspace #25   \huge\bold "Brüderlichkeit, Einheit"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
-  
-     
-    \column {
+\markup \fill-line { \fontsize #6 "Brüderlichkeit, Einheit" }
+\markup \null
+\markup \null
+\markup \fontsize #+2.5 {
+    \hspace #10
+    \override #'(baseline-skip . 2)
+    
+        \column {
      \line { " " }      
       \line {  1. Wir wollen Brüderlichkeit und Einheit, }
       \line {   "   "Wir senden den Ruf der Liebe aus, }  
@@ -30,19 +24,7 @@ ergießen! }
       
        
     }
-       
-    }    
-    }
+    
+    
 }
-%}
-   
- 
- 
-
-
- 
     
-   
-    
- 
-%---------------------------------------------------------------------  

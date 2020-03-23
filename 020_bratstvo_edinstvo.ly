@@ -1,29 +1,81 @@
 \version "2.18.2"
 
 \paper {
+  #(set-paper-size "a5")
+}
+
+\bookpart {
+\paper {
   print-all-headers = ##t
-  print-page-number = ##f 
-  left-margin = 2\cm
-  right-margin = 2\cm
+  print-page-number = ##t
+  print-first-page-number = ##t
+
+  % put page numbers on the bottom
+  oddHeaderMarkup = \markup ""
+  evenHeaderMarkup = \markup ""
+  oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+    }
+  evenFooterMarkup = \markup
+    \fill-line {
+      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+      ""
+    }
+
+  left-margin = 1.5\cm
+  right-margin = 1.5\cm
+  top-margin = 1.6\cm
+  bottom-margin = 1.2\cm
   ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+  % change lyrics and titles font (affects notes also)
+  fonts =
+    #(make-pango-font-tree
+     "Times New Roman"
+     "DejaVu Sans"
+     "DejaVu Sans Mono"
+     (/ (* staff-height pt) 3.6))
+
+  % change distance between staves
+  system-system-spacing =
+    #'((basic-distance . 12)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
 }
 
 \header {
   tagline = ##f
 }
 
-\bookpart {
 \score{
   \layout { 
     indent = 0.0\cm % remove first line indentation
-    ragged-last = ##f % do spread last line to fill the whole space
+    ragged-last = ##f % do not spread last line to fill the whole space
     \context {
       \Score
       \omit BarNumber %remove bar numbers
     } % context
+
+    \context { % change staff size
+      \Staff
+      fontSize = #+0 % affects notes size only
+      \override StaffSymbol #'staff-space = #(magstep -3)
+      \override StaffSymbol #'thickness = #0.5
+      \override BarLine #'hair-thickness = #1
+      %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
+    }
+
+    \context { % adjust space between staff and lyrics and between the two lyric lines
+      \Lyrics
+      \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+      \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
+    }
   } % layout
 
-  \new Voice \absolute  {
+   \new Voice \absolute  {
     \clef treble
     \key g \major
     \time 2/4 \tempo "Tempo di marcia" 4 = 100
@@ -45,7 +97,9 @@
     }
   }
   
-  \addlyrics {
+  
+  
+ \addlyrics {
     Брат -- ство, е -- дин -- ство ни -- е ис -- ка -- ме, 
     зо -- ва на Лю -- бов -- та ни -- е пус -- ка -- ме, ми -- ра на Ра -- дост -- та
     ни -- е ви -- ка -- ме: благ Жи -- вот в~нас да вли -- ва -- ме,
@@ -66,59 +120,40 @@
   }
   
   \header {
-    title = "Братство, единство / Bratstvo, edinstvo"
+    title = \markup \column \normal-text \fontsize #2.5 {
+              \center-align
+              \line { Братство, единство }
+              \vspace #-0.6
+              \center-align
+              \line \fontsize #-3 {Bratstvo, edinstvo }
+              \vspace #-0.8
+              \center-align
+              \line \fontsize #-3 { " " }
+            }
   }
+  
+  
   
   \midi{}
 
 } % score
 
-  \markup \halign #-10 { 
+\markup \halign #-13 { 
     \column  { 
-      \line  \halign #-5 { 
+      \line  \halign #-3 { 
         \bold  { "D. C." }
       }
-      \line { 
+      \line  { 
         \bold { con ripetizione }
       }
     }
   } 
-  
-  %gernman lyrics
-  
-  \markup { \hspace #25 \fontsize #3 \bold "Brüderlichkeit, Einheit" }
-  %\markup {  \hspace #25   \huge\bold "Brüderlichkeit, Einheit"  }
 
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
-  
-     
-    \column {
-     \line { " " }      
-      \line {  1. Wir wollen Brüderlichkeit und Einheit, }
-      \line {   "   "Wir senden den Ruf der Liebe aus, }  
-      \line {   "   " Die Welt der Freude rufen wir: }
-      \line {   "   " auf dass wir das gute Leben in uns
-ergießen! } 
 
-      
-      \line { " " }
-      \line {   2. Auf dass wir das gute Leben in uns ergießen, (3) }
-      \line {   "   "ergießen, ergießen, ergießen, }  
-      \line {   "   " Auf das wir das gute Leben in uns ergießen, (2) }
-      \line {   "   " ergießen, ergießen, ergießen. } 
-      
-       
-    }
-       
-    }    
-    }
-}
-  
-  
+
+\pageBreak
+
+% include foreign translation(s) of the song
+\include "lyrics_de/020_bratstvo_edinstvo_lyrics_de.ly"
+
 } % bookpart
