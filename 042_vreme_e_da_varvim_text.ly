@@ -78,9 +78,6 @@ rigt_braces = \markup {
      
     \column {
       
-      
-     
-     
       \line { 1.Време е да вървим, }
       \line {   "   " злото да победим, }  
       \line {   "   " мира да въдворим, }
@@ -110,66 +107,7 @@ rigt_braces = \markup {
     
     \rigt_braces
   
-  %{  
-    \column {
-      
-     \line { " " }     %1-va skoba za povtorenie
-     \line { " " }    
-  \translate #'(0 . -0.8 )
-  \right-brace #15 
-  
-     \line { " " } %2-ra skoba za povtorenie
-     \line { " " } 
-     \line { " " } 
-     \line { " " }
-  \translate #'(0 . -0.8 )
-  \right-brace #15 
-  
-     \line { " " } %3-ta skoba za povtorenie
-     \line { " " } 
-     \line { " " } 
-     \line { " " }
-  \translate #'(0 . -0.6 )
-  \right-brace #15 
-  
-     \line { " " } %4-ta skoba za povtorenie
-     \line { " " } 
-     \line { " " } 
-     \line { " " }
-  \translate #'(0 . -0.6 )
-  \right-brace #15 
-     
-    }
-    
-  \column { 
-    
-    \line { " " }  %1-va cifra za povtorenie
-    \line { " " } 
-    \vcenter { 2 } 
-    
-     \line { " " }  %2-ra cifra za povtorenie
-     \line { " " } 
-     \line { " " } 
-     \line { " " } 
-    \vcenter { 2 } 
-    
-     \line { " " }  %3-ta cifra za povtorenie
-     \line { " " } 
-     \line { " " } 
-     \line { " " } 
-    \vcenter { 2 } 
-    
-     \line { " " }  %4-ta cifra za povtorenie
-     \line { " " } 
-     \line { " " } 
-     \line { " " } 
-    \vcenter { 2 } 
- 
-  
-  }
-    
- %}
-  %
+
    \hspace #18 {
     
     \column  {
@@ -201,7 +139,7 @@ rigt_braces = \markup {
      \rigt_braces 
        
     }
-%}
+
     }
  
  

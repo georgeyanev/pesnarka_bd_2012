@@ -200,7 +200,7 @@
       \line {   "   " V golemiya nebesen dvor.} 
 
       \line { " " }
-      \line { "   " \italic {Pripev: } }
+      \line { "   " \italic {Refrain: } }
       \line {  "   " V noviya svetal toz zhivot, }
       \line { "   " V noviya svetal toz zhivot, }
       \line { "   " Zhivot na lyubovta, }
@@ -216,7 +216,7 @@
       \line {   "   " s nov ton shte zazvuchi. } 
       
       \line { " " }
-      \line { "   " \italic {Pripev ...} }
+      \line { "   " \italic {Refrain ...} }
       \line { " " }
 
       \line { 4. Lachi ot lyubovta ni vlivat }
@@ -225,7 +225,7 @@
       \line {   "   " Vav krepost i videlina. } 
       
       \line { " " }
-      \line { "   " \italic {Pripev ...} }
+      \line { "   " \italic {Refrain ...} }
       \line { " " }
       
       \line { 5.  O tezi lachi ot Boga idat, }
