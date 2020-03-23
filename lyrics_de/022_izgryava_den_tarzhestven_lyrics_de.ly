@@ -1,21 +1,15 @@
+
 \version "2.18.2"
 
-\markup {  \hspace #25   \huge\bold "Der feierliche Tag bricht schon an,"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
-  
-     
-    \column {
-     \line { " " }
-     
-      
-      \line { 1. Der feierliche Tag bricht schon an, }
+\markup \fill-line { \fontsize #6 "Der feierliche Tag bricht schon an" }
+\markup \null
+\markup \null
+\markup \fontsize #+2.5 {
+    \hspace #10
+    \override #'(baseline-skip . 2)
+    
+         \column {
+     \line { 1. Der feierliche Tag bricht schon an, }
       \line {   "   " der vorhergesagte göttliche Tag, }  
       \line {   "   " ein Diadem der Tage,}
       \line {   "   " mit seinem großen Licht. } 
@@ -47,24 +41,9 @@
       \line { 3. O, wunderschöner Tag, ewiges Wohl, }
       \line {   "   " wem ist das nicht wertvoll? }  
       \line {   "   " Erneuere uns bald }
-      \line {   "   " für all die Jahre.} 
-      
-
+      \line {   "   " für all die Jahre.}  
       
     }
        
-    }    
-    }
-}
-%}
-   
- 
- 
-
-
- 
+    }  
     
-   
-    
- 
-%---------------------------------------------------------------------  

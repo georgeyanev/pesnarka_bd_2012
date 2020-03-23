@@ -1,26 +1,78 @@
 \version "2.18.2"
 
 \paper {
+  #(set-paper-size "a5")
+}
+
+\bookpart {
+\paper {
   print-all-headers = ##t
-  print-page-number = ##f 
-  left-margin = 2\cm
-  right-margin = 2\cm
+  print-page-number = ##t
+  print-first-page-number = ##t
+
+  % put page numbers on the bottom
+  oddHeaderMarkup = \markup ""
+  evenHeaderMarkup = \markup ""
+  oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+    }
+  evenFooterMarkup = \markup
+    \fill-line {
+      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+      ""
+    }
+
+  left-margin = 1.5\cm
+  right-margin = 1.5\cm
+  top-margin = 1.6\cm
+  bottom-margin = 1.2\cm
   ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+  % change lyrics and titles font (affects notes also)
+  fonts =
+    #(make-pango-font-tree
+     "Times New Roman"
+     "DejaVu Sans"
+     "DejaVu Sans Mono"
+     (/ (* staff-height pt) 3.6))
+
+  % change distance between staves
+  system-system-spacing =
+    #'((basic-distance . 12)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
 }
 
 \header {
   tagline = ##f
 }
 
-\bookpart {
 \score{
   \layout { 
     indent = 0.0\cm % remove first line indentation
-    ragged-last = ##f % do spread last line to fill the whole space
+    ragged-last = ##f % do not spread last line to fill the whole space
     \context {
       \Score
       \omit BarNumber %remove bar numbers
     } % context
+
+    \context { % change staff size
+      \Staff
+      fontSize = #+0 % affects notes size only
+      \override StaffSymbol #'staff-space = #(magstep -3)
+      \override StaffSymbol #'thickness = #0.5
+      \override BarLine #'hair-thickness = #1
+      %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
+    }
+
+    \context { % adjust space between staff and lyrics and between the two lyric lines
+      \Lyrics
+      \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+      \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
+    }
   } % layout
 
   \new Voice \absolute  {
@@ -41,6 +93,7 @@
   f'4. g'8 a'4 a'4. d'8 | f'4. d'8 f'4 e'2 | d'4. a8 d'4 d'2 \bar "|." \pageBreak
   }
   
+ 
   \addlyrics {
   Из -- гря -- ва ве -- че ден тър -- же -- ствен, пред -- ре -- че 
    -- ни -- ят ден Бо -- же -- ствен, на дни --
@@ -66,22 +119,31 @@
   ta ob -- no -- vya -- va i vech -- no tya go pod
   -- mla -- dya -- va.  
   }
-
+  
   \header {
-    title = "Изгрява ден тържествен / Izgryava den tarzhestven"
+    title = \markup \column \normal-text \fontsize #2.5 {
+              \center-align
+              \line { Изгява вече ден тържествен }
+              \vspace #-0.6
+              \center-align
+              \line \fontsize #-3 { Izgryava veche den tarshestven}
+              \vspace #-0.8
+              \center-align
+              \line \fontsize #-3 { " " }
+            }
   }
   
-  \midi { }
+  \midi{}
 
 } % score
 
-\markup {  \vspace #1.9 }
+\pageBreak
 
-\markup {
+\markup \fontsize #+2.5 {
     \hspace #1
-    \fontsize #+1 {
+    \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
-      \line { 1. Изгрява вече ден тържествен, }
+       \line { 1. Изгрява вече ден тържествен, }
 \line {   "   " предреченият ден Божествен, }
 \line {   "   " на дните диадема}
 \line {   "   " със светлина голяма. }
@@ -114,15 +176,12 @@
 
 \line { " " }
        \line { "   " \italic {Припев: } }
-
-     
     }
-    
-   \hspace #10 {
-    
-    \column  {
-       
-     \line { 1. Izgrjava vetsche den tyrshestven, }
+
+    \hspace #5
+    \override #'(baseline-skip . 2.4)
+    \column {
+   \line { 1. Izgrjava vetsche den tyrshestven, }
 \line {   "   " predretschenijat den Boshestven, }
 \line {   "   " na dnite diadema}
 \line {   "   " sys svetlina goljama. }
@@ -155,69 +214,12 @@
 
 \line { " " }
        \line { "   " \italic {Refrain: } }
-    }    
-    }
-    }
-}
+    } %column
+} % markup
 
 \pageBreak
 
-\markup {  \hspace #20 \fontsize #3 \bold "Der feierliche Tag bricht schon an"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
-  
-     
-    \column {
-     \line { " " }
-     
-      
-      \line { 1. Der feierliche Tag bricht schon an, }
-      \line {   "   " der vorhergesagte göttliche Tag, }  
-      \line {   "   " ein Diadem der Tage,}
-      \line {   "   " mit seinem großen Licht. } 
-      \line {   "   " die Morgenröte des neuen Lebens. } 
-      
-      \line { " " }
-      \line { "   " \italic { Refrain :}  }
-      \line {"   " Kommt, auf dass wir }
-      \line {   "   "in der wunderbaren Liebe leben. }  
-      \line {   "   " Kommt, auf dass wir  }
-      \line {   "   " diesen himmlischen Segen empfangen, } 
-      \line {   "   " welcher das Leben erneuert } 
-      \line {   "   " und es ewig verjüngt. } 
-      
-       \line { " " }
-    
-      \line {    2. Und er bringt Freude für die Seele }
-      \line {   "   "und verkündet die Freiheit }  
-      \line {   "   " Und den Frieden mit allheiliger Liebe }
-      \line {   "   " für alle auf der Erde. } 
-       
-            \line { " " }
-    \line { "   " \italic { Refrain } ... }
-      
-     
- 
-       
-      \line { " " }
-      \line { 3. O, wunderschöner Tag, ewiges Wohl, }
-      \line {   "   " wem ist das nicht wertvoll? }  
-      \line {   "   " Erneuere uns bald }
-      \line {   "   " für all die Jahre.} 
-      
-
-      
-    }
-       
-    }    
-    }
-}
- 
+% include foreign translation(s) of the song
+\include "lyrics_de/022_izgryava_den_tarzhestven_lyrics_de.ly"
 
 } % bookpart
