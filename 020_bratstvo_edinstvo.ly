@@ -138,7 +138,7 @@
 
 } % score
 
-\markup \halign #-13 { 
+\markup \halign #-12 { 
     \column  { 
       \line  \halign #-3 { 
         \bold  { "D. C." }
