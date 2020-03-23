@@ -1,22 +1,17 @@
 \version "2.18.2"
 
-%\markup {  \vspace #1.9 }
-
-\markup {  \hspace #25   \huge\bold "Die Liebe ist Quelle"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
-     
-    \column {
+\markup \fill-line { \fontsize #6 "Die Liebe ist eine Quelle" }
+\markup \null
+\markup \null
+\markup \fontsize #+2.5 {
+    \hspace #10
+    \override #'(baseline-skip . 2)
+    
+         \column {
     
        \line { " " }
   
-      \line {   "   "1. Die Liebe ist eine Quelle, }
+ \line {   "   "1. Die Liebe ist eine Quelle, }
 
   \line {   "   "sie gebiert das Leben}
 
@@ -33,6 +28,7 @@
 
 \line { " " }
        \line { "   " \italic { Refrain :}  }
+       
 
   \line {   "   "Arbeite mit ihr, }
 
@@ -42,8 +38,9 @@
  
   \line {   "   "für die leidenden Seelen.}
 
+\line { " " }
 
-  \line {   "   "2. Dies vollbringt sie selbst unaufhörlich}
+  \line {   2. Dies vollbringt sie selbst unaufhörlich}
 
   \line {   "   "wie eine zärtliche Mutter}
 
@@ -57,8 +54,12 @@
 
 \line { " " }
        \line { "   " \italic { Refrain :}  }
+       
+       
+\line { " " }
+      
 
-  \line {   "   "3. Dieses große Geheimnis}
+  \line {   3. Dieses große Geheimnis}
 
   \line {   "   "wer es gut versteht,}
 
@@ -74,8 +75,11 @@
 
 \line { " " }
        \line { "   " \italic { Refrain :}  }
+       
+\line { " " }
+      
 
-  \line {   "   "4. Die Sonne, die rechtzeitig den Menschen belebt,}
+  \line {   4. Die Sonne, die rechtzeitig den Menschen belebt,}
 
   \line {   "   "scheint warm, erweckt und lässt}
 
@@ -87,9 +91,12 @@
 
 \line { " " }
        \line { "   " \italic { Refrain :}  }
+       
+\line { " " }
+       
 
 
-  \line {   "   "5. Diese so süßen Früchte,}
+  \line {   5. Diese so süßen Früchte,}
 
   \line {   "   "in der Liebe gereift,}
 
@@ -111,19 +118,7 @@
       
                 
     }
-       
-    }    
-    }
 }
-%}
-   
- 
- 
+       
 
-
- 
-    
-   
-    
- 
-%---------------------------------------------------------------------  
+  

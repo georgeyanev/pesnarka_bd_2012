@@ -1,18 +1,55 @@
 \version "2.18.2"
 
 \paper {
+  #(set-paper-size "a5")
+}
+
+\bookpart {
+\paper {
   print-all-headers = ##t
-  print-page-number = ##f 
-  left-margin = 2\cm
-  right-margin = 2\cm
+  print-page-number = ##t
+  print-first-page-number = ##t
+
+  % put page numbers on the bottom
+  oddHeaderMarkup = \markup ""
+  evenHeaderMarkup = \markup ""
+  oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+    }
+  evenFooterMarkup = \markup
+    \fill-line {
+      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+      ""
+    }
+
+  left-margin = 1.5\cm
+  right-margin = 1.5\cm
+  top-margin = 1.6\cm
+  bottom-margin = 1.2\cm
   ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+  % change lyrics and titles font (affects notes also)
+  fonts =
+    #(make-pango-font-tree
+     "Times New Roman"
+     "DejaVu Sans"
+     "DejaVu Sans Mono"
+     (/ (* staff-height pt) 3.6))
+
+  % change distance between staves
+  system-system-spacing =
+    #'((basic-distance . 12)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
 }
 
 \header {
   tagline = ##f
 }
 
-\bookpart {
 \score{
   \layout { 
     indent = 0.0\cm % remove first line indentation
@@ -21,9 +58,24 @@
       \Score
       \omit BarNumber %remove bar numbers
     } % context
+
+    \context { % change staff size
+      \Staff
+      fontSize = #+0 % affects notes size only
+      \override StaffSymbol #'staff-space = #(magstep -3)
+      \override StaffSymbol #'thickness = #0.5
+      \override BarLine #'hair-thickness = #1
+      %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
+    }
+
+    \context { % adjust space between staff and lyrics and between the two lyric lines
+      \Lyrics
+      \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+      \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
+    }
   } % layout
 
-  \new Voice \absolute  {
+ \new Voice \absolute  {
     \clef treble
     \key d \minor
     \time 4/4 \tempo "Moderato" 4 = 60
@@ -36,7 +88,7 @@
       g'8 a'8 bes'8 d''8 a'4 a'4 | d'8 e'8 f'8 e'8 d'4 d'4 | \bar "|." \break
   }
 
-
+  
   \addlyrics {
     Лю -- бов -- та е из -- вор: тя Жи -- во -- та раж -- да
     и пре -- свя -- та длъж -- ност в~не -- го крот -- ко всаж -- да 
@@ -54,17 +106,29 @@
     Ra -- bo -- ti sas ne -- ya v~mi -- los -- ti zhe -- la -- ni,
     po -- mosht -- ta no -- si y za du -- shi stra -- dal -- ni. 
   }
-
+  
   \header {
-    title = "Любовта е извор / Lyubovta e izvor"
+    title = \markup \column \normal-text \fontsize #2.5 {
+              \center-align
+              \line { Любовта е извор }
+              \vspace #-0.6
+              \center-align
+              \line \fontsize #-3 { Lyubovta e izvor }
+              \vspace #-0.8
+              \center-align
+              \line \fontsize #-3 { " " }
+            }
   }
+  
+  \midi{}
 
 } % score
 
-\markup {
-    \hspace #10
-    \vspace #4
-    \fontsize #+1 {
+\pageBreak
+
+\markup \fontsize #+2.5 {
+    \hspace #1
+    \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
       \line { 1. Любовта е извор, }
       \line {   "   " тя живота ражда }  
@@ -80,33 +144,7 @@
       \line { "   " в милости желани, }
       \line { "   " помощта носи й }
       \line {  "   " за души страдални.}
-    }
-   \hspace #10 {
-    \column  {
-     \line { 1. Ljubovta e izvor, }
-      \line {   "   " tja shivota rashda }  
-      \line {   "   " i presvjata dlyshnost }
-      \line {   "   " v nego krotko vsashda. } 
-      \line {   "   "Vse napred da chodi}
-      \line {   "   "v stremesh kym dobroto,}
-      \line {   "   "shho e syvyrscheno}
-      \line {   "   "gore na Nebeto.}
       \line { " " }
-      \line { "   " \italic {Pripev: } }
-      \line {  "   " Raboti sys neja }
-      \line { "   " v milosti shelani, }
-      \line { "   " pomoshhta nosi i }
-      \line {  "   " za duschi stradalni.}
-    }
-   }
-   }
-}
-
-\markup {
-    \hspace #10
-    \vspace #1.9
-    \fontsize #+1 {
-    \column {
       \line { 2. И туй непрестанно  }
       \line {   "   " върши тя самата }  
       \line {   "   " като нежна майка }
@@ -149,54 +187,72 @@
       \line {   "   "пред престола Божи}
       \line {   "   "песни ще да пее.}
     }
-   \hspace #10 {
-    \column  {
-      \line { 2. I tui neprestanno  }
-      \line {   "   " vyrschi tja samata }  
-      \line {   "   " kato neshna maika }
-      \line {   "   " vsekimu v duschata  } 
-      \line {   "   " postojanno sadi}
+
+    \hspace #5
+    \override #'(baseline-skip . 2.4)
+    \column {
+       \line { 1. Lyubovta e izvor, }
+      \line {   "   " tya zhivota razhda }  
+      \line {   "   " i presvyata dlazhnost }
+      \line {   "   " v nego krotko vsazhda. } 
+      \line {   "   "Vse napred da hodi}
+      \line {   "   "v stremezh kam dobroto,}
+       \line {   "   "shto e savarsheno}
+      \line {   "   "gore na Nebeto.}
+      \line { " " }
+       \line { "   " \italic {Pripev: } }
+      \line {  "   " Raboti sas neya }
+      \line { "   " v milosti zhelani, }
+      \line { "   " pomoshtta nosi y }
+      \line {  "   " za dushi stradalni.}
+      \line { " " }
+      \line { 2. I tuy neprestanno  }
+      \line {   "   " varshi tya samata }  
+      \line {   "   " kato nezhna mayka }
+      \line {   "   " vsekimu v dushata  } 
+      \line {   "   " postoyanno sadi}
        \line {   "   " sementsata dragi,}
        \line {   "   " ot koito niknat}
       \line {   "   " dobrinite blagi}
     \line { " " }
        \line { "   " \italic {Pripev ...} }
        \line { " " }
-      \line { 3. Taz velika taina }
-      \line {   "   " koi dobre razbira, }  
-      \line {   "   " svoita duscha mila }
+      \line { 3. Taz velika tayna }
+      \line {   "   " koy dobre razbira, }  
+      \line {   "   " svoyta dusha mila }
       \line {   "   " sutrina razkriva. } 
-     \line {   "   " kakto krinyt beli}
+     \line {   "   " kakto krinat beli}
       \line {   "   "na rosa nebesna}
-      \line {   "   "i na slyntschevata}
-      \line {   "   "svetlina tschudesna.}
+      \line {   "   "i na slanchevata}
+      \line {   "   "svetlina chudesna.}
        \line { " " }
        \line { "   " \italic {Pripev ...} }
       \line { " " }
-      \line { 4. Slyntseto, koeto }
-      \line {   "   " oshivotvorjava, }  
-      \line {   "   " ovreme tschoveka}
-      \line {   "   " toplo ozarjava, } 
-      \line {   "   "budi i vyzrastva}
+      \line { 4. Slantseto, koeto }
+      \line {   "   " ozhivotvoryava, }  
+      \line {   "   " ovreme choveka}
+      \line {   "   " toplo ozaryava, } 
+      \line {   "   "budi i vazrastva}
       \line {   "   "v nego sementsata}
-      \line {   "   "i mu pylni taino}
-      \line {   "   "s dobrini duschata}
+      \line {   "   "i mu palni tayno}
+      \line {   "   "s dobrini dushata}
       \line { " " }
        \line { "   " \italic {Pripev ...} }
        \line { " " }
-      \line { 5. Plodove tyi sladki, }
-      \line {   "   " v Ljubovta uzreli, }  
-      \line {   "   "nai-blashen shhe byde}
-       \line {   "   "toz, koito vi vkusi.}
-      \line {   "   "V shilishha nebesni}
-       \line {   "   "vetschno shhe shivee,}
-      \line {   "   "pred prestola Boshi}
-      \line {   "   "pesni shhe da pee.}
-    }    
-    }
-    }
+      \line { 5. Plodove tay sladki, }
+      \line {   "   " v Lyubovta uzreli, }  
+      \line {   "   "nay-blazhen shte bade}
+       \line {   "   "toz, koyto vi vkusi.}
+      \line {   "   "V zhilishta nebesni}
+       \line {   "   "vechno shte zhivee,}
+      \line {   "   "pred prestola Bozhi}
+      \line {   "   "pesni shte da pee.}
+    } %column
+} % markup
 
-}
+\pageBreak
 
+% include foreign translation(s) of the song
+\include "lyrics_de/026_lyubovta_e_izvor_lyrics_de.ly"
 
 } % bookpart
