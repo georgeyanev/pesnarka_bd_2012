@@ -1,29 +1,81 @@
 \version "2.18.2"
 
 \paper {
+  #(set-paper-size "a5")
+}
+
+\bookpart {
+\paper {
   print-all-headers = ##t
-  print-page-number = ##f 
-  left-margin = 2\cm
-  right-margin = 2\cm
+  print-page-number = ##t
+  print-first-page-number = ##t
+
+  % put page numbers on the bottom
+  oddHeaderMarkup = \markup ""
+  evenHeaderMarkup = \markup ""
+  oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+    }
+  evenFooterMarkup = \markup
+    \fill-line {
+      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+      ""
+    }
+
+  left-margin = 1.5\cm
+  right-margin = 1.5\cm
+  top-margin = 1.6\cm
+  bottom-margin = 1.2\cm
   ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+  % change lyrics and titles font (affects notes also)
+  fonts =
+    #(make-pango-font-tree
+     "Times New Roman"
+     "DejaVu Sans"
+     "DejaVu Sans Mono"
+     (/ (* staff-height pt) 3.6))
+
+  % change distance between staves
+  system-system-spacing =
+    #'((basic-distance . 12)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
 }
 
 \header {
   tagline = ##f
 }
 
-\bookpart {
 \score{
   \layout { 
     indent = 0.0\cm % remove first line indentation
-    ragged-last = ##f % do spread last line to fill the whole space
+    ragged-last = ##f % do not spread last line to fill the whole space
     \context {
       \Score
       \omit BarNumber %remove bar numbers
     } % context
+
+    \context { % change staff size
+      \Staff
+      fontSize = #+0 % affects notes size only
+      \override StaffSymbol #'staff-space = #(magstep -3)
+      \override StaffSymbol #'thickness = #0.5
+      \override BarLine #'hair-thickness = #1
+      %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
+    }
+
+    \context { % adjust space between staff and lyrics and between the two lyric lines
+      \Lyrics
+      \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+      \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
+    }
   } % layout
 
-  \new Voice \absolute  {
+ \new Voice \absolute  {
   \clef treble
   \key g \minor
   \time 5/4 \tempo "Moderato" 4 = 60
@@ -39,7 +91,7 @@
   }
   } 
   
-  \addlyrics {
+\addlyrics {
     Съ -- бу -- ди -- се, брат -- ко ми -- ли,
     от дъл -- бок сън ти ста -- ни и ве -- ри -- ги -- те ве --
     ков -- ни от но -- зе -- те си сне -- ми. 
@@ -47,21 +99,37 @@
     твой пи -- лот: тя ще те из -- пра -- ви
     кре -- ко, тя ще ти да -- ри Жи -- вот.   
   }
-  % lyrics here
+  \addlyrics {Sa -- bu -- di -- se, brat -- ko mi -- li,
+    ot dal -- bok san ti sta -- ni i ve -- ri -- gi -- te ve --
+    kov -- ni ot no -- ze -- te si sne -- mi. 
+    Lyu -- bov -- ta e tvo -- ya may -- ka, tvo -- ya si -- la 
+    tvoy pi -- lot: tya shte te iz -- pra -- vi
+    kre -- ko, tya shte ti da -- ri zhi -- vot.   }
   
   \header {
-    title = "Събуди се, братко / Sabudi se, bratko"
+    title = \markup \column \normal-text \fontsize #2.5 {
+              \center-align
+              \line { Събуди се, братко }
+              \vspace #-0.6
+              \center-align
+              \line \fontsize #-3 { Sabudi se, bratko }
+              \vspace #-0.8
+              \center-align
+              \line \fontsize #-3 { " " }
+            }
   }
+  
+  \midi{}
 
 } % score
 
-\markup {  \vspace #1.9 }
+\pageBreak
 
-\markup {
+\markup \fontsize #+2.5 {
     \hspace #1
-    \fontsize #+1 {
+    \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
-      \line { 1. Събуди се, братко мили, }
+       \line { 1. Събуди се, братко мили, }
       \line {   "   " от дълбок сън ти стани }  
       \line {   "   " и веригите вековни }
       \line {   "   " от нозете си снеми.}
@@ -94,44 +162,49 @@
       \line {   "   " тя душата ти от гнета }
       \line {   "   " скоро ще освободи. } 
     }
-    
-   \hspace #10 {
-    \column  {
-    \line { 1. Sâbudi se, bratko mili, }
-      \line {   "   " ot dâlbok sân ti stani }  
+
+    \hspace #5
+    \override #'(baseline-skip . 2.4)
+    \column {
+             \line { 1. Sabudi se, bratko mili, }
+      \line {   "   " ot dalbok san ti stani }  
       \line {   "   " i verigite vekovni }
-      \line {   "   " ot nosete si snemi.}
+      \line {   "   " ot nozete si snemi.}
  \line { " " }
        \line { "   " \italic {Pripev: } }
-      \line {  "   " Ljubovta e tvoja maika, }
-      \line { "   " tvoja sila, tvoi pilot – }
-      \line { "   " tja ste te izpravi krepko, }
-      \line {  "   " tja ste ti dari shivot.}
+      \line {  "   " Lyubovta e tvoya mayka, }
+      \line { "   " tvoya sila, tvoy pilot – }
+      \line { "   " tya shte te izpravi krepko, }
+      \line {  "   " tya shte ti dari zhivot.}
       \line { " " }
-      \line { 2.  Napusni satvori tâmni, }
-      \line {   "   " vân e vredom svetlina – }  
-      \line {   "   " mir i radost te otschakvat }
-      \line {   "   " i blashena setnina. } 
+      \line { 2.  Napusni zatvori tamni, }
+      \line {   "   " van e vredom svetlina – }  
+      \line {   "   " mir i radost te ochakvat }
+      \line {   "   " i blazhena setnina. } 
     \line { " " }
       \line { "   " \italic {Pripev: } }
-      \line { "   "Ljubovta e tvoi utschitel, }
-      \line {   "   " shivo slovo da ste ti – }  
-      \line {   "   " na dobro ste te nautschi, }
-      \line {   "   " v mâdrost ste te posveti. } 
+      \line { "   "Lyubovta e tvoy uchitel, }
+      \line {   "   " zhivo slovo da shte ti – }  
+      \line {   "   " na dobro shte te nauchi, }
+      \line {   "   " v madrost shte te posveti. } 
       \line { " " }
-      \line { 3. I na brata si produmai }
+      \line { 3. I na brata si produmay }
       \line {   "   " sladka duma s podtik nov – }  
-      \line {   "   " ti syrtseto mu da stoplisch }
-      \line {   "   " s tvoita iskrena ljubov. } 
+      \line {   "   " ti sartseto mu da stoplish }
+      \line {   "   " s tvoyta iskrena lyubov. } 
       \line { " " }
       \line { "   " \italic {Pripev: } }
-      \line { "   "Ljubovta e tvoi spasitel, }
-      \line {   "   " neja v pomoshh prizovi – }  
-      \line {   "   " tja duschata ti ot gneta }
-      \line {   "   " skoro shhe osvobodi. } 
-    }    
-    }
-    }
-}
+      \line { "   "Lyubovta e tvoy spasitel, }
+      \line {   "   " neya v pomosht prizovi – }  
+      \line {   "   " tya dushata ti ot gneta }
+      \line {   "   " skoro shte osvobodi. } 
+    
+    } %column
+} % markup
+
+\pageBreak
+
+% include foreign translation(s) of the song
+\include "lyrics_de/025_sabudi_se_bratko_lyrics_de.ly"
 
 } % bookpart

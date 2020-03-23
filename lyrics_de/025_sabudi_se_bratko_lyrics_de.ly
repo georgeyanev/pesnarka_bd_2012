@@ -1,20 +1,14 @@
 \version "2.18.2"
 
-%\markup {  \vspace #1.9 }
-
-\markup {  \hspace #25   \huge\bold "Wach auf, Bruder"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
-     
-    \column {
+\markup \fill-line { \fontsize #6 "Wache auf, lieber Bruder" }
+\markup \null
+\markup \null
+\markup \fontsize #+2.5 {
+    \hspace #10
+    \override #'(baseline-skip . 2)
     
-       \line { " " }
+         \column {
+     \line { " " }
 
       \line { 1. Wache auf, lieber Bruder, }
       \line {   "   " erhebe dich vom tiefen Schlaf}  
@@ -56,21 +50,7 @@
       \line {   "   " sie wird deine Seele vom Joch}
       \line {   "   " bald befreien.} 
       
-      
     }
        
-    }    
-    }
-}
-%}
-   
- 
- 
-
-
- 
+    }  
     
-   
-    
- 
-%---------------------------------------------------------------------  
