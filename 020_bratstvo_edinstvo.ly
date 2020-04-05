@@ -78,7 +78,13 @@
    \new Voice \absolute  {
     \clef treble
     \key g \major
-    \time 2/4 \tempo "Tempo di marcia" 4 = 100
+    \time 2/4 
+    \tempo \markup { % make tempo note smaller
+      \concat { "Tempo di marcia " \normal-text { "(" }
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \normal-text { " = 100)" }
+      }
+    }  
     \autoBeamOff
  
     d'4 g'8 a'8 | b'4 e''4 | d''8 d''8 e''8 c''8 | b'2| d''4 c''8 b'8 | \break
@@ -92,7 +98,12 @@
       { \time 4/4 \break
          \override Score.MetronomeMark #'outside-staff-priority = #599
          \override Score.MetronomeMark.X-extent=#'(-4.5 . 0)
-         \tempo "Meno mosso" 4 = 92
+         \tempo \markup { % make tempo note smaller
+           \concat { "Meno mosso " \normal-text { "(" }
+             \teeny \general-align #Y #DOWN \note #"4" #0.7
+             \normal-text { " = 92)" }
+           }
+         }  
          d'2 e'4 d'4 | b'1 | \tempo "rit." a'2 b'4 a'4 | g'1| \bar "|." \break } 
     }
   }
@@ -114,7 +125,7 @@
     zo -- va na Lyu -- bov -- ta ni -- e pus -- ka -- me, mi -- ra na Ra -- dost -- ta
     ni -- e vi -- ka -- me: blag Zhi -- vot v~nas da vli -- va -- me,
     blag Zhi -- vot v~nas da vli -- va -- me, blag Zhi -- vot v~nas
-    da vli -- va -- me, blag ZHi -- vot v~nas da vli -- va -- me,
+    da vli -- va -- me, blag Zhi -- vot v~nas da vli -- va -- me,
     da vli -- va -- me, da vli -- va -- me, da vli -- va -- me,
     da vli -- va -- me, da vli -- va -- me. 
   }
@@ -138,16 +149,16 @@
 
 } % score
 
-\markup \halign #-12 { 
-    \column  { 
-      \line  \halign #-3 { 
-        \bold  { "D. C." }
-      }
-      \line  { 
-        \bold { con ripetizione }
-      }
+\markup \halign #-12.4 \raise #2.8 \override #'(baseline-skip . 2) { 
+  \column  { 
+    \line  \halign #-3 { 
+      \bold  { "D. C." }
     }
-  } 
+    \line  { 
+      \bold { con ripetizione }
+    }
+  }
+} 
 
 
 
