@@ -78,7 +78,13 @@
   \new Voice \absolute  {
     \clef treble
     \key d \minor
-    \time 2/4 \tempo "Largo" 4 = 54
+    \time 2/4 
+    \tempo \markup { % make tempo note smaller
+      \concat { "Largo " \normal-text { "(" }
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \normal-text { " = 54)" }
+      }
+    }  
     \autoBeamOff
       a'4 d''4 | a'4 d''8. e''16 | \time 3/4 d''2 a'4 | \time 2/4 bes'4. ( d''8 ) | a'2 | g'4. ( a'8 ) | \break
 
@@ -92,7 +98,7 @@ d''4 c''4 bes'8 a'8 | g'8([a'8]) f'4^- e'4 | \time 2/4 d'8([e'8]) f'4 | e'8 d'8 
 
 f''4 e''4 d''4 | \time 4/4 c''4 bes'4 a'8 g'8 a'8 ([bes'8]) | \time 2/4 a'2 | c''4 b'8 c'' | \break
 
-d''4 f'4 | bes'4 a'4 | a'4 gis'4 | a'2 | d''4 cis''8 d''8 | e''4 a'4 | bes'4 a'4 | \break
+d''4 f'4 | bes'4 a'4 | a'4 gis'4 | a'2 | d''4 cis''8 d''8 | e''4 a'4 | bes'4 a'4 | \pageBreak
 
 a'4. ( d''8 ) | d''2 | d''4 e''4 | \tempo "rit." f''4 e''4 | d''2 | d''2 | \tempo "a tempo" d''4 c''8 bes'8 | a'4 g'4 | \break
 
@@ -147,7 +153,13 @@ vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
 } % score
 
 
-\pageBreak
+%\pageBreak
+
+\markup \column \normal-text {
+  \line {" "}
+  \line {" "}
+  \line {" "}
+}
 
 % include foreign translation(s) of the song
 \include "lyrics_de/021_ste_se_razveselja_lyrics_de.ly"
