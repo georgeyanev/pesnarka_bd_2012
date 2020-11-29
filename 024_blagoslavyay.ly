@@ -78,7 +78,13 @@
   \new Voice \absolute {
     \clef treble
     \key d \major
-    \time 2/4 \tempo "Grave" 4 = 40
+    \time 2/4 
+    \tempo \markup { % make tempo note smaller
+      \concat { "Grave " \normal-text { "(" }
+        \teeny \general-align #Y #DOWN \note #"4" #0.8
+        \normal-text { " = 40)" }
+      }
+    }  
     \partial 4
     \autoBeamOff
  
@@ -122,15 +128,14 @@
       
   \addlyrics {
       Bla -- go --
-      sla -- vjaj, du -- sche mo -- ja, Gos -- po -- da!
-      Ne sa -- bra -- vjaj vsi -- te Mu mi -- lo --
-      sti, ne sa -- bra -- vjaj vsi -- te Mu bla -- go
-      -- sti, ne sa -- bra -- vjaj vsi -- te Mu do --
-      bri -- ni! Ne sa -- bra -- vjaj mi -- lost -- ta
-      Mu, ne sa -- bra -- vjaj bla -- gost -- ta Mu, ne
-      sa -- bra -- vjaj O -- bitsch -- ta Mu, ne za -- bra
-      -- vjaj Lju -- bov -- ta Mu! Ne za -- ta Mu!
-    
+      sla -- vyay, du -- she mo -- ya, Gos -- po -- da!
+      Ne za -- bra -- vyay vsi -- te Mu mi -- lo --
+      sti, ne za -- bra -- vyay vsi -- te Mu bla -- go
+      -- sti, ne za -- bra -- vyay vsi -- te Mu do --
+      bri -- ni! Ne za -- bra -- vyay mi -- lost -- ta
+      Mu, ne za -- bra -- vyay bla -- gost -- ta Mu, ne
+      za -- bra -- vyay O -- bich -- ta Mu, ne za -- bra
+      -- vyay Lyu -- bov -- ta Mu! Ne za -- ta Mu!
   }
   
   \header {
@@ -139,7 +144,7 @@
               \line { Благославяй }
               \vspace #-0.6
               \center-align
-              \line \fontsize #-3 { Blagoslavjaj}
+              \line \fontsize #-3 { Blagoslavyay}
               \vspace #-0.8
               \center-align
               \line \fontsize #-3 { " " }
