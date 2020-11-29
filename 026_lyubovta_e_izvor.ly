@@ -104,7 +104,7 @@
   }
 
   \addlyrics {
-    Lyu -- bov -- ta e iz -- vor: tya ZHi -- vo -- ta razh -- da
+    Lyu -- bov -- ta e iz -- vor: tya Zhi -- vo -- ta razh -- da
     i pre -- svya -- ta dlazh -- nost v~ne -- go krot -- ko vsazh -- da 
     vse na -- pred da ho -- di v~stre -- mezh kam Do -- bro -- to,
     shto e sa -- var -- she -- no go -- re na Ne -- be -- to.
@@ -131,9 +131,9 @@
 
 \pageBreak
 
-\markup \fontsize #+2.5 {
-    \hspace #1
-    \override #'(baseline-skip . 2.4) % affects space between column lines
+\markup \fontsize #+2.0 {
+    \hspace #7
+    \override #'(baseline-skip . 1.8) % affects space between column lines
     \column {
       \line { 1. Любовта е извор, }
       \line {   "   " тя живота ражда }  
@@ -194,7 +194,7 @@
     }
 
     \hspace #5
-    \override #'(baseline-skip . 2.4)
+    \override #'(baseline-skip . 1.8)
     \column {
        \line { 1. Lyubovta e izvor, }
       \line {   "   " tya zhivota razhda }  
@@ -205,7 +205,7 @@
        \line {   "   "shto e savarsheno}
       \line {   "   "gore na Nebeto.}
       \line { " " }
-       \line { "   " \italic {Pripev: } }
+       \line { "   " \italic {Refrain: } }
       \line {  "   " Raboti sas neya }
       \line { "   " v milosti zhelani, }
       \line { "   " pomoshtta nosi y }
@@ -220,7 +220,7 @@
        \line {   "   " ot koito niknat}
       \line {   "   " dobrinite blagi}
     \line { " " }
-       \line { "   " \italic {Pripev ...} }
+       \line { "   " \italic {Refrain ...} }
        \line { " " }
       \line { 3. Taz velika tayna }
       \line {   "   " koy dobre razbira, }  
@@ -231,7 +231,7 @@
       \line {   "   "i na slanchevata}
       \line {   "   "svetlina chudesna.}
        \line { " " }
-       \line { "   " \italic {Pripev ...} }
+       \line { "   " \italic {Refrain ...} }
       \line { " " }
       \line { 4. Slantseto, koeto }
       \line {   "   " ozhivotvoryava, }  
@@ -242,7 +242,7 @@
       \line {   "   "i mu palni tayno}
       \line {   "   "s dobrini dushata}
       \line { " " }
-       \line { "   " \italic {Pripev ...} }
+       \line { "   " \italic {Refrain ...} }
        \line { " " }
       \line { 5. Plodove tay sladki, }
       \line {   "   " v Lyubovta uzreli, }  

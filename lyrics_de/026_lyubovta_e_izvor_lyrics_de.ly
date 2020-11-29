@@ -1,11 +1,10 @@
 \version "2.18.2"
 
 \markup \fill-line { \fontsize #6 "Die Liebe ist eine Quelle" }
-\markup \null
-\markup \null
-\markup \fontsize #+2.5 {
-    \hspace #10
-    \override #'(baseline-skip . 2)
+\markup \fontsize #+2.0 {
+    \hspace #14
+    \vspace #0.5
+    \override #'(baseline-skip . 1.8)
     
          \column {
     
@@ -27,7 +26,7 @@
 
 
 \line { " " }
-       \line { "   " \italic { Refrain :}  }
+       \line { "   " \italic { Refrain:}  }
        
 
   \line {   "   "Arbeite mit ihr, }
@@ -53,7 +52,7 @@
   \line {   "   "aus denen die gütigen Wohltaten sprießen.}
 
 \line { " " }
-       \line { "   " \italic { Refrain :}  }
+       \line { "   " \italic { Refrain ...}  }
        
        
 \line { " " }
@@ -74,7 +73,7 @@
   \line {   "   "und von dem wunderbaren Sonnenlicht.}
 
 \line { " " }
-       \line { "   " \italic { Refrain :}  }
+       \line { "   " \italic { Refrain ...}  }
        
 \line { " " }
       
@@ -90,7 +89,7 @@
   \line {   "   "Seele mit Tugenden.}
 
 \line { " " }
-       \line { "   " \italic { Refrain :}  }
+       \line { "   " \italic { Refrain ...}  }
        
 \line { " " }
        
@@ -113,7 +112,7 @@
   \line {   "   "wird er Lieder singen. }
 
 \line { " " }
-       \line { "   " \italic { Refrain :}  }
+       \line { "   " \italic { Refrain ...}  }
 
       
                 
