@@ -127,7 +127,7 @@
             \line {    Стани, стани }
             \vspace #-0.6
             \center-align
-            \line \fontsize #-3 {  Стани, стани }
+            \line \fontsize #-3 {  Stani, Stani }
             \vspace #-0.8
             \center-align
             \line \fontsize #-3 { " " }
