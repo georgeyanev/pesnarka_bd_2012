@@ -40,7 +40,7 @@
 
   % change distance between staves
   system-system-spacing =
-    #'((basic-distance . 12)
+    #'((basic-distance . 11)
        (minimum-distance . 6)
        (padding . 1)
        (stretchability . 12))
@@ -70,7 +70,7 @@
 
     \context { % adjust space between staff and lyrics and between the two lyric lines
       \Lyrics
-      \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+      \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 5.0))
       \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
     }
   } % layout
@@ -79,7 +79,13 @@
   \clef treble
   \key d \minor
   
-  \time 4/4 \tempo "Andante" 4 = 92
+  \time 4/4 
+  \tempo \markup { % make tempo note smaller
+    \concat { "Andante " \normal-text { "(" }
+      \teeny \general-align #Y #DOWN \note #"4" #0.8
+      \normal-text { " = 92)" }
+    }
+  }  
   \autoBeamOff
   \partial 4.
   
@@ -123,10 +129,10 @@
   \header {
     title = \markup \column \normal-text \fontsize #2.5 {
               \center-align
-              \line { Изгява вече ден тържествен }
+              \line { Изгрява вече ден тържествен }
               \vspace #-0.6
               \center-align
-              \line \fontsize #-3 { Izgryava veche den tarshestven}
+              \line \fontsize #-3 { Izgryava veche den tarzhestven}
               \vspace #-0.8
               \center-align
               \line \fontsize #-3 { " " }
@@ -181,40 +187,39 @@
     \hspace #5
     \override #'(baseline-skip . 2.4)
     \column {
-   \line { 1. Izgrjava vetsche den tyrshestven, }
-\line {   "   " predretschenijat den Boshestven, }
+       \line { 1. Izgryava veche den tarzhestven, }
+\line {   "   " predrecheniyat den Bozhestven, }
 \line {   "   " na dnite diadema}
-\line {   "   " sys svetlina goljama. }
+\line {   "   " sas svetlina golyama. }
 
 \line { " " }
-       \line { "   " \italic {Refrain } }
-\line {   "   " Elate da shiveem }
-\line {   "   " vyv Ljubovta tschudesna! }
+       \line { "   " \italic {Refrain: } }
+\line {   "   " Elate da zhiveem }
+\line {   "   " vav Lyubovta chudesna! }
 \line {   "   " Elate da priemem}
 \line {   "   " taz blagodat nebesna, }
-\line {   "   " shho shivota obnovjava}
-\line {   "   " i vetschno tja go podmladjava! }
+\line {   "   " shto zhivota obnovyava}
+\line {   "   " i vechno tya go podmladyava! }
  
  \line { " " }
-\line { 2. I nosi radost za duschata, }
-\line {   "   " i proglasjava svobodata}
-\line {   "   " i mir s Ljubov presvjata}
-\line {   "   " za vsitschki na Zemjata. }
-\line {   "   " Elate da shiveem... }
+\line { 2. I nosi radost za dushata, }
+\line {   "   " i proglasyava svobodata}
+\line {   "   " i mir s Lyubov presvyata}
+\line {   "   " za vsichki na Zemyata. }
+\line {   "   " Elate da zhiveem... }
 
 \line { " " }
        \line { "   " \italic {Refrain: } }
        
  \line { " " }
-\line {   3.  O, den prekrasen, vetschno blago, }
+\line {  3.  O, den prekrasen, vechno blago, }
 \line {   "   " komu za tebe ne e drago? }
-\line {   "   " Za vsitschkite godini}
+\line {   "   " Za vsichkite godini}
 \line {   "   " po-skoro obnovi ni! }
-\line {   "   " Elate da shiveem... }
+\line {   "   " Elate da zhiveem... }
 
 \line { " " }
-       \line { "   " \italic {Refrain: } }
-    } %column
+       \line { "   " \italic {Refrain: } }    } %column
 } % markup
 
 \pageBreak
