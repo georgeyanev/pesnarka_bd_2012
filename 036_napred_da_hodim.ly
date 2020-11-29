@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -78,7 +78,14 @@
     \new Voice \absolute  {
       \clef treble
       \key g \major
-      \time 2/4 \tempo "Tempo di marcia" 4 = 100
+      \time 2/4 
+      %\tempo "Tempo di marcia" 4 = 100
+      \tempo \markup { % make tempo note smaller
+      \concat { "Tempo di marcia" \normal-text { " (" }
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \normal-text { " = 100)" }
+      }
+    }
       \partial 8
       \autoBeamOff
 
@@ -110,7 +117,7 @@
                 \addlyrics {Na -- pred
                             da ho -- dim sme -- lo v~cher -- to -- zi -- te
                             bez -- mal -- vni na tay -- no -- to poz -- na --
-                            nie, s~ZHi -- vot i Si -- la pal -- ni. Kat vih
+                            nie, s~Zhi -- vot i Si -- la pal -- ni. Kat vih
                             -- ri nad go -- ri -- te s~duh pla -- men vav
                             gar -- di -- te na -- pred da po -- le -- tim,
                             sve -- ta da ob -- no -- vim! Kat vim!}
@@ -121,7 +128,7 @@
                                 \line { Напред да ходим  }
                                 \vspace #-0.6
                                 \center-align
-                                \line \fontsize #-3 { Na pred da hodim }
+                                \line \fontsize #-3 { Napred da hodim }
                                 \vspace #-0.8
                                 \center-align
                                 \line \fontsize #-3 { " " }
@@ -214,7 +221,8 @@
                     \line { "   "ot maka da izbavim.}
                     \line { " " }
                     \line { "   " \italic { Refrain:} }
-                    \line { " " }d
+                    \line { " " }
+                    \line { " " }
                     \line { 5. Togava da otvorim}
 
                     \line { "   "na noviy grad vratite,}
@@ -230,6 +238,14 @@
                 \pageBreak
 
                 % include foreign translation(s) of the song
-                %\include "lyrics_de/lyrics_de_file_name.ly"
+                \include "lyrics_de/036_napred_da_hodim_lyrics_de.ly"
 
     } % bookpart
+
+
+%{
+convert-ly (GNU LilyPond) 2.20.0  convert-ly: Processing `'...
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22,
+2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49,
+2.19.80, 2.20.0
+%}
