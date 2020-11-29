@@ -117,8 +117,6 @@
 
 } % score
 
-
-
 \markup \fontsize #+2.5 {
     \hspace #1
     \override #'(baseline-skip . 2.4) % affects space between column lines
