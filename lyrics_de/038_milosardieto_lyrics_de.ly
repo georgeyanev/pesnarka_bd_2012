@@ -1,23 +1,13 @@
 \version "2.18.2"
 
-%\markup {  \vspace #1.9 }
-
-\markup {  \hspace #25   \huge\bold "An den Meister"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
-     
+\markup \fill-line { \fontsize #6 "Die Barmherzigkeit" }
+\markup \null
+\markup \null
+\markup \fontsize #+2.5 {
+    \hspace #10
+    \override #'(baseline-skip . 2)
     \column {
-    
-       \line { " " }
-       
-       
-
+     \line { " " }
  \line { 1. Die Barmherzigkeit ist ein Paradiesgarten, }
 
  \line { " "wunderschön geschmückt, erfüllt von der Maischönheit;  }
@@ -61,12 +51,6 @@
  \line { " "Das Glück wird für ihn nicht enden  }
 
  \line { " "Erde und Himmel werden ihn segnen. }
-       
-       
-                  }
-       
-    }    
+   
     }
 }
-%}
-       
