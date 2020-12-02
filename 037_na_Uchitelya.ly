@@ -78,7 +78,13 @@
     \new Voice \absolute  {
     \clef treble
     \key e \minor
-    \time 3/4 \tempo "Lento" 4 = 50
+    \time 3/4 
+    \tempo \markup { % make tempo note smaller
+      \concat { "Lento " \normal-text { "(" }
+        \teeny \general-align #Y #DOWN \note #"4" #0.8
+        \normal-text { " = 50)" }
+      }
+    }  
     \partial 4
     \autoBeamOff
     e'8 fis'8 | g'4 e'4 b'8 a'8 | g'4 fis'4 e'8 fis'8 | g'4 e'4 g'8 a'8 |  b'2 e''8  e''8 \break
