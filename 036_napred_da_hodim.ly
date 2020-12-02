@@ -142,7 +142,7 @@
                 \pageBreak
 
                 \markup \fontsize #+2.5 {
-                  \hspace #1
+                  \hspace #6
                   \override #'(baseline-skip . 2.4) % affects space between column lines
                   \column {
                     \line {  2. Земята с чисти мисли}
@@ -153,7 +153,7 @@
 
                     \line {   "   "да победиме с право.}
                     \line { " " }
-                    \line { "   " \italic {Припев:}}
+                    \line { "   " \italic {Припев ... }}
                     \line { " " }
 
 
@@ -165,7 +165,7 @@
 
                     \line {   "   "и свободата нова.}
                     \line { " " }
-                    \line { "   " \italic {Припев:}}
+                    \line { "   " \italic {Припев ...}}
                     \line { " " }
                     \line {  4. Във бездната да слезем,}
 
@@ -175,7 +175,7 @@
 
                     \line {   "   "от мъка да избавим.}
                     \line { " " }
-                    \line { "   " \italic {Припев:}}
+                    \line { "   " \italic {Припев ...}}
                     \line { " " }
                     \line {   5. Тогава да отворим}
 
@@ -185,7 +185,7 @@
 
                     \line {   "   "света на Светлините.}
                     \line { " " }
-                    \line { "   " \italic {Припев:}}
+                    \line { "   " \italic {Припев ...}}
                     \line { " " }   
                   }
 
@@ -200,7 +200,7 @@
 
                     \line { "   "da pobedime s pravo.}
                     \line { " " }
-                    \line { "   " \italic { Refrain :} }
+                    \line { "   " \italic { Refrain ...} }
                     \line { " " }
                     \line { 3. Na slabite da nosim}
 
@@ -210,7 +210,7 @@
 
                     \line { "   "i svobodata nova.}
                     \line { " " }
-                    \line { "   " \italic { Refrain:} }
+                    \line { "   " \italic { Refrain ...} }
                     \line { " " }
                     \line { 4. Vav bezdnata da slezem,}
 
@@ -220,8 +220,7 @@
 
                     \line { "   "ot maka da izbavim.}
                     \line { " " }
-                    \line { "   " \italic { Refrain:} }
-                    \line { " " }
+                    \line { "   " \italic { Refrain ...} }
                     \line { " " }
                     \line { 5. Togava da otvorim}
 
@@ -231,7 +230,7 @@
 
                     \line { "   "sveta na Svetlinite.}
                     \line { " " }
-                    \line { "   " \italic { Refrain:} }
+                    \line { "   " \italic { Refrain ...} }
                   } %column
                 } % markup
 
@@ -241,11 +240,3 @@
                 \include "lyrics_de/036_napred_da_hodim_lyrics_de.ly"
 
     } % bookpart
-
-
-%{
-convert-ly (GNU LilyPond) 2.20.0  convert-ly: Processing `'...
-Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22,
-2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49,
-2.19.80, 2.20.0
-%}
