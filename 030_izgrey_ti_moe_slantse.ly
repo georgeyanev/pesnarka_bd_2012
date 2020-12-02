@@ -183,7 +183,7 @@
       
 \line {   "   "O, day mi toz zhivot i mir!}
  \line { " " }
-\line { "   " \italic {Pripev ...} }
+\line { "   " \italic {Refrain:} }
       
 
 \line {   "   "Zhivot i mir, zhivot i mir,}
@@ -202,7 +202,7 @@
 \line {   "   "ti vechno si sveta, Lyubov.}
 
 \line { " " }
-\line { "   " \italic {Pripev ...} }
+\line { "   " \italic {Refrain:} }
 
 \line {   "   "Sveta lyubov, sveta lyubov,}
 
