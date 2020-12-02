@@ -1,18 +1,13 @@
-\markup {  \hspace #25   \huge\bold "Bei der Quelle"  }
+\version "2.18.2"
 
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-     
+\markup \fill-line { \fontsize #6 "Bei der Quelle" }
+\markup \null
+\markup \null
+\markup \fontsize #+2.5 {
+    \hspace #14
+    \override #'(baseline-skip . 2)
     \column {
-      \line { " " }
-  
-       
-       
-\line { 1. Ein hoher Berggipfel funkelt,}
+     \line { 1. Ein hoher Berggipfel funkelt,}
 
 \line { " " beschienen von himmlischen Strahlen. }
 
@@ -101,12 +96,5 @@
 \line { " " Trauer, Trauer,}
 
 \line { " " von aller Qual und Trauer.}
-       
-       
-                        
-    }
-       
-    }    
     }
 }
-%}
