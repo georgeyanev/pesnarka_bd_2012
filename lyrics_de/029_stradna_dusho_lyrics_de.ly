@@ -1,79 +1,73 @@
-\version "2.18.2"
+\version "2.20.0"
 
-%\markup {  \vspace #1.9 }
-
-\markup {  \hspace #25   \huge\bold "Leidende Seele"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
-     
-    \column {
+\markup \fill-line { \fontsize #6 "Leidende Seele" }
+\markup \null
+\markup \null
+\markup \fontsize #+2.5 {
+  \hspace #10
+  \override #'(baseline-skip . 2)
+  \column {
+    \line { " " }
     
-       \line { " " }
-      
-     \line {   "   " Leidende Seele, die du dich sehnst:}
+    \line {  1.  Leidende Seele, die du dich sehnst:}
 
-\line {   "   " Wofür brennst und glühst du? }
+    \line {   "   " Wofür brennst und glühst du? }
 
-\line {   "   "Ich warte auf Dein Wort, oh Gott,}
+    \line {   "   "Ich warte auf Dein Wort, oh Gott,}
 
-\line {   "   "und auf Deine reichliche Barmherzigkeit. }
+    \line {   "   "und auf Deine reichliche Barmherzigkeit. }
 
-\line {   "   "Dafür leide ich, danach sehne ich mich.}
+    \line {   "   "Dafür leide ich, danach sehne ich mich.}
 
- \line { " " }
-\line {   2.  Und ich hungere und ich dürste, }
+    \line { " " }
+    \line {   2.  Und ich hungere und ich dürste, }
 
-\line {   "   "ich erwarte dies Tag und Nacht. }
+    \line {   "   "ich erwarte dies Tag und Nacht. }
 
-\line {   "   "Segne mich Gott, }
+    \line {   "   "Segne mich Gott, }
 
-\line {   "   "auf dass ich Dir nahe bin }
+    \line {   "   "auf dass ich Dir nahe bin }
 
-\line {   "   "und bei Dir Trost finde.}
+    \line {   "   "und bei Dir Trost finde.}
 
- \line { " " }
-\line {   3.  Ich schaue Dein lichtvolles Antlitz }
+    \line { " " }
+    \line {   3.  Ich schaue Dein lichtvolles Antlitz }
 
-\line {   "   "und Deine Größe,}
+    \line {   "   "und Deine Größe,}
 
-\line {   "   "auf dass ich Dich lieben lerne. }
+    \line {   "   "auf dass ich Dich lieben lerne. }
 
-\line {   "   "Möge ich in dieser Liebe Deine machtvolle Kraft finden.}
+    \line {   "   "Möge ich in dieser Liebe Deine machtvolle Kraft finden.}
 
-\line { " " }
-\line { 4.  In den Heldentaten und der Vollkommenheit }
+    \line { " " }
+    \line { 4.  In den Heldentaten und der Vollkommenheit }
 
-\line {   "   "möge ich Deine Barmherzigkeit erkennen,}
+    \line {   "   "möge ich Deine Barmherzigkeit erkennen,}
 
-\line {   "   "Dein allmächtiges Geheimnis,}
+    \line {   "   "Dein allmächtiges Geheimnis,}
 
-\line {   "   "das dem Menschen Eitelkeit des Lebens}
+    \line {   "   "das dem Menschen Eitelkeit des Lebens}
 
-\line {   "   "offenbart. }
+    \line {   "   "offenbart. }
 
- \line { " " }
-\line {   5. Alles Sündige auf der Erde}
+    \line { " " }
+    \line {   5. Alles Sündige auf der Erde}
 
-\line {   "   "ist vergänglich und flüchtig.}
+    \line {   "   "ist vergänglich und flüchtig.}
 
-\line {   "   "Nur Du Gott, bist ewig:}
+    \line {   "   "Nur Du Gott, bist ewig:}
 
-\line {   "   "Wir loben Dich, wir lobpreisen Dich,}
+    \line {   "   "Wir loben Dich, wir lobpreisen Dich,}
 
-\line {   "   "Dich wird die Ewigkeit lobpreisen.}
-      
-      
-         
-    }
-       
-    }    
-    }
+    \line {   "   "Dich wird die Ewigkeit lobpreisen.}
+    
+  }
 }
+
+
+%{
+convert-ly (GNU LilyPond) 2.20.0  convert-ly: Processing `'...
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22,
+2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49,
+2.19.80, 2.20.0
 %}
-   
