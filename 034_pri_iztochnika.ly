@@ -80,7 +80,13 @@
   \new Voice \absolute  {
   \clef treble
   \key a \minor
-  \time 3/4 \tempo "Moderato" 4 = 88
+  \time 3/4 
+  \tempo \markup { % make tempo note smaller
+    \concat { "Moderato " \normal-text { "(" }
+      \teeny \general-align #Y #DOWN \note #"4" #0.8
+      \normal-text { " = 88)" }
+    }
+  }  
   \partial 4
     e'4 |  a'2 b'4 | c''2 b'4 | a'2 e''4 | e''2 \fermata d''4 | e''2 d''4 | c''2 b'4 \break |
     a'2 gis'4 | b'2. | b'2 \fermata e'4 |  a'2 b'4 | c''2 b'4 | a'2 g'4 | f'2 \fermata f'4 \break |
