@@ -1,21 +1,13 @@
-\version "2.18.2"
+\version "2.20.0"
 
-%\markup {  \vspace #1.9 }
-
-\markup {  \hspace #25   \huge\bold "Es lärmt"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
-     
+\markup \fill-line { \fontsize #6 "Es lärmt" }
+\markup \null
+\markup \null
+\markup \fontsize #+2.5 {
+    \hspace #10
+    \override #'(baseline-skip . 2)
     \column {
-    
-       \line { " " }
-       
+     \line { " " }
        
        
        \line {   1. Es lärmt, es lärmt, ich höre,}
@@ -84,13 +76,8 @@
 
 \line {   "   "kläre die Welt!}
        
-       
-       
-                    
-    }
-       
-    }    
+     \line { " " }
+      \line { "   " \italic { Refrain } ... }
     }
 }
-%}
-   
+
