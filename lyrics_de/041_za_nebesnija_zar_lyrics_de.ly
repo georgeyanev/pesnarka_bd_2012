@@ -1,14 +1,13 @@
-\version "2.18.2"
+\version "2.20.0"
 
-%\markup {  \vspace #1.9 }
-
-\markup {  \hspace #25   \huge\bold "Für den himmlischen König"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
+\markup \fill-line { \fontsize #6 "An den himmlischen König" }
+\markup \null
+\markup \null
+\markup \fontsize #+2.5 {
+    \hspace #10
+    \override #'(baseline-skip . 2)
+   
+       
   
   
      
@@ -44,12 +43,5 @@
 
  \line { " "der Liebe, der Liebe.}
        
-       
-       
-                
-                  }
-       
-    }    
     }
 }
-%}
