@@ -1,22 +1,13 @@
 \version "2.18.2"
 
-%\markup {  \vspace #1.9 }
-
-\markup {  \hspace #25   \huge\bold "Ruf des Herzens"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
-     
+\markup \fill-line { \fontsize #6 "Ruf des Herzens" }
+\markup \null
+\markup \null
+\markup \fontsize #+2.5 {
+    \hspace #10
+    \override #'(baseline-skip . 2)
     \column {
-    
-       \line { " " }
-       
-      
+     \line { " " }
 
 \line { 1. Wir fallen heute vor Dir nieder, Herr, }
 
@@ -40,16 +31,6 @@
 
 \line { " "Umgrenze uns mit Deiner Barmherzigkeit,}
 
-\line { " "erleuchte uns mit Deinem Licht.}
-       
-       
-       
-       
-       
-          
-                  }
-       
-    }    
+\line { " "erleuchte uns mit Deinem Licht.}   
     }
 }
-%}
