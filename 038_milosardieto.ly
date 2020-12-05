@@ -81,7 +81,7 @@
     \time 3/4 \tempo \markup { % make tempo note smaller
       \concat { "Andante " \normal-text { " (" }
           \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 60)" }
+          \normal-text { " = 66)" }
       }
     }
     \partial 4
@@ -130,7 +130,7 @@
 \pageBreak
 
 \markup \fontsize #+2.5 {
-    \hspace #1
+    \hspace #12
     \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
     
@@ -142,7 +142,16 @@
 \line {"   "Пролет, лято, есен и през цяла зима,}
 
 \line {"   "откогато хора на Земята има. (2)}
- \line { " " }
+\vspace #0.4
+
+\line {2. Vsichko drago, milo i v lyubov zhivee,}
+
+\line {"   "i tsafti, i varzhe, i raste, i zree.}
+
+\line {"   "Prolet, lyato, esen i prez tsyala zima,}
+
+\line {"   "otkogato hora na Zemyata ima. (2)}
+\line { " " }
 
 \line {3. И щом пътник морен мине край градина,}
 
@@ -151,7 +160,15 @@
 \line {"   "плодове узрели без корист предлага}
 
 \line {"   "с непресторна нега и усмивка блага. (2)}
- \line { " " }
+\vspace #0.4
+\line {3. I shtom patnik moren mine kray gradina,}
+
+\line {"   "vsyako zhivo klonche veselo mu kima –}
+
+\line {"   "plodove uzreli bez korist predlaga}
+
+\line {"   "s neprestorna nega i usmivka blaga. (2)}
+\line { " " }
 
 \line {4. Бедни и богати, здрави или болни,}
 
@@ -160,7 +177,15 @@
 \line {"   "че сменяват в радост грижите, хомота,}
 
 \line {"   "и с утеха виждат смисъл във живота. (2)}
- \line { " " }
+\vspace #0.4
+\line {4. Bedni i bogati, zdravi ili bolni,}
+
+\line {"   "i po vsyako vreme tuka sa dovolni,}
+
+\line {"   "che smenyavat v radost grizhite, homota,}
+
+\line {"   "i s uteha vizhdat smisal vav zhivota. (2)}
+\line { " " }
 
 \line {5. Затуй, който дири истинска победа,}
 
@@ -169,39 +194,7 @@
 \line {"   "няма да се свърши щастие за него,}
 
 \line {"   "ще го благославят и земя, и небо. (2)}
-    }
-
-    \hspace #5
-    \override #'(baseline-skip . 2.4)
-    \column {
-      
-\line {2. Vsichko drago, milo i v lyubov zhivee,}
-
-\line {"   "i tsafti, i varzhe, i raste, i zree.}
-
-\line {"   "Prolet, lyato, esen i prez tsyala zima,}
-
-\line {"   "otkogato hora na Zemyata ima. (2)}
- \line { " " }
-
-\line {3. I shtom patnik moren mine kray gradina,}
-
-\line {"   "vsyako zhivo klonche veselo mu kima –}
-
-\line {"   "plodove uzreli bez korist predlaga}
-
-\line {"   "s neprestorna nega i usmivka blaga. (2)}
- \line { " " }
-
-\line {4. Bedni i bogati, zdravi ili bolni,}
-
-\line {"   "i po vsyako vreme tuka sa dovolni,}
-
-\line {"   "che smenyavat v radost grizhite, homota,}
-
-\line {"   "i s uteha vizhdat smisal vav zhivota. (2)}
- \line { " " }
-
+\vspace #0.4
 \line {5. Zatuy, koyto diri istinska pobeda,}
 
 \line {"   "ray takav prekrasen neka si otgleda;}
@@ -209,7 +202,7 @@
 \line {"   "nyama da se svarshi shtastie za nego,}
 
 \line {"   "shte go blagoslavyat i zemya, i nebo. (2)}
-    } %column
+  }
 } % markup
 
 \pageBreak
@@ -217,11 +210,3 @@
 % include foreign translation(s) of the song
 \include "lyrics_de/038_milosardieto_lyrics_de.ly"
 } % bookpart
-
-
-%{
-convert-ly (GNU LilyPond) 2.20.0  convert-ly: Processing `'...
-Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22,
-2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49,
-2.19.80, 2.20.0
-%}
