@@ -78,7 +78,7 @@
   \new Voice \absolute  {
     \clef treble
     \key f \major
-   % \time 2/4 \tempo "Tempo di marcia" 4 = 100
+    \time 2/4
     \tempo \markup { % make tempo note smaller
       \concat { "Tempo di marcia " \normal-text { "(" }
         \teeny \general-align #Y #DOWN \note #"4" #0.8
@@ -138,7 +138,7 @@
 \pageBreak
 
 \markup \fontsize #+2.5 {
-    \hspace #1
+    \hspace #6
     \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
       
@@ -168,9 +168,8 @@
       \line {   "   " в първата красота, }  
       \line {   "   " свобода, мир и ред  }
       \line {   "   " ще владеят вред. } 
-      \line { "   " \italic {Припев:} }
-     
-    
+      \line { " " }
+      \line { "   " \italic {Припев ... } }
     }
 
     \hspace #5
@@ -201,7 +200,8 @@
       \line {   "   " v parvata krasota, }  
       \line {   "   " svoboda, mir i red  }
       \line {   "   " shte vladeyat vred. } 
-        \line { "   " \italic {Refrain:} }
+      \line { " " }
+      \line { "   " \italic {Refrain ...} }
      
     
     }
