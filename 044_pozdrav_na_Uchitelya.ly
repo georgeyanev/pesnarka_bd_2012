@@ -128,7 +128,7 @@
               \line \fontsize #-3 { Pozdrav na Uchitelya  }
               \vspace #-0.8
               \center-align
-              \line \fontsize #-3 { " " }
+              \line \fontsize #-3 { "   " }
             }
   }
   
@@ -139,76 +139,76 @@
 \pageBreak
 
 \markup \fontsize #+2.5 {
-    \hspace #1
+    \hspace #3
     \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
       \line { 2. Обвити в мрак до този час, }
-   \line { " " ний бяхме роби на греха, }
+   \line { "   " ний бяхме роби на греха, }
 
-   \line { " " но чухме Твоя кротък Глас }
+   \line { "   " но чухме Твоя кротък Глас }
 
-\line { " " и лъхна към нас топлина. }
-\line { " " }
+\line { "   " и лъхна към нас топлина. }
+\line { "   " }
 
-\line { " " \italic{Припев: Добре дошъл ...} }
-\line { " " }
+\line { "   " \italic{Припев: Добре дошъл ...} }
+\line { "   " }
 
-\line { " " Учителю Благословен, }
+\line { 3. Учителю Благословен, }
 
-\line { " " Ти ни сърцата обнови, }
+\line { "   " Ти ни сърцата обнови, }
 
-\line { " " запали огън в нас свещен }
+\line { "   " запали огън в нас свещен }
 
-\line { " " и сладки думи оживи. }
+\line { "   " и сладки думи оживи. }
 
-\line { " " }
+\line { "   " }
 
-\line { " " \italic{Припев: Добре дошъл ...} }
-\line { " " }
+\line { "   " \italic{Припев: Добре дошъл ...} }
+\line { "   " }
 
-\line { " " Учителю, наш скъпи гост, }
+\line { 4. Учителю, наш скъпи гост, }
 
-\line { " " привет от нас Ти приеми; }
+\line { "   " привет от нас Ти приеми; }
 
-\line { " " със радост ний готови сме }
+\line { "   " със радост ний готови сме }
 
-\line { " " да жертваме живота свой. } 
+\line { "   " да жертваме живота свой. } 
     }
 
     \hspace #5
     \override #'(baseline-skip . 2.4)
     \column {
  \line { 2. Obviti v mrak do tozi chas, }
-   \line { " " niy byahme robi na greha, }
+   \line { "   " niy byahme robi na greha, }
 
-   \line { " " no chuhme Tvoya krotak Glas }
+   \line { "   " no chuhme Tvoya krotak Glas }
 
-\line { " " i lahna kam nas toplina. }
-\line { " " }
+\line { "   " i lahna kam nas toplina. }
+\line { "   " }
 
-\line { " " \italic{Refrain: Dobre doshal ...} }
-\line { " " }
+\line { "   " \italic{Refrain: Dobre doshal ...} }
+\line { "   " }
 
-\line { " " Uchitelyu Blagosloven, }
+\line { 3. Uchitelyu Blagosloven, }
 
-\line { " " Ti ni sartsata obnovi, }
+\line { "   " Ti ni sartsata obnovi, }
 
-\line { " " zapali ogan v nas sveshten }
+\line { "   " zapali ogan v nas sveshten }
 
-\line { " " i sladki dumi ozhivi. }
+\line { "   " i sladki dumi ozhivi. }
 
-\line { " " }
+\line { "   " }
 
-\line { " " \italic{Refrain: Dobre doshal ...} }
-\line { " " }
+\line { "   " \italic{Refrain: Dobre doshal ...} }
+\line { "   " }
 
-\line { " " Uchitelyu, nash skapi gost, }
+\line { 4. Uchitelyu, nash skapi gost, }
 
-\line { " " privet ot nas Ti priemi; }
+\line { "   " privet ot nas Ti priemi; }
 
-\line { " " sas radost niy gotovi sme }
+\line { "   " sas radost niy gotovi sme }
 
-\line { " " da zhertvame zhivota svoy. } 
+\line { "   " da zhertvame zhivota svoy. } 
     } %column
 } % markup
 
