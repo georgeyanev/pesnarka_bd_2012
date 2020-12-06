@@ -4,6 +4,37 @@
   #(set-paper-size "a5")
 }
 
+"rightBraces037" = \markup {
+  \column { % repeat braces
+    \translate #'(0 . -5.6 )
+    \right-brace #18
+
+    \translate #'(0 . -10.2 )
+    \right-brace #18
+
+    \translate #'(0 . -10.2 )
+    \right-brace #18
+
+    \translate #'(0 . -10.2 )
+    \right-brace #18
+
+  }
+  \column { % repeat numbers
+    \translate #'(0 . -6.2 )
+    2
+    
+    \translate #'(0 . -12 )
+    2
+
+    \translate #'(0 . -12 )
+    2
+
+    \translate #'(0 . -12.1 )
+    2
+  }
+}
+
+
 \bookpart {
 \paper {
   print-all-headers = ##t
@@ -124,10 +155,11 @@
 } % score
 
 \markup \fontsize #+2.5 {
-    \hspace #1
+    \hspace #0
     \override #'(baseline-skip . 2.4) % affects space between column lines
+    
     \column {
-       \line { 2.  Господи, Ти мой Учител, }
+      \line { 2.  Господи, Ти мой Учител, }
       \line {   "   " в стъпките си ме води, }  
       \line {   "   " и кат мощен покровител }
       \line {   "   " всякога към мен бъди. } 
@@ -147,8 +179,8 @@
       \line {   "   " о, любезни мой Учител,  }
       \line {   "   " дай ми Твойта благодат! } 
     }
-
-    \hspace #5
+    \"rightBraces037"
+    \hspace #3
     \override #'(baseline-skip . 2.4)
     \column {
          \line { 2.  Gospodi, Ti moy Uchitel, }
@@ -171,6 +203,7 @@
       \line {   "   " o, lyubezni moy Uchitel,  }
       \line {   "   " day mi Tvoyta blagodat! } 
     } %column
+    \"rightBraces037"
 } % markup
 
 \pageBreak

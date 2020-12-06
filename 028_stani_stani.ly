@@ -138,6 +138,17 @@
 
       } % score
 
+      \markup \halign #-12.1 \raise #2.8 \override #'(baseline-skip . 2) { 
+        \column  { 
+          \line  \halign #-3.8 { 
+            \bold  { "D. C." }
+          }
+          \line  { 
+            \bold { con ripetizione }
+          }
+        }
+      } 
+
       \pageBreak
 
       \markup \fontsize #+2.5 {
