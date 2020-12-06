@@ -4,6 +4,23 @@
   #(set-paper-size "a5")
 }
 
+"rightBraces045" = \markup {
+  \column { % repeat braces
+    \translate #'(0 . -12.7 )
+    \right-brace #44
+
+    \translate #'(0 . -15.4 )
+    \right-brace #44
+  }
+  \column { % repeat numbers
+    \translate #'(0 . -13.3 )
+    2
+    
+    \translate #'(0 . -19.8 )
+    2
+  }
+}
+
 \bookpart {
 \paper {
   print-all-headers = ##t
@@ -70,7 +87,10 @@
 
     \context { % adjust space between staff and lyrics and between the two lyric lines
       \Lyrics
-      \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+      \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
+        (basic-distance . 4.5)
+        (padding . 0.4)
+      )
       \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
     }
   } % layout
@@ -78,7 +98,7 @@
  \new Voice \absolute  {
     \clef treble
     \key a \minor
-    %\time 2/4 \tempo "Andante" 4 = 72
+    \time 2/4
      \tempo \markup { % make tempo note smaller
       \concat { "Andante " \normal-text { "(" }
           \teeny \general-align #Y #DOWN \note #"4" #0.8
@@ -133,15 +153,14 @@
 
 } % score
 
-\pageBreak
+%\pageBreak
 
 \markup \fontsize #+2.5 {
     \hspace #1
+    \vspace #0.8
     \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
-      \line { 2. Ти си тоз живот реален, }
-      
-      
+      \line { 2. Ти си тоз Живот реален, }
 
 \line {   "   " синко, себе си познай! }
 
@@ -156,45 +175,31 @@
 \line {   "   " идеалите високи}
 
 \line {   "   " и красивия копнеж.}
+\vspace #0.2
 
-\line {   "   " Ти създаваш всеки подтик,}
-
-\line {   "   " благородния стремеж,}
-
-\line {   "   " идеалите високи}
-
-\line {   "   " и красивия копнеж.}
-
-\line {   "   " }
 \line {   3. Тази плът ти е одежда,}
 
-\line {   "   " а земята — школен чин;}
+\line {   "   " а Земята — школен чин;}
 
 \line {   "   " ти живееш и се учиш,}
 
 \line {   "   " като малък Божи Син.}
 
-\line {   "   " Дързост, мили мой животе,}
+\line {   "   " Дързост, мили мой Животе,}
 
 \line {   "   " с теб е Божата Любов!}
 
 \line {   "   " Тя зове те все нагоре —}
 
-\line {   "   " в съвършенство и Свят Нов.}
+\line {   "   " в съвършенство и свят Нов.}
 
-\line {   "   " Дързост, мили мой животе,}
+}
+\"rightBraces045"
 
-\line {   "   " с теб е Божата Любов!}
-
-\line {   "   " Тя зове те все нагоре —}
-
-\line {   "   " в съвършенство и Свят Нов.}
-    }
-
-    \hspace #5
+    \hspace #3
     \override #'(baseline-skip . 2.4)
     \column {
-        \line { 2. Ti si toz zhivot realen, }
+        \line { 2. Ti si toz Zhivot realen, }
      \line {   "   " sinko, sebe si poznay! }
 
 \line {   "   " Tvoyta sila e golyama, }
@@ -209,24 +214,17 @@
 
 \line {   "   " i krasiviya kopnezh.}
 
-\line {   "   " Ti sazdavash vseki podtik,}
+\vspace #0.2
 
-\line {   "   " blagorodniya stremezh,}
-
-\line {   "   " idealite visoki}
-
-\line {   "   " i krasiviya kopnezh.}
-
-\line {   "   " }
 \line {   3. Tazi plat ti e odezhda,}
 
-\line {   "   " a zemyata — shkolen chin;}
+\line {   "   " a Zemyata — shkolen chin;}
 
 \line {   "   " ti zhiveesh i se uchish,}
 
 \line {   "   " kato malak Bozhi Sin.}
 
-\line {   "   " Darzost, mili moy zhivote,}
+\line {   "   " Darzost, mili moy Zhivote,}
 
 \line {   "   " s teb e Bozhata Lyubov!}
 
@@ -234,14 +232,8 @@
 
 \line {   "   " v savarshenstvo i Svyat Nov.}
 
-\line {   "   " Darzost, mili moy zhivote,}
-
-\line {   "   " s teb e Bozhata Lyubov!}
-
-\line {   "   " Tya zove te vse nagore —}
-
-\line {   "   " v savarshenstvo i Svyat Nov.}
     } %column
+\"rightBraces045"
 } % markup
 
 \pageBreak
