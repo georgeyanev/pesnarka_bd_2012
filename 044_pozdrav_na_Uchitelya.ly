@@ -77,7 +77,14 @@
  \new Voice \absolute  {
     \clef treble
     \key f \major
-    \time 2/4 \tempo "Moderato" 4 = 52
+    \time 2/4
+    \tempo \markup { % make tempo note smaller
+      \concat { "Moderato " \normal-text { " (" }
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \normal-text { " = 52)" }
+      }
+    }
+    %\time 2/4 \tempo "Moderato" 4 = 52
     \autoBeamOff  
  
     c'4 f'8. g'16 | \time 3/4 a'4. g'8 a' bes' | c''4. c''8 e'' d'' | c''4. d''8 c'' bes' \break | 
