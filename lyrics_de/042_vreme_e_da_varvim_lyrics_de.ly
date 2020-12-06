@@ -1,21 +1,13 @@
-\version "2.18.2"
+\version "2.20.0"
 
-%\markup {  \vspace #1.9 }
-
-\markup {  \hspace #25   \huge\bold " Es ist Zeit, dass wir gehen"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
-     
+\markup \fill-line { \fontsize #6 "Es ist Zeit, dass wir gehen" }
+\markup \null
+\markup \null
+\markup \fontsize #+2.5 {
+    \hspace #10
+    \override #'(baseline-skip . 2)
     \column {
-    
-       \line { " " }
-
+     \line { " " }
 
 \line { 1. Es ist Zeit, dass wir gehen, }
 
@@ -45,7 +37,7 @@
 \line { " "Er ist das Licht auf unserem Weg.}
 \line { " " }
 
-\line { 2. Lasst uns schnell losfliegen }
+\line { 2. "" Lasst uns schnell losfliegen }
 
 \line { " "mächtig posaunen, }
 
@@ -70,10 +62,5 @@
 
 \line { " "Er ist Lich auf unserem Weg.}
 
-                
-                  }
-       
-    }    
     }
 }
-%}
