@@ -126,23 +126,16 @@
 
 } % score
 
-\pageBreak
-
-\markup \fontsize #+2.5 {
-    \hspace #1
-    \override #'(baseline-skip . 2.4) % affects space between column lines
-    \column {
-      
+\markup \halign #-38 \raise #2.8 { 
+  \column  { 
+    \line  \halign #-3.8 { 
+      \bold  { "D. C." }
     }
+  }
+} 
 
-    \hspace #5
-    \override #'(baseline-skip . 2.4)
-    \column {
-      
-    } %column
-} % markup
-
-
+\markup \null
+\markup \null
 
 % include foreign translation(s) of the song
 \include "lyrics_de/040_blagosloven_Gospod_lyrics_de.ly"

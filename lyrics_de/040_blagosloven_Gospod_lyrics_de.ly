@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \fontsize #+2.5 {
-    \hspace #6
+    \hspace #20
     \override #'(baseline-skip . 2)
     \column {
      \line { "   " }
