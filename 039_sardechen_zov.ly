@@ -81,8 +81,7 @@
     \clef treble
     \key c \major
     \time 3/4
-    % \tempo "Andante" 4 = 66
-     \tempo \markup { % make tempo note smaller
+    \tempo \markup { % make tempo note smaller
       \concat { "Andante" \normal-text { " (" }
           \teeny \general-align #Y #DOWN \note #"4" #0.8
           \normal-text { " = 66)" }
@@ -110,7 +109,7 @@
   \new Voice = "voice2" \absolute  {
     \clef treble
     \key c \major
-    \time 3/4 \tempo "Andante" 4 = 66
+    \time 3/4 
     \autoBeamOff
     \partial 4
     \voiceTwo % stems down
