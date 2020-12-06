@@ -78,7 +78,7 @@
  \new Voice \absolute  {
   \clef treble
   \key c \major
-  %\time 3/4 \tempo "Tempo di marcia" 4 = 96
+  \time 3/4
   \tempo \markup { % make tempo note smaller
       \concat { "Tempo di marcia " \normal-text { " (" }
           \teeny \general-align #Y #DOWN \note #"4" #0.8
@@ -88,7 +88,7 @@
   \partial 8
   \autoBeamOff
  
-    e'8 | g'4. fis'8 g' a' | g'4 e'2 | e'4 e'8. e'16 e'8 e' \break | 
+    e'8 | g'4. fis'8 g' a ' | g'4 e'2 | e'4 e'8. e'16 e'8 e' | \break  
 
     g'4 f'2 | \time 4/4  f'4 f'8 f' d''4 c'' | b'4 a'8 b' c''2 \break |
   
@@ -100,7 +100,7 @@
   
     \time 2/4  f'2 |  \time 4/4  b'4 a'8 b' c''2 |  a'4 b'8 c'' d''2 \break |
   
-    c''4 b'8 a' e'2 | d'4 e'8 f' g'4. e'8 |  g'4 f' e'4. | \bar "|."
+    c''4 b'8 a' e'2 | d'4 e'8 f' g'4. e'8 |  g'4 f' e'4. \bar "|."
   }
   
   \addlyrics { На -- пред,
