@@ -78,7 +78,13 @@
  \new Voice \absolute  {
     \clef treble
     \key a \minor
-    \time 2/4 \tempo "Andante" 4 = 72
+    %\time 2/4 \tempo "Andante" 4 = 72
+     \tempo \markup { % make tempo note smaller
+      \concat { "Andante " \normal-text { "(" }
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \normal-text { " = 72)" }
+      }
+    }
     \partial 4
     \autoBeamOff
  
