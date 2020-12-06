@@ -10,7 +10,7 @@
     
        \line { " " }
   
- \line {   "   "1. Die Liebe ist eine Quelle, }
+ \line {   1. Die Liebe ist eine Quelle, }
 
   \line {   "   "sie gebiert das Leben}
 
