@@ -1,20 +1,14 @@
 \version "2.18.2"
 
-%\markup {  \vspace #1.9 }
-
-\markup {  \hspace #25   \huge\bold "Gruß an den Meister"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
-  
-     
+\markup \fill-line { \fontsize #6 "Gruß an den Meister" }
+\markup \null
+\markup \null
+\markup \fontsize #+2.5 {
+    \hspace #10
+    \override #'(baseline-skip . 2)
     \column {
      \line { " " }
+   
      
    \line { " " 1. Gesegnet bist du von Gott, }
 
@@ -66,12 +60,7 @@
    \line { " " mit Freude sind wir bereit, }
 
    \line { " " unser Leben zu opfern.}
-     
-     
-         }
-       
-    }    
+
+    
     }
 }
-%}
-   
