@@ -1,30 +1,22 @@
 \version "2.18.2"
 
-%\markup {  \vspace #1.9 }
-
-\markup {  \hspace #25   \huge\bold "Mein Sohn, bewahre das Leben"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
-  
-     
+\markup \fill-line { \fontsize #6 "Mein Sohn, bewahre das Leben" }
+\markup \null
+\markup \null
+\markup \fontsize #+2.5 {
+    \hspace #10
+    \override #'(baseline-skip . 2)
     \column {
      \line { " " }
-     
     \line {  1. Mein Sohn, bewahre das Leben, }
 
-\line { " "die in dir verborgene Glut --}
+\line { " "die in dir verborgene Glut -}
 
 \line { " "Es ist seinem Sinn nach kostbar}
 
 \line { " "und ein herrliches Geschenk! }
 
-\line { " "Unsterblicher, unvergänglicher Geist --}
+\line { " "Unsterblicher, unvergänglicher Geist -}
 
 \line { " "der, der ewig wacht }
 
@@ -62,16 +54,8 @@
 
 \line { " "die göttliche Liebe ist mit dir! }
 
-\line { " "Sie ruft dich immer nach oben --}
+\line { " "Sie ruft dich immer nach oben -}
 
 \line { " "in Vollkommenheit und in die neue Welt.}
-     
-     
-     
-              }
-       
-    }    
-    }
+   }
 }
-%}
-   
