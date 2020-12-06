@@ -16,6 +16,7 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../036_napred_da_hodim.ly \
     ../037_na_Uchitelya.ly \
     ../038_milosardieto.ly \
+    ../039_sardechen_zov.ly \
     > tmp.ly
 
 lilypond --include=../ -o pesn_all tmp.ly
