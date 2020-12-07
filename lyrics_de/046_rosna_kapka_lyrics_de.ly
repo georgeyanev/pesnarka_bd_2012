@@ -1,6 +1,6 @@
 \version "2.18.2"
 
-\markup \fill-line { \fontsize #6 "Die wunderbare Mögenröte bricht an" }
+\markup \fill-line { \fontsize #6 "Tautropfen" }
 \markup \null
 \markup \null
 \markup \fontsize #+2.5 {
