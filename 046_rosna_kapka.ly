@@ -4,6 +4,23 @@
   #(set-paper-size "a5")
 }
 
+"rightBraces046" = \markup {
+  \column { % repeat braces
+    \translate #'(0 . -9.2 )
+    \right-brace #32
+
+    \translate #'(0 . -13.6 )
+    \right-brace #32
+  }
+  \column { % repeat numbers
+    \translate #'(0 . -9.8 )
+    2
+    
+    \translate #'(0 . -16.8 )
+    2
+  }
+}
+
 \bookpart {
 \paper {
   print-all-headers = ##t
@@ -70,7 +87,10 @@
 
     \context { % adjust space between staff and lyrics and between the two lyric lines
       \Lyrics
-      \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+      \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
+        (basic-distance . 4.5)
+        (padding . 1)
+        )
       \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
     }
   } % layout
@@ -97,11 +117,11 @@
                               
      a'4 gis' a'8 b' | }  \alternative { { c''4 b' a'8 b' | c''4 d'' e''8 f'' | e''2 e''8 d''  \break |  }                            
   
-    { c''4 b' c''8 b'8 | a'4 gis'4 a'8 b'8 | a'2.| \bar "|." } }
+    { c''4 b' c''8 b'8 | a'4 gis'4 a'8 b'8 | a'2 \bar "|." } }
   }
   
   \addlyrics {
-    Рос -- на кап -- ко, свят ла -- зу -- рен, чист, кра -- сив и тих, без -- 
+    "1. Рос" -- на кап -- ко, свят ла -- зу -- рен, чист, кра -- сив и тих, без -- 
     бу -- рен, мир на рай -- ски -- я Жи -- вот, мир на рай -- ски -- я Жи -- 
     вот! В~те -- бе, кап -- ко, ви -- кам всич -- ки бра -- тя 
     ми -- ли и се -- стрич -- ки, да ти ста -- не -- ме на -- род. В~те -- бе,
@@ -109,8 +129,8 @@
   }
 
 \addlyrics {
-    Ros -- na kap -- ko, svyat la -- zu -- ren, chist, kra -- siv i tih, bez -- 
-    bu -- ren, mir na ray -- ski -- ya ZHi -- vot, mir na ray -- ski -- ya ZHi -- 
+    "1. Ros" -- na kap -- ko, svyat la -- zu -- ren, chist, kra -- siv i tih, bez -- 
+    bu -- ren, mir na ray -- ski -- ya Zhi -- vot, mir na ray -- ski -- ya Zhi -- 
     vot! V~te -- be, kap -- ko, vi -- kam vsich -- ki bra -- tya 
     mi -- li i se -- strich -- ki, da ti sta -- ne -- me na -- rod. V~te -- be,
     strich -- ki, da ti sta -- ne -- me na -- rod.  
@@ -133,10 +153,9 @@
 
 } % score
 
-\pageBreak
-
 \markup \fontsize #+2.5 {
     \hspace #1
+    \vspace #1
     \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
       \line { 2. Всяка сутрин във росата }
@@ -150,11 +169,6 @@
 
 \line {   "   " сводът красен да ечи.}
 
-\line {   "   " и ще пеем нови песни}
-
-\line {   "   " със мелодии чудесни,}
-
-\line {   "   " сводът красен да ечи.}
 \line{" "}
 
 \line {   3.  И тъй чисти, в бели дрехи,}
@@ -167,14 +181,10 @@
 
 \line {   "   " Бога нашего да славим}
 
-\line {   "   " всеки ден — во век-веков.}
+\line {   "   " всеки ден, во век веков.}
 
-\line {   "   " ново царство ще направим,}
-
-\line {   "   " Бога нашего да славим }
-
-\line {   "   " всеки ден — во век-веков. }
     }
+\"rightBraces046"
 
     \hspace #5
     \override #'(baseline-skip . 2.4)
@@ -190,11 +200,6 @@
 
 \line {   "   " svodat krasen da echi.}
 
-\line {   "   " i shte peem novi pesni}
-
-\line {   "   " sas melodii chudesni,}
-
-\line {   "   " svodat krasen da echi.}
 \line{" "}
 
 \line {   3.  I tay chisti, v beli drehi,}
@@ -207,14 +212,10 @@
 
 \line {   "   " Boga nashego da slavim}
 
-\line {   "   " vseki den — vo vek-vekov.}
+\line {   "   " vseki den, vo vek vekov.}
 
-\line {   "   " novo tsarstvo shte napravim,}
-
-\line {   "   " Boga nashego da slavim }
-
-\line {   "   " vseki den — vo vek-vekov. }
     } %column
+\"rightBraces046"
 } % markup
 
 \pageBreak
