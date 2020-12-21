@@ -4,6 +4,36 @@
   #(set-paper-size "a5")
 }
 
+"rightBraces047" = \markup {
+  \column { % repeat braces
+    \translate #'(0 . -3.1 )
+    \right-brace #44
+
+    \translate #'(0 . -7.6 )
+    \right-brace #44
+
+    \translate #'(0 . -7.6 )
+    \right-brace #44
+
+    \translate #'(0 . -7.6 )
+    \right-brace #44
+
+  }
+  \column { % repeat numbers
+    \translate #'(0 . -3.7 )
+    2
+    
+    \translate #'(0 . -11.7 )
+    2
+
+    \translate #'(0 . -11.9 )
+    2
+
+    \translate #'(0 . -12 )
+    2
+  }
+}
+
 \bookpart {
   \paper {
     print-all-headers = ##t
@@ -70,7 +100,10 @@
 
       \context { % adjust space between staff and lyrics and between the two lyric lines
         \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
+          (basic-distance . 4.5)
+          (padding . 1)
+        )
         \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
       }
     } % layout
@@ -96,16 +129,16 @@
         a'4 bes'8 | a'4 d''8 | cis''4 bes'8 |  a'4 g'8 | f'4 a'8 | e'4 a'8 |  d'4. | d'4. } \break |
     }
   
-    \addlyrics {Аз съм бя -- ло ко -- ки -- че
+    \addlyrics {"1. Аз" съм бя -- ло ко -- ки -- че
                 Всред тре -- ви -- те гор -- с -- ки,
-                сра -- меж -- ли -- во кат' мо -- ми -- че
+                сра -- меж -- ли -- во кат мо -- ми -- че
                 от пог -- ле -- ди хор -- ски. Зла ме ма -- ще -- ха съ -- бу -- ди
                 с~сне -- га, вет -- ро -- ве -- те.  
                 Всич -- ко жи -- во да се чу -- ди,
                 че съм ран -- но цве -- те.}
-                \addlyrics {Az sam bya -- lo ko -- ki -- che
+    \addlyrics {"1. Az" sam bya -- lo ko -- ki -- che
                 Vsred tre -- vi -- te gor -- s -- ki,
-                sra -- mezh -- li -- vo kat' mo -- mi -- che
+                sra -- mezh -- li -- vo kat mo -- mi -- che
                 ot pog -- le -- di hor -- ski. Zla me ma -- shte -- ha sa -- bu -- di
                 s~sne -- ga, vet -- ro -- ve -- te.  
                 Vsich -- ko zhi -- vo da se chu -- di,
@@ -128,10 +161,10 @@
 
     } % score
 
-    \pageBreak
 
     \markup \fontsize #+2.5 {
-      \hspace #1
+      \hspace #2
+      \vspace #1
       \override #'(baseline-skip . 2.4) % affects space between column lines
       \column {
         \line {    2. Радост нова ви показвам }
@@ -157,33 +190,34 @@
         \line {   "   " ангели ще славят Бога }
         \line {   "   " с песни най-красиви. } 
       }
-
-      \hspace #5
+      \"rightBraces047"
+      \hspace #6
       \override #'(baseline-skip . 2.4)
       \column {
         \line { 2. Radost nova vi pokazvam }
-        \line {   "   " s kaschka ranobudna, }  
-        \line {   "   " i sa proletta razkazvam }
-        \line {   "   " prikazchiza chudna} 
+        \line {   "   " s chashka ranobudna }  
+        \line {   "   " i za proletta razkazvam }
+        \line {   "   " prikazchica chudna} 
       
         \line { " " }
-        \line { 3. Che sled mene temenuzka, }
-        \line {   "   " u vas ste gostuva}  
-        \line {   "   " che sas taka mila druzka }
-        \line {   "   " slavei ste se chuva. } 
+        \line { 3. Che sled mene temenuzhka }
+        \line {   "   " u vas shte gostuva,}  
+        \line {   "   " che sys taya mila druzhka }
+        \line {   "   " slavey shte se chuva. } 
       
         \line { " " }
-        \line { 4. Che aganza ste sablejat }
-        \line {   "   " v livadi zeleni}  
-        \line {   "   " che orachi ste sasejat }
+        \line { 4. Che agynca shte zableyat }
+        \line {   "   " v livadi zeleni,}  
+        \line {   "   " che orachi shte zaseyat }
         \line {   "   " nivi natoreni.} 
       
         \line { " " }
-        \line { 5. Zlatni klasove ste zrejat }
-        \line {   "   " v tez chudni nivi}  
-        \line {   "   " angeli ste slavjat Boga }
-        \line {   "   " s pesni naj-krasivi.} 
+        \line { 5. Zlatni klasove shte zreyat }
+        \line {   "   " v tezi chudni nivi}  
+        \line {   "   " angeli ste slavyat Boga }
+        \line {   "   " s pesni nay-krasivi.} 
       } %column
+      \"rightBraces047"
     } % markup
 
     \pageBreak

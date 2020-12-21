@@ -4,65 +4,65 @@
 \markup \null
 \markup \null
 \markup \fontsize #+2.5 {
-    \hspace #10
+    \hspace #14
     \override #'(baseline-skip . 2)
     \column {
-     \line { " " }
+     \line { "   " }
      
   \line {1. Ich bin das weiße Schneeglöckchen}
 
-  \line { " "inmitten der Gräsern des Waldes,}
+  \line { "   "inmitten der Gräsern des Waldes,}
 
-  \line { " "schüchtern wie ein junges Mädchen }
+  \line { "   "schüchtern wie ein junges Mädchen }
 
-  \line { " "unter den Blicken der Menschen. }
-  \line { " " }
-
-    \line { "   " \italic { Refrain } ... }
-  \line { " "Die böse Stiefmutter hat mich geweckt, }
-
-  \line { " "mit dem Schnee und mit dem Wind. }
-
-  \line { " "Alles Lebendige wundert sich, }
-
-  \line { " "dass ich eine Frühblüher bin.}
-
-  \line { " "2. Ich zeige euch eine neue Freude}
-
-  \line { " "mit einem früh erwachten Glöckchen,}
-
-  \line { " "und erzähle über den Frühling}
-
-  \line { " "ein wunderbares Märchen,}
-  \line { " " }
+  \line { "   "unter den Blicken der Menschen. }
+  \line { "   " }
 
     \line { "   " \italic { Refrain } ... }
+  \line { "   "Die böse Stiefmutter hat mich geweckt, }
 
-  \line { " "dass nach mir das Veilchen}
+  \line { "   "mit dem Schnee und mit dem Wind. }
 
-  \line { " "bei euch Gast sein wird, }
+  \line { "   "Alles Lebendige wundert sich, }
 
-  \line { " "und dass man mit dieser lieben Freundin}
+  \line { "   "dass ich eine Frühblüher bin.}
 
-  \line { " "die Nachtigall hören wird.}
+  \line { 2. Ich zeige euch eine neue Freude}
 
-  \line { " "3. dass Lämmer blöken werden}
+  \line { "   "mit einem früh erwachten Glöckchen,}
 
-  \line { " "auf grünen Weiden, }
+  \line { "   "und erzähle über den Frühling}
 
-  \line { " "die Bauer werden }
-
-  \line { " "die gedüngten Feldern säen.}
-  \line { " " }
+  \line { "   "ein wunderbares Märchen,}
+  \line { "   " }
 
     \line { "   " \italic { Refrain } ... }
 
-  \line { " "Goldene Ähren werden reifen,}
+  \line { "   "dass nach mir das Veilchen}
 
-  \line { " "auf diesen wunderbaren Feldern.} 
+  \line { "   "bei euch Gast sein wird, }
 
-  \line { " "Die Engel werden Gott loben }
+  \line { "   "und dass man mit dieser lieben Freundin}
 
-  \line { " "mit den allerschönsten Liedern.}
+  \line { "   "die Nachtigall hören wird.}
+
+  \line { 3. dass Lämmer blöken werden}
+
+  \line { "   "auf grünen Weiden, }
+
+  \line { "   "die Bauer werden }
+
+  \line { "   "die gedüngten Feldern säen.}
+  \line { "   " }
+
+    \line { "   " \italic { Refrain } ... }
+
+  \line { "   "Goldene Ähren werden reifen,}
+
+  \line { "   "auf diesen wunderbaren Feldern.} 
+
+  \line { "   "Die Engel werden Gott loben }
+
+  \line { "   "mit den allerschönsten Liedern.}
     }
 }
