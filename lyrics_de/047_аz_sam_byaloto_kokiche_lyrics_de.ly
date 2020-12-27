@@ -17,6 +17,7 @@
 
   \line { "   "unter den Blicken der Menschen. }
   \line { "   " }
+  
 
     \line { "   " \italic { Refrain } ... }
   \line { "   "Die böse Stiefmutter hat mich geweckt, }
@@ -26,6 +27,8 @@
   \line { "   "Alles Lebendige wundert sich, }
 
   \line { "   "dass ich eine Frühblüher bin.}
+
+   \line { "   " }
 
   \line { 2. Ich zeige euch eine neue Freude}
 
@@ -45,6 +48,7 @@
   \line { "   "und dass man mit dieser lieben Freundin}
 
   \line { "   "die Nachtigall hören wird.}
+   \line { "   " }
 
   \line { 3. dass Lämmer blöken werden}
 
