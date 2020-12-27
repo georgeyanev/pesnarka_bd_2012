@@ -390,6 +390,6 @@
 \pageBreak
 
 % include foreign translation(s) of the song
-%\include "lyrics_de/lyrics_de_file_name.ly"
+\include "lyrics_de/052_darzost_v_Hrista_lyrics_de.ly"
 
 } % bookpart
