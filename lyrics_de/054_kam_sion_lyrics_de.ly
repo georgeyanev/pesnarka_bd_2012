@@ -1,19 +1,13 @@
 \version "2.18.2"
 
-%\markup {  \vspace #1.9 }
-
-\markup {  \hspace #25   \huge\bold "An Zion"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
-  \column {
-     \line { " " } 
-     
+\markup \fill-line { \fontsize #6 "Zu Zion" }
+\markup \null
+\markup \null
+\markup \fontsize #+2.5 {
+    \hspace #14
+    \override #'(baseline-skip . 2)
+    \column {
+     \line { "   " }
      
      \line { " "1. Mit Adlerschwingen, unser lieber Zion, }
 
@@ -37,9 +31,9 @@
 \line { " " } 
 \line { " "3. Erstrahle, heiliges Zion,}
 
-\line { " "schnell fliegen bereits.}
+\line { " "schnell fliegen wir schon.}
 
-\line { " "Wir werden uns  bald dem Gott in dir}
+\line { " "Wir werden uns bald dem Gott in dir}
 
 \line { " "im Geist verneigen.}
      
@@ -48,17 +42,3 @@
       }
        
     }    
-    }
-}
-%}
-   
- 
- 
-
-
- 
-    
-   
-    
- 
-%--------------------------------------------------------------------- 
