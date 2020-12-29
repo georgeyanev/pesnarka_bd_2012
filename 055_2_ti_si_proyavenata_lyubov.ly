@@ -122,6 +122,15 @@
 } % score
 
 
+\markup \halign #-38 \raise #2.8 { 
+  \column  { 
+    \line  \halign #-3.8 { 
+      \bold  { "D. C." }
+    }
+  }
+} 
+
+
 
 \markup \fontsize #+2.5 {
     \hspace #1
