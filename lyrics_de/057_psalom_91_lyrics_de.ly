@@ -1,18 +1,13 @@
-\version "2.18.2"
+\version "2.20.0"
 
-%\markup {  \vspace #1.9 }
-
-\markup {  \hspace #25   \huge\bold "Psalm 91"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
+\markup \fill-line { \fontsize #6 "Psalm 91" }
+\markup \null
+\markup \null
+\markup \fontsize #+2.5 {
+  \hspace #14
+  \override #'(baseline-skip . 2)
   \column {
-     \line { " " } 
+    \line { " " }
      
       \line { " "Wer im Schutz des Höchsten wohnt, }
  
@@ -20,16 +15,11 @@
  
  \line { " "Ich sage zum Herrn:}
  
- \line { " "Meine Zuflucht und meine Burg, mein Gott, ich vertraue auf Ihn! }
+ \line { " "Meine Zuflucht und meine Burg, mein Gott, }
      
-     
-     
-     
+   \line {  " "ich vertraue auf Ihn! }       
      
            }
        
     }    
-    }
-}
-%}
-   
+  
