@@ -1,23 +1,17 @@
 \version "2.18.2"
 
-%\markup {  \vspace #1.9 }
-
-\markup {  \hspace #25   \huge\bold "Mögen wir an Jesus singen"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
-  \column {
+\markup \fill-line { \fontsize #6 "Mögen wir Jesus besingen" }
+\markup \null
+\markup \null
+\markup \fontsize #+2.5 {
+    \hspace #10
+    \override #'(baseline-skip . 2)
+    \column {
      \line { " " }
      
-     
-     \line { " "1. Mögen wir neue Hymnen zu Jesus}
+\line { 1. Mögen wir Jesus mit neuen Hymnen}
 
-\line { " "in dieser Stunde singen --}
+\line { " "in dieser Stunde besingen -}
 
 \line { " "Er ist der ewige Sohn Gottes }
 
@@ -33,7 +27,7 @@
 
   \line { " " }
 
-\line { " "2. Singt zu Christus neue Hymnen}
+\line { 2. Singt zu Christus neue Hymnen}
 
 \line { " "in dieser festlichen Stunde,}
 
@@ -49,7 +43,7 @@
 
   \line { " " }
 
-\line { " "3. Und nachdem er gepriesen worden war,}
+\line { 3. Und nachdem er gepriesen worden war,}
 
 \line { " "gab er uns ein neues Testament,}
 
@@ -67,7 +61,7 @@
 
 
   \line { " " }
-\line { " "4. Liebet einander, }
+\line { 4. Liebet einander, }
 
 \line { " "so dienen wir unserem Vater,}
 
@@ -83,7 +77,7 @@
 
 \line { " "lebt in Liebe!}
   \line { " " }
-\line { " "4. Nur in ihr ist das Leben,}
+\line { 5. Nur in ihr ist das Leben,}
 
 \line { " "in ihre ist auch die Freude,}
 
@@ -103,7 +97,3 @@
            }
        
     }    
-    }
-}
-%}
-   
