@@ -140,7 +140,7 @@
               \vspace #-0.6
               \center-align
               \line \fontsize #-3 { Pesen na glasnite bukvi}
-              \vspace #-0.8
+              \vspace #-0.5
               \center-align
               \line \fontsize #-3 { "Lied der Vokale " }
             }
