@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.2"
 
 \paper {
   #(set-paper-size "a5")
@@ -107,10 +107,10 @@
   \header {
     title = \markup \column \normal-text \fontsize #2.5 {
               \center-align
-              \line { Напред чада напред }
+              \line { Напред, чада, напред }
               \vspace #-0.6
               \center-align
-              \line \fontsize #-3 { Napred chada napred }
+              \line \fontsize #-3 { Napred, chada, napred }
               \vspace #-0.8
               \center-align
               \line \fontsize #-3 { " " }
