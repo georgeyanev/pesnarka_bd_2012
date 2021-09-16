@@ -1,63 +1,48 @@
 \version "2.18.2"
 
-%\markup {  \vspace #1.9 }
-
-\markup {  \hspace #25   \huge\bold "Vorwärts, Kinder, vorwärts"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
-  
-     
+\markup \fill-line { \fontsize #6 "Vorwärts, Kinder, vorwärts" }
+\markup \null
+\markup \null
+\markup \fontsize #+2.5 {
+    \hspace #12
+    \override #'(baseline-skip . 2)
     \column {
      \line { " " }
 
+ \line { 1. Vorwärts, Kinder, vorwärts,}
+ \line { "   "bringt das Wort überall hin! }
 
- \line { " "1. Vorwärts, Kinder, vorwärts,}
- \line { " "bringt das Wort überall hin! }
+ \line { "   "Bringt ohne Angst vor dem neuen Leben }
 
- \line { " "Bringt ohne Angst vor dem neuen Leben }
-
- \line { " "Gerechtigkeit, Frieden und Liebe!}
-
-
-  \line { " " }
- \line { " "2. Vom neuen Himmel aus}
-
- \line { " "ruft uns heute der Erlöser.}
-
- \line { " "Hört diesen Ruf, }
-
- \line { " "bringt Gerechtigkeit, Frieden und Liebe!}
+ \line { "   "Gerechtigkeit, Frieden und Liebe!}
 
 
   \line { " " }
- \line { " "3. Hier unten gibt es keinen Frieden, }
+ \line { 2. Vom neuen Himmel aus}
 
- \line { " "Ungerechtigkeit ist weit und breit.}
+ \line { "   "ruft uns heute der Erlöser.}
 
- \line { " "Verbreitet heute schnell }
+ \line { "   "Hört diesen Ruf, }
 
- \line { " "die gute Nachricht von Frieden und Gerechtigkeit!}
+ \line { "   "bringt Gerechtigkeit, Frieden und Liebe!}
+
 
   \line { " " }
- \line { " "4. Vorwärts, Kinder, vorwärts,}
+ \line { 3. Hier unten gibt es keinen Frieden, }
 
- \line { " "bringt das Wort überall hin! }
+ \line { "   "Ungerechtigkeit ist weit und breit.}
 
- \line { " "Bringt ohne Angst vor dem neuen Leben }
+ \line { "   "Verbreitet heute schnell }
 
- \line { " "Gerechtigkeit, Frieden und Liebe!}
+ \line { "   "die gute Nachricht von Frieden und Gerechtigkeit!}
 
-     
-     
-              }
-       
-    }    
+  \line { " " }
+ \line { 4. Vorwärts, Kinder, vorwärts,}
+
+ \line { "   "bringt das Wort überall hin! }
+
+ \line { "   "Bringt ohne Angst vor dem neuen Leben }
+
+ \line { "   "Gerechtigkeit, Frieden und Liebe!}
     }
 }
-%}
