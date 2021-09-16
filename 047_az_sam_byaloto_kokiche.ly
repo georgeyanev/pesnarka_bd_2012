@@ -9,13 +9,13 @@
     \translate #'(0 . -3.1 )
     \right-brace #44
 
-    \translate #'(0 . -7.6 )
+    \translate #'(0 . -5.2 )
     \right-brace #44
 
     \translate #'(0 . -7.6 )
     \right-brace #44
 
-    \translate #'(0 . -7.6 )
+    \translate #'(0 . -5.2 )
     \right-brace #44
 
   }
@@ -23,13 +23,13 @@
     \translate #'(0 . -3.7 )
     2
     
-    \translate #'(0 . -11.7 )
+    \translate #'(0 . -9.3 )
     2
 
     \translate #'(0 . -11.9 )
     2
 
-    \translate #'(0 . -12 )
+    \translate #'(0 . -9.7 )
     2
   }
 }
@@ -172,50 +172,46 @@
         \line {   "   " и за пролетта разказвам }
         \line {   "   " приказчица чудна. } 
       
-        \line { " " }
-        \line {  3. Че след мене теменужка  }
-        \line {   "   " у вас ще гостува, }  
-        \line {   "   " че със тая мила дружка }
-        \line {   "   " славей ще се чува. } 
+        \line {  "     " Че след мене теменужка  }
+        \line {   "     " у вас ще гостува, }  
+        \line {   "     " че със тая мила дружка }
+        \line {   "     " славей ще се чува. } 
       
         \line { " " }
-        \line { 4. Че агънца ще заблеят  }
+        \line { 3. Че агънца ще заблеят  }
         \line {   "   " в ливади зелени, }  
         \line {   "   " че орачи ще засеят }
         \line {   "   " ниви наторени. } 
       
-        \line { " " }
-        \line { 5. Златни класове ще зреят  }
-        \line {   "   " в тези чудни ниви, }  
-        \line {   "   " ангели ще славят Бога }
-        \line {   "   " с песни най-красиви. } 
+        \line { "     " Златни класове ще зреят  }
+        \line {   "     " в тези чудни ниви, }  
+        \line {   "     " Ангели ще славят Бога }
+        \line {   "     " с песни най-красиви. } 
       }
       \"rightBraces047"
       \hspace #6
       \override #'(baseline-skip . 2.4)
       \column {
-        \line { 2. Radost nova vi pokazvam }
+         \line {    2. Radost nova vi pokazvam }
         \line {   "   " s chashka ranobudna }  
         \line {   "   " i za proletta razkazvam }
-        \line {   "   " prikazchica chudna} 
+        \line {   "   " prikazchitsa chudna. } 
+      
+        \line {  "     " Che sled mene temenuzhka  }
+        \line {   "     " u vas shte gostuva, }  
+        \line {   "     " che sas taya mila druzhka }
+        \line {   "     " slavey shte se chuva. } 
       
         \line { " " }
-        \line { 3. Che sled mene temenuzhka }
-        \line {   "   " u vas shte gostuva,}  
-        \line {   "   " che sys taya mila druzhka }
-        \line {   "   " slavey shte se chuva. } 
-      
-        \line { " " }
-        \line { 4. Che agynca shte zableyat }
-        \line {   "   " v livadi zeleni,}  
+        \line { 3. Che agantsa shte zableyat  }
+        \line {   "   " v livadi zeleni, }  
         \line {   "   " che orachi shte zaseyat }
-        \line {   "   " nivi natoreni.} 
+        \line {   "   " nivi natoreni. } 
       
-        \line { " " }
-        \line { 5. Zlatni klasove shte zreyat }
-        \line {   "   " v tezi chudni nivi}  
-        \line {   "   " angeli ste slavyat Boga }
-        \line {   "   " s pesni nay-krasivi.} 
+        \line { "     " Zlatni klasove shte zreyat  }
+        \line {   "     " v tezi chudni nivi, }  
+        \line {   "     " Angeli shte slavyat Boga }
+        \line {   "     " s pesni nay-krasivi. } 
       } %column
       \"rightBraces047"
     } % markup
@@ -223,6 +219,6 @@
     \pageBreak
 
     % include foreign translation(s) of the song
-    \include "lyrics_de/047_аz_sam_byaloto_kokiche_lyrics_de.ly"
+    \include "lyrics_de/047_az_sam_byaloto_kokiche_lyrics_de.ly"
 
   } % bookpart

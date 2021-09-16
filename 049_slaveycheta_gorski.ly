@@ -4,6 +4,35 @@
   #(set-paper-size "a5")
 }
 
+"rightBraces049" = \markup {
+  \column { % repeat braces
+    \translate #'(0 . -5.5 )
+    \right-brace #20
+
+    \translate #'(0 . -10.0 )
+    \right-brace #20
+
+    \translate #'(0 . -10.0 )
+    \right-brace #20
+
+    \translate #'(0 . -10.0 )
+    \right-brace #20
+  }
+  \column { % repeat numbers
+    \translate #'(0 . -6.1 )
+    2
+    
+    \translate #'(0 . -12.0 )
+    2
+
+    \translate #'(0 . -12.0 )
+    2
+
+    \translate #'(0 . -12.0 )
+    2
+  }
+}
+
 \bookpart {
 \paper {
   print-all-headers = ##t
@@ -78,7 +107,14 @@
 \new Voice \absolute  {
     \clef treble
     \key g \minor
-    \time 2/4 \tempo "Tempo di marcia" 4 = 112
+    \time 2/4 
+    %\tempo "Tempo di marcia" 4 = 112
+    \tempo \markup { % make tempo note smaller
+      \concat { "Tempo di marcia" \normal-text { " (" }
+                \teeny \general-align #Y #DOWN \note #"4" #0.8
+                \normal-text { " = 112)" }
+      }
+    }
     \autoBeamOff
   
     bes'4. a'8 | c''8 bes' a' g' |  g'2 |  f'2 | a'4. g'8 \break | 
@@ -127,7 +163,7 @@
 
 \line {   "   " те ни носят радост вечно; }
 
-\line {   "   "  хем са живи, хем игриви,}
+\line {   "   "  хем са живи, хем игриви}
 
 \line {   "   " кат поточе бързотечно.}
 \line {   "   " }
@@ -143,31 +179,31 @@
 
 \line {   4. От гласа ни тих и строен}
 
-\line {   "   " всяко зло ще се прокуди,}
+\line {   "   " всяко зло ще се прокуди;}
 
-\line {   "   "нови воин – млад, достоен }
+\line {   "   "новий воин – млад, достоен, }
 
 \line {   "   " с песните си ще пробудим.}
 \line {   "   " } 
 
 \line {   5. Пейте, пейте, мили птички,}
 
-\line {   "   "тъй се истински живее;}
+\line {   "   "тъй се истински живее,}
 
 \line {   "   "пейте, пейте дружно всички – }
 
 \line {   "   " целий свят със вас да пее! }
-
     }
+\"rightBraces049"
 
     \hspace #5
     \override #'(baseline-skip . 2.4)
     \column {
-     \line { 2.  Nash'te pesni sa ronlivi,}
+      \line { 2.  Nash'te pesni sa ronlivi,}
 
-\line {   "   " te ni nosyat radost vechno;}
+\line {   "   " te ni nosyat radost vechno; }
 
-\line {   "   "  hem sa zhivi, hem igrivi,}
+\line {   "   "  hem sa zhivi, hem igrivi}
 
 \line {   "   " kat potoche barzotechno.}
 \line {   "   " }
@@ -185,7 +221,7 @@
 
 \line {   "   " vsyako zlo shte se prokudi;}
 
-\line {   "   "novi voin – mlad, dostoen –}
+\line {   "   "noviy voin – mlad, dostoen, }
 
 \line {   "   " s pesnite si shte probudim.}
 \line {   "   " } 
@@ -198,6 +234,8 @@
 
 \line {   "   " tseliy svyat sas vas da pee! }
     } %column
+\"rightBraces049"
+
 } % markup
 
 \pageBreak
