@@ -1,8 +1,32 @@
-\version "2.20.2"
+\version "2.20.0"
 
 \paper {
   #(set-paper-size "a5")
 }
+
+"rightBraces048" = \markup {
+  \column { % repeat braces
+    \translate #'(0 . -5.5 )
+    \right-brace #20
+
+    \translate #'(0 . -10.0 )
+    \right-brace #20
+
+    \translate #'(0 . -10.0 )
+    \right-brace #20
+  }
+  \column { % repeat numbers
+    \translate #'(0 . -6.1 )
+    2
+    
+    \translate #'(0 . -12.0 )
+    2
+
+    \translate #'(0 . -12.0 )
+    2
+  }
+}
+
 
 \bookpart {
 \paper {
@@ -92,14 +116,14 @@
   }
   
   \addlyrics {
-    На -- пред ча -- да на -- пред, но -- се -- те Сло -- во -- то на -- 
+    "1. На" -- пред, ча -- да, на -- пред, но -- се -- те Сло -- во -- то на -- 
     вред! Без страх в~Жи -- во -- та нов но -- се -- те 
     Прав -- да, Мир, Лю -- бов. Без бов!
   }
 
   \addlyrics {
-    Na -- pred cha -- da na -- pred, no -- se -- te Slo -- vo -- to na -- 
-    vred! Bez strah v~ZHi -- vo -- ta nov no -- se -- te 
+    "1. Na" -- pred, cha -- da, na -- pred, no -- se -- te Slo -- vo -- to na -- 
+    vred! Bez strah v~Zhi -- vo -- ta nov no -- se -- te 
     Prav -- da, Mir, Lyu -- bov. Bez bov!
   }
  
@@ -127,19 +151,19 @@
     \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
      
-       \line {   2. От Новото небе }
+\line {   2. От новото небе }
 
-\line {   "   " Спасителя ни днес зове. }
+\line {   "   " Спасителят ни днес зове: }
 
-\line {   "   " Я чуйте тоя зов:}
+\line {   "   " Я чуйте тоя зов –}
 
 \line {   "   " носете Правда, Мир, Любов!}
 
 \line {   "   "}
 
-\line {   3.  Тук долу няма мир,}
+\line {   3.  Тук долу няма Mир,}
 
-\line {   "   " неправдата е в длъж и шир –} 
+\line {   "   " неправдата е в длъж и шир;} 
 
 \line {   "   " разсейте бързо днес }
 
@@ -151,29 +175,30 @@
 
 \line {   "   " носете Словото навред!}
 
-\line {   "   " Без страх в живота нов}
+\line {   "   " Без страх в Живота нов,}
 
 \line {   "   " носете Правда, Мир, Любов!}
 
-    }
+}
+\"rightBraces048"
     
 
     \hspace #5
     \override #'(baseline-skip . 2.4)
     \column {
-       \line {    2. Ot Novoto nebe }
+ \line {   2. Ot novoto nebe }
 
-\line {   "   " Spasitelya ni dnes zove. }
+\line {   "   " Spasitelyat ni dnes zove: }
 
-\line {   "   " Ya chuyte toya zov:}
+\line {   "   " Ya chuyte toya zov –}
 
 \line {   "   " nosete Pravda, Mir, Lyubov!}
 
 \line {   "   "}
 
-\line {   3.  Tuk dolu nyama mir,}
+\line {   3.  Tuk dolu nyama Mir,}
 
-\line {   "   " nepravdata e v dlazh i shir – } 
+\line {   "   " nepravdata e v dlazh i shir;} 
 
 \line {   "   " razseyte barzo dnes }
 
@@ -185,10 +210,11 @@
 
 \line {   "   " nosete Slovoto navred!}
 
-\line {   "   " Bez strah v zhivota nov}
+\line {   "   " Bez strah v Zhivota nov,}
 
 \line {   "   " nosete Pravda, Mir, Lyubov!}
     } %column
+\"rightBraces048"
 } % markup
 
 \pageBreak
