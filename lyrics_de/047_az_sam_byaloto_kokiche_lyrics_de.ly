@@ -16,17 +16,14 @@
   \line { "   "schüchtern wie ein junges Mädchen }
 
   \line { "   "unter den Blicken der Menschen. }
-  \line { "   " }
-  
 
-    \line { "   " \italic { Refrain } ... }
-  \line { "   "Die böse Stiefmutter hat mich geweckt, }
+  \line { "     "Die böse Stiefmutter hat mich geweckt, }
 
-  \line { "   "mit dem Schnee und mit dem Wind. }
+  \line { "     "mit dem Schnee und mit dem Wind. }
 
-  \line { "   "Alles Lebendige wundert sich, }
+  \line { "     "Alles Lebendige wundert sich, }
 
-  \line { "   "dass ich eine Frühblüher bin.}
+  \line { "     "dass ich eine Frühblüher bin.}
 
    \line { "   " }
 
@@ -37,36 +34,30 @@
   \line { "   "und erzähle über den Frühling}
 
   \line { "   "ein wunderbares Märchen,}
-  \line { "   " }
 
-    \line { "   " \italic { Refrain } ... }
+  \line { "     "Dass nach mir das Veilchen}
 
-  \line { "   "dass nach mir das Veilchen}
+  \line { "     "bei euch Gast sein wird, }
 
-  \line { "   "bei euch Gast sein wird, }
+  \line { "     "und dass man mit dieser lieben Freundin}
 
-  \line { "   "und dass man mit dieser lieben Freundin}
-
-  \line { "   "die Nachtigall hören wird.}
+  \line { "     "die Nachtigall hören wird.}
    \line { "   " }
 
-  \line { 3. dass Lämmer blöken werden}
+  \line { 3. Dass Lämmer blöken werden}
 
   \line { "   "auf grünen Weiden, }
 
   \line { "   "die Bauer werden }
 
   \line { "   "die gedüngten Feldern säen.}
-  \line { "   " }
 
-    \line { "   " \italic { Refrain } ... }
+  \line { "     "Goldene Ähren werden reifen,}
 
-  \line { "   "Goldene Ähren werden reifen,}
+  \line { "     "auf diesen wunderbaren Feldern.} 
 
-  \line { "   "auf diesen wunderbaren Feldern.} 
+  \line { "     "Die Engel werden Gott loben }
 
-  \line { "   "Die Engel werden Gott loben }
-
-  \line { "   "mit den allerschönsten Liedern.}
+  \line { "     "mit den allerschönsten Liedern.}
     }
 }
