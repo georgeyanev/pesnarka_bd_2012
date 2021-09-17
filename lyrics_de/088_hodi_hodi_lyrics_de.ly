@@ -25,5 +25,19 @@
   \line { " "zu den schönen Blümchen, }
 
   \line { " "seinen kleinen Kindern.}
+
+   \line { " " }
+
+  \line { " " 2.	Die Regentropfen bieten ebenfalls }
+
+ \line { " " reichlich Feuchtigkeit -- Strom des Leben. }
+ 
+ \line { " "Samenkörner sprießen, }
+ 
+ \line { " "Knospen öffnen sich, }
+ 
+ \line { " "Früchte reifen. }
+ 
+ \line { " "Alles erwacht; mächtig ist das Wasser!  }
     }
 }
