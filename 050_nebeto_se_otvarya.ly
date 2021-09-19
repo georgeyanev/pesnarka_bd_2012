@@ -1,8 +1,38 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \paper {
   #(set-paper-size "a5")
 }
+
+"rightBraces050" = \markup {
+  \column { % repeat braces
+    \translate #'(0 . -5.5 )
+    \right-brace #20
+
+    \translate #'(0 . -10.0 )
+    \right-brace #20
+
+    \translate #'(0 . -10.0 )
+    \right-brace #20
+
+    \translate #'(0 . -10.0 )
+    \right-brace #20
+  }
+  \column { % repeat numbers
+    \translate #'(0 . -6.1 )
+    2
+    
+    \translate #'(0 . -12.0 )
+    2
+
+    \translate #'(0 . -12.0 )
+    2
+
+    \translate #'(0 . -12.0 )
+    2
+  }
+}
+
 
 \bookpart {
 \paper {
@@ -86,14 +116,14 @@
     }
     \partial 4 g'4 | e'2 f'4 | g'2 g'4 | a'2. | g'2 g'4 | c''2 d''4 | e''2 d''4 | \break
     d''2. | c''2 g'4 | \repeat volta 2 { e''2 e''4 | d''2 cis''4 | d''2. | \break
-    a'2 c''4 | b'2 b'4 | b'4 ( a'4 ) b'4 | d''2. | } \alternative {
+    a'2 c''4 | b'2 b'4 | \stemUp b'4 ( a'4 ) b'4 \stemNeutral | d''2. | } \alternative {
       { c''2 g'4 | } 
       { c''2  s4 } 
     } \bar "|."
   }
   
   \addlyrics {
-    Не -- бе -- то се от -- ва -- ря и Ан -- ге -- ли -- те
+    "1. Не" -- бе -- то се от -- ва -- ря и Ан -- ге -- ли -- те
     пе -- ят. И мол -- ни -- и бле -- стя -- 
     щи тъ -- ми и здрач пи -- ле -- ят. И ят.
   }
@@ -142,7 +172,7 @@
 
 \line {   "   " облечени във бяло,}
 
-\line {   "   " да Го посрещнем с радост –}
+\line {   "   " да Го посрещнем с Радост,}
 
 \line {   "   " тържествено и славно.}
 \line {   "   "}
@@ -164,12 +194,12 @@
 
 \line {   "   " през всичките години.  }
     }
-
+\"rightBraces050"
     \hspace #5
     \override #'(baseline-skip . 2.4)
     \column {
       
-\line {   2. Hristos otgore sliza}
+ \line {   2. Hristos otgore sliza}
 
 \line {   "   " vav Svoyata darzhava}
 
@@ -182,7 +212,7 @@
 
 \line {   "   " oblecheni vav byalo,}
 
-\line {   "   " da Go posreshtnem s radost –}
+\line {   "   " da Go posreshtnem s Radost,}
 
 \line {   "   " tarzhestveno i slavno.}
 \line {   "   "}
@@ -205,6 +235,7 @@
 \line {   "   " prez vsichkite godini.  }
     
     } %column
+\"rightBraces050"    
 } % markup
 
 \pageBreak
