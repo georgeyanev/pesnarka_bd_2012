@@ -4,6 +4,29 @@
   #(set-paper-size "a5")
 }
 
+"rightBraces051" = \markup {
+  \column { % repeat braces
+    \translate #'(0 . -5.5 )
+    \right-brace #20
+
+    \translate #'(0 . -10.0 )
+    \right-brace #20
+
+    \translate #'(0 . -10.0 )
+    \right-brace #20
+  }
+  \column { % repeat numbers
+    \translate #'(0 . -6.1 )
+    2
+    
+    \translate #'(0 . -12.0 )
+    2
+
+    \translate #'(0 . -12.0 )
+    2
+  }
+}
+
 \bookpart {
 \paper {
   print-all-headers = ##t
@@ -93,13 +116,13 @@
   }
   
   \addlyrics {
-    О, У -- чи -- те -- лю бла -- га -- ти, теб из -- пъл -- ва До -- бри -- 
+    "1. О," У -- чи -- те -- лю бла -- га -- ти, теб из -- пъл -- ва До -- бри -- 
     на. Твой -- те ду -- ми са кри -- ла -- ти, пъл -- ни 
     с~Мъ -- дрост, Свет -- ли -- на. Твой -- те на.
   }
 
   \addlyrics {
-    O, U -- chi -- te -- lyu bla -- ga -- ti, teb iz -- pal -- va Do -- bri -- 
+    "1. O," U -- chi -- te -- lyu bla -- ga -- ti, teb iz -- pal -- va Do -- bri -- 
     na. Tvoy -- te du -- mi sa kri -- la -- ti, pal -- ni 
     s~Ma -- drost, Svet -- li -- na. Tvoy -- te na.
   }
@@ -127,87 +150,70 @@
     \column {
      
 
-      \line {   2. Пратеник Си Ти от Бога}
+\line {   2. Пратеник си ти от Бога}
 
 \line {   "   "всред измъчени души,}
 
-\line {   "   "мир, любов Ти в нас да влееш,}
+\line {   "   "Мир, Любов ти в нас да влееш,}
 
-\line {   "   "нов живот, честити дни.}
+\line {   "   "Нов живот, честити дни.}
 
-\line {   "   "мир, любов Ти в нас да влееш,}
-
-\line {   "   "нов живот, честити дни.}
 \line {   "   "}
 
 \line {   3. В скърби, мъки и неволи }
 
-\line {   "   "само Ти Си наш подслон,}
+\line {   "   "само ти си наш подслон,}
 
-\line {   "   "Ти утеха ни донесе,}
+\line {   "   "ти утеха ни донесе,}
 
-\line {   "   "Мой Учителю, поклон!}
+\line {   "   "мой Учителю, поклон!}
 
-\line {   "   "Ти утеха ни донесе,}
-
-\line {   "   "Мой Учителю, поклон!}
 \line {   "   "}
 
-\line {   4. Твоите думи — бисер чисти,}
+\line {   4. Твоите думи - бисер чисти,}
 
-\line {   "   "Твоят образ — светлина,}
-
-\line {   "   "о, Учителю честити,}
-
-\line {   "   "влей в сърца ни топлина!}
+\line {   "   "твоят образ - Светлина,}
 
 \line {   "   "о, Учителю честити,}
 
-\line {   "   "влей в сърца ни топлина! }
-    }
+\line {   "   "влей в сърца ни Топлина!}
 
-    \hspace #5
+}
+\"rightBraces051"
+
+    \hspace #3
     \override #'(baseline-skip . 2.4)
     \column {
       
-      \line {   2. Pratenik Si Ti ot Boga}
+ \line {   2. Pratenik si ti ot Boga}
 
 \line {   "   "vsred izmacheni dushi,}
 
-\line {   "   "mir, lyubov Ti v nas da vleesh,}
+\line {   "   "Mir, Lyubov ti v nas da vleesh,}
 
-\line {   "   "nov zhivot, chestiti dni.}
+\line {   "   "Nov zhivot, chestiti dni.}
 
-\line {   "   "mir, lyubov Ti v nas da vleesh,}
-
-\line {   "   "nov zhivot, chestiti dni.}
 \line {   "   "}
 
 \line {   3. V skarbi, maki i nevoli }
 
-\line {   "   "samo Ti Si nash podslon,}
+\line {   "   "samo ti si nash podslon,}
 
-\line {   "   "Ti uteha ni donese,}
+\line {   "   "ti uteha ni donese,}
 
-\line {   "   "Moy Uchitelyu, poklon!}
+\line {   "   "moy Uchitelyu, poklon!}
 
-\line {   "   "Ti uteha ni donese,}
-
-\line {   "   "Moy Uchitelyu, poklon!}
 \line {   "   "}
 
-\line {   4. Tvoite dumi — biser chisti,}
+\line {   4. Tvoite dumi - biser chisti,}
 
-\line {   "   "Tvoyat obraz — svetlina,}
-
-\line {   "   "o, Uchitelyu chestiti,}
-
-\line {   "   "vley v sartsa ni toplina!}
+\line {   "   "tvoyat obraz - Svetlina,}
 
 \line {   "   "o, Uchitelyu chestiti,}
 
-\line {   "   "vley v sartsa ni toplina! }
+\line {   "   "vley v sartsa ni Toplina!}
     } %column
+\"rightBraces051"
 } % markup
 
 \pageBreak
