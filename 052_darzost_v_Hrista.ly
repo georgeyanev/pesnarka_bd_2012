@@ -92,7 +92,7 @@
   }
   
   \addlyrics {
-    Дър -- зост във Хри -- ста, дру -- га -- ри, с~Не -- го 
+    "1. Дър" -- зост във Хри -- ста, дру -- га -- ри, с~Не -- го 
     да вър -- вим на -- пред, Той е ца -- рят на Жи -- во -- та, 
     цар -- ство -- то Му е на -- вред, е на -- вред.
   }
@@ -106,10 +106,10 @@
   \header {
     title = \markup \column \normal-text \fontsize #2.5 {
               \center-align
-              \line {  Дързост във Христа }
+              \line {  Дързост в Христа }
               \vspace #-0.6
               \center-align
-              \line \fontsize #-3 { Darzost vav Hrista }
+              \line \fontsize #-3 { Darzost v Hrista }
               \vspace #-0.8
               \center-align
               \line \fontsize #-3 { " " }
