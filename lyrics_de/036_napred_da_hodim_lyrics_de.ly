@@ -8,28 +8,28 @@
   \override #'(baseline-skip . 2)
   \column {
     \line { "   " }
-    
+
     \line {1. Lasst uns kühn vorwärtsgehen}
     \line { "   "in die stillen Paläste des geheimen Wissens,}
     \line { "   "erfüllt mit Leben und Kraft.}
     \line { "   " }
- 
+
     \line { "   " \italic { Refrain ...}  }
     \line { "   " }
 
     \line { "   "Wie ein Wirbel über den Wäldern,}
- 
+
     \line { "   "mit feurigem Geist in der Brust, }
-  
+
     \line { "   "lasst uns vorwärts fliegen }
 
     \line { "   "auf dass wir die Welt erneuern!}
     \line { "   " }
- 
+
     \line { 2. Lasst uns die Erde}
- 
+
     \line { "   "mit reinen Gedanken umgrenzen }
-  
+
     \line { "   "und das allsündige Böse}
 
     \line { "   "mit Gerechtigkeit besiegen.}
@@ -42,11 +42,11 @@
 
     \line { "   "Stütze und Erneuerung bringen,}
 
-    \line { "   "den Leidenden -- Barmherzigkeit}
+    \line { "   "den Leidenden - Barmherzigkeit}
 
     \line { "   "und die neue Freiheit.}
     \line { "   " }
-  
+
     \line { "   " \italic { Refrain ...}  }
     \line { "   " }
 
@@ -66,10 +66,10 @@
 
     \line { "   "der neuen Stadt öffnen,}
 
-    \line { "   "lasst uns in Jerusalem eintreten --}
+    \line { "   "lasst uns in Jerusalem eintreten -}
 
     \line { "   "in die Welt der Lichter.}
-    
+
     \line { "   " }
     \line { "   " \italic { Refrain ... }}
   }

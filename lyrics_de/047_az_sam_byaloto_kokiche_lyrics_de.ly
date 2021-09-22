@@ -1,63 +1,63 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \markup \fill-line { \fontsize #6 "Ich bin das weiße Schneeglöckchen" }
 \markup \null
 \markup \null
 \markup \fontsize #+2.5 {
-    \hspace #14
-    \override #'(baseline-skip . 2)
-    \column {
-     \line { "   " }
-     
-  \line {1. Ich bin das weiße Schneeglöckchen}
+  \hspace #14
+  \override #'(baseline-skip . 2)
+  \column {
+    \line { "   " }
 
-  \line { "   "inmitten der Gräsern des Waldes,}
+    \line {1. Ich bin das weiße Schneeglöckchen}
 
-  \line { "   "schüchtern wie ein junges Mädchen }
+    \line { "   "inmitten der Gräsern des Waldes,}
 
-  \line { "   "unter den Blicken der Menschen. }
+    \line { "   "schüchtern wie ein junges Mädchen }
 
-  \line { "     "Die böse Stiefmutter hat mich geweckt, }
+    \line { "   "unter den Blicken der Menschen. }
 
-  \line { "     "mit dem Schnee und mit dem Wind. }
+    \line { "     "Die böse Stiefmutter hat mich geweckt, }
 
-  \line { "     "Alles Lebendige wundert sich, }
+    \line { "     "mit dem Schnee und mit dem Wind. }
 
-  \line { "     "dass ich eine Frühblüher bin.}
+    \line { "     "Alles Lebendige wundert sich, }
 
-   \line { "   " }
+    \line { "     "dass ich eine Frühblüher bin.}
 
-  \line { 2. Ich zeige euch eine neue Freude}
+    \line { "   " }
 
-  \line { "   "mit einem früh erwachten Glöckchen,}
+    \line { 2. Ich zeige euch eine neue Freude}
 
-  \line { "   "und erzähle über den Frühling}
+    \line { "   "mit einem früh erwachten Glöckchen,}
 
-  \line { "   "ein wunderbares Märchen,}
+    \line { "   "und erzähle über den Frühling}
 
-  \line { "     "Dass nach mir das Veilchen}
+    \line { "   "ein wunderbares Märchen,}
 
-  \line { "     "bei euch Gast sein wird, }
+    \line { "     "Dass nach mir das Veilchen}
 
-  \line { "     "und dass man mit dieser lieben Freundin}
+    \line { "     "bei euch Gast sein wird, }
 
-  \line { "     "die Nachtigall hören wird.}
-   \line { "   " }
+    \line { "     "und dass man mit dieser lieben Freundin}
 
-  \line { 3. Dass Lämmer blöken werden}
+    \line { "     "die Nachtigall hören wird.}
+    \line { "   " }
 
-  \line { "   "auf grünen Weiden, }
+    \line { 3. Dass Lämmer blöken werden}
 
-  \line { "   "die Bauer werden }
+    \line { "   "auf grünen Weiden, }
 
-  \line { "   "die gedüngten Feldern säen.}
+    \line { "   "die Bauer werden }
 
-  \line { "     "Goldene Ähren werden reifen,}
+    \line { "   "die gedüngten Feldern säen.}
 
-  \line { "     "auf diesen wunderbaren Feldern.} 
+    \line { "     "Goldene Ähren werden reifen,}
 
-  \line { "     "Die Engel werden Gott loben }
+    \line { "     "auf diesen wunderbaren Feldern.}
 
-  \line { "     "mit den allerschönsten Liedern.}
-    }
+    \line { "     "Die Engel werden Gott loben }
+
+    \line { "     "mit den allerschönsten Liedern.}
+  }
 }

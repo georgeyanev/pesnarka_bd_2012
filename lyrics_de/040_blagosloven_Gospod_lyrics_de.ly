@@ -4,28 +4,28 @@
 \markup \null
 \markup \null
 \markup \fontsize #+2.5 {
-    \hspace #20
-    \override #'(baseline-skip . 2)
-    \column {
-     \line { "   " }
-       
-\line { " "Gelobt sei der Herr, unser Gott,}
+  \hspace #20
+  \override #'(baseline-skip . 2)
+  \column {
+    \line { "   " }
 
-\line { " "der Herr aller Zeiten!}
+    \line { " "Gelobt sei der Herr, unser Gott,}
 
-\line { " "Gepriesen sei unser Vater,}
+    \line { " "der Herr aller Zeiten!}
 
-\line { " "der Vater der lichtvollen Geister}
+    \line { " "Gepriesen sei unser Vater,}
 
-\line { " "der lichtvollen Geister}
+    \line { " "der Vater der lichtvollen Geister}
 
-\line { " "der lichtvollen Geister}
+    \line { " "der lichtvollen Geister}
 
-\line { " "der lichtvollen Geister}
+    \line { " "der lichtvollen Geister}
 
-\line { " "der lichtvollen Geister}
+    \line { " "der lichtvollen Geister}
 
-\line { " "der lichtvollen Geister!}
-                 
+    \line { " "der lichtvollen Geister}
+
+    \line { " "der lichtvollen Geister!}
+
   }
 }

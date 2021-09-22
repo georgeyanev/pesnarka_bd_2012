@@ -8,7 +8,7 @@
   \override #'(baseline-skip . 2)
   \column {
     \line { " " }
-    
+
     \line {  1.  Leidende Seele, die du dich sehnst:}
 
     \line {   "   " Wofür brennst und glühst du? }
@@ -60,7 +60,7 @@
     \line {   "   "Wir loben Dich, wir lobpreisen Dich,}
 
     \line {   "   "Dich wird die Ewigkeit lobpreisen.}
-    
+
   }
 }
 

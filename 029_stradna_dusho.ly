@@ -51,7 +51,7 @@
   }
 
   \score{
-    \layout { 
+    \layout {
       indent = 0.0\cm % remove first line indentation
       %ragged-last = ##t % do not spread last line to fill the whole space
       \context {
@@ -59,7 +59,8 @@
         \omit BarNumber %remove bar numbers
       } % context
 
-      \context { % change staff size
+      \context {
+        % change staff size
         \Staff
         fontSize = #+0 % affects notes size only
         \override StaffSymbol #'staff-space = #(magstep -3)
@@ -68,7 +69,8 @@
         %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
       }
 
-      \context { % adjust space between staff and lyrics and between the two lyric lines
+      \context {
+        % adjust space between staff and lyrics and between the two lyric lines
         \Lyrics
         \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
         \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
@@ -78,10 +80,12 @@
     \new Voice \absolute  {
       \clef treble
       \key d \minor
-      \time 3/4  \tempo \markup { % make tempo note smaller
-        \concat { "Andante " \normal-text { "(" }
-                  \teeny \general-align #Y #DOWN \note #"8" #0.8
-                  \normal-text { " = 60)" }
+      \time 3/4  \tempo \markup {
+        % make tempo note smaller
+        \concat {
+          "Andante " \normal-text { "(" }
+          \teeny \general-align #Y #DOWN \note #"8" #0.8
+          \normal-text { " = 60)" }
         }
       }
       \autoBeamOff
@@ -91,140 +95,142 @@
       \time 3/4  f'8 ([ g' ]) a'2 | \time 6/4  bes'4. a'8 bes' ([ a' ]) bes' ([ c'' ]) d'' ([ c'' ]) bes' ([ a' ]) \break |
       \time 3/4  |a'8 ([ g'8 ]) a'2 | \time 6/4  d'4. e'8 f'4\staccato e'4\staccato d'\staccato cis'\staccato | \time 4/4  e'2 d' | \bar "|." \break
     }
-  
-    \addlyrics {Страд -- на
-                ду -- шо, ти коп -- не -- еш, за как -- во го --
-                риш и тле -- еш? Сло -- во -- то Ти, Бо -- же,
-                ча -- кам и о -- бил -- на -- та Ти ми -- лост,
-                за тях стра -- дам и коп -- не -- я.}
-                \addlyrics {Strad -- na
-                            du -- sho, ti kop -- ne -- esh, za kak -- vo go --
-                            rish i tle -- esh? Slo -- vo -- to Ti, Bo -- zhe,
-                            cha -- kam i o -- bil -- na -- ta Ti mi -- lost,
-                            za tyah stra -- dam i kop -- ne -- ya.}
-  
-                            \header {
-                              title = \markup \column \normal-text \fontsize #2.5 {
-                                \center-align
-                                \line { Страдна душо }
-                                \vspace #-0.6
-                                \center-align
-                                \line \fontsize #-3 { Stradna dusho }
-                                \vspace #-0.8
-                                \center-align
-                                \line \fontsize #-3 { " " }
-                              }
-                            }
-  
-                            \midi{}
 
-                } % score
+    \addlyrics {
+      Страд -- на
+      ду -- шо, ти коп -- не -- еш, за как -- во го --
+      риш и тле -- еш? Сло -- во -- то Ти, Бо -- же,
+      ча -- кам и о -- бил -- на -- та Ти ми -- лост,
+      за тях стра -- дам и коп -- не -- я.}
+      \addlyrics {
+        Strad -- na
+        du -- sho, ti kop -- ne -- esh, za kak -- vo go --
+        rish i tle -- esh? Slo -- vo -- to Ti, Bo -- zhe,
+        cha -- kam i o -- bil -- na -- ta Ti mi -- lost,
+        za tyah stra -- dam i kop -- ne -- ya.}
 
-                \pageBreak
+        \header {
+          title = \markup \column \normal-text \fontsize #2.5 {
+            \center-align
+            \line { Страдна душо }
+            \vspace #-0.6
+            \center-align
+            \line \fontsize #-3 { Stradna dusho }
+            \vspace #-0.8
+            \center-align
+            \line \fontsize #-3 { " " }
+          }
+        }
 
-                \markup \fontsize #+2.5 {
-                  \hspace #1
-                  \override #'(baseline-skip . 2.4) % affects space between column lines
-                  \column {
-                    \line {   "   " 2. И гладувам, и жадувам,}
+        \midi{}
 
-                    \line {   "   " тях очаквам денонощно.}
+      } % score
 
-                    \line {   "   " Ти ме, Боже, благославяй,}
+      \pageBreak
 
-                    \line {   "   " при Теб близо аз да бъда}
+      \markup \fontsize #+2.5 {
+        \hspace #1
+        \override #'(baseline-skip . 2.4) % affects space between column lines
+        \column {
+          \line {   "   " 2. И гладувам, и жадувам,}
 
-                    \line {   "   " и утеха в Теб да найда.}
-                    \line { " " }
+          \line {   "   " тях очаквам денонощно.}
 
-                    \line {   "   " 3.Твоя светъл лик да гледам}
+          \line {   "   " Ти ме, Боже, благославяй,}
 
-                    \line {   "   " и величието Твое,}
+          \line {   "   " при Теб близо аз да бъда}
 
-                    \line {   "   " да науча Теб да любя.}
+          \line {   "   " и утеха в Теб да найда.}
+          \line { " " }
 
-                    \line {   "   " таз Любов към Тебе, Боже,}
+          \line {   "   " 3.Твоя светъл лик да гледам}
 
-                    \line {   "   " да намеря мощна сила.}
+          \line {   "   " и величието Твое;}
 
-                    \line { " " }
+          \line {   "   " да науча Теб да любя.}
 
-                    \line {   "   " 4. Във подвизи, съвършенство}
+          \line {   "   " таз Любов към Тебе, Боже,}
 
-                    \line {   "   " да познавам милостта Ти,}
+          \line {   "   " да намеря мощна сила.}
 
-                    \line {   "   " превеликата Ти тайна,}
+          \line { " " }
 
-                    \line {   "   " що разкрива на човека}
+          \line {   "   " 4. Във подвизи - съвършенство}
 
-                    \line {   "   " суетата на живота.}
-                    \line { " " }
-                    \line {   "   " 5. Всичко грешно на Земята}
+          \line {   "   " да познавам милостта Ти,}
 
-                    \line {   "   " е преходно, мимолетно.}
+          \line {   "   " превеликата Ти тайна,}
 
-                    \line {   "   " Само Ти си вечен, Боже:}
+          \line {   "   " що разкрива на човека}
 
-                    \line {   "   " Тебе хвалим, Тебе славим,}
+          \line {   "   " суетата на живота.}
+          \line { " " }
+          \line {   "   " 5. Всичко грешно на Земята}
 
-                    \line {   "   " Теб ще славят вековете.}
-                  }
+          \line {   "   " е преходно, мимолетно.}
 
-                  \hspace #5
-                  \override #'(baseline-skip . 2.4)
-                  \column {
-                    \line {   2. I gladuvam, i zhaduvam }
+          \line {   "   " Само Ти си вечен, Боже,}
 
-                    \line {   "   "tyah ochakvam denonoshtno.}
+          \line {   "   " Тебе хвалим, Тебе славим,}
 
-                    \line {   "   "Ti me, Bozhe, blagoslavyay,}
+          \line {   "   " Теб ще славят вековете.}
+        }
 
-                    \line {   "   "pri Teb blizo az da bada}
+        \hspace #5
+        \override #'(baseline-skip . 2.4)
+        \column {
+          \line {   2. I gladuvam, i zhaduvam }
 
-                    \line {   "   "i uteha v Teb da nayda.}
+          \line {   "   "tyah ochakvam denonoshtno.}
 
-                    \line { " " }
+          \line {   "   "Ti me, Bozhe, blagoslavyay,}
 
-                    \line {  3. Tvoya svetal lik da gledam}
+          \line {   "   "pri Teb blizo az da bada}
 
-                    \line {   "   "i velichieto Tvoe,}
+          \line {   "   "i uteha v Teb da nayda.}
 
-                    \line {   "   "da naucha Teb da lyubya.}
+          \line { " " }
 
-                    \line {   "   "taz Lyubov kam Tebe, Bozhe,}
+          \line {  3. Tvoya svetal lik da gledam}
 
-                    \line {   "   "da namerya moshtna sila.}
+          \line {   "   "i velichieto Tvoe,}
 
-                    \line { " " }
+          \line {   "   "da naucha Teb da lyubya.}
 
-                    \line {  4. Vav podvizi, savarshenstvo}
+          \line {   "   "taz Lyubov kam Tebe, Bozhe,}
 
-                    \line {   "   "da poznavam milostta Ti,}
+          \line {   "   "da namerya moshtna sila.}
 
-                    \line {   "   "prevelikata Ti tayna,}
+          \line { " " }
 
-                    \line {   "   "shto razkriva na choveka}
+          \line {  4. Vav podvizi - savarshenstvo}
 
-                    \line {   "   "suetata na zhivota.}
+          \line {   "   "da poznavam milostta Ti,}
 
-                    \line { " " }
+          \line {   "   "prevelikata Ti tayna,}
 
-                    \line {  5. Vsichko greshno na Zemyata}
+          \line {   "   "shto razkriva na choveka}
 
-                    \line {   "   "e prehodno, mimoletno.}
+          \line {   "   "suetata na zhivota.}
 
-                    \line {   "   "Samo Ti si vechen, Bozhe:}
+          \line { " " }
 
-                    \line {   "   "Tebe hvalim, Tebe slavim,}
+          \line {  5. Vsichko greshno na Zemyata}
 
-                    \line {   "   "Teb shte slavyat vekovete.}
-                  } %column
-                } % markup
+          \line {   "   "e prehodno, mimoletno.}
 
-                \pageBreak
+          \line {   "   "Samo Ti si vechen, Bozhe:}
 
-                % include foreign translation(s) of the song
-                \include "lyrics_de/029_stradna_dusho_lyrics_de.ly"
+          \line {   "   "Tebe hvalim, Tebe slavim,}
+
+          \line {   "   "Teb shte slavyat vekovete.}
+        } %column
+      } % markup
+
+      \pageBreak
+
+      % include foreign translation(s) of the song
+      \include "lyrics_de/029_stradna_dusho_lyrics_de.ly"
 
     } % bookpart
 

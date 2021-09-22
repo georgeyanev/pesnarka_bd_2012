@@ -4,10 +4,10 @@
 \markup \null
 \markup \null
 \markup \fontsize #+2.5 {
-    \hspace #6
-    \override #'(baseline-skip . 2)
-    \column {
-     \line { "   " }
+  \hspace #6
+  \override #'(baseline-skip . 2)
+  \column {
+    \line { "   " }
     \line { 1. Die Barmherzigkeit ist ein Paradiesgarten, }
 
     \line { "   " wunderschön geschmückt, erfüllt von der Maischönheit;  }
@@ -51,6 +51,6 @@
     \line { "   " Das Glück wird für ihn nicht enden  }
 
     \line { "   " Erde und Himmel werden ihn segnen. (2)}
-   
+
   }
 }

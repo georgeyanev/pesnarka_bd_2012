@@ -1,36 +1,36 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \markup \fill-line { \fontsize #6 "Ruf des Herzens" }
 \markup \null
 \markup \null
 \markup \fontsize #+2.5 {
-    \hspace #14
-    \override #'(baseline-skip . 2)
-    \column {
-     \line { "   " }
+  \hspace #14
+  \override #'(baseline-skip . 2)
+  \column {
+    \line { "   " }
 
-\line { 1. Wir fallen heute vor Dir nieder, Herr, }
+    \line { 1. Wir fallen heute vor Dir nieder, Herr, }
 
-\line { "   "mit reinen zittrigen Seelen.}
+    \line { "   "mit reinen zittrigen Seelen.}
 
-\line { "   "Wir schütten unsere Herzen in einem Lied aus }
+    \line { "   "Wir schütten unsere Herzen in einem Lied aus }
 
-\line { "   "und rufen Dich an, Allheiliger! Vergib!}
+    \line { "   "und rufen Dich an, Allheiliger! Vergib!}
 
-\line { 2. Vergiss unsere Sünden, }
+    \line { 2. Vergiss unsere Sünden, }
 
-\line { "   "segne uns reichlich.}
+    \line { "   "segne uns reichlich.}
 
-\line { "   "Allgütiger König der leuchtenden Seelen,}
+    \line { "   "Allgütiger König der leuchtenden Seelen,}
 
-\line { "   "empfange uns in Deinem Reich!}
+    \line { "   "empfange uns in Deinem Reich!}
 
-\line { 3. Wir lobpreisen Dich dort in der Ewigkeit,}
+    \line { 3. Wir lobpreisen Dich dort in der Ewigkeit,}
 
-\line { "   "einzig Dir gebührt der Lobpreis.}
+    \line { "   "einzig Dir gebührt der Lobpreis.}
 
-\line { "   "Umgrenze uns mit Deiner Barmherzigkeit,}
+    \line { "   "Umgrenze uns mit Deiner Barmherzigkeit,}
 
-\line { "   "erleuchte uns mit Deinem Licht.}   
-    }
+    \line { "   "erleuchte uns mit Deinem Licht.}
+  }
 }

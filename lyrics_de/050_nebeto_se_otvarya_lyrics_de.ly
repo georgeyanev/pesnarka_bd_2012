@@ -1,60 +1,60 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \markup \fill-line { \fontsize #6 "Der Himmel öffnet sich" }
 \markup \null
 \markup \null
 \markup \fontsize #+2.5 {
-    \hspace #16
-    \override #'(baseline-skip . 2)
-    \column {
-     \line { "   " }
-     
-     
+  \hspace #16
+  \override #'(baseline-skip . 2)
+  \column {
+    \line { "   " }
+
+
     \line { 1. Der Himmel öffnet sich}
 
-\line { "   "und die Engel singen}
+    \line { "   "und die Engel singen}
 
-\line { "   "Leuchtende Blitze }
+    \line { "   "Leuchtende Blitze }
 
-\line { "   "vertreiben Dunkelheit und Finsternis.}
+    \line { "   "vertreiben Dunkelheit und Finsternis.}
 
-  \line { " " } 
+    \line { " " }
 
-\line { 2. Christus kommt herab }
+    \line { 2. Christus kommt herab }
 
-\line { "   "in sein Reich, }
+    \line { "   "in sein Reich, }
 
-\line { "   "mit Macht und Kraft, }
+    \line { "   "mit Macht und Kraft, }
 
-\line { "   "in all seinem Ruhm.}
-  \line { " " } 
-\line { 3. Kommt, alle Brüder,} 
+    \line { "   "in all seinem Ruhm.}
+    \line { " " }
+    \line { 3. Kommt, alle Brüder,}
 
-\line { "   "ganz in weiß gekleidet,}
+    \line { "   "ganz in weiß gekleidet,}
 
-\line { "   "auf dass wir ihn in Freude,}
+    \line { "   "auf dass wir ihn in Freude,}
 
-\line { "   "feierlich und ehrerbietig willkommen heißen.}
-   \line { " " } 
-\line { 4. Er kommt auf die Erde, }
+    \line { "   "feierlich und ehrerbietig willkommen heißen.}
+    \line { " " }
+    \line { 4. Er kommt auf die Erde, }
 
-\line { "   "um ewiglich zu herrschen}
+    \line { "   "um ewiglich zu herrschen}
 
-\line { "   "und allen ein Leben }
+    \line { "   "und allen ein Leben }
 
-\line { "   "in Wahrheit zu schenken.}
+    \line { "   "in Wahrheit zu schenken.}
 
-  \line { " " } 
-\line { 5. Gepriesen sei das Reich}
+    \line { " " }
+    \line { 5. Gepriesen sei das Reich}
 
- \line { "   "unseres dreifaltigen Gottes,}
- 
- \line { "   "von nun an und auf ewig}
- 
- \line { "   "und in allen Zeiten.}
-     
-    
-     
-       }
-       
-    }    
+    \line { "   "unseres dreifaltigen Gottes,}
+
+    \line { "   "von nun an und auf ewig}
+
+    \line { "   "und in allen Zeiten.}
+
+
+
+  }
+
+}

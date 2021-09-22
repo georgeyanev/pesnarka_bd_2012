@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -114,7 +114,7 @@
   }
 
   \addlyrics {
-  Iz -- grya -- va ve -- che den tar -- zhe -- stven, pred -- re -- che 
+ Iz -- grya -- va ve -- che den tar -- zhe -- stven, pred -- re -- che 
    -- ni -- yat den Bo -- zhe -- stven, na dni --
   te di -- a -- de -- ma, sas svet -- li -- na go
   -- lya -- ma. E -- la -- te da zhi -- ve -- em vav
