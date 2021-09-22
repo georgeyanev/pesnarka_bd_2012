@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -80,7 +80,7 @@
     \key f \major
     \time 2/4 
     \tempo \markup { % make tempo note smaller
-      \concat { "Tempo di marica" \normal-text { "(" }
+      \concat { "Tempo di marcia" \normal-text { " (" }
           \teeny \general-align #Y #DOWN \note #"4" #0.8
           \normal-text { " = 100)" }
       }
@@ -98,7 +98,7 @@
   }
 
   \addlyrics {
-    Dar -- zost vav Hri -- sta, dru -- ga -- ri, s~Ne -- go 
+    "1. Dar" -- zost vav Hri -- sta, dru -- ga -- ri, s~Ne -- go 
     da var -- vim na -- pred, Toy e tsa -- ryat na ZHi -- vo -- ta, 
     tsar -- stvo -- to Mu e na -- vred, e na -- vred.
   }
@@ -120,14 +120,13 @@
 
 } % score
 
-\pageBreak
-
 
 \markup \fontsize #+2.5 {
     \hspace #1
     \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
-  \line {   1.  Дързост във Христа, другари,}
+
+\line {   1.  Дързост във Христа, другари,}
 
 \line {   "   " да вървиме все напред!}
 
@@ -139,77 +138,128 @@
 
 \line {   "   "}
 
- \line {   2.  Дързост във Христа, другари,}
+\line {   2.  Дързост във Христа, другари,}
 
 \line {   "   " да вървиме все напред!}
 
-\line {   "   " Бог — Христос ни в пътя води,}
+\line {   "   " Бог-Христос ни в пътя води,}
 
 \line {   "   " Той е мощен цар навред,}
 
 \line {   "   " цар навред.}
 \line {   "   "}
    
+\line {   3.  И тук, долу, и там, горе, } 
 
- \line {   3.  И тук, долу, и там, горе, } 
+\line {   "   " в мировете без конец, } 
 
- \line {   "   " в мировете без конец, } 
+\line {   "   " всъде само Той царува, } 
 
- \line {   "   " всъде само Той царува, } 
+\line {   "   " Той е скиптър и венец, } 
 
- \line {   "   " Той е скиптър и венец, } 
+\line {   "   " и венец. } 
 
- \line {   "   " и венец. } 
+\line {   "   " всъде само Той царува, } 
 
- \line {   "   " всъде само Той царува, } 
+\line {   "   " Той е скиптър и венец, } 
 
- \line {   "   " Той е скиптър и венец, } 
+\line {   "   " и венец. } 
+} 
 
- \line {   "   " и венец. } 
+\hspace #5
+\override #'(baseline-skip . 2.4)
+\column {
+
+\line {   1.  Darzost vav Hrista, drugari,}
+
+\line {   "   " da varvime vse napred!}
+
+\line {   "   " Toy e tsaryat na Zhivota,}
+
+\line {   "   " tsarstvoto Mu e navred,}
+
+\line {   "   " tsar navred.}
 
 \line {   "   "}
- \line {   4.  Управлява, благославя — } 
 
- \line {   "   " всичко в мъдрост да расте, } 
+ \line {   2.  Darzost vav Hrista, drugari,}
 
- \line {   "   " плодове на правда свята } 
+\line {   "   " da varvime vse napred!}
 
- \line {   "   " в жертва да му принесе, } 
+\line {   "   " Bog-Hristos ni v patya vodi,}
 
- \line {   "   " принесе. } 
+\line {   "   " Toy e moshten tsar navred,}
 
- \line {   "   " плодове на правда свята } 
+\line {   "   " tsar navred.}
+\line {   "   "}
 
- \line {   "   " в жертва да му принесе, } 
+\line {   3.  I tuk, dolu, i tam, gore, } 
 
- \line {   "   " принесе. } 
+\line {   "   " v mirovete bez konets, } 
 
- \line {   "   "}
+\line {   "   " vsade samo Toy tsaruva, } 
 
- \line {   5. Ето днес ни горе викат, } 
+\line {   "   " Toy e skiptar i venets, } 
 
- \line {   "   " към Небето да вървим, } 
+\line {   "   " i venets. } 
+
+\line {   "   " vsade samo Toy tsaruva, } 
+
+\line {   "   " Toy e skiptar i venets, } 
+
+\line {   "   " i venets. } 
+    } %column
+} % markup
+
+\pageBreak
+
+\markup \fontsize #+2.5 {
+    \hspace #1
+    \override #'(baseline-skip . 2.2) % affects space between column lines
+    \column {
+
+\line {   4.  Управлява, благославя - } 
+
+\line {   "   " всичко в мъдрост да расте, } 
+
+\line {   "   " плодове на правда свята } 
+
+\line {   "   " в жертва да му принесе, } 
+
+\line {   "   " принесе. } 
+
+\line {   "   " плодове на правда свята } 
+
+\line {   "   " в жертва да му принесе, } 
+
+\line {   "   " принесе. } 
+
+\line {   "   "}
+
+\line {   5. Ето днес ни горе викат, } 
+
+\line {   "   " към Небето да вървим, } 
  
- \line {   "   " че там радост ни очаква. } 
+\line {   "   " че там радост ни очаква. } 
 
- \line {   "   " нов град да си съградим. } 
+\line {   "   " нов град да си съградим. } 
 
- \line {   "   " съградим. } 
+\line {   "   " съградим. } 
 
- \line {   "   " че там радост ни очаква. } 
+\line {   "   " че там радост ни очаква. } 
 
- \line {   "   " нов град да си съградим. } 
+\line {   "   " нов град да си съградим. } 
 
- \line {   "   " съградим. } 
- \line {   "   "}
+\line {   "   " съградим. } 
+\line {   "   "}
 
- \line {   6. От смъртта се не плашете, } 
+\line {   6. От смъртта се не плашете, } 
 
- \line {   "   " не загива същността, } 
+\line {   "   " не загива същността, } 
 
- \line {   "   " туй, що смърт зовеме тука, } 
+\line {   "   " туй, що смърт зовеме тука, } 
 
- \line {   "   " за небето е врата, } 
+\line {   "   " за небето е врата, } 
 
 \line {   "   " е врата. } 
 
@@ -253,53 +303,13 @@
 \line {   "   " вечно може да живей,  } 
 
 \line {   "   " да живей. } 
-    }
+} 
 
-    \hspace #5
-    \override #'(baseline-skip . 2.4)
-    \column {
-      \line {   1.  Darzost vav Hrista, drugari,}
+\hspace #5
+\override #'(baseline-skip . 2.2)
+\column {
 
-\line {   "   " da varvime vse napred!}
-
-\line {   "   " Toy e tsaryat na Zhivota,}
-
-\line {   "   " tsarstvoto Mu e navred,}
-
-\line {   "   " tsar navred.}
-
-\line {   "   "}
-
- \line {   2.  Darzost vav Hrista, drugari,}
-
-\line {   "   " da varvime vse napred!}
-
-\line {   "   " Bog — Hristos ni v patya vodi,}
-
-\line {   "   " Toy e moshten tsar navred,}
-
-\line {   "   " tsar navred.}
-\line {   "   "}
-   
-
- \line {   3.  I tuk, dolu, i tam, gore, } 
-
- \line {   "   " v mirovete bez konets, } 
-
- \line {   "   " vsade samo Toy tsaruva, } 
-
- \line {   "   " Toy e skiptar i venets, } 
-
- \line {   "   " i venets. } 
-
- \line {   "   " vsade samo Toy tsaruva, } 
-
- \line {   "   " Toy e skiptar i venets, } 
-
- \line {   "   " i venets. } 
-
-\line {   "   "}
- \line {   4.  Upravlyava, blagoslavya — } 
+ \line {   4.  Upravlyava, blagoslavya - } 
 
  \line {   "   " vsichko v madrost da raste, } 
 
@@ -384,6 +394,7 @@
 \line {   "   " vechno mozhe da zhivey,  } 
 
 \line {   "   " da zhivey. } 
+
     } %column
 } % markup
 
