@@ -1,61 +1,60 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \markup \fill-line { \fontsize #6 "Die Nachtigallen des Waldes" }
 \markup \null
 \markup \null
 \markup \fontsize #+2.5 {
-    \hspace #12
-    \override #'(baseline-skip . 2)
-    \column {
-     \line { " " } 
-     
-   \line { 1. Wir sind die Nachtigallen des Waldes,}
+  \hspace #12
+  \override #'(baseline-skip . 2)
+  \column {
+    \line { " " }
 
-\line { "   "mit Liedern preisen wir den Himmel. }
+    \line { 1. Wir sind die Nachtigallen des Waldes,}
 
-\line { "   "sklavische Gefühle und menschliche Sorgen}
+    \line { "   "mit Liedern preisen wir den Himmel. }
 
-\line { "   "vertreiben wir mit Liedern.}
+    \line { "   "sklavische Gefühle und menschliche Sorgen}
 
- \line { " " } 
-\line { 2. Unsere Lieder sind schwungvoll, }
+    \line { "   "vertreiben wir mit Liedern.}
 
-\line { "   "sie bringen uns ewig Freude;}
+    \line { " " }
+    \line { 2. Unsere Lieder sind schwungvoll, }
 
-\line { "   "sie sind sowohl lebhaft als auch spielerisch}
+    \line { "   "sie bringen uns ewig Freude;}
 
-\line { "   "wie ein schnell fließendes Bächlein.}
+    \line { "   "sie sind sowohl lebhaft als auch spielerisch}
 
- \line { " " } 
-\line { 3. Nun, hört, wie unser Lied }
+    \line { "   "wie ein schnell fließendes Bächlein.}
 
-\line { "   "in der Stille fließt -}
+    \line { " " }
+    \line { 3. Nun, hört, wie unser Lied }
 
-\line { "   "es fließt und es wiegt wie}
+    \line { "   "in der Stille fließt -}
 
-\line { "   "ein Strom in der Seele.}
+    \line { "   "es fließt und es wiegt wie}
 
-\line { " " } 
-\line { 4. Durch unsere ruhige und aufrichtige Stimme}
+    \line { "   "ein Strom in der Seele.}
 
-\line { "   "wird alles Böse gebannt; }
+    \line { " " }
+    \line { 4. Durch unsere ruhige und aufrichtige Stimme}
 
-\line { "   "einen neuen Soldaten, jung und gerecht, }
+    \line { "   "wird alles Böse gebannt; }
 
-\line { "   "werden wir durch unsere Lieder erwecken.}
+    \line { "   "einen neuen Soldaten, jung und gerecht, }
 
- \line { " " } 
+    \line { "   "werden wir durch unsere Lieder erwecken.}
 
-\line { 5. Singt, singt ihr süßen Vögel, }
+    \line { " " }
 
-\line { "   "nur so lebt man wahrhaftig; }
+    \line { 5. Singt, singt ihr süßen Vögel, }
 
-\line { "   "singt, singt alle zusammen, }
+    \line { "   "nur so lebt man wahrhaftig; }
 
-\line { "   "auf dass die ganze Welt mit euch singe!}
-      
-       
-    }
-       
-    }    
-  
+    \line { "   "singt, singt alle zusammen, }
+
+    \line { "   "auf dass die ganze Welt mit euch singe!}
+
+
+  }
+
+}

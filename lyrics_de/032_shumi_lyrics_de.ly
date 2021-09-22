@@ -4,80 +4,80 @@
 \markup \null
 \markup \null
 \markup \fontsize #+2.5 {
-    \hspace #10
-    \override #'(baseline-skip . 2)
-    \column {
-     \line { " " }
-       
-       
-       \line {   1. Es lärmt, es lärmt, ich höre,}
+  \hspace #10
+  \override #'(baseline-skip . 2)
+  \column {
+    \line { " " }
 
-\line {   "   "die ganze Welt lärmen! }
 
-\line {   "   "Die Herzen der Menschen lärmen }
+    \line {   1. Es lärmt, es lärmt, ich höre,}
 
-\line {   "   "zwischen ihren Idolen und Fehlern; }
+    \line {   "   "die ganze Welt lärmen! }
 
-\line {   "   "die Gehirne lärmen unaufhörlich. }
+    \line {   "   "Die Herzen der Menschen lärmen }
 
-\line {   "   "Es ist eine große Flut in den Häusern. }
+    \line {   "   "zwischen ihren Idolen und Fehlern; }
 
-\line {   "   "Es lärmt, ich höre,}
- 
-\line {   "   "die ganze Welt lärmen!}
+    \line {   "   "die Gehirne lärmen unaufhörlich. }
 
- \line { " " }
-\line {   2. Und der Wind weht, }
+    \line {   "   "Es ist eine große Flut in den Häusern. }
 
-\line {   "   "wohin er will. }
+    \line {   "   "Es lärmt, ich höre,}
 
-\line {   "   "Die Blätter des Waldes antworten }
+    \line {   "   "die ganze Welt lärmen!}
 
-\line {   "   "auf seinem Ruf, sie wiederholen ihr Lieblingslied,}
+    \line { " " }
+    \line {   2. Und der Wind weht, }
 
-\line {   "   "spielerisch wie ein tanzendes Mädchen.}
+    \line {   "   "wohin er will. }
 
-\line {   "   "Und der Wind weht, }
- 
-\line {   "   "wohin er will.}
+    \line {   "   "Die Blätter des Waldes antworten }
 
- \line { " " }
+    \line {   "   "auf seinem Ruf, sie wiederholen ihr Lieblingslied,}
 
-\line {   3. Oh, mein Wind, }
+    \line {   "   "spielerisch wie ein tanzendes Mädchen.}
 
-\line {   "   "wehe nun stark! }
+    \line {   "   "Und der Wind weht, }
 
-\line {   "   "Bringe die göttliche Feuchtigkeit}
+    \line {   "   "wohin er will.}
 
-\line {   "   "und die belebende Frische, }
+    \line { " " }
 
-\line {   "   "reinige die stickigen Hütten}
+    \line {   3. Oh, mein Wind, }
 
-\line {   "   "und zerstreue die schweren menschlichen Sorgen!}
+    \line {   "   "wehe nun stark! }
 
-\line {   "   "Oh, mein Wind,}
+    \line {   "   "Bringe die göttliche Feuchtigkeit}
 
-\line {   "   "wehe nun stark!}
+    \line {   "   "und die belebende Frische, }
 
- \line { " " }
-\line {   4. Wehe, Wind, }
+    \line {   "   "reinige die stickigen Hütten}
 
-\line {   "   "muntere die Welt auf! }
+    \line {   "   "und zerstreue die schweren menschlichen Sorgen!}
 
-\line {   "   "Bei reinen Gedanken und zärtlichen Gefühlen }
+    \line {   "   "Oh, mein Wind,}
 
-\line {   "   "erblühen die göttlichen Künste;}
+    \line {   "   "wehe nun stark!}
 
-\line {   "   "möge überall Freude erstrahlen}
+    \line { " " }
+    \line {   4. Wehe, Wind, }
 
-\line {   "   "und die frische Jugend aufatmen! }
+    \line {   "   "muntere die Welt auf! }
 
-\line {   "   "Wehe, Wind, }
+    \line {   "   "Bei reinen Gedanken und zärtlichen Gefühlen }
 
-\line {   "   "kläre die Welt!}
-       
-     \line { " " }
-      \line { "   " \italic { Refrain } ... }
-    }
+    \line {   "   "erblühen die göttlichen Künste;}
+
+    \line {   "   "möge überall Freude erstrahlen}
+
+    \line {   "   "und die frische Jugend aufatmen! }
+
+    \line {   "   "Wehe, Wind, }
+
+    \line {   "   "kläre die Welt!}
+
+    \line { " " }
+    \line { "   " \italic { Refrain } ... }
+  }
 }
 

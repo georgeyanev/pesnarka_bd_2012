@@ -1,123 +1,122 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \markup \fill-line { \fontsize #6 "Die Liebe ist eine Quelle" }
 \markup \fontsize #+2.0 {
-    \hspace #14
-    \vspace #0.5
-    \override #'(baseline-skip . 1.8)
-    
-         \column {
-    
-       \line { " " }
-  
- \line {   1. Die Liebe ist eine Quelle, }
+  \hspace #14
+  \vspace #0.5
+  \override #'(baseline-skip . 1.8)
 
-  \line {   "   "sie gebiert das Leben}
+  \column {
 
-  \line {   "   "und sät sanft in ihm eine allheilige Pflicht:}
+    \line { " " }
 
-  \line {   "   "auf dass wir immer vorwärts schreiten, }
+    \line {   1. Die Liebe ist eine Quelle, }
 
-  \line {   "   "im Streben nach dem Guten,}
+    \line {   "   "sie gebiert das Leben}
 
-  \line {   "   "das oben im Himmel }
+    \line {   "   "und sät sanft in ihm eine allheilige Pflicht:}
 
-  \line {   "   "vollkommen ist. }
+    \line {   "   "auf dass wir immer vorwärts schreiten, }
 
+    \line {   "   "im Streben nach dem Guten,}
 
-\line { " " }
-       \line { "   " \italic { Refrain:}  }
-       
+    \line {   "   "das oben im Himmel }
 
-  \line {   "   "Arbeite mit ihr, }
-
-  \line {   "   "in der gewünschten Barmherzigkeit,}
-
-  \line {   "   "und bringe ihre Hilfe}
- 
-  \line {   "   "für die leidenden Seelen.}
-
-\line { " " }
-
-  \line {   2. Dies vollbringt sie selbst unaufhörlich}
-
-  \line {   "   "wie eine zärtliche Mutter}
-
-  \line {   "   "in jedermanns Seele --}
-
-  \line {   "   "sie sät immerdar}
-
-  \line {   "   "die lieben Samenkörner,}
-
-  \line {   "   "aus denen die gütigen Wohltaten sprießen.}
-
-\line { " " }
-       \line { "   " \italic { Refrain ...}  }
-       
-       
-\line { " " }
-      
-
-  \line {   3. Dieses große Geheimnis}
-
-  \line {   "   "wer es gut versteht,}
-
-  \line {   "   "öffnet morgens}
-
-  \line {   "   "seine liebe Seele,}
-
-  \line {   "   "wie die weiße Lilie}
-
-  \line {   "   "vom himmlischen Tau}
-
-  \line {   "   "und von dem wunderbaren Sonnenlicht.}
-
-\line { " " }
-       \line { "   " \italic { Refrain ...}  }
-       
-\line { " " }
-      
-
-  \line {   4. Die Sonne, die rechtzeitig den Menschen belebt,}
-
-  \line {   "   "scheint warm, erweckt und lässt}
-
-  \line {   "   "in ihm die Samenkörner gedeihen}
-
-  \line {   "   "und füllt geheimnisvoll seine}
-
-  \line {   "   "Seele mit Tugenden.}
-
-\line { " " }
-       \line { "   " \italic { Refrain ...}  }
-       
-\line { " " }
-       
+    \line {   "   "vollkommen ist. }
 
 
-  \line {   5. Diese so süßen Früchte,}
+    \line { " " }
+    \line { "   " \italic { Refrain:}  }
 
-  \line {   "   "in der Liebe gereift,}
 
-  \line {   "   "am seligsten wird der sein,}
+    \line {   "   "Arbeite mit ihr, }
 
-  \line {   "   "der sie kostet.}
+    \line {   "   "in der gewünschten Barmherzigkeit,}
 
-  \line {   "   "In himmlischen Wohnstätten}
+    \line {   "   "und bringe ihre Hilfe}
 
-  \line {   "   "wird er ewig leben,}
+    \line {   "   "für die leidenden Seelen.}
 
-  \line {   "   "vor dem Thron Gottes}
+    \line { " " }
 
-  \line {   "   "wird er Lieder singen. }
+    \line {   2. Dies vollbringt sie selbst unaufhörlich}
 
-\line { " " }
-       \line { "   " \italic { Refrain ...}  }
+    \line {   "   "wie eine zärtliche Mutter}
 
-      
-                
-    }
+    \line {   "   "in jedermanns Seele --}
+
+    \line {   "   "sie sät immerdar}
+
+    \line {   "   "die lieben Samenkörner,}
+
+    \line {   "   "aus denen die gütigen Wohltaten sprießen.}
+
+    \line { " " }
+    \line { "   " \italic { Refrain ...}  }
+
+
+    \line { " " }
+
+
+    \line {   3. Dieses große Geheimnis}
+
+    \line {   "   "wer es gut versteht,}
+
+    \line {   "   "öffnet morgens}
+
+    \line {   "   "seine liebe Seele,}
+
+    \line {   "   "wie die weiße Lilie}
+
+    \line {   "   "vom himmlischen Tau}
+
+    \line {   "   "und von dem wunderbaren Sonnenlicht.}
+
+    \line { " " }
+    \line { "   " \italic { Refrain ...}  }
+
+    \line { " " }
+
+
+    \line {   4. Die Sonne, die rechtzeitig den Menschen belebt,}
+
+    \line {   "   "scheint warm, erweckt und lässt}
+
+    \line {   "   "in ihm die Samenkörner gedeihen}
+
+    \line {   "   "und füllt geheimnisvoll seine}
+
+    \line {   "   "Seele mit Tugenden.}
+
+    \line { " " }
+    \line { "   " \italic { Refrain ...}  }
+
+    \line { " " }
+
+
+
+    \line {   5. Diese so süßen Früchte,}
+
+    \line {   "   "in der Liebe gereift,}
+
+    \line {   "   "am seligsten wird der sein,}
+
+    \line {   "   "der sie kostet.}
+
+    \line {   "   "In himmlischen Wohnstätten}
+
+    \line {   "   "wird er ewig leben,}
+
+    \line {   "   "vor dem Thron Gottes}
+
+    \line {   "   "wird er Lieder singen. }
+
+    \line { " " }
+    \line { "   " \italic { Refrain ...}  }
+
+
+
+  }
 }
-       
 
-  
+

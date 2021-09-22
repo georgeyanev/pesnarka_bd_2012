@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -84,7 +84,7 @@
         % make tempo note smaller
         \concat {
           "Adantino  " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"8" #0.8
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
           \normal-text { " = 72)" }
         }
       }
@@ -138,16 +138,16 @@
 
       } % score
 
-      \markup \halign #-12.1 \raise #2.8 \override #'(baseline-skip . 2) { 
-        \column  { 
-          \line  \halign #-3.8 { 
+      \markup \halign #-12.1 \raise #2.8 \override #'(baseline-skip . 2) {
+        \column  {
+          \line  \halign #-3.8 {
             \bold  { "D. C." }
           }
-          \line  { 
+          \line  {
             \bold { con ripetizione }
           }
         }
-      } 
+      }
 
       \pageBreak
 
@@ -167,7 +167,7 @@
         } %column
       } % markup
 
-     
+
 
       % include foreign translation(s) of the song
       \include "lyrics_de/028_stani_stani_lyrics_de.ly"
