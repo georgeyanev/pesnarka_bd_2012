@@ -4,6 +4,71 @@
   #(set-paper-size "a5")
 }
 
+"rightBraces052_1" = \markup {
+  \column {
+    % repeat braces
+    \translate #'(0 . -9.2 )
+    \right-brace #30
+
+    \translate #'(0 . -13.6 )
+    \right-brace #30
+
+    \translate #'(0 . -13.9 )
+    \right-brace #30
+
+  }
+  \column {
+    % repeat numbers
+    \translate #'(0 . -9.7 )
+    2
+
+    \translate #'(0 . -16.6 )
+    2
+
+    \translate #'(0 . -16.9 )
+    2
+
+  }
+}
+
+"rightBraces052_2" = \markup {
+  \column {
+    % repeat braces
+    \translate #'(0 . -9.1 )
+    \right-brace #30
+
+    \translate #'(0 . -13.9 )
+    \right-brace #30
+
+    \translate #'(0 . -13.7 )
+    \right-brace #30
+
+    \translate #'(0 . -14 )
+    \right-brace #30
+
+    \translate #'(0 . -13.9 )
+    \right-brace #30
+  }
+  \column {
+    % repeat numbers
+    \translate #'(0 . -9.7 )
+    2
+
+    \translate #'(0 . -16.8 )
+    2
+
+    \translate #'(0 . -16.8 )
+    2
+
+    \translate #'(0 . -16.9 )
+    2
+
+    \translate #'(0 . -16.9 )
+    2
+  }
+}
+
+
 \bookpart {
 \paper {
   print-all-headers = ##t
@@ -99,7 +164,7 @@
 
   \addlyrics {
     "1. Dar" -- zost vav Hri -- sta, dru -- ga -- ri, s~Ne -- go 
-    da var -- vim na -- pred, Toy e tsa -- ryat na ZHi -- vo -- ta, 
+    da var -- vim na -- pred, Toy e tsa -- ryat na Zhi -- vo -- ta, 
     tsar -- stvo -- to Mu e na -- vred, e na -- vred.
   }
   
@@ -126,16 +191,18 @@
     \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
 
+\line {   "   "}
 \line {   1.  Дързост във Христа, другари,}
 
-\line {   "   " да вървиме все напред!}
+\line {   "   " с Него да вървим напред,}
 
 \line {   "   " Той е царят на Живота,}
 
 \line {   "   " царството Му е навред,}
 
-\line {   "   " е навред.}
+\line {   "                " е навред.}
 
+\line {   "   "}
 \line {   "   "}
 
 \line {   2.  Дързост във Христа, другари,}
@@ -146,10 +213,11 @@
 
 \line {   "   " Той е мощен цар навред,}
 
-\line {   "   " цар навред.}
+\line {   "               " цар навред.}
+\line {   "   "}
 \line {   "   "}
    
-\line {   3.  И тук, долу, и там, горе, } 
+\line {   3.  И тук долу, и там горе, } 
 
 \line {   "   " в мировете без конец, } 
 
@@ -157,32 +225,29 @@
 
 \line {   "   " Той е скиптър и венец, } 
 
-\line {   "   " и венец. } 
+\line {   "                 " и венец. } 
 
-\line {   "   " всъде само Той царува, } 
-
-\line {   "   " Той е скиптър и венец, } 
-
-\line {   "   " и венец. } 
 } 
-
-\hspace #5
+\"rightBraces052_1"
+\hspace #3
 \override #'(baseline-skip . 2.4)
 \column {
 
+\line {   "   "}
 \line {   1.  Darzost vav Hrista, drugari,}
 
-\line {   "   " da varvime vse napred!}
+\line {   "   " s Nego da varvim napred,}
 
 \line {   "   " Toy e tsaryat na Zhivota,}
 
 \line {   "   " tsarstvoto Mu e navred,}
 
-\line {   "   " tsar navred.}
+\line {   "                " e navred.}
 
 \line {   "   "}
+\line {   "   "}
 
- \line {   2.  Darzost vav Hrista, drugari,}
+\line {   2.  Darzost vav Hrista, drugari,}
 
 \line {   "   " da varvime vse napred!}
 
@@ -190,10 +255,11 @@
 
 \line {   "   " Toy e moshten tsar navred,}
 
-\line {   "   " tsar navred.}
+\line {   "               " tsar navred.}
 \line {   "   "}
-
-\line {   3.  I tuk, dolu, i tam, gore, } 
+\line {   "   "}
+   
+\line {   3.  I tuk dolu, i tam gore, } 
 
 \line {   "   " v mirovete bez konets, } 
 
@@ -201,56 +267,43 @@
 
 \line {   "   " Toy e skiptar i venets, } 
 
-\line {   "   " i venets. } 
-
-\line {   "   " vsade samo Toy tsaruva, } 
-
-\line {   "   " Toy e skiptar i venets, } 
-
-\line {   "   " i venets. } 
+\line {   "                 " i venets. } 
     } %column
+\"rightBraces052_1"
 } % markup
 
 \pageBreak
 
 \markup \fontsize #+2.5 {
     \hspace #1
-    \override #'(baseline-skip . 2.2) % affects space between column lines
+    \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
 
+\line {   "   "}
 \line {   4.  Управлява, благославя - } 
 
-\line {   "   " всичко в мъдрост да расте, } 
+\line {   "   " всичко в Мъдрост да расте, } 
 
-\line {   "   " плодове на правда свята } 
+\line {   "   " плодове на Правда свята } 
 
-\line {   "   " в жертва да му принесе, } 
+\line {   "   " в жертва да Му принесе, } 
 
-\line {   "   " принесе. } 
+\line {   "              " принесе. } 
 
-\line {   "   " плодове на правда свята } 
-
-\line {   "   " в жертва да му принесе, } 
-
-\line {   "   " принесе. } 
-
+\line {   "   "}
 \line {   "   "}
 
 \line {   5. Ето днес ни горе викат, } 
 
 \line {   "   " към Небето да вървим, } 
  
-\line {   "   " че там радост ни очаква. } 
+\line {   "   " че там Радост ни очаква. } 
 
-\line {   "   " нов град да си съградим. } 
+\line {   "   " нов град да си съградим, } 
 
-\line {   "   " съградим. } 
+\line {   "              " съградим. } 
 
-\line {   "   " че там радост ни очаква. } 
-
-\line {   "   " нов град да си съградим. } 
-
-\line {   "   " съградим. } 
+\line {   "   "}
 \line {   "   "}
 
 \line {   6. От смъртта се не плашете, } 
@@ -259,15 +312,11 @@
 
 \line {   "   " туй, що смърт зовеме тука, } 
 
-\line {   "   " за небето е врата, } 
+\line {   "   " за Небето е врата, } 
 
-\line {   "   " е врата. } 
+\line {   "              " е врата. } 
 
-\line {   "   " туй, що смърт зовеме тука, } 
-
-\line {   "   " за небето е врата, } 
-
-\line {   "   " е врата. } 
+\line {   "   "}
 \line {   "   "}
 
 \line {   7. С радост и хвалебни песни } 
@@ -278,14 +327,9 @@
 
 \line {   "   " все тъй кротък, все тъй благ, } 
 
-\line {   "   " все тъй благ. } 
+\line {   "            " все тъй благ. } 
 
-\line {   "   " а отвъд Христос ни чака, } 
-
-\line {   "   " все тъй кротък, все тъй благ, } 
-
-\line {   "   " все тъй благ. } 
-
+\line {   "   "}
 \line {   "   "}
 
 \line {   8. И там Той ще ни научи, } 
@@ -296,69 +340,52 @@
 
 \line {   "   " вечно може да живей, } 
 
-\line {   "   " да живей. } 
+\line {   "             " да живей. } 
 
-\line {   "   " как с телото си човека } 
-
-\line {   "   " вечно може да живей,  } 
-
-\line {   "   " да живей. } 
 } 
-
+\"rightBraces052_2"
 \hspace #5
-\override #'(baseline-skip . 2.2)
+\override #'(baseline-skip . 2.4)
 \column {
 
- \line {   4.  Upravlyava, blagoslavya - } 
+\line {   "   "}
+\line {   4.  Upravlyava, blagoslavya - } 
 
- \line {   "   " vsichko v madrost da raste, } 
+\line {   "   " vsichko v Madrost da raste, } 
 
- \line {   "   " plodove na pravda svyata } 
+\line {   "   " plodove na Pravda svyata } 
 
- \line {   "   " v zhertva da mu prinese, } 
+\line {   "   " v zhertva da Mu prinese, } 
 
- \line {   "   " prinese. } 
+\line {   "              " prinese. } 
 
- \line {   "   " plodove na pravda svyata } 
+\line {   "   "}
+\line {   "   "}
 
- \line {   "   " v zhertva da mu prinese, } 
+\line {   5. Eto dnes ni gore vikat, } 
 
- \line {   "   " prinese. } 
-
- \line {   "   "}
-
- \line {   5. Eto dnes ni gore vikat, } 
-
- \line {   "   " kam Nebeto da varvim, } 
+\line {   "   " kam Nebeto da varvim, } 
  
- \line {   "   " che tam radost ni ochakva. } 
+\line {   "   " che tam Radost ni ochakva. } 
 
- \line {   "   " nov grad da si sagradim. } 
+\line {   "   " nov grad da si sagradim, } 
 
- \line {   "   " sagradim. } 
+\line {   "              " sagradim. } 
 
- \line {   "   " che tam radost ni ochakva. } 
+\line {   "   "}
+\line {   "   "}
 
- \line {   "   " nov grad da si sagradim. } 
+\line {   6. Ot smartta se ne plashete, } 
 
- \line {   "   " sagradim. } 
- \line {   "   "}
-
- \line {   6. Ot smartta se ne plashete, } 
-
- \line {   "   " ne zagiva sashtnostta, } 
-
- \line {   "   " tuy, shto smart zoveme tuka, } 
-
- \line {   "   " za nebeto e vrata, } 
-
-\line {   "   " e vrata. } 
+\line {   "   " ne zagiva sashtnostta, } 
 
 \line {   "   " tuy, shto smart zoveme tuka, } 
 
-\line {   "   " za nebeto e vrata, } 
+\line {   "   " za Nebeto e vrata, } 
 
-\line {   "   " e vrata. } 
+\line {   "              " e vrata. } 
+
+\line {   "   "}
 \line {   "   "}
 
 \line {   7. S radost i hvalebni pesni } 
@@ -369,14 +396,9 @@
 
 \line {   "   " vse tay krotak, vse tay blag, } 
 
-\line {   "   " vse tay blag. } 
+\line {   "            " vse tay blag. } 
 
-\line {   "   " a otvad Hristos ni chaka, } 
-
-\line {   "   " vse tay krotak, vse tay blag, } 
-
-\line {   "   " vse tay blag. } 
-
+\line {   "   "}
 \line {   "   "}
 
 \line {   8. I tam Toy shte ni nauchi, } 
@@ -387,15 +409,10 @@
 
 \line {   "   " vechno mozhe da zhivey, } 
 
-\line {   "   " da zhivey. } 
-
-\line {   "   " kak s teloto si choveka } 
-
-\line {   "   " vechno mozhe da zhivey,  } 
-
-\line {   "   " da zhivey. } 
+\line {   "             " da zhivey. } 
 
     } %column
+\"rightBraces052_2"
 } % markup
 
 \pageBreak
