@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -124,7 +124,7 @@
 
 } % score
 
-\markup \halign #-38 \raise #2.8 { 
+\markup \halign #-39 \raise #3.2 { 
   \column  { 
     \line  \halign #-3.8 { 
       \bold  { "D. C." }
@@ -138,7 +138,9 @@
     \hspace #1
     \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
-     
+      \line { " " }
+      \line { " " }
+      \line { " " }
     }
 
     \hspace #5
