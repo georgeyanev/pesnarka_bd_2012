@@ -1,44 +1,19 @@
-\version "2.18.2"
+\version "2.20.0"
 
-%\markup {  \vspace #1.9 }
-
-\markup {  \hspace #25   \huge\bold "Die Herrlichkeit Gottes"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
+\markup \fill-line { \fontsize #6 "Die Herrlichkeit Gottes" }
+\markup \null
+\markup \null
+\markup \fontsize #+2.5 {
+  \hspace #10
+  \override #'(baseline-skip . 2)
   \column {
-     \line { " " } 
+    \line { " " }
      
      
      \line { " " Gib nicht mir, nicht mir, }
 
  \line { " " sondern Deinem Namen gib Ruhm, Ruhm, Ruhm.}
      
-     
-     
-     
-     
-     
-     
       }
        
-    }    
-    }
-}
-%}
-   
- 
- 
-
-
- 
-    
-   
-    
- 
-%--------------------------------------------------------------------- 
+    } 
