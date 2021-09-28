@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -79,7 +79,7 @@
     \clef treble
     \key d \major
     \time 4/4 \tempo \markup { % make tempo note smaller
-      \concat { "Andante " \normal-text { "(" }
+      \concat { "Andantino " \normal-text { "(" }
           \teeny \general-align #Y #DOWN \note #"4" #0.8
           \normal-text { " = 72)" }
       }
@@ -122,7 +122,11 @@
     \hspace #1
     \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
-  
+      \line {"   "}
+      \line {"   "}
+      \line {"   "}
+      \line {"   "}
+      \line {"   "}
     }
 
     \hspace #5
