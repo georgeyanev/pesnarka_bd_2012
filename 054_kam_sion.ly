@@ -4,6 +4,19 @@
   #(set-paper-size "a5")
 }
 
+"rightBraces054" = \markup {
+  \column {
+    % repeat braces
+    \translate #'(0 . -15 )
+    \right-brace #44
+  }
+  \column {
+    % repeat numbers
+    \translate #'(0 . -15.6 )
+    2
+  }
+}
+
 \bookpart {
 \paper {
   print-all-headers = ##t
@@ -81,7 +94,7 @@
     \time 2/4 
     \tempo \markup { % make tempo note smaller
       \concat { "Tempo di marcia " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \teeny \general-align #Y #DOWN \note #"8" #0.8
           \normal-text { " = 112)" }
       }
     }
@@ -103,7 +116,7 @@
   }
   
   \addlyrics {
-    С~кри -- ла -- та на о -- ре -- ла, Си -- о -- не наш лю --
+    "1. С~кри" -- ла -- та на о -- ре -- ла, Си -- о -- не наш лю --
     бим, стре -- ми -- тел -- но към те -- бе ний друж -- но днес ле -- 
     тим. Смърт -- та ни веч не пла -- ши, в~нас 
     Дух жи -- ве -- е свят; ед -- на -- кво нас ни 
@@ -111,7 +124,7 @@
   }
 
   \addlyrics {
-    S~kri -- la -- ta na o -- re -- la, Si -- o -- ne nash lyu --
+    "1. S~kri" -- la -- ta na o -- re -- la, Si -- o -- ne nash lyu --
     bim, stre -- mi -- tel -- no kam te -- be niy druzh -- no dnes le -- 
     tim. Smart -- ta ni vech ne pla -- shi, v~nas 
     Duh zhi -- ve -- e svyat; ed -- na -- kvo nas ni 
@@ -124,7 +137,7 @@
               \line { Към Сион }
               \vspace #-0.6
               \center-align
-              \line \fontsize #-3 { Kam Zion }
+              \line \fontsize #-3 { Kam Sion }
               \vspace #-0.8
               \center-align
               \line \fontsize #-3 { " " }
@@ -152,41 +165,44 @@
 
 \line { " " }
 
-\line {   "   "Сияй, свети Сионе,}
+\line {   "        "Сияй, свети Сионе,}
 
-\line {   "   "ний бързо веч летим,}
+\line {   "        "ний бързо веч летим,}
 
-\line {   "   "на Бога скоро в тебе,}
+\line {   "        "на Бога скоро в тебе,}
 
-\line {   "   "с дух ще се поклоним. }
+\line {   "        "с дух ще се поклоним. }
 
     }
+\"rightBraces054"
 
-    \hspace #5
+    \hspace #10
     \override #'(baseline-skip . 2.4)
     \column {
      
 
 
-\line {  2. Platta shte pobedime}
+\line {   2. Platta shte pobedime}
 
 \line {   "   "sas smelost v podvig nov;}
 
 \line {   "   "sartsata shte stopime}
 
 \line {   "   "s Hristovata Lyubov.}
+
 \line { " " }
 
-\line {   "   "Siyay, sveti Sione,}
+\line {   "        "Siyay, sveti Sione,}
 
-\line {   "   "niy barzo vech letim,}
+\line {   "        "niy barzo vech letim,}
 
-\line {   "   "na Boga skoro v tebe,}
+\line {   "        "na Boga skoro v tebe,}
 
-\line {   "   "s duh shte se poklonim. }
+\line {   "        "s duh shte se poklonim. }
 
 
     } %column
+\"rightBraces054"
 } % markup
 
 \pageBreak
