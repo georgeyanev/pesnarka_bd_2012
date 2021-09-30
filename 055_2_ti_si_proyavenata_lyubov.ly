@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -93,14 +93,14 @@
   
   \addlyrics {
     Ти си про -- я -- ве -- на -- та Лю -- бов към мен, Гос -- по -- 
-    ди. Ду -- ша -- та ми коп -- неe за Твой -- та чис -- то -- 
-    та. Ду -- ша -- та ми коп -- неe за Твой -- та свет -- ли -- на.
+    ди. Ду -- ша -- та ми коп -- ней за Твой -- та чис -- то -- 
+    та. Ду -- ша -- та ми коп -- ней за Твой -- та свет -- ли -- на.
   }
 
   \addlyrics {
     Ti si pro -- ya -- ve -- na -- ta Lyu -- bov kam men, Gos -- po -- 
-    di. Du -- sha -- ta mi kop -- nee za Tvoy -- ta chis -- to -- 
-    ta. Du -- sha -- ta mi kop -- nee za Tvoy -- ta svet -- li -- na.
+    di. Du -- sha -- ta mi kop -- ney za Tvoy -- ta chis -- to -- 
+    ta. Du -- sha -- ta mi kop -- ney za Tvoy -- ta svet -- li -- na.
   }
 
   
@@ -122,7 +122,7 @@
 } % score
 
 
-\markup \halign #-38 \raise #2.8 { 
+\markup \halign #-39 \raise #3.2 { 
   \column  { 
     \line  \halign #-3.8 { 
       \bold  { "D. C." }
@@ -130,13 +130,14 @@
   }
 } 
 
-
-
 \markup \fontsize #+2.5 {
     \hspace #1
     \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
-      
+      \line {" "}
+      \line {" "}
+      \line {" "}
+      \line {" "}
     }
 
     \hspace #5
