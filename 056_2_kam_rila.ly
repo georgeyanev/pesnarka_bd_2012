@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -81,8 +81,8 @@
     \key e \minor
     \time 3/4 
      \tempo \markup { % make tempo note smaller
-    \concat { "Tempo di valzer" \normal-text { "(" }
-      \teeny \general-align #Y #DOWN \note #"2" #0.8
+    \concat { "Tempo di valzer" \normal-text { " (" }
+      \teeny \general-align #Y #DOWN \note #"2." #0.8
       \normal-text { " = 54)" }
     }
   }
@@ -97,15 +97,15 @@
   }
   
   \addlyrics {
-    Към Ри -- ла с~мощ -- на ми -- съл ле -- тим ний
+    "1. Към" Ри -- ла с~мощ -- на ми -- съл ле -- тим ний
     все -- ки ден. В~гър -- ди -- те с~туй же -- ла -- 
-    ние жи -- ве -- ем в~свят не -- тлен. В_гър -- тлен.    
+    ние жи -- ве -- ем в~свят не -- тлен. В~гър -- тлен.    
   }
 
   \addlyrics {
     Kam Ri -- la s~mosht -- na mi -- sal le -- tim niy
     vse -- ki den. V~gar -- di -- te s~tuy zhe -- la -- 
-    nie zhi -- ve -- em v~svyat ne -- tlen. V_gar -- tlen.    
+    nie zhi -- ve -- em v~svyat ne -- tlen. V~gar -- tlen.    
   }
 
   
@@ -156,7 +156,7 @@
       \line {   "   " и своя мил Баща. } 
     }
 
-    \hspace #5
+    \hspace #9
     \override #'(baseline-skip . 2.4)
     \column {
       \line { 1. Kam Rila s moshtna misal }
