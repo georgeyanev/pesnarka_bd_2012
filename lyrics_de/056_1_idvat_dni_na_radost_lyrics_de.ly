@@ -1,19 +1,13 @@
-\version "2.18.2"
+\version "2.20.0"
 
-%\markup {  \vspace #1.9 }
-
-\markup {  \hspace #25   \huge\bold "Es kommen die Tage der Freude"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
-  \column {
-     \line { " " } 
-     
+\markup \fill-line { \fontsize #6 "Es kommen Tage der Freude" }
+\markup \null
+\markup \null
+\markup \fontsize #+2.5 {
+    \hspace #18
+    \override #'(baseline-skip . 2)
+    \column {
+     \line { "   " }
      \line { " "Es kommen die Tage der Freude, }
 
 \line { " "es kommen die Tage der Freude,}
@@ -26,17 +20,3 @@
        }
        
     }    
-    }
-}
-%}
-   
- 
- 
-
-
- 
-    
-   
-    
- 
-%--------------------------------------------------------------------- 
