@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -110,7 +110,7 @@
               \line { Идват дни на радост }
               \vspace #-0.6
               \center-align
-              \line \fontsize #-3 { Idvat dni na radost}
+              \line \fontsize #-3 { Idvat dni na radost }
               \vspace #-0.8
               \center-align
               \line \fontsize #-3 { " " }
@@ -127,7 +127,9 @@
     \hspace #1
     \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
-    
+      \line { " " }
+      \line { " " }
+      \line { " " }
     }
 
     \hspace #5
