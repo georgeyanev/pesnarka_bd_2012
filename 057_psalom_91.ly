@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -82,9 +82,9 @@
      \tempo \markup {
         % make tempo note smaller
         \concat {
-          "Andante sustenuto" \normal-text { " (" }
+          "Andante sostenuto" \normal-text { " (" }
           \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 64)" }
+          \normal-text { " = 60)" }
         }
       }
     \repeat volta 2 { 
