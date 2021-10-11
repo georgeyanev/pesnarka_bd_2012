@@ -4,6 +4,43 @@
   #(set-paper-size "a5")
 }
 
+"rightBraces058" = \markup {
+  \column {
+    % repeat braces
+    \translate #'(0 . -5.7 )
+    \right-brace #20
+
+    \translate #'(0 . -24.5 )
+    \right-brace #20
+
+    \translate #'(0 . -14.6 )
+    \right-brace #20
+
+    \translate #'(0 . -14.7 )
+    \right-brace #20
+
+    \translate #'(0 . -15.0 )
+    \right-brace #20
+  }
+  \column {
+    % repeat numbers
+    \translate #'(0 . -6.2 )
+    2
+
+    \translate #'(0 . -26.6 )
+    2
+
+    \translate #'(0 . -16.6 )
+    2
+
+    \translate #'(0 . -16.6 )
+    2
+
+    \translate #'(0 . -16.9 )
+    2
+  }
+}
+
 \bookpart {
 \paper {
   print-all-headers = ##t
@@ -78,7 +115,16 @@
  \new Voice \absolute  {
     \clef treble
     \key c \major
-    \time 2/4 \tempo "Vivo" 4 = 104
+    \time 2/4 
+    \tempo \markup {
+        % make tempo note smaller
+        \concat {
+          "Vivo" \normal-text { " (" }
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \normal-text { " = 104)" }
+        }
+    }
+    
     \autoBeamOff
     \partial 8 e'8 | a'8  b'8 c''8 d''8 | e''4 c''4 | a'4. a'8 | d''4 e''4 | f''4 d''4 | e''8 ([ d''8 e''8 f''8 ]) | \break 
     e''4. d''8 \repeat volta 2 {| d''4 d''4 |  c''4 b'4 |  c''4 d''4 |  e''4. c''8 |  b'4 d''4 | c''4 b'4 | \break
@@ -135,31 +181,29 @@
 
 \line {   "   "и снежните кристали. }
 
-\line {   "   "ефира бял да поздравим }
+\line {   "   "}
+\line { "        " \italic {Припев: } }
 
-\line {   "   "и снежните кристали. }
-       \line {   "   "}
-\line { "   " \italic {Припев: } }
+\line {   "        "Хубостта на Божи свят, }
 
-\line {   "   "Хубостта на Божи Свят, }
+\line {   "        "белината, наш е цвят - }
 
-\line {   "   "белината, наш е цвят — }
+\line {   "        "вечна сила има, }
 
-\line {   "   "вечна сила има, }
-
-\line {   "   "мрак я не обзима. }
+\line {   "        "мрак я не обзима. }
 \line {   "   "}
      
-     \line {   2. Нагоре още! }
-     \line {   "   " Там цъфти алпийска роза бяла, }
+     \line {   2. Нагоре още! Там цъфти }
+     \line {   "   " алпийска роза бяла, }
       \line {   "   " зората белите лъчи }
        \line {   "   " в таз роза е изляла. }
        \line {   "   "}
-\line { "   " \italic {Припев: } }
+\line { "        " \italic {Припев: } }
+       \line {   "   "}
 
       \line {  3. Нагоре! Бяло Слънце днес }
 
-\line {   "   "от изток ще изгрее,}
+\line {   "   "от изток ще изгрее - }
 
 \line {   "   "емблема жива на онез,}
 
@@ -167,7 +211,7 @@
        \line {   "   "}
 
 
-\line { "   " \italic {Припев: } }
+\line { "        " \italic {Припев: } }
 
 \line {   "   "}
 
@@ -180,13 +224,13 @@
 \line {   "   "в бял ден ще се превърне.}
        \line {   "   "}
 
-\line { "   " \italic {Припев: } }
+\line { "        " \italic {Припев: } }
 
 \line {   "   "}
 
 \line {   5. Земята ще разхубавим,}
 
-\line {   "   "на рай ще я направим;}
+\line {   "   "на Рай ще я направим;}
 
 \line {   "   "Небето ще развеселим}
 
@@ -194,15 +238,13 @@
        \line {   "   "}
 
 
-\line { "   " \italic {Припев: } }
-
-
-    }
-
+\line { "        " \italic {Припев: } }
+}
+\"rightBraces058"
     \hspace #5
     \override #'(baseline-skip . 2.4)
     \column {
-         \line {   1. Nagore oshte da varvim, }
+        \line {   1. Nagore oshte da varvim, }
 
 \line {   "   "kam varhovete beli, }
 
@@ -210,30 +252,29 @@
 
 \line {   "   "i snezhnite kristali. }
 
-\line {   "   "efira byal da pozdravim }
-
-\line {   "   "i snezhnite kristali. }
-       \line {   "   "}
-\line { "   " \italic {Pripev: } }
-
-\line {   "   "Hubostta na Bozhi Svyat, }
-
-\line {   "   "belinata, nash e tsvyat — }
-
-\line {   "   "vechna sila ima, }
-
-\line {   "   "mrak ya ne obzima. }
 \line {   "   "}
-           \line {   2. Nagore oshte! }
-     \line {   "   " Tam tsafti alpiyska roza byala, }
+\line { "        " \italic {Pripev: } }
+
+\line {   "        "Hubostta na Bozhi svyat, }
+
+\line {   "        "belinata, nash e tsvyat - }
+
+\line {   "        "vechna sila ima, }
+
+\line {   "        "mrak ya ne obzima. }
+\line {   "   "}
+     
+     \line {   2. Nagore oshte! Tam tsafti }
+     \line {   "   " alpiyska roza byala, }
       \line {   "   " zorata belite lachi }
        \line {   "   " v taz roza e izlyala. }
        \line {   "   "}
-\line { "   " \italic {Refrain: } }
+\line { "        " \italic {Pripev: } }
+       \line {   "   "}
 
       \line {  3. Nagore! Byalo Slantse dnes }
 
-\line {   "   "ot iztok shte izgree,}
+\line {   "   "ot iztok shte izgree - }
 
 \line {   "   "emblema zhiva na onez,}
 
@@ -241,7 +282,7 @@
        \line {   "   "}
 
 
-\line { "   " \italic {Refrain: } }
+\line { "        " \italic {Pripev: } }
 
 \line {   "   "}
 
@@ -254,13 +295,13 @@
 \line {   "   "v byal den shte se prevarne.}
        \line {   "   "}
 
-\line { "   " \italic {Refrain: } }
+\line { "        " \italic {Pripev: } }
 
 \line {   "   "}
 
 \line {   5. Zemyata shte razhubavim,}
 
-\line {   "   "na ray shte ya napravim;}
+\line {   "   "na Ray shte ya napravim;}
 
 \line {   "   "Nebeto shte razveselim}
 
@@ -268,8 +309,8 @@
        \line {   "   "}
 
 
-\line { "   " \italic {Refrain: } }
-    } %column
+\line { "        " \italic {Pripev: } }    } %column
+\"rightBraces058"
 } % markup
 
 \pageBreak
