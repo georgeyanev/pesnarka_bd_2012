@@ -91,7 +91,7 @@
   \autoBeamOff
  
  
-d'8 d' e' fis' |g'2 | a'8 g' fis' e' | d'2   \break | 
+\repeat volta 2 {d'8 d' e' fis' |g'2 | a'8 g' fis' e' | d'2 }   \break | 
 
 \repeat volta 2 {  a'8 a' a'4 | b'8 b' b'4 | d''8 c'' b' a' |  g'2 }  \break |
 
@@ -129,7 +129,7 @@ d'8 d' e' fis' |g'2 | a'8 g' fis' e' | d'2   \break |
 
 } % score
 
-  \markup \halign #-12.1 \raise #2.8 \override #'(baseline-skip . 2) {
+  \markup \halign #-5.1 \raise #2.8 \override #'(baseline-skip . 2) {
         \column  {
           \line  \halign #-3.8 {
             \bold  { "D. C. al Fine" }
