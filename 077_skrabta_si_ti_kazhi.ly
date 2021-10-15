@@ -87,8 +87,8 @@
       \tempo \markup {
         % make tempo note smaller
         \concat {
-          "Andante" \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"8" #0.8
+          "Andante" \normal-text { " (" }
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
           \normal-text { " = 63)" }
         }
       }
@@ -99,7 +99,9 @@
       b8. c16 d4 d e e a8. g16 fis2 \bar "!" fis8. g16 a4 a4 b a g8.  a16 b2 \bar "!"  \break
       b8. c16 d4 c b a a8. b16 g2  \bar "!"  b,4 b b8.c16 d2 \bar "!"  \break
       e4 a, a8. b16 c2 \bar "!" e4 e4 a8. g16 fis2 \bar "!"  a4 a b8. a16 g2 \bar "!"  \break
+       
       b4b d8. c16 b2  \bar "!" c4b a8. a16 a2  \bar "!"  g4 fis4 a8. g16 fis2 \bar "!"  \break
+      \pageBreak
       e4 e fis8. e16 d2 \bar "!" c8. c16 c4 e4 e d b8 b16 b2 \bar "!"  \break
       
 
@@ -161,7 +163,7 @@
 
     } % score
 
-    \pageBreak
+
 
 
     % include foreign translation(s) of the song
