@@ -90,9 +90,13 @@
     \autoBeamOff 
 	 \repeat volta 2 {
     
-     a4 cis' e' a'2 gis'4 |  \time 5/4  b'4. fis'8 gis'4 e'2 | \time 6/4  fis'4 e' d' cis'2 b4 \break |
+     a4 cis' e' a'2 gis'4 |  \time 5/4  b'4. fis'8 fis'4 e'2 | \time 6/4  fis'4 e' d' cis'2 b4 \break |
     
-    \time 5/4  e'4. b8 b4 a2 \time 8/8  \repeat volta 2 { e'4.  fis'4 d'4. | e'4. fis'4 ~ fis'4. | e'4. fis'4 d'4. \break | 
+    \time 5/4  e'4. b8 b4 a2 \time 8/8  \repeat volta 2 {  \tempo \markup { % make tempo note smaller
+      \concat { "Più Mosso" \normal-text { "" }
+         
+      }
+    } e'4.  fis'4 d'4. | e'4. fis'4 ~ fis'4. | e'4. fis'4 d'4. \break | 
     
     e'4. fis'4 ~ fis'4. |e'4. fis'4 d'4. | cis'4. e'4 ~ e'4. | b4. ~ b4 ~ b4. | a4. ~ a4 ~ a4. 
       }
@@ -145,6 +149,6 @@
 
 % include foreign translation(s) of the song
 %\include "lyrics_de/lyrics_de_file_name.ly"
-\include "lyrics_de/083_02_vecher_sutrin.ly"
+\include "lyrics_de/083_02_vecher_sutrin_lyrics_de.ly"
 
 } % bookpart
