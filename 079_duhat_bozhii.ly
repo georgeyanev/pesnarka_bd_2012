@@ -84,14 +84,14 @@
       \tempo \markup {
         % make tempo note smaller
         \concat {
-          "Amdante " \normal-text { "(" }
+          "Andante " \normal-text { "(" }
           \teeny \general-align #Y #DOWN \note #"4" #0.8
           \normal-text { " = 65)" }
         }
       }
 
 
-      c4 e g (a ) g2 | e4 g c4  \acciaccatura {d16c b c} d4 c2 \break
+      c4 e g (a ) g2 | e4 g c4 ( \acciaccatura {d16c b c}) d4 c2 \break
 
       b4 d c (b8 a ) g2 | e 4 g a ( g8 fis ) g2 \break
 
@@ -159,7 +159,7 @@
           \line {Духът Божий }
           \vspace #-0.6
           \center-align
-          \line \fontsize #-3 { Zaglavie }
+          \line \fontsize #-3 { Duhat Bozhi }
           \vspace #-0.8
           \center-align
           \line \fontsize #-3 { " " }
