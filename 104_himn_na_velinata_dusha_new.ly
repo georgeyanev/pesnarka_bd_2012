@@ -91,11 +91,18 @@
         }
       }
       \autoBeamOff
-      a2 d'4 | e'2 fis'8 (e'8) | d'2. | e'2 fis'4 | g'2. | \break
+      a2 d'4 | e'2 fis'8 [ (e'8) ]| d'2. | e'2 fis'4 | g'2. | \break
 
-      a'4 g'4 fis'4 | e'2. | e'2. | g'2. | b'4 a'4 b'4 | b'2. | a'2. | \break
+      a'4 g'4 fis'4 | e'2. | e'2. | g'2. | b'4 cis''4 b'4 | b'2. | a'2. | \break
 
-      fis'2. | a'4 (g'4) e'4 | e'2. | d'2 \fermata \tempo "Più mosso" 4 = 88  fis'4  | a'2 a'4 | b'2 fis'4 | \break
+      fis'2. | a'4 (g'4) e'4 | e'2. | d'2 \fermata   \tempo \markup {
+        % make tempo note smaller
+        \concat {
+          "Più mosso " \normal-text { "(" }
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \normal-text { " = 88)" }
+        }
+      }  fis'4  | a'2 a'4 | b'2 fis'4 | \break
 
       a'2. | a'2 a'4 | b'2 b'4 | b'2 ( cis''4 ) | a'2. ( | a'4 ) r4 a'4 | \break
 
@@ -103,33 +110,52 @@
 
       d'2.  \bar "||" \tempo "a tempo" 4=80 a2 a4 | d'2 ( e'4 ) | fis'2 ( g'4 ) | a'2 \fermata a'4 | b'2 a'4 | \break
 
-      a'2. | fis'2. |\tempo "Più mosso" 4 = 88 b'2 a'4 | fis'2 g'4 | a'2. | g'2 fis'4 | \break
+      a'2. | fis'2. |\tempo \markup {
+        % make tempo note smaller
+        \concat {
+          "Più mosso " \normal-text { "(" }
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \normal-text { " = 88)" }
+        }
+      } b'2 a'4 | fis'2 g'4 | a'2. | g'2 fis'4 | \break
 
-      a'2 b'4 | a'2. | a'2 a'4 | d''2 b'4 | a'2. | a'2 a'4 | \break
+      g'2 b'4 | a'2. | a'2 a'4 | d''2 b'4 | a'2. | a'2 a'4 | \break
 
-      d''2 b'4 | b'2 ( cis''4 ) | a'2 g'4 |fis'2  fis'4 | g'2  e'4 | e'2 ( fis'4 ) | \break
-
-      d'2. | fis'2 fis'4 | fis'2. | e'4 ( fis'4 )  g'4 | fis'2 \fermata fis'4 |fis'2.   \break
-
-      g'2 a4  \bar "||" \repeat unfold 2 {
-        a2 d'4 | e'2. | e'4 (fis'4 ) g'4 | fis'2 \fermata fis'4 | fis'2 g'4 |
-
-        a'2. | b'2 g'4 | g'2 a'4 | fis'2 \fermata b'4 | b'2 b'4 | d''2. \break
-
-        cis''2  b'4 | b'2 ( cis''4 ) | a'2 g'4 | fis'2 ( e'4 ) \rit | d'2.^\fine |  \break
-
-
-
-        fis'2 g'4 | a'2 a'4 | a'4 ( b'4 ) a'4 | fis'2 g'4 | \break
-
-        a'2. | d''2. | cis''2. | b'2 ( cis''4 ) | b'2. | \break
-
-
-        a'2 fis'4 | a'2 g'4 | fis'2 e'4 | d'2 g4 \dcapo  \bar"|."  \break
-
-      }
-
-
+      d''2 b'4 | b'2 ( cis''4 ) | a'2 g'4 |fis'2  fis'4 |
+      g'2^\markup\normalsize\bold { "rit." }   e'4 | e'2 ( fis'4 ) | \break
+      d'2. | fis'2^\markup{ \bold {a tempo} } fis'4 | fis'2. | fis'4 ( g'4 )  a'4 | b'2 \fermata fis'4 |a'2.   \break
+      | % 61
+      g'2 ^\fermata    a4^\segno \bar "||"
+      a2  d'4 | % 63
+      e'2. | % 64
+      e'4 (  fis'4 )  g'4 | % 65
+      fis'2 ^\fermata  fis'4 | % 66
+      fis'2  g'4 \break | % 67
+      a'2. | % 68
+      b'2  g'4 | % 69
+      g'2  a'4 |
+      fis'2 ^\fermata  b'4 | % 71
+      b'2  b'4 | % 72
+      d''2. \break | % 73
+      cis''2  b'4 | % 74
+      b'2 (  cis''4 ) | % 75
+      a'2  g'4 | % 76
+      fis'2 (  e'4 ) ^\markup{ \bold {rit} } | % 77
+      d'2.^\markup{ \bold {Fine} } \bar "|."
+      \break | % 78
+      fis'2 ^\markup{ \bold {a tempo} }  g'4 | % 79
+      a'2  a'4 |
+      a'4 (  b'4 )  a'4 | % 81
+      fis'2  g'4 \break | % 82
+      a'2. | % 83
+      d''2. | % 84
+      cis''2. | % 85
+      b'2 (  cis''4 ) | % 86
+      b'2. \break | % 87
+      a'2  fis'4 | % 88
+      a'2  g'4 | % 89
+      fis'2  e'4 |
+      d'2  a4 \bar "|."
     }
 
     \addlyrics {
@@ -163,7 +189,7 @@
 
       във Зна -- ни -- е, Мъд -- рост,
 
-      Ис -- ти -- на, Лю -- бов.
+      Ис -- ти -- на, Лю -- бов. Ве --
 
     }
     \addlyrics {
@@ -197,15 +223,15 @@
 
       vav Zna -- ni -- e, Mad -- rost,
 
-      Is -- ti -- na, Lyu -- bov.}
+      Is -- ti -- na, Lyu -- bov. Ve --}
 
       \header {
         title = \markup \column \normal-text \fontsize #2.5 {
           \center-align
-          \line { Заглавие }
+          \line { Химн на Великата Душа }
           \vspace #-0.6
           \center-align
-          \line \fontsize #-3 { Zaglavie }
+          \line \fontsize #-3 { Himn na velikata dusha }
           \vspace #-0.8
           \center-align
           \line \fontsize #-3 { " " }
@@ -216,27 +242,20 @@
 
     } % score
 
-    \pageBreak
 
-    \markup \fontsize #+2.5 {
-      \hspace #1
-      \override #'(baseline-skip . 2.4) % affects space between column lines
-      \column {
-        \line { 2. Текст на кирилица }
-        \line {   "   " Текст на кирилица }
+  \markup \halign #-15 {
+    \column  {
+      \line  \halign #-5 {
+        \bold  { "D.C. al Fine" }
       }
+    }
+  }
 
-      \hspace #5
-      \override #'(baseline-skip . 2.4)
-      \column {
-        \line { 2. Tekst na latinica }
-        \line {   "   " Tekst na latinica }
-      } %column
-    } % markup
+
 
     \pageBreak
 
     % include foreign translation(s) of the song
-    %\include "lyrics_de/lyrics_de_file_name.ly"
+    \include "lyrics_de/104_himn_na_velikata_dusha_lyrics_de.ly"
 
   } % bookpart
