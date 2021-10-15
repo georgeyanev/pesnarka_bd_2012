@@ -78,7 +78,7 @@
   \new Voice \absolute {
     
      \clef treble
-      \key g \major
+      \key c \major
       \time 3/4
       %\tempo "Moderato" 8 = 160
       \tempo \markup {
@@ -104,10 +104,10 @@
   \header {
     title = \markup \column \normal-text \fontsize #2.5 {
               \center-align
-              \line { Заглавие }
+              \line { Аум }
               \vspace #-0.6
               \center-align
-              \line \fontsize #-3 { Zaglavie }
+              \line \fontsize #-3 { Aum }
               \vspace #-0.8
               \center-align
               \line \fontsize #-3 { " " }
