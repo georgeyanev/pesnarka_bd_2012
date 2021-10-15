@@ -1,6 +1,6 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Gütiges Wort" }
+\markup \fill-line { \fontsize #6 "Lebendige Kraft" }
 \markup \null
 \markup \null
 \markup \fontsize #+2.5 {
