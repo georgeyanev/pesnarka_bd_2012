@@ -97,7 +97,7 @@
 
       a'2 g'8. a'16 | bes'2 a'8. e'16 | f'2 e'8. f'16 | g'4 ( a' ) e'8. f'16 |  d'2 f'8. e'16 \break |
 
-      \repeat volta 2 { d'2 e'8. f'16 | g'2 ~ g'8 e' | g'4. f'8 e' ( f' ) |} \alternative { { d'2 f'8. e'16  | } { d'2. \break |} }
+      \repeat volta 2 { d'2 e'8. f'16 | g'2 ~ g'8 e' | g'4. f'8 e' [( f' )] |} \alternative { { d'2 f'8. e'16  | } { d'2. \break |} }
     }
 
     \addlyrics {
@@ -130,8 +130,8 @@
       \midi{}
 
     } % score
-    
-        \markup \halign #-12.1 \raise #2.8 \override #'(baseline-skip . 2) {
+
+        \markup \halign #-6.1 \raise #2.8 \override #'(baseline-skip . 2) {
         \column  {
           \line  \halign #-3.8 {
             \bold  { "D. C. al Fine" }
