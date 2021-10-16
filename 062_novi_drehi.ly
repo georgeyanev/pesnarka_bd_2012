@@ -82,7 +82,7 @@
      \tempo \markup { % make tempo note smaller
         \concat { "Andante" \normal-text { " (" }
                   \teeny \general-align #Y #DOWN \note #"4" #0.8
-                  \normal-text { " = 64)" }
+                  \normal-text { " = 63)" }
         }
       }
     %\tempo "Andante" 4 = 63
@@ -95,7 +95,7 @@
 }
   
   \addlyrics {
-    Как -- то че -- ло -- век съ -- бли -- ча дре -- хи -- те си 
+    "1. Как" -- то че -- ло -- век съ -- бли -- ча дре -- хи -- те си 
     о -- вех -- те -- ли, за да мо -- же да на  -- де -- не 
     но -- ви дре -- хи, чис -- ти, бе -- ли, тъй Ду -- хът плът -- та о -- 
     ста -- вя в~дру -- га плът да се за -- се -- ли и о --
@@ -103,7 +103,7 @@
   }
 
   \addlyrics {
-    Kak -- to che -- lo -- vek sa -- bli -- cha dre -- hi -- te si 
+    "1. Kak" -- to che -- lo -- vek sa -- bli -- cha dre -- hi -- te si 
     o -- veh -- te -- li, za da mo -- zhe da na  -- de -- ne 
     no -- vi dre -- hi, chis -- ti, be -- li, tay Du -- hat plat -- ta o -- 
     sta -- vya v~dru -- ga plat da se za -- se -- li i o --
@@ -129,16 +129,16 @@
 \pageBreak
 
 \markup \fontsize #+2.5 {
-    \hspace #1
+    \hspace #3
     \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
    
 
 \line {   2. Той минава световете}
 
-\line {   "   "и във тях се въплотява,}
+\line {   "   "и във тях се въплотява -}
 
-\line {   "   "нови дарби да добие —}
+\line {   "   "нови дарби да добие,}
 
 \line {   "   "Нов Живот да устроява.}
 
@@ -146,7 +146,7 @@
 
 \line {   "   "в красота неизразима}
 
-\line {   "   "и достига светлината}
+\line {   "   "и достига Светлината - }
 
 \line {   "   "тамо, де блаженство има.}
 
@@ -169,14 +169,14 @@
 \line {   "   "вечно Господа да слави! }
     }
 
-    \hspace #5
+    \hspace #3
     \override #'(baseline-skip . 2.4)
     \column {
-      \line {   2. Toy minava svetovete}
+\line {   2. Toy minava svetovete}
 
-\line {   "   "i vav tyah se vaplotyava,}
+\line {   "   "i vav tyah se vaplotyava -}
 
-\line {   "   "novi darbi da dobie —}
+\line {   "   "novi darbi da dobie,}
 
 \line {   "   "Nov Zhivot da ustroyava.}
 
@@ -184,7 +184,7 @@
 
 \line {   "   "v krasota neizrazima}
 
-\line {   "   "i dostiga svetlinata}
+\line {   "   "i dostiga Svetlinata - }
 
 \line {   "   "tamo, de blazhenstvo ima.}
 
@@ -204,11 +204,14 @@
 
 \line {   "   "vsichko zhivo, shto vazdisha, }
 
-\line {   "   "vechno Gospoda da slavi! } 
+\line {   "   "vechno Gospoda da slavi! }
+\line {   "   "}
+\line {   "   "}
+\line {   "   "}
     } %column
 } % markup
 
-\pageBreak
+%\pageBreak
 
 % include foreign translation(s) of the song
 \include "lyrics_de/062_novi_drehi_lyrics_de.ly"
