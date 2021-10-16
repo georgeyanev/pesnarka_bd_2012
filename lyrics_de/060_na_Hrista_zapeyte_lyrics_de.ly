@@ -1,109 +1,99 @@
-\version "2.18.2"
+\version "2.20.0"
 
-%\markup {  \vspace #1.9 }
-
-\markup {  \hspace #25   \huge\bold "Mögen wir an Jesus singen"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
-  \column {
+\markup \fill-line { \fontsize #6 "Mögen wir Jesus besingen" }
+\markup \null
+\markup \null
+\markup \fontsize #+2.5 {
+    \hspace #12
+    \override #'(baseline-skip . 2)
+    \column {
      \line { " " }
      
-     
-     \line { " "1. Mögen wir neue Hymnen zu Jesus}
+\line { 1. Mögen wir Jesus mit neuen Hymnen}
 
-\line { " "in dieser Stunde singen --}
+\line { "   "in dieser Stunde besingen -}
 
-\line { " "Er ist der ewige Sohn Gottes }
+\line { "   "Er ist der ewige Sohn Gottes }
 
-\line { " "im Himmel und in uns.}
+\line { "   "im Himmel und in uns.}
 
-\line { " "Unser Meister, unser Führer, }
+\line { "   "Unser Meister, unser Führer, }
 
-\line { " "unser wahres Leben,}
+\line { "   "unser wahres Leben,}
 
-\line { " "sein starker Name sei gepriesen}
+\line { "   "sein starker Name sei gepriesen}
 
-\line { " "von Geschlecht zu Geschlecht.}
-
-  \line { " " }
-
-\line { " "2. Singt zu Christus neue Hymnen}
-
-\line { " "in dieser festlichen Stunde,}
-
-\line { " "Er ist der Sohn Gottes, }
-
-\line { " "der auf die Erde um unsertwillen gesendet wurde.}
-
-\line { " "Er gab sein Leben, um uns von der Sünde zu retten, }
-
-\line { " "wie ein Sterbender stieg er in das Grab hinab,}
-
-\line { " "um die Toten auferstehen zu lassen. }
+\line { "   "von Geschlecht zu Geschlecht.}
 
   \line { " " }
 
-\line { " "3. Und nachdem er gepriesen worden war,}
+\line { 2. Singt zu Christus neue Hymnen}
 
-\line { " "gab er uns ein neues Testament,}
+\line { "   "in dieser festlichen Stunde,}
 
-\line { " "das größte von allen:}
+\line { "   "Er ist der Sohn Gottes, }
 
-\line { " "die Liebe -- sein Gesetz. }
+\line { "   "der auf die Erde um unsertwillen gesendet wurde.}
 
-\line { " "Er verkündete die frohe Botschaft und sagte:}
+\line { "   "Er gab sein Leben, um uns von der Sünde zu retten, }
 
-\line { " "Ihr seid mein, ich bin euer,}
+\line { "   "wie ein Sterbender stieg er in das Grab hinab,}
 
-\line { " "alle Menschen sind Brüder,}
+\line { "   "um die Toten auferstehen zu lassen. }
 
-\line { " "Gottvater ist unser Vater.}
+  \line { " " }
+
+\line { 3. Und nachdem er gepriesen worden war,}
+
+\line { "   "gab er uns ein neues Testament,}
+
+\line { "   "das größte von allen:}
+
+\line { "   "die Liebe -- sein Gesetz. }
+
+\line { "   "Er verkündete die frohe Botschaft und sagte:}
+
+\line { "   "Ihr seid mein, ich bin euer,}
+
+\line { "   "alle Menschen sind Brüder,}
+
+\line { "   "Gottvater ist unser Vater.}
 
 
   \line { " " }
-\line { " "4. Liebet einander, }
+\line { 4. Liebet einander, }
 
-\line { " "so dienen wir unserem Vater,}
+\line { "   "so dienen wir unserem Vater,}
 
-\line { " "und der Vater liebt euch alle}
+\line { "   "und der Vater liebt euch alle}
  
-\line { " "wie Seine eigenen Kinder.}
+\line { "   "wie Seine eigenen Kinder.}
 
-\line { " "Ich bin das lebendige Brot vom Himmel, }
+\line { "   "Ich bin das lebendige Brot vom Himmel, }
 
-\line { " "ich bin der wahre Weinstock;}
+\line { "   "ich bin der wahre Weinstock;}
 
-\line { " "bewahrt Mein Wort und}
+\line { "   "bewahrt Mein Wort und}
 
-\line { " "lebt in Liebe!}
+\line { "   "lebt in Liebe!}
   \line { " " }
-\line { " "4. Nur in ihr ist das Leben,}
+\line { 5. Nur in ihr ist das Leben,}
 
-\line { " "in ihre ist auch die Freude,}
+\line { "   "in ihre ist auch die Freude,}
 
-\line { " "sie erschafft alles Gute --}
+\line { "   "sie erschafft alles Gute --}
 
-\line { " "einzig sie -- die Liebe.}
+\line { "   "einzig sie -- die Liebe.}
 
-\line { " "So lehrte Er uns damals,}
+\line { "   "So lehrte Er uns damals,}
 
-\line { " "so flüstert er uns jetzt auch zu, }
+\line { "   "so flüstert er uns jetzt auch zu, }
 
-\line { " "und in meiner Seele }
+\line { "   "und in meiner Seele }
 
-\line { " "erwachen seine Worte zum Leben. }
+\line { "   "erwachen seine Worte zum Leben. }
           
      
            }
        
     }    
-    }
-}
-%}
-   
