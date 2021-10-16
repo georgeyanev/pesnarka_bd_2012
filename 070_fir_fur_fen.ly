@@ -91,6 +91,7 @@
         }
       }
       \partial 4
+      \autoBeamOff
 
       d'8. d'16 | g'2 a'8. bes'16 |  g'4 d'2 | \time 4/4  a'8. bes'16 c''4 bes'2 | \break
 
