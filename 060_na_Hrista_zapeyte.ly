@@ -78,7 +78,15 @@
 \new Voice \absolute  {
     \clef treble
     \key d \major
-    \time 3/4 \tempo "Moderato" 4 = 112
+    \time 3/4 
+    \tempo \markup {
+        % make tempo note smaller
+        \concat {
+          "Moderato" \normal-text { " (" }
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \normal-text { " = 112)" }
+        }
+    }
  
     a'2 a'4| fis''2 e''4| d''2 b'4 | a'2 fis'4 | e'2 e'4 | cis'2 a4 | \break
  
@@ -92,7 +100,7 @@
   }
   
   \addlyrics {
-    Но -- ви хи -- мни на И -- су -- са да за -- пе -- ем
+    "1. Но" -- ви хи -- мни на И -- су -- са да за -- пе -- ем
     в~то -- я час, Бо -- жи Син е Той пред -- ве -- 
     чен на Не -- бе -- то и във нас.  Наш У -- чи -- тел,
     наш во -- ди -- тел, ис -- тин -- ски -- ят наш Жи -- вот, Не -- го --
@@ -100,7 +108,7 @@
   }
 
   \addlyrics {
-    No -- vi hi -- mni na I -- su -- sa da za -- pe -- em
+    "1. No" -- vi hi -- mni na I -- su -- sa da za -- pe -- em
     v~to -- ya chas, Bo -- zhi Sin e Toy pred -- ve -- 
     chen na Ne -- be -- to i vav nas.  Nash U -- chi -- tel,
     nash vo -- di -- tel, is -- tin -- ski -- yat nash Zhi -- vot, Ne -- go --
@@ -128,20 +136,10 @@
 \pageBreak
 
 \markup \fontsize #+2.5 {
-    \hspace #1
+    \hspace #4.2
     \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
-       \line {   1. Нови химнина Исуса }
-        \line {   "   "да запеем в тоя час, }
-        \line {   "   "Божи Син е Той пред вечен }
-        \line {   "   "на Небето и във нас.  }
-       \line {   "   " Наш Учител, наш водител, }
-        \line {   "   "истинският наш Живот, }
-       \line {   "   " Неговото крепко Име }
-        \line {   "   "да се слави в род и род. }
- \line {   "   "}
-  
-       \line {   2.  На Христа запейте химни  }
+ \line {   2.  На Христа запейте химни  }
 
  \line {   "   " нови в тоз тържествен час, }
 
@@ -149,30 +147,30 @@
 
  \line {   "   " на Земята зарад нас. }
 
- \line {   "   " Той живота Си положи, }
+ \line {   "   " Той живота Си положи }
 
  \line {   "   " от греха да ни спаси, }
 
- \line {   "   " като смъртник в гроба слезе, }
+ \line {   "   " като смъртник в гроба слезе }
 
  \line {   "   " мъртвите да възкреси. }
    \line {   "   "}
 
  \line {   3.  И когато се прослави, }
 
- \line {   "   " Нов Завет ни даде Той, }
+ \line {   "   " нов завет ни даде Той, }
 
  \line {   "   " най-великия от всички, }
 
- \line {   "   " Любовта — Закона Свой. }
+ \line {   "   " Любовта - закона Свой. }
 
  \line {   "   " Благовествува и рече: }
 
- \line {   "   " “Вий сте мои, аз Съм ваш, }
+ \line {   "   " „Вий сте Мои, Aз Съм ваш, }
 
  \line {   "   " хората са всички братя, }
 
- \line {   "   " Бог Отец е Татко наш. }
+ \line {   "   " Бог Отец е татко наш. }
     
     \line {   "   "}
 
@@ -188,7 +186,7 @@
 
  \line {   "   " аз съм истинска лоза, }
 
- \line {   "   " Словото ми опазете, }
+ \line {   "   " Словото Ми опазете, }
 
  \line {   "   " заживейте в Любовта! }
     \line {   "   "}
@@ -199,7 +197,7 @@
 
  \line {   "   " тя създава всяко благо, }
 
- \line {   "   " тя едничка, Любовта. }
+ \line {   "   " тя едничка, Любовта.“ }
 
  \line {   "   " Тъй ни учеше тогава,  }
 
@@ -213,17 +211,7 @@
     \hspace #5
     \override #'(baseline-skip . 2.4)
     \column {
-            \line {   1. Novi himnina Isusa }
-        \line {   "   "da zapeem v toya chas, }
-        \line {   "   "Bozhi Sin e Toy pred vechen }
-        \line {   "   "na Nebeto i vav nas.  }
-       \line {   "   " Nash Uchitel, nash voditel, }
-        \line {   "   "istinskiyat nash Zhivot, }
-       \line {   "   " Negovoto krepko Ime }
-        \line {   "   "da se slavi v rod i rod. }
-        \line { " " }
-          
-     \line {   2.  Na Hrista zapeyte himni  }
+ \line {   2.  Na Hrista zapeyte himni  }
 
  \line {   "   " novi v toz tarzhestven chas, }
 
@@ -231,30 +219,30 @@
 
  \line {   "   " na Zemyata zarad nas. }
 
- \line {   "   " Toy zhivota Si polozhi, }
+ \line {   "   " Toy zhivota Si polozhi }
 
  \line {   "   " ot greha da ni spasi, }
 
- \line {   "   " kato smartnik v groba sleze, }
+ \line {   "   " kato smartnik v groba sleze }
 
  \line {   "   " martvite da vazkresi. }
    \line {   "   "}
 
  \line {   3.  I kogato se proslavi, }
 
- \line {   "   " Nov Zavet ni dade Toy, }
+ \line {   "   " nov zavet ni dade Toy, }
 
  \line {   "   " nay-velikia ot vsichki, }
 
- \line {   "   " Lyubovta — Zakona Svoy. }
+ \line {   "   " Lyubovta - zakona Svoy. }
 
  \line {   "   " Blagovestvuva i reche: }
 
- \line {   "   " “Viy ste moi, az Sam vash, }
+ \line {   "   " „Viy ste Moi, Az Sam vash, }
 
  \line {   "   " horata sa vsichki bratya, }
 
- \line {   "   " Bog Otets e Tatko nash. }
+ \line {   "   " Bog Otets e tatko nash. }
     
     \line {   "   "}
 
@@ -270,7 +258,7 @@
 
  \line {   "   " az sam istinska loza, }
 
- \line {   "   " Slovoto mi opazete, }
+ \line {   "   " Slovoto Mi opazete, }
 
  \line {   "   " zazhiveyte v Lyubovta! }
     \line {   "   "}
@@ -281,7 +269,7 @@
 
  \line {   "   " tya sazdava vsyako blago, }
 
- \line {   "   " tya ednichka, Lyubovta. }
+ \line {   "   " tya ednichka, Lyubovta.“ }
 
  \line {   "   " Tay ni ucheshe togava,  }
 
@@ -290,7 +278,7 @@
  \line {   "   " i vazkrasvat mi v dushata }
 
  \line {   "   " tezi Negovi Slova. }
-    } %column
+     } %column
 } % markup
 
 \pageBreak
