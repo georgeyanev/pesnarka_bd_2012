@@ -4,6 +4,37 @@
   #(set-paper-size "a5")
 }
 
+"rightBraces063" = \markup {
+  \column {
+    % repeat braces
+    \translate #'(0 . -0.7 )
+    \right-brace #20
+
+    \translate #'(0 . -3.9 )
+    \right-brace #42
+
+    \translate #'(0 . -5.6 )
+    \right-brace #20
+
+    \translate #'(0 . -5.2 )
+    \right-brace #43
+  }
+  \column {
+    % repeat numbers
+    \translate #'(0 . -1.2 )
+    2
+
+    \translate #'(0 . -4.5 )
+    2
+
+    \translate #'(0 . -9.7 )
+    2
+
+    \translate #'(0 . -7.2 )
+    2
+  }
+}
+
 \bookpart {
 \paper {
   print-all-headers = ##t
@@ -180,14 +211,14 @@
     \hspace #1
     \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
-   
-     
 
-      \line {   2.  Кога дълбоко дишаш, дете,}
+\line {   2.  Кога дълбоко дишаш, дете,}
 
 \line {   "   "ще имаш здраво, добро сърце.}
 
-\line {   "   "Здраво сърце, добро кръвообращение,}
+\line {   "   "Здраво сърце, }
+
+\line {   "   "добро кръвообращение,}
 
 \line {   "   "силен стомах, здраво тяло}
 
@@ -197,7 +228,7 @@
 
 \line {   3. Кога дълбоко дишаш, дете,}
 
-\line {   "   "тялото ти изправено да е!}
+\line {   "   "тялото ти изправено да е.}
 
 \line {   "   "Права стойка, бодра крачка,}
 
@@ -205,18 +236,20 @@
 
 \line {   "   "Дишай, дишай и пак дишай, }
 
-\line {   "   "дишай ти навред! }
-    }
-
-    \hspace #5
+\line {   "   "дишай ти навред. }
+}
+\"rightBraces063"
+    \hspace #3
     \override #'(baseline-skip . 2.4)
     \column {
      
-      \line {   2.  Koga dalboko dishash, dete,}
+ \line {   2.  Koga dalboko dishash, dete,}
 
 \line {   "   "shte imash zdravo, dobro sartse.}
 
-\line {   "   "Zdravo sartse, dobro kravoobrashtenie,}
+\line {   "   "Zdravo sartse, }
+
+\line {   "   "dobro kravoobrashtenie,}
 
 \line {   "   "silen stomah, zdravo tyalo}
 
@@ -226,7 +259,8 @@
 
 \line {   3. Koga dalboko dishash, dete,}
 
-\line {   "   "tyaloto ti izpraveno da e!}
+
+\line {   "   "tyaloto ti izpraveno da e.}
 
 \line {   "   "Prava stoyka, bodra krachka,}
 
@@ -234,8 +268,9 @@
 
 \line {   "   "Dishay, dishay i pak dishay, }
 
-\line {   "   "dishay ti navred! }
+\line {   "   "dishay ti navred. }
     } %column
+\"rightBraces063"
 } % markup
 
 \pageBreak
