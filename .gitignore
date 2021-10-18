@@ -7,3 +7,4 @@
 .idea
 *.iml
 tmp.ly
+.DS_Store
