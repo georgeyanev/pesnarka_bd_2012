@@ -1,17 +1,12 @@
 \version "2.18.2"
 
-%\markup {  \vspace #1.9 }
-
-\markup {  \hspace #25   \huge\bold "Ein Engel sang"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
-  \column {
+\markup \fill-line { \fontsize #6 "Ein Engel sang" }
+\markup \null
+\markup \null
+\markup \fontsize #+2.5 {
+    \hspace #7
+    \override #'(baseline-skip . 2)
+    \column {
      \line { " " }
      
      \line { " "Ein Engel rief der Mutter Gottes zu:}
@@ -39,6 +34,3 @@
            }
        
     }    
-    }
-}
-%}
