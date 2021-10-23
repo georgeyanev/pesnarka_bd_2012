@@ -28,6 +28,19 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../049_slaveycheta_gorski.ly \
     ../050_nebeto_se_otvarya.ly \
     ../051_o_Uchitelyu_blagati.ly \
+    ../052_darzost_v_Hrista.ly \
+    ../053_slava_Bozhiya.ly \
+    ../054_kam_sion.ly \
+    ../055_1_slantseto_na_lyubovta.ly \
+    ../055_2_ti_si_proyavenata_lyubov.ly \
+    ../056_1_idvat_dni_na_radost.ly \
+    ../056_2_kam_rila.ly \
+    ../057_psalom_91.ly \
+    ../058_na_beliya_tsvyat.ly \
+    ../060_na_Hrista_zapeyte.ly \
+    ../062_novi_drehi.ly \
+    ../063_dishay_dalboko.ly \
+    ../064_angel_vopiyashe.ly \
     > tmp.ly
 
 lilypond --include=../ -o pesn_all tmp.ly
