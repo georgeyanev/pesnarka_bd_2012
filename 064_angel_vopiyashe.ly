@@ -109,6 +109,7 @@
     
     c8([ bes a g]) f([ e a g]) \bar "|"
     f4.( e8) d([ e16 f] d4) d2 r8 d \bar "|"  \break
+    \pageBreak
     
     g4( \acciaccatura { f16 [g] } f4 g a \acciaccatura { f16 [g] } f4 e8[  f]) \bar "|"
     d4.( e8) c4( d) \bar "|"  \break
@@ -133,6 +134,7 @@
     g4. a8 g8[ fis16 ees] \bar "|"
     fis4) r8 fis \stemNeutral \slurNeutral c'4 d8([ c])  \bar "|"
     \stemUp bes4( a8[ bes]) g2 d4( ees)  \bar "|" \break
+    \pageBreak
     
     g8([ fis g a] g4 fis8[ g] fis4. ees8 d8[ ees16 fis] d4) d2\fermata d4 d  \bar "|" \break
     
@@ -149,7 +151,7 @@
     g8([ fis g a] g4 fis8[ g] fis4. ees8) d([ ees16 fis)] d4 \bar "|" \noBreak
     d2( c8[  d ees! d] g8[ fis! ees!16 fis  ees d] d2)\fermata \bar "|."
     
-    \pageBreak
+    %\pageBreak
   }
   
 \addlyrics {
@@ -215,19 +217,21 @@
 
 } % score
 
-\pageBreak
+%\pageBreak
 
 \markup \fontsize #+2.5 {
     \hspace #1
     \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
-      
+      \line {" "}
+      \line {" "}
     }
 
     \hspace #5
     \override #'(baseline-skip . 2.4)
     \column {
-      
+      \line {" "}
+      \line {" "}
     } %column
 } % markup
 
