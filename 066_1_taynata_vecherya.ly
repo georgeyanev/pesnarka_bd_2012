@@ -134,19 +134,30 @@
 
 } % score
 
-
+\markup \halign #-12.4 \raise #2.8 \override #'(baseline-skip . 2) { 
+  \column  { 
+    \line  \halign #-3 { 
+      \bold  { "D. C." }
+    }
+    \line  { 
+      \bold { con ripetizione }
+    }
+  }
+} 
 
 \markup \fontsize #+2.5 {
     \hspace #1
     \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
-      
+      \line {" "}
+      \line {" "}
     }
 
     \hspace #5
     \override #'(baseline-skip . 2.4)
     \column {
-     
+      \line {" "}
+      \line {" "}
     } %column
 } % markup
 

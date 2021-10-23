@@ -1,10 +1,10 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \markup \fill-line { \fontsize #6 "Das letze Abendmal" }
 \markup \null
 \markup \null
 \markup \fontsize #+2.5 {
-    \hspace #10
+    \hspace #16
     \override #'(baseline-skip . 2)
     \column {
      \line { " " }
@@ -21,12 +21,6 @@
 \line {   "   " alles ist durchlichtet }
 
 \line {   "   " von meinen lebendigem Licht (videlina). }
-
-\line {   "   " Vsichko e svetlo, }
-
-\line {   "   " vsichko e osveteno }
-
-\line {   "   " s Mojta zhiva Videlina. }
 
 \line {   "   " Zun meri manu, }
 
