@@ -70,7 +70,10 @@
 
     \context { % adjust space between staff and lyrics and between the two lyric lines
       \Lyrics
-      \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+      \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
+        (basic-distance . 4.5)
+        (minimum-distance . 4.2)
+      )
       \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
     }
   } % layout
@@ -140,9 +143,6 @@
               \vspace #-0.6
               \center-align
               \line \fontsize #-3 { Pesen na glasnite bukvi}
-              \vspace #-0.5
-              \center-align
-              \line \fontsize #-3 { "Lied der Vokale " }
             }
   }
   
@@ -156,19 +156,23 @@
     \hspace #1
     \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
-     
+      \line { " "}
+      \line { " "}
+      \line { " "}
     }
 
     \hspace #5
     \override #'(baseline-skip . 2.4)
     \column {
-     
+      \line { " "}
+      \line { " "}
+      \line { " "}
     } %column
 } % markup
 
 
 
 % include foreign translation(s) of the song
-%\include "lyrics_de/lyrics_de_file_name.ly"
+\include "lyrics_de/067_pesen_na_glasnite_bukvi_lyrics_de.ly"
 
 } % bookpart
