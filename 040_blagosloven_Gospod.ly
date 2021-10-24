@@ -88,7 +88,7 @@
         \concat {
           "Andante " \normal-text { " (" }
           \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 56 / 58 )" }
+          \normal-text { " = 56 /58)" }
         }
       }
       \autoBeamOff
