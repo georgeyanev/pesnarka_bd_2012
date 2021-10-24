@@ -106,9 +106,9 @@
 
       \time 6/4 b'4 cis''4 d'' b' g' e' | g' b' a' g' fis' b | \break
 
-      cis'8 d' fis' e' d'4 cis' b2 | fis'4 b' d'' b' g' e' |\break
+      cis'8 d' fis' e' d'4 cis' b2 | fis'4 b' d'' b' g' e' |\break \pageBreak
 
-      g'4 b'4 a'4 g'4 fis'4 b |  cis'8 d' fis' e' d'4 cis'4 b2 | \break  }
+      g'4 b'4 a'4 g'4 fis'4 b |  cis'8 d' fis' e' d'4 cis'4 b2 | \break }
 
       \time 3/4 b8. cis'16 d'8 fis'4. | e'8. fis'16 g'8 fis'4. | fis'8 b'8 d''4. b'8| \break
 
@@ -180,7 +180,7 @@
 
 
 
-  \pageBreak
+  %\pageBreak
 
   % include foreign translation(s) of the song
   \include "lyrics_de/068_sto_e_sastnostta_lyrics_de.ly"
