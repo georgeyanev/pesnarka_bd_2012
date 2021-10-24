@@ -140,7 +140,6 @@
 
   } % score
 
-  \pageBreak
 
   \markup \fontsize #+2.5 {
     \hspace #3
@@ -155,7 +154,29 @@
       \line { "   " }
 
       \line { "   " \italic{Припев: Добре дошъл ...} }
+    }
+
+    \hspace #4
+    \override #'(baseline-skip . 2.4)
+    \column {
+      \line { 2. Obviti v mrak do tozi chas, }
+      \line { "   " niy byahme robi na greha, }
+
+      \line { "   " no chuhme Tvoya krotak glas }
+
+      \line { "   " i lahna kam nas Toplina. }
       \line { "   " }
+
+      \line { "   " \italic{Refrain: Dobre doshal ...} }
+    } %column
+  } % markup
+
+  \pageBreak
+
+  \markup \fontsize #+2.5 {
+    \hspace #3
+    \override #'(baseline-skip . 2.4) % affects space between column lines
+    \column {
 
       \line { 3. Учителю Благословен, }
 
@@ -177,22 +198,14 @@
       \line { "   " със радост ний готови сме }
 
       \line { "   " да жертваме живота свой. }
+
+      \line { " "}
+      \line { " "}
     }
 
     \hspace #5
     \override #'(baseline-skip . 2.4)
     \column {
-      \line { 2. Obviti v mrak do tozi chas, }
-      \line { "   " niy byahme robi na greha, }
-
-      \line { "   " no chuhme Tvoya krotak glas }
-
-      \line { "   " i lahna kam nas Toplina. }
-      \line { "   " }
-
-      \line { "   " \italic{Refrain: Dobre doshal ...} }
-      \line { "   " }
-
       \line { 3. Uchitelyu Blagosloven, }
 
       \line { "   " Ti ni sartsata obnovi, }
@@ -215,8 +228,6 @@
       \line { "   " da zhertvame zhivota svoy. }
     } %column
   } % markup
-
-  \pageBreak
 
   % include foreign translation(s) of the song
   \include "lyrics_de/044_pozdrav_na_Uchitelja_lyrics_de.ly"
