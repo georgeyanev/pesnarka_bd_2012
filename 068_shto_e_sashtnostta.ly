@@ -99,6 +99,8 @@
       \time 5/4  a'8 g'4. e'8. fis'16 g'8 fis'4. | \time 5/4 fis'8 e'8 d'4 cis'4 b2 | \break
 
       \time 5/4 d'4. d'8 cis'4 b2 | cis'2 b8 ais8 b4. r8 | \break
+      
+      \repeat volta 2 { 
 
       \time 4/4 b4 cis'4 d'4 b4 | \time 3/4 d'4 fis'2 | \time 4/4 e'4 fis' g' e' | \time 3/4 g'4 b'2  \break
 
@@ -106,7 +108,7 @@
 
       cis'8 d' fis' e' d'4 cis' b2 | fis'4 b' d'' b' g' e' |\break
 
-      g'4 b'4 a'4 g'4 fis'4 b |  cis'8 d' fis' e' d'4 cis'4 b2 | \break
+      g'4 b'4 a'4 g'4 fis'4 b |  cis'8 d' fis' e' d'4 cis'4 b2 | \break  }
 
       \time 3/4 b8. cis'16 d'8 fis'4. | e'8. fis'16 g'8 fis'4. | fis'8 b'8 d''4. b'8| \break
 
@@ -181,6 +183,6 @@
   \pageBreak
 
   % include foreign translation(s) of the song
-  %\include "lyrics_de/024_blagoslavyay_lyrics_de.ly"
+  \include "lyrics_de/068_sto_e_sastnostta_lyrics_de.ly"
 
 } % bookpart
