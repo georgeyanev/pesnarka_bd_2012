@@ -95,11 +95,11 @@
 
       \time 4/4  a'2 c'4 f'8. g'16 | a'4 f''2 g''8. f''16 | \time 3/4  e''4. d''8 e'' d'' | c''4. d''8 c'' bes' \break |
 
-      a'2 c''4 | \time 4/4  bes'8. a'16 g'2 bes'4 | \time 3/4  d''8 d'' c''4. c''8 \break |
+      \time 2/4 a'2 | \time 4/4  c''4   bes'8. a'16 g'2|  bes'4  d''8 d'' c''4. c''8 \break |
 
-      \time 4/4  f''8 f'' e''4. d''8 c'' bes' | \time 3/4  a'2 c''4 | \time 4/4  bes'8. a'16 g'2 bes'4 \break |
+      \time 3/4  f''8 f'' e''4.  d''8 | c'' bes' a'2 | \time 4/4 c''4  bes'8. a'16 g'2 \break | 
 
-      \time 3/4  d''8 d'' c''4. c''8 \time 4/4  f''8 f'' e''4. d''8 c'' bes' | \time 2/4  a'2 \bar "|."
+      bes'4 d''8 d'' c''4. c''8 \time 3/4  f''8 f'' e''4. d''8 | c'' bes' a'2 \bar "|."
 
     }
 
@@ -140,7 +140,6 @@
 
   } % score
 
-  \pageBreak
 
   \markup \fontsize #+2.5 {
     \hspace #3
@@ -155,7 +154,29 @@
       \line { "   " }
 
       \line { "   " \italic{Припев: Добре дошъл ...} }
+    }
+
+    \hspace #4
+    \override #'(baseline-skip . 2.4)
+    \column {
+      \line { 2. Obviti v mrak do tozi chas, }
+      \line { "   " niy byahme robi na greha, }
+
+      \line { "   " no chuhme Tvoya krotak glas }
+
+      \line { "   " i lahna kam nas Toplina. }
       \line { "   " }
+
+      \line { "   " \italic{Refrain: Dobre doshal ...} }
+    } %column
+  } % markup
+
+  \pageBreak
+
+  \markup \fontsize #+2.5 {
+    \hspace #3
+    \override #'(baseline-skip . 2.4) % affects space between column lines
+    \column {
 
       \line { 3. Учителю Благословен, }
 
@@ -177,22 +198,14 @@
       \line { "   " със радост ний готови сме }
 
       \line { "   " да жертваме живота свой. }
+
+      \line { " "}
+      \line { " "}
     }
 
     \hspace #5
     \override #'(baseline-skip . 2.4)
     \column {
-      \line { 2. Obviti v mrak do tozi chas, }
-      \line { "   " niy byahme robi na greha, }
-
-      \line { "   " no chuhme Tvoya krotak glas }
-
-      \line { "   " i lahna kam nas Toplina. }
-      \line { "   " }
-
-      \line { "   " \italic{Refrain: Dobre doshal ...} }
-      \line { "   " }
-
       \line { 3. Uchitelyu Blagosloven, }
 
       \line { "   " Ti ni sartsata obnovi, }
@@ -215,8 +228,6 @@
       \line { "   " da zhertvame zhivota svoy. }
     } %column
   } % markup
-
-  \pageBreak
 
   % include foreign translation(s) of the song
   \include "lyrics_de/044_pozdrav_na_Uchitelja_lyrics_de.ly"
