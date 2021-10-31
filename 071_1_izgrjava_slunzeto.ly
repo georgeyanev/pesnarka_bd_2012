@@ -84,7 +84,7 @@
         % make tempo note smaller
         \concat {
           "Andantino " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"8" #0.8
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
           \normal-text { " = 69)" }
         }
       }
@@ -93,14 +93,13 @@
     
     \repeat volta 2 {  b4  |  d'2 d'4 | g'2 e'4 | d'2. | d'2 g'4 | b'2 a'4 \break | 
 
-  g'2. | a'2 b'4 | c''2 b'4 | d''2 c''4 | b'2 a'4 |  g'2 \break }
+    g'2. | a'2 b'4 | c''2 b'4 | d''2 c''4 | b'2 a'4^\markup { \concat {"              (" \fermata ")"}} |  g'2
+    \break }
   }
   
   \addlyrics { Из -- гря --
-  ва Слън -- це -- то, пра -- ща Свет -- ли -- на,
-  но -- си Ра -- дост за Жи -- во -- та тя.
-  
-  
+    ва Слън -- це -- то, пра -- ща Свет -- ли -- на,
+    но -- си Ра -- дост за Жи -- во -- та тя.
   }
   
   \addlyrics { Iz -- grya --
@@ -124,7 +123,20 @@
 
 } % score
 
-
+  \markup \halign #-5.9 \raise #2.8 \override #'(baseline-skip . 2) { 
+    \column  { 
+      \line  { 
+        \italic \right-align { "attacca „Сила жива, изворна“" }
+      }
+      \line  { 
+        \italic \right-align { "attacca „Sila zhiva, izvorna“" }
+      }
+      \line  {" "}
+      \line  {" "}
+      \line  {" "}
+      \line  {" "}
+    }
+  } 
 
   % include foreign translation(s) of the song
   \include "lyrics_de/071_1_izgryava_slunzeto_lyrics_de.ly"
