@@ -10,13 +10,13 @@
   \column {
     \line { " " }
 
-    \line {   "   "Fir-fyur-en Tao Bi Au-men, }
-    \line {   "   "Tao Bi Au -- men, Tao Bi}
-    \line {   "   " Au -- men. Fir -- fyur -- fen Tao Bi Au -- men.}
-    \line {   "   " Fir -- fyur -- fen Tao Bi Au -- men, Fir -- fyur --}
-    \line {   "   "fen Tao Bi Au -- men. }
-    \line { " " }
-    \line {   "   " Segne meine Seele den Herrn,}
+    \line {   "   "Fir-fyur-fen Tao Bi Au-men, }
+    \line {   "   "Tao Bi Au-men, Tao Bi Au-men.}
+    \line {   "   "Fir-fyur-fen Tao Bi Au-men, }
+    \line {   "   "Fir-fyur-fen Tao Bi Au-men, }
+    \line {   "   "Fir-fyur-fen Tao Bi Au-men. }
+    \line {   "   " }
+    \line {   "   "Segne meine Seele den Herrn,}
     \line {   "   "segne und vergiss nicht}
     \line {   "   "Segne, segne, segne und vergiß nicht.}
 
