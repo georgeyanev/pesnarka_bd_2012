@@ -95,7 +95,11 @@
 
  d''8 c'' b' a' |} \alternative { { \time 3/4 a'4 g'2 |} { \time 4/4  a'4 g'2 d'8. e'16 | } } \repeat volta 2 { \time 3/4 d'2 d'8. e'16 \break | 
  
-    d'4. g'8 g'8. a'16 | \time 4/4 } \alternative  { {b'4 g'2 d'8. e'16 | } { b'4 g'2 } }
+    d'4. g'8 g'8. a'16 | } 
+    \alternative  { 
+      {\time 4/4 b'4 g'2 d'8. e'16 | } 
+      { b'4 g'2 \bar "|."} 
+    }
 
 
   }
@@ -127,6 +131,14 @@
   \midi{}
 
 } % score
+
+  \markup { 
+    \column  { 
+      \line  {" "}
+      \line  {" "}
+    }
+  } 
+
 
 
 
