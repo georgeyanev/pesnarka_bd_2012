@@ -87,14 +87,14 @@
         % make tempo note smaller
         \concat {
           "Andante" \normal-text { " (" }
-          \teeny \general-align #Y #DOWN \note #"8" #0.8
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
           \normal-text { " = 60/63)" }
         }
       }
       \autoBeamOff
       c'8 g c' g c' g | b8 g b g b g \break |
 
-      \time 4/4  g8 g a ( b ) c'2 |g8 g a ( b ) c'2 | g8 g a ( b ) c'2 \break |
+      \time 4/4  g8 g a [( b )] c'2 |g8 g a [( b )] c'2 | g8 g a [( b )] c'2 \break |
 
       \repeat volta 2 {
         e'8 d' c' d' e' e' e' e' | g'8 f' e' d' e' d' c' b \break |
@@ -120,15 +120,15 @@
       \repeat volta 2 {
         e''8 d'' c'' b' d'' c'' b' a' | e''8 d'' c'' b' d'' c'' b' a' \break |
 
-        b'8 a' g' fis' g'2 | d'8 d' d' e' f'2 | g'8 f' e' d' c'2
+        b'8 a' g' fis' g'2 | d'8 d' d' e' f'!2 | g'8 f' e' d' c'2
       } \break | % 27
     }
 
     \addlyrics {
       Бла -- гост,
       бла -- гост, бла -- гост но -- си, но -- си, но --
-      си Свет -- ли -- на -- та, Свет -- ли -- на -- та,
-      Свет -- ли -- на -- та. Ра -- дост но -- си за
+      си "Свет-" -- ли -- на -- та, "Свет-" -- ли -- на -- та,
+      "Свет-" -- ли -- на -- та. Ра -- дост но -- си за
       Жи -- во -- та, Ра -- дост но -- си за Жи -- во
       -- та, Ра -- дост но -- си за Жи -- во -- та, за
       Жи -- во -- та тя, за Жи -- во -- та тя, за Жи
@@ -145,8 +145,8 @@
     }
     \addlyrics {
       Bla -- gost, bla
-      -- gost, bla -- gost no -- si, no -- si, no -- si svet -- li
-      -- na -- ta, svet -- li -- na -- ta, svet -- li -- na -- ta.
+      -- gost, bla -- gost no -- si, no -- si, no -- si Svet -- li
+      -- na -- ta, Svet -- li -- na -- ta, Svet -- li -- na -- ta.
       Ra -- dost no -- si za zhi -- vo -- ta, ra -- dost no -- si za zhi
       -- vo -- ta, ra -- dost no -- si za zhi -- vo -- ta, za zhi --
       vo -- ta tya, za zhi -- vo -- ta tya, za zhi -- vo -- ta tya.
@@ -176,14 +176,16 @@
 
     } % score
     
-      \markup \halign #-12.1 \raise #2.8 \override #'(baseline-skip . 2) {
+      \markup \halign #-14.8 \raise #2.8 \override #'(baseline-skip . 2) {
         \column  {
-          \line  \halign #-3.8 {
+          \line  \right-align {
             \bold  { "D. C. al Fine" }
           }
-          \line  {
-            \bold { con ripetizione }
-          }
+          \line {" "} 
+          \line {" "} 
+          \line {" "} 
+          \line {" "} 
+          \line {" "} 
         }
       }
 
