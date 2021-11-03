@@ -93,6 +93,6 @@
       %\pageBreak
 
       % include foreign translation(s) of the song
-      \include "lyrics_de/020_bratstvo_edinstvo_lyrics_de.ly"
+      \include "lyrics_de/137_a_bre_sinko_lyrics_de.ly"
 
     } % bookpart
