@@ -83,7 +83,7 @@
       \tempo \markup {
         % make tempo note smaller
         \concat {
-          "Andante" \normal-text { " (" }
+          "Allegretto" \normal-text { " (" }
           \teeny \general-align #Y #DOWN \note #"4" #0.8
           \normal-text { " = 104)" }
         }
@@ -93,7 +93,7 @@
  
 \repeat volta 2 {d'8 d' e' fis' |g'2 | a'8 g' fis' e' | d'2 }   \break | 
 
-\repeat volta 2 {  a'8 a' a'4 | b'8 b' b'4 | d''8 c'' b' a' |  g'2 }  \break |
+\repeat volta 2 {  a'8 a' a'4 | b'8 b' b'4 | d''8 c'' b' a' | \tempo "                 Fine" g'2 }  \break |
 
 
 \repeat volta 2 { d''4 g'' | fis''4 e'' | e''4 fis''8 e'' | d''2 \break | 
@@ -129,14 +129,17 @@
 
 } % score
 
-  \markup \halign #-5.1 \raise #2.8 \override #'(baseline-skip . 2) {
+  \markup \halign #-12.7 \raise #2.8 \override #'(baseline-skip . 2) {
         \column  {
-          \line  \halign #-3.8 {
+          \line \right-align {
             \bold  { "D. C. al Fine" }
           }
-          \line  {
-            \bold { con ripetizione }
+          \line \right-align {
+            \bold { "con ripetizioni" }
           }
+          \line {" "}
+          \line {" "}
+          \line {" "}
         }
       }
 
@@ -144,6 +147,6 @@
 
 
 % include foreign translation(s) of the song
-\include "lyrics_de/072_sladko_medeno_lyrics_de.ly"
+\include "lyrics_de/073_sladko_medeno_lyrics_de.ly"
 
 } % bookpart
