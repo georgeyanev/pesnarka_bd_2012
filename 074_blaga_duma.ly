@@ -1,34 +1,97 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \paper {
-  print-all-headers = ##t
-  print-page-number = ##f 
-  left-margin = 2\cm
-  right-margin = 2\cm
-  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-}
-
-\header {
-  tagline = ##f
+  #(set-paper-size "a5")
 }
 
 \bookpart {
-\score{
-  \layout { 
-    indent = 0.0\cm % remove first line indentation
-    ragged-last = ##t % do not spread last line to fill the whole space
-    \context {
-      \Score
-      \omit BarNumber %remove bar numbers
-    } % context
-  } % layout
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
 
-  \new Voice \absolute {
-   \clef treble
-  \key g \major
-  \time 5/4 \tempo "Moderato" 4 = 88
-  
-  \autoBeamOff
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change lyrics and titles font (affects notes also)
+    fonts =
+    #(make-pango-font-tree
+      "Times New Roman"
+      "DejaVu Sans"
+      "DejaVu Sans Mono"
+      (/ (* staff-height pt) 3.6))
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 12)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
+
+  \header {
+    tagline = ##f
+  }
+
+  \score{
+    \layout {
+      indent = 0.0\cm % remove first line indentation
+      %ragged-last = ##t % do not spread last line to fill the whole space
+      \context {
+        \Score
+        \omit BarNumber %remove bar numbers
+      } % context
+
+      \context {
+        % change staff size
+        \Staff
+        fontSize = #+0 % affects notes size only
+        \override StaffSymbol #'staff-space = #(magstep -3)
+        \override StaffSymbol #'thickness = #0.5
+        \override BarLine #'hair-thickness = #1
+        %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
+      }
+
+      \context {
+        % adjust space between staff and lyrics and between the two lyric lines
+        \Lyrics
+        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+        \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
+      }
+    } % layout
+
+    \new Voice \absolute {
+
+      \clef treble
+      \key g \major
+      \time 5/4
+      %\tempo "Moderato" 8 = 160
+      \tempo \markup {
+        % make tempo note smaller
+        \concat {
+          "Moderato" \normal-text { " (" }
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \normal-text { " = 88)" }
+        }
+      }
+      \autoBeamOff
   
  d'8. d'16 g'8 g' g' a' b'4 b' | d''8. c''16 c''8 b' c'' b' a'4 a' \break | 
  
@@ -56,36 +119,36 @@
     c''8. b'16 a'8 g' a' b' c''4 c'' | \time 6/4  d''8. c''16 b'8 a' b' a' g'4 g'2 \break |
   }
   }
-  
-  \addlyrics { Бла -- га ду
+
+    \addlyrics {
+     Бла -- га ду
   -- ма на у -- ста -- та, туй е клю -- чът на
-  сър -- ца -- та, на сър -- ца -- та, на сър --
+  сър -- ца -- та, на "сър-" -- ца -- та, на "сър-" --
   ца -- та, туй е клю -- чът на сър -- ца -- та.
   Ми -- ли пог -- лед на о -- чи -- те, туй е --
-  зик е на ду -- ши -- те, на ду -- ши -- те, на
-  ду -- ши -- те, туй е -- зик е на ду -- ши --
+  зик е на ду -- ши -- те, на "ду-" -- ши -- те, на
+  "ду-" -- ши -- те, туй е -- зик е на ду -- ши --
   те. Неж -- но чув -- ство про -- я -- ве -- но: 
   вся -- ко зло е раз -- то -- пе -- но, раз -- то
   -- пе -- но, раз -- то -- пе -- но, вся -- ко зло
   е раз -- то -- пе -- но. Сил -- на во -- ля у --
   вен -- ча -- ва вся -- ко де -- ло и про -- я --
   ва, вся -- ко де -- ло, вся -- ко де -- ло, вся
-  -- ко де -- ло и про -- я -- ва. Лю -- бов -- та
-  със тях съ -- граж -- да тоз Жи -- вот, що тук
+  -- ко де -- ло и про -- я -- ва. Лю -- "бов-" -- та
+  със тях "съ-" -- граж -- да тоз "Жи-" -- вот, що тук
   се раж -- да, раж -- да, раж -- да, раж -- да,
-  тоз Жи -- вот, що тук се раж -- да, тоз Жи --
-  вот, що тук се раж -- да, тоз Жи -- вот, що
-  тук се раж -- да, тоз Жи -- вот, що тук се раж
-  -- да, тоз Жи -- вот, що тук се раж -- да.
-  
-  }
-  
-  \addlyrics { Bla -- ga du -- ma
-  na u -- sta -- ta, tuy e klyu -- chat na sar -- tsa -- ta, na
-  sar -- tsa -- ta, na sar -- sta -- ta, tuy e klyu -- chat na sar
+  тоз "Жи-" -- вот, що тук се раж -- да, тоз "Жи-" --
+  вот, що тук се раж -- да, тоз "Жи-" -- вот, що
+  тук се раж -- да, тоз "Жи-" -- вот, що тук се раж
+  -- да, тоз "Жи-" -- вот, що тук се раж -- да.
+    }
+    \addlyrics {
+    Bla -- ga du -- ma
+  na u -- sta -- ta, tuy e "klyu-" -- chat na sar -- tsa -- ta, na
+  sar -- tsa -- ta, na "sar-" -- tsa -- ta, tuy e "klyu-" -- chat na sar
   -- tsa -- ta. Mi -- li pog -- led na o -- chi -- te, tuy e --
   zik e na du -- shi -- te, na du -- shi -- te, na du -- shi --
-  te, tuy e -- zik e na du -- shi -- te. Nezh -- no chuv -- stvo
+  te, tuy e -- zik e na du -- shi -- te. Nezh -- no "chuv-" -- stvo
   pro -- ya -- ve -- no vsya -- ko zlo e raz -- to -- pe -- no, raz
   -- to -- pe -- no, raz -- to -- pe -- no, vsya -- ko zlo e raz
   -- to -- pe -- no. Sil -- na vo -- lya u -- ven -- cha -- va vsya
@@ -97,12 +160,35 @@
   da, toz Zhi -- vot, shto tuk se razh -- da, toz Zhi -- vot,
   shto tuk se razh -- da, toz Zhi -- vot, shto tuk se razh --
   da.}
-  
-  \header {
-    title = "Блага дума / Blaga duma"
-  }
-  
-  \midi{}
 
-} % score
-} % bookpart
+      \header {
+        title = \markup \column \normal-text \fontsize #2.5 {
+          \center-align
+          \line {Блага дума}
+          \vspace #-0.6
+          \center-align
+          \line \fontsize #-3 { Blaga duma }
+          \vspace #-0.8
+          \center-align
+          \line \fontsize #-3 { " " }
+        }
+      }
+
+      \midi{}
+
+    } % score
+    
+    \markup {
+      \column  {
+        \line { " " }
+        \line { " " }
+      }
+    }
+
+
+    
+
+    % include foreign translation(s) of the song
+    \include "lyrics_de/074_blaga_duma_lyrics_de.ly"
+
+  } % bookpart
