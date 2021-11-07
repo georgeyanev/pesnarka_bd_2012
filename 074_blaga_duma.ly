@@ -86,7 +86,7 @@
       \tempo \markup {
         % make tempo note smaller
         \concat {
-          "Andante" \normal-text { " (" }
+          "Moderato" \normal-text { " (" }
           \teeny \general-align #Y #DOWN \note #"4" #0.8
           \normal-text { " = 88)" }
         }
@@ -123,32 +123,32 @@
     \addlyrics {
      Бла -- га ду
   -- ма на у -- ста -- та, туй е клю -- чът на
-  сър -- ца -- та, на сър -- ца -- та, на сър --
+  сър -- ца -- та, на "сър-" -- ца -- та, на "сър-" --
   ца -- та, туй е клю -- чът на сър -- ца -- та.
   Ми -- ли пог -- лед на о -- чи -- те, туй е --
-  зик е на ду -- ши -- те, на ду -- ши -- те, на
-  ду -- ши -- те, туй е -- зик е на ду -- ши --
+  зик е на ду -- ши -- те, на "ду-" -- ши -- те, на
+  "ду-" -- ши -- те, туй е -- зик е на ду -- ши --
   те. Неж -- но чув -- ство про -- я -- ве -- но: 
   вся -- ко зло е раз -- то -- пе -- но, раз -- то
   -- пе -- но, раз -- то -- пе -- но, вся -- ко зло
   е раз -- то -- пе -- но. Сил -- на во -- ля у --
   вен -- ча -- ва вся -- ко де -- ло и про -- я --
   ва, вся -- ко де -- ло, вся -- ко де -- ло, вся
-  -- ко де -- ло и про -- я -- ва. Лю -- бов -- та
-  със тях съ -- граж -- да тоз Жи -- вот, що тук
+  -- ко де -- ло и про -- я -- ва. Лю -- "бов-" -- та
+  със тях "съ-" -- граж -- да тоз "Жи-" -- вот, що тук
   се раж -- да, раж -- да, раж -- да, раж -- да,
-  тоз Жи -- вот, що тук се раж -- да, тоз Жи --
-  вот, що тук се раж -- да, тоз Жи -- вот, що
-  тук се раж -- да, тоз Жи -- вот, що тук се раж
-  -- да, тоз Жи -- вот, що тук се раж -- да.
+  тоз "Жи-" -- вот, що тук се раж -- да, тоз "Жи-" --
+  вот, що тук се раж -- да, тоз "Жи-" -- вот, що
+  тук се раж -- да, тоз "Жи-" -- вот, що тук се раж
+  -- да, тоз "Жи-" -- вот, що тук се раж -- да.
     }
     \addlyrics {
     Bla -- ga du -- ma
-  na u -- sta -- ta, tuy e klyu -- chat na sar -- tsa -- ta, na
-  sar -- tsa -- ta, na sar -- sta -- ta, tuy e klyu -- chat na sar
+  na u -- sta -- ta, tuy e "klyu-" -- chat na sar -- tsa -- ta, na
+  sar -- tsa -- ta, na "sar-" -- tsa -- ta, tuy e "klyu-" -- chat na sar
   -- tsa -- ta. Mi -- li pog -- led na o -- chi -- te, tuy e --
   zik e na du -- shi -- te, na du -- shi -- te, na du -- shi --
-  te, tuy e -- zik e na du -- shi -- te. Nezh -- no chuv -- stvo
+  te, tuy e -- zik e na du -- shi -- te. Nezh -- no "chuv-" -- stvo
   pro -- ya -- ve -- no vsya -- ko zlo e raz -- to -- pe -- no, raz
   -- to -- pe -- no, raz -- to -- pe -- no, vsya -- ko zlo e raz
   -- to -- pe -- no. Sil -- na vo -- lya u -- ven -- cha -- va vsya
@@ -167,7 +167,7 @@
           \line {Блага дума}
           \vspace #-0.6
           \center-align
-          \line \fontsize #-3 { Блага дума }
+          \line \fontsize #-3 { Blaga duma }
           \vspace #-0.8
           \center-align
           \line \fontsize #-3 { " " }
@@ -178,16 +178,12 @@
 
     } % score
     
-      \markup \halign #-12.1 \raise #2.8 \override #'(baseline-skip . 2) {
-        \column  {
-          \line  \halign #-3.8 {
-            \bold  { "D. C. al Fine" }
-          }
-          \line  {
-            \bold { con ripetizione }
-          }
-        }
+    \markup {
+      \column  {
+        \line { " " }
+        \line { " " }
       }
+    }
 
 
     
