@@ -28,7 +28,7 @@
     right-margin = 1.5\cm
     top-margin = 1.6\cm
     bottom-margin = 1.2\cm
-    %ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
 
     % change lyrics and titles font (affects notes also)
     fonts =
@@ -53,7 +53,7 @@
   \score{
     \layout {
       indent = 0.0\cm % remove first line indentation
-      ragged-last = ##t % do not spread last line to fill the whole space
+      %ragged-last = ##t % do not spread last line to fill the whole space
       \context {
         \Score
         \omit BarNumber %remove bar numbers
