@@ -19,6 +19,8 @@
 
  \line { " "  dazu auch die Sterne. Und Gott setzte sie an}
  \line { " " die Feste des Himmels, und Gott sah, dass es gut war.}
+ 
+  \line { " " Da ward aus Abend und Morgen der vierte Tag.}
 
   }
 }
