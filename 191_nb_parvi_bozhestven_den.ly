@@ -172,7 +172,7 @@
             \center-align
             \line {Новото Битие – Създаването на новия Адам}
             \vspace #-0.6
-          
+
             \center-align
             \line \fontsize #-3 {Novoto Bitie – Sazdavaneto na novia Adam }
             \vspace #1.2
@@ -191,6 +191,13 @@
 
       } % score
 
+      \markup \halign #-27.9 \raise #2.8 \override #'(baseline-skip . 2) {
+        \column  {
+          \line  {
+            \italic \right-align { "attacca" }
+          }
+        }
+      }
 
 
       % include foreign translation(s) of the song

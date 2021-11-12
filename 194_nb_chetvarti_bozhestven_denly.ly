@@ -187,8 +187,16 @@
     \midi{}
 
   } % score
+  
+    \markup \halign #-27.9 \raise #2.8 \override #'(baseline-skip . 2) { 
+    \column  { 
+      \line  { 
+        \italic \right-align { "attacca" }
+      }
+    }
+  } 
 
-
+  \pageBreak
 
   % include foreign translation(s) of the song
   \include "lyrics_de/194_nb_chetvarti_bozhestven_den_lyrics_de.ly"

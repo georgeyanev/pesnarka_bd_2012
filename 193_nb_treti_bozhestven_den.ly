@@ -154,7 +154,7 @@
   \time 3/4  | % 43
   b'2  a'4 | % 44
   \time 6/4  | % 44
-   e'4 ^\markup{ \bold {rall.} }  e'4 e'1 _ "attacca"
+   e'4 ^\markup{ \bold {rall.} }  e'4 e'1
   \bar "|."
     }
 
@@ -208,6 +208,13 @@
 
   } % score
 
+    \markup \halign #-27.9 \raise #2.8 \override #'(baseline-skip . 2) { 
+    \column  { 
+      \line  { 
+        \italic \right-align { "attacca" }
+      }
+    }
+  } 
 
 
   % include foreign translation(s) of the song
