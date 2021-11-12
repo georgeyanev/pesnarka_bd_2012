@@ -319,7 +319,13 @@
 
   } % score
 
-
+   \markup \halign #-27.9 \raise #2.8 \override #'(baseline-skip . 2) {
+        \column  {
+          \line  {
+            \italic \right-align { "attacca" }
+          }
+        }
+      }
 
   % include foreign translation(s) of the song
   \include "lyrics_de/196_nb_shesti_bozhestven_den_lyrics_de.ly"

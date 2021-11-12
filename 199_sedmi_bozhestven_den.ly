@@ -192,6 +192,14 @@
         \midi{}
 
       } % score
+      
+         \markup \halign #-27.9 \raise #2.8 \override #'(baseline-skip . 2) {
+        \column  {
+          \line  {
+            \italic \right-align { "attacca" }
+          }
+        }
+      }
 
 
       % include foreign translation(s) of the song
