@@ -170,6 +170,13 @@
         \header {
           title = \markup \column \normal-text \fontsize #2.5 {
             \center-align
+            \line {Новото Битие – Създаването на новия Адам}
+            \vspace #-0.6
+          
+            \center-align
+            \line \fontsize #-3 {Novoto Bitie – Sazdavaneto na novia Adam }
+            \vspace #1.2
+            \center-align
             \line { Първи Божествен ден }
             \vspace #-0.6
             \center-align
@@ -186,7 +193,7 @@
 
 
 
-          % include foreign translation(s) of the song
-          \include "lyrics_de/191_nb_parvi_bozhestven_den_lyrics_de.ly"
+      % include foreign translation(s) of the song
+      \include "lyrics_de/191_nb_parvi_bozhestven_den_lyrics_de.ly"
 
-        } % bookpart
+    } % bookpart
