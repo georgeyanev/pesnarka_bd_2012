@@ -1,0 +1,226 @@
+
+\version "2.20.0"
+
+\paper {
+  #(set-paper-size "a5")
+}
+
+\bookpart {
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change lyrics and titles font (affects notes also)
+    fonts =
+    #(make-pango-font-tree
+      "Times New Roman"
+      "DejaVu Sans"
+      "DejaVu Sans Mono"
+      (/ (* staff-height pt) 3.6))
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 12)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
+
+  \header {
+    tagline = ##f
+  }
+
+  \score{
+    \layout {
+      indent = 0.0\cm % remove first line indentation
+      %ragged-last = ##t % do not spread last line to fill the whole space
+      \context {
+        \Score
+        \omit BarNumber %remove bar numbers
+      } % context
+
+      \context {
+        % change staff size
+        \Staff
+        fontSize = #+0 % affects notes size only
+        \override StaffSymbol #'staff-space = #(magstep -3)
+        \override StaffSymbol #'thickness = #0.5
+        \override BarLine #'hair-thickness = #1
+        %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
+      }
+
+      \context {
+        % adjust space between staff and lyrics and between the two lyric lines
+        \Lyrics
+        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+        \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
+      }
+    } % layout
+
+    \new Voice \absolute {
+      \clef treble
+      \key g \major
+      \time 3/4
+      \tempo \markup {
+        % make tempo note smaller
+        \concat {
+          "Moderato " \normal-text { "(" }
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \normal-text { " = 69)" }
+        }
+      }
+      \autoBeamOff
+      d'4 (  ^\p  ^\<  e'4. )  d'8  ^\! | % 2
+      d'2.  ^\> | % 3
+      g'2  ^\!  fis'4 | % 4
+      fis'2  e'4 | % 5
+      e'2 (  ^\<  fis'4 )  ^\! | % 6
+      d'2.  ^\> | % 7
+      c'2  ^\!  ^\mp  b4 \break | % 8
+      c'2  e'4 | % 9
+      e'2. |
+      d'2. | % 11
+      r8  d'8  ^\mf  b4  c'4 | % 12
+      d'2 r4 | % 13
+      b'2  a'4 | % 14
+      g'4 (  fis'4 )  e'4 \break | % 15
+      d'2 r8  d'8  ^\p | % 16
+      b'2  a'4 | % 17
+      g'2 r4 | % 18
+      \time 4/4  | % 18
+      g'4 ^\markup{ \italic {sostenuto} }  fis'4  e'4
+      fis'8  e'8 | % 19
+      e'8 ( [  fis'8 ) ]  d'2. \break |
+
+      b'2  ^\markup{ \bold {a tempo} }  a'4  g'4 | % 21
+      \once \omit TupletBracket
+      \times 2/3  {
+        fis'8 ( [  ^\<  g'8  a'8 ) ]
+      }
+      ^\!  g'2  ^\>  d'4  ^\! | % 22
+      e'4  c'4  c'4  b8. ( [  c'16 ) ]
+      | % 23
+      \time 3/4  | % 23
+      d'2 r8  d'8  ^\p \break | % 24
+      f'2. | % 25
+      es'2  d'8.  ^\<  d'16 | % 26
+      \time 4/4  | % 26
+      g'4  ^\!  f'4  ^\>  es'4  es'8.  ^\! ^\<
+      f'16 | % 27
+      d'2  ^\!  ^\> r4  ^\!  d'4  ^\mf \break | % 28
+      b'4  a'4  g'4 \once \omit TupletBracket
+      \times 2/3  {
+        fis'8 ( [  g'8  a'8 ) ]
+      }
+      | % 29
+      g'2. r4 \repeat volta 2 {
+
+        \time 3/4  |
+        d'4 (  ^\p  ^\<  b'4. )  a'8  ^\! | % 31
+        g'2. | % 32
+        g'2  ^\>  d'4 \break | % 33
+        fis'2  e'4 | % 34
+        e'2 (  fis'4 ) | % 35
+        d'2.  ^\! | % 36
+        c'2  ^\mp  ^\<  b4 | % 37
+        c'2  e'4  ^\! | % 38
+        e'2.  ^\> \break | % 39
+        d'2. |
+        d'2  ^\!  ^\<  d'4 | % 41
+        e'2  ^\! ^ "cresc."  d'4 | % 42
+        \once \omit TupletBracket
+        \times 2/3  {
+          c'8 ( [  b8 ^\markup{ \italic {ten.} }
+          c'8 ) ]
+        }
+        d'2 | % 43
+        e'4  e'4  fis'4  ^\< | % 44
+        g'4  a'4  b'4  ^\!  | % 45
+        d''2 ( ^\fermata  ^\mf  c''4 )  ^\> | % 46
+        b'2. | % 47
+        a'4 --  g'4 --  d'4 -- | % 48
+        fis'4 (  e'4 )  c'4  ^\! | % 49
+        a2 (  b4 ) |
+        g2.
+      }
+    }
+
+    \addlyrics {
+      Гос -- по -- ди, Ти жи -- ве --
+      еш в~ме -- не, Ти жи -- ве --
+      еш в~ме -- не. Ка -- жи ми ти,
+      свет -- ли Бо -- жи лъч, ка --
+      жи ми ти бла -- го -- то на Жи --
+      во -- та, свет -- ли -- я прав
+      път на чис -- ти -- те ду
+      -- ши, из -- ми -- ти във во --
+      ди -- те на Лю -- бов -- та, на
+      чис -- та -- та Лю --  бов.
+      Гос -- по -- ди, Ти жи -- ве --
+      еш в~ме -- не, Ти жи -- ве --
+      еш в~ме -- не. Не -- ка Тво -- ят
+      благ   глас и ми -- лост --
+      та Ти, о, Бо -- же, се из -- я
+      -- вят  чрез ме -- не.}
+      \addlyrics {
+        Gos -- po -- di, Ti zhi -- ve --
+        esh v~me -- ne, Ti zhi -- ve --
+        esh v~me -- ne. Ka -- zhi mi ti,
+        svet -- li Bo -- zhi lach, ka --
+        zhi mi ti bla -- go -- to na Zhi --
+        vo -- ta, svet -- li -- ya prav
+        pat na chis -- ti -- te du
+        -- shi, iz -- mi -- ti vav vo --
+        di -- te na Lyu -- bov -- ta, na
+        chis -- ta -- ta Lyu --  bov.
+        Gos -- po -- di, Ti zhi -- ve --
+        esh v~me -- ne, Ti zhi -- ve --
+        esh v~me -- ne. Ne -- ka Tvo -- yat
+        blag   glas i mi -- lost --
+        ta Ti, o, Bo -- zhe, se iz -- ya
+        -- vyat  chrez me -- ne.}
+
+        \header {
+          title = \markup \column \normal-text \fontsize #2.5 {
+            \center-align
+            \line { Кажи ми светлий божи лъч II  }
+            \vspace #-0.6
+            \center-align
+            \line \fontsize #-3 { Kazhi mi svetliy bozhi lach II }
+            \vspace #-0.8
+            \center-align
+            \line \fontsize #-3 { " " }
+          }
+        }
+
+        \midi{}
+
+      } % score
+
+
+
+      % include foreign translation(s) of the song
+      \include "lyrics_de/211_kazhi_mi_svetlii_bozhi_lach.ly"
+
+    } % bookpart
