@@ -101,7 +101,8 @@
 
       \key g \minor \repeat volta 2 { d'8 d'' d''8. | d'8 c'' c''8. | d'8 bes' bes'8. | a'8 g' g' g'16 | g'4 ~ g'8. } \break |
 
-      \repeat volta 2 { a'8 a' a' c''16 | bes'4 ~ bes'8. | a'8 g' g' g'16 |} \alternative { {  g'4 ( ~ g'8 f'16 )  | } { g'4 ~ g'8. | } }
+      \repeat volta 2 { a'8 a' a' c''16 | bes'4 ~ bes'8. | a'8 g' g' g'16 |} 
+      \alternative { {  g'4 ( ~ g'8 f'16 )  | } { g'4~\tempo "   Fine" g'8. | \bar "|."} }
 
 
     }
@@ -113,7 +114,7 @@
       -- ви -- ра. Из -- ви -- ра, из -- ви -- ра, де
       во -- да из -- ви -- ра. Ка -- жи ми, ка -- жи
       ми, ка -- жи ми слад -- ки ду -- ми две. Твой --
-      те ду -- ми две,  __ слад -- ки ду -- ми две.
+      те ду -- ми две, слад -- ки ду -- ми две.
       две.}
 
       \addlyrics {
@@ -141,10 +142,23 @@
 
       } % score
 
- 
+\markup \halign #-5.5 \raise #2.8 \override #'(baseline-skip . 2) { 
+    \column  { 
+      \line  { 
+        \italic \right-align { "attacca „Скръбта си ти кажи“" }
+      }
+      \line  { 
+        \italic \right-align { "attacca „Skrabta si ti kazhi“" }
+      }
+      \line  {" "}
+      \line  {" "}
+      \line  {" "}
+      \line  {" "}
+    }
+} 
 
 
-      % include foreign translation(s) of the song
-      \include "lyrics_de/076_2_sila_zhiva_lyrics_de.ly"
+% include foreign translation(s) of the song
+\include "lyrics_de/076_2_sila_zhiva_lyrics_de.ly"
 
-    } % bookpart
+} % bookpart
