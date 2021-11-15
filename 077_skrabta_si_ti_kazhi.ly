@@ -108,43 +108,44 @@
     }
 
     \addlyrics {
-      Скръб -- та си ти ка  -- жи,
+      Скръб -- та си ти "ка-"  -- жи,
       сър -- це си ти от -- во -- ри
-      на слън -- че -- ви лъ -- чи,
-      на слън -- че -- ви лъ -- чи,
-      на слън -- че -- ви лъ -- чи,
-      на слън -- че -- ви лъ -- чи.
+      на слън -- че -- ви "лъ-" -- чи,
+      на слън -- че -- ви "лъ-" -- чи,
+      на слън -- че -- ви "лъ-" -- чи,
+      на слън -- че -- ви "лъ-" -- чи.
       Лъ -- чи от Бо -- га
-      ра -- дост ще ти до -- не -- сат,
-      и вду -- ша ти ра -- дост ще вне -- сат,
-      и вду -- ша ти рад -- ост ще вне -- сат,
-      и вду -- ша ти рад -- ост ще вне -- сат,
-      и вду -- ша ти рад -- ост ще вне -- сат,
-      и вду -- ша ти рад -- ост ще вне -- сат,
-      ра -- дост ще вне -- сат, рад -- ост ще вне -- сат,
-      ра -- дост ще вне -- сат, рад -- ост ще вне -- сат,
-      ра -- дост ще вне -- сат, рад -- ост ще вне -- сат,
-      ра -- дост ще вне -- сат, рад -- ост ще вне -- сат,
-      и вду -- ша ти ра -- дост ще вне -- сат.}
+      бла -- гост ще ти до -- "не-" -- сат,
+      и в~ду -- "-ша" ти Ра -- дост ще "вне-" -- сат,
+      и в~ду -- "-ша" ти Ра -- дост ще "вне-" -- сат,
+      и в~ду -- "-ша" ти Ра -- дост ще "вне-" -- сат,
+      и в~ду -- "-ша" ти Ра -- дост ще "вне-" -- сат,
+      и в~ду -- "-ша" ти Ра -- дост ще "вне-" -- сат,
+      Ра -- дост ще "вне-" -- сат, Ра -- дост ще "вне-" -- сат,
+      Ра -- дост ще "вне-" -- сат, Ра -- дост ще "вне-" -- сат,
+      Ра -- дост ще "вне-" -- сат, Ра -- дост ще "вне-" -- сат,
+      Ра -- дост ще "вне-" -- сат, Ра -- дост ще "вне-" -- сат,
+      и в~ду -- "-ша" ти Ра -- дост ще "вне-" -- сат.}
+
     \addlyrics {
-      Skrab -- ta si ti ka  -- zhi,
+      Skrab -- ta si ti "ka-"  -- zhi,
       sar -- tse si ti ot -- vo -- ri
-      na slan -- che -- vi la -- chi,
-      na slan -- che -- vi la -- chi,
-      na slan -- che -- vi la -- chi,
-      na slan -- che -- vi la -- chi.
+      na slan -- che -- vi "la-" -- chi,
+      na slan -- che -- vi "la-" -- chi,
+      na slan -- che -- vi "la-" -- chi,
+      na slan -- che -- vi "la-" -- chi.
       La -- chi ot Bo -- ga
-      ra -- dost shte ti do -- ne -- sat,
-      i v du -- sha ti ra -- dost shte vne -- sat,
-      i v du -- sha ti rad -- ost shte vne -- sat,
-      i v du -- sha ti rad -- ost shte vne -- sat,
-      i v du -- sha ti rad -- ost shte vne -- sat,
-      i v du -- sha ti rad -- ost shte vne -- sat,
-      ra -- dost shte vne -- sat, rad -- ost shte vne -- sat,
-      ra -- dost shte vne -- sat, rad -- ost shte vne -- sat,
-      ra -- dost shte vne -- sat, rad -- ost shte vne -- sat,
-      ra -- dost shte vne -- sat, rad -- ost shte vne -- sat,
-      i v du -- sha ti ra -- dost shte vne -- sat.}
+      bla -- gost shte ti do -- "ne-" -- sat,
+      i v~du -- "-sha" ti Ra -- dost shte "vne-" -- sat,
+      i v~du -- "-sha" ti Ra -- dost shte "vne-" -- sat,
+      i v~du -- "-sha" ti Ra -- dost shte "vne-" -- sat,
+      i v~du -- "-sha" ti Ra -- dost shte "vne-" -- sat,
+      i v~du -- "-sha" ti Ra -- dost shte "vne-" -- sat,
+      Ra -- dost shte "vne-" -- sat, Ra -- dost shte "vne-" -- sat,
+      Ra -- dost shte "vne-" -- sat, Ra -- dost shte "vne-" -- sat,
+      Ra -- dost shte "vne-" -- sat, Ra -- dost shte "vne-" -- sat,
+      Ra -- dost shte "vne-" -- sat, Ra -- dost shte "vne-" -- sat,
+      i v~du -- "-sha" ti Ra -- dost shte "vne-" -- sat.}
 
       \header {
         title = \markup \column \normal-text \fontsize #2.5 {
@@ -152,7 +153,7 @@
           \line { Скръбта си ти кажи}
           \vspace #-0.6
           \center-align
-          \line \fontsize #-3 {  Skrabta si ti kazhi, }
+          \line \fontsize #-3 {  Skrabta si ti kazhi }
           \vspace #-0.8
           \center-align
           \line \fontsize #-3 { " " }
@@ -164,9 +165,25 @@
     } % score
 
 
+  \markup \halign #-3.03 \raise #2.8 \override #'(baseline-skip . 2) { 
+    \column  { 
+      \line \right-align { 
+        \concat {
+          \bold { "D.C. al Fine" }  
+          \italic { " „Сила Жива/Sila zhiva“ " }  
+          \bold { "con ripetizioni" }  
+        }
+%        \italic \bold{ "attacca „Сила Жива“ con ripetizioni" }
+      }
+      \line  {" "}
+      \line  {" "}
+      \line  {" "}
+      \line  {" "}
+      \line  {" "}
+    }
+  } 
 
+  % include foreign translation(s) of the song
+  \include "lyrics_de/077_skrabta_si_ti_kazhi_lyrics_de.ly"
 
-    % include foreign translation(s) of the song
-    \include "lyrics_de/077_skrabta_si_ti_kazhi_lyrics_de.ly"
-
-  } % bookpart
+} % bookpart
