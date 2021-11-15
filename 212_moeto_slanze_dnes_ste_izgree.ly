@@ -84,9 +84,9 @@
       \tempo \markup {
         % make tempo note smaller
         \concat {
-          "Maestoso" \normal-text { "(" }
+          "Moderato" \normal-text { " (" }
           \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 132)" }
+          \normal-text { " = 80)" }
         }
       }
       \autoBeamOff
@@ -138,68 +138,68 @@
       [f''16] )  e''8 ( ^\>  d''16 )  | % 32
       cis''8.   bes'8 ( ~   bes'8 [  a'16
       ) ] ^\! \break | % 33
-      bes'8 (    a'16   g'8 ~  g'8. )  | % 34
+      bes'8 (    [a'16]   g'8 ~  g'8. )  | % 34
       g'8. ^\<  a'8  bes'8. | % 35
       cis''8. \acciaccatura {  e''8 ( }  d''8 )
       ~  d''8. | % 36
       g''8 ( ^\fermata  _\!  f''16 )   e''8
       d''8.  | % 37
-      cis''8. ( [  bes'8 ~  bes'8. ) ] | % 38
+      cis''8. (   bes'8 ~  bes'8. )  | % 38
       a'16 ( [  bes'16  cis''16 ) ]
       d''16 ( [  cis''16 ) ]  bes'16 ( [ ^\>  a'16
       g'16 ) ] | % 39
       a'8.  bes'8 ( ~  bes'8 [  g'16 ) ] |
 
-      a'8. ~ [  a'8 ~  a'8. ] ^\! \bar "||"
+      a'8. ~   a'8 ~  a'8.  ^\! \bar "||"
       \break | % 41
       \key bes \major | % 41
       a'8. ^\p ^\markup{ \bold {Allegro} }  es''8
       d''8. | % 42
-      cis''8.  d''8 ~ [  d''8. ] | % 43
+      cis''8.  d''8 ~   d''8.  | % 43
       cis''8.  bes'8  a'8. | % 44
-      bes'8 ( [  a'16 )  g'8 ~  g'8. ] \break
+      bes'8 ( [  a'16 )  ] g'8 ~  g'8.  \break
       | % 45
-      g'8 ( [  a'16 )  bes'8 ~  bes'8. ] | % 46
+      g'8 ( [  a'16 )  ] bes'8 ~  bes'8.  | % 46
       d''8 ( [  cis''16 ) ]  bes'16 ( [
-      a'16  g'8. ) ] | % 47
-      a'8.  d''8 ~ [  d''8. ] \bar "||"
+      a'16 ] g'8. )  | % 47
+      a'8.  d''8 ~   d''8.  \bar "||"
       \key f \major | % 48
       g''8. ( ^\fermata  a''16 [  g''16 )
-      f''8. ~ ] \break | % 49
-      f''8. ~ [  f''8 ~  f''8. ] |
-      e''8 ( [  d''16 )  d''8 ~  d''8.
-      ] | % 51
-      g''8 ( [  f''16 )  e''8 (  d''8.
-      ) ] | % 52
-      cis''8. [  cis''8 (  bes'8. ) ] \break | % 53
+      ] f''8. ~ \break | % 49
+      f''8. ~   f''8 ~  f''8.  |
+      e''8 (   d''16 )  d''8 ~  d''8.
+       | % 51
+      g''8 (  f''16 )  e''8 (  d''8.
+      )  | % 52
+      cis''8.   cis''8 (  bes'8. )  \break | % 53
       a'8.  g'8 ~ [  g'8. ] | % 54
-      a'8. ~ [  a'8 ~  a'8. ] | % 55
+      a'8. ~   a'8 ~  a'8.  | % 55
       R2 \bar "||"
       \time 9/16  | % 56
-      d'8 _\<  d'8  f'8  a'8. \break | % 57
-      d''8 ~ [ _\!  d''8  d''8 ~  d''8.
-      ] | % 58
+      d'8 ^\<  d'8  f'8  a'8. \break | % 57
+      d''8 ~  ^\!  d''8  d''8 ~  d''8.
+       | % 58
       \time 8/16  | % 58
       g''8.  g''16 ( [  a''16 ) ]
       bes''32 ( ^\fermata [  a''32  g''32  f''32
       e''32  d''32 ) ] | % 59
       e''8. \grace {  f''16 ( [  e''16 ] }
       d''8 ) ~  d''8. \break |
-      cis''8.  bes'8 ( ~ [  bes'8. ] _\> | % 61
+      cis''8.  bes'8 ( ~   bes'8.  ^\> | % 61
       a'16 [  bes'16  cis''16 ]  d''16
-      [  cis''16 ]  bes'16 [  a'16 )  g'16 ]
+      [  cis''16 ]  bes'16 [  a'16 )  ] g'16 
       | % 62
-      bes'8.  a'8 ~ [  a'8. ] \break | % 63
-      a'8. _\!  a'8  f''8. ~ | % 64
-      f''8. ~ [  f''8  a''8. ^\fermata ] | % 65
-      g''8. ( [  f''8 ) ]  e''8. | % 66
-      d''8. ( [  e''8 ]  f''16 [  e''16
+      bes'8.  a'8 ~   a'8. \break | % 63
+      a'8. ^\!  a'8  f''8. ~ | % 64
+      f''8. ~   f''8  a''8. ^\fermata  | % 65
+      g''8. (   f''8 )   e''8. | % 66
+      d''8. (   e''8   f''16 [  e''16
       d''16 ) ] \break | % 67
-      cis''8. ~ [  cis''8 ] r8. | % 68
-      cis''8. ( [  d''8 ) ]  e''8. | % 69
-      a''8. ~ [  a''8 ~  a''8. ] |
+      cis''8. ~   cis''8  r8. | % 68
+      cis''8. (   d''8 )   e''8. | % 69
+      a''8. ~  a''8 ~  a''8. |
 
-      d''8. ~ [  d''8 ~  d''8. ] \bar "|."
+      d''8. ~  d''8 ~  d''8.  \bar "|."
     }
 
     \addlyrics {
@@ -217,7 +217,7 @@
       вне -- се.   То -- га -- ва, ма
       -- мо,  аз  ще  се  про
       -- я --  вя,  __   го --
-      тов ще бъ --   да  про
+      тов ще бъ -- да да  про
       -- я -- вя  __  До --  бро
       -- то   във све --
       та.  __  Ще мис -- ля до --
@@ -251,7 +251,7 @@
       vne -- se.   To -- ga -- va, ma
       -- mo,  az  shte  se  pro
       -- ya --  vya,  __   go --
-      tov shte ba --   da  pro
+      tov shte ba --   da  da pro
       -- ya -- vya  __  Do --  bro
       -- to   vav sve --
       ta.  __  Shte mis -- lya do --
@@ -273,10 +273,10 @@
     \header {
       title = \markup \column \normal-text \fontsize #2.5 {
         \center-align
-        \line { Заглавие }
+        \line { Моето слънце днес ще изгрее }
         \vspace #-0.6
         \center-align
-        \line \fontsize #-3 { Zaglavie }
+        \line \fontsize #-3 { Moeto slantse dnes ste izgree }
         \vspace #-0.8
         \center-align
         \line \fontsize #-3 { " " }
