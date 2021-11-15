@@ -142,13 +142,10 @@
 
       } % score
 
-\markup \halign #-5.5 \raise #2.8 \override #'(baseline-skip . 2) { 
+\markup \halign #-3.21 \raise #2.8 \override #'(baseline-skip . 2) { 
     \column  { 
       \line  { 
-        \italic \right-align { "attacca „Скръбта си ти кажи“" }
-      }
-      \line  { 
-        \italic \right-align { "attacca „Skrabta si ti kazhi“" }
+        \italic \right-align { "attacca „Скръбта си ти кажи/Skrabta si ti kazhi“" }
       }
       \line  {" "}
       \line  {" "}
