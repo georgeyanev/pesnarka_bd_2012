@@ -139,6 +139,7 @@
         \time 3/4  d'8 d'4 d'4 d'8 | % 27
         g8 a8 bes8 a8 c'8 bes8 |  % 28
       }
+
       \alternative {
         {
           \acciaccatura { bes16 ( c'16 } bes8 ) a8 a8 g16 a16 bes8 a8
@@ -148,8 +149,6 @@
         {
           \acciaccatura { bes16 ( c'16 } bes8 ) a8 g16 a16 bes16 a16 g8 g8 | % 31
           g8 g4 g8 g'4 \bar "|."
-
-
         }
       }
 
@@ -159,31 +158,87 @@
     }
 
     \addlyrics {
+      Ду -- хо -- ве на Свет -- ли -- на -- та, стъп -- ват ле -- ко вти -- ши -- на -- та.
 
+      Сли --  зат те в ре -- ди -- ци бе -- ли от ви -- со -- ки -- те пре -- де -- ли.
+
+      Ид  -- ват на Зе -- мя -- та, на хо -- ра -- та сър -- ца -- та.
+
+      И е -- то раж -- дат се и -- де -- и, свет --  ли, но -- ви,
+
+      как да смък -- нем теж -- ки -- те о -- ко -- ви на
+
+      враж -- ди без -- смис -- ле -- ни, ве -- ков -- ни - в мир да за -- жи -- ве -- ем.
+
+
+
+      И все -- ки да ра -- бо -- ти с ра -- дост на Бо -- жест -- ве -- на -- та ни -- ва.
+
+      Ще ца -- ру -- ва веч -- на мла -- до -- ст, ня -- ма ни -- кой да у -- ми -- ра.
+
+      В мир, в Лю -- бов ще за -- жи -- ве -- ем
+
+      всич -- ки друж -- но и ще про -- сла -- вим Бо -- га с пе -- сен.
+
+
+
+      Но -- ви пе -- сни ще за -- пе -- ем - за хар -- мо -- ния все -- мир -- на.
+
+      Нов жи -- вот ще за -- жи -- ве -- ем... Тя -- ло -- то ни ще про -- свет -- не
+
+      и на -- края ще по -- лит -- нем във е -- фи -- ра кат' ду -- хо -- ве на Свет -- ли -- на -- та.
     }
     \addlyrics {
-    }
+      Du -- ho -- ve na Svet -- li -- na -- ta, stap -- vat le -- ko vti -- shi -- na -- ta.
 
-    \header {
-      title = \markup \column \normal-text \fontsize #2.5 {
-        \center-align
-        \line { Марш на светлите сили}
-        \vspace #-0.6
-        \center-align
-        \line \fontsize #-3 { Marsch na svetlite sili }
-        \vspace #-0.8
-        \center-align
-        \line \fontsize #-3 { " " }
+      Sli --  zat te v re -- di -- tsi be -- li ot vi -- so -- ki -- te pre -- de -- li.
+
+      Id  -- vat na Ze -- mya -- ta, na ho -- ra -- ta sar -- tsa -- ta.
+
+      I eto - razh -- dat se i -- de -- i, svet --  li, no -- vi,
+
+      kak da smak -- nem tezh -- ki -- te o -- ko -- vi na
+
+      vrazh -- di bez -- smis -- le -- ni, ve -- kov -- ni - v mir da za -- zhi -- ve -- em.
+
+
+
+      I vse -- ki da ra -- bo -- ti s ra -- dost na Bo -- zhest -- ve -- na -- ta ni -- va.
+
+      Shte tsa -- ru -- va vechna mla -- do -- st, nya -- ma ni -- koy da u -- mi -- ra.
+
+      V mir, v Lyu -- bov shte za -- zhi -- ve -- em
+
+      vsich -- ki druzh -- no i shte pro -- sla -- vim Bo -- ga s pe -- sen.
+
+
+
+      No -- vi pe -- sni shte za -- pe -- em - za har -- mo -- nia vse -- mir -- na.
+
+      Nov zhi -- vot shte za -- zhi -- ve -- em... Tya -- lo -- to ni shte pro -- svet -- ne
+
+      i na -- kraya shte po -- lit -- nem vav e -- fi -- ra kat' du -- ho -- ve na Svet -- li -- na -- ta.}
+
+      \header {
+        title = \markup \column \normal-text \fontsize #2.5 {
+          \center-align
+          \line { Марш на светлите сили}
+          \vspace #-0.6
+          \center-align
+          \line \fontsize #-3 { Marsch na svetlite sili }
+          \vspace #-0.8
+          \center-align
+          \line \fontsize #-3 { " " }
+        }
       }
-    }
 
-    \midi{}
+      \midi{}
 
-  } % score
-
+    } % score
 
 
-  % include foreign translation(s) of the song
-  % \include "lyrics_de/162_marsch_na_svetlite_sili_lyrics_de.ly"
 
-} % bookpart
+    % include foreign translation(s) of the song
+    \include "lyrics_de/162_marsch_na_svetlite_sili_lyrics_de.ly"
+
+  } % bookpart
