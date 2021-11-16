@@ -40,7 +40,7 @@
 
     % change distance between staves
     system-system-spacing =
-    #'((basic-distance . 12)
+    #'((basic-distance . 10.5)
        (minimum-distance . 6)
        (padding . 1)
        (stretchability . 12))
@@ -72,7 +72,10 @@
       \context {
         % adjust space between staff and lyrics and between the two lyric lines
         \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
+          (basic-distance . 4.5)
+          (padding . 0.3)
+        )
         \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
       }
     } % layout
@@ -104,7 +107,7 @@
       
       \time 4/4 d'8 e, e e c' e, e e | a g g fis fis e e d | \break
       
-      \time 3/4 b' b d c b a | a4 g2 | \break
+      \time 3/4 b' b d c b a | a4 g2 | \bar "|."
       
       
     }
@@ -179,8 +182,15 @@
 
       } % score
 
-
-      \pageBreak
+  \markup \halign #-29.08 \raise #2.8 \override #'(baseline-skip . 2) { 
+    \column  { 
+      \line  {" "}
+      \line \right-align { 
+          \bold { "(D.C.)" }  
+      }
+      \line  {" "}
+    }
+  } 
 
       % include foreign translation(s) of the song
       \include "lyrics_de/078_gree_gree_lyrics_de.ly"
