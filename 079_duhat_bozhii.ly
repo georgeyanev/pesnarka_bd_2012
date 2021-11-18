@@ -72,7 +72,10 @@
       \context {
         % adjust space between staff and lyrics and between the two lyric lines
         \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
+          (basic-distance . 4.5)
+          (padding . 0.5)
+        )
         \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
       }
     } % layout
@@ -114,26 +117,22 @@
     }
 
     \addlyrics {
-      Ду -- хът Бо -- жи, Ду -- хът Веч --  tt -- ни,
+      Ду -- хът Бо -- жи, Ду -- хът веч -- ни,
 
-      Ду -- хът Свя -- ти, Ду -- хът Бла -- ги,
+      Ду -- хът Свя -- ти, Ду -- хът бла -- ги,
 
-      кой пъл -- ни сър -- ца ни със Лю -- бов,
-
-      кой пъл -- ни сър -- ца ни със Лю -- бов.
-
-      Кой пъл -- ни, кой пъл -- ни, кой пъл -- ни,
-
-      кой пъл -- ни сър -- ца ни със Лю -- бов.
+      Кой пъл -- ни сър -- ца ни със Лю -- бов,
 
       Кой пъл -- ни сър -- ца ни със Лю -- бов.
 
-      Със Лю -- бов, със Лю -- бов, със Лю -- бов.
+      "1. Кой" пъл -- ни, Кой пъл -- ни, Кой пъл -- ни,
 
       Кой пъл -- ни сър -- ца ни със Лю -- бов.
 
-      Кой пъл -- ни сър -- ца ни със Лю -- бов.}
-      \addlyrics {   Du -- hat Bo -- zhi, Du -- hat Vech --  tt -- ni,
+      Кой пъл -- ни сър -- ца ни със Лю -- бов. 
+    }
+      
+    \addlyrics {   Du -- hat Bo -- zhi, Du -- hat Vech -- ni,
 
       Du -- hat Svya -- ti, Du -- hat Bla -- gi,
 
@@ -141,17 +140,46 @@
 
       koy pal -- ni sar -- tsa ni sas Lyu -- bov.
 
-      Koy pal -- ni, koy pal -- ni, koy pal -- ni,
+      "1. Koy" pal -- ni, koy pal -- ni, koy pal -- ni,
 
       koy pal -- ni sar -- tsa ni sas Lyu -- bov.
 
-      Koy pal -- ni sar -- tsa ni sas Lyu -- bov.
+      Koy pal -- ni sar -- tsa ni sas Lyu -- bov. 
+    }
 
-      Sas Lyu -- bov, sas Lyu -- bov, sas Lyu -- bov.
+    \addlyrics {
+      " " " " " " " " " " " " " " " "
 
-      Koy pal -- ni sar -- tsa ni sas Lyu -- bov.
+      " " " " " " " " " " " " " " " "
 
-      Koy pal -- ni sar -- tsa ni sas Lyu -- bov.}
+      " " " " " " " " " " " " " " " " " "
+
+      " " " " " " " " " " " " " " " " " "
+
+      "2. Със" Лю -- бов, със Лю -- бов, със Лю -- бов,
+
+      " " " " " " " " " " " " " " " " " "
+
+      " " " " " " " " " " " " " " " " " " 
+    }
+
+    \addlyrics {
+      " " " " " " " " " " " " " " " "
+
+      " " " " " " " " " " " " " " " "
+
+      " " " " " " " " " " " " " " " " " "
+
+      " " " " " " " " " " " " " " " " " "
+
+      "2. Sas" Lyu -- bov, sas Lyu -- bov, sas Lyu -- bov,
+
+      " " " " " " " " " " " " " " " " " "
+
+      " " " " " " " " " " " " " " " " " " 
+    }
+
+
 
       \header {
         title = \markup \column \normal-text \fontsize #2.5 {
@@ -159,7 +187,7 @@
           \line {Духът Божий }
           \vspace #-0.6
           \center-align
-          \line \fontsize #-3 { Duhat Bozhi }
+          \line \fontsize #-3 { Duhat Bozhiy }
           \vspace #-0.8
           \center-align
           \line \fontsize #-3 { " " }
