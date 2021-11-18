@@ -203,6 +203,6 @@
     \pageBreak
 
     % include foreign translation(s) of the song
-    \include "lyrics_de/079_duhat_bozhii_lyrics_de.ly"
+    \include "lyrics_de/079_Duhat_Bozhii_lyrics_de.ly"
 
   } % bookpart
