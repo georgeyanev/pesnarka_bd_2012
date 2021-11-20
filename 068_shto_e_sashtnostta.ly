@@ -278,12 +278,12 @@
       " " " " " " " " " " " " " " " " " " " " " " " " " " " "
 
       " " " " " " " " " " " " " " " " " "
-
-      "4.    Ко  " -- га май -- ка неж -- на за рож -- ба се жерт -- ва,
-      в~таз о -- бич при -- мер -- на и лю -- бов без -- мер -- на
-      ти ще ви -- диш същ -- ност -- та
-      в~таз о -- бич при -- мер -- на и лю -- бов без -- мер -- на
-      ти ще ви -- диш същ -- ност -- та.
+ 
+      "4.    Ko  " -- ga may -- ka nezh -- na za rozh -- ba se zhert -- va,
+      v~taz o -- bich pri -- mer -- na i lyu -- bov bez -- mer -- na
+      ti shte vi -- dish sasht -- nost -- ta
+      v~taz o -- bich pri -- mer -- na i lyu -- bov bez -- mer -- na
+      ti shte vi -- dish sasht -- nost -- ta.
 
       " " " " " " " " " " " " " " " " " "
 
