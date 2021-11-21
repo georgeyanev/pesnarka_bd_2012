@@ -41,6 +41,21 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../062_novi_drehi.ly \
     ../063_dishay_dalboko.ly \
     ../064_angel_vopiyashe.ly \
+    ../066_1_taynata_vecherya.ly \
+    ../066_2_tebe_poem.ly \
+    ../067_pesen_na_glasnite_bukvi.ly \
+    ../068_shto_e_sashtnostta.ly \
+    ../070_fir_fur_fen.ly \
+    ../071_1_izgrjava_slunzeto.ly \
+    ../071_2_sila_ziva_izvorna.ly \
+    ../072_blagost.ly \
+    ../073_sladko_medeno.ly \
+    ../074_blaga_duma.ly \
+    ../075_076_aum_venir_benir.ly \
+    ../076_2_sila_ziva.ly \
+    ../077_skrabta_si_ti_kazhi.ly \
+    ../078_gree_gree.ly \
+    ../079_Duhat_Bozhii.ly \
     > tmp.ly
 
 lilypond --include=../ -o pesn_all tmp.ly
