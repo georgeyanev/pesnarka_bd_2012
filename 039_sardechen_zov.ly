@@ -97,7 +97,7 @@
 
         \slurDown e'8 ([f'8])  g'2 g'4 |  a'4 a' a' | g'2 f'4 | e'2 e'8 ([ f' ]) | \break
 
-        g'2 g'4 | \hideNotes c''2 d''4 |
+        g'2 g'4 | \hideNotes c''2 d''4 | \unHideNotes
         \once \override NoteColumn.force-hshift = #1.5 e''4
         e'' \hideNotes d''4 | c''2 c''8 d'' | \break
 
@@ -118,7 +118,7 @@
         \partial 4
         \voiceTwo % stems down
 
-        \hideNotes e'8 [f'8]  g'2 g'4 | a'2 a'4 | \hideNotes g'2 f'4 | e'4 e'4 \hideNotes e'8 [ f' ] | \break
+        \hideNotes e'8 [f'8]  g'2 g'4 | \unHideNotes a'2 a'4 | \hideNotes g'2 f'4 | \unHideNotes e'4 e'4 \hideNotes e'8 [ f' ] | \break
 
         g'2 g'4 | \unHideNotes c''2 d''4 | e''2 d''4^\fermata | c''2 \slurDashed \slurUp c''8 ([d'']) | \break
 
@@ -146,7 +146,7 @@
       }
 
       \new Lyrics \lyricsto "voice2" {
-        "2.За" -- бра -- вяй на -- ши  -- те гре -- хо -- ве, о --
+        "2.За" -- бра -- вяй гре -- хо -- ве -- те на -- ши, о --
         бил -- но нас бла -- го -- сло -- ви. Ца --
         рю \set ignoreMelismata = ##t пре -- бла -- гий на свет -- ли -- те ду -- ши, в~цар -- ство --
         то Си ни при -- е -- ми! Ца -- _ ми!
