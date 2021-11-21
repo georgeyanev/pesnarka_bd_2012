@@ -72,7 +72,10 @@
       \context {
         % adjust space between staff and lyrics and between the two lyric lines
         \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
+          (basic-distance . 4.5)
+          (padding . 0.3)
+        )
         \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
       }
     } % layout
@@ -100,7 +103,7 @@
 
         g2 fis4 |g2 f4 | es2 d4 |  es2 d4 | c2 b4 | c2 es4 | g2 f4 | \break
 
-        es2 d4 | c2 d8 d | f2 es4 | d2 c4 | es2 d4 |    \mark\markup\bold { "Fine" } c2.  
+        es2 d4 | c2 d8 d | f2 es4 | d2 c4 | es2 d4 | c2. \mark\markup\bold { "Fine         " }
       } | \break
 
     }
@@ -134,6 +137,17 @@
         \midi{}
 
       } % score
+
+
+\markup \halign #-3.63 \raise #2.8 \override #'(baseline-skip . 2) { 
+    \column  { 
+      \line  { 
+        \italic \right-align { "attacca „В мрак, тъмнота/V mrak, tamnota“" }
+      }
+      \line  {" "}
+    }
+} 
+
 
 
 
