@@ -96,9 +96,9 @@
 
 g'2 fis'4 | g'2 as'4 | g'2 f'4 \autoBeamOff \repeat volta 2 { f'2 es'8 d' |  es'2 f'4 \break | 
                                                  
-    g'2 as'4 | g'2 f'4 | es'2 d'4 }  \alternative { { c'2 f'4 } {  c'2. } }  \break | 
+    g'2 as'4 | g'2 f'4 | es'2 d'4 }  \alternative { { c'2 f'4 } {  c'2. } } \bar "||"  \break | 
   
-  c'2 d'4 |  es'2. |  d'2 c'4 | c'2. | b2 b4 | c'2. | 
+  c'2 d'4 |  es'2. |  d'2 c'4 | c'2. | b2 b4 | c'2. | \bar "|."
   }
   
   \addlyrics {Във мрак, тъм
@@ -130,6 +130,20 @@ g'2 fis'4 | g'2 as'4 | g'2 f'4 \autoBeamOff \repeat volta 2 { f'2 es'8 d' |  es'
 
 } % score
 
+  \markup \halign #-2.19 \raise #2.8 \override #'(baseline-skip . 2) { 
+    \column  { 
+      \line \right-align { 
+        \concat {
+          \bold { "D.C. al Fine" }  
+          \italic { " „Махар бену аба/Mahar benu aba“ " }  
+          \bold { "senza ripetizione" }  
+        }
+      }
+      \line  {" "}
+      \line  {" "}
+      \line  {" "}
+    }
+  } 
 
 
 
