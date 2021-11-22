@@ -16,6 +16,7 @@
     \line { "   "Wir schütten unsere Herzen in einem Lied aus }
 
     \line { "   "und rufen Dich an, Allheiliger! Vergib!}
+    \line { "   " }
 
     \line { 2. Vergiss unsere Sünden, }
 
@@ -24,6 +25,7 @@
     \line { "   "Allgütiger König der leuchtenden Seelen,}
 
     \line { "   "empfange uns in Deinem Reich!}
+    \line { "   " }
 
     \line { 3. Wir lobpreisen Dich dort in der Ewigkeit,}
 
