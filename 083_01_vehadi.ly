@@ -83,7 +83,7 @@
       \tempo \markup {
         % make tempo note smaller
         \concat {
-          "Addagio, ad libitium" \normal-text { " (" }
+          "Addagio, ad libitum" \normal-text { " (" }
           \teeny \general-align #Y #DOWN \note #"4" #0.8
           \normal-text { " = 56)" }
         }
@@ -95,10 +95,13 @@
 
 
       \repeat volta 2 {
-        a'4^\p bes'8 [ ( a'] gis' [a'] bes'2 ) a' \bar "!"  \breathe  d''4^\mp  e''8 ( [d''] cis'' [d''] bes' [a'] c''16 [bes' a' gis'] ) a'2 \bar "!" \breathe \break |
+        \slurDown a'4^\p bes'8 [ ( a'] gis' [a'] bes'2 ) \slurNeutral a' \bar "!"  \breathe  d''4^\mp  e''8 ( [d''] cis'' [d''] bes' [a'] c''16 [bes' a' gis'!] ) a'2 \bar "!" \breathe \break |
 
         \time 10/4 g'8 ([ f'] e' [f'] g'4 a' ) f'4. ( e'8 g'16 [f' e' f'] ) d'2
-
+        \override BreathingSign.text = \markup {
+          \musicglyph "scripts.caesura.straight"
+        }
+        \breathe
         a4^\pp \bar "!" \break |
 
 
@@ -111,7 +114,7 @@
       Ве -- ха -- ди, Ве -- ха -- ди, Ве -- ха -- ди.
     }
     \addlyrics {
-      e -- ha -- di, Ve -- ha -- di, Ve -- ha -- di,
+      Ve -- ha -- di, Ve -- ha -- di, Ve -- ha -- di,
       Ve -- ha -- di, Ve -- ha -- di, Ve -- ha -- di.}
 
       \header {
