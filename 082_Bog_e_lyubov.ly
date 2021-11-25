@@ -79,7 +79,14 @@
     \clef treble
     \key g \major
     \time 4/4
-    \tempo "Largo" 4 = 46
+    \tempo \markup {
+      % make tempo note smaller
+      \concat {
+        "Largo " \normal-text { "(" }
+        \teeny \general-align #Y #DOWN \note #"4" #0.8
+        \normal-text { " = 46)" }
+      }
+    }
     \autoBeamOff
   
     b8. [(c16)] a8. b16 c2 | 
@@ -122,20 +129,20 @@
     }
   }
   
-  \addlyrics {    Бог е Лю -- бов, | Бог е Лю -- бов, | Бог е Лю -- бов, Лю -- |
+  \addlyrics {    Бог е "Лю-" -- бов, | Бог е "Лю-" -- бов, | Бог е "Лю-" -- бов, Лю -- |
     бов, Лю -- бов  | веч -- на, | "без - гра" -- нич -- на, |
-    пъл -- на | със_Жи -- вот, "Жи-вот на" | бла -- ги -- я Бо -- жи  Дух. |
-    Дух на бла -- гост -- та, | Дух на све -- тост -- та, | Дух на пъ -- лен Мир и |
-    Ра -- дост за вся -- ка ду | ша за вся -- ка ду -- | ша. Ний щe | хо -- дим "в ͜ то" -- я |
-    път  на Свет -- ли -- | на -- та, на Свет -- ли -- | на -- та, на Свет -- ли | на -- та, "в ͜ ко" -- |
-    я -- то ца -- ру -- ва | Бо -- жи -- я -- та Лю -- бов, | Бо -- жи -- я -- та Лю -- бов, |
-    Бо -- жи -- я -- та Лю -- бов, | Бо -- жи -- я -- та Лю -- | бов. Ний ще | бов.}
+    пъл -- на | със_Жи -- "-вот," "Жи-вот на" | бла -- ги -- я Бо -- жи  Дух. 
+    Дух на бла -- гост -- "-та," | Дух на све -- тост -- "-та," | Дух на пъ -- лен Мир и |
+    Ра -- дост за вся -- ка ду | ша, за вся -- ка ду -- | ша. Ний щe | хо -- дим в~то -- я |
+    път  на Свет -- ли -- | на -- та, на Свет -- ли -- | на -- та, на Свет -- ли | на -- та, в~ко -- |
+    я -- то ца -- ру -- ва | Бо -- жи -- я -- та "Лю-" -- бов, | Бо -- жи -- я -- та "Лю-" -- бов, |
+    Бо -- жи -- я -- та "Лю-" -- бов, | Бо -- жи -- я -- та Лю -- | бов. Ний ще | бов.}
   \addlyrics {Bog e Lyu -- bov, | Bog e Lyu -- bov, | Bog e Lyu -- bov, Lyu -- |
     bov, Lyu -- bov  | vech -- na, | "bez - gra" -- nich -- na, |
     pal -- na | sas_Zhi -- vot, "Zhi-vot na" | bla -- gi -- ya Bo -- zhi  Duh. |
     Duh na bla -- gost -- ta, | Duh na sve -- tost -- ta, | Duh na pa -- len Mir i |
-    Ra -- dost za vsya -- ka du | sha za vsya -- ka du -- | sha. Niy shte | ho -- dim "v ͜ to" -- ya |
-    pat  na Svet -- li -- | na -- ta, na Svet -- li -- | na -- ta, na Svet -- li | na -- ta, "v ͜ ko" -- |
+    Ra -- dost za vsya -- ka du | sha za vsya -- ka du -- | sha. Niy shte | ho -- dim v~to -- ya |
+    pat  na Svet -- li -- | na -- ta, na Svet -- li -- | na -- ta, na Svet -- li | na -- ta, v~ko -- |
     ya -- to tsa -- ru -- va | Bo -- zhi -- ya -- ta Lyu -- bov, | Bo -- zhi -- ya -- ta Lyu -- bov, |
     Bo -- zhi -- ya -- ta Lyu -- bov, | Bo -- zhi -- ya -- ta Lyu -- | bov. Niy shte | bov.}
   
