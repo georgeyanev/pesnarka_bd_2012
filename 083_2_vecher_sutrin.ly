@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -81,28 +81,23 @@
     \time 6/4 
     %\tempo "Andante" 4 = 66
     \tempo \markup { % make tempo note smaller
-      \concat { "Andante" \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"8" #0.8
-          \normal-text { " = 160)" }
+      \concat { "Andante " \normal-text { "(" }
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \normal-text { " = 66)" }
       }
     }
  
     \autoBeamOff 
-	 \repeat volta 2 {
     
      a4 cis' e' a'2 gis'4 |  \time 5/4  b'4. fis'8 fis'4 e'2 | \time 6/4  fis'4 e' d' cis'2 b4 \break |
     
-    \time 5/4  e'4. b8 b4 a2 \time 8/8  \repeat volta 2 {  \tempo \markup { % make tempo note smaller
-      \concat { "Più Mosso" \normal-text { "" }
+    \time 5/4  e'4. b8 b4 a2 | \bar ":|.|:" \time 8/8 \tempo  "      Più Mosso"
          
-      }
-    } e'4.  fis'4 d'4. | e'4. fis'4 ~ fis'4. | e'4. fis'4 d'4. \break | 
+    e'4. fis'4 d'4. | e'4. fis'4 ~ fis'4. | e'4. fis'4 d'4. \break | 
     
-    e'4. fis'4 ~ fis'4. |e'4. fis'4 d'4. | cis'4. e'4 ~ e'4. | b4. ~ b4 ~ b4. | a4. ~ a4 ~ a4. 
-      }
+    e'4. fis'4 ~ fis'4. |e'4. fis'4 d'4. | cis'4. e'4 ~ e'4. | b4. ~ b4 ~ b4. | a4. ~ a4 ~ a4. | \bar ":|."
     
     
-  }
   }
   
   \addlyrics {Ве -- чер,
@@ -133,22 +128,18 @@
 
 } % score
 
- \markup \halign #-10 { 
-    \column  { 
-      \line  \halign #-5 { 
-        \bold  { "D. C." }
-      }
-      \line { 
-        \bold { con ripetizione }
-      }
-    }
+\markup \halign #-12.70 \raise #2.8 \override #'(baseline-skip . 2) { 
+  \column  { 
+    \line \right-align \bold { "D.C." }  
+    \line \right-align \bold { "con ripetizioni" }  
+    \line {" "}
+    \line {" "}
+    \line {" "}
   }
-
-\pageBreak
-
+}
 
 % include foreign translation(s) of the song
 %\include "lyrics_de/lyrics_de_file_name.ly"
-\include "lyrics_de/083_02_vecher_sutrin_lyrics_de.ly"
+\include "lyrics_de/083_2_vecher_sutrin_lyrics_de.ly"
 
 } % bookpart
