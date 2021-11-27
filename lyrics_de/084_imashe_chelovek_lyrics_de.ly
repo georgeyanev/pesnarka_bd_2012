@@ -1,17 +1,14 @@
-\version "2.18.2"
+\version "2.20.0"
 
-%\markup {  \vspace #1.9 }
+\markup \fill-line { \fontsize #6 "Da war ein Mensch" }
+\markup \null
+\markup \null
+\markup \fontsize #+2.5 {
+    \hspace #12
+    \override #'(baseline-skip . 2)
+    
+        \column {
 
-\markup {  \hspace #25   \huge\bold "Da war ein Mensch"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
-  \column {
      \line { " " } 
      
     \line { " " Da war ein Mensch, von Gott gesandt,  }
@@ -58,11 +55,6 @@
 
 \line { " " sondern aus Gott geboren sind.  }
      
-     
-     
-      }
-       
-    }    
     }
 }
 %}
