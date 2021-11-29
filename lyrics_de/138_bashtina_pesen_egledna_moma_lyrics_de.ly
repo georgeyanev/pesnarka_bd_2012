@@ -1,0 +1,111 @@
+\version "2.20.0"
+
+\markup \fill-line { \fontsize #6 "Das Lied des Vaters - schönes Mädchen" }
+\markup \null
+\markup \null
+\markup \fontsize #+2.5 {
+  \hspace #10
+  \override #'(baseline-skip . 2)
+
+  \column {
+    \line { " " }
+
+  \line { " "Seit alten Zeiten, mein Sohn, ist bekannt,  }
+
+  \line { " "dass das schöne Mädchen am hellen Tag erkannt wird,  }
+
+  \line { " "wenn die Sonne morgens aufgeht,  }
+
+  \line { " "wenn die Sonne morgens aufgeht.  }
+   \line { " " }
+
+  \line { " "Es ist frühaufstehnd; es steht früh auf (2)  }
+
+  \line { " "und geht mit den Krügen zu der Quelle,  }
+
+  \line { " "und füllt Wasser.  }
+
+  \line { " "So erfüllt und fröhlich,  }
+
+  \line { " "geht es nach Hause  }
+
+  \line { " "und umarmt lieblich ihre Mutter.  }
+   \line { " " }
+
+  \line { " "Das schöne Mädchen, mein Sohn, erkennt man dann,  }
+
+  \line { " "wenn es den Weinberg umgräbt,  }
+
+  \line { " "und er reichlich Trauben gibt.  }
+
+  \line { " "Der Weinberg kennt gut die Hände des Mädchens.  }
+
+   \line { " " }
+
+  \line { " "Das schöne Mädchen, mein Sohn, erkennt man am Feld  }
+
+  \line { " "wenn sie die Garben hebt und hinstellt,  }
+
+  \line { " "sie gut auf dem Boden hinlegt,  }
+
+  \line { " "und Gott lobpreist.  }
+   \line { " " }
+
+  \line { " "Sie ist, mein Sohn stimmgewaltig,  }
+
+  \line { " "eine schöne Sängerin;  }
+
+  \line { " "der Weizen kennt sie gut,  }
+
+  \line { " "der Weizen kennt sie gut.  }
+
+  \line { " "Sie ist, mein Sohn stimmgewaltig,  }
+
+  \line { " "eine gute Sängerin;  }
+
+  \line { " "der Weizen kennt sie gut,  }
+
+  \line { " "der Weizen kennt sie gut.  }
+
+  \line { " "Das schöne Mädchen, mein Sohn, erkennt man gut,
+  }
+  \line { " "wenn sie in der Tenne den Weizen drischt,  }
+
+  \line { " "ihn durchsiebt,  }
+
+  \line { " "ihn in den Speicher bringt   }
+
+  \line { " "und den Armen Brot gibt.  }
+
+  \line { " "Kleine und Große kennen sie gut.  }
+   \line { " " }
+
+  \line { " "Ein kluges Mädchen, mein Sohn erkennt man,  }
+
+  \line { " "wenn es ein Buch in die Hände nimmt   }
+
+  \line { " "und die verborgene Zukunft enträtselt.  }
+
+  \line { " "Es stellt alles an seinem Platz.  }
+
+  \line { " "Ein schönes Mädchen, mein Sohn, ist der Tau,  }
+
+  \line { " "der den Boden befeuchtet.  }
+
+  \line { " "Es ist ein Engel, der von oben kommt,  }
+
+  \line { " "zu den Menschen herabsteigt,  }
+
+  \line { " "und bringt Frieden und Freude in ihrem Zuhause.  }
+
+  \line { " "Es ist hell wie die Morgenröte,  }
+
+  \line { " "es ist lieb wie das Wasser,  }
+
+  \line { " "es ist gut wie das Essen.  }
+
+
+
+
+  }
+}
