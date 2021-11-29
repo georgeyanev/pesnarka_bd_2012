@@ -1,65 +1,126 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \paper {
-  print-all-headers = ##t
-  print-page-number = ##f 
-  left-margin = 2\cm
-  right-margin = 2\cm
-}
-
-\header {
-  tagline = ##f
+  #(set-paper-size "a5")
 }
 
 \bookpart {
-\score{
-  \layout { 
-    indent = 0.0\cm % remove first line indentation
-    %ragged-last = ##t % do not spread last line to fill the whole space
-    \context {
-      \Score
-      \omit BarNumber %remove bar numbers
-    } % context
-  } % layout
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
 
-  \new Voice \relative c' {
-    \clef treble
-    \key bes \major
-    \time 2/4 
-    \tempo "Moderato" 4 = 72
-    \autoBeamOff
-    
-    g''8 f ees d | \noBreak
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change lyrics and titles font (affects notes also)
+    fonts =
+    #(make-pango-font-tree
+      "Times New Roman"
+      "DejaVu Sans"
+      "DejaVu Sans Mono"
+      (/ (* staff-height pt) 3.6))
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 12)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
+
+  \header {
+    tagline = ##f
+  }
+
+  \score{
+    \layout {
+      indent = 0.0\cm % remove first line indentation
+      %ragged-last = ##t % do not spread last line to fill the whole space
+      \context {
+        \Score
+        \omit BarNumber %remove bar numbers
+      } % context
+
+      \context {
+        % change staff size
+        \Staff
+        fontSize = #+0 % affects notes size only
+        \override StaffSymbol #'staff-space = #(magstep -3)
+        \override StaffSymbol #'thickness = #0.5
+        \override BarLine #'hair-thickness = #1
+        %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
+      }
+
+      \context {
+        % adjust space between staff and lyrics and between the two lyric lines
+        \Lyrics
+        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+        \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
+      }
+    } % layout
+
+    \new Voice \relative c' {
+      \clef treble
+      \key bes \major
+      \time 2/4
+      \tempo \markup {
+        % make tempo note smaller
+        \concat {
+          "Moderato " \normal-text { "(" }
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \normal-text { " = 72)" }
+        }
+      }
+      \autoBeamOff
+ g''8 f ees d | \noBreak
     c4. c8 | \noBreak
     f8. ees16 d([c]) d f | \break
-    
+
     bes,8. bes16 bes4 | \noBreak
     ees8 d c bes | \noBreak
     a4 d | \noBreak
     g,8. a16 bes([a]) bes ([d]) | \break
-    
+
     g,8 g g r | \noBreak
     g'8. f16 ees([d]) ees([g]) | \noBreak
     c,8. c16 c8 c16 c | \break
-    
+
     f8.([ees16]) d8 c | \noBreak
     bes4 bes8 bes | \noBreak
     ees8. d16 c([bes]) c([ees]) | \break
-    
+
     a,8. a16 a8 d | \noBreak
     g,8. a16 bes([a]) bes([d]) | \noBreak
     g,8 d g r | \break
-    
+
     g8 g16 a bes8([a]) | \noBreak
     g fis a([g]) | \noBreak
     g2 | \noBreak
     d16 ees ees ees ees d ees([g]) | \break
-    
+
     d4 r8 d | \noBreak
     g4 a | \noBreak
     bes16 ([a]) bes ([a]) g8 fis | \noBreak
     g2 | \break
-    
+
     g'16 f ees d c bes a g | \noBreak
     a8 bes c d | \noBreak
     ees d d4~ | \break
@@ -67,28 +128,28 @@
     d8 bes g d | \noBreak
     g8. a16 bes8 a | \noBreak
     a g g fis | \noBreak
-    g2\fermata | \bar "||" \break 
-    
+    g2\fermata | \bar "||" \break
+
     g'8 f ees d | \noBreak
     d([c]) d4~ | \noBreak
     d8 c bes8. a16 | \noBreak
     bes8 c d ees | \break
-    
+
     d cis d4~ | \noBreak
     d8 c! bes a | \noBreak
     fis8. g16 a8 g | \noBreak
     bes a c bes | \break
-    
+
     a g fis a | \noBreak
     g2 | \noBreak
     bes8. bes16 bes8 bes | \noBreak
     bes4 a8([bes]) | \break
-    
+
     c16([bes]) a([g]) fis8([g]) | \noBreak
     a8. bes16 a8([d,]) | \noBreak
     d2 | \noBreak
     bes'8 bes16 bes bes8 bes | \break
-    
+
     c bes a16([bes]) c([d]) | \noBreak
     f4.(ees8) | \noBreak
     d8. c16 d4~ | \noBreak
@@ -98,45 +159,45 @@
     g4. fis8 | \noBreak
     g8. a16 bes8 a | \noBreak
     \acciaccatura { bes } a g g fis | \break
-    
+
     g ees d4 | \noBreak
     d2 | \noBreak
     f!8. g16 g8 g | \noBreak
     f ees16 f g8 g | \break
-    
+
     \acciaccatura { g } f ees \acciaccatura { f } ees  cis | \noBreak
     d4 d | \noBreak
     c'8. c16 c8 c | \noBreak
     c4 bes8([a]) | \break
-    
+
     bes([c]) d ees | \noBreak
     d2 | \noBreak
     a8. a16 a8 a | \noBreak
-    a8. a16 c4 | \break 
-    
+    a8. a16 c4 | \break
+
     bes8([a]) g([fis]) | \noBreak
-    a8. g16 g4 
+    a8. g16 g4
     g2\fermata \bar "||" | \noBreak
     d2 \break
-    
+
     cis8([d]) ees d | \noBreak
     d2 | \noBreak
     d | \noBreak
     g | \noBreak
     fis8 g a g | \break
-    
+
     g2 | \noBreak
     g4 g8 a | \noBreak
     bes2 | \noBreak
     a4 g | \noBreak
     fis8 g a g | \break
-  
+
     g2 | \noBreak
     a4. bes8 | \noBreak
     c2 | \noBreak
     \acciaccatura { c8 } bes([a]) bes c | \noBreak
     d2 | \break
-    
+
     d,8^\markup{ \italic { largamente } } ees16([d]) cis8 d | \noBreak
     \acciaccatura { c' } bes4. a8 | \noBreak
     g4 g | \noBreak
@@ -144,11 +205,11 @@
 
     \tempo "a tempo" g'8. f16 ees([d]) ees([g]) | \noBreak
     c,8. c16 c c c c | \break
-    
+
     f8. ees16 d8 c | \noBreak
     bes16 r bes r bes r bes r | \noBreak
     ees8. d16 c bes c ees | \break
-    
+
     a,8. a16 a a a a | \noBreak
     d8 d16([c]) bes8 a | \noBreak
     g16 r g r g r g r | \break
@@ -157,7 +218,8 @@
     g4 bes8. a16 | \noBreak
     g4 g8 g | \noBreak
     g2 \bar "|." \pageBreak
-  }
+    }
+
 
   \addlyrics {
     И -- де ве -- че, | и -- де | "с ͜ пал" -- мо -- во клон -- че |
@@ -167,9 +229,9 @@
     о -- бе -- щан със | не -- го -- ви -- я | по -- глед чист. |
     Всич -- ки ду -- ши | поз -- дра -- вя -- | ва, | всич -- ки сър -- ца вдъх -- но -- вя -- |
     ва "с ͜ ли" -- | ка си | благ, мил, о -- за -- | рен. |
-    Ра -- дост и ве -- се -- ли -- е раз -- | на -- ся той на -- | вред, къ -- де -- 
-    то ми -- не. | И -- де той във  | ран -- ни -- те зо -- | ри, | 
-    Слън -- це -- то ко -- | га -- то про -- сти -- ра свой -- те мил -- ва -- | 
+    Ра -- дост и ве -- се -- ли -- е раз -- | на -- ся той на -- | вред, къ -- де --
+    то ми -- не. | И -- де той във  | ран -- ни -- те зо -- | ри, |
+    Слън -- це -- то ко -- | га -- то про -- сти -- ра свой -- те мил -- ва -- |
     щи ръ -- це и бу -- ди | вся -- ко се -- ме, | вся -- ко цвет -- че, |
     сво -- и -- те де -- | ца. Пол -- ски -- те цве -- | тя със |
     а -- ро -- мат | го по -- сре -- | щат. Мал -- ки -- те гор -- ски |
@@ -197,16 +259,16 @@
     o -- be -- shtan sas | ne -- go -- vi -- ya | po -- gled chist. |
     Vsich -- ki du -- shi | poz -- dra -- vya -- | va, | vsich -- ki sar -- tsa vdah -- no -- vya -- |
     va "s ͜ li" -- | ka si | blag, mil, o -- za -- | ren. |
-    Ra -- dost i ve -- se -- li -- e raz -- | na -- sya toy na -- | vred, ka -- de -- 
-    to mi -- ne. | I -- de toy vav  | ran -- ni -- te zo -- | ri, | 
-    Slan -- tse -- to ko -- | ga -- to pro -- sti -- ra svoy -- te mil -- va -- | 
+    Ra -- dost i ve -- se -- li -- e raz -- | na -- sya toy na -- | vred, ka -- de --
+    to mi -- ne. | I -- de toy vav  | ran -- ni -- te zo -- | ri, |
+    Slan -- tse -- to ko -- | ga -- to pro -- sti -- ra svoy -- te mil -- va -- |
     shti ra -- tse i bu -- di | vsya -- ko se -- me, | vsya -- ko tsvet -- che, |
     svo -- i -- te de -- | tsa. Pol -- ski -- te tsve -- | tya sas |
     a -- ro -- mat | go po -- sre -- | shtat. Mal -- ki -- te gor -- ski |
     ptich -- ki ot vaz -- | torg | pes -- ni pe -- yat ne -- mu |
     i sve -- zhi -- te | stru -- i | na pla -- nin -- ski | iz -- vor -- che -- ta |
     tuk li -- ku -- | vat. | Zlat -- ni ni -- vi | bla -- go -- go -- vey -- no |
-    kla -- so -- ve na -- | vezh -- dat. | TSya -- la -- ta Pri -- | ro -- da |
+    kla -- so -- ve na -- | vezh -- dat. | Tsya -- la -- ta Pri -- | ro -- da |
     e hram ve -- | lik. | I -- de An -- gel | na Mi ra |
     "v ͜ to" -- zi | hram da slu -- | zhi. | A |
     sto -- i cho -- | ve -- | kat | pred | Sve -- ti -- ya ol -- |
@@ -219,53 +281,26 @@
     i "s ͜ Ra" -- dost | pal -- ni sar -- | tsa -- ta ni toy. |
   }
 
-  \header {
-    title = "Мирът иде II/ Mirat ide II"
-  }
-  
-  \midi{}
-
-} % score
-
-  \markup { \hspace #37  \huge\bold   "Der Frieden kommt II"  }
-  \markup {
-    \hspace #1 \fontsize #+1 {
-      \halign #-1.5 {
-        \column {
-          \line { " " }
-          \line { Er kommt schon mit dem Palmzweigchen des Friedens. }
-          \line { Er kommt von oben, er kommt, der gute Bote. }
-          \line { Er kommt mit dem Palmzweigchen, }
-          \line { wie ein Schein. }
-          \line { Der versprochene Frieden kommt, }
-          \line { mit seinem reinen Blick. }
-          \line { Er begrüßt alle Seelen, }
-          \line { inspiriert alle Herzen }
-          \line { mit seinem gütigen, lieben, erleuchteten Antlitz. }
-          \line { Freude und Wonne teilt er überall aus, }
-          \line { wo er nur vorbeiläuft. }
-          \line { Er kommt in der frühen Morgenröte, }
-          \line { wenn die Sonne ihre streichelnde Hände ausstreckt }
-          \line { und jeden Samen, jede Blume -- ihre Kinder -- erweckt. }
-          \line { Die Feldblumen heißen ihn mit einem Duft willkommen. }
-          \line { Die kleinen Waldvögel }
-          \line { singen ihm Lieder von Begeisterung, }
-          \line { und die frischen Ströme der Gebirgsbäche jubeln. }
-          \line { Goldene Felder neigen ehrfurchtsvoll Weizenähren. }
-          \line { Die ganze Natur ist ein großer Tempel. }
-          \line { Ein Engel des Friedens kommt, um in diesem Tempel zu dienen. }
-          \line { Und der Mensch steht vor dem heiligen Altar. }
-          \line { Das Feuer brennt dort, im heiligen Altar }
-          \line { Und mit einem Gebet in der Seele wartet er }
-          \line { auf den göttlichen Boten. }
-          \line { Es kommt, der Engel des Friedens, }
-          \line { mit einem Palmzweigchen und mit dem Zepter. }
-          \line { Er kommt von oben herab }
-          \line { herrlich und gewünscht, }
-          \line { wie ein gutes Sonnenlächeln. }
-          \line { und mit Freude erfüllt er die Herzen. }
-        }
+    \header {
+      title = \markup \column \normal-text \fontsize #2.5 {
+        \center-align
+        \line { Мирът иде II}
+        \vspace #-0.6
+        \center-align
+        \line \fontsize #-3 { Mirat ide II }
+        \vspace #-0.8
+        \center-align
+        \line \fontsize #-3 { " " }
       }
     }
-  }
+
+    \midi{}
+
+  } % score
+
+
+
+  % include foreign translation(s) of the song
+ \include "lyrics_de/158_mirat_ide_lyrics_de.ly"
+
 } % bookpart
