@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -82,19 +82,27 @@
     %\tempo "Moderato" 8 = 160
     \tempo \markup { % make tempo note smaller
       \concat { "Andante " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"8" #0.8
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
           \normal-text { " = 60)" }
       }
     }
     \partial 8
     \autoBeamOff
 	
-	 d'8 | \repeat volta 2 { b'4. a'8 g'4 | \time 4/4  fis'8. e'16 e'4 d'4. d'8 \break | 
+	 d'8 | \repeat volta 2 { b'4. a'8 g'4 | \time 4/4  fis'8. e'16 e'4 d'4. d'8 | \break
                        
-    e'8 fis' g' a' b' d'' ( d''4 ) | \time 3/4  c''4. b'8 a' g' \break | }
+    e'8 fis' g' a' b' d'' ( d''4 ) | \time 3/4  c''4. b'8 a' g' | \break }
     
-   \alternative { { \time 4/4  b'4 a' g'4.  \tempo "a tempo" d'8 } { \tempo "rit." b'4 a'4 g'4.\fermata \break } }
-  }
+   \alternative {
+     { \time 4/4  b'4\tempo "rit.                                  a tempo"  a' g'4. d'8 }
+     { b'4\tempo "rit." a'4
+      \override Staff.BarLine.stencil = ##f %hide bar line
+      g'4.^\markup \bold{"                       Fine"}\fermata 
+      \override Staff.BarLine.stencil = ##t
+      \bar "|." 
+     }
+   }
+}
   
   \addlyrics {Ка -- жи ми
   ти Ис -- ти -- на -- та, ко -- я -- то но -- си
@@ -114,7 +122,7 @@
               \line { Кажи ми ти истината }
               \vspace #-0.6
               \center-align
-              \line \fontsize #-3 {  Kazhi mi ti Istinata}
+              \line \fontsize #-3 {  Kazhi mi ti Istinata }
               \vspace #-0.8
               \center-align
               \line \fontsize #-3 { " " }
@@ -125,9 +133,20 @@
 
 } % score
 
-\pageBreak
+\markup \halign #-4.33 \raise #2.8 \override #'(baseline-skip . 2) { 
+    \column  { 
+      \line  { 
+        \italic \right-align { "attacca „Благата песен/Blagata pesen“" }
+      }
+      \line  {" "}
+      \line  {" "}
+      \line  {" "}
+      \line  {" "}
+      \line  {" "}
+    }
+} 
 
 % include foreign translation(s) of the song
-\include "lyrics_de/086_1_kazhi_mi_ti_istinata_lyrics_de"
-
+\include "lyrics_de/086_1_kazhi_mi_ti_istinata_lyrics_de.ly"
+          
 } % bookpart
