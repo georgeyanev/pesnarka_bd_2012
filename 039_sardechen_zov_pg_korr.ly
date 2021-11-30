@@ -143,12 +143,12 @@
       "2.За" -- бра -- вяй на -- ши -- те гре -- хо -- ве, о --
       бил -- но нас бла -- го -- сло -- ви. Ца --
       рю пре -- бла -- гий на свет -- ли -- те ду -- ши, в~цар -- ство --
-      то си ни Ти при -- е -- ми! Ца -- ми!
+      то си ни Ти при -- е -- ми! __ Ца -- ми!
 
       "3.Там" да те сла -- вим през веч -- ност -- та, E --
       дин Ти за слу -- жа -- ваш хва -- ла. О-гра --
       ди ни_с Тво -- и -- те ми -- лос -- ти, о -- за --
-      ри ни с~Твой -- та Свет -- ли -- на! О-гра -- на!
+      ри ни с~Твой -- та Свет -- ли -- на! __ О-гра -- на!
     }
     \addlyrics {
       "1.Pred" Teb pri -- pa -- da -- me, Gos -- po -- di, dnes
@@ -159,12 +159,12 @@
       "2.Za" -- bra -- vyay na -- shi -- te gre -- ho -- ve, o --
       bil -- no nas bla -- go -- slo -- vi. Tsa --
       ryu pre -- bla -- giy na svet -- li -- te du -- shi, v~tsar -- stvo --
-      to si ni Ti pri -- e -- mi! Tsa -- mi!
+      to si ni Ti pri -- e -- mi! __ Tsa -- mi!
 
       "3.Tam" da te sla -- vim prez vech -- nost -- ta, E --
       din Ti za slu -- zha -- vash hva -- la. O-gra --
       di ni_s Tvo -- i -- te mi -- los -- ti, o -- za --
-      ri ni s~Tvoy -- ta Svet -- li -- na! O-gra -- na!
+      ri ni s~Tvoy -- ta Svet -- li -- na! __ O-gra -- na!
     }
 
 
@@ -186,6 +186,13 @@
 
   } % score
 
+  \markup  { 
+    \column  { 
+      \line  {" "}
+      \line  {" "}
+      \line  {" "}
+    }
+  } 
 
 
   % include foreign translation(s) of the song
