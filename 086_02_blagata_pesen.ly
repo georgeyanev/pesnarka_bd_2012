@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -82,7 +82,7 @@
     %\tempo "Moderato" 8 = 160
     \tempo \markup { % make tempo note smaller
       \concat { "Moderato " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"8" #0.8
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
           \normal-text { " = 72)" }
       }
     }
@@ -94,21 +94,26 @@
   
   \time 4/4  b'8. b'16 c''8. c''16 b'2 | d''4 c'' b' a' | a'2 g' \break | 
   
-  \time 6/4  \repeat volta 2 {fis'4 fis' fis'2 e' | e'4 e' e'2 d' |  \time 4/4  b'4 b' c'' a' | a'2 g'}
+  \bar ".|:" \time 6/4  fis'4 fis' fis'2 e' | e'4 e' e'2 d' |  \time 4/4  b'4 b' c'' a' | a'2 g' \bar ":|."
   }
   
-  \addlyrics {Ти съ -- зна -- вай, ти лю -- би,
-  без -- спир -- но сей, гра -- ди и в_Жи -- во --
+  \addlyrics {
+  Ти съ -- зна -- вай, ти лю -- би,
+  без -- спир -- но сей, гра -- ди и в~Жи -- во --
   та всич -- ко да -- вай. Та -- зи Ис -- ти --
   на, Бо -- га, ти по -- зна -- вай. Ти по -- зна
   -- вай, ти по -- зна -- вай, Бо -- га ти по --
-  зна -- вай.}
-  \addlyrics {Ti sa -- zna -- vay, ti lyu -- bi,
-  bez -- spir -- no sey, gra -- di i v_Zhi -- vo --
+  зна -- вай.
+  }
+
+  \addlyrics {
+  Ti sa -- zna -- vay, ti lyu -- bi,
+  bez -- spir -- no sey, gra -- di i v~Zhi -- vo --
   ta vsich -- ko da -- vay. Ta -- zi Is -- ti --
   na, Bo -- ga, ti po -- zna -- vay. Ti po -- zna
   -- vay, ti po -- zna -- vay, Bo -- ga ti po --
-  zna -- vay.}
+  zna -- vay.
+  }
   
   \header {
     title = \markup \column \normal-text \fontsize #2.5 {
@@ -127,8 +132,25 @@
 
 } % score
 
+  \markup \halign #-2.59 \raise #2.8 \override #'(baseline-skip . 2) { 
+    \column  { 
+      \line \right-align { 
+        \concat {
+          \bold { "D.C. al Fine" }  
+          \italic { " „Кажи ми ти истината/Kazhi mi ti Istinata“ " }  
+        }
+      }
+      \line \halign #2.59 \bold { "senza ripetizione" }  
+      \line  {" "}
+      \line  {" "}
+      \line  {" "}
+      \line  {" "}
+    }
+  } 
+
+
 
 % include foreign translation(s) of the song
-\include "lyrics_de/086_02_blagata_pesen_lyrics_de.ly"
+\include "lyrics_de/086_02_Blagata_pesen_lyrics_de.ly"
 
 } % bookpart
