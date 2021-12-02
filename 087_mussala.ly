@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -70,7 +70,10 @@
 
     \context { % adjust space between staff and lyrics and between the two lyric lines
       \Lyrics
-      \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+      \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
+        (basic-distance . 4.5)
+        (padding . 0.5)
+      )
       \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
     }
   } % layout
@@ -82,7 +85,7 @@
     %\tempo "Moderato" 8 = 160
     \tempo \markup { % make tempo note smaller
       \concat { "Andantino " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"8" #0.8
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
           \normal-text { " = 69)" }
       }
     }
@@ -92,56 +95,87 @@
 
 b'4 ( a'4 ) g'4 | a'2 g'4 | c''2.| \time 6/4 e'2 d'4. c'8 g'2 | \time 4/4 c'4 e'4  g'2  | \break
 
-e'4 g'4 c''2 |\time 6/4 b'4 ( d''4 ) c''4 ( a'4 ) g'2 | e'2 d'4. c'8 c'2 | \break 
+e'4 g'4 c''2 |\time 6/4 b'4 ( d''4 ) c''4 ( a'4 ) g'2 \tempo "rit." | e'2 d'4. c'8 c'2 | \bar "||" \break 
 
-\time 3/4 \partial 4  \tempo "Poco più mosso" 4 = 75 g'4 | g'8 ( fis'8 g'8 a'8 ) g'4 | c''2 d''4 | \time 2/4 c''4 a'4 |\time 3/4 g'2 g'4 | d''2 e''4 |  \break 
+\time 3/4 \partial 4  
+
+\tempo \markup { % make tempo note smaller
+      \concat { "Poco più mosso " \normal-text { "(" }
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \normal-text { " = 76)" }
+      }
+}
+
+g'4 | g'8 ( fis'8 g'8 a'8 ) g'4 | c''2 d''4 | \time 2/4 c''4 a'4 |\time 3/4 g'2 g'4 | d''2 e''4 |  \break 
 
 \time 4/4 d''4 c'' c'' b' | \time 6/4 c''4 a' g' fis' g'2 \fermata | \time 4/4 c'4 e'4 g'2 | \break
 
-e'4 g'4 c''2 | \time 4/4 b'4 ( d''4 ) c''4 ( a'4 ) | \time 3/4 g'2 e'4 | g'4 ( f'4 ) e'4 | \break
+e'4 g'4 c''2  | \time 4/4 \tempo "        rit." b'4 ( d''4 ) c''4 ( a'4 ) | \time 3/4 g'2 e'4 | g'4 ( f'4 ) e'4 | \break
 
-c'2  \tempo "Più mosso" 2. = 58 e'4 | \repeat volta 2 { g'2 g'4 | a'2 e'4 | g'2 f'4 f'2 d''4 |\break
+c'2\fermata  
 
-d''2 c''4 | b'2 a'4 | a'2 g'4 | g'2 e'4 | g'2 e'4 | e'2. \break
+\tempo \markup { % make tempo note smaller
+      \concat { "Più mosso " \normal-text { "(" }
+          \teeny \general-align #Y #DOWN \note #"2." #0.8
+          \normal-text { " = 58)" }
+      }
+}
 
- \tempo "Moderato" 4 = 80 c'2 e'4 | g'2. | e'2 g'4 | c''2. | \time 4/4 \tempo "rit." b'4 ( b'4 ) c''4 ( a'4 ) \break
+e'4 | \repeat volta 2 { g'2 g'4 | a'2 e'4 | g'2 f'4 f'2 d''4 |\break
 
-\time 3/4 g'2 e'4 | g'4 ( f'4 ) e'4 } \alternative { { c'2 e'4 } {c'2. } }
+d''2 c''4 | b'2 a'4 | a'2 g'4 | g'2 e'4 | g'2 e'4 | e'2.\fermata \breathe \break
+
+\tempo \markup { % make tempo note smaller
+      \concat { "Moderato " \normal-text { "(" }
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \normal-text { " = 80)" }
+      }
+}
+ 
+ 
+ 
+ c'2 e'4 | g'2. \breathe | e'2 g'4 | c''2. \breathe | \time 4/4 \tempo "        rit." b'4 ( d''4 ) c''4 ( a'4 ) \break
+
+\time 3/4 g'2 e'4 | g'4 ( f'4 ) e'4 } \alternative { { c'2 e'4 } {c'2. } } \bar "|."
 
 }
 
 
   
-  \addlyrics {Е -- дин си ти мой Му -- са -- ла све -- ще -- но
-                    
+  \addlyrics {
+                    Е -- дин си ти, мой Му -- са -- ла, све -- ще -- но
+
                     мя -- сто, Бо -- жи връх.  Мой Му -- са -- ла, Му -- са -- ла,
                     
                     Му -- са -- ла, Му -- са -- ла, мой Му -- са -- ла. 
                     
-                    През я -- сен ден на про -- лет -- та ви -- де -- ли -- 
+                    През я -- сен ден на про -- лет -- та ви -- де -- ли
                     
-                    ли сте из -- гре -- ва от Му -- са -- ла?!    Му -- са -- ла, 
+                    ли сте из -- гре -- ва от Му -- са -- ла,    Му -- са -- ла, 
                     
                     Му -- са -- ла,  Му -- са -- ла,  от Му -- са -- ла! При пър -- ви
                     
-                    лъч на слън -- це -- то вдъх -- на -- ли ли сте ле -- ки дъх на Му -- са -- ла
+                    лъч на Слън -- це -- то вдъх -- на -- ли ли сте ле -- кий дъх на Му -- са -- ла,
                     
-                    Му -- са -- ла, Му -- са -- ла, Му -- са -- ла, на Му -- са -- ла! При ла!}
-  \addlyrics {E -- din si ti moy Mu -- sa -- la sve -- shte -- no
-                    
+                    Му -- са -- ла, Му -- са -- ла, Му -- са -- ла, на Му -- са -- ла! При ла!
+  }
+  \addlyrics {
+                    E -- din si ti, moy Mu -- sa -- la, sve -- shte -- no
+
                     mya -- sto, Bo -- zhi vrah.  Moy Mu -- sa -- la, Mu -- sa -- la,
                     
                     Mu -- sa -- la, Mu -- sa -- la, moy Mu -- sa -- la. 
                     
-                    Prez ya -- sen den na pro -- let -- ta vi -- de -- li -- 
+                    Prez ya -- sen den na pro -- let -- ta vi -- de -- li
                     
-                    li ste iz -- gre -- va ot Mu -- sa -- la?!    Mu -- sa -- la, 
+                    li ste iz -- gre -- va ot Mu -- sa -- la,    Mu -- sa -- la, 
                     
                     Mu -- sa -- la,  Mu -- sa -- la,  ot Mu -- sa -- la! Pri par -- vi
                     
-                    lach na slan -- tse -- to vdah -- na -- li li ste le -- ki dah na Mu -- sa -- la
+                    lach na Slan -- tse -- to vdah -- na -- li li ste le -- kiy dah na Mu -- sa -- la,
                     
-                    Mu -- sa -- la, Mu -- sa -- la, Mu -- sa -- la, na Mu -- sa -- la! Pri la!}
+                    Mu -- sa -- la, Mu -- sa -- la, Mu -- sa -- la, na Mu -- sa -- la! Pri la!
+  }
   
   \header {
     title = \markup \column \normal-text \fontsize #2.5 {
@@ -160,6 +194,13 @@ d''2 c''4 | b'2 a'4 | a'2 g'4 | g'2 e'4 | g'2 e'4 | e'2. \break
 
 } % score
 
+\markup {
+  \line {" "}
+  \line {" "}
+  \line {" "}
+  \line {" "}
+  \line {" "}
+}
 
 % include foreign translation(s) of the song
 \include "lyrics_de/087_mussala_lyrics_de.ly"
