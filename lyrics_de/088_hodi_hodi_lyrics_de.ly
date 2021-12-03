@@ -10,34 +10,34 @@
      \line { " " }
      
 	 
-	   \line { " "1. Lauf, lauf, lauf, }
+	   \line { 1. Lauf, lauf, lauf, }
 
-  \line { " "lauf für Wasser,}
+  \line { "   "lauf für Wasser,}
 
-  \line { " "im Morgentau, }
+  \line { "   "im Morgentau, }
 
-  \line { " "durch einen kristallklaren Bach,}
+  \line { "   "durch einen kristallklaren Bach,}
 
-  \line { " "auf einem reinen Pfad. }
+  \line { "   "auf einem reinen Pfad. }
 
-  \line { " "Bringe dieses klare Wasser nach Hause, }
+  \line { "   "Bringe dieses klare Wasser nach Hause, }
 
-  \line { " "zu den schönen Blümchen, }
+  \line { "   "zu den schönen Blümchen, }
 
-  \line { " "seinen kleinen Kindern.}
+  \line { "   "seinen kleinen Kindern.}
 
-   \line { " " }
+   \line { "   " }
 
-  \line { " " 2.	Die Regentropfen bieten ebenfalls }
+  \line {  2.	Die Regentropfen bieten ebenfalls }
 
- \line { " " reichlich Feuchtigkeit -- Strom des Leben. }
+ \line { "   " reichlich Feuchtigkeit – Strom des Leben. }
  
- \line { " "Samenkörner sprießen, }
+ \line { "   "Samenkörner sprießen, }
  
- \line { " "Knospen öffnen sich, }
+ \line { "   "Knospen öffnen sich, }
  
- \line { " "Früchte reifen. }
+ \line { "   "Früchte reifen. }
  
- \line { " "Alles erwacht; mächtig ist das Wasser!  }
+ \line { "   "Alles erwacht; mächtig ist das Wasser!  }
     }
 }

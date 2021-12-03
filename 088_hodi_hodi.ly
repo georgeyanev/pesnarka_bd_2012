@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -80,7 +80,7 @@
   \key d \major
   \time 7/16
   \tempo \markup { % make tempo note smaller
-    \concat { "Allegretto" \normal-text { "(" }
+    \concat { "Allegretto " \normal-text { "(" }
       \teeny \general-align #Y #DOWN \note #"8" #0.8
       \normal-text { " = 160)" }
     }
@@ -91,28 +91,29 @@ a8 a8 a8 a16 | a4 a8. | d'8 d'8 e'8 e'16 | e'4 e'8. | \break
 
 fis'8 fis'8 fis'8 g'16 | a'4 a'8. | b'8 a'8 g'8 fis'16 | a'4 a'8. | b'8 a'8 g'8 fis'16 | \break
 
-fis'4 fis'8. | \repeat volta 2 { b'8 b'8 b'8 b'16| d''4 b'8. | a'8 a'8 a'8 g'16 | fis'4 fis'8. | } \break
+fis'4 fis'8. | \bar ".|:" b'8 b'8 b'8 b'16| d''4 b'8. | a'8 a'8 a'8 g'16 | fis'4 fis'8. | \break
 
-a'8 g'8 g'8 fis'16 | g'4 e'8. | e'8 e'8 fis'8 e'16 | d'4 d'8. | \break
+a'8 g'8 g'8 fis'16 | g'4 e'8. | e'8 e'8 fis'8 e'16 | d'4 d'8. | \bar ":|."
  
   
   }
 \addlyrics {
-    Хо -- ди хо -- ди хо -- ди за во -- да -- та хо -- ди
+    "1. Хо" -- ди хо -- ди хо -- ди за во -- да -- та хо -- ди
                    
-                   су -- трин -- на -- та ро -- са през ре -- чи -- ца бис -- тра, по пъ -- те -- ка
+                   су -- трин -- на -- та ро -- "са –"  през ре -- чи -- ца бис -- тра, по пъ -- те -- ка
                    
                    чис -- та. За -- до -- ма  си но -- си  таз во -- ди -- ца бис -- тра,
                    
-                   за цве -- тен -- ца ми -- ли, ней -- ни -- те де -- чи -- ца. 
+                   за цве -- тен -- ца ми -- "ли –"  ней -- ни -- те де -- чи -- ца. 
   }
-  \addlyrics { Ho -- di ho -- di ho -- di za vo -- da -- ta ho -- di
+  \addlyrics { 
+    "1. Ho" -- di ho -- di ho -- di za vo -- da -- ta ho -- di
                    
-                   su -- trin -- na -- ta ro -- sa prez re -- chi -- tsa bis -- tra, po pa -- te -- ka
+                   su -- trin -- na -- ta ro -- "sa –" prez re -- chi -- tsa bis -- tra, po pa -- te -- ka
                    
                    chis -- ta. Za -- do -- ma  si no -- si  taz vo -- di -- tsa bis -- tra,
                    
-                   za tsve -- ten -- tsa mi -- li, ney -- ni -- te de -- chi -- tsa.    }
+                   za tsve -- ten -- tsa mi -- "li –" ney -- ni -- te de -- chi -- tsa.    }
   
   \header {
     title = \markup \column \normal-text \fontsize #2.5 {
@@ -120,7 +121,7 @@ a'8 g'8 g'8 fis'16 | g'4 e'8. | e'8 e'8 fis'8 e'16 | d'4 d'8. | \break
               \line { Ходи, ходи}
               \vspace #-0.6
               \center-align
-              \line \fontsize #-3 { Hodi, hodi, }
+              \line \fontsize #-3 { Hodi, hodi }
               \vspace #-0.8
               \center-align
               \line \fontsize #-3 { " " }
@@ -131,6 +132,14 @@ a'8 g'8 g'8 fis'16 | g'4 e'8. | e'8 e'8 fis'8 e'16 | d'4 d'8. | \break
 
 } % score
 
+\markup \halign #-4.83 \raise #2.8 \override #'(baseline-skip . 2) { 
+    \column  { 
+      \line  { 
+        \italic \right-align { "attacca „Тъги, скърби/Tagi, skarbi“" }
+      }
+      \line  {" "}
+    }
+} 
 
 
 \markup \fontsize #+2.5 {
@@ -139,9 +148,9 @@ a'8 g'8 g'8 fis'16 | g'4 e'8. | e'8 e'8 fis'8 e'16 | d'4 d'8. | \break
     \column {
        
 	   
-	   \line { "   " Ходи, ходи, ходи,}
+	   \line { 1. Ходи, ходи, ходи,}
 	  \line { "   " за водата ходи}
- \line { "   "сутринната роса, }
+ \line { "   "сутринната роса – }
 \line { "   " през речица бистра, }
  \line { "   "по пътека чиста. }
  \line { "   "За дома си носи }
@@ -164,9 +173,9 @@ a'8 g'8 g'8 fis'16 | g'4 e'8. | e'8 e'8 fis'8 e'16 | d'4 d'8. | \break
     \hspace #5
     \override #'(baseline-skip . 2.4)
     \column {
-            	   \line { "   " Hodi, hodi, hodi,}
+            	   \line { 1. Hodi, hodi, hodi,}
 	  \line { "   " za vodata hodi}
- \line { "   "sutrinnata rosa, }
+ \line { "   "sutrinnata rosa – }
 \line { "   " prez rechitsa bistra, }
  \line { "   "po pateka chista. }
  \line { "   "Za doma si nosi }
