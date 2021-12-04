@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -80,8 +80,8 @@
   \key g \major
   \time 2/4
   \tempo \markup { % make tempo note smaller
-    \concat { "Moderato" \normal-text { "(" }
-      \teeny \general-align #Y #DOWN \note #"8" #0.8
+    \concat { "Moderato " \normal-text { "(" }
+      \teeny \general-align #Y #DOWN \note #"4" #0.8
       \normal-text { " = 80)" }
     }
   }  
@@ -102,7 +102,7 @@
 
   e' d' a a | \time 3/4 a b c' d' e' fis' |  \break
 
-  g' g' g' g' g' g' \time 2/4  g' g' g' g' \fermata  |  \break
+  g' g' g' g' g' g' \time 2/4  g' g' g' g' \fermata  |  \bar "|."
 
   
   
@@ -165,20 +165,16 @@ Var -- vi, var -- vi, pra -- vo var -- vi! }
 
 } % score
 
- \markup \halign #-12.1 \raise #2.8 \override #'(baseline-skip . 2) { 
+ \markup \halign #-5.4 \raise #2.8 \override #'(baseline-skip . 2) { 
         \column  { 
-          \line  \halign #-3.8 { 
-            \bold  { "D. C." }
+          \line \right-align { 
+            \bold  { "D. C. con ripetizione" }
           }
-          \line  { 
-            \bold { con ripetizione }
-          }
-		   \line  { 
-            \italic { attacca "Светъл"}
+		      \line \right-align { 
+            \italic { "attacca „Светъл ден/Svetal den“"}
           }
         }
-      } 
-
+}
 
 
 \pageBreak
