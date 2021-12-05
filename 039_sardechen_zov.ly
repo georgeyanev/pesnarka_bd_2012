@@ -77,101 +77,98 @@
       }
     } % layout
 
-    \new Staff <<
-
-      \new Voice = "voice1" \absolute  {
-        \clef treble
-        \key c \major
-        \time 3/4
-        \tempo \markup {
-          % make tempo note smaller
-          \concat {
-            "Andante" \normal-text { " (" }
-            \teeny \general-align #Y #DOWN \note #"4" #0.8
-            \normal-text { " = 66)" }
-          }
-        }
-        \autoBeamOff
-        \partial 4
-        \voiceOne % stems p
-
-        \slurDown e'8 ([f'8])  g'2 g'4 |  a'4 a' a' | g'2 f'4 | e'2 e'8 ([ f' ]) | \break
-
-        g'2 g'4 | \hideNotes c''2 d''4 | \unHideNotes
-        \once \override NoteColumn.force-hshift = #1.5 e''4
-        e'' \hideNotes d''4 | c''2 c''8 d'' | \break
-
-        \repeat volta 2 {
-          e''2 \unHideNotes e''8 e'' | \hideNotes e''4 d'' c'' | \unHideNotes b'4. a'8 \slurDashed b' (a') | g'2 e'8. f'16 | \break
-          \unHideNotes g'4 c' d' | e' e' d' |
-        }  \alternative {
-          { c'2 \hideNotes c''8 d'' | \unHideNotes }
-          { c'2 \bar "|." }
+    \new Voice \absolute{
+      \clef treble
+      \key c \major
+      \time 3/4
+      \tempo \markup {
+        % make tempo note smaller
+        \concat {
+          "Andante" \normal-text { " (" }
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \normal-text { " = 66)" }
         }
       }
+      \autoBeamOff
+      \partial 4
+      e'8 ([f'8]) |  g'2 g'4 |  a'4 a' a' | g'2 f'4 | e'2 e'8 ([ f' ]) | \break
 
-      \new Voice = "voice2" \absolute  {
-        \clef treble
-        \key c \major
-        \time 3/4
-        \autoBeamOff
-        \partial 4
-        \voiceTwo % stems down
+      g'2 g'4 | c''2 d''4 | e''2 d''4 | c''2 c''8 ( [d''8]) | \break
 
-        \hideNotes e'8 [f'8]  g'2 g'4 | \unHideNotes a'2 a'4 | \hideNotes g'2 f'4 | \unHideNotes e'4 e'4 \hideNotes e'8 [ f' ] | \break
+      \repeat volta 2 {
+        e''2 \slurDashed e''8 ([e'']) |\slurSolid e''4 ( d'' ) c'' | b'4. a'8  \slurDashed b' ([a']) | g'2 e'8. f'16 | \break
+        g'4 c' d' | e' e' d' |
+      }
+      \alternative {
+        { c'2. ~| c'2  \slurSolid c''8 ( [ d'' ] ) |  }
 
-        g'2 g'4 | \unHideNotes c''2 d''4 | e''2 d''4^\fermata | c''2 \slurDashed \slurUp c''8 ([d'']) | \break
-
-        \repeat volta 2 {
-          e''2 e''4 | e''4 (d'') c'' | \hideNotes b'4. a'8 b' a' | g'2 e'8. f'16 \break |
-          g'4 c' d' | \unHideNotes e'2 \hideNotes d'4 |
-        }  \alternative {
-          { c'2 \unHideNotes c''8 ([ d'' ]) | \hideNotes }
-          { c'2 \bar "|." }
-        }
+        { c'2.  ( | c'4 ) r4 e'8 ([f'8 ])| \break }
       }
 
+      g'2 g'4 |  a'4 a' a' | g'2 f'4 | e'2 e'8 ([ f' ]) | \break
 
-      \new Lyrics \lyricsto "voice1" {
-        "1.Пред" Теб при -- па -- да -- ме, Гос -- по -- ди, днес
-        с~чис -- ти, тре -- пет -- ни _ ду -- ши. Във _
-        пе -- сен из -- ли -- _ ва -- ме \set ignoreMelismata = ##t сър -- ца -- та си и зо --
-        вем Те, Пре -- свя -- тий, про -- сти! Във _ сти!
-      }
-      \new Lyrics \lyricsto "voice1" {
-        "1.Pred" Teb pri -- pa -- da -- me, Gos -- po -- di, dnes
-        s~chis -- ti, tre -- pet -- ni _ du -- shi. Vav _
-        pe -- sen iz -- li -- _ va -- me \set ignoreMelismata = ##t sar -- tsa -- ta si i zo --
-        vem Te, Pre -- svya -- tiy, pro -- sti! Vav _ sti!
+      g'2 g'4 | c''2 d''4 | e''2 d''4 | c''2 c''8 ( [d''8]) | \break
+
+      \repeat volta 2 {
+        e''2 e''4 | e''4 d'' c'' | b'4. a'8  b' a' | g'2 e'8. f'16 | \break
+        g'4 c' d' | e' e' d' |
       }
 
-      \new Lyrics \lyricsto "voice2" {
-        "2.За" -- бра -- вяй гре -- хо -- ве -- те на -- ши, о --
-        бил -- но нас бла -- го -- сло -- ви. Ца --
-        рю \set ignoreMelismata = ##t пре -- бла -- гий на свет -- ли -- те ду -- ши, в~цар -- ство --
-        то Си ни при -- е -- ми! Ца -- _ ми!
-      }
-      \new Lyrics \lyricsto "voice2" {
-        "2.Za" -- bra -- vyay gre -- ho -- ve -- te na -- shi, o --
-        bil -- no nas bla -- go -- slo -- vi. Tsa --
-        ryu \set ignoreMelismata = ##t pre -- bla -- giy na svet -- li -- te du -- shi, v~tsar -- stvo --
-        to Si ni pri -- e -- mi! Tsa -- _ mi!
+      \alternative {
+        { c'2. ~| c'2  c''8 ( [ d'' ] ) |  }
+        { c'2. ( | c'4 ) r4 e'8 ([f'8 ])| \break }
       }
 
-      \new Lyrics \lyricsto "voice1" {
-        "3.Там" да те сла -- вим през веч -- ност -- та, е --
-        дин Ти за слу -- жа -- ваш хва -- ла. О -- гра --
-        ди ни _ с~ми -- _ ло -- сти -- те Тво -- и, о -- за --
-        ри ни с~Твой -- та Свет -- ли -- на! О -- гра -- на!
+      g'2 g'4 |  a'4 a' a' | g'2 f'4 | e'2 e'8 ([ f' ]) | \break
+
+      g'2 g'4 | c''2 d''4 | e''4 e''4 d''4 | c''2 c''8 ([d''8]) | \break
+
+      \repeat volta 2 {
+        e''2 \slurDashed e''8   ( [ e''] ) | e''4  d'' c'' | \slurSolid b'4. (a'8)  b' ([a']) | g'2 e'8. f'16 | \break
+        g'4 c' d' | e' e' d' |
       }
-      \new Lyrics \lyricsto "voice1" {
-        "3.Tam" da te sla -- vim prez vech -- nost -- ta, e --
-        din Ti za slu -- zha -- vash hva -- la. O -- gra --
-        di ni _ s~mi -- _ lo -- sti -- te Tvo -- i, o -- za --
-        ri ni s~Tvoy -- ta Svet -- li -- na! O -- gra -- na!
+      \alternative {
+        { c'2. ~| c'2 \slurDashed c''8 ( [ d'' ] )   |   }
+        {\slurSolid  c'2. ( | c'4 ) r4 r4 \bar "|."  | \break }
       }
 
-    >>
+    }
+
+    \addlyrics {
+      "1.Пред" Теб при -- па -- да -- ме, Гос -- по -- ди, днес
+      с~чис -- ти, тре -- пет -- ни  ду -- ши. Във
+      пе -- сен_из -- ли --  ва -- ме  сър -- ца-та си и зо --
+      вем Те, Пре -- свя -- тий, про -- сти! Във сти!
+
+      "2.За" -- бра -- вяй на -- ши -- те гре -- хо -- ве, о --
+      бил -- но нас бла -- го -- сло -- ви. Ца --
+      рю пре -- бла -- гий на свет -- ли -- те ду -- ши, в~цар -- ство --
+      то си ни Ти при -- е -- ми! __ Ца -- ми!
+
+      "3.Там" да те сла -- вим през веч -- ност -- та, E --
+      дин Ти за слу -- жа -- ваш хва -- ла. О-гра --
+      ди ни_с Тво -- и -- те ми -- лос -- ти, о -- за --
+      ри ни с~Твой -- та Свет -- ли -- на! __ О-гра -- на!
+    }
+    \addlyrics {
+      "1.Pred" Teb pri -- pa -- da -- me, Gos -- po -- di, dnes
+      s~chis -- ti, tre -- pet -- ni  du -- shi. Vav
+      pe -- sen_iz -- li --  va -- me  sar -- tsa-ta si i zo --
+      vem Te, Pre -- svya -- tiy, pro -- sti! Vav sti!
+
+      "2.Za" -- bra -- vyay na -- shi -- te gre -- ho -- ve, o --
+      bil -- no nas bla -- go -- slo -- vi. Tsa --
+      ryu pre -- bla -- giy na svet -- li -- te du -- shi,  v~tsar -- stvo --
+      to si ni Ti pri -- e -- mi! __ Tsa -- mi!
+
+      "3.Tam" da te sla -- vim prez vech -- nost -- ta, E --
+      din Ti za slu -- zha -- vash hva -- la. O-gra --
+      di ni_s Tvo -- i -- te mi -- los -- ti, o -- za --
+      ri ni s~Tvoy -- ta Svet -- li -- na! __ O-gra -- na!
+    }
+
+
+
 
     \header {
       title = \markup \column \normal-text \fontsize #2.5 {
@@ -179,7 +176,7 @@
         \line { Сърдечен зов }
         \vspace #-0.6
         \center-align
-        \line \fontsize #-3 { Sardechen zov}
+        \line \fontsize #-3 { Sardechen zov }
         \vspace #-0.8
         \center-align
         \line \fontsize #-3 { " " }
@@ -190,22 +187,13 @@
 
   } % score
 
-  \pageBreak
-
-  \markup \fontsize #+2.5 {
-    \hspace #1
-    \override #'(baseline-skip . 2.4) % affects space between column lines
-    \column {
-
+  \markup  {
+    \column  {
+      \line  {" "}
+      \line  {" "}
+      \line  {" "}
     }
-
-    \hspace #5
-    \override #'(baseline-skip . 2.4)
-    \column {
-
-    } %column
-  } % markup
-
+  }
 
 
   % include foreign translation(s) of the song
