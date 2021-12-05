@@ -56,6 +56,18 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../077_skrabta_si_ti_kazhi.ly \
     ../078_gree_gree.ly \
     ../079_Duhat_Bozhii.ly \
+    ../080_mahar_benu_aba.ly \
+    ../080_2_v_mrak_tamnota.ly \
+    ../081_v_zorite_na_zhivota.ly \
+    ../082_Bog_e_lyubov.ly \
+    ../083_01_vehadi.ly \
+    ../083_2_vecher_sutrin.ly \
+    ../084_imashe_chelovek.ly \
+    ../086_1_kazhi_mi_ti_istinata.ly \
+    ../086_02_blagata_pesen.ly \
+    ../087_mussala.ly \
+    ../088_hodi_hodi.ly \
+    ../089_tagi_skarbi.ly \
     > tmp.ly
 
 lilypond --include=../ -o pesn_all tmp.ly
