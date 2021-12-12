@@ -1,10 +1,8 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \markup \fill-line { \fontsize #6 "Gib, gib" }
-\markup \null
-\markup \null
 \markup \fontsize #+2.5 {
-    \hspace #16
+    \hspace #10
     \override #'(baseline-skip . 2)
     \column {
      \line { " " }

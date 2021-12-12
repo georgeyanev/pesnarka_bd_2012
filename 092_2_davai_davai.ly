@@ -81,7 +81,7 @@
     \time 5/4 
     %\tempo "Moderato" 8 = 160
     \tempo \markup { % make tempo note smaller
-      \concat { "Andante " \normal-text { "(" }
+      \concat { "Moderato " \normal-text { "(" }
           \teeny \general-align #Y #DOWN \note #"4" #0.8
           \normal-text { " = 60)" }
       }
@@ -98,11 +98,8 @@ f'4 d' e' e'2 \repeat volta 2 {| a'4 a' b'8 ( c'' ) d''2 |  e''4 c'' b' a'2 \bre
     
  b'4 a' gis' a'2 | f'4 d' e' e'2 } | gis'4 f' f' gis'2 \break |
 
-f'4 d' e' e'2 | gis'4 f' f' gis'2 |  f'4  d' e' e'2|
-
-
-
-    
+f'4 d' e' e'2 | gis'4 f' f' gis'2 | \tempo "rit." f'4  d' e' e'2 | \bar "|."
+  
   }
   
   
@@ -169,18 +166,16 @@ na po -- le -- to ot He -- be -- to.
 
 } % score
 
-\markup \halign #-12.4 \raise #2.8 \override #'(baseline-skip . 2) { 
+\markup \halign #-9.0 \raise #2.8 \override #'(baseline-skip . 2) { 
   \column  { 
-    \line  \halign #-3 { 
-      \bold  { "D. C." }
+    \line \right-align { 
+      \bold  { "D. C. con ripetizione" }
     }
    
   }
 } 
 
-
-
-\pageBreak
+%\pageBreak
 
 % include foreign translation(s) of the song
 \include "lyrics_de/092_2_datay_davay_lyrics_de.ly"
