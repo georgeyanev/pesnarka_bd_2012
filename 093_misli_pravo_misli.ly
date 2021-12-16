@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -78,12 +78,12 @@
 
   \new Voice \absolute  {
     \clef treble
-    \key c \major
+    \key d \major
     \time 2/4 
     %\tempo "Moderato" 8 = 160
     \tempo \markup { % make tempo note smaller
       \concat { "Adagio" \normal-text { " (" }
-          \teeny \general-align #Y #DOWN \note #"8" #0.8
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
           \normal-text { " = 54)" }
       }
     }
@@ -92,18 +92,24 @@
 	
 	 a4 | d'2 | \time 3/4 b'4 a' fis' | \time 4/4 a'2 ( a'8 ) r8 a4 | \time 2/4 d'2 | \time 3/4 b'4 a'4 fis'4 \break
  
- a'2 r8 fis'8 | \repeat volta 2 {  \time 9/8 fis'4 fis'8 fis'4 fis'8 fis'4 g'8 | a'4 a'8 b'4 a'8 a'4 fis'8 | \break
+ a'2 r8 
+    \tempo \markup { % make tempo note smaller
+      \concat { "Più mosso" \normal-text { " (" }
+          \teeny \general-align #Y #DOWN \note #"4." #0.8
+          \normal-text { " = 58)" }
+      }
+    }
+ fis'8 | \repeat volta 2 {  \time 9/8 fis'4 fis'8 fis'4 fis'8 fis'4 g'8 | a'4 a'8 b'4 a'8 a'4 fis'8 | \break
  
- a'4 g'8 g'4 fis'8 fis'4 e'8 | \time 6/8 e'4 e'8 fis'4 e'8 | } \alternative { {d'4. (d'4 ) fis'8 } 
-  
-{d'4. (d'4) a8 | } } \break \repeat volta 2 {  \time 9/8 a4 a8 a4 a8 a4 a8 | g'4 fis'8 e'4 e'8 e'4 e'8 | \break 
+ a'4 g'8 g'4 fis'8 fis'4 e'8 | \time 6/8 e'4 e'8 fis'4 e'8 | } \alternative { {d'4. (d'4 ) fis'8 \break} 
+{d'4. (d'4) a8 } } \repeat volta 2 {  \time 9/8 a4 a8 a4 a8 a4 a8 | g'4 fis'8 e'4 e'8 e'4 e'8 | \break 
 
-\time 6/8  fis'4 e'8 d'4 cis'8 | } \alternative { { d'4. ( d'4 ) a'8 } { d'4. ( d'4 )  r8 } }
+\time 6/8  fis'4 e'8 d'4 cis'8 | } \alternative { { d'4. ( d'4 ) a8 } { d'4. ( d'4 )  r8 } } \bar "|."
    
   }
   
   \addlyrics { 
-    Ми -- сли, пра -- во ми -- сли. Ми -- сли, пра -- во ми -- сли! 
+    Ми -- сли, пра -- во ми -- сли! Ми -- сли, пра -- во ми -- сли! 
                     
 Све -- ще -- ни ми -- сли за Жи -- во -- та ти кре -- пи, све -- ще -- ни ми -- сли за Жи -- во -- та ти кре -- пи. Све -- пи. Кре -- пи кре -- пи
 
@@ -125,7 +131,7 @@ kre -- pi sve -- shte -- ni mi -- sli za Zhi -- vo -- ta ti kre -- pi.  Kre -- p
               \line { Мисли, право мисли }
               \vspace #-0.6
               \center-align
-              \line \fontsize #-3 { Misli, pravo misli! }
+              \line \fontsize #-3 { Misli, pravo misli }
               \vspace #-0.8
               \center-align
               \line \fontsize #-3 { " " }
@@ -135,9 +141,17 @@ kre -- pi sve -- shte -- ni mi -- sli za Zhi -- vo -- ta ti kre -- pi.  Kre -- p
   \midi{}
 } % score
 
+\markup \halign #-9.0 \raise #2.8 \override #'(baseline-skip . 2) { 
+  \column  { 
+    \line \right-align { 
+      \bold  { "D. C. con ripetizioni" }
+    }
+    \line { " " }
+    \line { " " }
+    \line { " " }
+  }
+} 
 
-
-\pageBreak
 
 % include foreign translation(s) of the song
 \include "lyrics_de/093_misli_pravo_misli_lyrics_de.ly"
