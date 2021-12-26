@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -82,7 +82,7 @@
     \tempo \markup { % make tempo note smaller
       \concat { "Allegretto " \normal-text { "(" }
           \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 100)" }
+          \normal-text { " = 108)" }
       }
     }  
 
@@ -102,60 +102,36 @@ d'4 e'8 e' | e' e' e' fis' | g'4 e'8 fis' | \break
 
 g'4 b'8 b'8 | b'8 a'8 g'8 fis'8 | a'4 fis'8 fis' | \break
 
-a'8 g' fis' e' | } \alternative { { d'4 e'8 e'8 } { d'2 } } 
+a'8 g' fis' e' | } \alternative { { d'4 e'8 e'8 } { d'2 } } \bar "|."
 
 }
   
- \addlyrics {Све -- тъл лъч от го -- ре сли  --  за,
-
-мал -- ки -- те цве -- тя да о -- за -- ри;
-
-бли -- зо из -- вор -- че из -- ви -- ра,
-
-ле -- ко бли -- ка, шуш  -- не, шу -- мо -- ли
-
-и цве -- тя -- та веч -- но ве -- се -- ли.
-
-Ве -- се -- ли, ве -- се -- ли, ве -- се -- ли,
-
-бли -- ка, шуш -- не, ве -- се -- ли,
-
-бли -- ка, шуш -- не, ве -- се -- ли,
-
-бли -- ка, шуш -- не, ве -- се -- ли,
-
-ле -- ко бли  -- ка, шу --  мо -- ли
-
-и цве -- тя -- та ве -- се -- ли.
-
-
-  
+ \addlyrics {
+    Све -- тъл лъч от го -- ре сли  --  за,
+    мал -- ки -- те цве -- тя да о -- за -- ри;
+    бли -- зо из -- вор -- че из -- ви -- ра,
+    ле -- ко бли -- ка, шуш  -- не, шу -- мо -- ли
+    и цве -- тя -- та веч -- но ве -- се -- ли.
+    Ве -- се -- ли, ве -- се -- ли, ве -- се -- ли,
+    бли -- ка, шуш -- не, ве -- се -- ли,
+    бли -- ка, шуш -- не, ве -- се -- ли,
+    бли -- ка, шуш -- не, ве -- се -- ли,
+    ве -- се -- ли, ле -- ко бли  -- ка, шу --  мо -- ли
+    и цве -- тя -- та ве -- се -- ли. Ве -- се -- ли.
   }
 
   \addlyrics {
-Sve -- tal lach ot go -- re sli  --  za,
-
-mal -- ki -- te tsve -- tya da o -- za -- ri;
-
-bli -- zo iz -- vor -- che iz -- vi -- ra,
-
-le -- ko bli -- ka, shush  -- ne, shu -- mo -- li
-
-i tsve -- tya -- ta vech -- no ve -- se -- li.
-
-Ve -- se -- li, ve -- se -- li, ve -- se -- li,
-
-bli -- ka, shush -- ne, ve -- se -- li,
-
-bli -- ka, shush -- ne, ve -- se -- li,
-
-bli -- ka, shush -- ne, ve -- se -- li,
-
-le -- ko bli  -- ka, shu --  mo -- li
-
-i tsve -- tya -- ta ve -- se -- li.
-
-    
+    Sve -- tal lach ot go -- re sli  --  za,
+    mal -- ki -- te tsve -- tya da o -- za -- ri;
+    bli -- zo iz -- vor -- che iz -- vi -- ra,
+    le -- ko bli -- ka, shush  -- ne, shu -- mo -- li
+    i tsve -- tya -- ta vech -- no ve -- se -- li.
+    Ve -- se -- li, ve -- se -- li, ve -- se -- li,
+    bli -- ka, shush -- ne, ve -- se -- li,
+    bli -- ka, shush -- ne, ve -- se -- li,
+    bli -- ka, shush -- ne, ve -- se -- li,
+    ve -- se -- li, le -- ko bli  -- ka, shu --  mo -- li
+    i tsve -- tya -- ta ve -- se -- li. Ve -- se -- li.
   }
   
   \header {
@@ -178,8 +154,13 @@ i tsve -- tya -- ta ve -- se -- li.
 } % score
 
 
-
-
+\markup \halign #-9.3 \raise #2.8 \override #'(baseline-skip . 2) { 
+  \column  { 
+    \line \right-align { 
+      \bold  { "D. C. con ripetizione" }
+    }
+  }
+} 
 
 \pageBreak
 
