@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -83,7 +83,7 @@
     %\tempo "Moderato" 8 = 160
     \tempo \markup { % make tempo note smaller
       \concat { "Moderato " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"8" #0.8
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
           \normal-text { " = 88)" }
       }
     }
@@ -96,14 +96,16 @@ g'4 e' a' f' | g'4 d' e'2 \fermata | a'4 a' c''4. b'8 | b'2 a' \break |
  g'4 f' e' d' | d'2 c' |  \time 6/4  b4. c'8 d'4 ( e' f' ) e' \break | 
  
  \time 4/4  g'4 e' a' g' | f'4 e' d' c' | c'2 ( b ) | a2. r4 \break | 
+
+ \bar "|."
   }
   
   \addlyrics { До -- бър
   ден е свет -- ли -- я ден. Ху -- бав и кра --
   сив е той! Всич -- ко о -- за -- ря -- ва, всич
-  -- ко о -- жи -- вя -- ва и в_Жи -- во -- та Бо
+  -- ко о -- жи -- вя -- ва и в~Жи -- во -- та Бо
   -- жи -- е -- то бла -- го той раз -- да -- ва,
-  и в_Жи -- во -- та Бо -- жи -- е -- то бла -- го
+  и в~Жи -- во -- та Бо -- жи -- е -- то бла -- го
   той раз -- да -- ва.
     
   }
@@ -112,9 +114,9 @@ g'4 e' a' f' | g'4 d' e'2 \fermata | a'4 a' c''4. b'8 | b'2 a' \break |
   Do -- bar
   den e svet -- li -- ya den. Hu -- bav i kra --
   siv e toy! Vsich -- ko o -- za -- rya -- va, vsich
-  -- ko o -- zhi -- vya -- va i v_Zhi -- vo -- ta Bo
+  -- ko o -- zhi -- vya -- va i v~Zhi -- vo -- ta Bo
   -- zhi -- e -- to bla -- go toy raz -- da -- va,
-  i v_Zhi -- vo -- ta Bo -- zhi -- e -- to bla -- go
+  i v~Zhi -- vo -- ta Bo -- zhi -- e -- to bla -- go
   toy raz -- da -- va.
   }
 
@@ -133,6 +135,20 @@ g'4 e' a' f' | g'4 d' e'2 \fermata | a'4 a' c''4. b'8 | b'2 a' \break |
   
   \midi{}
 } % score
+
+
+
+\markup \halign #-35.2 \raise #2.8 \override #'(baseline-skip . 2) { 
+  \column  { 
+    \line \right-align { 
+      \bold  { "D. C." }
+    }
+    \line { " " }
+    \line { " " }
+    \line { " " }
+    \line { " " }
+  }
+} 
 
 
 % include foreign translation(s) of the song
