@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -70,7 +70,10 @@
     
     \context { % adjust space between staff and lyrics and between the two lyric lines
       \Lyrics
-      \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+      \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
+        (basic-distance . 4.5)
+        (padding . 0.5)
+      )
       \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
     }
   } % layout
@@ -82,16 +85,20 @@
     \time 6/4 
     %\tempo "Moderato" 8 = 160
     \tempo \markup { % make tempo note smaller
-      \concat { "Moderato " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"8" #0.8
-          \normal-text { " = 160)" }
+      \concat { "Lento " \normal-text { "(" }
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \normal-text { " = 50)" }
       }
     }
+    \autoBeamOff
    \repeat volta 3 {   g4 c' e' c' g2 | g4 c' e' c' g2 | \time 4/4  e'4 g' c''2 \break |
  
- b'4 ( a' ) g'2 | \time 6/4 } \alternative { { a'4 f' a' g' e'2 | g'4 e' f' d' c'2 } } \break | 
-
-\time 6/4  a'4 ( f' a' g' ) e'2 |  g'4 e'8 e' f'4 d' c'2  \break 
+   b'4 ( a' ) g'2 | \time 6/4 } \alternative { 
+    { a'4 f' a' g' e'2 | g'4 e' f' d' c'2 | \break } 
+    { \once \override Score.TimeSignature.break-visibility = ##(#f #f #t)
+      \time 6/4 a'4 ( f' a' g' ) e'2 |  g'4 e'8 e' f'4 d' c'2}
+   }  
+   \bar "|."
   }
   
   \addlyrics { Вдъх -- но -- ве -- ни -- е,
@@ -128,6 +135,15 @@
 } % score
 
 
+\markup \halign #-9.0 \raise #2.8 \override #'(baseline-skip . 2) { 
+  \column  { 
+    \line { " " }
+    \line { " " }
+    \line { " " }
+    \line { " " }
+    \line { " " }
+  }
+} 
 
 
 % include foreign translation(s) of the song

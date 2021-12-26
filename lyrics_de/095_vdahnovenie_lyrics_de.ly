@@ -4,13 +4,13 @@
 \markup \null
 \markup \null
 \markup \fontsize #+2.5 {
-    \hspace #10
+    \hspace #16
     \override #'(baseline-skip . 2)
     
         \column {
-     \line { " " }      
-      \line {  1. Inspiration, Inspiration, Inspiration,  }
-      \line {   "   "Inspiration, Inspiration, du bist ein Segen. }  
+      \line { " " }      
+      \line {  Inspiration, Inspiration, Inspiration,  }
+      \line {  Inspiration, Inspiration, du bist ein Segen. }  
       
       
        
