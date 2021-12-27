@@ -166,13 +166,15 @@
 
 } % score
 
-
-
-
-
-\pageBreak
+\markup \halign #-9.0 \raise #2.8 \override #'(baseline-skip . 2) { 
+  \column  { 
+    \line { " " }
+    \line { " " }
+    \line { " " }
+  }
+} 
 
 % include foreign translation(s) of the song
-%\include "lyrics_de/020_bratstvo_edinstvo_lyrics_de.ly"
+\include "lyrics_de/096_vesel_ti_badi_lyrics_de.ly"
 
 } % bookpart
