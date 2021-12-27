@@ -101,20 +101,27 @@ d'4 d'8 e' f'4 a' g'2 e'8 d' e' f' | \time 2/4  g'2 | \break
  d'8  [( e' )] f' [( e' )] g' [( f' )] e' d' } \alternative { { | c'2. c''4 | } {c'2. r4 } } \bar "|."
   }
   
-  \addlyrics {Всич -- ко
+  \addlyrics {
+  Всич -- ко
   в~Жи -- во -- та е по -- сти -- жи -- мо, ко --
   га -- то вре -- ме -- то е до -- бро и ний сме
   ра -- зум -- ни. За -- що -- то До -- бро -- то
   е ос -- но -- ва, а Ра -- зум -- ност -- та 
   цел, с~ко -- и -- то Ду -- хът гра -- ди бъд --
   ни -- ни, бъд -- ни -- ни, ве -- ли -- ки бъд --
-  ни -- ни. За -- ни.}
-  \addlyrics {Vsich -- ko
-  v_zhi -- vo -- ta e pos -- ti -- zhi -- mo, ko -- ga -- to vre
-  -- me -- to e dob -- ro, i niy sme ra -- zum -- ni. Za -- shto
-  -- to dob -- ro -- to e os -- no -- va, a ra -- zum -- nost -- ta
-  tsel, s_ko -- i -- to Du -- hat gra -- di bad -- ni -- ni,
-  bad -- ni -- ni, ve -- li -- ki bad -- ni -- ni. Za -- ni.}
+  ни -- ни. За -- ни.
+  }
+  
+  \addlyrics {
+  Vsich -- ko
+  v~Zhi -- vo -- ta e po -- sti -- zhi -- mo, ko --
+  ga -- to vre -- me -- to e do -- bro i niy sme
+  ra -- zum -- ni. Za -- shto -- to Do -- bro -- to
+  e os -- no -- va, a Ra -- zum -- nost -- ta 
+  tsel, s~ko -- i -- to Du -- hat gra -- di bad --
+  ni -- ni, bad -- ni -- ni, ve -- li -- ki bad --
+  ni -- ni. Za -- ni.
+  }
   
   \header {
     title = \markup \column \normal-text \fontsize #2.5 {
