@@ -82,10 +82,11 @@
     %\tempo "Moderato" 8 = 160
     \tempo \markup { % make tempo note smaller
       \concat { "Moderato " \normal-text { " (" }
-          \teeny \general-align #Y #DOWN \note #"8" #0.8
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
           \normal-text { " = 76)" }
       }
     }
+    \autoBeamOff
 
 c'4 e'8. f'16 g'4 e' | a'4 g'8. e'16 g'4 g' \break |
 
@@ -95,17 +96,17 @@ g'4 f'8. e'16 f'4 a' | \time 5/4  g'4 g'8. fis'16 g'2 c''4 | \time 2/4  b'4 a'8 
                                             
 d'4 d'8 e' f'4 a' g'2 e'8 d' e' f' | \time 2/4  g'2 | \break
  
- \time 5/4  a'4 g' a'8 b' c''2 | \autoBeamOn \time 4/4  d''8 ( c'' ) b' ( a' ) g'2 \break 
+ \time 5/4  a'4 g' a'8 b' c''2 | \time 4/4  d''8 [( c'' )] b' [( a' )] g'2 \break 
 
- d'8  ( e' ) f' ( e' ) g' ( f' ) e' d' } \alternative { { | c'2. c''4 | } {c'2. r4 } }  
+ d'8  [( e' )] f' [( e' )] g' [( f' )] e' d' } \alternative { { | c'2. c''4 | } {c'2. r4 } } \bar "|."
   }
   
   \addlyrics {Всич -- ко
-  в_Жи -- во -- та е по -- сти -- жи -- мо, ко --
+  в~Жи -- во -- та е по -- сти -- жи -- мо, ко --
   га -- то вре -- ме -- то е до -- бро и ний сме
   ра -- зум -- ни. За -- що -- то До -- бро -- то
   е ос -- но -- ва, а Ра -- зум -- ност -- та 
-  цел, с_ко -- и -- то Ду -- хът гра -- ди бъд --
+  цел, с~ко -- и -- то Ду -- хът гра -- ди бъд --
   ни -- ни, бъд -- ни -- ни, ве -- ли -- ки бъд --
   ни -- ни. За -- ни.}
   \addlyrics {Vsich -- ko
@@ -118,7 +119,7 @@ d'4 d'8 e' f'4 a' g'2 e'8 d' e' f' | \time 2/4  g'2 | \break
   \header {
     title = \markup \column \normal-text \fontsize #2.5 {
               \center-align
-              \line { Всичко в Живота е постищимо }
+              \line { Всичко в Живота е постижимо }
               \vspace #-0.6
               \center-align
               \line \fontsize #-3 { Vsichko v zhivota e postizhimo }
