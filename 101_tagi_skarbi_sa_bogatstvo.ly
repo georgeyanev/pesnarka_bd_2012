@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -83,7 +83,7 @@
     %\tempo "Moderato" 8 = 160
     \tempo \markup { % make tempo note smaller
       \concat { "Andantino" \normal-text { " (" }
-          \teeny \general-align #Y #DOWN \note #"8" #0.8
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
           \normal-text { " = 69)" }
       }
     }
@@ -94,32 +94,31 @@
  
  d' c' d'4 | a'2|  \time 5/4 a'4 c''8 bes'8 a' g' a'2 | \break 
  
-  g'4  a'8 g' fis'8 e' d'2 | \time 2/4 c'4 d'8 e'8| g'2 | \break
+  g'4  a'8 g' fis'8 es' d'2 | \time 2/4 c'4 d'8 es'8| g'2 | \break
 
-  a' g' fis' | es'2|  c'4 d'8 es'8 | fis'4 \fermata  es'4 \fermata  | d'2 \fermata  \break
+  a'4 g'8 fis' | es'2 |  c'4 d'8 es'8 | fis'4 \fermata  es'4 \fermata  | d'2 \fermata  \bar "|."
   }
   
-  \addlyrics { Тъ -- ги, скър -- би са бо  --  гат -- ство
-за жи -- во -- та, вду -- ша скри -- ти,
-за бъд -- ни до -- бри -- ни,
-за бла -- ги пло -- до -- ве,
-за свет -- ли дни,
-за свет -- ли дни,
-за свет -- ли дни,
-дни, дни, дни.
-
-  }
+  \addlyrics { 
+    Тъ -- ги, скър -- би са бо  --  гат -- ство
+    за Жи -- во -- та, в~ду -- ша скри -- ти
+    за бъд -- ни До -- бри -- ни,
+    за бла -- ги пло -- до -- ве,
+    за свет -- ли дни,
+    за свет -- ли дни,
+    за свет -- ли дни,
+    дни, дни.
+ }
 
   \addlyrics {
-     Ta -- gi, skar -- bi sa bo  --  gat -- stvo
-za zhi -- vo -- ta, vdu -- sha skri -- ti,
-za bad -- ni do -- bri -- ni,
-za bla -- gi plo -- do -- ve,
-za svet -- li dni,
-za svet -- li dni,
-za svet -- li dni,
-dni, dni, dni.
-   
+    Ta -- gi, skar -- bi sa bo  --  gat -- stvo
+    za Zhi -- vo -- ta, v~du -- sha skri -- ti
+    za bad -- ni Do -- bri -- ni,
+    za bla -- gi plo -- do -- ve,
+    za svet -- li dni,
+    za svet -- li dni,
+    za svet -- li dni,
+    dni, dni.
   }
 
   \header {
@@ -138,8 +137,16 @@ dni, dni, dni.
   \midi{}
 } % score
 
-\pageBreak
-
+\markup \halign #-35.2 \raise #2.8 \override #'(baseline-skip . 2) { 
+  \column  { 
+    \line \right-align { 
+      \bold  { "D. C." }
+    }
+    \line { " " }
+    \line { " " }
+    \line { " " }
+  }
+} 
 
 % include foreign translation(s) of the song
 \include "lyrics_de/101_tagi_skarbi_sa_bogatstvo_lyrics_de.ly"
