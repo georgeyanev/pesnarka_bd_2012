@@ -86,45 +86,21 @@
         \concat {
           "Andante" \normal-text { " (" }
           \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 69)" }
+          \normal-text { " = 60)" }
         }
       }
       \autoBeamOff
-      c'8 ( [ d'8 es'8 c'8 ] | % 2
-      es'2 ) | % 3
-      c'8 ( [ d'8 ] es'8 ) c'8 | % 4
-      \time 3/4  | % 4
-      as'4 ^\fermata g'2 | % 5
-      \time 5/4  | % 5
-      c''4. b'8 c''8 ( [ as'8 ) ]
-      g'2 \break \repeat volta 2 {
-        | % 6
-        \time 3/4  | % 6
-        g'8 c''8 es''4. d''8 | % 7
-        c''8 g'8 bes'8 ( [ as'8 ) ]
-        g'8 ( [ f'8 ) ] | % 8
-        \time 4/4  | % 8
-        es'4 ( d'8. ) es'16 c'2
-        \break ^ "Fine" |
-      } % 9
-      \time 3/4  | % 9
-      es'8. f'16 g'4 c'4 |
-      \time 4/4  |
-      as'4 g'8. fis'16 g'2 | % 11
-      \time 5/4  | % 11
-      c''4. ( b'8 ) c''8 as'8
-      g'2 \break | % 12
-      \time 4/4  | % 12
-      f'8. ( [ g'16 ) ] es'8. d'16
-      es'2 | % 13
-      es'8. ( [ f'16 ) ] d'8. es'16
-      c'2 | % 14
-      \time 3/4  | % 14
-      g'8 c''8 es''4. d''8 \break | % 15
-      c''8 g'8 bes'8 ( [ as'8 ) ]
-      g'8 ( [ f'8 ) ] | % 16
-      \time 4/4  | % 16
-      es'4 ( d'8. ) [ es'16 ] c'2  \bar "|."
+
+      c'8 ( [ d'8 es'8 c'8 ] | es'2 ) | c'8 ( [ d'8 es'8] ) c'8 | \time 3/4  | as'4 ^\fermata g'2 | \time 5/4 \break 
+    
+      c''4. b'8 c''8 ( [ as'8 ) ] g'2 | \repeat volta 2 { \time 3/4 g'8 c''8 es''4. d''8 | c''8 g'8 bes'8 ( [ as'8 ) ] g'8 ( [ f'8 ) ] | \time 4/4 \break
+    
+      es'4 ( d'8. ) es'16 \tempo "      Fine" c'2 } \time 3/4 | es'8. f'16 g'4 c'4 | \time 4/4 | as'4 g'8. fis'16 g'2 | \time 5/4 \break
+    
+      c''4. ( b'8 ) c''8 as'8 g'2 | \time 4/4 | f'8. ( [ g'16 ) ] es'8. d'16 es'2 | es'8. ( [ f'16 ) ] d'8. es'16 c'2 | \time 3/4 \break
+    
+      g'8 c''8 es''4. d''8 | c''8 g'8 bes'8 ( [ as'8 ) ] g'8 ( [ f'8 ) ] | \time 4/4 | es'4 ( d'8. ) es'16 c'2  \bar "|."
+    
     }
 
     \addlyrics {
@@ -165,19 +141,22 @@
 
       } % score
 
-      \markup \halign #-12.3 \raise #7.8 \override #'(baseline-skip . 2) {
+      \markup \halign #-12.4 \raise #3 \override #'(baseline-skip . 2) {
         \column  {
           \line \right-align {
-            \bold  { "D. C." }
+            \bold  { "D. C. al Fine" }
           }
           \line \right-align {
             \bold  { "con ripetizione" }
           }
+          \line { " " }
+          \line { " " }
+          \line { " " }
         }
       }
 
 
       % include foreign translation(s) of the song
-      \include "lyrics_de/101_duhat_mi_shepne_tova.ly"
+      \include "lyrics_de/101_duhat_mi_shepne_tova_lyrics_de.ly"
 
     } % bookpart
