@@ -72,7 +72,10 @@
       \context {
         % adjust space between staff and lyrics and between the two lyric lines
         \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
+          (basic-distance . 4.5)
+          (padding . 0.5)
+        )
         \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
       }
     } % layout
@@ -98,11 +101,11 @@
       \repeat volta 2 {
         e'8 | a'4 a'8. b'16 | cis''4 a'8. a'16 | cis''8. cis''16 d''8. cis''16 | b'2 | e''4 e''8. ( [ d''16 ] ) \break |
 
-        cis''4 a' | b'8 b' cis''8. b'16 | a'2 | e''4 e''8. ( [ d''16 ] ) | cis''4 a' |  b'8 b' cis''8. b'16 | \break
+        cis''4 a' | b'8 b' cis''8. b'16 | a'2 | e''4 e''8. ( [ d''16 ] ) | cis''4 a' |  b'8 b' \tempo "rit." cis''8. b'16 | \break
       }
       \alternative {
         {  a'4. e'8 | }
-        {  \fermata a'4 b4 \tempo \markup {
+        {  a'4\fermata b4 \tempo \markup {
           % make tempo note smaller
           \concat {
             "Andante sustenuto" \normal-text { " (" }
@@ -135,29 +138,31 @@
 
       \time 2/4 \key a \major a'4 a'8. b'16 | cis''4 a'8. a'16 | \break
 
-      cis''8. cis''16 d''8. cis''16 | b'2 |e''4  e''8. [ ( d''16 ) ] | cis''4 a'4 | b'8 b' cis'' b' | \break
+      cis''8. cis''16 d''8. cis''16 | b'2 |e''4  e''8. [ ( d''16 ) ] | cis''4 a'4 | b'8 b' cis''8. b'16 | \break
 
-      a'2 | e''4 e''8. [ ( d''16 ) ]  | cis''4 a' | b'8 b' cis''8. b'16 | a'4. | \break
+      a'2 | e''4 e''8. [ ( d''16 ) ]  | cis''4 a' | b'8 b' cis''8. b'16 | a'4. \bar "|."
 
     }
 
     \addlyrics {
-      Кра -- сив е жи -- во -- тът на на -- ша -- та ду -- ша,
+        Кра -- сив е жи -- во -- тът на на -- ша -- та ду -- ша,
 
-      що из -- пъл -- ня ця -- ла -- та зе -- мя
+        що из -- пъл -- ня ця -- ла -- та Зе -- мя,
 
-      що из -- пъл -- ня ця -- ла -- та зе -- мя. Кра -- мя.
+        що из -- пъл -- ня ця -- ла -- та Зе -- мя. Кра -- мя.
 
-      Кра -- сив е жи -- во -- тът на на -- ша -- та ду -- ша,
+        Кра -- сив е Жи -- во -- тът на на -- ша -- та ду -- ша,
 
-      що из -- пъл -- ня ця -- ла -- та зе -- мя. Кра -- мя.
+        що из -- пъл -- ня ця -- ла -- та Зе -- мя. Кра -- мя.
 
-      Кра -- сив е жи -- во -- тът на на -- ша -- та ду -- ша,
+        Кра -- сив е жи -- во -- тът на на -- ша -- та ду -- ша,
 
-      що из -- пъл -- ня ця -- ла -- та зе -- мя
+        що из -- пъл -- ня ця -- ла -- та Зе -- мя
 
-      що из -- пъл -- ня ця -- ла -- та зе -- мя.}
-      \addlyrics {     Kra -- siv e zhi -- vo -- tat na na -- sha -- ta du -- sha,
+        що из -- пъл -- ня ця -- ла -- та Зе -- мя.
+      }
+      \addlyrics {
+             Kra -- siv e zhi -- vo -- tat na na -- sha -- ta du -- sha,
 
       shto iz -- pal -- nya tsya -- la -- ta ze -- mya
 
@@ -171,7 +176,8 @@
 
       shto iz -- pal -- nya tsya -- la -- ta ze -- mya
 
-      shto iz -- pal -- nya tsya -- la -- ta ze -- mya.}
+      shto iz -- pal -- nya tsya -- la -- ta ze -- mya.
+      }
 
       \header {
         title = \markup \column \normal-text \fontsize #2.5 {
