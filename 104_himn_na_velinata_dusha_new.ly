@@ -85,9 +85,9 @@
       \tempo \markup {
         % make tempo note smaller
         \concat {
-          "Tempo di marcia " \normal-text { "(" }
+          "Moderato " \normal-text { "(" }
           \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 100)" }
+          \normal-text { " = 72 / 80)" }
         }
       }
       \autoBeamOff
@@ -108,7 +108,16 @@
 
       d''2 b'4 | b'2 ( cis''4 ) | a'2. |\tempo "Meno mosso" fis'2 fis'4  | g'2 e'4 | e'2 fis'4 | \break
 
-      d'2.  \bar "||" \tempo "a tempo" 4=80 a2 a4 | d'2 ( e'4 ) | fis'2 ( g'4 ) | a'2 \fermata a'4 | b'2 a'4 | \break
+      d'2.  \bar "||" \tempo \markup {
+        % make tempo note smaller
+        \concat {
+          "a tempo " \normal-text { "(" }
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \normal-text { " = 80)" }
+        }
+      }
+      
+      a2 a4 | d'2 ( e'4 ) | fis'2 ( g'4 ) | a'2 \fermata a'4 | b'2 a'4 | \break
 
       a'2. | fis'2. |\tempo \markup {
         % make tempo note smaller
@@ -123,9 +132,9 @@
 
       d''2 b'4 | b'2 ( cis''4 ) | a'2 g'4 |fis'2  fis'4 |
       g'2^\markup\normalsize\bold { "rit." }   e'4 | e'2 ( fis'4 ) | \break
-      d'2. | fis'2^\markup{ \bold {a tempo} } fis'4 | fis'2. | fis'4 ( g'4 )  a'4 | b'2 \fermata fis'4 |a'2.   \break
+      d'2. | fis'2^\markup{ \bold {a tempo} } fis'4 | fis'2. | fis'4 ( g'4 )  a'4 | b'2 fis'4 |a'2.   \break
       | % 61
-      g'2 ^\fermata    a4^\segno \bar "||"
+      g'2 ^\fermata a4 \mark \markup { \musicglyph "scripts.segno" }  \bar "||"
       a2  d'4 | % 63
       e'2. | % 64
       e'4 (  fis'4 )  g'4 | % 65
@@ -141,7 +150,7 @@
       b'2 (  cis''4 ) | % 75
       a'2  g'4 | % 76
       fis'2 (  e'4 ) ^\markup{ \bold {rit} } | % 77
-      d'2.^\markup{ \bold {Fine} } \bar "|."
+      \tempo "              Fine" d'2. \bar "|."
       \break | % 78
       fis'2 ^\markup{ \bold {a tempo} }  g'4 | % 79
       a'2  a'4 |
@@ -189,11 +198,11 @@
 
       във Зна -- ни -- е, Мъд -- рост,
 
-      Ис -- ти -- на, Лю -- бов. Ве --
+      Ис -- ти -- на, Лю -- бов.“ "„Ве - "
 
     }
     \addlyrics {
-      Gre -- e Slan -- tse -- to, svet -- lo e
+       Gre -- e Slan -- tse -- to, svet -- lo e
 
       na -- vsya -- ka -- de,  ob -- vi -- ta e Ze -- mya -- ta sas to -- pla dre -- ha.
 
@@ -223,7 +232,8 @@
 
       vav Zna -- ni -- e, Mad -- rost,
 
-      Is -- ti -- na, Lyu -- bov. Ve --}
+      Is -- ti -- na, Lyu -- bov.“ "„Ve - "
+      }
 
       \header {
         title = \markup \column \normal-text \fontsize #2.5 {
@@ -243,17 +253,17 @@
     } % score
 
 
-  \markup \halign #-15 {
+
+  \markup \halign #-16 \raise #3 \override #'(baseline-skip . 2) {
     \column  {
-      \line  \halign #-5 {
-        \bold  { "D.C. al Fine" }
+      \line \right-align {
+        \bold  { "D.S. al Fine" }
       }
+      \line { " " }
     }
   }
 
-
-
-    \pageBreak
+  \pageBreak
 
     % include foreign translation(s) of the song
     \include "lyrics_de/104_himn_na_velikata_dusha_lyrics_de.ly"
