@@ -4,7 +4,9 @@
   #(set-paper-size "a5")
 }
 
+
 \bookpart {
+  #(define-bar-line "!!" "!!" #f "!")
   \paper {
     print-all-headers = ##t
     print-page-number = ##t
@@ -72,7 +74,10 @@
       \context {
         % adjust space between staff and lyrics and between the two lyric lines
         \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
+          (basic-distance . 4.5)
+          (padding . 0.5)
+        )
         \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
       }
     } % layout
@@ -94,36 +99,49 @@
       \partial 8
       bes'8 | c4 bes8 a4 g8 | f4 d8 c4. | g'4  g8 g8 (a b)  | \break
 
-      \time 3/4  c2 \tuplet 3/2 { g4 g8} | c2 \tuplet 3/2 { a4 a8 } | d4 (c) \tuplet 3/2 { b b } \break
+      \time 3/4 \tempo \markup {
+        % make tempo note smaller
+        \concat {
+          \normal-text { "        " }
+          \teeny \general-align #Y #DOWN \note #"4." #0.8
+          \normal-text { " = " }
+          \teeny \general-align #Y #DOWN \note #"4" #0.8
+        }
+      }
+      c2 \tuplet 3/2 { g4 g8} | c2 \tuplet 3/2 { a4 a8 } | d4 (c) \tupletUp \tuplet 3/2 { b b8 } | \tupletNeutral \break
 
-      c2 \bar "! " a8 ( f8 ) \repeat volta 2 { e4 d a8. a16 | \time 2/4 d4. f8 | \break
-      e4 a,8. a16 | d8 (e8) f8 e | \time 3/4 d2 a'8 (f) \time 2/4 d2 \break }
+      c2 \mark \markup { \bold \fontsize #-2 { "Fine" } } \bar "!!" a8 ( f8 ) \autoBeamOff \repeat volta 2 { e4 d a8. a16 | \time 2/4 d4. f8 | \break
+      e4 a,8. a16 | d8 [(e8)] f8 e | }
+      \alternative {
+       {\time 3/4 d2 a'8 [(f)] }
+       {\time 2/4 d2 }
+      }
+      \bar "|."
 
     }
 
     \addlyrics {
       При всич -- ки -- те у -- сло -- ви -- я на жи -- во -- та
 
-      не гу -- би сво -- я мир, сво -- я мир.
-
-      Жи -- во -- та е кра -- сив,
-
-      ко -- га -- то чо -- ве -- кът е смел.
+      не гу -- би сво -- я Мир, сво -- я Мир.
 
       Жи -- во -- тът е кра -- сив,
 
-      ко -- га -- то чо -- ве -- ка е смел.}
-      \addlyrics {  Pri vsich -- ki -- te u -- slo -- vi -- ya na zhi -- vo -- ta
+      ко -- га -- то чо -- ве -- кът е смел.
 
-      ne gu -- bi svo -- ya mir, svo -- ya mir.
+      Жи -- смел.
+      }
+      \addlyrics { 
+      Pri vsich -- ki -- te u -- slo -- vi -- ya na zhi -- vo -- ta
+
+      ne gu -- bi svo -- ya Mir, svo -- ya Mir.
 
       Zhi -- vo -- tat e kra -- siv,
 
       ko -- ga -- to cho -- ve -- kat e smel.
 
-      Zhi -- vo -- ta e kra -- siv,
-
-      ko -- ga -- to cho -- ve -- ka e smel.}
+      Zhi -- smel.
+      }
 
       \header {
         title = \markup \column \normal-text \fontsize #2.5 {
@@ -142,6 +160,18 @@
 
     } % score
 
+  \markup \halign #-15.5 \raise #3 \override #'(baseline-skip . 2) {
+    \column  {
+      \line \right-align {
+        \bold  { "D.C. al Fine" }
+      }
+      \line { " " }
+      \line { " " }
+      \line { " " }
+      \line { " " }
+      \line { " " }
+    }
+  }
 
     % include foreign translation(s) of the song
     \include "lyrics_de/107_pri_vsichkite_uslovija_lyrics_de.ly"
