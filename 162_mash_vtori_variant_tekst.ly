@@ -117,25 +117,25 @@
       g8. g16 a8. g16 |
       b8 b4 b8 | % 11
       g8. g16 a8. g16 | % 12
-      c'8 c'4 c'8 \bar "||"
-      \key es \major c'4 g'4 ( \break | % 14
+      c'8 c'4 c'8 \break \bar "||"
+      \key es \major c'4 g'4 (  | % 14
       g'4 ) g'16 ( f'16 es'16 d'16 ) | % 15
       c'8 es'8 c'8 es'8 | % 16
-      c'8 es'8 f'16 ( es'16 d'16 c'16 ) | % 17
-      bes8 d'8 bes8 d'8 \break | % 18
+      c'8 es'8 f'16 ( es'16 d'16 c'16 ) \break | % 17
+      bes8 d'8 bes8 d'8 | % 18
       bes8 d'8 es'16 ( d'16 c'16 bes16 ) | % 19
-      a8 d'8 a8 d'8 |
-      a8 d'8 g16 ( a16 bes16 a16 ) | % 21
+      a8 d'8 a8 d'8 \break |
+      a8 d'8 g16 ( a16 bes16 a16 )   | % 21
       g8 g4 g8 \bar "||"
-      \break | % 22
+      | % 22
       \key bes \major \time 5/4
       \repeat volta 2 {
         d'8 d'4 d'4 d'8 bes'8 \acciaccatura { a'16 ( bes'16 } a'8 ) g'8
-        es'8 | % 23
+        es'8 \break | % 23
         d'8 d'4 d'4 d'8 bes'8 \acciaccatura { a'16 ( bes'16 } a'8 ) g'8
-        es'8 \break | % 24
-        d'8 d'4 d'4 d'8 c'8 d'8 es'8 g'8 | % 25
-        d'8 d'4 d'4 d'8 c'8 d'8 es'8 g'8 \break | % 26
+        es'8  | % 24
+        d'8 d'4 d'4 d'8 c'8 d'8 es'8 g'8 \break | % 25
+        d'8 d'4 d'4 d'8 c'8 d'8 es'8 g'8 | % 26
         \time 3/4  d'8 d'4 d'4 d'8 | % 27
         g8 a8 bes8 a8 c'8 bes8 |  % 28
       }
@@ -168,13 +168,13 @@
 
       как да смък -- нем теж -- ки -- те о -- ко -- ви на
 
-      враж -- ди без -- смис -- ле -- ни, ве -- ков -- ни - в мир да за -- жи -- ве -- ем.
+      враж -- ди без -- смис -- ле -- ни, ве -- ков -- ни, в мир да за -- жи -- ве -- ем.
 
 
 
       И все -- ки да ра -- бо -- ти с ра -- дост на Бо -- жест -- ве -- на -- та ни -- ва.
 
-      Ще ца -- ру -- ва веч -- на мла -- до -- ст, ня -- ма ни -- кой да у -- ми -- ра.
+      Ще ца -- ру -- ва веч -- на мла -- дост, ня -- ма ни -- кой да у -- ми -- ра.
 
       В мир, в Лю -- бов ще за -- жи -- ве -- ем
 
@@ -199,7 +199,7 @@
 
       kak da smak -- nem tezh -- ki -- te o -- ko -- vi na
 
-      vrazh -- di bez -- smis -- le -- ni, ve -- kov -- ni - v mir da za -- zhi -- ve -- em.
+      vrazh -- di bez -- smis -- le -- ni, ve -- kov -- ni v mir da za -- zhi -- ve -- em.
 
 
 
