@@ -205,7 +205,7 @@
 
       I vse -- ki da ra -- bo -- ti s ra -- dost na Bo -- zhest -- ve -- na -- ta ni -- va.
 
-      Shte tsa -- ru -- va vechna mla -- do -- st, nya -- ma ni -- koy da u -- mi -- ra.
+      Shte tsa -- ru -- va vech -- na mla -- dost, nya -- ma ni -- koy da u -- mi -- ra.
 
       V mir, v Lyu -- bov shte za -- zhi -- ve -- em
 
