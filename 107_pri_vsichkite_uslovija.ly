@@ -1,19 +1,9 @@
 \version "2.20.0"
 
-\include "stylesheet/bmusicdefinitions.ily"
+\include "stylesheet/lilyjazz.ily"
 
 \paper {
   #(set-paper-size "a5")
-  #(define fonts
-    (set-global-fonts
-     #:music "BMusicFont"
-     #:brace "profondo"
-     #:roman "Academico"     
-     #:sans "DejaVu Sans"
-     #:typewriter "DejaVu Sans Mono"
-     ; unnecessary if the staff size is default
-     #:factor (/ staff-height pt 29)
-    ))
 }
 
 % change lyrics and titles font (affects notes also)
@@ -70,7 +60,7 @@
       %ragged-last = ##t % do not spread last line to fill the whole space
       \context {
         \Score
-        \bravuraOn
+        %\bravuraOn
         \omit BarNumber %remove bar numbers
       } % context
 
