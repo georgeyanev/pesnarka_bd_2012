@@ -1,8 +1,28 @@
 \version "2.20.0"
 
+\include "stylesheet/bmusicdefinitions.ily"
+
 \paper {
   #(set-paper-size "a5")
+  #(define fonts
+    (set-global-fonts
+     #:music "BMusicFont"
+     #:brace "profondo"
+     #:roman "Academico"     
+     #:sans "DejaVu Sans"
+     #:typewriter "DejaVu Sans Mono"
+     ; unnecessary if the staff size is default
+     #:factor (/ staff-height pt 29)
+    ))
 }
+
+% change lyrics and titles font (affects notes also)
+%    fonts =
+%      #(make-pango-font-tree
+%      "Times New Roman"
+%      "DejaVu Sans"
+%      "DejaVu Sans Mono"
+%      (/ (* staff-height pt) 3.6))
 
 
 \bookpart {
@@ -32,14 +52,6 @@
     bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
 
-    % change lyrics and titles font (affects notes also)
-    fonts =
-    #(make-pango-font-tree
-      "Times New Roman"
-      "DejaVu Sans"
-      "DejaVu Sans Mono"
-      (/ (* staff-height pt) 3.6))
-
     % change distance between staves
     system-system-spacing =
     #'((basic-distance . 12)
@@ -58,13 +70,14 @@
       %ragged-last = ##t % do not spread last line to fill the whole space
       \context {
         \Score
+        \bravuraOn
         \omit BarNumber %remove bar numbers
       } % context
 
       \context {
         % change staff size
         \Staff
-        fontSize = #+0 % affects notes size only
+        fontSize = #-3 % affects notes size only
         \override StaffSymbol #'staff-space = #(magstep -3)
         \override StaffSymbol #'thickness = #0.5
         \override BarLine #'hair-thickness = #1
@@ -90,7 +103,7 @@
         % make tempo note smaller
         \concat {
           "Allegretto" \normal-text { " (" }
-          \teeny \general-align #Y #DOWN \note #"4." #0.8
+          %\teeny \general-align #Y #DOWN \note {4.} #0.8
           \normal-text { " = 84)" }
         }
       }
@@ -103,9 +116,9 @@
         % make tempo note smaller
         \concat {
           \normal-text { "        " }
-          \teeny \general-align #Y #DOWN \note #"4." #0.8
+          %\teeny \general-align #Y #DOWN \note #"4." #0.8
           \normal-text { " = " }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          %\teeny \general-align #Y #DOWN \note #"4" #0.8
         }
       }
       c2 \tuplet 3/2 { g4 g8} | c2 \tuplet 3/2 { a4 a8 } | d4 (c) \tupletUp \tuplet 3/2 { b b8 } | \tupletNeutral \break
