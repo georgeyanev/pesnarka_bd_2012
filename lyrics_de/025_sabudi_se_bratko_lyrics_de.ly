@@ -18,7 +18,7 @@
       \line { " " }
       \line { "   " \italic { Refrain :}  }
       \line { "   "Die Liebe ist deine Mutter,}
-      \line {   "   "deine Kraft, dein Pilot -- }  
+      \line {   "   "deine Kraft, dein Pilot – }  
       \line {   "   " sie wird dich stark aufrichten, }
       \line {   "   " dir das Leben schenken. } 
       
@@ -46,7 +46,7 @@
        \line { " " }
     \line { "   " \italic { Refrain }: }
       \line {"   "Die Liebe ist dein Retter: }
-      \line {   "   " Ruf sie zur Hilfe - }  
+      \line {   "   " Ruf sie zur Hilfe – }  
       \line {   "   " sie wird deine Seele vom Joch}
       \line {   "   " bald befreien.} 
       

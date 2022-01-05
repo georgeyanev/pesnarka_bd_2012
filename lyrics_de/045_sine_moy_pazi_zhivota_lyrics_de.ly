@@ -10,13 +10,13 @@
      \line { "   " }
     \line {  1. Mein Sohn, bewahre das Leben, }
 
-\line { "   "die in dir verborgene Glut -}
+\line { "   "die in dir verborgene Glut }
 
 \line { "   "Es ist seinem Sinn nach kostbar}
 
 \line { "   "und ein herrliches Geschenk! }
 
-\line { "   "Unsterblicher, unvergänglicher Geist -}
+\line { "   "Unsterblicher, unvergänglicher Geist,}
 
 \line { "   "der, der ewig wacht }
 
@@ -54,7 +54,7 @@
 
 \line { "   "die göttliche Liebe ist mit dir! }
 
-\line { "   "Sie ruft dich immer nach oben -}
+\line { "   "Sie ruft dich immer nach oben}
 
 \line { "   "in Vollkommenheit und in die neue Welt.}
    }

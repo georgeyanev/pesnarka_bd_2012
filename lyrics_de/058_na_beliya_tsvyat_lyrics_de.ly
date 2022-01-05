@@ -22,7 +22,7 @@
 \line { "      " \italic { Refrain }:}
 \line { "      "Die Schönheit der göttlichen Welt,}
 
-\line { "      "das Weiße, unsere Farbe --}
+\line { "      "das Weiße, unsere Farbe  –}
 
 \line { "      "hat ewige Kraft,}
 
@@ -44,7 +44,7 @@
 
 \line { 3. Nach oben! Eine weiße Sonne wird heute}
 
-\line { "   " vom Osten aufgehen --}
+\line { "   " vom Osten aufgehen  –}
 
 \line { "   " das Emblem des Lebens für diejenigen,}
 
@@ -56,7 +56,7 @@
 
  \line { " " }
 
-\line { 4. Nach oben -- in dieses Weiße!}
+\line { 4. Nach oben – in dieses Weiße!}
 
 \line { "   " Es wird alles ausfüllen}
 

@@ -155,7 +155,7 @@
 
           \line { " " }
 
-          \line {   "   " 4. Във подвизи - съвършенство}
+          \line {   "   " 4. Във подвизи – съвършенство}
 
           \line {   "   " да познавам милостта Ти,}
 
@@ -203,7 +203,7 @@
 
           \line { " " }
 
-          \line {  4. Vav podvizi - savarshenstvo}
+          \line {  4. Vav podvizi – savarshenstvo}
 
           \line {   "   "da poznavam milostta Ti,}
 

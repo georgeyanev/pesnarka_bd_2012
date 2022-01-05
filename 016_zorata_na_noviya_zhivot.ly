@@ -174,9 +174,9 @@
       \line { " " }
 
       \line { 3. Трепти зората лекокрила  }
-      \line {   "   " при рилските очи. }
-      \line {   "   " Тук чудната цигулка }
-      \line {   "   " с нов тон ще зазвучи. }
+      \line {   "   " и буди нашите души; }
+      \line {   "   " като любяща майка мила}
+      \line {   "   " подканва всекиго: „Стани!“}
 
       \line { " " }
       \line { "   " \italic {Припев ...} }
@@ -194,7 +194,7 @@
       \line { 5.  О тези лъчи от Бога идат, }
       \line {   "   " Те пълнят нашите сърца, }
       \line {   "   " И шепнат сладко, как Той вика: }
-      \line {   "   " Елате, моите деца! }
+      \line {   "   " „Елате, моите деца!“ }
     }
 
     \hspace #5
@@ -217,9 +217,9 @@
       \line { " " }
 
       \line { 3. Trepti zorata lekokrila  }
-      \line {   "   " pri rilskite ochi. }
-      \line {   "   " Tuk chudnata tsigulka }
-      \line {   "   " s nov ton shte zazvuchi. }
+      \line {   "   " i budi nashite dushi; }
+      \line {   "   " kato lyubyashta mayka mila}
+      \line {   "   " podkanva vsekigo: „Stani!“}
 
       \line { " " }
       \line { "   " \italic {Pripev ...} }
@@ -237,7 +237,7 @@
       \line { 5.  O tezi lachi ot Boga idat, }
       \line {   "   " Te palnyat nashite sartsa, }
       \line {   "   " I shepnat sladko, kak Toy vika: }
-      \line {   "   " Elate, moite detsa! }
+      \line {   "   " „Elate, moite detsa!“ }
     } %column
   } % markup
 

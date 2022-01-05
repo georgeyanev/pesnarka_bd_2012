@@ -151,7 +151,7 @@
 
       \line { " "той нов живот си там отрежда.}
       \line { " " }
-      \line { 3. И пита той:  Да пийна ли}
+      \line { 3. И пита той:   „Да пийна ли}
 
       \line { " "от твоята водица чиста, }
 
@@ -161,7 +161,7 @@
 
       \line { " "очистя, очистя,}
 
-      \line { " "душа си страдна да очистя?}
+      \line { " "душа си страдна да очистя?“}
       \line { " " }
       \line { 4. Да отпочина ли; ръце,}
 
@@ -176,7 +176,7 @@
       \line { " "покрито с рани, да разкрия? }
 
       \line { " " }
-      \line { 5. Склони, о, пътниче злочест,}
+      \line { 5.  „Склони, о, пътниче злочест,}
 
       \line { " "глава си морна; утолявай}
 
@@ -210,15 +210,16 @@
 
       \line { " "страданье, страданье,}
 
-      \line { " "на всяка мъка и страданье.}
+      \line { " "на всяка мъка и страданье.“}
     }
 
     \hspace #5
     \override #'(baseline-skip . 2.4)
     \column {
-      \line { " "2. Kam nego patnik umoren}
+            \line { 2. Kam nego patnik umoren}
 
       \line { " "usilno se stremi s nadezhda.}
+
       \line { " "S dalboka skrab obremenen,}
 
       \line { " "toy nov zhivot si tam otrezhda,}
@@ -227,9 +228,9 @@
 
       \line { " "toy nov zhivot si tam otrezhda.}
       \line { " " }
-      \line { " "3. I pita toy: “Da piyna li}
+      \line { 3. I pita toy:   „Da piyna li}
 
-      \line { " "ot tvoyata voditsa chista –}
+      \line { " "ot tvoyata voditsa chista, }
 
       \line { " "da osvezha ochite si,}
 
@@ -237,9 +238,9 @@
 
       \line { " "ochistya, ochistya,}
 
-      \line { " "dusha si stradna da ochistya?}
+      \line { " "dusha si stradna da ochistya?“}
       \line { " " }
-      \line { " "4. Da otpochina li; ratse,}
+      \line { 4. Da otpochina li; ratse,}
 
       \line { " "litse, noze si da izmiya}
 
@@ -249,9 +250,10 @@
 
       \line { " "razkriya, razkriya,}
 
-      \line { " "pokrito s rani, da razkriya?}
+      \line { " "pokrito s rani, da razkriya? }
+
       \line { " " }
-      \line { " "5. Skloni, o, patniche zlochest,}
+      \line { 5.  „Skloni, o, patniche zlochest,}
 
       \line { " "glava si morna; utolyavay}
 
@@ -263,7 +265,7 @@
 
       \line { " "ot men i v men se ti nadyavay!}
       \line { " " }
-      \line { " "6. Glasa ti machenishki chuh,}
+      \line { 6. Glasa ti machenishki chuh,}
 
       \line { " "prieh i tvoyta zhalba mila.}
 
@@ -275,7 +277,7 @@
 
       \line { " "i shte ti dam zhivot i sila.}
       \line { " " }
-      \line { " "7. Ela, ela i piy ot men,}
+      \line { 7. Ela, ela i piy ot men,}
 
       \line { " "o, milo Bozhie sazdanie!}
 
@@ -285,7 +287,7 @@
 
       \line { " "stradanye, stradanye,}
 
-      \line { " "na vsyaka maka i stradanye.}
+      \line { " "na vsyaka maka i stradanye.“}
     } %column
   } % markup
 

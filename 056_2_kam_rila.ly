@@ -144,7 +144,7 @@
       \line {   "   " с нов тон ще зазвучи. } 
       
         \line { " " }
-       \line { 3. Душите ни - цигулки }
+       \line { 3. Душите ни  – цигулки }
       \line {   "   " ще леят красота, }  
       \line {   "   " защото с тях ще свири  }
       \line {   "   " Доброто, Любовта. } 
@@ -171,7 +171,7 @@
       \line {   "   " s nov ton shte zazvuchi. } 
       
         \line { " " }
-       \line { 3. Dushite ni - tsigulki }
+       \line { 3. Dushite ni  – tsigulki }
       \line {   "   " shte leyat krasota, }  
       \line {   "   " zashtoto s tyah shte sviri  }
       \line {   "   " Dobroto, Lyubovta. } 

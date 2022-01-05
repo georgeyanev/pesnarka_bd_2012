@@ -20,7 +20,7 @@
       \line {   "   " Hier wird die wunderbare Violine }
       \line {   "   " in neuem Klang erklingen. } 
            \line { " " }
-      \line { 3. Unsere Seelen - Geigen  }
+      \line { 3. Unsere Seelen – Geigen  }
       \line {   "   " werden Schönheit gießen, }  
       \line {   "   " denn mit ihnen wird   }
       \line {   "   " das Gute, die Liebe spielen. } 

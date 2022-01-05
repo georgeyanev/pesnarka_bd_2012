@@ -178,9 +178,9 @@
 
       \line {   "   "}
 
-      \line {   4. Твоите думи - бисер чисти,}
+      \line {   4. Твоите думи – бисер чисти,}
 
-      \line {   "   "твоят образ - Светлина,}
+      \line {   "   "твоят образ – Светлина,}
 
       \line {   "   "о, Учителю честити,}
 
@@ -213,9 +213,9 @@
 
       \line {   "   "}
 
-      \line {   4. Tvoite dumi - biser chisti,}
+      \line {   4. Tvoite dumi – biser chisti,}
 
-      \line {   "   "tvoyat obraz - Svetlina,}
+      \line {   "   "tvoyat obraz – Svetlina,}
 
       \line {   "   "o, Uchitelyu chestiti,}
 

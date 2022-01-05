@@ -11,7 +11,7 @@
      
 \line { 1. Mögen wir Jesus mit neuen Hymnen}
 
-\line { "   "in dieser Stunde besingen -}
+\line { "   "in dieser Stunde besingen;}
 
 \line { "   "Er ist der ewige Sohn Gottes }
 
@@ -49,7 +49,7 @@
 
 \line { "   "das größte von allen:}
 
-\line { "   "die Liebe -- sein Gesetz. }
+\line { "   "die Liebe – sein Gesetz. }
 
 \line { "   "Er verkündete die frohe Botschaft und sagte:}
 
@@ -77,13 +77,13 @@
 
 \line { "   "lebt in Liebe!}
   \line { " " }
-\line { 5. Nur in ihr ist das Leben,}
+\line { 5. Nur in ihr ist das Leben;}
 
-\line { "   "in ihre ist auch die Freude,}
+\line { "   "in ihr ist auch die Freude,}
 
-\line { "   "sie erschafft alles Gute --}
+\line { "   "sie erschafft alles Gute  –}
 
-\line { "   "einzig sie -- die Liebe.}
+\line { "   "einzig sie  – die Liebe.}
 
 \line { "   "So lehrte Er uns damals,}
 

@@ -143,7 +143,7 @@
 
       \line {"   "и цъфти, и върже, и расте, и зрее.}
 
-      \line {"   "Пролет, лято, есен и през цяла зима -}
+      \line {"   "Пролет, лято, есен и през цяла зима –}
 
       \line {"   "откогато хора на Земята има. (2)}
       \vspace #0.4
@@ -152,7 +152,7 @@
 
       \line {"   "i tsafti, i varzhe, i raste, i zree.}
 
-      \line {"   "Prolet, lyato, esen i prez tsyala zima -}
+      \line {"   "Prolet, lyato, esen i prez tsyala zima –}
 
       \line {"   "otkogato hora na Zemyata ima. (2)}
       \line { " " }

@@ -37,7 +37,7 @@
 
  \line { "   "und die Krone.}
   \line { " " } 
- \line { 4. Er herrscht, segnet --}
+ \line { 4. Er herrscht, segnet  –}
 
  \line { "   "auf dass alles in Weisheit gedeiht,}
 
@@ -51,7 +51,7 @@
 
  \line { "   "auf das wir zum Himmel fahren,}
 
- \line { "   "weil uns dort die Freude erwartet -} 
+ \line { "   "weil uns dort die Freude erwartet –} 
 
  \line { "   "auf das wir eine neue Stadt errichten,}
 

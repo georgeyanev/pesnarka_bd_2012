@@ -162,7 +162,7 @@
 
  \line {   "   " най-великия от всички, }
 
- \line {   "   " Любовта - закона Свой. }
+ \line {   "   " Любовта – закона Свой. }
 
  \line {   "   " Благовествува и рече: }
 
@@ -234,7 +234,7 @@
 
  \line {   "   " nay-velikia ot vsichki, }
 
- \line {   "   " Lyubovta - zakona Svoy. }
+ \line {   "   " Lyubovta – zakona Svoy. }
 
  \line {   "   " Blagovestvuva i reche: }
 
