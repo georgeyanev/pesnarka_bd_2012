@@ -72,7 +72,10 @@
       \context {
         % adjust space between staff and lyrics and between the two lyric lines
         \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
+          (basic-distance . 4.5)
+          (padding . 0.5)
+        )
         \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
       }
     } % layout
@@ -99,12 +102,11 @@
 
       \time 3/4  b4  f4  a8.  b16 | \time 2/4  | c2 | c4  b8  a8 | a4. (  b8 ) \break |
 
-      g4.  e8 |  g8  f8  e8  d8 | c2 \repeat volta 2 {
-        | a'4  e4 \break |
+      g4.  e8 |  g8  f8  e8  d8 | c2 
+        | \bar ".|:" a'4  e4 \break |
         a4  b8 ( [  c8 ) ] | a2 | b4  c4 | a2 | d4  e4 \break |
         c4  a4 | b4  d8  c8 | b4  a4 ^\fermata
-      }
-      \repeat volta 2 {
+
         \tempo \markup {
           % make tempo note smaller
           \concat {
@@ -112,25 +114,25 @@
             \teeny \general-align #Y #DOWN \note #"4" #0.8
             \normal-text { " = 63)" }
           }
-        } | c4  b8  a8 \break |
+        } | \bar ":|.|:" c4  b8  a8 \break |
 
-        \time 3/4  | gis8 ( [  f8 ) ]  e4.  e8 | \time 2/4  | g8  f8  e8  d8 | e2
-      }
+        \time 3/4  | gis8 ( [  f8 ) ]  e4.  e8 | \time 2/4  | g!8  f8  e8  d8 | e2
+        \bar ":|."
 
     }
 
     \addlyrics {
       Мо -- га да ка -- жа,
 
-      че Слън -- це -- то у -- тре ще из -- грей
+      че Слън -- "-це" -- то у -- тре ще из -- грей
 
-      и на Зе -- мя -- та ли -- це -- то ще о -- грей.
+      и на зе -- мя -- та ли -- це -- то ще о -- грей.
 
       То -- пли -- на то ще вне -- се
 
       за всич -- ко, що ра -- сте.
 
-      Грей, мощ -- но Слън -- це
+      Грей, мощ -- но слън -- це
 
       да у -- чим ний до -- бре.
 
@@ -138,22 +140,22 @@
 
       ста  -- не и на ра  -- бо  -- та ще
 
-      се хва  -- не. Грей, мощ  -- но Слън
+      се хва  -- не. Грей, мощ  -- но слън
 
       -- це, да у  -- чим ний до  --
-      бре.
+      бре!
     }
     \addlyrics {     Mo -- ga da ka -- zha,
 
       che Slan -- tse -- to u -- tre shte iz -- grey
 
-      i na Ze -- mya -- ta li -- tse -- to shte o -- grey.
+      i na ze -- mya -- ta li -- tse -- to shte o -- grey.
 
       To -- pli -- na to shte vne -- se
 
       za vsich -- ko, shto ra -- ste.
 
-      Grey, mosht -- no Slan -- tse
+      Grey, mosht -- no slan -- tse
 
       da u -- chim niy do -- bre.
 
@@ -161,18 +163,19 @@
 
       sta  -- ne i na ra  -- bo  -- ta shte
 
-      se hva  -- ne. Grey, mosht  -- no Slan
+      se hva  -- ne. Grey, mosht  -- no slan
 
       -- tse, da u  -- chim niy do  --
-      bre.}
+      bre!
+    }
 
     \header {
       title = \markup \column \normal-text \fontsize #2.5 {
         \center-align
-        \line { Аз мога да кажа}
+        \line { Мога да кажа}
         \vspace #-0.6
         \center-align
-        \line \fontsize #-3 { Az moga da kazha}
+        \line \fontsize #-3 { Moga da kazha}
         \vspace #-0.8
         \center-align
         \line \fontsize #-3 { " " }
