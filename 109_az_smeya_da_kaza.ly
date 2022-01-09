@@ -97,14 +97,21 @@
 
       \time 4/4  | e4.   c8   d8   c8   b8  a8 |   \time 4/4   a4   b4   g4.   c'8  | \break
 
-      \time 5/4  ( c16 [ d16  c16   b8] )  b8  b16 [ ( c16  b16  a8 ) ]  a8   g4   e8  g4.   f8 | \break
+      \time 5/4 \tweak direction #up \tuplet 3/3 { \once \override
+       Slur.positions = #'(1 . 1) c16 ([ d16  c16 b8])  b8 } 
+       
+       \tweak direction #up \tuplet 3/3 { \once \override
+       Slur.positions = #'(1 . 0) b16 [( c16  b16 a8 )] a8 }  
+       
+       g4 e8  g4. f8 \break
 
 
-      f8   f8   a8   g8   g8 e8   g4.   g8 |  a4 a8 b4   e,8 c'4   c8 c4.   e,8 |\break
+      f8   f8   a8   g8   g8 e8   g4.   g8 a4 a8 b4   e,8 c'4   c8 c4.   e,8 \break
 
-      e8 e8   f8 d8   d4   c4.   f8 | f8   f8   a8   e8   e4 f4.   a8 \break |
+      e8 e8   f8 d8   d4   c4.   f8 f8   f8   a8   e8   e4 f4.   a8 \break
 
-      \time 6/4   g8   d8   e8   f8   e8 ( [ f8 ) ]   g2   g8   g8 |  \time 3/4  | e'4.   d8   c8   b8 | \time 4/4  | d2   c2 \bar "|." \break |
+      \time 6/4   g8   d8   e8   f8   e8 ( [ f8 ) ]   g2   g8   g8 \time 3/4 e'4. d8 c8 b8 \time 4/4 d2 c2 \bar "|." \break
+
     }
 
     \addlyrics {
