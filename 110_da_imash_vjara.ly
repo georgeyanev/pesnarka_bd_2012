@@ -91,9 +91,9 @@
       }
 
       \autoBeamOff
-      d8. d8 d8. | % 2
+      d'8. d8 d8. | % 2
       d8. c8 ~ c8. | % 3
-      d8. bes'8 ~ bes8. | % 4
+      d8. bes8 ~ bes8. | % 4
       c8. c8 c8. \break | % 5
       c8. bes8 ~ bes8. | % 6
       a8. ( g8 ~ g8. | % 7
@@ -102,9 +102,9 @@
       a8. c8 c8. |
       bes8. a8 ( a8. ) | % 11
       bes8. ( a8 g8. ) | % 12
-      d8. ~ d8 ~ d8. \break | % 13
+      d'8. ~ d8 ~ d8. \break | % 13
       \repeat volta 2 {
-        c8. d8 es8. | % 14
+        c,8. d8 es8. | % 14
         es8. d8 ~ d8. | % 15
         es8. c8 ~ c8. | % 16
         f8. ( ~ f8 es8. ) | % 17
@@ -128,7 +128,7 @@
         \line { Да имаш вяра }
         \vspace #-0.6
         \center-align
-        \line \fontsize #-3 { Da imash vjara }
+        \line \fontsize #-3 { Da imash vyara }
         \vspace #-0.8
         \center-align
         \line \fontsize #-3 { " " }
@@ -139,6 +139,18 @@
 
   } % score
 
+  \markup \halign #-38.5 \raise #3 \override #'(baseline-skip . 2) {
+    \column  {
+      \line \right-align {
+        \bold  { "D.C." }
+      }
+      \line { " " }
+      \line { " " }
+      \line { " " }
+      \line { " " }
+      \line { " " }
+    }
+  }
 
 
   % include foreign translation(s) of the song
