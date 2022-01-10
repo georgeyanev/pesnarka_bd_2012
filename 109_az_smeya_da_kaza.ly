@@ -72,7 +72,10 @@
       \context {
         % adjust space between staff and lyrics and between the two lyric lines
         \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
+          (basic-distance . 4.5)
+          (padding . 0.5)
+        )
         \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
       }
     } % layout
@@ -95,20 +98,18 @@
 
       \time 4/4  | c4 \tuplet 3/2 {  b8   a8   a8  } b8   g4   e8 | \time 5/4  | g8   f8   e8   d8   d8 ( [ e8 ) ]   c4.   c8 \break |
 
-      \time 4/4  | e4.   c8   d8   c8   b8  a8 |   \time 4/4   a4   b4   g4.   c'8  | \break
+      \time 4/4  | e4.   c8   d8   c8   b8  a8 |   \time 4/4   a4   b4   g4.   c'8  | \time 5/4 \break
 
-      \time 5/4 \tweak direction #up \tuplet 3/3 { \once \override
-       Slur.positions = #'(1 . 1) c16 ([ d16  c16 b8])  b8 } 
+      \tweak direction #up \tuplet 3/2 { \once \override Slur.positions = #'(1 . 1) \tuplet 3/2 { c16 ([ d16  c16 } b8]) b8 }
+    
+      \tweak direction #up \tuplet 3/2 { \once \override Slur.positions = #'(1.05 . 0.1) \tuplet 3/2 { b16 [( c16  b16 } a8 )] a8 }
        
-       \tweak direction #up \tuplet 3/3 { \once \override
-       Slur.positions = #'(1 . 0) b16 [( c16  b16 a8 )] a8 }  
-       
-       g4 e8  g4. f8 \break
+      \tuplet 3/2 { g4 e8 } g4. f8 \break
 
 
-      f8   f8   a8   g8   g8 e8   g4.   g8 a4 a8 b4   e,8 c'4   c8 c4.   e,8 \break
+      f8   f8   a8   g8   g8 e8   g4. g8 | \tempo "(poco rit.)"  \tuplet 3/2 { a4 a8 } \tuplet 3/2 { b4 e,8 } \tweak direction #up \tuplet 3/2 { c'4 c8 } c4. e,8 \break
 
-      e8 e8   f8 d8   d4   c4.   f8 f8   f8   a8   e8   e4 f4.   a8 \break
+      \tempo "(a tempo)" e8 e8   f8 d8   d4   c4.   f8 f8   f8   a8   e8   e4 f4.   a8 \break
 
       \time 6/4   g8   d8   e8   f8   e8 ( [ f8 ) ]   g2   g8   g8 \time 3/4 e'4. d8 c8 b8 \time 4/4 d2 c2 \bar "|." \break
 
