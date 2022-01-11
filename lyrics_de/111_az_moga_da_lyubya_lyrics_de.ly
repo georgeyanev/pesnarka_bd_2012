@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \fontsize #+2.5 {
-  \hspace #10
+  \hspace #14
   \override #'(baseline-skip . 2)
 
   \column {
@@ -14,7 +14,8 @@
 
     \line { " "ich kann lieben (obitscham), }
     \line { " "       damit ich stark werde.}
-    \line { " "  Die Liebe (ljubovta) und die Liebe (obitschta) werden mich lehren, }
+    \line { " "  Die Liebe (ljubovta) und die Liebe (obitschta) }
+    \line { " "  werden mich lehren, }
 
     \line { " " ein Diener Gottes zu werden.}
 

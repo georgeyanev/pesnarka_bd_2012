@@ -118,40 +118,42 @@
         c4. (  bes8 ) | % 22
         a4 g4 | % 23
         bes4. e,8  |\break  % 24
-        g4 ( a4 ) f2
+        g4 ( a4 ) f2~
       }
       \alternative {
-       { ( f4 )  f8 f8  | }
-        { f2 | f4 | }
-      }
-
-
-
+       { f4 f8 f8  | }
+        { f2~ f4 }
+       }
+       \bar "|."
     }
-    \addlyrics {  Аз мо -- га да лю -- бя, до -- бър
-   да ста -- на; аз мо -- га да
+    \addlyrics {
+  Аз мо -- га да лю -- бя, до -- бър
+  да ста -- на; аз мо -- га да
   о -- би -- чам, си -- лен да ста --
   на.  Лю -- бов -- та и О -- бич --
   та,  Лю -- бов -- та и О -- бич --
   та ще ме на -- у -- чат на Бо
   -- га слу -- га да ста -- на.
-  Лю -- бов -- на.}
-    \addlyrics {Az mo -- ga da lyu -- bya, do -- bar
+  Лю -- бов -- на.
+  }
+  \addlyrics {
+      Az mo -- ga da lyu -- bya, do -- bar
    da sta -- na; az mo -- ga da
   o -- bi -- cham, si -- len da sta --
   na.  Lyu -- bov -- ta i O -- bich --
   ta,  Lyu -- bov -- ta i O -- bich --
   ta shte me na -- u -- chat na Bo
   -- ga slu -- ga da ysta -- na.
-  Lyu -- bov -- na}
+  Lyu -- bov -- na.
+  }
 
     \header {
       title = \markup \column \normal-text \fontsize #2.5 {
         \center-align
-        \line { Аз мога да любя }
+        \line { Мога да любя }
         \vspace #-0.6
         \center-align
-        \line \fontsize #-3 { Az moga da lyubya }
+        \line \fontsize #-3 { Moga da lyubya }
         \vspace #-0.8
         \center-align
         \line \fontsize #-3 { " " }
