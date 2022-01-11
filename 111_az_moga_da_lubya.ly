@@ -164,6 +164,14 @@
 
   } % score
 
+  \markup \halign #-9.3 \raise #3 \override #'(baseline-skip . 2) {
+    \column  {
+      \line \right-align {
+        \bold  { "D.C. con ripetizione" }
+      }
+    }
+  }
+
   \pageBreak
 
   % include foreign translation(s) of the song
