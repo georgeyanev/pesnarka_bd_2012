@@ -70,7 +70,10 @@
 
     \context { % adjust space between staff and lyrics and between the two lyric lines
       \Lyrics
-      \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+      \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
+        (basic-distance . 4.5)
+        (padding . 0.5)
+      )
       \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
     }
   } % layout
@@ -83,7 +86,7 @@
     \tempo \markup { % make tempo note smaller
       \concat { "Andante" \normal-text { " (" }
           \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 100)" }
+          \normal-text { " = 60)" }
       }
     }
     \autoBeamOff
@@ -146,6 +149,17 @@
   \midi{}
 
 } % score
+
+
+\markup \halign #-38.5 \raise #3 \override #'(baseline-skip . 2) {
+    \column  {
+      \line { " " }
+      \line { " " }
+      \line { " " }
+      \line { " " }
+      \line { " " }
+    }
+  }
 
 
 % include foreign translation(s) of the song
