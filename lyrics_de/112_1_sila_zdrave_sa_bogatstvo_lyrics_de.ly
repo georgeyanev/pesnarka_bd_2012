@@ -4,13 +4,13 @@
 \markup \null
 \markup \null
 \markup \fontsize #+2.5 {
-    \hspace #10
+    \hspace #15
     \override #'(baseline-skip . 2)
 
         \column {
      \line { " " }
       \line {  Kraft und Gesundheit sind ein Reichtum}
-             \line { " "   für das Leben der Seele. }
+             \line { für das Leben der Seele. }
 
 
 

@@ -72,7 +72,10 @@
       \context {
         % adjust space between staff and lyrics and between the two lyric lines
         \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
+          (basic-distance . 4.5)
+          (padding . 0.5)
+        )
         \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
       }
     } % layout
@@ -84,9 +87,9 @@
       \tempo \markup {
         % make tempo note smaller
         \concat {
-          "Moderato" \normal-text { "(" }
+          "Moderato" \normal-text { " (" }
           \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 100)" }
+          \normal-text { " = 92)" }
         }
       }
       \autoBeamOff
@@ -99,17 +102,32 @@
         fis4 d2 |  c'8. c16 c8 b8 d8 c8 | b4 g2 | b8. c16 d4 d4 | \break
 
         c8. b16 c4 a4 |    d,8. d16 e8 e8 fis8 d8
-      }
-      | g4 g2 |\break
+      } \alternative {
+        { | g4 \tempo "         Fine" g2 | \break }
+        { \time 4/4 g4 g2 
 
-      \time 4/4      g4 g2 e8. e16 \time 3/4  a4 g4 fis8. e16 |
+        \override Score.MetronomeMark #'outside-staff-priority = #599
+        %\override Score.MetronomeMark.X-extent=#'(-4.5 . 0)
+        \tempo \markup {
+          % make tempo note smaller
+          \concat {
+            "Andante" \normal-text { " (" }
+            \teeny \general-align #Y #DOWN \note #"4" #0.8
+            \normal-text { " = 60)" }
+          }
+        }
+        
+        e8. e16 }
+      }
+
+      \bar "||" \time 3/4  a4 g4 fis8. e16 
 
 
       \time 2/4  e4. ( fis8 ) \break
 
       | \time 3/4  d2 b'8. b16 | c4 e,4 fis8. d16 | \time 4/4  b'2 ( a2 ) |
       \time 3/4  |
-      \grace { b16 ( a16 } g2.) \bar "|."
+      \grace { b16 [( a16] } g2.) \bar "|."
 
 
     }
@@ -155,14 +173,19 @@
 
   } % score
 
-  \markup \halign #-12.4 \raise #2.8 \override #'(baseline-skip . 2) {
-    \column  {
-      \line  \halign #-1 {
+  \markup \halign #-11.1 \raise #2.8 \override #'(baseline-skip . 2) {
+    \column  \right-align {
+      \line  {
         \bold  { "D. C. al Fine" }
       }
       \line  {
-        \bold { senza ripetizione }
+        \bold { "senza ripetizione" }
       }
+      \line  { " " }
+      \line  { " " }
+      \line  { " " }
+      \line  { " " }
+      \line  { " " }
     }
   }
 
