@@ -157,7 +157,7 @@
     \header {
       title = \markup \column \normal-text \fontsize #2.5 {
         \center-align
-        \line { Сила здраве е богатство }
+        \line { Сила, здраве е богатство }
         \vspace #-0.6
         \center-align
         \line \fontsize #-3 {Sila, zdrave e bogatstvo }
