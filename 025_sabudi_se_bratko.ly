@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -85,7 +85,7 @@
         % make tempo note smaller
         \concat {
           "Moderato " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \teeny \general-align #Y #DOWN \note {4} #0.8
           \normal-text { " = 60)" }
         }
       }
@@ -100,7 +100,7 @@
           % make tempo note smaller
           \concat {
             "Più mosso " \normal-text { "(" }
-            \teeny \general-align #Y #DOWN \note #"2." #0.8
+            \teeny \general-align #Y #DOWN \note {2.} #0.8
             \normal-text { " = 60)" }
           }
         }

@@ -83,7 +83,7 @@
     \key d \minor
      \tempo \markup { % make tempo note smaller
       \concat { "Rubato" \normal-text { " (" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \teeny \general-align #Y #DOWN \note {4} #0.8
           \normal-text { " = 56)" }
       }
     } 

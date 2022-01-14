@@ -1,5 +1,5 @@
 
-\version "2.20.0"
+\version "2.22.0"
 
 \markup \fill-line { \fontsize #6 "Der feierliche Tag bricht schon an" }
 \markup \null

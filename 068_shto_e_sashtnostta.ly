@@ -88,7 +88,7 @@
         % make tempo note smaller
         \concat {
           "Largo " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \teeny \general-align #Y #DOWN \note {4} #0.8
           \normal-text { " = 40)" }
         }
       }

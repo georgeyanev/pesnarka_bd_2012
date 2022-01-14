@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -85,7 +85,7 @@
     %\tempo "Moderato" 8 = 160
     \tempo \markup { % make tempo note smaller
       \concat { "Andantino " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \teeny \general-align #Y #DOWN \note {4} #0.8
           \normal-text { " = 69)" }
       }
     }
@@ -101,7 +101,7 @@ e'4 g'4 c''2 |\time 6/4 b'4 ( d''4 ) c''4 ( a'4 ) g'2 \tempo "rit." | e'2 d'4. c
 
 \tempo \markup { % make tempo note smaller
       \concat { "Poco più mosso " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \teeny \general-align #Y #DOWN \note {4} #0.8
           \normal-text { " = 76)" }
       }
 }
@@ -116,7 +116,7 @@ c'2\fermata
 
 \tempo \markup { % make tempo note smaller
       \concat { "Più mosso " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"2." #0.8
+          \teeny \general-align #Y #DOWN \note {2.} #0.8
           \normal-text { " = 58)" }
       }
 }
@@ -127,7 +127,7 @@ d''2 c''4 | b'2 a'4 | a'2 g'4 | g'2 e'4 | g'2 e'4 | e'2.\fermata \breathe \break
 
 \tempo \markup { % make tempo note smaller
       \concat { "Moderato " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \teeny \general-align #Y #DOWN \note {4} #0.8
           \normal-text { " = 80)" }
       }
 }

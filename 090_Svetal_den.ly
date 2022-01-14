@@ -81,7 +81,7 @@
   \time 2/4
   \tempo \markup { % make tempo note smaller
     \concat { "Moderato" \normal-text { " (" }
-      \teeny \general-align #Y #DOWN \note #"4" #0.8
+      \teeny \general-align #Y #DOWN \note {4} #0.8
       \normal-text { " = 88)" }
     }
   }  
@@ -99,7 +99,7 @@
    \time 3/4 
   \tempo \markup { % make tempo note smaller
     \concat { "       Meno mosso " \normal-text { " (" }
-      \teeny \general-align #Y #DOWN \note #"4" #0.8
+      \teeny \general-align #Y #DOWN \note {4} #0.8
       \normal-text { " = 66)" }
     }
   }  

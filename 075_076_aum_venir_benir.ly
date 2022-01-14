@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -88,7 +88,7 @@
         % make tempo note smaller
         \concat {
           "Andante" \normal-text { " (" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \teeny \general-align #Y #DOWN \note {4} #0.8
           \normal-text { " = 60)" }
         }
       }
@@ -169,7 +169,7 @@
         % make tempo note smaller
         \concat {
           "Andante" \normal-text { " (" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \teeny \general-align #Y #DOWN \note {4} #0.8
           \normal-text { " = 58)" }
         }
       }

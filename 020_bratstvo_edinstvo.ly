@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -79,12 +79,7 @@
     \clef treble
     \key g \major
     \time 2/4 
-    \tempo \markup { % make tempo note smaller
-      \concat { "Tempo di marcia " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 100)" }
-      }
-    }  
+    
     \autoBeamOff
  
     d'4 g'8 a'8 | b'4 e''4 | d''8 d''8 e''8 c''8 | b'2| d''4 c''8 b'8 | \break
@@ -100,7 +95,7 @@
          \override Score.MetronomeMark.X-extent=#'(-4.5 . 0)
          \tempo \markup { % make tempo note smaller
            \concat { "Meno mosso " \normal-text { "(" }
-             \teeny \general-align #Y #DOWN \note #"4" #0.7
+             \teeny \general-align #Y #DOWN \note {4} #0.7
              \normal-text { " = 92)" }
            }
          }  

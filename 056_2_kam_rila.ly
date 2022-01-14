@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.0"
 
 \paper {
   #(set-paper-size "a5")
@@ -82,7 +82,7 @@
     \time 3/4 
      \tempo \markup { % make tempo note smaller
     \concat { "Tempo di valzer" \normal-text { " (" }
-      \teeny \general-align #Y #DOWN \note #"2." #0.8
+      \teeny \general-align #Y #DOWN \note {2.} #0.8
       \normal-text { " = 54)" }
     }
   }

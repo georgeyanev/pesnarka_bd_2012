@@ -94,7 +94,7 @@
     \time 2/4 
     \tempo \markup { % make tempo note smaller
       \concat { "Tempo di marcia " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"8" #0.8
+          \teeny \general-align #Y #DOWN \note {8} #0.8
           \normal-text { " = 112)" }
       }
     }

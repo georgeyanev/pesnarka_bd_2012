@@ -68,6 +68,32 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../087_mussala.ly \
     ../088_hodi_hodi.ly \
     ../089_tagi_skarbi.ly \
+    ../090_Svetal_den.ly \
+    ../091_neva_senzu.ly \
+../092_2_davai_davai.ly \
+../092_kiamet_zenu.ly \
+../093_misli_pravo_misli.ly \
+../094_v_nachaloto_be_slovoto.ly \
+../095_2_dobar_den.ly \
+../095_vdahnovenie.ly \
+../096_vesel_ti_badi.ly \
+../097_zapali_se_oganyat.ly \
+../098_bershid_ba.ly \
+../099_malkiyat_izvor.ly \
+../100_vsichko_v_zjivota_e_postizhimo.ly \
+../101_duhat_mi_shepne_tova.ly \
+../101_tagi_skarbi_sa_bogatstvo.ly \
+../102_sila_zhivot_zdrave.ly \
+../103_krasiv_e_zhivotat.ly \
+../104_himn_na_velinata_dusha_new.ly \
+../106_pesen_na_zorata.ly \
+../107_pri_vsichkite_uslovija.ly \
+../108_az_moga_da_kazha.ly \
+../109_az_smeya_da_kaza.ly \
+../110_2_V_pustinyata_na_zhivota.ly \
+../110_da_imash_vjara.ly \
+../111_az_moga_da_lubya.ly \
+../112_1_sila_zdrave_e_bogatstvo.ly \
     > tmp.ly
 
 lilypond --include=../ -o pesn_all tmp.ly

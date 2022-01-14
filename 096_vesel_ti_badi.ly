@@ -81,7 +81,7 @@
     \time 6/4 
     \tempo \markup { % make tempo note smaller
       \concat { "Andante " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \teeny \general-align #Y #DOWN \note {4} #0.8
           \normal-text { " = 63)" }
       }
     }  
@@ -104,7 +104,7 @@
    \bar ".|:" 
     \tempo \markup { % make tempo note smaller
       \concat { "            Più mosso" \normal-text { " (" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \teeny \general-align #Y #DOWN \note {4} #0.8
           \normal-text { " = 88)" }
       }
     }
