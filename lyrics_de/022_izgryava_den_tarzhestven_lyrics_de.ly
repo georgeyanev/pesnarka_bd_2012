@@ -26,7 +26,7 @@
 
     \line { " " }
 
-    \line {    2. Und er bringt Freude für die Seele }
+    \line {2. Und er bringt Freude für die Seele }
     \line {   "   "und verkündet die Freiheit }
     \line {   "   " Und den Frieden mit allheiliger Liebe }
     \line {   "   " für alle auf der Erde. }
