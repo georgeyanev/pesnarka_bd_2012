@@ -105,7 +105,7 @@
 
       b'8 a'8 g'8 fis'8 | g'4. d'8 | g'2 | fis'8. g'16 a'8 b'8 | c''4 d''4 | \break
 
-      e''4.\fermata b'8 | d''4. c''8 | b'4 a'8 a'8 | b'8 a'8 g'8 fis'8 | g'2 \break
+      e''4.\fermata b'8 | d''4. c''8 | b'4 a'8 a'8 | b'8 a'8 g'8 fis'8 | g'2 \bar "|."
     }
 
     \addlyrics {
@@ -119,7 +119,7 @@
 
       тъй, ка -- то ги при -- е -- ма -- ме, поз -- на -- ва -- ме, че са
 
-      Бо -- жи да -- ро -- ве;  И
+      Бо -- жи да -- ро -- ве;  и
 
       тъй, ка -- то ги при -- е -- ма -- ме, поз -- на -- ва -- ме, че са дар на Лю -- бов -- та.
     }
@@ -134,7 +134,7 @@
 
       tay, ka -- to gi pri -- e -- ma -- me, poz -- na -- va -- me, che sa
 
-      Bo -- zhi da -- ro -- ve;  I
+      Bo -- zhi da -- ro -- ve;  i
 
       tay, ka -- to gi pri -- e -- ma -- me, poz -- na -- va -- me, che sa dar na Lyu -- bov -- ta.}
 
