@@ -167,6 +167,6 @@
   }
 
   % include foreign translation(s) of the song
-  \include "lyrics_de/112_2_zov_na_planinata.ly"
+  \include "lyrics_de/112_2_zov_na_planinata_lyrics_de.ly"
 
 } % bookpart
