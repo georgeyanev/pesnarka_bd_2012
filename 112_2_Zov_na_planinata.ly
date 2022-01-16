@@ -156,7 +156,15 @@
     } %column
   } % markup
 
-
+  \markup \halign #-9.3 \raise #3 \override #'(baseline-skip . 2) {
+    \column  {
+      \line {" "}
+      \line {" "}
+      \line {" "}
+      \line {" "}
+      \line {" "}
+    }
+  }
 
   % include foreign translation(s) of the song
   \include "lyrics_de/112_2_zov_na_planinata.ly"
