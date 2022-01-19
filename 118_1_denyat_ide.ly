@@ -89,10 +89,12 @@
           \normal-text { " = 60)" }
         }
       }
+      
+      \autoBeamOff
 
-      c'4 es'4 | es'8  c'8   \tuplet 3/2 { b8 ( c'8  d'8  ) } | g2 | c'4 es'4 | g'4 as'8. as'16 | g'2 | \break
+      c'4 es'4 | d'8  c'8  \tuplet 3/2 { [b8 (   c'8  d'8]  ) } | g2 | c'4 es'4 | g'4 as'8. as'16 | g'2 | \break
 
-      \repeat volta 2 {   c''4 bes' | as'8 g'8 f' (g') | es'2 | g'4 f' | es'4 d'8. es'16| c'2} \break
+      \repeat volta 2 {   c''4 bes' | as'8 g'8 f' [(g') ] | es'2 | g'4 f' | es'4 d'8. es'16| c'2} \break
 
 
     }
@@ -129,24 +131,27 @@
     \override #'(baseline-skip . 2.4) % affects space between column lines
     \column {
 
-      \line {   "   " Мога аз да кажа, че ме обича Бог,}
+      \line {  2. Мога аз да кажа, че ме обича Бог,}
 
       \line {   "   " слънчевите лъчи кротко шепнат това. (2)}
       \line { " "}
 
-      \line {   "   " Диша свежест зората, пробужда се денят,}
+      \line {  2. Moga az da kazha, che me obicha Bog,}
+
+      \line {   "   " slanchevite lachi krotko shepnat tova. (2)}
+      \line { " "}
+
+      \line {   3.  Диша свежест зората, пробужда се денят,}
 
       \line {   "   " Радост и надежда пълнят сърцата ни. (2) }
       \line {   "   "}
 
-      \line {   "   " Moga az da kazha, che me obicha Bog,}
 
-      \line {   "   " slanchevite lachi krotko shepnat tova. (2)}
-
-      \line { " "}
-      \line {   "   " Disha svezhest zorata, probuzhda se denyat,}
+      \line {  3. Disha svezhest zorata, probuzhda se denyat,}
 
       \line {   "   " Radost i nadezhda palnyat sartsata ni. (2) }
+      \line {" "}
+      \line {" "}
 
     }
 

@@ -15,9 +15,9 @@
  \line { " "die Sonne wird aufgehen und wir werden gut handeln. (2)}
  \line { " "}
 
- \line { 2.	Ich kann sagen, dass Gott mich liebt}
+ \line { 2.	Ich kann sagen, dass Gott mich liebt.}
 
- \line { " "Die Sonnenstrahlen flüstern es mir leise zu. (2) }
+ \line { " "  Die Sonnenstrahlen flüstern es mir leise zu. (2) }
  \line { " "}
 
  \line { 3.	Die Morgenröte atmet voller Frische, der Tag bricht an. }
