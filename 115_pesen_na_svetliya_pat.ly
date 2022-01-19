@@ -141,6 +141,20 @@
 
     } % score
 
+    \markup \halign #-12.7 \raise #2.8 \override #'(baseline-skip . 2) {
+      \column  \right-align {
+        \line  {
+          \bold  { "D.C." }
+        }
+        \line  {
+          \bold  { "con ripetizione" }
+        }
+        \line  { " " }
+        \line  { " " }
+        \line  { " " }
+      }
+    }
+
     % include foreign translation(s) of the song
     \include "lyrics_de/115_pesen_na_svetlia_pat_lyrics_de.ly"
 
