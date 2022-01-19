@@ -101,40 +101,51 @@
 
     }
 
-    \addlyrics {Слу  --  шай  --
-   те   гла  --  са   на   пе  --  сен  --  та,   що   раз  --  на  --
-   ся   ве  --  че   про  --  лет  --  та.   Дар   ве  --  лик   е
-   за   Жи  --  во  --  та   тя,   дар   ве  --  лик   е   за   Жи  --
-   во  -- та тя.
-}
-    \addlyrics {Slu  --  shay  --
-   te   gla  --  sa   na   pe  --  sen  --  ta,   shto   raz  --  na  --
-   sya   ve  --  che   pro  --  let  --  ta.   Dar   ve  --  lik   e
-   za   Zhi  --  vo  --  ta   tya,   dar   ve  --  lik   e   za   Zhi  --
-   vo  -- ta tya.}
+    \addlyrics {
+      Слу  --  шай  --
+      те   гла  --  са   на   пе  --  сен  --  та,   що   раз  --  на  --
+      ся   ве  --  че   про  --  лет  --  та.   Дар   ве  --  лик   е
+      за   Жи  --  во  --  та   тя,   дар   ве  --  лик   е   за   Жи  --
+      во  -- та тя.
+    }
+    \addlyrics {
+      Slu  --  shay  --
+      te   gla  --  sa   na   pe  --  sen  --  ta,   shto   raz  --  na  --
+      sya   ve  --  che   pro  --  let  --  ta.   Dar   ve  --  lik   e
+      za   Zhi  --  vo  --  ta   tya,   dar   ve  --  lik   e   za   Zhi  --
+      vo  -- ta tya.}
 
-    \header {
-      title = \markup \column \normal-text \fontsize #2.5 {
-        \center-align
-        \line { Пролет }
-        \vspace #-0.6
-        \center-align
-        \line \fontsize #-3 { Prolet }
-        \vspace #-0.8
-        \center-align
-        \line \fontsize #-3 { " " }
+      \header {
+        title = \markup \column \normal-text \fontsize #2.5 {
+          \center-align
+          \line { Пролет }
+          \vspace #-0.6
+          \center-align
+          \line \fontsize #-3 { Prolet }
+          \vspace #-0.8
+          \center-align
+          \line \fontsize #-3 { " " }
+        }
+      }
+
+      \midi{}
+
+    } % score
+
+
+    \markup \halign #-43.1 \raise #2.8 \override #'(baseline-skip . 2) {
+      \column  \right-align {
+        \line  {
+          \bold  { "D.C." }
+        }
+        \line  { " " }
+        \line  { " " }
+
       }
     }
 
-    \midi{}
 
-  } % score
+    % include foreign translation(s) of the song
+    \include "lyrics_de/118_2_prolet_lyrics_de.ly"
 
-
-
-
-
-  % include foreign translation(s) of the song
-  \include "lyrics_de/118_2_prolet_lyrics_de.ly"
-
-} % bookpart
+  } % bookpart

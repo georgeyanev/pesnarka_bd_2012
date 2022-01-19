@@ -14,9 +14,9 @@
 
    \line { " "  das der Frühling schon verbreitet.}
 
-   \line { " "  Er ist ein großes Geschenk für das Leben,}
+   \line { " "  Sie ist eine große Gabe für das Leben,}
 
-  \line { " "   er ist ein großes Geschenk für das Leben. }
+  \line { " "   er ist eine große Gabe für das Leben. }
 
 
   }
