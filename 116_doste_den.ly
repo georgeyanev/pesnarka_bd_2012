@@ -159,8 +159,18 @@
 
   } % score
 
-  \pageBreak
+  \markup \halign #-16.1 \raise #2.8 \override #'(baseline-skip . 2) {
+    \column  \right-align {
+      \line{" "}
+      
+      \line  {
+        \bold  { "D.C. al Fine" }
+      }
+    }
+  }
 
+ 
+\pageBreak
 
 
   % include foreign translation(s) of the song
