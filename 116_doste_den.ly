@@ -72,7 +72,10 @@
       \context {
         % adjust space between staff and lyrics and between the two lyric lines
         \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
+        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
+          (basic-distance . 4.5)
+          (padding . 0.5)
+        )
         \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
       }
     } % layout
@@ -84,9 +87,9 @@
       \tempo \markup {
         % make tempo note smaller
         \concat {
-          "Moderato " \normal-text { "(" }
+          "Andante sostenuto " \normal-text { "(" }
           \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 69)" }
+          \normal-text { " = 60)" }
         }
       }
 
@@ -98,7 +101,21 @@
       g'8 as'8 g'8 fis'8 g'8 as'8 | \time 2/4  g'2 | c''4. b'8 | as'8 g'8 f'8 as'8 \break |
 
 
-      g'2 | \time 3/4  c''4. b'8 c''8 d''8 | \time 4/4  es''2 d''2 | \time 3/4  | c''2. \bar "||" \break |
+      g'2 | \time 3/4  c''4. b'8 c''8 
+      
+      \tempo \markup {
+        % make tempo note smaller
+        \concat {
+          \normal-text { "       ossia       "  }
+          \fontsize #-4 \general-align #Y #DOWN \note #"2" #0.8
+          \normal-text { "                "  }
+          \fontsize #-4 \general-align #Y #DOWN \note #"4" #0.8
+          "                                   Fine"
+        }
+      }
+
+
+      d''8 | \time 4/4  es''2 d''2 | \time 3/4  | c''2. \bar "||" \break |
 
 
       \autoBeamOn
@@ -106,20 +123,23 @@
       \time 6/4  \tempo \markup {
         % make tempo note smaller
         \concat {
-          "По мотиви на Учителя/Nach Motiven von P.Danov"
+          \normal-text {"По мотиви на Учителя/Nach Motiven von P.Danov"}
         }
       } c'4. ( d'8 es'16 d'16 c'16 b16 c'8 d'8 ) g2 | \time 5/4  g'4 ( \once \override TupletBracket #'stencil = ##f
       \times 4/5  {
         fis'16 g'16 as'16 g'16 fis'16
       } g'8. c''16 ) c''4. r16 es'16 -- \break |
 
-
+      \autoBeamOff
       \time 4/4  \repeat volta 2 {
         es'8. d'16 d'8. c'16 c'4. c'8 | d'4 g8. g16 c'4.. es'16 \break |
 
-        es'8. d'16 d'8. c'16 c'4. c'8
-      }  \alternative { { | d'4 g8. g16 c'4. es'16 |} { d'4 g8. g16 c'2 } }
-
+        es'8. d'16 d'8. c'16 c'4. c'8 |
+      }  \alternative { 
+        { d'4 g8. g16 c'4.. es'16 | } 
+        { d'4 g8. g16 c'2 } 
+      }
+      \bar "|."
     }
 
     \addlyrics {
@@ -148,7 +168,7 @@
         \line { Доще ден }
         \vspace #-0.6
         \center-align
-        \line \fontsize #-3 { Doste den }
+        \line \fontsize #-3 { Doshte den }
         \vspace #-0.8
         \center-align
         \line \fontsize #-3 { " " }
@@ -159,10 +179,8 @@
 
   } % score
 
-  \markup \halign #-16.1 \raise #2.8 \override #'(baseline-skip . 2) {
+  \markup \halign #-16.2 \raise #2.8 \override #'(baseline-skip . 2) {
     \column  \right-align {
-      \line{" "}
-      
       \line  {
         \bold  { "D.C. al Fine" }
       }
