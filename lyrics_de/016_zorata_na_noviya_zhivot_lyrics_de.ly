@@ -1,11 +1,11 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Die wunderbare Mögenröte bricht an" }
+\markup \fill-line { \fontsize #deTitleFontSize "Die wunderbare Mögenröte bricht an" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
+\markup \fontsize #deCoupletFontSize {
     \hspace #10
-    \override #'(baseline-skip . 2)
+    \override #`(baseline-skip . ,deCoupletBaselineSkip)
     \column {
      \line { " " }
       \line { 1. Die wunderbare Morgenröte bricht an, }
