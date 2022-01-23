@@ -1,11 +1,10 @@
 \version "2.20.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Die Liebe ist Quelle" }
-\markup \null
-\markup \null
-\markup \fontsize #deCoupletFontSize {
+\markup \fontsize #+2.0 {
   \hspace #10
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+  \vspace #0.5
+  \override #'(baseline-skip . 1.8)
 
   \column {
 
