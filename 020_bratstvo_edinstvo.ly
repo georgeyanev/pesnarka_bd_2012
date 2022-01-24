@@ -61,18 +61,11 @@
     \midi{}
 
   } % score
-  \markup \halign #-12.4 \raise #2.8 \override #'(baseline-skip . 2) { 
-  \column  { 
-    \line  \halign #-3 { 
-      \bold  { "D. C." }
-    }
-    \line  { 
-      \bold { con ripetizione }
-    }
-  }
-} 
+  \markup \dc-one "D.C."
+  \markup \dc-one "con repetitione"
+  \markup \empty-three
 
- \pageBreak
+  \pageBreak
 
   % include foreign translation(s) of the song
   \include "lyrics_de/020_bratstvo_edinstvo_lyrics_de.ly"

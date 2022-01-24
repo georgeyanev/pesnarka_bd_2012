@@ -10,7 +10,7 @@
 
     \new Voice \absolute {
       \clef treble
-      \key d \major
+      \key d \minor
       \time 2/4
       \tempoFunc "Largo" "4" "54"
       \autoBeamOff
@@ -71,7 +71,7 @@
 
   } % score
 
-
+\markup \empty-three
 
   % include foreign translation(s) of the song
   \include "lyrics_de/021_ste_se_razveselja_lyrics_de.ly"

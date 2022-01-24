@@ -48,9 +48,9 @@
 
   } % score
 
-  \markup \fontsize #+2.0 {
-    \hspace #7
-    \override #'(baseline-skip . 1.8) % affects space between column lines
+ \markup \fontsize #bgCoupletFontSize {
+    \hspace #1
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line { 1. Любовта е извор, }
       \line {   "   " тя живота ражда }
@@ -110,8 +110,8 @@
       \line {   "   "песни ще да пее.}
     }
 
-    \hspace #5
-    \override #'(baseline-skip . 1.8)
+      \hspace #5
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line { 1. Lyubovta e izvor, }
       \line {   "   " tya zhivota razhda }
