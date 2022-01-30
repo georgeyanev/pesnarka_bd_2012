@@ -1,3 +1,5 @@
+\version "2.20.0"
+
 \paper {
   #(set-paper-size "a5")
 
@@ -46,6 +48,75 @@ titleFunc = #(define-scheme-function
         \line \fontsize #-3 { " " }
       }    
     #}
+)
+
+#(define-markup-command (dc-one layout props text) (markup?)
+  "After song text (usually D.C.) with one line."
+  (interpret-markup layout props
+    #{
+      \markup \raise #2.8 \override #'(baseline-skip . 2) {
+        \column {
+          \fill-line \bold { "" "" \concat {#text "   " }}
+        }
+      }
+    #}
+  )
+)
+
+#(define-markup-command (dc-two layout props textone texttwo) (markup? markup?)
+  "After song text (usually D.C.) with two lines."
+  (interpret-markup layout props
+    #{
+      \markup \raise #2.8 \override #'(baseline-skip . 2) {
+        \column {
+          \fill-line \bold { "" "" \concat {#textone "   " }}
+          \fill-line \bold { "" "" \concat {#texttwo "   " }}
+        }
+      }
+    #}
+  )
+)
+
+#(define-markup-command (empty-one layout props) ()
+  "Adds one empty line."
+  (interpret-markup layout props
+    #{
+      \markup {
+        \column {
+          \line { " " }
+        }
+      }
+    #}
+  )
+)
+
+#(define-markup-command (empty-two layout props) ()
+  "Adds two empty lines."
+  (interpret-markup layout props
+    #{
+      \markup {
+        \column {
+          \line { " " }
+          \line { " " }
+        }
+      }
+    #}
+  )
+)
+
+#(define-markup-command (empty-three layout props) ()
+  "Adds three empty lines."
+  (interpret-markup layout props
+    #{
+      \markup {
+        \column {
+          \line { " " }
+          \line { " " }
+          \line { " " }
+        }
+      }
+    #}
+  )
 )
 
 #(define bgCoupletFontSize +2.5)
