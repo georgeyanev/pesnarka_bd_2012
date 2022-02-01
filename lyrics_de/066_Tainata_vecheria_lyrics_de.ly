@@ -1,16 +1,12 @@
-\version "2.18.2"
+\version "2.20.0"
 
-%\markup {  \vspace #1.9 }
+\markup \fill-line { \fontsize #deTitleFontSize "Das letzte Abendmahl" }
+\markup \null
+\markup \null
+\markup \fontsize #deCoupletFontSize {
+  \hspace #10
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-\markup {  \hspace #25   \huge\bold "Das letzte Abendmal"  }
-
-\markup {
-    \hspace #1
-    \fontsize #+1 {
-      
-      \halign #-1.5 {
-  
-  
   \column {
      \line { " " }
      

@@ -1,12 +1,13 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Es ist Zeit, dass wir gehen" }
+\markup \fill-line { \fontsize #deTitleFontSize "Es ist Zeit, dass wir gehen" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
+\markup \fontsize #deCoupletFontSize {
   \hspace #10
-  \override #'(baseline-skip . 2)
-  \column {
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+  
+    \column {
     \line { "   " }
 
     \line { 1. Es ist Zeit, dass wir gehen, }

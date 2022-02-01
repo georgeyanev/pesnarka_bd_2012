@@ -1,12 +1,13 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Ein Engel sang" }
+\markup \fill-line { \fontsize #deTitleFontSize "Ein Engel sang" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-    \hspace #7
-    \override #'(baseline-skip . 2)
-    \column {
+\markup \fontsize #deCoupletFontSize {
+  \hspace #10
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+
+  \column {
      \line { " " }
      
      \line { " "Ein Engel rief der Mutter Gottes zu:}

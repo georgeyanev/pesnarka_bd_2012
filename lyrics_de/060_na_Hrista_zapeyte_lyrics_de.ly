@@ -1,15 +1,16 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Mögen wir Jesus besingen" }
+\markup \fill-line { \fontsize #deTitleFontSize "Mögen wir Christus besingen" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-    \hspace #12
-    \override #'(baseline-skip . 2)
-    \column {
+\markup \fontsize #deCoupletFontSize {
+  \hspace #10
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+
+  \column {
      \line { " " }
      
-\line { 1. Mögen wir Jesus mit neuen Hymnen}
+\line { 1. Mögen wir Christus mit neuen Hymnen}
 
 \line { "   "in dieser Stunde besingen;}
 

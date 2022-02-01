@@ -1,289 +1,207 @@
 \version "2.20.0"
 
-\paper {
-  #(set-paper-size "a5")
-}
+% include paper part and global functions
+\include "include/globals.ily"
 
 \bookpart {
-\paper {
-  print-all-headers = ##t
-  print-page-number = ##t
-  print-first-page-number = ##t
+  \include "include/bookpart-paper.ily"
+  \score {
+    \include "include/score-layout.ily"
 
-  % put page numbers on the bottom
-  oddHeaderMarkup = \markup ""
-  evenHeaderMarkup = \markup ""
-  oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-    }
-  evenFooterMarkup = \markup
-    \fill-line {
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-      ""
-    }
+    \new Voice \absolute  {
+      \clef treble
+      \key d \major
+      \time 3/4
+      \tempoFunc "Moderato" "4" "112"
+      \autoBeamOff
 
-  left-margin = 1.5\cm
-  right-margin = 1.5\cm
-  top-margin = 1.6\cm
-  bottom-margin = 1.2\cm
-  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
 
-  % change lyrics and titles font (affects notes also)
-  fonts =
-    #(make-pango-font-tree
-     "Times New Roman"
-     "DejaVu Sans"
-     "DejaVu Sans Mono"
-     (/ (* staff-height pt) 3.6))
+      a'2 a'4| fis''2 e''4| d''2 b'4 | a'2 fis'4 | e'2 e'4 | cis'2 a4 | \break
 
-  % change distance between staves
-  system-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
-}
+      d'2 fis'4 | a'2 r4| a'2 a'4| b'2 cis''4 | d''2 e''4| fis''2.| \break
 
-\header {
-  tagline = ##f
-}
+      d''2. |  b'2 b'4| a'2 g'4 | fis'2 e'4 | d'2. | g'2 b'4 | d''2 b'4| \break
 
-\score{
-  \layout { 
-    indent = 0.0\cm % remove first line indentation
-    %ragged-last = ##t % do not spread last line to fill the whole space
-    \context {
-      \Score
-      \omit BarNumber %remove bar numbers
-    } % context
+      a'2 a'4 | fis'2 d'4 | d''2 d''4 | cis''2 b'4 | a'2 cis''4 | d''2. | b'2 b'4 |  \break
 
-    \context { % change staff size
-      \Staff
-      fontSize = #+0 % affects notes size only
-      \override StaffSymbol #'staff-space = #(magstep -3)
-      \override StaffSymbol #'thickness = #0.5
-      \override BarLine #'hair-thickness = #1
-      %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
+      e''2 d''4 | cis''2 b'4 | a'2 fis'4 | a'2 g'4 | fis'2 e'4 | g'2 cis'4| d'2. | \bar "|." \break
     }
 
-    \context { % adjust space between staff and lyrics and between the two lyric lines
-      \Lyrics
-      \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
-      \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
+    \addlyrics {
+      "1. Но" -- ви хи -- мни на И -- су -- са да за -- пе -- ем
+      в~то -- я час, Бо -- жи Син е Той пред -- ве --
+      чен на Не -- бе -- то и във нас.  Наш У -- чи -- тел,
+      наш во -- ди -- тел, ис -- тин -- ски -- ят наш Жи -- вот, Не -- го --
+      во -- то креп -- ко И -- ме да се сла -- ви в~род и род.
     }
-  } % layout
 
-\new Voice \absolute  {
-    \clef treble
-    \key d \major
-    \time 3/4 
-    \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Moderato" \normal-text { " (" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 112)" }
-        }
+    \addlyrics {
+      "1. No" -- vi hi -- mni na I -- su -- sa da za -- pe -- em
+      v~to -- ya chas, Bo -- zhi Sin e Toy pred -- ve --
+      chen na Ne -- be -- to i vav nas.  Nash U -- chi -- tel,
+      nash vo -- di -- tel, is -- tin -- ski -- yat nash Zhi -- vot, Ne -- go --
+      vo -- to krep -- ko I -- me da se sla -- vi v~rod i rod.
     }
- 
-    a'2 a'4| fis''2 e''4| d''2 b'4 | a'2 fis'4 | e'2 e'4 | cis'2 a4 | \break
- 
-    d'2 fis'4 | a'2 r4| a'2 a'4| b'2 cis''4 | d''2 e''4| fis''2.| \break
-            
-    d''2. |  b'2 b'4| a'2 g'4 | fis'2 e'4 | d'2. | g'2 b'4 | d''2 b'4| \break
- 
-    a'2 a'4 | fis'2 d'4 | d''2 d''4 | cis''2 b'4 | a'2 cis''4 | d''2. | b'2 b'4 |  \break
- 
-    e''2 d''4 | cis''2 b'4 | a'2 fis'4 | a'2 g'4 | fis'2 e'4 | g'2 cis'4| d'2. | \bar "|." \break
-  }
-  
-  \addlyrics {
-    "1. Но" -- ви хи -- мни на И -- су -- са да за -- пе -- ем
-    в~то -- я час, Бо -- жи Син е Той пред -- ве -- 
-    чен на Не -- бе -- то и във нас.  Наш У -- чи -- тел,
-    наш во -- ди -- тел, ис -- тин -- ски -- ят наш Жи -- вот, Не -- го --
-    во -- то креп -- ко И -- ме да се сла -- ви в~род и род.    
-  }
 
-  \addlyrics {
-    "1. No" -- vi hi -- mni na I -- su -- sa da za -- pe -- em
-    v~to -- ya chas, Bo -- zhi Sin e Toy pred -- ve -- 
-    chen na Ne -- be -- to i vav nas.  Nash U -- chi -- tel,
-    nash vo -- di -- tel, is -- tin -- ski -- yat nash Zhi -- vot, Ne -- go --
-    vo -- to krep -- ko I -- me da se sla -- vi v~rod i rod.    
-  }
+    \header {
+      title = \titleFunc "На Христа запейте" "Na Hrista zapeyte"
+    }
 
-  
-  \header {
-    title = \markup \column \normal-text \fontsize #2.5 {
-              \center-align
-              \line { На Христа запейте }
-              \vspace #-0.6
-              \center-align
-              \line \fontsize #-3 { Na Hrista zapeyte  }
-              \vspace #-0.8
-              \center-align
-              \line \fontsize #-3 { " " }
-            }
-  }
-  
-  \midi{}
+    \midi{}
 
-} % score
+  } % score
 
-\pageBreak
+  \pageBreak
 
-\markup \fontsize #+2.5 {
-    \hspace #4.2
-    \override #'(baseline-skip . 2.4) % affects space between column lines
+  \markup \fontsize #bgCoupletFontSize {
+    \hspace #1
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
- \line {   2.  На Христа запейте химни  }
+      \line {   2.  На Христа запейте химни  }
 
- \line {   "   " нови в тоз тържествен час, }
+      \line {   "   " нови в тоз тържествен час, }
 
- \line {   "   " Той е Божи Син, изпратен }
+      \line {   "   " Той е Божи Син, изпратен }
 
- \line {   "   " на Земята зарад нас. }
+      \line {   "   " на Земята зарад нас. }
 
- \line {   "   " Той живота Си положи }
+      \line {   "   " Той живота Си положи }
 
- \line {   "   " от греха да ни спаси, }
+      \line {   "   " от греха да ни спаси, }
 
- \line {   "   " като смъртник в гроба слезе }
+      \line {   "   " като смъртник в гроба слезе }
 
- \line {   "   " мъртвите да възкреси. }
-   \line {   "   "}
+      \line {   "   " мъртвите да възкреси. }
+      \line {   "   "}
 
- \line {   3.  И когато се прослави, }
+      \line {   3.  И когато се прослави, }
 
- \line {   "   " нов завет ни даде Той, }
+      \line {   "   " нов завет ни даде Той, }
 
- \line {   "   " най-великия от всички, }
+      \line {   "   " най-великия от всички, }
 
- \line {   "   " Любовта – закона Свой. }
+      \line {   "   " Любовта – закона Свой. }
 
- \line {   "   " Благовествува и рече: }
+      \line {   "   " Благовествува и рече: }
 
- \line {   "   " „Вий сте Мои, Aз Съм ваш, }
+      \line {   "   " „Вий сте Мои, Aз Съм ваш, }
 
- \line {   "   " хората са всички братя, }
+      \line {   "   " хората са всички братя, }
 
- \line {   "   " Бог Отец е татко наш. }
-    
-    \line {   "   "}
+      \line {   "   " Бог Отец е татко наш. }
 
- \line {  4.  Един друг се залюбете, }
+      \line {   "   "}
 
- \line {   "   " тъй се служи на Отца; }
+      \line {  4.  Един друг се залюбете, }
 
- \line {   "   " и Отец ви всички люби, }
+      \line {   "   " тъй се служи на Отца; }
 
- \line {   "   " като Негови Деца. }
+      \line {   "   " и Отец ви всички люби, }
 
- \line {   "   " Аз съм жив хляб от Небето, }
+      \line {   "   " като Негови Деца. }
 
- \line {   "   " аз съм истинска лоза, }
+      \line {   "   " Аз съм жив хляб от Небето, }
 
- \line {   "   " Словото Ми опазете, }
+      \line {   "   " аз съм истинска лоза, }
 
- \line {   "   " заживейте в Любовта! }
-    \line {   "   "}
+      \line {   "   " Словото Ми опазете, }
 
- \line {   5.  Само в нея е живота, }
+      \line {   "   " заживейте в Любовта! }
+      \line {   "   "}
 
- \line {   "   " нейна е радостта, }
+      \line {   5.  Само в нея е живота, }
 
- \line {   "   " тя създава всяко благо, }
+      \line {   "   " нейна е радостта, }
 
- \line {   "   " тя едничка, Любовта.“ }
+      \line {   "   " тя създава всяко благо, }
 
- \line {   "   " Тъй ни учеше тогава,  }
+      \line {   "   " тя едничка, Любовта.“ }
 
- \line {   "   " тъй ни шепне и сега, }
+      \line {   "   " Тъй ни учеше тогава,  }
 
- \line {   "   " и възкръсват ми в душата }
+      \line {   "   " тъй ни шепне и сега, }
 
- \line {   "   " тези Негови Слова. }
+      \line {   "   " и възкръсват ми в душата }
+
+      \line {   "   " тези Негови Слова. }
     }
 
     \hspace #5
-    \override #'(baseline-skip . 2.4)
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
- \line {   2.  Na Hrista zapeyte himni  }
+      \line {   2.  Na Hrista zapeyte himni  }
 
- \line {   "   " novi v toz tarzhestven chas, }
+      \line {   "   " novi v toz tarzhestven chas, }
 
- \line {   "   " Toy e Bozhi Sin, izpraten }
+      \line {   "   " Toy e Bozhi Sin, izpraten }
 
- \line {   "   " na Zemyata zarad nas. }
+      \line {   "   " na Zemyata zarad nas. }
 
- \line {   "   " Toy zhivota Si polozhi }
+      \line {   "   " Toy zhivota Si polozhi }
 
- \line {   "   " ot greha da ni spasi, }
+      \line {   "   " ot greha da ni spasi, }
 
- \line {   "   " kato smartnik v groba sleze }
+      \line {   "   " kato smartnik v groba sleze }
 
- \line {   "   " martvite da vazkresi. }
-   \line {   "   "}
+      \line {   "   " martvite da vazkresi. }
+      \line {   "   "}
 
- \line {   3.  I kogato se proslavi, }
+      \line {   3.  I kogato se proslavi, }
 
- \line {   "   " nov zavet ni dade Toy, }
+      \line {   "   " nov zavet ni dade Toy, }
 
- \line {   "   " nay-velikia ot vsichki, }
+      \line {   "   " nay-velikia ot vsichki, }
 
- \line {   "   " Lyubovta – zakona Svoy. }
+      \line {   "   " Lyubovta – zakona Svoy. }
 
- \line {   "   " Blagovestvuva i reche: }
+      \line {   "   " Blagovestvuva i reche: }
 
- \line {   "   " „Viy ste Moi, Az Sam vash, }
+      \line {   "   " „Viy ste Moi, Az Sam vash, }
 
- \line {   "   " horata sa vsichki bratya, }
+      \line {   "   " horata sa vsichki bratya, }
 
- \line {   "   " Bog Otets e tatko nash. }
-    
-    \line {   "   "}
+      \line {   "   " Bog Otets e tatko nash. }
 
- \line {  4.  Edin drug se zalyubete, }
+      \line {   "   "}
 
- \line {   "   " tay se sluzhi na Ottsa; }
+      \line {  4.  Edin drug se zalyubete, }
 
- \line {   "   " i Otets vi vsichki lyubi, }
+      \line {   "   " tay se sluzhi na Ottsa; }
 
- \line {   "   " kato Negovi Detsa. }
+      \line {   "   " i Otets vi vsichki lyubi, }
 
- \line {   "   " Az sam zhiv hlyab ot Nebeto, }
+      \line {   "   " kato Negovi Detsa. }
 
- \line {   "   " az sam istinska loza, }
+      \line {   "   " Az sam zhiv hlyab ot Nebeto, }
 
- \line {   "   " Slovoto Mi opazete, }
+      \line {   "   " az sam istinska loza, }
 
- \line {   "   " zazhiveyte v Lyubovta! }
-    \line {   "   "}
+      \line {   "   " Slovoto Mi opazete, }
 
- \line {   5.  Samo v neya e zhivota, }
+      \line {   "   " zazhiveyte v Lyubovta! }
+      \line {   "   "}
 
- \line {   "   " neyna e radostta, }
+      \line {   5.  Samo v neya e zhivota, }
 
- \line {   "   " tya sazdava vsyako blago, }
+      \line {   "   " neyna e radostta, }
 
- \line {   "   " tya ednichka, Lyubovta.“ }
+      \line {   "   " tya sazdava vsyako blago, }
 
- \line {   "   " Tay ni ucheshe togava,  }
+      \line {   "   " tya ednichka, Lyubovta.“ }
 
- \line {   "   " tay ni shepne i sega, }
+      \line {   "   " Tay ni ucheshe togava,  }
 
- \line {   "   " i vazkrasvat mi v dushata }
+      \line {   "   " tay ni shepne i sega, }
 
- \line {   "   " tezi Negovi Slova. }
-     } %column
-} % markup
+      \line {   "   " i vazkrasvat mi v dushata }
 
-\pageBreak
+      \line {   "   " tezi Negovi Slova. }
+    } %column
+  } % markup
 
-% include foreign translation(s) of the song
-\include "lyrics_de/060_na_Hrista_zapeyte_lyrics_de.ly"
+  \pageBreak
+
+  % include foreign translation(s) of the song
+  \include "lyrics_de/060_na_Hrista_zapeyte_lyrics_de.ly"
 
 } % bookpart
