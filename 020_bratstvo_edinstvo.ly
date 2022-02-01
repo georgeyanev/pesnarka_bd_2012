@@ -61,9 +61,7 @@
     \midi{}
 
   } % score
-  \markup \dc-one "D.C."
-  \markup \dc-one "con repetitione"
-  \markup \empty-three
+  \markup \dc-two "D.C." "con repetitione"
 
   \pageBreak
 

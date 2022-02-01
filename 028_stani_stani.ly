@@ -55,15 +55,9 @@
 
       } % score
 
-      \markup \dc-one "D.C."
-      \markup \dc-one "con ripetizione"
-      
-
-
+      \markup \dc-two "D.C." "con ripetizione"
 
       \pageBreak
-
-
 
       % include foreign translation(s) of the song
       \include "lyrics_de/028_stani_stani_lyrics_de.ly"
