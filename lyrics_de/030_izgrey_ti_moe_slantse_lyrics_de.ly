@@ -1,23 +1,24 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Geh auf, geh auf, du meine Sonne" }
+\markup \fill-line { \fontsize #deTitleFontSize "Gehe auf, du, meine Sonne" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-  \hspace #14
-  \override #'(baseline-skip . 2)
+\markup \fontsize #deCoupletFontSize {
+  \hspace #10
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+
   \column {
     \line { " " }
-    
-    
-    \line {   1. Geh auf, geh auf, du meine Sonne, }
+
+
+    \line {   1. Geh auf, geh auf, du, meine Sonne, }
 
     \line {   "   "denn ich warte auf dich jeden Tag; }
 
     \line {   "   "nach dir sehnt sich mein ganzes Herz}
 
     \line {   "   "und ich bin auf meinem Weg ermattet;}
- 
+
     \line {   "   "Du bringst mir das glückselige Leben.}
     \line { " " }
 
@@ -28,7 +29,7 @@
     \line {   "   "seliges, seliges, seliges Leben,}
 
     \line {   "   "du, der du mir das selige Leben bringst.}
-   
+
     \line { " " }
 
     \line {   2. Bescheine den Himmel und die Erde,}
@@ -55,7 +56,7 @@
 
     \line {   "   "und alles Alte erneuerst; }
 
-    \line {   "   "durch dich wird die Welt neu werden,} 
+    \line {   "   "durch dich wird die Welt neu werden,}
 
     \line {   "   "du bist auf ewig die heilige Liebe!}
 

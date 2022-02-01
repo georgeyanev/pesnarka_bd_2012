@@ -1,30 +1,30 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Stehe auf, stehe auf" }
+\markup \fill-line { \fontsize #deTitleFontSize "Stehe auf, stehe auf" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-  \hspace #14
-  \override #'(baseline-skip . 2)
+\markup \fontsize #deCoupletFontSize {
+  \hspace #10
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
     \line { " " }
     \line { 1. Stehe auf, stehe auf }
-    \line {   "   " und der Herr wird dich beleben; }  
+    \line {   "   " und der Herr wird dich beleben; }
     \line {   "   " stehe auf, stehe auf}
-    \line {   "   " und der Herr wird dich auferstehen lassen; } 
-    \line {   "   " stehe auf, stehe auf  } 
+    \line {   "   " und der Herr wird dich auferstehen lassen; }
+    \line {   "   " stehe auf, stehe auf  }
     \line {   "   "und beginne mit der Liebe;}
     \line {   "   "stehe auf, stehe auf }
     \line {   "   "und kleide dich in Wahrheit.}
-    
+
     \line {   "   " }
     \line {  2. Kleide dich in Wahrheit}
     \line {   "   "und erbaue immer mit ihr,}
     \line {   "   "sie wird dich auch erneuern}
-    \line {   "   "und mit Geist erleuchten.}   
+    \line {   "   "und mit Geist erleuchten.}
     \line { " " }
-     
-     
+
+
     }
 }
 
@@ -39,4 +39,4 @@
 
 
 
-%---------------------------------------------------------------------  
+%---------------------------------------------------------------------

@@ -1,12 +1,12 @@
-
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Der feierliche Tag bricht schon an" }
+\markup \fill-line { \fontsize #deTitleFontSize "Der feierliche Tag bricht schon an" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
+\markup \fontsize #deCoupletFontSize {
   \hspace #16
-  \override #'(baseline-skip . 2)
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+
 
   \column {
     \line { 1. Der feierliche Tag bricht schon an, }

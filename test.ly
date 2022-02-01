@@ -12,7 +12,7 @@
       \clef treble
       \key g \minor
       \time 3/4
-      \tempoFunc "Moderato" "2." "40"
+      \tempoFunc "Moderato" "4" "69"
       \autoBeamOff
       \partial 4
 
@@ -51,8 +51,6 @@
         \midi{}
 
       } % score
-      
-      \pageBreak
 
       \markup \fontsize #bgCoupletFontSize {
         \hspace #1
@@ -145,6 +143,6 @@
       \pageBreak
 
       % include foreign translation(s) of the song
-      \include "lyrics_de/030_izgrey_ti_moe_slantse_lyrics_de.ly"
+      \include "lyrics_de/000_empty_template_lyrics_de.ly"
 
     } % bookpart

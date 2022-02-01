@@ -1,8 +1,8 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Die Liebe ist eine Quelle" }
+\markup \fill-line { \fontsize #deTitleFontSize "Die Liebe ist Quelle" }
 \markup \fontsize #+2.0 {
-  \hspace #14
+  \hspace #10
   \vspace #0.5
   \override #'(baseline-skip . 1.8)
 
