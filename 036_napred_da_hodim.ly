@@ -31,7 +31,6 @@
       } \alternative {
         {  e'4. e'8 |}
         {e'4. \bar "|." \break }
-        {e'4. \bar "|." \break }
       }
     }
 
@@ -63,7 +62,7 @@
       \pageBreak
 
       \markup \fontsize #bgCoupletFontSize {
-        \hspace #1
+        \hspace #5
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
         \column {
           \line {  2. Земята с чисти мисли}
