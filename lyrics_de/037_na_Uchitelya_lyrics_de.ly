@@ -1,11 +1,12 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "An den Meister" }
+\markup \fill-line { \fontsize #deTitleFontSize "An den Meister" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-  \hspace #16
-  \override #'(baseline-skip . 2)
+\markup \fontsize #deCoupletFontSize {
+  \hspace #10
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+
   \column {
     \line { "   " }
 
