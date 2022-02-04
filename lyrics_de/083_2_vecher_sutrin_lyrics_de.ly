@@ -1,12 +1,13 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Abends, morgens" }
+\markup \fill-line { \fontsize #deTitleFontSize "Abends, morgens" }
 \markup \null
 \markup \null
+\markup \fontsize #deCoupletFontSize {
+  \hspace #10
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-\markup \fontsize #+2.5 {
-  \hspace #14
-  \override #'(baseline-skip . 2)
+
   
   \column {
      \line { " " } 

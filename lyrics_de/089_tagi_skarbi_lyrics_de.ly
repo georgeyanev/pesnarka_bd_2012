@@ -1,14 +1,13 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Trauer, Gram" }
+\markup \fill-line { \fontsize #deTitleFontSize "Trauer, Gram" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-    \hspace #16
-    \override #'(baseline-skip . 2)
-    \column {
-     \line { " " }
-     
+\markup \fontsize #deCoupletFontSize {
+  \hspace #10
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+
+  \column {
 
 	   
 \line { " "Hebe, setze die Trauer und den Gramm auf }
