@@ -12,7 +12,7 @@
       \clef treble
       \key d\major
       \time2/4
-      \tempoFunc "Moderato" "4" "84"
+      \tempoFunc "Moderato maestoso" "4" "84"
       \autoBeamOff
       a4 -> d'4 -> | % 2
       d'4 -> d'8. -> e'16 | % 3
