@@ -1,12 +1,13 @@
-\version "2.18.2"
+\version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Kühnheit in Christus" }
+\markup \fill-line { \fontsize #deTitleFontSize "Kühnheit in Christus" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-    \hspace #14
-    \override #'(baseline-skip . 2)
-    \column {
+\markup \fontsize #deCoupletFontSize {
+  \hspace #10
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+
+  \column {
      \line { "   " }
      
      \line {  1. Kühnheit in Christus, Freunde, }

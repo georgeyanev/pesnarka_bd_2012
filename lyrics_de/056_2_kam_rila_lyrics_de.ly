@@ -1,11 +1,12 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Ins Rila" }
+\markup \fill-line { \fontsize #deTitleFontSize "Ins Rila fliegen wir" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-  \hspace #16
-  \override #'(baseline-skip . 2)
+\markup \fontsize #deCoupletFontSize {
+  \hspace #15
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+
   \column {
     \line { " " } 
      

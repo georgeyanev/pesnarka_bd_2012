@@ -1,12 +1,13 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Es kommen Tage der Freude" }
+\markup \fill-line { \fontsize #deTitleFontSize "Es kommen Tage der Freude" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-    \hspace #18
-    \override #'(baseline-skip . 2)
-    \column {
+\markup \fontsize #deCoupletFontSize {
+  \hspace #16
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+
+  \column {
      \line { "   " }
      \line { " "Es kommen die Tage der Freude, }
 

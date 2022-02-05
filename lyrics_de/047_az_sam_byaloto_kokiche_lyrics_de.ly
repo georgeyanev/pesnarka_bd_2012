@@ -1,14 +1,13 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Ich bin das weiße Schneeglöckchen" }
+\markup \fill-line { \fontsize #deTitleFontSize " Ich bin das weiße Schneeglöckchen" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-  \hspace #14
-  \override #'(baseline-skip . 2)
-  \column {
-    \line { "   " }
+\markup \fontsize #deCoupletFontSize {
+  \hspace #10
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
+  \column {
     \line {1. Ich bin das weiße Schneeglöckchen}
 
     \line { "   "inmitten der Gräsern des Waldes,}

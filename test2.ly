@@ -13,7 +13,7 @@
       \key d \major
       \time 6/4
       \tempoFunc "Largo" "4" "40"
-      \partial 4
+        \partial 4
       \autoBeamOff
 
       b8. fis'16| d'8 fis'4. eis'8 fis'8 g'8 fis'4. fis'8 b'8| d''4. d''8 cis''4 b'2 fis'8. b'16 | \break
@@ -26,20 +26,20 @@
 
       \bar ".|:"
 
-      \time 4/4 b4 cis'4 d'4 b4 | \time 3/4 d'4 fis'2 | \time 4/4 e'4 fis' g' e' | \time 3/4 g'4 b'2  \break
-      \pageBreak
+        \time 4/4 b4 cis'4 d'4 b4 | \time 3/4 d'4 fis'2 | \time 4/4 e'4 fis' g' e' | \time 3/4 g'4 b'2  \break
+        \pageBreak
 
-      \time 6/4 b'4 cis''4 d'' b' g' e' | g' b' a' g' fis' b | \break
+        \time 6/4 b'4 cis''4 d'' b' g' e' | g' b' a' g' fis' b | \break
 
-      cis'8 d' fis' e' d'4 cis' b2 | fis'4 b' d'' b' g' e' |\break
+        cis'8 d' fis' e' d'4 cis' b2 | fis'4 b' d'' b' g' e' |\break
 
-      g'4 b'4 a'4 g'4 fis'4 b |  cis'8 d' fis' e' d'4 cis'4 b2 | \break
+        g'4 b'4 a'4 g'4 fis'4 b |  cis'8 d' fis' e' d'4 cis'4 b2 | \break
 
-      \bar ":|."
+      \bar ":|."  
 
-      \time 3/4
-
-
+      \time 3/4 
+      
+      
       b8. cis'16 d'8 fis'4. | e'8. fis'16 g'8 fis'4. | fis'8 b'8 d''4. b'8| \break
 
       \time 4/4 cis''4. ais'8 b'4. r8 | \time 3/4 fis'8. b'16 a'8 g'4. | e'8. fis'16 g'8 fis'4. | \break
@@ -90,7 +90,7 @@
       A Du -- hat mi shep  -- ne ta  -- ka:
 
     }
-    \addlyrics {
+      \addlyrics {
       " " " " " " " " " " " " " " " "
 
       " " " " " " " " " " " " " " " "
@@ -167,7 +167,7 @@
       " " " " " " " " " " " " " " " " " "
     }
 
-    \addlyrics {
+     \addlyrics {
       " " " " " " " " " " " " " " " "
 
       " " " " " " " " " " " " " " " "
@@ -189,7 +189,7 @@
       " " " " " " " " " " " " " " " " " "
     }
 
-    \addlyrics {
+     \addlyrics {
       " " " " " " " " " " " " " " " "
 
       " " " " " " " " " " " " " " " "
@@ -199,7 +199,7 @@
       " " " " " " " " " " " " " " " " " " " " " " " " " " " "
 
       " " " " " " " " " " " " " " " " " "
-
+ 
       "4.    Ko  " -- ga may -- ka nezh -- na za rozh -- ba se zhert -- va,
       v~taz o -- bich pri -- mer -- na i lyu -- bov bez -- mer -- na
       ti shte vi -- dish sasht -- nost -- ta
@@ -211,7 +211,7 @@
       " " " " " " " " " " " " " " " " " "
     }
     \header {
-      title = \titleFunc "Що е същността" "Sto e sastnostta"
+      title = \titleFunc "Заглавие" "Zaglavie"
     }
 
     \midi{}

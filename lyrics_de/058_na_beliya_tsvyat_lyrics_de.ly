@@ -1,13 +1,13 @@
-\version "2.18.2"
+\version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "An die weiße Farbe" }
+\markup \fill-line { \fontsize #deTitleFontSize "An die weiße Farbe" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-    \hspace #12
-    \override #'(baseline-skip . 2)
-    
-        \column {
+\markup \fontsize #deCoupletFontSize {
+  \hspace #10
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+
+  \column {
      \line { " " }  
      \line { 1. Mögen wir noch höher nach oben gehen.}
 
