@@ -58,8 +58,7 @@
     \midi{}
 
   } % score
-  \markup \dc-one "D.C."
-  \markup \dc-one "con ripetizione"
+  \markup \dc-two "D.C." "con ripetizione"
   \markup \empty-three
 
   % include foreign translation(s) of the song
