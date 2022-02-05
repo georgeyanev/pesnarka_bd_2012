@@ -188,6 +188,149 @@
     } \"rightBraces052_1" %column
   } % markup
 
+\pageBreak
+
+\markup \fontsize #bgCoupletFontSize {
+    \hspace #1
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \column {
+
+\line {   "   "}
+\line {   4.  Управлява, благославя - }
+
+\line {   "   " всичко в Мъдрост да расте, }
+
+\line {   "   " плодове на Правда свята }
+
+\line {   "   " в жертва да Му принесе, }
+
+\line {   "              " принесе. }
+
+\line {   "   "}
+\line {   "   "}
+
+\line {   5. Ето днес ни горе викат, }
+
+\line {   "   " към Небето да вървим, }
+
+\line {   "   " че там Радост ни очаква. }
+
+\line {   "   " нов град да си съградим, }
+
+\line {   "              " съградим. }
+
+\line {   "   "}
+\line {   "   "}
+
+\line {   6. От смъртта се не плашете, }
+
+\line {   "   " не загива същността, }
+
+\line {   "   " туй, що смърт зовеме тука, }
+
+\line {   "   " за Небето е врата, }
+
+\line {   "              " е врата. }
+
+\line {   "   "}
+\line {   "   "}
+
+\line {   7. С радост и хвалебни песни }
+
+\line {   "   " ще прекрачим нейни праг, }
+
+\line {   "   " а отвъд Христос ни чака, }
+
+\line {   "   " все тъй кротък, все тъй благ, }
+
+\line {   "            " все тъй благ. }
+
+\line {   "   "}
+\line {   "   "}
+
+\line {   8. И там Той ще ни научи, }
+
+\line {   "   " тленното как да не тлей, }
+
+\line {   "   " как с телото си човека }
+
+\line {   "   " вечно може да живей, }
+
+\line {   "             " да живей. }
+
+}
+\"rightBraces052_2"
+\hspace #5
+\override #`(baseline-skip . ,bgCoupletBaselineSkip)
+\column {
+
+\line {   "   "}
+\line {   4.  Upravlyava, blagoslavya - }
+
+\line {   "   " vsichko v Madrost da raste, }
+
+\line {   "   " plodove na Pravda svyata }
+
+\line {   "   " v zhertva da Mu prinese, }
+
+\line {   "              " prinese. }
+
+\line {   "   "}
+\line {   "   "}
+
+\line {   5. Eto dnes ni gore vikat, }
+
+\line {   "   " kam Nebeto da varvim, }
+
+\line {   "   " che tam Radost ni ochakva. }
+
+\line {   "   " nov grad da si sagradim, }
+
+\line {   "              " sagradim. }
+
+\line {   "   "}
+\line {   "   "}
+
+\line {   6. Ot smartta se ne plashete, }
+
+\line {   "   " ne zagiva sashtnostta, }
+
+\line {   "   " tuy, shto smart zoveme tuka, }
+
+\line {   "   " za Nebeto e vrata, }
+
+\line {   "              " e vrata. }
+
+\line {   "   "}
+\line {   "   "}
+
+\line {   7. S radost i hvalebni pesni }
+
+\line {   "   " shte prekrachim neyni prag, }
+
+\line {   "   " a otvad Hristos ni chaka, }
+
+\line {   "   " vse tay krotak, vse tay blag, }
+
+\line {   "            " vse tay blag. }
+
+\line {   "   "}
+\line {   "   "}
+
+\line {   8. I tam Toy shte ni nauchi, }
+
+\line {   "   " tlennoto kak da ne tley, }
+
+\line {   "   " kak s teloto si choveka }
+
+\line {   "   " vechno mozhe da zhivey, }
+
+\line {   "             " da zhivey. }
+
+    } %column
+\"rightBraces052_2"
+} % markup
+
   \pageBreak
   % include foreign translation(s) of the song
   \include "lyrics_de/052_darzost_v_Hrista_lyrics_de.ly"
