@@ -94,6 +94,15 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../110_2_V_pustinyata_na_zhivota.ly \
     ../111_az_moga_da_lubya.ly \
     ../112_1_sila_zdrave_e_bogatstvo.ly \
+    ../112_2_Zov_na_planinata.ly \
+    ../114_toy_ide.ly \
+    ../115_pesen_na_svetliya_pat.ly \
+    ../116_doste_den.ly \
+    ../117_tam_daleche.ly \
+    ../118_1_denyat_ide.ly \
+    ../118_2_prolet.ly \
+    ../119_podmladyavane.ly \
+    ../120_burya.ly \
     > tmp.ly
 
 lilypond --include=../ -o pesn_all tmp.ly
