@@ -3,6 +3,31 @@
 % include paper part and global functions
 \include "include/globals.ily"
 
+"rightBraces048" = \markup {
+  \column {
+    % repeat braces
+    \translate #'(0 . -5.5 )
+    \right-brace #20
+
+    \translate #'(0 . -10.0 )
+    \right-brace #20
+
+    \translate #'(0 . -10.0 )
+    \right-brace #20
+  }
+  \column {
+    % repeat numbers
+    \translate #'(0 . -6.1 )
+    2
+
+    \translate #'(0 . -12.0 )
+    2
+
+    \translate #'(0 . -12.0 )
+    2
+  }
+}
+
 \bookpart {
   \include "include/bookpart-paper.ily"
   \score {
@@ -75,7 +100,7 @@
       \line {   "   " Без страх в Живота нов,}
 
       \line {   "   " носете Правда, Мир, Любов!}
-    }
+    }  \"rightBraces048"
 
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
@@ -108,6 +133,7 @@
 
       \line {   "   " nosete Pravda, Mir, Lyubov!}
     } %column
+     \"rightBraces048"
   } % markup
 
   \pageBreak

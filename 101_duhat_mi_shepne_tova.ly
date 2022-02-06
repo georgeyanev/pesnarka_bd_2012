@@ -144,7 +144,7 @@
       \markup \halign #-12.4 \raise #3 \override #'(baseline-skip . 2) {
         \column  {
           \line \right-align {
-            \bold  { "D. C. al Fine" }
+            \bold  { "D.C. al Fine" }
           }
           \line \right-align {
             \bold  { "con ripetizione" }
