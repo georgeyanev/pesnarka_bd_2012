@@ -1,94 +1,17 @@
 \version "2.20.0"
 
-\paper {
-  #(set-paper-size "a5")
-}
+\include "include/globals.ily"
 
 \bookpart {
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
-
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-      ""
-    }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change lyrics and titles font (affects notes also)
-    fonts =
-    #(make-pango-font-tree
-      "Times New Roman"
-      "DejaVu Sans"
-      "DejaVu Sans Mono"
-      (/ (* staff-height pt) 3.6))
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
-  }
-
-  \header {
-    tagline = ##f
-  }
-
-  \score{
-    \layout {
-      indent = 0.0\cm % remove first line indentation
-      %  ragged-last = ##t % do not spread last line to fill the whole space
-      \context {
-        \Score
-        \omit BarNumber %remove bar numbers
-      } % context
-
-      \context {
-        % change staff size
-        \Staff
-        fontSize = #+0 % affects notes size only
-        \override StaffSymbol #'staff-space = #(magstep -3)
-        \override StaffSymbol #'thickness = #0.5
-        \override BarLine #'hair-thickness = #1
-        %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
-      }
-
-      \context {
-        % adjust space between staff and lyrics and between the two lyric lines
-        \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
-        \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-      }
-    } % layout
+  \include "include/bookpart-paper.ily"
+  \score {
+    \include "include/score-layout.ily"
 
     \new Voice \relative c' {
       \clef treble
       \key c \major
       \time 3/4
-      \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Moderato " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 69)" }
-        }
-      }
+      \tempoFunc "Andante" "4" "60"
       \autoBeamOff
       a8.  b16  c4  d4 | % 2
       e8.  e16  e2 | % 3
@@ -97,7 +20,7 @@
       e2  a8.  a16 \break | % 5
       a8  a8  c4  b8  a8 | % 6
       \time 2/4  | % 6
-      g4  f8 (  d8 ) | % 7
+      g4  f8 [(  d8 )] | % 7
       e2 | % 8
       \time 5/4  | % 8
       d4  d8  e8  f4  a2 \break | % 9
@@ -203,22 +126,26 @@
       a8  gis8  a8 b8 | % 83
       \time 3/4  | % 83
       a2 ^\fermata
-      \tuplet 3/2 { b8 ( [ c8 ) ] d8  }
+      \tuplet 3/2 { \tempo "Andante" b8 ( [ c8 ) ] d8  }
       \time 4/4  | % 84
       e4. \fermata
       d8 e16  d16 c16  b16
       a8 gis8 | \break % 85 
-        \time 3/4 
-      a2.
+
+     \time 3/4 a2
     
-     \tuplet 3/2 { b,8 ( [ c8 ) ] d8  } |
+     \tuplet 3/2 { 
+      \once \override TextScript.extra-offset = #'(-1.8 . 3.5)
+      b,8-\markup \bold \fontsize #+2 {"("} 
+       ( [ c8 ) ] d8  } |
       \time 4/4   % 84
       e4. \fermata
-      d8 e16  d16 c16  b16
-      a8 gis8 | \break % 85 
+      d8 \tempo "rit." e16  d16 c16  b16
+      a8 gis8 | 
       \time 3/4
-      a2. r4 \break |
-
+      \override TextScript.extra-offset = #'(3 . 3.0)      
+      a2.-\markup \bold \fontsize #+2 {")"}
+      r4 \bar "|."
     }
 
     \addlyrics {
@@ -230,7 +157,7 @@
       -- жи що ис -- каш ти от ме -- не,
       скръб, ка -- жи! Ка -- жи що
       ис -- каш, не -- ка аз то -- ва
-      да знам! Мъч -- но мо -- же
+      да знам! "„Мъч" -- но мо -- же
       мен ня -- кой  да о -- би
       -- ча. Там е скръб -- та! Кой --
       то мен о -- би  --  ча
@@ -246,7 +173,7 @@
       о -- би -- ча и доб -- ре да мис --
       ли за мен, тряб -- ва той да бъ
       -- де жи -- тел съ -- вър -- ше -- но
-      от друг свят. Ра -- дост и
+      от друг "свят.“" Ра -- дост и
       скръб, то -- ва са пъ  -- ти --
       ща да се раз -- би -- ра ве --
       ли -- ки -- я Жи -- вот. Лю  --
@@ -260,9 +187,9 @@
       Тях да въз -- при -- е -- мем, друж
       -- но да вър -- вим на -- пред. Лю
       -- бов -- та ед -- нак -- во и
-      две -- те це -- ни. Лю
+      две -- те це -- ни. (Лю
       -- бов -- та ед -- нак -- во и
-      две -- те це -- ни}
+      две -- те це -- ни.)}
       \addlyrics {
         Slu -- shal sam za te -- be, skrab,
         che zhes -- to -- ka si bi -- la, che
@@ -272,7 +199,7 @@
         -- zhi shto is -- kash ti ot me -- ne,
         skrab, ka -- zhi! Ka -- zhi shto
         is -- kash, ne -- ka az to -- va
-         da znam! Mach -- no mo -- zhe
+         da znam! "„Mach" -- no mo -- zhe
         men nya -- koy  da o -- bi
         -- cha. Tam e skrab -- ta! Koy --
         to men o -- bi  --  cha  
@@ -288,7 +215,7 @@
         o -- bi -- cha i dob -- re da mis --
         li za men, tryab -- va toy da ba
         -- de zhi -- tel sa -- var -- she -- no
-        ot drug svyat. Ra -- dost i
+        ot drug "svyat.“" Ra -- dost i
         skrab, to -- va sa pa  -- ti --
         shta da se raz -- bi -- ra ve --
         li -- ki -- ya Zhi -- vot. Lyu  --
@@ -302,28 +229,19 @@
         Tyah da vaz -- pri -- e -- mem, druzh
         -- no da var -- vim na -- pred. Lyu
         -- bov -- ta ed -- nak -- vo i
-        dve -- te tse -- ni. Lyu
+        dve -- te tse -- ni. (Lyu
         -- bov -- ta ed -- nak -- vo i
-        dve -- te tse -- ni.}
+        dve -- te tse -- ni.)}
 
         \header {
-          title = \markup \column \normal-text \fontsize #2.5 {
-            \center-align
-            \line { Радост и скръб }
-            \vspace #-0.6
-            \center-align
-            \line \fontsize #-3 { Radost i skrab }
-            \vspace #-0.8
-            \center-align
-            \line \fontsize #-3 { " " }
-          }
+          title = \titleFunc "Радост и скръб" "Radost i skrab"
         }
 
         \midi{}
 
       } % score
 
-
+      \markup \empty-one
 
       % include foreign translation(s) of the song
       \include "lyrics_de/122_radost_i_skrab_lyrics_de.ly"
