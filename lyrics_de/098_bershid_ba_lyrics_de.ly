@@ -1,13 +1,13 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Es war einmal" }
+\markup \fill-line { \fontsize #deTitleFontSize "Bershid ba" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-    \hspace #10
-    \override #'(baseline-skip . 2)
-    
-        \column {
+\markup \fontsize #deCoupletFontSize {
+  \hspace #10
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+
+  \column {
      \line { " " }      
     
        \line { " " Es war einmal, es war einmal,}

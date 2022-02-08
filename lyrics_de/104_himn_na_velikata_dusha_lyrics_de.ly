@@ -1,11 +1,11 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Hymne der Großen Seele" }
+\markup \fill-line { \fontsize #deTitleFontSize "Hymne an die große Seele" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-  \hspace #12
-  \override #'(baseline-skip . 2)
+\markup \fontsize #deCoupletFontSize {
+  \hspace #10
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
     \line { " " }

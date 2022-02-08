@@ -1,13 +1,13 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Heller Strahl" }
+\markup \fill-line { \fontsize #deTitleFontSize "Die kleine Quelle" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-    \hspace #10
-    \override #'(baseline-skip . 2)
-    
-        \column {
+\markup \fontsize #deCoupletFontSize {
+  \hspace #10
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+
+  \column {
      \line { " " }      
       \line { " "Ein heller Strahl kommt von oben,  }
 

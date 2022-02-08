@@ -1,13 +1,13 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Alles im Leben ist erreichbar" }
+\markup \fill-line { \fontsize #deTitleFontSize "Alles im Leben ist erreichbar" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-    \hspace #18
-    \override #'(baseline-skip . 2)
-    
-        \column {
+\markup \fontsize #deCoupletFontSize {
+  \hspace #10
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+
+  \column {
      \line { " " }      
   \line { " "   Alles im Leben ist erreichbar, }
 

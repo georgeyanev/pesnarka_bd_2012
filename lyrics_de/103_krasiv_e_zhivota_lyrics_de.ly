@@ -1,28 +1,28 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Schön ist das Leben" }
+\markup \fill-line { \fontsize #deTitleFontSize "Schön ist das Leben" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-    \hspace #16
-    \override #'(baseline-skip . 2)
-    
-        \column {
-     \line { " " }      
-    \line { " "Schön ist das Leben unserer Seele, } 
+\markup \fontsize #deCoupletFontSize {
+  \hspace #10
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-\line { " "das die ganze Erde erfüllt. }
+  \column {
+    \line { " " }
+    \line { " "Schön ist das Leben unserer Seele, }
 
-\line { " "Schön ist das Leben unserer Seele, } 
+    \line { " "das die ganze Erde erfüllt. }
 
-\line { " "das die ganze Erde erfüllt. }
+    \line { " "Schön ist das Leben unserer Seele, }
 
-\line { " "Schön ist das Leben unserer Seele, } 
+    \line { " "das die ganze Erde erfüllt. }
 
-\line { " "das die ganze Erde erfüllt. (2) }
-      
-       
-    }
-    
-    
+    \line { " "Schön ist das Leben unserer Seele, }
+
+    \line { " "das die ganze Erde erfüllt. (2) }
+
+
+  }
+
+
 }
