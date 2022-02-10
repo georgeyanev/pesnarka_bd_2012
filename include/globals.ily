@@ -63,6 +63,19 @@ titleFunc = #(define-scheme-function
   )
 )
 
+#(define-markup-command (dc-one-nobold layout props text) (markup?)
+  "After song text (usually D.C.) with one line."
+  (interpret-markup layout props
+    #{
+      \markup \raise #2.8 \override #'(baseline-skip . 2) {
+        \column {
+          \fill-line { "" "" \concat {#text "   " }}
+        }
+      }
+    #}
+  )
+)
+
 #(define-markup-command (dc-two layout props textone texttwo) (markup? markup?)
   "After song text (usually D.C.) with two lines."
   (interpret-markup layout props
