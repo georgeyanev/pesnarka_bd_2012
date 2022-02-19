@@ -48,3 +48,6 @@
   \include "lyrics_de/000_empty_template_lyrics_de.ly"
 
 } % bookpart
+
+% Più mosso
+%
