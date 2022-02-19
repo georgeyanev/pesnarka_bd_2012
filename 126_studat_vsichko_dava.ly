@@ -1,94 +1,17 @@
 \version "2.20.0"
 
-\paper {
-  #(set-paper-size "a5")
-}
+\include "include/globals.ily"
 
 \bookpart {
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
-
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-      ""
-    }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change lyrics and titles font (affects notes also)
-    fonts =
-    #(make-pango-font-tree
-      "Times New Roman"
-      "DejaVu Sans"
-      "DejaVu Sans Mono"
-      (/ (* staff-height pt) 3.6))
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
-  }
-
-  \header {
-    tagline = ##f
-  }
-
-  \score{
-    \layout {
-      indent = 0.0\cm % remove first line indentation
-      %ragged-last = ##t % do not spread last line to fill the whole space
-      \context {
-        \Score
-        \omit BarNumber %remove bar numbers
-      } % context
-
-      \context {
-        % change staff size
-        \Staff
-        fontSize = #+0 % affects notes size only
-        \override StaffSymbol #'staff-space = #(magstep -3)
-        \override StaffSymbol #'thickness = #0.5
-        \override BarLine #'hair-thickness = #1
-        %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
-      }
-
-      \context {
-        % adjust space between staff and lyrics and between the two lyric lines
-        \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
-        \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-      }
-    } % layout
+  \include "include/bookpart-paper.ily"
+  \score {
+    \include "include/score-layout.ily"
 
     \new Voice \absolute {
       \clef treble
       \key d \major
       \time 3/4
-      \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Andante " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 63)" }
-        }
-      }
+      \tempoFunc "Andante" "4" "63"
       \autoBeamOff
       \partial 4
       a'4 | % 2
@@ -120,7 +43,7 @@
       d''4.  b'8 \break | % 16
       a'4.  a'8 | % 17
       a'8  g'8  fis'8  e'8 | % 18
-      d'4.  d'8 | % 19
+      d'4. \tempoFunc "Più mosso" "4" "84" d'8 | % 19
       d'8.  d'16  d'8.  fis'16 \break |
       \time 3/4  |
       a'8.  a'16  a'4.  g'8 | % 21
@@ -138,11 +61,11 @@
       d'2 \bar "||"
 
       \key f \major | % 27
-      a4  d'8 ( [  e'8 ) ] | % 28
+      \tempo "Tempo I" a4  d'8 ( [  e'8 ) ] | % 28
       f'4  d'4 | % 29
       cis'8 ( [  d'8 ]  e'4 ) |
       a2 | % 31
-      e'8 ( [ ^\markup{ \bold {accel.} }  f'8 ) ]
+      \tempo "accel." e'8 ( [ f'8 ) ]
       g'8  a'8 \break | % 32
       bes'8 ( [  a'8 ) ]  g'8  f'8 | % 33
       e'4  g'8 ^\markup{ \bold {rit.} }  f'8 | % 34
@@ -163,7 +86,14 @@
       d'8.  d'16  d'4.  e'8 | % 46
       \time 2/4  | % 46
       f'4  d'4 | % 47
-      cis'8  d'8  e'8  f'8 | % 48
+      cis'8  d'8  e'8  f'8^\markup {
+        "ossia"
+        \fontsize #-6 \general-align #Y #DOWN \note "2" #0.8
+        \path #0.06 #'((moveto 0 1)
+                      (curveto 0 1 1.5 2 3 1)
+                     )
+        \fontsize #-6 \general-align #Y #DOWN \note "2" #0.8
+      }  | % 48
       d'4. (  a'8 ) | % 49
       g'4  bes'8.  bes'16 \break |
       a'2 | % 51
@@ -172,18 +102,18 @@
       \time 3/4  | % 53
       e'8 ( [  f'8 ) ]  g'8  a'8
       bes'8 -- ^\markup{ \bold {(rit.)} }  d''8 -- | % 54
-      cis''2 ^\fermata  a4 \break | % 55
-
+      cis''2 ^\fermata  a4 \time 3/4 \break | % 55
+      
+      \tempoFunc "Largamente" "4" "54"
       \times 2/3  {
-        d'8 ( [ \grace {
-          cis'16*3/2 [  d'16*3/2 ]
-        }  cis'8 ) ]  bes8
+        d'8[ \=1( \grace { cis'16 \=2([ d'16 ]}  cis'8 \=1)\=2)] bes8
       }
       a2 | % 56
       \time 2/4  | % 56
       e'8 ( [  f'8 ) ]  g'8  a'8  | % 57
       e'8  g'8  f'8  e'8 | % 58
       d'2 \break | % 59
+      \tempoFunc "Tempo I" "4" "63"
       a'8 ( [  bes'32  a'32  gis'32
       a'32 ) ]  bes'4 |
       a'2 | % 61
@@ -199,7 +129,7 @@
       a2  a4 \break | % 68
 
       \times 2/3  {
-        d'8 ( [ ^\markup{ \bold {Largamente} }  cis'8 ) ]
+        d'8 ( [ ^\markup{ \bold {Largamente} }  cis'8\prall ) ]
         bes8
       }
       a4. a'8
@@ -211,7 +141,7 @@
       d'2 \bar "||"
       \break | % 72
       d''4 ( ^\markup{ \bold {Più mosso} }  bes'4 ) | % 73
-      a'8. \tempo 4=84  gis'16  a'8  bes'8
+      a'8. \tempoFunc "" "4" "84"  gis'16  a'8  bes'8
       | % 74
       a'4.  g'8 | % 75
       f'8.  e'16  f'8.  e'16 | % 76
@@ -219,7 +149,7 @@
       d'8. ^\markup{ \bold {rit.} }  cis'16  d'8.
       e'16 | % 78
       \time 3/4  | % 78
-      d'2
+      \tempoFunc "Andante" "4" "66" d'2
       \times 2/3  {
         d'8 ( [  e'8  f'8 ) ]
       }
@@ -238,16 +168,31 @@
       gis8  a2 ^\fermata \bar "||"
       \break | % 83
       \time 2/4  | % 83
-      fis'8.  g'16  a'8 ( [ \tempo "Più mosso" 4=80
+      \tempoFunc "Più mosso" "4" "80" fis'8.  g'16  a'8 ( [
       fis'8 ) ] | % 84
       g'2 | % 85
       bes'8.  bes'16  a'4 | % 86
       g'8.  g'16  f'4 | % 87
      %ne znam kak da napisha malkite noti
      
-     
-      e'8.  e'16   d'4 \break | % 88
-      a4  a8.  a16 | % 89
+      \once \override TextScript.extra-offset = #'(-2.7 . 1)
+      \once \override Stem #'length = #5 
+      \stemDown \tweak font-size #-3  
+      e'8._\markup {(мла - до-то)}  
+
+      \once \override TextScript.extra-offset = #'(-7.3 . 1)
+      \once \override Stem #'length = #5 
+      \stemDown \tweak font-size #-3  
+      e'16_\markup \fontsize #+2 \italic {"ossia"}   
+      
+      \once \override TextScript.extra-offset = #'(-2.5 . 10.7)
+      \once \override Stem #'length = #5 
+      \stemDown \tweak font-size #-3  
+      d'4_\markup \fontsize #-2 \musicglyph "rests.0"
+      
+      \stemNeutral
+      \break | % 88
+      \tempoFunc "Andante" "4" "66" a4  a8.  a16 | % 89
       a2 |
       f'4  f'8  e'8 | % 91
       f'8  g'8  e'8.  e'16 | % 92
@@ -255,7 +200,7 @@
       \break | % 93
 
       \key d \major | % 93
-      a'4  a'4 | % 94
+      \tempoFunc "Moderato" "4" "88" a'4  a'4 | % 94
       \time 3/4  | % 94
       a'16 ( [  gis'16  a'16  b'16 ) ]
       a'2 | % 95
@@ -265,7 +210,7 @@
       b'8 ( [  cis''8 ) ]  a'4  a'8.
       g'16 \break | % 97
       fis'4  fis'4  e'8  fis'8 | % 98
-      g'4  e'2 | % 99
+      \time 3/4 g'4  e'2 | % 99
       e'4  e'8  fis'8  g'8  b'8
       |
       a'4  fis'4.  a'8  \break | % 101
@@ -273,15 +218,20 @@
       b'8 ( [  cis''8 ) ]  a'4  g'8
       ^\markup{ \bold {rit.} }  fis'8 | % 103
       | % 103
-      \time 2/4 e'4 ^\fermata  d'2 \bar "||" |
+      e'4 ^\fermata  d'2 \bar "||" |
       \break % 104
+      \time 2/4
       \key f \major  % 104
-
+      \tempoFunc "Andante" "4" "66"
       \times 2/3  {
-        d'8 ( [  e'8  fis'8 ]
+        d'8 ( [  e'8  fis'8^\markup \fontsize #-1 {\parenthesize \natural} ]
       }
-      d'8 [  fis'8 ) ] | % 105
-      fis'2 | % 106
+      
+      %\once \override TextScript.extra-offset = #'(-1 . 1)
+      d'8^\markup { "ossia" }
+      
+      [  fis'8^\markup \fontsize #-1 {\parenthesize \natural} ) ] | % 105
+      fis'2^\markup \fontsize #-1 {\parenthesize \natural} | % 106
       \time 3/4  | % 106
 
       \times 2/3  {
@@ -291,14 +241,14 @@
       \time 2/4  | % 107
       f'2 \break | % 108
 
-      a'16 ( [  gis'16  a'16  bes'16 ) ]
+      \tempo "Meno mosso" a'16 ( [  gis'16  a'16  bes'16 ) ]
       a'4 | % 109
       d''16 ( [  cis''16  bes'16  a'16
       ) ]  a'4 |
-      bes'16 ( [  a'16  f'16 )  d'16 ]
+      bes'16 ( [  a'16  f'16 )]  d'16
       bes'8.  a'16 \break | % 111
       \time 3/4  | % 111
-      <a' g'>4 s4 | % 112
+      a'4 g'2 | % 112
       \time 2/4  | % 112
       f'16 ( [  e'16  f'16  g'16 ) ]
 
@@ -345,7 +295,7 @@
       -- са на О -- бич -- та. Сту --
       ден  --   си ти, но  ни
       из -- ба -- вяш от мра -- за и
-      __    но -- сиш са -- мо
+          но -- сиш са -- мо
       то -- ва, ко -- е -- то Свет -- ли --
       на -- та ти да -- ва. Твой -- та
       дре  -- ха е бя -- ла. Сту --
@@ -357,7 +307,7 @@
       то съ -- бли -- чаш ста --
       ро -- то, ста --  ро -- то и
       за -- ви -- ваш мла -- до -- то,
-      мла -- до -- то мла -- до -- то.    Сту --
+      мла -- до -- то. "" "" "" Сту -- 
       ден си ти, но ни спа -- ся -- ваш
       от сту -- да. И ко -- га --
       то про -- лет -- та на -- ста
@@ -411,7 +361,7 @@
         to sa -- bli -- chash sta --
         ro -- to, sta --  ro -- to i
         za -- vi -- vash mla -- do -- to,
-        mla -- do -- to mla -- do -- to.  Stu --
+        mla -- do -- to.  ""  "" "" Stu --
         den si ti, no ni spa -- sya -- vash
         ot stu -- da. I ko -- ga --
         to pro -- let -- ta na -- sta

@@ -1,11 +1,11 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Die Kälte gibt alles" }
+\markup \fill-line { \fontsize #deTitleFontSize "Die Kälte gibt alles" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
+\markup \fontsize #deCoupletFontSize {
   \hspace #10
-  \override #'(baseline-skip . 2)
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
     \line { " " }
