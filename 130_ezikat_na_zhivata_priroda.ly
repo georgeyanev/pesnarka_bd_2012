@@ -1,94 +1,18 @@
 \version "2.20.0"
 
-\paper {
-  #(set-paper-size "a5")
-}
+\include "include/globals.ily"
 
 \bookpart {
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
+  \include "include/bookpart-paper.ily"
+  \score {
+    \include "include/score-layout.ily"
 
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-      ""
-    }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change lyrics and titles font (affects notes also)
-    fonts =
-    #(make-pango-font-tree
-      "Times New Roman"
-      "DejaVu Sans"
-      "DejaVu Sans Mono"
-      (/ (* staff-height pt) 3.6))
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
-  }
-
-  \header {
-    tagline = ##f
-  }
-
-  \score{
-    \layout {
-      indent = 0.0\cm % remove first line indentation
-      %ragged-last = ##t % do not spread last line to fill the whole space
-      \context {
-        \Score
-        \omit BarNumber %remove bar numbers
-      } % context
-
-      \context {
-        % change staff size
-        \Staff
-        fontSize = #+0 % affects notes size only
-        \override StaffSymbol #'staff-space = #(magstep -3)
-        \override StaffSymbol #'thickness = #0.5
-        \override BarLine #'hair-thickness = #1
-        %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
-      }
-
-      \context {
-        % adjust space between staff and lyrics and between the two lyric lines
-        \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
-        \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-      }
-    } % layout
 
     \new Voice \absolute {
       \clef treble
       \key d \minor
       \time 3/4
-      \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Andante" \normal-text { " (" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 63)" }
-        }
-      }
+      \tempoFunc "Andante" "4" "63"
       \autoBeamOff
       c'4 ( \once \omit TupletBracket
       \times 4/5  {
@@ -98,17 +22,17 @@
       a'8 )    a'8  | % 2
       \time 2/4  | % 2
       a'8. ( ^\fermata [  g'16 ]  a'16 [  g'16
-      ) ]  f'16 ( [ ^\markup{ \bold {Sostenuto} }  e'16 ) ]
+      ) ]  \tempo "Sostenuto" f'16 ( [ e'16 ) ]
       | % 3
       \time 3/4  | % 3
       f'16 ( [  e'16 ) ]  d'16 ( [  c'16 ) ]
       d'2 \break | % 4
       \time 4/4  | % 4
-      e'4. ^\markup{ \bold {a tempo} }  f'8  g'8 ( [
-      a'8 ) ]  f'8 ^\markup{ \bold {Sostenuto} }  g'16
+      \tempo "a tempo" e'4. f'8  g'8 ( [
+      a'8 ) ] \tempo "Sostenuto" f'8 g'16
       g'16 | % 5
       \time 3/4  | % 5
-      e'8 ( [ ^\markup{ \bold {a tempo} }  f'8 ) ]
+      \tempo "       a tempo" e'8 ( [ f'8 ) ]
       e'2 | % 6
       g'4.  e'8  f'8  e'8 | % 7
       d'8 ( [  c'8 ) ]  d'2 \break | % 8
@@ -119,7 +43,7 @@
       g'8  g'4  f'8  e'8  f'8 \break  | % 12
       e'8  c'8  d'2 | % 13
       \time 5/4  | % 13
-      c'4 ( ^\markup{ \bold {Largamente} }  f'4 )
+      \tempo "        Largamente" c'4 ( f'4 )
       e'4  e'2 | % 14
       c'4 (  f'4 )  e'4  e'2 | % 15
       \time 2/4  | % 15
@@ -129,8 +53,8 @@
       \key bes \major | % 18
       g'8  a'4  g'8 | % 19
       fis'4  es'8 ( [  d'8 ) ] |
-      es'8  fis'4  es'16 (   d'16 )  \break | % 21
-      es'8 ( [  d'8 ) ]  c'4   | % 22
+      es'8  fis'4  es'16 [(   d'16 )] | % 21
+      es'8 ( [  d'8 ) ]  c'4   |  \break  % 22
       c'4.  d'16  es'16 | % 23
       \time 4/4  | % 23
       fis'4  g'2  fis'4 | % 24
@@ -140,10 +64,10 @@
       a'8 ( [  bes'16  a'16 ) ]  g'8
       fis'8 \break  | % 26
       g'4  c''4 ^\fermata  | % 27
-      bes'8 (
+      \slurDown \stemUp bes'8 (
       \times 2/3  {
         a'16 [  bes'16  a'16 ) ]
-      }
+      } \slurNeutral \stemNeutral
       g'8 ( [  fis'8 ) ] | % 28
       g'2  | % 29
       \time 4/4  | % 29
@@ -163,20 +87,20 @@
       }
       g'2  d'8  d'8 | % 36
       \time 3/4  | % 36
-      g'4 (  a'2 ) \break  | % 37
+      g'4 (  a'2 ) | % 37
       \time 2/4  | % 37
       c''8  bes'8  a'8 ( [  g'8 ) ]  | % 38
       \time 3/4  | % 38
-      a'4  a'2  | % 39
+      a'4  a'2  | \break   % 39
       \time 2/4  | % 39
       g'8  g'8  fis'4 |
-      es'2 \break | % 41
+      es'2 | % 41
       fis'8  es'8  d'4 | % 42
       d'2 | % 43
       c'4.  d'16 ( [  es'16 ) ] | % 44
       fis'2 | % 45
-      g'8  es'8  d'4 \break | % 46
-      \time 3/4  | % 46
+      g'8  es'8  d'4 | % 46
+      \time 3/4  | \break  % 46
       \once \omit TupletBracket
       \times 2/3  {
         es'8 ( [  d'8  c'8 ) ]
@@ -199,14 +123,7 @@
       \time 2/4  | % 53
       d'2 \bar "||"
       \key g \major \time 4/4 | % 54
-        \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Moderato" \normal-text { " (" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 88)" }
-        }
-      }
+      \tempoFunc "Moderato" "4" "88"
       d'4 (  g'4 )  d'4  b8. c'16
       | % 55
       \time 3/4  | % 55
@@ -215,51 +132,51 @@
       \time 4/4  | % 57
       fis'2  g'2 \bar "||"
       \time 2/4  | % 58
-      d'8 ^\markup{ \bold {Vivo} }  b'4  d''8 \break  | % 59
-      \times 2/3  {
+      \tempo "Vivo" d'8 b'4  d''8 | % 59
+      \tupletUp \times 2/3  {
         c''8   c''8  b'8
-      }
-      c''8 ( [  d''8 ) ] |
+      } \tupletNeutral
+      c''8 ( [  d''8 ) ] | \break
       b'2 | % 61
       b'8  a'4  g'8 | % 62
       g'8  fis'8  fis'8  e'8 | % 63
       e'2 | % 64
       c''8  e'4  e'8 | % 65
-      e'8  d'8  d'8  c''8 | % 66
+      e'8  d'8  d'8  c''8 | \break % 66
       b'2 | % 67
       b'8  a'4  g'8 \break | % 68
       fis'8  g'8  a'8  b'8 | % 69
       g'2 |
       c''8  e'4  e'8 | % 71
-      e'8  d'8  d'8  c''8 | % 72
+      e'8  d'8  d'8  c''8 | \break % 72
       b'2  | % 73
-      e'8  e'4.\break | % 74
+      e'8  e'4. | % 74
       e'8  fis'8  g'8  g'8 | % 75
       g'2  | % 76
       e''8  a'4  b'8 | % 77
-      c''8 ( [  b'8 ) ]  c''8  d''8 | % 78
-      b'8  b'4. \break | % 79
+      c''8 ( [  b'8 ) ]  c''8  d''8 | \break % 78
+      b'8  b'4. | % 79
       b'8  a'4  g'8 |
       fis'8  g'8  a'8  b'8 | % 81
       g'8  g'4. | % 82
-      fis'8  e'4  d'8 \break |
-      d'4  d'8  d'8 | % 84
+      fis'8  e'4  d'8 |
+      d'4  d'8  d'8 | \break % 84
       d'8 ( [  g'8 ) ]  g'4 | % 85
       \time 3/4  | % 85
       c''4  e'4.  e'8 | % 86
       e'8 ( [  d'8 ) ]  d'2 | % 87
       c''8 ( [  b'8 ) ]  a'8  g'8
-      a'8.  b'16  \break | % 88
-      a'8 ( [  g'8 ) ]  g'2 | % 89
+      a'8.  b'16  | % 88
+      a'8 ( [  g'8 ) ]  g'2 | \break % 89
       \time 4/4  | % 89
-      b'4 ^\markup{ \bold {Maestoso} }  g'4  e'4
+      \tempo "Maestoso" b'4 g'4  e'4
       d'4 |
       e'8.  fis'16  g'2  b'4 | % 91
       d''4  b'4  e''4.  d''8 \break | % 92
       c''8 ( [  b'8 ) ]  c''8 ( [
       d''8 ) ]  b'2 | % 93
       b4.  c'8  d'2 | % 94
-      a4. ^\markup{ \bold {rit.} }  b8  c'4
+      \tempo "rit." a4. b8  c'4
       e'4 | % 95
       d'4  c'4  b2 \bar "|."
     }
@@ -278,7 +195,7 @@
       ли жа -- лиш?  По -- спри, не
       ду -- хай! Е -- два през та
       -- зи го -- ди -- на ту --
-      ка дой -- дох -- ме на  __
+      ка дой -- дох -- ме на
       гос -- ти. Не ду -- хай, ве --
       тре, ще      пад --
       нем, ще ни се стро -- шат ре --
@@ -303,7 +220,7 @@
       по -- троп -- нем то -- га  -- ва,
       да си по -- хап  -- нем, чис
       -- та во -- да да пи  -- ем,
-      сра -- дост да се раз -- де --
+      с~ра -- дост да се раз -- де --
       лим. На -- но -- во да се срещ
       -- нем  пак и до -- бре с‿о
       -- бич да се раз -- бе -- рем.“}
@@ -320,7 +237,7 @@
       li zha -- lish?  Po -- spri, ne
       du -- hay! E -- dva prez ta
       -- zi go -- di -- na tu --
-      ka doy -- doh -- me na  __
+      ka doy -- doh -- me na
       gos -- ti. Ne du -- hay, ve --
       tre, shte      pad --
       nem, shte ni se stro -- shat re --
@@ -351,16 +268,7 @@
       -- bich da se raz -- be -- rem.“}
 
       \header {
-        title = \markup \column \normal-text \fontsize #2.5 {
-          \center-align
-          \line { Езикът на живата природа }
-          \vspace #-0.6
-          \center-align
-          \line \fontsize #-3 {Ezikat na zhivata priroda }
-          \vspace #-0.8
-          \center-align
-          \line \fontsize #-3 { " " }
-        }
+        title = \titleFunc "Езикът на живата природа" "Ezikat na zhivata priroda"
       }
 
       \midi{}
