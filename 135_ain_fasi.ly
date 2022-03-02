@@ -52,8 +52,8 @@
       bes4 (  a4 )  d4 (  cis4 )
       bes4 (  a8 [  bes8 ) ] \break | % 11
       \time 3/4  | % 11
-      \tempo "                           Fine" a2 ^\fermata \bar "!!"
-      \tempoFunc "Più mosso" "4" "88" a'16. a \bar "|" % 12
+      \tempo "                   Fine" a2 ^\fermata \bar "!!"
+      \tempoFunc "Più mosso" "4" "88" a'8. a16 | % 12
       \compoundMeter #'((4 3 4 ))  | % 12
       a4 bes4  a4  a8.   gis16 \bar "!"
       a2  g8 [  f8 ] \break | % 13
