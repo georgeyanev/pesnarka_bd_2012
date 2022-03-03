@@ -56,27 +56,24 @@
       \tempoFunc "Più mosso" "4" "88" a'8. a16 | % 12
       \compoundMeter #'((4 3 4 ))  | % 12
       a4 bes4  a4  a8.   gis16 \bar "!"
-      a2  g8 [  f8 ] \break | % 13
-      e4  g4  f4  f8. [  e16 ] | % 14
-      d2  e8 [  f8 ] s1 | % 15
-      \time 6/4  | % 15
+      a2  g8  f8 | \break % 13
+      e4  g4  f4  f8. e16 % 14
+      \bar "!" d2  e8 f8 | % 15
+      \time 6/4 % 15
       g4  a4 d4 d8.
-      cis16 ]
-      d2 \break \repeat volta 2 {
-        | % 16
+      cis16
+      d2 | \pageBreak \repeat volta 2 {
         \time 5/4  | % 16
         d4 f8 ( [ e8 ) ]
-        d8 ( [ cis8 ) ] d8 ( [ bes8
-        ) a8 g8 ] | % 17
+        d8 ( [ cis8 ) ] d8 [(bes8)] a8 g8 | % 17
         \time 3/4  | % 17
         a8 ( [  g8 ]  f8 [  e8 ]
         f8 [  g8 ) ] | % 18
-        a2  a8 [  a8 ] \break | % 19
+        a2  a8 a8 \break | % 19
         \time 4/4  | % 19
         bes4 (  a8 [  gis8 ) ]  a2 |
-        \barNumberCheck #20
-        d8 ( [  e8 ) ]  f8 ( [  e8 ) ]
-        g8 ( [  f8 )  e8  d8 ] | % 21
+        d,8 ( [  e8 ) ]  f8 ( [  e8 ) ]
+        g8 [( f8 )]  e8  d8 | % 21
         d8 ( [  cis8  d8  e8 ) ]
         d2
       }
@@ -123,23 +120,15 @@
       pro -- ya -- vya --   va.}
 
     \header {
-      title = \markup \column \normal-text \fontsize #2.5 {
-        \center-align
-        \line { Аин фаси}
-        \vspace #-0.6
-        \center-align
-        \line \fontsize #-3 { Ain fasi }
-        \vspace #-0.8
-        \center-align
-        \line \fontsize #-3 { " " }
-      }
+      title = \titleFunc "Аин фаси" "Ain fasi"
     }
 
     \midi{}
 
   } % score
 
-
+  \markup \dc-two "D.C. al Fine" "con ripetizione"
+  \markup \empty-two
 
   % include foreign translation(s) of the song
   \include "lyrics_de/135_ain_fasi_lyrics_de.ly"
