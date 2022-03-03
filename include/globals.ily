@@ -138,3 +138,17 @@ titleFunc = #(define-scheme-function
 #(define deTitleFontSize 6)
 #(define deCoupletFontSize +2.5)
 #(define deCoupletBaselineSkip 2)
+
+#(define-bar-line "!!" "!!" #f "!")
+%The new bar line interface allows for easier extension and modification of the bar lines:
+%* the input string of a bar line called by \bar "<bar string>" resembles the output one-by-one; a repeat sign is called by ":|."
+%* (define-bar-line ...) or \defineBarLine allows for new definitions. These functions have four arguments, namely
+%the bar line itself, the bar line used at the end of line, the bar line used at the begin of a new line and the span bar line.
+%* Annotations for barlines can be added to distinguish between two identical barlines with different break
+%  apperance or span bar lines.
+%* To align span bars properly, the space character " " has a
+%  special meaning. When it occurs, the width of the resembling glyph in the bar line definition is used.
+%* New glyphs can be added easily.
+%* Volta brackets take the bar line dimensions into account. 
+
+
