@@ -52,7 +52,7 @@
 
   } % score
 
-  \markup \empty-three
+  \markup \empty-two
   % include foreign translation(s) of the song
   \include "lyrics_de/071_2_sila_zhiva_izvorna_lyrics_de.ly"
 
