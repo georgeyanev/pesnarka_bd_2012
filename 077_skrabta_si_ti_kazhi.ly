@@ -73,7 +73,8 @@
         Ra -- dost shte "vne-" -- sat, Ra -- dost shte "vne-" -- sat,
         Ra -- dost shte "vne-" -- sat, Ra -- dost shte "vne-" -- sat,
         Ra -- dost shte "vne-" -- sat, Ra -- dost shte "vne-" -- sat,
-        i v~du -- "-sha" ti Ra -- dost shte "vne-" -- sat.}
+        i v~du -- "-sha" ti Ra -- dost shte "vne-" -- sat.
+        }
 
         \header {
           title = \titleFunc "Скръбта си ти кажи" "Skrabta si ti kazhi"
