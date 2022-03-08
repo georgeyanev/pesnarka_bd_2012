@@ -99,7 +99,7 @@
 
      \markup \dc-one "(D.C.)"
 
-\pageBreak
+     \pageBreak
 
       % include foreign translation(s) of the song
       \include "lyrics_de/078_gree_gree_lyrics_de.ly"
