@@ -83,6 +83,7 @@
       da, toz Zhi -- vot, shto tuk se razh -- da, toz Zhi -- vot,
       shto tuk se razh -- da, toz Zhi -- vot, shto tuk se razh --
       da.}
+      
       \header {
         title = \titleFunc "Блага дума" "Blaga duma"
       }
