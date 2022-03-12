@@ -79,7 +79,7 @@
   } % score
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+    \hspace #3
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
@@ -105,7 +105,7 @@
       \line { "   "мощна е водата. }
     } \"rightBraces088"
 
-    \hspace #5
+    \hspace #7
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line { 1. Hodi, hodi, hodi,}
