@@ -83,8 +83,8 @@
 
 
   \markup \dc-two "D.C." " con ripetizione"
-  \markup \dc-two-italic "attacca „Светъл ден/Svetal den“"""
-  \markup \empty-three
+  \markup \italic \dc-one-nobold "attacca „Светъл ден/Svetal den“"
+  %\markup \empty-three
 
 
   % include foreign translation(s) of the song
