@@ -57,8 +57,7 @@
 
   } % score
   
-  \markup \dc-two-italic "attacca „Благата песен“" "attacca „Blagata pesen"
-  
+  \markup \italic \dc-one-nobold "attacca „Благата песен/Blagata pesen“"
   \markup \empty-three
 
 
