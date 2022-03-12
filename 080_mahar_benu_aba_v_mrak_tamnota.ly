@@ -24,8 +24,8 @@
 
         g2 fis4 |g2 f4 | es2 d4 |  es2 d4 | c2 b4 | c2 es4 | g2 f4 | \break
 
-        es2 d4 | c2 d8 d | f2 es4 | d2 c4 | es2 d4 | c2. \mark\markup\bold { "Fine         " }
-      } | \break
+        es2 d4 | c2 d8 d | f2 es4 | d2 c4 | es2 d4 | \tempo "          Fine" c2. 
+      }
 
     }
 
@@ -34,22 +34,28 @@
       Би -- ла -- дер А -- дер Бе -- ну ше -- ла,
       Бе -- ну ше -- ла, Бе -- ну ше -- ла,
       ше -- ла, ше -- ла, ше -- ла,
-      Би -- ла -- дер А -- дер Бе -- ну ше -- ла.}
-      \addlyrics {
+      Би -- ла -- дер А -- дер Бе -- ну ше -- ла.
+    }
+      
+    \addlyrics {
         Ma -- har Be -- nu A -- ba, Ve -- yut
         Bi -- la -- der A -- der Be -- nu she -- la,
         Be -- nu she -- la, Be -- nu she -- la,
         she -- la, she -- la, she -- la,
-        Bi -- la -- der A -- der Be -- nu she -- la.}
+        Bi -- la -- der A -- der Be -- nu she -- la.
+    }
 
-        \header {
-          title = \titleFunc "Махар Бену Аба" "Mahar Benu Aba"
-        }
+    \header {
+       title = \titleFunc "Махар Бену Аба" "Mahar Benu Aba"
+    }
 
-        \midi{}
+    \midi{}
 
-      } % score
-  \markup \dc-two-italic "attacca „В мрак тъмнота“/„V mrak tamnota“"""
+  } % score
+  
+  \markup \italic \dc-one-nobold "attacca „В мрак тъмнота“/„V mrak tamnota“"
+  \markup \empty-two
+  
   \score {
       \include "include/score-layout.ily"
 
@@ -67,7 +73,7 @@
       d'2 ) c'4 | c'2 f'4 | f'2 es'8 d' | es'2 f'4 | g'2 as'4 \break
 
       g'2 fis'4 | g'2 as'4 | g'2 f'4 \autoBeamOff \repeat volta 2 {
-        f'2 es'8 d' |  es'2 f'4 \break |
+        f'2 es'8 d' |  es'2 f'4 \pageBreak |
 
         g'2 as'4 | g'2 f'4 | es'2 d'4
       }  \alternative { { c'2 f'4 } {  c'2. } } \bar "||"  \break |

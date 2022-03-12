@@ -90,20 +90,6 @@ titleFunc = #(define-scheme-function
   )
 )
 
-#(define-markup-command (dc-two-italic layout props textone texttwo) (markup? markup?)
-  "After song text (usually D.C.) with two lines."
-  (interpret-markup layout props
-    #{
-      \markup \raise #2.8 \override #'(baseline-skip . 2) {
-        \column {
-          \fill-line \italic { "" "" \concat {#textone "   " }}
-          \fill-line \italic { "" "" \concat {#texttwo "   " }}
-        }
-      }
-    #}
-  )
-)
-
 #(define-markup-command (empty-one layout props) ()
   "Adds one empty line."
   (interpret-markup layout props

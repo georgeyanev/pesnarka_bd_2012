@@ -30,7 +30,7 @@
 
       b4b d8. c16 b2  \bar "!" c4b a8. a16 a2  \bar "!"  g4 fis4 a8. g16 fis2 \bar "!"  \break
 
-      e4 e fis8. e16 d2 \bar "!" \tempo "rit." c8. c16 c4 e4 e d b8 b16 b2 \bar "!"  \break
+      e4 e fis8. e16 d2 \bar "!" \tempo "rit." c8. c16 c4 e4 e d b8 b16 b2 \bar "|."  \break
 
 
     }
@@ -84,7 +84,8 @@
 
       } % score
 
-      \markup \dc-two-italic "(По желание песента се изпълнява два пъти / Nach Wunsch wird das Lied zwei Mal gesungen.)" "attacca „Скръбта си ти кажи“„Teile mir deine Trauer mit“"
+      \markup \italic \dc-one-nobold "(По желание песента се изпълнява два пъти/Nach Wunsch wird das Lied zwei Mal gesungen.)"
+      \markup \italic \dc-one-nobold "attacca „Скръбта си ти кажи“„Teile mir deine Trauer mit“"
       \markup \empty-three
       % include foreign translation(s) of the song
       \include "lyrics_de/077_skrabta_si_ti_kazhi_lyrics_de.ly"
