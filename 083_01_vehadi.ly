@@ -47,7 +47,7 @@
       \midi{}
 
     } % score
-    \markup \empty-three
+%    \markup \empty-three
 
 
     % include foreign translation(s) of the song
