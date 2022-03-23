@@ -64,8 +64,8 @@
 
   } % score
 
-\markup \dc-two "D.C.""con ripetizione"
- \markup \empty-three
+  \markup \dc-two "D.C.""con ripetizione"
+  \markup \empty-three
 
   % include foreign translation(s) of the song
   \include "lyrics_de/093_misli_pravo_misli_lyrics_de.ly"
