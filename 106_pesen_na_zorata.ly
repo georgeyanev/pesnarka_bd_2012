@@ -22,14 +22,9 @@
 
       a8 g fis d | e [ ( fis ] e4 )  | d2 \bar "||" \time 4/4 \tuplet 3/2 { { g8 [ (   a8 ) ] b8 } } a4 a2 \break
 
-      \tuplet 3/2 {    { d,8 [( e8 )] } fis8 } e4 d2 |  \key g \major \time 2/4 \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Più mosso " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 184)" }
-        }
-      } g4. ( fis8 | e4 ) d4 | c4. e8 |  d4 c | \break
+      \tuplet 3/2 {    { d,8 [( e8 )] } fis8 } e4 d2 |  \key g \major \time 2/4 
+      \tempoFunc "Più mosso" "4" "184"
+      g4. ( fis8 | e4 ) d4 | c4. e8 |  d4 c | \break
 
       b4 c | d (e) \bar "||" \time 3/4 d2 d4 | b'4. a8 g8. fis16 | e4 d c8. c16  | \break
 
