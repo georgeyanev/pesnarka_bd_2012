@@ -74,7 +74,7 @@
   } % score
 
   \markup \dc-one "D.C. al Fine"
-\markup \empty-two  
+  \markup \empty-two  
 
   % include foreign translation(s) of the song
 
