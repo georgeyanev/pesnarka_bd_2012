@@ -26,16 +26,7 @@
       }
       \alternative {
         {  a'4. e'8 | }
-        {
-          a'4\fermata b4 \tempo \markup {
-            % make tempo note smaller
-            \concat {
-              "Andante sustenuto" \normal-text { " (" }
-              \teeny \general-align #Y #DOWN \note #"4" #0.8
-              \normal-text { " = 63)" }
-            }
-          } |
-        }
+        {  a'4\fermata b4 \tempoFunc "Andante sustenuto" "4" "63" }
       }
 
       \key c \major \time 4/4 \repeat volta 2 {
@@ -49,13 +40,8 @@
       \alternative {
         {  a'2 a4 | }
         {
-          a'2 r8  \tempo \markup {
-            % make tempo note smaller
-            \concat {
-              "Tempo I "
-
-            }
-          }  e'8 |
+          a'2 r8  \tempo "Tempo I"
+          e'8 |
         }
       }
 
@@ -110,11 +96,6 @@
     \midi{}
 
   } % score
-
-  %\markup \dc-two "D.C." "con ripetizione"
-  %\markup \empty-two
-
-  % include foreign translation(s) of the song
 
   \pageBreak
   \include "lyrics_de/103_krasiv_e_zhivota_lyrics_de.ly"
