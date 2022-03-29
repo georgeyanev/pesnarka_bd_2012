@@ -1,19 +1,5 @@
 \version "2.20.0"
 
-temp_change = \override BreakAlignment.break-align-orders =
-  #(make-vector 3 '(
-                    left-edge
-                    cue-end-clef
-                    ambitus
-                    breathing-sign
-                    clef
-                    cue-clef
-                    time-signature
-                    key-cancellation
-                    key-signature
-                    staff-bar
-                    custos))
-
 \include "include/globals.ily"
 
 \bookpart {
