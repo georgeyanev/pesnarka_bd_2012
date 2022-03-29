@@ -35,16 +35,8 @@
 
       f'4 f'8 |f'4  f'8 | f'4. ~ |  f'4. \bar "||" \key des \major \time 2/4 |
 
-      \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Andante" \normal-text { " (" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 60)" }
-        }
-      }
-
-
+      \tempoFunc "Andante" "4" "60"
+      
       bes'4. a'8 | \break
 
       \time 6/4 \autoBeamOff bes'8. ges'16 f'2 des'8. es'16 f'4. f'8 |  ges'4. f'8 ges'4 as'8. as'16 f'2 |  \break
