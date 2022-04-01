@@ -1,6 +1,6 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Frühlingslied" }
+\markup \fill-line { \fontsize #deTitleFontSize "Frühlingslied" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
