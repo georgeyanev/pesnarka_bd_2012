@@ -1,14 +1,13 @@
-\version "2.18.2"
+\version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Lauf, lauf" }
+\markup \fill-line { \fontsize #deTitleFontSize "Lauf, lauf" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-    \hspace #16
-    \override #'(baseline-skip . 2)
-    \column {
-     \line { " " }
-     
+\markup \fontsize #deCoupletFontSize {
+  \hspace #14
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+
+  \column {
 	 
 	   \line { 1. Lauf, lauf, lauf, }
 

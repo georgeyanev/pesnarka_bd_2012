@@ -1,14 +1,13 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Lichter Tag" }
+\markup \fill-line { \fontsize #deTitleFontSize "Lichter Tag" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
+\markup \fontsize #deCoupletFontSize {
   \hspace #14
-  \override #'(baseline-skip . 2)
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
 
 
   \line { " "Lichter Tag, lichter Tag, Tag, Tag Tag,}

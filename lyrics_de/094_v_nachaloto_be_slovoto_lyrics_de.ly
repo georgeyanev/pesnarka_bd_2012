@@ -1,11 +1,11 @@
 \version "2.18.2"
 
-\markup \fill-line { \fontsize #6 "Im Anfang war das Wort" }
+\markup \fill-line { \fontsize #deTitleFontSize "Im Anfang war das Wort" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
+\markup \fontsize #deCoupletFontSize {
     \hspace #14.91
-    \override #'(baseline-skip . 2)
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
     
         \column {
      \line { " " }      

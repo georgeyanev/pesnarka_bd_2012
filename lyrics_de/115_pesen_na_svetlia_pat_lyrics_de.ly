@@ -1,11 +1,11 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Das Lied des lichten Weges" }
+\markup \fill-line { \fontsize #deTitleFontSize "Das Lied des lichten Weges" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
+\markup \fontsize #deCoupletFontSize {
   \hspace #14
-  \override #'(baseline-skip . 2)
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
     \line { " " }

@@ -1,14 +1,13 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "In der Finsternis, in der Dunkelheit" }
+\markup \fill-line { \fontsize #deTitleFontSize "In der Finsternis, in der Dunkelheit" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
+\markup \fontsize #deCoupletFontSize {
   \hspace #10
-  \override #'(baseline-skip . 2)
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
     \line { " " Das Leben war in Finsternis und Dunkelheit. }
 
     \line { " " Aber die Sonne des Lebens leuchtete auf über uns.}

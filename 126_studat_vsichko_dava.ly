@@ -379,16 +379,7 @@
         vash.}
 
         \header {
-          title = \markup \column \normal-text \fontsize #2.5 {
-            \center-align
-            \line { Студът всичко дава}
-            \vspace #-0.6
-            \center-align
-            \line \fontsize #-3 { Studat vsichko dava }
-            \vspace #-0.8
-            \center-align
-            \line \fontsize #-3 { " " }
-          }
+          title = \titleFunc "Студът всичко дава" "Studat vsichko dava"
         }
 
         \midi{}

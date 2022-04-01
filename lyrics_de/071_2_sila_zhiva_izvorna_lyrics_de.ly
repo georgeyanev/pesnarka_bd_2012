@@ -1,11 +1,11 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Lebendige, quellende, fließende Kraft" }
+\markup \fill-line { \fontsize #deTitleFontSize "Lebendinge, quellende fließende Kraft" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
+\markup \fontsize #deCoupletFontSize {
   \hspace #12
-  \override #'(baseline-skip . 2)
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
     \line { " " }

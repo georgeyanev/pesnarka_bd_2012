@@ -8,7 +8,7 @@
      (set-global-fonts
       #:music "emmentaler"
       #:brace "emmentaler"
-      #:roman "Times New Roman"     
+      #:roman "Times New Roman"
       #:sans "DejaVu Sans"
       #:typewriter "DejaVu Sans Mono"
       ; unnecessary if the staff size is default
@@ -29,7 +29,7 @@ tempoFunc = #(define-music-function
           \normal-text { #tNumber }
           \normal-text { ")" }
         }
-      }  
+      }
     #}
 )
 
@@ -46,7 +46,7 @@ titleFunc = #(define-scheme-function
         \vspace #-0.8
         \center-align
         \line \fontsize #-3 { " " }
-      }    
+      }
     #}
 )
 

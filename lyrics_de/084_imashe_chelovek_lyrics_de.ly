@@ -1,71 +1,71 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Da war ein Mensch" }
+\markup \fill-line { \fontsize #deTitleFontSize "Da war ein Mensch" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-    \hspace #12
-    \override #'(baseline-skip . 2)
-    
-        \column {
+\markup \fontsize #deCoupletFontSize {
+  \hspace #12
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-     \line { " " } 
-     
+  \column {
+
+    \line { " " }
+
     \line { " " Da war ein Mensch, von Gott gesandt,  }
 
-\line { " " sein Name: Johannes. }
+    \line { " " sein Name: Johannes. }
 
-\line { " " Dieser kam zum Zeugnis,  }
+    \line { " " Dieser kam zum Zeugnis,  }
 
-\line { " " dass er zeugte von dem Licht, }
+    \line { " " dass er zeugte von dem Licht, }
 
-\line { " " damit alle durch ihn glaubten. }
+    \line { " " damit alle durch ihn glaubten. }
 
-\line { " " Er war nicht das Licht,  }
+    \line { " " Er war nicht das Licht,  }
 
-\line { " " sondern er kam, dass er zeugte von dem Licht. }
+    \line { " " sondern er kam, dass er zeugte von dem Licht. }
 
-\line { " " Er war das wahrhaftige Licht,  }
+    \line { " " Er war das wahrhaftige Licht,  }
 
-\line { " " das jeden Menschen erleuchtet, }
+    \line { " " das jeden Menschen erleuchtet, }
 
-\line { " " der in die Welt kommt. }
+    \line { " " der in die Welt kommt. }
 
-\line { " " Er war in der Welt }
+    \line { " " Er war in der Welt }
 
-\line { " " und die Welt wurde durch ihn }
+    \line { " " und die Welt wurde durch ihn }
 
-\line { " " und die Welt kannte ihn nicht. }
+    \line { " " und die Welt kannte ihn nicht. }
 
-\line { " " Er kam in das Seine }
+    \line { " " Er kam in das Seine }
 
-\line { " " und die Seinen nahmen ihn nicht an; }
+    \line { " " und die Seinen nahmen ihn nicht an; }
 
-\line { " " so viele ihn aber aufnahmen, denen gab er Macht, }
+    \line { " " so viele ihn aber aufnahmen, denen gab er Macht, }
 
-\line { " " Kinder Gottes zu werden, }
+    \line { " " Kinder Gottes zu werden, }
 
-\line { " " denen, die an seinen Namen glauben; }
+    \line { " " denen, die an seinen Namen glauben; }
 
-\line { " " die nicht aus Geblüt,  }
+    \line { " " die nicht aus Geblüt,  }
 
-\line { " " auch nicht aus dem Willen des Fleisches,  }
+    \line { " " auch nicht aus dem Willen des Fleisches,  }
 
-\line { " " auch nicht aus dem Willen des Mannes,  }
+    \line { " " auch nicht aus dem Willen des Mannes,  }
 
-\line { " " sondern aus Gott geboren sind.  }
-     
-    }
+    \line { " " sondern aus Gott geboren sind.  }
+
+  }
 }
 %}
-   
- 
- 
 
 
- 
-    
-   
-    
- 
-%--------------------------------------------------------------------- 
+
+
+
+
+
+
+
+
+%---------------------------------------------------------------------

@@ -1,13 +1,13 @@
-\version "2.18.2"
+\version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Inspiration" }
+\markup \fill-line { \fontsize #deTitleFontSize " Inspiration" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-    \hspace #16
-    \override #'(baseline-skip . 2)
-    
-        \column {
+\markup \fontsize #deCoupletFontSize {
+  \hspace #16
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+
+  \column {
       \line { " " }      
       \line {  Inspiration, Inspiration, Inspiration,  }
       \line {  Inspiration, Inspiration, du bist ein Segen. }  

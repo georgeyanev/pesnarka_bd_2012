@@ -77,10 +77,10 @@
 
 
 
-  \markup \empty-two
+  \markup \empty-three
 
 
   % include foreign translation(s) of the song
-  \include "lyrics_de/090_svetal_den_lyrics_de.ly"
+  \include "lyrics_de/089_tagi_skarbi_lyrics_de.ly"
 
 } % bookpart

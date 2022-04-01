@@ -1,11 +1,11 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Die Sonne geht auf" }
+\markup \fill-line { \fontsize #deTitleFontSize "Die Sonne geht auf" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-  \hspace #19
-  \override #'(baseline-skip . 2)
+\markup \fontsize #deCoupletFontSize {
+  \hspace #18
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
     \line { " " }
