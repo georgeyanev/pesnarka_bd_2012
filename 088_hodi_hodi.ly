@@ -77,6 +77,8 @@
     \midi{}
 
   } % score
+  
+  \markup \italic \dc-one-nobold "attacca „Тъги скърби“/attacca „Tagi skarbi“"
 
   \markup \fontsize #bgCoupletFontSize {
     \hspace #3
@@ -131,8 +133,9 @@
     \"rightBraces088"
   } % markup
 
-
-  \markup \empty-three
+ 
+ 
+ \markup \empty-three
 
 
   % include foreign translation(s) of the song

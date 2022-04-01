@@ -1,6 +1,6 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Das Licht scheint" }
+\markup \fill-line { \fontsize #deTitleFontSize "Es scheint, es scheint" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {

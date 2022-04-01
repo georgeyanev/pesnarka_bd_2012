@@ -86,8 +86,8 @@
         na tsve -- tya -- ta, na de -- tsa -- ta
 
         ra -- dost no -- si za sar -- tsa -- ta.}
-        
-         
+
+
 
         \header {
           title = \titleFunc "Грее, грее" "Gree, gree"
@@ -97,9 +97,9 @@
 
       } % score
 
-     \markup \dc-one "(D.C.)"
+      \markup \dc-one "(D.C.)"
 
-     \pageBreak
+      \pageBreak
 
       % include foreign translation(s) of the song
       \include "lyrics_de/078_gree_gree_lyrics_de.ly"

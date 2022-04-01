@@ -1,6 +1,6 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Zaglavie DE" }
+\markup \fill-line { \fontsize #deTitleFontSize "Fir fyer fen" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
