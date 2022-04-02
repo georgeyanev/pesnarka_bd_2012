@@ -40,8 +40,8 @@
       a'8  g'8  g'4 (  a'16 [  g'16
       f'16  e'16 ) ] |
       f'8 ( [  g'8 ) ]  e'2 | % 11
-      g'8  g'4  f'8  e'8  f'8 \break  | % 12
-      e'8  c'8  d'2 | % 13
+      g'8  g'4  f'8  e'8  f'8  \break | % 12
+      e'8  c'8  d'2 |   % 13
       \time 5/4  | % 13
       \tempo "        Largamente" c'4 ( f'4 )
       e'4  e'2 | % 14
@@ -53,8 +53,8 @@
       \key bes \major | % 18
       g'8  a'4  g'8 | % 19
       fis'4  es'8 ( [  d'8 ) ] |
-      es'8  fis'4  es'16 [(   d'16 )] | % 21
-      es'8 ( [  d'8 ) ]  c'4   |  \break  % 22
+      es'8  fis'4  es'16 [(   d'16 )] |  \break % 21
+      es'8 ( [  d'8 ) ]  c'4   |   % 22
       c'4.  d'16  es'16 | % 23
       \time 4/4  | % 23
       fis'4  g'2  fis'4 | % 24
@@ -73,25 +73,27 @@
       \time 4/4  | % 29
       bes'4  d''2  bes'4 |
       \time 3/4  |
-      a'8 ( [  g'8 ) ]  a'2 \break | % 31
+      a'8 ( [  g'8 ) ]  a'2  \break | % 31
       cis''4. (  d''16 [  cis''16 ]
-      bes'8 [  a'8 ) ] | % 32
+      bes'8 [  a'8 ) ]  | % 32
       g'8 ( [  a'8 ) ]  a'2 | % 33
       \time 2/4  | % 33
       bes'8  bes'8  cis''4 | % 34
-      bes'4 \prall  a'4 \break | % 35
+      bes'4 \prall  a'4 |  \break % 35
+      
+      \pageBreak
       \time 4/4  | % 35
 
       \times 2/3  {
         bes'8  a'8  g'8
       }
-      g'2  d'8  d'8 | % 36
+      g'2   d'8  d'8   | % 36
       \time 3/4  | % 36
       g'4 (  a'2 ) | % 37
-      \time 2/4  | % 37
+      \time 2/4  | \break  % 37
       c''8  bes'8  a'8 ( [  g'8 ) ]  | % 38
       \time 3/4  | % 38
-      a'4  a'2  | \break   % 39
+      a'4  a'2  |    % 39
       \time 2/4  | % 39
       g'8  g'8  fis'4 |
       es'2 | % 41
@@ -121,7 +123,7 @@
       }
       | % 53
       \time 2/4  | % 53
-      d'2 \bar "||"
+      d'2 \bar "||" \break
       \key g \major \time 4/4 | % 54
       \tempoFunc "Moderato" "4" "88"
       d'4 (  g'4 )  d'4  b8. c'16
@@ -130,33 +132,33 @@
       d'4  d'2 | % 56
       e'4 (  a'4. )  g'8 | % 57
       \time 4/4  | % 57
-      fis'2  g'2 \bar "||"
+      fis'2  g'2 \bar "||" \break
       \time 2/4  | % 58
       \tempo "Vivo" d'8 b'4  d''8 | % 59
       \tupletUp \times 2/3  {
         c''8   c''8  b'8
       } \tupletNeutral
-      c''8 ( [  d''8 ) ] | \break
+      c''8 ( [  d''8 ) ] | 
       b'2 | % 61
-      b'8  a'4  g'8 | % 62
+      b'8  a'4  g'8 | \break % 62
       g'8  fis'8  fis'8  e'8 | % 63
       e'2 | % 64
       c''8  e'4  e'8 | % 65
       e'8  d'8  d'8  c''8 | \break % 66
       b'2 | % 67
-      b'8  a'4  g'8 \break | % 68
-      fis'8  g'8  a'8  b'8 | % 69
-      g'2 |
-      c''8  e'4  e'8 | % 71
-      e'8  d'8  d'8  c''8 | \break % 72
+      b'8  a'4  g'8  | % 68
+      fis'8  g'8  a'8  b'8 |  % 69
+      g'2 | 
+      c''8  e'4  e'8 | \break % 71
+      e'8  d'8  d'8  c''8 | % 72
       b'2  | % 73
-      e'8  e'4. | % 74
-      e'8  fis'8  g'8  g'8 | % 75
+      e'8  e'4. |   % 74
+      e'8  fis'8  g'8  g'8 \break | % 75
       g'2  | % 76
       e''8  a'4  b'8 | % 77
-      c''8 ( [  b'8 ) ]  c''8  d''8 | \break % 78
+      c''8 ( [  b'8 ) ]  c''8  d''8 | % 78
       b'8  b'4. | % 79
-      b'8  a'4  g'8 |
+      b'8  a'4  g'8 |\break 
       fis'8  g'8  a'8  b'8 | % 81
       g'8  g'4. | % 82
       fis'8  e'4  d'8 |
@@ -220,9 +222,9 @@
       по -- троп -- нем то -- га  -- ва,
       да си по -- хап  -- нем, чис
       -- та во -- да да пи  -- ем,
-      с~ра -- дост да се раз -- де --
+      с~ра -- дост да се раз -- де- --
       лим. На -- но -- во да се срещ
-      -- нем  пак и до -- бре с‿о
+      -- нем  пак и до- -- бре с~о
       -- бич да се раз -- бе -- рем.“}
       \addlyrics { Stra --      shen
       be --   she  vya -- ta
@@ -262,9 +264,9 @@
       po -- trop -- nem to -- ga  -- va,
       da si po -- hap  -- nem, chis
       -- ta vo -- da da pi  -- em,
-      s‿ra -- dost da se raz -- de --
+      s~ra -- dost da se raz -- de --
       lim. Na -- no -- vo da se sresht
-      -- nem  pak i do -- bre s‿o
+      -- nem  pak i do -- bre s~o
       -- bich da se raz -- be -- rem.“}
 
       \header {
