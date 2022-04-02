@@ -62,7 +62,7 @@
       \time 6/4 % 15
       g4  a4 d4 d8.
       cis16
-      d2 | \pageBreak \repeat volta 2 {
+      d2 |  \repeat volta 2 {
         \time 5/4  | % 16
         d4 f8 ( [ e8 ) ]
         d8 ( [ cis8 ) ] d8 [(bes8)] a8 g8 | % 17
@@ -70,6 +70,7 @@
         a8 ( [  g8 ]  f8 [  e8 ]
         f8 [  g8 ) ] | % 18
         a2  a8 a8 \break | % 19
+
         \time 4/4  | % 19
         bes4 (  a8 [  gis8 ) ]  a2 |
         d,8 ( [  e8 ) ]  f8 ( [  e8 ) ]
@@ -80,13 +81,12 @@
 
     }
 
-    % Не можах да направя нотите както трябва.
 
     \addlyrics {
       A -- ин фа -- си, ме -- кри за --
       си, фин --   зе -- мру А -- шан
       --    ме --  ру. Су
-      -- а си син     ме --
+      -- а си син     ме- --
       сул. Су -- ма си зен   фе
       --  сул, Су -- а си син
       ме --  сул. Су -- ма си
@@ -95,13 +95,14 @@
       сул. Във не -- бес -- ни -- те ши --
       ри -- ни, във не -- бес -- ни -- те
       глъ -- би -- ни, във не -- бес -- ни
-      -- те ви -- си -- ни, де Свет --
+      -- те ви -- си- -- ни, де Свет --
       ли -- на  о -- би -- та --
-      ва и в‿Жи -- во
+      ва и в~Жи -- во
       --  та веч -- но  се
       про -- я -- вя --   ва.
     }
-    \addlyrics {    A -- in fa -- si, me -- kri za --
+    \addlyrics {
+      A -- in fa -- si, me -- kri za --
       si, fin --   ze -- mru A -- shan
       --    me --  ru. Su
       -- a si sin     me --
@@ -115,22 +116,24 @@
       gla -- bi -- ni, vav ne -- bes -- ni
       -- te vi -- si -- ni, de Svet --
       li -- na  o -- bi -- ta --
-      va i v‿Zhi -- vo
+      va i v~Zhi -- vo
       --  ta vech -- no  se
       pro -- ya -- vya --   va.}
 
-    \header {
-      title = \titleFunc "Аин фаси" "Ain fasi"
-    }
+      \header {
+        title = \titleFunc "Аин фаси" "Ain fasi"
+      }
 
-    \midi{}
+      \midi{}
 
-  } % score
+    } % score
 
-  \markup \dc-two "D.C. al Fine" "con ripetizione"
-  \markup \empty-two
+    \markup \dc-two "D.C. al Fine" "con ripetizione"
 
-  % include foreign translation(s) of the song
-  \include "lyrics_de/135_ain_fasi_lyrics_de.ly"
+    \pageBreak
+  
 
-} % bookpart
+    % include foreign translation(s) of the song
+    \include "lyrics_de/135_ain_fasi_lyrics_de.ly"
+
+  } % bookpart
