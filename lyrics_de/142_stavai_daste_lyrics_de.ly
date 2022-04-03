@@ -1,15 +1,13 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Steh auf, Tochter!x" }
+\markup \fill-line { \fontsize #deTitleFontSize "Steh' auf, Tochter!" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-  \hspace #10
-  \override #'(baseline-skip . 2)
-
-  \column {
-    \line { " " }
-
+\markup \fontsize #deCoupletFontSize {
+    \hspace #5
+    \override #`(baseline-skip . ,deCoupletBaselineSkip)
+    \column {
+     \line { " " }
 
 \line { 1. An einem Sommertag, in der frühen Morgenröte,}
 
