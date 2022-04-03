@@ -95,4 +95,4 @@
       % include foreign translation(s) of the song
       \include "lyrics_de/020_bratstvo_edinstvo_lyrics_de.ly"
 
-    } % bookpart
+} % bookpart

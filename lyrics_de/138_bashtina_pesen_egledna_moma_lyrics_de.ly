@@ -1,14 +1,13 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Das Lied des Vaters - schönes Mädchen" }
+\markup \fill-line { \fontsize #deTitleFontSize "Das Lied des Vaters - schönes Mädchen" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-  \hspace #10
-  \override #'(baseline-skip . 2)
+\markup \fontsize #deCoupletFontSize {
+    \hspace #10
+    \override #`(baseline-skip . ,deCoupletBaselineSkip)
+    \column {
 
-  \column {
-    \line { " " }
 
   \line { " "Seit alten Zeiten, mein Sohn, ist bekannt,  }
 
