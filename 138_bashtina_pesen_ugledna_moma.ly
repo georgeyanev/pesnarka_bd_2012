@@ -138,7 +138,7 @@
       a8. a8~ a8.\fermata | \break
 
       \repeat volta 1 {
-        \tempo "Poco più mosso"
+        \tempo "Più mosso"
         g8. g8~ g8. |
         fis8. ees8~ ees8. |
         fis8. ees8 c8. |
@@ -210,7 +210,7 @@
       a8~ a8. |
       a8~ a8. |  \bar "||"
       \time 9/16
-      e8 e e e8. |
+      \tempo "" e8 e e e8. |
       a8 g f e8. | \break
 
       g8(f) e8~ e8. |
@@ -224,7 +224,7 @@
 
       c'4 b2 e,4 |
       \time 2/4 g4 f8. d16 |
-      \time 3/4 e4   e2 \mark\markup{ \column { \hspace #1 \left-align \normalsize \musicglyph #"scripts.ufermata"  \center-align \normalsize \musicglyph #"scripts.caesura.straight" }}
+      \time 3/4 e4   e2 \mark\markup{ \column { \hspace #0 \center-align \normalsize \musicglyph #"scripts.ufermata"  \center-align \normalsize \musicglyph #"scripts.caesura.straight" }}
       |
       \bar "|"
       \time 3/4  | % 149
@@ -250,7 +250,7 @@
       cis16 bes16  a8  g16 | % 163
       a8  a8. \bar "||"
 
-      \break \repeat volta 2 {
+      \break \repeat volta 1 {
         | % 164
         \key g \major \time 9/16 | % 164
         d8 ^\markup{ \bold {a tempo} }e16 ( [
@@ -359,6 +359,6 @@
 \pageBreak
 
   % include foreign translation(s) of the song
-  \include "lyrics_de/138_bashtina_pesen_egledna_moma_lyrics_de.ly"
+  \include "lyrics_de/138_bashtina_pesen_ugledna_moma_lyrics_de.ly"
 
 } % bookpart
