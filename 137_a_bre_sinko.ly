@@ -12,7 +12,7 @@
       \clef treble
       \key f \major
       \time 8/16
-      \tempoFunc "Tempo di marcia" "4" "100"
+      \tempoFunc "Andante" "4" "132"
       g8 g16 a8 a8. ~ | % 2
       a8. ~ a8 ~ a8. | % 3
       d'8. f'8 f'8. ~ | % 4
@@ -93,6 +93,6 @@
       %\pageBreak
 
       % include foreign translation(s) of the song
-      \include "lyrics_de/020_bratstvo_edinstvo_lyrics_de.ly"
+      \include "lyrics_de/137_a_bre_sinko_lyrics_de.ly"
 
     } % bookpart
