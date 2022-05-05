@@ -5,7 +5,7 @@
 \markup \null
 \markup \fontsize #deCoupletFontSize {
     \hspace #10
-    \override #`(baseline-skip . ,deCoupletBaselineSkip)
+    \override #'(baseline-skip . 1.9)
     \column {
 
 

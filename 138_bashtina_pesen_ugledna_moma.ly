@@ -229,9 +229,9 @@
       \bar "|"
       \time 3/4  | % 149
 
-      e'16 --e16 --e16 --
+      e'16_\markup \bold \italic {"(8_ _ _ _ _ _ _ _ _ _ _ _ _"} --e16 --e16 --
       e16 --a2   \break | % 151
-      g16 f16 e16 d16
+      g16_\markup \bold \italic {"(8)_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _| )"} f16 e16 d16
       e2 | % 152
 
       \time 4/4  | % 152
@@ -252,7 +252,7 @@
 
       \break \repeat volta 1 {
         | % 164
-        \key g \major \time 9/16 | % 164
+        \bar ".|:" \key g \major \time 9/16 | % 164
         d8 ^\markup{ \bold {a tempo} }e16 ( [
         fis16 ) ]g8fis8. | % 165
         g8e8e16 ( [ \stemDown
@@ -348,7 +348,7 @@
     }
 
     \header {
-      title = \titleFunc " Бащина песен - Угледна мома" "Bastina pesen - ugledna moma"
+      title = \titleFunc " Бащина песен - Угледна мома" "Bashtina pesen - ugledna moma"
     }
 
     \midi{}
