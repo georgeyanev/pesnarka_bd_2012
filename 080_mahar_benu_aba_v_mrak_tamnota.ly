@@ -19,7 +19,7 @@
       \partial 4
 
       \repeat volta 2 {
-        g4 | c2 d4 | es2 c 4 |  g2 g'4 | g2 c8 c8 | c2 b4 | c2 as4 | \break
+        g4 | c2 d4 | es2 c 4 |  g2 g'4 | g2 c8 c8 | c2 b4 |\break  c2 as4 | 
 
 
         g2 fis4 |g2 f4 | es2 d4 |  es2 d4 | c2 b4 | c2 es4 | g2 f4 | \break
@@ -68,15 +68,15 @@
 
       \partial 4
 
-      g4  | c'2 b8 c' | d'2 g4 | es'2 d'4 | c'2 ( d'16 c' b c' \break |
+      g4  | c'2 b8 c' | d'2 g4 | es'2 d'4 | \break c'2 ( d'16 c' b c'  |
 
-      d'2 ) c'4 | c'2 f'4 | f'2 es'8 d' | es'2 f'4 | g'2 as'4 \break
+      d'2 ) c'4 | c'2 f'4 | f'2 es'8 d' | es'2 f'4 |\break g'2 as'4 
 
-      g'2 fis'4 | g'2 as'4 | g'2 f'4 \autoBeamOff \repeat volta 2 {
-        f'2 es'8 d' |  es'2 f'4 \pageBreak |
+      g'2 fis'4 | g'2 as'4 | g'2 f'4 \pageBreak | \autoBeamOff \repeat volta 2 {
+        f'2 es'8 d' |  es'2 f'4
 
-        g'2 as'4 | g'2 f'4 | es'2 d'4
-      }  \alternative { { c'2 f'4 } {  c'2. } } \bar "||"  \break |
+        g'2 as'4 \break  | g'2 f'4 | es'2 d'4 
+      }  \alternative { { c'2 f'4 } {  c'2. } } \bar "||"  \break  |
 
       c'2 d'4 |  es'2. |  d'2 c'4 | c'2. | b2 b4 | c'2. | \bar "|."
     }
@@ -103,7 +103,7 @@
 
     }
 
-   \markup \dc-two "D.C. al Fine Mahar Benu Aba" "senza ripetizione"
+   \markup \dc-two "D.C. al Fine „Mahar Benu Aba“" "senza ripetizione"
     \markup \empty-three
 
 
