@@ -164,7 +164,7 @@
             "   "   Сладък глас блага дума
           }
           \line {
-            "   "    ми каза:“Ставай дъще,
+            "   "    ми каза: „Ставай дъще,
           }
           \line {
             "   "    на нива трябва да се ходи!
@@ -178,7 +178,7 @@
           \line {   "   " }
           \line {   2. Слънцето щом изгрей,}
           \line {   "   " ти на нивата трябва да си.}
-          \line {   "   " С сърп в ръка, с песен ти}
+          \line {   "   " С’ сърп в ръка, с песен ти}
           \line {   "   " деня срещни. Ставай, дъще,}
           \line {   "   " Слънце дома да не те завари.}
           \line {   "   " Ставай, че моми и момци –}
@@ -189,7 +189,7 @@
           \line {   "   " Кат израсне, живот внася}
           \line {   "   " то във нас. Ставай, дъще,}
           \line {   "   " Любовта днес мен и тебе чака.}
-          \line {   "   " Ставай, тя ни носи}
+          \line {   "   " Ставай, (2)тя ни носи}
           \line {   "   " своята нова, жива премяна.}
           \line {   "   "  Ставай, че животът вънка мен}
           \line {   "   "  и тебе с благост вече чака.“}
@@ -210,7 +210,7 @@
             "   "   Sladak glas blaga duma
           }
           \line {
-            "   "    mi kaza:“Stavay dashte,
+            "   "    mi kaza: „Stavay dashte,
           }
           \line {
             "   "    na niva tryabva da se hodi!
@@ -224,7 +224,7 @@
           \line {   "   " }
           \line {   2. Slantseto shtom izgrey,}
           \line {   "   " ti na nivata tryabva da si.}
-          \line {   "   " S sarp v raka, s pesen ti}
+          \line {   "   " S’ sarp v raka, s pesen ti}
           \line {   "   " denya sreshtni. Stavay, dashte,}
           \line {   "   " Slantse doma da ne te zavari.}
           \line {   "   " Stavay, che momi i momtsi –}
