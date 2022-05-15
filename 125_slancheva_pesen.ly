@@ -130,7 +130,7 @@
       rets. Ban! Zan! Ban! Zan!}
 
     \header {
-      title = \titleFunc "Слънчева песен – пролетна мушичка" "Slancheva pesen – proletna mushichka"
+      title = \titleFunc "Слънчева песен – пчелна мушичка" "Slancheva pesen – pchelna mushichka"
     }
 
     \midi{}
