@@ -31,67 +31,114 @@
   \score {
     \include "include/score-layout.ily"
 
-    \new Voice \absolute {
+    <<
+      \new Lyrics = "tempVoiceLyricsBG" \with {
+        % lyrics above a staff should have this override
+        \override VerticalAxisGroup.staff-affinity = #DOWN
+      }
+      \new Lyrics = "tempVoiceLyricsEN" \with {
+        \override VerticalAxisGroup.staff-affinity = #DOWN
+      }
+
+    \new Voice = "mainVoice" \absolute {
       \clef treble
     
-        \key ges \major
+      \key ges \major
   
       \time 4/4
-      \tempoFunc "Andante" "4" "56/58"
-        \autoBeamOff
+      \tempoFunc "Andante" "4" "66"
+      \autoBeamOff
       \partial 4
       d'8. es'16 | % 2
-      f'2 as'4 ges'8. ( f'16 ) | % 3
-      ges'2 f'8. es'16 f'4 \break | % 4
-      \time 3/4  es'8. ( d'16 ) es'4 d'8. ces'16 | % 5
+      f'2 as'4 \phrasingSlurDown \phrasingSlurDashed ges'8. \(
+      <<
+        % now temporary add a second voice
+        {
+          \voiceTwo % this voice is in the same context as parent
+          \hideNotes f'16 \) \unHideNotes \phrasingSlurNeutral | % 3
+          \stemUp ges'2 \stemNeutral
+        }
+        \new Voice = "tempVoice" {
+          % this is a new voice context
+          \voiceOne \autoBeamOff
+          f'16 | % 3
+          \stemDown ges'4 ges'4 \stemNeutral
+        }
+      >>
+      \oneVoice
+
+      f'8. 
+      
+      es'16 f'4 \break | % 4
+      \time 3/4 \phrasingSlurDashed es'8. \( d'16 \) \phrasingSlurNeutral es'4 d'8. ces'16 | % 5
       ces'2 d'8. es'16 | % 6
-      f'2 es'8. ( d'16 ) \break | % 7
+      f'2 \slurDashed es'8. [( d'16 )] \slurNeutral \break | % 7
       es'2 d'8. ces'16 | % 8
       ces'4 bes2 | % 9
       \time 2/4  as2 \break |
       \time 8/16  |
-      g8 ( as16 ) bes8 ( ces'8. ) | % 11
+      \tempo "Allegretto" \slurSolid g8 [( as16 )] bes8 ( ces'8. ) | % 11
       d'8. es'8 ~ es'8. | % 12
-      f'8 ( es'16 ) d'8 ces'8. | % 13
+      \slurDashed f'8 [( es'16 )] d'8 ces'8. | % 13
       d'8 ces'16 d'8 ces'8. \break | % 14
-      bes8 ( as16 ) bes8 ~ bes8. | % 15
+      \slurSolid bes8 [( as16 )] bes8 ~ bes8. | % 15
       ces'8. ( ~ ces'8 bes8. ) | % 16
       as8. ~ as8 ~ as8. | % 17
       g8 as16 bes8 ces'8. \break | % 18
       d'8. es'8 ~ es'8. | % 19
       f'8 es'16 d'8 ces'8. |
       d'8 ces'16 d'8 ces'8. | % 21
-      bes8 ( as16 ) bes8 ~ bes8. \break | % 22
+      bes8 [( as16 )] bes8 ~ bes8. \break | % 22
       ces'8. ( ~ ces'8 bes8. ) | % 23
       as8. ~ as8 ~ as8. | % 24
       g8 as16 bes8 ces'8. | % 25
       d'8. es'8 ~ es'8. \break | % 26
       f'8 es'16 d'8 ces'8. | % 27
       d'8 ces'16 d'8 ces'8. | % 28
-      bes8 ( as16 ) bes8 ~ bes8. \bar "|."
+      bes8 [( as16 )] bes8 ~ bes8. \bar "|."
     }
-  \addlyrics {
-      В~ле -- тен
-      ден, в_ран -- ни ри май -- ка ми ти -- се при --
+   
+   
+   \new Lyrics \lyricsto "mainVoice" {
+      "1.В~ле" -- тен
+      ден, в~ран -- ни зо -- ри май -- ка ми ти -- хо се при --
       бли -- жи. Сла -- дък глас бла -- га ду -- ма ми
       ка -- за: „Ста -- вай, дъ -- ще, на ни -- ва
       тряб -- ва да се хо -- ди. Ста -- вай, че ба --
       ща ти вън -- ка мен и те -- бе със ко -- ла --
       та ча -- ка. Ста -- вай, че ба -- ща ти вън --
       ка мен и те -- бе със ко -- ла -- та ча --
-      ка.“}
-      \addlyrics {
-        V~le -- ten
-        den, v_ran -- ni ri may -- ka mi ti -- se pri --
+      ка.“
+   }
+
+   \new Lyrics \lyricsto "mainVoice" {
+        "1.V~le" -- ten
+        den, v~ran -- ni zo -- ri may -- ka mi ti -- ho se pri --
         bli -- zhi. Sla -- dak glas bla -- ga du -- ma mi
         ka -- za: „Sta -- vay, da -- shte, na ni -- va
         tryab -- va da se ho -- di. Sta -- vay, che ba --
         shta ti van -- ka men i te -- be sas ko -- la --
         ta cha -- ka. Sta -- vay, che ba -- shta ti van --
         ka men i te -- be sas ko -- la -- ta cha --
-        ka.“}
+        ka.“
+   }
+
+   \context Lyrics = "tempVoiceLyricsBG" {
+     \lyricsto "tempVoice" {
+       "(3) жи" -- во -- тът
+     }
+   }
+   
+   \context Lyrics = "tempVoiceLyricsEN" {
+     \lyricsto "tempVoice" {
+       "(3) zhi" -- vo -- tat
+     }
+   }
+
+   >>
+
     \header {
-      title = \titleFunc "Ставай, дъще!" "Stavay, daste"
+      title = \titleFunc "Ставай, дъще!" "Stavay, dashte"
     }
 
     \midi{}
@@ -103,8 +150,8 @@
   
     \pageBreak
 
- \markup \fontsize #bgCoupletFontSize {
-    \hspace #-3
+    \markup \fontsize #bgCoupletFontSize {
+    \hspace #-1
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
      \line {
@@ -150,7 +197,7 @@
     
     \"rightBraces018"
 
-    \hspace #7
+    \hspace #4
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line {
