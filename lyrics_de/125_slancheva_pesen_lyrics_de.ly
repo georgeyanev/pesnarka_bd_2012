@@ -1,6 +1,6 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Sonnenlied – kleines Frühlingsbienchen" }
+\markup \fill-line { \fontsize #deTitleFontSize "Sonnenlied – kleines Bienchen" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
