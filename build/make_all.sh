@@ -56,8 +56,7 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../077_skrabta_si_ti_kazhi.ly \
     ../078_gree_gree.ly \
     ../079_Duhat_Bozhii.ly \
-    ../080_mahar_benu_aba.ly \
-    ../080_2_v_mrak_tamnota.ly \
+    ../080_mahar_benu_aba_v_mrak_tamnota.ly \
     ../081_v_zorite_na_zhivota.ly \
     ../082_Bog_e_lyubov.ly \
     ../083_01_vehadi.ly \
@@ -81,8 +80,8 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../098_bershid_ba.ly \
     ../099_malkiyat_izvor.ly \
     ../100_vsichko_v_zjivota_e_postizhimo.ly \
-    ../101_tagi_skarbi_sa_bogatstvo.ly \
-    ../101_duhat_mi_shepne_tova.ly \
+    ../101_1_tagi_skarbi_sa_bogatstvo.ly \
+    ../101_2_duhat_mi_shepne_tova.ly \
     ../102_sila_zhivot_zdrave.ly \
     ../103_krasiv_e_zhivotat.ly \
     ../104_himn_na_velinata_dusha_new.ly \
@@ -90,7 +89,7 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../107_pri_vsichkite_uslovija.ly \
     ../108_az_moga_da_kazha.ly \
     ../109_az_smeya_da_kaza.ly \
-    ../110_da_imash_vjara.ly \
+    ../110_1_da_imash_vyara.ly \
     ../110_2_V_pustinyata_na_zhivota.ly \
     ../111_az_moga_da_lubya.ly \
     ../112_1_sila_zdrave_e_bogatstvo.ly \
@@ -103,6 +102,20 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../118_2_prolet.ly \
     ../119_podmladyavane.ly \
     ../120_burya.ly \
+    ../121_ranen_chas.ly \
+    ../122_radost_i_skrab.ly \
+    ../124_proletna_pesen.ly \
+    ../125_slancheva_pesen.ly \
+    ../126_studat_vsichko_dava.ly \
+    ../130_ezikat_na_zhivata_priroda.ly \
+    ../132_pravda.ly \
+    ../133_skitah_se_po_gori_i_planini.ly \
+    ../134_obetovana_zemya.ly \
+    ../135_ain_fasi.ly \
+    ../136_duhai_vetre.ly \
+    ../137_a_bre_sinko.ly \
+    ../138_bashtina_pesen_ugledna_moma.ly \
+    ../142_stavay_daste.ly \
     > tmp.ly
 
 lilypond --include=../ -o pesn_all tmp.ly
