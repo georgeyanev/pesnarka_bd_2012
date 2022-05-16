@@ -55,8 +55,8 @@
         \midi{}
 
       } % score
-      
-      \markup \dc-one "D. C. al Fine „Sila zhiva“ con ripetizione (ein Mal)"
+
+      \markup \dc-one "D. C. al Fine „Sila zhiva“ con ripetizione (един път/ein Mal)"
 
       \markup \empty-two
 
