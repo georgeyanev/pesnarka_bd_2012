@@ -54,7 +54,7 @@
 
       \line {   2. Той минава световете}
 
-      \line {   "   "и във тях се въплотява -}
+      \line {   "   "и във тях се въплотява –}
 
       \line {   "   "нови дарби да добие,}
 
@@ -64,7 +64,7 @@
 
       \line {   "   "в красота неизразима}
 
-      \line {   "   "и достига Светлината - }
+      \line {   "   "и достига Светлината – }
 
       \line {   "   "тамо, де блаженство има.}
 
@@ -93,7 +93,7 @@
 
       \line {   2. Toy minava svetovete}
 
-      \line {   "   "i vav tyah se vaplotyava -}
+      \line {   "   "i vav tyah se vaplotyava –}
 
       \line {   "   "novi darbi da dobie,}
 
@@ -103,7 +103,7 @@
 
       \line {   "   "v krasota neizrazima}
 
-      \line {   "   "i dostiga Svetlinata - }
+      \line {   "   "i dostiga Svetlinata – }
 
       \line {   "   "tamo, de blazhenstvo ima.}
 
