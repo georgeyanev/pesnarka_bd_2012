@@ -1,94 +1,17 @@
 \version "2.20.0"
 
-\paper {
-  #(set-paper-size "a5")
-}
+\include "include/globals.ily"
 
 \bookpart {
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
-
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-      ""
-    }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change lyrics and titles font (affects notes also)
-    fonts =
-    #(make-pango-font-tree
-      "Times New Roman"
-      "DejaVu Sans"
-      "DejaVu Sans Mono"
-      (/ (* staff-height pt) 3.6))
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
-  }
-
-  \header {
-    tagline = ##f
-  }
-
-  \score{
-    \layout {
-      indent = 0.0\cm % remove first line indentation
-      %ragged-last = ##t % do not spread last line to fill the whole space
-      \context {
-        \Score
-        \omit BarNumber %remove bar numbers
-      } % context
-
-      \context {
-        % change staff size
-        \Staff
-        fontSize = #+0 % affects notes size only
-        \override StaffSymbol #'staff-space = #(magstep -3)
-        \override StaffSymbol #'thickness = #0.5
-        \override BarLine #'hair-thickness = #1
-        %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
-      }
-
-      \context {
-        % adjust space between staff and lyrics and between the two lyric lines
-        \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
-        \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-      }
-    } % layout
+  \include "include/bookpart-paper.ily"
+  \score {
+    \include "include/score-layout.ily"
 
     \new Voice \relative c' {
       \clef treble
       \key c \major
       \time 7/16
-      \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Andante maestozo " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"8" #0.8
-          \normal-text { " = 152)" }
-        }
-      }
+      \tempoFunc "Andante maestoso" "8" "152"
       \autoBeamOff
        g8^\accent a16([b]) c8.( | \noBreak
     c4)(c8.) | \noBreak
@@ -133,7 +56,7 @@
     g8^\accent a16([b]) c8. | \noBreak
     b8^\accent d a[g16] | \noBreak
     b4~ b8.\fermata | \noBreak
-    \tempo "rit." g8 a16([b]) c8. | \break
+    \tempo "rit." g8^\accent a16([b]) c8. | \break
 
     b8^\accent d a8. | \noBreak
     a4\prall~ a8. | \noBreak
@@ -179,7 +102,7 @@
 
     \tempo "rit." a,8 b c4 b8 d c b | \noBreak
     a2 r2 | \noBreak
-    \tempo "a tempo" a'4  d8([e]) \tupletNeutral \tuplet 3/2 { f16([ g f] } e4.) \time 5/4 | \break
+    \tempo "a tempo" a'4  d8([e]) \tupletNeutral \tuplet 3/2 { f16([ g f] } e4.) \time 5/4 | \pageBreak
 
     c'4\fermata \acciaccatura { b16[c] }  \tuplet 3/2 { b8[ a gis]} a8[ \tupletUp \tuplet 3/2 { b16(c b)] }  e,2 \tupletNeutral | \noBreak
     \time 4/4 \tuplet 3/2 { e8\tenuto[f\tenuto g\tenuto] } g2 a4 | \noBreak
@@ -306,24 +229,24 @@
     \repeat unfold 22 { \skip 1 }
     Из -- во -- рът стру -- и, из -- ви -- ра и чис -- ти во -- ди раз -- ли -- ва,
     пла -- нин -- ска пе -- сен раз -- низ -- ва; мо -- ма -- та мен -- ци на -- ли -- ва,
-    "в ͜ пе" -- сен -- та ти -- хо се за -- слуш -- ва.
+    в~пе -- сен -- та ти -- хо се за -- слуш -- ва.
     \repeat unfold 26 { \skip 1 }
     Ще о -- ти -- да та -- мо го -- ре, ще о -- ти -- да
-    "в ͜ пла" -- ни -- на -- та, чис -- ти во -- ди да по -- гле -- дам, ти -- ха пе -- сен
+    в~пла -- ни -- на -- та, чис -- ти во -- ди да по -- гле -- дам, ти -- ха пе -- сен
     да по -- слу -- шам, ще о -- ти -- да та -- мо.
     \repeat unfold 23 { \skip 1 }
     Чис -- ти во -- ди да по -- гле -- дам, ти -- ха пе -- сен да по -- слу -- шам,
     ще о -- ти -- да та -- мо. Ли -- ля -- но,
-    цве -- те ра -- но "в ͜ гра" -- ди -- на, а -- ко таз пе -- сен,
+    цве -- те ра -- но в~гра -- ди -- на, а -- ко таз пе -- сен,
     Ли -- ля -- но, не чу -- я, ах, от таз во -- да а -- ко не пи -- я,
     скръб ще ми пъл -- ни сър -- це -- то.
     \repeat unfold 85 { \skip 1 }
-    Ли -- ля -- но мо -- ме ти "в ͜ пла" -- ни -- на -- та
+    Ли -- ля -- но мо -- ме, ти в~пла -- ни -- на -- та
     там го -- ре ще ме за -- ве -- деш, из -- во -- рът де -- то из -- ви -- ра.
     \repeat unfold 30 { \skip 1 }
-    Го -- ре "в ͜ пла" -- ни -- на -- та, Слън -- це дей о-
+    Го -- ре в~пла -- ни -- на -- та, Слън -- це дей о-
     гря -- ло сред тре -- ви зе -- ле -- ни, сред цве -- тя за -- сме -- ни.
-    Го -- ре "в ͜ пла" -- ни -- на -- та, Слън -- це дей о -- гря -- ло.
+    Го -- ре в~пла -- ни -- на -- та, Слън -- це дей о -- гря -- ло.
     \repeat unfold 5 { \skip 1 }
     Там го -- ре край из -- во -- ра срещ -- нах мо -- ма зас -- мя -- на,
     там го -- ре срещ -- нах Ли -- ля -- на.
@@ -334,40 +257,31 @@
     \repeat unfold 22 { \skip 1 }
     Iz -- vo -- rat stru -- i, iz -- vi -- ra i chis -- ti vo -- di raz -- li -- va,
     pla -- nin -- ska pe -- sen raz -- niz -- va; mo -- ma -- ta men -- tsi na -- li -- va,
-    "v ͜ pe" -- sen -- ta ti -- ho se za -- slush -- va.
+    v~pe -- sen -- ta ti -- ho se za -- slush -- va.
     \repeat unfold 26 { \skip 1 }
     Shte o -- ti -- da ta -- mo go -- re, shte o -- ti -- da
-    "v ͜ pla" -- ni -- na -- ta, chis -- ti vo -- di da po -- gle -- dam, ti -- ha pe -- sen
+    v~pla -- ni -- na -- ta, chis -- ti vo -- di da po -- gle -- dam, ti -- ha pe -- sen
     da po -- slu -- sham, shte o -- ti -- da ta -- mo.
     \repeat unfold 23 { \skip 1 }
-    CHis -- ti vo -- di da po -- gle -- dam, ti -- ha pe -- sen da po -- slu -- sham,
+    Chis -- ti vo -- di da po -- gle -- dam, ti -- ha pe -- sen da po -- slu -- sham,
     shte o -- ti -- da ta -- mo. Li -- lya -- no,
-    tsve -- te ra -- no "v ͜ gra" -- di -- na, a -- ko taz pe -- sen,
+    tsve -- te ra -- no v~gra -- di -- na, a -- ko taz pe -- sen,
     Li -- lya -- no, ne chu -- ya, ah, ot taz vo -- da a -- ko ne pi -- ya,
     skrab shte mi pal -- ni sar -- tse -- to.
     \repeat unfold 85 { \skip 1 }
-    Li -- lya -- no mo -- me ti "v ͜ pla" -- ni -- na -- ta
+    Li -- lya -- no mo -- me, ti v~pla -- ni -- na -- ta
     tam go -- re shte me za -- ve -- desh, iz -- vo -- rat de -- to iz -- vi -- ra.
     \repeat unfold 30 { \skip 1 }
-    Go -- re "v ͜ pla" -- ni -- na -- ta, Slan -- tse dey o-
+    Go -- re v~pla -- ni -- na -- ta, Slan -- tse dey o-
     grya -- lo sred tre -- vi ze -- le -- ni, sred tsve -- tya za -- sme -- ni.
-    Go -- re "v ͜ pla" -- ni -- na -- ta, Slan -- tse dey o -- grya -- lo.
+    Go -- re v~pla -- ni -- na -- ta, Slan -- tse dey o -- grya -- lo.
     \repeat unfold 5 { \skip 1 }
     Tam go -- re kray iz -- vo -- ra sresht -- nah mo -- ma zas -- mya -- na,
     tam go -- re sresht -- nah Li -- lya -- na.
   }
 
     \header {
-      title = \markup \column \normal-text \fontsize #2.5 {
-        \center-align
-        \line { Българска рапсодия }
-        \vspace #-0.6
-        \center-align
-        \line \fontsize #-3 { Bylgarska rapsodia }
-        \vspace #-0.8
-        \center-align
-        \line \fontsize #-3 { " " }
-      }
+      title = \titleFunc "Българска рапсодия" "Bylgarska rapsodia"
     }
 
     \midi{}
