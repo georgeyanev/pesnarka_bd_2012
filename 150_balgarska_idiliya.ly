@@ -1,94 +1,18 @@
 \version "2.20.0"
 
-\paper {
-  #(set-paper-size "a5")
-}
+% include paper part and global functions
+\include "include/globals.ily"
 
 \bookpart {
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
-
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-      ""
-    }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change lyrics and titles font (affects notes also)
-    fonts =
-    #(make-pango-font-tree
-      "Times New Roman"
-      "DejaVu Sans"
-      "DejaVu Sans Mono"
-      (/ (* staff-height pt) 3.6))
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
-  }
-
-  \header {
-    tagline = ##f
-  }
-
-  \score{
-    \layout {
-      indent = 0.0\cm % remove first line indentation
-      %ragged-last = ##t % do not spread last line to fill the whole space
-      \context {
-        \Score
-        \omit BarNumber %remove bar numbers
-      } % context
-
-      \context {
-        % change staff size
-        \Staff
-        fontSize = #+0 % affects notes size only
-        \override StaffSymbol #'staff-space = #(magstep -3)
-        \override StaffSymbol #'thickness = #0.5
-        \override BarLine #'hair-thickness = #1
-        %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
-      }
-
-      \context {
-        % adjust space between staff and lyrics and between the two lyric lines
-        \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
-        \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-      }
-    } % layout
+  \include "include/bookpart-paper.ily"
+  \score {
+    \include "include/score-layout.ily"
 
     \new Voice \relative c' {
       \clef treble
       \key g \minor
       \time 3/4
-      \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Moderato " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 69)" }
-        }
-      }
+      \tempoFunc "Lento" "4" "50"
       \autoBeamOff
        \repeat volta 1 {
       d'4.( \tuplet 3/2 { ees16 [f ees]) } d8.([g16]) | \noBreak
@@ -100,7 +24,7 @@
       \time 4/4 fis,16([g) a g] bes8.\trill([ a16]) c4.\trill( bes8) | \noBreak
       \time 3/4  \tuplet 6/4 { a16([g fis g a bes]) }  a16.([g32) \slurDown g16.(\tieDown bes32~] \stemUp bes4) | \time 4/4 \break
 
-      \tuplet 6/4 { a16\trill([g fis g a bes]) } a8.\trill([g16])  \acciaccatura { g16([ a] } g2) | \noBreak
+      \tuplet 6/4 { a16\prall([g fis g a bes]) } a8.\prall([g16])  \acciaccatura { g16([ a] } g2) | \noBreak
     }
     \set Score.doubleRepeatType = #":|.|:"
     \repeat volta 1 {
@@ -131,7 +55,7 @@
       a8 g \acciaccatura { g16([a]} g8)([f16]) | \noBreak
     }
     \alternative {
-      { g4 g8. | \noBreak }
+      { g4~ g8. | \noBreak }
       { g4~(g8 f16) | \noBreak }
     }
     \repeat volta 2 {
@@ -185,6 +109,8 @@
         \tieNeutral g4~ g8[f16] | \noBreak
       }
       {
+        \once \override Score.MetronomeMark #'outside-staff-priority = #599
+        \once \override Score.MetronomeMark.X-extent=#'(-1.5 . 0)
         \tempo "rit."
         a8 \acciaccatura { f8 } g \acciaccatura { g16[a] } g8[f16] | \noBreak
         <g g,>8~ g~ g8. | \noBreak
@@ -193,7 +119,11 @@
     \time 3/4 \break
     \repeat volta 2 {
       \tempo "Largo"
-      \slurNeutral d'4 g4.^\markup{\musicglyph #"scripts.trill" {\raise #1 \flat}}(f8) | \noBreak
+      \slurNeutral d'4 g4.^\markup{
+         \override #'(baseline-skip . 2)
+         \column {\flat \musicglyph #"scripts.trill"}
+        
+        }(f8) | \noBreak
       \time 4/4 f8.([ees16]) ees8.([d16]) d8.([c16]) d8.\prall([c16]) | \noBreak
       \acciaccatura { c32[d c bes] } c8.\fermata([f16]) f8.([ees16]) ees8.([d16]) d8.([c16]) | \break
 
