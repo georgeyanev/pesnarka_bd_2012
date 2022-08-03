@@ -17,7 +17,7 @@
 
 
       \partial 8
-      bes'8 | c4 bes8 a4 g8 | f4 d8 c4. | g'4  g8 g8 (a b)  | \break
+      c'8 | c4 bes8 a4 g8 | f4 d8 c4. | g'4  g8 g8 (a b)  | \break
 
       \time 3/4 \tempo \markup {
         % make tempo note smaller

@@ -26,8 +26,8 @@
       \time 3/4  | % 4
       c4  bes2 | % 5
       \time 5/4  | % 5
-      as4  g2  f4  bes4 | % 6
-      f2  es2. \bar "|."
+      as4  g2  f4  bes,4 | % 6
+      f'2  es2. \bar "|."
     }
 
     \addlyrics {

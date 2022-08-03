@@ -16,7 +16,7 @@
       \tempoFunc "Allergetto" "4" "108"
       \autoBeamOff
 
-      d'4 d'4 | a'8 g'8 fis'8 g'8| a'4 ( b' ) | a'2 |b'8. b'16 b'8 b'8 | \break
+      d'4 fis'4 | a'8 g'8 fis'8 g'8| a'4 ( b' ) | a'2 |b'8. b'16 b'8 b'8 | \break
 
       \time 3/4 d''4 b'4 a'8. b'16 | \time 2/4 a'2 | \time 3/4 b'8 a'8 g'8 fis'8 a'8 g'8 | \time 2/4 fis'4 d'4 | \break
 
