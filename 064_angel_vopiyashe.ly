@@ -10,7 +10,7 @@
 
     \new Voice \relative c' {
       \clef treble
-      \key f \major
+      \key d \minor
       \tempo "Senza misura"
       \autoBeamOff
       \omit Score.TimeSignature
@@ -49,7 +49,7 @@
       d4.( e8) c4( d) \bar "|"  \break
 
       ees4.( d8 g8[ fis \acciaccatura { ees16 [fis] }  ees8 d]) d2\fermata \bar "|"
-      a'4.( g8 fis16[ g] \acciaccatura { a16 [b] } c4) \slurNeutral b8([ c] a2) g4 a8 \bar "|"  \break
+      a'4.( g8 fis16[ g] \acciaccatura { a16 [b] } c4) \slurNeutral b8([ c] a2) g4 a4 \bar "|"  \break
 
       \stemUp a8([ b16 c] a8  [g]) fis8([ ees a g]) fis4.( ees8 d[ ees16 fis] d4) d2 \bar "|"  \break
 
