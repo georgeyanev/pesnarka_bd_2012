@@ -1,13 +1,12 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Wehe, Wind! II" }
+\markup \fill-line { \fontsize #deTitleFontSize "Der Wind weht II" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-  \hspace #10
-  \override #'(baseline-skip . 2)
-
-  \column {
+\markup \fontsize #deCoupletFontSize {
+    \hspace #10
+    \override #`(baseline-skip . ,deCoupletBaselineSkip)
+    \column {
     \line { " " }
 
  \line { " "Die göttliche Sonne scheint heute, }
@@ -26,7 +25,8 @@
 
  \line { " "öffne die Blüten, verteile die Früchte.}
 
- \line { " "Hai di di di di, man soll gehen, um zu lernen, zu lernen, um zu erhalten,}
+ \line { " "Hai di di di di, man soll gehen, }
+ \line { " " um zu lernen, zu lernen, um zu erhalten,}
 
  \line { " "zu erhalten, etwas zu lernen.}
 
