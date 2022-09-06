@@ -1,228 +1,151 @@
 \version "2.20.0"
 
-\paper {
-  #(set-paper-size "a5")
-}
+% include paper part and global functions
+\include "include/globals.ily"
 
 \bookpart {
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
-
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-      ""
-    }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change lyrics and titles font (affects notes also)
-    fonts =
-    #(make-pango-font-tree
-      "Times New Roman"
-      "DejaVu Sans"
-      "DejaVu Sans Mono"
-      (/ (* staff-height pt) 3.6))
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
-  }
-
-  \header {
-    tagline = ##f
-  }
-
-  \score{
-    \layout {
-      indent = 0.0\cm % remove first line indentation
-      %ragged-last = ##t % do not spread last line to fill the whole space
-      \context {
-        \Score
-        \omit BarNumber %remove bar numbers
-      } % context
-
-      \context {
-        % change staff size
-        \Staff
-        fontSize = #+0 % affects notes size only
-        \override StaffSymbol #'staff-space = #(magstep -3)
-        \override StaffSymbol #'thickness = #0.5
-        \override BarLine #'hair-thickness = #1
-        %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
-      }
-
-      \context {
-        % adjust space between staff and lyrics and between the two lyric lines
-        \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
-        \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-      }
-    } % layout
+  \include "include/bookpart-paper.ily"
+  \score {
+    \include "include/score-layout.ily"
 
     \new Voice \relative c' {
       \clef treble
       \key bes \major
       \time 2/4
-      \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Moderato " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 72)" }
-        }
-      }
+      \tempoFunc "Moderato" "4" "72"
       \autoBeamOff
- g''8 f ees d | \noBreak
-    c4. c8 | \noBreak
-    f8. ees16 d([c]) d f | \break
+      g''8 f ees d | \noBreak
+      c4. c8 | \noBreak
+      f8. ees16 d([c]) d f | \break
 
-    bes,8. bes16 bes4 | \noBreak
-    ees8 d c bes | \noBreak
-    a4 d | \noBreak
-    g,8. a16 bes([a]) bes ([d]) | \break
+      bes,8. bes16 bes4 | \noBreak
+      ees8 d c bes | \noBreak
+      a4 d | \noBreak
+      g,8. a16 bes([a]) bes ([d]) | \break
 
-    g,8 g g r | \noBreak
-    g'8. f16 ees([d]) ees([g]) | \noBreak
-    c,8. c16 c8 c16 c | \break
+      g,8 g g r | \noBreak
+      g'8. f16 ees([d]) ees([g]) | \noBreak
+      c,8. c16 c8 c16 c | \break
 
-    f8.([ees16]) d8 c | \noBreak
-    bes4 bes8 bes | \noBreak
-    ees8. d16 c([bes]) c([ees]) | \break
+      f8.([ees16]) d8 c | \noBreak
+      bes4 bes8 bes | \noBreak
+      ees8. d16 c([bes]) c([ees]) | \break
 
-    a,8. a16 a8 d | \noBreak
-    g,8. a16 bes([a]) bes([d]) | \noBreak
-    g,8 d g r | \break
+      a,8. a16 a8 d | \noBreak
+      g,8. a16 bes([a]) bes([d]) | \noBreak
+      g,8 d g r | \break
 
-    g8 g16 a bes8([a]) | \noBreak
-    g fis a([g]) | \noBreak
-    g2 | \noBreak
-    d16 ees ees ees ees d ees([g]) | \break
+      g8 g16 a bes8([a]) | \noBreak
+      g fis a([g]) | \noBreak
+      g2 | \noBreak
+      d16 ees ees ees ees d ees([g]) | \break
 
-    d4 r8 d | \noBreak
-    g4 a | \noBreak
-    bes16 ([a]) bes ([a]) g8 fis | \noBreak
-    g2 | \break
+      d4 r8 d | \noBreak
+      g4 a | \noBreak
+      bes16 ([a]) bes ([a]) g8 fis | \noBreak
+      g2 | \break
 
-    g'16 f ees d c bes a g | \noBreak
-    a8 bes c d | \noBreak
-    ees d d4~ | \break
+      g'16 f ees d c bes a g | \noBreak
+      a8 bes c d | \noBreak
+      ees d d4~ | \break
 
-    d8 bes g d | \noBreak
-    g8. a16 bes8 a | \noBreak
-    a g g fis | \noBreak
-    g2\fermata | \bar "||" \break
+      d8 bes g d | \noBreak
+      g8. a16 bes8 a | \noBreak
+      a g g fis | \noBreak
+      g2\fermata | \bar "||" \break
 
-    g'8 f ees d | \noBreak
-    d([c]) d4~ | \noBreak
-    d8 c bes8. a16 | \noBreak
-    bes8 c d ees | \break
+      g'8 f ees d | \noBreak
+      d([c]) d4~ | \noBreak
+      d8 c bes8. a16 | \noBreak
+      bes8 c d ees | \break
 
-    d cis d4~ | \noBreak
-    d8 c! bes a | \noBreak
-    fis8. g16 a8 g | \noBreak
-    bes a c bes | \break
+      d cis d4~ | \noBreak
+      d8 c! bes a | \noBreak
+      fis8. g16 a8 g | \noBreak
+      bes a c bes | \break
 
-    a g fis a | \noBreak
-    g2 | \noBreak
-    bes8. bes16 bes8 bes | \noBreak
-    bes4 a8([bes]) | \break
+      a g fis a | \noBreak
+      g2 | \noBreak
+      bes8. bes16 bes8 bes | \noBreak
+      bes4 a8([bes]) | \break
 
-    c16([bes]) a([g]) fis8([g]) | \noBreak
-    a8. bes16 a8([d,]) | \noBreak
-    d2 | \noBreak
-    bes'8 bes16 bes bes8 bes | \break
+      c16([bes]) a([g]) fis8([g]) | \noBreak
+      a8. bes16 a8([d,]) | \noBreak
+      d2 | \noBreak
+      bes'8 bes16 bes bes8 bes | \break
 
-    c bes a16([bes]) c([d]) | \noBreak
-    f4.(ees8) | \noBreak
-    d8. c16 d4~ | \noBreak
-    d8 bes g d | \break
+      c bes a16([bes]) c([d]) | \noBreak
+      f4.(ees8) | \noBreak
+      d8. c16 d4~ | \noBreak
+      d8 bes g d | \break
 
-    g4 \times 2/3 { g8 g g }  | \noBreak
-    g4. fis8 | \noBreak
-    g8. a16 bes8 a | \noBreak
-    \acciaccatura { bes } a g g fis | \break
+      g4 \times 2/3 { g8 g g }  | \noBreak
+      g4. fis8 | \noBreak
+      g8. a16 bes8 a | \noBreak
+      \acciaccatura { bes } a g g fis | \break
 
-    g ees d4 | \noBreak
-    d2 | \noBreak
-    f!8. g16 g8 g | \noBreak
-    f ees16 f g8 g | \break
+      g ees d4 | \noBreak
+      d2 | \noBreak
+      f!8. g16 g8 g | \noBreak
+      f ees16 f g8 g | \break
 
-    \acciaccatura { g } f ees \acciaccatura { f } ees  cis | \noBreak
-    d4 d | \noBreak
-    c'8. c16 c8 c | \noBreak
-    c4 bes8([a]) | \break
+      \acciaccatura { g } f ees \acciaccatura { f } ees  cis | \noBreak
+      d4 d | \noBreak
+      c'8. c16 c8 c | \noBreak
+      c4 bes8([a]) | \break
 
-    bes([c]) d ees | \noBreak
-    d2 | \noBreak
-    a8. a16 a8 a | \noBreak
-    a8. a16 c4 | \break
+      bes([c]) d ees | \noBreak
+      d2 | \noBreak
+      a8. a16 a8 a | \noBreak
+      a8. a16 c4 | \break
 
-    bes8([a]) g([fis]) | \noBreak
-    a8. g16 g4
-    g2\fermata \bar "||" | \noBreak
-    d2 \break
+      bes8([a]) g([fis]) | \noBreak
+      a8. g16 g4
+      g2\fermata \bar "||" | \noBreak
+      d2 \break
 
-    cis8([d]) ees d | \noBreak
-    d2 | \noBreak
-    d | \noBreak
-    g | \noBreak
-    fis8 g a g | \break
+      cis8([d]) ees d | \noBreak
+      d2 | \noBreak
+      d | \noBreak
+      g | \noBreak
+      fis8 g a g | \break
 
-    g2 | \noBreak
-    g4 g8 a | \noBreak
-    bes2 | \noBreak
-    a4 g | \noBreak
-    fis8 g a g | \break
+      g2 | \noBreak
+      g4 g8 a | \noBreak
+      bes2 | \noBreak
+      a4 g | \noBreak
+      fis8 g a g | \break
 
-    g2 | \noBreak
-    a4. bes8 | \noBreak
-    c2 | \noBreak
-    \acciaccatura { c8 } bes([a]) bes c | \noBreak
-    d2 | \break
+      g2 | \noBreak
+      a4. bes8 | \noBreak
+      c2 | \noBreak
+      \acciaccatura { c8 } bes([a]) bes c | \noBreak
+      d2 | \break
 
-    d,8^\markup{ \italic { largamente } } ees16([d]) cis8 d | \noBreak
-    \acciaccatura { c' } bes4. a8 | \noBreak
-    g4 g | \noBreak
-    g2 | \break
+      d,8^\markup{ \italic { largamente } } ees16([d]) cis8 d | \noBreak
+      \acciaccatura { c' } bes4. a8 | \noBreak
+      g4 g | \noBreak
+      g2 | \break
 
-    \tempo "a tempo" g'8. f16 ees([d]) ees([g]) | \noBreak
-    c,8. c16 c c c c | \break
+      \tempo "a tempo" g'8. f16 ees([d]) ees([g]) | \noBreak
+      c,8. c16 c c c c | \break
 
-    f8. ees16 d8 c | \noBreak
-    bes16 r bes r bes r bes r | \noBreak
-    ees8. d16 c bes c ees | \break
+      f8. ees16 d8 c | \noBreak
+      bes16 r bes r bes r bes r | \noBreak
+      ees8. d16 c bes c ees | \break
 
-    a,8. a16 a a a a | \noBreak
-    d8 d16([c]) bes8 a | \noBreak
-    g16 r g r g r g r | \break
+      a,8. a16 a a a a | \noBreak
+      d8 d16([c]) bes8 a | \noBreak
+      g16 r g r g r g r | \break
 
-    d4^\markup{ \italic { largamente } } e8 fis | \noBreak
-    g4 bes8. a16 | \noBreak
-    g4 g8 g | \noBreak
-    g2 \bar "|." \pageBreak
+      d4^\markup{ \italic { largamente } } e8 fis | \noBreak
+      g4 bes8. a16 | \noBreak
+      g4 g8 g | \noBreak
+      g2 \bar "|."
     }
 
-
-  \addlyrics {
-    И -- де ве -- че, | и -- де | "с ͜ пал" -- мо -- во клон -- че |
+    \addlyrics {
+      И -- де ве -- че, | и -- де | "с ͜ пал" -- мо -- во клон -- че |
     на Ми ра. | Сли -- за той от -- | го -- ре, | сли -- за той, вес -- |
     ти -- тел благ. | И -- де ве -- че | "с ͜ пал" -- мо -- во клон -- че |
     ка -- то си -- | я -- ни -- е. | И -- де Ми -- рът |
@@ -249,9 +172,9 @@
     клон -- че пал -- мо -- | во и же -- зъл. | Сли -- за той от -- го -- ре, |
     цар -- ствен и же -- лан кат | слън -- че -- ва ус -- | мив -- ка бла -- га |
     и "с ͜ Ра" -- дост | пъл -- ни сър -- | ца -- та ни той. |
-  }
+    }
 
-  \addlyrics {
+    \addlyrics {
     I -- de ve -- che, | i -- de | "s ͜ pal" -- mo -- vo klon -- che |
     na Mi ra. | Sli -- za toy ot -- | go -- re, | sli -- za toy, ves -- |
     ti -- tel blag. | I -- de ve -- che | "s ͜ pal" -- mo -- vo klon -- che |
@@ -279,28 +202,19 @@
     klon -- che pal -- mo -- | vo i zhe -- zal. | Sli -- za toy ot -- go -- re, |
     tsar -- stven i zhe -- lan kat | slan -- che -- va us -- | miv -- ka bla -- ga |
     i "s ͜ Ra" -- dost | pal -- ni sar -- | tsa -- ta ni toy. |
-  }
-
+    }
     \header {
-      title = \markup \column \normal-text \fontsize #2.5 {
-        \center-align
-        \line { Мирът иде II}
-        \vspace #-0.6
-        \center-align
-        \line \fontsize #-3 { Mirat ide II }
-        \vspace #-0.8
-        \center-align
-        \line \fontsize #-3 { " " }
-      }
+      title = \titleFunc "Мирът иде II" "Mirat ide II"
     }
 
     \midi{}
 
   } % score
+  %\markup \dc-two "D.C." "con repetitione"
 
-
+  \pageBreak
 
   % include foreign translation(s) of the song
- \include "lyrics_de/158_mirat_ide_lyrics_de.ly"
+  \include "lyrics_de/158_mirat_ide_lyrics_de.ly"
 
 } % bookpart
