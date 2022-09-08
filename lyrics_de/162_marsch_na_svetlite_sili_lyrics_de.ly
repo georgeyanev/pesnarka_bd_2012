@@ -12,7 +12,7 @@
 
     \line { " "Geister des Lichtes schreiten leicht in der Stille. }
 
-    \line { " "Sie steigen in weißen Reihen von den höhen Regionen herab. }
+    \line { " "Sie steigen in weißen Reihen von den hohen Regionen herab. }
 
     \line { " "Sie kommen auf die Erde in den herzen der Menschen. }
 

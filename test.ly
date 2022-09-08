@@ -101,7 +101,7 @@
       всич -- ки друж -- но и ще про -- сла -- вим Бо -- га с пе -- сен.
 
 
-  
+
       Но -- ви пе -- сни ще за -- пе -- ем - за хар -- мо -- ния все -- мир -- на.
 
       Нов жи -- вот ще за -- жи -- ве -- ем... Тя -- ло -- то ни ще про -- свет -- не
@@ -148,7 +148,7 @@
 
 
   % include foreign translation(s) of the song
-  \include "lyrics_de/162_marsch_na_svetlite_sili_lyrics_de.ly"
+  %\include "lyrics_de/000_empty_template_lyrics_de.ly"
 
 } % bookpart
 
