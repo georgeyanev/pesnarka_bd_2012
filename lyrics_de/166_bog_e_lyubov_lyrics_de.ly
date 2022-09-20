@@ -1,15 +1,14 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Gott ist Liebe" }
+\markup \fill-line { \fontsize #deTitleFontSize "Gott ist Liebe" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
+\markup \fontsize #deCoupletFontSize {
     \hspace #10
-    \override #'(baseline-skip . 2)
-    
+    \override #`(baseline-skip . ,deCoupletBaselineSkip)
         \column {
-     \line { " " }     
-     
+     \line { " " }
+
       \line { " "  Gott ist Liebe, Gott ist Liebe, }
 
   \line { " " Gott ist Liebe, Liebe,}
@@ -28,10 +27,10 @@
 
   \line { " " Wir werden auf diesem Weg des Lichtes gehen, (3)  }
 \line { " " in welchem die göttliche Liebe herrscht. (3)}
-     
-      
-       
+
+
+
     }
-    
-    
+
+
 }
