@@ -1,14 +1,13 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Der Freiheit bedarf die Seele" }
+\markup \fill-line { \fontsize #deTitleFontSize "Der Freiheit bedarf die Seele." }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
+\markup \fontsize #deCoupletFontSize {
   \hspace #10
-  \override #'(baseline-skip . 2)
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
 
    \line { "Der Freiheit bedarf die Seele. " }
 
