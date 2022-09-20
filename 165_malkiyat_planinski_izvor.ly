@@ -1,95 +1,19 @@
 \version "2.20.0"
 
-\paper {
-  #(set-paper-size "a5")
-}
+% include paper part and global functions
+\include "include/globals.ily"
 
 \bookpart {
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
+  \include "include/bookpart-paper.ily"
+  \score {
+    \include "include/score-layout.ily"
 
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-      ""
-    }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change lyrics and titles font (affects notes also)
-    fonts =
-    #(make-pango-font-tree
-      "Times New Roman"
-      "DejaVu Sans"
-      "DejaVu Sans Mono"
-      (/ (* staff-height pt) 3.6))
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
-  }
-
-  \header {
-    tagline = ##f
-  }
-
-  \score{
-    \layout {
-      indent = 0.0\cm % remove first line indentation
-      %ragged-last = ##t % do not spread last line to fill the whole space
-      \context {
-        \Score
-        \omit BarNumber %remove bar numbers
-      } % context
-
-      \context {
-        % change staff size
-        \Staff
-        fontSize = #+0 % affects notes size only
-        \override StaffSymbol #'staff-space = #(magstep -3)
-        \override StaffSymbol #'thickness = #0.5
-        \override BarLine #'hair-thickness = #1
-        %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
-      }
-
-      \context {
-        % adjust space between staff and lyrics and between the two lyric lines
-        \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
-        \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-      }
-    } % layout
-
-    \new Voice \relative c' {
+    \new Voice \relative  c'{
       \clef treble
       \key c \major
       \time 3/4
-      \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Moderato " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 69)" }
-        }
-      }
-      \autoBeamOff
+      \tempoFunc "Moderato" "4" "72"
+    \autoBeamOff
       g'4. g8 g4 | % 2
       a2 e4 | % 3
       g2 f8 e8 | % 4
@@ -160,7 +84,7 @@
     }
 
     \addlyrics {
-      Бли -- ка и пе -- е из -- во --
+         Бли -- ка и пе -- е из -- во --
       рът чист с~по -- глед не -- ви --
       нен, ве -- дър, лъ -- чист. В~ску --
       та пла -- нин -- ски ро -- дил се
@@ -170,12 +94,14 @@
       ци бле -- стят.  стят.  Раз --
       ли -- ва све -- жест,  кра -- со
       -- та, мъл -- ви за Лю -- бов -- та.
-      Всър -- це -- то на чо -- ве
+      В~сър -- це -- то на чо -- ве
       -- ка о -- тек -- ва пе -- сен -- та.
-      Всър -- та.
+      В~сър -- та.
+
     }
+
     \addlyrics {
-      Bli -- ka i pe -- e iz -- vo --
+            Bli -- ka i pe -- e iz -- vo --
       rat chist s~po -- gled ne -- vi --
       nen, ve -- dar, la -- chist. V~sku --
       ta pla -- nin -- ski ro -- dil se
@@ -185,61 +111,55 @@
       tsi ble -- styat.  styat.  Raz --
       li -- va sve -- zhest,  kra -- so
       -- ta, mal -- vi za Lyu -- bov -- ta.
-      Vsar -- tse -- to na cho -- ve
+      V~sar -- tse -- to na cho -- ve
       -- ka o -- tek -- va pe -- sen -- ta.
-      V~sar -- ta.}
+      V~sar -- ta
 
-      \header {
-        title = \markup \column \normal-text \fontsize #2.5 {
-          \center-align
-          \line { Малкият планински извор }
-          \vspace #-0.6
-          \center-align
-          \line \fontsize #-3 { Maliyat planinski izvor}
-          \vspace #-0.8
-          \center-align
-          \line \fontsize #-3 { " " }
-        }
-      }
+    }
+    \header {
+      title = \titleFunc " Малкият планински извор" "Malkiyat planinski izvor"
+    }
 
-      \midi{}
+    \midi{}
 
-    } % score
+  } % score
+  %\markup \dc-two "D.C." "con repetitione"
 
-   
 
-    \markup \fontsize #+2.5 {
-      \hspace #-5
-      \override #'(baseline-skip . 2.4) % affects space between column lines
-      \column {
-        \line {   2. Нежни цветя край него цъфтят,}
+
+  \markup \fontsize #bgCoupletFontSize {
+    \hspace #-2
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \column {
+         \line {   2. Нежни цветя край него цъфтят,}
         \line {   "   "  приказки чудни тихо редят,  }
         \line {   "   " нимфи игриви тук танци плетат,}
         \line {   "   " вгубера росен стъпки трептят. }
         \line {   "   "  Нощем се оглеждат в извора звезди.}
         \line {   "   "   И блика, дава  той без спир,}
         \line {   "   "  тъй дава Любовта. }
-        \line {   "   "   В сърцето на човека изгрява радостта.}
-      }
+        \line {   "   "   В сърцето на човека изгрява Радостта.}
 
-      \hspace #5
-      \override #'(baseline-skip . 2.4)
-      \column {
-        \line {   2. Nezhni tsvetya kray nego tsaftyat,}
+    
+    }
+
+    \hspace #1
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \column {
+       \line {   2. Nezhni tsvetya kray nego tsaftyat,}
         \line {   "   "  prikazki chudni tiho redyat,  }
         \line {   "   " nimfi igrivi tuk tantsi pletat,}
         \line {   "   " vgubera rosen stapki treptyat. }
         \line {   "   "  Noshtem se oglezhdat v izvora zvezdi.}
         \line {   "   "   I blika, dava  toy bez spir,}
         \line {   "   "  tay dava Lyubovta. }
-        \line {   "   "   V sartseto na choveka izgryava radostta.}
-      } %column
-    } % markup
+        \line {   "   "   V sartseto na choveka izgryava Radostta.}
+    } %column
+  } % markup
 
-  
+  \pageBreak
 
-    % include foreign translation(s) of the song
-    \include "lyrics_de/165_malkiyat_planinski_izvor_lyrics_de.ly"
+  % include foreign translation(s) of the song
+  \include "lyrics_de/165_malkiyat_planinski_izvor_lyrics_de.ly"
 
-  } % bookpart
-
+} % bookpart
