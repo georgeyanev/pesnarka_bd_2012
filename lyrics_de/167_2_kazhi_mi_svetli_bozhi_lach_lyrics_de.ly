@@ -1,21 +1,23 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Sage mir, du heller Strahl" }
+\markup \fill-line { \fontsize #deTitleFontSize "Sage mir, du heller göttlicher Strahl" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
+\markup \fontsize #deCoupletFontSize {
   \hspace #10
-  \override #'(baseline-skip . 2)
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+
 
   \column {
     \line { " " }
 
 
-    \line { " " Sage mir, du heller Strahl, }
+    \line { " " Sage mir, du heller, göttlicher Strahl, }
 
-    \line { " " das Gute im Leben, }
+    \line { " " das Gute des Lebens, }
 
-    \line { " " den leuchtenden geraden Weg} 
+    \line { " " den leuchtenden geraden Weg der reinen Seelen,}
+      \line { " "  der reinen Seelen,  der reinen Seelen,  der reinen Seelen.}
 
 
   }
