@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -13,7 +13,7 @@
       \clef treble
       \key c \major
       \time 4/4
-      \tempoFunc "Andante" "4" "63"
+      \tempoFunc "Andante" 4 "63"
       \autoBeamOff
       g4 \tuplet 3/2 {  a8   b8   c8  }  d8   e4   a8 | \time 5/4  | g8.   f16   e8   f8   g8 ( [ a8 ) ]   g2 \break |
 

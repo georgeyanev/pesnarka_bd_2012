@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -13,7 +13,7 @@
       \clef treble
       \key d \minor
       \time 6/8
-      \tempoFunc "Allegretto" "4." "84"
+      \tempoFunc "Allegretto" 4. "84"
 
 
       \partial 8
@@ -23,9 +23,9 @@
         % make tempo note smaller
         \concat {
           \normal-text { "        " }
-          \teeny \general-align #Y #DOWN \note #"4." #0.8
+          \teeny \general-align #Y #DOWN \note {4.} #0.8
           \normal-text { " = " }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
+          \teeny \general-align #Y #DOWN \note {4} #0.8
         }
       }
       c2 \tuplet 3/2 { g4 g8} | c2 \tuplet 3/2 { a4 a8 } | d4 (c) \tupletUp \tuplet 3/2 { b b8 } | \tupletNeutral \break

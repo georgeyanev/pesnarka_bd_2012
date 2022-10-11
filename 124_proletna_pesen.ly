@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 \include "include/globals.ily"
 
@@ -11,7 +11,7 @@
       \clef treble
       \key c \minor
       \time 3/4
-      \tempoFunc "Andante" "4" "56"
+      \tempoFunc "Andante" 4 "56"
       \autoBeamOff
       \partial 4
       \times 2/3 { es8 ( [  f8 ) ] g8 } | % 2
@@ -78,7 +78,7 @@
       g4 (  f8. [  es16 ) ] | % 23
       es2 \bar "||"
       \time 3/4  | % 24
-      \tempoFunc "Più mosso" "4" "84" | % 24
+      \tempoFunc "Più mosso" 4 "84" | % 24
       es'8 d8 c2 | % 25
       c8 bes8  as2 \break | % 26
       as8  g8  f8  g8  as8

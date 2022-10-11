@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -12,7 +12,7 @@
       \clef treble
       \key c \minor
       \time 4/4
-      \tempoFunc "Andante" "4" "66"
+      \tempoFunc "Andante" 4 "66"
 
 \autoBeamOff
       g'4  g' ( ~ g'8 \times 2/3  { fis'16 [g'16 as'] } g'8 [ fis'] ) | g'1 | f'4 es' d'8 c' es' d' \break |

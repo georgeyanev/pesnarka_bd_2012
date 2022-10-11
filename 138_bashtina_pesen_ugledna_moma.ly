@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -12,7 +12,7 @@
       \clef treble
       \key bes \major
       \time 8/16
-      \tempoFunc "Lento" "8" "112"
+      \tempoFunc "Lento" 8 "112"
       \autoBeamOff
       g'8. a8 f(e16) |
       g8. g8(g8.) |
@@ -33,7 +33,7 @@
       }
 
       \repeat volta 1 {
-        \tempoFunc "Poco più mosso" "8" "120"
+        \tempoFunc "Poco più mosso" 8 "120"
 
         c'8 b8[(aes16)] |  |
         c16 c b aes f |  |
@@ -51,7 +51,7 @@
       d8. d8(d8.\fermata) | \bar "||"
       \time 7/16
       \key c \major
-      \tempoFunc "Allegretto" "8" "160"
+      \tempoFunc "Allegretto" 8 "160"
       g8 a f e16 |
       g8 g f8. | \break
 

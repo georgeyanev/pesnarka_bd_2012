@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -13,7 +13,7 @@
       \clef treble
       \key g \major
       \time 3/4
-      \tempoFunc "Moderato" "4" "92"
+      \tempoFunc "Moderato" 4 "92"
       \autoBeamOff
 
       \repeat volta 2 {
@@ -30,14 +30,7 @@
 
         \override Score.MetronomeMark #'outside-staff-priority = #599
         %\override Score.MetronomeMark.X-extent=#'(-4.5 . 0)
-        \tempo \markup {
-          % make tempo note smaller
-          \concat {
-            "Andante" \normal-text { " (" }
-            \teeny \general-align #Y #DOWN \note #"4" #0.8
-            \normal-text { " = 60)" }
-          }
-        }
+        \tempoFunc "Andante" 4 "60"
         
         e8. e16 }
       }

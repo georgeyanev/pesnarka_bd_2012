@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 \include "include/globals.ily"
 
@@ -12,7 +12,7 @@
       \clef treble
       \key bes \major
       \time 2/4
-      \tempoFunc "Lento" "4" "54"
+      \tempoFunc "Lento" 4 "54"
       \autoBeamOff
       d4  g8. (  [a16] ) | % 2
       bes4. (  a8 ) | % 3

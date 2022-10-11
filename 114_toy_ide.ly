@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -13,7 +13,7 @@
       \clef treble
       \key bes \major
       \time 3/8
-      \tempoFunc "Allergetto" "4" "54"
+      \tempoFunc "Allergetto" 4 "54"
       \autoBeamOff
 
       bes'4 bes'8 | bes'4 bes'8 |  bes'4 bes'8 |  a'8 ( bes'8 )  c''8 \noBeam | \acciaccatura { c''8 ( } a'4 ) g'8 | \break
@@ -35,7 +35,7 @@
 
       f'4 f'8 |f'4  f'8 | f'4. ~ |  f'4. \bar "||" \key des \major \time 2/4 |
 
-      \tempoFunc "Andante" "4" "60"
+      \tempoFunc "Andante" 4 "60"
       
       bes'4. a'8 | \break
 

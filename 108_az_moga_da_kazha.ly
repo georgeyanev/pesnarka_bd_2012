@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -13,7 +13,7 @@
       \clef treble
       \key c \major
       \time 2/4
-      \tempoFunc "Moderato" "4" "72"
+      \tempoFunc "Moderato" 4 "72"
 
       \autoBeamOff
       c4 e8. f16 | g4 e | \time 3/4 a4 g8 f8 e4 | \time 2/4 g8 f e f | \break
@@ -31,7 +31,7 @@
       c4  a4 | b4  d8  c8 | b4  a4 ^\fermata
 
 
-      \tempoFunc "Meno mosso " "4" "63"| \bar ":|.|:" c4  b8  a8 \break |
+      \tempoFunc "Meno mosso " 4 "63"| \bar ":|.|:" c4  b8  a8 \break |
 
       \time 3/4  | gis8 ( [  f8 ) ]  e4.  e8 | \time 2/4  | g!8  f8  e8  d8 | e2
       \bar ":|."

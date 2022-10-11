@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -12,7 +12,7 @@
       \clef treble
       \key c \major
       \time 3/4
-      \tempoFunc "Andantino" "4" "69"
+      \tempoFunc "Andantino" 4 "69"
 
       c'4 e'4 g'4 | c''2 ( d''16 c'' b' c'' ) |  d''4 c''4 a'4 | g'2 g'4 | d''2 c''4 \break |
 
@@ -23,7 +23,7 @@
       \time 3/4 \partial 4
 
      
-      \tempoFunc "Poco più mosso" "4" "76"
+      \tempoFunc "Poco più mosso" 4 "76"
       g'4 | g'8 ( fis'8 g'8 a'8 ) g'4 | c''2 d''4 | \time 2/4 c''4 a'4 |\time 3/4 g'2 g'4 | d''2 e''4 |  \break
 
       \time 4/4 d''4 c'' c'' b' | \time 6/4 c''4 a' g' fis' g'2 \fermata | \time 4/4 c'4 e'4 g'2 | \break
@@ -32,14 +32,14 @@
 
       c'2\fermata
 
-      \tempoFunc "Più mosso" "2." "58"
+      \tempoFunc "Più mosso" 2. "58"
 
       e'4 | \repeat volta 2 {
       g'2 g'4 | a'2 e'4 | g'2 f'4 f'2 d''4 |\break
 
       d''2 c''4 | b'2 a'4 | a'2 g'4 | g'2 e'4 | g'2 e'4 | e'2.\fermata \breathe \break
 
-     \tempoFunc "Moderato" "4" "80"
+     \tempoFunc "Moderato" 4 "80"
 
 
 

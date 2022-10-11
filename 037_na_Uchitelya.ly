@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -44,7 +44,7 @@
       \clef treble
       \key e \minor
       \time 3/4
-      \tempoFunc "Leno" "4" "50"
+      \tempoFunc "Leno" 4 "50"
       \autoBeamOff
       \partial 4
       \autoBeamOff

@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 \include "include/globals.ily"
 
@@ -11,7 +11,7 @@
       \clef treble
       \key c \minor
       \time 2/4
-      \tempoFunc "Allegretto" "4" "92"
+      \tempoFunc "Allegretto" 4 "92"
       \autoBeamOff
       bes'4  c8  d8
       | % 44
@@ -24,7 +24,7 @@
       bes8 r8 f16 as16 g16
       f16 | \break
       es2 |
-      \tempoFunc "Poco meno mosso" "4" "88"
+      \tempoFunc "Poco meno mosso" 4 "88"
       es'4  bes4 | % 52
       c4 f,4  | % 53
       g16 as16  bes16  c16
@@ -69,7 +69,7 @@
       c16  d16  es16  f16
       g16  f16 |
       es2 \break | % 81
-      \tempoFunc "Meno mosso" "4" "80"
+      \tempoFunc "Meno mosso" 4 "80"
       es16  d16  c16  bes16
       as16 g16 f16 es16 | \break  % 82
       es16 f16 g16 ^\fermata f16

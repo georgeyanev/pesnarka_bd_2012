@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -12,7 +12,7 @@
       \clef treble
       \key a \minor
       \time 5/4
-      \tempoFunc "Moderato" "4" "60"
+      \tempoFunc "Moderato" 4 "60"
 
       a4 c' e' a'2 |c''4 b' a' e'2 | c''4 c'' c'' c''2 \break |
 

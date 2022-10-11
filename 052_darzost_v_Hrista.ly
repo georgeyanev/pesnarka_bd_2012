@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -77,7 +77,7 @@
       \clef treble
       \key f \major
       \time 2/4
-      \tempoFunc "Tempo di marcia" "4" "100"
+      \tempoFunc "Tempo di marcia" 4 "100"
       \autoBeamOff
       \autoBeamOff
       c'4 f' | a'8 g' f' e' | g'8 d'4. | c'4 f' \break |

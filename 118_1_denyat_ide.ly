@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -12,7 +12,7 @@
       \clef treble
       \key c \minor
       \time 2/4
-      \tempoFunc "Andante" "4" "60"
+      \tempoFunc "Andante" 4 "60"
       \autoBeamOff
 
       c'4 es'4 | d'8  c'8  \tuplet 3/2 { b8\=1([ \slurDashed c'8\=2(d'8\=2)\=1)] } \slurSolid | g2 | c'4 es'4 | g'4 as'8. as'16 | g'2 | \break

@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -12,7 +12,7 @@
       \clef treble
       \key g \major
       \time 2/4
-      \tempoFunc "Tempo di marcia" "4" "100"
+      \tempoFunc "Tempo di marcia" 4 "100"
       \autoBeamOff
 
       d'4 g'8 a'8 | b'4 e''4 | d''8 d''8 e''8 c''8 | b'2| d''4 c''8 b'8 | \break
@@ -29,7 +29,7 @@
           \time 4/4 \break
           \override Score.MetronomeMark #'outside-staff-priority = #599
           \override Score.MetronomeMark.X-extent=#'(-4.5 . 0)
-          \tempoFunc "Meno mosso" "4" "92"
+          \tempoFunc "Meno mosso" 4 "92"
           d'2 e'4 d'4 | b'1 | \tempo "rit." a'2 b'4 a'4 | g'1| \bar "|." \break
         }
       }

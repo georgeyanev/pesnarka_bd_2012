@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 \include "include/globals.ily"
 
@@ -11,7 +11,7 @@
       \clef treble
       \key c \major
       \time 3/4
-      \tempoFunc "Andante" "4" "60"
+      \tempoFunc "Andante" 4 "60"
       \autoBeamOff
       a8.  b16  c4  d4 | % 2
       e8.  e16  e2 | % 3

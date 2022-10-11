@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -13,7 +13,7 @@
       \key d \minor
 
       \time 5/4
-      \tempoFunc "Andante" "4" "63"
+      \tempoFunc "Andante" 4 "63"
       \autoBeamOff
       d8 ( [ e8 ) ]
       f4  d4  f2 | % 2
@@ -53,7 +53,7 @@
       bes4 (  a8 [  bes8 ) ] \break | % 11
       \time 3/4  | % 11
       \tempo "                   Fine" a2 ^\fermata \bar "!!"
-      \tempoFunc "Più mosso" "4" "88" a'8. a16 | % 12
+      \tempoFunc "Più mosso" 4 "88" a'8. a16 | % 12
       \compoundMeter #'((4 3 4 ))  | % 12
       a4 bes4  a4  a8.   gis16 \bar "!"
       a2  g8  f8 | \break % 13

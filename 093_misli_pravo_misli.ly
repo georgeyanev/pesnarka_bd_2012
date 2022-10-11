@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -13,7 +13,7 @@
     \clef treble
     \key d \major
     \time 2/4 
-      \tempoFunc "Adagio" "4" "54"
+      \tempoFunc "Adagio" 4 "54"
 
       \partial 4
       \autoBeamOff
@@ -22,7 +22,7 @@
 
       a'2 r8
 
-      \tempoFunc "Più mosso" "4" "58"
+      \tempoFunc "Più mosso" 4 "58"
       fis'8 | \repeat volta 2 {
         \time 9/8 fis'4 fis'8 fis'4 fis'8 fis'4 g'8 | a'4 a'8 b'4 a'8 a'4 fis'8 | \break
 

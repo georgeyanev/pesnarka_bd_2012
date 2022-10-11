@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -12,7 +12,7 @@
       \clef treble
       \key c \major
       \time 6/4
-       \tempoFunc "Andante" "4" "65"
+       \tempoFunc "Andante" 4 "65"
 
 
       c4 e g (a ) g2 | e4 g c4 ( \acciaccatura {d16c b c}) d4 c2 \break

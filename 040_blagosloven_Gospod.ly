@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -13,7 +13,7 @@
       \omit Score.TimeSignature
       \cadenzaOn % allows custom bar lines
       \key d \minor
-      \tempoFunc "Andante" "4" "56/58"
+      \tempoFunc "Andante" 4 "56/58"
       \autoBeamOff
       \autoBeamOff
 

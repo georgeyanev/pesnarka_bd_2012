@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 \include "include/globals.ily"
 
@@ -12,7 +12,7 @@
       \clef treble
       \key d \minor
       \time 3/4
-      \tempoFunc "Andante" "4" "63"
+      \tempoFunc "Andante" 4 "63"
       \autoBeamOff
       c'4 ( \once \omit TupletBracket
       \times 4/5  {
@@ -125,7 +125,7 @@
       \time 2/4  | % 53
       d'2 \bar "||" \break
       \key g \major \time 4/4 | % 54
-      \tempoFunc "Moderato" "4" "88"
+      \tempoFunc "Moderato" 4 "88"
       d'4 (  g'4 )  d'4  b8. c'16
       | % 55
       \time 3/4  | % 55

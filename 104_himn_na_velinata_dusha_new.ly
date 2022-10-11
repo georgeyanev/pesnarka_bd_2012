@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -13,7 +13,7 @@
       \clef treble
       \key d \major
       \time 3/4
-      \tempoFunc "Moderato" "4" "72/80"
+      \tempoFunc "Moderato" 4 "72/80"
       \autoBeamOff
 
 
@@ -24,7 +24,7 @@
       a'4 g'4 fis'4 | e'2. | e'2. | g'2. | b'4 cis''4 b'4 | b'2. | a'2. | \break
 
       fis'2. | a'4 (g'4) e'4 | e'2. | d'2 \fermata   
-      \tempoFunc "Più mosso" "4" "88"
+      \tempoFunc "Più mosso" 4 "88"
       fis'4  | a'2 a'4 | b'2 fis'4 | \break
 
       a'2. | a'2 a'4 | b'2 b'4 | b'2 ( cis''4 ) | a'2. ( | a'4 ) r4 a'4 | \break
@@ -32,12 +32,12 @@
       d''2 b'4 | b'2 ( cis''4 ) | a'2. |\tempo "Meno mosso" fis'2 fis'4  | g'2 e'4 | e'2 fis'4 | \break
 
       d'2.  \bar "||"
-      \tempoFunc "a tempo " "4" "80"
+      \tempoFunc "a tempo " 4 "80"
 
       a2 a4 | d'2 ( e'4 ) | fis'2 ( g'4 ) | a'2 \fermata a'4 | b'2 a'4 | \break
 
       a'2. | fis'2. |
-      \tempoFunc "Più mosso " "4" "88"
+      \tempoFunc "Più mosso " 4 "88"
       b'2 a'4 | fis'2 g'4 | a'2. | g'2 fis'4 | \break
 
       g'2 b'4 | a'2. | a'2 a'4 | d''2 b'4 | a'2. | a'2 a'4 | \break

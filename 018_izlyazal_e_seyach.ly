@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -44,7 +44,7 @@
       \clef treble
       \key c \major
       \time 3/4
-      \tempoFunc "Moderato" "4" "144"
+      \tempoFunc "Moderato" 4 "144"
 
       \partial 4 g'4| e''2 d''4| c''2 b'4|d''2 c''4| b'2. (|a'2.) g'2. (| \break
 
@@ -61,7 +61,7 @@
       }
 
       \repeat volta 2 {
-        \tempoFunc "Più mosso" "4" "184"
+        \tempoFunc "Più mosso" 4 "184"
         \bar ".|:" c''2 c''4 | c''4 ( b'4 ) c''4 | d''2 c''4 | b'2. (| b'4 ) r4 b'4 | a'2 a'4 | \break
         a'4 ( g'4 ) a'4 | b'2 a'4 | g'2. ( | g'4 ) r4 a'4 | a'2 a'4 | c''4 ( b'4) a'4 | a'2 e'4 |  \break
       }

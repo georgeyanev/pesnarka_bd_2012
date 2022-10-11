@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -12,14 +12,14 @@
       \clef treble
       \key c \major
       \time 3/8
-      \tempoFunc "Moderato" "8" "160"
+      \tempoFunc "Moderato" 8 "160"
       \partial 8
       \autoBeamOff
       c'8 |e'4 g'8|c''4 g'8 |a'4 g'8 |c''4.| g'4. ~ |  g'4    g'8 |\break
       c''4 c''8| \once \autoBeamOn c''8 ([  b'8  ])  \noBeam  c''8 |d''4 b'8  |c''4. ( | c''4 ) a'8| a'4 a'8| \break
       d''4  c''8| b'4 a'8| a'4. | g'4. ( |g'4 ) g'8 | a'4 g'8 | g'4 f'8 | \break
       e'4 d'8| c'4. ( | c'4. ) | \bar "||"
-      \tempoFunc "Più mosso" "8" "176"
+      \tempoFunc "Più mosso" 8 "176"
       g'8  fis'8 g'8 | a'4 g'8 | g'4 g'8 | c''4. (| \break
       c''4. ) | c''8 b'8 c''8| d''4 c''8 | b'4  b'8 | b'4.  (| b'4 )  a'8| b'4 a'8 | \break
       g'4 fis'8 | g'4. (| g'4. ) | a'8 g'8 f'8 | f'4 f'8 | e'4 f'8 | g'4. (| \break

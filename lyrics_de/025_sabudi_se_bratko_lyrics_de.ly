@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Wache auf, lieber Bruder" }
 \markup \null

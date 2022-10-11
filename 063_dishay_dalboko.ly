@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 \include "include/globals.ily"
 
@@ -43,7 +43,7 @@
         \clef treble
         \key d \major
         \time 2/4
-        \tempoFunc "Tempo di marcia" "4" "100"
+        \tempoFunc "Tempo di marcia" 4 "100"
         \autoBeamOff
 
         \repeat volta 1 {

@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -11,7 +11,7 @@
     \new Voice \absolute {
       \clef treble
       \key d \minor
-      \tempoFunc "Rubato" "4" "56"
+      \tempoFunc "Rubato" 4 "56"
       \autoBeamOn
 
       \omit Score.TimeSignature

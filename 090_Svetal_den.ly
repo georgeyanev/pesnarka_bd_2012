@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -12,7 +12,7 @@
       \clef treble
       \key g \major
       \time 2/4
-      \tempoFunc "Moderato" "4" "88"
+      \tempoFunc "Moderato" 4 "88"
       \autoBeamOff
 
       \repeat volta 2 {
@@ -26,7 +26,7 @@
       \time 3/4
 
 
-      \tempoFunc "Meno mosso" "4" "66"
+      \tempoFunc "Meno mosso" 4 "66"
 
 
       g'2 a'4 | b'2. | c''2 b'4 | a'2. | a'2 b'4 | \break

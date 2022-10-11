@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 \include "include/globals.ily"
 
@@ -12,7 +12,7 @@
       \clef treble
       \key des \major
       \time 2/4
-      \tempoFunc "Largetto" "4" "56"
+      \tempoFunc "Largetto" 4 "56"
       \autoBeamOff
 
       bes'4.  des8 | % 2

@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -12,7 +12,7 @@
       \clef treble
       \key e \minor
       \time 3/4
-      \tempoFunc "Tempo di valzer" "2." "54"
+      \tempoFunc "Tempo di valzer" 2. "54"
       \partial 4 b4 | e'2 g'4 | c''2 b'4 | b'2. | b'2 b4 | e'2 g'4 | \break
       c''2 b'4 | b'2. ( | b'2 ) b'4 |
       \repeat volta 2 {

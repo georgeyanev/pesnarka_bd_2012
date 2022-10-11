@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 \include "include/globals.ily"
 
@@ -11,7 +11,7 @@
       \clef treble
       \key c \major
       \time 7/16
-      \tempoFunc "Andante maestoso" "8" "152"
+      \tempoFunc "Andante maestoso" 8 "152"
       \autoBeamOff
        g8^\accent a16([b]) c8.( | \noBreak
     c4)(c8.) | \noBreak

@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 \include "include/globals.ily"
 
@@ -11,7 +11,7 @@
       \clef treble
       \key c \major
       \time 2/4
-      \tempoFunc "Lento" "4" "56"
+      \tempoFunc "Lento" 4 "56"
       \autoBeamOff
       a'4. b'8 |  c''8 b'8 a'8 gis'8 | a'4 b'4 | e'2 |  f'4 e'8 d'8 \break |
 
@@ -20,7 +20,7 @@
 
 
       a4 gis4 | a2 \bar ".|:"
-        | \tempoFunc "Allegretto" "4" "92" | e'4 d'8. f'16 | e'4. d'8 |c'8. b16 c'8. d'16 \break |
+        | \tempoFunc "Allegretto" 4 "92" | e'4 d'8. f'16 | e'4. d'8 |c'8. b16 c'8. d'16 \break |
 
         e'2 | e'4 b8. d'16 | c'2 | e'4 d'8. f'16 | e'4. a'8 | d'4. g'8 \break |
 

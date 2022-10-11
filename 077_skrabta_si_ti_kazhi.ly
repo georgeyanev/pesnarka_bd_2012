@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -15,13 +15,13 @@
       \autoBeamOff
       \omit Score.TimeSignature
       \cadenzaOn % allows custom bar lines
-      \tempoFunc "Andante" "4" "63"
+      \tempoFunc "Andante" 4 "63"
       \autoBeamOff
 
       g4 b d d8. e16 d 2  \bar "!"  d4 e e a g8. g16 fis2 \bar  "!" \break
       d4 g g g8. a16 b2 \bar "!" b4 b b b8. c16 d2 \bar "!" c4 c b d8. b16 a2 \bar "!"  \break
       a4 a4 a4  b8. a16 g2 \bar "!"
-      \tempoFunc "Più mosso" "4" "80"
+      \tempoFunc "Più mosso" 4 "80"
       d4 b'8. a16 g4 fis4 \bar "!" fis4 e e e e8. fis16 d2  \bar "!"  \break
       c8. c16 c4 e e d b8. b16 b2 \bar "!" c8. b16 a4 c4 c4 c4 d8. d16 b2 \bar "!"  \break
       b8. c16 d4 d e e a8. g16 fis2 \bar "!" fis8. g16 a4 a4 b a g8.  a16 b2 \bar "!"  \break

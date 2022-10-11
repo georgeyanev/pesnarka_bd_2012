@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -37,7 +37,7 @@
       \clef treble
       \key f \major
       \time 3/4
-      \tempoFunc "Larghetto" "4" "58"
+      \tempoFunc "Larghetto" 4 "58"
       \partial 4
       \autoBeamOff
       f'8 a' c''4 c'' f''8 a' | c''4 c'' f'8 a' | c''4 c'' f''8 e'' \break

@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -13,7 +13,7 @@
       \clef treble
       \key d \major
       \time 2/4
-      \tempoFunc "Allergetto" "4" "108"
+      \tempoFunc "Allergetto" 4 "108"
       \autoBeamOff
 
       d'4 fis'4 | a'8 g'8 fis'8 g'8| a'4 ( b' ) | a'2 |b'8. b'16 b'8 b'8 | \break

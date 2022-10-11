@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -45,7 +45,7 @@
       \clef treble
       \key f \major
       \time 3/8
-      \tempoFunc "Allegretto" "8" "112"
+      \tempoFunc "Allegretto" 8 "112"
       \autoBeamOff
 
       f''16. e''32 d''8 bes' | a'16. g'32 a'8 f' | d'16. e'32 f'8 g' | a'4 a'8 \break |
@@ -138,4 +138,4 @@
       % include foreign translation(s) of the song
       \include "lyrics_de/047_az_sam_byaloto_kokiche_lyrics_de.ly"
 
-    } % bookpart
+    } % bookpart 

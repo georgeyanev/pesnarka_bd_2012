@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -14,7 +14,7 @@
       \clef treble
       \key a \major
       \time 2/4
-      \tempoFunc "Moderato" "4" "88"
+      \tempoFunc "Moderato" 4 "88"
       \autoBeamOff
 
       \partial 8
@@ -26,7 +26,7 @@
       }
       \alternative {
         {  a'4. e'8 | }
-        {  a'4\fermata b4 \tempoFunc "Andante sustenuto" "4" "63" }
+        {  a'4\fermata b4 \tempoFunc "Andante sustenuto" 4 "63" }
       }
 
       \key c \major \time 4/4 \repeat volta 2 {

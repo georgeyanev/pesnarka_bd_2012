@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -12,7 +12,7 @@
       \clef treble
       \key c \major
       \time 7/16
-      \tempoFunc "Vivo" "4" "104"
+      \tempoFunc "Vivo" 4 "104"
       \autoBeamOff
       c8 e8 g8. | g8 c8 g8. | c,8 e8 g8. | g8 c8 g8. | \break
       c,8 d8 e8. | d8 e8  \acciaccatura {d16[e16]} d8([c16]) | g'8 g8 g8. | c,8 d8 e8. | \break

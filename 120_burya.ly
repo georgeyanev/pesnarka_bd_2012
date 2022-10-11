@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 \include "include/globals.ily"
 
@@ -11,7 +11,7 @@
       \clef treble
       \key des \major
       \time 9/8
-      \tempoFunc "Lento" "4." "50"
+      \tempoFunc "Lento" 4. "50"
       \autoBeamOff
       bes8 ( [  des8 ) ]  c8  bes4. a4  bes8 | 
       \override TextScript.extra-offset = #'(2.5 . 2)
@@ -33,7 +33,7 @@
 
         \key as \major \time 9/8 | % 15
 
-        \bar ".|:" \tempoFunc "            Più mosso" "4" "66" f4  f8  f4.  c'4. | % 16
+        \bar ".|:" \tempoFunc "            Più mosso" 4 "66" f4  f8  f4.  c'4. | % 16
 
         \time 6/8 des4.  c4.( | % 17
         c4. ) c8 ( [ des8  c8 ) ]

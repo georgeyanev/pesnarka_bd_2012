@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -14,7 +14,7 @@
       \clef treble
       \key c \minor
       \time 3/4
-      \tempoFunc "Moderato" "4" "84"
+      \tempoFunc "Moderato" 4 "84"
 
       \autoBeamOff
 
@@ -30,9 +30,9 @@
         % make tempo note smaller
         \concat {
           \normal-text { "       ossia       "  }
-          \fontsize #-4 \general-align #Y #DOWN \note #"2" #0.8
+          \fontsize #-4 \general-align #Y #DOWN \note {2} #0.8
           \normal-text { "                "  }
-          \fontsize #-4 \general-align #Y #DOWN \note #"4" #0.8
+          \fontsize #-4 \general-align #Y #DOWN \note {4} #0.8
           "                                   Fine"
         }
       }

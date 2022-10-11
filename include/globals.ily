@@ -17,8 +17,8 @@
 }
 
 tempoFunc = #(define-music-function
-    (parser location tName tNote tNumber)
-    (string? string? string?)
+    (tName tNote tNumber)
+    (string? ly:duration? string?)
     #{
       \tempo \markup {
         % make tempo note smaller
@@ -34,7 +34,7 @@ tempoFunc = #(define-music-function
 )
 
 titleFunc = #(define-scheme-function
-    (parser location cyrTitle latTitle)
+    (cyrTitle latTitle)
     (string? string?)
     #{
       \markup \column \normal-text \fontsize #2.5 {

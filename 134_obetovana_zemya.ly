@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 \include "include/globals.ily"
 
@@ -12,7 +12,7 @@
       \clef treble
       \key d \minor
       \time 3/8
-      \tempoFunc "Moderato" "8" "88"
+      \tempoFunc "Moderato" 8 "88"
       \autoBeamOff
       \partial 4.
       a4. | % 2
@@ -35,9 +35,9 @@
       bes8 ( [  a8 ) ]  g8 \break | % 19
       g4.^\markup{ 
         "ossia"
-        \fontsize #-6 \general-align #Y #DOWN \note "4" #0.8
+        \fontsize #-6 \general-align #Y #DOWN \note {4} #0.8
         "            "
-        \fontsize #-6 \general-align #Y #DOWN \note "8" #0.8
+        \fontsize #-6 \general-align #Y #DOWN \note {8} #0.8
       }  |
       e4. | % 21
       e8 ( [  f8 ) ]  g8 | % 22

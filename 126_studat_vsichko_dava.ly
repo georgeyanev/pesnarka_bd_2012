@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 \include "include/globals.ily"
 
@@ -11,7 +11,7 @@
       \clef treble
       \key d \major
       \time 3/4
-      \tempoFunc "Andante" "4" "63"
+      \tempoFunc "Andante" 4 "63"
       \autoBeamOff
       \partial 4
       a'4 | % 2
@@ -43,7 +43,7 @@
       d''4.  b'8 \break | % 16
       a'4.  a'8 | % 17
       a'8  g'8  fis'8  e'8 | % 18
-      d'4. \tempoFunc "Più mosso" "4" "84" d'8 | % 19
+      d'4. \tempoFunc "Più mosso" 4 "84" d'8 | % 19
       d'8.  d'16  d'8.  fis'16 \break |
       \time 3/4  |
       a'8.  a'16  a'4.  g'8 | % 21
@@ -88,11 +88,11 @@
       f'4  d'4 | % 47
       cis'8  d'8  e'8  f'8^\markup {
         "ossia"
-        \fontsize #-6 \general-align #Y #DOWN \note "2" #0.8
+        \fontsize #-6 \general-align #Y #DOWN \note {2} #0.8
         \path #0.06 #'((moveto 0 1)
                       (curveto 0 1 1.5 2 3 1)
                      )
-        \fontsize #-6 \general-align #Y #DOWN \note "2" #0.8
+        \fontsize #-6 \general-align #Y #DOWN \note {2} #0.8
       }  | % 48
       d'4. (  a'8 ) | % 49
       g'4  bes'8.  bes'16 \break |
@@ -104,7 +104,7 @@
       bes'8 -- ^\markup{ \bold {(rit.)} }  d''8 -- | % 54
       cis''2 ^\fermata  a4 \time 3/4 \break | % 55
       
-      \tempoFunc "Largamente" "4" "54"
+      \tempoFunc "Largamente" 4 "54"
       \times 2/3  {
         d'8[ \=1( \grace { cis'16 \=2([ d'16 ]}  cis'8 \=1)\=2)] bes8
       }
@@ -113,7 +113,7 @@
       e'8 ( [  f'8 ) ]  g'8  a'8  | % 57
       e'8  g'8  f'8  e'8 | % 58
       d'2 \break | % 59
-      \tempoFunc "Tempo I" "4" "63"
+      \tempoFunc "Tempo I" 4 "63"
       a'8 ( [  bes'32  a'32  gis'32
       a'32 ) ]  bes'4 |
       a'2 | % 61
@@ -141,7 +141,7 @@
       d'2 \bar "||"
       \break | % 72
       d''4 ( ^\markup{ \bold {Più mosso} }  bes'4 ) | % 73
-      a'8. \tempoFunc "" "4" "84"  gis'16  a'8  bes'8
+      a'8. \tempoFunc "" 4 "84"  gis'16  a'8  bes'8
       | % 74
       a'4.  g'8 | % 75
       f'8.  e'16  f'8.  e'16 | % 76
@@ -149,7 +149,7 @@
       d'8. ^\markup{ \bold {rit.} }  cis'16  d'8.
       e'16 | % 78
       \time 3/4  | % 78
-      \tempoFunc "Andante" "4" "66" d'2
+      \tempoFunc "Andante" 4 "66" d'2
       \times 2/3  {
         d'8 ( [  e'8  f'8 ) ]
       }
@@ -168,7 +168,7 @@
       gis8  a2 ^\fermata \bar "||"
       \break | % 83
       \time 2/4  | % 83
-      \tempoFunc "Più mosso" "4" "80" fis'8.  g'16  a'8 ( [
+      \tempoFunc "Più mosso" 4 "80" fis'8.  g'16  a'8 ( [
       fis'8 ) ] | % 84
       g'2 | % 85
       bes'8.  bes'16  a'4 | % 86
@@ -192,7 +192,7 @@
       
       \stemNeutral
       \break | % 88
-      \tempoFunc "Andante" "4" "66" a4  a8.  a16 | % 89
+      \tempoFunc "Andante" 4 "66" a4  a8.  a16 | % 89
       a2 |
       f'4  f'8  e'8 | % 91
       f'8  g'8  e'8.  e'16 | % 92
@@ -200,7 +200,7 @@
       \break | % 93
 
       \key d \major | % 93
-      \tempoFunc "Moderato" "4" "88" a'4  a'4 | % 94
+      \tempoFunc "Moderato" 4 "88" a'4  a'4 | % 94
       \time 3/4  | % 94
       a'16 ( [  gis'16  a'16  b'16 ) ]
       a'2 | % 95
@@ -222,7 +222,7 @@
       \break % 104
       \time 2/4
       \key f \major  % 104
-      \tempoFunc "Andante" "4" "66"
+      \tempoFunc "Andante" 4 "66"
       \times 2/3  {
         d'8 ( [  e'8  fis'8^\markup \fontsize #-1 {\parenthesize \natural} ]
       }

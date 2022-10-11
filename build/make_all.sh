@@ -116,6 +116,9 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../137_a_bre_sinko.ly \
     ../138_bashtina_pesen_ugledna_moma.ly \
     ../142_stavay_daste.ly \
+    ../146_bylgarska_rapsodia.ly \
+    ../150_balgarska_idiliya.ly \
+    ../154_ne_li_dimah.ly \
     > tmp.ly
 
 lilypond --include=../ -o pesn_all tmp.ly

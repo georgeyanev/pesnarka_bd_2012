@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -13,7 +13,7 @@
       \key d \minor
       \time 3/4
       \autoBeamOff
-      \tempoFunc "Andante" "4" "66"
+      \tempoFunc "Andante" 4 "66"
       \repeat volta 2 {
 
         a'8. a'16 a'4. bes'8 | a'4 g'2 | g'8. g'16 g'4. a'8 | \break

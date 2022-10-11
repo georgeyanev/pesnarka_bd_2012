@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 \include "include/globals.ily"
 
@@ -11,7 +11,7 @@
       \clef treble
       \key d \major
       \time 3/4
-      \tempoFunc "Moderato" "4" "80"
+      \tempoFunc "Moderato" 4 "80"
       \autoBeamOff
 
       \repeat volta 3 {
@@ -50,7 +50,7 @@
       } \break  \bar "|."
 
       \once \override Staff.TimeSignature #'break-visibility = ##(#f #t #t)
-      \time 5/4 \tempoFunc "Andante" "4" "66" fis'4 ^\fermata
+      \time 5/4 \tempoFunc "Andante" 4 "66" fis'4 ^\fermata
       e4  d8 [ ( cis8 ) ] b2 | 
       cis4  b4  ais8 ( [  g8 ) ]  fis2 |
       e4  e4 fis8 ( [  g8 ) ] b2 | \break
@@ -65,7 +65,7 @@
       e4  e4  fis8 ( [  g8 ) ] b2 | \break 
       ais4  g4  ais8 ( [  g8 ) ]  fis2 |
       \repeat volta 2 {
-        \time 9/8 \tempoFunc "     Allegretto" "4" "160"  d'4
+        \time 9/8 \tempoFunc "     Allegretto" 4 "160"  d'4
         d8  d8  cis4 d4. |
         cis4  b4  cis4 b4. | \break  
         ais4  g8  g8 ais4  g4. |
@@ -84,7 +84,7 @@
         }
       }
 
-      \tempoFunc "Poco meno mosso" "4" "144" d'4 d8 d8 cis4 d4. | \break
+      \tempoFunc "Poco meno mosso" 4 "144" d'4 d8 d8 cis4 d4. | \break
       cis4  b4
       cis4  b4.  ais4  g4  ais4
       g4.  e4   fis4

@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -13,7 +13,7 @@
       \clef treble
       \key c \major
       \time 6/4
-      \tempoFunc "Andante" "4" "63"
+      \tempoFunc "Andante" 4 "63"
 
       %\override Score.NoteSpacing.stem-spacing-correction = #-2
       c''4 ( \acciaccatura { d''16 c'' b' c'' } d''4 ) c'' \autoBeamOff a'8. a'16 g'2 |\time 5/4 g'16[( a'8. )] g'4 f'8. e'16 f'2 | \time 4/4 \break
@@ -33,7 +33,7 @@
       \bar ".|:"
 
 
-      \tempoFunc   "            Più mosso" "4" "88"
+      \tempoFunc   "            Più mosso" 4 "88"
       c''8 g' e' g' | c' c' c' c' | c'' g' e' g' | c' c' c' c' | \break
 
       \pageBreak
