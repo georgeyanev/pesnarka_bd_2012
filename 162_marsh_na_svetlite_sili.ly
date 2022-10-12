@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -12,32 +12,32 @@
       \clef treble
       \key c \major
       \time 2/4
-      \tempoFunc "Moderato" "4" "69"
+      \tempoFunc "Moderato" 4 "69"
       \autoBeamOff
- c'8 \p <e'
-      c'>8   <e'
-      c'>8  g8 | % 2
-      c'8  <e'
-      c'>8  <e'
-      c'>8  g8 | % 3
-      b8  <d'
-      b>8   <d'
-      b>8 g8 | % 4
-      b8  <d'
-      b>8 <d'
-      b>8 g8 \break | % 5
-      \acciaccatura { g16 ( a16 b16 } c'8 ) <e'
-      c'>8<e'
-      c'>8 g8 | % 6
-      c'8 <e'
-      c'>8  <e'
-      c'>8  g8 | % 7
-      b8 <d'
-      b>8<d'
-      b>8 g8 | % 8
-      b8 ( <d'
-      b>8) <d'
-      b>8 (g8) \break | % 9
+ c'8 \p [<e'
+      c'>8]   <e'
+      c'>8  [g8] | % 2
+      c'8  [<e'
+      c'>8]  <e'
+      c'>8  [g8] | % 3
+      b8  [<d'
+      b>8]   <d'
+      b>8 [g8] | % 4
+      b8  [<d'
+      b>8] <d'
+      b>8 [g8] \break | % 5
+      \acciaccatura { g16 [( a16 b16 ]} c'8 ) [<e'
+      c'>8] <e'
+      c'>8 [g8] | % 6
+      c'8 [<e'
+      c'>8]  <e'
+      c'>8  [g8] | % 7
+      b8 [<d'
+      b>8] <d'
+      b>8 [g8] | % 8
+      b8 [ <d'
+      b>8] <d'
+      b>8 [g8] \break | % 9
       g8. g16 a8. g16 |
       b8 b4 b8 | % 11
       g8. g16 a8. g16 | % 12
