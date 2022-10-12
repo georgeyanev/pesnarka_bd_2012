@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -12,7 +12,7 @@
       \clef treble
       \key bes \major
       \time 2/4
-      \tempoFunc "Moderato" "4" "72"
+      \tempoFunc "Moderato" 4 "72"
     \autoBeamOff
   g'8[f8] es8[d8] | \noBreak
     c4. c8 | \noBreak
