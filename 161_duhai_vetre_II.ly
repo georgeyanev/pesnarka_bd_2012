@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -12,7 +12,7 @@
       \clef treble
       \key g \major
       \time 2/4
-      \tempoFunc "Moderato" "4" "69"
+      \tempoFunc "Moderato" 4 "69"
       \autoBeamOff
       fis''8 -.  d''8 -.  e''8 -.
       c''8 -. | % 2
@@ -55,7 +55,7 @@
       \break | % 19
       \time 9/8  | % 19
       | % 19
-   \tempoFunc "Allegretto" "4" "160"
+   \tempoFunc "Allegretto" 4 "160"
       bes'4 bes'8 bes'8  a'4
       bes'4. |
       a'4  g'4  a'4  g'4. | % 21
@@ -64,10 +64,10 @@
       c'4  d'4  d'4  d'4. | % 23
       c'4  c'4  d'4  es'4. | % 24
       d'4  c'4  d'4  d'4. | % 25
-      c'4  c'4  d'4  es'4. \break | % 26
+      c'4  c'4  d'4  es'4. \pageBreak | % 26
       d'4  c'4  d'4  d'4. | % 27
+   \tempoFunc "Meno mosso" 4 "144"
       bes'4 bes'8 bes'8  a'4
-   \tempoFunc "Meno mosso" "4" "144"
       bes'4. | % 28
       a'4  g'4  a'4  g'4. \break | % 29
       fis'4  es'4  fis'4  es'4. |
@@ -120,6 +120,7 @@
 
   } % score
 
+  \markup \empty-two
 
   % include foreign translation(s) of the song
   \include "lyrics_de/161_duhai_vetre_ii_lyrics_de.ly"

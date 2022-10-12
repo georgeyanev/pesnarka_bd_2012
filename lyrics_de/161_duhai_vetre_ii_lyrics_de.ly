@@ -1,10 +1,10 @@
-\version "2.20.0"
+\version "2.22.1"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Der Wind weht II" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
-    \hspace #10
+    \hspace #12
     \override #`(baseline-skip . ,deCoupletBaselineSkip)
     \column {
     \line { " " }
