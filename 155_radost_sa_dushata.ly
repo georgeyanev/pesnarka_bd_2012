@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.21.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -12,7 +12,7 @@
       \clef treble
       \key d \major
       \time 3/4
-      \tempoFunc "Adagio" "4" "54"
+      \tempoFunc "Adagio" 4 "54"
       \autoBeamOff
     d''4.  cis''8  e''16  d''16
       cis''16  b'16 | % 2
@@ -29,7 +29,7 @@
       \times 2/3  {
         d'8   e'8  fis'8
       }
-      e'4 ^\fermata \break | % 4
+      e'4 ^\fermata \noBreak | % 4
 
       \times 2/3  {
         d'8 [  fis'8 ] a'8
@@ -41,10 +41,9 @@
       b'4  a'8. [(  g'16 )]
       \times 2/3  {
         fis'8 ( [  e'8 ) ] fis'8
-        |
       }
       % 6
-      g'8  fis'8  e'4  d'4 \break \repeat
+      g'8  fis'8  e'4  d'4 \time 3/4 \break \repeat
       volta 2 {
         | % 7
         d'4  d'4.  d'8 | % 8
@@ -89,9 +88,8 @@
     \midi{}
 
   } % score
-  %\markup \dc-two "D.C." "con repetitione"
-
-
+  
+  \markup \empty-one
 
   % include foreign translation(s) of the song
   \include "lyrics_de/155_radost_sa_dushata_lyrics_de.ly"
