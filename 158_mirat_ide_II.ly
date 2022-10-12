@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -12,7 +12,7 @@
       \clef treble
       \key bes \major
       \time 2/4
-      \tempoFunc "Moderato" "4" "72"
+      \tempoFunc "Moderato" 4 "72"
       \autoBeamOff
       g''8 f ees d | \noBreak
       c4. c8 | \noBreak
@@ -145,13 +145,13 @@
     }
 
     \addlyrics {
-      И -- де ве -- че, | и -- де | "с ͜ пал" -- мо -- во клон -- че |
+      И -- де ве -- че, | и -- де | "с~пал" -- мо -- во клон -- че |
     на Ми ра. | Сли -- за той от -- | го -- ре, | сли -- за той, вес -- |
-    ти -- тел благ. | И -- де ве -- че | "с ͜ пал" -- мо -- во клон -- че |
+    ти -- тел благ. | И -- де ве -- че | "с~пал" -- мо -- во клон -- че |
     ка -- то си -- | я -- ни -- е. | И -- де Ми -- рът |
     о -- бе -- щан със | не -- го -- ви -- я | по -- глед чист. |
     Всич -- ки ду -- ши | поз -- дра -- вя -- | ва, | всич -- ки сър -- ца вдъх -- но -- вя -- |
-    ва "с ͜ ли" -- | ка си | благ, мил, о -- за -- | рен. |
+    ва "с~ли" -- | ка си | благ, мил, о -- за -- | рен. |
     Ра -- дост и ве -- се -- ли -- е раз -- | на -- ся той на -- | вред, къ -- де --
     то ми -- не. | И -- де той във  | ран -- ни -- те зо -- | ри, |
     Слън -- це -- то ко -- | га -- то про -- сти -- ра свой -- те мил -- ва -- |
@@ -163,25 +163,25 @@
     тук ли -- ку -- | ват. | Злат -- ни ни -- ви | бла -- го -- го -- вей -- но |
     кла -- со -- ве на -- | веж -- дат. | Ця -- ла -- та При -- | ро -- да |
     е храм ве -- | лик. | И -- де Ан -- гел | на Ми ра |
-    "в ͜ то" -- зи | храм да слу -- | жи. | А |
+    "в~то" -- зи | храм да слу -- | жи. | А |
     сто -- и чо -- | ве -- | кът | пред | Све -- ти -- я ол -- |
-    тар. | О -- гън го -- | ри | там, "в ͜ Све" -- | ще -- ни -- я ол -- |
-    тар. | И "с ͜ мо" -- | лит -- | ва във ду -- | ша |
+    тар. | О -- гън го -- | ри | там, "в~Све" -- | ще -- ни -- я ол -- |
+    тар. | И "с~мо" -- | лит -- | ва във ду -- | ша |
     Бо -- жи -- я вес -- | ти -- тел | ча -- ка | той. |
     И -- де ве -- че | Ан -- гел на Ми -- ра със |
     клон -- че пал -- мо -- | во и же -- зъл. | Сли -- за той от -- го -- ре, |
     цар -- ствен и же -- лан кат | слън -- че -- ва ус -- | мив -- ка бла -- га |
-    и "с ͜ Ра" -- дост | пъл -- ни сър -- | ца -- та ни той. |
+    и "с~Ра" -- дост | пъл -- ни сър -- | ца -- та ни той. |
     }
 
     \addlyrics {
-    I -- de ve -- che, | i -- de | "s ͜ pal" -- mo -- vo klon -- che |
+    I -- de ve -- che, | i -- de | "s~pal" -- mo -- vo klon -- che |
     na Mi ra. | Sli -- za toy ot -- | go -- re, | sli -- za toy, ves -- |
-    ti -- tel blag. | I -- de ve -- che | "s ͜ pal" -- mo -- vo klon -- che |
+    ti -- tel blag. | I -- de ve -- che | "s~pal" -- mo -- vo klon -- che |
     ka -- to si -- | ya -- ni -- e. | I -- de Mi -- rat |
     o -- be -- shtan sas | ne -- go -- vi -- ya | po -- gled chist. |
     Vsich -- ki du -- shi | poz -- dra -- vya -- | va, | vsich -- ki sar -- tsa vdah -- no -- vya -- |
-    va "s ͜ li" -- | ka si | blag, mil, o -- za -- | ren. |
+    va "s~li" -- | ka si | blag, mil, o -- za -- | ren. |
     Ra -- dost i ve -- se -- li -- e raz -- | na -- sya toy na -- | vred, ka -- de --
     to mi -- ne. | I -- de toy vav  | ran -- ni -- te zo -- | ri, |
     Slan -- tse -- to ko -- | ga -- to pro -- sti -- ra svoy -- te mil -- va -- |
@@ -193,15 +193,15 @@
     tuk li -- ku -- | vat. | Zlat -- ni ni -- vi | bla -- go -- go -- vey -- no |
     kla -- so -- ve na -- | vezh -- dat. | Tsya -- la -- ta Pri -- | ro -- da |
     e hram ve -- | lik. | I -- de An -- gel | na Mi ra |
-    "v ͜ to" -- zi | hram da slu -- | zhi. | A |
+    "v~to" -- zi | hram da slu -- | zhi. | A |
     sto -- i cho -- | ve -- | kat | pred | Sve -- ti -- ya ol -- |
-    tar. | O -- gan go -- | ri | tam, "v ͜ Sve" -- | shte -- ni -- ya ol -- |
-    tar. | I "s ͜ mo" -- | lit -- | va vav du -- | sha |
+    tar. | O -- gan go -- | ri | tam, "v~Sve" -- | shte -- ni -- ya ol -- |
+    tar. | I "s~mo" -- | lit -- | va vav du -- | sha |
     Bo -- zhi -- ya ves -- | ti -- tel | cha -- ka | toy. |
     I -- de ve -- che | An -- gel na Mi -- ra sas |
     klon -- che pal -- mo -- | vo i zhe -- zal. | Sli -- za toy ot -- go -- re, |
     tsar -- stven i zhe -- lan kat | slan -- che -- va us -- | miv -- ka bla -- ga |
-    i "s ͜ Ra" -- dost | pal -- ni sar -- | tsa -- ta ni toy. |
+    i "s~Ra" -- dost | pal -- ni sar -- | tsa -- ta ni toy. |
     }
     \header {
       title = \titleFunc "Мирът иде II" "Mirat ide II"
