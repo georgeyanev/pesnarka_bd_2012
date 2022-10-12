@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -12,7 +12,7 @@
       \clef treble
       \key g \minor
       \time 4/4
-      \tempoFunc "Andante" "4" "69"
+      \tempoFunc "Andante" 4 "69"
       \autoBeamOff
       \repeat volta 2 {
         g8 a bes c d4 d4 | g8 f es d c4 c |  \break
@@ -43,7 +43,7 @@
 
   } % score
 
-
+  \markup \empty-one
 
   % include foreign translation(s) of the song
   \include "lyrics_de/155_2_mirat_ide_veche.ly"

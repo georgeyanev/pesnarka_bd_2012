@@ -1,6 +1,6 @@
-\version "2.20.0"
+\version "2.22.1"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Zaglavie DE" }
+\markup \fill-line { \fontsize #deTitleFontSize "Der Frieden kommt schon" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
