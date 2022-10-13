@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -12,7 +12,7 @@
       \clef treble
       \key c \major
       \time 2/4
-      \tempoFunc "Moderato " "4" "69"
+      \tempoFunc "Moderato " 4 "69"
          c'8 \p <e'
       c'>8   <e'
       c'>8  g8 | % 2
@@ -145,6 +145,8 @@
 
   } % score
 
+  \markup \dc-one "D. C. con ripetizione"
+  \markup \empty-two
 
 
   % include foreign translation(s) of the song

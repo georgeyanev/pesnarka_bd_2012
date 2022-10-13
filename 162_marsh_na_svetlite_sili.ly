@@ -2,12 +2,46 @@
 
 % include paper part and global functions
 \include "include/globals.ily"
-
 \bookpart {
-  \include "include/bookpart-paper.ily"
+  \paper { % the system system spacing is custom here so do not include bookpart-paper.ily
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 10)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 10))
+  }
+
+  \header {
+    tagline = ##f
+  }
+   
   \score {
     \include "include/score-layout.ily"
-
     \new Voice \absolute {
       \clef treble
       \key c \major
@@ -38,46 +72,42 @@
       b8 [ <d'
       b>8] <d'
       b>8 [g8] \break | % 9
-      g8. g16 a8. g16 |
+      g8. [g16] a8. [g16] |
       b8 b4 b8 | % 11
-      g8. g16 a8. g16 | % 12
+      g8. [g16] a8. [g16] | % 12
       c'8 c'4 c'8 \bar "||"
       \key es \major c'4 g'4 ( \break | % 14
-      g'4 ) g'16 ( f'16 es'16 d'16 ) | % 15
-      c'8 es'8 c'8 es'8 | % 16
-      c'8 es'8 f'16 ( es'16 d'16 c'16 ) | % 17
-      bes8 d'8 bes8 d'8 \break | % 18
-      bes8 d'8 es'16 ( d'16 c'16 bes16 ) | % 19
-      a8 d'8 a8 d'8 |
-      a8 d'8 g16 ( a16 bes16 a16 ) | % 21
+      g'4 ) g'16 [( f'16 es'16 d'16 )] | % 15
+      c'8 [es'8] c'8 [es'8] | % 16
+      c'8 [es'8] f'16 [( es'16 d'16 c'16 )] | % 17
+      bes8 [d'8] bes8 [d'8] \break | % 18
+      bes8 [d'8] es'16 ([ d'16 c'16 bes16 ]) | % 19
+      a8 [d'8] a8 [d'8] |
+      a8 [d'8] g16 ([ a16 bes16 a16 ]) | % 21
       g8 g4 g8 \bar "||"
       \break | % 22
       \key bes \major \time 5/4
-      \repeat volta 2 {
-        d'8 d'4 d'4 d'8 bes'8 \acciaccatura { a'16 ( bes'16 } a'8 ) g'8
-        es'8 | % 23
-        d'8 d'4 d'4 d'8 bes'8 \acciaccatura { a'16 ( bes'16 } a'8 ) g'8
-        es'8 \break | % 24
-        d'8 d'4 d'4 d'8 c'8 d'8 es'8 g'8 | % 25
-        d'8 d'4 d'4 d'8 c'8 d'8 es'8 g'8 \break | % 26
+      \bar ".|:" \repeat volta 2 {
+        d'8 d'4 d'4 d'8 bes'8[ \acciaccatura { a'16 ( [bes'16] } a'8] ) g'8
+        [es'8] | % 23
+        d'8 d'4 d'4 d'8 bes'8[ \acciaccatura { a'16 ( [bes'16] } a'8] ) g'8
+        [es'8] \break | % 24
+        d'8 d'4 d'4 d'8 c'8 [d'8] es'8 [g'8] | % 25
+        d'8 d'4 d'4 d'8 c'8 [d'8] es'8 [g'8] \break | % 26
         \time 3/4  d'8 d'4 d'4 d'8 | % 27
-        g8 a8 bes8 a8 c'8 bes8 |  % 28
+        g8 [a8] bes8 [a8] c'8 [bes8] |  % 28
       }
       \alternative {
         {
-          \acciaccatura { bes16 ( c'16 } bes8 ) a8 a8 g16 a16 bes8 a8
+          \acciaccatura { bes16 ( [c'16] } bes8 ) [a8] a8 [g16 a16] bes8 [a8]
           \break | % 29
           g8 g4 g4 g8     |
         }
         {
-          \acciaccatura { bes16 ( c'16 } bes8 ) a8 g16 a16 bes16 a16 g8 g8 | % 31
+          \acciaccatura { bes16 ( [c'16] } bes8 ) [a8] g16 [a16 bes16 a16] g8 g8 | % 31
           g8 g4 g8 g'4 \bar "|."
-
-
         }
       }
-
-
     }
 
     \addlyrics {}
@@ -91,6 +121,7 @@
 
   } % score
 
+  \markup \dc-one "D. C. con ripetizione"
   % include foreign translation(s) of the song
   %\include "lyrics_de/000_empty_template_lyrics_de.ly"
 
