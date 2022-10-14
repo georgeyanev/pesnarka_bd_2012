@@ -1,32 +1,52 @@
-\version "2.18.2"
+\version "2.22.1"
 
-\paper {
-  print-all-headers = ##t
-  print-page-number = ##f 
-  left-margin = 2\cm
-  right-margin = 2\cm
-}
-
-\header {
-  tagline = ##f
-}
-
+\include "include/globals.ily"
 \bookpart {
-\score{
-  \layout { 
-    indent = 0.0\cm % remove first line indentation
-    %ragged-last = ##t % do not spread last line to fill the whole space
-    \context {
-      \Score
-      \omit BarNumber %remove bar numbers
-    } % context
-  } % layout
+  \paper { % the system system spacing is custom here so do not include bookpart-paper.ily
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 10)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 10))
+  }
+
+  \header {
+    tagline = ##f
+  }
+   
+  \score {
+    \include "include/score-layout.ily"
 
   \new Voice \relative c' {
     \clef treble
     \key c \major
     \time 4/4
-    \tempo "Adagio" 4 = 56
+    \tempoFunc "Adagio" 4 "56"
     \autoBeamOff
     
     a4 dis8([e]) e2 | \noBreak
@@ -50,7 +70,7 @@
     \tempo "poco a poco accelerando" c16([dis c b]) c([dis c b]) c([dis c b]) \tempo "rit." b8.(a16) a4 | \time 4/4 \break
     
     \repeat volta 1 {
-      e''16[f gis a] b8 d,4. \acciaccatura { c16[d] } c4 | \noBreak
+      \tempo "a tempo" e''16[f gis a] b8 d,4. \acciaccatura { c16[d] } c4 | \noBreak
       \time 2/4 b2 | \noBreak
       \time 5/4 a,4 gis f'8.([e16]) e2 | \noBreak
       \time 4/4 d16([e) f a] gis4 f e8.([d16]) | \time 2/4 \break
@@ -84,7 +104,7 @@
   }
 
   \header {
-    title = "Берхан Ази / Berhan Azi"
+    title = \titleFunc "Берхан Ази" "Berhan Azi"
   }
   \midi { }
 } % score
