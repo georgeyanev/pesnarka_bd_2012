@@ -1,12 +1,45 @@
-%!!!Ако може нотите да се хванат на една страница.
-
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
-
 \bookpart {
-  \include "include/bookpart-paper.ily"
+  \paper { % the system system spacing is custom here so do not include bookpart-paper.ily
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 9)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 9))
+  }
+
+  \header {
+    tagline = ##f
+  }
+   
   \score {
     \include "include/score-layout.ily"
 
@@ -14,7 +47,7 @@
       \clef treble
       \key a \minor
       \time 2/4
-      \tempoFunc "Moderato" "4" "72"
+      \tempoFunc "Moderato" 4 "72"
       a8 ( d'8 ) e'8 ( f'8 ) | % 2
       g'2 | % 3
       a'8 ( e'8 ) c'8 ( b8 ) | % 4
