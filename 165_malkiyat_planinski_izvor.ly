@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -12,7 +12,7 @@
       \clef treble
       \key c \major
       \time 3/4
-      \tempoFunc "Moderato" "4" "72"
+      \tempoFunc "Tempo di valzer" 2. "56"
     \autoBeamOff
       g'4. g8 g4 | % 2
       a2 e4 | % 3
@@ -23,17 +23,17 @@
       b2 a8  b8 | % 8
       g2. | % 9
       g4. g8 g4 |
-      e4.  d8  c4 | % 11
+      e'4.  d8  c4 | % 11
       c4.  b8  b4 | % 12
       a2. \break | % 13
-      g'2 a8 g8 | % 14
+      g2 a8 g8 | % 14
       e2 f4 | % 15
       e2 d8 e8 | % 16
       c2. \repeat volta 2 {
         | % 17
         c'2  c4 | % 18
-        b2 f4 \break | % 19
-        a2. | 
+        b2 f4  | % 19
+        a2. \break | 
         g2. | % 21
         e2 e4 | % 22
         d2 d4
@@ -125,39 +125,42 @@
   } % score
   %\markup \dc-two "D.C." "con repetitione"
 
-
+  \pageBreak
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #-2
+    \hspace #0
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
          \line {   2. Нежни цветя край него цъфтят,}
         \line {   "   "  приказки чудни тихо редят,  }
         \line {   "   " нимфи игриви тук танци плетат,}
         \line {   "   " вгубера росен стъпки трептят. }
-        \line {   "   "  Нощем се оглеждат в извора звезди.}
+        \line {   "   "  Нощем се оглеждат в извора }
+        \line {   "   "  звезди.}
         \line {   "   "   И блика, дава  той без спир,}
         \line {   "   "  тъй дава Любовта. }
-        \line {   "   "   В сърцето на човека изгрява Радостта.}
-
-    
+        \line {   "   "   В сърцето на човека изгрява }
+        \line {   "   "   Радостта.}
     }
 
-    \hspace #1
+    \hspace #3
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
        \line {   2. Nezhni tsvetya kray nego tsaftyat,}
         \line {   "   "  prikazki chudni tiho redyat,  }
         \line {   "   " nimfi igrivi tuk tantsi pletat,}
         \line {   "   " vgubera rosen stapki treptyat. }
-        \line {   "   "  Noshtem se oglezhdat v izvora zvezdi.}
+        \line {   "   "  Noshtem se oglezhdat v izvora }
+        \line {   "   "  zvezdi.}
         \line {   "   "   I blika, dava  toy bez spir,}
         \line {   "   "  tay dava Lyubovta. }
-        \line {   "   "   V sartseto na choveka izgryava Radostta.}
+        \line {   "   "   V sartseto na choveka izgryava }
+        \line {   "   "   Radostta.}
     } %column
   } % markup
 
-  \pageBreak
+  \markup \empty-three
+  \markup \empty-two
 
   % include foreign translation(s) of the song
   \include "lyrics_de/165_malkiyat_planinski_izvor_lyrics_de.ly"
