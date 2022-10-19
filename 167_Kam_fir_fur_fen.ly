@@ -11,9 +11,9 @@
     \new Voice \relative  c' {
       \clef treble
       \key g \minor
-      \time 3/4
-      \tempoFunc "Adagio" "4" "56"
-      \autoBeamOff
+       \time 3/4
+      \tempoFunc "Adagio" 4 "56"
+    \autoBeamOff
 
       \partial 4 g'8. bes16 | d2 es8. g16 | \time 4/4 d4 d2 es8. d16 | \break
 
