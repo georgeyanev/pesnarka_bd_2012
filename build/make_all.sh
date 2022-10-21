@@ -119,6 +119,17 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../146_bylgarska_rapsodia.ly \
     ../150_balgarska_idiliya.ly \
     ../154_ne_li_dimah.ly \
+    ../155_2_mirat_ide_veche.ly \
+    ../155_radost_sa_dushata.ly \
+.   ../156_mirat_ide.ly \
+    ../158_mirat_ide_II.ly \
+    ../161_duhai_vetre_II.ly \
+    ../162_marsh_na_svetlite_sili.ly \
+    ../162_mash_vtori_variant_tekst.ly \
+    ../163_berhan_azi.ly \
+    ../164_pesen_na_deteto.ly \
+    ../165_malkiyat_planinski_izvor.ly \
+    ../166_Bog_e_Lyubov.ly \
     > tmp.ly
 
 lilypond --include=../ -o pesn_all tmp.ly
