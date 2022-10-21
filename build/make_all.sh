@@ -119,8 +119,8 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../146_bylgarska_rapsodia.ly \
     ../150_balgarska_idiliya.ly \
     ../154_ne_li_dimah.ly \
-    ../155_2_mirat_ide_veche.ly \
     ../155_radost_sa_dushata.ly \
+    ../155_2_mirat_ide_veche.ly \
 .   ../156_mirat_ide.ly \
     ../158_mirat_ide_II.ly \
     ../161_duhai_vetre_II.ly \

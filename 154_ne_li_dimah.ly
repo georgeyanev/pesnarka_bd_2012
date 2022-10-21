@@ -163,8 +163,8 @@
         \line {   "        " kato taya dusha blaga.}
       } %column
     } % markup
-
-    \pageBreak
+\pageBreak
+   
 
     % include foreign translation(s) of the song
     \include "lyrics_de/154_ne_li_dumah_lyrics_de.ly"
