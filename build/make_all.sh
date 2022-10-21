@@ -130,6 +130,7 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../164_pesen_na_deteto.ly \
     ../165_malkiyat_planinski_izvor.ly \
     ../166_Bog_e_Lyubov.ly \
+    ../167_Kam_fir_fur_fen.ly \
     > tmp.ly
 
 lilypond --include=../ -o pesn_all tmp.ly
