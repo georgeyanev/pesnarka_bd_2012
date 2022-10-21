@@ -165,5 +165,4 @@
 
 } % bookpart
 
-% Più mosso
-%
+

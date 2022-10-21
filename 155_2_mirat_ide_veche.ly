@@ -33,22 +33,26 @@
       Tъй наш Гос -- под ре -- че: Ми -- рът и -- де ве -- че, Ми -- рът и -- де ве -- че!-
       тъй наш Гос -- под ре -- че.
     }
-    \addlyrics {}
+    \addlyrics {
+      Mi -- rat i -- de ve -- che, Mi -- rat i -- de ve -- che, Mi -- rat i -- de ve -- che!-
+      tay nash Gos -- pod re -- che.
+      Tay nash Gos -- pod re -- che: Mi -- rat i -- de ve -- che, Mi -- rat i -- de ve -- che!-
+      tay nash Gos -- pod re -- che.}
 
-    \header {
-      title = \titleFunc "Мирът иде вече" "Mirat ide veche"
-    }
+      \header {
+        title = \titleFunc "Мирът иде вече" "Mirat ide veche"
+      }
 
-    \midi{}
+      \midi{}
 
-  } % score
+    } % score
 
-  \markup \empty-one
+    \markup \empty-one
 
-  % include foreign translation(s) of the song
-  \include "lyrics_de/155_2_mirat_ide_veche.ly"
+    % include foreign translation(s) of the song
+    \include "lyrics_de/155_2_mirat_ide_veche.ly"
 
-} % bookpart
+  } % bookpart
 
-% Più mosso
-%
+  % Più mosso
+  %
