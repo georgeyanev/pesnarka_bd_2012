@@ -1,16 +1,16 @@
-\version "2.20.0"
+\version "2.22.1"
 
-\markup \fill-line { \fontsize #6 "Lichter Glaube" }
+\markup \fill-line { \fontsize #deTitleFontSize "Lichter Glaube III" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-  \hspace #10
-  \override #'(baseline-skip . 2)
+\markup \fontsize #deCoupletFontSize {
+    \hspace #10
+    \override #'(baseline-skip . 1.9)
+    \column {
 
-  \column {
     \line { " " }
 
-\line { " " Heller, starker Glaube! }
+\line { " " Lichter, starker Glaube! }
 
 \line { " " Er stützt den Geist, }
 
