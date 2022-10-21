@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -12,7 +12,7 @@
       \clef treble
       \key c \major
       \time 2/4
-      \tempoFunc "Moderato" "4" "69"
+      \tempoFunc "Andante" 4 "60"
       \autoBeamOff
       \autoBeamOff
       c'4 (  d'16 [  c'16  b16  c'16 ]
@@ -34,13 +34,13 @@
       a'8  g'8  f'8 ( [  e'8 ) ] | % 15
       f'2 | % 16
       \time 4/4  | % 16
-      d'8 ( [  e'8 ) ]  g'2  e'4 \break | % 17
+      d'8 ( [  e'8 ) ]  g'2  e'4 | \noBreak % 17
       d'8. ( [  e'16 ) ]  c'2 \once \omit
       TupletBracket
       \times 2/3  {
         f'8 ( [  e'8  f'8 ) ]
       }
-      | % 18
+      | \break % 18
       g'4  g'4  a'4 \once \omit TupletBracket
       \times 2/3  {
         f'8 ( [  e'8 )  ] f'8
@@ -49,13 +49,13 @@
       \time 3/4  | % 19
       g'8.  a'16  g'2 |
       \time 2/4  |
-      a'4.  c''8 | % 21
-      \break b'8  a'8  g'4 | % 22
+      a'4.  c''8 |  % 21
+      b'8  a'8  g'4 |  % 22
       a'8 ( [  g'8 ) ]  f'8 ( [  e'8 ) ]
       | % 23
       f'8  a'8  g'4 | % 24
       e'4.  f'8 | % 25
-      d'4  e'4 \break | % 26
+      d'4  e'4 | % 26
       f'4.  a'8   | % 27
       g'4  a'8  b'8 | % 28
       b'8 ( [  c''8 ) ]  a'8.  g'16 | % 29
@@ -64,9 +64,9 @@
       f'8  a'8  a'8.  g'16 | % 32
       c''4  b'8  a'8 | % 33
       g'4  c''8.  b'16 | % 34
-      c''4.  a'8  \break | % 35
+      c''4.  a'8 | % 35
       g'8 ( [  f'8 ) ]  d'8.  c'16 | % 36
-      c'2
+      c'2 \break
       \repeat volta 2 {
         | % 37
         \time 3/4  | % 37
@@ -77,9 +77,9 @@
         f'4  a'4 | % 38
         \time 2/4  | % 38
         g'4  a'8.   b'16   | % 39
-        g'4  c''4 \break |
+        g'4  c''4  |
         b'8.  a'16  a'8 ( [  b'8 ) ] | % 41
-        g'2  | % 42
+        g'2  | \pageBreak % 42
         \time 5/4  | % 42
         a'4  d''8.  c''16  c''4
         b'2 | % 43
@@ -158,7 +158,7 @@
 
   } % score
 
-
+  \markup \empty-three
 
   % include foreign translation(s) of the song
   \include "lyrics_de/166_bog_e_lyubov_lyrics_de.ly"
