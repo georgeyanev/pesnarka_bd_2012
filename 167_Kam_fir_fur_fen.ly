@@ -30,18 +30,18 @@
 
     \addlyrics {
     Фир -- фюр --
-  фен Тао Би Ау -- мен. Фир -- фюр --
-  фен Тао Би Ау -- мен. Фир -- фюр --
-  фен Тао Би Ау -- мен. Фир -- фюр --
-  фен Тао Би Ау -- мен. Фир -- фюр --
-  фен Тао Би Ау -- мен.}
+  фен Тао би ау -- мен. Фир -- фюр --
+  фен Тао би ау -- мен. Фир -- фюр --
+  фен Тао би ау -- мен. Фир -- фюр --
+  фен Тао би ау -- мен. Фир -- фюр --
+  фен Тао би ау -- мен.}
       \addlyrics {
     Fir -- fyur --
-  fen Tao Bi Au -- men. Fir -- fyur --
-  fen Tao Bi Au -- men. Fir -- fyur --
-  fen Tao Bi Au -- men. Fir -- fyur --
-  fen Tao Bi Au -- men. Fir -- fyur --
-  fen Tao Bi Au -- men.}
+  fen Tao bi au -- men. Fir -- fyur --
+  fen Tao bi au -- men. Fir -- fyur --
+  fen Tao bi au -- men. Fir -- fyur --
+  fen Tao bi au -- men. Fir -- fyur --
+  fen Tao bi au -- men.}
 
         \header {
           title = \titleFunc "Към Фир фюр фен" "Kam Fir fyur fen"
