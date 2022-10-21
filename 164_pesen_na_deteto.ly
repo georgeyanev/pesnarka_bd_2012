@@ -52,13 +52,7 @@
       g'2 | % 3
       a'8 ( e'8 ) c'8 ( b8 ) | % 4
       a2 | % 5
-      \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Poco più mosso "
-        }
-      } 
-      
+      \tempo "Poco più mosso"
       g'16
       ( a'16 ) f'8 f'16 ( g'16 )
       e'8 | % 6
@@ -67,12 +61,8 @@
       f'4 e'8. ( dis'16 ) | % 9
        
       e'2 \bar "||"
-      \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Lagramente"
-        }
-      } a'8.  ( b'16 ) c''8 a'8 | % 11
+      \tempo "Lagramente"
+      a'8.  ( b'16 ) c''8 a'8 | % 11
       e''2 | % 12
       e'8 a'4 ( g'8 ) | % 13
       a'16 ( g'16 f'16 e'16 ) e'4 \break | % 14
@@ -103,12 +93,8 @@
       \time 2/4  c'8 b8 a8^\markup{ \bold {rit.} } gis8 | % 27
       a2 \bar "||"
       \time 5/4  | % 28
-      \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Animato"
-        }
-      }a'16  a'8. e'16 e'8. cis'16 cis'8. a2 | % 29
+      \tempo "Animato"
+      a'16  a'8. e'16 e'8. cis'16 cis'8. a2 | % 29
       a'16 a'8. e'16 e'8. \once \override TupletBracket #'stencil = ##f
       \times 2/3  {
         b8 ( c'8 a8 )
@@ -127,12 +113,7 @@
       \time 2/4  a4 ) e'4 \bar "||"
       \break | % 33
       \key a \major \time 9/8 | % 33
-      \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Allegretto"
-        }
-      }
+      \tempo "Allegretto"
       a'8  -. e'8 -. a'8 -. e'8 -. a'8 -. e'8
       -. e'8 -. e'8 ( -. e'8 ) -. | % 34
       cis'8 -. e'8 -. cis'8 -. e'8 -. cis'8 -. e'8 -. cis'8 -. cis'8 ( -.
@@ -151,12 +132,7 @@
       }
       | % 45
       \key c \major \time 2/4 | % 45
-      e'4 \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Adagio"
-        }
-      }
+      e'4 \tempo "Adagio"
       a'8. ( a'16 ) -- | % 46
       a'2 | % 47
       b'4 e''8. ( e''16 ) -- | % 48
