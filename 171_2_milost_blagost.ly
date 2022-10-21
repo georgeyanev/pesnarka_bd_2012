@@ -40,26 +40,20 @@
         -- gost v_men Toi vse -- li, v_men vse -- li,
         v_men vse -- li.}
 
-        \header {
-          title = \markup \column \normal-text \fontsize #2.5 {
-            \center-align
-            \line { Милост, благост }
-            \vspace #-0.6
-            \center-align
-            \line \fontsize #-3 { Milost, blagost }
-            \vspace #-0.8
-            \center-align
-            \line \fontsize #-3 { " " }
-          }
-        }
 
-        \midi{}
+    \header {
+      title = \titleFunc "Милост, благост" "Milost, blagost"
+    }
 
-      } % score
+    \midi{}
+
+  } % score
 
 
 
-      % include foreign translation(s) of the song
-      \include "lyrics_de/171_2_milost_blagost_lyrics_de.ly"
+  % include foreign translation(s) of the song
+  \include "lyrics_de/171_2_milost_blagost_lyrics_de.ly"
 
-    } % bookpart
+} % bookpart
+
+
