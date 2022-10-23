@@ -145,7 +145,7 @@
     \hspace #7
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-       \line { 1. Izlyazal e seyach da see }
+      \line { 1. Izlyazal e seyach da see }
       \line {   "   " prekrasno blago – nov zhivot. }
       \line {   "   " I see toy, i tiho pee }
       \line {   "   " pred vseki dom i vseki rod: }

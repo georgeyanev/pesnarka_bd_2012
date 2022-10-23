@@ -9,18 +9,11 @@
     \translate #'(0 . -20.1 )
     \right-brace #20
 
-
-
-   
   }
   \column {
     % repeat numbers
-  
-
     \translate #'(0 . -20.7 )
     2
-
- 
   }
 }
 
@@ -73,7 +66,7 @@
       -- mla -- dya -- va.
     }
     \header {
-      title = \titleFunc " Изгрява вече ден тържествен" "Izgryava veche den tarzhestven"
+      title = \titleFunc "Изгрява вече ден тържествен" "Izgryava veche den tarzhestven"
     }
 
     \midi{}
@@ -158,7 +151,7 @@
       \line { " " }
       \line { "   " \italic {Refrain: } }
     } %column
-     \"rightBraces022"
+    \"rightBraces022"
   } % markup
 
 

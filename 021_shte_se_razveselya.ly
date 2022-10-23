@@ -15,7 +15,7 @@
       \tempoFunc "Largo" 4 "54"
       \autoBeamOff
 
-   a'4 d''4 | a'4 d''8. e''16 | \time 3/4 d''2 a'4 | \time 2/4 bes'4. ( d''8 ) | a'2 | g'4. ( a'8 ) | \break
+      a'4 d''4 | a'4 d''8. e''16 | \time 3/4 d''2 a'4 | \time 2/4 bes'4. ( d''8 ) | a'2 | g'4. ( a'8 ) | \break
 
       f'4 e'4 | d'4 cis'4 | d'2 | \repeat volta 2 {
         a'4 d''8. e''16 | f''2 | e''4 d''4  \break
@@ -71,7 +71,7 @@
 
   } % score
 
-\markup \empty-three
+  \markup \empty-three
 
   % include foreign translation(s) of the song
   \include "lyrics_de/021_ste_se_razveselja_lyrics_de.ly"

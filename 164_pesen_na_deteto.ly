@@ -3,7 +3,8 @@
 % include paper part and global functions
 \include "include/globals.ily"
 \bookpart {
-  \paper { % the system system spacing is custom here so do not include bookpart-paper.ily
+  \paper {
+    % the system system spacing is custom here so do not include bookpart-paper.ily
     print-all-headers = ##t
     print-page-number = ##t
     print-first-page-number = ##t
@@ -39,7 +40,7 @@
   \header {
     tagline = ##f
   }
-   
+
   \score {
     \include "include/score-layout.ily"
 
@@ -59,7 +60,7 @@
       e'16 ( f'16 ) d'8 d'16 ( e'16 ) c'8 \break | % 7
       b8. ( c'16 ) d'8 e'8 | % 8
       f'4 e'8. ( dis'16 ) | % 9
-       
+
       e'2 \bar "||"
       \tempo "Lagramente"
       a'8.  ( b'16 ) c''8 a'8 | % 11

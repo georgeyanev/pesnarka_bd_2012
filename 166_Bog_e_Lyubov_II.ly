@@ -14,7 +14,6 @@
       \time 2/4
       \tempoFunc "Andante" 4 "60"
       \autoBeamOff
-      \autoBeamOff
       c'4 (  d'16 [  c'16  b16  c'16 ]
       | % 2
       e'4 )  d'8.  e'16 | % 3
@@ -107,7 +106,8 @@
 
     }
 
-      \addlyrics {   Бог е Лю -- бов,
+    \addlyrics {
+      Бог е Лю -- бов,
       Бог е Лю -- бов, Бог    е
       Лю -- бов,  Бог
       е Лю -- бов. Веч --
@@ -128,41 +128,42 @@
       та, във ко -- я -- то ца -- ру
       -- ва Бо -- жи --  я -- та
       Лю -- бов.}
-    \addlyrics {Bog e Lyu -- bov,
-      Bog e Lyu -- bov, Bog    e
-      Lyu -- bov,  Bog
-      e Lyu -- bov. Vech --
-      na, bez -- gra -- nich
-      -- na, pal -- na sas Zhi --
-      vot, Zhi --  vot na bla -- gi
-      -- ya Bo -- zhi Duh. Duh na bla --
-      gost -- ta, Duh  na  svya --
-      tost -- ta, Duh na pa -- len Mir
-      i Ra -- dost za vsya -- ka du --
-      sha, Duh na pa -- len Mir i Ra --
-      dost za vsya -- ka du -- sha, za
-      vsya -- ka du -- sha. Niy  shte
-      ho -- dim vav to -- zi pat na
-      Svet -- li -- na -- ta, na Svet --
-      li -- na -- ta, na Svet -- li -- na --
-      ta, na Svet --   li -- na --
-      ta, vav ko -- ya -- to tsa -- ru
-      -- va Bo -- zhi --  ya -- ta
-      Lyu -- bov.}
+      \addlyrics {
+        Bog e Lyu -- bov,
+        Bog e Lyu -- bov, Bog    e
+        Lyu -- bov,  Bog
+        e Lyu -- bov. Vech --
+        na, bez -- gra -- nich
+        -- na, pal -- na sas Zhi --
+        vot, Zhi --  vot na bla -- gi
+        -- ya Bo -- zhi Duh. Duh na bla --
+        gost -- ta, Duh  na  svya --
+        tost -- ta, Duh na pa -- len Mir
+        i Ra -- dost za vsya -- ka du --
+        sha, Duh na pa -- len Mir i Ra --
+        dost za vsya -- ka du -- sha, za
+        vsya -- ka du -- sha. Niy  shte
+        ho -- dim vav to -- zi pat na
+        Svet -- li -- na -- ta, na Svet --
+        li -- na -- ta, na Svet -- li -- na --
+        ta, na Svet --   li -- na --
+        ta, vav ko -- ya -- to tsa -- ru
+        -- va Bo -- zhi --  ya -- ta
+        Lyu -- bov.}
 
-    \header {
-      title = \titleFunc "Бог е Любов II" "Bog e Lyubov II"
-    }
+        \header {
+          title = \titleFunc "Бог е Любов II" "Bog e Lyubov II"
+        }
 
-    \midi{}
+        \midi{}
 
-  } % score
+      } % score
 
-  \markup \empty-three
+      \markup \empty-three
 
-  % include foreign translation(s) of the song
-  \include "lyrics_de/166_bog_e_lyubov_lyrics_de.ly"
+      % include foreign translation(s) of the song
+      \include "lyrics_de/166_bog_e_lyubov_lyrics_de.ly"
 
-} % bookpart
+    } % bookpart
 
 

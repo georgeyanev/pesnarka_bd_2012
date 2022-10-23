@@ -13,7 +13,7 @@
       \key c \major
       \time 3/4
       \tempoFunc "Tempo di valzer" 2. "56"
-    \autoBeamOff
+      \autoBeamOff
       g'4. g8 g4 | % 2
       a2 e4 | % 3
       g2 f8 e8 | % 4
@@ -33,7 +33,7 @@
         | % 17
         c'2  c4 | % 18
         b2 f4  | % 19
-        a2. \break | 
+        a2. \break |
         g2. | % 21
         e2 e4 | % 22
         d2 d4
@@ -84,7 +84,7 @@
     }
 
     \addlyrics {
-         Бли -- ка и пе -- е из -- во --
+      Бли -- ка и пе -- е из -- во --
       рът чист с~по -- глед не -- ви --
       нен, ве -- дър, лъ -- чист. В~ску --
       та пла -- нин -- ски ро -- дил се
@@ -101,7 +101,7 @@
     }
 
     \addlyrics {
-            Bli -- ka i pe -- e iz -- vo --
+      Bli -- ka i pe -- e iz -- vo --
       rat chist s~po -- gled ne -- vi --
       nen, ve -- dar, la -- chist. V~sku --
       ta pla -- nin -- ski ro -- dil se
@@ -117,7 +117,7 @@
 
     }
     \header {
-      title = \titleFunc " Малкият планински извор" "Malkiyat planinski izvor"
+      title = \titleFunc "Малкият планински извор" "Malkiyat planinski izvor"
     }
 
     \midi{}
@@ -131,31 +131,31 @@
     \hspace #0
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-         \line {   2. Нежни цветя край него цъфтят,}
-        \line {   "   "  приказки чудни тихо редят,  }
-        \line {   "   " нимфи игриви тук танци плетат,}
-        \line {   "   " вгубера росен стъпки трептят. }
-        \line {   "   "  Нощем се оглеждат в извора }
-        \line {   "   "  звезди.}
-        \line {   "   "   И блика, дава  той без спир,}
-        \line {   "   "  тъй дава Любовта. }
-        \line {   "   "   В сърцето на човека изгрява }
-        \line {   "   "   Радостта.}
+      \line {   2. Нежни цветя край него цъфтят,}
+      \line {   "   "  приказки чудни тихо редят,  }
+      \line {   "   " нимфи игриви тук танци плетат,}
+      \line {   "   " вгубера росен стъпки трептят. }
+      \line {   "   "  Нощем се оглеждат в извора }
+      \line {   "   "  звезди.}
+      \line {   "   "   И блика, дава  той без спир,}
+      \line {   "   "  тъй дава Любовта. }
+      \line {   "   "   В сърцето на човека изгрява }
+      \line {   "   "   Радостта.}
     }
 
     \hspace #3
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-       \line {   2. Nezhni tsvetya kray nego tsaftyat,}
-        \line {   "   "  prikazki chudni tiho redyat,  }
-        \line {   "   " nimfi igrivi tuk tantsi pletat,}
-        \line {   "   " vgubera rosen stapki treptyat. }
-        \line {   "   "  Noshtem se oglezhdat v izvora }
-        \line {   "   "  zvezdi.}
-        \line {   "   "   I blika, dava  toy bez spir,}
-        \line {   "   "  tay dava Lyubovta. }
-        \line {   "   "   V sartseto na choveka izgryava }
-        \line {   "   "   Radostta.}
+      \line {   2. Nezhni tsvetya kray nego tsaftyat,}
+      \line {   "   "  prikazki chudni tiho redyat,  }
+      \line {   "   " nimfi igrivi tuk tantsi pletat,}
+      \line {   "   " vgubera rosen stapki treptyat. }
+      \line {   "   "  Noshtem se oglezhdat v izvora }
+      \line {   "   "  zvezdi.}
+      \line {   "   "   I blika, dava  toy bez spir,}
+      \line {   "   "  tay dava Lyubovta. }
+      \line {   "   "   V sartseto na choveka izgryava }
+      \line {   "   "   Radostta.}
     } %column
   } % markup
 
