@@ -1,17 +1,17 @@
-\version "2.20.0"
+\version "2.22.1"
 
-\markup \fill-line { \fontsize #6 "Das Weizenkorn" }
+\markup \fill-line { \fontsize #deTitleFontSize "Das Weizenkorn" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
+\markup \fontsize #deCoupletFontSize {
   \hspace #10
-  \override #'(baseline-skip . 2)
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
     \line { " " }
 
 
- \line { " "Ich war ein Weizenkorn, das in der Erde vergraben war.}
+ \line { 1. Ich war ein Weizenkorn, das in der Erde vergraben war.}
 
  \line { " "Im tiefen Schlummer kannte ich das Leben nicht.}
 
@@ -20,7 +20,7 @@
  \line { " "und weckte mich mit seinem Ruf. }
  \line { " " }
 
- \line { " "Vom Weizenkorn bin ich zum kleinen Vöglein geworden,}
+ \line { 2. Vom Weizenkorn bin ich zum kleinen Vöglein geworden,}
 
  \line { " "damit ich in die Lüfte fliege. }
 
@@ -29,6 +29,7 @@
  \line { " "auf eine Weinrebe niedergelassen }
 
  \line { " "und zum ersten Mal von den süßen Weintrauben gekostet.}
+ \line { " " }
 
  \line { " "Wie schön ist das Leben…!, sagte ich mir dann. }
 
