@@ -14,7 +14,7 @@
       \time 4/4
       \tempoFunc "Moderato" 4 "60"
       \autoBeamOff
-        a'8 g'8 f'8 e'8 d'4 d'4|g'8 a'8 bes'8 d''8 a'4 a'4 | \break
+      a'8 g'8 f'8 e'8 d'4 d'4|g'8 a'8 bes'8 d''8 a'4 a'4 | \break
       g'8 a'8 bes'8 d''8 a'4 a'4 | a'8 g'8 f'8 g'8 a'4 a'4| \break
       bes'8 bes'8 bes'8 bes'8 bes'4 d''4 | d''8 c''8 c''8 bes'8 bes'4 a'4 | \break
       g'8 a'8 bes'8 d''8 a'4 a'4 | d'8 e'8 f'8 e'8 d'4 d'4 | \break
@@ -22,7 +22,7 @@
       g'8 a'8 bes'8 d''8 a'4 a'4 | d'8 e'8 f'8 e'8 d'4 d'4 | \bar "|." \break
     }
 
-     \addlyrics {
+    \addlyrics {
       Лю -- бов -- та е из -- вор: тя Жи -- во -- та раж -- да
       и пре -- свя -- та длъж -- ност в~не -- го крот -- ко всаж -- да
       все на -- пред да хо -- ди в~стре -- меж към До -- бро -- то,
@@ -48,7 +48,7 @@
 
   } % score
 
- \markup \fontsize #+1.7 {
+  \markup \fontsize #+1.7 {
     \hspace #5
     \override #'(baseline-skip . 1.8)
     \column {
@@ -110,7 +110,7 @@
       \line {   "   "песни ще да пее.}
     }
 
-      \hspace #6
+    \hspace #6
     \override #'(baseline-skip . 1.8)
     \column {
       \line { 1. Lyubovta e izvor, }
@@ -171,7 +171,7 @@
       \line {   "   "pesni shte da pee.}
     } %column
   } % markup
-  
+
   \pageBreak
 
   % include foreign translation(s) of the song
