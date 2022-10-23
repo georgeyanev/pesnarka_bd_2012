@@ -1,53 +1,50 @@
-\version "2.20.0"
 
-\markup \fill-line { \fontsize #6 "Das kleine Käferchen" }
+\version "2.22.1"
+
+\markup \fill-line { \fontsize #deTitleFontSize "Das kleine Käferchen" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
+\markup \fontsize #deCoupletFontSize {
   \hspace #10
-  \override #'(baseline-skip . 2)
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+      \column {
+  \line {1. Mich hat Gott geboren,}
 
-  \column {
-    \line { " " }
+  \line { " " mit einem neuen Leben erleuchtet.}
 
+  \line { " " Langsam, langsam gedeiht und reift meine Seele,}
 
-\line { " " Mich hat Gott geboren,}
+  \line { " " aber sieh schon:}
 
-\line { " " mit einem neuen Leben erleuchtet.}
+  \line { " " Ich laufe aufwärts, wo die Sonne funkelt. Ich werde das sehen,}
 
-\line { " " Langsam, langsam gedeiht und reift meine Seele,}
+  \line { " " was meine Seele liebt und wonach sie trachtet.}
+  \line { " " }
 
-\line { " " aber sieh schon:}
+  \line { 2. So flüstert der Käfer,}
 
-\line { " " Ich laufe aufwärts, wo die Sonne funkelt. Ich werde das sehen,}
+  \line { " " und strebt auf dem Weg nach oben,}
 
-\line { " " was meine Seele liebt und wonach sie trachtet.}
- \line { " " }
+  \line { " " und nacheinander überwindet er die Hürden. }
 
-\line { " " So flüstert der Käfer,}
+  \line { " " Tapfer durchquert er Felsen, }
 
-\line { " " und strebt auf dem Weg nach oben,}
+  \line { " " Felder und Täler,}
 
-\line { " " und nacheinander überwindet er die Hürden. }
+  \line { " " und strebt immer vorwärts}
 
-\line { " " Tapfer durchquert er Felsen, }
+  \line { " " und erhebt sich bis zum Gipfel.}
+  \line { " " }
+  \line { 3. So vergehen unzählige Jahrhunderte}
 
-\line { " " Felder und Täler,}
+  \line { " " und die Zeit verändert sich.}
 
-\line { " " und strebt immer vorwärts}
+  \line { " " Und so wuchs er: jungfräulich,}
 
-\line { " " und erhebt sich bis zum Gipfel.}
- \line { " " }
-\line { " " So vergehen unzählige Jahrhunderte}
+  \line { " " reiner Tau, eine schöne Seele,}
 
-\line { " " und die Zeit verändert sich.}
+  \line { " " Schöpfung Gottes --}
 
-\line { " " Und so wuchs er: jungfräulich,}
-
-\line { " " reiner Tau, eine schöne Seele,}
-
-\line { " " Schöpfung Gottes --}
-
-\line { " " sie vergießt Frieden und helle Freude in der Welt.}
-  }
+  \line { " " sie vergießt Frieden und helle Freude in der Welt.}
+}
 }
