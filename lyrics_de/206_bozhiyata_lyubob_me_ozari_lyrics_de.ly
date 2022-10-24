@@ -1,14 +1,13 @@
-\version "2.20.0"
+\version "2.22.1"
 
-\markup \fill-line { \fontsize #6 "Die göttliche Liebe" }
+\markup \fill-line { \fontsize #deTitleFontSize "Die göttliche Liebe hat mich erleuchtet" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
+\markup \fontsize #deCoupletFontSize {
   \hspace #10
-  \override #'(baseline-skip . 2)
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
 
 
     \line { " "Die göttliche Liebe   }
