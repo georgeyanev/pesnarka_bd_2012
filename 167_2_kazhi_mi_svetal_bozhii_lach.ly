@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -12,7 +12,7 @@
       \clef treble
       \key g \major
       \time 3/4
-      \tempoFunc "Andante" "4" "66"
+      \tempoFunc "Andante" 4 "66"
       \autoBeamOff
       g4  b4  d'4 | % 2
       b'2  a'4 | % 3
@@ -37,10 +37,6 @@
       d'4  c'4  c'8.  c'16  e'2 | % 13
       d'4  a4  a8.  a16  b2 ^\fermata
       \bar "|."
-
-
-
-
     }
 
     \addlyrics {
@@ -68,8 +64,7 @@
 
       } % score
 
-
-
+      \markup \empty-two
       % include foreign translation(s) of the song
       \include "lyrics_de/167_2_kazhi_mi_svetli_bozhi_lach_lyrics_de.ly"
 
