@@ -1,15 +1,13 @@
-\version "2.20.0"
+\version "2.22.1"
 
-\markup \fill-line { \fontsize #6 "Frühlingslied" }
+\markup \fill-line { \fontsize #deTitleFontSize "Frühlingslied" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
+\markup \fontsize #deCoupletFontSize {
   \hspace #10
-  \override #'(baseline-skip . 2)
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
-
  \line { " "Nun kommt der wundervolle Frühling; }
 
  \line { " "die Sonne geht auf, }
