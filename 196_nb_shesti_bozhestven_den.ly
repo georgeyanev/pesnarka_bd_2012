@@ -1,96 +1,20 @@
-\version "2.20.0"
+\version "2.22.1"
 
-\paper {
-  #(set-paper-size "a5")
-}
+% include paper part and global functions
+\include "include/globals.ily"
 
 \bookpart {
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
-
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-      ""
-    }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change lyrics and titles font (affects notes also)
-    fonts =
-    #(make-pango-font-tree
-      "Times New Roman"
-      "DejaVu Sans"
-      "DejaVu Sans Mono"
-      (/ (* staff-height pt) 3.6))
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
-  }
-
-  \header {
-    tagline = ##f
-  }
-
-  \score{
-    \layout {
-      indent = 0.0\cm % remove first line indentation
-      %ragged-last = ##t % do not spread last line to fill the whole space
-      \context {
-        \Score
-        \omit BarNumber %remove bar numbers
-      } % context
-
-      \context {
-        % change staff size
-        \Staff
-        fontSize = #+0 % affects notes size only
-        \override StaffSymbol #'staff-space = #(magstep -3)
-        \override StaffSymbol #'thickness = #0.5
-        \override BarLine #'hair-thickness = #1
-        %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
-      }
-
-      \context {
-        % adjust space between staff and lyrics and between the two lyric lines
-        \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
-        \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-      }
-    } % layout
+  \include "include/bookpart-paper.ily"
+  \score {
+    \include "include/score-layout.ily"
 
     \new Voice \absolute {
       \clef treble
       \key d \minor
       \time 3/4
-      \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Andante " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 69)" }
-        }
-      }
+      \tempoFunc "Andante" 4 "66"
       \autoBeamOff
-      r8 ^\fermata a'8  d''4 -- a'4 --
+      r8 a'8  d''4 -- a'4 --
       | % 183
       f''2 ~ --  f''8  f''8 -- | % 184
       e''8 --  d''8 --  c''4 a'4 | % 185
@@ -117,8 +41,8 @@
       a'4.  ^\markup {
         \musicglyph #"scripts.caesura.straight"
       } a'8 a'4 a'4 | % 196
-      a''2.  f''8 e''8 \break | % 197
-^\markup{ \bold {poco rall.} }
+      a''2.  g''8 f''8 \break | % 197
+      ^\markup{ \bold {poco rall.} }
       e''4  d''4
       d''8 --  d''8 -- \once \omit TupletBracket
       \times 2/3  {
@@ -168,11 +92,8 @@
       \time 4/4  | % 227
       f'8 e'16 ( [ f'16 ) ] d'4 e'4 ^\markup{ \bold {Più lento} }  e'4 |
       \grace { e'16 [ ( f' ]  } g'2 ) f'2 |
-
       e'4 d' \grace { e'16 (} d'2 ) |
-
       d'2 \fermata r4 d'4 |
-
       d'2 ^\markup{ \bold {Tempo I} } cis'2 | % 232
       d'2 r2 | % 233
       f'2 -- d'2 -- | % 234
@@ -181,11 +102,9 @@
       a'4 a'8 a'8 g'8 a'8 \break | % 236
       \time 4/4  | % 236
       fis'2
-
       \times 2/3  {
         fis'8  fis'8 fis'8
       }
-
       \times 2/3  {
         a'8  gis'8 fis'8
       }
@@ -233,8 +152,9 @@
       e''4. ^\fermata  cis''8 ^\markup{ \bold {rall.} }
       cis''4 --  b'4 -- | % 256
       a'2. r4 \bar "|."
-    }
 
+
+    }
     \addlyrics {
       И ре -- че Бог:  „Да
       дой -- дат над зе -- мя -- та жи --
@@ -269,65 +189,62 @@
       чер, и ста -- на ут -- ро, шес --
       ти ден.
     }
-    \addlyrics {I re -- che Bog:  „Da
-  doy -- dat nad ze -- mya -- ta zhi --
-  vot -- ni i zve -- ro -- ve spo --
-  red vi -- do -- ve -- te im.“ I
-  sta -- na ta -- ka. I vi -- dya Bog,
-  che  vsich -- ko be do -- bro. I
-  re -- che Bog, i saz -- da -- de che
-  -- lo -- ve --  ka. Sam go saz
-  -- da -- de po Svo -- ya ob -- raz i
-  po -- do -- bi -- e. I bla -- go --
-  slo -- vi go da vla -- de -- e
-  vsich -- ko zhi -- vo po ze -- mya
-  -- ta, da o -- bi -- cha i za --
-  kri -- lya vsich -- ki tva -- ri vav
-  vo -- da -- ta, po ze -- mya -- ta i
-  vaz -- du -- ha. I re -- che Bog:
-  „Da -- vam  __ tre -- va -- ta
-  sas se -- me -- na -- ta  i i
-  dar -- vo -- to sas plo -- do -- ve
-  -- te  si za hra --  
-  na na che -- lo -- ve --  ka. I re --
-  che Bog: „Da -- vam i na zem --
-  ni -- te zve -- ro -- ve, i na vaz
-  -- dush -- ni -- te pti -- tsi, i vsich
-  -- ko, shto pal -- zi  po ze -- mya
-  -- ta i i -- ma zhi -- vot, i cho --
-  vek da ne po -- sya -- ga na zhi --
-  vo -- ta  im.“ I vi -- dya Bog,
-  che vsich -- ko, shto na -- pra -- vi,
-  be do -- bro. I sta -- na ve --
-  cher, i sta -- na ut -- ro, shes --
-  ti den. }
+    \addlyrics {
+      I re -- che Bog:  „Da
+      doy -- dat nad ze -- mya -- ta zhi --
+      vot -- ni i zve -- ro -- ve spo --
+      red vi -- do -- ve -- te im.“ I
+      sta -- na ta -- ka. I vi -- dya Bog,
+      che  vsich -- ko be do -- bro. I
+      re -- che Bog, i saz -- da -- de che
+      -- lo -- ve --  ka. Sam go saz
+      -- da -- de po Svo -- ya ob -- raz i
+      po -- do -- bi -- e. I bla -- go --
+      slo -- vi go da vla -- de -- e
+      vsich -- ko zhi -- vo po ze -- mya
+      -- ta, da o -- bi -- cha i za --
+      kri -- lya vsich -- ki tva -- ri vav
+      vo -- da -- ta, po ze -- mya -- ta i
+      vaz -- du -- ha. I re -- che Bog:
+      „Da -- vam  __ tre -- va -- ta
+      sas se -- me -- na -- ta  i i
+      dar -- vo -- to sas plo -- do -- ve
+      -- te  si za hra --
+      na na che -- lo -- ve --  ka. I re --
+      che Bog: „Da -- vam i na zem --
+      ni -- te zve -- ro -- ve, i na vaz
+      -- dush -- ni -- te pti -- tsi, i vsich
+      -- ko, shto pal -- zi  po ze -- mya
+      -- ta i i -- ma zhi -- vot, i cho --
+      vek da ne po -- sya -- ga na zhi --
+      vo -- ta  im.“ I vi -- dya Bog,
+      che vsich -- ko, shto na -- pra -- vi,
+      be do -- bro. I sta -- na ve --
+      cher, i sta -- na ut -- ro, shes --
+      ti den.
+    }
+
 
     \header {
-      title = \markup \column \normal-text \fontsize #2.5 {
-        \center-align
-        \line { Шести божествен ден }
-        \vspace #-0.6
-        \center-align
-        \line \fontsize #-3 { Shesti bozhestven den }
-        \vspace #-0.8
-        \center-align
-        \line \fontsize #-3 { " " }
-      }
+      title = \titleFunc " Шести божествен ден" "Shesti bozhestven den"
     }
 
     \midi{}
 
   } % score
 
-   \markup \halign #-27.9 \raise #2.8 \override #'(baseline-skip . 2) {
-        \column  {
-          \line  {
-            \italic \right-align { "attacca" }
-          }
-        }
+  \markup \halign #-27.9 \raise #2.8 \override #'(baseline-skip . 2) {
+    \column  {
+      \line  {
+        \italic \right-align { "attacca" }
       }
+    }
+  }
+
 
   % include foreign translation(s) of the song
   \include "lyrics_de/196_nb_shesti_bozhestven_den_lyrics_de.ly"
-
 } % bookpart
+
+% Più mosso
+%
