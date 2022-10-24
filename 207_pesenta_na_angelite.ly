@@ -1,108 +1,25 @@
-\version "2.20.0"
+\version "2.22.1"
 
-\paper {
-  #(set-paper-size "a5")
-}
+% include paper part and global functions
+\include "include/globals.ily"
 
 \bookpart {
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
-
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-      ""
-    }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change lyrics and titles font (affects notes also)
-    fonts =
-    #(make-pango-font-tree
-      "Times New Roman"
-      "DejaVu Sans"
-      "DejaVu Sans Mono"
-      (/ (* staff-height pt) 3.6))
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
-  }
-
-  \header {
-    tagline = ##f
-  }
-
-  \score{
-    \layout {
-      indent = 0.0\cm % remove first line indentation
-      %ragged-last = ##t % do not spread last line to fill the whole space
-      \context {
-        \Score
-        \omit BarNumber %remove bar numbers
-      } % context
-
-      \context {
-        % change staff size
-        \Staff
-        fontSize = #+0 % affects notes size only
-        \override StaffSymbol #'staff-space = #(magstep -3)
-        \override StaffSymbol #'thickness = #0.5
-        \override BarLine #'hair-thickness = #1
-        %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
-      }
-
-      \context {
-        % adjust space between staff and lyrics and between the two lyric lines
-        \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
-        \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-      }
-    } % layout
+  \include "include/bookpart-paper.ily"
+  \score {
+    \include "include/score-layout.ily"
 
     \new Voice \absolute {
       \clef treble
       \key c \major
       \time 4/4
-      \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Moderato " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 69)" }
-        }
-      }
+      \tempoFunc "Moderato" 4 "69"
       \autoBeamOff
       e'4  d'4  f'4  e'4 | % 2
       d'8  d'8  c'8  d'8  e'4
       e'4 | % 3
       e'4  d'4  e'4 r4 | % 4
       \time 6/8  | % 4
-      \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "" \normal-text { "" }
-          \teeny \general-align #Y #DOWN \note #"4." #0.8
-          \normal-text { " = 50" }
-        }
-      }
+      \tempoFunc "" 4. "50"
       g'8  g'8 c''8 b'4. \break | % 5
       a'4.  g'4  f'16 ( [  g'16 ) ] | % 6
       a'4 c''8 e''8 ( [ d''8
@@ -112,14 +29,8 @@
       e'4. ( \acciaccatura {  g'8 }  f'4 )
       d'8 \break | % 9
       d'4.  e'4. |
-      r4  g'8  \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Piu mosso" \normal-text { " (" }
-          \teeny \general-align #Y #DOWN \note #"4." #0.8
-          \normal-text { " = 63)" }
-        }
-      }
+      r4  g'8
+      \tempoFunc "Più mosso" 4. "63"
       g'4. ~ ^\< | % 11
       g'4.  g'4. | % 12
       g'4  g'8  g'4  g'8 | % 13
@@ -129,14 +40,7 @@
       f'4. ^\markup{ \italic {poco rall.} }  e'4. r4. \bar
       "||"
       \key es \major \time 4/4 | % 16
-      \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Largo" \normal-text { " (" }
-          \teeny \general-align #Y #DOWN \note #"4." #0.8
-          \normal-text { " = 50)" }
-        }
-      }
+      \tempoFunc "Largo" 4 "46"
       g'8 ^\<  g'8  g'8 c''8 d''8
       es''8 d''8 c''8 ^\! \break | % 17
       \grace {  c''16 ( [  d''16 ] } c''8 ) ^\>
@@ -148,14 +52,7 @@
       f'8  es'8  \bar "||"
       \break | % 19
       \time 6/8  | % 19
-      \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "" \normal-text { " " }
-          \teeny \general-align #Y #DOWN \note #"4." #0.8
-          \normal-text { " = 40" }
-        }
-      }| % 19
+      \tempoFunc "" 4 "46"
       g'4. ^\>  g'4. |
       as''8 ( [ ^\! ^\p g''8 ) ] f''8
       es''8 ( [ d''8 ) ] c''8 | % 21
@@ -179,7 +76,6 @@
       bes'4. r8 r8  as'8 ^\< | % 34
       c''4 ^\! bes'8  as'8 ^\>  g'8
       f'8 | % 35
-
       \times 3/2  {
         es'8   d'8
       }
@@ -204,7 +100,6 @@
       g'4. | % 48
       bes'8 c''8 d''8 | % 49
       es''8 d''8 c''8 \break |
-      \barNumberCheck #50
       g'4 \once \omit TupletBracket
       \times 2/3  {
         as'16 ( [  g'16  f'16 ) ]
@@ -218,7 +113,7 @@
       ( [ d''8 ) ] c''8 \bar "||"
       \break | % 55
       \time 2/4  | % 55
-      \tempo 4.=46 | % 55
+      \tempoFunc "" 4 "46" | % 55
       bes'4 ( \grace {
         c''16 [  bes'16  a'16
         bes'16 ]
@@ -229,14 +124,7 @@
       es'2. r4 \bar "||"
       \break | % 58
       \key e \major \time 3/4 | % 58
-      \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Moderato " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 72)" }
-        }
-      }| % 58
+      \tempoFunc "Moderato" 4 "72"
       b'4. b'8 b'8 b'8 | % 59
       cis''2 b'4 |
       e''4. b'8 \once \omit TupletBracket
@@ -249,14 +137,7 @@
       a'8 ^\< b'8 cis''8 dis''8
       dis''2 e''2 ^\! ^\> \bar "||"
       \key b \major \time 2/4 | % 63
-      \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Meno mosso " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 52)" }
-        }
-      }| % 63
+      \tempoFunc "Meno mosso" 4. "52"
       dis''8 ( [ _\! e''8 ] fis''8 [
       gis''8 ] | % 64
       cis''8 [ dis''8 ) ] e''4 | % 65
@@ -268,14 +149,8 @@
       ( [ b'8 ) ]  b'8 ( [  ais'8 ) ] | % 68
       gis'8 ( [  ais'8 ) ] b'4 \bar "||"
       \time 9/8  | % 69
-      dis''8 ( [  e''8     \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Più mosso " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 104)" }
-        }
-      }
+      dis''8 ( [  e''8
+      \tempoFunc "Più mosso" 4. "104"
       dis''8 ] e''8 [
       fis''8 e''8 ) ] fis''8 ( [ gis''8
       fis''8 ) ] \break |
@@ -292,14 +167,7 @@
       b'8 ) ( [
       ais'8 ) ] b'4. \break | % 73
       \time 4/4  | % 73
-      \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Moderato " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 80)" }
-        }
-      } | % 73
+      \tempoFunc "Moderato" 4 "80"
       dis''16 ( [ cis''16 dis''16
       e''16 ] fis''16 [ e''16 fis''16
       gis''16 ] ais''16 [ gis''16
@@ -312,25 +180,17 @@
       -. \grace {  cis''16 ( [  dis''16 ] } cis''8
       ) b'8 \break | % 75
       b'8  ais'8 b'4 r8
-      b'8    \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Meno " \normal-text { "(" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 60)" }
-        }
-      } ^\< | % 76
-      \time 2/4  | % 76
+      b'8
+       \tempoFunc "Meno" 4 "60"
+       \time 2/4  | % 76
       cis''8 dis''8 e''8. cis''16
       | % 77
       \time 4/4  | % 77
       fis''4. fis''8 ^\! <\parenthesize b'
       b''>2 ^\ppp ^\> \bar "|."
-
-
     }
 
-    \addlyrics {
+   \addlyrics {
       А
       -- ко бя -- ха ва -- ши -- те у -- ши
       от -- во -- ре -- ни, щях -- те да
@@ -415,25 +275,20 @@
         -- shta, na na -- shi -- ya Ve -- lik Ba
         -- shta.}
 
-        \header {
-          title = \markup \column \normal-text \fontsize #2.5 {
-            \center-align
-            \line {Песента на ангелите}
-            \vspace #-0.6
-            \center-align
-            \line \fontsize #-3 { Pesenta na angelite }
-            \vspace #-0.8
-            \center-align
-            \line \fontsize #-3 { " " }
-          }
-        }
+    \header {
+      title = \titleFunc "Песента на ангелите" "Pesenta na angelite"
+    }
 
-        \midi{}
+    \midi{}
 
-      } % score
+  } % score
 
 
-      % include foreign translation(s) of the song
-      \include "lyrics_de/207_pesenta_na_angelite_lyrics_de.ly"
 
-    } % bookpart
+  % include foreign translation(s) of the song
+   \include "lyrics_de/207_pesenta_na_angelite_lyrics_de.ly"
+
+} % bookpart
+
+% Più mosso
+%
