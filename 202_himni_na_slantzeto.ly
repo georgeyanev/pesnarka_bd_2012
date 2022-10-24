@@ -1,94 +1,18 @@
-\version "2.20.0"
+\version "2.22.1"
 
-\paper {
-  #(set-paper-size "a5")
-}
+% include paper part and global functions
+\include "include/globals.ily"
 
 \bookpart {
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
-
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-      ""
-    }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change lyrics and titles font (affects notes also)
-    fonts =
-    #(make-pango-font-tree
-      "Times New Roman"
-      "DejaVu Sans"
-      "DejaVu Sans Mono"
-      (/ (* staff-height pt) 3.6))
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
-  }
-
-  \header {
-    tagline = ##f
-  }
-
-  \score{
-    \layout {
-      indent = 0.0\cm % remove first line indentation
-      %ragged-last = ##t % do not spread last line to fill the whole space
-      \context {
-        \Score
-        %\omit BarNumber %remove bar numbers
-      } % context
-
-      \context {
-        % change staff size
-        \Staff
-        fontSize = #+0 % affects notes size only
-        \override StaffSymbol #'staff-space = #(magstep -3)
-        \override StaffSymbol #'thickness = #0.5
-        \override BarLine #'hair-thickness = #1
-        %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
-      }
-
-      \context {
-        % adjust space between staff and lyrics and between the two lyric lines
-        \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
-        \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-      }
-    } % layout
+  \include "include/bookpart-paper.ily"
+  \score {
+    \include "include/score-layout.ily"
 
     \new Voice \relative c' {
-      \clef treble
+     \clef treble
       \key c \major
       \time 6/4
-      \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Andantino" \normal-text { " (" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 72)" }
-        }
-      }
+      \tempoFunc "Andantino" 4 "72"
       \autoBeamOff
     a2.^\pp  a2 ^\fermata  a4^\p | % 2
   \time 4/4  | % 2
@@ -120,8 +44,8 @@
    b2 \! \>  a4  g4 | % 18
    f2.  g4 | % 19
    e2 \! r2 \bar "||"
-  \break | \barNumberCheck #20
-  \time 6/4  | \barNumberCheck #20
+  \break | 
+  \time 6/4  | 
    bes2.^\pp  a2 ^\fermata  a4 | % 21
   \time 4/4  | % 21
    a'4 (  g4 )  e2 | % 22
@@ -191,9 +115,9 @@
    a2. \bar "||"
   r2  d4 ^\< | % 68
    e2  f4 | % 69
-   a4.  bes8  a4 ~ \pageBreak |
-  \barNumberCheck #70
-   a2  g4 | % 71
+   a4.  bes8  a4 ~  |
+ 
+   a2  g4 | \break % 71
    a4  a4  a4 | % 72
    d2. ~ \! | % 73
    d4 r4  f,4 ^\< \break | % 74
@@ -213,12 +137,12 @@
    
     }
 
-    \addlyrics { Бу -- дя. Из -- гря -- ва мо -- е --
+     \addlyrics { Бу -- дя. Из -- гря -- ва мо -- е --
   то Слън -- це във мо -- я -- та ду
   -- ша. Да се сла  -- ви И -- ме --
   то Бо -- жи -- е. Бу -- диш. Из --
   гря -- ва Бо -- жи -- е -- то Слън 
-  -- це в‿мен, във сър -- це --
+  -- це в~мен, във сър -- це --
   то. Да дой -- де Цар -- ство -- то
   Бо -- жи -- е. Бу -- ди. Из -- гря
   -- ва Слън -- це -- то  на
@@ -252,7 +176,7 @@
   -- sha. Da se sla  -- vi I -- me --
   to Bo -- zhi -- e. Bu -- dish. Iz --
   grya -- va Bo -- zhi -- e -- to Slan 
-  -- tse v‿men, vav sar -- tse --
+  -- tse v~men, vav sar -- tse --
   to. Da doy -- de Tsar -- stvo -- to
   Bo -- zhi -- e. Bu -- di. Iz -- grya
   -- va Slan -- tse -- to  na
@@ -277,16 +201,7 @@
   -- ve i Svo -- bo -- da!  }
 
     \header {
-      title = \markup \column \normal-text \fontsize #2.5 {
-        \center-align
-        \line { Химни на Слънцето }
-        \vspace #-0.6
-        \center-align
-        \line \fontsize #-3 { Himni na slantseto }
-        \vspace #-0.8
-        \center-align
-        \line \fontsize #-3 { " " }
-      }
+      title = \titleFunc "Химни на Слънцето" "Himni na slantseto"
     }
 
     \midi{}
@@ -295,8 +210,10 @@
 
 
 
-
   % include foreign translation(s) of the song
   \include "lyrics_de/202_himni_na_slantseto_lyrics_de.ly"
 
 } % bookpart
+
+% Più mosso
+%
