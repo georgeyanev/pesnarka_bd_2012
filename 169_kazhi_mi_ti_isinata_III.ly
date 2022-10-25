@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -12,7 +12,7 @@
       \clef treble
       \key g \major
       \time 3/4
-      \tempoFunc "Lento" "4" "50"
+      \tempoFunc "Lento" 4 "50"
       \autoBeamOff
         
       \partial 4
@@ -45,7 +45,7 @@
 
       \alternative {
         {
-          b'8 ->  b'4.  a'4. g'8 --
+          b'8 ->  b'4.  a'4.\prall g'8 --
         }
         {
           b'8  b'4.  a'4.  g'8
@@ -94,7 +94,7 @@
 
   } % score
 
-
+  \markup \empty-two
 
   % include foreign translation(s) of the song
   \include "lyrics_de/169_Kazhi_mi_ti_isinata_III_lyrics.de.ly"
