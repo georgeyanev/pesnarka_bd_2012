@@ -12,9 +12,9 @@
       \clef treble
       \key a \minor
       \time 3/4
-      \tempoFunc "Moderato" 4 "69"
+      \tempoFunc "Moderato" 4 "80"
       \autoBeamOff
-     
+
       a'2 e'4 | % 2
       a'2 e'4 | % 3
       a'2. | % 4
@@ -27,7 +27,7 @@
       e'2. | % 11
       d'4 ( e'4 ) f'4 | % 12
       e'2. | % 13
-     \tempo "rit."  d'4  ( e'4 ) f'4 | % 14
+      \tempo "rit."  d'4  ( e'4 ) f'4 | % 14
       e'2.\bar "|."
 
     }
@@ -41,19 +41,19 @@
         v_men vse -- li.}
 
 
-    \header {
-      title = \titleFunc "Милост, благост" "Milost, blagost"
-    }
+        \header {
+          title = \titleFunc "Милост, благост" "Milost, blagost"
+        }
 
-    \midi{}
+        \midi{}
 
-  } % score
+      } % score
 
+      \markup \dc-one "D.C."
 
+      % include foreign translation(s) of the song
+      \include "lyrics_de/171_2_milost_blagost_lyrics_de.ly"
 
-  % include foreign translation(s) of the song
-  \include "lyrics_de/171_2_milost_blagost_lyrics_de.ly"
-
-} % bookpart
+    } % bookpart
 
 
