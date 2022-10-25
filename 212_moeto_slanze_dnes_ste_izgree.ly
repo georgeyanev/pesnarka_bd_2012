@@ -1,95 +1,20 @@
-\version "2.20.0"
+\version "2.22.1"
 
-\paper {
-  #(set-paper-size "a5")
-}
+% include paper part and global functions
+\include "include/globals.ily"
 
 \bookpart {
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
-
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-      ""
-    }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change lyrics and titles font (affects notes also)
-    fonts =
-    #(make-pango-font-tree
-      "Times New Roman"
-      "DejaVu Sans"
-      "DejaVu Sans Mono"
-      (/ (* staff-height pt) 3.6))
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
-  }
-
-  \header {
-    tagline = ##f
-  }
-
-  \score{
-    \layout {
-      indent = 0.0\cm % remove first line indentation
-      %ragged-last = ##t % do not spread last line to fill the whole space
-      \context {
-        \Score
-        \omit BarNumber %remove bar numbers
-      } % context
-
-      \context {
-        % change staff size
-        \Staff
-        fontSize = #+0 % affects notes size only
-        \override StaffSymbol #'staff-space = #(magstep -3)
-        \override StaffSymbol #'thickness = #0.5
-        \override BarLine #'hair-thickness = #1
-        %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
-      }
-
-      \context {
-        % adjust space between staff and lyrics and between the two lyric lines
-        \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4.5))
-        \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-      }
-    } % layout
+  \include "include/bookpart-paper.ily"
+  \score {
+    \include "include/score-layout.ily"
 
     \new Voice \absolute {
       \clef treble
       \key d \minor
       \time 9/16
-      \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          "Moderato" \normal-text { " (" }
-          \teeny \general-align #Y #DOWN \note #"4" #0.8
-          \normal-text { " = 80)" }
-        }
-      }
+      \tempoFunc "Maestoso" 8 "132"
       \autoBeamOff
+
       d'8 ^\p  d'8 ^\<  f'8  a'8. | % 2
       d''8 ~   d''8  d''8 ~  d''8.
       | % 3
@@ -131,7 +56,7 @@
       cis''8. (   d''8 )  e''8.  | % 28
       d''8. ~   d''8 ~  d''8.  \bar "||"
       \break | % 29
-      g'8. ^\markup{ \bold {Moderato} } ^\<  a'8
+      g'8. \tempo "Moderato" ^\<  a'8
       bes'8. |
       cis''8.  d''8 ~   d''8.  | % 31
       e''8 (  ^\!  f''16 )   g''16 (
@@ -153,7 +78,7 @@
       a'8. ~   a'8 ~  a'8.  ^\! \bar "||"
       \break | % 41
       \key bes \major | % 41
-      a'8. ^\p ^\markup{ \bold {Allegro} }  es''8
+      a'8. ^\p \tempo "Allegro"  es''8
       d''8. | % 42
       cis''8.  d''8 ~   d''8.  | % 43
       cis''8.  bes'8  a'8. | % 44
@@ -168,7 +93,7 @@
       ] f''8. ~ \break | % 49
       f''8. ~   f''8 ~  f''8.  |
       e''8 (   d''16 )  d''8 ~  d''8.
-       | % 51
+      | % 51
       g''8 (  f''16 )  e''8 (  d''8.
       )  | % 52
       cis''8.   cis''8 (  bes'8. )  \break | % 53
@@ -176,9 +101,10 @@
       a'8. ~   a'8 ~  a'8.  | % 55
       R2 \bar "||"
       \time 9/16  | % 56
+      \tempo "(Tempo I)"
       d'8 ^\<  d'8  f'8  a'8. \break | % 57
       d''8 ~  ^\!  d''8  d''8 ~  d''8.
-       | % 58
+      | % 58
       \time 8/16  | % 58
       g''8.  g''16 ( [  a''16 ) ]
       bes''32 ( ^\fermata [  a''32  g''32  f''32
@@ -187,7 +113,7 @@
       d''8 ) ~  d''8. \break |
       cis''8.  bes'8 ( ~   bes'8.  ^\> | % 61
       a'16 [  bes'16  cis''16 ]  d''16
-      [  cis''16 ]  bes'16 [  a'16 )  ] g'16 
+      [  cis''16 ]  bes'16 [  a'16 )  ] g'16
       | % 62
       bes'8.  a'8 ~   a'8. \break | % 63
       a'8. ^\!  a'8  f''8. ~ | % 64
@@ -271,16 +197,7 @@
     }
 
     \header {
-      title = \markup \column \normal-text \fontsize #2.5 {
-        \center-align
-        \line { Моето слънце днес ще изгрее }
-        \vspace #-0.6
-        \center-align
-        \line \fontsize #-3 { Moeto slantse dnes ste izgree }
-        \vspace #-0.8
-        \center-align
-        \line \fontsize #-3 { " " }
-      }
+      title = \titleFunc "Моето слънце днес ще изгрее" "Moeto slantse dnes ste izgree"
     }
 
     \midi{}
@@ -293,3 +210,6 @@
   \include "lyrics_de/212_moeto_slunce_dnes_ste_izgree_lyrics_de.ly"
 
 } % bookpart
+
+% Più mosso
+%
