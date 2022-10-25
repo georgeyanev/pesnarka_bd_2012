@@ -55,7 +55,7 @@
       \break | % 19
       \time 9/8  | % 19
       | % 19
-   \tempoFunc "Allegretto" 4 "160"
+      \tempoFunc "Allegretto" 4 "160"
       bes'4 bes'8 bes'8  a'4
       bes'4. |
       a'4  g'4  a'4  g'4. | % 21
@@ -66,7 +66,7 @@
       d'4  c'4  d'4  d'4. | % 25
       c'4  c'4  d'4  es'4. \pageBreak | % 26
       d'4  c'4  d'4  d'4. | % 27
-   \tempoFunc "Meno mosso" 4 "144"
+      \tempoFunc "Meno mosso" 4 "144"
       bes'4 bes'8 bes'8  a'4
       bes'4. | % 28
       a'4  g'4  a'4  g'4. \break | % 29
@@ -75,7 +75,8 @@
       d'2. ~  d'4. \bar "|."
     }
 
-    \addlyrics { Бо -- жи -- е -- то Слън -- це гре --
+    \addlyrics {
+      Бо -- жи -- е -- то Слън -- це гре --
       е днес, Бо -- жи -- е -- то Слън --
       це гре -- е днес. Ду -- хай, вет
       -- ре, ти -- хо ду  -- хай, ти
@@ -93,39 +94,40 @@
       чи, да се у -- чи. Хай ди ди ди
       ди, да си и -- ди, да си и -- ди,
       До -- бро да ви -- ди.}
-    \addlyrics {      Bo -- zhi -- e -- to Slan -- tse gre --
-      e dnes, Bo -- zhi -- e -- to Slan --
-      tse gre -- e dnes. Du -- hay, vet
-      -- re, ti -- ho du  -- hay, ti
-      -- ho du  -- hay, mi -- lo gle
-      -- day, ti -- ho du  -- hay,
-      lis -- ti raz  -- viy. List raz
-      -- vya  -- vay, tsvyat raz -- tva
-      -- ryay, tsvyat raz -- tva  --
-      ryay, plod raz -- da  -- vay,
-      tsvyat raz -- tva  -- ryay, plod
-      raz -- da  -- vay. Hay di di di
-      di, da si i -- di. Hay di di di
-      di, da se u -- chi, da se u -- chi,
-      da po -- lu -- chi, da po -- lu --
-      chi, da se u -- chi. Hay di di di
-      di, da si i -- di, da si i -- di,
-      Do -- bro da vi -- di.}
+      \addlyrics {
+        Bo -- zhi -- e -- to Slan -- tse gre --
+        e dnes, Bo -- zhi -- e -- to Slan --
+        tse gre -- e dnes. Du -- hay, vet
+        -- re, ti -- ho du  -- hay, ti
+        -- ho du  -- hay, mi -- lo gle
+        -- day, ti -- ho du  -- hay,
+        lis -- ti raz  -- viy. List raz
+        -- vya  -- vay, tsvyat raz -- tva
+        -- ryay, tsvyat raz -- tva  --
+        ryay, plod raz -- da  -- vay,
+        tsvyat raz -- tva  -- ryay, plod
+        raz -- da  -- vay. Hay di di di
+        di, da si i -- di. Hay di di di
+        di, da se u -- chi, da se u -- chi,
+        da po -- lu -- chi, da po -- lu --
+        chi, da se u -- chi. Hay di di di
+        di, da si i -- di, da si i -- di,
+        Do -- bro da vi -- di.}
 
-    \header {
-      title = \titleFunc "Духай ветре II" "Duhai vetre II"
-    }
+        \header {
+          title = \titleFunc "Духай ветре II" "Duhai vetre II"
+        }
 
-    \midi{}
+        \midi{}
 
-  } % score
+      } % score
 
-  \markup \empty-two
+      \markup \empty-two
 
-  % include foreign translation(s) of the song
-  \include "lyrics_de/161_duhai_vetre_ii_lyrics_de.ly"
+      % include foreign translation(s) of the song
+      \include "lyrics_de/161_duhai_vetre_ii_lyrics_de.ly"
 
-} % bookpart
+    } % bookpart
 
-% Più mosso
-%
+    % Più mosso
+    %
