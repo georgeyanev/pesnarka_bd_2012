@@ -1,24 +1,22 @@
-\version "2.20.0"
+\version "2.22.1"
 
-\markup \fill-line { \fontsize #6 "Die Morgenröte des neuen Lebens" }
+\markup \fill-line { \fontsize #deTitleFontSize "Morgenröte des neuen Lebens" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
+\markup \fontsize #deCoupletFontSize {
   \hspace #10
-  \override #'(baseline-skip . 2)
-
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
     \line { " " }
+    \line { " " Die wunderbare Morgenröte bricht an,}
 
- \line { " " Die wunderbare Morgenröte bricht an,}
+    \line { " " die Morgenröte des neuen Lebens,}
 
- \line { " " die Morgenröte des neuen Lebens,}
+    \line { " " die mich im Leben ruft.}
 
- \line { " " die mich im Leben ruft.}
+    \line { " " Die wunderbare Morgenröte bricht an,}
 
- \line { " " Die wunderbare Morgenröte bricht an,}
-
- \line { " " die Morgenröte des neuen Lebens.}
+    \line { " " die Morgenröte des neuen Lebens.}
 
   }
 }
