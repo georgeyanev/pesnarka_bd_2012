@@ -1,36 +1,36 @@
-\version "2.20.0"
+\version "2.22.1"
 
-\markup \fill-line { \fontsize #6 "Herr, wie sehr liebe ich Dich" }
+\markup \fill-line { \fontsize #deTitleFontSize "Herr, wie sehr ich Dich liebe" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-  \hspace #10
-  \override #'(baseline-skip . 2)
+\markup \fontsize #deCoupletFontSize {
+  \hspace #16
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
     \line { " " }
 
-\line { " "Herr und Gott, wie sehr liebe ich Dich!}
+    \line { " "Herr und Gott, wie sehr liebe ich Dich!}
 
-\line { " "Gott, Mein Herr, wie sehr liebe ich Dich!}
+    \line { " "Gott, Mein Herr, wie sehr liebe ich Dich!}
 
-\line { " "Ich liebe Dich, Herr.}
+    \line { " "Ich liebe Dich, Herr.}
 
-\line { " "Ich liebe Deine Bäumchen, }
+    \line { " "Ich liebe Deine Bäumchen, }
 
-\line { " "ich liebe Deine Blümchen,}
+    \line { " "ich liebe Deine Blümchen,}
 
-\line { " "ich liebe Deine Bäche,}
+    \line { " "ich liebe Deine Bäche,}
 
-\line { " "ich liebe Deine Berge.}
+    \line { " "ich liebe Deine Berge.}
 
-\line { " "Herr, ich liebe alles,}
+    \line { " "Herr, ich liebe alles,}
 
-\line { " "was Du erschaffen hast.}
+    \line { " "was Du erschaffen hast.}
 
-\line { " "Ich liebe Dich, ich liebe dich,}
+    \line { " "Ich liebe Dich, ich liebe dich,}
 
-\line { " "ich liebe dich Herr!}
+    \line { " "ich liebe dich Herr!}
 
   }
 }
