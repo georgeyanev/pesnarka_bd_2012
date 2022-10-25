@@ -12,8 +12,8 @@
       \clef treble
       \key c \major
       \time 2/4
-      \tempoFunc "Moderato " 4 "69"
-         \autoBeamOff
+      \tempoFunc "Moderato " 4 "72"
+      \autoBeamOff
       bes4 (  d'4 )  f'2 | % 2
       g'8 ( [  a'8  bes'8  g'8 ) ]  f'2
       | % 3
@@ -31,7 +31,6 @@
       a'8 ( [  bes'8 ) ]  g'2 | % 9
       \time 4/4  | % 9
       bes'4  a'4  g'4  f'4 |
-      \barNumberCheck #10
       c''4 (  bes'8 [  a'8 ) ]  bes'2 | % 11
       \time 3/4  | % 11
       bes'8 ( [  c''8 ])   d''4  es''4
@@ -46,8 +45,8 @@
       bes'2. r4 \break
       \repeat volta 2 {
         | % 16
-         \tempoFunc "Poco piu mosso" 4 "92"
-  
+        \tempoFunc "Poco piu mosso" 4 "92"
+
         f''4.  d''8  es''4  c''4 | % 17
         d''4.  bes'8  c''4  a'4 \break | % 18
         bes'8  bes'8  c''8  c''8
@@ -57,7 +56,7 @@
       }
     }
 
-    \addlyrics { 
+    \addlyrics {
       Вя -- ра свет --   ла,
       вя -- ра сил --   на!
       Тя во -- ди нас към Бо --
@@ -68,7 +67,8 @@
       -- но грей. Вя -- ра свет -- ла,
       вя -- ра сил -- на! Тя кре -- пи
       Ду -- ха, що Жи -- вот но -- си.}
-    \addlyrics {    Vya -- ra svet --   la,
+      \addlyrics {
+        Vya -- ra svet --   la,
         vya -- ra sil --   na!
         Tya vo -- di nas kam Bo --
         ga, bla -- go -- to na Zhi -- vo
@@ -79,20 +79,20 @@
         vya -- ra sil -- na! Tya kre -- pi
         Du -- ha, shto Zhi -- vot no -- si.}
 
-    \header {
-      title = \titleFunc "Вяра светла II " "Vyara svetla II "
-    }
+        \header {
+          title = \titleFunc "Вяра светла II " "Vyara svetla II "
+        }
 
-    \midi{}
+        \midi{}
 
-  } % score
+      } % score
 
 
 
-  % include foreign translation(s) of the song
-   \include "lyrics_de/170_2_vyra_svetla_II_lyrics_de.ly"
+      % include foreign translation(s) of the song
+      \include "lyrics_de/170_2_vyra_svetla_II_lyrics_de.ly"
 
-} % bookpart
+    } % bookpart
 
-% Più mosso
-%
+    % Più mosso
+    %
