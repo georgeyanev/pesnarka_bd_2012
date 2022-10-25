@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.1"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -12,7 +12,7 @@
       \clef treble
       \key d \minor
       \time 2/4
-      \tempoFunc "Moderato" "4" "69"
+      \tempoFunc "Andante" 4 "66"
             \autoBeamOff
       \repeat volta 2 {
         r4  d'8  d'8 | % 2
@@ -51,7 +51,7 @@
 
   } % score
 
-
+  \markup \empty-three
 
   % include foreign translation(s) of the song
   \include "lyrics_de/169_2_svoboda_e_potrebna_sa_dushata_lyrics_de.ly"
