@@ -18,7 +18,7 @@
       d'8  fis'8 | \repeat volta 2 {
         a'4  % 2
         a'2 | % 3
-        \time 2/4 b'4.  a'8 |  \time 3/4 g'8 ( [  a'8 ])  | % 4
+        \time 2/4 b'4.  a'8 | \time 3/4 g'8 ( [  a'8 ])  % 4
         fis'2 | % 5
         \time 2/4 a'4 b'4  | % 6
         a'4  g'4 \break | % 7
@@ -32,6 +32,7 @@
         {\time 3/4 fis'2 d'8 fis'8}
         { fis'2}
       }
+      \bar "|."
     }
 
     \addlyrics {
@@ -48,7 +49,7 @@
 
       } % score
 
-
+      \markup \empty-three
 
       % include foreign translation(s) of the song
       \include "lyrics_de/171_1_vyara_svetla_III.ly"
