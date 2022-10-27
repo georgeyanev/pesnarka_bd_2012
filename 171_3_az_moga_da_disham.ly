@@ -52,6 +52,9 @@
 
       } % score
 
+
+      \markup \empty-two
+
       % include foreign translation(s) of the song
       \include "lyrics_de/171_3_az_moga_da_disham_dobre_lyrics_de.ly"
 
