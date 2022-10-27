@@ -125,42 +125,36 @@
   } % score
   %\markup \dc-two "D.C." "con repetitione"
 
-  \pageBreak
+
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #0
+    \hspace #-2
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line {   2. Нежни цветя край него цъфтят,}
       \line {   "   "  приказки чудни тихо редят,  }
       \line {   "   " нимфи игриви тук танци плетат,}
       \line {   "   " вгубера росен стъпки трептят. }
-      \line {   "   "  Нощем се оглеждат в извора }
-      \line {   "   "  звезди.}
-      \line {   "   "   И блика, дава  той без спир,}
+      \line {   "   "  Нощем се оглеждат в извора  звезди.}
+      \line {   "   "  И блика, дава  той без спир,}
       \line {   "   "  тъй дава Любовта. }
-      \line {   "   "   В сърцето на човека изгрява }
-      \line {   "   "   Радостта.}
+      \line {   "   "   В сърцето на човека изгрява Радостта.}
     }
 
-    \hspace #3
+    \hspace #0
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line {   2. Nezhni tsvetya kray nego tsaftyat,}
       \line {   "   "  prikazki chudni tiho redyat,  }
       \line {   "   " nimfi igrivi tuk tantsi pletat,}
       \line {   "   " vgubera rosen stapki treptyat. }
-      \line {   "   "  Noshtem se oglezhdat v izvora }
-      \line {   "   "  zvezdi.}
+      \line {   "   "  Noshtem se oglezhdat v izvora  zvezdi. }
       \line {   "   "   I blika, dava  toy bez spir,}
       \line {   "   "  tay dava Lyubovta. }
-      \line {   "   "   V sartseto na choveka izgryava }
-      \line {   "   "   Radostta.}
+      \line {   "   "   V sartseto na choveka izgryava Radostta.}
     } %column
   } % markup
 
-  \markup \empty-three
-  \markup \empty-two
 
   % include foreign translation(s) of the song
   \include "lyrics_de/165_malkiyat_planinski_izvor_lyrics_de.ly"

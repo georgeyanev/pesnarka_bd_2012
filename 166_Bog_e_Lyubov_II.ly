@@ -100,10 +100,7 @@
         | % 49
         e'4  d'8.  c'16 |
         c'2
-
-
       }
-
     }
 
     \addlyrics {
@@ -159,7 +156,7 @@
 
       } % score
 
-      \markup \empty-three
+
 
       % include foreign translation(s) of the song
       \include "lyrics_de/166_bog_e_lyubov_lyrics_de.ly"

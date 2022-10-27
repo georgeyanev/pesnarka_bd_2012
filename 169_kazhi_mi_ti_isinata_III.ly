@@ -94,7 +94,7 @@
 
   } % score
 
-  \markup \empty-two
+
 
   % include foreign translation(s) of the song
   \include "lyrics_de/169_Kazhi_mi_ti_isinata_III_lyrics.de.ly"

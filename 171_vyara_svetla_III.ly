@@ -49,7 +49,7 @@
 
       } % score
 
-      \markup \empty-three
+    
 
       % include foreign translation(s) of the song
       \include "lyrics_de/171_1_vyara_svetla_III.ly"
