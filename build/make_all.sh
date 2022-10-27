@@ -131,6 +131,13 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../165_malkiyat_planinski_izvor.ly \
     ../166_Bog_e_Lyubov.ly \
     ../167_Kam_fir_fur_fen.ly \
+    ../167_2_kazhi_mi_svetal_bozhii_lach.ly \
+    ../168_kazhi_mi_ti_istinata_II.ly \
+    ../169_2_svoboda_e_potrebna_za_dushata.ly \
+    ../169_kazhi_mi_ti_isinata_III.ly \
+    ../170_1_vyara_svetla_1.ly \
+    ../170_2_vyara_svetla_II.ly \
+    ../171_vyara_svetla_III.ly \
     > tmp.ly
 
 lilypond --include=../ -o pesn_all tmp.ly
