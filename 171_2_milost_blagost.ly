@@ -51,6 +51,9 @@
 
       \markup \dc-one "D.C."
 
+      \markup \empty-two
+
+
       % include foreign translation(s) of the song
       \include "lyrics_de/171_2_milost_blagost_lyrics_de.ly"
 
