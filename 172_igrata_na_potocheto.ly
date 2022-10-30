@@ -4,7 +4,43 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \include "include/bookpart-paper.ily"
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 10.5)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 10.5))
+  }
+
+  \header {
+    tagline = ##f
+  }
+
   \score {
     \include "include/score-layout.ily"
 
@@ -13,9 +49,9 @@
       \key g \major
       \time 2/4
       \tempoFunc "Moderato" 4 "69"
-      \autoBeamOff
+      %\autoBeamOff
       d''4. cis''16 d''16 | % 2
-      e''8 d''8 d''8 c''8 | % 3
+      e''8 d''8 d''8 c''!8 | % 3
       c''8 b'8 b'8 a'8 | % 4
       a'8 g'8 g'8 fis'8 \break | % 5
       a'16 g'16 fis'16 e'16 d'8 c'8 | % 6
@@ -50,7 +86,7 @@
       g'2 \break | % 34
       d'8 g'8 g'8 fis'8 | % 35
       fis'8 e'8 e'8 e'8 | % 36
-      \time 3/4  g'16 fis'16 e'16 d'16 c'8 c'8 c'8 c'8 | % 37
+      \time 3/4  g'16 fis'16 e'16 d'16 \autoBeamOff c'8 [c'8] c'8 [c'8] | \autoBeamOn % 37 
       \time 2/4  e'8 d'8 d'4 \break | % 38
       \repeat volta 2 {
         a8 b8 c'8 d'8 | % 39
@@ -60,8 +96,8 @@
       }
     }
 
-    \addlyrics {}
-    \addlyrics {}
+    %\addlyrics {}
+    %\addlyrics {}
 
     \header {
       title = \titleFunc "Играта на поточето" "Igrata na potocheto"
@@ -71,6 +107,7 @@
 
   } % score
 
+  \markup \dc-one "D. C."
 
   % include foreign translation(s) of the song
  % \include "lyrics_de/000_empty_template_lyrics_de.ly"
