@@ -64,7 +64,6 @@
 
       } % score
 
-      \markup \empty-two
       % include foreign translation(s) of the song
       \include "lyrics_de/167_2_kazhi_mi_svetli_bozhi_lach_lyrics_de.ly"
 
