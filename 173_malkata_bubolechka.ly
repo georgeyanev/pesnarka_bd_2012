@@ -65,50 +65,73 @@
         mi shto lyu -- bi i kop -- ney.}
 
         \header {
-          title = \titleFunc "Малката буболечка" "Malkata bubolechka"
+          title = \titleFunc "Малката буболечица" "Malkata bubolechitsa"
         }
 
         \midi{}
 
       } % score
-      \pageBreak
+      \markup \empty-one
       \markup \fontsize #bgCoupletFontSize {
-        \hspace #-5
+        \hspace #1
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
         \column {
           \line {    2. Тъй буболечката шепти }
-          \line {   "   " и се стреми по нанагорния път, }
-          \line {   "   " и пречките една след друга побеждава. }
-          \line {   "   " Безброй скали, поля, долини смело преминава }
-          \line {   "   "  и все напред се тя към върха възвисява. }
-          \line {   "   "}
-
-
-          \line {    3. Тъй векове безброй летят }
-          \line {   "   "  и времето я преобразява. }
-          \line {   "   "  И тъй порасна тя – девица мила, }
-          \line {   "   "  чиста роса, душа красива. Творение на Бога}
-          \line {   "   "  разлива Мир и светла Радост по света. }
+          \line {   "   " и се стреми по нанагорния }
+          \line {   "   " път, }
+          \line {   "   " и пречките една след друга }
+          \line {   "   " побеждава. }
+          \line {   "   " Безброй скали, поля, долини }
+          \line {   "   " смело преминава }
+          \line {   "   " и все напред се тя към върха }
+          \line {   "   " възвисява. }
         }
 
-        \hspace #-5
+        \hspace #7
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
         \column {
           \line {    2. Tay bubolechkata shepti }
-          \line {   "   " i se stremi po nanagornia pat, }
-          \line {   "   " i prechkite edna sled druga pobezhdava. }
-          \line {   "   " Bezbroy skali, polya, dolini smelo preminava }
-          \line {   "   "  i vse napred se tya kam varha vazvisyava. }
-          \line {   "   "}
-          \line {    3. Tay vekove bezbroy letyat }
-          \line {   "   "  i vremeto ya preobrazyava. }
-          \line {   "   "  I tay porasna tya – devitsa mila, }
-          \line {   "   "  chista rosa, dusha krasiva.  Tvorenie na Boga,}
-          \line {   "   "  razliva Mir i svetla Radost po sveta. }
+          \line {   "   " i se stremi po nanagornia }
+          \line {   "   " pat, }
+          \line {   "   " i prechkite edna sled druga }
+          \line {   "   " pobezhdava. }
+          \line {   "   " Bezbroy skali, polya, dolini }
+          \line {   "   " smelo preminava }
+          \line {   "   " i vse napred se tya kam varha }
+          \line {   "   " vazvisyava. }
         } %column
       } % markup
 
       \pageBreak
+
+      \markup \fontsize #bgCoupletFontSize {
+        \hspace #1
+        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+        \column {
+          \line {    3. Тъй векове безброй летят }
+          \line {   "   "  и времето я преобразява. }
+          \line {   "   "  И тъй порасна тя – девица мила, }
+          \line {   "   "  чиста роса, душа красива.}
+          \line {   "   "  Творение на Бога, }
+          \line {   "   "  разлива Мир и светла Радост }
+          \line {   "   "  по света. }
+        }
+
+        \hspace #4
+        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+        \column {
+          \line {    3. Tay vekove bezbroy letyat }
+          \line {   "   "  i vremeto ya preobrazyava. }
+          \line {   "   "  I tay porasna tya – devitsa mila, }
+          \line {   "   "  chista rosa, dusha krasiva. }
+          \line {   "   "  Tvorenie na Boga, }
+          \line {   "   "  razliva Mir i svetla Radost }
+          \line {   "   "  po sveta. }
+        } %column
+      } % markup
+
+
+      \markup \empty-three
 
       % include foreign translation(s) of the song
       \include "lyrics_de/173_malkata_bubolechiza_lyrics.de.ly"
