@@ -22,11 +22,11 @@
       e'2 | % 7
       c''4  b'8. ais'16 \break | % 8
       b'4. e'8 | % 9
-      a'4  g'8. ( fis'16 ) |
+      a'4  g'8. [( fis'16 )] |
       e'2 | % 11
       c''4  b'8. ais'16 | % 12
       b'4. e'8 | % 13
-      fis'8 ( a'8 ) g'8 ( fis'8 ) | % 14
+      fis'8 ([ a'8 ]) g'8 ( [fis'8] ) | % 14
       e'2 \bar "|."
     }
 
@@ -50,7 +50,7 @@
       } % score
 
 
-
+      \markup \empty-two
       % include foreign translation(s) of the song
       \include "lyrics_de/174_radost_lyrics_de.ly"
 

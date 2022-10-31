@@ -1,10 +1,10 @@
 \version "2.22.1"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Zaglavie DE" }
+\markup \fill-line { \fontsize #deTitleFontSize "Freude" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
-  \hspace #10
+  \hspace #16
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
