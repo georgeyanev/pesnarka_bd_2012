@@ -23,9 +23,8 @@
       b'4 ( ~  b'16 [  a'16 ] )   g'16 ( [
       f'16 ] )  | % 5
       e'2 r8  e'8  a'8  c''8 \break | % 6
-      e''4.  d''8 \times 2/3 {
-        % Триолата да дойде отгоре.
-        c''8 ( [  b'8 ])  a'8
+      e''4.  d''8 \tweak direction #up \times 2/3 {
+        \once \override Slur.positions = #'(1 . 1) c''8 ( [  b'8 ])  a'8
       }
       g'16  f'16  e'16  d'16 | % 7
       f'2  e'2 | % 8
