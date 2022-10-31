@@ -40,12 +40,12 @@
     \addlyrics {
       Да бих Те
       слу -- шал, да бих Те слу -- шал! А -- ко бих
-      Те слу -- шал, До -- бро -- то ще -- ше в_мен да
+      Те слу -- шал, До -- бро -- то ще -- ше в~мен да
       се про -- я -- ви. из -- я -- ви.}
       \addlyrics {
         Da bih Te
         slu -- shal, da bih Te slu -- shal! A -- ko bih
-        Te slu -- shal, Do -- bro -- to shte -- she v_men da
+        Te slu -- shal, Do -- bro -- to shte -- she v~men da
         se pro -- ya -- vi. iz -- ya -- vi.}
 
         \header {
@@ -55,6 +55,9 @@
         \midi{}
 
       } % score
+
+ 
+      \markup \empty-two
 
       % include foreign translation(s) of the song
       \include "lyrics_de/174_1_da_bih_te_slushal_lyrics_de.ly"
