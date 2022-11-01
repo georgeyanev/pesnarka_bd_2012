@@ -79,8 +79,7 @@
 
       } % score
 
-
-
+      \markup \empty-two
 
       % include foreign translation(s) of the song
       \include "lyrics_de/175_pismoto_lyrics_de.ly"
