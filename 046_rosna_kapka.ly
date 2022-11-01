@@ -136,6 +136,6 @@
   } % markup
 
   % include foreign translation(s) of the song
-  \include "lyrics_de/047_az_sam_byaloto_kokiche_lyrics_de.ly"
+  \include "lyrics_de/046_rosna_kapka_lyrics_de.ly"
 
 } % bookpart
