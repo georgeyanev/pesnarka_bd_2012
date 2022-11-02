@@ -19,18 +19,18 @@
         | % 2
         g'4.  f'8  e'8  d'8  e'8
         f'8 | % 3
-        a'2  g'4  d'8  e'8 | % 4
-        f'2  e'4 r8  e'8 \break | % 5
+        a'2  g'4  d'8  e'8 \break| % 4
+        f'2  e'4 r8  e'8  | % 5
         \time 5/4  | % 5
         g'4.  f'8  e'8  d'8  e'4
         f'8  a'8 | % 6
-        \time 4/4  | % 6
-        c''4 (  b'8 [  a'8 ) ]  g'4
-        ^\fermata  a'4 | % 7
+        \time 4/4  \break| % 6
+        c''4 (  b'8 [  a'8 ])   g'4
+        ^\fermata  a'4  | % 7
         g'4  fis'4  a'4  c''8
-        b'8 \break | % 8
+        b'8 | % 8
         \time 3/4  | % 8
-        a'8 ( [  b'8 ])  g'4.  e'8 | % 9
+        a'8 ( [  b'8 ])  g'4.  e'8  \break| % 9
         \time 6/4  | % 9
         f'4  g'4  a'4.  b'8  c''4
         d''4 |

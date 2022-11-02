@@ -22,7 +22,7 @@
       fis'4 ) fis'4 fis'4 fis'4 e'8
       ( [ fis'8 ] | % 5
       g'8 [ fis'8 ] e'8 [ dis'8 ] \stemUp
-      e'8 [ fis'8 ) ] e'4 ^\fermata  \bar "|."
+      e'8 [ fis'8 ])  e'4 ^\fermata  \bar "|."
     }
 
     \addlyrics {
