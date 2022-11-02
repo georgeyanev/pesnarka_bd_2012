@@ -4,42 +4,42 @@
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
-    \hspace #14.91
+  \hspace #14.91
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
-    
-        \column {
-        
-    \line { " " Im Anfang war das Wort,} 
 
-\line { " "und das Wort war bei Gott,}
+  \column {
 
-\line { " " und das Wort war Gott.}
- 
-\line { " "Dieses war im Anfang bei Gott.}
-\line { " " }      
+    \line { " " Im Anfang war das Wort,}
 
-\line { " "Alles wurde durch dasselbe,}
+    \line { " "und das Wort war bei Gott,}
 
-\line { " "und ohne dasselbe wurde auch nicht eines,} 
+    \line { " " und das Wort war Gott.}
 
-\line { " "das geworden ist.}
-\line { " " }      
+    \line { " "Dieses war im Anfang bei Gott.}
+    \line { " " }
 
-\line { " "In ihm war Leben, }
+    \line { " "Alles wurde durch dasselbe,}
 
-\line { " "und das Leben war }
+    \line { " "und ohne dasselbe wurde auch nicht eines,}
 
-\line { " "das Licht der Menschen.}
-\line { " " }      
+    \line { " "das geworden ist.}
+    \line { " " }
 
-\line { " "Und das Licht scheint}
+    \line { " "In ihm war Leben, }
 
-\line { " "in der Finsternis, }
+    \line { " "und das Leben war }
 
-\line { " "und die Finsternis hat es nicht erfasst.}
-      
-       
-    }
-    
-    
+    \line { " "das Licht der Menschen.}
+    \line { " " }
+
+    \line { " "Und das Licht scheint}
+
+    \line { " "in der Finsternis, }
+
+    \line { " "und die Finsternis hat es nicht erfasst.}
+
+
+  }
+
+
 }

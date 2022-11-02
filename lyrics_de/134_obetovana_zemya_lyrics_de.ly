@@ -8,7 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
 
  \line { " " Tage des Leides und der Trauer }
 

@@ -8,7 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
 
     \line { " "Geister des Lichtes schreiten leicht in der Stille. }
 

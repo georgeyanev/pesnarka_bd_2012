@@ -9,7 +9,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
 
     \line { " "Dort, in der Ferne, kenne ich ein wunderbares Land:  }
 

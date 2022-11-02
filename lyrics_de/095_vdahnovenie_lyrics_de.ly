@@ -7,14 +7,8 @@
   \hspace #16
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
-      \line { " " }      
+  \column {    
       \line {  Inspiration, Inspiration, Inspiration,  }
-      \line {  Inspiration, Inspiration, du bist ein Segen. }  
-      
-      
-       
-    }
-    
-    
+      \line {  Inspiration, Inspiration, du bist ein Segen. }      
+    }   
 }

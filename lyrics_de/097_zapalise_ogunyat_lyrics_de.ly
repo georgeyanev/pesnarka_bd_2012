@@ -8,7 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
     \line { " "Das Feuer der Feuerstelle entzündete sich.  }
 
     \line { " "Mein Herz begann zu schlagen, das Brot ist bereit.  }

@@ -7,7 +7,6 @@
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
-    \line { " " }
     \line { " " Sage mir, du heller, göttlicher Strahl, }
     \line { " " das Gute des Lebens, }
     \line { " " den leuchtenden geraden Weg der reinen Seelen,}

@@ -8,9 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
-
-
 
     \line { " "Ein Tag wird kommen, ein Tag wird kommen,}
 

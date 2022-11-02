@@ -8,9 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-
-
-
     \line { " "Sage du mir die Wahrheit,}
 
     \line { " "die Freiheit bringt für meine Seele. }

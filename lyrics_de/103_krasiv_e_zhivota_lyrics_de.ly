@@ -8,7 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
     \line { " "Schön ist das Leben unserer Seele, }
 
     \line { " "das die ganze Erde erfüllt. }

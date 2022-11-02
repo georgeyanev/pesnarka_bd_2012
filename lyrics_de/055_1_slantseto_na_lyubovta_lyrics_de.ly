@@ -8,7 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
+   
      \line { 1. Die Sonne der Liebe}
 
 \line { "   " geht schon in der Welt auf.}

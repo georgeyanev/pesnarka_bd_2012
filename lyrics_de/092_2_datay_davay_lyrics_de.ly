@@ -8,7 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
     \line { " "Gib, gib, gib alles, reines Korn, Weizenkorn. }
     \line { " "Auf dass es auf dem Feld gesät wird, }
     \line { " "auf dem schönen Feld. }

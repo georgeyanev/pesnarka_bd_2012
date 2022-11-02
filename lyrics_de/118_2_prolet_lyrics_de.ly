@@ -8,7 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
 
    \line { " "  Hört die Stimme dieses Liedes,}
 

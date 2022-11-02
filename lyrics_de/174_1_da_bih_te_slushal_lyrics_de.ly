@@ -8,7 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
 
 \line { " " Hätte ich auf dich gehört, hätte ich auf dich gehört,}
 

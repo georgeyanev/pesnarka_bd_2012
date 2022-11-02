@@ -6,8 +6,6 @@
   \override #'(baseline-skip . 1.75)
 
   \column {
-    \line { " " }
-
 
     \line { " " Ich hörte über dich, Gram,   }
 

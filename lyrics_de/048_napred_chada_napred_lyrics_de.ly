@@ -8,7 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
 
     \line { 1. Vorwärts, Kinder, vorwärts,}
     \line { "   "bringt das Wort überall hin! }

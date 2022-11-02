@@ -8,8 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
-
 
 \line { " "Gnade, Güte}
 

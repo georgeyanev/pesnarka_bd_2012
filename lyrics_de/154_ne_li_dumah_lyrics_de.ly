@@ -8,7 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
+  
 
     \line {  1. Habe ich es nicht gesagt, liebe Mutter, habe ich es nicht gesagt,}
 

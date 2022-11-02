@@ -8,13 +8,12 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-      \line { " " Denke! Denke gerade! }
+    \line { " " Denke! Denke gerade! }
+    \line { " " Stütze heilige Gedanken für das Leben!}
+    \line { " " Stütze heilige Gedanken für das Leben!}
 
- \line { " " Stütze heilige Gedanken für das Leben!}
- \line { " " Stütze heilige Gedanken für das Leben!}
 
-
-    }
+  }
 
 
 }

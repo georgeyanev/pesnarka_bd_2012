@@ -8,7 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
+
 
  \line { " "Es ist schon Frühling, überall ist es hell und warm:}
 

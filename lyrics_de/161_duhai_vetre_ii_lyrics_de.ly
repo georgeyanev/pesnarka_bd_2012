@@ -7,7 +7,6 @@
     \hspace #12
     \override #`(baseline-skip . ,deCoupletBaselineSkip)
     \column {
-    \line { " " }
 
  \line { " "Die göttliche Sonne scheint heute, }
 

@@ -8,8 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
-
 
   \line { " " Ich wanderte in Wäldern und Bergen. }
 

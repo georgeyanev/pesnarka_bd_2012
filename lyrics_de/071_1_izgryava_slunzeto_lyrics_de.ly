@@ -8,8 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
-
     \line { " " Die Sonne geht auf, }
 
     \line { " " sie sendet Licht, }

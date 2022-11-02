@@ -7,8 +7,6 @@
     \hspace #2
     \override #`(baseline-skip . ,deCoupletBaselineSkip)
     \column {
-     \line { " " }
-
 \line { 1. An einem Sommertag, in der frühen Morgenröte,}
 
 \line { "   "näherte meine Mutter sich mir.}

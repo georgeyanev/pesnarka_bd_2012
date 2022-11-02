@@ -8,7 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-     \line { " " }
       \line { " "Und ich springe wie ein Vöglein }
 
  \line { " "vom Ast zu Ast, }

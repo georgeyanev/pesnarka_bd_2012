@@ -7,7 +7,6 @@
     \hspace #10
     \override #`(baseline-skip . ,deCoupletBaselineSkip)
     \column {
-    \line { " " }
 
 \line { " "Freude, Freude für die Seele bringt die Reinheit. }
 

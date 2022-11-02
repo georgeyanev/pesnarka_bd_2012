@@ -8,7 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
 
  \line { 1. Ohne dich ist Finsternis, ohne dich ist Trauer. }
 

@@ -8,7 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " } 
+   
      
       \line { 1. Ins Rila fliegen wir  }
       \line {   "   " mit machtvollem Gedanken jeden Tag.  }  

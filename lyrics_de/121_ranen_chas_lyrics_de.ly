@@ -8,7 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
+   
  \line { " " Es ist frühe Stunde, }
 
  \line { " " alles singt, alles schwingt.}

@@ -8,7 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
+   
 
 \line { " " Mir wird es im Leben wohl ergehen, }
 

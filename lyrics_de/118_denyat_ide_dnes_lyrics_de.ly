@@ -8,7 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
 
  \line { 1.	Ich kann sagen, dass der Tag kommt;}
 

@@ -8,7 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
+   
    \line { " " Trauer und Kummer überkommen mich.}
 
    \line { " " Ein starker Sturm erhebt sich in mir,}

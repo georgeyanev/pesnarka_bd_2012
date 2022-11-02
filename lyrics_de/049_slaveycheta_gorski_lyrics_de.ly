@@ -8,7 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
+
 
     \line { 1. Wir sind die Nachtigallen des Waldes,}
 

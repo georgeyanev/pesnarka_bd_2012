@@ -8,7 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
+  
      
       \line { " "Wer im Schutz des Höchsten wohnt, }
  

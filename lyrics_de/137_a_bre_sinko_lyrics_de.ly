@@ -8,7 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
  \line { " "Ach, mein Sohn, weißt du, was die Nachbarn über dich sprechen?}
 
  \line { " "Dass du die Herde im Gebirge alleine gelassen hast und }

@@ -8,7 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
 
     \line { " "Dort oben bei den Quellen habe ich ein lächelndes Mädchen getroffen,}
 

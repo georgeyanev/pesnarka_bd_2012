@@ -8,7 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
+
     \line { " " Lebendige Kraft, lebendige Kraft,}
 
     \line { " " sage mir, sage mir,}

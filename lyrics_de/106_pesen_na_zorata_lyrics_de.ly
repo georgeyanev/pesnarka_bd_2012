@@ -8,7 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
     \line { " "Die helle Morgenröte bricht an,}
 
     \line { " "die helle Morgenröte bricht an,}

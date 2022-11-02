@@ -8,7 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
+   
 
     \line { " " Lieber Herr, höre unser Lied -- }
 

@@ -8,7 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
 
   \line { " "Gerechtigkeit, Gerechtigkeit, Gerechtigkeit,}
 
