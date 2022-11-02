@@ -15,9 +15,9 @@
       \tempoFunc "Moderato" 4 "72"
       \autoBeamOff
       \partial 4
-      c | c2 d4 es | c g'2 g4 |^\markup { \large \italic "sosten."}  bes8 as g f as2 | ^\markup { \large \italic "a tempo"} g2. g4 | \break
+      c | c2 d4 es | c g'2 g4^\markup { \large \italic "sosten."} | bes8 as g f as2^\markup { \large \italic "a tempo"} | g2. g4 | \break
 
-      c,4. c8 d2 (| d4) d f8 es d c | d4 d2 d4 |\break
+      c,4. c8 d2 (| d4) d^\markup { \large \italic "sosten."} f8 es d c | d4 d2 d4 |\break
 
       f8.^\markup { \large \italic "a tempo"} f16 g8. g16 c4. \fermata c8 | \time 3/4 bes as g f as4 \fermata | g2 f4 | \break
 
@@ -45,16 +45,16 @@
       \repeat volta 2 {
         \time 4/4
         \tempoFunc "Moderato" 4 "72"
-        c4. g8 bes as g f | as2 g4. f8 | f g e2 d4 | c2 r4
+        \bar ".|:" c4. g8 bes as g f | as2 g4. f8 | f g e2 d4 | c2 r4
       }
     }
 
     \addlyrics {
       Бях жи -- те -- но зър -- но, за -- ро -- ве -- но в~зе -- мя -- та.
 
-      Във сън дъл -- бок, жи -- во -- та не поз -- на -- вах.
+      Във сън дъл -- бок, Жи -- во -- та не поз -- на -- вах.
 
-      Но дой -- де лъч, при мен до -- стиг -- на свет -- ли -- на -- та
+      Но дой -- де лъч, при мен до -- стиг -- на Свет -- ли -- на -- та
 
       и ме съ -- бу -- ди със сво -- я зов.
 
@@ -74,9 +74,9 @@
       \addlyrics {
         Byah zhi -- te -- no zar -- no, za -- ro -- ve -- no v~ze -- mya -- ta.
 
-        Vav san dal -- bok, zhi -- vo -- ta ne poz -- na -- vah.
+        Vav san dal -- bok, Zhi -- vo -- ta ne poz -- na -- vah.
 
-        No doy -- de lach, pri men do -- stig -- na svet -- li -- na -- ta
+        No doy -- de lach, pri men do -- stig -- na Svet -- li -- na -- ta
 
         i me sa -- bu -- di sas svo -- ya zov.
 
