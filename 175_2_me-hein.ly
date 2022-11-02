@@ -76,6 +76,29 @@
 
       } % score
 
+      \markup \fontsize #bgCoupletFontSize {
+        \hspace #2
+        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+        \column {
+          \line {    2. Пробуждам се от сън дълбок }
+          \line {   "   " и те зова като дете. }
+          \line {   "   " Аз винаги вярвам, че ти }
+          \line {   "   " над мене с Любов бдиш }
+          \line {   "   " майчина. }
+        }
+
+        \hspace #7
+        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+        \column {
+          \line {    2. Probuzhdam se ot san dalbok }
+          \line {   "   " i te zova kato dete. }
+          \line {   "   " Az vinagi vyarvam, che ti }
+          \line {   "   " nad mene s Lyubov bdish }
+          \line {   "   " maychina. }
+        } %column
+      } % markup
+
+      \markup \empty-three
       % include foreign translation(s) of the song
       \include "lyrics_de/175_mehein_lyrics_de.ly"
 
