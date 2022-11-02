@@ -138,6 +138,13 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../170_1_vyara_svetla_1.ly \
     ../170_2_vyara_svetla_II.ly \
     ../171_vyara_svetla_III.ly \
+    ../172_igrata_na_potocheto.ly \
+    ../173_malkata_bubolechka.ly \
+    ../174_2_slusham.ly \
+    ../174_3_radost.ly \
+    ../174_da_bih_te_slushal.ly \
+    ../175_2_me-hein.ly \
+    ../175_pismoto.ly \
     > tmp.ly
 
 lilypond --include=../ -o pesn_all tmp.ly
