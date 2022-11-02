@@ -7,7 +7,6 @@
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
-    \line { " " }
     \line { 1. Stehe auf, stehe auf }
     \line {   "   " und der Herr wird dich beleben; }
     \line {   "   " stehe auf, stehe auf}

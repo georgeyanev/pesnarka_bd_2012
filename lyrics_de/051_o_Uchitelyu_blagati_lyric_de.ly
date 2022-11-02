@@ -7,8 +7,7 @@
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
-    \line { "   " }
+ \column {
     \line {1. Oh, gütiger Meister,}
     \line {   "   "du bist von Güte erfüllt,}
     \line {   "   "deine Worte sind beflügelt,}

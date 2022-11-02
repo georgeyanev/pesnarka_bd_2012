@@ -8,7 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
 
     \line { " " Er kommt, Er kommt, Er kommt, }
 
@@ -21,7 +20,7 @@
     \line { " "Er kommt, Er kommt, Er kommt, Er  }
 
     \line { " " Erist es, der kommt,}
-            \line { " "     um zu helfen, um zu helfen, um zu helfen.  }
+    \line { " " um zu helfen, um zu helfen, um zu helfen.  }
 
     \line { " "Der Mächtige, der Starke, möge er helfen,  }
 

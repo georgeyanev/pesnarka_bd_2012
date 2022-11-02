@@ -8,7 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-     \line { " " }      
+       
   \line { " "Der Geist Gottes, der ewige Geist,  }
 
   \line { " "der heilige Geist, der gütige Geist,   }

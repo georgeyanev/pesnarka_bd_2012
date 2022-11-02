@@ -8,9 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-     \line { " " }
       \line { " " Habe Glaube, Glaube,}
-
    \line { " "Habe Glaube, Glaube,}
 
    \line { " "Habe Glaube, Glaube,}

@@ -7,7 +7,6 @@
     \hspace #10
     \override #`(baseline-skip . ,deCoupletBaselineSkip)
     \column {
-     \line { " " }
       \line { 1. Die wunderbare Morgenröte bricht an, }
       \line {   "   " die wundervolle Morgenröte des hellen, neuen Lebens, }
       \line {   "   " mit Herrlichkeit bescheint sie unsere Bundeslade }

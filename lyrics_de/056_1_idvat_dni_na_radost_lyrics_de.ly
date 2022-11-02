@@ -7,8 +7,7 @@
   \hspace #16
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
-     \line { "   " }
+\column {
      \line { " "Es kommen die Tage der Freude, }
 
 \line { " "es kommen die Tage der Freude,}

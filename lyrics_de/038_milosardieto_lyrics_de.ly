@@ -8,7 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { "   " }
+    
     \line { 1. Die Barmherzigkeit ist ein Paradiesgarten, }
 
     \line { "   " wunderschön geschmückt, erfüllt von der Maischönheit;  }

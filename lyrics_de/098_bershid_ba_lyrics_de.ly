@@ -7,8 +7,7 @@
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
-     \line { " " }      
+  \column {    
     
        \line { " " Es war einmal, es war einmal,}
 

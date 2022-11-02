@@ -7,12 +7,9 @@
   \hspace #16
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
-     \line { " " }      
+  \column {     
       \line { Ein guter Tag ist ein heller Tag.  }
-
       
-
 \line { Er ist schön und herrlich. }
 
 \line { Er bescheint alles, er belebt alles}

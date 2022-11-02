@@ -8,13 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
-     
-     
-     \line { " " Gib nicht mir, nicht mir, }
-
- \line { " " sondern Deinem Namen gib Ruhm, Ruhm, Ruhm.}
-     
-      }
-       
-    } 
+    \line { " " Gib nicht mir, nicht mir, }
+    \line { " " sondern Deinem Namen gib Ruhm, Ruhm, Ruhm.}
+  }
+}

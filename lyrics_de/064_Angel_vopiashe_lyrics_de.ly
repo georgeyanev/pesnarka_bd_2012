@@ -8,7 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-     \line { " " }
      
      \line { " "Ein Engel rief der Mutter Gottes zu:}
 

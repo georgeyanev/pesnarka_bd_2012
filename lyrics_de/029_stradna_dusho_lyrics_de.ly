@@ -7,7 +7,6 @@
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
-    \line { " " }
 
     \line {  1.  Leidende Seele, die du dich sehnst:}
 

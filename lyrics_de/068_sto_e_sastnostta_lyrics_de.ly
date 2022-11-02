@@ -7,8 +7,6 @@
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
  \column {
-    \line { " " }
-
 
  \line { " "In meinem Verstand klopft ein Gedanke;}
  \line { " "Täglich fragt er mich:}

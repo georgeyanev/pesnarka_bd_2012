@@ -7,8 +7,7 @@
   \hspace #18
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
-     \line { " " }      
+  \column {   
   \line { " "   Alles im Leben ist erreichbar, }
 
  \line { " " wenn die Zeit gut ist  }

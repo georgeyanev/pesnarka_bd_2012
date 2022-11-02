@@ -8,8 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 %  \override #'(baseline-skip . 2)
 
-  \column {
-    \line { " " }
+\column {
 
   \line { " "Lichter, starker Glaube!}
 

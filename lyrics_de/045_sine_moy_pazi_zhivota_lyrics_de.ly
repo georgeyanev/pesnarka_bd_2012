@@ -8,7 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-     \line { "   " }
+    
     \line {  1. Mein Sohn, bewahre das Leben, }
 
 \line { "   "die in dir verborgene Glut }

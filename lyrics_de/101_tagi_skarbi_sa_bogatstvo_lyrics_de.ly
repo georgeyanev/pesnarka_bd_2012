@@ -8,7 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-     \line { " " } 
+    
      \line {   "   " Trauer und Gram sind ein Reichtum  } 
 
 \line {   "   " für das Leben, die in der Seele verborgen liegen, } 

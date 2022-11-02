@@ -7,8 +7,7 @@
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
-     \line { " " }      
+  \column {     
       \line { " "Ein heller Strahl kommt von oben,  }
 
 \line { " "um die kleinen Blumen zu erleuchten.   }

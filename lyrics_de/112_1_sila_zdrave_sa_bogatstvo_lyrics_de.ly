@@ -8,7 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-     \line { " " }
       \line {  Kraft und Gesundheit sind ein Reichtum}
              \line { für das Leben der Seele. }
 

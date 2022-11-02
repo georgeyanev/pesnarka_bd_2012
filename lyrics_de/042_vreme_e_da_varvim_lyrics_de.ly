@@ -8,7 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   
     \column {
-    \line { "   " }
 
     \line { 1. Es ist Zeit, dass wir gehen, }
 

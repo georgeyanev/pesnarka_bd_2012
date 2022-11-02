@@ -7,7 +7,7 @@
     \hspace #10
     \override #`(baseline-skip . ,deCoupletBaselineSkip)
     \column {
-      \line { " " }
+     
       \line { 1. Der Sämann ist hinausgegangen, }
       \line {   "   " um das wunderbare Gute zu säen: das neue Leben! }  
       \line {   "   " Und er sät und singt leise }

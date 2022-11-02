@@ -6,15 +6,11 @@
 \markup \fontsize #deCoupletFontSize {
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-
   \column {
-    \line { " " }
     \line {  1. Wir wollen Brüderlichkeit und Einheit, }
     \line {   "   "Wir senden den Ruf der Liebe aus, }
     \line {   "   " Die Welt der Freude rufen wir: }
-    \line {
-      "   " auf dass wir das gute Leben in uns
+    \line {   "   " auf dass wir das gute Leben in uns
       ergießen!
     }
 

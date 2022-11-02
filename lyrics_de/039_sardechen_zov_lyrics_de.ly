@@ -8,7 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { "   " }
 
     \line { 1. Wir fallen heute vor Dir nieder, Herr, }
 

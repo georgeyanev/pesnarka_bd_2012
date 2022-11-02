@@ -7,15 +7,7 @@
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-
-
-
-
-
-
   \column {
-
-    \line { " " }
 
     \line { " "Vorwärts, vorwärts zum Ruhm,}
 

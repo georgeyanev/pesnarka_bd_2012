@@ -7,8 +7,6 @@
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
-    \line { " " }
-
     \line { "   " Ich werde mich sehr um des Herrn willen freuen; }
     \line {
       "   " meine Seele wird fröhlich sein in meinem

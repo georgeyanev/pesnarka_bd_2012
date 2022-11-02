@@ -7,8 +7,7 @@
   \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
-     \line { " " }     
+  \column {    
      
   \line { " "Kraft, Leben, Gesundheit -}
 

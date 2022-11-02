@@ -8,17 +8,10 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-     \line { " " }      
-     \line { " " Sage deine Trauer, }
-           \line { " "  öffne dein Herz unter den Sonnenstrahlen.}
-
-\line { " " Die Sonnenstrahlen von Gott werden dir Güte bringen}
-        \line { " "und Freude in die Seele hineinbringen,}
-
-\line { " " und sie werden Freude in die Seele hineinbringen.}
-      
-       
-    }
-    
-    
+    \line { " " Sage deine Trauer, }
+    \line { " "  öffne dein Herz unter den Sonnenstrahlen.}
+    \line { " " Die Sonnenstrahlen von Gott werden dir Güte bringen}
+    \line { " "und Freude in die Seele hineinbringen,}
+    \line { " " und sie werden Freude in die Seele hineinbringen.}
+  }
 }

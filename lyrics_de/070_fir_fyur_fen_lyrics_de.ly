@@ -7,8 +7,7 @@
   \hspace #14
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
-    \line { " " }
+\column {
 
     \line {   "   "Fir-fyur-fen Tao Bi Au-men, }
     \line {   "   "Tao Bi Au-men, Tao Bi Au-men.}
@@ -19,7 +18,6 @@
     \line {   "   "Segne meine Seele den Herrn,}
     \line {   "   "segne und vergiss nicht}
     \line {   "   "Segne, segne, segne und vergiß nicht.}
-
 
 
   }

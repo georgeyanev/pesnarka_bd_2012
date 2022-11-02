@@ -8,8 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { "   " }
-
+    
     \line { 1. Ich werde dem Meister }
 
     \line { "   "bis zum Ende ergeben dienen,}

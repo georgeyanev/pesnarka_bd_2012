@@ -8,7 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-     \line { " " }
 \line { " "Unter allen Bedingungen des Lebens }
 
 \line { " "verliere deinen Frieden, deinen Frieden nicht!}

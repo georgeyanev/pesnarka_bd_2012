@@ -8,9 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { "   " }
-
-
+   
     \line { 1. Gesegnet bist du von Gott, }
 
     \line { "   " oh Meister der Liebe, }

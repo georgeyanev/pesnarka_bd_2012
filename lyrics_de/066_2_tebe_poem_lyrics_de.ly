@@ -8,8 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-     \line { " " }
-     
      \line { " "Dir singen wir, Dir danken wir,}
      
      \line { " "Dich segnen wir, unser Gott.}

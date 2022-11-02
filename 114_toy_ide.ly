@@ -96,6 +96,6 @@
   % include foreign translation(s) of the song
 
   
-  \include "lyrics_de/114_toy_ide.ly"
+  \include "lyrics_de/114_toy_ide_lyrics_de.ly"
 
 } % bookpart

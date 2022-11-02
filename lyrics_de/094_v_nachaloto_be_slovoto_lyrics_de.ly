@@ -8,7 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
     
         \column {
-     \line { " " }      
+        
     \line { " " Im Anfang war das Wort,} 
 
 \line { " "und das Wort war bei Gott,}

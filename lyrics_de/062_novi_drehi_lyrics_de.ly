@@ -8,8 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-     \line { " " }
-     
     \line { 1. Wie der Mensch seine alten Kleider auszieht,}
 
 \line { "   "damit er neue, reine, weiße anziehen kann,}

@@ -8,7 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { "   " }
 
     \line {1. Lasst uns kühn vorwärtsgehen}
     \line { "   "in die stillen Paläste des geheimen Wissens,}

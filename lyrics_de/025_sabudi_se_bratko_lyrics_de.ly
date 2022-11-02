@@ -8,8 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-     \line { " " }
-
       \line { 1. Wache auf, lieber Bruder, }
       \line {   "   " erhebe dich vom tiefen Schlaf}
       \line {   "   " und nimm die jahrhundertealten Ketten}

@@ -9,8 +9,6 @@
 
   \column {
 
-    \line { " " }
-
     \line { " " Da war ein Mensch, von Gott gesandt,  }
 
     \line { " " sein Name: Johannes. }

@@ -7,13 +7,10 @@
   \hspace #12
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
-    \line { " " }
+\column {
 
  \line { " "Du bist die offenbarte Liebe zu mir, oh Herr.}
-
  \line { " "Meine Seele sehnt sich nach Deiner Reinheit,}
-
  \line { " "Meine Seele sehnt sich nach Deinem Licht.}
 
 

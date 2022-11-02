@@ -7,8 +7,7 @@
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
-     \line { " " }      
+  \column {     
     \line { " "Ein gütiges Wort auf die Lippen, }
 
   \line { " "das ist der Schlüssel zu den Herzen,}

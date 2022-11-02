@@ -8,8 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-     \line { " " }
-     
      \line { " "a ... (12)}
      \line { " "o ... (12)}
      \line { " "u ...  (12)}

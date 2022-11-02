@@ -8,7 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
+  
 
 \line { " "Ich kann erreichen, was ich mir wünsche.  }
 

@@ -8,8 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
-
 
     \line {   1. Geh auf, geh auf, du, meine Sonne, }
 

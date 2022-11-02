@@ -7,8 +7,7 @@
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
-    \line { "   " }
+ \column {
 
 
     \line { 1. Der Himmel öffnet sich}
