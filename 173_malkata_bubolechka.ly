@@ -76,8 +76,7 @@
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
         \column {
           \line {    2. Тъй буболечката шепти }
-          \line {   "   " и се стреми по нанагорния }
-          \line {   "   " път, }
+          \line {   "   " и се стреми по нанагорния път,}
           \line {   "   " и пречките една след друга }
           \line {   "   " побеждава. }
           \line {   "   " Безброй скали, поля, долини }
@@ -86,12 +85,11 @@
           \line {   "   " възвисява. }
         }
 
-        \hspace #7
+        \hspace #2
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
         \column {
           \line {    2. Tay bubolechkata shepti }
-          \line {   "   " i se stremi po nanagornia }
-          \line {   "   " pat, }
+          \line {   "   " i se stremi po nanagornia pat,}
           \line {   "   " i prechkite edna sled druga }
           \line {   "   " pobezhdava. }
           \line {   "   " Bezbroy skali, polya, dolini }
