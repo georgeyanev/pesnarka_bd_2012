@@ -70,7 +70,7 @@
         \midi{}
 
       } % score
-      \markup \empty-one
+      
       \markup \fontsize #bgCoupletFontSize {
         \hspace #1
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
@@ -130,7 +130,7 @@
       } % markup
 
 
-      \markup \empty-three
+      
 
       % include foreign translation(s) of the song
       \include "lyrics_de/173_malkata_bubolechiza_lyrics.de.ly"

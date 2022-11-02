@@ -54,7 +54,7 @@
   } % score
   
   \markup \italic \dc-one-nobold "attacca „В мрак тъмнота“/„V mrak tamnota“"
-  \markup \empty-two
+  
   
   \score {
       \include "include/score-layout.ily"
@@ -104,7 +104,7 @@
     }
 
    \markup \dc-two "D.C. al Fine „Mahar Benu Aba“" "senza ripetizione"
-    \markup \empty-three
+    
 
 
     % include foreign translation(s) of the song

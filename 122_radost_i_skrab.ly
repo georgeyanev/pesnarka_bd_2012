@@ -241,7 +241,7 @@
 
       } % score
 
-      \markup \empty-one
+      
 
       % include foreign translation(s) of the song
       \include "lyrics_de/122_radost_i_skrab_lyrics_de.ly"

@@ -77,7 +77,7 @@
 
 \markup \dc-two "D.C." " con ripetizione"
 
-  \markup \empty-one
+  
 
 
   % include foreign translation(s) of the song

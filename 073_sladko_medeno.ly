@@ -50,7 +50,7 @@
 
   } % score
   \markup \dc-two "D.C. al Fine" "con ripetizioni"
-  \markup \empty-two
+  
   % include foreign translation(s) of the song
   \include "lyrics_de/073_sladko_medeno_lyrics_de.ly"
 

@@ -49,7 +49,7 @@
 
       \markup \dc-one "D.C."
 
-      \markup \empty-two
+      
 
       % include foreign translation(s) of the song
       \include "lyrics_de/174_2_sluscham_lyrics_de.ly"

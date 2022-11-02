@@ -95,7 +95,7 @@
 
   \markup \dc-one "D.C al Fine"
 
-  %\markup \empty-one
+  %
 
   % include foreign translation(s) of the song
 

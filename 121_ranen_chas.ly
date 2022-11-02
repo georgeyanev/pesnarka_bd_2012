@@ -125,7 +125,7 @@
 
       } % score
 
-      \markup \empty-two
+      
 
       % include foreign translation(s) of the song
       \include "lyrics_de/121_ranen_chas_lyrics_de.ly"

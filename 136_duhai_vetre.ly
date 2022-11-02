@@ -147,7 +147,7 @@
     } % score
 
     \markup \dc-one "D.C. al Fine"
-    \markup \empty-two
+    
 
     % include foreign translation(s) of the song
     \include "lyrics_de/136_duhai_vetre_lyrics_de.ly"

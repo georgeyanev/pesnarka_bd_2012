@@ -79,7 +79,7 @@
 
   } % score
 
- \markup \empty-one
+ 
 
   % include foreign translation(s) of the song
   \include "lyrics_de/092_2_datay_davay_lyrics_de.ly"

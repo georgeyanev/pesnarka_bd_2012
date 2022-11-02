@@ -170,7 +170,7 @@
     } % score
 
     \markup \italic \dc-one-nobold "attaca „Слънчева песен/Slancheva pesen“"
-    \markup \empty-two
+    
 
     % include foreign translation(s) of the song
     \include "lyrics_de/124_proletna_pesen.ly"

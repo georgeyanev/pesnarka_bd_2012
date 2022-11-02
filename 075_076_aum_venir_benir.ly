@@ -39,7 +39,7 @@
      \markup \dc-one "2 D.C." 
      \markup \italic \dc-one-nobold "(песентта се изпълнява три пъти / Das Lied wird drei Mal gesungen)"
 
-    \markup \empty-three
+    
     % include foreign translation(s) of the song
 
     \score {

@@ -58,7 +58,7 @@
   } % score
   
   \markup \italic \dc-one-nobold "attacca „Благата песен/Blagata pesen“"
-  \markup \empty-three
+  
 
 
   % include foreign translation(s) of the song

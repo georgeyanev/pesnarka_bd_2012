@@ -36,9 +36,6 @@
 
   } % score
 
-
-
-  \markup \empty-three
   % include foreign translation(s) of the song
   \include "lyrics_de/053_slava_Bozhiya_lyrics_de.ly"
 

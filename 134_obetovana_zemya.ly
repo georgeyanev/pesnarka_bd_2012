@@ -127,7 +127,7 @@
 
     } % score
 
-    \markup \empty-two
+    
     % include foreign translation(s) of the song
     \include "lyrics_de/134_obetovana_zemya_lyrics_de.ly"
 

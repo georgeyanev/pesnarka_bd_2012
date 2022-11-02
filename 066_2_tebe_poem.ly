@@ -50,7 +50,7 @@
   } % score
 
 
-  \markup \empty-three
+  
 
   % include foreign translation(s) of the song
   \include "lyrics_de/066_2_tebe_poem_lyrics_de.ly"

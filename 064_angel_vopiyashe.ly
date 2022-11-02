@@ -142,7 +142,7 @@
 
   } % score
 
-  \markup \empty-three
+  
   % include foreign translation(s) of the song
   \include "lyrics_de/064_Angel_vopiashe_lyrics_de.ly"
 

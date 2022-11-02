@@ -99,8 +99,6 @@
 
   } % score
 
-\markup \empty-three
-
   % include foreign translation(s) of the song
   \include "lyrics_de/039_sardechen_zov_lyrics_de.ly"
 

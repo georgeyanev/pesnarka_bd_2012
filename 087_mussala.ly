@@ -96,7 +96,7 @@
   } % score
 
   
-  \markup \empty-two
+  
 
 
   % include foreign translation(s) of the song

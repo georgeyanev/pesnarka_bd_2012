@@ -50,7 +50,7 @@
       } % score
 
 
-      \markup \empty-two
+      
       % include foreign translation(s) of the song
       \include "lyrics_de/174_radost_lyrics_de.ly"
 

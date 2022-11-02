@@ -71,8 +71,6 @@
 
   } % score
 
-  \markup \empty-three
-
   % include foreign translation(s) of the song
   \include "lyrics_de/021_ste_se_razveselja_lyrics_de.ly"
 

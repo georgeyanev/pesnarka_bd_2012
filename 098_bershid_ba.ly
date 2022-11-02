@@ -69,7 +69,7 @@
   } % score
 
   %\markup \dc-one "D.C."
-  %\markup \empty-two
+  %
 
   % include foreign translation(s) of the song
   \pageBreak

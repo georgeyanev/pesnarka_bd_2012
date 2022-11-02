@@ -44,7 +44,7 @@
   } % score
   
   \markup \italic \dc-one-nobold "attacca „Сила жива, изворна/Sila zhiva, izvorna“"
-  \markup \empty-one
+  
   % include foreign translation(s) of the song
   \include "lyrics_de/071_1_izgryava_slunzeto_lyrics_de.ly"
 

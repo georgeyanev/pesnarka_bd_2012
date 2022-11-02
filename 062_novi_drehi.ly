@@ -127,7 +127,7 @@
     } %column
   } % markup
 
-  \markup \empty-three
+  
 
   % include foreign translation(s) of the song
   \include "lyrics_de/062_novi_drehi_lyrics_de.ly"

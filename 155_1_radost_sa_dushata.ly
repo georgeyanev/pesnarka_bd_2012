@@ -89,7 +89,7 @@
 
   } % score
   
-  \markup \empty-one
+  
 
   % include foreign translation(s) of the song
   \include "lyrics_de/155_radost_sa_dushata_lyrics_de.ly"

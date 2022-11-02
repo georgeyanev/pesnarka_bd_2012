@@ -61,7 +61,7 @@
       } % score
 
       \markup \dc-two "D.C." "con ripetizione"
-      \markup \empty-two
+      
 
       % include foreign translation(s) of the song
     

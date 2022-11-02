@@ -122,7 +122,7 @@
 
       } % score
 
-      \markup \empty-two
+      
 
       % include foreign translation(s) of the song
       \include "lyrics_de/161_duhai_vetre_ii_lyrics_de.ly"

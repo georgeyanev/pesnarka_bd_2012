@@ -43,8 +43,6 @@
 
   } % score
 
-  \markup \empty-three
-
   % include foreign translation(s) of the song
   \include "lyrics_de/056_1_idvat_dni_na_radost_lyrics_de.ly"
 

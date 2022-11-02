@@ -52,7 +52,7 @@
   } % score
   
   \markup \dc-two "D.C. al Fine „Кажи ми ти Истината“/„Kazhi mi ti istinata“" "senza ripetizione"
-  \markup \empty-three
+  
 
 
   % include foreign translation(s) of the song

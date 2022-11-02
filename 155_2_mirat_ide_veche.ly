@@ -47,7 +47,7 @@
 
     } % score
 
-    \markup \empty-one
+    
 
     % include foreign translation(s) of the song
     \include "lyrics_de/155_2_mirat_ide_veche.ly"

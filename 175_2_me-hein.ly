@@ -98,7 +98,7 @@
         } %column
       } % markup
 
-      \markup \empty-three
+      
       % include foreign translation(s) of the song
       \include "lyrics_de/175_mehein_lyrics_de.ly"
 

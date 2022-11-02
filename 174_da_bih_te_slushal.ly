@@ -57,7 +57,7 @@
       } % score
 
  
-      \markup \empty-two
+      
 
       % include foreign translation(s) of the song
       \include "lyrics_de/174_1_da_bih_te_slushal_lyrics_de.ly"

@@ -58,7 +58,7 @@
 
       \markup \dc-one "D. C. al Fine „Sila zhiva“ con ripetizione (един път/ein Mal)"
 
-      \markup \empty-two
+      
 
       % include foreign translation(s) of the song
       \include "lyrics_de/076_2_sila_zhiva_lyrics_de.ly"
