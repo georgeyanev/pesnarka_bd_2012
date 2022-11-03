@@ -1,0 +1,36 @@
+  \version "2.20.0"
+
+\markup \fill-line { \fontsize #6 "Das Quellchen" }
+\markup \null
+\markup \null
+\markup \fontsize #+2.5 {
+  \hspace #10
+  \override #'(baseline-skip . 2)
+
+  \column {
+    \line { " " }
+
+
+ \line { " "Dort oben, hoch im Gebirge,}
+
+ \line { " "entspringt eine schöne Quelle;}
+
+ \line { " "sie singt leise und gießt ihr Herz aus:}
+
+ \line { " "Es gibt keine andere kleine, }
+
+ \line { " "so schöne Quelle wie mich, }
+
+ \line { " "Aus meinen Tiefen }
+
+ \line { " "entspringt ein reines und belebendes Wasser.}
+
+ \line { " "Wer von meinem Wasser trinkt, }
+
+ \line { " "gewinnt das neue Leben,}
+
+ \line { " "er umarmt die Lehre }
+
+ \line { " "und macht sich an die Arbeit.}
+  }
+}
