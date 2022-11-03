@@ -54,6 +54,7 @@
       \time 6/4  | % 25
       e'2 e'1 | % 26
       e''4
+      \tupletUp
       \times 2/3  {
         b'8   b'8  b'8
       }
