@@ -45,10 +45,10 @@
 
   } % score
 
-
+  \markup \empty-one
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+    \hspace #3
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
@@ -127,7 +127,7 @@
     } %column
   } % markup
 
-  
+
 
   % include foreign translation(s) of the song
   \include "lyrics_de/062_novi_drehi_lyrics_de.ly"
