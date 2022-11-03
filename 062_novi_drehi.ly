@@ -45,7 +45,7 @@
 
   } % score
 
-  \pageBreak
+
 
   \markup \fontsize #bgCoupletFontSize {
     \hspace #1

@@ -145,6 +145,7 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../174_da_bih_te_slushal.ly \
     ../175_2_me-hein.ly \
     ../175_pismoto.ly \
+    ../176_zhitno_zarno.ly \
     > tmp.ly
 
 lilypond --include=../ -o pesn_all tmp.ly
