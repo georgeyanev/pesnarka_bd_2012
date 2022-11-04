@@ -12,7 +12,7 @@
       \clef treble
       \key des \major
       \time 2/4
-      \tempoFunc "Moderato" 4 "69"
+      \tempoFunc "Andante" 4 "66"
       \autoBeamOff
       \partial 4
       f'8.  f'16 | % 2
@@ -26,13 +26,11 @@
       f'4  es'2 | % 9
       \time 2/4  | % 9
 
-      \slurDashed  des'16 ( [ \slurSolid ^\markup{
-        \italic
-        {sostenuto}
-      }
-      c'16 ) ]  des'16  es'16
+      \slurDashed  des'16^\markup { \italic {sostenuto} }  [(  
+      c'16 )] \slurSolid 
+      des'16  es'16
       f'8  as'8 |
-      f'4 ^\markup{ \bold {a tempo} }  es'4 \break | % 11
+      f'4 ^\markup{ \italic {a tempo} }  es'4 \break | % 11
       \time 3/4  | % 11
       \times 2/3  {
         f'8 ^\markup{ \italic {sostenuto} }  ges'8
@@ -64,23 +62,23 @@
     }
 
     \addlyrics {
-      Гос -- по -- ди, Ти си всич -- ко
+      "1. Гос" -- по -- ди, Ти си всич -- ко
       за ме -- не на Зе -- мя -- та. Тук
       до -- лу– тол -- коз скър --
       би, тъй всич -- ко пус -- то е
       без  Теб и са -- мо Ти му да
       -- ваш сми -- съл. Ед -- ни -- чък
-      Ти ме лю -- биш, зна -- я, са -- мо
-      Ти. И аз Теб лю -- бя.}
+      Ти ме лю_биш, зна -- я, са -- мо
+      "Ти.        И" аз Теб лю -- бя.}
       \addlyrics {
-        Gos -- po -- di, Ti si vsich -- ko
+        "1. Gos" -- po -- di, Ti si vsich -- ko
         za me -- ne na Ze -- mya -- ta. Tuk
         do -- lu– tol -- koz skar --
         bi, tay vsich -- ko pus -- to e
         bez  Teb i sa -- mo Ti mu da
         -- vash smi -- sal. Ed -- ni -- chak
-        Ti me lyu -- bish, zna -- ya, sa -- mo
-        Ti. I az Teb lyu -- bya.}
+        Ti me lyu_bish, zna -- ya, sa -- mo
+        "Ti.          I" az Teb lyu -- bya.}
 
         \header {
           title = \titleFunc "Молитва" "Molitva"
@@ -89,7 +87,7 @@
         \midi{}
 
       } % score
-
+      \markup \empty-two
       \markup \fontsize #bgCoupletFontSize {
         \hspace #1
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
