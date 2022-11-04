@@ -68,7 +68,7 @@
       \times 2/3  {
         g'8 g'8 g'8
       }
-      g'8. fis'16 \break | % 21
+      g'8. fis'16 \pageBreak | % 21
       \time 3/4  | % 21
       a'4 g'2 \bar "||"
       \time 2/4  | % 22
