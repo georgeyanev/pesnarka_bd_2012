@@ -8,8 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
-
     \line { 1. Herr, du bist alles für mich,}
 
     \line { "   "hier unten -- so viel Trauer,}

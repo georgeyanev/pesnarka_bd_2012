@@ -8,8 +8,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-   
-
 
  \line { 1. Ich war ein Weizenkorn, das in der Erde vergraben war.}
 

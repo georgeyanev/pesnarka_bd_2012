@@ -1,16 +1,14 @@
-  \version "2.20.0"
+ \version "2.22.1"
 
-\markup \fill-line { \fontsize #6 "Das Quellchen" }
+\markup \fill-line { \fontsize #deTitleFontSize "Quellchen" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
-  \hspace #10
-  \override #'(baseline-skip . 2)
+\markup \fontsize #deCoupletFontSize {
+  \hspace #16
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
-
-
+  
  \line { " "Dort oben, hoch im Gebirge,}
 
  \line { " "entspringt eine schöne Quelle;}
