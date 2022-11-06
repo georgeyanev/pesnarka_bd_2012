@@ -146,6 +146,11 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../175_2_me-hein.ly \
     ../175_pismoto.ly \
     ../176_zhitno_zarno.ly \
+    ../177_izvorche.ly  \
+    ../178_molitva.ly \
+    ../179_molitva_ti_si.ly \
+    ../180_pesen_za_dvete_sestri.ly \
+
     > tmp.ly
 
 lilypond --include=../ -o pesn_all tmp.ly
