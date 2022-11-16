@@ -27,29 +27,29 @@
       as'8.  ges'16  f'16  ges'16 |
 
       f'8.  es'16  des'16  es'16 | % 11
-      des'4. \break | % 12
+      des'4. | % 12
       as'4  as'8   | % 13
-      as'8 [(  g'8 )]  as'8 | % 14
+      as'8 [(  g'8 )]  as'8 \break| % 14
       bes'4  as'8  | % 15
       as'4  as'8 | % 16
       des''4.  | % 17
-      des''8 c''8 des''8 \break| % 18
+      des''8 c''8 des''8 | % 18
       es''4 des''8 | % 19
-      c''8. bes'16  as'16 bes'16 |
+      c''8. bes'16  as'16 bes'16 \break |
 
       as'4  ges'8  | % 21
       f'8.  es'16  des'16  es'16 | % 22
       des'4. \bar "||"
-      es'8  f'8  ges'8 \break | % 24
-      as'4 bes'16 c''16 | % 25
+      es'8  f'8  ges'8 | % 24
+      as'4 bes'16 c''16 \break | % 25
       des''4  f'8 | % 26
       as'4  ges'8 | % 27
-      ges'4. \break | % 28
+      ges'4. | % 28
       bes4  c'16  des'16   | % 29
       f'4  es'8  |
-      des'4  c'8 | % 31
+      des'4  c'8  \break | % 31
       es'4  des'8 | % 32
-      des'4.  \break  | % 33
+      des'4. | % 33
       as'16  as'16 f''8 f''8 | % 34
       ges''16 f''16 es''16 f''16
       es''16 des''16 \break  | % 35
@@ -68,11 +68,11 @@
       es''16 es''16 \break | % 44
       f''16 es''16 des''16 c''16
       des''16 es''16 | % 45
-      des''4. \break  | % 46
+      des''4. | % 46
       as'16 des''16 des''16 des''16
-      des''16 des''16 | % 47
+      des''16 des''16 \break | % 47
       as'16 es''16 es''16 es''16
-      es''16 es''16 \break | % 48
+      es''16 es''16 | % 48
       f''16 es''16 des''16 c''16
       des''16 es''16 | % 49
       des''4. \bar "|."
@@ -127,7 +127,7 @@
 
 
         \header {
-          title = \titleFunc "Мелодия 2 - Радостта на деня" " Melodiya 2 - Radostta na denya"
+          title = \titleFunc "Мелодия 2 - В радостта на деня" " Melodiya 2 - V radostta na denya"
         }
 
         \midi{}
@@ -135,10 +135,10 @@
       } % score
 
       \markup \fontsize #bgCoupletFontSize {
-        \hspace #1
+        \hspace #3
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
         \column {
-          \line {   "   " Слънчевото ято}
+          \line {  2. Слънчевото ято}
 
           \line {   "   " Бога благославя}
 
@@ -158,16 +158,16 @@
 
           \line {   "   " сила и живот.}
           \line {   "   " }
-          \line {   "   " Припев}
-          \line {   "   " Ето, го грее денят.}
+          \line \italic {   "      " Припев:}
+          \line {   "      " Ето, го грее денят ...}
 
 
         }
 
-        \hspace #5
+        \hspace #10
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
         \column {
-          \line {   "   " Slanchevo yato}
+          \line { 2. Slanchevo yato}
           \line {   "   " Boga blagoslavya}
 
           \line {   "   " i zari,}
@@ -186,11 +186,13 @@
 
           \line {   "   " sila i zhivot.}
           \line {   "   " }
-          \line {   "   " Refrain}
-          \line {   "   " Eto go, gree denyat ...}
+          \line \italic {   "      " Refrain}
+          \line {   "      " Eto go, gree denyat ...}
 
         } %column
       } % markup
+
+      \pageBreak
 
       % include foreign translation(s) of the song
       \include "lyrics_de/186_melodiya_2_radostta_na_denya_lyrics_de.ly"
