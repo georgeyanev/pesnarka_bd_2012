@@ -57,30 +57,32 @@
       } % score
 
       \markup \fontsize #bgCoupletFontSize {
-        \hspace #1
+        \hspace #2
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
         \column {
           \line {   2. Когато се денят пробужда,}
           \line {   "   " долавяме небесен зов – }
           \line {   "   " вълнува ни и вдъхновява}
           \line {   "   " за светъл и красив живот.}
-          \line {   "   " Ще дойде той след бурите, борбите.}
-          \line {   "   " Земята ще залее мир.}
-          \line {   "   " Могъща сила е Доброто,}
-          \line {   "   " ний вярваме – ще победи.}
+          \line {   "       " Ще дойде той след бурите, }
+          \line {   "       " борбите.}
+          \line {   "       " Земята ще залее мир.}
+          \line {   "       " Могъща сила е Доброто,}
+          \line {   "       " ний вярваме – ще победи.}
         }
 
-        \hspace #1
+        \hspace #5
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
         \column {
           \line {   2.  Kogato se denyat probuzhda,}
           \line {   "   " dolavyame nebesen zov – }
           \line {   "   " valnuva ni i vdahnovyava}
           \line {   "   " za svetal i krasiv zhivot.}
-          \line {   "   " Shte doyde toy sled burite, borbite.}
-          \line {   "   " Zemyata shte zalee mir.}
-          \line {   "   " Mogashta sila e Dobroto,}
-          \line {   "   " niy vyarvame – shte pobedi.}
+          \line {   "       " Shte doyde toy sled burite,}
+          \line {   "       " borbite.}
+          \line {   "       " Zemyata shte zalee mir.}
+          \line {   "       " Mogashta sila e Dobroto,}
+          \line {   "       " niy vyarvame – shte pobedi.}
         } %column
       } % markup
 
