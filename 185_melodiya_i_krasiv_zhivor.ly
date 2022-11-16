@@ -17,12 +17,11 @@
       \partial 4
       bes'4 | % 1
       es''8.  es''16  es''2  bes'4 | % 2
-      ges'8.  es'16  es'4. ^\fermata  bes'8 \breathe
-      \tempoFunc "Più mosso" 4 "72"
+      ges'8.  es'16  es'4. ^\fermata \tempoFunc "Più mosso" 4 "72" \breathe bes'8
       bes'8
       a'8 \break | % 3
       \time 3/4  | % 3
-      bes'4.  as'8  ges'8  f'8 | % 4
+      bes'4.  aes'!8  ges'8  f'8 | % 4
       \time 2/4  | % 4
       ges'2 | % 5
       \time 3/4  | % 5
@@ -32,16 +31,16 @@
       \time 3/8  | % 7
       bes'4  as'8 | % 8
       ges'4  f'8 | % 9
-      es'4  d'8 \break |
-      es'4. ~  | % 11
+      es'4  d'8 |
+      es'4. ~  \break | % 11
       es'4.  | % 12
       \time 4/4  | % 12
-      \tempoFunc "Moderato" 4 "185"
+      \tempoFunc "Moderato" 4 "100"
       bes'4  bes'4  bes'4  bes'4 | % 13
       \time 6/4  | % 13
       ces''8  bes'8  a'8  bes'8
-      ces''2  bes'2 \break | % 14
-      es''2  d''4  ces''8.  bes'16
+      ces''2  bes'2 | \break % 14 
+      es''2 d''4  ces''8.  bes'16
       bes'2 | % 15
       as'4  ges'4  f'4  es'8  f'8
       ges'2 \break | % 16
@@ -49,16 +48,16 @@
       f'8  es'8  d'8  es'8  f'4.
       f'8 | % 17
       f'8 (  bes8 )  bes4.  f'8  ges'8
-      as'8 \break | % 18
-      ges'4.  f'8  ges'2 | % 19
+      as'8 | % 18
+      ges'4.  f'8  ges'2 | \break % 19
       f'8  es'8  d'8  es'8  f'4. (
       es'8 ) |
-      es'2. r4 \break | % 21
-      bes'4  bes'4  bes'4  bes'4 | % 22
+      es'2. r4 | % 21
+      bes'4  bes'4  bes'4  bes'4 \break | % 22
       \time 6/4  | % 22
       ces''8  bes'8  a'8  bes'8
       ces''2  bes'2 | % 23
-      es''2  d''4  ces''8. (  bes'16
+      es''2  d''4  ces''8. (  [bes'16]
       )  bes'2 \break | % 24
       as'4  ges'4  f'4  es'8  f'8
       ges'2 | % 25
@@ -78,9 +77,9 @@
       ен път! При -- пом -- ням си по --
       ня -- ко -- га, ня -- къ -- де да --
       леч бе то. Там Слън -- це нив --
-      га не за -- ляз -- ва -- ше  и
-      не -- бе -- то – ви -- на -- ги ла --
-      зур но, Мир и свет -- ли -- на.
+      га не за -- ляз -- ва -- ше __  и
+      не -- бе -- то ви -- на -- ги ла --
+      зур но, Мир и Свет -- ли -- на.
       Хим -- ни на Лю -- бов -- та ан --
       ге -- ли без -- спир -- но пе --
       ят, треп -- тят, зву -- чат в‿а --
@@ -89,7 +88,7 @@
       в~ду -- ша -- та мор -- на ве --
       чен коп -- неж. В~скър -- би,
       ра -- дост, съл -- зи, пъ -- тят ми
-      из -- веж -- да, знам.  хът мо --
+      из -- веж -- да, знам.  Ду -- хът мо --
       гъщ ле -- ти в~слън -- че -- ва ро
       -- ди  -- на.}
       \addlyrics {
@@ -97,9 +96,9 @@
         en pat! Pri -- pom -- nyam si po --
         nya -- ko -- ga, nya -- ka -- de da --
         lech be to. Tam Slan -- tse niv --
-        ga ne za -- lyaz -- va -- she  i
-        ne -- be -- to – vi -- na -- gi la --
-        zur no, Mir i svet -- li -- na.
+        ga ne za -- lyaz -- va -- she __ i
+        ne -- be -- to vi -- na -- gi la --
+        zur no, Mir i Svet -- li -- na.
         Him -- ni na Lyu -- bov -- ta an --
         ge -- li bez -- spir -- no pe --
         yat, trep -- tyat, zvu -- chat v‿a --
@@ -108,7 +107,7 @@
         v~du -- sha -- ta mor -- na ve --
         chen kop -- nezh. V~skar -- bi,
         ra -- dost, sal -- zi, pa -- tyat mi
-        iz -- vezh -- da, znam.  hat mo --
+        iz -- vezh -- da, znam. Du -- hat mo --
         gasht le -- ti v~slan -- che -- va ro
         -- di  -- na.}
 
@@ -121,7 +120,7 @@
       } % score
 
 
-
+      \markup \empty-one
       % include foreign translation(s) of the song
       \include "lyrics_de/185_melodiya_i_krasiv_zhivot_lyrics_de.ly"
 
