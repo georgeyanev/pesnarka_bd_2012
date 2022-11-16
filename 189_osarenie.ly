@@ -35,7 +35,7 @@
       bes'4  a'8 |
       a'4  g'8 | % 21
       g'4  d'8 | % 22
-      g'4.
+      g'4. \bar "|."
     }
 
     \addlyrics {
@@ -64,7 +64,7 @@
       } % score
 
       \markup \fontsize #bgCoupletFontSize {
-        \hspace #1
+        \hspace #3
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
         \column {
 
@@ -82,12 +82,12 @@
         \hspace #5
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
         \column {
-          \line {   "   " 2. Blag zhivot strui }
+          \line {   2. Blag zhivot strui }
           \line {   "   " v topli slanchevi lachi }
           \line {   "   " i dushite slavyat v Svetlina }
           \line {   "   " blagia Otets na Lyubovta. (2) }
           \line {   "   " }
-          \line {   "   " 3. Vsichko e Lyubov, }
+          \line {   3. Vsichko e Lyubov, }
           \line {   "   " radost, sila i zhivot. }
           \line {   "   " Svyata Bozhia videlina }
           \line {   "   " ozaryava tazi krasota. (2)}
