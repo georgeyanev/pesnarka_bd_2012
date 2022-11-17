@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Die Stimme des Lebendigen Gottes - die neue Auferstehung" }
+\markup \fill-line { \fontsize #5 "Die Stimme des Lebendigen Gottes - die neue Auferstehung" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {

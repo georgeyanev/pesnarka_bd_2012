@@ -92,8 +92,9 @@
       e''2 a'4 r4 | % 38
       a'8 ( [ b'8 ) ]  c''8 ( [  d''8 )
       ]  e''4 a'4 | % 39
-      a'4  f''2  e''8  d''8 \tempo "rit."|
-      \times 2/3 {
+      a'4  f''2 \tempo "rit." e''8  d''8 |
+      \tweak direction #up \times 2/3 {
+        \once \override Slur.positions = #'(1 . 1)
         c''8 ( [ b'8 ) ] a'8
       }
       \times 2/3 {
@@ -158,7 +159,7 @@
 
       } % score
 
-
+      \markup \empty-one
       % include foreign translation(s) of the song
       \include "lyrics_de/190_glasat_sa_zhiviya_Gospod_lyrics_de.ly"
     } % bookpart
