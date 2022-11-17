@@ -5,6 +5,16 @@
 
 \bookpart {
   \include "include/bookpart-paper.ily"
+  \markup \center-column \normal-text \fontsize #6.5 {
+    \center-align
+    \line { "     Новото Битие - Създаването на новия Адам" }
+    \vspace #-0.1
+    \center-align
+    \line \fontsize #-3 { "     Novoto Bitie - Sazdavaneto na novia Adam" }
+    %\vspace #-0.8
+    \center-align
+    \line \fontsize #-3 { " " }
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -14,7 +24,8 @@
       \time 4/2
       \tempoFunc "Andante cantabile" 2 "50"
       \autoBeamOff
-      s2  r4 c'4 f'2 g'2 | % 2
+      \partial 2*3
+       r4 c'4 f'2 g'2 | % 2
       as'4 as'4 g'4 ( f'4 ) g'2 r4 g'4 | % 3
       c''2 bes'2 as'2 f'2 \break | % 4
       g'4 ( as'4 ) g'1 \fermata g'4. a'8 | % 5
@@ -56,7 +67,7 @@
     }
 
     \addlyrics {
-      В_на -- ча --
+      В~на -- ча --
       ло Бог съз -- да -- де не -- бе -- то и зе --
       мя -- та. А зе -- мя -- та бе пус -- та и не
       -- ус -- тро -- е -- на. Ня -- ма -- ше ред по
@@ -72,7 +83,7 @@
       -- ни -- на -- та нощ. И ста -- на ве -- чер, и
       ста -- на ут -- ро, пър -- ви ден.}
       \addlyrics {
-        V_na -- cha --
+        V~na -- cha --
         lo Bog saz -- da -- de ne -- be -- to i ze --
         mya -- ta. A ze -- mya -- ta be pus -- ta i ne
         -- us -- tro -- e -- na. Nya -- ma -- she red po
@@ -96,6 +107,11 @@
 
       } % score
 
+      \markup \raise #2.8 \override #'(baseline-skip . 2) {
+        \column {
+          \fill-line \italic { "" "" \concat {"attaca" "   " }}
+        }
+      }
 
       % include foreign translation(s) of the song
       \include "lyrics_de/191_nb_parvi_bozhestven_den_lyrics_de.ly"
