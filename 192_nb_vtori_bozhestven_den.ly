@@ -14,11 +14,11 @@
       \time 4/4
       \tempoFunc "Lento maestoso" 4 "100"
       \autoBeamOff
-      r4 d''4 s2| % 2
+      \partial 2 r4 d''4 | % 2
       d''2 d'2 | % 3
       g'2. d'4 | % 4
       b'2 b'4. b'8 | % 5
-      b'2 c''4 b'4 \break | % 6
+      \time 4/4 b'2 c''4 b'4 \break | % 6
       a'2 a'2 \bar "||"
       | % 7
       \time 6/4  | % 7
@@ -28,7 +28,7 @@
       c''2 c''2 | % 9
       c''4 c''4 c''4 d''4 \break|
       es''2. d''4  | % 11
-      c''2 c''2 | % 12
+      c''2 c''2^\markup { "     " \musicglyph "scripts.caesura.straight" } | % 12
       c''4 -- c''4 -- c''4 -- d''4
       -- | % 13
       a'4 -- a'4 -- a'4 -- g'4 -- \break | % 14
@@ -86,6 +86,11 @@
 
       } % score
 
+      \markup \raise #2.8 \override #'(baseline-skip . 2) {
+        \column {
+          \fill-line \italic { "" "" \concat {"attaca" "   " }}
+        }
+      }
 
       % include foreign translation(s) of the song
       \include "lyrics_de/192_nb_vtori_bozhestven_den_lyrics_de.ly"
