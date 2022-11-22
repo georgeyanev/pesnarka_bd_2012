@@ -26,7 +26,7 @@
       r2  e'4  e'4  e'4  d'4 \break | % 8
       e'1 r2 \bar "||"
       \key c \major | % 9
-      e'2 ^\markup{ \bold {Più mosso} }  f'4  a'2
+      e'2 ^\markup{ \bold {Più mosso} }  f'?4  a'2
       gis'4 | \barNumberCheck #10
       b'4 ( d''4 ) c''4 b'2. \break | % 11
       b'4 c''4  a'2 b'4 b'4
@@ -97,7 +97,7 @@
       тре -- ва със се -- ме -- на спо --
       ред ви -- да си  и дър -- во
       със пло -- до -- ве спо -- ред ви --
-      да си. И ви -- дя  Бог,  че
+      да си. И ви -- дя  Бог, __ че
       всич -- ко бе до -- бро. И ста
       -- на ве -- чер, и ста -- на ут --
       ро, тре -- ти ден.}
@@ -114,7 +114,7 @@
         tre -- va sas se -- me -- na spo --
         red vi -- da si  i dar -- vo
         sas plo -- do -- ve spo -- red vi --
-        da si. I vi -- dya  Bog,  che
+        da si. I vi -- dya  Bog, __ che
         vsich -- ko be do -- bro. I sta
         -- na ve -- cher, i sta -- na ut --
         ro, tre -- ti den.}
@@ -127,14 +127,13 @@
 
       } % score
 
-      \markup \halign #-27.9 \raise #2.8 \override #'(baseline-skip . 2) {
-        \column  {
-          \line  {
-            \italic \right-align { "attacca" }
-          }
+      \markup \raise #2.8 \override #'(baseline-skip . 2) {
+        \column {
+          \fill-line \italic { "" "" \concat {"attaca" "   " }}
         }
       }
 
+      \markup \empty-one
 
       % include foreign translation(s) of the song
       \include "lyrics_de/193_nb_treti_bozhestven_den_lyrics_de.ly"
