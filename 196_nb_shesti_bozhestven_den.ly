@@ -32,18 +32,17 @@
       \time 3/4  | % 189
       d'4 d'4 c'4 |
       d'2 r4 | % 191
-      r4 d'4  d'4 | % 192
+      r4 \tempo "a tempo" d'4  d'4 | % 192
       d''2. | % 193
       c''2 bes'8 ( [ g'8 ) ] \break | % 194
       \time 4/4  | % 194
       a'4  bes'4  c''4  d''4  | % 195
 
-      a'4.  ^\markup {
-        \musicglyph #"scripts.caesura.straight"
+      a'4.^\markup {
+        \concat { "       " \musicglyph #"scripts.caesura.straight"}
       } a'8 a'4 a'4 | % 196
       a''2.  g''8 f''8 \break | % 197
-      ^\markup{ \bold {poco rall.} }
-      e''4  d''4
+      e''4 \tempo "poco rall." d''4
       d''8 --  d''8 -- \once \omit TupletBracket
       \times 2/3  {
         cis''8 ( [  d''8  e''8 ) ]
@@ -64,7 +63,7 @@
       g'4 | % 207
       a'2 a'2 | % 208
       d''4  b'4 g'4 g'4 | % 209
-      a'4  bes'4  bes'2 |
+      a'4  bes'?4  bes'2 |
       a'2 d'4 e'4  ^\markup{ \bold {poco rall.} } \break  | % 211
       f'2 ( e'2 ) | % 212
       d'2 r2 ^\fermata | % 213
@@ -110,11 +109,10 @@
       }
       \bar "||"
 
-      \key a \major \break| % 237
+      \key a \major | % 237
       b'4  b'4 r2  | % 238
-      r4 fis'4 fis'4 fis'4  | % 239
-      d'4 ^\markup{ \bold {poco rall.} } e'4 cis'2
-      ~  \break |
+      r4 fis'4 fis'4 fis'4  | \break % 239
+      d'4 ^\markup{ \bold {poco rall.} } e'4 cis'2~ |
       \time 3/4  |
       cis'4 cis'4 d'4 | % 241
       \time 4/4  | % 241
@@ -130,7 +128,7 @@
       -- | % 246
       a'2 -- a'2 -- fis'4 fis'4
       | % 247
-      b'2 a'2 ( fis'2 ) \break| % 248
+      b'2 a'2 ( fis'2 ) \pageBreak| % 248
       gis'2 r2 gis'4 gis'4 | % 249
       \time 4/4  | % 249
       e''1 |
@@ -138,17 +136,17 @@
       d''2  b'4 -- | % 251
       \time 4/4  | % 251
       b'4 --  b'4 --  cis''4 --  b'4
-      -- \break | % 252
+      -- | % 252
       a'4 -- a'4 -- gis'4 -- r8
       ^\markup {
         \musicglyph #"scripts.caesura.straight"
       }
       ^\fermata
-      cis''8  | % 253
+      cis''8  | \break % 253
       fis''2 ^\fermata r8  ^\markup{ \bold {Poco meno mosso} } cis''8
       cis''8  cis''8  | % 254
       cis''4 a'4 r8  cis''8  cis''8
-      cis''8 \break | % 255
+      cis''8 | % 255
       e''4. ^\fermata  cis''8 ^\markup{ \bold {rall.} }
       cis''4 --  b'4 -- | % 256
       a'2. r4 \bar "|."
@@ -233,14 +231,13 @@
 
   } % score
 
-  \markup \halign #-27.9 \raise #2.8 \override #'(baseline-skip . 2) {
-    \column  {
-      \line  {
-        \italic \right-align { "attacca" }
-      }
+  \markup \raise #2.8 \override #'(baseline-skip . 2) {
+    \column {
+      \fill-line \italic { "" "" \concat {"attaca" "   " }}
     }
   }
-
+  
+  \markup \empty-one
 
   % include foreign translation(s) of the song
   \include "lyrics_de/196_nb_shesti_bozhestven_den_lyrics_de.ly"
