@@ -57,7 +57,7 @@
       d''2 e''2 | % 32
       f''2. -- e''4 --  | % 33
       a'2. -- r4 | % 34
-      r4  fis'4  fis'4  fis'4 \break | % 35
+      r4  fis'!4  fis'4  fis'4 \break | % 35
       fis'2  e'2 | % 36
       r4  fis'4  fis'4  fis'4 | % 37
       a'2.  fis'4 | % 38
@@ -105,13 +105,12 @@
 
       } % score
 
-      \markup \halign #-27.9 \raise #2.8 \override #'(baseline-skip . 2) {
-        \column  {
-          \line  {
-            \italic \right-align { "attacca" }
-          }
+      \markup \raise #2.8 \override #'(baseline-skip . 2) {
+        \column {
+          \fill-line \italic { "" "" \concat {"attaca" "   " }}
         }
       }
+      
       \pageBreak
 
       % include foreign translation(s) of the song
