@@ -15,8 +15,8 @@
       \tempo "Andante cantabile"
       \autoBeamOff
       b'4  b'4 e''2.  dis''4 | % 258
-      b''2.  a''4 \times 2/3 {
-        gis''4 (  fis''4 )  e''4
+      b''2.  a''4 \tupletUp  \times 2/3 {
+        \once \override Slur.positions = #'(1 . 1) gis''4 (  fis''4 )  e''4
       }
       | % 259
       dis''4  cis''4  dis''4.  dis''8
@@ -34,7 +34,7 @@
       \time 4/4  | % 265
       g'2 r2 \bar "||"
       \key bes \major | % 266
-      d'4 d'4 es'4. d'8 | % 267
+      d'4 d'4 es'?4. d'8 | % 267
       g'2  bes'2 ^\fermata \break | % 268
       c''2  bes'4  bes'4 | % 269
       a'2 g'4 g'4 |
@@ -60,7 +60,7 @@
       g''2  f''4  es''4  d''4 |
       \time 3/2  |
       c''4  bes'4 a'2.  c''4 \break | % 281
-      bes'2 ^\fermata g'4 ^ "," g'2 ^\fermata
+      bes'2 ^\fermata \breathe g'4 g'2 ^\fermata
       g'4 | % 282
       g'2. r4 g'4 a'4 | % 283
       g'1 r2 \bar "|."
@@ -101,15 +101,6 @@
 
       } % score
       \pageBreak
-
-      \markup \halign #-27.9 \raise #2.8 \override #'(baseline-skip . 2) {
-        \column  {
-          \line  {
-            \italic \right-align { "attacca" }
-          }
-        }
-      }
-
 
       % include foreign translation(s) of the song
       \include "lyrics_de/199_nb_sedmi_bozhestven_den_lyrics_de.ly"
