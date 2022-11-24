@@ -24,10 +24,10 @@
       }
        g4^\> ~ | % 5
       g2 \! bes4 \break | % 6
-      a2 \p g4 | % 7
+      a2^\p g4 | % 7
       fis2 es4 | % 8
       d2 c8 ( [es8] ) | % 9
-      d2 \breathe^ \< c4 \break
+      d2 \breathe  c4^\< \break
       es2 d4 | % 11
       d2 bes'4 | % 12
       a2 \!  g4 | % 13
@@ -65,14 +65,14 @@
 
 
     \header {
-      title = \titleFunc "Вътрешния глас на Бога " "Vatreshniya glas na Boga"
+      title = \titleFunc "Вътрешният глас на Бога " "Vatreshniyat glas na Boga"
     }
 
     \midi{}
 
   } % score
 
-  
+  \markup \dc-one "D. C."
 
   % include foreign translation(s) of the song
   %\include "lyrics_de/000_empty_template_lyrics_de.ly"
