@@ -12,10 +12,10 @@
       \clef treble
       \key g \minor
       \time 6/4
-      \tempoFunc "Moderato" 4 "69"
+      \tempoFunc "Andantino" 4 "72"
       \autoBeamOff
       \autoBeamOff
-      d2 \p  g2  d2 | % 2
+      d2^\p  g2  d2 | % 2
       \time 4/2  | % 2
       d2^\<  g2. (  a4 ) \! \>  g4 \!
       \<  es4 | % 3
@@ -34,8 +34,8 @@
       c4^\mf  bes4^\<  a2 | % 9
       c4  d4  es2 \! |
       bes4 ^\p  a4^\>  g2 | % 11
-      f'4 (  es4 )  d2 \! \break | % 12
-      es,8 ( [ ^\pp  d8 ) ]  cis8 ( [  d8) ]  es2 ( ~ | % 13
+      f4 (  es4 )  d2 \! \break | % 12
+      es8 ( [ ^\pp  d8 ) ]  cis8 ( [  d8) ]  es2 ( ~ | % 13
       es4  d4 ) r2 | % 14
       d4. (  c8  f8 [  es8 ) ]  d8
       ( [  cis8 ) ] | % 15
@@ -53,7 +53,7 @@
     }
     \addlyrics {
       Ед -- на -- та, А -- дит -- на,
-      Би-- от -- на Ам -- ри -- хал --
+      Би от -- на Ам -- ри -- хал --
       на. А -- ме -- рун, Ше -- ме --  рун.
       Ил Би -- хар, Ил Би -- хар, Ил Би
       -- хар. Би -- хар, Ил  Би --
@@ -63,7 +63,7 @@
       ю.}
       \addlyrics {
         Ed -- na -- ta, A -- dit -- na,
-        Bi-- ot -- na Am -- ri -- hal --
+        Bi ot -- na Am -- ri -- hal --
         na. A -- me -- run, She -- me --  run.
         Il Bi -- har, Il Bi -- har, Il Bi
         -- har. Bi -- har, Il  Bi --
