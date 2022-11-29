@@ -14,11 +14,13 @@
       \time 5/4
       \tempoFunc "Andante" 4 "66"
       \autoBeamOff
-      \autoBeamOff
+      \override Hairpin #'to-barline = ##f
+      \override Hairpin #'after-line-breaking = ##t 
+
       d'2  a2^\<
       a4 | % 81
       \time 3/4  | % 81
-      d4. (  e8 ) \!  d4 ^\> | % 82
+      d4. (  e8  \! )  d4 ^\> | % 82
       bes4 (  a4 )  g4 | % 83
       a2. \! \break | % 84
       \time 5/4  | % 84
@@ -33,9 +35,9 @@
 
       \key d \major | % 88
       r4  b4. ( ^\pp  cis8 ) ^\<  fis,4 | % 89
-      b2.  a4 \! |
-      g2^\>  a4  fis4 | % 91
-      e4. ( \! ^\mf  fis8 )  d4  cis8
+      b2.  \! a4 |
+      g2^\>  a4  fis4  \! | % 91
+      e4. ( ^\mf  fis8 )  d4  cis8
       d8 | \break % 92
       e4  d4  cis4 (  d4 ) | % 93
       b2. r4 \bar "||"
@@ -46,7 +48,7 @@
       b8 )  ais4 ^\>  gis4  ais8
       fis4 ~ | \break % 96
       fis2 r2 \! | % 97
-      gis4. (  ais8 )  b4  ais4 | % 98
+      \time 4/4 gis4. (  ais8 )  b4  ais4 | % 98
       gis4  fis4  e4. (  fis8 ) | % 99
       dis2. r4  |
       \time 3/4  |
@@ -74,20 +76,20 @@
       ais8  ais8  b4 ^\<  ais4
       b8 ( [  cis8 ) ] \bar "||"
       | % 107
-      \key dis \minor | % 107
+      \key dis \minor | \break % 107
       ais4 (  fis'2. | % 108
       eis4 )  dis4 ^\markup{ \bold {rall.} }
       cisis8. ( [ \!  dis16 ) ]  dis4 ~
       ^\mf | % 109
-      dis2. ^\fermata r8 ^\markup{
+      dis2. ^\fermata r8^\markup{\musicglyph "scripts.caesura.straight"} b8^\markup{
         \bold {
           Tempo I
         }
-      }b8
+      }
       ^\> |
       \time 6/8  |
-      ais4  gis8  fis4 \!  dis8 \break | % 111
-      eis4  fis8 \!  dis4  dis8 | % 112
+      ais4  gis8  fis4  dis8 \break | % 111
+      eis4  \! fis8 \!  dis4  dis8 | % 112
       \time 3/4  | % 112
       b'4. (  ais8 )  b8 ( [  cis8
       ) ] | % 113
@@ -131,7 +133,7 @@
       -- риш в~бъ -- де -- ще -- то. Да
       се  сла -- ви И -- ме --
       то Ти и във Тво -- я -- та
-      сла -- ва да -- ве -- ем ни
+      сла -- ва "да жи" -- ве -- ем ни
       -- е. Да се въ -- дво -- ри
       Цар -- ство -- то Ти,
       и ни -- е да у -- част -- ва -- ме
@@ -154,7 +156,7 @@
         -- rish v~ba -- de -- shte -- to. Da
         se  sla -- vi I -- me --
         to Ti i vav Tvo -- ya -- ta
-        sla -- va da -- ve -- em ni
+        sla -- va "da zhi" -- ve -- em ni
         -- e. Da se va -- dvo -- ri
         Tsar -- stvo -- to Ti,
         i ni -- e da u -- chast -- va -- me
@@ -174,7 +176,7 @@
 
       } % score
 
-
+      \markup \empty-one
 
       % include foreign translation(s) of the song
       \include "lyrics_de/204_molitva_lyrics_de.ly"
