@@ -35,7 +35,7 @@
       d'4  cis'8 ( [  b8 ) ]  e'4.  e'8
       |
       \time 5/4  |
-      gis'4  fis'8   e'8  b'4  a'8
+      gis'4  fis'8   e'8  b'4 \tempo "rit." a'8
       fis'8 ^\>  a'8  b'8
       \break | % 11
       a'2 ^\! ^\p r4 r2 \bar "||"
@@ -52,12 +52,12 @@
       \time 4/4  | % 16
       gis'4  fis'4  fis'4  fis'4 | % 17
       \time 5/4  | % 17
-      fis'4. ( ^\<  gis'8 ) ^\!  e'2 ^\>  d'8 \breathe
-      ^\!  ^\p  d'8   \break | % 18
+      fis'4. ( ^\<  gis'8 ) ^\!  e'2 ^\> \breathe d'8 
+      ^\!  ^\p  d'8 \break | % 18
       fis'2  e'4 r4  e'4 ^\mf | % 19
       \time 6/4  | % 19
       e''2  cis''8   a'8   cis''4
-      b'4  fis'8  ^\p  gis'8 \break |
+      b'4  fis'8  ^\p  gis'8 | \time 6/4 \break 
 
       b'2  a'2 r4 ^\fermata
       \tempoFunc "Moderato" 4 "80"
@@ -73,13 +73,13 @@
       dis''8 ) ] | % 25
       e''4 ^\!  cis''4  b'4 ^\>  a'4 | % 26
       gis'4 (  fis'2 ) ^\!  e'4 ^\p ^\< \break | % 27
-      fis'4  e'4  b'4 ^\!  a'8 ( [
+      fis'4  e'4 ^\! b'4  a'8 ( [
       gis'8 ) ] | % 28
       a'2.  e'4 ^\p | % 29
       g'4  fis'4  e'4  dis'8 ( [  e'8
       ) ] |
       fis'2.  g'4 ^\mf \break | % 31
-      b'4  a'4  c''4  b'8 ( [  a'8
+      b'4  a'4  cis''4  b'8 ( [  a'8
       ) ] | % 32
       d''2.  cis''4 ^\ff  | % 33
       e''4  b'4  a'4  gis'4 | % 34
@@ -89,9 +89,16 @@
       a'2.  b'8 ( [ ^\pp  cis''8 ) ]
       | % 37
       b'4  a'4  gis'4  fis'8 ( [
-      gis'8 ) ] | % 38
-      a'2.  b'8 ( [  cis''8 ) ^\fermata ]
-      \breathe | % 39
+      gis'8 ) ] | \break % 38
+      a'2.  b'8 ( [  cis''8 ) ]
+      ^\markup { 
+        \override #'(baseline-skip . 1.2)        
+        \column {
+          \line { "   " \musicglyph #"scripts.ufermata"}
+          \line { "   " \musicglyph #"scripts.caesura.straight" }
+        } 
+      }
+      | % 39
       b'4  a'4  gis'4  fis'8 ( [ ^\ppp
       gis'8 ) ] |
       a'2. r4 \bar "|."
