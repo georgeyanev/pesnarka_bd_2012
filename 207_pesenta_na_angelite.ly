@@ -12,8 +12,10 @@
       \clef treble
       \key c \major
       \time 4/4
-      \tempoFunc "Moderato" 4 "69"
+      \tempoFunc "Lento" 4 "50"
       \autoBeamOff
+      \override Hairpin #'to-barline = ##f
+      \override Hairpin #'after-line-breaking = ##t 
       e'4  d'4  f'4  e'4 | % 2
       d'8  d'8  c'8  d'8  e'4
       e'4 | % 3
@@ -26,7 +28,7 @@
       c''8 ) ] | % 7
       b'8  a'8 ( [  g'8 ) ]  f'4  e'8
       | % 8
-      e'4. ( \acciaccatura {  g'8 }  f'4 )
+      e'4. ( \appoggiatura {  g'8 }  f'4 )
       d'8 \break | % 9
       d'4.  e'4. |
       r4  g'8
@@ -34,8 +36,8 @@
       g'4. ~ ^\< | % 11
       g'4.  g'4. | % 12
       g'4  g'8  g'4  g'8 | % 13
-      a'4. ~  a'4  g'8 \break | % 14
-      c''4. _\! r4  e'8 | % 15
+      a'4. ~  a'4  g'8 _\! \break | % 14
+      c''4.  r4  e'8 | % 15
       \time 9/8  | % 15
       f'4. ^\markup{ \italic {poco rall.} }  e'4. r4. \bar
       "||"
@@ -46,15 +48,15 @@
       \grace {  c''16 ( [  d''16 ] } c''8 ) ^\>
       bes'8  as'8 bes'8 c''8
       as'8 \grace {  g'16 ( [  as'16 ] }  g'8 )
-      f'8 ^\! | % 18
-      g'8 ^\<  as'8 bes'8 c''8
-      c''16 ( [ ^\!  bes'16  as'16 )  ] g'16
+       ^\! f'8 | % 18
+      g'8 ^\<  as'8 bes'8 c''8  ^\!
+      c''16 ( [ bes'16  as'16 )  ] g'16
       f'8  es'8  \bar "||"
       \break | % 19
       \time 6/8  | % 19
-      \tempoFunc "" 4 "46"
-      g'4. ^\>  g'4. |
-      as''8 ( [ ^\! ^\p g''8 ) ] f''8
+      \tempoFunc "" 4. "46"
+      g'4. ^\>  g'4.  ^\! |
+      as''8 ( [ ^\p g''8 ) ] f''8
       es''8 ( [ d''8 ) ] c''8 | % 21
       bes'8 ( [  as'8 ) ]  g'8 c''8 ( [
       es''8 ) ] d''8 | % 22
@@ -106,7 +108,7 @@
       }
       | % 51
       c''4. | % 52
-      g'4. ^ "," | % 53
+      g'4.  \breathe | % 53
       d''8 c''8 bes'8 | % 54
       \time 6/8  | % 54
       as''8 ( [ g''8 ) ] f''8 es''8
@@ -114,8 +116,8 @@
       \break | % 55
       \time 2/4  | % 55
       \tempoFunc "" 4 "46" | % 55
-      bes'4 ( \grace {
-        c''16 [  bes'16  a'16
+      bes'4 ( \acciaccatura {
+        c''16 [bes'16 a'16
         bes'16 ]
       }
       f''8 )  \breathe as'8  | % 56
@@ -204,7 +206,7 @@
       по об -- раз и по -- до --
       би -- е на Бо -- га, слу -- шай
       -- те  гла -- са  на ва --
-      ши -- я Тво -- рец,  слу --
+      ши -- я Тво -- рец, __ слу --
       шай -- те  гла -- са  на ва
       -- шия Ба -- ща, Кой -- то днес
       ви  го -- во -- ри. Слу -- шай
@@ -246,7 +248,7 @@
         po ob -- raz i po -- do --
         bi -- e na Bo -- ga, slu -- shay
         -- te  gla -- sa  na va --
-        shi -- ya Tvo -- rets,  slu --
+        shi -- ya Tvo -- rets, __ slu --
         shay -- te  gla -- sa  na va
         -- shia Ba -- shta, Koy -- to dnes
         vi  go -- vo -- ri. Slu -- shay
