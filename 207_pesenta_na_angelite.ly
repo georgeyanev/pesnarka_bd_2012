@@ -125,6 +125,7 @@
       g'4  f'4  es'4 (  d'4 ) \bar "||"
       es'2. r4 \bar "||"
       \break | % 58
+      \once \override Staff.KeyCancellation #'break-visibility = #all-invisible
       \key e \major \time 3/4 | % 58
       \tempoFunc "Moderato" 4 "72"
       b'4. b'8 b'8 b'8 | % 59
@@ -137,7 +138,9 @@
       gis'2 r8  gis'8 \break | % 62
       \time 6/4  | % 62
       a'8 ^\< b'8 cis''8 dis''8
-      dis''2 e''2 ^\! ^\> \bar "||"
+      dis''2 ^\! 
+      \once \override Hairpin #'to-barline = ##t
+      e''2 ^\> \bar "||"
       \key b \major \time 2/4 | % 63
       \tempoFunc "Meno mosso" 4. "52"
       dis''8 ( [ _\! e''8 ] fis''8 [
@@ -151,8 +154,8 @@
       ( [ b'8 ) ]  b'8 ( [  ais'8 ) ] | % 68
       gis'8 ( [  ais'8 ) ] b'4 \bar "||"
       \time 9/8  | % 69
-      dis''8 ( [  e''8
       \tempoFunc "Più mosso" 4. "104"
+      dis''8 ( [  e''8
       dis''8 ] e''8 [
       fis''8 e''8 ) ] fis''8 ( [ gis''8
       fis''8 ) ] \break |
@@ -162,12 +165,14 @@
       b'8 ( [ ^\markup{ \italic {rit. molto} } cis''8
       b'8 ] cis''8 [ dis''8 cis''8
       ) ] dis''8 ( [ e''8 ) dis''8 ] | % 72
-      b'8 \grace {  cis''16 ( [  dis''16 ] }
-      cis''8 ) ( [ b'8 ) ] b'8 \grace {
-        b'16 ( [  cis''16 ]
-      }
-      b'8 ) ( [
-      ais'8 ) ] b'4. \break | % 73
+      
+      b'8 [ \acciaccatura { cis''16 [  dis''16 ] }
+      cis''8 ( b'8 )]  
+      
+      b'8 [ \acciaccatura { b'16 [  cis''16 ] }
+      b'8 ( ais'8 )] 
+      
+      b'4. \break | % 73
       \time 4/4  | % 73
       \tempoFunc "Moderato" 4 "80"
       dis''16 ( [ cis''16 dis''16
@@ -179,17 +184,20 @@
       cis'''16 -. [ b''16 -. ais''16 -.
       gis''16 ) -. ] fis''16 ( -. [ e''16 )
       -. ] ^\markup{ \italic {rit.} } dis''16 -. cis''16
-      -. \grace {  cis''16 ( [  dis''16 ] } cis''8
-      ) b'8 \break | % 75
+      -. \acciaccatura {  cis''16 [  dis''16 ] } cis''8
+      b'8 \break | % 75
       b'8  ais'8 b'4 r8
-      b'8
+      b'8^\<
        \tempoFunc "Meno" 4 "60"
        \time 2/4  | % 76
       cis''8 dis''8 e''8. cis''16
       | % 77
       \time 4/4  | % 77
-      fis''4. fis''8 ^\! <\parenthesize b'
-      b''>2 ^\ppp ^\> \bar "|."
+      fis''4. ^\! fis''8 
+      <\parenthesize b'
+      b''>2 ^\>
+      \once \override Score.BarLine.break-visibility = ##(#f #f #f)      
+      s^\ppp ^\! \bar "|."
     }
 
    \addlyrics {
@@ -229,8 +237,8 @@
       Тво -- рец. Сла --
       ва,   сла --
       ва,   сла --
-      ва  на на --  ши --
-      я   Ба -- ща. Сла --
+      "ва    на" "на -  ши" --
+      "я       Ба" -- ща. Сла -- "" -- "" --
       ва на   на -- ши -- я Ба
       -- ща, на на -- ши -- я Ве -- лик Ба
       -- ща.}
@@ -271,8 +279,8 @@
         Tvo -- rets. Sla --
         va,   sla --
         va,   sla --
-        va  na na --  shi --
-        ya   Ba -- shta. Sla --
+        "va    na" "na -  shi" --
+        "ya     Ba" -- shta. Sla -- "" -- "" --
         va na   na -- shi -- ya Ba
         -- shta, na na -- shi -- ya Ve -- lik Ba
         -- shta.}
@@ -285,7 +293,7 @@
 
   } % score
 
-
+  \markup \empty-one
 
   % include foreign translation(s) of the song
    \include "lyrics_de/207_pesenta_na_angelite_lyrics_de.ly"
