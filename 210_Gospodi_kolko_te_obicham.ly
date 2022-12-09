@@ -16,7 +16,7 @@
       \autoBeamOff
 
       \partial 4
-      ^\p ^\<  d'4 ( | % 2
+      d'4^\p^\< ( | % 2
       e'2. ) | % 3
       d'2. ^\! ^\> | % 4
       d'2. | % 5
@@ -34,16 +34,19 @@
       r2 b4 ^\p | % 13
       d'2 ^\< c'4 ^\! \break | % 14
       b2 r4 | % 15
+      \once \override Hairpin #'to-barline = ##f
       a2 ^\> b4 | % 16
       g2 ^\! r4 \bar "||"
-      \time 3/8  | % 17
+      \time 3/8 \tempoFunc "Allegro" 8 "120" | % 17
       r8 r8 b16 ( [ ^\mp d'16 ) ] | % 18
+      \once \override Hairpin #'to-barline = ##f
       g'4 ^\< fis'16 ( [ g'16 ) ] | % 19
-      b'4 a'16 ( [ ^\! g'16 ) ] |
+      b'4 ^\! a'16 ( [ g'16 ) ] |
+      \once \override Hairpin #'to-barline = ##f
       fis'4 ^\> e'8 \break | % 21
       e'4 ( fis'8 ) | % 22
-      d'4. ~ | % 23
-      d'8 ^\! r8 g'16 ( [ a'16 ) ] | % 24
+      d'4. ~ ^\! | % 23
+      d'8 r8 g'16 ( [ a'16 ) ] | % 24
       b'4 \once \omit TupletBracket
       \times 2/3  {
         a'16 ( [ b'16 a'16 ) ]
@@ -60,9 +63,9 @@
       }
       \break | % 27
       g'8 ( ~ [ g'16 a'16 b'16 c''16
-      ) ] | % 28
+      ] | % 28
       d''16 -. [  e''16 -.  fis''16 -.
-      g''16 -.  d''8 ~ ] | % 29
+      g''16 -. ) d''8 ~ ] | % 29
       d''4  b'16 ( [  c''16 ) ] |
       b'4 a'8 | % 31
       g'8.  fis'16 ( a'32 [ g'32
@@ -71,8 +74,9 @@
       c'4 ( d'8 ) | % 34
       b4. \bar "||"
       \time 3/4  | % 35
-      % 35
-      b4 d'4 ^\mf g'4 | % 36
+      \tempoFunc "Moderato" 4 "80"
+      b4 ^\mf 
+      d'4 g'4 | % 36
       b'2 (  c''16 [  b'16  a'16
       b'16 ] | % 37
       d''4 )  c''4 a'4 | % 38
@@ -83,23 +87,26 @@
       es'2. | % 42
       es'2 f'4 | % 43
       d'2. | % 44
-      d'4 ^\p c'4 b4 \break | % 45
-      c'4 ( e'4 ) e'4 | % 46
+      d'4 ^\p c'4 b4 \pageBreak | % 45
+      c'4 ( e'!4 ) e'4 | % 46
       d'2 d'4 ^\p ^\< | % 47
       e'2 fis'4 ^\! | % 48
-      g'2 ^\> d'4 ^\! ^\mp | % 49
-      b'2 ^\< a'4 ^\! ^\> \break |
-      g'2 d'4 ^\! ^\pp | % 51
-      fis'2 ^\< e'4 ^\! ^\> | % 52
-      d'2 r4 ^\! | % 53
+      \override Hairpin #'to-barline = ##f
+      g'2 ^\> d'4 ^\mp ^\!
+      
+      ^\<  | % 49
+      b'2 ^\! a'4 ^\> \break |
+      g'2 d'4 ^\! ^\pp  ^\< | % 51
+      fis'2  ^\! e'4 ^\> | % 52
+      d'2 ^\! r4 | % 53
       d'4 ( e'4 ) ^\fermata d'4
       ^\markup{
         \italic
         {rall.}
       }
       ^\ppp | % 54
-      d'2. ~^\> | % 55
-      d'2. \bar "|."
+      d'2. ~ ^\> | % 55
+      d'2. ^\! \bar "|."
     }
 
     \addlyrics {
@@ -108,7 +115,7 @@
       -- ди мой, кол -- ко Те лю -- бя! О -- би -- чам
       Те, Гос -- по -- ди! О -- би -- чам Тво -- и --
       те дръв -- че -- та, о -- би -- чам Тво -- и --
-      те цве -- тен --  ца, о -- би
+      те цве -- "тен           -           -            ца," о -- би
       -- чам Тво -- и -- те ре -- кич -- ки, о -- би --
       чам Тво -- и -- те  пла -- ни -- ни всич -- ко,
       Гос -- по -- ди, ко -- е -- то Си съз -- дал. О
@@ -120,7 +127,7 @@
         -- di moy, kol -- ko Te lyu -- bya! O -- bi -- cham
         Te, Gos -- po -- di! O -- bi -- cham Tvo -- i --
         te drav -- che -- ta, o -- bi -- cham Tvo -- i --
-        te tsve -- ten --  tsa, o -- bi
+        te tsve -- "ten            -           -            tsa," o -- bi
         -- cham Tvo -- i -- te re -- kich -- ki, o -- bi --
         cham Tvo -- i -- te  pla -- ni -- ni vsich -- ko,
         Gos -- po -- di, ko -- e -- to Si saz -- dal. O
@@ -135,7 +142,7 @@
 
       } % score
 
-
+      \markup \empty-one
 
       % include foreign translation(s) of the song
       \include "lyrics_de/210_Gospodi_kolko_te_obicham_lyrics_de.ly"
