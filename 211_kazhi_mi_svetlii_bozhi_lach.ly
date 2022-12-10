@@ -12,7 +12,7 @@
       \clef treble
       \key g \major
       \time 3/4
-      \tempoFunc "Moderato" 4 "69"
+      \tempoFunc "Moderato" 4 "80"
       \autoBeamOff
 
       d'4 (  ^\p  ^\<  e'4. )  d'8  ^\! | % 2
@@ -48,9 +48,11 @@
       \time 3/4  | % 23
       d'2 r8  d'8  ^\p \break | % 24
       f'2. | % 25
-      es'2  d'8.  ^\<  d'16 | % 26
+      es'2    
+      \once \override Hairpin #'to-barline = ##f
+      d'8. ^\<  d'16 | % 26
       \time 4/4  | % 26
-      g'4  ^\!  f'4  ^\>  es'4  es'8.  ^\! ^\<
+      g'4  ^\!  f'4  ^\>  es'4 ^\! es'8. ^\<
       f'16 | % 27
       d'2  ^\!  ^\> r4  ^\!  d'4  ^\mf \break | % 28
       b'4  a'4  g'4 \once \omit TupletBracket
@@ -69,10 +71,10 @@
         d'2.  ^\! | % 36
         c'2  ^\mp  ^\<  b4 | % 37
         c'2  e'4  ^\! | % 38
-        e'2.  ^\> \break | % 39
+        e'2.  ^\> \pageBreak | % 39
         d'2. |
         d'2  ^\!  ^\<  d'4 | % 41
-        e'2  ^\! ^ "cresc."  d'4 | % 42
+        e'2  ^\! ^\markup \italic { "cresc." }  d'4 | % 42
         \once \omit TupletBracket
         \times 2/3  {
           c'8 ( [  b8 ^\markup{ \italic {ten.} }
@@ -127,13 +129,14 @@
 
 
         \header {
-          title = \titleFunc "Кажи ми светлий божи лъч II  " "Kazhi mi svetliy bozhi lach II"
+          title = \titleFunc "Кажи ми светли Божи лъч II  " "Kazhi mi svetli Bozhi lach II"
         }
 
         \midi{}
 
       } % score
-
+      
+      \markup \empty-one
 
       % include foreign translation(s) of the song
       \include "lyrics_de/211_kazhi_mi_svetlii_bozhi_lach.ly"
