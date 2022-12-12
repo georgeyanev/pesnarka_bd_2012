@@ -28,18 +28,18 @@
       g''8. (   f''8 ) e''8. |
       d''8. (   e''8 )   fis''16 ( [
       e''16  d''16 ) ] | % 11
-      cis''8. ( ~   cis''8  b''8. ~  | % 12
+      cis''8. \=1( ~   cis''8  b''8. ~  | % 12
       b''8.  a''16 [  g''16 ]  fis''16
-      [  e''16  d''16 ) ] \break | % 13
-      cis''8. (   d''8 )   e''8. | % 14
+      [  e''16  d''16 ] \break | % 13
+      cis''8. (   d''8 ) \=1)   e''8. | % 14
       d''8. ~   d''8 ~  d''8. \bar "||"
       \time 9/16  | % 15
       d'8 ^\p ^\<  d'8  f'8  a'8. | % 16
       d''8 ~   d''8  d''8 ~  d''8.
       \break | % 17
       \time 8/16  | % 17
-      f''8. ^\! \grace {  g''16 ( [  f''16 ] }
-      e''8 )  d''8. ^\> | % 18
+      f''8. ^\! \acciaccatura {  g''16 [  f''16 ] }
+      e''8 d''8. ^\> | % 18
       e''8.  d''8 ~   d''8.  | % 19
       cis''8.  bes'8  g'8. |
       bes'8.  a'8 ~  ^\!  a'8.  \break | % 21
@@ -49,14 +49,14 @@
       f''8. ~   f''8   a''8. | % 23
       g''8. ( [  f''8 ) ]  e''8. | % 24
       d''8. (   e''8   fis''16 [
-      e''16  d''16 ) ] \break | % 25
+      e''16  d''16 ] \break | % 25
       cis''8. ~   cis''8  b''8. ~  | % 26
-      b''8.  a''16   [g''16 ] fis''16
+      b''8.  a''16   [g''16 ] fis''16 )
       e''16  d''16 | % 27
       cis''8. (   d''8 )  e''8.  | % 28
       d''8. ~   d''8 ~  d''8.  \bar "||"
       \break | % 29
-      g'8. \tempo "Moderato" ^\<  a'8
+      \tempo "Moderato" g'8.^\<  a'8
       bes'8. |
       cis''8.  d''8 ~   d''8.  | % 31
       e''8 (  ^\!  f''16 )   g''16 (
@@ -78,7 +78,7 @@
       a'8. ~   a'8 ~  a'8.  ^\! \bar "||"
       \break | % 41
       \key bes \major | % 41
-      a'8. ^\p \tempo "Allegro"  es''8
+      \tempo "Allegro" a'8. ^\p  es''8
       d''8. | % 42
       cis''8.  d''8 ~   d''8.  | % 43
       cis''8.  bes'8  a'8. | % 44
@@ -109,13 +109,13 @@
       g''8.  g''16 ( [  a''16 ) ]
       bes''32 ( ^\fermata [  a''32  g''32  f''32
       e''32  d''32 ) ] | % 59
-      e''8. \grace {  f''16 ( [  e''16 ] }
-      d''8 ) ~  d''8. \break |
+      e''8. \acciaccatura {  f''16 [  e''16 ] }
+      d''8 ~  d''8. \break |
       cis''8.  bes'8 ( ~   bes'8.  ^\> | % 61
       a'16 [  bes'16  cis''16 ]  d''16
       [  cis''16 ]  bes'16 [  a'16 )  ] g'16
       | % 62
-      bes'8.  a'8 ~   a'8. \break | % 63
+      bes'8.  a'8 ~   a'8. \pageBreak | % 63
       a'8. ^\!  a'8  f''8. ~ | % 64
       f''8. ~   f''8  a''8. ^\fermata  | % 65
       g''8. (   f''8 )   e''8. | % 66
@@ -133,20 +133,20 @@
       мо -- е -- то Слън -- це  днес
       ще из -- гре -- е.  То Свет --
       ли -- на  и Ра -- дост ще
-      ми   до  -- \skip1 не -- се.
+      ми   до  -- не -- се.
       Ми -- ла мо -- я ма -- мо,
       мо --  е -- то Слън -- це
       днес ще из -- гре -- е  и
       Ра -- дост свет --  ла то
       в~Жи -- во  --
-      \skip1 \skip1 \skip1 \skip1 та ми ще
+      та ми ще
       вне -- се.   То -- га -- ва, ма
       -- мо,  аз  ще  се  про
-      -- я --  вя,  __   го --
+      -- я --  вя,   го --
       тов ще бъ -- да да  про
-      -- я -- вя  __  До --  бро
+      -- я -- вя  До --  бро
       -- то   във све --
-      та.  __  Ще мис -- ля до --
+      та. Ще мис -- ля до --
       бре,  ще чув -- ствам до --
       бре,  ще  по -- стъп --
       вам   до -- бре,  ма --
@@ -167,20 +167,20 @@
       shte iz -- gre -- e.  To Svet --
       li -- na  i Ra -- dost shte
       mi   do  --
-      \skip1 ne -- se.
+      ne -- se.
       Mi -- la mo -- ya ma -- mo,
       mo --  e -- to Slan -- tse
       dnes shte iz -- gre -- e  i
       Ra -- dost svet --  la to
       v~Zhi -- vo  --
-      \skip1 \skip1 \skip1 \skip1 ta mi shte
+      ta mi shte
       vne -- se.   To -- ga -- va, ma
       -- mo,  az  shte  se  pro
-      -- ya --  vya,  __   go --
+      -- ya --  vya,  go --
       tov shte ba --   da  da pro
-      -- ya -- vya  __  Do --  bro
+      -- ya -- vya Do --  bro
       -- to   vav sve --
-      ta.  __  Shte mis -- lya do --
+      ta. Shte mis -- lya do --
       bre,  shte chuv -- stvam do --
       bre,  shte  po -- stap --
       vam   do -- bre,  ma --
