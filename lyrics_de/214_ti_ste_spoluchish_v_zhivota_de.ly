@@ -1,12 +1,12 @@
-\version "2.18.2"
+\version "2.22.1"
 
-\markup \fill-line { \fontsize #6 "Du wirst im Leben Erfolg haben" }
+\markup \fill-line { \fontsize #deTitleFontSize "Du wirst Erfolg haben im Leben" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.5 {
+\markup \fontsize #deCoupletFontSize {
     \hspace #14
-    \override #'(baseline-skip . 2)
-    \column {
+    \override #`(baseline-skip . ,deCoupletBaselineSkip)
+        \column {
      \line { " " }
       \line {   "   " Schön ist das Leben der Engel.  }
       \line {   "   " Schön ist das Leben unserer Seele.  }
