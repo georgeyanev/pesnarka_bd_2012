@@ -34,8 +34,7 @@
       d''2 r2 \repeat volta 2 {
         | % 11
         \key bes \major \time 6/4 | % 11
-        d'2 (
-        \tempo "Lento" bes'2 )
+        \tempo "Lento" d'2 ( bes'2 )
         a'2 | % 12
         g'2.  \breathe fis'4  g'4  a'4 \break
         | % 13
@@ -74,7 +73,7 @@
         vav iz -- ku -- she -- ni -- e.}
 
         \header {
-          title = \titleFunc "Отче наш, не ни въвеждай в искушение" "Otche nash, ne ni vavezhday v iskushenie"
+          title = \titleFunc "Отче наш, не ни въвеждай в изкушение" "Otche nash, ne ni vavezhday v izkushenie"
         }
 
         \midi{}
