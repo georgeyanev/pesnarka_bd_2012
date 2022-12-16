@@ -12,11 +12,11 @@
       \clef treble
       \key g \major
       \time 2/4
-      \tempoFunc "Andante" 4 "72"
+      \tempoFunc "Andante" 4 "66"
       \autoBeamOff
       r8  d'8  g'8  b'8 | % 2
       d''4.  c''8 | % 3
-      \grace {  b'16 ( [  c''16 ] }  b'8 )
+      \acciaccatura {  b'16 [  c''16 ] }  b'8
       a'8  g'8 ( [  b'8 ) ] | % 4
       a'2 \break | % 5
       r8  d'8  e'8  fis'8 | % 6
@@ -26,7 +26,7 @@
       a'2 \break | % 9
       r8  d'8  g'8  fis'8 |
       b'8  a'8  d''8  c''8 | % 11
-      \grace {  b'16 ( [  c''16 ] }  b'8 )
+      \acciaccatura {  b'16 [  c''16 ] }  b'8
       a'8  a'8 ( [  b'8 ) ] | % 12
       g'2 \break | % 13
       r8  d'8  d'8  d'8 | % 14
@@ -70,15 +70,16 @@
         zhi -- vot.}
 
     \header {
-      title = \titleFunc "Зора на Новия Живот" "Zora na Novia Zhivot"
+      title = \titleFunc "Зора на Новия живот" "Zora na Novia zhivot"
     }
 
     \midi{}
 
   } % score
 
+  \markup \empty-one
    % include foreign translation(s) of the song
-      \include "lyrics_de/215_zora_na_noviya_zhivot_lyrics_de.ly"
+  \include "lyrics_de/215_zora_na_noviya_zhivot_lyrics_de.ly"
 
 } % bookpart
 
