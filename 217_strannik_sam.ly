@@ -67,9 +67,9 @@
       es'2. ^\markup{ \bold {poco a poco rall.} } | % 46
       d'2. | % 47
       a2 bes4 | % 48
-      \override Hairpin #'Y-extent = #'(0 . 3)    
+      \override Hairpin #'Y-extent = #'(0 . 3)
       c'2. ^\>  % 49
-      d'2. ^\fermata ^\ppp | 
+      d'2. ^\fermata ^\ppp |
       \bar "|."
     }
 
@@ -101,7 +101,7 @@
         Te -- be.}
 
         \header {
-          title = \titleFunc "Странник съм в този свят." "Strannik sam v tozi svyat." 
+          title = \titleFunc "Странник съм в този свят." "Strannik sam v tozi svyat."
         }
 
         \midi{}
