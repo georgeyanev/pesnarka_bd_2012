@@ -176,8 +176,7 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../214_ti_ste_spoluchish_v_zhivota.ly \
     ../215_zora_na_noviya_zhivot.ly \
     ../216_otche_nash_ne_ni_vavezhdai.ly \
-    ../217_strannik_sam.ly \
-
+     ../217_strannik_sam.ly \
     > tmp.ly
 
 lilypond --include=../ -o pesn_all tmp.ly
