@@ -127,7 +127,7 @@
       f'8.  f'16  f'16 ( [  e'16 ) ]
       d'16  cis'16  d'8 ( [  bes8 ) ] | % 67
       a2  a4 \break | % 68
-
+      \pageBreak
       \times 2/3  {
         d'8 ( [ ^\markup{ \bold {Largamente} }  cis'8\prall ) ]
         bes8
@@ -140,6 +140,7 @@
       g'4  e'8.  f'16 | % 71
       d'2 \bar "||"
       \break | % 72
+    
       d''4 ( ^\markup{ \bold {Più mosso} }  bes'4 ) | % 73
       a'8. \tempoFunc "" 4 "84"  gis'16  a'8  bes'8
       | % 74
@@ -214,12 +215,14 @@
       e'4  e'8  fis'8  g'8  b'8
       |
       a'4  fis'4.  a'8  \break | % 101
+      \pageBreak
       b'8  b'8  d''4  cis''4 | % 102
       b'8 ( [  cis''8 ) ]  a'4  g'8
       ^\markup{ \bold {rit.} }  fis'8 | % 103
       | % 103
       e'4 ^\fermata  d'2 \bar "||" |
       \break % 104
+      \pageBreak
       \time 2/4
       \key f \major  % 104
       \tempoFunc "Andante" 4 "66"
