@@ -101,7 +101,7 @@
         Te -- be.}
 
         \header {
-          title = \titleFunc "Странник съм в този свят." "Strannik sam v tozi svyat."
+          title = \titleFunc "Странник съм в този свят" "Strannik sam v tozi svyat"
         }
 
         \midi{}
