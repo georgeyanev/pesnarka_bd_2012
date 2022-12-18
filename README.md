@@ -1,2 +1,3 @@
-# pesnarka_bd_2012
+# Petar Danov songs book 
 ISBN-10 954-744-076-4
+This repository contains all Petar Danov songs in lilypond format bundeled to a song book. The repository provides a german translation of the lyrics. 
