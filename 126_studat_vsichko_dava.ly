@@ -222,7 +222,7 @@
       | % 103
       e'4 ^\fermata  d'2 \bar "||" |
       \break % 104
-      \pageBreak
+     
       \time 2/4
       \key f \major  % 104
       \tempoFunc "Andante" 4 "66"
@@ -390,7 +390,7 @@
       } % score
 
 
-      \pageBreak
+     \pageBreak
 
       % include foreign translation(s) of the song
       \include "lyrics_de/126_studat_vsichko_dava_lyrics_de.ly"
