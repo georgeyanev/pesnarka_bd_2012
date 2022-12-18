@@ -150,6 +150,33 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../178_molitva.ly \
     ../179_molitva_ti_si.ly \
     ../180_pesen_za_dvete_sestri.ly \
+    ../181_proletna_pesen.ly \
+    ../182_deset_temi.ly \
+    ../185_melodiya_i_krasiv_zhivor.ly \
+    ../186_melodiya_2_v_radostta.ly \
+    ../188_melodiya_3.ly \
+    ../189_osarenie.ly \
+    ../190_glasat_na_zhiviya_Gospod.ly \
+    ../191_nb_parvi_bozhestven_den.ly \
+    ../192_nb_vtori_bozhestven_den.ly \
+    ../193_nb_treti_bozhestven_den.ly \
+    ../194_nb_chetvarti_bozhestven_denly.ly \
+    ../195_nb_peti_bozhestven_den.ly \
+    ../196_nb_shesti_bozhestven_den.ly \
+    ../199_nb_sedmi_bozhestven_den.ly \
+    ../200_vatreshniyat_glas_na_Boga.ly \
+    ../201_edna_vechna_istina.ly \
+    ../202_himni_na_slantzeto.ly \
+    ../204_molitva.ly \
+    ../206_bozhiyata_lyubov_me_osari.ly \
+    ../207_pesenta_na_angelite.ly \
+    ../210_Gospodi_kolko_te_obicham.ly \
+    ../211_kazhi_mi_svetlii_bozhi_lach.ly \
+    ../212_moeto_slanze_dnes_ste_izgree.ly \
+    ../214_ti_ste_spoluchish_v_zhivota.ly \
+    ../215_zora_na_noviya_zhivot.ly \
+    ../216_otche_nash_ne_ni_vavezhdai.ly \
+    ../217_strannik_sam.ly \
 
     > tmp.ly
 
