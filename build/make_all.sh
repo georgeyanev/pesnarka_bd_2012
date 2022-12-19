@@ -1,6 +1,7 @@
 #!/bin/bash
 
-cat ../016_zorata_na_noviya_zhivot.ly \
+cat \
+    ../016_zorata_na_noviya_zhivot.ly \
     ../018_izlyazal_e_seyach.ly \
     ../020_bratstvo_edinstvo.ly \
     ../021_shte_se_razveselya.ly \
@@ -121,7 +122,7 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../154_ne_li_dimah.ly \
     ../155_1_radost_sa_dushata.ly \
     ../155_2_mirat_ide_veche.ly \
-.   ../156_mirat_ide.ly \
+    ../156_mirat_ide.ly \
     ../158_mirat_ide_II.ly \
     ../161_duhai_vetre_II.ly \
     ../162_marsh_na_svetlite_sili.ly \

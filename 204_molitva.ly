@@ -22,16 +22,14 @@
       \time 3/4  | % 81
       d4. (  e8  \! )  d4 ^\> | % 82
       bes4 (  a4 )  g4 | % 83
-      a2. \! \break | % 84
-      \time 5/4  | % 84
+      a2. \! | \time 5/4 \break % 84
+
       g8. ( [  ^\<  a16 ) ]  bes4  c4
       bes4  c4 | % 85
       \time 3/4  | % 85
       d2 \!  f,4 | % 86
-      \time 4/4  | % 86
-      bes4  ^\>  a4  g4. (  a8 ) | % 87
-      g2 \! r2 \bar "||"
-      \break | % 88
+      \time 4/4 bes4  ^\>  a4  g4. (  a8 ) | % 87
+      g2 \! r2 \bar "||" | \break % 88
 
       \key d \major | % 88
       r4  b4. ( ^\pp  cis8 ) ^\<  fis,4 | % 89
@@ -52,8 +50,7 @@
       gis4  fis4  e4. (  fis8 ) | % 99
       dis2. r4  |
       \time 3/4  |
-      cis4 ^\p  b4 ^\markup{ \bold {rall.} }  \break ais4
-      | % 101
+      cis4 ^\p  b4 ^\markup{ \bold {rall.} } ais4 | \break % 101
       b2 r4 | % 102
       \time 4/4  | % 102
       dis4 ^\markup{ \bold {Largo} } ^\p  e4 \grace {
@@ -113,7 +110,7 @@
       } ^\pp |
       b4  ais8.  ais16  gisis8 ( [
       ais8 ) ]  b8  b8 | % 121
-      b4  ais4  ais4  gis4 \break | % 122
+      b4  ais4  ais4  gis?4 \break | % 122
       ais2 r4  gis4 ^\p | % 123
       ais4.  ais8 ^\markup{ \bold {rall.} }  ais8
       ais8  ais8 ( [ ^\>  dis8 ) ] | % 124
