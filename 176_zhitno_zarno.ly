@@ -15,7 +15,7 @@
       \tempoFunc "Moderato" 4 "72"
       \autoBeamOff
       \partial 4
-      c | c2 d4 es | c g'2 g4^\markup { \large \italic "sosten."} | bes8 as g f as2^\markup { \large \italic "a tempo"} | g2. g4 | \break
+      c4 | c2 d4 es | c g'2 g4^\markup { \large \italic "sosten."} | bes8 as g f as2^\markup { \large \italic "a tempo"} | g2. g4 | \break
 
       c,4. c8 d2 (| d4) d^\markup { \large \italic "sosten."} f8 es d c | d4 d2 d4 |\break
 

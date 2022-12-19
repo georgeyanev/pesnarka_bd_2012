@@ -22,7 +22,7 @@
         { \time 6/4 f'4 es'4 d'4 c'2 c'8 ( d'8 ) }
         {
           f'4 \override Staff.BarLine.stencil = ##f es'4 d'4 c'2.
-          \override Staff.BarLine.stencil = ##t
+          \revert Staff.BarLine.stencil
           \bar "|."
         }
       }

@@ -119,7 +119,7 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../146_bylgarska_rapsodia.ly \
     ../150_balgarska_idiliya.ly \
     ../154_ne_li_dimah.ly \
-    ../155_radost_sa_dushata.ly \
+    ../155_1_radost_sa_dushata.ly \
     ../155_2_mirat_ide_veche.ly \
 .   ../156_mirat_ide.ly \
     ../158_mirat_ide_II.ly \
@@ -129,7 +129,7 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../163_berhan_azi.ly \
     ../164_pesen_na_deteto.ly \
     ../165_malkiyat_planinski_izvor.ly \
-    ../166_Bog_e_Lyubov.ly \
+    ../166_Bog_e_Lyubov_II.ly \
     ../167_Kam_fir_fur_fen.ly \
     ../167_2_kazhi_mi_svetal_bozhii_lach.ly \
     ../168_kazhi_mi_ti_istinata_II.ly \
@@ -140,7 +140,7 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../171_vyara_svetla_III.ly \
     ../172_igrata_na_potocheto.ly \
     ../173_malkata_bubolechka.ly \
-     ../174_da_bih_te_slushal.ly \
+    ../174_da_bih_te_slushal.ly \
     ../174_2_slusham.ly \
     ../174_3_radost.ly \
     ../175_2_me-hein.ly \
@@ -176,7 +176,7 @@ cat ../016_zorata_na_noviya_zhivot.ly \
     ../214_ti_ste_spoluchish_v_zhivota.ly \
     ../215_zora_na_noviya_zhivot.ly \
     ../216_otche_nash_ne_ni_vavezhdai.ly \
-     ../217_strannik_sam.ly \
+    ../217_strannik_sam.ly \
     > tmp.ly
 
 lilypond --include=../ -o pesn_all tmp.ly

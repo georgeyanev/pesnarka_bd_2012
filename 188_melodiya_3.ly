@@ -15,7 +15,7 @@
       \tempoFunc "Andante" 4 "66"
       \autoBeamOff
       \partial 4
-      a | d4. cis8 d8 e8 fis8 g8 | a2 fis4 d4 | \break
+      a4 | d4. cis8 d8 e8 fis8 g8 | a2 fis4 d4 | \break
 
       b'4. a8 g fis a gis |g2. g4 | fis4. e8 dis e fis g | \break
 
