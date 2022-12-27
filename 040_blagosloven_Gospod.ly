@@ -12,7 +12,7 @@
       \clef treble
       \omit Score.TimeSignature
       \cadenzaOn % allows custom bar lines
-      \key d \minor
+      \key f \major
       \tempoFunc "Andante" 4 "56/58"
       \autoBeamOff
       \autoBeamOff
