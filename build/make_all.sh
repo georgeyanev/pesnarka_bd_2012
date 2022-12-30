@@ -143,7 +143,7 @@ cat \
     ../171_3_az_moga_da_disham.ly \
     ../172_igrata_na_potocheto.ly \
     ../173_malkata_bubolechka.ly \
-    ../174_da_bih_te_slushal.ly \
+    ../174_1_da_bih_te_slushal.ly \
     ../174_2_slusham.ly \
     ../174_3_radost.ly \
     ../175_2_me-hein.ly \

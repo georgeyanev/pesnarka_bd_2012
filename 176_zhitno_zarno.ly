@@ -21,7 +21,7 @@
 
       f8.^\markup { \large \italic "a tempo"} f16 g8. g16 c4. \fermata c8 | \time 3/4 bes as g f as4 \fermata | g2 f4 | \break
 
-      f4. g8 es4 | c2 d4 | c2 b4 | c2 c4 | \repeat volta 2 {
+      f4. g8 es4 | c2 d4 | d2 b4 | c2 c4 | \repeat volta 2 {
 
         \tempoFunc "Allegro vivace" 2. "50"
         c8 -> d es d c b | |\break
@@ -45,7 +45,7 @@
       \repeat volta 2 {
         \time 4/4
         \tempoFunc "Moderato" 4 "72"
-        \bar ".|:" c4. g8 bes as g f | as2 g4. f8 | f g e2 d4 | c2 r4
+        \bar ".|:" c4. g8 bes as g f | as2 g4. f8 | f g es2 d4 | c2 r4
       }
     }
 
