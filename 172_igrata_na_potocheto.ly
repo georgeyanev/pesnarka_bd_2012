@@ -48,7 +48,7 @@
       \clef treble
       \key g \major
       \time 2/4
-      \tempoFunc "Moderato" 4 "69"
+      \tempoFunc "Allegro" 4 "126"
       %\autoBeamOff
       d''4. cis''16 d''16 | % 2
       e''8 d''8 d''8 c''!8 | % 3
