@@ -136,9 +136,11 @@ cat \
     ../168_kazhi_mi_ti_istinata_II.ly \
     ../169_2_svoboda_e_potrebna_za_dushata.ly \
     ../169_kazhi_mi_ti_isinata_III.ly \
-    ../170_1_vyara_svetla_1.ly \
+    ../170_1_vyara_svetla_I.ly \
     ../170_2_vyara_svetla_II.ly \
-    ../171_vyara_svetla_III.ly \
+    ../171_1_vyara_svetla_III.ly \
+    ../171_2_milost_blagost.ly \
+    ../171_3_az_moga_da_disham.ly \
     ../172_igrata_na_potocheto.ly \
     ../173_malkata_bubolechka.ly \
     ../174_da_bih_te_slushal.ly \
