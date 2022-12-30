@@ -171,7 +171,7 @@
       \tempo "Andante sostenuto"
       d'16\fermata d d d8 d8. |
       e8. c8 b8. |
-      e8. c8 b8. |
+      d8. c8 b8. |
       b8. g8~ g8. \break
 
       b8. d8 d8. |
@@ -185,7 +185,6 @@
       bes8. g8~ g8. |
       bes8 bes16 bes8 bes8. |
       bes8. g8~ g8. | \break
-
       bes8. d8~ d8. |
       cis8. bes8 g8. |
       a8. a8~ a8. |  \bar "||"
@@ -235,15 +234,15 @@
       e2 | % 152
 
       \time 4/4  | % 152
-      g4.f8 e8 ( [d8 ) ]
+      g4.f8 e8 ( [d8 ] ) 
       c8 d8  | % 153
       e4 e2. \bar "||" \break
-      \tempo"Allegretto"
+      \tempo "Allegretto"
       \time 5/16  | % 154
       e8 d8. | % 155
       e8 c8. | % 156
       d16 e16  c8 b16 |% 158
-      d8 b8. | c8 b8 a16 | \break
+      d8 c8. | c8 b8 a16 | \break
       b8  g8. |
       b8 ^\markup{ \bold {rall.} }d8. | % 161
       cis8 bes8. | % 162
@@ -253,15 +252,15 @@
       \break \repeat volta 1 {
         | % 164
         \bar ".|:" \key g \major \time 9/16 | % 164
-        d8 ^\markup{ \bold {a tempo} }e16 ( [
-        fis16 ) ]g8fis8. | % 165
-        g8e8e16 ( [ \stemDown
+        d8 ^\markup{ \bold {a tempo} } e16 ( [
+        fis16 ) ] g8 fis8. | % 165
+        g8 e8 e16 ( [ \stemDown
         fis16 ) ]d8. | % 166
-        d8e16 ( [d16 ) ] \stemDown
-        c8b8. \break | % 167
-        g8  a16 ( [  b16 ) ]c16 (
+        d8 e16 ( [d16 ) ] \stemDown
+        c8 b8. \break | % 167
+        g8 a16 ( [  b16 ) ]c16 (
         [d16 ) ]c8. | % 168
-        d8e16 ( [d16 ) ] \stemDown
+        d8 e16 ( [d16 ) ] \stemDown
         c16 ( [d16 ) ]b8. | % 169
         g8  a8  a8  a8.
       }
@@ -297,7 +296,7 @@
       и на бед -- ни хляб да -- ва. Не -- я всич -- ки,
       мал -- ки и го -- ле -- ми, до -- бре я по -- зна -- ват,
       не -- я всич -- ки, мал -- ки и го -- ле -- ми, до -- бре
-      я по -- зна -- ват. Ум -- мна мо -- ма, син -- ко, се по --
+      я по -- зна -- ват. Ум -- на мо -- ма, син -- ко, се по --
       зна -- ва, ко -- га кни -- га във ръ -- це си взе -- ма
       и скри -- то бъ -- де -- ще раз -- га -- да -- ва. Тя всич -- ко във жи --
       во -- та на мяс -- то по -- ста -- вя. Ху- -- ба- -- ва мо -- ма,
@@ -336,7 +335,7 @@
       i na bed -- ni hlyab da -- va. Ne -- ya vsich -- ki,
       mal -- ki i go -- le -- mi, do -- bre ya po -- zna -- vat,
       ne -- ya vsich -- ki, mal -- ki i go -- le -- mi, do -- bre
-      ya po -- zna -- vat. Um -- mna mo -- ma, sin -- ko, se po --
+      ya po -- zna -- vat. Um -- na mo -- ma, sin -- ko, se po --
       zna -- va, ko -- ga kni -- ga vav ra -- tse si vze -- ma
       i skri -- to ba -- de -- shte raz -- ga -- da -- va. Tya vsich -- ko vav zhi --
       vo -- ta na myas -- to po -- sta -- vya. Hu -- ba -- va mo- -- ma,
@@ -348,7 +347,7 @@
     }
 
     \header {
-      title = \titleFunc " Бащина песен - Угледна мома" "Bashtina pesen - ugledna moma"
+      title = \titleFunc "Бащина песен - Угледна мома" "Bashtina pesen - ugledna moma"
     }
 
     \midi{}
