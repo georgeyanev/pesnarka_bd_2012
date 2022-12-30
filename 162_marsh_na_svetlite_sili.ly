@@ -3,7 +3,8 @@
 % include paper part and global functions
 \include "include/globals.ily"
 \bookpart {
-  \paper { % the system system spacing is custom here so do not include bookpart-paper.ily
+  \paper {
+    % the system system spacing is custom here so do not include bookpart-paper.ily
     print-all-headers = ##t
     print-page-number = ##t
     print-first-page-number = ##t
@@ -39,16 +40,16 @@
   \header {
     tagline = ##f
   }
-   
+
   \score {
     \include "include/score-layout.ily"
     \new Voice \absolute {
       \clef treble
       \key c \major
       \time 2/4
-      \tempoFunc "Moderato" 4 "69"
+      \tempoFunc "Moderato" 4 "72"
       \autoBeamOff
- c'8 \p [<e'
+      c'8 \p [<e'
       c'>8]   <e'
       c'>8  [g8] | % 2
       c'8  [<e'
