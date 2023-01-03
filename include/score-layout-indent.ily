@@ -1,4 +1,4 @@
-    \version "2.22.1"
+    \version "2.24.0"
     \layout {
       indent = 0.5\cm % first line indentation
       ragged-last = ##f % do spread last line to fill the whole space
@@ -11,10 +11,10 @@
         % change staff size
         \Staff
         fontSize = #+0 % affects notes size only
-        \override StaffSymbol #'staff-space = #(magstep -3)
-        \override StaffSymbol #'thickness = #0.5
-        \override BarLine #'hair-thickness = #1
-        %\override StaffSymbol #'ledger-line-thickness = #'(0 . 0)
+        \override StaffSymbol.staff-space = #(magstep -3)
+        \override StaffSymbol.thickness = #0.5
+        \override BarLine.hair-thickness = #1
+        %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
       }
 
       \context {

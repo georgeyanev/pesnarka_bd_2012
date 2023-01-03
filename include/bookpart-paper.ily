@@ -1,4 +1,4 @@
-  \version "2.22.1"
+  \version "2.24.0"
   
   \paper {
     print-all-headers = ##t
@@ -11,11 +11,11 @@
     oddFooterMarkup = \markup
     \fill-line {
       ""
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+      \if \should-print-page-number \fromproperty #'page:page-number-string
     }
     evenFooterMarkup = \markup
     \fill-line {
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+      \if \should-print-page-number \fromproperty #'page:page-number-string
       ""
     }
 

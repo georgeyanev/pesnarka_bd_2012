@@ -1,4 +1,4 @@
-\version "2.22.1"
+\version "2.24.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -62,14 +62,14 @@
 
       \repeat volta 2 {
         \tempoFunc "Più mosso" 4 "184"
-        \bar ".|:" c''2 c''4 | c''4 ( b'4 ) c''4 | d''2 c''4 | b'2. (| b'4 ) r4 b'4 | a'2 a'4 | \break
+        \bar ".|:-|" c''2 c''4 | c''4 ( b'4 ) c''4 | d''2 c''4 | b'2. (| b'4 ) r4 b'4 | a'2 a'4 | \break
         a'4 ( g'4 ) a'4 | b'2 a'4 | g'2. ( | g'4 ) r4 a'4 | a'2 a'4 | c''4 ( b'4) a'4 | a'2 e'4 |  \break
       }
       \alternative {
         {  f'2. (|  f'4 )  r4 f'4 | f'2 f'4 | f'4 ( e'4 ) f'4 | g'2 f'4 |e'2. (| e'4 ) r4 g'4   \break }
         {
           f'2. (|  f'4 ) r4 g'4 | g'2 g'4 | a'2
-          \override Score.RehearsalMark #'outside-staff-priority = #599
+          \override Score.RehearsalMark.outside-staff-priority = #599
           \mark\markup\normalsize\bold { "rit." } % places rit. below alternative bracket
           a'4 | \stemUp b'2 b'4 | c''2. ( | c''2 s4) | \bar "|." \pageBreak
         }
