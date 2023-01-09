@@ -1,4 +1,4 @@
-\version "2.22.1"
+\version "2.24.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -34,15 +34,15 @@
       r2 b4 ^\p | % 13
       d'2 ^\< c'4 ^\! \break | % 14
       b2 r4 | % 15
-      \once \override Hairpin #'to-barline = ##f
+      \once \override Hairpin.to-barline = ##f
       a2 ^\> b4 | % 16
       g2 ^\! r4 \bar "||"
       \time 3/8 \tempoFunc "Allegro" 8 "120" | % 17
       r8 r8 b16 ( [ ^\mp d'16 ) ] | % 18
-      \once \override Hairpin #'to-barline = ##f
+      \once \override Hairpin.to-barline = ##f
       g'4 ^\< fis'16 ( [ g'16 ) ] | % 19
       b'4 ^\! a'16 ( [ g'16 ) ] |
-      \once \override Hairpin #'to-barline = ##f
+      \once \override Hairpin.to-barline = ##f
       fis'4 ^\> e'8 \break | % 21
       e'4 ( fis'8 ) | % 22
       d'4. ~ ^\! | % 23
@@ -91,7 +91,7 @@
       c'4 ( e'!4 ) e'4 | % 46
       d'2 d'4 ^\p ^\< | % 47
       e'2 fis'4 ^\! | % 48
-      \override Hairpin #'to-barline = ##f
+      \override Hairpin.to-barline = ##f
       g'2 ^\> d'4 ^\mp ^\!
       
       ^\<  | % 49

@@ -1,4 +1,4 @@
-\version "2.22.1"
+\version "2.24.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -27,7 +27,7 @@
         { d'4 e'8 d'8 | d'2 | d'4 c''8 b'8| a'2 }
         {
           \time 4/4 \break
-          \override Score.MetronomeMark #'outside-staff-priority = #599
+          \override Score.MetronomeMark.outside-staff-priority = #599
           \override Score.MetronomeMark.X-extent=#'(-4.5 . 0)
           \tempoFunc "Meno mosso" 4 "92"
           d'2 e'4 d'4 | b'1 | \tempo "rit." a'2 b'4 a'4 | g'1| \bar "|." \break

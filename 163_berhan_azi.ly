@@ -1,4 +1,4 @@
-\version "2.22.1"
+\version "2.24.0"
 
 \include "include/globals.ily"
 \bookpart {
@@ -14,11 +14,11 @@
     oddFooterMarkup = \markup
     \fill-line {
       ""
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+      \if \should-print-page-number \fromproperty #'page:page-number-string
     }
     evenFooterMarkup = \markup
     \fill-line {
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+      \if \should-print-page-number \fromproperty #'page:page-number-string
       ""
     }
 
@@ -68,7 +68,7 @@
       a,,8^\markup { \large \italic "a tempo"}_\markup \italic { risoluto } ([b]) c[dis] c4(b) \time 5/4 \break
 
       \acciaccatura { a8 } fis'4.\fermata( \tuplet 3/2 { e16[fis e]) } dis8[c] b2 | \noBreak
-      c16 ^\markup { \large \italic "poco a poco accelerando"} ([dis c b]) c([dis c b]) c([dis c b]) b8. ^\markup \italic "rit." (a16) a4 | \time 4/4 \break
+      c16 ^\markup { \large \italic "poco a poco accelerando"} ([dis c b]) c([dis c b]) c([dis c b]) b8. ^\markup \italic "rit." (a16) a4 | \bar ".|:" \time 4/4 \break
 
       \repeat volta 1 {
         e''16 ^\markup { \large \italic "a tempo"} [(f) gis a] b8 d,4. \acciaccatura { c16[d] } c4 | \noBreak
@@ -76,14 +76,14 @@
         \time 5/4 a,4 gis f'8.([e16]) e2 | \noBreak
         \time 4/4 d16([e) f a] gis4 f e8.([d16]) | \time 2/4 \break
 
-        e2 | \noBreak
+        e2 | \bar ":|.|:" \noBreak
       }
-      \set Score.doubleRepeatType = #":|.|:"
+      %\set Score.doubleRepeatType = #":|.|:"
       \repeat volta 1 {
         \time 3/4 \tuplet 3/2 { a8^\markup { \large \italic "poco a poco accelerando"} ([f e] } \tuplet 3/2 { a[f e] } \tuplet 3/2 { a[f e]) } | \noBreak
         d4 d2 \noBreak
         \tuplet 3/2 { a'8\p([ f e] } \tuplet 3/2 { a[f e] } \tuplet 3/2 { a^\markup \italic "rit." [f e]) } | \noBreak
-        dis4 e2
+        dis4 e2 | \bar ":|."
       }
       \time 9/16 \break
       \tempoFunc "Allegretto" 8 "108"
@@ -91,11 +91,11 @@
       \acciaccatura { f[gis] } f[e] f[gis!] f8 e16[e e] | \noBreak
       e[f] gis[a] \acciaccatura { f[gis!] } f8 e16[e gis] | \break
 
-      \acciaccatura { f[gis] } f[e] dis[e] c8 c16[c c] | \noBreak
+      \acciaccatura { f[gis] } f[e] dis[e] c8 c16[c c] | \bar ".|:" \noBreak
       \repeat volta 1 {
         b[c] dis[e] \acciaccatura { c[dis!] } c8 b16[b dis] | \break
 
-        \acciaccatura { c[dis!] } c[b] b[gis]  a8 a16[a a] | \noBreak
+        \acciaccatura { c[dis!] } c[b] b[gis]  a8 a16[a a] \bar ":|.|:" | \noBreak
       }
       \repeat volta 1 {
         g![c] b[g] a8 a16[a a] | \noBreak

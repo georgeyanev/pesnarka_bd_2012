@@ -1,4 +1,4 @@
-\version "2.22.1"
+\version "2.24.0"
 
 \include "include/globals.ily"
 
@@ -92,7 +92,7 @@
         a4 a8. | \noBreak
       }
       \time 4/4 \tempo "Lento" a4 d8([e]) \tuplet 3/2 {f16([ g f]} e4.) | \time 5/4 \break
-      \override TupletNumber #'avoid-slur = #'ignore
+      \override TupletNumber.avoid-slur = #'ignore
       c'4\fermata \acciaccatura{ b16[c] } \tuplet 3/2 { \stemUp b8 \stemNeutral a gis} a8 \tupletUp \tuplet 3/2 { b16(c b) } e,2 | \noBreak
       \time 4/4 \tuplet 3/2 { e8\tenuto f\tenuto g\tenuto } g2 a4 | \time 3/4 \break
 

@@ -1,4 +1,4 @@
-\version "2.22.1"
+\version "2.24.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -20,8 +20,8 @@
    e2 \!  d4  e4^\> | % 4
   \time 6/4  | % 4
    f2  d2 \! r4  
-   \override Hairpin #'to-barline = ##f
-   \override Hairpin #'after-line-breaking = ##t 
+   \override Hairpin.to-barline = ##f
+   \override Hairpin.after-line-breaking = ##t 
    e4^\< \break | % 5
    
   \time 4/4  | % 5

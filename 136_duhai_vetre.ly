@@ -1,4 +1,4 @@
-\version "2.22.1"
+\version "2.24.0"
 
 \include "include/globals.ily"
 
@@ -43,13 +43,13 @@
             \once \override Slur.height-limit = #5.91
             ais4 (  b4  cis4 )
           } 
-          \once \override Score.MetronomeMark #'outside-staff-priority = #599
+          \once \override Score.MetronomeMark.outside-staff-priority = #599
           \once \override Score.MetronomeMark.X-extent=#'(-3.5 . 0)
           \tempo "Fine" b2 ^\fermata
         }
       } \break  \bar "|."
 
-      \once \override Staff.TimeSignature #'break-visibility = ##(#f #t #t)
+      \once \override Staff.TimeSignature.break-visibility = ##(#f #t #t)
       \time 5/4 \tempoFunc "Andante" 4 "66" fis'4 ^\fermata
       e4  d8 [ ( cis8 ) ] b2 | 
       cis4  b4  ais8 ( [  g8 ) ]  fis2 |

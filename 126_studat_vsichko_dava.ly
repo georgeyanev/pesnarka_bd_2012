@@ -1,4 +1,4 @@
-\version "2.22.1"
+\version "2.24.0"
 
 \include "include/globals.ily"
 
@@ -177,17 +177,17 @@
      %ne znam kak da napisha malkite noti
      
       \once \override TextScript.extra-offset = #'(-2.7 . 1)
-      \once \override Stem #'length = #5 
+      \once \override Stem.length = #5 
       \stemDown \tweak font-size #-3  
       e'8._\markup {(мла - до-то)}  
 
       \once \override TextScript.extra-offset = #'(-7.3 . 1)
-      \once \override Stem #'length = #5 
+      \once \override Stem.length = #5 
       \stemDown \tweak font-size #-3  
       e'16_\markup \fontsize #+2 \italic {"ossia"}   
       
       \once \override TextScript.extra-offset = #'(-2.5 . 10.7)
-      \once \override Stem #'length = #5 
+      \once \override Stem.length = #5 
       \stemDown \tweak font-size #-3  
       d'4_\markup \fontsize #-2 \musicglyph "rests.0"
       

@@ -1,4 +1,4 @@
-\version "2.22.1"
+\version "2.24.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -46,7 +46,7 @@
       c'4 ^\< c'4 c'4 | % 28
       b2 ^\! c'4 | % 29
       es'2. ^\> \break |
-      d'2 \override Hairpin #'to-barline = ##f d'4 _\! ^\p ^\< | % 31
+      d'2 \override Hairpin.to-barline = ##f d'4 _\! ^\p ^\< | % 31
       es'2. ^\! | % 32
       c'2  ^\> d'4 ^\! ^\mf ^\< | % 33
       g'2 ^\> d'4 ^\! | % 34
@@ -67,7 +67,7 @@
       es'2. ^\markup{ \bold {poco a poco rall.} } | % 46
       d'2. | % 47
       a2 bes4 | % 48
-      \override Hairpin #'Y-extent = #'(0 . 3)
+      \override Hairpin.Y-extent = #'(0 . 3)
       c'2. ^\>  % 49
       d'2. ^\fermata ^\ppp |
       \bar "|."

@@ -1,4 +1,4 @@
-\version "2.22.1"
+\version "2.24.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -48,7 +48,7 @@
         \concat {
           \normal-text {"По мотиви на Учителя/Nach Motiven von P.Danov"}
         }
-      } c'4. ( d'8 es'16 d'16 c'16 b16 c'8 d'8 ) g2 | \time 5/4  g'4 ( \once \override TupletBracket #'stencil = ##f
+      } c'4. ( d'8 es'16 d'16 c'16 b16 c'8 d'8 ) g2 | \time 5/4  g'4 ( \once \override TupletBracket.stencil = ##f
       \times 4/5  {
         fis'16 g'16 as'16 g'16 fis'16
       } g'8. c''16 ) c''4. r16 es'16 -- \break |

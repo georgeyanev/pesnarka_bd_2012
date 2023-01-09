@@ -1,4 +1,4 @@
-\version "2.22.1"
+\version "2.24.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -14,8 +14,8 @@
       \time 4/4
       \tempoFunc "Lento" 4 "50"
       \autoBeamOff
-      \override Hairpin #'to-barline = ##f
-      \override Hairpin #'after-line-breaking = ##t 
+      \override Hairpin.to-barline = ##f
+      \override Hairpin.after-line-breaking = ##t 
       e'4  d'4  f'4  e'4 | % 2
       d'8  d'8  c'8  d'8  e'4
       e'4 | % 3
@@ -125,7 +125,7 @@
       g'4  f'4  es'4 (  d'4 ) \bar "||"
       es'2. r4 \bar "||"
       \break | % 58
-      \once \override Staff.KeyCancellation #'break-visibility = #all-invisible
+      \once \override Staff.KeyCancellation.break-visibility = #all-invisible
       \key e \major \time 3/4 | % 58
       \tempoFunc "Moderato" 4 "72"
       b'4. b'8 b'8 b'8 | % 59
@@ -139,7 +139,7 @@
       \time 6/4  | % 62
       a'8 ^\< b'8 cis''8 dis''8
       dis''2 ^\! 
-      \once \override Hairpin #'to-barline = ##t
+      \once \override Hairpin.to-barline = ##t
       e''2 ^\> \bar "||"
       \key b \major \time 2/4 | % 63
       \tempoFunc "Meno mosso" 4. "52"
