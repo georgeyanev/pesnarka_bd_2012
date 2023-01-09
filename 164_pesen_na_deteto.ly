@@ -1,4 +1,4 @@
-\version "2.22.1"
+\version "2.24.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -15,11 +15,11 @@
     oddFooterMarkup = \markup
     \fill-line {
       ""
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+      \if \should-print-page-number \fromproperty #'page:page-number-string
     }
     evenFooterMarkup = \markup
     \fill-line {
-      \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+      \if \should-print-page-number \fromproperty #'page:page-number-string
       ""
     }
 
@@ -73,7 +73,7 @@
       }
       | % 16
 
-      \time 2/4  e'4 \once \override TupletBracket #'stencil = ##f
+      \time 2/4  e'4 \once \override TupletBracket.stencil = ##f
       \times 2/3  {
         e'8( f'8 e'8 )
       }
@@ -85,7 +85,7 @@
       g'4. f'8 | % 22
       e'8 dis'8 e'4 \fermata | % 23
       a8 b8 c'4 | % 24
-      \time 3/4  \once \override TupletBracket #'stencil = ##f
+      \time 3/4  \once \override TupletBracket.stencil = ##f
       \times 4/5  {
         c'16 ( d'16 c'16 b16 c'16)
       }
@@ -96,17 +96,17 @@
       \time 5/4  | % 28
       \tempo "Animato"
       a'16  a'8. e'16 e'8. cis'16 cis'8. a2 | % 29
-      a'16 a'8. e'16 e'8. \once \override TupletBracket #'stencil = ##f
+      a'16 a'8. e'16 e'8. \once \override TupletBracket.stencil = ##f
       \times 2/3  {
         b8 ( c'8 a8 )
       }
       e'2 \break |
-      a'16 a'8. e'16 e'8. \once \override TupletBracket #'stencil = ##f
+      a'16 a'8. e'16 e'8. \once \override TupletBracket.stencil = ##f
       \times 2/3  {
         cis'8 ( d'8 b8 )
       }
       cis'4. e'8 | % 31
-      a'16 a'8. e'16 e'8. \once \override TupletBracket #'stencil = ##f
+      a'16 a'8. e'16 e'8. \once \override TupletBracket.stencil = ##f
       \times 2/3  {
         c'8 d'8 b8
       }

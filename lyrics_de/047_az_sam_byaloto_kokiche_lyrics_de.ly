@@ -1,4 +1,4 @@
-\version "2.22.1"
+\version "2.24.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize " Ich bin das weiße Schneeglöckchen" }
 \markup \null

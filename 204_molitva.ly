@@ -1,4 +1,4 @@
-\version "2.22.1"
+\version "2.24.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -14,8 +14,8 @@
       \time 5/4
       \tempoFunc "Andante" 4 "66"
       \autoBeamOff
-      \override Hairpin #'to-barline = ##f
-      \override Hairpin #'after-line-breaking = ##t 
+      \override Hairpin.to-barline = ##f
+      \override Hairpin.after-line-breaking = ##t 
 
       d'2  a2^\<
       a4 | % 81

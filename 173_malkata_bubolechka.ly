@@ -1,5 +1,5 @@
 % Виж за разположението на текста.
-\version "2.22.1"
+\version "2.24.0"
 
 % include paper part and global functions
 \include "include/globals.ily"

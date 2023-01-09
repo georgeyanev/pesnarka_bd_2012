@@ -1,4 +1,4 @@
-\version "2.22.1"
+\version "2.24.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Die Liebe ist Quelle" }
 \markup \fontsize #+2.0 {

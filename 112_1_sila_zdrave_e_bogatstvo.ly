@@ -1,4 +1,4 @@
-\version "2.22.1"
+\version "2.24.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -28,7 +28,7 @@
         { | g4 \tempo "         Fine" g2 | \break }
         { \time 4/4 g4 g2 
 
-        \override Score.MetronomeMark #'outside-staff-priority = #599
+        \override Score.MetronomeMark.outside-staff-priority = #599
         %\override Score.MetronomeMark.X-extent=#'(-4.5 . 0)
         \tempoFunc "Andante" 4 "60"
         
