@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Das Lied des Vaters - schönes Mädchen" }
+\markup \fill-line { \fontsize #deTitleFontSize "Das Lied des Vaters – schönes Mädchen" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {

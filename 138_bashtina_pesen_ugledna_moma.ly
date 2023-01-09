@@ -347,7 +347,7 @@
     }
 
     \header {
-      title = \titleFunc "Бащина песен - Угледна мома" "Bashtina pesen - ugledna moma"
+      title = \titleFunc "Бащина песен – Угледна мома" "Bashtina pesen – ugledna moma"
     }
 
     \midi{}
