@@ -42,7 +42,7 @@
 
     \line { "   "Stütze und Erneuerung bringen,}
 
-    \line { "   "den Leidenden - Barmherzigkeit}
+    \line { "   "den Leidenden – Barmherzigkeit}
 
     \line { "   "und die neue Freiheit.}
     \line { "   " }

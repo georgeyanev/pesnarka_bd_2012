@@ -109,7 +109,7 @@
 
       \line {   "        "Хубостта на Божи свят, }
 
-      \line {   "        "белината, наш е цвят - }
+      \line {   "        "белината, наш е цвят – }
 
       \line {   "        "вечна сила има, }
 
@@ -209,7 +209,7 @@
 
       \line {   "   "}
 
-      \line {   4. Nagore - v tazi belina!}
+      \line {   4. Nagore – v tazi belina!}
 
       \line {   "   "Tya vsade shte izpalni,}
 

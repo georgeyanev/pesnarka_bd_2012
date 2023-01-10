@@ -30,14 +30,14 @@
       \line { " " }
        \line { "   " \italic { Refrain :}  }
       \line { "   "Die Liebe ist dein Meister, }
-      \line {   "   " auf dass sie dir das lebendige Wort geben wird - }
+      \line {   "   " auf dass sie dir das lebendige Wort geben wird – }
       \line {   "   " sie wird dich das Gute lehren }
       \line {   "   " und dich in die Weisheit einweihen. }
 
 
       \line { " " }
       \line { 3. Und sage deinem Bruder, }
-      \line {   "   " ein süßes Wort mit einem neuen Impuls - }
+      \line {   "   " ein süßes Wort mit einem neuen Impuls – }
       \line {   "   " damit du sein Herz erwärmst }
       \line {   "   " mit deiner aufrichtigen Liebe.}
 

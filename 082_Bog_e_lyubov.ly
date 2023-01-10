@@ -58,7 +58,7 @@
 
     \addlyrics {
       Бог е "Лю-" -- бов, | Бог е "Лю-" -- бов, | Бог е "Лю-" -- бов, Лю -- |
-      бов, Лю -- бов  | веч -- на, | "без - гра" -- нич -- на, |
+      бов, Лю -- бов  | веч -- на, | "без – гра" -- нич -- на, |
       пъл -- на | със_Жи -- "-вот," "Жи-вот на" | бла -- ги -- я Бо -- жи  Дух.
       Дух на бла -- гост -- "-та," | Дух на све -- тост -- "-та," | Дух на пъ -- лен Мир и |
       Ра -- дост за вся -- ка ду | ша, за вся -- ка ду -- | ша. Ний щe | хо -- дим в~то -- я |
@@ -67,7 +67,7 @@
       Бо -- жи -- я -- та "Лю-" -- бов, | Бо -- жи -- я -- та Лю -- | бов. Ний ще | бов.}
       \addlyrics {
         Bog e Lyu -- bov, | Bog e Lyu -- bov, | Bog e Lyu -- bov, Lyu -- |
-        bov, Lyu -- bov  | vech -- na, | "bez - gra" -- nich -- na, |
+        bov, Lyu -- bov  | vech -- na, | "bez – gra" -- nich -- na, |
         pal -- na | sas_Zhi -- vot, "Zhi-vot na" | bla -- gi -- ya Bo -- zhi  Duh. |
         Duh na bla -- gost -- ta, | Duh na sve -- tost -- ta, | Duh na pa -- len Mir i |
         Ra -- dost za vsya -- ka du | sha za vsya -- ka du -- | sha. Niy shte | ho -- dim v~to -- ya |

@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Melodie 2 - Erhabenes Leben" }
+\markup \fill-line { \fontsize #deTitleFontSize "Melodie 2 – Erhabenes Leben" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {

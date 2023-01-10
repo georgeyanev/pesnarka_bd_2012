@@ -102,7 +102,7 @@
 
 
   
-      Но -- ви пе -- сни ще за -- пе -- ем - за хар -- мо -- ния все -- мир -- на.
+      Но -- ви пе -- сни ще за -- пе -- ем – за хар -- мо -- ния все -- мир -- на.
 
       Нов жи -- вот ще за -- жи -- ве -- ем... Тя -- ло -- то ни ще про -- свет -- не
 
@@ -113,7 +113,7 @@
 
       Id  -- vat na Ze -- mya -- ta, na ho -- ra -- ta sar -- tsa -- ta.
 
-      I eto - razh -- dat se i -- de -- i, svet --  li, no -- vi,
+      I eto – razh -- dat se i -- de -- i, svet --  li, no -- vi,
 
       kak da smak -- nem tezh -- ki -- te o -- ko -- vi na
 
@@ -131,7 +131,7 @@
 
 
 
-      No -- vi pe -- sni shte za -- pe -- em - za har -- mo -- nia vse -- mir -- na.
+      No -- vi pe -- sni shte za -- pe -- em – za har -- mo -- nia vse -- mir -- na.
 
       Nov zhi -- vot shte za -- zhi -- ve -- em... Tya -- lo -- to ni shte pro -- svet -- ne
 

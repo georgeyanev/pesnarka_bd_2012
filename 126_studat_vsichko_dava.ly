@@ -179,7 +179,7 @@
       \once \override TextScript.extra-offset = #'(-2.7 . 1)
       \once \override Stem.length = #5 
       \stemDown \tweak font-size #-3  
-      e'8._\markup {(мла - до-то)}  
+      e'8._\markup {(мла – до-то)}  
 
       \once \override TextScript.extra-offset = #'(-7.3 . 1)
       \once \override Stem.length = #5 

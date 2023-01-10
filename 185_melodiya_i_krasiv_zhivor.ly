@@ -112,7 +112,7 @@
         -- di  -- na.}
 
         \header {
-          title = \titleFunc "Мелодия I - Красив Живот" "Melodiya I - Krasiv Zhivot"
+          title = \titleFunc "Мелодия I – Красив Живот" "Melodiya I – Krasiv Zhivot"
         }
 
         \midi{}

@@ -196,7 +196,7 @@
     \column {
 
 \line {   "   "}
-\line {   4.  Управлява, благославя - }
+\line {   4.  Управлява, благославя – }
 
 \line {   "   " всичко в Мъдрост да расте, }
 
@@ -265,7 +265,7 @@
 \column {
 
 \line {   "   "}
-\line {   4.  Upravlyava, blagoslavya - }
+\line {   4.  Upravlyava, blagoslavya – }
 
 \line {   "   " vsichko v Madrost da raste, }
 

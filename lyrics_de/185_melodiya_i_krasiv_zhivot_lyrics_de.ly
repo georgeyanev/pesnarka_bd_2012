@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Melodie 1 - Schönes Leben" }
+\markup \fill-line { \fontsize #deTitleFontSize "Melodie 1 – Schönes Leben" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
@@ -9,7 +9,7 @@
 
   \column {
 
-\line { " "Schönes Leben - unendlicher Weg!}
+\line { " "Schönes Leben – unendlicher Weg!}
 
 \line { " "Ich erinnere mich manchmal,}
 
@@ -17,7 +17,7 @@
 
 \line { " "Dort ging die Sonne nie unter }
 
-\line { " "und der Himmel - immer azurbau,}
+\line { " "und der Himmel – immer azurbau,}
 
 \line { " "Frieden und Licht.}
 

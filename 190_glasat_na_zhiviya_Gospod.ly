@@ -152,7 +152,7 @@
         pat  __ na Lyu -- bov -- ta.“}
 
         \header {
-          title = \titleFunc "Гласът на Живия Господ - Новото Възкресение" " Glasat na Zhivija Gospod - Novoto Vaskresenie"
+          title = \titleFunc "Гласът на Живия Господ – Новото Възкресение" " Glasat na Zhivija Gospod – Novoto Vaskresenie"
         }
 
         \midi{}

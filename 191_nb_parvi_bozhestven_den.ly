@@ -7,10 +7,10 @@
   \include "include/bookpart-paper.ily"
   \markup \center-column \normal-text \fontsize #6.5 {
     \center-align
-    \line { "     Новото Битие - Създаването на новия Адам" }
+    \line { "     Новото Битие – Създаването на новия Адам" }
     \vspace #-0.1
     \center-align
-    \line \fontsize #-3 { "     Novoto Bitie - Sazdavaneto na novia Adam" }
+    \line \fontsize #-3 { "     Novoto Bitie – Sazdavaneto na novia Adam" }
     %\vspace #-0.8
     \center-align
     \line \fontsize #-3 { " " }

@@ -56,7 +56,7 @@
         spir.}
 
         \header {
-          title = \titleFunc "Мелодия 4 - Озарение" "Melodiya 4 - Osarenie"
+          title = \titleFunc "Мелодия 4 – Озарение" "Melodiya 4 – Osarenie"
         }
 
         \midi{}

@@ -115,7 +115,7 @@
       -- ди мой, кол -- ко Те лю -- бя! О -- би -- чам
       Те, Гос -- по -- ди! О -- би -- чам Тво -- и --
       те дръв -- че -- та, о -- би -- чам Тво -- и --
-      те цве -- "тен           -           -            ца," о -- би
+      те цве -- "тен           –           –            ца," о -- би
       -- чам Тво -- и -- те ре -- кич -- ки, о -- би --
       чам Тво -- и -- те  пла -- ни -- ни всич -- ко,
       Гос -- по -- ди, ко -- е -- то Си съз -- дал. О
@@ -127,7 +127,7 @@
         -- di moy, kol -- ko Te lyu -- bya! O -- bi -- cham
         Te, Gos -- po -- di! O -- bi -- cham Tvo -- i --
         te drav -- che -- ta, o -- bi -- cham Tvo -- i --
-        te tsve -- "ten            -           -            tsa," o -- bi
+        te tsve -- "ten            –           –            tsa," o -- bi
         -- cham Tvo -- i -- te re -- kich -- ki, o -- bi --
         cham Tvo -- i -- te  pla -- ni -- ni vsich -- ko,
         Gos -- po -- di, ko -- e -- to Si saz -- dal. O
