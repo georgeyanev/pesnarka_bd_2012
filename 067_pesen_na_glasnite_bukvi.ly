@@ -77,6 +77,7 @@
 
 
   
+  \markup \empty-two
 
   % include foreign translation(s) of the song
   \include "lyrics_de/067_pesen_na_glasnite_bukvi_lyrics_de.ly"
