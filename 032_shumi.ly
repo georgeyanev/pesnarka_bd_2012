@@ -94,11 +94,13 @@
 
 
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
+   \markup \fontsize #+1.7 {
+    \hspace #5
+    \override #'(baseline-skip . 1.8)
     \column {
-      \line {  2. И вятър вее, където си ще.}
+      \line {   2.  "   "       И вятър вее, }
+               
+          \line {   "   "    "   "       където си ще.}
 
       \line {   "   "Листата горски отговарят}
 
@@ -108,11 +110,15 @@
 
       \line {   "   "игрива като ладанчица.}
 
-      \line {   "  "И вятър вее, където си ще.}
+        \line {  "   "    "   "И вятър вее, }
+               
+          \line {    "   "    "   "където си ще.}
 
     
       \line { " " }
-      \line {   3. Мой ветре, буйно задухай сега!}
+      \line {   3. Мой ветре, }
+                
+            \line {   "   "     буйно задухай сега!}
 
       \line {   "   "Носи Божествената влага}
 
@@ -122,14 +128,17 @@
 
       \line {   "   "разсейвай тежки земни грижи!}
 
-      \line {   "   "Мой ветре, буйно задухай сега!}
+      \line {    "   "    "   "Мой ветре, }
+                
+              \line {    "   "    "   "буйно задухай сега!}
 
     }
 
-    \hspace #3
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
+    \hspace #6
+    \override #'(baseline-skip . 1.8)
     \column {
-      \line {  2. I vyatar vee, kadeto si shte}
+      \line {   2.  "   "       I vyatar vee, }
+             \line {   "   "    "   "      kadeto si shte}
 
       \line {   "   "Listata gorski otgovaryat}
 
@@ -139,11 +148,14 @@
 
       \line {   "   "igriva kato ladanchitsa.}
 
-      \line {   "   "I vyatar vee, kadeto si shte.}
+     \line {   "   "    "   "      I vyatar vee, }
+            \line {   "   "    "   "     kadeto si shte}
 
 
       \line { " " }
-      \line {  3. Moy vetre, buyno zaduhay sega!}
+      \line {  3. " " " " Moy vetre, }
+               
+         \line {    "   "    "   "buyno zaduhay sega!}
 
       \line {   "   "Nosi Bozhestvenata vlaga}
 
@@ -153,7 +165,9 @@
 
       \line {   "   "razseyvay tezhki zemni grizhi!}
 
-      \line {   "   "Moy vetre, buyno zaduhay sega!}
+        \line {    "   "    "   "Moy vetre, buyno }
+                
+          \line {    "   "    "   "zaduhay sega!}
       
    
     } %column
@@ -169,7 +183,8 @@
 
  
    
-      \line {      4. Задухай, ветре, света разведри!}
+  \line {   4.  "   "        Задухай, ветре, }
+       \line {   "   "    "   "         света разведри!}
 
       \line {   "   "При чисти мисли и нежни чувства}
 
@@ -179,7 +194,8 @@
 
       \line {   "   "навред да диша свежа младост.}
 
-      \line {   "   "Задухай, ветре, света избистри}
+      \line {  "   "    "   " Задухай, ветре, }
+          \line {   "   "    "   " света избистри}
     }
     
    
@@ -188,7 +204,8 @@
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
    
-      \line {  4. Zaduhay, vetre, sveta razvedri!}
+   \line {   4.  "   "         Zaduhay, vetre, }
+                \line {   "   "    "   "         sveta razvedri!}
 
       \line {   "   "Pri chisti misli i nezhni chuvstva}
 
@@ -198,7 +215,9 @@
 
       \line {   "   "navred da disha svezha mladost.}
 
-      \line {   "   "Zaduhay, vetre, sveta izbistri!}
+   \line {  "   "    "   "Zaduhay, vetre, }
+            
+              \line {  "   "    "   "sveta izbistri!}
 
    
     } %column

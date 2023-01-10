@@ -49,24 +49,10 @@
   } % score
 
   \markup \fontsize #+1.7 {
-    \hspace #5
+    \hspace #10
     \override #'(baseline-skip . 1.8)
     \column {
-      \line { 1. Любовта е извор, }
-      \line {   "   " тя живота ражда }
-      \line {   "   " и пресвята длъжност }
-      \line {   "   " в него кротко всажда – }
-      \line {   "   "все напред да ходи}
-      \line {   "   "в стремеж към доброто,}
-      \line {   "   "що е съвършено}
-      \line {   "   "горе на Небето.}
-      \line { " " }
-      \line { "   " \italic {Припев: } }
-      \line {  "   " Работи със нея }
-      \line { "   " в милости желани, }
-      \line { "   " помощта носи й }
-      \line {  "   " за души страдални.}
-      \line { " " }
+
       \line { 2. И туй непрестанно  }
       \line {   "   " върши тя самата }
       \line {   "   " като нежна майка }
@@ -77,7 +63,38 @@
       \line {   "   " добрините благи}
       \line { " " }
       \line { "   " \italic {Припев ...} }
+      
+    
+    
+     
+    }
+
+    \hspace #6
+    \override #'(baseline-skip . 1.8)
+    \column {
+      
+      \line { 2. I tuy neprestanno  }
+      \line {   "   " varshi tya samata }
+      \line {   "   " kato nezhna mayka }
+      \line {   "   " vsekimu v dushata  }
+      \line {   "   " postoyanno sadi}
+      \line {   "   " sementsata dragi,}
+      \line {   "   " ot koito niknat}
+      \line {   "   " dobrinite blagi}
       \line { " " }
+      \line { "   " \italic {Refrain ...} }
+
+     
+    
+
+    } %column
+  } % markup
+  
+ \pageBreak
+  \markup \fontsize #+1.7 {
+    \hspace #10
+    \override #'(baseline-skip . 1.8)
+    \column {
       \line { 3. Таз велика тайна }
       \line {   "   " кой добре разбира, }
       \line {   "   " свойта душа мила }
@@ -113,32 +130,7 @@
     \hspace #6
     \override #'(baseline-skip . 1.8)
     \column {
-      \line { 1. Lyubovta e izvor, }
-      \line {   "   " tya zhivota razhda }
-      \line {   "   " i presvyata dlazhnost }
-      \line {   "   " v nego krotko vsazhda. }
-      \line {   "   "Vse napred da hodi}
-      \line {   "   "v stremezh kam dobroto,}
-      \line {   "   "shto e savarsheno}
-      \line {   "   "gore na Nebeto.}
-      \line { " " }
-      \line { "   " \italic {Refrain: } }
-      \line {  "   " Raboti sas neya }
-      \line { "   " v milosti zhelani, }
-      \line { "   " pomoshtta nosi y }
-      \line {  "   " za dushi stradalni.}
-      \line { " " }
-      \line { 2. I tuy neprestanno  }
-      \line {   "   " varshi tya samata }
-      \line {   "   " kato nezhna mayka }
-      \line {   "   " vsekimu v dushata  }
-      \line {   "   " postoyanno sadi}
-      \line {   "   " sementsata dragi,}
-      \line {   "   " ot koito niknat}
-      \line {   "   " dobrinite blagi}
-      \line { " " }
-      \line { "   " \italic {Refrain ...} }
-      \line { " " }
+
       \line { 3. Taz velika tayna }
       \line {   "   " koy dobre razbira, }
       \line {   "   " svoyta dusha mila }
@@ -172,7 +164,7 @@
     } %column
   } % markup
 
-  \pageBreak
+\markup \empty-two
 
   % include foreign translation(s) of the song
   \include "lyrics_de/026_lyubovta_e_izvor_lyrics_de.ly"

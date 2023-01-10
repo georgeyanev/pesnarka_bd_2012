@@ -54,11 +54,11 @@
 
   } % score
 
-  \pageBreak
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+
+  \markup \fontsize #+1.7 {
+    \hspace #5
+    \override #'(baseline-skip . 1.8)
     \column {
       \line { 1. Събуди се, братко мили, }
       \line {   "   " от дълбок сън ти стани }
@@ -70,12 +70,46 @@
       \line { "   " твоя сила, твой пилот: }
       \line { "   " тя ще те изправи крепко, }
       \line {  "   " тя ще ти дари Живот.}
-      \line { " " }
-      \line { 2.  Напусни затвори тъмни, }
+       \line { " " }
+         \line { 2.  Напусни затвори тъмни, }
       \line {   "   " вън е вредом светлина – }
       \line {   "   " Мир и Радост те очакват }
       \line {   "   " и блажена сетнина. }
+     
+  
+    }
+
+
+    \hspace #5
+    \override #'(baseline-skip . 1.8)
+    \column {
+      \line { 1. Sabudi se, bratko mili, }
+      \line {   "   " ot dalbok san ti stani }
+      \line {   "   " i verigite vekovni }
+      \line {   "   " ot nozete si snemi.}
       \line { " " }
+      \line { "   " \italic {Refrain: } }
+      \line {  "   " Lyubovta e tvoya mayka, }
+      \line { "   " tvoya sila, tvoy pilot: }
+      \line { "   " tya shte te izpravi krepko, }
+      \line {  "   " tya shte ti dari Zhivot.}
+      \line { " " }
+            \line { 2.  Napusni zatvori tamni, }
+      \line {   "   " van e vredom svetlina;}
+      \line {   "   " Mir i Radost te ochakvat }
+      \line {   "   " i blazhena setnina. }
+      \line { " " }
+
+    } %column
+  } % markup
+  
+  \pageBreak
+  
+ \markup \fontsize #+1.7 {
+    \hspace #5
+    \override #'(baseline-skip . 1.8)
+    \column {
+  
       \line { "   " \italic {Припев: } }
       \line { "   "Любовта е твой учител, }
       \line {   "   " живо Слово да ще ти, }
@@ -94,25 +128,11 @@
       \line {   "   " скоро ще освободи. }
     }
 
+
     \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \override #'(baseline-skip . 1.8)
     \column {
-      \line { 1. Sabudi se, bratko mili, }
-      \line {   "   " ot dalbok san ti stani }
-      \line {   "   " i verigite vekovni }
-      \line {   "   " ot nozete si snemi.}
-      \line { " " }
-      \line { "   " \italic {Refrain: } }
-      \line {  "   " Lyubovta e tvoya mayka, }
-      \line { "   " tvoya sila, tvoy pilot: }
-      \line { "   " tya shte te izpravi krepko, }
-      \line {  "   " tya shte ti dari Zhivot.}
-      \line { " " }
-      \line { 2.  Napusni zatvori tamni, }
-      \line {   "   " van e vredom svetlina;}
-      \line {   "   " Mir i Radost te ochakvat }
-      \line {   "   " i blazhena setnina. }
-      \line { " " }
+
       \line { "   " \italic {Refrain: } }
       \line { "   "Lyubovta e tvoy uchitel, }
       \line {   "   " zhivo Slovo da shte ti, }
@@ -132,7 +152,7 @@
     } %column
   } % markup
 
-  \pageBreak
+\markup \empty-two
 
   % include foreign translation(s) of the song
   \include "lyrics_de/025_sabudi_se_bratko_lyrics_de.ly"

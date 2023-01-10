@@ -1,8 +1,8 @@
 \version "2.24.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Die Liebe ist Quelle" }
-\markup \fontsize #+2.0 {
-  \hspace #10
+\markup \fontsize #+1.7 {
+  \hspace #-1
   \vspace #0.5
   \override #'(baseline-skip . 1.8)
 
@@ -18,9 +18,9 @@
 
     \line {   "   "im Streben nach dem Guten,}
 
-    \line {   "   "das oben im Himmel }
+    \line {   "   "das oben im Himmel vollkommen ist.}
 
-    \line {   "   "vollkommen ist. }
+
 
 
     \line { " " }
@@ -53,30 +53,36 @@
     \line { "   " \italic { Refrain ...}  }
 
 
-    \line { " " }
+
+ 
 
 
-    \line {   3. Dieses große Geheimnis}
 
-    \line {   "   "wer es gut versteht,}
 
-    \line {   "   "öffnet morgens}
 
-    \line {   "   "seine liebe Seele,}
 
-    \line {   "   "wie die weiße Lilie}
 
-    \line {   "   "vom himmlischen Tau}
 
-    \line {   "   "und von dem wunderbaren Sonnenlicht.}
 
-    \line { " " }
+  }
+
+ 
+  \override #'(baseline-skip . 1.8)
+
+  \column {
+    
+       \line {   3.Wer dieses große Geheimnis gut versteht,}
+
+    \line {   "   "öffnet morgens seine liebe Seele,}
+
+    \line {   "   "wie die weiße Lilie am himmlischen Tau}
+
+    \line {   "   " am wunderbaren Sonnenlicht.}
+        \line { " " }
     \line { "   " \italic { Refrain ...}  }
+  \line { " " }
 
-    \line { " " }
-
-
-    \line {   4. Die Sonne, die rechtzeitig den Menschen belebt,}
+    \line {   4. Die Sonne, die den Menschen belebt,}
 
     \line {   "   "scheint warm, erweckt und lässt}
 
@@ -93,23 +99,21 @@
 
 
 
-    \line {   5. Diese so süßen Früchte,}
+    \line {   5. Die so süßen Früchte, in der Liebe gereift: }
 
-    \line {   "   "in der Liebe gereift,}
+    \line {   "   "Am seligsten wird der sein, der sie kostet.}
 
-    \line {   "   "am seligsten wird der sein,}
-
-    \line {   "   "der sie kostet.}
+ 
 
     \line {   "   "In himmlischen Wohnstätten}
 
-    \line {   "   "wird er ewig leben,}
+    \line {   "   "wird er ewig leben, vor dem Thron Gottes}
 
-    \line {   "   "vor dem Thron Gottes}
+  
 
     \line {   "   "wird er Lieder singen. }
 
-    \line { " " }
+
     \line { "   " \italic { Refrain ...}  }
 
 

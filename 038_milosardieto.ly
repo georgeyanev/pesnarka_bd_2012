@@ -50,7 +50,7 @@
 
   } % score
 
-  \pageBreak
+ 
 
   \markup \fontsize #bgCoupletFontSize {
     \hspace #15
@@ -87,18 +87,20 @@
       \line {"   "vsyako zhivo klonche veselo mu kima –}
 
       \line {"   "plodove uzreli bez korist predlaga}
+    
+      
+    }
 
-      \line {"   "s neprestorna nega i usmivka blaga. (2)}
-      \line { " " }
+  
+  } % markup
+  
+    \pageBreak
+  
+   \markup \fontsize #bgCoupletFontSize {
+    \hspace #15
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \column {
 
-      \line {4. Бедни и богати, здрави или болни,}
-
-      \line {"   "и по всяко време тука са доволни,}
-
-      \line {"   "че сменяват в Радост грижите, хомота,}
-
-      \line {"   "и с утеха виждат смисъл във живота. (2)}
-      \vspace #0.4
       \line {4. Bedni i bogati, zdravi ili bolni,}
 
       \line {"   "i po vsyako vreme tuka sa dovolni,}
@@ -125,14 +127,11 @@
       \line {"   "shte go blagoslavyat i Zemya, i Nebo. (2)}
     }
 
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-
-    } %column
+  
   } % markup
 
-  \pageBreak
+
+ \markup \empty-two
 
   % include foreign translation(s) of the song
   \include "lyrics_de/038_milosardieto_lyrics_de.ly"

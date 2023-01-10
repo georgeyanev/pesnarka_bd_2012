@@ -1,13 +1,13 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Bei der Quelle" }
-\markup \null
-\markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+\markup \fill-line { \fontsize #deTitleFontSize "Bei der Quelle Quelle" }
+\markup \fontsize #+2.0 {
+  \hspace #-2
+  \vspace #1
+  \override #'(baseline-skip . 1.8)
 
   \column {
+
     \line { 1. Ein hoher Berggipfel funkelt,}
 
     \line { "   " beschienen von himmlischen Strahlen. }
@@ -62,7 +62,17 @@
     \line { "   " mein mit Wunden bedecktes Herz öffnen?}
     \line { "   " }
 
-    \line {  5. Neige dein Haupt, oh, unglücklicher Wanderer: }
+  
+
+  }
+  
+    \hspace #1
+  \vspace #0.5
+  \override #'(baseline-skip . 1.8)
+  \column {
+      \line {  5. Neige dein Haupt, }
+               
+        \line { "   "         oh, unglücklicher Wanderer: }
 
     \line { "   " lösche heute deinen unendlichen Durst}
 
@@ -86,7 +96,9 @@
     \line { "   " und ich werde dir Leben und Kraft geben.}
     \line { "   " }
 
-    \line {  7. Komm, komm und stille deinen Durst bei mir,}
+    \line {  7. Komm, komm }
+             
+          \line { "   "     und stille deinen Durst bei mir,}
 
     \line { "   " oh geliebtes göttliches Geschöpf. }
 
@@ -97,5 +109,9 @@
     \line { "   " Trauer, Trauer,}
 
     \line { "   " von aller Qual und Trauer.}
+  
+  
   }
 }
+
+

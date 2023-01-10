@@ -64,6 +64,6 @@
       \pageBreak
 
       % include foreign translation(s) of the song
-      \include "lyrics_de/041_za_nebesnija_zar_lyrics_de.ly"
+     
 
     } % bookpart

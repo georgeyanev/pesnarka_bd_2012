@@ -138,6 +138,8 @@
       \line { "   " da zhertvame zhivota svoy. }
     } %column
   } % markup
+  
+  \markup \empty-three
 
   % include foreign translation(s) of the song
   \include "lyrics_de/044_pozdrav_na_Uchitelja_lyrics_de.ly"

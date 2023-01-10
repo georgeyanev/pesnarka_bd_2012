@@ -52,5 +52,7 @@
 
     % include foreign translation(s) of the song
     \include "lyrics_de/040_blagosloven_Gospod_lyrics_de.ly"
+    \markup \empty-two
+     \include "lyrics_de/041_za_nebesnija_zar_lyrics_de.ly"
 
   } % bookpart
