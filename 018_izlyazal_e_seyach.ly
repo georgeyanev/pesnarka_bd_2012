@@ -177,7 +177,7 @@
 
   }
 
-  \pageBreak
+  \markup \empty-two
 
   % include foreign translation(s) of the song
   \include "lyrics_de/018_izlyazal_e_seyach_lyrics_de.ly"

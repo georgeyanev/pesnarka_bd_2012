@@ -4,41 +4,44 @@
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
-    \hspace #10
+    \hspace #1
     \override #`(baseline-skip . ,deCoupletBaselineSkip)
     \column {
      
-      \line { 1. Der Sämann ist hinausgegangen, }
-      \line {   "   " um das wunderbare Gute zu säen: das neue Leben! }  
+    \line { 1. Der Sämann ist hinausgegangen, }
+      \line {   "   " um das wunderbare Gute zu säen: }
+           \line {   "   "      das neue Leben! }
       \line {   "   " Und er sät und singt leise }
-      \line {   "   " vor jedem Haus und jeder Familie: } 
+      \line {   "   " vor jedem Haus und jeder Familie: }
       \line { " " }
       \line { "   " \italic { Refrain :}  }
-      \line { " " }
-      \line {  "  " Eine unschätzbare Gabe ist die Liebe (ljubovta), }
-      \line {   "   "ein schönes Gefühl die Liebe (obitschta), }  
+    
+      \line {  "  " Eine unschätzbare Gabe ist die Liebe, }
+      \line {   "   "ein schönes Gefühl die Liebe, }
       \line {   "   " und ein gutes Werk die Barmherzigkeit, }
-      \line {   "   " eine ergiebige Quelle die Weisheit. } 
-      \line { " " }
-      \line { 2. Und wer sie hört, }
-      \line {   "   "erschauert vor dieser guten, liebevollen Melodie;  }  
+      \line {   "   " eine ergiebige Quelle die Weisheit. }
+     \line { " " }
+        \line { 2. Und wer dies hört, }
+      \line {   "   "erschauert vor dieser guten, }
+              \line {   "   "    liebevollen Melodie;  }
       \line {   "   " und erstrahlt und aufersteht }
-      \line {   "   " und segnet diese Saat. } 
+      \line {   "   " und segnet diese Saat. }
+    
+    
+    }
+        \hspace #-1
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \column {
+     
+ 
+      \line { "   " \italic { Refrain } ... }
+        \line { " " }
+      \line { 3. Die Liebe ergießt sich in den Kosmos, }
+      \line {   "   " vor Liebe strahlt jedes Wesen, }
+      \line {   "   " das Leben quillt über in das Leben; }
+      \line {   "   " hier gibt es nicht mehr Jung noch Alt. }
       \line { " " }
       \line { "   " \italic { Refrain } ... }
-      \line { " " }
-      \line { 3. Die Liebe strömt in das Universum aus, }
-      \line {   "   " aus Liebe strahlt jedes Wesen, }  
-      \line {   "   " das Leben quillt in das Leben über; }
-      \line {   "   " hier gibt es weder Jung noch Alt mehr. } 
-      \line { " " }
-      \line { "   " \italic { Refrain } ... }
-      \line { " " }
-      \line { 4. O, diese Strahlen kommen von Gott, }
-      \line {   "   " sie erfüllen unsere Herzen }  
-      \line {   "   " und flüstern uns süß zu, wie Er ruft: }
-      \line {   "   " Kommt, meine Kinder!} 
-      \line { " " }
-      \line { "   " \italic { Refrain } ... }
+
     }
 }

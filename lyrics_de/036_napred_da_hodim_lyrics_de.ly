@@ -9,7 +9,7 @@
 
   \column {
 
-    \line {1. Lasst uns kühn vorwärtsgehen}
+    \line {1. Lasst uns vorwärtsgehen}
     \line { "   "in die stillen Paläste des geheimen Wissens,}
     \line { "   "erfüllt mit Leben und Kraft.}
     \line { "   " }

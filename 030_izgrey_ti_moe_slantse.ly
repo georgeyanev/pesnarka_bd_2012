@@ -24,6 +24,8 @@
       d''2 es''4 | d''2. ~ | d''4 r g'' | f''2 es''4 | d''2 d''4 | c''2 bes'4 \break |
       d''2.~ | d''4 r c'' | bes'2 a'4 | bes'2 a'4 | g'2 fis'4 | g'2.~ | g'4 r2 | \bar "|."\break
     }
+    
+
 
     \addlyrics {
       Из -- грей,
@@ -42,7 +44,7 @@
         -- mo -- ren; ti no -- sish mi Zhi -- vot bla --
         zhen. Zhi -- vot bla -- zhen, Zhi -- vot bla -- zhen,
         bla -- zhen, bla -- zhen, Zhi -- vot bla -- zhen; ti
-        no -- sish mi ZHi -- vot bla -- zhen.}
+        no -- sish mi Zhi -- vot bla -- zhen.}
 
         \header {
           title = \titleFunc "Изгрей ти, мое Слънце" "Izgrey ti, moe Slantse"
@@ -52,7 +54,7 @@
 
       } % score
       
-      \pageBreak
+         \pageBreak
 
       \markup \fontsize #bgCoupletFontSize {
         \hspace #1
@@ -67,7 +69,7 @@
           \line {   "   "с трептенията си безспир.}
 
           \line {   "   "О, дай ми тоз Живот и Мир!}
-          \line { " " }
+         
           \line { "   " \italic {Припев:} }
 
 
@@ -110,7 +112,7 @@
           \line {   "   "s trepteniyata si bezspir.}
 
           \line {   "   "O, day mi toz Zhivot i Mir!}
-          \line { " " }
+      
           \line { "   " \italic {Refrain:} }
 
 
@@ -142,7 +144,8 @@
         } %column
       } % markup
       
-      \pageBreak
+      \markup \empty-three
+
 
       % include foreign translation(s) of the song
       \include "lyrics_de/030_izgrey_ti_moe_slantse_lyrics_de.ly"

@@ -48,7 +48,7 @@
 
     } % score
 
-    \pageBreak
+
 
     \markup \fontsize #bgCoupletFontSize {
       \hspace #1
@@ -75,27 +75,8 @@
 
         \line {   "   " да намеря мощна сила.}
 
-        \line { " " }
-
-        \line {   4. Във подвизи – съвършенство}
-
-        \line {   "   " да познавам милостта Ти,}
-
-        \line {   "   " превеликата Ти тайна,}
-
-        \line {   "   " що разкрива на човека}
-
-        \line {   "   " суетата на живота.}
-        \line { " " }
-        \line {    5. Всичко грешно на Земята}
-
-        \line {   "   " е преходно, мимолетно.}
-
-        \line {   "   " Само Ти си вечен, Боже,}
-
-        \line {   "   " Тебе хвалим, Тебе славим,}
-
-        \line {   "   " Теб ще славят вековете.}
+     
+    
       }
 
       \hspace #5
@@ -123,7 +104,48 @@
 
         \line {   "   "da namerya moshtna sila.}
 
-        \line { " " }
+    
+
+
+      } %column
+    } % markup
+
+\pageBreak
+
+
+    \markup \fontsize #bgCoupletFontSize {
+      \hspace #1
+      \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+      \column {
+      
+
+        \line {   4. Във подвизи – съвършенство}
+
+        \line {   "   " да познавам милостта Ти,}
+
+        \line {   "   " превеликата Ти тайна,}
+
+        \line {   "   " що разкрива на човека}
+
+        \line {   "   " суетата на живота.}
+             \line { " " }
+    \line {    5. Всичко грешно на Земята}
+
+        \line {   "   " е преходно, мимолетно.}
+
+        \line {   "   " Само Ти си вечен, Боже,}
+
+        \line {   "   " Тебе хвалим, Тебе славим,}
+
+        \line {   "   " Теб ще славят вековете.}
+    
+      }
+
+      \hspace #5
+      \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+      \column {
+          
+      
 
         \line {  4. Vav podvizi – savarshenstvo}
 
@@ -136,7 +158,6 @@
         \line {   "   "suetata na zhivota.}
 
         \line { " " }
-
         \line {  5. Vsichko greshno na Zemyata}
 
         \line {   "   "e prehodno, mimoletno.}
@@ -146,11 +167,11 @@
         \line {   "   "Tebe hvalim, Tebe slavim,}
 
         \line {   "   "Teb shte slavyat vekovete.}
+
       } %column
     } % markup
-
-    \pageBreak
-
+ 
+\markup \empty-three
     % include foreign translation(s) of the song
     \include "lyrics_de/029_stradna_dusho_lyrics_de.ly"
 

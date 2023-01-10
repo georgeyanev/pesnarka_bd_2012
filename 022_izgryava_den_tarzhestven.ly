@@ -155,8 +155,8 @@
   } % markup
 
 
+\markup \empty-two
 
-  \pageBreak
 
   % include foreign translation(s) of the song
   \include "lyrics_de/022_izgryava_den_tarzhestven_lyrics_de.ly"

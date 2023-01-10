@@ -2,9 +2,10 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Der feierliche Tag bricht schon an" }
 \markup \null
-\markup \null
+
+
 \markup \fontsize #deCoupletFontSize {
-  \hspace #16
+  \hspace #1
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
 
@@ -23,9 +24,14 @@
     \line {   "   " diesen himmlischen Segen empfangen, }
     \line {   "   " welcher das Leben erneuert }
     \line {   "   " und es ewig verjüngt. }
+  }
+  
 
-    \line { " " }
-
+  
+   \hspace #-1
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \column {
+    
     \line {2. Und er bringt Freude für die Seele }
     \line {   "   "und verkündet die Freiheit }
     \line {   "   " Und den Frieden mit allheiliger Liebe }
@@ -34,15 +40,24 @@
     \line { " " }
     \line { "   " \italic { Refrain } ... }
 
-
-
-
     \line { " " }
     \line { 3. O, wunderschöner Tag, ewiges Wohl, }
     \line {   "   " wem ist das nicht wertvoll? }
     \line {   "   " Erneuere uns bald }
     \line {   "   " für all die Jahre.}
-
+    
+  
   }
-
+  
+  
+  
+      
 }
+
+
+  
+  
+  
+  
+
+

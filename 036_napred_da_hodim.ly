@@ -59,7 +59,7 @@
 
       } % score
       
-      \pageBreak
+     
 
       \markup \fontsize #bgCoupletFontSize {
         \hspace #5
@@ -72,10 +72,9 @@
           \line {   "   "и злото всепорочно}
 
           \line {   "   "да победиме с право.}
-          \line { " " }
+     
           \line { "   " \italic {Припев ... }}
-          \line { " " }
-
+      
 
           \line {   3. На слабите да носим}
 
@@ -84,9 +83,10 @@
           \line {   "   "на страдущите – милост}
 
           \line {   "   "и свободата нова.}
-          \line { " " }
+          
+       
           \line { "   " \italic {Припев ...}}
-          \line { " " }
+      
           \line {  4. Във бездната да слезем,}
 
           \line {   "   "хоругва да поставим}
@@ -94,9 +94,10 @@
           \line {   "   "и падналите братя}
 
           \line {   "   "от мъка да избавим.}
-          \line { " " }
+           
+         
           \line { "   " \italic {Припев ...}}
-          \line { " " }
+          
           \line {   5. Тогава да отворим}
 
           \line {   "   "на новий град вратите,}
@@ -104,9 +105,9 @@
           \line {   "   "в Иерусалим да влезем –}
 
           \line {   "   "света на Светлините.}
-          \line { " " }
-          \line { "   " \italic {Припев ...}}
-          \line { " " }
+        
+          \line { "   " \italic  {Припев ...}}
+      
         }
 
         \hspace #5
@@ -119,9 +120,9 @@
           \line { "   "i zloto vseporochno}
 
           \line { "   "da pobedime s pravo.}
-          \line { " " }
+        
           \line { "   " \italic { Refrain ...} }
-          \line { " " }
+       
           \line { 3. Na slabite da nosim}
 
           \line { "   "podkrepa i obnova,}
@@ -129,9 +130,9 @@
           \line { "   "na stradushtite – milost}
 
           \line { "   "i svobodata nova.}
-          \line { " " }
+        
           \line { "   " \italic { Refrain ...} }
-          \line { " " }
+      
           \line { 4. Vav bezdnata da slezem,}
 
           \line { "   "horugva da postavim}
@@ -139,9 +140,9 @@
           \line { "   "i padnalite bratya}
 
           \line { "   "ot maka da izbavim.}
-          \line { " " }
+          
           \line { "   " \italic { Refrain ...} }
-          \line { " " }
+     
           \line { 5. Togava da otvorim}
 
           \line { "   "na noviy grad vratite,}
@@ -149,7 +150,7 @@
           \line { "   "v Ierusalim da vlezem –}
 
           \line { "   "sveta na Svetlinite.}
-          \line { " " }
+   
           \line { "   " \italic { Refrain ...} }
         } %column
       } % markup
