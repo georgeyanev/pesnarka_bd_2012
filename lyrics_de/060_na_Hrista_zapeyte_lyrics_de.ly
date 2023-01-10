@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
-  \hspace #10
+  \hspace #-1
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -31,15 +31,17 @@
 
 \line { "   "in dieser festlichen Stunde,}
 
-\line { "   "Er ist der Sohn Gottes, }
+\line { "   "Er ist der Sohn Gottes, der auf die Erde }
 
-\line { "   "der auf die Erde um unsertwillen gesendet wurde.}
+\line { "   " um unsertwillen gesendet wurde.}
 
-\line { "   "Er gab sein Leben, um uns von der Sünde zu retten, }
+\line { "   "Er gab sein Leben, }
+        
+     \line { "   "   um uns von der Sünde zu retten, }
 
-\line { "   "wie ein Sterbender stieg er in das Grab hinab,}
+\line { "   "wie ein Sterbender stieg er in das Grab }
 
-\line { "   "um die Toten auferstehen zu lassen. }
+\line { "   " hinab, um die Toten auferstehen zu lassen. }
 
   \line { " " }
 
@@ -60,7 +62,13 @@
 \line { "   "Gottvater ist unser Vater.}
 
 
-  \line { " " }
+          
+     
+           }
+             \override #`(baseline-skip . ,deCoupletBaselineSkip)
+           \column {
+             
+
 \line { 4. Liebet einander, }
 
 \line { "   "so dienen wir unserem Vater,}
@@ -69,7 +77,9 @@
  
 \line { "   "wie Seine eigenen Kinder.}
 
-\line { "   "Ich bin das lebendige Brot vom Himmel, }
+\line { "   "Ich bin das lebendige Brot }
+        
+    \line { "   "    vom Himmel, }
 
 \line { "   "ich bin der wahre Weinstock;}
 
@@ -92,8 +102,7 @@
 \line { "   "und in meiner Seele }
 
 \line { "   "erwachen seine Worte zum Leben. }
-          
-     
+           
            }
        
     }    

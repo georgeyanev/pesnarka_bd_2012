@@ -51,7 +51,7 @@
 
   } % score
 
-  \pageBreak
+   \markup \empty-one
 
   \markup \fontsize #bgCoupletFontSize {
     \hspace #1
@@ -90,40 +90,6 @@
 
       \line {   "   " Бог Отец е татко наш. }
 
-      \line {   "   "}
-
-      \line {  4.  Един друг се залюбете, }
-
-      \line {   "   " тъй се служи на Отца; }
-
-      \line {   "   " и Отец ви всички люби, }
-
-      \line {   "   " като Негови Деца. }
-
-      \line {   "   " Аз съм жив хляб от Небето, }
-
-      \line {   "   " аз съм истинска лоза, }
-
-      \line {   "   " Словото Ми опазете, }
-
-      \line {   "   " заживейте в Любовта! }
-      \line {   "   "}
-
-      \line {   5.  Само в нея е живота, }
-
-      \line {   "   " нейна е радостта, }
-
-      \line {   "   " тя създава всяко благо, }
-
-      \line {   "   " тя едничка, Любовта.“ }
-
-      \line {   "   " Тъй ни учеше тогава,  }
-
-      \line {   "   " тъй ни шепне и сега, }
-
-      \line {   "   " и възкръсват ми в душата }
-
-      \line {   "   " тези Негови Слова. }
     }
 
     \hspace #5
@@ -162,7 +128,56 @@
 
       \line {   "   " Bog Otets e tatko nash. }
 
+
+    } %column
+  } % markup
+  
+  \pageBreak
+  
+  \markup \fontsize #bgCoupletFontSize {
+    \hspace #1
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \column {
+
+
+      \line {  4.  Един друг се залюбете, }
+
+      \line {   "   " тъй се служи на Отца; }
+
+      \line {   "   " и Отец ви всички люби, }
+
+      \line {   "   " като Негови Деца. }
+
+      \line {   "   " Аз съм жив хляб от Небето, }
+
+      \line {   "   " аз съм истинска лоза, }
+
+      \line {   "   " Словото Ми опазете, }
+
+      \line {   "   " заживейте в Любовта! }
       \line {   "   "}
+
+      \line {   5.  Само в нея е живота, }
+
+      \line {   "   " нейна е радостта, }
+
+      \line {   "   " тя създава всяко благо, }
+
+      \line {   "   " тя едничка, Любовта.“ }
+
+      \line {   "   " Тъй ни учеше тогава,  }
+
+      \line {   "   " тъй ни шепне и сега, }
+
+      \line {   "   " и възкръсват ми в душата }
+
+      \line {   "   " тези Негови Слова. }
+    }
+    
+
+    \hspace #5
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \column {
 
       \line {  4.  Edin drug se zalyubete, }
 
@@ -199,7 +214,7 @@
     } %column
   } % markup
 
-  \pageBreak
+ \markup \empty-two
 
   % include foreign translation(s) of the song
   \include "lyrics_de/060_na_Hrista_zapeyte_lyrics_de.ly"

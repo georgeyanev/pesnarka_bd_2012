@@ -18,8 +18,7 @@ cat \
     ../037_na_Uchitelya.ly \
     ../038_milosardieto.ly \
     ../039_sardechen_zov.ly \
-    ../040_blagosloven_Gospod.ly \
-    ../041_za_nebesniya_tsar.ly \
+    ../040_041_blagosloven_Gospod_za_nebesniya_zar.ly \
     ../042_vreme_e_da_varvim.ly \
     ../044_pozdrav_na_Uchitelya.ly \
     ../045_sine_moy_pazi_zhivota.ly \
