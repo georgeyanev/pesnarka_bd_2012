@@ -1,17 +1,25 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Die wunderbare Mögenröte bricht an" }
-\markup \null
-\markup \null
-\markup \fontsize #deCoupletFontSize {
-    \hspace #10
-    \override #`(baseline-skip . ,deCoupletBaselineSkip)
-    \column {
-      \line { 1. Die wunderbare Morgenröte bricht an, }
-      \line {   "   " die wundervolle Morgenröte des hellen, neuen Lebens, }
-      \line {   "   " mit Herrlichkeit bescheint sie unsere Bundeslade }
-      \line {   "   " Die wunderbare Morgenröte bricht an, }
-      \line {   "   " die Morgenröte des neuen Lebens. }
+\markup \fill-line { \fontsize #deTitleFontSize "Die wunderbare Morgenröte bricht an" }
+\markup \fontsize #+1.7 {
+
+  \hspace #-3
+  \vspace #0.5
+  \override #'(baseline-skip . 1.8)
+
+  \column {
+    \line { 1. Die wunderbare Morgenröte bricht an, }
+    \line {   "   " die Morgenröte des hellen, neuen Lebens, }
+    \line {   "   " mit Herrlichkeit bescheint sie}
+    \line {   "   " unsere stillstehende Bundeslade.}
+    \line { " " }
+      \line { "   " \italic { Refrain :}  }
+    \line {    "   "In diesem neuen, leuchtenden Leben (2) }
+    \line {   "   "ein Leben der Liebe, }
+    \line {   "   " in diesem neuen Leben der Liebe, }
+    \line {   "   " in das Leben der Güte, }
+    \line {   "   "in diesem neuen leuchtenden Leben, }
+    \line {   "   "ein Leben der Freude.}
 
       \line { " " }
       \line { 2. Und die Vögel erfüllen die Luft }
@@ -21,14 +29,12 @@
       \line { " " }
 
       \line { "   " \italic { Refrain :}  }
-      \line {    "   "In diesem neuen, leuchtenden Leben (2) }
-      \line {   "   "ein Leben der Liebe, }
-      \line {   "   " in diesem neuen Leben der Liebe, }
-      \line {   "   " in das Leben der Güte, }
-      \line {   "   "in diesem neuen leuchtenden Leben, }
-      \line {   "   "ein Leben der Freude.}
+   
+    }
+     \override #'(baseline-skip . 1.8)
 
-      \line { " " }
+    \column {
+      
       \line { 3. Die Morgenröte flimmert leichtbeschwingt }
       \line {   "   " und erweckt unsere Seelen; }
       \line {   "   " wie liebe, liebevolle Mutter }
@@ -36,8 +42,8 @@
 
       \line { " " }
       \line { "   " \italic { Refrain } ... }
-
-      \line { " " }
+       \line { " " }
+      
       \line { 4. Strahlen aus Liebe flößen }
       \line {   "   " in unserer Brust lebendige Wärme ein, }
       \line {   "   " mit süßem Glauben erheben sie uns }
@@ -51,8 +57,7 @@
       \line {   "   " sie erfüllen unsere Herzen }
       \line {   "   " und flüstern uns süß zu, wie Er ruft: }
       \line {   "   " Kommt, meine Kinder!}
+       \line { "   " \italic { Refrain :}  }
 
-      \line { " " }
-      \line { "   " \italic { Refrain } ... }
     }
 }

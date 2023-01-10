@@ -102,7 +102,7 @@
     } % score
     
 
-
+\pageBreak
     % include foreign translation(s) of the song
     \include "lyrics_de/084_imashe_chelovek_lyrics_de.ly"
 

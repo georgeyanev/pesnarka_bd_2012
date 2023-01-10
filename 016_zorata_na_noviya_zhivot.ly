@@ -56,11 +56,11 @@
     \midi{}
   } % score
 
-  \pageBreak
+\pageBreak
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+  \markup \fontsize #+1.7 {
+    \hspace #5
+    \override #'(baseline-skip . 1.8)
     \column {
       \line { 2. И птички въздуха изпълнят }
       \line {   "   " с възторг и сладки песни в хор, }
@@ -103,7 +103,7 @@
     }
 
     \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \override #'(baseline-skip . 1.8)
     \column {
       \line { 2. I ptichki vazduha izpalnyat }
       \line {   "   " s vaztorg i sladki pesni v hor, }
@@ -146,7 +146,7 @@
     } %column
   } % markup
 
-  \pageBreak
+ \markup \empty-two
 
   % include foreign translation(s) of the song
   \include "lyrics_de/016_zorata_na_noviya_zhivot_lyrics_de.ly"

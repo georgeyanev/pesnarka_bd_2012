@@ -1,6 +1,7 @@
 #!/bin/bash
 
 cat \
+    ../006_bratski_pesni.ly \
     ../016_zorata_na_noviya_zhivot.ly \
     ../018_izlyazal_e_seyach.ly \
     ../020_bratstvo_edinstvo.ly \
