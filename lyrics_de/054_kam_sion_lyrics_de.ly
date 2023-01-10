@@ -7,38 +7,38 @@
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-\column {
-     
-     \line { 1. Mit Adlerschwingen, unser lieber Zion, }
+  \column {
 
-\line { "   "schwungvoll fliegen wir heute gemeinsam zu dir.}
+    \line { 1. Mit Adlerschwingen, unser lieber Zion, }
 
-\line { "   "Der Tod erschreckt uns nicht mehr, }
+    \line { "   "schwungvoll fliegen wir heute gemeinsam zu dir.}
 
-\line { "   "in uns lebt der Heilige Geist, }
+    \line { "   "Der Tod erschreckt uns nicht mehr, }
 
-\line { "   "gleichermaßen erfreut uns diese und die andere Welt.}
+    \line { "   "in uns lebt der Heilige Geist, }
 
-\line { " " } 
-\line { 2. Über das Fleisch werden wir }
+    \line { "   "gleichermaßen erfreut uns diese und die andere Welt.}
 
-\line { "   "mit Mut und mit neuer Heldentat siegen, }
+    \line { " " }
+    \line { 2. Über das Fleisch werden wir }
 
-\line { "   "unsere Herzen werden wir zum Schmelzen bringen}
+    \line { "   "mit Mut und mit neuer Heldentat siegen, }
 
-\line { "   "mit der Liebe Christi.}
+    \line { "   "unsere Herzen werden wir zum Schmelzen bringen}
 
-\line { " " } 
-\line { 3. Erstrahle, heiliges Zion,}
+    \line { "   "mit der Liebe Christi.}
 
-\line { "   "schnell fliegen wir schon.}
+    \line { " " }
+    \line { 3. Erstrahle, heiliges Zion,}
 
-\line { "   "Wir werden uns bald dem Gott in dir}
+    \line { "   "schnell fliegen wir schon.}
 
-\line { "   "im Geist verneigen.}
-     
-     
-     
-      }
-       
-    }    
+    \line { "   "Wir werden uns bald dem Gott in dir}
+
+    \line { "   "im Geist verneigen.}
+
+
+
+  }
+
+}

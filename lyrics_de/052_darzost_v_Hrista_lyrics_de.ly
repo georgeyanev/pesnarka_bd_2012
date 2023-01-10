@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
-  \hspace #10
+  \hspace #-1
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
 \column {
@@ -41,13 +41,17 @@
 
  \line { "   "auf dass alles in Weisheit gedeiht,}
 
- \line { "   "auf das wir Ihm die Früchte der heiligen Gerechtigkeit}
+ \line { "   "auf das wir Ihm die Früchte}
 
- \line { "   "als Opfer bringen,}
+ \line { "   "  der heiligen Gerechtigkeit }
 
- \line { "   "bringen.}
-  \line { " " } 
- \line { 5. Siehe, heute rufen sie uns nach oben,}
+ \line { "   "als Opfer bringen.}
+ 
+    }
+      \hspace #1
+    \override #`(baseline-skip . ,deCoupletBaselineSkip)
+    \column {
+       \line { 5. Siehe, heute rufen sie uns nach oben,}
 
  \line { "   "auf das wir zum Himmel fahren,}
 
@@ -86,6 +90,6 @@
  \line { "   "ewig leben kann,}
 
  \line { "   "leben kann.}
-
+    
     }
 }

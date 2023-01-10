@@ -7,26 +7,34 @@
 "rightBraces052_1" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -9.2 )
+    \translate #'(0 . -6.2 )
     \right-brace #30
 
-    \translate #'(0 . -13.6 )
+    \translate #'(0 . -11.6 )
     \right-brace #30
 
-    \translate #'(0 . -13.9 )
+    \translate #'(0 . -12.6 )
     \right-brace #30
-
+    
+       \translate #'(0 . -10.7 )
+    \right-brace #30
+ 
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -9.7 )
+    \translate #'(0 . -6.7 )
     2
 
-    \translate #'(0 . -16.6 )
+    \translate #'(0 . -14.6 )
     2
 
-    \translate #'(0 . -16.9 )
+ \translate #'(0 . -15.6 )
     2
+
+ \translate #'(0 . -13.7)
+    2
+
+  
 
   }
 }
@@ -34,37 +42,32 @@
 "rightBraces052_2" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -9.1 )
+
+
+    \translate #'(0 . -6.4 )
     \right-brace #30
 
-    \translate #'(0 . -13.9 )
+    \translate #'(0 . -12.3 )
     \right-brace #30
 
-    \translate #'(0 . -13.7 )
+    \translate #'(0 . -11 )
     \right-brace #30
 
-    \translate #'(0 . -14 )
-    \right-brace #30
-
-    \translate #'(0 . -13.9 )
-    \right-brace #30
+   
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -9.7 )
+  
+    \translate #'(0 . -7.2 )
     2
 
-    \translate #'(0 . -16.8 )
+    \translate #'(0 . -14.7 )
     2
 
-    \translate #'(0 . -16.8 )
+    \translate #'(0 . -15.0 )
     2
 
-    \translate #'(0 . -16.9 )
-    2
-
-    \translate #'(0 . -16.9 )
-    2
+   
   }
 }
 
@@ -111,19 +114,7 @@
     \hspace #1
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-      \line {   "   "}
-      \line {   1.  Дързост във Христа, другари,}
-
-      \line {   "   " с Него да вървим напред,}
-
-      \line {   "   " Той е царят на Живота,}
-
-      \line {   "   " царството Му е навред,}
-
-      \line {   "                " е навред.}
-
-      \line {   "   "}
-      \line {   "   "}
+    
 
       \line {   2.  Дързост във Христа, другари,}
 
@@ -135,7 +126,6 @@
 
       \line {   "               " цар навред.}
       \line {   "   "}
-      \line {   "   "}
 
       \line {   3.  И тук долу, и там горе, }
 
@@ -146,56 +136,7 @@
       \line {   "   " Той е скиптър и венец, }
 
       \line {   "                 " и венец. }
-    }\"rightBraces052_1"
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
       \line {   "   "}
-      \line {   1.  Darzost vav Hrista, drugari,}
-
-      \line {   "   " s Nego da varvim napred,}
-
-      \line {   "   " Toy e tsaryat na Zhivota,}
-
-      \line {   "   " tsarstvoto Mu e navred,}
-
-      \line {   "                " e navred.}
-
-      \line {   "   "}
-      \line {   "   "}
-
-      \line {   2.  Darzost vav Hrista, drugari,}
-
-      \line {   "   " da varvime vse napred!}
-
-      \line {   "   " Bog-Hristos ni v patya vodi,}
-
-      \line {   "   " Toy e moshten tsar navred,}
-
-      \line {   "               " tsar navred.}
-      \line {   "   "}
-      \line {   "   "}
-
-      \line {   3.  I tuk dolu, i tam gore, }
-
-      \line {   "   " v mirovete bez konets, }
-
-      \line {   "   " vsade samo Toy tsaruva, }
-
-      \line {   "   " Toy e skiptar i venets, }
-
-      \line {   "                 " i venets. }
-    } \"rightBraces052_1" %column
-  } % markup
-
-\pageBreak
-
-\markup \fontsize #bgCoupletFontSize {
-    \hspace #1
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-
-\line {   "   "}
 \line {   4.  Управлява, благославя – }
 
 \line {   "   " всичко в Мъдрост да расте, }
@@ -207,7 +148,7 @@
 \line {   "              " принесе. }
 
 \line {   "   "}
-\line {   "   "}
+
 
 \line {   5. Ето днес ни горе викат, }
 
@@ -220,7 +161,70 @@
 \line {   "              " съградим. }
 
 \line {   "   "}
+
+    }\"rightBraces052_1"
+    \hspace #5
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \column {
+  
+      \line {   2.  Darzost vav Hrista, drugari,}
+
+      \line {   "   " da varvime vse napred!}
+
+      \line {   "   " Bog-Hristos ni v patya vodi,}
+
+      \line {   "   " Toy e moshten tsar navred,}
+
+      \line {   "               " tsar navred.}
+      \line {   "   "}
+  
+
+      \line {   3.  I tuk dolu, i tam gore, }
+
+      \line {   "   " v mirovete bez konets, }
+
+      \line {   "   " vsade samo Toy tsaruva, }
+
+      \line {   "   " Toy e skiptar i venets, }
+
+      \line {   "                 " i venets. }
+      
+      \line {   "   "}
+\line {   4.  Upravlyava, blagoslavya – }
+
+\line {   "   " vsichko v Madrost da raste, }
+
+\line {   "   " plodove na Pravda svyata }
+
+\line {   "   " v zhertva da Mu prinese, }
+
+\line {   "              " prinese. }
+
 \line {   "   "}
+
+
+\line {   5. Eto dnes ni gore vikat, }
+
+\line {   "   " kam Nebeto da varvim, }
+
+\line {   "   " che tam Radost ni ochakva. }
+
+\line {   "   " nov grad da si sagradim, }
+
+\line {   "              " sagradim. }
+
+\line {   "   "}
+    } \"rightBraces052_1" %column
+  } % markup
+
+\pageBreak
+
+\markup \fontsize #bgCoupletFontSize {
+    \hspace #1
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \column {
+
+
 
 \line {   6. От смъртта се не плашете, }
 
@@ -233,7 +237,7 @@
 \line {   "              " е врата. }
 
 \line {   "   "}
-\line {   "   "}
+
 
 \line {   7. С радост и хвалебни песни }
 
@@ -246,7 +250,7 @@
 \line {   "            " все тъй благ. }
 
 \line {   "   "}
-\line {   "   "}
+
 
 \line {   8. И там Той ще ни научи, }
 
@@ -264,32 +268,6 @@
 \override #`(baseline-skip . ,bgCoupletBaselineSkip)
 \column {
 
-\line {   "   "}
-\line {   4.  Upravlyava, blagoslavya – }
-
-\line {   "   " vsichko v Madrost da raste, }
-
-\line {   "   " plodove na Pravda svyata }
-
-\line {   "   " v zhertva da Mu prinese, }
-
-\line {   "              " prinese. }
-
-\line {   "   "}
-\line {   "   "}
-
-\line {   5. Eto dnes ni gore vikat, }
-
-\line {   "   " kam Nebeto da varvim, }
-
-\line {   "   " che tam Radost ni ochakva. }
-
-\line {   "   " nov grad da si sagradim, }
-
-\line {   "              " sagradim. }
-
-\line {   "   "}
-\line {   "   "}
 
 \line {   6. Ot smartta se ne plashete, }
 
@@ -302,7 +280,7 @@
 \line {   "              " e vrata. }
 
 \line {   "   "}
-\line {   "   "}
+
 
 \line {   7. S radost i hvalebni pesni }
 
@@ -315,7 +293,7 @@
 \line {   "            " vse tay blag. }
 
 \line {   "   "}
-\line {   "   "}
+
 
 \line {   8. I tam Toy shte ni nauchi, }
 
@@ -331,7 +309,8 @@
 \"rightBraces052_2"
 } % markup
 
-  \pageBreak
+\markup \empty-three
+
   % include foreign translation(s) of the song
   \include "lyrics_de/052_darzost_v_Hrista_lyrics_de.ly"
 
