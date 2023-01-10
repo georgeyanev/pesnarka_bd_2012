@@ -69,8 +69,7 @@
 
       \line { " " }
       \line { "   " \italic {Припев: } }
-      \line {  "   " В новия светъл тоз живот, }
-      \line { "   " В новия светъл тоз живот, }
+      \line {  "   " В новия светъл тоз живот, (2) }
       \line { "   " Живот на любовта, }
       \line {  "   " В новия светъл тоз живот,}
       \line { "   " Живот на благостта, }
@@ -100,6 +99,9 @@
       \line {   "   " Те пълнят нашите сърца, }
       \line {   "   " И шепнат сладко, как Той вика: }
       \line {   "   " „Елате, моите деца!“ }
+         \line { " " }
+         \line { "   " \italic {Припев ...} }
+          \line { " " }
     }
 
     \hspace #5
@@ -112,8 +114,8 @@
 
       \line { " " }
       \line { "   " \italic {Pripev: } }
-      \line {  "   " V novia svetal toz zhivot, }
-      \line { "   " V novia svetal toz zhivot, }
+      \line {  "   " V novia svetal toz zhivot, (2) }
+  
       \line { "   " Zhivot na lyubovta, }
       \line {  "   " V novia svetal toz zhivot,}
       \line { "   " Zhivot na blagostta, }
@@ -143,10 +145,13 @@
       \line {   "   " Te palnyat nashite sartsa, }
       \line {   "   " I shepnat sladko, kak Toy vika: }
       \line {   "   " „Elate, moite detsa!“ }
+         \line { " " }
+        \line { "   " \italic {Pripev ...} }
+         \line { " " }
     } %column
   } % markup
 
- \markup \empty-two
+ \markup \empty-one
 
   % include foreign translation(s) of the song
   \include "lyrics_de/016_zorata_na_noviya_zhivot_lyrics_de.ly"
