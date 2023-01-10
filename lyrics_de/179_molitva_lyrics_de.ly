@@ -10,7 +10,7 @@
   \column {
     \line { 1. Herr, du bist alles für mich,}
 
-    \line { "   "hier unten -- so viel Trauer,}
+    \line { "   "hier unten – so viel Trauer,}
 
     \line { "   "alles ist so öde ohne Dich}
 

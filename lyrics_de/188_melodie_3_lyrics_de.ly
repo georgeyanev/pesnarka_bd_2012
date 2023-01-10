@@ -30,7 +30,7 @@
 
     \line { " "Wenn der Tag erwacht,}
 
-    \line { " "vernehmen wir den himmlischen Ruf --}
+    \line { " "vernehmen wir den himmlischen Ruf – }
 
     \line { " "er bewegt und inspiriert uns}
 
@@ -42,7 +42,7 @@
 
     \line { " "Eine mächtige Kraft ist das Gute, }
 
-    \line { " "wir glauben -- es wird siegen. }
+    \line { " "wir glauben –  es wird siegen. }
 
   }
 }

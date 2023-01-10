@@ -20,7 +20,7 @@
 
  \line { " "klaren Quellen murmelt.}
 
- \line { " "Und ich sehe -- einen aufgerichteten Gipfel,}
+ \line { " "Und ich sehe –  einen aufgerichteten Gipfel,}
 
  \line { " "der vor mir steht.}
 

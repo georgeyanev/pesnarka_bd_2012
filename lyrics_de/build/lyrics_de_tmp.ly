@@ -257,7 +257,7 @@ ergießen! }
       \line { " " }
       \line { "   " \italic { Refrain :}  }
       \line { "   "Die Liebe ist deine Mutter,}
-      \line {   "   "deine Kraft, dein Pilot -- }  
+      \line {   "   "deine Kraft, dein Pilot –  }  
       \line {   "   " sie wird dich stark aufrichten, }
       \line {   "   " dir das Leben schenken. } 
       
@@ -761,7 +761,7 @@ ergießen! }
 
  \line { " "Stütze und Erneuerung bringen,}
 
- \line { " "den Leidenden -- Barmherzigkeit}
+ \line { " "den Leidenden –  Barmherzigkeit}
 
  \line { " "und die neue Freiheit.}
   \line { " " }
@@ -785,7 +785,7 @@ ergießen! }
 
  \line { " "der neuen Stadt öffnen,}
 
- \line { " "lasst uns in Jerusalem eintreten --}
+ \line { " "lasst uns in Jerusalem eintreten – }
 
  \line { " "in die Welt der Lichter.}
        

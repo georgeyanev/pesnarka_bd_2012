@@ -27,7 +27,7 @@
 
   \line { " " Erinnere dich daran, dass du oben sein sollst; }
 
-  \line { " " steige hinab und wisse -- }
+  \line { " " steige hinab und wisse –  }
 
   \line { " " sei allen nützlich! }
 

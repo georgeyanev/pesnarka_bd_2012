@@ -22,7 +22,7 @@
 
 \line { 2. So durchquert er die Welten}
 
-\line { "   "und inkarniert sich in ihnen --}
+\line { "   "und inkarniert sich in ihnen – }
 
 \line { "   "auf dass er neue Talente entwickelt,}
 
@@ -30,9 +30,9 @@
 
 \line { "   "So schreitet er unaufhörlich voran,}
 
-\line { "   "in der unermesslichen Schönheit --}
+\line { "   "in der unermesslichen Schönheit – }
 
-\line { "   "und erreicht das Licht --}
+\line { "   "und erreicht das Licht – }
 
 \line { "   "dort, wo es die Vollkommenheit gibt. }
 

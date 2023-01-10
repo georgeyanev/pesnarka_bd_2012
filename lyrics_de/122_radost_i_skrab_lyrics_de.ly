@@ -50,7 +50,7 @@
 
     \line { " " aus einer vollkommen anderen Welt sein.  }
 
-    \line { " " Freude und Leid -- das sind Wege,   }
+    \line { " " Freude und Leid –  das sind Wege,   }
 
     \line { " " das große Leben zu verstehen.   }
 

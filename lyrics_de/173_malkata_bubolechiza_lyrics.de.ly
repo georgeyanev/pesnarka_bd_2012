@@ -43,7 +43,7 @@
 
   \line { "   " reiner Tau, eine schöne Seele,}
 
-  \line { "   " Schöpfung Gottes --}
+  \line { "   " Schöpfung Gottes – }
 
   \line { "   " sie vergießt Frieden und helle Freude in der Welt.}
 }

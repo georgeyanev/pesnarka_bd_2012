@@ -10,7 +10,7 @@
   \column {
    
 
-    \line { " " Lieber Herr, höre unser Lied -- }
+    \line { " " Lieber Herr, höre unser Lied –  }
 
     \line { " " wir singen für die Sonne, für den Frühling. }
 
@@ -18,7 +18,7 @@
 
     \line { " " Der Frühling kommt, bringt neues Leben.  }
 
-    \line { " " Die erste Frühlingsblume --  }
+    \line { " " Die erste Frühlingsblume –   }
 
     \line { " " ich erwecke alle aus dem Schlummer.  }
 

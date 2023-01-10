@@ -41,7 +41,7 @@
 
     \line {   "   "wie eine zärtliche Mutter}
 
-    \line {   "   "in jedermanns Seele --}
+    \line {   "   "in jedermanns Seele – }
 
     \line {   "   "sie sät immerdar}
 

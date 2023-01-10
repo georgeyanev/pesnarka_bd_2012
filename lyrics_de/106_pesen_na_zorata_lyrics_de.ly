@@ -18,7 +18,7 @@
 
     \line { " "Der Jugend bringt sie Gesundheit, }
 
-    \line { " "den Arbeitenden eine Gabe -- das Leben. }
+    \line { " "den Arbeitenden eine Gabe –  das Leben. }
 
     \line { " "Mögen die Weisen gut leben, }
 
