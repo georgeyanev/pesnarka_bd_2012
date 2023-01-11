@@ -45,8 +45,7 @@ cat \
     ../067_pesen_na_glasnite_bukvi.ly \
     ../068_shto_e_sashtnostta.ly \
     ../070_fir_fur_fen.ly \
-    ../071_1_izgrjava_slunzeto.ly \
-    ../071_2_sila_ziva_izvorna.ly \
+    ../071_zgrjava_slunzeto_sila_zhiva_izvorna_techusta.ly \
     ../072_blagost.ly \
     ../073_sladko_medeno.ly \
     ../074_blaga_duma.ly \
