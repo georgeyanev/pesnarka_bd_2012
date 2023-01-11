@@ -1,4 +1,4 @@
-\version "2.21.1"
+\version "2.24.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -14,7 +14,7 @@
       \time 3/4
       \tempoFunc "Adagio" 4 "54"
       \autoBeamOff
-    d''4.  cis''8  e''16  d''16
+      d''4.  cis''8  e''16  d''16
       cis''16  b'16 | % 2
       a'4 ( ~  a'8 [ \once \omit TupletBracket
       \times 2/3  {
@@ -55,11 +55,11 @@
         cis''4  cis''4.  cis''8 | % 14
         d''4  d''2
       }
-    
+
     }
 
     \addlyrics {
-   Ра -- дост, Ра -- дост за ду -- ша
+      Ра -- дост, Ра -- дост за ду -- ша
       --    та  но -- си
       Чис -- то -- та -- та. Ра -- дост,
       Ра -- дост, Ра -- дост, Ра -- дост
@@ -71,15 +71,15 @@
     }
 
     \addlyrics {
-        Ra -- dost, Ra -- dost za du -- sha
-        --    ta  no -- si
-        Chis -- to -- ta -- ta. Ra -- dost,
-        Ra -- dost, Ra -- dost, Ra -- dost
-        za du -- sha -- ta  no -- si
-        Chis -- to -- ta -- ta. Chis -- ti ba --
-        de -- te ka -- to pche -- li -- te.
-        Chis -- ti ba -- de -- te ka -- to
-        tsve -- tya -- ta.
+      Ra -- dost, Ra -- dost za du -- sha
+      --    ta  no -- si
+      Chis -- to -- ta -- ta. Ra -- dost,
+      Ra -- dost, Ra -- dost, Ra -- dost
+      za du -- sha -- ta  no -- si
+      Chis -- to -- ta -- ta. Chis -- ti ba --
+      de -- te ka -- to pche -- li -- te.
+      Chis -- ti ba -- de -- te ka -- to
+      tsve -- tya -- ta.
     }
     \header {
       title = \titleFunc "Радост за душата " "Radost za dushata"
@@ -88,8 +88,8 @@
     \midi{}
 
   } % score
-  
-  
+
+
 
   % include foreign translation(s) of the song
   \include "lyrics_de/155_radost_sa_dushata_lyrics_de.ly"

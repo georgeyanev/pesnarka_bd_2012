@@ -8,48 +8,44 @@
 
   \column {
 
- \line { " "In meinem Verstand klopft ein Gedanke;}
- \line { " "Täglich fragt er mich:}
- \line { " "Was ist im Leben real ist,}
- \line { " "was ist das Wesen?}
-\line { " " }
- \line { " "Mein Geist flüstert mir zu:}
- \line { " "Die Sonne, die scheint, }
- \line { " "der Vogel, der singt,}
- \line { " "alles, was lebt,}
-\line { " "leidet und sich sehnt,}
- \line { " "drückt das Wesen aus.}
- \line { " " }
+    \line { " "In meinem Verstand klopft ein Gedanke;}
+    \line { " "Täglich fragt er mich:}
+    \line { " "Was ist im Leben real, was ist das Wesen?}
+    \line { " " }
+    \line { " "Mein Geist flüstert mir zu:}
+    \line { " "Die Sonne, die scheint, der Vogel, der singt, }
+    \line { " "alles, was lebt, leidet und sich sehnt, }
+    \line { " "drückt das Wesen aus.}
+    \line { " " }
 
- \line { " "Gehe zu den Blumen,}
- \line { " "auf das Feld, in den Wald;}
- \line { " "schau die Schönheit an, }
- \line { " "atme das Aroma ein,}
- \line { " "dort schaust du das Wesen an.}
- \line { " " }
+    \line { " "Gehe zu den Blumen,  auf das Feld, }
+    \line { " " in den Wald; schau die Schönheit an, }
+    \line { " "atme das Aroma ein,}
+    \line { " "dort schaust du das Wesen an.}
+    \line { " " }
 
 
 
   }
-    \hspace #1
+  \hspace #1
   \override #'(baseline-skip . 1.8)
   \column {
 
- \line { " "Schau den Himmel an, frag das Herz,}
- \line { " "In dieser wunderbaren Schönheit}
- \line { " "und kosmischen Weisheit, }
- \line { " " schaust du nicht das Wesen an?}
- \line { " " }
+    \line { " "Schau den Himmel an, frag das Herz:}
+    \line { " "In dieser wunderbaren Schönheit}
+    \line { " "und kosmischen Weisheit, }
+    \line { " " schaust du nicht das Wesen an?}
+    \line { " " }
 
- \line { " "Wenn sich die zärtliche Mutter }
-  \line { " "für das Kind aufopfert,}
- \line { " "in dieser beispielhaften Liebe,}
- \line { " "und grenzenlose Liebe schaust }
- \line { " "du nicht das Wesen an?}
- \line { " " }
+    \line { " "Wenn sich die zärtliche Mutter }
+    \line { " "für das Kind aufopfert,}
+    \line { " "in dieser beispielhaften Liebe,}
+    \line { " "und grenzenlose Liebe schaust }
+    \line { " "du nicht das Wesen an?}
+    \line { " " }
 
- \line { " "Schönheit, Wahrheit, Liebe und Weisheit,}
- \line { " "das ist der Herr auf Erden, das ist das Wesen.}
+    \line { " "Schönheit, Wahrheit, Liebe und Weisheit,}
+    \line { " "das ist der Herr auf Erden, das ist das Wesen.}
 
   }
 }
