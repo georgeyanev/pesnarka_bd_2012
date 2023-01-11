@@ -1,17 +1,18 @@
 \version "2.24.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Freude und Gram" }
-\markup \fontsize #+2.0 {
-  \hspace #10
-  \override #'(baseline-skip . 1.75)
-
+\markup \null
+\markup \null
+\markup \fontsize #deCoupletFontSize {
+  \hspace #1
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
 
-    \line { " " Ich hörte über dich, Gram,   }
+    \line { " " Ich habe über dich, Gram, gehört,   }
 
-    \line { " " dass du grausam wärst,   }
+    \line { " " du wärst grausam,   }
 
-    \line { " " dass du uns Leid zufügst.   }
+    \line { " " fügest uns Leid zu.   }
 
     \line { " " Weißt du nicht,  }
 
@@ -20,26 +21,37 @@
     \line { " " Sage mir, was du von mir willst,   }
 
     \line { " " sage es mir!  }
+    \line { " "}
 
-    \line { " " Schwerlich kann mich jemand lieben.   }
+    \line { " " Schwer kann mich jemand lieben.   }
 
     \line { " " Dort ist der Gram!  }
 
-    \line { " " Wer mich liebt und mich willkommen heißt,  }
+    \line { " " Wer mich liebt }
+
+    \line { " " und mich willkommen heißt,  }
 
     \line { " " nur der kann  }
 
     \line { " " das Leben verstehen.   }
 
-    \line { " " Schwierig und steil ist der Weg,   }
+    \line { " "}
+
+    \line { " " Schwier und steil ist der Weg,   }
 
     \line { " " auf dem ich gehe.   }
 
-    \line { " " Schwerlich kann mir dort jemand folgen   }
+    \line { " " Schwer kann mir dort jemand folgen   }
 
     \line { " " und für den Sterblichen   }
 
     \line { " " ist das fast unmöglich.  }
+
+  }
+
+  \hspace #1
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+  \column {
 
     \line { " " Wenn mich aber jemand liebt  }
 
@@ -50,11 +62,15 @@
 
     \line { " " aus einer vollkommen anderen Welt sein.  }
 
+    \line { " "}
+
     \line { " " Freude und Leid –  das sind Wege,   }
 
     \line { " " das große Leben zu verstehen.   }
 
     \line { " " Die Liebe schätzt sie beide gleich.  }
+
+    \line { " "}
 
     \line { " " Gram und Freude sind eins,  }
 
@@ -66,9 +82,11 @@
 
     \line { " " und das Gute in der Freude.   }
 
-    \line { " " Mögen wir sie empfangen und gemeinsam vorwärts gehen.  }
+    \line { " " Mögen wir sie empfangen   }
+
+    \line { " " und gemeinsam vorwärts gehen.  }
 
     \line { " " Die Liebe schätzt sie beide gleich.  }
 
-   }
+  }
 }

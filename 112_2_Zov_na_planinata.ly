@@ -43,7 +43,7 @@
     \midi{}
 
   } % score
-   %\markup \dc-two "D.C.""con ripetizione"
+   %\markup \dc-two "D.C.""con ripetizioni"
 
   \markup \fontsize #bgCoupletFontSize {
     \hspace #1
@@ -76,7 +76,7 @@
 
   % include foreign translation(s) of the song
 
-  %\pageBreak
+  \markup \empty-two
   \include "lyrics_de/112_2_zov_na_planinata_lyrics_de.ly"
 
 } % bookpart

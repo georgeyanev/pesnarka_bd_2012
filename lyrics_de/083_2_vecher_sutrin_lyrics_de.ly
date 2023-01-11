@@ -1,18 +1,16 @@
 \version "2.24.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Abends, morgens" }
-\markup \null
-\markup \null
+
+
 \markup \fontsize #deCoupletFontSize {
-  \hspace #14
+  \hspace #1
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
 
-  
+
   \column {
-     \line { "   "Abends, morgens es kommt es geht, }
-     \line { "   "abends, morgens es kommt es geht, }
-     \line { "   "es kommt, es geht, es kommt, es geht, }
-     \line { "   "es kommt, es geht, es kommt. }
+  %  \line { "   "Abends, morgens es kommt es geht, abends, morgens, es kommt es geht.}
+   
   }
-}    
+}

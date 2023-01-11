@@ -63,7 +63,7 @@
 
       } % score
 
-      \markup \dc-two "D. C." "senza ripetizione"
+      \markup \dc-two "D. C." "senza ripetizioni"
 
       \pageBreak
 

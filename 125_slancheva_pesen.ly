@@ -17,18 +17,18 @@
       | % 44
       es2 | % 45
       f8  es16  d16  c16
-      bes16 as16 g16 |\break  % 46
+      bes16 as16 g16 |  % 46
       f2 | % 47
-      as4 f4  | % 48
+      as4 f4 \break | % 48
       c'4 f,4 | % 49
       bes8 r8 f16 as16 g16
-      f16 | \break
+      f16 | 
       es2 |
       \tempoFunc "Poco meno mosso" 4 "88"
       es'4  bes4 | % 52
-      c4 f,4  | % 53
+      c4 f,4 \break | % 53
       g16 as16  bes16  c16
-      bes8 r8 ^\fermata | \break % 54
+      bes8 r8 ^\fermata |  % 54
       c4 as4 |  % 55
       g4 f4 | % 56
       bes16 as16 g16 f16 es8
@@ -37,33 +37,33 @@
       % 59
       c'16  bes16 as16 g16
       f16 es16 f16 g16 |
-      f4 ( bes,4 ) | \break % 61
+      f4 ( bes,4 ) | % 61
       bes'16  c16  d16  es16
       d16  c16  bes16 as16 | % 62
       g8 r8 r4 \break  | % 63
       bes8.  bes16  c16  bes16
       as16 g16  | % 64
-      f4 f4 | \break % 65
+      f4 f4 |  % 65
       as8. g16  bes16 as16 g16
       f16 | % 66
       es16 d16 es16 f16 es4
       ^\fermata | \break % 67
-      \pageBreak
+   
       es'4  bes4 | % 68
       c4 f,4 | % 69
       g16 as16  bes16  c16
       bes8 r8 \mark \markup \fontsize #-3 { \musicglyph "scripts.caesura.straight" }|
-      c4 as4 | \break   % 71
-      g4 f4 |  % 72
+      c4 as4 |   % 71
+      g4 f4 |  \break % 72
       bes16 as16 g16 f16 es8
       r8 \mark \markup \fontsize #-3 { \musicglyph "scripts.caesura.straight" } |  % 73
-      es4 bes4 | \break % 74
+      es4 bes4 |  % 74
       g'4 d4 | % 75
       c'16  bes16 as16 g16
       f16 es16 f16 g16 |  \break % 76
       f4 bes,4  | % 77
       bes'16  c16  d16  es16
-      d16  c16  bes16 as16 | \break % 78
+      d16  c16  bes16 as16 |  % 78
       g8 r8 r4 | 
       as16 -- ^\markup{ \bold {rubato} }  bes16
       c16  d16  es16  f16
@@ -71,7 +71,7 @@
       es2 \break | % 81
       \tempoFunc "Meno mosso" 4 "80"
       es16  d16  c16  bes16
-      as16 g16 f16 es16 | \break  % 82
+      as16 g16 f16 es16 |  % 82
       es16 f16 g16 ^\fermata f16
       es4 ^\fermata | % 83
       bes'2 -. ^\pp | % 84
@@ -137,7 +137,7 @@
 
   } % score
 
-  \pageBreak
+
 
   % include foreign translation(s) of the song
   \include "lyrics_de/125_slancheva_pesen_lyrics_de.ly"

@@ -122,7 +122,7 @@
 
   } % score
 
-  \markup \dc-one "D. C. con ripetizione"
+  \markup \dc-one "D. C. con ripetizioni"
   % include foreign translation(s) of the song
   %\include "lyrics_de/000_empty_template_lyrics_de.ly"
 

@@ -62,7 +62,7 @@
       a2  gis4 |
       b2. | % 41
       a2. \bar "||"
-      \break | % 42
+      \break  \pageBreak| % 42
       a8. ^\markup{ \bold {Poco più agitato} }  b16
       c8  d8  e8.  e16 | % 43
       \time 2/4  | % 43
@@ -117,7 +117,7 @@
       c2  | % 74
       b8.  c16  d8  e8  | % 75
       f4  e8.  dis16  | % 76
-      e2  \break | % 77
+      e2  \break \pageBreak | % 77
       a8. g16 f8 e8  | % 78
       d4 c8 ( [ d8 ) ] | % 79
       e2 |
@@ -240,8 +240,8 @@
         \midi{}
 
       } % score
-
-      
+ \markup \empty-two
+     
 
       % include foreign translation(s) of the song
       \include "lyrics_de/122_radost_i_skrab_lyrics_de.ly"

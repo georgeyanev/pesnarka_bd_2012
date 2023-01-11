@@ -44,6 +44,8 @@ cat \
     ../066_2_tebe_poem.ly \
     ../067_pesen_na_glasnite_bukvi.ly \
     ../068_shto_e_sashtnostta.ly \
+    ../069_pesni_ot_Uchitelya_blank.ly \
+    ../069_pesni_ot_Uchitelya.ly \
     ../070_fir_fur_fen.ly \
     ../071_zgrjava_slunzeto_sila_zhiva_izvorna_techusta.ly \
     ../072_blagost.ly \
@@ -57,8 +59,7 @@ cat \
     ../080_mahar_benu_aba_v_mrak_tamnota.ly \
     ../081_v_zorite_na_zhivota.ly \
     ../082_Bog_e_lyubov.ly \
-    ../083_01_vehadi.ly \
-    ../083_2_vecher_sutrin.ly \
+    ../083_vehadi_vecher_sutrin.ly \
     ../084_imashe_chelovek.ly \
     ../086_1_kazhi_mi_ti_istinata.ly \
     ../086_02_blagata_pesen.ly \
@@ -69,21 +70,21 @@ cat \
     ../091_neva_senzu.ly \
     ../092_kiamet_zenu.ly \
     ../092_2_davai_davai.ly \
-    ../093_misli_pravo_misli.ly \
     ../094_v_nachaloto_be_slovoto.ly \
+    ../093_misli_pravo_misli.ly \
     ../095_vdahnovenie.ly \
-    ../095_2_dobar_den.ly \
     ../096_vesel_ti_badi.ly \
     ../097_zapali_se_oganyat.ly \
     ../098_bershid_ba.ly \
     ../099_malkiyat_izvor.ly \
+    ../095_2_dobar_den.ly \
     ../100_vsichko_v_zjivota_e_postizhimo.ly \
     ../101_1_tagi_skarbi_sa_bogatstvo.ly \
     ../101_2_duhat_mi_shepne_tova.ly \
     ../102_sila_zhivot_zdrave.ly \
     ../103_krasiv_e_zhivotat.ly \
-    ../104_himn_na_velinata_dusha_new.ly \
     ../106_pesen_na_zorata.ly \
+    ../104_himn_na_velinata_dusha_new.ly \
     ../107_pri_vsichkite_uslovija.ly \
     ../108_az_moga_da_kazha.ly \
     ../109_az_smeya_da_kaza.ly \
@@ -102,11 +103,11 @@ cat \
     ../120_burya.ly \
     ../121_ranen_chas.ly \
     ../122_radost_i_skrab.ly \
+    ../132_pravda.ly \
     ../124_proletna_pesen.ly \
     ../125_slancheva_pesen.ly \
     ../126_studat_vsichko_dava.ly \
     ../130_ezikat_na_zhivata_priroda.ly \
-    ../132_pravda.ly \
     ../133_skitah_se_po_gori_i_planini.ly \
     ../134_obetovana_zemya.ly \
     ../135_ain_fasi.ly \
@@ -114,6 +115,7 @@ cat \
     ../137_a_bre_sinko.ly \
     ../138_bashtina_pesen_ugledna_moma.ly \
     ../142_stavay_daste.ly \
+    ../145_pesni_sled_1944.ly \
     ../146_bylgarska_rapsodia.ly \
     ../150_balgarska_idiliya.ly \
     ../154_ne_li_dimah.ly \

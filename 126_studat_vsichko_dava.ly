@@ -390,7 +390,7 @@
       } % score
 
 
-     \pageBreak
+
 
       % include foreign translation(s) of the song
       \include "lyrics_de/126_studat_vsichko_dava_lyrics_de.ly"

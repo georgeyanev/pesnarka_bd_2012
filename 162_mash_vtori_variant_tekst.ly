@@ -145,7 +145,7 @@
 
   } % score
 
-  \markup \dc-one "D. C. con ripetizione"
+  \markup \dc-one "D. C. con ripetizioni"
   
 
 
