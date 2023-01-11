@@ -29,7 +29,7 @@
   } % score
   \pageBreak
  
- \markup\fontsize  #+8.5  {\bold {  \hspace #10  \vspace #13.5 LIEDER VOM MEINSTER} }
+ \markup\fontsize  #+8.5  {\bold {  \hspace #10  \vspace #13.5 LIEDER VOM MEISTER} }
 
   % include foreign translation(s) of the song
   %\include "lyrics_de/000_empty_template_lyrics_de.ly"

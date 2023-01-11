@@ -69,8 +69,10 @@
           \line {   "   "с трептенията си безспир.}
 
           \line {   "   "О, дай ми тоз Живот и Мир!}
+             \line { " " }
 
           \line { "   " \italic {Припев:} }
+             \line { " " }
 
 
           \line {   "   "Живот и Мир, Живот и Мир,}
@@ -112,9 +114,10 @@
           \line {   "   "s trepteniyata si bezspir.}
 
           \line {   "   "O, day mi toz Zhivot i Mir!}
+             \line { " " }
 
           \line { "   " \italic {Refrain:} }
-
+        \line { " " }
 
           \line {   "   "Zhivot i Mir, Zhivot i Mir,}
 
@@ -144,7 +147,7 @@
         } %column
       } % markup
 
-      \markup \empty-three
+      \markup \empty-one
 
 
       % include foreign translation(s) of the song

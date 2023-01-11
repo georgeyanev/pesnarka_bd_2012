@@ -29,7 +29,7 @@
   } % score
   \pageBreak
  
- \markup\fontsize  #+8.5  {\bold {  \hspace #10  \vspace #13.5 l } }
+ \markup\fontsize  #+8.5  {\bold {  \hspace #10  \vspace #13.5  } }
 
   % include foreign translation(s) of the song
   %\include "lyrics_de/000_empty_template_lyrics_de.ly"

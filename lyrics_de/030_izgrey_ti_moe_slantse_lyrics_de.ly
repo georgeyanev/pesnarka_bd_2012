@@ -20,13 +20,13 @@
     \line {   "   "Du bringst mir das glückselige Leben.}
     \line { " " }
 
-    \line {   "   "   "   "    \italic { Refrain:}  }
+    \line {   "   "   \italic { Refrain:}  }
 
-    \line {   "   "   "   "  Seliges Leben, seliges Leben}
+    \line {   "   "  Seliges Leben, seliges Leben}
 
-    \line {   "   "   "   "  seliges, seliges, seliges Leben,}
+    \line {   "   "  seliges, seliges, seliges Leben,}
 
-    \line {   "   "   "   "  du, der du mir das selige Leben bringst.}
+    \line {   "   " du, der du mir das selige Leben bringst.}
 
     \line { " " }
 
@@ -41,19 +41,19 @@
     \line {   "   "Oh, gib mir dieses Leben und diesen Frieden!}
 
     \line { " " }
-    \line {   "   "   "   "    \italic { Refrain:}  }
+    \line {   "   "    \italic { Refrain:}  }
 
-    \line {   "   "   "   "   Leben und Frieden, Leben und Frieden,}
+    \line {   "   "   Leben und Frieden, Leben und Frieden,}
 
-    \line {   "   "   "   " und Frieden, und Frieden, Leben und Frieden,}
+    \line {   "   "  und Frieden, und Frieden, Leben und Frieden,}
 
-    \line {   "   "   "   " oh, gib mir dieses Leben und diesen Frieden!}
+    \line {   "   "   oh, gib mir dieses Leben und diesen Frieden!}
 
 
 
   }
 
-  \hspace #-6
+  \hspace #-3
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -65,18 +65,18 @@
 
     \line {   "   "und alles Alte erneuerst; }
 
-    \line {   "   "durch dich wird die Welt neu werden,}
+    \line {   "   "durch dich wird die Welt neu,}
 
     \line {   "   "du bist auf ewig die heilige Liebe!}
 
     \line { " " }
-    \line {   "   "   "   "    \italic { Refrain:}  }
+    \line {   "   "    \italic { Refrain:}  }
 
-    \line {   "   "   "   "    Heilige Liebe, heilige Liebe,}
+    \line {   "   "   Heilige Liebe, heilige Liebe,}
 
-    \line {   "   "   "   "    Liebe, Liebe, heilige Liebe,}
+    \line {   "   "    Liebe, Liebe, heilige Liebe,}
 
-    \line {   "   "   "   "    du bist ewige heilige Liebe.}
+    \line {   "   "    du bist ewige heilige Liebe.}
   }
 }
 

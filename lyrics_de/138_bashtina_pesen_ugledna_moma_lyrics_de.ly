@@ -3,22 +3,27 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Das Lied des Vaters – schönes Mädchen" }
 \markup \null
 \markup \null
+
 \markup \fontsize #deCoupletFontSize {
     \hspace #10
-    \override #'(baseline-skip . 1.9)
+    \override #'(baseline-skip . 2.1)
     \column {
 
 
   \line { " "Seit alten Zeiten, mein Sohn, ist bekannt,  }
 
-  \line { " "dass das schöne Mädchen am hellen Tag erkannt wird,  }
+  \line { " "dass das schöne Mädchen }
+          
+     \line { " "  am hellen Tag erkannt wird,  }
 
   \line { " "wenn die Sonne morgens aufgeht,  }
 
   \line { " "wenn die Sonne morgens aufgeht.  }
    \line { " " }
 
-  \line { " "Es ist frühaufstehnd; es steht früh auf (2)  }
+  \line { " "Es ist frühaufstehnd; es steht früh auf,   }
+  
+  \line { " "es ist frühaufstehnd; es steht früh auf   }
 
   \line { " "und geht mit den Krügen zu der Quelle,  }
 
@@ -31,7 +36,9 @@
   \line { " "und umarmt lieblich ihre Mutter.  }
    \line { " " }
 
-  \line { " "Das schöne Mädchen, mein Sohn, erkennt man dann,  }
+  \line { " "Das schöne Mädchen, mein Sohn, }
+          
+      \line { " "      erkennt man dann,  }
 
   \line { " "wenn es den Weinberg umgräbt,  }
 
@@ -41,7 +48,9 @@
 
    \line { " " }
 
-  \line { " "Das schöne Mädchen, mein Sohn, erkennt man am Feld  }
+  \line { " "Das schöne Mädchen, mein Sohn, }
+          
+        \line { " "    erkennt man im Feld  }
 
   \line { " "wenn sie die Garben hebt und hinstellt,  }
 
@@ -54,20 +63,22 @@
 
   \line { " "eine schöne Sängerin;  }
 
-  \line { " "der Weizen kennt sie gut,  }
+  \line { " "den Weizen kennt sie gut,  }
 
-  \line { " "der Weizen kennt sie gut.  }
+  \line { " "den Weizen kennt sie gut.  }
 
-  \line { " "Sie ist, mein Sohn stimmgewaltig,  }
+  \line { " "Sie ist, mein Sohn, stimmgewaltig,  }
 
   \line { " "eine gute Sängerin;  }
 
   \line { " "der Weizen kennt sie gut,  }
 
   \line { " "der Weizen kennt sie gut.  }
+  
+   \line { " "}
 
-  \line { " "Das schöne Mädchen, mein Sohn, erkennt man gut,
-  }
+  \line { " "Das schöne Mädchen, mein Sohn, }
+       \line { " "    erkennt man gut, }
   \line { " "wenn sie in der Tenne den Weizen drischt,  }
 
   \line { " "ihn durchsiebt,  }
@@ -78,6 +89,27 @@
 
   \line { " "Kleine und Große kennen sie gut.  }
    \line { " " }
+   
+
+
+
+
+
+
+  }
+}
+
+
+\pageBreak
+
+
+
+\markup \fontsize #deCoupletFontSize {
+    \hspace #10
+    \override #'(baseline-skip . 1.9)
+    \column {
+   
+
 
   \line { " "Ein kluges Mädchen, mein Sohn erkennt man,  }
 
@@ -90,6 +122,8 @@
   \line { " "Ein schönes Mädchen, mein Sohn, ist der Tau,  }
 
   \line { " "der den Boden befeuchtet.  }
+  
+    \line { " " }
 
   \line { " "Es ist ein Engel, der von oben kommt,  }
 
@@ -108,3 +142,4 @@
 
   }
 }
+

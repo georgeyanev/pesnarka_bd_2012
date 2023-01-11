@@ -244,8 +244,8 @@
 
   }
 
-   \pageBreak
-
+ 
+ \markup \empty-two
 
   % include foreign translation(s) of the song
   \include "lyrics_de/142_stavai_daste_lyrics_de.ly"
