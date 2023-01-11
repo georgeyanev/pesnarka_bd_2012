@@ -8,11 +8,11 @@
   \score {
     \include "include/score-layout.ily"
 
-     \new Voice \relative c' {
+    \new Voice \relative c' {
       \clef treble
       \key c \major
       \time 6/4
-       \tempoFunc "Andante" 4 "65"
+      \tempoFunc "Andante" 4 "65"
 
 
       c4 e g (a ) g2 | e4 g c4 ( \acciaccatura {d16c b c}) d4 c2 \break
@@ -26,7 +26,7 @@
       \repeat volta 2 {
         e4 g g2 | e4 g g2 | e4 c' c2 | \break
 
-         \time 6/4  b4 d c b a g | \time 4/4 e g g2 | \break
+        \time 6/4  b4 d c b a g | \time 4/4 e g g2 | \break
 
         \time 6/4 e4 g f e e c | \time 4/4 d e c2 \break
 
@@ -50,10 +50,11 @@
 
       Кой пъл -- ни сър -- ца ни със Лю -- бов.
 
-      Кой пъл -- ни сър -- ца ни със Лю -- бов. 
+      Кой пъл -- ни сър -- ца ни със Лю -- бов.
     }
-      
-    \addlyrics {   Du -- hat Bo -- zhi, Du -- hat Vech -- ni,
+
+    \addlyrics {
+      Du -- hat Bo -- zhi, Du -- hat Vech -- ni,
 
       Du -- hat Svya -- ti, Du -- hat Bla -- gi,
 
@@ -65,7 +66,7 @@
 
       koy pal -- ni sar -- tsa ni sas Lyu -- bov.
 
-      Koy pal -- ni sar -- tsa ni sas Lyu -- bov. 
+      Koy pal -- ni sar -- tsa ni sas Lyu -- bov.
     }
 
     \addlyrics {
@@ -81,7 +82,7 @@
 
       " " " " " " " " " " " " " " " " " "
 
-      " " " " " " " " " " " " " " " " " " 
+      " " " " " " " " " " " " " " " " " "
     }
 
     \addlyrics {
@@ -97,20 +98,20 @@
 
       " " " " " " " " " " " " " " " " " "
 
-      " " " " " " " " " " " " " " " " " " 
+      " " " " " " " " " " " " " " " " " "
     }
 
-        \header {
-          title = \titleFunc "Духът Божий" "Duhat Bozhiy"
-        }
+    \header {
+      title = \titleFunc "Духът Божий" "Duhat Bozhiy"
+    }
 
-        \midi{}
+    \midi{}
 
-      } % score
-      
+  } % score
 
+  \pageBreak
 
-      % include foreign translation(s) of the song
-      \include "lyrics_de/079_Duhat_Bozhii_lyrics_de.ly"
+  % include foreign translation(s) of the song
+  \include "lyrics_de/079_Duhat_Bozhii_lyrics_de.ly"
 
-    } % bookpart
+} % bookpart

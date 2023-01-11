@@ -2,7 +2,6 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Ruf des Herzens" }
 \markup \null
-\markup \null
 \markup \fontsize #deCoupletFontSize {
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
@@ -17,7 +16,7 @@
 
     \line { "   "und rufen Dich an, Allheiliger! Vergib!}
     \line { "   " }
-      
+
 
     \line { 2. Vergiss unsere Sünden, }
 
@@ -27,7 +26,7 @@
 
     \line { "   "empfange uns in Deinem Reich!}
     \line { "   " }
- 
+
 
     \line { 3. Wir lobpreisen Dich dort in der Ewigkeit,}
 

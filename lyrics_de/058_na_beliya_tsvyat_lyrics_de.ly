@@ -2,85 +2,85 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "An die weiße Farbe" }
 \markup \null
-\markup \null
+
 \markup \fontsize #deCoupletFontSize {
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {  
-     \line { 1. Mögen wir noch höher nach oben gehen.}
+  \column {
+    \line { 1. Mögen wir noch höher nach oben gehen.}
 
-\line { "   "zu den weißen Schneegipfeln,}
+    \line { "   "zu den weißen Schneegipfeln,}
 
-\line { "   "auf dass wir den weißen Äther begrüßen}
+    \line { "   "auf dass wir den weißen Äther begrüßen}
 
-\line { "   "und die Schneekristalle.}
+    \line { "   "und die Schneekristalle.}
 
- \line { " " }
+    \line { " " }
 
-\line { "      " \italic { Refrain }:}
-\line { "      "Die Schönheit der göttlichen Welt,}
+    \line { "      " \italic { Refrain }:}
+    \line { "      "Die Schönheit der göttlichen Welt,}
 
-\line { "      "das Weiße, unsere Farbe  –}
+    \line { "      "das Weiße, unsere Farbe  –}
 
-\line { "      "hat ewige Kraft,}
+    \line { "      "hat ewige Kraft,}
 
-\line { "      "die Finsternis ergreift sie nicht.}
- \line { " " }
-\line { 2. Höher nach oben! Dort blüht }
+    \line { "      "die Finsternis ergreift sie nicht.}
+    \line { " " }
+    \line { 2. Höher nach oben! Dort blüht }
 
-\line { "   "die weiße Alpenrose,}
+    \line { "   "die weiße Alpenrose,}
 
-\line { "   "die Morgenröte goss die weiße Farbe}
+    \line { "   "die Morgenröte goss die weiße Farbe}
 
-\line { "   "in diese Rose hinein. }
+    \line { "   "in diese Rose hinein. }
 
- \line { " " }
+    \line { " " }
 
-\line { "      " \italic { Refrain } ... }
+    \line { "      " \italic { Refrain } ... }
 
- \line { " " }
+    \line { " " }
 
-\line { 3. Nach oben! Eine weiße Sonne wird heute}
+    \line { 3. Nach oben! Eine weiße Sonne wird heute}
 
-\line { "   " vom Osten aufgehen  –}
+    \line { "   " vom Osten aufgehen  –}
 
-\line { "   " das Emblem des Lebens für diejenigen,}
+    \line { "   " das Emblem des Lebens für diejenigen,}
 
-\line { "   " in denen Gott lebt.}
+    \line { "   " in denen Gott lebt.}
 
- \line { " " }
+    \line { " " }
 
-\line { "      " \italic { Refrain } ... }
+    \line { "      " \italic { Refrain } ... }
 
- \line { " " }
+    \line { " " }
 
-\line { 4. Nach oben – in dieses Weiße!}
+    \line { 4. Nach oben – in dieses Weiße!}
 
-\line { "   " Es wird alles ausfüllen}
+    \line { "   " Es wird alles ausfüllen}
 
-\line { "   " und wird die tödliche Dunkelheit}
+    \line { "   " und wird die tödliche Dunkelheit}
 
-\line { "   " in einem weißen Tag verwandeln.}
+    \line { "   " in einem weißen Tag verwandeln.}
 
- \line { " " }
+    \line { " " }
 
-\line { "      " \italic { Refrain } ... }
+    \line { "      " \italic { Refrain } ... }
 
- \line { " " }
-\line { 5. Wir werden die Erde verschönern,}
+    \line { " " }
+    \line { 5. Wir werden die Erde verschönern,}
 
-\line { "   " wir werden sie zum Paradies machen;}
+    \line { "   " wir werden sie zum Paradies machen;}
 
-\line { "   " Wir werden den Himmel erfreuen}
+    \line { "   " Wir werden den Himmel erfreuen}
 
-\line { "   " und Gott lobpreisen. }
-     
-\line { " " }
+    \line { "   " und Gott lobpreisen. }
 
-\line { "      " \italic { Refrain } ... }
-     
-     
-           }
-       
-    }    
+    \line { " " }
+
+    \line { "      " \italic { Refrain } ... }
+
+
+  }
+
+}

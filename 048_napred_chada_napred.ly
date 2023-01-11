@@ -133,7 +133,7 @@
 
       \line {   "   " nosete Pravda, Mir, Lyubov!}
     } %column
-     \"rightBraces048"
+    \"rightBraces048"
   } % markup
 
   \pageBreak

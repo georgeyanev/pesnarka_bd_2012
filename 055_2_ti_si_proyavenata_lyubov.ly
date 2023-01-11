@@ -39,7 +39,7 @@
 
   } % score
   \markup \dc-one "D.C."
-  
+
 
 
   % include foreign translation(s) of the song

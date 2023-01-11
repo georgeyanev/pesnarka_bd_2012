@@ -70,13 +70,13 @@
       \line { "   " твоя сила, твой пилот: }
       \line { "   " тя ще те изправи крепко, }
       \line {  "   " тя ще ти дари Живот.}
-       \line { " " }
-         \line { 2.  Напусни затвори тъмни, }
+      \line { " " }
+      \line { 2.  Напусни затвори тъмни, }
       \line {   "   " вън е вредом светлина – }
       \line {   "   " Мир и Радост те очакват }
       \line {   "   " и блажена сетнина. }
-     
-  
+
+
     }
 
 
@@ -94,7 +94,7 @@
       \line { "   " tya shte te izpravi krepko, }
       \line {  "   " tya shte ti dari Zhivot.}
       \line { " " }
-            \line { 2.  Napusni zatvori tamni, }
+      \line { 2.  Napusni zatvori tamni, }
       \line {   "   " van e vredom svetlina;}
       \line {   "   " Mir i Radost te ochakvat }
       \line {   "   " i blazhena setnina. }
@@ -102,14 +102,14 @@
 
     } %column
   } % markup
-  
+
   \pageBreak
-  
- \markup \fontsize #+1.7 {
+
+  \markup \fontsize #+1.7 {
     \hspace #5
     \override #'(baseline-skip . 1.8)
     \column {
-  
+
       \line { "   " \italic {Припев: } }
       \line { "   "Любовта е твой учител, }
       \line {   "   " живо Слово да ще ти, }
@@ -152,7 +152,7 @@
     } %column
   } % markup
 
-\markup \empty-two
+  \markup \empty-two
 
   % include foreign translation(s) of the song
   \include "lyrics_de/025_sabudi_se_bratko_lyrics_de.ly"

@@ -138,4 +138,4 @@
       % include foreign translation(s) of the song
       \include "lyrics_de/047_az_sam_byaloto_kokiche_lyrics_de.ly"
 
-    } % bookpart 
+    } % bookpart

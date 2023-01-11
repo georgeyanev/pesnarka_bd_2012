@@ -52,11 +52,11 @@
   % include foreign translation(s) of the song
   \include "lyrics_de/053_slava_Bozhiya_lyrics_de.ly"
 
-   \markup \empty-three
+  \markup \empty-three
 
   \include "include/bookpart-paper.ily"
 
-  
+
   \score {
     \include "include/score-layout.ily"
 
@@ -100,7 +100,7 @@
       Duh zhi -- ve -- e svyat; ed -- na -- kvo nas ni
       rad -- va i toz, i on -- zi svyat. Smart -- svyat.
     }
-     
+
 
     \header {
       title = \titleFunc "Към Сион" "Kam Sion"
@@ -156,7 +156,7 @@
       \line {   "        "s duh shte se poklonim. }
     } \"rightBraces054"
   } % markup
-    \markup \empty-three
+  \markup \empty-three
 
   \include "lyrics_de/054_kam_sion_lyrics_de.ly"
 

@@ -58,8 +58,8 @@
         \midi{}
 
       } % score
-      
-     
+
+
 
       \markup \fontsize #bgCoupletFontSize {
         \hspace #5
@@ -72,9 +72,9 @@
           \line {   "   "и злото всепорочно}
 
           \line {   "   "да победиме с право.}
-     
+
           \line { "   " \italic {Припев ... }}
-      
+
 
           \line {   3. На слабите да носим}
 
@@ -83,10 +83,10 @@
           \line {   "   "на страдущите – милост}
 
           \line {   "   "и свободата нова.}
-          
-       
+
+
           \line { "   " \italic {Припев ...}}
-      
+
           \line {  4. Във бездната да слезем,}
 
           \line {   "   "хоругва да поставим}
@@ -94,10 +94,10 @@
           \line {   "   "и падналите братя}
 
           \line {   "   "от мъка да избавим.}
-           
-         
+
+
           \line { "   " \italic {Припев ...}}
-          
+
           \line {   5. Тогава да отворим}
 
           \line {   "   "на новий град вратите,}
@@ -105,24 +105,24 @@
           \line {   "   "в Иерусалим да влезем –}
 
           \line {   "   "света на Светлините.}
-        
+
           \line { "   " \italic  {Припев ...}}
-      
+
         }
 
         \hspace #5
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
         \column {
-        \line { 2. Zemyata s chisti misli}
+          \line { 2. Zemyata s chisti misli}
 
           \line { "   "da ogradime zdravo,}
 
           \line { "   "i zloto vseporochno}
 
           \line { "   "da pobedime s pravo.}
-        
+
           \line { "   " \italic { Refrain ...} }
-       
+
           \line { 3. Na slabite da nosim}
 
           \line { "   "podkrepa i obnova,}
@@ -130,9 +130,9 @@
           \line { "   "na stradushtite – milost}
 
           \line { "   "i svobodata nova.}
-        
+
           \line { "   " \italic { Refrain ...} }
-      
+
           \line { 4. Vav bezdnata da slezem,}
 
           \line { "   "horugva da postavim}
@@ -140,9 +140,9 @@
           \line { "   "i padnalite bratya}
 
           \line { "   "ot maka da izbavim.}
-          
+
           \line { "   " \italic { Refrain ...} }
-     
+
           \line { 5. Togava da otvorim}
 
           \line { "   "na noviy grad vratite,}
@@ -150,12 +150,12 @@
           \line { "   "v Ierusalim da vlezem –}
 
           \line { "   "sveta na Svetlinite.}
-   
+
           \line { "   " \italic { Refrain ...} }
         } %column
       } % markup
-      
-          \pageBreak
+
+      \pageBreak
 
       % include foreign translation(s) of the song
       \include "lyrics_de/036_napred_da_hodim_lyrics_de.ly"

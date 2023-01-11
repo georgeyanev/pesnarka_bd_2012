@@ -2,7 +2,6 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize " Ich bin das weiße Schneeglöckchen" }
 \markup \null
-\markup \null
 \markup \fontsize #deCoupletFontSize {
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)

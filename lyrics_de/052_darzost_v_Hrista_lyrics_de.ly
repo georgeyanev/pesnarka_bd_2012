@@ -2,94 +2,93 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Kühnheit in Christus" }
 \markup \null
-\markup \null
 \markup \fontsize #deCoupletFontSize {
   \hspace #-1
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-\column {
-     
-     \line {  1. Kühnheit in Christus, Freunde, }
+  \column {
 
- \line { "   "auf das wir mit Ihm vorwärts gehen,}
+    \line {  1. Kühnheit in Christus, Freunde, }
 
- \line { "   "Er ist der König des Lebens, }
+    \line { "   "auf das wir mit Ihm vorwärts gehen,}
 
- \line { "   "Sein Königreich ist überall, ist überall.}
-  \line { " " } 
- \line { 2. Kühnheit in Christus, Freunde,}
- 
- \line { "   "auf das wir immer vorwärts gehen!}
+    \line { "   "Er ist der König des Lebens, }
 
- \line { "   "Gott-Christus führt uns auf dem Weg,}
+    \line { "   "Sein Königreich ist überall, ist überall.}
+    \line { " " }
+    \line { 2. Kühnheit in Christus, Freunde,}
 
- \line { "   "Er ist der mächtige König überall,}
+    \line { "   "auf das wir immer vorwärts gehen!}
 
- \line { "   "König überall.}
-  \line { " " } 
- \line { 3. Und hier unten, und dort oben,}
+    \line { "   "Gott-Christus führt uns auf dem Weg,}
 
- \line { "   "in den Universen ohne Enden,}
+    \line { "   "Er ist der mächtige König überall,}
 
- \line { "   "überall herrscht nur Er,}
+    \line { "   "König überall.}
+    \line { " " }
+    \line { 3. Und hier unten, und dort oben,}
 
- \line { "   "Er ist das Zepter und die Krone,}
+    \line { "   "in den Universen ohne Enden,}
 
- \line { "   "und die Krone.}
-  \line { " " } 
- \line { 4. Er herrscht, segnet  –}
+    \line { "   "überall herrscht nur Er,}
 
- \line { "   "auf dass alles in Weisheit gedeiht,}
+    \line { "   "Er ist das Zepter und die Krone,}
 
- \line { "   "auf das wir Ihm die Früchte}
+    \line { "   "und die Krone.}
+    \line { " " }
+    \line { 4. Er herrscht, segnet  –}
 
- \line { "   "  der heiligen Gerechtigkeit }
+    \line { "   "auf dass alles in Weisheit gedeiht,}
 
- \line { "   "als Opfer bringen.}
- 
-    }
-      \hspace #1
-    \override #`(baseline-skip . ,deCoupletBaselineSkip)
-    \column {
-       \line { 5. Siehe, heute rufen sie uns nach oben,}
+    \line { "   "auf das wir Ihm die Früchte}
 
- \line { "   "auf das wir zum Himmel fahren,}
+    \line { "   "  der heiligen Gerechtigkeit }
 
- \line { "   "weil uns dort die Freude erwartet –} 
+    \line { "   "als Opfer bringen.}
 
- \line { "   "auf das wir eine neue Stadt errichten,}
+  }
+  \hspace #1
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+  \column {
+    \line { 5. Siehe, heute rufen sie uns nach oben,}
 
- \line { "   "errichten.}
-  \line { " " } 
- \line { 6. Fürchtet euch nicht vor dem Tod,}
+    \line { "   "auf das wir zum Himmel fahren,}
 
- \line { "   "die Wesenheit vergeht nicht,}
+    \line { "   "weil uns dort die Freude erwartet –}
 
- \line { "   "das, was wir hier Tod nennen,}
+    \line { "   "auf das wir eine neue Stadt errichten,}
 
- \line { "   "ist für den Himmel ein Tor.}
+    \line { "   "errichten.}
+    \line { " " }
+    \line { 6. Fürchtet euch nicht vor dem Tod,}
 
- \line { "   "Ist ein Tor.}
-  \line { " " } 
- \line { 7. Mit Freude und mit Lobeshymne}
+    \line { "   "die Wesenheit vergeht nicht,}
 
- \line { "   "Werden wir ihre Schwelle übertreten,}
+    \line { "   "das, was wir hier Tod nennen,}
 
- \line { "   "und jenseits erwartet uns Christus}
+    \line { "   "ist für den Himmel ein Tor.}
 
- \line { "   "immer so sanft, immer so gütig,}
+    \line { "   "Ist ein Tor.}
+    \line { " " }
+    \line { 7. Mit Freude und mit Lobeshymne}
 
- \line { "   "immer so gütig.}
-  \line { " " } 
- \line { 8. Und dort wird er uns lehren}
+    \line { "   "Werden wir ihre Schwelle übertreten,}
 
- \line { "   "wie das Vergängliche nicht vergeht,}
+    \line { "   "und jenseits erwartet uns Christus}
 
- \line { "   "wie der Mensch mit seinem Körper}
+    \line { "   "immer so sanft, immer so gütig,}
 
- \line { "   "ewig leben kann,}
+    \line { "   "immer so gütig.}
+    \line { " " }
+    \line { 8. Und dort wird er uns lehren}
 
- \line { "   "leben kann.}
-    
-    }
+    \line { "   "wie das Vergängliche nicht vergeht,}
+
+    \line { "   "wie der Mensch mit seinem Körper}
+
+    \line { "   "ewig leben kann,}
+
+    \line { "   "leben kann.}
+
+  }
 }

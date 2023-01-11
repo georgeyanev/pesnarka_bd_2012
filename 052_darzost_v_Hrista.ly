@@ -15,10 +15,10 @@
 
     \translate #'(0 . -12.6 )
     \right-brace #30
-    
-       \translate #'(0 . -10.7 )
+
+    \translate #'(0 . -10.7 )
     \right-brace #30
- 
+
   }
   \column {
     % repeat numbers
@@ -28,13 +28,13 @@
     \translate #'(0 . -14.6 )
     2
 
- \translate #'(0 . -15.6 )
+    \translate #'(0 . -15.6 )
     2
 
- \translate #'(0 . -13.7)
+    \translate #'(0 . -13.7)
     2
 
-  
+
 
   }
 }
@@ -53,11 +53,11 @@
     \translate #'(0 . -11 )
     \right-brace #30
 
-   
+
   }
   \column {
     % repeat numbers
-  
+
     \translate #'(0 . -7.2 )
     2
 
@@ -67,7 +67,7 @@
     \translate #'(0 . -15.0 )
     2
 
-   
+
   }
 }
 
@@ -114,7 +114,7 @@
     \hspace #1
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-    
+
 
       \line {   2.  Дързост във Христа, другари,}
 
@@ -137,36 +137,36 @@
 
       \line {   "                 " и венец. }
       \line {   "   "}
-\line {   4.  Управлява, благославя – }
+      \line {   4.  Управлява, благославя – }
 
-\line {   "   " всичко в Мъдрост да расте, }
+      \line {   "   " всичко в Мъдрост да расте, }
 
-\line {   "   " плодове на Правда свята }
+      \line {   "   " плодове на Правда свята }
 
-\line {   "   " в жертва да Му принесе, }
+      \line {   "   " в жертва да Му принесе, }
 
-\line {   "              " принесе. }
+      \line {   "              " принесе. }
 
-\line {   "   "}
+      \line {   "   "}
 
 
-\line {   5. Ето днес ни горе викат, }
+      \line {   5. Ето днес ни горе викат, }
 
-\line {   "   " към Небето да вървим, }
+      \line {   "   " към Небето да вървим, }
 
-\line {   "   " че там Радост ни очаква. }
+      \line {   "   " че там Радост ни очаква. }
 
-\line {   "   " нов град да си съградим, }
+      \line {   "   " нов град да си съградим, }
 
-\line {   "              " съградим. }
+      \line {   "              " съградим. }
 
-\line {   "   "}
+      \line {   "   "}
 
     }\"rightBraces052_1"
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-  
+
       \line {   2.  Darzost vav Hrista, drugari,}
 
       \line {   "   " da varvime vse napred!}
@@ -177,7 +177,7 @@
 
       \line {   "               " tsar navred.}
       \line {   "   "}
-  
+
 
       \line {   3.  I tuk dolu, i tam gore, }
 
@@ -188,128 +188,128 @@
       \line {   "   " Toy e skiptar i venets, }
 
       \line {   "                 " i venets. }
-      
+
       \line {   "   "}
-\line {   4.  Upravlyava, blagoslavya – }
+      \line {   4.  Upravlyava, blagoslavya – }
 
-\line {   "   " vsichko v Madrost da raste, }
+      \line {   "   " vsichko v Madrost da raste, }
 
-\line {   "   " plodove na Pravda svyata }
+      \line {   "   " plodove na Pravda svyata }
 
-\line {   "   " v zhertva da Mu prinese, }
+      \line {   "   " v zhertva da Mu prinese, }
 
-\line {   "              " prinese. }
+      \line {   "              " prinese. }
 
-\line {   "   "}
+      \line {   "   "}
 
 
-\line {   5. Eto dnes ni gore vikat, }
+      \line {   5. Eto dnes ni gore vikat, }
 
-\line {   "   " kam Nebeto da varvim, }
+      \line {   "   " kam Nebeto da varvim, }
 
-\line {   "   " che tam Radost ni ochakva. }
+      \line {   "   " che tam Radost ni ochakva. }
 
-\line {   "   " nov grad da si sagradim, }
+      \line {   "   " nov grad da si sagradim, }
 
-\line {   "              " sagradim. }
+      \line {   "              " sagradim. }
 
-\line {   "   "}
+      \line {   "   "}
     } \"rightBraces052_1" %column
   } % markup
 
-\pageBreak
+  \pageBreak
 
-\markup \fontsize #bgCoupletFontSize {
+  \markup \fontsize #bgCoupletFontSize {
     \hspace #1
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
 
 
-\line {   6. От смъртта се не плашете, }
+      \line {   6. От смъртта се не плашете, }
 
-\line {   "   " не загива същността, }
+      \line {   "   " не загива същността, }
 
-\line {   "   " туй, що смърт зовеме тука, }
+      \line {   "   " туй, що смърт зовеме тука, }
 
-\line {   "   " за Небето е врата, }
+      \line {   "   " за Небето е врата, }
 
-\line {   "              " е врата. }
+      \line {   "              " е врата. }
 
-\line {   "   "}
-
-
-\line {   7. С радост и хвалебни песни }
-
-\line {   "   " ще прекрачим нейни праг, }
-
-\line {   "   " а отвъд Христос ни чака, }
-
-\line {   "   " все тъй кротък, все тъй благ, }
-
-\line {   "            " все тъй благ. }
-
-\line {   "   "}
+      \line {   "   "}
 
 
-\line {   8. И там Той ще ни научи, }
+      \line {   7. С радост и хвалебни песни }
 
-\line {   "   " тленното как да не тлей, }
+      \line {   "   " ще прекрачим нейни праг, }
 
-\line {   "   " как с телото си човека }
+      \line {   "   " а отвъд Христос ни чака, }
 
-\line {   "   " вечно може да живей, }
+      \line {   "   " все тъй кротък, все тъй благ, }
 
-\line {   "             " да живей. }
+      \line {   "            " все тъй благ. }
 
-}
-\"rightBraces052_2"
-\hspace #5
-\override #`(baseline-skip . ,bgCoupletBaselineSkip)
-\column {
+      \line {   "   "}
 
 
-\line {   6. Ot smartta se ne plashete, }
+      \line {   8. И там Той ще ни научи, }
 
-\line {   "   " ne zagiva sashtnostta, }
+      \line {   "   " тленното как да не тлей, }
 
-\line {   "   " tuy, shto smart zoveme tuka, }
+      \line {   "   " как с телото си човека }
 
-\line {   "   " za Nebeto e vrata, }
+      \line {   "   " вечно може да живей, }
 
-\line {   "              " e vrata. }
+      \line {   "             " да живей. }
 
-\line {   "   "}
-
-
-\line {   7. S radost i hvalebni pesni }
-
-\line {   "   " shte prekrachim neyni prag, }
-
-\line {   "   " a otvad Hristos ni chaka, }
-
-\line {   "   " vse tay krotak, vse tay blag, }
-
-\line {   "            " vse tay blag. }
-
-\line {   "   "}
+    }
+    \"rightBraces052_2"
+    \hspace #5
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \column {
 
 
-\line {   8. I tam Toy shte ni nauchi, }
+      \line {   6. Ot smartta se ne plashete, }
 
-\line {   "   " tlennoto kak da ne tley, }
+      \line {   "   " ne zagiva sashtnostta, }
 
-\line {   "   " kak s teloto si choveka }
+      \line {   "   " tuy, shto smart zoveme tuka, }
 
-\line {   "   " vechno mozhe da zhivey, }
+      \line {   "   " za Nebeto e vrata, }
 
-\line {   "             " da zhivey. }
+      \line {   "              " e vrata. }
+
+      \line {   "   "}
+
+
+      \line {   7. S radost i hvalebni pesni }
+
+      \line {   "   " shte prekrachim neyni prag, }
+
+      \line {   "   " a otvad Hristos ni chaka, }
+
+      \line {   "   " vse tay krotak, vse tay blag, }
+
+      \line {   "            " vse tay blag. }
+
+      \line {   "   "}
+
+
+      \line {   8. I tam Toy shte ni nauchi, }
+
+      \line {   "   " tlennoto kak da ne tley, }
+
+      \line {   "   " kak s teloto si choveka }
+
+      \line {   "   " vechno mozhe da zhivey, }
+
+      \line {   "             " da zhivey. }
 
     } %column
-\"rightBraces052_2"
-} % markup
+    \"rightBraces052_2"
+  } % markup
 
-\markup \empty-three
+  \markup \empty-three
 
   % include foreign translation(s) of the song
   \include "lyrics_de/052_darzost_v_Hrista_lyrics_de.ly"

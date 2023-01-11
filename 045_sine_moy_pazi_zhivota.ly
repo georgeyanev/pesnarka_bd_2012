@@ -76,6 +76,7 @@
     \hspace #1
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
+      
       \line { 2. Ти си тоз Живот реален, }
 
       \line {   "   " синко, себе си познай! }
@@ -91,7 +92,7 @@
       \line {   "   " идеалите високи}
 
       \line {   "   " и красивия копнеж.}
-      \vspace #0.2
+      \vspace #0.5
 
       \line {   3. Тази плът ти е одежда,}
 
@@ -113,6 +114,7 @@
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
+       
       \line { 2. Ti si toz Zhivot realen, }
       \line {   "   " sinko, sebe si poznay! }
 

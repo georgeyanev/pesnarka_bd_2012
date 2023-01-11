@@ -2,35 +2,35 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Ein Engel sang" }
 \markup \null
-\markup \null
+
 \markup \fontsize #deCoupletFontSize {
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-     
-     \line { " "Ein Engel rief der Mutter Gottes zu:}
 
-\line { " "Reine Jungfrau, freue dich! Und ich sage dir wieder: Freue dich!}
+    \line { " "Ein Engel rief der Mutter Gottes zu:}
 
-\line { " "Dein Sohn ist vom Grab am dritten Tag nach dem Tod}
+    \line { " "Reine Jungfrau, freue dich! Und ich sage dir wieder: Freue dich!}
 
-\line { " "auferstanden und erweckte die Toten zum Leben}
+    \line { " "Dein Sohn ist vom Grab am dritten Tag nach dem Tod}
 
-\line { " "Menschen, freut euch!}
+    \line { " "auferstanden und erweckte die Toten zum Leben}
+
+    \line { " "Menschen, freut euch!}
 
 
-\line { " "Geheiligt, geheiligt seist du, neues Jerusalem, }
+    \line { " "Geheiligt, geheiligt seist du, neues Jerusalem, }
 
-\line { " "denn deine Herrlichkeit ist über dich erschienen: }
+    \line { " "denn deine Herrlichkeit ist über dich erschienen: }
 
-\line { " "frohlocke jetzt und jauchze, oh Zion!}
+    \line { " "frohlocke jetzt und jauchze, oh Zion!}
 
-\line { " "Du, Reine, freue dich, Mutter Gottes}
+    \line { " "Du, Reine, freue dich, Mutter Gottes}
 
-\line { " "über die Auferstehung des von dir geborenen.}
-     
-     
-           }
-       
-    }    
+    \line { " "über die Auferstehung des von dir geborenen.}
+
+
+  }
+
+}

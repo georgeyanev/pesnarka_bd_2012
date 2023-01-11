@@ -2,107 +2,103 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Mögen wir Christus besingen" }
 \markup \null
-\markup \null
 \markup \fontsize #deCoupletFontSize {
   \hspace #-1
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-     
-\line { 1. Mögen wir Christus mit neuen Hymnen}
 
-\line { "   "in dieser Stunde besingen;}
+    \line { 1. Mögen wir Christus mit neuen Hymnen}
 
-\line { "   "Er ist der ewige Sohn Gottes }
+    \line { "   "in dieser Stunde besingen;}
 
-\line { "   "im Himmel und in uns.}
+    \line { "   "Er ist der ewige Sohn Gottes }
 
-\line { "   "Unser Meister, unser Führer, }
+    \line { "   "im Himmel und in uns.}
 
-\line { "   "unser wahres Leben,}
+    \line { "   "Unser Meister, unser Führer, }
 
-\line { "   "sein starker Name sei gepriesen}
+    \line { "   "unser wahres Leben,}
 
-\line { "   "von Geschlecht zu Geschlecht.}
+    \line { "   "sein starker Name sei gepriesen}
 
-  \line { " " }
+    \line { "   "von Geschlecht zu Geschlecht.}
 
-\line { 2. Singt zu Christus neue Hymnen}
+    \line { " " }
 
-\line { "   "in dieser festlichen Stunde,}
+    \line { 2. Singt zu Christus neue Hymnen}
 
-\line { "   "Er ist der Sohn Gottes, der auf die Erde }
+    \line { "   "in dieser festlichen Stunde,}
 
-\line { "   " um unsertwillen gesendet wurde.}
+    \line { "   "Er ist der Sohn Gottes, der auf die Erde }
 
-\line { "   "Er gab sein Leben, }
-        
-     \line { "   "   um uns von der Sünde zu retten, }
+    \line { "   " um unsertwillen gesendet wurde.}
 
-\line { "   "wie ein Sterbender stieg er in das Grab }
+    \line { "   "Er gab sein Leben, }
 
-\line { "   " hinab, um die Toten auferstehen zu lassen. }
+    \line { "   "   um uns von der Sünde zu retten, }
 
-  \line { " " }
+    \line { "   "wie ein Sterbender stieg er in das Grab }
 
-\line { 3. Und nachdem er gepriesen worden war,}
+    \line { "   " hinab, um die Toten auferstehen zu lassen. }
 
-\line { "   "gab er uns ein neues Testament,}
+    \line { " " }
 
-\line { "   "das größte von allen:}
+    \line { 3. Und nachdem er gepriesen worden war,}
 
-\line { "   "die Liebe – sein Gesetz. }
+    \line { "   "gab er uns ein neues Testament,}
 
-\line { "   "Er verkündete die frohe Botschaft und sagte:}
+    \line { "   "das größte von allen:}
 
-\line { "   "Ihr seid mein, ich bin euer,}
+    \line { "   "die Liebe – sein Gesetz. }
 
-\line { "   "alle Menschen sind Brüder,}
+    \line { "   "Er verkündete die frohe Botschaft und sagte:}
 
-\line { "   "Gottvater ist unser Vater.}
+    \line { "   "Ihr seid mein, ich bin euer,}
+
+    \line { "   "alle Menschen sind Brüder,}
+
+    \line { "   "Gottvater ist unser Vater.}
+
+  }
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+  \column {
 
 
-          
-     
-           }
-             \override #`(baseline-skip . ,deCoupletBaselineSkip)
-           \column {
-             
+    \line { 4. Liebet einander, }
 
-\line { 4. Liebet einander, }
+    \line { "   "so dienen wir unserem Vater,}
 
-\line { "   "so dienen wir unserem Vater,}
+    \line { "   "und der Vater liebt euch alle}
 
-\line { "   "und der Vater liebt euch alle}
- 
-\line { "   "wie Seine eigenen Kinder.}
+    \line { "   "wie Seine eigenen Kinder.}
 
-\line { "   "Ich bin das lebendige Brot }
-        
+    \line { "   "Ich bin das lebendige Brot }
+
     \line { "   "    vom Himmel, }
 
-\line { "   "ich bin der wahre Weinstock;}
+    \line { "   "ich bin der wahre Weinstock;}
 
-\line { "   "bewahrt Mein Wort und}
+    \line { "   "bewahrt Mein Wort und}
 
-\line { "   "lebt in Liebe!}
-  \line { " " }
-\line { 5. Nur in ihr ist das Leben;}
+    \line { "   "lebt in Liebe!}
+    \line { " " }
+    \line { 5. Nur in ihr ist das Leben;}
 
-\line { "   "in ihr ist auch die Freude,}
+    \line { "   "in ihr ist auch die Freude,}
 
-\line { "   "sie erschafft alles Gute  –}
+    \line { "   "sie erschafft alles Gute  –}
 
-\line { "   "einzig sie  – die Liebe.}
+    \line { "   "einzig sie  – die Liebe.}
 
-\line { "   "So lehrte Er uns damals,}
+    \line { "   "So lehrte Er uns damals,}
 
-\line { "   "so flüstert er uns jetzt auch zu, }
+    \line { "   "so flüstert er uns jetzt auch zu, }
 
-\line { "   "und in meiner Seele }
+    \line { "   "und in meiner Seele }
 
-\line { "   "erwachen seine Worte zum Leben. }
-           
-           }
-       
-    }    
+    \line { "   "erwachen seine Worte zum Leben. }
+
+  }
+
+}

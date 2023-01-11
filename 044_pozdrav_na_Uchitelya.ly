@@ -138,7 +138,7 @@
       \line { "   " da zhertvame zhivota svoy. }
     } %column
   } % markup
-  
+
   \markup \empty-three
 
   % include foreign translation(s) of the song

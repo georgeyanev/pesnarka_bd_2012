@@ -2,13 +2,12 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Gruß an den Meister" }
 \markup \null
-\markup \null
 \markup \fontsize #deCoupletFontSize {
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-   
+
     \line { 1. Gesegnet bist du von Gott, }
 
     \line { "   " oh Meister der Liebe, }

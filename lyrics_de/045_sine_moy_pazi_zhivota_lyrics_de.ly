@@ -2,61 +2,60 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Mein Sohn, bewahre das Leben" }
 \markup \null
-\markup \null
 \markup \fontsize #deCoupletFontSize {
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    
+
     \line {  1. Mein Sohn, bewahre das Leben, }
 
-\line { "   "die in dir verborgene Glut }
+    \line { "   "die in dir verborgene Glut }
 
-\line { "   "Es ist seinem Sinn nach kostbar}
+    \line { "   "Es ist seinem Sinn nach kostbar}
 
-\line { "   "und ein herrliches Geschenk! }
+    \line { "   "und ein herrliches Geschenk! }
 
-\line { "   "Unsterblicher, unvergänglicher Geist,}
+    \line { "   "Unsterblicher, unvergänglicher Geist,}
 
-\line { "   "der, der ewig wacht }
+    \line { "   "der, der ewig wacht }
 
-\line { "   "und unermüdlich arbeitet,}
+    \line { "   "und unermüdlich arbeitet,}
 
-\line { "   "unaufhörlich in dir erschafft.}
- \line { "   " }
- 
-\line { 2. Du bist dieses wirkliche Leben; }
+    \line { "   "unaufhörlich in dir erschafft.}
+    \line { "   " }
 
-\line { "   "Sohn; erkenne dich! }
+    \line { 2. Du bist dieses wirkliche Leben; }
 
-\line { "   "Deine Kraft ist groß,}
+    \line { "   "Sohn; erkenne dich! }
 
-\line { "   "deine Tage haben kein Ende. }
+    \line { "   "Deine Kraft ist groß,}
 
-\line { "   "Du erschaffst jeden Impuls, }
+    \line { "   "deine Tage haben kein Ende. }
 
-\line { "   "das edle Streben, }
+    \line { "   "Du erschaffst jeden Impuls, }
 
-\line { "   "die hohen Ideale }
+    \line { "   "das edle Streben, }
 
-\line { "   "und die schöne Sehnsucht.}
- \line { "   " }
+    \line { "   "die hohen Ideale }
 
-\line { 3. Dieses Fleisch ist dein Gewand,}
+    \line { "   "und die schöne Sehnsucht.}
+    \line { "   " }
 
-\line { "   "und die Erde eine Schulbank.}
+    \line { 3. Dieses Fleisch ist dein Gewand,}
 
-\line { "   "Du lebst und lernst, }
- 
-\line { "   "wie ein kleiner Sohn Gottes. }
+    \line { "   "und die Erde eine Schulbank.}
 
-\line { "   "Kühnheit, mein liebes Leben,}
+    \line { "   "Du lebst und lernst, }
 
-\line { "   "die göttliche Liebe ist mit dir! }
+    \line { "   "wie ein kleiner Sohn Gottes. }
 
-\line { "   "Sie ruft dich immer nach oben}
+    \line { "   "Kühnheit, mein liebes Leben,}
 
-\line { "   "in Vollkommenheit und in die neue Welt.}
-   }
+    \line { "   "die göttliche Liebe ist mit dir! }
+
+    \line { "   "Sie ruft dich immer nach oben}
+
+    \line { "   "in Vollkommenheit und in die neue Welt.}
+  }
 }

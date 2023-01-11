@@ -2,12 +2,11 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Es lärmt" }
 \markup \null
-\markup \null
 \markup \fontsize #deCoupletFontSize {
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-\column {
+  \column {
 
 
     \line {   1. Es lärmt, es lärmt, ich höre,}

@@ -2,12 +2,12 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Fir fyer fen" }
 \markup \null
-\markup \null
+
 \markup \fontsize #deCoupletFontSize {
   \hspace #14
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-\column {
+  \column {
 
     \line {   "   "Fir-fyur-fen Tao Bi Au-men, }
     \line {   "   "Tao Bi Au-men, Tao Bi Au-men.}

@@ -47,10 +47,10 @@
   \markup \empty-two
   \include "lyrics_de/056_1_idvat_dni_na_radost_lyrics_de.ly"
 
-\markup \empty-two
+  \markup \empty-two
 
   \include "include/bookpart-paper.ily"
-   \score {
+  \score {
     \include "include/score-layout.ily"
 
     \new Voice \absolute  {
@@ -149,6 +149,6 @@
 
   \markup \empty-two
 
-\include "lyrics_de/056_2_kam_rila_lyrics_de.ly"
+  \include "lyrics_de/056_2_kam_rila_lyrics_de.ly"
 
 } % bookpart

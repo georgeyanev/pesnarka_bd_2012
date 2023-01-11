@@ -51,7 +51,7 @@
 
   } % score
 
-   \markup \empty-one
+  \markup \empty-one
 
   \markup \fontsize #bgCoupletFontSize {
     \hspace #1
@@ -131,9 +131,9 @@
 
     } %column
   } % markup
-  
+
   \pageBreak
-  
+
   \markup \fontsize #bgCoupletFontSize {
     \hspace #1
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
@@ -173,7 +173,7 @@
 
       \line {   "   " тези Негови Слова. }
     }
-    
+
 
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
@@ -214,7 +214,7 @@
     } %column
   } % markup
 
- \markup \empty-two
+  \markup \empty-two
 
   % include foreign translation(s) of the song
   \include "lyrics_de/060_na_Hrista_zapeyte_lyrics_de.ly"

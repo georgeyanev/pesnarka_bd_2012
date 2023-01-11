@@ -24,7 +24,7 @@
       d''2 es''4 | d''2. ~ | d''4 r g'' | f''2 es''4 | d''2 d''4 | c''2 bes'4 \break |
       d''2.~ | d''4 r c'' | bes'2 a'4 | bes'2 a'4 | g'2 fis'4 | g'2.~ | g'4 r2 | \bar "|."\break
     }
-    
+
 
 
     \addlyrics {
@@ -53,8 +53,8 @@
         \midi{}
 
       } % score
-      
-         \pageBreak
+
+      \pageBreak
 
       \markup \fontsize #bgCoupletFontSize {
         \hspace #1
@@ -69,7 +69,7 @@
           \line {   "   "с трептенията си безспир.}
 
           \line {   "   "О, дай ми тоз Живот и Мир!}
-         
+
           \line { "   " \italic {Припев:} }
 
 
@@ -112,7 +112,7 @@
           \line {   "   "s trepteniyata si bezspir.}
 
           \line {   "   "O, day mi toz Zhivot i Mir!}
-      
+
           \line { "   " \italic {Refrain:} }
 
 
@@ -143,7 +143,7 @@
           \line {   "   "ti vechno si sveta, Lyubov.}
         } %column
       } % markup
-      
+
       \markup \empty-three
 
 

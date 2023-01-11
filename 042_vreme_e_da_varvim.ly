@@ -92,7 +92,7 @@
       \line {   "   " в първата красота, }
       \line {   "   " Свобода, Мир и ред  }
       \line {   "   " ще владеят вред. }
-     
+
       \line { "   " \italic {Припев ... } }
     }
 
@@ -124,12 +124,12 @@
       \line {   "   " v parvata krasota, }
       \line {   "   " Svoboda, Mir i red  }
       \line {   "   " shte vladeyat vred. }
-    
+
       \line { "   " \italic {Refrain ...} }
     } %column
   } % markup
 
-\markup \empty-two
+  \markup \empty-two
   % include foreign translation(s) of the song
   \include "lyrics_de/042_vreme_e_da_varvim_lyrics_de.ly"
 

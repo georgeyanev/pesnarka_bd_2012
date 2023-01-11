@@ -8,11 +8,11 @@
     % repeat braces
     \translate #'(0 . -5.7 )
     \right-brace #20
-    
-        \translate #'(0 . -9.9 )
+
+    \translate #'(0 . -9.9 )
     \right-brace #20
-    
-            \translate #'(0 . -9.9 )
+
+    \translate #'(0 . -9.9 )
     \right-brace #20
 
   }
@@ -22,8 +22,8 @@
     2
     \translate #'(0 . -12.2 )
     2
-    
-     \translate #'(0 . -12.4 )
+
+    \translate #'(0 . -12.4 )
     2
 
   }
@@ -34,7 +34,7 @@
     % repeat braces
     \translate #'(0 . -8.3 )
     \right-brace #20
-    
+
 
   }
   \column {
@@ -104,11 +104,11 @@
       \line {   "   " алпийска роза бяла, }
       \line {   "   " зората белите лъчи }
       \line {   "   " в таз роза е изляла. }
-           \line { " " }
+      \line { " " }
 
       \line { "        " \italic {Припев: } }
-           \line { " " }
-   
+      \line { " " }
+
 
       \line {  3. Нагоре! Бяло Слънце днес }
 
@@ -117,11 +117,11 @@
       \line {   "   "емблема жива на онез,}
 
       \line {   "   "в които Бог живее.}
-           \line { " " }
+      \line { " " }
 
       \line { "        " \italic {Припев: } }
-           \line { " " }
-        \line {   4. Нагоре – в тази белина!}
+      \line { " " }
+      \line {   4. Нагоре – в тази белина!}
 
       \line {   "   "Тя всъде ще изпълни,}
 
@@ -129,22 +129,22 @@
 
       \line {   "   "в бял ден ще се превърне.}
 
-    
+
     }    \"rightBraces058"
 
     \hspace #5
-       \override #'(baseline-skip . 1.8)
+    \override #'(baseline-skip . 1.8)
     \column {
-      
+
       \line {   2. Nagore oshte! Tam tsafti }
       \line {   "   " alpiyska roza byala, }
       \line {   "   " zorata belite lachi }
       \line {   "   " v taz roza e izlyala. }
-           \line { " " }
-  
+      \line { " " }
+
       \line { "        " \italic {Pripev: } }
-           \line { " " }
-      
+      \line { " " }
+
 
       \line {  3. Nagore! Byalo Slantse dnes }
 
@@ -153,13 +153,13 @@
       \line {   "   "emblema zhiva na onez,}
 
       \line {   "   "v koito Bog zhivee.}
-           \line { " " }
-    
-      \line { "        " \italic {Pripev: } }
-           \line { " " }
-      
+      \line { " " }
 
-  \line {   4. Nagore – v tazi belina!}
+      \line { "        " \italic {Pripev: } }
+      \line { " " }
+
+
+      \line {   4. Nagore – v tazi belina!}
 
       \line {   "   "Tya vsade shte izpalni,}
 
@@ -170,7 +170,7 @@
 
     } \"rightBraces058" %column
   } % markup
-  
+
   \pageBreak
 
 
@@ -179,11 +179,11 @@
     \override #'(baseline-skip . 1.8)
     \column {
 
-    
-    
+
+
 
       \line { "        " \italic {Припев: } }
-   \line { " " }
+      \line { " " }
 
 
       \line {   5. Земята ще разхубавим,}
@@ -201,8 +201,8 @@
     \override #'(baseline-skip . 1.8)
     \column {
 
-     
- 
+
+
 
       \line { "        " \italic {Pripev: } }
 
@@ -215,7 +215,7 @@
       \line {   "   "Nebeto shte razveselim}
 
       \line {   "   "i Boga shte proslavim.}
-   \line { " " }
+      \line { " " }
 
       \line { "        " \italic {Pripev: } }
     }    \"rightBraces059"

@@ -16,9 +16,9 @@
       \autoBeamOff
       \partial 4
       d'8 d' | g'8 ([ a' ]) a'2 | \time 2/4 bes'8 ([ a' ])  bes' ([ c'' ])  | \break
-      
-      \time 4/4 bes'4 a'2 a'8 a' | 
-      d''4. d''8 c'' ([ d'' ]) d'' ([ c'' ]) \time 3/4  bes'4 a'2 |\break 
+
+      \time 4/4 bes'4 a'2 a'8 a' |
+      d''4. d''8 c'' ([ d'' ]) d'' ([ c'' ]) \time 3/4  bes'4 a'2 |\break
       \time 4/4  a'8 ([ bes' ]) c'' ([ d'' ]) c'' bes' a' g' \break |
       \time 3/4  f'8 ([ g' ]) a'2 | \time 6/4  bes'4. a'8 bes' ([ a' ]) bes' ([ c'' ]) d'' ([ c'' ]) bes' ([ a' ]) \break |
       \time 3/4  |a'8 ([ g'8 ]) a'2 | \time 6/4  d'4. e'8 f'4\staccato e'4\staccato d'\staccato cis'\staccato | \time 4/4  e'2 d' | \bar "|." \break
@@ -75,8 +75,8 @@
 
         \line {   "   " да намеря мощна сила.}
 
-     
-    
+
+
       }
 
       \hspace #5
@@ -104,20 +104,20 @@
 
         \line {   "   "da namerya moshtna sila.}
 
-    
+
 
 
       } %column
     } % markup
 
-\pageBreak
+    \pageBreak
 
 
     \markup \fontsize #bgCoupletFontSize {
       \hspace #1
       \override #`(baseline-skip . ,bgCoupletBaselineSkip)
       \column {
-      
+
 
         \line {   4. Във подвизи – съвършенство}
 
@@ -128,8 +128,8 @@
         \line {   "   " що разкрива на човека}
 
         \line {   "   " суетата на живота.}
-             \line { " " }
-    \line {    5. Всичко грешно на Земята}
+        \line { " " }
+        \line {    5. Всичко грешно на Земята}
 
         \line {   "   " е преходно, мимолетно.}
 
@@ -138,14 +138,14 @@
         \line {   "   " Тебе хвалим, Тебе славим,}
 
         \line {   "   " Теб ще славят вековете.}
-    
+
       }
 
       \hspace #5
       \override #`(baseline-skip . ,bgCoupletBaselineSkip)
       \column {
-          
-      
+
+
 
         \line {  4. Vav podvizi – savarshenstvo}
 
@@ -170,8 +170,8 @@
 
       } %column
     } % markup
- 
-\markup \empty-three
+
+    \markup \empty-three
     % include foreign translation(s) of the song
     \include "lyrics_de/029_stradna_dusho_lyrics_de.ly"
 

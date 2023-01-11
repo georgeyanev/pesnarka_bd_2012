@@ -27,9 +27,10 @@
       \bar ".|:"
 
       \time 4/4 b4 cis'4 d'4 b4 | \time 3/4 d'4 fis'2 | \time 4/4 e'4 fis' g' e' | \time 3/4 g'4 b'2  \break
-      \pageBreak
+
 
       \time 6/4 b'4 cis''4 d'' b' g' e' | g' b' a' g' fis' b | \break
+      \pageBreak
 
       cis'8 d' fis' e' d'4 cis' b2 | fis'4 b' d'' b' g' e' |\break
 

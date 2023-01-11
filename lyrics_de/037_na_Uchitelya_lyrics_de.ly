@@ -2,13 +2,12 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "An den Meister" }
 \markup \null
-\markup \null
 \markup \fontsize #deCoupletFontSize {
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    
+
     \line { 1. Ich werde dem Meister }
 
     \line { "   "bis zum Ende ergeben dienen,}

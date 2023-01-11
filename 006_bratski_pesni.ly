@@ -28,7 +28,7 @@
 
   } % score
  
- \markup\fontsize  #+8.5  {\bold {  \hspace #10 BRÜDERLICHE LIEDER} }
+ \markup\fontsize  #+8.5  {\bold {  \hspace #10  \vspace #13.5 BRÜDERLICHE LIEDER} }
 
   % include foreign translation(s) of the song
   %\include "lyrics_de/000_empty_template_lyrics_de.ly"

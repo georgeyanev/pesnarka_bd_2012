@@ -25,13 +25,13 @@
     \line {   "   " welcher das Leben erneuert }
     \line {   "   " und es ewig verjüngt. }
   }
-  
 
-  
-   \hspace #-1
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-    
+
+
+  \hspace #-1
+  \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+  \column {
+
     \line {2. Und er bringt Freude für die Seele }
     \line {   "   "und verkündet die Freiheit }
     \line {   "   " Und den Frieden mit allheiliger Liebe }
@@ -45,19 +45,19 @@
     \line {   "   " wem ist das nicht wertvoll? }
     \line {   "   " Erneuere uns bald }
     \line {   "   " für all die Jahre.}
-    
-  
+
+
   }
-  
-  
-  
-      
+
+
+
+
 }
 
 
-  
-  
-  
-  
+
+
+
+
 
 

@@ -12,11 +12,10 @@
     \translate #'(0 . -12.4 )
     \right-brace #18
 
-    \translate #'(0 . -8 )
+    \translate #'(0 . -13 )
     \right-brace #45
 
-    \translate #'(0 . -14.7 )
-    \right-brace #18
+
 
   }
   \column {
@@ -27,11 +26,10 @@
     \translate #'(0 . -14.2 )
     2
 
-    \translate #'(0 . -9.8 )
+    \translate #'(0 . -14.5 )
     2
 
-    \translate #'(0 . -19.2 )
-    2
+  
   }
 }
 
@@ -112,22 +110,17 @@
     \hspace #1
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
-      \line { 1. Излязъл е сеяч да сее }
-      \line {   "   " прекрасно благо – нов живот. }
-      \line {   "   " И сее той, и тихо пее }
-      \line {   "   " пред всеки дом и всеки род: }
+
+      \line { 2. И който чуе, в миг потръпва }
+      \line {   "   " от тоя благ и мил напев; }
+      \line {   "   " и просиява, и възкръсва, }
+      \line {   "   " и благославя тоз посев. }
       \line { " " }
       \line { "   " \italic {Припев: } }
       \line {  "   " Безценен дар е Любовта, }
       \line { "   " красиво чувство – Обичта }
       \line { "   " и благо дело – Милостта, }
       \line {  "   " обилен извор – Мъдростта.}
-
-      \line { " " }
-      \line { 2. И който чуе, в миг потръпва }
-      \line {   "   " от тоя благ и мил напев; }
-      \line {   "   " и просиява, и възкръсва, }
-      \line {   "   " и благославя тоз посев. }
 
       \line { " " }
       \line { "   " \italic {Припев ...} }
@@ -145,22 +138,17 @@
     \hspace #7
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-      \line { 1. Izlyazal e seyach da see }
-      \line {   "   " prekrasno blago – nov zhivot. }
-      \line {   "   " I see toy, i tiho pee }
-      \line {   "   " pred vseki dom i vseki rod: }
+
+      \line { 2. I koyto chue, v mig potrapva }
+      \line {   "   " ot toya blag i mil napev; }
+      \line {   "   " i prosiyava, i vazkrasva, }
+      \line {   "   " i blagoslavya toz posev. }
       \line { " " }
       \line { "   " \italic {Refrain: } }
       \line {  "   " Beztsenen dar e Lyubovta, }
       \line { "   " krasivo chuvstvo – Obichta }
       \line { "   " i blago delo – Milostta, }
       \line {  "   " obilen izvor – Madrostta.}
-
-      \line { " " }
-      \line { 2. I koyto chue, v mig potrapva }
-      \line {   "   " ot toya blag i mil napev; }
-      \line {   "   " i prosiyava, i vazkrasva, }
-      \line {   "   " i blagoslavya toz posev. }
 
       \line { " " }
       \line { "   " \italic {Refrain ...} }

@@ -2,13 +2,12 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Die Barmherzigkeit" }
 \markup \null
-\markup \null
 \markup \fontsize #deCoupletFontSize {
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    
+
     \line { 1. Die Barmherzigkeit ist ein Paradiesgarten, }
 
     \line { "   " wunderschön geschmückt, erfüllt von der Maischönheit;  }

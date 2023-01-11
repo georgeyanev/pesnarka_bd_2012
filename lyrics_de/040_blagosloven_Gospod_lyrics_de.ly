@@ -2,7 +2,6 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Gelobt sei der Herr" }
 \markup \null
-\markup \null
 \markup \fontsize #deCoupletFontSize {
   \hspace #18
   \override #`(baseline-skip . ,deCoupletBaselineSkip)

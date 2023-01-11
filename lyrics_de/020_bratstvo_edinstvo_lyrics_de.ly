@@ -10,7 +10,8 @@
     \line {  1. Wir wollen Brüderlichkeit und Einheit, }
     \line {   "   "Wir senden den Ruf der Liebe aus, }
     \line {   "   " Die Welt der Freude rufen wir: }
-    \line {   "   " auf dass wir das gute Leben in uns
+    \line {
+      "   " auf dass wir das gute Leben in uns
       ergießen!
     }
 
@@ -21,8 +22,5 @@
     \line {   "   " Auf das wir das gute Leben in uns ergießen, (2) }
     \line {   "   " ergießen, ergießen, ergießen. }
 
-
   }
-
-
 }

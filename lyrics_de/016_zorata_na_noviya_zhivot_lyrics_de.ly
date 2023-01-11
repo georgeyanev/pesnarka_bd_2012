@@ -1,6 +1,7 @@
 \version "2.24.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Die wunderbare Morgenröte bricht an" }
+\markup \null
 \markup \fontsize #+1.7 {
 
   \hspace #-3

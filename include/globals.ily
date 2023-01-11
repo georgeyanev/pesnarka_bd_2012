@@ -135,7 +135,7 @@ titleFunc = #(define-scheme-function
 #(define bgCoupletFontSize +2.5)
 #(define bgCoupletBaselineSkip 2.4)
 
-#(define deTitleFontSize 6)
+#(define deTitleFontSize 5)
 #(define deCoupletFontSize +2.5)
 #(define deCoupletBaselineSkip 2)
 

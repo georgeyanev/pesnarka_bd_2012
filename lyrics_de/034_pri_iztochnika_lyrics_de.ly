@@ -62,17 +62,17 @@
     \line { "   " mein mit Wunden bedecktes Herz öffnen?}
     \line { "   " }
 
-  
+
 
   }
-  
-    \hspace #1
+
+  \hspace #1
   \vspace #0.5
   \override #'(baseline-skip . 1.8)
   \column {
-      \line {  5. Neige dein Haupt, }
-               
-        \line { "   "         oh, unglücklicher Wanderer: }
+    \line {  5. Neige dein Haupt, }
+
+    \line { "   " oh, unglücklicher Wanderer: }
 
     \line { "   " lösche heute deinen unendlichen Durst}
 
@@ -97,8 +97,8 @@
     \line { "   " }
 
     \line {  7. Komm, komm }
-             
-          \line { "   "     und stille deinen Durst bei mir,}
+
+    \line { "   "     und stille deinen Durst bei mir,}
 
     \line { "   " oh geliebtes göttliches Geschöpf. }
 
@@ -109,8 +109,8 @@
     \line { "   " Trauer, Trauer,}
 
     \line { "   " von aller Qual und Trauer.}
-  
-  
+
+
   }
 }
 

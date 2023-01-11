@@ -54,7 +54,7 @@
 
 
 
- 
+
 
 
 
@@ -66,21 +66,21 @@
 
   }
 
- 
+
   \override #'(baseline-skip . 1.8)
 
   \column {
-    
-       \line {   3.Wer dieses große Geheimnis gut versteht,}
+
+    \line {   3.Wer dieses große Geheimnis gut versteht,}
 
     \line {   "   "öffnet morgens seine liebe Seele,}
 
     \line {   "   "wie die weiße Lilie am himmlischen Tau}
 
     \line {   "   " am wunderbaren Sonnenlicht.}
-        \line { " " }
+    \line { " " }
     \line { "   " \italic { Refrain ...}  }
-  \line { " " }
+    \line { " " }
 
     \line {   4. Die Sonne, die den Menschen belebt,}
 
@@ -103,13 +103,13 @@
 
     \line {   "   "Am seligsten wird der sein, der sie kostet.}
 
- 
+
 
     \line {   "   "In himmlischen Wohnstätten}
 
     \line {   "   "wird er ewig leben, vor dem Thron Gottes}
 
-  
+
 
     \line {   "   "wird er Lieder singen. }
 

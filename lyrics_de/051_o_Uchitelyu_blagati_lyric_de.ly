@@ -2,12 +2,12 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Oh, gütiger Meister" }
 \markup \null
-\markup \null
+
 \markup \fontsize #deCoupletFontSize {
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
- \column {
+  \column {
     \line {1. Oh, gütiger Meister,}
     \line {   "   "du bist von Güte erfüllt,}
     \line {   "   "deine Worte sind beflügelt,}

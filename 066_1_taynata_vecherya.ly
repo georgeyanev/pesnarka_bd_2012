@@ -59,7 +59,7 @@
 
   } % score
   \markup \dc-two "D.C." "con ripetizione"
-  
+
 
   % include foreign translation(s) of the song
   \include "lyrics_de/066_1_taynata_vecherya_lyrics_de.ly"
