@@ -82,7 +82,7 @@
 
       } % score
       
-          \markup \dc-two "D.C." "con ripetizioni"
+          \markup \dc-two "D.C." "con repitione"
 
 
     } % bookpart

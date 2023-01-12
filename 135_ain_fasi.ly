@@ -128,7 +128,7 @@
 
     } % score
 
-    \markup \dc-two "D.C. al Fine" "con ripetizioni"
+    \markup \dc-two "D.C. al Fine" "con repitione"
 
     \pageBreak
   

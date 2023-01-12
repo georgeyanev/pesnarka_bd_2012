@@ -43,7 +43,7 @@
     \midi{}
 
   } % score
-   %\markup \dc-two "D.C.""con ripetizioni"
+   %\markup \dc-two "D.C.""con repitione"
 
   \markup \fontsize #bgCoupletFontSize {
     \hspace #1

@@ -210,7 +210,7 @@
     \midi{}
 
   } % score
-  %\markup \dc-two "D.C." "con repetitione"
+  %\markup \dc-two "D.C." "con repitione"
 
   \pageBreak
 
