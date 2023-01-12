@@ -115,6 +115,7 @@ cat \
     ../137_a_bre_sinko.ly \
     ../138_bashtina_pesen_ugledna_moma.ly \
     ../142_stavay_daste.ly \
+    ../144_pesni_sled_1944_blank \
     ../145_pesni_sled_1944.ly \
     ../146_bylgarska_rapsodia.ly \
     ../150_balgarska_idiliya.ly \
