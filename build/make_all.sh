@@ -143,8 +143,8 @@ cat \
     ../173_malkata_bubolechka.ly \
     ../174_1_da_bih_te_slushal.ly \
     ../174_2_3_slusham_radost.ly \
-    ../175_2_me-hein.ly \
     ../175_pismoto.ly \
+    ../175_2_me-hein.ly \
     ../176_zhitno_zarno.ly \
     ../177_izvorche.ly  \
     ../178_molitva.ly \

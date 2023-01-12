@@ -77,7 +77,7 @@
           \clef treble
           \key c \major
           \time 2/4
-          \tempoFunc "Moderato " 4 "72"
+          \tempoFunc "Moderato" 4 "72"
           \autoBeamOff
           bes4 (  d'4 )  f'2 | % 2
           g'8 ( [  a'8  bes'8  g'8 ) ]  f'2

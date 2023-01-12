@@ -12,7 +12,7 @@
       \clef treble
       \key g \major
       \time 3/2
-      \tempoFunc "Lento cantabile" 4 "100"
+      \tempo "Lento cantabile"
       \autoBeamOff
       r2 r4  e'4  fis'4
       e'4 | % 2

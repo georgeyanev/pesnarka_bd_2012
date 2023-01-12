@@ -17,7 +17,7 @@
     \line {   "   " Sonne für die menschlichen Seelen }
 
     \line {   "   " bringt unaufhörlich die Liebe. }
-  \line {   "   " }
+    \line {   "   " }
     \line {2. Das gute Leben strömt }
 
     \line {   "   " in den warmen Sonnenstrahlen }
