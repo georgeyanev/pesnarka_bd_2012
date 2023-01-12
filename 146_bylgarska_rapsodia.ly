@@ -288,7 +288,7 @@
 
   } % score
 
-
+  \pageBreak
   % include foreign translation(s) of the song
   \include "lyrics_de/146_bylgarska_rapsodia_lyrics_ de.ly"
 

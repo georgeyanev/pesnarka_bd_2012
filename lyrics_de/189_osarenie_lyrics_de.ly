@@ -10,29 +10,30 @@
   \column {
     \line { " " }
 
- \line { " "Unendliche Weite, }
+    \line { 1. Unendliche Weite, }
 
- \line { " "wunderbare Schönheit und Frieden, }
+    \line {   "   " wunderbare Schönheit und Frieden, }
 
- \line { " "Sonne für die menschlichen Seelen }
+    \line {   "   " Sonne für die menschlichen Seelen }
 
- \line { " "bringt unaufhörlich die Liebe. }
+    \line {   "   " bringt unaufhörlich die Liebe. }
+  \line {   "   " }
+    \line {2. Das gute Leben strömt }
 
- \line { " "Das gute Leben strömt }
+    \line {   "   " in den warmen Sonnenstrahlen }
 
- \line { " "in den warmen Sonnenstrahlen }
+    \line {   "   " und die Seelen lobpreisen im Licht }
 
- \line { " "und die Seelen lobpreisen im Licht }
+    \line {   "   " der gütige Vater der Liebe. }
+    \line {   "   " }
 
- \line { " "der gütige Vater der Liebe. }
+    \line {3. Alles ist Liebe, }
 
- \line { " "Alles ist Liebe, }
+    \line {   "   " Freude, Kraft und Leben. }
 
- \line { " "Freude, Kraft und Leben. }
+    \line {   "   " Ihr göttliches Licht }
 
- \line { " "Ihr göttliches Licht }
-
- \line { " "bescheint diese Schönheit. }
+    \line {   "   " bescheint diese Schönheit. }
 
   }
 }

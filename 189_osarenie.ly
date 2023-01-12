@@ -94,7 +94,7 @@
         } %column
       } % markup
 
-       \markup \empty-two
+      \pageBreak
 
       % include foreign translation(s) of the song
       \include "lyrics_de/189_osarenie_lyrics_de.ly"

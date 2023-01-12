@@ -163,7 +163,10 @@
         \line {   "        " kato taya dusha blaga.}
       } %column
     } % markup
-\pageBreak
+
+   \markup \empty-two
+   
+   
    
 
     % include foreign translation(s) of the song

@@ -5,29 +5,6 @@
 
 \bookpart {
   \include "include/bookpart-paper.ily"
-  \score {
-    \include "include/score-layout.ily"
-
-    \new Voice \relative c' {
-      \clef treble
-      \key g \major
-      \time 4/4
-      \tempoFunc "Moderato" 4 "69"
-      \autoBeamOff
-      %c % notes here
-    }
-
-    \addlyrics {}
-    \addlyrics {}
-
-    \header {
-      title = \titleFunc "" ""
-    }
-
-    \midi{}
-
-  } % score
-  \pageBreak
  
  \markup\fontsize  #+8.5  {\bold {  \hspace #10  \vspace #13.5 LIEDER VOM MEISTER} }
 

@@ -115,15 +115,15 @@ cat \
     ../137_a_bre_sinko.ly \
     ../138_bashtina_pesen_ugledna_moma.ly \
     ../142_stavay_daste.ly \
-    ../144_pesni_sled_1944_blank \
+    ../144_pesni_sled_1944_blank.ly \
     ../145_pesni_sled_1944.ly \
     ../146_bylgarska_rapsodia.ly \
     ../150_balgarska_idiliya.ly \
     ../154_ne_li_dimah.ly \
     ../155_1_radost_sa_dushata.ly \
-    ../155_2_mirat_ide_veche.ly \
     ../156_mirat_ide.ly \
     ../158_mirat_ide_II.ly \
+     ../155_2_mirat_ide_veche.ly \
     ../161_duhai_vetre_II.ly \
     ../162_marsh_na_svetlite_sili.ly \
     ../162_mash_vtori_variant_tekst.ly \
@@ -134,18 +134,14 @@ cat \
     ../167_Kam_fir_fur_fen.ly \
     ../167_2_kazhi_mi_svetal_bozhii_lach.ly \
     ../168_kazhi_mi_ti_istinata_II.ly \
+    ../169_1_kazhi_mi_ti_isinata_III.ly \
     ../169_2_svoboda_e_potrebna_za_dushata.ly \
-    ../169_kazhi_mi_ti_isinata_III.ly \
-    ../170_1_vyara_svetla_I.ly \
-    ../170_2_vyara_svetla_II.ly \
-    ../171_1_vyara_svetla_III.ly \
-    ../171_2_milost_blagost.ly \
-    ../171_3_az_moga_da_disham.ly \
+    ../170_vyara_svetla_I_II_III.ly \
+    ../171_milost_blagost_az_moga_da_disham.ly \
     ../172_igrata_na_potocheto.ly \
     ../173_malkata_bubolechka.ly \
     ../174_1_da_bih_te_slushal.ly \
-    ../174_2_slusham.ly \
-    ../174_3_radost.ly \
+    ../174_2_3_slusham_radost.ly \
     ../175_2_me-hein.ly \
     ../175_pismoto.ly \
     ../176_zhitno_zarno.ly \

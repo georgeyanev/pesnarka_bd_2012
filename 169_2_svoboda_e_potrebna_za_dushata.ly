@@ -58,6 +58,8 @@
       % include foreign translation(s) of the song
       \include "lyrics_de/169_2_svoboda_e_potrebna_sa_dushata_lyrics_de.ly"
 
+      
+
     } % bookpart
 
     % Più mosso

@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
-  \hspace #20
+  \hspace #7
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -21,6 +21,11 @@
 
 \line { " "und die Wahrheit ewig scheint.}
 \line { " " }
+
+  }
+  
+   \override #`(baseline-skip . ,deCoupletBaselineSkip)
+    \column {
 
 \line { " "Heller, starker Glaube!}
 
