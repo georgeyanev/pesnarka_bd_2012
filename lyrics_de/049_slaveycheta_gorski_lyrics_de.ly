@@ -41,7 +41,7 @@
 
     \line { "   "wird alles Böse gebannt; }
 
-    \line { "   "einen neuen Soldaten, jung und gerecht, }
+    \line { "   "einen neuen Kämpfer, jung und gerecht, }
 
     \line { "   "werden wir durch unsere Lieder erwecken.}
 

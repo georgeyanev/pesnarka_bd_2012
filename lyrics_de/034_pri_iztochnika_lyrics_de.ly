@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Bei der Quelle Quelle" }
+\markup \fill-line { \fontsize #deTitleFontSize "Bei der Quelle" }
 \markup \fontsize #+2.0 {
   \hspace #-2
   \vspace #1

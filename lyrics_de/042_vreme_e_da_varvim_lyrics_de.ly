@@ -52,7 +52,7 @@
 
     \line { "   "den Glauben wiederbeleben!}
 
-    \line { "   "Die Welt wird wieder beschienen werden, }
+    \line { "   "Die Welt wird wieder beschienen, }
 
     \line { "   "in der ersten Schönheit, }
 

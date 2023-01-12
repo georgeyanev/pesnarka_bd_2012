@@ -58,8 +58,8 @@ cat \
     ../079_Duhat_Bozhii.ly \
     ../080_mahar_benu_aba_v_mrak_tamnota.ly \
     ../081_v_zorite_na_zhivota.ly \
-    ../082_Bog_e_lyubov.ly \
-    ../083_vehadi_vecher_sutrin.ly \
+    ../082_Bog_e_lyubov_083_vehadi.ly \
+    ../083_vecher_sutrin.ly \
     ../084_imashe_chelovek.ly \
     ../086_1_kazhi_mi_ti_istinata.ly \
     ../086_02_blagata_pesen.ly \
@@ -93,6 +93,7 @@ cat \
     ../111_az_moga_da_lubya.ly \
     ../112_1_sila_zdrave_e_bogatstvo.ly \
     ../112_2_Zov_na_planinata.ly \
+    ../113_zvetjata_zaftjaha.ly \
     ../114_toy_ide.ly \
     ../115_pesen_na_svetliya_pat.ly \
     ../116_doste_den.ly \
