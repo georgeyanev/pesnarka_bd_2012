@@ -1,7 +1,13 @@
 #!/bin/bash
 
 cat \
-    ../006_bratski_pesni.ly \
+    ../001_title_page.ly \
+    ../002_anotation.ly \
+    ../003_danov_img.ly \
+    ../005_preface.ly \
+    ../006_about_music.ly \
+    ../007_blank_page.ly \
+    ../008_bratski_pesni.ly \
     ../016_zorata_na_noviya_zhivot.ly \
     ../018_izlyazal_e_seyach.ly \
     ../020_bratstvo_edinstvo.ly \
