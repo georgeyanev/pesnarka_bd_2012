@@ -72,8 +72,10 @@
           \line {   "   "и злото всепорочно}
 
           \line {   "   "да победиме с право.}
+             \line { "   "}
 
           \line { "   " \italic {Припев ... }}
+             \line { "   "}
 
 
           \line {   3. На слабите да носим}
@@ -84,8 +86,9 @@
 
           \line {   "   "и свободата нова.}
 
-
+   \line { "   "}
           \line { "   " \italic {Припев ...}}
+             \line { "   " }
 
           \line {  4. Във бездната да слезем,}
 
@@ -95,18 +98,9 @@
 
           \line {   "   "от мъка да избавим.}
 
-
+   \line { "   "}
           \line { "   " \italic {Припев ...}}
-
-          \line {   5. Тогава да отворим}
-
-          \line {   "   "на новий град вратите,}
-
-          \line {   "   "в Иерусалим да влезем –}
-
-          \line {   "   "света на Светлините.}
-
-          \line { "   " \italic  {Припев ...}}
+    
 
         }
 
@@ -120,8 +114,10 @@
           \line { "   "i zloto vseporochno}
 
           \line { "   "da pobedime s pravo.}
+           \line { "   "}
 
           \line { "   " \italic { Refrain ...} }
+           \line { "   "}
 
           \line { 3. Na slabite da nosim}
 
@@ -130,8 +126,10 @@
           \line { "   "na stradushtite – milost}
 
           \line { "   "i svobodata nova.}
+           \line { "   "}
 
           \line { "   " \italic { Refrain ...} }
+           \line { "   "}
 
           \line { 4. Vav bezdnata da slezem,}
 
@@ -140,8 +138,43 @@
           \line { "   "i padnalite bratya}
 
           \line { "   "ot maka da izbavim.}
+           \line { "   "}
 
           \line { "   " \italic { Refrain ...} }
+         
+        } %column
+      } % markup
+      
+      
+
+      \pageBreak
+      
+      
+
+      \markup \fontsize #bgCoupletFontSize {
+        \hspace #5
+        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+        \column {
+
+
+          \line {   5. Тогава да отворим}
+
+          \line {   "   "на новий град вратите,}
+
+          \line {   "   "в Иерусалим да влезем –}
+
+          \line {   "   "света на Светлините.}
+             \line { "   "}
+
+          \line { "   " \italic  {Припев ...}}
+             \line { "   "}
+
+        }
+
+        \hspace #5
+        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+        \column {
+      
 
           \line { 5. Togava da otvorim}
 
@@ -150,12 +183,11 @@
           \line { "   "v Ierusalim da vlezem –}
 
           \line { "   "sveta na Svetlinite.}
+                \line { "   "}
 
           \line { "   " \italic { Refrain ...} }
         } %column
       } % markup
-
-      \pageBreak
 
       % include foreign translation(s) of the song
       \include "lyrics_de/036_napred_da_hodim_lyrics_de.ly"
