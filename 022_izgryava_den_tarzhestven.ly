@@ -79,26 +79,12 @@
     \hspace #1
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-      \line { 1. Изгрява вече ден тържествен, }
-      \line {   "   " предреченият ден Божествен, }
-      \line {   "   " на дните диадема}
-      \line {   "   " със светлина голяма. }
+     
+      \line { 2. И носи Радост за душата, }
+      \line {   "   " и прогласява Свободата}
+      \line {   "   " и Мир с Любов пресвята}
+      \line {   "   " за всички на земята. }
 
-      \line { " " }
-      \line { "   " \italic {Припев: } }
-      \line {   "   " Елате да живеем }
-      \line {   "   " във Любовта чудесна! }
-      \line {   "   " Елате да приемем}
-      \line {   "   " таз благодат небесна, }
-      \line {   "   " що живота обновява}
-      \line {   "   " и вечно тя го подмладява! }
-
-      \line { " " }
-      \line { 2. И носи радост за душата, }
-      \line {   "   " и прогласява свободата}
-      \line {   "   " и мир с Любов пресвята}
-      \line {   "   " за всички на Земята. }
-      \line {   "   " Елате да живеем... }
 
       \line { " " }
       \line { "   " \italic {Припев: } }
@@ -108,7 +94,6 @@
       \line {   "   " кому за тебе не е драго? }
       \line {   "   " За всичките години}
       \line {   "   " по-скоро обнови ни! }
-      \line {   "   " Елате да живеем... }
 
       \line { " " }
       \line { "   " \italic {Припев: } }
@@ -117,26 +102,11 @@
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-      \line { 1. Izgryava veche den tarzhestven, }
-      \line {   "   " predrecheniyat den Bozhestven, }
-      \line {   "   " na dnite diadema}
-      \line {   "   " sas svetlina golyama. }
-
-      \line { " " }
-      \line { "   " \italic {Refrain: } }
-      \line {   "   " Elate da zhiveem }
-      \line {   "   " vav Lyubovta chudesna! }
-      \line {   "   " Elate da priemem}
-      \line {   "   " taz blagodat nebesna, }
-      \line {   "   " shto zhivota obnovyava}
-      \line {   "   " i vechno tya go podmladyava! }
-
-      \line { " " }
-      \line { 2. I nosi radost za dushata, }
-      \line {   "   " i proglasyava svobodata}
-      \line {   "   " i mir s Lyubov presvyata}
-      \line {   "   " za vsichki na Zemyata. }
-      \line {   "   " Elate da zhiveem... }
+     
+      \line { 2. I nosi Radost za dushata, }
+      \line {   "   " i proglasyava Svobodata}
+      \line {   "   " i Mir s Lyubov presvyata}
+      \line {   "   " za vsichki na zemyata. }
 
       \line { " " }
       \line { "   " \italic {Refrain: } }
@@ -146,7 +116,6 @@
       \line {   "   " komu za tebe ne e drago? }
       \line {   "   " Za vsichkite godini}
       \line {   "   " po-skoro obnovi ni! }
-      \line {   "   " Elate da zhiveem... }
 
       \line { " " }
       \line { "   " \italic {Refrain: } }

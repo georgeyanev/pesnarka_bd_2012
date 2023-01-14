@@ -110,7 +110,7 @@
           bes'2. r4 \break
           \repeat volta 2 {
             | % 16
-            \tempoFunc "Poco piu mosso" 4 "92"
+            \tempoFunc "Poco più mosso" 4 "92"
 
             f''4.  d''8  es''4  c''4 | % 17
             d''4.  bes'8  c''4  a'4 \break | % 18
