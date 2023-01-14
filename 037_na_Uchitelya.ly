@@ -88,7 +88,7 @@
       \line { " " }
       \line { 3. Дай ми Твойта Мъдрост свята }
       \line {   "   " и Божествена Любов; }
-      \line {   "   " за любов към всички братя }
+      \line {   "   " за Любов към всички братя }
       \line {   "   " винаги да съм готов. }
       \line { " " }
       \line { 4. И във дни на изпитание }
@@ -113,7 +113,7 @@
       \line { " " }
       \line { 3. Day mi Tvoyta Madrost svyata }
       \line {   "   " i Bozhestvena Lyubov; }
-      \line {   "   " za lyubov kam vsichki bratya }
+      \line {   "   " za Lyubov kam vsichki bratya }
       \line {   "   " vinagi da sam gotov. }
       \line { " " }
       \line { 4. I vav dni na izpitanie }

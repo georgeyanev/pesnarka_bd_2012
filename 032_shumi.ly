@@ -116,9 +116,9 @@
 
 
       \line { " " }
-      \line {   3. Мой ветре, }
+      \line {   3. Мой ветре, буйно }
 
-      \line {   "   "     буйно задухай сега!}
+      \line {   "   "      задухай сега!}
 
       \line {   "   "Носи Божествената влага}
 
@@ -153,9 +153,9 @@
 
 
       \line { " " }
-      \line {  3. " " " " Moy vetre, }
+      \line {  3. " " " " Moy vetre, buyno}
 
-      \line {    "   "    "   "buyno zaduhay sega!}
+      \line {    "   "    "   " zaduhay sega!}
 
       \line {   "   "Nosi Bozhestvenata vlaga}
 

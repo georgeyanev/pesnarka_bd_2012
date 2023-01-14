@@ -71,7 +71,7 @@
 
         \line {   "   " да науча Теб да любя.}
 
-        \line {   "   " таз Любов към Тебе, Боже,}
+        \line {   "   " В таз Любов към Тебе, Боже,}
 
         \line {   "   " да намеря мощна сила.}
 
@@ -100,7 +100,7 @@
 
         \line {   "   "da naucha Teb da lyubya.}
 
-        \line {   "   "taz Lyubov kam Tebe, Bozhe,}
+        \line {   "   "V taz Lyubov kam Tebe, Bozhe,}
 
         \line {   "   "da namerya moshtna sila.}
 

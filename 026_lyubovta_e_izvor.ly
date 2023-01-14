@@ -60,7 +60,7 @@
       \line {   "   " постоянно сади}
       \line {   "   " семенцата драги,}
       \line {   "   " от които никнат}
-      \line {   "   " добрините благи}
+      \line {   "   " Добрините благи.}
       \line { " " }
       \line { "   " \italic {Припев ...} }
       
@@ -80,7 +80,7 @@
       \line {   "   " postoyanno sadi}
       \line {   "   " sementsata dragi,}
       \line {   "   " ot koito niknat}
-      \line {   "   " dobrinite blagi}
+      \line {   "   " Дobrinite blagi.}
       \line { " " }
       \line { "   " \italic {Refrain ...} }
 
@@ -113,7 +113,7 @@
       \line {   "   "буди и възраства}
       \line {   "   "в него семенцата}
       \line {   "   "и му пълни тайно}
-      \line {   "   "с добрини душата}
+      \line {   "   "с Добрини душата.}
       \line { " " }
       \line { "   " \italic {Припев ...} }
       \line { " " }
@@ -149,7 +149,7 @@
       \line {   "   "budi i vazrastva}
       \line {   "   "v nego sementsata}
       \line {   "   "i mu palni tayno}
-      \line {   "   "s dobrini dushata}
+      \line {   "   "s Dobrini dushata.}
       \line { " " }
       \line { "   " \italic {Refrain ...} }
       \line { " " }

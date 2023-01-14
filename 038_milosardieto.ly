@@ -58,18 +58,18 @@
     \column {
       \line {2. Всичко драго, мило и в Любов живее,}
 
-      \line {"   "и цъфти, и върже, и расте, и зрее.}
+      \line {"   "и цъфти, и върже, и расте, и зрее  –}
 
-      \line {"   "Пролет, лято, есен и през цяла зима –}
+      \line {"   "Пролет, лято, есен и през цяла зима,}
 
       \line {"   "откогато хора на Земята има. (2)}
       \vspace #0.4
 
       \line {2. Vsichko drago, milo i v Lyubov zhivee,}
 
-      \line {"   "i tsafti, i varzhe, i raste, i zree.}
+      \line {"   "i tsafti, i varzhe, i raste, i zree –}
 
-      \line {"   "Prolet, lyato, esen i prez tsyala zima –}
+      \line {"   "Prolet, lyato, esen i prez tsyala zima.}
 
       \line {"   "otkogato hora na Zemyata ima. (2)}
       \line { " " }
@@ -88,6 +88,8 @@
 
       \line {"   "plodove uzreli bez korist predlaga}
 
+       \line {"   " s neprestorena nega i usmivka blaga. (2)}
+
 
     }
 
@@ -101,6 +103,14 @@
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
+      \line {4. Бедни и богати, здрави или болни, }
+
+      \line {"   "и по всяко време тука са доволни, }
+
+      \line {"   "че сменяват в Радост грижите, хомота, }
+
+      \line {"   " и с утеха виждат смисъл във живота. (2) }
+      \vspace #0.4
       \line {4. Bedni i bogati, zdravi ili bolni,}
 
       \line {"   "i po vsyako vreme tuka sa dovolni,}

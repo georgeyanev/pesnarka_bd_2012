@@ -69,11 +69,9 @@
           \line {   "   "с трептенията си безспир.}
 
           \line {   "   "О, дай ми тоз Живот и Мир!}
-             \line { " " }
+          \line { " " }
 
           \line { "   " \italic {Припев:} }
-             \line { " " }
-
 
           \line {   "   "Живот и Мир, Живот и Мир,}
 
@@ -99,7 +97,7 @@
 
           \line {   "   "Любов, Любов, света Любов,}
 
-          \line {   "   "ти вечно си света, Любов.}
+          \line {   "   "ти вечно си света Любов.}
         }
 
         \hspace #5
@@ -114,10 +112,10 @@
           \line {   "   "s trepteniyata si bezspir.}
 
           \line {   "   "O, day mi toz Zhivot i Mir!}
-             \line { " " }
+          \line { " " }
 
           \line { "   " \italic {Refrain:} }
-        \line { " " }
+
 
           \line {   "   "Zhivot i Mir, Zhivot i Mir,}
 
@@ -134,7 +132,7 @@
 
           \line {   "   "svetat chrez teb shte bade nov;}
 
-          \line {   "   "ti vechno si sveta, Lyubov.}
+          \line {   "   "ti vechno si sveta Lyubov.}
 
 
           \line { " " }
@@ -147,7 +145,7 @@
         } %column
       } % markup
 
-      \markup \empty-one
+      \markup \empty-two
 
 
       % include foreign translation(s) of the song
