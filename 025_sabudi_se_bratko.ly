@@ -56,49 +56,40 @@
 
 
 
-  \markup \fontsize #+1.7 {
-    \vspace #0.9
-    \hspace #5
-    \override #'(baseline-skip . 1.8)
+ 
+  \markup \fontsize #bgCoupletFontSize {
+    \hspace #1
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
-      \line { 1. Събуди се, братко мили, }
-      \line {   "   " от дълбок сън ти стани }
-      \line {   "   " и веригите вековни }
-      \line {   "   " от нозете си снеми.}
-      \line { " " }
-      \line { "   " \italic {Припев: } }
-      \line {  "   " Любовта е твоя майка, }
-      \line { "   " твоя сила, твой пилот: }
-      \line { "   " тя ще те изправи крепко, }
-      \line {  "   " тя ще ти дари Живот.}
-      \line { " " }
+
       \line { 2.  Напусни затвори тъмни, }
       \line {   "   " вън е вредом светлина, }
       \line {   "   " Мир и Радост те очакват }
       \line {   "   " и блажена сетнина. }
-
-
+\line { " " }
+   \line { "   " \italic {Припев: } }
+      \line { "   "Любовта е твой учител, }
+      \line {   "   " живо Слово да ще ти, }
+      \line {   "   " на Добро ще те научи, }
+      \line {   "   " в Мъдрост ще те посвети. }
+      
     }
 
 
     \hspace #5
-    \override #'(baseline-skip . 1.8)
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
-      \line { 1. Sabudi se, bratko mili, }
-      \line {   "   " ot dalbok san ti stani }
-      \line {   "   " i verigite vekovni }
-      \line {   "   " ot nozete si snemi.}
-      \line { " " }
-      \line { "   " \italic {Refrain: } }
-      \line {  "   " Lyubovta e tvoya mayka, }
-      \line { "   " tvoya sila, tvoy pilot: }
-      \line { "   " tya shte te izpravi krepko, }
-      \line {  "   " tya shte ti dari Zhivot.}
-      \line { " " }
+   
       \line { 2.  Napusni zatvori tamni, }
       \line {   "   " van e vredom svetlina;}
       \line {   "   " Mir i Radost te ochakvat }
       \line {   "   " i blazhena setnina. }
+      \line { " " }
+       \line { "   " \italic {Refrain: } }
+      \line { "   "Lyubovta e tvoy uchitel, }
+      \line {   "   " zhivo Slovo da shte ti, }
+      \line {   "   " na Dobro shte te nauchi, }
+      \line {   "   " v Madrost shte te posveti. }
       \line { " " }
 
     } %column
@@ -106,17 +97,12 @@
 
   \pageBreak
 
-  \markup \fontsize #+1.7 {
-    \hspace #5
-    \override #'(baseline-skip . 1.8)
+   \markup \fontsize #bgCoupletFontSize {
+    \hspace #1
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
 
-      \line { "   " \italic {Припев: } }
-      \line { "   "Любовта е твой учител, }
-      \line {   "   " живо Слово да ще ти, }
-      \line {   "   " на Добро ще те научи, }
-      \line {   "   " в Мъдрост ще те посвети. }
-      \line { " " }
+   
       \line { 3. И на брата си продумай }
       \line {   "   " сладка дума с подтик нов; }
       \line {   "   " ти сърцето му да стоплиш }
@@ -131,15 +117,10 @@
 
 
     \hspace #5
-    \override #'(baseline-skip . 1.8)
+      \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
 
-      \line { "   " \italic {Refrain: } }
-      \line { "   "Lyubovta e tvoy uchitel, }
-      \line {   "   " zhivo Slovo da shte ti, }
-      \line {   "   " na Dobro shte te nauchi, }
-      \line {   "   " v Madrost shte te posveti. }
-      \line { " " }
+     
       \line { 3. I na brata si produmay }
       \line {   "   " sladka duma s podtik nov; }
       \line {   "   " ti sartseto mu da stoplish }

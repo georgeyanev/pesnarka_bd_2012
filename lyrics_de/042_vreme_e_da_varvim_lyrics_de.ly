@@ -2,8 +2,9 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Es ist Zeit, dass wir gehen" }
 \markup \null
+\markup \null
 \markup \fontsize #deCoupletFontSize {
-  \hspace #-1
+  \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -34,17 +35,10 @@
     \line { "   "Gott ist der König der Welt; }
 
     \line { "   "Er ist das Licht auf unserem Weg.}
-    \line { "   " }
+     \line { "   " }
+   
 
-
-  }
-
-  \hspace #2
-
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-  \column {
-
-    \line { 2. "" Lasst uns schnell losfliegen }
+        \line { 2. "" Lasst uns schnell losfliegen }
 
     \line { "   "mächtig posaunen, }
 
@@ -64,4 +58,5 @@
     \line { "   " \italic { Refrain ... }  }
 
   }
+
 }

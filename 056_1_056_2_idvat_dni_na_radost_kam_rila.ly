@@ -92,15 +92,10 @@
   } % score
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+    \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-      \line { 1. Към Рила с мощна мисъл }
-      \line {   "   " летим ний всеки ден }
-      \line {   "   " В гърдите с туй желание }
-      \line {   "   " живеем в свят нетлен. }
-
-      \line { " " }
+     
       \line { 2. Отново ще се срещнем  }
       \line {   "   " при рилските очи. }
       \line {   "   " Тук чудната цигулка }
@@ -122,12 +117,7 @@
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-      \line { 1. Kam Rila s moshtna misal }
-      \line {   "   " letim niy vseki den }
-      \line {   "   " V gardite s tuy zhelanie }
-      \line {   "   " zhiveem v svyat netlen. }
-
-      \line { " " }
+    
       \line { 2. Otnovo shte se sreshtnem  }
       \line {   "   " pri rilskite ochi. }
       \line {   "   " Tuk chudnata tsigulka }

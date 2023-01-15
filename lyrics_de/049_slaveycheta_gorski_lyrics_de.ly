@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Wir sind die Nachtigallen des Waldes" }
+\markup \fill-line { \fontsize #deTitleFontSize "Die Nachtigallen des Waldes" }
 \markup \null
 
 \markup \fontsize #deCoupletFontSize {

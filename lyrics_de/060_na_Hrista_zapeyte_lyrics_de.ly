@@ -2,6 +2,7 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Mögen wir Christus besingen" }
 \markup \null
+\markup \null
 \markup \fontsize #deCoupletFontSize {
   \hspace #-1
   \override #`(baseline-skip . ,deCoupletBaselineSkip)

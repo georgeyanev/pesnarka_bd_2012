@@ -92,7 +92,7 @@
       Ан -- гел во -- пи -- я -- -- -- ше
       Бла -- го -- дат -- ней: Чис -- та -- я __ Де -- во,
       ра -- дуй -- ся! И па -- ки ре -- ку: __
-      Ра -- -- дуй -ся! Твой __ Син "вос  -"
+      Ра -- -- дуй -- ся! Твой __ Син "вос  -"
       кре -- -- се три -- дне -- вен __  от __
       гро -- ба и мерт -- ви -- я "воз -"
       двиг -- ну -- вий; лю -- -- ди -- е,
@@ -113,9 +113,9 @@
 
     \addlyrics {
       An -- gel vo -- pi -- ya -- -- -- she
-      Bla -- go -- dat -- ney: CHis -- ta -- ya __ De -- vo,
+      Bla -- go -- dat -- ney: Chis -- ta -- ya __ De -- vo,
       ra -- duy -- sya! I pa -- ki re -- ku: __
-      Ra -- -- duy -sya! Tvoy __ Sin "vos  -"
+      Ra -- -- duy -- sya! Tvoy __ Sin "vos  -"
       kre -- -- se tri -- dne -- ven __  ot __
       gro -- ba i mert -- vi -- ya "voz -"
       dvig -- nu -- viy; lyu -- -- di -- e,

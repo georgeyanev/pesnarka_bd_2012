@@ -28,7 +28,7 @@
       Ми -- ло -- сър -- ди -- е -- то е гра -- ди -- на рай --
       ска, чуд -- но пре -- ме -- не -- на, пъл -- на
       с~ху -- бост май -- ска; бил -- ки и дър -- ве --
-      та, в_кра -- со -- та раз -- ви -- ти, с~и -- зо
+      та, в_кра- -- со -- та раз -- ви -- ти, с~и -- зо
       -- бил -- на рож -- ба вся -- ко -- га по -- кри
       -- ти, с~и -- зо -- ти.
     }
@@ -37,8 +37,8 @@
       Mi -- lo -- sar -- di -- e -- to e gra -- di -- na ray --
       ska, chud -- no pre -- me -- ne -- na, pal -- na
       s~hu -- bost may -- ska; bil -- ki i dar -- ve --
-      ta, v_kra -- so -- ta raz -- vi -- ti, s~i -- zo
-      -- bil -- na rozh -- ba vsya -- ko -- ga po -- kri
+      ta, v_kra- -- so -- ta raz -- vi -- ti, s~i -- zo
+      -- bil -- na rozh -- ba vsya- -- ko -- ga po -- kri
       -- ti, s~i -- zo -- ti.
     }
 

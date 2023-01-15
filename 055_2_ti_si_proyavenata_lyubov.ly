@@ -14,9 +14,13 @@
       \time 4/4
       \tempoFunc "Adagio" 4 "56"
       \autoBeamOff
-      b4 e' g' b' | \time 3/4  a'4 g' fis'8. e'16 |fis'2 fis'4 | a'4 g' fis' | \break
-      e'2 c''4 | \time 4/4  b'8. a'16 g'8. a'16 b'4. g'8 | \time 3/4  fis'8. a'16 g'4 fis' | \break
-      e'2 c''4 | \time 4/4  b'8. a'16 g'8. a'16 b'4. g'8 | \time 3/4  fis'8. a'16 g'4 fis' | e'2 r4 \bar "|."
+      b4 e' g' b' | \time 3/4  a'4 g' fis'8. e'16 \break |
+       fis'2 fis'4 | a'4 g' fis' | e'2 c''4 |  \break 
+       
+        \time 4/4  b'8. a'16 g'8. a'16 b'4. g'8 | 
+       \time 3/4  fis'8. a'16 g'4 fis' \break |  e'2 c''4   |
+       
+        \time 4/4  b'8. a'16 g'8. a'16 b'4. g'8 | \break  \time 3/4  fis'8. a'16 g'4 fis' | e'2 r4 \bar "|."
     }
 
     \addlyrics {

@@ -64,26 +64,10 @@
   \pageBreak
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+    \hspace #8
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-      \line { 1. Време е да вървим, }
-      \line {   "   " злото да победим, }
-      \line {   "   " Мира да въдворим, }
-      \line {   "   " Христа да възцарим! }
-      \line {   "   " Правда ще въведем, }
-      \line {   "   " Свобода ще дадем, }
-      \line {   "   " и през всичките дни }
-      \line {   "   " верни ще сме ний. }
 
-      \line { " " }
-      \line { "   " \italic {Припев:} }
-      \line {  "   " Да царува Любовта! }
-      \line {   "   " Да царува Благостта! }
-      \line {   "   " Бог е царят на света, }
-      \line {   "   " Той в пътя ни е Светлина. }
-
-      \line { " " }
       \line { 2. Бързо да полетим, }
       \line {   "   " мощно да възтръбим, }
       \line {   "   " Радост да възвестим,  }
@@ -92,30 +76,14 @@
       \line {   "   " в първата красота, }
       \line {   "   " Свобода, Мир и ред  }
       \line {   "   " ще владеят вред. }
-
+      \line { "   " }
       \line { "   " \italic {Припев ... } }
     }
 
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-      \line { 1. Vreme e da varvim, }
-      \line {   "   " zloto da pobedim, }
-      \line {   "   " Mira da vadvorim, }
-      \line {   "   " Hrista da vaztsarim! }
-      \line {   "   " Pravda shte vavedem, }
-      \line {   "   " Svoboda shte dadem, }
-      \line {   "   " i prez vsichkite dni }
-      \line {   "   " verni shte sme niy. }
 
-      \line { " " }
-      \line { "   " \italic {Refrain:} }
-      \line {  "   " Da tsaruva Lyubovta! }
-      \line {   "   " Da tsaruva Blagostta! }
-      \line {   "   " Bog e tsaryat na sveta, }
-      \line {   "   " Toy v patya ni e Svetlina. }
-
-      \line { " " }
       \line { 2. Barzo da poletim, }
       \line {   "   " moshtno da vaztrabim, }
       \line {   "   " Radost da vazvestim,  }
@@ -124,7 +92,7 @@
       \line {   "   " v parvata krasota, }
       \line {   "   " Svoboda, Mir i red  }
       \line {   "   " shte vladeyat vred. }
-
+      \line {   "   " }
       \line { "   " \italic {Refrain ...} }
     } %column
   } % markup

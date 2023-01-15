@@ -154,7 +154,7 @@
 
       \line {   "   " към Небето да вървим, }
 
-      \line {   "   " че там Радост ни очаква. }
+      \line {   "   " че там Радост ни очаква, }
 
       \line {   "   " нов град да си съградим, }
 
@@ -207,7 +207,7 @@
 
       \line {   "   " kam Nebeto da varvim, }
 
-      \line {   "   " che tam Radost ni ochakva. }
+      \line {   "   " che tam Radost ni ochakva, }
 
       \line {   "   " nov grad da si sagradim, }
 

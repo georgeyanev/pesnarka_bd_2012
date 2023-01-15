@@ -146,7 +146,7 @@
 
       \line {   "   " и Отец ви всички люби, }
 
-      \line {   "   " като Негови Деца. }
+      \line {   "   " като Негови деца. }
 
       \line {   "   " Аз съм жив хляб от Небето, }
 
@@ -185,7 +185,7 @@
 
       \line {   "   " i Otets vi vsichki lyubi, }
 
-      \line {   "   " kato Negovi Detsa. }
+      \line {   "   " kato Negovi detsa. }
 
       \line {   "   " Az sam zhiv hlyab ot Nebeto, }
 
