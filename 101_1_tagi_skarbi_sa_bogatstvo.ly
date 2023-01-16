@@ -18,11 +18,11 @@
 
       d''8 c'' bes' a' | c''8 bes' a' g' | a'8 g' fis' es' \break
 
-      d' c' d'4 | a'2|  \time 5/4 a'4 c''8 bes'8 a' g' a'2 | \break
+      d' c' d'4 | g'2|  \time 5/4 a'4 c''8 bes'8 a' g' a'2 | \break
 
       g'4  a'8 g' fis'8 es' d'2 | \time 2/4 c'4 d'8 es'8| g'2 | \break
 
-      a'4 g'8 fis' | es'2 |  c'4 d'8 es'8 | fis'4 \fermata  es'4 \fermata  | d'2 \fermata  \bar "|."
+      a'4 g'8 fis' | es'2 |  c'4 d'8 es'8 | g'2 |fis'4 \fermata  es'4 \fermata  | d'2 \fermata  \bar "|."
     }
 
     \addlyrics {

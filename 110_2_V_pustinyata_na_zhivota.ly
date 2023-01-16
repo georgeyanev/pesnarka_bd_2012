@@ -33,8 +33,8 @@
       c4.  c8  bes4  c8 ( [
       bes8 ) ] \break | % 8
       as4  g8.  g16  g2 | % 9
-      g4.  g8  es4.  d8 |
-      c4  b4  c4 ^\fermata  es8
+      g4.  g8  es'4.  d8 |
+      c4  b4  c4 ^\fermata  es,8
       f8 \break | % 11
       g4.  g8  c4  d4 | % 12
       es2  d2 | % 13
@@ -49,7 +49,7 @@
       жи -- во -- та, где на -- си -- ли --
       е -- то се ши -- ри, там стра --
       да -- ни -- е и мъ -- ка ца --
-      ри. Вся -- кой, с‿кой -- то -- те
+      ри. Вся -- кой, с~кой -- то -- те
       дру -- жат, мъ -- че -- ник, ге --
       рой, све -- ти -- я го зо -- ват.}
       \addlyrics {
@@ -57,7 +57,7 @@
         zhi -- vo -- ta, gde na -- si -- li --
         e -- to se shi -- ri, tam stra --
         da -- ni -- e i ma -- ka tsa --
-        ri. Vsya -- koy, s‿koy -- to -- te
+        ri. Vsya -- koy, s~koy -- to -- te
         dru -- zhat, ma -- che -- nik, ge --
         roy, sve -- ti -- ya go zo -- vat.}
 
