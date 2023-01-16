@@ -75,7 +75,7 @@
         cher si se vra -- shtal mo --
         mi po se -- den -- ki  da
         sre -- shtash. Mo -- mi,  shto
-        se -- den -- ki pa -- lyat,
+        "se-" -- den -- ki pa -- lyat,
         pa -- lyat, pa -- lyat,  no
         i raz -- va -- lyat.  Mo --
         ma se, sin -- ko, ve -- cher

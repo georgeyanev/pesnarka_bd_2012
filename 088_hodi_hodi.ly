@@ -13,9 +13,6 @@
     \translate #'(0 . -15.6 )
     \right-brace #44
 
-    \translate #'(0 . -19.2 )
-    \right-brace #44
-
   }
   \column {
     % repeat numbers
@@ -24,9 +21,6 @@
 
 
     \translate #'(0 . -16.0 )
-    2
-
-    \translate #'(0 . -24.0 )
     2
   }
 }
@@ -86,16 +80,6 @@
     \column {
 
 
-      \line { 1. Ходи, ходи, ходи,}
-      \line { "   " за водата ходи}
-      \line { "   "сутринната роса – }
-      \line { "   " през речица бистра, }
-      \line { "   "по пътека чиста. }
-      \line { "   "За дома си носи }
-      \line { "   " таз водица бистра,   }
-      \line { "   "за цветенца мили –}
-      \line { "   " нейните дечица.}
-      \line { " " }
       \line { 2. Капките дъждовни}
       \line { "   "също тъй поднасят}
       \line { "   "изобилна влага – }
@@ -110,16 +94,6 @@
     \hspace #7
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-      \line { 1. Hodi, hodi, hodi,}
-      \line { "   " za vodata hodi}
-      \line { "   "sutrinnata rosa – }
-      \line { "   " prez rechitsa bistra, }
-      \line { "   "po pateka chista. }
-      \line { "   "Za doma si nosi }
-      \line { "   " taz voditsa bistra,   }
-      \line { "   "za tsvetentsa mili –}
-      \line { "   " neynite dechitsa.}
-      \line { " " }
       \line { 2. Kapkite dazhdovni}
       \line { "   "sashto tay podnasyat}
       \line { "   "izobilna vlaga – }
@@ -136,7 +110,7 @@
  
  
  
-
+\pageBreak
 
   % include foreign translation(s) of the song
   \include "lyrics_de/088_hodi_hodi_lyrics_de.ly"

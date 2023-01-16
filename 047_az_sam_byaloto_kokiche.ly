@@ -74,7 +74,7 @@
         Vsich -- ko zhi -- vo da se chu -- di,
         che sam ran -- no tsve -- te.}
         \header {
-          title = \titleFunc "Бялото кокиче" "Byaloto kokiche"
+          title = \titleFunc "Аз съм бялото кокиче" " Аz sam byaloto kokiche"
         }
 
         \midi{}

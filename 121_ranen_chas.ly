@@ -12,7 +12,7 @@
       \clef treble
       \key des \major
       \time 2/4
-      \tempoFunc "Largetto" 4 "56"
+      \tempoFunc "Larghetto" 4 "56"
       \autoBeamOff
 
       bes'4.  des8 | % 2
@@ -84,16 +84,16 @@
       ва се ду -- ша -- та на све -- та
       за ве -- ли -- ка -- та Лю -- бов.
       Пей, сър -- це, за -- бра -- ви
-      скръб -- та и бу -- ри -- те чо --
+      "скръб-" -- та и бу -- ри -- те чо --
       веш -- ки в~то -- я ди -- вен час.
       Чуй  гла -- са ми! Ве -- ли --
       ки -- ят Жи -- вот се раж -- да
       в~теж -- ка -- та скръб. Ти -- ха
-      Ра -- дост, нов Жи -- вот но -- си
+      "Ра-" -- дост, нов Жи -- вот но -- си
       та -- зи бу -- ря на све -- та.
-      Нов жи -- вот на Лю -- бов ду --
+      Нов жи -- вот на "Лю-" -- бов ду --
       ша ми да стоп -- ли. Сво -- бо
-      -- да, си -- лен Дух и Мир ще и --
+      -- да, "си-" -- лен Дух и Мир ще и --
       маш ти. Чуй  гла -- са ми!
       Ти -- хи зву -- ци теб зо -- ват,
       веч -- на Лю -- бов там ца -- ри!}
@@ -103,19 +103,19 @@
         va se du -- sha -- ta na sve -- ta
         za ve -- li -- ka -- ta Lyu -- bov.
         Pey, sar -- tse, za -- bra -- vi
-        skrab -- ta i bu -- ri -- te cho --
+        "skrab" -- ta i bu -- ri -- te "cho-" --
         vesh -- ki v~to -- ya di -- ven chas.
         Chuy  gla -- sa mi! Ve -- li --
         ki -- yat Zhi -- vot se razh -- da
         v~tezh -- ka -- ta skrab. Ti -- ha
         Ra -- dost, nov Zhi -- vot no -- si
         ta -- zi bu -- rya na sve -- ta.
-        Nov zhi -- vot na Lyu -- bov du --
+        Nov zhi -- vot na "Lyu-" -- bov du --
         sha mi da stop -- li. Svo -- bo
         -- da, si -- len Duh i Mir shte i --
         mash ti. Chuy  gla -- sa mi!
         Ti -- hi zvu -- tsi teb zo -- vat,
-        vech -- na Lyu -- bov tam tsa -- ri!}
+        vech -- na "Lyu-" -- bov tam tsa -- ri!}
 
         \header {
           title = \titleFunc "Ранен час" "Ranen chas"

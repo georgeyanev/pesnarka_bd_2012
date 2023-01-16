@@ -16,27 +16,27 @@
       a8.  b16  c4  d4 | % 2
       e8.  e16  e2 | % 3
       a8  g8  f8  d8  e8
-      f8 | % 4
-      e2  a8.  a16 \break | % 5
+      f8 | \break % 4
+      e2  a8.  a16  | % 5
       a8  a8  c4  b8  a8 | % 6
       \time 2/4  | % 6
       g4  f8 [(  d8 )] | % 7
       e2 | % 8
-      \time 5/4  | % 8
-      d4  d8  e8  f4  a2 \break | % 9
+      \time 5/4 \break  | % 8
+      d4  d8  e8  f4  a2 | % 9
       \time 3/4  | % 9
-      g8  f8  e8  d8  f4 |
+      g8  f8  e8  d8  f4 \break |
       e4.  a,8  b8  c8 | % 11
-      c4  b2 \break | % 12
+      c4  b2  | % 12
       g'8  f8  e8  d8
       \tuplet 3/2 { c8 ( [  b8 )]  a8  }
-      | % 13
+      | \break % 13
       a4.  a8  b8  c8 | % 14
-      c4  b2 \break | % 15
+      c4  b2  | % 15
       g'8  f8  e8  d8
       \tuplet 3/2 { c8 ( [  b8] ) a8 }
       | % 16
-      a2 r4 | % 17
+      a2 r4 \break | % 17
       a2 ^\markup{ \bold {Più mosso} }  e'4 | % 18
       a2  g4 | % 19
       f2. |
@@ -62,7 +62,7 @@
       a2  gis4 |
       b2. | % 41
       a2. \bar "||"
-      \break  \pageBreak| % 42
+      \break  | % 42
       a8. ^\markup{ \bold {Poco più agitato} }  b16
       c8  d8  e8.  e16 | % 43
       \time 2/4  | % 43
@@ -75,16 +75,16 @@
       e16  d16  c16  d16  e16 | % 46
       e2  a4  gis8 ( [  a8 ) ] \break | % 47
       b8.  e,16  e4  e'16
-      d16  c16  b16  a8.  a16 | % 48
+      d16  c16  b16  a8.  a16 |\break   % 48
       \time 2/4  | % 48
       a2 | % 49
-      c8.  c16  c4 \break |
+      c8.  c16  c4  |
       b16  c16  d16  c16
-      b16  a16  gis16  a16 | % 51
+      b16  a16  gis16  a16 \break| % 51
       b4  e8.  e16 | % 52
-      e2 \break | % 53
+      e2  | % 53
       b16  c16  d16  e16
-      d16  c16  b16  d16 | % 54
+      d16  c16  b16  d16 | \break % 54
       c16  b16  a16  gis16
       b8.  a16 | % 55
       a2 \break | % 56
@@ -95,13 +95,13 @@
       a4  gis4
       \tuplet 3/2 { f8 ( [  e8 ] )  dis8  }
       | % 59
-      e4.  e8  f8  g8 |
-      g4 (  a4 )  f8.  e16 \break | % 61
+      e4.  e8  f8  g8 | \break
+      g4 (  a4 )  f8.  e16  | % 61
       g8  f8  e4  d4 | % 62
       d2
       \tuplet 3/2 { b8 ( [  c8 ) ]  d8  }
       | % 63
-      | % 63
+      \break | % 63
       \time 4/4 e4.  d8  e16  d16  c16
       b16  a8  gis8 | % 64
       \time 2/4 a2 \bar "||"  \break | % 65
@@ -109,20 +109,20 @@
       c8  a8  | % 66
       b4  e,4  | % 67
       a2  | % 68
-      a8.  b16  c8  a8  | % 69
+      a8.  b16  c8  a8  \break | % 69
       b4  e,4  |
-      a2  \break | % 71
+      a2   | % 71
       c8.  d16  e8  c8  | % 72
-      d4  b4  | % 73
+      d4  b4  | \break % 73
       c2  | % 74
       b8.  c16  d8  e8  | % 75
       f4  e8.  dis16  | % 76
-      e2  \break \pageBreak | % 77
+      e2  \break  | % 77
       a8. g16 f8 e8  | % 78
       d4 c8 ( [ d8 ) ] | % 79
-      e2 |
+      e2 |\break 
       a,8 b8 c8 b8  | % 81
-      d8 c8 b8  a8 \break | % 82
+      d8 c8 b8  a8  | % 82
       a8  gis8  a8 b8 | % 83
       \time 3/4  | % 83
       a2 ^\fermata
@@ -213,7 +213,7 @@
         smart -- ni -- ya ne -- vaz -- mozh --
         no e poch -- ti. Nya -- koy pak da
         o -- bi -- cha i dob -- re da mis --
-        li za men, tryab -- va toy da ba
+        li za men, "tryab-" -- va toy da ba
         -- de zhi -- tel sa -- var -- she -- no
         ot drug "svyat.“" Ra -- dost i
         skrab, to -- va sa pa  -- ti --

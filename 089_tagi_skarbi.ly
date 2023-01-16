@@ -82,7 +82,7 @@
 
 
 
-  \markup \dc-two "D.C." " con repitione"
+  \markup \dc-two "D.C." " con ripetizione"
   \markup \italic \dc-one-nobold "attacca „Светъл ден/Svetal den“"
   %
 

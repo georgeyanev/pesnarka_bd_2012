@@ -13,7 +13,7 @@
       \clef treble
       \key bes \major
       \time 3/8
-      \tempoFunc "Allergetto" 4 "54"
+      \tempoFunc "Allergetto" 4. "54"
       \autoBeamOff
 
       bes'4 bes'8 | bes'4 bes'8 |  bes'4 bes'8 |  a'8 ( bes'8 )  c''8 \noBeam | \acciaccatura { c''8 ( } a'4 ) g'8 | \break

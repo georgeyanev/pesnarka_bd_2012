@@ -14,21 +14,28 @@
 
  \line { " "Die Sonne scheint – ja, der Frühling ist da! }
 
- \line { " "Die Freude entspringt in unserem Bienenstock: ban. }
+ \line { " "Die Freude sprudelt in unserem Bienenstock: ban. }
 
  \line { " "Alle eilen hinaus. }
 
- \line { " "Sie vernehmen Frühlingsblumenduft, }
+ \line { " "Sie spüren den Frühlingsblumenduft, }
 
- \line { " "sie stürzen sich auf die aufgeblühte Blume; }
+ \line { " "sie stürzen sich auf die aufgeblühte Blüte. }
+ \line { " " }
 
- \line { " "mit Freude sammeln sie den Pollen ein }
+ \line { " "Mit Freude sammeln sie den Pollen ein }
 
  \line { " "und tragen ihn zur entfalteten Blüte.}
 
- \line { " "Ban! Zan, ban zan, wir bereiten einen süßen Honig für euch –}
+  \line { " "Die Freude sprudelt in unserem Bienenstock: ban. }
 
- \line { " "liebet den gütigen Schöpfer! }
+ \line { " "Alle eilen hinaus. }
+
+ \line { " "}
+
+ \line { " "Ban! Zan, ban zan, wir bereiten einen süßen Honig für euch:}
+
+ \line { " "Liebet den gütigen Schöpfer! }
 
  \line { " "Liebet den gütigen Schöpfer,}
 

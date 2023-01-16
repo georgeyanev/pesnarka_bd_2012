@@ -84,9 +84,9 @@
 
       } % score
 
-      \markup \italic \dc-one-nobold "(По желание песента се изпълнява два пъти/Nach Wunsch wird das Lied zwei Mal gesungen.)"
-      \markup \italic \dc-one-nobold "attacca „Скръбта си ти кажи“„Teile mir deine Trauer mit“"
-      
+     
+      \markup \dc-one "D. C. al Fine „Sila zhiva“ con ripetizioni (един път/ein Mal)"
+ 
       % include foreign translation(s) of the song
       \include "lyrics_de/077_skrabta_si_ti_kazhi_lyrics_de.ly"
 

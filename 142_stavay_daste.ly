@@ -9,7 +9,7 @@
     \translate #'(0 . -12.6 )
     \right-brace #18
 
-    \translate #'(0 . -17.4 )
+    \translate #'(0 . -22.4 )
     \right-brace #18
 
   
@@ -19,7 +19,7 @@
     \translate #'(0 . -13.2 )
     2
 
-    \translate #'(0 . -19.2 )
+    \translate #'(0 . -24.2 )
     2
 
 
@@ -154,28 +154,6 @@
     \hspace #-1
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
-     \line {
-             1.  В летен ден, в ранни зори
-          }
-          \line {
-            "   "  майка ми тихо се приближи.
-          }
-          \line {
-            "   "   Сладък глас блага дума
-          }
-          \line {
-            "   "    ми каза: „Ставай дъще,
-          }
-          \line {
-            "   "    на нива трябва да се ходи!
-          }
-          \line {
-            "   "    Ставай, че баща ти вънка
-          }
-          \line {
-            "   "  мен и тебе със колата чака.
-          }
-          \line {   "   " }
           \line {   2. Слънцето щом изгрей,}
           \line {   "   " ти на нивата трябва да си.}
           \line {   "   " С’ сърп в ръка, с песен ти}
@@ -200,28 +178,6 @@
     \hspace #4
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-      \line {
-            1.  V leten den, v ranni zori
-          }
-          \line {
-            "   "  mayka mi tiho se priblizhi.
-          }
-          \line {
-            "   "   Sladak glas blaga duma
-          }
-          \line {
-            "   "    mi kaza: „Stavay dashte,
-          }
-          \line {
-            "   "    na niva tryabva da se hodi!
-          }
-          \line {
-            "   "    Stavay, che bashta ti vanka
-          }
-          \line {
-            "   "  men i tebe sas kolata chaka.
-          }
-          \line {   "   " }
           \line {   2. Slantseto shtom izgrey,}
           \line {   "   " ti na nivata tryabva da si.}
           \line {   "   " S’ sarp v raka, s pesen ti}

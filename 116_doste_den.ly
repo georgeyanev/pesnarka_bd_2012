@@ -14,7 +14,7 @@
       \clef treble
       \key c \minor
       \time 3/4
-      \tempoFunc "Moderato" 4 "84"
+      \tempoFunc "Andante sostenuto" 4 "60"
 
       \autoBeamOff
 

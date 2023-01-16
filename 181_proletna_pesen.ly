@@ -100,7 +100,7 @@
 
   } % score
 
-   \markup \dc-two "D.C." "con repitione"
+    \markup \dc-two "D. C.""con ripetizione"
 
 
 \pageBreak

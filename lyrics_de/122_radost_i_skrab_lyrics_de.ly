@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
-  \hspace #1
+  \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
 
@@ -44,19 +44,14 @@
     \line { " " Schwer kann mir dort jemand folgen   }
 
     \line { " " und für den Sterblichen   }
-
-    \line { " " ist das fast unmöglich.  }
-
-  }
-
-  \hspace #1
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-  \column {
-
-    \line { " " Wenn mich aber jemand liebt  }
-
-
-    \line { " " und über mich Gutes denkt,  }
+    
+     \line { " " ist das fast unmöglich.  }
+        \line { " "}
+    
+     \line { " " Wenn mich aber jemand liebt  }
+   
+    
+     \line { " " und über mich Gutes denkt,  }
 
     \line { " " so sollte er ein Bürger   }
 
@@ -89,4 +84,6 @@
     \line { " " Die Liebe schätzt sie beide gleich.  }
 
   }
+
+
 }

@@ -15,17 +15,21 @@
 
     \line { "   "Mit süßer Stimme sagte sie mir ein gütiges Wort:}
 
-    \line { "   " „Stehe auf Tochter, weil auf das Feld gegangen werden soll.}
+    \line { "   " „Stehe auf Tochter, }
+    
+     \line { "   " weil auf das Feld gegangen werden soll.}
 
-    \line { "   "Stehe auf, weil dein Vater draußen auf mich und auf dich wartet.“}
+    \line { "   "Stehe auf, }
+    
+    \line { "   " weil dein Vater draußen auf mich und auf dich wartet.“}
     \line { " "}
 
-    \line { 2. Wenn die Sonne aufgeht, sollst du auf dem Feld sein.}
+    \line { 2. Wenn die Sonne aufgeht, }
+    
+    \line { "   "sollst du auf dem Feld sein.}
 
 
     \line { "   "Begrüße den Tag mit der Sichel in der Hand und mit einem Lied.}
-
-
 
     \line { "   "Stehe, meine Tochter auf, }
 
@@ -38,10 +42,16 @@
 
     \line { "   "Wenn er gedeiht, dann trägt es Leben in uns ein.}
 
-    \line { "   "Stehe auf, Tochter, die Liebe wartet heute auf mich und auf dich.}
+    \line { "   "Stehe auf, Tochter, }
+    
+    \line { "   " die Liebe wartet heute auf mich und auf dich.}
 
-    \line { "   "Stehe auf, sie bringt uns ihren neuen, lebendigen Staat.}
+    \line { "   "Stehe auf, }
+    
+    \line { "   " sie bringt uns ihren neuen, lebendigen Staat.}
 
-    \line { "   "Stehe auf, weil das Leben draußen auf mich und auf dich mit Güte wartet.}
+    \line { "   "Stehe auf, }
+    
+    \line { "   "weil das Leben draußen auf mich und auf dich mit Güte wartet.}
   }
 }

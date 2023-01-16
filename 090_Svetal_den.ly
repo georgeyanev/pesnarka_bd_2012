@@ -75,7 +75,7 @@
   } % score
 
 
-\markup \dc-two "D.C." " con repitione"
+\markup \dc-two "D.C. al Fine" " senza ripetizione"
 
   
 

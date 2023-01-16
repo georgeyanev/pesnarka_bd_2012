@@ -103,7 +103,7 @@
 
     }
 
-   \markup \dc-two "D.C. al Fine „Mahar Benu Aba“" "senza ripetizioni"
+   \markup \dc-two "D.C. al Fine „Mahar Benu Aba“" "senza ripetizione"
     
 
 

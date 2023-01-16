@@ -279,7 +279,7 @@
       Тъй, пъл -- на и ве -- се -- ла,  тя до -- ма се връ -- ща, май -- ка си
       ми -- ло пре -- гръ -- ща. Ху -- ба -- ва мо -- ма се, син -- ко, по --
       зна -- ва, ко -- га ло -- зе ко -- па -- е и то
-      и -- зо -- бил -- но гроз -- де да -- ва. Ло -- зе мо -- мин -- ски ръ -- це
+      и -- "зо-" -- бил -- но "гроз-" -- де да -- ва. Ло -- зе мо -- "мин-" -- ски ръ -- це
       до -- бре по -- зна -- ва, ло -- зе мо -- мин -- ски ръ -- це
       до -- бре по -- зна -- ва, ло -- зе мо -- мин -- ски ръ -- це
       до -- бре по -- зна -- ва. Ху -- ба -- ва мо -- ма се, син -- ко,
@@ -292,8 +292,8 @@
       до -- бре по -- зна -- ва, не -- я жи -- то до -- бре по -- зна -- ва.
       Ху -- ба -- ва мо -- ма се, син -- ко, до -- бре по -- зна -- ва
       ко -- га на гум -- но жи -- то от -- вя -- ва и във ре --
-      ше -- то го пре -- ся -- ва, в~жит -- ни -- ци го ту -- ря
-      и на бед -- ни хляб да -- ва. Не -- я всич -- ки,
+      ше -- то го пре -- ся -- ва, "в~жит-" -- "ни-" -- ци го ту -- ря
+      и на бед -- ни хляб да -- ва. Не -- я "всич-" -- ки,
       мал -- ки и го -- ле -- ми, до -- бре я по -- зна -- ват,
       не -- я всич -- ки, мал -- ки и го -- ле -- ми, до -- бре
       я по -- зна -- ват. Ум -- на мо -- ма, син -- ко, се по --
@@ -318,7 +318,7 @@
       Tay, pal -- na i ve -- se -- la,  tya do -- ma se vra -- shta, may -- ka si
       mi -- lo pre -- gra -- shta. Hu -- ba -- va mo -- ma se, sin -- ko, po --
       zna -- va, ko -- ga lo -- ze ko -- pa -- e i to
-      i -- zo -- bil -- no groz -- de da -- va. Lo -- ze mo -- min -- ski ra -- tse
+      i -- zo -- bil -- no "groz-" -- de da -- va. Lo -- ze mo -- min -- ski ra -- tse
       do -- bre po -- zna -- va, lo -- ze mo -- min -- ski ra -- tse
       do -- bre po -- zna -- va, lo -- ze mo -- min -- ski ra -- tse
       do -- bre po -- zna -- va. Hu -- ba -- va mo -- ma se, sin -- ko,
@@ -329,15 +329,15 @@
       ne -- ya zhi -- to do -- bre po -- zna -- va. Tya e,
       sin -- ko, gla -- so -- vi -- ta, lich -- na pe -- vi -- tsa; ne -- ya zhi -- to
       do -- bre po -- zna -- va, ne -- ya zhi -- to do -- bre po -- zna -- va.
-      Hu -- ba -- va mo -- ma se, sin -- ko, do -- bre po -- zna -- va
+      "Hu-" -- ba -- va mo -- ma se, sin -- ko, do -- bre po -- zna -- va
       ko -- ga na gum -- no zhi -- to ot -- vya -- va i vav re --
       she -- to go pre -- sya -- va, v~zhit -- ni -- tsi go tu -- rya
-      i na bed -- ni hlyab da -- va. Ne -- ya vsich -- ki,
+      i na bed -- ni hlyab da -- va. Ne -- ya "vsich-" -- ki,
       mal -- ki i go -- le -- mi, do -- bre ya po -- zna -- vat,
       ne -- ya vsich -- ki, mal -- ki i go -- le -- mi, do -- bre
       ya po -- zna -- vat. Um -- na mo -- ma, sin -- ko, se po --
       zna -- va, ko -- ga kni -- ga vav ra -- tse si vze -- ma
-      i skri -- to ba -- de -- shte raz -- ga -- da -- va. Tya vsich -- ko vav zhi --
+      i skri -- to ba -- "de-" -- shte raz -- ga -- da -- va. Tya vsich -- ko vav zhi --
       vo -- ta na myas -- to po -- sta -- vya. Hu -- ba -- va mo- -- ma,
       sin -- ko, e ro -- sa, shto ze -- mya o -- ro -- sya va.
       Tya e An -- gel, shto ot go -- re i -- de, pri ho -- ra

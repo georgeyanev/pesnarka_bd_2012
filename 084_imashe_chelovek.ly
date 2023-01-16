@@ -8,13 +8,13 @@
   \score {
     \include "include/score-layout.ily"
 
-   \new Voice \absolute {
+    \new Voice \absolute {
       \clef treble
       \key c \minor
       \time 4/4
-      \tempoFunc "Andante" 4 "66"
+      \tempo "Andante"
 
-\autoBeamOff
+      \autoBeamOff
       g'4  g' ( ~ g'8 \times 2/3  { fis'16 [g'16 as'] } g'8 [ fis'] ) | g'1 | f'4 es' d'8 c' es' d' \break |
 
       c'4  \times 2/3  { b8 ( [c' d'8] )  } c'2 | g'8 g' c''4 ( es'' d'' ) | \tupletUp c''4 \tuplet 3/2 { b'8 ([ c''] ) d''8 } c''2 \break \tupletNeutral |
@@ -92,18 +92,18 @@
         me, ko -- i -- to ne ot krav, ni -- to ot po
         -- hot plat -- ska, ni -- to ot po -- hot mazh --
         ka, no ot Bo -- ga se ro -- di -- ha.}
-  
-      \header {
-        title = \titleFunc "Имаше человек" "Imashe chelovek"
-      }
 
-      \midi{}
+        \header {
+          title = \titleFunc "Имаше человек" "Imashe chelovek"
+        }
 
-    } % score
-    
+        \midi{}
 
-\pageBreak
-    % include foreign translation(s) of the song
-    \include "lyrics_de/084_imashe_chelovek_lyrics_de.ly"
+      } % score
 
-  } % bookpart
+
+      \pageBreak
+      % include foreign translation(s) of the song
+      \include "lyrics_de/084_imashe_chelovek_lyrics_de.ly"
+
+    } % bookpart
