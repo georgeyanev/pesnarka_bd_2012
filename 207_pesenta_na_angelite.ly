@@ -19,36 +19,36 @@
       e'4  d'4  f'4  e'4 | % 2
       d'8  d'8  c'8  d'8  e'4
       e'4 | % 3
-      e'4  d'4  e'4 r4 | % 4
+      e'4  d'4  e'4 r4 | \break % 4
       \time 6/8  | % 4
       \tempoFunc "" 4. "50"
-      g'8  g'8 c''8 b'4. \break | % 5
+      g'8  g'8 c''8 b'4.  | % 5
       a'4.  g'4  f'16 ( [  g'16 ) ] | % 6
       a'4 c''8 e''8 ( [ d''8
-      c''8 ) ] | % 7
+      c''8 ) ] |\break  % 7
       b'8  a'8 ( [  g'8 ) ]  f'4  e'8
       | % 8
       e'4. ( \appoggiatura {  g'8 }  f'4 )
-      d'8 \break | % 9
-      d'4.  e'4. |
+      d'8 | % 9
+      d'4.  e'4. | 
       r4  g'8
       \tempoFunc "Più mosso" 4. "63"
-      g'4. ~ ^\< | % 11
+      g'4. ~ ^\< |  \break % 11
       g'4.  g'4. | % 12
       g'4  g'8  g'4  g'8 | % 13
-      a'4. ~  a'4  g'8 _\! \break | % 14
-      c''4.  r4  e'8 | % 15
+      a'4. ~  a'4  g'8 _\!  | % 14
+      c''4.  r4  e'8 |  % 15
       \time 9/8  | % 15
       f'4. ^\markup{ \italic {poco rall.} }  e'4. r4. \bar
-      "||"
+      "||" \break
       \key es \major \time 4/4 | % 16
       \tempoFunc "Largo" 4 "46"
       g'8 ^\<  g'8  g'8 c''8 d''8
-      es''8 d''8 c''8 ^\! \break | % 17
+      es''8 d''8 c''8 ^\! | % 17
       \grace {  c''16 ( [  d''16 ] } c''8 ) ^\>
       bes'8  as'8 bes'8 c''8
       as'8 \grace {  g'16 ( [  as'16 ] }  g'8 )
-       ^\! f'8 | % 18
+       ^\! f'8 | \break % 18
       g'8 ^\<  as'8 bes'8 c''8  ^\!
       c''16 ( [ bes'16  as'16 )  ] g'16
       f'8  es'8  \bar "||"
@@ -134,8 +134,8 @@
       \times 2/3  {
         a'8 ( [  gis'8  fis'8 ) ]
       }
-      | % 61
-      gis'2 r8  gis'8 \break | % 62
+      | \break % 61
+      gis'2 r8  gis'8 | % 62
       \time 6/4  | % 62
       a'8 ^\< b'8 cis''8 dis''8
       dis''2 ^\! 
@@ -145,20 +145,20 @@
       \tempoFunc "Meno mosso" 4. "52"
       dis''8 ( [ _\! e''8 ] fis''8 [
       gis''8 ] | % 64
-      cis''8 [ dis''8 ) ] e''4 | % 65
+      cis''8 [ dis''8 ) ] e''4 | \break % 65
       b'8 ( [ cis''8 ] dis''16 [
-      e''16 fis''16 dis''16 ) ] \break | % 66
+      e''16 fis''16 dis''16 ) ]  | % 66
       gis''16 ( [ fis''16 e''16
       dis''16 ) ] dis''8 cis''8 | % 67
       \grace {  cis''16 ( [  dis''16 ] } cis''8 )
       ( [ b'8 ) ]  b'8 ( [  ais'8 ) ] | % 68
-      gis'8 ( [  ais'8 ) ] b'4 \bar "||"
+      gis'8 ( [  ais'8 ) ] b'4 \bar "||" \break
       \time 9/8  | % 69
       \tempoFunc "Più mosso" 4. "104"
       dis''8 ( [  e''8
       dis''8 ] e''8 [
       fis''8 e''8 ) ] fis''8 ( [ gis''8
-      fis''8 ) ] \break |
+      fis''8 ) ]  |
       cis''8 ( [ dis''8 cis''8 ]
       dis''8 [ e''8 dis''8 ) ] e''8 ( [
       fis''8 e''8 ) ] | % 71
@@ -293,7 +293,7 @@
 
   } % score
 
-  \markup \empty-one
+ \pageBreak
 
   % include foreign translation(s) of the song
    \include "lyrics_de/207_pesenta_na_angelite_lyrics_de.ly"

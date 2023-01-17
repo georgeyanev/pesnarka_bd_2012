@@ -91,23 +91,23 @@
       b'4. (  ais8 )  b8 ( [  cis8
       ) ] | % 113
       \time 5/4  | % 113
-      b2  ais2  dis,4 ^\mf | % 114
+      b2  ais2  dis,4 ^\mf | \break % 114
       \time 4/4  | % 114
       dis'4.  cis8  dis8
-      cis8   b8 ( [  cis8 ) ] \break | % 115
-      ais2. r4 | % 116
+      cis8   b8 ( [  cis8 ) ] | % 115
+      ais2. r4 \break  | % 116
       fis4. ^\p  gis8 ^\<  ais8   b8
       cis8  ais8  | % 117
       gis'2 ^\fermata \! ^\ff  fis4. ^\fermata
-      fis,8 ^\pp | % 118
+      fis,8 ^\pp | \break % 118
       ais4.  gis8  fis8 eis8
-      dis8  cisis8 \break | % 119
+      dis8  cisis8  | % 119
       eis2  dis4 r8  ais8 ^\markup{
         \bold {
           Meno
           mosso
         }
-      } ^\pp |
+      } ^\pp | \break
       b4  ais8.  ais16  gisis8 ( [
       ais8 ) ]  b8  b8 | % 121
       b4  ais4  ais4  gis?4 \break | % 122
@@ -173,7 +173,7 @@
 
       } % score
 
-      \markup \empty-one
+   \pageBreak
 
       % include foreign translation(s) of the song
       \include "lyrics_de/204_molitva_lyrics_de.ly"
