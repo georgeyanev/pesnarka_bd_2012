@@ -398,7 +398,7 @@
       \set Staff.instrumentName = \markup \bold \fontsize #+5 {"10"}
       \key g \major
       \time 4/4
-      \tempoFunc "Andantino" 4 ""
+      \tempo "Andantino"
       g''2 fis''16 [g''16 a''16 g''16 ] fis''16 [e''16 d''16cis''16 ]  |
       d''4e''8. [d''16 ] d''2
       \break | % 94

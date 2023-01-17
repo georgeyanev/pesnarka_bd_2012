@@ -14,7 +14,7 @@
       \time 3/4
       \tempoFunc "Larghetto" 4 "60"
       \autoBeamOff
-       \autoBeamOff
+       
       \partial 4
        d4^\p | % 2
       d'2 c4 | % 3
@@ -65,8 +65,12 @@
 
 
     \header {
-      title = \titleFunc "Вътрешният глас на Бога " "Vatreshniyat glas na Boga"
+      title = \titleFunc "Вътрешният глас на Бога - медитация " "Vatreshniyat glas na Boga - meditazia"
+       
+       
     }
+
+   
 
     \midi{}
 
