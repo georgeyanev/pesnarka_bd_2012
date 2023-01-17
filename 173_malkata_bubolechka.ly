@@ -128,7 +128,7 @@
       } % markup
 
 
-      
+      \markup \empty-two
 
       % include foreign translation(s) of the song
       \include "lyrics_de/173_malkata_bubolechiza_lyrics.de.ly"

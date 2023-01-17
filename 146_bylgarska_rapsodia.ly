@@ -16,19 +16,19 @@
       g8^\accent a16([b]) c8.( | \noBreak
       c4)(c8.) | \noBreak
       \acciaccatura {g8} d'^\accent e c8. | \noBreak
-      \acciaccatura {g8} d'^\accent e c8. | \noBreak
-      b8 d a([g16]) | \break
+      \acciaccatura {g8} d'^\accent e c8. | \break
+      b8 d a([g16]) | \noBreak
 
       b4 b8.\fermata | \noBreak
       g8 a16([b]) c8. | \noBreak
       b8 d a8. | \noBreak
-      a4 a8.\fermata | \bar "||"
+      a4 a8.\fermata | \bar "||" \break
 
       g''8\accent a16[b] c8.( | \noBreak
-      c4)(c8.) | \break
+      c4)(c8.) | \noBreak
       d8\accent e c8. | \noBreak
       d8\accent e c8. | \noBreak
-      b8 d a([g16]) | \noBreak
+      b8 d a([g16]) | \break
       b4 b8. | \noBreak
       g8\accent a16[b] c8. | \noBreak
       b8\accent d a8. | \noBreak
@@ -41,18 +41,18 @@
 
       d8 e16 d16 c8 b16 | \noBreak
       d8 c8 c8.\fermata( | \noBreak
-      b4~ b8.) | \noBreak
+      b4~ b8.) | \break
       g8 a16 \stemUp b \stemNeutral c8 d16 | \noBreak
-      e8 d c8([b16]) | \break
+      e8 d c8([b16]) | \noBreak
 
       d8 c b8. | \noBreak
       c16 b a8 g8. | \noBreak
-      a8 a8~ a8. | \bar "||" \noBreak
+      a8 a8~ a8. | \bar "||" \break
       \tempo "Allegro grazioso" d,8^\accent e e[e16] | \noBreak
-      e8^\accent e e[d16] | \break
+      e8^\accent e e[d16] | \noBreak
 
       g8^\accent f e[d16] | \noBreak
-      d8^\accent e c[b16] | \noBreak
+      d8^\accent e c[b16] | \break
       g8^\accent a16([b]) c8. | \noBreak
       b8^\accent d a[g16] | \noBreak
       b4~ b8.\fermata | \noBreak
@@ -61,17 +61,17 @@
       b8^\accent d a8. | \noBreak
       a4\prall~ a8. | \noBreak
       \tempo "a tempo" d'8\accent e e e16 | \noBreak
-      e8\accent e e d16 | \noBreak
-      g8\accent f e d16 | \break
+      e8\accent e e d16 | \break
+      g8\accent f e d16 | \noBreak
 
-      e8\accent d c b16 | \noBreak
+      e8\accent d c b16 | \break
       c8\accent d e d16 | \noBreak
       e8\accent d c b16 | \noBreak
       a8^\accent \stemUp b \stemNeutral c d16 | \break
 
       e8\accent d c b16 | \noBreak
       c8\accent d \stemUp b \stemNeutral g16 | \noBreak
-      a4 a8. | \noBreak
+      a4 a8. | \break
       g8^\accent a f[e16] | \noBreak
       e8^\accent g f[d16] | \break
 
@@ -85,26 +85,26 @@
       \repeat volta 1 {
         c8 d e d16 | \noBreak
         e8 d c b16 | \noBreak
-        a8 b c d16 | \noBreak
-        e8 d c b16 | \break
+        a8 b c d16 | \break
+        e8 d c b16 | \noBreak
 
         c8 d b g16 | \noBreak
-        a4 a8. | \noBreak
+        a4 a8. | \break
       }
-      \time 4/4 \tempo "Lento" a4 d8([e]) \tuplet 3/2 {f16([ g f]} e4.) | \time 5/4 \break
+      \time 4/4 \tempo "Lento" a4 d8([e]) \tuplet 3/2 {f16([ g f]} e4.) | \time 5/4 \noBreak
       \override TupletNumber.avoid-slur = #'ignore
-      c'4\fermata \acciaccatura{ b16[c] } \tuplet 3/2 { \stemUp b8 \stemNeutral a gis} a8 \tupletUp \tuplet 3/2 { b16(c b) } e,2 | \noBreak
-      \time 4/4 \tuplet 3/2 { e8\tenuto f\tenuto g\tenuto } g2 a4 | \time 3/4 \break
+      c'4\fermata \acciaccatura{ b16[c] } \tuplet 3/2 { \stemUp b8 \stemNeutral a gis} a8 \tupletUp \tuplet 3/2 { b16(c b) } e,2 | \break
+      \time 4/4 \tuplet 3/2 { e8\tenuto f\tenuto g\tenuto } g2 a4 | \time 3/4 \noBreak
 
       \acciaccatura {f16[g]} \tuplet 3/2 { f8 e g } f4\tenuto e4\tenuto | \noBreak
-      a2 d,4 | \noBreak
+      a2 d,4 | \break
       \time 4/4 g16 f e d c b c d e2 | \break
 
       \tempo "rit." a,8 b c4 b8 d c b | \noBreak
-      a2 r2 | \noBreak
-      \tempo "a tempo" a'4  d8([e]) \tupletNeutral \tuplet 3/2 { f16([ g f] } e4.) \time 5/4 | \pageBreak
+      a2 r2 | \break
+      \tempo "a tempo" a'4  d8([e]) \tupletNeutral \tuplet 3/2 { f16([ g f] } e4.) \time 5/4 | 
 
-      c'4\fermata \acciaccatura { b16[c] }  \tuplet 3/2 { b8[ a gis]} a8[ \tupletUp \tuplet 3/2 { b16(c b)] }  e,2 \tupletNeutral | \noBreak
+      c'4\fermata \acciaccatura { b16[c] }  \tuplet 3/2 { b8[ a gis]} a8[ \tupletUp \tuplet 3/2 { b16(c b)] }  e,2 \tupletNeutral | \break
       \time 4/4 \tuplet 3/2 { e8\tenuto[f\tenuto g\tenuto] } g2 a4 | \noBreak
       \time 3/4 \acciaccatura { f16[g] } \tuplet 3/2 { f8[e g] } f4 e | \break
 
@@ -153,10 +153,10 @@
 
       d8([e]) \acciaccatura { d16[e] } d8[c] b[g] | \noBreak
       a2. \noBreak
-      \acciaccatura { dis'8 } e2 d16\tenuto c\tenuto b\tenuto c\tenuto | \noBreak
-      \acciaccatura { dis8 } e2 d16\tenuto c\tenuto b\tenuto c\tenuto | \break
+      \acciaccatura { dis'8 } e2 d16\tenuto c\tenuto b\tenuto c\tenuto | \break
+      \acciaccatura { dis8 } e2 d16\tenuto c\tenuto b\tenuto c\tenuto | \noBreak
 
-      \acciaccatura { dis8 } e2 d16 c b g | \noBreak
+      \acciaccatura { dis8 } e2 d16 c b g | \break
       a4. b8 c4 | \noBreak
       d8 e d c b\tenuto g\tenuto | \noBreak
       a2. | \noBreak
@@ -180,11 +180,11 @@
       e[f e d] c[d b g] | \noBreak
       a4 a8 a | \bar "||" \noBreak
       d,^\accent e e e | \noBreak
-      e4 e | \noBreak
-      d8^\accent c c c | \break
+      e4 e | \break
+      d8^\accent c c c | \noBreak
 
       c4 c | \noBreak
-      d8^\accent e e e | \noBreak
+      d8^\accent e e e | \break
       e4 e | \noBreak
       d8^\accent c c c | \noBreak
       c4 c | \break
@@ -203,13 +203,13 @@
       \tempo "Andante maestoso" g8^\accent a16([b]) c8.~ | \noBreak
       c4~ c8. | \noBreak
       \acciaccatura { g8 } d'^\accent e c8. | \noBreak
-      \acciaccatura { g8 } d'^\accent e c8. | \noBreak
+      \acciaccatura { g8 } d'^\accent e c8. | \break
       b8 d a([g16]) | \noBreak
-      b4 b8. | \break
+      b4 b8. | \noBreak
 
       g8 a16([b]) c8. | \noBreak
       b8 d a8. | \noBreak
-      a4 a8. | \noBreak
+      a4 a8. | \break
       g''8\accent a16([b]) c8.~ | \noBreak
       c4~ c8. | \noBreak
       d8\accent e c8. | \break
@@ -244,7 +244,7 @@
       Ли -- ля -- но мо -- ме, ти в~пла -- ни -- на -- та
       там го -- ре ще ме за -- ве -- деш, из -- во -- рът де -- то из -- ви -- ра.
       \repeat unfold 30 { \skip 1 }
-      Го -- ре в~пла -- ни -- на -- та, Слън -- це дей о-
+      Го -- ре в~пла -- ни -- на -- та, Слън -- це дей о --
       гря -- ло сред тре -- ви зе -- ле -- ни, сред цве -- тя за -- сме -- ни.
       Го -- ре в~пла -- ни -- на -- та, Слън -- це дей о -- гря -- ло.
       \repeat unfold 5 { \skip 1 }
@@ -272,7 +272,7 @@
       Li -- lya -- no mo -- me, ti v~pla -- ni -- na -- ta
       tam go -- re shte me za -- ve -- desh, iz -- vo -- rat de -- to iz -- vi -- ra.
       \repeat unfold 30 { \skip 1 }
-      Go -- re v~pla -- ni -- na -- ta, Slan -- tse dey o-
+      Go -- re v~pla -- ni -- na -- ta, Slan -- tse dey o --
       grya -- lo sred tre -- vi ze -- le -- ni, sred tsve -- tya za -- sme -- ni.
       Go -- re v~pla -- ni -- na -- ta, Slan -- tse dey o -- grya -- lo.
       \repeat unfold 5 { \skip 1 }

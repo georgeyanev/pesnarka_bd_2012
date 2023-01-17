@@ -56,7 +56,7 @@
         spir.}
 
         \header {
-          title = \titleFunc "Мелодия 4 – Озарение" "Melodiya 4 – Osarenie"
+          title = \titleFunc "Мелодия – Озарение" "Melodiya – Osarenie"
         }
 
         \midi{}
@@ -94,8 +94,9 @@
         } %column
       } % markup
 
-      \pageBreak
+    
 
+    \markup \empty-two
       % include foreign translation(s) of the song
       \include "lyrics_de/189_osarenie_lyrics_de.ly"
 

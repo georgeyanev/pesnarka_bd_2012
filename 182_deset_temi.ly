@@ -94,6 +94,8 @@
 
   } % score
 
+  \markup \empty-three
+
   \score { %2
     \include "include/score-layout-indent.ily"
 
@@ -131,6 +133,8 @@
 
   } % score
 
+  \markup \empty-three
+
   \score { %3
     \include "include/score-layout-indent.ily"
 
@@ -159,6 +163,8 @@
     \midi{}
 
   } % score
+
+  \markup \empty-three
 
   \score { %4
     \include "include/score-layout-indent.ily"
@@ -211,6 +217,8 @@
 
   } % score
 
+  \markup \empty-three
+
   \score { %5
     \include "include/score-layout-indent.ily"
 
@@ -232,7 +240,7 @@
       c''4  c''4 | % 49
       c''4  c''8. [  c''16 ] |
       c''2\fermata \bar "|."
-      \pageBreak
+     
     }
 
 %    \addlyrics {}
@@ -241,6 +249,8 @@
     \midi{}
 
   } % score
+
+  \markup \empty-three
 
   \score { %6
     \include "include/score-layout-indent.ily"
@@ -269,6 +279,8 @@
 
   } % score
 
+  \markup \empty-three
+
   \score { %7
     \include "include/score-layout-indent.ily"
 
@@ -295,6 +307,8 @@
     \midi{}
 
   } % score
+
+  \markup \empty-three
   
   \score { %8
     \include "include/score-layout-indent.ily"
@@ -338,6 +352,8 @@
     \midi{}
   } % score
 
+  \markup \empty-three
+
   \score { %9
     \include "include/score-layout-indent.ily"
 
@@ -373,7 +389,7 @@
     \midi{}
   } % score
 
-  \markup \empty-one
+\markup \empty-three
 
   \score { %10
     \include "include/score-layout-indent.ily"
@@ -447,7 +463,7 @@
   } % score
 
 
-  \markup \empty-two
+  \markup \empty-three
   \include "lyrics_de/182_deset_temi_lyrics_de.ly"
 } % bookpart
 

@@ -81,9 +81,9 @@
       c8.  c16  c4  |
       b16  c16  d16  c16
       b16  a16  gis16  a16 \break| % 51
-      b4  e8.  e16 | % 52
+      b4  e,8.  e16 | % 52
       e2  | % 53
-      b16  c16  d16  e16
+      b'16  c16  d16  e16
       d16  c16  b16  d16 | \break % 54
       c16  b16  a16  gis16
       b8.  a16 | % 55

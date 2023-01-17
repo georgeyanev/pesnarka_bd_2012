@@ -4,10 +4,13 @@ cat \
     ../001_title_page.ly \
     ../002_anotation.ly \
     ../003_danov_img.ly \
-    ../005_preface.ly \
-    ../006_about_music.ly \
+    ../005_blank_page.ly \
+    ../006_oldest_book.ly \
     ../007_blank_page.ly \
-    ../008_bratski_pesni.ly \
+    ../007_preface.ly \
+    ../008_about_music.ly \
+    ../009_blank_page.ly \
+    ../010_bratski_pesni.ly \
     ../016_zorata_na_noviya_zhivot.ly \
     ../018_izlyazal_e_seyach.ly \
     ../020_bratstvo_edinstvo.ly \
@@ -128,19 +131,18 @@ cat \
     ../150_balgarska_idiliya.ly \
     ../154_ne_li_dimah.ly \
     ../155_1_radost_sa_dushata.ly \
+    ../155_2_mirat_ide_veche.ly \
     ../156_mirat_ide.ly \
     ../158_mirat_ide_II.ly \
-     ../155_2_mirat_ide_veche.ly \
     ../161_duhai_vetre_II.ly \
+     ../167_2_kazhi_mi_svetal_bozhii_lach.ly \
     ../162_marsh_na_svetlite_sili.ly \
     ../162_mash_vtori_variant_tekst.ly \
     ../163_berhan_azi.ly \
     ../164_pesen_na_deteto.ly \
     ../165_malkiyat_planinski_izvor.ly \
     ../166_Bog_e_Lyubov_II.ly \
-    ../167_Kam_fir_fur_fen.ly \
-    ../167_2_kazhi_mi_svetal_bozhii_lach.ly \
-    ../168_kazhi_mi_ti_istinata_II.ly \
+    ../167_168_Kam_fir_fur_fen_kazhi_mi_ti_istinata_II.ly \
     ../169_1_kazhi_mi_ti_isinata_III.ly \
     ../169_2_svoboda_e_potrebna_za_dushata.ly \
     ../170_vyara_svetla_I_II_III.ly \
@@ -158,17 +160,15 @@ cat \
     ../180_pesen_za_dvete_sestri.ly \
     ../181_proletna_pesen.ly \
     ../182_deset_temi.ly \
-    ../185_melodiya_i_krasiv_zhivor.ly \
+    ../185_melodiya_i_krasiv_zhivot.ly \
     ../186_melodiya_2_v_radostta.ly \
     ../188_melodiya_3.ly \
     ../189_osarenie.ly \
     ../190_glasat_na_zhiviya_Gospod.ly \
     ../191_nb_parvi_bozhestven_den.ly \
     ../192_nb_vtori_bozhestven_den.ly \
-    ../193_nb_treti_bozhestven_den.ly \
-    ../194_nb_chetvarti_bozhestven_denly.ly \
-    ../195_nb_peti_bozhestven_den.ly \
-    ../196_nb_shesti_bozhestven_den.ly \
+    ../193_194_nb_treti_bozhestven_den_chetvarti_bozhestven_den.ly \
+    ../195_196_nb_peti_bozhestven_den_shesti_bozhestven_den.ly \
     ../199_nb_sedmi_bozhestven_den.ly \
     ../200_vatreshniyat_glas_na_Boga.ly \
     ../201_edna_vechna_istina.ly \
@@ -179,12 +179,12 @@ cat \
     ../210_Gospodi_kolko_te_obicham.ly \
     ../211_kazhi_mi_svetlii_bozhi_lach.ly \
     ../212_moeto_slanze_dnes_ste_izgree.ly \
-    ../214_ti_ste_spoluchish_v_zhivota.ly \
     ../215_zora_na_noviya_zhivot.ly \
+    ../214_ti_ste_spoluchish_v_zhivota.ly \
     ../216_otche_nash_ne_ni_vavezhdai.ly \
     ../217_strannik_sam.ly \
-    ../218_blank_page.ly \
-    ../219_appendix.ly \
+    ../218_appendix.ly \
+    ../219_blank_page.ly \
     ../220_description.ly \
     ../221_dictionary.ly \
     > tmp.ly
