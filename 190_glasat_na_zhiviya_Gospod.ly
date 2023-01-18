@@ -20,16 +20,16 @@
       }
       | % 3
       a'4 c'4 r8 c'8 | % 4
-      es'2 d'8 c'8 | % 5
-      bes4 a4 r8 d'8 \break | % 6
+      es'2 d'8 c'8 \break | % 5
+      bes4 a4 r8 d'8 | % 6
       \time 5/4  | % 6
       \tempoFunc "Moderato" 4 "76"
       es'2 d'4 r4 d'8 d'8 | % 7
       \time 3/4  | % 7
       bes'4 ( a'4 ) g'4 | % 8
-      g'4 fis'4 g'4 | % 9
+      g'4 fis'4 g'4 \break | % 9
       a'4 a'4 a'4 |
-      a'2 g'4 \break | % 11
+      a'2 g'4  | % 11
       g'4 r4 r8 d'8 | % 12
       \time 4/4  | % 12
       d''2 g'4 r4 | % 13
@@ -43,7 +43,7 @@
       \time 3/4  | % 17
       g'2 r4 | % 18
       \time 4/4  | % 18
-      g'2 d'4 r4 \bar "||"
+      g'2 d'4 r4 \bar "||" \break
       \tempo "Lento"
       \times 2/3  {
         g'8  d'8 d'8
@@ -63,25 +63,25 @@
       \break | % 23
       c''8 a'8 a'4 a'4 | % 24
       g'8 f'8 a'8 a'8 a'4 | % 25
-      a'4 a'4 g'8 f'8 | % 26
-      g'8 g'8 g'4 r8 g'8 \break | % 27
+      a'4 a'4 g'8 f'8 |\break  % 26
+      g'8 g'8 g'4 r8 g'8  | % 27
       a'8  bes'8  c''8  d''4
       d''8 | % 28
       \time 4/4  | % 28
       f''8  d''8  c''8  d''8
-      d''4.  d''8 | % 29
+      d''4.  d''8 \break | % 29
       d''8  c''8  bes'8  d''4.
-      d''4 \break |
+      d''4  |
       \time 3/4  |
       g'8 a'8  bes'8  c''4  d''8
       | % 31
       es''8  d''8  c''8  d''4. \bar
-      "||"
+      "||"  \break
       \key a \minor | % 32
-      r4 r8 a'8 a'8 a'8 \break | % 33
+      r4 r8 a'8 a'8 a'8  | % 33
 
       c''8 a'8 g'8 a'4 a'8 | % 34
-      f''4  e''4. a'8 | % 35
+      f''4  e''4. a'8 \break | % 35
       \time 4/4  | % 35
       a'8 a'8  b'4  c''8 ( [
       b'8 ) ] a'8 ( [ gis'8 ) ] | % 36
@@ -127,7 +127,7 @@
       е, ко -- и -- то Ме лю -- би
       -- те. Ста -- не -- те, въз --
       кръс -- не -- те за но -- ви -- я
-      път  __ на Лю -- бов -- та.“}
+      път на "Лю-" -- "бов-" -- та.“}
       \addlyrics {
         Sta -- ne -- te vi -- e, mart --
         vi, sta -- ne -- te ot gro -- ba.
@@ -149,7 +149,7 @@
         e, ko -- i -- to Me lyu -- bi
         -- te. Sta -- ne -- te, vaz --
         kras -- ne -- te za no -- vi -- ya
-        pat  __ na Lyu -- bov -- ta.“}
+        pat na Lyu -- bov -- ta.“}
 
         \header {
           title = \titleFunc "Гласът на Живия Господ – Новото Възкресение" " Glasat na Zhivija Gospod – Novoto Vaskresenie"
