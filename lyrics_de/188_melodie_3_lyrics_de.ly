@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Melodie - Wenn der Tag erwacht" }
+\markup \fill-line { \fontsize #deTitleFontSize "Melodie – Wenn der Tag erwacht" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {

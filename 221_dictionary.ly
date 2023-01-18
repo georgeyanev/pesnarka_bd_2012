@@ -11,10 +11,10 @@
 
   \markup \fontsize  #+5.5 {  \bold   {Wörterbuch der Musikbegriffe} }
 
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 a tempo - } \override #'(baseline-skip . 2.2)  \justify-string "(ital.) bedeutet. dass ab der entsprechend markierten Stelle innerhalb eines Musikstückes wieder im ursprünglichen Tempo gespielt werden soll.  " }
+  \markup \fontsize  #+2  { \bold{ \vspace #0.6 a tempo – } \override #'(baseline-skip . 2.2)  \justify-string "(ital.) bedeutet. dass ab der entsprechend markierten Stelle innerhalb eines Musikstückes wieder im ursprünglichen Tempo gespielt werden soll.  " }
 
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 accelerando (accel.)} -  allmähliche Beschleunigung des Tempos }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 ad libitum }  - (abgekürzt ad lib.) ist lateinisch und bedeutet „nach Gutdünken“, „nach Belieben“. }
+  \markup \fontsize  #+2  { \bold{ \vspace #0.6 accelerando (accel.)} –  allmähliche Beschleunigung des Tempos }
+  \markup \fontsize  #+2  { \bold{ \vspace #0.6 ad libitum }  – (abgekürzt ad lib.) ist lateinisch und bedeutet „nach Gutdünken“, „nach Belieben“. }
   \markup \fontsize  #+2  { \bold{ \vspace #0.6 Adagio } }
   \markup \fontsize  #+2  { \bold{ \vspace #0.6 Allegretto } }
   \markup \fontsize  #+2  { \bold{ \vspace #0.6 Allegro } }

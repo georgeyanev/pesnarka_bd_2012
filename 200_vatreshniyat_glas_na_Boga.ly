@@ -65,7 +65,7 @@
 
 
     \header {
-      title = \titleFunc "Вътрешният глас на Бога - медитация " "Vatreshniyat glas na Boga - meditazia"
+      title = \titleFunc "Вътрешният глас на Бога – медитация " "Vatreshniyat glas na Boga – meditazia"
        
        
     }

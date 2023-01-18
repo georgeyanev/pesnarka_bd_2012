@@ -49,7 +49,7 @@
         po -- li -- tat na -- shi -- te du -- shi.}
 
         \header {
-          title = \titleFunc "Мелодия - Когато се денят пробужда " "Melodia - Kogato se denyat probuzhda"
+          title = \titleFunc "Мелодия – Когато се денят пробужда " "Melodia – Kogato se denyat probuzhda"
         }
 
         \midi{}

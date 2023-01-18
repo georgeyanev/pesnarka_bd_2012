@@ -31,7 +31,7 @@ Euer Glück in der Welt hängt nur von der Musik ab. Weil das Leben eine ganzhei
   \markup \fontsize #+2.5 {
     \justify-string " 
 Ohne die Musik, ohne die Weisheit und ohne die Wahrheit kann das Wort nicht gesprochen werden.
-  Der Mensch kann nicht musikalisch sprechen, ohne die Wahrheit zu sprechen. Liebe - das ist die erhabenste Musik. Denkt ihr nicht, so könnt ihr nicht gut spielen und singen. 
+  Der Mensch kann nicht musikalisch sprechen, ohne die Wahrheit zu sprechen. Liebe – das ist die erhabenste Musik. Denkt ihr nicht, so könnt ihr nicht gut spielen und singen. 
  Undenkbar ist es, genial ohne Musik zu werden. Ein Genie ist ein Mensch, der in den musikalischen Strom der Natur hineingeraten ist.
 
 Diejenige Musik, die gleichermaßen das Herz, den Verstand und den Körper einstimmt, ist die Musik der Natur. Unter dem Begriff Natur verstehe ich die Welt der Harmonie – dort, wo die ganze Musik hervorgegangen ist.
