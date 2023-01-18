@@ -33,13 +33,13 @@
       a'8  g'8  f'8 ( [  e'8 ) ] | % 15
       f'2 | % 16
       \time 4/4  | % 16
-      d'8 ( [  e'8 ) ]  g'2  e'4 | \noBreak % 17
+      d'8 ( [  e'8 ) ]  g'2  e'4 | \break % 17
       d'8. ( [  e'16 ) ]  c'2 \once \omit
       TupletBracket
       \times 2/3  {
         f'8 ( [  e'8  f'8 ) ]
       }
-      | \break % 18
+      |  % 18
       g'4  g'4  a'4 \once \omit TupletBracket
       \times 2/3  {
         f'8 ( [  e'8 )  ] f'8
@@ -61,7 +61,7 @@
       g'2 \break |
       d'4.  e'8 | % 31
       f'8  a'8  a'8.  g'16 | % 32
-      c''4  b'8  a'8 | % 33
+      c''4  b'8  a'8 \break | % 33
       g'4  c''8.  b'16 | % 34
       c''4.  a'8 | % 35
       g'8 ( [  f'8 ) ]  d'8.  c'16 | % 36
@@ -82,7 +82,7 @@
         \time 5/4  | % 42
         a'4  d''8.  c''16  c''4
         b'2 | % 43
-        g'4  e'8.  a'16  g'4  g'2 | % 44
+        g'4  e'8.  a'16  g'4  g'2 | \break % 44
         c''4
         \times 4/5  {
           d''16 ( [  c''16  b'16
