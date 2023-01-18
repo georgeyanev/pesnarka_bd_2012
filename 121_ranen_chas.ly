@@ -109,7 +109,7 @@
         ki -- yat Zhi -- vot se razh -- da
         v~tezh -- ka -- ta skrab. Ti -- ha
         Ra -- dost, nov Zhi -- vot no -- si
-        ta -- zi bu -- rya na sve -- ta.
+        ta -- zi "bu-" -- rya na sve -- ta.
         Nov zhi -- vot na "Lyu-" -- bov du --
         sha mi da stop -- li. Svo -- bo
         -- da, si -- len Duh i Mir shte i --
