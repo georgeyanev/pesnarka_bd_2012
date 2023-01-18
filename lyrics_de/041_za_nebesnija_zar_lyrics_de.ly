@@ -14,16 +14,22 @@
 
     \line { " "der König der Gerechtigkeit,}
 
-    \line { " "des Friedens und der Liebe (3)!}
+    \line { " "des Friedens und der Liebe,}
+    \line { " "des Friedens und der Liebe,}
+    \line { " "des Friedens und der Liebe,}
+    \line { " "des Friedens und der Liebe!}
 
-
-    \line { " "Der Ruhm, der Ruhm gebührt Dir;}
+    \line { " " }
+    \line { " "Ruhm, Ruhm gebührt Dir;}
 
     \line { " "Du bist der König der Gerechtigkeit und des Friedens,}
 
     \line { " "Du bist der König der Gerechtigkeit und des Friedens,}
 
-    \line { " "des Friedens und der Liebe (4)}
+    \line { " "des Friedens und der Liebe }
+    \line { " "des Friedens und der Liebe }
+    \line { " "des Friedens und der Liebe }
+    \line { " "des Friedens und der Liebe }
 
     \line { " "der Liebe, der Liebe.}
 

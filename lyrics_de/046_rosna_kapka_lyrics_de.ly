@@ -13,24 +13,26 @@
 
     \line { "   "rein, schön, still und sturmfrei,}
 
-    \line { "   "Frieden des paradiesischen Lebens, (2)}
+    \line { "   "Frieden des paradiesischen Lebens,}
 
-    \line { "   "in dir, Tropfen, rufe ich alle lieben Brüder und Schwestern, }
+     \line { "   "Frieden des paradiesischen Lebens!}
+
+    \line { "   "In dir, Tropfen, rufe ich alle lieben Brüder und Schwestern, }
 
     \line { "   "damit wir dein Volk werden.}
     \line { "   " }
 
-    \line { 2. Jeden Morgen werden wir unsere Herzen}
+    \line { 2. Jeden Morgen werden wir}
 
-    \line { "   "im Tau baden}
+    \line { "   "  unsere Herzen im Tau baden}
 
-    \line { "   "wie die Sonnenstrahlen,}
+    \line { "   "wie die Sonnenstrahlen, wie die Sonnenstrahlen}
 
     \line { "   "und wir werden neue Lieder singen,}
 
     \line { "   "mit wunderbaren Melodien,}
 
-    \line { "   "auf dass das rote Himmelsgewölbe erklinge.}
+    \line { "   "auf dass das rote Himmelsgewölbe widerhalt.}
     \line { "   " }
 
     \line { 3. Und so  – rein, in weißen Kleidern}
