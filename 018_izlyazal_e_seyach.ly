@@ -87,7 +87,7 @@
 
     \addlyrics {
       Iz -- lya -- zal e se -- yach da se -- e __
-      pre -- kras -- no bla -- go nov ZHi -- vot. I
+      pre -- kras -- no bla -- go nov Zhi -- vot. I
       se -- e toy i ti -- ho pe -- e pred vse -- ki
       dom i vse -- ki rod, i vse -- ki rod: Bez --
       tse -- nen dar e Lyu -- bov -- ta, kra --  si -- vo

@@ -25,7 +25,7 @@
     \addlyrics {
       Лю -- бов -- та е из -- вор: тя Жи -- во -- та раж -- да
       и пре -- свя -- та длъж -- ност в~не -- го крот -- ко всаж -- да
-      все на -- пред да хо -- ди в~стре- -- меж към До -- бро -- то,
+      все на -- пред да хо -- ди "в~стре-" -- меж към До -- бро -- то,
       що е съ -- вър -- ше -- но го -- ре на Не -- бе -- то.
       Ра -- бо -- ти със не -- я в~ми -- лос -- ти же -- ла -- ни,
       по -- мощ -- та но -- си й за ду -- ши стра -- дал -- ни.
@@ -34,7 +34,7 @@
     \addlyrics {
       Lyu -- bov -- ta e iz -- vor: tya Zhi -- vo -- ta razh -- da
       i pre -- svya -- ta dlazh -- nost v~ne -- go krot -- ko vsazh -- da
-      vse na -- pred da ho -- di v~stre- -- mezh kam Do -- bro -- to,
+      vse na -- pred da ho -- di "v~stre-" -- mezh kam Do -- bro -- to,
       shto e sa -- var -- she -- no go -- re na Ne -- be -- to.
       Ra -- bo -- ti sas ne -- ya v~mi -- los -- ti zhe -- la -- ni,
       po -- mosht -- ta no -- si y za du -- shi stra -- dal -- ni.

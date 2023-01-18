@@ -60,16 +60,16 @@
     \addlyrics {
       "1. Аз" съм бя -- ло ко -- ки -- че
       всред тре -- ви -- те гор -- с -- ки,
-      сра- -- меж- -- ли -- во кат мо- -- ми -- че
-      от по- -- гле -- ди хор -- ски. Зла ме ма -- ще -- ха съ -- бу -- ди
+      "сра-" -- "меж-" -- ли -- во кат "мо-" -- ми -- че
+      от "по-" -- гле -- ди хор -- ски. Зла ме ма -- ще -- ха съ -- бу -- ди
       с~сне -- га, вет -- ро -- ве -- те.
       Всич -- ко жи -- во да се чу -- ди,
       че съм ран -- но цве -- те.}
       \addlyrics {
         "1. Az" sam bya -- lo ko -- ki -- che
         vsred tre -- vi -- te gor -- s -- ki,
-        sra- -- mezh- -- li -- vo kat mo -- mi -- che
-        ot po- -- gle -- di hor -- ski. Zla me ma -- shte -- ha sa -- bu -- di
+        "sra-" -- "mezh-" -- li -- vo kat mo -- mi -- che
+        ot "po-" -- gle -- di hor -- ski. Zla me ma -- shte -- ha sa -- bu -- di
         s~sne -- ga, vet -- ro -- ve -- te.
         Vsich -- ko zhi -- vo da se chu -- di,
         che sam ran -- no tsve -- te.}
