@@ -80,7 +80,7 @@
 
       } % score
 
-   
+     \pageBreak
 
        \include "lyrics_de/216_otche_nash_ne_ni_vavezhday_lyrics_de.ly"
 

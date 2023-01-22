@@ -57,8 +57,8 @@ cat \
     ../069_pesni_ot_Uchitelya.ly \
     ../070_fir_fur_fen.ly \
     ../071_zgrjava_slunzeto_sila_zhiva_izvorna_techusta.ly \
-    ../072_blagost.ly \
     ../073_sladko_medeno.ly \
+    ../072_blagost.ly \
     ../074_blaga_duma.ly \
     ../075_076_aum_venir_benir.ly \
     ../076_2_sila_ziva.ly \
@@ -67,11 +67,9 @@ cat \
     ../079_Duhat_Bozhii.ly \
     ../080_mahar_benu_aba_v_mrak_tamnota.ly \
     ../081_v_zorite_na_zhivota.ly \
-    ../082_Bog_e_lyubov_083_vehadi.ly \
-    ../083_vecher_sutrin.ly \
-    ../084_imashe_chelovek.ly \
-    ../086_1_kazhi_mi_ti_istinata.ly \
-    ../086_02_blagata_pesen.ly \
+    ../082_Bog_e_lyubov.ly \
+    ../083_1_2_vecher_sutrin_vehadi_imashe_chelovek.ly \
+    ../086_kazhi_mi_ti_istinata_blagata_pesen.ly \
     ../087_mussala.ly \
     ../088_hodi_hodi.ly \
     ../089_tagi_skarbi.ly \
@@ -93,8 +91,8 @@ cat \
     ../102_sila_zhivot_zdrave.ly \
     ../103_krasiv_e_zhivotat.ly \
     ../106_pesen_na_zorata.ly \
-    ../104_himn_na_velinata_dusha_new.ly \
     ../107_pri_vsichkite_uslovija.ly \
+    ../104_himn_na_velinata_dusha_new.ly \
     ../108_az_moga_da_kazha.ly \
     ../109_az_smeya_da_kaza.ly \
     ../110_1_da_imash_vyara.ly \
@@ -161,9 +159,9 @@ cat \
     ../181_proletna_pesen.ly \
     ../182_deset_temi.ly \
     ../185_melodiya_i_krasiv_zhivot.ly \
+    ../189_osarenie.ly \
     ../186_melodiya_2_v_radostta.ly \
     ../188_melodiya_3.ly \
-    ../189_osarenie.ly \
     ../190_glasat_na_zhiviya_Gospod.ly \
     ../191_nb_parvi_bozhestven_den.ly \
     ../192_nb_vtori_bozhestven_den.ly \
@@ -183,8 +181,8 @@ cat \
     ../214_ti_ste_spoluchish_v_zhivota.ly \
     ../216_otche_nash_ne_ni_vavezhdai.ly \
     ../217_strannik_sam.ly \
-    ../218_appendix.ly \
     ../219_blank_page.ly \
+    ../218_appendix.ly \
     ../220_description.ly \
     ../221_dictionary.ly \
     > tmp.ly
