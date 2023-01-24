@@ -7,26 +7,25 @@
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
-    \line { "   " Ich werde mich sehr um des Herrn willen freuen; }
+    \line { "   " Ich werde mich sehr um des Herrn willen erfreuen; }
+    \line {  "   " meine Seele wird sich erfreuen in meinem Gott: }
     \line {
-      "   " meine Seele wird fröhlich sein in meinem
-      Gott:
+      "   " Denn Er hat mich bekleidet mit den Gewändern
+      des Heils,
     }
     \line {
-      "   " Denn Er hat mich mit den Gewändern
-      des Heils bekleidet,
+      "   " mich umhüllt mit dem Mantel der Gerechtigkeit,
+    }
+     \line {
+      "   " mich umhüllt mit dem Mantel der Gerechtigkeit,
     }
     \line {
-      "   " mich mit dem Mantel der Gerechtigkeit
-      umhüllt, (2)
+      "   " wie ein Bräutigam, geziert mit dem Kopfschmuck,
+      
     }
     \line {
-      "   " wie ein Bräutigam mit Kopfschmuck
-      geziert,
-    }
-    \line {
-      "   " wie eine Braut mit ihrem Geschmeide
-      geschmückt,
+      "   " wie eine Braut, geschmückt mit ihrem Geschmeide,
+    
     }
     \line {
       "   "wie eine Jungfrau, auserwählt unter

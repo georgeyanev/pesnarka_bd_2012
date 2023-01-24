@@ -15,7 +15,7 @@
       \tempoFunc "Moderato" 8 "160"
       \partial 8
       \autoBeamOff
-      c'8 |e'4 g'8|c''4 g'8 |a'4 g'8 |c''4.| g'4. ~ |  g'4    g'8 |\break
+      c'8 |e'4 g'8|c''4 g'8 |a'4 g'8 |c''4.| g'4. ~ | g'4 g'8 |\break
       c''4 c''8| \once \autoBeamOn c''8 ([  b'8  ])  \noBeam  c''8 |d''4 b'8  |c''4. ( | c''4 ) a'8| a'4 a'8| \break
       d''4  c''8| b'4 a'8| a'4. | g'4. ( |g'4 ) g'8 | a'4 g'8 | g'4 f'8 | \break
       e'4 d'8| c'4. ( | c'4. ) | \bar "||"
@@ -88,8 +88,8 @@
 
       \line { 4. Лъчи от любовта ни вливат }
       \line {   "   " В гърдите жива топлина, }
-      \line {   "   " Със сладка вяра ни повдигат }
-      \line {   "   " Във крепост и виделина. }
+      \line {   "   " със сладка вяра ни повдигат }
+      \line {   "   " във крепост и виделина. }
 
       \line { " " }
       \line { "   " \italic {Припев ...} }
@@ -134,8 +134,8 @@
 
       \line { 4. Lachi ot lyubovta ni vlivat }
       \line {   "   " V gardite zhiva toplina, }
-      \line {   "   " Sas sladka vyara ni povdigat }
-      \line {   "   " Vav krepost i videlina. }
+      \line {   "   " sas sladka vyara ni povdigat }
+      \line {   "   " vav krepost i videlina. }
 
       \line { " " }
       \line { "   " \italic {Pripev ...} }
