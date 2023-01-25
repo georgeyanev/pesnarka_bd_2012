@@ -15,11 +15,14 @@
 
     \line { " "Sie kommen auf die Erde in den herzen der Menschen. }
 
+\line { " " }
+
     \line { " "Und es werden lichte neue Ideen, }
 
     \line { " "    wie wir die schweren Ketten der sinnlosen Feindschaften ablegen}
     \line { " "und in Frieden leben.  }
 
+\line { " " }
     \line {
       " "Und möge jeder mit Freude auf dem göttlichen Acker arbeiten,
     }
@@ -28,6 +31,7 @@
     \line { " "In Frieden und Liebe werden wir alle gemeinsam leben }
 
     \line { " "    und werden Gott mit Liedern lobpreisen.  }
+    \line { " " }
 
     \line { " "Neue Lieder werden wir singen von der kosmischen Harmonie, }
 
