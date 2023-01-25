@@ -8,151 +8,173 @@
   \score {
     \include "include/score-layout.ily"
 
-    \new Voice \absolute {
+    \new Voice \relative c' {
       \clef treble
-      \key c \major
+      \key g \major
       \time 2/4
       \tempoFunc "Moderato " 4 "69"
-         c'8 \p <e'
-      c'>8   <e'
-      c'>8  g8 | % 2
-      c'8  <e'
-      c'>8  <e'
-      c'>8  g8 | % 3
-      b8  <d'
-      b>8   <d'
-      b>8 g8 | % 4
-      b8  <d'
-      b>8 <d'
-      b>8 g8 \break | % 5
-      \acciaccatura { g16 ( a16 b16 } c'8 ) <e'
-      c'>8<e'
-      c'>8 g8 | % 6
-      c'8 <e'
-      c'>8  <e'
-      c'>8  g8 | % 7
-      b8 <d'
-      b>8<d'
-      b>8 g8 | % 8
-      b8 ( <d'
-      b>8) <d'
-      b>8 (g8) \break | % 9
-      g8. g16 a8. g16 |
-      b8 b4 b8 | % 11
-      g8. g16 a8. g16 | % 12
-      c'8 c'4 c'8 \break \bar "||"
-      \key es \major c'4 g'4 (  | % 14
-      g'4 ) g'16 ( f'16 es'16 d'16 ) | % 15
-      c'8 es'8 c'8 es'8 | % 16
-      c'8 es'8 f'16 ( es'16 d'16 c'16 ) \break | % 17
-      bes8 d'8 bes8 d'8 | % 18
-      bes8 d'8 es'16 ( d'16 c'16 bes16 ) | % 19
-      a8 d'8 a8 d'8 \break |
-      a8 d'8 g16 ( a16 bes16 a16 )   | % 21
-      g8 g4 g8 \bar "||"
-      | % 22
-      \key bes \major \time 5/4
+
+      \autoBeamOff
+
+
+      g'8 \p b b d, | g8 b b d, | fis a a d, | fis a a d, | \break
+
+      g8 b b d, | g8 b b d, |  fis a a d, |  fis a a d, | \break
+
+      d8. d16 e8. d16 | fis8 fis4 fis8 | d8.^\< d16 e8. d16 |  g8 g4  \! g8 | \break
+
+      \key d \minor  g4^\mf  d'4 (d4) d16 c bes a | g8 bes g bes |\break
+
+      g bes c16 bes a g |  f8 a f a | f a bes16 a g f | e8 a e a | e a d,16 e f e | d8 d4 d8 | \bar "||" \break
+
       \repeat volta 2 {
-        d'8 d'4 d'4 d'8 bes'8 \acciaccatura { a'16 ( bes'16 } a'8 ) g'8
-        es'8 \break | % 23
-        d'8 d'4 d'4 d'8 bes'8 \acciaccatura { a'16 ( bes'16 } a'8 ) g'8
-        es'8  | % 24
-        d'8 d'4 d'4 d'8 c'8 d'8 es'8 g'8 \break | % 25
-        d'8 d'4 d'4 d'8 c'8 d'8 es'8 g'8 | % 26
-        \time 3/4  d'8 d'4 d'4 d'8 | % 27
-        g8 a8 bes8 a8 c'8 bes8 |  % 28
-      }
 
-      \alternative {
-        {
-          \acciaccatura { bes16 ( c'16 } bes8 ) a8 a8 g16 a16 bes8 a8
-          \break | % 29
-          g8 g4 g4 g8     |
-        }
-        {
-          \acciaccatura { bes16 ( c'16 } bes8 ) a8 g16 a16 bes16 a16 g8 g8 | % 31
-          g8 g4 g8 g'4 \bar "|."
-        }
-      }
+        \time 5/4 a'8-_^\mf  a4-_ a8-_ (a8-_) a f'8-_ \acciaccatura { e8 ( [f8] } e8-_] ) d-_ bes-_ | \break
+        
+        a8^\p  a (a) a4 a8 f'8 \acciaccatura { e8 ( [f8] } e8] ) d bes | \break
 
+        a8^\mf  a4  a8 (a8) a g a bes d |\break
+        
+        a^\mp  a (a) a4 a8 g8 a8 bes d | \break
+
+        \time 3/4 a8 a4 a8 (a) a | \time 2/4 d,8 e f e |\break g f f e |
+
+        e d16 e f8 e8 | \break
+      \time 3/4  }  
+      
+       \alternative {
+        { d8 d4 d4 d8}
+        { d8 d4 d4 d'8\bar "|." }
+      }
+         
 
     }
 
-    \addlyrics { Ду -- хо -- ве на Свет -- ли -- на -- та, стъп -- ват ле -- ко вти -- ши -- на -- та.
+    \addlyrics {
+      Ду -- хо -- ве на Свет -- ли -- на -- та, стъп -- ват ле -- ко в~ти -- ши -- на -- та.
 
-      Сли --  зат те в ре -- ди -- ци бе -- ли от ви -- со -- ки -- те пре -- де -- ли.
+      Сли --  зат те в~ре -- ди -- ци бе -- ли от ви -- со -- ки -- те пре -- де -- ли.
 
-      Ид  -- ват на Зе -- мя -- та, на хо -- ра -- та сър -- ца -- та.
+      Ид  -- ват на Зе -- мя -- та, на хо -- ра -- та в~сър -- ца -- та.
 
-      И е -- то раж -- дат се и -- де -- и, свет --  ли, но -- ви,
+      И е -- то "раж-" -- дат се и -- де -- и, свет --  ли, но -- ви,
 
-      как да смък -- нем теж -- ки -- те о -- ко -- ви на
+      как да "смък-" -- нем теж -- ки -- те о -- ко -- ви на
 
-      враж -- ди без -- смис -- ле -- ни, ве -- ков -- ни, в мир да за -- жи -- ве -- ем.
+      "враж-" -- ди без -- смис -- ле -- ни, ве -- ков -- ни, в~мир да за -- жи -- ве -- ем.
 
 
 
-      И все -- ки да ра -- бо -- ти с ра -- дост на Бо -- жест -- ве -- на -- та ни -- ва.
+      И все -- ки ще ра -- бо -- ти "с~ра-" -- дост на Бо -- жест -- ве -- на -- та ни -- ва,
 
       Ще ца -- ру -- ва веч -- на мла -- дост, ня -- ма ни -- кой да у -- ми -- ра.
 
-      В мир, в Лю -- бов ще за -- жи -- ве -- ем
+      В~мир, в~Лю -- бов ще за -- жи -- ве -- ем
 
-      всич -- ки друж -- но и ще про -- сла -- вим Бо -- га с пе -- сен.
-
-
-  
-      Но -- ви пе -- сни ще за -- пе -- ем – за хар -- мо -- ния все -- мир -- на.
-
-      Нов жи -- вот ще за -- жи -- ве -- ем... Тя -- ло -- то ни ще про -- свет -- не
-
-      и на -- края ще по -- лит -- нем във е -- фи -- ра кат' ду -- хо -- ве на Свет -- ли -- на -- та.}
-    \addlyrics {   Du -- ho -- ve na Svet -- li -- na -- ta, stap -- vat le -- ko vti -- shi -- na -- ta.
-
-      Sli --  zat te v re -- di -- tsi be -- li ot vi -- so -- ki -- te pre -- de -- li.
-
-      Id  -- vat na Ze -- mya -- ta, na ho -- ra -- ta sar -- tsa -- ta.
-
-      I eto – razh -- dat se i -- de -- i, svet --  li, no -- vi,
-
-      kak da smak -- nem tezh -- ki -- te o -- ko -- vi na
-
-      vrazh -- di bez -- smis -- le -- ni, ve -- kov -- ni v mir da za -- zhi -- ve -- em.
+      всич -- ки друж -- но и ще про -- сла -- вим Бо -- га с~пе -- сен. Свет -- ли -- на -- та.
+      
+      
 
 
 
-      I vse -- ki da ra -- bo -- ti s ra -- dost na Bo -- zhest -- ve -- na -- ta ni -- va.
+     
+    }
+    
+ 
+      \addlyrics {
+        Du -- ho -- ve na Svet -- li -- na -- ta, stap -- vat le -- ko v~ti -- shi -- na -- ta.
 
-      Shte tsa -- ru -- va vech -- na mla -- dost, nya -- ma ni -- koy da u -- mi -- ra.
+        Sli --  zat te v~re -- di -- tsi be -- li ot vi -- so -- ki -- te pre -- de -- li.
 
-      V mir, v Lyu -- bov shte za -- zhi -- ve -- em
+        Id  -- vat na Ze -- mya -- ta, na ho -- ra -- ta v~sar -- tsa -- ta.
 
-      vsich -- ki druzh -- no i shte pro -- sla -- vim Bo -- ga s pe -- sen.
+        I e -- to razh -- dat se i -- de -- i, svet --  li, no -- vi,
+
+        kak da "smak-" -- nem tezh -- ki -- te o -- ko -- vi na
+
+        vrazh -- di bez -- smis -- le -- ni, ve -- kov -- ni v~mir da za -- zhi -- ve -- em.
 
 
 
-      No -- vi pe -- sni shte za -- pe -- em – za har -- mo -- nia vse -- mir -- na.
+        I vse -- ki ste ra -- bo -- ti s~ra -- dost na Bo -- zhest -- ve -- na -- ta ni -- va.
 
-      Nov zhi -- vot shte za -- zhi -- ve -- em... Tya -- lo -- to ni shte pro -- svet -- ne
+        Shte tsa -- ru -- va vech -- na mla -- dost, nya -- ma ni -- koy da u -- mi -- ra.
 
-      i na -- kraya shte po -- lit -- nem vav e -- fi -- ra kat' du -- ho -- ve na Svet -- li -- na -- ta.}
+        V~mir, v~Lyu -- bov shte za -- zhi -- ve -- em
 
-    \header {
-      title = \titleFunc "Марш на светлите сили II" "Marsh na svetlite sili II"
+        vsich -- ki druzh -- no i shte pro -- sla -- vim Bo -- ga s~pe -- sen. Svet -- li -- na -- ta.
+
+
+
+        }
+        
+        
+         \addlyrics {
+      " " " " " " " " " " " " " " " "
+
+      " " " " " " " " " " " " " " " "
+
+      " " " " " " " " " " " " " " " " " "
+
+      " " " " " " " " " " " " " " " " " " " " " " " " " " " "
+
+      " " " " " " " " " " " " " " " " " "    " " " " " " " " " " " " " " " " " " " " " " " " " " " "
+
+      " " " " " " " " " " " " " " " " " "    " " " " " " " " " " " " " " " " " " " " " " " " " " " " 
+
+   "2.  Но"   -- ви пе -- сни ще за -- пе -- ем, за хар -- мо -- ни -- я все -- мир -- на.
+
+      Нов жи -- вот ще за -- жи -- ве -- ем, тя -- ло -- то ни ще про -- свет -- не
+
+      и на -- кра -- я ще по -- лит -- нем във е -- фи -- ра кат' ду -- хо -- ве на 
+    
+
+      " " " " " " " " " " " " " " " " " "
+
+      " " " " " " " " " " " " " " " " " "
     }
 
-    \midi{}
+    \addlyrics {
+           " " " " " " " " " " " " " " " "
 
-  } % score
+      " " " " " " " " " " " " " " " "
 
-  \markup \dc-one "D. C. con repitione"
-  
+      " " " " " " " " " " " " " " " " " "
+
+      " " " " " " " " " " " " " " " " " " " " " " " " " " " "
+
+      " " " " " " " " " " " " " " " " " "    " " " " " " " " " " " " " " " " " " " " " " " " " " " "
+
+      " " " " " " " " " " " " " " " " " "    " " " " " " " " " " " " " " " " " " " " " " " " " " " " 
+
+   "2.  No"   -- vi pe -- sni shte za -- pe -- em, za har -- mo -- ni -- ya vse -- mir -- na.
+
+        Nov zhi -- vot shte za -- zhi -- ve -- em, tya -- lo -- to ni shte pro -- svet -- ne
+
+        i na -- kra -- ya shte po -- lit -- nem vav e -- fi -- ra kat' du -- ho -- ve na	
+
+      " " " " " " " " " " " " " " " " " "
+
+      " " " " " " " " " " " " " " " " " "
+    }
 
 
-  % include foreign translation(s) of the song
-  \include "lyrics_de/162_marsch_na_svetlite_sili_lyrics_de.ly"
+        \header {
+          title = \titleFunc "Марш на светлите сили II" "Marsh na svetlite sili II"
+        }
 
-} % bookpart
+        \midi{}
 
-% Più mosso
-%
+      } % score
+
+      \markup \dc-one "D. C. con repitione"
+
+\pageBreak
+
+      % include foreign translation(s) of the song
+      \include "lyrics_de/162_marsch_na_svetlite_sili_lyrics_de.ly"
+
+    } % bookpart
+
+    % Più mosso
+    %
