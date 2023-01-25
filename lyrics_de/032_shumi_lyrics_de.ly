@@ -9,7 +9,8 @@
   \column {
 
 
-    \line {   1. Es lärmt, es lärmt, ich höre,}
+    \line {   1. "   "Es lärmt, }
+     \line {   "   " "   " ich höre,}
 
     \line {   "   "die ganze Welt lärmen! }
 
@@ -26,25 +27,25 @@
     \line {   "   "die ganze Welt lärmen!}
 
     \line { " " }
-    \line {   2. Und der Wind weht, }
+    \line {   2.  "   " Und der Wind weht, }
 
-    \line {   "   "wohin er will. }
+    \line {   "   " "   "wohin er will. }
 
     \line {   "   "Die Blätter des Waldes antworten }
 
-    \line {   "   "auf seinem Ruf, sie wiederholen ihr Lieblingslied,}
+    \line {   "   "auf seinen Ruf; sie wiederholen ihr Lieblingsliedchen,}
 
     \line {   "   "spielerisch wie ein tanzendes Mädchen.}
 
-    \line {   "   "Und der Wind weht, }
+    \line {   "   " "   "Und der Wind weht, }
 
-    \line {   "   "wohin er will.}
+    \line {   "   " "   " wohin er will.}
 
     \line { " " }
 
-    \line {   3. Oh, mein Wind, }
+    \line {   3. "   "Oh, mein Wind, }
 
-    \line {   "   "wehe nun stark! }
+    \line {   "   "  "   "wehe nun stark! }
 
     \line {   "   "Bringe die göttliche Feuchtigkeit}
 
@@ -52,28 +53,28 @@
 
     \line {   "   "reinige die stickigen Hütten}
 
-    \line {   "   "und zerstreue die schweren menschlichen Sorgen!}
+    \line {   "   "und zerstreue die schweren irdischen Sorgen!}
 
-    \line {   "   "Oh, mein Wind,}
+    \line {   "   " "   "Oh, mein Wind,}
 
-    \line {   "   "wehe nun stark!}
+    \line {   "   " "   "wehe nun stark!}
 
     \line { " " }
-    \line {   4. Wehe, Wind, }
+    \line {   4. "   " Wehe, Wind, }
 
-    \line {   "   "muntere die Welt auf! }
+    \line {   "   " "   " muntere die Welt auf! }
 
-    \line {   "   "Bei reinen Gedanken und zärtlichen Gefühlen }
+    \line {   "   "Bei reinen Gedanken und zarten Gefühlen }
 
     \line {   "   "erblühen die göttlichen Künste;}
 
     \line {   "   "möge überall Freude erstrahlen}
 
-    \line {   "   "und die frische Jugend aufatmen! }
+    \line {   "   "und möge [man] überall frische Jugend atmen! }
 
-    \line {   "   "Wehe, Wind, }
+    \line {   "   " "   "Wehe, Wind, }
 
-    \line {   "   "kläre die Welt!}
+    \line {   "   " "   "kläre die Welt!}
 
     \line { " " }
     \line { "   " \italic { Refrain } ... }
