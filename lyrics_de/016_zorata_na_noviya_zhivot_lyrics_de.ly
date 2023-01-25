@@ -33,14 +33,15 @@
     \line { "   " \italic { Refrain:}  }
 
   }
+
   \override #'(baseline-skip . 1.8)
 
   \column {
-
+    
     \line { 3. Es flimmert die leichtbeschwingtе Morgenröte}
     \line {   "   " und erweckt unsere Seelen; }
     \line {   "   " wie die liebe, liebevolle Mutter }
-    \line {   "   " lädt sie jeden ein: Stehe auf! }
+    \line {   "   " lädt sie jeden ein: „Stehe auf!“ }
 
     \line { " " }
     \line { "   " \italic { Refrain } ... }
