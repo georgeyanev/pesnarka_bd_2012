@@ -16,7 +16,7 @@
 
     \line {   "   "und auf Deine reiche Barmherzigkeit; }
 
-    \line {   "   "deshalb leide ich, nach ihnen sehne ich mich.}
+    \line {   "   "dessentwillen leide ich, nach ihnen sehne ich mich.}
 
     \line { " " }
     \line {   2.  Und ich hungere und ich dürste, }
