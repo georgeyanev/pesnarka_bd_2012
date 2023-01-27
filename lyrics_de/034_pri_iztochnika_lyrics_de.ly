@@ -25,18 +25,18 @@
 
     \line { "   "  mit Hoffnung. }
 
-    \line { "   "Von tiefer Trauer niedergedrückt,}
+    \line { "   "Von tiefer Trauer bedrückt,}
 
-    \line { "   " er füllt sich dort mit neuem Leben, }
+    \line { "   " wird ihm dort neues Leben zuteil, }
 
-    \line { "   " füllt sich, füllt sich}
+    \line { "   " zuteil, zuteil}
 
-    \line { "   " er füllt sich dort mit neuem Leben.}
+    \line { "   " ihm wird dort neues Leben zuteil.}
     \line { "   " }
 
     \line { 3. Und er fragt: }
 
-    \line { "   " Darf ich von deinem}
+    \line { "   " „Darf ich von deinem}
 
     \line { "   " reinen Wasser trinken, }
 
@@ -49,7 +49,7 @@
     \line { "   " damit ich meine leidende Seele reinige?}
     \line { "   " }
 
-    \line {  4. Darf ich mich erholen;}
+    \line {  4. Darf ich mich erholen,}
 
     \line { "   " mein Gesicht und meine Füße }
 
@@ -59,7 +59,7 @@
 
     \line { "   " öffnen, öffnen,}
 
-    \line { "   " mein mit Wunden bedecktes Herz öffnen?}
+    \line { "   " mein mit Wunden bedecktes Herz öffnen?“}
     \line { "   " }
 
 
@@ -70,13 +70,15 @@
   \vspace #0.5
   \override #'(baseline-skip . 1.8)
   \column {
-    \line {  5. Neige dein Haupt, }
+    \line {  5. „Neige dein Haupt, }
 
     \line { "   " oh, unglücklicher Wanderer: }
 
-    \line { "   " lösche heute deinen unendlichen Durst}
+    \line { "   " lösche heute deinen unendlichen Durst }
 
-    \line { "   " durch mich und hoffe auf mich,}
+    \line { "   " durch mich }
+
+    \line { "   "  und hoffe auf mich,}
 
     \line { "   " hoffe, hoffe auf mich und}
 
@@ -106,7 +108,7 @@
 
     \line { "   " Trauer, Trauer,}
 
-    \line { "   " aller Qual und Trauer.}
+    \line { "   " aller Qual und Trauer.“}
 
 
   }

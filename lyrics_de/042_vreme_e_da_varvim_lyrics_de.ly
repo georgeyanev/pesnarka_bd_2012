@@ -15,20 +15,20 @@
 
     \line { "   "dass wir den Frieden wiederherstellen,}
 
-    \line { "   "dass wir Christus herrschen lassen! }
+    \line { "   "dass wir Christus zum König machen! }
 
     \line { "   "Gerechtigkeit werden wir einführen, }
 
     \line { "   "Freiheit werden wir geben, }
 
-    \line { "   "und in allen Tagen}
+    \line { "   "und an allen Tagen}
 
     \line { "   "werden wir treu sein.}
     \line { "   " }
 
     \line { "   " \italic { Refrain :}  }
 
-    \line { "   "Möge die Liebe herrschen }
+    \line { "   "Möge die Liebe herrschen, }
 
     \line { "   "möge die Güte herrschen!}
 
@@ -38,7 +38,7 @@
      \line { "   " }
    
 
-        \line { 2. "" Lasst uns schnell losfliegen }
+        \line { 2. "" Schnell lasst uns losfliegen, }
 
     \line { "   "mächtig posaunen, }
 
@@ -46,7 +46,7 @@
 
     \line { "   "den Glauben wiederbeleben!}
 
-    \line { "   "Die Welt wird wieder beschienen, }
+    \line { "   "Die Welt wird wieder beschienen werden, }
 
     \line { "   "in der ersten Schönheit, }
 

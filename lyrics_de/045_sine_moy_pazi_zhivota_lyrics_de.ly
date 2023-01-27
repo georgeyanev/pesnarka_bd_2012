@@ -10,7 +10,7 @@
 
     \line {  1. Mein Sohn, bewahre das Leben, }
 
-    \line { "   "die in dir verborgene Glut }
+    \line { "   "die in dir verborgene Glut. }
 
     \line { "   "Es ist seinem Sinn nach kostbar}
 

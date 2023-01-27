@@ -64,8 +64,8 @@
     \column {
       \line { 2. И птички въздуха изпълнят }
       \line {   "   " с възторг и сладки песни в хор, }
-      \line {   "   " Хармонията да допълнят }
-      \line {   "   " В големия небесен двор.}
+      \line {   "   " хармонията да допълнят }
+      \line {   "   " в големия небесен двор.}
 
       \line { " " }
       \line { "   " \italic {Припев: } }
@@ -109,8 +109,8 @@
     \column {
       \line { 2. I ptichki vazduha izpalnyat }
       \line {   "   " s vaztorg i sladki pesni v hor, }
-      \line {   "   " Harmoniyata da dopalnyat }
-      \line {   "   " V golemia nebesen dvor.}
+      \line {   "   " harmoniyata da dopalnyat }
+      \line {   "   " v golemia nebesen dvor.}
 
       \line { " " }
       \line { "   " \italic {Pripev: } }

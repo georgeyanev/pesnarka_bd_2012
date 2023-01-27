@@ -16,7 +16,8 @@
     \line {   "   " unsere ruhende Bundeslade.}
     \line { " " }
     \line { "   " \italic { Refrain:}  }
-    \line {   "   "In diesem neuen, leuchtenden Leben, (2) }
+    \line {   "   "In diesem neuen, leuchtenden Leben, }
+     \line {   "   "in diesem neuen, leuchtenden Leben, }
     \line {   "   "ein Leben der Liebe, }
     \line {   "   " in diesem neuen, leuchtenden Leben, }
     \line {   "   " ein Leben der Güte, }
@@ -28,7 +29,6 @@
     \line {   "   "mit Begeisterung und süßen Liedern im Chor, }
     \line {   "   " damit sie die Harmonie ergänzen }
     \line {   "   " im großen himmlischen Hof. }
-    \line { " " }
 
     \line { "   " \italic { Refrain:}  }
 

@@ -41,7 +41,7 @@
 
     \line { "   "Stärkung und Erneuerung bringen,}
 
-    \line { "   "den Leidenden – Erbarmen}
+    \line { "   "den Leidenden Erbarmen}
 
     \line { "   "und die neue Freiheit.}
     \line { "   " }
@@ -61,13 +61,13 @@
     \line { "   " \italic { Refrain ...}  }
     \line { "   " }
 
-    \line { 5. Dann Lasst uns die Tore}
+    \line { 5. Dann lasst uns die Tore}
 
     \line { "   "der neuen Stadt öffnen,}
 
-    \line { "   "lasst uns eintreten in Jerusalem  -}
+    \line { "   "lasst uns eintreten in Jerusalem  –}
 
-    \line { "   "Licht der Lichter.}
+    \line { "   "die Welt der Lichter.}
 
     \line { "   " }
     \line { "   " \italic { Refrain ... }}

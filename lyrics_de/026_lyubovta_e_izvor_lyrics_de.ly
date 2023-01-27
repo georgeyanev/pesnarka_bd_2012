@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Die Liebe ist Quelle" }
+\markup \fill-line { \fontsize #deTitleFontSize "Die Liebe ist eine Quelle" }
 \markup \fontsize #+1.7 {
   \hspace #-1
   \vspace #0.5

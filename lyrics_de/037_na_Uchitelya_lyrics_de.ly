@@ -8,36 +8,40 @@
 
   \column {
 
-    \line { 1. Ich werde dem Meister }
+    \line { 1. Dem Meister werde ich ergeben }
 
-    \line { "   "bis zum Ende ergeben dienen,}
+    \line { "   "bis zum Ende dienen.}
 
     \line { "   "Er ist für mich ein offener Weg, }
+
+    \line { "   "der mich zum Vater führt.}
+    
+     \line { "   "Er ist für mich ein offener Weg, }
 
     \line { "   "der mich zum Vater führt.}
     \line { "   " }
 
     \line { 2. Herr, Du mein Meister, }
 
-    \line { "   "führe mich in meinen Schritten, }
+    \line { "   "führe mich bei meinen Schritten, }
 
-    \line { "   "und sei wie ein machtvoller Beschützer }
+    \line { "   "und wie ein mächtiger Beschützer }
 
-    \line { "   "immer bei mir.}
+    \line { "   " sei immer bei mir.}
     \line { "   " }
 
     \line { 3. Gib mir Deine heilige Weisheit}
 
-    \line { "   "und Deine göttliche Liebe;}
+    \line { "   "und göttliche Liebe;}
 
-    \line { "   "auf dass ich immerdar bereit bin}
+    \line { "   "auf dass ich für die Liebe zu all meinen Brüdern}
 
-    \line { "   "für die Liebe zu all meinen Brüdern.}
+    \line { "   "immerdar bereit bin.}
     \line { "   " }
 
-    \line { 4. Und in den Tagen der Prüfungen, }
+    \line { 4. Und in Tagen der Prüfung, }
 
-    \line { "   "sei Du mein Fels,}
+    \line { "   "sei Du mir ein Fels,}
 
     \line { "   "so werde ich für Dich leben}
 

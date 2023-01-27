@@ -9,7 +9,7 @@
 
   \column {
 
-    \line { 1. Mögen wir Christus mit neuen Hymnen}
+    \line { 1. Mögen wir Jesus mit neuen Hymnen}
 
     \line { "   "in dieser Stunde besingen;}
 
