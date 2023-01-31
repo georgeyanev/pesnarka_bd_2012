@@ -9,7 +9,7 @@
   \column {
     \line {  "   " Brüderlichkeit und Einheit wollen wir, }
     \line {   "   "den Ruf der Liebe senden wir aus, }
-    \line {   "   " die Welt der Freude rufen wir: }
+    \line {   "   " die Welt der Freude rufen wir, }
     \line { "   " auf dass wir das gute Leben in uns ergießen,}
     \line {   "   " auf dass wir das gute Leben in uns ergießen, }
     \line {   "   " auf dass wir das gute Leben in uns ergießen, }

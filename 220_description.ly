@@ -23,10 +23,10 @@
   \markup \fontsize  #+2  { 3. \bold{ \vspace #0.6  Братство единство – Bratstvo Edinstvo} }
   \markup \fontsize  #+2  {\hspace #2 \justify-string "Musik des Meisters, Text von einem Schüler nach den Ideen des Meisters." }
 
-  \markup \fontsize  #+2  { 3. \bold{ \vspace #0.6  Ще се развеселя – Ste se razveselya} }
+  \markup \fontsize  #+2  { 4. \bold{ \vspace #0.6  Ще се развеселя – Ste se razveselya} }
   \markup \fontsize  #+2  {\hspace #2 \justify-string "Musik des Meisters, Text Jes. 61,10" }
 
-   \markup \fontsize  #+2  { 3. \bold{ \vspace #0.6  Изгрява ден тържествен – Izgrjava den tarzjestven} }
+  \markup \fontsize  #+2  { 5. \bold{ \vspace #0.6  Изгрява ден тържествен – Izgrjava den tarzjestven} }
   \markup \fontsize  #+2  {\hspace #2 \justify-string "Musik des Meisters, Text von einem Schüler nach den Ideen des Meisters." }
 
 

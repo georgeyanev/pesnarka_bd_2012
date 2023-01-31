@@ -12,48 +12,48 @@
 
     \line { 1. Wir sind die Nachtigallen des Waldes,}
 
-    \line { "   "mit Liedern preisen wir den Himmel. }
+    \line { "   "mit Liedern lobpreisen wir die Himmel. }
 
-    \line { "   "sklavische Gefühle und menschliche Sorgen}
+    \line { "   "knechtende Gefühle und menschliche Sorgen}
 
-    \line { "   "vertreiben wir mit Liedern.}
+    \line { "   "vertreiben wir mit Liedern von der Erde.}
 
     \line { " " }
     \line { 2. Unsere Lieder sind schwungvoll, }
 
-    \line { "   "sie bringen uns ewig Freude;}
+    \line { "   "sie bringen uns Freude ewiglich;}
 
-    \line { "   "sie sind sowohl lebhaft als auch spielerisch}
+    \line { "   "einmal sind sie lebendig und einmal spielerisch}
 
-    \line { "   "wie ein schnell fließendes Bächlein.}
+    \line { "   "wie ein Bächlein in seinem schnellen Lauf.}
 
     \line { " " }
     \line { 3. Nun, hört, wie unser Lied }
 
-    \line { "   "in der Stille fließt -}
+    \line { "   "in der Stille fließt - }
 
-    \line { "   "es fließt und es wiegt wie}
+    \line { "   "es fließt und es wogt wie}
 
     \line { "   "ein Strom in der Seele.}
 
     \line { " " }
-    \line { 4. Durch unsere ruhige und aufrichtige Stimme}
+    \line { 4. Durch unsere leise und richtige Stimme}
 
     \line { "   "wird alles Böse gebannt; }
 
-    \line { "   "einen neuen Kämpfer, jung und gerecht, }
+    \line { "   "einen neuen Soldat, jung und ehrenhaft, }
 
     \line { "   "werden wir durch unsere Lieder erwecken.}
 
     \line { " " }
 
-    \line { 5. Singt, singt ihr süßen Vögel, }
+    \line { 5. Singt, singt ihr lieben Vögel, }
 
     \line { "   "nur so lebt man wahrhaftig; }
 
-    \line { "   "singt, singt alle zusammen, }
+    \line { "   "singt, singt alle zusammen: }
 
-    \line { "   "auf dass die ganze Welt mit euch singe!}
+    \line { "   "Die ganze Welt soll singen mit euch!}
 
 
   }

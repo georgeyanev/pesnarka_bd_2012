@@ -77,7 +77,7 @@
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \vspace #0.3
-      
+
       \line { 2. Ти си тоз Живот реален, }
 
       \line {   "   " синко, себе си познай! }
@@ -115,7 +115,7 @@
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-       \vspace #0.3
+      \vspace #0.3
       \line { 2. Ti si toz Zhivot realen, }
       \line {   "   " sinko, sebe si poznay! }
 

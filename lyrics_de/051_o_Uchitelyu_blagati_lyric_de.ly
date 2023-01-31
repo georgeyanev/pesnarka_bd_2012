@@ -15,18 +15,18 @@
     \line { " " }
     \line {   2. Du bist der Bote Gottes}
     \line {   "   "unter gequälten Seelen.}
-    \line {   "   "Gieße in uns Frieden und Liebe,}
+    \line {   "   "Gieße in uns Frieden und Liebe ein,}
     \line {   "   "ein neues Leben und glückliche Tage.}
     \line { " " }
     \line {   3. In Zeiten von Kummer, Unglück und Elend}
-    \line {   "   "nur du bist unsere Zuflucht,}
+    \line {   "   "bist du allein unsere Zuflucht,}
     \line {   "   "du hast uns Trost gebracht.}
-    \line {   "   "Dir, mein Meister, gilt Verneigung!}
+    \line {   "   "vor Dir, mein Meister, verneigen wir uns!}
     \line { " " }
     \line {  4. Deine Worte – reine Perlen,}
     \line {   "   "dein Bild – Licht.}
-    \line {   "   "Oh, verehrter Meister,}
-    \line {   "   "fülle unsere Herzen mit Wärme!}
+    \line {   "   "Oh, glücklicher Meister,}
+    \line {   "   "ergieße Wärme in unsere Herzen!}
 
 
   }

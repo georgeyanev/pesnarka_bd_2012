@@ -26,7 +26,7 @@
     \line { "   "werden wir treu sein.}
     \line { "   " }
 
-    \line { "   " \italic { Refrain :}  }
+    \line { "   " \italic { Refrain:}  }
 
     \line { "   "Möge die Liebe herrschen, }
 
@@ -38,7 +38,7 @@
      \line { "   " }
    
 
-        \line { 2. "" Schnell lasst uns losfliegen, }
+    \line { 2. "" Schnell, lasst uns losfliegen, }
 
     \line { "   "mächtig posaunen, }
 
@@ -46,7 +46,7 @@
 
     \line { "   "den Glauben wiederbeleben!}
 
-    \line { "   "Die Welt wird wieder beschienen werden, }
+    \line { "   "Die Welt wird wieder erstrahlen}
 
     \line { "   "in der ersten Schönheit, }
 
