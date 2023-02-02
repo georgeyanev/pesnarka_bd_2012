@@ -8,7 +8,7 @@
 
   \column {
 
-    \line {1. Vorwärts, lasst uns kühn vorangehen}
+    \line { 1. Vorwärts, lasst uns kühn vorangehen}
     \line { "   "in die stillen Paläste des geheimen Wissens,}
     \line { "   "erfüllt von Leben und Kraft.}
     \line { "   " }
@@ -27,7 +27,7 @@
 
     \line { 2. Lasst uns die Erde}
 
-    \line { "   "mit reinen Gedanken fest umgeben }
+    \line { "   "mit reinen Gedanken fest umgränzen }
 
     \line { "   "und das lasterhafte Böse}
 

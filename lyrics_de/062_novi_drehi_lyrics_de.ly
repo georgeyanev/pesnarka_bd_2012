@@ -15,25 +15,25 @@
 
     \line { "   "um ein anderes Fleisch zu bewohnen }
 
-    \line { "   "und geht, um andere Gebiete zu erben.}
+    \line { "   "und geht, um andere Bereiche zu erben.}
 
     \line { " " }
 
     \line { 2. So durchquert er die Welten}
 
-    \line { "   "und inkarniert sich in ihnen – }
+    \line { "   "und wird zu Fleisch in ihnen – }
 
     \line { "   "auf dass er neue Talente entwickelt,}
 
-    \line { "   "auf dass er ein neues Leben kreiert. }
+    \line { "   "auf dass er ein neues Leben erbaut. }
 
     \line { "   "So schreitet er unaufhörlich voran,}
 
-    \line { "   "in der unermesslichen Schönheit – }
+    \line { "   "in der unausdrücklien Schönheit – }
 
     \line { "   "und erreicht das Licht – }
 
-    \line { "   "dort, wo es die Vollkommenheit gibt. }
+    \line { "   "dort, wo es Seligkeit gibt. }
 
     \line { " " }
 
@@ -41,11 +41,11 @@
 
     \line { "   "schuf Gott alles}
 
-    \line { "   "und ließ niemanden ohne Bestrebung und Hoffnung.}
+    \line { "   "und ließ niemanden ohne Streben und Hoffnung.}
 
     \line { "   "Und das Leben ist angenehm,}
 
-    \line { "   "jedem gefällt er immer wieder;}
+    \line { "   "jedem gefällt es immer wieder;}
 
     \line { "   "möge alles Lebendige, das atmet,}
 

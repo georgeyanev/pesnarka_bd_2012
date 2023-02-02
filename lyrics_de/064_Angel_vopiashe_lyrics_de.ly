@@ -15,20 +15,20 @@
 
     \line { " "Dein Sohn ist vom Grab am dritten Tag nach dem Tod}
 
-    \line { " "auferstanden und erweckte die Toten zum Leben}
+    \line { " "auferstanden und erweckte die Toten zum Leben;}
 
     \line { " "Menschen, freut euch!}
 
 
     \line { " "Geheiligt, geheiligt seist du, neues Jerusalem, }
 
-    \line { " "denn deine Herrlichkeit ist über dich erschienen: }
+    \line { " "denn die Herrlichkeit Gottes ist über dich gekommen: }
 
     \line { " "frohlocke jetzt und jauchze, oh Zion!}
 
     \line { " "Du, Reine, freue dich, Mutter Gottes}
 
-    \line { " "über die Auferstehung des von dir geborenen.}
+    \line { " "über die Auferstehung des von dir Geborenen.}
 
 
   }

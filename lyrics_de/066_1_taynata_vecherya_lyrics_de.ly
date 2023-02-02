@@ -19,7 +19,7 @@
 
     \line {   "   " alles ist durchlichtet }
 
-    \line {   "   " von meinen lebendigem Licht (videlina). }
+    \line {   "   " mit meinem lebendigen Licht [videlina]. }
 
     \line {   "   " Zun meri manu, }
 

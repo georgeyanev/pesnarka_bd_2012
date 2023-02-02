@@ -10,12 +10,12 @@
   \column {
     \line { " "Dir singen wir, Dir danken wir,}
 
-    \line { " "Dich segnen wir, unser Gott.}
+    \line { " "Dich lobpreisen wir, unser Gott.}
 
     \line { " "Und wir beten zu Dir, und wir beten zu Dir,}
     \line { " " und wir beten zu Dir,}
 
-    \line { " "o, unser Gott.}
+    \line { " "oh, unser Gott.}
 
 
   }

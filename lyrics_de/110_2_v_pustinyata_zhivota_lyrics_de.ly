@@ -8,7 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-      \line { " "  In der Wüste des Lebens,}
+  \line { " "  In der Wüste des Lebens,}
 
  \line { " " dort, wo Gewalt sich ausbreitet,}
 
