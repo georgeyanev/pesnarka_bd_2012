@@ -32,7 +32,7 @@
 
     \line { 3. Gib mir Deine heilige Weisheit}
 
-    \line { "   "und göttliche Liebe;}
+    \line { "   "und göttliche Liebe,}
 
     \line { "   "auf dass ich für die Liebe zu all meinen Brüdern}
 
@@ -52,7 +52,7 @@
 
     \line { "   "der unsichtbaren Welt werde, }
 
-    \line { "   "oh mein geliebter Meister -}
+    \line { "   "oh, mein geliebter Meister,}
 
     \line { "   "gib mir Deinen Segen!}
 

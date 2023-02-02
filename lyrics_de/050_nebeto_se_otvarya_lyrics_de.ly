@@ -16,7 +16,7 @@
 
     \line { "   "Leuchtende Blitze }
 
-    \line { "   "vertreiben Dunkelheit und Finsternis.}
+    \line { "   "zerstreuen Dunkelheit und Finsternis.}
 
     \line { " " }
 

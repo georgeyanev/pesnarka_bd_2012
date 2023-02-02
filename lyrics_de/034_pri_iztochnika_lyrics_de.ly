@@ -14,7 +14,7 @@
 
     \line { "   " Dort sprudelt eine reine Quelle }
 
-    \line { "   " und in Hymnen gießt sie ihre Seele aus,}
+    \line { "   " und in Hymnen gießt sie aus ihre Seele,}
 
     \line { "   " Seele, Seele,}
 

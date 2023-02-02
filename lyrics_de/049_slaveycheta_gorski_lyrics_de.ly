@@ -30,7 +30,7 @@
     \line { " " }
     \line { 3. Nun, hört, wie unser Lied }
 
-    \line { "   "in der Stille fließt - }
+    \line { "   "in der Stille fließt; }
 
     \line { "   "es fließt und es wogt wie}
 

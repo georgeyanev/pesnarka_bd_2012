@@ -20,7 +20,7 @@
 
     \line { "   "mit feurigem Atem in der Brust, }
 
-    \line { "   "vorwärts: schwingen wir uns auf, }
+    \line { "   "vorwärts, schwingen wir uns auf, }
 
     \line { "   "erneuern wir die Welt!}
     \line { "   " }

@@ -30,9 +30,7 @@
     \line {   "   "und Trost bei Dir finde.}
 
     \line { " " }
-    \line {   3.  Dein lichtes Antlitz schaue ich }
-
-    \line {   "   "und Deine Größe,}
+    \line {   3.  Dein lichtes Antlitz schaue ich und Deine Größe,}
 
     \line {   "   "auf dass ich Dich lieben lerne. }
 

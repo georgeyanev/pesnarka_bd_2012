@@ -12,9 +12,9 @@
 
     \line { "   " mit reinen, bebenden Seelen.}
 
-    \line { "   "Im diesem Lied schütten unsere Herzen aus }
+    \line { "   "Im diesem Lied schütten wir unsere Herzen aus }
 
-    \line { "   "und flehen Dich an: Hochheiliger,verzeih!}
+    \line { "   "und flehen Dich an: Hochheiliger, verzeih!}
     \line { "   " }
 
 

@@ -8,9 +8,9 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { 1. Mögen wir noch höher nach oben gehen.}
+    \line { 1. Nach oben weiter sollen gehen.}
 
-    \line { "   "zu den weißen Schneegipfeln,}
+    \line { "   "zu den weißen Gipfeln,}
 
     \line { "   "auf dass wir den weißen Äther begrüßen}
 
@@ -27,13 +27,13 @@
 
     \line { "      "die Finsternis ergreift sie nicht.}
     \line { " " }
-    \line { 2. Höher nach oben! Dort blüht }
+    \line { 2. Nach oben weiter! Dort blüht }
 
     \line { "   "die weiße Alpenrose,}
 
-    \line { "   "die Morgenröte goss die weiße Farbe}
+    \line { "   "die Morgenröte ergoss  }
 
-    \line { "   "in diese Rose hinein. }
+    \line { "   "  die weiße Farbe in diese Rose. }
 
     \line { " " }
 
@@ -43,9 +43,9 @@
 
     \line { 3. Nach oben! Eine weiße Sonne wird heute}
 
-    \line { "   " vom Osten aufgehen  –}
+    \line { "   " von Osten aufgehen  –}
 
-    \line { "   " das Emblem des Lebens für diejenigen,}
+    \line { "   " das lebendige Emblem für jene,}
 
     \line { "   " in denen Gott lebt.}
 
@@ -55,13 +55,13 @@
 
     \line { " " }
 
-    \line { 4. Nach oben – in dieses Weiße!}
+    \line { 4. Nach oben – in dieses Weiß!}
 
     \line { "   " Es wird alles ausfüllen}
 
-    \line { "   " und wird die tödliche Dunkelheit}
+    \line { "   " und die tödliche Dunkelheit}
 
-    \line { "   " in einem weißen Tag verwandeln.}
+    \line { "   " in weißem Tag verwandeln.}
 
     \line { " " }
 
@@ -72,7 +72,7 @@
 
     \line { "   " wir werden sie zum Paradies machen;}
 
-    \line { "   " Wir werden den Himmel erfreuen}
+    \line { "   " wir werden den Himmel erfreuen}
 
     \line { "   " und Gott lobpreisen. }
 

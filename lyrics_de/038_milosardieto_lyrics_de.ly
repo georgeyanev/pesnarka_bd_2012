@@ -19,7 +19,7 @@
 
     \line { 2. Alles Wertvolle und Holde lebt in Liebe,  }
 
-    \line { "   " blüht, bildet Fruch, gedeiht und reift. }
+    \line { "   " blüht, bildet Frucht, gedeiht und reift. }
 
     \line { "   " In Frühling, in Sommer, in Herbst und ganzem Winter,  }
 

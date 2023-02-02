@@ -16,7 +16,7 @@
 
     \line { " "der Vater der lichtvollen Geister}
 
-    \line { " "der lichtvollen Geister (4) }
+    \line { " "der lichtvollen Geister. (4) }
 
   }
 }
