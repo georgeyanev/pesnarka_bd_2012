@@ -9,11 +9,11 @@
 
   \column {
        
-  \line { " "Der Geist Gottes, der ewige Geist,  }
+  \line { " "Geist Gottes, ewiger Geist,  }
 
-  \line { " "der heilige Geist, der gütige Geist,   }
+  \line { " "heiliger Geist, gütigr Geist,   }
 
-  \line { " "Wer erfüllt unsere Herzen mit Liebe,   }
+  \line { " "Wer/Er erfüllt unsere Herzen mit Liebe,   }
 
   \line { " "Wer erfüllt unsere Herzen mit Liebe?!  }
 
@@ -28,7 +28,7 @@
 
   \line { " "Wer erfüllt unsere Herzen mit Liebe,  }
 
-  \line { " "Wer erfüllt unsere Herzen mit Liebe.  }
+  \line { " "Wer erfüllt unsere Herzen mit Liebe?!  }
        
     }
     

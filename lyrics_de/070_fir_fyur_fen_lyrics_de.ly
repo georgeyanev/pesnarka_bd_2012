@@ -15,9 +15,9 @@
     \line {   "   "Fir-fyur-fen Tao Bi Au-men, }
     \line {   "   "Fir-fyur-fen Tao Bi Au-men. }
     \line {   "   " }
-    \line {   "   "Segne meine Seele den Herrn,}
-    \line {   "   "segne und vergiss nicht}
-    \line {   "   "Segne, segne, segne und vergiß nicht.}
+    \line {   "   "Lobpreise meine Seele den Herrn,}
+    \line {   "   "lobpreise und vergiss nicht}
+    \line {   "   "lobpreise, lobpreise, lobpreise und vergiß nicht.}
 
 
   }

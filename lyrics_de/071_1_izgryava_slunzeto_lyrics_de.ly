@@ -10,7 +10,7 @@
   \column {
     \line { " " Die Sonne geht auf, sie sendet Licht, }
 
-    \line { " "  sie bringt Freude für das Leben. }
+    \line { " "  es bringt Freude für das Leben. }
 
 
   }

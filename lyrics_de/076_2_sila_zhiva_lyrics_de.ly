@@ -9,15 +9,15 @@
 
   \column {
 
-    \line { " " Lebendige Kraft, lebendige Kraft,}
+    \line { " " Lebendige Kraft, lebendige Kraft, }
 
     \line { " " sage mir, sage mir,}
 
-    \line { " " woher das reine Wasser entspringt. (2)}
+    \line { " " wo das Wasser entspringt. (2)}
 
     \line { " " Entspringt, entspringt, wo das Wasser entspringt.}
 
-    \line { " " Sage mir süße Worte zwei,}
+    \line { " " Sage mir, sage mir, sage mir, süße Worte zwei,}
 
     \line { " " deine Worte zwei,}
 

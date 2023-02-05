@@ -23,13 +23,13 @@
     \line {   "   "das Licht scheint,}
     \line {   "   " es   scheint, scheint, scheint, scheint, scheint}
     
-      \line {   "   "  Auf die Gräser, auf die Gewässer (auf das Wasser), }
+  \line {   "   "  Für die Gräser, für das Wässer, }
 
-   \line {   "   " auf die Blumen, bringt den Kindern Freude. }
+   \line {   "   " für die Blumen, für die Kinder, }
+   
+   \line {   "   "bringt es Freude für die Herzen. }
 
-   \line {   "   " Es bescheint die Gräser, die Gewässer (auf das Wasser), }
 
-   \line {   "   " die Blumen, bringt Freude für die Herzen. }
 
 
 

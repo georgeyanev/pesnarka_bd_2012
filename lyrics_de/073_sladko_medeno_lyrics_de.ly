@@ -13,7 +13,7 @@
 
   \line { " "honigsüß, honigsüß, süß, honigsüß.}
 
-  \line { " "Von der Sonne gesandt, von den Bienen gebracht. }
+  \line { " "Von der Sonne gesandt, von den Bienen übergebracht. }
 
       
       

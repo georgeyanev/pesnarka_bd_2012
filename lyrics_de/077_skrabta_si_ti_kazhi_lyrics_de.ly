@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Sage deine Trauer" }
+\markup \fill-line { \fontsize #deTitleFontSize "Sprich vom deinem Gram" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
@@ -8,10 +8,12 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " Sage deine Trauer, }
-    \line { " "  öffne dein Herz unter den Sonnenstrahlen.}
+    \line { " " Sprich von deinem Gram, }
+    \line { " " öffne dein Herz unter den Sonnenstrahlen, }
+    \line { " " unter den Sonnenstrahlen, }
+   \line { " " unter den Sonnenastrahlen, unter den Sonnenstrahlen.}
     \line { " " Die Sonnenstrahlen von Gott werden dir Güte bringen}
-    \line { " "und Freude in die Seele hineinbringen,}
-    \line { " " und sie werden Freude in die Seele hineinbringen.}
+    \line { " " und in die Seele Freude hineintragen,}
+    \line { " " und sie werden in die Seele Freude hineintragen.}
   }
 }
