@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Was ist das Wesen" }
 \markup \fontsize #+1.7 {
   \hspace #-1
-  %\vspace #0.5
+  \vspace #0.5
   \override #'(baseline-skip . 1.8)
 
   \column {
@@ -42,10 +42,10 @@
     \line { " "in dieser beispielhaften Liebe,}
     \line { " "und grenzenlose Liebe schaust }
     \line { " "du nicht das Wesen an?}
-    \line { " " }
+    %\line { " " }
 
-    \line { " "Schönheit, Wahrheit, Liebe und Weisheit,}
-    \line { " "das ist der Herr auf Erden, das ist das Wesen.}
-
+    \line { " "Schönheit, Wahrheit, Liebe und }
+    \line { " "Weisheit, das ist der Herr auf }
+    \line { " "Erden, das ist das Wesen. }
   }
 }
