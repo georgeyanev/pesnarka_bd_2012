@@ -105,7 +105,7 @@
 
    \markup \dc-two "D.C. al Fine „Mahar Benu Aba“" "senza ripetizione"
     
-
+ \markup \empty-two
 
     % include foreign translation(s) of the song
     \include "lyrics_de/080_2_v_mrak_tamnota_lyrics_de.ly"

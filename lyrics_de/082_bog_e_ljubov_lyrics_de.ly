@@ -15,18 +15,18 @@
 
     \line { " " ewige, grenzenlose Liebe, }
 
-    \line { " " voll mit Leben, }
+    \line { " " erfüllt mit Leben, }
 
-    \line { " " das Leben des gütigen Geist Gottes. }
+    \line { " " Leben des gütigen göttlichen Geistes. }
 
-    \line { " " Der Geist der Güte, }
+    \line { " " Geist der Güte, }
 
-    \line { " " der Geist der Heiligkeit,}
+    \line { " " Geist der Heiligkeit,}
 
-    \line { " " der Geist des vollen Friedens und der Freude für jede Seele.}
+    \line { " " Geist allen Friedens und der Freude für jede Seele.}
 
     \line { " " Wir werden auf diesem Weg des Lichtes gehen, (3)  }
-    \line { " " in welchem die göttliche Liebe herrscht. (3)}
+    \line { " " dort, wo die göttliche Liebe herrscht. (3)}
 
 
 

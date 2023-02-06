@@ -91,7 +91,7 @@
   
   \markup \dc-one "D.C. al Fine"
 
-  
+   \markup \empty-two
   % include foreign translation(s) of the song
   \include "lyrics_de/072_blagost_lyrics_de.ly"
 

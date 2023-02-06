@@ -21,7 +21,7 @@
 
     \line { " "das ist die Sprache der Seelen.}
 
-    \line { " "Ein zartes Gefühl, das sich verströmt,}
+    \line { " "Ein zartes Gefühl, das verströmt wurde,}
 
     \line { " "alles Böse ist geschmolzen.}
     \line { " " }

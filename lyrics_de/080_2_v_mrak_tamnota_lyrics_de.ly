@@ -12,7 +12,8 @@
 
     \line { " " Aber die Sonne des Lebens leuchtete auf über uns.}
 
-    \line { " " Und wir gingen auf dem Weg, rein und heilig für uns. (2)}
+    \line { " " Und wir gingen auf den Weg, rein und heilig für uns.}
+    \line { " " Und wir gingen auf den Weg, rein und heilig für uns.}
 
     \line { " " Rein und heilig für uns,}
 

@@ -58,6 +58,7 @@
   } % score
   
   \markup \italic \dc-one-nobold "attacca „Благата песен/Blagata pesen“"
+   \markup \empty-two
 
   % include foreign translation(s) of the song
   \include "lyrics_de/086_1_kazhi_mi_ti_istinata_lyrics_de.ly"
@@ -113,6 +114,7 @@
   
   \markup \dc-two "D.C. al Fine „Кажи ми ти Истината“/„Kazhi mi ti istinata“" "senza ripetizione"
   
+   \markup \empty-two
 
 
   % include foreign translation(s) of the song

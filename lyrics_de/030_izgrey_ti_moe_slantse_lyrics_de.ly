@@ -32,7 +32,7 @@
 
     \line {   2. Erleuchte den Himmel und die Erde,}
 
-    \line {    "   "azurblaue Himmelsweite; }
+    \line {    "   "azurblaue himmlische Weite; }
 
     \line {   "   "erfreue heute meine Seele }
 
