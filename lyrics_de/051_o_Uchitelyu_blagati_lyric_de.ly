@@ -9,24 +9,24 @@
 
   \column {
     \line {1. Oh, gütiger Meister,}
-    \line {   "   "du bist von Güte erfüllt,}
+    \line {   "   "du bist voller Güte,}
     \line {   "   "deine Worte sind beflügelt,}
     \line {   "   "voller Weisheit und Licht.}
     \line { " " }
-    \line {   2. Du bist der Bote Gottes}
-    \line {   "   "unter gequälten Seelen.}
-    \line {   "   "Gieße in uns Frieden und Liebe ein,}
+    \line {   2. Du bist ein Gesandter Gottes}
+    \line {   "   "inmitten gequälter Seelen.}
+    \line {   "   "Gieße in uns Frieden und Liebe,}
     \line {   "   "ein neues Leben und glückliche Tage.}
     \line { " " }
     \line {   3. In Zeiten von Kummer, Unglück und Elend}
     \line {   "   "bist du allein unsere Zuflucht,}
-    \line {   "   "du hast uns Trost gebracht.}
+    \line {   "   "du hast uns Trost gebracht,}
     \line {   "   "vor Dir, mein Meister, verneigen wir uns!}
     \line { " " }
     \line {  4. Deine Worte – reine Perlen,}
-    \line {   "   "dein Bild – Licht.}
-    \line {   "   "Oh, glücklicher Meister,}
-    \line {   "   "ergieße Wärme in unsere Herzen!}
+    \line {   "   "dein Bild – Licht,}
+    \line {   "   "oh, glücklicher Meister,}
+    \line {   "   "ergieße in unsere Herzen die Wärme!}
 
 
   }

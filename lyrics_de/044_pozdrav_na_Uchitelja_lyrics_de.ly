@@ -45,18 +45,18 @@
 
     \line { "   " du hast unsere Herzen erneuert, }
 
-    \line { "   " du hast in uns ein heiliges Feuer angezündet}
+    \line { "   " du hast in uns ein heiliges Feuer entfacht}
 
-    \line { "   " und süße Worte belebt.}
+    \line { "   " und die süßen Worte zum Leben erweckt.}
     \line { "   " }
 
     \line { "   " \italic { Refrain ...}  }
     \line { "   " }
 
 
-    \line { 4. Meister, unser lieber Gast, }
+    \line { 4. Meister, unser geschätzter Gast, }
 
-    \line { "   " nimm unseren Gruß an; }
+    \line { "   " empfange unseren Gruß; }
 
     \line { "   " mit Freude sind wir bereit, }
 

@@ -11,25 +11,25 @@
 	 
 	   \line { 1. Lauf, lauf, lauf, }
 
-  \line { "   "lauf für Wasser,}
+  \line { "   "lauf um das Wasser,}
 
   \line { "   "im Morgentau, }
 
-  \line { "   "durch einen kristallklaren Bach,}
+  \line { "   "durch ein klares Bächlein,}
 
-  \line { "   "auf einem reinen Pfad. }
+  \line { "   "auf dem reinen Pfad. }
 
   \line { "   "Bringe dieses klare Wasser nach Hause, }
 
-  \line { "   "zu den schönen Blümchen, }
+  \line { "   "zu den lieben Blümlein, }
 
   \line { "   "seinen kleinen Kindern.}
 
    \line { "   " }
 
-  \line {  2.	Die Regentropfen bieten ebenfalls }
+  \line {  2.	So bieten die Regentropfen }
 
- \line { "   " reichlich Feuchtigkeit – Strom des Leben. }
+ \line { "   " reichlich Feuchtigkeit, den Strom des Leben. }
  
  \line { "   "Samenkörner sprießen, }
  
@@ -37,6 +37,6 @@
  
  \line { "   "Früchte reifen. }
  
- \line { "   "Alles erwacht; mächtig ist das Wasser!  }
+ \line { "   "Alles erwacht; machtvoll ist das Wasser!  }
     }
 }

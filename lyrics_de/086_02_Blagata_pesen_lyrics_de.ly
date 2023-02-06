@@ -8,8 +8,8 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " Sei dir bewusst, }
-    \line { " " liebe, säe, errichte unaufhörlich }
+    \line { " " Sei bewusst, }
+    \line { " " liebe, säe, erbaue ohne Unterlass, }
     \line { " " und gib alles im Leben.}
     \line { " " Diese Wahrheit  – Gott  –, erkenne du, erkenne du,}
     \line { " " Gott erkenne du.}
