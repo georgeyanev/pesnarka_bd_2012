@@ -23,7 +23,7 @@
 
     \line { " " Geist der Heiligkeit,}
 
-    \line { " " Geist allen Friedens und der Freude für jede Seele.}
+    \line { " " Geist des vollen Frieden und der Freude für jede Seele.}
 
     \line { " " Wir werden auf diesem Weg des Lichtes gehen, (3)  }
     \line { " " dort, wo die göttliche Liebe herrscht. (3)}
