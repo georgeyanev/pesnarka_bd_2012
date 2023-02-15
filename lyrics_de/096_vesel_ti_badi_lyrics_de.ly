@@ -12,21 +12,21 @@
 
 \line { " "die Sorgen des Lebens}
 
-\line { " "sind eine unnötige Last.}
+\line { " "sind eine nutzlose Last.}
 \line { " " }
 
-\line { " "Freundlich ruft dich das Leben. }
+\line { " "Liebevoll ruft dich das Leben. }
 
 \line { " "Sei fröhlich, werde munter}
 
-\line { " "und erhöhe alles Lebendige mit deiner Liebe!}
+\line { " "und erhöhe alles Lebendige durch Liebe!}
 \line { " " }
 
 \line { " "Sei fröhlich, werde munter}
 
 \line { " "bringe Freude in das Leben,}
 
-\line { " "Freude bringe in das Leben. }
+\line { " " in das Leben bringe Freude, in das Leben, du. }
 
 \line { " "Sei fröhlich, werde munter! }
 

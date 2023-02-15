@@ -8,11 +8,11 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { 1. Nach oben weiter sollen gehen.}
+    \line { 1. Hinauf, steigen wir immer weiter}
 
     \line { "   "zu den weißen Gipfeln,}
 
-    \line { "   "auf dass wir den weißen Äther begrüßen}
+    \line { "   "grüßen wir den weißen Äther}
 
     \line { "   "und die Schneekristalle.}
 
@@ -27,7 +27,7 @@
 
     \line { "      "die Finsternis ergreift sie nicht.}
     \line { " " }
-    \line { 2. Nach oben weiter! Dort blüht }
+    \line { 2. Hinauf immer weiter! Dort blüht }
 
     \line { "   "die weiße Alpenrose,}
 
@@ -41,7 +41,7 @@
 
     \line { " " }
 
-    \line { 3. Nach oben! Eine weiße Sonne wird heute}
+    \line { 3. Hinauf! Eine weiße Sonne wird heute}
 
     \line { "   " von Osten aufgehen  –}
 
@@ -55,7 +55,7 @@
 
     \line { " " }
 
-    \line { 4. Nach oben – in dieses Weiß!}
+    \line { 4. Hinauf – in dieses Weiß!}
 
     \line { "   " Es wird alles ausfüllen}
 

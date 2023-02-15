@@ -7,18 +7,18 @@
   \hspace #16
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {     
-      \line { Ein guter Tag ist ein heller Tag.  }
-      
-\line { Er ist schön und herrlich. }
+  \column {
+    \line { Ein guter Tag ist ein lichter Tag.  }
 
-\line { Er bescheint alles, er belebt alles}
+    \line { Schön und erhaben ist er. }
 
-\line { und verteilt im Leben das göttliche Gute.} 
- 
-      
-       
-    }
-    
-    
+    \line { Alles erleuchtet, alles belebt}
+
+    \line { und verteilt im Leben das göttliche Gut.}
+
+
+
+  }
+
+
 }

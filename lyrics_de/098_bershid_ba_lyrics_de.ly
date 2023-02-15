@@ -9,17 +9,17 @@
 
   \column {    
     
-       \line { " " Es war einmal, es war einmal,}
+    \line { " " Es war einmal, es war einmal,}
 
-   \line { " "als alles Dunkelheit war}
+   \line { " "als alles Finsternis war,}
 
-   \line { " "und in ihr erschien das Licht.}
+   \line { " "und in ihr war das Licht erschienen.}
 
    \line { " "Und das Licht zeichnete die Schönheit des göttlichen Lebens, }
 
-   \line { " "das sich einverleibt hat }
+   \line { " "das in mich einzog }
 
-   \line { " "und erhob meine Seele.}
+   \line { " "und meine Seele erhob.}
       
        
     }
