@@ -14,9 +14,9 @@
 
 \line { " " mein Geist und meine Seele flüstern mir das zu. (2)}
 
-\line { " " Und der Geist flüstert mir das, flüstert mir das.}
+\line { " " Und der Geist flüstert mir das zu, flüstert mir das zu.}
 
-\line { " " Der Geist und die Seele flüstern mir das.}
+\line { " " Der Geist und die Seele flüstern mir das zu.}
 
   }
 }

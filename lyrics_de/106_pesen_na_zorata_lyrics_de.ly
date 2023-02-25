@@ -8,31 +8,31 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " "Die helle Morgenröte bricht an,}
+    \line { " "Die lichte Morgenröte bricht an,}
 
-    \line { " "die helle Morgenröte bricht an,}
+    \line { " "die lichte Morgenröte bricht an,}
 
     \line { " "sie bricht an, sie bricht an.}
 
-    \line { " "Volle Freude bringt sie in das Leben ein.}
+    \line { " "Alle Freude bringt sie in das Leben.}
 
     \line { " "Der Jugend bringt sie Gesundheit, }
 
     \line { " "den Arbeitenden eine Gabe –  das Leben. }
 
-    \line { " "Mögen die Weisen gut leben, }
+    \line { " "Möge es den Weisen wohlergehen, }
 
-    \line { " "die Guten im Wohlstand leben,}
+    \line { " "die Guten in Wohlstand leben,}
 
-    \line { " "mögen sie gut leben, mögen sie im Wohlstand leben;}
+    \line { " "mögen sie gut leben, mögen sie in Wohlstand leben;}
 
     \line { " "mögen die Weise gut leben,}
 
-    \line { " "die Guten im Wohlstand leben.}
+    \line { " "die Guten in Wohlstand leben.}
 
-    \line { " "Die helle Morgenröte bricht für sie an,}
+    \line { " " Für sie bricht die lichte Morgenröte an,}
 
-    \line { " "die helle Morgenröte bricht für sie an, }
+    \line { " " für sie bricht die lichte Morgenröte an, }
 
     \line { " "bricht an, bricht an. }
 

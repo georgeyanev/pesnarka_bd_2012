@@ -10,9 +10,9 @@
   \column {
 \line { " "Unter allen Bedingungen des Lebens }
 
-\line { " "verliere deinen Frieden, deinen Frieden nicht!}
+\line { " "verliere nicht deinen Frieden, deinen Frieden!}
 
-\line { " "Schön ist das Leben, }
+\line { " "Das Leben ist Schön, }
 
 \line { " "wenn der Mensch mutig ist.}
 

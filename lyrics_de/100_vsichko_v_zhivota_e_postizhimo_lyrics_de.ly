@@ -10,17 +10,17 @@
   \column {   
   \line { " "   Alles im Leben ist erreichbar, }
 
- \line { " " wenn die Zeit gut ist  }
+ \line { " " wenn die Zeit gut ist,  }
 
  \line { " " und wir vernünftig sind. }
 
- \line { " " Denn das Gute ist ein Grund  }
+ \line { " " Denn das Gute ist das Fundament  }
 
  \line { " " und die Vernünftigkeit ein Ziel,  }
 
- \line { " " mit der der Geist die Zukunft, }
+ \line { " " mit denen der Geist die Zukunft aufbaut, }
 
- \line { " " die große Zukunft, errichtet. }
+ \line { " " die Zukunft, die große Zukunft. }
        
     }
     

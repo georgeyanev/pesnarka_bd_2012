@@ -15,7 +15,7 @@
 
   \line { " "Diener des Geistes, }
 
-  \line { " "Träger der Freude, }
+  \line { " "Überbringer der Freude, }
 
   \line { " "Stütze der Jugend, }
 

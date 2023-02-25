@@ -7,25 +7,25 @@
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {     
-      \line { " "Ein heller Strahl kommt von oben,  }
+  \column {
+    \line { " " Ein heller Strahl steigt von oben herab,  }
 
-\line { " "um die kleinen Blumen zu erleuchten.   }
+    \line { " " um die kleinen Blumen zu erleuchten.   }
 
-\line { " "Nah entspringt eine kleine Quelle.  }
+    \line { " " Nah entspringt eine kleine Quelle.  }
 
-\line { " "Sie sprudelt leicht, flüstert und plätschert,  }
+    \line { " " Sie sprudelt munter, murmelt und plätschert,  }
 
-\line { " "und erfreut auf ewig die Blumen.   }
+    \line { " " und die Blumen erfreut sie auf ewig.   }
 
-\line { " "Sie erfreut, erfreut, erfreut, sprudelt, flüstert, erfreut,  }
+    \line { " " Sie erfreut, erfreut, erfreut, sprudelt, murmelt, sie erfreut,  }
 
-\line { " "sie erfreut, sie sprudelt, erfreut, erfreut, }
-        
-       \line { " "  sprudelt leicht, plätschert und erfreut die Blumen.  }
-      
-       
-    }
-    
-    
+    \line { " " erfreut, sie sprudelt, sie erfreut, erfreut, }
+
+    \line { " "  sie sprudelt munter, plätschert und erfreut die Blumen.  }
+
+
+  }
+
+
 }
