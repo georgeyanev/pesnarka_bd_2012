@@ -8,30 +8,30 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-      \line { " " Ich kann sagen, }
+    \line { " " Ich kann sagen, }
 
- \line { " " dass die Sonne morgen aufgehen }
+    \line { " " dass die Sonne morgen aufgehen }
 
- \line { " " und das Antlitz der Erde erleuchten wird.}
+    \line { " " und das Antlitz der Erde erleuchten wird.}
 
- \line { " " Sie wird in alles, was wächst, Wärme hineinbringen.}
+    \line { " " Ihre Wärme wird sie allem spenden, was wächst.}
 
- \line { " " Scheine, mächtige Sonne, damit wir gut lernen!}
+    \line { " " Strahle, mächtige Sonne, damit wir gut lernen!}
 
- \line { " " Alle Vernünftbegabten werden sich erheben}
+    \line { " " Alles Vernünftbegabte wird sich erheben}
 
- \line { " " und sich an die Arbeit machen. }
+    \line { " " und sich an die Arbeit machen. }
 
- \line { " " Scheine, mächtige Sonne, damit wir gut lernen!}
+    \line { " " Strahle, mächtige Sonne, damit wir gut lernen!}
 
- \line { " " Alles vernünftige wird sich erheben}
+    \line { " " Alles Vernünftbegabte wird sich erheben}
 
- \line { " " und wird sich an die Arbeit machen.}
+    \line { " " und sich an die Arbeit machen.}
 
- \line { " " Scheine, mächtige Sonne, damit wir gut lernen! }
+    \line { " " Strahle, mächtige Sonne, damit wir gut lernen! }
 
 
-    }
+  }
 
 
 }

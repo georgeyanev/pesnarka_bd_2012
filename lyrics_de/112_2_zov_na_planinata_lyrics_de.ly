@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Ruf des Berges" }
+\markup \fill-line { \fontsize #deTitleFontSize "Ruf des Gebirges" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
@@ -8,26 +8,24 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-      \line { " "Und ich springe wie ein Vöglein }
+    \line { " "Und ich hüpfe wie ein Vöglein }
 
- \line { " "vom Ast zu Ast, }
+    \line { " "vom Ast zu Ast, }
 
- \line { " "auf dass sich jeder wundert, }
+    \line { " "so dass sich jeder wundert, }
 
- \line { " "wenn er mich sieht.}
+    \line { " "wenn er mich sieht.}
 
- \line { " "Ich singe ein wunderbares Lied über die Sonne,}
+    \line { " "Ich stimme ein wunderbares Lied über die Sonne an,}
 
- \line { " "klaren Quellen murmelt.}
+    \line { " "klare kleine Quellen beginnen zu murmelt.}
 
- \line { " "Und ich sehe –  einen aufgerichteten Gipfel,}
+    \line { " "Und ich sehe einen steilen Gipfel vor mir:}
 
- \line { " "der vor mir steht.}
-
- \line { " "Er ruft mich sanftmutig dort oben. }
+    \line { " "Er ruft mich leise dort hinauf. }
 
 
-    }
+  }
 
 
 }

@@ -12,11 +12,11 @@
 
  \line { " " dort, wo Gewalt sich ausbreitet,}
 
- \line { " " herrschen Leiden und Qual.}
+ \line { " " dort herrscht Leid und Qual.}
 
- \line { " " Jeder, mit dem sie befreundet sind,}
+ \line { " " Jeden, mit dem sie befreundet sind,}
 
- \line { " " den nennen sie ihn Märtyrer, Helden, Heilige.}
+ \line { " " nennen sie Märtyrer, Held, Heiliger.}
 
     }
 

@@ -8,15 +8,15 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-      \line { " " Habe Glaube, Glaube,}
-   \line { " "Habe Glaube, Glaube,}
+    \line { " " Habe Glauben, Glauben,}
+    \line { " " Habe Glauben, Glauben,}
 
-   \line { " "Habe Glaube, Glaube,}
+    \line { " " Habe Glauben, Glauben,}
 
-   \line { " "Habe Glaube, Glaube, Glaube. (2) }
+    \line { " " Habe Glauben, Glauben, Glauben. (2) }
 
 
-    }
+  }
 
 
 }

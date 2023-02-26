@@ -11,33 +11,30 @@
 
     \line { " " Er kommt, Er kommt, Er kommt, }
 
-    \line { " " Er ist es, der kommt,  }
+    \line { " " Er selbst kommt,  }
 
     \line { " "Er kommt, Er kommt, Er kommt,  }
 
-    \line { " "Er ist es, der kommt,  }
+    \line { " "Er selbst kommt,  }
 
-    \line { " "Er kommt, Er kommt, Er kommt, Er  }
+    \line { " "Er kommt, Er kommt, Er kommt, Er kommt }
 
-    \line { " " Erist es, der kommt,}
+    \line { " " Er selbst kommt,}
+
     \line { " " um zu helfen, um zu helfen, um zu helfen.  }
 
-    \line { " "Der Mächtige, der Starke, möge er helfen,  }
+    \line { " " Der Mächtige, der Starke, um zu helfen,  }
 
-    \line { " "Der Mächtige, der Starke, möge er helfen,  }
+    \line { " " Der Mächtige, der Starke, um zu helfen,  }
 
-    \line { " "um zu helfen, möge er helfen.  }
+    \line { " " um zu helfen, um zu helfen.  }
 
-    \line { " "Wir werden mit Liebe arbeiten, wir  }
+    \line { " "Wir werden mit Liebe arbeiten,  }
 
-    \line { " "werden mit Liebe arbeiten,  }
+    \line { " "  wir werden mit Liebe arbeiten,  }
 
     \line { " "möge Er helfen, möge Er helfen. }
-
-
-
+        \line { " "Der Mächtige, der Starke, möge Er helfen, möge Er helfen,  möge Er helfen. }
 
   }
-
-
 }

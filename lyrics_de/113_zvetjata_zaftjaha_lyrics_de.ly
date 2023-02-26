@@ -11,11 +11,11 @@
 
   \line { " "Die Blumen erblühten unter den Strahlen der Sonne,}
 
-  \line { " "und trugen bereits Früchte. }
+  \line { " "und schon trugen sie Früchte. }
 
-  \line { " "Und so gekleidet in Schönheit}
+  \line { " "Und so, gekleidet in Schönheit}
 
-  \line { " "und so gekleidet in Reinheit,}
+  \line { " "und so, gekleidet in Reinheit,}
 
   \line { " "bringen sie uns die Jugend. }
 
@@ -23,7 +23,7 @@
 
   \line { " "Und so, wenn wir sie empfangen, }
 
-  \line { " "erkennen wir, dass sie göttliche Gaben sind;}
+  \line { " "erkennen wir, dass sie Gaben Gottes sind;}
 
   \line { " "und so, wenn wir sie empfangen,}
 
