@@ -9,11 +9,9 @@
 
   \column {
 
-    \line { " "  Gott ist Liebe, Gott ist Liebe, }
+    \line { " "  Gott ist Liebe, Gott ist Liebe, Gott ist Liebe, }
 
-    \line { " " Gott ist Liebe, Liebe,}
-
-    \line { " " ewige, grenzenlose Liebe, }
+    \line { " " Liebe, ewige, grenzenlose, Liebe,}
 
     \line { " " erfüllt mit Leben, }
 
@@ -25,8 +23,12 @@
 
     \line { " " Geist des vollen Frieden und der Freude für jede Seele.}
 
-    \line { " " Wir werden auf diesem Weg des Lichtes gehen, (3)  }
-    \line { " " dort, wo die göttliche Liebe herrscht. (3)}
+    \line { " " Wir werden auf diesem Weg des Lichtes gehen,  }
+    \line { " " wir werden auf diesem Weg des Lichtes gehen,  }
+    \line { " " wir werden auf diesem Weg des Lichtes gehen,  }
+    \line { " " dort, wo die göttliche Liebe herrscht. }
+    \line { " " dort, wo die göttliche Liebe herrscht. }
+    \line { " " dort, wo die göttliche Liebe herrscht. }
 
 
 

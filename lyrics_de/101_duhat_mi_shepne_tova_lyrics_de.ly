@@ -12,7 +12,8 @@
 
 \line { " " Mir wird es im Leben wohl ergehen, }
 
-\line { " " mein Geist und meine Seele flüstern mir das zu. (2)}
+\line { " " mein Geist und meine Seele flüstern mir das zu, }
+\line { " " mein Geist und meine Seele flüstern mir das zu. }
 
 \line { " " Und der Geist flüstert mir das zu, flüstert mir das zu.}
 

@@ -10,25 +10,39 @@
   \column {
     \line { " " Güte, Güte, Güte,}
 
-    \line { " "bringt, bringt, bringt das Licht,}
+    \line { " "bringt, bringt, bringt das Licht, das Licht, das Licht.}
 
-    \line { " "das Licht, das Licht, das Licht. }
+    \line { " "}
 
-    \line { " " Freude bringt sie für das Leben, (3)}
+    \line { " " Freude bringt sie für das Leben, }
+    \line { " " Freude bringt sie für das Leben, }
+    \line { " " Freude bringt sie für das Leben, }
 
-    \line { " "für das Leben. (3)}
+    \line { " "für das Leben, für das Leben, für das Leben. }
+    \line { " "}
 
-    \line { " "Sie lässt Alt und Jung sich aus dem Bett erheben. (3)}
+    \line { " "Sie lässt Alt und Jung sich erheben, }
+    \line { " "sie lässt Alt und Jung sich erheben, }
+    \line { " "sie lässt Alt und Jung sich erheben, }
 
-    \line { " "Kranke liebkost sie, Gesunde erfreut sie, (3)}
+    \line { " "aus dem Bett, aus dem Bett, aus dem Bett.}
+    \line { " "}
 
-    \line { " "wenn sie kommt. (3) }
+    \line { " "Kranke liebkost sie, Gesunde erfreut sie,}
+    \line { " "Kranke liebkost sie, Gesunde erfreut sie, }
+    \line { " "Kranke liebkost sie, Gesunde erfreut sie, }
+
+    \line { " "wenn sie kommt. }
+    \line { " "wenn sie kommt.  }
+    \line { " "wenn sie kommt.  }
+
+    \line { " "}
 
     \line { " "Und die Flüsse strömen reichlich }
 
     \line { " "und die Blumen blühen schön,}
 
-    \line { " "wenn sie kommt. (3) }
+    \line { " "wenn sie kommt, wenn sie kommt, wenn sie kommt. }
 
 
 

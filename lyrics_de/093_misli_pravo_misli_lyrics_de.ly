@@ -9,8 +9,10 @@
 
   \column {
     \line { " " Denke! Denke gerade! }
+    \line { " " Denke! Denke gerade! }
     \line { " " Hege heilige Gedanken für das Leben!}
     \line { " " Hege heilige Gedanken für das Leben!}
+    \line { " " Hege, hege, hege, hege heilige Gedanken für das Leben!}
 
 
   }

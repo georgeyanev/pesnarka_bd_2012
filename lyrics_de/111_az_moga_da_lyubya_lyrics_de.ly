@@ -9,8 +9,7 @@
 
   \column {
     \line { " "Ich kann lieben [ljubia], }
-    \line { " "   um gut zu werden, }
-
+    \line { " " um gut zu werden, }
     \line { " "ich kann lieben [obitscham], }
     \line { " "  um stark zu werden.}
     \line { " "  Die Liebe [ljubovta] und die Liebe [obitschta] }

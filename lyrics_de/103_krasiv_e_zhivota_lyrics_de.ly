@@ -18,7 +18,8 @@
 
     \line { " "Schön ist das Leben unserer Seele, }
 
-    \line { " "was die ganze Erde erfüllt. (2) }
+    \line { " "was die ganze Erde erfüllt.  }
+    \line { " "was die ganze Erde erfüllt.  }
 
 
   }

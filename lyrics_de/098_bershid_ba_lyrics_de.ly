@@ -11,15 +11,16 @@
     
     \line { " " Es war einmal, es war einmal,}
 
-   \line { " "als alles Finsternis war,}
+   \line { " " als alles Finsternis war,}
 
-   \line { " "und in ihr war das Licht erschienen.}
+   \line { " " und in ihr war das Licht erschienen.}
 
-   \line { " "Und das Licht zeichnete die Schönheit des göttlichen Lebens, }
+   \line { " " Und das Licht zeichnete}
+     \line { " " die Schönheit des göttlichen Lebens, }
 
-   \line { " "das in mich einzog }
+   \line { " " das in mich einzog }
 
-   \line { " "und meine Seele erhob.}
+   \line { " " und meine Seele erhob.}
       
        
     }

@@ -10,7 +10,7 @@
   \column {
     \line { " " Das Leben war in Finsternis und Dunkelheit. }
 
-    \line { " " Aber die Sonne des Lebens leuchtete auf über uns.}
+    \line { " " Aber die Sonne des Lebens leuchtete auf in uns.}
 
     \line { " " Und wir gingen auf den Weg, rein und heilig für uns.}
     \line { " " Und wir gingen auf den Weg, rein und heilig für uns.}

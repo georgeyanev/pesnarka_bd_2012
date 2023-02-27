@@ -13,7 +13,7 @@
 
     \line { " " sage mir, sage mir,}
 
-    \line { " " wo das Wasser entspringt. (2)}
+    \line { " " wo das Wasser entspringt, wo das Wasser entspringt.}
 
     \line { " " Entspringt, entspringt, wo das Wasser entspringt.}
 

@@ -13,7 +13,8 @@
 
     \line { " " Habe Glauben, Glauben,}
 
-    \line { " " Habe Glauben, Glauben, Glauben. (2) }
+    \line { " " Habe Glauben, Glauben, Glauben. }
+    \line { " " Habe Glauben, Glauben, Glauben. }
 
 
   }

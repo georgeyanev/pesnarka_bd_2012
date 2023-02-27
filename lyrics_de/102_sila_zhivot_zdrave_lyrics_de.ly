@@ -9,7 +9,7 @@
 
   \column {    
      
-  \line { " "Kraft, Leben, Gesundheit -}
+  \line { " "Kraft, Leben, Gesundheit –}
 
   \line { " "sie sind eins. }
 

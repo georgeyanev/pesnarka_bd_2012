@@ -12,13 +12,15 @@
 
 \line { geheiliger Ort, göttlicher Gipfel!}
 
-\line { Mein Mussala, Mussala,}
+\line { Mein Mussala, Mussala, mein Mussala.}
+\line {""}
 
-\line { mein Mussala.}
+\line { Habt ihr an einem klaren Frühlingstag } 
 
-\line { Habt ihr an einem klaren Frühlingstag den Sonnenaufgang  }
+\line {den Sonnenaufgang gesehen vom Mussala aus,}
 
-\line { gesehen vom Mussala aus, Mussala, Mussala, vom Mussala!}
+ \line {Mussala, Mussala, vom Mussala!}
+\line {""}
 
 \line { Beim ersten Sonnenstrahl habt ihr da, }
 

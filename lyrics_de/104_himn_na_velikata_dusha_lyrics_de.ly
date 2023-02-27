@@ -13,12 +13,14 @@
     \line { " "überall ist es hell, }
 
     \line { " "die Erde ist von einem warmen Gewand umhüllt. }
+     \line { " "}
 
     \line { " "Sie erweckt alles Lebendige; }
 
     \line { " "das Wasser fließt, das Gras sprießt, }
 
     \line { " "eine frische Brise weht überall. }
+     \line { " "}
 
     \line { " "Alles bewegt sich, kriecht und krabbelt.}
 
@@ -29,6 +31,7 @@
     \line { " "und der Mensch steht}
 
     \line { " "und denkt nach, was er tun soll. }
+     \line { " "}
 
     \line { " "Dann erklingt ein fröhliches Lied:}
 
@@ -37,12 +40,14 @@
     \line { " " groß sind Deine Werke, }
 
     \line { " " groß ist Dein Name über allem!}
+     \line { " "}
 
     \line { " "Du herrschst in der Kraft und im Leben,}
 
     \line { " "im Wissen, in der Weisheit, }
 
     \line { " "der Wahrheit und der Liebe.}
+     \line { " "}
 
     \line { " "Groß bist Du, Herr, }
 

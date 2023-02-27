@@ -11,10 +11,10 @@
     \line { " "Unter allen Bedingungen des Lebens }
 
     \line { " "verliere nicht deinen Frieden, deinen Frieden!}
+    \line { " "}
 
-    \line { " "Das Leben ist schön, }
-
-    \line { " "wenn der Mensch mutig ist.}
+    \line { " "Das Leben ist schön, wenn der Mensch mutig ist.}
+    \line { " "Das Leben ist schön, wenn der Mensch mutig ist.}
 
 
 

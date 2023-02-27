@@ -8,13 +8,12 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " "Und ich hüpfe wie ein Vöglein }
-
-    \line { " "vom Ast zu Ast, }
+    \line { " "Und ich hüpfe wie ein Vöglein vom Ast zu Ast, }
 
     \line { " "so dass sich jeder wundert, }
 
     \line { " "wenn er mich sieht.}
+     \line { " "}
 
     \line { " "Ich stimme ein wunderbares Lied über die Sonne an,}
 

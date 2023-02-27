@@ -28,9 +28,9 @@
 
     \line { " " und in meinem Herzen erweckte sie die Liebe, }
 
-    \line { " " sie erweckte, sie erweckte,  }
+    \line { " " sie erweckte, sie erweckte, sie erweckte }
 
-    \line { " " sie erweckte in meinem Herzen die Liebe.  }
+    \line { " "  in meinem Herzen die Liebe.  }
 
 
   }

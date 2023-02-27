@@ -8,14 +8,14 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-\line { " "Sei fröhlich, werde munter -}
+\line { " "Sei fröhlich, werde munter;}
 
 \line { " "die Sorgen des Lebens}
 
 \line { " "sind eine nutzlose Last.}
 \line { " " }
 
-\line { " "Liebevoll ruft dich das Leben. }
+\line { " "Liebevoll ruft dich das Leben: }
 
 \line { " "Sei fröhlich, werde munter}
 

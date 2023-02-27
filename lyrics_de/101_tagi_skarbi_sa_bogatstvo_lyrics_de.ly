@@ -9,9 +9,9 @@
 
   \column {
     
-     \line {   "   " Trauer und Leid sind Reichtum  } 
+     \line {   "   " Trauer und Leid sind Reichtum für das Leben, } 
 
-\line {   "   " für das Leben, die in der Seele verborgen liegen, } 
+\line {   "   " die in der Seele verborgen liegen, } 
 
 \line {   "   " für künftige Wohltaten  } 
 

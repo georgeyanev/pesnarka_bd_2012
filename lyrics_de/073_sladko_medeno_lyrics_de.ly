@@ -9,7 +9,7 @@
 
   \column {
        
-  \line { " "Süß, honigsüß (4) }
+  \line { " "Süß, honigsüß, süß, honigsüß, süß, honigsüß, süß, honigsüß }
 
   \line { " "honigsüß, honigsüß, süß, honigsüß.}
 
