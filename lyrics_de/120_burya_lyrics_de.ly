@@ -8,6 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
+     \line { " " Trauerig ist meine Seele.}
    
    \line { " " Trauer und Kummer überkommen mich.}
 
