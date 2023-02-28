@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Sage mir die Wahrheit" }
+\markup \fill-line { \fontsize #deTitleFontSize "Sag du mir die Wahrheit" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {

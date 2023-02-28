@@ -32,8 +32,8 @@
     \line { " "Kranke liebkost sie, Gesunde erfreut sie, }
     \line { " "Kranke liebkost sie, Gesunde erfreut sie, }
 
-    \line { " "wenn sie kommt. }
-    \line { " "wenn sie kommt.  }
+    \line { " "wenn sie kommt, }
+    \line { " "wenn sie kommt,  }
     \line { " "wenn sie kommt.  }
 
     \line { " "}

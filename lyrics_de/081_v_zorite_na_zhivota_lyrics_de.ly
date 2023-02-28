@@ -14,7 +14,7 @@
 
     \line { " " ging die Sonne auf, }
 
-    \line { " " ging die Sonne auf, }
+    \line { " " ging die Sonne auf; }
 
     \line { " " sie zog die Grenzen der Natur, }
 

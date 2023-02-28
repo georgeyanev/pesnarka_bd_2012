@@ -16,7 +16,7 @@
 
 \line { " "Ich werde die göttlichen Güter  }
 
-\line { " "in allen menschlichen Herzen tragen. }
+\line { " "in alle menschlichen Herzen tragen. }
 
 \line { " "Dort, wo die Freude geboren wird,  }
 

@@ -23,11 +23,13 @@
 
     \line { " " Geist des vollen Frieden und der Freude für jede Seele.}
 
+    \line { " "}
+
     \line { " " Wir werden auf diesem Weg des Lichtes gehen,  }
     \line { " " wir werden auf diesem Weg des Lichtes gehen,  }
     \line { " " wir werden auf diesem Weg des Lichtes gehen,  }
-    \line { " " dort, wo die göttliche Liebe herrscht. }
-    \line { " " dort, wo die göttliche Liebe herrscht. }
+    \line { " " dort, wo die göttliche Liebe herrscht, }
+    \line { " " dort, wo die göttliche Liebe herrscht, }
     \line { " " dort, wo die göttliche Liebe herrscht. }
 
 

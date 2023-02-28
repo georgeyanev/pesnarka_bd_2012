@@ -11,11 +11,11 @@
 
    \line { " "  Hört die Stimme dieses Liedes,}
 
-   \line { " "  das der Frühling schon verbreitet.}
+   \line { " "  die der Frühling schon verbreitet.}
 
    \line { " "  Sie ist eine große Gabe für das Leben,}
 
-  \line { " "   er ist eine große Gabe für das Leben. }
+  \line { " "   sie ist eine große Gabe für das Leben. }
 
 
   }

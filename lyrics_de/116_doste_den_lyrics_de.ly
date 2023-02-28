@@ -13,16 +13,16 @@
 
     \line { " "ein Tag wird kommen, ein Tag wird kommen.}
 
-    \line { " "Er wird ein heller Tag sein,}
+    \line { " "Er wird ein lichter Tag sein,}
 
-    \line { " "er wird ein heller Tag sein,}
+    \line { " "er wird ein lichter Tag sein,}
 
-    \line { " "er wird ein heller Tag sein.}
+    \line { " "er wird ein lichter Tag sein.}
     \line { " "Säe, säe!}
 
-    \line { " "Erbaue, erbaue, erbaue }
+    \line { " "Baue, Baue, baue }
 
-    \line { " "erbaue das Gute!}
+    \line { " "errichte gut!}
 
     \line { " "Und die Freude wird dich gut belohnen.}
   }

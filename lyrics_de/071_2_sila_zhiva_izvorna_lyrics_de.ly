@@ -13,7 +13,8 @@
 
     \line { " " lebendige, quellende, fließende Kraft. }
 
-    \line { " " Sun me sun, Sun me sun binom to meto. (2) }
+    \line { " " Sun me sun, Sun me sun binom to meto. }
+    \line { " " Sun me sun, Sun me sun binom to meto. }
 
 
 

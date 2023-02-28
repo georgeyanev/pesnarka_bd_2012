@@ -10,23 +10,23 @@
 
   \column {
 
-    \line { " "Dort, in der Ferne, kenne ich ein wunderbares Land:  }
+    \line { " "Dort, in der Ferne, kenne ich einen wunderbaren Ort:  }
 
     \line { " "Sonne, Blumen und Früchte,  }
 
-    \line { " "eine Quelle sprudelt, es ist ein Paradiesgarten.  }
+    \line { " "eine Quelle sprudelt - es ist ein Paradiesgarten.  }
 
-    \line { " "Sag’ mir, was du weißt,  }
+    \line { " " Du, sage mir, was du weißt,  }
 
     \line { " "über die Heimat, paradiesische Erde,  }
 
-    \line { " "wo der taubedeckt  Kirschbaum blüht und reift.  }
+    \line { " "wo der taubedeckte Kirschbaum blüht und reift.  }
 
-    \line { " "Zeig’ mir den Weg in dieses schöne Land.  }
+    \line { " "Zu diesem schönen Ort zeige mir einen Weg. }
 
     \line { " "Pflücke nur die reife Frucht,  }
 
-    \line { " "ohne die jungen Triebe zu brechen.  }
+    \line { " "ohne den jungen Trieb zu brechen.  }
 
     \line { " "Pflücke dir reichlich Früchte  }
 

@@ -33,9 +33,9 @@
 
     \line { " "  wir werden mit Liebe arbeiten,  }
 
-    \line { " "möge Er helfen, möge Er helfen. }
+    \line { " " Er helfe, Er helfe. }
     \line { " "Der Mächtige, der Starke, }
-    \line { " " möge Er helfen, möge Er helfen,  möge Er helfen. }
+    \line { " " Er helfe, Er helfe, Erhelfe. }
 
   }
 }
