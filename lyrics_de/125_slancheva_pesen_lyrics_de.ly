@@ -10,22 +10,22 @@
   \column {
 
 
- \line { " "Es ist schon Frühling, überall ist es hell und warm:}
+ \line { " "Es ist schon Frühling, hell und warm ist es  überall:}
 
- \line { " "Die Sonne scheint – ja, der Frühling ist da! }
+ \line { " "Die Sonne scheint – ja, der Frühling ist gekommen! }
 
  \line { " "Die Freude sprudelt in unserem Bienenstock: ban. }
 
  \line { " "Alle eilen hinaus. }
 
- \line { " "Sie spüren den Frühlingsblumenduft, }
+ \line { " "Sie nehmen den blumigen Frühlingsduft wahr, }
 
- \line { " "sie stürzen sich auf die aufgeblühte Blüte. }
+ \line { " "sie fliegen geschwind zur aufgegangenen Blüte. }
  \line { " " }
 
  \line { " "Mit Freude sammeln sie den Pollen ein }
 
- \line { " "und tragen ihn zur entfalteten Blüte.}
+ \line { " "und tragen ihn zur aufgegangenen Blüte.}
 
   \line { " "Die Freude sprudelt in unserem Bienenstock: ban. }
 
@@ -33,9 +33,10 @@
 
  \line { " "}
 
- \line { " "Ban! Zan, ban zan, wir bereiten einen süßen Honig für euch:}
+ \line { " " Ban, zan, ban, zan, } 
+ \line { " "einen süßen Honig bereiten wir für euch,}
 
- \line { " "Liebet den gütigen Schöpfer! }
+ \line { " "liebet den gütigen Schöpfer. }
 
  \line { " "Liebet den gütigen Schöpfer,}
 

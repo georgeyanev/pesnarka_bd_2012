@@ -12,17 +12,17 @@
 
 
 
-   \line { " "  Die Kälte gibt alles.  Du bist kalt,}
+   \line { " "  Die Kälte gibt alles. Kalt bist du,}
 
     \line { " " aber schützt uns vor der Kälte.}
 
-    \line { " " Du bist kalt, aber schützt uns vor dem Frost.}
+    \line { " " Kalt bist du, aber schützt uns vor dem Frost.}
     
-    \line { " " Du bist kalt, aber schützt uns vor dem Frost.}
+    \line { " "  Kalt bist du, aber schützt uns vor dem Frost.}
 
-    \line { " " Du bist kalt, aber bringst uns Reinheit.}
+    \line { " "  Kalt bist du, aber bringst uns Reinheit.}
 
-   \line { " "  Du bist kalt, aber bringst uns Reinheit}
+   \line { " "   Kalt bist du, aber bringst uns Reinheit}
 
    \line { " "  }
       
@@ -37,13 +37,13 @@
 
     \line { " " aber das wissen auch die Regentropfen.}
 
-    \line { " " Sie ist kalt, aber schützt uns vor der Kälte}
+    \line { " "  Кalt ist sie, aber schützt uns vor der Kälte}
 
-    \line { " " und hört immer auf die Stimme der Liebe.}
+    \line { " " und hört immer auf die Stimme der Liebe.*}
 
-    \line { " " Du bist kalt, aber rettest uns vor Frost}
+    \line { " " Du bist kalt, aber rettest uns vor dem Frost}
 
-    \line { " " und bringst nur das, was dir das Licht bringt.}
+    \line { " " und bringst nur das, was dir das Licht gibt.}
 
     \line { " " Dein Gewand ist weiß.}
 
@@ -56,17 +56,17 @@
     \column {
  
   
-    \line { " " Du bist kalt, aber rettest uns vor der Kälte.}
+    \line { " " Du bist kalt, aber rettest uns vor dem Frost.}
 
     \line { " " Seit Ewigkeit waren die menschlichen Herzen }
             
-       \line { " "       für dich verschlossen,}
+       \line { " "  für dich verschlossen,}
 
     \line { " " da du das Alte ausziehst, das Alte, }
             
         \line { " " und das Neue faltest, das Neue.}
 
-    \line { " " Du bist kalt, aber rettest uns vor der Kälte.}
+    \line { " "  Kalt bist du, aber rettest uns vor der Kälte.}
 
  
     
@@ -76,9 +76,9 @@
 
     \line { " " und das Leben erscheint,}
 
-    \line { " " begleitest du sie wieder beide}
+    \line { " " begleitest du sie wieder,}
 
-    \line { " " und bekleidest sie in deinem hellen Gewand.}
+    \line { " " und kleidest sie in dein lichtes Gewand.}
 
     \line { " " Du sprichst wenig, denkst viel,}
 
@@ -86,7 +86,7 @@
 
     \line { " " und jede deiner Gaben }
             
-       \line { " "      begleitest du mit Reinheit.}
+       \line { " "  begleitest du mit Reinheit.}
 
   }
 }

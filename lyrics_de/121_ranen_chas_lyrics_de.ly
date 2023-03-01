@@ -21,35 +21,35 @@
 
  \line { " " Singe Herz, }
 
- \line { " " vergiss die Trauer}
+ \line { " " vergiss das Leid}
 
- \line { " " und die menschlichen Sorgen}
+ \line { " " und die menschlichen Stürme}
 
  \line { " " in dieser wunderbaren Stunde.}
 
  \line { " " Höre meine Stimme! }
 
- \line { " " Das große Leben wird }
+ \line { " " Großartiges Leben wird }
 
- \line { " " nur in schwerster Trauer geboren. }
+ \line { " " nur in schwerem Leid geboren. }
 
- \line { " " Leise Freude und ein neues Leben}
+ \line { " " Stille Freude, neues Leben}
 
  \line { " " bringt dieser Sturm der Welt.}
 
- \line { " " Das neue Leben der Liebe -}
+ \line { " " Neues Leben der Liebe}
 
- \line { " " mögen meine Seele wärmen! }
+ \line { " " wärme meine Seele! }
 
- \line { " " Freiheit, einen starken Geist }
+ \line { " " Freiheit, ein starker Geist }
 
- \line { " " und Frieden wirst du haben! }
+ \line { " " und Frieden wird dein Eigen sein! }
 
  \line { " " Höre meine Stimme! }
 
  \line { " " Leise Töne rufen dich,}
 
- \line { " " dort herrscht ewige Liebe!}
+ \line { " " ewige Liebe herrscht dort!}
 
 
   }
