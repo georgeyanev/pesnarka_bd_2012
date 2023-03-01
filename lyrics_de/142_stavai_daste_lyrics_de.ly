@@ -11,13 +11,11 @@
 
     \line { "   " näherte meine Mutter sich mir.}
 
-
-
     \line { "   "Mit süßer Stimme sagte sie mir ein gütiges Wort:}
 
     \line { "   " „Stehe auf Tochter, }
     
-     \line { "   " weil auf das Feld gegangen werden soll.}
+    \line { "   " weil auf das Feld gegangen werden soll.}
 
     \line { "   "Stehe auf, }
     
@@ -27,7 +25,6 @@
     \line { 2. Wenn die Sonne aufgeht, }
     
     \line { "   "sollst du auf dem Feld sein.}
-
 
     \line { "   "Begrüße den Tag mit der Sichel in der Hand und mit einem Lied.}
 

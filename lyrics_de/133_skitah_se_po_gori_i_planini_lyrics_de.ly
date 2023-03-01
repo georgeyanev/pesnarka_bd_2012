@@ -17,19 +17,13 @@
 
   \line { " " und während wir liefen, war Er immer bei mir.  }
 
-  \line { " " Dort oben sah ich }
+  \line { " " Dort oben sah ich Sein Licht,  }
 
-  \line { " " Sein Licht,  }
-
-  \line { " " welches mich erleuchtete,  }
-
-  \line { " " und Er sagte:  }
+  \line { " " welches mich erleuchtete, und Er sagte:  }
 
   \line { " " Erinnere dich daran, dass du oben sein sollst; }
 
-  \line { " " steige hinab und wisse –  }
-
-  \line { " " sei allen nützlich! }
+  \line { " " steige hinab und wisse – sei allen nützlich! }
 
 
   }

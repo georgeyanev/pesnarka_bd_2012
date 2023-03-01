@@ -15,27 +15,27 @@
 
     \line { " "die göttliche Sonne scheint heute. }
 
-    \line { " "Wehe, Wind, wehe leise,  }
+    \line { " "Wehe, Wind, wehe sanft,  }
 
-    \line { " "wehe leise, schaue lieb, }
+    \line { " "wehe sanft, blicke mild, }
 
-    \line { " "wehe leise, öffne die Blätter! }
+    \line { " "wehe sanft, lass die Blätter sich entfalten! }
 
-    \line { " "Lasse die Blätter flattern, öffne die Blüten,  }
+    \line { " "Lass das Blatt erzittern, öffne die Blüte,  }
 
-    \line { " "öffne die Blüten, verteile die Früchte, }
+    \line { " "öffne die Blüte, verteile die Frucht, }
 
-    \line { " "öffne die Blüten, verteile die Früchte. }
+    \line { " "öffne die Blüte, verteile die Frucht. }
 
-    \line { " "Hai di di di di, man soll gehen, }
+    \line { " "Auf, möge er gehen, }
 
-    \line { " "  um zu lernen, zu lernen, um zu erhalten, }
+    \line { " " auf, möge er lernen, möge er lernen, möge er erhalten, }
 
-    \line { " "zu erhalten, etwas zu lernen. }
+    \line { " "möge er erhalten, möge er lernen. }
 
-    \line { " "Hai di di di di, man soll gehen,  }
+    \line { " "Auf, möge er gehen,  }
 
-    \line { " "man soll gehen und das Gute sehen. }
+    \line { " "damit es ihm wohl ergehen. }
 
   }
 }

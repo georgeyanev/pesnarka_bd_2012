@@ -9,7 +9,7 @@
 
   \column {
 
- \line { " " Tage des Leides und der Trauer }
+ \line { " " Tage des Leides und der Kummers}
 
  \line { " " haben meine Seele durchdrungen,}
 
@@ -17,11 +17,11 @@
 
  \line { " " Aber mein Geist des Lebens}
 
- \line { " " ist mit Kraft und Stärke über sie aufgeschwommen.}
+ \line { " " hat sich mit Kraft und Stärke über sie erhoben.}
 
  \line { " " Ins Gelobte Land bin ich }
 
- \line { " " als Reisender aufgebrochen  -}
+ \line { " " als Reisender aufgebrochen  - }
 
  \line { " " dorthin, wo die Quellen sprudeln,}
 

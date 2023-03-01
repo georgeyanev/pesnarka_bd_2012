@@ -12,13 +12,13 @@
 
  \line { " "Dass du die Herde im Gebirge alleine gelassen hast und }
 
- \line { " "abends zurückgekehrt bist, Mädchen am Abendtreffen zu treffen.}
+ \line { " "abends zurückgekehrt bist, um Mädchen abends auf dem Dorfplatz zu treffen.}
 
  \line { " "Mädchen, die Treffen anzetteln, anzetteln}
 
  \line { " "sie zetteln sie an, aber sie verderben auch.}
 
- \line { " "Ein Mädchen, mein Sohn, wählt man, nicht abends aus.}
+ \line { " "Ein Mädchen, mein Sohn, wählt man nicht am Abend aus.}
 
 
   }

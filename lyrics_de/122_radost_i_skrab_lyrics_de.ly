@@ -49,11 +49,11 @@
      \line { " " ist das fast unmöglich.  }
         \line { " "}
     
-     \line { " " Liebet mich jedoch jemand und   }
+     \line { " " Liebt mich jedoch jemand und   }
    
-     \line { " " über mich gut denkt,  }
+     \line { " " denkt gut über mich,  }
 
-    \line { " " er soll ein Bürger aus einer }
+    \line { " " er wird ein Bürger aus einer }
     
     \line { " " vollkommen anderen Welt sein.“}
 
@@ -63,7 +63,7 @@
 
     \line { " " das große Leben zu verstehen.   }
 
-    \line { " " Die Liebe schätzt sie beide gleich.  }
+    \line { " " Die Liebe schätzt sie beide gleichermaßen.  }
 
     \line { " "}
 
@@ -81,7 +81,7 @@
 
     \line { " " und gehen gemeinsam vorwärts.  }
 
-    \line { " " Die Liebe schätzt sie beide gleich.  }
+    \line { " " Die Liebe schätzt sie beide gleichermaßen.  }
 
   }
 

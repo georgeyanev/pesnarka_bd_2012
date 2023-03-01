@@ -29,7 +29,7 @@
 
  \line { " " Höre meine Stimme! }
 
- \line { " " Großartiges Leben wird }
+ \line { " " Das große Leben wird }
 
  \line { " " nur in schwerem Leid geboren. }
 

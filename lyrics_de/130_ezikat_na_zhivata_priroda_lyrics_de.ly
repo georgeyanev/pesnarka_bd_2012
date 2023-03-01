@@ -17,7 +17,7 @@
 
  \line { " " Alle Blätter raschelten,}
 
- \line { " " sie raschelten und betteten:}
+ \line { " " sie raschelten und beteten:}
 
  \line { " " Höre auf, Wind, höre auf Wind,}
 
@@ -39,7 +39,7 @@
 
  \line { " " und kam, euch zu sehen,}
 
- \line { " " mit euch zu spielen und euch umzuwehen.}
+ \line { " " mit euch zu spielen und euch zu umwehen.}
 
  \line { " " Dann hört mein Lied:}
 
@@ -49,11 +49,11 @@
 
  \line { " " Er wird den Acker gießen,}
 
- \line { " " und er wird ihn für Spiele vorbereiten.}
+ \line { " " und ihn für Spiele vorbereiten.}
 
  \line { " " Damit kein Staub aufsteigt, ihr Blätter,}
 
- \line { " " bei diesen fröhlichen Spiele.}
+ \line { " " bei diesen fröhlichen Spielen.}
 
  \line { " " Von oben wird die Sonne beginnen zu scheinen,}
 
@@ -65,9 +65,9 @@
 
  \line { " " damit wir reines Wasser trinken}
 
- \line { " " und uns mit Freude trennen.}
+ \line { " " und in Freude auseinandergehen.}
 
- \line { " " Auf das wir uns wieder treffen}
+ \line { " " Auf dass wir uns wieder treffen}
 
  \line { " " und gut mit Liebe verstehen.}
 
