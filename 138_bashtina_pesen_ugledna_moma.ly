@@ -25,21 +25,19 @@
       fis8. ees8 c8.  | \break
 
       d8. d8(d8.)  |
-      \repeat volta 1 {
-        \time 5/16 ees8 c8.  |
-        ees8 g8. |
-        fis8 ees16 c8  |
-        d8 d8. | \break
-      }
+      \bar ".|:" \time 5/16 ees8 c8.  |
+      ees8 g8. |
+      fis8 ees16 c8  |
+      d8 d8. | \bar ":|." \break
+      
 
-      \repeat volta 1 {
-        \tempoFunc "Poco più mosso" 8 "120"
+      \bar ".|:" 
+      \tempoFunc "Poco più mosso" 8 "120"
+      c'8 b8[(aes16)] |  |
+      c16 c b aes f |  |
+      b8 aes([f16])  |
+      g8 g8. | \bar ":|."
 
-        c'8 b8[(aes16)] |  |
-        c16 c b aes f |  |
-        b8 aes([f16])  |
-        g8 g8. |
-      }
       \time 8/16 \break
       \tempo "Meno mosso" c,8. d8(ees8.) |
       fis8. g8 (g8.) |
@@ -137,13 +135,12 @@
       bes8. bes8 g8. |
       a8. a8~ a8.\fermata | \break
 
-      \repeat volta 1 {
-        \tempo "Più mosso"
-        g8. g8~ g8. |
-        fis8. ees8~ ees8. |
-        fis8. ees8 c8. |
-        d8. d8~ d8. |
-      }
+      \bar ".|:" \tempo "Più mosso"
+      g8. g8~ g8. |
+      fis8. ees8~ ees8. |
+      fis8. ees8 c8. |
+      d8. d8~ d8. | \bar ":|."
+
       \key c \major
       \time 5/16
       \tempo "Allegretto"
@@ -209,7 +206,7 @@
       a8~ a8. |
       a8~ a8. |  \bar "||"
       \time 9/16
-      \tempo "" e8 e e e8. |
+      \tempo "Lento" e8 e e e8. |
       a8 g f e8. | \break
 
       g8(f) e8~ e8. |
@@ -262,7 +259,7 @@
         [d16 ) ]c8. | % 168
         d8 e16 ( [d16 ) ] \stemDown
         c16 ( [d16 ) ]b8. | % 169
-        g8  a8  a8  a8.
+        g8  a8  a8  a8. \bar ":|."
       }
 
 
