@@ -14,7 +14,7 @@
 
     \line { Alles erleuchtet er, alles belebt er}
 
-    \line { und verteilt im Leben das göttliche Gute.}
+    \line { und teilt im Leben das göttliche Gute aus.}
 
 
 
