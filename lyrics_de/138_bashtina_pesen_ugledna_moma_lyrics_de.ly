@@ -38,7 +38,7 @@
 
   \line { " "Ein schönes Mädchen, mein Sohn, }
           
-      \line { " "      erkennt man dann,  }
+  \line { " "erkennt man dann,  }
 
   \line { " "wenn es den Weinberg umgräbt,  }
 
@@ -75,10 +75,10 @@
 
   \line { " "der Weizen kennt es gut.  }
   
-   \line { " "}
+  \line { " "}
 
   \line { " "Das schöne Mädchen, mein Sohn, }
-       \line { " "    erkennt man gut, }
+  \line { " "    erkennt man gut, }
   \line { " "wenn es in der Tenne den Weizen drischt,  }
 
   \line { " "ihn durchsiebt,  }
@@ -117,7 +117,7 @@
 
   \line { " "der den Boden benetzt.  }
   
-    \line { " " }
+  \line { " " }
 
   \line { " "Es ist ein Engel, der von oben kommt,  }
 
