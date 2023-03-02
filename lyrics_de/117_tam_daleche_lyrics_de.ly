@@ -14,7 +14,7 @@
 
     \line { " "Sonne, Blumen und Früchte,  }
 
-    \line { " "eine Quelle sprudelt - es ist ein Paradiesgarten.  }
+    \line { " "eine Quelle sprudelt  – es ist ein Paradiesgarten.  }
 
     \line { " " Du, sage mir, was du weißt,  }
 

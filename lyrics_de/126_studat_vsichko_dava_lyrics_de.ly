@@ -41,7 +41,7 @@
 
     \line { " " und hört immer auf die Stimme der Liebe.*}
 
-    \line { " " Du bist kalt, aber rettest uns vor dem Frost}
+    \line { " "  Kalt bist du, aber rettest uns vor dem Frost}
 
     \line { " " und bringst nur das, was dir das Licht gibt.}
 
@@ -56,7 +56,7 @@
     \column {
  
   
-    \line { " " Du bist kalt, aber rettest uns vor dem Frost.}
+    \line { " " Kalt bist du, aber rettest uns vor dem Frost.}
 
     \line { " " Seit Ewigkeit waren die menschlichen Herzen }
             

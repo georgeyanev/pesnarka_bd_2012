@@ -13,7 +13,7 @@
 
   \line { " "heiliger Geist, gütigr Geist,   }
 
-  \line { " "Wer/Er erfüllt unsere Herzen mit Liebe,   }
+  \line { " "Wer/Er* erfüllt unsere Herzen mit Liebe,   }
 
   \line { " "Wer erfüllt unsere Herzen mit Liebe?!  }
 

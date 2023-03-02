@@ -35,7 +35,7 @@
 
     \line { " " Er helfe, Er helfe. }
     \line { " "Der Mächtige, der Starke, }
-    \line { " " Er helfe, Er helfe, Erhelfe. }
+    \line { " " Er helfe, Er helfe, Er helfe. }
 
   }
 }

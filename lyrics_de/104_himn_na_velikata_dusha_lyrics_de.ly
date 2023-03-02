@@ -35,7 +35,7 @@
 
     \line { " "Dann erklingt ein fröhliches Lied:}
 
-    \line { " "Groß bist Du, Herr,}
+    \line { " "„Groß bist Du, Herr,}
 
     \line { " " groß sind Deine Werke, }
 
@@ -53,7 +53,7 @@
 
     \line { " "groß sind Deine Werke, }
 
-    \line { " "groß ist Dein Name über allem!}
+    \line { " "groß ist Dein Name über allem!“}
 
   }
 }

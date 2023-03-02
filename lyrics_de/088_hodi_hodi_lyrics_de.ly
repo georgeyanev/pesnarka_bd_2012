@@ -29,7 +29,7 @@
 
   \line {  2.	So bieten die Regentropfen }
 
- \line { "   " reichlich Feuchtigkeit, den Strom des Leben. }
+ \line { "   " reichlich Feuchtigkeit, den Strom des Lebens. }
  
  \line { "   "Samenkörner sprießen, }
  

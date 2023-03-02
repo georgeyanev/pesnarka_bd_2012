@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Trauer, Gram" }
+\markup \fill-line { \fontsize #deTitleFontSize "Trauer, Leid" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {

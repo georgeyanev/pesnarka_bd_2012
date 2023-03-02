@@ -12,7 +12,7 @@
 
   \line { " "Lichter Tag, lichter Tag, Tag, Tag Tag,}
 
-  \line { " "fröhlicher Tag, fröhlicher Tag, Tag, Tag.}
+  \line { " "fröhlicher Tag, fröhlicher Tag, Tag, Tag, Tag.}
 
   \line { " "Licher Tag, lichter Tag, göttlicher Tag,}
 

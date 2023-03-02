@@ -11,7 +11,7 @@
 
  \line { 1.	Ich kann sagen, dass der Tag schon anbricht;}
  \line { "   "die Sonne wird aufgehen, handeln wir gut,}
- \line { "   "die Sonne wird aufgehen, handeln wir gutw.}
+ \line { "   "die Sonne wird aufgehen, handeln wir gut.}
  \line { "  "}
 
  \line { 2.	Ich kann sagen, dass Gott mich liebt.}

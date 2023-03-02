@@ -92,7 +92,7 @@ cat \
     ../103_krasiv_e_zhivotat.ly \
     ../106_pesen_na_zorata.ly \
     ../107_pri_vsichkite_uslovija.ly \
-    ../104_himn_na_velinata_dusha_new.ly \
+    ../104_himn_na_velinata_dusha.ly \
     ../108_az_moga_da_kazha.ly \
     ../109_az_smeya_da_kaza.ly \
     ../110_1_da_imash_vyara.ly \

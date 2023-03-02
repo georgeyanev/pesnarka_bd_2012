@@ -12,9 +12,9 @@
 
     \line { Schön und erhaben ist er. }
 
-    \line { Alles erleuchtet, alles belebt}
+    \line { Alles erleuchtet er, alles belebt er}
 
-    \line { und verteilt im Leben das göttliche Gut.}
+    \line { und verteilt im Leben das göttliche Gute.}
 
 
 

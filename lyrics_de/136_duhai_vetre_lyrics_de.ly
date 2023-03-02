@@ -35,7 +35,7 @@
 
     \line { " "Auf, möge er gehen,  }
 
-    \line { " "damit es ihm wohl ergehen. }
+    \line { " "damit es ihm wohl ergeht. }
 
   }
 }

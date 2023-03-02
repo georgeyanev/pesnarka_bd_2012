@@ -21,7 +21,7 @@
 
  \line { " " Ins Gelobte Land bin ich }
 
- \line { " " als Reisender aufgebrochen  - }
+ \line { " " als Reisender aufgebrochen  – }
 
  \line { " " dorthin, wo die Quellen sprudeln,}
 

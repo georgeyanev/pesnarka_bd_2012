@@ -19,7 +19,7 @@
 
  \line { " " sie raschelten und beteten:}
 
- \line { " " Höre auf, Wind, höre auf Wind,}
+ \line { " " „Höre auf, Wind, höre auf Wind,}
 
  \line { " " freier Frühlingswind.}
 
@@ -31,9 +31,9 @@
 
  \line { " " Wehe nicht, oh Wind, wir werden herunterfallen.}
 
- \line { " " Unsere Rippen werden brechen.}
+ \line { " " Unsere Rippen werden brechen.“}
 
- \line { " " Hier seid ihr kleine Blättchen, }
+ \line { " " „Hier seid ihr kleine Blättchen, }
 
  \line { " " ich hörte von ferne von euch}
 
@@ -69,7 +69,7 @@
 
  \line { " " Auf dass wir uns wieder treffen}
 
- \line { " " und gut mit Liebe verstehen.}
+ \line { " " und gut mit Liebe verstehen.“}
 
   }
 }
