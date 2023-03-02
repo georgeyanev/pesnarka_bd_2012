@@ -21,9 +21,9 @@
 
   \line { " " welches mich erleuchtete, und Er sagte:  }
 
-  \line { " " Erinnere dich daran, dass du oben sein sollst; }
+  \line { " " „Erinnere dich daran, dass du oben sein sollst; }
 
-  \line { " " steige hinab und wisse – sei allen nützlich! }
+  \line { " " steige hinab und wisse – sei allen nützlich!“ }
 
 
   }

@@ -5,7 +5,7 @@
 \markup \null
 
 \markup \fontsize #deCoupletFontSize {
-    \hspace #10
+    \hspace #15
     \override #'(baseline-skip . 2.1)
     \column {
 
@@ -50,7 +50,7 @@
 
   \line { " "Ein schönes Mädchen, mein Sohn, }
           
-  \line { " "    erkennt man auf dem Feld  }
+  \line { " " erkennt man auf dem Feld  }
 
   \line { " "wenn es die Garben hebt und hinstellt,  }
 
