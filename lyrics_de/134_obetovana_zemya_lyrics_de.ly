@@ -9,7 +9,7 @@
 
   \column {
 
- \line { " " Tage des Leides und der Kummers}
+ \line { " " Tage des Leides und des Kummers}
 
  \line { " " haben meine Seele durchdrungen,}
 

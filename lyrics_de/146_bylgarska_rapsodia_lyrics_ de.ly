@@ -51,11 +51,11 @@
 
     \line { " "Oh, Liliana, frühe Blume im Garten,}
 
-    \line { " "wenn ich dieses Lied, oh, Liliana, nicht höre,}
+    \line { " "wenn ich dieses Lied, oh, Liliana, nicht höre, ah,}
 
-    \line { " "ah, wenn ich von diesem Wasser nicht trinke}
+    \line { " " wenn ich von diesem Wasser nicht trinke}
 
-    \line { " "wird Trauer mein Herz erfüllen.}
+    \line { " "wird Gram mein Herz erfüllen.}
 
     \line { " "   }
 

@@ -19,7 +19,7 @@
 
     \line { " "wehe sanft, blicke mild, }
 
-    \line { " "wehe sanft, lass die Blätter sich entfalten! }
+    \line { " "wehe sanft, lass das Blatt sich entfalten! }
 
     \line { " "Lass das Blatt erzittern, öffne die Blüte,  }
 

@@ -27,7 +27,7 @@
     \line { "   " Mit der Sichel in der Hand und mit einem Lied begrüße den Tag.}
     \line { "   "Stehe auf, meine Tochter, }
     \line { "   "damit die Sonne dich nicht im Hause findet.}
-    \line { "   "Stehe, meine Tochter auf, }
+    \line { "   "Stehe auf, meine Tochter, }
     \line { "   "weil alle Mädchen und Jungen schon zum Acker aufgebrochen sind.}
     \line { " "}
 
