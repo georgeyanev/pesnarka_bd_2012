@@ -8,30 +8,33 @@
     \override #`(baseline-skip . ,deCoupletBaselineSkip)
     \column {
 
- \line { " "Die göttliche Sonne scheint heute, }
+  \line { " "Die göttliche Sonne scheint heute,  }
 
- \line { " "die göttliche Sonne scheint heute.}
+    \line { " "die göttliche Sonne scheint heute,  }
 
- \line { " "Wehe, Wind, wehe leise, }
+    \line { " "die göttliche Sonne scheint heute. }
 
- \line { " "wehe leise, schaue lieb,}
+    \line { " "Wehe, Wind, wehe sanft,  }
 
- \line { " "wehe leise, öffne die Blätter!}
+    \line { " "wehe sanft, blicke mild, }
 
- \line { " "Lasse die Blätter flattern, öffne die Blüten, }
+    \line { " "wehe sanft, lass das Blatt sich entfalten! }
 
- \line { " "öffne die Blüten, verteile die Früchte,}
+    \line { " "Lass das Blatt erzittern, öffne die Blüte,  }
 
- \line { " "öffne die Blüten, verteile die Früchte.}
+    \line { " "öffne die Blüte, verteile die Frucht, }
 
- \line { " "Hai di di di di, man soll gehen, }
- \line { " " um zu lernen, zu lernen, um zu erhalten,}
+    \line { " "öffne die Blüte, verteile die Frucht. }
 
- \line { " "zu erhalten, etwas zu lernen.}
+    \line { " "Auf, möge er gehen, }
 
- \line { " "Hai di di di di, man soll gehen, }
+    \line { " " auf, möge er lernen, möge er lernen, möge er erhalten, }
 
- \line { " "man soll gehen und das Gute sehen.}
+    \line { " "möge er erhalten, möge er lernen. }
+
+    \line { " "Auf, möge er gehen,  }
+
+    \line { " "damit es ihm wohl ergeht. }
 
   }
 }

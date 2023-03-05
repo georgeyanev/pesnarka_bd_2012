@@ -25,7 +25,7 @@
   
   \line { " "es ist frühaufstehend; es steht früh auf   }
 
-  \line { " "und geht mit den Krügen zu der Quelle,  }
+  \line { " "und geht mit den Krügen zur Quelle,  }
 
   \line { " "und schöpft Wasser.  }
 
