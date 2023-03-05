@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Marsch der lichtvollen Mächte" }
+\markup \fill-line { \fontsize #deTitleFontSize "Marsch der lichten Mächte" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
@@ -13,31 +13,31 @@
 
     \line { " "Sie steigen in weißen Reihen von den hohen Regionen herab. }
 
-    \line { " "Sie kommen auf die Erde in den herzen der Menschen. }
+    \line { " "Sie kommen auf die Erde in die Herzen der Menschen. }
 
-\line { " " }
+    \line { " " }
 
-    \line { " "Und es werden lichte neue Ideen, }
+    \line { " "Und es werden geboren lichte, neue Ideen, }
 
-    \line { " "    wie wir die schweren Ketten der sinnlosen Feindschaften ablegen}
+    \line { " "    wie wir die schweren Ketten sinnloser, jahrhundertealter Feindschaften ablegen}
     \line { " "und in Frieden leben.  }
 
-\line { " " }
+    \line { " " }
     \line {
-      " "Und möge jeder mit Freude auf dem göttlichen Acker arbeiten,
+      " "Und jeder wird mit Freude auf dem göttlichen Acker arbeiten,
     }
     \line { " "es wird ewige Jugend herrschen; niemad wird sterben. }
 
     \line { " "In Frieden und Liebe werden wir alle gemeinsam leben }
 
-    \line { " "    und werden Gott mit Liedern lobpreisen.  }
+    \line { " "    und Gott mit Liedern lobpreisen.  }
     \line { " " }
 
     \line { " "Neue Lieder werden wir singen von der kosmischen Harmonie, }
 
-    \line { " "Ein neues Leben werden wir leben; unser körper wird leuchten  }
+    \line { " "Ein neues Leben werden wir leben; unser Körper wird leuchten  }
 
-    \line { " "und am Ende werden wir in der Äther fliegen als Geister des Lichtes.  }
+    \line { " "und am Ende werden wir im Äther fliegen als Geister des Lichtes.  }
 
   }
 }

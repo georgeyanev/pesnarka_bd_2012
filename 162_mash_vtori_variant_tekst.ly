@@ -170,7 +170,7 @@
 
   \markup \dc-one "D. C. con repitione"
 
-  \markup \empty-three
+  \markup \empty-two
 
   % include foreign translation(s) of the song
   \include "lyrics_de/162_marsch_na_svetlite_sili_lyrics_de.ly"

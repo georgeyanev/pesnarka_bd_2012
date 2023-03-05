@@ -8,8 +8,6 @@
     \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
 
- \line { " "Der Frieden kommt }
-
  \line { " "Er kommt schon, er kommt, mit dem Palmzweigchen des Friedens. }
 
  \line { " "Er kommt von oben herab, er kommt herab, der gütige Bote. }
@@ -44,7 +42,7 @@
 
  \line { " "singen ihm Lieder vor Begeisterung, }
 
- \line { " "und die frischen Wasserstrahlen der Gebirgsquellen jauchzen. }
+ \line { " "und die frischen Wasserstrahlen der kleinen Gebirgsquellen jauchzen. }
 
  \line { " "Goldene Felder neigen ehrfurchtsvoll Weizenähren. }
 

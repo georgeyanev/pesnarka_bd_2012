@@ -9,7 +9,7 @@
     \include "include/score-layout.ily"
 
 
- \new Voice \relative c' {
+    \new Voice \relative c' {
       \clef treble
       \key d \major
       \time 2/4
@@ -22,7 +22,7 @@
 
       a8 g fis d | e [ ( fis ] e4 )  | d2 \bar "||" \time 4/4 \tuplet 3/2 { { g8 [ (   a8 ) ] b8 } } a4 a2 \break
 
-      \tuplet 3/2 {    { d,8 [( e8 )] } fis8 } e4 d2 |  \key g \major \time 2/4 
+      \tuplet 3/2 {    { d,8 [( e8 )] } fis8 } e4 d2 |  \key g \major \time 2/4
       \tempoFunc "Più mosso" 4 "184"
       g4. ( fis8 | e4 ) d4 | c4. e8 |  d4 c | \break
 
@@ -113,7 +113,7 @@
   } % score
 
   %\markup \dc-two "D.C." "con repitione"
-  
+
 
   % include foreign translation(s) of the song
 
