@@ -18,16 +18,16 @@
  \line { " " die Seele erfreut sich an der Welt, }
 
  \line { " " um der großen Liebe willen.}
+  \line { " "}
 
- \line { " " Singe Herz, }
-
- \line { " " vergiss das Leid}
+ \line { " " Singe Herz, vergiss das Leid}
 
  \line { " " und die menschlichen Stürme}
 
  \line { " " in dieser wunderbaren Stunde.}
 
  \line { " " Höre meine Stimme! }
+ \line { " "}
 
  \line { " " Das große Leben wird }
 
@@ -36,6 +36,7 @@
  \line { " " Stille Freude, neues Leben}
 
  \line { " " bringt dieser Sturm der Welt.}
+ \line { " "}
 
  \line { " " Neues Leben der Liebe}
 
