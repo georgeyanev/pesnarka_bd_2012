@@ -10,37 +10,43 @@
   \column {
 
 
-\line { " "Die reine Quelle sprudelt und singt}
+ \line { 1.  Die reine Quelle sprudelt und singt}
 
-\line { " "mit einem unschuldigen, munteren, hellen Blick,}
+\line {   "   "mit einem unschuldigen, munteren, hellen Blick,}
 
-\line { " "Im Schoss der Gebirge in der Morgenröte geboren,}
+\line {   "   "Im Schoss der Gebirge in der Morgenröte geboren,}
 
-\line { " "zitternde Freude, Munterkeit erklingt. }
+\line {   "   "zitternde Freude, Munterkeit erklingt. }
 
-\line { " "Klare Rinnsale singen, ihre Tropfen funkeln. (2) }
+\line {   "   "Klare Rinnsale singen, ihre Tropfen funkeln. }
 
-\line { " "Sie verbreitet Frische und Schönheit}
+\line {   "   "Klare Rinnsale singen, ihre Tropfen funkeln.  }
 
-\line { " "Sie flüstert über die Liebe. }
+\line {   "   "Sie verbreitet Frische und Schönheit}
 
-\line { " "Im Herzen des Menschen hallt das Lied wider.}
+ \line {   "   "Sie flüstert über die Liebe. }
 
-\line { " "Zarte Blumen blühen um ihr herum,}
+\line {   "   "Im Herzen des Menschen hallt das Lied wider.}
 
-\line { " "sie sprechen leise wunderbare Märchen.}
+\line { " "}
 
-\line { " "Spielerische Nymphen stricken Tänze,}
+\line { 2. Zarte Blumen blühen um ihr herum,}
 
-\line { " "auf einem taubedeckten Teppich schwingen Schritte. }
+\line {   "   "sie sprechen leise wunderbare Märchen.}
 
-\line { " "Nachts spiegeln sich die Sterne in der Quelle.}
+ \line {   "   "Spielerische Nymphen stricken Tänze,}
 
-\line { " "Und sie sprudelt und gibt unaufhörlich.}
+\line {   "   "auf einem taubedeckten Teppich schwingen Schritte. }
 
-\line { " "So gibt die Liebe. }
+\line {   "   "Nachts spiegeln sich die Sterne in der Quelle.}
 
-\line { " "In den Herzen der Menschen geht die Freude auf. (2)}
+\line {   "   "Und sie sprudelt und gibt unaufhörlich.}
+
+\line {   "   "So gibt die Liebe. }
+
+\line {   "   "In den Herzen der Menschen geht die Freude auf. }
+
+\line {   "   "In den Herzen der Menschen geht die Freude auf.}
   }
 }
 
