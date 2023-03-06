@@ -19,7 +19,8 @@
 
     \line { " "Und es werden geboren lichte, neue Ideen, }
 
-    \line { " "    wie wir die schweren Ketten sinnloser, jahrhundertealter Feindschaften ablegen}
+    \line { " "    wie wir die schweren Ketten }
+    \line { " "  sinnloser, jahrhundertealter Feindschaften ablegen}
     \line { " "und in Frieden leben.  }
 
     \line { " " }
