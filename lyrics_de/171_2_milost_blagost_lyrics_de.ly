@@ -13,6 +13,6 @@
 
 \line { " "flößte Er ein. }
 
-\line { " "Gnade, Güte flößte Er in mir ein.}
+\line { " "Gnade, Güte flößte Er mir ein.}
   }
 }

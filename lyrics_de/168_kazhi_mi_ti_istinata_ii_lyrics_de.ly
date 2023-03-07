@@ -14,10 +14,10 @@
 
     \line { " " Sage mir die Wahrheit, die aus der Liebe kommt}
 
-    \line { " "        und aus der Weisheit strahlt.}
+    \line { " " und aus der Weisheit strahlt.}
 
     \line { " "  Nur diese Wahrheit bringt  das ewige Leben }
-    \line { " "  und Freiheit für die Menschliche Seele.  }
+    \line { " "  und Freiheit für die menschliche Seele.  }
     \line { " " Ich werde auf diesem Weg der Wahrheit und des Lebens gehen}
     \line { " " oh, Herr, mein Gott. }
     \line { " "  }

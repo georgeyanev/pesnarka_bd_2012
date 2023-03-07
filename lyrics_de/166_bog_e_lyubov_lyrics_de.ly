@@ -9,7 +9,7 @@
   \column {
 
 
-    \line { " "  Gott ist Liebe, Gott ist Liebe, }
+    \line { " " Gott ist Liebe, Gott ist Liebe, }
 
     \line { " " Gott ist Liebe, Liebe,}
 
@@ -25,8 +25,9 @@
 
     \line { " " der Geist des vollen Friedens und der Freude für jede Seele.}
 
-    \line { " " Wir werden auf diesem Weg des Lichtes gehen, (3)  }
-    \line { " " in welchem die göttliche Liebe herrscht. (3)}
+    \line { " " Wir werden auf diesem Weg des Lichtes, des Liches, des Lichetes gehen,  }
+    
+    \line { " " in welchem herrscht die göttliche Liebe, die göttliche Liebe, die göttliche Liebe.}
 
 
 

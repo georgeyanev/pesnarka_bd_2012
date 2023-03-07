@@ -27,7 +27,7 @@
    \override #`(baseline-skip . ,deCoupletBaselineSkip)
     \column {
 
-\line { " "Heller, starker Glaube!}
+\line { " "Lichter, starker Glaube!}
 
 \line { " "Er stützt den Geist, }
 

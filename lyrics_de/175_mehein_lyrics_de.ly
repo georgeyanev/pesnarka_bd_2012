@@ -9,13 +9,12 @@
 
   \column {
 
- \line { 1. Ohne dich ist Finsternis, ohne dich ist Trauer. }
+ \line { 1. Ohne dich ist Finsternis, ohne dich ist Gram. }
 
  \line { "   " Oh, göttlicher Strahl, bescheine mich.}
 
- \line { "   " Füge in meinem Herzen Freude und Frieden. }
+ \line { "   " Trage in mein Herz Freude und Frieden. }
 
- \line { "   " Ich glaube, dass du über mich mit mütterlicher Liebe wachst. }
  \line { "   " }
 
  \line { 2. Ich erwache aus tiefem Schlaf}

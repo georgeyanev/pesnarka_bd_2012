@@ -11,7 +11,11 @@
 
     \line { " " Sage mir die Wahrheit, }
 
-\line { " " die Freiheit bringt für meine Seele}
+\line { " " die Freiheit bringt für meine Seele.}
+
+    \line { " " Sage mir die Wahrheit, }
+
+\line { " " die Freiheit bringt für meine Seele.}
 
   }
 }
