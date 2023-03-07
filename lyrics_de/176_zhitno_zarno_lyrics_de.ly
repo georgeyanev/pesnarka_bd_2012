@@ -9,7 +9,7 @@
 
   \column {
 
- \line { 1. Ich war ein Weizenkorn, das in der Erde vergraben war.}
+ \line { "   "Ich war ein Weizenkorn, das in der Erde vergraben war.}
 
  \line { "   "Im tiefen Schlummer kannte ich das Leben nicht.}
 
@@ -18,7 +18,7 @@
  \line { "   "und weckte mich mit seinem Ruf. }
  \line { " " }
 
- \line { 2. Vom Weizenkorn bin ich zum kleinen Vöglein geworden,}
+ \line { "   "Vom Weizenkorn bin ich zum kleinen Vöglein geworden,}
 
  \line { "   "damit ich in die Lüfte fliege. }
 

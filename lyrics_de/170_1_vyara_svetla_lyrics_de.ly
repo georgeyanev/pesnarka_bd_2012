@@ -10,11 +10,11 @@
 
 \column {
 
-  \line { " "Lichter, starker Glaube!}
+  \line { " "Lichter Glabe, starker Glaube!}
 
   \line { " "Er stützt den Geist, }
-
-  \line { " "der das Leben gebiert. (2)}
+   \line { " "er stützt den Geist, }
+  \line { " "der das Leben gebiert.}
 
   }
 }

@@ -16,9 +16,12 @@
 
   \line { "   " aber sieh schon:}
 
-  \line { "   " Ich laufe aufwärts, wo die Sonne funkelt. Ich werde das sehen,}
+  \line { "   " Ich laufe aufwärts, wo die Sonne funkelt. }
+  
+   \line { "   "Ich werde das sehen,}
 
-  \line { "   " was meine Seele liebt und wonach sie trachtet.}
+  \line { "   " was meine Seele liebt }
+   \line { "   "und wonach sie trachtet.}
   \line { "  " }
 
   \line { 2. So flüstert des Käferchen,}
@@ -45,6 +48,6 @@
 
   \line { "   " Schöpfung Gottes – }
 
-  \line { "   " sie ergießt Frieden und helle Freude in die Welt.}
+  \line { "   " sie ergießt Frieden und lichte Freude in die Welt.}
 }
 }

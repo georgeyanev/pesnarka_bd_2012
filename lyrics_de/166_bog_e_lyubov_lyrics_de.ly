@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Gott ist Liebe" }
+\markup \fill-line { \fontsize #deTitleFontSize "Gott ist Liebe II" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
@@ -15,9 +15,9 @@
 
     \line { " " ewige, grenzenlose Liebe, }
 
-    \line { " " voll mit Leben, }
+    \line { " " erfüllt mit Leben, }
 
-    \line { " " das Leben des gütigen Geist Gottes. }
+    \line { " " Leben des gütigen Geist Gottes. }
 
     \line { " " Der Geist der Güte, }
 
@@ -25,9 +25,10 @@
 
     \line { " " der Geist des vollen Friedens und der Freude für jede Seele.}
 
-    \line { " " Wir werden auf diesem Weg des Lichtes, des Liches, des Lichetes gehen,  }
+    \line { " " Wir werden auf diesem Weg des Lichtes,}
+    \line { " "  des Liches, des Lichetes gehen,  }
     
-    \line { " " in welchem herrscht die göttliche Liebe, die göttliche Liebe, die göttliche Liebe.}
+    \line { " " dort, wo  die göttliche Liebe herrscht.}
 
 
 

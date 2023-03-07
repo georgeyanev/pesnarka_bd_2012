@@ -9,10 +9,9 @@
 
   \column {
 
-\line { " "Gnade, Güte}
+\line { " "Gnade, Güte flößte Er mir ein. }
 
-\line { " "flößte Er ein. }
-
-\line { " "Gnade, Güte flößte Er mir ein.}
+\line { " "Gnade, Güte flößte Er mir ein, }
+\line { " "flößte Er mir ein, flößte Er mir ein.}
   }
 }

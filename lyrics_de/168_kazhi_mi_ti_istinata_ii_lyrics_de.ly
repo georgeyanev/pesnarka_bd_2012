@@ -12,7 +12,7 @@
 
     \line { " "die Freiheit bringt für meine Seele. }
 
-    \line { " " Sage mir die Wahrheit, die aus der Liebe kommt}
+    \line { " " Sage du mir die Wahrheit, die aus der Liebe kommt}
 
     \line { " " und aus der Weisheit strahlt.}
 

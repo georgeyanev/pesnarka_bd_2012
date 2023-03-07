@@ -7,11 +7,11 @@
     \hspace #21
     \override #'(baseline-skip . 1.9)
     \column {
-\line { " " Lichter, starker Glaube! }
+\line { " " Lichter Glaube, starker Glaube! }
 
 \line { " " Er stützt den Geist, }
 
-\line { " " der das Leben gebiert. (2)}
+\line { " " der das Leben gebiert.}
 
   }
 }

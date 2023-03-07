@@ -9,7 +9,7 @@
 
   \column {
 
-\line { " "Lichter, starker Glaube!}
+\line { " "Lichter Glaube, starker Glaube!}
 
 \line { " "Er führt uns zu Gott, }
 
@@ -17,7 +17,7 @@
 
 \line { " "zur Liebe Gottes,}
 
-\line { " "wo der Frieden herrscht }
+\line { " "wo der Frieden herrscht, }
 
 \line { " "und die Wahrheit ewig scheint.}
 \line { " " }
@@ -27,7 +27,7 @@
    \override #`(baseline-skip . ,deCoupletBaselineSkip)
     \column {
 
-\line { " "Lichter, starker Glaube!}
+\line { " "Lichter Glaube, starker Glaube!}
 
 \line { " "Er stützt den Geist, }
 

@@ -22,6 +22,7 @@
  \line { " " „Höre auf, Wind, höre auf Wind,}
 
  \line { " " freier Frühlingswind.}
+ \line { " "}
 
  \line { " " Hast du kein Mitleid mit uns?}
 
@@ -33,6 +34,8 @@
 
  \line { " " Unsere Rippen werden brechen.“}
 
+\line { " "}
+
  \line { " " „Hier seid ihr kleine Blättchen, }
 
  \line { " " ich hörte von ferne von euch}
@@ -40,6 +43,8 @@
  \line { " " und kam, euch zu sehen,}
 
  \line { " " mit euch zu spielen und euch zu umwehen.}
+
+ \line { " "}
 
  \line { " " Dann hört mein Lied:}
 
@@ -54,6 +59,8 @@
  \line { " " Damit kein Staub aufsteigt, ihr Blätter,}
 
  \line { " " bei diesen fröhlichen Spielen.}
+
+\line { " "}
 
  \line { " " Von oben wird die Sonne beginnen zu scheinen,}
 
