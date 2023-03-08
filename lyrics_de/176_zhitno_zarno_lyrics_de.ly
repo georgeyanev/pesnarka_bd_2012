@@ -7,11 +7,11 @@
   \hspace #8
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
+\column {
 
- \line { "   "Ich war ein Weizenkorn, das in der Erde vergraben war.}
+ \line { "   "Ich war ein Weizenkorn, vergraben in der Erde.}
 
- \line { "   "Im tiefen Schlummer kannte ich das Leben nicht.}
+ \line { "   "Im tiefen Schlaf kannte ich das Leben nicht.}
 
  \line { "   "Aber ein Sonnenstrahl kam, das Licht erreichte mich}
 
@@ -24,12 +24,12 @@
 
  \line { "   "Heute habe ich mich, gut gekleidet, zum ersten Mal}
 
- \line { "   "auf eine Weinrebe niedergelassen }
+ \line { "   "auf einem Rebstock niedergelassen }
 
  \line { "   "und zum ersten Mal von den süßen Weintrauben gekostet.}
  \line { " " }
 
- \line { "   "Wie schön ist das Leben…!, sagte ich mir dann. }
+ \line { "   "Wie schön ist das Leben, sagte ich mir dann. }
 
 
   }

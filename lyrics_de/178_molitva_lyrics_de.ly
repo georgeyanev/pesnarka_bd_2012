@@ -17,7 +17,7 @@
 
     \line { " "die ich in die Welt bringe. }
 
-    \line { " "Herr, Herr, Herr, möge deine Barmherzigkeit kommen,}
+    \line { " "Herr, Herr, Herr, Deine Barmherzigkeit komme,}
 
     \line { " "über mich, über mich.}
 

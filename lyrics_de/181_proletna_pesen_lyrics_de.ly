@@ -10,19 +10,19 @@
   \column {
  \line { " "Nun kommt der wundervolle Frühling; }
 
- \line { " "die Sonne geht auf, }
+ \line { " "die Sonne geht auf. }
 
- \line { " "alles erwacht, gedeiht, lebt, }
+ \line { " "Alles erwacht, gedeiht, lebt, }
 
- \line { " "und freut sich und dankt dem Herrn.}
+ \line { " "und freut sich und dankt Gott.}
 
  \line { " "Der Frühling, der Frühling ist da!}
 
- \line { " "Ein kleiner Vogel am Himmel zwitschert süß, }
+ \line { " "Ein Vögelein am Himmel zwitschert süß, }
 
- \line { " "die Sonne überströmt freundlich die ganze Welt mit Freude und Liebe.}
+ \line { " "die Sonne übergießt freundlich die ganze Welt mit Freude und Liebe.}
 
- \line { " "Die gesamte Schöpfung frohlockt und dankt dem Herrn! }
+ \line { " "Die ganze Welt frohlockt und dankt Gott! }
 
  \line { " "Der Frühling, der Frühling ist da!}
 

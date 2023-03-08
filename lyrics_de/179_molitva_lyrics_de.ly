@@ -8,19 +8,19 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { 1. Herr, du bist alles für mich,}
+    \line { 1. Herr, Du bist alles für mich,}
 
-    \line { "   "hier unten – so viel Trauer,}
+    \line { "   "hier unten – so viel Leid,}
 
     \line { "   "alles ist so öde ohne Dich}
 
     \line { "   "und nur Du verleihst ihm Bedeutung.}
 
     \line { "   "Einzig Du liebst mich,}
-
+ 
     \line { "   "ich weiß, nur Du.}
 
-    \line { "   "Ich liebe dich. }
+    \line { "   "Ich liebe Dich. }
 
     \line { " " }
 
@@ -28,9 +28,9 @@
 
     \line { "   "alles Lebendige zu lieben,}
 
-    \line { "   "das, was du geschaffen hast,}
+    \line { "   "das, was Du erschaffen hast,}
 
-    \line { "   "und dass ich überall deine Zartheit,}
+    \line { "   "und dass ich überall Deine Zärtlichkeit,}
 
     \line { "   "Freude und Liebe verbreite.}
 

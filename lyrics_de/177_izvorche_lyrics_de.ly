@@ -11,17 +11,17 @@
   
  \line { " "Dort oben, hoch im Gebirge,}
 
- \line { " "entspringt eine schöne Quelle;}
+ \line { " "entspringt ein schönes Quellchen;}
 
- \line { " "sie singt leise und gießt ihr Herz aus:}
+ \line { " "es singt leise und gießt sein Herz aus:}
 
- \line { " "Es gibt keine andere kleine, }
+ \line { " "Es gibt kein anderes kleines, }
 
- \line { " "so schöne Quelle wie mich, }
+ \line { " "so schönes Quellchen wie mich. }
 
  \line { " "Aus meinen Tiefen }
 
- \line { " "entspringt ein reines und belebendes Wasser.}
+ \line { " "entspringt reines und belebendes Wasser.}
 
  \line { " "Wer von meinem Wasser trinkt, }
 
