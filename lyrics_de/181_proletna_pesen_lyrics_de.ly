@@ -8,23 +8,23 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
- \line { " "Nun kommt der wundervolle Frühling; }
+ \line { " " Nun kommt der wundervolle Frühling; }
 
- \line { " "die Sonne geht auf. }
+ \line { " " die Sonne geht auf. }
 
- \line { " "Alles erwacht, gedeiht, lebt, }
+ \line { " " Alles erwacht, gedeiht, lebt, }
 
- \line { " "und freut sich und dankt Gott.}
+ \line { " " und freut sich und dankt Gott.}
 
- \line { " "Der Frühling, der Frühling ist da!}
+ \line { " " Der Frühling, der Frühling ist da!}
 
- \line { " "Ein Vögelein am Himmel zwitschert süß, }
+ \line { " " Ein Vögelein am Himmel zwitschert süß, }
 
- \line { " "die Sonne übergießt freundlich die ganze Welt mit Freude und Liebe.}
+ \line { " " die Sonne übergießt freundlich die ganze Welt mit Freude und Liebe.}
 
- \line { " "Die ganze Welt frohlockt und dankt Gott! }
+ \line { " " Die ganze Welt frohlockt und dankt Gott! }
 
- \line { " "Der Frühling, der Frühling ist da!}
+ \line { " " Der Frühling, der Frühling ist da!}
 
   }
 }
