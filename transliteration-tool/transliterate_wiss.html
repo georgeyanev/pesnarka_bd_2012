@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Transliterates cyrillic to latin using the streamlined convention</title>
+    <script type="text/javascript" src="translitbg_new.js"></script>        
+    <script>
+      function transliterate() {
+        document.getElementById("textLat").value = translitbg.go(document.getElementById("textCyr").value);
+      }
+    </script>
+</head>
+<body>
+
+Cyrillic text:<br>
+<textarea id="textCyr" rows="20" cols="100" > </textarea>
+<p></p>
+<button type="button" onclick="transliterate()">Convert</button>
+<p></p>
+Latin text:<br>
+<textarea id="textLat" rows="20" cols="100" > </textarea>
+
+</body>
+</html>
