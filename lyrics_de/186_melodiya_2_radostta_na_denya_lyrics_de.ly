@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Melodie – Erhabenes Leben" }
+\markup \fill-line { \fontsize #deTitleFontSize "Melodie – In der Freude des Tages" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
@@ -15,7 +15,7 @@
 
  \line { "   "der Himmel freut sich im Licht.}
 
- \line { "   "Das Korn, im Fruchtacker gesät,}
+ \line { "   "Das Korn, in den fruchbaren Acker gesät,}
 
  \line { "   "gedeiht heilig in der Liebe. }
 
@@ -28,32 +28,32 @@
 
  \line \italic { "   "Refrain:}
 
- \line { "   "Nun ist der Tag schön und heilig,}
+ \line { "   "Nun leuchtet der Tag schön und heilig,}
 
  \line { "   "und die Liebe ist ein lebendiger Segen.}
 
- \line { "   "Scheine, verstreue Freude, Frieden und Liebe,}
+ \line { "   "Leuchte, verbreite Freude, Frieden und Liebe,}
 
- \line { "   "heiliger göttlicher Tag. }
+ \line { "   "heiliger, göttlicher Tag. }
 
- \line { "   "Allgütiger, allweiser Gottvater}
+ \line { "   "Allgütiger, allweiser Gottvater,}
 
- \line { "   "lass Deine Gnade in den Seelen wachsen.}
+ \line { "   "möge Er seine Gnade in den Seelen mehren.}
 
- \line { "   "Auf dass die Freude auf ewig ist,}
+ \line { "   "Auf dass die Freude ewig währe,}
 
- \line { "   "auf dass die Güte auf ewig ist}
+ \line { "   "auf dass die Güte ewig währe}
 
  \line { "   "im neuen seligen Leben.}
 
- \line { "   "Möge der göttliche Wille heilig in diesem  }
+ \line { "   "Möge der göttliche Wille an diesem }
 
- \line { "   "gesegneten Tag auf ewig sein.}
+ \line { "   "gesegneten Tag auf ewig heilig sein.}
  \line { " "}
 
- \line { 2. Der Schwarm aus der Sonne segnet und scheint,}
+ \line { 2. Der Schwarm aus der Sonne segnet und sprüht,}
 
- \line { "   "damit der göttliche Ruhm das heilige Leben bescheint. }
+ \line { "   "damit der göttliche Ruhm das heilige Leben erleuchtet. }
 
  \line { "   "Die ganze Welt ist Licht und das Licht}
 
@@ -64,7 +64,7 @@
 
 \line \italic {"   " Refrain ...}
 
- \line { "   "Nun scheint der Tag...}
+ \line { "   "Nun leuchtet der Tag...}
 
  }
 }

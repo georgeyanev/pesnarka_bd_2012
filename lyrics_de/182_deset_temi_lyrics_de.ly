@@ -10,8 +10,8 @@
   \column {
     \line { " " }
 
-     \line { " Ich wahre die Wärme." }
-     \line { " Ich wahre die Wärme." }
+     \line { " Ich werde die Wärme bewahren." }
+     \line { " Ich werde die Wärme bewahren." }
 
   }
 }

@@ -16,7 +16,7 @@
 
     \line { " "Aus den Quellen des Lebens}
 
-    \line { " "strömt reichlich die Freude. }
+    \line { " "strömt in Fülle die Freude. }
 
     \line { " "Und in dieser feierlichen Morgenstunde}
 
@@ -34,13 +34,13 @@
 
     \line { " "er bewegt und inspiriert uns}
 
-    \line { " "zu einem hellen und schönen Leben.}
+    \line { " "zu einem lichten und schönen Leben.}
 
-    \line { " "Er wird nach den Stürmen, nach den Kämpfen kommen.}
+    \line { " "Er wird kommen, nach den Stürmen, nach den Kämpfen.}
 
     \line { " "Frieden wird die Erde überfluten.}
 
-    \line { " "Eine mächtige Kraft ist das Gute, }
+    \line { " "Mächtige Kraft ist das Gute, }
 
     \line { " "wir glauben –  es wird siegen. }
 

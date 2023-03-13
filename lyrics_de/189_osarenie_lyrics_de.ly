@@ -24,16 +24,16 @@
 
     \line {   "   " und die Seelen lobpreisen im Licht }
 
-    \line {   "   " der gütige Vater der Liebe. }
+    \line {   "   " den gütigen Vater der Liebe. }
     \line {   "   " }
 
     \line {3. Alles ist Liebe, }
 
     \line {   "   " Freude, Kraft und Leben. }
 
-    \line {   "   " Ihr göttliches Licht }
+    \line {   "   " Heiges, göttliches Licht [videlina] }
 
-    \line {   "   " bescheint diese Schönheit. }
+    \line {   "   " erleuchtet diese Schönheit. }
 
   }
 }
