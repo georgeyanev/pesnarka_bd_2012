@@ -4,7 +4,33 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \include "include/bookpart-paper.ily"
+    \paper {
+    print-all-headers = ##f
+    print-page-number = ##f
+    print-first-page-number = ##f
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+  
+  }
  
  \markup\fontsize  #+8.5  {\bold {  \hspace #10  \vspace #13.5  } }
 
