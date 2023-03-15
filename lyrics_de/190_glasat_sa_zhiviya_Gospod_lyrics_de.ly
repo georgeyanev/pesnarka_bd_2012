@@ -28,7 +28,7 @@
 
  \line { " "Ich bin voll mit Überfluss}
 
- \line { " "und ich bin unerschöpflich - }
+ \line { " "und ich bin unerschöpflich   –  }
 
  \line { " " was ich für all jene aufbewahre,}
 

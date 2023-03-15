@@ -13,16 +13,12 @@
 
     \line { " "Und Gott sprach: Es sammle sich das Wasser}
     \line { " "unter dem Himmel. Und es geschah so.}
-    \line { " " }
     \line { " "Und es erschien das Trockene. Und Gott nannte es Erde.} 
     \line { " " und die Sammlung der Wasser nannte er Meer.}
-    \line { " " }
     \line { " "Und Gott sprach, und es wuchs fisches Gras,}
     \line { " "das Samen bringt, ein jedes nach}
     \line { " "seiner Art, und Bäume, die da Früchte tragen, ein}
     \line { " "jeder nach seiner Art. Und Gott sah, dass alles gut war.}
-
-    \line { " " }
     \line { " " Da ward Abend und es ward Morgen, der dritte Tag.}
 
 

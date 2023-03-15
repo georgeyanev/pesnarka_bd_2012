@@ -55,7 +55,7 @@
         ta razh -- da. Vya -- ra razh -- da.}
 
         \header {
-          title = \titleFunc "Вяра светла" "Vyara svetla"
+          title = \titleFunc "Вяра светла I" "Vyara svetla I"
         }
 
         \midi{}

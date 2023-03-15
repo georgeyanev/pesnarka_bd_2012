@@ -25,15 +25,16 @@
 
     left-margin = 1.5\cm
     right-margin = 1.5\cm
-    top-margin = 1.6\cm
+    top-margin = 2.6\cm
     bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
 
   
   }
+   
 
-    \markup {    \vspace #3.8
-      \general-align #Y #DOWN {
+    \markup {   
+      \general-align #Y #DOWN { 
         \epsfile #X #67 #"./img/danov.eps"
       }
     }

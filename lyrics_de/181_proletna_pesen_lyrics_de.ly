@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
-  \hspace #5
+  \hspace #14
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -20,7 +20,8 @@
 
  \line { " " Ein Vögelein am Himmel zwitschert süß, }
 
- \line { " " die Sonne übergießt freundlich die ganze Welt mit Freude und Liebe.}
+ \line { " " die Sonne übergießt freundlich }
+ \line { " "die ganze Welt mit Freude und Liebe.}
 
  \line { " " Die ganze Welt frohlockt und dankt Gott! }
 

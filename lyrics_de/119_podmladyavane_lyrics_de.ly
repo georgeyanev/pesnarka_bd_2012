@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Ich werde mich verjüngen" }
+\markup \fill-line { \fontsize #deTitleFontSize "Verjüngen" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {

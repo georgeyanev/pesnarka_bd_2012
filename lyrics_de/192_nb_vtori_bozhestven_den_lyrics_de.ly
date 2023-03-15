@@ -12,9 +12,7 @@
 
     \line { " " }
 
-  \line { " "Und Gott sprach: Es werde Weite zwischen}
-  \line { " "den Wassern.}
-
+  \line { " "Und Gott sprach: Es werde Weite zwischenden Wassern.}
   \line { " " Und da machte Gott die Weite und schied Gott das Wasser}
   \line { " "über der Weite von dem Wasser unter der Weite.}
   \line { " "Und es geschah so.}

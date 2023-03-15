@@ -15,7 +15,7 @@
 
  \line { " "es singt leise und gießt sein Herz aus:}
 
- \line { " "Es gibt kein anderes kleines, }
+ \line { " "„Es gibt kein anderes kleines, }
 
  \line { " "so schönes Quellchen wie mich. }
 
@@ -29,6 +29,6 @@
 
  \line { " "er umarmt die Lehre }
 
- \line { " "und macht sich an die Arbeit.}
+ \line { " "und macht sich an die Arbeit.“}
   }
 }

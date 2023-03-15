@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Lichter Glaube" }
+\markup \fill-line { \fontsize #deTitleFontSize "Lichter Glaube I" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
