@@ -4,12 +4,12 @@
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
-  \hspace #7
+  \hspace #27
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
 
-  Text in Vatan
+  \line { " " Text in Vatan.}
 
   }
 }
