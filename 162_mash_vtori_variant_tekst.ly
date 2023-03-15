@@ -25,9 +25,9 @@
 
       \key d \minor  g4^\mf  d'4 (d4) d16 c bes a | g8 bes g bes |\break
 
-      g bes c16 bes a g |  f8 a f a | f a bes16 a g f | e8 a e a | e a d,16 e f e | d8 d4 d8 | \bar "||" \break
+      g bes c16 bes a g |  f8 a f a | f a bes16 a g f | e8 a e a | e a d,16 e f e | d8 d4 d8 | \break
 
-      \repeat volta 2 {
+      \bar ".|:" \repeat volta 2 {
 
         \time 5/4 a'8-_^\mf  a4-_ a8-_ (a8-_) a f'8-_ \acciaccatura { e8 ( [f8] } e8-_] ) d-_ bes-_ |
 
@@ -123,7 +123,7 @@
 
       " " " " " " " " " " " " " " " " " "    " " " " " " " " " " " " " " " " " " " " " " " " " " " "
 
-      "2.  Но"   -- ви пе -- сни ще за -- пе -- ем, за хар -- мо -- ни -- я все -- мир -- на.
+      "2.  Но"   -- ви пе -- сни ще за -- пе -- ем, за хар -- мо -- ни -- я "все-" -- "мир-" -- на.
 
       Нов жи -- вот ще за -- жи -- ве -- ем, тя -- ло -- то ни ще про -- свет -- не
 
