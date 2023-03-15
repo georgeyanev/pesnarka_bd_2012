@@ -12,15 +12,15 @@
 
     \line { " " }
 
-  \line { " "Und Gott sprach: Es werde eine Feste zwischen}
-  \line { " "den Wassern, die da scheide zwischen den Wassern.}
+  \line { " "Und Gott sprach: Es werde Weite zwischen}
+  \line { " "den Wassern.}
 
-  \line { " " Da machte Gott die Feste und schied das Wasser}
-  \line { " "unter der Feste von dem Wasser über der Feste.}
+  \line { " " Und da machte Gott die Weite und schied Gott das Wasser}
+  \line { " "über der Weite von dem Wasser unter der Weite.}
   \line { " "Und es geschah so.}
 
-  \line { " "Und Gott nannte die Feste Himmel. Da ward aus}
-  \line { " "Abend und Morgen der zweite Tag.}
+  \line { " "Und Gott nannte die Weite Himmel. Und es ward Abend und }
+  \line { " "ward Morgen, der zweite Tag.}
 
   }
 }

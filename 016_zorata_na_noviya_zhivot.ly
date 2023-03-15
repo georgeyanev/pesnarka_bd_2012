@@ -15,7 +15,7 @@
       \tempoFunc "Moderato" 8 "160"
       \partial 8
       \autoBeamOff
-      c'8 |e'4 g'8|c''4 g'8 |a'4 g'8 |c''4.| g'4. ~ | g'4 g'8 |\break
+      c'8 |e'4 g'8|c''4 g'8 |a'4 g'8 |c''4.| g'4. ~ |  g'4    g'8 |\break
       c''4 c''8| \once \autoBeamOn c''8 ([  b'8  ])  \noBeam  c''8 |d''4 b'8  |c''4. ( | c''4 ) a'8| a'4 a'8| \break
       d''4  c''8| b'4 a'8| a'4. | g'4. ( |g'4 ) g'8 | a'4 g'8 | g'4 f'8 | \break
       e'4 d'8| c'4. ( | c'4. ) | \bar "||"
@@ -39,18 +39,18 @@
     }
 
     \addlyrics {
-     "1. Zo" -- ra se čud -- na za -- zo -- rja -- va, zo --
-      ra na sve -- tăl nov ži -- vot; s~ve -- li -- ko --
-      le -- pi -- e o -- grja -- va po -- spre -- li -- ja se
-      naš ki -- vot. V~no -- vi -- ja sve -- tăl toz ži -- vot, __
-      v~no -- vi -- ja sve -- tăl toz ži -- vot, ži -- vot na
-      Lju -- bov -- ta.  v~no -- vi -- ja sve -- tăl toz ži -- vot, __
-      ži -- vot na Bla -- gost -- ta, v~no -- vi -- ja sve -- tăl
-      toz ži -- vot, ži -- vot na Ra -- dost -- ta.
+      "1. Zo" -- ra se chud -- na za -- zo -- rya -- va, zo --
+      ra na sve -- tal nov zhi -- vot; s~ve -- li -- ko --
+      le -- pi -- e o -- grya -- va po -- spre -- li -- ya se
+      nash ki -- vot. V~no -- vi -- ya sve -- tal toz zhi -- vot, __
+      v~no -- vi -- ya sve -- tal toz zhi -- vot, zhi -- vot na
+      Lyu -- bov -- ta.  v~no -- vi -- ya sve -- tal toz zhi -- vot, __
+      zhi -- vot na Bla -- gost -- ta, v~no -- vi -- ya sve -- tal
+      toz zhi -- vot, zhi -- vot na Ra -- dost -- ta.
     }
 
     \header {
-      title = \titleFunc "Зората на Новия живот" "Zorata na Novia život"
+      title = \titleFunc "Зората на Новия живот" "Zorata na Noviya zhivot"
     }
 
     \midi{}
@@ -59,13 +59,13 @@
   \pageBreak
 
   \markup \fontsize #+1.7 {
-    \hspace #3
+    \hspace #5
     \override #'(baseline-skip . 1.8)
     \column {
       \line { 2. И птички въздуха изпълнят }
       \line {   "   " с възторг и сладки песни в хор, }
-      \line {   "   " хармонията да допълнят }
-      \line {   "   " в големия небесен двор.}
+      \line {   "   " Хармонията да допълнят }
+      \line {   "   " В големия небесен двор.}
 
       \line { " " }
       \line { "   " \italic {Припев: } }
@@ -88,8 +88,8 @@
 
       \line { 4. Лъчи от любовта ни вливат }
       \line {   "   " В гърдите жива топлина, }
-      \line {   "   " със сладка вяра ни повдигат }
-      \line {   "   " във крепост и виделина. }
+      \line {   "   " Със сладка вяра ни повдигат }
+      \line {   "   " Във крепост и виделина. }
 
       \line { " " }
       \line { "   " \italic {Припев ...} }
@@ -106,44 +106,45 @@
 
     \hspace #5
     \override #'(baseline-skip . 1.8)
-     \column {
-      \line { 2. I ptički văzduha izpălnjat }
-      \line {   "   " s văztorg i sladki pesni v hor, }
-      \line {   "   " harmonijata da dopălnjat }
-      \line {   "   " v golemia nebesen dvor.}
+    \column {
+      \line { 2. I ptichki vazduha izpalnyat }
+      \line {   "   " s vaztorg i sladki pesni v hor, }
+      \line {   "   " Harmoniyata da dopalnyat }
+      \line {   "   " V golemia nebesen dvor.}
 
       \line { " " }
       \line { "   " \italic {Pripev: } }
-      \line {  "   " V novia svetăl toz život, (2) }
-      \line { "   " Život na ljubovta, }
-      \line {  "   " V novia svetăl toz život,}
-      \line { "   " Život na blagostta, }
-      \line { "   "  V novia svetăl toz život,}
-      \line {  "   " Život na radostta.}
+      \line {  "   " V novia svetal toz zhivot, (2) }
+
+      \line { "   " Zhivot na lyubovta, }
+      \line {  "   " V novia svetal toz zhivot,}
+      \line { "   " Zhivot na blagostta, }
+      \line { "   "  V novia svetal toz zhivot,}
+      \line {  "   " Zhivot na radostta.}
       \line { " " }
 
       \line { 3. Trepti zorata lekokrila  }
-      \line {   "   " i budi našite duši; }
-      \line {   "   " kato ljubjašta majka mila}
+      \line {   "   " i budi nashite dushi; }
+      \line {   "   " kato lyubyashta mayka mila}
       \line {   "   " podkanva vsekigo: „Stani!“}
 
       \line { " " }
       \line { "   " \italic {Pripev ...} }
       \line { " " }
 
-      \line { 4. Lăči ot ljubovta ni vlivat }
-      \line {   "   " V gărdite živa toplina, }
-      \line {   "   " săs sladka vjara ni povdigat }
-      \line {   "   " văv krepost i videlina. }
+      \line { 4. Lachi ot lyubovta ni vlivat }
+      \line {   "   " V gardite zhiva toplina, }
+      \line {   "   " Sas sladka vyara ni povdigat }
+      \line {   "   " Vav krepost i videlina. }
 
       \line { " " }
       \line { "   " \italic {Pripev ...} }
       \line { " " }
 
-      \line { 5.  O tezi lăči ot Boga idat, }
-      \line {   "   " Te pălnjat našite sărca, }
-      \line {   "   " I šepnat sladko, kak Toj vika: }
-      \line {   "   " „Elate, moite deca!“ }
+      \line { 5.  O tezi lachi ot Boga idat, }
+      \line {   "   " Te palnyat nashite sartsa, }
+      \line {   "   " I shepnat sladko, kak Toy vika: }
+      \line {   "   " „Elate, moite detsa!“ }
       \line { " " }
       \line { "   " \italic {Pripev ...} }
       \line { " " }
