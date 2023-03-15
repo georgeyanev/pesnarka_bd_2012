@@ -65,10 +65,11 @@
 
 
     \header {
-      title = \titleFunc "Вътрешният глас на Бога – медитация " "Vatreshniyat glas na Boga – meditazia"
-       
-       
+      title = \titleFunc "Вътрешният глас на Бога – медитация " "Vatreshniyat glas na Boga – meditazia"       
+      
     }
+
+    
 
    
 
@@ -79,7 +80,7 @@
   \markup \dc-one "D. C."
 
   % include foreign translation(s) of the song
-  %\include "lyrics_de/000_empty_template_lyrics_de.ly"
+  \include "lyrics_de/200_vatreshniya_glas_na_boga_lyrics_de.ly"
 
 } % bookpart
 

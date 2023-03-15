@@ -81,8 +81,7 @@
       } % score
 
       % include foreign translation(s) of the song
-      %\include "lyrics_de/000_empty_template_lyrics_de.ly"
-
+      \include "lyrics_de/201_edna_vechna_istina_lyrics_de.ly"
     } % bookpart
 
     % Più mosso
