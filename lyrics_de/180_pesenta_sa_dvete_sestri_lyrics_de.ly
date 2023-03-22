@@ -9,7 +9,7 @@
 
   \column {
 
-    \line { " "Ich trage in meinem Leben das Leid mit Freude - }
+    \line { " "Ich trage in meinem Leben das Leid mit Freude – }
 
     \line { " "es ist meine gute Freundin, die mich so gut lehrt. }
 

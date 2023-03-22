@@ -19,9 +19,9 @@
 
  \line { " "so schönes Quellchen wie mich. }
 
- \line { " "Aus meinen Tiefen }
+ \line { " "Aus meinen Tiefen entspringt}
 
- \line { " "entspringt reines und belebendes Wasser.}
+ \line { " "reines und belebendes Wasser.}
 
  \line { " "Wer von meinem Wasser trinkt, }
 
