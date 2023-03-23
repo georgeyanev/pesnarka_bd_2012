@@ -19,12 +19,12 @@
       \partial 4
 
       \repeat volta 2 {
-        g4 | c2 d4 | es2 c 4 |  g2 g'4 | g2 c8 c8 | c2 b4 |\break  c2 as4 | 
+        g4 | c2 d4 | es2 c 4 |  g2 g'4 | g2 c8 c8 | c2 b4 |\break  c2 as4 |
 
 
         g2 fis4 |g2 f4 | es2 d4 |  es2 d4 | c2 b4 | c2 es4 | g2 f4 | \break
 
-        es2 d4 | c2 d8 d | f2 es4 | d2 c4 | es2 d4 | \tempo "          Fine" c2. 
+        es2 d4 | c2 d8 d | f2 es4 | d2 c4 | es2 d4 | \tempo "          Fine" c2.
       }
 
     }
@@ -36,28 +36,28 @@
       ше -- ла, ше -- ла, ше -- ла,
       Би -- ла -- дер А -- дер Бе -- ну ше -- ла.
     }
-      
+
     \addlyrics {
-        Ma -- har Be -- nu A -- ba, Ve -- yut
-        Bi -- la -- der A -- der Be -- nu she -- la,
-        Be -- nu she -- la, Be -- nu she -- la,
-        she -- la, she -- la, she -- la,
-        Bi -- la -- der A -- der Be -- nu she -- la.
+      Ma -- har Be -- nu A -- ba, Ve -- yut
+      Bi -- la -- der A -- der Be -- nu she -- la,
+      Be -- nu she -- la, Be -- nu she -- la,
+      she -- la, she -- la, she -- la,
+      Bi -- la -- der A -- der Be -- nu she -- la.
     }
 
     \header {
-       title = \titleFunc "Махар Бену Аба" "Mahar Benu Aba"
+      title = \titleFunc "Махар Бену Аба" "Mahar Benu Aba"
     }
 
     \midi{}
 
   } % score
-  
+
   \markup \italic \dc-one-nobold "attacca „В мрак тъмнота“/„V mrak tamnota“"
-  
-  
+
+
   \score {
-      \include "include/score-layout.ily"
+    \include "include/score-layout.ily"
 
 
     \new Voice \absolute {
@@ -70,12 +70,12 @@
 
       g4  | c'2 b8 c' | d'2 g4 | es'2 d'4 | \break c'2 ( d'16 c' b c'  |
 
-      d'2 ) c'4 | c'2 f'4 | f'2 es'8 d' | es'2 f'4 |\break g'2 as'4 
+      d'2 ) c'4 | c'2 f'4 | f'2 es'8 d' | es'2 f'4 |\break g'2 as'4
 
       g'2 fis'4 | g'2 as'4 | g'2 f'4 \pageBreak | \autoBeamOff \repeat volta 2 {
         f'2 es'8 d' |  es'2 f'4
 
-        g'2 as'4 \break  | g'2 f'4 | es'2 d'4 
+        g'2 as'4 \break  | g'2 f'4 | es'2 d'4
       }  \alternative { { c'2 f'4 } {  c'2. } } \bar "||"  \break  |
 
       c'2 d'4 |  es'2. |  d'2 c'4 | c'2. | b2 b4 | c'2. | \bar "|."
@@ -103,11 +103,11 @@
 
     }
 
-   \markup \dc-two "D.C. al Fine „Mahar Benu Aba“" "senza ripetizione"
-    
+    \markup \dc-two "D.C. al Fine „Mahar Benu Aba“" "senza ripetizione"
 
+    \markup \empty-two
 
     % include foreign translation(s) of the song
     \include "lyrics_de/080_2_v_mrak_tamnota_lyrics_de.ly"
 
-    } % bookpart
+  } % bookpart

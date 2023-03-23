@@ -92,7 +92,7 @@ cat \
     ../103_krasiv_e_zhivotat.ly \
     ../106_pesen_na_zorata.ly \
     ../107_pri_vsichkite_uslovija.ly \
-    ../104_himn_na_velinata_dusha_new.ly \
+    ../104_himn_na_velinata_dusha.ly \
     ../108_az_moga_da_kazha.ly \
     ../109_az_smeya_da_kaza.ly \
     ../110_1_da_imash_vyara.ly \
@@ -133,7 +133,7 @@ cat \
     ../156_mirat_ide.ly \
     ../158_mirat_ide_II.ly \
     ../161_duhai_vetre_II.ly \
-     ../167_2_kazhi_mi_svetal_bozhii_lach.ly \
+    ../167_2_kazhi_mi_svetal_bozhii_lach.ly \
     ../162_marsh_na_svetlite_sili.ly \
     ../162_mash_vtori_variant_tekst.ly \
     ../163_berhan_azi.ly \

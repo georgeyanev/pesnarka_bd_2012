@@ -12,28 +12,26 @@
 
 \line { " "Am Anfang schuf Gott Himmel und Erde.}
 
-\line { " "Und die Erde war wüst und leer, }
+\line { " "Und die Erde war wüst und ungeornet. }
 
-\line { " "es war keine Ordnung auf ihr. }
+\line { " "Es war keine Ordnung auf ihr. }
 
-\line { " "Und es war finster auf der Tiefe;}
+\line { " " und Finsternis war über der Tiefe }
 
-\line { " "und der Geist Gottes schwebte über dem Wasser
+\line { " "und der Geist Gottes schwebte über den Wassern
 des Lebens.}
 
-\line { " "Und Gott sprach: Es entspringe Videlina, }
+\line { " "Und Gott sprach: Es komme das schöne Licht [videlina]! }
 
-\line { " "das schöne geistige Licht! }
+\line { " "Und es manifestierte sich in seinem Licht [svetlina].}
 
-\line { " "Und es manifestierte sich in seinem Licht.}
+\line { " "Und Gott sah, dass dieses gut war.}
 
-\line { " "Und Gott sah, dass das Licht gut war.}
+\line { " "Da schied Gott das Licht [svetlina] von der Finsternis.}
 
-\line { " "Da schied Gott das Licht von der Finsternis}
+\line { " "Und Gott nannte das Licht [svetlina] Tag und die Finsternis Nacht.}
 
-\line { " "und nannte das Licht Tag und die Finsternis Nacht.}
-
-\line { " "Da ward aus Abend und Morgen der erste Tag.}
+\line { " "Es ward Abend und es ward Morgen, der erste Tag.}
 
   }
 }

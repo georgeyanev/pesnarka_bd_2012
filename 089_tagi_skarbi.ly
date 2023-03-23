@@ -73,7 +73,7 @@
     }
 
     \header {
-      title = \titleFunc "Тъги скърби" "Tagi skarbi"
+      title = \titleFunc "Тъги, скърби" "Tagi, skarbi"
     }
 
     \midi{}

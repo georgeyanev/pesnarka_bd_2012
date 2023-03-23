@@ -9,7 +9,7 @@
   \column {
     \line {1. Ich bin das weiße Schneeglöckchen}
 
-    \line { "   "inmitten der Gräsern des Waldes,}
+    \line { "   "inmitten der Gräser des Waldes,}
 
     \line { "   "schüchtern wie ein junges Mädchen }
 
@@ -21,11 +21,11 @@
 
     \line { "     "Alles Lebendige wundert sich, }
 
-    \line { "     "dass ich eine Frühblüher bin.}
+    \line { "     "dass ich eine frühe Blume bin.}
 
     \line { "   " }
 
-    \line { 2. Ich zeige euch eine neue Freude}
+    \line { 2. Neue Freude zeige ich euch}
 
     \line { "   "mit einem früh erwachten Glöckchen,}
 
@@ -46,15 +46,15 @@
 
     \line { "   "auf grünen Weiden, }
 
-    \line { "   "die Bauer werden }
+    \line { "   "die Bauern werden }
 
-    \line { "   "die gedüngten Feldern säen.}
+    \line { "   "die gedüngten Felder säen.}
 
     \line { "     "Goldene Ähren werden reifen,}
 
     \line { "     "auf diesen wunderbaren Feldern.}
 
-    \line { "     "Die Engel werden Gott loben }
+    \line { "     "Engel werden Gott lobpreisen }
 
     \line { "     "mit den allerschönsten Liedern.}
   }

@@ -11,18 +11,17 @@
 
     \line { 1. Die Sonne der Liebe}
 
-    \line { "   " geht schon in der Welt auf.}
+    \line { "   " geht schon auf über der Welt.}
 
-    \line { "   " Sie bringt überall Licht hin}
+    \line { "   " Überall hin sendet sie Licht}
 
-    \line { "   " und verbreitet Wärme.}
+    \line { "   " und verteilt Wärme.}
 
-    \line { " " }
-    \line { 2. Wir sind die Sonnenstrahlen,}
+    \line {  "   "  Wir sind Strahlen der Sonne,}
 
     \line { "   " bringen das neue Leben.}
 
-    \line { "   " Wir sind die Sonnenstrahlen,}
+    \line { "   " Wir sind Strahlen der Sonne,}
 
     \line { "   " bringen das neue Leben.}
 

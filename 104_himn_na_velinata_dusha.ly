@@ -23,7 +23,7 @@
 
       a'4 g'4 fis'4 | e'2. | e'2. | g'2. | b'4 cis''4 b'4 | b'2. | a'2. | \break
 
-      fis'2. | a'4 (g'4) e'4 | e'2. | d'2 \fermata   
+      fis'2. | a'4 (g'4) e'4 | e'2. | d'2 \fermata
       \tempoFunc "Più mosso" 4 "88"
       fis'4  | a'2 a'4 | b'2 fis'4 | \break
 

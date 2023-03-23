@@ -8,9 +8,15 @@
   \markup \center-column \normal-text \fontsize #6.5 {
     \center-align
     \line { "     Новото Битие – Създаването на новия Адам" }
+     \center-align
+   
     \vspace #-0.1
     \center-align
     \line \fontsize #-3 { "     Novoto Bitie – Sazdavaneto na novia Adam" }
+    \vspace #-0.1
+    \center-align
+     \hspace #5.1
+    \line \fontsize #-3 \bold  { "Die Neue Genesis – Die Erschaffung des neuen Adams" }
     %\vspace #-0.8
     \center-align
     \line \fontsize #-3 { " " }

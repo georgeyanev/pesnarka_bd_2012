@@ -1,4 +1,4 @@
-\version "2.24.0"
+ \version "2.24.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Lasst uns kühn vorwärtsgehen" }
 \markup \null
@@ -8,30 +8,30 @@
 
   \column {
 
-    \line {1. Lasst uns vorwärtsgehen}
+    \line { 1. Vorwärts, lasst uns kühn vorangehen}
     \line { "   "in die stillen Paläste des geheimen Wissens,}
-    \line { "   "erfüllt mit Leben und Kraft.}
+    \line { "   "erfüllt von Leben und Kraft.}
     \line { "   " }
 
     \line { "   " \italic { Refrain ...}  }
     \line { "   " }
 
-    \line { "   "Wie ein Wirbel über den Wäldern,}
+    \line { "   "Wie ein Sturmwind über den Wäldern,}
 
-    \line { "   "mit feurigem Geist in der Brust, }
+    \line { "   "mit feurigem Atem in der Brust, }
 
-    \line { "   "lasst uns vorwärts fliegen }
+    \line { "   "vorwärts, schwingen wir uns auf, }
 
-    \line { "   "auf dass wir die Welt erneuern!}
+    \line { "   "erneuern wir die Welt!}
     \line { "   " }
 
     \line { 2. Lasst uns die Erde}
 
-    \line { "   "mit reinen Gedanken umgrenzen }
+    \line { "   "mit reinen Gedanken fest umgränzen }
 
-    \line { "   "und das allsündige Böse}
+    \line { "   "und das lasterhafte Böse}
 
-    \line { "   "mit Gerechtigkeit besiegen.}
+    \line { "   "mit Recht besiegen.}
     \line { "   " }
 
     \line { "   " \italic { Refrain ...}  }
@@ -39,9 +39,9 @@
     \line {3. Lasst uns den Schwachen}
 
 
-    \line { "   "Stütze und Erneuerung bringen,}
+    \line { "   "Stärkung und Erneuerung bringen,}
 
-    \line { "   "den Leidenden – Barmherzigkeit}
+    \line { "   "den Leidenden Erbarmen}
 
     \line { "   "und die neue Freiheit.}
     \line { "   " }
@@ -49,25 +49,25 @@
     \line { "   " \italic { Refrain ...}  }
     \line { "   " }
 
-    \line { 4. Lasst uns in den Abgrund hinabsteigen,}
+    \line { 4. Lasst uns in den Abgrund steigen,}
 
-    \line { "   "eine Fahne setzen}
+    \line { "   "das Banner aufpflanzen}
 
-    \line { "   "und die gefallenen Brüdern}
+    \line { "   "und die gefallenen Brüder}
 
-    \line { "   "aus der Qual befreien.}
+    \line { "   "von der Qual erlösen.}
     \line { "   " }
 
     \line { "   " \italic { Refrain ...}  }
     \line { "   " }
 
-    \line { 5. Lasst uns dann die Tore}
+    \line { 5. Dann lasst uns die Tore}
 
     \line { "   "der neuen Stadt öffnen,}
 
-    \line { "   "lasst uns in Jerusalem eintreten -}
+    \line { "   "lasst uns eintreten in Jerusalem  –}
 
-    \line { "   "in die Welt der Lichter.}
+    \line { "   "die Welt der Lichter.}
 
     \line { "   " }
     \line { "   " \italic { Refrain ... }}

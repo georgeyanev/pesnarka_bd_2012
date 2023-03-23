@@ -9,13 +9,13 @@
 
   \column {
 
-    \line { " "Ich trage in meinem Leben die Trauer mit Freude -}
+    \line { " "Ich trage in meinem Leben das Leid mit Freude – }
 
-    \line { " "sie ist meine gute Freundin, die mich so gut lehrt. }
+    \line { " "es ist meine gute Freundin, die mich so gut lehrt. }
 
-    \line { " "Ich trage in meinem Leben die Trauer mit Freude.}
+    \line { " "Ich trage in meinem Leben das Leid mit Freude.}
 
-    \line { " "Sie ist meine Freundin, die mich lehrt.}
+    \line { " "Es ist meine Freundin, die mich lehrt.}
 
     \line { " "Obgleich ich unaufhörlich seufze, }
 
@@ -29,7 +29,7 @@
 
     \line { " "Dann erzitterte mein Herz zum ersten Mal }
 
-    \line { " "für meine Schwester Freude.}
+    \line { " "wegen meiner Schwester Freude.}
 
   }
 }

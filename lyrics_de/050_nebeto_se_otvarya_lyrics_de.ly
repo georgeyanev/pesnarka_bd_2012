@@ -12,11 +12,11 @@
 
     \line { 1. Der Himmel öffnet sich}
 
-    \line { "   "und die Engel singen}
+    \line { "   "und die Engel singen.}
 
     \line { "   "Leuchtende Blitze }
 
-    \line { "   "vertreiben Dunkelheit und Finsternis.}
+    \line { "   "zerstreuen Dunkelheit und Finsternis.}
 
     \line { " " }
 
@@ -26,13 +26,13 @@
 
     \line { "   "mit Macht und Kraft, }
 
-    \line { "   "in all seinem Ruhm.}
+    \line { "   "in all seiner Herrlichkeit.}
     \line { " " }
     \line { 3. Kommt, alle Brüder,}
 
     \line { "   "ganz in weiß gekleidet,}
 
-    \line { "   "auf dass wir ihn in Freude,}
+    \line { "   "auf dass wir ihn mit Freude,}
 
     \line { "   "feierlich und ehrerbietig willkommen heißen.}
     \line { " " }
@@ -49,7 +49,7 @@
 
     \line { "   "unseres dreifaltigen Gottes,}
 
-    \line { "   "von nun an und auf ewig}
+    \line { "   "von nun an und in Ewigkeit}
 
     \line { "   "und in allen Zeiten.}
 

@@ -8,12 +8,12 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " "Gib, gib, gib alles, reines Korn, Weizenkorn. }
-    \line { " "Auf dass es auf dem Feld gesät wird, }
-    \line { " "auf dem schönen Feld. }
+    \line { " "Gib, gib, gib alles, reine Saat, Weizenkorn. }
+    \line { " "Auf dass es auf den Acker gesät wird, }
+    \line { " "auf den schönen Acker. }
     \line { " "Auf dass es im Winter gereinigt wird. }
     \line { " "Auf dass sich alles,  }
-    \line { " "was auf dem Acker gesät wurde, am Leben erfreue, }
-    \line { " "auf dem Acker, vom Himmel, auf dem Acker vom Himmel. }
+    \line { " "was auf dem Feld gesät wurde, am Leben erfreue, }
+    \line { " "auf dem Feld, vom Himmel, auf dem Feld vom Himmel. }
   }
 }

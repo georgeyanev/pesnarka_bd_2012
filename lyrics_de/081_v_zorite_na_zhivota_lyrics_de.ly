@@ -14,23 +14,23 @@
 
     \line { " " ging die Sonne auf, }
 
-    \line { " " ging die Sonne auf. }
+    \line { " " ging die Sonne auf; }
 
-    \line { " " Sie zeichnete die Grenzen der Natur, }
+    \line { " " sie zog die Grenzen der Natur, }
 
-    \line { " " sie zeichnete die Grenzen der Natur. }
+    \line { " " sie zog die Grenzen der Natur. }
 
-    \line { " " In meiner Seele erweckte sie einen mächtigen Geist  }
+    \line { " " In meiner Seele ließ sie den mächtigen Geist erwachen, }
 
-    \line { " " in meiner Seele erweckte sie einen mächtigen Geist }
-
-    \line { " " und in meinem Herzen erweckte sie die Liebe, }
+    \line { " " in meiner Seele ließ den mächtigen Geist erwachen }
 
     \line { " " und in meinem Herzen erweckte sie die Liebe, }
 
-    \line { " " sie erweckte, sie erweckte,  }
+    \line { " " und in meinem Herzen erweckte sie die Liebe, }
 
-    \line { " " sie erweckte in meinem Herzen die Liebe.  }
+    \line { " " sie erweckte, sie erweckte, sie erweckte }
+
+    \line { " "  in meinem Herzen die Liebe.  }
 
 
   }

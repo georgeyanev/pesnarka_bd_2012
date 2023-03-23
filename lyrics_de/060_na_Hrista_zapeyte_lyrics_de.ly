@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Mögen wir Christus besingen" }
+\markup \fill-line { \fontsize #deTitleFontSize "Hymne an Christus" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
@@ -9,11 +9,11 @@
 
   \column {
 
-    \line { 1. Mögen wir Christus mit neuen Hymnen}
+    \line { 1. Mögen wir neue Hymnen an Jesus}
 
-    \line { "   "in dieser Stunde besingen;}
+    \line { "   "in dieser Stunde singen;}
 
-    \line { "   "Er ist der ewige Sohn Gottes }
+    \line { "   "Er ist der zeitlose Sohn Gottes }
 
     \line { "   "im Himmel und in uns.}
 
@@ -21,23 +21,23 @@
 
     \line { "   "unser wahres Leben,}
 
-    \line { "   "sein starker Name sei gepriesen}
+    \line { "   "sein großer Name sei gepriesen}
 
     \line { "   "von Geschlecht zu Geschlecht.}
 
     \line { " " }
 
-    \line { 2. Singt zu Christus neue Hymnen}
+    \line { 2. Singt an Christus neue Hymnen}
 
     \line { "   "in dieser festlichen Stunde,}
 
-    \line { "   "Er ist der Sohn Gottes, der auf die Erde }
+    \line { "   "Er ist der Sohn Gottes, der gesendet wurde }
 
-    \line { "   " um unsertwillen gesendet wurde.}
+    \line { "   " auf die Erde um unseretwillen.}
 
     \line { "   "Er gab sein Leben, }
 
-    \line { "   "   um uns von der Sünde zu retten, }
+    \line { "   "   um uns von der Sünde zu erlösen, }
 
     \line { "   "wie ein Sterbender stieg er in das Grab }
 
@@ -45,7 +45,7 @@
 
     \line { " " }
 
-    \line { 3. Und nachdem er gepriesen worden war,}
+    \line { 3. Und als er gepriesen worden war,}
 
     \line { "   "gab er uns ein neues Testament,}
 
@@ -80,7 +80,7 @@
 
     \line { "   "ich bin der wahre Weinstock;}
 
-    \line { "   "bewahrt Mein Wort und}
+    \line { "   "bewahrt mein Wort und}
 
     \line { "   "lebt in Liebe!}
     \line { " " }
@@ -90,15 +90,15 @@
 
     \line { "   "sie erschafft alles Gute  –}
 
-    \line { "   "einzig sie  – die Liebe.}
+    \line { "   "einzig sie  – die Liebe.“}
 
-    \line { "   "So lehrte Er uns damals,}
+    \line { "   "So lehrte er uns damals,}
 
     \line { "   "so flüstert er uns jetzt auch zu, }
 
-    \line { "   "und in meiner Seele }
+    \line { "   "und es erwachen in meiner Seele }
 
-    \line { "   "erwachen seine Worte zum Leben. }
+    \line { "   "diese seine Worte zum Leben. }
 
   }
 

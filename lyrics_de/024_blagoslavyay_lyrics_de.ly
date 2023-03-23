@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Segne" }
+\markup \fill-line { \fontsize #deTitleFontSize "Lobpreise" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
@@ -8,14 +8,14 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { 1. Segne den Herrn, meine Seele, }
+    \line { 1. Lobpreise den Herrn, meine Seele, }
     \line {   "   " vergiss nicht all Seine Gnade, }
     \line {   "   " vergiss nicht all Seine Güte,}
     \line {   "   " vergiss nicht all Seinen Wohltaten! }
     \line {   "   " Vergiss nicht seine Gnade, }
     \line {   "   " vergiss nicht Seine Güte, }
-    \line {   "   "vergiss nicht Seine Liebe, }
-    \line {   "   " vergiss nicht Seine Liebe!  }
+    \line {   "   "vergiss nicht Seine Liebe [lubovta], }
+    \line {   "   " vergiss nicht Seine Liebe [obichta]!  }
 
   }
 }

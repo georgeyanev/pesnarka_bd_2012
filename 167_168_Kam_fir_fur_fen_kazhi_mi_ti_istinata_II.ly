@@ -40,7 +40,7 @@
         fen Tao bi au -- men.}
 
         \header {
-          title = \titleFunc "Към Фир фюр фен" "Kam Fir fyur fen"
+          title = \titleFunc "Към Фир фюр фен" "Kam Fir fyur fen  – Zu Fir fyur fen"
         }
 
         \midi{}

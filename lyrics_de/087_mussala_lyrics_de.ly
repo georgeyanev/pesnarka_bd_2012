@@ -7,22 +7,26 @@
   \hspace #14
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
+\column {
 \line { Einzig bist du, mein Mussala,}
 
-\line { heiliger Ort, göttlicher Gipfel!}
+\line { geheiliger Ort, göttlicher Gipfel!}
 
-\line { Mein Mussala, Mussala,}
+\line { Mein Mussala, Mussala, mein Mussala.}
+\line {""}
 
-\line { mein Mussala.}
+\line { Habt ihr an einem klaren Frühlingstag } 
 
-\line { Habt ihr an einem klaren Frühlingstag vom }
+\line {den Sonnenaufgang gesehen vom Mussala aus,}
 
-\line { Mussala aus den Sonnenaufgang gesehen!}
+ \line {Mussala, Mussala, vom Mussala!}
+\line {""}
 
-\line { Habt ihr beim ersten Strahl der Sonne }
+\line { Beim ersten Sonnenstrahl habt ihr da, }
 
-\line { den leichten Hauch des Mussalas eingeatmet!}
+\line { den leichten Hauch des Mussalas eingeatmet?! }
+
+ \line { Mussala, Mussala, Mussala, des Mussala.}
 
     }
 }

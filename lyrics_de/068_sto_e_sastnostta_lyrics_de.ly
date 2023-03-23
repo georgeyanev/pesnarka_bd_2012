@@ -20,7 +20,7 @@
 
     \line { " "Gehe zu den Blumen,  auf das Feld, }
     \line { " " in den Wald; schau die Schönheit an, }
-    \line { " "atme das Aroma ein,}
+    \line { " "atme den Duft ein,}
     \line { " "dort schaust du das Wesen an.}
     \line { " " }
 
@@ -34,13 +34,13 @@
     \line { " "Schau den Himmel an, frag das Herz:}
     \line { " "In dieser wunderbaren Schönheit}
     \line { " "und kosmischen Weisheit, }
-    \line { " " schaust du nicht das Wesen an?}
+    \line { " " schaust du nicht das Wesen?}
     \line { " " }
 
     \line { " "Wenn sich die zärtliche Mutter }
     \line { " "für das Kind aufopfert,}
     \line { " "in dieser beispielhaften Liebe,}
-    \line { " "und grenzenlose Liebe schaust }
+    \line { " "und grenzenlose Liebe, schaust }
     \line { " "du nicht das Wesen an?}
     %\line { " " }
 

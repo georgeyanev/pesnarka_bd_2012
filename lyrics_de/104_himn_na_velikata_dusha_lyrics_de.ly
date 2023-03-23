@@ -8,47 +8,52 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
- \line { " "Die Sonne scheint, }
+    \line { " "Die Sonne scheint, }
 
- \line { " "überall ist es hell, }
+    \line { " "hell ist es überall, }
 
- \line { " "die Erde ist von einem warmen Gewand umhüllt. }
+    \line { " "die Erde ist in ein warmes Gewand gehüllt. }
+     \line { " "}
 
- \line { " "Sie erweckt alles Lebendige; }
+    \line { " "Sie erweckt alles Lebendige; }
 
- \line { " "das Wasser fließt, das Gras sprießt, }
+    \line { " "das Wasser fließt, das Gras sprießt, }
 
- \line { " "eine frische Brise weht überall. }
+    \line { " " ein frischer Windhauch weht überall. }
+     \line { " "}
 
- \line { " "Alles bewegt sich, kriecht und krabbelt.}
+    \line { " "Alles bewegt sich, kriecht und krabbelt.}
 
- \line { " "Die Vögel flattern, die Rehe laufen }
+    \line { " "Die Vögel flattern, die Rehe laufen }
 
- \line { " "und der Wind weht }
+    \line { " "und der Wind weht }
 
- \line { " "und der Mensch steht}
+    \line { " "und der Mensch steht still}
 
- \line { " "und denkt nach, was er tun soll. }
+    \line { " "und denkt nach, was er tun soll. }
+     \line { " "}
 
- \line { " "Dann erklingt ein fröhliches Lied:}
+    \line { " "Es erklingt ein fröhliches Lied:}
 
- \line { " "Groß bist Du, Herr,}
+    \line { " "„Groß bist Du, oh Herr,}
 
- \line { " " groß sind Deine Werke, }
+    \line { " " groß sind Deine Werke, }
 
- \line { " " groß ist Dein Name über allem!}
+    \line { " " groß ist Dein Name über allem!}
+     \line { " "}
 
- \line { " "Du herrschst in der Kraft und im Leben,}
+    \line { " "Du herrschst in der Kraft und im Leben,}
 
- \line { " "im Wissen, in der Weisheit, }
+    \line { " "im Wissen, in der Weisheit, }
 
- \line { " "der Wahrheit und der Liebe.}
+    \line { " "der Wahrheit und der Liebe.}
+     \line { " "}
 
- \line { " "Groß bist Du, Herr, }
+    \line { " "Groß bist Du, oh Herr, }
 
- \line { " "groß sind Deine Werke, }
+    \line { " "groß sind Deine Werke, }
 
- \line { " "groß ist Dein Name über allem!}
+    \line { " "groß ist Dein Name über allem!“}
 
   }
 }

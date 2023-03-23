@@ -202,7 +202,7 @@
 
       \line {   "   " tya sazdava vsyako blago, }
 
-      \line {   "   " tya ednichka, Lyubovta.“ }
+      \line {   "   " tya ednichka, Lyubovta. “}
 
       \line {   "   " Tay ni ucheshe togava,  }
 

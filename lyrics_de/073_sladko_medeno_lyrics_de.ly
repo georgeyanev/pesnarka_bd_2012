@@ -9,11 +9,11 @@
 
   \column {
        
-  \line { " "Süß, honigsüß (4) }
+  \line { " "Süß, honigsüß, süß, honigsüß, süß, honigsüß, süß, honigsüß, }
 
   \line { " "honigsüß, honigsüß, süß, honigsüß.}
 
-  \line { " "Von der Sonne gesandt, von den Bienen gebracht. }
+  \line { " "Von der Sonne gesandt, von den Bienen übergebracht. }
 
       
       

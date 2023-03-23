@@ -11,9 +11,9 @@
     \line { 1. Vorwärts, Kinder, vorwärts,}
     \line { "   "bringt das Wort überall hin! }
 
-    \line { "   "Bringt ohne Angst vor dem neuen Leben }
+    \line { "   "Ohne Angst im neuen Leben bringt}
 
-    \line { "   "Gerechtigkeit, Frieden und Liebe!}
+    \line { "   "Gerechtigkeit, Frieden, Liebe!}
 
 
     \line { " " }
@@ -23,7 +23,7 @@
 
     \line { "   "Hört diesen Ruf, }
 
-    \line { "   "bringt Gerechtigkeit, Frieden und Liebe!}
+    \line { "   "bringt Gerechtigkeit, Frieden, Liebe!}
 
 
     \line { " " }
@@ -40,8 +40,8 @@
 
     \line { "   "bringt das Wort überall hin! }
 
-    \line { "   "Bringt ohne Angst vor dem neuen Leben }
+    \line { "   "Ohne Angst im neuen Leben bringt}
 
-    \line { "   "Gerechtigkeit, Frieden und Liebe!}
+    \line { "   "Gerechtigkeit, Frieden, Liebe!}
   }
 }

@@ -12,7 +12,7 @@
 
     \line { " "in den Kampf für den himmlischen König, }
 
-    \line { " "der König der Gerechtigkeit,}
+    \line { " "den König der Gerechtigkeit,}
 
     \line { " "des Friedens und der Liebe,}
     \line { " "des Friedens und der Liebe,}

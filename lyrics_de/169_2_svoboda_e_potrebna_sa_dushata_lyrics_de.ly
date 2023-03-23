@@ -9,7 +9,8 @@
 
   \column {
 
-   \line { "Der Freiheit bedarf die Seele. " }
+  \line { "Der Freiheit bedarf die Seele." }
+  \line { "Der Freiheit bedarf die Seele, die Seele, die Seele. " }
 
   }
 }

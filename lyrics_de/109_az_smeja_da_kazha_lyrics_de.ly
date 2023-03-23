@@ -10,23 +10,23 @@
   \column {
     \line { " "Ich wage zu sagen, }
 
-    \line { " "dass die Sonne hell ist. }
+    \line { " "dass die Sonne licht ist. }
 
     \line { " "Ich wage zu sagen, }
 
-    \line { " "dass die Sonne hell ist.}
+    \line { " "dass die Sonne licht ist.}
 
     \line { " "Das lässt sich nicht leugnen.}
 
-    \line { " "Bei ihr schmilzt alles, }
+    \line { " "Dank ihr schmilzt alles, }
 
-    \line { " "bei ihr wächst alles, }
+    \line { " "dank ihr wächst alles, }
 
-    \line { " "bei ihr blüht alles,}
+    \line { " "dank ihr blüht alles immer,}
 
-    \line { " "bei ihr reift alles.}
+    \line { " "dank ihr reift alles.}
 
-    \line { " "Bei ihr steht alle auf, }
+    \line { " " Dank ihr steht alles auf, }
 
     \line { " "faltet seine Decken zusammen}
 

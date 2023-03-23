@@ -4,64 +4,611 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \include "include/bookpart-paper.ily"
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 5.2\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 12)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
+
+
+
+  \markup \fontsize  #+5.5 { \hspace #12.2 \fill-line \bold {"" "Wörterbuch der Musikbegriffe" ""} }
+
+
+
+  \markup \fontsize  #+2  {
+    \vspace #3.0
+    \vspace #1.5 \override #'(baseline-skip . 2.2)
+
+    \column {
+      \line { \bold "a tempo"}
+      \vspace #1.8
+      \line { \bold"accelerando (accel.)" }
+      \vspace #0.5
+
+      \line { \bold"ad libitum" }
+
+      \vspace #1.2
+      \line { \bold"Adagio" }
+
+
+
+      \vspace #0.7
+
+      \line { \bold"Allegretto" }
+      \vspace #0.5
+
+      \line { \bold"Allegro" }
+      \vspace #0.5
+
+      \line { \bold"Allegro vivace"}
+      \vspace #0.5
+
+      \line { \bold"Andante"}
+      \vspace #0.6
+
+      \line { \bold"Andante sostenuto"}
+      \vspace #0.5
+
+      \line { \bold"Andantino"}
+      \vspace #1.1
+
+      \line { \bold"Animato"}
+      \vspace #0.5
+
+      \line { \bold"Attacca"}
+      \vspace #2.0
+
+      \line { \bold"cantabilе"}
+      \vspace #1.0
+
+      \line { \bold"D.C. (da capo) "}
+      \vspace #0.5
+
+      \line { \bold"D.C. al Fine"}
+      \vspace #0.9
+
+      \line { \bold"D.C. con ripetizione (-ni)"}
+      \vspace #0.5
+
+      \line { \bold"D.C. senza ripetizione (-ni)"}
+      \vspace #0.5
+
+      \line { \bold"D.S. al Fine (dal segno...) "}
+      \vspace #0.5
+
+      \line { \bold"e "}
+
+
+      \vspace #1.0
+
+      \line { \bold"espressivo"}
+
+    }
 
 
 
 
-  \markup \fontsize  #+5.5 {  \bold   {Wörterbuch der Musikbegriffe} }
+    \hspace #1 \override #'(baseline-skip . 2.2)
+    \column {
+      \line {
+        \justify {
+          (ital.) bedeutet, dass ab der entsprechend markierten Stelle innerhalb eines Musikstückes wieder im ursprünglichen Tempo gespielt werden soll.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          allmähliche Beschleunigung des Tempos.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          (abgekürzt ad lib.) ist lateinisch und bedeutet „nach Gutdünken“, „nach Belieben“, ohne fixiertes Tempo.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          langsam.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          (ital.) Tempo: etwas rasch, gemäßigt schnell.
 
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 a tempo – } \override #'(baseline-skip . 2.2)  \justify-string "(ital.) bedeutet. dass ab der entsprechend markierten Stelle innerhalb eines Musikstückes wieder im ursprünglichen Tempo gespielt werden soll.  " }
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          (ital.) Tempo: rasch, lebhaft, heiter, bewegt.
 
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 accelerando (accel.)} –  allmähliche Beschleunigung des Tempos }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 ad libitum }  – (abgekürzt ad lib.) ist lateinisch und bedeutet „nach Gutdünken“, „nach Belieben“. }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Adagio } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Allegretto } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Allegro } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Allegro vivace } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Andante } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Andante sostenuto } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Andantino } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Animato } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Attacca } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 cantabilе } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 D.C. (da capo) } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 D.C. al Fine } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 D.C. con ripetizione (-ni) } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 D.C. senza ripetizione (-ni) } }
-  \markup \fontsize  #+2  { \bold{ \vspace  #0.6 D.S. al Fine (dal segno...) } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 e } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 espressivo } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Fine } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Grave } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 grazioso } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Largamente } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Larghetto } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Largo } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Lento } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 L’istesso tempo } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Maestoso } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Meno } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Meno mosso } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Moderato } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 ossia } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Più } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Più mosso } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Poco } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 poco a poco } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 rallentando (rall.) } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 recitativo } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 risoluto } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 ritardando (rit.) } }
-  \markup \fontsize  #+2  { \bold { \vspace #0.6 ritenuto (rit.) } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 rubato } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 senza } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 senza misura } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Sostenuto } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Tempo di marcia } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Tempo di valzer } }
-  \markup \fontsize  #+2  { \bold{ \vspace #0.6 Tempo I } }
-  \markup \fontsize  #+2  { \bold { \vspace #0.6 Vivo (= Vivace) } }
+
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          schneller als Allegro.
+
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          (ital.)  gehend; schrittmäßig;  etwas langsamer als Moderato.
+
+
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          etwas langsamer als Andante, sieh \italic"sustenuto."
+
+
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          etwas schneller (gelegentlich auch langsamer) als andante, jedenfalls ein wenig bewegter, akzentuierter.
+
+
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          bedeutet „belebt“, „beseelt“, „lebhaft“.
+
+
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+
+          bedeutet, dass man als Musiker direkt mit dem nächsten Abschnitt des musikalischen Werkes fortfahren soll, ohne eine Pause zu machen.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          bedeutet, dass entsprechend markierte Stellen „gesanglich“ bzw. „ausdrucksvoll“ gespielt werden sollen.
+
+
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          (ital.), von Anfang an wiederholen.
+
+
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          (ital.) vom Anfang (wiederholen) bis zum Ende, das durch das Wort Fine (ital. Ende) gekennzeichnet ist;
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          (ital.) vom Anfang mit den Wiederholungen.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          (ital.) vom Anfang ohne Wiederholungen.
+
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          Vom Zeichen \musicglyph "scripts.segno" bis zum Wort Fine.
+
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          und zum Beispiel rit. e morendo - verlangsamend und ersterbend.
+
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+
+          ital. für "ausdrucksvoll:" Spielanweisung, mit der verlangt wird, einer melodischen Linie besondere Ausdrucksstärke zu verleihen.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+
+
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+
+
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+
+
+        }
+      }
+    }
+  }
+
+
+
+  \markup \fontsize  #+2  {
+    \vspace #1.5 \override #'(baseline-skip . 2.2)
+
+
+
+
+
+
+
+
+    \column {
+
+
+      \line { \bold"Fine"}
+      \vspace #0.5
+
+      \line { \bold"Grave "}
+      \vspace #0.5
+
+      \line { \bold"grazioso "}
+      \vspace #0.5
+
+      \line { \bold"Largamente "}
+      \vspace #0.5
+      \line { \bold "Larghetto"}
+      \vspace #0.5
+      \line { \bold"Largo" }
+      \vspace #0.5
+
+      \line { \bold"Lento" }
+
+      \vspace #0.5
+      \line { \bold"L’istesso tempo" }
+
+      \vspace #0.5
+
+      \line { \bold"Maestoso" }
+      \vspace #0.5
+
+      \line { \bold"Meno" }
+      \vspace #0.5
+
+      \line { \bold"Meno mosso"}
+      \vspace #0.5
+
+      \line { \bold"Moderato"}
+      \vspace #0.5
+
+      \line { \bold"ossia"}
+      \vspace #2.5
+
+      \line { \bold"Più"}
+      \vspace #0.5
+
+      \line { \bold"Più mosso"}
+      \vspace #0.5
+
+      \line { \bold"Poco"}
+      \vspace #0.5
+
+      \line { \bold"poco a poco"}
+      \vspace #0.5
+
+      \line { \bold"rallentando (rall.)"}
+      \vspace #0.5
+
+      \line { \bold"recitativo"}
+      \vspace #0.5
+
+      \line { \bold"risoluto"}
+      \vspace #0.5
+
+      \line { \bold"ritardando (rit.)"}
+      \vspace #0.5
+
+      \line { \bold"ritenuto (rit.)"}
+      \vspace #0.5
+
+      \line { \bold"rubato "}
+
+
+      \vspace #0.5
+
+      \line { \bold"senza"}
+      \vspace #0.5
+
+
+    }
+
+
+
+
+    \hspace #1 \override #'(baseline-skip . 2.2)
+    \column {
+      \line {
+        \justify {
+          Ende, (sieh D.C. al Fine).
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          sehr langsam, buchstäblich schwer.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          (ital.) anmutig; mit Anmut.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          breit, langsam.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          langsam, aber nicht so langsam wie Largo.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          langsam, buchstäblich breit.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          langsam, biegsam, geschmeidig, locker.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          dasselbe Zeitmaß, im selben Tempo wie zuvor.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          feierlich, würdevoll, gemessen.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          weniger.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          langsamer, weniger bewegt.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          gemäßigt, mäßig schnell.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          (ital. ossia, „oder auch“, aus o sia, „oder es sei“) wird in einer Partitur eine Spielvariante oder Alternative über oder unter einem Notensystem benannt, die an Stelle des Originals gespielt werden kann.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          mehr.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          schneller, mehr bewegt.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+
+          (ital.) etwas; ein wenig.
+
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          (ital.) nach und nach; allmählich.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          (ital.) zögernd; allmählich langsamer.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          Rezitativ, sprechnder Gesang.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          entschlossen, kräftiger Vortrag.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          das Tempo verzögernd; langsamer werdend.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          im Tempo zurückgehalten, verzögert.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          frei im Vortrag.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          ohne.
+        }
+      }
+
+    }
+  }
+
+  \markup \fontsize  #+2  {
+    \vspace #1.5 \override #'(baseline-skip . 2.2)
+
+
+
+
+
+
+
+
+    \column {
+      \line { \bold"senza misura"}
+      \vspace #1.2
+
+      \line { \bold"Sostenuto"}
+      \vspace #0.5
+
+      \line { \bold"Tempo di marcia"}
+      \vspace #0.5
+
+      \line { \bold"Tempo di valzer"}
+      \vspace #0.5
+
+      \line { \bold"Tempo I"}
+      \vspace #0.5
+
+      \line { \bold" Vivo (= Vivace)"}
+    }
+
+
+    \hspace #1 \override #'(baseline-skip . 2.2)
+    \column {
+
+
+      \line {
+        \justify {
+          (ital.) ohne Metrum, also ohne Angabe einer rhythmischen Betonung.
+        }
+      }
+
+      \vspace #0.5
+      \line {
+        \justify {
+          gehalten, Verzögerung des Tempos.
+        }
+      }
+
+      \vspace #0.5
+      \line {
+        \justify {
+          Im Zeitmaß eines Marsches.
+        }
+      }
+
+      \vspace #0.5
+      \line {
+        \justify {
+          Im Tempo eines Walzers.
+        }
+      }
+
+
+
+      \vspace #0.5
+      \line {
+        \justify {
+          Im anfänglichen Tempo.
+        }
+      }
+
+      \vspace #0.5
+      \line {
+        \justify {
+          lebendig, schnell.
+        }
+      }
+
+
+    }
+
+  }
+
 
 
 

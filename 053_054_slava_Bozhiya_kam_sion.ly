@@ -67,7 +67,7 @@
 
       \tempoFunc "Tempo di marcia" 4 "112"
       \autoBeamOff
-      \autoBeamOff
+     
       \partial 8
       f'8 |  bes'4 f'8 bes'16 c'' | d''4 bes'8 d'' | f''8 es'' d'' es'' \break |
 

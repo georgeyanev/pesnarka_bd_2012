@@ -4,32 +4,29 @@
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
-  \hspace #10
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+\hspace #10
+\override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line {   "   "Das Licht scheint,}
+  \line {   "   " Es scheint, es scheint, es scheint das Licht,}
+    \line {  "   " es scheint, es scheint, es scheint das Licht,}
+    \line {   "   " es scheint, es scheint, es scheint das Licht,}
+    \line {   "   " es scheint, es scheint, es scheint das Licht,}
+    \line {   "   " es scheint, es scheint, es scheint das Licht,}
+    \line {   "   " es scheint, es scheint, es scheint, es scheint, es scheint.}
+    \line {   "   "  Für die Gräser, für das Wässer, }
 
-    \line {   "   "das Licht scheint,}
+    \line {   "   " für die Blumen, für die Kinder, }
 
-    \line {   "   "das Licht scheint,}
+    \line {   "   "bringt es Freude für die Herzen. }
 
-    \line {   "   "das Licht scheint,}
+    \line {   "   "  Für die Gräser, für das Wässer, }
 
-    \line {   "   "das Licht scheint,}
+    \line {   "   " für die Blumen, für die Kinder, }
 
-    \line {   "   "das Licht scheint,}
+    \line {   "   "bringt es Freude für die Herzen. }
 
-    \line {   "   "das Licht scheint,}
-    \line {   "   " es   scheint, scheint, scheint, scheint, scheint}
-    
-      \line {   "   "  Auf die Gräser, auf die Gewässer (auf das Wasser), }
 
-   \line {   "   " auf die Blumen, bringt den Kindern Freude. }
-
-   \line {   "   " Es bescheint die Gräser, die Gewässer (auf das Wasser), }
-
-   \line {   "   " die Blumen, bringt Freude für die Herzen. }
 
 
 

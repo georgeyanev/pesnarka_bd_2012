@@ -10,7 +10,8 @@
   \column {
     \line { " " }
 
-     \line { " Ich wahre die Wärme meines Herzens." }
+     \line { " Ich werde die Wärme bewahren." }
+     \line { " Ich werde die Wärme bewahren." }
 
   }
 }

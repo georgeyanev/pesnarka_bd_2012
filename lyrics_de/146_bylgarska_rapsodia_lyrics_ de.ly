@@ -10,7 +10,7 @@
 
   \column {
 
-    \line { " "Dort oben bei den Quellen habe ich }
+    \line { " "Dort oben bei der Quelle habe ich }
 
     \line { " "ein lächelndes Mädchen getroffen,}
 
@@ -18,58 +18,58 @@
 
     \line { " "   }
 
-    \line { " "Die Quelle strömt und entspringt,}
+    \line { " "Die Quelle strömt und qullt,}
 
-    \line { " "und gießt das reine Wasser}
+    \line { " "und vergießt das reine Wasser}
 
-    \line { " "und singt ein Berglied.}
+    \line { " "und stimmt ein Berglied an.}
 
-    \line { " "Das Mädchen gießt die Kupferkessel ein}
+    \line { " "Das Mädchen füllt die Kupferkessel}
 
     \line { " "und lauscht dem Lied.}
 
     \line { " "   }
 
-    \line { " "Ich gehe dort oben hin,}
+    \line { " "Ich werde dort hinaufgehen,}
 
-    \line { " "ich gehe in die Bergen,}
+    \line { " "ich werde in die Berge gehen,}
 
-    \line { " "damit ich das reine Wasser anschaue }
+    \line { " "damit ich dem reinen Wasser zuschaue }
 
     \line { " "und dem leisen Lied lausche,}
 
     \line { " "ich gehe dorthin.}
     \line { " "   }
 
-    \line { " "Damit ich das reine Wasser anschaue,}
+    \line { " "Damit ich dem reinen Wasser zuschaue,}
 
     \line { " "damit ich dem leisen Lied lausche,}
 
-    \line { " "gehe ich dorthin.}
+    \line { " " werde ich dorthin gehen.}
 
     \line { " "   }
 
-    \line { " "Liliano, Frühblume im Garten,}
+    \line { " "Oh, Liliana, frühe Blume im Garten,}
 
-    \line { " "wenn ich dieses Lied, Liliano, nicht höre,}
+    \line { " "wenn ich dieses Lied, oh, Liliana, nicht höre, ah,}
 
-    \line { " "ah, wenn ich von diesem Wasser nicht trinke}
+    \line { " " wenn ich von diesem Wasser nicht trinke}
 
-    \line { " "wird Trauer mein Herz erfüllen.}
+    \line { " "wird Gram mein Herz erfüllen.}
 
     \line { " "   }
 
-    \line { " "Liliano, Mädchen,}
+    \line { " "Oh, Liliana, Mädchen,}
 
-    \line { " "du wirst mich dort oben ins Gebirge bringen,}
+    \line { " "du wirst mich dort hinauf ins Gebirge bringen,}
 
-    \line { " "dort, wo die Quelle entspringt.}
+    \line { " "dorthin, wo die Quelle entspringt.}
 
     \line { " "   }
 
     \line { " "Oben im Gebirge,}
 
-    \line { " "wo die Sonne scheint,}
+    \line { " "wo die Sonne aufgeschienen hat,}
 
     \line { " "zwischen den grünen Gräsern,}
 
@@ -77,10 +77,13 @@
 
     \line { " "Oben im Gebirge,}
 
-    \line { " "wo die Sonne schien.}
+    \line { " "wo die Sonne aufgeschienen hat.}
+    \line { " "Oben im Gebirge,}
+
+    \line { " "wo die Sonne aufgeschienen hat.}
     \line { " "   }
 
-    \line { " "Dort oben bei den Quellen }
+    \line { " "Dort oben bei der Quelle }
 
     \line { " "traf ich ein lächelndes Mädchen,}
 

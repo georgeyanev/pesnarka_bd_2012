@@ -10,29 +10,29 @@
   \column {
    
 
-    \line { " " Lieber Herr, höre unser Lied –  }
+    \line { " " Lieber Herr, höre unser Lied:  }
 
-    \line { " " wir singen für die Sonne, für den Frühling. }
+    \line { " " Wir singen von der Sonne, vom Frühling. }
 
     \line { " " Höre unser Lied: }
 
     \line { " " Der Frühling kommt, bringt neues Leben.  }
 
-    \line { " " Die erste Frühlingsblume –   }
+    \line { " " Die erste Frühlingsblume:   }
 
-    \line { " " ich erwecke alle aus dem Schlummer.  }
+    \line { " " Ich erwecke alle aus dem Schlaf.  }
 
-    \line { " " Zuallererst schaut mich die Sonne an. }
+    \line { " " Mich sieht die Sonne zuerst an. }
 
-    \line { " " Sonne, Gottesgabe,  }
+    \line { " " Liebe Sonne, Gottesgabe,  }
 
-    \line { " " du bist die Quelle des Lebens,  }
+    \line { " " du bist der Quell des Lebens,  }
 
     \line { " " du sendest uns einen Strahl,  }
 
     \line { " " der die frischen, zarten Blättchen öffnet. }
 
-    \line { " " Frühling, Frühling, voll von Leben;  }
+    \line { " " Frühling, Frühling, voller Leben;  }
 
     \line { " " ewiger Frühling, du bist ein Paradies,  }
 

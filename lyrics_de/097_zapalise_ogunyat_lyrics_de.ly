@@ -8,17 +8,23 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " "Das Feuer der Feuerstelle entzündete sich.  }
+    \line { " " Es wurde entzündet das Feuer der Feuerstelle.  }
 
-    \line { " "Mein Herz begann zu schlagen, das Brot ist bereit.  }
+    \line { " " Zu schlagen begann mein Herz.}
+    \line { " " Das Brot ist bereit, das Brot ist bereit, }
+    \line { " " }
 
-    \line { " "Das Brot ist bereit, der neue Leuchter wurde anzündet.  }
+    \line { " " Der neue Leuchter wurde angezündet.  }
 
-    \line { " "Der Tisch ist gedeckt, mein Gedanke ist erschienen.  }
+    \line { " "Die Tafel wurde gedeckt. }
+    \line { " " Mein Gedanke leuchtete auf:  }
 
-    \line { " "Möge ich heute das wohlschmeckende Brot lieben   }
+    \line { " "Möge ich heute das köstliche Brot lieben }
 
-    \line { " "und seine süßen Worte hören.   }
+    \line { " "und seine süßen Worte hören.}
+    \line { " "Möge ich heute das köstliche Brot lieben }
+
+    \line { " "und seine süßen Worte hören.}
 
 
   }

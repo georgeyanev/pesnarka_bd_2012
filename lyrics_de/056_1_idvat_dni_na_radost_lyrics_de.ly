@@ -14,7 +14,7 @@
 
     \line { " "es kommen die Tage der Freude,}
 
-    \line { " "für diejenige, die Gott dienen. }
+    \line { " "für diejenigen, die Gott dienen. }
 
   }
 

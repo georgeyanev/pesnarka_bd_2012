@@ -123,12 +123,12 @@
 
     \addlyrics {
       Ми  -- ли Бо -- же, чуй ни пе
-      -- сен -- та– пе -- ем ний
+      -- сен -- та: пе -- ем ний
       за "Слън-" -- це -- то, за "про-" -- лет
       -- та. Чуй ни пе -- сен -- та: Про
       -- лет и -- де, нов жи -- вот но
       -- си. Пър -- во цве -- те на
-      "про-" -- лет -- та– бу  -- дя всич
+      "про-" -- лет -- та: бу  -- дя всич
       -- ки от сън, мен  пър -- во
       Слън -- це -- то ме   виж
       --  да. "Слън-" -- чи -- це, "Бо-" --
@@ -142,12 +142,12 @@
       Бо -- жи дар, Бо -- жи дар, сал
       за те -- бе аз жи -- ве -- я.}
       \addlyrics { Mi  -- li Bo -- zhe, chuy ni pe
-      -- sen -- ta– pe -- em niy
+      -- sen -- ta: pe -- em niy
       za Slan -- tse -- to, za pro -- let
       -- ta. Chuy ni pe -- sen -- ta: Pro
       -- let i -- de, nov zhi -- vot no
       -- si. Par -- vo tsve -- te na
-      pro -- let -- ta– bu  -- dya vsich
+      pro -- let -- ta: bu  -- dya vsich
       -- ki ot san, men  par -- vo
       Slan -- tse -- to me   vizh
       --  da. Slan -- chi -- tse, Bo --

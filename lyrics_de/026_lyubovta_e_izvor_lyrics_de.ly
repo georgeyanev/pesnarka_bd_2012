@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Die Liebe ist Quelle" }
+\markup \fill-line { \fontsize #deTitleFontSize "Die Liebe ist eine Quelle" }
 \markup \fontsize #+1.7 {
   \hspace #-1
   \vspace #0.5
@@ -12,13 +12,13 @@
 
     \line {   "   "sie gebiert das Leben}
 
-    \line {   "   "und sät sanft in ihm eine allheilige Pflicht:}
+    \line {   "   "und eine allheilige Pflicht sät sie in }
 
-    \line {   "   "auf dass wir immer vorwärts schreiten, }
+    \line {   "   "ihm sanft: auf dass es immer voranschreitet }
 
     \line {   "   "im Streben nach dem Guten,}
 
-    \line {   "   "das oben im Himmel vollkommen ist.}
+    \line {   "   "das vollkommen ist oben im Himmel.}
 
 
 
@@ -45,23 +45,12 @@
 
     \line {   "   "sie sät immerdar}
 
-    \line {   "   "die lieben Samenkörner,}
+    \line {   "   "die lieben Samenkörnchen,}
 
     \line {   "   "aus denen die gütigen Wohltaten sprießen.}
 
     \line { " " }
     \line { "   " \italic { Refrain ...}  }
-
-
-
-
-
-
-
-
-
-
-
 
 
   }
@@ -71,26 +60,27 @@
 
   \column {
 
-    \line {   3.Wer dieses große Geheimnis gut versteht,}
+    \line {   3. Dieses große Geheimnis, }
+            \line {   "   "   wer es gut versteht,}
 
-    \line {   "   "öffnet morgens seine liebe Seele,}
+    \line {   "   "öffnet seine liebe Seele am Morgen,}
 
-    \line {   "   "wie die weiße Lilie am himmlischen Tau}
+    \line {   "   "wie die weiße Lilie im himmlischen Tau }
 
-    \line {   "   " am wunderbaren Sonnenlicht.}
+    \line {   "   " und im wunderbaren Sonnenlicht.}
     \line { " " }
     \line { "   " \italic { Refrain ...}  }
     \line { " " }
 
-    \line {   4. Die Sonne, die den Menschen belebt,}
+    \line {   4. Die Sonne, die den Menschen }
+              
+         \line {   "   "       zur rechten Zeit belebt,}
 
-    \line {   "   "scheint warm, erweckt und lässt}
+    \line {   "   " scheint warm, erweckt und lässt gedeihen}
 
-    \line {   "   "in ihm die Samenkörner gedeihen}
+    \line {   "   " in ihm die Samenkörnchen und füllt }
 
-    \line {   "   "und füllt geheimnisvoll seine}
-
-    \line {   "   "Seele mit Tugenden.}
+    \line {   "   "  geheimnisvoll  mit Tugenden seine Seele.}
 
     \line { " " }
     \line { "   " \italic { Refrain ...}  }
@@ -108,8 +98,6 @@
     \line {   "   "In himmlischen Wohnstätten}
 
     \line {   "   "wird er ewig leben, vor dem Thron Gottes}
-
-
 
     \line {   "   "wird er Lieder singen. }
 

@@ -11,13 +11,13 @@
 
     \line {   1. Geh auf, geh auf, du, meine Sonne, }
 
-    \line {   "   "denn ich warte auf dich jeden Tag; }
+    \line {   "   "denn ich warte jeden Tag; }
 
-    \line {   "   "nach dir sehnt sich mein ganzes Herz}
+    \line {   "   "nach dir sehnt sich mein Herz}
 
-    \line {   "   "und ich bin auf meinem Weg ermattet;}
+    \line {   "   "und auf meinem Weg bin ich ermüdet;}
 
-    \line {   "   "Du bringst mir das glückselige Leben.}
+    \line {   "   "Du bringst mir seliges Leben.}
     \line { " " }
 
     \line {   "   "   \italic { Refrain:}  }
@@ -26,19 +26,19 @@
 
     \line {   "   "  seliges, seliges, seliges Leben,}
 
-    \line {   "   " du, der du mir das selige Leben bringst.}
+    \line {   "   " du, der du mir das seliges Leben bringst.}
 
     \line { " " }
 
-    \line {   2. Bescheine den Himmel und die Erde,}
+    \line {   2. Erleuchte den Himmel und die Erde,}
 
-    \line {    "   "die azurblaue unterhimmlische Weite; }
+    \line {    "   "azurblaue himmlische Weite; }
 
-    \line {   "   "erfreue heute unaufhörlich meine Seele}
+    \line {   "   "erfreue heute meine Seele }
 
-    \line {   "   "mit deinen Schwingungen.}
+    \line {   "   "mit deinen Schwingungen ohne Unterlass.}
 
-    \line {   "   "Oh, gib mir dieses Leben und diesen Frieden!}
+    \line {   "   "Oh, gib mir dieses Leben und Frieden!}
 
     \line { " " }
     \line {   "   "    \italic { Refrain:}  }
@@ -47,27 +47,27 @@
 
     \line {   "   "  und Frieden, und Frieden, Leben und Frieden,}
 
-    \line {   "   "   oh, gib mir dieses Leben und diesen Frieden!}
+    \line {   "   "   oh, gib mir dieses Leben und Frieden!}
 
 
 
   }
 
-  \hspace #-3
+  \hspace #-1
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
 
 
-    \line {3. Einzig bist du, }
+    \line {3. Einzigartig bist du, }
 
     \line {   "   "   die du alles mit Liebe erfüllst }
 
     \line {   "   "und alles Alte erneuerst; }
 
-    \line {   "   "durch dich wird die Welt neu,}
+    \line {   "   "durch dich wird die Welt erneuert,}
 
-    \line {   "   "du bist auf ewig die heilige Liebe!}
+    \line {   "   "du bist auf ewig heilige Liebe!}
 
     \line { " " }
     \line {   "   "    \italic { Refrain:}  }
@@ -76,7 +76,7 @@
 
     \line {   "   "    Liebe, Liebe, heilige Liebe,}
 
-    \line {   "   "    du bist ewige heilige Liebe.}
+    \line {   "   "    du bist auf ewig heilige Liebe.}
   }
 }
 

@@ -11,7 +11,11 @@
 
   \line { " "Gerechtigkeit, Gerechtigkeit, Gerechtigkeit,}
 
-  \line { " "die du Freiheit in den Verstand bringst.}
+  \line { " "die du Freiheit für den Verstand bringst.}
+
+  \line { " "Schön und mächtig bist du }
+
+  \line { " "und verteilst alles in der Welt. }
 
   \line { " "Schön und mächtig bist du }
 

@@ -233,7 +233,7 @@
         \line { Българска идилия }
         \vspace #-0.6
         \center-align
-        \line \fontsize #-3 { Balgarska idiliya }
+        \line \fontsize #-3 { Balgarska idiliya  – Bulgarische Idylle}
         \vspace #-0.8
         \center-align
         \line \fontsize #-3 { " " }

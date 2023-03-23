@@ -8,13 +8,13 @@
 
   \column {
 
-    \line { 1. Ein hoher Berggipfel funkelt,}
+    \line { 1. Ein hoher Berggipfel glänzt,}
 
     \line { "   " beschienen von himmlischen Strahlen. }
 
     \line { "   " Dort sprudelt eine reine Quelle }
 
-    \line { "   " und in Hymnen gießt sie ihre Seele aus,}
+    \line { "   " und in Hymnen gießt sie aus ihre Seele,}
 
     \line { "   " Seele, Seele,}
 
@@ -25,18 +25,18 @@
 
     \line { "   "  mit Hoffnung. }
 
-    \line { "   " Mit tiefer Trauer belastet,}
+    \line { "   "Von tiefer Trauer bedrückt,}
 
-    \line { "   " weist er sich dort ein neues Leben zu,}
+    \line { "   " wird ihm dort neues Leben zuteil, }
 
-    \line { "   " er weist sich, er weist sich}
+    \line { "   " zuteil, zuteil}
 
-    \line { "   " ein neues Leben zu.}
+    \line { "   " ihm wird dort neues Leben zuteil.}
     \line { "   " }
 
     \line { 3. Und er fragt: }
 
-    \line { "   " Darf ich von deinem}
+    \line { "   " „Darf ich von deinem}
 
     \line { "   " reinen Wasser trinken, }
 
@@ -49,7 +49,7 @@
     \line { "   " damit ich meine leidende Seele reinige?}
     \line { "   " }
 
-    \line {  4. Darf ich mich erholen;}
+    \line {  4. Darf ich mich erholen,}
 
     \line { "   " mein Gesicht und meine Füße }
 
@@ -59,7 +59,7 @@
 
     \line { "   " öffnen, öffnen,}
 
-    \line { "   " mein mit Wunden bedecktes Herz öffnen?}
+    \line { "   " mein mit Wunden bedecktes Herz öffnen?“}
     \line { "   " }
 
 
@@ -70,13 +70,15 @@
   \vspace #0.5
   \override #'(baseline-skip . 1.8)
   \column {
-    \line {  5. Neige dein Haupt, }
+    \line {  5. „Neige dein Haupt, }
 
     \line { "   " oh, unglücklicher Wanderer: }
 
-    \line { "   " lösche heute deinen unendlichen Durst}
+    \line { "   " lösche heute deinen unendlichen Durst }
 
-    \line { "   " durch mich und hoffe auf mich,}
+    \line { "   " durch mich }
+
+    \line { "   "  und hoffe auf mich,}
 
     \line { "   " hoffe, hoffe auf mich und}
 
@@ -85,7 +87,7 @@
 
     \line {  6. Ich habe deine Märtyrerstimme gehört,}
 
-    \line { "   " deine liebe Klage vernommen. }
+    \line { "   " deine sanfte Klage vernommen. }
 
     \line { "   " Ich bin ein großer, göttlicher Geist}
 
@@ -96,19 +98,17 @@
     \line { "   " und ich werde dir Leben und Kraft geben.}
     \line { "   " }
 
-    \line {  7. Komm, komm }
+    \line {  7. Komm, komm und trinke von mir}
 
-    \line { "   "     und stille deinen Durst bei mir,}
-
-    \line { "   " oh geliebtes göttliches Geschöpf. }
+    \line { "   " oh, geliebtes göttliches Geschöpf! }
 
     \line { "   " Angebrochen ist der letzte Tag}
 
-    \line { "   " von aller Qual und Trauer,}
+    \line { "   " aller Qual und Trauer,}
 
     \line { "   " Trauer, Trauer,}
 
-    \line { "   " von aller Qual und Trauer.}
+    \line { "   " aller Qual und Trauer.“}
 
 
   }

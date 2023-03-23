@@ -11,11 +11,11 @@
 
     \line { 1. Tautropfen, azurblaue Welt,}
 
-    \line { "   "rein, schön, still und sturmfrei,}
+    \line { "   "rein, schön, still und ohne Sturm,}
 
     \line { "   "Frieden des paradiesischen Lebens,}
 
-     \line { "   "Frieden des paradiesischen Lebens!}
+    \line { "   "Frieden des paradiesischen Lebens!}
 
     \line { "   "In dir, Tropfen, rufe ich alle lieben Brüder und Schwestern, }
 
@@ -37,7 +37,7 @@
 
     \line { 3. Und so  – rein, in weißen Kleidern}
 
-    \line { "   "und umgürtet mit der Rüstung der großen Liebe }
+    \line { "   "und umgürtet mit der Rüstung der großen Liebe, der großen Liebe }
 
     \line { "   "werden wir ein neues Reich errichten:}
 

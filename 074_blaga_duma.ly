@@ -92,6 +92,8 @@
 
     } % score
 
+
+ \markup \empty-two
     
     % include foreign translation(s) of the song
     \include "lyrics_de/074_blaga_duma_lyrics_de.ly"

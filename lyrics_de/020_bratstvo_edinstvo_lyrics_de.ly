@@ -7,19 +7,13 @@
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
-    \line {  1. Wir wollen Brüderlichkeit und Einheit, }
-    \line {   "   "Wir senden den Ruf der Liebe aus, }
-    \line {   "   " Die Welt der Freude rufen wir: }
-    \line {
-      "   " auf dass wir das gute Leben in uns
-      ergießen!
-    }
-
-
-    \line { " " }
-    \line {   2. Auf dass wir das gute Leben in uns ergießen, (3) }
-    \line {   "   "ergießen, ergießen, ergießen, }
-    \line {   "   " Auf das wir das gute Leben in uns ergießen, (2) }
+    \line {  "   " Brüderlichkeit und Einheit wollen wir, }
+    \line {   "   "den Ruf der Liebe senden wir aus, }
+    \line {   "   " die Welt der Freude rufen wir, }
+    \line { "   " auf dass wir das gute Leben in uns ergießen,}
+    \line {   "   " auf dass wir das gute Leben in uns ergießen, }
+    \line {   "   " auf dass wir das gute Leben in uns ergießen, }
+    \line {   "   " auf dass wir das gute Leben in uns ergießen,  }
     \line {   "   " ergießen, ergießen, ergießen. }
 
   }

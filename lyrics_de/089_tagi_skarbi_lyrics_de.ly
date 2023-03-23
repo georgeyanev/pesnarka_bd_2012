@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Trauer, Gram" }
+\markup \fill-line { \fontsize #deTitleFontSize "Trauer, Leid" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
@@ -10,11 +10,13 @@
   \column {
 
 	   
-\line { " "Hebe, setze die Trauer und den Gramm auf }
+\line { " "Hebe auf Trauer und Leid, leg sie beiseite, }
 
-  \line { " "und gehe gerade.}
+  \line { " "und geh gerade.}
 
-  \line { " "Stolpere nicht, hebe alles und setze es auf.}
+  \line { " "Stolpere nicht, hebe alles auf, }
+  
+  \line { " "lege es beiseite und gehe gerade.}
 
   \line { " "Gehe, gehe, gehe, gerade gehe!}
 

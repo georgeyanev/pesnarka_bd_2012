@@ -8,27 +8,41 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " "   Güte, Güte, Güte,}
+    \line { " " Güte, Güte, Güte,}
 
-    \line { " "bringt, bringt, bringt das Licht,}
+    \line { " "bringt, bringt, bringt das Licht, das Licht, das Licht.}
 
-    \line { " "das Licht, das Licht, das Licht. }
+    \line { " "}
 
-    \line { " "Sie bringt Freude für das Leben, (3)}
+    \line { " " Freude bringt sie für das Leben, }
+    \line { " " Freude bringt sie für das Leben, }
+    \line { " " Freude bringt sie für das Leben, }
 
-    \line { " "für das Leben. (3)}
+    \line { " "für das Leben, für das Leben, für das Leben. }
+    \line { " "}
 
-    \line { " "Alt und Jung lässt sie aus dem Bett erheben. (3)}
+    \line { " "Sie lässt Alt und Jung sich erheben, }
+    \line { " "sie lässt Alt und Jung sich erheben, }
+    \line { " "sie lässt Alt und Jung sich erheben, }
 
-    \line { " "Sie liebkost die Kranken, sie erfreut die Gesunden, (3)}
+    \line { " "aus dem Bett, aus dem Bett, aus dem Bett.}
+    \line { " "}
 
-    \line { " "wenn sie kommt. (3) }
+    \line { " "Kranke liebkost sie, Gesunde erfreut sie,}
+    \line { " "Kranke liebkost sie, Gesunde erfreut sie, }
+    \line { " "Kranke liebkost sie, Gesunde erfreut sie, }
 
-    \line { " "Und die Flüsse fließen reichlich }
+    \line { " "wenn sie kommt, }
+    \line { " "wenn sie kommt,  }
+    \line { " "wenn sie kommt.  }
+
+    \line { " "}
+
+    \line { " "Und die Flüsse strömen reichlich }
 
     \line { " "und die Blumen blühen schön,}
 
-    \line { " "wenn sie kommt. (3) }
+    \line { " "wenn sie kommt, wenn sie kommt, wenn sie kommt. }
 
 
 

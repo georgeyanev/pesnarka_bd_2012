@@ -13,18 +13,19 @@
     \line {   "   " Und er sät und singt leise }
     \line {   "   " vor jedem Haus und jeder Familie: }
     \line { " " }
-    \line { "   " \italic { Refrain :}  }
+    \line { "   " \italic { Refrain:}  }
 
-    \line {  "  " Eine unschätzbare Gabe ist die Liebe, }
-    \line {   "   "ein schönes Gefühl die Liebe, }
+  \line {   "   " Eine unschätzbare Gabe ist die Liebe [lyubovta], }
+    \line {  "   "ein schönes Gefühl die Liebe [obichta]*, }
     \line {   "   " und ein gutes Werk die Barmherzigkeit, }
-    \line {   "   " eine ergiebige Quelle die Weisheit. }
+    \line {   "   " eine üppige Quelle die Weisheit. }
     \line { " " }
     \line { 2. Und wer dies hört, }
-    \line {   "   "erschauert vor dieser guten, liebevollen Melodie; }
-    \line {   "   " und erstrahlt und aufersteht und segnet diese Saat.}
+    \line {   "   "erschauert vor dieser guten, lieblichen Melodie; }
+    \line {   "   " und erstrahlt und aufersteht }
+    \line {   "   " und segnet diese Saat.}
  
-        \line { " " }
+    \line { " " }
      \line { "   " \italic { Refrain } ... }
     \line { " " }
     \line { 3. Die Liebe ergießt sich in den Kosmos, }

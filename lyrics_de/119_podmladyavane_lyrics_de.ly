@@ -1,33 +1,33 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Ich werde mich verjüngen" }
+\markup \fill-line { \fontsize #deTitleFontSize "Verjüngen" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
   \hspace #14
-    \override #`(baseline-skip . ,deCoupletBaselineSkip)
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
 
- \line { " " Ich werde mich verjüngen,  }
+    \line { " " Ich werde mich verjüngen,  }
 
- \line { " " du wirst dich verjüngen,  }
+    \line { " " du wirst dich verjüngen,  }
 
- \line { " " er wird sich verjüngen.  }
+    \line { " " er wird sich verjüngen.  }
 
- \line { " " Das sagte mir die Liebe.  }
+    \line { " " Das sagte mir die Liebe.  }
 
- \line { " " Wir, die wir den Weg des Guten befolgen, }
+    \line { " " Wir, die wir dem Weg des Guten folgen, }
 
- \line { " " werden uns verjüngen,  }
+    \line { " " werden uns verjüngen,  }
 
- \line { " " ihr, die ihr den Weg des Guten befolgt, }
+    \line { " " ihr, die ihr dem Weg des Guten folgt, }
 
- \line { " " werdet euch verjüngen. }
+    \line { " " werdet euch verjüngen. }
 
- \line { " " Das sagte mir die Liebe. }
+    \line { " " Das sagte uns die Liebe. }
 
- \line { " " Das sagte mit die Liebe.  }
+    \line { " " Das sagte uns die Liebe.  }
 
   }
 }

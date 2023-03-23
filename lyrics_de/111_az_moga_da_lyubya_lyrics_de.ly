@@ -7,15 +7,14 @@
   \hspace #12
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-\column {
-    \line { " "Ich kann lieben (ljubia), }
-    \line { " "   damit ich gut werde, }
-
-    \line { " "ich kann lieben (obitscham), }
-    \line { " "       damit ich stark werde.}
-    \line { " "  Die Liebe (ljubovta) und die Liebe (obitschta) }
+  \column {
+    \line { " "Ich kann lieben [ljubia], }
+    \line { " " um gut zu werden, }
+    \line { " "ich kann lieben [obitscham], }
+    \line { " "  um stark zu werden.}
+    \line { " "  Die Liebe [ljubovta] und die Liebe [obitschta] }
     \line { " "  werden mich lehren, }
-    \line { " " ein Diener Gottes zu werden.}
+    \line { " " Diener Gottes zu werden.}
 
 
   }

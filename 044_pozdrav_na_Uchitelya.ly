@@ -16,15 +16,15 @@
       \autoBeamOff
 
 
-      c'4 f'8. g'16 | \time 3/4 a'4. g'8 a' bes' | c''4. c''8 e'' d'' | \break 
-      
+      c'4 f'8. g'16 | \time 3/4 a'4. g'8 a' bes' | c''4. c''8 e'' d'' | \break
+
       c''4. d''8 c'' bes'  | \time 4/4  a'2 c'4 f'8. g'16 | a'4 f''2 g''8. f''16  | \break
-      
-      \time 3/4  e''4. d''8 e'' d'' | c''4. d''8 c'' bes'  | \time 2/4 a'2 | \break  \time 4/4  c''4   bes'8. a'16 g'2| 
-      
-       bes'4  d''8 d'' c''4. c''8  | \break 
-       
-       \time 3/4  f''8 f'' e''4.  d''8 | c'' bes' a'2 | \time 4/4 c''4  bes'8. a'16 g'2 \break |
+
+      \time 3/4  e''4. d''8 e'' d'' | c''4. d''8 c'' bes'  | \time 2/4 a'2 | \break  \time 4/4  c''4   bes'8. a'16 g'2|
+
+      bes'4  d''8 d'' c''4. c''8  | \break
+
+      \time 3/4  f''8 f'' e''4.  d''8 | c'' bes' a'2 | \time 4/4 c''4  bes'8. a'16 g'2 \break |
 
       bes'4 d''8 d'' c''4. c''8 \time 3/4  f''8 f'' e''4. d''8 | c'' bes' a'2 \bar "|."
 

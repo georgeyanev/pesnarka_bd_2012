@@ -4,14 +4,12 @@
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
-  \hspace #28
+  \hspace #17
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
     
-     \line { " Ich höre. (4)" }
-
-
+     \line { " Ich höre, ich höre, ich höre, ich höre." }
 
   }
 }

@@ -65,14 +65,14 @@
       \line {   "   " да освежа очите си,}
       \line {   "   " душа си страдна да очистя,}
       \line {    "   "  "   "  "   " очистя, очистя,}
-      \line {   "   " душа си страдна да очистя?“}
+      \line {   "   " душа си страдна да очистя?}
       \line { " " }
       \line { 4. Да отпочина ли; ръце,}
       \line {   "   " лице, нозе си да измия}
       \line {   "   " от тоз световен прах; сърце,}
       \line {   "   " покрито с рани, да разкрия,}
       \line {    "   "  "   "  "   " разкрия, разкрия,}
-      \line {   "   " покрито с рани, да разкрия? }
+      \line {   "   " покрито с рани, да разкрия?“}
       \line { " " }
       \line { 5.  „Склони, о, пътниче злочест,}
       \line {   "   " глава си морна; утолявай}
@@ -101,14 +101,14 @@
       \line {   "   " da osvezha ochite si,}
       \line {   "   " dusha si stradna da ochistya,}
       \line {    "   "  "   "  "   " ochistya, ochistya,}
-      \line {   "   " dusha si stradna da ochistya?“}
+      \line {   "   " dusha si stradna da ochistya?}
       \line { " " }
       \line { 4. Da otpochina li; ratse,}
       \line {   "   " litse, noze si da izmiya}
       \line {   "   " ot toz svetoven prah; sartse,}
       \line {   "   " pokrito s rani, da razkriya,}
       \line {   "   "  "   "  "   " razkriya, razkriya,}
-      \line {   "   " pokrito s rani, da razkriya? }
+      \line {   "   " pokrito s rani, da razkriya?“ }
       \line { " " }
       \line { 5.  „Skloni, o, patniche zlochest,}
       \line {   "   " glava si morna; utolyavay}

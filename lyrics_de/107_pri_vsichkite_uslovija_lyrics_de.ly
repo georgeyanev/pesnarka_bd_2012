@@ -8,17 +8,17 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-\line { " "Unter allen Bedingungen des Lebens }
+    \line { " "Unter allen Bedingungen des Lebens }
 
-\line { " "verliere deinen Frieden, deinen Frieden nicht!}
+    \line { " "verliere nicht deinen Frieden, deinen Frieden!}
+    \line { " "}
 
-\line { " "Schön ist das Leben, }
-
-\line { " "wenn der Mensch mutig ist.}
-
+    \line { " "Das Leben ist schön, wenn der Mensch mutig ist.}
+    \line { " "Das Leben ist schön, wenn der Mensch mutig ist.}
 
 
-    }
+
+  }
 
 
 }

@@ -98,6 +98,8 @@
         % include foreign translation(s) of the song
         \include "lyrics_de/083_2_vecher_sutrin_lyrics_de.ly"
 
+
+        \markup \empty-three
         \markup \empty-three
         \include "include/bookpart-paper.ily"
         \score {
@@ -197,7 +199,7 @@
 
               } % score
 
-
+              \markup \empty-two
 
               % include foreign translation(s) of the song
               \include "lyrics_de/084_imashe_chelovek_lyrics_de.ly"

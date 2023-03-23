@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Sage mir die Wahrheit" }
+\markup \fill-line { \fontsize #deTitleFontSize "Sage du mir die Wahrheit" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
@@ -9,9 +9,13 @@
 
   \column {
 
-    \line { " " Sage mir die Wahrheit, }
+    \line { " " Sage du mir die Wahrheit, }
 
-\line { " " die Freiheit bringt für meine Seele}
+\line { " " die Freiheit bringt für meine Seele.}
+
+    \line { " " Sage du mir die Wahrheit, }
+
+\line { " " die Freiheit bringt für meine Seele.}
 
   }
 }

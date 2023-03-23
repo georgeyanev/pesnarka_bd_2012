@@ -9,15 +9,13 @@
 
   \column { 
 
-    \line { " "Höre, Herr,}
+    \line { " "Höre, Herr, an Dich richte ich mein Gebet. }
 
-    \line { " "an Dich richte ich mein Gebet. }
-
-    \line { " "Möge sich mein Körper von allen Ungerechtigkeiten befreien, }
+    \line { " "Mein Körper befreie sich von allen Ungerechtigkeiten, }
 
     \line { " "die ich in die Welt bringe. }
 
-    \line { " "Herr, Herr, Herr, möge deine Barmherzigkeit kommen,}
+    \line { " "Herr, Herr, Herr, Deine Barmherzigkeit komme,}
 
     \line { " "über mich, über mich.}
 

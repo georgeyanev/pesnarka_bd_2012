@@ -30,13 +30,13 @@
 \line { " "die Sternuniversen. }
 
 
-\line { " "Und in der erschöpften Seele}
+\line { " "Und die ermattete Seele erhebt sich - }
 
-\line { " "entsteht ein ewiges Streben.}
+\line { " " ewiges Streben.}
 
 \line { " "In Trauer, Freude und Tränen}
 
-\line { " "führt mich der Weg hinaus, ich weiß.}
+\line { " "führt mein Weg hinaus, ich weiß.}
 
 \line { " "Der mächtige Geist fliegt}
 

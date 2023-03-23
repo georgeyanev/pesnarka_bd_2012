@@ -9,11 +9,11 @@
 
   \column {
 
-\line { " " Hätte ich auf dich gehört, hätte ich auf dich gehört,}
+\line { " " Hätte ich auf Dich gehört, hätte ich auf Dich gehört,}
 
 \line { " " wenn ich auf dich gehört hätte,}
 
-\line { " " hätte sich das Gute in mir geäußert, }
+\line { " " hätte sich das Gute in mir manifestiert, }
 
 \line { " " hätte sich das Gute in mir offenbart.}
 

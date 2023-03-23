@@ -14,7 +14,7 @@
       \time 4/4
       \tempoFunc "Andante sostenuto" 4 "60"
       \repeat volta 2 {
-        a2 a4 a4 | bes2 a4 a4 |  a4 \autoBeamOff a8 a8 d,4 f4 |  a2 g2 |\break
+        a2 a4 a4 | bes2 a4 a4 | a4 \autoBeamOff a8 a8 d,4 f4 |  a2 g2 |\break
         f2 g4 ( a4 ) | bes2 bes2 | bes2 a4 a4 | a4 a8 a8 d,4 ( f4 ) | \break
         a4 ( bes4 ) a4 ( g4 ) |  f2 e2 |
       }

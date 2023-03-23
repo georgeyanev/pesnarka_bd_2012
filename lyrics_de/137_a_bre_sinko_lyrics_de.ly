@@ -4,21 +4,27 @@
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
-  \hspace #6
+  \hspace #13
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
- \line { " "Ach, mein Sohn, weißt du, was die Nachbarn über dich sprechen?}
+ \line { " "Ach, mein Sohn, weißt du,}
+ 
+  \line { " "was die Nachbarn über dich sprechen?}
 
- \line { " "Dass du die Herde im Gebirge alleine gelassen hast und }
+ \line { " "Dass du die Herde im Gebirge alleine gelassen hast }
 
- \line { " "abends zurückgekehrt bist, Mädchen am Abendtreffen zu treffen.}
+ \line { " "und abends zurückgekehrt bist,}
+ 
+ \line { " " um Mädchen abends auf dem Dorfplatz zu treffen.}
 
  \line { " "Mädchen, die Treffen anzetteln, anzetteln}
 
  \line { " "sie zetteln sie an, aber sie verderben auch.}
 
- \line { " "Ein Mädchen, mein Sohn, wählt man, nicht abends aus.}
+ \line { " "Ein Mädchen, mein Sohn,}
+ 
+  \line { " " wählt man nicht am Abend aus.}
 
 
   }

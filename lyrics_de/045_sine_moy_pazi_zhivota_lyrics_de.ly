@@ -10,7 +10,7 @@
 
     \line {  1. Mein Sohn, bewahre das Leben, }
 
-    \line { "   "die in dir verborgene Glut }
+    \line { "   "die in dir verborgene Glut. }
 
     \line { "   "Es ist seinem Sinn nach kostbar}
 
@@ -27,13 +27,13 @@
 
     \line { 2. Du bist dieses wirkliche Leben; }
 
-    \line { "   "Sohn; erkenne dich! }
+    \line { "   "Sohn, erkenne dich! }
 
     \line { "   "Deine Kraft ist groß,}
 
     \line { "   "deine Tage haben kein Ende. }
 
-    \line { "   "Du erschaffst jeden Impuls, }
+    \line { "   "Du erschaffst jede Regung, }
 
     \line { "   "das edle Streben, }
 
@@ -52,10 +52,10 @@
 
     \line { "   "Kühnheit, mein liebes Leben,}
 
-    \line { "   "die göttliche Liebe ist mit dir! }
+    \line { "   "mit dir ist die göttliche Liebe! }
 
     \line { "   "Sie ruft dich immer nach oben}
 
-    \line { "   "in Vollkommenheit und in die neue Welt.}
+    \line { "   "in die Vollkommenheit und in die neue Welt.}
   }
 }

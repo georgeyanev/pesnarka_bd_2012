@@ -17,11 +17,12 @@
 
  \line { " " Alle Blätter raschelten,}
 
- \line { " " sie raschelten und betteten:}
+ \line { " " sie raschelten und beteten:}
 
- \line { " " Höre auf, Wind, höre auf Wind,}
+ \line { " " „Höre auf, Wind, höre auf Wind,}
 
  \line { " " freier Frühlingswind.}
+ \line { " "}
 
  \line { " " Hast du kein Mitleid mit uns?}
 
@@ -31,15 +32,19 @@
 
  \line { " " Wehe nicht, oh Wind, wir werden herunterfallen.}
 
- \line { " " Unsere Rippen werden brechen.}
+ \line { " " Unsere Rippen werden brechen.“}
 
- \line { " " Hier seid ihr kleine Blättchen, }
+\line { " "}
+
+ \line { " " „Hier seid ihr kleine Blättchen, }
 
  \line { " " ich hörte von ferne von euch}
 
  \line { " " und kam, euch zu sehen,}
 
- \line { " " mit euch zu spielen und euch umzuwehen.}
+ \line { " " mit euch zu spielen und euch zu umwehen.}
+
+ \line { " "}
 
  \line { " " Dann hört mein Lied:}
 
@@ -49,11 +54,13 @@
 
  \line { " " Er wird den Acker gießen,}
 
- \line { " " und er wird ihn für Spiele vorbereiten.}
+ \line { " " und ihn für Spiele vorbereiten.}
 
  \line { " " Damit kein Staub aufsteigt, ihr Blätter,}
 
- \line { " " bei diesen fröhlichen Spiele.}
+ \line { " " bei diesen fröhlichen Spielen.}
+
+\line { " "}
 
  \line { " " Von oben wird die Sonne beginnen zu scheinen,}
 
@@ -65,11 +72,11 @@
 
  \line { " " damit wir reines Wasser trinken}
 
- \line { " " und uns mit Freude trennen.}
+ \line { " " und in Freude auseinandergehen.}
 
- \line { " " Auf das wir uns wieder treffen}
+ \line { " " Auf dass wir uns wieder treffen}
 
- \line { " " und gut mit Liebe verstehen.}
+ \line { " " und gut mit Liebe verstehen.“}
 
   }
 }

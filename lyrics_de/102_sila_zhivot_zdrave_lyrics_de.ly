@@ -9,13 +9,13 @@
 
   \column {    
      
-  \line { " "Kraft, Leben, Gesundheit -}
+  \line { " "Kraft, Leben, Gesundheit –}
 
   \line { " "sie sind eins. }
 
   \line { " "Diener des Geistes, }
 
-  \line { " "Träger der Freude, }
+  \line { " "Überbringer der Freude, }
 
   \line { " "Stütze der Jugend, }
 
