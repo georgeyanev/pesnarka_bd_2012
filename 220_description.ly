@@ -7,11 +7,9 @@
   \include "include/bookpart-paper.ily"
 
   \markup \fontsize  #+5.5 { \hspace #3.2 \fill-line \bold {"" "Anmerkungen zu den Liedern" ""} }
-
-
-
-
-  \markup \fontsize  #+2  {
+ 
+ 
+ \markup \fontsize  #+2  {
     \vspace #1.5 \override #'(baseline-skip . 2.2)
     \column {
       \vspace #1.3
