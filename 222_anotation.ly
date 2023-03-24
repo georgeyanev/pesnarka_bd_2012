@@ -44,11 +44,11 @@
   \markup \fontsize  #+2.0  {{  \hspace #15 \vspace #0.5  auf der Grundlage der bulgarischen Ausgabe von 2012} }
   \markup \fontsize  #+2.0  {{  \hspace #25 \vspace #0.5 Veröffentlicht in Bulgarien} }
 
-   \markup \fontsize  #+4.0  {\bold {  \hspace #27  \vspace #3.0 Redaktion:} }
+   \markup \fontsize  #+4.0  {\bold {  \hspace #27  \vspace #3.0 Redaktion} }
       \markup \fontsize  #+3.0  { {  \hspace #27  \vspace #0.8 Peter Ganev} }
 
-   \markup \fontsize  #+4.0  {\bold {  \hspace #23  \vspace #2.0 Zusammengestellt von:} }
-    \markup \fontsize  #+3.0  { {  \hspace #10  \vspace #0.8 Georgi Stratev, Ioana Strateva, Stanka Zheleva Peter Ganev} }
+   \markup \fontsize  #+4.0  {\bold {  \hspace #23  \vspace #2.0 Zusammengestellt von} }
+    \markup \fontsize  #+3.0  { {  \hspace #15  \vspace #0.8 Georgi Stratev, Ioana Strateva, Stanka Zheleva} }
      \markup \fontsize  #+3.0  { {  \hspace #22  \vspace #0.5 Penka Kadieva und Peter Ganev} }
 
      

@@ -12,13 +12,12 @@
 
     \line { " " }
 
-  \line { " "Und Gott sprach: Es werde Weite zwischenden Wassern.}
+  \line { " "Und Gott sprach: „Es werde Weite zwischen den Wassern.“ }
   \line { " " Und da machte Gott die Weite und schied Gott das Wasser}
   \line { " "über der Weite von dem Wasser unter der Weite.}
   \line { " "Und es geschah so.}
-
-  \line { " "Und Gott nannte die Weite Himmel. Und es ward Abend und }
-  \line { " "ward Morgen, der zweite Tag.}
+  \line { " "Und Gott nannte die Weite Himmel.  }
+  \line { " "Und es ward Abend und ward Morgen, der zweite Tag.}
 
   }
 }

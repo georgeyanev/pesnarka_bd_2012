@@ -52,13 +52,13 @@
 
       \line {
         \justify {
-          \fontsize  #+1.6 \bold { \fill-line {"" "Brüderliche Lieder" ""} }
+          \fontsize  #+0.8 \bold { \fill-line { \smallCaps"Brüderliche Lieder"} }
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          \bold "Зората на Новия живот – Zorata na Noviya zhivot. "
+          \bold "Зората на Новия живот – Zorata na Noviya zhivot."
           Musik des Meisters, Text von einem Schüler nach den Ideen des Meisters. In der Ausgabe von 1949
           wurde in der ersten Strophe das Wort Leben statt Bundeslade verwendet.
         }
@@ -68,7 +68,7 @@
 
       \line {
         \justify {
-          \bold "Излязъл е сеяч – Izlyazal e seyach. "
+          \bold "Излязъл е сеяч – Izlyazal e seyach."
           Musik des Meisters, Text von einem Schüler nach den Ideen des Meisters.
         }
       }
@@ -77,7 +77,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold "Братство единство – Bratstvo Edinstvo. "
+          \bold "Братство единство – Bratstvo Edinstvo."
           Musik von Petar Danov, Text von einem Schüler nach den Ideen von Petar Danov.
         }
       }
@@ -99,7 +99,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold "Благославяй – Blagoslavyay. "
+          \bold "Благославяй – Blagoslavyay."
           Musik und Text von Petar Danov nach dem Psalm 103.
         }
       }
@@ -113,7 +113,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold "Любовта е извор – Lyubovta e izvor. "
+          \bold "Любовта е извор – Lyubovta e izvor."
           Musik von Petar Danov, Text von einem Schüler nach den Ideen von Petar Danov. In den Notizen von Bojan Boev wurde das Lied \italic "Lied der Liebe" betitelt.
         }
       }
@@ -141,7 +141,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold "Шуми – Shumi"
+          \bold "Шуми – Shumi."
           Musik von Petar Danov, Text von einem Schüler nach den Ideen von Petar Danov. Ladanchiza ist ein Mädchen, das rituelle Lieder und Tänze ausführt, die der heidnischen Göttin Lada gewidmet wurden.
         }
       }
@@ -149,7 +149,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold "Напред да ходим – Напред да ходим"
+          \bold "Напред да ходим – Напред да ходим."
           Musik des Meisters, Text von einem Schüler nach den Ideen des Meisters. In den Notitzen von Bojan Boev heißt das Lied \italic"Marsch der Bruderschaft bei Ausflügen."
 
         }
@@ -158,7 +158,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold "При източника – Pri iztochnika"
+          \bold "При източника – Pri iztochnika."
           Musik von Petar Danov, Text Ivan Tolev.
         }
       }
@@ -455,7 +455,7 @@
       \vspace #0.3
       \line {
         \justify {
-          \fontsize  #+1.0 \bold { \fill-line {"" "Lieder von Petar Danov" ""} }
+           \fontsize  #+0.8 \bold { \fill-line { \smallCaps"Lieder von Petar Danov"} }
         }
       }
       \vspace #0.3
@@ -1208,14 +1208,14 @@
       \vspace #0.5
       \line {
         \justify {
-          \fontsize  #+1.0 \bold { \fill-line {"" "Lieder nach 1944" ""} }
+          \fontsize  #+0.8 \bold { \fill-line { \smallCaps"Lieder nach 1944"} }
         }
       }
       \vspace #0.3
 
       \line {
         \justify {
-          \bold  "Българска рапсодия – Bylgarska rapsodia"  Gegeben 1934. Redaktion Maria Todorova. Hier hat Petar Danov die erhabensten Gestalten aus dem bulgarischen Epos dargestellt. Ihnen liegt eine tiefe Symbolik zugrunde:  Das ist der mystische Weg der menschlichen Seele, die danach strebt, in berührung mit der göttlichen Liebe zu kommen.
+          \bold  "Българска рапсодия – Bylgarska rapsodia."  Gegeben 1934. Redaktion Maria Todorova. Hier hat Petar Danov die erhabensten Gestalten aus dem bulgarischen Epos dargestellt. Ihnen liegt eine tiefe Symbolik zugrunde:  Das ist der mystische Weg der menschlichen Seele, die danach strebt, in berührung mit der göttlichen Liebe zu kommen.
         }
       }
       \vspace #0.5
@@ -1280,7 +1280,7 @@
 
       \line {
         \justify {
-          \bold "Мирът иде вече – Mirat ide veche."
+          \bold "Мирът иде вече – Mirat ide veche." Erklärung kommt.
         }
       }
 
@@ -1667,15 +1667,15 @@
     \column {
 
       \line { "163." }
-      \vspace #18.0
+      \vspace #18.7
       \line { "164." }
-      \vspace #2.5
+      \vspace #2.6
       \line { "165." }
       \vspace #2.5
       \line { "166." }
       \vspace #3.3
       \line { "167." }
-      \vspace #1.2
+      \vspace #1.1
       \line { "168." }
 
     }
@@ -1689,7 +1689,7 @@
 
           \bold "Новото Битие – Novoto Bitie."  Das Erschaffen des neuen Adams. Gegeben von Petar Danov an Liljana Tabakova in der folgenden Reihenfolge: Erster göttlicher Tag 7. Dezember 1941., Zweiter göttlicher Tag  28. Juli 1942. Dritter göttlicher Tag  1. Oktover 1942. Vierter göttlicher Tag  12. November 1942, Fünfter göttlicher Tag  30. Mai 1943, Sechster göttlicher Tag, 21. Juli 1943, Siebter Göttlicher Tag  15. September 1943.
 
-          Unter Neuer Genesis verstehen wir das neue Leben, welches sich jetzt für die gesamte Menschheit und jedes einzelne Individuum an sich aufzubauen beginnt. Die erste „Genesis“, die in der Bibel beschrieben wurde, symbolisiert das alte Leben. Der alte Adam hat gesündigt. Musikalisch gesprochen, hat er nicht das F nicht sauber genommen, das dem Materiellen in dieser Welt entspricht. Der neue Adam wird diesen Fehler des alten Adams korrigieren. Er wird keine Fehler mehr begehen und nicht mehr sterben. Musikalisch gesprochen bedeutet dies: Er wird die Noten der Tonleiter richtig bis zum A singen. Das A entspricht der 6. Rasse. Es bleibt dann nur noch die Note H, die reife Frucht. Diese Frucht symbolisiert die 7. Rasse. Die sieben Tage Gottes, aus der Genesis, entsprechen den sieben Noten der Tonleiter. So beginnt der erste Tag Gottes mit der Note C. Das bedeutet, dass die Mächte des Lichts, die die Schöpfung der neuen Welt begonnen haben, die Materie des alten Lebens in eine neue, höhere Tonleiter umformen und in sie das Element der Unsterblichkeit einfügen werden. Nach dieser Analogie werden sich im Blut des neuen Adam neue rote Blutkörperchen formen, die von den Eigenschaften des neuen Lebens durchdrungen sein werden. Der zweite Tag Gottes, der mit dem Ton D beginnt, wird das Nervensystem, die Knochen und den Willen transformieren. So wird jeder göttliche Tag etwas Neues in die Struktur des Kosmos und des Menschen hervorbringen. Jeder Mensch wird seine neue Existenz individuell leben. Das Lied endet mit den magischen Worten des kosmischen Geistes Aum, und der Universalseele Aumen.
+          Unter \italic" Neuer Genesis" verstehen wir das neue Leben, welches sich jetzt für die gesamte Menschheit und jedes einzelne Individuum an sich aufzubauen beginnt. Die erste „Genesis“, die in der Bibel beschrieben wurde, symbolisiert das alte Leben. Der alte Adam hat gesündigt. Musikalisch gesprochen, hat er das F nicht sauber genommen, das dem Materiellen in dieser Welt entspricht. Der neue Adam wird diesen Fehler des alten Adams korrigieren. Er wird keine Fehler mehr begehen und nicht mehr sterben. Musikalisch gesprochen bedeutet dies: Er wird die Noten der Tonleiter bis zum A richtig singen. Das A entspricht der 6. Rasse. Es bleibt dann nur noch die Note H, die reife Frucht. Diese Frucht symbolisiert die 7. Rasse. Die sieben Tage Gottes, aus der Genesis, entsprechen den sieben Noten der Tonleiter. So beginnt der erste Tag Gottes mit der Note C. Das bedeutet, dass die Mächte des Lichts, die die Schöpfung der neuen Welt begonnen haben, die Materie des alten Lebens in eine neue, höhere Tonleiter umformen und in sie das Element der Unsterblichkeit einfügen werden. Nach dieser Analogie werden sich im Blut des neuen Adam neue rote Blutkörperchen formen, die von den Eigenschaften des neuen Lebens durchdrungen sein werden. Der zweite Tag Gottes, der mit dem Ton D beginnt, wird das Nervensystem, die Knochen und den Willen transformieren. So wird jeder göttliche Tag etwas Neues in die Struktur des Kosmos und des Menschen hervorbringen. Jeder Mensch wird seine neue Existenz individuell leben. Das Lied endet mit den magischen Worten des kosmischen Geistes Aum, und der Universalseele Aumen. \italic"(Deutung nach Ideen von Petar Danov.)"
         }
       }
 

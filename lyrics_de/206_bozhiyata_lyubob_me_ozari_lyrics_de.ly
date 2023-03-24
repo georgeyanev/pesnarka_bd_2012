@@ -10,9 +10,7 @@
   \column {
 
 
-    \line { " "Die göttliche Liebe   }
-
-    \line { " "weitete meine Seele  }
+    \line { " "Die göttliche Liebe weitete meine Seele  }
 
     \line { " "und erfüllte mein Herz mit Strahlen.  }
 
@@ -37,8 +35,12 @@
 
     \line { " "sie heiligte meine Seele,   }
 
-    \line { " "stärkte meinen Geist;   }
+    \line { " "sie stärkte meinen Geist;   }
 
-    \line { " "und flößte mir Güte ein. (3)  }
+    \line { " "und flößte mir Güte ein, }
+
+    \line { " " und flößte mir Güte ein, }
+    
+    \line { " " und flößte mir Güte ein.  }
   }
 }

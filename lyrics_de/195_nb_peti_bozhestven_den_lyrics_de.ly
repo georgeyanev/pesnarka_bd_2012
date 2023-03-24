@@ -11,19 +11,19 @@
     \line { " " }
 
 
-  \line { " "20/21 Und Gott sprach: Es wimmle das Wasser von}
+  \line { " " Und Gott sprach: Es sollen entstehen im Wasser}
 
-  \line { " "Fischen und lebendigem Getier, und Vögel sollen}
+  \line { " "Fische und Meeresungeheuer, und Vögel sollen}
 
-  \line { " "fliegen auf Erden unter der Feste des Himmels,}
+  \line { " "fliegen auf der Erde unter der Himmelsweite,}
 
-  \line { " "einen jeden nach seiner Art. Und es ward so. Und}
+  \line { " "ein jeder nach seiner Art. Und es ward so. }
 
-  \line { " "Gott sah, dass es gut war.}
+  \line { " " Und Gott sah, dass alles gut war.}
 
-  \line { " "22 Und Gott segnete sie.}
+  \line { " "Und Gott segnete sie.}
 
-  \line { " "23 Da ward aus Abend und Morgen der fünfte Tag.}
+  \line { " " Da ward Abend und es ward Morgen, der fünfte Tag.}
 
   }
 }

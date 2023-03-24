@@ -13,7 +13,7 @@
 \line { " "Ich glaube an Dich, Herr, }
 
  \line { " "der Du zu mir in der Vergangenheit gesprochen hast. }
-  \line { " "}
+ \line { " "}
 
  \line { " "Ich glaube an Dich, Herr, }
 

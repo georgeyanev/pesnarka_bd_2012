@@ -9,7 +9,7 @@
 
   \column {
 
- \line { " "Wenn eure Seelen offen wären. }
+ \line { " "Wenn eure Ohren offen wären, }
 
  \line { " "würdet ihr die Stimme der Engel hören, }
 
@@ -17,7 +17,7 @@
 
  \line { " "Sie singen das Lied der Liebe. }
 
- \line { " "Sie singen: Ihr, die Menschen, }
+ \line { " "Sie singen: „Ihr, die Menschen, }
 
  \line { " "die ihr geschaffen wurdet }
 
@@ -41,18 +41,18 @@
 
  \line { " "dies ist der Sinn des Lebens, }
 
- \line { " "der Sinn des Lebens, der Unsterblichkeit. }
+ \line { " "der Sinn des Lebens, der Unsterblichkeit.“ }
 
  \line { " "Sieh, das Lied der Engel, }
 
  \line { " "die jetzt singen: }
 
- \line { " "Herrlichkeit zu unserem großen Schöpfer! }
+ \line { " "„Ruhm zu unserem großen Schöpfer! }
 
- \line { " "Herrlichkeit, Herrlichkeit, Herrlichkeit unserem Vater! }
+ \line { " "Ruhm, Ruhm, Ruhm unserem Vater! }
 
- \line { " "Herrlichkeit unserem Vater, }
+ \line { " "Ruhm unserem Vater, }
 
- \line { " "unserem großen Vater. }
+ \line { " "unserem großen Vater.“ }
   }
 }
