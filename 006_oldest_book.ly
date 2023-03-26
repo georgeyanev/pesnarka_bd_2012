@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+    \label #'ref006
+  \tocItem \markup "Aus dem ältesten Buch"
     \paper {
     print-all-headers = ##f
     print-page-number = ##f
