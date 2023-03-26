@@ -464,7 +464,7 @@
 
       \line {
         \justify {
-          \bold "Фир фюр фен – Благославай – Fir fyer fen – Blagoslavyay." Segne: Das Lied wurde am 21. August 1922 während der Zusammenkunft in Veliko Tarnovo im Vortrag \italic"Musik, Arbeit, und Fasten" gegeben. Dieses Lied dient der Harmonisierung und der Heilung. Es reguliert die Ströme und die Kräfte im Menschen und bringt sie in Harmonie mit dem Sein. Die Worte entstammen einer heiligen Sprache und können nicht wortwörtlich übersetzt werden. Petar Danov gibt nur eine ungefähre Übersetzung: Ohne Angst, ohne Finsternis.
+          \bold "Фир-фюр-фен – Благославай – Fir-fyer-fen – Blagoslavyay." Segne: Das Lied wurde am 21. August 1922 während der Zusammenkunft in Veliko Tarnovo im Vortrag \italic"Musik, Arbeit, und Fasten" gegeben. Dieses Lied dient der Harmonisierung und der Heilung. Es reguliert die Ströme und die Kräfte im Menschen und bringt sie in Harmonie mit dem Sein. Die Worte entstammen einer heiligen Sprache und können nicht wortwörtlich übersetzt werden. Petar Danov gibt nur eine ungefähre Übersetzung: Ohne Angst, ohne Finsternis.
 
           \italic "Fir-für"  dasjenige, was den Menschen leitet.
 
