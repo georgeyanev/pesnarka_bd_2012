@@ -4,6 +4,7 @@
 \include "include/globals.ily"
 
 \bookpart {
+  
    \tocAct \markup "BRÜDERLICHE LIEDER"
     \paper {
     print-all-headers = ##f
