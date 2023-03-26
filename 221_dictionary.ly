@@ -247,7 +247,7 @@
       \vspace #0.5
       \line {
         \justify {
-          und zum Beispiel rit. e morendo - verlangsamend und ersterbend.
+          und zum Beispiel rit. e morendo – verlangsamend und ersterbend.
 
         }
       }

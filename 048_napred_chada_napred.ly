@@ -29,6 +29,8 @@
 }
 
 \bookpart {
+  \label #'ref048
+  \tocItem \markup "Напред, чада, напред – Napred, chada, napred"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

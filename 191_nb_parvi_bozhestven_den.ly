@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref039
+  \tocItem \markup " "
   \include "include/bookpart-paper.ily"
   \markup \center-column \normal-text \fontsize #6.5 {
     \center-align

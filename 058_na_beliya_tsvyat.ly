@@ -45,6 +45,8 @@
 }
 
 \bookpart {
+  \label #'ref058
+  \tocItem \markup "На белия цвят – Na beliya zvjat"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

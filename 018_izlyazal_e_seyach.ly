@@ -29,11 +29,13 @@
     \translate #'(0 . -14.5 )
     2
 
-  
+
   }
 }
 
 \bookpart {
+  \label #'ref018
+  \tocItem \markup "Излязъл е сеяч – Izlyazal e seyach"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

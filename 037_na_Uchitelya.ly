@@ -36,6 +36,8 @@
 }
 
 \bookpart {
+  \label #'ref037
+  \tocItem \markup "На Учителя – Na Uchitelya"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

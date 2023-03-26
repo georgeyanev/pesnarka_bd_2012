@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref071_1
+  \tocItem \markup "Изгрява слънцето – Izgryava slantzeto"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -48,6 +50,9 @@
   % include foreign translation(s) of the song
   \include "lyrics_de/071_1_izgryava_slunzeto_lyrics_de.ly"
     \markup \empty-one
+
+      \label #'ref071_2
+  \tocItem \markup "Сила жива, изворна – Sila ziva, izvorna"
 
    \include "include/bookpart-paper.ily"
   \score {

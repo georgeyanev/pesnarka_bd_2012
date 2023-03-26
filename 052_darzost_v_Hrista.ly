@@ -72,6 +72,8 @@
 }
 
 \bookpart {
+  \label #'ref052
+  \tocItem \markup "Дързост в Христа – Darzost v Hrista"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

@@ -4,6 +4,10 @@
 \include "include/globals.ily"
 
 \bookpart {
+  
+     \label #'ref028
+  \tocItem \markup "Стани, стани – Stani, stani"
+
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

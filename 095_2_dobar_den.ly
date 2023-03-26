@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+   \label #'ref095_2
+  \tocItem \markup "Добър ден - Dobar den"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -51,7 +53,7 @@
 
 
     \header {
-      title = \titleFunc " Добър ден" "Dobar den"
+      title = \titleFunc "Добър ден" "Dobar den"
     }
 
     \midi{}

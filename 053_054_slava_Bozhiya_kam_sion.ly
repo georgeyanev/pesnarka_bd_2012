@@ -17,6 +17,8 @@
 
 
 \bookpart {
+  \label #'ref053
+  \tocItem \markup "Слава Божия – Slava Bozhia"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -53,6 +55,9 @@
   \include "lyrics_de/053_slava_Bozhiya_lyrics_de.ly"
 
   \markup \empty-three
+
+   \label #'ref054
+  \tocItem \markup "Към Сион – Kam Sion"
 
   \include "include/bookpart-paper.ily"
 

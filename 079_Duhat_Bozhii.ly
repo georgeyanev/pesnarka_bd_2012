@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref079
+  \tocItem \markup "Духът Божий – Duhat Bozhiy"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

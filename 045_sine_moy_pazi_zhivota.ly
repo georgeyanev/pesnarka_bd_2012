@@ -23,6 +23,8 @@
 }
 
 \bookpart {
+  \label #'ref045
+  \tocItem \markup "Сине мой, пази живота – Sine moi, pazi zhivota"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

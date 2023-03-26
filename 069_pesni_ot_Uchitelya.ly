@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref069
+  \tocAct \markup "LIEDER VON PETAR DANOV"
     \paper {
     print-all-headers = ##f
     print-page-number = ##f

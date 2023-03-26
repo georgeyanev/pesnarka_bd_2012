@@ -30,7 +30,7 @@
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
   
     tocTitleMarkup = \markup \fontsize  #+6.5 \bold \column {
-      \fill-line { \null "Съдържание" \null }
+      \fill-line { \null "Inhalt" \null }
       \null
     }
 
@@ -46,31 +46,14 @@
   }
 
 
-  \label #'markA
-  \tocItem \markup "Alabala"
-  \markup \fontsize #+5 Alabala
-  
-  \pageBreak
-  
-  \tocItem \markup "Niica"
-  \markup \fontsize #+5 Niica
-  
-  \pageBreak 
-  
-  \tocItem \markup "Turska paniica"
-  \markup \fontsize #+5 "Turska paniica"
-
-  \tocAct \markup "Vtora Chast"
-
-  \tocItem \markup "Ai giti vancho"
-  \markup \fontsize #+5 "Ai giti vancho"
-  \tocItem \markup "Nash kapitancho"
-  \markup \fontsize #+5 "Nash kapitancho"
-
-  \markup { Mark A is on page \page-ref #'markA "0" "?" }
+ 
 
   \pageBreak
   \markuplist \table-of-contents
+
+  
+
+   \markup {Благославяй – Blagoslavyay \page-ref #'ref024 "0" "?" }
 
 } % bookpart
 

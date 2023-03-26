@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref095
+  \tocItem \markup "Вдъхновение - Vdahnovenie "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -49,7 +51,7 @@
 
 
     \header {
-      title = \titleFunc " Вдъхновение" "Vdahnovenie"
+      title = \titleFunc "Вдъхновение" "Vdahnovenie"
     }
 
     \midi{}

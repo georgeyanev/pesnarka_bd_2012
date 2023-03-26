@@ -30,7 +30,7 @@
 \line { " "die Sternuniversen. }
 
 
-\line { " "Und die ermattete Seele erhebt sich - }
+\line { " "Und die ermattete Seele erhebt sich – }
 
 \line { " " ewiges Streben.}
 

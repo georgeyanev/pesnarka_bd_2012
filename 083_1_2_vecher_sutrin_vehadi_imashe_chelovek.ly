@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref083_1
+  \tocItem \markup "Вехади – Vehadi"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -50,6 +52,8 @@
     %
 
     \include "include/bookpart-paper.ily"
+      \label #'ref083_2
+  \tocItem \markup "Вечер сутрин – Vecher, sutrin"
     \score {
       \include "include/score-layout.ily"
 

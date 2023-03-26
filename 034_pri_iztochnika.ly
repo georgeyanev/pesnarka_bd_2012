@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+   \label #'ref034
+  \tocItem \markup "При източника – Pri iztochnika"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

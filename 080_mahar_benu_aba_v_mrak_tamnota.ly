@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref080
+  \tocItem \markup "Махар Бену Аба – Mahar Benu Aba"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

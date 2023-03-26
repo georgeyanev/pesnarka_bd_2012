@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref086_1
+  \tocItem \markup "Кажи ми ти истината – Kazhi mi ti istinata"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -64,6 +66,9 @@
   \include "lyrics_de/086_1_kazhi_mi_ti_istinata_lyrics_de.ly"
 
   \markup \empty-three
+
+   \label #'ref086_2
+  \tocItem \markup "Благата песен – Blagata pesen"
 
    \include "include/bookpart-paper.ily"
   \score {

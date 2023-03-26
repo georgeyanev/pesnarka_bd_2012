@@ -26,6 +26,8 @@
 }
 
 \bookpart {
+  \label #'ref088
+  \tocItem \markup "Ходи, ходи – Hodi, hodi "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

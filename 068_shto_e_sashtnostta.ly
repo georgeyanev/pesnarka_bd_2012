@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref068
+  \tocItem \markup "Що е същността – Sto e sastnostta"
   \paper {
     print-all-headers = ##t
     print-page-number = ##t

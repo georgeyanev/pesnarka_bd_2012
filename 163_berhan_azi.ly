@@ -2,6 +2,8 @@
 
 \include "include/globals.ily"
 \bookpart {
+  \label #'ref039
+  \tocItem \markup " "
   \paper {
     % the system system spacing is custom here so do not include bookpart-paper.ily
     print-all-headers = ##t
