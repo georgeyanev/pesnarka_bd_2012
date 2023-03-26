@@ -44,14 +44,15 @@
       \hspace #1
     }    
   }
-
-
  
 
-  \pageBreak
+
   \markuplist \table-of-contents
 
-  
+    \pageBreak
+
+     \label #'ref238
+  \tocItem \markup "Index"
 
    \markup {Благославяй – Blagoslavyay \page-ref #'ref024 "0" "?" }
 

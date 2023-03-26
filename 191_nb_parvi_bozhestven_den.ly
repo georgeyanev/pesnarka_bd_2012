@@ -5,7 +5,7 @@
 
 \bookpart {
    \label #'ref191
-  \tocItem \markup "Новото Битие – Създаването на новия Адам"
+  \tocItem \markup "Новото Битие – Novoto Bitie"
   \label #'ref191_1
   \tocItem \markup "     Първи Божествен ден – Parvi Bozhestven den"
   \include "include/bookpart-paper.ily"

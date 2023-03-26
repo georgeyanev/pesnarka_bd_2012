@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref126
-  \tocItem \markup "Отче наш, не ни въвеждай в изкушение – Otche nash, ne ni vavezhday v izkushenie "
+  \tocItem \markup "Отче наш, не ни ... – Otche nash, ne ni ... "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
