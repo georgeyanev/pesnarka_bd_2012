@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref179
-  \tocItem \markup "Молитва – Molitva "
+  \tocItem \markup "Молитва (Господи, Ти Си) – Molitva (Господи, Ти, Си) "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
