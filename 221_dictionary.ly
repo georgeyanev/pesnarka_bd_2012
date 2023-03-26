@@ -5,7 +5,7 @@
 
 \bookpart {
    \label #'ref221
-  \tocItem \markup "Wörteruch"
+  \tocItem \markup "Wörteruch der Musikbegriffe"
   \paper {
     print-all-headers = ##t
     print-page-number = ##t
