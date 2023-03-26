@@ -4,8 +4,6 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \label #'ref039
-  \tocItem \markup " "
     \paper {
     print-all-headers = ##f
     print-page-number = ##f

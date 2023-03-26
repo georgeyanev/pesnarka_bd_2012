@@ -4,8 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \label #'ref039
-  \tocItem \markup " "
+  \label #'ref156
+  \tocItem \markup "Мирът иде – Mirat ide  –  Der Frieden kommt "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

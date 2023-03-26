@@ -4,8 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \label #'ref039
-  \tocItem \markup " "
+  \label #'ref174_2
+  \tocItem \markup "Слушам – Slusham"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -55,7 +55,8 @@
       \include "lyrics_de/174_2_sluscham_lyrics_de.ly"
 
       \markup \empty-three
-
+  \label #'ref174_2
+  \tocItem \markup "Радост – Radost"
       \include "include/bookpart-paper.ily"
       \score {
         \include "include/score-layout.ily"

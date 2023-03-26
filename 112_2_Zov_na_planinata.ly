@@ -4,8 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \label #'ref039
-  \tocItem \markup " "
+  \label #'ref112_2
+  \tocItem \markup "Зов на планината – Zov na planinata"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

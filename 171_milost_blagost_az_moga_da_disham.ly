@@ -4,8 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \label #'ref039
-  \tocItem \markup " "
+  \label #'ref171_1
+  \tocItem \markup "Милост, благост – Milost, blagost"
 
 
   \include "include/bookpart-paper.ily"
@@ -59,6 +59,9 @@
       \include "lyrics_de/171_2_milost_blagost_lyrics_de.ly"
 
        \markup \empty-three
+
+         \label #'ref171_2
+        \tocItem \markup "Аз мога да дишам – Az moga da disham"
 
       \include "include/bookpart-paper.ily"
       \score {

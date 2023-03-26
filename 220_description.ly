@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+   \label #'ref220
+  \tocItem \markup "Anmerkungen "
   \include "include/bookpart-paper.ily"
 
   \markup \fontsize  #+5.5 { \hspace #3.2 \fill-line \bold {"" "Anmerkungen zu den Liedern" ""} }

@@ -5,8 +5,8 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \label #'ref039
-  \tocItem \markup " "
+  \label #'ref173
+  \tocItem \markup "Малката буболечица – Malkata bubolechitsa"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

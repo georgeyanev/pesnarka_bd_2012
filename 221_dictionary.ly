@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+   \label #'ref221
+  \tocItem \markup "Wörteruch"
   \paper {
     print-all-headers = ##t
     print-page-number = ##t

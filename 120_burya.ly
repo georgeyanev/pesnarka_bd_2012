@@ -3,8 +3,8 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \label #'ref039
-  \tocItem \markup " "
+  \label #'ref120
+  \tocItem \markup "Буря – Burya"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

@@ -4,6 +4,7 @@
 \include "include/globals.ily"
 
 \bookpart {
+   
   \include "include/bookpart-paper.ily"
 
   \markup \fontsize  #+5.5 { \fill-line \bold {"" "Anmerkungen zu den Liedern" ""} }

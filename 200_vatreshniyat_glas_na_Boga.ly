@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+   \label #'ref200
+  \tocItem \markup "Вътрешният глас на Бога – Vatreshniyat glas na Boga "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

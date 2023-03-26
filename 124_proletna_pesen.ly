@@ -3,8 +3,8 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \label #'ref039
-  \tocItem \markup " "
+  \label #'ref124
+  \tocItem \markup "Пролетна песен – Proletna pesen"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

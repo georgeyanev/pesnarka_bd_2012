@@ -4,8 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \label #'ref039
-  \tocItem \markup " "
+  \label #'ref167
+  \tocItem \markup "Към Фир фюр фен – Kam Fir fyur fen  – Zu Fir fyur fen"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -52,6 +52,8 @@
 
 
      \include "include/bookpart-paper.ily"
+      \label #'ref168
+  \tocItem \markup "Кажи ми Ти Истината II – Kazhi mi ti istinata II"
   \score {
     \include "include/score-layout.ily"
 

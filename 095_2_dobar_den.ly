@@ -5,7 +5,7 @@
 
 \bookpart {
    \label #'ref095_2
-  \tocItem \markup "Добър ден - Dobar den"
+  \tocItem \markup "Добър ден – Dobar den"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref091
-  \tocItem \markup "Нева Сензу - Neva Senzu"
+  \tocItem \markup "Нева Сензу – Neva Senzu"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

@@ -3,8 +3,8 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \label #'ref039
-  \tocItem \markup " "
+  \label #'ref121
+  \tocItem \markup "Ранен час – Ranen chas"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

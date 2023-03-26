@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref096
-  \tocItem \markup "Весел ти бъди - Vesel ti badi "
+  \tocItem \markup "Весел ти бъди – Vesel ti badi "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
