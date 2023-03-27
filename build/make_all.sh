@@ -6,6 +6,7 @@ cat \
     ../003_danov_img.ly \
     ../005_blank_page.ly \
     ../006_oldest_book.ly \
+    ../238_toc.ly \
     ../007_blank_page.ly \
     ../007_preface.ly \
     ../008_about_music.ly \
@@ -185,7 +186,6 @@ cat \
     ../218_appendix.ly \
     ../220_description.ly \
     ../221_dictionary.ly \
-    ../238_toc.ly \
     > tmp.ly
 
 lilypond --include=../ -o pesn_all tmp.ly

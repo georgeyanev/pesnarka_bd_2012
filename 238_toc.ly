@@ -40,7 +40,7 @@
 
     tocActMarkup = \markup \large \column {
       \hspace #1
-      \fill-line { \null \italic \fromproperty #'toc:text \null }
+      \fill-line { \null \fontsize #+4 \bold \fromproperty #'toc:text \null }
       \hspace #1
     }    
   }
@@ -49,12 +49,12 @@
 
   \markuplist \table-of-contents
 
-    \pageBreak
+  %  \pageBreak
 
-     \label #'ref238
-  \tocItem \markup "Index"
+  %   \label #'ref238
+  %\tocItem \markup "Index"
 
-   \markup {Благославяй – Blagoslavyay \page-ref #'ref024 "0" "?" }
+  % \markup {Благославяй – Blagoslavyay \page-ref #'ref024 "0" "?" }
 
 } % bookpart
 
