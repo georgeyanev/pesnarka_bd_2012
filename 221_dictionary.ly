@@ -87,7 +87,7 @@
       \vspace #2.0
 
       \line { \bold"cantabilе"}
-      \vspace #1.0
+      \vspace #0.5
 
       \line { \bold"D.C. (da capo) "}
       \vspace #0.5
@@ -120,7 +120,7 @@
     \column {
       \line {
         \justify {
-          (ital.) bedeutet, dass ab der entsprechend markierten Stelle innerhalb eines Musikstückes wieder im ursprünglichen Tempo gespielt werden soll.
+           bedeutet, dass ab der entsprechend markierten Stelle innerhalb eines Musikstückes wieder im ursprünglichen Tempo gespielt werden soll.
         }
       }
       \vspace #0.5
@@ -144,14 +144,14 @@
       \vspace #0.5
       \line {
         \justify {
-          (ital.) Tempo: etwas rasch, gemäßigt schnell.
+           etwas rasch, gemäßigt schnell.
 
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          (ital.) Tempo: rasch, lebhaft, heiter, bewegt.
+           rasch, lebhaft, heiter, bewegt.
 
 
         }
@@ -166,7 +166,7 @@
       \vspace #0.5
       \line {
         \justify {
-          (ital.)  gehend; schrittmäßig;  etwas langsamer als Moderato.
+            gehend; schrittmäßig;  etwas langsamer als Moderato.
 
 
         }
@@ -213,7 +213,7 @@
       \vspace #0.5
       \line {
         \justify {
-          (ital.), von Anfang an wiederholen.
+        vom Anfang an wiederholen.
 
 
         }
@@ -221,19 +221,19 @@
       \vspace #0.5
       \line {
         \justify {
-          (ital.) vom Anfang (wiederholen) bis zum Ende, das durch das Wort Fine (ital. Ende) gekennzeichnet ist;
+           vom Anfang (wiederholen) bis zum Ende, das durch das Wort Fine (ital. Ende) gekennzeichnet ist;
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          (ital.) vom Anfang mit den Wiederholungen.
+           vom Anfang mit den Wiederholungen.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          (ital.) vom Anfang ohne Wiederholungen.
+           vom Anfang ohne Wiederholungen.
 
         }
       }
@@ -392,7 +392,7 @@
       \vspace #0.5
       \line {
         \justify {
-          (ital.) anmutig; mit Anmut.
+           anmutig; mit Anmut.
         }
       }
       \vspace #0.5
@@ -471,20 +471,20 @@
       \line {
         \justify {
 
-          (ital.) etwas; ein wenig.
+           etwas; ein wenig.
 
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          (ital.) nach und nach; allmählich.
+           nach und nach; allmählich.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          (ital.) zögernd; allmählich langsamer.
+           zögernd; allmählich langsamer.
         }
       }
       \vspace #0.5
@@ -563,7 +563,7 @@
 
       \line {
         \justify {
-          (ital.) ohne Metrum, also ohne Angabe einer rhythmischen Betonung.
+           ohne Metrum, also ohne Angabe einer rhythmischen Betonung.
         }
       }
 
