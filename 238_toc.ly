@@ -30,7 +30,7 @@
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
   
     tocTitleMarkup = \markup \fontsize  #+6.5 \bold \column {
-      \fill-line { \null "Inhalt" \null }
+      \fill-line { \null "INHALT" \null }
       \null
     }
 

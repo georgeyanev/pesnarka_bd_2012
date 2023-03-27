@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref069
-  \tocAct \markup "LIEDER VON PETAR DANOV"
+  \tocAct \markup \fontsize #+1 "LIEDER VON PETAR DANOV"
     \paper {
     print-all-headers = ##f
     print-page-number = ##f
@@ -34,7 +34,7 @@
   
   }
  
- \markup\fontsize  #+8.5  {\bold {  \hspace #10  \vspace #13.5 LIEDER VOM MEISTER} }
+ \markup\fontsize   #+6.5  {\bold {  \hspace #12  \vspace #13.5 LIEDER VON PETAR DANOV} }
 
   % include foreign translation(s) of the song
   %\include "lyrics_de/000_empty_template_lyrics_de.ly"

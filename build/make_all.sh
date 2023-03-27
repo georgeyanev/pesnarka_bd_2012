@@ -6,8 +6,8 @@ cat \
     ../003_danov_img.ly \
     ../005_blank_page.ly \
     ../006_oldest_book.ly \
-    ../238_toc.ly \
     ../007_blank_page.ly \
+    ../238_toc.ly \
     ../007_preface.ly \
     ../008_about_music.ly \
     ../009_blank_page.ly \

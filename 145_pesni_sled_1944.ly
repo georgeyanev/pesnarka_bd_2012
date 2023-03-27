@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref145
-   \tocAct \markup "LIEDER NACH 1944"
+   \tocAct \markup \fontsize #+1 { "LIEDER, DIE NACH 1944 PUBLIZIERT WURDEN"}
     \paper {
     print-all-headers = ##f
     print-page-number = ##f
@@ -34,7 +34,8 @@
   
   }
 
-  \markup\fontsize  #+8.5  {\bold {  \hspace #10  \vspace #13.5 LIEDER NACH 1944} }
+  \markup\fontsize  #+6.5  {\bold {  \hspace #15.5  \vspace #13.5 LIEDER, DIE NACH 1944} }
+  \markup\fontsize  #+6.5  {\bold {  \hspace #16  \vspace #1.0 PUBLIZIERT WURDEN} }
 
   % include foreign translation(s) of the song
   %\include "lyrics_de/000_empty_template_lyrics_de.ly"

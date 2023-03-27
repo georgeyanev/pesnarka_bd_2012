@@ -23,7 +23,7 @@
       ""
     }
 
-    \tocAct \markup "ANHANG"
+    \tocAct  \markup \fontsize #+1  "ANHANG"
 
     left-margin = 1.5\cm
     right-margin = 1.5\cm

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref201
-  \tocItem \markup "Една вечна истина – Edna vechna istina"
+  \tocItem \markup "Една вечна истина... – Edna vechna istina..."
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

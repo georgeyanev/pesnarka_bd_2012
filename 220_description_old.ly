@@ -595,7 +595,7 @@
       }
       
       162. \justify {
-        \vspace #0.7 \hspace #-0.7 \bold "Една вечна истина – Edna vechna istina"  18. April 1943 gegeben an Liljana Tabakova. Der Text ist in einer alten, nicht übersetzbaren Sprache geschrieben. Es geht um die erste Große Seele, die die Liebe bringt. Dieses Lied muss wie eine Meditation ausgeführt werden, mit Konzentration und mystischer Andacht.
+        \vspace #0.7 \hspace #-0.7 \bold "Една вечна истина... – Edna vechna istina..."  18. April 1943 gegeben an Liljana Tabakova. Der Text ist in einer alten, nicht übersetzbaren Sprache geschrieben. Es geht um die erste Große Seele, die die Liebe bringt. Dieses Lied muss wie eine Meditation ausgeführt werden, mit Konzentration und mystischer Andacht.
       }
       163. \justify {
         \vspace #0.7 \hspace #-0.7 \bold "Химни на Слънцето – Himni na slantseto"  Gegeben am 5. Mai 1942 von Petar Danov an Liljana Tabakova. Dank dieses Liedes begegnet man der aufgehenden Sonne. Dies ist das Gebet zum Sonnenaufgang. Es ist eine majestätische Hymne an alle Sonnen. Diese Hymnen werden auch von den Engeln gesungen. Dieses Lied wird zusammen mit Molitva ausgeführt.
