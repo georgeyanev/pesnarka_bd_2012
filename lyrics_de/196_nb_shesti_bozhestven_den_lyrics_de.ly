@@ -11,41 +11,34 @@
     \line { " " }
 
 
-\line { " "Und Gott sprach: Die Erde bringe hervor lebendiges }
+\line { " "Und Gott sprach: „Die Erde bringe hervor }
 
-\line { " "Getier, ein jedes nach seiner Art: Vieh, }
+\line { " " Tiere und scheußliches Getier, ein jedes nach seiner Art.“ }
+\line { " " Und es ward so. Und Gott sah, dass alles gut war. }
 
-\line { " "Gewürm und Tiere des Feldes, ein jedes nach seiner }
-
-\line { " "Art. Und es geschah so. Und Gott sah, dass es gut war. }
-
- \line { " "Und Gott sprach und schuf den Menschen. }
+\line { " " Und Gott sprach und schuf den Menschen. }
 
 \line { " "Er schuf ihn selbst, nach seinem Bilde und Ihm ähnlich. }
 
-\line { " "Er segnete ihn, auf dass er über alles herrsche, }
+\line { " "Und er segnete ihn, auf dass er über alles herrsche, }
 
 \line { " "was auf Erden lebt. Er soll lieben und schützen alle }
 
-\line { " "Geschöpfe im Meer, auf der Erde und in der Luft. }
+\line { " "Geschöpfe im Wasser, auf der Erde und in der Luft. }
 
-\line { " " Und Gott sprach: Sehet da, ich habe euch gegeben }
+\line { " " Und Gott sprach: „Ich gebe das Gras mit seinen Samen}
 
-\line { " "alle Pflanzen, die Samen bringen, und alle Bäume }
+\line { " " und den Baum mit seinen Früchten zur Nahrung dem Menchen.“ }
 
-\line { " "mit Früchten zu eurer Speise. }
+\line { " "Und Gott sprach: „Ich gebe allen Tieren auf Erden und allen }
 
-\line { " "Und Gott sprach: Allen Tieren auf Erden und allen }
+\line { " "Vögeln unter dem Himmel und alles, was auf der Erde kriecht, }
 
-\line { " "Vögeln unter dem Himmel und allem Gewürm, }
+\line { " " und Leben hat, auf dass der Mensch ihnen nicht nach dem Leben trachte.“ }
 
-\line { " "das auf Erden kriecht und Leben hat, auf dass der }
+\line { " " Und Gott sah, dass alles, was Er gemacht hatte, gut war.  }
 
-\line { " "Mensch ihnen nicht nach dem Leben trachte. }
-
-\line { " " Und Gott sah alles, was er gemacht hatte, und siehe, es war gut.  }
-
-\line { " "Da ward aus Abend und Morgen der sechste Tag. }
+\line { " " Da ward Abend und es ward Morgen, der sechste Tag.}
 
   }
 }

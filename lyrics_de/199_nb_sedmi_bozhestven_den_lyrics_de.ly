@@ -11,15 +11,13 @@
     
 
 
-    \line { " " So wurden vollendet Himmel und Erde mit ihrem ganzen Heer.}
+    \line { " " So vollendete Gott Himmel und Erde mit ihrem ganzen Heer.}
 
-    \line { " " Und Gott segnete den siebenten Tag und heiligte}
+    \line { " " Und Gott segnete den siebenten Tag und heiligte ihn,}
 
-    \line { " "ihn, weil er an ihm ruhte von allen seinen Werken.}
+    \line { " "weil er an ihm ruhte von allen seinen Werken.}
 
-    \line { " "Und Gott sah an alles, was er gemacht hatte, und}
-
-    \line { " "siehe, es war gut.}
+    \line { " "Und Gott sah, dass alles, was Er gemacht hatte, gut war.}
 
     \line { " "Aoum, Aoum, Aoumen.}
 

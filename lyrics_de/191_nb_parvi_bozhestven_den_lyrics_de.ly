@@ -21,7 +21,7 @@
 \line { " "und der Geist Gottes schwebte über den Wassern
 des Lebens.}
 
-\line { " "Und Gott sprach: Es komme das schöne Licht [videlina]! }
+\line { " "Und Gott sprach: „Es komme das schöne Licht [videlina]!“  }
 
 \line { " "Und es manifestierte sich in seinem Licht [svetlina].}
 

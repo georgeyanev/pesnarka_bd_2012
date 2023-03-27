@@ -11,8 +11,8 @@
     \line { " " }
 
 
-    \line { " "Und Gott sprach: Es sammle sich das Wasser}
-    \line { " "unter dem Himmel. Und es geschah so.}
+    \line { " "Und Gott sprach: „Es sammle sich das Wasser}
+    \line { " "unter dem Himmel.“ Und es geschah so.}
     \line { " "Und es erschien das Trockene. Und Gott nannte es Erde.} 
     \line { " " und die Sammlung der Wasser nannte er Meer.}
     \line { " "Und Gott sprach, und es wuchs fisches Gras,}

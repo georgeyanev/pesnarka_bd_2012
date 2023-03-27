@@ -9,30 +9,29 @@
 
   \column {
 
-   \line { " "Ich wecke. Meine Sonne geht in meiner Seele auf.}
+   \line { " "Ich wecke. Es geht auf meine Sonne in meiner Seele.}
 
-   \line { " "Der Name Gottes sei gesegnet.}
+   \line { " "Es sei gepriesen der Name Gottes.}
+   \line { " "}
 
-   \line { " "Du weckst. Die göttliche Sonne geht in mir, im Herzen auf.}
-
+   \line { " "Du weckst. Sie geht auf die göttliche Sonne in mir, im Herzen.}
 
    \line { " "Das Reich Gottes komme.}
+  \line { " "}
+   \line { " "Er weckt. Es geht auf die Sonne meines Geistes.}
 
-   \line { " "Er weckt. Die Sonne meines Geistes geht auf.}
+   \line { " "Es geschehe der Wille Gottes.}
+  \line { " "}
+   \line { " "Wir wecken. Es geht auf die Sonne unserer Engel.}
 
-   \line { " "Der Wille Gottes geschehe.}
+   \line { " "Es komme das Reich unseres Vaters der Lichter!}
+  \line { " "}
+   \line { " "Ihr weckt. Die Sonne des großen Herrn  }
+  \line { " "  des Friedens geht auf in unseren Seelen.}
+   \line { " "Damit sie erneuere unsere Seele durch Seine Kraft.}
+  \line { " "}
 
-   \line { " "Wir wecken. Die Sonne unserer Engel geht auf.}
-
-   \line { " "Das Reich unseres Vaters des Lichts komme!}
-
-   \line { " "Ihr weckt. Die Sonne des großen, allmächtigen Gottes }
-            \line { " "  des Friedens geht in unseren Seelen auf.}
-
-
-   \line { " "Auf dass sie unsere Seele durch Seine Kraft erneuere.}
-
-   \line { " "Sie wecken. Die Sonne aller Sonnen unseres Geistes geht auf.}
+   \line { " "Sie wecken. Sie geht auf die Sonne aller Sonnen unseres Geistes.}
 
    \line { " "Gott gebe uns Leben, Gesundheit und Freiheit!}
 

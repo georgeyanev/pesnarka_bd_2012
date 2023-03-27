@@ -12,7 +12,7 @@
 
  \line { " "Du lebst in mir.}
 
- \line { " "Sage mir, heller göttlicher Strahl,}
+ \line { " "Sage mir, heller Göttlicher Strahl,}
 
  \line { " "sage mir du, das Gute des Lebens,
 }

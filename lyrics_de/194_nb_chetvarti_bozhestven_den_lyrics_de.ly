@@ -11,17 +11,16 @@
     \line { " " }
 
 
- \line { " " Und Gott sprach: Es werden Lichter an der}
- \line { " " Feste des Himmels, und es ward so.}
+ \line { " " Und Gott sprach: „Es leuchten Lichter an der}
+ \line { " " Feste des Himmels“, und es ward so.}
 
- \line { " "  Und Gott machte zwei große Lichter: ein großes}
- \line { " " Licht, das den Tag regiere, und ein kleines Licht,}
- \line { " " das die Nacht regiere,}
+ \line { " "  Und Gott machte zwei Lichter: ein großes regiere}
+ \line { " "  den Tag, und ein kleines die Nacht.}
 
- \line { " "  dazu auch die Sterne. Und Gott setzte sie an}
- \line { " " die Feste des Himmels, und Gott sah, dass es gut war.}
+ \line { " " Und Gott machte, dass die Sterne leuchten}
+ \line { " " an der Himmelsweite. Und Gott sah, dass alles gut war.}
  
-  \line { " " Da ward aus Abend und Morgen der vierte Tag.}
+  \line { " " Da ward Abend und es ward Morgen, der vierte Tag.}
 
   }
 }
