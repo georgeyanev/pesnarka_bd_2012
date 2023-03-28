@@ -25,7 +25,7 @@
  \line { " "der Du zu mir in der Zukunft sprechen wirst. }
   \line { " "}
 
- \line { " "Gesegnet sei dein Name, }
+ \line { " "Gepriesen sei dein Name, }
 
  \line { " "auf dass wir in Deiner Herrlichkeit leben.  }
   \line { " "}
@@ -40,7 +40,7 @@
  \line { " "so unten auf der Erde.  }
   \line { " "}
 
- \line { " "Auf dass wir mit dir zusammenarbeiten.  }
+ \line { " "Auf dass wir mit Dir zusammenarbeiten.  }
 
  \line { " "Amen. So sei es.  }
 

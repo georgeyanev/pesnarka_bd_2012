@@ -8,19 +8,19 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
 
- \line { " "Herr, du lebst in mir,}
+ \line { " "Herr, Du lebst in mir,}
 
  \line { " "Du lebst in mir.}
 
- \line { " "Sage mir, heller Göttlicher Strahl,}
+ \line { " "Sage mir, heller göttlicher Strahl,}
 
  \line { " "sage mir du, das Gute des Lebens,
 }
-\line { " "der helle gerade Weg}
+\line { " "der helle, gerade Weg}
 
  \line { " "der reinen Seelen,}
 
- \line { " "gewaschen in den Gewässern der Liebe,}
+ \line { " "gewaschen in den Wassern der Liebe,}
 
  \line { " "der reinen Liebe. }
 
@@ -30,9 +30,9 @@
 
  \line { " "Mögen Deine gütige Stimme}
 
- \line { " "und Deine Barmherzigkeit, oh, Herr, }
+ \line { " "und Deine Barmherzigkeit, oh Herr, }
 
- \line { " "sich durch mich äußern!}
+ \line { " "sich durch mich kundtun!}
 
   }
 }

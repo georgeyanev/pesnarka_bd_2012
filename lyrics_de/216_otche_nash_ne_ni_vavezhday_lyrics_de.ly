@@ -10,9 +10,9 @@
   \column {
 
 
- \line { " "Ich werde die Wärme meines Herzens aufbewahren,}
+ \line { " "Ich werde die Wärme meines Herzens bewahren,}
 
- \line { " "die die göttlichen Güter in meiner Seele bringt.}
+ \line { " "die die göttlichen Güter in meine Seele bringt.}
 
  \line { " "Herr, führe uns nicht in Versuchung,}
 

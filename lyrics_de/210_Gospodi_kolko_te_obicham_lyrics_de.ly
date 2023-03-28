@@ -8,29 +8,28 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
 
-    \line { " "Herr und Gott, wie sehr liebe ich Dich!}
+    \line { " "Herr, wie liebe ich Dich!}
 
-    \line { " "Gott, Mein Herr, wie sehr liebe ich Dich!}
+    \line { " "Gott, mein Herr, wie iebe ich Dich!}
 
-    \line { " "Ich liebe Dich, Herr.}
+    \line { " "Ich liebe Dich, Herr!}
 
     \line { " "Ich liebe Deine Bäumchen, }
 
     \line { " "ich liebe Deine Blümchen,}
 
-    \line { " "ich liebe Deine Bäche,}
+    \line { " "ich liebe Deine Bächlein,}
 
     \line { " "ich liebe Deine Berge.}
 
-    \line { " "Herr, ich liebe alles,}
+    \line { " " alles, Herr,}
 
     \line { " "was Du erschaffen hast.}
 
     \line { " "Ich liebe Dich, ich liebe dich,}
 
-    \line { " "ich liebe dich Herr!}
+    \line { " "ich liebe dich, Herr!}
 
   }
 }

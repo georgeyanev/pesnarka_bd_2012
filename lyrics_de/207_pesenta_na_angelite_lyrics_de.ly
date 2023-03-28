@@ -31,9 +31,9 @@
 
  \line { " "Hört Ihn! Hört Ihn }
 
- \line { " "und wir werden ihn auch hören. }
+ \line { " "und wir werden Ihn auch hören. }
 
- \line { " "Erfüllt seinen Willen, }
+ \line { " "Erfüllt Seinen Willen, }
 
  \line { " "wie wir auch Seinen Willen erfüllen,
  }
@@ -47,7 +47,7 @@
 
  \line { " "die jetzt singen: }
 
- \line { " "„Ruhm zu unserem großen Schöpfer! }
+ \line { " "„Ruhm unserem großen Schöpfer! }
 
  \line { " "Ruhm, Ruhm, Ruhm unserem Vater! }
 

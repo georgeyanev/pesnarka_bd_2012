@@ -19,15 +19,13 @@
 
 \line { " "meine Sonne wird heute aufgehen}
 
-\line { " "und sie wird helle Freude in meinem Leben bringen.}
+\line { " "und sie wird lichte Freude in mein Leben bringen.}
 
 \line { " "Dann werde ich, Mutter,}
 
-\line { " "mich äußern,}
+\line { " "mich bekunden, bereit sein,}
 
-\line { " "dann werde ich bereit sein,}
-
-\line { " "das Gute in der Welt zu äußern. }
+\line { " "das Gute in der Welt zu bekunden. }
 
 \line { " "Ich werde gut denken,}
 

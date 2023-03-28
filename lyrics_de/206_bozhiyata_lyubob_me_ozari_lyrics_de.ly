@@ -14,33 +14,32 @@
 
     \line { " "und erfüllte mein Herz mit Strahlen.  }
 
-    \line { " "Aus tiefen Gründen hob sie meinen Geist  }
+    \line { " "Aus tiefsten Tiefen erhob sie meinen Geist zu den Höhen  }
 
-    \line { " "auf ihren gesegneten Schwingen in den Höhen empor,   }
+    \line { " "auf ihren gesegneten Schwingen,   }
 
     \line { " "vom Anblick Gottes erleuchtet, erleuchtet,  }
 
     \line { " "vom Anblick Gottes erleuchtet.   }
 
+    \line { " "Liebe erleuchtete mich,   }
 
-    \line { " "Die Liebe erleuchtet mich,   }
-
-    \line { " "Die Liebe erleuchtet mich,  }
-
-    \line { " "sie weitete meine Seele,   }
-
-    \line { " "sie heiligte meine Seele,   }
+    \line { " "Liebe erleuchtete mich,  }
 
     \line { " "sie weitete meine Seele,   }
 
-    \line { " "sie heiligte meine Seele,   }
+    \line { " "sie erhellte meine Seele,   }
 
-    \line { " "sie stärkte meinen Geist;   }
+    \line { " "sie weitete meine Seele,   }
 
-    \line { " "und flößte mir Güte ein, }
+    \line { " "sie erhellte meine Seele,   }
 
-    \line { " " und flößte mir Güte ein, }
+    \line { " "meinen Geist stärkte sie;   }
+
+    \line { " "und lies Güte in mich einziehen, }
+
+    \line { " " und lies Güte in mich einziehen, }
     
-    \line { " " und flößte mir Güte ein.  }
+    \line { " " und lies Güte in mich einziehen.  }
   }
 }
