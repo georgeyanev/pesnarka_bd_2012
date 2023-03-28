@@ -4,7 +4,7 @@
 \include "include/globals.ily"
 
 \bookpart {
-   
+
   \include "include/bookpart-paper.ily"
 
   \markup \fontsize  #+5.5 { \fill-line \bold {"" "Anmerkungen zu den Liedern" ""} }
@@ -101,8 +101,8 @@
       20. \justify {
         \vspace #0.7 \hspace #-0.7 \bold "Време е да вървим – Vreme e da varvim."  Musik von Petar Danov, Text von einem Schüler.
       }
-     
-     
+
+
 
       21. \justify {
         \vspace #0.7 \hspace #-0.7 \bold "Поздрав на Учителя – Pozdrav na Uchitelya."  Musik und Text von Elena Kazanlaklieva.
@@ -179,7 +179,7 @@
       44. \justify {
         \vspace #0.7 \hspace #-1.2 \bold "Песен на гласните букви – Pesen na glasnite bukvi."  Gesangübung von Petar Danov.
       }
-       45. \justify {
+      45. \justify {
         \vspace #0.7 \hspace #-10.7 \bold "Що е същността – Sto e sastnossta. "  Text und Musik Marin Kamburov
       }
 
@@ -264,7 +264,7 @@
       67. \justify {
         \vspace #0.7 \hspace #-0.7 \bold "Мусала – Mussala"  gegeben am 3. Dezember 1922 Allgemeine Okkultklasse, 2. Jahrgang, 10 Vortrag.
       }
-       68. \justify {
+      68. \justify {
         \vspace #0.7 \hspace #-0.7 \bold  "Ходи, ходи – Hodi, hodi"  gegeben am 3. Dezember 1922 Allgemeine Okkultklasse, 2. Jahrgang, 10 Vortrag.
       }
 
@@ -380,8 +380,8 @@
       104. \justify {
         \vspace #0.7 \hspace #-0.7 \bold  "Буря – Burya"  Gegeben am 15. Dezember 1935. Dieses Lied erinnert daran, dass es im Menschen eine Kraft gibt, die ihn stützt. Wenn der Mensch aufmerksam auf die vernünftige Stimme dieser Kraft horcht, wird er den Sinn aller Trauer, der Qualen und aller Stürme, die uns durchschütteln, verstehen; er wird ihren Stößen widerstehen.
       }
-        105. \justify {
-        \vspace #0.7 \hspace #-0.7 \bold  "Ранен час – Ranen chas"  
+      105. \justify {
+        \vspace #0.7 \hspace #-0.7 \bold  "Ранен час – Ranen chas"
         xxxxxxx
       }
 
@@ -438,13 +438,13 @@
         \vspace #0.7 \hspace #-0.7 \bold "Радост за душата  – Radost za dushata"  Niederschrift von Methodi Schivatschev  Seid gegrüßt. (Zu Sladko medeno).
       }
 
-  122. \justify {
+      122. \justify {
         \vspace #0.7 \hspace #-0.7 \bold "Радост за душата  – Radost za dushata"  Niederschrift von Methodi Schivatschev  Seid gegrüßt. (Zu Sladko medeno).
-      } 
-      123. \justify {
-        \vspace #0.7 \hspace #-0.7 \bold "Мирът иде вече – Mirat ide veche"  
       }
-        123. \justify {
+      123. \justify {
+        \vspace #0.7 \hspace #-0.7 \bold "Мирът иде вече – Mirat ide veche"
+      }
+      123. \justify {
         \vspace #0.7 \hspace #-0.7 \bold "Мирът иде  – Mirat ide"  Die Melodie wurde 1918 von Petar Danov in der Opultschenska- Straße 66 gegeben, drei Tage danach (29. September 1918) beendet Bulgarien ihre Teilnahme am Ersten Weltkrieg. Später ergänzt Petar Danov die Melodie (21. Dezember 1933)
       }
       124. \justify {
@@ -456,7 +456,7 @@
       126. \justify {
         \vspace #0.7 \hspace #-0.7 \bold  "Марш на светлите сили – Marsh na svetlite sili  – Marsch der lichen Mächte"  Gegeben am 27. Mai. 1936. Siegreicher Marsch der hellen Engelkräfte in der lebendigen Natur, die in ihrem charakteristischen Rhythmus fortschreiten. Mit dieser Musik erhebt sich der Mensch in die Welt der Engel.
       }
-       126. \justify {
+      126. \justify {
         \vspace #0.7 \hspace #-0.7 \bold  "Марш на светлите сили II – Marsh na svetlite sili II"  Gegeben am 27. Mai. 1936. Siegreicher Marsch der hellen Engelkräfte in der lebendigen Natur, die in ihrem charakteristischen Rhythmus fortschreiten. Mit dieser Musik erhebt sich der Mensch in die Welt der Engel.
       }
       127. \justify {
@@ -480,14 +480,14 @@
       132. \justify {
         \vspace #0.7 \hspace #-0.7 \bold "Кажи ми, светли Божи лъч – Kazhi mi, svetli Bozhi lach"  Gegeben am 19 Dezember 1923, Allgemeine Okkultklasse, III. Jahrgang, 10 Vortrag. Petar Danov sagt: Diese Übung können wir jetzt unvollendet lassen  es ist für die künftige Kultur. Der zweite Stadium der Musik ist das freie Singen. Bei diesem Singen kann die heutige Musik nicht funktionieren, weil der Text auf eine ganz andere Art und Weise geändert werde muss und die Betonung der Wörter eine besondere Zusammensetzung haben. Beim freien Singen kann der Mensch, wenn er nicht begeistert ist, nicht singen.
       }
-       133. \justify {
+      133. \justify {
         \vspace #0.7 \hspace #-0.7 \bold "Кажи ми Ти Истината II – Kazhi mi ti istinata II".   xxxx
       }
 
       133. \justify {
         \vspace #0.7 \hspace #-0.7 \bold "Кажи ми ти Истината III – Kazhi mi ti istinata III".  Schließt das Original von 1924 ein mit dem instrumentellen Solo von Simeon Simeonov.
       }
-        133. \justify {
+      133. \justify {
         \vspace #0.7 \hspace #-0.7 \bold "Свобода е потребна за душата – Svoboda e potrebna za dushata". xxx
       }
 
@@ -520,10 +520,10 @@
       144. \justify {
         \vspace #0.7 \hspace #-0.7 \bold "Слушам – Slusham"  Gegeben 27. April 1935, Sofia, Izgrev.
       }
-        145. \justify {
+      145. \justify {
         \vspace #0.7 \hspace #-0.7 \bold "Радост – Радост" xxx
       }
-     
+
       146. \justify {
         \vspace #0.7 \hspace #-0.7 \bold "Писмото – Pismoto"  Musik und Text von Petar Danov, gegeben 1926
       }
@@ -593,7 +593,7 @@
         \vspace #0.7 \hspace #-0.7 \bold "Вътрешният глас на Бога – медитация – Vatreshniyat glas na Boga – meditazia" Petar Danov hat gesagt: Diese Worte sind in der Sprache Vatan geschrieben. Sie bedeuten: ‚Liebe und sei frei. Höre auf die innere Stimme Gottes. Schreite ohne
         Zögern auf deinem Wege fort.
       }
-      
+
       162. \justify {
         \vspace #0.7 \hspace #-0.7 \bold "Една вечна истина... – Edna vechna istina..."  18. April 1943 gegeben an Liljana Tabakova. Der Text ist in einer alten, nicht übersetzbaren Sprache geschrieben. Es geht um die erste Große Seele, die die Liebe bringt. Dieses Lied muss wie eine Meditation ausgeführt werden, mit Konzentration und mystischer Andacht.
       }
