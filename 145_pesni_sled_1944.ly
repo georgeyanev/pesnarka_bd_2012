@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref145
-   \tocAct \markup \fontsize #+1 { "LIEDER, DIE NACH 1944 PUBLIZIERT WURDEN"}
+   \tocAct \markup { "LIEDER, DIE NACH 1944 PUBLIZIERT WURDEN"}
     \paper {
     print-all-headers = ##f
     print-page-number = ##f

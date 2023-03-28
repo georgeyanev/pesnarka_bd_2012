@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref069
-  \tocAct \markup \fontsize #+1 "LIEDER VON PETAR DANOV"
+  \tocAct \markup "LIEDER VON PETAR DANOV"
     \paper {
     print-all-headers = ##f
     print-page-number = ##f
