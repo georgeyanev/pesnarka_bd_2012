@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref193
+  \tocItem \markup "     Трети Божествен ден – Treti Bozhestven den"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -120,7 +122,7 @@
         ro, tre -- ti den.}
 
         \header {
-          title = \titleFunc " Трети Божествен ден" "Treti Bozhestven den"
+          title = \titleFunc "Трети Божествен ден" "Treti Bozhestven den"
         }
 
         \midi{}
@@ -141,7 +143,8 @@
 
        \markup \empty-three
 
-
+ \label #'ref194
+  \tocItem \markup "     Четвърти Божествен ден – Chetvarti Bozhestven den"
        \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

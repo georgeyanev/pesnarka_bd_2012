@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref190
+  \tocItem \markup "Гласът на Живия Господ – Glasat na Zhivija Gospod"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

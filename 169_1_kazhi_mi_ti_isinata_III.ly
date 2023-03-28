@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref169_1
+  \tocItem \markup "Кажи ми ти Истината III – Kazhi mi ti istinata III"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

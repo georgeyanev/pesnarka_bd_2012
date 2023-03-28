@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref169_2
+  \tocItem \markup "Свобода е потребна за душата – Svoboda e potrebna za dushata "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

@@ -4,6 +4,9 @@
 \include "include/globals.ily"
 
 \bookpart {
+
+   \label #'ref215
+  \tocItem \markup "Зора на Новия живот – Zora na Novia zhivot"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

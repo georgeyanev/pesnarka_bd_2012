@@ -29,6 +29,8 @@
 }
 
 \bookpart {
+  \label #'ref051
+  \tocItem \markup "О, Учителю благати – O, Uchitelyu blagati"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

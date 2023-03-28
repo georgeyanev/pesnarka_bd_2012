@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref172
+  \tocItem \markup "Играта на поточето – Igrata na potocheto"
   \paper {
     print-all-headers = ##t
     print-page-number = ##t

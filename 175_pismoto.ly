@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref175
+  \tocItem \markup "Писмото – Pismoto "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

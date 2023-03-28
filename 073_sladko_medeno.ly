@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref073
+  \tocItem \markup "Сладко медено – Sladko medeno"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

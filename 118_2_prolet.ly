@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref118_2
+  \tocItem \markup "Пролет – Prolet"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

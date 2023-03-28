@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref112_1
+  \tocItem \markup "Сила, здраве е богатство – Sila, zdrave e bogatstvo"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

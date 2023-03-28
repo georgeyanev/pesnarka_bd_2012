@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+    \label #'ref008
+  \tocItem \markup "Über die Musik "
     \paper {
     print-all-headers = ##f
     print-page-number = ##t

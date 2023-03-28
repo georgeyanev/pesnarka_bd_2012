@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref040
+  \tocItem \markup "Благословен Господ – Blagosloven Gospod"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -53,6 +55,10 @@
     % include foreign translation(s) of the song
     \include "lyrics_de/040_blagosloven_Gospod_lyrics_de.ly"
     \markup \empty-two
+
+    \label #'ref041
+    \tocItem \markup "За Небесния цар – Za Nebesniya tsar"
+
     \include "include/bookpart-paper.ily"
     \score {
       \include "include/score-layout.ily"

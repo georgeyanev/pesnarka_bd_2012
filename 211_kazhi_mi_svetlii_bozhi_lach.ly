@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref211
+  \tocItem \markup "Кажи ми светли Божи лъч II  – Kazhi mi svetli Bozhi lach II "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

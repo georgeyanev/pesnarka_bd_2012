@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref075
+  \tocItem \markup "Аум – Aum"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -43,6 +45,9 @@
       \markup \empty-three
         \markup \empty-three
     % include foreign translation(s) of the song
+
+      \label #'ref076
+  \tocItem \markup "Венир Бенир – Venir benir"
 
     \score {
       \include "include/score-layout.ily"

@@ -4,7 +4,7 @@
 \include "include/globals.ily"
 
 \bookpart {
-    \paper {
+  \paper {
     print-all-headers = ##f
     print-page-number = ##f
     print-first-page-number = ##f
@@ -23,20 +23,38 @@
       ""
     }
 
-    \tocAct  \markup "ANHANG"
-
     left-margin = 1.5\cm
     right-margin = 1.5\cm
     top-margin = 1.6\cm
     bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
   
+    tocTitleMarkup = \markup \fontsize  #+6.5 \bold \column {
+      \fill-line { \null "INHALT" \null }
+      \null
+    }
+
+    tocItemMarkup = \markup \fontsize  #+3.5 \fill-line {
+      \fromproperty #'toc:text \tocItemWithDotsMarkup \fromproperty #'toc:page 
+    }  
+
+    tocActMarkup = \markup \large \column {
+      \hspace #1
+      \fill-line { \null \fontsize #+2 \bold \fromproperty #'toc:text \null }
+      \hspace #1
+    }    
   }
  
- \markup\fontsize  #+8.5  {\bold {  \hspace #25  \vspace #13.5 ANHANG} }
+
+
+  \markuplist \table-of-contents
+
+  %  \pageBreak
+
+  %   \label #'ref238
+  %\tocItem \markup "Index"
+
+  % \markup {Благославяй – Blagoslavyay \page-ref #'ref024 "0" "?" }
 
 } % bookpart
 
-% Più mosso
-%

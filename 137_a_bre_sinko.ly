@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref137
+  \tocItem \markup "А бре, синко – A bre, sinko "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -82,7 +84,7 @@
         ne  iz -- bi -- ra.}
 
         \header {
-          title = \titleFunc " А бре, синко " "A bre, sinko"
+          title = \titleFunc "А бре, синко " "A bre, sinko"
         }
 
         \midi{}

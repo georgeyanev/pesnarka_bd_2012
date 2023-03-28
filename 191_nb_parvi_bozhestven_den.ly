@@ -4,6 +4,10 @@
 \include "include/globals.ily"
 
 \bookpart {
+   \label #'ref191
+  \tocItem \markup "Новото Битие – Novoto Bitie"
+  \label #'ref191_1
+  \tocItem \markup "     Първи Божествен ден – Parvi Bozhestven den"
   \include "include/bookpart-paper.ily"
   \markup \center-column \normal-text \fontsize #6.5 {
     \center-align

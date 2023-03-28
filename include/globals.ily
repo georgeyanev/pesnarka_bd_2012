@@ -33,6 +33,9 @@ tempoFunc = #(define-music-function
     #}
 )
 
+tocAct = #(define-music-function (label text) ((symbol-list-or-symbol? '()) markup?)
+     (add-toc-item! 'tocActMarkup text label))
+
 titleFunc = #(define-scheme-function
     (cyrTitle latTitle)
     (string? string?)

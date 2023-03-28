@@ -36,6 +36,8 @@
 }
 
 \bookpart {
+  \label #'ref047
+  \tocItem \markup "Аз съм бялото кокиче –  Аz sam byaloto kokiche"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

@@ -34,6 +34,8 @@
 }
 
 \bookpart {
+  \label #'ref049
+  \tocItem \markup "Славейчета горски – Slaveycheta gorski"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

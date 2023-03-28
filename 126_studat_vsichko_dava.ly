@@ -3,6 +3,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref126
+  \tocItem \markup "Студът всичко дава – Studat vsichko dava"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

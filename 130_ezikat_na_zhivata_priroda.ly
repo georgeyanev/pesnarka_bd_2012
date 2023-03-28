@@ -3,6 +3,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref130
+  \tocItem \markup "Езикът на живата природа – Ezikat na zhivata priroda"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

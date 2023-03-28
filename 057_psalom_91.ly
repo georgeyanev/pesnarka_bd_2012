@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref057
+  \tocItem \markup "Псалм 91 – Psalm 91"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

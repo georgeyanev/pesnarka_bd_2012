@@ -34,6 +34,8 @@
 }
 
 \bookpart {
+   \label #'ref050
+  \tocItem \markup "Небето се отваря – Nebeto se otvarya"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

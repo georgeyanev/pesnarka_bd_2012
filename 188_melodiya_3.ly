@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref188
+  \tocItem \markup "Мелодия – Когато се денят... – Melodia – Kogato se denyat..."
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

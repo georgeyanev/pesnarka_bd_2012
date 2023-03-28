@@ -3,6 +3,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref146
+  \tocItem \markup "Българска рапсодия – Bylgarska rapsodia"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

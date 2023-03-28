@@ -4,6 +4,7 @@
 \include "include/globals.ily"
 
 \bookpart {
+   
   \include "include/bookpart-paper.ily"
 
   \markup \fontsize  #+5.5 { \fill-line \bold {"" "Anmerkungen zu den Liedern" ""} }
@@ -234,7 +235,7 @@
         \vspace #0.7 \hspace #-0.7 \bold  "Духът Божий – Duhat Bozhiy"  Gegeben am 13. November 1922. Allgemeine Okkultklasse, II. Jahrgang, 7. Vortrag. Dieses Lied nennt Petar Danov \italic"okkulter Übergang;" es führt uns in die okkulte Musik ein.
       }
       58. \justify {
-        \vspace #0.7 \hspace #-0.7 \bold "Махар Бену Аба – Mahar Benu Aba"  Gegeben am 3. Dezember 1922 (Allgemeine Okkultklasse, II. Jahrgang, 10. Vortrag). Peter Danov hat diese Übung \italic"Das Gebet des Schülers" genannt. Es sollte mit Konzentration, Ausdruck und Sanftheit gesungen werden. \italic"Mahar" bedeutet der Große, \italic"Benu" der, der segnet und \italic"Aba" - der Vater aller Dinge. Derart hat Petar Danov die Idee von \italic"Mahar Benu Aba" in Bildern entwickelt: Mahar ist eine natürliche, nach unten gerichtete Bewegung. \italic"Benu" ist der Aufstieg nach oben. \italic"Aba" bedeutet, den Ort bestiegen zu haben, den du erstrebst. Dort ist es eben; es gibt genügend Raum und du kannst dich bewegen. Das bedeutet, dass es drei Konzepte gibt: den Abstieg, den Aufstieg und eine natürliche Bewegung, bei der die Hindernisse beseitigt werden. Die Hindernisse ergeben sich aus dem Auf- und Abstieg. Bei \italic"Aba" wird das Marschieren zu etwas Natürlichem. Dies bedeutet, dass du dich an die Arbeit machst. \italic"Mahar" ist der schönste Ort, zu dem du hinabsteigen kannst; \italic"Benu" ist der schönste Ort, zu dem du aufsteigen kannst; und \italic"Aba" ist der schönste ebene Ort, wo du arbeiten und leben kannst. (Kommentar vom 12. Dezember 1941, Allgemeine Okkultklasse, XXI. Jahrgang, 12. Vortrag).
+        \vspace #0.7 \hspace #-0.7 \bold "Махар Бену Аба – Mahar Benu Aba"  Gegeben am 3. Dezember 1922 (Allgemeine Okkultklasse, II. Jahrgang, 10. Vortrag). Peter Danov hat diese Übung \italic"Das Gebet des Schülers" genannt. Es sollte mit Konzentration, Ausdruck und Sanftheit gesungen werden. \italic"Mahar" bedeutet der Große, \italic"Benu" der, der segnet und \italic"Aba" – der Vater aller Dinge. Derart hat Petar Danov die Idee von \italic"Mahar Benu Aba" in Bildern entwickelt: Mahar ist eine natürliche, nach unten gerichtete Bewegung. \italic"Benu" ist der Aufstieg nach oben. \italic"Aba" bedeutet, den Ort bestiegen zu haben, den du erstrebst. Dort ist es eben; es gibt genügend Raum und du kannst dich bewegen. Das bedeutet, dass es drei Konzepte gibt: den Abstieg, den Aufstieg und eine natürliche Bewegung, bei der die Hindernisse beseitigt werden. Die Hindernisse ergeben sich aus dem Auf- und Abstieg. Bei \italic"Aba" wird das Marschieren zu etwas Natürlichem. Dies bedeutet, dass du dich an die Arbeit machst. \italic"Mahar" ist der schönste Ort, zu dem du hinabsteigen kannst; \italic"Benu" ist der schönste Ort, zu dem du aufsteigen kannst; und \italic"Aba" ist der schönste ebene Ort, wo du arbeiten und leben kannst. (Kommentar vom 12. Dezember 1941, Allgemeine Okkultklasse, XXI. Jahrgang, 12. Vortrag).
       }
       59. \justify {
         \vspace #0.7 \hspace #-0.7 \bold "В мрак тъмнота – V mrak tamnota" Gegeben am 3. März Allgemeine okkulte Klasse, 5. Jahrgang, 16. Vortrag. Dieses Lied ist der zweite Teil von Mahar Benu Aba und auch seine Übersetzung. Bildlich gesprochen, entspricht v’mrak = Mahar, dem Abstieg. „No slånñeto na jivota“ entpricht Benou, dem Aufstieg. I nii tragnahme vav patia chist i sviat za nas entspricht Aba, was bedeutet: an die Arbeit gehen.
@@ -428,7 +429,7 @@
         \vspace #0.7 \hspace #-0.7 \bold  "Българска рапсодия – Bylgarska rapsodia"  Gegeben 1934. Redaktion Maria Todorova. Hier hat Petar Danov die erhabensten Gestalten aus dem bulgarischen Epos dargestellt. Ihnen liegt eine tiefe Symbolik zugrunde  das ist der mystische Weg der menschlichen Seele, die danach strebt, in berührung mit der göttlichen Liebe zu kommen.
       }
       210. \justify {
-        \vspace #0.7 \hspace #-0.7 \bold  "Българска идилия - Bylgarska idiliya"  Notiert von einer Tonbandaufnahme von Petar Kamburov, redigiert von Georgi Stratec, Ioanna Strateva und Stanka Zeleva. Petar Danov persönlich gab sie Peter Kamburov im Februar 190 in Opultschenska-Straße 66. Die Idylle beschreibt das Streben der bulgarischen Seele nach dem Ewigen im Leben. Sie will die ewige Gerechtigkeit, die ewige Liebe, die das Sein erfüllen, erreichen. Sie ahnt die Existenz einer schönen Welt in sich und möchte sie Wirklichkeit werden lassen.
+        \vspace #0.7 \hspace #-0.7 \bold  "Българска идилия – Bylgarska idiliya"  Notiert von einer Tonbandaufnahme von Petar Kamburov, redigiert von Georgi Stratec, Ioanna Strateva und Stanka Zeleva. Petar Danov persönlich gab sie Peter Kamburov im Februar 190 in Opultschenska-Straße 66. Die Idylle beschreibt das Streben der bulgarischen Seele nach dem Ewigen im Leben. Sie will die ewige Gerechtigkeit, die ewige Liebe, die das Sein erfüllen, erreichen. Sie ahnt die Existenz einer schönen Welt in sich und möchte sie Wirklichkeit werden lassen.
       }
       121. \justify {
         \vspace #0.7 \hspace #-0.7 \bold "Не ли думах – Ne li dumah"  Gegeben a, 27. Oktober 1943, Sofia. Izgrev.
@@ -594,7 +595,7 @@
       }
       
       162. \justify {
-        \vspace #0.7 \hspace #-0.7 \bold "Една вечна истина – Edna vechna istina"  18. April 1943 gegeben an Liljana Tabakova. Der Text ist in einer alten, nicht übersetzbaren Sprache geschrieben. Es geht um die erste Große Seele, die die Liebe bringt. Dieses Lied muss wie eine Meditation ausgeführt werden, mit Konzentration und mystischer Andacht.
+        \vspace #0.7 \hspace #-0.7 \bold "Една вечна истина... – Edna vechna istina..."  18. April 1943 gegeben an Liljana Tabakova. Der Text ist in einer alten, nicht übersetzbaren Sprache geschrieben. Es geht um die erste Große Seele, die die Liebe bringt. Dieses Lied muss wie eine Meditation ausgeführt werden, mit Konzentration und mystischer Andacht.
       }
       163. \justify {
         \vspace #0.7 \hspace #-0.7 \bold "Химни на Слънцето – Himni na slantseto"  Gegeben am 5. Mai 1942 von Petar Danov an Liljana Tabakova. Dank dieses Liedes begegnet man der aufgehenden Sonne. Dies ist das Gebet zum Sonnenaufgang. Es ist eine majestätische Hymne an alle Sonnen. Diese Hymnen werden auch von den Engeln gesungen. Dieses Lied wird zusammen mit Molitva ausgeführt.

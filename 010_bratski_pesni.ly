@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  
+   \tocAct \markup"BRÜDERLICHE LIEDER"
     \paper {
     print-all-headers = ##f
     print-page-number = ##f
@@ -32,7 +34,7 @@
   
   }
 
-  \markup\fontsize  #+8.5  {\bold {  \hspace #10  \vspace #13.5 BRÜDERLICHE LIEDER} }
+  \markup\fontsize  #+6.5  {\bold {  \hspace #13.5  \vspace #13.5 BRÜDERLICHE LIEDER} }
 
   % include foreign translation(s) of the song
   %\include "lyrics_de/000_empty_template_lyrics_de.ly"

@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref195
+  \tocItem \markup "     Пети божествен ден – Peti bozhestven den "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -121,6 +123,9 @@
       \include "lyrics_de/195_nb_peti_bozhestven_den_lyrics_de.ly"
 
       \markup \empty-three
+
+        \label #'ref195
+  \tocItem \markup "     Шести божествен ден – Shesti bozhestven den "
 
       \include "include/bookpart-paper.ily"
       \score {

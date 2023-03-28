@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+   \label #'ref221
+  \tocItem \markup "Wörteruch der Musikbegriffe"
   \paper {
     print-all-headers = ##t
     print-page-number = ##t
@@ -247,7 +249,7 @@
       \vspace #0.5
       \line {
         \justify {
-          und zum Beispiel rit. e morendo - verlangsamend und ersterbend.
+          und zum Beispiel rit. e morendo – verlangsamend und ersterbend.
 
         }
       }

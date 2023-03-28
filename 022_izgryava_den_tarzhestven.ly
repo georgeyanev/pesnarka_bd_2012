@@ -18,6 +18,8 @@
 }
 
 \bookpart {
+  \label #'ref022
+  \tocItem \markup "Изгрява вече ден тържествен – Izgryava veche den tarzhestven"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

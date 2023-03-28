@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref179
+  \tocItem \markup "Молитва (Господи, Ти Си) – Molitva (Господи, Ти, Си) "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

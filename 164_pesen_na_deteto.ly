@@ -3,6 +3,8 @@
 % include paper part and global functions
 \include "include/globals.ily"
 \bookpart {
+  \label #'ref164
+  \tocItem \markup "Песен на детето – Pesen na deteto"
   \paper {
     % the system system spacing is custom here so do not include bookpart-paper.ily
     print-all-headers = ##t

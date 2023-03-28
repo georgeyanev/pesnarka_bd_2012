@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+   \label #'ref104
+  \tocItem \markup "Химн на великата Душа – Himn na velikata Dusha"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

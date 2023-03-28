@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref161
+  \tocItem \markup "Духай ветре II – Duhai vetre II"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

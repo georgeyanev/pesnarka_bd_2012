@@ -22,6 +22,8 @@
 }
 
 \bookpart {
+  \label #'ref046
+  \tocItem \markup "Росна капка – Rosna kapka "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

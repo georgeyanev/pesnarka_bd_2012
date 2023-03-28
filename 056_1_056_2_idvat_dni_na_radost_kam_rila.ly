@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref056_1
+  \tocItem \markup "Идват дни на радост – Idvat dni na radost"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -48,6 +50,9 @@
   \include "lyrics_de/056_1_idvat_dni_na_radost_lyrics_de.ly"
 
   \markup \empty-two
+
+    \label #'ref056_2
+  \tocItem \markup "Към Рила – Kam Rila"
 
   \include "include/bookpart-paper.ily"
   \score {

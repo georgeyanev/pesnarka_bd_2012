@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref170_1
+  \tocItem \markup "Вяра светла I – Vyara svetla I "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -68,6 +70,9 @@
       \include "lyrics_de/170_1_vyara_svetla_lyrics_de.ly"
 
       \markup \empty-two
+
+      \label #'ref170_2
+      \tocItem \markup "Вяра светла II – Vyara svetla II "
 
       \include "include/bookpart-paper.ily"
       \score {
@@ -156,59 +161,62 @@
 
           % include foreign translation(s) of the song
           \include "lyrics_de/170_2_vyra_svetla_II_lyrics_de.ly"
-          
+
+             \label #'ref170_3
+  \tocItem \markup "Вяра светла III – Vyara svetla III "
+
           \include "include/bookpart-paper.ily"
-  \score {
-    \include "include/score-layout.ily"
+          \score {
+            \include "include/score-layout.ily"
 
-    \new Voice \absolute {
-      \clef treble
-      \key d \major
-      \time 3/4
-      \tempoFunc "Moderato" 4 "72"
-      \autoBeamOff
-      \partial 4
-      d'8  fis'8 | \repeat volta 2 {
-        a'4  % 2
-        a'2 | % 3
-        \time 2/4 b'4.  a'8 | \time 3/4 g'8 ( [  a'8 ])  % 4
-        fis'2 | % 5
-        \time 2/4 a'4 b'4  | % 6
-        a'4  g'4 \break | % 7
-        a'2 | % 8
-        fis'4  e'4 | % 9
-        a'4  g'4 |
-        g'4 (  a'4 ) \bar "!" |
-      }  % 11
+            \new Voice \absolute {
+              \clef treble
+              \key d \major
+              \time 3/4
+              \tempoFunc "Moderato" 4 "72"
+              \autoBeamOff
+              \partial 4
+              d'8  fis'8 | \repeat volta 2 {
+                a'4  % 2
+                a'2 | % 3
+                \time 2/4 b'4.  a'8 | \time 3/4 g'8 ( [  a'8 ])  % 4
+                fis'2 | % 5
+                \time 2/4 a'4 b'4  | % 6
+                a'4  g'4 \break | % 7
+                a'2 | % 8
+                fis'4  e'4 | % 9
+                a'4  g'4 |
+                g'4 (  a'4 ) \bar "!" |
+              }  % 11
 
-      \alternative {
-        {\time 3/4 fis'2 d'8 fis'8}
-        { fis'2}
-      }
-      \bar "|."
-    }
+              \alternative {
+                {\time 3/4 fis'2 d'8 fis'8}
+                { fis'2}
+              }
+              \bar "|."
+            }
 
-    \addlyrics {
-      Вя -- ра свет --   ла,
-      вя -- ра сил --   на! Тя кре -- пи Ду -- ха, що Жи -- вот -- та раж -- да. Вя -- ра да.}
-      \addlyrics {
-        Vya -- ra svet -- la, Vya -- ra sil -- na! Tja kre -- pi Du -- ha, sto, Zhi -- vo -- ta razh -- da. Vja -- ra da.}
+            \addlyrics {
+              Вя -- ра свет --   ла,
+              вя -- ра сил --   на! Тя кре -- пи Ду -- ха, що Жи -- вот -- та раж -- да. Вя -- ра да.}
+              \addlyrics {
+                Vya -- ra svet -- la, Vya -- ra sil -- na! Tja kre -- pi Du -- ha, sto, Zhi -- vo -- ta razh -- da. Vja -- ra da.}
 
-        \header {
-          title = \titleFunc "Вяра светла III" "Vyara svetla III"
-        }
+                \header {
+                  title = \titleFunc "Вяра светла III" "Vyara svetla III"
+                }
 
-        \midi{}
+                \midi{}
 
-      } % score
-
-
-
-      % include foreign translation(s) of the song
-      \include "lyrics_de/171_1_vyara_svetla_III.ly"
+              } % score
 
 
-        } % bookpart
 
-        % Più mosso
-        %
+              % include foreign translation(s) of the song
+              \include "lyrics_de/171_1_vyara_svetla_III.ly"
+
+
+            } % bookpart
+
+            % Più mosso
+            %

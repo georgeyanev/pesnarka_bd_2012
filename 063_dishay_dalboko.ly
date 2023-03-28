@@ -34,6 +34,8 @@
 }
 
 \bookpart {
+  \label #'ref063
+  \tocItem \markup "Дишай дълбоко – Dishay dalbok "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

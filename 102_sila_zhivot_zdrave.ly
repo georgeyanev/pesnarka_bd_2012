@@ -3,6 +3,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  \label #'ref102
+  \tocItem \markup "Сила, Живот, здраве – Sila,  Zhivot, zdrave"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
