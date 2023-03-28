@@ -12,7 +12,7 @@
 
     \line { 1. Wir sind die Nachtigallen des Waldes,}
 
-    \line { "   "mit Liedern lobpreisen wir die Himmel. }
+    \line { "   "mit Liedern lobpreisen wir die Himmel, }
 
     \line { "   "knechtende Gefühle und menschliche Sorgen}
 
