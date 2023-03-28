@@ -186,6 +186,7 @@ cat \
     ../218_appendix.ly \
     ../220_description.ly \
     ../221_dictionary.ly \
+    ../245_index.ly \
     > tmp.ly
 
 lilypond --include=../ -o pesn_all tmp.ly
