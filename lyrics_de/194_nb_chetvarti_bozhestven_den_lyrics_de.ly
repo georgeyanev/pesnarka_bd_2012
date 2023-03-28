@@ -14,7 +14,7 @@
  \line { " " Und Gott sprach: „Es leuchten Lichter an der}
  \line { " " Feste des Himmels“, und es ward so.}
 
- \line { " "  Und Gott machte zwei Lichter: ein großes regiere}
+ \line { " "  Und Gott machte zwei Lichter: Ein großes regiere}
  \line { " "  den Tag, und ein kleines die Nacht.}
 
  \line { " " Und Gott machte, dass die Sterne leuchten}
