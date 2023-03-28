@@ -31,7 +31,7 @@
     \line { " "mögen die Weisen gut leben,}
 
     \line { " "die Guten in Wohlstand leben.}
-      \line { " "}
+    \line { " "}
 
     \line { " " Für sie bricht die lichte Morgenröte an,}
 

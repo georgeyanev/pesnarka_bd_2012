@@ -6,22 +6,20 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
-
 
 \line { " "Ich bin ein Fremder in dieser Welt.}
 
-\line { " "Ich kenne niemand außer Dich. }
+\line { " "Ich kenne niemanden außer Dir. }
 
-\line { " "Dich, oh Herr, mein Gott,}
+\line { " "Du, oh Herr, mein Gott,}
 
-\line { " "der Du alles für mich erschaffen hast. }
+\line { " "hast alles für mich erschaffen. }
 
-\line { " "Ich richte mein Dank an Dich. }
+\line { " "Ich richte meinen Dank an Dich. }
 
-\line { " "Auf Dich, Herr, setze ich mein Vertrauen.}
+\line { " "In Dich, Herr, setzte ich mein Vertrauen.}
 
-\line { " "Möge mein Gebet erhört werden.}
+\line { " "Möge mein Gebet zu Dir hinaufsteigen.}
 
   }
 }

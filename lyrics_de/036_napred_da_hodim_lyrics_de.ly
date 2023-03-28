@@ -25,9 +25,9 @@
     \line { "   "erneuern wir die Welt!}
     \line { "   " }
 
-    \line { 2. Lasst uns die Erde}
+    \line { 2. Lasst uns die Erde }
 
-    \line { "   "mit reinen Gedanken fest umgränzen }
+    \line { "   "mit reinen Gedanken fest umzäunen }
 
     \line { "   "und das lasterhafte Böse}
 
@@ -37,7 +37,6 @@
     \line { "   " \italic { Refrain ...}  }
     \line { "   " }
     \line {3. Lasst uns den Schwachen}
-
 
     \line { "   "Stärkung und Erneuerung bringen,}
 
