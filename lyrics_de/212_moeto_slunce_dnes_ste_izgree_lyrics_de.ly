@@ -15,17 +15,13 @@
 
 \line { " "Sie wird mir Licht und Freude bringen.}
 
-\line { " "Meine liebe Mutter,}
-
-\line { " "meine Sonne wird heute aufgehen}
+\line { " "Meine liebe Mutter, meine Sonne wird heute aufgehen}
 
 \line { " "und sie wird lichte Freude in mein Leben bringen.}
 
-\line { " "Dann werde ich, Mutter,}
+\line { " "Dann werde ich, Mutter, mich bekunden, }
 
-\line { " "mich bekunden, bereit sein,}
-
-\line { " "das Gute in der Welt zu bekunden. }
+\line { " "bereit sein, das Gute in der Welt zu bekunden. }
 
 \line { " "Ich werde gut denken,}
 
@@ -35,9 +31,7 @@
 
 \line { " "Du wirst, Mutter, einen guten Sohn haben.}
 
-\line { " "Meine liebe Mutter,}
-
-\line { " "meine Sonne wird heute aufgehen }
+\line { " "Meine liebe Mutter, meine Sonne wird heute aufgehen }
 
 \line { " "und sie wird mein Leben }
 
