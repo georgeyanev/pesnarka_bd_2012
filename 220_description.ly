@@ -1217,7 +1217,7 @@
 
       \line {
         \justify {
-          \bold  "Българска рапсодия – Bylgarska rapsodia."  Gegeben 1934. Redaktion Maria Todorova. Hier hat Petar Danov die erhabensten Gestalten aus dem bulgarischen Epos dargestellt. Ihnen liegt eine tiefe Symbolik zugrunde:  Das ist der mystische Weg der menschlichen Seele, die danach strebt, in berührung mit der göttlichen Liebe zu kommen.
+          \bold  "Българска рапсодия – Bylgarska rapsodia."  Gegeben 1934. Redaktion Maria Todorova. Hier hat Petar Danov die erhabensten Gestalten aus dem bulgarischen Epos dargestellt. Ihnen liegt eine tiefe Symbolik zugrunde:  Das ist der mystische Weg der menschlichen Seele, die danach strebt, in Berührung mit der göttlichen Liebe zu kommen.
         }
       }
       \vspace #0.5
@@ -1689,7 +1689,7 @@
         \justify {
 
 
-          \bold "Новото Битие – Novoto Bitie."  Das Erschaffen des neuen Adams. Gegeben von Petar Danov an Liljana Tabakova in der folgenden Reihenfolge: Erster göttlicher Tag 7. Dezember 1941., Zweiter göttlicher Tag  28. Juli 1942. Dritter göttlicher Tag  1. Oktover 1942. Vierter göttlicher Tag  12. November 1942, Fünfter göttlicher Tag  30. Mai 1943, Sechster göttlicher Tag, 21. Juli 1943, Siebter Göttlicher Tag  15. September 1943.
+          \bold "Новото Битие – Novoto Bitie."  Das Erschaffen des neuen Adams. Gegeben von Petar Danov an Liljana Tabakova in der folgenden Reihenfolge: Erster göttlicher Tag 7. Dezember 1941., Zweiter göttlicher Tag  28. Juli 1942. Dritter göttlicher Tag  1. Oktober 1942. Vierter göttlicher Tag  12. November 1942, Fünfter göttlicher Tag  30. Mai 1943, Sechster göttlicher Tag, 21. Juli 1943, Siebter Göttlicher Tag  15. September 1943.
 
           Unter \italic" Neuer Genesis" verstehen wir das neue Leben, welches sich jetzt für die gesamte Menschheit und jedes einzelne Individuum an sich aufzubauen beginnt. Die erste „Genesis“, die in der Bibel beschrieben wurde, symbolisiert das alte Leben. Der alte Adam hat gesündigt. Musikalisch gesprochen, hat er das F nicht sauber genommen, das dem Materiellen in dieser Welt entspricht. Der neue Adam wird diesen Fehler des alten Adams korrigieren. Er wird keine Fehler mehr begehen und nicht mehr sterben. Musikalisch gesprochen bedeutet dies: Er wird die Noten der Tonleiter bis zum A richtig singen. Das A entspricht der 6. Rasse. Es bleibt dann nur noch die Note H, die reife Frucht. Diese Frucht symbolisiert die 7. Rasse. Die sieben Tage Gottes, aus der Genesis, entsprechen den sieben Noten der Tonleiter. So beginnt der erste Tag Gottes mit der Note C. Das bedeutet, dass die Mächte des Lichts, die die Schöpfung der neuen Welt begonnen haben, die Materie des alten Lebens in eine neue, höhere Tonleiter umformen und in sie das Element der Unsterblichkeit einfügen werden. Nach dieser Analogie werden sich im Blut des neuen Adam neue rote Blutkörperchen formen, die von den Eigenschaften des neuen Lebens durchdrungen sein werden. Der zweite Tag Gottes, der mit dem Ton D beginnt, wird das Nervensystem, die Knochen und den Willen transformieren. So wird jeder göttliche Tag etwas Neues in die Struktur des Kosmos und des Menschen hervorbringen. Jeder Mensch wird seine neue Existenz individuell leben. Das Lied endet mit den magischen Worten des kosmischen Geistes Aum, und der Universalseele Aumen. \italic"(Deutung nach Ideen von Petar Danov.)"
         }
