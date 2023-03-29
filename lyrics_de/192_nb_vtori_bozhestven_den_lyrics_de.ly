@@ -2,9 +2,9 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Zweiter göttlicher Tag" }
 \markup \null
-%\markup \null
+\markup \null
 \markup \fontsize #deCoupletFontSize {
-  \hspace #10
+  \hspace #7
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {

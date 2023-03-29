@@ -1,6 +1,8 @@
 \version "2.24.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Die Kälte gibt alles" }
+ \markup \null
+ \markup \null
 \markup \fontsize #+1.7 {
   \hspace #-2
   \vspace #1
@@ -8,10 +10,6 @@
 
 
   \column {
- 
-
-
-
    \line { " "  Die Kälte gibt alles. Kalt bist du,}
 
     \line { " " aber schützt uns vor der Kälte.}

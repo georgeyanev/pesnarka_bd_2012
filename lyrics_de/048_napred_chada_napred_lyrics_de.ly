@@ -2,6 +2,7 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Vorwärts, Kinder, vorwärts" }
 \markup \null
+\markup \null
 \markup \fontsize #deCoupletFontSize {
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)

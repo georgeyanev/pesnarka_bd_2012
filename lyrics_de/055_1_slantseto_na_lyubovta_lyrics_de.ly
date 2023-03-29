@@ -2,6 +2,7 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Die Sonne der Liebe" }
 \markup \null
+\markup \null
 
 \markup \fontsize #deCoupletFontSize {
   \hspace #20
@@ -9,7 +10,7 @@
 
   \column {
 
-    \line { 1. Die Sonne der Liebe}
+    \line { "   " Die Sonne der Liebe}
 
     \line { "   " geht schon auf über der Welt.}
 

@@ -1,9 +1,12 @@
 \version "2.24.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Bei der Quelle" }
+\markup \null
+\markup \null
 \markup \fontsize #+2.0 {
   \hspace #-2
-  \vspace #1
+ 
+ 
   \override #'(baseline-skip . 1.8)
 
   \column {

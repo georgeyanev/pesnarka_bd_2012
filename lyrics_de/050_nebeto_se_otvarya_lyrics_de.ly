@@ -2,9 +2,9 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Der Himmel öffnet sich" }
 \markup \null
-
+\markup \null
 \markup \fontsize #deCoupletFontSize {
-  \hspace #10
+  \hspace #15
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {

@@ -2,7 +2,7 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Die Sonne geht auf" }
 \markup \null
-
+\markup \null
 \markup \fontsize #deCoupletFontSize {
   \hspace #18
   \override #`(baseline-skip . ,deCoupletBaselineSkip)

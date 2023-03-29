@@ -2,6 +2,7 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Gelobt sei der Herr" }
 \markup \null
+\markup \null
 \markup \fontsize #deCoupletFontSize {
   \hspace #18
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
@@ -16,7 +17,8 @@
 
     \line { " "der Vater der lichtvollen Geister}
 
-    \line { " "der lichtvollen Geister. (4) }
+    \line { " "der lichtvollen Geister, der lichtvollen Geister,  }
+    \line { " "der lichtvollen Geister, der lichtvollen Geister.  }
 
   }
 }

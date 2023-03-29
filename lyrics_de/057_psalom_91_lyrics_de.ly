@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Psalm 91" }
 \markup \null
 \markup \fontsize #deCoupletFontSize {
-  \hspace #10
+  \hspace #18
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {

@@ -2,12 +2,14 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Ruhm Gottes" }
 \markup \null
+\markup \null
 \markup \fontsize #deCoupletFontSize {
-  \hspace #10
+  \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
     \line { " " Nicht mir, nicht mir, }
-    \line { " " sondern Deinem Namen gib, oh Herr Ruhm, Ruhm, Ruhm.}
+    \line { " " sondern Deinem Namen gib,}
+    \line { " " oh Herr Ruhm, Ruhm, Ruhm.}
   }
 }

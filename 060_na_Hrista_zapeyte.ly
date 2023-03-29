@@ -56,7 +56,7 @@
   \markup \empty-one
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+    \hspace #3
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line {   2.  На Христа запейте химни  }
@@ -137,7 +137,7 @@
   \pageBreak
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+    \hspace #3
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 

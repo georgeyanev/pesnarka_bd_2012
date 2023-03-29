@@ -2,6 +2,7 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Steh' auf, Tochter!" }
 \markup \null
+\markup \null
 
 \markup \fontsize #deCoupletFontSize {
   \hspace #2

@@ -2,9 +2,10 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Dir singen wir" }
 \markup \null
+\markup \null
 
 \markup \fontsize #deCoupletFontSize {
-  \hspace #10
+  \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -12,7 +13,8 @@
 
     \line { " "Dich lobpreisen wir, unser Gott.}
 
-    \line { " "Und wir beten zu Dir, und wir beten zu Dir,}
+    \line { " "Und wir beten zu Dir, }
+   \line { " " und wir beten zu Dir,}
     \line { " " und wir beten zu Dir,}
 
     \line { " "oh, unser Gott.}

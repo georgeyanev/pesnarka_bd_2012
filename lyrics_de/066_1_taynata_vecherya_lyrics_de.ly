@@ -7,13 +7,14 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { 1.  Zun meri manu, }
+    \line {   "   "  Zun meri manu, }
     \line {   "   " zun meri manun dana, }
     \line {   "   " asavita vita nanda. }
     \line {   "   " Zun meri manu, }
     \line {   "   " zun meri manun dana, }
 
     \line {   "   " asavita nanda. }
+    \line {   "   "}
 
     \line {   "   " Alles ist hell, }
 

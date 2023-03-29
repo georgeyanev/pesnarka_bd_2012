@@ -2,6 +2,7 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Ins Rila fliegen wir" }
 \markup \null
+\markup \null
 \markup \fontsize #deCoupletFontSize {
   \hspace #15
   \override #`(baseline-skip . ,deCoupletBaselineSkip)

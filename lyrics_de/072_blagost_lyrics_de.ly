@@ -4,13 +4,14 @@
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
-  \hspace #10
+  \hspace #15
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
     \line { " " Güte, Güte, Güte,}
 
-    \line { " "bringt, bringt, bringt das Licht, das Licht, das Licht.}
+    \line { " " bringt, bringt, bringt }
+     \line { " " das Licht, das Licht, das Licht.}
 
     \line { " "}
 
@@ -42,7 +43,9 @@
 
     \line { " "und die Blumen blühen schön,}
 
-    \line { " "wenn sie kommt, wenn sie kommt, wenn sie kommt. }
+    \line { " "wenn sie kommt, }
+    \line { " "wenn sie kommt,  }
+    \line { " "wenn sie kommt.  }
 
 
 

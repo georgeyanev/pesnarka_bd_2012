@@ -2,7 +2,7 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Das Lied der Vokale" }
 \markup \null
-
+\markup \null
 \markup \fontsize #deCoupletFontSize {
   \hspace #25
   \override #`(baseline-skip . ,deCoupletBaselineSkip)

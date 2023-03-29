@@ -4,16 +4,21 @@
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
-  \hspace #10
+  \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
        
-  \line { " "Süß, honigsüß, süß, honigsüß, süß, honigsüß, süß, honigsüß, }
+  \line { " "Süß, honigsüß, }
+  \line { " " süß, honigsüß, }
+  \line { " " süß, honigsüß, }
+  \line { " " süß, honigsüß, }
 
-  \line { " "honigsüß, honigsüß, süß, honigsüß.}
+  \line { " "honigsüß, honigsüß, }
+  \line { " "  süß, honigsüß.}
 
-  \line { " "Von der Sonne gesandt, von den Bienen übergebracht. }
+  \line { " "Von der Sonne gesandt, }
+  \line { " " von den Bienen übergebracht. }
 
       
       
