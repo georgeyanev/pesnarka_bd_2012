@@ -523,19 +523,19 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold  "Сила жива, изворна – Sila ziva, izvorna."  Das Lied wurde am 12. Oktober 1922 in der Allgemeinen Okkultklasse, II. Jahrgang, im zweiten Vortrag gegeben.  Petar Danov sagt: „Die Töne dieses Liedes zeigen die Bewegungen, ein Quellen nach oben und ein Erweitern. Das Unterdrückte im Menschen wird befreit, es wird in Gang gesetzt und ihm die richtige Richtung gegeben. Damit der Mensch diese Übung singen kann, muss er in einem harmonischen Kontakt mit der göttlichen Natur treten. Die Worte \italic"Sun me sun" regulieren in der okkulten Musik; sie sind die Gleichgewicht bringende Kraft; sie sind das Maß. \italic"Tu meto" eines der schönsten Inhalte.“
+          \bold  "Сила жива, изворна – Sila ziva, izvorna."  Das Lied wurde am 12. Oktober 1922 in der Allgemeinen Okkultklasse, II. Jahrgang, im zweiten Vortrag gegeben.  Petar Danov sagt: „Die Töne dieses Liedes zeigen die Bewegungen, ein Quellen nach oben und ein Erweitern. Das Unterdrückte im Menschen wird befreit; es wird in Gang gesetzt und ihm die richtige Richtung gegeben. Damit der Mensch diese Übung singen kann, muss er in einem harmonischen Kontakt mit der göttlichen Natur treten. Die Worte \italic"Sun me sun" regulieren in der okkulten Musik; sie sind die Gleichgewicht bringende Kraft; sie sind das Maß. \italic"Tu meto" bedeutet eines der schönsten Inhalte.“
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          \bold  "Сладко медено – Sladko medeno."  Gegeben am 29. Oktober 1922, Allgemeine Okkultklasse, II. Jahrgang, 5. Vortrag. Das ist eine positive Übung, jedes Bild ist aktiv.
+          \bold  "Сладко медено – Sladko medeno."  Gegeben am 29. Oktober 1922, Allgemeine Okkultklasse, II. Jahrgang, 5. Vortrag. Das ist eine positive Übung; jedes Bild ist aktiv.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          \bold  "Благост – Blagost."  Die ersten fünf Takte des Liedes wurden am 19. Dezember 1923, in der Allgemeinen Okkultklasse, III. Jahrgang, im 10. Vortrag gegeben. Das ganze Lied wurde am 26. Dezember 1923 gegeben. Petar Danov sagt: „Die Kraft dieses Liedes liegt in seinem Rhythmus. Es hat zum Ziel, den richtigen Rhythmus des menschlichen Herzens wiederherzustellen.“
+          \bold  "Благост – Blagost."  Die ersten fünf Takte des Liedes wurden am 19. Dezember 1923, in der Allgemeinen Okkultklasse, III. Jahrgang, im 10. Vortrag gegeben. Das Lied wurde am 26. Dezember 1923 vollendet. Petar Danov sagt: „Die Kraft dieses Liedes liegt in seinem Rhythmus. Es hat zum Ziel, den richtigen Rhythmus des menschlichen Herzens wiederherzustellen.“
         }
       }
 
@@ -548,13 +548,13 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold   "Аум – Aum."  Gegeben am 2. Dezember 1925. Diese Übung soll der Mensch das Heilige in sich aufrechterhalten. Es ist aus einem alten heiligen Lied entnommen worden. Petar Danov sagt: „Hätte ich euch dieses Lied in seiner urspünglichen Moll-Tonart gegeben, könntet ihr ihrer Schwingung nicht standhalten; euren Puls wird sich verändern.“ Petar Danov gab das Lied in Dur. Petar Danov sagt: „Es gibt heilige Wörter. Solch ein Wort ist auch das Wort \italic"Aum," das oft ausgesprochen werden soll, auch dann, wenn man seine Bedeutung nicht versteht. Seid ihr traurig, seid ihr krank, befindet ihr euch geistig nicht in einer guten Kondition, sprecht ein paar Mal das Wort \italic"Aum"  – es ist das Wort des Geistes. Singt ihr das Wort in seiner Sprache, wird er euch verstehen und helfen, denn er versteht und kennt eure Bedürfnisse.“
+          \bold   "Аум – Aum."  Gegeben am 2. Dezember 1925. Durch diese Übung soll der Mensch das Heilige in sich aufrechterhalten. Es ist aus einem alten, heiligen Lied entnommen worden. Petar Danov sagt: „Hätte ich euch dieses Lied in seiner urspünglichen Moll-Tonart gegeben, könntet ihr ihrer Schwingung nicht standhalten; euren Puls wird sich verändern.“ Petar Danov gab das Lied in Dur. Petar Danov sagt: „Es gibt heilige Wörter. Solch ein Wort ist auch das Wort \italic"Aum," das oft ausgesprochen werden soll, auch dann, wenn man seine Bedeutung nicht versteht. Seid ihr traurig, seid ihr krank, befindet ihr euch geistig nicht in einer guten Kondition, sprecht ein paar Mal das Wort \italic"Aum"  – es ist das Wort des Geistes. Singt ihr das Wort in seiner Sprache, wird er euch verstehen und helfen, denn er versteht und kennt eure Bedürfnisse.“
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          \bold  "Венир Бенир – Venir benir."  Gegeben am 5. November 1922. Allgemeine Okkultklasse, II. Jahrgang, 6. Vortrag. Venir Benir ist ein okkulter östlicher Motiv, das von den westlichen Völkern aufgenommen wurde. Die mystische Bedeutung des Liedes ist folgende: \italic"Venir Benir"  – Du, der Große, der du alle und alles segnest. \italic"Bihar Benum"  – Es sei gesegnet. \italic"Il Beut"  – Gott, segne das Große, die Jugend, der Ursprung des Lebens. \italic"Il Bezut " – Herr, segne den Jungen, den Beginnenden, das göttliche Leben, lobpreise das Göttliche, das in der Seele empfangen wird, den Atem Gottes, den wir usprünglich empfangen haben. \italic"On Bejut" – Er ist es selbst, der Einzige, der segnet. \italic"Il Bezut, On Bejut" – Er ist alles, Er ist überall. So soll es jetzt sein! Das ist das Verhältnis zwischen dem Großen und dem Kleinen – die Seele. Und das Kleine wird von einem Gedanken über das Große, über Gott erfüllt. Die Seele erinnert sich an die Zeit, als sie den ersten Hauch vom göttlichen Hauch empfangen hat. (Nach Danov: Allgemeine Okkultklasse, 8. Mai. 1940).
+          \bold  "Венир Бенир – Venir benir."  Gegeben am 5. November 1922. Allgemeine Okkultklasse, II. Jahrgang, 6. Vortrag. Venir Benir ist ein okkultes, östliches Motiv, das von den westlichen Völkern aufgenommen wurde. Die mystische Bedeutung des Liedes ist folgende: \italic"Venir Benir"  – Du, der Große, der du alle und alles segnest. \italic"Bihar Benum"  – Es sei gesegnet. \italic"Il Beut"  – Gott, segne das Große, die Jugend, der Ursprung des Lebens. \italic"Il Bezut " – Herr, segne den jungen Menschen, den Beginnenden, das göttliche Leben, segne das Göttliche, das in der Seele empfangen wird, den Atem Gottes, den wir usprünglich empfangen haben. \italic"On Bejut" – Er ist es selbst, der Einzige, der segnet. \italic"Il Bezut, On Bejut" – Er ist alles, Er ist überall. So soll es jetzt sein! Das ist das Verhältnis zwischen dem Großen und dem Kleinen – die Seele. Und das Kleine wird von einem Gedanken über das Große, über Gott erfüllt. Die Seele erinnert sich an die Zeit, als sie den ersten Hauch vom göttlichen Hauch empfangen hat. (Nach Danov: Allgemeine Okkultklasse, 8. Mai. 1940).
         }
       }
 
@@ -599,7 +599,7 @@
 
       \line {
         \justify {
-          \bold  "Скръбта си ти кажи – Skrabta si ti kazhi."   19. November 1922 Allgemeine Okkultklasse, II. Jahrgang, 8. Vortrag. \italic"Sila jiva" und \italic"Skrabta si ti kaji" sind zwei Teile einer einzigen okkulten Übung. Peter Danov gab dazu folgende Erklärung: \italic"Sila jiva, kaji mi, kaji mi, de voda izvira:" Hier suchen wir nach der Quelle. Es handelt sich um ein traditionelles bulgarisches Motiv. Es wurde dem Lauf einer Quelle aus dem Hochgebirge entnommen, welche über die Steine springend nach und nach hinunterfließt. So habt ihr hier ein sehr angenehmes Bild vor Augen. Im bulgarischen Volkslied sind all diese Reigentanzlieder Stätten entnommen worden, wo Quellen entspringen. \italic"Skrabta si ti kaji, sarze si ti otvori na slanchevi lachi ...:" In diesem Ausschnitt haben wir ein negatives Wort, den Gram: skrabta. Sobald jemand Leid empfindet, gibt es eine Dunkelheit in seinem Verstand und seinem Herzen; es gibt kein Licht mehr. Sobald das Licht erscheint, verschwindet das Leid. Die Sonne ist es, die heilt.
+          \bold  "Скръбта си ти кажи – Skrabta si ti kazhi."   19. November 1922 Allgemeine Okkultklasse, II. Jahrgang, 8. Vortrag. \italic"Sila jiva" und \italic"Skrabta si ti kaji" sind zwei Teile einer einzigen okkulten Übung. Peter Danov gab dazu folgende Erklärung: \italic"Sila jiva, kaji mi, kaji mi, de voda izvira:" Hier suchen wir nach der Quelle. Es handelt sich um ein traditionelles bulgarisches Motiv. Es wurde dem Lauf einer Quelle aus dem Hochgebirge entnommen, welche über die Steine springend nach und nach hinunterfließt. So habt ihr hier ein sehr angenehmes Bild vor Augen. Im bulgarischen Volkslied sind all diese Reigentanzlieder Stätten entnommen worden, wo Quellen entspringen. \italic"Skrabta si ti kaji, sarze si ti otvori na slanchevi lachi ...:" In diesem Ausschnitt haben wir ein negatives Wort, den Gram [skrabta]. Sobald jemand Leid empfindet, gibt es eine Dunkelheit in seinem Verstand und seinem Herzen; es gibt kein Licht mehr. Sobald das Licht erscheint, verschwindet das Leid. Die Sonne ist es, die heilt.
         }
       }
       \vspace #0.5
@@ -624,7 +624,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold "В мрак тъмнота – V mrak tamnota." Gegeben am 3. März Allgemeine Okkultklasse, V. Jahrgang, 16. Vortrag. Dieses Lied ist der zweite Teil von \italic"Mahar Benu Aba" und zugleich seine Übersetzung. Bildlich gesprochen, entspricht \italic"v’mrak = Mahar," dem Abstieg. \italic"No slantzeto na jivota" entpricht \italic"Benou," dem Aufstieg. \italic"I nii tragnahme vav patia chist i sviat za nas" entspricht \italic"Aba," was bedeutet: an die Arbeit gehen.
+          \bold "В мрак тъмнота – V mrak tamnota." Gegeben am 3. März Allgemeine Okkultklasse, V. Jahrgang, 16. Vortrag. Dieses Lied ist der zweite Teil von \italic"Mahar Benu Aba" und seine Übersetzung zugleich. Bildlich gesprochen, entspricht \italic"v’mrak = Mahar," dem Abstieg. \italic"No slantzeto na jivota" entpricht \italic"Benou," dem Aufstieg. \italic"I nii tragnahme vav patia chist i sviat za nas" entspricht \italic"Aba," was bedeutet: an die Arbeit gehen.
         }
       }
       \vspace #0.5
@@ -672,7 +672,7 @@
 
       \line {
         \justify {
-          \bold  "Бог е Любов – Bog e Lyubov."  Der erste Teil dieses Liedes entstand am 10. Dezember 1922 (Allgemeine Okkultklasse, II. Jahrgang, 11. Vortrag); der zweite Teil \italic"Nij ste hodim" am 17. Dezember 1922 im Laufe des nachfolgenden Vortrages der gleichen Klasse. Diese Übung enthält Bilder und Gestalten. Man beginnt leise zu singen. Die Kraft dieses Liedes liegt im Erleben verborgen. Die menschliche Seele empfängt aus den höheren Regionen die ewige Symphonie, welche aus dem ganzen Kosmos als Lobpreisung des Unendlichen [Gott] kommt. Dieser Gedanke wird im ersten Teil des Liedes \italic"Gott ist Liebe." ausgedrückt. Diese Symphonie erfüllt und verklärt die menschliche Seele, die nun freudig ihren Ruf nach oben richtet. Dies wird im zweiten Teil des Liedes ausgedrückt: \italic"Wir werden auf dem Weg des Lichts wandeln"
+          \bold  "Бог е Любов – Bog e Lyubov."  Der erste Teil dieses Liedes entstand am 10. Dezember 1922 (Allgemeine Okkultklasse, II. Jahrgang, 11. Vortrag); der zweite Teil \italic"Nij ste hodim" am 17. Dezember 1922, d. h. im Laufe des nachfolgenden Vortrages der gleichen Klasse. Diese Übung enthält Bilder und Gestalten. Man beginnt leise zu singen. Die Kraft dieses Liedes liegt im Erleben verborgen. Die menschliche Seele empfängt aus den höheren Regionen die ewige Symphonie, welche aus dem ganzen Kosmos als Lobpreisung des Unendlichen [Gott] kommt. Dieser Gedanke wird im ersten Teil des Liedes \italic"Gott ist Liebe" ausgedrückt. Diese Symphonie erfüllt und verklärt die menschliche Seele, die nun freudig ihren Ruf nach oben sendet. Dies wird im zweiten Teil des Liedes ausgedrückt: \italic"Wir werden auf dem Weg des Lichts wandeln."
         }
       }
       \vspace #0.5
@@ -702,7 +702,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold "Благата песен – Blagata pesen."  Gegeben am 27 März 1929, Allgemeine Okkultklasse, VIII Jahrgang, 32. Vortrag. Dieses Lied wurde aus einer sehr alten Sprachen übersetzt. Das Liedes wurde \italic"Hadi  henzi" betitelt; Übersetzt bedeuten diese Worte das gütige Lied. In ihm wurde ein ebener Weg ohne Hinterdnisse gezeichnet.
+          \bold "Благата песен – Blagata pesen."  Gegeben am 27 März 1929, Allgemeine Okkultklasse, VIII Jahrgang, 32. Vortrag. Dieses Lied wurde aus einer sehr alten Sprachen übersetzt. Das Lied wurde \italic"Hadi  henzi" betitelt; Übersetzt bedeuten diese Worte das gütige Lied. In ihm wurde ein ebener Weg ohne Hinterdnisse gezeichnet.
         }
       }
       \vspace #0.5
@@ -772,27 +772,27 @@
 
       \line {
         \justify {
-          \bold  "Киамет Зену – Kiamet Zenu."  8. Dezember 1926. (Allgemeine Okkultklasse, VI. Jahrgang, 12. Vortrag). Kiamet Zenou bedeutet, dass du einen Ort betrittst, der so schön, so außergewöhnlich ist, so dass du staunst, worauf du zuerst deinen Blick heften sollst. Das Wort Kiamet bedeutet: der Große im Leben, dasjenige, was in Raum und Zeit verbirgt. Er ist der Beginn aller Dinge, dasjenige, das der schöpferischen Kraft Schwung gibt. Dieses Wort bedeutet auch die Kraft, mit deren Hilfe du kämpfst, um die Einschränkungen zu Beginn der Wiederauferstehung zu besiegen. Mahar Benu ist der Große, der die Dinge ordnet und aufbaut. Er ist unveränderlich und beständig.
+          \bold  "Киамет Зену – Kiamet Zenu."  8. Dezember 1926. (Allgemeine Okkultklasse, VI. Jahrgang, 12. Vortrag). \italic"Kiamet Zenou" bedeutet, dass du einen Ort betrittst, der so schön, so außergewöhnlich ist, so dass du staunst, worauf du zuerst deinen Blick richten sollst. Das Wort \italic"Kiamet" bedeutet: das Große im Leben, dasjenige, was im Raum und in der Zeit verborgen liegt. Er ist der Beginn aller Dinge, dasjenige, das der schöpferischen Kraft Schwung gibt. Dieses Wort bedeutet auch die Kraft, mit deren Hilfe du kämpfst, um die Einschränkungen zu Beginn der Erneuerung zu besiegen. \italic"Mahar Benu" ist der Große, der die Dinge ordnet und aufbaut. Er ist unveränderlich und beständig.
         }
       }
 
       \vspace #0.5
       \line {
         \justify {
-          \bold  "Давай,  Давай – Davay Davay."  28. Dezember 1926 Allgemeine Okkultklasse, 6. Jahrgang, 4. Vortrag. Dieses Lied ist ein kraftvolles Motiv, welches Bilder und Gemälde im Bewusstsein des Menschen erweckt. Das Lied gibt dem Menschen den Impuls zu geben, auf dem Acker des Lebens zu säen. Mit dem Singen von \italic"Davai, davai" sagst du: Ich muss geben. Wer reine Weizenkörner gibt, dasselbe kommt zu ihm zurück. \italic"Davai Davai" beginnt mit dem Ton A, der die Quelle symbolisiert; also du bist eine Quelle, die fließen soll. Du hast dich gedrückt: Stehe auf und verrichte deine Arbeit. Der Begriff \italic"Davai, davai" hat eine breite Bedeutung.
+          \bold  "Давай,  Давай – Davay Davay."  28. Dezember 1926 Allgemeine Okkultklasse, 6. Jahrgang, 4. Vortrag. Dieses Lied ist ein kraftvolles Motiv, welches Bilder und Gemälde im Bewusstsein des Menschen erweckt. Das Lied gibt dem Menschen den Impuls zu geben, auf dem Acker des Lebens zu säen. Mit dem Singen von \italic"Davai, davai" sagst du: „Ich muss geben“. Wer reine Weizenkörner gibt, dasselbe kommt zu ihm zurück. \italic"Davai Davai" beginnt mit dem Ton A, der die Quelle symbolisiert; also du bist eine Quelle, die fließen soll. Du hast dich gedrückt: Stehe auf und verrichte deine Arbeit. Der Begriff \italic"Davai, davai" hat eine breite Bedeutung.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          \bold  "В начало бе Словото – V nachalo be Slovoto." Gegeben am 5. November 1924, Allgemeine Okkultklasse. IV Jahrgang. Der Text des Liedes stammt vom Johannes Evangelium 1:1-5. Die ersten beiden Verse stehen für die Aktivität des Geistes, der dritte für die Aktion der Intelligenz, der vierte für die Aktion des Herzens und der fünfte für die materielle Welt. Die Finsternis stellt die materielle Welt dar, die das Licht durchdringt. Aus diesem göttlichen Ursprung aller Dinge ist das Wort in grandioser Schönheit erschienen. \italic"V’nachalo be Slovoto, i Slovoto be u Boga" –  dieser Vers ist enorm wichtig. Der Mensch sollte ihn morgens, direkt nach dem Aufstehen, lesen, singen und darüber meditieren, bis das Licht seinen Intellekt erleuchtet und er diese großartige Idee akzeptiert. Dann wird sich sein Herz verwandeln und milder werden, seine Intelligenz wird sich verändern und er wird beginnen, richtiger zu denken. Dieses Lied repräsentiert die neue Richtung, die in die Musik kommt; das ist die Musik der Liebe!
+          \bold  "В начало бе Словото – V nachalo be Slovoto." Gegeben am 5. November 1924, Allgemeine Okkultklasse. IV Jahrgang. Der Text des Liedes stammt aus dem Johannes Evangelium 1:1-5. Die ersten beiden Verse stehen für die Aktivität des Geistes, der dritte für die Aktion der Intelligenz, der vierte für die Aktion des Herzens und der fünfte für die materielle Welt. Die Finsternis stellt die materielle Welt dar, die das Licht durchdringt. Aus diesem göttlichen Ursprung aller Dinge ist das Wort in grandioser Schönheit erschienen. \italic"V’nachalo be Slovoto, i Slovoto be u Boga" –  dieser Vers ist enorm wichtig. Der Mensch sollte ihn morgens, direkt nach dem Aufstehen, lesen, singen und darüber meditieren, bis das Licht seinen Intellekt erleuchtet und er diese großartige Idee akzeptiert. Dann wird sich sein Herz verwandeln und milder werden, seine Intelligenz wird sich verändern, und er wird beginnen, richtiger zu denken. Dieses Lied repräsentiert die neue Richtung, die in die Musik kommt; das ist die Musik der Liebe!
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          \bold  "Мисли, право мисли – Misli, pravo misli."  6. Juni 1926 (Allgemeine Okkultklasse, V. Jahrgang,
-          30. Vortrag). Die Kraft des Menschen beruht auf heilige Ideen, die er in sich selbst für das Leben hegt. Solange er diese heiligen Gedanken aufbewahrt, schützen sie ihn ebenfalls. Bewahrt er sie jedoch nicht mehr, so ist sein Fall unvermeidlich. Dieses Lied wird mit Bewegungen der Arme gesungen.
+          \bold  "Мисли, право мисли – Misli, pravo misli."  6. Juni 1926, Allgemeine Okkultklasse, V. Jahrgang,
+          30. Vortrag. Die Kraft des Menschen beruht auf heilige Ideen, die er in sich selbst für das Leben hegt. Solange er diese heiligen Gedanken aufbewahrt, schützen sie ihn ebenfalls. Bewahrt er sie jedoch nicht mehr, so ist sein Fall unvermeidlich. Dieses Lied wird mit Bewegungen der Arme gesungen.
         }
       }
       \vspace #0.5
@@ -818,7 +818,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold  "Бершид ба – Bershid ba."  Gegeben am 1932. Der Titel stammt aus dem 1. Buch Mose und bedeutet der Anfang der Dinge.
+          \bold  "Бершид ба – Bershid ba."  Gegeben am 1932. Der Titel stammt aus dem 1. Buch Mose und bedeutet den Anfang der Dinge.
         }
       }
 
@@ -876,13 +876,13 @@
 
       \line {
         \justify {
-          \bold  "Малкият извор – Malkiyat izvor."  Gegeben am 21 Januar 1925. Allgemeine Okkultklasse, IV Jahrgang, 16. Vortrag. Das Lied erweckt die kindliche Reinheit beim Menschen. Christus sagt: Wenn ihr nicht werdet wie die Kinder, so werdet ihr nicht in das Reich Gottes eintreten.
+          \bold  "Малкият извор – Malkiyat izvor."  Gegeben am 21 Januar 1925. Allgemeine Okkultklasse, IV Jahrgang, 16. Vortrag. Das Lied erweckt die kindliche Reinheit beim Menschen. Christus sagt: „Wenn ihr nicht werdet wie die Kinder, so werdet ihr nicht in das Reich Gottes eintreten.“
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          \bold "Добър ден – Dobar den."  11. September 1933, Vitoscha, El Schadai
+          \bold "Добър ден – Dobar den."  11. September 1933, Vitoscha, El Schadai.
         }
       }
 
@@ -920,7 +920,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold  "Песен на зората – Pesen na zorata."  Gegeben 1930
+          \bold  "Песен на зората – Pesen na zorata."  Gegeben 1930.
         }
       }
       \vspace #0.5
@@ -938,7 +938,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold  "Мога да кажа – Moga da kazha."  Gegeben am 20. März 1937. Hier ist nicht von der physischen Sonne, sondern von der göttlichen Sonne, die aufgeht, die Rede. Geht die göttliche Sonne auf, wird der Verstand und das Herz erfrischt.
+          \bold  "Мога да кажа – Moga da kazha."  Gegeben am 20. März 1937. Hier ist nicht von der physischen, sondern von der göttlichen Sonne, die aufgeht, die Rede. Geht die göttliche Sonne auf, wird der Verstand und das Herz erfrischt.
         }
       }
       \vspace #0.5
@@ -1060,13 +1060,13 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold "Денят иде –  Denyat ide."  Gegeben am 18 Februar 1938. Der Text der zweiten und der dritten sind von Stojanka Stojanka Ilieva.
+          \bold "Денят иде –  Denyat ide."  Gegeben am 18 Februar 1938. Der Text der zweiten und der dritten Strophe sind von Stojanka Stojanka Ilieva.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          \bold  "Пролет – Prolet."  Gegeben am 8. Januar 1942. Dieses Lied gab Petar Danov einer Schwester, die von Beruf Lehrerin war, damit sie ihre Schüler lehren kann.
+          \bold  "Пролет – Prolet."  Gegeben am 8. Januar 1942. Dieses Lied gab Petar Danov einer Schwester, die von Beruf Lehrerin war, damit sie es ihren Schülern beibringen kann.
         }
       }
       \vspace #0.5
