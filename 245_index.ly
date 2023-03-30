@@ -63,8 +63,57 @@
     \fill-line {
       \fill-with-pattern #1 #RIGHT . "Аз съм бялото кокиче –  Аz sam byaloto kokiche" \page-ref #'ref047 "0" "?"
     }
+      \fill-line {
+      \fill-with-pattern #1 #RIGHT . "Аин фаси – Ain fasi" \page-ref #'ref135 "0" "?"
+    }
+      \fill-line {
+      \fill-with-pattern #1 #RIGHT . "Ангел вопияше – Angel vopiyashe" \page-ref #'ref064 "0" "?"
+    }
+      \fill-line {
+      \fill-with-pattern #1 #RIGHT . "Аум – Aum" \page-ref #'ref75 "0" "?"
+    }
+
+   \fill-line {
+      \fill-with-pattern #1 #RIGHT . "Бащина песен – Угледна – Bashtina pesen – ugledna" \page-ref #'ref138 "0" "?"
+    }
+
+   \fill-line {
+      \fill-with-pattern #1 #RIGHT . "Берхан Ази – Berhan Azi" \page-ref #'ref169 "0" "?"
+    }
+
+   \fill-line {
+      \fill-with-pattern #1 #RIGHT . "" \page-ref #'ref135 "0" "?"
+    }
+
+   \fill-line {
+      \fill-with-pattern #1 #RIGHT . "" \page-ref #'ref135 "0" "?"
+    }
+
+   \fill-line {
+      \fill-with-pattern #1 #RIGHT . "" \page-ref #'ref135 "0" "?"
+    }
+
+   \fill-line {
+      \fill-with-pattern #1 #RIGHT . "" \page-ref #'ref135 "0" "?"
+    }
+
+   \fill-line {
+      \fill-with-pattern #1 #RIGHT . "" \page-ref #'ref135 "0" "?"
+    }
+
+   \fill-line {
+      \fill-with-pattern #1 #RIGHT . "" \page-ref #'ref135 "0" "?"
+    }
+
+
 
   }
+
+
+
+
+
+
 
 
 
