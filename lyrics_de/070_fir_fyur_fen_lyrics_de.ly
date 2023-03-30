@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Fir fyer fen" }
+\markup \fill-line { \fontsize #deTitleFontSize "Fir-fyer-fen" }
 \markup \null
 \markup \null
 

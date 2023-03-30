@@ -91,7 +91,7 @@
       \line { 4. Лъчи от любовта ни вливат }
       \line {   "   " В гърдите жива топлина, }
       \line {   "   " Със сладка вяра ни повдигат }
-      \line {   "   " Във крепост и виделина. }
+      \line {   "   " във крепост и виделина. }
 
       \line { " " }
       \line { "   " \italic {Припев ...} }
@@ -137,7 +137,7 @@
       \line { 4. Lachi ot lyubovta ni vlivat }
       \line {   "   " V gardite zhiva toplina, }
       \line {   "   " Sas sladka vyara ni povdigat }
-      \line {   "   " Vav krepost i videlina. }
+      \line {   "   " vav krepost i videlina. }
 
       \line { " " }
       \line { "   " \italic {Pripev ...} }

@@ -62,7 +62,7 @@
         \justify {
           \bold "Зората на Новия живот – Zorata na Noviya zhivot."
           Musik des Meisters, Text von einem Schüler nach den Ideen des Meisters. In der Ausgabe von 1949
-          wurde in der ersten Strophe das Wort Leben statt Bundeslade verwendet.
+          wurde in der ersten Strophe das Wort „Leben“ statt „Bundeslade“ verwendet.
         }
       }
 
@@ -151,7 +151,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold "Напред да ходим – Напред да ходим."
+          \bold "Напред да ходим – Napred da hodim."
           Musik des Meisters, Text von einem Schüler nach den Ideen des Meisters. In den Notitzen von Bojan Boev heißt das Lied \italic"Marsch der Bruderschaft bei Ausflügen."
 
         }
@@ -236,14 +236,14 @@
 
       \line {
         \justify {
-          \bold "Сърдечен зов  – Sardechen zov."  Musik von Atanas D. Kovachev, die währen des Ersten Weltkrieges in Dobro pole komponiert wurde, nach dem Motiv von Petar Danov, Text von Ilija Zurkov.
+          \bold "Сърдечен зов  – Sardechen zov."  Musik von Atanas D. Kovachev, die während des Ersten Weltkrieges im Ort \italic"Dobro pole" komponiert wurde, nach dem Motiv von Petar Danov, Text von Ilija Zurkov.
         }
       }
 
       \vspace #0.5
       \line {
         \justify {
-          \bold "Благословен Господ  – Blagosloven Gospod."  Musik und Text von Petar Danov. In den Notizen von Bojan Boev wurde das Lied \italic"Der kleine Lobgesang betitelt."
+          \bold "Благословен Господ  – Blagosloven Gospod."  Musik und Text von Petar Danov. In den Notizen von Bojan Boev wurde das Lied \italic"Der kleine Lobgesang" betitelt.
         }
       }
       \vspace #0.5
@@ -318,7 +318,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold "Слава Божия – Slava Bozhia."  Text und Musik Maria Todorova nach dem Psalm 115
+          \bold "Слава Божия – Slava Bozhia."  Text und Musik Maria Todorova nach dem Psalm 115.
         }
       }
       \vspace #0.5
@@ -402,7 +402,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold "На белия цвят – Na beliya zvjat." Musik von Ivan G. Popov, Text von Stojan Rusev (Djado Blago), aufgeschriebem am 9. April 1922.
+          \bold "На белия цвят – Na beliya zvjat." Musik von Ivan G. Popov, Text von Stojan Rusev (Djado Blago), aufgeschrieben am 9. April 1922.
         }
       }
       \vspace #0.5
@@ -432,7 +432,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold "Тайната вечеря – Taynata vecherya."  Musik und Text von Vessela Nesstorova, gesegnet von Petar Danov. Die erste Strophe bedeutet folgendes: Alles ist hell, alles ist in meinem Licht erleuchtet.
+          \bold "Тайната вечеря – Taynata vecherya."  Musik und Text von Vessela Nesstorova, gesegnet von Petar Danov. Die erste Strophe bedeutet folgendes: Alles ist licht, alles ist in meinem Licht erleuchtet.
         }
       }
       \vspace #0.5
@@ -444,7 +444,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold "Песен на гласните букви – Pesen na glasnite bukvi."  Gesangübung von Petar Danov.
+          \bold "Песен на гласните букви – Pesen na glasnite bukvi."  Gesangsübung von Petar Danov.
         }
       }
       \vspace #0.5
@@ -466,7 +466,7 @@
         \justify {
           \bold "Фир-фюр-фен – Благославай – Fir-fyer-fen – Blagoslavyay." Segne: Das Lied wurde am 21. August 1922 während der Zusammenkunft in Veliko Tarnovo im Vortrag \italic"Musik, Arbeit, und Fasten" gegeben. Dieses Lied dient der Harmonisierung und der Heilung. Es reguliert die Ströme und die Kräfte im Menschen und bringt sie in Harmonie mit dem Sein. Die Worte entstammen einer heiligen Sprache und können nicht wortwörtlich übersetzt werden. Petar Danov gibt nur eine ungefähre Übersetzung: Ohne Angst, ohne Finsternis.
 
-          \italic "Fir-für"  dasjenige, was den Menschen leitet.
+          \italic "Fir-fyer"  dasjenige, was den Menschen leitet.
 
           \italic "Fen"  beseitigt die Hindernisse und reinigt.
 
@@ -476,7 +476,7 @@
 
           \italic "Aoumen"  alle Eigenschaften, die im Göttlichen enthalten sind;  alles, was wachsen und sich in seiner Fülle manifestieren soll.
 
-          \italic "Fir für fen" ist ein rhythmischer Satz, dies sind rhythmische Worter mit starker Schwingung, deren Wesen im Bewusstsein der Menschen, die im materiellen Leben versunken sind, etwas Neues erwecken kann.
+          \italic "Fir-fyer-fen" ist ein rhythmischer Satz, dies sind rhythmische Worter mit starker Schwingung, deren Wesen im Bewusstsein der Menschen, die im materiellen Leben versunken sind, etwas Neues erwecken kann.
 
         }
       }
@@ -523,7 +523,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold  "Сила жива, изворна – Sila ziva, izvorna."  Das Lied wurde am 12. Oktober 1922 in der Allgemeinen Okkultklasse, II. Jahrgang, im zweiten Vortrag gegeben.  Petar Danov sagt: Die Töne dieses Liedes zeigen die Bewegungen, ein Quellen nach oben und ein Erweitern. Das Unterdrückte im Menschen wird befreit, es wird in Gang gesetzt und ihm die richtige Richtung gegeben. Damit der Mensch diese Übung singen kann, muss er in einem harmonischen Kontakt mit der göttlichen Natur treten. Die Worte \italic"Sun me sun" regulieren in der okkulten Musik; sie sind die Gleichgewicht bringende Kraft; sie sind das Maß. \italic"Tu meto" eines der schönsten Inhalte.
+          \bold  "Сила жива, изворна – Sila ziva, izvorna."  Das Lied wurde am 12. Oktober 1922 in der Allgemeinen Okkultklasse, II. Jahrgang, im zweiten Vortrag gegeben.  Petar Danov sagt: „Die Töne dieses Liedes zeigen die Bewegungen, ein Quellen nach oben und ein Erweitern. Das Unterdrückte im Menschen wird befreit, es wird in Gang gesetzt und ihm die richtige Richtung gegeben. Damit der Mensch diese Übung singen kann, muss er in einem harmonischen Kontakt mit der göttlichen Natur treten. Die Worte \italic"Sun me sun" regulieren in der okkulten Musik; sie sind die Gleichgewicht bringende Kraft; sie sind das Maß. \italic"Tu meto" eines der schönsten Inhalte.“
         }
       }
       \vspace #0.5
@@ -535,7 +535,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold  "Благост – Blagost."  Die ersten fünf Takte des Liedes wurden am 19. Dezember 1923, in der Allgemeinen Okkultklasse, III. Jahrgang, im 10. Vortrag gegeben. Das ganze Lied wurde am 26. Dezember 1923 gegeben. Petar Danov sagt: Die Kraft dieses Liedes liegt in seinem Rhythmus. Es hat zum Ziel, den richtigen Rhythmus des menschlichen Herzens wiederherzustellen.
+          \bold  "Благост – Blagost."  Die ersten fünf Takte des Liedes wurden am 19. Dezember 1923, in der Allgemeinen Okkultklasse, III. Jahrgang, im 10. Vortrag gegeben. Das ganze Lied wurde am 26. Dezember 1923 gegeben. Petar Danov sagt: „Die Kraft dieses Liedes liegt in seinem Rhythmus. Es hat zum Ziel, den richtigen Rhythmus des menschlichen Herzens wiederherzustellen.“
         }
       }
 
@@ -548,7 +548,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold   "Аум – Aum."  Gegeben am 2. Dezember 1925. Diese Übung soll der Mensch das Heilige in sich aufrechterhalten. Es ist aus einem alten heiligen Lied entnommen worden. Petar Danov sagte: Hätte ich euch dieses Lied in seiner urspünglichen Moll-Tonart gegeben, könntet ihr ihrer Schwingung nicht standhalten; euren Puls wird sich verändern. Petar Danov gab das Lied in Dur. Petar Danov sagt: Es gibt heilige Wörter. Solch ein Wort ist auch das Wort \italic"Aum," das oft ausgesprochen werden soll, auch dann, wenn man seine Bedeutung nicht versteht. Seid ihr traurig, seid ihr krank, befindet ihr euch geistig nicht in einer guten Kondition, sprecht ein paar Mal das Wort \italic"Aum"  – es ist das Wort des Geistes. Singt ihr das Wort in seiner Sprache, wird er euch verstehen und helfen, denn er versteht und kennt eure Bedürfnisse.
+          \bold   "Аум – Aum."  Gegeben am 2. Dezember 1925. Diese Übung soll der Mensch das Heilige in sich aufrechterhalten. Es ist aus einem alten heiligen Lied entnommen worden. Petar Danov sagt: „Hätte ich euch dieses Lied in seiner urspünglichen Moll-Tonart gegeben, könntet ihr ihrer Schwingung nicht standhalten; euren Puls wird sich verändern.“ Petar Danov gab das Lied in Dur. Petar Danov sagt: „Es gibt heilige Wörter. Solch ein Wort ist auch das Wort \italic"Aum," das oft ausgesprochen werden soll, auch dann, wenn man seine Bedeutung nicht versteht. Seid ihr traurig, seid ihr krank, befindet ihr euch geistig nicht in einer guten Kondition, sprecht ein paar Mal das Wort \italic"Aum"  – es ist das Wort des Geistes. Singt ihr das Wort in seiner Sprache, wird er euch verstehen und helfen, denn er versteht und kennt eure Bedürfnisse.“
         }
       }
       \vspace #0.5
@@ -1764,7 +1764,7 @@
 
       \line {
         \justify {
-          \bold  "Песента на ангелите – Pesenta na angelite." Gegeben am 15. April 1943 von Petar Danov an Liljana Tabakova. Petar Danov sagte: „Durch dieses Liedes könnt ihr euch mit den Engeln verbingen; ihr könnt wie sie singen und beten. Ihr könnt wie sie werden, den Namen Gottes lobpreisen und seinen Willen hier auf der Erde und oben im Himmel erfüllen.“
+          \bold  "Песента на ангелите – Pesenta na angelite." Gegeben am 15. April 1943 von Petar Danov an Liljana Tabakova. Petar Danov sagt: „Durch dieses Liedes könnt ihr euch mit den Engeln verbingen; ihr könnt wie sie singen und beten. Ihr könnt wie sie werden, den Namen Gottes lobpreisen und seinen Willen hier auf der Erde und oben im Himmel erfüllen.“
         }
       }
       \vspace #0.5
@@ -1789,7 +1789,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold   "Ти ще сполучиш в Живота – Ti shte spoluchish v zhivota." Gegeben am 24. Januar 1941 von Petar Danov an Liljana Tabakova. Petar Danov sagte: Wenn der Mensch singt und an die Engel und an ihr außergewähnlich schönem Leben denkt, wird er im Leben immer erfolgreich sein.
+          \bold   "Ти ще сполучиш в Живота – Ti shte spoluchish v zhivota." Gegeben am 24. Januar 1941 von Petar Danov an Liljana Tabakova. Petar Danov sagt: „Wenn der Mensch singt und an die Engel und an ihr außergewähnlich schönes Leben denkt, wird er im Leben immer erfolgreich sein.“
         }
       }
       \vspace #0.5
