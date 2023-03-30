@@ -106,6 +106,8 @@
         \markup \empty-three
         \markup \empty-three
         \include "include/bookpart-paper.ily"
+        \label #'ref083_3
+        \tocItem \markup "Имаше человек  – Imashe chelovek"
         \score {
           \include "include/score-layout.ily"
 

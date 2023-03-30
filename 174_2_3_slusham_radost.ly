@@ -55,7 +55,7 @@
       \include "lyrics_de/174_2_sluscham_lyrics_de.ly"
 
       \markup \empty-three
-  \label #'ref174_2
+  \label #'ref174_3
   \tocItem \markup "Радост – Radost"
       \include "include/bookpart-paper.ily"
       \score {

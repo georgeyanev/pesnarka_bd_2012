@@ -4,7 +4,7 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \label #'ref0107
+  \label #'ref107
   \tocItem \markup "При всичките условия – Pri vsichkite usloviya"
   \include "include/bookpart-paper.ily"
   \score {

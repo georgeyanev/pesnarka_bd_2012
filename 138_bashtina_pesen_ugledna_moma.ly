@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref138
-  \tocItem \markup "Бащина песен – Угледна – Bashtina pesen – ugledna "
+  \tocItem \markup "Бащина песен – Угледна мома – Bashtina pesen – ugledna moma "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

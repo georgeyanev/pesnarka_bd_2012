@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref092_2
-  \tocItem \markup "Давай, Давай – Davay, Davay "
+  \tocItem \markup "Давай, давай – Davay, davay "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -74,7 +74,7 @@
     }
 
     \header {
-      title = \titleFunc "Давай, Давай" "Davay, Davay"
+      title = \titleFunc "Давай, давай" "Davay, davay"
     }
 
     \midi{}

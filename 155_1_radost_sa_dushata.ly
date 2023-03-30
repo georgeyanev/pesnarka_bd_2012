@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref155_1
-  \tocItem \markup "Радост за душата – Radost za dushata"
+  \tocItem \markup "Радост, радост за душата – Radost, radost za dushata"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -84,7 +84,7 @@
       tsve -- tya -- ta.
     }
     \header {
-      title = \titleFunc "Радост за душата " "Radost za dushata"
+      title = \titleFunc "Радост, радост за душата" "Radost, radost za dushata"
     }
 
     \midi{}

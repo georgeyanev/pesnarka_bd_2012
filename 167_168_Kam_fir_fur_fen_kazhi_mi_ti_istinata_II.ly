@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref167
-  \tocItem \markup "Към Фир фюр фен – Kam Fir fyur fen  – Zu Fir fyur fen"
+  \tocItem \markup "Към Фир-фюр-фен – Kam Fir-fyur fen"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -42,7 +42,7 @@
         fen Tao bi au -- men.}
 
         \header {
-          title = \titleFunc "Към Фир фюр фен" "Kam Fir fyur fen  – Zu Fir fyur fen"
+          title = \titleFunc "Към Фир-фюр-фен" "Kam Fir-yur-fen  – Zu Fir-fyur-fen"
         }
 
         \midi{}
