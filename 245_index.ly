@@ -4,6 +4,7 @@
 \include "include/globals.ily"
 
 \bookpart {
+    \tocItem \markup "Alphabetischer Index"
   \paper {
     print-all-headers = ##f
     print-page-number = ##f
@@ -46,7 +47,7 @@
   }
  
   \markup \large \column {
-      \fill-line { \null \fontsize #+4 \bold "Alphabetischer Index" \null }
+      \fill-line { \null \fontsize #+3 \bold "ALPHABETISCHER INDEX" \null }
       \hspace #1
   }
 

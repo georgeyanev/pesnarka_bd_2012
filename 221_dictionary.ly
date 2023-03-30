@@ -5,7 +5,7 @@
 
 \bookpart {
    \label #'ref221
-  \tocItem \markup "Wörteruch der Musikbegriffe"
+  \tocItem \markup "Wörterbuch der Musikbegriffe"
   \paper {
     print-all-headers = ##t
     print-page-number = ##t
@@ -41,7 +41,7 @@
 
 
 
-  \markup \fontsize  #+5.5 { \hspace #12.2 \fill-line \bold {"" "Wörterbuch der Musikbegriffe" ""} }
+  \markup \fontsize  #+4.0 { \hspace #12.2 \fill-line \bold {"" "WÖRTERBUCH DER MUSIKBEGRIFFE" ""} }
 
 
 
