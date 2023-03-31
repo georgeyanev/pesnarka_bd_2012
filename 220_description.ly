@@ -8,7 +8,7 @@
   \tocItem \markup "Anmerkungen"
   \include "include/bookpart-paper.ily"
 
-  \markup \fontsize  #+5.5 { \hspace #3.2 \fill-line \bold {"" "ANMERKUNGEN" ""} }
+  \markup \fontsize  #+4.0 { \hspace #3.2 \fill-line \bold {"ANMERKUNGEN"} }
 
 
   \markup \fontsize  #+2  {

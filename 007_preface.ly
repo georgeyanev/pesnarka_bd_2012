@@ -33,7 +33,7 @@
   }
 
   \tocItem \markup "Vorwort"
-   \markup \fontsize  #+4.0 { \fill-line \bold {"VORWORT"} }
+   \markup \fontsize  #+3.0 { \fill-line \bold {"VORWORT"} }
 
 
   \markup \fontsize #+2.5 {

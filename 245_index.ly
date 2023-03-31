@@ -32,7 +32,7 @@
   }
  
   \markup \large \column {
-      \fill-line { \null \fontsize #+3 \bold "ALPHABETISCHER INDEX" \null }
+      \fill-line { \null \fontsize #+2.5 \bold "ALPHABETISCHER INDEX" \null }
       \hspace #1
   }
 

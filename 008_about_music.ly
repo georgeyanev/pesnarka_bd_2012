@@ -34,7 +34,7 @@
   
   }
 
-  \markup\fontsize  #+5.5 {\bold {Gedanken über die Musik} }
+    \markup \fontsize  #+3.0 { \fill-line \bold {"GEDANKEN ÜBER DIE MUSIK"} }
 
   \markup \fontsize #+2.5 {
      \vspace #1.5
