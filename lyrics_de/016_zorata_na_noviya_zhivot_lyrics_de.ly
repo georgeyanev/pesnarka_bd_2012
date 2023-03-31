@@ -38,12 +38,11 @@
 
   \column {
     
-    \line { 3. Es flimmert die leichtbeschwingtе Morgenröte}
+    \line { 3. Es flimmert  }
+    \line {   "   " die leichtbeschwingtе Morgenröte }
     \line {   "   " und erweckt unsere Seelen; }
     \line {   "   " wie die liebe, liebevolle Mutter }
     \line {   "   " lädt sie jeden ein: „Stehe auf!“ }
-
-    \line { " " }
     \line { "   " \italic { Refrain } ... }
     \line { " " }
 

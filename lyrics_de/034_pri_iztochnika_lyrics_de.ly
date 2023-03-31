@@ -24,11 +24,11 @@
     \line { "   " und in Hymnen gießt sie ihre Seele aus.}
     \line { "   " }
 
-    \line { 2. Zu ihr strebt mühsam ein müder Wanderer}
+    \line { 2. Zu ihr strebt mühsam ein müder }
 
-    \line { "   "  mit Hoffnung. }
+    \line { "   "  Wanderer mit Hoffnung. }
 
-    \line { "   "Von tiefer Trauer bedrückt,}
+    \line { "   " Von tiefer Trauer bedrückt,}
 
     \line { "   " wird ihm dort neues Leben zuteil, }
 
@@ -64,7 +64,20 @@
 
     \line { "   " mein mit Wunden bedecktes Herz öffnen?“}
     \line { "   " }
+  \line {  5. „Neige dein Haupt, }
 
+    \line { "   " oh, unglücklicher Wanderer: }
+
+    \line { "   " lösche heute deinen unendlichen Durst }
+
+    \line { "   " durch mich }
+
+    \line { "   " und hoffe auf mich,}
+
+    \line { "   " hoffe, hoffe auf mich und}
+
+    \line { "   " hoffe du auf mich!}
+   
 
 
   }
@@ -73,20 +86,7 @@
   \vspace #0.5
   \override #'(baseline-skip . 1.8)
   \column {
-    \line {  5. „Neige dein Haupt, }
-
-    \line { "   " oh, unglücklicher Wanderer: }
-
-    \line { "   " lösche heute deinen unendlichen Durst }
-
-    \line { "   " durch mich }
-
-    \line { "   "  und hoffe auf mich,}
-
-    \line { "   " hoffe, hoffe auf mich und}
-
-    \line { "   " hoffe du auf mich!}
-    \line { "   " }
+  
 
     \line {  6. Ich habe deine Märtyrerstimme gehört,}
 
@@ -98,7 +98,8 @@
 
     \line { "   " und Kraft und Kraft}
 
-    \line { "   " und ich werde dir Leben und Kraft geben.}
+    \line { "   " und ich werde dir }
+     \line { "   " Leben und Kraft geben.}
     \line { "   " }
 
     \line {  7. Komm, komm und trinke von mir}
