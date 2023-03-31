@@ -4,14 +4,14 @@
 \include "include/globals.ily"
 
 \bookpart {
-   \label #'ref220
+  \label #'ref220
   \tocItem \markup "Anmerkungen"
   \include "include/bookpart-paper.ily"
 
   \markup \fontsize  #+5.5 { \hspace #3.2 \fill-line \bold {"" "ANMERKUNGEN" ""} }
- 
- 
- \markup \fontsize  #+2  {
+
+
+  \markup \fontsize  #+2  {
     \vspace #1.5 \override #'(baseline-skip . 2.2)
     \column {
       \vspace #1.3
@@ -457,7 +457,7 @@
       \vspace #0.3
       \line {
         \justify {
-           \fontsize  #+0.8 \bold { \fill-line { \smallCaps"Lieder von Petar Danov"} }
+          \fontsize  #+0.8 \bold { \fill-line { \smallCaps"Lieder von Petar Danov"} }
         }
       }
       \vspace #0.3
@@ -1173,7 +1173,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold  "Обетована земя – Obetovena zemya."  Gegeben am 27. Januar 1933. Dieses Lied ist den Seelen all deren nah, die das alte Leben verlassen und sich an das schöne Leben des Lichtes, der Freude und der Wahrheit richten.
+          \bold  "Обетована земя – Obetovena zemya."  Gegeben am 27. Januar 1933. Dieses Lied beschreibt den Weg aller Seelen, die das alte Leben verlassen und sich an das schöne Leben des Lichtes, der Freude und der Wahrheit richten.
         }
       }
       \vspace #0.5
@@ -1185,7 +1185,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold "Духай ветре – Duhay vetre."  Das Lied besteht aus zwei Teilen, die zu unterschiedlicher Zeit gegeben wurden. Der erste Teil wurde 1944 in Matschaievo, der zweite Hai-di-di am 30. Dezember 1942 in Sofia Izgreva gegeben. Die urspüngliche Variante des Liedes wurde unter der Nummer 125 auf Seite 160 gedruckt. Laut den Erinnerungen der Musiker fügte Petar Danov als Ende des Liedes der Text \italic" Za teb bulgarino" (für dich, Bulgare).
+          \bold "Духай ветре – Duhay vetre."  Das Lied besteht aus zwei Teilen, die zu unterschiedlicher Zeit gegeben wurden. Der erste Teil wurde 1944 in Matschaievo, der zweite \italic"Hai-di-di" am 30. Dezember 1942 in Sofia Izgreva gegeben. Die urspüngliche Variante des Liedes wurde unter der Nummer 125 auf Seite 160 gedruckt. Laut den Erinnerungen der Musiker fügte Petar Danov als Ende des Liedes der Text \italic" Za teb bulgarino" (für dich, Bulgare).
         }
       }
       \vspace #0.5
@@ -1217,13 +1217,13 @@
 
       \line {
         \justify {
-          \bold  "Българска рапсодия – Bylgarska rapsodia."  Gegeben 1934. Redaktion Maria Todorova. Hier hat Petar Danov die erhabensten Gestalten aus dem bulgarischen Epos dargestellt. Ihnen liegt eine tiefe Symbolik zugrunde:  Das ist der mystische Weg der menschlichen Seele, die danach strebt, in Berührung mit der göttlichen Liebe zu kommen.
+          \bold  "Българска рапсодия – Bylgarska rapsodia."  Gegeben 1934. Redaktion Maria Todorova. Hier hat Petar Danov die erhabensten Gestalten aus dem bulgarischen Epos dargestellt. Ihnen liegt eine tiefe Symbolik zugrunde: Das ist der mystische Weg der menschlichen Seele, die danach strebt, in Berührung mit der göttlichen Liebe zu kommen.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          \bold "Българска идилия – Bylgarska idiliya."  Notiert von einer Tonbandaufnahme von Petar Kamburov, redigiert von Georgi Stratev, Ioanna Strateva und Stanka Zeleva. Petar Danov persönlich gab sie Peter Kamburov im Februar 1920 in Opultschenska-Straße 66. Die Idylle beschreibt das Streben der bulgarischen Seele nach dem Ewigen im Leben. Sie will die ewige Gerechtigkeit, die ewige Liebe, die das Sein erfüllen, erreichen. Sie ahnt die Existenz einer schönen Welt in sich und möchte sie Wirklichkeit werden lassen.
+          \bold "Българска идилия – Bylgarska idiliya."  Notiert von einer Tonbandaufnahme von Petar Kamburov, redigiert von Georgi Stratev, Ioanna Strateva und Stanka Zeleva. Petar Danov gab persönlich dieses Lied Peter Kamburov im Februar 1920 in Opultschenska-Straße 66. Die Idylle beschreibt das Streben der bulgarischen Seele nach dem Ewigen im Leben. Sie will die ewige Gerechtigkeit, die ewige Liebe, die das Sein erfüllen, erreichen. Sie erahnt die Existenz einer schönen Welt in sich und möchte sie Wirklichkeit werden lassen.
         }
       }
       \vspace #0.5
@@ -1290,26 +1290,26 @@
 
       \line {
         \justify {
-          \bold "Мирът иде  – Mirat ide."  Die Melodie wurde 1918 von Petar Danov in der Opultschenska- Straße 66 gegeben, drei Tage danach (29. September 1918) beendet Bulgarien ihre Teilnahme am Ersten Weltkrieg. Später ergänzt Petar Danov die Melodie (21. Dezember 1933)
+          \bold "Мирът иде  – Mirat ide."  Die Melodie wurde 1918 von Petar Danov in der Opultschenska-Straße 66 gegeben, drei Tage danach (29. September 1918) beendet Bulgarien ihre Teilnahme am Ersten Weltkrieg. Später ergänzt Petar Danov die Melodie (21. Dezember 1933).
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          \bold "Мирът иде II – Mirat ide II."  Adaptiert von Irina Kisiova und Liljana Tabakova. Der Text wurde von Stojanka Ilieva nach dem Wunsch von Petar Danov im Juli 1934 geschrieben. Dann sagte Petar Danov: Der Frieden kommt aber schwer. Deshalb suchen wir nach ihm und rufen ihn mit einer Melodie.
+          \bold "Мирът иде II – Mirat ide II."  Adaptiert von Irina Kisiova und Liljana Tabakova. Der Text wurde von Stojanka Ilieva nach dem Wunsch von Petar Danov im Juli 1934 geschrieben. Dann sagte Petar Danov: „Der Frieden kommt aber schwer. Deshalb suchen wir nach ihm und rufen ihn mit einer Melodie.“
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          \bold "Духай ветре II – Duhai vetre II." Erster Teil wurde am 25. Dezember 1942 gegeben; der zweite Teil, \italic"Hai- di di ..." wurde am 30. Dezember 1942 gegeben. Dieses Lied wurde uspünglich in dieser Form gegeben. Später wurde der erste Teil des Liedes nach Wunsch mancher Schüler von Petar Danov geändert und so in der Ausgabe von 1944 publiziert.
+          \bold "Духай ветре II – Duhai vetre II." Erster Teil wurde am 25. Dezember 1942 gegeben; der zweite Teil, \italic"Hai di di ..." wurde am 30. Dezember 1942 gegeben. Dieses Lied wurde uspünglich in dieser Form gegeben. Später wurde der erste Teil des Liedes nach Wunsch mancher Schüler von Petar Danov geändert und so in der Ausgabe von 1944 publiziert.
         }
       }
       \vspace #0.5
 
       \line {
         \justify {
-          \bold "Кажи ми, светли Божи лъч – Kazhi mi, svetli Bozhi lach." Gegeben am 19.12.1923, Allgemeine Okkultklasse, III Jahr, 10 Vortrag. Petar Danov sagt: „Diese Übung können wir jetzt unvollendet lassen – sie ist für die künftige Kultur. Das zweite Stadium der Musik ist das freie Singen. Bei diesem Singen kann die heutige Musik nicht funktionieren, weil der Takt in einer ganz anderen Weise verändert werden muss; außerdem haben die Betonung der Wörter eine besondere Zusammensetzung. Beim freien Singen kann der Mensch ohne Begeisterung nicht singen.“
+          \bold "Кажи ми, светли Божи лъч – Kazhi mi, svetli Bozhi lach." Gegeben in der Allgemeinen Okkultklasse, III Jahr, 10 Vortrag am 19. Dezember 1923. Petar Danov sagt: „Diese Übung können wir jetzt unvollendet lassen – sie ist für die künftige Kultur. Das zweite Stadium der Musik ist das freie Singen. Bei diesem Singen kann die heutige Musik nicht funktionieren, weil der Takt in einer ganz anderen Weise verändert werden muss; außerdem haben die Betonung der Wörter eine besondere Zusammensetzung. Beim freien Singen kann der Mensch ohne Begeisterung nicht singen.“
         }
       }
 
@@ -1317,7 +1317,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold "Марш на светлите сили – Marsh na svetlite sili  – Marsch der lichen Mächte."  Gegeben am 27. Mai. 1936. Siegreicher Marsch der lichten Engelkräfte in der lebendigen Natur, die in ihrem charakteristischen Rhythmus fortschreiten. Mit dieser Musik erhebt sich der Mensch in die Welt der Engel.
+          \bold "Марш на светлите сили – Marsh na svetlite sili  – Marsch der lichen Mächte."  Gegeben am 27. Mai. 1936. Siegreicher Marsch der lichten Engelmächte in der lebendigen Natur, die in ihrem charakteristischen Rhythmus fortschreiten. Mit dieser Musik erhebt sich der Mensch in die Welt der Engel.
         }
       }
       \vspace #0.5
@@ -1337,8 +1337,13 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold "Песен на детето  – Pesen na deteto." Dies entspricht dem Bild eines Kindes, das aus dem Trog aussteigen will, in dem es badet. Seine Mutter möchte ihn daran hindern, es ist jedoch unzufrieden. Endlich kommt der Sieg! Das Kind steigt aus dem Badezuber und ist glücklich, es geschafft zu haben. Es spielt. Schließlich geht das Kind in die Schule, um zu lernen und erhält sein erstes Lesebuch. Es spricht zu dem Buch: Ich habe es geschafft, aus dem Zuber zu kommen, und auf dieselbe Weise werde ich dich auch schaffen. Trotz der vielen Schwierigkeiten, die sich mir entgegenstellen, werde ich sie aber überwinden.
-          Die verschiedenen Gefühle des Kindes sind in jedem der Teile dieses Stücks ausgedrückt. Diese schwierige Zeitspanne symbolisiert die Bewusstseinsstufen, die die Menschen auf ihrem Weg der Erweckung durchlaufen.
+          \bold "Песен на детето  – Pesen na deteto." Das Lied erzählt die Geschichte eines Kindes, das aus dem Trog aussteigen will, in dem es badet. Seine Mutter möchte es daran hindern, und es ist unzufrieden.
+         Endlich kommt der Sieg! Das Kind steigt aus dem Badezuber und ist glücklich, es geschafft zu haben.
+          Es spielt. Schließlich geht das Kind in die Schule, um zu lernen und erhält sein erstes Lesebuch. 
+          Es spricht zu dem Buch: „Ich habe es geschafft, aus dem Zuber rauszukommen, und auf dieselbe Weise werde ich mit dir fertig werden. 
+          Trotz der vielen Schwierigkeiten, die sich mir entgegenstellen, ich werde sie überwinden.
+          Die verschiedenen Gefühle des Kindes sind in jedem der Teile dieses Stücks ausgedrückt.
+         Diese schwierige Zeitspanne symbolisiert die Bewusstseinsstufen, die die Menschen auf ihrem Weg der Erweckung durchlaufen.
         }
       }
 
@@ -1433,7 +1438,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold "Кажи ми Ти Истината II – Kazhi mi ti istinata II." Schließt das Original von 1924 ein mti einer Fortsetzung, die 1924 von Petar Danov gegeben wurde.
+          \bold "Кажи ми Ти Истината II – Kazhi mi ti istinata II." Schließt das Original von 1924 ein mit einer Fortsetzung, die 1924 von Petar Danov gegeben wurde.
         }
       }
 
@@ -1461,7 +1466,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold "Вяра светла II – Vyara svetla II."  Einen andere Melodie, die in der Allgemeinen Okkultklasse gegeben wurde.
+          \bold "Вяра светла II – Vyara svetla II."  Eine andere Melodie, die in der Allgemeinen Okkultklasse gegeben wurde.
         }
       }
       \vspace #0.5
@@ -1473,7 +1478,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold  "Милост, благост – Milost, blagost."  Das Lied wurde von Petar Danov einer Schülerin in den ersten Jahren der Schule gegeben.
+          \bold  "Милост, благост – Milost, blagost."   Petar Danov gab dieses Lied einer Schülerin in den ersten Jahren der Schule.
         }
       }
       \vspace #0.5
@@ -1549,7 +1554,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold "Молитва – Molitva."  Melodie gegeben von Petar Danov am 3. September 1940. Text Joanna Strateva.
+          \bold "Молитва – Molitva."  Melodie gegeben von Petar Danov am 3. September 1940. Text Ioana Strateva.
         }
       }
 
@@ -1605,16 +1610,16 @@
           \bold  "Десет теми – Deset temi."
 
 
-          1. Fröhliches Motiv, das dem Petar Danov in seinen Studienjahren in Amerika eingefallen ist. In der Ausgabe von 1949 wurde das Lied unter dem Titel \italic"Thema 3." publiziert.
+          1. Fröhliches Motiv, das Petar Danov in seinen Studienjahren in Amerika eingefallen ist. In der Ausgabe von 1949 wurde das Lied unter dem Titel \italic"Thema 3." publiziert.
           2. In der Ausgabe von 1942 wurde das Lied mit Titel \italic"Thema 6" publiziert.
 
           3. Gegeben am 27. Januar 1933.
 
-          4.Gegeben am 5. Juli 1938.
+          4. Gegeben am 5. Juli 1938.
 
           5. Gegeben von Petar Danov nach der Phrase \italic"Wir werden uns erneuern."  In der Ausgabe von 1949 wurde das Lied mit dem Titel \italic"Thema 32" publiziert.
 
-          6., 7. Wurden am 28 Mai 1941, in der Allgemeinen Okkultklasse nach dem Thema \italic"Ich werde die Wärme aufbewahren, die in meinem Herzen die göttlichen Gütern bringt." In der Ausgabe von 1949 wurde das Lied mit dem Titel \italic"Thema 37" und \italic"Thema 38" publiziert.
+          6., 7. wurden am 28 Mai 1941, in der Allgemeinen Okkultklasse nach dem Thema \italic"Ich werde die Wärme bewahren, die in meinem Herzen die göttlichen Gütern bringt." In der Ausgabe von 1949 wurde das Lied mit dem Titel \italic"Thema 37" und \italic"Thema 38" publiziert.
 
           8. Gegeben in den ersten Jahren der Schule. In der Ausgabe von 1949 wurde das Lied mit dem Titel \italic"Thema 42" publiziert.
 
@@ -1654,7 +1659,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \bold "Гласът на Живия Господ – Новото Възкресение" \bold "Glasat na Zhivija Gospod – Novoto Vaskresenie."  Dieses Lied und noch elf weitere Lieder wurden nach den Erinnerungen von Opernsängerin Liljana Tabakova notiert. Dann wurden sie vor Petar Danov vorgetragen und zur endgültigen Bewilligung und wurden das erste Mal 1942 publiziert.  Diese Lieder zeichnet aus, dass sie von tiefer Mystik durchdrungen sind und im Werk von Petar Danov neue melodische Intonationen ausdrücken. Durch das Lehren dieses Liedes deutete Petar Danov eine neue musikalische Form an, die als Beispiel und Basis für die Musik der Zukunft dienen wird. Dies wurde mehrmals angedeutet ( Allgemeine Okkultklasse aus dem Jahr 1923, 3. Jahrgang, 10. Vortrag). Eine solche Andeutung erfolgte auch beim Lehren des Liedes Bei Kaji mi svetli Boji lach, das jedoch unvollendet blieb. Um diese Lieder gut zu singen, bedarf es eines mystischen Element, d. h. sie sollen mit Ehrfurcht, Ehrlichkeit, Einfachheit, Reinheit und Bildhaftigkeit gesungen werden.
+          \bold "Гласът на Живия Господ – Новото Възкресение" \bold "Glasat na Zhivija Gospod – Novoto Vaskresenie."  Dieses Lied und noch elf weitere Lieder wurden nach den Erinnerungen der Opernsängerin Liljana Tabakova notiert. Dann wurden sie vor Petar Danov zur endgültigen Bewilligung vorgetragen; sie wurden zum ersten Mal 1942 publiziert. Diese Lieder sind von tiefer Mystik durchdrungen. Im Werk von Petar Danov drücken diese Lieder neue melodische Intonationen aus. Durch das Lehren dieses Liedes deutete Petar Danov eine neue musikalische Form an, die als Beispiel und Basis der Musik der Zukunft dienen wird. Dies deutet Danov mehrmals an (Allgemeine Okkultklasse aus dem Jahr 1923, 3. Jahrgang, 10. Vortrag). Eine solche Andeutung erfolgte auch beim Lehren des Liedes \italic"Kaji mi svetli Boji lach," das jedoch unvollendet blieb. Um diese Lieder gut zu singen, bedarf es eines mystischen Element, d. h. sie sollen mit Ehrfurcht, Ehrlichkeit, Einfachheit, Reinheit und Bildhaftigkeit gesungen werden.
         }
       }
 
