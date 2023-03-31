@@ -57,6 +57,9 @@
 
   \markup \italic \dc-one-nobold "attacca „В мрак тъмнота“/„V mrak tamnota“"
 
+    \label #'ref080_1
+  \tocItem \markup "В мрак тъмнота – V mrak tamnota"
+
 
   \score {
     \include "include/score-layout.ily"

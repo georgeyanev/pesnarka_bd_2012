@@ -4,7 +4,7 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \label #'ref0108
+  \label #'ref108
   \tocItem \markup "Мога да кажа – Moga da kazha "
   \include "include/bookpart-paper.ily"
   \score {

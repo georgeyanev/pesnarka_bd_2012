@@ -8,6 +8,7 @@ cat \
     ../006_oldest_book.ly \
     ../007_blank_page.ly \
     ../238_toc.ly \
+    ../005_blank_page.ly \
     ../007_preface.ly \
     ../008_about_music.ly \
     ../009_blank_page.ly \
@@ -186,6 +187,7 @@ cat \
     ../218_appendix.ly \
     ../220_description.ly \
     ../221_dictionary.ly \
+    ../245_index.ly \
     > tmp.ly
 
 lilypond --include=../ -o pesn_all tmp.ly

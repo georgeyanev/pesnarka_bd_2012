@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref156
-  \tocItem \markup "Мирът иде – Mirat ide  –  Der Frieden kommt "
+  \tocItem \markup "Мирът иде – Mirat ide"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

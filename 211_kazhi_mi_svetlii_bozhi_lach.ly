@@ -141,7 +141,7 @@
       \markup \empty-one
 
       % include foreign translation(s) of the song
-      \include "lyrics_de/211_kazhi_mi_svetlii_bozhi_lach.ly"
+      \include "lyrics_de/211_kazhi_mi_svetlii_bozhi_lach_lyrics_de.ly"
 
     } % bookpart
 

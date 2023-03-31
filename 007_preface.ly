@@ -33,7 +33,7 @@
   }
 
   \tocItem \markup "Vorwort"
-  \markup \fontsize  #+5.5 {  \bold   {Vorwort zur ersten bulgarischen Ausabe} }
+   \markup \fontsize  #+4.0 { \fill-line \bold {"VORWORT"} }
 
 
   \markup \fontsize #+2.5 {
