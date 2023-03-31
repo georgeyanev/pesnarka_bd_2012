@@ -5,10 +5,10 @@
 
 \bookpart {
    \label #'ref220
-  \tocItem \markup "Anmerkungen "
+  \tocItem \markup "Anmerkungen"
   \include "include/bookpart-paper.ily"
 
-  \markup \fontsize  #+5.5 { \hspace #3.2 \fill-line \bold {"" "Anmerkungen zu den Liedern" ""} }
+  \markup \fontsize  #+5.5 { \hspace #3.2 \fill-line \bold {"" "ANMERKUNGEN" ""} }
  
  
  \markup \fontsize  #+2  {
