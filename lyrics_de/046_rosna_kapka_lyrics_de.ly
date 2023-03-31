@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
-  \hspace #10
+  \hspace #15
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -18,7 +18,8 @@
 
     \line { "   "Frieden des paradiesischen Lebens!}
 
-    \line { "   "In dir, Tropfen, rufe ich alle lieben Brüder und Schwestern, }
+    \line { "   "In dir, Tropfen, rufe ich }
+     \line { "   "  alle lieben Brüder und Schwestern, }
 
     \line { "   "damit wir dein Volk werden.}
     \line { "   " }
@@ -38,7 +39,8 @@
 
     \line { 3. Und so  – rein, in weißen Kleidern}
 
-    \line { "   "und umgürtet mit der Rüstung der großen Liebe, der großen Liebe }
+    \line { "   "und umgürtet mit der Rüstung }
+       \line { "   "      der großen Liebe, der großen Liebe }
 
     \line { "   "werden wir ein neues Reich errichten:}
 

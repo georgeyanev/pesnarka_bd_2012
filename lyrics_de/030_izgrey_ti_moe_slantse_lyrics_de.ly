@@ -26,7 +26,7 @@
 
     \line {   "   "  seliges, seliges, seliges Leben,}
 
-    \line {   "   " du, der du mir das seliges Leben bringst.}
+    \line {   "   " du, der du mir das selige Leben bringst.}
 
     \line { " " }
 
@@ -53,7 +53,7 @@
 
   }
 
-  \hspace #-1
+  \hspace #-5
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {

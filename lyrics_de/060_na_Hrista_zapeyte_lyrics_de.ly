@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Hymne an Christus" }
+\markup \fill-line { \fontsize #deTitleFontSize "Singt an Christus" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
@@ -31,9 +31,9 @@
 
     \line { "   "in dieser festlichen Stunde,}
 
-    \line { "   "Er ist der Sohn Gottes, der gesendet wurde }
+    \line { "   "Er ist der Sohn Gottes, der gesandt }
 
-    \line { "   " auf die Erde um unseretwillen.}
+    \line { "   "  wurde auf die Erde um unseretwillen.}
 
     \line { "   "Er gab sein Leben, }
 
@@ -53,15 +53,16 @@
 
     \line { "   "die Liebe – sein Gesetz. }
 
-    \line { "   "Er verkündete die frohe Botschaft und sagte:}
+    \line { "   "Er verkündete die frohe Botschaft }
 
-    \line { "   "Ihr seid mein, ich bin euer,}
+    \line { "   "und sagte: „Ihr seid mein, ich bin euer,}
 
     \line { "   "alle Menschen sind Brüder,}
 
     \line { "   "Gottvater ist unser Vater.}
 
   }
+    
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
 

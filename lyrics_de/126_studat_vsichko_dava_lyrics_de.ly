@@ -54,17 +54,19 @@
     \column {
  
   
-    \line { " " Kalt bist du, aber rettest uns vor dem Frost.}
+    \line { " " Kalt bist du, }
+           \line { " "   aber rettest uns vor dem Frost.}
 
-    \line { " " Seit Ewigkeit waren die menschlichen Herzen }
+    \line { " " Seit Ewigkeit waren die menschlichen  }
             
-       \line { " "  für dich verschlossen,}
+       \line { " "  Herzen für dich verschlossen,}
 
     \line { " " da du das Alte ausziehst, das Alte, }
             
         \line { " " und das Neue faltest, das Neue.}
 
-    \line { " "  Kalt bist du, aber rettest uns vor der Kälte.}
+    \line { " "  Kalt bist du, }
+      \line { " "        aber rettest uns vor der Kälte.}
 
  
     
