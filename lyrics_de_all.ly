@@ -169,7 +169,7 @@
    \include "lyrics_de/206_bozhiyata_lyubob_me_ozari_lyrics_de.ly"
    \include "lyrics_de/207_pesenta_na_angelite_lyrics_de.ly"
    \include "lyrics_de/210_Gospodi_kolko_te_obicham_lyrics_de.ly"
-   \include "lyrics_de/211_kazhi_mi_svetlii_bozhi_lach.ly"
+   \include "lyrics_de/211_kazhi_mi_svetlii_bozhi_lach_lyrics_de.ly"
    \include "lyrics_de/212_moeto_slunce_dnes_ste_izgree_lyrics_de.ly"
    \include "lyrics_de/214_ti_ste_spoluchish_v_zhivota_de.ly"
    \include "lyrics_de/215_zora_na_noviya_zhivot_lyrics_de.ly"

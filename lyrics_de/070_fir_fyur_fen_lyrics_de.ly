@@ -18,7 +18,8 @@
     \line {   "   " }
     \line {   "   "Lobpreise meine Seele den Herrn,}
     \line {   "   "lobpreise und vergiss nicht}
-    \line {   "   "lobpreise, lobpreise, lobpreise und vergiß nicht.}
+    \line {   "   "lobpreise, lobpreise, lobpreise }
+      \line {  "   " und vergiß nicht.}
 
 
   }
