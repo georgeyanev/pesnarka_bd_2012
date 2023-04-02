@@ -4,60 +4,56 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \label #'ref220
-  \tocItem \markup "Anmerkungen"
   \include "include/bookpart-paper.ily"
 
-  \markup \fontsize  #+4.0 { \hspace #3.2 \fill-line \bold {"ANMERKUNGEN"} }
+  \label #'ref220
+  \tocItem \markup "Anmerkungen"
+  \markup \fontsize  #+4.0 { \hspace #2 \fill-line \bold {"ANMERKUNGEN"} }
 
-
-  \markup \fontsize  #+2  {
+  \markup \fontsize #+2 \override #'(line-width . 63)
+  {
     \vspace #1.5 \override #'(baseline-skip . 2.2)
     \column {
-      \vspace #1.3
+      \vspace #1.15
       \line { "1." }
-      \vspace #1.8
+      \vspace #1.7
       \line { "2." }
-      \vspace #0.9
+      \vspace #0.85
       \line { "3." }
-      \vspace #1.0
-      \line { "4." }
-      \vspace #0.5
-      \line { "5." }
-      \vspace #1.0
-      \line { "6." }
-      \vspace #1.0
-      \line { "7." }
       \vspace #0.9
+      \line { "4." }
+      \vspace #0.9
+      \line { "5." }
+      \vspace #0.95
+      \line { "6." }
+      \vspace #0.85
+      \line { "7." }
+      \vspace #0.85
       \line { "8." }
       \vspace #1.6
       \line { "9." }
-      \vspace #0.6
+      \vspace #0.4
       \line { "10." }
-      \vspace #2.5
+      \vspace #2.45
       \line { "11." }
-      \vspace #1.1
+      \vspace #0.97
       \line { "12." }
-      \vspace #1.8
+      \vspace #1.72
       \line { "13." }
-      \vspace #1.8
+      \vspace #1.7
       \line { "14." }
-      \vspace #0.6
+      \vspace #0.4
       \line { "15." }
-
     }
 
     \hspace #1 \override #'(baseline-skip . 2.2)
-
-
     \column {
-
       \line {
         \justify {
           \fontsize  #+0.8 \bold { \fill-line { \smallCaps"Brüderliche Lieder"} }
         }
       }
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Зората на Новия живот – Zorata na Noviya zhivot."
@@ -66,7 +62,7 @@
         }
       }
 
-      \vspace #0.5
+      \vspace #0.4
 
       \line {
         \justify {
@@ -76,14 +72,14 @@
       }
 
 
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Братство единство – Bratstvo Edinstvo."
           Musik von Petar Danov, Text von einem Schüler nach den Ideen von Petar Danov.
         }
       }
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Ще се развеселя – Shte se razveselya."
@@ -91,56 +87,56 @@
 
         }
       }
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Изгрява вече ден тържествен – Izgryava veche den tarzhestven."
           Musik von Petar Danov, Text von einem Schüler nach den Ideen von Petar Danov.
         }
       }
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Благославяй – Blagoslavyay."
           Musik und Text von Petar Danov nach dem Psalm 103.
         }
       }
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Събуди се братко мили – Sabudi se bratko mili."
           Musik von Petar Danov, Text von einem Schüler nach den Ideen von Petar Danov.
         }
       }
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Любовта е извор – Lyubovta e izvor."
           Musik von Petar Danov, Text von einem Schüler nach den Ideen von Petar Danov. In den Notizen von Bojan Boev wurde das Lied \italic "Lied der Liebe" betitelt.
         }
       }
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Стани, стани – Stani, stani."
           Musik und Text von Petar Danov.
         }
       }
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Страдна душо – Stradna dusho."
           Musik von Petar Danov, Text von Michalaki Georgiev. In den Notitzen von Bojan Boev wurde dieses Lied \italic "Das Lied der Seele" betitelt. Jede Strophe entspricht einer der Kardinaltugenden  dem Guten, der Gerechtigkeit, der Liebe, der Weisheit und der Freiheit.
         }
       }
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Изгрей ти, мое Слънце – Izgrey ti, moe Slantse."
           Musik von Petar Danov, Text Stojan Russev (Djado Blago).
         }
       }
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Шуми – Shumi."
@@ -148,7 +144,7 @@
         }
       }
 
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Напред да ходим – Napred da hodim."
@@ -157,24 +153,20 @@
         }
       }
 
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "При източника – Pri iztochnika."
           Musik von Petar Danov, Text Ivan Tolev.
         }
       }
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "На Учителя –  Na Uchitelya."
           Musik und Text von Boris Hadjiandreev, Jambol, 1915. In den Notizen von Bojan Boev wurde das Lied  „Der Schüler Christi“ betitelt und anstatt „Herr, Du mein Meister“ wurde „Oh, mein Herr und Meister“ verwendet. In anderen Versionen der vierten Strophe singt man: „und Dir werde ich folgen“.
         }
       }
-
-
-
-
     }
   }
 
