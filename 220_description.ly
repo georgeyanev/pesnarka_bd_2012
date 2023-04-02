@@ -334,44 +334,39 @@
     }
   }
 
-  \markup \fontsize  #+2  {
+  \markup \fontsize #+2 \override #'(line-width . 63) {
     \override #'(baseline-skip . 2.2)
     \column {
 
       \line { "34." }
       \vspace #1.0
-      \line { "35" }
+      \line { "35." }
       \vspace #1.0
       \line { "36." }
-      \vspace #0.6
+      \vspace #0.55
       \line { "37." }
       \vspace #1.1
       \line { "38." }
       \vspace #1.0
       \line { "39." }
-      \vspace #1.0
+      \vspace #1.05
       \line { "40." }
       \vspace #0.5
       \line { "41." }
-      \vspace #1.7
+      \vspace #1.75
       \line { "42." }
       \vspace #1.7
       \line { "43." }
-      \vspace #1.0
+      \vspace #0.9
       \line { "44." }
-      \vspace #0.8
+      \vspace #0.9
       \line { "45." }
       \vspace #1.4
       \line { "46." }
-      \vspace #9.8
-      \line { "47." }
-
     }
 
     \hspace #1 \override #'(baseline-skip . 2.2)
     \column {
-
-
       \line {
         \justify {
           \bold "Идват дни на радост – Idvat dni na radost."  Text und Musik von Nadezhda Kurteva.
@@ -470,13 +465,6 @@
 
         }
       }
-      \vspace #0.5
-      \line {
-        \justify {
-          \bold "Изгрява слънцето – Izgryava slantzeto."  Das Lied wurde am 22. Oktober 1922 in der Allgemeinen Okkultklasse, II. Jahrgang, vierter Vortrag gegeben. Petar Danov
-        }
-      }
-
     }
   }
 
@@ -484,6 +472,8 @@
   \markup \fontsize  #+2  {
     \override #'(baseline-skip . 2.2)
     \column {
+      \vspace #9.8
+      \line { "47." }
       \vspace #1.8
       \line { "48." }
       \vspace #5.5
@@ -496,15 +486,10 @@
       \line { "52." }
       \vspace #6.9
       \line { "53." }
-
-
-
     }
-
 
     \hspace #1 \override #'(baseline-skip . 2.2)
     \column {
-
       \line {
         \justify {
           sagt: „Hier wurde mit vollkommener Einfachheit des Tons und Wortes das herrliche Bild der aufgehenden Sonne geschaffen.“
@@ -528,7 +513,6 @@
           \bold  "Благост – Blagost."  Die ersten fünf Takte des Liedes wurden am 19. Dezember 1923, in der Allgemeinen Okkultklasse, III. Jahrgang, im 10. Vortrag gegeben. Das Lied wurde am 26. Dezember 1923 vollendet. Petar Danov sagt: „Die Kraft dieses Liedes liegt in seinem Rhythmus. Es hat zum Ziel, den richtigen Rhythmus des menschlichen Herzens wiederherzustellen.“
         }
       }
-
       \vspace #0.5
       \line {
         \justify {
@@ -547,13 +531,13 @@
           \bold  "Венир Бенир – Venir benir."  Gegeben am 5. November 1922. Allgemeine Okkultklasse, II. Jahrgang, 6. Vortrag. Venir Benir ist ein okkultes, östliches Motiv, das von den westlichen Völkern aufgenommen wurde. Die mystische Bedeutung des Liedes ist folgende: \italic"Venir Benir"  – Du, der Große, der du alle und alles segnest. \italic"Bihar Benum"  – Es sei gesegnet. \italic"Il Beut"  – Gott, segne das Große, die Jugend, der Ursprung des Lebens. \italic"Il Bezut " – Herr, segne den jungen Menschen, den Beginnenden, das göttliche Leben, segne das Göttliche, das in der Seele empfangen wird, den Atem Gottes, den wir usprünglich empfangen haben. \italic"On Bejut" – Er ist es selbst, der Einzige, der segnet. \italic"Il Bezut, On Bejut" – Er ist alles, Er ist überall. So soll es jetzt sein! Das ist das Verhältnis zwischen dem Großen und dem Kleinen – die Seele. Und das Kleine wird von einem Gedanken über das Große, über Gott erfüllt. Die Seele erinnert sich an die Zeit, als sie den ersten Hauch vom göttlichen Hauch empfangen hat. (Nach Danov: Allgemeine Okkultklasse, 8. Mai. 1940).
         }
       }
-
-
-
-
-
+      \vspace #0.5
+      \line {
+        \justify {
+          \bold "Изгрява слънцето – Izgryava slantzeto."  Das Lied wurde am 22. Oktober 1922 in der Allgemeinen Okkultklasse, II. Jahrgang, vierter Vortrag gegeben. Petar Danov
+        }
+      }
     }
-
   }
 
   \markup \fontsize  #+2  {
