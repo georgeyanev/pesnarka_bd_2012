@@ -258,7 +258,7 @@
             e''1 |
             \time 3/4  |
             d''2  b'4 -- | % 251
-            \time 4/4  | % 251
+            \time 4/4  | \break % 251
             b'4 --  b'4 --  cis''4 --  b'4
             -- | % 252
             a'4 -- a'4 -- gis'4 -- r8
@@ -266,9 +266,9 @@
               \musicglyph #"scripts.caesura.straight"
             }
             ^\fermata
-            cis''8  | \break % 253
+            cis''8  |  % 253
             fis''2 ^\fermata r8  ^\markup{ \bold {Poco meno mosso} } cis''8
-            cis''8  cis''8  | % 254
+            cis''8  cis''8  \break | % 254
             cis''4 a'4 r8  cis''8  cis''8
             cis''8 | % 255
             e''4. ^\fermata  cis''8 ^\markup{ \bold {rall.} }
@@ -279,7 +279,7 @@
           }
           \addlyrics {
             И ре -- че Бог:  „Да
-            дой -- дат над зе -- мя -- та жи --
+            "дой-" -- дат над зе -- мя -- та жи --
             вот -- ни и зве -- ро -- ве спо --
             ред ви -- до -- ве -- те им.“ И
             ста -- на та -- ка. И ви -- дя Бог,
@@ -300,7 +300,7 @@
             -- те  си за хра --
             на на че -- ло --  ве -- ка. И ре --
             че Бог: „Да -- вам и на зем --
-            ни -- те зве -- ро -- ве, и на въз
+            ни -- те "зве-" -- ро -- ве, и на "въз-"
             -- душ -- ни -- те пти -- ци, и всич
             -- ко, що пъл -- зи  по зе -- мя
             -- та и и -- ма жи -- вот, и чо --
@@ -334,7 +334,7 @@
             -- te  si za hra --
             na na che -- lo -- ve --  ka. I re --
             che Bog: „Da -- vam i na zem --
-            ni -- te zve -- ro -- ve, i na vaz
+            ni -- te zve -- ro -- ve, i na "vaz-"
             -- dush -- ni -- te pti -- tsi, i vsich
             -- ko, shto pal -- zi  po ze -- mya
             -- ta i i -- ma zhi -- vot, i cho --
