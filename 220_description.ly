@@ -170,45 +170,45 @@
     }
   }
 
-  \markup \fontsize  #+2  {
+  \markup \fontsize #+2 \override #'(line-width . 63) {
     \override #'(baseline-skip . 2.2)
 
     \column {
 
       \line { "16." }
-      \vspace #1.1
+      \vspace #1
       \line { "17." }
-      \vspace #1.8
+      \vspace #1.72
       \line { "18." }
-      \vspace #1.1
+      \vspace #1.6
       \line { "19." }
-      \vspace #1.7
+      \vspace #1.6
       \line { "20." }
-      \vspace #0.9
+      \vspace #0.8
       \line { "21." }
-      \vspace #1.0
+      \vspace #0.88
       \line { "22." }
-      \vspace #1.1
+      \vspace #1
       \line { "23." }
-      \vspace #1.1
+      \vspace #1
       \line { "24." }
-      \vspace #2.5
+      \vspace #2.4
       \line { "25." }
-      \vspace #1.0
+      \vspace #0.85
       \line { "26." }
-      \vspace #1.0
+      \vspace #0.95
       \line { "27." }
-      \vspace #1.1
+      \vspace #1
       \line { "28." }
-      \vspace #1.0
+      \vspace #0.9
       \line { "29." }
-      \vspace #1.0
+      \vspace #0.95
       \line { "30." }
-      \vspace #0.6
+      \vspace #0.85
       \line { "31." }
       \vspace #0.8
       \line { "32." }
-      \vspace #1.1
+      \vspace #0.9
       \line { "33." }
 
     }
@@ -224,7 +224,7 @@
           Musik Atanas D. Kovachev, Test Stojan Russev (Djado Blago).
         }
       }
-      \vspace #0.5
+      \vspace #0.4
 
       \line {
         \justify {
@@ -232,19 +232,19 @@
         }
       }
 
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Благословен Господ  – Blagosloven Gospod."  Musik und Text von Petar Danov. In den Notizen von Bojan Boev wurde das Lied \italic"Der kleine Lobgesang" betitelt.
         }
       }
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "За Небесния цар – Za Nebesniya tsar."  Musik und Text von Petar Danov, 1888, Hotanza. In den Notizen von Bojan Boev wurde das Lied  \italic "Der zionische Marsch betitelt."
         }
       }
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Време е да вървим – Vreme e da varvim."  Musik von Petar Danov, Text von einem Schüler.
@@ -252,87 +252,85 @@
       }
 
 
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Поздрав на Учителя – Pozdrav na Uchitelya."  Musik und Text von Elena Kazanlaklieva.
         }
       }
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Сине мой, пази живота – Sine moi, pazi zhivota."  Musik von Ivan G. Popov, Text von Stojan Rusev (Djado Blago), aufgeschrieben am 2. Mai 1922.
         }
       }
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Росна капка – Rosna kapka."  Musik und Text von Ivan Popov, aufgeschrieben am 1. August 1921.
         }
       }
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Аз съм бялото кокиче – Аz sam byaloto kokiche."  Musik Hristo Darsev, Text Pentscho Slaveikov. In manchen populären Versionen wird statt „Böse Stiefmutter hat mich geweckt“ „Die Sonne hat mich geweckt“ gesungen. Der Text der dritten Strophe wurde später von einem Schüler hinzugefügt.
         }
       }
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Напред, чада, напред  – Napred, chada, napred."  Musik und Text von einem Schüler.
         }
       }
-      \vspace #0.5
+      \vspace #0.4
 
       \line {
         \justify {
           \bold "Славейчета горски  – Slaveycheta gorski."  Musik von Atanas D. Kovachev, Text von Stojan Russev (Djado Blago) Aufgeschrieben am 20. April 1922.
         }
       }
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Небето се отваря – Nebeto se otvarya."  Musik Atanas D. Kovachev, Text Stojan Russev (Djado Blago), aufgeschrieben am 2. Februar 1918.
         }
       }
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "О, Учителю благати – O, Uchitelyu blagati."  Musik und Text von Ljuba Iv. Roadoslavova.
         }
       }
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Дързост в Христа – Darzost v Hrista."  Musik und Text von einem Schüler, aufgeschrieben am 1. August 1921.
         }
       }
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Слава Божия – Slava Bozhia."  Text und Musik Maria Todorova nach dem Psalm 115.
         }
       }
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Към Сион – Kam Sion."  Musik und Text von Ivan G. Popov, aufgeschrieben am 15 Juni 1921.
         }
       }
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Слънцето на Любовта – Slantseto na Lyubovta."  Musik und Text von einem Schüler.
         }
       }
-      \vspace #0.5
+      \vspace #0.4
       \line {
         \justify {
           \bold "Ти си проявената Любов – Ti si proyavenata Lyubov."    Text und Musik von Maria Savova.
         }
       }
-
-
     }
   }
 
