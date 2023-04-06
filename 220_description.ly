@@ -356,6 +356,14 @@
 
         }
       }
+      \vspace #0.5
+      \line {
+        \justify {
+          47. \bold "Изгрява слънцето – Izgryava slantzeto."  Das Lied entstand am 22. Oktober 1922 in der Allgemeinen Okkultklasse, II. Jahrgang, vierter Vortrag. Petar Danov
+
+        }
+      }
+
     }
   }
 
@@ -365,7 +373,7 @@
     \column {
       \line {
         \justify {
-          47. \bold "Изгрява слънцето – Izgryava slantzeto."  Das Lied entstand am 22. Oktober 1922 in der Allgemeinen Okkultklasse, II. Jahrgang, vierter Vortrag. Petar Danov
+
           sagt: „Hier wurde mit vollkommener Einfachheit des Tons und Wortes das herrliche Bild der aufgehenden Sonne geschaffen.“
         }
       }
@@ -410,7 +418,10 @@
           Lebens. \italic"Il Bezut " – Herr, segne den jungen Menschen, den Beginnenden, das göttliche Leben,
           segne das Göttliche, das in der Seele empfangen wird, den Atem Gottes, den wir usprünglich
           empfangen haben. \italic"On Bejut" – Er ist es selbst, der Einzige, der segnet.
-          \italic"Il Bezut, On Bejut" – Er ist alles, Er ist überall. So soll es jetzt sein!
+          \italic"Il Bezut, On Bejut" – Er ist alles, Er ist überall. So soll es jetzt sein! Das ist das Verhältnis zwischen dem Großen und dem Kleinen – die Seele. Und das Kleine wird
+          von einem Gedanken über das Große, über Gott erfüllt. Die Seele erinnert sich an die Zeit,
+          als sie den ersten Hauch vom göttlichen Hauch empfangen hat. (Nach Danov: Allgemeine
+          Okkultklasse, 8. Mai. 1940).
         }
       }
     }
@@ -419,15 +430,6 @@
   \markup \fontsize  #+2  {
     \override #'(baseline-skip . 2.2)
     \column {
-      \line {
-        \justify {
-          Das ist das Verhältnis zwischen dem Großen und dem Kleinen – die Seele. Und das Kleine wird
-          von einem Gedanken über das Große, über Gott erfüllt. Die Seele erinnert sich an die Zeit,
-          als sie den ersten Hauch vom göttlichen Hauch empfangen hat. (Nach Danov: Allgemeine
-          Okkultklasse, 8. Mai. 1940).
-        }
-      }
-      \vspace #0.4
       \line {
         \justify {
           54. \bold  "Сила жива – Sila ziva." 19. November 1922, Allgemeine Okkultklasse, 2. Jahrgang, 8. Vortrag.
@@ -465,18 +467,19 @@
           59. \bold "В мрак тъмнота – V mrak tamnota." 3. März 1926, Allgemeine Okkultklasse, V. Jahrgang, 16. Vortrag. Dieses Lied ist der zweite Teil von \italic"Mahar Benu Aba" und seine Übersetzung zugleich. Bildlich gesprochen, entspricht \italic"v’mrak = Mahar," dem Abstieg. \italic"No slantzeto na jivota" entpricht \italic"Benou," dem Aufstieg. \italic"I nii tragnahme vav patia chist i sviat za nas" entspricht \italic"Aba," was bedeutet: an die Arbeit gehen.
         }
       }
+ \vspace #0.4
+        \line {
+        \justify {
+          60. \bold  "В зорите на Живота – V zorite na zhivota."  3. Dezember 1922. Allgemeine Okkultklasse, II. Jahrgang, 10. Vortrag.
+        }
+      }
     }
   }
 
   \markup \fontsize  #+2  {
     \override #'(baseline-skip . 2.2)
     \column {
-      \line {
-        \justify {
-          60. \bold  "В зорите на Живота – V zorite na zhivota."  3. Dezember 1922. Allgemeine Okkultklasse, II. Jahrgang, 10. Vortrag.
-        }
-      }
-      \vspace #0.4
+      
       \line {
         \justify {
           61. \bold  "Бог е Любов – Bog e Lyubov."  Der erste Teil dieses Liedes entstand am 10. Dezember 1922, Allgemeine Okkultklasse, II. Jahrgang, 11. Vortrag; der zweite Teil \italic"Nij ste hodim" am 17. Dezember 1922, d. h. im Laufe des nachfolgenden Vortrages der gleichen Klasse. Diese Übung enthält Bilder und Gestalten. Man beginnt leise zu singen. Die Kraft dieses Liedes liegt im Erleben verborgen. Die menschliche Seele empfängt aus den höheren Regionen die ewige Symphonie, welche aus dem ganzen Kosmos als Lobpreisung des Unendlichen [Gott] kommt. Dieser Gedanke wird im ersten Teil des Liedes \italic"Gott ist Liebe" ausgedrückt. Diese Symphonie erfüllt und verklärt die menschliche Seele, die nun freudig ihren Ruf nach oben sendet. Dies wird im zweiten Teil des Liedes ausgedrückt: \italic"Wir werden auf dem Weg des Lichts wandeln."
@@ -701,12 +704,7 @@
           95. \bold  "Сила, здраве е богатство – Sila, zdrave e bogatstvo."  Das Lied entstand am 3. Januar 1940.
         }
       }
-      \vspace #0.4
-      \line {
-        \justify {
-          96. \bold  "Зов на планината – Zov na planinata."  Das Lied entstand 1937.
-        }
-      }
+     
     }
   }
 
@@ -715,6 +713,13 @@
   \markup \fontsize  #+2  {
     \override #'(baseline-skip . 2.2)
     \column {
+    
+      \line {
+        \justify {
+          96. \bold  "Зов на планината – Zov na planinata."  Das Lied entstand 1937.
+        }
+      }
+         \vspace #0.4
       \line {
         \justify {
           97. \bold "Цветята цъфтяха – Tvetyata tsaftyaha." 22. Januar 1941. Die Blume, die sich geöffnet hat, kann die Sonnenstrahlen empfangen. Das Herz und der Verstand des Menschen müssen sich für die göttlichen Wohltaten öffnen; nur dann kann er wahre Errungenschaften haben.
@@ -1114,17 +1119,19 @@
           154. \bold "Молитва – Molitva." Petar Danov komponierte die Melodie am 3. September 1940. Text Ioana Strateva.
         }
       }
+       \vspace #0.4
+       \line {
+        \justify {
+          155. \bold "Песен за двете сестри – Pesen za dvete sestri."  Das Lied entstand während der Evaluation in Martschaevo 1944.
+        }
+      }
     }
   }
 
   \markup \fontsize  #+2  {
     \override #'(baseline-skip . 2.2)
     \column {
-      \line {
-        \justify {
-          155. \bold "Песен за двете сестри – Pesen za dvete sestri."  Das Lied entstand während der Evaluation in Martschaevo 1944.
-        }
-      }
+     
       \vspace #0.4
       \line {
         \justify {
