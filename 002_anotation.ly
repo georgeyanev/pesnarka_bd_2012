@@ -51,9 +51,9 @@
   \markup \fontsize  #+2.5  { \hspace #5  \vspace #0.5 Stanka Zheleva}
   \markup \fontsize  #+2.5  { \hspace #5  \vspace #0.5 Penka Kadieva}
   \markup \fontsize  #+2.5  { \hspace #5  \vspace #0.5 Peter Ganev}
-  \markup \fontsize  #+2.5  {   \hspace #3  \vspace #1.5  Übersetzung aus dem Bulgarischen: }
+  \markup \fontsize  #+2.5  {  \bold{  \hspace #3  \vspace #1.5  Übersetzung aus dem Bulgarischen: } }
   \markup \fontsize  #+2.5  {   \hspace #3  \vspace #0.5  Mariya Kireva, Klaudia Wittich-Harz}
-  \markup \fontsize  #+2.5  {   \hspace #3  \vspace #1.5  Layout:  George Yanev}
+  \markup \fontsize  #+2.5  {  \bold{  \hspace #3  \vspace #1.5  Layout: } George Yanev}
   \markup \fontsize  #+4.5  {\bold{  \hspace #3  \vspace #2.5 ISBN: } place the isbn later}
 
 

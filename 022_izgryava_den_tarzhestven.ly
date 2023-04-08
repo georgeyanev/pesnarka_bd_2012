@@ -101,7 +101,7 @@
       \line { "   " \italic {Припев: } }
     }    \"rightBraces022"
 
-    \hspace #5
+    \hspace #1
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
      
