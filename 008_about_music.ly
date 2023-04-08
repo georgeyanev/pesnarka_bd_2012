@@ -102,7 +102,6 @@ Ich möchte, dass ihr für euch singt – ich meine, nicht persönlich für euch
 
   \markup \fontsize #+2.5 {
     \justify-string " 
-
     Alle okkulten Schulen aus der Vergangenheit sowie diese von heute bedienen sich der Methode der Musik zur Erziehung und Selbsterziehung. Wenn der Mensch eine der musikalischen Methoden zur Transformierung des Bewusstseins anwendet, wird er sich in einer halben oder einer ganzen Stunde in einer anderen Tonleiter des Lebens, fern von seinen Schwierigkeiten befinden. Jetzt nämlich, bei den Bedingungen, unter denen wir leben, müssen wir uns andauernd einstimmen, und die Musik ist eine der göttlichen Methoden zur Einstimmung. Wenn jemand die Übung Gott ist Liebe ausführt, wie sie gesungen werden soll, wird er sich verwandeln; welche Leiden er auch immer hat, sie werden verschwinden; er wird fröhlich und munter sein und sich verjüngen. Die Musik soll im Menschen ein fröhliches Gefühl aufsteigenden Grades, ein Gefühl der Schöpfung hervorrufen. Jeder soll sich selbst sagen: „Ich soll Musiker werden, ich soll lieben, ich soll gerade denken.“ In der Heiligen Schrift wurde gesagt: „Singt und lobpreist den Herrn in eurer Seele.“ Ich aber sage: Singt und lobpreist den Herrn in eurem Geist, in eurem Herzen und in eurem Verstand. Alles in euch, von den Füßen bis zu den Haaren auf eurem Kopf, soll singen.
 
 "
