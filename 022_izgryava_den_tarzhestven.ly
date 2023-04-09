@@ -65,7 +65,7 @@
       bes -- na, e -- la -- te da pri -- e -- mem taz
       bla -- go -- dat ne -- bes -- na, shto zhi -- vo --
       ta ob -- no -- vya -- va i vech -- no tya go pod
-      -- mla -- dya -- va.
+      -- "mla-" -- dya -- va.
     }
     \header {
       title = \titleFunc "Изгрява вече ден тържествен" "Izgryava veche den tarzhestven"

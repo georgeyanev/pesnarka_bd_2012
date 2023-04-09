@@ -47,14 +47,14 @@
    път   по  --  ка  --  жи.   Къ  --  сай   са  --  мо   плод   у  --
    зрял,   но   без   да   чу  --  пиш   све  --  жи   клон.   И  --
    зо  --  бил  --  но   плод   си   ти   на  --  бе  --  ри   и   на
-   всич  --  ки   с~Ра  --  дост   го   за  --  не  --  си. }
+   "всич-"  --  ки   с~Ра  --  дост   го   за  --  не  --  си. }
       \addlyrics {  Tam da -- le --
   che zna -- ya chu -- den kray -- Slan --  tse,  tsve -- tya i plo -- do
   --  ve,  bli -- ka iz --  vor,  ray -- ska gra -- di -- na  e.  Ti
   da mi ka -- zhesh  tuy,  ko -- e -- to znaysh -- za ro -- den
    kray,  ray -- ska ze --  mya,  gde ros -- na vish -- na tsaf -- ti
   i  zrey.  Za toz kra -- siv kray pat po -- ka --  zhi.  Ka -- say sa
-  -- mo plod u --  zryal,  no bez da chu -- pish sve -- zhi  klon.  I
+  -- mo plod "u-" --  zryal,  no bez da chu -- pish sve -- zhi  klon.  I
   -- zo -- bil -- no plod si ti na -- be -- ri i na vsich -- ki  s~Ra
   -- dost go za -- ne --  si. }
 
