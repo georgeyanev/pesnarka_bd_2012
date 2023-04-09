@@ -91,11 +91,11 @@
     }
     \addlyrics {
       Аз  но -- ся "скръб-" -- та си
-      с~Ра -- дост във Жи -- во -- та–
+      с~Ра -- дост във Жи -- во -- та;
       тя ми е дру -- гар -- ка бла --
       га, що "до-" -- бре ме у -- чи. Аз
       но -- ся "скръб-" -- та си
-      с~ра -- дост във Жи -- во -- та–
+      с~ра -- дост във Жи -- во -- та;
       тя ми е дру -- гар -- ка, що ме
       у -- чи. Ма -- кар без -- спир -- но
       и да пъш -- кам, крот -- ко тя "на-"
@@ -109,11 +109,11 @@
     }
     \addlyrics {
       Az  no -- sya skrab -- ta si
-      s~Ra -- dost vav Zhi -- vo -- ta–
+      s~Ra -- dost vav Zhi -- vo -- ta;
       tya mi e dru -- gar -- ka bla --
       ga, shto do -- bre me u -- chi. Az
       no -- sya skrab -- ta si
-      s~ra -- dost vav Zhi -- vo -- ta–
+      s~ra -- dost vav Zhi -- vo -- ta;
       tya mi e dru -- gar -- ka, shto me
       u -- chi. Ma -- kar bez -- spir -- no
       i da pash -- kam, krot -- ko tya na

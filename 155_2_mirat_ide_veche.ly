@@ -30,15 +30,15 @@
     }
 
     \addlyrics {
-      Ми -- рът и -- де ве -- че, Ми -- рът и -- де ве -- че, Ми -- рът и -- де ве -- че!-
+     „Ми -- рът и -- де ве -- че, Ми -- рът и -- де ве -- че, Ми -- рът и -- де ве -- че!“,
       тъй наш Гос -- под ре -- че.
-      Tъй наш Гос -- под ре -- че: Ми -- рът и -- де ве -- че, Ми -- рът и -- де ве -- че!-
+      Tъй наш Гос -- под ре -- че: „Ми -- рът и -- де ве -- че, Ми -- рът и -- де ве -- че!“,
       тъй наш Гос -- под ре -- че.
     }
     \addlyrics {
-      Mi -- rat i -- de ve -- che, Mi -- rat i -- de ve -- che, Mi -- rat i -- de ve -- che!-
+      „Mi -- rat i -- de ve -- che, Mi -- rat i -- de ve -- che, Mi -- rat i -- de ve -- che!“,
       tay nash Gos -- pod re -- che.
-      Tay nash Gos -- pod re -- che: Mi -- rat i -- de ve -- che, Mi -- rat i -- de ve -- che!-
+      Tay nash Gos -- pod re -- che: „Mi -- rat i -- de ve -- che, Mi -- rat i -- de ve -- che!“,
       tay nash Gos -- pod re -- che.}
 
       \header {

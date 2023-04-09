@@ -76,14 +76,14 @@
 
     \addlyrics {
       Кра -- сив "жи-" -- вот в~без -- кра --
-      ен път! При -- пом -- ням си по --
+      ен път! "При-" -- пом -- ням си по --
       ня -- ко -- га, ня -- къ -- де да --
-      леч бе то. Там Слън -- це нив --
+      леч бе то. Там "Слън-" -- це нив --
       га не за -- ляз -- ва -- ше __  и
       не -- бе -- то ви -- на -- ги ла --
-      зур но, Мир и Свет -- ли -- на.
+      зур но, Мир и Свет -- "ли-" -- на.
       Хим -- ни на Лю -- бов -- та ан --
-      ге -- ли без -- спир -- но пе --
+      ге -- ли "без-" -- спир -- но пе --
       ят, треп -- тят, зву -- чат в‿а --
       корд звезд -- ни -- те все -- ле
       -- ни. И въз -- зе -- ма се
@@ -95,13 +95,13 @@
       -- ди  -- на.}
       \addlyrics {
         Kra -- siv zhi -- vot v~bez -- kra --
-        en pat! Pri -- pom -- nyam si po --
+        en pat! Pri -- "pom-" -- nyam si po --
         nya -- ko -- ga, nya -- ka -- de da --
         lech be to. Tam Slan -- tse niv --
         ga ne za -- lyaz -- va -- she __ i
         ne -- be -- to vi -- na -- gi la --
         zur no, Mir i Svet -- li -- na.
-        Him -- ni na Lyu -- bov -- ta an --
+        Him -- ni na "Lyu-" -- bov -- ta an --
         ge -- li bez -- spir -- no pe --
         yat, trep -- tyat, zvu -- chat v‿a --
         kord zvezd -- ni -- te vse -- le

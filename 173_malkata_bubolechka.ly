@@ -45,7 +45,7 @@
     }
 
     \addlyrics {
-      Мен ме ро -- ди Бог със Лю --
+      Мен ме ро -- ди Бог със "Лю-" --
       бов и о -- за -- ри със Жи
       -- во -- та нов. Ед --
       вам, ед -- вам рас -- те  и зре
@@ -55,7 +55,7 @@
       Ще ви -- дя туй, ду -- ша -- та
       ми що лю -- би и коп -- ней.}
       \addlyrics {
-        Men me ro -- di Bog sas Lyu --
+        Men me ro -- di Bog sas "Lyu-" --
         bov i o -- za -- ri sas Zhi
         -- vo -- ta nov. Ed --
         vam, ed -- vam ras -- te  i zre
