@@ -108,7 +108,7 @@
       ка -- за: „Ста -- вай, дъ -- ще, на ни -- ва
       тряб -- ва да се хо -- ди. Ста -- вай, че ба --
       ща ти вън -- ка мен и те -- бе със ко -- ла --
-      та ча -- ка. Ста -- вай, че ба -- ща ти вън --
+      та ча -- ка. Ста -- вай, че "ба-" -- ща ти вън --
       ка мен и те -- бе със ко -- ла -- та ча --
       ка.“
    }
@@ -118,9 +118,9 @@
         den, v~ran -- ni zo -- ri may -- ka mi ti -- ho se pri --
         bli -- zhi. Sla -- dak glas bla -- ga du -- ma mi
         ka -- za: „Sta -- vay, da -- shte, na ni -- va
-        tryab -- va da se ho -- di. Sta -- vay, che ba --
+        tryab -- va da se ho -- di. Sta -- vay, che "ba-" --
         shta ti van -- ka men i te -- be sas ko -- la --
-        ta cha -- ka. Sta -- vay, che ba -- shta ti van --
+        ta cha -- ka. Sta -- vay, che "ba-" -- shta ti van --
         ka men i te -- be sas ko -- la -- ta cha --
         ka.“
    }

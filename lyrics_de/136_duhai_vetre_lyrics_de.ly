@@ -37,5 +37,12 @@
 
     \line { " "damit es ihm wohl ergeht. }
 
+    \line { " "Die göttliche Sonne scheint heute,  }
+
+    \line { " "die göttliche Sonne scheint heute,  }
+
+    \line { " "die göttliche Sonne scheint heute }
+     \line { " "für dich Bulgare. }
+
   }
 }
