@@ -103,7 +103,7 @@
      
       \line { 2. Отново ще се срещнем  }
       \line {   "   " при рилските очи. }
-      \line {   "   " Тук чудната цигулка }
+      \line {   "   " Тук нашата цигулка }
       \line {   "   " с нов тон ще зазвучи. }
 
       \line { " " }
@@ -125,7 +125,7 @@
     
       \line { 2. Otnovo shte se sreshtnem  }
       \line {   "   " pri rilskite ochi. }
-      \line {   "   " Tuk chudnata tsigulka }
+      \line {   "   " Tuk nashata tsigulka }
       \line {   "   " s nov ton shte zazvuchi. }
 
       \line { " " }

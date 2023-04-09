@@ -5,7 +5,7 @@
 
 \bookpart {
 
-     \label #'ref030
+  \label #'ref030
   \tocItem \markup "Изгрей ти, мое Слънце – Izgrey ti, moe Slantse"
   \include "include/bookpart-paper.ily"
   \score {
@@ -33,21 +33,19 @@
     \addlyrics {
       Из -- грей,
       из -- грей ти, мо -- е Слън -- це, за -- що --
-      то ча -- кам все -- ки ден; за теб коп -- не --
-      е мой -- то сър -- це и в~пъ -- тя си съм из
-      -- мо -- рен; ти но -- сиш ми Жи -- вот бла --
+      то ча -- кам все -- ки ден; за теб коп -- ней сър -- це то -- мо -- е и в~пъ -- тя си съм из
+       -- мо -- рен; ти но -- сиш ми Жи -- вот бла --
       жен. Жи -- вот бла -- жен, Жи -- вот бла -- жен,
       бла -- жен, бла -- жен, Жи -- вот бла -- жен; ти
       но -- сиш ми Жи -- вот бла -- жен.}
       \addlyrics {
-        Iz -- grey,
-        iz -- grey ti, mo -- e Slan -- tse, za -- shto --
-        to cha -- kam vse -- ki den; za teb kop -- ne --
-        e moy -- to sar -- tse i v~pa -- tya si sam iz
-        -- mo -- ren; ti no -- sish mi Zhi -- vot bla --
-        zhen. Zhi -- vot bla -- zhen, Zhi -- vot bla -- zhen,
-        bla -- zhen, bla -- zhen, Zhi -- vot bla -- zhen; ti
-        no -- sish mi Zhi -- vot bla -- zhen.}
+         Iz -- grey,
+      iz -- grey ti, mo -- e Slan -- tse, za -- shto --
+      to cha -- kam vse -- ki den; za teb kop -- ney sar -- tse to -- mo -- e i v~pa -- tya si sam iz
+       -- mo -- ren; ti no -- sish mi Zhi -- vot bla --
+      zhen. Zhi -- vot bla -- zhen, Zhi -- vot bla -- zhen,
+      bla -- zhen, bla -- zhen, Zhi -- vot bla -- zhen; ti
+      no -- sish mi Zhi -- vot bla -- zhen.}
 
         \header {
           title = \titleFunc "Изгрей ти, мое Слънце" "Izgrey ti, moe Slantse"

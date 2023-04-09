@@ -9,11 +9,12 @@
     \translate #'(0 . -5.6 )
     \right-brace #18
 
-    \translate #'(0 . -12.4 )
-    \right-brace #18
 
-    \translate #'(0 . -13 )
+    \translate #'(0 . -10 )
     \right-brace #45
+
+    \translate #'(0 . -14.9 )
+    \right-brace #18
 
 
 
@@ -23,10 +24,10 @@
     \translate #'(0 . -6.2 )
     2
 
-    \translate #'(0 . -14.2 )
+    \translate #'(0 . -12.2 )
     2
 
-    \translate #'(0 . -14.5 )
+    \translate #'(0 . -18.9 )
     2
 
 
@@ -128,7 +129,7 @@
       \line { "   " \italic {Припев ...} }
 
       \line { " " }
-      \line { 3. Любов Вселената облива, }
+      \line { 3. Любов вселената облива, }
       \line {   "   " от обич грее всяка твар; }
       \line {   "   " живот в живота се прелива, }
       \line {   "   " тук няма вече млад и стар. }
@@ -156,7 +157,7 @@
       \line { "   " \italic {Refrain ...} }
 
       \line { " " }
-      \line { 3. Lyubov Vselenata obliva, }
+      \line { 3. Lyubov vselenata obliva, }
       \line {   "   " ot obich gree vsyaka tvar; }
       \line {   "   " zhivot v zhivota se preliva, }
       \line {   "   " tuk nyama veche mlad i star. }

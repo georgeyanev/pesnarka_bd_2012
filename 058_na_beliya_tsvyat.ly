@@ -53,7 +53,7 @@
 
     \new Voice \absolute {
       \clef treble
-      \key c \major
+      \key a \minor
       \time 2/4
       \tempoFunc "Vivo" 4 "104"
 

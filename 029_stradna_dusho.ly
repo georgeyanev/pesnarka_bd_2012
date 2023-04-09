@@ -121,7 +121,7 @@
       \column {
 
 
-        \line {   4. Във подвизи – съвършенство}
+        \line {   4. В подвизи и съвършенство}
 
         \line {   "   " да познавам милостта Ти,}
 
@@ -149,7 +149,7 @@
 
 
 
-        \line {  4. Vav podvizi – savarshenstvo}
+        \line {  4. V podvizi i savarshenstvo}
 
         \line {   "   "da poznavam milostta Ti,}
 

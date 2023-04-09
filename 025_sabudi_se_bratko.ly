@@ -3,6 +3,34 @@
 % include paper part and global functions
 \include "include/globals.ily"
 
+"rightBraces025" = \markup {
+  \column {
+    % repeat braces
+ 
+
+
+    \translate #'(0 . -17.5 )
+    \right-brace #45
+
+ 
+
+
+
+  }
+  \column {
+    % repeat numbers
+  
+
+    \translate #'(0 . -17.9 )
+    2
+
+  
+
+
+  }
+}
+
+
 \bookpart {
     \label #'ref025
   \tocItem \markup "Събуди се братко мили – Sabudi se bratko mili"
@@ -76,7 +104,7 @@
       \line {   "   " в Мъдрост ще те посвети. }
       
     }
-
+  \"rightBraces025"
 
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
@@ -95,6 +123,7 @@
       \line { " " }
 
     } %column
+      \"rightBraces025"
   } % markup
 
   \pageBreak

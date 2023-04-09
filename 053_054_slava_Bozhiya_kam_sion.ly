@@ -25,7 +25,7 @@
 
     \new Voice \absolute  {
       \clef treble
-      \key d \major
+      \key b \minor
       \time 4/4
       \tempoFunc "Andantino" 4 "72"
       \autoBeamOff
@@ -67,7 +67,7 @@
 
     \new Voice \absolute  {
       \clef treble
-      \key g \minor
+      \key bes \major
       \time 2/4
 
       \tempoFunc "Tempo di marcia" 4 "112"

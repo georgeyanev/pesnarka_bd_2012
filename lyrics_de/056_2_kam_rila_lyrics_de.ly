@@ -18,7 +18,7 @@
     \line { " " }
     \line { 2. Wieder werden wir uns  }
     \line {   "   " bei den Rila-Augen treffen. }
-    \line {   "   " Hier wird die wunderbare Violine }
+    \line {   "   " Hier wird unsere Violine }
     \line {   "   " in neuem Klang ertönen. }
     \line { " " }
     \line { 3. Unsere Seelen – Geigen  }

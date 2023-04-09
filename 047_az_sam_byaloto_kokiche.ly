@@ -45,7 +45,7 @@
 
     \new Voice \absolute  {
       \clef treble
-      \key f \major
+      \key d \minor
       \time 3/8
       \tempoFunc "Allegretto" 8 "112"
       \autoBeamOff

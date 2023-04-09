@@ -3,20 +3,6 @@
 % include paper part and global functions
 \include "include/globals.ily"
 
-"rightBraces022" = \markup {
-  \column {
-    % repeat braces
-    \translate #'(0 . -20.1 )
-    \right-brace #20
-
-  }
-  \column {
-    % repeat numbers
-    \translate #'(0 . -20.7 )
-    2
-  }
-}
-
 \bookpart {
   \label #'ref022
   \tocItem \markup "Изгрява вече ден тържествен – Izgryava veche den tarzhestven"
@@ -99,7 +85,7 @@
 
       \line { " " }
       \line { "   " \italic {Припев: } }
-    }    \"rightBraces022"
+    }   
 
     \hspace #1
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
@@ -122,7 +108,7 @@
       \line { " " }
       \line { "   " \italic {Refrain: } }
     } %column
-    \"rightBraces022"
+  
   } % markup
 
 

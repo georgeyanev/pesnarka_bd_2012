@@ -12,7 +12,7 @@
 
     \new Voice \absolute {
       \clef treble
-      \key g \major
+      \key e \minor
       \time 2/4
       \tempoFunc "Tempo di marcia" 4 "100"
       \autoBeamOff
