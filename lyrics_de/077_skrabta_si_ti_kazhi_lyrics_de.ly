@@ -14,7 +14,17 @@
     \line { " " unter den Sonnenastrahlen,}
     \line { " " unter den Sonnenstrahlen.}
     \line { " " Die Sonnenstrahlen von Gott werden dir Güte bringen}
-    \line { " " und in die Seele Freude tragen,}
-    \line { " " und sie werden in die Seele Freude tragen.}
+    \line { " " und in deine Seele Freude tragen,}
+    \line { " " und in deine Seele Freude tragen,}
+    \line { " " und in deine Seele Freude tragen,}
+    \line { " " und in deine Seele Freude tragen,}
+    \line { " " und in deine Seele Freude tragen,}
+    \line { " " Freude werden sie hineintragen, Freude werden sie hineintragen, }
+    \line { " " Freude werden sie hineintragen, Freude werden sie hineintragen, }
+    \line { " " Freude werden sie hineintragen, Freude werden sie hineintragen, }
+    \line { " " Freude werden sie hineintragen, Freude werden sie hineintragen }
+    \line { " " und sie werden in deine Seele Freude tragen.}
   }
 }
+
+
