@@ -11,10 +11,10 @@
     \translate #'(0 . -3.9 )
     \right-brace #42
 
-    \translate #'(0 . -5.6 )
+    \translate #'(0 . -5.4 )
     \right-brace #20
 
-    \translate #'(0 . -5.2 )
+    \translate #'(0 . -5.0 )
     \right-brace #43
   }
   \column {
@@ -25,10 +25,10 @@
     \translate #'(0 . -4.5 )
     2
 
-    \translate #'(0 . -9.7 )
+    \translate #'(0 . -9.5 )
     2
 
-    \translate #'(0 . -7.2 )
+    \translate #'(0 . -7.0 )
     2
   }
 }
@@ -48,7 +48,6 @@
         \tempoFunc "Tempo di marcia" 4 "100"
         \autoBeamOff
 
-        \repeat volta 1 {
           a'4 b'8. a'16 | fis'4 d' | \noBreak
 
           <<
@@ -85,12 +84,9 @@
             }
           >>
           \oneVoice
-          | \break
-        }
-        \repeat volta 1 {
+          \bar ":|." | \break
           a8 d' d' d' | a8 fis' fis' fis' | fis'8. e'16 fis'8 g' |  a'2 \break |
-          b'8. b'16 b'8 b' | a'8 d'' a' g' |  fis'8 fis'8 e'8 e'8|  d'2 \break |
-        }
+          b'8. b'16 b'8 b' | a'8 d'' a' g' |  fis'8 fis'8 e'8 e'8|  d'2 \bar ":|." \break |
       }
 
       \new Lyrics \lyricsto "mainVoice" {
@@ -132,7 +128,7 @@
 
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+    %\hspace #1
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
@@ -163,7 +159,7 @@
       \line {   "   "дишай ти навред. }
     }
     \"rightBraces063"
-    \hspace #3
+    \hspace #1
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
