@@ -84,7 +84,7 @@
             }
           >>
           \oneVoice
-          \bar ":|." | \break
+          \bar ":|.|:" | \break
           a8 d' d' d' | a8 fis' fis' fis' | fis'8. e'16 fis'8 g' |  a'2 \break |
           b'8. b'16 b'8 b' | a'8 d'' a' g' |  fis'8 fis'8 e'8 e'8|  d'2 \bar ":|." \break |
       }
