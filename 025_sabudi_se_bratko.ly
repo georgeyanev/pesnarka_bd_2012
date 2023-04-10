@@ -144,7 +144,7 @@
       \line {   "   " нея в помощ призови: }
       \line {   "   " тя душата ти от гнета }
       \line {   "   " скоро ще освободи. }
-    }
+    } \"rightBraces025"
 
 
     \hspace #5
@@ -163,6 +163,7 @@
       \line {   "   " tya dushata ti ot gneta }
       \line {   "   " skoro shte osvobodi. }
     } %column
+     \"rightBraces025"
   } % markup
 
   \markup \empty-two
