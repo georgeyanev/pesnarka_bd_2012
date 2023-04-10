@@ -48,7 +48,7 @@
 
     \new Voice \absolute {
       \clef treble
-      \key d \major
+      \key b \minor
       \time 6/4
       \tempoFunc "Largo" 4 "40"
       \partial 4

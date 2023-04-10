@@ -12,7 +12,7 @@
 
     \new Voice \absolute  {
       \clef treble
-      \key g\minor
+      \key g \minor
       \time 3/4
       \tempoFunc "Adagio" 4 "54"
       \partial 4
@@ -65,7 +65,7 @@
 
       } % score
 
-      \markup \dc-two "D. C." "senza ripetizioni"
+      \markup \dc-two "D. C. al Fine" "senza ripetizioni"
 
       \pageBreak
 

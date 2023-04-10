@@ -25,7 +25,7 @@
 
       e8 d a b | c e c e c e \bar "!"  fis e d b  \bar "!"  \break
 
-      b d b d b d  \bar "!" b d b d | \time 4/4 b'b b b c b b a   \bar "!"  \break
+      b d b d b d  \bar "!" b d b \tempo "   Fine"  d  \bar "||" | \time 4/4 b'b b b c b b a   \bar "!"  \break
 
       a8 g g fis fis e e d | \time 3/4 c' b b a a g | g 4 g2 | \break
 
@@ -99,7 +99,7 @@
 
       } % score
 
-      \markup \dc-one "(D.C.)"
+      \markup \dc-one "D.C. al Fine"
 
       \pageBreak
 
