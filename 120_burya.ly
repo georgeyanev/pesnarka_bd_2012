@@ -15,9 +15,9 @@
       \time 6/8
       \tempoFunc "Lento" 4. "50"
       \autoBeamOff
-      bes8 ( [  des8 ) ]  c8  bes4. | a4  bes8 |
+      bes8 ( [  des8 ) ]  c8  bes4. | a4  bes8 
       \override TextScript.extra-offset = #'(2.5 . 2)
-      c4. f2.  | % 4
+      c4. | f2.  | % 4
       f8  ges8  f8  es8  des8
       c8 \break | % 5
       es4.  c4. ~ | % 6
@@ -29,7 +29,14 @@
       a2. | % 11
       des4.  des8  des8  des8 | % 12
       as'4.  ges4  f8 | % 13
-      f2.  | es2. | \bar "||" \break
+      f2. | \override TextScript.extra-offset = #'(8 . 5.2) es2._\markup {
+        \path #0.10 #'((moveto 0 0)
+          (lineto 0 2.75)
+          (moveto 0.5 0)
+          (lineto 0.5 2.75)
+          (closepath))
+      } 
+      \break
 
       \key as \major \time 3/4 | % 15
 
@@ -40,17 +47,17 @@
       f4. ~  f8  e8  f8 | % 21
 
       g4. ( ~  g8 [  f8 des8 ) ] | % 22
-      c4. ~  c4  c8 bes8 --  as8 --  bes8 -- |
+      c4. ~  c4  c8 | bes8 -- as8 --  bes8 --
       as4. f2. | \bar ":|.|:" \break  \key f \major
       \repeat volta 2 {
 
         \time 3/4 | % 25
 
-      \times 2/3 { a8  bes8  c8 } f,8.  f16 |  [ d'8 (bes8 ) ]
+      \tupletUp \times 2/3 { a8  bes8  c8 } f,8.  f16 d'8 [(bes8 )]
 
-        g2 |  
+       | g2  
 
-           \times 2/3 { e8 ( [  f8 )  g8 ]}
+           \times 2/3 { e8 [  (f8)  g8 ]}
         | % 27
 
        \time 4/4 c4  f,4   a4  g8.  g16 | \time 3/4 f2. 
@@ -69,7 +76,7 @@
       ря -- та мен  не раз -- би --
       ра,  но аз я раз -- би
       -- рам. Бу -- ря -- та ме раз --
-      търс  -- ва за  Доб -- ро --
+      търс  -- ва "за  Доб" -- ро --
       то, що е във мен.
     }
 
@@ -84,7 +91,7 @@
       rya -- ta men  ne raz -- bi --
       ra,  no az ya raz -- bi
       -- ram. Bu -- rya -- ta me raz --
-      tars  -- va za  Dob -- ro --
+      tars  -- va "za  Dob" -- ro --
       to, shto e vav men.
     }
 
