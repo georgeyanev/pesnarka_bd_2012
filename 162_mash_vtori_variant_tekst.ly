@@ -12,20 +12,20 @@
 
     \new Voice \relative c' {
       \clef treble
-      \key g \major
+      \key c \major
       \time 2/4
       \tempoFunc "Moderato " 4 "69"
 
       \autoBeamOff
 
 
-      g'8 \p b b d, | g8 b b d, | fis a a d, | fis a a d, | \break
+      c8 \p e e g, | c8 e e g, | b d d g, | b d d g, | \break
 
-      g8 b b d, | g8 b b d, |  fis a a d, |  fis a a d, | \break
+     c8 e e g, |c8 e e g, | b d d g, |  b d d g, | \break
 
-      d8. d16 e8. d16 | fis8 fis4 fis8 | d8.^\< d16 e8. d16 |  g8 g4  \! g8 |
+      g8.^\p g16 a8. g16 | b8 b4 b8 | g8.^\< g16 a8. g16 |  c8 c4  \! c8 | \break
 
-      \key d \minor  g4^\mf  d'4 (d4) d16 c bes a | g8 bes g bes |\break
+      \key d \minor  c4^\mf  g'4 (g4) g16 f e d | c8 e c e |\break
 
       g bes c16 bes a g |  f8 a f a | f a bes16 a g f | e8 a e a | e a d,16 e f e | d8 d4 d8 | \break
 
