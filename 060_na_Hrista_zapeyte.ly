@@ -173,7 +173,7 @@
 
       \line {   "   " и възкръсват ми в душата }
 
-      \line {   "   " тези Негови Слова. }
+      \line {   "   " тези Негови слова. }
     }
 
 
@@ -212,7 +212,7 @@
 
       \line {   "   " i vazkrasvat mi v dushata }
 
-      \line {   "   " tezi Negovi Slova. }
+      \line {   "   " tezi Negovi slova. }
     } %column
   } % markup
 
