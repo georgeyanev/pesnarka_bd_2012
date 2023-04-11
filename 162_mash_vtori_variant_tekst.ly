@@ -12,42 +12,42 @@
 
     \new Voice \relative c' {
       \clef treble
-      \key g \major
+      \key c \major
       \time 2/4
       \tempoFunc "Moderato " 4 "69"
 
       \autoBeamOff
 
 
-      g'8 \p b b d, | g8 b b d, | fis a a d, | fis a a d, | \break
+      c8 \p e e g, | c8 e e g, | b d d g, | b d d g, | \break
 
-      g8 b b d, | g8 b b d, |  fis a a d, |  fis a a d, | \break
+     c8 e e g, |c8 e e g, | b d d g, |  b d d g, | \break
 
-      d8. d16 e8. d16 | fis8 fis4 fis8 | d8.^\< d16 e8. d16 |  g8 g4  \! g8 |
+      g8.^\p g16 a8. g16 | b8 b4 b8 | g8.^\< g16 a8. g16 |  c8 c4  \! c8 | \break
 
-      \key d \minor  g4^\mf  d'4 (d4) d16 c bes a | g8 bes g bes |\break
+      \key g \minor  c4^\mf  g'4 (g4) g16 f es d |  c8\staccato es\staccato c\staccato es\staccato |\break
 
-      g bes c16 bes a g |  f8 a f a | f a bes16 a g f | e8 a e a | e a d,16 e f e | d8 d4 d8 | \break
+      c\staccato es\staccato f16 es d c | bes8\staccato d\staccato bes\staccato d\staccato | bes\staccato d\staccato es16 d c bes | a8\staccato d\staccato a\staccato d\staccato | a d g,16 a bes a | g8\staccato g4-- g8\staccato | \break
 
       \bar ".|:" \repeat volta 2 {
 
-        \time 5/4 a'8-_^\mf  a4-_ a8-_ (a8-_) a f'8-_ \acciaccatura { e8 ( [f8] } e8-_] ) d-_ bes-_ |
+        \time 5/4 d'8\staccato^\mf d4 d4 d8\staccato bes'8 a g\staccato es\staccato |
 
-        a8^\p  a (a) a4 a8 f'8 \acciaccatura { e8 ( [f8] } e8] ) d bes | \break
+        d8^\p  d4 d4 d8 bes'8 a8 g es | \break
 
-        a8^\mf  a4  a8 (a8) a g a bes d |
+        d8^\mf  d4  d4 d8 c d es g |
 
-        a^\mp  a (a) a4 a8 g8 a8 bes d | \break
+        d^\mp  d4 d4 d8 c8 d8 es g | \break
 
-        \time 3/4 a8 a4 a8 (a) a | \time 2/4 d,8 e f e |g f f e | \break
+        \time 3/4 d8 d4 d4 d8 | \time 2/4 g8 a bes a |c bes bes a | \break
 
-        e d16 e f8 e8 |
+        a g16 a bes8 a8 |
         \time 3/4
       }
 
       \alternative {
-        { d8 d4 d4 d8}
-        { d8 d4 d4 d'8\bar "|." }
+        { g8 g4 g4 g8}
+        { g8 g4 g4 g8\bar "|." }
       }
 
 
@@ -58,23 +58,23 @@
 
       Сли --  зат те в~ре -- ди -- ци бе -- ли от ви -- со -- ки -- те пре -- де -- ли.
 
-      Ид  -- ват на Зе -- мя -- та, на хо -- ра -- та в~сър -- ца -- та.
+      Ид  -- ват на Зе -- мя -- та, на хо -- ра -- та в~сър -- ца -- та
 
-      И е -- то "раж-" -- дат се и -- де -- и, свет --  ли, но -- ви,
+      и е -- то: __ "раж-" -- дат се и -- де -- и, свет --  ли, но -- ви,
 
       как да "смък-" -- нем теж -- ки -- те о -- ко -- ви на
 
-      "враж-" -- ди без -- смис -- ле -- ни, ве -- ков -- ни, в~мир да за -- жи -- ве -- ем.
+      "враж-" -- ди без -- смис -- ле -- ни, ве -- ков -- ни, в~мир да за -- жи -- ве -- ем
 
 
 
-      И все -- ки ще ра -- бо -- ти "с~ра-" -- дост на Бо -- жест -- ве -- на -- та ни -- ва,
+      и все -- ки ще ра -- бо -- ти "с~ра-" -- дост на Бо -- жест -- ве -- на -- та ни -- ва,
 
-      Ще ца -- ру -- ва веч -- на "мла-" -- дост, ня -- ма ни -- кой да у -- ми -- ра.
+      ще ца -- ру -- ва веч -- на "мла-" -- дост, ня -- ма ни -- кой да у -- ми -- ра,
 
-      В~мир, в~Лю -- бов ще за -- жи -- ве -- ем
+      в~мир, в~Лю -- бов ще за -- жи -- ве -- ем
 
-      всич -- ки друж -- но и ще про -- сла -- вим Бо -- га с~пе -- сен. Свет -- ли -- на -- та.
+      всич -- ки друж -- но и ще про -- сла -- вим Бо -- га с~пе -- сен. Свет -- ли -- на -- та!
 
 
 
@@ -89,23 +89,23 @@
 
       Sli --  zat te v~re -- di -- tsi be -- li ot vi -- so -- ki -- te pre -- de -- li.
 
-      Id  -- vat na Ze -- mya -- ta, na ho -- ra -- ta v~sar -- tsa -- ta.
+      Id  -- vat na Ze -- mya -- ta, na ho -- ra -- ta v~sar -- tsa -- ta
 
-      I e -- to razh -- dat se i -- de -- i, svet --  li, no -- vi,
+      i e -- to: razh -- dat se i -- de -- i, svet --  li, no -- vi,
 
       kak da "smak-" -- nem tezh -- ki -- te o -- ko -- vi na
 
-      vrazh -- di bez -- smis -- le -- ni, ve -- kov -- ni v~mir da za -- zhi -- ve -- em.
+      vrazh -- di bez -- smis -- le -- ni, ve -- kov -- ni v~mir da za -- zhi -- ve -- em
 
 
 
-      I vse -- ki ste ra -- bo -- ti s~ra -- dost na Bo -- zhest -- ve -- na -- ta ni -- va.
+      i vse -- ki ste ra -- bo -- ti s~ra -- dost na Bo -- zhest -- ve -- na -- ta ni -- va,
 
-      Shte tsa -- ru -- va vech -- na mla -- dost, nya -- ma ni -- koy da u -- mi -- ra.
+      shte tsa -- ru -- va vech -- na mla -- dost, nya -- ma ni -- koy da u -- mi -- ra.
 
-      V~mir, v~Lyu -- bov shte za -- zhi -- ve -- em
+      v~mir, v~Lyu -- bov shte za -- zhi -- ve -- em
 
-      vsich -- ki druzh -- no i shte pro -- sla -- vim Bo -- ga s~pe -- sen. Svet -- li -- na -- ta.
+      vsich -- ki druzh -- no i shte pro -- sla -- vim Bo -- ga s~pe -- sen. Svet -- li -- na -- ta!
 
 
 
@@ -125,7 +125,7 @@
 
       " " " " " " " " " " " " " " " " " "    " " " " " " " " " " " " " " " " " " " " " " " " " " " "
 
-      "2.  Но"   -- ви пе -- сни ще за -- пе -- ем, за хар -- мо -- ни -- я "все-" -- "мир-" -- на.
+      "2.  Но-"   -- ви пе -- сни ще за -- пе -- ем, за хар -- мо -- ни -- я "все-" -- "мир-" -- на.
 
       Нов жи -- вот ще за -- жи -- ве -- ем, тя -- ло -- то ни ще про -- свет -- не
 
