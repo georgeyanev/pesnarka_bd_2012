@@ -79,7 +79,7 @@
       b8 b4 b8 | % 11
       g8. [g16] a8. [g16] | % 12
       c'8 c'4 c'8 \bar "||"
-      \key es \major c'4 g'4 ( \break | % 14
+      \key c \minor c'4 g'4 ( \break | % 14
       g'4 ) g'16 [( f'16 es'16 d'16 )] | % 15
       c'8 [es'8] c'8 [es'8] | % 16
       c'8 [es'8] f'16 [( es'16 d'16 c'16 )] | % 17
@@ -89,7 +89,7 @@
       a8 [d'8] g16 ([ a16 bes16 a16 ]) | % 21
       g8 g4 g8 \bar "||"
       \break | % 22
-      \key bes \major \time 5/4
+      \key g \minor \time 5/4
       \bar ".|:" \repeat volta 2 {
         d'8 d'4 d'4 d'8 bes'8[ \acciaccatura { a'16 ( [bes'16] } a'8] ) g'8
         [es'8] | % 23
