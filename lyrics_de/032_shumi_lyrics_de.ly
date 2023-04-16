@@ -65,7 +65,7 @@
 
     \line {   "   " "   " muntere die Welt auf! }
 
-    \line {   "   "Bei reinen Gedanken und zarten Gefühlen }
+    \line {   "   "Bei reinen Gedanken, zarten Gefühlen }
 
     \line {   "   "erblühen die göttlichen Künste;}
 
