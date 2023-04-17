@@ -59,7 +59,7 @@
     \line {   "   " sie erfüllen unsere Herzen }
     \line {   "   " und flüstern uns süß zu, wie Er ruft: }
     \line {   "   " „Kommt, meine Kinder!“}
-    \line { "   " \italic { Refrain :}  }
+    \line { "   " \italic { Refrain:}  }
 
   }
 }

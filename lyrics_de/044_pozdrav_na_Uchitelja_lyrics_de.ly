@@ -18,7 +18,7 @@
     \line { "   " hast du Frieden und Licht gebracht.}
     \line { "   " }
 
-    \line { "   " \italic { Refrain :}  }
+    \line { "   " \italic { Refrain:}  }
 
     \line { "   " Sei willkommen, sei willkommen,}
 
