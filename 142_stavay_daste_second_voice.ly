@@ -33,22 +33,51 @@
   \score {
     \include "include/score-layout.ily"
 
+    <<
+      \new Lyrics = "tempVoiceLyricsBG" \with {
+        % lyrics above a staff should have this override
+        \override VerticalAxisGroup.staff-affinity = #DOWN
+      }
+      \new Lyrics = "tempVoiceLyricsEN" \with {
+        \override VerticalAxisGroup.staff-affinity = #DOWN
+      }
 
-     \new Voice \absolute {
+    \new Voice = "mainVoice" \absolute {
       \clef treble
     
       \key ges \major
   
       \time 4/4
       \tempoFunc "Andante" 4 "66"
-     
+      \autoBeamOff
       \partial 4
       d'8. es'16 | % 2
-      f'2 as'4 ges'8. f'16 | ges'2. f'8.es'16 | f'4 es'8. \( d'16 \) es'4 d'8. ces'16 | \break
-      ces'2. d'8. es'16 | \time 3/4 f'2 es'8. [( d'16 )] | % 7
-      es'2 \autoBeamOff  d'8. ces'16 | % 8
+      f'2 as'4 \phrasingSlurDown \phrasingSlurDashed ges'8. \(
+      <<
+        % now temporary add a second voice
+        {
+          \voiceTwo % this voice is in the same context as parent
+          \hideNotes f'16 \) \unHideNotes \phrasingSlurNeutral | % 3
+          \stemUp ges'2 \stemNeutral
+        }
+        \new Voice = "tempVoice" {
+          % this is a new voice context
+          \voiceOne \autoBeamOff
+          f'16 | % 3
+          \stemDown ges'4 ges'4 \stemNeutral
+        }
+      >>
+      \oneVoice
+
+      f'8. 
+      
+      es'16 f'4 \break | % 4
+      \time 3/4 \phrasingSlurDashed es'8. \( d'16 \) \phrasingSlurNeutral es'4 d'8. ces'16 | % 5
+      ces'2 d'8. es'16 | % 6
+      f'2 \slurDashed es'8. [( d'16 )] \slurNeutral \break | % 7
+      es'2 d'8. ces'16 | % 8
       ces'4 bes2 | % 9
-       as2 r4 \break |
+      \time 2/4  as2 \break |
       \time 8/16  |
       \tempo "Allegretto" \slurSolid g8 [( as16 )] bes8 ( ces'8. ) | % 11
       d'8. es'8 ~ es'8. | % 12
@@ -68,36 +97,26 @@
       d'8. es'8 ~ es'8. \break | % 26
       f'8 es'16 d'8 ces'8. | % 27
       d'8 ces'16 d'8 ces'8. | % 28
-      bes8 [( as16 )] bes8 ~ bes8. \bar "||"
-      \time 4/4 r2 r4 \autoBeamOn d'8. es'16 | \autoBeamOff f'2 as'4 ges'8. f'16 | \break
-      ges'2. f'8.es'16 | f'4 es'8. \( d'16 \) es'4 d'8. ces'16 |
-      ces'2. d'8. es'16 | f'4 
+      bes8 [( as16 )] bes8 ~ bes8. \bar "|."
     }
    
    
-    \addlyrics {
-      "1.В~ле-" -- тен
+   \new Lyrics \lyricsto "mainVoice" {
+      "1.В~ле" -- тен
       ден, в~ран -- ни зо -- ри май -- ка ми ти -- хо се при --
-      бли -- жи. "С~сла-" -- дък глас бла -- га ду -- ма ми
+      бли -- жи. Сла -- дък глас бла -- га ду -- ма ми
       ка -- за: „Ста -- вай, дъ -- ще, на ни -- ва
       тряб -- ва да се хо -- ди. Ста -- вай, че ба --
       ща ти вън -- ка мен и те -- бе със ко -- ла --
       та ча -- ка. Ста -- вай, че "ба-" -- ща ти вън --
       ка мен и те -- бе със ко -- ла -- та ча --
-      ка.“ "Слън-" -- це -- то ко -- га из -- грей,
-      ти на ни -- ва -- та тряб -- ва да си.
-      С’ сърп в ръ -- ка, с пе -- сен ти
-      де -- ня срещ -- ни. Ста -- вай, дъ -- ще,
-      Слън -- це до -- ма да не те за -- ва -- ри.
-      Ста -- вай, че мо -- ми и мом -- ци –
-      вси към ни -- ва -- та са веч тръг -- на -- ли.
-         
+      ка.“
    }
 
-   \addlyrics {
+   \new Lyrics \lyricsto "mainVoice" {
         "1.V~le" -- ten
         den, v~ran -- ni zo -- ri may -- ka mi ti -- ho se pri --
-        bli -- zhi. S~sla -- dak glas bla -- ga du -- ma mi
+        bli -- zhi. Sla -- dak glas bla -- ga du -- ma mi
         ka -- za: „Sta -- vay, da -- shte, na ni -- va
         tryab -- va da se ho -- di. Sta -- vay, che "ba-" --
         shta ti van -- ka men i te -- be sas ko -- la --
@@ -106,6 +125,19 @@
         ka.“
    }
 
+   \context Lyrics = "tempVoiceLyricsBG" {
+     \lyricsto "tempVoice" {
+       "(3) жи" -- во -- тът
+     }
+   }
+   
+   \context Lyrics = "tempVoiceLyricsEN" {
+     \lyricsto "tempVoice" {
+       "(3) zhi" -- vo -- tat
+     }
+   }
+
+   >>
 
     \header {
       title = \titleFunc "Ставай, дъще!" "Stavay, dashte"
@@ -124,7 +156,14 @@
     \hspace #-1
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
-
+          \line {   2. Слънцето щом изгрей,}
+          \line {   "   " ти на нивата трябва да си.}
+          \line {   "   " С’ сърп в ръка, с песен ти}
+          \line {   "   " деня срещни. Ставай, дъще,}
+          \line {   "   " Слънце дома да не те завари.}
+          \line {   "   " Ставай, че моми и момци –}
+          \line {   "   " вси към нивата са веч тръгнали.}
+          \line {   "   " }
           \line {   3.  Нива е, дъще, животът,}
           \line {   "   " де доброто семе се сей.}
           \line {   "   " Кат израсне, живот внася}
