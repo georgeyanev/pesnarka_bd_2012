@@ -28,10 +28,10 @@
       }
       \alternative {
         {  a'4. e'8 | }
-        {  a'4\fermata b4 \tempoFunc "Andante sustenuto" 4 "63" }
+        {  a'4\fermata a4 \tempoFunc "Andante sustenuto" 4 "63" }
       }
 
-      \key c \major \time 4/4 \repeat volta 2 {
+      \key a \minor \time 4/4 \repeat volta 2 {
         c'2 b4 a |  \tuplet 3/2 { gis8 [ ( a b ) ] } a2 e'4 | \break
 
         \time 3/4 f'4 e' \tuplet 3/2 { dis'8 [ ( e' )  ] f' } | e'2 e'8 e'8 | \time 2/4 a'4 b'4 | \time 4/4 c''4 b' a' \tuplet 3/2 { gis'8 [ ( a' b' ) ] } | \break

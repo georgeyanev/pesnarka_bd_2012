@@ -12,7 +12,7 @@
 
     \new Voice \relative c' {
       \clef treble
-      \key des \major
+      \key bes \minor
       \time 2/4
       \tempoFunc "Larghetto" 4 "56"
       \autoBeamOff
@@ -28,7 +28,7 @@
       \time 2/4  | % 7
       f2 \break | % 8
       es4.  f8 | % 9
-      ges8  ges8  as8  bes8 |
+      ges8  ges8  as8 bes8 |
       \barNumberCheck #10
       f2 | % 11
       \time 3/4  | % 11

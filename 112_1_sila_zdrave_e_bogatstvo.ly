@@ -79,7 +79,7 @@
 
   } % score
 
-  \markup \dc-two "D.C. al Fine" "con ripetizione"
+  \markup \dc-two "D.C. al Fine" "senza ripetizione"
   
 
   % include foreign translation(s) of the song

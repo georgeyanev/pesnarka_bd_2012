@@ -29,13 +29,13 @@
       | d'4 d'8 | c'8 ( d'8 ) c'8 \noBeam | bes4. ~ | bes4. |  d'4 d'8 | \tempo "rit." c'8 [( d'8 )] \noBeam c'8 | bes4. ~ |
       \tempo "     Fine" bes4. \bar "|." \break
 
-      d'8. \noBeam d'16 \noBeam d'8 |  f'8.\noBeam f'16 \noBeam f'8 | g'4 d'8 | f'4 es'8 |  es'4. ~ | \break
+       \tempo "a tempo" d'8. \noBeam d'16 \noBeam d'8 |  f'8.\noBeam f'16 \noBeam f'8 | g'4 d'8 | f'4 es'8 |  es'4. ~ | \break
 
       es'4. | g'8.\noBeam g'16 \noBeam g'8 | c''8. \noBeam bes'16 \noBeam  bes'8 | a'4 g'8 | g'4 f'8 | \break
 
       bes'4. ~ | bes'4. | f'4 d'8 | f'4 f'8 | f'4. ~ | f'4. |  \break
 
-      f'4 f'8 |f'4  f'8 | f'4. ~ |  f'4. \bar "||" \key des \major \time 2/4 |
+      f'4 f'8 |f'4  f'8 | f'4. ~ |  f'4. \bar "||" \key bes \minor \time 2/4 |
 
       \tempoFunc "Andante" 4 "60"
       

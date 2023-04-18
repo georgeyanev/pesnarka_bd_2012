@@ -13,7 +13,7 @@
 
     \new Voice \relative c' {
       \clef treble
-      \key d \minor
+      \key f \major
       \time 6/8
       \tempoFunc "Allegretto" 4. "84"
 
@@ -32,7 +32,7 @@
       }
       c2 \tuplet 3/2 { g4 g8} | c2 \tuplet 3/2 { a4 a8 } | d4 (c) \tupletUp \tuplet 3/2 { b b8 } | \tupletNeutral \break
 
-      c2 \mark \markup { \bold \fontsize #-2 { "Fine" } } \bar "!!" a8 ( f8 ) \autoBeamOff \repeat volta 2 {
+      c2 \mark \markup { \bold \fontsize #-2 { "Fine" } } \bar "!!" \key d \minor a8 ( f8 ) \autoBeamOff \repeat volta 2 {
         e4 d a8. a16 | \time 2/4 d4. f8 | \break
         e4 a,8. a16 | d8 [(e8)] f8 e |
       }

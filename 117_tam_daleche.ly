@@ -26,7 +26,7 @@
 
         e'2 | e'4 b8. d'16 | c'2 | e'4 d'8. f'16 | e'4. a'8 | d'4. g'8 \break |
 
-        f'4 e'8 d'8 | c'4. b8 | a4. e'8 | a4. d'8 | c'4. b8 \break |
+        f'4 e'8 d'8 | c'4. b8 |   \key a \minor a4. e'8 | a4. d'8 | c'4. b8 \break |
 
         a4 a8. a16 | a2 \bar ":|.|:"
        | \time 5/4 
