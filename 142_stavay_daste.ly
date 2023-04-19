@@ -68,13 +68,16 @@
       d'8. es'8 ~ es'8. \break | % 26
       f'8 es'16 d'8 ces'8. | % 27
       d'8 ces'16 d'8 ces'8. | % 28
-      bes8 (as16)  bes8 ~ bes8. \bar "||"
-      \time 4/4 r2 r4 \autoBeamOn d'8. es'16 | \autoBeamOff f'2 as'4 ges'8. f'16 | \break
-      ges'2. f'8.es'16 | f'4 es'8. d'16  es'4 d'8. ces'16 |
-      ces'2. d'8. es'16 | f'4 \autoBeamOn es'8. (d'16 ) es'2 | \break
-      \time 3/4 \autoBeamOff d'8. ces'16 ces'4 bes8. as16 | as2 r4 | \time 8/16
-
-      \tempo "Allegretto" \autoBeamOn g8 [(as16 )] bes8 (ces'8. ) | d'8. es'8 (es'8.) | \break  
+      bes8 (as16)  bes8 ~ bes8. \bar "||" \break
+      \time 4/4 r2 r4 \autoBeamOn d'8. es'16 | \autoBeamOff f'2 as'4 ges'8. f'16 | 
+      ges'2. f'8.es'16 | \break
+      
+       f'4 es'8. d'16  es'4 d'8. ces'16 |
+      ces'2. d'8. es'16 | \break
+       f'4 \autoBeamOn es'8. (d'16 ) es'2 | 
+      \time 3/4 \autoBeamOff d'8. ces'16 ces'4 bes8. as16 | as2 r4 | \break
+      
+      \time 8/16 \tempo "Allegretto" \autoBeamOn g8 [(as16 )] bes8 (ces'8. ) | d'8. es'8 (es'8.) |
       
       f'8 [(es'16)] d'8 ces'8. | d'8 ces'16 d'8 ces'8. | bes8 [(as16)] bes8 (bes8.) \break
 
@@ -92,6 +95,8 @@
       f'8 es'16 d'8 ces'8. | % 27
       d'8 ces'16 d'8 ces'8. | % 28
       bes8 [( as16 )] bes8 ~ bes8. | \break
+
+      \pageBreak
 
       \time 4/4 r2 r4 \autoBeamOn d'8. es'16 | \autoBeamOff f'2 as'4 ges'8. f'16 |
       ges'2. f'8.es'16 | f'4 es'8. d'16  es'4 d'8. ces'16 | \break
@@ -126,36 +131,52 @@
       ща ти вън -- ка мен и те -- бе със ко -- ла --
       та ча -- ка. Ста -- вай, че "ба-" -- ща ти вън --
       ка мен и те -- бе със "ко-" -- ла -- та ча --
-      ка.“ "Слън-" -- це -- то ко -- га из -- грей,
+      ка. "Слън-" -- це -- то ко -- га из -- грей,
       ти на ни -- ва -- та тряб -- ва да си.
-      "С~сърп" "в~ръ-" -- ка, с~пе -- сен ти
-      де -- ня за -- поч -- ни. Ста -- вай, дъ -- ще,
+      "С~сърп" в~ръ -- ка, с~пе -- сен ти
+      де -- ня за -- поч -- ни. Ста -- вай, дъ -- ще, __
       Слън-це до -- ма да не те за -- ва -- ри.
-      Ста -- вай, __ че мо -- ми и мом -- ци вси към ни -- ва -- та са веч тръг -- на -- ли.
-      Ста -- вай, __ че мо -- ми и мом -- ци вси към ни -- ва -- та са веч тръг -- на -- ли.
+      Ста -- вай, __ че мо -- ми и мом -- ци __ вси към ни -- ва -- та са веч тръг -- на -- ли. __
+      Ста -- вай, __ че мо -- ми и мом -- ци __ вси към ни -- ва -- та са веч тръг -- на -- ли. __
 
       Ни -- ва е, дъ -- ще, Жи -- во -- тът,
       де доб -- ро -- то се -- ме се сей.
-      Кат' из -- рас -- не, жи -- вот вна -- ся
-      то във нас. Ста -- вай, дъ -- ще,
-      Лю -- "бов-" -- та днес мен и те -- бе ча -- ка.
+      Кат' из -- рас -- не, "Жи-" -- вот вна -- ся
+      то във нас. Ста -- вай, дъ -- ще, __
+      Лю -- "бов-" -- та днес мен и те -- бе ча -- ка. __
       Ста -- вай! __ Тя ни но -- си
-      свой -- та но -- ва, жи -- ва пре -- мя -- на. __
-      Ста -- вай! __ Че жи -- во -- тът вън -- ка __ мен
-      и те -- бе с~бла -- гост ве -- че ча -- ка.“
+      свой -- та __ но -- ва, __ жи -- ва пре -- мя -- на. __
+      Ста -- вай! __ Че Жи -- во -- тът вън -- ка __ мен
+      и те -- бе с~бла -- гост ве -- че ча -- ка. __“
 
     }
 
     \addlyrics {
-      "1.V~le" -- ten
+       "1.V~le-" -- ten
       den, v~ran -- ni zo -- ri may -- ka mi ti -- ho se pri --
-      bli -- zhi. S~sla -- dak glas bla -- ga du -- ma mi
+      bli -- zhi. "S~sla-" -- dak glas bla -- ga du -- ma mi
       ka -- za: „Sta -- vay, da -- shte, na ni -- va
-      tryab -- va da se ho -- di. Sta -- vay, che "ba-" --
+      tryab -- va da se ho -- di. Sta -- vay, che ba --
       shta ti van -- ka men i te -- be sas ko -- la --
       ta cha -- ka. Sta -- vay, che "ba-" -- shta ti van --
-      ka men i te -- be sas ko -- la -- ta cha --
-      ka.“
+      ka men i te -- be sas "ko-" -- la -- ta cha --
+      ka. "Slan-" -- tse -- to ko -- ga iz -- grey,
+      ti na ni -- va -- ta tryab -- va da si.
+      "S~sarp" v~ra -- ka, s~pe -- sen ti
+      de -- nya za -- poch -- ni. Sta -- vay, da -- shte, __
+      Slan-tse do -- ma da ne te za -- va -- ri.
+      Sta -- vay, __ che "mo-" -- mi i mom -- tsi __ vsi kam ni -- va -- ta sa vech trag -- na -- li. __
+      Sta -- vay, __ che mo -- mi i mom -- tsi __ vsi kam ni -- va -- ta sa vech trag -- na -- li. __
+
+      Ni -- va e, da -- shte, Zhi -- vo -- tat,
+      de dob -- ro -- to se -- me se sey.
+      Kat' iz -- ras -- ne, "Zhi-" -- vot vna -- sya
+      to vav nas. Sta -- vay, da -- shte, __
+      Lyu -- "bov-" -- ta dnes men i te -- be cha -- ka. __
+      Sta -- vay! __ Tya ni no -- si
+      svoy -- ta __ no -- va, __ zhi -- va pre -- mya -- na. __
+      Sta -- vay! __ Che Zhi -- vo -- tat van -- ka __ men
+      i te -- be s~bla -- gost ve -- che cha -- ka. __“
     }
 
 
@@ -172,7 +193,7 @@
 
 
 
-  \markup \empty-two
+\pageBreak
 
   % include foreign translation(s) of the song
   \include "lyrics_de/142_stavai_daste_lyrics_de.ly"
