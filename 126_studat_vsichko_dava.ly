@@ -62,7 +62,7 @@
       \time 2/4  | % 26
       d'2 \bar "||"
 
-      \key f \major | % 27
+      \key d \minor | % 27
       \tempo "Tempo I" a4  d'8 ( [  e'8 ) ] | % 28
       f'4  d'4 | % 29
       cis'8 ( [  d'8 ]  e'4 ) |
@@ -226,7 +226,7 @@
       \break % 104
      
       \time 2/4
-      \key f \major  % 104
+      \key d \minor  % 104
       \tempoFunc "Andante" 4 "66"
       \times 2/3  {
         d'8 ( [  e'8  fis'8^\markup \fontsize #-1 {\parenthesize \natural} ]

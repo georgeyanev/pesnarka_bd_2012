@@ -11,7 +11,7 @@
 
     \new Voice \relative c' {
       \clef treble
-      \key c \major
+      \key a \minor
       \time 3/4
       \tempoFunc "Andante" 4 "60"
       \autoBeamOff
@@ -144,10 +144,10 @@
       e4. \fermata
       d8 \tempo "rit." e16  d16 c16  b16
       a8 gis8 | 
-      \time 3/4
+      \time 2/4
       \override TextScript.extra-offset = #'(3 . 3.0)      
-      a2.-\markup \bold \fontsize #+2 {")"}
-      r4 \bar "|."
+      a2-\markup \bold \fontsize #+2 {")"}
+       \bar "|."
     }
 
     \addlyrics {
@@ -181,7 +181,7 @@
       ли -- ки -- я Жи -- вот. Лю  --
       бов -- та ед -- нак -- во и две --
       те це -- ни. Скръб и Ра -- дост
-      са ед -- но, скръб и Ра -- дост
+      все ед -- но, скръб и Ра -- дост
       са ед -- но, Лю -- бов -- та щом
       в~тях ца -- ри. Прав -- да -- та
       в~скръб -- та се це -- ни, а Доб
@@ -224,7 +224,7 @@
         li -- ki -- ya Zhi -- vot. Lyu  --
         bov -- ta ed -- nak -- vo i dve --
         te tse -- ni. Skrab i Ra -- dost
-        sa ed -- no, skrab i Ra -- dost
+        vse ed -- no, skrab i Ra -- dost
         sa ed -- no, Lyu -- bov -- ta shtom
         v~tyah tsa -- ri. Prav -- da -- ta
         v~skrab -- ta se tse -- ni, a Dob
