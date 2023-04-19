@@ -11,7 +11,7 @@
 
     \new Voice \relative c' {
       \clef treble
-      \key c \minor
+      \key es \major
       \time 3/4
       \tempoFunc "Andante" 4 "56"
       \autoBeamOff

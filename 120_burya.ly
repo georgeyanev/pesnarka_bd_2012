@@ -11,7 +11,7 @@
 
     \new Voice \relative c' {
       \clef treble
-      \key des \major
+      \key bes \minor
       \time 6/8
       \tempoFunc "Lento" 4. "50"
       \autoBeamOff
@@ -38,7 +38,7 @@
       } 
       \break
 
-      \key as \major \time 3/4 | % 15
+      \key f \minor \time 3/4 | % 15
 
       \bar ".|:" \tempoFunc "            Più mosso" 4 "66" f8.  f16  f4  c'4 | % 16
 

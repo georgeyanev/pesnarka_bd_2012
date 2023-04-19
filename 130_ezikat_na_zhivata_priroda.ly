@@ -12,7 +12,7 @@
 
     \new Voice \absolute {
       \clef treble
-      \key d \minor
+      \key f \major
       \time 3/4
       \tempoFunc "Andante" 4 "63"
       \autoBeamOff
@@ -52,7 +52,7 @@
       g'4.  f'16 ( [  e'16 ) ] \break | % 16
       f'8 ( [  e'8 ) ]  f'8 ( [  e'8 ) ] | % 17
       d'2 ^\fermata \bar "||"
-      \key bes \major | % 18
+      \key g \minor | % 18
       g'8  a'4  g'8 | % 19
       fis'4  es'8 ( [  d'8 ) ] |
       es'8  fis'4  es'16 [(   d'16 )] |  \break % 21

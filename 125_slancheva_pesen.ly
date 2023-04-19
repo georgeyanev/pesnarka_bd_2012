@@ -11,7 +11,7 @@
 
     \new Voice \relative c' {
       \clef treble
-      \key c \minor
+       \key es \major
       \time 2/4
       \tempoFunc "Allegretto" 4 "92"
       \autoBeamOff

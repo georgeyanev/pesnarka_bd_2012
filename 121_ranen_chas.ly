@@ -77,7 +77,7 @@
       des4  c4 | % 34
       ges'2 | % 35
       \time 3/4  | % 35
-      \tuplet 3/2 { f8 \tempo "rit.               " es des } des4 \fermata  c8. bes16 | \time 2/4 bes2 \bar "|." \break
+      \tuplet 3/2 { f8 \tempo "rit.               " es des } des4 \fermata  c8. bes16 | \time 2/4 bes2 \fermata \bar "|." \break
     }
 
     \addlyrics {
