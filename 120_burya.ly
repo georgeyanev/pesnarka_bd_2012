@@ -27,8 +27,8 @@
       \acciaccatura {  bes16[c16] }  bes2.
       \break |
       a2. | % 11
-      des4.  des8  des8  des8 | % 12
-      as'4.  ges4  f8 | % 13
+      des4.  f8  f8  f8 | % 12
+      as4.  ges4  f8 | % 13
       f2. | \override TextScript.extra-offset = #'(8 . 5.2) es2._\markup {
         \path #0.10 #'((moveto 0 0)
           (lineto 0 2.75)

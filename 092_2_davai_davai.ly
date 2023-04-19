@@ -41,7 +41,7 @@
 
       Да се се -- е на ни -- ва -- та, на ни -- ва -- та кра -- си -- ва -- та.
 
-      Да се чи -- сти през зи -- ма -- та.
+      Да се чис -- ти през зи -- ма -- та.
 
       Да се рад -- ва на жи -- во -- та
 
@@ -61,15 +61,15 @@
 
       Da se se -- e na ni -- va -- ta, na ni -- va -- ta kra -- si -- va -- ta.
 
-      Da se chi -- sti prez zi -- ma -- ta.
+      Da se chis -- ti prez zi -- ma -- ta.
 
       Da se rad -- va na zhi -- vo -- ta
 
       vsich -- ko sya -- to na po -- le -- to,
 
-      na po -- le -- to ot He -- be -- to,
+      na po -- le -- to ot Ne -- be -- to,
 
-      na po -- le -- to ot He -- be -- to.
+      na po -- le -- to ot Ne -- be -- to.
 
     }
 

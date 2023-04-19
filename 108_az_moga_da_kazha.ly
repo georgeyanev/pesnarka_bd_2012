@@ -18,7 +18,7 @@
       \tempoFunc "Moderato" 4 "72"
 
       \autoBeamOff
-      c4 e8. f16 | g4 e | \time 3/4 a4 g8 f8 e4 | \time 2/4 g8 f e f | \break
+      c4 e8. f16 |\time 3/4  g4 e  a4 |\time 2/4  g8 f8 e4 |  g8 f e f | \break
 
       g2 | c4 b8 a8 | a4. (b8) | g4. b8 | d8 f, a g | \break
 
@@ -28,7 +28,7 @@
       \time 3/4  b4  f4  a8.  b16 | \time 2/4  | c2 | c4  b8  a8 | a4. (  b8 ) \break |
 
       g4.  e8 |  g8  f8  e8  d8 | c2
-      | \bar ".|:" a'4  e4 \break |
+      | \bar ".|:"  \key a \minor a'4  e4 \break |
       a4  b8 ( [  c8 ) ] | a2 | b4  c4 | a2 | d4  e4 \break |
       c4  a4 | b4  d8  c8 | b4  a4 ^\fermata
 

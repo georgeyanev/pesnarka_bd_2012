@@ -14,7 +14,7 @@
       \clef treble
       \key c \major
       \time 4/4
-      \tempoFunc "Andante" 4 "60"
+      \tempoFunc "Andante" 4 "68"
 
       \autoBeamOff
 

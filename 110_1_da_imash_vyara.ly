@@ -59,7 +59,7 @@
 
       } % score
 
-      \markup \dc-one "D.C."
+      \markup \dc-one "D.C. con repitione"
       
 
       % include foreign translation(s) of the song

@@ -36,7 +36,7 @@
 
       d''2 c''4 | b' a' g'4 | \time 5/4 fis' g' a' g'2 \breathe | \time 6/4 e'2 c'4 ( e' ) d'2 | \break
 
-      g'2 a'4 ( g' ) g'2 | \time 3/4  c''2 b'4 \tempo "rit." | a' g' f'8 ( g' ) | \time 4/4 e'4 d' c'8 ( b c' d' ) | \time 3/4  c'2. \bar "|."
+      g'2 a'4 ( g' ) g'2 | \time 3/4  c''2 b'4 \tempo "rit." | a' g' f'8 ( g' ) | \time 4/4 e'4 d' c'8 ( b c' d' ) | \time 3/4  c'2 \bar "|."
     }
 
     \addlyrics {
@@ -47,7 +47,7 @@
       -- ни -- ци о -- чер -- та -- ва -- ше, на При --
       ро -- да гра -- ни -- ци о -- чер -- та -- ва --
       ше. В~ду -- ша ми мо -- щен Дух про -- бу --
-      ди,  в_ду -- ша ми мо -- щен Дух про -- бу --
+      ди,  в~ду -- ша ми мо -- щен Дух про -- бу --
       ди и в~сър -- це ми Лю -- бов съ -- бу -- ди,
       и в~сър -- це ми Лю -- бов съ -- бу -- ди, съ --
       бу -- ди, съ -- бу -- ди, и в~сър -- це ми Лю --
@@ -60,7 +60,7 @@
       -- ni -- tsi o -- cher -- ta -- va -- she, na Pri --
       ro -- da gra -- ni -- tsi o -- cher -- ta -- va --
       she. V~du -- sha mi mo -- shten Duh pro -- bu --
-      di,  v_du -- sha mi mo -- shten Duh pro -- bu --
+      di,  v~du -- sha mi mo -- shten Duh pro -- bu --
       di i v~sar -- tse mi Lyu -- bov sa -- bu -- di,
       i v~sar -- tse mi Lyu -- bov sa -- bu -- di, sa --
       bu -- di, sa -- bu -- di, i v~sar -- tse mi Lyu --

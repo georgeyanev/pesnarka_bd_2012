@@ -13,7 +13,7 @@
 
     \new Voice \absolute{
       \clef treble
-      \key es \major
+      \key c \minor
       \time 2/4
       \tempoFunc "Andante" 4 "60"
       \autoBeamOff

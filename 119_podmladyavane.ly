@@ -12,21 +12,20 @@
 
     \new Voice \absolute {
       \clef treble
-      \key d\major
-      \time2/4
+      \key d \major
+      \time 3/4
       \tempoFunc "Moderato maestoso" 4 "84"
       \autoBeamOff
-      a4 -> d'4 -> | % 2
-      d'4 -> d'8. -> e'16 | % 3
+      a4 -> d'4 ->  % 2
+      d'4 -> | d'8. -> e'16  % 3
       fis'2 -> | % 4
-      fis'4 -> fis'4 -> | % 5
-      fis'4 -> fis'8. -> g'16 | % 6
+      fis'4 -> fis'4 ->  % 5
+      fis'4 -> | fis'8. -> g'16  % 6
       a'2 \break |
 
-      b'4 e'4 | % 8
-      e'4 e'8. fis'16 | % 9
-      d'4. a8 | \barNumberCheck #10
-      \time 3/4  e'8 d'8 cis'8 a8 e'8 cis'8 \break | % 11
+      b'4 e'4  % 8
+      e'4 | e'8. fis'16  % 9
+      d'4. a8 | e'8  d'8 cis'8 a8 e'8 cis'8 \break | % 11
       \time 2/4  d'4. fis'8 | % 12
       \time 3/4  a'8 g'8 fis'8 \tempo "poco rit." e'8 b8 cis'8
       | % 13
