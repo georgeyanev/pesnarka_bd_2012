@@ -12,7 +12,7 @@
     \translate #'(0 . -22.4 )
     \right-brace #18
 
-  
+
   }
   \column {
     % repeat numbers
@@ -34,21 +34,21 @@
     \include "include/score-layout.ily"
 
 
-     \new Voice \absolute {
+    \new Voice \absolute {
       \clef treble
-    
+
       \key ges \major
-  
+
       \time 4/4
       \tempoFunc "Andante" 4 "66"
-     
+
       \partial 4
       d'8. es'16 | % 2
       f'2 as'4 ges'8. f'16 | ges'2. f'8.es'16 | f'4 es'8. \( d'16 \) es'4 d'8. ces'16 | \break
       ces'2. d'8. es'16 | \time 3/4 f'2 es'8. [( d'16 )] | % 7
       es'2 \autoBeamOff  d'8. ces'16 | % 8
       ces'4 bes2 | % 9
-       as2 r4 \break |
+      as2 r4 \break |
       \time 8/16  |
       \tempo "Allegretto" \slurSolid g8 [( as16 )] bes8 ( ces'8. ) | % 11
       d'8. es'8 ~ es'8. | % 12
@@ -70,11 +70,51 @@
       d'8 ces'16 d'8 ces'8. | % 28
       bes8 [( as16 )] bes8 ~ bes8. \bar "||"
       \time 4/4 r2 r4 \autoBeamOn d'8. es'16 | \autoBeamOff f'2 as'4 ges'8. f'16 | \break
-      ges'2. f'8.es'16 | f'4 es'8. \( d'16 \) es'4 d'8. ces'16 |
-      ces'2. d'8. es'16 | f'4 
+      ges'2. f'8.es'16 | f'4 es'8. d'16  es'4 d'8. ces'16 |
+      ces'2. d'8. es'16 | f'4 \autoBeamOn es'8. (d'16 ) es'2 | \break
+      \time 3/4 \autoBeamOff d'8. c'16 c'4 bes8. a16 | a2 r4 | \time 8/16
+
+      \tempo "Allegretto" \autoBeamOn g8 [(a16 )] bes8 (c'8. ) | d'8. es'8 (es'8.) | f'8 [(es'16)] d'8 ces'8. | d'8 ces'16 d'8 ces'8. | bes8 [(as16)] bes8 (bes8.) \break
+
+      ces'8. ( ~ ces'8 bes8. ) |
+      as8. ~ as8 ~ as8. | % 24
+      g8 as16 bes8 ces'8. | % 25
+      d'8. es'8 ~ es'8. \break |
+      f'8 es'16 d'8 ces'8. | % 27
+      d'8 ces'16 d'8 ces'8. | % 28
+      bes8 [( as16 )] bes8 ~ bes8. | \break
+      ces'8. ( ~ ces'8 bes8. ) |
+      as8. ~ as8 ~ as8. | % 24
+      g8 as16 bes8 ces'8. | % 25
+      d'8. es'8 ~ es'8. \break |
+      f'8 es'16 d'8 ces'8. | % 27
+      d'8 ces'16 d'8 ces'8. | % 28
+      bes8 [( as16 )] bes8 ~ bes8. | \break
+
+      \time 4/4 r2 r4 \autoBeamOn d'8. es'16 | \autoBeamOff f'2 as'4 ges'8. f'16 |
+      ges'2. f'8.es'16 | f'4 es'8. d'16  es'4 d'8. ces'16 | \break
+      ces'2. d'8. es'16 |
+      f'4 es'8. d'16  es'2 |
+      \time 3/4 d'8. c'16 c'4 bes8. (a16) | a2 r4 | \break
+      \time 8/16 \tempo "Allegretto" \autoBeamOn g8 [(a16 )] bes8 (c'8. ) | d'8. es'8 (es'8.) | f'8 [(es'16)] d'8 ces'8. | d'8 ces'16 d'8 ces'8. | bes8 [(as16)] bes8 (bes8.) \break
+
+      ces'8. ( ~ ces'8 bes8. ) |
+      as8. ~ as8 ~ as8. | % 24
+      g8 as16 bes8 ces'8. | % 25
+      d'8. es'8 ~ es'8. \break |
+      f'8 es'16 d'8 ces'8. | % 27
+      d'8 ces'16 d'8 ces'8. | % 28
+      bes8 [( as16 )] bes8 ~ bes8. | \break
+      ces'8. ( ~ ces'8 bes8. ) |
+      as8. ~ as8 ~ as8. | % 24
+      g8 as16 bes8 ces'8. | % 25
+      d'8. es'8 ~ es'8. \break |
+      f'8 es'16 d'8 ces'8. | % 27
+      d'8 ces'16 d'8 ces'8. | % 28
+      bes8 [( as16 )] bes8 ~ bes8. | \break
     }
-   
-   
+
+
     \addlyrics {
       "1.В~ле-" -- тен
       ден, в~ран -- ни зо -- ри май -- ка ми ти -- хо се при --
@@ -83,28 +123,38 @@
       тряб -- ва да се хо -- ди. Ста -- вай, че ба --
       ща ти вън -- ка мен и те -- бе със ко -- ла --
       та ча -- ка. Ста -- вай, че "ба-" -- ща ти вън --
-      ка мен и те -- бе със ко -- ла -- та ча --
+      ка мен и те -- бе със "ко-" -- ла -- та ча --
       ка.“ "Слън-" -- це -- то ко -- га из -- грей,
       ти на ни -- ва -- та тряб -- ва да си.
-      С’ сърп в ръ -- ка, с пе -- сен ти
-      де -- ня срещ -- ни. Ста -- вай, дъ -- ще,
-      Слън -- це до -- ма да не те за -- ва -- ри.
-      Ста -- вай, че мо -- ми и мом -- ци –
-      вси към ни -- ва -- та са веч тръг -- на -- ли.
-         
-   }
+      "С~сърп" в~ръ -- ка, с~пе -- сен ти
+      де -- ня за -- поч -- ни. Ста -- вай, дъ -- ще,
+      Слън-це до -- ма да не те за -- ва -- ри.
+      Ста -- вай, __ че мо -- ми и мом -- ци вси към ни -- ва -- та са веч тръг -- на -- ли.
+      Ста -- вай, __ че мо -- ми и мом -- ци вси към ни -- ва -- та са веч тръг -- на -- ли.
 
-   \addlyrics {
-        "1.V~le" -- ten
-        den, v~ran -- ni zo -- ri may -- ka mi ti -- ho se pri --
-        bli -- zhi. S~sla -- dak glas bla -- ga du -- ma mi
-        ka -- za: „Sta -- vay, da -- shte, na ni -- va
-        tryab -- va da se ho -- di. Sta -- vay, che "ba-" --
-        shta ti van -- ka men i te -- be sas ko -- la --
-        ta cha -- ka. Sta -- vay, che "ba-" -- shta ti van --
-        ka men i te -- be sas ko -- la -- ta cha --
-        ka.“
-   }
+      Ни -- ва е, дъ -- ще, Жи -- во -- тът,
+      де доб -- ро -- то се -- ме се сей.
+      Кат' из -- рас -- не, жи -- вот вна -- ся
+      то във нас. Ста -- вай, дъ -- ще,
+      Лю -- бов -- та днес мен и те -- бе ча -- ка.
+      Ста -- вай, тя ни но -- си
+      свой -- та но -- ва, жи -- ва пре -- мя -- на.
+      Ста -- вай, че жи -- во -- тът вън -- ка мен
+      и те -- бе с бла -- гост ве -- че ча -- ка.“
+
+    }
+
+    \addlyrics {
+      "1.V~le" -- ten
+      den, v~ran -- ni zo -- ri may -- ka mi ti -- ho se pri --
+      bli -- zhi. S~sla -- dak glas bla -- ga du -- ma mi
+      ka -- za: „Sta -- vay, da -- shte, na ni -- va
+      tryab -- va da se ho -- di. Sta -- vay, che "ba-" --
+      shta ti van -- ka men i te -- be sas ko -- la --
+      ta cha -- ka. Sta -- vay, che "ba-" -- shta ti van --
+      ka men i te -- be sas ko -- la -- ta cha --
+      ka.“
+    }
 
 
     \header {
@@ -112,59 +162,15 @@
     }
 
     \midi{}
-    
+
 
 
   } % score
-  
-  
-    \pageBreak
 
-    \markup \fontsize #bgCoupletFontSize {
-    \hspace #-1
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
-    \column {
 
-          \line {   3.  Нива е, дъще, животът,}
-          \line {   "   " де доброто семе се сей.}
-          \line {   "   " Кат израсне, живот внася}
-          \line {   "   " то във нас. Ставай, дъще,}
-          \line {   "   " Любовта днес мен и тебе чака.}
-          \line {   "   " Ставай, (2)тя ни носи}
-          \line {   "   " своята нова, жива премяна.}
-          \line {   "   "  Ставай, че животът вънка мен}
-          \line {   "   "  и тебе с благост вече чака.“}
-        }
-    
-    \"rightBraces018"
 
-    \hspace #4
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-          \line {   2. Slantseto shtom izgrey,}
-          \line {   "   " ti na nivata tryabva da si.}
-          \line {   "   " S’ sarp v raka, s pesen ti}
-          \line {   "   " denya sreshtni. Stavay, dashte,}
-          \line {   "   " Slantse doma da ne te zavari.}
-          \line {   "   " Stavay, che momi i momtsi –}
-          \line {   "   " vsi kam nivata sa vech tragnali.}
-          \line {   "   " }
-          \line {   3.  Niva e, dashte, zhivotat,}
-          \line {   "   " de dobroto seme se sey.}
-          \line {   "   " Kat izrasne, zhivot vnasya}
-          \line {   "   " to vav nas. Stavay, dashte,}
-          \line {   "   " Lyubovta dnes men i tebe chaka.}
-          \line {   "   " Stavay, tya ni nosi}
-          \line {   "   " svoyata nova, zhiva premyana.}
-          \line {   "   "  Stavay, che zhivotat vanka men}
-          \line {   "   "  i tebe s blagost veche chaka.“}
-    }
-   \"rightBraces018"
 
-  }
-
- 
- \markup \empty-two
+  \markup \empty-two
 
   % include foreign translation(s) of the song
   \include "lyrics_de/142_stavai_daste_lyrics_de.ly"
