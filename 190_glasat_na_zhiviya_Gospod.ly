@@ -50,7 +50,7 @@
       \autoBeamOff
       \tempo "Lento"
       \times 2/3  {
-        g'8  d'8 d'8
+        d'8  d'8 d'8
       }
       \times 2/3  {
         d'8 d'8 d'8
@@ -63,6 +63,7 @@
       d''4  c''8  bes'8  % 21
       a'4 g'8 d'8 | es'4 es'8. d'16 a'4 a'4 r2 \break | % 23
       \autoBeamOn
+      \key f \major
       c''8 a'8 a'4 a'4  g'8 f'8 a'8 a'8 a'4 | % 25
       a'4 a'4 g'8 f'8 g'8 g'8 g'4 r8 g'8 | \break  % 27
       \time 9/8
@@ -71,9 +72,10 @@
       d''8 f''8  d''8  c''8 | d''4.
       d''4  d''8 
       d''8  c''8  bes'8  d''4.
-      d''4. g'8 a'8  bes'8 |
+      d''4. g'8 a'8  bes'8 | \break
       \time 6/8
        c''4  d''8 \autoBeamOn e''8  d''8  c''8 |  d''4. (d''4) r8 | \break
+       \key a \minor
       \autoBeamOff a'8 a'8 a'8 c''8 a'8 g'8 | a'4. a'4. |
       f''4.  e''4 a'8  | \break
       \time 4/4  | % 35
