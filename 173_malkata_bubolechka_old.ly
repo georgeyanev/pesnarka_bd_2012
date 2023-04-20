@@ -17,19 +17,20 @@
       \time 4/4
       \tempoFunc "Andante" 4 "60"
       \autoBeamOff
+
       e'4  e'8.  e'16  e'2 | % 2
       f'4  e'8.  dis'16  e'2 | % 3
       r8  e'8  a'8  b'8  c''2 \break | % 4
       b'8 ( [  a'8  ])   gis'8 ( [  a'8 ])
-      \autoBeamOn b'4  ( ~  b'16   a'16  )   g'16 ( 
-      f'16  )  | % 5
-      e'2 r8 \autoBeamOff e'8  a'8  c''8 \break | % 6
+      b'4 ( ~  b'16 [  a'16 ] )   g'16 ( [
+      f'16 ] )  | % 5
+      e'2 r8  e'8  a'8  c''8 \break | % 6
       e''4.  d''8 \tweak direction #up \times 2/3 {
-        \once \override Slur.positions = #'(1 . 1) c''8  (  [ b'8 ])  a'8 
+        \once \override Slur.positions = #'(1 . 1) c''8 ( [  b'8 ])  a'8
       }
       g'16  f'16  e'16  d'16 | % 7
       f'2  e'2 | % 8
-      \autoBeamOn a'4  g'8.  f'16  e'2 \break
+      a'4  g'8.  f'16  e'2 \break
       \repeat
       volta 2 {
         | % 9
@@ -46,8 +47,8 @@
     \addlyrics {
       Мен ме ро -- ди Бог със "Лю-" --
       бов и о -- за -- ри със Жи
-      -- во -- та __ нов. Ед --
-      вам, ед -- вам рас -- те __  и зре
+      -- во -- та нов. Ед --
+      вам, ед -- вам рас -- те  и зре
       -- е ми ду -- ша -- та, но е -- то
       веч вър -- вя на -- го -- ре, Слън
       -- це -- то где бле -- сти.
@@ -56,8 +57,8 @@
       \addlyrics {
         Men me ro -- di Bog sas "Lyu-" --
         bov i o -- za -- ri sas Zhi
-        -- vo -- ta __ nov. Ed --
-        vam, ed -- vam ras -- te __  i zre
+        -- vo -- ta nov. Ed --
+        vam, ed -- vam ras -- te  i zre
         -- e mi du -- sha -- ta, no e -- to
         vech var -- vya na -- go -- re, Slan
         -- tse -- to gde ble -- sti.
