@@ -176,22 +176,9 @@
       g'2 | % 85
       bes'8.  bes'16  a'4 | % 86
       g'8.  g'16  f'4 | % 87
-     %ne znam kak da napisha malkite noti
-     
-      \once \override TextScript.extra-offset = #'(-2.7 . 1)
-      \once \override Stem.length = #5 
-      \stemDown \tweak font-size #-3  
-      e'8._\markup {(мла – до-то)}  
-
-      \once \override TextScript.extra-offset = #'(-7.3 . 1)
-      \once \override Stem.length = #5 
-      \stemDown \tweak font-size #-3  
-      e'16_\markup \fontsize #+2 \italic {"ossia"}   
-      
-      \once \override TextScript.extra-offset = #'(-2.5 . 10.7)
-      \once \override Stem.length = #5 
-      \stemDown \tweak font-size #-3  
-      d'4_\markup \fontsize #-2 \musicglyph "rests.0"
+      e'8.
+      e'16
+      d'4
       
       \stemNeutral
       \break | % 88
@@ -229,14 +216,14 @@
       \key d \minor  % 104
       \tempoFunc "Andante" 4 "66"
       \times 2/3  {
-        d'8 ( [  e'8  fis'8^\markup \fontsize #-1 {\parenthesize \natural} ]
+        d'8 ( [  e'8  fis'8 ]
       }
       
       %\once \override TextScript.extra-offset = #'(-1 . 1)
-      d'8^\markup { "ossia" }
+      d'8
       
-      [  fis'8^\markup \fontsize #-1 {\parenthesize \natural} ) ] | % 105
-      fis'2^\markup \fontsize #-1 {\parenthesize \natural} | % 106
+      [  fis'8 ) ] | % 105
+      fis'2 | % 106
       \time 3/4  | % 106
 
       \times 2/3  {
@@ -312,7 +299,7 @@
       то съ -- бли -- чаш ста --
       ро -- то, ста --  ро -- то и
       за -- ви -- ваш мла -- "до-" -- то,
-      мла -- до -- то. "" "" "" Сту -- 
+      мла -- до -- то, мла -- до -- то. Сту -- 
       ден си ти, но ни спа -- ся -- ваш
       от сту -- да. И ко -- га --
       то про -- "лет-" -- та на -- ста
@@ -366,7 +353,7 @@
         to sa -- bli -- chash sta --
         ro -- to, sta --  ro -- to i
         za -- vi -- vash mla -- do -- to,
-        mla -- do -- to.  ""  "" "" Stu --
+        mla -- do -- to,  mla -- do -- to. Stu --
         den si ti, no ni spa -- "sya-" -- vash
         ot stu -- da. I ko -- ga --
         to pro -- let -- ta na -- sta
