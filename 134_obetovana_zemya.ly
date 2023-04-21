@@ -35,12 +35,7 @@
       a'8 ( [  bes8 ) ]  a8 | % 17
       a8 ( [  d8 ) ]  c8 | % 18
       bes8 ( [  a8 ) ]  g8 \break | % 19
-      g4.^\markup{ 
-        "ossia"
-        \fontsize #-6 \general-align #Y #DOWN \note {4} #0.8
-        "            "
-        \fontsize #-6 \general-align #Y #DOWN \note {8} #0.8
-      }  |
+      g4. |
       e4. | % 21
       e8 ( [  f8 ) ]  g8 | % 22
       a8 ( [  e8 ) ]  g8 | % 23
@@ -93,7 +88,7 @@
       ми  ми -- на -- ха, въл -- ни и
       бу -- ри ду -- ша ми за -- ля -- ха.
       Но  Ду -- хът  ми на  Жи
-      -- во -- та с‿мощ  и си -- ла
+      -- во -- та с~мощ  и си -- ла
       над тях из -- пла -- ва. За О --
       бе -- то -- ва -- на зе -- мя  аз
       тръг -- нах път -- ник, где из
@@ -109,7 +104,7 @@
       mi  mi -- na -- ha, val -- ni i
       bu -- ri du -- sha mi za -- lya -- ha.
       No  Du -- hat  mi na  Zhi
-      -- vo -- ta s‿mosht  i si -- la
+      -- vo -- ta s~mosht  i si -- la
       nad tyah iz -- pla -- va. Za O --
       be -- to -- va -- na ze -- mya  az
       trag -- nah pat -- nik, gde iz

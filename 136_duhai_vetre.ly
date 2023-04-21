@@ -11,7 +11,7 @@
 
     \new Voice \relative c' {
       \clef treble
-      \key d \major
+      \key b \minor
       \time 3/4
       \tempoFunc "Moderato" 4 "80"
       \autoBeamOff
