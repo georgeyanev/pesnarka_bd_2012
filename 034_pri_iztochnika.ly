@@ -21,24 +21,24 @@
       e'4 | a'2 b'4 | c''2 b'4 | a'2 e''4 | e''2. (| e''2) d''4 | e''2 d''4 | c''2 b'4 \break |
       a'2 gis'4 | b'2. | b'2. (| b'2 ) e'4 | a'2 b'4 | c''2 b'4 | a'2 g'4 | f'2. (| f'2 ) f'4 \break |
       e'2 d'4 | c'2 d'4 | e'2 gis'4 | b'2. | a'2. (| a'2 )a'4 | f'2. | a'2. ( | a'2 ) g'4 \break |
-      f'2. | e'2. (|e'2) d'4 e'2 d'4 | c'2 b4 | e'2 gis'4 | b'2. | a'2. ( | a'2 ) \bar "||" \break
+      f'2. | e'2. (|e'2) d'4 e'2 d'4 | c'2 b4 | e'2 gis'4 | b'2. | a'2. ( | a'2 ) \bar "|." \break
     }
     \addlyrics {
       Ви -- сок
       пла -- нин -- ски връх блес -- ти, __ об -- лян с~лъ
-      -- чи от не -- бе -- са -- та. Там чис -- то из
+      -- чи от не -- бе -- са -- та. __ Там чис -- то из
       -- вор -- че шур -- ти __ и в~химн из -- ли -- ва
-      си ду -- ша -- -- та, ду -- ша -- та, ду -- ша --
-      та. И в~химн из -- ли -- ва си ду -- ша -- та.
+      си ду -- ша -- -- та, __ ду -- ша -- та, __ ду -- ша --
+      та. __ И в~химн из -- ли -- ва си ду -- ша -- та. __
     }
 
     \addlyrics {
       Vi -- sok
       pla -- nin -- ski vrah bles -- ti, __ ob -- lyan s~la
-      -- chi ot ne -- be -- sa -- ta. Tam chis -- to iz
+      -- chi ot ne -- be -- sa -- ta. __ Tam chis -- to iz
       -- vor -- che shur -- ti __ i v~himn iz -- li -- va
-      si du -- sha -- ta, du -- sha -- ta, du -- sha --
-      ta. I v~himn iz -- li -- va si du -- sha -- ta.
+      si du -- sha -- ta, __ du -- sha -- ta, __ du -- sha --
+      ta. __ I v~himn iz -- li -- va si du -- sha -- ta. __
     }
 
     \header {
