@@ -12,7 +12,7 @@
 
     \new Voice  \relative c' {
       \clef treble
-      \key bes \major
+      \key g \minor
       \time 8/16
       \tempoFunc "Lento" 8 "112"
       \autoBeamOff
@@ -35,6 +35,7 @@
 
       \bar ".|:" 
       \tempoFunc "Poco più mosso" 8 "120"
+      \key f \minor
       c'8 b8[(aes16)] |  |
       c16 c b aes f |  |
       b8 aes([f16])  |
@@ -71,7 +72,7 @@
       \tempo "rit."
       f8 e c8. |
       d4 d8. | \bar "||"
-      \key bes \major
+      \key g \minor
       \time 8/16
       \tempo "Andante sostenuto"
       fis8 g16 a8~ a8. |
@@ -107,7 +108,7 @@
 
       fis8 ees8 c16 |
       d8 d8. | \bar "||"
-      \key bes \major
+      \key g \minor
       \time 8/16
       \tempo "Andante sostenuto"
       bes'8. bes8 bes8. |
@@ -207,6 +208,7 @@
       c16\staccato r16 b8\staccato r16 |
       a8~ a8. |
       a8~ a8. |  \bar "||"
+      \key a \minor
       \time 9/16
       \tempo "Lento" e8 e e e8. |
       a8 g f e8. | \break

@@ -12,7 +12,7 @@
 
     \new Voice \relative c' {
       \clef treble
-      \key bes \major
+      \key g \minor
       \time 2/4
       \tempoFunc "Lento" 4 "54"
       \autoBeamOff
