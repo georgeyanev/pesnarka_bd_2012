@@ -13,7 +13,7 @@
 
     \new Voice \absolute {
       \clef treble
-      \key c \major
+      \key a \minor
       \time 4/4
       \tempoFunc "Andante" 4 "60"
       \autoBeamOff
@@ -21,26 +21,53 @@
       f'4  e'8.  dis'16  e'2 | % 3
       r8  e'8  a'8  b'8  c''2 \break | % 4
       b'8 ( [  a'8  ])   gis'8 ( [  a'8 ])
-      \autoBeamOn b'4  ( ~  b'16   a'16  )   g'16 ( 
+      \autoBeamOn b'4  ( ~  b'16   a'16  )   g'16 (
       f'16  )  | % 5
       e'2 r8 \autoBeamOff e'8  a'8  c''8 \break | % 6
       e''4.  d''8 \tweak direction #up \times 2/3 {
-        \once \override Slur.positions = #'(1 . 1) c''8  (  [ b'8 ])  a'8 
+        \once \override Slur.positions = #'(1 . 1) c''8  (  [ b'8 ])  a'8
       }
-      g'16  f'16  e'16  d'16 | % 7
+      gis'16  f'16  e'16  d'16 | % 7
       f'2  e'2 | % 8
       \autoBeamOn a'4  g'8.  f'16  e'2 \break
       \repeat
       volta 2 {
         | % 9
-        r8  cis'8  e'8  f'8  g'4  a'4 |
-        bes'16 ( [  a'16 ] )   g'16  f'16
+        \autoBeamOff  r8  c'8  e'8  f'8  g'4  a'4 |
+        c''16 ( [  a'16 ] )  g'16  f'16
         e'8.  d'16  d'2 ~ | % 11
         d'16  b16  c'16  d'16  c'4 ~
         c'16  b16  d'16  c'16  b16
         a16  gis16  a16 | % 12
-        b4.  a8  a2
+        b4.  a8  a2 \break
       }
+
+      e'4 e'8. e'16 e'4. e'8 |\autoBeamOn f'8. f'16  e'4. \autoBeamOff e'8 a'8 b'8 |  c''4 b'16[ ( a'16 ) ] gis'16 a'16 b'4  ( ~ b'16 [a'16] ) gis'16 f'16 | \break
+
+      e'2 r8 e'8 a'8 c''8 | e''4. d''8  \tweak direction #up \times 2/3 {
+        \once \override Slur.positions = #'(1 . 1) \autoBeamOn c''8  (   b'8 )  a'8
+      } \autoBeamOff gis'16 f'16 e'16 d'16 | f'2 e'2 | \break
+
+
+      \autoBeamOn  a'4 g'8.  f'16  e'2 |  \bar ".|:"  \autoBeamOff r8 c'8 e' g' a'4 a'4 |  c''16 b' a' g' f'8. ( e'16 ) d'2 (| \break
+
+      d'16)  b16  c'16  d'16  c'4 ~
+      c'16  b16  d'16  c'16  b16
+      a16  gis16  a16 | % 12
+      b4. ( a8 ) a2 \break \bar ":|."
+
+
+      e'4 e'8. e'16 e'4. e'8 | \autoBeamOn f'8. f'16 e'4. \autoBeamOff e'8 a'8 b'8 |  c''4 b'16  a'16 gis'16 a'16 \autoBeamOn b'4  ( ~ b'16 a'16 ) gis'16 f'16 | \break
+
+      e'2 r8 \autoBeamOff e'8 a'8 c''8 | e''4. d''8  \tweak direction #up \times 2/3 {
+        \once \override Slur.positions = #'(1 . 1) c''8  ( [  b'8 ) ] a'8
+      } gis'16 [( f'16 )] e'16 [(d'16) ] | f'2 e'2 | \break
+
+
+      \autoBeamOn  a'4 g'8.  f'16  e'2 |  \bar ".|:"  \autoBeamOff r8 c'8 e' g' a'4 a'8. a'16 |  c''16 b' a' g' e'4 \tempo "V.S." d'2 (| \break
+
+      d'16)  b16  c'16  d'16  c'4 ~
+      c'16  b16  d'16  c'16  b16 a16 \times 2/3 { gis16 [ ( a16 ) ] b16 }| \time 2/4 a2 \break \bar ":|."
     }
 
     \addlyrics {
@@ -52,89 +79,71 @@
       веч вър -- вя на -- го -- ре, Слън
       -- це -- то где бле -- сти.
       Ще ви -- дя туй, ду -- ша -- та
-      ми що лю -- би и коп -- ней.}
-      \addlyrics {
-        Men me ro -- di Bog sas "Lyu-" --
-        bov i o -- za -- ri sas Zhi
-        -- vo -- ta __ nov. Ed --
-        vam, ed -- vam ras -- te __  i zre
-        -- e mi du -- sha -- ta, no e -- to
-        vech var -- vya na -- go -- re, Slan
-        -- tse -- to gde ble -- sti.
-        Shte vi -- dya tuy, du -- sha -- ta
-        mi shto lyu -- bi i kop -- ney.}
+      ми що лю -- би и коп -- ней.
 
-        \header {
-          title = \titleFunc "Малката буболечица" "Malkata bubolechitsa"
-        }
+      Тъй бу -- бо -- леч -- ка -- та "шеп-" -- ти
+      и се стре -- ми по на -- на -- гор -- ни -- я път,
+      и преч -- ки -- те ед -- на след "дру-" -- га
+      "по-" -- беж -- да -- ва.
+      Без -- брой "ска-" -- ли, по -- ля, до -- ли -- ни
+      "сме-" -- ло "пре-" -- ми -- на -- ва __
+      и все на -- пред се тя към вър -- ха
+      въз -- ви -- ся -- ва.
 
-        \midi{}
+      Тъй ве -- ко -- ве без -- брой "ле-" -- тят
+      и вре -- ме -- то я пре -- "о-" -- "бра-" -- зя -- """"ва.
+      И тъй по -- раст  -- на тя __ де -- ви -- ца ми -- ла.
+      Чи -- ста "ро-" -- са, ду -- ша кра -- си -- ва,
+      тво -- ре -- ни -- е на Бо -- га, __
+      раз -- ли -- ва Мир и свет -- ла Ра -- дост
+      по све -- та.
 
-      } % score
-      
-      \markup \fontsize #bgCoupletFontSize {
-        \hspace #1
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-          \line {    2. Тъй буболечката шепти }
-          \line {   "   " и се стреми по нанагорния път,}
-          \line {   "   " и пречките една след друга }
-          \line {   "   " побеждава. }
-          \line {   "   " Безброй скали, поля, долини }
-          \line {   "   " смело преминава }
-          \line {   "   " и все напред се тя към върха }
-          \line {   "   " възвисява. }
-        }
+    }
+    \addlyrics {
+      Men me ro -- di Bog sas "Lyu-" --
+      bov i o -- za -- ri sas Zhi
+      -- vo -- ta __ nov. Ed --
+      vam, ed -- vam ras -- te __  i zre
+      -- e mi du -- sha -- ta, no e -- to
+      vech var -- vya na -- go -- re, Slan
+      -- tse -- to gde ble -- sti.
+      Shte vi -- dya tuy, du -- sha -- ta
+      mi shto lyu -- bi i kop -- ney.
 
-        \hspace #2
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-          \line {    2. Tay bubolechkata shepti }
-          \line {   "   " i se stremi po nanagornia pat,}
-          \line {   "   " i prechkite edna sled druga }
-          \line {   "   " pobezhdava. }
-          \line {   "   " Bezbroy skali, polya, dolini }
-          \line {   "   " smelo preminava }
-          \line {   "   " i vse napred se tya kam varha }
-          \line {   "   " vazvisyava. }
-        } %column
-      } % markup
+      Tay bu -- bo -- lech -- ka -- ta "shep-" -- ti
+      i se stre -- mi po na -- na -- gor -- ni -- ya pat,
+      i prech -- ki -- te ed -- na sled "dru-" -- ga
+      "po-" -- bezh -- da -- va.
+      Bez -- broy "ska-" -- li, po -- lya, do -- li -- ni
+      "sme-" -- lo "pre-" -- mi -- na -- va __
+      i vse na -- pred se tya kam var -- ha
+      vaz -- vi -- sya -- va.
 
-      \pageBreak
+      Tay ve -- ko -- ve bez -- broy "le-" -- tyat
+      i vre -- me -- to ya pre -- "o-" -- "bra-" -- zya -- """"va.
+      I tay po -- rast  -- na tya __ de -- vi -- tsa mi -- la.
+      Chi -- sta "ro-" -- sa, du -- sha kra -- si -- va,
+      tvo -- re -- ni -- e na Bo -- ga, __
+      raz -- li -- va Mir i svet -- la Ra -- dost
+      po sve -- ta.
+    }
 
-      \markup \fontsize #bgCoupletFontSize {
-        \hspace #1
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-          \line {    3. Тъй векове безброй летят }
-          \line {   "   "  и времето я преобразява. }
-          \line {   "   "  И тъй порасна тя – девица мила, }
-          \line {   "   "  чиста роса, душа красива.}
-          \line {   "   "  Творение на Бога, }
-          \line {   "   "  разлива Мир и светла Радост }
-          \line {   "   "  по света. }
-        }
+    \header {
+      title = \titleFunc "Малката буболечица" "Malkata bubolechitsa"
+    }
 
-        \hspace #4
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-          \line {    3. Tay vekove bezbroy letyat }
-          \line {   "   "  i vremeto ya preobrazyava. }
-          \line {   "   "  I tay porasna tya – devitsa mila, }
-          \line {   "   "  chista rosa, dusha krasiva. }
-          \line {   "   "  Tvorenie na Boga, }
-          \line {   "   "  razliva Mir i svetla Radost }
-          \line {   "   "  po sveta. }
-        } %column
-      } % markup
+    \midi{}
+
+  } % score
 
 
-      \markup \empty-two
 
-      % include foreign translation(s) of the song
-      \include "lyrics_de/173_malkata_bubolechiza_lyrics.de.ly"
+  \markup \empty-two
 
-    } % bookpart
+  % include foreign translation(s) of the song
+  \include "lyrics_de/173_malkata_bubolechiza_lyrics.de.ly"
 
-    % Più mosso
-    %
+} % bookpart
+
+% Più mosso
+%
