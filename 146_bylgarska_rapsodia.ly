@@ -83,6 +83,8 @@
       e8^\accent g f d16 | \noBreak
       e4\prall~ e8[d16] | \noBreak
       e8^\accent e e d16 | \break
+    
+      \bar ".|:-|"
 
       \repeat volta 1 {
         c8 d e d16 | \noBreak
@@ -91,7 +93,7 @@
         e8 d c b16 | \noBreak
 
         c8 d b g16 | \noBreak
-        a4 a8. | \break
+        a4 a8. | \break \bar ":|."
       }
       \time 4/4 \tempo "Lento" a4 d8([e]) \tuplet 3/2 {f16([ g f]} e4.) | \time 5/4 \noBreak
       \override TupletNumber.avoid-slur = #'ignore
@@ -113,12 +115,12 @@
       a2 d,4  | \noBreak
       \time 4/4 g16[f e d] c[b\tenuto c\tenuto d\tenuto] e2 | \noBreak
       a,8[b] c4 b8[d] c[b] | \noBreak
-      a2 a' \breathe | \bar "|" \time 2/4 \break
+      a2 a' \breathe | \bar "|" \time 2/4 \break    \bar ".|:-|"
       \repeat volta 1 {
         \tempo "Vivo"  c,8\accent[b] a[g] | \noBreak
         a\accent[g] f[e] | \noBreak
         g\accent[f] e[d] | \noBreak
-        e4\prall e | \noBreak
+        e4\prall e | \noBreak \bar ":|."
       } 
       e8[d] c[b] | \noBreak
       c[d] e[d] | \break
@@ -129,13 +131,13 @@
       e[d] c[b] | \noBreak
       d[c] b[g] | \noBreak
       a2 | \noBreak
-      a4 a |  \bar "|" \break
+      a4 a |  \bar "|" \break \bar ".|:-|"
 
       \repeat volta 1 {
         c''8\accent[b] a[g] | \noBreak
         a\accent[g] f[e] | \noBreak
         g\accent[f] e[d] | \noBreak
-        e4\prall e | \noBreak
+        e4\prall e | \noBreak  \bar ":|."
       }
       e8[d] c[b] | \noBreak
       c[d] e[d] | \break
@@ -189,14 +191,14 @@
       d8^\accent e e e | \break
       e4 e | \noBreak
       d8^\accent c c c | \noBreak
-      c4 c | \break
+      c4 c | \break \bar ".|:-|"
 
       \repeat volta 1 {
         b8^\accent g a b | \noBreak
         c4 c | \noBreak
         c8 b b g | \noBreak
         a4 a |
-      } \time 3/4 \break
+      } \time 3/4 \break \bar ":|."
 
       \override TupletBracket.positions = #'(3 . 3)
       \tuplet 3/2 8 { c16([b g) a(b g]) c16([b g) a(b g]) c16([b g) b(a g])  } | \noBreak
