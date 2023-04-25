@@ -34,22 +34,22 @@
       b4 b8. | \noBreak
       g8\accent a16[b] c8. | \noBreak
       b8\accent d a8. | \noBreak
-      a4 a8. | \bar "||" \break
+      a4 a8.\fermata | \bar "||" \break
 
       g,8 a16 \stemUp b \stemNeutral c8 d16 | \noBreak
-      e8 e e8. | \noBreak
+      e8 e e8.\fermata | \noBreak
       d8 e16 d16 c8 b16 | \noBreak
       d8 d d8.\fermata | \break
 
       d8 e16 d16 c8 b16 | \noBreak
       d8 c8 c8.\fermata( | \noBreak
-      b4~ b8.) | \break
+      b4~ b8.\fermata) | \break
       g8 a16 \stemUp b \stemNeutral c8 d16 | \noBreak
       e8 d c8([b16]) | \noBreak
 
       d8 c b8. | \noBreak
       c16 b a8 g8. | \noBreak
-      a8 a8~ a8. | \bar "||" \break
+      a8 a8~ a8.\fermata | \bar "||" \break
       \tempo "Allegro grazioso" d,8^\accent e e[e16] | \noBreak
       e8^\accent e e[d16] | \noBreak
 
@@ -113,13 +113,13 @@
       a2 d,4  | \noBreak
       \time 4/4 g16[f e d] c[b\tenuto c\tenuto d\tenuto] e2 | \noBreak
       a,8[b] c4 b8[d] c[b] | \noBreak
-      a2 a' | \time 2/4 \break
+      a2 a' \breathe | \bar "|" \time 2/4 \break
       \repeat volta 1 {
-        \tempo "Vivo" c,8\accent[b] a[g] | \noBreak
+        \tempo "Vivo"  c,8\accent[b] a[g] | \noBreak
         a\accent[g] f[e] | \noBreak
         g\accent[f] e[d] | \noBreak
         e4\prall e | \noBreak
-      }
+      } 
       e8[d] c[b] | \noBreak
       c[d] e[d] | \break
 
@@ -129,7 +129,7 @@
       e[d] c[b] | \noBreak
       d[c] b[g] | \noBreak
       a2 | \noBreak
-      a4 a | \break
+      a4 a |  \bar "|" \break
 
       \repeat volta 1 {
         c''8\accent[b] a[g] | \noBreak
@@ -146,7 +146,7 @@
       e[d] c[b] | \noBreak
       d[c] b[g] | \noBreak
       a2 | \noBreak
-      a4 a | \bar "||" \time 3/4 \break
+      a4 a \fermata \breathe | \bar "||" \time 3/4 \break
 
       \tempo "Andante" \acciaccatura { dis,8 } e2 d16\tenuto([c\tenuto b\tenuto c\tenuto]) | \noBreak
       \acciaccatura { dis8 } e2 d16\tenuto([c\tenuto b\tenuto c\tenuto]) | \noBreak
@@ -180,7 +180,7 @@
       a8.[g16] a[b c d] | \break
 
       e[f e d] c[d b g] | \noBreak
-      a4 a8 a | \bar "||" \noBreak
+      a4 a8 a \fermata | \bar "||" \noBreak
       d,^\accent e e e | \noBreak
       e4 e | \break
       d8^\accent c c c | \noBreak
@@ -200,7 +200,7 @@
 
       \override TupletBracket.positions = #'(3 . 3)
       \tuplet 3/2 8 { c16([b g) a(b g]) c16([b g) a(b g]) c16([b g) b(a g])  } | \noBreak
-      a4 a2 | \bar "||" \time 7/16 \break
+      a4 a2 \fermata | \bar "||" \time 7/16 \break
 
       \tempo "Andante maestoso" g8^\accent a16([b]) c8.~ | \noBreak
       c4~ c8. | \noBreak
@@ -222,7 +222,7 @@
       g8\accent a16[b] c8. | \noBreak
       b8\accent d a8. | \noBreak
       a4~ a8. | \noBreak
-      a4~ a8. | \bar "|."
+      a4~ a8. \fermata | \bar "|."
     }
 
     \addlyrics {

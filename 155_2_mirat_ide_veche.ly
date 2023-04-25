@@ -25,8 +25,6 @@
 
         f8 es d c bes 4 d 4 |  g,8 a bes a g4 g4 |
       }
-
-
     }
 
     \addlyrics {

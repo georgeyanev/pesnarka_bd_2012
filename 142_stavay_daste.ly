@@ -37,14 +37,14 @@
     \new Voice \absolute {
       \clef treble
 
-      \key ges \major
+      \key es \minor
 
       \time 4/4
       \tempoFunc "Andante" 4 "66"
 
       \partial 4
       d'8. es'16 | % 2
-      f'2 as'4 ges'8. f'16 | ges'2. f'8.es'16 | f'4 es'8. \( d'16 \) es'4 d'8. ces'16 | \break
+      f'2 as'4 ges'8. f'16 | ges'2. f'8.es'16 | f'4 es'8.  d'16  es'4 d'8. ces'16 | \break
       ces'2. d'8. es'16 | \time 3/4 f'2 es'8. [( d'16 )] | % 7
       es'2 \autoBeamOff  d'8. ces'16 | % 8
       ces'4 bes2 | % 9
@@ -79,7 +79,7 @@
       
       \time 8/16 \tempo "Allegretto" \autoBeamOn g8 [(as16 )] bes8 (ces'8. ) | d'8. es'8 (es'8.) |
       
-      f'8 [(es'16)] d'8 ces'8. | d'8 ces'16 d'8 ces'8. | bes8 [(as16)] bes8 (bes8.) \break
+      f'8 [ es'16 ] d'8 ces'8. | d'8 ces'16 d'8 ces'8. | bes8 [(as16)] bes8 (bes8.) \break
 
       ces'8. ( ~ ces'8 bes8. ) |
       as8. ~ as8 ~ as8. | % 24
@@ -118,7 +118,7 @@
       d'8. es'8 ~ es'8. \break |
       f'8 es'16 d'8 ces'8. | % 27
       d'8 ces'16 d'8 ces'8. | % 28
-      bes8 [( as16 )] bes8 ~ bes8. | \break
+      bes8 [( as16 )] bes8 ~ bes8. | \break \bar "|."
     }
 
 
@@ -129,13 +129,13 @@
       ка -- за: „Ста -- вай, дъ -- ще, на ни -- ва
       тряб -- ва да се хо -- ди. Ста -- вай, че ба --
       ща ти вън -- ка мен и те -- бе със ко -- ла --
-      та ча -- ка. Ста -- вай, че "ба-" -- ща ти вън --
-      ка мен и те -- бе със "ко-" -- ла -- та ча --
-      ка. "Слън-" -- це -- то ко -- га из -- грей,
+      та ча -- ка. Ста -- вай, че ба -- ща ти вън --
+      ка мен и те -- бе със ко -- ла -- та ча --
+      ка. "Слън" -- це -- то ко -- га из -- грей,
       ти на ни -- ва -- та тряб -- ва да си.
       "С~сърп" в~ръ -- ка, с~пе -- сен ти
       де -- ня за -- поч -- ни. Ста -- вай, дъ -- ще, __
-      Слън-це до -- ма да не те за -- ва -- ри.
+      "Слън-" -- це до -- ма да не те за -- ва -- ри.
       Ста -- вай, __ че мо -- ми и мом -- ци __ вси към ни -- ва -- та са веч тръг -- на -- ли. __
       Ста -- вай, __ че мо -- ми и мом -- ци __ вси към ни -- ва -- та са веч тръг -- на -- ли. __
 
@@ -159,12 +159,12 @@
       tryab -- va da se ho -- di. Sta -- vay, che ba --
       shta ti van -- ka men i te -- be sas ko -- la --
       ta cha -- ka. Sta -- vay, che "ba-" -- shta ti van --
-      ka men i te -- be sas "ko-" -- la -- ta cha --
-      ka. "Slan-" -- tse -- to ko -- ga iz -- grey,
+      ka men i te -- be sas ko -- la -- ta cha --
+      ka. Slan -- tse -- to ko -- ga iz -- grey,
       ti na ni -- va -- ta tryab -- va da si.
       "S~sarp" v~ra -- ka, s~pe -- sen ti
       de -- nya za -- poch -- ni. Sta -- vay, da -- shte, __
-      Slan-tse do -- ma da ne te za -- va -- ri.
+      Slan -- tse do -- ma da ne te za -- va -- ri.
       Sta -- vay, __ che "mo-" -- mi i mom -- tsi __ vsi kam ni -- va -- ta sa vech trag -- na -- li. __
       Sta -- vay, __ che mo -- mi i mom -- tsi __ vsi kam ni -- va -- ta sa vech trag -- na -- li. __
 
