@@ -53,7 +53,7 @@
       d'16 | % 22
       \time 2/4  | % 22
       d'4.  d'8 \break | % 23
-      d'8.  d'16  d'8.  f'16 | % 24
+      \key d \minor d'8.  d'16  d'8.  f'16 | % 24
       \time 3/4  | % 24
       a'8.  a'16  a'4.  g'8 | % 25
       f'8  e'8  d'8.  cis'16  e'8.
@@ -61,8 +61,7 @@
       \break | % 27
       \time 2/4  | % 26
       d'2 \bar "||"
-
-      \key d \minor | % 27
+       | % 27
       \tempo "Tempo I" a4  d'8 ( [  e'8 ) ] | % 28
       f'4  d'4 | % 29
       cis'8 ( [  d'8 ]  e'4 ) |
@@ -88,14 +87,7 @@
       d'8.  d'16  d'4.  e'8 | % 46
       \time 2/4  | % 46
       f'4  d'4 | % 47
-      cis'8  d'8  e'8  f'8^\markup {
-        "ossia"
-        \fontsize #-6 \general-align #Y #DOWN \note {2} #0.8
-        \path #0.06 #'((moveto 0 1)
-                      (curveto 0 1 1.5 2 3 1)
-                     )
-        \fontsize #-6 \general-align #Y #DOWN \note {2} #0.8
-      }  | % 48
+      cis'8  d'8  e'8  f'8 | % 48
       d'4. (  a'8 ) | % 49
       g'4  bes'8.  bes'16 \break |
       a'2 | % 51
@@ -213,7 +205,7 @@
       \break % 104
      
       \time 2/4
-      \key d \minor  % 104
+        % 104
       \tempoFunc "Andante" 4 "66"
       \times 2/3  {
         d'8 ( [  e'8  fis'8 ]
@@ -224,6 +216,7 @@
       
       [  fis'8 ) ] | % 105
       fis'2 | % 106
+      \key d \minor
       \time 3/4  | % 106
 
       \times 2/3  {

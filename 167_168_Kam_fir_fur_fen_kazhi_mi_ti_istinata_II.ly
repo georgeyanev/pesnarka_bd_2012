@@ -23,7 +23,7 @@
 
       bes4 a2 bes8. g16 | \time 3/4 bes2 g8. a16 | \time 4/4 \break
 
-      bes4 a2 g8. a16| \time 3/4 bes2 a8. g16 | g4 g2| \break
+      bes4 a2 g8. a16| \time 3/4 bes2 a8. g16 | g4 g2| \bar ".|:-|." \break
     }
 
     \addlyrics {

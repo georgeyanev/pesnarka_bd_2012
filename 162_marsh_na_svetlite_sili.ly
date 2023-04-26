@@ -79,7 +79,7 @@
       b8 b4 b8 | % 11
       g8. [g16] a8. [g16] | % 12
       c'8 c'4 c'8 \bar "||"
-      \key c \minor c'4 g'4 ( \break | % 14
+      \key g \minor c'4 g'4 ( \break | % 14
       g'4 ) g'16 [( f'16 es'16 d'16 )] | % 15
       c'8 [es'8] c'8 [es'8] | % 16
       c'8 [es'8] f'16 [( es'16 d'16 c'16 )] | % 17

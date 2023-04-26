@@ -80,7 +80,7 @@
 
         \new Voice \absolute {
           \clef treble
-          \key c \major
+          \key bes \major
           \time 2/4
           \tempoFunc "Moderato" 4 "72"
           \autoBeamOff

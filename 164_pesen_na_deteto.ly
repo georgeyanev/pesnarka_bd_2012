@@ -134,7 +134,7 @@
         cis''8 b'8 cis''8 d''8 a'4 ( a'4. )
       }
       | % 45
-      \key c \major \time 2/4 | % 45
+      \key a \minor \time 2/4 | % 45
       e'4 \tempo "Adagio"
       a'8. ( a'16 ) -- | % 46
       a'2 | % 47

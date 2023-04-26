@@ -47,7 +47,7 @@
 
     \new Voice \relative c' {
       \clef treble
-      \key c \major
+      \key a \minor
       \time 4/4
       \tempoFunc "Adagio" 4 "56"
       \autoBeamOff

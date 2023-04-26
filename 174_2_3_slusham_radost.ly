@@ -11,7 +11,7 @@
     \include "include/score-layout.ily"
     \new Voice \absolute {
       \clef treble
-      \key g \major
+      \key e \minor
       \time 5/4
       \tempoFunc "Moderato" 4 "80"
       \autoBeamOff
@@ -63,7 +63,7 @@
 
         \new Voice \absolute {
           \clef treble
-          \key g \major
+          \key e \minor
           \time 2/4
           \tempoFunc "Andante" 4 "60"
           \autoBeamOff

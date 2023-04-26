@@ -33,16 +33,16 @@
       \repeat
       volta 2 {
         | % 9
-        \autoBeamOff  r8  c'8  e'8  f'8  g'4  a'4 |
-        c''16 ( [  a'16 ] )  g'16  f'16
-        e'8.  d'16  d'2 ~ | % 11
+        \autoBeamOff  r8  c'8  e'8  g'8  a'4  a'4 |
+        c''16 ( [  b'16 ] )  a'16  g'16
+        f'8.  e'16  d'2 ~ | % 11
         d'16  b16  c'16  d'16  c'4 ~
         c'16  b16  d'16  c'16  b16
         a16  gis16  a16 | % 12
         b4.  a8  a2 \break
       }
 
-      e'4 e'8. e'16 e'4. e'8 |\autoBeamOn f'8. f'16  e'4. \autoBeamOff e'8 a'8 b'8 |  c''4 b'16[ ( a'16 ) ] gis'16 a'16 b'4  ( ~ b'16 [a'16] ) gis'16 f'16 | \break
+      e'4 e'8. e'16 e'4. e'8 |\autoBeamOn f'8. f'16  e'4. \autoBeamOff e'8 a'8 b'8 |  c''4 b'16[ ( a'16 ) ] gis'16 a'16 b'4  ( ~ b'16 [a'16] ) g'16 f'16 | \break
 
       e'2 r8 e'8 a'8 c''8 | e''4. d''8  \tweak direction #up \times 2/3 {
         \once \override Slur.positions = #'(1 . 1) \autoBeamOn c''8  (   b'8 )  a'8
@@ -57,7 +57,7 @@
       b4. ( a8 ) a2 \break \bar ":|."
 
 
-      e'4 e'8. e'16 e'4. e'8 | \autoBeamOn f'8. f'16 e'4. \autoBeamOff e'8 a'8 b'8 |  c''4 b'16  a'16 gis'16 a'16 \autoBeamOn b'4  ( ~ b'16 a'16 ) gis'16 f'16 | \break
+      e'4 e'8. e'16 e'4. e'8 | \autoBeamOn f'8. f'16 e'4. \autoBeamOff e'8 a'8 b'8 |  c''4 b'16  a'16 gis'16 a'16 \autoBeamOn b'4  ( ~ b'16 a'16 ) g'16 f'16 | \break
 
       e'2 r8 \autoBeamOff e'8 a'8 c''8 | e''4. d''8  \tweak direction #up \times 2/3 {
         \once \override Slur.positions = #'(1 . 1) c''8  ( [  b'8 ) ] a'8
