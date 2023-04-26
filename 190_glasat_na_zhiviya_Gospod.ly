@@ -96,7 +96,7 @@
       \time 4/4
       \tweak direction #up \once \omit TupletBracket \times 2/3 {
         \once \override Slur.positions = #'(1 . 1)
-        c''8  ( [ \tempo "rit." b'8 ) ]  a'8 
+        \tempo "         rit." c''8   ( [  b'8 ) ]  a'8 
       }
       \once \omit TupletBracket \times 2/3 {
         gis'8 ( [  a'8
