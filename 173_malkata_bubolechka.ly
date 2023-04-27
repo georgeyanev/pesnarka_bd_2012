@@ -25,7 +25,7 @@
       f'16  )  | % 5
       e'2 r8 \autoBeamOff e'8  a'8  c''8 \break | % 6
       e''4.  d''8 \tweak direction #up \times 2/3 {
-        \once \override Slur.positions = #'(1 . 1) c''8  (  [ b'8 ])  a'8
+        \once \override Slur.positions = #'(1 . 1) c''8  (  [ b'8 ])  a'8 
       }
       gis'16  f'16  e'16  d'16 | % 7
       f'2  e'2 | % 8
@@ -82,7 +82,7 @@
       ми що лю -- би и коп -- ней.
 
       Тъй бу -- бо -- леч -- ка -- та "шеп-" -- ти
-      и се стре -- ми по на -- на -- гор -- ни -- я път,
+      и се стре -- ми по "на-" -- на -- гор -- ни -- я път,
       и преч -- ки -- те ед -- на след "дру-" -- га
       "по-" -- беж -- да -- ва.
       Без -- брой "ска-" -- ли, по -- ля, до -- ли -- ни
@@ -110,12 +110,12 @@
       Shte vi -- dya tuy, du -- sha -- ta
       mi shto lyu -- bi i kop -- ney.
 
-      Tay bu -- bo -- lech -- ka -- ta "shep-" -- ti
+      Tay bu -- "bo-" -- lech -- ka -- ta shep -- ti
       i se stre -- mi po na -- na -- gor -- ni -- ya pat,
       i prech -- ki -- te ed -- na sled "dru-" -- ga
       "po-" -- bezh -- da -- va.
       Bez -- broy "ska-" -- li, po -- lya, do -- li -- ni
-      "sme-" -- lo "pre-" -- mi -- na -- va __
+      "sme-" -- lo pre -- mi -- na -- va __
       i vse na -- pred se tya kam var -- ha
       vaz -- vi -- sya -- va.
 
