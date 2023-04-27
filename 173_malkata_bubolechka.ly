@@ -61,7 +61,7 @@
 
       e'2 r8 \autoBeamOff e'8 a'8 c''8 | e''4. d''8  \tweak direction #up \times 2/3 {
         \once \override Slur.positions = #'(1 . 1) c''8  ( [  b'8 ) ] a'8
-      } gis'16 [( f'16 )] e'16 [(d'16) ] | f'2 e'2 | \break
+      } gis'16 [( f'?16 )] e'16 [(d'16) ] | f'2 e'2 | \break
 
 
       \autoBeamOn  a'4 g'8.  f'16  e'2 |  \bar ".|:"  \autoBeamOff r8 c'8 e' g' a'4 a'8. a'16 |  c''16 b' a' g' e'4 \tempo "V.S." d'2 (| \break

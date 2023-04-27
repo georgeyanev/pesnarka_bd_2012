@@ -1028,13 +1028,13 @@
       \vspace #0.4
       \line {
         \justify {
-          140. \bold "Вяра светла II – Vyara svetla II." Eine andere Melodie, die in der Allgemeinen Okkultklasse gegeben wurde.
+          140. \bold "Вяра светла II – Vyara svetla II." Eine andere Melodie, die in der Allgemeinen Okkultklasse gegeben wurde. Das Lied wurde von Penju Ganev vorgetragen und von seinem Sohn Peter Ganev notiert.  
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          141. \bold  "Вяра светла III – Vyara svetla III." Unpublizierte Variante des Liedes.
+          141. \bold  "Вяра светла III – Vyara svetla III." Unpublizierte Variante des Liedes. Der mittlere Teil ist von einem Schüler aus Varna. 
         }
       }
       \vspace #0.4

@@ -75,7 +75,7 @@
        d''4.
       d''4. g'8 a'8  bes'8 | 
       \time 6/8
-       c''4  d''8 \autoBeamOn e''8  d''8  c''8 |  d''4. (d''4) r8 | \break
+       c''4  d''8 \autoBeamOn e''?8  d''8  c''8 |  d''4. (d''4) r8 | \break
       \key a \minor
       \autoBeamOff a'8 a'8 a'8 c''8 a'8 g'8 | a'4. a'4. |
       f''4.  e''4 a'8  | \break

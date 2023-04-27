@@ -11,7 +11,9 @@
 
     \line { " "Ein Engel rief der Mutter Gottes zu:}
 
-    \line { " "Reine Jungfrau, freue dich! Und ich sage dir wieder: Freue dich!}
+    \line { " "„Reine Jungfrau, freue dich! }
+    
+    \line { " " Und ich sage dir wieder: Freue dich! }
 
     \line { " "Dein Sohn ist vom Grab am dritten Tag nach dem Tod}
 
@@ -24,11 +26,11 @@
 
     \line { " "denn die Herrlichkeit Gottes ist über dich gekommen: }
 
-    \line { " "frohlocke jetzt und jauchze, oh Zion!}
+    \line { " "Frohlocke jetzt und jauchze, oh Zion!}
 
     \line { " "Du, Reine, freue dich, Mutter Gottes}
 
-    \line { " "über die Auferstehung des von dir Geborenen.}
+    \line { " "über die Auferstehung des von dir Geborenen.“}
 
 
   }

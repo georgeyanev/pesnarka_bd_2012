@@ -9,21 +9,10 @@
 
   \column {
 
- \line { 1. Ohne dich ist Finsternis, ohne dich ist Gram. }
-
- \line { "   " Oh, göttlicher Strahl, bescheine mich.}
-
- \line { "   " Trage in mein Herz Freude und Frieden. }
-
- \line { "   " }
-
- \line { 2. Ich erwache aus tiefem Schlaf}
-
- \line { "   " und rufe dich als Kind an.}
-
- \line { "   " Ich glaube immer, dass du}
-
- \line { "   " über mich mit mütterlicher Liebe wachst.}
+ \line { 1. In Tagen des Kampfes, in Tagen der Trauer, }
+ \line { "   " weit weg von dir oh, mein Heimatland}
+ \line { "   " ich denke immer an dich, }
+ \line { "   " ich denke, ich denke immer an dich. }
 
   }
 }

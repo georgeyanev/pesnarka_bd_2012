@@ -43,7 +43,7 @@
       }
 
       \times 2/3  {
-        fis'8 (  [g'8] ) a'8
+        fis'8  [g'8]  a'8
       }
       | % 6
       g'4 ^\fermata a'2 \break | % 7
@@ -51,60 +51,39 @@
       \times 2/3  {
         bes'8  a'8 g'8
       }
-      es'4 (
+      es'4
 
-      fis'4 ) | % 8
+      fis'4 | % 8
       g'4 -- g'4 -- g'4 -- | % 9
-      g'2. \bar "|."
+      g'2. \bar ":|."
     }
     \addlyrics {
-      Без теб е мрак, без теб е
-      скръб. Бо -- "же-" -- ствен лъч, о --
-      грей ме ти. В~сър -- це -- то ми
-      ти  вне -- си, в~сър -- це -- то
-      ми вне -- си Ра -- дост, Мир.}
-      \addlyrics {
-        Bez teb e mrak, bez teb e
-        skrab. Bo -- zhe -- stven lach, o --
-        grey me ti. V~sar -- tse -- to mi
-        ti  vne -- si, v~sar -- tse -- to
-        mi vne -- si Ra -- dost, Mir.}
+      В~дни на бор -- ба, в~дни на пе -- чал,
+      да -- леч от теб мой ро -- ден край,
+      аз ви -- на -- ги мис-ля за теб,
+      аз ви -- на -- ги мис -- ля  мис -- ля за теб.
+    }
+    \addlyrics {
+      V~dni na bor -- ba, v~dni na pe -- chal,
+      da -- lech ot teb moy ro -- den kray,
+      az vi -- na -- gi mis-lya za teb,
+      az vi -- na -- gi mis -- lya  mis -- lya za teb.}
 
-        \header {
-          title = \titleFunc "Ме-хейн" "Me-hein"
-        }
+      \header {
+        title = \titleFunc "Ме-хейн" "Me-hein"
+      }
 
-        \midi{}
+      \midi{}
 
-      } % score
+    } % score
 
-      \markup \fontsize #bgCoupletFontSize {
-        \hspace #2
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-          \line {    2. Пробуждам се от сън дълбок }
-          \line {   "   " и те зова като дете. }
-          \line {   "   " Аз винаги вярвам, че ти }
-          \line {   "   " над мене с Любов бдиш }
-          \line {   "   " майчина. }
-        }
 
-        \hspace #7
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-          \line {    2. Probuzhdam se ot san dalbok }
-          \line {   "   " i te zova kato dete. }
-          \line {   "   " Az vinagi vyarvam, che ti }
-          \line {   "   " nad mene s Lyubov bdish }
-          \line {   "   " maychina. }
-        } %column
-      } % markup
 
-      
-      % include foreign translation(s) of the song
-      \include "lyrics_de/175_mehein_lyrics_de.ly"
 
-    } % bookpart
+    % include foreign translation(s) of the song
+    \include "lyrics_de/175_mehein_lyrics_de.ly"
 
-    % Più mosso
-    %
+  } % bookpart
+
+  % Più mosso
+  %
