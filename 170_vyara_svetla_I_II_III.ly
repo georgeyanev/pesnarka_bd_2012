@@ -162,8 +162,8 @@
           % include foreign translation(s) of the song
           \include "lyrics_de/170_2_vyra_svetla_II_lyrics_de.ly"
 
-             \label #'ref170_3
-  \tocItem \markup "Вяра светла III – Vyara svetla III "
+          \label #'ref170_3
+          \tocItem \markup "Вяра светла III – Vyara svetla III "
 
           \include "include/bookpart-paper.ily"
           \score {

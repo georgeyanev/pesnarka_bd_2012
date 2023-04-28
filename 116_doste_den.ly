@@ -88,7 +88,7 @@
     }
 
     \header {
-      title = \titleFunc "Доще ден" "Doste den"
+      title = \titleFunc "Доще ден" "Doshte den"
     }
 
     \midi{}
