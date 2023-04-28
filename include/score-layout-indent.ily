@@ -1,4 +1,4 @@
-    \version "2.24.0"
+    \version "2.24.1"
     \layout {
       indent = 0.5\cm % first line indentation
       ragged-last = ##f % do spread last line to fill the whole space

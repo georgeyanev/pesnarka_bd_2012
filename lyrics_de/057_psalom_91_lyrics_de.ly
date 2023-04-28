@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.24.1"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Psalm 91" }
 \markup \null
