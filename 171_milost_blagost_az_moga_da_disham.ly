@@ -41,9 +41,9 @@
       Ми -- лост, бла -- гост в~мен Той все -- ли.  Ми -- лост, бла -- гост   в~мен Той все -- ли, в~мен все -- ли, в~мен все -- ли..}
       \addlyrics {
         Mi -- lost,
-        bla -- gost v_men Toi vse -- li. Mi -- lost, bla
-        -- gost v_men Toi vse -- li, v_men vse -- li,
-        v_men vse -- li.}
+        bla -- gost v~men Toi vse -- li. Mi -- lost, bla
+        -- gost v~men Toi vse -- li, v~men vse -- li,
+        v~men vse -- li.}
 
 
         \header {

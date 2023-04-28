@@ -177,7 +177,7 @@
     }
 
     \addlyrics {
-      I -- de ve -- che, | i -- de | "s~pal" -- mo -- vo klon -- che |
+      I -- de ve -- che, | i -- de | "s~pal" -- mo -- vo "klon-" -- che |
       na Mi ra. | Sli -- za toy ot -- | go -- re, | sli -- za toy, ves -- |
       ti -- tel blag. | I -- de ve -- che | "s~pal" -- mo -- vo "klon-" -- che |
       ka -- to si -- | ya -- ni -- e. | I -- de Mi -- rat |

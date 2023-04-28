@@ -166,7 +166,7 @@
       de -- nya za -- poch -- ni. Sta -- vay, da -- shte, __
       Slan -- tse do -- ma da ne te za -- va -- ri.
       Sta -- vay, __ che "mo-" -- mi i mom -- tsi __ vsi kam ni -- va -- ta sa vech trag -- na -- li. __
-      Sta -- vay, __ che mo -- mi i mom -- tsi __ vsi kam ni -- va -- ta sa vech trag -- na -- li. __
+      Sta -- vay, __ che "mo-" -- mi i mom -- tsi __ vsi kam ni -- va -- ta sa vech trag -- na -- li. __
 
       Ni -- va e, da -- shte, Zhi -- vo -- tat,
       de dob -- ro -- to se -- me se sey.

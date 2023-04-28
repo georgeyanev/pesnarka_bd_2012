@@ -59,15 +59,15 @@
     }
 
     \addlyrics {
-      V_na -- cha --
+      V~na -- cha --
       lo be Slo -- vo -- to i Slo -- vo -- to be u
-      Bo -- ga, i Slo -- vo -- to be Bog. To v_na --
+      Bo -- ga, i Slo -- vo -- to be Bog. To v~na --
       cha -- lo be u Bo -- ga. Vsich -- ko chrez Ne --
       go sta -- na i ko -- e -- to e sta -- na --
-      lo, ni -- shto bez Ne -- go ne sta -- na. V_ne --
+      lo, ni -- shto bez Ne -- go ne sta -- na. V~ne --
       go be zhi -- vo -- tat i zhi -- vo -- tat be vi
       -- de -- li -- na na che -- lo -- ve -- tsi -- te.
-      te. I vi -- de -- li -- na -- ta sve -- ti v_tam
+      te. I vi -- de -- li -- na -- ta sve -- ti v~tam
       -- ni -- na -- ta, i tam -- ni -- na -- ta ya ne
       ob -- ze. I ze.
 

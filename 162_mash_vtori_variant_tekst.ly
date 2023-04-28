@@ -74,7 +74,7 @@
 
       в~мир, в~Лю -- бов ще за -- жи -- ве -- ем
 
-      всич -- ки друж -- но и ще про -- сла -- вим Бо -- га с~пе -- сен. Свет -- ли -- на -- та!
+      всич -- ки друж -- но и ще "про-" -- сла -- вим Бо -- га с~пе -- сен. Свет -- ли -- на -- та!
 
 
 
@@ -91,7 +91,7 @@
 
       Id  -- vat na Ze -- mya -- ta, na ho -- ra -- ta v~sar -- tsa -- ta
 
-      i e -- to: razh -- dat se i -- de -- i, svet --  li, no -- vi,
+      i e -- to: __ razh -- dat se i -- de -- i, svet --  li, no -- vi,
 
       kak da "smak-" -- nem tezh -- ki -- te o -- ko -- vi na
 
