@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.24.1"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Vater unser, führe uns nicht in Versuchung" }
 \markup \null
