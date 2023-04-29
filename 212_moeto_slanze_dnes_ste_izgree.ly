@@ -183,7 +183,7 @@
       -- ya -- vya Do --  bro
       -- to   vav sve --
       ta. Shte mis -- lya do --
-      bre,  shte chuv -- stvam do --
+      bre,  shte "chuv-" -- stvam do --
       bre,  shte  po -- stap --
       vam   do -- bre,  ma --
       mo.  __   Ti  shte
