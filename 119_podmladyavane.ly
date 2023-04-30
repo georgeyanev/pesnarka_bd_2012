@@ -57,8 +57,8 @@
     }
 
     \addlyrics {Аз   ще   се 
-   под  --  мла  --  дя,   ти   ще   се   под  --  мла  --  диш, 
-   той   ще   се   под  --  мла  --  ди   то  --  ва   ми   каз  --
+   под  --  мла  --  дя,   ти   ще   се   под  --  "мла-"  --  диш, 
+   той   ще   се   под  --  "мла-"  --  ди   то  --  ва   ми   каз  --
    ва   Лю  --  бов  --  та,   то  --  ва   ми   каз  --  ва   Лю  --
    бов  --  та.   Ний,   ко  --  и  --  то   след  --  ва  --  ме 
    пъ  --  тя   на   Доб  --  ро  --  то,   ще   се   под  --  мла  --
@@ -69,7 +69,7 @@
    ва   ни   каз  --  ва   Лю  --  бов  --  та,   то  --  ва   ни 
    каз  --  ва   Лю  --  бов  --  та. }
     \addlyrics {Az shte se pod --
-  mla --  dya,  ti shte se pod -- mla --  dish,  toy shte se pod --
+  "mla-" --  dya,  ti shte se pod -- mla --  dish,  toy shte se pod --
   mla -- di to -- va mi kaz -- va Lyu -- bov --  ta,  to -- va mi kaz
   -- va Lyu -- bov --  ta.   Niy,  ko -- i -- to sled -- va -- me pa
   -- tya na Dob -- ro --  to,  shte se pod -- mla --  dim;   viy,  ko

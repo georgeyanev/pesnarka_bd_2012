@@ -29,13 +29,7 @@
       a2. | % 11
       des4.  f8  f8  f8 | % 12
       as4.  ges4  f8 | % 13
-      f2. | \override TextScript.extra-offset = #'(8 . 5.2) es2._\markup {
-        \path #0.10 #'((moveto 0 0)
-          (lineto 0 2.75)
-          (moveto 0.5 0)
-          (lineto 0.5 2.75)
-          (closepath))
-      } 
+      f2. | es2.
       \break
 
       \key f \minor \time 3/4 | % 15
@@ -75,7 +69,7 @@
       но   в~мен е Той. Бу --
       ря -- та мен  не раз -- би --
       ра,  но аз я "раз-" -- би
-      -- рам. Бу -- ря -- та ме раз --
+      -- рам. Бу -- "ря-" -- та ме раз --
       търс  -- ва "за  Доб" -- ро --
       то, що е във мен.
     }
@@ -88,9 +82,9 @@
       no ni -- ko -- go ne ob -- vi -- nya
       -- vam. Bu -- rya -- ta e bu -- rya,
       no   v~men e Toy. Bu --
-      rya -- ta men  ne raz -- bi --
+      "rya-" -- ta men  ne raz -- bi --
       ra,  no az ya raz -- bi
-      -- ram. Bu -- rya -- ta me raz --
+      -- ram. "Bu-" -- "rya-" -- ta me raz --
       tars  -- va "za  Dob" -- ro --
       to, shto e vav men.
     }
