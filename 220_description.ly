@@ -143,7 +143,7 @@
       \line {
         \justify {
           16. \bold " Милосърдието – Milosardieto."
-          Musik Atanas D. Kovachev, Test Stojan Russev (Djado Blago).
+          Musik Atanas D. Kovachev, Text Stojan Russev (Djado Blago).
         }
       }
       \vspace #0.4
@@ -249,7 +249,7 @@
       \vspace #0.4
       \line {
         \justify {
-          33. \bold " Ти си проявената Любов – Ti si proyavenata Lyubov."    Text und Musik von Maria Savova.
+          33. \bold " Ти си проявената Любов – Ti si proyavenata Lyubov." Text und Musik von Maria Savova.
         }
       }
     }
@@ -899,7 +899,7 @@
     \column {
       \line {
         \justify {
-          123. \bold "Радост за душата  – Radost za dushata."  In der Niederschrift von Methodi Schivatschev wurde das Lied \italic"Seid rein" betitelt. (zu \italic"Sladko medeno)"
+          123. \bold "Радост за душата  – Radost za dushata." In der Niederschrift von Methodi Schivatschev wurde das Lied \italic"Seid rein" betitelt. (zu \italic"Sladko medeno)"
         }
       }
 
@@ -1085,7 +1085,7 @@
       \vspace #0.4
       \line {
         \justify {
-          149. \bold "Писмото – Pismoto."  Musik und Text von Petar Danov. Das Lied entstand 1926.
+          149. \bold "Писмото – Pismoto." Musik und Text von Petar Danov. Das Lied entstand 1926.
         }
       }
       \vspace #0.4
@@ -1195,7 +1195,7 @@
       \vspace #0.4
       \line {
         \justify {
-          162. \bold "Гласът  на  Живия  Господ  –  Новото  Възкресение  Glasat  na  Zhivija" \bold "Gospod – Novoto Vaskresenie." Изпял Борис Николов, нотирал Петър Ганев. Dieses Lied und noch elf weitere Lieder wurden nach den Erinnerungen der Opernsängerin Liljana Tabakova notiert. Dann wurden sie vor Petar Danov zur endgültigen Bewilligung vorgetragen; sie wurden zum ersten Mal 1942 publiziert. Diese Lieder sind von tiefer Mystik durchdrungen. Im Werk von Petar Danov drücken diese Lieder neue melodische Intonationen aus. Durch das Lehren dieses Liedes deutete Petar Danov eine neue musikalische Form an, die als Beispiel und Basis der Musik der Zukunft dienen wird. Dies deutet Danov mehrmals an (Allgemeine Okkultklasse aus dem Jahr 1923, 3. Jahrgang, 10. Vortrag). Eine solche Andeutung erfolgte auch beim Lehren des Liedes \italic"Kaji mi svetli Boji lach," das jedoch unvollendet blieb. Um diese Lieder gut zu singen, bedarf es eines mystischen Element, d. h. sie sollen mit Ehrfurcht, Ehrlichkeit, Einfachheit, Reinheit und Bildhaftigkeit gesungen werden.
+          162. \bold "Гласът  на  Живия  Господ  –  Новото  Възкресение  Glasat  na  Zhivija" \bold "Gospod – Novoto Vaskresenie." Dieses Lied wurde von Boris Nikolov gesungen und von Peter Ganev notiert. Das Lied sind von tiefer Mystik durchdrungen. Im Werk von Petar Danov drücken diese Lieder neue melodische Intonationen aus. Durch das Lehren dieses Liedes deutete Petar Danov eine neue musikalische Form an, die als Beispiel und Basis der Musik der Zukunft dienen wird. Dies deutet Danov mehrmals an (Allgemeine Okkultklasse aus dem Jahr 1923, 3. Jahrgang, 10. Vortrag). Eine solche Andeutung erfolgte auch beim Lehren des Liedes \italic"Kaji mi svetli Boji lach," das jedoch unvollendet blieb. Um diese Lieder gut zu singen, bedarf es eines mystischen Element, d. h. sie sollen mit Ehrfurcht, Ehrlichkeit, Einfachheit, Reinheit und Bildhaftigkeit gesungen werden.
         }
       }
     }
