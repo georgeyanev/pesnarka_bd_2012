@@ -105,7 +105,7 @@
       \time 9/16  | % 56
       \tempo "(Tempo I)"
       d'8 ^\<  d'8  f'8  a'8. \break | % 57
-      d''8 ~  ^\!  d''8  d''8 ~  d''8. 
+      d''8.  ~  ^\!  d''8. ~ ( \fermata  \afterGrace d''8. { e''32  [d'' cis'' d'')]}
       | % 58
       \time 8/16  | % 58
       g''8.  g''16 ( [  a''16 ) ]
