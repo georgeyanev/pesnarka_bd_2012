@@ -12,7 +12,7 @@
 
     \new Voice \absolute {
       \clef treble
-      \key g \major
+      \key e \minor
       \time 3/4
       \tempoFunc "Andantino" 4 "72"
       \autoBeamOff

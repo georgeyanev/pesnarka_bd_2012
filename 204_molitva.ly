@@ -33,7 +33,7 @@
       \time 4/4 bes4  ^\>  a4  g4. (  a8 ) | % 87
       g2 \! r2 \bar "||" | \break % 88
 
-      \key d \major | % 88
+      \key b \minor | % 88
       r4  b4. ( ^\pp  cis8 ) ^\<  fis,4 | % 89
       b2.  \! a4 |
       g2^\>  a4  fis4  \! | % 91
@@ -78,9 +78,9 @@
       \key dis \minor | \break % 107
       ais4 (  fis'2. | % 108
       eis4 )  dis4 ^\markup{ \bold {rall.} }
-      cisis8. ( [ \!  dis16 ) ]  dis4 ~
+      cisis4  cisis4 ~
       ^\mf | % 109
-      dis2. ^\fermata r8^\markup{\musicglyph "scripts.caesura.straight"} b8^\markup{
+      cisis2. ^\fermata r8^\markup{\musicglyph "scripts.caesura.straight"} b8^\markup{
         \bold {
           Tempo I
         }

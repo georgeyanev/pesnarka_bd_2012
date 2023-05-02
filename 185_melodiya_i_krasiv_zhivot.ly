@@ -12,7 +12,7 @@
 
     \new Voice \absolute {
       \clef treble
-      \key ges \major
+      \key es \minor
       \time 4/4
       \tempoFunc "Adagio" 4 "58"
       \autoBeamOff

@@ -142,7 +142,7 @@
 
     \new Voice \absolute {
       \clef treble
-      \key bes \major
+      \key g \minor
       \time 3/4
       \tempoFunc "Andante" 4 "60"
       \autoBeamOff
@@ -259,7 +259,7 @@
 
     \new Voice \absolute {
       \set Staff.instrumentName = \markup \bold \fontsize #+5 {"6"}
-      \key c \major
+      \key a \minor
       \time 2/4
       \tempoFunc "Andantino" 4 "72"
       \autoBeamOff

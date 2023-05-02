@@ -12,7 +12,7 @@
 
     \new Voice \relative c' {
      \clef treble
-      \key c \major
+      \key a \minor
       \time 6/4
       \tempoFunc "Andantino" 4 "72"
       \autoBeamOff

@@ -12,7 +12,7 @@
 
     \new Voice \absolute {
       \clef treble
-      \key des \major
+      \key bes \minor
       \time 2/4
       \tempoFunc "Andante" 4 "66"
       \autoBeamOff
@@ -96,12 +96,13 @@
         \column {
           \line {   2. Господи, научи ме}
           \line {   "   " да любя всичко живо,}
-          \line {   "   " туй, което Ти създал}
-          \line {   "   " си, и да разнасям аз на}
-          \line {   "   "  вред Твоята нежност,}
-          \line {   "   " Радост и Любов. Да се науча}
-          \line {   "   "  Теб  аз да служа,}
-          \line {   "   " да  благодаря.}
+          \line {   "   " туй, което Ти създал си,}
+          \line {   "   "  и да разнасям аз навред}
+          \line {   "   "   Твоята нежност,}
+          \line {   "   " Радост и Любов. }
+         \line {   "   "  Да се науча}
+          \line {   "   "  Теб  аз да служа, да  благодаря.}
+          
         }
 
         \hspace #5
@@ -109,8 +110,8 @@
         \column {
           \line {   2. Gospodi, nauchi me}
           \line {   "   "da lyubya vsichko zhivo,}
-          \line {   "   "tuy, koeto Ti sazdal}
-          \line {   "   "si, i da raznasyam az na}
+          \line {   "   "tuy, koeto Ti sazdal si, }
+          \line {   "   "i da raznasyam az na}
           \line {   "   " vred Tvoyata nezhnost,}
           \line {   "   "Radost i Lyubov. Da se naucha}
           \line {   "   " Teb  az da sluzha,}

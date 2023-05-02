@@ -35,7 +35,7 @@
       fis'2 ( g'2 ) a'2 | % 265
       \time 4/4  | % 265
       g'2 r2 \bar "||"
-      \key bes \major | % 266
+      \key g \minor | % 266
       d'4 d'4 es'?4. d'8 | % 267
       g'2  bes'2 ^\fermata \break | % 268
       c''2  bes'4  bes'4 | % 269

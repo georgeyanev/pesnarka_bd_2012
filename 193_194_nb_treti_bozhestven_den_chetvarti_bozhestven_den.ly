@@ -12,7 +12,7 @@
 
     \new Voice \absolute {
       \clef treble
-      \key g \major
+      \key e \minor
       \time 3/2
       \tempo "Lento cantabile"
       \autoBeamOff
@@ -27,7 +27,7 @@
       c''2 b'2 r2 | % 7
       r2  e'4  e'4  e'4  d'4 \break | % 8
       e'1 r2 \bar "||"
-      \key c \major | % 9
+      \key a \minor | % 9
       e'2 ^\markup{ \bold {Più mosso} }  f'?4  a'2
       gis'4 | \barNumberCheck #10
       b'4 ( d''4 ) c''4 b'2. \break | % 11
@@ -151,7 +151,7 @@
 
     \new Voice \absolute {
       \clef treble
-      \key g \major
+      \key a \minor
       \time 3/4
       \tempoFunc "Moderato espressivo" 4 "88"
       \autoBeamOff
@@ -172,8 +172,8 @@
       a'2 b'2 | % 13
       c''4 (  a'4 ) d''2 | % 14
       c''4  a'4 b'2 ~ | % 15
-      b'2 r4 b'4 | % 16
-      fis''2. e''4 \break  | % 17
+      \key g \major b'2 r4 b'4 | % 16
+      fis''?2. e''4 \break  | % 17
       d''2 d''4 d''4 | % 18
       c''4 (  a'4 ) b'4 ( c''4 ) | % 19
       b'2 r4 b'4 |
@@ -187,7 +187,7 @@
       a'2 b'4 | % 24
       b'2 r8 b'8 | % 25
       \time 5/4  | % 25
-      g''2 fis''4 e''4 d''4 \break  | % 26
+      g''2 fis''?4 e''4 d''4 \break  | % 26
       e''2 c''4 ( b'4 )  a'4 | % 27
       \time 4/4  | % 27
       d''4 d''4 c''4  a'4 | % 28

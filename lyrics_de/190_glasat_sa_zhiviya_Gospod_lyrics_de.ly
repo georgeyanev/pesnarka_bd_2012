@@ -22,9 +22,9 @@
 
  \line { " "Hört, der Herr spricht jetzt zu euch:}
 
- \line { " "Meine Hand ist nicht kürzer geworden,}
+ \line { " "Meine Hand hat nicht aufgehört,}
 
- \line { " "um zu geben.}
+ \line { " " zu geben.}
 
  \line { " "Ich bin voll mit Überfluss}
 

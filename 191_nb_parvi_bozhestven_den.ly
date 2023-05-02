@@ -32,7 +32,7 @@
       \clef treble
       \key c \minor
       \time 4/2
-      \tempoFunc "Andante cantabile" 2 "50"
+      \tempoFunc "Andante cantabile" 2 "60"
       \autoBeamOff
       \partial 2*3
        r4 c'4 f'2 g'2 | % 2

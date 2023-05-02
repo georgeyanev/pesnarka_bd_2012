@@ -12,7 +12,7 @@
 
     \new Voice \absolute {
       \clef treble
-      \key c \minor
+      \key g \major
       \time 4/4
       \tempoFunc "Lento maestoso" 4 "100"
       \autoBeamOff
@@ -24,6 +24,7 @@
       a'2 a'2 \bar "||"
       | % 7
       \time 6/4  | % 7
+      \key d \minor
       d'4 d'4 d'4 a'4 g'4
       f'4 | % 8
       \time 4/4  | % 8

@@ -221,7 +221,7 @@
             d'2 r2 | % 233
             f'2 -- d'2 -- | % 234
             \time 3/4  | % 234
-            r2 a'8 ^\markup{ \bold {Più mosso} } a'8  | % 235
+            \key d \major r2 a'8 ^\markup{ \bold {Più mosso} } a'8  | % 235
             a'4 a'8 a'8 g'8 a'8 \break | % 236
             \time 4/4  | % 236
             fis'2
@@ -233,7 +233,7 @@
             }
             \bar "||"
 
-            \key a \major | % 237
+           | % 237
             b'4  b'4 r2  | % 238
             r4 fis'4 fis'4 fis'4  | \break % 239
             d'4 ^\markup{ \bold {poco rall.} } e'4 cis'2~ |
@@ -267,6 +267,7 @@
             }
             ^\fermata
             cis''8  |  % 253
+             \key a \major 
             fis''2 ^\fermata r8  ^\markup{ \bold {Poco meno mosso} } cis''8
             cis''8  cis''8  \break | % 254
             cis''4 a'4 r8  cis''8  cis''8
