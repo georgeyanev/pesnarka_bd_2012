@@ -155,7 +155,7 @@
       мо.  __   Ти  ще
       и -- маш,  ма -- мо,  до --
       бър  син.   Ми -- ла мо --
-      я ма  -- мо,  мо -- е -- то
+      я ма-мо,  мо -- е -- то
       Слън --  це
       днес ще  --
       из -- гре -- е  и Жи
@@ -189,7 +189,7 @@
       mo.  __   Ti  shte
       i -- mash,  ma -- mo,  do --
       bar  sin.   Mi -- la mo --
-      ya ma  -- mo,  mo -- e -- to
+      ya ma-mo,  mo -- e -- to
       Slan --  tse
       dnes shte  --
       iz -- gre -- e  i Zhi
