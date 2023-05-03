@@ -11,7 +11,7 @@
     \include "include/score-layout.ily"
     \new Voice \absolute {
       \clef treble
-      \key bes \major
+      \key g \minor
       \time 3/4
       \tempoFunc "Andante" 4 "76"
       \autoBeamOff
