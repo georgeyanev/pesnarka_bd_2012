@@ -129,7 +129,6 @@ cat \
     ../146_bylgarska_rapsodia.ly \
     ../150_balgarska_idiliya.ly \
     ../154_ne_li_dimah.ly \
-    %../155_2_mirat_ide_veche.ly \
     ../156_mirat_ide.ly \
     ../158_mirat_ide_II.ly \
     ../161_duhai_vetre_II.ly \
