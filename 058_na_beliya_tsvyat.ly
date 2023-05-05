@@ -76,7 +76,7 @@
       На -- го -- ре о -- ще да вър -- вим, към вър -- хо -- ве -- те бе --
       ли, е -- фи -- ра бял да поз -- дра -- вим и снеж -- ни -- те кри --
       ста -- ли. е -- ли. Ху -- бост -- та на Бо -- жи свят,
-      бе -- ли -- на -- та, наш е цвят-  веч -- на си -- ла и --
+      бе -- ли -- на -- та, наш е цвят;  веч -- на си -- ла и --
       ма, мрак я не об -- зи -- ма. зи -- ма.
     }
 
@@ -84,7 +84,7 @@
       Na -- go -- re o -- shte da var -- vim, kam var -- ho -- ve -- te be --
       li, e -- fi -- ra byal da poz -- dra -- vim i snezh -- ni -- te kri --
       sta -- li. e -- li. Hu -- bost -- ta na Bo -- zhi svyat,
-      be -- li -- na -- ta, nash e tsvyat-  vech -- na si -- la i --
+      be -- li -- na -- ta, nash e tsvyat;  vech -- na si -- la i --
       ma, mrak ya ne ob -- zi -- ma. zi -- ma.
     }
 
