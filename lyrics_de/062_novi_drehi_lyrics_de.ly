@@ -30,7 +30,7 @@
 
     \line { "   "So schreitet er unaufhörlich voran,}
 
-    \line { "   "in der unausdrücklien Schönheit – }
+    \line { "   "in der unausdrücklichen Schönheit – }
 
     \line { "   "und erreicht das Licht – }
 
