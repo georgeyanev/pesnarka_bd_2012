@@ -243,7 +243,7 @@
       \vspace #0.4
       \line {
         \justify {
-          32. \bold " Слънцето на Любовта – Slantseto na Lyubovta."  Musik und Text von einem Schüler.
+          32. \bold " Слънцето на Любовта – Slantseto na Lyubovta."  Musik und Text von Petko Epitropov.
         }
       }
       \vspace #0.4
@@ -467,8 +467,8 @@
           59. \bold "В мрак тъмнота – V mrak tamnota." 3. März 1926, Allgemeine Okkultklasse, V. Jahrgang, 16. Vortrag. Dieses Lied ist der zweite Teil von \italic"Mahar Benu Aba" und seine Übersetzung zugleich. Bildlich gesprochen, entspricht \italic"v’mrak = Mahar," dem Abstieg. \italic"No slantzeto na jivota" entpricht \italic"Benou," dem Aufstieg. \italic"I nii tragnahme vav patia chist i sviat za nas" entspricht \italic"Aba," was bedeutet: an die Arbeit gehen.
         }
       }
- \vspace #0.4
-        \line {
+      \vspace #0.4
+      \line {
         \justify {
           60. \bold  "В зорите на Живота – V zorite na zhivota."  3. Dezember 1922. Allgemeine Okkultklasse, II. Jahrgang, 10. Vortrag.
         }
@@ -479,7 +479,7 @@
   \markup \fontsize  #+2  {
     \override #'(baseline-skip . 2.2)
     \column {
-      
+
       \line {
         \justify {
           61. \bold  "Бог е Любов – Bog e Lyubov."  Der erste Teil dieses Liedes entstand am 10. Dezember 1922, Allgemeine Okkultklasse, II. Jahrgang, 11. Vortrag; der zweite Teil \italic"Nij ste hodim" am 17. Dezember 1922, d. h. im Laufe des nachfolgenden Vortrages der gleichen Klasse. Diese Übung enthält Bilder und Gestalten. Man beginnt leise zu singen. Die Kraft dieses Liedes liegt im Erleben verborgen. Die menschliche Seele empfängt aus den höheren Regionen die ewige Symphonie, welche aus dem ganzen Kosmos als Lobpreisung des Unendlichen [Gott] kommt. Dieser Gedanke wird im ersten Teil des Liedes \italic"Gott ist Liebe" ausgedrückt. Diese Symphonie erfüllt und verklärt die menschliche Seele, die nun freudig ihren Ruf nach oben sendet. Dies wird im zweiten Teil des Liedes ausgedrückt: \italic"Wir werden auf dem Weg des Lichts wandeln."
@@ -704,7 +704,7 @@
           95. \bold  "Сила, здраве е богатство – Sila, zdrave e bogatstvo."  Das Lied entstand am 3. Januar 1940.
         }
       }
-     
+
     }
   }
 
@@ -713,13 +713,13 @@
   \markup \fontsize  #+2  {
     \override #'(baseline-skip . 2.2)
     \column {
-    
+
       \line {
         \justify {
           96. \bold  "Зов на планината – Zov na planinata."  Das Lied entstand 1937.
         }
       }
-         \vspace #0.4
+      \vspace #0.4
       \line {
         \justify {
           97. \bold "Цветята цъфтяха – Tvetyata tsaftyaha." 22. Januar 1941. Die Blume, die sich geöffnet hat, kann die Sonnenstrahlen empfangen. Das Herz und der Verstand des Menschen müssen sich für die göttlichen Wohltaten öffnen; nur dann kann er wahre Errungenschaften haben.
@@ -897,44 +897,31 @@
   \markup \fontsize  #+2  {
     \override #'(baseline-skip . 2.2)
     \column {
-      \line {
-        \justify {
-          123. \bold "Радост за душата  – Radost za dushata." In der Niederschrift von Methodi Schivatschev wurde das Lied \italic"Seid rein" betitelt. (zu \italic"Sladko medeno)"
-        }
-      }
 
       \vspace #0.4
 
       \line {
         \justify {
-          124. \bold "Мирът иде вече – Mirat ide veche." Version des Liedes \italic"Mirat ide."
-        }
-      }
-
-      \vspace #0.4
-
-      \line {
-        \justify {
-          125. \bold "Мирът иде  – Mirat ide." Die Melodie wurde 1918 von Petar Danov in der Opultschenska-Straße 66 gegeben, drei Tage danach (29. September 1918) beendet Bulgarien ihre Teilnahme am Ersten Weltkrieg. Später ergänzt Petar Danov die Melodie (21. Dezember 1933).
+          123. \bold "Мирът иде  – Mirat ide." Die Melodie wurde 1918 von Petar Danov in der Opultschenska-Straße 66 gegeben, drei Tage danach (29. September 1918) beendet Bulgarien ihre Teilnahme am Ersten Weltkrieg. Später ergänzt Petar Danov die Melodie (21. Dezember 1933).
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          126. \bold "Мирът иде II – Mirat ide II." Adaptiert von Irina Kisiova und Liljana Tabakova. Der Text wurde von Stojanka Ilieva nach dem Wunsch von Petar Danov im Juli 1934 geschrieben. Dann sagte Petar Danov: „Der Frieden kommt aber schwer. Deshalb suchen wir nach ihm und rufen ihn mit einer Melodie.“
+          124. \bold "Мирът иде II – Mirat ide II." Adaptiert von Irina Kisiova und Liljana Tabakova. Der Text wurde von Stojanka Ilieva nach dem Wunsch von Petar Danov im Juli 1934 geschrieben. Dann sagte Petar Danov: „Der Frieden kommt aber schwer. Deshalb suchen wir nach ihm und rufen ihn mit einer Melodie.“
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          127. \bold "Духай ветре II – Duhai vetre II." Erster Teil entstand am 25. Dezember 1942; der zweite Teil, \italic"Hai di di ..." wurde am 30. Dezember 1942 gegeben. Dieses Lied wurde uspünglich in dieser Form gegeben. Später wurde der erste Teil des Liedes nach Wunsch mancher Schüler von Petar Danov geändert und so in der Ausgabe von 1944 publiziert.
+          125. \bold "Духай ветре II – Duhai vetre II." Erster Teil entstand am 25. Dezember 1942; der zweite Teil, \italic"Hai di di ..." wurde am 30. Dezember 1942 gegeben. Dieses Lied wurde uspünglich in dieser Form gegeben. Später wurde der erste Teil des Liedes nach Wunsch mancher Schüler von Petar Danov geändert und so in der Ausgabe von 1944 publiziert.
         }
       }
       \vspace #0.4
 
       \line {
         \justify {
-          128. \bold "Кажи ми, светли Божи лъч – Kazhi mi, svetli Bozhi lach."  19. Dezember 1923, Allgemeinen Okkultklasse, III Jahr, 10 Vortrag. Petar Danov sagt: „Diese Übung können wir jetzt unvollendet lassen – sie ist für die künftige Kultur. Das zweite Stadium der Musik ist das freie Singen. Bei diesem Singen kann die heutige Musik nicht funktionieren, weil der Takt in einer ganz anderen Weise verändert werden muss; außerdem haben die Betonung der Wörter eine besondere Zusammensetzung. Beim freien Singen kann der Mensch ohne Begeisterung nicht singen.“
+          126. \bold "Кажи ми, светли Божи лъч – Kazhi mi, svetli Bozhi lach."  19. Dezember 1923, Allgemeinen Okkultklasse, III Jahr, 10 Vortrag. Petar Danov sagt: „Diese Übung können wir jetzt unvollendet lassen – sie ist für die künftige Kultur. Das zweite Stadium der Musik ist das freie Singen. Bei diesem Singen kann die heutige Musik nicht funktionieren, weil der Takt in einer ganz anderen Weise verändert werden muss; außerdem haben die Betonung der Wörter eine besondere Zusammensetzung. Beim freien Singen kann der Mensch ohne Begeisterung nicht singen.“
         }
       }
 
@@ -942,13 +929,13 @@
       \vspace #0.4
       \line {
         \justify {
-          129. \bold "Марш на светлите сили – Marsh na svetlite sili –Marsch der lichen Mächte." 27. Mai. 1936. Siegreicher Marsch der lichten Engelmächte in der lebendigen Natur, die in ihrem charakteristischen Rhythmus fortschreiten. Mit dieser Musik erhebt sich der Mensch in die Welt der Engel.
+          127. \bold "Марш на светлите сили – Marsh na svetlite sili –Marsch der lichen Mächte." 27. Mai. 1936. Siegreicher Marsch der lichten Engelmächte in der lebendigen Natur, die in ihrem charakteristischen Rhythmus fortschreiten. Mit dieser Musik erhebt sich der Mensch in die Welt der Engel.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          130. \bold "Марш на светлите сили II – Marsh na svetlite sili II." Der Text kommt von Peter Ganev.
+          128. \bold "Марш на светлите сили II – Marsh na svetlite sili II." Der Text kommt von Peter Ganev.
         }
       }
 
@@ -956,13 +943,13 @@
       \vspace #0.5
       \line {
         \justify {
-          131. \bold "Берхан Ази – Berhan Azi."   Das Lied entstand 1936.
+          129. \bold "Берхан Ази – Berhan Azi."   Das Lied entstand 1936.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          132. \bold "Песен на детето  – Pesen na deteto." Das Lied erzählt die Geschichte eines Kindes, das aus dem Trog aussteigen will, in dem es badet. Seine Mutter möchte es daran hindern, und es ist unzufrieden.
+          130. \bold "Песен на детето  – Pesen na deteto." Das Lied erzählt die Geschichte eines Kindes, das aus dem Trog aussteigen will, in dem es badet. Seine Mutter möchte es daran hindern, und es ist unzufrieden.
           Endlich kommt der Sieg! Das Kind steigt aus dem Badezuber und ist glücklich, es geschafft zu haben.
           Es spielt. Schließlich geht das Kind in die Schule, um zu lernen und erhält sein erstes Lesebuch.
           Es spricht zu dem Buch: „Ich habe es geschafft, aus dem Zuber rauszukommen, und auf dieselbe Weise werde ich mit dir fertig werden. Trotz der vielen Schwierigkeiten, die sich mir entgegenstellen, ich werde sie überwinden. Die verschiedenen Gefühle des Kindes sind in jedem der Teile dieses Stücks ausgedrückt.
@@ -977,50 +964,55 @@
     \column {
       \line {
         \justify {
-          133. \bold "Малкият планински извор  – Malkiyat planinski izvor." 27. März 1937, Sofia, Izgrev. Text Stoyanka Ilieva.
+          131. \bold "Малкият планински извор  – Malkiyat planinski izvor." 27. März 1937, Sofia, Izgrev. Text Stoyanka Ilieva.
         }
       }
       \vspace #0.5
 
       \line {
         \justify {
-          134. \bold "Бог е Любов II – Bog e Lyubov II." 25. Februar 1934, in Sofia, Izgrev.
+          132. \bold "Бог е Любов II – Bog e Lyubov II." 25. Februar 1934, in Sofia, Izgrev.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          133. \bold "Радост за душата  – Radost za dushata." In der Niederschrift von Methodi Schivatschev wurde das Lied \italic"Seid rein" betitelt. (zu \italic"Sladko medeno)"
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          134. \bold " „Kъм Фир-Фюр-Фен“ –  „Kam Fir-Fyur-Fen“." Das Lied entstand in den ersten Jahren der Okkulten Schule.
+        }
+      }
+
+
+
+      \vspace #0.5
+      \line {
+        \justify {
+          135. \bold "Кажи ми Ти Истината II – Kazhi mi ti istinata II." Schließt das Original von 1924 ein mit einer Fortsetzung, die Petar Danov 1924 komponierte.
         }
       }
 
       \vspace #0.5
       \line {
         \justify {
-          135. \bold " „Kъм Фир-Фюр-Фен“ –  „Kam Fir-Fyur-Fen“." Das Lied entstand in den ersten Jahren der Okkulten Schule.
-        }
-      }
-
-
-
-      \vspace #0.5
-      \line {
-        \justify {
-          136. \bold "Кажи ми Ти Истината II – Kazhi mi ti istinata II." Schließt das Original von 1924 ein mit einer Fortsetzung, die Petar Danov 1924 komponierte.
-        }
-      }
-
-      \vspace #0.5
-      \line {
-        \justify {
-          137. \bold "Кажи ми ти Истината III – Kazhi mi ti istinata III."  Schließt das Original von 1924 ein mit dem instrumentellen Solo von Simeon Simeonov.
+          136. \bold "Кажи ми ти Истината III – Kazhi mi ti istinata III."  Schließt das Original von 1924 ein mit dem instrumentellen Solo von Simeon Simeonov.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          138. \bold"Свобода е потребна за душата – Svoboda e potrebna za dushata." Es gibt keine Angaben zu der Enstehung des Liedes.
+          137. \bold"Свобода е потребна за душата – Svoboda e potrebna za dushata." Es gibt keine Angaben zu der Enstehung des Liedes.
         }
       }
 
       \vspace #0.5
       \line {
         \justify {
-          139. \bold "Вяра светла I – Vyara svetla I."  Das Lied wurde von Petar Danov in den ersten Jahren der Okkulten Schule komponiert.
+          138. \bold "Вяра светла I – Vyara svetla I."  Das Lied wurde von Petar Danov in den ersten Jahren der Okkulten Schule komponiert.
         }
       }
 
@@ -1028,114 +1020,115 @@
       \vspace #0.4
       \line {
         \justify {
-          140. \bold "Вяра светла II – Vyara svetla II." Eine andere Melodie, die in der Allgemeinen Okkultklasse gegeben wurde. Das Lied wurde von Penju Ganev vorgetragen und von seinem Sohn Peter Ganev notiert.  
+          139. \bold "Вяра светла II – Vyara svetla II." Eine andere Melodie, die in der Allgemeinen Okkultklasse gegeben wurde. Das Lied wurde von Penju Ganev vorgetragen und von seinem Sohn Peter Ganev notiert.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          141. \bold  "Вяра светла III – Vyara svetla III." Unpublizierte Variante des Liedes. Der mittlere Teil ist von einem Schüler aus Varna. 
+          140. \bold  "Вяра светла III – Vyara svetla III." Unpublizierte Variante des Liedes. Der mittlere Teil ist von einem Schüler aus Varna.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          142. \bold  "Милост, благост – Milost, blagost." Petar Danov gab dieses Lied einer Schülerin in den ersten Jahren der Schule.
+          141. \bold  "Милост, благост – Milost, blagost." Petar Danov gab dieses Lied einer Schülerin in den ersten Jahren der Schule.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          143. \bold "Аз мога да дишам – Az moga da disham." Musik und Text von Petar Danov. Das Lied entstand 1938.
+          142. \bold "Аз мога да дишам – Az moga da disham." Musik und Text von Petar Danov. Das Lied entstand 1938.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          144. \bold  "Играта на поточето – Igrata na potocheto." Das Lied entstand 1933.
+          143. \bold  "Играта на поточето – Igrata na potocheto." Das Lied entstand 1933.
         }
       }
 
       \vspace #0.4
       \line {
         \justify {
-          145. \bold  "Малката буболечица – Malkata bubolechitsa." 27. Mai 1933.
+          144. \bold  "Малката буболечица – Malkata bubolechitsa." 27. Mai 1933.
         }
       }
 
       \vspace #0.4
       \line {
         \justify {
-          146. \bold "Да бих Тe слушал  – Da bih Te slushal." 14. März 1940, Sofia, Izgrev.
+          145. \bold "Да бих Тe слушал  – Da bih Te slushal." 14. März 1940, Sofia, Izgrev.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          147. \bold "Слушам – Slusham." 17. Mai 1929, Das Lied ist eine musikalische Übung.
+          146. \bold "Слушам – Slusham." 17. Mai 1929, Das Lied ist eine musikalische Übung.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          148. \bold "Радост – Радост." 27. April 1935, Sofia, Izgrev.
+          147. \bold "Радост – Радост." 27. April 1935, Sofia, Izgrev.
         }
       }
 
       \vspace #0.4
       \line {
         \justify {
-          149. \bold "Писмото – Pismoto." Musik und Text von Petar Danov. Das Lied entstand 1926.
+          148. \bold "Писмото – Pismoto." Musik und Text von Petar Danov. Das Lied entstand 1926.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          150. \bold "Me-хейн – Me-hein."  29. Januar 1941, Text Stojanka Ilieva.
+          149. \bold "Me-хейн – Me-hein."  29. Januar 1941, Text Stojanka Ilieva.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          151. \bold "Житно зърно – Zhitno zarno."  19. Januar 1942, komponiert von Petar Danov, ausgearbeitet von Vessela Nestorova, vollendet am 4. Februar 1942.
+          150. \bold "Житно зърно – Zhitno zarno."  19. Januar 1942, komponiert von Petar Danov, ausgearbeitet von Vessela Nestorova, vollendet am 4. Februar 1942.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          152. \bold "Изворче – Izvorche."  Musik von Vessela Nestorova, Text von Petar Danov.
+          151. \bold "Изворче – Izvorche."  Musik von Vessela Nestorova, Text von Petar Danov.
         }
       }
 
       \vspace #0.4
       \line {
         \justify {
-          153. \bold "Молитва – Molitva." 13 Oktober 1940, Musik und Text von Petar Danov.
+          152. \bold "Молитва – Molitva." 13 Oktober 1940, Musik und Text von Petar Danov.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          154. \bold "Молитва – Molitva." Petar Danov komponierte die Melodie am 3. September 1940. Text Ioana Strateva.
+          153. \bold "Молитва – Molitva." Petar Danov komponierte die Melodie am 3. September 1940. Text Ioana Strateva.
         }
       }
-       \vspace #0.4
-       \line {
-        \justify {
-          155. \bold "Песен за двете сестри – Pesen za dvete sestri."  Das Lied entstand während der Evaluation in Martschaevo 1944.
-        }
-      }
+      \vspace #0.4
+     
     }
   }
 
   \markup \fontsize  #+2  {
     \override #'(baseline-skip . 2.2)
     \column {
-     
+       \line {
+        \justify {
+          154. \bold "Песен за двете сестри – Pesen za dvete sestri."  Das Lied entstand während der Evaluation in Martschaevo 1944.
+        }
+      }
+
       \vspace #0.4
       \line {
         \justify {
-          156. \bold "Пролетна песен – Proletna pesen." Gegeben am 9. März 1933, in Sofia, Izgrev, Text Olga Slavcheva.
+          155. \bold "Пролетна песен – Proletna pesen." Gegeben am 9. März 1933, in Sofia, Izgrev, Text Olga Slavcheva.
         }
       }
 
@@ -1143,7 +1136,7 @@
 
       \line {
         \justify {
-          157. \bold  "Десет теми – Deset temi."
+          156. \bold  "Десет теми – Deset temi."
 
 
           1. Fröhliches Motiv, das Petar Danov in seinen Studienjahren in Amerika eingefallen ist. In der Ausgabe von 1949 wurde das Lied unter dem Titel \italic"Thema 3." publiziert.
@@ -1169,33 +1162,33 @@
       \vspace #0.4
       \line {
         \justify {
-          158. \bold "Мелодия – Красив Живот – Melodiya – Krasiv Zhivot." Das Lied entstand 1933, Text von Stojanka Ilieva. In der Ausgabe von 1949 wurde das Lied mit dem Titel Melodie 13 publiziert.
+          157. \bold "Мелодия – Красив Живот – Melodiya – Krasiv Zhivot." Das Lied entstand 1933, Text von Stojanka Ilieva. In der Ausgabe von 1949 wurde das Lied mit dem Titel Melodie 13 publiziert.
         }
       }
 
       \vspace #0.4
       \line {
         \justify {
-          159. \bold "Мелодия – Озарение – Melodiya – Osarenie." 17. November 1934. Der Text ist von Kalinka Stantschina. In der Ausgabe von wurde das Lied mit dem Titel Melodie 15 und Melodie 34. publiziert.
+          158. \bold "Мелодия – Озарение – Melodiya – Osarenie." 17. November 1934. Der Text ist von Kalinka Stantschina. In der Ausgabe von wurde das Lied mit dem Titel Melodie 15 und Melodie 34. publiziert.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          160. \bold "Мелодия – В радостта на деня – Melodiya – V radostta na denya." 1933. Text von Kalinka Stantschina. In der Ausgabe von 1949 wurde das Lied mit dem Titel Melodie 13 publiziert.
+          159. \bold "Мелодия – В радостта на деня – Melodiya – V radostta na denya." 1933. Text von Kalinka Stantschina. In der Ausgabe von 1949 wurde das Lied mit dem Titel Melodie 13 publiziert.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          161. \bold "Мелодия–Когато се денят пробужда–Melodia–Kogato se denyat probuzhda." 5. November 1943. Jugendokkultklasse XXIII, 5. Vortrag. Text Stojanka Ilieva. In der Ausgabe von wurde das Lied mit dem Titel Melodie 31 publiziert.
+          160. \bold "Мелодия–Когато се денят пробужда–Melodia–Kogato se denyat probuzhda." 5. November 1943. Jugendokkultklasse XXIII, 5. Vortrag. Text Stojanka Ilieva. In der Ausgabe von wurde das Lied mit dem Titel Melodie 31 publiziert.
         }
       }
 
       \vspace #0.4
       \line {
         \justify {
-          162. \bold "Гласът  на  Живия  Господ  –  Новото  Възкресение  Glasat  na  Zhivija" \bold "Gospod – Novoto Vaskresenie." Dieses Lied wurde von Boris Nikolov gesungen und von Peter Ganev notiert. Das Lied sind von tiefer Mystik durchdrungen. Im Werk von Petar Danov drücken diese Lieder neue melodische Intonationen aus. Durch das Lehren dieses Liedes deutete Petar Danov eine neue musikalische Form an, die als Beispiel und Basis der Musik der Zukunft dienen wird. Dies deutet Danov mehrmals an (Allgemeine Okkultklasse aus dem Jahr 1923, 3. Jahrgang, 10. Vortrag). Eine solche Andeutung erfolgte auch beim Lehren des Liedes \italic"Kaji mi svetli Boji lach," das jedoch unvollendet blieb. Um diese Lieder gut zu singen, bedarf es eines mystischen Element, d. h. sie sollen mit Ehrfurcht, Ehrlichkeit, Einfachheit, Reinheit und Bildhaftigkeit gesungen werden.
+          161. \bold "Гласът  на  Живия  Господ  –  Новото  Възкресение  Glasat  na  Zhivija" \bold "Gospod – Novoto Vaskresenie." Dieses Lied wurde von Boris Nikolov gesungen und von Peter Ganev notiert. Das Lied sind von tiefer Mystik durchdrungen. Im Werk von Petar Danov drücken diese Lieder neue melodische Intonationen aus. Durch das Lehren dieses Liedes deutete Petar Danov eine neue musikalische Form an, die als Beispiel und Basis der Musik der Zukunft dienen wird. Dies deutet Danov mehrmals an (Allgemeine Okkultklasse aus dem Jahr 1923, 3. Jahrgang, 10. Vortrag). Eine solche Andeutung erfolgte auch beim Lehren des Liedes \italic"Kaji mi svetli Boji lach," das jedoch unvollendet blieb. Um diese Lieder gut zu singen, bedarf es eines mystischen Element, d. h. sie sollen mit Ehrfurcht, Ehrlichkeit, Einfachheit, Reinheit und Bildhaftigkeit gesungen werden.
         }
       }
     }
@@ -1206,13 +1199,13 @@
     \column {
       \line {
         \justify {
-          163. \bold "Новото Битие – Novoto Bitie." Das Erschaffen des neuen Adams. Gegeben von Petar Danov an Liljana Tabakova in der folgenden Reihenfolge: Erster göttlicher Tag 7. Dezember 1941., Zweiter göttlicher Tag  28. Juli 1942. Dritter göttlicher Tag  1. Oktober 1942. Vierter göttlicher Tag  12. November 1942, Fünfter göttlicher Tag  30. Mai 1943, Sechster göttlicher Tag, 21. Juli 1943, Siebter Göttlicher Tag  15. September 1943. Unter \italic" Neuer Genesis" verstehen wir das neue Leben, welches sich jetzt für die gesamte Menschheit und jedes einzelne Individuum an sich aufzubauen beginnt. Die erste „Genesis“, die in der Bibel beschrieben wurde, symbolisiert das alte Leben. Der alte Adam hat gesündigt. Musikalisch gesprochen, hat er das F nicht sauber genommen, das dem Materiellen in dieser Welt entspricht. Der neue Adam wird diesen Fehler des alten Adams korrigieren. Er wird keine Fehler mehr begehen und nicht mehr sterben. Musikalisch gesprochen bedeutet dies: Er wird die Noten der Tonleiter bis zum A richtig singen. Das A entspricht der 6. Rasse. Es bleibt dann nur noch die Note H, die reife Frucht. Diese Frucht symbolisiert die 7. Rasse. Die sieben Tage Gottes, aus der Genesis, entsprechen den sieben Noten der Tonleiter. So beginnt der erste Tag Gottes mit der Note C. Das bedeutet, dass die Mächte des Lichts, die die Schöpfung der neuen Welt begonnen haben, die Materie des alten Lebens in eine neue, höhere Tonleiter umformen und in sie das Element der Unsterblichkeit einfügen werden. Nach dieser Analogie werden sich im Blut des neuen Adam neue rote Blutkörperchen formen, die von den Eigenschaften des neuen Lebens durchdrungen sein werden. Der zweite Tag Gottes, der mit dem Ton D beginnt, wird das Nervensystem, die Knochen und den Willen transformieren. So wird jeder göttliche Tag etwas Neues in die Struktur des Kosmos und des Menschen hervorbringen. Jeder Mensch wird seine neue Existenz individuell leben. Das Lied endet mit den magischen Worten des kosmischen Geistes Aum, und der Universalseele Aumen. \italic"(Deutung nach Ideen von Petar Danov.)"
+          162. \bold "Новото Битие – Novoto Bitie." Das Erschaffen des neuen Adams. Gegeben von Petar Danov an Liljana Tabakova in der folgenden Reihenfolge: Erster göttlicher Tag 7. Dezember 1941., Zweiter göttlicher Tag  28. Juli 1942. Dritter göttlicher Tag  1. Oktober 1942. Vierter göttlicher Tag  12. November 1942, Fünfter göttlicher Tag  30. Mai 1943, Sechster göttlicher Tag, 21. Juli 1943, Siebter Göttlicher Tag  15. September 1943. Unter \italic" Neuer Genesis" verstehen wir das neue Leben, welches sich jetzt für die gesamte Menschheit und jedes einzelne Individuum an sich aufzubauen beginnt. Die erste „Genesis“, die in der Bibel beschrieben wurde, symbolisiert das alte Leben. Der alte Adam hat gesündigt. Musikalisch gesprochen, hat er das F nicht sauber genommen, das dem Materiellen in dieser Welt entspricht. Der neue Adam wird diesen Fehler des alten Adams korrigieren. Er wird keine Fehler mehr begehen und nicht mehr sterben. Musikalisch gesprochen bedeutet dies: Er wird die Noten der Tonleiter bis zum A richtig singen. Das A entspricht der 6. Rasse. Es bleibt dann nur noch die Note H, die reife Frucht. Diese Frucht symbolisiert die 7. Rasse. Die sieben Tage Gottes, aus der Genesis, entsprechen den sieben Noten der Tonleiter. So beginnt der erste Tag Gottes mit der Note C. Das bedeutet, dass die Mächte des Lichts, die die Schöpfung der neuen Welt begonnen haben, die Materie des alten Lebens in eine neue, höhere Tonleiter umformen und in sie das Element der Unsterblichkeit einfügen werden. Nach dieser Analogie werden sich im Blut des neuen Adam neue rote Blutkörperchen formen, die von den Eigenschaften des neuen Lebens durchdrungen sein werden. Der zweite Tag Gottes, der mit dem Ton D beginnt, wird das Nervensystem, die Knochen und den Willen transformieren. So wird jeder göttliche Tag etwas Neues in die Struktur des Kosmos und des Menschen hervorbringen. Jeder Mensch wird seine neue Existenz individuell leben. Das Lied endet mit den magischen Worten des kosmischen Geistes Aum, und der Universalseele Aumen. \italic"(Deutung nach Ideen von Petar Danov.)"
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          164. \bold "Вътрешният глас на Бога – Vatreshniyat glas na Boga." Petar Danov sagte: „Diese Worte sind in der Sprache Vatan geschrieben. Sie bedeuten: Liebe und sei frei. Höre auf die innere Stimme Gottes. Schreite ohne
+          163. \bold "Вътрешният глас на Бога – Vatreshniyat glas na Boga." Petar Danov sagte: „Diese Worte sind in der Sprache Vatan geschrieben. Sie bedeuten: Liebe und sei frei. Höre auf die innere Stimme Gottes. Schreite ohne
           Zögern auf deinem Wege fort.“
         }
       }
@@ -1220,25 +1213,25 @@
       \vspace #0.5
       \line {
         \justify {
-          165. \bold "Една вечна истина – Edna vechna istina." Das Lied wurde am 18. April 1943 im Beinsein von Liljana Tabakova komponiert. Der Text ist in einer alten, nicht übersetzbaren Sprache geschrieben. Es geht um die erste große Seele, die Mittlerin der Liebe. Dieses Lied muss als Meditation gesungen werden, mit Konzentration und mystischer Andacht.
+          164. \bold "Една вечна истина – Edna vechna istina." Das Lied wurde am 18. April 1943 im Beinsein von Liljana Tabakova komponiert. Der Text ist in einer alten, nicht übersetzbaren Sprache geschrieben. Es geht um die erste große Seele, die Mittlerin der Liebe. Dieses Lied muss als Meditation gesungen werden, mit Konzentration und mystischer Andacht.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          166. \bold  "Химни на Слънцето – Himni na slantseto." Das Lied wurde am 5. Mai 1942 von Petar Danov im Beisein Liljana Tabakova. Mit diesem Lied werdet ihr die aufgehende Sonne begrüßen. Dies ist das Gebet zum Sonnenaufgang. Es ist eine majestätische Hymne an alle Sonnen. Diese Hymnen werden auch von den Engeln gesungen. Dieses Lied wird zusammen mit dem nächsten \italic"Molitva" ausgeführt.
+          165. \bold  "Химни на Слънцето – Himni na slantseto." Das Lied wurde am 5. Mai 1942 von Petar Danov im Beisein Liljana Tabakova. Mit diesem Lied werdet ihr die aufgehende Sonne begrüßen. Dies ist das Gebet zum Sonnenaufgang. Es ist eine majestätische Hymne an alle Sonnen. Diese Hymnen werden auch von den Engeln gesungen. Dieses Lied wird zusammen mit dem nächsten \italic"Molitva" ausgeführt.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          167. \bold  "Молитва – Molitva."  Petar Danov komponierte im Beisein von Liljana Tabakova und wird mit den Hymnen an die Sonne zusammengesungen.
+          166. \bold  "Молитва – Molitva."  Petar Danov komponierte im Beisein von Liljana Tabakova und wird mit den Hymnen an die Sonne zusammengesungen.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          168. \bold  "Божията Любов ме озари – Bozhiyata Lyubov me ozari."  Petar Danov komponierte das Lied am 13. März 1942 im Beisein von Liljana Tabakova.
+          167. \bold  "Божията Любов ме озари – Bozhiyata Lyubov me ozari."  Petar Danov komponierte das Lied am 13. März 1942 im Beisein von Liljana Tabakova.
         }
       }
     }
@@ -1249,50 +1242,50 @@
     \column {
       \line {
         \justify {
-          169. \bold  "Песента на ангелите – Pesenta na angelite."  Petar Danov komponierte das Lied am 15. April 1943 im Beisein von Liljana Tabakova. Petar Danov sagt: „Durch dieses Liedes könnt ihr euch mit den Engeln verbingen; ihr könnt wie sie singen und beten. Ihr könnt wie sie werden, den Namen Gottes lobpreisen und seinen Willen hier auf der Erde und oben im Himmel erfüllen.“
+          168. \bold  "Песента на ангелите – Pesenta na angelite."  Petar Danov komponierte das Lied am 15. April 1943 im Beisein von Liljana Tabakova. Petar Danov sagt: „Durch dieses Liedes könnt ihr euch mit den Engeln verbingen; ihr könnt wie sie singen und beten. Ihr könnt wie sie werden, den Namen Gottes lobpreisen und seinen Willen hier auf der Erde und oben im Himmel erfüllen.“
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          170. \bold  "Господи, колко те обичам! – Gospodi, kolko te obicham!" Petar Danov komponierte das Lied am 22. August 1943 im Beisein von Liljana Tabakova.
+          169. \bold  "Господи, колко те обичам! – Gospodi, kolko te obicham!" Petar Danov komponierte das Lied am 22. August 1943 im Beisein von Liljana Tabakova.
         }
       }
 
       \vspace #0.5
       \line {
         \justify {
-          171. \bold  "Кажи ми светли Божи лъч II  – Kazhi mi svetli Bozhi lach II." Petar Danov komponierte das Lied am 26. Mai 1943 im Beisein von Liljana Tabakova. Sie enthält den Text eines Liedes mit demselben Titel, gegeben 1923.
+          170. \bold  "Кажи ми светли Божи лъч II  – Kazhi mi svetli Bozhi lach II." Petar Danov komponierte das Lied am 26. Mai 1943 im Beisein von Liljana Tabakova. Sie enthält den Text eines Liedes mit demselben Titel, gegeben 1923.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          172. \bold  "Моето слънце днес ще изгрее – Moeto slantse dnes ste izgree."  Begonnen in der Jugendokkultklasse am 29. Oktober 1943, in Sofia, Izgreva, beendet im Dorf Martschaevo am 17. August 1944. Notiert von Liljana Tabakova.
+          171. \bold  "Моето слънце днес ще изгрее – Moeto slantse dnes ste izgree."  Begonnen in der Jugendokkultklasse am 29. Oktober 1943, in Sofia, Izgreva, beendet im Dorf Martschaevo am 17. August 1944. Notiert von Liljana Tabakova.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          173. \bold   "Ти ще сполучиш в Живота – Ti shte spoluchish v zhivota." Petar Danov komponierte das Lied am 24. Januar 1941 im Beisein Liljana Tabakova. Petar Danov sagt: „Wenn der Mensch singt und an die Engel und an ihr außergewähnlich schönes Leben denkt, wird er im Leben immer erfolgreich sein.“
+          172. \bold   "Ти ще сполучиш в Живота – Ti shte spoluchish v zhivota." Petar Danov komponierte das Lied am 24. Januar 1941 im Beisein Liljana Tabakova. Petar Danov sagt: „Wenn der Mensch singt und an die Engel und an ihr außergewähnlich schönes Leben denkt, wird er im Leben immer erfolgreich sein.“
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          174. \bold   "Зора на Новия живот – Zora na Novia zhivot." Petar Danov komponierte das Lied am 3. Juni 1941  im Beisein von Liljana Tabakova.
+          173. \bold   "Зора на Новия живот – Zora na Novia zhivot." Petar Danov komponierte das Lied am 3. Juni 1941  im Beisein von Liljana Tabakova.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          175. \bold  "Отче наш, не ни въвеждай – Otche nash, ne ni vavezhday."  Petar Danov komponierte das Lied am 17. August 1944 im Dorf Martscheievo, notiert von Liljana Tabakova.
+          174. \bold  "Отче наш, не ни въвеждай – Otche nash, ne ni vavezhday."  Petar Danov komponierte das Lied am 17. August 1944 im Dorf Martscheievo, notiert von Liljana Tabakova.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          176. \bold  "Странник съм в този свят – Strannik sam v tozi svyat." Von Petar Danov gesungen im Vitoscha-Gebirge im Camp El Schadai am 16. Juni 1941. Dieses Lied ist das Gebet von Petar Danov, der ein Fremder in dieser Welt war; fremd für alle auf der Erde und allem Irdischem gegenüber. Er verließ sich nur auf Ihn und wandte sich in seinen Gebeten allein an Ihn. Und Gott, der Herr, nahm sein Gebet an und wandelte es in eine Wirklichkeit  für das Leben der Erde um.
+          175. \bold  "Странник съм в този свят – Strannik sam v tozi svyat." Von Petar Danov gesungen im Vitoscha-Gebirge im Camp El Schadai am 16. Juni 1941. Dieses Lied ist das Gebet von Petar Danov, der ein Fremder in dieser Welt war; fremd für alle auf der Erde und allem Irdischem gegenüber. Er verließ sich nur auf Ihn und wandte sich in seinen Gebeten allein an Ihn. Und Gott, der Herr, nahm sein Gebet an und wandelte es in eine Wirklichkeit  für das Leben der Erde um.
         }
       }
     }

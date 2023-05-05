@@ -28,8 +28,8 @@
       f'4  es'2 | % 9
       \time 2/4  | % 9
 
-      \slurDashed  des'16^\markup { \italic {sostenuto} }  [(  
-      c'16 )] \slurSolid 
+      \slurDashed  des'16^\markup { \italic {sostenuto} }  [(
+      c'16 )] \slurSolid
       des'16  es'16
       f'8  as'8 |
       f'4 ^\markup{ \italic {a tempo} }  es'4 \break | % 11
@@ -100,22 +100,22 @@
           \line {   "   "  и да разнасям аз навред}
           \line {   "   "   Твоята нежност,}
           \line {   "   " Радост и Любов. }
-         \line {   "   "  Да се науча}
+          \line {   "   "  Да се науча}
           \line {   "   "  Теб  аз да служа, да  благодаря.}
-          
+
         }
 
         \hspace #5
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
         \column {
           \line {   2. Gospodi, nauchi me}
-          \line {   "   "da lyubya vsichko zhivo,}
-          \line {   "   "tuy, koeto Ti sazdal si, }
-          \line {   "   "i da raznasyam az na}
-          \line {   "   " vred Tvoyata nezhnost,}
-          \line {   "   "Radost i Lyubov. Da se naucha}
-          \line {   "   " Teb  az da sluzha,}
-          \line {   "   "da  blagodarya.}
+          \line {   "   " da lyubya vsichko zhivo,}
+          \line {   "   " tuy, koeto Ti sazdal si,}
+          \line {   "   "  i da raznasyam az navred}
+          \line {   "   "   Tvoyata nezhnost,}
+          \line {   "   " Radost i Lyubov. }
+          \line {   "   "  Da se naucha}
+          \line {   "   "  Teb  az da sluzha, da  blagodarya.}
         } %column
       } % markup
 

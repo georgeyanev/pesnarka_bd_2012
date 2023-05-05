@@ -170,7 +170,7 @@
 
   } % score
 
-  \markup \dc-one "D. C. con repitione"
+  \markup \dc-one "D. C. con repetitione"
 
   \markup \empty-two
 

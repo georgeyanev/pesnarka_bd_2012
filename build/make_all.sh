@@ -129,8 +129,7 @@ cat \
     ../146_bylgarska_rapsodia.ly \
     ../150_balgarska_idiliya.ly \
     ../154_ne_li_dimah.ly \
-    ../155_1_radost_sa_dushata.ly \
-    ../155_2_mirat_ide_veche.ly \
+    %../155_2_mirat_ide_veche.ly \
     ../156_mirat_ide.ly \
     ../158_mirat_ide_II.ly \
     ../161_duhai_vetre_II.ly \
@@ -141,7 +140,9 @@ cat \
     ../164_pesen_na_deteto.ly \
     ../165_malkiyat_planinski_izvor.ly \
     ../166_Bog_e_Lyubov_II.ly \
-    ../167_168_Kam_fir_fur_fen_kazhi_mi_ti_istinata_II.ly \
+    ../155_1_radost_sa_dushata.ly \
+    ../167_kam_fir_fur_fen.ly \
+    ../168_kazhi_mi_ti_istinata_II.ly \
     ../169_1_kazhi_mi_ti_isinata_III.ly \
     ../169_2_svoboda_e_potrebna_za_dushata.ly \
     ../170_vyara_svetla_I_II_III.ly \
