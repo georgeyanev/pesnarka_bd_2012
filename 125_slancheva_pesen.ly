@@ -85,7 +85,7 @@
     \addlyrics {
       Про --
       лет е веч, "свет-" -- ло и "топ-" -- ло
-      е на -- вред: Слън -- це гре --
+      е на -- вред -- Слън -- це гре --
       е, да, "про-" -- лет е дош -- ла. Ра
       -- дост бли -- ка "в~ко-" -- ше -- ра
       ни: бън, всич -- ки бър -- зат да
@@ -109,7 +109,7 @@
     }
     \addlyrics {Pro --
       let e vech, svet -- lo i top -- lo
-      e na -- vred: Slan -- tse gre --
+      e na -- vred -- Slan -- tse gre --
       e, da, pro -- let e dosh -- la. Ra
       -- dost bli -- ka "v~ko-" -- she -- ra
       ni: ban, vsich -- ki bar -- zat da
