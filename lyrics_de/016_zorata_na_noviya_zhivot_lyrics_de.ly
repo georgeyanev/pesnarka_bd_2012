@@ -5,8 +5,6 @@
 \markup \null
 \markup \fontsize #+1.7 {
 
-  \hspace #-3
-  \vspace #0.5
   \override #'(baseline-skip . 1.8)
 
   \column {
@@ -25,19 +23,19 @@
     \line {   "   "ein Leben der Freude.}
 
     \line { " " }
-    \line { 2. Und die Vögel erfüllen die Luft }
-    \line {   "   "mit Begeisterung und süßen Liedern im Chor, }
+    \line { 2. Und die Vögel erfüllen die Luft mit }
+    \line {   "   "Begeisterung und süßen Liedern im Chor, }
     \line {   "   " damit sie die Harmonie ergänzen }
     \line {   "   " im großen himmlischen Hof. }
 
     \line { "   " \italic { Refrain:}  }
 
   }
-
+ \hspace #1
   \override #'(baseline-skip . 1.8)
+ 
 
   \column {
-    
     \line { 3. Es flimmert  }
     \line {   "   " die leichtbeschwingtе Morgenröte }
     \line {   "   " und erweckt unsere Seelen; }

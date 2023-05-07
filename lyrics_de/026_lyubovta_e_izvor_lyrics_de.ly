@@ -2,7 +2,7 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Die Liebe ist eine Quelle" }
 \markup \fontsize #+1.7 {
-  \hspace #-1
+  
   \vspace #0.5
   \override #'(baseline-skip . 1.8)
 
@@ -12,9 +12,10 @@
 
     \line {   "   "sie gebiert das Leben}
 
-    \line {   "   "und eine allheilige Pflicht sät sie in }
+    \line {   "   "und eine allheilige Pflicht }
+       \line {   "   " sät sie in ihm sanft: }
 
-    \line {   "   "ihm sanft: auf dass es immer voranschreitet }
+    \line {   "   " auf dass es immer voranschreitet }
 
     \line {   "   "im Streben nach dem Guten,}
 
@@ -45,23 +46,24 @@
 
     \line {   "   "sie sät immerdar}
 
-    \line {   "   "die lieben Samenkörnchen,}
+    \line {   "   "die lieben Samenkörnchen, aus denen}
 
-    \line {   "   "aus denen die gütigen Wohltaten sprießen.}
+    \line {   "   " die gütigen Wohltaten sprießen.}
 
     \line { " " }
     \line { "   " \italic { Refrain ...}  }
 
 
   }
-
+\hspace #1
 
   \override #'(baseline-skip . 1.8)
+
 
   \column {
 
     \line {   3. Dieses große Geheimnis, }
-            \line {   "   "   wer es gut versteht,}
+    \line {   "   "   wer es gut versteht,}
 
     \line {   "   "öffnet seine liebe Seele am Morgen,}
 
@@ -73,8 +75,8 @@
     \line { " " }
 
     \line {   4. Die Sonne, die den Menschen }
-              
-         \line {   "   "       zur rechten Zeit belebt,}
+
+    \line {   "   "       zur rechten Zeit belebt,}
 
     \line {   "   " scheint warm, erweckt und lässt gedeihen}
 

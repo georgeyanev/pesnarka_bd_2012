@@ -130,30 +130,34 @@
 
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #-2
+ 
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line {   2. Нежни цветя край него цъфтят,}
       \line {   "   "  приказки чудни тихо редят,  }
       \line {   "   " нимфи игриви тук танци плетат,}
       \line {   "   " в губера росен стъпки трептят. }
-      \line {   "   "  Нощем се оглеждат в извора  звезди.}
+      \line {   "   "  Нощем се оглеждат}
+      \line {   "   "  в извора  звезди.}
       \line {   "   "  И блика, дава  той без спир,}
       \line {   "   "  тъй дава Любовта. }
-      \line {   "   "   В сърцето на човека изгрява Радостта.}
+      \line {   "   "   В сърцето на човека}
+      \line {   "   "    изгрява Радостта.}
     }
 
-    \hspace #0
+ \hspace #3
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line {   2. Nezhni tsvetya kray nego tsaftyat,}
       \line {   "   "  prikazki chudni tiho redyat,  }
       \line {   "   " nimfi igrivi tuk tantsi pletat,}
       \line {   "   " vgubera rosen stapki treptyat. }
-      \line {   "   "  Noshtem se oglezhdat v izvora  zvezdi. }
+      \line {   "   "  Noshtem se oglezhdat }
+      \line {   "   "  v izvora  zvezdi. }
       \line {   "   "   I blika, dava  toy bez spir,}
       \line {   "   "  tay dava Lyubovta. }
-      \line {   "   "   V sartseto na choveka izgryava Radostta.}
+      \line {   "   "   V sartseto na choveka}
+      \line {   "   "   izgryava Radostta.}
     } %column
   } % markup
 

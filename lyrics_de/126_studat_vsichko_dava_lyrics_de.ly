@@ -1,37 +1,37 @@
 \version "2.24.1"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Die Kälte gibt alles" }
- \markup \null
- \markup \null
+\markup \null
+\markup \null
 \markup \fontsize #+1.7 {
-  \hspace #-2
+
   \vspace #1
   \override #'(baseline-skip . 1.8)
 
 
   \column {
-   \line { " "  Die Kälte gibt alles. Kalt bist du,}
+    \line { " "  Die Kälte gibt alles. Kalt bist du,}
 
     \line { " " aber schützt uns vor der Kälte.}
 
     \line { " " Kalt bist du, aber schützt uns vor dem Frost.}
-    
+
     \line { " "  Kalt bist du, aber schützt uns vor dem Frost.}
 
     \line { " "  Kalt bist du, aber bringst uns Reinheit.}
 
-   \line { " "   Kalt bist du, aber bringst uns Reinheit}
+    \line { " "   Kalt bist du, aber bringst uns Reinheit}
 
-   \line { " "  }
-      
+    \line { " "  }
 
-   \line { " "  Die Kälte gibt alles.}
 
-   \line { " "  Sie ist der gute Diener,}
+    \line { " "  Die Kälte gibt alles.}
+
+    \line { " "  Sie ist der gute Diener,}
 
     \line { " " der von der Liebe inspiriert wird.}
 
-   \line { " "  Für viele ist das verwunderlich,}
+    \line { " "  Für viele ist das verwunderlich,}
 
     \line { " " aber das wissen auch die Regentropfen.}
 
@@ -45,32 +45,32 @@
 
     \line { " " Dein Gewand ist weiß.}
 
-   
+
 
   }
-  
-  
-     \override #'(baseline-skip . 1.8)
-    \column {
- 
-  
+
+
+  \override #'(baseline-skip . 1.8)
+  \column {
+
+
     \line { " " Kalt bist du, }
-           \line { " "   aber rettest uns vor dem Frost.}
+    \line { " "   aber rettest uns vor dem Frost.}
 
     \line { " " Seit Ewigkeit waren die menschlichen  }
-            
-       \line { " "  Herzen für dich verschlossen,}
+
+    \line { " "  Herzen für dich verschlossen,}
 
     \line { " " da du das Alte ausziehst, das Alte, }
-            
-        \line { " " und das Neue faltest, das Neue.}
+
+    \line { " " und das Neue faltest, das Neue.}
 
     \line { " "  Kalt bist du, }
-      \line { " "        aber rettest uns vor der Kälte.}
+    \line { " "        aber rettest uns vor der Kälte.}
 
- 
-    
-      \line { " "  }
+
+
+    \line { " "  }
 
     \line { " " Und wenn es Frühling wird}
 
@@ -85,8 +85,8 @@
     \line { " " du versprichst wenig, gibst viel}
 
     \line { " " und jede deiner Gaben }
-            
-       \line { " "  begleitest du mit Reinheit.}
+
+    \line { " "  begleitest du mit Reinheit.}
 
   }
 }

@@ -138,7 +138,7 @@
     }
     \"rightBraces018"
 
-    \hspace #7
+    \hspace #3
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
