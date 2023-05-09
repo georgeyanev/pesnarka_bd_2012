@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Bei der Quelle" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.0 {
+\markup \fontsize #+1.7 {
 
  
  
