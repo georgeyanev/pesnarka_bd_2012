@@ -4,8 +4,11 @@
   var previous = root.translitbg;
 
   var translitbg = {
-    go: function(text) {
+    go1: function(text) {
       return transliterate(text, TranslitBGModes.STREAMLINED);
+    },
+    go2: function(text) {
+      return transliterate(text, TranslitBGModes.ANCIENNEN1);
     },
     noConflict: function() {
       root.translitbg = previous;
@@ -93,6 +96,79 @@
         'Ь' : 'Y',
         'Ю' : 'Yu',
         'Я' : 'Ya'
+      }
+    },
+    ANCIENNEN1 : { 
+      tokens : {
+        // Буквеното съчетание „ия“, когато е в края на думата, се изписва и предава чрез „ia“.
+        ia : {
+        }
+      },
+      cyr2lat: {
+        // lower case
+        'а' : 'a',
+        'б' : 'b',
+        'в' : 'v',
+        'г' : 'g',
+        'д' : 'd',
+        'е' : 'e',
+        'ж' : 'ž',
+        'з' : 'z',
+        'и' : 'i',
+        'ѝ' : 'i',
+        'й' : 'j',
+        'к' : 'k',
+        'л' : 'l',
+        'м' : 'm',
+        'н' : 'n',
+        'о' : 'o',
+        'п' : 'p',
+        'р' : 'r',
+        'с' : 's',
+        'т' : 't',
+        'у' : 'u',
+        'ф' : 'f',
+        'х' : 'h',
+        'ц' : 'c',
+        'ч' : 'č',
+        'ш' : 'š',
+        'щ' : 'št',
+        'ъ' : 'ă',
+        'ь' : 'j',
+        'ю' : 'ju',
+        'я' : 'ja',
+        // upper case
+        'А' : 'A',
+        'Б' : 'B',
+        'В' : 'V',
+        'Г' : 'G',
+        'Д' : 'D',
+        'Е' : 'E',
+        'Ж' : 'Ž',
+        'З' : 'Z',
+        'И' : 'I',
+        'Ѝ' : 'I',
+        'Й' : 'J',
+        'К' : 'K',
+        'Л' : 'L',
+        'М' : 'M',
+        'Н' : 'N',
+        'О' : 'O',
+        'П' : 'P',
+        'Р' : 'R',
+        'С' : 'S',
+        'Т' : 'T',
+        'У' : 'U',
+        'Ф' : 'F',
+        'Х' : 'H',
+        'Ц' : 'C',
+        'Ч' : 'Č',
+        'Ш' : 'Š',
+        'Щ' : 'Št',
+        'Ъ' : 'Ă',
+        'Ь' : 'J',
+        'Ю' : 'Ju',
+        'Я' : 'Ja',
       }
     },
     // // TODO: БДС ISO 9:2001
