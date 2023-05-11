@@ -35,7 +35,7 @@
 
 \bookpart {
    \label #'ref050
-  \tocItem \markup "Небето се отваря – Nebeto se otvarya"
+  \tocItem \markup "Небето се отваря – Nebeto se otvarja"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -63,13 +63,13 @@
     }
 
     \addlyrics {
-      Ne -- be -- to se ot -- va -- rya i An -- ge -- li -- te
-      pe -- yat. I mol -- ni -- i ble -- stya --
-      shti ta -- mi i zdrach pi -- le -- yat. I yat.
+      "1. Ne" -- be -- to se ot -- va -- rja i An -- ge -- li -- te
+      pe -- jat. I mol -- ni -- i ble -- stja --
+      šti tă -- mi i zdrač pi -- le -- jat. I jat.
     }
 
     \header {
-      title = \titleFunc "Небето се отваря" "Nebeto se otvarya"
+      title = \titleFunc "Небето се отваря" "Nebeto se otvarja"
     }
 
     \midi{}
@@ -118,42 +118,42 @@
 
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
+     \column {
       \line {   2. Hristos otgore sliza}
 
-      \line {   "   " vav Svoyata darzhava}
+      \line {   "   " văv Svojata dăržava}
 
-      \line {   "   " s mogashtestvo i sila,}
+      \line {   "   " s mogăštestvo i sila,}
 
-      \line {   "   " vav vsichkata Si slava.}
+      \line {   "   " văv vsičkata Si slava.}
       \line {   "   "}
 
-      \line {   3.  Elate, bratya, vsichki,}
+      \line {   3.  Elate, bratja, vsički,}
 
-      \line {   "   " oblecheni vav byalo,}
+      \line {   "   " oblečeni văv bjalo,}
 
-      \line {   "   " da Go posreshtnem s Radost,}
+      \line {   "   " da Go posreštnem s Radost,}
 
-      \line {   "   " tarzhestveno i slavno.}
+      \line {   "   " tăržestveno i slavno.}
       \line {   "   "}
 
-      \line {   4.  Toy ide na Zemyata}
+      \line {   4.  Toj ide na Zemjata}
 
-      \line {   "   " bezkrayno da tsaruva,}
+      \line {   "   " bezkrajno da caruva,}
 
-      \line {   "   " zhivot vav Istinata}
+      \line {   "   " život văv Istinata}
 
-      \line {   "   " na vsichki da daruva.}
+      \line {   "   " na vsički da daruva.}
       \line {   "   "}
 
-      \line {  5.  Blagosloveno tsarstvo}
+      \line {  5.  Blagosloveno carstvo}
 
-      \line {   "   " na Boga Triedinniy}
+      \line {   "   " na Boga Triedinnij}
 
       \line {   "   " ot sega i do veka,}
 
-      \line {   "   " prez vsichkite godini.  }
-    } %column
+      \line {   "   " prez vsičkite godini.  }
+    }  %column
     \"rightBraces050"
   } % markup
 

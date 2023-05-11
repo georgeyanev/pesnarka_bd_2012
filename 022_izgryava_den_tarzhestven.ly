@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref022
-  \tocItem \markup "Изгрява вече ден тържествен – Izgryava veche den tarzhestven"
+  \tocItem \markup "Изгрява вече ден тържествен – Izgrjava veče den tăržestven"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -40,21 +40,20 @@
       та об -- но -- вя -- ва и веч -- но тя го под
       -- мла -- дя -- ва.
     }
-
-    \addlyrics {
-      Iz -- grya -- va ve -- che den tar -- zhe -- stven, pred -- re -- che
-      -- ni -- yat den Bo -- zhe -- stven, na dni --
-      te di -- a -- de -- ma, sas svet -- li -- na go
-      -- lya -- ma. E -- la -- te da zhi -- ve -- em vav
-      Lyu -- bov -- ta chu -- des -- na. E -- la -- te
+\addlyrics {
+      Iz -- grja -- va ve -- če den tăr -- že -- stven, pred -- re -- če
+      -- ni -- jat den Bo -- že -- stven, na dni --
+      te di -- a -- de -- ma, săs svet -- li -- na go
+      -- lja -- ma. E -- la -- te da ži -- ve -- em văv
+      Lju -- bov -- ta ču -- des -- na. E -- la -- te
       da pri -- e -- mem taz bla -- go -- dat ne --
       bes -- na, e -- la -- te da pri -- e -- mem taz
-      bla -- go -- dat ne -- bes -- na, shto zhi -- vo --
-      ta ob -- no -- vya -- va i vech -- no tya go pod
-      -- "mla-" -- dya -- va.
+      bla -- go -- dat ne -- bes -- na, što ži -- vo --
+      ta ob -- no -- vja -- va i več -- no tja go pod
+      -- "mla -" -- dja -- va.
     }
     \header {
-      title = \titleFunc "Изгрява вече ден тържествен" "Izgryava veche den tarzhestven"
+      title = \titleFunc "Изгрява вече ден тържествен" "Izgrjava veče den tăržestven"
     }
 
     \midi{}
@@ -64,10 +63,10 @@
   \pageBreak
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+    \hspace #3
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-     
+
       \line { 2. И носи Радост за душата, }
       \line {   "   " и прогласява Свободата}
       \line {   "   " и Мир с Любов пресвята}
@@ -85,30 +84,31 @@
 
       \line { " " }
       \line { "   " \italic {Припев: } }
-    }   
+    }
 
     \hspace #1
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-     
-      \line { 2. I nosi Radost za dushata, }
-      \line {   "   " i proglasyava Svobodata}
-      \line {   "   " i Mir s Lyubov presvyata}
-      \line {   "   " za vsichki na zemyata. }
+
+      \line { 2. I nosi Radost za dušata, }
+      \line {   "   " i proglasjava Svobodata}
+      \line {   "   " i Mir s Ljubov presvjata}
+      \line {   "   " za vsički na zemjata. }
+
 
       \line { " " }
-      \line { "   " \italic {Refrain: } }
+      \line { "   " \italic {Pripev: } }
 
       \line { " " }
-      \line {  3.  O, den prekrasen, vechno blago, }
+      \line {  3.  O, den prekrasen, večno blago, }
       \line {   "   " komu za tebe ne e drago? }
-      \line {   "   " Za vsichkite godini}
+      \line {   "   " Za vsičkite godini}
       \line {   "   " po-skoro obnovi ni! }
 
       \line { " " }
-      \line { "   " \italic {Refrain: } }
-    } %column
-  
+      \line { "   " \italic {Pripev: } }
+    }    %column
+
   } % markup
 
 

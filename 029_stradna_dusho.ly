@@ -4,8 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
-    \label #'ref029
-  \tocItem \markup "Страдна душо – Stradna dusho"
+  \label #'ref029
+  \tocItem \markup "Страдна душо – Stradna dušo"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -35,146 +35,139 @@
       за тях стра -- дам и коп -- не -- я.}
       \addlyrics {
         Strad -- na
-        du -- sho, ti kop -- ne -- esh, za kak -- vo go --
-        rish i tle -- esh? Slo -- vo -- to Ti, Bo -- zhe,
-        cha -- kam i o -- bil -- na -- ta Ti mi -- lost,
-        za tyah stra -- dam i kop -- ne -- ya.
-      }
+        du -- šo, ti kop -- ne -- eš, za kak -- vo go --
+        riš i tle -- eš? Slo -- vo -- to Ti, Bo -- že,
+        ča -- kam i o -- bil -- na -- ta Ti mi -- lost,
+        za tjah stra -- dam i kop -- ne -- ja.}
 
 
-      \header {
-        title = \titleFunc "Страдна душо" "Stradna dusho"
-      }
+        \header {
+          title = \titleFunc "Страдна душо" "Stradna dušo"
+        }
 
-      \midi{}
+        \midi{}
 
-    } % score
+      } % score
 
 
 
-    \markup \fontsize #bgCoupletFontSize {
-      \hspace #1
-      \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-      \column {
-        \line {   2. И гладувам, и жадувам,}
+      \markup \fontsize #bgCoupletFontSize {
+        \hspace #1
+        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+        \column {
+          \line {   2. И гладувам, и жадувам,}
 
-        \line {   "   " тях очаквам денонощно.}
+          \line {   "   " тях очаквам денонощно.}
 
-        \line {   "   " Ти ме, Боже, благославяй,}
+          \line {   "   " Ти ме, Боже, благославяй,}
 
-        \line {   "   " при Теб близо аз да бъда}
+          \line {   "   " при Теб близо аз да бъда}
 
-        \line {   "   " и утеха в Теб да найда.}
-        \line { " " }
+          \line {   "   " и утеха в Теб да найда.}
+          \line { " " }
 
-        \line {   3. Твоя светъл лик да гледам}
+          \line {   3. Твоя светъл лик да гледам}
 
-        \line {   "   " и величието Твое;}
+          \line {   "   " и величието Твое;}
 
-        \line {   "   " да науча Теб да любя.}
+          \line {   "   " да науча Теб да любя.}
 
-        \line {   "   " В таз Любов към Тебе, Боже,}
+          \line {   "   " В таз Любов към Тебе, Боже,}
 
-        \line {   "   " да намеря мощна сила.}
+          \line {   "   " да намеря мощна сила.}
 
 
 
-      }
+        }
 
-      \hspace #5
-      \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-      \column {
-        \line {   2. I gladuvam, i zhaduvam }
+        \hspace #5
+        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+        \column {
+          \line {   2. I gladuvam, i žaduvam,}
 
-        \line {   "   "tyah ochakvam denonoshtno.}
+          \line {   "   " tjah očakvam denonoštno.}
 
-        \line {   "   "Ti me, Bozhe, blagoslavyay,}
+          \line {   "   " Ti me, Bože, blagoslavjaj,}
 
-        \line {   "   "pri Teb blizo az da bada}
+          \line {   "   " pri Teb blizo az da băda}
 
-        \line {   "   "i uteha v Teb da nayda.}
+          \line {   "   " i uteha v Teb da najda.}
+          \line { " " }
 
-        \line { " " }
+          \line {   3. Tvoja svetăl lik da gledam}
 
-        \line {  3. Tvoya svetal lik da gledam}
+          \line {   "   " i veličieto Tvoe;}
 
-        \line {   "   "i velichieto Tvoe,}
+          \line {   "   " da nauča Teb da ljubja.}
 
-        \line {   "   "da naucha Teb da lyubya.}
+          \line {   "   " V taz Ljubov kăm Tebe, Bože,}
 
-        \line {   "   "V taz Lyubov kam Tebe, Bozhe,}
+          \line {   "   " da namerja moštna sila.}
 
-        \line {   "   "da namerya moshtna sila.}
 
 
+        } %column
+      } % markup
 
+      \pageBreak
 
-      } %column
-    } % markup
 
-    \pageBreak
+      \markup \fontsize #bgCoupletFontSize {
+        \hspace #1
+        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+        \column {
 
 
-    \markup \fontsize #bgCoupletFontSize {
-      \hspace #1
-      \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-      \column {
+          \line {   4. В подвизи и съвършенство}
 
+          \line {   "   " да познавам милостта Ти,}
 
-        \line {   4. В подвизи и съвършенство}
+          \line {   "   " превеликата Ти тайна,}
 
-        \line {   "   " да познавам милостта Ти,}
+          \line {   "   " що разкрива на човека}
 
-        \line {   "   " превеликата Ти тайна,}
+          \line {   "   " суетата на живота.}
+          \line { " " }
+          \line {    5. Всичко грешно на Земята}
 
-        \line {   "   " що разкрива на човека}
+          \line {   "   " е преходно, мимолетно.}
 
-        \line {   "   " суетата на живота.}
-        \line { " " }
-        \line {    5. Всичко грешно на Земята}
+          \line {   "   " Само Ти си вечен, Боже,}
 
-        \line {   "   " е преходно, мимолетно.}
+          \line {   "   " Тебе хвалим, Тебе славим,}
 
-        \line {   "   " Само Ти си вечен, Боже,}
+          \line {   "   " Теб ще славят вековете.}
 
-        \line {   "   " Тебе хвалим, Тебе славим,}
+        }
 
-        \line {   "   " Теб ще славят вековете.}
+        \hspace #5
+        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+        \column {
+          \line {   4. V podvizi i săvăršenstvo}
 
-      }
+          \line {   "   " da poznavam milostta Ti,}
 
-      \hspace #5
-      \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-      \column {
+          \line {   "   " prevelikata Ti tajna,}
 
+          \line {   "   " što razkriva na čoveka}
 
+          \line {   "   " suetata na života.}
+          \line { " " }
+          \line {    5. Vsičko grešno na Zemjata}
 
-        \line {  4. V podvizi i savarshenstvo}
+          \line {   "   " e prehodno, mimoletno.}
 
-        \line {   "   "da poznavam milostta Ti,}
+          \line {   "   " Samo Ti si večen, Bože,}
 
-        \line {   "   "prevelikata Ti tayna,}
+          \line {   "   " Tebe hvalim, Tebe slavim,}
 
-        \line {   "   "shto razkriva na choveka}
+          \line {   "   " Teb šte slavjat vekovete.}
 
-        \line {   "   "suetata na zhivota.}
+        } %column
+      } % markup
 
-        \line { " " }
-        \line {  5. Vsichko greshno na Zemyata}
+      \markup \empty-three
+      % include foreign translation(s) of the song
+      \include "lyrics_de/029_stradna_dusho_lyrics_de.ly"
 
-        \line {   "   "e prehodno, mimoletno.}
-
-        \line {   "   "Samo Ti si vechen, Bozhe:}
-
-        \line {   "   "Tebe hvalim, Tebe slavim,}
-
-        \line {   "   "Teb shte slavyat vekovete.}
-
-      } %column
-    } % markup
-
-    \markup \empty-three
-    % include foreign translation(s) of the song
-    \include "lyrics_de/029_stradna_dusho_lyrics_de.ly"
-
-  } % bookpart
+    } % bookpart

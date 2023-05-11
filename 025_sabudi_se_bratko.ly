@@ -6,25 +6,25 @@
 "rightBraces025" = \markup {
   \column {
     % repeat braces
- 
+
 
 
     \translate #'(0 . -17.5 )
     \right-brace #45
 
- 
+
 
 
 
   }
   \column {
     % repeat numbers
-  
+
 
     \translate #'(0 . -17.9 )
     2
 
-  
+
 
 
   }
@@ -32,8 +32,8 @@
 
 
 \bookpart {
-    \label #'ref025
-  \tocItem \markup "Събуди се братко мили – Sabudi se bratko mili"
+  \label #'ref025
+  \tocItem \markup "Събуди се братко мили – Săbudi se bratko mili"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -67,17 +67,17 @@
       твой пи -- лот: тя ще те из -- пра -- ви
       креп -- ко, тя ще ти да -- ри Жи -- вот.
     }
-    \addlyrics {
-      Sa -- bu -- di -- se, brat -- ko mi -- li,
-      ot dal -- bok san ti sta -- ni i ve -- ri -- gi -- te ve --
+   \addlyrics {
+      Să -- bu -- di -- se, brat -- ko mi -- li,
+      ot dăl -- bok săn ti sta -- ni i ve -- ri -- gi -- te ve --
       kov -- ni ot no -- ze -- te si sne -- mi.
-      Lyu -- bov -- ta e tvo -- ya may -- ka, tvo -- ya si -- la
-      tvoy pi -- lot: tya shte te iz -- pra -- vi
-      krep -- ko, tya shte ti da -- ri zhi -- vot.
+      Lju -- bov -- ta e tvo -- ja maj -- ka, tvo -- ja si -- la
+      tvoj pi -- lot: tja šte te iz -- pra -- vi
+      krep -- ko, tja šte ti da -- ri Ži -- vot.
     }
 
     \header {
-      title = \titleFunc "Събуди се братко мили" "Sabudi se bratko mili"
+      title = \titleFunc "Събуди се братко мили" "Săbudi se bratko mili"
     }
 
     \midi{}
@@ -86,7 +86,7 @@
 
 
 
- 
+
   \markup \fontsize #bgCoupletFontSize {
     \hspace #1
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
@@ -96,44 +96,43 @@
       \line {   "   " вън е вредом светлина, }
       \line {   "   " Мир и Радост те очакват }
       \line {   "   " и блажена сетнина. }
-\line { " " }
-   \line { "   " \italic {Припев: } }
+      \line { " " }
+      \line { "   " \italic {Припев: } }
       \line { "   "Любовта е твой учител, }
       \line {   "   " живо Слово да ще ти, }
       \line {   "   " на Добро ще те научи, }
       \line {   "   " в Мъдрост ще те посвети. }
-      
+
     }
-  \"rightBraces025"
+    \"rightBraces025"
 
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
-   
-      \line { 2.  Napusni zatvori tamni, }
-      \line {   "   " van e vredom svetlina;}
-      \line {   "   " Mir i Radost te ochakvat }
-      \line {   "   " i blazhena setnina. }
+
+      \line { 2.  Napusni zatvori tămni, }
+      \line {   "   " văn e vredom svetlina, }
+      \line {   "   " Mir i Radost te očakvat }
+      \line {   "   " i blažena setnina. }
       \line { " " }
-       \line { "   " \italic {Refrain: } }
-      \line { "   "Lyubovta e tvoy uchitel, }
-      \line {   "   " zhivo Slovo da shte ti, }
-      \line {   "   " na Dobro shte te nauchi, }
-      \line {   "   " v Madrost shte te posveti. }
-      \line { " " }
+      \line { "   " \italic {Pripev: } }
+      \line { "   "Ljubovta e tvoj učitel, }
+      \line {   "   " živo Slovo da šte ti, }
+      \line {   "   " na Dobro šte te nauči, }
+      \line {   "   " v Mădrost šte te posveti. }
 
     } %column
-      \"rightBraces025"
+    \"rightBraces025"
   } % markup
 
   \pageBreak
 
-   \markup \fontsize #bgCoupletFontSize {
+  \markup \fontsize #bgCoupletFontSize {
     \hspace #1
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
 
-   
+
       \line { 3. И на брата си продумай }
       \line {   "   " сладка дума с подтик нов; }
       \line {   "   " ти сърцето му да стоплиш }
@@ -148,22 +147,20 @@
 
 
     \hspace #5
-      \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
-
-     
-      \line { 3. I na brata si produmay }
+      \line { 3. I na brata si produmaj }
       \line {   "   " sladka duma s podtik nov; }
-      \line {   "   " ti sartseto mu da stoplish }
-      \line {   "   " s tvoyta iskrena lyubov. }
+      \line {   "   " ti sărceto mu da stopliš }
+      \line {   "   " s tvojta iskrena ljubov. }
       \line { " " }
-      \line { "   " \italic {Refrain: } }
-      \line { "   "Lyubovta e tvoy spasitel, }
-      \line {   "   " neya v pomosht prizovi; }
-      \line {   "   " tya dushata ti ot gneta }
-      \line {   "   " skoro shte osvobodi. }
+      \line { "   " \italic {Pripev: } }
+      \line { "   "Ljubovta e tvoj spasitel, }
+      \line {   "   " neja v pomošt prizovi: }
+      \line {   "   " tja dušata ti ot gneta }
+      \line {   "   " skoro šte osvobodi. }
     } %column
-     \"rightBraces025"
+    \"rightBraces025"
   } % markup
 
   \markup \empty-two

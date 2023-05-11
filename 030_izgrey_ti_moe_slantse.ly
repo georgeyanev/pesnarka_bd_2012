@@ -6,7 +6,7 @@
 \bookpart {
 
   \label #'ref030
-  \tocItem \markup "Изгрей ти, мое Слънце – Izgrey ti, moe Slantse"
+  \tocItem \markup "Изгрей ти, мое Слънце – Izgrej ti, moe Slănce"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -38,17 +38,17 @@
       жен. Жи -- вот бла -- жен, Жи -- вот бла -- жен,
       бла -- жен, бла -- жен, Жи -- вот бла -- жен; ти
       но -- сиш ми Жи -- вот бла -- жен.}
-      \addlyrics {
-         Iz -- grey,
-      iz -- grey ti, mo -- e Slan -- tse, za -- shto --
-      to cha -- kam vse -- ki den; za teb kop -- ney sar -- tse to -- mo -- e i v~pa -- tya si sam iz
-       -- mo -- ren; ti no -- sish mi Zhi -- vot bla --
-      zhen. Zhi -- vot bla -- zhen, Zhi -- vot bla -- zhen,
-      bla -- zhen, bla -- zhen, Zhi -- vot bla -- zhen; ti
-      no -- sish mi Zhi -- vot bla -- zhen.}
+       \addlyrics {
+      Iz -- grej,
+      iz -- grej ti, mo -- e Slăn -- ce, za -- što --
+      to ča -- kam vse -- ki den; za teb kop -- nej săr -- ce to -- mo -- e i v~pă -- tja si săm iz
+       -- mo -- ren; ti no -- siš mi Ži -- vot bla --
+      žen. Ži -- vot bla -- žen, Ži -- vot bla -- žen,
+      bla -- žen, bla -- žen, Ži -- vot bla -- žen; ti
+      no -- siš mi Ži -- vot bla -- žen.}
 
         \header {
-          title = \titleFunc "Изгрей ти, мое Слънце" "Izgrey ti, moe Slantse"
+          title = \titleFunc "Изгрей ти, мое Слънце" "Izgrej ti, moe Slănce"
         }
 
         \midi{}
@@ -103,46 +103,45 @@
 
         \hspace #5
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-          \line {   2. Ogrey nebeto i Zemyata,}
+         \column {
+          \line {   2. Ogrej nebeto i Zemjata,}
 
-          \line {   "   "lazurni podnebesen shir,}
+          \line {   "   "lazurni podnebesen šir,}
 
-          \line {   "   "razveseli mi dnes dushata}
+          \line {   "   "razveseli mi dnes dušata}
 
-          \line {   "   "s trepteniyata si bezspir.}
+          \line {   "   "s treptenijata si bezspir.}
 
-          \line {   "   "O, day mi toz Zhivot i Mir!}
+          \line {   "   "O, daj mi toz Život i Mir!}
           \line { " " }
 
-          \line { "   " \italic {Refrain:} }
+          \line { "   " \italic {Pripev:} }
 
+          \line {   "   "Život i Mir, Život i Mir,}
 
-          \line {   "   "Zhivot i Mir, Zhivot i Mir,}
+          \line {   "   "i Mir, i Mir, Život i Mir,}
 
-          \line {   "   "i Mir, i Mir, Zhivot i Mir,}
-
-          \line {   "   "o, day mi toz Zhivot i Mir!}
+          \line {   "   "o, daj mi toz Život i Mir!}
 
           \line { " " }
           \line {   3. Edinstveno si ti, koeto}
 
-          \line {   "   "izpalvash vsichko sas Lyubov}
+          \line {   "   "izpălvaš vsičko săs Ljubov}
 
-          \line {   "   "i podnovyavash vsichko vehto;}
+          \line {   "   "i podnovjavaš vsičko vehto;}
 
-          \line {   "   "svetat chrez teb shte bade nov;}
+          \line {   "   "svetăt črez teb šte băde nov;}
 
-          \line {   "   "ti vechno si sveta Lyubov.}
+          \line {   "   "ti večno si sveta, Ljubov.}
 
 
           \line { " " }
-          \line { "   " \italic {Refrain:} }
-          \line {   "   " Sveta Lyubov, sveta Lyubov,}
+          \line { "   " \italic {Pripev:} }
+          \line {   "   " Sveta Ljubov, sveta Ljubov,}
 
-          \line {   "   "Lyubov, Lyubov, sveta Lyubov,}
+          \line {   "   "Ljubov, Ljubov, sveta Ljubov,}
 
-          \line {   "   "ti vechno si sveta, Lyubov.}
+          \line {   "   "ti večno si sveta Ljubov.}
         } %column
       } % markup
 

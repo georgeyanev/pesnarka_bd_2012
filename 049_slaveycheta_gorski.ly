@@ -35,7 +35,7 @@
 
 \bookpart {
   \label #'ref049
-  \tocItem \markup "Славейчета горски – Slaveycheta gorski"
+  \tocItem \markup "Славейчета горски – Slavejčeta gorski"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -62,14 +62,15 @@
       хор -- ски с~пес -- ни го -- ним от Зе -- мя -- та.
     }
 
-    \addlyrics {
-      Niy sme sla -- vey -- che -- ta gor -- ski, s~pes -- ni
-      sla -- vim Ne -- be -- sa -- ta, chuv -- stva rob -- ski, gri -- zhi
-      hor -- ski s~pes -- ni go -- nim ot Ze -- mya -- ta.
+     \addlyrics {
+      Nij sme sla -- vej -- če -- ta gor -- ski, s~pes -- ni
+      sla -- vim Ne -- be -- sa -- ta, čuv -- stva rob -- ski, gri -- ži
+      hor -- ski s~pes -- ni go -- nim ot Ze -- mja -- ta.
     }
 
+
     \header {
-      title = \titleFunc "Славейчета горски " "Slaveycheta gorski "
+      title = \titleFunc "Славейчета горски " "Slavejčeta gorski "
     }
 
     \midi{}
@@ -119,41 +120,42 @@
 
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line { 2.  Nash'te pesni sa ronlivi,}
+     \column {
 
-      \line {   "   " te ni nosyat radost vechno; }
+      \line { 2.  Naš'te pesni sa ronlivi,}
 
-      \line {   "   "  hem sa zhivi, hem igrivi}
+      \line {   "   " te ni nosjat radost večno; }
 
-      \line {   "   " kat potoche barzotechno.}
+      \line {   "   "  hem sa živi, hem igrivi}
+
+      \line {   "   " kat potoče bărzotečno.}
       \line {   "   " }
 
-      \line {   3. Eto, chuyte kak se lee}
+      \line {   3. Eto, čujte kak se lee}
 
-      \line {   "   " pesenta ni v tishinata,}
+      \line {   "   " pesenta ni v tišinata,}
 
-      \line {   "   " i se lee, i lyulee}
+      \line {   "   " i se lee, i ljulee}
 
-      \line {   "   " kato struya vav dushata.}
+      \line {   "   " kato struja văv dušata.}
       \line {   "   " }
 
       \line {   4. Ot glasa ni tih i stroen}
 
-      \line {   "   " vsyako zlo shte se prokudi;}
+      \line {   "   " vsjako zlo šte se prokudi;}
 
-      \line {   "   "noviy voin,  mlad, dostoen, }
+      \line {   "   "novij voin, mlad, dostoen, }
 
-      \line {   "   " s pesnite si shte probudim.}
+      \line {   "   " s pesnite si šte probudim.}
       \line {   "   " }
 
-      \line {   5. Peyte, peyte, mili ptichki,}
+      \line {   5. Pejte, pejte, mili ptički,}
 
-      \line {   "   "tay se istinski zhivee,}
+      \line {   "   "tăj se istinski živee,}
 
-      \line {   "   "peyte, peyte druzhno vsichki – }
+      \line {   "   "pejte, pejte družno vsički – }
 
-      \line {   "   " tseliy svyat sas vas da pee! }
+      \line {   "   " celij svjat săs vas da pee! }
     } %column
     \"rightBraces049"
   } % markup

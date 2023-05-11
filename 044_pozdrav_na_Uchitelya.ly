@@ -5,7 +5,7 @@
 
 \bookpart {
     \label #'ref044
-  \tocItem \markup "Поздрав на Учителя – Pozdrav na Uchitelya"
+  \tocItem \markup "Поздрав на Учителя – Pozdrav na Učitelja"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -38,22 +38,22 @@
       в~те -- зи дни до -- не -- се Мир и Свет -- ли -- на.
       До -- бре до -- шъл, до -- бре до -- шъл,
       У -- чи -- те -- лю на Лю -- бов -- та; до --
-      бре "до-" -- шъл, до -- бре до -- шъл, У -- чи --
-      те -- лю на "Мъ-" -- "дрост-" -- та.
+      бре "до -" -- шъл, до -- бре до -- шъл, У -- чи --
+      те -- лю на "Мъ -" -- "дрост -" -- та.
     }
 
-    \addlyrics {
-      Bla -- go -- slo -- ven ot Bo -- ga ti, U -- chi -- te --
-      lyu na Lyu -- bov -- ta, za -- de -- to tak -- mo
+  \addlyrics {
+      Bla -- go -- slo -- ven ot Bo -- ga ti, U -- či -- te --
+      lju na Lju -- bov -- ta, za -- de -- to tăk -- mo
       v~te -- zi dni do -- ne -- se Mir i Svet -- li -- na.
-      Do -- bre do -- shal, do -- bre do -- shal,
-      U -- chi -- te -- lyu na Lyu -- bov -- ta; do --
-      bre do -- shal, do -- bre do -- shal, U -- chi --
-      te -- lyu na Ma -- drost -- ta.
+      Do -- bre do -- šăl, do -- bre do -- šăl,
+      U -- či -- te -- lju na Lju -- bov -- ta; do --
+      bre do -- šăl, do -- bre do -- šăl, U -- či --
+      te -- lju na Mă -- drost -- ta.
     }
 
     \header {
-      title = \titleFunc "Поздрав на Учителя" "Pozdrav na Uchitelya"
+      title = \titleFunc "Поздрав на Учителя" "Pozdrav na Učitelja"
     }
 
     \midi{}
@@ -78,15 +78,15 @@
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-      \line { 2. Obviti v mrak do tozi chas, }
-      \line { "   " niy byahme robi na greha, }
+      \line { 2. Obviti v mrak do tozi čas, }
+      \line { "   " nij bjahme robi na greha, }
 
-      \line { "   " no chuhme Tvoya krotak glas }
+      \line { "   " no čuhme Tvoja krotăk glas }
 
-      \line { "   " i lahna kam nas Toplina. }
+      \line { "   " i lăhna kăm nas Toplina. }
       \line { "   " }
 
-      \line { "   " \italic{Refrain: Dobre doshal ...} }
+      \line { "   " \italic{Pripev: Dobre došăl ...} }
     } %column
   } % markup
   \pageBreak
@@ -119,27 +119,27 @@
 
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line { 3. Uchitelyu Blagosloven, }
+     \column {
+      \line { 3. Učitelju Blagosloven, }
 
-      \line { "   " Ti ni sartsata obnovi, }
+      \line { "   " Ti ni sărcata obnovi, }
 
-      \line { "   " zapali Ogan v nas sveshten }
+      \line { "   " zapali Ogăn v nas svešten }
 
-      \line { "   " i sladki dumi ozhivi. }
+      \line { "   " i sladki dumi oživi. }
 
       \line { "   " }
 
-      \line { "   " \italic{Refrain: Dobre doshal ...} }
+      \line { "   " \italic{Pripev: Dobre došăl ...} }
       \line { "   " }
 
-      \line { 4. Uchitelyu, nash skapi gost, }
+      \line { 4. Učitelju, naš skăpi gost, }
 
       \line { "   " privet ot nas Ti priemi; }
 
-      \line { "   " sas radost niy gotovi sme }
+      \line { "   " săs radost nij gotovi sme }
 
-      \line { "   " da zhertvame zhivota svoy. }
+      \line { "   " da žertvame života svoj. }
     } %column
   } % markup
 

@@ -23,7 +23,7 @@
       \vspace #0.5
       \line {
         \justify {
-          1. \bold "  Зората на Новия живот – Zorata na Noviya zhivot."
+          1. \bold "  Зората на Новия живот – Zorata na Novija život."
           Musik von Petar Danov, Text von einem Schüler nach den Ideen von Petar Danov. In der Ausgabe von 1949
           wurde in der ersten Strophe das Wort „Leben“ statt „Bundeslade“ verwendet.
         }
@@ -33,7 +33,7 @@
 
       \line {
         \justify {
-          2. \bold "  Излязъл е сеяч – Izlyazal e seyach."
+          2. \bold "  Излязъл е сеяч – Izljazăl e sejač."
           Musik von Petar Danov, Text von einem Schüler nach den Ideen von Petar Danov.
         }
       }
@@ -42,14 +42,14 @@
       \vspace #0.5
       \line {
         \justify {
-          3. \bold "  Братство единство – Bratstvo Edinstvo."
+          3. \bold "  Братство единство – Bratstvo, edinstvo."
           Musik von Petar Danov, Text von einem Schüler nach den Ideen von Petar Danov.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          4. \bold "  Ще се развеселя – Shte se razveselya."
+          4. \bold "  Ще се развеселя – Šte se razveselja."
           Musik von Petar Danov, Text Jes. 61,10.
 
         }
@@ -57,21 +57,21 @@
       \vspace #0.5
       \line {
         \justify {
-          5. \bold "  Изгрява вече ден тържествен – Izgryava veche den tarzhestven."
+          5. \bold "  Изгрява вече ден тържествен – Izgrjava veče den tăržestven."
           Musik von Petar Danov, Text von einem Schüler nach den Ideen von Petar Danov.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          6. \bold "  Благославяй – Blagoslavyay."
+          6. \bold "  Благославяй – Blagoslavjaj."
           Musik und Text von Petar Danov nach dem Psalm 103.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          7. \bold "  Събуди се братко мили – Sabudi se bratko mili."
+          7. \bold "  Събуди се братко мили – Săbudi se bratko mili."
           Musik von Petar Danov, Text von einem Schüler nach den Ideen von Petar Danov.
         }
       }
@@ -92,21 +92,21 @@
       \vspace #0.5
       \line {
         \justify {
-          10. \bold " Страдна душо – Stradna dusho."
+          10. \bold " Страдна душо – Stradna dušo."
           Musik von Petar Danov, Text von Michalaki Georgiev. In den Notitzen von Bojan Boev wurde dieses Lied \italic "Das Lied der Seele" betitelt. Jede Strophe entspricht einer der Kardinaltugenden  dem Guten, der Gerechtigkeit, der Liebe, der Weisheit und der Freiheit.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          11. \bold " Изгрей ти, мое Слънце – Izgrey ti, moe Slantse."
+          11. \bold " Изгрей ти, мое Слънце – Izgrej ti, moe Slănce."
           Musik von Petar Danov, Text Stojan Russev (Djado Blago).
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          12. \bold "Шуми – Shumi."
+          12. \bold "Шуми – Šumi."
           Musik von Petar Danov, Text von einem Schüler nach den Ideen von Petar Danov. Ladanchiza ist ein Mädchen, das rituelle Lieder und Tänze ausführt, die der heidnischen Göttin Lada gewidmet wurden.
         }
       }
@@ -114,19 +114,21 @@
       \vspace #0.5
       \line {
         \justify {
-          13. \bold "Напред да ходим – Napred da hodim."
-          Musik des Meisters, Text von einem Schüler nach den Ideen des Meisters. In den Notitzen von Bojan Boev heißt das Lied \italic"Marsch der Bruderschaft bei Ausflügen."
-
+          13. \bold "При източника – Pri iztočnika."
+          Musik von Petar Danov, Text Ivan Tolev.
         }
       }
 
       \vspace #0.5
       \line {
         \justify {
-          14. \bold "При източника – Pri iztochnika."
-          Musik von Petar Danov, Text Ivan Tolev.
+          14. \bold "Напред да ходим – Napred da hodim."
+          Musik des Meisters, Text von einem Schüler nach den Ideen des Meisters. In den Notitzen von Bojan Boev heißt das Lied \italic"Marsch der Bruderschaft bei Ausflügen."
+
         }
       }
+
+   
       \vspace #0.5
       \line {
         \justify {
@@ -142,14 +144,14 @@
     \column {
       \line {
         \justify {
-          16. \bold " Милосърдието – Milosardieto."
+          16. \bold " Милосърдието – Milosărdieto."
           Musik Atanas D. Kovachev, Text Stojan Russev (Djado Blago).
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          17. \bold " Сърдечен зов  – Sardechen zov."  Musik von Atanas D. Kovachev, die während des Ersten Weltkrieges im Ort \italic"Dobro pole" komponiert wurde, nach dem Motiv von Petar Danov, Text von Ilija Zurkov.
+          17. \bold " Сърдечен зов  – Sărdečen zov."  Musik von Atanas D. Kovachev, die während des Ersten Weltkrieges im Ort \italic"Dobro pole" komponiert wurde, nach dem Motiv von Petar Danov, Text von Ilija Zurkov.
         }
       }
 
@@ -162,13 +164,13 @@
       \vspace #0.4
       \line {
         \justify {
-          19. \bold " За Небесния цар – Za Nebesniya tsar."  Musik und Text von Petar Danov, 1888, Hotanza. In den Notizen von Bojan Boev wurde das Lied  \italic "Der zionische Marsch betitelt."
+          19. \bold " За Небесния цар – Za Nebesnija car."  Musik und Text von Petar Danov, 1888, Hotanza. In den Notizen von Bojan Boev wurde das Lied  \italic "Der zionische Marsch betitelt."
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          20. \bold " Време е да вървим – Vreme e da varvim."  Musik von Petar Danov, Text von einem Schüler.
+          20. \bold " Време е да вървим – Vreme e da vărvim."  Musik von Petar Danov, Text von einem Schüler.
         }
       }
 
@@ -176,13 +178,13 @@
       \vspace #0.4
       \line {
         \justify {
-          21. \bold " Поздрав на Учителя – Pozdrav na Uchitelya."  Musik und Text von Elena Kazanlaklieva.
+          21. \bold " Поздрав на Учителя – Pozdrav na Učitelja."  Musik und Text von Elena Kazanlaklieva.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          22. \bold " Сине мой, пази живота – Sine moi, pazi zhivota."  Musik von Ivan G. Popov, Text von Stojan Rusev (Djado Blago), aufgeschrieben am 2. Mai 1922.
+          22. \bold " Сине мой, пази живота – Sine moj, pazi života."  Musik von Ivan G. Popov, Text von Stojan Rusev (Djado Blago), aufgeschrieben am 2. Mai 1922.
         }
       }
       \vspace #0.4
@@ -194,62 +196,62 @@
       \vspace #0.4
       \line {
         \justify {
-          24. \bold " Аз съм бялото кокиче – Аz sam byaloto kokiche."  Musik Hristo Darsev, Text Pentscho Slaveikov. In manchen populären Versionen wird statt „Böse Stiefmutter hat mich geweckt“ „Die Sonne hat mich geweckt“ gesungen. Der Text der dritten Strophe wurde später von einem Schüler hinzugefügt.
+          24. \bold " Аз съм бялото кокиче – Az săm bjaloto kokiče."  Musik Hristo Darsev, Text Pentscho Slaveikov. In manchen populären Versionen wird statt „Böse Stiefmutter hat mich geweckt“ „Die Sonne hat mich geweckt“ gesungen. Der Text der dritten Strophe wurde später von einem Schüler hinzugefügt.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          25. \bold " Напред, чада, напред  – Napred, chada, napred."  Musik und Text von einem Schüler.
+          25. \bold " Напред, чада, напред  – Napred, čada, napred."  Musik und Text von einem Schüler.
         }
       }
       \vspace #0.4
 
       \line {
         \justify {
-          26. \bold " Славейчета горски  – Slaveycheta gorski."  Musik von Atanas D. Kovachev, Text von Stojan Russev (Djado Blago) Aufgeschrieben am 20. April 1922.
+          26. \bold " Славейчета горски  – Slavejčeta gorski."  Musik von Atanas D. Kovachev, Text von Stojan Russev (Djado Blago) Aufgeschrieben am 20. April 1922.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          27. \bold " Небето се отваря – Nebeto se otvarya."  Musik Atanas D. Kovachev, Text Stojan Russev (Djado Blago), aufgeschrieben am 2. Februar 1918.
+          27. \bold " Небето се отваря – Nebeto se otvarja."  Musik Atanas D. Kovachev, Text Stojan Russev (Djado Blago), aufgeschrieben am 2. Februar 1918.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          28. \bold " О, Учителю благати – O, Uchitelyu blagati."  Musik und Text von Ljuba Iv. Roadoslavova.
+          28. \bold " О, Учителю благати – O, Učitelju blagati."  Musik und Text von Ljuba Iv. Roadoslavova.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          29. \bold " Дързост в Христа – Darzost v Hrista."  Musik und Text von einem Schüler, aufgeschrieben am 1. August 1921.
+          29. \bold " Дързост в Христа – Dărzost v Hrista."  Musik und Text von einem Schüler, aufgeschrieben am 1. August 1921.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          30. \bold " Слава Божия – Slava Bozhia."  Text und Musik Maria Todorova nach dem Psalm 115.
+          30. \bold " Слава Божия – Slava Božija."  Text und Musik Maria Todorova nach dem Psalm 115.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          31. \bold " Към Сион – Kam Sion."  Musik und Text von Ivan G. Popov, aufgeschrieben am 15 Juni 1921.
+          31. \bold " Към Сион – Kăm Sion."  Musik und Text von Ivan G. Popov, aufgeschrieben am 15 Juni 1921.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          32. \bold " Слънцето на Любовта – Slantseto na Lyubovta."  Musik und Text von Petko Epitropov.
+          32. \bold " Слънцето на Любовта – Slănceto na Ljubovta."  Musik und Text von Petko Epitropov.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          33. \bold " Ти си проявената Любов – Ti si proyavenata Lyubov." Text und Musik von Maria Savova.
+          33. \bold " Ти си проявената Любов – Ti si projavenata Ljubov." Text und Musik von Maria Savova.
         }
       }
     }
@@ -266,7 +268,7 @@
       \vspace #0.5
       \line {
         \justify {
-          35. \bold " Към Рила – Kam Rila."  Musik von Chudomir Kantardzhiev, Text von Margarita Nedjalkova.
+          35. \bold " Към Рила – Kăm Rila."  Musik von Chudomir Kantardzhiev, Text von Margarita Nedjalkova.
         }
       }
       \vspace #0.5
@@ -278,13 +280,13 @@
       \vspace #0.5
       \line {
         \justify {
-          37. \bold " На белия цвят – Na beliya zvjat." Musik von Ivan G. Popov, Text von Stojan Rusev (Djado Blago), aufgeschrieben am 9. April 1922.
+          37. \bold " На белия цвят – Na belija cvjat." Musik von Ivan G. Popov, Text von Stojan Rusev (Djado Blago), aufgeschrieben am 9. April 1922.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          38. \bold " На Христа запейте – Na Hrista zapeyte."  Musik und Text von Ivan G. Popov, aufgeschrieben am 15. März 1921.
+          38. \bold " На Христа запейте – Na Hrista zapejte."  Musik und Text von Ivan G. Popov, aufgeschrieben am 15. März 1921.
         }
       }
       \vspace #0.5
@@ -296,19 +298,19 @@
       \vspace #0.5
       \line {
         \justify {
-          40. \bold " Дишай дълбоко – Dishay dalboko."  Musik und Text Penju Ganev.
+          40. \bold " Дишай дълбоко – Dišaj dălboko."  Musik und Text Penju Ganev.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          41. \bold " Ангел вопияше – Angel vopiyashe." Bulgarischer Kirchengesang, der zu Beginn des 20. Jahrhunderts sehr bekannt war. Text und Musik Konstantin Danovski, der Vater von Petar Danov.
+          41. \bold " Ангел вопияше – Angel vopijaše." Bulgarischer Kirchengesang, der zu Beginn des 20. Jahrhunderts sehr bekannt war. Text und Musik Konstantin Danovski, der Vater von Petar Danov.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          42. \bold " Тайната вечеря – Taynata vecherya."  Musik und Text von Vessela Nesstorova, gesegnet von Petar Danov. Die erste Strophe bedeutet folgendes: Alles ist licht, alles ist in meinem Licht erleuchtet.
+          42. \bold " Тайната вечеря – Tajnata večerja."  Musik und Text von Vessela Nesstorova, gesegnet von Petar Danov. Die erste Strophe bedeutet folgendes: Alles ist licht, alles ist in meinem Licht erleuchtet.
         }
       }
       \vspace #0.5

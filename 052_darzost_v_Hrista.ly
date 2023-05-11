@@ -73,7 +73,7 @@
 
 \bookpart {
   \label #'ref052
-  \tocItem \markup "Дързост в Христа – Darzost v Hrista"
+  \tocItem \markup "Дързост в Христа – Dărzost v Hrista"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -98,14 +98,15 @@
       цар -- ство -- то Му е на -- вред, е на -- вред.
     }
 
-    \addlyrics {
-      "1. Dar" -- zost vav Hri -- sta, dru -- ga -- ri, s~Ne -- go
-      da var -- vim na -- pred, Toy e tsa -- ryat na Zhi -- vo -- ta,
-      tsar -- stvo -- to Mu e na -- vred, e na -- vred.
+      \addlyrics {
+      "1. Dăr" -- zost văv Hri -- sta, dru -- ga -- ri, s~Ne -- go
+      da văr -- vim na -- pred, Toj e ca -- rjat na Ži -- vo -- ta,
+      car -- stvo -- to Mu e na -- vred, e na -- vred.
     }
 
+
     \header {
-      title = \titleFunc "Дързост в Христа" "Darzost v Hrista"
+      title = \titleFunc "Дързост в Христа" "Dărzost v Hrista"
     }
 
     \midi{}
@@ -169,36 +170,35 @@
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
-      \line {   2.  Darzost vav Hrista, drugari,}
 
-      \line {   "   " da varvime vse napred!}
+      \line {   2.  Dărzost văv Hrista, drugari,}
 
-      \line {   "   " Bog-Hristos ni v patya vodi,}
+      \line {   "   " da vărvime vse napred!}
 
-      \line {   "   " Toy e moshten tsar navred,}
+      \line {   "   " Bog-Hristos ni v pătja vodi,}
 
-      \line {   "               " tsar navred.}
+      \line {   "   " Toj e mošten car navred,}
+
+      \line {   "               " car navred.}
       \line {   "   "}
-
 
       \line {   3.  I tuk dolu, i tam gore, }
 
-      \line {   "   " v mirovete bez konets, }
+      \line {   "   " v mirovete bez konec, }
 
-      \line {   "   " vsade samo Toy tsaruva, }
+      \line {   "   " vsăde samo Toj caruva, }
 
-      \line {   "   " Toy e skiptar i venets, }
+      \line {   "   " Toj e skiptăr i venec, }
 
-      \line {   "                 " i venets. }
-
+      \line {   "                 " i venec. }
       \line {   "   "}
-      \line {   4.  Upravlyava, blagoslavya – }
+      \line {   4.  Upravljava, blagoslavja – }
 
-      \line {   "   " vsichko v Madrost da raste, }
+      \line {   "   " vsičko v Mădrost da raste, }
 
-      \line {   "   " plodove na Pravda svyata }
+      \line {   "   " plodove na Pravda svjata }
 
-      \line {   "   " v zhertva da Mu prinese, }
+      \line {   "   " v žertva da Mu prinese, }
 
       \line {   "              " prinese. }
 
@@ -207,15 +207,16 @@
 
       \line {   5. Eto dnes ni gore vikat, }
 
-      \line {   "   " kam Nebeto da varvim, }
+      \line {   "   " kăm Nebeto da vărvim, }
 
-      \line {   "   " che tam Radost ni ochakva, }
+      \line {   "   " če tam Radost ni očakva, }
 
-      \line {   "   " nov grad da si sagradim, }
+      \line {   "   " nov grad da si săgradim, }
 
-      \line {   "              " sagradim. }
+      \line {   "              " săgradim. }
 
       \line {   "   "}
+
     } \"rightBraces052_1" %column
   } % markup
 
@@ -268,14 +269,15 @@
     \"rightBraces052_2"
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
+     \column {
 
 
-      \line {   6. Ot smartta se ne plashete, }
 
-      \line {   "   " ne zagiva sashtnostta, }
+      \line {   6. Ot smărtta se ne plašete, }
 
-      \line {   "   " tuy, shto smart zoveme tuka, }
+      \line {   "   " ne zagiva săštnostta, }
+
+      \line {   "   " tuj, što smărt zoveme tuka, }
 
       \line {   "   " za Nebeto e vrata, }
 
@@ -286,26 +288,26 @@
 
       \line {   7. S radost i hvalebni pesni }
 
-      \line {   "   " shte prekrachim neyni prag, }
+      \line {   "   " šte prekračim nejni prag, }
 
-      \line {   "   " a otvad Hristos ni chaka, }
+      \line {   "   " a otvăd Hristos ni čaka, }
 
-      \line {   "   " vse tay krotak, vse tay blag, }
+      \line {   "   " vse tăj krotăk, vse tăj blag, }
 
-      \line {   "            " vse tay blag. }
+      \line {   "            " vse tăj blag. }
 
       \line {   "   "}
 
 
-      \line {   8. I tam Toy shte ni nauchi, }
+      \line {   8. I tam Toj šte ni nauči, }
 
-      \line {   "   " tlennoto kak da ne tley, }
+      \line {   "   " tlennoto kak da ne tlej, }
 
-      \line {   "   " kak s teloto si choveka }
+      \line {   "   " kak s teloto si čoveka }
 
-      \line {   "   " vechno mozhe da zhivey, }
+      \line {   "   " večno može da živej, }
 
-      \line {   "             " da zhivey. }
+      \line {   "             " da živej. }
 
     } %column
     \"rightBraces052_2"

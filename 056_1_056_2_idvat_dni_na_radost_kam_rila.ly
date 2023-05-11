@@ -33,7 +33,7 @@
     \addlyrics {
       I -- dvat dni na Ra -- dost, i -- dvat dni na
       Ra -- dost, i -- dvat dni na Ra -- dost
-      za o -- ni -- ya, ko -- i -- to slu -- zhat Bo -- gu.
+      za o -- ni -- ja, ko -- i -- to slu -- žat Bo -- gu.
     }
 
 
@@ -52,7 +52,7 @@
   \markup \empty-two
 
     \label #'ref056_2
-  \tocItem \markup "Към Рила – Kam Rila"
+  \tocItem \markup "Към Рила – Kăm Rila"
 
   \include "include/bookpart-paper.ily"
   \score {
@@ -81,15 +81,14 @@
       ние жи -- ве -- ем в~свят не -- тлен. В~гър -- тлен.
     }
 
-    \addlyrics {
-      Kam Ri -- la s~mosht -- na mi -- sal le -- tim niy
-      vse -- ki den. V~gar -- di -- te s~tuy zhe -- la --
-      nie zhi -- ve -- em v~svyat ne -- tlen. V~gar -- tlen.
+   \addlyrics {
+      "1. Kăm" Ri -- la s~mošt -- na mi -- săl le -- tim nij
+      vse -- ki den. V~găr -- di -- te s~tuj že -- la --
+      nie ži -- ve -- em v~svjat ne -- tlen. V~găr -- tlen.
     }
 
-
     \header {
-      title = \titleFunc "Към Рила" "Kam Rila"
+      title = \titleFunc "Към Рила" "Kăm Rila"
     }
 
     \midi{}
@@ -121,24 +120,24 @@
 
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-    
-      \line { 2. Otnovo shte se sreshtnem  }
-      \line {   "   " pri rilskite ochi. }
-      \line {   "   " Tuk nashata tsigulka }
-      \line {   "   " s nov ton shte zazvuchi. }
+      \column {
+     
+      \line { 2. Otnovo šte se sreštnem  }
+      \line {   "   " pri rilskite oči. }
+      \line {   "   " Tuk našata cigulka }
+      \line {   "   " s nov ton šte zazvuči. }
 
       \line { " " }
-      \line { 3. Dushite ni  – tsigulki }
-      \line {   "   " shte leyat krasota, }
-      \line {   "   " zashtoto s tyah shte sviri  }
-      \line {   "   " Dobroto, Lyubovta. }
+      \line { 3. Dušite ni  – cigulki }
+      \line {   "   " šte lejat krasota, }
+      \line {   "   " zaštoto s tjah šte sviri  }
+      \line {   "   " Dobroto, Ljubovta. }
 
       \line { " " }
-      \line { 4. Shte idem niy na Rila, }
-      \line {   "   " shte vidim Musala, }
-      \line {   "   " bezkraynata Priroda  }
-      \line {   "   " i svoya mil Bashta. }
+      \line { 4. Šte idem nij na Rila, }
+      \line {   "   " šte vidim Musala, }
+      \line {   "   " bezkrajnata Priroda  }
+      \line {   "   " i svoja mil Bašta. }
     } %column
   } % markup
 

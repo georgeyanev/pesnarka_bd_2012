@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref066_1
-  \tocItem \markup "Тайната вечеря – Taynata vecherya "
+  \tocItem \markup "Тайната вечеря – Tajnata večerja"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -48,13 +48,13 @@
       с~Мой -- та жи -- ва Ви -- де -- ли -- на.
     }
 
-    \addlyrics {
-      "2. Vsi" -- chko e sve -- tlo, vsi -- chko e o -- sve -- te -- no
-      s~Moy -- ta zhi -- va Vi -- de -- li -- na.
+  \addlyrics {
+      "2. Vsi" -- čko e sve -- tlo, vsi -- čko e o -- sve -- te -- no
+      s~Moj -- ta ži -- va Vi -- de -- li -- na.
     }
 
     \header {
-      title = \titleFunc "Тайната вечеря" "Taynata vecherya"
+      title = \titleFunc "Тайната вечеря" "Tajnata večerja"
     }
 
     \midi{}

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref068
-  \tocItem \markup "Що е същността – Sto e sastnostta"
+  \tocItem \markup "Що е същността – Što e săštnostta"
   \paper {
     print-all-headers = ##t
     print-page-number = ##t
@@ -90,11 +90,11 @@
 
     \addlyrics {
       Във у -- ма ми ми -- съл чу -- ка, все -- ки час ме пи -- та,
-      що в'жи -- во -- та е ре -- ал -- но, що е същ -- но -- ста,
-      що в'жи -- во -- та е ре -- ал -- но, що е същ -- но -- ста.
+      що в~жи -- во -- та е ре -- ал -- но, що е същ -- но -- ста,
+      що в~жи -- во -- та е ре -- ал -- но, що е същ -- но -- ста.
       А Ду -- хът ми шеп  -- не та  -- ка:
 
-      "1. Слън-"  -- це  -- то що гре -- е птич -- ка -- та, що пе -- е,
+      "1. Слън"  -- це  -- то що гре -- е птич -- ка -- та, що пе -- е,
 
       всич -- ко що жи -- ве -- е, стра -- да и коп -- не -- е,
 
@@ -104,30 +104,26 @@
 
       Кра  -- со  -- та  -- та, Ис  -- ти  -- на  -- та, Лю -- бов  -- та и Мъд  -- рост  -- та,
 
-      туй е Гос  -- под на зе  -- мя  -- та, туй е същ  -- но  -- ста! Днес ду  -- хът ми шеп  -- не та  -- ка.
+      туй е Гос  -- под на зе  -- мя  -- та, туй е същ  -- но  -- ста! Днес "ду-"  -- хът ми шеп  -- не та  -- ка.
     }
 
     \addlyrics {
-      Vav u -- ma mi mi -- sal chu -- ka, vse -- ki chas me pi -- ta,
-      shto v'zhi -- vo -- ta e re -- al -- no, shto e sasht -- no -- sta,
-      shto v'zhi -- vo -- ta e re -- al -- no, shto e sasht -- no -- sta.
+      Văv u -- ma mi mi -- săl ču -- ka, vse -- ki čas me pi -- ta,
+      što v~ži -- vo -- ta e re -- al -- no, što e săšt -- no -- sta,
+      što v~pži -- vo -- ta e re -- al -- no, što e săšt -- no -- sta.
+      A Du -- hăt mi šep  -- ne ta  -- ka:
 
-      A Du -- hat mi shep  -- ne ta  -- ka:
+      "1. Slăn"  -- ce  -- to što gre -- e ptič -- ka -- ta, što pe -- e,
 
-      "1.   Slan-"  -- tse  -- to shto gre -- e ptich -- ka -- ta, shto pe -- e,
+      vsič -- ko što ži -- ve -- e, stra -- da i kop -- ne -- e,
 
-      vsich -- ko shto zhi -- ve -- e, stra -- da i kop -- ne -- e,
+      iz -- ja -- vja -- va  săšt -- nost -- ta,   vsič -- ko što ži -- ve -- e, stra -- da i kop -- ne -- e,
 
-      iz -- ya -- vya -- va  sasht -- nost -- ta,   vsich -- ko shto zhi -- ve -- e, stra -- da i kop -- ne -- e,
+      iz -- ja -- vja -- va săšt -- no -- sta.
 
-      iz -- ya -- vya -- va sasht -- no -- sta.
+      Kra  -- so  -- ta  -- ta, Is  -- ti  -- na  -- ta, Lju -- bov  -- ta i Măd  -- rost  -- ta,
 
-      Kra  -- so  -- ta  -- ta, Is  -- ti  -- na  -- ta, Lyu -- bov  -- ta i Mad  -- rost  -- ta,
-
-      tuy e Gos  -- pod na ze  -- mya  -- ta, tuy e sasht  -- no  -- sta! Dnes du  -- hat mi shep  -- ne ta  -- ka.
-
-      A Du -- hat mi shep  -- ne ta  -- ka:
-
+      tuj e Gos  -- pod na "ze-"  -- mja  -- ta, tuj e săšt  -- no  -- sta! Dnes "du-"  -- hăt mi šep  -- ne ta  -- ka.
     }
     \addlyrics {
       " " " " " " " " " " " " " " " "
@@ -156,9 +152,9 @@
 
       " " " " " " " " " " " " " " " " " " " " " " " " " " " "
 
-      " " " " " " " " " " " " " " " " " " "2.      I   " -- di pri tsve -- tya -- ta, v~po -- le -- to, v~go -- ra -- ta,
-      gle -- day kra -- so -- ta -- ta, di -- shay a -- ro -- ma -- ta, tam shte vi -- dish sasht -- nost  -- ta,
-      gle -- day kra -- so -- ta -- ta, di -- shay a -- ro -- ma -- ta, tam shte vi -- dish sasht -- nost  -- ta.
+      " " " " " " " " " " " " " " " " " " "2.      I  " -- di pri cve -- tja -- ta, v~po -- le -- to, v~go -- ra -- ta,
+      gle -- daj kra -- so -- ta -- ta, di -- šaj a -- ro -- ma -- ta, tam šte vi -- diš săšt -- nost  -- ta,
+      gle -- daj kra -- so -- ta -- ta, di -- šaj a -- ro -- ma -- ta, tam šte vi -- diš săšt -- nost  -- ta.
 
       " " " " " " " " " " " " " " " " " "
 
@@ -179,7 +175,7 @@
 
       " " " " " " " " " " " " " " " " " "
 
-      "3.   Пог " -- лед  -- ни не -- бе -- то и пи -- тай сър -- це -- то,
+      "3.   Пог- " -- лед  -- ни не -- бе -- то и пи -- тай сър -- це -- то,
       в~таз кра -- со -- та див -- на и мъд -- рост все -- мир -- на, не ви -- дя ли същ -- ност -- та;  в~таз кра -- со -- та див -- на и мъд -- рост все -- мир -- на, не ви -- дя ли същ -- ност -- та.
 
       " " " " " " " " " " " " " " " " " "
@@ -198,8 +194,8 @@
 
       " " " " " " " " " " " " " " " " " "
 
-      "3.   Pog " -- led  -- ni ne -- be -- to i pi -- tay sar -- tse -- to,
-      v~taz kra -- so -- ta div -- na i mad -- rost vse -- mir -- na, ne vi -- dya li sasht -- nost -- ta;  v~taz kra -- so -- ta div -- na i mad -- rost vse -- mir -- na, ne vi -- dya li sasht -- nost -- ta.
+      "3.   Pog " -- led  -- ni ne -- be -- to i pi -- taj săr -- ce -- to,
+      v~taz kra -- so -- ta div -- na i măd -- rost vse -- mir -- na, ne vi -- dja li săšt -- nost -- ta;  v~taz kra -- so -- ta div -- na i măd -- rost vse -- mir -- na, ne vi -- dja li săšt -- nost -- ta.
 
       " " " " " " " " " " " " " " " " " "
 
@@ -239,18 +235,19 @@
 
       " " " " " " " " " " " " " " " " " "
 
-      "4.    Ko  " -- ga may -- ka nezh -- na za rozh -- ba se zhert -- va,
-      v~taz o -- bich pri -- mer -- na i lyu -- bov bez -- mer -- na
-      ti shte vi -- dish sasht -- nost -- ta
-      v~taz o -- bich pri -- mer -- na i lyu -- bov bez -- mer -- na
-      ti shte vi -- dish sasht -- nost -- ta.
+      "4.    Ko  " -- ga maj -- ka než -- na za rož -- ba se žert -- va,
+      v~taz o -- bič pri -- mer -- na i lju -- bov bez -- mer -- na
+      ti šte vi -- diš săšt -- nost -- ta
+      v~taz o -- bič pri -- mer -- na i lju -- bov bez -- mer -- na
+      ti šte vi -- diš săšt -- nost -- ta.
 
       " " " " " " " " " " " " " " " " " "
 
       " " " " " " " " " " " " " " " " " "
     }
+
     \header {
-      title = \titleFunc "Що е същността" "Sto e sastnostta"
+      title = \titleFunc "Що е същността" "Što e săštnostta"
     }
 
     \midi{}

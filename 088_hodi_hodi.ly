@@ -27,7 +27,7 @@
 
 \bookpart {
   \label #'ref088
-  \tocItem \markup "Ходи, ходи – Hodi, hodi "
+  \tocItem \markup "Ходи, ходи –  Hodi, hodi"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -50,7 +50,7 @@
     \addlyrics {
       "1. Хо" -- ди хо -- ди хо -- ди за во -- да -- та хо -- ди
 
-      су -- трин -- на -- та ро -- "са –"  през ре -- чи -- ца бис -- тра, по пъ -- те -- ка
+      су -- трин -- на -- та ро -- са  -- през ре -- чи -- ца бис -- тра, по пъ -- те -- ка
 
       чис -- та. За -- до -- ма  си но -- си  таз во -- ди -- ца бис -- тра,
 
@@ -59,11 +59,11 @@
     \addlyrics {
       "1. Ho" -- di ho -- di ho -- di za vo -- da -- ta ho -- di
 
-      su -- trin -- na -- ta ro -- "sa –" prez re -- chi -- tsa bis -- tra, po pa -- te -- ka
+      su -- trin -- na -- ta ro -- sa -- prez re -- či -- ca bis -- tra, po pă -- te -- ka
 
-      chis -- ta. Za -- do -- ma  si no -- si  taz vo -- di -- tsa bis -- tra,
+      čis -- ta. Za -- do -- ma  si no -- si  taz vo -- di -- ca bis -- tra,
 
-      za tsve -- ten -- tsa mi -- "li –" ney -- ni -- te de -- chi -- tsa.
+      za cve -- ten -- ca mi -- "li –"  nej -- ni -- te de -- či -- ca.
     }
 
     \header {
@@ -74,7 +74,7 @@
 
   } % score
   
-  \markup \italic \dc-one-nobold "attacca „Тъги скърби“/attacca „Tagi skarbi“"
+  \markup \italic \dc-one-nobold "attacca „Тъги скърби“/attacca „Tăgi skărbi“"
 
   \markup \fontsize #bgCoupletFontSize {
     \hspace #3
@@ -96,15 +96,15 @@
     \hspace #7
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-      \line { 2. Kapkite dazhdovni}
-      \line { "   "sashto tay podnasyat}
+      \line { 2. Kapkite dăždovni}
+      \line { "   "săšto tăj podnasjat}
       \line { "   "izobilna vlaga – }
-      \line { "   "struya na zhivota. }
-      \line { "   "Niknat sementsata, }
-      \line { "   "papki se raztvaryat,}
-      \line { "   "plodove uzryavat.}
-      \line { "   "Vsichko se sabuzhda – }
-      \line { "   "moshtna e vodata. }
+      \line { "   "struja na života. }
+      \line { "   "Niknat semencata, }
+      \line { "   "păpki se raztvarjat,}
+      \line { "   "plodove uzrjavat.}
+      \line { "   "Vsičko se săbužda – }
+      \line { "   "moštna e vodata. }
     } %column
     \"rightBraces088"
   } % markup

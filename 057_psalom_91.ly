@@ -43,15 +43,15 @@
       на Не -- го ще се на -- де -- я.
     }
 
-    \addlyrics {
-      Koy -- to zhi -- ve -- e pod po -- kri -- va na Vse -- vish -- na --
-      go, shte pre -- bi -- va -- e pod syan -- ka -- ta na
-      Vse -- mo -- ga -- shta -- go. go. Shte
-      kaz -- vam za Gos -- po -- da, shte kaz -- vam: Toy e pri --
-      be -- zhi -- shte mo -- e i kre -- post mo --
-      ya, Bog moy, Bog moy, na Ne -- go
-      shte se na -- de -- ya. Bog moy, Bog moy,
-      na Ne -- go shte se na -- de -- ya.
+ \addlyrics {
+      Koj -- to ži -- ve -- e pod po -- kri -- va na Vse -- viš -- na --
+      go, šte pre -- bi -- va -- e pod sjan -- ka -- ta na
+      Vse -- mo -- gă -- šta -- go. go. Šte
+      kaz -- vam za Gos -- po -- da, šte kaz -- vam: Toj e pri --
+      be -- ži -- šte mo -- e i kre -- post mo --
+      ja, Bog moj, Bog moj, na Ne -- go
+      šte se na -- de -- ja. Bog moj, Bog moj,
+      na Ne -- go šte se na -- de -- ja.
     }
 
 

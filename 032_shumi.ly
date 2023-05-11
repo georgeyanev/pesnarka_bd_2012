@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref032
-  \tocItem \markup "Шуми – Shumi"
+  \tocItem \markup "Шуми – Šumi"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -41,17 +41,17 @@
       }
 
       \addlyrics {
-        Shu -- mi,
-        az slu -- sham tsyal svyat da shu -- mi! Shu -- myat
-        sar -- tsa -- ta che -- lo --  vesh -- ki vsred
-        svoy -- te i -- do -- li i gresh -- ki, shu -- myat
-        bez -- spir -- no u -- mo -- ve -- te, go -- lyam
-        e pri -- liv v~do -- mo -- ve -- te. Shu -- mi,
-        az slu -- sham tsyal svyat da shu -- mi!
+        Šu -- mi,
+        az slu -- šam cjal svjat da šu -- mi! Šu -- mjat
+        săr -- ca -- ta če -- lo --  veš -- ki vsred
+        svoj -- te i -- do -- li i greš -- ki, šu -- mjat
+        bez -- spir -- no u -- mo -- ve -- te, go -- ljam
+        e pri -- liv v~do -- mo -- ve -- te. Šu -- mi,
+        az slu -- šam cjal svjat da šu -- mi!
       }
 
     \header {
-      title = \titleFunc "Шуми" "Shumi"
+      title = \titleFunc "Шуми" "Šumi"
     }
 
     \midi{}
@@ -103,38 +103,39 @@
     \hspace #6
     \override #'(baseline-skip . 1.8)
     \column {
-      \line {   2.  "   "       I vyatar vee, }
-      \line {   "   "    "   "      kadeto si shte}
+      \line {   2.  "   "  I vjatăr vee, }
 
-      \line {   "   "Listata gorski otgovaryat}
+      \line {   "   "    "   "       kădeto si šte.}
 
-      \line {   "   "na negoviya zov, povtaryat}
+      \line {   "   "Listata gorski otgovarjat}
 
-      \line {   "   "lyubimata si pesenchitsa,}
+      \line {   "   "na negovija zov, povtarjat}
 
-      \line {   "   "igriva kato ladanchitsa.}
+      \line {   "   "ljubimata si pesenčica,}
 
-      \line {   "   "    "   "      I vyatar vee, }
-      \line {   "   "    "   "     kadeto si shte}
+      \line {   "   "igriva kato ladančica.}
+
+      \line {  "   "    "   "I vjatăr vee, }
+
+      \line {    "   "    "   "kădeto si šte.}
 
 
       \line { " " }
-      \line {  3. " " " " Moy vetre, buyno}
+      \line {   3. "   "  Moj vetre, bujno }
 
-      \line {    "   "    "   " zaduhay sega!}
+      \line {   "   "    "   "  zaduhaj sega!}
 
-      \line {   "   "Nosi Bozhestvenata vlaga}
+      \line {   "   "Nosi Božestvenata vlaga}
 
-      \line {   "   "i osvezhavashta prohlada;}
+      \line {   "   "i osvežavašta prohlada;}
 
-      \line {   "   "prechistvay zadushlivi hizhi,}
+      \line {   "   "prečistvaj zadušlivi hiži,}
 
-      \line {   "   "razseyvay tezhki zemni grizhi!}
+      \line {   "   "razsejvaj težki zemni griži!}
 
-      \line {    "   "    "   "Moy vetre, buyno }
+      \line {    "   "    "   "Moj vetre, }
 
-      \line {    "   "    "   "zaduhay sega!}
-
+      \line {    "   "    "   "bujno zaduhaj sega!}
 
     } %column
   } % markup
@@ -165,24 +166,21 @@
     \hspace #3
     \override #'(baseline-skip . 1.8)
     \column {
-
-      \line {   4.  "   "         Zaduhay, vetre, }
+      \line {   4.  "   "        Zaduhaj, vetre, }
       \line {   "   "    "   "         sveta razvedri!}
 
-      \line {   "   "Pri chisti misli, nezhni chuvstva}
+      \line {   "   "Pri čisti misli, nežni čuvstva}
 
-      \line {   "   "tsaftyat Bozhestveni izkustva;}
+      \line {   "   "căftjat Božestveni izkustva;}
 
-      \line {   "   "navred da prosiyae radost,}
+      \line {   "   "navred da prosijae radost,}
 
-      \line {   "   "navred da disha svezha mladost.}
+      \line {   "   "navred da diša sveža mladost.}
 
-      \line {  "   "    "   "Zaduhay, vetre, }
-
-      \line {  "   "    "   "sveta izbistri!}
-
-
-    } %column
+      \line {  "   "    "   " Zaduhaj, vetre, }
+      \line {   "   "    "   " sveta izbistri}
+    }
+ %column
   } % markup
 
   \markup \empty-two

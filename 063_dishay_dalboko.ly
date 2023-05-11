@@ -35,7 +35,7 @@
 
 \bookpart {
   \label #'ref063
-  \tocItem \markup "Дишай дълбоко – Dishay dalboko "
+  \tocItem \markup "Дишай дълбоко – Dišaj dălboko"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -48,45 +48,45 @@
         \tempoFunc "Tempo di marcia" 4 "100"
         \autoBeamOff
 
-          a'4 b'8. a'16 | fis'4 d' | \noBreak
+        a'4 b'8. a'16 | fis'4 d' | \noBreak
 
-          <<
-            % now temporary add a second voice
-            {
-              \voiceTwo % this voice is in the same context as parent
-              \stemUp a'8. a'16 b'8 b' | a'2 \stemNeutral
-            }
-            \new Voice = "tempVoice1" {
-              % this is a new voice context
-              \voiceOne \autoBeamOff
-              \stemDown \tiny a'4 b'8. b'16 |
-              \once \override NoteColumn.force-hshift = #1.2
-              a'2 \stemNeutral
-            }
-          >>
-          \oneVoice
-          | \break
+        <<
+          % now temporary add a second voice
+          {
+            \voiceTwo % this voice is in the same context as parent
+            \stemUp a'8. a'16 b'8 b' | a'2 \stemNeutral
+          }
+          \new Voice = "tempVoice1" {
+            % this is a new voice context
+            \voiceOne \autoBeamOff
+            \stemDown \tiny a'4 b'8. b'16 |
+            \once \override NoteColumn.force-hshift = #1.2
+            a'2 \stemNeutral
+          }
+        >>
+        \oneVoice
+        | \break
 
-          b'4 a'8. g'16 | fis'4 d' | \noBreak
+        b'4 a'8. g'16 | fis'4 d' | \noBreak
 
-          <<
-            % now temporary add a new voice
-            {
-              \voiceTwo % this voice is in the same context as parent
-              \stemUp e'8. e'16 fis'8 e' | d'2 \stemNeutral
-            }
-            \new Voice = "tempVoice2" {
-              % this is a new voice context
-              \voiceOne \autoBeamOff
-              \stemDown \tiny e'4 fis'8. e'16 |
-              \once \override NoteColumn.force-hshift = #1.2
-              d'2 \stemNeutral
-            }
-          >>
-          \oneVoice
-          \bar ":|.|:" | \break
-          a8 d' d' d' | a8 fis' fis' fis' | fis'8. e'16 fis'8 g' |  a'2 \break |
-          b'8. b'16 b'8 b' | a'8 d'' a' g' |  fis'8 fis'8 e'8 e'8|  d'2 \bar ":|." \break |
+        <<
+          % now temporary add a new voice
+          {
+            \voiceTwo % this voice is in the same context as parent
+            \stemUp e'8. e'16 fis'8 e' | d'2 \stemNeutral
+          }
+          \new Voice = "tempVoice2" {
+            % this is a new voice context
+            \voiceOne \autoBeamOff
+            \stemDown \tiny e'4 fis'8. e'16 |
+            \once \override NoteColumn.force-hshift = #1.2
+            d'2 \stemNeutral
+          }
+        >>
+        \oneVoice
+        \bar ":|.|:" | \break
+        a8 d' d' d' | a8 fis' fis' fis' | fis'8. e'16 fis'8 g' |  a'2 \break |
+        b'8. b'16 b'8 b' | a'8 d'' a' g' |  fis'8 fis'8 e'8 e'8|  d'2 \bar ":|." \break |
       }
 
       \new Lyrics \lyricsto "mainVoice" {
@@ -96,29 +96,29 @@
         Ди -- шай, ди -- шай и пак ди -- шай, ди -- шай да си здрав!
       }
       \new Lyrics \lyricsto "mainVoice" {
-        "1. Di" -- shay dal -- bo -- ko, s~ve -- se -- lo sar -- tse
-        i na zhi -- vo -- ta rad -- vay se, de -- te.
-        Vaz -- du -- hat e zhi -- va si -- la vi -- na -- gi za nas.
-        Di -- shay, di -- shay i pak di -- shay, di -- shay da si zdrav!
+        "1. Di" -- šaj dăl -- bo -- ko, s~ve -- se -- lo săr -- ce
+        i na ži -- vo -- ta rad -- vaj se, de -- te.
+        Văz -- du -- hăt e ži -- va si -- la vi -- na -- gi za nas.
+        Di -- šaj, di -- šaj i pak di -- šaj, di -- šaj da si zdrav!
       }
 
       \new Lyrics \lyricsto "tempVoice1" {
         "(2.,3.)...ди" -- шаш, де -- те,...
       }
-      \new Lyrics \lyricsto "tempVoice1" {
-        "(2.,3.)...di" -- shash, de -- te,...
+     \new Lyrics \lyricsto "tempVoice1" {
+        "(2.,3.)...di" -- šaš, de -- te,...
       }
 
       \new Lyrics \lyricsto "tempVoice2" {
         "(2.)...доб" -- ро, сър -- це.
       }
-      \new Lyrics \lyricsto "tempVoice2" {
-        "(2.)...dob" -- ro, sar -- tse.
+        \new Lyrics \lyricsto "tempVoice2" {
+        "(2.)...dob" -- ro, săr -- ce.
       }
     >>
 
     \header {
-      title = \titleFunc "Дишай дълбоко" "Dishay dalboko"
+      title = \titleFunc "Дишай дълбоко" "Dišaj dălboko"
     }
 
     \midi{}
@@ -163,32 +163,31 @@
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
-      \line {   2.  Koga dalboko dishash, dete,}
+      \line {   2.  Koga dălboko dišaš, dete,}
 
-      \line {   "   "shte imash zdravo, dobro sartse.}
+      \line {   "   "šte imaš zdravo, dobro sărce.}
 
-      \line {   "   "Zdravo sartse, }
+      \line {   "   "Zdravo sărce, }
 
-      \line {   "   "dobro kravoobrashtenie,}
+      \line {   "   "dobro krăvoobraštenie,}
 
-      \line {   "   "silen stomah, zdravo tyalo}
+      \line {   "   "silen stomah, zdravo tjalo}
 
-      \line {   "   "shte imash, dete.}
+      \line {   "   "šte imaš, dete.}
 
       \line {   "   "}
 
-      \line {   3. Koga dalboko dishash, dete,}
+      \line {   3. Koga dălboko dišaš, dete,}
 
+      \line {   "   "tjaloto ti izpraveno da e.}
 
-      \line {   "   "tyaloto ti izpraveno da e.}
-
-      \line {   "   "Prava stoyka, bodra krachka,}
+      \line {   "   "Prava stojka, bodra kračka,}
 
       \line {   "   "s pogled vse napred.}
 
-      \line {   "   "Dishay, dishay i pak dishay, }
+      \line {   "   "Dišaj, dišaj i pak dišaj, }
 
-      \line {   "   "dishay ti navred. }
+      \line {   "   "dišaj ti navred. }
     } %column
     \"rightBraces063"
   } % markup

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref039
-  \tocItem \markup "Сърдечен зов – Sardechen zov"
+  \tocItem \markup "Сърдечен зов – Sărdečen zov"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -76,25 +76,25 @@
       ди ни_с Тво -- и -- те ми -- лос -- ти, о -- за --
       ри ни с~Твой -- та Свет -- ли -- на! __ О-гра -- на!
     }
-    \addlyrics {
+     \addlyrics {
       "1.Pred" Teb pri -- pa -- da -- me, Gos -- po -- di, dnes
-      s~chis -- ti, tre -- pet -- ni  du -- shi. Vav
-      pe -- sen_iz -- li --  va -- me  sar -- tsa-ta si i zo --
-      vem Te, Pre -- svya -- tiy, pro -- sti! Vav sti!
+      s~čis -- ti, tre -- pet -- ni  du -- ši. Văv
+      pe -- sen_iz -- li --  va -- me  săr -- ca-ta si i zo --
+      vem Te, Pre -- svja -- tij, pro -- sti! Văv sti!
 
-      "2.Za" -- bra -- vyay na -- shi -- te gre -- ho -- ve, o --
-      bil -- no nas bla -- go -- slo -- vi. Tsa --
-      ryu pre -- bla -- giy na svet -- li -- te du -- shi,  "v~tsar-" -- stvo --
-      to si ni Ti pri -- e -- mi! __ Tsa -- mi!
+      "2.Za" -- bra -- vjaj na -- ši -- te gre -- ho -- ve, o --
+      bil -- no nas bla -- go -- slo -- vi. Ca --
+      rju pre -- bla -- gij na svet -- li -- te du -- ši, v~car -- stvo --
+      to si ni Ti pri -- e -- mi! __ Ca -- mi!
 
-      "3.Tam" da te sla -- vim prez vech -- nost -- ta, E --
-      din Ti za slu -- zha -- vash hva -- la. O-gra --
+      "3.Tam" da te sla -- vim prez več -- nost -- ta, E --
+      din Ti za slu -- ža -- vaš hva -- la. O-gra --
       di ni_s Tvo -- i -- te mi -- los -- ti, o -- za --
-      ri ni s~Tvoy -- ta Svet -- li -- na! __ O-gra -- na!
+      ri ni s~Tvoj -- ta Svet -- li -- na! __ O-gra -- na!
     }
 
     \header {
-      title = \titleFunc "Сърдечен зов" "Sardechen zov"
+      title = \titleFunc "Сърдечен зов" "Sărdečen zov"
     }
 
     \midi{}

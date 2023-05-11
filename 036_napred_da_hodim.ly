@@ -4,7 +4,7 @@
 \include "include/globals.ily"
 
 \bookpart {
-   \label #'ref036
+  \label #'ref036
   \tocItem \markup "Напред да ходим – Napred da hodim"
   \include "include/bookpart-paper.ily"
   \score {
@@ -46,11 +46,11 @@
       све -- та да об -- но -- вим! Кат вим!}
       \addlyrics {
         Na -- pred
-        da ho -- dim sme -- lo v~cher -- to -- zi -- te
-        bez -- mal -- vni na tay -- no -- to poz -- na --
-        nie, s~Zhi -- vot i Si -- la pal -- ni. Kat vih
-        -- ri nad go -- ri -- te s~duh pla -- men vav
-        gar -- di -- te na -- pred da po -- le -- tim,
+        da ho -- dim sme -- lo v~čer -- to -- zi -- te
+        bez -- măl -- vni na taj -- no -- to poz -- na --
+        nie, s~Ži -- vot i Si -- la păl -- ni. Kat vih
+        -- ri nad go -- ri -- te s~duh pla -- men văv
+        găr -- di -- te na -- pred da po -- le -- tim,
         sve -- ta da ob -- no -- vim! Kat vim!}
 
         \header {
@@ -109,40 +109,42 @@
         \hspace #5
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
         \column {
-          \line { 2. Zemyata s chisti misli}
+          \line {  2. Zemjata s čisti misli}
 
-          \line { "   "da ogradime zdravo}
+          \line {   "   "da ogradime zdravo}
 
-          \line { "   "i zloto vseporochno}
+          \line {   "   "i zloto vseporočno}
 
-          \line { "   "da pobedime s Pravo.}
+          \line {   "   "da pobedime s Pravo.}
           \line { "   "}
 
-          \line { "   " \italic { Refrain ...} }
+          \line { "   " \italic {Pripev ... }}
           \line { "   "}
 
-          \line { 3. Na slabite da nosim}
 
-          \line { "   "podkrepa i obnova,}
+          \line {   3. Na slabite da nosim}
 
-          \line { "   "na stradushtite – milost}
+          \line {   "   "podkrepa i obnova,}
 
-          \line { "   "i Svobodata nova.}
+          \line {   "   "na straduštite – milost}
+
+          \line {   "   "i Svobodata nova.}
+
           \line { "   "}
+          \line { "   " \italic {Pripev ...}}
+          \line { "   " }
 
-          \line { "   " \italic { Refrain ...} }
+          \line {  4. Văv bezdnata da slezem,}
+
+          \line {   "   "horugva da postavim}
+
+          \line {   "   "i padnalite bratja}
+
+          \line {   "   "ot măka da izbavim.}
+
           \line { "   "}
+          \line { "   " \italic {Pripev ...}}
 
-          \line { 4. Vav bezdnata da slezem,}
-
-          \line { "   "horugva da postavim}
-
-          \line { "   "i padnalite bratya}
-
-          \line { "   "ot maka da izbavim.}
-          \line { "   "}
-
-          \line { "   " \italic { Refrain ...} }
 
         } %column
       } % markup
@@ -178,16 +180,18 @@
         \column {
 
 
-          \line { 5. Togava da otvorim}
+          \line {   5. Togava da otvorim}
 
-          \line { "   "na noviy grad vratite,}
+          \line {   "   "na novij grad vratite,}
 
-          \line { "   "v Ierusalim da vlezem –}
+          \line {   "   "v Ierusalim da vlezem –}
 
-          \line { "   "sveta na Svetlinite.}
+          \line {   "   "sveta na Svetlinite.}
           \line { "   "}
 
-          \line { "   " \italic { Refrain ...} }
+          \line { "   " \italic  {Pripev ...}}
+          \line { "   "}
+
         } %column
       } % markup
 

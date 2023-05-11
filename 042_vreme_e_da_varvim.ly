@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref042
-  \tocItem \markup "Време е да вървим – Vreme e da varvim"
+  \tocItem \markup "Време е да вървим – Vreme e da vărvim"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -47,16 +47,16 @@
       Бог е ца -- рят на све -- та, Той в~пъ -- тя ни е Све -- ли -- на. Да ца -- на.
     }
     \addlyrics {
-      Vre -- me e da var -- vim, zlo -- to da po -- be -- dim, Mir -- ra
-      da va -- dvo -- rim, Hri -- sta da vaz -- tsa -- rim!  Prav -- da
-      shte va -- ve -- dem, Svo -- bo -- da shte da -- dem i prez vsich -- ki -- te
-      dni ver -- ni shte sme niy. Da tsa -- ru -- va Lyu -- bov -- ta!
-      Da tsa -- ru -- va Bla -- gost -- ta!
-      Bog e tsa -- ryat na sve -- ta, Toy v~pa -- tya ni e Sve -- li -- na. Da tsa -- na.
+      Vre -- me e da văr -- vim, zlo -- to da po -- be -- dim, Mir -- ra
+      da vă -- dvo -- rim, Hri -- sta da văz -- ca -- rim!  Prav -- da
+      šte vă -- ve -- dem, Svo -- bo -- da šte da -- dem i prez vsič -- ki -- te
+      dni ver -- ni šte sme nij. Da ca -- ru -- va Lju -- bov -- ta!
+      Da ca -- ru -- va Bla -- gost -- ta!
+      Bog e ca -- rjat na sve -- ta, Toj v~pă -- tja ni e Sve -- li -- na. Da ca -- na.
     }
 
     \header {
-      title = \titleFunc "Време е да вървим" "Vreme e da varvim"
+      title = \titleFunc "Време е да вървим" "Vreme e da vărvim"
     }
 
     \midi{}
@@ -86,17 +86,18 @@
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
-      \line { 2. Barzo da poletim, }
-      \line {   "   " moshtno da vaztrabim, }
-      \line {   "   " Radost da vazvestim,  }
-      \line {   "   " vyara da sazhivim! }
-      \line {  "   " Shte ogrey pak sveta }
-      \line {   "   " v parvata krasota, }
+      \line { 2. Bărzo da poletim, }
+      \line {   "   " moštno da văztrăbim, }
+      \line {   "   " Radost da văzvestim,  }
+      \line {   "   " Vjara da săživim! }
+      \line {  "   " Šte ogrej pak sveta }
+      \line {   "   " v părvata krasota, }
       \line {   "   " Svoboda, Mir i red  }
-      \line {   "   " shte vladeyat vred. }
-      \line {   "   " }
-      \line { "   " \italic {Refrain ...} }
-    } %column
+      \line {   "   " šte vladejat vred. }
+      \line { "   " }
+      \line { "   " \italic {Pripev ... } }
+    }
+    %column
   } % markup
 
   \markup \empty-two

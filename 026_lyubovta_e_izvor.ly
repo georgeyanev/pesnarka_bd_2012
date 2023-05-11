@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref026
-  \tocItem \markup "Любовта е извор – Lyubovta e izvor"
+  \tocItem \markup "Любовта е извор – Ljubovta e izvor"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -33,17 +33,17 @@
       по -- мощ -- та но -- си й за ду -- ши стра -- дал -- ни.
     }
 
-    \addlyrics {
-      Lyu -- bov -- ta e iz -- vor: tya Zhi -- vo -- ta razh -- da
-      i pre -- svya -- ta dlazh -- nost v~ne -- go krot -- ko vsazh -- da
-      vse na -- pred da ho -- di "v~stre-" -- mezh kam Do -- bro -- to,
-      shto e sa -- var -- she -- no go -- re na Ne -- be -- to.
-      Ra -- bo -- ti sas ne -- ya v~mi -- los -- ti zhe -- la -- ni,
-      po -- mosht -- ta no -- si y za du -- shi stra -- dal -- ni.
+ \addlyrics {
+      Lju -- bov -- ta e iz -- vor: tja Ži -- vo -- ta raž -- da
+      i pre -- svja -- ta dlăž -- nost v~ne -- go krot -- ko vsaž -- da
+      vse na -- pred da ho -- di v~stre -- mež kăm Do -- bro -- to,
+      što e să -- văr -- še -- no go -- re na Ne -- be -- to.
+      Ra -- bo -- ti săs ne -- ja v~mi -- los -- ti že -- la -- ni,
+      po -- mošt -- ta no -- si j za du -- ši stra -- dal -- ni.
     }
 
     \header {
-      title = \titleFunc "Любовта е извор" "Lyubovta e izvor"
+      title = \titleFunc "Любовта е извор" "Ljubovta e izvor"
     }
 
     \midi{}
@@ -65,30 +65,26 @@
       \line {   "   " Добрините благи.}
       \line { " " }
       \line { "   " \italic {Припев ...} }
-      
-    
-    
+
      
     }
 
     \hspace #6
     \override #'(baseline-skip . 1.8)
-    \column {
-      
-      \line { 2. I tuy neprestanno  }
-      \line {   "   " varshi tya samata }
-      \line {   "   " kato nezhna mayka }
-      \line {   "   " vsekimu v dushata  }
-      \line {   "   " postoyanno sadi}
-      \line {   "   " sementsata dragi,}
+     \column {
+
+      \line { 2. I tuj neprestanno  }
+      \line {   "   " vărši tja samata }
+      \line {   "   " kato nežna majka }
+      \line {   "   " vsekimu v dušata  }
+      \line {   "   " postojanno sadi}
+      \line {   "   " semencata dragi,}
       \line {   "   " ot koito niknat}
-      \line {   "   " Дobrinite blagi.}
+      \line {   "   " Dobrinite blagi.}
       \line { " " }
-      \line { "   " \italic {Refrain ...} }
+      \line { "   " \italic {Pripev ...} }
 
      
-    
-
     } %column
   } % markup
   
@@ -131,38 +127,37 @@
 
     \hspace #6
     \override #'(baseline-skip . 1.8)
-    \column {
-
-      \line { 3. Taz velika tayna }
-      \line {   "   " koy dobre razbira, }
-      \line {   "   " svoyta dusha mila }
-      \line {   "   " sutrina razkriva. }
-      \line {   "   " kakto krinat beli}
+     \column {
+      \line { 3. Taz velika tajna }
+      \line {   "   " koj dobre razbira, }
+      \line {   "   " svojta duša mila }
+      \line {   "   " sutrina razkriva, }
+      \line {   "   " kakto krinăt beli}
       \line {   "   "na rosa nebesna}
-      \line {   "   "i na slanchevata}
-      \line {   "   "svetlina chudesna.}
+      \line {   "   "i na slănčevata}
+      \line {   "   "svetlina čudesna.}
       \line { " " }
-      \line { "   " \italic {Refrain ...} }
+      \line { "   " \italic {Pripev ...} }
       \line { " " }
-      \line { 4. Slantseto, koeto }
-      \line {   "   " ozhivotvoryava, }
-      \line {   "   " ovreme choveka}
-      \line {   "   " toplo ozaryava, }
-      \line {   "   "budi i vazrastva}
-      \line {   "   "v nego sementsata}
-      \line {   "   "i mu palni tayno}
-      \line {   "   "s Dobrini dushata.}
+      \line { 4. Slănceto, koeto }
+      \line {   "   " oživotvorjava, }
+      \line {   "   " ovreme čoveka}
+      \line {   "   " toplo ozarjava, }
+      \line {   "   "budi i văzrastva}
+      \line {   "   "v nego semencata}
+      \line {   "   "i mu pălni tajno}
+      \line {   "   "s Dobrini dušata.}
       \line { " " }
-      \line { "   " \italic {Refrain ...} }
+      \line { "   " \italic {Pripev ...} }
       \line { " " }
-      \line { 5. Plodove tay sladki, }
-      \line {   "   " v Lyubovta uzreli, }
-      \line {   "   "nay-blazhen shte bade}
-      \line {   "   "toz, koyto vi vkusi.}
-      \line {   "   "V zhilishta nebesni}
-      \line {   "   "vechno shte zhivee,}
-      \line {   "   "pred prestola Bozhi}
-      \line {   "   "pesni shte da pee.}
+      \line { 5. Plodove tăj sladki, }
+      \line {   "   " v Ljubovta uzreli, }
+      \line {   "   "naj-blažen šte băde}
+      \line {   "   "toz, kojto vi vkusi.}
+      \line {   "   "V žilišta nebesni}
+      \line {   "   "večno šte živee,}
+      \line {   "   "pred prestola Boži}
+      \line {   "   "pesni šte da pee.}
     } %column
   } % markup
 

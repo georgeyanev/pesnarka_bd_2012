@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref064
-  \tocItem \markup "Ангел вопияше – Angel vopiyashe"
+  \tocItem \markup "Ангел вопияше – Angel vopijaše"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -114,30 +114,30 @@
     }
 
     \addlyrics {
-      An -- gel vo -- pi -- ya -- -- -- she
-      Bla -- go -- dat -- ney: Chis -- ta -- ya __ De -- vo,
-      ra -- duy -- sya! I pa -- ki re -- ku: __
-      Ra -- -- duy -- sya! Tvoy __ Sin "vos  -"
+      An -- gel vo -- pi -- ja -- -- -- še
+      Bla -- go -- dat -- nej: Čis -- ta -- ja __ De -- vo,
+      ra -- duj -- sja! I pa -- ki re -- ku: __
+      Ra -- -- duj -- sja! Tvoj __ Sin "vos  -"
       kre -- -- se tri -- dne -- ven __  ot __
-      gro -- ba i mert -- vi -- ya "voz -"
-      dvig -- nu -- viy; lyu -- -- di -- e,
-      ve -- se -- li -- te -- sya! "Sve -"
-      ti -- -- -- -- -- -- sya, "sve       -"
-      ti --  -- sya, no -- -- viy __ I -- "e -"
+      gro -- ba i mert -- vi -- ja "voz -"
+      dvig -- nu -- vij; lju -- -- di -- e,
+      ve -- se -- li -- te -- sja! "Sve -"
+      ti -- -- -- -- -- -- sja, "sve       -"
+      ti --  -- sja, no -- -- vij __ I -- "e -"
       ru -- -- sa -- li -- -- -- me!
-      Sla -- va __ bo Gos -- pod -- nya na "te -"
-      be __ voz -- -- si -- ya: "li -"
-      kuy __ ni -- -- ne __
-      i ve -- se -- li -- sya, "Si -"
-      o -- -- -- -- -- -- ne! Ti zhe,
-      chis -- ta -- ya, kra -- suy -- -- sya,
-      Bo -- go -- ro -- -- -- di -- tse, __
-      o vo -- sta -- "ni – i      " rozh -- "-des-"
+      Sla -- va __ bo Gos -- pod -- nja na "te -"
+      be __ voz -- -- si -- ja: "li -"
+      kuj __ ni -- -- ne __
+      i ve -- se -- li -- sja, "Si -"
+      o -- -- -- -- -- -- ne! Ti že,
+      čis -- ta -- ja, kra -- suj -- -- sja,
+      Bo -- go -- ro -- -- -- di -- ce, __
+      o vo -- sta -- "ni – i      " rož -- "-des-"
       tva __ Tvo -- e -- go. __
     }
 
     \header {
-      title = \titleFunc "Ангел вопияше" "Angel vopiyashe"
+      title = \titleFunc "Ангел вопияше" "Angel vopijaše"
     }
 
     \midi{}

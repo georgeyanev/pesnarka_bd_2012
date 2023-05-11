@@ -46,7 +46,7 @@
 
 \bookpart {
   \label #'ref058
-  \tocItem \markup "На белия цвят – Na beliya zvjat"
+  \tocItem \markup "На белия цвят – Na belija cvjat"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -81,15 +81,14 @@
     }
 
     \addlyrics {
-      Na -- go -- re o -- shte da var -- vim, kam var -- ho -- ve -- te be --
-      li, e -- fi -- ra byal da poz -- dra -- vim i snezh -- ni -- te kri --
-      sta -- li. e -- li. Hu -- bost -- ta na Bo -- zhi svyat,
-      be -- li -- na -- ta, nash e tsvyat;  vech -- na si -- la i --
-      ma, mrak ya ne ob -- zi -- ma. zi -- ma.
+      Na -- go -- re o -- šte da văr -- vim, kăm văr -- ho -- ve -- te be --
+      li, e -- fi -- ra bjal da poz -- dra -- vim i snež -- ni -- te kri --
+      sta -- li. e -- li. Hu -- bost -- ta na Bo -- ži svjat,
+      be -- li -- na -- ta, naš e cvjat;  več -- na si -- la i --
+      ma, mrak ja ne ob -- zi -- ma. zi -- ma.
     }
-
     \header {
-      title = \titleFunc "На белия цвят" "Na beliya zvjat"
+      title = \titleFunc "На белия цвят" "Na belija cvjat"
     }
 
     \midi{}
@@ -136,41 +135,39 @@
 
     \hspace #5
     \override #'(baseline-skip . 1.8)
-    \column {
+   \column {
 
-      \line {   2. Nagore oshte! Tam tsafti }
-      \line {   "   " alpiyska roza byala, }
-      \line {   "   " zorata belite lachi }
-      \line {   "   " v taz roza e izlyala. }
+      \line {   2. Nagore ošte! Tam căfti }
+      \line {   "   " alpijska roza bjala, }
+      \line {   "   " zorata belite lăči }
+      \line {   "   " v taz roza e izljala. }
       \line { " " }
 
       \line { "        " \italic {Pripev: } }
       \line { " " }
 
 
-      \line {  3. Nagore! Byalo Slantse dnes }
+      \line {  3. Nagore! Bjalo Slănce dnes }
 
-      \line {   "   "ot iztok shte izgree  – }
+      \line {   "   "ot iztok šte izgree  – }
 
-      \line {   "   "emblema zhiva na onez,}
+      \line {   "   "emblema živa na onez,}
 
-      \line {   "   "v koito Bog zhivee.}
+      \line {   "   "v koito Bog živee.}
       \line { " " }
 
       \line { "        " \italic {Pripev: } }
       \line { " " }
-
-
       \line {   4. Nagore – v tazi belina!}
 
-      \line {   "   "Tya vsade shte izpalni,}
+      \line {   "   "Tja vsăde šte izpălni,}
 
-      \line {   "   "i gibelnata tamnina}
+      \line {   "   "i gibelnata tămnina}
 
-      \line {   "   "v byal den shte se prevarne.}
+      \line {   "   "v bjal den šte se prevărne.}
 
 
-    } \"rightBraces058" %column
+    }   \"rightBraces058" %column
   } % markup
 
   \pageBreak
@@ -207,18 +204,17 @@
 
 
       \line { "        " \italic {Pripev: } }
-
       \line { " " }
 
-      \line {   5. Zemyata shte razhubavim,}
 
-      \line {   "   "na Ray shte ya napravim;}
+      \line {   5. Zemjata šte razhubavim,}
 
-      \line {   "   "Nebeto shte razveselim}
+      \line {   "   "na Raj šte ja napravim;}
 
-      \line {   "   "i Boga shte proslavim.}
+      \line {   "   "Nebeto šte razveselim}
+
+      \line {   "   "i Boga šte proslavim.}
       \line { " " }
-
       \line { "        " \italic {Pripev: } }
     }    \"rightBraces059"
   } % markup

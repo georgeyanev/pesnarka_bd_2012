@@ -30,7 +30,7 @@
 
 \bookpart {
   \label #'ref051
-  \tocItem \markup "О, Учителю благати – O, Uchitelyu blagati"
+  \tocItem \markup "О, Учителю благати – O, Učitelju blagati"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -55,14 +55,14 @@
       с~Мъ -- дрост, Свет -- ли -- на. Твой -- те на.
     }
 
-    \addlyrics {
-      "1. O," U -- chi -- te -- lyu bla -- ga -- ti, teb iz -- pal -- va Do -- bri --
-      na. Tvoy -- te du -- mi sa kri -- la -- ti, pal -- ni
-      s~Ma -- drost, Svet -- li -- na. Tvoy -- te na.
+  \addlyrics {
+      "1. O," U -- či -- te -- lju bla -- ga -- ti, teb iz -- păl -- va Do -- bri --
+      na. Tvoj -- te du -- mi sa kri -- la -- ti, păl -- ni
+      s~Mă -- drost, Svet -- li -- na. Tvoj -- te na.
     }
 
     \header {
-      title = \titleFunc "О, Учителю благати" "O, Uchitelyu blagati "
+      title = \titleFunc "О, Учителю благати" "O, Učitelju blagati "
     }
 
     \midi{}
@@ -102,36 +102,36 @@
       \line {   "   "влей в сърца ни Топлина!}
     }\"rightBraces051"
 
-    \hspace #5
+    \hspace #2
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
+        \column {
       \line {   2. Pratenik si ti ot Boga}
 
-      \line {   "   "vsred izmacheni dushi,}
+      \line {   "   "vsred izmăčeni duši,}
 
-      \line {   "   "Mir, Lyubov ti v nas da vleesh,}
+      \line {   "   "Mir, Ljubov ti v nas da vleeš,}
 
-      \line {   "   "Nov zhivot, chestiti dni.}
+      \line {   "   "Nov život, čestiti dni.}
 
       \line {   "   "}
 
-      \line {   3. V skarbi, maki i nevoli }
+      \line {   3. V skărbi, măki i nevoli }
 
-      \line {   "   "samo ti si nash podslon,}
+      \line {   "   "samo ti si naš podslon,}
 
       \line {   "   "ti uteha ni donese,}
 
-      \line {   "   "moy Uchitelyu, poklon!}
+      \line {   "   "moj Učitelju, poklon!}
 
       \line {   "   "}
 
-      \line {   4. Tvoite dumi – biser chisti,}
+      \line {   4. Tvoite dumi – biser čisti,}
 
-      \line {   "   "tvoyat obraz – Svetlina,}
+      \line {   "   "tvojat obraz – Svetlina,}
 
-      \line {   "   "o, Uchitelyu chestiti,}
+      \line {   "   "o, Učitelju čestiti,}
 
-      \line {   "   "vley v sartsa ni Toplina!}
+      \line {   "   "vlej v sărca ni Toplina!}
     } %column
     \"rightBraces051"
   } % markup

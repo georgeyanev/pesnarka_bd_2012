@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref055_1
-  \tocItem \markup "Слънцето на Любовта – Slantseto na Lyubovta"
+  \tocItem \markup "Слънцето на Любовта – Slănceto na Ljubovta"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -29,14 +29,14 @@
       Ний сме слън -- че -- ви лъ -- чи, но -- сим Но -- ви -- я жи -- вот.
     }
 
-    \addlyrics {
-      Slan -- tse -- to na Lyu -- bov -- ta iz -- grya -- va vech vav sve -- ta.
-      Vre -- dom pra -- shta Svet -- li -- na i raz -- na -- sya Top -- li -- na.
-      Niy sme slan -- che -- vi la -- chi, no -- sim No -- vi -- ya zhi -- vot.
-      Niy sme slan -- che -- vi la -- chi, no -- sim No -- vi -- ya zhi -- vot.
+   \addlyrics {
+      Slăn -- ce -- to na Lju -- bov -- ta iz -- grja -- va več văv sve -- ta.
+      Vre -- dom pra -- šta Svet -- li -- na i raz -- na -- sja Top -- li -- na.
+      Nij sme slăn -- če -- vi lă -- či, no -- sim No -- vi -- ja ži -- vot.
+      Nij sme slăn -- če -- vi lă -- či, no -- sim No -- vi -- ja ži -- vot.
     }
     \header {
-      title = \titleFunc "Слънцето на Любовта" "Slantseto na Lyubovta"
+      title = \titleFunc "Слънцето на Любовта" "Slănceto na Ljubovta"
     }
 
     \midi{}

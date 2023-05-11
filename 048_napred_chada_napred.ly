@@ -30,7 +30,7 @@
 
 \bookpart {
   \label #'ref048
-  \tocItem \markup "Напред, чада, напред – Napred, chada, napred"
+  \tocItem \markup "Напред, чада, напред – Napred, čada, napred"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -56,15 +56,16 @@
       Прав -- да, Мир, Лю -- бов. Без бов!
     }
 
-    \addlyrics {
-      "1. Na" -- pred, cha -- da, na -- pred, no -- se -- te Slo -- vo -- to na --
-      vred! Bez strah v~Zhi -- vo -- ta nov no -- se -- te
-      Prav -- da, Mir, Lyu -- bov. Bez bov!
+     \addlyrics {
+      "1. Na" -- pred, ča -- da, na -- pred, no -- se -- te Slo -- vo -- to na --
+      vred! Bez strah v~Ži -- vo -- ta nov no -- se -- te
+      Prav -- da, Mir, Lju -- bov. Bez bov!
     }
 
 
+
     \header {
-      title = \titleFunc "Напред, чада, напред " "Napred, chada, napred"
+      title = \titleFunc "Напред, чада, напред " "Napred, čada, napred"
     }
 
     \midi{}
@@ -106,35 +107,35 @@
 
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
+  \column {
       \line {   2. Ot novoto Nebe }
 
-      \line {   "   " Spasitelyat ni dnes zove: }
+      \line {   "   " Spasiteljat ni dnes zove: }
 
-      \line {   "   " Ya chuyte toya zov –}
+      \line {   "   " Ja čujte toja zov –}
 
-      \line {   "   " nosete Pravda, Mir, Lyubov!}
+      \line {   "   " nosete Pravda, Mir, Ljubov!}
 
       \line {   "   "}
 
-      \line {   3.  Tuk dolu nyama Mir,}
+      \line {   3.  Tuk dolu njama Mir,}
 
-      \line {   "   " nepravdata e v dlazh i shir;}
+      \line {   "   " nepravdata e v dlăž i šir;}
 
-      \line {   "   " razseyte barzo dnes }
+      \line {   "   " razsejte bărzo dnes }
 
       \line {   "   " za Mir i Pravda blaga vest!}
 
       \line {   "   "}
 
-      \line {   4.  Napred, chada, napred,}
+      \line {   4.  Napred, čada, napred,}
 
       \line {   "   " nosete Slovoto navred!}
 
-      \line {   "   " Bez strah v Zhivota nov,}
+      \line {   "   " Bez strah v Života nov,}
 
-      \line {   "   " nosete Pravda, Mir, Lyubov!}
-    } %column
+      \line {   "   " nosete Pravda, Mir, Ljubov!}
+    }  %column
     \"rightBraces048"
   } % markup
 

@@ -37,7 +37,7 @@
 
 \bookpart {
   \label #'ref037
-  \tocItem \markup "На Учителя – Na Uchitelya"
+  \tocItem \markup "На Учителя – Na Učitelja"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -62,15 +62,15 @@
       е път от -- во -- рен, що ме во -- ди към От -- ца.
     }
 
-    \addlyrics {
-      Na U --  chi -- te -- lya po -- ko -- ren az shte slu -- zha
-      do kon -- tsa. Toy za men e pat ot -- vo --
-      ren, shto me vo -- di kam Ot -- tsa. Toy za men
-      e pat ot -- vo -- ren, shto me vo -- di kam Ot -- tsa.
+  \addlyrics {
+      Na U --  či -- te -- lja po -- ko -- ren az šte slu -- ža
+      do kon -- ca. Toj za men e păt ot -- vo --
+      ren, što me vo -- di kăm Ot -- ca. Toj za men
+      e păt ot -- vo -- ren, što me vo -- di kăm Ot -- ca.
     }
 
     \header {
-      title = \titleFunc "На Учителя" "Na Uchitelya"
+      title = \titleFunc "На Учителя" "Na Učitelja"
     }
 
     \midi{}
@@ -107,27 +107,26 @@
 
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line { 2.  Gospodi, Ti moy Uchitel, }
-      \line {   "   " v stapkite si me vodi, }
-      \line {   "   " i kat moshten pokrovitel }
-      \line {   "   " vsyakoga kam men badi. }
+     \column {
+      \line { 2.  Gospodi, Ti moj Učitel, }
+      \line {   "   " v stăpkite si me vodi, }
+      \line {   "   " i kat mošten pokrovitel }
+      \line {   "   " vsjakoga kăm men bădi. }
       \line { " " }
-      \line { 3. Day mi Tvoyta Madrost svyata }
-      \line {   "   " i Bozhestvena Lyubov; }
-      \line {   "   " za Lyubov kam vsichki bratya }
-      \line {   "   " vinagi da sam gotov. }
+      \line { 3. Daj mi Tvojta Mădrost svjata }
+      \line {   "   " i Božestvena Ljubov; }
+      \line {   "   " za Ljubov kăm vsički bratja }
+      \line {   "   " vinagi da săm gotov. }
       \line { " " }
-      \line { 4. I vav dni na izpitanie }
-      \line {   "   " Ti badi mi kanara; }
-      \line {   "   " tay za Tebe shte zhiveya }
-      \line {   "   " i za Tebe shte umra. }
+      \line { 4. I văv dni na izpitanie }
+      \line {   "   " Ti bădi mi kanara; }
+      \line {   "   " tăj za Tebe šte živeja }
+      \line {   "   " i za Tebe šte umra. }
       \line { " " }
-      \line { 5. I kogato stana zhitel }
-      \line {   "   " na Nevidimiya svyat, }
-      \line {   "   " o, lyubezni moy Uchitel,  }
-      \line {   "   " day mi Tvoyta blagodat! }
-
+      \line { 5. I kogato stana žitel }
+      \line {   "   " na Nevidimija svjat, }
+      \line {   "   " o, ljubezni moj Učitel,  }
+      \line {   "   " daj mi Tvojta blagodat! }
     }  \"rightBraces037"  %column
   } % markup
 

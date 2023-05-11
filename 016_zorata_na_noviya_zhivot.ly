@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref016
-  \tocItem \markup "Зората на Новия живот – Zorata na Noviya zhivot"
+  \tocItem \markup "Зората на Новия живот – Zorata na Novija život"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -40,19 +40,19 @@
       тоз жи -- вот, жи -- вот на Ра -- дост -- та.
     }
 
-    \addlyrics {
-      "1. Zo" -- ra se chud -- na za -- zo -- rya -- va, zo --
-      ra na sve -- tal nov zhi -- vot; s~ve -- li -- ko --
-      le -- pi -- e o -- grya -- va po -- spre -- li -- ya se
-      nash ki -- vot. V~no -- vi -- ya sve -- tal toz zhi -- vot, __
-      v~no -- vi -- ya sve -- tal toz zhi -- vot, zhi -- vot na
-      Lyu -- bov -- ta.  v~no -- vi -- ya sve -- tal toz zhi -- vot, __
-      zhi -- vot na Bla -- gost -- ta, v~no -- vi -- ya sve -- tal
-      toz zhi -- vot, zhi -- vot na Ra -- dost -- ta.
+   \addlyrics {
+      "1. Zo" -- ra se čud -- na za -- zo -- rja -- va, zo --
+      ra na sve -- tăl nov ži -- vot; s~ve -- li -- ko --
+      le -- pi -- e o -- grja -- va po -- spre -- li -- ja se
+      naš ki -- vot. V~no -- vi -- ja sve -- tăl toz ži -- vot, __
+      v~no -- vi -- ja sve -- tăl toz ži -- vot, ži -- vot na
+      Lju -- bov -- ta.  v~no -- vi -- ja sve -- tăl toz ži -- vot, __
+      ži -- vot na Bla -- gost -- ta, v~no -- vi -- ja sve -- tăl
+      toz ži -- vot, ži -- vot na Ra -- dost -- ta.
     }
 
     \header {
-      title = \titleFunc "Зората на Новия живот" "Zorata na Noviya zhivot"
+      title = \titleFunc "Зората на Новия живот" "Zorata na Novija život"
     }
 
     \midi{}
@@ -108,45 +108,44 @@
 
     \hspace #5
     \override #'(baseline-skip . 1.8)
-    \column {
-      \line { 2. I ptichki vazduha izpalnyat }
-      \line {   "   " s vaztorg i sladki pesni v hor, }
-      \line {   "   " Harmoniyata da dopalnyat }
-      \line {   "   " V golemia nebesen dvor.}
+        \column {
+      \line { 2. I ptički văzduha izpălnjat }
+      \line {   "   " s văztorg i sladki pesni v hor, }
+      \line {   "   " Harmonijata da dopălnjat }
+      \line {   "   " V golemija nebesen dvor.}
 
       \line { " " }
       \line { "   " \italic {Pripev: } }
-      \line {  "   " V novia svetal toz zhivot, (2) }
-
-      \line { "   " Zhivot na lyubovta, }
-      \line {  "   " V novia svetal toz zhivot,}
-      \line { "   " Zhivot na blagostta, }
-      \line { "   "  V novia svetal toz zhivot,}
-      \line {  "   " Zhivot na radostta.}
+      \line {  "   " V novija svetăl toz život, (2) }
+      \line { "   " Život na ljubovta, }
+      \line {  "   " V novija svetăl toz život,}
+      \line { "   " Život na blagostta, }
+      \line { "   "  V novija svetăl toz život,}
+      \line {  "   " Život na radostta.}
       \line { " " }
 
       \line { 3. Trepti zorata lekokrila  }
-      \line {   "   " i budi nashite dushi; }
-      \line {   "   " kato lyubyashta mayka mila}
+      \line {   "   " i budi našite duši; }
+      \line {   "   " kato ljubjašta majka mila}
       \line {   "   " podkanva vsekigo: „Stani!“}
 
       \line { " " }
       \line { "   " \italic {Pripev ...} }
       \line { " " }
 
-      \line { 4. Lachi ot lyubovta ni vlivat }
-      \line {   "   " V gardite zhiva toplina, }
-      \line {   "   " Sas sladka vyara ni povdigat }
-      \line {   "   " vav krepost i videlina. }
+      \line { 4. Lăči ot ljubovta ni vlivat }
+      \line {   "   " V gărdite živa toplina, }
+      \line {   "   " Săs sladka vjara ni povdigat }
+      \line {   "   " văv krepost i videlina. }
 
       \line { " " }
       \line { "   " \italic {Pripev ...} }
       \line { " " }
 
-      \line { 5.  O tez lachi ot Boga idat, }
-      \line {   "   " Te palnyat nashite sartsa, }
-      \line {   "   " I shepnat sladko, kak Toy vika: }
-      \line {   "   " „Elate, moite detsa!“ }
+      \line { 5.  O tez lăči ot Boga idat, }
+      \line {   "   " Te pălnjat našite sărca, }
+      \line {   "   " I šepnat sladko, kak Toj vika: }
+      \line {   "   " „Elate, moite deca!“ }
       \line { " " }
       \line { "   " \italic {Pripev ...} }
       \line { " " }

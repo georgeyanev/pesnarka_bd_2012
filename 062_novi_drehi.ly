@@ -30,12 +30,13 @@
       ти -- ва да на -- сле -- ди но -- ви ня -- ко -- и пре -- де -- ли.
     }
 
+
     \addlyrics {
-      "1. Kak" -- to che -- lo -- vek sa -- bli -- cha dre -- hi -- te si
-      o -- veh -- te -- li, za da mo -- zhe da na  -- de -- ne
-      no -- vi dre -- hi, chis -- ti, be -- li, tay Du -- hat plat -- ta o --
-      sta -- vya v~dru -- ga plat da se za -- se -- li i o --
-      ti -- va da na -- sle -- di no -- vi nya -- ko -- i pre -- de -- li.
+      "1. Kak" -- to če -- lo -- vek să -- bli -- ča dre -- hi -- te si
+      o -- veh -- te -- li, za da mo -- že da na  -- de -- ne
+      no -- vi dre -- hi, čis -- ti, be -- li, tăj Du -- hăt plăt -- ta o --
+      sta -- vja v~dru -- ga plăt da se za -- se -- li i o --
+      ti -- va da na -- sle -- di no -- vi nja -- ko -- i pre -- de -- li.
     }
 
     \header {
@@ -92,39 +93,39 @@
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
-      \line {   2. Toy minava svetovete}
+      \line {   2. Toj minava svetovete}
 
-      \line {   "   "i vav tyah se vaplаtyava –}
+      \line {   "   "i văv tjah se văplătjava –}
 
       \line {   "   "novi darbi da dobie,}
 
-      \line {   "   "Nov Zhivot da ustroyava.}
+      \line {   "   "Nov Život da ustrojava.}
 
-      \line {   "   "Tay napredva toy bezkrayno}
+      \line {   "   "Tăj napredva toj bezkrajno}
 
       \line {   "   "v krasota neizrazima}
 
       \line {   "   "i dostiga Svetlinata – }
 
-      \line {   "   "tamo, de blazhenstvo ima.}
+      \line {   "   "tamo, de blaženstvo ima.}
 
       \line {   "   "}
 
-      \line {   3. Tay prekrasno i premadro}
+      \line {   3. Tăj prekrasno i premădro}
 
-      \line {   "   "Gospod vsichko e napravil}
+      \line {   "   "Gospod vsičko e napravil}
 
-      \line {   "   "i bez ustrem i nadezhda}
+      \line {   "   "i bez ustrem i nadežda}
 
       \line {   "   "nikogo ne e ostavil.}
 
-      \line {   "   "I zhivotat e priyaten,}
+      \line {   "   "I životăt e prijaten,}
 
-      \line {   "   "vsekimu se pak toy nravi,}
+      \line {   "   "vsekimu se pak toj nravi,}
 
-      \line {   "   "vsichko zhivo, shto vazdisha, }
+      \line {   "   "vsičko živo, što văzdiša, }
 
-      \line {   "   "vechno Gospoda da slavi! }
+      \line {   "   "večno Gospoda da slavi! }
     } %column
   } % markup
 

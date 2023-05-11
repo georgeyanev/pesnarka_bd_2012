@@ -37,7 +37,7 @@
 
 \bookpart {
   \label #'ref047
-  \tocItem \markup "Аз съм бялото кокиче –  Аz sam byaloto kokiche"
+  \tocItem \markup "Аз съм бялото кокиче –  Az săm bjaloto kokiče"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -67,16 +67,16 @@
       с~сне -- га, вет -- ро -- ве -- те.
       Всич -- ко жи -- во да се чу -- ди,
       че съм ран -- но цве -- те.}
-      \addlyrics {
-        "1. Az" sam bya -- lo ko -- ki -- che
-        vsred tre -- vi -- te gor -- s -- ki,
-        "sra-" -- "mezh-" -- li -- vo kat mo -- mi -- che
-        ot "po-" -- gle -- di hor -- ski. Zla me ma -- shte -- ha sa -- bu -- di
-        s~sne -- ga, vet -- ro -- ve -- te.
-        Vsich -- ko zhi -- vo da se chu -- di,
-        che sam ran -- no tsve -- te.}
+  \addlyrics {
+      "1. Az" săm bja -- lo ko -- ki -- če
+      vsred tre -- vi -- te gor -- s -- ki,
+      sra -- mež -- li -- vo kat "mo-" -- mi -- če
+      ot "po-" -- gle -- di hor -- ski. Zla me ma -- šte -- ha să -- bu -- di
+      s~sne -- ga, vet -- ro -- ve -- te.
+      Vsič -- ko ži -- vo da se ču -- di,
+      če săm ran -- no cve -- te.}
         \header {
-          title = \titleFunc "Аз съм бялото кокиче" " Аz sam byaloto kokiche"
+          title = \titleFunc "Аз съм бялото кокиче" "Az săm bjaloto kokiče"
         }
 
         \midi{}
@@ -111,28 +111,28 @@
 
         \hspace #5
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
+       \column {
           \line {    2. Radost nova vi pokazvam }
-          \line {   "   " s chashka ranobudna }
+          \line {   "   " s čaška ranobudna }
           \line {   "   " i za proletta razkazvam }
-          \line {   "   " prikazchitsa chudna. }
+          \line {   "   " prikazčica čudna. }
 
-          \line {  "     " Che sled mene temenuzhka  }
-          \line {   "     " u vas shte gostuva, }
-          \line {   "     " che sas taya mila druzhka }
-          \line {   "     " slavey shte se chuva. }
+          \line {  "     " Če sled mene temenužka  }
+          \line {   "     " u vas šte gostuva, }
+          \line {   "     " če săs taja mila družka }
+          \line {   "     " slavej šte se čuva. }
 
           \line { " " }
-          \line { 3. Che agantsa shte zableyat  }
+          \line { 3. Če agănca šte zablejat  }
           \line {   "   " v livadi zeleni, }
-          \line {   "   " che orachi shte zaseyat }
+          \line {   "   " če orači šte zasejat }
           \line {   "   " nivi natoreni. }
 
-          \line { "     " Zlatni klasove shte zreyat  }
-          \line {   "     " v tezi chudni nivi, }
-          \line {   "     " Angeli shte slavyat Boga }
-          \line {   "     " s pesni nay-krasivi. }
-        }  \"rightBraces047" %column
+          \line { "     " Zlatni klasove šte zrejat  }
+          \line {   "     " v tezi čudni nivi, }
+          \line {   "     " Angeli šte slavjat Boga }
+          \line {   "     " s pesni naj-krasivi. }
+        }   \"rightBraces047" %column
       }  % markup
 
       \pageBreak

@@ -36,7 +36,7 @@
 
 \bookpart {
   \label #'ref018
-  \tocItem \markup "Излязъл е сеяч – Izlyazal e seyach"
+  \tocItem \markup "Излязъл е сеяч – Izljazăl e sejač"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -88,20 +88,20 @@
       та о -- би -- лен из -- вор Мъ -- дрост -- та.
     }
 
-    \addlyrics {
-      Iz -- lya -- zal e se -- yach da se -- e __
-      pre -- kras -- no bla -- go nov Zhi -- vot. I
-      se -- e toy i ti -- ho pe -- e pred vse -- ki
+     \addlyrics {
+      Iz -- lja -- zăl e se -- jač da se -- e __
+      pre -- kras -- no bla -- go nov Ži -- vot. I
+      se -- e toj i ti -- ho pe -- e pred vse -- ki
       dom i vse -- ki rod, i vse -- ki rod: Bez --
-      tse -- nen dar e Lyu -- bov -- ta, kra --  si -- vo
-      chuv -- stvo O -- bich -- ta i bla -- go de -- lo Mi -- lost --
-      ta, o -- bi -- len iz -- vor Ma -- drost -- ta. Bez --
-      ta o -- bi -- len iz -- vor Ma -- drost -- ta.
+      ce -- nen dar e Lju -- bov -- ta, kra --  si -- vo
+      čuv -- stvo O -- bič -- ta i bla -- go de -- lo Mi -- lost --
+      ta, o -- bi -- len iz -- vor Mă -- drost -- ta. Bez --
+      ta o -- bi -- len iz -- vor Mă -- drost -- ta.
     }
 
 
     \header {
-      title = \titleFunc "Излязъл е сеяч" "Izlyazal e seyach"
+      title = \titleFunc "Излязъл е сеяч" "Izljazăl e sejač"
     }
 
     \midi{}
@@ -142,27 +142,30 @@
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
-      \line { 2. I koyto chue, v mig potrapva }
-      \line {   "   " ot toya blag i mil napev; }
-      \line {   "   " i prosiyava, i vazkrasva, }
-      \line {   "   " i blagoslavya toz posev. }
+    \column {
+
+      \line { 2. I kojto čue, v mig potrăpva }
+      \line {   "   " ot toja blag i mil napev; }
+      \line {   "   " i prosijava, i văzkrăsva, }
+      \line {   "   " i blagoslavja toz posev. }
       \line { " " }
-      \line { "   " \italic {Refrain: } }
-      \line {  "   " Beztsenen dar e Lyubovta, }
-      \line { "   " krasivo chuvstvo – Obichta }
+      \line { "   " \italic {Pripev: } }
+      \line {  "   " Bezcenen dar e Ljubovta, }
+      \line { "   " krasivo čuvstvo – Običta }
       \line { "   " i blago delo – Milostta, }
-      \line {  "   " obilen izvor – Madrostta.}
+      \line {  "   " obilen izvor – Mădrostta.}
 
       \line { " " }
-      \line { "   " \italic {Refrain ...} }
+      \line { "   " \italic {Pripev ...} }
 
       \line { " " }
-      \line { 3. Lyubov vselenata obliva, }
-      \line {   "   " ot obich gree vsyaka tvar; }
-      \line {   "   " zhivot v zhivota se preliva, }
-      \line {   "   " tuk nyama veche mlad i star. }
+      \line { 3. Ljubov vselenata obliva, }
+      \line {   "   " ot obič gree vsjaka tvar; }
+      \line {   "   " život v života se preliva, }
+      \line {   "   " tuk njama veče mlad i star. }
       \line { " " }
-      \line { "   " \italic {Refrain ...} }
+      \line { "   " \italic {Pripev ...} }
+    }
     }
     \"rightBraces018"
 

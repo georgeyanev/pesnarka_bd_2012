@@ -23,7 +23,7 @@
 
 \bookpart {
   \label #'ref046
-  \tocItem \markup "Росна капка – Rosna kapka "
+  \tocItem \markup "Росна капка – Rosna kapka"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -55,16 +55,16 @@
       "1. Рос-" -- на кап -- ко, свят ла -- зу -- рен, чист, кра -- сив и тих, без --
       бу -- рен, мир на рай -- ски -- я Жи -- вот, мир на рай -- ски -- я Жи --
       вот! В~те -- бе, кап -- ко, ви -- кам всич -- ки бра -- тя
-      ми -- ли и се -- стрич -- ки, да ти ста -- не -- ме на -- род. В~те -- бе,
+      ми -- ли и се -- стрич -- ки, да ти ста -- не -- ме на -- род. "В~те -" -- бе,
       стрич -- ки, да ти ста -- не -- ме на -- род.
     }
 
-    \addlyrics {
-      "1. Ros-" -- na kap -- ko, svyat la -- zu -- ren, chist, kra -- siv i tih, bez --
-      bu -- ren, mir na ray -- ski -- ya Zhi -- vot, mir na ray -- ski -- ya Zhi --
-      vot! V~te -- be, kap -- ko, vi -- kam vsich -- ki bra -- tya
-      mi -- li i se -- strich -- ki, da ti sta -- ne -- me na -- rod. V~te -- be,
-      strich -- ki, da ti sta -- ne -- me na -- rod.
+   \addlyrics {
+      "1. Ros-" -- na kap -- ko, svjat la -- zu -- ren, čist, kra -- siv i tih, bez --
+      bu -- ren, mir na raj -- ski -- ja Ži -- vot, mir na raj -- ski -- ja Ži --
+      vot! V~te -- be, kap -- ko, vi -- kam vsič -- ki bra -- tja
+      mi -- li i se -- strič -- ki, da ti sta -- ne -- me na -- rod. "V~te -" -- be,
+      strič -- ki, da ti sta -- ne -- me na -- rod.
     }
 
     \header {
@@ -107,29 +107,29 @@
 
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line { 2. Vsyaka sutrin vav rosata }
-      \line {   "   " shte si kapeme sartsata, }
+   \column {
+      \line { 2. Vsjaka sutrin văv rosata }
+      \line {   "   " šte si kăpeme sărcata, }
 
-      \line {   "   " kato slanchevi lachi; (2)}
+      \line {   "   " kato slănčevi lăči; (2)}
 
-      \line {   "   " i shte peem novi pesni}
+      \line {   "   " i šte peem novi pesni}
 
-      \line {   "   " sas melodii chudesni,}
+      \line {   "   " săs melodii čudesni,}
 
-      \line {   "   " svodat krasen da echi.}
+      \line {   "   " svodăt krasen da eči.}
 
       \line{" "}
 
-      \line {   3.  I tay chisti, v beli drehi,}
+      \line {   3.  I tăj čisti, v beli drehi,}
 
       \line {   "   " i prepasani s dospehi}
 
-      \line {   "   " na Velikata Lyubov, (2)}
+      \line {   "   " na Velikata Ljubov, (2)}
 
-      \line {   "   " novo tsarstvo shte napravim,}
+      \line {   "   " novo carstvo šte napravim,}
 
-      \line {   "   " Boga nashego da slavim}
+      \line {   "   " Boga našego da slavim}
 
       \line {   "   " vseki den, vo vek vekov.}
     } %column

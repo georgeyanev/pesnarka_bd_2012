@@ -24,7 +24,7 @@
 
 \bookpart {
   \label #'ref045
-  \tocItem \markup "Сине мой, пази живота – Sine moi, pazi zhivota"
+  \tocItem \markup "Сине мой, пази живота – Sine moj, pazi života"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -58,14 +58,14 @@
     }
 
     \addlyrics {
-      Si -- ne moy, pa -- zi Zhi -- vo -- ta, skri -- ti -- ya u
-      te -- be zhar; toy bez -- tse -- nen e po smi -- sal i ve --
-      li -- ko -- le -- pen dar. Duh bez -- smar -- ten, Duh ne -- tle -- nen,
-      tuy, ko -- e -- to vech -- no bdi i ra -- bo -- ti bez u --
+      Si -- ne moj, pa -- zi Ži -- vo -- ta, skri -- ti -- ja u
+      te -- be žar; toj bez -- ce -- nen e po smi -- săl i ve --
+      li -- ko -- le -- pen dar. Duh bez -- smăr -- ten, Duh ne -- tle -- nen,
+      tuj, ko -- e -- to več -- no bdi i ra -- bo -- ti bez u --
       mo -- ra, ne -- pre -- stan -- no v~teb gra -- di! Duh bez -- di.
     }
     \header {
-      title = \titleFunc "Сине мой, пази живота" "Sine moi, pazi zhivota"
+      title = \titleFunc "Сине мой, пази живота" "Sine moj, pazi života"
     }
 
     \midi{}
@@ -114,40 +114,41 @@
 
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
+     \column {
       \vspace #0.3
-      \line { 2. Ti si toz Zhivot realen, }
-      \line {   "   " sinko, sebe si poznay! }
 
-      \line {   "   " Tvoyta sila e golyama, }
+      \line { 2. Ti si toz Život realen, }
 
-      \line {   "   " dnite tvoi nyamat kray. }
+      \line {   "   " sinko, sebe si poznaj! }
 
-      \line {   "   " Ti sazdavash vseki podtik, }
+      \line {   "   " Tvojta sila e goljama, }
 
-      \line {   "   " blagorodniya stremezh,}
+      \line {   "   " dnite tvoi njamat kraj. }
+
+      \line {   "   " Ti săzdavaš vseki podtik, }
+
+      \line {   "   " blagorodnija stremež,}
 
       \line {   "   " idealite visoki}
 
-      \line {   "   " i krasiviya kopnezh.}
-
+      \line {   "   " i krasivija kopnež.}
       \vspace #0.2
 
-      \line {   3. Tazi plat ti e odezhda,}
+      \line {   3. Tazi plăt ti e odežda,}
 
-      \line {   "   " a Zemyata — shkolen chin;}
+      \line {   "   " a Zemjata — školen čin;}
 
-      \line {   "   " ti zhiveesh i se uchish,}
+      \line {   "   " ti živeeš i se učiš,}
 
-      \line {   "   " kato malak Bozhi Sin.}
+      \line {   "   " kato malăk Boži Sin.}
 
-      \line {   "   " Darzost, mili moy Zhivote,}
+      \line {   "   " Dărzost, mili moj Živote,}
 
-      \line {   "   " s teb e Bozhata Lyubov!}
+      \line {   "   " s teb e Božata Ljubov!}
 
-      \line {   "   " Tya zove te vse nagore —}
+      \line {   "   " Tja zove te vse nagore —}
 
-      \line {   "   " v savarshenstvo i Svyat Nov.}
+      \line {   "   " v săvăršenstvo i svjat Nov.}
     } \"rightBraces045" %column
   } % markup
 

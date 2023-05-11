@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref021
-  \tocItem \markup "Ще се развеселя – Shte se razveselya"
+  \tocItem \markup "Ще се развеселя – Šte se razveselja"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -54,19 +54,19 @@
     }
 
     \addlyrics {
-      Shte se raz -- ve -- se -- lya pre -- mno -- go za --
-      ra -- di Gos -- po -- da, du -- sha -- ta mi shte se
+      Šte se raz -- ve -- se -- lja pre -- mno -- go za --
+      ra -- di Gos -- po -- da, du -- ša -- ta mi šte se
       za -- ra -- du -- va v~Bo -- ga mo -- e -- go, go: Za --
-      shto -- to me o -- ble -- che v~o -- dezh -- di na spa -- se -- ni --
-      e, za -- gar -- na me v~man -- ti -- ya na prav -- da, za --
-      gar -- na me v~man -- ti -- ya na prav -- da, ka -- to zhe --
-      nih, u -- kra -- sen sas ve -- nets, ka -- to ne -- ves -- ta, na -- ki --
-      te -- na sas ut -- va -- ri -- te si, ka -- to ne -- ves -- ta,
-      na -- ki -- te -- na sas ut -- va -- ri -- te si, ka -- to de --
-      vi -- tsa, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
+      što -- to me o -- ble -- če v~o -- dež -- di na spa -- se -- ni --
+      e, za -- găr -- na me v~man -- ti -- ja na prav -- da, za --
+      găr -- na me v~man -- ti -- ja na prav -- da, ka -- to že --
+      nih, u -- kra -- sen săs ve -- nec, ka -- to ne -- ves -- ta, na -- ki --
+      te -- na săs ut -- va -- ri -- te si, ka -- to ne -- ves -- ta,
+      na -- ki -- te -- na săs ut -- va -- ri -- te si, ka -- to de --
+      vi -- ca, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
     }
     \header {
-      title = \titleFunc "Ще се развеселя" "Shte se razveselya"
+      title = \titleFunc "Ще се развеселя" "Šte se razveselja"
     }
 
     \midi{}

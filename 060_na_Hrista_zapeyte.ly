@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref060
-  \tocItem \markup "На Христа запейте – Na Hrista zapeyte "
+  \tocItem \markup "На Христа запейте – Na Hrista zapejte "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -37,16 +37,16 @@
       во -- то креп -- ко И -- ме да се сла -- ви в~род и род.
     }
 
-    \addlyrics {
+     \addlyrics {
       "1. No" -- vi hi -- mni na I -- su -- sa da za -- pe -- em
-      v~to -- ya chas, Bo -- zhi Sin e Toy pred -- ve --
-      chen na Ne -- be -- to i vav nas.  Nash U -- chi -- tel,
-      nash vo -- di -- tel, is -- tin -- ski -- yat nash Zhi -- vot, Ne -- go --
+      v~to -- ja čas, Bo -- ži Sin e Toj pred -- ve --
+      čen na Ne -- be -- to i văv nas.  Naš U -- či -- tel,
+      naš vo -- di -- tel, is -- tin -- ski -- jat naš Ži -- vot, Ne -- go --
       vo -- to krep -- ko I -- me da se sla -- vi v~rod i rod.
     }
 
     \header {
-      title = \titleFunc "На Христа запейте" "Na Hrista zapeyte"
+      title = \titleFunc "На Христа запейте" "Na Hrista zapejte"
     }
 
     \midi{}
@@ -96,40 +96,39 @@
 
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line {   2.  Na Hrista zapeyte himni  }
+   \column {
+      \line {   2.  Na Hrista zapejte himni  }
 
-      \line {   "   " novi v toz tarzhestven chas, }
+      \line {   "   " novi v toz tăržestven čas, }
 
-      \line {   "   " Toy e Bozhi Sin, izpraten }
+      \line {   "   " Toj e Boži Sin, izpraten }
 
-      \line {   "   " na Zemyata zarad nas. }
+      \line {   "   " na Zemjata zarad nas. }
 
-      \line {   "   " Toy zhivota Si polozhi }
+      \line {   "   " Toj života Si položi }
 
       \line {   "   " ot greha da ni spasi, }
 
-      \line {   "   " kato smartnik v groba sleze }
+      \line {   "   " kato smărtnik v groba sleze }
 
-      \line {   "   " martvite da vazkresi. }
+      \line {   "   " mărtvite da văzkresi. }
       \line {   "   "}
 
       \line {   3.  I kogato se proslavi, }
 
-      \line {   "   " nov zavet ni dade Toy, }
+      \line {   "   " nov zavet ni dade Toj, }
 
-      \line {   "   " nay-velikia ot vsichki, }
+      \line {   "   " naj-velikija ot vsički, }
 
-      \line {   "   " Lyubovta – zakona Svoy. }
+      \line {   "   " Ljubovta – zakona Svoj. }
 
-      \line {   "   " Blagovestvuva i reche: }
+      \line {   "   " Blagovestvuva i reče: }
 
-      \line {   "   " „Viy ste Moi, Az Sam vash, }
+      \line {   "   " „Vij ste Moi, Az Săm vaš, }
 
-      \line {   "   " horata sa vsichki bratya, }
+      \line {   "   " horata sa vsički bratja, }
 
-      \line {   "   " Bog Otets e tatko nash. }
-
+      \line {   "   " Bog Otec e tatko naš. }
 
     } %column
   } % markup
@@ -179,38 +178,39 @@
 
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
+   \column {
 
-      \line {  4.  Edin drug se zalyubete, }
 
-      \line {   "   " tay se sluzhi na Ottsa; }
+      \line {  4.  Edin drug se zaljubete, }
 
-      \line {   "   " i Otets vi vsichki lyubi, }
+      \line {   "   " tăj se služi na Otca; }
 
-      \line {   "   " kato Negovi detsa. }
+      \line {   "   " i Otec vi vsički ljubi, }
 
-      \line {   "   " Az sam zhiv hlyab ot Nebeto, }
+      \line {   "   " kato Negovi deca. }
 
-      \line {   "   " az sam istinska loza, }
+      \line {   "   " Az săm živ hljab ot Nebeto, }
+
+      \line {   "   " az săm istinska loza, }
 
       \line {   "   " Slovoto Mi opazete, }
 
-      \line {   "   " zazhiveyte v Lyubovta! }
+      \line {   "   " zaživejte v Ljubovta! }
       \line {   "   "}
 
-      \line {   5.  Samo v neya e zhivota, }
+      \line {   5.  Samo v neja e života, }
 
-      \line {   "   " neyna e radostta, }
+      \line {   "   " nejna e radostta, }
 
-      \line {   "   " tya sazdava vsyako blago, }
+      \line {   "   " tja săzdava vsjako blago, }
 
-      \line {   "   " tya ednichka, Lyubovta. “}
+      \line {   "   " tja ednička, Ljubovta.“ }
 
-      \line {   "   " Tay ni ucheshe togava,  }
+      \line {   "   " Tăj ni učeše togava,  }
 
-      \line {   "   " tay ni shepne i sega, }
+      \line {   "   " tăj ni šepne i sega, }
 
-      \line {   "   " i vazkrasvat mi v dushata }
+      \line {   "   " i văzkrăsvat mi v dušata }
 
       \line {   "   " tezi Negovi slova. }
     } %column

@@ -32,15 +32,14 @@
       ли -- те ду -- хо -- ве, на Свет -- ли -- те ду
       -- хо -- ве, на Свет -- ли -- те ду -- хо -- ве,
       на Свет -- ли -- те ду -- хо -- ве.}
-      \addlyrics {
-        Bla -- go --
-        slo -- ven Gos -- pod Bog nash na vsich -- ki ve
-        -- ko -- ve; bla -- go -- slo -- ven Ba -- shta nash
-        na Svet -- li -- te du -- ho -- ve, na Svet --
-        li -- te du -- ho -- ve, na Svet -- li -- te du
-        -- ho -- ve, na Svet -- li -- te du -- ho -- ve,
-        na Svet -- li -- te du -- ho -- ve.
-      }
+    \addlyrics {
+      Bla -- go --
+      slo -- ven Gos -- pod Bog naš na vsič -- ki ve
+      -- ko -- ve; bla -- go -- slo -- ven Ba -- šta naš
+      na Svet -- li -- te du -- ho -- ve, na Svet --
+      li -- te du -- ho -- ve, na Svet -- li -- te du
+      -- ho -- ve, na Svet -- li -- te du -- ho -- ve,
+      na Svet -- li -- te du -- ho -- ve.}
 
       \header {
         title = \titleFunc "Благословен Господ" "Blagosloven Gospod"
@@ -57,7 +56,7 @@
     \markup \empty-two
 
     \label #'ref041
-    \tocItem \markup "За Небесния цар – Za Nebesniya tsar"
+    \tocItem \markup "За Небесния цар – Za Nebesnija car"
 
     \include "include/bookpart-paper.ily"
     \score {
@@ -97,19 +96,19 @@
         Ти си цар на Прав -- да и Мир, Мир и Лю --
         бов, Мир и Лю -- бов, Мир и Лю -- бов, Мир и
         Лю -- бов, Лю -- бов, Лю -- бов.}
-        \addlyrics {
-          Na -- pred,
-          na -- pred za sla -- va v~boy za TSa -- rya ne --
-          bes -- ni, TSa -- rya na Prav -- da, Mir i Lyu --
-          bov, Mir i Lyu -- bov, Mir i Lyu -- bov, Lyu --
-          bov, Lyu -- bov. Sla -- va, sla -- va Teb po --
-          do -- ba -- va, Ti si tsar na Prav -- da i Mir,
-          Ti si tsar na Prav -- da i Mir, Mir i Lyu --
-          bov, Mir i Lyu -- bov, Mir i Lyu -- bov, Mir i
-          Lyu -- bov, Lyu -- bov, Lyu -- bov.}
+    \addlyrics {
+        Na -- pred,
+        na -- pred za sla -- va v~boj za Ca -- rja ne --
+        bes -- ni, Ca -- rja na Prav -- da, Mir i Lju --
+        bov, Mir i Lju -- bov, Mir i Lju -- bov, Lju --
+        bov, Lju -- bov. Sla -- va, sla -- va Teb po --
+        do -- ba -- va, Ti si car na Prav -- da i Mir,
+        Ti si car na Prav -- da i Mir, Mir i Lju --
+        bov, Mir i Lju -- bov, Mir i Lju -- bov, Mir i
+        Lju -- bov, Lju -- bov, Lju -- bov.}
 
           \header {
-            title = \titleFunc "За Небесния цар" "Za Nebesniya tsar"
+            title = \titleFunc "За Небесния цар" "Za Nebesnija car"
           }
 
           \midi{}

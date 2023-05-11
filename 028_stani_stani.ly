@@ -41,15 +41,15 @@
       се об -- ле -- чи и със не -- я все гра -- ди:
       тя ще те и об -- но -- ви, и с~Дух ще те о
       -- за -- ри.}
-      \addlyrics {
-        Sta -- ni, sta -- ni i Gos -- pod shte te o -- zhi -- vi;
-        sta -- ni, sta -- ni i Gos -- pod shte te vaz --
-        kre -- si; sta -- ni, sta -- ni i s~Lyu -- bov --
-        ta za -- poch -- ni; sta -- ni, sta -- ni i v~Is
-        -- ti -- na se ob -- le -- chi. V~Is -- ti -- na
-        se ob -- le -- chi i sas ne -- ya vse gra -- di:
-        tya shte te i ob -- no -- vi, i s~Duh shte te o
-        -- za -- ri.}
+    \addlyrics {
+      Sta -- ni, sta -- ni i Gos -- pod šte te o -- ži -- vi;
+      sta -- ni, sta -- ni i Gos -- pod šte te văz --
+      kre -- si; sta -- ni, sta -- ni i s~Lju -- bov --
+      ta za -- poč -- ni; sta -- ni, sta -- ni i v~Is
+      -- ti -- na se ob -- le -- či. V~Is -- ti -- na
+      se ob -- le -- či i săs ne -- ja vse gra -- di:
+      tja šte te i ob -- no -- vi, i s~Duh šte te o
+      -- za -- ri.}
 
         \header {
           title = \titleFunc "Стани, стани" "Stani, stani"

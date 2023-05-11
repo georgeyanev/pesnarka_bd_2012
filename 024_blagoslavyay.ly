@@ -4,8 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
-   \label #'ref024
-  \tocItem \markup "Благославяй – Blagoslavyay"
+  \label #'ref024
+  \tocItem \markup "Благославяй – Blagoslavjaj"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -66,19 +66,19 @@
 
     \addlyrics {
       Bla -- go --
-      sla -- vyay, du -- she mo -- ya, Gos -- po -- da!
-      Ne za -- bra -- vyay vsi -- te Mu mi -- lo --
-      sti, ne za -- bra -- vyay vsi -- te Mu bla -- go
-      -- sti, ne za -- bra -- vyay vsi -- te Mu do --
-      bri -- ni! Ne za -- bra -- vyay mi -- lost -- ta
-      Mu, ne za -- bra -- vyay bla -- gost -- ta Mu, ne
-      za -- bra -- vyay O -- bich -- ta Mu, ne za -- bra
-      -- vyay Lyu -- bov -- ta Mu! Ne za -- ta Mu!
+      sla -- vjaj, du -- še mo -- ja, Gos -- po -- da!
+      Ne za -- bra -- vjaj vsi -- te Mu mi -- lo --
+      sti, ne za -- bra -- vjaj vsi -- te Mu bla -- go
+      -- sti, ne za -- bra -- vjaj vsi -- te Mu do --
+      bri -- ni! Ne za -- bra -- vjaj mi -- lost -- ta
+      Mu, ne za -- bra -- vjaj bla -- gost -- ta Mu, ne
+      za -- bra -- vjaj O -- bič -- ta Mu, ne za -- bra
+      -- vjaj Lju -- bov -- ta Mu! Ne za -- ta Mu!
     }
 
 
     \header {
-      title = \titleFunc "Благославяй" "Blagoslavyay"
+      title = \titleFunc "Благославяй" "Blagoslavjaj"
     }
 
     \midi{}

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref020
-  \tocItem \markup "Братство, единство – Bratstvo, edinstvo"
+  \tocItem \markup "Братство, единство –  Bratstvo, edinstvo"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -49,10 +49,10 @@
 
     \addlyrics {
       Brat -- stvo, e -- din -- stvo ni -- e is -- ka -- me,
-      zo -- va na Lyu -- bov -- ta ni -- e pus -- ka -- me, mi -- ra na Ra -- dost -- ta
-      ni -- e vi -- ka -- me: blag Zhi -- vot v~nas da vli -- va -- me,
-      blag Zhi -- vot v~nas da vli -- va -- me, blag Zhi -- vot v~nas
-      da vli -- va -- me, blag Zhi -- vot v~nas da vli -- va -- me,
+      zo -- va na Lju -- bov -- ta ni -- e pus -- ka -- me, mi -- ra na Ra -- dost -- ta
+      ni -- e vi -- ka -- me: blag Ži -- vot v~nas da vli -- va -- me,
+      blag Ži -- vot v~nas da vli -- va -- me, blag Ži -- vot v~nas
+      da vli -- va -- me, blag Ži -- vot v~nas da vli -- va -- me,
       da vli -- va -- me, da vli -- va -- me, da vli -- va -- me,
       da vli -- va -- me, da vli -- va -- me.
     }

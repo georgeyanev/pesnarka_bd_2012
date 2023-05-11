@@ -39,9 +39,9 @@
 
     \addlyrics {
       Te -- be po -- em, Te -- be bla -- go -- da -- rim.
-      Te -- be bla -- go -- slo -- vim, Bo -- zhe nash.  I
-      mo -- lim Ti sya, i  mo -- lim Ti sya,  i
-      mo -- lim Ti sya, o, Bo -- zhe nash. I o, Bo -- zhe nash.
+      Te -- be bla -- go -- slo -- vim, Bo -- že naš.  I
+      mo -- lim Ti sja, i  mo -- lim Ti sja,  i
+      mo -- lim Ti sja, o, Bo -- že naš. I o, Bo -- že naš.
     }
     \header {
       title = \titleFunc "Тебе поем" "Tebe poem"

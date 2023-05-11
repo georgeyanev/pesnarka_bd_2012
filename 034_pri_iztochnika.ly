@@ -5,7 +5,7 @@
 
 \bookpart {
    \label #'ref034
-  \tocItem \markup "При източника – Pri iztochnika"
+  \tocItem \markup "При източника – Pri iztočnika"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -32,17 +32,17 @@
       та. __ И в~химн из -- ли -- ва си ду -- ша -- та. __
     }
 
-    \addlyrics {
+     \addlyrics {
       Vi -- sok
-      pla -- nin -- ski vrah bles -- ti, __ ob -- lyan s~la
-      -- chi ot ne -- be -- sa -- ta. __ Tam chis -- to iz
-      -- vor -- che shur -- ti __ i v~himn iz -- li -- va
-      si du -- sha -- ta, __ du -- sha -- ta, __ du -- sha --
-      ta. __ I v~himn iz -- li -- va si du -- sha -- ta. __
+      pla -- nin -- ski vrăh bles -- ti, __ ob -- ljan s~lă
+      -- či ot ne -- be -- sa -- ta. __ Tam čis -- to iz
+      -- vor -- če šur -- ti __ i v~himn iz -- li -- va
+      si du -- ša -- -- ta, __ du -- ša -- ta, __ du -- ša --
+      ta. __ I v~himn iz -- li -- va si du -- ša -- ta. __
     }
 
     \header {
-      title = \titleFunc "При източника" "Pri iztochnika"
+      title = \titleFunc "При източника" "Pri iztočnika"
     }
 
     \midi{}
@@ -91,33 +91,35 @@
     \hspace #4
     \override #'(baseline-skip . 1.8)
     \column {
-      \line { 2. Kam nego patnik umoren}
-      \line {   "   " usilno se stremi s nadezhda.}
-      \line {   "   " S dalboka skrab obremenen,}
-      \line {   "   " toy nov zhivot si tam otrezhda,}
-      \line {    "   "  "   "  "   " otrezhda, otrezhda,}
-      \line {   "   " toy nov zhivot si tam otrezhda.}
+      \line { 2. Kăm nego pătnik umoren}
+      \line {   "   " usilno se stremi s nadežda.}
+      \line {   "   " S dălboka skrăb obremenen,}
+      \line {   "   " toj nov život si tam otrežda,}
+      \line {   "   "  "   "  "   " otrežda, otrežda,}
+      \line {   "   " toj nov život si tam otrežda.}
       \line { " " }
-      \line { 3. I pita toy:   „Da piyna li}
-      \line {   "   " ot tvoyata voditsa chista, }
-      \line {   "   " da osvezha ochite si,}
-      \line {   "   " dusha si stradna da ochistya,}
-      \line {    "   "  "   "  "   " ochistya, ochistya,}
-      \line {   "   " dusha si stradna da ochistya?}
+      \line { 3. I pita toj: „Da pijna li}
+      \line {   "   " ot tvojata vodica čista, }
+      \line {   "   " da osveža očite si,}
+      \line {   "   " duša si stradna da očistja,}
+      \line {    "   "  "   "  "   " očistja, očistja,}
+      \line {   "   " duša si stradna da očistja?}
       \line { " " }
-      \line { 4. Da otpochina li; ratse,}
-      \line {   "   " litse, noze si da izmiya}
-      \line {   "   " ot toz svetoven prah; sartse,}
-      \line {   "   " pokrito s rani, da razkriya,}
-      \line {   "   "  "   "  "   " razkriya, razkriya,}
-      \line {   "   " pokrito s rani, da razkriya?“ }
+      \line { 4. Da otpočina li; răce,}
+      \line {   "   " lice, noze si da izmija}
+      \line {   "   " ot toz svetoven prah; sărce,}
+      \line {   "   " pokrito s rani, da razkrija,}
+      \line {    "   "  "   "  "   " razkrija, razkrija,}
+      \line {   "   " pokrito s rani, da razkrija?“}
       \line { " " }
-      \line { 5.  „Skloni, o, patniche zlochest,}
-      \line {   "   " glava si morna; utolyavay}
-      \line {   "   " bezmernata si zhazhda dnes}
-      \line {   "   " ot men i v men se ti nadyavay,}
-      \line {    "   "  "   "  "   " nadyavay, nadyavay,}
-      \line {   "   " ot men i v men se ti nadyavay!}
+      \line { 5.  „Skloni, o, pătniče zločest,}
+      \line {   "   " glava si morna; utoljavaj}
+      \line {   "   " bezmernata si žažda dnes}
+      \line {   "   " ot men i v men se ti nadjavaj,}
+      \line {   "   "  "   "  "   " nadjavaj, nadjavaj,}
+      \line {   "   " ot men i v men se ti nadjavaj!}
+
+
 
 
     } %column
@@ -149,19 +151,21 @@
     \hspace #4
     \override #'(baseline-skip . 1.8)
     \column {
-      \line { 6. Glasa ti machenishki chuh,}
-      \line {   "   " prieh i tvoyta zhalba mila.}
-      \line {   "   " Az sam velik Bozhestven duh}
-      \line {   "   " i shte ti dam zhivot i sila,}
+
+      \line { 6. Glasa ti măčeniški čuh,}
+      \line {   "   " prieh i tvojta žalba mila.}
+      \line {   "   " Az săm velik Božestven duh}
+      \line {   "   " i šte ti dam život i sila,}
       \line {   "   "  "   "  "   " i sila, i sila,}
-      \line {   "   " i shte ti dam zhivot i sila.}
+      \line {   "   " i šte ti dam život i sila.}
       \line { " " }
-      \line { 7. Ela, ela i piy ot men,}
-      \line {   "   " o, milo Bozhie sazdanie!}
-      \line {   "   " Nastapi vech posleden den}
-      \line {   "   " na vsyaka maka i stradanye,}
-      \line {   "   "  "   "  "   " stradanye, stradanye,}
-      \line {   "   " na vsyaka maka i stradanye.“}
+      \line { 7. Ela, ela i pij ot men,}
+      \line {   "   " o, milo Božie săzdanie!}
+      \line {   "   " Nastăpi več posleden den}
+      \line {   "   " na vsjaka măka i stradanje,}
+      \line {  "   "  "   "  "   " stradanje, stradanje,}
+      \line {   "   " na vsjaka măka i stradanje.“}
+
     } %column
   } % markup
 

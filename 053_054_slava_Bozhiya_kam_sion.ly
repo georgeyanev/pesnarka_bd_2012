@@ -18,7 +18,7 @@
 
 \bookpart {
   \label #'ref053
-  \tocItem \markup "Слава Божия – Slava Bozhia"
+  \tocItem \markup "Слава Божия – Slava Božija"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -41,10 +41,10 @@
 
     \addlyrics {
       Ne na me -- ne, ne na me -- ne, no na I -- me -- to Si
-      day, Bo -- zhe, sla -- va, sla -- va, sla -- va!
+      daj, Bo -- že, sla -- va, sla -- va, sla -- va!
     }
     \header {
-      title = \titleFunc "Слава Божия" "Slava Bozhia"
+      title = \titleFunc "Слава Божия" "Slava Božija"
     }
 
     \midi{}
@@ -57,7 +57,7 @@
   \markup \empty-three
 
    \label #'ref054
-  \tocItem \markup "Към Сион – Kam Sion"
+  \tocItem \markup "Към Сион – Kăm Sion"
 
   \include "include/bookpart-paper.ily"
 
@@ -99,16 +99,16 @@
     }
 
     \addlyrics {
-      "1. S~kri" -- la -- ta na o -- re -- la, Si -- o -- ne nash lyu --
-      bim, stre -- mi -- tel -- no kam te -- be niy druzh -- no dnes le --
-      tim. Smart -- ta ni vech ne pla -- shi, v~nas
-      Duh zhi -- ve -- e svyat; ed -- na -- kvo nas ni
-      rad -- va i toz, i on -- zi svyat. Smart -- svyat.
+      "1. S~kri" -- la -- ta na o -- re -- la, Si -- o -- ne naš lju --
+      bim, stre -- mi -- tel -- no kăm te -- be nij druž -- no dnes le --
+      tim. Smărt -- ta ni več ne pla -- ši, v~nas
+      Duh ži -- ve -- e svjat; ed -- na -- kvo nas ni
+      rad -- va i toz, i on -- zi svjat. Smărt -- svjat.
     }
 
 
     \header {
-      title = \titleFunc "Към Сион" "Kam Sion"
+      title = \titleFunc "Към Сион" "Kăm Sion"
     }
 
     \midi{}
@@ -142,23 +142,23 @@
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-      \line {   2. Platta shte pobedime}
+      \line {   2. Plătta šte pobedime}
 
-      \line {   "   "sas smelost v podvig nov;}
+      \line {   "   "săs smelost v podvig nov;}
 
-      \line {   "   "sartsata shte stopime}
+      \line {   "   "sărcata šte stopime}
 
-      \line {   "   "s Hristovata Lyubov.}
+      \line {   "   "s Hristovata Ljubov.}
 
       \line { " " }
 
-      \line {   "        "Siyay, sveti Sione,}
+      \line {   "        "Sijaj, sveti Sione,}
 
-      \line {   "        "niy barzo vech letim,}
+      \line {   "        "nij bărzo več letim,}
 
       \line {   "        "na Boga skoro v tebe,}
 
-      \line {   "        "s duh shte se poklonim. }
+      \line {   "        "s duh šte se poklonim. }
     } \"rightBraces054"
   } % markup
   \markup \empty-three
