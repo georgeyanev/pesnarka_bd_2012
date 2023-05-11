@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref108
-  \tocItem \markup "Мога да кажа – Moga da kazha "
+  \tocItem \markup "Мога да кажа – Moga da kaža "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -65,32 +65,32 @@
       бре!
     }
     \addlyrics {
-      Mo -- ga da ka -- zha,
+      Mo -- ga da ka -- ža,
 
-      che Slan -- tse -- to u -- tre shte iz -- grey
+      če Slăn -- ce -- to u -- tre šte iz -- grej
 
-      i na ze -- mya -- ta li -- tse -- to shte o -- grey.
+      i na ze -- mja -- ta li -- ce -- to šte o -- grej.
 
-      To -- pli -- na to shte vne -- se
+      To -- pli -- na to šte vne -- se
 
-      za vsich -- ko, shto ra -- ste.
+      za vsič -- ko, što ra -- ste.
 
-      Grey, mosht -- no slan -- tse
+      Grej, mošt -- no slăn -- ce
 
-      da u -- chim niy do -- bre.
+      da u -- čim nij do -- bre.
 
-      Vsich -- ko ra  -- zum  -- no shte
+      Vsič -- ko ra  -- zum  -- no šte
 
-      sta  -- ne i na ra  -- bo  -- ta shte
+      sta  -- ne i na ra  -- bo  -- ta šte
 
-      se hva  -- ne. Grey, mosht  -- no slan
+      se hva  -- ne. Grej, mošt  -- no slăn
 
-      -- tse, da u  -- chim niy do  --
+      -- ce, da u  -- čim nij do  --
       bre!
     }
 
     \header {
-      title = \titleFunc "Мога да кажа" "Moga da kazha"
+      title = \titleFunc "Мога да кажа" "Moga da kaža"
     }
 
     \midi{}

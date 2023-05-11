@@ -4,7 +4,7 @@
 
 \bookpart {
   \label #'ref126
-  \tocItem \markup "Студът всичко дава – Studat vsichko dava"
+  \tocItem \markup "Студът всичко дава – Studăt vsičko dava"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -61,7 +61,7 @@
       \break | % 27
       \time 2/4  | % 26
       d'2 \bar "||"
-       | % 27
+      | % 27
       \tempo "Tempo I" a4  d'8 ( [  e'8 ) ] | % 28
       f'4  d'4 | % 29
       cis'8 ( [  d'8 ]  e'4 ) |
@@ -97,7 +97,7 @@
       e'8 ( [  f'8 ) ]  g'8  a'8
       bes'8 -- ^\markup{ \bold {(rit.)} }  d''8 -- | % 54
       cis''2 ^\fermata  a4 \time 3/4 \break | % 55
-      
+
       \tempoFunc "Largamente" 4 "54"
       \times 2/3  {
         d'8[ \=1( \grace { cis'16 \=2([ d'16 ]}  cis'8 \=1)\=2)] bes8
@@ -134,7 +134,7 @@
       g'4  e'8.  f'16 | % 71
       d'2 \bar "||"
       \break | % 72
-    
+
       d''4 ( ^\markup{ \bold {Più mosso} }  bes'4 ) | % 73
       a'8. \tempoFunc "" 4 "84"  gis'16  a'8  bes'8
       | % 74
@@ -171,7 +171,7 @@
       e'8.
       e'16
       d'4
-      
+
       \stemNeutral
       \break | % 88
       \tempoFunc "Andante" 4 "66" a4  a8.  a16 | % 89
@@ -203,17 +203,17 @@
       | % 103
       e'4 ^\fermata  d'2 \bar "||" |
       \break % 104
-     
+
       \time 2/4
-        % 104
+      % 104
       \tempoFunc "Andante" 4 "66"
       \times 2/3  {
         d'8 ( [  e'8  fis'8 ]
       }
-      
+
       %\once \override TextScript.extra-offset = #'(-1 . 1)
       d'8
-      
+
       [  fis'8 ) ] | % 105
       fis'2 | % 106
       \key d \minor
@@ -249,7 +249,7 @@
       a16 | % 116
       \time 3/4  | % 116
       d'4  d'2 \bar "|."
-      
+
       %ima greshki
 
     }
@@ -280,7 +280,7 @@
       -- са на О -- бич -- та. Сту --
       ден  --   си ти, но  ни
       из -- ба -- вяш от мра -- за и
-          но -- сиш са -- мо
+      но -- сиш са -- мо
       то -- ва, ко -- е -- то "Свет-" -- ли --
       на -- та ти да -- ва. Твой -- та
       дре  -- ха е бя -- ла. Сту --
@@ -292,7 +292,7 @@
       то съ -- бли -- чаш ста --
       ро -- то, ста --  ро -- то и
       за -- ви -- ваш мла -- "до-" -- то,
-      мла -- до -- то, мла -- до -- то. Сту -- 
+      мла -- до -- то, мла -- до -- то. Сту --
       ден си ти, но ни спа -- ся -- ваш
       от сту -- да. И ко -- га --
       то про -- "лет-" -- та на -- ста
@@ -309,62 +309,62 @@
       чис -- то -- та при -- дру -- жа --
       ваш.}
       \addlyrics {
-        Stu -- dat vsich -- ko da -- va. Stu
+        Stu -- dăt vsič -- ko da -- va. Stu
         -- den si ti, no ni pred -- paz --
-        vash ot stu -- da; stu -- den si
-        ti, no ni iz -- ba -- vyash ot mra
+        vaš ot stu -- da; stu -- den si
+        ti, no ni iz -- ba -- vjaš ot mra
         -- za; stu -- den si ti, no ni iz
-        -- ba -- vyash ot mra -- za; stu -- den
+        -- ba -- vjaš ot mra -- za; stu -- den
         si ti, no ni pred --
-        paz -- vash ot mra -- za. Stu -- den
+        paz -- vaš ot mra -- za. Stu -- den
         si ti, stu -- den si ti, no ni
-        do -- na -- syash chis -- to -- ta. Stu
+        do -- na -- sjaš čis -- to -- ta. Stu
         -- den si ti, stu -- den si ti,
-        no ni do -- na -- syash chis -- to --
-        ta. Stu -- dat  vsich -- ko da
-        --  va, toy  e do -- bri
-        -- yat slu -- ga, shto Lyu -- bov go
-        vdah -- no -- vya -- va. Za mno -- zi
-        --   na to -- va e chud
+        no ni do -- na -- sjaš čis -- to --
+        ta. Stu -- dăt  vsič -- ko da
+        --  va, toj  e do -- bri
+        -- jat slu -- ga, što Lju -- bov go
+        vdăh -- no -- vja -- va. Za mno -- zi
+        --   na to -- va e čud
         -- no, no to -- va go zna --
-        yat i dazh -- dov -- ni -- te kap
-        -- ki. Stu -- den e toy, no ni
+        jat i dăž -- dov -- ni -- te kap
+        -- ki. Stu -- den e toj, no ni
         pred -- paz -- va ot stu -- da
-        i vsya -- ko -- ga slu -- sha gla
-        -- sa na O -- bich -- ta. Stu --
-        den  -- si ti, no  ni
-        iz -- "ba-" -- vyash ot mra -- za i
-        no -- sish sa -- mo
+        i vsja -- ko -- ga slu -- ša gla
+        -- sa na O -- bič -- ta. Stu --
+        den  --   si ti, no  ni
+        iz -- ba -- vjaš ot mra -- za i
+        no -- siš sa -- mo
         to -- va, ko -- e -- to Svet -- li --
-        na -- ta ti da -- va. Tvoy -- ta
-        dre  -- ha e bya -- la. Stu --
+        na -- ta ti da -- va. Tvoj -- ta
+        dre  -- ha e bja -- la. Stu --
         den  si ti, no ni iz -- ba
-        -- vyash ot mra -- za. Ot  ve --
+        -- vjaš ot mra -- za. Ot  ve --
         ka sa bi -- li za -- tvo -- re --
-        ni za teb cho -- vesh -- ki -- te
-        sar -- tsa, za --  shto --
-        to sa -- bli -- chash sta --
+        ni za teb čo -- veš -- ki -- te
+        săr -- ca, za --  što --
+        to să -- bli -- čaš sta --
         ro -- to, sta --  ro -- to i
-        za -- vi -- vash mla -- do -- to,
-        mla -- do -- to,  mla -- do -- to. Stu --
-        den si ti, no ni spa -- "sya-" -- vash
+        za -- vi -- vaš mla -- "do-" -- to,
+        mla -- do -- to, mla -- do -- to. Stu --
+        den si ti, no ni spa -- sja -- vaš
         ot stu -- da. I ko -- ga --
         to pro -- let -- ta na -- sta
-        -- va i Zhi -- vo -- tat se ya --
-        vya -- va, ti pak gi pri -- dru --
-        zha -- vash i svoy -- ta svet -- la
-        dre -- ha im na -- dya -- vash.
+        -- va i Ži -- vo -- tăt se ja --
+        vja -- va, ti pak gi pri -- dru --
+        ža -- vaš i svoj -- ta svet -- la
+        dre -- ha im na -- dja -- vaš.
         Mal --  ko go --
-        vo -- rish, mno --
-        go mis --   lish;
-        mal -- ko o -- be -- shta -- vash,
+        vo -- riš, mno --
+        go mis --   liš;
+        mal -- ko o -- be -- šta -- vaš,
         mno --   go   da --
-        vash i vse -- ki svoy dar sas
-        chis -- to -- ta pri -- dru -- zha --
-        vash.}
+        vaš i vse -- ki svoj dar săs
+        čis -- to -- ta pri -- dru -- ža --
+        vaš.}
 
         \header {
-          title = \titleFunc "Студът всичко дава" "Studat vsichko dava"
+          title = \titleFunc "Студът всичко дава" "Studăt vsičko dava"
         }
 
         \midi{}

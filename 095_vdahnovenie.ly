@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref095
-  \tocItem \markup "Вдъхновение – Vdahnovenie "
+  \tocItem \markup "Вдъхновение – Vdăhnovenie"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -39,12 +39,12 @@
       сло -- ве -- ни -- е.
 
     }
-
-    \addlyrics {
-      Vdah -- no -- ve -- ni -- e,
-      vdah -- no -- ve -- ni -- e,
-      vdah -- no -- ve -- ni -- e, vdah -- no -- ve -- ni -- e,
-      vdah -- no -- ve -- ni -- e, ti si bla -- go --
+    
+   \addlyrics {
+      Vdăh -- no -- ve -- ni -- e,
+      vdăh -- no -- ve -- ni -- e,
+      vdăh -- no -- ve -- ni -- e, vdăh -- no -- ve -- ni -- e,
+      vdăh -- no -- ve -- ni -- e, ti si bla -- go --
       slo -- ve -- ni -- e.
 
     }

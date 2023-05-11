@@ -35,7 +35,9 @@
     \addlyrics {
       И ска -- чам аз ка -- то пти -- чка от клон на клон, да се чу -- ди вся -- кой, кат ме ви -- ди.
     }
-    \addlyrics { I ska -- cham az ka -- to pti -- chka ot klon na klon, da se chu -- di vsya -- koy, kat me vi -- di.
+   
+    \addlyrics {
+      I ska -- čam az ka -- to pti -- čka ot klon na klon, da se ču -- di vsja -- koj, kat me vi -- di.
     }
 
     \header {

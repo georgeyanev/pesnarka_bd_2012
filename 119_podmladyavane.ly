@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref119
-  \tocItem \markup "Подмладяване – Podmladyavane"
+  \tocItem \markup "Подмладяване – Podmladjavane"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -57,7 +57,7 @@
     }
 
     \addlyrics {Аз   ще   се 
-   под  --  мла  --  дя,   ти   ще   се   под  --  "мла-"  --  диш, 
+   под  --  "мла-"  --  дя,   ти   ще   се   под  --  "мла-"  --  диш, 
    той   ще   се   под  --  "мла-"  --  ди   то  --  ва   ми   каз  --
    ва   Лю  --  бов  --  та,   то  --  ва   ми   каз  --  ва   Лю  --
    бов  --  та.   Ний,   ко  --  и  --  то   след  --  ва  --  ме 
@@ -68,18 +68,21 @@
    До  --  бро  --  то,   ще   се   под  --  мла  --  дят   то  --
    ва   ни   каз  --  ва   Лю  --  бов  --  та,   то  --  ва   ни 
    каз  --  ва   Лю  --  бов  --  та. }
-    \addlyrics {Az shte se pod --
-  "mla-" --  dya,  ti shte se pod -- mla --  dish,  toy shte se pod --
-  mla -- di to -- va mi kaz -- va Lyu -- bov --  ta,  to -- va mi kaz
-  -- va Lyu -- bov --  ta.   Niy,  ko -- i -- to sled -- va -- me pa
-  -- tya na Dob -- ro --  to,  shte se pod -- mla --  dim;   viy,  ko
-  -- i -- to sled -- va -- te pa -- tya na Do -- bro --  to,  shte se
-  pod -- mla -- di --  te;   te,  ko -- i -- to sled -- vat pa -- tya
-  na Do -- bro --  to,  shte se pod -- mla -- dyat to -- va ni kaz --
-  va Lyu -- bov --  ta,  to -- va ni kaz -- va Lyu -- bov --  ta. }
+      \addlyrics {Az   šte   se 
+   pod  --  "mla-"  --  dja,   ti   šte   se   pod  --  mla  --  diš, 
+   toj   šte   se   pod  --  mla  --  di   to  --  va   mi   kaz  --
+   va   Lju  --  bov  --  ta,   to  --  va   mi   kaz  --  va   Lju  --
+   bov  --  ta.   Nij,   ko  --  i  --  to   sled  --  va  --  me 
+   pă  --  tja   na   Dob  --  ro  --  to,   šte   se   pod  --  mla  --
+   dim;   vij,   ko  --  i  --  to   sled  --  va  --  te   pă  --
+   tja   na   Do  --  bro  --  to,   šte   se   pod  --  mla  --  di  --
+   te;   te,   ko  --  i  --  to   sled  --  vat   pă  --  tja   na 
+   Do  --  bro  --  to,   šte   se   pod  --  mla  --  djat   to  --
+   va   ni   kaz  --  va   Lju  --  bov  --  ta,   to  --  va   ni 
+   kaz  --  va   Lju  --  bov  --  ta. }
 
     \header {
-      title = \titleFunc "Подмладяване" "Podmladyavane"
+      title = \titleFunc "Подмладяване" "Podmladjavane"
     }
 
     \midi{}

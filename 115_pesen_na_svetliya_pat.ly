@@ -5,7 +5,7 @@
 
 \bookpart {
    \label #'ref115
-  \tocItem \markup "Песен на светлия път – Pesen na svetliya pat"
+  \tocItem \markup "Песен на светлия път – Pesen na svetlija păt"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -45,18 +45,18 @@
       да   Ра  --  дост  --  та,   там,   де  --  то   ца  --  ру  --
       ва   Лю  --  бов  --  та.
     }
-    \addlyrics {
+   \addlyrics {
       Mo  --  ga   da
-      po  --  stig  --  na   shto   zhe  --  la  --  ya.   Vav   Zhi  --  vo
-      --  ta   vsich  --  ko   se   po  --  sti  --  ga.   Shte   no  --  sya
-      Bo  --  zhi  --  i  --  te   bla  --  ga   vav   vsich  --  ki   cho
-      --  vesh  --  ki   sar  --  tsa.   Tam,   de  --  to   se   razh  --
-      da   Ra  --  dost  --  ta,   tam,   de  --  to   tsa  --  ru  --
-      va   Lyu  --  bov  --  ta.
+      po  --  stig  --  na   što   že  --  la  --  ja.   Văv   Ži  --  vo
+      --  ta   vsič  --  ko   se   po  --  sti  --  ga.   Šte   no  --  sja
+      Bo  --  ži  --  i  --  te   bla  --  ga   văv   vsič  --  ki   čo
+      --  veš  --  ki   săr  --  ca.   Tam,   de  --  to   se   raž  --
+      da   Ra  --  dost  --  ta,   tam,   de  --  to   ca  --  ru  --
+      va   Lju  --  bov  --  ta.
     }
 
     \header {
-      title = \titleFunc "Песен на светлия път" "Pesen na svetliya pat"
+      title = \titleFunc "Песен на светлия път" "Pesen na svetlija păt"
     }
 
     \midi{}

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref150
-  \tocItem \markup "Българска идилия –  Balgarska idiliya"
+  \tocItem \markup "Българска идилия –  Bălgarska idilija"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -235,7 +235,7 @@
         \line { Българска идилия }
         \vspace #-0.6
         \center-align
-        \line \fontsize #-3 { Balgarska idiliya  – Bulgarische Idylle}
+        \line \fontsize #-3 { Bălgarska idilija  – Bulgarische Idylle}
         \vspace #-0.8
         \center-align
         \line \fontsize #-3 { " " }

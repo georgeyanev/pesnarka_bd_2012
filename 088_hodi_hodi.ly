@@ -63,7 +63,7 @@
 
       čis -- ta. Za -- do -- ma  si no -- si  taz vo -- di -- ca bis -- tra,
 
-      za cve -- ten -- ca mi -- "li –"  nej -- ni -- te de -- či -- ca.
+      za cve -- ten -- ca mi -- "li –" nej -- ni -- te de -- či -- ca.
     }
 
     \header {

@@ -28,7 +28,7 @@
 
 \bookpart {
   \label #'ref142
-  \tocItem \markup "Ставай, дъще! – Stavay, dashte"
+  \tocItem \markup "Ставай, дъще! – Stavaj, dăšte!"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -146,42 +146,43 @@
       Лю -- "бов-" -- та днес мен и те -- бе ча -- ка. __
       Ста -- вай! __ Тя ни но -- си
       свой -- та __ но -- ва, __ жи -- ва пре -- мя -- на. __
-      Ста -- вай! __ Че Жи -- во -- тът вън -- ка __ мен
+      Ста -- вай! __ Че "Жи-" -- во -- тът вън -- ка __ мен
       и те -- бе с~бла -- гост ве -- че ча -- ка. __“
 
     }
 
-    \addlyrics {
-       "1.V~le-" -- ten
-      den, v~ran -- ni zo -- ri may -- ka mi ti -- ho se pri --
-      bli -- zhi. "S~sla-" -- dak glas bla -- ga du -- ma mi
-      ka -- za: „Sta -- vay, da -- shte, na ni -- va
-      tryab -- va da se ho -- di. Sta -- vay, che ba --
-      shta ti van -- ka men i te -- be sas ko -- la --
-      ta cha -- ka. Sta -- vay, che "ba-" -- shta ti van --
-      ka men i te -- be sas ko -- la -- ta cha --
-      ka. Slan -- tse -- to ko -- ga iz -- grey,
-      ti na ni -- va -- ta tryab -- va da si.
-      "S~sarp" v~ra -- ka, s~pe -- sen ti
-      de -- nya za -- poch -- ni. Sta -- vay, da -- shte, __
-      Slan -- tse do -- ma da ne te za -- va -- ri.
-      Sta -- vay, __ che "mo-" -- mi i mom -- tsi __ vsi kam ni -- va -- ta sa vech trag -- na -- li. __
-      Sta -- vay, __ che "mo-" -- mi i mom -- tsi __ vsi kam ni -- va -- ta sa vech trag -- na -- li. __
+\addlyrics {
+      "1.V~le" -- ten
+      den, v~ran -- ni zo -- ri maj -- ka mi ti -- ho se pri --
+      bli -- ži. "S~sla" -- dăk glas bla -- ga du -- ma mi
+      ka -- za: „Sta -- vaj, dă -- šte, na ni -- va
+      trjab -- va da se ho -- di. Sta -- vaj, če ba --
+      šta ti văn -- ka men i te -- be săs ko -- la --
+      ta ča -- ka. Sta -- vaj, če ba -- šta ti văn --
+      ka men i te -- be săs ko -- la -- ta ča --
+      ka. "Slăn" -- ce -- to ko -- ga iz -- grej,
+      ti na ni -- va -- ta trjab -- va da si.
+      "S~sărp" v~ră -- ka, s~pe -- sen ti
+      de -- nja za -- poč -- ni. Sta -- vaj, dă -- šte, __
+      Slăn -- ce do -- ma da ne te za -- va -- ri.
+      Sta -- vaj, __ če "mo-" -- mi i mom -- ci __ vsi kăm ni -- va -- ta sa več trăg -- na -- li. __
+      Sta -- vaj, __ če "mo-" -- mi i mom -- ci __ vsi kăm ni -- va -- ta sa več trăg -- na -- li. __
 
-      Ni -- va e, da -- shte, Zhi -- vo -- tat,
-      de dob -- ro -- to se -- me se sey.
-      Kat' iz -- ras -- ne, "Zhi-" -- vot vna -- sya
-      to vav nas. Sta -- vay, da -- shte, __
-      Lyu -- "bov-" -- ta dnes men i te -- be cha -- ka. __
-      Sta -- vay! __ Tya ni no -- si
-      svoy -- ta __ no -- va, __ zhi -- va pre -- mya -- na. __
-      Sta -- vay! __ Che Zhi -- vo -- tat van -- ka __ men
-      i te -- be s~bla -- gost ve -- che cha -- ka. __“
+      Ni -- va e, dă -- šte, Ži -- vo -- tăt,
+      de dob -- ro -- to se -- me se sej.
+      Kat' iz -- ras -- ne, Ži -- vot vna -- sja
+      to văv nas. Sta -- vaj, dă -- šte, __
+      Lju -- "bov-" -- ta dnes men i te -- be ča -- ka. __
+      Sta -- vaj! __ Tja ni no -- si
+      svoj -- ta __ no -- va, __ ži -- va pre -- mja -- na. __
+      Sta -- vaj! __ Če Ži -- vo -- tăt văn -- ka __ men
+      i te -- be s~bla -- gost ve -- če ča -- ka. __“
+
     }
 
 
     \header {
-      title = \titleFunc "Ставай, дъще!" "Stavay, dashte"
+      title = \titleFunc "Ставай, дъще!" "Stavaj, dăšte!"
     }
 
     \midi{}

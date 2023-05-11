@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref113
-  \tocItem \markup "Цветята цъфтяха – Tvetyata tsaftyaha"
+  \tocItem \markup "Цветята цъфтяха – Cvetjata căftjaha"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -38,9 +38,9 @@
     \addlyrics {
       Цве -- тя -- та цъф -- тя -- ха под слън -- че -- ви лъ -- чи
 
-      и ве -- че вър -- за -- ха. И тъй о -- бле -- че -- ни "в~кра-" -- со та,
+      и ве -- че вър -- за -- ха. И тъй о -- бле -- че -- ни "в~кра-" -- со -- та,
 
-      и тъй о -- бле -- че -- ни "в~чи-" -- сто -- та, те ни до -- на сят
+      и тъй о -- бле -- че -- ни "в~чис-" -- то -- та, те ни до -- на сят
 
       мла -- дост -- та. Във не -- я зре -- ят слад -- ки пло -- до -- ве. И
 
@@ -50,22 +50,23 @@
 
       тъй, ка -- то ги при -- е -- ма -- ме, поз -- на -- ва -- ме, че са дар на Лю -- бов -- та.
     }
-    \addlyrics {
-      Tsve -- tya -- ta tsaf -- tya -- ha pod slan -- che -- vi la -- chi
+      \addlyrics {
+      Cve -- tja -- ta căf -- tja -- ha pod slăn -- če -- vi lă -- či
 
-      i ve -- che var -- za -- ha. I tay o -- ble -- che -- ni v~kra -- so ta,
+      i ve -- če văr -- za -- ha. I tăj o -- ble -- če -- ni "v~kra-" -- so -- ta,
 
-      i tay o -- ble -- che -- ni v~chi -- sto -- ta, te ni do -- na syat
+      i tăj o -- ble -- če -- ni v~čis -- to -- ta, te ni do -- na sjat
 
-      mla -- dost -- ta. Vav ne -- ya zre -- yat slad -- ki plo -- do -- ve. I
+      mla -- dost -- ta. Văv ne -- ja zre -- jat slad -- ki plo -- do -- ve. I
 
-      tay, ka -- to gi pri -- e -- ma -- me, poz -- na -- va -- me, che sa
+      tăj, ka -- to gi pri -- e -- ma -- me, poz -- na -- va -- me, če sa
 
-      Bo -- zhi da -- ro -- ve;  i
+      Bo -- ži da -- ro -- ve;  i
 
-      tay, ka -- to gi pri -- e -- ma -- me, poz -- na -- va -- me, che sa dar na Lyu -- bov -- ta.}
+      tăj, ka -- to gi pri -- e -- ma -- me, poz -- na -- va -- me, če sa dar na Lju -- bov -- ta.
+    }
       \header {
-        title = \titleFunc "Цветята цъфтяха" "Tvetyata tsaftyaha"
+        title = \titleFunc "Цветята цъфтяха" "Cvetjata căftjaha"
       }
 
       \midi{}

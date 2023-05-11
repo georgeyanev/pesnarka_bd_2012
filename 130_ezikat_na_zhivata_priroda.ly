@@ -4,7 +4,7 @@
 
 \bookpart {
   \label #'ref130
-  \tocItem \markup "Езикът на живата природа – Ezikat na zhivata priroda"
+  \tocItem \markup "Езикът на живата природа – Ezikăt na živata priroda"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -203,7 +203,7 @@
       гос -- ти. Не ду -- хай, ве --
       тре, ще      пад --
       нем, ще ни се стро -- шат ре --
-      бър -- ца -- та.“– „Ой ви вас,
+      бър -- ца -- та.“ -- „Ой ви вас,
       мал -- ки лис -- тен -- ца,
       за вас аз чух от -- да -- ле -- ко
       и дой -- дох да ви на -- ви
@@ -228,51 +228,52 @@
       лим. На -- но -- во да се срещ
       -- нем  пак и "до-" -- бре с~о
       -- бич да се раз -- бе -- рем.“}
-      \addlyrics { Stra --      shen
-      be --   she  vya -- ta
-      -- rat, shto raz -- drus -- va --
-      she go -- ra -- ta. Stra -- shen
-      be i si -- len. Vsich -- ki -- te
-      lis -- ta shu --
-      mya -- ha, shu -- mya -- ha i se
+       \addlyrics {
+      Stra --  šen
+      be --   še  vja -- tă
+      -- răt, što raz -- drus -- va --
+      še go -- ra -- ta. Stra -- šen
+      be i si -- len. Vsič -- ki -- te
+      lis -- ta šu --
+      mja -- ha, šu -- mja -- ha i se
       mo -- le -- ha: „Spri,  vet --
       re, spri,  vet -- re, vo -- len
       raz -- vi -- gor! Ne ni
-      li zha -- lish?  Po -- spri, ne
-      du -- hay! E -- dva prez ta
+      li ža -- liš?  Po -- spri, ne
+      du -- haj! E -- dva prez ta
       -- zi go -- di -- na tu --
-      ka doy -- doh -- me na
-      gos -- ti. Ne du -- hay, ve --
-      tre, shte      pad --
-      nem, shte ni se stro -- shat re --
-      bar -- tsa -- ta.“– „Oy vi vas,
-      mal -- ki lis -- ten -- tsa,
-      za vas az chuh ot -- da -- le -- ko
-      i doy -- doh da vi na -- vi
-      --  dya, da  po -- i -- gra --
-      ya i vi po -- du -- ham, da -- re --
+      ka doj -- doh -- me na
+      gos -- ti. Ne du -- haj, ve --
+      tre, šte      pad --
+      nem, šte ni se stro -- šat re --
+      băr -- ca -- ta.“ -- „Oj vi vas,
+      mal -- ki lis -- ten -- ca,
+      za vas az čuh ot -- da -- le -- ko
+      i doj -- doh da vi na -- vi
+      --  dja, da  po -- i -- gra --
+      ja i vi po -- du -- ham, da -- re --
       ne da vi do -- ne --  sa.
-      Slu -- shay -- te to -- ga -- va
-      moy -- ta pe -- sen: Sled me --
+      Slu -- šaj -- te to -- ga -- va
+      moj -- ta pe -- sen: Sled me --
       ne e -- to pris -- ti -- ga dru
       -- gar mi ve -- ren, dre -- ben
-      dazhd. Toy shte po -- le -- e po --
-      le -- to, shte go pri -- got -- vi
+      dăžd. Toj šte po -- le -- e po --
+      le -- to, šte go pri -- got -- vi
       za i -- gri. Prah da se, lis --
       ti, ne vdi -- ga pri tez i -- gri
-      ve -- se -- li. Ot -- go -- re Slan
-      -- tse shte pek -- ne, da ni o --
+      ve -- se -- li. Ot -- go -- re Slăn
+      -- ce šte pek -- ne, da ni o --
       gre -- e i za -- top -- li; da si
       po -- trop -- nem to -- ga  -- va,
-      da si po -- hap  -- nem, chis
+      da si po -- hap  -- nem, čis
       -- ta vo -- da da pi  -- em,
       s~ra -- dost da se raz -- de --
-      lim. Na -- no -- vo da se sresht
-      -- nem  pak i do -- bre s~o
-      -- bich da se raz -- be -- rem.“}
+      lim. Na -- no -- vo da se srešt
+      -- nem  pak i "do-" -- bre s~o
+      -- bič da se raz -- be -- rem.“}
 
       \header {
-        title = \titleFunc "Езикът на живата природа" "Ezikat na zhivata priroda"
+        title = \titleFunc "Езикът на живата природа" "Ezikăt na živata priroda"
       }
 
       \midi{}

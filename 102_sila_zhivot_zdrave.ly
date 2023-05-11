@@ -4,7 +4,7 @@
 
 \bookpart {
   \label #'ref102
-  \tocItem \markup "Сила, Живот, здраве – Sila,  Zhivot, zdrave"
+  \tocItem \markup "Сила, Живот, здраве – Sila, Život, zdrave"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -64,15 +64,16 @@
   -- ли на мла -- дост -- та, кре -- пи -- те -- ли
   на мла -- дост -- та, те са ед -- но, те са ед
   -- но. Слу -- но.}
-    \addlyrics {Si --  la,  Zhi --
-   vot,  zdra --  "ve –"  te sa ed --  no,  te sa ed --  no.  Slu -- zhi
-  -- te -- li na Du --  ha,  no -- si -- te -- li na Ra -- dost --
-   ta,  kre -- pi -- te -- li na mla -- dost --  ta,  kre -- pi -- te
-  -- li na mla -- dost --  ta,  te sa ed --  no,  te sa ed --  no. 
-  Slu --  no. }
+   \addlyrics {Si -- la, Ži
+  -- vot, zdra -- "ve –" te sa ed -- no, te sa ed --
+  no. Slu -- ži -- te -- li na Du -- ha, no -- si
+  -- te -- li na Ra -- dost -- ta, kre -- pi -- te
+  -- li na mla -- dost -- ta, kre -- pi -- te -- li
+  na mla -- dost -- ta, te sa ed -- no, te sa ed
+  -- no. Slu -- no.}
 
     \header {
-      title = \titleFunc "Сила, Живот, здраве" "Sila,  Zhivot, zdrave"
+      title = \titleFunc "Сила, Живот, здраве" "Sila, Život, zdrave"
     }
 
     \midi{}

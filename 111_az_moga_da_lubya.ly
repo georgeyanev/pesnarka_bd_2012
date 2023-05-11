@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref111
-  \tocItem \markup "Мога да любя – Moga da lyubya"
+  \tocItem \markup "Мога да любя – Moga da ljubja"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -64,18 +64,18 @@
       Лю -- бов -- на.
     }
     \addlyrics {
-      Az mo -- ga da lyu -- bya, do -- bar
+      Az mo -- ga da lju -- bja, do -- băr
       da sta -- na; az mo -- ga da
-      o -- bi -- cham, si -- len da sta --
-      na.  Lyu -- bov -- ta i O -- bich --
-      ta,  Lyu -- bov -- ta i O -- bich --
-      ta shte me na -- u -- chat na Bo
-      -- ga slu -- ga da ysta -- na.
-      Lyu -- bov -- na.
+      o -- bi -- čam, si -- len da sta --
+      na.  Lju -- bov -- ta i O -- bič --
+      ta,  Lju -- bov -- ta i O -- bič --
+      ta šte me na -- u -- čat na Bo
+      -- ga slu -- ga da sta -- na.
+      Lju -- bov -- na.
     }
 
     \header {
-      title = \titleFunc "Мога да любя" "Moga da lyubya"
+      title = \titleFunc "Мога да любя" "Moga da ljubja"
     }
 
     \midi{}

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref098
-  \tocItem \markup "Бершид ба – Bershid ba"
+  \tocItem \markup "Бершид ба – Beršid ba"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -52,18 +52,18 @@
     }
 
     \addlyrics {
-      Be nya -- ko  -- ga, be nya -- ko -- ga,
-      ko -- ga -- to be vsich -- ko tam -- ni -- na
-      i v~ne -- ya se po -- ya -- vi svet -- li -- na.
-      I svet -- li -- na -- ta o -- cher -- ta kra -- so -- ta -- ta
-      na Bo -- zhe -- stve -- ni -- ya zhi -- vot,
-      koy -- to se vse -- li
-      i po -- vdig -- na mo -- ya -- ta du -- sha.
+      Be nja -- ko  -- ga, be nja -- ko -- ga,
+      ko -- ga -- to be vsič -- ko tăm -- ni -- na
+      i v~ne -- ja se po -- ja -- vi svet -- li -- na.
+      I svet -- li -- na -- ta o -- čer -- ta kra -- so -- ta -- ta
+      na Bo -- že -- stve -- ni -- ja ži -- vot,
+      koj -- to se vse -- li
+      i po -- vdig -- na mo -- ja -- ta du -- ša.
     }
 
 
     \header {
-      title = \titleFunc "Бершид ба" "Bershid ba"
+      title = \titleFunc "Бершид ба" "Beršid ba"
     }
 
     \midi{}

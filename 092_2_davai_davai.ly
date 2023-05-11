@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref092_2
-  \tocItem \markup "Давай, давай – Davay, davay "
+  \tocItem \markup "Давай, давай – Davaj, davaj "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -54,27 +54,26 @@
     }
 
     \addlyrics {
+      Da -- vaj, da  -- vaj, vsič -- ko da -- vaj,
 
-      Da -- vay, da  -- vay, vsich -- ko da -- vay,
-
-      chis -- to se -- me pshe -- ni -- che -- no.
+      čis -- to se -- me pše -- ni -- če -- no.
 
       Da se se -- e na ni -- va -- ta, na ni -- va -- ta kra -- si -- va -- ta.
 
-      Da se chis -- ti prez zi -- ma -- ta.
+      Da se čis -- ti prez zi -- ma -- ta.
 
-      Da se rad -- va na zhi -- vo -- ta
+      Da se rad -- va na ži -- vo -- ta
 
-      vsich -- ko sya -- to na po -- le -- to,
+      vsič -- ko sja -- to na po -- le -- to,
 
-      na po -- le -- to ot Ne -- be -- to,
+      na po -- le -- to ot He -- be -- to,
 
-      na po -- le -- to ot Ne -- be -- to.
+      na po -- le -- to ot He -- be -- to.
 
     }
 
     \header {
-      title = \titleFunc "Давай, давай" "Davay, davay"
+      title = \titleFunc "Давай, давай" "Davaj, davaj"
     }
 
     \midi{}

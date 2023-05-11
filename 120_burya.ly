@@ -4,7 +4,7 @@
 
 \bookpart {
   \label #'ref120
-  \tocItem \markup "Буря – Burya"
+  \tocItem \markup "Буря – Burja"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -69,28 +69,28 @@
       но   в~мен е Той. Бу --
       ря -- та мен  не раз -- би --
       ра,  но аз я "раз-" -- би
-      -- рам. Бу -- "ря-" -- та ме раз --
+      -- рам. "Бу-" -- "ря-" -- та ме раз --
       търс  -- ва "за  Доб" -- ро --
       то, що е във мен.
     }
 
     \addlyrics {
-      Tazh -- na mi e du -- sha -- ta.
-      Skrab i pe -- chal me ob -- ze --
-      mat.  Sil -- na bu -- rya
+      Tăž -- na mi e du -- ša -- ta.
+      Skrăb i pe -- čal me ob -- ze --
+      mat.  Sil -- na bu -- rja
       v~men se pov --  di -- ga,
-      no ni -- ko -- go ne ob -- vi -- nya
-      -- vam. Bu -- rya -- ta e bu -- rya,
-      no   v~men e Toy. Bu --
-      "rya-" -- ta men  ne raz -- bi --
-      ra,  no az ya raz -- bi
-      -- ram. "Bu-" -- "rya-" -- ta me raz --
-      tars  -- va "za  Dob" -- ro --
-      to, shto e vav men.
+      no ni -- ko -- go ne ob -- vi -- nja
+      -- vam. Bu -- rja -- ta e bu -- rja,
+      no   v~men e Toj. Bu --
+      rja -- ta men  ne raz -- bi --
+      ra,  no az ja "raz-" -- bi
+      -- ram. "Bu-" -- "rja-" -- ta me raz --
+      tărs  -- va "za  Dob" -- ro --
+      to, što e văv men.
     }
 
     \header {
-      title = \titleFunc "Буря" "Burya"
+      title = \titleFunc "Буря" "Burja"
     }
 
     \midi{}

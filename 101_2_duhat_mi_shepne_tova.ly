@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref101_2
-  \tocItem \markup "Духът ми шепне това – Duhat mi shepne tova"
+  \tocItem \markup "Духът ми шепне това – Duhăt mi šepne tova"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -42,20 +42,20 @@
       шеп -- не то -- ва. Ду -- хът и
       ду -- ша -- та ми  шеп -- нат
       то -- ва.}
-      \addlyrics {
-        Az     vav   Zhi --
-        vo -- ta shte bla -- gu -- vam. Du
-        -- hat i du -- sha -- ta mi  shep
-        -- nat  to -- va. I Du -- hat
-        mi shep -- ne to -- va, shep -- ne
-        to -- va, shep -- ne to -- va,
-        shep -- ne to -- va. Du -- hat i
-        du -- sha -- ta mi  shep -- nat
-        to -- va.}
+     \addlyrics {
+      Az     văv   Ži --
+      vo -- ta šte bla -- gu -- vam. Du
+      -- hăt i du -- ša -- ta mi  šep
+      -- nat  to -- va. I "Du-" -- hăt
+      mi šep -- ne to -- va, šep -- ne
+      to -- va, šep -- ne to -- va,
+      šep -- ne to -- va. Du -- hăt i
+      du -- ša -- ta mi  šep -- nat
+      to -- va.}
 
 
         \header {
-          title = \titleFunc "Духът ми шепне това" "Duhat mi shepne tova"
+          title = \titleFunc "Духът ми шепне това" "Duhăt mi šepne tova"
         }
 
         \midi{}

@@ -55,39 +55,39 @@
 
       на цве -- тя -- та, на де -- ца -- та
 
-      радо -- ст но -- си за сър -- ца -- та.
+      Ра -- дост но -- си за сър -- ца -- та.
 
       На тре -- ви -- те, на во -- ди -- те,
 
       на цве -- тя -- та, на де -- ца -- та
 
       ра -- дост но -- си за сър -- ца -- та.}
-      \addlyrics {
-        Gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
+    \addlyrics {
+      Gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
 
-        gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
+      gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
 
-        gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
+      gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
 
-        gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
+      gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
 
-        gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
+      gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
 
-        gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
+      gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
 
-        gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
+      gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
 
-        Na tre --  vi -- te, na vo -- di -- te,
+      Na tre --  vi -- te, na vo -- di -- te,
 
-        na tsve -- tya -- ta, na de -- tsa -- ta
+      na cve -- tja -- ta, na de -- ca -- ta
 
-        rado -- st no -- si za sar -- tsa -- ta.
+      Ra -- dost no -- si za săr -- ca -- ta.
 
-        Na tre -- vi -- te, na vo -- di -- te,
+      Na tre -- vi -- te, na vo -- di -- te,
 
-        na tsve -- tya -- ta, na de -- tsa -- ta
+      na cve -- tja -- ta, na de -- ca -- ta
 
-        ra -- dost no -- si za sar -- tsa -- ta.}
+      ra -- dost no -- si za săr -- ca -- ta.}
 
 
 

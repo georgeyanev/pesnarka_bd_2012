@@ -39,12 +39,12 @@
       Би -- ла -- дер А -- дер Бе -- ну ше -- ла.
     }
 
-    \addlyrics {
-      Ma -- har Be -- nu A -- ba, Ve -- yut
-      Bi -- la -- der A -- der Be -- nu she -- la,
-      Be -- nu she -- la, Be -- nu she -- la,
-      she -- la, she -- la, she -- la,
-      Bi -- la -- der A -- der Be -- nu she -- la.
+   \addlyrics {
+      Ma -- har Be -- nu A -- ba, Ve -- jut
+      Bi -- la -- der A -- der Be -- nu še -- la,
+      Be -- nu še -- la, Be -- nu še -- la,
+      še -- la, še -- la, še -- la,
+      Bi -- la -- der A -- der Be -- nu še -- la.
     }
 
     \header {
@@ -55,10 +55,10 @@
 
   } % score
 
-  \markup \italic \dc-one-nobold "attacca „В мрак тъмнота“/„V mrak tamnota“"
+  \markup \italic \dc-one-nobold "attacca „В мрак тъмнота“/„V mrak tămnota“"
 
     \label #'ref080_1
-  \tocItem \markup "В мрак тъмнота – V mrak tamnota"
+  \tocItem \markup "В мрак тъмнота – V mrak tămnota"
 
 
   \score {
@@ -94,14 +94,17 @@
       и свят за нас, и нас. Свят за нас, свят за
       нас, свят за нас.
     }
-    \addlyrics {
-      Vav mrak, tam -- no -- ta e bil zhi -- vo -- tat nash, no Slan
-      -- tse -- to na Zhi -- vo -- ta pro -- si -- ya u nas i niy trag --
-      nah -- me vav pa -- tya chist i svyat za nas, i nas. Svyat za
-      nas, svyat za nas, svyat za nas.}
+      \addlyrics {
+      Văv mrak, tăm
+      -- no -- ta e bil ži -- vo -- tăt naš, no Slăn
+      -- ce -- to na Ži -- vo -- ta pro -- si -- ja u
+      nas i nij trăg -- nah -- me văv pă -- tja čist
+      i svjat za nas, i nas. Svjat za nas, svjat za
+      nas, svjat za nas.
+    }
 
       \header {
-        title = \titleFunc "В мрак тъмнота" "V mrak tamnota"
+        title = \titleFunc "В мрак тъмнота" "V mrak tămnota"
       }
 
       \midi{}

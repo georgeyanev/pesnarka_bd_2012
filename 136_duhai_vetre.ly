@@ -4,7 +4,7 @@
 
 \bookpart {
   \label #'ref136
-  \tocItem \markup "Духай ветре – Duhay vetre "
+  \tocItem \markup "Духай ветре –  Duhaj vetre "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -117,31 +117,32 @@
       Хай ди ди ди ди, да си и -- ди,
       да си и -- ди, До -- бро да ви --
       ди.}
-      \addlyrics {       Bo -- zhi -- e -- to Slan -- tse gre --
-      e dnes, Bo -- zhi -- e -- to Slan --
-      tse gre -- e dnes, Bo -- zhi -- e --
-      to Slan -- tse gre -- e dnes. Slan
-      -- tse gre -- e dnes za teb, bal --
-      ga -- ri  --  no! Du -- hay, ve
-      -- tre, ti -- ho du -- hay, ti
-      -- ho du -- hay, mi -- lo gle
-      -- day, ti -- ho du -- hay,
-      lis -- te raz -- viy. List raz
-      -- vya -- vay, tsvyat raz -- tva
-      -- ryay, tsvyat raz -- tva --
-      ryay, plod raz -- da -- vay,
-      tsvyat raz -- tva -- ryay, plod
-      raz -- da -- vay. Hay di di di
-      di, da si i -- di, hay di di di
-      di, da se u -- chi, da se u -- chi,
-      da po -- lu -- chi, da po -- lu --
-      chi, da se u -- chi. da se u -- chi.
-      Hay di di di di, da si i -- di,
+    \addlyrics {
+      Bo -- ži -- e -- to Slăn -- ce gre --
+      e dnes, Bo -- ži -- e -- to Slăn --
+      ce gre -- e dnes, Bo -- ži -- e --
+      to Slăn  -- ce gre -- e dnes. Slăn
+      -- ce gre -- e dnes za teb, băl --
+      ga -- ri  --  no! Du -- haj, ve
+      -- tre, ti -- ho du -- haj, ti
+      -- ho du -- haj, mi -- lo gle
+      -- daj, ti -- ho du -- haj,
+      lis -- te raz -- vij. List raz
+      -- vja -- vaj, cvjat raz -- tva
+      -- rjaj, cvjat raz -- tva --
+      rjaj, plod raz -- da -- vaj,
+      cvjat raz -- tva -- rjaj, plod
+      raz -- da -- vaj. Haj di di di
+      di, da si i -- di, haj di di di
+      di, da se u -- či, da se u -- či,
+      da po -- lu -- či, da po -- lu --
+      či, da se u -- či. da se u -- či.
+      Haj di di di di, da si i -- di,
       da si i -- di, Do -- bro da vi --
       di.}
 
       \header {
-        title = \titleFunc "Духай ветре" "Duhay vetre"
+        title = \titleFunc "Духай ветре" "Duhaj vetre"
       }
 
       \midi{}

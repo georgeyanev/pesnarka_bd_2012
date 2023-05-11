@@ -4,7 +4,7 @@
 
 \bookpart {
   \label #'ref121
-  \tocItem \markup "Ранен час – Ranen chas"
+  \tocItem \markup "Ранен час – Ranen čas"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -100,27 +100,27 @@
       Ти -- хи зву -- ци теб зо -- ват,
       веч -- на Лю -- бов там ца -- ри!}
       \addlyrics {
-        Ra -- nen chas e, vsich -- ko pey,
-        trep -- ti. Slan -- tse grey, rad --
-        va se du -- sha -- ta na sve -- ta
-        za ve -- li -- ka -- ta Lyu -- bov.
-        Pey, sar -- tse, za -- bra -- vi
-        "skrab" -- ta i bu -- ri -- te "cho-" --
-        vesh -- ki v~to -- ya di -- ven chas.
-        Chuy  gla -- sa mi! Ve -- li --
-        ki -- yat Zhi -- vot se razh -- da
-        v~tezh -- ka -- ta skrab. Ti -- ha
-        Ra -- dost, nov Zhi -- vot no -- si
-        ta -- zi "bu-" -- rya na sve -- ta.
-        Nov zhi -- vot na "Lyu-" -- bov du --
-        sha mi da stop -- li. Svo -- bo
-        -- da, si -- len Duh i Mir shte i --
-        mash ti. Chuy  gla -- sa mi!
-        Ti -- hi zvu -- tsi teb zo -- vat,
-        vech -- na "Lyu-" -- bov tam tsa -- ri!}
+        Ra -- nen čas e, vsič -- ko pej,
+        trep -- ti. Slăn -- ce grej, rad --
+        va se du -- ša -- ta na sve -- ta
+        za ve -- li -- ka -- ta Lju -- bov.
+        Pej, săr -- ce, za -- bra -- vi
+        skrăb -- ta i bu -- ri -- te čo --
+        veš -- ki v~to -- ja di -- ven čas.
+        Čuj  gla -- sa mi! Ve -- li --
+        ki -- jat Ži -- vot se raž -- da
+        v~tež -- ka -- ta skrăb. Ti -- ha
+        "Ra-" -- dost, nov Ži -- vot no -- si
+        ta -- zi "bu-" -- rja na sve -- ta.
+        Nov ži -- vot na "Lju-" -- bov du --
+        ša mi da stop -- li. Svo -- bo
+        -- da, si -- len Duh i Mir šte i --
+        maš ti. Čuj  gla -- sa mi!
+        Ti -- hi zvu -- ci teb zo -- vat,
+        več -- na Lju -- bov tam ca -- ri!}
 
         \header {
-          title = \titleFunc "Ранен час" "Ranen chas"
+          title = \titleFunc "Ранен час" "Ranen čas"
         }
 
         \midi{}

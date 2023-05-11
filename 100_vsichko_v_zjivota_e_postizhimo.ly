@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref100
-  \tocItem \markup "Всичко в живота е постижимо – Vsichko v zhivota e postizhimo"
+  \tocItem \markup "Всичко в живота е постижимо – Vsičko v života e postižimo"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -37,29 +37,29 @@
 
     \addlyrics {
       Всич -- ко
-      в~Жи -- во -- та е по -- сти -- жи -- мо, ко --
+      "в~Жи-" -- во -- та е по -- сти -- жи -- мо, ко --
       га -- то вре -- ме -- то е "до-" -- бро и ний сме
       ра -- зум -- ни. За -- що -- то "До-" -- бро -- то
-      е ос -- но -- ва, а Ра -- зум -- ност -- та
+      е ос -- но -- ва, а Ра -- "зум-" -- ност -- та
       цел, с~ко -- и -- то Ду -- хът гра -- ди бъд --
       ни -- ни, бъд -- ни -- ни, ве -- ли -- ки бъд --
       ни -- ни. За -- ни.
     }
 
     \addlyrics {
-      Vsich -- ko
-      v~Zhi -- vo -- ta e po -- sti -- zhi -- mo, ko --
-      ga -- to vre -- me -- to e do -- bro i niy sme
-      ra -- zum -- ni. Za -- shto -- to Do -- bro -- to
+      Vsič -- ko
+      v~Ži -- vo -- ta e po -- sti -- ži -- mo, ko --
+      ga -- to vre -- me -- to e "do-" -- bro i nij sme
+      ra -- zum -- ni. Za -- što -- to "Do-" -- bro -- to
       e os -- no -- va, a Ra -- zum -- nost -- ta
-      tsel, s~ko -- i -- to Du -- hat gra -- di bad --
-      ni -- ni, bad -- ni -- ni, ve -- li -- ki bad --
+      cel, s~ko -- i -- to Du -- hăt gra -- di băd --
+      ni -- ni, băd -- ni -- ni, ve -- li -- ki băd --
       ni -- ni. Za -- ni.
     }
 
 
     \header {
-      title = \titleFunc "Всичко в живота е постижимо" "Vsichko v zhivota e postizhimo"
+      title = \titleFunc "Всичко в живота е постижимо" "Vsičko v života e postižimo"
     }
 
     \midi{}

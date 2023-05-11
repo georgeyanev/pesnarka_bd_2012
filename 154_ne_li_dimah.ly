@@ -57,17 +57,19 @@
       ме от шко -- ло -- то за Жи -- во -- та не --
       що до -- бро да на -- у -- чи.
     }
+
     \addlyrics {
       Ne li du
       -- mah, mi -- la ma -- mo, ne li kaz -- vah da
-      ne se -- di na -- sha Don -- ka kray og -- ni --
-      shte, v~ka -- shti sa -- mo da se gu -- shi, a da
-      i -- de, ma -- mo, ve -- che na shko -- lo -- to,
-      da za -- poch -- ne da se u -- chi. Na -- sha Don
+      ne se -- di na -- ša Don -- ka kraj og -- ni --
+      šte, v~kă -- šti sa -- mo da se gu -- ši, a da
+      i -- de, ma -- mo, ve -- če na ško -- lo -- to,
+      da za -- poč -- ne da se u -- či. Na -- ša Don
       -- ka, mi -- la ma -- mo, e ro -- de -- na mo --
       ma um -- na, da -- ro -- vi -- ta, ta e vre --
-      me ot shko -- lo -- to za Zhi -- vo -- ta ne --
-      shto do -- bro da na -- u -- chi.}
+      me ot ško -- lo -- to za Ži -- vo -- ta ne --
+      što do -- bro da na -- u -- či.
+    }
 
       \header {
         title = \titleFunc "Не ли думах" "Ne li dumah"
@@ -125,44 +127,46 @@
 
       \hspace #-1
       \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+     
       \column {
-        \line {   "   " 2. Da ne hodi vecher, mamo, na cheshmata,}
 
-        \line {   "        " na momtsite palni stomni da podnasya,}
+        \line {   "   " 2. Da ne hodi večer, mamo, na češmata,}
 
-        \line {   "        " rosni kitki da im obeshtava,}
+        \line {   "        " na momcite pălni stomni da podnasja,}
 
-        \line {   "        " a na bolni vecher iz seloto}
+        \line {   "        " rosni kitki da im obeštava,}
 
-        \line {   "        " neka tya voda raznasya.}
+        \line {   "        " a na bolni večer iz seloto} 
 
-        \line {   "        " Nasha Donka, mila mamo, po dusha e}
+        \line {   "        " neka tja voda raznasja.}
+
+        \line {   "        " Naša Donka, mila mamo, po duša e}
 
         \line {   "        " blaga, krotka, milostiva,}
 
-        \line {   "        " no sartse si tryabva da nauchi, mamo,}
+        \line {   "        " no sărce si trjabva da nauči, mamo,}
 
-        \line {   "        " momtsite da ne posmiva.}
+        \line {   "        " momcite da ne posmiva.}
 
         \line {   "        " }
 
-        \line {   "   " 3. Sutrin rano na cheshmata da otiva,}
+        \line {   "   " 3. Sutrin rano na češmata da otiva,}
 
-        \line {   "        " v beli mentsi, mamo, voda da naliva}
+        \line {   "        " v beli menci, mamo, voda da naliva}
 
-        \line {   "        " bodra, vesela, zasmyana,}
+        \line {   "        " bodra, vesela, zasmjana,}
 
-        \line {   "        " s chista, byala riza, s hubava premyana.}
+        \line {   "        " s čista, bjala riza, s hubava premjana.}
 
-        \line {   "        " Ta za primer tya da stane.}
+        \line {   "        " Ta za primer tja da stane.}
 
-        \line {   "        " Koy ya vidi kak raboti iz seloto,}
+        \line {   "        " Koj ja vidi kak raboti iz seloto,}
 
         \line {   "        " kak na vsekimu pomaga,}
 
-        \line {   "        " da obikne i da proyavi dobroto}
+        \line {   "        " da obikne i da projavi dobroto}
 
-        \line {   "        " kato taya dusha blaga.}
+        \line {   "        " kato taja duša blaga.}
       } %column
     } % markup
 

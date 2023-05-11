@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref097
-  \tocItem \markup "Запали се огънят – Zapali se oganyat"
+  \tocItem \markup "Запали се огънят – Zapali se ogănjat"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -39,7 +39,7 @@
 
     \addlyrics {
       За -- па --
-      ли се о -- гъ -- нят на ог -- ни -- ще -- то.
+      ли се о -- "гъ-" -- нят на ог -- ни -- ще -- то.
       За -- туп -- ка мо -- е -- то сър -- це. Хля --
       "-бът" е го -- тов, хля -- бът е го -- тов. За --
       па -- ли се но -- ви -- ят све -- тил -- ник.
@@ -49,21 +49,21 @@
       ду -- ми аз да чу -- я. Хля -- ба чу -- я.
     }
 
-    \addlyrics {
+   \addlyrics {
       Za -- pa --
-      li se o -- ga -- "-nyat" na og -- ni -- shte -- to.
-      Za -- tup -- ka mo -- e -- to sar -- tse. Hlya --
-      "-bat" e go -- tov, hlya -- bat e go -- tov. Za --
-      pa -- li se no -- vi -- yat sve -- til -- nik.
-      Slo -- zhi se tra -- pe -- za -- ta. Ya -- vi se
-      mo -- ya -- ta mi -- sal: hlya -- ba slad -- ki
-      dnes da vaz -- lyu -- bya i slad -- ki -- te mu
-      du -- mi az da chu -- ya. Hlya -- ba chu -- ya.
+      li se o -- gă -- njat na og -- ni -- šte -- to.
+      Za -- tup -- ka mo -- e -- to săr -- ce. Hlja --
+      "-băt" e go -- tov, hlja -- băt e go -- tov. Za --
+      pa -- li se no -- vi -- jat sve -- til -- nik.
+      Slo -- ži se tra -- pe -- za -- ta. Ja -- vi se
+      mo -- ja -- ta mi -- săl: hlja -- ba slad -- ki
+      dnes da văz -- lju -- bja i slad -- ki -- te mu
+      du -- mi az da ču -- ja. Hlja -- ba ču -- ja.
     }
 
 
     \header {
-      title = \titleFunc "Запали се огънят" "Zapali se oganyat"
+      title = \titleFunc "Запали се огънят" "Zapali se ogănjat"
     }
 
     \midi{}

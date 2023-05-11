@@ -4,7 +4,7 @@
 
 \bookpart {
   \label #'ref125
-  \tocItem \markup "Слънчева песен – пчелна – Slancheva pesen – pchelna"
+  \tocItem \markup "Слънчева песен – пчелна – Slănčeva pesen – pčelna mušička"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -107,32 +107,34 @@
       -- ши -- я ве -- лик и благ Тво --
       рец. Бън! Зън! Бън! Зън!
     }
-    \addlyrics {Pro --
-      let e vech, svet -- lo i top -- lo
-      e na -- vred -- Slan -- tse gre --
-      e, da, pro -- let e dosh -- la. Ra
-      -- dost bli -- ka "v~ko-" -- she -- ra
-      ni: ban, vsich -- ki bar -- zat da
-      iz -- lya -- zat van. Te do -- la --
-      vyat pro -- let -- ni -- ya tsve -- ten
-      a -- ro -- mat, "spu-" -- shtat se
-      kam tsaf -- na -- li -- ya tsvyat.
-      S~ra -- dost te pra -- shets sa --
-      bi -- rat i po -- na -- syat go kam
-      tsaf -- na -- li -- ya tsvyat. Ra --
-      dost bli -- ka "v~ko-" -- she -- ra
-      ni: ban, vsich -- ki bar -- zat da
-      iz -- lya -- zat van. Ban -- zan,
-      ban -- zan, sla -- dak med za va --
-      zi ni -- e got -- vim, vaz -- lyu --
-      be -- te bla -- gi -- ya Tvo -- rets.
-      Vaz -- lyu -- be -- te bla -- gi -- ya
-      Tvo -- rets. Da vaz -- lyu -- bim na
-      -- shi -- ya ve -- lik i blag Tvo --
-      rets. Ban! Zan! Ban! Zan!}
+     \addlyrics {
+      Pro --
+      let e več, svet -- lo i top -- lo
+      e na -- vred -- Slăn -- ce gre --
+      e, da, pro -- let e doš -- la. Ra
+      -- dost bli -- ka v~ko -- še -- ra
+      ni: băn, vsič -- ki băr -- zat da
+      iz -- lja -- zat văn. Te do -- la --
+      vjat pro -- let -- ni -- ja cve -- ten
+      a -- ro -- mat, spu -- štat se
+      kăm căf -- na -- li -- ja cvjat.
+      S~ra -- dost te pra -- šec să --
+      bi -- rat i po -- na -- sjat go kăm
+      căf -- na -- li -- ja cvjat. Ra --
+      dost bli -- ka v~ko -- še -- ra
+      ni: băn, vsič -- ki băr -- zat da
+      iz -- lja -- zat văn. Băn -- zăn,
+      băn -- zăn, sla -- dăk med za va --
+      zi ni -- e got -- vim, văz -- lju --
+      be -- te bla -- gi -- ja Tvo -- rec.
+      Văz -- lju -- be -- te bla -- gi -- ja
+      Tvo -- rec. Da văz -- lju -- bim na
+      -- ši -- ja ve -- lik i blag Tvo --
+      rec. Băn! Zăn! Băn! Zăn!
+    }
 
     \header {
-      title = \titleFunc "Слънчева песен – пчелна мушичка" "Slancheva pesen – pchelna mushichka"
+      title = \titleFunc "Слънчева песен – пчелна мушичка" "Slănčeva pesen – pčelna mušička"
     }
 
     \midi{}

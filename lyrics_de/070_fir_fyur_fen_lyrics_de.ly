@@ -10,16 +10,17 @@
 
   \column {
 
-    \line {   "   "Fir-fyur-fen Tao Bi Au-men, }
-    \line {   "   "Tao Bi Au-men, Tao Bi Au-men.}
-    \line {   "   "Fir-fyur-fen Tao Bi Au-men, }
-    \line {   "   "Fir-fyur-fen Tao Bi Au-men, }
-    \line {   "   "Fir-fyur-fen Tao Bi Au-men. }
+
+    \line {   "   "Fir-fjur-fen Tao Bi Au-men,}
+    \line {   "   "Tao Bi Au-men, Tao Bi Au-men. }
+    \line {   "   "Fir-fjur-fen Tao Bi Au-men.}
+    \line {   "   "Fir-fjur-fen Tao Bi Aumen, }
+    \line {   "   "Fir-fjur-fen Tao Bi Au-men.}
     \line {   "   " }
     \line {   "   "Lobpreise meine Seele den Herrn,}
     \line {   "   "lobpreise und vergiss nicht}
     \line {   "   "lobpreise, lobpreise, lobpreise }
-      \line {  "   " und vergiß nicht.}
+    \line {  "   " und vergiß nicht.}
 
 
   }

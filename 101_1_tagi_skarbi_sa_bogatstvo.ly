@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref101_1
-  \tocItem \markup "Тъги, скърби са богатство – Tagi, skarbi sa bogatstvo"
+  \tocItem \markup "Тъги, скърби са богатство – Tăgi, skărbi sa bogatstvo"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -34,24 +34,23 @@
       за бла -- ги пло -- до -- ве,
       за свет -- ли дни,
       за свет -- ли дни,
-      за свет -- ли дни,
-      дни, дни.
+      за "свет-" -- ли дни,
+      дни, дни, дни.
     }
 
-    \addlyrics {
-      Ta -- gi, skar -- bi sa bo  --  gat -- stvo
-      za Zhi -- vo -- ta, v~du -- sha skri -- ti
-      za bad -- ni Do -- bri -- ni,
+  \addlyrics {
+      Tă -- gi, skăr -- bi sa bo  --  gat -- stvo
+      za Ži -- vo -- ta, v~du -- ša skri -- ti
+      za băd -- ni Do -- bri -- ni,
       za bla -- gi plo -- do -- ve,
       za svet -- li dni,
       za svet -- li dni,
       za svet -- li dni,
-      dni, dni.
+      dni, dni, dni.
     }
 
-
     \header {
-      title = \titleFunc "Тъги, скърби са богатство" "Tagi, skarbi sa bogatstvo"
+      title = \titleFunc "Тъги, скърби са богатство" "Tăgi, skărbi sa bogatstvo"
     }
 
     \midi{}

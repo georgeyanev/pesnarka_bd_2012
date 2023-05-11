@@ -143,25 +143,26 @@
       на про --  лет, ти си рай.
       Бо -- жи дар, Бо -- жи дар, сал
       за те -- бе аз жи -- ве -- я.}
-      \addlyrics { Mi  -- li Bo -- zhe, chuy ni pe
-      -- sen -- ta: pe -- em niy
-      za Slan -- tse -- to, za pro -- let
-      -- ta. Chuy ni pe -- sen -- ta: Pro
-      -- let i -- de, nov zhi -- vot no
-      -- si. Par -- vo tsve -- te na
-      pro -- let -- ta: bu  -- dya vsich
-      -- ki ot san, men  par -- vo
-      Slan -- tse -- to me   vizh
-      --  da. Slan -- chi -- tse, Bo --
-      zhi dar, ti si iz -- vor na Zhi --
-      vot, ti ni iz -- pra -- shtash
-      lach,  shto raz -- tva -- rya sve --
-      zhi, nezh --   ni lis -- ten
-      -- tsa. Pro -- let, pro -- let,
-      pal -- na sas Zhi -- vot, vech  --
-      na pro --  let, ti si ray.
-      Bo -- zhi dar, Bo -- zhi dar, sal
-      za te -- be az zhi -- ve -- ya.}
+     \addlyrics {
+      Mi  -- li Bo -- že, čuj ni pe
+      -- sen -- ta: pe -- em nij
+      za Slăn -- ce -- to, za pro -- let
+      -- ta. Čuj ni pe -- sen -- ta: Pro
+      -- let i -- de, nov ži -- vot no
+      -- si. Păr -- vo cve -- te na
+      pro -- let -- ta: bu  -- dja vsič
+      -- ki ot săn, men  păr -- vo
+      Slăn -- ce -- to me   viž
+      --  da. Slăn -- či -- ce, Bo --
+      ži dar, ti si iz -- vor na Ži --
+      vot, ti ni iz -- pra -- štaš
+      lăč,  što raz -- tva -- rja sve --
+      ži, než --   ni lis -- ten
+      -- ca. Pro -- let, pro -- let,
+      păl -- na săs Ži -- vot, več  --
+      na pro --  let, ti si raj.
+      Bo -- ži dar, Bo -- ži dar, sal
+      za te -- be az ži -- ve -- ja.}
 
       \header {
         title = \titleFunc "Пролетна песен" "Proletna pesen"
@@ -171,7 +172,7 @@
 
     } % score
 
-    \markup \italic \dc-one-nobold "attaca „Слънчева песен/Slancheva pesen“"
+    \markup \italic \dc-one-nobold "attaca „Слънчева песен/Slănčeva pesen“"
     
 
     % include foreign translation(s) of the song

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref107
-  \tocItem \markup "При всичките условия – Pri vsichkite usloviya"
+  \tocItem \markup "При всичките условия – Pri vsičkite uslovija"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -55,20 +55,20 @@
 
       Жи -- смел.
     }
-    \addlyrics {
-      Pri vsich -- ki -- te u -- slo -- vi -- ya na zhi -- vo -- ta
+   \addlyrics {
+      Pri vsič -- ki -- te u -- slo -- vi -- ja na ži -- vo -- ta
 
-      ne gu -- bi svo -- ya Mir, svo -- ya Mir.
+      ne gu -- bi svo -- ja Mir, svo -- ja Mir.
 
-      Zhi -- vo -- tat e kra -- siv,
+      Ži -- vo -- tăt e kra -- siv,
 
-      ko -- ga -- to cho -- ve -- kat e smel.
+      ko -- ga -- to čo -- ve -- kăt e smel.
 
-      Zhi -- smel.
+      Ži -- smel.
     }
 
     \header {
-      title = \titleFunc "При всичките условия" "Pri vsichkite usloviya"
+      title = \titleFunc "При всичките условия" "Pri vsičkite uslovija"
     }
 
     \midi{}

@@ -48,13 +48,12 @@
       кре -- пи све -- ще -- ни ми -- сли за Жи -- во -- та ти кре -- пи.  Кре -- пи.
     }
 
-    \addlyrics {
-      Mi -- sli, pra -- vo mi -- sli. Mi -- sli, pra -- vo mi -- sli!
+   \addlyrics {
+      Mi -- sli, pra -- vo mi -- sli! Mi -- sli, pra -- vo mi -- sli!
 
-      Sve -- shte -- ni mi -- sli za Zhi -- vo -- ta ti kre -- pi, sve -- shte -- ni mi -- sli za Zhi -- vo -- ta ti kre -- pi. Sve -- pi. Kre -- pi kre -- pi
+      Sve -- šte -- ni mi -- sli za Ži -- vo -- ta ti kre -- pi, sve -- šte -- ni mi -- sli za Ži -- vo -- ta ti kre -- pi. Sve -- pi. Kre -- pi kre -- pi
 
-      kre -- pi sve -- shte -- ni mi -- sli za Zhi -- vo -- ta ti kre -- pi.  Kre -- pi.
-
+      kre -- pi sve -- šte -- ni mi -- sli za Ži -- vo -- ta ti kre -- pi.  Kre -- pi.
     }
 
 

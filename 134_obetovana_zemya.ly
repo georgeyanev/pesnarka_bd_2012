@@ -4,7 +4,7 @@
 
 \bookpart {
   \label #'ref134
-  \tocItem \markup "Обетована земя – Obetovena zemya"
+  \tocItem \markup "Обетована земя – Obetovana zemja"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -99,25 +99,26 @@
       жи -- ве -- ят брат -- ски, где хо
       -- ра -- та жи -- ве -- ят брат --
       ски, там де Лю -- бов ца -- ри.}
-      \addlyrics {   Dni na stra -- da -- ni -- ya i
-      skar -- bi prez  du -- sha -- ta
-      mi  mi -- na -- ha, val -- ni i
-      bu -- ri du -- sha mi za -- lya -- ha.
-      No  Du -- hat  mi na  Zhi
-      -- vo -- ta s~mosht  i si -- la
-      nad tyah iz -- pla -- va. Za O --
-      be -- to -- va -- na ze -- mya  az
-      trag -- nah pat -- nik, gde iz
+      \addlyrics {
+      Dni na stra -- da -- ni -- ja i
+      skăr -- bi prez  du -- ša -- ta
+      mi  mi -- na -- ha, văl -- ni i
+      bu -- ri du -- ša mi za -- lja -- ha.
+      No  Du -- hăt  mi na  Ži
+      -- vo -- ta s~mošt  i si -- la
+      nad tjah iz -- pla -- va. Za O --
+      be -- to -- va -- na ze -- mja  az
+      trăg -- nah păt -- nik, gde iz
       -- vi -- rat iz -- vo -- ri, gde te --
       kat re -- ki -- te, gde zre --
-      yat plo -- do -- ve,  gde pti
-      -- tsi pe -- yat. Gde ho -- ra -- ta
-      zhi -- ve -- yat brat -- ski, gde ho
-      -- ra -- ta zhi -- ve -- yat brat --
-      ski, tam de Lyu -- bov tsa -- ri.}
+      jat plo -- do -- ve,  gde pti
+      -- ci pe -- jat. Gde ho -- ra -- ta
+      ži -- ve -- jat brat -- ski, gde ho
+      -- ra -- ta ži -- ve -- jat brat --
+      ski, tam de Lju -- bov ca -- ri.}
 
       \header {
-        title = \titleFunc "Обетована земя" "Obetovena zemya"
+        title = \titleFunc "Обетована земя" "Obetovana zemja"
       }
 
       \midi{}

@@ -5,7 +5,7 @@
 
 \bookpart {
     \label #'ref090
-  \tocItem \markup "Светъл ден – Svetal den "
+  \tocItem \markup "Светъл ден – Svetăl den "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -55,21 +55,21 @@
 
     }
     \addlyrics {
-      Sve -- tal den, sve  -- tal den,
+      Sve -- tăl den, sve  -- tăl den,
       den, den, den.
       Ve -- sel den, ve -- sel den,
       den, den, den.
-      Bo -- zhi den, Bo -- zhi den,
-      sve -- tal Bo -- zhi den.
-      Sve -- tal den, sve -- tal den,
-      sve -- tal den, Bo -- zhi den.
-      Sve -- tal den, sve -- tal den,
-      sve -- tal den, Bo -- zhi den.
+      Bo -- ži den, Bo -- ži den,
+      sve -- tăl Bo -- ži den.
+      Sve -- tăl den, sve -- tăl den,
+      sve -- tăl den, Bo -- ži den.
+      Sve -- tăl den, sve -- tăl den,
+      sve -- tăl den, Bo -- ži den.
 
     }
 
     \header {
-      title = \titleFunc "Светъл ден" "Svetal den"
+      title = \titleFunc "Светъл ден" "Svetăl den"
     }
 
     \midi{}

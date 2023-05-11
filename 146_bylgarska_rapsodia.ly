@@ -4,7 +4,7 @@
 
 \bookpart {
   \label #'ref146
-  \tocItem \markup "Българска рапсодия – Bylgarska rapsodia"
+  \tocItem \markup "Българска рапсодия – Bălgarska rapsodija"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -255,37 +255,38 @@
       Там го -- ре край из -- во -- ра срещ -- нах мо -- ма зас -- мя -- на,
       там го -- ре срещ -- нах Ли -- ля -- на.
     }
+    
     \addlyrics {
-      Tam go -- re kray iz -- vo -- ra sresht -- nah mo -- ma za --
-      smya -- na, tam go -- re sresht -- nah Li -- lya -- na.
+      Tam go -- re kraj iz -- vo -- ra srešt -- nah mo -- ma za --
+      smja -- na, tam go -- re srešt -- nah Li -- lja -- na.
       \repeat unfold 22 { \skip 1 }
-      Iz -- vo -- rat stru -- i, iz -- vi -- ra i chis -- ti vo -- di raz -- li -- va,
-      pla -- nin -- ska pe -- sen raz -- niz -- va; mo -- ma -- ta men -- tsi na -- li -- va,
-      v~pe -- sen -- ta ti -- ho se za -- slush -- va.
+      Iz -- vo -- răt stru -- i, iz -- vi -- ra i čis -- ti vo -- di raz -- li -- va,
+      pla -- nin -- ska pe -- sen raz -- niz -- va; mo -- ma -- ta men -- ci na -- li -- va,
+      v~pe -- sen -- ta ti -- ho se za -- sluš -- va.
       \repeat unfold 26 { \skip 1 }
-      Shte o -- ti -- da ta -- mo go -- re, shte o -- ti -- da
-      v~pla -- ni -- na -- ta, chis -- ti vo -- di da po -- gle -- dam, ti -- ha pe -- sen
-      da po -- slu -- sham, shte o -- ti -- da ta -- mo.
+      Šte o -- ti -- da ta -- mo go -- re, šte o -- ti -- da
+      v~pla -- ni -- na -- ta, čis -- ti vo -- di da po -- gle -- dam, ti -- ha pe -- sen
+      da po -- slu -- šam, šte o -- ti -- da ta -- mo.
       \repeat unfold 23 { \skip 1 }
-      Chis -- ti vo -- di da po -- gle -- dam, ti -- ha pe -- sen da po -- slu -- sham,
-      shte o -- ti -- da ta -- mo. Li -- lya -- no,
-      tsve -- te ra -- no v~gra -- di -- na, a -- ko taz pe -- sen,
-      Li -- lya -- no, ne chu -- ya, ah, ot taz vo -- da a -- ko ne pi -- ya,
-      skrab shte mi pal -- ni sar -- tse -- to.
+      Čis -- ti vo -- di da po -- gle -- dam, ti -- ha pe -- sen da po -- slu -- šam,
+      šte o -- ti -- da ta -- mo. Li -- lja -- no,
+      cve -- te ra -- no v~gra -- di -- na, a -- ko taz pe -- sen,
+      Li -- lja -- no, ne ču -- ja, ah, ot taz vo -- da a -- ko ne pi -- ja,
+      skrăb šte mi păl -- ni săr -- ce -- to.
       \repeat unfold 85 { \skip 1 }
-      Li -- lya -- no mo -- me, ti v~pla -- ni -- na -- ta
-      tam go -- re shte me za -- ve -- desh, iz -- vo -- rat de -- to iz -- vi -- ra.
+      Li -- lja -- no mo -- me, ti v~pla -- ni -- na -- ta
+      tam go -- re šte me za -- ve -- deš, iz -- vo -- răt de -- to iz -- vi -- ra.
       \repeat unfold 30 { \skip 1 }
-      Go -- re v~pla -- ni -- na -- ta, Slan -- tse dey o --
-      grya -- lo sred tre -- vi ze -- le -- ni, sred tsve -- tya za -- sme -- ni.
-      Go -- re v~pla -- ni -- na -- ta, Slan -- tse dey o -- grya -- lo.
+      Go -- re v~pla -- ni -- na -- ta, Slăn -- ce dej o --
+      grja -- lo sred tre -- vi ze -- le -- ni, sred cve -- tja za -- sme -- ni.
+      Go -- re v~pla -- ni -- na -- ta, Slăn -- ce dej o -- grja -- lo.
       \repeat unfold 5 { \skip 1 }
-      Tam go -- re kray iz -- vo -- ra sresht -- nah mo -- ma zas -- mya -- na,
-      tam go -- re sresht -- nah Li -- lya -- na.
+      Tam go -- re kraj iz -- vo -- ra srešt -- nah mo -- ma zas -- mja -- na,
+      tam go -- re srešt -- nah Li -- lja -- na.
     }
 
     \header {
-      title = \titleFunc "Българска рапсодия" "Bylgarska rapsodia"
+      title = \titleFunc "Българска рапсодия" "Bălgarska rapsodija"
     }
 
     \midi{}

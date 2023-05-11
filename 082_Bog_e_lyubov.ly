@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref082
-  \tocItem \markup "Бог е Любов – Bog e Lyubov"
+  \tocItem \markup "Бог е Любов – Bog e Ljubov"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -63,28 +63,28 @@
       бов, Лю -- бов  | веч -- на, | "без – гра-" -- нич -- на, |
       пъл -- на | със_Жи -- "-вот," "Жи-вот на" | бла -- ги -- я Бо -- жи  Дух.
       Дух на бла -- гост -- "-та," | Дух на свя -- тост -- "-та," | Дух на пъ -- лен Мир и |
-      Ра -- дост за вся -- ка ду | ша, за вся -- ка ду -- | ша. Ний щe | хо -- дим в~то -- я |
+      Ра -- дост за вся -- ка ду -- ша, за вся -- ка ду -- | ша. Ний щe | хо -- дим в~то -- я |
       път  на Свет -- ли -- | на -- та, на Свет -- ли -- | на -- та, на Свет -- ли | на -- та, в~ко -- |
       я -- то "ца-" -- ру -- ва | Бо -- жи -- я -- та "Лю-" -- бов, | Бо -- жи -- я -- та "Лю-" -- бов, |
       Бо -- жи -- я -- та "Лю-" -- бов, | Бо -- жи -- я -- та Лю -- | бов. Ний ще | бов.}
       \addlyrics {
-        Bog e Lyu -- bov, | Bog e Lyu -- bov, | Bog e Lyu -- bov, Lyu -- |
-        bov, Lyu -- bov  | vech -- na, | "bez – gra" -- nich -- na, |
-        pal -- na | sas_Zhi -- vot, "Zhi-vot na" | bla -- gi -- ya Bo -- zhi  Duh. |
-        Duh na bla -- gost -- ta, | Duh na svya -- tost -- ta, | Duh na pa -- len Mir i |
-        Ra -- dost za vsya -- ka du | sha za vsya -- ka du -- | sha. Niy shte | ho -- dim v~to -- ya |
-        pat  na Svet -- li -- | na -- ta, na Svet -- li -- | na -- ta, na Svet -- li | na -- ta, v~ko -- |
-        ya -- to tsa -- ru -- va | Bo -- zhi -- ya -- ta Lyu -- bov, | Bo -- zhi -- ya -- ta Lyu -- bov, |
-        Bo -- zhi -- ya -- ta Lyu -- bov, | Bo -- zhi -- ya -- ta Lyu -- | bov. Niy shte | bov.}
+        Bog e "Lju-" -- bov, | Bog e "Lju-" -- bov, | Bog e "Lju-" -- bov, Lju -- |
+        bov, Lju -- bov  | več -- na, | "bez – gra-" -- nič -- na, |
+        păl -- na | săs_Ži -- vot, "Ži-vot na" | bla -- gi -- ja Bo -- ži  Duh.
+        Duh na bla -- gost -- ta, | Duh na svja -- tost -- ta, | Duh na pă -- len Mir i |
+        Ra -- dost za vsja -- ka du -- ša, za vsja -- ka du -- | ša. Nij šte | ho -- dim v~to -- ja |
+        păt  na Svet -- li -- | na -- ta, na Svet -- li -- | na -- ta, na Svet -- li | na -- ta, v~ko -- |
+        ja -- to ca -- ru -- va | Bo -- ži -- ja -- ta "Lju-" -- bov, | Bo -- ži -- ja -- ta "Lju-" -- bov, |
+        Bo -- ži -- ja -- ta "Lju-" -- bov, | Bo -- ži -- ja -- ta Lju -- | bov. Nij šte | bov.}
         \header {
-          title = \titleFunc "Бог е Любов" "Bog e Lyubov"
+          title = \titleFunc "Бог е Любов" "Bog e Ljubov"
         }
 
         \midi{}
 
       } % score
-      
+
       % include foreign translation(s) of the song
       \include "lyrics_de/082_bog_e_ljubov_lyrics_de.ly"
 
-      } % bookpart
+    } % bookpart

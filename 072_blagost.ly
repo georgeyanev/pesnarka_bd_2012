@@ -69,20 +69,24 @@
       и -- де тя, ко -- га и -- де тя.
     }
     \addlyrics {
-      Bla -- gost, bla
-      -- gost, bla -- gost no -- si, no -- si, no -- si Svet -- li
-      -- na -- ta, Svet -- li -- na -- ta, Svet -- li -- na -- ta.
-      Ra -- dost no -- si za zhi -- vo -- ta, ra -- dost no -- si za zhi
-      -- vo -- ta, ra -- dost no -- si za zhi -- vo -- ta, za zhi --
-      vo -- ta tya, za zhi -- vo -- ta tya, za zhi -- vo -- ta tya.
-      Sta -- ri vdi -- ga, mla -- di vdi -- ga, sta -- ri vdi -- ga,
-      mla -- di vdi -- ga, ot leg -- lo -- to tya, ot leg -- lo -- to
-      tya, ot leg -- lo -- to tya. Bol -- ni mil -- va, zdra -- vi
-      rad -- va, Bol -- ni mil -- va, zdra -- vi rad -- va, ko -- ga
-      i -- de tya, ko -- ga i -- de tya, ko -- ga i -- de tya. I re
-      -- ki te -- kat o -- bil -- no, i tsve -- tya tsaf -- tyat kra --
-      si -- vo, ko -- ga i -- de tya, ko -- ga i -- de tya, ko -- ga
-      i -- de tya.}
+      Bla -- gost,
+      bla -- gost, bla -- gost no -- si, no -- si, no --
+      si Svet -- li -- na -- ta, Svet -- li -- na -- ta,
+      Svet -- li -- na -- ta. Ra -- dost no -- si za
+      Ži -- vo -- ta, Ra -- dost no -- si za Ži -- vo
+      -- ta, Ra -- dost no -- si za Ži -- vo -- ta, za
+      Ži -- vo -- ta tja, za Ži -- vo -- ta tja, za Ži
+      -- vo -- ta tja. Sta -- ri vdi -- ga, mla -- di
+      vdi -- ga, sta -- ri vdi -- ga, mla -- di vdi --
+      ga ot leg -- lo -- to tja, ot leg -- lo -- to
+      tja, ot leg -- lo -- to tja. Bol -- ni mil -- va,
+      zdra -- vi rad -- va, bol -- ni mil -- va, zdra --
+      vi rad -- va, ko -- ga i -- de tja, ko -- ga i
+      -- de tja, ko -- ga i -- de tja. I re -- ki te
+      -- kat o -- bil -- no, i cve -- tja căf -- tjat
+      kra -- si -- vo, ko -- ga i -- de tja, ko -- ga
+      i -- de tja, ko -- ga i -- de tja.
+    }
     \header {
       title = \titleFunc "Благост" "Blagost"
     }

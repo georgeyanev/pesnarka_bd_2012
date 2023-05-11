@@ -105,37 +105,38 @@
     }
     \addlyrics {
       A -- in fa -- si, me -- kri za --
-      si, fin --   ze -- mru A -- shan
+      si, fin --   ze -- mru A -- šan
       --    me --  ru. Su
-      -- a si sin     me --
+      -- a si sin     "me-" --
       sul. Su -- ma si zen   fe
       --  sul, Su -- a si sin
       me --  sul. Su -- ma si
-      zen  fe --  sul, Su --
+      zen  fe --  sul, "Su-" --
       ma si  zen  fe  --
-      sul. Vav ne -- bes -- ni -- te shi --
-      ri -- ni, vav ne -- bes -- ni -- te
-      gla -- bi -- ni, vav ne -- bes -- ni
+      sul. Văv ne -- bes -- ni -- te ši --
+      ri -- ni, văv ne -- bes -- ni -- te
+      glă -- bi -- ni, văv ne -- bes -- ni
       -- te vi -- si -- ni, de Svet --
       li -- na  o -- bi -- ta --
-      va i v~Zhi -- vo
-      --  ta vech -- no  se
-      pro -- ya -- vya --   va.}
+      va i v~Ži -- vo
+      --  ta več -- no  se
+      pro -- ja -- vja --   va.
+    }
 
-      \header {
-        title = \titleFunc "Аин фаси" "Ain fasi"
-      }
+    \header {
+      title = \titleFunc "Аин фаси" "Ain fasi"
+    }
 
-      \midi{}
+    \midi{}
 
-    } % score
+  } % score
 
-     \markup \dc-two "D. C. al Fine"""
+  \markup \dc-two "D. C. al Fine"""
 
-    \pageBreak
-  
+  \pageBreak
 
-    % include foreign translation(s) of the song
-    \include "lyrics_de/135_ain_fasi_lyrics_de.ly"
 
-  } % bookpart
+  % include foreign translation(s) of the song
+  \include "lyrics_de/135_ain_fasi_lyrics_de.ly"
+
+} % bookpart

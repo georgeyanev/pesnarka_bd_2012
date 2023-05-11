@@ -38,11 +38,12 @@
       от пче -- ли -- те до -- не -- се -- но.
     }
 
-    \addlyrics {
-      Slad -- ko, me -- de -- no, slad -- ko, me --
-      de -- no, me -- de -- no, me -- de -- no, slad -- ko, me --
-      de -- no. Ot Slan -- tse -- to iz -- pra -- te -- no, ot pche --
-      li -- te do -- ne -- se -- no.
+      \addlyrics {
+      Slad -- ko,
+      me -- de -- no, slad -- ko, me -- de -- no, me --
+      de -- no, me -- de -- no, slad -- ko, me -- de --
+      no. Ot Slăn -- ce -- to iz -- pra -- te -- no,
+      ot pče -- li -- te do -- ne -- se -- no.
     }
     \header {
       title = \titleFunc "Сладко медено" "Sladko medeno"

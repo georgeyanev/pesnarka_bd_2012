@@ -5,7 +5,7 @@
 
 \bookpart {
    \label #'ref095_2
-  \tocItem \markup "Добър ден – Dobar den"
+  \tocItem \markup "Добър ден – Dobăr den"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -34,26 +34,26 @@
       До -- бър
       ден е свет -- ли -- я ден. Ху -- бав и кра --
       сив е той! Всич -- ко о -- за -- ря -- ва, всич
-      -- ко о -- жи -- вя -- ва и в~Жи -- во -- та Бо
+      -- ко о -- жи -- вя -- ва и "в~Жи-" -- во -- та Бо
       -- жи -- е -- то бла -- го той раз -- да -- ва,
-      и в~Жи -- во -- та Бо -- жи -- е -- то бла -- го
+      и "в~Жи-" -- во -- та Бо -- жи -- е -- то бла -- го
       той раз -- да -- ва.
 
     }
 
-    \addlyrics {
-      Do -- bar
-      den e svet -- li -- ya den. Hu -- bav i kra --
-      siv e toy! Vsich -- ko o -- za -- rya -- va, vsich
-      -- ko o -- zhi -- vya -- va i v~Zhi -- vo -- ta Bo
-      -- zhi -- e -- to bla -- go toy raz -- da -- va,
-      i v~Zhi -- vo -- ta Bo -- zhi -- e -- to bla -- go
-      toy raz -- da -- va.
+     \addlyrics {
+      Do -- băr
+      den e svet -- li -- ja den. Hu -- bav i kra --
+      siv e toj! Vsič -- ko o -- za -- rja -- va, vsič
+      -- ko o -- ži -- vja -- va i v~Ži -- vo -- ta Bo
+      -- ži -- e -- to bla -- go toj raz -- da -- va,
+      i v~Ži -- vo -- ta Bo -- ži -- e -- to bla -- go
+      toj raz -- da -- va.
     }
 
 
     \header {
-      title = \titleFunc "Добър ден" "Dobar den"
+      title = \titleFunc "Добър ден" "Dobăr den"
     }
 
     \midi{}

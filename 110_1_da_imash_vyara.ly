@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref110_1
-  \tocItem \markup "Да имаш вяра – Da imash vyara"
+  \tocItem \markup "Да имаш вяра – Da imaš vjara"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -46,13 +46,13 @@
       ра, да и -- маш вя -- ра, вя -- ра, да и --
       маш вя -- ра, вя -- ра, вя -- ра.}
       \addlyrics {
-        Da i -- mash vya
-        -- ra, vya -- ra, da i -- mash vya -- ra, vya -- ra, da i --
-        mash vya -- ra, vya -- ra, da i -- mash vya -- ra, vya --
-        ra, vya -- ra.}
+      Da i -- maš
+      vja -- ra, vja -- ra, da i -- maš vja -- ra, vja --
+      ra, da i -- maš vja -- ra, vja -- ra, da i --
+      maš vja -- ra, vja -- ra, vja -- ra.}
 
         \header {
-          title = \titleFunc "Да имаш вяра" "Da imash vyara"
+          title = \titleFunc "Да имаш вяра" "Da imaš vjara"
         }
 
         \midi{}

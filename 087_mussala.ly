@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref087
-  \tocItem \markup "Мусала – Mussala"
+  \tocItem \markup "Мусала – Musala"
 
   \include "include/bookpart-paper.ily"
   \score {
@@ -73,25 +73,25 @@
       Му -- са -- ла, Му -- са -- ла, Му -- са -- ла, на Му -- са -- ла! При ла!
     }
     \addlyrics {
-      E -- din si ti, moy Mu -- sa -- la, sve -- shte -- no
+      E -- din si ti, moj Mu -- sa -- la, sve -- šte -- no
 
-      mya -- sto, Bo -- zhi vrah.  Moy Mu -- sa -- la, Mu -- sa -- la,
+      mja -- sto, Bo -- ži vrăh.  Moj Mu -- sa -- la, Mu -- sa -- la,
 
-      Mu -- sa -- la, Mu -- sa -- la, moy Mu -- sa -- la.
+      Mu -- sa -- la, Mu -- sa -- la, moj Mu -- sa -- la.
 
-      Prez ya -- sen den na pro -- let -- ta vi -- de -- li
+      Prez ja -- sen den na pro -- let -- ta vi -- de -- li
 
       li ste iz -- gre -- va ot Mu -- sa -- la,    Mu -- sa -- la,
 
-      Mu -- sa -- la,  Mu -- sa -- la,  ot Mu -- sa -- la! Pri par -- vi
+      Mu -- sa -- la,  Mu -- sa -- la,  ot Mu -- sa -- la! Pri păr -- vi
 
-      lach na Slan -- tse -- to vdah -- na -- li li ste le -- kiy dah na Mu -- sa -- la,
+      lăč na Slăn -- ce -- to vdăh -- na -- li li ste le -- kij dăh na Mu -- sa -- la,
 
       Mu -- sa -- la, Mu -- sa -- la, Mu -- sa -- la, na Mu -- sa -- la! Pri la!
     }
 
     \header {
-      title = \titleFunc "Мусала" "Mussala"
+      title = \titleFunc "Мусала" "Musala"
     }
 
     \midi{}

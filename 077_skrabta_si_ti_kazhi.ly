@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref077
-  \tocItem \markup "Скръбта си ти кажи – Skrabta si ti kazhi"
+  \tocItem \markup "Скръбта си ти кажи – Skrăbta si ti kaži"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -57,29 +57,29 @@
       Ра -- дост ще "вне-" -- сат, Ра -- дост ще "вне-" -- сат,
       и в~ду -- "-ша" ти Ра -- дост ще "вне-" -- сат.}
 
-      \addlyrics {
-        Skrab -- ta si ti "ka-"  -- zhi,
-        sar -- tse si ti ot -- vo -- ri
-        na slan -- che -- vi "la-" -- chi,
-        na slan -- che -- vi "la-" -- chi,
-        na slan -- che -- vi "la-" -- chi,
-        na slan -- che -- vi "la-" -- chi.
-        La -- chi ot Bo -- ga
-        bla -- gost shte ti do -- "ne-" -- sat,
-        i v~du -- "-sha" ti Ra -- dost shte "vne-" -- sat,
-        i v~du -- "-sha" ti Ra -- dost shte "vne-" -- sat,
-        i v~du -- "-sha" ti Ra -- dost shte "vne-" -- sat,
-        i v~du -- "-sha" ti Ra -- dost shte "vne-" -- sat,
-        i v~du -- "-sha" ti Ra -- dost shte "vne-" -- sat,
-        Ra -- dost shte "vne-" -- sat, Ra -- dost shte "vne-" -- sat,
-        Ra -- dost shte "vne-" -- sat, Ra -- dost shte "vne-" -- sat,
-        Ra -- dost shte "vne-" -- sat, Ra -- dost shte "vne-" -- sat,
-        Ra -- dost shte "vne-" -- sat, Ra -- dost shte "vne-" -- sat,
-        i v~du -- "-sha" ti Ra -- dost shte "vne-" -- sat.
-        }
+ 
+     \addlyrics {
+      Skrăb -- ta si ti ka -- ži,
+      săr -- ce si ti ot -- vo -- ri
+      na slăn -- če -- vi lă -- či,
+      na slăn -- če -- vi lă -- či,
+      na slăn -- če -- vi lă -- či,
+      na slăn -- če -- vi lă -- či.
+      Lă -- či ot Bo -- ga
+      bla -- gost šte ti do -- "ne-" -- sat,
+      i v~du -- ša ti Ra -- dost šte "vne-" -- sat,
+      i v~du -- ša ti Ra -- dost šte "vne-" -- sat,
+      i v~du -- ša ti Ra -- dost šte "vne-" -- sat,
+      i v~du -- ša ti Ra -- dost šte "vne-" -- sat,
+      i v~du -- ša ti Ra -- dost šte "vne-" -- sat,
+      Ra -- dost šte "vne-" -- sat, Ra -- dost šte "vne-" -- sat,
+      Ra -- dost šte "vne-" -- sat, Ra -- dost šte "vne-" -- sat,
+      Ra -- dost šte "vne-" -- sat, Ra -- dost šte "vne-" -- sat,
+      Ra -- dost šte "vne-" -- sat, Ra -- dost šte "vne-" -- sat,
+      i v~du -- ša ti Ra -- dost šte "vne-" -- sat.}
 
         \header {
-          title = \titleFunc "Скръбта си ти кажи" "Skrabta si ti kazhi"
+          title = \titleFunc "Скръбта си ти кажи" "Skrăbta si ti kaži"
         }
 
         \midi{}

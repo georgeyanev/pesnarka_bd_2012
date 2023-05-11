@@ -4,7 +4,7 @@
 
 \bookpart {
   \label #'ref122
-  \tocItem \markup "Радост и скръб – Radost i skrab "
+  \tocItem \markup "Радост и скръб – Radost i skrăb "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -182,10 +182,10 @@
       бов -- та ед -- нак -- во и две --
       те це -- ни. Скръб и Ра -- дост
       все ед -- но, скръб и Ра -- дост
-      са ед -- но, Лю -- бов -- та щом
+      все ед -- но, Лю -- бов -- та щом
       в~тях ца -- ри. Прав -- да -- та
       в~скръб -- та се це -- ни, а Доб
-      -- ро -- то– в~Ра -- дост  -- та.
+      -- ро -- "то –" в~Ра -- дост  -- та.
       Тях да въз -- при -- е -- мем, друж
       -- но да вър -- вим на -- пред. Лю
       -- бов -- та ед -- нак -- во и
@@ -194,50 +194,51 @@
       две -- те це -- ни.)
      }
       \addlyrics {
-        Slu -- shal sam za te -- be, skrab,
-        che zhes -- to -- ka si bi -- la, che
-        stra -- da -- ni -- ya pri -- chi -- nya
-        -- vash  ti. Ne zna -- esh li ti,
-        che sam be -- den stran -- nik? Ka
-        -- zhi shto is -- kash ti ot me -- ne,
-        skrab, ka -- zhi! Ka -- zhi shto
-        is -- kash, ne -- ka az to -- va
-         da znam! "„Mach" -- no mo -- zhe
-        men nya -- koy  da o -- bi
-        -- cha. Tam e skrab -- ta! Koy --
-        to men o -- bi  --  cha  
-        i pri  -- e -- ma me do  --
-        bre, sa -- mo  toy  mo
-        -- zhe Zhi -- vo -- ta da raz -- bi
-        -- ra. Tru -- den e i stra -- men
-        e pa -- tyat, po koy -- to var --
-        vya. Mach -- no mo -- zhe da me sled
-        -- va nya -- koy tam, a za
-        smart -- ni -- ya ne -- vaz -- mozh --
-        no e poch -- ti. Nya -- koy pak da
-        o -- bi -- cha i dob -- re da mis --
-        li za men, "tryab-" -- va toy da ba
-        -- de zhi -- tel sa -- var -- she -- no
-        ot drug "svyat.“" Ra -- dost i
-        skrab, to -- va sa pa  -- ti --
-        shta da se raz -- bi -- ra ve --
-        li -- ki -- ya Zhi -- vot. Lyu  --
-        bov -- ta ed -- nak -- vo i dve --
-        te tse -- ni. Skrab i Ra -- dost
-        vse ed -- no, skrab i Ra -- dost
-        sa ed -- no, Lyu -- bov -- ta shtom
-        v~tyah tsa -- ri. Prav -- da -- ta
-        v~skrab -- ta se tse -- ni, a Dob
-        -- ro -- to– v~Ra -- dost  -- ta.
-        Tyah da vaz -- pri -- e -- mem, druzh
-        -- no da var -- vim na -- pred. Lyu
-        -- bov -- ta ed -- nak -- vo i
-        dve -- te tse -- ni. (Lyu
-        -- bov -- ta ed -- nak -- vo i
-        dve -- te tse -- ni.)}
+       Slu -- šal săm za te -- be, skrăb,
+      če žes -- to -- ka si bi -- la, če
+      stra -- da -- ni -- ja pri -- či -- nja
+      -- vaš  ti. Ne zna -- eš li ti,
+      če săm be -- den stran -- nik? Ka
+      -- ži što is -- kaš ti ot me -- ne,
+      skrăb, ka -- ži! Ka -- ži što
+      is -- kaš, ne -- ka az to -- va
+      da znam! "„Măč" -- no mo -- že
+      men nja -- koj  da o -- bi
+      -- ča. Tam e skrăb -- ta! Koj --
+      to men o -- bi  --  ča
+      i pri  -- e -- ma me do  --
+      bre, sa -- mo toj mo
+      -- že Ži -- vo -- ta da raz -- bi
+      -- ra. Tru -- den e i stră -- men
+      e pă -- tjat, po koj -- to văr --
+      vja. Măč -- no mo -- že da me sled
+      -- va nja -- koj tam, a za
+      smărt -- ni -- ja ne -- văz -- mož --
+      no e poč -- ti. Nja -- koj păk da
+      o -- bi -- ča i dob -- re da mis --
+      li za men, trjab -- va toj da bă
+      -- de ži -- tel să -- văr -- še -- no
+      ot drug "svjat.“" Ra -- dost i
+      skrăb, to -- va sa pă  -- ti --
+      šta da se raz -- bi -- ra ve --
+      li -- ki -- ja Ži -- vot. Lju  --
+      bov -- ta ed -- nak -- vo i dve --
+      te ce -- ni. Skrăb i Ra -- dost
+      vse ed -- no, skrăb i Ra -- dost
+      vse ed -- no, Lju -- bov -- ta štom
+      v~tjah ca -- ri. Prav -- da -- ta
+      v~skrăb -- ta se ce -- ni, a Dob
+      -- ro -- "to –" v~Ra -- dost  -- ta.
+      Tjah da văz -- pri -- e -- mem, druž
+      -- no da văr -- vim na -- pred. Lju
+      -- bov -- ta ed -- nak -- vo i
+      dve -- te ce -- ni. (Lju
+      -- bov -- ta ed -- "nak-" -- vo i
+      dve -- te ce -- ni.)
+     }
 
         \header {
-          title = \titleFunc "Радост и скръб" "Radost i skrab"
+          title = \titleFunc "Радост и скръб" "Radost i skrăb"
         }
 
         \midi{}

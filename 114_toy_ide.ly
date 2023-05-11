@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref114
-  \tocItem \markup "Той иде – Toy ide"
+  \tocItem \markup "Той иде – Toj ide"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -70,21 +70,24 @@
       Той.
     }
     \addlyrics {
-      I --  de,  i --
-      de,  i --  de,  sam Toy i -- de,  i --  de,  i --  de,  sam Toy i -- de,  i
-      --  de,  i --  de,  sam Toy i -- de da po -- ma -- ga  Toy,  da po -- ma
-      -- ga  Toy,  da po -- ma -- ga  Toy.  Most -- ni --  yat,  sil -- ni
-      --  yat,  da po -- ma -- ga  Toy,  mosht -- ni --  yat,  sil -- ni
-      --  yat,  da po -- ma -- ga  Toy,  da po -- ma -- ga  Toy,  da po --
-      ma -- ga  Toy.  Niy shte ra -- bo -- tim sas lyu --  bov,  shte ra
-      -- bo -- tim sas Lyu --  bov,  da po -- ma -- ga  Toy,  da po -- ma
-      -- ga  Toy,  Mosht -- ni --  yat,  sil -- ni --  yat,  da po -- ma
-      -- ga  Toy,  da po -- ma -- ga  Toy,  da po -- ma -- ga  Toy,  da po
-      -- ma -- ga  Toy.
+      I  --  de,   i
+      --  de,   i  --  de,   sam   Toj   i -- de,   i  --  de,   i  --  de,
+      sam   Toj   i -- de,   i  --  de,   i  --  de,   sam   Toj  i -- de   da
+      po  --  ma  --  ga   Toj,   da   po  --  ma  --  ga   Toj,   da
+      po  --  ma  --  ga   Toj.   Mošt  --  ni  --  jat,   sil  --  ni  --
+      jat,   da   po  --  ma  --  ga   Toj, mošt  --  ni  --  jat,
+      sil  --  ni  --  jat,   da   po  --  ma  --  ga   Toj,   da   po  --
+      ma  --  ga   Toj,   da   po  --  ma  --  ga   Toj.   Nij   šte   ra
+      --  bo  --  tim   săs   "lju-"  --  bov,   šte   ra  --  bo  --  tim
+      săs   "Lju-"  --  bov,   da   po  --  ma  --  ga   Toj,   da   po  --
+      ma  --  ga    Toj,   Mošt  --  "ni-"  --  jat,   sil  --  ni  --
+      jat,   da   po  --  ma  --  ga   Toj,   da   po  --  ma  --  ga
+      Toj,   da   po  --  ma  --  ga   Toj,   da   po  --  ma  --  ga
+      Toj.
     }
 
       \header {
-      title = \titleFunc "Той иде" "Toy ide"
+      title = \titleFunc "Той иде" "Toj ide"
     }
 
     \midi{}

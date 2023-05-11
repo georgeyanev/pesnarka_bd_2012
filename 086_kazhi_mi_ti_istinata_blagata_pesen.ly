@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref086_1
-  \tocItem \markup "Кажи ми ти истината – Kazhi mi ti istinata"
+  \tocItem \markup "Кажи ми ти истината – Kaži mi ti istinata"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -44,15 +44,14 @@
       та ду -- ша.
     }
     \addlyrics {
-      Ka -- zhi mi
-      ti Is -- ti -- na -- ta, ko -- ya -- to no -- si
-      Svo -- bo -- da za mo -- ya -- ta du -- sha. Ka --
-      ta du -- sha.
-
+      Ka -- ži mi
+      ti Is -- ti -- na -- ta, ko -- ja -- to no -- si
+      Svo -- bo -- da za mo -- ja -- ta du -- ša. Ka --
+      ta du -- ša.
     }
 
     \header {
-      title = \titleFunc "Кажи ми ти истината" "Kazhi mi ti istinata"
+      title = \titleFunc "Кажи ми ти истината" "Kaži mi ti istinata"
     }
 
     \midi{}
@@ -100,13 +99,13 @@
       зна -- вай.
     }
 
-    \addlyrics {
-      Ti sa -- zna -- vay, ti lyu -- bi,
-      bez -- spir -- no sey, gra -- di i v~Zhi -- vo --
-      ta vsich -- ko da -- vay. Ta -- zi Is -- ti --
-      na, Bo -- ga, ti po -- zna -- vay. Ti po -- zna
-      -- vay, ti po -- zna -- vay, Bo -- ga ti po --
-      zna -- vay.
+      \addlyrics {
+      Ti să -- zna -- vaj, ti lju -- bi,
+      bez -- spir -- no sej, gra -- di i v~Ži -- vo --
+      ta vsič -- ko da -- vaj. Ta -- zi Is -- ti --
+      na, Bo -- ga, ti po -- zna -- vaj. Ti po -- zna
+      -- vaj, ti po -- zna -- vaj, Bo -- ga ti po --
+      zna -- vaj.
     }
 
     \header {
@@ -117,7 +116,7 @@
 
   } % score
   
-  \markup \dc-two "D.C. al Fine „Кажи ми ти Истината“/„Kazhi mi ti istinata“" "senza ripetizione"
+  \markup \dc-two "D.C. al Fine „Кажи ми ти Истината“/„Kaži mi ti Istinata“" "senza ripetizione"
   
    \markup \empty-two
 

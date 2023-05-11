@@ -68,18 +68,18 @@
       Прав --
       да, Прав --
       да!}
-      \addlyrics {
-        Prav -- da, Prav -- da, Prav -- da,
-        shto vna -- syash Svo -- bo -- da v~u
-        -- ma.   Kra -- si --
-        va i mosht -- na si ti i raz --
-        pre -- de -- lyash vsich -- ko v~sve --
-        ta; kra -- si --   va i
-        mosht -- na si ti i raz -- pre -- de
-        -- lyash vsich -- ko v~sve -- ta.
-        Prav --
-        da, Prav --
-        da!}
+    \addlyrics {
+      Prav -- da, Prav -- da, Prav -- da,
+      što vna -- sjaš Svo -- bo -- da v~u
+      -- ma.   Kra -- si --
+      va i mošt -- na si ti i raz --
+      pre -- de -- ljaš vsič -- ko v~sve --
+      ta; kra -- si --   va i
+      mošt -- na si ti i raz -- pre -- de
+      -- ljaš vsič -- ko v~sve -- ta.
+      Prav --
+      da, Prav --
+      da!}
 
         \header {
           title = \titleFunc "Правда" "Pravda"

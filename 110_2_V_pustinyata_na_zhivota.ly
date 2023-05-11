@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref110_2
-  \tocItem \markup "В пустинята на живота – V pustinyata na zhivota"
+  \tocItem \markup "В пустинята на живота – V pustinjata na života"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -55,16 +55,16 @@
       дру -- жат, мъ -- че -- ник, ге --
       рой, све -- ти -- я го зо -- ват.}
       \addlyrics {
-        Vav pu -- sti -- nya -- ta na
-        zhi -- vo -- ta, gde na -- si -- li --
-        e -- to se shi -- ri, tam stra --
-        da -- ni -- e i ma -- ka tsa --
-        ri. Vsya -- koy, s~koy -- to -- te
-        dru -- zhat, ma -- che -- nik, ge --
-        roy, sve -- ti -- ya go zo -- vat.}
+      Văv pu -- sti -- nja -- ta na
+      ži -- vo -- ta, gde na -- si -- li --
+      e -- to se ši -- ri, tam stra --
+      da -- ni -- e i mă -- ka ca --
+      ri. Vsja -- koj, s~koj -- to -- te
+      dru -- žat, mă -- če -- nik, ge --
+      roj, sve -- ti -- ja go zo -- vat.}
 
         \header {
-          title = \titleFunc "В пустинята на живота" "V pustinyata na zhivota"
+          title = \titleFunc "В пустинята на живота" "V pustinjata na života"
         }
 
         \midi{}

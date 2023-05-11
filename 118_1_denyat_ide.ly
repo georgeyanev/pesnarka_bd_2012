@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref118_1
-  \tocItem \markup "Денят иде – Denyat ide "
+  \tocItem \markup "Денят иде – Denjat ide "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -28,14 +28,14 @@
       Слън -- це ще из -- гре -- е, да по -- стъ -- пим до -- бре.
     }
 
-    \addlyrics {
-      Mo -- ga az da ka -- zha, che de -- nyat i -- de vech.
+     \addlyrics {
+      Mo -- ga az da ka -- ža, če de -- njat i -- de več.
 
-      Slan -- tse shte iz -- gre -- e, da po -- sta -- pim do -- bre.
+      Slăn -- ce šte iz -- gre -- e, da po -- stă -- pim do -- bre.
     }
 
     \header {
-      title = \titleFunc "Денят иде" " Denyat ide"
+      title = \titleFunc "Денят иде" " Denjat ide"
     }
 
     \midi{}
@@ -53,9 +53,9 @@
       \line {   "   " Слънчевите лъчи кротко шепнат това. (2)}
       \line { " "}
 
-      \line {  2. Moga az da kazha, che obicha me Bog.}
+     \line {  2. Moga az da kaža, če običa me Bog.}
 
-      \line {   "   " Slanchevite lachi krotko shepnat tova. (2)}
+      \line {   "   " Slănčevite lăči krotko šepnat tova. (2)}
       \line { " "}
 
       \line {   3.  Диша свежест зората, пробужда се денят.}
@@ -64,15 +64,14 @@
       \line {   "   "}
 
 
-      \line {  3. Disha svezhest zorata, probuzhda se denyat.}
+       \line {   3.  Diša svežest zorata, probužda se denjat.}
 
-      \line {   "   " Radost i nadezhda palnyat sartsata ni. (2) }
-      \line {" "}
-      \line {" "}
-      \line {" "}
+      \line {   "   " Radost i nadežda pălnjat sărcata ni. (2) }
 
     }
   } % markup
+
+  \markup \empty-two
 
   %\pageBreak
 

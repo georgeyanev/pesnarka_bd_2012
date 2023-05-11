@@ -47,7 +47,7 @@
     \line { 4. Strahlen aus Liebe flößen }
     \line {   "   " in unsere Brust lebendige Wärme ein, }
     \line {   "   " mit süßem Glauben erheben sie uns }
-    \line {   "   " in Stärke und Licht.}
+    \line {   "   " in Stärke und Licht [videlina].}
 
     \line { " " }
     \line { "   " \italic { Refrain } ... }

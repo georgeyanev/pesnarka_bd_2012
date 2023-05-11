@@ -27,9 +27,12 @@
       -- ум, А -- ум, Ом, Ом, Ау -- мен.
     }
 
+   
     \addlyrics {
-      A -- um, A --
-      um, A -- um, Om, Om, Au -- men.}
+      A -- um, A
+      -- um, A -- um, Om, Om, Au -- men.
+    }
+
       \header {
         title = \titleFunc "Аум" "Aum"
       }
@@ -75,11 +78,13 @@
         ме -- то. Зун ме -- то.
       }
 
-      \addlyrics {
-        Ve -- nir Be --
-        nir, Bi -- har Be -- num Il bi -- yut, Il be -- zut. Om bi --
-        yut. Il be -- zut Om bi -- yut. Zun me -- zun, zun me --
-        zun, Bi -- nom tu me -- to. Zun me -- to.}
+        \addlyrics {
+        Ve -- nir Be
+        -- nir, Bi -- har Be -- num Il -- bi -- jut, Il
+        be -- zut Om bi -- jut. Il be -- zut Om bi --
+        jut. Zun me -- zun, zun me -- zun, Bi -- nom tu
+        me -- to. Zun me -- to.
+      }
 
         \header {
           title = \titleFunc "Венир Бенир" "Venir benir"

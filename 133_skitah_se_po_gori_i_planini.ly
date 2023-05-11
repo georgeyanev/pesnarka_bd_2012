@@ -33,7 +33,7 @@
       | % 6
 
       \times 2/3  {
-       \stemUp bes8 (   a8 )  g8
+        \stemUp bes8 (   a8 )  g8
       } \stemNeutral
       g2 \break | % 7
       d'4 (
@@ -86,60 +86,64 @@
         ) ]  bes16  a16 | % 18
         bes2
         \times 2/3  {
-          a8   bes8  c8 } \time 2/4 \break | % 19
-          d4.  c8 |
-          \times 2/3  {
-            bes8   a8  g8
-          }
-          \times 2/3  {
-            fis8   g8    a8
-          } |
-          \tempo "rit." g2
-
+          a8   bes8  c8
+        } \time 2/4 \break | % 19
+        d4.  c8 |
+        \times 2/3  {
+          bes8   a8  g8
         }
+        \times 2/3  {
+          fis8   g8    a8
+        } |
+        \tempo "rit." g2
+
       }
+    }
 
-      \addlyrics {
-        Ски -- тах  се  по го -- ри
-        и пла -- ни -- ни. Е -- дин Не --
-        зна -- ен ме "при-" -- дру -- жа  --
-        ва -- ше. Кач -- вах -- ме и сли
-        -- зах -- ме "пла-" -- "нин-" -- ски свет --
-        ли вър -- хо -- ве и, хо -- дей --
-        ки, Той ви -- на -- ги с‿мен бе.
-        Там го -- ре ви -- дях  аз Не --
-        го -- ва -- та Свет -- ли -- на, що
-        ме о -- за -- ри, и ка -- за Той:
-        „Пом -- ни, че тряб -- ва го --
-        ре да си, слез -- ни и знай– на
-        вси -- чки по -- ле -- зен бъ --
-        ди.“ }
-        \addlyrics {  Ski -- tah  se  po go -- ri
-        i pla -- ni -- ni. E -- din Ne --
-        zna -- en me pri -- dru -- zha  --
-        va -- she. Kach -- vah -- me i sli
-        -- zah -- me pla -- nin -- ski svet --
-        li var -- ho -- ve i, ho -- dey --
-        ki, Toy vi -- na -- gi s‿men be.
-        Tam go -- re vi -- dyah  az Ne --
-        go -- va -- ta Svet -- li -- na, shto
-        me o -- za -- ri, i ka -- za Toy:
-        „Pom -- ni, che tryab -- va go --
-        re da si, slez -- ni i znay– na
-        vsi -- chki po -- le -- zen ba --
-        di.“}
+    \addlyrics {
+      Ски -- тах  се  по го -- ри
+      и пла -- ни -- ни. Е -- дин Не --
+      зна -- ен ме "при-" -- дру -- жа  --
+      ва -- ше. Кач -- вах -- ме и сли
+      -- зах -- ме "пла-" -- "нин-" -- ски свет --
+      ли вър -- хо -- ве и, хо -- дей --
+      ки, Той ви -- на -- ги с‿мен бе.
+      Там го -- ре ви -- дях  аз Не --
+      го -- ва -- та Свет -- ли -- на, що
+      ме о -- за -- ри, и ка -- за Той:
+      „Пом -- ни, че тряб -- ва го --
+      ре да си, слез -- ни и знай -- на
+      вси -- чки по -- ле -- зен бъ --
+      ди.“
+    }
+    \addlyrics {
+      Ski -- tah  se  po go -- ri
+      i pla -- ni -- ni. E -- din Ne --
+      zna -- en me pri -- dru -- ža  --
+      va -- še. Kač -- vah -- me i sli
+      -- zah -- me pla -- nin -- ski svet --
+      li văr -- ho -- ve i, ho -- dej --
+      ki, Toj vi -- na -- gi s‿men be.
+      Tam go -- re vi -- djah  az Ne --
+      go -- va -- ta Svet -- li -- na, što
+      me o -- za -- ri, i ka -- za Toj:
+      „Pom -- ni, če trjab -- va go --
+      re da si, slez -- ni i znaj -- na
+      vsi -- čki po -- le -- zen bă --
+      di.“
+    }
 
-        \header {
-          title = \titleFunc "Скитах се по гори и планини" "Skitah se po gori i planini"
-        }
+    \header {
+      title = \titleFunc "Скитах се по гори и планини" "Skitah se po gori i planini"
+    }
 
-        \midi{}
+    \midi{}
 
-      } % score
+  } % score
 
 
 
-      % include foreign translation(s) of the song
-      \include "lyrics_de/133_skitah_se_po_gori_i_planini_lyrics_de.ly"
+  % include foreign translation(s) of the song
+  \include "lyrics_de/133_skitah_se_po_gori_i_planini_lyrics_de.ly"
 
-    } % bookpart
+} % bookpart

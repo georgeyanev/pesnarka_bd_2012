@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref096
-  \tocItem \markup "Весел ти бъди – Vesel ti badi "
+  \tocItem \markup "Весел ти бъди – Vesel ti bădi "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -57,27 +57,27 @@
       във Жи -- во -- та Ра -- дост но -- си,
       във Жи -- во -- та Ра -- дост но -- си
       във Жи -- во -- та ти.
-      Ве -- сел ти бъ -- ди, бо -- дър ти ста -- "-ни!"
+      Ве -- сел ти "бъ-" -- ди, бо -- дър ти ста -- "-ни!"
     }
 
     \addlyrics {
-      Ve -- sel ti ba -- di, bo -- dar ti sta -- ni;
-      gri  -- zhi -- te na zhi -- vo -- ta
+      Ve -- sel ti bă -- di, bo -- dăr ti sta -- ni;
+      gri  -- ži -- te na ži -- vo -- ta
       sa to -- var bez -- po -- le -- zen.
-      Teb Zhi -- vo -- tat mi -- lo te zo -- ve:
-      Ve  -- sel ti ba -- di, bo -- dar ti sta -- ni
-      i vsich -- ko zhi -- vo ti s~Lyu -- bov pov  -- dig -- ni.
-      Ve -- sel ti ba -- di, bo -- dar ti sta -- ni!
-      Ve -- sel ba -- di, bo -- dar sta -- ni,
-      vav Zhi -- vo -- ta Ra -- dost no -- si,
-      vav Zhi -- vo -- ta Ra -- dost no -- si
-      vav Zhi -- vo -- ta ti.
-      Ve -- sel ti ba -- di, bo -- dar ti sta -- ni!
+      Teb Ži -- vo -- tăt mi -- lo te zo -- ve:
+      Ve  -- sel ti bă -- di, bo -- dăr ti sta -- ni
+      i vsič -- ko ži -- vo ti s~Lju -- bov pov  -- dig -- ni.
+      Ve -- sel ti bă -- di, bo -- dăr ti sta -- ni!
+      Ve -- sel bă -- di, bo -- dăr sta -- ni,
+      văv Ži -- vo -- ta Ra -- dost no -- si,
+      văv Ži -- vo -- ta Ra -- dost no -- si
+      văv Ži -- vo -- ta ti.
+      Ve -- sel ti bă -- di, bo -- dăr ti sta -- ni!
     }
 
 
     \header {
-      title = \titleFunc "Весел ти бъди" "Vesel ti badi"
+      title = \titleFunc "Весел ти бъди" "Vesel ti bădi"
     }
 
     \midi{}

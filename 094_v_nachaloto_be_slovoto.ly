@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref094
-  \tocItem \markup "В начало бе Словото – V nachalo be Slovoto"
+  \tocItem \markup "В начало бе Словото – V načalo be Slovoto"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -59,25 +59,23 @@
     }
 
     \addlyrics {
-      V~na -- cha --
+      V~na -- ča --
       lo be Slo -- vo -- to i Slo -- vo -- to be u
       Bo -- ga, i Slo -- vo -- to be Bog. To v~na --
-      cha -- lo be u Bo -- ga. Vsich -- ko chrez Ne --
+      ča -- lo be u Bo -- ga. Vsič -- ko črez Ne --
       go sta -- na i ko -- e -- to e sta -- na --
-      lo, ni -- shto bez Ne -- go ne sta -- na. V~ne --
-      go be zhi -- vo -- tat i zhi -- vo -- tat be vi
-      -- de -- li -- na na che -- lo -- ve -- tsi -- te.
-      te. I vi -- de -- li -- na -- ta sve -- ti v~tam
-      -- ni -- na -- ta, i tam -- ni -- na -- ta ya ne
+      lo, ni -- što bez Ne -- go ne sta -- na. V~ne --
+      go be ži -- vo -- tăt i ži -- vo -- tăt be vi
+      -- de -- li -- na na če -- lo -- ve -- ci -- te.
+      te. I vi -- de -- li -- na -- ta sve -- ti v~tăm
+      -- ni -- na -- ta, i tăm -- ni -- na -- ta ja ne
       ob -- ze. I ze.
-
-
 
     }
 
 
     \header {
-      title = \titleFunc "В начало бе Словото" "V nachalo be Slovoto"
+      title = \titleFunc "В начало бе Словото" "V načalo be Slovoto"
     }
 
     \midi{}

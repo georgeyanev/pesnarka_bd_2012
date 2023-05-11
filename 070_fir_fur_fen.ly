@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref070
-  \tocItem \markup "Фир-фюр-фен – Благославай – Fir-fyer-fen – Blagoslavyay"
+  \tocItem \markup "Фир-фюр-фен – Благославай – Fir-fjur-fen – Blagoslavaj"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -47,18 +47,18 @@
       сла -- вяй, бла -- го -- сла -- вяй, бла -- го --
       сла -- вяй и не за -- бра -- вяй.}
       \addlyrics {
-        Fir -- fyur --
-        fen Tao Bi Au -- men, Tao Bi Au -- men, Tao Bi
-        Au -- men. Fir -- fyur -- fen Tao Bi Au -- men.
-        Fir -- fyur -- fen Tao Bi Au -- men, Fir -- fyur --
-        fen Tao Bi Au -- men. Bla -- go -- sla -- vyay,
-        du -- she mo -- ya, Gos -- po -- da; bla -- go --
-        sla -- vyay i ne za -- bra -- vyay. Bla -- go --
-        sla -- vyay, bla -- go -- sla -- vyay, bla -- go --
-        sla -- vyay i ne za -- bra -- vyay.}
+      Fir -- fjur --
+      fen Tao Bi Au -- men, Tao Bi Au -- men, Tao Bi
+      Au -- men. Fir -- fjur -- fen Tao Bi Au -- men.
+      Fir -- fjur -- fen Tao Bi Au -- men, Fir -- fjur --
+      fen Tao Bi Au -- men. Bla -- go -- sla -- vjaj,
+      du -- še "mo-" -- ja, Gos -- po -- da; bla -- go --
+      sla -- vjaj i ne za -- bra -- vjaj. Bla -- go --
+      sla -- vjaj, bla -- go -- sla -- vjaj, bla -- go --
+      sla -- vjaj i ne za -- bra -- vjaj.}
 
         \header {
-          title = \titleFunc "Фир-фюр-фен – Благославай" "Fir-fyer-fen – Blagoslavyay"
+          title = \titleFunc "Фир-фюр-фен – Благославай" "Fir-fjur-fen – Blagoslavaj"
         }
 
         \midi{}

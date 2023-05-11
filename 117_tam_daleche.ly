@@ -4,7 +4,7 @@
 
 \bookpart {
   \label #'ref117
-  \tocItem \markup "Там далече – Tam daleche "
+  \tocItem \markup "Там далече –  Tam daleče "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -50,20 +50,23 @@
       зо  --  бил  --  но   плод   си   ти   на  --  бе  --  ри   и   на
       "всич-"  --  ки   с~Ра  --  дост   го   за  --  не  --  си.
     }
+  
     \addlyrics {
-      Tam da -- le --
-      che zna -- ya chu -- den kray -- Slan --  tse,  tsve -- tya i plo -- do
-      --  ve,  bli -- ka iz --  vor,  ray -- ska gra -- di -- na  e.  Ti
-      da mi ka -- zhesh  tuy,  ko -- e -- to znaysh -- za ro -- den
-      kray,  ray -- ska ze --  mya,  gde ros -- na vish -- na tsaf -- ti
-      i  zrey.  Za toz kra -- siv kray pat po -- ka --  zhi.  Ka -- say sa
-      -- mo plod "u-" --  zryal,  no bez da chu -- pish sve -- zhi  klon.  I
-      -- zo -- bil -- no plod si ti na -- be -- ri i na vsich -- ki  s~Ra
-      -- dost go za -- ne --  si.
+      Tam   da  --  le
+      --  če   zna  --  ja   ču  --  den   kraj -- Slăn --  ce,
+      cve  --  tja   i   plo  --  do  --  ve,   bli  --  ka   iz  --
+      vor,   raj  --  ska   gra  --  di  --  na   e.   Ti   da   mi   ka
+      --  žeš   tuj,   ko  --  e  --  to   znajš  --  za   ro  --  den
+      kraj,   raj  --  ska   ze  --  mja,   gde   ros  --  na   viš  --
+      na   căf  --  ti   i   zrej.   Za   toz   kra  --  siv   kraj
+      păt   po  --  ka  --  ži.   Kă  --  saj   sa  --  mo   plod   u  --
+      zrjal,   no   bez   da   ču  --  piš   sve  --  ži   klon.   I  --
+      zo  --  bil  --  no   plod   si   ti   na  --  be  --  ri   i   na
+      vsič  --  ki   s~Ra  --  dost   go   za  --  ne  --  si.
     }
 
     \header {
-      title = \titleFunc "Там далече" "Tam daleche"
+      title = \titleFunc "Там далече" " Tam daleče"
     }
 
     \midi{}

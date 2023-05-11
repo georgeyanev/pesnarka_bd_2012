@@ -77,32 +77,32 @@
     }
 
     \addlyrics {
-      Zo -- ra se svet -- la za -- zo -- rya -- va,
-      zo -- ra se svet -- la za -- zo -- rya -- va,
-      za -- zo -- rya -- va, za -- zo -- rya -- va,
+      Zo -- ra se svet -- la za -- zo -- rja -- va,
+      zo -- ra se svet -- la za -- zo -- rja -- va,
+      za -- zo -- rja -- va, za -- zo -- rja -- va,
 
-      Pal -- na 	Pa -- dost tya v~Zhi -- vo -- ta vna -- sya.
+      Păl -- na 	Pa -- dost tja v~Ži -- vo -- ta vna -- sja.
 
       Na mla -- di no -- si zdra -- ve,
 
-      na ra -- bot -- ni dar Zhi -- vot.
+      na ra -- bot -- ni dar Ži -- vot.
 
-      Ma -- dri -- te da do -- bru -- vat,
+      Mă -- dri -- te da do -- bru -- vat,
 
       do -- bri -- te da bla -- gu -- vat,
 
 
       da do -- bru -- vat, da bla -- gu -- vat;
 
-      mad -- ri da do -- bru -- vat,
+      măd -- ri da do -- bru -- vat,
 
       do -- bri da bla -- gu -- vat.
 
-      Zo -- ra za tyah se svet -- la za -- zo -- rya -- va,
+      Zo -- ra za tjah se svet -- la za -- zo -- rja -- va,
 
-      zo -- ra za tyah se svet -- la za -- zo -- rya -- va,
+      zo -- ra za tjah se svet -- la za -- zo -- rja -- va,
 
-      za -- zo -- rya -- va, za -- zo -- rya -- va.
+      za -- zo -- rja -- va, za -- zo -- rja -- va.
     }
 
 

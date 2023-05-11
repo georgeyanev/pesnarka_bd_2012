@@ -55,7 +55,7 @@
       Си -- ла,
       здра -- ве е бо -- гат -- ство, Си -- ла, здра --
       ве е бо -- гат -- ство, Си -- ла, здра -- ве е
-      бо -- гат -- ство, е бо -- гат -- ство, е бо --
+      бо -- гат -- ство, е "бо-" -- гат -- ство, е бо --
       гат -- ство, Си -- ла, здра -- ве е бо -- гат --
       ство. гат -- ство за жи -- во -- та на ду -- ша
       -- та, за жи -- во -- та на ду -- ша -- та.
@@ -67,8 +67,8 @@
       ve e bo -- gat -- stvo, Si -- la, zdra -- ve e
       bo -- gat -- stvo, e bo -- gat -- stvo, e bo --
       gat -- stvo, Si -- la, zdra -- ve e bo -- gat --
-      stvo. gat -- stvo za zhi -- vo -- ta na du -- sha
-      -- ta, za zhi -- vo -- ta na du -- sha -- ta.
+      stvo. gat -- stvo za ži -- vo -- ta na du -- ša
+      -- ta, za ži -- vo -- ta na du -- ša -- ta.
     }
 
     \header {

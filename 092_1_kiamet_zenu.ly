@@ -36,9 +36,9 @@
       Ки -- а мет Зе --  -- ну. Ма -- хар Бе  --  ну, Ма -- хар Бе  --  ну.
     }
 
-    \addlyrics {
-      Ki -- a met Ze --  -- nu. Ma -- har Be  --  nu. Hay  --  ri me  -- shi  --  na se  --
-      vat se  -- mu  -- si be  -- ni. Ha -- be -- rim ya -- ve su  -- be  -- rim sa  -- ve,
+   \addlyrics {
+      Ki -- a met Ze --  -- nu. Ma -- har Be  --  nu. Haj  --  ri me  -- ši  --  na se  --
+      vat se  -- mu  -- si be  -- ni. Ha -- be -- rim ja -- ve su  -- be  -- rim sa  -- ve,
       Ki -- a met Ze --  -- nu. Ma -- har Be  --  nu, Ma -- har Be  --  nu.
     }
 

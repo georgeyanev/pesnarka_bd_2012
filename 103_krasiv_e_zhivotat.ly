@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref103
-  \tocItem \markup "Красив е животът – Krasiv e zhivotat"
+  \tocItem \markup "Красив е животът – Krasiv e životătt"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -56,7 +56,7 @@
     }
 
     \addlyrics {
-      Кра -- сив е жи -- во -- тът на на -- ша -- та ду -- ша,
+      Кра -- сив е жи -- во -- тът на на -- "ша-" -- та ду -- ша,
 
       що из -- пъл -- ня ця -- ла -- та Зе -- мя,
 
@@ -73,26 +73,26 @@
       що из -- пъл -- ня ця -- ла -- та Зе -- мя.
     }
     \addlyrics {
-      Kra -- siv e zhi -- vo -- tat na na -- sha -- ta du -- sha,
+      Kra -- siv e ži -- vo -- tăt na na -- ša -- ta du -- ša,
 
-      shto iz -- pal -- nya tsya -- la -- ta ze -- mya
+      što iz -- păl -- nja cja -- la -- ta Ze -- mja,
 
-      shto iz -- pal -- nya tsya -- la -- ta ze -- mya. Kra -- mya.
+      što iz -- păl -- nja cja -- la -- ta Ze -- mja. Kra -- mja.
 
-      Kra -- siv e zhi -- vo -- tat na na -- sha -- ta du -- sha,
+      Kra -- siv e Ži -- vo -- tăt na na -- ša -- ta du -- ša,
 
-      shto iz -- pal -- nya tsya -- la -- ta ze -- mya. Kra -- mya.
+      što iz -- păl -- nja cja -- la -- ta Ze -- mja. Kra -- mja.
 
-      Kra -- siv e zhi -- vo -- tat na na -- sha -- ta du -- sha,
+      Kra -- siv e ži -- vo -- tăt na na -- ša -- ta du -- ša,
 
-      shto iz -- pal -- nya tsya -- la -- ta ze -- mya
+      što iz -- păl -- nja cja -- la -- ta Ze -- mja
 
-      shto iz -- pal -- nya tsya -- la -- ta ze -- mya.
+      što iz -- păl -- nja cja -- la -- ta Ze -- mja.
     }
 
 
     \header {
-      title = \titleFunc "Красив е животът" "Krasiv e zhivotat"
+      title = \titleFunc "Красив е животът" "Krasiv e životăt"
     }
 
     \midi{}

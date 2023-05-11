@@ -39,9 +39,10 @@
       Ве -- ха -- ди, Ве -- ха -- ди, Ве -- ха -- ди,
       Ве -- ха -- ди, Ве -- ха -- ди, Ве -- ха -- ди.
     }
-    \addlyrics {
+     \addlyrics {
       Ve -- ha -- di, Ve -- ha -- di, Ve -- ha -- di,
-      Ve -- ha -- di, Ve -- ha -- di, Ve -- ha -- di.}
+      Ve -- ha -- di, Ve -- ha -- di, Ve -- ha -- di.
+    }
       \header {
         title = \titleFunc "Вехади" "Vehadi"
       }
@@ -53,7 +54,7 @@
 
     \include "include/bookpart-paper.ily"
       \label #'ref083_2
-  \tocItem \markup "Вечер сутрин – Vecher, sutrin"
+  \tocItem \markup "Вечер сутрин – Večer sutrin"
     \score {
       \include "include/score-layout.ily"
 
@@ -82,13 +83,13 @@
         де, дой -- де, о -- ти -- де, дой -- де, о -- ти
         -- де, дой -- де, дой -- де.}
         \addlyrics {
-          Ve -- cher,
-          su -- trin o -- ti -- de, doy -- de, ve -- cher,
-          su -- trin o -- ti -- de, doy -- de. O -- ti --
-          de, doy -- de, o -- ti -- de, doy -- de, o -- ti
-          -- de, doy -- de, doy -- de.}
+        Ve -- čer,
+        su -- trin o -- ti -- de, doj -- de, ve -- čer,
+        su -- trin o -- ti -- de, doj -- de. O -- ti --
+        de, doj -- de, o -- ti -- de, doj -- de, o -- ti
+        -- de, doj -- de, doj -- de.}
           \header {
-            title = \titleFunc "Вечер сутрин" "Vecher, sutrin"
+            title = \titleFunc "Вечер сутрин" "Večer sutrin"
           }
 
           \midi{}
@@ -107,7 +108,7 @@
         \markup \empty-three
         \include "include/bookpart-paper.ily"
         \label #'ref083_3
-        \tocItem \markup "Имаше человек  – Imashe chelovek"
+        \tocItem \markup "Имаше человек  – Imaše čelovek"
         \score {
           \include "include/score-layout.ily"
 
@@ -164,7 +165,7 @@
               ли -- на -- та. Той бе -- ше ис -- тин -- на --
               та ви -- де -- ли -- на, ко -- я -- то о -- све
               -- тя -- ва все -- ки -- го че -- ло -- ве -- ка,
-              що и -- де на све -- та. В~све -- та бе и све
+              що и -- де на све -- та. "В~све-" -- та бе и све
               -- тът чрез Не -- го ста -- на и све -- тът Го
               не "по-" -- зна. В~сво -- и -- те си "дой-" -- де, но
               Сво -- и -- те Му Го не при -- е -- ха. А ко
@@ -174,31 +175,31 @@
               ме, ко -- и -- то не от кръв, ни -- то от по
               -- хот плът -- ска, ни -- то от по -- хот мъж --
               ка, но от Бо -- га се ро -- ди -- ха.}
-              \addlyrics {
-                I -- ma --
-                she che -- lo -- vek, pro -- vo -- den ot Bo --
-                ga, i -- me -- to mu I -- o -- an. Toy doy --
-                de v_svi -- de -- tel -- stvo da svi -- de -- tel
-                -- stvu -- va za -- ra -- di vi -- de -- li -- na
-                -- ta, za da po -- vyar -- vat vsich -- ki chrez ne
-                -- go. Ne be toy vi -- de -- li -- na -- ta, no
-                da svi -- de -- tel -- stvu -- va za vi -- de --
-                li -- na -- ta. Toy be -- she is -- tin -- na --
-                ta vi -- de -- li -- na, ko -- ya -- to o -- sve
-                -- tya -- va vse -- ki -- go che -- lo -- ve -- ka,
-                shto i -- de na sve -- ta. V_sve -- ta be i sve
-                -- tat chrez Ne -- go sta -- na i sve -- tat Go
-                ne po -- zna. V~svo -- i -- te si doy -- de, no
-                Svo -- i -- te Mu Go ne pri -- e -- ha. A ko
-                -- i -- to Go pri -- e -- ha, da -- de im vlast
-                da ba -- dat cha -- da Bo -- zhii, si -- rech, ko
-                -- i -- to vyar -- vat v_Ne -- go -- vo -- to i --
-                me, ko -- i -- to ne ot krav, ni -- to ot po
-                -- hot plat -- ska, ni -- to ot po -- hot mazh --
-                ka, no ot Bo -- ga se ro -- di -- ha.}
+             \addlyrics {
+              I -- ma --
+              še če -- lo -- vek, pro -- vo -- den ot Bo --
+              ga, i -- me -- to mu I -- o -- an. Toj doj --
+              de v~svi -- de -- tel -- stvo da svi -- de -- tel
+              -- stvu -- va za -- ra -- di vi -- de -- li -- na
+              -- ta, za da po -- vjar -- vat vsič -- ki črez ne
+              -- go. Ne be toj vi -- de -- li -- na -- ta, no
+              da svi -- de -- tel -- stvu -- va za vi -- de --
+              li -- na -- ta. Toj be -- še is -- tin -- na --
+              ta vi -- de -- li -- na, ko -- ja -- to o -- sve
+              -- tja -- va vse -- ki -- go če -- lo -- ve -- ka,
+              što i -- de na sve -- ta. "V~sve-" -- ta be i sve
+              -- tăt črez Ne -- go sta -- na i sve -- tăt Go
+              ne "po-" -- zna. V~svo -- i -- te si doj -- de, no
+              Svo -- i -- te Mu Go ne pri -- e -- ha. A ko
+              -- i -- to Go pri -- e -- ha, da -- de im vlast
+              da bă -- dat ča -- da Bo -- žii, si -- reč, ko
+              -- i -- to vjar -- vat v~Ne -- go -- vo -- to i --
+              me, ko -- i -- to ne ot krăv, ni -- to ot po
+              -- hot plăt -- ska, ni -- to ot po -- hot măž --
+              ka, no ot Bo -- ga se ro -- di -- ha.}
 
                 \header {
-                  title = \titleFunc "Имаше человек" "Imashe chelovek"
+                  title = \titleFunc "Имаше человек" "Imaše čelovek"
                 }
 
                 \midi{}

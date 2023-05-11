@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref138
-  \tocItem \markup "Бащина песен – Угледна мома – Bashtina pesen – ugledna moma "
+  \tocItem \markup "Бащина песен – Угледна мома –  Baština pesen – Ugledna moma "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -309,46 +309,46 @@
     }
 
     \addlyrics {
-      Ot sta -- ro vre -- me, sin -- ko, e znay -- no --
-      hu -- ba -- va mo -- ma na sve -- tal den se po --
-      zna -- va, ko -- ga Slan -- tse sut -- rin iz -- grya -- va.
-      Tya e ra -- no -- bud -- ni -- tsa, ra -- no sta -- va
-      i s~kar -- cha -- zi na iz -- vo -- ra o -- ti -- va, i vo -- da
-      si na -- li -- va. Tay, pal -- na i ve -- se -- la,
-      tya do -- ma se vra -- shta, may -- ka si mi -- lo pre -- gra -- shta.
-      Tay, pal -- na i ve -- se -- la,  tya do -- ma se vra -- shta, may -- ka si
-      mi -- lo pre -- gra -- shta. Hu -- ba -- va mo -- ma se, sin -- ko, po --
+      Ot sta -- ro vre -- me, sin -- ko, e znaj -- no --
+      hu -- ba -- va mo -- ma na sve -- tăl den se po --
+      zna -- va, ko -- ga Slăn -- ce sut -- rin iz -- grja -- va.
+      Tja e ra -- no -- bud -- ni -- ca, ra -- no sta -- va
+      i s~kăr -- ča -- zi na iz -- vo -- ra o -- ti -- va, i vo -- da
+      si na -- li -- va. Tăj, păl -- na i ve -- se -- la,
+      tja do -- ma se vră -- šta, maj -- ka si mi -- lo pre -- gră -- šta.
+      Tăj, păl -- na i ve -- se -- la,  tja do -- ma se vră -- šta, maj -- ka si
+      mi -- lo pre -- gră -- šta. Hu -- ba -- va mo -- ma se, sin -- ko, po --
       zna -- va, ko -- ga lo -- ze ko -- pa -- e i to
-      i -- zo -- bil -- no "groz-" -- de da -- va. Lo -- ze mo -- min -- ski ra -- tse
-      do -- bre po -- zna -- va, lo -- ze mo -- min -- ski ra -- tse
-      do -- bre po -- zna -- va, lo -- ze mo -- min -- ski ra -- tse
+      i -- zo -- bil -- no "groz-" -- de da -- va. Lo -- ze mo -- min -- ski ră -- ce
+      do -- bre po -- zna -- va, lo -- ze mo -- min -- ski ră -- ce
+      do -- bre po -- zna -- va, lo -- ze mo -- min -- ski ră -- ce
       do -- bre po -- zna -- va. Hu -- ba -- va mo -- ma se, sin -- ko,
-      na ni -- va po -- zna -- va, ko -- ga ra -- ko -- i di -- ga i
-      sla -- ga, i na  ze -- mya gi do -- bre po -- la -- ga,
-      i na Bo -- ga hva -- la da -- va. Tya e,
-      sin -- ko, gla -- so -- vi -- ta, lich -- na pe -- vi -- tsa;
-      ne -- ya zhi -- to do -- bre po -- zna -- va. Tya e,
-      sin -- ko, gla -- so -- vi -- ta, lich -- na pe -- vi -- tsa; ne -- ya zhi -- to
-      do -- bre po -- zna -- va, ne -- ya zhi -- to do -- bre po -- zna -- va.
+      na ni -- va po -- zna -- va, ko -- ga ră -- ko -- i di -- ga i
+      sla -- ga, i na  ze -- mja gi do -- bre po -- la -- ga,
+      i na Bo -- ga hva -- la da -- va. Tja e,
+      sin -- ko, gla -- so -- vi -- ta, lič -- na pe -- vi -- ca;
+      ne -- ja ži -- to do -- bre po -- zna -- va. Tja e,
+      sin -- ko, gla -- so -- vi -- ta, lič -- na pe -- vi -- ca; ne -- ja ži -- to
+      do -- bre po -- zna -- va, ne -- ja ži -- to do -- bre po -- zna -- va.
       "Hu-" -- ba -- va mo -- ma se, sin -- ko, do -- bre po -- zna -- va
-      ko -- ga na gum -- no zhi -- to ot -- vya -- va i vav re --
-      she -- to go pre -- sya -- va, v~zhit -- ni -- tsi go tu -- rya
-      i na bed -- ni hlyab da -- va. Ne -- ya "vsich-" -- ki,
-      mal -- ki i go -- le -- mi, do -- bre ya po -- zna -- vat,
-      ne -- ya vsich -- ki, mal -- ki i go -- le -- mi, do -- bre
-      ya po -- zna -- vat. Um -- na mo -- ma, sin -- ko, se po --
-      zna -- va, ko -- ga kni -- ga vav ra -- tse si vze -- ma
-      i skri -- to ba -- "de-" -- shte raz -- ga -- da -- va. Tya vsich -- ko vav zhi --
-      vo -- ta na myas -- to po -- sta -- vya. Hu -- ba -- va "mo-" -- ma,
-      sin -- ko, e ro -- sa, shto ze -- mya o -- ro -- sya va.
-      Tya e An -- gel, shto ot go -- re i -- de, pri ho -- ra
-      sli -- za  i v~do -- ma im Mir i Ra -- dost vna -- sya.
-      Tya e svet -- la kat zo -- ra -- ta, tya e mi -- la
-      kat vo -- da -- ta, tya e do -- bra kat hra -- na -- ta.
+      ko -- ga na gum -- no ži -- to ot -- vja -- va i văv re --
+      še -- to go pre -- sja -- va, v~žit -- ni -- ci go tu -- rja
+      i na bed -- ni hljab da -- va. Ne -- ja vsič -- ki,
+      mal -- ki i go -- le -- mi, do -- bre ja po -- zna -- vat,
+      ne -- ja vsič -- ki, mal -- ki i go -- le -- mi, do -- bre
+      ja po -- zna -- vat. Um -- na mo -- ma, sin -- ko, se po --
+      zna -- va, ko -- ga kni -- ga văv ră -- ce si vze -- ma
+      i skri -- to bă -- de -- šte raz -- ga -- da -- va. Tja vsič -- ko văv ži --
+      vo -- ta na mjas -- to po -- sta -- vja. "Hu-" -- "ba-" -- va "mo-" -- ma,
+      sin -- ko, e "ro-" -- sa, što ze -- mja o -- ro -- sja va.
+      Tja e An -- gel, što ot go -- re i -- de, pri ho -- ra
+      sli -- za  i v~do -- ma im Mir i Ra -- dost vna -- sja.
+      Tja e svet -- la kat zo -- ra -- ta, tja e mi -- la
+      kat vo -- da -- ta, tja e do -- bra kat hra -- na -- ta.
     }
 
     \header {
-      title = \titleFunc "Бащина песен – Угледна мома" "Bashtina pesen – ugledna moma"
+      title = \titleFunc "Бащина песен – Угледна мома" "Baština pesen – Ugledna moma"
     }
 
     \midi{}

@@ -57,31 +57,31 @@
       син -- ко, зна -- еш ли
       що съ -- се -- ди за теб го
       -- во -- рят? Че си ста --
-      -- до -- то в_пла --  ни -- на --
+      -- до -- то в~пла --  ни -- на --
       та о -- ста -- вял и ве --
       чер си се връ -- щал мо --
       ми по се -- ден -- ки  да
       сре -- щаш. Мо -- ми,  що
-      се -- ден -- ки па -- лят,
+      "се-" -- ден -- ки па -- лят,
       па -- лят, па -- лят,  но
       и раз -- ва -- лят.  Мо --
       ма се, син -- ко, ве -- чер
       не  из -- би -- ра.}
       \addlyrics {
-        A  bre,
-        sin -- ko, zna -- esh li
-        shto sa -- se -- di za teb go
-        -- vo -- ryat? Che si sta --
-        -- do -- to v_pla --  ni -- na --
-        ta o -- sta -- vyal i ve --
-        cher si se vra -- shtal mo --
-        mi po se -- den -- ki  da
-        sre -- shtash. Mo -- mi,  shto
-        "se-" -- den -- ki pa -- lyat,
-        pa -- lyat, pa -- lyat,  no
-        i raz -- va -- lyat.  Mo --
-        ma se, sin -- ko, ve -- cher
-        ne  iz -- bi -- ra.}
+      A  bre,
+      sin -- ko, zna -- eš li
+      što să -- se -- di za teb go
+      -- vo -- rjat? Če si sta --
+      -- do -- to v~pla --  ni -- na --
+      ta o -- sta -- vjal i ve --
+      čer si se vră -- štal mo --
+      mi po se -- den -- ki  da
+      sre -- štaš. Mo -- mi,  što
+      se -- den -- ki pa -- ljat,
+      pa -- ljat, pa -- ljat,  no
+      i raz -- va -- ljat.  Mo --
+      ma se, sin -- ko, ve -- čer
+      ne  iz -- bi -- ra.}
 
         \header {
           title = \titleFunc "А бре, синко " "A bre, sinko"

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref109
-  \tocItem \markup "Аз смея да кажа – Az smeya da kaza"
+  \tocItem \markup "Аз смея да кажа – Az smeja da kaža"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -48,7 +48,7 @@
       не --   го всич  --
       ко се то -- пи, при не -- го
       всич -- ко тъй ра -- сте, при не --
-      го всич -- ко все цъф -- ти, при
+      го всич -- ко все "цъф-" -- ти, при
       не -- го всич -- ко зре -- е. При
       не -- го всич -- ко ста -- ва, за --
       вив -- ки -- те си сви -- ва и
@@ -56,24 +56,27 @@
 
 
     }
-    \addlyrics {
-      Az sme -- ya da ka -- zha, che Slan
-      -- tse -- to e svet -- lo. Az sme
-      -- ya da ka -- zha, che Slan -- tse --
+   \addlyrics {
+
+      Az sme -- ja da ka -- ža, če Slăn
+      -- ce -- to e svet -- lo. Az sme
+      -- ja da ka -- ža, če Slăn -- ce --
       to e svet -- lo. To -- va ne
-      mo -- zhe da se ot -- ka -- zhe. Pri
-      ne --   go vsich  --
+      mo -- že da se ot -- ka -- že. Pri
+      ne --   go vsič  --
       ko se to -- pi, pri ne -- go
-      vsich -- ko tay ra -- ste, pri ne --
-      go vsich -- ko vse tsaf -- ti, pri
-      ne -- go vsich -- ko zre -- e. Pri
-      ne -- go vsich -- ko sta -- va, za --
+      vsič -- ko tăj ra -- ste, pri ne --
+      go vsič -- ko vse căf -- ti, pri
+      ne -- go vsič -- ko zre -- e. Pri
+      ne -- go vsič -- ko sta -- va, za --
       viv -- ki -- te si svi -- va i
       na ra -- bo -- ta o -- ti -- va.
+
+
     }
 
     \header {
-      title = \titleFunc "Аз смея да кажа" "Az smeya da kaza"
+      title = \titleFunc "Аз смея да кажа" "Az smeja da kaža"
     }
 
     \midi{}

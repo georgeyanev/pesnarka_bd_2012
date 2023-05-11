@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref081
-  \tocItem \markup "В зорите на Живота – V zorite na zhivot "
+  \tocItem \markup "В зорите на Живота – V zorite na Života "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -52,22 +52,22 @@
       и в~сър -- це ми Лю -- бов съ -- бу -- ди, съ --
       бу -- ди, съ -- бу -- ди, и в~сър -- це ми Лю --
       бов съ -- бу -- ди.}
-      \addlyrics {
-       V~zo -- ri --
-      te na Zhi -- vo -- ta, v~zo -- ri -- te na Zhi --
-      vo -- ta Slan -- tse iz -- grya -- va -- she, Slan --
-      tse iz -- grya -- va -- she, na Pri -- ro -- da gra
-      -- ni -- tsi o -- cher -- ta -- va -- she, na Pri --
-      ro -- da gra -- ni -- tsi o -- cher -- ta -- va --
-      she. V~du -- sha mi mo -- shten Duh pro -- bu --
-      di,  v~du -- sha mi mo -- shten Duh pro -- bu --
-      di i v~sar -- tse mi Lyu -- bov sa -- bu -- di,
-      i v~sar -- tse mi Lyu -- bov sa -- bu -- di, sa --
-      bu -- di, sa -- bu -- di, i v~sar -- tse mi Lyu --
-      bov sa -- bu -- di.}
+   \addlyrics {
+      V~zo -- ri --
+      te na Ži -- vo -- ta, v~zo -- ri -- te na Ži --
+      vo -- ta Slăn -- ce iz -- grja -- va -- še, Slăn --
+      ce iz -- grja -- va -- še, na Pri -- ro -- da gra
+      -- ni -- ci o -- čer -- ta -- va -- še, na Pri --
+      ro -- da gra -- ni -- ci o -- čer -- ta -- va --
+      še. V~du -- ša mi mo -- šten Duh pro -- bu --
+      di,  v~du -- ša mi mo -- šten Duh pro -- bu --
+      di i v~săr -- ce mi Lju -- bov să -- bu -- di,
+      i v~săr -- ce mi Lju -- bov să -- bu -- di, să --
+      bu -- di, să -- bu -- di, i v~săr -- ce mi Lju --
+      bov să -- bu -- di.}
 
         \header {
-          title = \titleFunc "В зорите на Живота" "V zorite na zhivota"
+          title = \titleFunc "В зорите на Живота" "V zorite na Života"
         }
 
         \midi{}

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref079
-  \tocItem \markup "Духът Божий – Duhat Bozhiy"
+  \tocItem \markup "Духът Божий – Duhăt Božij"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -56,19 +56,19 @@
     }
 
     \addlyrics {
-      Du -- hat Bo -- zhi, Du -- hat Vech -- ni,
+      Du -- hăt Bo -- ži, Du -- hăt več -- ni,
 
-      Du -- hat Svya -- ti, Du -- hat Bla -- gi,
+      Du -- hăt Svja -- ti, Du -- hăt bla -- gi,
 
-      koy pal -- ni sar -- tsa ni sas Lyu -- bov,
+      Koj păl -- ni săr -- ca ni săs Lju -- bov,
 
-      koy pal -- ni sar -- tsa ni sas Lyu -- bov.
+      Koj păl -- ni săr -- ca ni săs Lju -- bov.
 
-      "1. Koy" pal -- ni, koy pal -- ni, koy pal -- ni,
+      "1. Koj" păl -- ni, Koj păl -- ni, Koj păl -- ni,
 
-      koy pal -- ni sar -- tsa ni sas Lyu -- bov.
+      Koj păl -- ni săr -- ca ni săs Lju -- bov.
 
-      Koy pal -- ni sar -- tsa ni sas Lyu -- bov.
+      Koj păl -- ni săr -- ca ni săs Lju -- bov.
     }
 
     \addlyrics {
@@ -86,7 +86,7 @@
 
       " " " " " " " " " " " " " " " " " "
     }
-
+    
     \addlyrics {
       " " " " " " " " " " " " " " " "
 
@@ -96,7 +96,7 @@
 
       " " " " " " " " " " " " " " " " " "
 
-      "2. Sas" Lyu -- bov, sas Lyu -- bov, sas Lyu -- bov,
+      "2. Săs" Lju -- bov, săs Lju -- bov, săs Lju -- bov,
 
       " " " " " " " " " " " " " " " " " "
 
@@ -104,7 +104,7 @@
     }
 
     \header {
-      title = \titleFunc "Духът Божий" "Duhat Bozhiy"
+      title = \titleFunc "Духът Божий" "Duhăt Božij"
     }
 
     \midi{}

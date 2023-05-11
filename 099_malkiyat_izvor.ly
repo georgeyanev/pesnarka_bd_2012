@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref099
-  \tocItem \markup "Малкият извор – Malkiyat izvor"
+  \tocItem \markup "Малкият извор – Malkijat izvor"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -40,7 +40,7 @@
 
     \addlyrics {
       Све -- тъл лъч от го -- ре сли  --  за,
-      мал -- ки -- те цве -- тя да о -- за -- ри;
+      мал -- "ки-" -- те цве -- тя да о -- за -- ри;
       бли -- зо из -- вор -- че из -- ви -- ра,
       ле -- ко бли -- ка, шуш  -- не, шу -- мо -- ли
       и цве -- тя -- та веч -- но ве -- се -- ли.
@@ -53,17 +53,17 @@
     }
 
     \addlyrics {
-      Sve -- tal lach ot go -- re sli  --  za,
-      mal -- ki -- te tsve -- tya da o -- za -- ri;
-      bli -- zo iz -- vor -- che iz -- vi -- ra,
-      le -- ko bli -- ka, shush  -- ne, shu -- mo -- li
-      i tsve -- tya -- ta vech -- no ve -- se -- li.
+      Sve -- tăl lăč ot go -- re sli  --  za,
+      mal -- ki -- te cve -- tja da o -- za -- ri;
+      bli -- zo iz -- vor -- če iz -- vi -- ra,
+      le -- ko bli -- ka, šuš  -- ne, šu -- mo -- li
+      i cve -- tja -- ta več -- no ve -- se -- li.
       Ve -- se -- li, ve -- se -- li, ve -- se -- li,
-      bli -- ka, shush -- ne, ve -- se -- li,
-      bli -- ka, shush -- ne, ve -- se -- li,
-      bli -- ka, shush -- ne, ve -- se -- li,
-      ve -- se -- li, le -- ko bli  -- ka, shu --  mo -- li
-      i tsve -- tya -- ta ve -- se -- li. Ve -- se -- li.
+      bli -- ka, šuš -- ne, ve -- se -- li,
+      bli -- ka, šuš -- ne, ve -- se -- li,
+      bli -- ka, šuš -- ne, ve -- se -- li,
+      ve -- se -- li, le -- ko bli  -- ka, šu --  mo -- li
+      i cve -- tja -- ta ve -- se -- li. Ve -- se -- li.
     }
 
 

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref089
-  \tocItem \markup "Тъги, скърби – Tagi, skarbi "
+  \tocItem \markup "Тъги, скърби – Tăgi, skărbi "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -55,27 +55,27 @@
       Вър -- ви, вър -- ви, пра -- во вър -- ви!
     }
     \addlyrics {
-      Ta -- gi, skar -- bi vdi  -- gay, sla  -- gay
+      Tă -- gi, skăr -- bi vdi  -- gaj, sla  -- gaj
 
-      pra  --  vo var -- vi!
+      pra  --  vo văr -- vi!
 
-      Ne se spa -- vay, vsich -- ko vdi -- gay,
+      Ne se spă -- vaj, vsič -- ko vdi -- gaj,
 
-      sla -- gay, pra -- vo var -- vi!
+      sla -- gaj, pra -- vo văr -- vi!
 
-      Var -- vi, var -- vi, var -- vi, pra -- vo var -- vi!
+      Văr -- vi, văr -- vi, văr -- vi, pra -- vo văr -- vi!
 
-      Var -- vi, var -- vi, var -- vi, pra -- vo var -- vi!
+      Văr -- vi, văr -- vi, văr -- vi, pra -- vo văr -- vi!
 
-      Var -- vi, var -- vi, var -- vi, pra -- vo var -- vi!
+      Văr -- vi, văr -- vi, văr -- vi, pra -- vo văr -- vi!
 
-      Var -- vi, var -- vi, pra -- vo var -- vi!
+      Văr -- vi, văr -- vi, pra -- vo văr -- vi!
 
-      Var -- vi, var -- vi, pra -- vo var -- vi!
+      Văr -- vi, văr -- vi, pra -- vo văr -- vi!
     }
 
     \header {
-      title = \titleFunc "Тъги, скърби" "Tagi, skarbi"
+      title = \titleFunc "Тъги, скърби" "Tăgi, skărbi"
     }
 
     \midi{}
@@ -85,7 +85,7 @@
 
 
   \markup \dc-two "D.C." " con ripetizione"
-  \markup \italic \dc-one-nobold "attacca „Светъл ден/Svetal den“"
+  \markup \italic \dc-one-nobold "attacca „Светъл ден/Svetăl den“"
   %
 
 

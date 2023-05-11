@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref071_1
-  \tocItem \markup "Изгрява слънцето – Izgryava slantzeto"
+  \tocItem \markup "Изгрява слънцето – Izgrjava slănceto"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -32,27 +32,27 @@
       но -- си Ра -- дост за Жи -- во -- та тя.
     }
 
-    \addlyrics {
-      Iz -- grya --
-      va Slan -- tse -- to, pra -- shta Svet -- li -- na,
-      no -- si Ra -- dost za Zhi -- vo -- ta tya.
+     \addlyrics {
+      Iz -- grja --
+      va Slăn -- ce -- to, pra -- šta Svet -- li -- na,
+      no -- si Ra -- dost za Ži -- vo -- ta tja.
     }
     \header {
-      title = \titleFunc "Изгрява слънцето" "Izgryava slantzeto"
+      title = \titleFunc "Изгрява слънцето" "Izgrjava slănceto"
     }
 
     \midi{}
 
   } % score
   
-  \markup \italic \dc-one-nobold "attacca „Сила жива, изворна/Sila zhiva, izvorna“"
+  \markup \italic \dc-one-nobold "attacca „Сила жива, изворна/Sila živa, izvorna“"
   
   % include foreign translation(s) of the song
   \include "lyrics_de/071_1_izgryava_slunzeto_lyrics_de.ly"
     \markup \empty-one
 
       \label #'ref071_2
-  \tocItem \markup "Сила жива, изворна – Sila ziva, izvorna"
+  \tocItem \markup "Сила жива, изворна – Sila živa, izvorna"
 
    \include "include/bookpart-paper.ily"
   \score {
@@ -87,15 +87,15 @@
       чу -- ща. Зун ме -- зун, зун ме -- зун, би --
       ном ту ме -- то. Зун ме -- ме -- то.
     }
-    \addlyrics {
+     \addlyrics {
       Si --
-      la zhi -- va, iz -- vor -- na, te -- chu -- shta, si
-      -- la zhi -- va, iz -- vor -- na, te -- chu -- shta.
-      chu -- shta. Zun me -- zun, zun me -- zun, bi --
+      la ži -- va, iz -- vor -- na, te -- ču -- šta, si
+      -- la ži -- va, iz -- vor -- na, te -- ču -- šta.
+      ču -- šta. Zun me -- zun, zun me -- zun, bi --
       nom tu me -- to. Zun me -- me -- to.
     }
     \header {
-      title = \titleFunc "Сила жива, изворна" "Sila ziva, izvorna"
+      title = \titleFunc "Сила жива, изворна" "Sila živa, izvorna"
     }
 
     \midi{}

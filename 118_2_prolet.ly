@@ -32,11 +32,13 @@
       во  -- та тя.
     }
     \addlyrics {
-      Slu  --  shay  --
-      te   gla  --  sa   na   pe  --  sen  --  ta,   shto   raz  --  na  --
-      sya   ve  --  che   pro  --  let  --  ta.   Dar   ve  --  lik   e
-      za   Zhi  --  vo  --  ta   tya,   dar   ve  --  lik   e   za   Zhi  --
-      vo  -- ta tya.}
+      Slu  --  šaj  --
+      te   gla  --  sa   na   pe  --  sen  --  ta,   što   raz  --  na  --
+      sja   ve  --  če   pro  --  let  --  ta.   Dar   ve  --  lik   e
+      za   Ži  --  vo  --  ta   tja,   dar   ve  --  lik   e   za   Ži  --
+      vo  -- ta tja.
+    }
+
 
       \header {
         title = \titleFunc "Пролет" "Prolet"

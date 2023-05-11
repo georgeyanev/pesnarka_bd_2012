@@ -5,7 +5,7 @@
 
 \bookpart {
    \label #'ref104
-  \tocItem \markup "Химн на великата Душа – Himn na velikata Dusha"
+  \tocItem \markup "Химн на великата Душа – Himn na velikata Dušaa"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -106,7 +106,7 @@
 
       ве -- ли -- ки са Тво -- и -- те де -- ла,
 
-      ве -- ли -- ко е И -- ме -- то Ти над вси -- чко!
+      ве -- ли -- ко е И -- ме -- то Ти над всич -- ко!
 
       Ти ца -- риш във Си -- ла и Жи -- вот,
 
@@ -116,37 +116,38 @@
 
     }
     \addlyrics {
-      Gre -- e Slan -- tse -- to, svet -- lo e
+      Gre -- e Slăn -- ce -- to, svet -- lo e
 
-      na -- vsya -- ka -- de,  ob -- vi -- ta e Ze -- mya -- ta sas to -- pla dre -- ha.
+      na -- vsja -- kă -- de,  ob -- vi -- ta e Ze -- mja -- ta săs to -- pla dre -- ha.
 
-      Sa -- buzh -- da vsich  --  ko zhi -- vo,
+      Să -- buž -- da vsič  --  ko ži -- vo,
 
-      te -- che vo -- da -- ta, ras -- te tre -- va -- ta,
+      te -- če vo -- da -- ta, ras -- te tre -- va -- ta,
 
-      sve -- zhest la -- ha na -- vsa -- de.
+      sve -- žest lă -- ha na -- vsă -- de.
 
-      Vsi -- chko se dvi -- zhi, pal -- zi i la -- zi,
+      Vsi -- čko se dvi -- ži, păl -- zi i la -- zi,
 
-      hvar -- kat pti -- tsi -- te, bya -- gat sar -- ni -- te,
+      hvăr -- kat pti -- ci -- te, bja -- gat săr -- ni -- te,
 
-      ve -- e vya -- ta -- rat, a cho -- vek -- at sto -- i
+      ve -- e vja -- tă -- răt, a čo -- vek -- ăt sto -- i
 
-      i mi -- sli shto da pra -- vi.
+      i mi -- sli što da pra -- vi.
 
-      Chu -- va se ra -- dost -- na -- ta pe -- sen:
+      Ču -- va se ra -- dost -- na -- ta pe -- sen:
 
       „Ve -- lik si Ti, Go -- spo -- di,
 
       ve -- li -- ki sa Tvo -- i -- te de -- la,
 
-      ve -- li -- ko e I -- me -- to Ti nad vsi -- chko!
+      ve -- li -- ko e I -- me -- to Ti nad vsič -- ko!
 
-      Ti tsa -- rish vav Si -- la i Zhi -- vot,
+      Ti ca -- riš văv Si -- la i Ži -- vot,
 
-      vav Zna -- ni -- e, Mad -- rost,
+      văv Zna -- ni -- e, Măd -- rost,
 
-      Is -- ti -- na, Lyu -- bov.“ "„Ve – "
+      Is -- ti -- na, Lju -- bov.“ "„Ve – "
+
     }
 
 

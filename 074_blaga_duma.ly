@@ -49,12 +49,12 @@
       Бла -- га ду
       -- ма на у -- ста -- та, туй е клю -- чът на
       сър -- ца -- та, на "сър-" -- ца -- та, на "сър-" --
-      ца -- та, туй е клю -- чът на сър -- ца -- та.
+      ца -- та, туй е "клю-" -- чът на сър -- ца -- та.
       Ми -- ли пог -- лед на о -- чи -- те, туй е --
       зик е на ду -- ши -- те, на "ду-" -- ши -- те, на
       "ду-" -- ши -- те, туй е -- зик е на ду -- ши --
-      те. Неж -- но чув -- ство про -- я -- ве -- но,
-      вся -- ко зло е раз -- то -- пе -- но, раз -- то
+      те. Неж -- но "чув-" -- ство про -- я -- ве -- но,
+      вся -- ко зло е раз -- то -- пе -- но, раз -- "то-"
       -- пе -- но, раз -- то -- пе -- но, вся -- ко зло
       е раз -- то -- пе -- но. Сил -- на во -- ля у --
       вен -- ча -- ва вся -- ко де -- ло и про -- я --
@@ -68,23 +68,27 @@
       -- да, тоз "Жи-" -- вот, що тук се раж -- да.
     }
     \addlyrics {
-      Bla -- ga du -- ma
-      na u -- sta -- ta, tuy e "klyu-" -- chat na sar -- tsa -- ta, na
-      sar -- tsa -- ta, na "sar-" -- tsa -- ta, tuy e "klyu-" -- chat na sar
-      -- tsa -- ta. Mi -- li pog -- led na o -- chi -- te, tuy e --
-      zik e na du -- shi -- te, na du -- shi -- te, na du -- shi --
-      te, tuy e -- zik e na du -- shi -- te. Nezh -- no "chuv-" -- stvo
-      pro -- ya -- ve -- no vsya -- ko zlo e raz -- to -- pe -- no, raz
-      -- to -- pe -- no, raz -- to -- pe -- no, vsya -- ko zlo e raz
-      -- to -- pe -- no. Sil -- na vo -- lya u -- ven -- cha -- va vsya
-      -- ko de -- lo i pro -- ya -- va, vsya -- ko de -- lo, vsya --
-      ko de -- lo, vsya -- ko de -- lo i pro -- ya -- va. Lyu -- bov
-      -- ta sas tyah sa -- grazh -- da toz Zhi -- vot, shto tuk se razh
-      -- da, razh -- da, razh -- da, razh -- da, toz Zhi -- vot,
-      shto tuk se razh -- da, toz Zhi -- vot, shto tuk se razh --
-      da, toz Zhi -- vot, shto tuk se razh -- da, toz Zhi -- vot,
-      shto tuk se razh -- da, toz Zhi -- vot, shto tuk se razh --
-      da.}
+      Bla -- ga du
+      -- ma na u -- sta -- ta, tuj e klju -- čăt na
+      săr -- ca -- ta, na săr -- ca -- ta, na săr --
+      ca -- ta, tuj e klju -- čăt na săr -- ca -- ta.
+      Mi -- li pog -- led na o -- či -- te, tuj e --
+      zik e na du -- ši -- te, na du -- ši -- te, na
+      du -- ši -- te, tuj e -- zik e na du -- ši --
+      te. Než -- no čuv -- stvo pro -- ja -- ve -- no,
+      vsja -- ko zlo e raz -- to -- pe -- no, raz -- to
+      -- pe -- no, raz -- to -- pe -- no, vsja -- ko zlo
+      e raz -- to -- pe -- no. Sil -- na vo -- lja u --
+      ven -- ča -- va vsja -- ko de -- lo i pro -- ja --
+      va, vsja -- ko de -- lo, vsja -- ko de -- lo, vsja
+      -- ko de -- lo i pro -- ja -- va. "Lju-" -- "bov-" -- ta
+      săs tjah să -- graž -- da toz Ži -- vot, što tuk
+      se raž -- da, raž -- da, raž -- da, raž -- da,
+      toz Ži -- vot, što tuk se raž -- da, toz Ži --
+      vot, što tuk se raž -- da, toz Ži -- vot, što
+      tuk se raž -- da, toz Ži -- vot, što tuk se raž
+      -- da, toz Ži -- vot, što tuk se raž -- da.
+    }
       
       \header {
         title = \titleFunc "Блага дума" "Blaga duma"

@@ -47,9 +47,9 @@
 
     }
 
-    \addlyrics {
+  \addlyrics {
       Ne -- va sen -- zu,
-      ne -- va san -- zu bi -- yu men -- si,
+      ne -- va san -- zu bi -- ju men -- si,
       ha -- ri -- en ha -- di hen -- zi.
       A -- va Ma -- har ven ha -- ber men -- si,
       A -- va Ma -- har ven ha -- ber men -- si,
