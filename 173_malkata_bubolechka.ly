@@ -6,7 +6,7 @@
 
 \bookpart {
   \label #'ref173
-  \tocItem \markup "Малката буболечица – Malkata bubolechitsa"
+  \tocItem \markup "Малката буболечица – Malkata bubolečica"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -81,7 +81,7 @@
       Ще ви -- дя туй, ду -- ша -- та
       ми що лю -- би и коп -- ней.
 
-      Тъй бу -- бо -- леч -- ка -- та "шеп-" -- ти
+      Тъй бу -- "бо-" -- леч -- ка -- та "шеп-" -- ти
       и се стре -- ми по "на-" -- на -- гор -- ни -- я път,
       и преч -- ки -- те ед -- на след "дру-" -- га
       "по-" -- беж -- да -- ва.
@@ -90,7 +90,7 @@
       и все на -- пред се тя към вър -- ха
       въз -- ви -- ся -- ва.
 
-      Тъй ве -- ко -- ве без -- брой "ле-" -- тят
+      Тъй ве -- "ко-" -- ве без -- брой "ле-" -- тят
       и вре -- ме -- то я пре -- "о-" -- "бра-" -- зя -- """"ва.
       И тъй по -- раст  -- на тя __ де -- ви -- ца ми -- ла.
       Чи -- ста "ро-" -- са, ду -- ша кра -- си -- ва,
@@ -100,36 +100,37 @@
 
     }
     \addlyrics {
-      Men me ro -- di Bog sas "Lyu-" --
-      bov i o -- za -- ri sas Zhi
+      Men me ro -- di Bog săs "Lju-" --
+      bov i o -- za -- ri săs Ži
       -- vo -- ta __ nov. Ed --
       vam, ed -- vam ras -- te __  i zre
-      -- e mi du -- sha -- ta, no e -- to
-      vech var -- vya na -- go -- re, Slan
-      -- tse -- to gde ble -- sti.
-      Shte vi -- dya tuy, du -- sha -- ta
-      mi shto lyu -- bi i kop -- ney.
+      -- e mi du -- ša -- ta, no e -- to
+      več văr -- vja na -- go -- re, Slăn
+      -- ce -- to gde ble -- sti.
+      Šte vi -- dja tuj, du -- ša -- ta
+      mi što lju -- bi i kop -- nej.
 
-      Tay bu -- "bo-" -- lech -- ka -- ta shep -- ti
-      i se stre -- mi po na -- na -- gor -- ni -- ya pat,
-      i prech -- ki -- te ed -- na sled "dru-" -- ga
-      "po-" -- bezh -- da -- va.
-      Bez -- broy "ska-" -- li, po -- lya, do -- li -- ni
+      Tăj bu -- bo -- leč -- ka -- ta šep -- ti
+      i se stre -- mi po "na-" -- na -- gor -- ni -- ja păt,
+      i preč -- ki -- te ed -- na sled "dru-" -- ga
+      "po-" -- bež -- da -- va.
+      Bez -- broj ska -- li, po -- lja, do -- li -- ni
       "sme-" -- lo pre -- mi -- na -- va __
-      i vse na -- pred se tya kam var -- ha
-      vaz -- vi -- sya -- va.
+      i vse na -- pred se tja kăm văr -- ha
+      văz -- vi -- sja -- va.
 
-      Tay ve -- ko -- ve bez -- broy "le-" -- tyat
-      i vre -- me -- to ya pre -- "o-" -- "bra-" -- zya -- """"va.
-      I tay po -- rast  -- na tya __ de -- vi -- tsa mi -- la.
-      Chi -- sta "ro-" -- sa, du -- sha kra -- si -- va,
+      Tăj ve -- ko -- ve bez -- broj le -- tjat
+      i vre -- me -- to ja pre -- "o-" -- "bra-" -- zja -- """"va.
+      I tăj po -- rast  -- na tja __ de -- vi -- ca mi -- la.
+      Či -- sta "ro-" -- sa, du -- ša kra -- si -- va,
       tvo -- re -- ni -- e na Bo -- ga, __
       raz -- li -- va Mir i svet -- la Ra -- dost
       po sve -- ta.
+
     }
 
     \header {
-      title = \titleFunc "Малката буболечица" "Malkata bubolechitsa"
+      title = \titleFunc "Малката буболечица" "Malkata bubolečica"
     }
 
     \midi{}

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref192
-  \tocItem \markup "     Втори Божествен ден – Vtori Bozhestven den"
+  \tocItem \markup "     Втори Божествен ден – Vtori Božestven den"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -69,20 +69,20 @@
       на ве -- чер, и ста -- на ут -- ро,
       вто -- ри ден.}
       \addlyrics {
-          I
-        re -- che Bog: „Da ba -- de pros --
-        tor sred vo -- di -- te.“ I na --
-        pra -- vi Bog pros -- to -- ra, i
-        raz -- de -- li Bog vo -- da -- ta
-        nad pros -- to -- ra ot vo -- da --
-        ta pod pro -- sto -- ra. I sta --
-        na ta -- ka. I na -- re -- che Bog
-        pros -- to -- ra ne -- be. I sta --
-        na ve -- cher, i sta -- na ut -- ro,
-        vto -- ri den.}
+      I
+      re -- če Bog: „Da bă -- de pros --
+      tor sred vo -- di -- te.“ I na --
+      pra -- vi Bog pros -- to -- ra, i
+      raz -- de -- li Bog vo -- da -- ta
+      nad pros -- to -- ra ot vo -- da --
+      ta pod pro -- sto -- ra. I sta --
+      na ta -- ka. I na -- re -- če Bog
+      pros -- to -- ra ne -- be. I sta --
+      na ve -- čer, i sta -- na ut -- ro,
+      vto -- ri den.}
 
         \header {
-          title = \titleFunc "Втори Божествен ден" "Vtori Bozhestven den"
+          title = \titleFunc "Втори Божествен ден" "Vtori Božestven den"
         }
 
         \midi{}

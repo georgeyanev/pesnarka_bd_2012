@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref177
-  \tocItem \markup "Изворче – Izvorche"
+  \tocItem \markup "Изворче – Izvorče"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -69,28 +69,28 @@
       \addlyrics {
         Tam go -- re vi -- so -- ko v~pla
         -- ni -- na -- ta iz -- vi -- ra iz --
-        vor -- che kra -- si -- vo, to si
-        ti -- ho pe -- e i sar -- tse si
+        vor -- če kra -- si -- vo, to si
+        ti -- ho pe -- e i săr -- ce si
         le -- e: „Ka -- to me -- ne dru --
-        go iz -- vor -- che ta -- ka kra --
-        si -- vo nya -- ma. Ot mo -- i -- te
-        ned -- ra iz -- vi -- ra chis -- ta
-        zhi -- va vo -- da. Koy ot me --
-        ne pi -- e, nov Zhi -- vot do -- bi
-        -- va, u -- che -- ni -- e ob -- gra --
-        shta i na ra -- bo -- ta se hva --
-        shta.“}
+        go iz -- vor -- če ta -- ka kra --
+        si -- vo nja -- ma. Ot mo -- i -- te
+        ned -- ra iz -- vi -- ra čis -- ta
+        ži -- va vo -- da. Koj ot me --
+        ne pi -- e, nov Ži -- vot do -- bi
+        -- va, u -- če -- ni -- e ob -- gră --
+        šta i na ra -- bo -- ta se hva --
+        šta.“}
 
 
         \header {
-          title = \titleFunc "Изворче" "Izvorche"
+          title = \titleFunc "Изворче" "Izvorče"
         }
 
         \midi{}
       } % score
 
-       \markup \dc-two "D. C.""senza ripetizione"
-     \pageBreak
+      \markup \dc-two "D. C.""senza ripetizione"
+      \pageBreak
 
       % include foreign translation(s) of the song
       \include "lyrics_de/177_izvorche_lyrics_de.ly"

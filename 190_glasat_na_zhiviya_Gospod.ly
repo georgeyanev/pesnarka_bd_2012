@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref190
-  \tocItem \markup "Гласът на Живия Господ – Glasat na Zhivija Gospod"
+  \tocItem \markup "Гласът на Живия Господ – Glasăt na Živija Gospod"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -130,30 +130,30 @@
       "кръс-" -- не -- те за но -- ви -- я
       път на "Лю-" -- "бов-" -- та.“}
       \addlyrics {
-        Sta -- ne -- te vi -- e, mart --
-        vi, sta -- ne -- te ot gro -- ba.
-        Sta -- ne -- te, o -- zhi -- vey --
-        te vi -- e, ko -- i -- to ste sta --
-        na -- li. Sta -- ne -- te, vaz --
-        kres -- ne -- te vi -- e, ko -- i
-        -- to ste o -- zhi -- ve -- li. Chuy --
-        te, "Gos-" -- pod se -- ga vi go --
-        vo -- ri: „Mo -- ya -- ta ra -- ka
-        ne se e sa -- kra -- ti -- la da
-        da -- vam. Pa -- len sam sas i --
-        zo -- bi -- li -- e i ne -- iz -- cher
-        -- pa -- em sam, ko -- e -- to dar --
-        zha za vsich -- ki o -- ne -- zi, ko
-        -- i -- to Me lyu -- byat i se bo --
-        yat ot I -- me -- to Mi. __ Bla -- go --
-        slo -- ve -- ni ba -- de -- te vi --
-        e, ko -- i -- to Me lyu -- bi
-        -- te. Sta -- ne -- te, vaz --
-        kras -- ne -- te za no -- vi -- ya
-        pat na Lyu -- bov -- ta.“}
+      Sta -- ne -- te vi -- e, mărt --
+      vi, sta -- ne -- te ot gro -- ba.
+      Sta -- ne -- te, o -- ži -- vej --
+      te vi -- e, ko -- i -- to ste sta --
+      na -- li. Sta -- ne -- te, văz --
+      kres -- ne -- te vi -- e, ko -- i
+      -- to ste o -- ži -- ve -- li. Čuj --
+      te, "Gos-" -- pod se -- ga vi go --
+      vo -- ri: „Mo -- ja -- ta ră -- ka
+      ne se e să -- kra -- ti -- la da
+      da -- vam. Pă -- len săm săs i --
+      zo -- bi -- li -- e i ne -- iz -- čer
+      -- pa -- em săm, ko -- e -- to dăr --
+      ža za vsič -- ki o -- ne -- zi, ko
+      -- i -- to Me lju -- bjat i se bo --
+      jat ot I -- me -- to Mi. __ Bla -- go --
+      slo -- ve -- ni bă -- de -- te vi --
+      e, ko -- i -- to Me lju -- bi
+      -- te. Sta -- ne -- te, văz --
+      krăs -- ne -- te za no -- vi -- ja
+      păt na "Lju-" -- "bov-" -- ta.“}
 
         \header {
-          title = \titleFunc "Гласът на Живия Господ – Новото Възкресение" " Glasat na Zhivija Gospod – Novoto Vaskresenie"
+          title = \titleFunc "Гласът на Живия Господ – Новото Възкресение" " Glasăt na Živija Gospod – Novoto Văzkresenie"
         }
 
         \midi{}

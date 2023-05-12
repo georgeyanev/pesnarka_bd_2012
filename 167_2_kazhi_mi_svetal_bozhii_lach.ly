@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref167_2
-  \tocItem \markup "Кажи ми, светли Божи лъч – Kazhi mi, svetli Bozhi lach "
+  \tocItem \markup "Кажи ми, светли Божи лъч – Kaži mi, svetli Boži lăč "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -49,17 +49,17 @@
       те "ду-" -- ши, чис -- ти -- те "ду-" --
       ши, чис -- ти -- те ду -- ши, чис --
       ти -- те ду -- ши.}
-      \addlyrics {
-        Ka -- zhi mi, svet -- li Bo --
-        zhi lach, bla -- go -- to
-        na Zhi -- vo --   ta, svet --
-        li -- ya prav pat na chis -- ti --
-        te du -- shi, chis -- ti -- te du --
-        shi, chis -- ti -- te du -- shi, chis --
-        ti -- te du -- shi.}
+       \addlyrics {
+      Ka -- ži mi, svet -- li Bo --
+      ži lăč, bla -- go -- to
+      na Ži -- vo --   ta, svet --
+      li -- ja prav păt na čis -- ti --
+      te du -- ši, čis -- ti -- te du --
+      ši, čis -- ti -- te du -- ši, čis --
+      ti -- te du -- ši.}
 
         \header {
-          title = \titleFunc "Кажи ми, светли Божи лъч" "Kazhi mi, svetli Bozhi lach"
+          title = \titleFunc "Кажи ми, светли Божи лъч" "Kaži mi, svetli Boži lăč"
         }
 
         \midi{}

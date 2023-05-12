@@ -6,7 +6,7 @@
 \bookpart {
 
    \label #'ref215
-  \tocItem \markup "Зора на Новия живот – Zora na Novia zhivot"
+  \tocItem \markup "Зора на Новия живот – Zora na Novija život"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -61,19 +61,19 @@
       ва, зо -- ра на
       но -- ви -- я
       жи -- вот.}
-      \addlyrics {
-        Zo -- ra se chud -- na za --
-        zo -- rya -- va, zo -- ra na nov
-        Zhi -- vot, ko --
-        ya -- to men v~Zhi -- vo -- ta
-        pri -- zo -- va -- va. Zo --
-        ra se chud -- na za -- zo -- rya --
-        va, zo -- ra na
-        no -- vi -- ya
-        zhi -- vot.}
+    \addlyrics {
+      Zo -- ra se čud -- na za --
+      zo -- rja -- va, zo -- ra na nov
+      Ži -- vot, ko --
+      ja -- to men v~Ži -- vo -- ta
+      pri -- zo -- va -- va. Zo --
+      ra se čud -- na za -- zo -- rja --
+      va, zo -- ra na
+      no -- vi -- ja
+      ži -- vot.}
 
     \header {
-      title = \titleFunc "Зора на Новия живот" "Zora na Novia zhivot"
+      title = \titleFunc "Зора на Новия живот" "Zora na Novija život"
     }
 
     \midi{}

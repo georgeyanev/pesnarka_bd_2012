@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref211
-  \tocItem \markup "Кажи ми светли Божи лъч II  – Kazhi mi svetli Bozhi lach II "
+  \tocItem \markup "Кажи ми светли Божи лъч II  – Kaži mi svetli Boži lăč II "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -111,27 +111,27 @@
       благ   глас и "ми-" -- лост --
       та Ти, о, Бо -- же, се из -- я
       -- вят  чрез ме -- не.}
-      \addlyrics {
-        Gos -- po -- di, Ti zhi -- ve --
-        esh v~me -- ne, Ti zhi -- ve --
-        esh v~me -- ne. Ka -- zhi mi ti,
-        svet -- li Bo -- zhi lach, ka --
-        zhi mi ti bla -- go -- to na Zhi --
-        vo -- ta, svet -- li -- ya prav
-        pat na chis -- ti -- te du
-        -- shi, iz -- mi -- ti vav vo --
-        di -- te na Lyu -- bov -- ta, na
-        chis -- ta -- ta Lyu --  bov.
-        Gos -- po -- di, Ti zhi -- ve --
-        esh v~me -- ne, Ti zhi -- ve --
-        esh v~me -- ne. Ne -- ka Tvo -- yat
-        blag   glas i mi -- lost --
-        ta Ti, o, Bo -- zhe, se iz -- ya
-        -- vyat  chrez me -- ne.}
+   \addlyrics {
+      Gos -- po -- di, Ti ži -- ve --
+      eš v~me -- ne, Ti ži -- ve --
+      eš v~me -- ne. Ka -- ži mi ti,
+      svet -- li Bo -- ži lăč, ka --
+      ži mi ti bla -- go -- to na Ži --
+      vo -- ta, svet -- li -- ja prav
+      păt na čis -- ti -- te du
+      -- ši, iz -- mi -- ti văv vo --
+      di -- te na Lju -- bov -- ta, na
+      čis -- ta -- ta Lju --  bov.
+      Gos -- po -- di, Ti ži -- ve --
+      eš v~me -- ne, Ti ži -- ve --
+      eš v~me -- ne. Ne -- ka Tvo -- jat
+      blag   glas i mi -- lost --
+      ta Ti, o, Bo -- že, se iz -- ja
+      -- vjat  črez me -- ne.}
 
 
         \header {
-          title = \titleFunc "Кажи ми светли Божи лъч II  " "Kazhi mi svetli Bozhi lach II"
+          title = \titleFunc "Кажи ми светли Божи лъч II  " "Kaži mi svetli Boži lăč II"
         }
 
         \midi{}

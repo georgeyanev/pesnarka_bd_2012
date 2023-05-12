@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref181
-  \tocItem \markup "Пролеттна песен – Proletna pesen"
+  \tocItem \markup "Пролетна песен – Proletna pesen"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -60,7 +60,7 @@
       }
     }
 
-   \addlyrics {
+    \addlyrics {
       Е
       -- то при -- сти -- га чуд -- на --
       та про -- лет,  Слън -- це из
@@ -77,39 +77,40 @@
       мир и бла -- го -- да -- ри на Бо
       -- га. Про -- лет, про -- лет е до --
       шла.}
-      \addlyrics {      E
-      -- to pri -- sti -- ga chud -- na --
-      ta pro -- let,  Slan -- tse iz
-      -- grya -- va. Vsich -- ko se
-      bu -- di, ras -- te, zhi -- ve -- e i
-      se  rad -- va, i bla -- go --
-      da -- ri na Bo -- ga. Pro -- let,
-      pro -- let e do -- shla. Pti -- chen
-      -- tse v~ne -- be -- to slad -- ko
-      chu -- ru -- li -- ka, Slan -- tse -- to
-      pri -- vet -- no tse -- liy mir ob --
-      li -- va s~Ra -- dost i Lyu -- bov.
-      Tar -- zhest -- vu -- va tse -- liy
-      mir i bla -- go -- da -- ri na Bo
-      -- ga. Pro -- let, pro -- let e do --
-      shla.}
+      \addlyrics {
+        E
+        -- to pri -- sti -- ga čud -- na --
+        ta pro -- let,  Slăn -- ce iz
+        -- grja -- va. Vsič -- ko se
+        bu -- di, ras -- te, ži -- ve -- e i
+        se  rad -- va, i "bla-" -- "go-" --
+        da -- ri na Bo -- ga. Pro -- let,
+        pro -- let e do -- šla. Pti -- čen
+        -- ce v~ne -- be -- to slad -- ko
+        ču -- ru -- li -- ka, Slăn -- ce -- to
+        pri -- vet -- no ce -- lij mir ob --
+        li -- va s~Ra -- dost i Lju -- bov.
+        Tăr -- žest -- vu -- va ce -- lij
+        mir i bla -- go -- da -- ri na Bo
+        -- ga. Pro -- let, pro -- let e do --
+        šla.}
 
-    \header {
-      title = \titleFunc "Пролеттна песен" "Proletna pesen"
-    }
+        \header {
+          title = \titleFunc "Пролетна песен" "Proletna pesen"
+        }
 
-    \midi{}
+        \midi{}
 
-  } % score
+      } % score
 
-    \markup \dc-two "D. C.""con ripetizione"
+      \markup \dc-two "D. C.""con ripetizione"
 
 
-\pageBreak
-  % include foreign translation(s) of the song
-  \include "lyrics_de/181_proletna_pesen_lyrics_de.ly"
+      \pageBreak
+      % include foreign translation(s) of the song
+      \include "lyrics_de/181_proletna_pesen_lyrics_de.ly"
 
-} % bookpart
+    } % bookpart
 
-% Più mosso
-%
+    % Più mosso
+    %

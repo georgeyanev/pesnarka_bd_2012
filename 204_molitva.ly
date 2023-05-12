@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref204
-  \tocItem \markup "Молитва (Вярвам в теб) – Molitva (Вярвам в теб) "
+  \tocItem \markup "Молитва (Вярвам в теб) – Molitva (Vjarvam v teb) "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -143,29 +143,29 @@
       мя -- та. И ни -- е да ра -- бо
       -- тим с~Те -- бе на -- ед -- но. А
       -- мин. Та -- ка да бъ -- де.}
-      \addlyrics {
-        Vyar --
-        vam vav Te -- be, Gos -- po
-        -- di, Koy -- to si mi go -- vo
-        -- ril v~mi -- na -- lo to. Vyar -- vam v~Te -- be, Gos -- po
-        -- di, Koy -- to mi go -- vo --
-        rish se -- ga. Vyar -- vam
-        v~Te -- be, Gos -- po -- di,
-        Koy -- to shte mi -- go -- vo
-        -- rish v~ba -- de -- shte -- to. Da
-        se  sla -- vi I -- me --
-        to Ti i vav Tvo -- ya -- ta
-        sla -- va "da zhi" -- ve -- em ni
-        -- e. Da se va -- dvo -- ri
-        Tsar -- stvo -- to Ti,
-        i ni -- e da u -- chast -- va -- me
-        vav Tvoy -- ta Ra -- dost.
-        Da ba -- de Vo -- lya -- ta Ti
-        kak -- to na Ne -- be -- to go --
-        re, ta -- ka i do -- lu na Ze --
-        mya -- ta. I ni -- e da ra -- bo
-        -- tim s~Te -- be na -- ed -- no. A
-        -- min. Ta -- ka da ba -- de.}
+ \addlyrics {
+      Vjar --
+      vam văv Te -- be, Gos -- po
+      -- di, Koj -- to si mi go -- vo
+      -- ril v~mi -- na -- lo to. Vjar -- vam v~Te -- be, Gos -- po
+      -- di, Koj -- to mi go -- vo --
+      riš se -- ga. Vjar -- vam
+      v~Te -- be, Gos -- po -- di,
+      Koj -- to šte mi -- go -- vo
+      -- riš v~bă -- de -- šte -- to. Da
+      se  sla -- vi I -- me --
+      to Ti i văv Tvo -- ja -- ta
+      sla -- va "da ži" -- ve -- em ni
+      -- e. Da se vă -- dvo -- ri
+      Car -- stvo -- to Ti,
+      i ni -- e da u -- čast -- va -- me
+      văv Tvoj -- ta Ra -- dost.
+      Da bă -- de Vo -- lja -- ta Ti
+      kak -- to na Ne -- be -- to go --
+      re, ta -- ka i do -- lu na Ze --
+      mja -- ta. I ni -- e da ra -- bo
+      -- tim s~Te -- be na -- ed -- no. A
+      -- min. Ta -- ka da bă -- de.}
 
         \header {
           title = \titleFunc "Молитва" "Molitva"

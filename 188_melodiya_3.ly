@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref188
-  \tocItem \markup "Мелодия – Когато се денят... – Melodia – Kogato se denyat..."
+  \tocItem \markup "Мелодия – Когато се денят... – Melodija – Kogato se denjat..."
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -40,18 +40,18 @@
       ця -- ла -- та При -- ро -- да пей.
       Към вър -- хо -- ве -- те о -- за -- ре -- ни
       по -- ли -- тат на -- ши -- те ду -- ши.}
-      \addlyrics {
-        Ko -- ga -- to se de -- nyat pro -- buzh -- da,
-        za -- pya -- vat slan -- che -- vi la -- chi.
-        Ot iz -- vo -- ri -- te na zhi -- vo -- ta
-        o -- bil -- no ra -- dost -- ta stru -- i.
-        I v~to -- ya chas, tar -- zhest -- ven chas na ut -- ro -- to,
-        tsya -- la -- ta Pri -- ro -- da pey.
-        Kam var -- ho -- ve -- te o -- za -- re -- ni
-        po -- li -- tat na -- shi -- te du -- shi.}
+    \addlyrics {
+      Ko -- ga -- to se de -- njat pro -- buž -- da,
+      za -- pja -- vat slăn -- če -- vi lă -- či.
+      Ot iz -- vo -- ri -- te na ži -- vo -- ta
+      o -- bil -- no ra -- dost -- ta stru -- i.
+      I v~to -- ja čas, tăr -- žest -- ven čas na ut -- ro -- to,
+      cja -- la -- ta Pri -- ro -- da pej.
+      Kăm văr -- ho -- ve -- te o -- za -- re -- ni
+      po -- li -- tat na -- ši -- te du -- ši.}
 
         \header {
-          title = \titleFunc "Мелодия – Когато се денят пробужда " "Melodia – Kogato se denyat probuzhda"
+          title = \titleFunc "Мелодия – Когато се денят пробужда " "Melodija – Kogato se denjat probužda"
         }
 
         \midi{}
@@ -75,16 +75,16 @@
 
         \hspace #5
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-          \line {   2.  Kogato se denyat probuzhda,}
-          \line {   "   " dolavyame nebesen zov – }
-          \line {   "   " valnuva ni i vdahnovyava}
-          \line {   "   " za svetal i krasiv zhivot.}
-          \line {   "       " Shte doyde toy sled burite,}
+         \column {
+          \line {   2. Kogato se denjat probužda,}
+          \line {   "   " dolavjame nebesen zov – }
+          \line {   "   " vălnuva ni i vdăhnovjava}
+          \line {   "   " za svetăl i krasiv život.}
+          \line {   "       " Šte dojde toj sled burite, }
           \line {   "       " borbite.}
-          \line {   "       " Zemyata shte zalee mir.}
-          \line {   "       " Mogashta sila e Dobroto,}
-          \line {   "       " niy vyarvame – shte pobedi.}
+          \line {   "       " Zemjata šte zalee mir.}
+          \line {   "       " Mogăšta sila e Dobroto,}
+          \line {   "       " nij vjarvame – šte pobedi.}
         } %column
       } % markup
 

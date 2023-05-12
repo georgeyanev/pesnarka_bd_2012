@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref174_2
-  \tocItem \markup "Слушам – Slusham"
+  \tocItem \markup "Слушам – Slušam"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -33,16 +33,16 @@
       шам -- шам, слу --
       шам -- шам -- шам, слу --
       шам.}
-      \addlyrics {
-        Slu --    sham -- sham --
-        sham, slu --    sham --
-        sham -- sham, slu --
-        sham -- sham -- sham, slu --
-        sham.}
+         \addlyrics {
+      Slu --    šam -- šam --
+      šam, slu --    šam --
+      šam -- šam, slu --
+      šam -- šam -- šam, slu --
+      šam.}
 
 
         \header {
-          title = \titleFunc "Слушам" "Slusham"
+          title = \titleFunc "Слушам" "Slušam"
         }
 
         \midi{}
@@ -88,11 +88,11 @@
           Ра -- дост, Ра -- дост на Жи -- во -- та ми, ти
           ве -- се -- лиш сър -- це -- то ми, ти ве -- се
           -- лиш сър -- це -- то ми.}
-          \addlyrics {
-            Ra -- dost,
-            Ra -- dost, Ra -- dost na Zhi -- vo -- ta mi, ti
-            ve -- se -- lish sar -- tse -- to mi, ti ve -- se
-            -- lish sar -- tse -- to mi.}
+           \addlyrics {
+          Ra -- dost,
+          Ra -- dost, Ra -- dost na Ži -- vo -- ta mi, ti
+          ve -- se -- liš săr -- ce -- to mi, ti ve -- se
+          -- liš săr -- ce -- to mi.}
 
             \header {
               title = \titleFunc "Радост" "Radost"

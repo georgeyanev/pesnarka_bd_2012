@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref174_1
-  \tocItem \markup "Да бих Тe слушал – Da bih Te slushal"
+  \tocItem \markup "Да бих Тe слушал – Da bih Te slušal"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -46,24 +46,24 @@
       се про -- я -- ви. из -- я -- ви.}
       \addlyrics {
         Da bih Te
-        slu -- shal, da bih Te slu -- shal! A -- ko bih
-        Te slu -- shal, Do -- bro -- to shte -- she v~men da
-        se pro -- ya -- vi. iz -- ya -- vi.}
+        slu -- šal, da bih Te slu -- šal! A -- ko bih
+        Te slu -- šal, Do -- bro -- to šte -- še v~men da
+        se pro -- ja -- vi. iz -- ja -- vi.}
 
         \header {
-          title = \titleFunc "Да бих Тe слушал " "Da bih Te slushal"
+          title = \titleFunc "Да бих Тe слушал " "Da bih Te slušal"
         }
 
         \midi{}
 
       } % score
 
- 
-      
+
+
 
       % include foreign translation(s) of the song
       \include "lyrics_de/174_1_da_bih_te_slushal_lyrics_de.ly"
 
     } % bookpart
 
-  
+

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref201
-  \tocItem \markup "Една вечна истина... – Edna vechna istina..."
+  \tocItem \markup "Една вечна истина... – Edna večna istina..."
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -63,19 +63,19 @@
       зун. Ве -- ю, Ве -- ю Ве -- ю, Та -- о Би Ом, Ом Би --
       ют, Ве -- ю, Ве -- ю, Ве --
       ю.}
-      \addlyrics {
-        Ed -- na -- ta, A -- dit -- na,
-        Bi ot -- na Am -- ri -- hal --
-        na. A -- me -- run, She -- me --  run.
-        Il Bi -- har, Il Bi -- har, Il Bi
-        -- har. Bi -- har, Il  Bi --
-        har.   Il    me  --
-        zun. Ve -- yu, Ve -- yu Ve -- yu, Ta -- o Bi Om, Om Bi --
-        yut, Ve -- yu, Ve -- yu, Ve --
-        yu.}
+     \addlyrics {
+      Ed -- na -- ta, A -- dit -- na,
+      Bi ot -- na Am -- ri -- hal --
+      na. A -- me -- run, Še -- me --  run.
+      Il Bi -- har, Il Bi -- har, Il Bi
+      -- har. Bi -- har, Il  Bi --
+      har.   Il    me  --
+      zun. Ve -- ju, Ve -- ju Ve -- ju, Ta -- o Bi Om, Om Bi --
+      jut, Ve -- ju, Ve -- ju, Ve --
+      ju.}
 
         \header {
-          title = \titleFunc "Една вечна истина, която е Бог на Любовта" "Edna vechna istina, koyato e Bog na Lyubovta"
+          title = \titleFunc "Една вечна истина, която е Бог на Любовта" "Edna večna istina, kojato e Bog na Ljubovta"
         }
 
         \midi{}

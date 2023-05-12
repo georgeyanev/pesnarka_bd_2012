@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref216
-  \tocItem \markup "Отче наш, не ни ... – Otche nash, ne ni ... "
+  \tocItem \markup "Отче наш, не ни ... – Otče naš, ne ni ... "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -64,18 +64,18 @@
       въ -- веж -- дай във из -- ку -- ше
       -- ни -- е, не ни въ -- веж -- дай
       във из -- ку -- ше -- ни -- е.}
-      \addlyrics {
-        Az shte pa -- zya to -- pli -- na --
-        ta na mo -- e -- to sar -- tse, ko --
-        ya -- to vna -- sya Bo -- zhi -- i -- te
-        bla -- ga vav  mo -- ya -- ta du
-        -- sha. Ot -- che nash, ne ni
-        va -- vezh -- day vav iz -- ku -- she
-        -- ni -- e, ne ni va -- vezh -- day
-        vav iz -- ku -- she -- ni -- e.}
+  \addlyrics {
+      Az šte pa -- zja to -- pli -- na --
+      ta na mo -- e -- to săr -- ce, ko --
+      ja -- to vna -- sja Bo -- ži -- i -- te
+      bla -- ga văv  mo -- ja -- ta du
+      -- ša. Ot -- če naš, ne ni
+      vă -- vež -- daj văv iz -- ku -- še
+      -- ni -- e, ne ni vă -- vež -- daj
+      văv iz -- ku -- še -- ni -- e.}
 
         \header {
-          title = \titleFunc "Отче наш, не ни въвеждай в изкушение" "Otche nash, ne ni vavezhday v izkushenie"
+          title = \titleFunc "Отче наш, не ни въвеждай в изкушение" "Otče naš, ne ni văveždaj v izkušenie"
         }
 
         \midi{}

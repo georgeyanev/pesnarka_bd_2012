@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref162_2
-  \tocItem \markup "Марш на светлите сили II – Marsh na svetlite sili II"
+  \tocItem \markup "Марш на светлите сили II – Marš na svetlite sili II"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -60,7 +60,7 @@
 
       Ид  -- ват на Зе -- мя -- та, на хо -- ра -- та в~сър -- ца -- та
 
-      и е -- то: __ "раж-" -- дат се и -- де -- и, свет --  ли, но -- ви,
+      и е -- то: __ раж -- дат се и -- де -- и, свет --  ли, но -- ви,
 
       как да "смък-" -- нем теж -- ки -- те о -- ко -- ви на
 
@@ -83,31 +83,28 @@
 
     }
 
-
     \addlyrics {
-      Du -- ho -- ve na Svet -- li -- na -- ta, stap -- vat le -- ko v~ti -- shi -- na -- ta.
+      Du -- ho -- ve na Svet -- li -- na -- ta, stăp -- vat le -- ko v~ti -- ši -- na -- ta.
 
-      Sli --  zat te v~re -- di -- tsi be -- li ot vi -- so -- ki -- te pre -- de -- li.
+      Sli --  zat te v~re -- di -- ci be -- li ot vi -- so -- ki -- te pre -- de -- li.
 
-      Id  -- vat na Ze -- mya -- ta, na ho -- ra -- ta v~sar -- tsa -- ta
+      Id  -- vat na Ze -- mja -- ta, na ho -- ra -- ta v~săr -- ca -- ta
 
-      i e -- to: __ razh -- dat se i -- de -- i, svet --  li, no -- vi,
+      i e -- to: __ raž -- dat se i -- de -- i, svet --  li, no -- vi,
 
-      kak da "smak-" -- nem tezh -- ki -- te o -- ko -- vi na
+      kak da "smăk-" -- nem tež -- ki -- te o -- ko -- vi na
 
-      vrazh -- di bez -- smis -- le -- ni, ve -- kov -- ni v~mir da za -- zhi -- ve -- em
-
-
-
-      i vse -- ki ste ra -- bo -- ti s~ra -- dost na Bo -- zhest -- ve -- na -- ta ni -- va,
-
-      shte tsa -- ru -- va vech -- na mla -- dost, nya -- ma ni -- koy da u -- mi -- ra.
-
-      v~mir, v~Lyu -- bov shte za -- zhi -- ve -- em
-
-      vsich -- ki druzh -- no i shte pro -- sla -- vim Bo -- ga s~pe -- sen. Svet -- li -- na -- ta!
+      vraž -- di bez -- smis -- le -- ni, ve -- kov -- ni, v~mir da za -- ži -- ve -- em
 
 
+
+      i vse -- ki šte ra -- bo -- ti s~ra -- dost na Bo -- žest -- ve -- na -- ta ni -- va,
+
+      šte ca -- ru -- va več -- na mla -- dost, nja -- ma ni -- koj da u -- mi -- ra,
+
+      v~mir, v~Lju -- bov šte za -- ži -- ve -- em
+
+      vsič -- ki druž -- no i šte pro -- sla -- vim Bo -- ga s~pe -- sen. Svet -- li -- na -- ta!
 
     }
 
@@ -125,7 +122,7 @@
 
       " " " " " " " " " " " " " " " " " "    " " " " " " " " " " " " " " " " " " " " " " " " " " " "
 
-      "2.  Но-"   -- ви пе -- сни ще за -- пе -- ем, за хар -- мо -- ни -- я "все-" -- "мир-" -- на.
+      "2.  Но-"   -- ви пе -- сни ще за -- пе -- ем, за хар -- мо -- ни -- я все -- "мир-" -- на.
 
       Нов жи -- вот ще за -- жи -- ве -- ем, тя -- ло -- то ни ще про -- свет -- не
 
@@ -150,11 +147,12 @@
 
       " " " " " " " " " " " " " " " " " "    " " " " " " " " " " " " " " " " " " " " " " " " " " " "
 
-      "2.  No"   -- vi pe -- sni shte za -- pe -- em, za har -- mo -- ni -- ya vse -- mir -- na.
+      "2.  No-"   -- vi pe -- sni šte za -- pe -- em, za har -- mo -- ni -- ja "vse-" -- "mir-" -- na.
 
-      Nov zhi -- vot shte za -- zhi -- ve -- em, tya -- lo -- to ni shte pro -- svet -- ne
+      Nov ži -- vot šte za -- ži -- ve -- em, tja -- lo -- to ni šte pro -- svet -- ne
 
-      i na -- kra -- ya shte po -- lit -- nem vav e -- fi -- ra kat' du -- ho -- ve na
+      i na -- kra -- ja šte po -- lit -- nem văv e -- fi -- ra kat' du -- ho -- ve na
+
 
       " " " " " " " " " " " " " " " " " "
 
@@ -163,7 +161,7 @@
 
 
     \header {
-      title = \titleFunc "Марш на светлите сили II" "Marsh na svetlite sili II"
+      title = \titleFunc "Марш на светлите сили II" "Marš na svetlite sili II"
     }
 
     \midi{}

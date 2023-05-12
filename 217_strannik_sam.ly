@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref217
-  \tocItem \markup "Странник съм в този свят – Strannik sam v tozi svyat "
+  \tocItem \markup "Странник съм в този свят – Strannik săm v tozi svjat "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -89,21 +89,21 @@
       -- ле -- зе мол -- ба -- та ми към
       Те -- бе.}
       \addlyrics {
-        Stran -- nik sam vav to -- zi
-        svyat. Ni -- ko -- go ne po --
-        zna -- vam, os -- ven Te -- be. Ti,
-        Gos -- po -- di, Bo -- zhe moy,
-        si saz -- dal vsich -- ko za me --
-        ne. Az ot -- pra -- vyam svo -- ya --
-        ta bla -- go -- dar -- nost kam Te
-        -- be, na Te -- be, Gos  --  po
-        -- di, vaz -- lo -- zhih svo -- e --
-        to u -- po -- va -- ni -- e. Da vaz
-        -- le -- ze mol -- ba -- ta mi kam
-        Te -- be.}
+      Stran -- nik săm văv to -- zi
+      svjat. Ni -- ko -- go ne po --
+      zna -- vam, os -- ven Te -- be. Ti,
+      Gos -- po -- di, Bo -- že moj,
+      si săz -- dal vsič -- ko za me --
+      ne. Az ot -- pra -- vjam svo -- ja --
+      ta bla -- go -- dar -- nost kăm Te
+      -- be, na Te -- be, Gos  --  po
+      -- di, văz -- lo -- žih svo -- e --
+      to u -- po -- va -- ni -- e. Da văz
+      -- le -- ze mol -- ba -- ta mi kăm
+      Te -- be.}
 
         \header {
-          title = \titleFunc "Странник съм в този свят" "Strannik sam v tozi svyat"
+          title = \titleFunc "Странник съм в този свят" "Strannik săm v tozi svjat"
         }
 
         \midi{}

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref179
-  \tocItem \markup "Молитва (Господи, Ти Си) – Molitva (Господи, Ти, Си) "
+  \tocItem \markup "Молитва (Господи, Ти Си) – Molitva (Gospodi, Ti Si) "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -70,17 +70,17 @@
       би, тъй "всич-" -- ко пус -- то е
       без  Теб и са -- мо Ти му да
       -- ваш сми -- съл. Ед -- ни -- чък
-      Ти ме лю_биш, зна -- я, са -- мо
+      Ти ме лю_-биш, зна -- я, са -- мо
       "Ти.        И" аз Теб лю -- бя.}
-      \addlyrics {
-        "1. Gos" -- po -- di, Ti si vsich -- ko
-        za me -- ne na Ze -- mya -- ta. Tuk
-        do -- lu– tol -- koz skar --
-        bi, tay "vsich-" -- ko pus -- to e
-        bez  Teb i sa -- mo Ti mu da
-        -- vash smi -- sal. Ed -- ni -- chak
-        Ti me lyu_bish, zna -- ya, sa -- mo
-        "Ti.          I" az Teb lyu -- bya.}
+  \addlyrics {
+      "1. Gos" -- po -- di, Ti si vsič -- ko
+      za me -- ne na Ze -- mja -- ta. Tuk
+      do -- lu– tol -- koz skăr --
+      bi, tăj vsič -- ko pus -- to e
+      bez  Teb i sa -- mo Ti mu da
+      -- vaš smi -- săl. Ed -- ni -- čăk
+      Ti me lju_-biš, zna -- ja, sa -- mo
+      "Ti.        I" az Teb lju -- bja.}
 
         \header {
           title = \titleFunc "Молитва" "Molitva"
@@ -107,15 +107,16 @@
 
         \hspace #5
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-          \line {   2. Gospodi, nauchi me}
-          \line {   "   " da lyubya vsichko zhivo,}
-          \line {   "   " tuy, koeto Ti sazdal si,}
-          \line {   "   "  i da raznasyam az navred}
-          \line {   "   "   Tvoyata nezhnost,}
-          \line {   "   " Radost i Lyubov. }
-          \line {   "   "  Da se naucha}
-          \line {   "   "  Teb  az da sluzha, da  blagodarya.}
+     \column {
+          \line {   2. Gospodi, nauči me}
+          \line {   "   " da ljubja vsičko živo,}
+          \line {   "   " tuj, koeto Ti săzdal si,}
+          \line {   "   "  i da raznasjam az navred}
+          \line {   "   "   Tvojata nežnost,}
+          \line {   "   " Radost i Ljubov. }
+          \line {   "   "  Da se nauča}
+          \line {   "   "  Teb  az da služa, da  blagodarja.}
+
         } %column
       } % markup
 

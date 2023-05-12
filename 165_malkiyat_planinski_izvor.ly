@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref165
-  \tocItem \markup "Малкият планински извор – Malkiyat planinski izvor"
+  \tocItem \markup "Малкият планински извор – Malkijat planinski izvor"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -102,24 +102,24 @@
 
     }
 
-    \addlyrics {
+     \addlyrics {
       Bli -- ka i pe -- e iz -- vo --
-      rat chist s~po -- gled ne -- vi --
-      nen, ve -- dar, la -- chist. V~sku --
+      răt čist s~po -- gled ne -- vi --
+      nen, ve -- dăr, lă -- čist. V~sku --
       ta pla -- nin -- ski ro -- dil se
       v~zo -- ri, tre -- pet -- na Ra --
-      dost, bo -- drost zvu -- chi. Bis --
-      tri stru -- i pe -- yat, kap -- chi --
-      tsi ble -- styat.  styat.  Raz --
-      li -- va sve -- zhest,  kra -- so
-      -- ta, mal -- vi za Lyu -- bov -- ta.
-      V~sar -- tse -- to na cho -- ve
-      -- ka o -- tek -- va pe -- sen -- ta.
-      V~sar -- ta
+      dost, bo -- drost zvu -- či. Bis --
+      tri stru -- i pe -- jat, kap -- či --
+      ci ble -- stjat.  stjat.  Raz --
+      li -- va sve -- žest,  kra -- so
+      -- ta, măl -- vi za Lju -- bov -- ta.
+      V~săr -- ce -- to na čo -- ve
+      -- ka o -- "tek-" -- va pe -- sen -- ta.
+      V~săr -- ta.
 
     }
     \header {
-      title = \titleFunc "Малкият планински извор" "Malkiyat planinski izvor"
+      title = \titleFunc "Малкият планински извор" "Malkijat planinski izvor"
     }
 
     \midi{}
@@ -148,16 +148,16 @@
  \hspace #3
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-      \line {   2. Nezhni tsvetya kray nego tsaftyat,}
-      \line {   "   "  prikazki chudni tiho redyat,  }
-      \line {   "   " nimfi igrivi tuk tantsi pletat,}
-      \line {   "   " vgubera rosen stapki treptyat. }
-      \line {   "   "  Noshtem se oglezhdat }
-      \line {   "   "  v izvora  zvezdi. }
-      \line {   "   "   I blika, dava  toy bez spir,}
-      \line {   "   "  tay dava Lyubovta. }
-      \line {   "   "   V sartseto na choveka}
-      \line {   "   "   izgryava Radostta.}
+      \line {   2. Nežni cvetja kraj nego căftjat,}
+      \line {   "   "  prikazki čudni tiho redjat,  }
+      \line {   "   " nimfi igrivi tuk tanci pletat,}
+      \line {   "   " v gubera rosen stăpki treptjat. }
+      \line {   "   "  Noštem se ogleždat}
+      \line {   "   "  v izvora  zvezdi.}
+      \line {   "   "  I blika, dava  toj bez spir,}
+      \line {   "   "  tăj dava Ljubovta. }
+      \line {   "   "   V sărceto na čoveka}
+      \line {   "   "    izgrjava Radostta.}
     } %column
   } % markup
 

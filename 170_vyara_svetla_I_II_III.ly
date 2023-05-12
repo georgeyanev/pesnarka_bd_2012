@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref170_1
-  \tocItem \markup "Вяра светла I – Vyara svetla I "
+  \tocItem \markup "Вяра светла I – Vjara svetla I "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -49,15 +49,15 @@
       Вя -- ра свет -- ла, вя -- ра сил
       -- на! Тя кре -- пи Ду -- ха, тя
       кре -- пи Ду -- ха, що Жи -- во --
-      та раж -- да. Вя -- ра раж -- да.}
+      та раж -- да. "Вя-" -- ра раж -- да.}
       \addlyrics {
-        Vya -- ra svet -- la, vya -- ra sil
-        -- na! Tya kre -- pi Du -- ha, tya
-        kre -- pi Du -- ha, shto Zhi -- vo --
-        ta razh -- da. Vya -- ra razh -- da.}
+        Vja -- ra svet -- la, vja -- ra sil
+        -- na! Tja kre -- pi Du -- ha, tja
+        kre -- pi Du -- ha, što Ži -- vo --
+        ta raž -- da. "Vja-" -- ra raž -- da.}
 
         \header {
-          title = \titleFunc "Вяра светла I" "Vyara svetla I"
+          title = \titleFunc "Вяра светла I" "Vjara svetla I"
         }
 
         \midi{}
@@ -72,7 +72,7 @@
       \markup \empty-two
 
       \label #'ref170_2
-      \tocItem \markup "Вяра светла II – Vyara svetla II "
+      \tocItem \markup "Вяра светла II – Vjara svetla II "
 
       \include "include/bookpart-paper.ily"
       \score {
@@ -138,19 +138,19 @@
           вя -- ра сил -- на! Тя кре -- пи
           Ду -- ха, що Жи -- вот но -- си.}
           \addlyrics {
-            Vya -- ra svet --   la,
-            vya -- ra sil --   na!
-            Tya vo -- di nas kam Bo --
-            ga, bla -- go -- to na Zhi -- vo
-            -- ta, Lyu -- bov -- ta na Bo --
+            Vja -- ra svet --   la,
+            vja -- ra sil --   na!
+            Tja vo -- di nas kăm Bo --
+            ga, bla -- go -- to na Ži -- vo
+            -- ta, Lju -- bov -- ta na Bo --
             ga, gde  Mir vla -- de --
-            e i Is -- ti -- na -- ta vech
-            -- no grey. Vya -- ra svet -- la,
-            vya -- ra sil -- na! Tya kre -- pi
-            Du -- ha, shto Zhi -- vot no -- si.}
+            e i Is -- ti -- na -- ta več
+            -- no grej. Vja -- ra svet -- la,
+            vja -- ra sil -- na! Tja kre -- pi
+            Du -- ha, što Ži -- vot no -- si.}
 
             \header {
-              title = \titleFunc "Вяра светла II " "Vyara svetla II "
+              title = \titleFunc "Вяра светла II " "Vjara svetla II "
             }
 
             \midi{}
@@ -163,7 +163,7 @@
           \include "lyrics_de/170_2_vyra_svetla_II_lyrics_de.ly"
 
           \label #'ref170_3
-          \tocItem \markup "Вяра светла III – Vyara svetla III "
+          \tocItem \markup "Вяра светла III – Vjara svetla III "
 
           \include "include/bookpart-paper.ily"
           \score {
@@ -200,10 +200,10 @@
               Вя -- ра свет --   ла,
               вя -- ра сил --   на! Тя кре -- пи Ду -- ха, що Жи -- вот -- та раж -- да. Вя -- ра да.}
               \addlyrics {
-                Vya -- ra svet -- la, Vya -- ra sil -- na! Tja kre -- pi Du -- ha, sto, Zhi -- vo -- ta razh -- da. Vja -- ra da.}
-
+                Vja -- ra svet --   la,
+                vja -- ra sil --   na! Tja kre -- pi Du -- ha, što Ži -- vot -- ta raž -- da. Vja -- ra da.}
                 \header {
-                  title = \titleFunc "Вяра светла III" "Vyara svetla III"
+                  title = \titleFunc "Вяра светла III" "Vjara svetla III"
                 }
 
                 \midi{}

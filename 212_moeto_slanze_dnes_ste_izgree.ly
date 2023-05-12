@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref212
-  \tocItem \markup "Моето слънце днес ще изгрее – Moeto slantse dnes ste izgree "
+  \tocItem \markup "Моето слънце днес ще изгрее – Moeto slănce dnes šte izgree "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -149,7 +149,7 @@
       -- я -- вя  До --  бро
       -- то   във све --
       та. Ще мис -- ля до --
-      бре,  ще чув -- ствам до --
+      бре,  ще "чув-" -- ствам до --
       бре,  ще  по -- стъп --
       вам   до -- бре,  ма --
       мо.  __   Ти  ще
@@ -164,42 +164,41 @@
       -- пъл --  ни.
     }
     \addlyrics {
-      Mi -- la mo -- ya ma -- mo,
-      mo -- e -- to Slan -- tse  dnes
-      shte iz -- gre -- e.  To Svet --
-      li -- na  i Ra -- dost shte
-      mi   do  --
-      ne -- se.
-      Mi -- la mo -- ya ma -- mo,
-      mo --  e -- to Slan -- tse
-      dnes shte iz -- gre -- e  i
+      Mi -- la mo -- ja ma -- mo,
+      mo -- e -- to Slăn -- ce  dnes
+      šte iz -- gre -- e.  To Svet --
+      li -- na  i Ra -- dost šte
+      mi   do  -- ne -- se.
+      Mi -- la mo -- ja ma -- mo,
+      mo --  e -- to Slăn -- ce
+      dnes šte iz -- gre -- e  i
       Ra -- dost svet --  la to
-      v~Zhi -- vo  --
-      ta mi shte
+      v~Ži -- vo  --
+      ta mi šte
       vne -- se.   To -- ga -- va, ma
-      -- mo,  az  shte  se  pro
-      -- ya --  vya,  go --
-      tov shte ba --   da  da pro
-      -- ya -- vya Do --  bro
-      -- to   vav sve --
-      ta. Shte mis -- lya do --
-      bre,  shte "chuv-" -- stvam do --
-      bre,  shte  po -- stap --
+      -- mo,  az  šte  se  pro
+      -- ja --  vja,   go --
+      tov šte bă -- da da  pro
+      -- ja -- vja  Do --  bro
+      -- to   văv sve --
+      ta. Šte mis -- lja do --
+      bre,  šte čuv -- stvam do --
+      bre,  šte  po -- stăp --
       vam   do -- bre,  ma --
-      mo.  __   Ti  shte
-      i -- mash,  ma -- mo,  do --
-      bar  sin.   Mi -- la mo --
-      ya "ma  - mo," mo -- e -- to
-      Slan --  tse
-      dnes shte  --
-      iz -- gre -- e  i Zhi
+      mo.  __   Ti  šte
+      i -- maš,  ma -- mo,  do --
+      băr  sin.   Mi -- la mo --
+      ja "ma  -  mo," mo -- e -- to
+      Slăn --  ce
+      dnes šte  --
+      iz -- gre -- e  i Ži
       -- vo --  ta mi  to s~Ra
-      --    dost  shte  iz
-      -- pal --  ni.
+      --    dost  šte  iz
+      -- păl --  ni.
     }
 
     \header {
-      title = \titleFunc "Моето слънце днес ще изгрее" "Moeto slantse dnes ste izgree"
+      title = \titleFunc "Моето слънце днес ще изгрее" "Moeto slănce dnes šte izgree"
     }
 
     \midi{}

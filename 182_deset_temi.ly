@@ -274,8 +274,9 @@
       Аз ще па -- зя то -- пли -- на -- та.
     }
     \addlyrics {
-      Аz ste -- pa -- zya to -- pli -- na -- ta. 
+      Az šte pa -- zja to -- pli -- na -- ta.
     }
+
 
     \midi{}
 
@@ -302,8 +303,8 @@
     \addlyrics {
       Аз ще па -- зя та -- зи то -- пли -- на.
     }
-    \addlyrics {
-      Аz ste -- pa -- zya ta -- zi to -- pli -- na. 
+     \addlyrics {
+      Az šte pa -- zja ta -- zi to -- pli -- na.
     }
 
     \midi{}

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref193
-  \tocItem \markup "     Трети Божествен ден – Treti Bozhestven den"
+  \tocItem \markup "     Трети Божествен ден – Treti Božestven den"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -103,26 +103,26 @@
       всич -- ко бе до -- бро. И ста
       -- на ве -- чер, и ста -- на ут --
       ро, тре -- ти ден.}
-      \addlyrics {
-        I
-        re -- che Bog: „Da se sa -- be --
-        re vo -- da -- ta pod ne -- be --
-        to.“ I sta -- na ta -- ka. I ya --
-        vi se su -- sha -- ta. I na --
-        re -- che ya Bog ze -- mya. I sa
-        -- bra -- na -- ta  vo -- da na
-        -- re -- che mo -- re. I re -- che
-        Bog, i iz -- ras -- na sve -- zha
-        tre -- va sas se -- me -- na spo --
-        red vi -- da si  i dar -- vo
-        sas plo -- do -- ve spo -- red vi --
-        da si. I vi -- dya  Bog, __ che
-        vsich -- ko be do -- bro. I sta
-        -- na ve -- cher, i sta -- na ut --
-        ro, tre -- ti den.}
+       \addlyrics {
+      I
+      re -- če Bog: „Da se să -- be --
+      re vo -- da -- ta pod ne -- be --
+      to.“ I sta -- na ta -- ka. I ja --
+      vi se su -- ša -- ta. I na --
+      re -- če ja Bog ze -- mja. I să
+      -- bra -- na -- ta  vo -- da na
+      -- re -- če mo -- re. I re -- če
+      Bog, i iz -- ras -- na sve -- ža
+      tre -- va săs se -- me -- na spo --
+      red vi -- da si  i dăr -- vo
+      săs plo -- do -- ve spo -- red vi --
+      da si. I vi -- dja  Bog, __ če
+      vsič -- ko be do -- bro. I sta
+      -- na ve -- čer, i sta -- na ut --
+      ro, tre -- ti den.}
 
         \header {
-          title = \titleFunc "Трети Божествен ден" "Treti Bozhestven den"
+          title = \titleFunc "Трети Божествен ден" "Treti Božestven den"
         }
 
         \midi{}
@@ -144,7 +144,7 @@
        \markup \empty-three
 
  \label #'ref194
-  \tocItem \markup "     Четвърти Божествен ден – Chetvarti Bozhestven den"
+  \tocItem \markup "     Четвърти Божествен ден – Četvărti Božestven den"
        \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -223,23 +223,23 @@
       ста -- на ве -- чер, и ста -- на
       ут -- ро, ден чет -- вър -- ти.}
       \addlyrics {
-        I
-        re -- che Bog: „Da grey --
-        nat sve -- ti -- la na ne -- bes --
-        ni -- ya svod.“ I sta -- na ta --
-        ka. I na -- pra -- vi Bog  dve
-        sve -- ti -- la:  go -- lya -- mo --
-        to da vla -- dey  de -- nya,
-        a mal -- ko -- to nosht -- ta. I na --
-        pra -- vi Bog, che grey -- na -- ha
-        zvez -- di na  ne -- bes -- ni --
-        ya pros -- tor. I vi -- dya  Bog,
-        che  vsich -- ko be do -- bro. I
-        sta -- na ve -- cher, i sta -- na
-        ut -- ro, den chet -- var -- ti.}
+      I
+      re -- če Bog: „Da grej --
+      nat sve -- ti -- la na ne -- bes --
+      ni -- ja svod.“ I sta -- na ta --
+      ka. I na -- pra -- vi Bog  dve
+      sve -- ti -- la:  go -- lja -- mo --
+      to da vla -- dej  de -- nja,
+      a mal -- ko -- to nošt -- ta. I na --
+      pra -- vi Bog, če grej -- na -- ha
+      zvez -- di na  ne -- bes -- ni --
+      ja pros -- tor. I vi -- dja  Bog,
+      če  vsič -- ko be do -- bro. I
+      sta -- na ve -- čer, i sta -- na
+      ut -- ro, den čet -- văr -- ti.}
 
         \header {
-          title = \titleFunc " Четвърти Божествен ден" "Chetvarti Bozhestven den"
+          title = \titleFunc " Четвърти Божествен ден" "Četvărti Božestven den"
         }
 
         \midi{}

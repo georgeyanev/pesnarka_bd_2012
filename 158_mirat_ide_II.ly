@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref158
-  \tocItem \markup "Мирът иде II – Mirat ide II"
+  \tocItem \markup "Мирът иде II – Mirăt ide II"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -148,7 +148,7 @@
 
     \addlyrics {
       И -- де ве -- че, | и -- де | "с~пал" -- мо -- во клон -- че |
-      на Ми ра. | Сли -- за той от -- | го -- ре, | сли -- за той, вес -- |
+      на "Ми-" -- ра. | Сли -- за той от -- | го -- ре, | сли -- за той, вес -- |
       ти -- тел благ. | И -- де ве -- че | "с~пал" -- мо -- во "клон-" -- че |
       ка -- то си -- | я -- ни -- е. | И -- де Ми -- рът |
       о -- бе -- щан със | не -- го -- ви -- я | по -- глед чист. |
@@ -176,37 +176,37 @@
       и "с~Ра" -- дост | пъл -- ни сър -- | ца -- та ни той. |
     }
 
-    \addlyrics {
-      I -- de ve -- che, | i -- de | "s~pal" -- mo -- vo "klon-" -- che |
-      na Mi ra. | Sli -- za toy ot -- | go -- re, | sli -- za toy, ves -- |
-      ti -- tel blag. | I -- de ve -- che | "s~pal" -- mo -- vo "klon-" -- che |
-      ka -- to si -- | ya -- ni -- e. | I -- de Mi -- rat |
-      o -- "be-" -- shtan sas | ne -- go -- vi -- ya | po -- gled chist. |
-      Vsich -- ki du -- shi | poz -- dra -- vya -- | va, | vsich -- ki sar -- tsa vdah -- no -- vya -- |
+ \addlyrics {
+      I -- de ve -- če, | i -- de | "s~pal" -- mo -- vo klon -- če |
+      na "Mi-" ra. | Sli -- za toj ot -- | go -- re, | sli -- za toj, ves -- |
+      ti -- tel blag. | I -- de ve -- če | "s~pal" -- mo -- vo klon -- če |
+      ka -- to si -- | ja -- ni -- e. | I -- de Mi -- răt |
+      o -- be -- štan săs | ne -- go -- vi -- ja | po -- gled čist. |
+      Vsič -- ki du -- ši | poz -- dra -- vja -- | va, | vsič -- ki săr -- ca "vdăh-" -- no -- vja -- |
       va "s~li" -- | ka si | blag, mil, o -- za -- | ren. |
-      Ra -- dost i ve -- se -- li -- e raz -- | na -- sya toy na -- | vred, ka -- de --
-      to mi -- ne. | I -- de toy vav  | ran -- ni -- te zo -- | ri, |
-      Slan -- tse -- to ko -- | ga -- to pro -- sti -- ra svoy -- te mil -- va -- |
-      shti ra -- tse i bu -- di | vsya -- ko se -- me, | vsya -- ko tsvet -- che, |
-      svo -- i -- te de -- | tsa. Pol -- ski -- te tsve -- | tya sas |
-      a -- ro -- mat | go po -- sre -- | shtat. Mal -- ki -- te gor -- ski |
-      ptich -- ki ot vaz -- | torg | pes -- ni pe -- yat ne -- mu |
-      i sve -- zhi -- te | stru -- i | na pla -- nin -- ski | iz -- vor -- che -- ta |
-      tuk li -- ku -- | vat. | Zlat -- ni ni -- vi | bla -- go -- go -- vey -- no |
-      kla -- so -- ve na -- | vezh -- dat. | Tsya -- la -- ta Pri -- | ro -- da |
+      "Ra-" -- dost i ve -- se -- li -- e raz -- | na -- sja toj na -- | vred, kă -- de --
+      to mi -- ne. | I -- de toj văv  | ran -- ni -- te zo -- | ri, |
+      Slăn -- ce -- to ko -- | ga -- to pro -- sti -- ra svoj -- te mil -- va -- |
+      šti ră -- ce i bu -- di | vsja -- ko se -- me, | vsja -- ko cvet -- če, |
+      svo -- i -- te de -- | ca. Pol -- ski -- te cve -- | tja săs |
+      a -- ro -- mat | go po -- sre -- | štat. Mal -- ki -- te gor -- ski |
+      ptič -- ki ot văz -- | torg | pes -- ni pe -- jat ne -- mu |
+      i sve -- ži -- te | stru -- i | na pla -- nin -- ski | iz -- vor -- če -- ta |
+      tuk li -- ku -- | vat. | Zlat -- ni ni -- vi | bla -- go -- go -- vej -- no |
+      kla -- so -- ve na -- | vež -- dat. | Cja -- la -- ta Pri -- | ro -- da |
       e hram ve -- | lik. | I -- de An -- gel | na Mi -- ra |
-      "v~to" -- zi | hram da slu -- | zhi. | A |
-      sto -- i cho -- | ve -- | kat | pred | Sve -- ti -- ya ol -- |
-      tar. | O -- gan go -- | ri | tam, "v~Sve" -- | shte -- ni -- ya ol -- |
-      tar. | I "s~mo" -- | lit -- | va vav du -- | sha |
-      Bo -- zhi -- ya ves -- | ti -- tel | cha -- ka | toy. |
-      I -- de ve -- che | An -- gel na Mi -- ra sas |
-      klon -- che pal -- mo -- | vo i zhe -- zal. | Sli -- za toy ot -- go -- re, |
-      tsar -- stven i zhe -- lan kat | slan -- che -- va us -- | miv -- ka bla -- ga |
-      i "s~Ra" -- dost | pal -- ni sar -- | tsa -- ta ni toy. |
+      "v~to" -- zi | hram da slu -- | ži. | A |
+      sto -- i čo -- | ve -- | kăt | pred | Sve -- ti -- ja ol -- |
+      tar. | O -- găn go -- | ri | tam, "v~Sve" -- | šte -- ni -- ja ol -- |
+      tar. | I "s~mo" -- | lit -- | va văv du -- | ša |
+      Bo -- ži -- ja ves -- | ti -- tel | ča -- ka | toj. |
+      I -- de ve -- če | An -- gel na Mi -- ra săs |
+      klon -- če pal -- mo -- | vo i že -- zăl. | Sli -- za toj ot -- go -- re, |
+      car -- stven i že -- lan kat | slăn -- če -- va us -- | miv -- ka bla -- ga |
+      i "s~Ra" -- dost | păl -- ni săr -- | ca -- ta ni toj. |
     }
     \header {
-      title = \titleFunc "Мирът иде II" "Mirat ide II"
+      title = \titleFunc "Мирът иде II" "Mirăt ide II"
     }
 
     \midi{}

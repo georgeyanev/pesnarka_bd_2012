@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref175_2
-  \tocItem \markup "Ме-хейн – Me-hein "
+  \tocItem \markup "Ме-хейн – Me-hejn "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -64,26 +64,27 @@
       аз ви -- на -- ги мис -- ля  мис -- ля за теб.
     }
     \addlyrics {
-      V~dni na bor -- ba, v~dni na pe -- chal,
-      da -- lech ot teb moy ro -- den kray,
-      az vi -- na -- gi mis-lya za teb,
-      az vi -- na -- gi mis -- lya  mis -- lya za teb.}
+      V~dni na bor -- ba, v~dni na pe -- čal,
+      da -- leč ot teb moj ro -- den kraj,
+      az vi -- na -- gi mis-lja za teb,
+      az vi -- na -- gi mis -- lja  mis -- lja za teb.
+    }
 
-      \header {
-        title = \titleFunc "Ме-хейн" "Me-hein"
-      }
+    \header {
+      title = \titleFunc "Ме-хейн" "Me-hejn"
+    }
 
-      \midi{}
+    \midi{}
 
-    } % score
-
-
+  } % score
 
 
-    % include foreign translation(s) of the song
-    \include "lyrics_de/175_mehein_lyrics_de.ly"
 
-  } % bookpart
 
-  % Più mosso
-  %
+  % include foreign translation(s) of the song
+  \include "lyrics_de/175_mehein_lyrics_de.ly"
+
+} % bookpart
+
+% Più mosso
+%

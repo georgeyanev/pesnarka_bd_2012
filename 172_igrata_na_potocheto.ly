@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref172
-  \tocItem \markup "Играта на поточето – Igrata na potocheto"
+  \tocItem \markup "Играта на поточето – Igrata na potočeto"
   \paper {
     print-all-headers = ##t
     print-page-number = ##t
@@ -102,7 +102,7 @@
     %\addlyrics {}
 
     \header {
-      title = \titleFunc "Играта на поточето" "Igrata na potocheto  –  Das Spiel der Quelle"
+      title = \titleFunc "Играта на поточето" "Igrata na potočeto  –  Das Spiel der Quelle"
     }
 
     \midi{}

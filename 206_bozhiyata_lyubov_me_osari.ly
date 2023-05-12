@@ -129,31 +129,31 @@
       в~мен все -- ли, и  бла --
       гост в~мен все -- ли.}
       \addlyrics {
-        Bo -- zhest -- ve -- na Lyu -- bov
-        du -- sha mi raz -- shi -- ri
-        i iz -- pal -- ni sar -- tse -- to
-        mi s~la -- chi. Ot dal -- bo -- ki
-        gla -- bi -- ni pov -- dig -- na
-        Du -- ha mi vav vi -- si -- ni na
-        kri -- la -- ta si bla -- go -- slo
-        -- ve -- ni, ot Bo -- zhi -- ya po --
-        gled o -- za -- re -- ni, o -- za
-        -- re -- ni, ot Bo -- zhi -- ya po --
-        gled o -- za -- re -- ni. Lyu -- bov
-        me o -- za -- ri, Lyu -- bov
-        me o -- za -- ri.  Du --
-        sha mi raz -- shi -- ri,  __ du --
-        sha mi o -- sve  -- ti, du -- sha
-        mi raz -- shi  -- ri, du -- sha mi
-        o -- sve -- ti. Du -- ha mi u --
-        kre -- pi i  bla -- gost v~men
-        vse -- li, i  bla -- gost
-        v~men vse -- li, i  bla --
-        gost v~men vse -- li.}
+      Bo -- žest -- ve -- na Lju -- bov
+      du -- ša mi raz -- ši -- ri
+      i iz -- păl -- ni săr -- ce -- to
+      mi s~lă -- či. Ot dăl -- bo -- ki
+      glă -- bi -- ni pov -- dig -- na
+      Du -- ha mi văv vi -- si -- ni na
+      kri -- la -- ta si bla -- go -- slo
+      -- ve -- ni, ot Bo -- ži -- ja po --
+      gled o -- za -- re -- ni, o -- za
+      -- re -- ni, ot Bo -- ži -- ja po --
+      gled o -- za -- re -- ni. Lju -- bov
+      me o -- za -- ri, Lju -- bov
+      me o -- za -- ri.  Du --
+      ša mi raz -- ši -- ri,  __ du --
+      ša mi o -- sve  -- ti, du -- ša
+      mi raz -- ši  -- ri, du -- ša mi
+      o -- sve -- ti. Du -- ha mi u --
+      kre -- pi i  bla -- gost v~men
+      vse -- li, i  bla -- gost
+      v~men vse -- li, i  bla --
+      gost v~men vse -- li.}
 
 
         \header {
-          title = \titleFunc "Божията Любов ме озари " " Bozhiyata Lyubov me ozari"
+          title = \titleFunc "Божията Любов ме озари " " Božijata Ljubov me ozari"
         }
 
         \midi{}

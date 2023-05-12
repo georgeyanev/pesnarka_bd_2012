@@ -7,7 +7,7 @@
    \label #'ref191
   \tocItem \markup "Новото Битие – Novoto Bitie"
   \label #'ref191_1
-  \tocItem \markup "     Първи Божествен ден – Parvi Bozhestven den"
+  \tocItem \markup "     Първи Божествен ден – Părvi Božestven den"
   \include "include/bookpart-paper.ily"
   \markup \center-column \normal-text \fontsize #6.5 {
     \center-align
@@ -16,7 +16,7 @@
    
     \vspace #-0.1
     \center-align
-    \line \fontsize #-3 { "     Novoto Bitie – Sazdavaneto na novia Adam" }
+    \line \fontsize #-3 { "     Novoto Bitie – Săzdavaneto na novija Adam" }
     \vspace #-0.1
     \center-align
      \hspace #5.1
@@ -92,25 +92,25 @@
       ре -- че Бог свет -- ли -- на -- та ден, а тъм
       -- ни -- на -- та нощ. И ста -- на ве -- чер, и
       ста -- на ут -- ро, пър -- ви ден.}
-      \addlyrics {
-        V~na -- cha --
-        lo Bog saz -- da -- de ne -- be -- to i ze --
-        mya -- ta. A ze -- mya -- ta be pus -- ta i ne
-        -- us -- tro -- e -- na. Nya -- ma -- she red po
-        ne -- ya. I tam -- ni -- na be var -- hu bezd --
-        na -- ta, i Duh Bo -- zhiy se no -- se -- she
-        nad vo -- di -- te na zhi -- vo -- ta. I re --
-        che Bog: „Da doy -- de kra -- si -- va -- ta vi
-        -- de -- li -- na.“ I tya se ya -- vi vav svo --
-        ya -- ta svet -- li -- na. I vi -- dya Bog, che
-        tya be do -- bro. I Bog raz -- de -- li svet --
-        li -- na -- ta ot tam -- ni -- na -- ta. I na --
-        re -- che Bog svet -- li -- na -- ta den, a tam
-        -- ni -- na -- ta nosht. I sta -- na ve -- cher, i
-        sta -- na ut -- ro, par -- vi den.}
+     \addlyrics {
+      V~na -- ča --
+      lo Bog săz -- da -- de ne -- be -- to i ze --
+      mja -- ta. A ze -- mja -- ta be pus -- ta i ne
+      -- us -- tro -- e -- na. Nja -- ma -- še red po
+      ne -- ja. I tăm -- ni -- na be văr -- hu bezd --
+      na -- ta, i Duh Bo -- žij se no -- se -- še
+      nad vo -- di -- te na ži -- vo -- ta. I re --
+      če Bog: „Da doj -- de kra -- si -- va -- ta vi
+      -- de -- li -- na.“ I tja se ja -- vi văv svo --
+      ja -- ta svet -- li -- na. I vi -- dja Bog, če
+      tja be do -- bro. I Bog raz -- de -- li svet --
+      li -- na -- ta ot tăm -- ni -- na -- ta. I na --
+      re -- če Bog svet -- li -- na -- ta den, a tăm
+      -- ni -- na -- ta nošt. I sta -- na ve -- čer, i
+      sta -- na ut -- ro, păr -- vi den.}
 
         \header {
-          title = \titleFunc "Първи Божествен ден" "Parvi Bozhestven den"
+          title = \titleFunc "Първи Божествен ден" "Părvi Božestven den"
         }
 
         \midi{}

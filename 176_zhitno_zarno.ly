@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref176
-  \tocItem \markup "Житно зърно – Zhitno zarno "
+  \tocItem \markup "Житно зърно – Žitno zărno "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -74,27 +74,27 @@
 
       Кол -- ко "ху-" -- бав е жи -- во -- тът, то -- га -- ва си ка -- зах.}
       \addlyrics {
-        Byah zhi -- te -- no zar -- no, za -- ro -- ve -- no v~ze -- mya -- ta.
+        Bjah ži -- te -- no zăr -- no, za -- ro -- ve -- no "v~ze-" -- mja -- ta.
 
-        Vav san dal -- bok, Zhi -- vo -- ta ne poz -- na -- vah.
+        Văv săn dăl -- bok, Ži -- vo -- ta ne poz -- na -- vah.
 
-        No doy -- de lach, pri men do -- stig -- na Svet -- li -- na -- ta
+        No doj -- de lăč, pri men do -- stig -- na Svet -- li -- na -- ta
 
-        i me sa -- bu -- di sas svo -- ya zov.
+        i me să -- bu -- di săs svo -- ja zov.
 
-        Ot zhi -- te -- no zar -- no az sta -- nah mal -- ka ptich -- ka,
+        Ot ži -- te -- no "zăr-" -- no az sta -- nah mal -- ka ptič -- ka,
 
-        v~vaz -- du -- ha da hvar -- kam.
+        v~văz -- du -- ha da hvăr -- kam.
 
-        Dnes -- ka za par -- vi pat, do -- bre pre -- me -- ne -- na,
+        Dnes -- ka za păr -- vi păt, do -- bre pre -- me -- ne -- na,
 
-        na lo -- ze -- na "prach-" -- ka kats -- nah i ot slad -- ko -- to groz -- de
+        na lo -- ze -- na prăč -- ka kac -- nah i ot slad -- ko -- to groz -- de
 
-        za prav pat hap -- nah, i ot slad -- ko -- to groz -- de
+        za prăv păt hap -- nah, i ot slad -- ko -- to groz -- de
 
-        za prav pat hap -- nah. Ot nah.
+        za prăv păt hap -- nah. Ot nah.
 
-        Kol -- ko hu -- bav e zhi -- vo -- tat, to -- ga -- va si ka -- zah.}
+        Kol -- ko "hu-" -- bav e ži -- vo -- tăt, to -- ga -- va si ka -- zah.}
 
         \header {
           title = \titleFunc "Житно зърно" "Zhitno zarno"

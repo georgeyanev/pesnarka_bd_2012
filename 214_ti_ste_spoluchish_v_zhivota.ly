@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref214
-  \tocItem \markup "Ти ще сполучиш в Живота – Ti shte spoluchish v zhivota"
+  \tocItem \markup "Ти ще сполучиш в Живота – Ti šte spolučiš v Života"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -55,18 +55,20 @@
 
     }
 
-    \addlyrics {
-      Kra -- siv e Zhi -- vo -- tat na An -- ge -- li -- te.
-      Kra -- siv e Zhi -- vo -- tat na na -- sha -- ta du -- sha.
-      Ti shte spo -- lu -- chish vav Zhi -- vo -- ta,
-      ti shte spo -- lu -- chish vav Zhi -- vo -- ta
-      Slu -- shay gla -- sa na An -- ge -- li -- te
-      i shte spo -- lu -- chish vav Zhi -- vo -- ta.
-      Kra -- siv e zhi -- vo -- tat na An -- ge -- li -- te.
+      \addlyrics {
+
+      Kra -- siv e Ži -- vo -- tăt na An -- ge -- li -- te.
+      Kra -- siv e Ži -- vo -- tăt na na -- ša -- ta du -- ša.
+      Ti šte spo -- lu -- čiš văv Ži -- vo -- ta,
+      ti šte spo -- lu -- čiš văv Ži -- vo -- ta
+      Slu -- šaj gla -- sa na An -- ge -- li -- te
+      i šte spo -- lu -- čiš văv Ži -- vo -- ta.
+      Kra -- siv e ži -- vo -- tăt na An -- ge -- li -- te.
+
     }
 
     \header {
-      title = \titleFunc "Ти ще сполучиш в Живота" "Ti shte spoluchish v zhivota "
+      title = \titleFunc "Ти ще сполучиш в Живота" "Ti šte spolučiš v Života"
     }
 
     \midi{}

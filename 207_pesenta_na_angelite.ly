@@ -239,53 +239,54 @@
       Тво -- рец. Сла --
       ва,   сла --
       ва,   сла --
-      "ва    на" "на –  ши" --
+      "ва        на" "на –  ши" --
       "я       Ба" -- ща. Сла -- "" -- "" --
       ва на   на -- ши -- я Ба
       -- ща, на на -- ши -- я Ве -- лик Ба
       -- ща.}
-      \addlyrics {
-        A
-        -- ko bya -- ha va -- shi -- te u -- shi
-        ot -- vo -- re -- ni, shtyah -- te da
-        chu -- e -- te gla -- sa na An
-        --  ge -- li -- te, ko -- i
-        --  to pe -- yat. Te pe --
-        yat pe -- sen -- ta na Lyu -- bov
-        -- ta. Te pe -- yat: „Vi -- e, che --
-        lo -- ve -- tsi -- te, ko -- i --
-        to ste saz -- da -- de -- ni --
-        po ob -- raz i po -- do --
-        bi -- e na Bo -- ga, slu -- shay
-        -- te  gla -- sa  na va --
-        shi -- ya Tvo -- rets, __ slu --
-        shay -- te  gla -- sa  na va
-        -- shia Ba -- shta, Koy -- to dnes
-        vi  go -- vo -- ri. Slu -- shay
-        -- te Go. Slu -- shay -- te Go
-        viy, i ni -- e sa -- shto Go slu --
-        sha -- me. Var -- she -- te Vo -- lya --
-        ta Mu, i ni -- e sa -- shto var --
-        shim Vo -- lya -- ta  Mu. To -- zi
-        e smi -- sa -- lat na  Zhi -- vo
-        -- ta, to -- zi e smi -- sa -- lat
-        na Zhi --  vo -- ta, smi -- sa
-        -- lat na  Zhi -- vo -- ta, na
-        bez -- smar -- ti
-        -- e -- to.“ E -- to pe -- sen --
-        ta na An -- ge -- li  --  te,
-        ko -- i -- to se -- ga pe -- yat:
-        „Sla --     va na
-        na --
-        shi -- ya   Ve -- lik
-        Tvo -- rets. Sla --
-        va,   sla --
-        va,   sla --
-        "va    na" "na –  shi" --
-        "ya     Ba" -- shta. Sla -- "" -- "" --
-        va na   na -- shi -- ya Ba
-        -- shta, na na -- shi -- ya Ve -- lik Ba
-        -- shta.}
+      
+   \addlyrics {
+      A
+      -- ko bja -- ha va -- ši -- te u -- ši
+      ot -- vo -- re -- ni, štjah -- te da
+      ču -- e -- te gla -- sa na An
+      --  ge -- li -- te, ko -- i
+      --  to pe -- jat. Te pe --
+      jat pe -- "sen-" -- ta na Lju -- bov
+      -- ta. Te pe -- jat: „Vi -- e, če --
+      lo -- ve -- ci -- te, ko -- i --
+      to ste săz -- da -- de -- ni --
+      po ob -- raz i po -- do --
+      bi -- e na Bo -- ga, slu -- šaj
+      -- te  gla -- sa  na va --
+      ši -- ja Tvo -- rec, __ slu --
+      šaj -- te  gla -- sa  na va
+      -- šija Ba -- šta, Koj -- to dnes
+      vi  go -- vo -- ri. Slu -- šaj
+      -- te Go. Slu -- šaj -- te Go
+      vij, i ni -- e să -- što Go slu --
+      ša -- me. Văr -- še -- te Vo -- lja --
+      ta Mu, i ni -- e să -- što văr --
+      šim Vo -- lja -- ta  Mu. To -- zi
+      e smi -- să -- lăt na  Ži -- vo
+      -- ta, to -- zi e smi -- să -- lăt
+      na Ži --  vo -- ta, smi -- să
+      -- lăt na  Ži -- vo -- ta, na
+      bez -- smăr -- ti
+      -- e -- to.“ E -- to pe -- sen --
+      ta na An -- ge -- li  --  te,
+      ko -- i -- to se -- ga pe -- jat:
+      „Sla --     va na
+      na --
+      ši -- ja   Ve -- lik
+      Tvo -- rec. Sla --
+      va,   sla --
+      va,   sla --
+      "va        na" "na –  ši" --
+      "ja       Ba" -- šta. Sla -- "" -- "" --
+      va na   na -- ši -- ja Ba
+      -- šta, na na -- ši -- ja Ve -- lik Ba
+      -- šta.}
 
     \header {
       title = \titleFunc "Песента на ангелите" "Pesenta na angelite"

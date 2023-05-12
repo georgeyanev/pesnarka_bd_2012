@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref186
-  \tocItem \markup "Мелодия – В радостта... – Melodiya – V radostta..."
+  \tocItem \markup "Мелодия – В радостта... – Melodija – V radostta..."
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -103,33 +103,34 @@
       -- жен. Бо -- жи -- я -- та во -- ля
       да пре -- бъ -- де свя -- та в~то
       -- зи ден бла -- го -- сло -- вен.}
-      \addlyrics {
-        Rad -- va se Ze -- mya -- ta, rad --
-        va se Ne -- be -- to v~Svet -- li
-        -- na. Se -- me -- to, po -- sya -- to
-        v~plod -- na ni -- va, ras -- ne
-        svya -- to "v~Lyu-" -- bov -- ta. Bog
-        vaz -- rast -- va No -- vi -- ya
-        zhi -- vot v~Ra -- dost i Mir i
-        tsya -- lo -- to Ne -- be pre -- li --
-        va ot Lyu -- bov. E -- to go, gre --
-        e de -- nyat kra -- siv i svyat, i
-        "Lyu-" -- bov -- ta e zhi -- va bla --
-        go -- dat. Grey, raz -- prask -- vay
-        Ra -- dost, Mir i O -- bich, svyat
-        Bo -- zhi den. Vse -- blag, vse --
-        ma -- dar Bog O -- tets v~du -- shi
-        -- te mi -- lost -- ta Si da vaz --
-        ras -- ti. Da pre -- ba -- de Ra --
-        dost, da pre -- ba -- de bla --
-        gost v~No -- vi -- ya zhi -- vot bla
-        -- zhen. Bo -- zhi -- ya -- ta vo -- lya
-        da pre -- ba -- de svya -- ta v~to
-        -- zi den bla -- go -- slo -- ven.}
+ 
+    \addlyrics {
+      Rad -- va se Ze -- mja -- ta, rad --
+      va se Ne -- be -- to v~Svet -- li
+      -- na. Se -- me -- to, po -- sja -- to
+      v~plod -- na ni -- va, "ras-" -- ne
+      svja -- to "v~Lju-" -- bov -- ta. Bog
+      văz -- rast -- va No -- vi -- ja
+      ži -- vot "v~Ra-" -- dost i Mir i
+      cja -- lo -- to Ne -- be pre -- li --
+      va ot Lju -- bov. E -- to go, gre --
+      e de -- njat kra -- siv i svjat, i
+      "Lju-" -- bov -- ta e ži -- va bla --
+      go -- dat. Grej, raz -- "prăsk" -- vaj
+      "Ra-" -- dost, Mir i O -- bič, svjat
+      Bo -- ži den. Vse -- blag, vse --
+      mă -- dăr Bog O -- tec v~du -- ši
+      -- te mi -- lost -- ta Si da văz --
+      ras -- ti. Da pre -- bă -- de Ra --
+      dost, da pre -- bă -- de bla --
+      gost v~No -- vi -- ja ži -- vot bla
+      -- žen. Bo -- ži -- ja -- ta vo -- lja
+      da pre -- bă -- de svja -- ta v~to
+      -- zi den bla -- go -- slo -- ven.}
 
 
         \header {
-          title = \titleFunc "Мелодия – В радостта на деня" " Melodiya – V radostta na denya"
+          title = \titleFunc "Мелодия – В радостта на деня" " Melodija – V radostta na denja"
         }
 
         \midi{}
@@ -169,29 +170,31 @@
         \hspace #10
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
         \column {
-          \line { 2. Slanchevo yato}
-          \line {   "   " Boga blagoslavya}
+          \line {  2. Slănčevoto jato}
+
+          \line {   "   " Boga blagoslavja}
 
           \line {   "   " i zari,}
 
-          \line {   "   " Bozhiyata Slava}
+          \line {   "   " Božijata Slava}
 
-          \line {   "   " novia Sveshten Zhivot}
+          \line {   "   " novija Svešten Život}
 
           \line {   "   " da ozari.}
 
-          \line {   "   " Tseliyat vsemir e svetlina}
+          \line {   "   " Celijat vsemir e svetlina}
 
           \line {   "   " i svetlinata}
 
           \line {   "   " izvor e na radost,}
 
-          \line {   "   " sila i zhivot.}
+          \line {   "   " sila i život.}
           \line {   "   " }
-          \line \italic {   "      " Refrain}
-          \line {   "      " Eto go, gree denyat ...}
+          \line \italic {   "      " Pripev:}
+          \line {   "      " Eto, go gree denjat ...}
 
-        } %column
+
+        }%column
       } % markup
 
       \pageBreak

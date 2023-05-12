@@ -64,13 +64,13 @@
       пло -- дът цъф -- ти и зре -- е.
       Ко -- зре -- е.}
       \addlyrics {
-        Ko -- ga -- to Lyu -- bov -- ta tsa --
+        Ko -- ga -- to Lju -- bov -- ta ca --
         ru -- va, smut ne sta -- va. Ko --
-        ga -- to Ma -- drost -- ta u -- prav
-        -- lya -- va, re -- dat ne se
-        na -- ru -- sha -- va. Ko -- ga --
+        ga -- to Mă -- drost -- ta u -- prav
+        -- lja -- va, re -- dăt ne se
+        na -- ru -- ša -- va. Ko -- ga --
         to Is -- ti -- na -- ta gre -- e,
-        plo -- dat tsaf -- ti i zre -- e.
+        plo -- dăt căf -- ti i zre -- e.
         Ko -- zre -- e.}
 
         \header {
@@ -81,7 +81,7 @@
 
       } % score
 
-      
+
 
       % include foreign translation(s) of the song
       \include "lyrics_de/175_pismoto_lyrics_de.ly"

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref202
-  \tocItem \markup "Химни на Слънцето – Himni na slantseto "
+  \tocItem \markup "Химни на Слънцето – Himni na Slănceto "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -97,7 +97,7 @@
    d2. ~ | % 51
    d4  f4.  a8 \! \break | % 52
   \time 4/4  | % 52
-   d2  \f  c4  bes4 | % 53
+   d2^\f  c4  bes4 | % 53
   \time 5/4  | % 53
    a2 ^\markup \italic "decresc."  a4  g4  f4 | % 54
   \time 3/4  | % 54
@@ -173,37 +173,43 @@
   Вяр -- вам в‿Те -- бе, Гос -- по
   -- ди, Кой -- то ми го -- во --
   риш се -- га. }
-    \addlyrics { Bu -- dya. Iz -- grya -- va mo -- e --
-  to Slan -- tse vav mo -- ya -- ta du
-  -- sha. Da se sla  -- vi I -- me --
-  to Bo -- zhi -- e. Bu -- dish. Iz --
-  grya -- va Bo -- zhi -- e -- to Slan 
-  -- tse v~men, vav sar -- tse --
-  to. Da doy -- de Tsar -- stvo -- to
-  Bo -- zhi -- e. Bu -- di. Iz -- grya
-  -- va Slan -- tse -- to  na
-  mo -- ya Duh. Da ba -- de Vo -- lya --
-  ta Bo -- zhi -- ya. Bu -- dim.
-  Iz  -- grya -- va Slan -- tse --
-  to na na -- shi -- te An -- ge
-  -- li. Da se  va -- dvo --
-  ri Tsar -- stvo -- to na Ot --
-  tsa na -- she -- go na  svet --
+  \addlyrics { Bu -- dja. Iz -- grja -- va mo -- e --
+  to Slăn -- ce văv mo -- ja -- ta du
+  -- ša. Da se sla  -- vi I -- me --
+  to Bo -- ži -- e. Bu -- diš. Iz --
+  grja -- va Bo -- ži -- e -- to Slăn 
+  -- ce v~men, văv săr -- ce --
+  to. Da doj -- de Car -- stvo -- to
+  Bo -- ži -- e. Bu -- di. Iz -- grja
+  -- va Slăn -- ce -- to  na
+  mo -- ja Duh. Da bă -- de Vo -- lja --
+  ta Bo -- ži -- ja. Bu -- dim.
+  Iz  -- grja -- va Slăn -- ce --
+  to na na -- ši -- te An -- ge
+  -- li. Da se  vă -- dvo --
+  ri Car -- stvo -- to na Ot --
+  ca na -- še -- go na  svet --
   li -- ni -- te. Bu -- di -- te.
-   Iz -- grya -- va Slan -- tse -- to
-   na Ve -- li -- ki -- ya Gos --
-  pod na Mi -- ra vav na -- shi -- te
-  du -- shi. Da ob -- no -- vi  na --
-  sha -- ta du -- sha sas Svo -- ya --
-  ta Si -- la. Bu -- dyat. Iz --
-  grya -- va Slan -- tse -- to  na
-  vsich -- ki Slan -- tsa  na na --
-  shi -- te du -- ho -- ve. Da ni
-  da -- de Gos -- pod Zhi -- vot, zdra
-  -- ve i Svo -- bo -- da!  }
+   Iz -- grja -- va Slăn -- ce -- to
+   na Ve -- li -- ki -- ja Gos --
+  pod na Mi -- ra văv na -- ši -- te
+  du -- ši. Da ob -- no -- vi  na --
+  ša -- ta du -- ša săs Svo -- ja --
+  ta Si -- la. Bu -- djat. Iz --
+  grja -- va Slăn -- ce -- to  na
+  vsič -- ki Slăn -- ca  na na --
+  ši -- te du -- ho -- ve. Da ni
+  da -- de Gos -- pod Ži -- vot, zdra
+  -- ve i Svo -- bo -- da!  Vjar --
+  vam văv Te -- be, Gos -- po
+  -- di, Koj -- to si mi go -- vo
+  -- ril v‿mi -- na -- lo -- to.
+  Vjar -- vam v‿Te -- be, Gos -- po
+  -- di, Koj -- to mi go -- vo --
+  riš se -- ga. }
 
     \header {
-      title = \titleFunc "Химни на Слънцето" "Himni na slantseto"
+      title = \titleFunc "Химни на Слънцето" "Himni na Slănceto"
     }
 
     \midi{}

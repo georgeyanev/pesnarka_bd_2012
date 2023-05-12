@@ -38,12 +38,12 @@
     }
 
     \addlyrics {
-      Ми -- лост, бла -- гост в~мен Той все -- ли.  Ми -- лост, бла -- гост   в~мен Той все -- ли, в~мен все -- ли, в~мен все -- ли..}
+      Ми -- лост, бла -- гост в~мен Той все -- ли.  Ми -- лост, бла -- гост   в~мен Той все -- ли, в~мен все -- ли, в~мен все -- ли.}
+     
+     
       \addlyrics {
-        Mi -- lost,
-        bla -- gost v~men Toi vse -- li. Mi -- lost, bla
-        -- gost v~men Toi vse -- li, v~men vse -- li,
-        v~men vse -- li.}
+      Mi -- lost, bla -- gost v~men Toj vse -- li.  Mi -- lost, bla -- gost   v~men Toj vse -- li, v~men vse -- li, v~men vse -- li.}
+     
 
 
         \header {
@@ -62,7 +62,7 @@
        \markup \empty-three
 
          \label #'ref171_2
-        \tocItem \markup "Аз мога да дишам – Az moga da disham"
+        \tocItem \markup "Аз мога да дишам – Az moga da dišam"
 
       \include "include/bookpart-paper.ily"
       \score {
@@ -99,13 +99,13 @@
           Аз мо -- га
           да ди -- шам ве -- че до -- бре, аз мо -- га
           да ди -- шам ве -- че до -- бре. \skip4 бре.}
-          \addlyrics {
-            Az mo -- ga
-            da di -- sham ve -- che do -- bre, az mo -- ga
-            da di -- sham ve -- che do -- bre. \skip4 bre.}
+         \addlyrics {
+          Az mo -- ga
+          da di -- šam ve -- če do -- bre, az mo -- ga
+          da di -- šam ve -- če do -- bre. \skip4 bre.}
 
             \header {
-              title = \titleFunc "Аз мога да дишам " "Az moga da disham"
+              title = \titleFunc "Аз мога да дишам " "Az moga da dišam"
             }
 
             \midi{}

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref169_1
-  \tocItem \markup "Кажи ми ти Истината III – Kazhi mi ti istinata III"
+  \tocItem \markup "Кажи ми ти Истината III – Kaži mi ti Istinata III"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -74,19 +74,19 @@
       на -- та, ко -- я -- то но -- си "Сво-"
       -- бо -- да за мо -- я -- та ду --
       ша}
-    \addlyrics { Ka -- zhi mi Ti Is -- ti -- na -- ta,
-      ko -- ya -- to no -- si Svo -- bo --
-      da za mo -- ya -- ta du -- sha.
+    \addlyrics {      Ka -- ži mi Ti Is -- ti -- na -- ta,
+      ko -- ja -- to no -- si "Svo-" -- bo --
+      da za mo -- ja -- ta du -- ša.
 
       \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
       \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
       \skip1 \skip1 \skip1
 
 
-      Ka -- zhi mi Ti Is -- ti --
-      na -- ta, ko -- ya -- to no -- si Svo
-      -- bo -- da za mo -- ya -- ta du --
-      sha.}
+      Ka -- ži mi Ti Is -- ti --
+      na -- ta, ko -- ja -- to no -- si "Svo-"
+      -- bo -- da za mo -- ja -- ta du --
+      ša}
 
     \header {
       title = \titleFunc "Кажи ми ти Истината III" "Kazhi mi ti istinata III"

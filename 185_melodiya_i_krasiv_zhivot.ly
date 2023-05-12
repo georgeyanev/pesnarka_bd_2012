@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref185
-  \tocItem \markup "Мелодия – Красив Живот – Melodiya – Krasiv Zhivot "
+  \tocItem \markup "Мелодия – Красив Живот – Melodija – Krasiv Život"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -93,28 +93,29 @@
       из -- веж -- да, знам.  "Ду-" -- хът мо --
       гъщ ле -- ти "в~слън-" -- че -- ва ро
       -- ди  -- на.}
-      \addlyrics {
-        Kra -- siv zhi -- vot v~bez -- kra --
-        en pat! Pri -- "pom-" -- nyam si po --
-        nya -- ko -- ga, nya -- ka -- de da --
-        lech be to. Tam Slan -- tse niv --
-        ga ne za -- lyaz -- va -- she __ i
-        ne -- be -- to vi -- na -- gi la --
-        zur no, Mir i Svet -- li -- na.
-        Him -- ni na "Lyu-" -- bov -- ta an --
-        ge -- li bez -- spir -- no pe --
-        yat, trep -- tyat, zvu -- chat v~a --
-        kord zvezd -- ni -- te vse -- le
-        -- ni. I vaz -- ze -- ma se
-        v~du -- sha -- ta mor -- na ve --
-        chen kop -- nezh. V~skar -- bi,
-        ra -- dost, sal -- zi, pa -- tyat mi
-        iz -- vezh -- da, znam. Du -- hat mo --
-        gasht le -- ti v~slan -- che -- va ro
-        -- di  -- na.}
+
+    \addlyrics {
+      Kra -- siv ži -- vot v~bez -- kra --
+      en păt! Pri -- "pom-" -- njam si po --
+      nja -- ko -- ga, nja -- kă -- de da --
+      leč be to. Tam Slăn -- ce niv --
+      ga ne za -- ljaz -- va -- še __  i
+      ne -- be -- to vi -- na -- gi la --
+      zur no, Mir i Svet -- li -- na.
+      Him -- ni na Lju -- bov -- ta an --
+      ge -- li "bez-" -- spir -- no pe --
+      jat, trep -- tjat, zvu -- čat "v~a-" --
+      kord "zvezd-" -- ni -- te vse -- le
+      -- ni. I văz -- ze -- ma se
+      v~du -- ša -- ta mor -- na ve --
+      čen kop -- než. V~skăr -- bi,
+      ra -- dost, săl -- zi, pă -- tjat mi
+      iz -- vež -- da, znam.  "Du-" -- hăt mo --
+      găšt le -- ti v~slăn -- če -- va ro
+      -- di  -- na.}
 
         \header {
-          title = \titleFunc "Мелодия – Красив Живот" "Melodiya – Krasiv Zhivot"
+          title = \titleFunc "Мелодия – Красив Живот" "Melodija – Krasiv Život"
         }
 
         \midi{}

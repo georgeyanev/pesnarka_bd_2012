@@ -4,7 +4,7 @@
 \include "include/globals.ily"
 \bookpart {
   \label #'ref162
-  \tocItem \markup "Марш на светлите сили – Marsh na svetlite sili"
+  \tocItem \markup "Марш на светлите сили – Marš na svetlite sili"
   \paper {
     % the system system spacing is custom here so do not include bookpart-paper.ily
     print-all-headers = ##t
@@ -117,7 +117,7 @@
     \addlyrics {}
 
     \header {
-      title = \titleFunc "Марш на светлите сили" "Marsh na svetlite sili  – Marsch der lichen Mächte"
+      title = \titleFunc "Марш на светлите сили" "Marš na svetlite sili  – Marsch der lichen Mächte"
     }
 
     \midi{}

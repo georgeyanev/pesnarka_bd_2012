@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref155_1
-  \tocItem \markup "Радост, радост за душата – Radost, radost za dushata"
+  \tocItem \markup "Радост, радост за душата – Radost, radost za dušata"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -73,18 +73,18 @@
     }
 
     \addlyrics {
-      Ra -- dost, Ra -- dost za du -- sha
-      --    ta  no -- si
-      Chis -- to -- ta -- ta. Ra -- dost,
-      Ra -- dost, Ra -- dost, Ra -- dost
-      za du -- sha -- ta  no -- si
-      Chis -- to -- ta -- ta. Chis -- ti ba --
-      de -- te ka -- to pche -- li -- te.
-      Chis -- ti ba -- de -- te ka -- to
-      tsve -- tya -- ta.
+      Ra -- dost, "Ra-" -- dost za du -- ša
+      --  ta  no -- si
+      Čis -- to -- ta -- ta. Ra -- dost,
+      "Ra-" -- dost, "Ra-" -- dost, "Ra-" -- dost
+      za du -- ša -- ta  no -- si
+      Čis -- to -- ta -- ta. Čis -- ti bă --
+      de -- te ka -- to pče -- li -- te.
+      Čis -- ti bă -- de -- te ka -- to
+      cve -- tja -- ta.
     }
     \header {
-      title = \titleFunc "Радост, радост за душата" "Radost, radost za dushata"
+      title = \titleFunc "Радост, радост за душата" "Radost, radost za dušata"
     }
 
     \midi{}

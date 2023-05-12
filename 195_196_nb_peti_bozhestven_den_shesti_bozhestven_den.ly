@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref195
-  \tocItem \markup "     Пети божествен ден – Peti bozhestven den "
+  \tocItem \markup "     Пети божествен ден – Peti božestven den "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -87,24 +87,24 @@
       сло -- ви ги Бог. И ста -- на ве
       -- чер, и ста -- на ут -- ро, пе --
       ти ден.}
-      \addlyrics {
-        I re -- che Bog:
-        „Da se ro -- dyat vav vo --
-        da -- ta ri -- bi i mor -- ski
-        chu -- do -- vi -- shta  i pti -- tsi
-        da hvar -- kat nad  ze -- mya --
-        ta po ne -- bes -- ni -- ya pros --
-        tor vsich -- ki  spo -- red vi --
-        da __ si.“  I sta -- na ta --
-        ka. I vi -- dya  Bog, che vsich --
-        ko be do -- bro. I bla -- go --
-        slo -- vi gi Bog. I sta -- na ve
-        -- cher, i sta -- na ut -- ro, pe --
-        ti den.}
+       \addlyrics {
+      I re -- če Bog:
+      „Da se ro -- djat văv vo --
+      da -- ta ri -- bi i mor -- ski
+      ču -- do -- vi -- šta  i pti -- ci
+      da hvăr -- kat nad  ze -- mja --
+      ta po ne -- bes -- ni -- ja pros --
+      tor vsič -- ki  "spo-" -- red vi --
+      da __ si.“  I sta -- na ta --
+      ka. I vi -- dja  Bog, če vsič --
+      ko be do -- bro. I bla -- go --
+      slo -- vi gi Bog. I sta -- na ve
+      -- čer, i sta -- na ut -- ro, pe --
+      ti den.}
 
 
         \header {
-          title = \titleFunc "Пети божествен ден" "Peti bozhestven den"
+          title = \titleFunc "Пети божествен ден" "Peti božestven den"
         }
 
         \midi{}
@@ -125,7 +125,7 @@
       \markup \empty-three
 
         \label #'ref195
-  \tocItem \markup "     Шести божествен ден – Shesti bozhestven den "
+  \tocItem \markup "     Шести божествен ден – Šesti božestven den "
 
       \include "include/bookpart-paper.ily"
       \score {
@@ -312,44 +312,44 @@
             чер, и ста -- на ут -- ро, шес --
             ти ден.
           }
-          \addlyrics {
-            I re -- che Bog:  „Da
-            doy -- dat nad ze -- mya -- ta zhi --
+                   \addlyrics {
+            I re -- če Bog:  „Da
+            doj -- dat nad ze -- mja -- ta ži --
             vot -- ni i zve -- ro -- ve spo --
             red vi -- do -- ve -- te im.“ I
-            sta -- na ta -- ka. I vi -- dya Bog,
-            che  vsich -- ko be do -- bro. I
-            re -- che Bog, i saz -- da -- de che
-            -- lo -- ve --  ka. Sam go saz
-            -- da -- de po Svo -- ya ob -- raz i
+            sta -- na ta -- ka. I vi -- dja Bog,
+            če  vsič -- ko be do -- bro. I
+            re -- če Bog, i săz -- da -- de če
+            -- lo -- ve --  ka. Sam go săz
+            -- da -- de po "Svo-" -- ja ob -- raz i
             po -- do -- bi -- e. I bla -- go --
             slo -- vi go da vla -- de -- e
-            vsich -- ko zhi -- vo po ze -- mya
-            -- ta, da o -- bi -- cha i za --
-            kri -- lya vsich -- ki tva -- ri vav
-            vo -- da -- ta, po ze -- mya -- ta i
-            vaz -- du -- ha. I re -- che Bog:
+            vsič -- ko ži -- vo po ze -- mja
+            -- ta, da o -- bi -- ča i za --
+            kri -- lja vsič -- ki tva -- ri văv
+            vo -- da -- ta, po ze -- mja -- ta i
+            văz -- du -- ha. I re -- če Bog:
             „Da -- vam  __ tre -- va -- ta
-            sas se -- me -- na -- ta  i i
-            dar -- vo -- to sas plo -- do -- ve
+            săs se -- me -- na -- ta  i i
+            dăr -- vo -- to săs plo -- do -- ve
             -- te  si za hra --
-            na na che -- lo -- ve --  ka. I re --
-            che Bog: „Da -- vam i na zem --
-            ni -- te zve -- ro -- ve, i na "vaz-"
-            -- dush -- ni -- te pti -- tsi, i vsich
-            -- ko, shto pal -- zi  po ze -- mya
-            -- ta i i -- ma zhi -- vot, i cho --
-            vek da ne po -- sya -- ga na zhi --
-            vo -- ta  im.“ I vi -- dya Bog,
-            che vsich -- ko, shto na -- pra -- vi,
+            na na če -- lo --  ve -- ka. I re --
+            če Bog: „Da -- vam i na zem --
+            ni -- te "zve-" -- ro -- ve, i na văz
+            -- duš -- ni -- te pti -- ci, i vsič
+            -- ko, što păl -- zi  po ze -- mja
+            -- ta i i -- ma ži -- vot, i čo --
+            vek da ne po -- sja -- ga na ži --
+            vo -- ta  im.“ I vi -- dja Bog,
+            če vsič -- ko, što na -- pra -- vi,
             be do -- bro. I sta -- na ve --
-            cher, i sta -- na ut -- ro, shes --
+            čer, i sta -- na ut -- ro, šes --
             ti den.
           }
 
 
           \header {
-            title = \titleFunc " Шести божествен ден" "Shesti bozhestven den"
+            title = \titleFunc " Шести божествен ден" "Šesti božestven den"
           }
 
           \midi{}

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref156
-  \tocItem \markup "Мирът иде – Mirat ide"
+  \tocItem \markup "Мирът иде – Mirăt ide"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -152,7 +152,7 @@
 
     }
     \header {
-      title = \titleFunc "Мирът иде" "Mirat ide  –  Der Frieden kommt"
+      title = \titleFunc "Мирът иде" "Mirăt ide  –  Der Frieden kommt"
     }
 
     \midi{}

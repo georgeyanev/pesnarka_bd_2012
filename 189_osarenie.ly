@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref189
-  \tocItem \markup "Мелодия – Озарение – Melodiya – Osarenie"
+  \tocItem \markup "Мелодия – Озарение – Melodija – Ozarenie"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -48,17 +48,17 @@
       Лю -- бов -- та без -- спир, но --
       си свя -- та Лю -- бов -- та без --
       спир.}
-      \addlyrics {
-        Bez -- gra -- nich -- na shir, div
-        -- na kra -- so -- ta i mir,
-        slan -- tse za cho -- vesh -- ki --
-        te du -- shi no -- si svya -- ta
-        Lyu -- bov -- ta bez -- spir, no --
-        si svya -- ta Lyu -- bov -- ta bez --
-        spir.}
+     \addlyrics {
+      Bez -- gra -- nič -- na šir, div
+      -- na kra -- so -- ta i mir,
+      slăn -- ce za čo -- veš -- ki --
+      te du -- ši no -- si svja -- ta
+      Lju -- bov -- ta bez -- spir, no --
+      si svja -- ta Lju -- bov -- ta bez --
+      spir.}
 
         \header {
-          title = \titleFunc "Мелодия – Озарение" "Melodiya – Osarenie"
+          title = \titleFunc "Мелодия – Озарение" "Melodija – Ozarenie"
         }
 
         \midi{}
@@ -83,16 +83,16 @@
 
         \hspace #5
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-          \line {   2. Blag zhivot strui }
-          \line {   "   " v topli slanchevi lachi }
-          \line {   "   " i dushite slavyat v Svetlina }
-          \line {   "   " blagia Otets na Lyubovta. (2) }
+          \column {
+          \line {   2.  Blag život strui }
+          \line {   "   " v topli slănčevi lăči }
+          \line {   "   " i dušite slavjat v Svetlina }
+          \line {   "   " blagija Otec na Ljubovta. (2) }
           \line {   "   " }
-          \line {   3. Vsichko e Lyubov, }
-          \line {   "   " radost, sila i zhivot. }
-          \line {   "   " Svyata Bozhia videlina }
-          \line {   "   " ozaryava tazi krasota. (2)}
+          \line {   3. Vsičko e Ljubov, }
+          \line {   "   " radost, sila i život. }
+          \line {   "   " Svjata Božija videlina }
+          \line {   "   " ozarjava tazi krasota. (2)}
         } %column
       } % markup
 

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref178
-  \tocItem \markup "Молитва (Чуй, Господи) – Molitva (Chuy, Gospodi)"
+  \tocItem \markup "Молитва (Чуй, Господи) – Molitva (Čuj, Gospodi)"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -87,18 +87,18 @@
       Аз, кой -- то не зна -- я как да
       жи -- ве -- я о -- ще, Гос --
       по -- ди.}
-    \addlyrics {Chuy, Gos -- po -- di,  kam Te --
-      be az ot -- pra -- vyam moy -- ta
+  \addlyrics { Čuj, Gos -- po -- di,  kăm Te --
+      be az ot -- pra -- vjam moj -- ta
       mo -- lit -- va. Da se os -- vo --
-      bo -- di mo -- e -- to tya -- lo ot
-      vsich -- ki -- te  ne
+      bo -- di mo -- e -- to tja -- lo ot
+      vsič -- ki -- te  ne
       -- prav -- di, ko -- i -- to no --
-      sya v~sve -- ta. Gos -- po -- di,
+      sja v~sve -- ta. Gos -- po -- di,
       Gos -- po -- di, Gos -- po -- di,
-      da doy -- de Tvo -- ya -- ta mi --
+      da doj -- de Tvo -- ja -- ta mi --
       lost nad me -- ne, nad me -- ne!
-      Az, koy -- to ne zna -- ya kak da
-      zhi -- ve -- ya o -- shte, Gos --
+      Az, koj -- to ne zna -- ja kak da
+      ži -- ve -- ja o -- šte, Gos --
       po -- di.}
 
 

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref210
-  \tocItem \markup "Господи, колко те обичам – Gospodi, kolko te obicham "
+  \tocItem \markup "Господи, колко те обичам – Gospodi, kolko te običam "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -123,21 +123,22 @@
       Гос -- по -- ди, ко -- е -- то Си съз -- дал. О
       -- би -- чам Те, о -- би -- чам Те, о -- би --
       чам Те, Гос -- по -- ди!}
-      \addlyrics {
-        Gos -- po --
-        di, kol -- ko Te lyu -- bya! Bo -- zhe, Gos -- po
-        -- di moy, kol -- ko Te lyu -- bya! O -- bi -- cham
-        Te, Gos -- po -- di! O -- bi -- cham Tvo -- i --
-        te drav -- che -- ta, o -- bi -- cham Tvo -- i --
-        te tsve -- "ten            –           –            tsa," o -- bi
-        -- cham Tvo -- i -- te re -- kich -- ki, o -- bi --
-        cham Tvo -- i -- te  pla -- ni -- ni vsich -- ko,
-        Gos -- po -- di, ko -- e -- to Si saz -- dal. O
-        -- bi -- cham Te, o -- bi -- cham Te, o -- bi --
-        cham Te, Gos -- po -- di!}
+   
+    \addlyrics {
+      Gos -- po --
+      di, kol -- ko Te lju -- bja! Bo -- že, Gos -- po
+      -- di moj, kol -- ko Te lju -- bja! O -- bi -- čam
+      Te, Gos -- po -- di! O -- bi -- čam Tvo -- i --
+      te drăv -- če -- ta, o -- bi -- čam Tvo -- i --
+      te cve -- "ten           –           –            ca," o -- bi
+      -- čam Tvo -- i -- te re -- kič -- ki, o -- bi --
+      čam Tvo -- i -- te  pla -- ni -- ni vsič -- ko,
+      Gos -- po -- di, ko -- e -- to Si săz -- dal. O
+      -- bi -- čam Te, o -- bi -- čam Te, o -- bi --
+      čam Te, Gos -- po -- di!}
 
         \header {
-          title = \titleFunc "Господи, колко те обичам" "Gospodi, kolko te obicham"
+          title = \titleFunc "Господи, колко те обичам" "Gospodi, kolko te običam"
         }
 
         \midi{}

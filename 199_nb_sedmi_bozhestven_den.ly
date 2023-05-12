@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref199
- \tocItem \markup "     Седми божествен ден – Sedmi bozhestven den "
+ \tocItem \markup "     Седми божествен ден – Sedmi božestven den "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -80,23 +80,23 @@
       Бог, че всич -- ко, що на -- пра --
       ви, бе до -- бро! А -- ум! А -- ум!
       А -- у -- мен!}
-      \addlyrics {
-        I ta -- ka saz -- da -- de
-        Bog  ne -- be -- to i ze -- mya --
-        ta, i vsich -- ko -- to
-        mno -- zhe -- stvo sa -- shte -- stva  vav
-        tyah. I bla -- go -- slo -- vi Bog
-        sed -- mi -- ya den i go o -- sve --
-        ti, za -- shto -- to vav ne -- go si
-        po -- chi -- na ot vsich -- ki -- te
-        si de -- la. I    vi -- dya
-        Bog, che vsich -- ko, shto na -- pra --
-        vi, be do -- bro! A -- um! A -- um!
-        A -- u -- men!}
+     \addlyrics {
+      I ta -- ka săz -- da -- de
+      Bog  ne -- be -- to i ze -- mja --
+      ta, i vsič -- ko -- to
+      mno -- že -- stvo să -- šte -- stva  văv
+      tjah. I bla -- go -- slo -- vi Bog
+      sed -- mi -- ja den i go o -- sve --
+      ti, za -- što -- to văv ne -- go si
+      po -- či -- na ot vsič -- ki -- te
+      si de -- la. I    vi -- dja
+      Bog, če vsič -- ko, što na -- pra --
+      vi, be do -- bro! A -- um! A -- um!
+      A -- u -- men!}
 
 
         \header {
-          title = \titleFunc " Седми божествен ден" "Sedmi bozhestven den"
+          title = \titleFunc " Седми божествен ден" "Sedmi božestven denn"
         }
 
         \midi{}

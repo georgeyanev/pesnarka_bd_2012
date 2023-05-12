@@ -5,7 +5,7 @@
 
 \bookpart {
 \label #'ref168
-\tocItem \markup "Кажи ми Ти Истината II – Kazhi mi ti istinata II"
+\tocItem \markup "Кажи ми Ти Истината II – Kaži mi Ti Istinata II"
 \include "include/bookpart-paper.ily"
 \score {
   \include "include/score-layout.ily"
@@ -100,27 +100,27 @@
     Ти Ис -- ти -- на -- та, ко -- я --
     то но -- си Сво -- бо -- да за мо
     -- я -- та ду -- ша.}
-    \addlyrics {
-      Ka -- zhi mi Ti Is -- ti -- na -- ta,
-      ko -- ya -- to no -- si Svo -- bo --
-      da za mo -- ya -- ta du -- sha.
-      Ka -- zhi mi Ti Is -- ti -- na -- ta,
-      ko -- ya -- to ot Lyu -- bov -- ta
-      iz -- li --  za i ot Ma --
-      drost -- ta  pro -- si -- ya --
-      va. Sa -- mo ta -- zi Is -- ti -- na
-      no -- si Ve -- chen zhi -- vot i
-      Svo -- bo -- da  za cho -- vesh --
-      ka -- ta du -- sha. Shte ho -- dya
-      v‿to -- ya pat  na Is -- ti --
-      na -- ta i Zhi -- vo -- ta, Gos --
-      po -- di, Bo -- zhe moy. Ka -- zhi mi
-      Ti Is -- ti -- na -- ta, ko -- ya --
-      to no -- si Svo -- bo -- da za mo
-      -- ya -- ta du -- sha.}
+   \addlyrics {
+    Ka -- ži mi Ti Is -- ti -- na -- ta,
+    ko -- ja -- to no -- si "Svo-" -- bo --
+    da za mo -- ja -- ta du -- ša.
+    Ka -- ži mi Ti Is -- ti -- na -- ta,
+    ko -- ja -- to ot "Lju-" -- bov -- ta
+    iz -- li --  za i ot Mă --
+    drost -- ta  pro -- si -- ja --
+    va. Sa -- mo ta -- zi Is -- ti -- na
+    no -- si Ve -- čen ži -- vot i
+    "Svo-" -- bo -- da  za čo -- veš --
+    ka -- ta du -- ša. Šte ho -- dja
+    v‿to -- ja păt  na Is -- ti --
+    na -- ta i Ži -- vo -- ta, Gos --
+    po -- di, Bo -- že moj. Ka -- ži mi
+    Ti Is -- ti -- na -- ta, ko -- ja --
+    to no -- si Svo -- bo -- da za mo
+    -- ja -- ta du -- ša.}
 
       \header {
-        title = \titleFunc "Кажи ми Ти Истината II" "Kazhi mi ti istinata II"
+        title = \titleFunc "Кажи ми Ти Истината II" "Kaži mi Ti Istinata II"
       }
 
       \midi{}

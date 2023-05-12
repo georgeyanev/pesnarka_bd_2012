@@ -107,23 +107,24 @@
       -- газ сър -- це -- то ми за мой --
       та сес -- тра Ра -- дост.
     }
-    \addlyrics {
-      Az  no -- sya skrab -- ta si
-      s~Ra -- dost vav Zhi -- vo -- ta;
-      tya mi e dru -- gar -- ka bla --
-      ga, shto do -- bre me u -- chi. Az
-      no -- sya skrab -- ta si
-      s~ra -- dost vav Zhi -- vo -- ta;
-      tya mi e dru -- gar -- ka, shto me
-      u -- chi. Ma -- kar bez -- spir -- no
-      i da pash -- kam, krot -- ko tya na
+      \addlyrics {
+      Az  no -- sja skrăb -- ta si
+      s~Ra -- dost văv Ži -- vo -- ta;
+      tja mi e dru -- gar -- ka bla --
+      ga, što "do-" -- bre me u -- či. Az
+      no -- sja "skrăb-" -- ta si
+      s~ra -- dost văv Ži -- vo -- ta;
+      tja mi e dru -- gar -- ka, što me
+      u -- či. Ma -- kar bez -- spir -- no
+      i da păš -- kam, krot -- ko tja "na-"
       -- pred me vo -- di. I slad -- ki
-      du -- mi mi go -- vo -- ri tya za
-      ses -- tra si Ra -- dost, ko -- ya --
-      to s~Ra -- dost shte me po -- sresht
-      -- ne. Trep -- na par -- vi pat to
-      -- gaz sar -- tse -- to mi za moy --
-      ta ses -- tra Ra -- dost.}
+      du -- mi mi go -- vo -- ri tja za
+      ses -- tra si Ra -- dost, ko -- ja --
+      to s~Ra -- dost šte me po -- srešt
+      -- ne. Trep -- na păr -- vi păt to
+      -- gaz săr -- ce -- to mi za moj --
+      ta ses -- tra Ra -- dost.
+    }
 
 
       \header {

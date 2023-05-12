@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref169_2
-  \tocItem \markup "Свобода е потребна за душата – Svoboda e potrebna za dushata "
+  \tocItem \markup "Свобода е потребна за душата – Svoboda e potrebna za dušata "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -40,15 +40,15 @@
       -- да е по -- треб -- на за ду --
       ша -- та, за ду -- ша -- та, за ду
       -- ша -- та.}
-      \addlyrics {
-        Svo -- bo -- da e po -- treb -- na
-        za du -- sha -- ta. Svo -- bo
-        -- da e po -- treb -- na za du --
-        sha -- ta, za du -- sha -- ta, za du
-        -- sha -- ta.}
+     \addlyrics {
+      Svo -- bo -- da e po -- treb -- na
+      za du -- ša -- ta. Svo -- bo
+      -- da e po -- treb -- na za du --
+      ša -- ta, za du -- ša -- ta, za du
+      -- ša -- ta.}
 
         \header {
-          title = \titleFunc "Свобода е потребна за душата" "Svoboda e potrebna za dushata"
+          title = \titleFunc "Свобода е потребна за душата" "Svoboda e potrebna za dušata"
         }
 
         \midi{}

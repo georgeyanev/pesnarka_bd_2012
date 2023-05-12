@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref166
-  \tocItem \markup "Бог е Любов II – Bog e Lyubov II"
+  \tocItem \markup "Бог е Любов II – Bog e Ljubov II"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -127,31 +127,31 @@
       та, във ко -- я -- то ца -- ру
       -- ва Бо -- жи --  я -- та
       Лю -- бов.}
-      \addlyrics {
-        Bog e Lyu -- bov,
-        Bog e Lyu -- bov, Bog    e
-        Lyu -- bov,  Bog
-        e Lyu -- bov. Vech --
-        na, bez -- gra -- nich
-        -- na, pal -- na sas Zhi --
-        vot, Zhi --  vot na bla -- gi
-        -- ya Bo -- zhi Duh. Duh na bla --
-        gost -- ta, Duh  na  svya --
-        tost -- ta, Duh na pa -- len Mir
-        i Ra -- dost za vsya -- ka du --
-        sha, Duh na pa -- len Mir i Ra --
-        dost za vsya -- ka du -- sha, za
-        vsya -- ka du -- sha. Niy  shte
-        ho -- dim vav to -- zi pat na
-        Svet -- li -- na -- ta, na Svet --
-        li -- na -- ta, na Svet -- li -- na --
-        ta, na Svet --   li -- na --
-        ta, vav ko -- ya -- to tsa -- ru
-        -- va Bo -- zhi --  ya -- ta
-        Lyu -- bov.}
+    \addlyrics {
+      Bog e Lju -- bov,
+      Bog e Lju -- bov, Bog    e
+      Lju -- bov,  Bog
+      e Lju -- bov. Več --
+      na, bez -- gra -- nič
+      -- na, păl -- na săs Ži --
+      vot, Ži --  vot na bla -- gi
+      -- ja Bo -- ži Duh. Duh na bla --
+      gost -- ta, Duh  na  svja --
+      tost -- ta, Duh na pă -- len Mir
+      i Ra -- dost za vsja -- ka du --
+      ša, Duh na pă -- len Mir i Ra --
+      dost za vsja -- ka du -- ša, za
+      vsja -- ka du -- ša. Nij  šte
+      ho -- dim văv to -- zi păt na
+      Svet -- li -- na -- ta, na Svet --
+      li -- na -- ta, na Svet -- li -- na --
+      ta, na Svet --   li -- na --
+      ta, văv ko -- ja -- to ca -- ru
+      -- va Bo -- ži --  ja -- ta
+      Lju -- bov.}
 
         \header {
-          title = \titleFunc "Бог е Любов II" "Bog e Lyubov II"
+          title = \titleFunc "Бог е Любов II" "Bog e Ljubov II"
         }
 
         \midi{}
