@@ -108,7 +108,7 @@
       Rad -- va se Ze -- mja -- ta, rad --
       va se Ne -- be -- to v~Svet -- li
       -- na. Se -- me -- to, po -- sja -- to
-      v~plod -- na ni -- va, "ras-" -- ne
+      v~plod -- na ni -- va, ras -- ne
       svja -- to "v~Lju-" -- bov -- ta. Bog
       văz -- rast -- va No -- vi -- ja
       ži -- vot "v~Ra-" -- dost i Mir i

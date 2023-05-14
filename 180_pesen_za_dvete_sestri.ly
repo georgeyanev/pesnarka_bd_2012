@@ -112,11 +112,11 @@
       s~Ra -- dost văv Ži -- vo -- ta;
       tja mi e dru -- gar -- ka bla --
       ga, što "do-" -- bre me u -- či. Az
-      no -- sja "skrăb-" -- ta si
+      no -- sja skrăb -- ta si
       s~ra -- dost văv Ži -- vo -- ta;
       tja mi e dru -- gar -- ka, što me
       u -- či. Ma -- kar bez -- spir -- no
-      i da păš -- kam, krot -- ko tja "na-"
+      i da păš -- kam, krot -- ko tja na
       -- pred me vo -- di. I slad -- ki
       du -- mi mi go -- vo -- ri tja za
       ses -- tra si Ra -- dost, ko -- ja --

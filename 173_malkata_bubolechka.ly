@@ -113,7 +113,7 @@
       Tăj bu -- bo -- leč -- ka -- ta šep -- ti
       i se stre -- mi po "na-" -- na -- gor -- ni -- ja păt,
       i preč -- ki -- te ed -- na sled "dru-" -- ga
-      "po-" -- bež -- da -- va.
+      po -- bež -- da -- va.
       Bez -- broj ska -- li, po -- lja, do -- li -- ni
       "sme-" -- lo pre -- mi -- na -- va __
       i vse na -- pred se tja kăm văr -- ha

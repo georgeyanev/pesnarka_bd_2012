@@ -103,7 +103,7 @@
       ne -- be -- to vi -- na -- gi la --
       zur no, Mir i Svet -- li -- na.
       Him -- ni na Lju -- bov -- ta an --
-      ge -- li "bez-" -- spir -- no pe --
+      ge -- li bez -- spir -- no pe --
       jat, trep -- tjat, zvu -- čat "v~a-" --
       kord "zvezd-" -- ni -- te vse -- le
       -- ni. I văz -- ze -- ma se

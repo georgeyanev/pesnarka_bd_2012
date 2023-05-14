@@ -890,7 +890,7 @@
       \vspace #0.5
       \line {
         \justify {
-          122. \bold "Не ли думах  –Ne li dumah."  27. Oktober 1943, Sofia. Izgrev.
+          122. \bold "Не ли думах – Ne li dumah."  27. Oktober 1943, Sofia. Izgrev.
         }
       }
     }

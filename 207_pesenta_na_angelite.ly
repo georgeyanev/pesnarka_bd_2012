@@ -252,7 +252,7 @@
       ču -- e -- te gla -- sa na An
       --  ge -- li -- te, ko -- i
       --  to pe -- jat. Te pe --
-      jat pe -- "sen-" -- ta na Lju -- bov
+      jat pe -- sen -- ta na Lju -- bov
       -- ta. Te pe -- jat: „Vi -- e, če --
       lo -- ve -- ci -- te, ko -- i --
       to ste săz -- da -- de -- ni --
