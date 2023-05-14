@@ -361,7 +361,7 @@
       \vspace #0.5
       \line {
         \justify {
-          47. \bold "Изгрява слънцето – Izgrjava slănceto."  Das Lied entstand am 22. Oktober 1922 in der Allgemeinen Okkultklasse, II. Jahrgang, vierter Vortrag. Petar Danov
+          47. \bold "Изгрява слънцето – Izgrjava slănceto."  Das Lied entstand am 22. Oktober 1922 in der Allgemeinen Okkultklasse, II. Jahrgang, vierter Vortrag. An dieser Stelle sagt 
 
         }
       }
@@ -376,13 +376,13 @@
       \line {
         \justify {
 
-          sagt: „Hier wurde mit vollkommener Einfachheit des Tons und Wortes das herrliche Bild der aufgehenden Sonne geschaffen.“
+          Petar Danov Folgendes: „Hier wurde mit vollkommener Einfachheit des Tons und Wortes das herrliche Bild der aufgehenden Sonne geschaffen.“
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          48. \bold  "Сила жива, изворна – Sila živa, izvorna."  Das Lied entstand am 12. Oktober 1922 in der Allgemeinen Okkultklasse, II. Jahrgang, im zweiten Vortrag.  Petar Danov sagt: „Die Töne dieses Liedes zeigen die Bewegungen, ein Quellen nach oben und ein Erweitern. Das Unterdrückte im Menschen wird befreit; es wird in Gang gesetzt und ihm die richtige Richtung gegeben. Damit der Mensch diese Übung singen kann, muss er in einem harmonischen Kontakt mit der göttlichen Natur treten. Die Worte \italic"Sun me sun" regulieren in der okkulten Musik; sie sind die Gleichgewicht bringende Kraft; sie sind das Maß. \italic"Tu meto" bedeutet eines der schönsten Inhalte.“
+          48. \bold  "Сила жива, изворна – Sila živa, izvorna."  Das Lied entstand am 12. Oktober 1922 in der Allgemeinen Okkultklasse, II. Jahrgang, im zweiten Vortrag.  An der Stelle sagt Petar Danov Folgendes: „Die Töne dieses Liedes zeigen die Bewegungen, ein Quellen nach oben und ein Erweitern. Das Unterdrückte im Menschen wird befreit; es wird in Gang gesetzt und ihm die richtige Richtung gegeben. Damit der Mensch diese Übung singen kann, muss er in einem harmonischen Kontakt mit der göttlichen Natur treten. Die Worte \italic"Sun me sun" regulieren in der okkulten Musik; sie sind die Gleichgewicht bringende Kraft; sie sind das Maß. \italic"Tu meto" bedeutet eines der schönsten Inhalte.“
         }
       }
       \vspace #0.5
