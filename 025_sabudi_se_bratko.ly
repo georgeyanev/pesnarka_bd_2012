@@ -55,7 +55,7 @@
         \tempoFunc "Più mosso " 2. "60"
         d''2 es''4 | d''2 cis''4| d''2  a'4 | bes'2 a'4 | bes'2 a'4 | g'2 fis'4 | \break
         g'2 a'4 | bes'2. | bes'2 a'4 | bes'2 a'4 | bes'2 a'4| \break
-        g'2 fis'4 | g'2 a'4 | bes'2 a'4 | g'2 fis'4 | g'2 |
+        g'2 fis'4 | g'2 a'4 | bes'2 a'4 | g'2 fis'4 | g'2 s4|
       }
     }
 
