@@ -89,7 +89,7 @@
       ša}
 
     \header {
-      title = \titleFunc "Кажи ми ти Истината III" "Kazhi mi ti istinata III"
+      title = \titleFunc "Кажи ми ти Истината III" "Kaži mi ti Istinata III"
     }
 
     \midi{}

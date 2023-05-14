@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref206
-  \tocItem \markup "Божията Любов ме озари – Bozhiyata Lyubov me ozari "
+  \tocItem \markup "Божията Любов ме озари – Božijata Ljubov me ozari  "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

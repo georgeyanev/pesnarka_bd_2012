@@ -5,7 +5,7 @@
 
 \bookpart {
    \label #'ref104
-  \tocItem \markup "Химн на великата Душа – Himn na velikata Dušaa"
+  \tocItem \markup "Химн на великата Душа – Himn na velikata Duša"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

@@ -96,7 +96,7 @@
 
 
         \header {
-          title = \titleFunc " Седми божествен ден" "Sedmi božestven denn"
+          title = \titleFunc " Седми божествен ден" "Sedmi božestven den"
         }
 
         \midi{}
