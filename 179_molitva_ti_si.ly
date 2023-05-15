@@ -72,15 +72,43 @@
       -- ваш сми -- съл. Ед -- ни -- чък
       Ти ме лю_-биш, зна -- я, са -- мо
       "Ти.        И" аз Теб лю -- бя.}
-  \addlyrics {
-      "1. Gos" -- po -- di, Ti si vsič -- ko
-      za me -- ne na Ze -- mja -- ta. Tuk
-      do -- lu– tol -- koz skăr --
-      bi, tăj vsič -- ko pus -- to e
-      bez  Teb i sa -- mo Ti mu da
-      -- vaš smi -- săl. Ed -- ni -- čăk
-      Ti me lju_-biš, zna -- ja, sa -- mo
-      "Ti.        I" az Teb lju -- bja.}
+      \addlyrics {
+        "1. Gos" -- po -- di, Ti si vsič -- ko
+        za me -- ne na Ze -- mja -- ta. Tuk
+        do -- lu– tol -- koz skăr --
+        bi, tăj vsič -- ko pus -- to e
+        bez  Teb i sa -- mo Ti mu da
+        -- vaš smi -- săl. Ed -- ni -- čăk
+        Ti me lju_-biš, zna -- ja, sa -- mo
+        "Ti.        I" az Teb lju -- bja.}
+
+        \addlyrics {
+
+          "2. Го" -- спо -- ди, на -- у -- чи ме
+          да лю -- бя "всич-" -- ко жи -- во,
+          туй,_ко -- "-е" -- то Ти съз -- дал си,
+          и да раз -- на -- сям аз на -- вред
+          Тво -- я -- та "неж-" -- ност,
+          "Ра-" -- дост и_Лю -- бов.
+          Да се на -- у -- ча
+          Теб  аз да слу -- жа, да  бла -- го --  да -- ря.
+
+        }
+
+        \addlyrics {
+
+          "2. Go" -- spo -- di, na -- u -- či me
+          da lju -- bja vsič -- ko ži -- vo,
+          tuj,_ko -- e -- to Ti săz -- dal si,
+          i da raz -- na -- sjam az na -- vred
+          Tvo -- ja -- ta než -- nost,
+          "Ra-" -- dost i_Lju -- bov.
+          Da se na -- u -- ča
+          Teb  az da slu -- ža, da  bla -- go --  da -- rja.
+
+        }
+
+
 
         \header {
           title = \titleFunc "Молитва" "Molitva"
@@ -89,7 +117,7 @@
         \midi{}
 
       } % score
-      \markup \empty-two
+
       \markup \fontsize #bgCoupletFontSize {
         \hspace #1
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
@@ -107,7 +135,7 @@
 
         \hspace #5
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-     \column {
+        \column {
           \line {   2. Gospodi, nauči me}
           \line {   "   " da ljubja vsičko živo,}
           \line {   "   " tuj, koeto Ti săzdal si,}
@@ -119,8 +147,8 @@
 
         } %column
       } % markup
+      \markup \empty-two
 
-      \pageBreak
       % include foreign translation(s) of the song
       \include "lyrics_de/179_molitva_lyrics_de.ly"
     } % bookpart
