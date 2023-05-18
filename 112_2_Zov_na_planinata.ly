@@ -20,8 +20,8 @@
       \autoBeamOff
       \partial 4
       bes4 | % 1
-      es4.  g,8  bes2.  bes4  es4 | % 2
-      g4  f4 ~  f2  f4  g4
+      es4.  g,8  bes2. \bar "!"  bes4  es4 | % 2
+      g4  f4 ~  f2  f4  \bar "!"  g4
       as4 \break | % 3
       \time 5/4  | % 3
       bes2.  bes4  bes4 | % 4

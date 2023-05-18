@@ -10,13 +10,13 @@
   \score {
     \include "include/score-layout.ily"
 
-     \new Voice \absolute {
+    \new Voice \absolute {
       \clef treble
       \key c \major
       \time 5/4
-       \tempoFunc "Andante" 4 "63"
+      \tempoFunc "Andante" 4 "63"
 
-\partial 4
+      \partial 4
 
       c '4 | c'2 ( b4 c' ) d' |\time 4/4  e'4 c' \times 2/3 { b4 ( c'4 d' ) }
 
@@ -52,19 +52,19 @@
       и в~сър -- це ми Лю -- бов съ -- бу -- ди, съ --
       бу -- ди, съ -- бу -- ди, и в~сър -- це ми Лю --
       бов съ -- бу -- ди.}
-   \addlyrics {
-      V~zo -- ri --
-      te na Ži -- vo -- ta, v~zo -- ri -- te na Ži --
-      vo -- ta Slăn -- ce iz -- grja -- va -- še, Slăn --
-      ce iz -- grja -- va -- še, na Pri -- ro -- da gra
-      -- ni -- ci o -- čer -- ta -- va -- še, na Pri --
-      ro -- da gra -- ni -- ci o -- čer -- ta -- va --
-      še. V~du -- ša mi mo -- šten Duh pro -- bu --
-      di,  v~du -- ša mi mo -- šten Duh pro -- bu --
-      di i v~săr -- ce mi Lju -- bov să -- bu -- di,
-      i v~săr -- ce mi Lju -- bov să -- bu -- di, să --
-      bu -- di, să -- bu -- di, i v~săr -- ce mi Lju --
-      bov să -- bu -- di.}
+      \addlyrics {
+        V~zo -- ri --
+        te na Ži -- vo -- ta, v~zo -- ri -- te na Ži --
+        vo -- ta Slăn -- ce iz -- grja -- va -- še, Slăn --
+        ce iz -- grja -- va -- še, na Pri -- ro -- da gra
+        -- ni -- ci o -- čer -- ta -- va -- še, na Pri --
+        ro -- da gra -- ni -- ci o -- čer -- ta -- va --
+        še. V~du -- ša mi mo -- šten Duh pro -- bu --
+        di,  v~du -- ša mi mo -- šten Duh pro -- bu --
+        di i v~săr -- ce mi Lju -- bov să -- bu -- di,
+        i v~săr -- ce mi Lju -- bov să -- bu -- di, să --
+        bu -- di, să -- bu -- di, i v~săr -- ce mi Lju --
+        bov să -- bu -- di.}
 
         \header {
           title = \titleFunc "В зорите на Живота" "V zorite na Života"
@@ -73,8 +73,8 @@
         \midi{}
 
       } % score
-      
-       \markup \empty-two
+
+      \markup \empty-two
 
 
       % include foreign translation(s) of the song
