@@ -49,7 +49,7 @@
         \alternative {
         {
         g'2.| }   {
-        g'2 s4| \bar "|." } }
+        g'2 \bar "|." } }
      
     }
 

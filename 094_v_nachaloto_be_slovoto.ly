@@ -40,7 +40,7 @@
         a'2 gis'4 a' | bes'2 a' | \time 6/4  g'4 ( a' ) f'2 e'4 f' | g'4 ( a' ) e'2. e'4 \break |
 
         f'4 g' a' e' g'2 | \time 4/4  f'2 e'
-      } \alternative { { | d'2. a4 | } { d'2. s4 } } \bar "|."
+      } \alternative { { | d'2. a4 | } { d'2. s4} } \bar "|." |
     }
 
     \addlyrics {
