@@ -82,7 +82,7 @@
 
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+    \hspace #2.5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
 
@@ -122,7 +122,7 @@
   \pageBreak
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+    \hspace #2.5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
 

@@ -33,16 +33,16 @@
   }
 
 
-  \markup \fontsize  #+4.5  {\bold {  \hspace #3  \vspace #15.5 Lieder von Beinsa Duno} }
+  \markup \fontsize  #+5.5  {\bold {  \hspace #3  \vspace #15.8 Liederbuch} }
 
 
 
-  \markup \fontsize  #+2  { {  \hspace #3  \vspace #0.8 Originaltitel:  Песни от Учителя} }
+  \markup \fontsize  #+2  { {  \hspace #3  \vspace #0.8 Originaltitel: Песни от Учителя} }
   \markup \fontsize  #+2 { {  \hspace #3  \vspace #0.8 Erste deutsche Ausgabe} }
   \markup \fontsize  #+2  { {  \hspace #3  \vspace #0.5 auf der Grundlage der bulgarischen Ausgabe von 2012} }
   \markup \fontsize  #+2 { {  \hspace #3  \vspace #0.5 Veröffentlicht in Bulgarien} }
 
-  \markup \fontsize  #+3  { \bold{  \hspace #3  \vspace #1.5 Redaktion:} Peter Ganev }
+  \markup \fontsize  #+3.5  { \bold{  \hspace #3  \vspace #1.5 Redaktion:} Peter Ganev }
 
   \markup \fontsize  #+2  { \bold{  \hspace #3  \vspace #1.5  Zusammengestellt von:} }
 

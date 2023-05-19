@@ -864,7 +864,12 @@
       \vspace #0.5
       \line {
         \justify {
-          119. \bold  "Ставай, дъще! – Stavaj, dăšte!." Das Lied entstand 1934 als bulgarisches Volkslied, dessen ursprüngliche Reinheit wiederhergestellt wurde. Viele bulgarische Volkslieder haben einen okkulten Ursprung.
+          119. \bold  "Ставай, дъще! – Stavaj, dăšte!." Das Lied entstand 1934 als bulgarisches Volkslied, dessen ursprüngliche Reinheit wiederhergestellt wurde. Viele bulgarische Volkslieder haben einen okkulten Ursprung. 
+          Penju Ganev sang dieses Lied den Dorffrauen im Dorf Aldomirovzi vor, wo er als Lehrer gearbeitet. Ihnen gefiel das Lied sehr; sie bemengelten jedoch, dass es nur eine Strophe habe.
+          Nachdem Danov davon erführ, bat er seine Schülerin Vessela Nestorova, ein zweite Strophe dazuzudichten.
+          Nachdem die Doftfrauen wieder mit der Länge des Liedes nicht zufrieden waren, dichtete Danov die dritte Strophe. 
+          So sind die drei Strophen des Liedes entstanden. Inhaltlich lehnt sich der Text starkt an die Bibel:
+          „Die Ernte ist groß, der Arbeiter aber sind wenige.“ Lk 10,2.
         }
       }
 
