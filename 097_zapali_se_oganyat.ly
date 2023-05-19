@@ -34,7 +34,7 @@
         c''4 c''2 d''4 a'8 bes' | \time 4/4  c''4 c''2 bes'4 | \time 3/4  bes'8 a' bes'4 d'' \break |
 
         \time 4/4  c''4 bes' a' e'
-      } \alternative { { | f'4 d'2 a'8 bes' | } {  f'4 d'2 s4 } } \bar "|."
+      } \alternative { { | f'4 d'2 a'8 bes' | } {  f'4 d'2 } } \bar "|."
     }
 
     \addlyrics {
