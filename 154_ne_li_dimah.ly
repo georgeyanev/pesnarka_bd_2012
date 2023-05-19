@@ -81,7 +81,7 @@
 
     \pageBreak
 
-   \markup \fontsize #+1.7 {
+   \markup \fontsize #+1.6 {
     \override #'(baseline-skip . 1.8)
       \column {
 

@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Gehe auf, du, meine Sonne" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace # -1
+\markup \fontsize #+2.0 {
+  
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -53,7 +53,7 @@
 
   }
 
-  \hspace #-5
+  \hspace #-4
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
