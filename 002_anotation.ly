@@ -33,7 +33,7 @@
   }
 
 
-  \markup \fontsize  #+2.5  {\bold {  \hspace #3  \vspace #15.5 Lieder von Beinsa Duno} }
+  \markup \fontsize  #+4.5  {\bold {  \hspace #3  \vspace #15.5 Lieder von Beinsa Duno} }
 
 
 
@@ -42,19 +42,19 @@
   \markup \fontsize  #+2  { {  \hspace #3  \vspace #0.5 auf der Grundlage der bulgarischen Ausgabe von 2012} }
   \markup \fontsize  #+2 { {  \hspace #3  \vspace #0.5 Veröffentlicht in Bulgarien} }
 
-  \markup \fontsize  #+2  { \bold{  \hspace #3  \vspace #1.5 Redaktion:} Peter Ganev }
+  \markup \fontsize  #+3  { \bold{  \hspace #3  \vspace #1.5 Redaktion:} Peter Ganev }
 
-  \markup \fontsize  #+2.5  { \bold{  \hspace #3  \vspace #1.5  Zusammengestellt von:} }
+  \markup \fontsize  #+2  { \bold{  \hspace #3  \vspace #1.5  Zusammengestellt von:} }
 
-  \markup \fontsize  #+2.5  { \hspace #5  \vspace #0.5 Georgi Stratev}
-  \markup \fontsize  #+2.5  { \hspace #5  \vspace #0.5 Ioana Strateva}
-  \markup \fontsize  #+2.5  { \hspace #5  \vspace #0.5 Stanka Zheleva}
-  \markup \fontsize  #+2.5  { \hspace #5  \vspace #0.5 Penka Kadieva}
-  \markup \fontsize  #+2.5  { \hspace #5  \vspace #0.5 Peter Ganev}
-  \markup \fontsize  #+2.5  {  \bold{  \hspace #3  \vspace #1.5  Übersetzung aus dem Bulgarischen: } Mariya Kireva}
-  \markup \fontsize  #+2.5  {  \bold{  \hspace #3 \hspace #0.8 Redaktion: } Klaudia Wittich-Harz}
+  \markup \fontsize  #+2  { \hspace #5  \vspace #0.5 Georgi Stratev}
+  \markup \fontsize  #+2  { \hspace #5  \vspace #0.5 Ioana Strateva}
+  \markup \fontsize  #+2  { \hspace #5  \vspace #0.5 Stanka Zheleva}
+  \markup \fontsize  #+2  { \hspace #5  \vspace #0.5 Penka Kadieva}
+  \markup \fontsize  #+2  { \hspace #5  \vspace #0.5 Peter Ganev}
+  \markup \fontsize  #+2  {  \bold{  \hspace #3  \vspace #1.5  Übersetzung aus dem Bulgarischen: } Mariya Kireva}
+  \markup \fontsize  #+2  {  \bold{  \hspace #3 \hspace #0.8 Redaktion: } Klaudia Wittich-Harz}
 
-  \markup \fontsize  #+2.5  {  \bold{  \hspace #3  \vspace #1.5  Layout: } George Yanev}
+  \markup \fontsize  #+2  {  \bold{  \hspace #3  \vspace #1.5  Layout: } George Yanev}
   \markup \fontsize  #+4.5  {\bold{  \hspace #3  \vspace #2.5 ISBN: } place the isbn later}
 
 
