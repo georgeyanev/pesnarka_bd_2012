@@ -30,7 +30,7 @@
         {
           b'4\tempo "rit." a'4
           \override Staff.BarLine.stencil = ##f %hide bar line
-          g'4.^\markup \bold{"                       Fine"}\fermata
+          g'4.^\markup \bold{"                     Fine" } \fermata
           \revert Staff.BarLine.stencil
           \bar "|."
         }

@@ -16,7 +16,6 @@
       \time 3/8
       \tempoFunc "Moderato" 8 "88"
       \autoBeamOff
-      \partial 4.
       a4. | % 2
       d4  e8 | % 3
       f16  f16  e8  d8 | % 4

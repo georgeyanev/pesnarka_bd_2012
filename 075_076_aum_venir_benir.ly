@@ -19,7 +19,7 @@
       \autoBeamOff
       \partial 4
 
-      g4 |  c'2 g4 | e'2 c'4 | g'2. |  f'2. | e'2. | d'2. | c'2. \fermata | \bar "|."
+      g4 |  c'2 g4 | e'2 c'4 | g'2. |  f'2. | e'2. | d'2. | c'2  \fermata s4| \bar "|."
     }
 
     \addlyrics {
