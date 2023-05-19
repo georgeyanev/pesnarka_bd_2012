@@ -61,7 +61,7 @@
   } % score
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+    \hspace #3
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line { 2. Обвити в мрак до този час, }
@@ -92,7 +92,7 @@
   \pageBreak
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+    \hspace #3
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line { 3. Учителю Благословен, }

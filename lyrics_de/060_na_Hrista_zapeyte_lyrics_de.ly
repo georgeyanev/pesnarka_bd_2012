@@ -63,7 +63,7 @@
 
   }
     
-   \hspace #-1
+   \hspace #-1.5
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
 

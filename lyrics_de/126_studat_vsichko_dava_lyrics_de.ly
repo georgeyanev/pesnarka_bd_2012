@@ -51,6 +51,7 @@
 
 
   \override #'(baseline-skip . 1.8)
+ 
   \column {
 
 
@@ -78,7 +79,8 @@
 
     \line { " " begleitest du sie wieder,}
 
-    \line { " " und kleidest sie in dein lichtes Gewand.}
+    \line { " " und kleidest sie }
+     \line { " " in dein lichtes Gewand.}
 
     \line { " " Du sprichst wenig, denkst viel,}
 

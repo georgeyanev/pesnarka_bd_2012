@@ -44,7 +44,7 @@
 
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #11
+    \hspace #13
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 

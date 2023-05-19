@@ -58,7 +58,7 @@
       \pageBreak
 
       \markup \fontsize #bgCoupletFontSize {
-        \hspace #1
+        \hspace #2
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
         \column {
           \line {   2. Огрей небето и Земята,}

@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Kühnheit in Christus" }
 \markup \null
 \markup \null
-\markup \fontsize #+1.9 {
-  \hspace #-1
+\markup \fontsize #+1.8 {
+ 
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {

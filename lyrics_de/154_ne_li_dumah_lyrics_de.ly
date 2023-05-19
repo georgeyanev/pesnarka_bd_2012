@@ -53,7 +53,8 @@
 
     \line  {   "   " Wer sie sieht, wie sie im Dorf arbeitet und wie sie jedem hilft,}
 
-    \line  {   "   " beginne das Gute zu lieben und es kundzutun, so wie diese gute Seele.}
+    \line  {   "   " beginne das Gute zu lieben und es kundzutun, }
+    \line  {   "   " so wie diese gute Seele.}
 
 
 

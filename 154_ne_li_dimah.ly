@@ -81,9 +81,8 @@
 
     \pageBreak
 
-    \markup \fontsize #+1.7 {
-      \hspace #-1
-      \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+   \markup \fontsize #+1.7 {
+    \override #'(baseline-skip . 1.8)
       \column {
 
         \line {   "   " 2. Да не ходи вечер, мамо, на чешмата,}
@@ -125,8 +124,8 @@
         \line {   "        " като тая душа блага.}
       }
 
-      \hspace #-1
-      \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+      \hspace #-2
+      \override #'(baseline-skip . 1.8)
      
       \column {
 

@@ -77,7 +77,7 @@
   \markup \italic \dc-one-nobold "attacca „Тъги скърби“/attacca „Tăgi skărbi“"
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #3
+    \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
