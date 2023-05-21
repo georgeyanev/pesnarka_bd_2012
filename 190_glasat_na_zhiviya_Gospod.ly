@@ -16,8 +16,8 @@
       \time 3/4
       \tempoFunc "Maestoso" 4 "66"
      
-      \partial 4
-      r8 d'8 | % 2
+      \partial 8
+      d'8 | % 2
       a'4. g'8 \once \omit TupletBracket \tuplet 3/2 {
         g'8 ( [ fis'8 )  g'8 ]
       }
@@ -102,7 +102,7 @@
         gis'8 ( [  a'8
         ) ] b'8
       }
-      a'2
+      a'4.
       \bar "|."
 
     }
