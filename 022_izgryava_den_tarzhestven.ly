@@ -40,7 +40,7 @@
       та об -- но -- вя -- ва и веч -- но тя го под
       -- мла -- дя -- ва.
     }
-\addlyrics {
+    \addlyrics {
       Iz -- grja -- va ve -- če den tăr -- že -- stven, pred -- re -- če
       -- ni -- jat den Bo -- že -- stven, na dni --
       te di -- a -- de -- ma, săs svet -- li -- na go
