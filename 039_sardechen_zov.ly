@@ -22,7 +22,7 @@
       g'2 g'4 | c''2 d''4 | e''2 d''4 | c''2 c''8 ( [d''8]) | \break
 
       \repeat volta 2 {
-        e''2 \slurDashed e''8 ([e'']) |\slurSolid e''4 ( d'' ) c'' | b'4. a'8  \slurDashed b' ([a']) | g'2 e'8. f'16 | \break
+        e''2 e''8 e'' | e''4 ( d'' ) c'' | b'4. a'8   b' a' | g'2 e'8. f'16 | \break
         g'4 c' d' | e' e' d' |
       }
       \alternative {
@@ -50,11 +50,11 @@
       g'2 g'4 | c''2 d''4 | e''4 e''4 d''4 | c''2 c''8 ([d''8]) | \break
 
       \repeat volta 2 {
-        e''2 \slurDashed e''8   ( [ e''] ) | e''4  d'' c'' | \slurSolid b'4. (a'8)  b' ([a']) | g'2 e'8. f'16 | \break
+        e''2 e''8  e'' | e''4  d'' c'' | \slurSolid b'4. (a'8)  b' ([a']) | g'2 e'8. f'16 | \break
         g'4 c' d' | e' e' d' |
       }
       \alternative {
-        { c'2. ~| c'2 \slurDashed c''8 ( [ d'' ] )   |   }
+        { c'2. ~| c'2 c''8  d''   |   }
         {\slurSolid  c'2. ( | c'4 ) r4 r4 \bar "|."  | \break }
       }
 
@@ -63,7 +63,7 @@
     \addlyrics {
       "1.Пред" Теб при -- па -- да -- ме, Гос -- по -- ди, днес
       с~чис -- ти, тре -- пет -- ни  ду -- ши. Във
-      пе -- сен_из -- ли --  ва -- ме  сър -- ца-та си и зо --
+      пе -- сен из -- ли --  ва -- ме  сър -- ца -- та си и зо --
       вем Те, Пре -- свя -- тий, про -- сти! Във сти!
 
       "2.За" -- бра -- вяй на -- ши -- те гре -- хо -- ве, о --
@@ -74,12 +74,12 @@
       "3.Там" да те сла -- вим през веч -- ност -- та, E --
       дин Ти за слу -- жа -- ваш хва -- ла. О-гра --
       ди ни_с Тво -- и -- те ми -- лос -- ти, о -- за --
-      ри ни с~Твой -- та Свет -- ли -- на! __ О-гра -- на!
+      ри ни "с~Твой-" -- та Свет -- ли -- на! __ О-гра -- на!
     }
      \addlyrics {
       "1.Pred" Teb pri -- pa -- da -- me, Gos -- po -- di, dnes
       s~čis -- ti, tre -- pet -- ni  du -- ši. Văv
-      pe -- sen_iz -- li --  va -- me  săr -- ca-ta si i zo --
+      pe -- sen iz -- li --  va -- me  săr -- ca -- ta si i zo --
       vem Te, Pre -- svja -- tij, pro -- sti! Văv sti!
 
       "2.Za" -- bra -- vjaj na -- ši -- te gre -- ho -- ve, o --
