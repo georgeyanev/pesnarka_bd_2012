@@ -46,7 +46,7 @@
       d''2 d''8 c'' \repeat volta 2 {
         | bes'4 d'' c''8 bes' | a'4 c'' f'8 g' \break |
         a'4 c'' g'8 c'8 |
-      } \alternative { { f'2 d''8 c''  | } { f'2. | \break } } \bar "|."
+      } \alternative { { f'2 d''8 c''  | } { f'2 \break } } \bar "|."
     }
 
     \addlyrics {
