@@ -250,8 +250,6 @@
       
       d'4  d'2 \bar "|."
 
-      %ima greshki
-
     }
 
     \addlyrics {
