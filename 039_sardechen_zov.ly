@@ -50,12 +50,12 @@
       g'2 g'4 | c''2 d''4 | e''4 e''4 d''4 | c''2 c''8 ([d''8]) | \break
 
       \repeat volta 2 {
-        e''2 e''8  e'' | e''4  d'' c'' | \slurSolid b'4. (a'8)  b' ([a']) | g'2 e'8. f'16 | \break
+        e''2 e''8  e'' | e''4  d'' c'' | b'4. ( a'8 )  b' ([a']) | g'2 e'8. f'16 | \break
         g'4 c' d' | e' e' d' |
       }
       \alternative {
         { c'2. ~| c'2 c''8  d''   |   }
-        {\slurSolid  c'2. ( | c'4 ) r4 r4 \bar "|."  | \break }
+        { c'2. ( | c'4 ) r4 r4 \bar "|."  | \break }
       }
 
     }
@@ -73,7 +73,7 @@
 
       "3.Там" да те сла -- вим през веч -- ност -- та, E --
       дин Ти за слу -- жа -- ваш хва -- ла. О-гра --
-      ди ни_с Тво -- и -- те ми -- лос -- ти, о -- за --
+      ди ни с~Тво -- и -- те ми -- лос -- ти, о -- за --
       ри ни "с~Твой-" -- та Свет -- ли -- на! __ О-гра -- на!
     }
      \addlyrics {
@@ -89,7 +89,7 @@
 
       "3.Tam" da te sla -- vim prez več -- nost -- ta, E --
       din Ti za slu -- ža -- vaš hva -- la. O-gra --
-      di ni_s Tvo -- i -- te mi -- los -- ti, o -- za --
+      di ni s~Tvo -- i -- te mi -- los -- ti, o -- za --
       ri ni s~Tvoj -- ta Svet -- li -- na! __ O-gra -- na!
     }
 

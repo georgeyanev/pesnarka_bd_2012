@@ -34,10 +34,10 @@
       \time 4/2
       \tempoFunc "Andante cantabile" 2 "60"
       \autoBeamOff
-      \partial 2*3
-       r4 c'4 f'2 g'2 | % 2
-      as'4 as'4 g'4 ( f'4 ) g'2 r4 g'4 | % 3
-      c''2 bes'2 as'2 f'2 \break | % 4
+      \partial 4
+      c'4 | f'2 g'2 
+      as'4 as'4 g'4 ( f'4 ) | \time 2/2 g'2 r4 g'4 | % 3
+      \time 4/2 c''2 bes'2 as'2 f'2 \break | % 4
       g'4 ( as'4 ) g'1 \fermata g'4. a'8 | % 5
       \time 3/2  bes'2 g'2 c''2 | % 6
       bes'2 as'4 as'4 g'4 f'4 \break | % 7
@@ -73,7 +73,7 @@
       \time 4/2  c''2. c''4 c''2 g'2 \break | % 36
       \time 2/2  r4 c''4 \tempo "rall."  c''4c''4 | % 37
       d''2. c''4 | % 38
-      c''4 c''4 c''2 \fermata \bar "|."
+      \time 3/2 c''4 c''4 c''2. \bar "|."
     }
 
     \addlyrics {

@@ -49,7 +49,7 @@
      c'2 e'4 | g'2. \breathe | e'2 g'4 | c''2. \breathe | \time 4/4 \tempo "        rit." b'4 ( d''4 ) c''4 ( a'4 ) \break
 
      \time 3/4 g'2 e'4 | g'4 ( f'4 ) e'4
-   } \alternative { { c'2  \breathe e'4 } {c'2. } } \bar "|."
+   } \alternative { { c'2  \breathe e'4 } {c'2 \fermata } } \bar "|."
 
  }
 

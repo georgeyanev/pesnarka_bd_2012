@@ -119,7 +119,7 @@
       bes,8 a8  bes8  c8
       d8  es8 | % 41
       f2. | % 42
-      es2. \bar "|."
+      es2 \fermata \bar "|."
 
     }
 

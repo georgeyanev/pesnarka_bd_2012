@@ -60,7 +60,7 @@
       es'2 |
       des'2 | % 21
       c'2 | % 22
-      bes2 ^\fermata \bar "|."
+      bes2 ( | bes4 ) \bar "|."
     }
 
     \addlyrics {

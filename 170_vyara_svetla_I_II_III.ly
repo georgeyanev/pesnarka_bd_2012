@@ -39,7 +39,7 @@
           es'8 ) | % 11
           \time 3/4 d'2  bes8 d'8
         }
-        { \time 2/4 f'4 (es') | d'2 | }
+        { \time 2/4 f'4 (es') | \time 3/4 d'2  }
       }
 
       \bar "|."

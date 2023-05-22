@@ -58,7 +58,7 @@
       fis'8.  e'16  e'4 \break \time 3/4  d'2 r8
       d'8  e'8  fis'8  g'8  a'8
       b'8  d''8 ^\fermata  c''4.  b'8
-      a'8  g'8 \time 2/4  b'4  a'4
+      a'8  g'8 |  b'2  a'4
       g'2 \bar "|."
     }
     \addlyrics {      Ка -- жи ми Ти Ис -- ти -- на -- та,
@@ -73,7 +73,7 @@
       Ка -- жи ми Ти "Ис-" -- "ти-" --
       на -- та, ко -- я -- то но -- си "Сво-"
       -- бо -- да за мо -- я -- та ду --
-      ша}
+      ша.}
     \addlyrics {      Ka -- ži mi Ti Is -- ti -- na -- ta,
       ko -- ja -- to no -- si "Svo-" -- bo --
       da za mo -- ja -- ta du -- ša.

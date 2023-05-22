@@ -247,7 +247,7 @@
       \time 4/4  | % 115
       f'4  f'8  e'8  f'4  e'8.
       a16 | % 116
-      \time 3/4  | % 116
+      
       d'4  d'2 \bar "|."
 
       %ima greshki

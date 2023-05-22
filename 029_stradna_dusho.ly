@@ -13,11 +13,11 @@
     \new Voice \absolute {
       \clef treble
       \key d \minor
-      \time 3/4
+      \time 4/4
       \tempoFunc "Andante" 4 "60"
       \autoBeamOff
-      \partial 4
-      d'8 d' | g'8 ([ a' ]) a'2 | \time 2/4 bes'8 ([ a' ])  bes' ([ c'' ])  | \break
+      
+      d'8 d' g'8 ([ a' ]) a'2 | \time 2/4 bes'8 ([ a' ])  bes' ([ c'' ])  | \break
 
       \time 4/4 bes'4 a'2 a'8 a' |
       d''4. d''8 c'' ([ d'' ]) d'' ([ c'' ]) \time 3/4  bes'4 a'2 |\break
