@@ -45,7 +45,7 @@
    %\markup \dc-two "D.C.""con repitione"
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+    \hspace #3
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line {  2. Запявам аз  песен чудна}
@@ -57,7 +57,7 @@
       \line {   "   " Той зове ме кротко там нагоре.}
     }
 
-    \hspace #5
+    \hspace #3
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line {  2. Zapyavam az  pesen chudna}
