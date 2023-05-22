@@ -15,21 +15,16 @@
 
       \clef treble
       \key es \major
-      \time 7/4
+      \time 6/4
       \tempoFunc "Moderato" 4 "88"
       \autoBeamOff
-      \partial 4
-      bes4 | % 1
-      es4.  g,8  bes2. \bar "!"  bes4  es4 | % 2
-      g4  f4 ~  f2  f4  \bar "!"  g4
-      as4 \break | % 3
-      \time 5/4  | % 3
-      bes2.  bes4  bes4 | % 4
-      \time 3/4  | % 4
-      c4  bes2 | % 5
-      \time 5/4  | % 5
-      as4  g2  f4  bes,4 | % 6
-      f'2  es2. \bar "|."
+      \partial 2.
+      bes4 
+      es4.  g,8 | 
+      bes2.  bes4  es4 g4 | 
+      f2.  f4  g4 as4 \break |
+      bes2.  bes4  bes4 c4 | bes2.
+      as4  g2 | f4  bes,4 f'1 | es2. \bar "|."
     }
 
     \addlyrics {
