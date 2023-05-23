@@ -41,6 +41,17 @@
 
   \markup \fontsize  #+2.5  { {  \hspace #25  \vspace #1.5 Bulgarisch-Deutsch} }
 
+    \markup {   
+      \vspace #21.5
+      \hspace #26
+      \general-align #Y #DOWN { 
+        \epsfile #X #13 #"./img/logo_large.eps"
+      }
+    }
+
+     \markup \fontsize  #+2.5  { {  \hspace #24  \vspace #1.5 Verlag Bjalo Bratstvo} }
+     \markup \fontsize  #+2.5  { {  \hspace #28  \vspace #0.7 Sofia 2023} }
+
 
   % include foreign translation(s) of the song
   %\include "lyrics_de/000_empty_template_lyrics_de.ly"

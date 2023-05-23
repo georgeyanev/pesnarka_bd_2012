@@ -128,7 +128,7 @@
         }
       }
 
-   
+
       \vspace #0.5
       \line {
         \justify {
@@ -361,7 +361,7 @@
       \vspace #0.5
       \line {
         \justify {
-          47. \bold "Изгрява слънцето – Izgrjava slănceto."  Das Lied entstand am 22. Oktober 1922 in der Allgemeinen Okkultklasse, II. Jahrgang, vierter Vortrag. An dieser Stelle sagt 
+          47. \bold "Изгрява слънцето – Izgrjava slănceto."  Das Lied entstand am 22. Oktober 1922 in der Allgemeinen Okkultklasse, II. Jahrgang, vierter Vortrag. An dieser Stelle sagt
 
         }
       }
@@ -864,10 +864,10 @@
       \vspace #0.5
       \line {
         \justify {
-          119. \bold  "Ставай, дъще! – Stavaj, dăšte!." Das Lied entstand 1934 als bulgarisches Volkslied, dessen ursprüngliche Reinheit wiederhergestellt wurde. Viele bulgarische Volkslieder haben einen okkulten Ursprung. 
-          Penju Ganev sang dieses Lied den Dorffrauen im Dorf Aldomirovzi vor, wo er als Lehrer gearbeitet. Ihnen gefiel das Lied sehr; sie bemengelten jedoch, dass es nur eine Strophe habe.
-          Nachdem Danov davon erführ, bat er seine Schülerin Vessela Nestorova, ein zweite Strophe dazuzudichten.
-          Nachdem die Doftfrauen wieder mit der Länge des Liedes nicht zufrieden waren, dichtete Danov die dritte Strophe. 
+          119. \bold  "Ставай, дъще! – Stavaj, dăšte!." Das Lied entstand 1934 als bulgarisches Volkslied, dessen ursprüngliche Reinheit wiederhergestellt wurde. Viele bulgarische Volkslieder haben einen okkulten Ursprung.
+          Penju Ganev – ein Schüler von Petar Danov – sang dieses Lied den Dorffrauen im Dorf Aldomirovzi vor, wo er als Lehrer gearbeitet. Ihnen gefiel das Lied sehr; sie bemengelten jedoch, dass es nur eine Strophe habe.
+          Nachdem Danov davon erführ, bat er seine Schülerin Vessela Nestorova, eine zweite Strophe dazuzudichten.
+          Nachdem die Doftfrauen wieder mit der Länge des Liedes nicht zufrieden waren, denn es habe ja wieder keine Worte, fügte Danov die dritte Strophe hinzu.
           So sind die drei Strophen des Liedes entstanden. Inhaltlich lehnt sich der Text starkt an die Bibel:
           „Die Ernte ist groß, der Arbeiter aber sind wenige.“ Lk 10,2.
         }
@@ -886,7 +886,13 @@
           120. \bold  "Българска рапсодия – Bălgarska rapsodija."  Das Lied entstand 1934. Redaktion Maria Todorova. Hier hat Petar Danov die erhabensten Gestalten aus dem bulgarischen Epos dargestellt. Ihnen liegt eine tiefe Symbolik zugrunde: Das ist der mystische Weg der menschlichen Seele, die danach strebt, in Berührung mit der göttlichen Liebe zu kommen.
         }
       }
-      \vspace #0.5
+
+    }
+  }
+
+  \markup \fontsize  #+2  {
+    \override #'(baseline-skip . 2.2)
+    \column {
       \line {
         \justify {
           121. \bold "Българска идилия – Bălgarska idilija."  Notiert von einer Tonbandaufnahme von Petar Kamburov, redigiert von Georgi Stratev, Ioanna Strateva und Stanka Zeleva. Petar Danov gab persönlich dieses Lied Peter Kamburov im Februar 1920 in Opultschenska-Straße 66. Die Idylle beschreibt das Streben der bulgarischen Seele nach dem Ewigen im Leben. Sie will die ewige Gerechtigkeit, die ewige Liebe, die das Sein erfüllen, erreichen. Sie erahnt die Existenz einer schönen Welt in sich und möchte sie Wirklichkeit werden lassen.
@@ -898,12 +904,6 @@
           122. \bold "Не ли думах – Ne li dumah."  27. Oktober 1943, Sofia. Izgrev.
         }
       }
-    }
-  }
-
-  \markup \fontsize  #+2  {
-    \override #'(baseline-skip . 2.2)
-    \column {
 
       \vspace #0.4
 
@@ -936,7 +936,7 @@
       \vspace #0.4
       \line {
         \justify {
-          127. \bold "Марш на светлите сили – Marš na svetlite sili –Marsch der lichen Mächte." 27. Mai. 1936. Siegreicher Marsch der lichten Engelmächte in der lebendigen Natur, die in ihrem charakteristischen Rhythmus fortschreiten. Mit dieser Musik erhebt sich der Mensch in die Welt der Engel.
+          127. \bold "Марш на светлите сили – Marš na svetlite sili – Marsch der lichen Mächte." 27. Mai. 1936. Siegreicher Marsch der lichten Engelmächte in der lebendigen Natur, die in ihrem charakteristischen Rhythmus fortschreiten. Mit dieser Musik erhebt sich der Mensch in die Welt der Engel.
         }
       }
       \vspace #0.4
@@ -1119,14 +1119,14 @@
         }
       }
       \vspace #0.4
-     
+
     }
   }
 
   \markup \fontsize  #+2  {
     \override #'(baseline-skip . 2.2)
     \column {
-       \line {
+      \line {
         \justify {
           154. \bold "Песен за двете сестри – Pesen za dvete sestri."  Das Lied entstand während der Evaluation in Martschaevo 1944.
         }
