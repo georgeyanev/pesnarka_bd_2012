@@ -1033,7 +1033,7 @@
       \vspace #0.4
       \line {
         \justify {
-          140. \bold  "Вяра светла III – Vjara svetla III." Unpublizierte Variante des Liedes. Der mittlere Teil ist von einem Schüler aus Varna.
+          140. \bold  "Вяра светла III – Vjara svetla III." Unpublizierte Variante des Liedes. Der mittlere Teil des Liedes hat ein Schüler aus Varna komponiert.
         }
       }
       \vspace #0.4
@@ -1058,7 +1058,7 @@
       \vspace #0.4
       \line {
         \justify {
-          144. \bold  "Малката буболечица – Malkata bubolečica." 27. Mai 1933.
+          144. \bold  "Малката буболечица – Malkata bubolečica." 27. Mai 1933. Musik von Petar Danov. Text von Olga Slavcheva. In dieser Notation wurde die Originalmelodie, die im Liederbuch von Maria Todorova verändert wurde, wiederhergestellt.
         }
       }
 
