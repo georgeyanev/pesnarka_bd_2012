@@ -29,7 +29,7 @@
       
       \time 6/4 b'4 ( d''4 ) c''4 ( a'4 ) g'2 \tempo "rit." | \break 
       
-      e'2 d'4. c'8 c'4 \bar "||"    g'4  | \tempoFunc "Poco più mosso" 4 "76"
+      e'2 d'4. c'8 c'4 \fermata \bar "||" \tempoFunc "Poco più mosso" 4 "76" g'4  | 
 
       \time 3/4 
 
