@@ -17,17 +17,27 @@
       \time 3/4
       \tempoFunc "Andantino" 4 "69"
 
-      c'4 e'4 g'4 | c''2 ( d''16 c'' b' c'' ) |  d''4 c''4 a'4 | g'2 g'4 | d''2 c''4 \break |
+      c'4 e'4 g'4 | c''2 ( d''16 c'' b' c'' ) |  d''4 c''4 a'4 | g'2 g'4 | \break
+      
+       d''2 c''4  |
 
-      b'4 ( a'4 ) g'4 | a'2 g'4 | c''2.| \time 6/4 e'2 d'4. c'8 g'2 | \time 4/4 c'4 e'4  g'2  | \break
+      b'4 ( a'4 ) g'4 | a'2 g'4 | c''2.| \time 6/4 e'2 d'4. c'8 g'2 |  \break
+      
+      \time 4/4 c'4 e'4  g'2  |
 
-      e'4 g'4 c''2 |\time 6/4 b'4 ( d''4 ) c''4 ( a'4 ) g'2 \tempo "rit." | e'2 d'4. c'8 c'2 | \bar "||" \break
+      e'4 g'4 c''2 | 
+      
+      \time 6/4 b'4 ( d''4 ) c''4 ( a'4 ) g'2 \tempo "rit." | \break 
+      
+      e'2 d'4. c'8 c'4 \bar "||"    g'4  | \tempoFunc "Poco più mosso" 4 "76"
 
-      \time 3/4 \partial 4
+      \time 3/4 
 
      
-      \tempoFunc "Poco più mosso" 4 "76"
-      g'4 | g'8 ( fis'8 g'8 a'8 ) g'4 | c''2 d''4 | \time 2/4 c''4 a'4 |\time 3/4 g'2 g'4 | d''2 e''4 |  \break
+     
+      g'8 ( fis'8 g'8 a'8 ) g'4 |  \break
+      
+      c''2 d''4 | \time 2/4 c''4 a'4 |\time 3/4 g'2 g'4 | d''2 e''4 |  \break
 
       \time 4/4 d''4 c'' c'' b' | \time 6/4 c''4 a' g' fis' g'2 \fermata | \time 4/4 c'4 e'4 g'2 | \break
 
@@ -49,7 +59,7 @@
      c'2 e'4 | g'2. \breathe | e'2 g'4 | c''2. \breathe | \time 4/4 \tempo "        rit." b'4 ( d''4 ) c''4 ( a'4 ) \break
 
      \time 3/4 g'2 e'4 | g'4 ( f'4 ) e'4
-   } \alternative { { c'2  \breathe e'4 } {c'2 \fermata } } \bar "|."
+   } \alternative { { c'2  \breathe e'4 } {c'2. } } \bar "|."
 
  }
 
