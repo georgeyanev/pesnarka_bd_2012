@@ -41,7 +41,7 @@
 
       \time 4/4 d''4 c'' c'' b' | \time 6/4 c''4 a' g' fis' g'2 \fermata | \time 4/4 c'4 e'4 g'2 | \break
 
-      e'4 g'4 c''2  | \time 4/4 \tempo "        rit." b'4 ( d''4 ) c''4 ( a'4 ) | \time 3/4 g'2 e'4 | g'4 ( f'4 ) e'4 | \break
+      e'4 g'4 c''2  | \time 4/4 \tempo "        rit." b'4 ( d''4 ) c''4 ( a'4 ) | \time 3/4 g'2 e'4 | g'4 ( f'4 ) d'4 | \break
 
       c'2\fermata
 
@@ -50,7 +50,7 @@
       e'4 | \repeat volta 2 {
       g'2 g'4 | a'2 e'4 | g'2 f'4 f'2 d''4 |\break
 
-      d''2 c''4 | b'2 a'4 | a'2 g'4 | g'2 e'4 | g'2 e'4 | e'2.\fermata \breathe \bar "||" \break
+      d''2 c''4 | b'2 a'4 | a'2 g'4 | g'2 e'4 | g'2 f'4 | e'2.\fermata \breathe \bar "||" \break
 
      \tempoFunc "Moderato" 4 "80"
 
@@ -58,7 +58,7 @@
 
      c'2 e'4 | g'2. \breathe | e'2 g'4 | c''2. \breathe | \time 4/4 \tempo "        rit." b'4 ( d''4 ) c''4 ( a'4 ) \break
 
-     \time 3/4 g'2 e'4 | g'4 ( f'4 ) e'4
+     \time 3/4 g'2 e'4 | g'4 ( f'4 ) d'4
    } \alternative { { c'2  \breathe e'4 } {c'2. } } \bar "|."
 
  }
