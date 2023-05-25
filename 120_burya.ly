@@ -12,51 +12,48 @@
     \new Voice \relative c' {
       \clef treble
       \key bes \minor
-      \time 6/8
+      \time 9/8
       \tempoFunc "Lento" 4. "50"
       \autoBeamOff
-      bes8 ( [  des8 ) ]  c8  bes4. | a4  bes8 
+      bes8 ( [  des8 ) ]  c8  bes4.  a4  bes8
       \override TextScript.extra-offset = #'(2.5 . 2)
-      c4. | f2.  | % 4
-      f8  ges8  f8  es8  des8
-      c8 \break | % 5
-      es4.  c4. ~ | % 6
-      c4.  es8 ( [  d8 ) ]  es8 | % 7
+      c4.  f2.  | % 4
+      f8  ges8  f8  es8  des8 c8  es4. \break |
+      c2. es8 ( [  d8 ) ]  es8 |
+      \time 6/8
       f4.  bes,4. | % 8
       des4.  c4  bes8 | % 9
-      \acciaccatura {  bes16[c16] }  bes2.
-      \break |
-      a2. | % 11
+      \acciaccatura {  bes16[c16] }  bes4.
+
+      a4.  \break | % 11
       des4.  f8  f8  f8 | % 12
       as4.  ges4  f8 | % 13
-      f2. | es2.
+      f4. (f4) es8 | es2.   |
       \break
 
-      \key f \minor \time 3/4 | % 15
+      \key f \minor \bar ".|" \time 9/8 | % 15
 
-      \bar ".|:" \tempoFunc "            Più mosso" 4 "66" f8.  f16  f4  c'4 | % 16
 
-       des4  c2|  \times 2/3 { c8 ( [ des8  c8 ) ] }
-      bes4  as4 |f2. | \bar ":|.|:"  \time 6/8 c'4. ( c8 ) c8  c8 |  \break
+      \bar ".|:" \tempoFunc "            Più mosso" 4 "66" f4  f8  f4.  c'4. |
+
+      des4.  c2.|
+      c8 ( [ des8  c8 ) ]  bes4.  as4. | \break
+
+      f2. (f4.)| \bar ":|.|:"
+
+      \time 6/8 c'4. ( c8 ) c8  c8 |  
       f4. ~  f8  e8  f8 | % 21
 
-      g4. ( ~  g8 [  f8 des8 ) ] | % 22
-      c4. ~  c4  c8 | bes8 -- as8 --  bes8 --
-      as4. f2. | \bar ":|.|:" \break  \key f \major
-      \repeat volta 2 {
+      g4. ( ~  g8 [  f8 des8 ) ] | \break 
 
-        \time 3/4 | % 25
+      \time 9/8
+      c4. ~  c4  c8 bes8 -- as8 --  bes8 -- |
+      as4. f2.   \bar ":|."  |  \key f \major
+      \bar ".|:" a8  bes8  c8  f,4  f8 d'4 (bes8 ) | \break 
+      g2. e8  [ (f8) ] g8 | 
+      \time 6/8 c4.  f,4. | a4.  g4  g8 | f2. \bar ":|."
 
-      \tupletUp \times 2/3 { a8  bes8  c8 } f,8.  f16 d'8 [(bes8 )]
 
-       | g2  
-
-           \times 2/3 { e8 [  (f8)  g8 ]}
-        | % 27
-
-       \time 4/4 c4  f,4   a4  g8.  g16 | \time 3/4 f2. 
-      } 
-    
     }
 
     \addlyrics {
@@ -65,12 +62,12 @@
       мат.  Сил -- на бу -- ря
       в~мен се пов --  ди -- га,
       но ни -- ко -- го не об -- ви -- ня
-      -- вам. Бу -- ря -- та е бу -- ря,
+      -- вам аз. Бу -- ря -- та е бу -- ря,
       но   в~мен е Той. Бу --
       ря -- та мен  не раз -- би --
-      ра,  но аз я "раз-" -- би
-      -- рам. "Бу-" -- "ря-" -- та ме раз --
-      търс  -- ва "за  Доб" -- ро --
+      ра,  но аз я раз -- би
+      -- рам. Бу -- ря -- та ме раз --
+      търс  -- ва за  Доб -- ро --
       то, що е във мен.
     }
 
@@ -80,12 +77,12 @@
       mat.  Sil -- na bu -- rja
       v~men se pov --  di -- ga,
       no ni -- ko -- go ne ob -- vi -- nja
-      -- vam. Bu -- rja -- ta e bu -- rja,
+      -- vam az. Bu -- rja -- ta e bu -- rja,
       no   v~men e Toj. Bu --
       rja -- ta men  ne raz -- bi --
-      ra,  no az ja "raz-" -- bi
-      -- ram. "Bu-" -- "rja-" -- ta me raz --
-      tărs  -- va "za  Dob" -- ro --
+      ra,  no az ja raz -- bi
+      -- ram. Bu -- rja -- ta me raz --
+      tărs  -- va za  Dob -- ro --
       to, što e văv men.
     }
 
@@ -97,7 +94,7 @@
 
   } % score
 
-\pageBreak
+  \pageBreak
 
 
   % include foreign translation(s) of the song
