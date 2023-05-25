@@ -29,7 +29,7 @@
       }
       gis'16  f'16  e'16  d'16 | % 7
       f'2  e'2 | % 8
-      \autoBeamOn a'4  g'8.  f'16  e'2 \break
+      a'4  g'8.  f'16  e'2 \break
       \repeat
       volta 2 {
         | % 9
@@ -42,14 +42,14 @@
         b4.  a8  a2 \break
       }
 
-      e'4 e'8. e'16 e'4. e'8 |\autoBeamOn f'8. f'16  e'4. \autoBeamOff e'8 a'8 b'8 |  c''4 b'16[ ( a'16 ) ] gis'16 a'16 b'4  ( ~ b'16 [a'16] ) g'16 f'16 | \break
+      e'4 e'8. e'16 e'4. e'8 | f'8. f'16  e'4. e'8 a'8 b'8 |  c''4 b'16[ ( a'16 ) ] gis'16 a'16 b'4  ( ~ b'16 [a'16] ) g'16 f'16 | \break
 
       e'2 r8 e'8 a'8 c''8 | e''4. d''8  \tweak direction #up \times 2/3 {
-        \once \override Slur.positions = #'(1 . 1) \autoBeamOn c''8  (   b'8 )  a'8
-      } \autoBeamOff gis'16 f'16 e'16 d'16 | f'2 e'2 | \break
+        \once \override Slur.positions = #'(1 . 1) c''8  [ ( b'8 ) ] a'8
+      } gis'16 f'16 e'16 d'16 | f'2 e'2 | \break
 
 
-      \autoBeamOn  a'4 g'8.  f'16  e'2 |  \bar ".|:"  \autoBeamOff r8 c'8 e' g' a'4 a'4 |  c''16 b' a' g' f'8. ( e'16 ) d'2 (| \break
+      a'4 g'8.  f'16  e'2 |  \bar ".|:" r8 c'8 e' g' a'4 a'4 |  c''16 b' a' g' f'8. ( e'16 ) d'2 (| \break
 
       d'16)  b16  c'16  d'16  c'4 ~
       c'16  b16  d'16  c'16  b16
@@ -57,21 +57,21 @@
       b4. ( a8 ) a2 \break \bar ":|."
 
 
-      e'4 e'8. e'16 e'4. e'8 | \autoBeamOn f'8. f'16 e'4. \autoBeamOff e'8 a'8 b'8 |  c''4 b'16  a'16 gis'16 a'16 \autoBeamOn b'4  ( ~ b'16 a'16 ) g'16 f'16 | \break
+      e'4 e'8. e'16 e'4. e'8 | f'8. f'16 e'4. e'8 a'8 b'8 |  c''4 b'16  a'16 gis'16 a'16 \autoBeamOn b'4  ( ~ b'16 a'16 ) g'16 f'16 | \break
 
       e'2 r8 \autoBeamOff e'8 a'8 c''8 | e''4. d''8  \tweak direction #up \times 2/3 {
         \once \override Slur.positions = #'(1 . 1) c''8  ( [  b'8 ) ] a'8
       } gis'16 [( f'?16 )] e'16 [(d'16) ] | f'2 e'2 | \break
 
 
-      \autoBeamOn  a'4 g'8.  f'16  e'2 |  \bar ".|:"  \autoBeamOff r8 c'8 e' g' a'4 a'8. a'16 |  c''16 b' a' g' e'4 \tempo "V.S." d'2 (| \break
+     a'4 g'8.  f'16  e'2 |  \bar ".|:" r8 c'8 e' g' a'4 a'8. a'16 |  c''16 b' a' g' e'4 \tempo "V.S." d'2 (| \break
 
       d'16)  b16  c'16  d'16  c'4 ~
       c'16  b16  d'16  c'16  b16 a16 \times 2/3 { gis16 [ ( a16 ) ] b16 }| \time 2/4 a2 \break \bar ":|."
     }
 
     \addlyrics {
-      Мен ме ро -- ди Бог със "Лю-" --
+      "1. Мен" ме ро -- ди Бог със "Лю-" --
       бов и о -- за -- ри със Жи
       -- во -- та __ нов. Ед --
       вам, ед -- вам рас -- те __  и зре
@@ -81,7 +81,7 @@
       Ще ви -- дя туй, ду -- ша -- та
       ми що лю -- би и коп -- ней.
 
-      Тъй бу -- "бо-" -- леч -- ка -- та "шеп-" -- ти
+      "2. Тъй" бу -- "бо-" -- леч -- ка -- та "шеп-" -- ти
       и се стре -- ми по "на-" -- на -- гор -- ни -- я път,
       и преч -- ки -- те ед -- на след "дру-" -- га
       "по-" -- беж -- да -- ва.
@@ -90,7 +90,7 @@
       и все на -- пред се тя към вър -- ха
       въз -- ви -- ся -- ва.
 
-      Тъй ве -- "ко-" -- ве без -- брой "ле-" -- тят
+      "3. Тъй" ве -- "ко-" -- ве без -- брой "ле-" -- тят
       и вре -- ме -- то я пре -- "о-" -- "бра-" -- зя -- """"ва.
       И тъй по -- раст  -- на тя __ де -- ви -- ца ми -- ла.
       Чи -- ста "ро-" -- са, ду -- ша кра -- си -- ва,
@@ -100,7 +100,7 @@
 
     }
     \addlyrics {
-      Men me ro -- di Bog săs "Lju-" --
+      "1.Men" me ro -- di Bog săs "Lju-" --
       bov i o -- za -- ri săs Ži
       -- vo -- ta __ nov. Ed --
       vam, ed -- vam ras -- te __  i zre
@@ -110,7 +110,7 @@
       Šte vi -- dja tuj, du -- ša -- ta
       mi što lju -- bi i kop -- nej.
 
-      Tăj bu -- bo -- leč -- ka -- ta šep -- ti
+       "2. Tăj" bu -- bo -- leč -- ka -- ta šep -- ti
       i se stre -- mi po "na-" -- na -- gor -- ni -- ja păt,
       i preč -- ki -- te ed -- na sled "dru-" -- ga
       po -- bež -- da -- va.
@@ -119,7 +119,7 @@
       i vse na -- pred se tja kăm văr -- ha
       văz -- vi -- sja -- va.
 
-      Tăj ve -- ko -- ve bez -- broj le -- tjat
+       "3. Tăj" ve -- ko -- ve bez -- broj le -- tjat
       i vre -- me -- to ja pre -- "o-" -- "bra-" -- zja -- """"va.
       I tăj po -- rast  -- na tja __ de -- vi -- ca mi -- la.
       Či -- sta "ro-" -- sa, du -- ša kra -- si -- va,

@@ -131,7 +131,9 @@
       ща ти вън -- ка мен и те -- бе със ко -- ла --
       та ча -- ка. Ста -- вай, че ба -- ща ти вън --
       ка мен и те -- бе със ко -- ла -- та ча --
-      ка. "Слън" -- це -- то ко -- га из -- грей,
+      ка. 
+      
+      "2.Слън" -- це -- то ко -- га из -- грей,
       ти на ни -- ва -- та тряб -- ва да си.
       "С~сърп" в~ръ -- ка, с~пе -- сен ти
       де -- ня за -- поч -- ни. Ста -- вай, дъ -- ще, __
@@ -139,7 +141,7 @@
       Ста -- вай, __ че мо -- ми и мом -- ци __ вси към ни -- ва -- та са веч тръг -- на -- ли. __
       Ста -- вай, __ че мо -- ми и мом -- ци __ вси към ни -- ва -- та са веч тръг -- на -- ли. __
 
-      Ни -- ва е, дъ -- ще, Жи -- во -- тът,
+      "3. Ни" -- ва е, дъ -- ще, Жи -- во -- тът,
       де доб -- ро -- то се -- ме се сей.
       Кат' из -- рас -- не, "Жи-" -- вот вна -- ся
       то във нас. Ста -- вай, дъ -- ще, __
@@ -152,7 +154,7 @@
     }
 
 \addlyrics {
-      "1.V~le" -- ten
+      "1. V~le" -- ten
       den, v~ran -- ni zo -- ri maj -- ka mi ti -- ho se pri --
       bli -- ži. "S~sla" -- dăk glas bla -- ga du -- ma mi
       ka -- za: „Sta -- vaj, dă -- šte, na ni -- va
@@ -160,7 +162,9 @@
       šta ti văn -- ka men i te -- be săs ko -- la --
       ta ča -- ka. Sta -- vaj, če ba -- šta ti văn --
       ka men i te -- be săs ko -- la -- ta ča --
-      ka. "Slăn" -- ce -- to ko -- ga iz -- grej,
+      ka. 
+      
+      "2. Slăn" -- ce -- to ko -- ga iz -- grej,
       ti na ni -- va -- ta trjab -- va da si.
       "S~sărp" v~ră -- ka, s~pe -- sen ti
       de -- nja za -- poč -- ni. Sta -- vaj, dă -- šte, __
@@ -168,7 +172,7 @@
       Sta -- vaj, __ če "mo-" -- mi i mom -- ci __ vsi kăm ni -- va -- ta sa več trăg -- na -- li. __
       Sta -- vaj, __ če "mo-" -- mi i mom -- ci __ vsi kăm ni -- va -- ta sa več trăg -- na -- li. __
 
-      Ni -- va e, dă -- šte, Ži -- vo -- tăt,
+      "3. Ni" -- va e, dă -- šte, Ži -- vo -- tăt,
       de dob -- ro -- to se -- me se sej.
       Kat' iz -- ras -- ne, Ži -- vot vna -- sja
       to văv nas. Sta -- vaj, dă -- šte, __
