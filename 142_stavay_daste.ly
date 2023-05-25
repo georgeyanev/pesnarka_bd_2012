@@ -41,20 +41,20 @@
 
       \time 4/4
       \tempoFunc "Andante" 4 "66"
-
+      \autoBeamOff 
       \partial 4
       d'8. es'16 | % 2
       f'2 as'4 ges'8. f'16 | ges'2. f'8.es'16 | f'4 es'8.  d'16  es'4 d'8. ces'16 | \break
       ces'2. d'8. es'16 | \time 3/4 f'2 es'8. [( d'16 )] | % 7
-      es'2 \autoBeamOff  d'8. ces'16 | % 8
+      es'2  d'8. ces'16 | % 8
       ces'4 bes2 | % 9
       as2 r4 \break |
       \time 8/16  |
-      \tempo "Allegretto" \slurSolid g8 [( as16 )] bes8 ( ces'8. ) | % 11
+      \tempo "Allegretto" g8 [( as16 )] bes8 ( ces'8. ) | % 11
       d'8. es'8 ~ es'8. | % 12
-      \slurSolid f'8 [( es'16 )] d'8 ces'8. | % 13
+      f'8 [( es'16 )] d'8 ces'8. | % 13
       d'8 ces'16 d'8 ces'8. \break | % 14
-      \slurSolid bes8 [( as16 )] bes8 ~ bes8. | % 15
+      bes8 [( as16 )] bes8 ~ bes8. | % 15
       ces'8. ( ~ ces'8 bes8. ) | % 16
       as8. ~ as8 ~ as8. | % 17
       g8 as16 bes8 ces'8. \break | % 18
@@ -68,18 +68,18 @@
       d'8. es'8 ~ es'8. \break | % 26
       f'8 es'16 d'8 ces'8. | % 27
       d'8 ces'16 d'8 ces'8. | % 28
-      bes8 (as16)  bes8 ~ bes8. \bar "||" \break
-      \time 4/4 r2 r4 \autoBeamOn d'8. es'16 | \autoBeamOff f'2 as'4 ges'8. f'16 | 
+      bes8 [(as16) ] bes8 ~ bes8. \bar "||" \break
+      \time 4/4 r2 r4 d'8. es'16 | f'2 as'4 ges'8. f'16 | 
       ges'2. f'8.es'16 | \break
       
        f'4 es'8. d'16  es'4 d'8. ces'16 |
       ces'2. d'8. es'16 | \break
-       f'4 \autoBeamOn es'8. (d'16 ) es'2 | 
-      \time 3/4 \autoBeamOff d'8. ces'16 ces'4 bes8. as16 | as2 r4 | \break
+       f'4 es'8. [(d'16 ) ]es'2 | 
+      \time 3/4 d'8. ces'16 ces'4 bes8. as16 | as2 r4 | \break
       
-      \time 8/16 \tempo "Allegretto" \autoBeamOn g8 [(as16 )] bes8 (ces'8. ) | d'8. es'8 (es'8.) |
+      \time 8/16 \tempo "Allegretto" g8 [(as16 )] bes8 (ces'8. ) | d'8. es'8 (es'8.) |
       
-      f'8 [ es'16 ] d'8 ces'8. | d'8 ces'16 d'8 ces'8. | bes8 [(as16)] bes8 (bes8.) \break
+      f'8 es'16  d'8 ces'8. | d'8 ces'16 d'8 ces'8. | bes8 [(as16)] bes8 (bes8.) \break
 
       ces'8. ( ~ ces'8 bes8. ) |
       as8. ~ as8 ~ as8. | % 24
@@ -98,12 +98,12 @@
 
       \pageBreak
 
-      \time 4/4 r2 r4 \autoBeamOn d'8. es'16 | \autoBeamOff f'2 as'4 ges'8. f'16 |
+      \time 4/4 r2 r4  d'8. es'16 | f'2 as'4 ges'8. f'16 |
       ges'2. f'8.es'16 | f'4 es'8. d'16  es'4 d'8. ces'16 | \break
-      ces'2. \autoBeamOn d'8. es'16 |
-      f'4 \autoBeamOff es'8. d'16  es'2 |
-      \time 3/4 \autoBeamOn d'8. ces'16 ces'4 bes8. (as16) | as2 r4 | \break
-      \time 8/16 \tempo "Allegretto" \autoBeamOn g8 [(as16 )] bes8 (ces'8. ) | d'8. es'8 (es'8.) |  f'8 [es'16] d'8 ces'8. | d'8 ces'16 d'8 ces'8. | \break  bes8 [(as16)] bes8 (bes8.) 
+      ces'2. d'8. es'16 |
+      f'4 es'8. d'16  es'2 |
+      \time 3/4 d'8. ces'16 ces'4 bes8. [(as16) ] | as2 r4 | \break
+      \time 8/16 \tempo "Allegretto" g8 [(as16 )] bes8 (ces'8. ) | d'8. es'8 (es'8.) |  f'8 es'16 d'8 ces'8. | d'8 ces'16 d'8 ces'8. | \break  bes8 [(as16)] bes8 (bes8.) 
 
       ces'8. ( ~ ces'8 bes8. ) |
       as8. ~ as8 ~ as8. | % 24
@@ -143,7 +143,7 @@
       де доб -- ро -- то се -- ме се сей.
       Кат' из -- рас -- не, "Жи-" -- вот вна -- ся
       то във нас. Ста -- вай, дъ -- ще, __
-      Лю -- "бов-" -- та днес мен и те -- бе ча -- ка. __
+      Лю -- бов -- та днес мен и те -- бе ча -- ка. __
       Ста -- вай! __ Тя ни но -- си
       свой -- та __ но -- ва, __ жи -- ва пре -- мя -- на. __
       Ста -- вай! __ Че "Жи-" -- во -- тът вън -- ка __ мен
@@ -172,7 +172,7 @@
       de dob -- ro -- to se -- me se sej.
       Kat' iz -- ras -- ne, Ži -- vot vna -- sja
       to văv nas. Sta -- vaj, dă -- šte, __
-      Lju -- "bov-" -- ta dnes men i te -- be ča -- ka. __
+      Lju -- bov -- ta dnes men i te -- be ča -- ka. __
       Sta -- vaj! __ Tja ni no -- si
       svoj -- ta __ no -- va, __ ži -- va pre -- mja -- na. __
       Sta -- vaj! __ Če Ži -- vo -- tăt văn -- ka __ men
