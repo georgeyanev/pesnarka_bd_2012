@@ -298,7 +298,7 @@
       \vspace #0.5
       \line {
         \justify {
-          40. \bold " Дишай дълбоко – Dišaj dălboko."  Musik und Text Penju Ganev.
+          40. \bold " Дишай дълбоко – Dišaj dălboko."  Musik und Text Penjo Ganev.
         }
       }
       \vspace #0.5
@@ -865,7 +865,7 @@
       \line {
         \justify {
           119. \bold  "Ставай, дъще! – Stavaj, dăšte!." Das Lied entstand 1934 als bulgarisches Volkslied, dessen ursprüngliche Reinheit wiederhergestellt wurde. Viele bulgarische Volkslieder haben einen okkulten Ursprung.
-          Penju Ganev – ein Schüler von Petar Danov – sang dieses Lied den Dorffrauen im Dorf Aldomirovzi vor, wo er als Lehrer gearbeitet. Ihnen gefiel das Lied sehr; sie bemengelten jedoch, dass es nur eine Strophe habe.
+          Penjo Ganev – ein Schüler von Petar Danov – sang dieses Lied den Dorffrauen im Dorf Aldomirovzi vor, wo er als Lehrer gearbeitet. Ihnen gefiel das Lied sehr; sie bemengelten jedoch, dass es nur eine Strophe habe.
           Nachdem Danov davon erführ, bat er seine Schülerin Vessela Nestorova, eine zweite Strophe dazuzudichten.
           Nachdem die Doftfrauen wieder mit der Länge des Liedes nicht zufrieden waren, denn es habe ja wieder keine Worte, fügte Danov die dritte Strophe hinzu.
           So sind die drei Strophen des Liedes entstanden. Inhaltlich lehnt sich der Text starkt an die Bibel:
@@ -1027,7 +1027,7 @@
       \vspace #0.4
       \line {
         \justify {
-          139. \bold "Вяра светла II – Vjara svetla II." Eine andere Melodie, die in der Allgemeinen Okkultklasse gegeben wurde. Das Lied wurde von Penju Ganev vorgetragen und von seinem Sohn Peter Ganev notiert.
+          139. \bold "Вяра светла II – Vjara svetla II." Eine andere Melodie, die in der Allgemeinen Okkultklasse gegeben wurde. Das Lied wurde von Penjo Ganev vorgetragen und von seinem Sohn Peter Ganev notiert.
         }
       }
       \vspace #0.4
@@ -1058,7 +1058,7 @@
       \vspace #0.4
       \line {
         \justify {
-          144. \bold  "Малката буболечица – Malkata bubolečica." 27. Mai 1933. Musik von Petar Danov. Text von Olga Slavcheva. In dieser Notation wurde die Originalmelodie, die im Liederbuch von Maria Todorova verändert wurde, wiederhergestellt.
+          144. \bold  "Малката буболечица – Malkata bubolečica." 27. Mai 1933. Musik von Petar Danov. Text von Olga Slavcheva. In dieser Notation wurde die Originalmelodie nach dem Gesang von Penjo Ganev wiederhergestellt; diese war im Liederbuch von Maria Todorova verändert.
         }
       }
 
