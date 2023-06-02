@@ -37,124 +37,55 @@
 
 
   \markup \fontsize #+2.5 {
-    \vspace #1.5
-    \justify-string "Die Lieder in diesem Sammelband sind eine Verkörperung eines kleinen Teils der Achtung, der Liebe und der Bedeutung, die der Meister der Musik als Mittel zum Erwachen des göttlichen Bewusstseins im Menschen, jenen, die mit seinem Wort leben, schenkte. Die Entstehung der Lieder ist ein natürliches Phänomen, da sie das Kind eines heiligen Schimmers sind, in welchem eine göttliche Idee zur Musik wird. 
-
-Die vorliegende Ausgabe besteht aus zwei Teilen. Der erste Teil wurde Brüderliche Lieder betitelt und enthält Werke, die gegeben wurden und große Popularität genossen, noch bevor der Meister die okkulte Schule eröffnete. In dieser fügte er später noch die okkulten Musikübungen hinzu, die den zweiten Teil des Sammelbands ausmachen. Die letzteren entstanden während der Vorträge des Meisters Beinsa Duno, als er den Einfluss einer neuen, bis zu diesem Zeitpunkt unbekannten Musik auf das Bewusstsein der Schüler prüfte.
-
-Im ersten Teil gibt es viele Lieder, die vom Meister Beinsa Duno gegeben wurden. Deshalb wurde am Ende des Sammelbandes angegeben, welche Lieder von Schülern nach Motiven des Meisters geschrieben wurden und welche von anderen Autoren stammen. Charakteristisch für die ersten Lieder, die Brüderlichen Lieder, ist es, dass sie das Zeichen der ersten Schritte in der Schülerschaft in sich tragen, wenn die menschliche Seele nach Zuversicht in der Demut, also in der hingebungsvollen und herzlichen Beziehung des Menschen zur göttlichen Barmherzigkeit trachtet, die ihm das Leben schenkte. Diejenigen, die den Weg des Aufstiegs eingeschlagen haben, finden Zuversicht und reine Freude in der Hingebung und im Glauben, die aus diesen Liedern strömen. "
-  }
-  \pageBreak
-
-  \markup \fontsize #+2.5 {
+    \vspace #1.5 \override #'(baseline-skip . 2.7)
     \justify-string "
+    
+    Der gegenwärtige Sammelband enthält Lieder und Instrumentalwerke des spirituellen Lehrers Petar Danov – Beinsa Duno, dem Gründer der geistigen Bewegung „Weiße Bruderschaft“ in Bulgarien sowie Lieder seiner Schüler in bulgarischer und deutscher Sprache. 
 
-
- Die Übungen im zweiten Teil, Lieder des Meisters, die okkulte Musikübungen genannt wurden, haben einen ganz anderen Charakter. Sie wurden von etwas, Neuem für die bisherige Musik Unbekanntem hinsichtlich des Aufbaus der Melodie und der musikalischen Architektonik durchdrungen, was innere Kraft in sich trägt. Dies sind keine gewöhnlichen Lieder, sondern Melodien, die derart mit dem Wort verbunden wurden, dass sie seine musikalische Eindeutigkeit zum Ausdruck bringen. Die Lieder haben eine geistig-umerzieherische Bedeutung. Sie bringen in das Bewusstsein ein neues Element hinein und verleihen der Seele einen neuen Wert.
-
-Wer den tieferen Sinn des Wortes kennt, wird sich leicht erklären, wie es sich in Musik und in Magie verwandeln kann, auf dass es mit Macht den Menschen transformiert, indem es seinen Gedankenhorizont erweitert, den Gefühlen lebendige Wärme und seinem schöpferischen Willen einen machtvollen Schwung gibt.
-
-In der Schule der Weißen Bruderschaft ist die Musik eines der mächtigsten Mittel für die geistige Arbeit. Deshalb übt jede der dargebotenen Übungen mit ihrer Melodie und ihrem Rhythmus Einfluss auf den Hörer aus. Sie berührt bestimmte Saiten der Seele und unterstützt die geistige Tätigkeit in einer bestimmten Richtung. Wie alles, was der Meister während der Arbeit mit seinen Schülern weitergab, weisen diese Lieder die charakteristische Färbung einer Einzigartigkeit auf, die für die hohen Aufgaben der Neuen Lehre geeignet ist – ein Keim der vorewigen Wahrheit, die hier bei uns, in Gestalt des Meisters, ihre originelle Verkörperung fand. Seine Stütze ist das heilige Wort Christi –  die Liebe.
-
-Die Lieder in diesem Sammelband haben auch einen anderen, innigen und geheimnisvollen Inhalt, der noch weniger einer gewöhnlichen Musikbewertung"
-
+    Als Grundlage des vorliegenden Sammelbandes diente die Ausgabe von 2012, die unter der Redaktion von Peter Ganev in Sofia veröffentlicht wurde. Er enthält neben dem Notentext und dem literarischen Text in bulgarischer Sprache eine latinisierte Transliteration der kyrillischen Buchstaben sowie eine Übersetzung der Liedertexte in deutscher Sprache. Ziel war dabei, eine möglichst genaue und zugleich wohlklingende deutsche Übersetzung darzubieren, die das Verständnis des geistigen Gehalts der Musik und der ihr zugrundeliegenden Ideen unterstützt. Von einer metischen, in deutscher Sprache zu singenden Übersetzung der Liedertexte haben wir bewusst abgesehen, weil sie das Klangbild der Lieder verfälschen würde. Ferner haben wir alle in den Liedern vorkommen Wiederholungen von Phrasen oder einzelnen Wörtern in der Übersetzung beibehalten. Denn in Verbindung mit der melodischen Bewegung bekommt jede Wiederholung jeweils eine andere Bedeutung. Gleichzeitig fungiert sie als Affirmation und ist somit sinnhaft. 
+    
+    Das musikalische Werk Danovs entstand als Teil der okkulten Schule der Weißen Bruderschaft, die Danov 1922  eröffnete. Der Unterricht dauerte bis 1944 an. Damit bereitete er die neue Musikgattung der „okkulten Musik“ vor, der er eine neue Musiktheroie und Ästhetik zugrundeliegte. Danov nannte seine Musikkompositionen „okkulte Musikübungen“, die er während der Vorträge auf seiner Geige vorspielte und seinen Schülern unterrichtete. Die Aufzeichnung des Notentextes der Lieder gehörte zu den Aufgaben der Musiker, die bei den Vorträgen anwesend waren. An dieser Stelle sind Prof. Asen Arnaudov, Bojan Ikonomov, Liljana-Zvetana Tabakova, Maria Todorova, Matei Kaludov, Hristo Darsev, Penju Ganev, Katja Griva u.a. zu nennen. Manche Kompositionen unter anderem „Die Neue Genesis“ entstanden im Privatunterricht, dem Danov bestimmten Schülern gewährte; andere wurden aus einem konkreten Anlass im Leben des okkulten Schülers geboren. Viele der Melodien wurden jedoch nicht aufgezeichnet. Ein Beispiel hierfür ist das Lied „Der verlorene Sohn“ – ein musikalisches Motiv, das Danov als Student in Amerika bei einem Konzert und nach 30 Jahren seinen Schülern im Unterricht als Konzert wieder vorspielte. Die "
   }
-
-  \markup \fontsize #+2.5 {
-    \justify-string " unterliegen kann, denn ihre Bestimmung unterscheidet sich wesentlich von der Bestimmung anderer Lieder. Die Liebhaber dieser Art von Musik, die bei der Geburt dieser Lieder anwesend waren (und diese sind nicht wenige, weil der Meister – wie oben erwähnt – auf seiner Geige während eines Morgenvortrags sang oder spielte), vernahmen am besten die innere psychologische Ursache für ihre Entstehung und ihren unmittelbaren Einfluss. Sie waren Zeugen, wie das Wort zum Lied wurde, das alle einbezogen hatte, die auf dem Weg der Schülerschaft bewusst nach reichhaltigem Leben streben.
-
-Es ist bekannt, dass die Menschen auf unterschiedliche Weise ein bestimmtes Werk verstehen und bewerten, aber diejenigen, die die sanftmütige Freude des Geistes erkannt haben, bewerteten die Lieder tiefgründiger und tragen sie als ein teures Geschenk in ihren Herzen."
-  }
-
-  \markup \fontsize #+2.5 {
-    \vspace #1.0
-    \hspace #55
-    \justify-string " Sofia, 1949 "
-  }
-
-  \pageBreak
-
-  \markup \fontsize  #+5.5 {\bold {Vorwort zur zweiten bulgarischen Ausabe} }
-
-
-  \markup \fontsize #+2.5 {
-    \vspace #1.5
-    \justify-string " Der gegenwärtige Sammelband enthält Lieder und instrumentelle Werke von Meister Beinsa Duno, dem Gründer der geistigen Bewegung Weiße Bruderschaft in Bulgarien, sowie Lieder seiner Schüler. 
-
-Als Grundlage dieser Ausgabe dient die Ausgabe Lieder des Meisters, die 1949 in Sofia unter der Redaktion von Maria Todorova gedruckt wurde. Genutzt wurden außerdem die Sammelbände Lieder der Weißen Bruderschaft von 1921-22, Liederbücher von 1939 und von 1944 sowie Brüderliche Lieder von 1941. 
-
-Zum ersten Mal werden sechzehn Werke vom Meister und sechs Texte zu seinen Melodien und Themen publiziert. Aufgenommen wurden auch sechs Lieder von seinen Schülern, die in der Ausgabe von 1949 nicht publiziert wurden, die jedoch im musikalischen Leben der Gesellschaft gegenwärtig sind.
-
-Es erfolgten nötige Korrekturen der metrorhythmischen Organisation, die dem Aufbau des musikalischen Gedankens entsprechen. Die Redaktion entspricht dem Prinzip der klassischen Prosodie, so dass die betonte musikalische Zeit der betonten Silbe des Textes entspricht. Die metronomischen Tempoangaben wurden nach Informationen bekannter Musiker aus der Bruderschaft wie Philip Stoizev, Irina Kisiova, Maria Zlateva und Katja Griva gesetzt. Die Kommentare zu den Liedern wurden der Ausgabe 1949 entnommen und mit neuen Informationen ergänzt. "
-
-  }
-
-  \markup \fontsize #+2.5 {
-    \vspace #1.0
-    \hspace #55
-    \justify-string "Blagovest Zhekov "
-  }
-  \markup \fontsize #+2.5 {
-    \vspace #0.5
-    \hspace #55
-    \justify-string " Sofia, 1999 "
-  }
-
-
   \pageBreak
 
 
-  \markup\fontsize  #+5.5 {\bold {Vorwort zur  dritten bulgarischen Ausabe} }
 
-  \markup \fontsize #+2.5 {
-    \vspace #1.5
-    \justify-string "In diesen einleitenden Worten soll der Vorbereitungsprozess der letzten Ausgabe vorgestellt werden. Es entstand das Bedürfnis nach einer Überarbeitung der Lieder. Anschließend wurden sowohl die Arbeitsmethode als auch die Gruppe bestimmt, die die Reaktionsarbeit realisieren sollten.
+  \markup \fontsize #+2.5 \override #'(baseline-skip . 2.7){
+    \justify-string " 
+     vorgespielte Komposition unterlag laut Erinnerungen der anwesenden Musiker keiner musikalischen Aufzeichnung. Danov habe 30 Jahre auf die Rückkehr des teueren Gastes gewartet. Ein anderes Beispiel sind Melodien, in denen Danov Mikrointervale einsetzte und so Viertelton-Musik komponierte. Die Mikrointervale, die viertel und die achtel Töne in der Musik thematisiert Danov in vielen Vorträgen. Sie können nach Danov in besonderem Maßen die Gefühle musikalisch zum Ausdruck bringen.
 
-Es ist bekannt, dass Meister Beinsa Duno nie eigens seine Lieder aufschrieb. Meist spielte er auf der Geige eine okkulte Übung und unterrichtete sie dann mündlich in den Vorträgen der okkulten Schule. Falls während des Unterrichtens ein Musiker anwesend war, schrieb er die Übung als Notentext auf. Die heutigen Generationen sind allen Musikern verbunden, die diese so verantwortungsvolle Arbeit verrichteten. Zu nennen sind Prof. Asen Arnaudov, Bojan Ikonomov, Liljana-Zvetana Tabakova, Maria Todorova, Matei Kaludov, Hristo Darsev u.a. Leider wurden viele der Melodien nicht aufgezeichnet. 
+    Hier möchten wir den geschichtichen Aspekt der unterschliedlichen Veröffentlichungen von Danovs musikalischem Werk beleuchten. Die erste vollständige Ausgabe desselben wurde 1949 unter dem Titel „Pesni ot Učitelja“ von Maria Todorova in Sofia veröffentlicht. Diese wurde laut Todorova wegen der ungünstigen politischen Bedingungen viel zu schnell vorbereitet, weshalb in ihr nicht wenige Fehler zu finden sind; es wurden unter anderem Notenaufzeichnungen verwendet, die während der Vorträge von nicht immer professionellen Musikern erstellt wurden. 
 
-Im Notensatz der ersten vollständigen Ausgabe der Lieder des Meisters Beinsa Duno, die 1949 von Maria Todorova zusammengestellt und publiziert wurde, existierten nicht wenige Fehler. Maria Todorova selbst teilte mir mit, dass das Liederbuch wegen der ungünstigen politischen Bedingungen viel zu schnell vorbereitet wurde. Sie benutzte auch Notenaufzeichnungen, die während der Vorträge von nicht immer professionellen Musikern erstellt wurden. 
+    Bei der redaktiolellen Arbeit, die der Ausgabe von 2012 zugrundegelegt wurde, hat Ganev einen Vergleich zwischen Todorovas Sammelband und der Ausgabe von 1938 vorgenommen, in welchem er viele Unterschiede feststellte. Aus ihm wurde Folgendes ersichtlicht: Praktisch unterlagen manche Lieder einer zweifachen Veränderung; einige wurden weiterentwickelt, andere der Bequemlichkeit halber von nicht ausreichend vorbereiteten Musiken vereinfacht, wodurch sie an energetischer Aufladung eingebüßt haben. In der Praxis behaupteten sie sich als wohlklingender und eine Reihe Veränderungen mancher Tonhöhen sowie mancher rhythmischen Figuren haben ihren natürlicheren Klang gefunden. 
 
-Vergleicht man den Sammelband von Maria Todorova mit der Ausgabe von 1938, so kann man viele Unterschiede entdecken. Praktisch unterlagen manche Lieder einer zweifachen Veränderung: manche wurden weiterentwickelt, andere wurden der Bequemlichkeit halber von nicht ausreichend vorbereiteten Musiken vereinfacht, wodurch sie an energetischer Aufladung eingebüßt haben. In der Praxis behaupteten sie sich als wohlklingender.
+    Die redaktionelle Arbeit bei der Vorbereitung der Ausgabe von 2012 umfasst laut Peter Ganev folgende Punke:
 
+    1. Zum ersten Mal wurden in ihr sechszehn Werke von Danov und sechs Texte zu seinen Melodien und Themen publiziert. Aufgenommen wurden auch sechs Lieder von seinen Schülern, die in der Ausgabe von 1949 nicht publiziert wurden, die jedoch im musikalischen Leben der Gemeinschaft gegenwärtig sind.
 
- "
+    2. Es erfolgten nötige Korrekturen der metrorhythmischen Organisation, die dem Aufbau des musikalischen Gedankens entsprechen. Die Redaktion entspricht dem Prinzip der klassischen Prosodie, so dass die betonte musikalische Zeit der betonten Silbe des Textes entspricht. Die metronomischen Tempoangaben wurden nach Informationen bekannter Musiker aus der Bruderschaft wie Philip Stoizev, Irina Kisiova, Maria Zlateva und Katja Griva gesetzt. Die Kommentare zu den"
   }
 
-  \pageBreak
 
-  \markup \fontsize #+2.5 {
+  \markup \fontsize #+2.5 \override #'(baseline-skip . 2.7) {
     \justify-string "
+    Liedern wurden der Ausgabe 1949 entnommen und mit neuen Informationen ergänzt.
 
- Eine Reihe Veränderungen mancher Tonhöhen sowie mancher rhythmischen Figuren haben ihren natürlicheren Klang gefunden. In dieser Hinsicht gibt es viele Beispiele, aber ihre Analyse ist nicht Gegenstand des gegenwärtigen Vorworts.
-In Bezug auf die Notenrechtschreibung hält sich die gegenwärtige Ausgabe an alle Forderungen der heutigen Musikverlage, die sich in der Musiktheorie bestätigt haben. Das gilt im höchsten Maße für die logischen Akzente im poetischen und musikalischen Text, die synchron im gegebenen Takt des Liedes verteilt wurden. Ein anderer wichtiger Faktor ist der harmonische Aufbau der Melodie, deren Richtungen die Musikbilder formen.
+    3. In Bezug auf die Notenrechtschreibung halte sie sich an alle Forderungen der heutigen Musikverlage, die sich in der Musiktheorie bestätigt haben. Das gelte im höchsten Maße für die logischen Akzente im poetischen und musikalischen Text, die synchron im gegebenen Takt des Liedes verteilt wurden. Ein anderer wichtiger Faktor sei der harmonische Aufbau der Melodie, deren Richtungen die Musikbilder formen.
 
-Das Ziel der redaktionellen Arbeit war, den musikalischen und poetischen Text aufrechtzuerhalten, indem sie ihn logisch in den entsprechenden Takten gemäß des harmonischen Aufbaus der Melodie verteilten. Die Auswahl der Tonarten ist beim Meister nicht zufällig. Sie bringt die Verbindung zwischen den Farben, den Tönen der Planeten und den Zahlen zum Ausdruck. Jeder Versuch eines bequemeren Transponierens nimmt etwas von der Klangfarbe hinweg.
+    4. Ziel der redaktionellen Arbeit: Sie bestände in der optimalen Aufrechterhaltung des musikalischen und poetischen Textes, indem sie ihn logisch in den entsprechenden Takten gemäß des harmonischen Aufbaus der Melodie verteilte. Die Auswahl der Tonarten sei bei Danov nicht zufällig. Sie bringe die Verbindung
+    zwischen den Farben, den Tönen der Planeten und den Zahlen zum Ausdruck. Jeder Versuch eines bequemeren Transponierens nehme etwas von der Klangfarbe weg.
 
-Vom rein historischen Gesichtspunkt setzte Philip Stoizev den Beginn der redaktionellen Anmerkungen und Besprechungen. Später begann eine größere Gruppe, in der Georgi Stratev, Yoana Strateva, Stanka Zheleva, Penka Kadieva und der Autor dieses Textes teilnahmen, die methodische und lange redaktionelle Arbeit. Trotz der unterschiedlichen Meinungen über bestimmte Probleme kam der Prozess in Harmonie und in Eintracht voran. Blagovest Zhekov publizierte eine eigene Variante der Lieder. Sein Sammelband hat gewisse Vorzüge: Er löst einen Teil der Probleme bei der Notenschreibung und führt zum ersten Mal phonetische Transkriptionen in lateinischer Schrift ein. Der Wert der gegenwärtigen Ausgabe sind die erweiterten Anmerkungen zu jedem Lied sowie das Wörterbuch"
-  }
+    Der Vollständigkeit halber möchten wir noch die Ausgabe von 1999 erwähnen, die von Blagovest Zhekov veröffentlich wurde. Dieses Sammelband hat folgende Vorzüge: Er löst einen Teil der Probleme bei der Notenschreibung und führt zum ersten Mal phonetische Transkriptionen in lateinischer Schrift ein.
 
-  \pageBreak
-  \markup \fontsize #+2.5 {
-    \justify-string "
-   der Musikbegriffe am Ende des Buches. Der größte Vorzug liegt aber in der gemeinsamen Arbeit, in der mehrere Menschen mit unterschiedlicher Sensibilität und unterschiedlichen Einstellungen professionell diskutierten und objektive Resultate erreichten."
-  }
+    Das Sammelband wurde in drei Teile gegliedert. Der erste Teil umfasst die sogenannten „Brüderlichen Lieder“, die 
 
-  \markup \fontsize #+2.5 {
-    \vspace #1.0
-    \hspace #55
-    \justify-string "Peter Ganev "
-  }
-  \markup \fontsize #+2.5 {
-    \vspace #0.5
-    \hspace #55
-    \justify-string " Sofia, 2006 "
+    
+    "
   }
 
 
-  % include foreign translation(s) of the song
-  %\include "lyrics_de/000_empty_template_lyrics_de.ly"
 
 } % bookpart
 
 % Più mosso
-%
+% „Weiße Bruderschaft“
