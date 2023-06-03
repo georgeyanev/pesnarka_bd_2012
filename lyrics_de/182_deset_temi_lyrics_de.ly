@@ -1,6 +1,6 @@
 \version "2.20.0"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Theme 6 und Theme 7 " }
+\markup \fill-line { \fontsize #deTitleFontSize "Thema 6 und Thema 7 " }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {

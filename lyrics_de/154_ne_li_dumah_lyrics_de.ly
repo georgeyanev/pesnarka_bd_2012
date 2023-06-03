@@ -23,7 +23,7 @@
 
     \line  {   "   " so dass es an der Zeit ist, }
 
-    \line  {   "   "    in der Schule über das Lebens etwas Gutes zu lernen.}
+    \line  {   "   "    in der Schule über das Leben etwas Gutes zu lernen.}
 
     \line { " " }
     \line { 2. Sie soll abends, liebe Mutter, nicht zum Brunnen gehen,}

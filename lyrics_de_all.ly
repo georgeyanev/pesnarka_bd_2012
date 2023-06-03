@@ -68,7 +68,7 @@
    \include "lyrics_de/084_imashe_chelovek_lyrics_de.ly"
    \include "lyrics_de/086_1_kazhi_mi_ti_istinata_lyrics_de.ly"
    \include "lyrics_de/086_02_Blagata_pesen_lyrics_de.ly"
-   \include "lyrics_de/087_mussala_lyrics_de.ly"
+   \include "lyrics_de/087_Musala_lyrics_de.ly"
    \include "lyrics_de/088_hodi_hodi_lyrics_de.ly"
    \include "lyrics_de/089_tagi_skarbi_lyrics_de.ly"
    \include "lyrics_de/090_svetal_den_lyrics_de.ly"

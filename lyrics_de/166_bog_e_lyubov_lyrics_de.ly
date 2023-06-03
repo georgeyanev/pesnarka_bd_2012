@@ -26,9 +26,9 @@
     \line { " " der Geist des vollen Friedens und der Freude für jede Seele.}
 
     \line { " " Wir werden auf diesem Weg des Lichtes,}
-    \line { " "  des Liches, des Lichetes gehen,  }
+    \line { " "  des Lichtes, des Lichtes gehen,  }
     
-    \line { " " dort, wo  die göttliche Liebe herrscht.}
+    \line { " " dort, wo die göttliche Liebe herrscht.}
 
 
 

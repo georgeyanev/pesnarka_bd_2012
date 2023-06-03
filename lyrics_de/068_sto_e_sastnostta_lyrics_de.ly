@@ -40,7 +40,7 @@
     \line { " "Wenn sich die zärtliche Mutter }
     \line { " "für das Kind aufopfert,}
     \line { " "in dieser beispielhaften Liebe,}
-    \line { " "und grenzenlose Liebe, schaust }
+    \line { " "und grenzenlosen Liebe, schaust }
     \line { " "du nicht das Wesen an?}
     %\line { " " }
 

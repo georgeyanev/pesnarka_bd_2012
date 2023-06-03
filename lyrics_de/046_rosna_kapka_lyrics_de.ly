@@ -34,7 +34,7 @@
 
     \line { "   "mit wunderbaren Melodien,}
 
-    \line { "   "auf dass das rote Himmelsgewölbe widerhalt.}
+    \line { "   "auf dass das rote Himmelsgewölbe widerhallt.}
     \line { "   " }
 
     \line { 3. Und so  – rein, in weißen Kleidern}

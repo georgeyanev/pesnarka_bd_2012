@@ -30,7 +30,7 @@
     \line { " " }
     \line { 3. Kommt, alle Brüder,}
 
-    \line { "   "ganz in weiß gekleidet,}
+    \line { "   "ganz in Weiß gekleidet,}
 
     \line { "   "auf dass wir ihn mit Freude,}
 
@@ -51,7 +51,7 @@
 
     \line { "   "von nun an und in Ewigkeit}
 
-    \line { "   "und in allen Zeiten.}
+    \line { "   "und für alle Zeiten.}
 
 
 

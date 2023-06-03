@@ -33,7 +33,7 @@
 
     \line { "   "einzig Dir gebührt Lobpreisung.}
 
-    \line { "   "Umgränze uns mit Deiner Barmherzigkeit,}
+    \line { "   "Umgrenze uns mit Deiner Barmherzigkeit,}
 
     \line { "   "erleuchte uns mit Deinem Licht.}
   }

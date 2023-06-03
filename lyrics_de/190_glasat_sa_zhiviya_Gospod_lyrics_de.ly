@@ -1,6 +1,6 @@
 \version "2.24.1"
 
-\markup \fill-line { \fontsize #5 "Die Stimme des Lebendigen Herrn – Die Neue Auferstehung" }
+\markup \fill-line { \fontsize #5 "Die Stimme des lebendigen Herrn – Die Neue Auferstehung" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {

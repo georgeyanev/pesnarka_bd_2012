@@ -19,7 +19,7 @@
 
     \line { " "Und Gott sah, dass alles, was Er gemacht hatte, gut war.}
 
-    \line { " "Aoum, Aoum, Aoumen.}
+    \line { " "Aum, Aum, Aumen.}
 
 
   }

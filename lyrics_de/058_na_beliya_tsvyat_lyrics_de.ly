@@ -61,7 +61,7 @@
 
     \line { "   " und die tödliche Dunkelheit}
 
-    \line { "   " in weißem Tag verwandeln.}
+    \line { "   " in weißen Tag verwandeln.}
 
     \line { " " }
 

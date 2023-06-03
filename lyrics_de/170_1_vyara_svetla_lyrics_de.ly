@@ -10,7 +10,7 @@
 
 \column {
 
-  \line { " "Lichter Glabe, starker Glaube!}
+  \line { " "Lichter Glaube, starker Glaube!}
 
   \line { " "Er stützt den Geist, }
    \line { " "er stützt den Geist, }

@@ -24,9 +24,9 @@
 
   \line { " "Gehe, gehe, gehe, gerade gehe!}
 
-  \line { " "Gehe, gehe, grade gehe,}
+  \line { " "Gehe, gehe, gerade gehe,}
 
-  \line { " "gehe, gehe grade gehe!}
+  \line { " "gehe, gehe gerade gehe!}
 
 
   

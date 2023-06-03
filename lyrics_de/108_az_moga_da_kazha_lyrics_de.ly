@@ -17,14 +17,14 @@
     \line { " " Strahle, mächtige Sonne, damit wir gut lernen!}
     \line { " " }
 
-    \line { " " Alles Vernünftbegabte wird sich erheben}
+    \line { " " Alles Vernunftbegabte wird sich erheben}
 
     \line { " " und sich an die Arbeit machen. }
 
     \line { " " Strahle, mächtige Sonne, damit wir gut lernen!}
     \line { " " }
 
-    \line { " " Alles Vernünftbegabte wird sich erheben}
+    \line { " " Alles Vernunftbegabte wird sich erheben}
 
     \line { " " und sich an die Arbeit machen.}
 

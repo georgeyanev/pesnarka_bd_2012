@@ -14,6 +14,6 @@
     \line { " "Auf dass es im Winter gereinigt wird. }
     \line { " "Auf dass sich alles,  }
     \line { " "was auf dem Feld gesät wurde, am Leben erfreue, }
-    \line { " "auf dem Feld, vom Himmel, auf dem Feld vom Himmel. }
+    \line { " "auf dem Feld, vom Himmel, auf dem Feld, vom Himmel. }
   }
 }

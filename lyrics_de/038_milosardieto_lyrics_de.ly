@@ -22,7 +22,7 @@
 
     \line { "   " blüht, bildet Frucht, gedeiht und reift. }
 
-    \line { "   " In Frühling, in Sommer, in Herbst und ganzem Winter,  }
+    \line { "   " Im Frühling, im Sommer, im Herbst und den ganzen Winter hindurch,  }
 
     \line { "   " seitdem es Menschen auf der Erde gibt. (2)}
     \line { "   " }

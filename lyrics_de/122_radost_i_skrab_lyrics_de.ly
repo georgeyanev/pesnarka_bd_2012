@@ -21,9 +21,9 @@
     \line { " " Sage mir, was du von mir willst,   }
 
     \line { " " sage es mir!  }
-      \line { " " Sage mir, was du von mir willst,   }
+    \line { " " Sage mir, was du von mir willst,   }
 
-    \line { " " ich soll es wissen!  }
+    \line { " " ich muss es wissen!  }
     \line { " "}
 
     \line { " " „Schwerlich kann mich jemand lieben.   }
@@ -34,7 +34,7 @@
 
     \line { " " und mich gut empfängt,  }
 
-    \line { " " nur der kann  das Leben verstehen.   }
+    \line { " " nur der kann das Leben verstehen.   }
 
     \line { " "}
 
@@ -45,16 +45,16 @@
     \line { " " Schwerlich kann mir dort jemand folgen   }
 
     \line { " " und für den Sterblichen   }
-    
-     \line { " " ist das fast unmöglich.  }
-        \line { " "}
-    
-     \line { " " Liebt mich jedoch jemand und   }
-   
-     \line { " " denkt gut über mich,  }
+
+    \line { " " ist das fast unmöglich.  }
+    \line { " "}
+
+    \line { " " Liebt mich jedoch jemand und   }
+
+    \line { " " denkt gut über mich,  }
 
     \line { " " er wird ein Bürger aus einer }
-    
+
     \line { " " vollkommen anderen Welt sein.“}
 
     \line { " "}
@@ -67,9 +67,9 @@
 
     \line { " "}
 
-    \line { " " Gram und Freude sind eins,  }
+    \line { " " Gram und Freude es ist gleich,  }
 
-    \line { " " Gram und Freude sind eins,  }
+    \line { " " Gram und Freude es ist gleich,  }
 
     \line { " " wenn Liebe in ihnen herrscht.  }
 
