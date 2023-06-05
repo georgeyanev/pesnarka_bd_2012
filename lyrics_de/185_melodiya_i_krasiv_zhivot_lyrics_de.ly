@@ -17,7 +17,7 @@
 
 \line { " "Dort ging die Sonne nie unter }
 
-\line { " "und der Himmel – immer azurbau,}
+\line { " "und der Himmel – immer azurblau,}
 
 \line { " "Frieden und Licht.}
 

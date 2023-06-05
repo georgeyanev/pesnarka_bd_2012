@@ -21,7 +21,7 @@
 
     \line { " " Geist der Heiligkeit,}
 
-    \line { " " Geist des vollen Frieden und der Freude für jede Seele.}
+    \line { " " Geist des vollen Friedens und der Freude für jede Seele.}
 
     \line { " "}
 

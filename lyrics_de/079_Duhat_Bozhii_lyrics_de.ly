@@ -11,7 +11,7 @@
        
   \line { " "Geist Gottes, ewiger Geist,  }
 
-  \line { " "heiliger Geist, gütigr Geist,   }
+  \line { " "heiliger Geist, gütiger Geist,   }
 
   \line { " "Wer/Er* erfüllt unsere Herzen mit Liebe,   }
 

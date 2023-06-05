@@ -14,13 +14,13 @@
     \line {   "   " es scheint, es scheint, es scheint das Licht,}
     \line {   "   " es scheint, es scheint, es scheint das Licht,}
     \line {   "   " es scheint, es scheint, es scheint, es scheint, es scheint.}
-    \line {   "   "  Für die Gräser, für das Wässer, }
+    \line {   "   "  Für die Gräser, für das Wasser, }
 
     \line {   "   " für die Blumen, für die Kinder, }
 
     \line {   "   "bringt es Freude für die Herzen. }
 
-    \line {   "   "  Für die Gräser, für das Wässer, }
+    \line {   "   "  Für die Gräser, für das Wasser, }
 
     \line {   "   " für die Blumen, für die Kinder, }
 

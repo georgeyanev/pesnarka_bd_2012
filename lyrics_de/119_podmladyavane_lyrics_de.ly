@@ -25,6 +25,10 @@
 
     \line { " " werdet euch verjüngen. }
 
+      \line { " " sie, die dem Weg des Guten folgt, }
+
+    \line { " " werden sich verjüngen. }
+
     \line { " " Das sagte uns die Liebe. }
 
     \line { " " Das sagte uns die Liebe.  }

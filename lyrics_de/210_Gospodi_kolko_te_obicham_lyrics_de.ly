@@ -11,7 +11,7 @@
 
     \line { " "Herr, wie liebe ich Dich!}
 
-    \line { " "Gott, mein Herr, wie iebe ich Dich!}
+    \line { " "Gott, mein Herr, wie liebe ich Dich!}
 
     \line { " "Ich liebe Dich, Herr!}
 

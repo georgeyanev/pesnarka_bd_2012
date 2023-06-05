@@ -4,7 +4,7 @@
 \include "include/globals.ily"
 
 \bookpart {
-    \paper {
+  \paper {
     print-all-headers = ##f
     print-page-number = ##t
     print-first-page-number = ##f
@@ -29,11 +29,11 @@
     bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
 
-  
+
   }
 
   \tocItem \markup "Vorwort"
-   \markup \fontsize  #+3.0 { \fill-line \bold {"VORWORT"} }
+  \markup \fontsize  #+3.0 { \fill-line \bold {"VORWORT"} }
 
 
   \markup \fontsize #+2.5 {
@@ -78,7 +78,7 @@ Es ist bekannt, dass die Menschen auf unterschiedliche Weise ein bestimmtes Werk
 
 
   \markup \fontsize #+2.5 {
-     \vspace #1.5
+    \vspace #1.5
     \justify-string " Der gegenwärtige Sammelband enthält Lieder und instrumentelle Werke von Meister Beinsa Duno, dem Gründer der geistigen Bewegung Weiße Bruderschaft in Bulgarien, sowie Lieder seiner Schüler. 
 
 Als Grundlage dieser Ausgabe dient die Ausgabe Lieder des Meisters, die 1949 in Sofia unter der Redaktion von Maria Todorova gedruckt wurde. Genutzt wurden außerdem die Sammelbände Lieder der Weißen Bruderschaft von 1921-22, Liederbücher von 1939 und von 1944 sowie Brüderliche Lieder von 1941. 
@@ -89,12 +89,12 @@ Es erfolgten nötige Korrekturen der metrorhythmischen Organisation, die dem Auf
 
   }
 
-    \markup \fontsize #+2.5 {
+  \markup \fontsize #+2.5 {
     \vspace #1.0
     \hspace #55
-     \justify-string "Blagovest Zhekov "
+    \justify-string "Blagovest Zhekov "
   }
-      \markup \fontsize #+2.5 {
+  \markup \fontsize #+2.5 {
     \vspace #0.5
     \hspace #55
     \justify-string " Sofia, 1999 "
@@ -107,7 +107,7 @@ Es erfolgten nötige Korrekturen der metrorhythmischen Organisation, die dem Auf
   \markup\fontsize  #+5.5 {\bold {Vorwort zur  dritten bulgarischen Ausabe} }
 
   \markup \fontsize #+2.5 {
-     \vspace #1.5
+    \vspace #1.5
     \justify-string "In diesen einleitenden Worten soll der Vorbereitungsprozess der letzten Ausgabe vorgestellt werden. Es entstand das Bedürfnis nach einer Überarbeitung der Lieder. Anschließend wurden sowohl die Arbeitsmethode als auch die Gruppe bestimmt, die die Reaktionsarbeit realisieren sollten.
 
 Es ist bekannt, dass Meister Beinsa Duno nie eigens seine Lieder aufschrieb. Meist spielte er auf der Geige eine okkulte Übung und unterrichtete sie dann mündlich in den Vorträgen der okkulten Schule. Falls während des Unterrichtens ein Musiker anwesend war, schrieb er die Übung als Notentext auf. Die heutigen Generationen sind allen Musikern verbunden, die diese so verantwortungsvolle Arbeit verrichteten. Zu nennen sind Prof. Asen Arnaudov, Bojan Ikonomov, Liljana-Zvetana Tabakova, Maria Todorova, Matei Kaludov, Hristo Darsev u.a. Leider wurden viele der Melodien nicht aufgezeichnet. 
@@ -139,12 +139,12 @@ Vom rein historischen Gesichtspunkt setzte Philip Stoizev den Beginn der redakti
    der Musikbegriffe am Ende des Buches. Der größte Vorzug liegt aber in der gemeinsamen Arbeit, in der mehrere Menschen mit unterschiedlicher Sensibilität und unterschiedlichen Einstellungen professionell diskutierten und objektive Resultate erreichten."
   }
 
-     \markup \fontsize #+2.5 {
+  \markup \fontsize #+2.5 {
     \vspace #1.0
     \hspace #55
-     \justify-string "Peter Ganev "
+    \justify-string "Peter Ganev "
   }
-      \markup \fontsize #+2.5 {
+  \markup \fontsize #+2.5 {
     \vspace #0.5
     \hspace #55
     \justify-string " Sofia, 2006 "

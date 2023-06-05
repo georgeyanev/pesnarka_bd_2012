@@ -12,7 +12,7 @@
 
 \line { " "Am Anfang schuf Gott Himmel und Erde.}
 
-\line { " "Und die Erde war wüst und ungeornet. }
+\line { " "Und die Erde war wüst und ungeordnet. }
 
 \line { " "Es war keine Ordnung auf ihr. }
 

@@ -11,7 +11,7 @@
     \line { " " Sprich du von deinem Gram, }
     \line { " " öffne dein Herz unter den Sonnenstrahlen, }
     \line { " " unter den Sonnenstrahlen, }
-    \line { " " unter den Sonnenastrahlen,}
+    \line { " " unter den Sonnenstrahlen,}
     \line { " " unter den Sonnenstrahlen.}
     \line { " " Die Sonnenstrahlen von Gott werden dir Güte bringen}
     \line { " " und in deine Seele Freude tragen,}

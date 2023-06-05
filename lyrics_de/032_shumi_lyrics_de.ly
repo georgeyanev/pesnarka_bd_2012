@@ -11,7 +11,7 @@
 
 
     \line {   1. "   "Es lärmt, }
-     \line {   "   " "   " ich höre,}
+     \line {   "   " "   " ich höre}
 
     \line {   "   "die ganze Welt lärmen! }
 
@@ -76,9 +76,6 @@
     \line {   "   " "   "Wehe, Wind, }
 
     \line {   "   " "   "kläre die Welt!}
-
-    \line { " " }
-    \line { "   " \italic { Refrain } ... }
   }
 }
 

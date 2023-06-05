@@ -11,7 +11,7 @@
     \line { " " Es wurde entzündet das Feuer der Feuerstelle.  }
 
     \line { " " Zu schlagen begann mein Herz.}
-    \line { " " Das Brot ist bereit, das Brot ist bereit, }
+    \line { " " Das Brot ist bereit, das Brot ist bereit. }
     \line { " " }
 
     \line { " " Der neue Leuchter wurde angezündet.  }

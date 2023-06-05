@@ -24,7 +24,7 @@
    \line { "   "und wonach sie trachtet.}
   \line { "  " }
 
-  \line { 2. So flüstert des Käferchen,}
+  \line { 2. So flüstert das Käferchen,}
 
   \line { "   " und strebt auf dem Weg nach oben,}
 

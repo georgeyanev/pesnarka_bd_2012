@@ -8,7 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { 1. Und ich hüpfe wie ein Vöglein vom Ast zu Ast, }
+    \line { 1. Und ich hüpfe wie ein Vöglein von Ast zu Ast, }
 
   \line {   "   "  so dass sich jeder wundert, }
 
@@ -17,7 +17,7 @@
 
     \line { 2.  Ich stimme ein wunderbares Lied über die Sonne an,}
 
-     \line {   "   "  klare kleine Quellen beginnen zu murmelen.}
+     \line {   "   "  klare kleine Quellen beginnen zu murmeln.}
     \line { " "}
 
     \line { 3. Und ich sehe einen steilen Gipfel vor mir:}

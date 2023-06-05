@@ -20,7 +20,7 @@
     \vspace #-0.1
     \center-align
      \hspace #5.1
-    \line \fontsize #-3 \bold  { "Die Neue Genesis – Die Erschaffung des neuen Adams" }
+    \line \fontsize #-3 \bold  { "Die Neue Genesis – Die Erschaffung des neuen Adam" }
     %\vspace #-0.8
     \center-align
     \line \fontsize #-3 { " " }

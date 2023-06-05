@@ -18,9 +18,9 @@
 
 \line { " " Und Gott sprach und schuf den Menschen. }
 
-\line { " "Er schuf ihn selbst, nach seinem Bilde und Ihm ähnlich. }
+\line { " "Er schuf ihn selbst, nach Seinem Bilde und Ihm ähnlich. }
 
-\line { " "Und er segnete ihn, auf dass er über alles herrsche, }
+\line { " "Und Er segnete ihn, auf dass er über alles herrsche, }
 
 \line { " "was auf Erden lebt. Er soll lieben und schützen alle }
 
