@@ -91,17 +91,21 @@ Ihr alle sollt beim Singen danach streben, dass es in eurem Singen Klarheit und 
 
 In der okkulten Musik möchten wir nicht wie die Menschen, sondern wie die Engel singen. Durch die Musik können wir die Engel anziehen – sie werden sich für uns interessieren. Ihr werdet ihnen sagen: Wir studieren eure Musik und möchten so singen, wie ihr singt. Sie werden sagen: „Sehr gut, wir werden euch unsere Gegenwart und unsere Unterstützung schenken.“
 
-Ideelle Lieder gibt es auf der Erde nicht. Ideelle Lieder gibt es nur bei den Engeln.
 
-Die Natur hat in jedem Menschen eine spezielle Musik angelegt, mit der er sich bei Schwierigkeiten helfen kann. 
 
-Ich möchte, dass ihr für euch singt – ich meine, nicht persönlich für euch selbst, 
+
 
  "
   }
 
   \markup \fontsize #+2.5 \override #'(baseline-skip . 2.7) {
     \justify-string " 
+    Ideelle Lieder gibt es auf der Erde nicht. Ideelle Lieder gibt es nur bei den Engeln.
+
+    Die Natur hat in jedem Menschen eine spezielle Musik angelegt, mit der er sich bei Schwierigkeiten helfen kann. 
+
+    Ich möchte, dass ihr für euch singt – ich meine, nicht persönlich für euch selbst, sondern  für  das  Göttliche in  euch.  Wenn  ihr  ein  Lied  für  euch  singt,  werdet ihrdie  gute  Disposition  des  Geistes  spüren.
+
     Alle okkulten Schulen aus der Vergangenheit sowie diese von heute bedienen sich der Methode der Musik zur Erziehung und Selbsterziehung. Wenn der Mensch eine der musikalischen Methoden zur Transformierung des Bewusstseins anwendet, wird er sich in einer halben oder einer ganzen Stunde in einer anderen Tonleiter des Lebens, fern von seinen Schwierigkeiten befinden. Heutzutage, unter den Bedingungen, unter denen wir leben, müssen wir uns andauernd einstimmen, und die Musik ist eine der göttlichen Methoden zur Einstimmung. Wenn jemand die Übung „Gott ist Liebe“ ausführt, so wie sie gesungen werden soll, wird er sich verwandeln; welche Leiden er auch immer hat, sie werden verschwinden; er wird fröhlich und munter sein und sich verjüngen. Die Musik soll im Menschen ein fröhliches Gefühl aufsteigenden Grades, ein Gefühl schöpferisch zu sein hervorrufen. Jeder soll sich selbst sagen: „Ich soll Musiker werden, ich soll lieben, ich soll gerade denken.“ In der Heiligen Schrift wurde gesagt: „Singt und lobpreist den Herrn in eurer Seele.“ Ich aber sage: Singt und lobpreist den Herrn in eurem Geist, in eurem Herzen und in eurem Verstand. Alles in euch, von den Füßen bis zu den Haaren auf eurem Kopf, soll singen.
 
 "
