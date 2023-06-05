@@ -113,6 +113,6 @@
 
 
   % include foreign translation(s) of the song
-  \include "lyrics_de/087_Musala_lyrics_de.ly"
+  \include "lyrics_de/087_mussala_lyrics_de.ly"
 
 } % bookpart
