@@ -988,6 +988,7 @@
     }
   }
 
+
   \markup \fontsize  #+2  {
     \override #'(baseline-skip . 2.2)
     \column {
@@ -995,7 +996,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \fontsize  #+0.8 \bold { \fill-line { \smallCaps"Lieder nach 1944"} }
+          \fontsize  #+0.8 \bold { \fill-line { \smallCaps"Lieder, Melodien und Themen, die nach 1944 publiziert wurden"} }
         }
       }
       \vspace #0.3
