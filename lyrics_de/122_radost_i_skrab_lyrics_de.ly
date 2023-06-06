@@ -26,11 +26,11 @@
     \line { " " ich muss es wissen!  }
     \line { " "}
 
-    \line { " " „Schwerlich kann mich jemand lieben.   }
+    \line { " " „Schwerlich kann mich jemand lieben [običa].   }
 
     \line { " " Dort ist der Gram!  }
 
-    \line { " " Wer mich liebt }
+    \line { " " Wer mich liebt [običam] }
 
     \line { " " und mich gut empfängt,  }
 

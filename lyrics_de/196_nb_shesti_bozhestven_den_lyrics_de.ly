@@ -14,6 +14,7 @@
 \line { " "Und Gott sprach: „Die Erde bringe hervor }
 
 \line { " " Tiere und scheußliches Getier, ein jedes nach seiner Art.“ }
+
 \line { " " Und es ward so. Und Gott sah, dass alles gut war. }
 
 \line { " " Und Gott sprach und schuf den Menschen. }
@@ -22,7 +23,7 @@
 
 \line { " "Und Er segnete ihn, auf dass er über alles herrsche, }
 
-\line { " "was auf Erden lebt. Er soll lieben und schützen alle }
+\line { " "was auf Erden lebt. Er soll lieben [običa] und schützen alle }
 
 \line { " "Geschöpfe im Wasser, auf der Erde und in der Luft. }
 

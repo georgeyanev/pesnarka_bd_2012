@@ -17,13 +17,13 @@
 
  \line { "   "Das Korn, in den fruchbaren Acker gesät,}
 
- \line { "   "gedeiht heilig in der Liebe. }
+ \line { "   "gedeiht heilig in der Liebe [Ljubov]. }
 
  \line { "   "Gott lässt das neue Leben wachsen}
 
  \line { "   "in Freude und Frieden}
 
- \line { "   "und der ganze Himmel fließt von Liebe über.}
+ \line { "   "und der ganze Himmel fließt von Liebe [Ljubov] über.}
  \line { " "}
 
  \line \italic { "   "Refrain:}
@@ -32,7 +32,7 @@
 
  \line { "   "und die Liebe ist ein lebendiger Segen.}
 
- \line { "   "Leuchte, verbreite Freude, Frieden und Liebe,}
+ \line { "   "Leuchte, verbreite Freude, Frieden und Liebe [Obič],}
 
  \line { "   "heiliger, göttlicher Tag. }
 

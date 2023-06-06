@@ -28,8 +28,8 @@
     \line { " " }
      \line { "   " \italic { Refrain } ... }
     \line { " " }
-    \line { 3. Die Liebe ergießt sich in den Kosmos, }
-    \line {   "   " vor Liebe strahlt jedes Wesen, }
+    \line { 3. Die Liebe [Ljubov] ergießt sich in den Kosmos, }
+    \line {   "   " vor Liebe [Običta] strahlt jedes Wesen, }
     \line {   "   " das Leben quillt über in das Leben; }
     \line {   "   " hier gibt es nicht mehr Jung noch Alt. }
     \line { " " }

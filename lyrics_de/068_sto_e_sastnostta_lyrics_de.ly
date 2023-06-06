@@ -39,13 +39,13 @@
 
     \line { " "Wenn sich die zärtliche Mutter }
     \line { " "für das Kind aufopfert,}
-    \line { " "in dieser beispielhaften Liebe,}
-    \line { " "und grenzenlosen Liebe, schaust }
-    \line { " "du nicht das Wesen an?}
+    \line { " "in dieser beispielhaften Liebe [Obič],}
+    \line { " "und grenzenlosen Liebe [Ljubov],  }
+    \line { " "schaust du nicht das Wesen an?}
     %\line { " " }
 
-    \line { " "Schönheit, Wahrheit, Liebe und }
-    \line { " "Weisheit, das ist der Herr auf }
+    \line { " "Schönheit, Wahrheit, Liebe [Ljubovta] }
+    \line { " " und Weisheit, das ist der Herr auf }
     \line { " "Erden, das ist das Wesen. }
   }
 }

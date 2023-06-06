@@ -42,9 +42,9 @@
     
     Der gegenwärtige Sammelband enthält Lieder und Instrumentalwerke des spirituellen Lehrers Petar Danov – Beinsa Duno, dem Gründer der geistigen Bewegung „Weiße Bruderschaft“ in Bulgarien sowie Lieder seiner Schüler in bulgarischer und deutscher Sprache. 
 
-    Als Grundlage des vorliegenden Sammelbandes diente die Ausgabe von 2012, die unter der Redaktion von Peter Ganev in Sofia veröffentlicht wurde. Er enthält neben dem Notentext und dem literarischen Text in bulgarischer Sprache eine latinisierte Transliteration der kyrillischen Buchstaben sowie eine Übersetzung der Liedertexte in deutscher Sprache. Ziel war dabei, eine möglichst genaue und zugleich wohlklingende deutsche Übersetzung darzubieren, die das Verständnis des geistigen Gehalts der Musik und der ihr zugrundeliegenden Ideen unterstützt. Von einer metischen, in deutscher Sprache zu singenden Übersetzung der Liedertexte haben wir bewusst abgesehen, weil sie das Klangbild der Lieder verfälschen würde. Ferner haben wir alle in den Liedern vorkommen Wiederholungen von Phrasen oder einzelnen Wörtern in der Übersetzung beibehalten. Denn in Verbindung mit der melodischen Bewegung bekommt jede Wiederholung jeweils eine andere Bedeutung. Gleichzeitig fungiert sie als Affirmation und ist somit sinnhaft. 
+    Als Grundlage des vorliegenden Sammelbandes diente die Ausgabe von 2012, die unter der Redaktion von Peter Ganev in Sofia veröffentlicht wurde. Er enthält neben dem Notentext und dem literarischen Text in bulgarischer Sprache eine latinisierte Transliteration der kyrillischen Buchstaben sowie eine Übersetzung der Liedertexte in deutscher Sprache. Ziel war dabei, eine möglichst genaue und zugleich wohlklingende deutsche Übersetzung darzubieren, die das Verständnis des geistigen Gehalts der Musik und der ihr zugrundeliegenden Ideen unterstützt. Von einer metischen, in deutscher Sprache zu singenden Übersetzung der Liedertexte haben wir bewusst abgesehen, weil sie das Klangbild der Lieder verfälschen würde. Ferner haben wir alle in den Liedern vorkommenden Wiederholungen von Phrasen oder einzelnen Wörtern in der Übersetzung beibehalten. Denn in Verbindung mit der melodischen Bewegung kommt jeder Wiederholung jeweils eine andere Bedeutung zu. Gleichzeitig fungiert sie als Affirmation und ist somit sinnhaft. 
     
-    Das musikalische Werk Danovs entstand als Teil der okkulten Schule der Weißen Bruderschaft, die Danov 1922  eröffnete. Der Unterricht dauerte bis 1944 an. Damit bereitete er die neue Musikgattung der „okkulten Musik“ vor, der er eine neue Musiktheroie und Ästhetik zugrundeliegte. Danov nannte seine Musikkompositionen „okkulte Musikübungen“, die er während der Vorträge auf seiner Geige vorspielte und seinen Schülern unterrichtete. Die Aufzeichnung des Notentextes der Lieder gehörte zu den Aufgaben der Musiker, die bei den Vorträgen anwesend waren. An dieser Stelle sind Prof. Asen Arnaudov, Bojan Ikonomov, Liljana-Zvetana Tabakova, Maria Todorova, Matei Kaludov, Hristo Darsev, Penju Ganev, Katja Griva u.a. zu nennen. Manche Kompositionen unter anderem „Die Neue Genesis“ entstanden im Privatunterricht, dem Danov bestimmten Schülern gewährte; andere wurden aus einem konkreten Anlass im Leben des okkulten Schülers geboren. Viele der Melodien wurden jedoch nicht aufgezeichnet. Ein Beispiel hierfür ist das Lied „Der verlorene Sohn“ – ein musikalisches Motiv, das Danov als Student in Amerika bei einem Konzert und nach 30 Jahren seinen Schülern im Unterricht als Konzert wieder vorspielte. Die "
+    Das musikalische Werk Danovs entstand als Teil der okkulten Schule der Weißen Bruderschaft, die Danov 1922  eröffnete. Der Unterricht dauerte bis 1944 an. Damit bereitete er eine neue Musikgattung, die er „okkulte Musik“ nannte, vor. Dieser legt Danov einer neuen Musiktheroie und Ästhetik zugrunde, die er in den Vorträgen sukkzessive entwickelt. Danov nannte seine Musikkompositionen „okkulte Musikübungen“, die er während der Vorträge auf seiner Geige vorspielte und seinen Schülern unterrichtete. Die Aufzeichnung des Notentextes der Lieder war Aufgaben der bei den Vorträgen anwesenden Musiker. An dieser Stelle sind Prof. Asen Arnaudov, Bojan Ikonomov, Liljana-Zvetana Tabakova, Maria Todorova, Matei Kaludov, Hristo Darsev, Penju Ganev, Katja Griva u.a. zu nennen. Manche Kompositionen unter anderem „Die Neue Genesis“ entstanden im Privatunterricht, dem Danov bestimmten Schülern gewährte; andere wurden aus einem konkreten Anlass im Leben des okkulten Schülers geboren. Viele der Melodien wurden jedoch nicht aufgezeichnet. Ein Beispiel hierfür ist das Lied „Der verlorene Sohn“ – ein musikalisches Motiv, das Danov als Student in Amerika bei einem Konzert und nach 30 Jahren seinen Schülern im Unterricht als Konzert wieder vorspielte. Die "
   }
   \pageBreak
 
@@ -79,9 +79,26 @@
 
     Das Sammelband wurde in drei Teile gegliedert. Der erste Teil umfasst die sogenannten „Brüderlichen Lieder“, die 
 
+
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+
+
     
     "
   }
+
+
+
+  \markup \fontsize #+2.5 \override #'(baseline-skip . 2.7) {
+    \justify-string "
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+   "
+  }
+
 
 
 

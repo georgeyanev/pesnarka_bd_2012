@@ -29,7 +29,7 @@
 
     \line { " "  Sie ist der gute Diener,}
 
-    \line { " " der von der Liebe inspiriert wird.}
+    \line { " " der von der Liebe [Ljubovta] inspiriert wird.}
 
     \line { " "  Für viele ist das verwunderlich,}
 
@@ -37,7 +37,9 @@
 
     \line { " "  Кalt ist sie, aber schützt uns vor der Kälte}
 
-    \line { " " und hört immer auf die Stimme der Liebe.*}
+    \line { " " und hört immer auf die }
+    
+    \line { " " Stimme der Liebe [Običta].}
 
     \line { " "  Kalt bist du, aber rettest uns vor dem Frost}
 
