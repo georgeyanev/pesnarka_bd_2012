@@ -25,7 +25,7 @@
       f'16  )  | % 5
       e'2 r8 \autoBeamOff e'8  a'8  c''8 \break | % 6
       e''4.  d''8 \tweak direction #up \times 2/3 {
-        \once \override Slur.positions = #'(1 . 1) c''8  (  [ b'8 ])  a'8 
+        \once \override Slur.positions = #'(1 . 1) c''8  (  [ b'8 ])  a'8
       }
       gis'16  f'16  e'16  d'16 | % 7
       f'2  e'2 | % 8
@@ -64,7 +64,7 @@
       } gis'16 [( f'?16 )] e'16 [(d'16) ] | f'2 e'2 | \break
 
 
-     a'4 g'8.  f'16  e'2 |  \bar ".|:" r8 c'8 e' g' a'4 a'8. a'16 |  c''16 b' a' g' e'4 \tempo "V.S." d'2 (| \break
+      a'4 g'8.  f'16  e'2 |  \bar ".|:" r8 c'8 e' g' a'4 a'8. a'16 |  c''16 b' a' g' e'4 \tempo "V.S." d'2 (| \break
 
       d'16)  b16  c'16  d'16  c'4 ~
       c'16  b16  d'16  c'16  b16 a16 \times 2/3 { gis16 [ ( a16 ) ] b16 }| \time 2/4 a2 \break \bar ":|."
@@ -110,7 +110,7 @@
       Šte vi -- dja tuj, du -- ša -- ta
       mi što lju -- bi i kop -- nej.
 
-       "2. Tăj" bu -- bo -- leč -- ka -- ta šep -- ti
+      "2. Tăj" bu -- bo -- leč -- ka -- ta šep -- ti
       i se stre -- mi po "na-" -- na -- gor -- ni -- ja păt,
       i preč -- ki -- te ed -- na sled "dru-" -- ga
       po -- bež -- da -- va.
@@ -119,7 +119,7 @@
       i vse na -- pred se tja kăm văr -- ha
       văz -- vi -- sja -- va.
 
-       "3. Tăj" ve -- ko -- ve bez -- broj le -- tjat
+      "3. Tăj" ve -- ko -- ve bez -- broj le -- tjat
       i vre -- me -- to ja pre -- "o-" -- "bra-" -- zja -- """"va.
       I tăj po -- rast  -- na tja __ de -- vi -- ca mi -- la.
       Či -- sta "ro-" -- sa, du -- ša kra -- si -- va,
