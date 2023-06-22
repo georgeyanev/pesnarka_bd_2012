@@ -651,8 +651,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {"75" . \bold  " Мисли, право мисли – Misli, pravo misli."}  6. Juni 1926, Allgemeine Okkultklasse, V. Jahrgang,
-          30. Vortrag. Die Kraft des Menschen beruht auf heiligen Ideen, die er in sich selbst für das Leben hegt. Solange er diese heiligen Gedanken
+          \concat {"75" . \bold  " Мисли, право мисли – Misli, pravo misli."}  6. Juni 1926, Allgemeine Okkultklasse, V. Jahrgang, 30. Vortrag. Die Kraft des Menschen beruht auf heiligen 
         }
       }
 
@@ -666,7 +665,7 @@
 
       \line {
         \justify {
-          bewahrt, schützen sie ihn ebenfalls. Bewahrt er sie jedoch nicht mehr, so ist sein Fall unvermeidlich. Dieses Lied wird von Bewegungen der Arme begleitet.
+          Ideen, die er in sich selbst für das Leben hegt. Solange er diese heiligen Gedanken bewahrt, schützen sie ihn ebenfalls. Bewahrt er sie jedoch nicht mehr, so ist sein Fall unvermeidlich. Dieses Lied wird von Bewegungen der Arme begleitet.
 
         }
       }
