@@ -103,7 +103,7 @@
       | % 39
       b'4  a'4  gis'4  fis'8 ( [ ^\ppp
       gis'8 ) ] |
-      a'2. r4 \bar "|."
+      a'2. \bar "|."
     }
 
     \addlyrics {

@@ -70,7 +70,7 @@
       \time 2/4  |
       g'4 g'4 | % 181
       \time 3/4 | % 181
-      a'2. \bar "|."
+      a'2 \fermata \bar "|."
     }
 
     \addlyrics {

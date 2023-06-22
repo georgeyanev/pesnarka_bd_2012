@@ -16,7 +16,8 @@
       \time 3/2
       \tempo "Lento cantabile"
       \autoBeamOff
-      r2 r4  e'4  fis'4
+      \partial 2.
+      e'4  fis'4
       e'4 | % 2
       \time 4/4  | % 2
       e'1 | % 3
@@ -29,7 +30,7 @@
       e'1 r2 \bar "||"
       \key a \minor | % 9
       e'2 ^\markup{ \bold {Più mosso} }  f'?4  a'2
-      gis'4 | \barNumberCheck #10
+      gis'4 | 
       b'4 ( d''4 ) c''4 b'2. \break | % 11
       b'4 c''4  a'2 b'4 b'4
       | % 12
@@ -42,7 +43,7 @@
       d''2 c''4  a'4 | % 17
       b'1 | % 18
       r2.  e'4 ^\markup{ \bold {Tempo I} } | % 19
-      e'2  d'2 | \barNumberCheck #20
+      e'2  d'2 |
       e'1 \breathe  \break | % 21
       \time 3/4  | % 21
       e'2  f'4  | % 22
@@ -73,16 +74,15 @@
       fis''2. ^\fermata e''4 -- | % 38
       e''1 | % 39
       \time 2/4  | % 39
-      r4  f'4 |
+      r4  f'?4 |
       \time 3/4  |
       f'2  e'4 \break | % 41
       b'2  a'4 | % 42
       \time 4/4  | % 42
       r4  e'4  e'4  e'4 | % 43
-      \time 3/4  | % 43
-      b'2  a'4 | % 44
-      \time 6/4  | % 44
-      e'4 ^\markup{ \bold {rall.} }  e'4 e'1
+      \time 6/4  | % 43
+      b'2.  a'4   % 44
+      e'4 ^\markup{ \bold {rall.} }  e'4 | e'2. \fermata
       \bar "|."
     }
 
@@ -155,8 +155,8 @@
       \time 3/4
       \tempoFunc "Moderato espressivo" 4 "88"
       \autoBeamOff
-      \partial 4
-      r8  f'8  | % 2
+      \partial 8
+        f'8  | % 2
       f'2  e'4 | % 3
       a'2  gis'4 | % 4
       b'4 ( d''4 c''4 ) | % 5
@@ -204,7 +204,7 @@
       a'2.  fis'4 | % 38
       \time 6/4  | % 38
       fis'4  \tempo "rall." e'4  fis'2
-      fis'2 \bar "|."
+      fis'4. \bar "|."
     }
 
     \addlyrics {

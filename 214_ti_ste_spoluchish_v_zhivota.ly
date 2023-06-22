@@ -40,7 +40,7 @@
       f'4^\> ( d'4 cis'8 [d'8] | \time 4/4  e'4 ) a4 \! ^\markup { "      " \fontsize #3 \musicglyph "comma"}
 
       \once \override Hairpin.shorten-pair = #'(1.5 . -4)
-      a'2  ^\> | c''4 ^\markup { \large \bold "rall." }  bes'4 a'4^\markup { \dynamic "ppp"} ( g'4 ) | a'1 \! \bar "|."
+      a'2  ^\> | c''4 ^\markup { \large \bold "rall." }  bes'4 a'4^\markup { \dynamic "ppp"} ( g'4 ) | a'2. \! \bar "|."
 
     }
     \addlyrics {

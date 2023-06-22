@@ -46,7 +46,7 @@
 
       e'2 r8 e'8 a'8 c''8 | e''4. d''8  \tweak direction #up \times 2/3 {
         \once \override Slur.positions = #'(1 . 1) c''8  [ ( b'8 ) ] a'8
-      } gis'16 f'16 e'16 d'16 | f'2 e'2 | \break
+      } gis'16 f'?16 e'16 d'16 | f'2 e'2 | \break
 
 
       a'4 g'8.  f'16  e'2 |  \bar ".|:" r8 c'8 e' g' a'4 a'4 |  c''16 b' a' g' f'8. ( e'16 ) d'2 (| \break
@@ -64,7 +64,7 @@
       } gis'16 [( f'?16 )] e'16 [(d'16) ] | f'2 e'2 | \break
 
 
-      a'4 g'8.  f'16  e'2 |  \bar ".|:" r8 c'8 e' g' a'4 a'8. a'16 |  c''16 b' a' g' e'4 \tempo "V.S." d'2 (| \break
+      a'4 g'8.  f'16  e'2 |  \bar ".|:" r8 c'8 e' g' a'4 a'8. a'16 |  b''16 a' g' f' e'4 \tempo "V.S." d'2 (| \break
 
       d'16)  b16  c'16  d'16  c'4 ~
       c'16  b16  d'16  c'16  b16 a16 \times 2/3 { gis16 [ ( a16 ) ] b16 }| \time 2/4 a2 \break \bar ":|."

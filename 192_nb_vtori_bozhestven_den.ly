@@ -16,7 +16,7 @@
       \time 4/4
       \tempoFunc "Lento maestoso" 4 "100"
       \autoBeamOff
-      \partial 2 r4 d''4 | % 2
+      \partial 4  d''4 | % 2
       d''2 d'2 | % 3
       g'2. d'4 | % 4
       b'2 b'4. b'8 | % 5
@@ -53,7 +53,7 @@
       \time 3/2  | % 25
       e''2. d''4 d'4 ^\markup{ \bold {rall.} }
       d'4 | % 26
-      e'1 r2 \bar "|."
+      e'1 r4 \bar "|."
     }
 
     \addlyrics {
