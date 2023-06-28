@@ -1,6 +1,6 @@
 \version "2.24.1"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Me-hein" }
+\markup \fill-line { \fontsize #deTitleFontSize "Me-hejn" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
