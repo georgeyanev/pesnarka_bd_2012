@@ -88,7 +88,7 @@
       g'2 \break | % 34
       d'8 g'8 g'8 fis'8 | % 35
       fis'8 e'8 e'8 e'8 | % 36
-      \time 3/4  g'16 fis'16 e'16 d'16 \autoBeamOff c'8 [c'8] c'8 [c'8] | \autoBeamOn % 37 
+      \time 3/4  g'16 fis'16 e'16 d'16 \autoBeamOff c'8 [c'8] c'8 [c'8] | \autoBeamOn % 37
       \time 2/4  e'8 d'8 d'4 \break | % 38
       \repeat volta 2 {
         a8 b8 c'8 d'8 | % 39
@@ -112,7 +112,7 @@
   \markup \dc-one "D. C."
 
   % include foreign translation(s) of the song
- % \include "lyrics_de/000_empty_template_lyrics_de.ly"
+  % \include "lyrics_de/000_empty_template_lyrics_de.ly"
 
 } % bookpart
 
