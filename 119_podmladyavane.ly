@@ -89,7 +89,7 @@
 
   } % score
 
-  \markup \dc-one "D. C."
+  \markup \dc-one "D.C."
 
   \pageBreak
 

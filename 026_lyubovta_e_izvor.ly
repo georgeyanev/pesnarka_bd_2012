@@ -50,7 +50,7 @@
 
   } % score
 
-  \markup \fontsize #+1.7 {
+  \markup \fontsize #+1.9 {
     \hspace #10
     \override #'(baseline-skip . 1.8)
     \column {
@@ -89,7 +89,7 @@
   } % markup
   
  \pageBreak
-  \markup \fontsize #+1.7 {
+  \markup \fontsize #+1.9 {
     \hspace #10
     \override #'(baseline-skip . 1.8)
     \column {
@@ -159,9 +159,10 @@
       \line {   "   "pred prestola Boži}
       \line {   "   "pesni šte da pee.}
     } %column
+    
   } % markup
 
-\markup \empty-two
+   \markup \empty-one
 
   % include foreign translation(s) of the song
   \include "lyrics_de/026_lyubovta_e_izvor_lyrics_de.ly"

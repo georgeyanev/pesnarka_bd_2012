@@ -59,11 +59,14 @@
   } % score
 
 
+\markup \null
+ 
 
-  \markup \fontsize #+1.7 {
-    \hspace #5
-    \override #'(baseline-skip . 1.8)
+  \markup \fontsize #bgCoupletFontSize {
+    \hspace #1
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
+
       \line {   2.  "   "  И вятър вее, }
 
       \line {   "   "    "   "       където си ще.}
@@ -101,7 +104,7 @@
     }
 
     \hspace #6
-    \override #'(baseline-skip . 1.8)
+   \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
       \line {   2.  "   "  I vjatăr vee, }
 
@@ -142,9 +145,9 @@
 
   \pageBreak
 
-  \markup \fontsize #+1.7 {
-    \hspace #5
-    \override #'(baseline-skip . 1.8)
+  \markup \fontsize #bgCoupletFontSize {
+    \hspace #1
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
       \line {   4.  "   "        Задухай, ветре, }
       \line {   "   "    "   "         света разведри!}
@@ -164,7 +167,7 @@
 
 
     \hspace #3
-    \override #'(baseline-skip . 1.8)
+   \override #`(baseline-skip . ,bgCoupletBaselineSkip) %
     \column {
       \line {   4.  "   "        Zaduhaj, vetre, }
       \line {   "   "    "   "         sveta razvedri!}

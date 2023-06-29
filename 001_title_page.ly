@@ -33,13 +33,13 @@
   }
 
 
-  \markup \fontsize  #+2.5  {\bold {  \hspace #25  \vspace #3.5 BEINSA DUNO} }
+  \markup \fontsize  #+2.5  {\bold {  \hspace #26  \vspace #3.5 PETAR DANOV} }
 
 
 
-  \markup \fontsize  #+8.5  {\bold {  \hspace #19  \vspace #1.5 LIEDERBUCH} }
+  \markup \fontsize  #+7.5  {\bold {  \hspace #23  \vspace #1.5 LIEDERBUCH} }
 
-  \markup \fontsize  #+2.5  { {  \hspace #25  \vspace #1.5 Bulgarisch-Deutsch} }
+  \markup \fontsize  #+2.5  { {  \hspace #26  \vspace #1.5 Bulgarisch-Deutsch} }
 
     \markup {   
       \vspace #21.5

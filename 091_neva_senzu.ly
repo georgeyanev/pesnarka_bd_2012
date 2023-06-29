@@ -66,7 +66,7 @@
 
   } % score
 
-\markup \dc-one "D. C"
+\markup \dc-one "D.C."
   % include foreign translation(s) of the song
   %\include "lyrics_de/000_empty_template_lyrics_de.ly"
 

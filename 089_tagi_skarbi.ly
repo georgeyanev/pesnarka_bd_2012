@@ -88,6 +88,7 @@
   \markup \italic \dc-one-nobold "attacca „Светъл ден/Svetăl den“"
   %
 
+\pageBreak
 
   % include foreign translation(s) of the song
   \include "lyrics_de/089_tagi_skarbi_lyrics_de.ly"

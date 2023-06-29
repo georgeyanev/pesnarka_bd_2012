@@ -2,7 +2,6 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Die Kälte gibt alles" }
 \markup \null
-\markup \null
 \markup \fontsize #+1.7 {
 
   \vspace #1

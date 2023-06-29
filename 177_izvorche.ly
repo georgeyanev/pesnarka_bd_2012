@@ -89,7 +89,7 @@
         \midi{}
       } % score
 
-      \markup \dc-two "D. C.""senza ripetizione"
+      \markup \dc-two "D.C.""senza ripetizione"
       \pageBreak
 
       % include foreign translation(s) of the song

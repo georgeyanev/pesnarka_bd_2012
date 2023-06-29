@@ -8,7 +8,7 @@
      (set-global-fonts
       #:music "emmentaler"
       #:brace "emmentaler"
-      #:roman "Times New Roman"
+      #:roman "Crimson Text"
       #:sans "DejaVu Sans"
       #:typewriter "DejaVu Sans Mono"
       ; unnecessary if the staff size is default

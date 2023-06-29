@@ -79,7 +79,7 @@
 
   } % score
 
-  \markup \dc-one "D. C."
+  \markup \dc-one "D.C."
 
   % include foreign translation(s) of the song
   \include "lyrics_de/200_vatreshniya_glas_na_boga_lyrics_de.ly"

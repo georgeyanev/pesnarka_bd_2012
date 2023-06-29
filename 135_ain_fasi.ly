@@ -131,7 +131,7 @@
 
   } % score
 
-  \markup \dc-two "D. C. al Fine"""
+  \markup \dc-two "D.C. al Fine"""
 
   \pageBreak
 

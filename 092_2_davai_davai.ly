@@ -80,7 +80,7 @@
 
   } % score
 
-   \markup \dc-two "D. C.""con ripetizione"
+   \markup \dc-two "D.C.""con ripetizione"
 
   % include foreign translation(s) of the song
   \include "lyrics_de/092_2_datay_davay_lyrics_de.ly"
