@@ -37,7 +37,7 @@
 
 
 
-  \markup \fontsize  #+7.5  {\bold {  \hspace #23  \vspace #1.5 LIEDERBUCH} }
+  \markup \fontsize  #+7.5  {\bold {  \hspace #22  \vspace #1.5 LIEDERBUCH} }
 
   \markup \fontsize  #+2.5  { {  \hspace #26  \vspace #1.5 Bulgarisch-Deutsch} }
 
