@@ -33,7 +33,7 @@
   }
 
 
-  \markup \fontsize  #+5.5  {\bold {  \hspace #3  \vspace #15.8 Liederbuch} }
+  \markup \fontsize  #+3  {\bold {  \hspace #3  \vspace #15.8 LIEDERBUCH} }
 
 
 

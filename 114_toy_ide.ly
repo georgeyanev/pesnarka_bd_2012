@@ -62,7 +62,7 @@
       ят,   да   по  --  ма  --  га   Той, мощ  --  ни  --  ят,
       сил  --  ни  --  ят,   да   по  --  ма  --  га   Той,   да   по  --
       ма  --  га   Той,   да   по  --  ма  --  га   Той.   Ний   ще   ра
-      --  "бо-"  --  тим   със   "лю-"  --  бов,   ще   ра  --  бо  --  тим
+      --  "бо-"  --  тим   със   "Лю-"  --  бов,   ще   ра  --  бо  --  тим
       със   "Лю-"  --  бов,   да   по  --  ма  --  га   Той,   да   по  --
       ма  --  га    Той,   Мощ  --  "ни-"  --  ят,   сил  --  ни  --
       ят,   да   по  --  ма  --  га   Той,   да   по  --  ма  --  га
@@ -78,7 +78,7 @@
       jat,   da   po  --  ma  --  ga   Toj, mošt  --  ni  --  jat,
       sil  --  ni  --  jat,   da   po  --  ma  --  ga   Toj,   da   po  --
       ma  --  ga   Toj,   da   po  --  ma  --  ga   Toj.   Nij   šte   ra
-      --  bo  --  tim   săs   "lju-"  --  bov,   šte   ra  --  bo  --  tim
+      --  bo  --  tim   săs   "Lju-"  --  bov,   šte   ra  --  bo  --  tim
       săs   "Lju-"  --  bov,   da   po  --  ma  --  ga   Toj,   da   po  --
       ma  --  ga    Toj,   Mošt  --  "ni-"  --  jat,   sil  --  ni  --
       jat,   da   po  --  ma  --  ga   Toj,   da   po  --  ma  --  ga

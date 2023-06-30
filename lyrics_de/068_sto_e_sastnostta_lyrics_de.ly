@@ -1,9 +1,11 @@
 \version "2.24.1"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Was ist das Wesen" }
+
+\markup \null
 \markup \fontsize #+1.6 {
  
-  \vspace #0.5
+
   \override #'(baseline-skip . 1.8)
 
   \column {
