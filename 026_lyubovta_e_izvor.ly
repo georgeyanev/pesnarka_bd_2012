@@ -162,7 +162,7 @@
     
   } % markup
 
-   \markup \empty-one
+   \markup \empty-two
 
   % include foreign translation(s) of the song
   \include "lyrics_de/026_lyubovta_e_izvor_lyrics_de.ly"

@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Die Liebe ist eine Quelle" }
 
 
-\markup \fontsize #+1.7 {
+\markup \fontsize #+1.5 {
   
   
   \vspace #0.6
@@ -12,7 +12,6 @@
   \column {
 
     \line {   1. Die Liebe ist eine Quelle, }
-
     \line {   "   "sie gebiert das Leben}
 
     \line {   "   "und eine allheilige Pflicht }
@@ -45,9 +44,7 @@
 
     \line {   "   "wie eine zärtliche Mutter}
 
-    \line {   "   "in jedermanns Seele – }
-
-    \line {   "   "sie sät immerdar}
+    \line {   "   "in jedermanns Seele – sie sät immerdar}
 
     \line {   "   "die lieben Samenkörnchen, aus denen}
 
@@ -65,8 +62,9 @@
 
   \column {
 
-    \line {   3. Dieses große Geheimnis, }
-    \line {   "   "   wer es gut versteht,}
+    \line {   3. Dieses große Geheimnis,  }
+    
+    \line {   "   " wer es gut versteht,}
 
     \line {   "   "öffnet seine liebe Seele am Morgen,}
 
