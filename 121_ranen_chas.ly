@@ -59,7 +59,7 @@
       \time 3/4 bes2  % 25
       bes'8.  bes16 |
       \tempo "a tempo" bes2 % 26
-      c16  des16  c16  bes16 | \pageBreak
+      c16  des16  c16  bes16 |
       \time 2/4
       \tupletUp \tuplet 3/2 {a8  bes8  c8 }
       bes8 ( [  ges8 ) ] | % 27

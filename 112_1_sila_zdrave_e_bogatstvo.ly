@@ -84,7 +84,7 @@
 
   % include foreign translation(s) of the song
 
-  %\pageBreak
+
   \include "lyrics_de/112_1_sila_zdrave_sa_bogatstvo_lyrics_de.ly"
 
 } % bookpart

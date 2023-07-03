@@ -77,7 +77,7 @@
 
       d'2 ) c'4 | c'2 f'4 | f'2 es'8 d' | es'2 f'4 |\break g'2 as'4
 
-      g'2 fis'4 | g'2 as'4 | g'2 f'4 \pageBreak | \autoBeamOff \repeat volta 2 {
+      g'2 fis'4 | g'2 as'4 | g'2 f'4 | \break  \autoBeamOff \repeat volta 2 {
         f'2 es'8 d' |  es'2 f'4
 
         g'2 as'4 \break  | g'2 f'4 | es'2 d'4

@@ -101,7 +101,7 @@
       bes8  as8  f8  c8  bes16 (
       [  d16  f16  as16 ) ]  % 31
       g4.  f8  f4  % 32
-      es2  | \pageBreak % 33
+      es2  | \break % 33
       g'8 ( [f8 ) ] es2 |  % 34
       es8 ( [d8 ) ]c2 | % 35
       d16 c16 b16 c16

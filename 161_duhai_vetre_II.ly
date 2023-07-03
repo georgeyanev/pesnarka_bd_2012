@@ -66,7 +66,7 @@
       c'4  d'4  d'4  d'4. | % 23
       c'4  c'4  d'4  es'4. | % 24
       d'4  c'4  d'4  d'4. | % 25
-      c'4  c'4  d'4  es'4. \pageBreak | % 26
+      c'4  c'4  d'4  es'4. | \break % 26
       d'4  c'4  d'4  d'4. | % 27
       \tempoFunc "Meno mosso" 4 "144"
       bes'4 bes'8 bes'8  a'4

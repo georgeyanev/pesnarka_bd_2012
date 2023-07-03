@@ -32,7 +32,7 @@
 
       d'4 f' e' d' | c'4 ( b ) c'2 \breathe | f'2 g'4 a' | g'4 g' c'' a' | \break
 
-      \time 3/4  a'4 g'2 | g'4 c''2 | b'4 a' g'4 \time 5/4 fis' g' a' g'2 | \time 3/4 \pageBreak
+      \time 3/4  a'4 g'2 | g'4 c''2 | b'4 a' g'4 \time 5/4 fis' g' a' g'2 | \time 3/4 
 
       d''2 c''4 | b' a' g'4 | \time 5/4 fis' g' a' g'2 \breathe | \time 6/4 e'2 c'4 ( e' ) d'2 | \break
 

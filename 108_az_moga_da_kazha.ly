@@ -102,7 +102,7 @@
 
   % include foreign translation(s) of the song
 
-  %\pageBreak
+
   \include "lyrics_de/108_az_moga_da_kazha_lyrics_de.ly"
 
 } % bookpart

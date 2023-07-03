@@ -119,7 +119,6 @@
 
   % include foreign translation(s) of the song
 
-  %\pageBreak
   \include "lyrics_de/106_pesen_na_zorata_lyrics_de.ly"
 
 } % bookpart

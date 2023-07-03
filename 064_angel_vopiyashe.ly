@@ -70,7 +70,6 @@
       g4. a8 g8[ f16 e] \bar "|"
       f4) r8 f\stemNeutral \slurNeutral c'4 d8([ c])  \bar "|"
       \stemUp bes4( a8[ bes]) g2 d4( e)  \bar "|" \break
-      \pageBreak
 
       g8([ f g a] g4 f8[ g] f4. e8 d8[ e16 f] d4) d2\fermata d4 d  \bar "|" \break
 
@@ -86,8 +85,6 @@
 
       g8([ f g a] g4 f8[ g] f4. e8) d([ e16 f)] d4 \bar "|" \noBreak
       d2( c8[  d ees! d] g8[ fis! ees!16 fis  ees d] d2)\fermata \bar "|."
-
-      %\pageBreak
     }
 
     \addlyrics {

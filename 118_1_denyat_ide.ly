@@ -73,7 +73,6 @@
 
   \markup \empty-two
 
-  %\pageBreak
 
   % include foreign translation(s) of the song
   \include "lyrics_de/118_denyat_ide_dnes_lyrics_de.ly"

@@ -96,13 +96,13 @@
       d'8 ces'16 d'8 ces'8. | % 28
       bes8 [( as16 )] bes8 ~ bes8. | \break
 
-      \pageBreak
+      %\pageBreak
 
       \time 4/4 r2 r4  d'8. es'16 | f'2 as'4 ges'8. f'16 |
       ges'2. f'8.es'16 | f'4 es'8. d'16  es'4 d'8. ces'16 | \break
       ces'2. d'8. es'16 |
       f'4 es'8. d'16  es'2 |
-      \time 3/4 d'8. ces'16 ces'4 bes8. [(as16) ] | as2 r4 | \break
+      \time 3/4 d'8. ces'16 ces'4 bes8. [(as16) ] | as2 r4 | \pageBreak
       \time 8/16 \tempo "Allegretto" g8 [(as16 )] bes8 (ces'8. ) | d'8. es'8 (es'8.) |  f'8 es'16 d'8 ces'8. | d'8 ces'16 d'8 ces'8. | \break  bes8 [(as16)] bes8 (bes8.) 
 
       ces'8. ( ~ ces'8 bes8. ) |

@@ -64,7 +64,7 @@
 
       % include foreign translation(s) of the song
 
-      %\pageBreak
+
       \include "lyrics_de/110_da_imash_vyara_lyrics_de.ly"
 
     } % bookpart
