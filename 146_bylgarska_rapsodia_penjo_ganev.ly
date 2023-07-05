@@ -50,11 +50,11 @@
       d8 c8  c8. (   |  \noBreak
       c8 [ b8] ~  b8. ~ | \noBreak
 
-      b4 ~ b8. ) | \noBreak
-      g8 a16 \stemUp b \stemNeutral c8 d16 | \break
+      b4 ~ b8. ) | \break
+      g8 a16 \stemUp b \stemNeutral c8 d16 | \noBreak
       e8 d c8([b16]) | \noBreak
 
-      d8 c b8. | \noBreak
+      d8 c b8. | \break
       c8 b a g16 | \noBreak
       a4 a8. (| \noBreak
       a4) (a8. )| \bar "||" \break
@@ -102,7 +102,7 @@
         a8 b c d16 | \break
         e8 d c b16 | \noBreak
 
-       \tempo "rit." c8 d b g16 | \noBreak
+        \tempo "rit." c8 d b g16 | \noBreak
         a4 a8. | \break \bar ":|."
       }
       \time 7/8  \tempoFunc "Andante" 8 "150" a4 (d8[e]) f8([ g f]) | e4 (e4) (e4.) | \noBreak
@@ -124,12 +124,12 @@
 
 
       e8\tenuto[f\tenuto g\tenuto] g4 a4 | \noBreak
-       \acciaccatura { f16[g] } f8[e g] f4 e | \noBreak
+      \acciaccatura { f16[g] } f8[e g] f4 e | \noBreak
 
       a4. d,4 (d4) | \noBreak
-       g4 f e d8 | \break
-       
-        c [b\tenuto] c4\tenuto d4.\tenuto| e4 (e4) (e4.) | \noBreak
+      g4 f e d8 | \break
+
+      c [b\tenuto] c4\tenuto d4.\tenuto| e4 (e4) (e4.) | \noBreak
       a,4 b c4. | \time 9/8 b4 d c b4. | \noBreak
       \time 7/8 a4.~ ( a4 ~ a4) | a'4.:32 (a4:32) (a4:32)\fermata \breathe | \bar "|" \time 2/4 \break    \bar ".|:-|"
       \repeat volta 1 {
@@ -166,7 +166,7 @@
       a2 | \noBreak
       a4 a \! \fermata \breathe | \bar "||" \time 3/4 \break
 
-       \tempoFunc "Andante" 4 "50" \acciaccatura { dis8\mp } e2 d16\tenuto([c\tenuto b\tenuto c\tenuto]) \breathe | \noBreak
+      \tempoFunc "Andante" 4 "50" \acciaccatura { dis8\mp } e2 d16\tenuto([c\tenuto b\tenuto c\tenuto]) \breathe | \noBreak
       \acciaccatura { dis8 } e2 d16\tenuto([c\tenuto  b\tenuto  c\tenuto]) \breathe | \noBreak
       \acciaccatura { dis8 } e2 d16\tenuto([c\tenuto b\tenuto g\tenuto]) | \noBreak
       a4. b8 c4 \break
@@ -181,7 +181,7 @@
       d8 e d c b\tenuto g\tenuto | \noBreak
       a2 a4 \fermata | \noBreak \bar "||" \time 2/4 \break
 
-     \tempoFunc "Vivo" 4 "80" g16^\staccato[c^\staccato b^\staccato g^\staccato] a8^\staccato ^\accent[a^\staccato ^\accent] | \noBreak
+      \tempoFunc "Vivo" 4 "80" g16^\staccato[c^\staccato b^\staccato g^\staccato] a8^\staccato ^\accent[a^\staccato ^\accent] | \noBreak
       g16^\staccato[c^\staccato b^\staccato g^\staccato] a8^\staccato^\accent[a^\staccato^\accent] | \noBreak
       \acciaccatura { fis'8 } g[c,] \acciaccatura { dis } e[d16 c] | \noBreak
       \acciaccatura { fis8 } g[c,] \acciaccatura { dis } e[d16 c] | \break
@@ -214,7 +214,7 @@
         c8^\staccato b^\staccato b^\staccato g^\staccato | \noBreak
         a4 a |
       } \time 3/4 \break \bar ":|."
-      
+
       \override TupletBracket.positions = #'(3 . 3)
       \tempo "Tempo"
       \tuplet 3/2 8 { c16\>\mp([b g a b g]) c16([b g a b g]) c16([b g) b(a g\!\p])  } | \noBreak
@@ -245,22 +245,22 @@
 
     \addlyrics {
       Там го -- ре край из -- во -- ра срещ -- нах мо -- ма за --
-      смя -- на, там го -- ре "срещ-" -- нах Ли -- ля -- на.
-      \repeat unfold 22 { \skip 1 }
+      смя -- на, __ там го -- ре "срещ-" -- нах Ли -- ля -- на. __ ""
+      \repeat unfold 21 { \skip 1 }
       Из -- во -- рът стру -- и, из -- ви -- ра __ и чис -- ти во -- ди раз -- ли -- ва, __
       пла -- "нин-" -- ска пе -- сен раз -- низ -- ва. __ Mо -- ма -- та мен -- ци на -- ли -- ва,
-      в~пе -- сен -- та ти -- хо се за -- слуш -- ва.
-      \repeat unfold 32 { \skip 1  }
+      в~пе -- сен -- та ти -- хо се за -- слуш -- ва. __ ""
+      \repeat unfold 31 { \skip 1  }
       Ще о -- ти -- да та -- мо го -- ре, ще о -- ти -- да
       в~пла -- ни -- на -- та, чис -- ти во -- ди да по -- гле -- дам, ти -- ха пе -- сен
       да по -- слу -- шам, ще о -- ти -- да та -- мо.
       \repeat unfold 27 { \skip 2 }
       Чис -- ти во -- ди да по -- гле -- дам, ти -- ха пе -- сен да по -- слу -- шам,
-      ще о -- ти -- да та -- мо. Ли -- ля -- но,
+      ще о -- ти -- да та -- мо. Ли -- ля -- но, __
       цве -- те ра -- но в~гра -- ди -- на, а -- ко таз пе -- сен,
-      Ли -- ля -- но, не чу -- я, ах, от таз во -- да а -- ко не пи -- я,
-      скръб ще ми пъл -- ни сър -- це -- то.
-      \repeat unfold 98 { \skip 1 }
+      Ли -- ля -- но, не чу -- я, ах, от таз во -- да а -- ко не пи -- я, __
+      скръб ще ми пъл -- ни сър -- це -- то. __ ""
+      \repeat unfold 97 { \skip 1 }
       Ли -- ля -- но мо -- ме, ти в~пла -- ни -- на -- та
       там го -- ре ще ме за -- ве -- деш, из -- во -- рът де -- то из -- ви -- ра.
       \repeat unfold 30 { \skip 1 }
@@ -268,30 +268,30 @@
       гря -- ло сред тре -- ви зе -- ле -- ни, сред цве -- тя за -- сме -- ни.
       Го -- ре в~пла -- ни -- на -- та, Слън -- це дей о -- гря -- ло.
       \repeat unfold 5 { \skip 1 }
-      Там го -- ре __ край из -- во -- ра срещ -- нах мо -- ма зас -- мя -- на,
-      там го -- ре "срещ-" -- нах Ли -- ля -- на.
-      \repeat unfold 14 { \skip 1 }
-       Там го -- ре "срещ-" -- нах Ли -- ля -- на.
+      Там го -- ре край из -- во -- ра срещ -- нах мо -- ма зас -- мя -- на,__
+      там го -- ре "срещ-" -- нах Ли -- ля -- на. __ ""
+      \repeat unfold 13 { \skip 1 }
+      Там го -- ре срещ -- нах Ли -- ля -- на. __ ""
     }
 
     \addlyrics {
       Tam go -- re kraj iz -- vo -- ra srešt -- nah mo -- ma za --
-      smja -- na, tam go -- re srešt -- nah Li -- lja -- na.
-      \repeat unfold 22 { \skip 1 }
+      smja -- na, __ tam go -- re srešt -- nah Li -- lja -- na. __ ""
+      \repeat unfold 21 { \skip 1 }
       Iz -- vo -- răt stru -- i, iz -- vi -- ra __ i čis -- ti vo -- di raz -- li -- va, __
       pla -- nin -- ska pe -- sen raz -- niz -- va. __ Mo -- ma -- ta men -- ci na -- li -- va,
-      v~pe -- sen -- ta ti -- ho se za -- sluš -- va.__
-      \repeat unfold 32 { \skip 1 }
+      v~pe -- sen -- ta ti -- ho se za -- sluš -- va. __ ""
+      \repeat unfold 31 { \skip 1 }
       Šte o -- ti -- da ta -- mo go -- re, šte o -- ti -- da
       v~pla -- ni -- na -- ta, čis -- ti vo -- di da po -- gle -- dam, ti -- ha pe -- sen
       da po -- slu -- šam, šte o -- ti -- da ta -- mo.
       \repeat unfold 27 { \skip 1 }
       Čis -- ti vo -- di da po -- gle -- dam, ti -- ha pe -- sen da po -- slu -- šam,
-      šte o -- ti -- da ta -- mo. Li -- lja -- no,
+      šte o -- ti -- da ta -- mo. Li -- lja -- no, __
       cve -- te ra -- no v~gra -- di -- na, a -- ko taz pe -- sen,
-      Li -- lja -- no, ne ču -- ja, ah, ot taz vo -- da a -- ko ne pi -- ja,
-      skrăb šte mi păl -- ni săr -- ce -- to.
-      \repeat unfold 98 { \skip 1 }
+      Li -- lja -- no, ne ču -- ja, ah, ot taz vo -- da a -- ko ne pi -- ja, __
+      skrăb šte mi păl -- ni săr -- ce -- to. __ ""
+      \repeat unfold 97 { \skip 1 }
       Li -- lja -- no mo -- me, ti v~pla -- ni -- na -- ta
       tam go -- re šte me za -- ve -- deš, iz -- vo -- răt de -- to iz -- vi -- ra.
       \repeat unfold 30 { \skip 1 }
@@ -299,8 +299,10 @@
       grja -- lo sred tre -- vi ze -- le -- ni, sred cve -- tja za -- sme -- ni.
       Go -- re v~pla -- ni -- na -- ta, Slăn -- ce dej o -- grja -- lo.
       \repeat unfold 5 { \skip 1 }
-      Tam go -- re kraj iz -- vo -- ra srešt -- nah mo -- ma zas -- mja -- na,
-      tam go -- re srešt -- nah Li -- lja -- na.
+      Tam go -- re kraj iz -- vo -- ra srešt -- nah mo -- ma zas -- mja -- na,__
+      tam go -- re srešt -- nah Li -- lja -- na. __ ""
+      \repeat unfold 13 { \skip 1 }
+      Tam go -- re "srešt-" -- nah Li -- lja -- na. __ ""
     }
 
     \header {
