@@ -48,7 +48,7 @@
 
       d8 e16 d16 c8 b16 | \noBreak
       d8 c8  c8. (   |  \noBreak
-      c8 [ b8] ~  b8. ~ | \noBreak
+      c8 [ b8 ] ~  b8. ~ | \noBreak
 
       b4 ~ b8. ) | \break
       g8 a16 \stemUp b \stemNeutral c8 d16 | \noBreak
@@ -161,8 +161,8 @@
       c[b] d[c] | \noBreak
       b[g] a4~ | \noBreak
       a8[b] c[d] | \noBreak
-      e_\markup{ poco a poco ritardando } [d] c[b] | \noBreak
-      d[c]  b^\>[g]  | \noBreak
+      e_\markup{ poco a poco } [d] c[b] | \noBreak
+      d_\markup{ ritardando } [c]  b^\>[g]  | \noBreak
       a2 | \noBreak
       a4 a \! \fermata \breathe | \bar "||" \time 3/4 \break
 
@@ -244,7 +244,7 @@
     }
 
     \addlyrics {
-      Там го -- ре край из -- во -- ра срещ -- нах мо -- ма за --
+      Там го -- ре __ край из -- во -- ра срещ -- нах мо -- ма за --
       смя -- на, __ там го -- ре "срещ-" -- нах Ли -- ля -- на. __ ""
       \repeat unfold 21 { \skip 1 }
       Из -- во -- рът стру -- и, из -- ви -- ра __ и чис -- ти во -- ди раз -- ли -- ва, __
@@ -268,14 +268,14 @@
       гря -- ло сред тре -- ви зе -- ле -- ни, сред цве -- тя за -- сме -- ни.
       Го -- ре в~пла -- ни -- на -- та, Слън -- це дей о -- гря -- ло.
       \repeat unfold 5 { \skip 1 }
-      Там го -- ре край из -- во -- ра срещ -- нах мо -- ма зас -- мя -- на,__
+      Там го -- ре __ край из -- во -- ра срещ -- нах мо -- ма зас -- мя -- на,__
       там го -- ре "срещ-" -- нах Ли -- ля -- на. __ ""
       \repeat unfold 13 { \skip 1 }
       Там го -- ре срещ -- нах Ли -- ля -- на. __ ""
     }
 
     \addlyrics {
-      Tam go -- re kraj iz -- vo -- ra srešt -- nah mo -- ma za --
+      Tam go -- re __ kraj iz -- vo -- ra srešt -- nah mo -- ma za --
       smja -- na, __ tam go -- re srešt -- nah Li -- lja -- na. __ ""
       \repeat unfold 21 { \skip 1 }
       Iz -- vo -- răt stru -- i, iz -- vi -- ra __ i čis -- ti vo -- di raz -- li -- va, __
@@ -299,7 +299,7 @@
       grja -- lo sred tre -- vi ze -- le -- ni, sred cve -- tja za -- sme -- ni.
       Go -- re v~pla -- ni -- na -- ta, Slăn -- ce dej o -- grja -- lo.
       \repeat unfold 5 { \skip 1 }
-      Tam go -- re kraj iz -- vo -- ra srešt -- nah mo -- ma zas -- mja -- na,__
+      Tam go -- re __ kraj iz -- vo -- ra srešt -- nah mo -- ma zas -- mja -- na,__
       tam go -- re srešt -- nah Li -- lja -- na. __ ""
       \repeat unfold 13 { \skip 1 }
       Tam go -- re "srešt-" -- nah Li -- lja -- na. __ ""
