@@ -248,7 +248,7 @@
       смя -- на, __ там го -- ре "срещ-" -- нах Ли -- ля -- на. __ ""
       \repeat unfold 21 { \skip 1 }
       Из -- во -- рът стру -- и, из -- ви -- ра __ и чис -- ти во -- ди раз -- ли -- ва, __
-      пла -- "нин-" -- ска пе -- сен раз -- низ -- ва. __ Mо -- ма -- та мен -- ци на -- ли -- ва,
+      пла -- "нин-" -- ска пе -- сен раз -- низ -- ва. __ Mо -- ма -- та мен -- ци на -- ли -- ва, __
       в~пе -- сен -- та ти -- хо се за -- слуш -- ва. __ ""
       \repeat unfold 31 { \skip 1  }
       Ще о -- ти -- да та -- мо го -- ре, ще о -- ти -- да
@@ -257,8 +257,8 @@
       \repeat unfold 27 { \skip 2 }
       Чис -- ти во -- ди да по -- гле -- дам, ти -- ха пе -- сен да по -- слу -- шам,
       ще о -- ти -- да та -- мо. Ли -- ля -- но, __
-      цве -- те ра -- но в~гра -- ди -- на, а -- ко таз пе -- сен,
-      Ли -- ля -- но, не чу -- я, ах, от таз во -- да а -- ко не пи -- я, __
+      цве -- те ра -- но в~гра -- ди -- на, __ а -- ко таз пе -- сен,
+      Ли -- ля -- но, не чу -- я, ах, __ от таз во -- да а -- ко не пи -- я, __
       скръб ще ми пъл -- ни сър -- це -- то. __ ""
       \repeat unfold 97 { \skip 1 }
       Ли -- ля -- но мо -- ме, ти в~пла -- ни -- на -- та
@@ -268,7 +268,7 @@
       гря -- ло сред тре -- ви зе -- ле -- ни, сред цве -- тя за -- сме -- ни.
       Го -- ре в~пла -- ни -- на -- та, Слън -- це дей о -- гря -- ло.
       \repeat unfold 5 { \skip 1 }
-      Там го -- ре __ край из -- во -- ра срещ -- нах мо -- ма зас -- мя -- на,__
+      Там го -- ре __ край из -- во -- ра срещ -- нах мо -- ма зас -- мя -- на, __
       там го -- ре "срещ-" -- нах Ли -- ля -- на. __ ""
       \repeat unfold 13 { \skip 1 }
       Там го -- ре срещ -- нах Ли -- ля -- на. __ ""
@@ -279,7 +279,7 @@
       smja -- na, __ tam go -- re srešt -- nah Li -- lja -- na. __ ""
       \repeat unfold 21 { \skip 1 }
       Iz -- vo -- răt stru -- i, iz -- vi -- ra __ i čis -- ti vo -- di raz -- li -- va, __
-      pla -- nin -- ska pe -- sen raz -- niz -- va. __ Mo -- ma -- ta men -- ci na -- li -- va,
+      pla -- nin -- ska pe -- sen raz -- niz -- va. __ Mo -- ma -- ta men -- ci na -- li -- va, __
       v~pe -- sen -- ta ti -- ho se za -- sluš -- va. __ ""
       \repeat unfold 31 { \skip 1 }
       Šte o -- ti -- da ta -- mo go -- re, šte o -- ti -- da
@@ -288,8 +288,8 @@
       \repeat unfold 27 { \skip 1 }
       Čis -- ti vo -- di da po -- gle -- dam, ti -- ha pe -- sen da po -- slu -- šam,
       šte o -- ti -- da ta -- mo. Li -- lja -- no, __
-      cve -- te ra -- no v~gra -- di -- na, a -- ko taz pe -- sen,
-      Li -- lja -- no, ne ču -- ja, ah, ot taz vo -- da a -- ko ne pi -- ja, __
+      cve -- te ra -- no v~gra -- di -- na, __ a -- ko taz pe -- sen,
+      Li -- lja -- no, ne ču -- ja, ah, __ ot taz vo -- da a -- ko ne pi -- ja, __
       skrăb šte mi păl -- ni săr -- ce -- to. __ ""
       \repeat unfold 97 { \skip 1 }
       Li -- lja -- no mo -- me, ti v~pla -- ni -- na -- ta
@@ -299,7 +299,7 @@
       grja -- lo sred tre -- vi ze -- le -- ni, sred cve -- tja za -- sme -- ni.
       Go -- re v~pla -- ni -- na -- ta, Slăn -- ce dej o -- grja -- lo.
       \repeat unfold 5 { \skip 1 }
-      Tam go -- re __ kraj iz -- vo -- ra srešt -- nah mo -- ma zas -- mja -- na,__
+      Tam go -- re __ kraj iz -- vo -- ra srešt -- nah mo -- ma zas -- mja -- na, __
       tam go -- re srešt -- nah Li -- lja -- na. __ ""
       \repeat unfold 13 { \skip 1 }
       Tam go -- re "srešt-" -- nah Li -- lja -- na. __ ""
