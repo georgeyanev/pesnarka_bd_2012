@@ -15,40 +15,40 @@
       \time 7/16
       \tempoFunc "Maestoso" 8 "160"
       \autoBeamOff
-      g'8^\accent a16([b]) c8.( | \noBreak
-      c4)(c8.) | \noBreak
+      g'8^\accent a16([b]) c8. ~ | \noBreak
+      c4 ~ c8. | \noBreak
       \acciaccatura {g8} d'^\accent e c8. | \noBreak
       \acciaccatura {g8} d'^\accent e c8. | \break
       b8 d a([g16]) | \noBreak
 
-      b4 b8. (| b4) (b8.) | \noBreak
+      b4 b8. ~| b4 ~ b8. | \noBreak
       g8 a16([b]) c8. | \noBreak
       b8 d a8. | \noBreak
-      a4 a8.( |  a4) (a8.) | \bar "||" \break
+      a4 a8. ~ | a4 ~ a8. | \bar "||" \break
 
       g'8\accent^\mf  a16[(b)] c8.( | \noBreak
       c4)(c8.) | \noBreak
       \acciaccatura {g8} d'8\accent e c8. | \noBreak
       \acciaccatura {g8} d'8\accent e c8. | \noBreak
       b8 d a([g16]) | \break
-      b8 (b8) b8. (| \noBreak
-      b4 )(b8.) | \noBreak
+      b8 ~ b8 b8. ~ | \noBreak
+      b4 ~ b8. | \noBreak
       g8 \accent a16 ([b]) c8. | \noBreak
       b8\accent d a8. | \noBreak
-      a4 a8. (| \noBreak
-      a4) (a8. )| \bar "||" \break
+      a4 a8. ~ | \noBreak
+      a4 ~ a8. | \bar "||" \break
 
       g,8 a16 \stemUp b \stemNeutral c8 d16 | \noBreak
-      e8 e e8. (| \noBreak
-      e4) (e8.) | \break
+      e8 e e8. ~ | \noBreak
+      e4 ~ e8. | \break
       d8 e16 d16 c8 b16 | \noBreak
-      d8 d d8. ( | \noBreak
+      d8 d d8. ~ | \noBreak
 
-      d4) (d8.) | \break
+      d4 ~ d8. | \break
 
       d8 e16 d16 c8 b16 | \noBreak
       d8 c8  c8. (   |  \noBreak
-      c8 [ b8 ] ~  b8. ~ | \noBreak
+      c8  [ b8 ] ~  b8. ~ | \noBreak
 
       b4 ~ b8. ) | \break
       g8 a16 \stemUp b \stemNeutral c8 d16 | \noBreak
@@ -56,8 +56,8 @@
 
       d8 c b8. | \break
       c8 b a g16 | \noBreak
-      a4 a8. (| \noBreak
-      a4) (a8. )| \bar "||" \break
+      a4 a8. ~| \noBreak
+      a4 ~ a8. | \bar "||" \break
       \tempo "Allegro grazioso" d8^\accent e e e16 | \noBreak
       e8^\accent e e d16 | \noBreak
 
@@ -65,13 +65,13 @@
       d8^\accent e c b16 | \noBreak
       g8^\accent a16([b]) c8. | \break
       b8^\accent d a g16 | \noBreak
-      b4~ b8. (| \noBreak
-      b4 ) ~ b8. | \noBreak
+      b4~ b8. ~ | \noBreak
+      b4 ~ b8. | \noBreak
       \tempo "rit." g8^\accent a16([b]) c8. | \noBreak
 
       b8^\accent d a8. | \noBreak
-      a4 a8.\prall (| \noBreak
-      a4 ) (a8.) | \bar "||" \break
+      a4 a8.\prall ~ | \noBreak
+      a4 ~ a8. | \bar "||" \break
       \tempo "a tempo" d8\accent e e e16 | \noBreak
       e8\accent e e d16 | \noBreak
       g8\accent f e d16 | \noBreak
@@ -112,33 +112,33 @@
       \tempo "rit." c8 d b g16 | \noBreak
       a4 a8. | \break  \bar "||"
 
-      \time 7/8  \tempoFunc "Andante" 8 "150" a4 (d8[e]) f8([ g f]) | e4 (e4) (e4.) | \noBreak
+      \time 7/8  \tempoFunc "Andante" 8 "150" a4 (d8[e]) f8([ g f]) | e4 ~ e4 ~ e4. | \noBreak
 
-      c4 \acciaccatura{ b16[c] } \stemUp b4 \stemNeutral a8 gis a8 |  b8([c b])  e,4 (e) | \break
+      c4 \acciaccatura{ b16[c] } \stemUp b4 \stemNeutral a8 gis a8 |  b8([c b])  e,4 ~ e | \break
 
       e'8\tenuto f\tenuto g\tenuto  g4 a4 |  \noBreak
 
       \acciaccatura {f16[g]}  f8 e g  f4\tenuto e4\tenuto | \noBreak
-      a4. d,4 (d) | \break
-      g4 f e d8 | c b c4 d4. | e4 (e4) (e4.) | \break
+      a4. d,4 ~ d | \break
+      g4 f e d8 | c b c4 d4. | e4 ~ e4 ~ e4. | \break
 
       \tempo "rit." a,4 b c4. | \time 9/8 b4 d c b4. | \noBreak
       \time 7/8
-      a4 (a4) (a4.) (| a4) (a4) (a4.) | \break
-      \tempo "a tempo" a4  d8 e  f([ g f]) | e4. (e4) (e4) |  \noBreak
+      a4 ~ a4 ~ a4. ~ | a4 ~ a4 ~ a4. | \break
+      \tempo "a tempo" a4  d8 e  f([ g f]) | e4. ~ e4 ~ e4 |  \noBreak
 
-      c'4 \acciaccatura{ b16[c] } b4 a8 gis [ a] | b8 ( [c8 b]) e,4 (e4) | \break
+      c'4 \acciaccatura{ b16[c] } b4 a8 gis [ a] | b8 ( [c8 b]) e,4 ~ e4 | \break
 
 
       e8\tenuto[f\tenuto g\tenuto] g4 a4 | \noBreak
       \acciaccatura { f16[g] } f8[e g] f4 e | \noBreak
 
-      a4. d,4 (d4) | \noBreak
+      a4. d,4 ~ d4 | \noBreak
       g4 f e d8 | \break
 
-      c [b\tenuto] c4\tenuto d4.\tenuto| e4 (e4) (e4.) | \noBreak
+      c [b\tenuto] c4\tenuto d4.\tenuto| e4 e4 ~ e4. | \noBreak
       a,4 b c4. | \time 9/8 b4 d c b4. | \noBreak
-      \time 7/8 a4.~ ( a4 ~ a4) | a'4.:32 (a4:32) (a4:32)\fermata \breathe | \bar "|" \time 2/4 \break    \bar ".|:-|"
+      \time 7/8 a4.~ ( a4 ~ a4) | a'4.:32 ~ a4:32 ~ a4:32 \fermata \breathe | \bar "|" \time 2/4 \break    \bar ".|:-|"
       \repeat volta 1 {
         \tempoFunc "Vivace" 4 "160"  c8_\markup{ \italic {ordinario} }\accent[b] a[g] | \noBreak
         a\accent[g] f[e] | \noBreak
@@ -232,18 +232,17 @@
       \acciaccatura { g8 } d'^\accent e c8. | \noBreak
       \acciaccatura { g8 } d'^\accent e c8. | \break
       b8 d a([g16]) | \noBreak
-      b4 b8.( |   b4) (b8.) |\noBreak
-
+      b4 b8. ~ | b4 ~ b8. |\noBreak
       g8 a16([b]) c8. | \noBreak
       b8 d a8. | \noBreak
-      a4 a8. (|  a4) (a8.) \bar "||" \break
+      a4 a8. ~ | a4 ~ a8. \bar "||" \break
       g'8\mf\accent a16([b]) c8.~ | \noBreak
       c4~ c8. | \noBreak
       \acciaccatura { g8 } d'8\accent e c8. | \noBreak
 
       \acciaccatura { g8 } d'8\accent e c8. | \noBreak
       b8 d a[g16]| \break
-      b4 b8. (| b4) (b8.) | \noBreak
+      b4 b8. ~ | b4 ~ b8. | \noBreak
       g,8^\accent a16([b]) c8. | \noBreak
       b8^\accent d a8. \tempo "rit." | \noBreak
       a4 a'8. ~ | \noBreak
@@ -268,7 +267,7 @@
       цве -- те ра -- но в~гра -- ди -- на, __ а -- ко таз пе -- сен,
       Ли -- ля -- но, не чу -- я, ах, __ от таз во -- да а -- ко не пи -- я, __
       скръб ще ми пъл -- ни сър -- це -- то. __ ""
-      \repeat unfold 97 { \skip 1 }
+      \repeat unfold 98 { \skip 1 }
       Ли -- ля -- но мо -- ме, ти в~пла -- ни -- на -- та
       там го -- ре ще ме за -- ве -- деш, из -- во -- рът де -- то из -- ви -- ра.
       \repeat unfold 30 { \skip 1 }
@@ -300,7 +299,7 @@
       cve -- te ra -- no v~gra -- di -- na, __ a -- ko taz pe -- sen,
       Li -- lja -- no, ne ču -- ja, ah, __ ot taz vo -- da a -- ko ne pi -- ja, __
       skrăb šte mi păl -- ni săr -- ce -- to. __ ""
-      \repeat unfold 97 { \skip 1 }
+      \repeat unfold 98 { \skip 1 }
       Li -- lja -- no mo -- me, ti v~pla -- ni -- na -- ta
       tam go -- re šte me za -- ve -- deš, iz -- vo -- răt de -- to iz -- vi -- ra.
       \repeat unfold 30 { \skip 1 }

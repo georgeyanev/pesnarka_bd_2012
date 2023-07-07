@@ -612,7 +612,7 @@
       \vspace #0.4
       \line {
         \justify {
-          \concat {"71" . \smallCaps " Нева Сензу – Neva Senzu."} 1. Mai 1929, Allgemeine Okkultklasse, VIII. Jahrgang, 37. Vortrag. Dieses Lied ist im östlichen Stil geschrieben und die Wörter sind einer alten Sprache entliehen. Wenn man sie übersetzen würde, würden sie ihre Kraft verlieren. Die Silben sind derart angeordnet, dass sie als Mittler von Kräften dienen. Das Lied \italic"Neva Senzu" zeigt den geistigen Weg auf, der nicht glatt verläuft, sondern Hindernisse aufweist. Hier muss der Mensch von den Höhen in das Tal hinabsteigen, um bestimmte 
+          \concat {"71" . \smallCaps " Нева Сензу – Neva Senzu."} 1. Mai 1929, Allgemeine Okkultklasse, VIII. Jahrgang, 37. Vortrag. Dieses Lied ist im östlichen Stil geschrieben und die Wörter sind einer alten Sprache entliehen. Wenn man sie übersetzen würde, würden sie ihre Kraft verlieren. Die Silben sind derart angeordnet, dass sie als Mittler von Kräften dienen. Das Lied \italic"Neva Senzu" zeigt den geistigen Weg auf, der nicht glatt verläuft, sondern Hindernisse aufweist. Hier muss der Mensch von den Höhen in das Tal hinabsteigen, um bestimmte
         }
       }
 
@@ -920,7 +920,7 @@
 
       \line {
         \justify {
-          \concat {"113" . \smallCaps " Скитах се по гори и планини – Skitah se po gori i planini."}  Das Lied entstand 1933.
+          \concat {"113" . \smallCaps " Скитах се по гори и планини – Skitah se po gori i planini."}  Das Lied entstand 1933. Ossia stellt die Variante nach Vesela Nestorova dar.
         }
       }
 
@@ -975,14 +975,14 @@
 
       \line {
         \justify {
-          \concat {"120" . \smallCaps  " Българска рапсодия – Bălgarska rapsodija."}  Das Lied entstand 1934. Redaktion Maria Todorova. Hier hat Petar Danov die erhabensten Gestalten aus dem bulgarischen Epos dargestellt. Ihnen liegt eine tiefe Symbolik zugrunde: Das ist der mystische Weg der menschlichen Seele, die danach strebt, in Berührung mit der göttlichen Liebe zu kommen.
+          \concat {"120" . \smallCaps  " Българска рапсодия – Bălgarska rapsodija."} Das Lied entstand 1934. Hier wurde das Lied in der Fassung von Penjo Ganev publiziert, die den für die bulgarische Volksmusik typischen 7/8 Rythmus im Andante-Teil beibehält. Bei Maria Todorovas Fassung ist dieser Teil in 3/4 Rythmus erschienen. In diesem Lied stellte Petar Danov die erhabensten Gestalten aus dem bulgarischen Epos dar. Ihnen liegt eine tiefe Symbolik zugrunde: Das ist der mystische Weg der menschlichen Seele, die danach strebt, in Berührung mit der göttlichen Liebe zu kommen.
         }
       }
 
       \vspace #0.5
       \line {
         \justify {
-          \concat {"121" . \smallCaps " Българска идилия – Bălgarska idilija."}  Notiert von einer Tonbandaufnahme von Petar Kamburov, redigiert von Georgi Stratev, Ioanna Strateva und Stanka Zeleva. Petar Danov gab dieses Lied Peter Kamburov im Februar 1920 in der Opălčenska Straße 66.
+          \concat {"121" . \smallCaps " Българска идилия – Bălgarska idilija."}  Notiert von einer Tonbandaufnahme von
         }
       }
 
@@ -998,7 +998,7 @@
 
       \line {
         \justify {
-          Die Idylle beschreibt das Streben der bulgarischen Seele nach dem Ewigen im Leben.
+          Petar Kamburov, redigiert von Georgi Stratev, Ioanna Strateva und Stanka Zeleva. Petar Danov gab dieses Lied Peter Kamburov im Februar 1920 in der Opălčenska Straße 66. Die Idylle beschreibt das Streben der bulgarischen Seele nach dem Ewigen im Leben.
           Sie will die ewige Gerechtigkeit, die ewige Liebe erreichen, die das Sein erfüllen. Sie erahnt die Existenz einer schönen Welt in sich und möchte sie Wirklichkeit werden lassen.
         }
       }
@@ -1068,13 +1068,8 @@
           Diese schwierige Zeitspanne symbolisiert die Bewusstseinsstufen, die die Menschen auf ihrem Weg der Erweckung durchlaufen.
         }
       }
-      \vspace #0.4
 
-      \line {
-        \justify {
-          \concat {"131" . \smallCaps " Малкият планински извор  – Malkijat planinski izvor."} 27. März 1937, Sofia, Izgrev. Text Stojanka Ilieva.
-        }
-      }
+
 
 
 
@@ -1086,6 +1081,11 @@
   \markup \fontsize  #+2  {
     \override #'(baseline-skip . 2.2)
     \column {
+      \line {
+        \justify {
+          \concat {"131" . \smallCaps " Малкият планински извор  – Malkijat planinski izvor."} 27. März 1937, Sofia, Izgrev. Text Stojanka Ilieva.
+        }
+      }
 
       \vspace #0.5
 
@@ -1200,7 +1200,7 @@
       \vspace #0.4
       \line {
         \justify {
-          \concat {"149" . \smallCaps " Me-хейн – Me-hejn."} 29. Januar 1941, Text Stojanka Ilieva.
+          \concat {"149" . \smallCaps " Me-хейн – Me-hejn."} 29. Januar 1941, Text unbekannt.
         }
       }
       \vspace #0.4
@@ -1216,13 +1216,6 @@
         }
       }
 
-      \vspace #0.4
-      \line {
-        \justify {
-          \concat {"152" . \smallCaps " Молитва – Molitva."} 13. Oktober 1940, Musik und Text von Petar Danov.
-        }
-      }
-
 
 
 
@@ -1232,6 +1225,14 @@
   \markup \fontsize  #+2  {
     \override #'(baseline-skip . 2.2)
     \column {
+
+      \line {
+        \justify {
+          \concat {"152" . \smallCaps " Молитва – Molitva."} 13. Oktober 1940, Musik und Text von Petar Danov.
+        }
+      }
+
+      \vspace #0.4
 
       \line {
         \justify {
@@ -1261,7 +1262,7 @@
 
           1). Fröhliches Motiv, das Petar Danov in seinen Studienjahren in Amerika eingefallen ist. In der Ausgabe von 1949 wurde das Lied unter dem Titel \italic"Thema 3." veröffentlicht.
 
- 
+
           2). In der Ausgabe von 1942 wurde das Lied mit Titel \italic"Thema 6" veröffentlicht.
 
           3). 27. Januar 1933.
@@ -1314,10 +1315,10 @@
 
       \vspace #0.4
 
-      
+
       \line {
         \justify {
-          \concat {"161" . \smallCaps " Гласът  на  Живия  Господ  –  Новото  Възкресение  Glasăt  na  Živija  Gospod  " } \smallCaps " – Novoto  Văzkresenie." Dieses Lied wurde von Boris Nikolov gesungen und von Peter Ganev notiert. Das Lied ist von tiefer Mystik durchdrungen. Im Werk von Petar Danov drücken alle nachfolgenden Lieder neue melodische Intonationen aus. Durch das Lehren dieses Liedes deutete Petar Danov eine neue musikalische Form an, die als Beispiel und Basis der Musik der Zukunft dienen wird. Dies deutet Danov mehrmals an (Allgemeine Okkultklasse aus dem Jahr 1923, 3. Jahrgang, 10. Vortrag). Eine solche Andeutung erfolgte auch beim Lehren des Liedes \italic"Kaji mi svetli Boji lach," das jedoch unvollendet blieb. Um diese Lieder gut zu singen, bedarf es eines mystischen Element, d. h. sie sollen mit Ehrfurcht, Ehrlichkeit, Einfachheit, Reinheit und Bildhaftigkeit gesungen werden.
+          \concat {"161" . \smallCaps " Гласът  на  Живия  Господ  –  Новото  Възкресение  Glasăt  na  Živija  Gospod  " } \smallCaps " – Novoto  Văzkresenie." Dieses Lied wurde von Boris Nikolov gesungen und von Peter Ganev notiert. Das Lied ist von tiefer Mystik durchdrungen. Im Werk von Petar Danov drücken alle nachfolgenden Lieder neue melodische Intonationen aus. Durch das Lehren dieses Liedes deutete Petar Danov eine neue musikalische Form an, die als Beispiel und Basis der Musik der Zukunft dienen wird. Dies deutet Danov mehrmals an (Allgemeine Okkultklasse aus dem Jahr 1923, 3. Jahrgang, 10. Vortrag). Eine solche Andeutung erfolgte auch beim Lehren des Liedes \italic"Kaji mi svetli Boji lach," das jedoch 
         }
       }
 
@@ -1330,18 +1331,24 @@
   \markup \fontsize  #+2  {
     \override #'(baseline-skip . 2.2)
     \column {
+        \line {
+        \justify {
+          unvollendet blieb. Um diese Lieder gut zu singen, bedarf es eines mystischen Element, d. h. sie sollen mit Ehrfurcht, Ehrlichkeit, Einfachheit, Reinheit und Bildhaftigkeit gesungen werden.
+        
+        }
+      }
 
 
       \vspace #0.4
       \line {
         \justify {
-          \concat {"162" . \smallCaps " Новото Битие – Novoto Bitie."} Das Erschaffen des neuen Adam. Gegeben von Petar Danov an Liljana Tabakova in der folgenden Reihenfolge: Erster göttlicher Tag am 7. Dezember 1941., Zweiter göttlicher Tag am 28. Juli 1942. Dritter göttlicher Tag  am 1. Oktober 1942. Vierter göttlicher Tag am 12. November 1942, Fünfter göttlicher Tag am 30. Mai 1943, Sechster göttlicher Tag am 21. Juli 1943, Siebter Göttlicher Tag am 15. September 1943. Unter \italic" Neuer Genesis" verstehen wir das neue Leben, welches sich jetzt für die gesamte Menschheit und jedes einzelne Individuum an sich aufzubauen beginnt. Die erste „Genesis“, die in der Bibel beschrieben wurde, symbolisiert das alte Leben. Der alte Adam hat gesündigt. Musikalisch gesprochen, hat er das F nicht sauber genommen, das dem Materiellen in dieser Welt entspricht. Der neue Adam wird diesen Fehler des alten Adam korrigieren. Er wird keine Fehler mehr begehen und nicht mehr sterben. Musikalisch betrachtet bedeutet dies: Er wird die Noten der Tonleiter bis zum A richtig singen. Das A entspricht der 6. Rasse. Es bleibt dann nur noch die Note H, die reife Frucht. Diese Frucht symbolisiert die 7. Rasse. Die sieben Tage Gottes aus der Genesis entsprechen den sieben Noten der Tonleiter. So beginnt der erste Tag Gottes mit der Note C. Das bedeutet, dass die Mächte des Lichts, die die Schöpfung der neuen Welt begonnen haben, die Materie des alten Lebens in eine neue, höhere Tonleiter umformen und in sie das Element der Unsterblichkeit einfügen werden. Nach dieser Analogie werden sich im Blut des neuen Adam neue rote Blutkörperchen formen, die von den Eigenschaften des neuen Lebens durchdrungen sein werden. Der zweite Tag Gottes, der mit dem Ton D beginnt, wird das Nervensystem, die Knochen und den Willen transformieren. So wird jeder göttliche Tag etwas Neues in die Struktur des Kosmos und des Menschen hineinbringen. Jeder Mensch wird seine neue Existenz individuell leben. Das Lied endet mit den magischen Worten des kosmischen Geistes \italic"Aum" und der Universalseele Aumen. \italic"(Deutung nach Ideen von Petar Danov.)" Die bulgarische Sprache hat zwei Wörter für \italic"Licht," \italic"svetlina" und \italic"videlina." Diesen Wörtern kommt eine unterschiedliche Bedeutung zu, die Danov in seinen Vorträgen darlegt. 
+          \concat {"162" . \smallCaps " Новото Битие – Novoto Bitie."} Das Erschaffen des neuen Adam. Gegeben von Petar Danov an Liljana Tabakova in der folgenden Reihenfolge: Erster göttlicher Tag am 7. Dezember 1941., Zweiter göttlicher Tag am 28. Juli 1942. Dritter göttlicher Tag  am 1. Oktober 1942. Vierter göttlicher Tag am 12. November 1942, Fünfter göttlicher Tag am 30. Mai 1943, Sechster göttlicher Tag am 21. Juli 1943, Siebter Göttlicher Tag am 15. September 1943. Unter \italic" Neuer Genesis" verstehen wir das neue Leben, welches sich jetzt für die gesamte Menschheit und jedes einzelne Individuum an sich aufzubauen beginnt. Die erste „Genesis“, die in der Bibel beschrieben wurde, symbolisiert das alte Leben. Der alte Adam hat gesündigt. Musikalisch gesprochen, hat er das F nicht sauber genommen, das dem Materiellen in dieser Welt entspricht. Der neue Adam wird diesen Fehler des alten Adam korrigieren. Er wird keine Fehler mehr begehen und nicht mehr sterben. Musikalisch betrachtet bedeutet dies: Er wird die Noten der Tonleiter bis zum A richtig singen. Das A entspricht der 6. Rasse. Es bleibt dann nur noch die Note H, die reife Frucht. Diese Frucht symbolisiert die 7. Rasse. Die sieben Tage Gottes aus der Genesis entsprechen den sieben Noten der Tonleiter. So beginnt der erste Tag Gottes mit der Note C. Das bedeutet, dass die Mächte des Lichts, die die Schöpfung der neuen Welt begonnen haben, die Materie des alten Lebens in eine neue, höhere Tonleiter umformen und in sie das Element der Unsterblichkeit einfügen werden. Nach dieser Analogie werden sich im Blut des neuen Adam neue rote Blutkörperchen formen, die von den Eigenschaften des neuen Lebens durchdrungen sein werden. Der zweite Tag Gottes, der mit dem Ton D beginnt, wird das Nervensystem, die Knochen und den Willen transformieren. So wird jeder göttliche Tag etwas Neues in die Struktur des Kosmos und des Menschen hineinbringen. Jeder Mensch wird seine neue Existenz individuell leben. Das Lied endet mit den magischen Worten des kosmischen Geistes \italic"Aum" und der Universalseele Aumen. \italic"(Deutung nach Ideen von Petar Danov.)" Die bulgarische Sprache hat zwei Wörter für \italic"Licht," \italic"svetlina" und \italic"videlina." Diesen Wörtern kommt eine unterschiedliche Bedeutung zu, die Danov in seinen Vorträgen darlegt.
         }
       }
 
-       \vspace #0.5
+      \vspace #0.5
 
-  \line {
+      \line {
         \justify {
           \concat {"163" . \smallCaps " Вътрешният глас на Бога – Vătrešnijat glas na Boga."} Petar Danov sagte: „Diese Worte sind in der Sprache Vatan geschrieben. Sie bedeuten: Liebe und sei frei. Höre auf die innere Stimme Gottes. Schreite ohne Zögern auf deinem Wege fort.“
         }
@@ -1365,7 +1372,7 @@
           \concat {"166" . \smallCaps  " Молитва – Molitva."}  Petar Danov komponierte im Beisein von Liljana Tabakova. Es wird mit den „Himni na Slănceto“ [Hymnen an die Sonne] zusammengesungen.
         }
       }
-    
+
 
     }
   }
@@ -1379,7 +1386,7 @@
           \concat {"167" . \smallCaps  " Божията Любов ме озари – Božijata Ljubov me ozari."}  Petar Danov komponierte das Lied am 13. März 1942 im Beisein von  Liljana Tabakova.
         }
       }
-    
+
       \vspace #0.5
 
       \line {
