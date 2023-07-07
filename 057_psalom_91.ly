@@ -34,24 +34,24 @@
 
     \addlyrics {
       Кой -- то жи -- ве -- е под по -- кри -- ва на Все -- виш -- на --
-      го, ще пре -- би -- ва -- е под сян -- ка -- та на
+      го, ще __ пре -- би -- ва -- е под сян -- ка -- та на __
       Все -- мо -- гъ -- ща -- го. го. Ще
-      каз -- вам за Гос -- по -- да, ще каз -- вам: Той е при --
-      бе -- жи -- ще мо -- е и кре -- пост мо --
-      я, Бог мой, Бог мой, на Не -- го
-      ще се на -- де -- я. Бог мой, Бог мой,
-      на Не -- го ще се на -- де -- я.
+      каз -- вам за __ Гос -- по -- да, ще каз -- вам: Той е при --
+      бе -- жи -- ще мо -- е и кре -- пост __ мо --
+      я, Бог мой, Бог мой, на __ Не -- го
+      ще __ се на -- де -- я. Бог мой, Бог мой,
+      на __ Не -- го ще __ се на -- де -- я.
     }
 
  \addlyrics {
       Koj -- to ži -- ve -- e pod po -- kri -- va na Vse -- viš -- na --
-      go, šte pre -- bi -- va -- e pod sjan -- ka -- ta na
+      go, šte __ pre -- bi -- va -- e pod sjan -- ka -- ta na __
       Vse -- mo -- gă -- šta -- go. go. Šte
-      kaz -- vam za Gos -- po -- da, šte kaz -- vam: Toj e pri --
-      be -- ži -- šte mo -- e i kre -- post mo --
-      ja, Bog moj, Bog moj, na Ne -- go
-      šte se na -- de -- ja. Bog moj, Bog moj,
-      na Ne -- go šte se na -- de -- ja.
+      kaz -- vam za __ Gos -- po -- da, šte kaz -- vam: Toj e pri --
+      be -- ži -- šte mo -- e i kre -- post __ mo --
+      ja, Bog moj, Bog moj, na __ Ne -- go
+      šte __ se na -- de -- ja. Bog moj, Bog moj,
+      na __ Ne -- go šte __ se na -- de -- ja.
     }
 
 

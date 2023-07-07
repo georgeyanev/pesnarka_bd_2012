@@ -54,34 +54,34 @@
 
     \addlyrics {
       А  бре,
-      син -- ко, зна -- еш ли
+      син -- ко, __  зна -- еш ли __ 
       що съ -- се -- ди за теб го
-      -- во -- рят? Че си ста --
+      -- во -- рят? __ Че си ста --
       -- до -- то в~пла --  ни -- на --
-      та о -- ста -- вял и ве --
-      чер си се връ -- щал мо --
-      ми по се -- ден -- ки  да
-      сре -- щаш. Мо -- ми,  що
-      "се-" -- ден -- ки па -- лят,
-      па -- лят, па -- лят,  но
-      и раз -- ва -- лят.  Мо --
-      ма се, син -- ко, ве -- чер
-      не  из -- би -- ра.}
+      та о -- ста -- вял __  и ве --
+      чер си се връ -- щал __ мо --
+      ми __  по се -- ден -- ки  да
+      сре -- щаш. __ Мо -- ми, __  що
+      "се-" -- ден -- ки па -- лят, __ 
+      па -- лят, __  па -- лят, __  но
+      и раз -- ва -- лят. __   Мо --
+      ма се, син -- ко, __ ве -- чер
+      не  из -- би -- ра. __}
       \addlyrics {
       A  bre,
-      sin -- ko, zna -- eš li
+      sin -- ko, __ zna -- eš li __ 
       što să -- se -- di za teb go
-      -- vo -- rjat? Če si sta --
+      -- vo -- rjat? __  Če si sta --
       -- do -- to v~pla --  ni -- na --
-      ta o -- sta -- vjal i ve --
-      čer si se vră -- štal mo --
-      mi po se -- den -- ki  da
-      sre -- štaš. Mo -- mi,  što
-      se -- den -- ki pa -- ljat,
-      pa -- ljat, pa -- ljat,  no
-      i raz -- va -- ljat.  Mo --
-      ma se, sin -- ko, ve -- čer
-      ne  iz -- bi -- ra.}
+      ta o -- sta -- vjal __ i ve --
+      čer si se vră -- štal __ mo --
+      mi __ po se -- den -- ki  da
+      sre -- štaš. __  Mo -- mi, __  što
+      se -- den -- ki pa -- ljat, __ 
+      pa -- ljat, __ pa -- ljat, __  no
+      i raz -- va -- ljat. __ Mo --
+      ma se, sin -- ko, __ ve -- čer
+      ne  iz -- bi -- ra. __}
 
         \header {
           title = \titleFunc "А бре, синко " "A bre, sinko"

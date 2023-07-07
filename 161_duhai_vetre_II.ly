@@ -95,7 +95,7 @@
       да по -- лу -- чи, да по -- лу --
       чи, да се у -- чи. Хай ди ди ди
       ди, да си и -- ди, да си и -- ди,
-      До -- бро да ви -- ди.}
+      До -- бро да ви -- ди. __ }
      \addlyrics {
       Bo -- ži -- e -- to Slăn -- ce gre --
       e dnes, Bo -- ži -- e -- to Slăn --
@@ -114,7 +114,7 @@
       da po -- lu -- či, da po -- lu --
       či, da se u -- či. Haj di di di
       di, da si i -- di, da si i -- di,
-      Do -- bro da vi -- di.}
+      Do -- bro da vi -- di. __ }
 
         \header {
           title = \titleFunc "Духай ветре II" "Duhaj vetre II"

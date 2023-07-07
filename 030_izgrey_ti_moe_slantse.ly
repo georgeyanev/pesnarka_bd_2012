@@ -32,20 +32,20 @@
 
     \addlyrics {
       Из -- грей,
-      из -- грей ти, мо -- е Слън -- це, за -- що --
-      то ча -- кам все -- ки ден; за теб коп -- ней сър -- це то -- мо -- е и в~пъ -- тя си съм из
-       -- мо -- рен; ти но -- сиш ми Жи -- вот бла --
-      жен. Жи -- вот бла -- жен, Жи -- вот бла -- жен,
-      бла -- жен, бла -- жен, Жи -- вот бла -- жен; ти
-      но -- сиш ми Жи -- вот бла -- жен.}
+      из -- грей ти, мо -- е Слън -- це, __  за -- що --
+      то ча -- кам все -- ки ден; __ за теб коп -- ней __ сър -- це то -- мо -- е __ и в~пъ -- тя си съм из
+       -- мо -- рен; __  ти но -- сиш ми Жи -- вот бла --
+      жен.  __ Жи -- вот бла -- жен, Жи -- вот бла -- жен, __ 
+      бла -- жен, бла -- жен, Жи -- вот бла -- жен; __ ти
+      но -- сиш ми Жи -- вот бла -- жен. __ }
        \addlyrics {
       Iz -- grej,
-      iz -- grej ti, mo -- e Slăn -- ce, za -- što --
-      to ča -- kam vse -- ki den; za teb kop -- nej săr -- ce to -- mo -- e i v~pă -- tja si săm iz
-       -- mo -- ren; ti no -- siš mi Ži -- vot bla --
-      žen. Ži -- vot bla -- žen, Ži -- vot bla -- žen,
-      bla -- žen, bla -- žen, Ži -- vot bla -- žen; ti
-      no -- siš mi Ži -- vot bla -- žen.}
+      iz -- grej ti, mo -- e Slăn -- ce, __  za -- što --
+      to ča -- kam vse -- ki den; __ za teb kop -- nej __ săr -- ce to -- mo -- e __  i v~pă -- tja si săm iz
+       -- mo -- ren;  __ ti no -- siš mi Ži -- vot bla --
+      žen. __  Ži -- vot bla -- žen, Ži -- vot bla -- žen, __ 
+      bla -- žen, bla -- žen, Ži -- vot bla -- žen; __ ti
+      no -- siš mi Ži -- vot bla -- žen. __ }
 
         \header {
           title = \titleFunc "Изгрей ти, мое Слънце" "Izgrej ti, moe Slănce"

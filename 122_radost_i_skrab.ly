@@ -154,22 +154,22 @@
        Слу -- шал съм за те -- бе, скръб,
       че жес -- то -- ка си би -- ла, че
       стра -- да -- ни -- я при -- чи -- ня
-      -- ваш  ти. Не зна -- еш ли ти,
+      -- ваш __  ти. Не зна -- еш ли ти,
       че съм бе -- ден стран -- ник? Ка
       -- жи що ис -- каш ти от ме -- не,
       скръб, ка -- жи! Ка -- жи що
-      ис -- каш, не -- ка аз то -- ва
+      ис -- каш, не -- ка аз то -- ва __
       да знам! "„Мъч" -- но мо -- же
-      мен ня -- кой  да о -- би
+      мен ня -- кой __  да о -- би
       -- ча. Там е скръб -- та! Кой --
-      то мен о -- би  --  ча
+      то мен о -- би  --  ча __
       и при  -- е -- ма ме до  --
-      бре, са -- мо той мо
+      бре, са -- мо __ той __ мо
       -- же Жи -- во -- та да раз -- би
       -- ра. Тру -- ден е и стръ -- мен
       е пъ -- тят, по кой -- то вър --
       вя. Мъч -- но мо -- же да ме след
-      -- ва ня -- кой там, а за
+      -- ва ня -- кой там, а за __
       смърт -- ни -- я не -- въз -- мож --
       но е поч -- ти. Ня -- кой пък да
       о -- би -- ча и доб -- ре да мис --
@@ -197,22 +197,22 @@
        Slu -- šal săm za te -- be, skrăb,
       če žes -- to -- ka si bi -- la, če
       stra -- da -- ni -- ja pri -- či -- nja
-      -- vaš  ti. Ne zna -- eš li ti,
+      -- vaš __  ti. Ne zna -- eš li ti,
       če săm be -- den stran -- nik? Ka
       -- ži što is -- kaš ti ot me -- ne,
       skrăb, ka -- ži! Ka -- ži što
-      is -- kaš, ne -- ka az to -- va
+      is -- kaš, ne -- ka az to -- va __
       da znam! "„Măč" -- no mo -- že
-      men nja -- koj  da o -- bi
+      men nja -- koj __ da o -- bi
       -- ča. Tam e skrăb -- ta! Koj --
-      to men o -- bi  --  ča
+      to men o -- bi  --  ča __
       i pri  -- e -- ma me do  --
-      bre, sa -- mo toj mo
+      bre, sa -- mo __ toj __ mo
       -- že Ži -- vo -- ta da raz -- bi
       -- ra. Tru -- den e i stră -- men
       e pă -- tjat, po koj -- to văr --
       vja. Măč -- no mo -- že da me sled
-      -- va nja -- koj tam, a za
+      -- va nja -- koj tam, a za __
       smărt -- ni -- ja ne -- văz -- mož --
       no e poč -- ti. Nja -- koj păk da
       o -- bi -- ča i dob -- re da mis --

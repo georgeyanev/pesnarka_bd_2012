@@ -29,25 +29,25 @@
       f'4. g'8 a'4 a'4. d'8 | f'4. d'8 f'4 e'2 | d'4. a8 d'4 d'2 \bar "|." \pageBreak
     }
     \addlyrics {
-      Из -- гря -- ва ве -- че ден тър -- же -- ствен, пред -- ре -- че
+      Из -- гря -- ва ве -- че ден тър -- же -- ствен, __ пред -- ре -- че
       -- ни -- ят ден Бо -- же -- ствен, на дни --
       те ди -- а -- де -- ма, със свет -- ли -- на го
       -- ля -- ма. Е -- ла -- те да жи -- ве -- ем във
-      Лю -- бов -- та чу -- дес -- на. Е -- ла -- те
+      Лю -- бов -- та чу -- дес -- на. __ Е -- ла -- те
       да при -- е -- мем таз бла -- го -- дат не --
-      бес -- на, е -- ла -- те да при -- е -- мем таз
+      бес -- на, __ е -- ла -- те да при -- е -- мем таз
       бла -- го -- дат не -- бес -- на, що жи -- во --
       та об -- но -- вя -- ва и веч -- но тя го под
       -- мла -- дя -- ва.
     }
     \addlyrics {
-      Iz -- grja -- va ve -- če den tăr -- že -- stven, pred -- re -- če
+      Iz -- grja -- va ve -- če den tăr -- že -- stven, __ pred -- re -- če
       -- ni -- jat den Bo -- že -- stven, na dni --
       te di -- a -- de -- ma, săs svet -- li -- na go
       -- lja -- ma. E -- la -- te da ži -- ve -- em văv
-      Lju -- bov -- ta ču -- des -- na. E -- la -- te
+      Lju -- bov -- ta ču -- des -- na. __ E -- la -- te
       da pri -- e -- mem taz bla -- go -- dat ne --
-      bes -- na, e -- la -- te da pri -- e -- mem taz
+      bes -- na, __ e -- la -- te da pri -- e -- mem taz
       bla -- go -- dat ne -- bes -- na, što ži -- vo --
       ta ob -- no -- vja -- va i več -- no tja go pod
       -- "mla -" -- dja -- va.

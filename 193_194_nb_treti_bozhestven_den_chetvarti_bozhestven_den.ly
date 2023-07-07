@@ -93,13 +93,13 @@
       то.“ И ста -- на та -- ка. И я --
       ви се су -- ша -- та. И на --
       ре -- че я Бог зе -- мя. И съ
-      -- бра -- на -- та  во -- да на
+      -- бра -- на -- та __  во -- да на
       -- ре -- че мо -- ре. И ре -- че
       Бог, и из -- рас -- на све -- жа
       тре -- ва със се -- ме -- на спо --
-      ред ви -- да си  и дър -- во
+      ред ви -- да си __  и дър -- во
       със пло -- до -- ве спо -- ред ви --
-      да си. И ви -- дя  Бог, __ че
+      да си. И ви -- дя __  Бог, __ че __
       всич -- ко бе до -- бро. И ста
       -- на ве -- чер, и ста -- на ут --
       ро, тре -- ти ден.}
@@ -110,13 +110,13 @@
       to.“ I sta -- na ta -- ka. I ja --
       vi se su -- ša -- ta. I na --
       re -- če ja Bog ze -- mja. I să
-      -- bra -- na -- ta  vo -- da na
+      -- bra -- na -- ta __  vo -- da na
       -- re -- če mo -- re. I re -- če
       Bog, i iz -- ras -- na sve -- ža
       tre -- va săs se -- me -- na spo --
-      red vi -- da si  i dăr -- vo
+      red vi -- da si __ i dăr -- vo
       săs plo -- do -- ve spo -- red vi --
-      da si. I vi -- dja  Bog, __ če
+      da si. I vi -- dja __  Bog, __ če __
       vsič -- ko be do -- bro. I sta
       -- na ve -- čer, i sta -- na ut --
       ro, tre -- ti den.}
@@ -212,14 +212,14 @@
       ре -- че Бог: „Да грей --
       нат све -- ти -- ла на не -- бес --
       ни -- я свод.“ И ста -- на та --
-      ка. И на -- пра -- ви Бог  две
-      све -- ти -- ла:  го -- ля -- мо --
-      то да вла -- дей  де -- ня,
+      ка. И на -- пра -- ви Бог __  две
+      све -- ти -- ла: __  го -- ля -- мо --
+      то да вла -- дей __  де -- ня,
       а мал -- ко -- то нощ -- та. И на --
       пра -- ви Бог, че грей -- на -- ха
-      звез -- ди на  не -- бес -- ни --
-      я прос -- тор. И ви -- дя  Бог,
-      че  всич -- ко бе до -- бро. И
+      звез -- ди на __  не -- бес -- ни --
+      я прос -- тор. И ви -- дя __  Бог,
+      че __  всич -- ко бе до -- бро. И
       ста -- на ве -- чер, и ста -- на
       ут -- ро, ден чет -- вър -- ти.}
       \addlyrics {
@@ -227,14 +227,14 @@
       re -- če Bog: „Da grej --
       nat sve -- ti -- la na ne -- bes --
       ni -- ja svod.“ I sta -- na ta --
-      ka. I na -- pra -- vi Bog  dve
-      sve -- ti -- la:  go -- lja -- mo --
-      to da vla -- dej  de -- nja,
+      ka. I na -- pra -- vi Bog __  dve
+      sve -- ti -- la: __  go -- lja -- mo --
+      to da vla -- dej __  de -- nja,
       a mal -- ko -- to nošt -- ta. I na --
       pra -- vi Bog, če grej -- na -- ha
-      zvez -- di na  ne -- bes -- ni --
-      ja pros -- tor. I vi -- dja  Bog,
-      če  vsič -- ko be do -- bro. I
+      zvez -- di na __  ne -- bes -- ni --
+      ja pros -- tor. I vi -- dja __  Bog,
+      če __  vsič -- ko be do -- bro. I
       sta -- na ve -- čer, i sta -- na
       ut -- ro, den čet -- văr -- ti.}
 

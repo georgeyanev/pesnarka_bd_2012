@@ -47,11 +47,11 @@
 
     \addlyrics {
       Не ли ду
-      -- мах, ми -- ла ма -- мо, не ли каз -- вах да
-      не се -- ди на -- ша Дон -- ка край ог -- ни --
+      -- мах, ми -- ла ма -- мо, __ не ли __ каз -- вах да
+      не __ се -- ди на -- ша Дон -- ка край ог -- ни --
       ще, в~къ -- щи са -- мо да се гу -- ши, а да
       и -- де, ма -- мо, ве -- че на "шко-" -- ло -- то,
-      да за -- поч -- не да се у -- чи. На -- ша Дон
+      да за -- поч -- не да се у -- чи. На -- ша __ Дон
       -- ка, ми -- ла ма -- мо, е ро -- де -- на мо --
       ма ум -- на, да -- ро -- ви -- та, та е вре --
       ме от шко -- ло -- то за Жи -- во -- та не --
@@ -60,11 +60,11 @@
 
     \addlyrics {
       Ne li du
-      -- mah, mi -- la ma -- mo, ne li kaz -- vah da
-      ne se -- di na -- ša Don -- ka kraj og -- ni --
+      -- mah, mi -- la ma -- mo, __ ne __ li __ kaz -- vah da
+      ne __ se -- di na -- ša Don -- ka kraj og -- ni --
       šte, v~kă -- šti sa -- mo da se gu -- ši, a da
       i -- de, ma -- mo, ve -- če na ško -- lo -- to,
-      da za -- poč -- ne da se u -- či. Na -- ša Don
+      da za -- poč -- ne da se u -- či. Na -- ša __ Don
       -- ka, mi -- la ma -- mo, e ro -- de -- na mo --
       ma um -- na, da -- ro -- vi -- ta, ta e vre --
       me ot ško -- lo -- to za Ži -- vo -- ta ne --

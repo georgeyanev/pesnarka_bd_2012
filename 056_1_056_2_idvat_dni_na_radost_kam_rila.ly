@@ -77,14 +77,14 @@
 
     \addlyrics {
       "1. Към" Ри -- ла с~мощ -- на ми -- съл ле -- тим ний
-      все -- ки ден. В~гър -- ди -- те с~туй же -- ла --
-      ние жи -- ве -- ем в~свят не -- тлен. В~гър -- тлен.
+      все -- ки ден. __ В~гър -- ди -- те с~туй же -- ла --
+      ние жи -- ве -- ем в~свят не -- тлен. В~гър -- тлен. __ 
     }
 
    \addlyrics {
       "1. Kăm" Ri -- la s~mošt -- na mi -- săl le -- tim nij
-      vse -- ki den. V~găr -- di -- te s~tuj že -- la --
-      nie ži -- ve -- em v~svjat ne -- tlen. V~găr -- tlen.
+      vse -- ki den. __ V~găr -- di -- te s~tuj že -- la --
+      nie ži -- ve -- em v~svjat ne -- tlen. V~găr -- tlen. __ 
     }
 
     \header {

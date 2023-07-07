@@ -67,8 +67,16 @@
           d16  d16  d16 ]
         }
         d8 ( [  g8 ) ]  bes2 | % 14
-        a16  g16  fis16  g16
-        a8.  g16  g2 \break | % 15
+        <<
+          {
+            a16  g16  fis16  g16 a8.  g16  g2
+          }
+
+          \new Staff { \autoBeamOff e16 ^\markup { \large \italic "ossia"} cis d e d8. cis16 d2 } |
+
+        >>
+        \break | % 15
+
         \tempo "rall." f!16 es16
         d16  cis16  d2
         \times 2/3  {

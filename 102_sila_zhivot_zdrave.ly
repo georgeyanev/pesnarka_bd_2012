@@ -59,14 +59,14 @@
 
     \addlyrics {Си -- ла, Жи
   -- вот, здра -- "ве –" те са ед -- но, те са ед --
-  но. Слу -- жи -- те -- ли на Ду -- ха, но -- си
+  но. Слу -- жи -- те -- ли на Ду -- ха, __ но -- си
   -- те -- ли на Ра -- дост -- та, кре -- пи -- те
   -- ли на мла -- дост -- та, кре -- пи -- те -- ли
   на мла -- дост -- та, те са ед -- но, те са ед
   -- но. Слу -- но.}
    \addlyrics {Si -- la, Ži
   -- vot, zdra -- "ve –" te sa ed -- no, te sa ed --
-  no. Slu -- ži -- te -- li na Du -- ha, no -- si
+  no. Slu -- ži -- te -- li na Du -- ha, __ no -- si
   -- te -- li na Ra -- dost -- ta, kre -- pi -- te
   -- li na mla -- dost -- ta, kre -- pi -- te -- li
   na mla -- dost -- ta, te sa ed -- no, te sa ed

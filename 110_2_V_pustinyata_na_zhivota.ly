@@ -50,18 +50,18 @@
       Във пу -- сти -- ня -- та на
       жи -- во -- та, где на -- си -- ли --
       е -- то се ши -- ри, там стра --
-      да -- ни -- е и мъ -- ка "ца-" --
+      да -- ни -- е и __ мъ -- ка "ца-" --
       ри. Вся -- кой, с~кой -- то -- те
       дру -- жат, мъ -- че -- ник, ге --
-      рой, све -- ти -- я го зо -- ват.}
+      рой, све -- ти -- я го зо -- ват. __}
       \addlyrics {
         Văv pu -- sti -- nja -- ta na
         ži -- vo -- ta, gde na -- si -- li --
         e -- to se ši -- ri, tam stra --
-        da -- ni -- e i mă -- ka ca --
+        da -- ni -- e i __ mă -- ka ca --
         ri. Vsja -- koj, s~koj -- to -- te
         dru -- žat, mă -- če -- nik, ge --
-        roj, sve -- ti -- ja go zo -- vat.}
+        roj, sve -- ti -- ja go zo -- vat. __}
 
         \header {
           title = \titleFunc "В пустинята на живота" "V pustinjata na života"

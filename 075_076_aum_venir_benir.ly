@@ -73,16 +73,16 @@
       \addlyrics {
         Ве -- нир Бе
         -- нир, Би -- хар Бе -- нум Ил -- би -- ют, Ил
-        бе -- зут Ом би -- ют. Ил бе -- зут Ом би --
-        ют. Зун ме -- зун, зун ме -- зун, Би -- ном ту
+        бе -- зут Ом би -- ют. Ил бе -- зут __ Ом би --
+        ют. Зун ме -- зун, зун ме -- зун, __ Би -- ном ту
         ме -- то. Зун ме -- то.
       }
 
         \addlyrics {
         Ve -- nir Be
         -- nir, Bi -- har Be -- num Il -- bi -- jut, Il
-        be -- zut Om bi -- jut. Il be -- zut Om bi --
-        jut. Zun me -- zun, zun me -- zun, Bi -- nom tu
+        be -- zut Om bi -- jut. Il be -- zut __ Om bi --
+        jut. Zun me -- zun, zun me -- zun, __ Bi -- nom tu
         me -- to. Zun me -- to.
       }
 

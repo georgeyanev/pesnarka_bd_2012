@@ -65,7 +65,7 @@
       не пи -- е, нов Жи -- вот до -- би
       -- ва, у -- че -- ни -- е об -- гръ --
       ща и на ра -- бо -- та се хва --
-      ща.“}
+      ща.“ __}
       \addlyrics {
         Tam go -- re vi -- so -- ko v~pla
         -- ni -- na -- ta iz -- vi -- ra iz --
@@ -79,7 +79,7 @@
         ne pi -- e, nov Ži -- vot do -- bi
         -- va, u -- če -- ni -- e ob -- gră --
         šta i na ra -- bo -- ta se hva --
-        šta.“}
+        šta.“ __}
 
 
         \header {

@@ -59,24 +59,24 @@
     \addlyrics {
       Прав -- да, Прав -- да, Прав -- да,
       що вна -- сяш Сво -- бо -- да в~у
-      -- ма.   Кра -- си --
+      -- ма. __   Кра -- си --
       ва и мощ -- на си ти и раз --
       пре -- де -- ляш всич -- ко в~све --
       та; кра -- си --   ва и
       мощ -- на си ти и раз -- пре -- де
-      -- ляш всич -- ко в~све -- та.
+      -- ляш всич -- ко в~све -- та. __
       Прав --
       да, Прав --
       да!}
     \addlyrics {
       Prav -- da, Prav -- da, Prav -- da,
       što vna -- sjaš Svo -- bo -- da v~u
-      -- ma.   Kra -- si --
+      -- ma.  __  Kra -- si --
       va i mošt -- na si ti i raz --
       pre -- de -- ljaš vsič -- ko v~sve --
       ta; kra -- si --   va i
       mošt -- na si ti i raz -- pre -- de
-      -- ljaš vsič -- ko v~sve -- ta.
+      -- ljaš vsič -- ko v~sve -- ta. __
       Prav --
       da, Prav --
       da!}

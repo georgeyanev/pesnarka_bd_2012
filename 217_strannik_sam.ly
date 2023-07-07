@@ -31,7 +31,6 @@
       g'2. | % 15
       a'2. ^\! ^\mf | % 16
       bes'2. ^\p ^\< | % 17
-      \once \override TextScript.extra-offset = #'(0 . -3)
       g'8^\markup{ \italic {sosten.} } ( [ a'8 ) ]
       bes'4 c''4 | % 18
       es''2 ^\fermata d''4 \break | % 19

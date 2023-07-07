@@ -30,16 +30,16 @@
       -- ко -- ве; бла -- го -- "сло-" -- вен Ба -- ща наш
       на Свет -- ли -- те ду -- хо -- ве, на Свет --
       ли -- те ду -- хо -- ве, на Свет -- ли -- те ду
-      -- хо -- ве, на Свет -- ли -- те ду -- хо -- ве,
-      на Свет -- ли -- те ду -- хо -- ве.}
+      -- хо -- ве, на Свет -- ли -- те __ ду -- хо -- ве,
+      на Свет -- ли -- те __ ду -- хо -- ве.}
     \addlyrics {
       Bla -- go --
       slo -- ven Gos -- pod Bog naš na vsič -- ki ve
       -- ko -- ve; bla -- go -- slo -- ven Ba -- šta naš
       na Svet -- li -- te du -- ho -- ve, na Svet --
       li -- te du -- ho -- ve, na Svet -- li -- te du
-      -- ho -- ve, na Svet -- li -- te du -- ho -- ve,
-      na Svet -- li -- te du -- ho -- ve.}
+      -- ho -- ve, na Svet -- li -- te __ du -- ho -- ve,
+      na Svet -- li -- te __ du -- ho -- ve.}
 
       \header {
         title = \titleFunc "Благословен Господ" "Blagosloven Gospod"

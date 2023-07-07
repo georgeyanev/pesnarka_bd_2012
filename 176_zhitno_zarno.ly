@@ -54,7 +54,7 @@
     \addlyrics {
       Бях жи -- те -- но зър -- но, за -- ро -- ве -- но в~зе -- мя -- та.
 
-      Във сън дъл -- бок, Жи -- во -- та не поз -- на -- вах.
+      Във сън дъл -- бок, __ Жи -- во -- та не поз -- на -- вах.
 
       Но дой -- де лъч, при мен до -- стиг -- на Свет -- ли -- на -- та
 
@@ -62,21 +62,21 @@
 
       От жи -- те -- но "зър-" -- но аз ста -- нах мал -- ка птич -- ка,
 
-      в~въз -- ду -- ха да хвър -- кам.
+      в~въз -- ду -- ха да хвър -- кам. __
 
       Днес -- ка за пър -- ви път, до -- бре пре -- ме -- не -- на,
 
-      на ло -- зе -- на "пръч-" -- ка кац -- нах и от слад -- ко -- то гроз -- де
+      на ло -- зе -- на "пръч-" -- ка кац -- нах __ и от слад -- ко -- то гроз -- де
 
-      за пръв път хап -- нах, и от слад -- ко -- то гроз -- де
+      за пръв път хап -- нах, __ и от слад -- ко -- то гроз -- де
 
-      за пръв път хап -- нах. От нах.
+      за пръв път хап -- нах. __ От нах.
 
       Кол -- ко "ху-" -- бав е жи -- во -- тът, то -- га -- ва си ка -- зах.}
       \addlyrics {
         Bjah ži -- te -- no zăr -- no, za -- ro -- ve -- no "v~ze-" -- mja -- ta.
 
-        Văv săn dăl -- bok, Ži -- vo -- ta ne poz -- na -- vah.
+        Văv săn dăl -- bok, __ Ži -- vo -- ta ne poz -- na -- vah.
 
         No doj -- de lăč, pri men do -- stig -- na Svet -- li -- na -- ta
 
@@ -84,15 +84,15 @@
 
         Ot ži -- te -- no "zăr-" -- no az sta -- nah mal -- ka ptič -- ka,
 
-        v~văz -- du -- ha da hvăr -- kam.
+        v~văz -- du -- ha da hvăr -- kam. __
 
         Dnes -- ka za păr -- vi păt, do -- bre pre -- me -- ne -- na,
 
-        na lo -- ze -- na prăč -- ka kac -- nah i ot slad -- ko -- to groz -- de
+        na lo -- ze -- na prăč -- ka kac -- nah __ i ot slad -- ko -- to groz -- de
 
-        za prăv păt hap -- nah, i ot slad -- ko -- to groz -- de
+        za prăv păt hap -- nah, __ i ot slad -- ko -- to groz -- de
 
-        za prăv păt hap -- nah. Ot nah.
+        za prăv păt hap -- nah. __ Ot nah.
 
         Kol -- ko "hu-" -- bav e ži -- vo -- tăt, to -- ga -- va si ka -- zah.}
 

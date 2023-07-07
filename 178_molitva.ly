@@ -74,11 +74,11 @@
     }
 
 
-    \addlyrics { Чуй, Гос -- по -- ди,  към Те --
+    \addlyrics { Чуй, Гос -- по -- ди, __  към Те --
       бе аз от -- пра -- вям мой -- та
       мо -- лит -- ва. Да се ос -- во --
-      бо -- ди мо -- е -- то тя -- ло от
-      всич -- ки -- те  не
+      бо -- ди мо -- е -- то тя -- ло от __
+      всич -- ки -- те __  не
       -- прав -- ди, ко -- и -- то но --
       ся в~све -- та. Гос -- по -- ди,
       Гос -- по -- ди, Гос -- по -- ди,
@@ -86,12 +86,12 @@
       лост над ме -- не, над ме -- не!
       Аз, кой -- то не зна -- я как да
       жи -- ве -- я о -- ще, Гос --
-      по -- ди.}
-  \addlyrics { Čuj, Gos -- po -- di,  kăm Te --
+      по -- ди. __}
+  \addlyrics { Čuj, Gos -- po -- di, __  kăm Te --
       be az ot -- pra -- vjam moj -- ta
       mo -- lit -- va. Da se os -- vo --
-      bo -- di mo -- e -- to tja -- lo ot
-      vsič -- ki -- te  ne
+      bo -- di mo -- e -- to tja -- lo ot __
+      vsič -- ki -- te __  ne
       -- prav -- di, ko -- i -- to no --
       sja v~sve -- ta. Gos -- po -- di,
       Gos -- po -- di, Gos -- po -- di,
@@ -99,7 +99,7 @@
       lost nad me -- ne, nad me -- ne!
       Az, koj -- to ne zna -- ja kak da
       ži -- ve -- ja o -- šte, Gos --
-      po -- di.}
+      po -- di. __}
 
 
    \header {

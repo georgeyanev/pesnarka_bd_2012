@@ -48,7 +48,7 @@
 
       Бо -- жи да -- ро -- ве;  и
 
-      тъй, ка -- то ги при -- е -- ма -- ме, поз -- на -- ва -- ме, че са дар на Лю -- бов -- та.
+      тъй, ка -- то ги при -- е -- ма -- ме, поз -- на -- ва -- ме, че са дар на Лю -- бов -- та. __
     }
       \addlyrics {
       Cve -- tja -- ta căf -- tja -- ha pod slăn -- če -- vi lă -- či
@@ -63,7 +63,7 @@
 
       Bo -- ži da -- ro -- ve;  i
 
-      tăj, ka -- to gi pri -- e -- ma -- me, poz -- na -- va -- me, če sa dar na Lju -- bov -- ta.
+      tăj, ka -- to gi pri -- e -- ma -- me, poz -- na -- va -- me, če sa dar na Lju -- bov -- ta. __
     }
       \header {
         title = \titleFunc "Цветята цъфтяха" "Cvetjata căftjaha"

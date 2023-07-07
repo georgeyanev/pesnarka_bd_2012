@@ -106,15 +106,15 @@
     }
 
     \addlyrics {
-      Бог е Лю -- бов,
-      Бог е Лю -- бов, Бог    е
-      Лю -- бов,  Бог
+      Бог __ е Лю -- бов,
+      Бог е Лю -- бов, Бог __    е
+      Лю -- бов, __  Бог __
       е Лю -- бов. Веч --
       на, без -- гра -- нич
       -- на, пъл -- на със Жи --
       вот, Жи --  вот на бла -- ги
       -- я Бо -- жи Дух. Дух на бла --
-      гост -- та, Дух  на  свя --
+      гост -- та, Дух __  на __  свя --
       тост -- та, Дух на пъ -- лен Мир
       и Ра -- дост за вся -- ка ду --
       ша, Дух на пъ -- лен Мир и Ра --
@@ -128,15 +128,15 @@
       -- ва Бо -- жи --  я -- та
       Лю -- бов.}
     \addlyrics {
-      Bog e Lju -- bov,
-      Bog e Lju -- bov, Bog    e
-      Lju -- bov,  Bog
+      Bog __ e Lju -- bov,
+      Bog e Lju -- bov, Bog __    e
+      Lju -- bov, __ Bog __
       e Lju -- bov. Več --
       na, bez -- gra -- nič
       -- na, păl -- na săs Ži --
       vot, Ži --  vot na bla -- gi
       -- ja Bo -- ži Duh. Duh na bla --
-      gost -- ta, Duh  na  svja --
+      gost -- ta, Duh __ na __  svja --
       tost -- ta, Duh na pă -- len Mir
       i Ra -- dost za vsja -- ka du --
       ša, Duh na pă -- len Mir i Ra --

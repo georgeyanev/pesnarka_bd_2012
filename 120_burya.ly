@@ -63,11 +63,11 @@
       в~мен се пов --  ди -- га,
       но ни -- ко -- го не об -- ви -- ня
       -- вам аз. Бу -- ря -- та е бу -- ря,
-      но   в~мен е Той. Бу --
+      но __  в~мен е Той. __  Бу --
       ря -- та мен  не раз -- би --
-      ра,  но аз я раз -- би
+      ра, __ но аз я раз -- би
       -- рам. Бу -- ря -- та ме раз --
-      търс  -- ва за  Доб -- ро --
+      търс  -- ва за __  Доб -- ро --
       то, що е във мен.
     }
 
@@ -78,11 +78,11 @@
       v~men se pov --  di -- ga,
       no ni -- ko -- go ne ob -- vi -- nja
       -- vam az. Bu -- rja -- ta e bu -- rja,
-      no   v~men e Toj. Bu --
+      no __ v~men e Toj. __ Bu --
       rja -- ta men  ne raz -- bi --
-      ra,  no az ja raz -- bi
+      ra, __ no az ja raz -- bi
       -- ram. Bu -- rja -- ta me raz --
-      tărs  -- va za  Dob -- ro --
+      tărs  -- va za __  Dob -- ro --
       to, što e văv men.
     }
 

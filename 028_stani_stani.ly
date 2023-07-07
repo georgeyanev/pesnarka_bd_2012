@@ -36,7 +36,7 @@
       Ста -- ни, ста -- ни и Гос -- под ще те о -- жи -- ви;
       ста -- ни, ста -- ни и Гос -- под ще те въз --
       кре -- си; ста -- ни, ста -- ни и с~Лю -- бов --
-      та за -- поч -- ни; ста -- ни, ста -- ни и в~Ис
+      та за -- поч -- ни; __ ста -- ни, ста -- ни и в~Ис
       -- ти -- на се об -- ле -- чи. В~Ис -- ти -- на
       се об -- ле -- чи и със не -- я все гра -- ди:
       тя ще те и об -- но -- ви, и с~Дух ще те о
@@ -45,7 +45,7 @@
       Sta -- ni, sta -- ni i Gos -- pod šte te o -- ži -- vi;
       sta -- ni, sta -- ni i Gos -- pod šte te văz --
       kre -- si; sta -- ni, sta -- ni i s~Lju -- bov --
-      ta za -- poč -- ni; sta -- ni, sta -- ni i v~Is
+      ta za -- poč -- ni; __ sta -- ni, sta -- ni i v~Is
       -- ti -- na se ob -- le -- či. V~Is -- ti -- na
       se ob -- le -- či i săs ne -- ja vse gra -- di:
       tja šte te i ob -- no -- vi, i s~Duh šte te o

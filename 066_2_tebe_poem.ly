@@ -32,16 +32,16 @@
 
     \addlyrics {
       Те -- бе по -- ем, Те -- бе бла -- го -- да -- рим.
-      Те -- бе бла -- го -- сло -- вим, Бо -- же наш.  И
-      мо -- лим Ти ся, и  мо -- лим Ти ся,  и
-      мо -- лим Ти ся, o, Бо -- же наш. И o, Бо -- же наш.
+      Те -- бе бла -- го -- сло -- вим, Бо -- же наш.  И __
+      мо -- лим Ти ся, и __  мо -- лим Ти ся,  и __
+      мо -- лим Ти ся, o, Бо -- же наш. И __ o, Бо -- же наш.
     }
 
     \addlyrics {
       Te -- be po -- em, Te -- be bla -- go -- da -- rim.
-      Te -- be bla -- go -- slo -- vim, Bo -- že naš.  I
-      mo -- lim Ti sja, i  mo -- lim Ti sja,  i
-      mo -- lim Ti sja, o, Bo -- že naš. I o, Bo -- že naš.
+      Te -- be bla -- go -- slo -- vim, Bo -- že naš.  I __
+      mo -- lim Ti sja, i __  mo -- lim Ti sja,  i __
+      mo -- lim Ti sja, o, Bo -- že naš. I __ o, Bo -- že naš.
     }
     \header {
       title = \titleFunc "Тебе поем" "Tebe poem"

@@ -147,32 +147,26 @@
   -- це в~мен, във сър -- це --
   то. Да дой -- де Цар -- ство -- то
   Бо -- жи -- е. Бу -- ди. Из -- гря
-  -- ва Слън -- це -- то  на
+  -- ва Слън -- це -- то __  на
   мо -- я Дух. Да бъ -- де Во -- ля --
   та Бо -- жи -- я. Бу -- дим.
   Из  -- гря -- ва Слън -- це --
-  то на на -- ши -- те Ан -- ге
-  -- ли. Да се  въ -- дво --
+  то на __ на -- ши -- те Ан -- ге
+  -- ли. Да се __ въ -- дво --
   ри Цар -- ство -- то на От --
-  ца на -- ше -- го на  свет --
-  ли -- ни -- те. Бу -- ди -- те.
-   Из -- гря -- ва Слън -- це -- то
+  ца на -- ше -- го на __  свет --
+  ли -- ни -- те. Бу -- ди -- те. __
+   Из -- гря -- ва Слън -- це -- то __
    на Ве -- ли -- ки -- я Гос --
   под на Ми -- ра във на -- ши -- те
-  ду -- ши. Да об -- но -- ви  на --
+  ду -- ши. Да об -- но -- ви __  на --
   ша -- та ду -- ша със Сво -- я --
   та Си -- ла. Бу -- дят. Из --
-  гря -- ва Слън -- це -- то  на
-  всич -- ки Слън -- ца  на на --
+  гря -- ва Слън -- це -- то __ на
+  всич -- ки Слън -- ца __ на на --
   ши -- те ду -- хо -- ве. Да ни
   да -- де Гос -- под Жи -- вот, здра
-  -- вe и Сво -- бо -- да!  Вяр --
-  вам във Те -- бе, Гос -- по
-  -- ди, Кой -- то си ми го -- во
-  -- рил в‿ми -- на -- ло -- то.
-  Вяр -- вам в‿Те -- бе, Гос -- по
-  -- ди, Кой -- то ми го -- во --
-  риш се -- га. }
+  -- вe и Сво -- бо -- да! __ }
   \addlyrics { Bu -- dja. Iz -- grja -- va mo -- e --
   to Slăn -- ce văv mo -- ja -- ta du
   -- ša. Da se sla  -- vi I -- me --
@@ -181,32 +175,26 @@
   -- ce v~men, văv săr -- ce --
   to. Da doj -- de Car -- stvo -- to
   Bo -- ži -- e. Bu -- di. Iz -- grja
-  -- va Slăn -- ce -- to  na
+  -- va Slăn -- ce -- to __ na
   mo -- ja Duh. Da bă -- de Vo -- lja --
   ta Bo -- ži -- ja. Bu -- dim.
   Iz  -- grja -- va Slăn -- ce --
-  to na na -- ši -- te An -- ge
-  -- li. Da se  vă -- dvo --
+  to na __ na -- ši -- te An -- ge
+  -- li. Da se __  vă -- dvo --
   ri Car -- stvo -- to na Ot --
-  ca na -- še -- go na  svet --
-  li -- ni -- te. Bu -- di -- te.
-   Iz -- grja -- va Slăn -- ce -- to
+  ca na -- še -- go na __ svet --
+  li -- ni -- te. Bu -- di -- te. __
+   Iz -- grja -- va Slăn -- ce -- to __
    na Ve -- li -- ki -- ja Gos --
   pod na Mi -- ra văv na -- ši -- te
-  du -- ši. Da ob -- no -- vi  na --
+  du -- ši. Da ob -- no -- vi __  na --
   ša -- ta du -- ša săs Svo -- ja --
   ta Si -- la. Bu -- djat. Iz --
-  grja -- va Slăn -- ce -- to  na
-  vsič -- ki Slăn -- ca  na na --
+  grja -- va Slăn -- ce -- to __ na
+  vsič -- ki Slăn -- ca __ na na --
   ši -- te du -- ho -- ve. Da ni
   da -- de Gos -- pod Ži -- vot, zdra
-  -- ve i Svo -- bo -- da!  Vjar --
-  vam văv Te -- be, Gos -- po
-  -- di, Koj -- to si mi go -- vo
-  -- ril v‿mi -- na -- lo -- to.
-  Vjar -- vam v‿Te -- be, Gos -- po
-  -- di, Koj -- to mi go -- vo --
-  riš se -- ga. }
+  -- ve i Svo -- bo -- da! __ }
 
     \header {
       title = \titleFunc "Химни на Слънцето" "Himni na Slănceto"

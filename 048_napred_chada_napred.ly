@@ -52,13 +52,13 @@
 
     \addlyrics {
       "1. На" -- пред, ча -- да, на -- пред, но -- се -- те Сло -- во -- то на --
-      вред! Без страх в~Жи -- во -- та нов но -- се -- те
+      вред! Без страх в~Жи -- во -- та нов __  но -- се -- те
       Прав -- да, Мир, Лю -- бов. Без бов!
     }
 
      \addlyrics {
       "1. Na" -- pred, ča -- da, na -- pred, no -- se -- te Slo -- vo -- to na --
-      vred! Bez strah v~Ži -- vo -- ta nov no -- se -- te
+      vred! Bez strah v~Ži -- vo -- ta nov __  no -- se -- te
       Prav -- da, Mir, Lju -- bov. Bez bov!
     }
 

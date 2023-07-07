@@ -63,9 +63,9 @@
     }
     \addlyrics {      Ка -- жи ми Ти Ис -- ти -- на -- та,
       ко -- я -- то но -- си "Сво-" -- бо --
-      да за мо -- я -- та ду -- ша.
+      да за мо -- я -- та ду -- ша. __ ""
 
-      \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
+     \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
       \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
       \skip1 \skip1 \skip1
 
@@ -76,9 +76,9 @@
       ша.}
     \addlyrics {      Ka -- ži mi Ti Is -- ti -- na -- ta,
       ko -- ja -- to no -- si "Svo-" -- bo --
-      da za mo -- ja -- ta du -- ša.
+      da za mo -- ja -- ta du -- ša. __ ""
 
-      \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
+      \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
       \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
       \skip1 \skip1 \skip1
 

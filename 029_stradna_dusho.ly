@@ -29,15 +29,15 @@
 
     \addlyrics {
       Страд -- на
-      ду -- шо, ти коп -- не -- еш, за как -- во го --
-      риш и тле -- еш? Сло -- во -- то Ти, Бо -- же,
-      ча -- кам и о -- бил -- на -- та Ти ми -- лост,
+      ду -- шо, ти __ коп -- не -- еш, за как -- во го --
+      риш и __ тле -- еш? Сло -- во -- то Ти, Бо -- же,
+      ча -- кам и о -- бил -- на -- та Ти __ ми -- лост,
       за тях стра -- дам и коп -- не -- я.}
       \addlyrics {
         Strad -- na
-        du -- šo, ti kop -- ne -- eš, za kak -- vo go --
-        riš i tle -- eš? Slo -- vo -- to Ti, Bo -- že,
-        ča -- kam i o -- bil -- na -- ta Ti mi -- lost,
+        du -- šo, ti __ kop -- ne -- eš, za kak -- vo go --
+        riš i __ tle -- eš? Slo -- vo -- to Ti, Bo -- že,
+        ča -- kam i o -- bil -- na -- ta Ti __ mi -- lost,
         za tjah stra -- dam i kop -- ne -- ja.}
 
 

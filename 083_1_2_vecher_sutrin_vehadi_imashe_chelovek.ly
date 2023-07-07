@@ -80,14 +80,14 @@
         Ве -- чер,
         су -- трин о -- ти -- де, дой -- де, ве -- чер,
         су -- трин о -- ти -- де, дой -- де. О -- ти --
-        де, дой -- де, о -- ти -- де, дой -- де, о -- ти
-        -- де, дой -- де, дой -- де.}
+        де, дой -- де, __ о -- ти -- де, дой -- де, __ о -- ти
+        -- де, дой -- де, __ дой -- де. __}
         \addlyrics {
         Ve -- čer,
         su -- trin o -- ti -- de, doj -- de, ve -- čer,
         su -- trin o -- ti -- de, doj -- de. O -- ti --
-        de, doj -- de, o -- ti -- de, doj -- de, o -- ti
-        -- de, doj -- de, doj -- de.}
+        de, doj -- de, __ o -- ti -- de, doj -- de, __ o -- ti
+        -- de, doj -- de, __ doj -- de. __}
           \header {
             title = \titleFunc "Вечер сутрин" "Večer sutrin"
           }
@@ -156,11 +156,11 @@
             \addlyrics {
               И -- ма --
               ше че -- ло -- век, про -- во -- ден от Бо --
-              га, и -- ме -- то му И -- о -- ан. Той дой --
+              га, и -- ме -- то __ му И -- о -- ан. Той дой --
               де в~сви -- де -- тел -- ство да сви -- де -- "тел-"
               -- ству -- ва за -- ра -- ди ви -- де -- ли -- на
-              -- та, за да по -- вяр -- ват всич -- ки чрез не
-              -- го. Не бе той ви -- де -- ли -- на -- та, но
+              -- та, за да __ по -- вяр -- ват всич -- ки чрез не
+              -- го. Не __ бе той ви -- де -- ли -- на -- та, но
               да сви -- де -- тел -- ству -- ва за ви -- де --
               ли -- на -- та. Той бе -- ше ис -- тин -- на --
               та ви -- де -- ли -- на, ко -- я -- то о -- све
@@ -178,11 +178,11 @@
              \addlyrics {
               I -- ma --
               še če -- lo -- vek, pro -- vo -- den ot Bo --
-              ga, i -- me -- to mu I -- o -- an. Toj doj --
+              ga, i -- me -- to __ mu I -- o -- an. Toj doj --
               de v~svi -- de -- tel -- stvo da svi -- de -- tel
               -- stvu -- va za -- ra -- di vi -- de -- li -- na
-              -- ta, za da po -- vjar -- vat vsič -- ki črez ne
-              -- go. Ne be toj vi -- de -- li -- na -- ta, no
+              -- ta, za da __ po -- vjar -- vat vsič -- ki črez ne
+              -- go. Ne __ be toj vi -- de -- li -- na -- ta, no
               da svi -- de -- tel -- stvu -- va za vi -- de --
               li -- na -- ta. Toj be -- še is -- tin -- na --
               ta vi -- de -- li -- na, ko -- ja -- to o -- sve

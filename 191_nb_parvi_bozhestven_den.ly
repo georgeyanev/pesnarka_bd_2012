@@ -86,11 +86,11 @@
       над во -- ди -- те на жи -- во -- та. И ре --
       че Бог: „Да дой -- де кра -- си -- ва -- та ви
       -- де -- ли -- на.“ И тя се я -- ви във сво --
-      я -- та свет -- ли -- на. И ви -- дя Бог, че
-      тя бе до -- бро. И Бог раз -- де -- ли свет --
+      я -- та свет -- ли -- на. И ви -- дя Бог, че __
+      тя __ бе __ до -- бро. И Бог раз -- де -- ли __ свет --
       ли -- на -- та от тъм -- ни -- на -- та. И на --
       ре -- че Бог свет -- ли -- на -- та ден, а тъм
-      -- ни -- на -- та нощ. И ста -- на ве -- чер, и
+      -- ни -- на -- та нощ. __ И ста -- на ве -- чер, и
       ста -- на ут -- ро, пър -- ви ден.}
      \addlyrics {
       V~na -- ča --
@@ -102,11 +102,11 @@
       nad vo -- di -- te na ži -- vo -- ta. I re --
       če Bog: „Da doj -- de kra -- si -- va -- ta vi
       -- de -- li -- na.“ I tja se ja -- vi văv svo --
-      ja -- ta svet -- li -- na. I vi -- dja Bog, če
-      tja be do -- bro. I Bog raz -- de -- li svet --
+      ja -- ta svet -- li -- na. I vi -- dja Bog, če __
+      tja __ be __ do -- bro. I Bog raz -- de -- li __ svet --
       li -- na -- ta ot tăm -- ni -- na -- ta. I na --
       re -- če Bog svet -- li -- na -- ta den, a tăm
-      -- ni -- na -- ta nošt. I sta -- na ve -- čer, i
+      -- ni -- na -- ta nošt. __ I sta -- na ve -- čer, i
       sta -- na ut -- ro, păr -- vi den.}
 
         \header {

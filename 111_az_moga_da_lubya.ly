@@ -57,21 +57,21 @@
       Аз мо -- га да лю -- бя, до -- бър
       да ста -- на; аз мо -- га да
       о -- би -- чам, си -- лен да ста --
-      на.  Лю -- бов -- та и О -- бич --
-      та,  Лю -- бов -- та и О -- бич --
+      на. __  Лю -- бов -- та и О -- бич --
+      та, __  Лю -- бов -- та и О -- бич --
       та ще ме на -- у -- чат на Бо
-      -- га слу -- га да ста -- на.
-      Лю -- бов -- на.
+      -- га слу -- га да ста -- на. __
+      Лю -- бов -- на. __
     }
     \addlyrics {
       Az mo -- ga da lju -- bja, do -- băr
       da sta -- na; az mo -- ga da
       o -- bi -- čam, si -- len da sta --
-      na.  Lju -- bov -- ta i O -- bič --
-      ta,  Lju -- bov -- ta i O -- bič --
+      na. __  Lju -- bov -- ta i O -- bič --
+      ta, __  Lju -- bov -- ta i O -- bič --
       ta šte me na -- u -- čat na Bo
-      -- ga slu -- ga da sta -- na.
-      Lju -- bov -- na.
+      -- ga slu -- ga da sta -- na. __
+      Lju -- bov -- na. __
     }
 
     \header {

@@ -41,19 +41,19 @@
     }
 
     \addlyrics {
-      Ми -- сли, пра -- во ми -- сли! Ми -- сли, пра -- во ми -- сли!
+      Ми -- сли, пра -- во ми -- сли! __  Ми -- сли, пра -- во ми -- сли!
 
-      Све -- ще -- ни ми -- сли за Жи -- во -- та ти "кре-" -- пи, све -- ще -- ни ми -- сли за Жи -- во -- та ти кре -- пи. Све -- пи. Кре -- пи кре -- пи
+      Све -- ще -- ни ми -- сли за Жи -- во -- та ти "кре-" -- пи, све -- ще -- ни ми -- сли за Жи -- во -- та ти кре -- пи. __ Све -- пи. __  Кре -- пи кре -- пи
 
-      кре -- пи све -- ще -- ни ми -- сли за Жи -- во -- та ти кре -- пи.  Кре -- пи.
+      кре -- пи све -- ще -- ни ми -- сли за Жи -- во -- та ти кре -- пи. __  Кре -- пи. __ 
     }
 
    \addlyrics {
-      Mi -- sli, pra -- vo mi -- sli! Mi -- sli, pra -- vo mi -- sli!
+      Mi -- sli, pra -- vo mi -- sli! __  Mi -- sli, pra -- vo mi -- sli!
 
-      Sve -- šte -- ni mi -- sli za Ži -- vo -- ta ti kre -- pi, sve -- šte -- ni mi -- sli za Ži -- vo -- ta ti kre -- pi. Sve -- pi. Kre -- pi kre -- pi
+      Sve -- šte -- ni mi -- sli za Ži -- vo -- ta ti kre -- pi, sve -- šte -- ni mi -- sli za Ži -- vo -- ta ti kre -- pi. __ Sve -- pi. __  Kre -- pi kre -- pi
 
-      kre -- pi sve -- šte -- ni mi -- sli za Ži -- vo -- ta ti kre -- pi.  Kre -- pi.
+      kre -- pi sve -- šte -- ni mi -- sli za Ži -- vo -- ta ti kre -- pi. __  Kre -- pi. __ 
     }
 
 

@@ -264,25 +264,25 @@
       до -- на -- сяш чис -- то -- та. Сту
       -- ден си ти, сту -- ден си ти,
       но ни до -- на -- сяш чис -- то --
-      та. Сту -- дът  всич -- ко да
-      --  ва, той  е до -- бри
+      та. Сту -- дът __  всич -- ко да
+      --  ва, той __  е до -- бри
       -- ят слу -- га, що Лю -- бов го
       вдъх -- но -- вя -- ва. За мно -- зи
       --   на то -- ва е чуд
       -- но, но то -- ва го зна --
       ят и дъж -- дов -- ни -- те кап
       -- ки. Сту -- ден е той, но ни
-      пред -- паз -- ва от сту -- да
+      пред -- паз -- ва от сту -- да __
       и вся -- ко -- га слу -- ша гла
       -- са на О -- бич -- та. Сту --
-      ден  --   си ти, но  ни
+      ден  --   си ти, но __  ни
       из -- ба -- вяш от мра -- за и
       но -- сиш са -- мо
       то -- ва, ко -- е -- то "Свет-" -- ли --
       на -- та ти да -- ва. Твой -- та
       дре  -- ха е бя -- ла. Сту --
-      ден  си ти, но ни из -- ба
-      -- вяш от мра -- за. От  ве --
+      ден __  си ти, но ни из -- ба
+      -- вяш от мра -- за. От __  ве --
       ка са би -- ли за -- тво -- ре --
       ни за теб чо -- веш -- ки -- те
       сър -- ца, за --  що --
@@ -301,7 +301,7 @@
       во -- риш, мно --
       го мис --   лиш;
       мал -- ко о -- бе -- ща -- ваш,
-      мно --   го   да --
+      мно --   го __  да --
       ваш и все -- ки свой дар със
       чис -- то -- та при -- дру -- жа --
       ваш.}
@@ -318,25 +318,25 @@
         do -- na -- sjaš čis -- to -- ta. Stu
         -- den si ti, stu -- den si ti,
         no ni do -- na -- sjaš čis -- to --
-        ta. Stu -- dăt  vsič -- ko da
-        --  va, toj  e do -- bri
+        ta. Stu -- dăt __ vsič -- ko da
+        --  va, toj __  e do -- bri
         -- jat slu -- ga, što Lju -- bov go
         vdăh -- no -- vja -- va. Za mno -- zi
         --   na to -- va e čud
         -- no, no to -- va go zna --
         jat i dăž -- dov -- ni -- te kap
         -- ki. Stu -- den e toj, no ni
-        pred -- paz -- va ot stu -- da
+        pred -- paz -- va ot stu -- da __
         i vsja -- ko -- ga slu -- ša gla
         -- sa na O -- bič -- ta. Stu --
-        den  --   si ti, no  ni
+        den  --   si ti, no __ ni
         iz -- ba -- vjaš ot mra -- za i
         no -- siš sa -- mo
         to -- va, ko -- e -- to Svet -- li --
         na -- ta ti da -- va. Tvoj -- ta
         dre  -- ha e bja -- la. Stu --
-        den  si ti, no ni iz -- ba
-        -- vjaš ot mra -- za. Ot  ve --
+        den __  si ti, no ni iz -- ba
+        -- vjaš ot mra -- za. Ot __  ve --
         ka sa bi -- li za -- tvo -- re --
         ni za teb čo -- veš -- ki -- te
         săr -- ca, za --  što --
@@ -355,7 +355,7 @@
         vo -- riš, mno --
         go mis --   liš;
         mal -- ko o -- be -- šta -- vaš,
-        mno --   go   da --
+        mno --   go __ da --
         vaš i vse -- ki svoj dar săs
         čis -- to -- ta pri -- dru -- ža --
         vaš.}

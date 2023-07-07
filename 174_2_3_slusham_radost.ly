@@ -85,14 +85,14 @@
 
         \addlyrics {
           Ра -- дост,
-          Ра -- дост, Ра -- дост на Жи -- во -- та ми, ти
-          ве -- се -- лиш сър -- це -- то ми, ти ве -- се
-          -- лиш сър -- це -- то ми.}
+          Ра -- дост, Ра -- дост на Жи -- во -- та __ ми, ти
+          ве -- се -- лиш сър -- це -- то __ ми, ти ве -- се
+          -- лиш сър -- це -- то __ ми.}
            \addlyrics {
           Ra -- dost,
-          Ra -- dost, Ra -- dost na Ži -- vo -- ta mi, ti
-          ve -- se -- liš săr -- ce -- to mi, ti ve -- se
-          -- liš săr -- ce -- to mi.}
+          Ra -- dost, Ra -- dost na Ži -- vo -- ta __ mi, ti
+          ve -- se -- liš săr -- ce -- to __ mi, ti ve -- se
+          -- liš săr -- ce -- to __ mi.}
 
             \header {
               title = \titleFunc "Радост" "Radost"

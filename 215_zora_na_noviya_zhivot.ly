@@ -53,23 +53,23 @@
 
     \addlyrics {
       Зо -- ра се чуд -- на за --
-      зо -- ря -- ва, зо -- ра на нов
+      зо -- ря -- ва, зо -- ра на нов __
       Жи -- вот, ко --
       я -- то мен в~Жи -- во -- та
       при -- зо -- ва -- ва. Зо --
       ра се чуд -- на за -- зо -- ря --
       ва, зо -- ра на
-      но -- ви -- я
+      но -- ви -- я __
       жи -- вот.}
     \addlyrics {
       Zo -- ra se čud -- na za --
-      zo -- rja -- va, zo -- ra na nov
+      zo -- rja -- va, zo -- ra na nov __
       Ži -- vot, ko --
       ja -- to men v~Ži -- vo -- ta
       pri -- zo -- va -- va. Zo --
       ra se čud -- na za -- zo -- rja --
       va, zo -- ra na
-      no -- vi -- ja
+      no -- vi -- ja __
       ži -- vot.}
 
     \header {

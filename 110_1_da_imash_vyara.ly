@@ -42,14 +42,14 @@
 
     \addlyrics {
       Да и -- маш
-      вя -- ра, вя -- ра, да и -- маш вя -- ра, вя --
-      ра, да и -- маш вя -- ра, вя -- ра, да и --
-      маш вя -- ра, вя -- ра, вя -- ра.}
+      вя -- ра, __ вя -- ра, __ да и -- маш вя -- ра, __ вя --
+      ра, __ да и -- маш вя -- ра, __ вя -- ра, __ да и --
+      маш вя -- ра, __ вя -- ра, __ вя -- ра. __}
       \addlyrics {
       Da i -- maš
-      vja -- ra, vja -- ra, da i -- maš vja -- ra, vja --
-      ra, da i -- maš vja -- ra, vja -- ra, da i --
-      maš vja -- ra, vja -- ra, vja -- ra.}
+      vja -- ra, __ vja -- ra, __ da i -- maš vja -- ra, __ vja --
+      ra, __ da i -- maš vja -- ra, __ vja -- ra, __ da i --
+      maš vja -- ra, __ vja -- ra, __ vja -- ra. __}
 
         \header {
           title = \titleFunc "Да имаш вяра" "Da imaš vjara"

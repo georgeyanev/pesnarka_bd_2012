@@ -38,8 +38,8 @@
       ми де во -- да из -- ви -- ра, де во -- да из
       -- ви -- ра. Из -- ви -- ра, из -- ви -- ра, де
       во -- да из -- ви -- ра. Ка -- жи ми, ка -- жи
-      ми, ка -- жи ми слад -- ки ду -- ми две. Твой --
-      те ду -- ми две, слад -- ки ду -- ми две.
+      ми, ка -- жи ми слад -- ки ду -- ми две. __ Твой --
+      те ду -- ми две, __ слад -- ки ду -- ми две. __
       две.}
 
      
@@ -49,8 +49,8 @@
       mi de vo -- da iz -- vi -- ra, de vo -- da iz
       -- vi -- ra. Iz -- vi -- ra, iz -- vi -- ra, de
       vo -- da iz -- vi -- ra. Ka -- ži mi, ka -- ži
-      mi, ka -- ži mi slad -- ki du -- mi dve. Tvoj --
-      te du -- mi dve, slad -- ki du -- mi dve.
+      mi, ka -- ži mi slad -- ki du -- mi dve. __ Tvoj --
+      te du -- mi dve, __ slad -- ki du -- mi dve. __
       dve.}
 
         \header {

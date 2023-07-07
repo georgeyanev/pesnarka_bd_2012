@@ -55,13 +55,13 @@
 
     \addlyrics {
       И  --  де,   и
-      --  де,   и  --  де,   сам   Той   и -- де,   и  --  де,   и  --  де,
-      сам   Той   и -- де,   и  --  де,   и  --  де,   сам   Той  и -- де   да
-      по  --  ма  --  га   Той,   да   по  --  ма  --  га   Той,   да
-      по  --  ма  --  га   Той.   Мощ  --  ни  --  ят,   сил  --  ни  --
-      ят,   да   по  --  ма  --  га   Той, мощ  --  ни  --  ят,
-      сил  --  ни  --  ят,   да   по  --  ма  --  га   Той,   да   по  --
-      ма  --  га   Той,   да   по  --  ма  --  га   Той.   Ний   ще   ра
+      --  де,   и  --  де,   сам __   Той   и -- де,   и  --  де,   и  --  де,
+      сам __   Той   и -- де,   и  --  де,   и  --  де,   сам __   Той  и -- де   да
+      по  --  ма  --  га   Той, __   да   по  --  ма  --  га   Той, __   да
+      по  --  ма  --  га   Той. __    Мощ  --  ни  --  ят,   сил  --  ни  --
+      ят,   да   по  --  ма  --  га   Той, __  мощ  --  ни  --  ят,
+      сил  --  ни  --  ят,   да   по  --  ма  --  га   Той, __    да   по  --
+      ма  --  га   Той, __    да   по  --  ма  --  га   Той. __   Ний   ще   ра
       --  "бо-"  --  тим   със   "Лю-"  --  бов,   ще   ра  --  бо  --  тим
       със   "Лю-"  --  бов,   да   по  --  ма  --  га   Той,   да   по  --
       ма  --  га    Той,   Мощ  --  "ни-"  --  ят,   сил  --  ни  --
@@ -71,13 +71,13 @@
     }
     \addlyrics {
       I  --  de,   i
-      --  de,   i  --  de,   sam   Toj   i -- de,   i  --  de,   i  --  de,
-      sam   Toj   i -- de,   i  --  de,   i  --  de,   sam   Toj  i -- de   da
-      po  --  ma  --  ga   Toj,   da   po  --  ma  --  ga   Toj,   da
-      po  --  ma  --  ga   Toj.   Mošt  --  ni  --  jat,   sil  --  ni  --
-      jat,   da   po  --  ma  --  ga   Toj, mošt  --  ni  --  jat,
-      sil  --  ni  --  jat,   da   po  --  ma  --  ga   Toj,   da   po  --
-      ma  --  ga   Toj,   da   po  --  ma  --  ga   Toj.   Nij   šte   ra
+      --  de,   i  --  de,   sam __   Toj   i -- de,   i  --  de,   i  --  de,
+      sam __ Toj   i -- de,   i  --  de,   i  --  de,   sam   Toj  i -- de   da
+      po  --  ma  --  ga   Toj, __    da   po  --  ma  --  ga   Toj, __   da
+      po  --  ma  --  ga   Toj. __    Mošt  --  ni  --  jat,   sil  --  ni  --
+      jat,   da   po  --  ma  --  ga   Toj, __  mošt  --  ni  --  jat,
+      sil  --  ni  --  jat,   da   po  --  ma  --  ga   Toj, __   da   po  --
+      ma  --  ga   Toj, __    da   po  --  ma  --  ga   Toj. __   Nij   šte   ra
       --  bo  --  tim   săs   "Lju-"  --  bov,   šte   ra  --  bo  --  tim
       săs   "Lju-"  --  bov,   da   po  --  ma  --  ga   Toj,   da   po  --
       ma  --  ga    Toj,   Mošt  --  "ni-"  --  jat,   sil  --  ni  --

@@ -54,16 +54,16 @@
 
 \addlyrics {
       Ве -- ну Ба
-      -- хар са -- ли му -- се -- нет. Ту -- си Ба --
+      -- хар са -- ли му -- се -- нет. __ Ту -- си Ба --
       хар. Ве -- ну се -- нет. Ту -- си Ба -- хар, Ве
       -- ну Ба -- хар Са -- ли му -- се -- нет. Ве --
-      ну ил -- би -- ют. Би -- ют, Би -- ют, Би -- ют.}
+      ну ил -- би -- ют. Би -- ют, Би -- ют, Би -- ют. __}
      \addlyrics {
       Ve -- nu Ba
-      -- har sa -- li mu -- se -- net. Tu -- si Ba --
+      -- har sa -- li mu -- se -- net. __ Tu -- si Ba --
       har. Ve -- nu se -- net. Tu -- si Ba -- har, Ve
       -- nu Ba -- har Sa -- li mu -- se -- net. Ve --
-      nu il -- bi -- jut. Bi -- jut, Bi -- jut, Bi -- jut.}
+      nu il -- bi -- jut. Bi -- jut, Bi -- jut, Bi -- jut. __}
 
 
     \header {

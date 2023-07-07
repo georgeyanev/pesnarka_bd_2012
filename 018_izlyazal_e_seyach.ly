@@ -79,24 +79,24 @@
 
     \addlyrics {
       Из -- ля -- зъл е се -- яч да се -- е __
-      пре -- крас -- но бла -- го нов Жи -- вот. И
-      се -- е той и ти -- хо пе -- е пред все -- ки
-      дом и все -- ки род, и все -- ки род: Без --
-      це -- нен дар е Лю -- бов -- та, кра --  си -- во
-      чув -- ство О -- бич -- та и бла -- го де -- ло Ми -- лост --
-      та, о -- би -- лен из -- вор Мъ -- дрост -- та. Без --
-      та о -- би -- лен из -- вор Мъ -- дрост -- та.
+      пре -- крас -- но бла -- го нов Жи -- вот. __ И
+      се -- е той и ти -- хо пе -- е __ пред все -- ки
+      дом и все -- ки род, __  и все -- ки род: __ Без --
+      це -- нен дар __ е Лю -- бов -- та, __ кра --  си -- во
+      чув -- ство О -- бич -- та __  и бла -- го де -- ло Ми -- лост --
+      та, __  о -- би -- лен из -- вор Мъ -- дрост -- та. __ Без --
+      та  __  о -- би -- лен из -- вор Мъ -- дрост -- та. __ 
     }
 
      \addlyrics {
       Iz -- lja -- zăl e se -- jač da se -- e __
-      pre -- kras -- no bla -- go nov Ži -- vot. I
-      se -- e toj i ti -- ho pe -- e pred vse -- ki
-      dom i vse -- ki rod, i vse -- ki rod: Bez --
-      ce -- nen dar e Lju -- bov -- ta, kra --  si -- vo
-      čuv -- stvo O -- bič -- ta i bla -- go de -- lo Mi -- lost --
-      ta, o -- bi -- len iz -- vor Mă -- drost -- ta. Bez --
-      ta o -- bi -- len iz -- vor Mă -- drost -- ta.
+      pre -- kras -- no bla -- go nov Ži -- vot. __ I
+      se -- e toj i ti -- ho pe -- e __  pred vse -- ki
+      dom i vse -- ki rod,  __ i vse -- ki rod: __ Bez --
+      ce -- nen dar __ e Lju -- bov -- ta, __ kra --  si -- vo
+      čuv -- stvo O -- bič -- ta __  i bla -- go de -- lo Mi -- lost --
+      ta,  __ o -- bi -- len iz -- vor Mă -- drost -- ta. __ Bez --
+      ta __  o -- bi -- len iz -- vor Mă -- drost -- ta. __ 
     }
 
 

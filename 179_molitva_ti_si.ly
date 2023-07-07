@@ -71,7 +71,7 @@
       без  Теб и са -- мо Ти му да
       -- ваш сми -- съл. Ед -- ни -- чък
       Ти ме лю_-биш, зна -- я, са -- мо
-      "Ти.        И" аз Теб лю -- бя.}
+      "Ти.        И" аз Теб лю -- бя. __}
       \addlyrics {
         "1. Gos" -- po -- di, Ti si vsič -- ko
         za me -- ne na Ze -- mja -- ta. Tuk
@@ -80,7 +80,7 @@
         bez  Teb i sa -- mo Ti mu da
         -- vaš smi -- săl. Ed -- ni -- čăk
         Ti me lju_-biš, zna -- ja, sa -- mo
-        "Ti.        I" az Teb lju -- bja.}
+        "Ti.        I" az Teb lju -- bja. __}
 
         \addlyrics {
 
@@ -91,7 +91,7 @@
           Тво -- я -- та "неж-" -- ност,
           "Ра-" -- дост и_Лю -- бов.
           Да се на -- у -- ча
-          Теб  аз да слу -- жа, да  бла -- го --  да -- ря.
+          Теб  аз да слу -- жа, да __ бла -- го --  да -- ря. __
 
         }
 
@@ -104,7 +104,7 @@
           Tvo -- ja -- ta než -- nost,
           "Ra-" -- dost i_Lju -- bov.
           Da se na -- u -- ča
-          Teb  az da slu -- ža, da  bla -- go --  da -- rja.
+          Teb  az da slu -- ža, da __ bla -- go --  da -- rja. __
 
         }
 

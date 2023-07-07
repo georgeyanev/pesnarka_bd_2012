@@ -187,27 +187,27 @@
 
     \addlyrics {
       Стра --  шен
-      бе --   ше  вя -- тъ
+      бе --   ше __  вя -- тъ
       -- рът, що раз -- друс -- ва --
       ше го -- ра -- та. Стра -- шен
-      бе и си -- лен. Всич -- ки -- те
+      бе и си -- лен. Всич -- ки -- те __
       лис -- та шу --
       мя -- ха, шу -- мя -- ха и се
       мо -- ле -- ха: „Спри,  вет --
       ре, спри,  вет -- ре, во -- лен
       раз -- ви -- гор! Не ни
-      ли жа -- лиш?  По -- спри, не
+      ли жа -- лиш?  По -- спри, не __
       ду -- хай! Е -- два през та
       -- зи го -- ди -- на ту --
       ка дой -- дох -- ме на
       гос -- ти. Не ду -- хай, ве --
       тре, ще      пад --
       нем, ще ни се стро -- шат ре --
-      бър -- ца -- та.“ -- „Ой ви вас,
+      бър -- ца -- та.“ -- „Ой ви вас, __
       мал -- ки лис -- тен -- ца,
       за вас аз чух от -- да -- ле -- ко
       и дой -- дох да ви на -- ви
-      --  дя, да  по -- и -- гра --
+      --  дя, да __  по -- и -- гра --
       я и ви по -- ду -- хам, да -- ре --
       не да ви до -- не --  са.
       Слу -- шай -- те то -- га -- ва
@@ -230,27 +230,27 @@
       -- бич да се раз -- бе -- рем.“}
        \addlyrics {
       Stra --  šen
-      be --   še  vja -- tă
+      be --   še __  vja -- tă
       -- răt, što raz -- drus -- va --
       še go -- ra -- ta. Stra -- šen
-      be i si -- len. Vsič -- ki -- te
+      be i si -- len. Vsič -- ki -- te __
       lis -- ta šu --
       mja -- ha, šu -- mja -- ha i se
       mo -- le -- ha: „Spri,  vet --
       re, spri,  vet -- re, vo -- len
       raz -- vi -- gor! Ne ni
-      li ža -- liš?  Po -- spri, ne
+      li ža -- liš?  Po -- spri, ne __
       du -- haj! E -- dva prez ta
       -- zi go -- di -- na tu --
       ka doj -- doh -- me na
       gos -- ti. Ne du -- haj, ve --
       tre, šte      pad --
       nem, šte ni se stro -- šat re --
-      băr -- ca -- ta.“ -- „Oj vi vas,
+      băr -- ca -- ta.“ -- „Oj vi vas, __
       mal -- ki lis -- ten -- ca,
       za vas az čuh ot -- da -- le -- ko
       i doj -- doh da vi na -- vi
-      --  dja, da  po -- i -- gra --
+      --  dja, da __  po -- i -- gra --
       ja i vi po -- du -- ham, da -- re --
       ne da vi do -- ne --  sa.
       Slu -- šaj -- te to -- ga -- va
