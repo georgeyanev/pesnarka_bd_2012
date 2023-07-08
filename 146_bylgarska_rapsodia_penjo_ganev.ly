@@ -47,9 +47,9 @@
       d4 ~ d8. | \break
 
       d8 e16 d16 c8 b16 | \noBreak
-      d8 c8  c8. ( |\noBreak
-      c8 b ~ b8. ~ | \noBreak
-      b4 ~ b8. ) | \break
+      d8 c8  c8. \( |\noBreak
+      c8( b) ~ b8. ~ | \noBreak
+      b4 ~ b8. \) | \break
       g8 a16 \stemUp b \stemNeutral c8 d16 | \noBreak
       e8 d c8([b16]) | \noBreak
 
@@ -94,7 +94,7 @@
       e8^\accent e e d16  |  \noBreak
 
       \bar ".|:"
-      c8 ^\markup{ \italic {mp} \italic{bei der zweiten Wiederholung} } ^\f d e d16 | \noBreak
+      c8 ^\markup{ \dynamic f } ^\mp d^\markup{\italic{bei der zweiten Wiederholung} } e d16 | \noBreak
       e8 d c b16 | \break
       a8 b c d16 | \noBreak
       e8 d c b16 | \noBreak
@@ -239,11 +239,13 @@
     }
 
     \addlyrics {
-      Там го -- ре __ край из -- во -- ра срещ -- нах мо -- ма за --
+      Там го -- ре край из -- во -- ра срещ -- нах мо -- ма за --
       смя -- на, __ там го -- ре "срещ-" -- нах Ли -- ля -- на. __ ""
       \repeat unfold 21 { \skip 1 }
       Из -- во -- рът стру -- и, из -- ви -- ра __ и чис -- ти во -- ди раз -- ли -- ва, __
-      пла -- "нин-" -- ска пе -- сен раз -- низ -- ва. __ Mо -- ма -- та мен -- ци на -- ли -- ва, __
+      пла -- "нин-" -- ска пе -- сен раз -- низ -- ва. __
+      \repeat unfold 1 { \skip 1 }
+      Mо -- ма -- та мен -- ци на -- ли -- ва, __
       в~пе -- сен -- та ти -- хо се за -- слуш -- ва. __ ""
       \repeat unfold 31 { \skip 1  }
       Ще о -- ти -- да та -- мо го -- ре, ще о -- ти -- да
@@ -263,18 +265,20 @@
       гря -- ло сред тре -- ви зе -- ле -- ни, сред цве -- тя за -- сме -- ни.
       Го -- ре в~пла -- ни -- на -- та, Слън -- це дей о -- гря -- ло.
       \repeat unfold 5 { \skip 1 }
-      Там го -- ре __ край из -- во -- ра срещ -- нах мо -- ма зас -- мя -- на, __
+      Там го -- ре край из -- во -- ра срещ -- нах мо -- ма зас -- мя -- на, __
       там го -- ре "срещ-" -- нах Ли -- ля -- на. __ ""
       \repeat unfold 13 { \skip 1 }
       Там го -- ре срещ -- нах Ли -- ля -- на. __ ""
     }
 
     \addlyrics {
-      Tam go -- re __ kraj iz -- vo -- ra srešt -- nah mo -- ma za --
+      Tam go -- re kraj iz -- vo -- ra srešt -- nah mo -- ma za --
       smja -- na, __ tam go -- re srešt -- nah Li -- lja -- na. __ ""
       \repeat unfold 21 { \skip 1 }
       Iz -- vo -- răt stru -- i, iz -- vi -- ra __ i čis -- ti vo -- di raz -- li -- va, __
-      pla -- nin -- ska pe -- sen raz -- niz -- va. __ Mo -- ma -- ta men -- ci na -- li -- va, __
+      pla -- nin -- ska pe -- sen raz -- niz -- va. __ 
+      \repeat unfold 1 { \skip 1 }
+      Mo -- ma -- ta men -- ci na -- li -- va, __
       v~pe -- sen -- ta ti -- ho se za -- sluš -- va. __ ""
       \repeat unfold 31 { \skip 1 }
       Šte o -- ti -- da ta -- mo go -- re, šte o -- ti -- da
@@ -294,7 +298,7 @@
       grja -- lo sred tre -- vi ze -- le -- ni, sred cve -- tja za -- sme -- ni.
       Go -- re v~pla -- ni -- na -- ta, Slăn -- ce dej o -- grja -- lo.
       \repeat unfold 5 { \skip 1 }
-      Tam go -- re __ kraj iz -- vo -- ra srešt -- nah mo -- ma zas -- mja -- na, __
+      Tam go -- re kraj iz -- vo -- ra srešt -- nah mo -- ma zas -- mja -- na, __
       tam go -- re srešt -- nah Li -- lja -- na. __ ""
       \repeat unfold 13 { \skip 1 }
       Tam go -- re "srešt-" -- nah Li -- lja -- na. __ ""
