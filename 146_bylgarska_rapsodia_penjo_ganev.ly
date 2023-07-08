@@ -47,9 +47,8 @@
       d4 ~ d8. | \break
 
       d8 e16 d16 c8 b16 | \noBreak
-      d8 c8  c8. (   |  \noBreak
-      c8  [ b8 ] ~  b8. ~ | \noBreak
-
+      d8 c8  c8. ( |\noBreak
+      c8 b ~ b8. ~ | \noBreak
       b4 ~ b8. ) | \break
       g8 a16 \stemUp b \stemNeutral c8 d16 | \noBreak
       e8 d c8([b16]) | \noBreak
@@ -94,23 +93,13 @@
       e8\prall~ e8 e8 (d16) | \noBreak
       e8^\accent e e d16  |  \noBreak
 
-      \bar "||"
-
-
-      c8 d e d16 | \noBreak
+      \bar ".|:"
+      c8 ^\markup{ \italic {mp} \italic{bei der zweiten Wiederholung} } ^\f d e d16 | \noBreak
       e8 d c b16 | \break
       a8 b c d16 | \noBreak
       e8 d c b16 | \noBreak
-
       \tempo "rit." c8 d b g16 | \noBreak
-      a4 a8. | \break
-      c8^\mp d e d16 | \noBreak
-      e8 d c b16 | \noBreak
-      a8 b c d16 | \break
-      e8 d c b16 | \noBreak
-
-      \tempo "rit." c8 d b g16 | \noBreak
-      a4 a8. | \break  \bar "||"
+      a4 a8. | \break \bar ":|."
 
       \time 7/8  \tempoFunc "Andante" 8 "150" a4 (d8[e]) f8([ g f]) | e4 ~ e4 ~ e4. | \noBreak
 
@@ -262,7 +251,6 @@
       да по -- слу -- шам, ще о -- ти -- да та -- мо.
       \repeat unfold 27 { \skip 2 }
       Чис -- ти во -- ди да по -- гле -- дам, ти -- ха пе -- сен да по -- слу -- шам,
-      ще о -- ти -- да та -- мо.  Чис -- ти во -- ди да по -- гле -- дам, ти -- ха пе -- сен да по -- слу -- шам,
       ще о -- ти -- да та -- мо. Ли -- ля -- но, __
       цве -- те ра -- но в~гра -- ди -- на, __ а -- ко таз пе -- сен,
       Ли -- ля -- но, не чу -- я, ах, __ от таз во -- да а -- ко не пи -- я, __
@@ -294,7 +282,6 @@
       da po -- slu -- šam, šte o -- ti -- da ta -- mo.
       \repeat unfold 27 { \skip 1 }
       Čis -- ti vo -- di da po -- gle -- dam, ti -- ha pe -- sen da po -- slu -- šam,
-      šte o -- ti -- da ta -- mo. Čis -- ti vo -- di da po -- gle -- dam, ti -- ha pe -- sen da po -- slu -- šam,
       šte o -- ti -- da ta -- mo. Li -- lja -- no, __
       cve -- te ra -- no v~gra -- di -- na, __ a -- ko taz pe -- sen,
       Li -- lja -- no, ne ču -- ja, ah, __ ot taz vo -- da a -- ko ne pi -- ja, __

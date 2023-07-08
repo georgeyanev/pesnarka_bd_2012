@@ -22,7 +22,7 @@
       d'4 | g'2 d'4 | bes'2 a'4 | g'4 fis' g' |  a'4 d' es'  \break
       d'2 d'4 |  d''2 g'4 | es''2 d''4 | c''4 bes' a' \break |
       bes'4 c'' d'' | a'2 a'4 | f''2 d''4 |  g''2 \fermata f''4 \break |
-      es''4 d'' c'' | bes'4 c'' d'' ( | d''4 ) r a' | c''2 a'4 \break |
+      es''4 d'' c'' | bes'4 c'' d'' ~ | d''4  r a' | c''2 a'4 \break |
       d''2 a'4 | c''4 bes' a' | g'4 fis' a' | g'2 r4 | \time 2/4 \break |
       \repeat volta 2 {
         \bar ".|:-||" d''8 d'' es'' es'' | d''8 c'' d''4 | c''8 c'' d'' c'' \break |

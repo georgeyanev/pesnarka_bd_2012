@@ -68,12 +68,12 @@
         }
         d8 ( [  g8 ) ]  bes2 | % 14
         <<
-          {
+         
+
+          \new Staff { \autoBeamOff e,16 ^\markup { \large \italic "ossia"} cis d e d8. cis16 d2 } |
+ {
             a16  g16  fis16  g16 a8.  g16  g2
           }
-
-          \new Staff { \autoBeamOff e16 ^\markup { \large \italic "ossia"} cis d e d8. cis16 d2 } |
-
         >>
         \break | % 15
 
