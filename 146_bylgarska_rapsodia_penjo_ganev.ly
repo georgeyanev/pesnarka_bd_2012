@@ -94,7 +94,7 @@
       e8^\accent e e d16  |  \noBreak
 
       \bar ".|:"
-      c8 ^\markup{ \dynamic f } ^\mp d^\markup{\italic{bei der zweiten Wiederholung} } e d16 | \noBreak
+      c8 ^\markup{ \dynamic f } ^\mp d^\markup{\italic{bei der Wiederholung} } e d16 | \noBreak
       e8 d c b16 | \break
       a8 b c d16 | \noBreak
       e8 d c b16 | \noBreak

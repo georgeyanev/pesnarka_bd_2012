@@ -78,7 +78,7 @@
             \override StaffSymbol.thickness = #(magstep -3)
             firstClef = ##f
           }
-          {\autoBeamOff e16 ^\markup { \huge \italic "ossia" \italic "nach Vessela Nestorova"} cis d e d8. cis16 d2 }
+          {\autoBeamOff e16 ^\markup { \huge \italic "ossia" \italic "според В. Несторова/nach V. Nestorova"} cis d e d8. cis16 d2 }
         >>
         \break | % 15
 
