@@ -47,9 +47,9 @@
       d4 ~ d8. | \break
 
       d8 e16 d16 c8 b16 | \noBreak
-      d8 c8  c8. ( |\noBreak
-      c8 b ~ b8. ~ | \noBreak
-      b4 ~ b8. ) | \break
+      d8 c8  c8. \( |\noBreak
+      c8( b) ~ b8. ~ | \noBreak
+      b4 ~ b8. \) | \break
       g8 a16 \stemUp b \stemNeutral c8 d16 | \noBreak
       e8 d c8([b16]) | \noBreak
 
@@ -94,7 +94,7 @@
       e8^\accent e e d16  |  \noBreak
 
       \bar ".|:"
-      c8 ^\markup{ \italic {mp} \italic{bei der zweiten Wiederholung} } ^\f d e d16 | \noBreak
+      c8 ^\markup{ \dynamic f } ^\mp d^\markup{\italic{bei der zweiten Wiederholung} } e d16 | \noBreak
       e8 d c b16 | \break
       a8 b c d16 | \noBreak
       e8 d c b16 | \noBreak
