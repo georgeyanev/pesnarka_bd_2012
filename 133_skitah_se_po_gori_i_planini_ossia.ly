@@ -73,12 +73,12 @@
           \new Staff \with {
             \remove "Time_signature_engraver"
             alignAboveContext = #"main"
-            fontSize = #-3
+            fontSize = #-1
             \override StaffSymbol.staff-space = #(magstep -3)
             \override StaffSymbol.thickness = #(magstep -3)
             firstClef = ##f
           }
-          {\autoBeamOff e16 ^\markup { \large \italic "ossia"} cis d e d8. cis16 d2 }
+          {\autoBeamOff e16 ^\markup { \huge \italic "ossia" \italic "nach Vessela Nestorova"} cis d e d8. cis16 d2 }
         >>
         \break | % 15
 
