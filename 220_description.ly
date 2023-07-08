@@ -1318,7 +1318,7 @@
 
       \line {
         \justify {
-          \concat {"161" . \smallCaps " Гласът  на  Живия  Господ  –  Новото  Възкресение  Glasăt  na  Živija  Gospod  " } \smallCaps " – Novoto  Văzkresenie." Dieses Lied wurde von Boris Nikolov gesungen und von Peter Ganev notiert. Das Lied ist von tiefer Mystik durchdrungen. Im Werk von Petar Danov drücken alle nachfolgenden Lieder neue melodische Intonationen aus. Durch das Lehren dieses Liedes deutete Petar Danov eine neue musikalische Form an, die als Beispiel und Basis der Musik der Zukunft dienen wird. Dies deutet Danov mehrmals an (Allgemeine Okkultklasse aus dem Jahr 1923, 3. Jahrgang, 10. Vortrag). Eine solche Andeutung erfolgte auch beim Lehren des Liedes \italic"Kaji mi svetli Boji lach," das jedoch 
+          \concat {"161" . \smallCaps " Гласът  на  Живия  Господ  –  Новото  Възкресение  Glasăt  na  Živija  Gospod  " } \smallCaps " – Novoto  Văzkresenie." Dieses Lied wurde von Boris Nikolov gesungen und von Peter Ganev notiert. Das Lied ist von tiefer Mystik durchdrungen. Im Werk von Petar Danov drücken dieses und alle nachfolgenden Lieder neue melodische Intonationen aus. Letztere sind im Privatunterricht entstanden, die Danov Liljana Tabakova gewährte. Durch das Lehren dieses Liedes deutete Petar Danov eine neue musikalische Form an, die als Beispiel und Basis der Musik der Zukunft dienen wird. Dies deutet Danov mehrmals an (Allgemeine Okkultklasse aus dem Jahr 1923, 3. Jahrgang, 10. Vortrag). Eine solche Andeutung erfolgte auch beim Lehren des Liedes \italic"Kaji mi svetli Boji lach," das
         }
       }
 
@@ -1331,10 +1331,10 @@
   \markup \fontsize  #+2  {
     \override #'(baseline-skip . 2.2)
     \column {
-        \line {
+      \line {
         \justify {
-          unvollendet blieb. Um diese Lieder gut zu singen, bedarf es eines mystischen Element, d. h. sie sollen mit Ehrfurcht, Ehrlichkeit, Einfachheit, Reinheit und Bildhaftigkeit gesungen werden.
-        
+          jedoch unvollendet blieb. Um diese Lieder gut zu singen, bedarf es eines mystischen Element, das heißt sie sollen mit Ehrfurcht, Ehrlichkeit, Einfachheit, Reinheit und Bildhaftigkeit gesungen werden.
+
         }
       }
 
@@ -1366,12 +1366,7 @@
           \concat {"165" . \smallCaps  " Химни на Слънцето – Himni na Slănceto."} Das Lied wurde am 5. Mai 1942 von Petar Danov im Beisein von Liljana Tabakova komponiert. „Mit diesem Lied werdet ihr die aufgehende Sonne begrüßen. Dies ist das Gebet zum Sonnenaufgang. Es ist eine majestätische Hymne an alle Sonnen. Diese Hymnen werden auch von den Engeln gesungen.“ Dieses Lied wird zusammen mit dem nächsten Lied \italic"Molitva" ausgeführt.
         }
       }
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {"166" . \smallCaps  " Молитва – Molitva."}  Petar Danov komponierte im Beisein von Liljana Tabakova. Es wird mit den „Himni na Slănceto“ [Hymnen an die Sonne] zusammengesungen.
-        }
-      }
+
 
 
     }
@@ -1381,6 +1376,12 @@
     \override #'(baseline-skip . 2.2)
     \column {
 
+      \line {
+        \justify {
+          \concat {"166" . \smallCaps  " Молитва – Molitva."}  Petar Danov komponierte im Beisein von Liljana Tabakova. Es wird mit den „Himni na Slănceto“ [Hymnen an die Sonne] zusammengesungen.
+        }
+      }
+      \vspace #0.5
       \line {
         \justify {
           \concat {"167" . \smallCaps  " Божията Любов ме озари – Božijata Ljubov me ozari."}  Petar Danov komponierte das Lied am 13. März 1942 im Beisein von  Liljana Tabakova.
