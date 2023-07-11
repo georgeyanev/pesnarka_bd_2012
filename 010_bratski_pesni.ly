@@ -34,7 +34,7 @@
   
   }
 
-  \markup\fontsize  #+6.5  {\bold {  \hspace #16.5  \vspace #13.5 BRÜDERLICHE LIEDER} }
+  \markup\fontsize  #+6.5  {\bold {  \hspace #16.5  \vspace #14.5 BRÜDERLICHE LIEDER} }
 
   % include foreign translation(s) of the song
   %\include "lyrics_de/000_empty_template_lyrics_de.ly"

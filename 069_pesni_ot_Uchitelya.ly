@@ -34,7 +34,7 @@
   
   }
  
- \markup\fontsize   #+6.5  {\bold {  \hspace #12  \vspace #13.5 LIEDER VON PETAR DANOV} }
+ \markup\fontsize   #+6.5  {\bold {  \hspace #12  \vspace #14.5 LIEDER VON PETAR DANOV} }
 
   % include foreign translation(s) of the song
   %\include "lyrics_de/000_empty_template_lyrics_de.ly"
