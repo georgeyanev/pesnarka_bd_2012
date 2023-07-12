@@ -84,7 +84,7 @@
 
 
       Ka -- ži mi Ti Is -- ti --
-      na -- ta, ko -- ja -- to no -- si "Svo-"
+      na -- ta, ko -- ja -- to no -- si Svo
       -- bo -- da za mo -- ja -- ta du --
       ša}
 

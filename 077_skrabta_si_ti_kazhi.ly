@@ -66,9 +66,9 @@
       na slăn -- če -- vi lă -- či,
       na slăn -- če -- vi lă -- či.
       Lă -- či ot Bo -- ga
-      bla -- gost šte ti do -- "ne-" -- sat,
+      bla -- gost šte ti do -- ne -- sat,
       i v~du -- ša ti Ra -- dost šte "vne-" -- sat,
-      i v~du -- ša ti Ra -- dost šte "vne-" -- sat,
+      i v~du -- ša ti Ra -- dost šte vne -- sat,
       i v~du -- ša ti Ra -- dost šte "vne-" -- sat,
       i v~du -- ša ti Ra -- dost šte "vne-" -- sat,
       i v~du -- ša ti Ra -- dost šte "vne-" -- sat,

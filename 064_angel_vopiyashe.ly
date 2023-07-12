@@ -129,7 +129,7 @@
       o -- -- -- -- -- -- ne! Ti že,
       čis -- ta -- ja, kra -- suj -- -- sja,
       Bo -- go -- ro -- -- -- di -- ce, __
-      o vo -- sta -- "ni – i      " rož -- "-des-"
+      o vo -- sta -- "ni – i      " rož -- "des-"
       tva __ Tvo -- e -- go. __
     }
 
