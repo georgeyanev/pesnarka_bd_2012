@@ -9,8 +9,7 @@
   \score {
     \include "include/score-layout.ily"
 
-
-    \new Voice \relative c' {
+    \new Staff = main \relative c' {
       \clef treble
       \key g \minor
       \time 2/4
@@ -67,11 +66,19 @@
           d16  d16  d16 ]
         }
         d8 ( [  g8 ) ]  bes2 | % 14
+
         <<
-          \new Staff { \autoBeamOff e,16 ^\markup { \large \italic "ossia"} cis d e d8. cis16 d2 } |
-          {
-            a16  g16  fis16  g16 a8.  g16  g2
+          {a16  g16  fis16  g16 a8.  g16  g2}
+
+          \new Staff \with {
+            \remove "Time_signature_engraver"
+            alignAboveContext = #"main"
+            fontSize = #-1
+            \override StaffSymbol.staff-space = #(magstep -3)
+            \override StaffSymbol.thickness = #(magstep -3)
+            firstClef = ##f
           }
+          {\autoBeamOff e16 ^\markup { \huge \italic "ossia" \italic "според В. Несторова/nach V. Nestorova"} cis d e d8. cis16 d2 }
         >>
         \break | % 15
 
