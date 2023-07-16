@@ -71,6 +71,9 @@
           {a16  g16  fis16  g16 a8.  g16  g2}
 
           \new Staff \with {
+           \override VerticalAxisGroup.default-staff-staff-spacing =
+      #'((basic-distance . 5.5)
+         (padding . -10))
             \remove "Time_signature_engraver"
             alignAboveContext = #"main"
             fontSize = #-1
