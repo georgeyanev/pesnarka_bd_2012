@@ -118,7 +118,7 @@ cat \
     ../126_studat_vsichko_dava.ly \
     ../130_ezikat_na_zhivata_priroda.ly \
     ../132_pravda.ly \
-    ../133_skitah_se_po_gori_i_planini.ly \
+    ../133_skitah_se_po_gori_i_planini_ossia.ly \
     ../134_obetovana_zemya.ly \
     ../135_ain_fasi.ly \
     ../136_duhai_vetre.ly \
