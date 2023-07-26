@@ -126,6 +126,7 @@ cat \
     ../138_bashtina_pesen_ugledna_moma.ly \
     ../142_stavay_daste.ly \
     ../144_pesni_sled_1944_blank.ly \
+    ../144_pesni_sled_1944_blank.ly \
     ../145_pesni_sled_1944.ly \
     ../146_bylgarska_rapsodia_penjo_ganev.ly \
     ../150_balgarska_idiliya.ly \

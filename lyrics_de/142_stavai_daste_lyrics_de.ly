@@ -14,22 +14,23 @@
 
     \line { "   "Mit süßer Stimme sagte sie mir ein gütiges Wort:}
 
-    \line { "   " „Stehe auf, Tochter, }
-
-    \line { "   " weil auf den Acker gegangen werden soll.}
+    \line { "   " „Stehe auf, Tochter, weil auf den Acker gegangen werden soll.}
 
     \line { "   "Stehe auf, }
 
     \line { "   " weil dein Vater draußen auf mich und auf dich mit dem Gespann wartet.“}
     \line { " "}
 
-    \line { 2. Wenn die Sonne aufgeht, }
-    \line { "   "sollst du auf dem Acker sein.}
+    \line { 2. Wenn die Sonne aufgeht, sollst du auf dem Acker sein.}
+
     \line { "   " Mit der Sichel in der Hand und mit einem Lied begrüße den Tag.}
-    \line { "   "Stehe auf, meine Tochter, }
-    \line { "   "damit die Sonne dich nicht im Hause findet.}
-    \line { "   "Stehe auf, meine Tochter, }
-    \line { "   "weil alle Mädchen und Jungen schon zum Acker aufgebrochen sind.}
+
+    \line { "   "Stehe auf, Tochter, damit die Sonne dich nicht im Hause findet.}
+
+    \line { "   "Stehe auf, Tochter, }
+    
+      \line { "   " weil alle Mädchen und Jungen schon zum Acker aufgebrochen sind.}
+
     \line { " "}
 
     \line { 3. Der Acker, meine Tochter, ist das Leben,}
@@ -38,13 +39,9 @@
 
     \line { "   "Wenn er gedeiht, dann trägt er Leben in uns hinein.}
 
-    \line { "   "Stehe auf, Tochter, }
+    \line { "   "Stehe auf, Tochter, die Liebe wartet heute auf mich und auf dich.}
 
-    \line { "   " die Liebe wartet heute auf mich und auf dich.}
-
-    \line { "   "Stehe auf, }
-
-    \line { "   " sie bringt uns ihr neues, lebendiges Gewand.}
+    \line { "   "Stehe auf, sie bringt uns ihr neues, lebendiges Gewand.}
 
     \line { "   "Stehe auf, }
 
