@@ -8,7 +8,7 @@
 
   \label #'ref220
   \tocItem \markup "Anmerkungen"
-  \markup \fontsize  #+4.0 { \fill-line \smallCaps {"ANMERKUNGEN"} }
+  \markup \fontsize  #+4.0 { \fill-line \bold {"ANMERKUNGEN"} }
 
   \markup \fontsize #+2 \override #'(line-width . 66.5)
   {
@@ -1169,7 +1169,7 @@
       \vspace #0.4
       \line {
         \justify {
-          \concat {"144" . \smallCaps  " Малката буболечица – Malkata bubolečica."} 27. Mai 1933. Musik von PetarDanov. Text von Olga Slavčeva. In dieser Notation wurde die Originalmelodie nach dem Gesang von Penjo Ganev wiederhergestellt; diese war im Liederbuch von Maria Todorova verändert.
+          \concat {"144" . \smallCaps  " Малката буболечица – Malkata bubolečica."} 27. Mai 1933. Musik von Petar Danov. Text von Olga Slavčeva. In dieser Notation wurde die Originalmelodie nach dem Gesang von Penjo Ganev wiederhergestellt; diese war im Liederbuch von Maria Todorova verändert.
         }
       }
       \vspace #0.6
@@ -1200,7 +1200,7 @@
       \vspace #0.4
       \line {
         \justify {
-          \concat {"149" . \smallCaps " Me-хейн – Me-hejn."} 29. Januar 1941, Text unbekannt.
+          \concat {"149" . \smallCaps " Me-хейн – Me-hejn."} 29. Januar 1941, Text I Stojanka Ilieva. Text II unbekannt.
         }
       }
       \vspace #0.4
