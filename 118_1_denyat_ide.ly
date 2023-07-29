@@ -34,6 +34,10 @@
       Slăn -- ce šte iz -- gre -- e, da po -- stă -- pim do -- bre.
     }
 
+     \addlyrics {
+      " " " " " " " 3. [...]" зо-ра -- та
+    }
+
     \header {
       title = \titleFunc "Денят иде" " Denjat ide"
     }
