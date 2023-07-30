@@ -160,11 +160,12 @@
       \fill-with-pattern #1 #RIGHT . "Новото Битие – Novoto Bitie" \page-ref #'ref191 "000" "?"
       \fill-with-pattern #1 #RIGHT . "О, Учителю благати – O, Učitelju blagati" \page-ref #'ref051 "000" "?"
       \fill-with-pattern #1 #RIGHT . "Обетована земя – Obetovana zemja" \page-ref #'ref134 "000" "?"
+      \fill-with-pattern #1 #RIGHT . "Отче наш, не ни ... – Otče naš, ne ni ..." \page-ref #'ref216 "000" "?"
+  
   }
 
   \markup \override #'(baseline-skip . 2.5)
     \column \fontsize  #+2.5 { 
-      \fill-with-pattern #1 #RIGHT . "Отче наш, не ни ... – Otče naš, ne ni ..." \page-ref #'ref216 "000" "?"
       \fill-with-pattern #1 #RIGHT . "Песен за двете сестри – Pesen za dvete sestri" \page-ref #'ref180 "000" "?"
       \fill-with-pattern #1 #RIGHT . "Песен на гласните букви – Pesen na glasnite bukvi" \page-ref #'ref067 "000" "?"
       \fill-with-pattern #1 #RIGHT . "Песен на детето – Pesen na deteto" \page-ref #'ref164 "000" "?"
@@ -203,11 +204,12 @@
       \fill-with-pattern #1 #RIGHT . "Слънчева песен – пчелна... – Slănčeva pesen – pčelna..." \page-ref #'ref125 "000" "?"
       \fill-with-pattern #1 #RIGHT . "Ставай, дъще! – Stavaj, dăšte!" \page-ref #'ref142 "000" "?"
       \fill-with-pattern #1 #RIGHT . "Стани, стани – Stani, stani" \page-ref #'ref028 "000" "?"
+      \fill-with-pattern #1 #RIGHT . "Страдна душо – Stradna dušo" \page-ref #'ref029 "000" "?"
+ 
  }
 
   \markup \override #'(baseline-skip . 2.5)
     \column \fontsize  #+2.5 { 
-      \fill-with-pattern #1 #RIGHT . "Страдна душо – Stradna dušo" \page-ref #'ref029 "000" "?"
       \fill-with-pattern #1 #RIGHT . "Странник съм в този свят – Strannik săm v tozi svjat" \page-ref #'ref217 "000" "?"
       \fill-with-pattern #1 #RIGHT . "Студът всичко дава – Studăt vsičko dava" \page-ref #'ref126 "000" "?"
       \fill-with-pattern #1 #RIGHT . "Събуди се братко мили – Săbudi se bratko mili" \page-ref #'ref025 "000" "?"
