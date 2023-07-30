@@ -13,6 +13,7 @@
     \new Voice \relative c' {
       \clef treble
       \key d \minor
+      \override Staff.BarLine.gap = 0.6
 
       \time 5/4
       \tempoFunc "Andante" 4 "63"

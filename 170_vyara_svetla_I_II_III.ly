@@ -174,6 +174,7 @@
               \key d \major
               \time 3/4
               \tempoFunc "Moderato" 4 "72"
+               \override Staff.BarLine.gap = 0.6
               \autoBeamOff
               \partial 4
               d'8  fis'8 | \repeat volta 2 {

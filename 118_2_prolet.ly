@@ -40,18 +40,39 @@
     }
 
 
-      \header {
-        title = \titleFunc "Пролет" "Prolet"
-      }
+    \header {
+      title = \titleFunc "Пролет" "Prolet"
+    }
 
-      \midi{}
+    \midi{}
 
-    } % score
- 
-    \markup \dc-one "D.C."
-    
+  } % score
 
-    % include foreign translation(s) of the song
-    \include "lyrics_de/118_2_prolet_lyrics_de.ly"
+  \markup \dc-one "D.C."
 
-  } % bookpart
+  \markup \fontsize #bgCoupletFontSize {
+    \hspace #1
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \column {
+      \line { 2. Красота, ухание се лей,  }
+      \line {   "   "  изобилно блика радостта,}
+      \line {   "   " Слушайте и пейте в пролетта, }
+      \line {   "   " слушайте и пейте в пролетта, }
+    }
+
+    \hspace #5
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \column {
+      \line { 2. Krasota, uhanie se lej,  }
+      \line {   "   "  izobilno blika radostta,}
+      \line {   "   " Slušajte i pejte v proletta, }
+      \line {   "   " slušajte i pejte v proletta, }
+    } %column
+  } % markup
+
+\markup \empty-two
+
+  % include foreign translation(s) of the song
+  \include "lyrics_de/118_2_prolet_lyrics_de.ly"
+
+} % bookpart

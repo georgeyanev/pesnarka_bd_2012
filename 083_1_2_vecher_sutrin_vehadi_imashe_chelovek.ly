@@ -14,7 +14,7 @@
       \clef treble
       \key d \minor
       \tempoFunc "Addagio, ad libitum" 4 "56"
-
+      \override Staff.BarLine.gap = 0.6
       \autoBeamOff
       \omit Score.TimeSignature
       \cadenzaOn % allows custom bar lines

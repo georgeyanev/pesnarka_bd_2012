@@ -15,6 +15,7 @@
       \key g \major
       \time 5/4
       \tempoFunc "Andantino" 4 "69"
+      \override Staff.BarLine.gap = 0.6
 
       \autoBeamOff
       b8 d b8 d b8 d  \bar "!" g fis e c | c e c e c e   \bar "!"  \break

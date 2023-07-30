@@ -16,9 +16,9 @@
       \time 4/4
       \tempoFunc "Andante" 4 "63"
       \autoBeamOff
-      a'4 a' b'4. a'8 |  \autoBeamOn g'8 fis' e' ( fis' ) \autoBeamOff g'2 | b'4 b' cis''4. b'8 | \break
-      \autoBeamOn a'8 gis'  fis' ( gis' )  a'2 | a'4 a' fis''4. e''8 | \autoBeamOn d''8 cis''  e'' ( d'' ) \autoBeamOff cis''2 \break |
-      b'4 b' cis''4. b'8 | \autoBeamOn g'8 g'\autoBeamOff  b'4  a'2 | fis'4 a' \autoBeamOn e'8 fis' g' a' \break |
+      a'4 a' b'4. a'8 | g'8 fis' e' ( [ fis' ] ) g'2 | b'4 b' cis''4. b'8 | \break
+      a'8 gis'  fis' ([ gis'] )  a'2 | a'4 a' fis''4. e''8 | d''8 cis''  e'' ( [ d''] ) cis''2 \break |
+      b'4 b' cis''4. b'8 | g'8 g'  b'4  a'2 | fis'4 a' e'8 fis' g' a' \break |
       d''4 cis''2 r4 | cis''4 e'' b'8 cis'' d'' e'' | g''4 fis''2 r4 | e''4 d'' cis''8 b' g' b' | \break  b'4 a'2 r4 | cis''4 b'  a'8 g' e' a' | g'4 fis'2 r4 \break | \bar "|."
     }
 

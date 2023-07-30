@@ -15,6 +15,7 @@
       \key g \major
       \time 2/4
       \tempoFunc "Moderato" 4 "80"
+      \override Staff.BarLine.gap = 0.6
       \autoBeamOff
 
 
