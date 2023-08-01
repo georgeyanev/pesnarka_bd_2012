@@ -55,7 +55,7 @@
       }
       \alternative {
         { c'2. ~| c'2 c''8  d''   |   }
-        { c'2. ( | c'4 ) r4 r4 \bar "|."  | \break }
+        { c'2. ( | c'4 ) r4 s4 \bar "|."  | \break }
       }
 
     }

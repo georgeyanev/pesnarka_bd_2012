@@ -97,7 +97,7 @@
       \line { "   " \italic {Припев ...} }
       \line { " " }
 
-      \line { 5.  О тез лъчи от Бога идат, }
+      \line { 5.  О, тез лъчи от Бога идат, }
       \line {   "   " Те пълнят нашите сърца, }
       \line {   "   " И шепнат сладко, как Той вика: }
       \line {   "   " „Елате, моите деца!“ }
@@ -142,7 +142,7 @@
       \line { "   " \italic {Pripev ...} }
       \line { " " }
 
-      \line { 5.  O tez lăči ot Boga idat, }
+      \line { 5.  O, tez lăči ot Boga idat, }
       \line {   "   " Te pălnjat našite sărca, }
       \line {   "   " I šepnat sladko, kak Toj vika: }
       \line {   "   " „Elate, moite deca!“ }

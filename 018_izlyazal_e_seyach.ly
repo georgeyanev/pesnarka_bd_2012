@@ -72,7 +72,7 @@
           f'2. (|  f'4 ) r4 g'4 | g'2 g'4 | a'2
           \override Score.RehearsalMark.outside-staff-priority = #599
           \mark\markup\normalsize\bold { "rit." } % places rit. below alternative bracket
-          a'4 | \stemUp b'2 b'4 | c''2. ( | c''2 ) \bar "|." \pageBreak
+          a'4 | \stemUp b'2 b'4 | c''2. ~ | c''2  \bar "|." \pageBreak
         }
       }
     }
@@ -84,8 +84,8 @@
       дом и все -- ки род, __  и все -- ки род: __ Без --
       це -- нен дар __ е Лю -- бов -- та, __ кра --  си -- во
       чув -- ство О -- бич -- та __  и бла -- го де -- ло Ми -- лост --
-      та, __  о -- би -- лен из -- вор Мъ -- дрост -- та. __ Без --
-      та  __  о -- би -- лен из -- вор Мъ -- дрост -- та. __ 
+      та, __  о -- би -- лен из -- вор Мъд -- рост -- та. __ Без --
+      та  __  о -- би -- лен из -- вор Мъд -- рост -- та. __ 
     }
 
      \addlyrics {
@@ -95,8 +95,8 @@
       dom i vse -- ki rod,  __ i vse -- ki rod: __ Bez --
       ce -- nen dar __ e Lju -- bov -- ta, __ kra --  si -- vo
       čuv -- stvo O -- bič -- ta __  i bla -- go de -- lo Mi -- lost --
-      ta,  __ o -- bi -- len iz -- vor Mă -- drost -- ta. __ Bez --
-      ta __  o -- bi -- len iz -- vor Mă -- drost -- ta. __ 
+      ta,  __ o -- bi -- len iz -- vor Măd -- rost -- ta. __ Bez --
+      ta __  o -- bi -- len iz -- vor Măd -- rost -- ta. __ 
     }
 
 
