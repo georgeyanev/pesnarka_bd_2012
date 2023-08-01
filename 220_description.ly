@@ -605,7 +605,7 @@
       \vspace #0.4
       \line {
         \justify {
-          \concat {"70" . \smallCaps  " Светъл ден – Svetăl den."} 1. Mai 1924, Allgemeine Okkultklasse, III. Jahrgang, 26. Vortrag.
+          \concat {"70" . \smallCaps  " Светъл ден – Svetăl den."} 16. April 1924, Allgemeine Okkultklasse, III. Jahrgang, 26. Vortrag.
         }
       }
 

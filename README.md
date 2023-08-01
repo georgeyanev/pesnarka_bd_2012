@@ -1,4 +1,4 @@
-# Petar Danov songs book 
+# Petar Danovs SongBook 
 ISBN-10 954-744-076-4
 This repository contains all Petar Danov songs in lilypond format bundled to a song book. The repository provides a german translation of the lyrics. 
 

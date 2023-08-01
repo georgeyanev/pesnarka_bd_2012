@@ -25,7 +25,7 @@
 
     left-margin = 1.5\cm
     right-margin = 1.5\cm
-    top-margin = 1.6\cm
+    top-margin = 2.6\cm
     bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
 
@@ -33,27 +33,16 @@
   }
 
 
-  \markup \fontsize  #+2.5 { \fill-line \bold {"PETAR DANOV"} }
-
-  \markup { {  \vspace #0.5 } }
-
-  \markup \fontsize  #+6 { \fill-line \bold {"LIEDERBUCH"} }
-  \markup  { {  \vspace #0.2 } }
-  \markup \fontsize  #1.5 { \fill-line {"Bulgarisch-Deutsch"} }
- \markup { {  \vspace #4.5 } }
   \markup {
-    \vspace #21.5
-    \hspace #26
     \general-align #Y #DOWN {
-      \epsfile #X #13 #"./img/logo_large.eps"
+      \epsfile #X #67 #"./img/danov.eps"
     }
   }
-    \markup { {  \vspace #0.5 } }
 
-  \markup \fontsize  #+2.5  { \fill-line {"Verlag Bjalo Bratstvo"} }
-    \markup { {  \vspace #0.2 } }
-  \markup \fontsize  #+2.5  { \fill-line {"Sofia 2023"} }
+  \markup { {  \vspace #0.7 } }
 
+  \markup \fontsize  #+5 { \fill-line \bold {" Петър Дънов – Беинса Дуно "} }
+  \markup \fontsize  #+2.5 { \fill-line \bold {" (1864  –  1944)" } }
 
   % include foreign translation(s) of the song
   %\include "lyrics_de/000_empty_template_lyrics_de.ly"

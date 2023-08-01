@@ -7,17 +7,17 @@
   \include "include/bookpart-paper.ily"
 
   \label #'ref220
-  \tocItem \markup "Anmerkungen"
-  \markup \fontsize  #+4.0 { \fill-line \bold {"ОБЯСНИТЕЛНИ БЕЛЕЖКИ"} }
+  \tocItem \markup "ОБЯСНИТЕЛНИ БЕЛЕЖКИ"
+  \markup \fontsize  #+3.5 { \fill-line \bold {"ОБЯСНИТЕЛНИ БЕЛЕЖКИ"} }
 
   \markup \fontsize #+2 \override #'(line-width . 66.5)
   {
     \override #'(baseline-skip . 2.2)
     \column {
-      \vspace #0.4
+      \vspace #0.7
       \line {
         \justify {
-          \fontsize  #+0.8 \bold { \fill-line { \bold"Братски песни"} }
+          \fontsize  #+0.1 \bold { \fill-line { \bold"БРАТСКИ ПЕСНИ"} }
         }
       }
       \vspace #0.4
@@ -132,9 +132,23 @@
         Музика и текст от Борис Хаджиандреев, Ямбол, 1915 г. В бележки на Боян Боев тази песен е озаглавена Ученикът Христов и вместо Господи, Ти мой Учител е употребено: О,Господ мой и Учител. В някои популярни версии на песента последният стих от четвърти куплет се изпълнява: и след (със) Тебе ще вървя.
       }
 
+      \vspace #0.4
 
- 
-    
+      \line {
+        \justify {
+          \concat {"16" . \bold " Милосърдието."}
+          Музика от Атанас Д. Ковачев, текст от Стоян Русев (Дядо Благо). Нега (рус.) – блажество, нежност.
+        }
+      }
+      \vspace #0.4
+      \line {
+        \justify {
+          \concat {"17" . \bold " Сърдечен зов."}  Музика от Атанас Д. Ковачев, композирана на Добро поле
+        }
+      }
+
+
+
 
     }
   }
@@ -143,24 +157,15 @@
     \override #'(baseline-skip . 2.2)
     \column {
 
+      \line {
+        \justify {
 
-           
-      \line {
-        \justify {
-          \concat {"16" . \bold " Милосърдието."}
-          Музика от Атанас Д. Ковачев, текст от Стоян Русев (Дядо Благо). Нега (рус.) – блажество, нежност.
-        }
-      }
-     \vspace #0.4
-      \line {
-        \justify {
-          \concat {"17" . \bold " Сърдечен зов."}  Музика от Атанас Д. Ковачев, композирана на Добро поле през Първата световна война, 1917 г., по мотив от Учителя, текст от Илия Зурков.
+          през Първата световна война, 1917 г., по мотив от Учителя, текст от Илия Зурков.
         }
       }
 
 
-
-       \vspace #0.4
+      \vspace #0.4
 
 
       \line {
@@ -169,14 +174,14 @@
         }
       }
 
-            \vspace #0.4
+      \vspace #0.4
 
       \line {
         \justify {
           \concat {"19" . \bold " За Небесния цар."} Музика и текст от Учителя, 1888 г., с. Хотанца, Русенско. В бележки на Боян Боев тази песен е озаглавена Сионски марш.
         }
       }
-        \vspace #0.4
+      \vspace #0.4
 
       \line {
         \justify {
@@ -308,14 +313,6 @@
         }
       }
 
-       \vspace #0.4
-
-            \line {
-        \justify {
-          \concat {"41" . \bold " Ангел вопияше."} Български църковен напев, много популярен в началото на века. Песента е нотирана от Барнаби Браун, Шотландия, по изпълнение на Весела Несторова през 1993 г. Ангел вопияше (чсл.) - Ангел викаше. Черковнославянският текст, трансформиран на съвременен български, звучи така: Ангел викаше на 
-        }
-      }
-
     }
   }
 
@@ -328,7 +325,7 @@
       \vspace #0.4
       \line {
         \justify {
-        благодатната (Божия майка): чиста Дево, радвай се! и пак ти казвам: радвай се! Твоят Син възкръсна от гроба на третия ден след смъртта и мъртвите възкреси: хора, веселете се! Прослави се, прослави се, Йерусалиме (християнска Църква), защото славата Господня над теб възсия: тържествувай сега и весели се, Сионе! Ти, Чиста, радвай се, Богородице, за възкресението на родения от Теб.
+          \concat {"41" . \bold " Ангел вопияше."} Български църковен напев, много популярен в началото на века. Песента е нотирана от Барнаби Браун, Шотландия, по изпълнение на Весела Несторова през 1993 г. Ангел вопияше (чсл.) - Ангел викаше. Черковнославянският текст, трансформиран на съвременен български, звучи така: \italic {Ангел викаше на благодатната (Божия майка): чиста Дево, радвай се! и пак ти казвам: радвай се! Твоят Син възкръсна от гроба на третия ден след смъртта и мъртвите възкреси: хора, веселете се! Прослави се, прослави се, Йерусалиме (християнска Църква), защото славата Господня над теб възсия: тържествувай сега и весели се, Сионе! Ти, Чиста, радвай се, Богородице, за възкресението на родения от Теб.}
         }
       }
       \vspace #0.4
@@ -386,6 +383,21 @@
         }
       }
 
+      \vspace #0.4
+
+      \line {
+        \justify {
+          \concat {"47" . \bold " Изгрява слънцето."}  Дадена на 22 октомври 1922 г., Общ окултен клас, II година, 4-а лекция. Учителя казва: „Тук със съвършена простота в тонове и думи е създадена величествената картина на изгряващото Слънце. В окултната музика никога не се допускат думи и тонове с две значения. Песента Изгрява Слънцето е образец в това отношение.”
+        }
+      }
+      \vspace #0.4
+      \line {
+        \justify {
+          \concat {"48" . \bold  " Сила жива, изворна."}  Дадена на 12 октомври 1922 г., Общ окултен клас, II година, 2-а лекция. Учителя казва: „Тоновете на тази песен показват движение, извиране нагоре и разширяване. Потиснатото в човека се освобождава, дава му се ход и правилно движение. За да може човек да изпее това упражнение, той трябва да влезе в хармонични отношения с Божествената природа. Думите зун-мезун в окултната музика регулират, те са равнодействащи сили, те са мярка; ту-мето има едно от най-красивите съдържания.
+        }
+      }
+
+
 
     }
   }
@@ -394,45 +406,37 @@
   \markup \fontsize #+2 \override #'(line-width . 66.5) {
     \override #'(baseline-skip . 2.2)
     \column {
+
       \line {
         \justify {
-          \concat {"47" . \bold " Изгрява слънцето"}  Дадена на 22 октомври 1922 г., Общ окултен клас, II година, 4-а лекция. Учителя казва: „Тук със съвършена простота в тонове и думи е създадена величествената картина на изгряващото Слънце. В окултната музика никога не се допускат думи и тонове с две значения. Песента Изгрява Слънцето е образец в това отношение.”
+
+          \concat {"50" . \bold  " Благост."}  Първите пет такта са дадени на 19 декември 1923 г., Общ окултен клас, III година, 10-а лекция, а цялата песен – на 26 декември 1923 г. Учителя казва: „Силата на тази песен е в нейния ритъм. Тя има за цел да възстанови правилния ритъм на човешкото сърце.”
+
+        }
+      }
+
+      \vspace #0.4
+      \line {
+        \justify {
+          \concat {"51" . \bold  " Сладко медено."}  Дадена на 29 октомври 1922 г., Общ окултен клас, II година, 5-а лекция. Това е положително упражнение, всеки образ тук е активен.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          \concat {"48" . \bold  " Сила жива, изворна"}  Дадена на 12 октомври 1922 г., Общ окултен клас, II година, 2-а лекция. Учителя казва: „Тоновете на тази песен показват движение, извиране нагоре и разширяване. Потиснатото в човека се освобождава, дава му се ход и правилно движение. За да може човек да изпее това упражнение, той трябва да влезе в хармонични отношения с Божествената природа. Думите зун-мезун в окултната музика регулират, те са равнодействащи сили, те са мярка; ту-мето има едно от най-красивите съдържания.
+          \concat {"52" . \bold  " Блага дума."} Дадена на 5 ноември 1922 г., Общ окултен клас, II година, 6-а лекция.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          \concat {"50" . \bold  " Благост"}  Die ersten fünf Takte des Liedes entstanden am 19. Dezember 1923, in der Allgemeinen Okkultklasse, III. Jahrgang, im 10. Vortrag. Das Lied wurde am 26. Dezember 1923 vollendet. Petar Danov sagt: „Die Kraft dieses Liedes liegt in seinem Rhythmus. Es hat zum Ziel, den richtigen Rhythmus des menschlichen Herzens wiederherzustellen.“
-        }
-      }
-          \vspace #0.4
-      \line {
-        \justify {
-          \concat {"49" . \bold  " Сладко медено"}  Дадена на 29 октомври 1922 г., Общ окултен клас, II година, 5-а лекция. Това е положително упражнение, всеки образ тук е активен.
+          \concat {"53" . \bold   " Аум."}  Дадена на 2 декември 1925 г. Това упражнение човек трябва да съхрани свещено у себе си. То е взето от стара свещена песен. Учителя казва: „Ако бих ви дал тази песен тъй, както е в минорна гама, вие не ще можете да издържите на нейните вибрации – те ще изменят пулса на сърцето ви.“ Учителя е предал песента в мажор. Учителя казва: „Има свещени думи, каквато е и думата Аум, които трябва да се произнасят често, даже и да не се разбира смисълът им. Скръбни ли сте, болни ли сте, неразположени ли сте духом, произнесете Аум няколко пъти – тя е дума на Духа. Изпеете ли тази дума от неговия език, Той ще ви разбере и помогне, защото разбира и знае нуждите ви.”
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          \concat {"51" . \bold  " Блага дума"} Дадена на 5 ноември 1922 г., Общ окултен клас, II година, 6-а лекция.
-        }
-      }
-      \vspace #0.4
-      \line {
-        \justify {
-          \concat {"52" . \bold   " Аум"}  Дадена на 2 декември 1925 г. Това упражнение човек трябва да съхрани свещено у себе си. То е взето от стара свещена песен. Учителя казва: „Ако бих ви дал тази песен тъй, както е в минорна гама, вие не ще можете да издържите на нейните вибрации – те ще изменят пулса на сърцето ви.“ Учителя е предал песента в мажор. Учителя казва: „Има свещени думи, каквато е и думата Аум, които трябва да се произнасят често, даже и да не се разбира смисълът им. Скръбни ли сте, болни ли сте, неразположени ли сте духом, произнесете Аум няколко пъти – тя е дума на Духа. Изпеете ли тази дума от неговия език, Той ще ви разбере и помогне, защото разбира и знае нуждите ви.”
-        }
-      }
-      \vspace #0.4
-      \line {
-        \justify {
-          \concat {"53" . \bold  " Венир Бенир"}  Дадена на 5 ноември 1922 г., Общ окултен клас, IІ година, 6-а лекция. Венир Бенир е окултен източен мотив, възприет от западните народи. Мистичното значение на песента е следното:
+          \concat {"54" . \bold  " Венир Бенир."}  Дадена на 5 ноември 1922 г., Общ окултен клас, IІ година, 6-а лекция. Венир Бенир е окултен източен мотив, възприет от западните народи. Мистичното значение на песента е следното:
 
         }
       }
@@ -442,34 +446,132 @@
           \italic"Венир бенир"  – Ти, Велики, който благославяш всички и всичко.
         }
       }
-
+      \vspace #0.1
       \line {
         \justify {
           \italic"Бихар Бенум"  – Да бъде благословен.
 
         }
       }
-
+      \vspace #0.1
       \line {
         \justify {
-          \italic"Il Bejut"  – Gott, segne das Große, die Jugend, den Ursprung des
-          Lebens.
+          \italic"Ил Беют" – Боже, благослови Великото, младостта, началото на Живота.
 
         }
       }
-
+      \vspace #0.1
       \line {
         \justify {
 
-          \italic"Il Bezut " – Herr, segne den jungen Menschen, den Beginnenden, das göttliche Leben, segne das Göttliche, das in der Seele empfangen wird, den Atem Gottes, den wir usprünglich empfangen haben.
+          \italic"Ил Безут" – Благослови младия, начеващия, Божествения живот, благослови Божественото, което зачева в душата – диханието на Бога, което сме приели първоначално.
+        }
+      }
+      \vspace #0.2
+
+      \line {
+        \justify {
+          \italic"Он Беют" – Той е сам, Единственият, който благославя.
+
+        }
+      }
+      \vspace #0.1
+      \line {
+        \justify {
+          \italic"Ил Безут, Он Беют" – Той е всичко, Той е навред.
+        }
+      }
+      \vspace #0.1
+      \line {
+        \justify {
+          \italic"Зун Мезун" – Целият наш Живот.
+        }
+      }
+
+      \vspace #0.1
+
+      \line {
+        \justify {
+          \italic"Бином Ту Мето" – Сега така да бъде! Това е отношението на великото към малкото – душата. И малкото се изпълва с мисъл за великото, за Бога; душата си спомня времето, когато е приела първия дъх от Божието дихание. (По Учителя, Общ окултен клас, 8 май 1940 г.).
+
         }
       }
       \vspace #0.4
 
       \line {
         \justify {
-          \italic"On Bejut" – Er ist es selbst, der Einzige, der segnet.
+          \concat {"54" . \bold  " Сила жива."} Дадена на 19 ноември 1922 г., Общ окултен клас, II година, 8-а лекция.
+        }
+      }
+      \vspace #0.4
 
+      \line {
+        \justify {
+          \concat {"55" . \bold  " Скръбта си ти кажи."}   Дадена на 19 ноември 1922 г., Общ окултен клас, 11 година, 8-а лекция. Сила жива и Скръбта си ти кажи са две части на едно окултно упражнение. Учителя дава следното тълкуване за него: „Сила жива, кажи ми, кажи ми де вода извира“ – тук ние търсим къде е изворът. Това е български народен мотив; той е взет от течението на висок планински извор, който постепенно скача надолу по камъните – имате една много приятна картина. В българската народна песен тези игриви хороводни песни са произлезли все от изворни места. „Скръбта си ти кажи, сърце си ти отвори на
+        }
+      }
+
+    }
+  }
+
+  \markup \fontsize  #+2  {
+    \override #'(baseline-skip . 2.2)
+    \column {
+      \line {
+        \justify {слънчеви лъчи“ – в този откъс имаме една негативна дума скръбта. Винаги щом някой скърби, в ума и в сърцето му има тъмнина, няма Светлина. Дойде ли Светлината, скръбта изчезва. Слънцето е, което лекува.“}
+      }
+
+
+      \vspace #0.4
+      \line {
+        \justify {
+          \concat {"56" . \bold  " Грее, грее."}  Дадена през пролетта на 1924 г.
+        }
+      }
+
+      \vspace #0.2
+      \line {
+        \justify {
+          \concat {"57" . \bold  " Духът Божий."}  Дадена на 13 ноември 1922 г., Общ окултен клас, II година, 7-а лекция. Тази песен Учителя нарича окултен преход – тя ни въвежда в окултната музика.
+        }
+      }
+      \vspace #0.4
+      \line {
+        \justify {
+          \concat {"58" . \bold  " Махар Бену Аба."} Дадена на 3 декември 1922 г., Общ окултен клас, II година, 10-а лекция. Това упражнение Учителя е нарекъл Молитва на ученика. Трябва да се пее концентрирано,
+          изразително и с мекота. Махар значи Великият, Бену – Онзи, който благославя, Аба – Баща на всичко. Идеята за Махар Бену Аба Учителя е дал образно така: „Махар е естествено движение надолу. Бену е възлизане нагоре. Аба значи, че си се изкачи вече на мястото, към което се стремиш. Там е равно, има простор и можеш да се движиш. Това означава, че има три положения: слизане, изкачване и естествено движение, където препятствията могат да се премахнат. Препятствията произлизат от слизането и изкачването. При Аба ходът става естествен. То означава, че отиваш на работа. Махар е най-приятното място, където можеш да слезеш. Бену е най-приятното високо място, където можеш да се изкачиш. Аба е най-приятното равно място, където можеш да работиш и живееш.“ (12 декември 1941 г., Младежки окултен клас, XXI година, 12-а лекция).
+        }
+      }
+
+      \vspace #0.4
+
+      \line {
+        \justify {
+          \concat {"59" . \bold " В мрак тъмнота."} Дадена на 3 март 1926 г., Общ окултен клас, V година, 16-а лекция. Тази песен е втората част от упражнението Махар Бену Аба и е негов превод. Образно в мрак, тъмнота съответства на Махар – слизане, но Слънцето на Живота съответства на Бену – изкачване, и ний тръгнахме в пътя чист и свят за нас съответствува на Аба, значи отиване на работа.
+        }
+      }
+      \vspace #0.4
+      \line {
+        \justify {
+          \concat {"60" . \bold  " В зорите на Живота."}  Дадена на 3 декември 1922 г., Общ окултен клас, ІI година, 10-а лекция.
+        }
+      }
+      \vspace #0.4
+      \line {
+        \justify {
+          \concat {"61" . \bold  " Бог е Любов."} Първата част на песента е дадена на 10 декември 1922 г., Общ окултен клас, ІІ година, 11-а лекция, а втората, Ний ще ходим – на 17 декември 1922 г., в следващата лекция на същия клас. Това упражнение е картинно, образно. Започва се съвсем тихо. Силата на песента е в преживяването. Човешката душа възприема отгоре вечната симфония, която иде от цялата вселена като славословие на Безграничния. Това е изразено в първата част – Бог е Любов. Тази симфония изпълва човешката душа, преобразява я и тогава тя радостна отправя своя зов нагоре; това е изразено във втората част – Ний ще ходим.
+        }
+      }
+      \vspace #0.4
+      \line {
+        \justify {
+          \concat {"62" . \bold  " Вехади."} Дадена на 17 юни 1925 г., Общ окултен клас, IV година, 28-а лекция. Думата Вехади означава започване на определена работа. Мотивът е малък пасаж от една свещена песен.
+        }
+      }
+      \vspace #0.4
+      \line {
+        \justify {
+          \concat {"63" . \bold  " Вечер сутрин."}  Дадена на 10 декември 1924 г., Общ окултен клас, IV година, 9-а лекция.
         }
       }
 
@@ -480,142 +582,41 @@
     \override #'(baseline-skip . 2.2)
     \column {
 
-      \vspace #0.2
-
-      \line {
-        \justify {
-          \italic"Il Bezut, On Bejut" – Er ist alles, Er ist überall. So soll es jetzt sein! Das ist das Verhältnis zwischen dem Großen und dem Kleinen – die Seele. Und das Kleine wird von einem Gedanken über das Große, über Gott erfüllt. Die Seele erinnert sich an die Zeit, als sie den ersten Hauch vom göttlichen Hauch empfangen hat. (Nach Danov: Allgemeine Okkultklasse, 8. Mai. 1940).
-
-        }
-      }
       \vspace #0.4
-
       \line {
         \justify {
-          \concat {"54" . \bold  " Сила жива."} 19. November 1922, Allgemeine Okkultklasse, 2. Jahrgang, 8. Vortrag.
-        }
-      }
-      \vspace #0.4
-
-      \line {
-        \justify {
-          \concat {"55" . \bold  " Скръбта си ти кажи."}   19. November 1922, Allgemeine Okkultklasse, II. Jahrgang, 8. Vortrag. \italic"Sila živa" und \italic"Skrăbta si ti kaži" sind zwei Teile einer einzigen okkulten Übung. Peter Danov gab dazu folgende Erklärung: „ ‚Sila živa, Sila živa, kaži mi, kaži mi de voda izvira‘ – Hier suchen wir nach der Quelle. Es handelt sich um ein traditionelles bulgarisches Motiv. Es wurde dem Lauf des Wassers einer Quelle aus dem Hochgebirge entliehen, welches über die Steine springend nach und nach hinunterfließt. So habt ihr hier ein sehr angenehmes Bild vor Augen. Im bulgarischen Volkslied sind all diese Reigentanzlieder aus den Orten hervorgegagen, an denen Quellen entspringen. ‚Skrăbta si ti kaži, sărce si ti otvori na slănčevi lăči, [...]‘ – In diesem Ausschnitt haben wir ein negatives Wort, den Gram [skrăb]. Sobald jemand Leid empfindet, ist Dunkelheit in seinem Verstand und seinem Herzen; es gibt kein Licht mehr. Sobald das Licht erscheint, verschwindet das Leid. Die Sonne ist es, die heilt.“
+          \concat {"64" . \bold  " Имаше человек."} Дадена на 30 ноември 1927 г., Общ окултен клас, VII година, 6-а лекция. Текстът е от Йоан 1:6-13.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          \concat {"56" . \bold  " Грее, грее."}  Entstanden im Frühjahr 1924.
-        }
-      }
-
-      \vspace #0.2
-      \line {
-        \justify {
-          \concat {"57" . \bold  " Духът Божий."}  13. November 1922, Allgemeine Okkultklasse, II. Jahrgang, 7. Vortrag. Dieses Lied nennt Petar Danov \italic"okkulten Übergang;" es führt uns in die okkulte Musik ein. Zum \italic"Wer/Er" sagt Danov Folgendes: \italic"„Wer" hat eine doppelte Bedeutung. Es ist Frage und Antwort zugleich. Der Geist Gottes, der erfüllt – die Antwort. Und wer füllt unsere Herzen mit Liebe? – Der Geist Gottes, der ewige Geist usw. Das sind Attribute.“
+          \concat {"65" . \bold  " Кажи ми ти истината."} Дадена на 26 ноември 1924 г., Общ окултен клас, IV година, 7-а лекция.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          \concat {"58" . \bold  " Махар Бену Аба – Mahar Benu Aba."} 3. Dezember 1922, Allgemeine Okkultklasse, II. Jahrgang, 10. Vortrag. Peter Danov hat diese Übung \italic"Das Gebet des Schülers" genannt. Es sollte mit Konzentration, Ausdruck und Sanftheit gesungen werden.
-
-          \italic"Mahar" bedeutet der Große, \italic" Benu" der, der segnet und \italic"Aba" – der Vater aller Dinge. Derart hat Petar Danov die Idee von \italic"Mahar Benu Aba" in Bildern entwickelt:
-
-          \italic"Mahar" ist eine natürliche, nach unten gerichtete Bewegung.
-
-          \italic"Benu" ist der Aufstieg nach oben.
-
-          \italic"Aba" bedeutet, den Ort bestiegen zu haben, den du erstrebst. Dort ist es eben; es gibt genügend Raum und du kannst dich bewegen. Das bedeutet, dass es drei Konzepte gibt: den Abstieg, den Aufstieg und eine natürliche Bewegung, bei der die Hindernisse beseitigt werden. Die Hindernisse ergeben sich aus dem Auf- und Abstieg.
-
-          Bei \italic"Aba" wird das Marschieren zu etwas Natürlichem. Dies bedeutet, dass du dich an die Arbeit machst.
-
-          \italic"Mahar" ist der schönste Ort, zu dem du hinabsteigen kannst;
-
-          \italic"Benu" ist der schönste Ort, zu dem du aufsteigen kannst;
-          \italic"Aba" ist der schönste ebene Ort, wo du arbeiten und leben kannst. (Kommentar vom 12. Dezember 1941, Allgemeine Okkultklasse, XXI. Jahrgang, 12. Vortrag).
-        }
-      }
-
-      \vspace #0.4
-
-      \line {
-        \justify {
-          \concat {"59" . \bold " В мрак тъмнота."} 3. März 1926, Allgemeine Okkultklasse, V. Jahrgang, 16. Vortrag. Dieses Lied ist der zweite Teil von „Mahar Benu Aba“ und seine
-        }
-      }
-
-    }
-  }
-
-  \markup \fontsize  #+2  {
-    \override #'(baseline-skip . 2.2)
-    \column {
-
-      \line {
-        \justify {
-          Übersetzung zugleich. Bildlich gesprochen, entspricht \italic"v’mrak = Mahar," dem Abstieg. „No slănceto na života“ entpricht „Benou“, dem Aufstieg. „I nij trăgvame v pătja čist i svjat za nas“ entspricht „Aba“, was bedeutet: an die Arbeit gehen.
+          \concat {"66" . \bold " Благата песен."} Дадена на 27 март 1929 г., Общ окултен клас, VIII година, 32-а лекция. Тази песен е превод от старинен език и е озаглавена Хади – х’ензи; в превод на български тези думи означават Благата песен. В нея е очертан един гладък път без препятствия.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          \concat {"60" . \bold  " В зорите на Живота."}  3. Dezember 1922. Allgemeine Okkultklasse, II. Jahrgang, 10. Vortrag.
+          \concat {"67" . \bold  " Мусала."} Дадена на 3 декември 1922 г., Общ окултен клас, II година, 10 -а лекция.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          \concat {"61" . \bold  " Бог е Любов."}  Der erste Teil dieses Liedes entstand am 10. Dezember 1922, Allgemeine Okkultklasse, II. Jahrgang, 11. Vortrag; der zweite Teil \italic"Nij ste hodim" am 17. Dezember 1922, d. h. im Laufe des nachfolgenden Vortrages der gleichen Klasse. Diese Übung enthält Bilder und Gestalten. Man beginnt leise zu singen. Die Kraft dieses Liedes liegt im Erleben verborgen. Die menschliche Seele empfängt aus den höheren Regionen die ewige Symphonie, welche aus dem ganzen Kosmos als Lobpreisung des Unendlichen [Gott] kommt. Dieser Gedanke wird im ersten Teil des Liedes \italic"Gott ist Liebe" ausgedrückt. Diese Symphonie erfüllt und verklärt die menschliche Seele, die nun freudig ihren Ruf nach oben sendet. Dies wird im zweiten Teil des Liedes ausgedrückt: „Wir werden auf dem Weg des Lichtes wandeln.“
-        }
-      }
-      \vspace #0.4
-      \line {
-        \justify {
-          \concat {"62" . \bold  " Вехади."} 17. Juni 1925, Allgemeine Okkultklasse, IV. Jahrgang, 28. Vortrag. Das Wort \italic"Vehadi" bezeichnet den Beginn einer bestimmten Arbeit. Das Motiv stellt ein kleines Fragment eines heiligen Gesanges dar.
-        }
-      }
-      \vspace #0.4
-      \line {
-        \justify {
-          \concat {"63" . \bold  " Вечер сутрин."} 10. Dezember 1924, Allgemeine Okkultklasse, IV. Jahrgang, 9. Vortrag.
-        }
-      }
-      \vspace #0.4
-      \line {
-        \justify {
-          \concat {"64" . \bold  " Имаше человек."} 30. November 1927, Allgemeine Okkultklasse, VII Jahrgang. Text Johannes 1,6-13.
-        }
-      }
-      \vspace #0.4
-      \line {
-        \justify {
-          \concat {"65" . \bold  " Кажи ми ти истината."} 26. November 1924, Allgemeine Okkultklasse, IV Jahrgang, 7. Vortrag.
-        }
-      }
-      \vspace #0.4
-      \line {
-        \justify {
-          \concat {"66" . \bold " Благата песен."} 27. März 1929, Allgemeine Okkultklasse, VIII Jahrgang, 32. Vortrag. Dieses Lied wurde aus einer sehr alten Sprache übersetzt. Das Lied wurde \italic"Hadi henzi" betitelt; Übersetzt bedeuten diese Worte: das gütige Lied. In ihm wurde ein ebener Weg ohne Hinderdnisse gezeichnet.
-        }
-      }
-      \vspace #0.4
-      \line {
-        \justify {
-          \concat {"67" . \bold  " Мусала."} 3. Dezember 1922, Allgemeine Okkultklasse, II. Jahrgang, 10. Vortrag.
-        }
-      }
-      \vspace #0.4
-      \line {
-        \justify {
-          \concat {"68" . \bold  " Ходи, ходи."} 23. April 1924, Allgemeine Okkultklasse, III. Jahrgang, 27. Vortrag. Der Text der zweiten Strophe stammt von Stojanka Ilieva.
+          \concat {"68" . \bold  " Ходи, ходи."} Дадена на 23 април 1924 г., Общ окултен клас, III година, 27-а лекция. Текстът на втори куплет е от Стоянка Илиева.
         }
       }
 
       \vspace #0.4
       \line {
         \justify {
-          \concat {"69" . \bold  " Тъги, скърби."}  16. April 1924, Allgemeine Okkultklasse, III. Jahrgang, 26. Vortrag. Wenn ihr diese Übung singt, werdet ihr eine Erfrischung spüren.
+          \concat {"69" . \bold  " Тъги, скърби."}  Дадена на 16 април 1924 г., Общ окултен клас, ІІІ година, 26-а лекция. Когато изпеете това упражнение, ще почувствате ободряване.
         }
       }
 
@@ -629,7 +630,81 @@
       \vspace #0.4
       \line {
         \justify {
-          \concat {"71" . \bold " Нева Сензу."} 1. Mai 1929, Allgemeine Okkultklasse, VIII. Jahrgang, 37. Vortrag. Dieses Lied ist im östlichen Stil geschrieben und die Wörter sind einer alten Sprache entliehen. Wenn man sie übersetzen würde, würden sie ihre Kraft verlieren. Die Silben sind derart angeordnet, dass sie als Mittler von Kräften dienen. Das Lied \italic"Neva Senzu" zeigt den geistigen Weg auf, der nicht glatt verläuft, sondern Hindernisse aufweist. Hier muss der Mensch von den Höhen in das Tal hinabsteigen, um bestimmte
+          \concat {"71" . \bold " Нева Сензу."} Дадена на 1 май 1929 г., Общ окултен клас, VIII година, 37-а лекция. Песента е написана в източен стил, думите u са взети от прастар свещен език. Сричките са подредени така, че служат за проводник на сили; ако те се преведат, ще изгубят силата си. Песента показва духовен път, който не е гладък, има препятствия. Тук човек трябва да слезе от височина в долина, за да разреши някой труден въпрос в Живота. Тя е от песните на адептите, чиято музика е създадена много време преди сегашната.
+        }
+      }
+      \vspace #0.4
+      \line {
+        \justify {
+          \concat {"72" . \bold  " Киамет Зену."} Дадена на 8 декември 1926 г., Общ окултен клас, VI година, 12-а лекция. Киамет Зену означава, че влизаш в едно красиво място – толкова красиво, че се чудиш върху какво по-напред да спреш погледа си. Думата киамет означава великото в Живота, онова, което се крие във времето и пространството – то е началото на нещата, онова, което дава подтик към творчество; означава също и силата, с чиято помощ трябва да се воюва, за да се победи ограничението и да почне възраждането. Махар Бену е Великият, който урежда и съгражда нещата – Той е неизменен и постоянен.
+        }
+      }
+
+      \vspace #0.4
+      \line {
+        \justify {
+          \concat {"75" . \bold  " Мисли, право мисли."}  Дадена на 6 юни 1926 г., Младежки окултен клас, V година, 30-а лекция. Силата на човека е в свещените мисли, които той храни у себе си за Живота. Докато човек пази свещени мисли у себе си, и те ще го пазят; престане ли да ги пази, падането му е неизбежно. Тази песен се пее с движение на ръцете.
+        }
+      }
+
+
+      \vspace #0.4
+      \line {
+        \justify {
+          \concat {"73" . \bold  " Давай, Давай."}  Дадена на 28 декември 1926 г., Общ окултен клас, VI година, 15-а лекция. Тази песен е силен мотив, който събужда в съзнанието ред образи и картини. Тя поражда у човека подтик да дава, да сее в нивата на Живота. Когато пееш Давай, давай, казваш: „Аз трябва да давам“. Който дава чисто пшеничено семе, същото ще се върне при него. Давай, давай почва от тона ла, който символизира извора – значи ти си извор, трябва да течеш. Ти си се свил – стани, свърши каквато и да е работа. Понятието Давай, давай има много широк смисъл.
+
+        }
+      }
+
+    }
+  }
+
+  \markup \fontsize  #+2  {
+    \override #'(baseline-skip . 2.2)
+    \column {
+
+
+
+      \vspace #0.4
+      \line {
+        \justify {
+          \concat {"74" . \bold  " В начало бе Словото."} Дадена на 5 ноември 1924 г., Общ окултен клас, IV година, 4-а лекция. Текстът на тази песен е взет от Евангелие от Йоана 1:1-5. Първите два стиха изразяват действие на Духа, третият стих – действие на ума, четвъртият стих – действие на сърцето, а петият стих изразява материалния свят. Тъмнината представлява материалния живот, в него прониква Светлината. Из Божественото начало на нещата е излязло Словото във величествената си красота. В начало бе Словото и Словото бе у Бога – този стих е много важен; когато стане човек сутрин, ще го прочете, ще го изпее и ще мисли върху него, докато в ума му дойде Светлина и той възприеме тази велика идея. Тогава неговото сърце ще се преобрази – ще стане по-меко, умът му ще се преобрази – ще започне да мисли по-право. Тази песен изразява новата насока, която иде в музиката – тя е музика на Любовта.
+        }
+      }
+
+
+
+      \vspace #0.4
+      \line {
+        \justify {
+          \concat {"76" . \bold " Вдъхновение."}  Дадена на 10 декември 1924 г., Общ окултен клас, IV година, 9-а лекция.
+        }
+      }
+
+      \vspace #0.4
+      \line {
+        \justify {
+          \concat {"81" . \bold " Добър ден."}  Дадена на 11 септември 1933 г.
+        }
+      }
+
+
+      \vspace #0.4
+      \line {
+        \justify {
+          \concat {"77" . \bold  " Весел ти бъди."}  Дадена на 21 август 1929 г., Рила, Седемте рилски езера.
+        }
+      }
+      \vspace #0.4
+      \line {
+        \justify {
+          \concat {"78" . \bold  " Запали се огънят."}  Дадена на 8 август 1933 г., Витоша, Бивака Ел Шадай.
+        }
+      }
+      \vspace #0.4
+      \line {
+        \justify {
+          \concat {"79" . \bold  " Бершид ба."}  Дадена през декември 1932 г. Заглавието е първите думи на Стария завет, книга Битие, и на староеврейски означава началото на нещата.
         }
       }
 
@@ -642,142 +717,72 @@
 
       \line {
         \justify {
-          schwierige Fragen des Lebens zu lösen. Es handelt sich um das Lied der Adepten, dessen Musik sehr lange vor unserer Zeit erschaffen wurde.
-        }
-      }
-      \vspace #0.4
-      \line {
-        \justify {
-          \concat {"72" . \bold  " Киамет Зену."}  8. Dezember 1926, Allgemeine Okkultklasse, VI. Jahrgang, 12. Vortrag. \italic"Kiamet Zenou" bedeutet, dass du einen Ort betrittst, der so schön, so außergewöhnlich ist, dass du staunst und nicht weißt, worauf du zuerst deinen Blick richten sollst. Das Wort \italic"Kiamet" bedeutet: das Große im Leben, dasjenige, was im Raum und in der Zeit verborgen liegt. Es ist der Beginn aller Dinge, dasjenige, das der schöpferischen Kraft Schwung gibt. Dieses Wort bedeutet auch die Kraft, mit deren Hilfe du kämpfst, um die Einschränkungen zu Beginn der Erneuerung zu besiegen. \italic"Mahar Benu" ist der Große, der die Dinge ordnet und aufbaut. Er ist unveränderlich und beständig.
+          \concat {"80" . \bold  " Малкият извор."}  Дадена на 21 януари 1925 г., Общ окултен клас, IV година, 16-а лекция. Песента събужда детската чистота у човека. Христос казва: „Ако не станете като малките деца, няма да влезете в царството Божие.“
         }
       }
 
       \vspace #0.4
       \line {
         \justify {
-          \concat {"73" . \bold  " Давай, Давай."}  28. Dezember 1926, Allgemeine Okkultklasse, 6. Jahrgang, 4. Vortrag. Dieses Lied ist ein kraftvolles Motiv, welches Bilder und Gemälde im Bewusstsein des Menschen erweckt. Das Lied gibt dem Menschen den Impuls zu geben, auf dem Acker des Lebens zu säen. Mit dem Singen von \italic"Davaj, davaj" sagst du: „Ich muss geben“. Wer reine Weizenkörner gibt, zu dem kommt dasselbe zurück. \italic"Davaj Davaj" beginnt mit dem Ton A, der die Quelle symbolisiert; also du bist eine Quelle, die fließen soll. Du hast dich gedrückt: Stehe auf und verrichte deine Arbeit. Der Begriff \italic"Davaj, davaj" hat eine umfassende Bedeutung.
+          \concat {"82" . \bold  " Всичко в живота е постижимо."}  Дадена през 1933 г.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          \concat {"74" . \bold  " В начало бе Словото."} 5. November 1924, Allgemeine Okkultklasse. IV Jahrgang. Der Text des Liedes stammt aus dem Johannesevangelium 1:1-5. Die ersten beiden Verse stehen für die Aktivität des Geistes, der dritte für die Aktion der Intelligenz, der vierte für die Aktion des Herzens und der fünfte für die materielle Welt. Die Finsternis stellt die materielle Welt dar, die das Licht durchdringt. Aus diesem göttlichen Ursprung aller Dinge ist das Wort in grandioser Schönheit erschienen. \italic"V'načalo be Slovoto, i Slovoto be u Boga" –  dieser Vers ist enorm wichtig. Der Mensch sollte ihn morgens, direkt nach dem Aufstehen, lesen, singen und darüber meditieren, bis das Licht seinen Intellekt erleuchtet und er diese großartige Idee akzeptiert. Dann wird sich sein Herz verwandeln und milder werden, seine Intelligenz wird sich verändern, und er wird beginnen, richtiger zu denken. Dieses Lied repräsentiert die neue Richtung, die in die Musik kommt; das ist die Musik der Liebe!
+          \concat {"83" . \bold  " Тъги, скърби са богатство."} Дадена на 7 декември 1927 г., Общ окултен клас, VII година, 7-а лекция. Щом имате някаква скръб, изпейте тази песен. Важно е човек да знае как да я изпълни. При нейното пеене е хубаво да се взема предвид законът на контрастите. Веднъж може да се изпълни тихо, а втория път – по-силно. Ако се пее няколко пъти по един и същ начин, тя ще загуби своята сила и значение. С песните в български стил Учителя внася обновление в българската народна музика.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          \concat {"75" . \bold  " Мисли, право мисли."}  6. Juni 1926, Allgemeine Okkultklasse, V. Jahrgang, 30. Vortrag. Die Kraft des Menschen beruht auf heiligen Ideen, die er in sich selbst für das Leben hegt. Solange er diese heiligen Gedanken bewahrt, schützen sie ihn ebenfalls. Bewahrt er sie jedoch nicht mehr, so ist sein Fall unvermeidlich. Dieses Lied wird von Bewegungen der Arme begleitet.
-        }
-      }
-
-
-
-      \vspace #0.4
-      \line {
-        \justify {
-          \concat {"76" . \bold " Вдъхновение."}  10. Dezember 1924. Allgemeine Okkultklasse IV Jahr, 9. Vortrag.
-        }
-      }
-
-      \vspace #0.4
-      \line {
-        \justify {
-          \concat {"77" . \bold  " Весел ти бъди."} 21. August 1929, Rila, die Sieben Rila-Seen.
+          \concat {"84" . \bold  " Духът ми шепне това."} Дадена на 19 януари 1934 г., Младежки окултен клас, XII година, 14-а лекция
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          \concat {"78" . \bold  " Запали се огънят."} 8. August 1933, Vitoscha, El Shaddai.
+          \concat {"85" . \bold  " Сила, Живот, здраве."} Дадена на 7 януари 1932 г.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          \concat {"79" . \bold  " Бершид ба."}  Das Lied entstand 1932, Der Titel stammt aus dem 1. Buch Mose und bedeutet den Anfang der Dinge.
-        }
-      }
-
-    }
-  }
-
-  \markup \fontsize  #+2  {
-    \override #'(baseline-skip . 2.2)
-    \column {
-
-      \line {
-        \justify {
-          \concat {"80" . \bold  " Малкият извор."}  21. Januar 1925, Allgemeine Okkultklasse, IV Jahrgang, 16. Vortrag. Das Lied erweckt die kindliche Reinheit beim Menschen. Christus sagt: „Wenn ihr nicht werdet wie die Kinder, so werdet ihr nicht in das Reich Gottes eintreten.“
-        }
-      }
-      \vspace #0.4
-      \line {
-        \justify {
-          \concat {"81" . \bold " Добър ден."}  11. September 1933, Vitoscha, El Schadai.
+          \concat {"86" . \bold  " Красив е животът."}  Дадена на 19 ноември 1941 г.
         }
       }
 
       \vspace #0.4
       \line {
         \justify {
-          \concat {"82" . \bold  " Всичко в живота е постижимо."}  Das Lied entstand 1933.
-        }
-      }
-      \vspace #0.4
-      \line {
-        \justify {
-          \concat {"83" . \bold  " Тъги, скърби са богатство."}  7. Dezember 1927. Seid ihr traurig, so singt dieses Lied. Es ist wichtig, dass der Mensch weiß, wie er dieses Lied singen soll. Beim Singen dieses Liedes sollte man das Gesetz der Kontraste berücksichtigen. Einmal kann man das Lied leise, einmal laut singen. Wenn man es mehrmals auf dieselbe Art und Weise singt, wird es seine Bedeutung verlieren. Mit den Liedern, die im Volksmusikstil komponiert wurden, brachte Petar Danov Erneuerung in der bulgarischen Volksmusik.
-        }
-      }
-      \vspace #0.4
-      \line {
-        \justify {
-          \concat {"84" . \bold  " Духът ми шепне това."} 19. Januar 1934 Jugendokkultklasse, XII Jahrgang, 14. Vortrag.
-        }
-      }
-      \vspace #0.4
-      \line {
-        \justify {
-          \concat {"85" . \bold  " Сила, Живот, здраве."} Das Lied entstand am 7. Januar 1932.
-        }
-      }
-      \vspace #0.4
-      \line {
-        \justify {
-          \concat {"86" . \bold  " Красив е животът."}  Das Lied entstand am 19. November 1941.
+          \concat {"89" . \bold  " Химн на великата Душа."}  Дадена през лятото на 1933 г. Песента загатва за онова вътрешно Слънце, което работи във всички същества и ги повдига от тъмнина към Светлина, от смъртта към Живота, от робство към Свобода. Завършва с радостен химн за Великото Едно, което стои в основата на всичко.
         }
       }
 
       \vspace #0.4
       \line {
         \justify {
-          \concat {"87" . \bold  " Песен на зората."}  Das Lied entstand 1930.
+          \concat {"87" . \bold  " Песен на зората."}  Дадена през 1930 г.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          \concat {"88" . \bold  " При всичките условия."} Das Lied entstand am 4. November 1934.
+          \concat {"88" . \bold  " При всичките условия."} Дадена на 4 ноември 1934 г
         }
       }
+
       \vspace #0.4
       \line {
         \justify {
-          \concat {"89" . \bold  " Химн на великата Душа."}  Das Lied entstand im Sommer 1933. Dieses Lied lässt jene innere Sonne erahnen, die in allen Wesen arbeitet und sie von der Finsternis ins Licht, vom Tod ins Leben, von der Sklaverei in die Freiheit erhebt. Es endet mit einer Freudenhymne für den großen Einen, der allem zugrunde liegt.
-        }
-      }
-      \vspace #0.4
-      \line {
-        \justify {
-          \concat {"90" . \bold  " Мога да кажа."} 20. März 1937. Hier ist nicht von der physischen, sondern von der göttlichen Sonne, die aufgeht, die Rede. Geht die göttliche Sonne auf, wird der Verstand und das Herz erfrischt.
+          \concat {"90" . \bold  " Мога да кажа."} Дадена на 20 март 1937 г. Тук се разбира не физическото Слънце, а Божественото слънце, което изгрява. Щом Божественото слънце изгрее, освежава ума и сърцето.
         }
       }
       \vspace #0.4
 
       \line {
         \justify {
-          \concat {"91" . \bold  " Аз смея да кажа."} 1. September 1935. „Ich wage zu sagen,dass die Sonne licht ist“;  sie ist dort licht, wo Vernünftigkeit vorhanden ist. Unter dem Wort \italic"Licht" verstehen wir die vernünftige Welt, in der alles möglich ist. Alle vernunftbegabten Wesen sind bereit, dir zu helfen, wenn du dich ihnen vorstellst.
+          \concat {"91" . \bold  " Аз смея да кажа."} Дадена на 1 септември 1935 г. Аз смея да кажа, че Слънцето е светло – светло е там, дето има Разумност. Под думата Светлина се разбира един разумен свят, където всичко е възможно. Всички Разумни същества, щом се представиш пред тях, са готови да ти помогнат.
         }
       }
       \vspace #0.4

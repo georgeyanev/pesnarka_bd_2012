@@ -4,7 +4,7 @@
 \include "include/globals.ily"
 
 \bookpart {
-    \paper {
+  \paper {
     print-all-headers = ##f
     print-page-number = ##f
     print-first-page-number = ##f
@@ -29,23 +29,25 @@
     bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
 
-  
+
   }
-   
 
-    \markup {   
-      \general-align #Y #DOWN { 
-        \epsfile #X #67 #"./img/danov.eps"
-      }
+
+  \markup {
+    \general-align #Y #DOWN {
+      \epsfile #X #67 #"./img/danov.eps"
     }
+  }
 
-    \markup \fontsize  #+5  { \bold {  \hspace #17  \vspace #1.5 Petar Danov  – Beinsa Duno} }
-    \markup \fontsize  #+2.5 { \bold{  \hspace #27  \vspace #0.8 1864  –  1944 } }
+  \markup { {  \vspace #0.7 } }
 
-    % include foreign translation(s) of the song
-    %\include "lyrics_de/000_empty_template_lyrics_de.ly"
+  \markup \fontsize  #+5 { \fill-line \bold {" Petar Danov – Beinsa Duno "} }
+  \markup \fontsize  #+2.5 { \fill-line \bold {" (1864  –  1944)" } }
 
-  } % bookpart
+  % include foreign translation(s) of the song
+  %\include "lyrics_de/000_empty_template_lyrics_de.ly"
 
-  % Più mosso
-  %
+} % bookpart
+
+% Più mosso
+%
