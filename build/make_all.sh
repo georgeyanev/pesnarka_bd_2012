@@ -191,4 +191,4 @@ cat \
     ../245_index.ly \
     > tmp.ly
 
-lilypond --include=../ -o pesn_all tmp.ly
+lilypond --include=../ -o danov_songbook tmp.ly
