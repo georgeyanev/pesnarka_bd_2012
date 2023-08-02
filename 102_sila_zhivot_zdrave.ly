@@ -14,7 +14,7 @@
       \key d \minor
       \time 6/4
       \tempoFunc "Andante" 4 "60"
-       \override Staff.BarLine.gap = 0.6
+       \override Staff.BarLine.gap = 0.5
 
       \slurUp a4 ( d'8. e'16 f' e' d' cis' d'8 e' ) a2 \break 
 

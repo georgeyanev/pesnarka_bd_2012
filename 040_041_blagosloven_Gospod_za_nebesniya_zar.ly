@@ -16,7 +16,7 @@
       \cadenzaOn % allows custom bar lines
       \key f \major
       \tempoFunc "Andante" 4 "56/58"
-      \override Staff.BarLine.gap = 0.6
+      \override Staff.BarLine.gap = 0.5
       \autoBeamOff
       \autoBeamOff
 
