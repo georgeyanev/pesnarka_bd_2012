@@ -22,7 +22,7 @@
 
       d'8 g' d'8. | d'8 c'' b'8. | a'8 b' g'8. | d'8 c'' b'8. | a'8 b' g'8. \break |
 
-      \repeat volta 2 { g'8 b' b'8. | b'8 d'' d''8. | c''8 d''8 b'8. | a'8 b' g'8. } \break
+      \repeat volta 2 { g'8 b' b'8. | b'8 d'' d''8. | b'8 d''8 b'8. | a'8 b' g'8. } \break
 
       \key g \minor \repeat volta 2 { d'8 d'' d''8. | d'8 c'' c''8. | d'8 bes' bes'8. | a'8 g' g' g'16 | g'4 ~ g'8. } \break |
 

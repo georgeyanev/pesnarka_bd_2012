@@ -116,7 +116,7 @@
       a4 ~ a4 ~ a4. ~ | a4 ~ a4 ~ a4. | \break
       \tempo "a tempo" a4  d8 e  f([ g f]) | e4. ~ e4 ~ e4 |  \noBreak
 
-      c'4 \acciaccatura{ b16[c] } b4 a8 gis [ a] | b8 ( [c8 b]) e,4 ~ e4 | \break
+      c'4 \acciaccatura{ b16[c] } b4 a8 [gis  a] | b8 ( [c8 b]) e,4 ~ e4 | \break
 
 
       e8\tenuto[f\tenuto g\tenuto] g4 a4 | \noBreak
@@ -257,7 +257,7 @@
       цве -- те ра -- но в~гра -- ди -- на, __ а -- ко таз пе -- сен,
       Ли -- ля -- но, не чу -- я, ах, __ от таз во -- да а -- ко не пи -- я, __
       скръб ще ми пъл -- ни сър -- це -- то. __ ""
-      \repeat unfold 98 { \skip 1 }
+      \repeat unfold 97 { \skip 1 }
       Ли -- ля -- но мо -- ме, ти в~пла -- ни -- на -- та
       там го -- ре ще ме за -- ве -- деш, из -- во -- рът де -- то из -- ви -- ра.
       \repeat unfold 30 { \skip 1 }
@@ -268,7 +268,7 @@
       Там го -- ре __ край из -- во -- ра срещ -- нах мо -- ма зас -- мя -- на, __
       там го -- ре "срещ-" -- нах Ли -- ля -- на. __ ""
       \repeat unfold 13 { \skip 1 }
-      Там го -- ре срещ -- нах Ли -- ля -- на. __ ""
+      Там го -- ре "срещ-" -- нах Ли -- ля -- на. __ ""
     }
 
     \addlyrics {
@@ -290,7 +290,7 @@
       cve -- te ra -- no v~gra -- di -- na, __ a -- ko taz pe -- sen,
       Li -- lja -- no, ne ču -- ja, ah, __ ot taz vo -- da a -- ko ne pi -- ja, __
       skrăb šte mi păl -- ni săr -- ce -- to. __ ""
-      \repeat unfold 98 { \skip 1 }
+      \repeat unfold 97 { \skip 1 }
       Li -- lja -- no mo -- me, ti v~pla -- ni -- na -- ta
       tam go -- re šte me za -- ve -- deš, iz -- vo -- răt de -- to iz -- vi -- ra.
       \repeat unfold 30 { \skip 1 }

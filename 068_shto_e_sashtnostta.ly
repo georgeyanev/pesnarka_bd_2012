@@ -79,11 +79,11 @@
       \time 3/4
 
 
-      b8. cis'16 d'8 fis'4. | e'8. fis'16 g'8 fis'4. | fis'8 b'8 d''4. b'8| \break
+      \bar ".|:" b8. cis'16 d'8 fis'4. | e'8. fis'16 g'8 fis'4. | fis'8 b'8 d''4. b'8| \break
 
       \time 4/4 cis''4. ais'8 b'4. r8 | \time 3/4 fis'8. b'16 a'8 g'4. | e'8. fis'16 g'8 fis'4. | \break
 
-      \time 5/4	fis'8 e' d'4 cis' b4. r8| \time 4/4 d'8. d'16 cis'4 b2 | \time 5/4 cis'2 b8 ais8 b2 |  \bar "|." \break
+      \time 5/4	fis'8 e' d'4 cis' b4. r8 \bar ":|." | \time 4/4 d'8. d'16 cis'4 b2 | \time 5/4 cis'2 b8 ais8 b2 |  \bar "|." \break
 
 
     }

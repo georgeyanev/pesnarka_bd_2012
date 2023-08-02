@@ -30,10 +30,10 @@
       \bar ".|:" \time 5/16 ees8 c8.  |
       ees8 g8. |
       fis8 ees16 c8  |
-      d8 d8. | \bar ":|." \break
+      d8 d8. | \bar ":|.:" \break
       
 
-      \bar ".|:" 
+    
       \tempoFunc "Poco più mosso" 8 "120"
       \key f \minor
       c'8 b8[(aes16)] |  |

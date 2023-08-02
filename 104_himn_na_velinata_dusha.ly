@@ -48,7 +48,7 @@
       \tempo "rit." g'2  e'4 | e'2 ( fis'4 ) | \break
       d'2. | \tempo "a tempo" fis'2 fis'4 | fis'2. | fis'4 ( g'4 )  a'4 | b'2 fis'4 |a'2.   \break
       | % 61
-      g'2 ^\fermata  \tempoFunc "Maestoso" 4 "72" a4 \mark \markup { \musicglyph "scripts.segno" }  \bar "||"
+      g'2 ^\fermata  \tempoFunc "Maestoso" 4 "72" a4 \mark \markup {\small \musicglyph "scripts.segno" }  \bar "||"
       a2  d'4 | % 63
       e'2. | % 64
       e'4 (  fis'4 )  g'4 | % 65

@@ -25,7 +25,7 @@
       g'4 f'8. e'16 f'4 a' | \time 5/4  g'4 g'8. fis'16 g'2 c''4 | \time 2/4  b'4 a'8 b' \break |
 
       \time 4/4  c''4 c''2 c''4 \repeat volta 2 {
-        g'4 e'8. f'16 g'4 g' | a'4 g'8 ( e' ) f'4 d' | \break
+        g'4 e'8. f'16 g'4 g' | a'4 g'8 ( [e'] ) f'4 d' | \break
 
         d'4 d'8 e' f'4 a' g'2 e'8 d' e' f' | \time 2/4  g'2 | \break
 

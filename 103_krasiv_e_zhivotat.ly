@@ -22,7 +22,7 @@
       \partial 8
 
       \repeat volta 2 {
-        e'8 | a'4 a'8. b'16 | cis''4 a'8. a'16 | cis''8. cis''16 d''8. cis''16 | b'2 | e''4 e''8. ( [ d''16 ] ) \break |
+        e'8 | a'4 a'8. b'16 | cis''4 a'8. a'16 | cis''8 cis''8 d''8. cis''16 | b'2 | e''4 e''8. ( [ d''16 ] ) \break |
 
         cis''4 a' | b'8 b' cis''8. b'16 | a'2 | e''4 e''8. ( [ d''16 ] ) | cis''4 a' |  b'8 b' \tempo "rit." cis''8. b'16 | \break
       }
@@ -49,7 +49,7 @@
 
       \time 2/4 \key a \major a'4 a'8. b'16 | cis''4 a'8. a'16 | \break
 
-      cis''8. cis''16 d''8. cis''16 | b'2 |e''4  e''8. [ ( d''16 ) ] | cis''4 a'4 | b'8 b' cis''8. b'16 | \break
+      cis''8 cis''8 d''8. cis''16 | b'2 |e''4  e''8. [ ( d''16 ) ] | cis''4 a'4 | b'8 b' cis''8. b'16 | \break
 
       a'2 | e''4 e''8. [ ( d''16 ) ]  | cis''4 a' | b'8 b' cis''8. b'16 | a'4. \bar "|."
 

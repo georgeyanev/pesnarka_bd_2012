@@ -32,7 +32,7 @@
 
       \time 4/4 d'8 e, e e c' e, e e | a g g fis fis e e d | \break
 
-      \time 3/4 b' b d c b a | a4 g2 | \bar "|."
+      \time 3/4 b' b d c b a |\tempo "rit."  a4 g2 \fermata | \bar "|."
 
 
     }

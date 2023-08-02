@@ -27,7 +27,7 @@
 
       f''8-- f''-- e''-- d''-- cis''!4-- bes'8-- a'8-- \tuplet 3/2 {g'8-- ( [a' bes'--])} a'2--  \fermata  g16-- a-- bes--  a-- \bar "|" \break
 
-      c'2-- bes8 a8 \tuplet 3/2 {g [( a bes-. )] } a2 r8 \tempo "rit. e morendo" g16 a bes  a \bar "|" \break
+      c'2-- bes8 a8 \tuplet 3/2 {g [( a bes-. )] } a2 r4 \tempo "rit. e morendo" g16 a bes  a \bar "|" \break
 
       c'2-- bes8 a8  \tuplet 3/2 {g [(a bes )]}  a2.  r4 \bar "|."
 

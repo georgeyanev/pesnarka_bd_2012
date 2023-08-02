@@ -24,10 +24,10 @@
 
       \time 3/4 g8 a8 b2 |
       \time 4/4 c8. [(d32 c32] b8 [c8]) a2 |
-      d8. [c16] b8 [(a8)] b2 | \break
+      d8. c16 b8 [(a8)] b2 | \break
 
       a4. (b8) g2 |
-      fis8. [g16] e4. fis8 [g8 a8] |
+      fis8. g16 e4. fis8 g8 a8 |
       \time 5/4 b4 d8 c8 b8 a8 b2 | \break
 
       d4 e4 c8. b16 c2 |
@@ -60,8 +60,8 @@
 
     \addlyrics {
       Бог __ е "Лю-" -- бов, | Бог е "Лю-" -- бов, | Бог е "Лю-" -- бов, Лю -- |
-      бов, Лю -- бов  | веч -- на, | "без – гра-" -- нич -- на, |
-      пъл -- на | със_Жи -- "-вот," "Жи-вот на" | бла -- ги -- я Бо -- жи  Дух.
+      бов, Лю -- бов  | веч -- на, | без -- гра -- нич -- на, |
+      пъл -- на | със Жи -- "-вот," Жи -- вот на | бла -- ги -- я Бо -- жи  Дух.
       Дух на бла -- гост -- "-та," | Дух на свя -- тост -- "-та," | Дух на пъ -- лен Мир и |
       Ра -- дост за вся -- ка ду -- ша, за вся -- ка ду -- | ша. Ний щe | хо -- дим в~то -- я |
       път  на Свет -- ли -- | на -- та, на Свет -- ли -- | на -- та, на Свет -- ли | на -- та, в~ко -- |
@@ -69,8 +69,8 @@
       Бо -- жи -- я -- та "Лю-" -- бов, | Бо -- жи -- я -- та Лю -- | бов. Ний ще | бов.}
       \addlyrics {
         Bog __ e "Lju-" -- bov, | Bog e "Lju-" -- bov, | Bog e "Lju-" -- bov, Lju -- |
-        bov, Lju -- bov  | več -- na, | "bez – gra-" -- nič -- na, |
-        păl -- na | săs_Ži -- vot, "Ži-vot na" | bla -- gi -- ja Bo -- ži  Duh.
+        bov, Lju -- bov  | več -- na, | bez -- gra -- nič -- na, |
+        păl -- na | săs Ži -- vot, Ži -- vot na | bla -- gi -- ja Bo -- ži  Duh.
         Duh na bla -- gost -- ta, | Duh na svja -- tost -- ta, | Duh na pă -- len Mir i |
         Ra -- dost za vsja -- ka du -- ša, za vsja -- ka du -- | ša. Nij šte | ho -- dim v~to -- ja |
         păt  na Svet -- li -- | na -- ta, na Svet -- li -- | na -- ta, na Svet -- li | na -- ta, v~ko -- |
