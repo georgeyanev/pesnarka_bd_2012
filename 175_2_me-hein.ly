@@ -116,7 +116,7 @@
     \include "lyrics_de/175_mehein_lyrics_de.ly"
     \markup \empty-two
 
-    \markup \fill-line { \fontsize #deTitleFontSize "Me-hejn II*" }
+    \markup \fill-line { \fontsize #deTitleFontSize "Ме-хейн II*" }
 
     \markup  \fontsize #bgCoupletFontSize {
       \hspace #2
