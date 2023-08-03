@@ -46,14 +46,14 @@
       \time 2/4
       \tempoFunc "Tempo di marcia" 4 "112"
       \autoBeamOff
-      \autoBeamOff
 
       bes'4. a'8 | c''8 bes' a' g' |  g'2 |  f'2 \break | 
-       a'4. g'8  | a'8 g' es' g' |  f'2 |  \break
-         d'2 \repeat volta 2 {
-        es'4. es'8 | g'8 g' f' e' \break |
-        f'2 | bes'2 d''4. bes'8 | f'8 f' d'' d'' | c''2  bes'2 |\break
-      }
+       a'4. g'8  | a'8 g' es' g' |  f'2 |   d'2 | \break
+      \bar ".|:"
+        es'4. es'8 | g'8 g' f' e' | f'2 | bes'2 | \break
+        
+        d''4. bes'8 | f'8 f' d'' d'' | c''2  bes'2 |\break
+      \bar ":|."
     }
 
     \addlyrics {

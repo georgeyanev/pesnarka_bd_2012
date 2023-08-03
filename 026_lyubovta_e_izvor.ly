@@ -39,7 +39,7 @@
       vse na -- pred da ho -- di v~stre -- mež kăm Do -- bro -- to,
       što e să -- văr -- še -- no go -- re na Ne -- be -- to.
       Ra -- bo -- ti săs ne -- ja v~mi -- los -- ti že -- la -- ni,
-      po -- mošt -- ta no -- si j za du -- ši stra -- dal -- ni.
+      po -- mošt -- ta no -- si i za du -- ši stra -- dal -- ni.
     }
 
     \header {

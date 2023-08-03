@@ -33,7 +33,7 @@
     \addlyrics {
       Из -- грей,
       из -- грей ти, мо -- е Слън -- це, __  за -- що --
-      то ча -- кам все -- ки ден; __ за теб коп -- ней __ сър -- це то -- мо -- е __ и в~пъ -- тя си съм из
+      то ча -- кам все -- ки ден; __ за теб коп -- ней __ сър -- це -- то мо -- е __ и в~пъ -- тя си съм из
        -- мо -- рен; __  ти но -- сиш ми Жи -- вот бла --
       жен.  __ Жи -- вот бла -- жен, Жи -- вот бла -- жен, __ 
       бла -- жен, бла -- жен, Жи -- вот бла -- жен; __ ти
@@ -41,7 +41,7 @@
        \addlyrics {
       Iz -- grej,
       iz -- grej ti, mo -- e Slăn -- ce, __  za -- što --
-      to ča -- kam vse -- ki den; __ za teb kop -- nej __ săr -- ce to -- mo -- e __  i v~pă -- tja si săm iz
+      to ča -- kam vse -- ki den; __ za teb kop -- nej __ săr -- ce -- to mo -- e __  i v~pă -- tja si săm iz
        -- mo -- ren;  __ ti no -- siš mi Ži -- vot bla --
       žen. __  Ži -- vot bla -- žen, Ži -- vot bla -- žen, __ 
       bla -- žen, bla -- žen, Ži -- vot bla -- žen; __ ti
