@@ -4,13 +4,11 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \label #'ref032
-  \tocItem \markup "Шуми – Šumi"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
 
-    \new Voice \absolute  {
+    \new Voice \absolute {
       \clef treble
       \key d \minor
       \time 3/4
@@ -58,13 +56,10 @@
 
   } % score
 
-
-\markup \null
  
-
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
+  \markup \fontsize #+2.0 {
+    \hspace #2
+    \override #'(baseline-skip . 1.9)
     \column {
 
       \line {   2.  "   "  И вятър вее, }
@@ -103,8 +98,8 @@
 
     }
 
-    \hspace #6
-   \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
+   \hspace #5
+    \override #'(baseline-skip . 1.9)
     \column {
       \line {   2.  "   "  I vjatăr vee, }
 
@@ -145,9 +140,9 @@
 
   \pageBreak
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
+  \markup \fontsize #+2.0 {
+    \hspace #2
+    \override #'(baseline-skip . 1.9)
     \column {
       \line {   4.  "   "        Задухай, ветре, }
       \line {   "   "    "   "         света разведри!}
@@ -166,8 +161,8 @@
 
 
 
-    \hspace #3
-   \override #`(baseline-skip . ,bgCoupletBaselineSkip) %
+    \hspace #5
+    \override #'(baseline-skip . 1.9)
     \column {
       \line {   4.  "   "        Zaduhaj, vetre, }
       \line {   "   "    "   "         sveta razvedri!}
@@ -185,10 +180,12 @@
     }
     %column
   } % markup
-
-  \markup \empty-two
-
+ 
+\markup \empty-two
   % include foreign translation(s) of the song
-  \include "lyrics_de/032_shumi_lyrics_de.ly"
+   \include "lyrics_de/032_shumi_lyrics_de.ly"
 
 } % bookpart
+
+% Più mosso
+%

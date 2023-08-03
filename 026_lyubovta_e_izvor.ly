@@ -33,7 +33,7 @@
       по -- мощ -- та но -- си й за ду -- ши стра -- дал -- ни.
     }
 
- \addlyrics {
+    \addlyrics {
       Lju -- bov -- ta e iz -- vor: tja Ži -- vo -- ta raž -- da
       i pre -- svja -- ta dlăž -- nost v~ne -- go krot -- ko vsaž -- da
       vse na -- pred da ho -- di v~stre -- mež kăm Do -- bro -- to,
@@ -63,15 +63,15 @@
       \line {   "   " семенцата драги,}
       \line {   "   " от които никнат}
       \line {   "   " Добрините благи.}
-      \line { " " }
+     \vspace #0.3
       \line { "   " \italic {Припев ...} }
 
-     
+
     }
 
     \hspace #6
     \override #'(baseline-skip . 1.8)
-     \column {
+    \column {
 
       \line { 2. I tuj neprestanno  }
       \line {   "   " vărši tja samata }
@@ -81,14 +81,14 @@
       \line {   "   " semencata dragi,}
       \line {   "   " ot koito niknat}
       \line {   "   " Dobrinite blagi.}
-      \line { " " }
+     \vspace #0.3
       \line { "   " \italic {Pripev ...} }
 
-     
+
     } %column
   } % markup
-  
- \pageBreak
+
+  \pageBreak
   \markup \fontsize #+1.9 {
     \hspace #10
     \override #'(baseline-skip . 1.8)
@@ -101,9 +101,9 @@
       \line {   "   "на роса небесна}
       \line {   "   "и на слънчевата}
       \line {   "   "светлина чудесна.}
-      \line { " " }
+     \vspace #0.3
       \line { "   " \italic {Припев ...} }
-      \line { " " }
+     \vspace #0.3
       \line { 4. Слънцето, което }
       \line {   "   " оживотворява, }
       \line {   "   " овреме човека}
@@ -112,9 +112,9 @@
       \line {   "   "в него семенцата}
       \line {   "   "и му пълни тайно}
       \line {   "   "с Добрини душата.}
-      \line { " " }
+     \vspace #0.3
       \line { "   " \italic {Припев ...} }
-      \line { " " }
+     \vspace #0.3
       \line { 5. Плодове тъй сладки, }
       \line {   "   " в Любовта узрели, }
       \line {   "   "най-блажен ще бъде}
@@ -123,11 +123,13 @@
       \line {   "   "вечно ще живее,}
       \line {   "   "пред престола Божи}
       \line {   "   "песни ще да пее.}
+     \vspace #0.3
+      \line { "   " \italic {Припев ...} }
     }
 
     \hspace #6
     \override #'(baseline-skip . 1.8)
-     \column {
+    \column {
       \line { 3. Taz velika tajna }
       \line {   "   " koj dobre razbira, }
       \line {   "   " svojta duša mila }
@@ -136,9 +138,9 @@
       \line {   "   "na rosa nebesna}
       \line {   "   "i na slănčevata}
       \line {   "   "svetlina čudesna.}
-      \line { " " }
+     \vspace #0.3
       \line { "   " \italic {Pripev ...} }
-      \line { " " }
+     \vspace #0.3
       \line { 4. Slănceto, koeto }
       \line {   "   " oživotvorjava, }
       \line {   "   " ovreme čoveka}
@@ -147,9 +149,9 @@
       \line {   "   "v nego semencata}
       \line {   "   "i mu pălni tajno}
       \line {   "   "s Dobrini dušata.}
-      \line { " " }
+     \vspace #0.3
       \line { "   " \italic {Pripev ...} }
-      \line { " " }
+     \vspace #0.3
       \line { 5. Plodove tăj sladki, }
       \line {   "   " v Ljubovta uzreli, }
       \line {   "   "naj-blažen šte băde}
@@ -158,11 +160,13 @@
       \line {   "   "večno šte živee,}
       \line {   "   "pred prestola Boži}
       \line {   "   "pesni šte da pee.}
+     \vspace #0.3
+      \line { "   " \italic {Pripev ...} }
     } %column
-    
+
   } % markup
 
-   \markup \empty-two
+  \markup \empty-two
 
   % include foreign translation(s) of the song
   \include "lyrics_de/026_lyubovta_e_izvor_lyrics_de.ly"
