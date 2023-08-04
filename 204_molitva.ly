@@ -104,7 +104,7 @@
       fis,8 ^\pp | \break % 118
       ais4.  gis8  fis8 eis8
       dis8  cisis8  | % 119
-      eis2  dis4 r8  ais8 ^\markup{
+      eis2  dis4 r8  ais'8 ^\markup{
         \bold {
           Meno
           mosso

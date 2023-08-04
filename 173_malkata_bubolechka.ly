@@ -57,7 +57,7 @@
       b4. ( a8 ) a2 \break \bar ":|."
 
 
-      e'4 e'8. e'16 e'4. e'8 | f'8. f'16 e'4. e'8 a'8 b'8 |  c''4 b'16  a'16 gis'16 a'16 \autoBeamOn b'4  ( ~ b'16 a'16 ) g'16 f'16 | \break
+      e'4 e'8. e'16 e'4. e'8 | f'8. f'16 e'4. e'8 a'8 b'8 |  c''4 b'16  a'16 gis'16 a'16 \autoBeamOn b'4  ( ~ b'16 a'16  g'16 f'16 ) | \break
 
       e'2 r8 \autoBeamOff e'8 a'8 c''8 | e''4. d''8  \tweak direction #up \times 2/3 {
         \once \override Slur.positions = #'(1 . 1) c''8  ( [  b'8 ) ] a'8
@@ -66,7 +66,7 @@
 
       a'4 g'8.  f'16  e'2 |  \bar ".|:" r8 c'8 e' g' a'4 a'8. c''16 | 
       
-       c''16 b'16 a' g' e'4 d'2 (| \break
+       b'16 a'16 g' f' e'4 d'2 (| \break
 
       d'16)  b16  c'16  d'16  c'4 ~
       c'16  b16  d'16  c'16  b16 a16 \times 2/3 { gis16 [ ( a16 ) ] b16 }| \time 2/4 a2 \break \bar ":|."
@@ -93,7 +93,7 @@
       въз -- ви -- ся -- ва.
 
       "3. Тъй" ве -- "ко-" -- ве без -- брой "ле-" -- тят
-      и вре -- ме -- то я пре -- "о-" -- "бра-" -- зя -- """"ва.
+      и вре -- ме -- то я пре -- "о-" -- "бра-" -- зя -- ва.
       И тъй по -- раст  -- на тя __ де -- ви -- ца __ ми -- ла.
       Чи -- ста "ро-" -- са, ду -- ша кра -- си -- ва,
       тво -- ре -- ни -- е на Бо -- га, __
@@ -122,7 +122,7 @@
       văz -- vi -- sja -- va.
 
       "3. Tăj" ve -- ko -- ve bez -- broj le -- tjat
-      i vre -- me -- to ja pre -- "o-" -- "bra-" -- zja -- """"va.
+      i vre -- me -- to ja pre -- "o-" -- "bra-" -- zja -- va.
       I tăj po -- rast  -- na tja __ de -- vi -- ca __ mi -- la.
       Či -- sta "ro-" -- sa, du -- ša kra -- si -- va,
       tvo -- re -- ni -- e na Bo -- ga, __

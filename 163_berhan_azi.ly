@@ -101,7 +101,7 @@
       }
       \repeat volta 1 {
         g![c] b[g] a8 a16[a a] | \noBreak
-        g[c] b[g] a8 a16[a a] | \bar "|."
+        g[c] b[g] a8 a16[a a] | \bar ":|."
       }
     }
 

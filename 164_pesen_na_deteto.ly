@@ -71,7 +71,7 @@
       a'16 ( g'16 f'16 e'16 ) e'4 \break | % 14
       \time 3/4  \repeat volta 2 {
         a8 b8 c'4. ( b8 ) | % 15
-        d'8 ( c'8 ) b8 a8 a4 \fermata
+        d'8 ( [c'8] ) b8 [a8] a4 \fermata
       }
       | % 16
 
@@ -91,7 +91,7 @@
       \times 4/5  {
         c'16 ( d'16 c'16 b16 c'16)
       }
-      d'8 e'8 f'8 e'8 | % 25
+      d'8 [e'8] f'8 [e'8] | % 25
       e'2 d'8 ( e'16 d'16 ) \break | % 26
       \time 2/4  c'8 b8 a8^\markup{ \bold {rit.} } gis8 | % 27
       a2 \bar "||"
@@ -117,21 +117,21 @@
       \break | % 33
       \key a \major \time 9/8 | % 33
       \tempo "Allegretto"
-      a'8  -. e'8 -. a'8 -. e'8 -. a'8 -. e'8
+      a'8  -. [e'8 -. ] a'8 -. [e'8 -.] a'8 -. [e'8]
       -. e'8 -. e'8 ( -. e'8 ) -. | % 34
-      cis'8 -. e'8 -. cis'8 -. e'8 -. cis'8 -. e'8 -. cis'8 -. cis'8 ( -.
+      cis'8 -. [e'8 -.] cis'8 -. [e'8 -.] cis'8 -. [e'8 -.] cis'8 -. cis'8 ( -.
       cis'8 ) -. | % 35
-      cis'8 -. b8 -. b8 -. cis'8 -. a4 ( a4. ) \break | % 36
+      cis'8 -. [b8 -.] b8 -. [cis'8 -.] a4 ( a4. ) \break | % 36
       cis'8 -. b8 -. b8 -. b8 -. a4 ( a4. ) | % 37
       \time 5/8  \repeat volta 2 {
         e''4 -- a''8 -- a''8 -- a''8 -- | % 38
-        \time 9/8  a''8 gis''8 a''8 b''8 gis''4 gis''8 gis''8 gis''8 | % 39
-        gis''8 fis''8 gis''8 a''8 fis''4 fis''8 fis''8 fis''8 \break |
-        fis''8 e''8 fis''8 gis''8 e''4 ( e''4. ) | % 41
-        \time 5/8  cis''4 e''8 e''8 e''8 | % 42
-        \time 9/8  e''8 d''8 e''8 fis''8 d''4 d''8 d''8 d''8 | % 43
-        d''8 cis''8 d''8 e''8 cis''4 cis''8 cis''8 cis''8 \break | % 44
-        cis''8 b'8 cis''8 d''8 a'4 ( a'4. )
+        \time 9/8  a''8 [gis''8] a''8 [b''8] gis''4 gis''8 gis''8 gis''8 | % 39
+        gis''8 [fis''8] gis''8 [a''8] fis''4 fis''8 fis''8 fis''8 \break |
+        fis''8 [e''8] fis''8 [gis''8] e''4 ( e''4. ) | % 41
+        \time 5/8  cis''4 e''8 [e''8 e''8] | % 42
+        \time 9/8  e''8 [d''8] e''8 [fis''8] d''4 d''8 d''8 d''8 | % 43
+        d''8 [cis''8] d''8 [e''8] cis''4 cis''8 cis''8 cis''8 \break | % 44
+        cis''8 [b'8] cis''8 [d''8] a'4 ( a'4. )
       }
       | % 45
       \key a \minor \time 2/4 | % 45

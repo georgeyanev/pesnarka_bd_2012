@@ -26,10 +26,10 @@
       bes2. (\!  c4  d4^\>  es4
       d4  c4 | % 5
       bes4  a4  bes2 ) \!  g2 r2 | % 6
-      g4  a4  bes2  a2 (^\<  g2\!
+      g'4  a4  bes2  a2 (^\<  g2\!
       ) \break | % 7
       \times 2/3  {
-        fis'4 ( \!^\>  g4  a4 )
+        fis4 ( \!^\>  g4  a4 )
       }
       g1 r2 \! | % 8
       \time 4/4  | % 8

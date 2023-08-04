@@ -10,7 +10,7 @@
   \score {
     \include "include/score-layout.ily"
 
-    \new Voice \absolute {
+     \new Staff = main \absolute {
       \clef treble
       \key g \major
       \time 7/16
@@ -22,7 +22,29 @@
 
       d'8 g' d'8. | d'8 c'' b'8. | a'8 b' g'8. | d'8 c'' b'8. | a'8 b' g'8. \break |
 
-      \repeat volta 2 { g'8 b' b'8. | b'8 d'' d''8. | b'8 d''8 b'8. | a'8 b' g'8. } \break
+      \repeat volta 2 { g'8 b' b'8. | b'8 d'' d''8. |
+      
+      
+             <<
+          { b'8 d''8 b'8. }
+
+          \new Staff \with {
+            \override VerticalAxisGroup.default-staff-staff-spacing =
+            #'((basic-distance . 5.2)
+               (padding . -10))
+            \remove "Time_signature_engraver"
+            alignAboveContext = #"main"
+            fontSize = #-1
+            \override StaffSymbol.staff-space = #(magstep -3)
+            \override StaffSymbol.thickness = #(magstep -3)
+            firstClef = ##f
+          }
+          {\autoBeamOff c''8 ^\markup { \huge \italic "ossia" \italic "според П. Ганев" }  d''8 b'8.}
+        >>
+
+
+
+      | a'8 b' g'8. } \break
 
       \key g \minor \repeat volta 2 { d'8 d'' d''8. | d'8 c'' c''8. | d'8 bes' bes'8. | a'8 g' g' g'16 | g'4 ~ g'8. } \break |
 
