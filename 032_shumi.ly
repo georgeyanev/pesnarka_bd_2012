@@ -4,6 +4,7 @@
 \include "include/globals.ily"
 
 \bookpart {
+   \label #'ref032
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

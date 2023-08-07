@@ -32,7 +32,7 @@
 
   }
 
-
+  \markup { {  \vspace #1.5 } }
   \markup \fontsize  #+2.5 { \fill-line \bold {"PETAR DANOV"} }
 
   \markup { {  \vspace #0.5 } }
@@ -40,18 +40,18 @@
   \markup \fontsize  #+6 { \fill-line \bold {"LIEDERBUCH"} }
   \markup  { {  \vspace #0.2 } }
   \markup \fontsize  #1.5 { \fill-line {"Bulgarisch-Deutsch"} }
- \markup { {  \vspace #4.5 } }
+  \markup { {  \vspace #4.5 } }
   \markup {
     \vspace #21.5
-    \hspace #26
+    \fill-line
     \general-align #Y #DOWN {
       \epsfile #X #13 #"./img/logo_large.eps"
     }
   }
-    \markup { {  \vspace #0.5 } }
+  \markup { {  \vspace #0.5 } }
 
   \markup \fontsize  #+2.5  { \fill-line {"Verlag Bjalo Bratstvo"} }
-    \markup { {  \vspace #0.2 } }
+  \markup { {  \vspace #0.2 } }
   \markup \fontsize  #+2.5  { \fill-line {"Sofia 2023"} }
 
 

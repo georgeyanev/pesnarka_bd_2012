@@ -5,8 +5,8 @@
 
 \bookpart {
   \label #'ref145
-   \tocAct \markup { "NACH 1944 VERÖFFENTLICHTE LIEDER"}
-    \paper {
+  \tocAct \markup { "NACH 1944 VERÖFFENTLICHTE LIEDER"}
+  \paper {
     print-all-headers = ##f
     print-page-number = ##f
     print-first-page-number = ##f
@@ -31,11 +31,18 @@
     bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
 
-  
+
   }
 
-  \markup\fontsize  #+6.5  {\bold {  \hspace #25.5  \vspace #14.5 NACH 1944  } }
-  \markup\fontsize  #+6.5  {\bold {  \hspace #12.5  \vspace #1.3 VERÖFFENTLICHTE LIEDER} }
+  \markup { {  \vspace #11.2 } }
+
+  \markup \fontsize  #+6 { \fill-line \bold {"NACH 1944"} }
+
+  \markup { {  \vspace #0.2 } }
+
+  \markup \fontsize  #+6 { \fill-line \bold {"VERÖFFENTLICHTE LIEDER"} }
+
+
 
   % include foreign translation(s) of the song
   %\include "lyrics_de/000_empty_template_lyrics_de.ly"

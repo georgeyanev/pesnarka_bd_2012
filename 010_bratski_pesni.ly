@@ -30,11 +30,11 @@
     top-margin = 1.6\cm
     bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-  
   }
 
-  \markup\fontsize  #+6.5  {\bold {  \hspace #16.5  \vspace #14.5 BRÜDERLICHE LIEDER} }
+  \markup { {  \vspace #11.2 } }
+
+ \markup \fontsize  #+6 { \fill-line \bold {"BRÜDERLICHE LIEDER"} }
 
   % include foreign translation(s) of the song
   %\include "lyrics_de/000_empty_template_lyrics_de.ly"

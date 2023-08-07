@@ -42,6 +42,7 @@
   \markup { {  \vspace #0.7 } }
 
   \markup \fontsize  #+5 { \fill-line \bold {" Петър Дънов – Беинса Дуно "} }
+  \markup { {  \vspace #0.2 } }
   \markup \fontsize  #+2.5 { \fill-line \bold {" (1864  –  1944)" } }
 
   % include foreign translation(s) of the song
