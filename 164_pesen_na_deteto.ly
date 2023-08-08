@@ -122,16 +122,15 @@
       cis'8 -. [e'8 -.] cis'8 -. [e'8 -.] cis'8 -. [e'8 -.] cis'8 -. cis'8 ( -.
       cis'8 ) -. | % 35
       cis'8 -. [b8 -.] b8 -. [cis'8 -.] a4 ( a4. ) \break | % 36
-      cis'8 -. b8 -. b8 -. b8 -. a4 ( a4. ) | % 37
-      \time 5/8  \repeat volta 2 {
-        e''4 -- a''8 -- a''8 -- a''8 -- | % 38
-        \time 9/8  a''8 [gis''8] a''8 [b''8] gis''4 gis''8 gis''8 gis''8 | % 39
-        gis''8 [fis''8] gis''8 [a''8] fis''4 fis''8 fis''8 fis''8 \break |
-        fis''8 [e''8] fis''8 [gis''8] e''4 ( e''4. ) | % 41
-        \time 5/8  cis''4 e''8 [e''8 e''8] | % 42
-        \time 9/8  e''8 [d''8] e''8 [fis''8] d''4 d''8 d''8 d''8 | % 43
-        d''8 [cis''8] d''8 [e''8] cis''4 cis''8 cis''8 cis''8 \break | % 44
-        cis''8 [b'8] cis''8 [d''8] a'4 ( a'4. )
+      cis'8 -. [ b8 -.] b8 -. [cis'8 -.] a4 ( a4. ) | % 37
+       \repeat volta 2 {
+        e''4 -- a''8 -- [a''8 -- a''8 -- ] % 38
+         a''8 [gis''8] a''8 [b''8] | gis''4 gis''8 gis''8 gis''8  % 39
+        gis''8 [fis''8] gis''8 [a''8] | fis''4 fis''8 fis''8 fis''8 
+        fis''8 [e''8] fis''8 [gis''8] | \time 5/8 e''4 ( e''4. ) | % 41
+        \time 9/8  cis''4 e''8 [e''8 e''8] e''8 [d''8] e''8 [fis''8] | d''4 d''8 d''8 d''8 
+        d''8 [cis''8] d''8 [e''8] | cis''4 cis''8 cis''8 cis''8 % 44
+        cis''8 [b'8] cis''8 [d''8] \time 5/8 a'4 ( a'4. )
       }
       | % 45
       \key a \minor \time 2/4 | % 45

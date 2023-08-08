@@ -16,7 +16,6 @@
       \time 6/4
       \tempoFunc "Andantino" 4 "72"
       \autoBeamOff
-      \autoBeamOff
       d2^\p  g2  d2 | % 2
       \time 4/2  | % 2
       d2^\<  g2. (  a4 ) \! \>  g4 \!

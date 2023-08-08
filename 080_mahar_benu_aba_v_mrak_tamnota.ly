@@ -73,7 +73,7 @@
 
       \partial 4
 
-      g4  | c'2 b8 c' | d'2 g4 | es'2 d'4 | \break c'2 ( d'16 c' b c'  |
+      g4  | c'2 \autoBeamOff b8 c' | \autoBeamOn d'2 g4 | es'2 d'4 | \break c'2 ( d'16 c' b c'  |
 
       d'2 ) c'4 | c'2 f'4 |  \autoBeamOff f'2 es'8 d' | es'2 f'4 |\break g'2 as'4
 

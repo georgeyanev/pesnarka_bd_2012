@@ -4,7 +4,7 @@
 \include "include/globals.ily"
 
 \bookpart {
-    \paper {
+  \paper {
     print-all-headers = ##f
     print-page-number = ##f
     print-first-page-number = ##f
@@ -29,41 +29,49 @@
     bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
 
-  
+
   }
 
- \markup \fontsize  #+3.5  {\bold {  \hspace #27  \vspace #8.5 Petar Danov} }
+
+  \markup { {  \vspace #10.0 } }
+
+  \markup \fontsize  #+3.5 { \fill-line \bold {"Petar Danov"} }
 
 
- 
- \markup \fontsize  #+5.0  {\bold {  \hspace #27  \vspace #1.0 Liederbuch} }
+  \markup { {  \vspace #0.1 } }
+  \markup \fontsize  #+5.5 { \fill-line \bold {"Liederbuch"} }
+  \markup { {  \vspace #0.1 } }
+
+  \markup \fontsize  #+2.0 { \fill-line {"Originaltitel:  Песни от Учителя"} }
+  \markup { {  \vspace #0.1 } }
+  \markup \fontsize  #+2.0 { \fill-line {" Erste deutsche Ausgabe"} }
+
+  \markup \fontsize  #+2.0 { \fill-line {" auf der Grundlage der bulgarischen Ausgabe von 2012"} }
+  \markup { {  \vspace #0.1 } }
+  \markup \fontsize  #+2.0 { \fill-line {"Veröffentlicht in Bulgarien"} }
+  \markup { {  \vspace #2.0 } }
+  \markup \fontsize  #+3.5 { \fill-line \bold {" Redaktion"} }
+  \markup \fontsize  #+3.0 { \fill-line {" Peter Ganev"} }
+
+  \markup \fontsize  #+3.5 { \fill-line \bold {"Zusammengestellt von"} }
+  \markup \fontsize  #+2.5 { \fill-line  {"Georgi Stratev, Ioana Strateva, Stanka Zheleva"} }
+  \markup \fontsize  #+2.5 { \fill-line  {"Penka Kadieva und Peter Ganev"} }
 
 
- \markup \fontsize  #+2.0  {{  \hspace #22 \vspace #1.0 Originaltitel:  Песни от Учителя} }
-   \markup \fontsize  #+2.0  {{  \hspace #26 \vspace #0.5  Erste deutsche Ausgabe} }
-  \markup \fontsize  #+2.0  {{  \hspace #15 \vspace #0.5  auf der Grundlage der bulgarischen Ausgabe von 2012} }
-  \markup \fontsize  #+2.0  {{  \hspace #25 \vspace #0.5 Veröffentlicht in Bulgarien} }
-
-   \markup \fontsize  #+4.0  {\bold {  \hspace #27  \vspace #3.0 Redaktion} }
-      \markup \fontsize  #+3.0  { {  \hspace #27  \vspace #0.8 Peter Ganev} }
-
-   \markup \fontsize  #+4.0  {\bold {  \hspace #23  \vspace #2.0 Zusammengestellt von} }
-    \markup \fontsize  #+3.0  { {  \hspace #15  \vspace #0.8 Georgi Stratev, Ioana Strateva, Stanka Zheleva} }
-     \markup \fontsize  #+3.0  { {  \hspace #22  \vspace #0.5 Penka Kadieva und Peter Ganev} }
-
-     
 
 
-  \markup \fontsize  #+3.0  {\bold {  \hspace #18  \vspace #2.0 Übersetzung aus dem Bulgarischen: }}
-  
-  
-  \markup \fontsize  #+3.0  { {  \hspace #18  \vspace #0.5   Mariya Kireva, Klaudia Wittich-Harz}}
-  
-    \markup \fontsize  #+3.0  {\bold {  \hspace #28  \vspace #2.0   Layout: }}
-  
-  
-  \markup \fontsize  #+3.0  { {  \hspace #26  \vspace #0.5   George Yanev}}
-  
+  \markup \fontsize  #+3.0 { \fill-line \bold {"  Übersetzung aus dem Bulgarischen:" }}
+
+
+  \markup \fontsize  #+1.5 { \fill-line  {" Mariya Kireva, Klaudia Wittich-Harz"}}
+
+    \markup \fontsize  #+3.0 { \fill-line \bold {"  Deutsches Lektorat:" }}
+
+   \markup \fontsize  #+3.0 { \fill-line \bold  {"  Layout:" }}
+
+
+  \markup \fontsize  #+1.5 { \fill-line {"   George Yanev"}}
+
   \markup \fontsize  #+3.5  {\bold{  \hspace #20   \vspace #1.5 ISBN: } place the isbn later}
 
 
