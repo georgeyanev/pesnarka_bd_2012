@@ -46,7 +46,7 @@
         |  c''4 g' c''4 d'' | e''4 c''2 e''8 f'' | g''4 f'' e''4 d'' | c''2 r4 e'8 e' | a'4 b'  c''4 d'' \break |
 
         e''4 b'2 d''8 d'' c''4 b' a'4 gis' |
-      } \alternative { { a'2 r4 g'8 g'  } { a'2. } } \bar "|."
+      } \alternative { { a'2 r4 g'?8 g'  } { a'2. } } \bar "|."
     }
 
     \addlyrics {

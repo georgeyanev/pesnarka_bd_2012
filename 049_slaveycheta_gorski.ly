@@ -52,7 +52,7 @@
       \bar ".|:"
         es'4. es'8 | g'8 g' f' e' | f'2 | bes'2 | \break
         
-        d''4. bes'8 | f'8 f' d'' d'' | c''2  bes'2 |\break
+        d''4. bes'8 | f'8 f' d'' d'' | c''2  bes'2 | \break
       \bar ":|."
     }
 
