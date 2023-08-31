@@ -61,7 +61,7 @@
    той   ще   се   под  --  "мла-"  --  ди   то  --  ва   ми   каз  --
    ва   Лю  --  бов  --  та,   то  --  ва   ми   каз  --  ва   Лю  --
    бов  --  та.   Ний,   ко  --  и  --  то   след  --  ва  --  ме 
-   пъ  --  тя   на   Доб  --  ро  --  то,   ще   се   под  --  мла  --
+   пъ  --  тя   на   До  --  бро  --  то,   ще   се   под  --  мла  --
    дим;   вий,   ко  --  и  --  то   след  --  ва  --  те   пъ  --
    тя   на   До  --  бро  --  то,   ще   се   под  --  мла  --  ди  --
    те;   те,   ко  --  и  --  то   след  --  ват   пъ  --  тя   на 
@@ -73,7 +73,7 @@
    toj   šte   se   pod  --  mla  --  di   to  --  va   mi   kaz  --
    va   Lju  --  bov  --  ta,   to  --  va   mi   kaz  --  va   Lju  --
    bov  --  ta.   Nij,   ko  --  i  --  to   sled  --  va  --  me 
-   pă  --  tja   na   Dob  --  ro  --  to,   šte   se   pod  --  mla  --
+   pă  --  tja   na   Do  --  bro  --  to,   šte   se   pod  --  mla  --
    dim;   vij,   ko  --  i  --  to   sled  --  va  --  te   pă  --
    tja   na   Do  --  bro  --  to,   šte   se   pod  --  mla  --  di  --
    te;   te,   ko  --  i  --  to   sled  --  vat   pă  --  tja   na 

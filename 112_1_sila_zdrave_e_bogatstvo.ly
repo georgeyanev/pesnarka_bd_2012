@@ -42,9 +42,9 @@
 
       \time 2/4  e4. ( fis8 ) \break
 
-      | \time 3/4  d2 b'8. b16 | c4 e,4 fis8. d16 | \time 4/4  b'2 ( a2 ) |
+      | \time 3/4  d2 b'8. b16 | c4 e,4 fis8. d16 | \time 4/4  b'2 ( \afterGrace a2 ) ({ b16[ a] )} |
       \time 3/4  |
-      \grace { b16 [( a16] } g2.) \bar "|."
+      g2. \bar "|."
 
 
     }

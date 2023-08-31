@@ -44,7 +44,7 @@
       f'8 ( [  g'8 ) ]  e'2 | % 11
       g'8  g'4  f'8  e'8  f'8  \break | % 12
       e'8  c'8  d'2 |   % 13
-      \time 5/4  | % 13
+      \time 5/4  | \bar "||" % 13
       \tempo "        Largamente" c'4 ( f'4 )
       e'4  e'2 | % 14
       c'4 (  f'4 )  e'4  e'2 | % 15
@@ -66,9 +66,9 @@
       a'8 ( [  bes'16  a'16 ) ]  g'8
       fis'8 \break  | % 26
       g'4  c''4 ^\fermata  | % 27
-      \slurDown \stemUp bes'8 (
+      \slurDown \stemUp bes'8 ([
       \times 2/3  {
-        a'16 [  bes'16  a'16 ) ]
+        a'16   bes'16  a'16 ) ]
       } \slurNeutral \stemNeutral
       g'8 ( [  fis'8 ) ] | % 28
       g'2  | % 29
@@ -171,7 +171,7 @@
       e'8 ( [  d'8 ) ]  d'2 | % 87
       c''8 ( [  b'8 ) ]  a'8  g'8
       a'8.  b'16  | % 88
-      a'8 ( [  g'8 ) ]  g'2 | \break % 89
+      a'8 ( [  g'8 ) ]  g'2 | \bar "||" \break % 89
       \time 4/4  | % 89
       \tempo "Maestoso" b'4 g'4  e'4
       d'4 |

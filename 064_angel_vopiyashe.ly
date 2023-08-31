@@ -23,23 +23,23 @@
       a4) a2 g4 a4 \bar "|"
       \slurDown a8( [bes a g f g] \acciaccatura { a16 [b] } c4 b!8 [c]) a2 \bar "|" \break
 
-      \slurNeutral g4 a a8 ([g a bes]) g2 \bar "|"
+      \slurNeutral g4 a a8 ([g a bes?]) g2 \bar "|"
       d'2 c4 (b8 [c]) a8. ([bes16 a8 g]) \bar "|"
       \slurDown f8([ g] \acciaccatura { a16 [b] } c4 b!8[ c]) a2 \bar "|"  \break
 
-      a8( [bes] \acciaccatura { c16 [d] } c4) bes8( [a g a]) g4. g8 \bar "|"
+      a8( [bes?] \acciaccatura { c16 [d] } c4) bes8( [a g a]) g4. g8 \bar "|"
       \slurNeutral c8.( [bes16]) a8.( [g16]) g4 f8( [g \appoggiatura bes a g]) \bar "|"  \break
 
       f8( [e a g] f4. e8 d [e16 f]) d4 d2 \bar "|"
-      \appoggiatura g8  a2( \tuplet 3/2 { g8 [f g] } a4) a2 c4( \stemUp b) \bar "|"  \break
+      \appoggiatura g8  a2( \tuplet 3/2 { g8 [f g] } a4) a2 c4( b) \bar "|"  \break
 
       \stemNeutral c4( d  c b!8 [c]) a2 g4 a \bar "|"
-      \stemUp a8( [bes16 c] a8 [g]) f( [e a g]) \bar "|"  \break
+      \stemUp a8( [bes?16 c] a8 [g]) f( [e a g]) \bar "|"  \break
 
       f4.( e8 d[ e16 f] d4) d2 r8 d \bar "|"
       \stemNeutral d'2 c4( b!8[ c]) a2 a4 \bar "|"  \break
 
-      \slurDown a8([bes] \acciaccatura { c16 [d] } c4) bes8( [a] g [a]) g2 \bar "|"
+      \slurDown a8([bes?] \acciaccatura { c16 [d] } c4) bes8( [a] g [a]) g2 \bar "|"
       g4( f8 [e] d [e] c4) \bar "|"
       d8([ e f g]) g2 \bar "|"  \break
 
@@ -51,14 +51,14 @@
       d4.( e8) c4( d) \bar "|"  \break
 
       ees4.( d8 g8[ fis \acciaccatura { ees16 [fis] }  ees8 d]) d2\fermata \bar "|"
-      a'4.( g8 f16[ g] \acciaccatura { a16 [b] } c4) \slurNeutral b8([ c] a2) g4 a4 \bar "|"  \break
+      a'4.( g8 f?16[ g] \acciaccatura { a16 [b] } c4) \slurNeutral b!8([ c] a2) g4 a4 \bar "|"  \break
 
-      \stemUp a8([ bes16 c] a8  [g]) f8([ e a g]) f4.( e8 d[ e16 f] d4) d2 \bar "|"  \break
+      \stemUp a8([ bes?16 c] a8  [g]) f8([ es a g]) f4.( es8 d[ es16 f] d4) d2 \bar "|"  \break
 
-      \stemNeutral \slurDown a'4.( g8[ f16 g] \acciaccatura { a16 [b!] } c4) \slurNeutral b8([ c]  a2)  a4 \stemUp b \bar "|"
+      \stemNeutral \slurDown a'4.( g8[ f16 g] \acciaccatura { a16 [b!] } c4) \slurNeutral b!8([ c]  a2)  a4 \stemUp b \bar "|"
       \stemNeutral c4( d \appoggiatura d8 c4 b!8[ c]) a2 g4 a \bar "|"  \break
 
-      a8([ bes16 c a8 g]) f([ e a g] f4. e8) \bar "|"
+      a8([ bes?16 c a8 g]) f([ e a g] f4. e8) \bar "|"
       d8([ e16 f] d4) d r8 d \bar "|"  \break
 
       d'2( c4. d16[ ees] d4 c \appoggiatura c8 \stemUp bes4 a c8[ bes16 a]  \stemNeutral bes8[ c]) \bar "|"  \break
@@ -76,7 +76,7 @@
       \appoggiatura g8 a2 \acciaccatura { bes16([ c] } bes8[ a g f g a]) a2 a4 \bar "|"
       \stemNeutral d4( c \acciaccatura { d16[ ees!]} d4 c \stemUp bes a) \acciaccatura { bes16[ a] } g2 \bar "|" \break
 
-      \stemNeutral c4 d d4.( e8 \bar "|" \noBreak
+      \stemNeutral c4 d d4.( e?8 \bar "|" \noBreak
       f4 e d c bes a) bes8([ a16 g] a4) \bar "|" \noBreak
       a8([ g16 f] g4. a8 \tuplet 3/2 { g4 f e } \bar "|" \break
 
@@ -84,7 +84,7 @@
       \appoggiatura g8( a2 \acciaccatura { bes16[ c] } bes8[ a] g8[ f g) a] a2 d,4 e \bar "|" \break
 
       g8([ f g a] g4 f8[ g] f4. e8) d([ e16 f)] d4 \bar "|" \noBreak
-      d2( c8[  d ees! d] g8[ fis! ees!16 fis  ees d] d2)\fermata \bar "|."
+      d2( c8[  d ees! d] g8[ fis! es16 fis  ees d] d2)\fermata \bar "|."
     }
 
     \addlyrics {

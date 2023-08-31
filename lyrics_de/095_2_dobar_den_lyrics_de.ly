@@ -1,6 +1,6 @@
 \version "2.24.1"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Dobar den" }
+\markup \fill-line { \fontsize #deTitleFontSize "Ein guter Tag" }
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {

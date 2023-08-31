@@ -38,7 +38,7 @@
       g'8  f8  e8  d8
       \tuplet 3/2 { c8 ( [  b8] ) a8 }
       | % 16
-      a2 r4 \break | % 17
+      a2 r4 \break \bar "||" % 17
       a2 ^\markup{ \bold {Più mosso} }  e'4 | % 18
       a2  g4 | % 19
       f2. |
@@ -89,7 +89,7 @@
       d16  c16  b16  d16 | \break % 54
       c16  b16  a16  gis16
       b8.  a16 | % 55
-      a2 \break | % 56
+      a2 \break \bar "||" | % 56
       \time 3/4  | % 56
       f4 ^\markup{ \bold {Poco meno mosso} }  e4
       dis4 | % 57

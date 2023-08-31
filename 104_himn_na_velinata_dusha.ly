@@ -27,7 +27,7 @@
 
       fis'2. | a'4 (g'4) e'4 | e'2. | d'2 \fermata
       \tempoFunc "Più mosso" 4 "88"
-      fis'4  | a'2 a'4 | b'2 fis'4 | \break
+      fis'4  \bar "||" a'2 a'4 | b'2 fis'4 | \break
 
       a'2. | a'2 a'4 | b'2 b'4 | b'2 ( cis''4 ) | a'2. ( | a'4 ) r4 a'4 | \break
 
@@ -96,7 +96,7 @@
 
       хвър -- кат пти -- ци -- те, бя -- гат сър -- ни -- те,
 
-      ве -- е вя -- тъ -- рът, а чо -- век -- ът сто -- и
+      ве -- е вя -- тъ -- рът, а чо -- ве -- кът сто -- и
 
       и ми -- сли що да пра -- ви.
 
@@ -112,7 +112,7 @@
 
       във Зна -- ни -- е, Мъд -- рост,
 
-      Ис -- ти -- на, Лю -- бов.“ "„Ве – "
+      Ис -- ти -- на, Лю -- бов.“ "„Ве - "
 
     }
     \addlyrics {
@@ -130,7 +130,7 @@
 
       hvăr -- kat pti -- ci -- te, bja -- gat săr -- ni -- te,
 
-      ve -- e vja -- tă -- răt, a čo -- vek -- ăt sto -- i
+      ve -- e vja -- tă -- răt, a čo -- ve -- kăt sto -- i
 
       i mi -- sli što da pra -- vi.
 
@@ -146,7 +146,7 @@
 
       văv Zna -- ni -- e, Măd -- rost,
 
-      Is -- ti -- na, Lju -- bov.“ "„Ve – "
+      Is -- ti -- na, Lju -- bov.“ "„Ve - "
 
     }
 

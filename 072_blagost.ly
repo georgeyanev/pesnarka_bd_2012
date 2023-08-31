@@ -45,7 +45,7 @@
       \repeat volta 2 {
         e''8 d'' c'' b' d'' c'' b' a' | e''8 d'' c'' b' d'' c'' b' a' \break |
 
-        b'8 a' g' fis' g'2 | d'8 d' d' e' f'!2 | g'8 f' e' d' c'2
+        b'8 a' g' fis' g'2 | d'8 d' d' e' f'?2 | g'8 f' e' d' c'2
       } \break | % 27
     }
 

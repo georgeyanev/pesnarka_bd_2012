@@ -63,7 +63,7 @@
       f8 ( [  e8 ) ]  d8 | % 46
       cis4  e8 | % 47
       d4. | % 48
-      d4. \break | % 49
+      d4. \break | \bar "||" % 49
       \tempo "Meno mosso" a4. |
       bes4  bes8 | % 51
       a4. | % 52

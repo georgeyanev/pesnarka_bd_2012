@@ -76,7 +76,7 @@
       }
       \alternative  {
         {\time 4/4 b'4 g'2 d'8. e'16 | }
-        { b'4 g'2 \bar "|."}
+        {\time 3/4 b'4 g'2 \bar "|."}
       }
     }
 

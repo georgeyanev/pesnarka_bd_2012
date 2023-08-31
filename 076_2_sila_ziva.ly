@@ -62,7 +62,7 @@
       во -- да из -- ви -- ра. Ка -- жи ми, ка -- жи
       ми, ка -- жи ми слад -- ки ду -- ми две. __ Твой --
       те ду -- ми две, __ слад -- ки ду -- ми две. __
-      две.}
+      две. __}
 
      
     \addlyrics {
@@ -73,7 +73,7 @@
       vo -- da iz -- vi -- ra. Ka -- ži mi, ka -- ži
       mi, ka -- ži mi slad -- ki du -- mi dve. __ Tvoj --
       te du -- mi dve, __ slad -- ki du -- mi dve. __
-      dve.}
+      dve. __}
 
         \header {
           title = \titleFunc "Сила жива" "Sila živa"

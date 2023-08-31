@@ -50,20 +50,20 @@
     \addlyrics {
       "1. Хо" -- ди хо -- ди хо -- ди за во -- да -- та хо -- ди
 
-      су -- трин -- на -- та ро -- са -- през ре -- чи -- ца бис -- тра, по пъ -- те -- ка
+      су -- трин -- на -- та ро -- са, през ре -- чи -- ца бис -- тра, по пъ -- те -- ка
 
       чис -- та. За -- до -- ма  си но -- си  таз во -- ди -- ца бис -- тра,
 
-      за цве -- тен -- ца ми -- "ли –"  ней -- ни -- те де -- чи -- ца.
+      за цве -- тен -- ца ми -- ли, ней -- ни -- те де -- чи -- ца.
     }
     \addlyrics {
       "1. Ho" -- di ho -- di ho -- di za vo -- da -- ta ho -- di
 
-      su -- trin -- na -- ta ro -- sa -- prez re -- či -- ca bis -- tra, po pă -- te -- ka
+      su -- trin -- na -- ta ro -- sa, prez re -- či -- ca bis -- tra, po pă -- te -- ka
 
       čis -- ta. Za -- do -- ma  si no -- si  taz vo -- di -- ca bis -- tra,
 
-      za cve -- ten -- ca mi -- "li –" nej -- ni -- te de -- či -- ca.
+      za cve -- ten -- ca mi -- li, nej -- ni -- te de -- či -- ca.
     }
 
     \header {

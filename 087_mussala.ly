@@ -29,7 +29,7 @@
       
       \time 6/4 b'4 ( d''4 ) c''4 ( a'4 ) g'2 \tempo "rit." | \break 
       
-      e'2 d'4. c'8 c'4 \fermata \bar "||" \tempoFunc "Poco più mosso" 4 "76" g'4  | 
+       \time 4/4 e'2 d'4. c'8 |  \time 3/4 c'2 \tempoFunc "Poco più mosso" 4 "76" g'4  | 
 
       \time 3/4 
 
@@ -41,7 +41,7 @@
 
       \time 4/4 d''4 c'' c'' b' | \time 6/4 c''4 a' g' fis' g'2 \fermata | \time 4/4 c'4 e'4 g'2 | \break
 
-      e'4 g'4 c''2  | \time 4/4 \tempo "        rit." b'4 ( d''4 ) c''4 ( a'4 ) | \time 3/4 g'2 e'4 | g'4 ( f'4 ) d'4 | \break
+      e'4 g'4 c''2  | \tempo "        rit." b'4 ( d''4 ) c''4 ( a'4 ) | \time 3/4 g'2 e'4 | g'4 ( f'4 ) d'4 | \break
 
       c'2\fermata
 

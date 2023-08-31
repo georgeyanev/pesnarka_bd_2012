@@ -22,13 +22,13 @@
       \autoBeamOff
       d'4 a8 b8 | a8 fis8 d e | fis4 ( e4 ) | a2 | g4 b8 b| \break
 
-      a8 g fis d | e [ ( fis ] e4 )  | d2 \bar "||" \time 4/4 \tuplet 3/2 { { g8 [ (   a8 ) ] b8 } } a4 a2 \break
+      a8 g fis d | e [ ( fis ] e4 )  | d2 | \time 4/4 \tuplet 3/2 { { g8 [ (   a8 ) ] b8 } } a4 a2 \break
 
-      \tuplet 3/2 {    { d,8 [( e8 )] } fis8 } e4 d2 |  \key g \major \time 2/4
+      \tuplet 3/2 {    { d,8 [( e8 )] } fis8 } e4 d2 \bar "||"  \key g \major \time 2/4
       \tempoFunc "Più mosso" 4 "184"
       g4. ( fis8 | e4 ) d4 | c4. e8 |  d4 c | \break
 
-      b4 c | d (e) \bar "||" \time 3/4 d2 d4 | b'4. a8 g8. fis16 | e4 d c8. c16  | \break
+      b4 c | d (e) | \time 3/4 d2 d4 | b'4. a8 g8. fis16 | e4 d c8. c16  | \break
 
       e4. d8 c8. c16 | b2 r4 \repeat volta 2 {
         b'4 c4. b8 | a8 g fis [(g)] a4  \break
@@ -36,9 +36,9 @@
         g4 fis e | \time 2/4 d8 c b8 [(c8) ] | d2 |
       } g4. fis8 | \break
 
-      e8 [( d ] e [d ]) | d2 | a'4. g8  |  e8 [( d8  ] e8 [d8 ]) | d2 \bar "||" \break
+      e8 [( d ] e [d ]) | d2 | a'4. g8  |  e8 [( d8  ] e8 [d8 ]) | d2 | \break
 
-      \time 3/4 d8 g a a a a | d, fis a \tempo "rit." a a a \bar "||" \key d \major \time 2/4 \tempo "Tempo I" d4 a8 b | \break
+      \time 3/4 d8 fis a a a a | d, fis a \tempo "rit." a a a \bar "||" \key d \major \time 2/4 \tempo "Tempo I" d4 a8 b | \break
 
       a8 fis d e | fis fis e4| a2 | g4 b8 b | a g fis d | \break
 
@@ -81,7 +81,7 @@
       zo -- ra se svet -- la za -- zo -- rja -- va,
       za -- zo -- rja -- va, za -- zo -- rja -- va,
 
-      Păl -- na 	Pa -- dost tja v~Ži -- vo -- ta vna -- sja.
+      Păl -- na 	Ra -- dost tja v~Ži -- vo -- ta vna -- sja.
 
       Na mla -- di no -- si zdra -- ve,
 

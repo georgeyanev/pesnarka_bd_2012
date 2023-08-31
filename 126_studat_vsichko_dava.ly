@@ -36,24 +36,23 @@
       b'8  a'8  g'8  e'8  fis'8
       g'8 | % 13
       a'2. | % 14
-      d''2 \grace {
-        cis''16 ( [  d''16
-        e''16 ]
-      }
-      d''8. )  cis''16 | % 15
+     
+        \afterGrace  d''2 ( {  cis''16  [  d''16
+        e''16 ] ) }  d''8.  cis''16 | % 15
+     
       \time 2/4  | % 15
       d''4.  b'8 \break | % 16
       a'4.  a'8 | % 17
       a'8  g'8  fis'8  e'8 | % 18
-      d'4. \tempoFunc "Più mosso" 4 "84" d'8 | % 19
+      d'4. \tempoFunc "Più mosso" 4 "84" d'8 | \bar "||" % 19
       d'8.  d'16  d'8.  fis'16 \break |
       \time 3/4  |
       a'8.  a'16  a'4.  g'8 | % 21
       fis'8  e'8  d'8.  cis'16  e'8.
       d'16 | % 22
       \time 2/4  | % 22
-      d'4.  d'8 \break | % 23
-      \key d \minor d'8.  d'16  d'8.  f'16 | % 24
+      d'4.  d'8 \break | \bar "||"  % 23
+      \key d \minor d'8.  d'16  d'8.  f'?16 | % 24
       \time 3/4  | % 24
       a'8.  a'16  a'4.  g'8 | % 25
       f'8  e'8  d'8.  cis'16  e'8.
@@ -96,7 +95,7 @@
       \time 3/4  | % 53
       e'8 ( [  f'8 ) ]  g'8  a'8
       bes'8 -- ^\markup{ \bold {(rit.)} }  d''8 -- | % 54
-      cis''2 ^\fermata  a4 \time 3/4 \break | % 55
+      cis''2 ^\fermata  a4 \time 3/4 \break | \bar "||"  % 55
 
       \tempoFunc "Largamente" 4 "54"
       \times 2/3  {
@@ -106,7 +105,7 @@
       \time 2/4  | % 56
       e'8 ( [  f'8 ) ]  g'8  a'8  | % 57
       e'8  g'8  f'8  e'8 | % 58
-      d'2 \break | % 59
+      d'2 \break \bar "||"  % 59
       \tempoFunc "Tempo I" 4 "63"
       a'8 ( [  bes'32  a'32  gis'32
       a'32 ) ]  bes'4 |
@@ -120,29 +119,29 @@
       bes'4  a'2 | % 66
       f'8.  f'16  f'16 ( [  e'16 ) ]
       d'16  cis'16  d'8 ( [  bes8 ) ] | % 67
-      a2  a4 \break | % 68
+      a2  a4 \break \bar "||"  % 68
      
       \times 2/3  {
-        d'8 ( [ ^\markup{ \bold {Largamente} }  cis'8\prall ) ]
+        d'8 ( [ ^\markup{ \bold {Rubato} } cis'8\prall ) ]
         bes8
       }
       a4. a'8
       | % 69
       \time 2/4  | % 69
-      g'8 ^\markup{ \bold {a tempo} }  f'8  e'8 ( [
+      g'8 f'8  e'8 ( [
       f'8 ) ] |
       g'4  e'8.  f'16 | % 71
       d'2 \bar "||"
       \break | % 72
 
-      d''4 ( ^\markup{ \bold {Più mosso} }  bes'4 ) | % 73
-      a'8. \tempoFunc "" 4 "84"  gis'16  a'8  bes'8
+     \tempoFunc "Più mosso" 4 "84" d''4 (bes'4)  | % 73
+      a'8. gis'16  a'8  bes'8
       | % 74
       a'4.  g'8 | % 75
       f'8.  e'16  f'8.  e'16 | % 76
       f'4.  e'8 \break | % 77
       d'8. ^\markup{ \bold {rit.} }  cis'16  d'8.
-      e'16 | % 78
+      e'16 \bar "||"  % 78
       \time 3/4  | % 78
       \tempoFunc "Andante" 4 "66" d'2
       \times 2/3  {
@@ -214,7 +213,7 @@
       d'8
 
       [  fis'8 ) ] | % 105
-      fis'2 | % 106
+      fis'2 \bar "||"  % 106
       \key d \minor
       \time 3/4  | % 106
 
@@ -223,7 +222,7 @@
       }
       d'8 [  f'8 ) ]  d'8 ( [  f'8 ) ] | % 107
       \time 2/4  | % 107
-      f'2 \break | % 108
+      f'2 \break \bar "||"  % 108
 
       \tempo "Meno mosso" a'16 ( [  gis'16  a'16  bes'16 ) ]
       a'4 | % 109

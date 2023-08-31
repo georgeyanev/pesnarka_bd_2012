@@ -35,7 +35,7 @@
 
       \tempoFunc "Meno mosso " 4 "63"| \bar ":|.|:" c4  b8  a8 \break |
 
-      \time 3/4  | gis8 ( [  f8 ) ]  e4.  e8 | \time 2/4  | g!8  f8  e8  d8 | e2
+      \time 3/4  | gis8 ( [  f8 ) ]  e4.  e8 | \time 2/4  | g?8  f8  e8  d8 | e2
       \bar ":|."
 
     }

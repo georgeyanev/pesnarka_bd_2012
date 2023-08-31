@@ -18,15 +18,15 @@
       \tempoFunc "Allergetto" 4. "54"
       \autoBeamOff
 
-      bes'4 bes'8 | bes'4 bes'8 |  bes'4 bes'8 |  a'8 ( bes'8 )  c''8 \noBeam | \acciaccatura { c''8 ( } a'4 ) g'8 | \break
+      bes'4 bes'8 | bes'4 bes'8 |  bes'4 bes'8 |  a'8 ([ bes'8] )  c''8 \noBeam | \acciaccatura { c''8 ( } a'4 ) g'8 | \break
 
-      g'4 g'8 | g'4 g'8 | g'8 ( a'8 ) bes'8 \noBeam|  \acciaccatura { bes'8 ( } g'4 ) f'8 | f'4 f'8 | \break
-
-
-      f'4 f'8 | es'8 ( f'8 ) g'8 \noBeam | \acciaccatura { g'8 ( } es'4 ) d'8 |  d'4 d'8 | c'8 ( d'8 ) c'8 \noBeam | bes4. ~ | bes4. \break
+      g'4 g'8 | g'4 g'8 | g'8 ([ a'8] ) bes'8 \noBeam|  \acciaccatura { bes'8 ( } g'4 ) f'8 | f'4 f'8 | \break
 
 
-      | d'4 d'8 | c'8 ( d'8 ) c'8 \noBeam | bes4. ~ | bes4. |  d'4 d'8 | \tempo "rit." c'8 [( d'8 )] \noBeam c'8 | bes4. ~ |
+      f'4 f'8 | es'8 ( [f'8 ]) g'8 \noBeam | \acciaccatura { g'8 ( } es'4 ) d'8 |  d'4 d'8 | c'8 ([ d'8 ]) c'8 \noBeam | bes4. ~ | bes4. \break
+
+
+      | d'4 d'8 | c'8 ( [d'8] ) c'8 \noBeam | bes4. ~ | bes4. |  d'4 d'8 | \tempo "rit." c'8 [( d'8 )] \noBeam c'8 | bes4. ~ |
       \tempo "     Fine" bes4. \bar "|." \break
 
        \tempo "a tempo" d'8. \noBeam d'16 \noBeam d'8 |  f'8.\noBeam f'16 \noBeam f'8 | g'4 d'8 | f'4 es'8 |  es'4. ~ | \break

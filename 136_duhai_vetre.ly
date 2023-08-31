@@ -82,7 +82,7 @@
           fis4  e4  fis4  fis4.
         }
         {
-          fis4  e4  fis4  fis4.^\fermata
+          fis4  e4  fis4  fis4.^\fermata \bar "||"
         }
       }
 
