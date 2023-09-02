@@ -53,7 +53,7 @@
       \tempoFunc "Allegro" 4 "126"
       %\autoBeamOff
       d''4. cis''16 d''16 | % 2
-      e''8 d''8 d''8 c''!8 | % 3
+      e''8 d''8 d''8 c''?8 | % 3
       c''8 b'8 b'8 a'8 | % 4
       a'8 g'8 g'8 fis'8 \break | % 5
       a'16 g'16 fis'16 e'16 d'8 c'8 | % 6

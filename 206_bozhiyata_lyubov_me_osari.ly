@@ -65,7 +65,7 @@
       \tempoFunc "Moderato" 4 "80"
       e'4
       ^\mf | % 21
-      \time 4/4  | % 21
+      \time 4/4  | \bar "||" % 21
       cis''4  b'4  a'4  gis'8 ( [
       fis'8 ) ]  | % 22
       e'2.  fis'8 ( [ ^\p  gis'8 ) ] ^\< \break | % 23

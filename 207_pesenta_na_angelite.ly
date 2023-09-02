@@ -22,7 +22,7 @@
       d'8  d'8  c'8  d'8  e'4
       e'4 | % 3
       e'4  d'4  e'4 r4 | \break % 4
-      \time 6/8  | % 4
+      \time 6/8  | \bar"||" % 4
       \tempoFunc "" 4. "50"
       g'8  g'8 c''8 b'4.  | % 5
       a'4.  g'4  f'16 ( [  g'16 ) ] | % 6
@@ -32,7 +32,7 @@
       | % 8
       e'4. ( \appoggiatura {  g'8 }  f'4 )
       d'8 | % 9
-      d'4.  e'4. | 
+      d'4.  e'4. \bar"||" | 
       r4  g'8
       \tempoFunc "Più mosso" 4. "63"
       g'4. ~ ^\< |  \break % 11
@@ -175,7 +175,7 @@
       b'8 ( ais'8 )] 
       
       b'4. \break | % 73
-      \time 4/4  | % 73
+      \time 4/4  | \bar "||" % 73
       \tempoFunc "Moderato" 4 "80"
       dis''16 ( [ cis''16 dis''16
       e''16 ] fis''16 [ e''16 fis''16
@@ -191,7 +191,7 @@
       b'8  ais'8 b'4 r8
       b'8^\<
        \tempoFunc "Meno" 4 "60"
-       \time 2/4  | % 76
+       \time 2/4  | \bar "||" % 76
       cis''8 dis''8 e''8. cis''16
       | % 77
       \time 4/4  | % 77

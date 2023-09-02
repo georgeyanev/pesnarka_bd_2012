@@ -115,7 +115,7 @@
           \once \override Score.MetronomeMark.X-extent=#'(-1.5 . 0)
           \tempo "rit."
           a8 \acciaccatura { f8 } g \acciaccatura { g16[a] } g8[f16] | \noBreak
-          <g g,>8~ g~ g8. | \noBreak
+          <g g,>8~ g~ g8. \bar "||"  \noBreak
         }
       }
       \time 3/4 \break
@@ -135,7 +135,7 @@
       }
       \alternative {
         { a8[r16 g16] g4 | \noBreak }
-        { \time 2/4 a8[r16 g16] g4\fermata~\( | \noBreak }
+        { \time 2/4 a8[r16 g16] g4\fermata~\( \bar "||"  \noBreak }
       }
       \tempo "Moderato"
       \time 4/4

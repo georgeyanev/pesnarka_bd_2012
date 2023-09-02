@@ -19,15 +19,15 @@
       \partial 8
       d'8 | % 2
       a'4. g'8 \once \omit TupletBracket \tuplet 3/2 {
-        g'8 ( [ fis'8 )  g'8 ]
+        g'8 ( [ fis'8 ])  g'8 
       }
       | % 3
       a'4 c'4 r8 c'8 | % 4
       es'2 \autoBeamOff d'8 c'8 \break | % 5
-      bes4 a4 r8 d'8 | % 6
+      bes4 a4 r8 d'8 \bar "||" | % 6
       \time 5/4  | % 6
       \tempoFunc "Moderato" 4 "76"
-      es'2 d'4 r4 \autoBeamOn d'8 d'8 | % 7
+      es'2 d'4 r4 d'8 d'8 | % 7
       \time 3/4  | % 7
       bes'4 ( a'4 ) g'4 | % 8
       g'4 fis'4 g'4 \break | % 9
@@ -61,8 +61,8 @@
       \time 6/4
       bes'8  bes'8 a'8 g'8
       d''4  c''8  bes'8  % 21
-      a'4 g'8 d'8 | es'4 es'8. d'16 a'4 a'4 r2 \break | % 23
-      \autoBeamOn
+      a'4 g'8 d'8 | es'4 es'8. d'16 a'4 a'4 r2 \break \bar "||" | % 23
+     
       \key f \major
       c''8 a'8 a'4 a'4  g'8 f'8 a'8 a'8 a'4 | % 25
       a'4 a'4 g'8 f'8 g'8 g'8 g'4 r8 g'8 | \break  % 27
@@ -75,7 +75,7 @@
        d''4.
       d''4. g'8 a'8  bes'8 | 
       \time 6/8
-       c''4  d''8 \autoBeamOn e''?8  d''8  c''8 |  d''4. (d''4) r8 | \break
+       c''4  d''8 e''?8  d''8  c''8 |  d''4. (d''4) r8 | \bar "||" \break
       \key a \minor
       \autoBeamOff a'8 a'8 a'8 c''8 a'8 g'8 | a'4. a'4. |
       f''4.  e''4 a'8  | \break
@@ -90,7 +90,7 @@
 
       \autoBeamOn
     
-      \time 5/4 a'8 (  [ b'8 )   c''8 (   d''8 ) ]  e''4 a'4  a'4 | 
+      \time 5/4 a'8 (  [ b'8] )   c''8 (  [ d''8] )  e''4 a'4  a'4 | 
       \time 3/4 
       f''2  \autoBeamOff e''8  d''8 |
       \time 4/4

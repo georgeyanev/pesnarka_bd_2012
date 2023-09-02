@@ -58,7 +58,7 @@
       | % 11
       d4.  a8  c16  bes16
       a16  g16 | % 12
-      g2 r4 \break \repeat volta 2 {
+      g2 r4    \bar ".|:-||"  \break \repeat volta 2 {
         | % 13
         \time 4/4  | % 13
         d'8 ^\fermata
@@ -85,7 +85,7 @@
         >>
         \break | % 15
 
-        \tempo "rall." f!16 es16
+        \tempo "rall." f?16 es16
         d16  cis16  d2
         \times 2/3  {
           \tempo "a tempo" c8 bes8

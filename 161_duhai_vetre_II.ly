@@ -69,7 +69,7 @@
       c'4  c'4  d'4  es'4. | \break % 26
       d'4  c'4  d'4  d'4. | % 27
       \tempoFunc "Meno mosso" 4 "144"
-      bes'4 bes'8 bes'8  a'4
+      \bar "||" bes'4 bes'8 bes'8  a'4
       bes'4. | % 28
       a'4  g'4  a'4  g'4. \break | % 29
       fis'4  es'4  fis'4  es'4. |

@@ -113,6 +113,7 @@
           c''4.  bes'8  a'4  g'4 | % 14
           f'4 (  d''2 )  c''4 | % 15
           bes'2. r4 \break
+          \bar ".|:-||" 
           \repeat volta 2 {
             | % 16
             \tempoFunc "Poco più mosso" 4 "92"

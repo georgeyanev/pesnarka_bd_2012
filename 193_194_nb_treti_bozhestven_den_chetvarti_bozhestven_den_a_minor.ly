@@ -151,12 +151,12 @@
 
     \new Voice \absolute {
       \clef treble
-      \key a \minor
+      \key e \minor
       \time 3/4
       \tempoFunc "Moderato espressivo" 4 "88"
       \autoBeamOff
       \partial 8
-        f'8  | % 2
+      f'8  | % 2
       f'2  e'4 | % 3
       a'2  gis'4 | % 4
       b'4 ( d''4 c''4 ) | % 5
@@ -172,8 +172,8 @@
       a'2 b'2 | % 13
       c''4 (  a'4 ) d''2 | % 14
       c''4  a'4 b'2 ~ | % 15
-      \key g \major b'2 r4 b'4 | % 16
-      fis''?2. e''4 \break  | % 17
+      b'2 r4 b'4 | % 16
+      fis''2. e''4 \break  | % 17
       d''2 d''4 d''4 | % 18
       c''4 (  a'4 ) b'4 ( c''4 ) | % 19
       b'2 r4 b'4 |

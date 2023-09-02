@@ -89,8 +89,8 @@
       a8 [d'8] g16 ([ a16 bes16 a16 ]) | % 21
       g8 g4 g8 \bar "||"
       \break | % 22
-      \key g \minor \time 5/4
-      \bar ".|:" \repeat volta 2 {
+       \time 5/4
+       \bar ".|:-||"  \repeat volta 2 {
         d'8 d'4 d'4 d'8 bes'8[ \acciaccatura { a'16 ( [bes'16] } a'8] ) g'8
         [es'8] | % 23
         d'8 d'4 d'4 d'8 bes'8[ \acciaccatura { a'16 ( [bes'16] } a'8] ) g'8

@@ -219,7 +219,7 @@
             d'2 \fermata r4 d'4 |
             d'2 ^\markup{ \bold {Tempo I} } cis'2 | % 232
             d'2 r2 | % 233
-            f'2 -- d'2 -- | % 234
+            f'2 -- d'2 -- | \bar "||" % 234
             \time 3/4  | % 234
             \key d \major r2 a'8 ^\markup{ \bold {Più mosso} } a'8  | % 235
             a'4 a'8 a'8 g'8 a'8 \break | % 236
@@ -231,7 +231,7 @@
             \times 2/3  {
               a'8  gis'8 fis'8
             }
-            \bar "||"
+            
 
            | % 237
             b'4  b'4 r2  | % 238
@@ -245,7 +245,7 @@
               a'4 a'4 a'4
             }
             | % 243
-            a'2. r4 \break | % 244
+            a'2. r4 \break | \bar "||"% 244
             r4 gis'2 ^\markup{ \bold {Più mosso} } gis'4 -- | % 245
             \time 6/4  | % 245
             cis''2. --  b'4 --  b'4 --  b'4

@@ -82,7 +82,7 @@
 
       e8\accent d c b16 | \noBreak
       c8\accent d \stemUp b \stemNeutral g16 | \noBreak
-      a4 a8. | \break
+      a4 a8. | \bar "||"  \break
       g'8\f^\accent a f e16 | \noBreak
       e8^\accent g f d16 | \noBreak
 
@@ -103,17 +103,17 @@
 
       \time 7/8  \tempoFunc "Andante" 8 "150" a4 (d8[e]) f8([ g f]) | e4 ~ e4 ~ e4. | \noBreak
 
-      c4 \acciaccatura{ b16[c] } \stemUp b4 \stemNeutral a8 gis a8 |  b8([c b])  e,4 ~ e | \break
+      c4 \acciaccatura{ b16[c] } \stemUp b4 \stemNeutral a8 gis a8 |  b8([c b])  e,2 | \break
 
       e'8\tenuto f\tenuto g\tenuto  g4 a4 |  \noBreak
 
       \acciaccatura {f16[g]}  f8 e g  f4\tenuto e4\tenuto | \noBreak
-      a4. d,4 ~ d | \break
+      a4. d,2 | \break
       g4 f e d8 | c b c4 d4. | e4 ~ e4 ~ e4. | \break
 
       \tempo "rit." a,4 b c4. | \time 9/8 b4 d c b4. | \noBreak
       \time 7/8
-      a4 ~ a4 ~ a4. ~ | a4 ~ a4 ~ a4. | \break
+      a4 ~ a4 ~ a4. ~ | a4 ~ a4 ~ a4. | \bar "||"  \break
       \tempo "a tempo" a4  d8 e  f([ g f]) | e4. ~ e4 ~ e4 |  \noBreak
 
       c'4 \acciaccatura{ b16[c] } b4 a8 [gis  a] | b8 ( [c8 b]) e,4 ~ e4 | \break
@@ -127,7 +127,7 @@
 
       c [b\tenuto] c4\tenuto d4.\tenuto| e4 e4 ~ e4. | \noBreak
       a,4 b c4. | \time 9/8 b4 d c b4. | \noBreak
-      \time 7/8 a4.~ ( a4 ~ a4) | a'4. ~ a4 ~ a4 \fermata \breathe | \bar "|" \time 2/4 \break    \bar ".|:-|"
+      \time 7/8 a4.~ ( a4 ~ a4) | a'4. ~ a4 ~ a4 \fermata \breathe | \bar "|" \time 2/4 \break    \bar ".|:-||" 
       \repeat volta 1 {
         \tempoFunc "Vivace" 4 "160"  c8_\markup{ \italic {ordinario} }\accent[b] a[g] | \noBreak
         a\accent[g] f[e] | \noBreak
@@ -157,8 +157,8 @@
       c[b] d[c] | \noBreak
       b[g] a4~ | \noBreak
       a8[b] c[d] | \noBreak
-      e_\markup{ poco a poco } [d] c[b] | \noBreak
-      d_\markup{ ritardando } [c]  b^\>[g]  | \noBreak
+      \tempo "poco a poco" e [d] c[b] | \noBreak
+      \tempo "rit." d [c]  b^\>[g]  | \noBreak
       a2 | \noBreak
       a4 a \! \fermata \breathe | \bar "||" \time 3/4 \break
 
@@ -168,7 +168,7 @@
       a4. b8 c4 \break
 
       d8\tenuto([e\tenuto]) \acciaccatura { d16\tenuto([e\tenuto] } d8\tenuto)[c\tenuto] b\tenuto [g\tenuto] | \noBreak
-      a2 a4 \fermata \noBreak
+      a2 a4 \fermata \bar "||" \noBreak
       \acciaccatura { dis8 } e2 d16\tenuto c\tenuto b\tenuto c\tenuto \breathe | \break
       \acciaccatura { dis8 } e2 d16\tenuto c\tenuto b\tenuto c\tenuto  \breathe | \noBreak
 

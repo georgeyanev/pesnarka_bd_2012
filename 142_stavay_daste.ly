@@ -48,7 +48,7 @@
       ces'2. d'8. es'16 | \time 3/4 f'2 es'8. [( d'16 )] | % 7
       es'2  d'8. ces'16 | % 8
       ces'4 bes2 | % 9
-      as2 r4 \break |
+      as2 r4  \bar "||"  \break 
       \time 8/16  |
       \tempo "Allegretto" g8 [( as16 )] bes8 ( ces'8. ) | % 11
       d'8. es'8 ~ es'8. | % 12
@@ -75,7 +75,7 @@
        f'4 es'8. d'16  es'4 d'8. ces'16 |
       ces'2. d'8. es'16 | \break
        f'4 es'8. [(d'16 ) ]es'2 | 
-      \time 3/4 d'8. ces'16 ces'4 bes8. as16 | as2 r4 | \break
+      \time 3/4 d'8. ces'16 ces'4 bes8. as16 | as2 r4 | \bar "||"  \break
       
       \time 8/16 \tempo "Allegretto" g8 [(as16 )] bes8 (ces'8. ) | d'8. es'8 (es'8.) |
       
@@ -94,7 +94,7 @@
       d'8. es'8 ~ es'8. \break |
       f'8 es'16 d'8 ces'8. | % 27
       d'8 ces'16 d'8 ces'8. | % 28
-      bes8 [( as16 )] bes8 ~ bes8. | \break
+      bes8 [( as16 )] bes8 ~ bes8. | \bar "||"  \break
 
       %\pageBreak
 
@@ -102,7 +102,7 @@
       ges'2. f'8.es'16 | f'4 es'8. d'16  es'4 d'8. ces'16 | \break
       ces'2. d'8. es'16 |
       f'4 es'8. d'16  es'2 |
-      \time 3/4 d'8. ces'16 ces'4 bes8. [(as16) ] | as2 r4 | \pageBreak
+      \time 3/4 d'8. ces'16 ces'4 bes8. [(as16) ] | as2 r4 | \bar "||"  \pageBreak
       \time 8/16 \tempo "Allegretto" g8 [(as16 )] bes8 (ces'8. ) | d'8. es'8 (es'8.) |  f'8 es'16 d'8 ces'8. | d'8 ces'16 d'8 ces'8. | \break  bes8 [(as16)] bes8 (bes8.) 
 
       ces'8. ( ~ ces'8 bes8. ) |
@@ -142,7 +142,7 @@
       Ста -- вай, __ че мо -- ми и мом -- ци __ вси към ни -- ва -- та са веч тръг -- на -- ли. __
 
       "3. Ни" -- ва е, дъ -- ще, Жи -- во -- тът,
-      де доб -- ро -- то се -- ме се сей.
+      де до -- бро -- то се -- ме се сей.
       Кат' из -- рас -- не, "Жи-" -- вот вна -- ся
       то във __ нас. Ста -- вай, __ дъ -- ще, __
       Лю -- бов -- та днес мен и те -- бе ча -- ка. __
@@ -173,7 +173,7 @@
       Sta -- vaj, __ če "mo-" -- mi i mom -- ci __ vsi kăm ni -- va -- ta sa več trăg -- na -- li. __
 
       "3. Ni" -- va e, dă -- šte, Ži -- vo -- tăt,
-      de dob -- ro -- to se -- me se sej.
+      de do -- bro -- to se -- me se sej.
       Kat' iz -- ras -- ne, Ži -- vot vna -- sja
       to văv __ nas. Sta -- vaj, __ dă -- šte, __
       Lju -- bov -- ta dnes men i te -- be ča -- ka. __
