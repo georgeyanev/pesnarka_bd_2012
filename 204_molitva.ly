@@ -85,7 +85,7 @@
           Tempo I
         }
       }
-      ^\> |
+      ^\> | \bar "||"
       \time 6/8  |
       ais4  gis8  fis4  dis8 \break | % 111
       eis4  \! fis8 \!  dis4  dis8 | % 112

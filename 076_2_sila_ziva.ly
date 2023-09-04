@@ -10,7 +10,7 @@
   \score {
     \include "include/score-layout.ily"
 
-     \new Staff = main \absolute {
+    \new Staff = main \absolute {
       \clef treble
       \key g \major
       \time 7/16
@@ -22,29 +22,29 @@
 
       d'8 g' d'8. | d'8 c'' b'8. | a'8 b' g'8. | d'8 c'' b'8. | a'8 b' g'8. \break |
 
-      \repeat volta 2 { g'8 b' b'8. | b'8 d'' d''8. |
-      
-      
-             <<
-          { b'8 d''8 b'8. }
-
-          \new Staff \with {
-            \override VerticalAxisGroup.default-staff-staff-spacing =
-            #'((basic-distance . 5.2)
-               (padding . -10))
-            \remove "Time_signature_engraver"
-            alignAboveContext = #"main"
-            fontSize = #-1
-            \override StaffSymbol.staff-space = #(magstep -3)
-            \override StaffSymbol.thickness = #(magstep -3)
-            firstClef = ##f
-          }
-          {\autoBeamOff c''8 ^\markup { \huge \italic "ossia" \italic "според П. Ганев" }  d''8 b'8.}
-        >>
+      \bar ".|:-|"  g'8 b' b'8. | b'8 d'' d''8. |
 
 
+      <<
+        { b'8 d''8 b'8. }
 
-      | a'8 b' g'8. } \break
+        \new Staff \with {
+          \override VerticalAxisGroup.default-staff-staff-spacing =
+          #'((basic-distance . 5.2)
+             (padding . -10))
+          \remove "Time_signature_engraver"
+          alignAboveContext = #"main"
+          fontSize = #-1
+          \override StaffSymbol.staff-space = #(magstep -3)
+          \override StaffSymbol.thickness = #(magstep -3)
+          firstClef = ##f
+        }
+        {\autoBeamOff c''8 ^\markup { \huge \italic "ossia" \italic "според П. Ганев" }  d''8 b'8.}
+      >>
+
+
+
+      | a'8 b' g'8. \bar ":.|.:" \break
 
       \key g \minor \repeat volta 2 { d'8 d'' d''8. | d'8 c'' c''8. | d'8 bes' bes'8. | a'8 g' g' g'16 | g'4 ~ g'8. } \break |
 
@@ -62,18 +62,18 @@
       во -- да из -- ви -- ра. Ка -- жи ми, ка -- жи
       ми, ка -- жи ми слад -- ки ду -- ми две. __ Твой --
       те ду -- ми две, __ слад -- ки ду -- ми две. __
-      две.}
+      две. __}
 
-     
-    \addlyrics {
-      Si -- la ži
-      -- va, Si -- la ži -- va, ka -- ži mi, ka -- ži
-      mi de vo -- da iz -- vi -- ra, de vo -- da iz
-      -- vi -- ra. Iz -- vi -- ra, iz -- vi -- ra, de
-      vo -- da iz -- vi -- ra. Ka -- ži mi, ka -- ži
-      mi, ka -- ži mi slad -- ki du -- mi dve. __ Tvoj --
-      te du -- mi dve, __ slad -- ki du -- mi dve. __
-      dve.}
+
+      \addlyrics {
+        Si -- la ži
+        -- va, Si -- la ži -- va, ka -- ži mi, ka -- ži
+        mi de vo -- da iz -- vi -- ra, de vo -- da iz
+        -- vi -- ra. Iz -- vi -- ra, iz -- vi -- ra, de
+        vo -- da iz -- vi -- ra. Ka -- ži mi, ka -- ži
+        mi, ka -- ži mi slad -- ki du -- mi dve. __ Tvoj --
+        te du -- mi dve, __ slad -- ki du -- mi dve. __
+        dve. __}
 
         \header {
           title = \titleFunc "Сила жива" "Sila živa"
@@ -83,11 +83,11 @@
 
       } % score
 
-       \markup \italic \dc-one-nobold "(По желание песента се изпълнява два пъти/Nach Wunsch wird das Lied zwei Mal gesungen.)"
+      \markup \italic \dc-one-nobold "(По желание песента се изпълнява два пъти/Nach Wunsch wird das Lied zwei Mal gesungen.)"
       \markup \italic \dc-one-nobold "attacca „Скръбта си ти кажи“„Teile mir deine Trauer mit“"
-      
- \markup \empty-two
-      
+
+      \markup \empty-two
+
 
       % include foreign translation(s) of the song
       \include "lyrics_de/076_2_sila_zhiva_lyrics_de.ly"

@@ -86,10 +86,10 @@
       \autoBeamOff
       \autoBeamOff
       c'4 f' | a'8 g' f' e' | g'8 d'4. | c'4 f' \break |
-      g'8 a' bes' c'' | a'4. r8 \repeat volta 2 {
+      g'8 a' bes' c'' | a'4. r8 \bar ".|:"
         | c''4 c'' | d''8 c'' bes' a' | c''8 g'4. \break |
-        c'4  f'4 | g'8 a' bes' c'' a'4 g'8 g' | f'4. r8
-      } \break
+        c'4  f'4 | g'8 a' bes' c'' a'4 g'8 g' | f'4. r8 \bar ":|."
+       \break
     }
 
     \addlyrics {

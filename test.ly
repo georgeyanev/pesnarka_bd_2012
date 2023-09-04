@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref016
-  \tocItem \markup "Зората на Новия живот – Zorata na Novija život"
+  \tocItem \markup "Зората на Новия живот"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -40,19 +40,8 @@
       тоз жи -- вот, __  жи -- вот на Ра -- дост -- та. __ 
     }
 
-   \addlyrics {
-      "1. Zo" -- ra se čud -- na za -- zo -- rja -- va, __ zo --
-      ra na sve -- tăl nov ži -- vot; __ s~ve -- li -- ko --
-      le -- pi -- e o -- grja -- va __  po -- spre -- li -- ja se
-      naš ki -- vot. __ V~no -- vi -- ja sve -- tăl toz ži -- vot, __
-      v~no -- vi -- ja sve -- tăl toz ži -- vot, __ ži -- vot na
-      Lju -- bov -- ta.  __  v~no -- vi -- ja sve -- tăl toz ži -- vot, __
-      ži -- vot na Bla -- gost -- ta, __ v~no -- vi -- ja sve -- tăl
-      toz ži -- vot, __  ži -- vot na Ra -- dost -- ta. __ 
-    }
-
     \header {
-      title = \titleFunc "Зората на Новия живот" "Zorata na Novija život"
+      title = \titleFunc "Зората на Новия живот" ""
     }
 
     \midi{}
@@ -60,9 +49,9 @@
 
   \pageBreak
 
-  \markup \fontsize #+1.7 {
-    \hspace #5
-    \override #'(baseline-skip . 1.8)
+ \markup \fontsize #bgCoupletFontSize {
+    \hspace #15
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line { 2. И птички въздуха изпълнят }
       \line {   "   " с възторг и сладки песни в хор, }
@@ -105,56 +94,11 @@
       \line { "   " \italic {Припев ...} }
       \line { " " }
     }
-
-    \hspace #5
-    \override #'(baseline-skip . 1.8)
-        \column {
-      \line { 2. I ptički văzduha izpălnjat }
-      \line {   "   " s văztorg i sladki pesni v hor, }
-      \line {   "   " Harmonijata da dopălnjat }
-      \line {   "   " V golemija nebesen dvor.}
-
-      \line { " " }
-      \line { "   " \italic {Pripev: } }
-      \line {  "   " V novija svetăl toz život, (2) }
-      \line { "   " Život na ljubovta, }
-      \line {  "   " V novija svetăl toz život,}
-      \line { "   " Život na blagostta, }
-      \line { "   "  V novija svetăl toz život,}
-      \line {  "   " Život na radostta.}
-      \line { " " }
-
-      \line { 3. Trepti zorata lekokrila  }
-      \line {   "   " i budi našite duši; }
-      \line {   "   " kato ljubjašta majka mila}
-      \line {   "   " podkanva vsekigo: „Stani!“}
-
-      \line { " " }
-      \line { "   " \italic {Pripev ...} }
-      \line { " " }
-
-      \line { 4. Lăči ot ljubovta ni vlivat }
-      \line {   "   " V gărdite živa toplina, }
-      \line {   "   " Săs sladka vjara ni povdigat }
-      \line {   "   " văv krepost i videlina. }
-
-      \line { " " }
-      \line { "   " \italic {Pripev ...} }
-      \line { " " }
-
-      \line { 5.  O, tez lăči ot Boga idat, }
-      \line {   "   " Te pălnjat našite sărca, }
-      \line {   "   " I šepnat sladko, kak Toj vika: }
-      \line {   "   " „Elate, moite deca!“ }
-      \line { " " }
-      \line { "   " \italic {Pripev ...} }
-      \line { " " }
-    } %column
   } % markup
 
   \markup \empty-one
 
   % include foreign translation(s) of the song
-  \include "lyrics_de/016_zorata_na_noviya_zhivot_lyrics_de.ly"
+  %\include "lyrics_de/016_zorata_na_noviya_zhivot_lyrics_de.ly"
 
 } % bookpart

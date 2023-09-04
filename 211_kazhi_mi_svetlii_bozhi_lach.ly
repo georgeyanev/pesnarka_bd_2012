@@ -50,7 +50,7 @@
       \time 3/4  | % 23
       d'2 r8  d'8  ^\p \break | % 24
       f'2. | % 25
-      es'2    
+      es'2
       \once \override Hairpin.to-barline = ##f
       d'8. ^\<  d'16 | % 26
       \time 4/4  | % 26
@@ -62,36 +62,36 @@
         fis'8 ( [  g'8  a'8 ) ]
       }
       | % 29
-      g'2. r4 \repeat volta 2 {
+      g'2. r4 \bar ".|:"
 
-        \time 3/4  |
-        d'4 (  ^\p  ^\<  b'4. )  a'8  ^\! | % 31
-        g'2. | % 32
-        g'2  ^\>  d'4 \break | % 33
-        fis'2  e'4 | % 34
-        e'2 (  fis'4 ) | % 35
-        d'2.  ^\! | % 36
-        c'2  ^\mp  ^\<  b4 | % 37
-        c'2  e'4  ^\! | % 38
-        e'2.  ^\> \break | % 39
-        d'2. |
-        d'2  ^\!  ^\<  d'4 | % 41
-        e'2  ^\! ^\markup \italic { "cresc." }  d'4 | % 42
-        \once \omit TupletBracket
-        
-          c'4 (  b4  
-          c'4 ) 
-        |
-        d'2. | % 43
-        e'4  e'4  fis'4  ^\< | % 44
-        g'4  a'4  b'4  ^\!  | % 45
-        d''2 ( ^\fermata  ^\mf  c''4 )  ^\> | % 46
-        b'2. | % 47
-        a'4 --  g'4 --  d'4 -- | % 48
-        fis'4 (  e'4 )  c'4  ^\! | % 49
-        a2 (  b4 ) |
-        g2.
-      }
+      \time 3/4  |
+      d'4 (  ^\p  ^\<  b'4. )  a'8  ^\! | % 31
+      g'2. | % 32
+      g'2  ^\>  d'4 \break | % 33
+      fis'2  e'4 | % 34
+      e'2 (  fis'4 ) | % 35
+      d'2.  ^\! | % 36
+      c'2  ^\mp  ^\<  b4 | % 37
+      c'2  e'4  ^\! | % 38
+      e'2.  ^\> \break | % 39
+      d'2. |
+      d'2  ^\!  ^\<  d'4 | % 41
+      e'2  ^\! ^\markup \italic { "cresc." }  d'4 | % 42
+      \once \omit TupletBracket
+
+      c'4 (  b4
+      c'4 )
+      |
+      d'2. | % 43
+      e'4  e'4  fis'4  ^\< | % 44
+      g'4  a'4  b'4  ^\!  | % 45
+      d''2 ( ^\fermata  ^\mf  c''4 )  ^\> | % 46
+      b'2. | % 47
+      a'4 --  g'4 --  d'4 -- | % 48
+      fis'4 (  e'4 )  c'4  ^\! | % 49
+      a2 (  b4 ) |
+      g2.
+      \bar ":|."
     }
 
     \addlyrics {
@@ -111,23 +111,23 @@
       благ   глас и ми -- лост --
       та Ти, о, Бо -- же, се из -- я
       -- вят  чрез ме -- не.}
-   \addlyrics {
-      Gos -- po -- di, Ti ži -- ve --
-      eš v~me -- ne, Ti ži -- ve --
-      eš v~me -- ne. Ka -- ži mi ti,
-      svet -- li Bo -- ži lăč, ka --
-      ži mi ti bla -- go -- to na Ži --
-      vo -- ta, svet -- li -- ja prav
-      păt na čis -- ti -- te du
-      -- ši, iz -- mi -- ti văv vo --
-      di -- te na Lju -- bov -- ta, na
-      čis -- ta -- ta Lju --  bov.
-      Gos -- po -- di, Ti ži -- ve --
-      eš v~me -- ne, Ti ži -- ve --
-      eš v~me -- ne. Ne -- ka Tvo -- jat
-      blag   glas i mi -- lost --
-      ta Ti, o, Bo -- že, se iz -- ja
-      -- vjat  črez me -- ne.}
+      \addlyrics {
+        Gos -- po -- di, Ti ži -- ve --
+        eš v~me -- ne, Ti ži -- ve --
+        eš v~me -- ne. Ka -- ži mi ti,
+        svet -- li Bo -- ži lăč, ka --
+        ži mi ti bla -- go -- to na Ži --
+        vo -- ta, svet -- li -- ja prav
+        păt na čis -- ti -- te du
+        -- ši, iz -- mi -- ti văv vo --
+        di -- te na Lju -- bov -- ta, na
+        čis -- ta -- ta Lju --  bov.
+        Gos -- po -- di, Ti ži -- ve --
+        eš v~me -- ne, Ti ži -- ve --
+        eš v~me -- ne. Ne -- ka Tvo -- jat
+        blag   glas i mi -- lost --
+        ta Ti, o, Bo -- že, se iz -- ja
+        -- vjat  črez me -- ne.}
 
 
         \header {
@@ -137,7 +137,7 @@
         \midi{}
 
       } % score
-      
+
       \markup \empty-one
 
       % include foreign translation(s) of the song

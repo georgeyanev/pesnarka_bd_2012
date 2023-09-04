@@ -18,7 +18,7 @@
       a'4. b'8 |  c''8 b'8 a'8 gis'8 | a'4 b'4 | e'2 |  f'4 e'8 d'8 \break |
 
 
-      c'8. b16 c'8 d'8 | e'2 | b4. d'8 | c'4 b4 | e'8 ( d'8 ) c'8 b8 \break |
+      c'8. b16 c'8 d'8 | e'2 | b4. d'8 | c'4 b4 | e'8 ( [d'8] ) c'8 b8 \break |
 
 
       a4 gis4 | a2 \bar ".|:"
@@ -39,10 +39,10 @@
 
     \addlyrics {
       Там   да  --  ле
-      --  че   зна  --  я   чу  --  ден   край -- Слън --  це,
+      --  че   зна  --  я   чу  --  ден   край: Слън --  це,
       цве  --  тя   и   пло  --  до  --  ве,   бли  --  ка   из  --
       вор,   рай  --  ска   гра  --  ди  --  на   е.   Ти   да   ми   ка
-      --  жеш   туй,   ко  --  е  --  то   знайш  --  за   ро  --  ден
+      --  жеш   туй,   ко  --  е  --  то   знайш, за   ро  --  ден
       край,   рай  --  ска   зе  --  мя,   где   рос  --  на   виш  --
       на   цъф  --  ти   и   зрей.   За   тоз   кра  --  сив   край
       път   по  --  ка  --  жи.   Къ  --  сай   са  --  мо   плод   у  --
@@ -53,10 +53,10 @@
 
     \addlyrics {
       Tam   da  --  le
-      --  če   zna  --  ja   ču  --  den   kraj -- Slăn --  ce,
+      --  če   zna  --  ja   ču  --  den   kraj: Slăn --  ce,
       cve  --  tja   i   plo  --  do  --  ve,   bli  --  ka   iz  --
       vor,   raj  --  ska   gra  --  di  --  na   e.   Ti   da   mi   ka
-      --  žeš   tuj,   ko  --  e  --  to   znajš  --  za   ro  --  den
+      --  žeš   tuj,   ko  --  e  --  to   znajš,  za   ro  --  den
       kraj,   raj  --  ska   ze  --  mja,   gde   ros  --  na   viš  --
       na   căf  --  ti   i   zrej.   Za   toz   kra  --  siv   kraj
       păt   po  --  ka  --  ži.   Kă  --  saj   sa  --  mo   plod   u  --

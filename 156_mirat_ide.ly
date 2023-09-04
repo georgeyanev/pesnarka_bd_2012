@@ -88,7 +88,7 @@
       g[g] f[ees] | \noBreak
       \acciaccatura { f } ees[cis] d4~ | \noBreak
       d r | \noBreak
-      c!8.[c16] c8[c] | \noBreak
+      c?8.[c16] c8[c] | \noBreak
       c4. bes16[a] | \break
 
       bes8[c] d[ees] | \noBreak
@@ -136,7 +136,7 @@
       g r g r | \noBreak
       g r g r | \break
 
-      d'4\mf^\markup{ \italic {largamente} } es8\<[fis] | \noBreak
+      d'4\mf^\markup{ \italic {largamente} } e!8\<[fis] | \noBreak
       <bes, g'>4 bes'8.[a16]\! | \noBreak
       <bes, g'>8 r <bes g'>[<bes g'>] \noBreak
       <bes g'> r <g d' bes' g'> r | \bar "|."

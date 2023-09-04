@@ -38,7 +38,7 @@
       }
       \alternative {
         {\time 3/4 d2 a'8 [(f)] }
-        {\time 2/4 d2 }
+        {\time 2/4 d4. }
       }
       \bar "|."
 

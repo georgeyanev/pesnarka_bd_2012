@@ -23,7 +23,7 @@
       bes'8
       a'8 \break | % 3
       \time 3/4  | % 3
-      bes'4.  aes'!8  ges'8  f'8 | % 4
+      bes'4.  aes'?8  ges'8  f'8 | % 4
       \time 2/4  | % 4
       ges'2 | % 5
       \time 3/4  | % 5
@@ -35,7 +35,7 @@
       ges'4  f'8 | % 9
       es'4  d'8 |
       es'4. ~  \break | % 11
-      es'4.  | % 12
+      es'4. \bar "||" | % 12
       \time 4/4  | % 12
       \tempoFunc "Moderato" 4 "100"
       bes'4  bes'4  bes'4  bes'4 | % 13

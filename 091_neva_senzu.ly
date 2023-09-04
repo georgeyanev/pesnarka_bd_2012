@@ -23,7 +23,7 @@
 
       \time 7/4 g''4-- g''-- \tuplet 3/2 { f''8 ([e'' d''8]  } \tuplet 3/2 {cis''8 [d'' e''8] })   d''2 \bar "|" f''8. f''16 f''4 e''8-- d''-- \tuplet 3/2 {cis''!8 [( d'' e''8 )] } d''2 \bar "|" \break
 
-      e''16-- f''16-- g''16-- a''-- bes''2-- a''8-- g''8--  f''8 ( [e''8 d''8] \tuplet 3/2 { cis''!8 [d''8 e''8] ) } d''2-- \bar "|" \break
+      e''16-- f''16-- g''16-- a''-- bes''2-- a''8-- g''8-- \tuplet 3/2 { f''8 ( [e''8 d''8] } \tuplet 3/2 { cis''!8 [d''8 e''8] ) } d''2-- \bar "|" \break
 
       f''8-- f''-- e''-- d''-- cis''!4-- bes'8-- a'8-- \tuplet 3/2 {g'8-- ( [a' bes'--])} a'2--  \fermata  g16-- a-- bes--  a-- \bar "|" \break
 

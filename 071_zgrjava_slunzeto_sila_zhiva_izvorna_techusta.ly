@@ -17,13 +17,11 @@
       \tempoFunc "Andandtinio" 4 "69"
       \partial 4
       \autoBeamOff
-
-      \repeat volta 2 {
         b4  |  d'2 d'4 | g'2 e'4 | d'2. | d'2 g'4 | b'2 a'4 \break |
 
         g'2. | a'2 b'4 | c''2 b'4 | d''2 c''4 | b'2 a'4^\markup { \concat {"              (" \fermata ")"}} |  g'2
-        \break
-      }
+        \break \bar ":|."
+      
     }
 
     \addlyrics {
@@ -76,7 +74,7 @@
       }
       \alternative  {
         {\time 4/4 b'4 g'2 d'8. e'16 | }
-        { b'4 g'2 \bar "|."}
+        {\time 3/4 b'4 g'2 \bar "|."}
       }
     }
 

@@ -98,11 +98,11 @@
         \addlyrics {
           Аз мо -- га
           да ди -- шам ве -- че до -- бре, аз мо -- га
-          да ди -- шам ве -- че до -- бре. \skip4 бре.}
+          да ди -- шам ве -- че до -- бре. Аз  бре.}
          \addlyrics {
           Az mo -- ga
           da di -- šam ve -- če do -- bre, az mo -- ga
-          da di -- šam ve -- če do -- bre. \skip4 bre.}
+          da di -- šam ve -- če do -- bre. Az bre.}
 
             \header {
               title = \titleFunc "Аз мога да дишам " "Az moga da dišam"

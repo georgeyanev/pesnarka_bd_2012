@@ -32,7 +32,7 @@
       a'4 \fermata g'2 | \bar ":|.|:" \time 5/4
       d''4 cis''4 es''4 d''2 | d''4 cis''4 es''4 d''2 \break |
 
-      \time 4/4  a'4 bes'4 c''4 bes'4 | \time 3/4  a'4 g'4 fis'4 |  a'4 \fermata g'2
+      \time 4/4  a'4 bes'4 c''4 bes'4 | \time 3/4  a'4 g'4 fis'4 | \time 4/4  a'4 \fermata g'2 s4
       | \bar ":|."
     }
 

@@ -34,7 +34,7 @@
       \key f \minor \bar ".|" \time 9/8 | % 15
 
 
-      \bar ".|:" \tempoFunc "            Più mosso" 4 "66" f4  f8  f4.  c'4. |
+      \bar ".|:-||"  \tempoFunc "            Più mosso" 4 "66" f4  f8  f4.  c'4. |
 
       des4.  c2.|
       c8 ( [ des8  c8 ) ]  bes4.  as4. | \break
@@ -67,7 +67,7 @@
       ря -- та мен  не раз -- би --
       ра, __ но аз я раз -- би
       -- рам. Бу -- ря -- та ме раз --
-      търс  -- ва за __  Доб -- ро --
+      търс  -- ва за __  До -- бро --
       то, що е във мен.
     }
 
@@ -82,7 +82,7 @@
       rja -- ta men  ne raz -- bi --
       ra, __ no az ja raz -- bi
       -- ram. Bu -- rja -- ta me raz --
-      tărs  -- va za __  Dob -- ro --
+      tărs  -- va za __  Do -- bro --
       to, što e văv men.
     }
 

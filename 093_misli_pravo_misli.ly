@@ -36,7 +36,7 @@
         \time 9/8 a4 a8 a4 a8 a4 a8 | g'4 fis'8 e'4 e'8 e'4 e'8 | \break
 
         \time 6/8  fis'4 e'8 d'4 cis'8 |
-      } \alternative { { d'4. ( d'4 ) a8 } { d'4. ( d'4 ) } } \bar "|."
+      } \alternative { { d'4. ( d'4 ) a8 } { d'4. ( d'8 ) } } \bar "|."
 
     }
 

@@ -82,7 +82,7 @@
 
       e8\accent d c b16 | \noBreak
       c8\accent d \stemUp b \stemNeutral g16 | \noBreak
-      a4 a8. | \break
+      a4 a8. | \bar "||"  \break
       g'8\f^\accent a f e16 | \noBreak
       e8^\accent g f d16 | \noBreak
 
@@ -103,17 +103,17 @@
 
       \time 7/8  \tempoFunc "Andante" 8 "150" a4 (d8[e]) f8([ g f]) | e4 ~ e4 ~ e4. | \noBreak
 
-      c4 \acciaccatura{ b16[c] } \stemUp b4 \stemNeutral a8 gis a8 |  b8([c b])  e,4 ~ e | \break
+      c4 \acciaccatura{ b16[c] } \stemUp b4 \stemNeutral a8 gis a8 |  b8([c b])  e,2 | \break
 
       e'8\tenuto f\tenuto g\tenuto  g4 a4 |  \noBreak
 
       \acciaccatura {f16[g]}  f8 e g  f4\tenuto e4\tenuto | \noBreak
-      a4. d,4 ~ d | \break
+      a4. d,2 | \break
       g4 f e d8 | c b c4 d4. | e4 ~ e4 ~ e4. | \break
 
       \tempo "rit." a,4 b c4. | \time 9/8 b4 d c b4. | \noBreak
       \time 7/8
-      a4 ~ a4 ~ a4. ~ | a4 ~ a4 ~ a4. | \break
+      a4 ~ a4 ~ a4. ~ | a4 ~ a4 ~ a4. | \bar "||"  \break
       \tempo "a tempo" a4  d8 e  f([ g f]) | e4. ~ e4 ~ e4 |  \noBreak
 
       c'4 \acciaccatura{ b16[c] } b4 a8 [gis  a] | b8 ( [c8 b]) e,4 ~ e4 | \break
@@ -127,13 +127,13 @@
 
       c [b\tenuto] c4\tenuto d4.\tenuto| e4 e4 ~ e4. | \noBreak
       a,4 b c4. | \time 9/8 b4 d c b4. | \noBreak
-      \time 7/8 a4.~ ( a4 ~ a4) | a'4. ~ a4 ~ a4 \fermata \breathe | \bar "|" \time 2/4 \break    \bar ".|:-|"
-      \repeat volta 1 {
-        \tempoFunc "Vivace" 4 "160"  c8_\markup{ \italic {ordinario} }\accent[b] a[g] | \noBreak
-        a\accent[g] f[e] | \noBreak
-        g\accent[f] e[d] | \noBreak
-        e4\prall e | \noBreak \bar ":|."
-      }
+      \time 7/8 a4.~ ( a4 ~ a4) | a'4. ~ a4 ~ a4 \fermata \breathe | \bar "|" \time 2/4 \break    \bar ".|:-||"
+
+      \tempoFunc "Vivace" 4 "160"  c8_\markup{ \italic {ordinario} }\accent[b] a[g] | \noBreak
+      a\accent[g] f[e] | \noBreak
+      g\accent[f] e[d] | \noBreak
+      e4\prall e | \noBreak \bar ":|."
+
       e8\tenuto[d]\tenuto c\tenuto[b]\tenuto | \noBreak
       c\tenuto[d]\tenuto e\tenuto[d]\tenuto | \break
 
@@ -143,22 +143,22 @@
       e\tenuto[d]\tenuto c\tenuto[b]\tenuto | \noBreak
       d\tenuto[c]\tenuto b\tenuto[g]\tenuto | \noBreak
       a2\tenuto | \noBreak
-      a4\tenuto a\tenuto |  \bar "|" \break \bar ".|:-|"
+      a4\tenuto a\tenuto | \break \bar ".|:-|"
 
-      \repeat volta 1 {
-        c'8\staccato[b]\staccato a\staccato[g]\staccato | \noBreak
-        a\staccato[g]\staccato f\staccato[e]\staccato | \noBreak
-        g\staccato[f]\staccato e\staccato[d]\staccato | \noBreak
-        e4\prall e | \noBreak  \bar ":|."
-      }
+
+      c'8\staccato[b]\staccato a\staccato[g]\staccato | \noBreak
+      a\staccato[g]\staccato f\staccato[e]\staccato | \noBreak
+      g\staccato[f]\staccato e\staccato[d]\staccato | \noBreak
+      e4\prall e | \noBreak  \bar ":|."
+
       e8\staccato[d]\staccato c\staccato[b]\staccato | \noBreak
       c[d] e[d] | \break
 
       c[b] d[c] | \noBreak
       b[g] a4~ | \noBreak
       a8[b] c[d] | \noBreak
-      e_\markup{ poco a poco } [d] c[b] | \noBreak
-      d_\markup{ ritardando } [c]  b^\>[g]  | \noBreak
+      \tempo "poco a poco" e [d] c[b] | \noBreak
+      \tempo "rit." d [c]  b^\>[g]  | \noBreak
       a2 | \noBreak
       a4 a \! \fermata \breathe | \bar "||" \time 3/4 \break
 
@@ -168,7 +168,7 @@
       a4. b8 c4 \break
 
       d8\tenuto([e\tenuto]) \acciaccatura { d16\tenuto([e\tenuto] } d8\tenuto)[c\tenuto] b\tenuto [g\tenuto] | \noBreak
-      a2 a4 \fermata \noBreak
+      a2 a4 \fermata \bar "||" \noBreak
       \acciaccatura { dis8 } e2 d16\tenuto c\tenuto b\tenuto c\tenuto \breathe | \break
       \acciaccatura { dis8 } e2 d16\tenuto c\tenuto b\tenuto c\tenuto  \breathe | \noBreak
 
@@ -203,13 +203,11 @@
       e4 e | \noBreak
       d8^\accent c c c | \noBreak
       c4 c | \break \bar ".|:-|"
-
-      \repeat volta 1 {
-        b8^\staccato g^\staccato a^\staccato b^\staccato | \noBreak
-        c4 c | \noBreak
-        c8^\staccato b^\staccato b^\staccato g^\staccato | \noBreak
-        a4 a |
-      } \time 3/4 \break \bar ":|."
+      b8^\staccato g^\staccato a^\staccato b^\staccato | \noBreak
+      c4 c | \noBreak
+      c8^\staccato b^\staccato b^\staccato g^\staccato | \noBreak
+      a4 a |
+      \time 3/4 \break \bar ":|."
 
       \override TupletBracket.positions = #'(3 . 3)
       \tempo "Tempo"
@@ -276,7 +274,7 @@
       smja -- na, __ tam go -- re srešt -- nah Li -- lja -- na. __ ""
       \repeat unfold 21 { \skip 1 }
       Iz -- vo -- răt stru -- i, iz -- vi -- ra __ i čis -- ti vo -- di raz -- li -- va, __
-      pla -- nin -- ska pe -- sen raz -- niz -- va. __ 
+      pla -- nin -- ska pe -- sen raz -- niz -- va. __
       \repeat unfold 1 { \skip 1 }
       Mo -- ma -- ta men -- ci na -- li -- va, __
       v~pe -- sen -- ta ti -- ho se za -- sluš -- va. __ ""

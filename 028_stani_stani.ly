@@ -4,8 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
-  
-     \label #'ref028
+
+  \label #'ref028
   \tocItem \markup "Стани, стани – Stani, stani"
 
   \include "include/bookpart-paper.ily"
@@ -24,11 +24,9 @@
       bes'4 c'' d'' | a'2 a'4 | f''2 d''4 |  g''2 \fermata f''4 \break |
       es''4 d'' c'' | bes'4 c'' d'' ~ | d''4  r a' | c''2 a'4 \break |
       d''2 a'4 | c''4 bes' a' | g'4 fis' a' | g'2 r4 | \time 2/4 \break |
-      \repeat volta 2 {
-        \bar ".|:-||" d''8 d'' es'' es'' | d''8 c'' d''4 | c''8 c'' d'' c'' \break |
-        c''8 a' bes'4 | bes'8 c'' d'' es'' | es''8 es'' d''4 \break |
-        a'8 c'' bes' a' | fis'8 a' g'4   \break
-      }
+      \bar ".|:-||" d''8 d'' es'' es'' | d''8 c'' d''4 | c''8 c'' d'' c'' \break |
+      c''8 a' bes'4 | bes'8 c'' d'' es'' | es''8 es'' d''4 \break |
+      a'8 c'' bes' a' | fis'8 a' g'4  \bar ":|." \break
     }
 
 
@@ -41,15 +39,15 @@
       се об -- ле -- чи и със не -- я все гра -- ди:
       тя ще те и об -- но -- ви, и с~Дух ще те о
       -- за -- ри.}
-    \addlyrics {
-      Sta -- ni, sta -- ni i Gos -- pod šte te o -- ži -- vi;
-      sta -- ni, sta -- ni i Gos -- pod šte te văz --
-      kre -- si; sta -- ni, sta -- ni i s~Lju -- bov --
-      ta za -- poč -- ni; __ sta -- ni, sta -- ni i v~Is
-      -- ti -- na se ob -- le -- či. V~Is -- ti -- na
-      se ob -- le -- či i săs ne -- ja vse gra -- di:
-      tja šte te i ob -- no -- vi, i s~Duh šte te o
-      -- za -- ri.}
+      \addlyrics {
+        Sta -- ni, sta -- ni i Gos -- pod šte te o -- ži -- vi;
+        sta -- ni, sta -- ni i Gos -- pod šte te văz --
+        kre -- si; sta -- ni, sta -- ni i s~Lju -- bov --
+        ta za -- poč -- ni; __ sta -- ni, sta -- ni i v~Is
+        -- ti -- na se ob -- le -- či. V~Is -- ti -- na
+        se ob -- le -- či i săs ne -- ja vse gra -- di:
+        tja šte te i ob -- no -- vi, i s~Duh šte te o
+        -- za -- ri.}
 
         \header {
           title = \titleFunc "Стани, стани" "Stani, stani"

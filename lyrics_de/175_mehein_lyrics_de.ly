@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Me-hejn" }
 \markup \null
 \markup \fontsize #deCoupletFontSize {
-  \hspace #8
+  \hspace #12
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -17,7 +17,7 @@
     \line {2. Ich erwache aus tiefem Schlaf }
     \line { "   " und rufe dich als Kind an.}
     \line { "   " Ich glaube immer, dass du}
-    \line { "   " über mich mit m ütterlicher Liebe wachst.}
+    \line { "   " über mich mit mütterlicher Liebe wachst.}
 
   }
 }

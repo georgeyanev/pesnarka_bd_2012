@@ -44,9 +44,9 @@
         e'4 g'8 f'4 e'8 | f'4 e'8 d'4. | \time 2/4 d''4^\markup {
           % make tempo notes
           \concat {
-            \teeny \general-align #Y #DOWN \note {4.} #0.8
-            \normal-text { " = " }
             \teeny \general-align #Y #DOWN \note {4} #0.8
+            \normal-text { " = " }
+            \teeny \general-align #Y #DOWN \note {4.} #0.8
             \normal-text { "  (= 60)" }
           }
         }

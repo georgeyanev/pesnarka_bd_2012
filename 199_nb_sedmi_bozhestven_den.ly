@@ -23,7 +23,7 @@
       | % 259
       dis''4  cis''4  dis''4.  dis''8
       fis''2 \break |
-      e''2 r2   \tempo "Maastoso" b'2  \bar
+      e''2 r2   \tempo "Maestoso" b'2  \bar
       "||"
       \key g \major | % 261
       b'2  b'2  b'2 | % 262
@@ -68,7 +68,7 @@
       g'1 r2 \bar "|."
     }
     \addlyrics {
-      И та -- ка съз -- да -- де
+      И та -- ка, съз -- да -- де
       Бог не -- бе -- то и зе -- мя --
       та, и всич -- ко -- то
       мно -- же -- ство съ -- ще -- ства __  във
@@ -81,7 +81,7 @@
       ви, бе до -- бро! А -- ум! А -- ум!
       А -- у -- мен!}
      \addlyrics {
-      I ta -- ka săz -- da -- de
+      I ta -- ka, săz -- da -- de
       Bog  ne -- be -- to i ze -- mja --
       ta, i vsič -- ko -- to
       mno -- že -- stvo să -- šte -- stva __ văv

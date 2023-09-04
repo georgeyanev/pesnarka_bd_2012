@@ -40,15 +40,15 @@
       }
       \alternative {
         {
-          c2. ( | c4)  r4 c4  |
-        }  {c2. \bar "||"  \break }
+          c2. ( | c4)  r4 c,4  |
+        }  {c'2. \bar "||"  \break }
       }
 
-      \repeat volta 2 {
-        \time 4/4
-        \tempoFunc "Moderato" 4 "72"
-        \bar ".|:" c4. g8 bes as g f | as2 g4. f8 | f g es2 d4 | c2 r4
-      }
+
+      \time 4/4
+      \tempoFunc "Moderato" 4 "72"
+      \bar ".|:-||" c4. g8 bes as g f | as2 g4. f8 | f g es2 d4 | c2 r4
+      \bar ":|."
     }
 
     \addlyrics {
@@ -82,7 +82,7 @@
 
         i me să -- bu -- di săs svo -- ja zov.
 
-        Ot ži -- te -- no "zăr-" -- no az sta -- nah mal -- ka ptič -- ka,
+        Ot ži -- te -- no zăr -- no az sta -- nah mal -- ka ptič -- ka,
 
         v~văz -- du -- ha da hvăr -- kam. __
 

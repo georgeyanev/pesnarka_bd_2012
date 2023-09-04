@@ -113,7 +113,8 @@
           c''4.  bes'8  a'4  g'4 | % 14
           f'4 (  d''2 )  c''4 | % 15
           bes'2. r4 \break
-          \repeat volta 2 {
+          \bar ".|:-||" 
+          
             | % 16
             \tempoFunc "Poco più mosso" 4 "92"
 
@@ -123,7 +124,7 @@
             d''2 | % 19
             f''4.  es''8  d''2 |
             c''2  bes'2
-          }
+         \bar ":|."
         }
 
         \addlyrics {

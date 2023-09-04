@@ -129,7 +129,7 @@
       ees8. g8~ g8. |
       fis8. ees8~ ees8. |
       fis8. ees8(c8.) |
-      d8. d8~ d8. | \bar "||"
+      d8. d8~ d8. | 
       g8. g8~ g8. | \break
 
       bes8. bes8~ bes8. |
@@ -138,7 +138,7 @@
       bes8. bes8 g8. |
       a8. a8~ a8.\fermata | \break
 
-      \bar ".|:" \tempo "Più mosso"
+        \bar ".|:-||"  \tempo "Più mosso"
       g8. g8~ g8. |
       fis8. ees8~ ees8. |
       fis8. ees8 c8. |
@@ -252,16 +252,16 @@
 
       \break \repeat volta 1 {
         | % 164
-        \bar ".|:" \key g \major \time 9/16 | % 164
+         \bar ".|:-||"  \key g \major \time 9/16 | % 164
         d8 ^\markup{ \bold {a tempo} } e16 ( [
         fis16 ) ] g8 fis8. | % 165
         g8 e8 e16 ( [ \stemDown
         fis16 ) ]d8. | % 166
-        d8 e16 ( [d16 ) ] \stemDown
+        d8 e16 ( [d16 ) ] \stemUp
         c8 b8. \break | % 167
         g8 a16 ( [  b16 ) ]c16 (
         [d16 ) ]c8. | % 168
-        d8 e16 ( [d16 ) ] \stemDown
+        d8 e16 ( [d16 ) ] \stemUp
         c16 ( [d16 ) ]b8. | % 169
         g8  a8  a8  a8. \bar ":|."
       }

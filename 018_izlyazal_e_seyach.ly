@@ -72,7 +72,7 @@
           f'2. (|  f'4 ) r4 g'4 | g'2 g'4 | a'2
           \override Score.RehearsalMark.outside-staff-priority = #599
           \mark\markup\normalsize\bold { "rit." } % places rit. below alternative bracket
-          a'4 | \stemUp b'2 b'4 | c''2. ~ | c''2  \bar "|." \pageBreak
+          a'4 | b'2 b'4 | c''2. ~ | c''2  \bar "|." \pageBreak
         }
       }
     }

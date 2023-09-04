@@ -88,7 +88,7 @@
 
       g ees d4 | \noBreak
       d2 | \noBreak
-      f!8. g16 g8 g | \noBreak
+      f8. g16 g8 g | \noBreak
       f ees16 f g8 g | \break
 
       \acciaccatura { g } f ees \acciaccatura { f } ees  cis | \noBreak
@@ -103,8 +103,8 @@
 
       bes8([a]) g([fis]) | \noBreak
       a8. g16 g4
-      g2\fermata \bar "||" | \noBreak
-      d2 \break
+      g2\fermata \bar "||" | \break
+      d2 \noBreak
 
       cis8([d]) ees d | \noBreak
       d2 | \noBreak
@@ -127,7 +127,7 @@
       d,8^\markup{ \italic { largamente } } ees16([d]) cis8 d | \noBreak
       \acciaccatura { c' } bes4. a8 | \noBreak
       g4 g | \noBreak
-      g2 | \break
+      g2 | \bar "||" \break
 
       \tempo "a tempo" g'8. f16 ees([d]) ees([g]) | \noBreak
       c,8. c16 c c c c | \break

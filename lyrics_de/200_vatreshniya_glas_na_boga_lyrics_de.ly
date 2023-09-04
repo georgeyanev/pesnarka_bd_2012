@@ -8,7 +8,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
- \line { " "Text in Vatan.}
+ \line { " "Titel in bulgarischer Text in vatanischer Sprache.}
   
 
   }

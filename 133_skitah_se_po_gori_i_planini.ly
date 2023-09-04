@@ -69,7 +69,7 @@
         d8 ( [  g8 ) ]  bes2 | % 14
         a16  g16  fis16  g16
         a8.  g16  g2 \break | % 15
-        \tempo "rall." f!16 es16
+        \tempo "rall." f?16 es16
         d16  cis16  d2
         \times 2/3  {
           \tempo "a tempo" c8 bes8
