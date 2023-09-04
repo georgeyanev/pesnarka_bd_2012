@@ -58,7 +58,7 @@
       | % 11
       d4.  a8  c16  bes16
       a16  g16 | % 12
-      g2 r4    \bar ".|:-||"  \break \repeat volta 2 {
+      g2 r4    \bar ".|:-|"  
         | % 13
         \time 4/4  | % 13
         d'8 ^\fermata
@@ -112,8 +112,8 @@
           fis8   g8    a8
         } |
         \tempo "rit." g2
-
-      }
+\bar ":|."
+      
     }
 
     \addlyrics {

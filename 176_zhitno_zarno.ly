@@ -44,11 +44,11 @@
         }  {c'2. \bar "||"  \break }
       }
 
-      \repeat volta 2 {
-        \time 4/4
-        \tempoFunc "Moderato" 4 "72"
-         \bar ".|:-||" c4. g8 bes as g f | as2 g4. f8 | f g es2 d4 | c2 r4
-      }
+
+      \time 4/4
+      \tempoFunc "Moderato" 4 "72"
+      \bar ".|:-||" c4. g8 bes as g f | as2 g4. f8 | f g es2 d4 | c2 r4
+      \bar ":|."
     }
 
     \addlyrics {

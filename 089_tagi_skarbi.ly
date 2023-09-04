@@ -19,13 +19,13 @@
       \autoBeamOff
 
 
-      \repeat volta 2 { d''8 d'' e'' d'' | d''8 c'' c'' b' |b'8 a' a' g' \break }
+       d''8 d'' e'' d'' | d''8 c'' c'' b' | b'8 a' a' g' \bar ":.|.:" \break 
 
-      \repeat volta 2 {
+      
         b' b' c'' a' | \time 3/4 a' g' g' fis' fis' e' \break
 
         \time 2/4 e' d' d' d' |
-      } \time 5/4 b d' b d' b d' \bar "!" \break
+      \bar ":|." \time 5/4 b d' b d' b d' \bar "!" \break
 
       g' fis' e' c' | c' e' c' e'  c' e'  \bar "!" \break
 

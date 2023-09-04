@@ -18,16 +18,16 @@
       \autoBeamOff
 
 
-      \repeat volta 2 {d'8 d' e' fis' |g'2 | a'8 g' fis' e' | d'2 }   \break |
+      d'8 d' e' fis' |g'2 | a'8 g' fis' e' | d'2  \bar ":|.:"   \break |
 
-      \repeat volta 2 {  a'8 a' a'4 | b'8 b' b'4 | d''8 c'' b' a' | \tempo "                 Fine" g'2 }  \break |
+      a'8 a' a'4 | b'8 b' b'4 | d''8 c'' b' a' | \tempo "                 Fine" g'2  \bar ":|.:"  \break |
 
 
-      \repeat volta 2 {
-        d''4 g'' | fis''4 e'' | e''4 fis''8 e'' | d''2 \break |
 
-        b'4 d'' | c''4 b' | a'4 b'8 a' | g'2
-      }
+      d''4 g'' | fis''4 e'' | e''4 fis''8 e'' | d''2 \break |
+
+      b'4 d'' | c''4 b' | a'4 b'8 a' | g'2
+      \bar ":|."
     }
 
     \addlyrics {
@@ -38,7 +38,7 @@
       от пче -- ли -- те до -- не -- се -- но.
     }
 
-      \addlyrics {
+    \addlyrics {
       Slad -- ko,
       me -- de -- no, slad -- ko, me -- de -- no, me --
       de -- no, me -- de -- no, slad -- ko, me -- de --
@@ -54,8 +54,8 @@
   } % score
   \markup \dc-two "D.C. al Fine" "con ripetizioni"
 
-   \markup \empty-two
-  
+  \markup \empty-two
+
   % include foreign translation(s) of the song
   \include "lyrics_de/073_sladko_medeno_lyrics_de.ly"
 

@@ -30,11 +30,11 @@
 
       b4 c | d (e) | \time 3/4 d2 d4 | b'4. a8 g8. fis16 | e4 d c8. c16  | \break
 
-      e4. d8 c8. c16 | b2 r4 \repeat volta 2 {
-        b'4 c4. b8 | a8 g fis [(g)] a4  \break
+      e4. d8 c8. c16 | b2 r4 \bar ".|:"
+      b'4 c4. b8 | a8 g fis [(g)] a4  \break
 
-        g4 fis e | \time 2/4 d8 c b8 [(c8) ] | d2 |
-      } g4. fis8 | \break
+      g4 fis e | \time 2/4 d8 c b8 [(c8) ] | d2 |
+      \bar ":|." g4. fis8 | \break
 
       e8 [( d ] e [d ]) | d2 | a'4. g8  |  e8 [( d8  ] e8 [d8 ]) | d2 | \break
 

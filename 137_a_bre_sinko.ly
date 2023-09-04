@@ -27,7 +27,7 @@
       g'8 f'16 f'8 f'8 d'16 | % 11
       e'8. e'8 ~ e'8. ~ | % 12
       e'8. ~ e'8 ~ e'8. \break | % 13
-      \repeat volta 2 {
+      \bar ".|:-|"  
         a8. a16 ( bes16 ) cis'8. \fermata | % 14
         d'8. d'8 ( cis'8. ) | % 15
         a8 ( bes16 ) cis'8 ~ cis'8. \break | % 16
@@ -35,8 +35,8 @@
         \time 11/16  d'8 d'8 e'8 ( f'16 ) d'8 d'8 | % 18
         \time 8/16  e'8. e'8 ~ e'8. ~ \break | % 19
         e'8. ~ e'8 ~ e'8.
-      }
-      | \barNumberCheck #20
+     \bar ":|."
+      | 
       \key a \minor e'8 ( f'16 ) gis'8 ( a'8. ) | % 21
       d''8 c''16 b'8 a'8. | % 22
       a'8. b'8 ~ b'8. \fermata \break | % 23
@@ -44,12 +44,12 @@
       c''8. a'8 ~ a'8. \fermata | % 25
       a'8. c''8 a'8. | % 26
       b'8. b'8 ~ b'8. \fermata \break | % 27
-      \repeat volta 2 {
+      \bar ".|:-|"  
         a'8. a'8 a'8. | % 28
         a'8. f'8 ~ f'8. | % 29
         gis'8 f'16 e'8 d'8. | \barNumberCheck #30
         e'8. e'8 ~ e'8. \fermata
-      }
+      \bar ":|."
     }
 
     \addlyrics {

@@ -16,7 +16,7 @@
       \time 2/4
       \tempoFunc "Andante" 4 "66"
       \autoBeamOff
-      \repeat volta 2 {
+      
         r4  d'8  d'8 | % 2
         a'4  a'8  a'8 | % 3
         c''4  bes'4 | % 4
@@ -32,7 +32,7 @@
         d'2 | % 14
         a8  a8  a4 | % 15
         d'2
-      }
+     \bar ":|."
     }
     \addlyrics {
       Сво -- бо -- да е по -- треб -- на

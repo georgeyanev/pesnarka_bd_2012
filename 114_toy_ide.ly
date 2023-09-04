@@ -43,13 +43,13 @@
 
       \time 6/4 \autoBeamOff bes'8. ges'16 f'2 des'8. es'16 f'4. f'8 |  ges'4. f'8 ges'4 as'8. as'16 f'2 |  \break
 
-      \time 4/4  c'8 des'8 es'8 f'8 ges'2 | f'8 es'8 des'8 c'8 bes2 | \time 3/4  \repeat volta 2 {
+      \time 4/4  c'8 des'8 es'8 f'8 ges'2 | f'8 es'8 des'8 c'8 bes2 | \time 3/4  \bar ".|:"
         bes'8. c''16 des''2 | \break
 
         c''8. bes'16 a'2 | \time 4/4  bes'8 bes'8 ges'8 ges'8 f'2 | c'8 des'8 es'8 f'8 ges'2 | \break
 
         f'8 es'8 des'8 c'8 bes2
-      } bes4 \tempo "       rit." c'4 des'4 c'4 | bes2. r4
+      \bar ":|." bes4 \tempo "       rit." c'4 des'4 c'4 | bes2. r4
       \bar "|."
     }
 

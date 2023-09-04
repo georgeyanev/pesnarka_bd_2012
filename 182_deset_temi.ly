@@ -37,7 +37,7 @@
        (minimum-distance . 6)
        (padding . 1)
        (stretchability . 10))
-    
+
     score-markup-spacing =
     #'((basic-distance . 6)
        (minimum-distance . 6)
@@ -50,7 +50,8 @@
   }
 %%%%
 
-  \score { %1
+  \score {
+    %1
     \include "include/score-layout-indent.ily"
 
     \new Voice \absolute {
@@ -61,32 +62,32 @@
       \autoBeamOff
       \set Staff.instrumentName = \markup \bold \fontsize #+5 {"1"}
 
-      \repeat volta 2 {
-        d''16 [  d''16  d''8 ]  d''16
-        [  d''16  d''8 ] | % 2
-        g''8 [  d''8 ]  g''8 [  d''8
-        ] | % 3
-        b'16 [  b'16  b'8 ]  b'16 [
-        b'16  b'8 ] | % 4
-        d''8 [  a'8 ]  a'8 [  b'8 ] | % 5
-        g'2
-      }
-      \break 
-      \repeat volta 2 {
-        | % 6
-        d'16 [  d'16  d'8 ]  d'16 [
-        d'16  d'8 ] | % 7
-        g'8 [  d'8 ]  g'8 [  d'8 ] | % 8
-        b16 [  b16  b8 ]  b16 [  b16
-        b8 ] | % 9
-        d'8 [  a8 ]  d'8 [  a8 ] |
-        g2
-      }
+
+      d''16 [  d''16  d''8 ]  d''16
+      [  d''16  d''8 ] | % 2
+      g''8 [  d''8 ]  g''8 [  d''8
+      ] | % 3
+      b'16 [  b'16  b'8 ]  b'16 [
+      b'16  b'8 ] | % 4
+      d''8 [  a'8 ]  a'8 [  b'8 ] | % 5
+      g'2
+      \bar ".|:-|"
+      \break
+     
+      | % 6
+      d'16 [  d'16  d'8 ]  d'16 [
+      d'16  d'8 ] | % 7
+      g'8 [  d'8 ]  g'8 [  d'8 ] | % 8
+      b16 [  b16  b8 ]  b16 [  b16
+      b8 ] | % 9
+      d'8 [  a8 ]  d'8 [  a8 ] |
+      g2
+      \bar ":|."
       | % 11
     }
 
-%    \addlyrics {}
-%    \addlyrics {}
+    %    \addlyrics {}
+    %    \addlyrics {}
 
     \header {
       title = \titleFunc "Десет теми" "Deset temi  –  Zehn Themen"
@@ -98,14 +99,15 @@
 
   \markup \empty-three
 
-  \score { %2
+  \score {
+    %2
     \include "include/score-layout-indent.ily"
 
     \new Voice \absolute {
       \clef treble
       \key c \minor
       \time 7/16
-      
+
       \tempoFunc "Allegro" 8 "152"
       \autoBeamOff
       \set Staff.instrumentName = \markup \bold \fontsize #+5 {"2"}
@@ -118,18 +120,18 @@
       f'8 [  g'8 ]  as'8 [  as'16 ] | % 16
       as'8 [  as'8 ]  as'8 [  g'16 ] \break | % 17
       as'8 [  bes'8 ]  g'8 [  f'16 ] | % 18
-      g'4 (  g'8. ) \repeat volta 2 {
-        | % 19
-        c'8 [  d'8 ]  es'8 [  es'16 ] |
+      g'4 (  g'8. ) \bar ".|:"
+      | % 19
+      c'8 [  d'8 ]  es'8 [  es'16 ] |
 
-        es'8 [  es'8 ]  es'8 [  d'16 ] | % 21
-        d'8 [  d'8 ]  d'8 [  c'16 ] | % 22
-        c'4 (  c'8. ) |
-      }
+      es'8 [  es'8 ]  es'8 [  d'16 ] | % 21
+      d'8 [  d'8 ]  d'8 [  c'16 ] | % 22
+      c'4 (  c'8. ) |
+      \bar ":|."
     }
 
-%    \addlyrics {}
-%    \addlyrics {}
+    %    \addlyrics {}
+    %    \addlyrics {}
 
     \midi{}
 
@@ -137,7 +139,8 @@
 
   \markup \empty-three
 
-  \score { %3
+  \score {
+    %3
     \include "include/score-layout-indent.ily"
 
     \new Voice \absolute {
@@ -156,11 +159,11 @@
       bes'8 [  a'8 ]  g'8 [  d'8 ]
       bes4 | % 29
       a4  g2 ^\fermata \bar "|."
-     |
+      |
     }
 
-%    \addlyrics {}
-%    \addlyrics {}
+    %    \addlyrics {}
+    %    \addlyrics {}
 
     \midi{}
 
@@ -168,7 +171,8 @@
 
   \markup \empty-three
 
-  \score { %4
+  \score {
+    %4
     \include "include/score-layout-indent.ily"
 
     \new Voice \absolute {
@@ -212,8 +216,8 @@
       | % 39
     }
 
-%    \addlyrics {}
-%    \addlyrics {}
+    %    \addlyrics {}
+    %    \addlyrics {}
 
     \midi{}
 
@@ -221,7 +225,8 @@
 
   \markup \empty-three
 
-  \score { %5
+  \score {
+    %5
     \include "include/score-layout-indent.ily"
 
     \new Voice \absolute {
@@ -230,7 +235,7 @@
       \time 2/4
       \tempoFunc "Moderato" 4 "88"
       \autoBeamOff
-       c'4  g4 |
+      c'4  g4 |
       c'4  e'8. [  f'16 ] | % 41
       g'2 | % 42
       a'4  g'4 | % 43
@@ -242,11 +247,11 @@
       c''4  c''4 | % 49
       c''4  c''8. [  c''16 ] |
       c''2\fermata \bar "|."
-     
+
     }
 
-%    \addlyrics {}
-%    \addlyrics {}
+    %    \addlyrics {}
+    %    \addlyrics {}
 
     \midi{}
 
@@ -254,7 +259,8 @@
 
   \markup \empty-three
 
-  \score { %6
+  \score {
+    %6
     \include "include/score-layout-indent.ily"
 
     \new Voice \absolute {
@@ -284,7 +290,8 @@
 
   \markup \empty-three
 
-  \score { %7
+  \score {
+    %7
     \include "include/score-layout-indent.ily"
 
     \new Voice \absolute {
@@ -303,7 +310,7 @@
     \addlyrics {
       Аз ще па -- зя та -- зи то -- пли -- на.
     }
-     \addlyrics {
+    \addlyrics {
       Az šte pa -- zja ta -- zi to -- pli -- na.
     }
 
@@ -312,8 +319,9 @@
   } % score
 
   \markup \empty-three
-  
-  \score { %8
+
+  \score {
+    %8
     \include "include/score-layout-indent.ily"
 
     \new Voice \absolute {
@@ -357,7 +365,8 @@
 
   \markup \empty-three
 
-  \score { %9
+  \score {
+    %9
     \include "include/score-layout-indent.ily"
 
     \new Voice \absolute {
@@ -392,9 +401,10 @@
     \midi{}
   } % score
 
-\markup \empty-three
+  \markup \empty-three
 
-  \score { %10
+  \score {
+    %10
     \include "include/score-layout-indent.ily"
 
     \new Voice \absolute {

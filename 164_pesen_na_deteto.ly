@@ -69,10 +69,10 @@
       e''2 | % 12
       e'8 a'4 ( g'8 ) | % 13
       a'16 ( g'16 f'16 e'16 ) e'4 \break | % 14
-      \time 3/4  \repeat volta 2 {
-        a8 b8 c'4. ( b8 ) | % 15
-        d'8 ( [c'8] ) b8 [a8] a4 \fermata
-      }
+      \time 3/4  \bar ".|:"
+      a8 b8 c'4. ( b8 ) | % 15
+      d'8 ( [c'8] ) b8 [a8] a4 \fermata
+      \bar ":|."
       | % 16
 
       \time 2/4  e'4 \once \override TupletBracket.stencil = ##f
@@ -123,19 +123,19 @@
       cis'8 ) -. | % 35
       cis'8 -. [b8 -.] b8 -. [cis'8 -.] a4 ( a4. ) \break | % 36
       cis'8 -. [ b8 -.] b8 -. [cis'8 -.] a4 ( a4. ) | % 37
-       \repeat volta 2 {
-        e''4 -- a''8 -- [a''8 -- a''8 -- ] % 38
-         a''8 [gis''8] a''8 [b''8] | gis''4 gis''8 [gis''8 gis''8]  % 39
-        gis''8 [fis''8] gis''8 [a''8] | fis''4 fis''8 [fis''8 fis''8] 
-        fis''8 [e''8] fis''8 [gis''8] | \time 5/8 e''4 ( e''4. ) | % 41
-        \time 9/8  cis''4 e''8 [e''8 e''8] e''8 [d''8] e''8 [fis''8] | d''4 d''8 [d''8 d''8] 
-        d''8 [cis''8] d''8 [e''8] | cis''4 cis''8 [cis''8 cis''8] % 44
-        cis''8 [b'8] cis''8 [d''8] \time 5/8 a'4 ( a'4. )
-      }
+      \bar ".|:"
+      e''4 -- a''8 -- [a''8 -- a''8 -- ] % 38
+      a''8 [gis''8] a''8 [b''8] | gis''4 gis''8 [gis''8 gis''8]  % 39
+      gis''8 [fis''8] gis''8 [a''8] | fis''4 fis''8 [fis''8 fis''8]
+      fis''8 [e''8] fis''8 [gis''8] | \time 5/8 e''4 ( e''4. ) | % 41
+      \time 9/8  cis''4 e''8 [e''8 e''8] e''8 [d''8] e''8 [fis''8] | d''4 d''8 [d''8 d''8]
+      d''8 [cis''8] d''8 [e''8] | cis''4 cis''8 [cis''8 cis''8] % 44
+      cis''8 [b'8] cis''8 [d''8] \time 5/8 a'4 ( a'4. )
+      \bar ":|."
       | % 45
       \tempo "Adagio"
       \key a \minor \time 2/4 | % 45
-      e'4 
+      e'4
       a'8. ( a'16 ) -- | % 46
       a'2 | % 47
       b'4 e''8. ( e''16 ) -- | % 48

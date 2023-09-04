@@ -65,22 +65,22 @@
       \time 6/4 % 15
       g4  a4 d4 d8.
       cis16
-      d2 |  \repeat volta 2 {
-        \time 5/4  | % 16
-        d4 f8 ( [ e8 ) ]
-        d8 ( [ cis8 ) ] d8 [(bes8)] a8 g8 | % 17
-        \time 3/4  | % 17
-        a8 ( [  g8 ]  f8 [  e8 ]
-        f8 [  g8 ) ] | % 18
-        a2  a8 a8 \break | % 19
+      d2 | \bar ".|:-|"
+      \time 5/4  | % 16
+      d4 f8 ( [ e8 ) ]
+      d8 ( [ cis8 ) ] d8 [(bes8)] a8 g8 | % 17
+      \time 3/4  | % 17
+      a8 ( [  g8 ]  f8 [  e8 ]
+      f8 [  g8 ) ] | % 18
+      a2  a8 a8 \break | % 19
 
-        \time 4/4  | % 19
-        bes4 (  a8 [  gis8 ) ]  a2 |
-        d,8 ( [  e8 ) ]  f8 ( [  e8 ) ]
-        g?8 [( f8 )]  e8  d8 | % 21
-        d8 ( [  cis8  d8  e8 ) ]
-        d2
-      }
+      \time 4/4  | % 19
+      bes4 (  a8 [  gis8 ) ]  a2 |
+      d,8 ( [  e8 ) ]  f8 ( [  e8 ) ]
+      g?8 [( f8 )]  e8  d8 | % 21
+      d8 ( [  cis8  d8  e8 ) ]
+      d2
+      \bar ":|."
 
     }
 
@@ -101,7 +101,7 @@
       -- те ви -- "си-" -- ни, де Свет --
       ли -- на __  о -- би -- та --
       ва и в~Жи -- во
-      --  та веч -- но __   се __ 
+      --  та веч -- но __   се __
       про -- я -- вя --   ва.
     }
     \addlyrics {
@@ -110,7 +110,7 @@
       --    me --  ru. Su
       -- a si sin __     "me-" --
       sul. Su -- ma si zen __   fe
-      --  sul, Su -- a si sin __ 
+      --  sul, Su -- a si sin __
       me --  sul. Su -- ma si __
       zen __  fe --  sul, "Su-" --
       ma si __  zen __  fe  --

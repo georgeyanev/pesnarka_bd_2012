@@ -25,16 +25,14 @@
 
       \time 6/4  e4 g f e e c | \time 4/4 d e c2 \break
 
-      \repeat volta 2 {
-        e4 g g2 | e4 g g2 | e4 c' c2 | \break
+      \bar ".|:-|" 
+      e4 g g2 | e4 g g2 | e4 c' c2 | \break
 
-        \time 6/4  b4 d c b a g | \time 4/4 e g g2 | \break
+      \time 6/4  b4 d c b a g | \time 4/4 e g g2 | \break
 
-        \time 6/4 e4 g f e e c | \time 4/4 d e c2 \break
+      \time 6/4 e4 g f e e c | \time 4/4 d e c2 \break
 
-
-
-      }
+      \bar ":|."
 
 
     }
@@ -86,7 +84,7 @@
 
       " " " " " " " " " " " " " " " " " "
     }
-    
+
     \addlyrics {
       " " " " " " " " " " " " " " " "
 

@@ -17,13 +17,12 @@
       \tempoFunc "Moderato" 4 "88"
       \autoBeamOff
 
-      \repeat volta 2 {
         g8 b d'4 | g8 b d'4 | g'4 g' | g'2 |   \break
 
         g'8 a'8 b'4 |  g'8 a'8 b'4 | d''4 d''4 | d''2 | \break
 
         d''8 c'' b'4 | d''8 c'' b'4 | b'8 b'8 a'8 a'8 | \tempo "                    Fine" g'2
-      } \break
+      \bar ":|." \break
 
       \time 3/4
 
@@ -33,11 +32,11 @@
 
       g'2 a'4 | b'2. | c''2 b'4 | a'2. | a'2 b'4 | \break
 
-      c''2. | d''2 c''4 | b'2.   \repeat volta 2 {
+      c''2. | d''2 c''4 | b'2.    \bar ".|:"
         g''2 d''4 | b'2. \break
 
         c''2 b'4 | a'2. | g'2 a'4 | b'2. | a'2 g'4 | g'2.|
-      }  \break
+      \bar ":|." \break
 
     }
 

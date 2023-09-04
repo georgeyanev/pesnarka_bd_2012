@@ -29,27 +29,27 @@
       g'4 | % 6
       fis'8  e'8  dis'8  e'8  fis'4
       b4 \break | % 7
-      \repeat volta 2 {
-        e'8  fis'8  g'8  a'8 b'8
-        b'8 c''8 d''8 | % 8
-        b'4. b'8 e''8 e''8
-        d''8  g'8 \break | % 9
-        b'4 b'8 b'8  a'8  a'8
-        a'8 b'8 |
-        g'4.  g'8  fis'8  e'8  dis'8
-        e'8 \break | % 11
-        fis'8 ( [  g'8 ] )   a'8 c''8
-        b'2 | % 12
-        e'8  fis'8  g'8  a'8 b'4
-        b'4 \break | % 13
-        c''8 c''8 c''8 d''8
-        b'4 b'8 b'8 | % 14
-        a'8  a'8  a'8 b'8  g'4
-        g'4 \break | % 15
-        fis'8  e'8  dis'8  e'8  fis'4.
-        b8 | % 16
-        e'4  e'2 (e'8)
-      }
+      \bar ".|:-|" 
+      e'8  fis'8  g'8  a'8 b'8
+      b'8 c''8 d''8 | % 8
+      b'4. b'8 e''8 e''8
+      d''8  g'8 \break | % 9
+      b'4 b'8 b'8  a'8  a'8
+      a'8 b'8 |
+      g'4.  g'8  fis'8  e'8  dis'8
+      e'8 \break | % 11
+      fis'8 ( [  g'8 ] )   a'8 c''8
+      b'2 | % 12
+      e'8  fis'8  g'8  a'8 b'4
+      b'4 \break | % 13
+      c''8 c''8 c''8 d''8
+      b'4 b'8 b'8 | % 14
+      a'8  a'8  a'8 b'8  g'4
+      g'4 \break | % 15
+      fis'8  e'8  dis'8  e'8  fis'4.
+      b8 | % 16
+      e'4  e'2 (e'8)
+      \bar ":|."
     }
 
     \addlyrics {

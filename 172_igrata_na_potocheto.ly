@@ -90,12 +90,12 @@
       fis'8 e'8 e'8 e'8 | % 36
       \time 3/4  g'16 fis'16 e'16 d'16 \autoBeamOff c'8 [c'8] c'8 [c'8] | \autoBeamOn % 37
       \time 2/4  e'8 d'8 d'4 \break | % 38
-      \repeat volta 2 {
-        a8 b8 c'8 d'8 | % 39
-        e'8 d'8 e'16 d'16 c'16 b16 |
-        a8 b16 a16 b8 a8 | % 41
-        g8 g8 g4
-      }
+     \bar ".|:-|" 
+      a8 b8 c'8 d'8 | % 39
+      e'8 d'8 e'16 d'16 c'16 b16 |
+      a8 b16 a16 b8 a8 | % 41
+      g8 g8 g4
+      \bar ":|."
     }
 
     %\addlyrics {}

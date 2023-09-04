@@ -10,7 +10,7 @@
   \score {
     \include "include/score-layout.ily"
 
-       \new Voice \absolute {
+    \new Voice \absolute {
 
       \clef treble
       \key c \major
@@ -21,32 +21,31 @@
 
       \time 4/4  g8 g a [( b )] c'2 |g8 g a [( b )] c'2 | g8 g a [( b )] c'2^\markup{ \bold {" " " "Fine} }  \break |
 
-      \repeat volta 2 {
-        e'8 d' c' d' e' e' e' e' | g'8 f' e' d' e' d' c' b \break |
+      \bar ".|:-||"
+      e'8 d' c' d' e' e' e' e' | g'8 f' e' d' e' d' c' b \break |
 
-        d'8 c' b a a g g g |c'8 c' c' d' e'2 \break |
+      d'8 c' b a a g g g |c'8 c' c' d' e'2 \break |
 
-        d'8 d' d' e' f'2 | g'8 f' e' d' c'2 \break
-      }
-
-      \repeat volta 2 {
-        c''8 b' a' g' a' g' g' g' |  c''8 b' a' g' a' g' g' g' \break |
-
-        a'8 g' f' e' g'2 | d'8 d' d' e' f'2 | g'8 f' e' d' c'2
-      }  \break |
-
-      \repeat volta 2 {
-        d''8 c'' b' a' b' a' g' g' | d''8 c'' b' a' b' a' g' g' \break
-
-        a'8 g' f' e' g'2 | d'8 d' d' e' f'2 | g'8 f' e' d' c'2
-      } \break |
+      d'8 d' d' e' f'2 | g'8 f' e' d' c'2 \break \bar ":|.:"
 
 
-      \repeat volta 2 {
-        e''8 d'' c'' b' d'' c'' b' a' | e''8 d'' c'' b' d'' c'' b' a' \break |
 
-        b'8 a' g' fis' g'2 | d'8 d' d' e' f'?2 | g'8 f' e' d' c'2
-      } \break | % 27
+      c''8 b' a' g' a' g' g' g' |  c''8 b' a' g' a' g' g' g' \break |
+
+      a'8 g' f' e' g'2 | d'8 d' d' e' f'2 | g'8 f' e' d' c'2
+      \break |
+
+      \bar ":|.:"
+      d''8 c'' b' a' b' a' g' g' | d''8 c'' b' a' b' a' g' g' \break
+
+      a'8 g' f' e' g'2 | d'8 d' d' e' f'2 | g'8 f' e' d' c'2
+      \break |
+
+     \bar ":|.:"
+      e''8 d'' c'' b' d'' c'' b' a' | e''8 d'' c'' b' d'' c'' b' a' \break |
+
+      b'8 a' g' fis' g'2 | d'8 d' d' e' f'?2 | g'8 f' e' d' c'2
+      \break | % 27
     }
 
     \addlyrics {
@@ -94,10 +93,10 @@
     \midi{}
 
   } % score
-  
+
   \markup \dc-one "D.C. al Fine"
 
-   \markup \empty-two
+  \markup \empty-two
   % include foreign translation(s) of the song
   \include "lyrics_de/072_blagost_lyrics_de.ly"
 

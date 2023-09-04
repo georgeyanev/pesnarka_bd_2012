@@ -16,12 +16,9 @@
       \time 3/4
       \autoBeamOff
       \tempoFunc "Andante" 4 "66"
-      \repeat volta 2 {
-
         a'8. a'16 a'4. bes'8 | a'4 g'2 | g'8. g'16 g'4. a'8 | \break
         g'4 f'2 | e'8. e'16 e'4. f'8 | e'4 d'2 | \break
-        e'8 f'8 g'8 bes'4 bes'8 | a'4 g'4 f'8. f'16 | e'4 d'2 |
-      }
+        e'8 f'8 g'8 bes'4 bes'8 | a'4 g'4 f'8. f'16 | e'4 d'2 | \bar ":|."
     }
 
     \addlyrics {
