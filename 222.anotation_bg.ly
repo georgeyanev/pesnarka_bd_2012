@@ -39,7 +39,7 @@
 
   \markup { {  \vspace #0.1 } }
   \markup \fontsize  #+5.5 { \fill-line \bold {"Песни от Учителя"} }
- \markup { {  \vspace #0.1 } }
+  \markup { {  \vspace #0.1 } }
   \markup \fontsize  #+2.0 { \fill-line \italic {"Четвърто преработено и допълнено издание"} }
 
   \markup { {  \vspace #2.0 } }
@@ -53,13 +53,13 @@
   \markup \fontsize  #+2.5 { \fill-line {"Пенка Кадиева и Петър Ганев"} }
   \markup { {  \vspace #1.0 } }
   \markup \fontsize  #+2 { \fill-line \bold {"Коректор на нотния текст"} }
-  \markup \fontsize  #+1.5 { \fill-line  {"Н.Н."} }
+  \markup \fontsize  #+1.5 { \fill-line  {"Райнхард Риддер"} }
   \markup { {  \vspace #0.5 } }
   \markup \fontsize  #+2 { \fill-line \bold {"Редактор на лиричния текст"} }
   \markup \fontsize  #+1.5 { \fill-line  {"Н.Н."} }
   \markup { {  \vspace #0.5 } }
   \markup \fontsize  #+2 { \fill-line \bold {"Компютърен дизайн"} }
-  \markup \fontsize  #+1.5 { \fill-line  {"Н.Н."} }
+  \markup \fontsize  #+1.5 { \fill-line  {"Мария Кирева, Георги Янев"} }
   \markup { {  \vspace #0.5 } }
   \markup \fontsize  #+1.5 { \fill-line \bold {"Издателство Бяло Братство"} }
   \markup \fontsize  #+1.5 { \fill-line  {"izdatelstvo.bratstvo@gmail.com"} }
