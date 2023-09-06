@@ -1,4 +1,4 @@
-\version "2.24.1"
+\version "2.24.2"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Sprich du von deinem Gram" }
 \markup \null

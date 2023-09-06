@@ -1,4 +1,4 @@
-\version "2.24.1"
+\version "2.24.2"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -172,3 +172,9 @@
   \include "lyrics_de/026_lyubovta_e_izvor_lyrics_de.ly"
 
 } % bookpart
+
+
+%{
+convert-ly (GNU LilyPond) 2.24.2  convert-ly: Processing `'...
+Applying conversion:     The document has not been changed.
+%}

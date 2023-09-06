@@ -1,4 +1,4 @@
-\version "2.24.1"
+\version "2.24.2"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Das Lied über die zwei Schwestern" }
 \markup \null
