@@ -94,23 +94,23 @@
       }
       es'4
 
-       fis'4 | % 8
+       (fis'4) | % 8
       g'4 -- g'4 -- g'4 -- | % 9
-      g'2. 
+      g'2. \bar "|."
     }
 
     \addlyrics {
       "1. Без" теб е мрак, без теб е скръб. Бо "же-" -- ствен лъч,
       о -- грей ме ти. В~сър це то ми ти вне -- си, в~сър -- це то ми вне -- си Ра дост, Мир.
         "2. Про-" -- буж -- дам се от сън дъл -- бок и те зо -- ва  ка -- то  де -- те.  
-    Аз  ви -- на -- ги  "вяр-" -- вам,  че  ти над  ме -- не  с  Лю -- бов  бдиш  май -- чи -- на.
+    Аз  ви -- на -- ги  вяр -- вам,  че  ти над  мен  със Лю -- бов  бдиш  май -- чи -- на.
     }
 
     \addlyrics {
-         "1. Bez" teb e mrak, bez teb e skrăb. Bo "že-" -- stven lăč,
+         "1. Bez" teb e mrak, bez teb e skrăb. Bo že -- stven lăč,
       o -- grej me ti. V~săr ce to mi ti vne -- si, v~săr -- ce to mi vne -- si Ra dost, Mir.
-        "2. Pro-" -- buž -- dam se ot săn dăl -- bok i te zo -- va  ka -- to  de -- te.  
-    Az  vi -- na -- gi  "vjar-" -- vam,  če  ti nad  me -- ne  s  Lju -- bov  bdiš  maj -- či -- na.
+        "2. Pro" -- buž -- dam se ot săn dăl -- bok i te zo -- va  ka -- to  de -- te.  
+    Az  vi -- na -- gi  "vjar-" -- vam,  če  ti nad  men  sas  Lju -- bov  bdiš  maj -- či -- na.
     }
 
       \header {

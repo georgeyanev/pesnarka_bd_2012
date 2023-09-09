@@ -62,7 +62,7 @@
 
       \time 5/4 d'4. d'8 cis'4 b2 | cis'2 b8 ais8 b4. r8 | \break
 
-      \bar ".|:"
+     \bar ".|:-||" 
 
       \time 4/4 b4 cis'4 d'4 b4 | \time 3/4 d'4 fis'2 | \time 4/4 e'4 fis' g' e' | \time 3/4 g'4 b'2  \break
 

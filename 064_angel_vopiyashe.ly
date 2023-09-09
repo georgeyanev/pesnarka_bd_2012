@@ -53,7 +53,7 @@
       ees4.( d8 g8[ fis \acciaccatura { ees16 [fis] }  ees8 d]) d2\fermata \bar "|"
       a'4.( g8 f?16[ g] \acciaccatura { a16 [b] } c4) \slurNeutral b!8([ c] a2) g4 a4 \bar "|"  \break
 
-      \stemUp a8([ bes?16 c] a8  [g]) f8([ es a g]) f4.( es8 d[ es16 f] d4) d2 \bar "|"  \break
+      \stemUp a8([ bes?16 c] a8  [g]) f8([ e? a g]) f4.( e8 d[ e16 f] d4) d2 \bar "|"  \break
 
       \stemNeutral \slurDown a'4.( g8[ f16 g] \acciaccatura { a16 [b!] } c4) \slurNeutral b!8([ c]  a2)  a4 \stemUp b \bar "|"
       \stemNeutral c4( d \appoggiatura d8 c4 b!8[ c]) a2 g4 a \bar "|"  \break
