@@ -7,7 +7,7 @@
   #(define blineskip221 2.3)
   \include "include/bookpart-paper.ily"
   \label #'ref221
-  \tocItem \markup "Wörterbuch der Musikbegriffe"
+  \tocItem \markup "Речник на музикалните понятия"
 
   \markup \fontsize  #+4.0 { \fill-line \bold {"РЕЧНИК НА МУЗИКАЛНИТЕ ТЕРМИНИ"} }
 

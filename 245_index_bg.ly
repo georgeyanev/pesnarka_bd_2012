@@ -4,7 +4,7 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \tocItem \markup "Alphabetischer Index"
+  \tocItem \markup "Азбучен показател"
   \paper {
     print-all-headers = ##f
     print-page-number = ##f
@@ -32,7 +32,7 @@
   }
 
   \markup \large \column {
-    \fill-line { \null \fontsize #+2.5 \bold "ALPHABETISCHER INDEX" \null }
+    \fill-line { \null \fontsize #+2.5 \bold "Азбучен показател" \null }
     \hspace #1
   }
 

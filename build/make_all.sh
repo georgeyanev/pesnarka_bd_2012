@@ -1,16 +1,15 @@
 #!/bin/bash
 
 cat \
-    ../001_title_page.ly \
-    ../002_anotation.ly \
-    ../003_danov_img.ly \
+    ../001_title_page_bg.ly \
+    ../002_anotation_bg.ly \
+    ../003_danov_img_bg.ly \
     ../005_blank_page.ly \
-    ../006_oldest_book.ly \
+    ../006_oldest_book_bg.ly \
     ../007_blank_page.ly \
     ../238_toc.ly \
-    ../007_preface.ly \
-    ../008_about_music.ly \
-    ../250_translit.ly \
+    ../007_preface_bg.ly \
+    ../008_about_music_bg.ly \
     ../009_blank_page.ly \
     ../010_bratski_pesni.ly \
     ../016_zorata_na_noviya_zhivot.ly \
@@ -149,10 +148,9 @@ cat \
     ../171_milost_blagost_az_moga_da_disham.ly \
     ../172_igrata_na_potocheto.ly \
     ../173_malkata_bubolechka.ly \
-    ../174_1_da_bih_te_slushal.ly \
-    ../174_2_3_slusham_radost.ly \
+    ../174_3_radost_175_2_mehein.ly \
+    ../174_1_da_bih_te_slushal_174_2_slusham.ly \
     ../175_pismoto.ly \
-    ../175_2_me-hein_vtori_kuplet.ly \
     ../176_zhitno_zarno.ly \
     ../177_izvorche.ly  \
     ../178_molitva.ly \
@@ -185,9 +183,10 @@ cat \
     ../217_strannik_sam.ly \
     ../219_blank_page.ly \
     ../218_appendix.ly \
-    ../220_description.ly \
-    ../221_dictionary.ly \
-    ../245_index.ly \
+    ../220_description_bg.ly \
+    ../221_dictionary_bg.ly \
+    ../222.anotation_bg.ly \
+    ../245_index_bg.ly \
     > tmp.ly
 
 lilypond --include=../ -o danov_songbook tmp.ly

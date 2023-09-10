@@ -8,8 +8,8 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    
-     \line { " Ich höre, ich höre, ich höre, ich höre." }
+
+    \line { " Ich höre, ich höre, ich höre, ich höre." }
 
   }
 }
