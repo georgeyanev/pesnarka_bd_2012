@@ -47,7 +47,7 @@
       \justify {малко по-бавно от \italic"Andante;" вж. \italic"sostenuto"}
 
       \line \bold {Andantino} \override #`(baseline-skip . ,blineskip221)
-      \justify {(умалително от Andante) – спокойно, но малко по-подвижно от \italic"Andante" }
+      \justify {(умалително от \italic"Andante") – спокойно, но малко по-подвижно от \italic"Andante" }
 
       \line \bold {Animato} \override #`(baseline-skip . ,blineskip221)
       \justify {оживено}
