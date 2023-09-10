@@ -40,6 +40,9 @@
 
   \markup \fontsize  #+2.5 { \vspace #1.0 \italic{Wenn die Welt wieder erschaffen wird, dann singen die Engel.}}
 
+
+  \markup \fontsize  #+2.5 { \vspace #1.0 \hspace #30.0 \italic{(Aus dem ältesten Buch der Welt.)}}
+
   \markup \fontsize  #+2.5 { \vspace #2.5 \italic{ \justify-string " Der Weg, die Wahrheit und das Leben – das sind die ersten Grundtöne der ideellen Harmonie, die im Kosmos existiert. Auf sie gründet das vernünftige Leben."}}
 
   \markup \fontsize  #+2.5 { \vspace #2.5 \italic{\justify-string " Die Melodie ist der musikalische, ideelle Ruf der menschlichen Seele zu Gott. Die Harmonie ist die Antwort Gottes." }}
