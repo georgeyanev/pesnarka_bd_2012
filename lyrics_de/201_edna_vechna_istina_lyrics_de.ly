@@ -9,7 +9,7 @@
 
   \column {
 
-  \line { " " Titel in bulgarischer Text in vatanischer Sprache.}
+  \line { " " Titel in bulgarischer, Text in vatanischer Sprache.}
 
   }
 }
