@@ -40,10 +40,15 @@
     \vspace #1.5 \override #'(baseline-skip . 2.7)
     \justify-string "
    
-   Настоящият сборник съдържа песни и инструментални творби от духовния учител Петър Константинов Дънов – Беинса Дуно (1864 – 1944), основоположник на Духовно общество Бяло Братство в България, и от негови ученици.
+  Настоящият сборник съдържа вокални и инструментални композиции от Учителя Петър Константинов Дънов – Беинса Дуно (1864 – 1944), основоположник на Духовно Общество „Бяло Братство“ в България, и от негови ученици. Изданието представлява четвърто преработено и допълнено издание на сборника „Песни от Учителя“, отпечатан през 1949 г. в София под редакцията на Мария Тодорова. За база на настоящото издание послужи последното трето издание на „Песни от Учителя“ от 2012 с главен редактор Петър Ганев и редакторски екип: Георги Стратев, Иоана Стратева, Станка Желева, Пенка Кадиева, Благовест Жеков, Ина Дойнова.
+
+  Екипът, изготвил настоящето издание, видя необходимостта от установяване на ясна редакторска линия, съдържаща се в следните точки: 1. запазване на оригиналите и автентичността на музикалните композиции; 2. професионализиране на нотописа, посредством установяване на конвенции при нотния правопис според правилата на музикалната теория; 3. последователно прилагане на същите спрямо нотния текст. Тази редакторска линия наложи преосмиляне структурната организация на някои песни, минимално осъвременяване на лирическия им текст, спрямо нормите и синтаксиса на съвремения български език, както и корекции в нотния правопис. Освен гореспоменатите аскпекти редакционната линия засяга още логическите акценти в поетичния и музикалния текст, разпределени синхронно в дадения размер на песента както и хармоничния строеж на мелодията, чиито посоки определят музикалните образи. Съобразно това целта на редакторската работа бе да съхрани музикалния и словесен текст, разполагайки го логично в съответните размери, съобразени с хармоничния строеж на мелодията. Разбира се подготовката на този сборник не би била възможна без предишните поколения музиканти, работили с и върху музикалните композиции на Учителя Петър Дънов. Сред тях са проф. Асен Арнаудов, Боян Икономов, Христо Дързев, Лиляна-Цветана Табакова, Мария Тодорова, Матей Калудов, Христо Дързев и други. 
+
+
+
+
     
-  Музикалното творчество на Учителя Петър Данов се заражда като музикален метод в окултната школа на Бялото братство, която  той открива през 1922 г. Обучението продължава до 1944 г. По този начин той подготвя нов музикален жанр, който нарича  „окултна музика“. Данов го основава на нов музикален героизъм и естетика, които последователно развива в много лекции. Данов нарича музикалните си композиции „упражнения по окултна музика“, които свири на цигулката си по време на лекциите и преподава на студентите си. Записването на музикалния текст на песните е било задача на музикантите, присъстващи на лекциите. Особено внимание заслужават професор Асен Арнаудов, Боян Икономов, Лиляна-Цветана Табакова, Мария Тодорова, Матей Калудов, Христо Дарсев и т.н. Някои композиции, сред които и „Новото битие“, са написани по време на частните уроци, които Данов дава на определени студенти; други са родени от конкретен повод в живота на окултния студент. Много от мелодиите обаче не са записани. Пример за това е песента „Блудният син“ - музикален мотив, който Данов изпълнява като концерт пред свои ученици в Америка още като студент и отново като концерт пред свои ученици в клас 30 години по-късно. Според спомените на присъстващите музиканти изсвирената композиция не е била обект на никакъв музикален запис. Данов е прекарал 30 години в
-  завръщането на скъпия гост [на блудния син] се чакаше. Друг пример са мелодиите, в които Данов използва микроинтервали и по този начин композира четвърттонова музика. Микроинтервалите, четвърттоновете и осмините в музиката са били тема на многобройните лекции на Данов. Според Данов те могат да изразяват чувствата по музикален път в особена степен.
+ 
   "
   }
   \pageBreak
@@ -52,6 +57,11 @@
 
   \markup \fontsize #+2.5 \override #'(baseline-skip . 2.7){
     \justify-string " 
+ Музикалното творчество на Учителя Петър Данов се заражда като музикален метод в окултната школа на Бялото братство, която  той открива през 1922 г. Обучението продължава до 1944 г. По този начин той подготвя нов музикален жанр, който нарича  „окултна музика“. Данов го основава на нов музикален героизъм и естетика, които последователно развива в много лекции. Данов нарича музикалните си композиции „упражнения по окултна музика“, които свири на цигулката си по време на лекциите и преподава на студентите си. Записването на музикалния текст на песните е било задача на музикантите, присъстващи на лекциите. Особено внимание заслужават професор Асен Арнаудов, Боян Икономов, Лиляна-Цветана Табакова, Мария Тодорова, Матей Калудов, Христо Дарсев и т.н. Някои композиции, сред които и „Новото битие“, са написани по време на частните уроци, които Данов дава на определени студенти; други са родени от конкретен повод в живота на окултния студент. Много от мелодиите обаче не са записани. 
+
+Пример за това е песента „Блудният син“ - музикален мотив, който Данов изпълнява като концерт пред свои ученици в Америка още като студент и отново като концерт пред свои ученици в клас 30 години по-късно. Според спомените на присъстващите музиканти изсвирената композиция не е била обект на никакъв музикален запис. Данов е прекарал 30 години в
+  завръщането на скъпия гост [на блудния син] се чакаше. Друг пример са мелодиите, в които Данов използва микроинтервали и по този начин композира четвърттонова музика. Микроинтервалите, четвърттоновете и осмините в музиката са били тема на многобройните лекции на Данов. Според Данов те могат да изразяват чувствата по музикален път в особена степен.
+
     die Rückkehr des teueren Gastes [auf dem verlorenen Sohn] gewartet. Ein anderes Beispiel sind Melodien, in denen Danov Mikrointervale einsetzte und so Viertelton-Musik komponierte. Die Mikrointervale, die viertel und die achtel Töne in der Musik thematisierte Danov in vielen Vorträgen. Sie können nach Danov in besonderem Maßen die Gefühle musikalisch zum Ausdruck bringen.
 
     Die erste vollständige Ausgabe von Danovs musikalischem Werk wurde 1949 unter dem Titel „Pesni ot Učitelja“ [Lieder des Meisters] von Maria Todorova in Sofia veröffentlicht. Diese wurde jedoch wegen der ungünstigen politischen Bedingungen viel zu schnell vorbereitet, weshalb in ihr nicht wenige Fehler zu finden sind; es wurden unter anderem Notenaufzeichnungen verwendet, die während der Vorträge von nicht immer professionellen Musikern erstellt wurden. 
@@ -100,18 +110,14 @@
 
   \markup \fontsize #+2.5 \override #'(baseline-skip . 2.7) {
     \justify-string "
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
 
    "
   }
 
     \markup \fontsize #+2.5 \override #'(baseline-skip . 2.7) {
     \justify-string "
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
- Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
- Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+ 
 
    "
   }
