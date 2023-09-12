@@ -33,8 +33,8 @@
       e'4. ( \appoggiatura {  g'8 }  f'4 )
       d'8 | % 9
       d'4.  e'4. \bar"||" | 
+       \tempoFunc "Più mosso" 4. "63"
       r4  g'8
-      \tempoFunc "Più mosso" 4. "63"
       g'4. ~ ^\< |  \break % 11
       g'4.  g'4. | % 12
       g'4  g'8  g'4  g'8 | % 13

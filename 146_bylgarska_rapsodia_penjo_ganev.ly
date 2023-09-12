@@ -157,8 +157,8 @@
       c[b] d[c] | \noBreak
       b[g] a4~ | \noBreak
       a8[b] c[d] | \noBreak
-      \tempo "poco a poco" e [d] c[b] | \noBreak
-      \tempo "rit." d [c]  b^\>[g]  | \noBreak
+      \tempo "poco a poco rit." e [d] c[b] | \noBreak
+      d [c]  b^\>[g]  | \noBreak
       a2 | \noBreak
       a4 a \! \fermata \breathe | \bar "||" \time 3/4 \break
 

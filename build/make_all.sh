@@ -149,8 +149,7 @@ cat \
     ../172_igrata_na_potocheto.ly \
     ../173_malkata_bubolechka.ly \
     ../174_3_radost_175_2_mehein.ly \
-    ../174_1_da_bih_te_slushal_174_2_slusham.ly \
-    ../175_pismoto.ly \
+    ../174_1_da_bih_te_slushal_174_2_slusham_175_pismoto.ly \
     ../176_zhitno_zarno.ly \
     ../177_izvorche.ly  \
     ../178_molitva.ly \
