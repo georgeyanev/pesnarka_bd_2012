@@ -66,6 +66,14 @@
 
     Die erste vollständige Ausgabe von Danovs musikalischem Werk wurde 1949 unter dem Titel „Pesni ot Učitelja“ [Lieder des Meisters] von Maria Todorova in Sofia veröffentlicht. Diese wurde jedoch wegen der ungünstigen politischen Bedingungen viel zu schnell vorbereitet, weshalb in ihr nicht wenige Fehler zu finden sind; es wurden unter anderem Notenaufzeichnungen verwendet, die während der Vorträge von nicht immer professionellen Musikern erstellt wurden. 
 
+    "
+  }
+
+
+  \markup \fontsize #+2.5 \override #'(baseline-skip . 2.7) {
+    \justify-string "
+   
+
     2012 entstand eine überarbeitete Auflage von Danovs musikalischem Werk unter der Redaktion von Peter Ganev. Während ihrer Vorbereitung wurden folgende Aspekte im Hinblick der Entstehungsgeschichte der einzelnen Lieder ersichtlich: Manche Lieder unterlagen einer zweifachen Veränderung. Einige wurden weiterentwickelt, andere der Bequemlichkeit halber von nicht ausreichend vorbereiteten Musiken vereinfacht, wodurch sie an energetischer Aufladung eingebüßt haben. In der Praxis behaupteten sich diese jedoch als wohlklingender. Eine Reihe Veränderungen mancher Tonhöhen sowie mancher rhythmischen Figuren haben einen natürlicheren Klang gefunden. 
 
     Die redaktionelle Arbeit, die der Ausgabe von 2012 zugrunde gelegt wurde, umfasstе laut Peter Ganev folgende Punke:
@@ -74,28 +82,12 @@
 
     2. Es erfolgten nötige Korrekturen der metrorhythmischen Organisation, die dem Aufbau des musikalischen Gedankens entsprechen. Bei der Redaktion wurde das Prinzip der klassischen Prosodie berücksichtigt, so dass die betonte musikalische Zeit der betonten Silbe des Textes entspricht. Die metronomischen Tempoangaben wurden nach Informationen bekannter Musiker aus der Bruderschaft wie Philip Stoizev, Irina Kisiova, Maria Zlateva und Katja Griva gesetzt. Die Kommentare zu den Liedern wurden der Ausgabe 1949 entnommen und mit neuen Informationen ergänzt. 
     
-    3. In Bezug auf die Notenrechtschreibung halte sie sich an alle Forderungen der heutigen Musikverlage, die sich in der Musiktheorie bestätigt haben. Das gelte im höchsten Maße für die logischen Akzente im poetischen und musikalischen Text,"
-  }
-
-
-  \markup \fontsize #+2.5 \override #'(baseline-skip . 2.7) {
-    \justify-string "
-   
-
-    die synchron im gegebenen Takt des Liedes verteilt wurden. Ein anderer wichtiger Faktor sei der harmonische Aufbau der Melodie, deren Richtungen die Musikbilder formen.
+    3. In Bezug auf die Notenrechtschreibung halte sie sich an alle Forderungen der heutigen Musikverlage, die sich in der Musiktheorie bestätigt haben. Das gelte im höchsten Maße für die logischen Akzente im poetischen und musikalischen Text, die synchron im gegebenen Takt des Liedes verteilt wurden. Ein anderer wichtiger Faktor sei der harmonische Aufbau der Melodie, deren Richtungen die Musikbilder formen.
 
     4. Das Ergebis der redaktionellen Arbeit bestand laut Ganev darin, den musikalischen und poetischen Text optimal aufrechterzuerhalten, indem sie ihn logisch in den entsprechenden Takten gemäß des harmonischen Aufbaus der Melodie verteilte. Denn die Auswahl der Tonarten sei bei Danov nicht zufällig. Sie bringe die Verbindung
     zwischen den Farben, den Tönen der Planeten und den Zahlen zum Ausdruck. Jeder Versuch eines bequemeren Transponierens nehme etwas von der Klangfarbe weg.
 
-    Der Vollständigkeit halber ist hier noch die Ausgabe von 1999 zu erwähnen, die von Blagovest Zhekov veröffentlich wurde. Dieses Sammelband hat folgende Vorzüge: Er löst einen Teil der Probleme bei der Notenschreibung und führt zum ersten Mal phonetische Transkriptionen in lateinischer Schrift ein.
-
-   Das vorliegende Sammelband enthält drei Teile: 
-
-    1. Brüderliche Lieder: Das sind alle Kompositionen, die vor 1922 enstanden waren und größtenteils von Schülern nach Ideen von Danov komponiert wurden.
-    
-    2. Lieder von Peter Danov: Das sind alle Kompositionen, die von 1922 bis 1944 innerhalb der von Danov eröffneten okkulten Schule der Weißen Bruderschaft entstanden waren. Der Autor von Melodie und Text ist Danov selbst. 
-
-    3. Lieder, die nach 1944 veröffentlicht wurden: Das sind alle Lieder, die nach Danovs Tod 1944 veröffentlicht wurden. In diesem Teil sind viele Lieder enthalten, die im Privatunterricht entstanden waren. Besonders ist hier der Zyklus von sieben Liedern Die Neue Genesis hervorzuheben, die eine neue Strömung innerhalb von Danovs musikalischen Werk darstellt. Dieser Teil enthält viele reine Instrumeltalkompositionen und Melodien. 
+   
 
 
     
@@ -110,6 +102,15 @@
 
   \markup \fontsize #+2.5 \override #'(baseline-skip . 2.7) {
     \justify-string "
+     Der Vollständigkeit halber ist hier noch die Ausgabe von 1999 zu erwähnen, die von Blagovest Zhekov veröffentlich wurde. Dieses Sammelband hat folgende Vorzüge: Er löst einen Teil der Probleme bei der Notenschreibung und führt zum ersten Mal phonetische Transkriptionen in lateinischer Schrift ein.
+
+   Das vorliegende Sammelband enthält drei Teile: 
+
+    1. Brüderliche Lieder: Das sind alle Kompositionen, die vor 1922 enstanden waren und größtenteils von Schülern nach Ideen von Danov komponiert wurden.
+    
+    2. Lieder von Peter Danov: Das sind alle Kompositionen, die von 1922 bis 1944 innerhalb der von Danov eröffneten okkulten Schule der Weißen Bruderschaft entstanden waren. Der Autor von Melodie und Text ist Danov selbst. 
+
+    3. Lieder, die nach 1944 veröffentlicht wurden: Das sind alle Lieder, die nach Danovs Tod 1944 veröffentlicht wurden. In diesem Teil sind viele Lieder enthalten, die im Privatunterricht entstanden waren. Besonders ist hier der Zyklus von sieben Liedern Die Neue Genesis hervorzuheben, die eine neue Strömung innerhalb von Danovs musikalischen Werk darstellt. Dieser Teil enthält viele reine Instrumeltalkompositionen und Melodien. 
 
 
    "

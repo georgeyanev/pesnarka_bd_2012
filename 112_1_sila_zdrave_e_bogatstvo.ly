@@ -30,7 +30,7 @@
         { | g4 \tempo "         Fine" g2 | \break }
         { \time 4/4 g4 g2 
 
-        \override Score.MetronomeMark.outside-staff-priority = #599
+        \override Score.MetronomeMark.outside-staff-priority = #99
         %\override Score.MetronomeMark.X-extent=#'(-4.5 . 0)
         \tempoFunc "Andante" 4 "60"
         
@@ -42,7 +42,7 @@
 
       \time 2/4  e4. ( fis8 ) \break
 
-      | \time 3/4  d2 b'8. b16 | c4 e,4 fis8. d16 | \time 4/4  b'2 ( \afterGrace a2 ) ({ b16[ a] )} |
+      | \time 3/4  d2 b'8. b16 | c4 e,4 fis8. d16 | \time 4/4  \stemUp b'2 ( \afterGrace  a2 { b16[ a] )} |
       \time 3/4  |
       g2. \bar "|."
 
@@ -83,6 +83,8 @@
   
 
   % include foreign translation(s) of the song
+
+    \markup \empty-two
 
 
   \include "lyrics_de/112_1_sila_zdrave_sa_bogatstvo_lyrics_de.ly"

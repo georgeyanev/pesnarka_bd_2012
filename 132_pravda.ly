@@ -29,7 +29,7 @@
       a'4  e'8.  e'16  g'4.  g'8
       \break |
       g'8  g'8  a'8  a'8  d'4
-      g'8.  g'16 | \break % 11
+      g'8.  g'16 |  % 11
       \time 3/4  | % 11
       e'2 r8  c''8 | % 12
       \time 4/4  | % 12
@@ -68,18 +68,18 @@
       Прав --
       да, Прав --
       да!}
-    \addlyrics {
-      Prav -- da, Prav -- da, Prav -- da,
-      što vna -- sjaš Svo -- bo -- da v~u
-      -- ma.  __  Kra -- si --
-      va i mošt -- na si ti i raz --
-      pre -- de -- ljaš vsič -- ko v~sve --
-      ta; kra -- si --   va i
-      mošt -- na si ti i raz -- pre -- de
-      -- ljaš vsič -- ko v~sve -- ta. __
-      Prav --
-      da, Prav --
-      da!}
+      \addlyrics {
+        Prav -- da, Prav -- da, Prav -- da,
+        što vna -- sjaš Svo -- bo -- da v~u
+        -- ma.  __  Kra -- si --
+        va i mošt -- na si ti i raz --
+        pre -- de -- ljaš vsič -- ko v~sve --
+        ta; kra -- si --   va i
+        mošt -- na si ti i raz -- pre -- de
+        -- ljaš vsič -- ko v~sve -- ta. __
+        Prav --
+        da, Prav --
+        da!}
 
         \header {
           title = \titleFunc "Правда" "Pravda"
@@ -88,9 +88,7 @@
         \midi{}
 
       } % score
-
       \pageBreak
-
       % include foreign translation(s) of the song
       \include "lyrics_de/132_pravda_lyrics_de.ly"
 

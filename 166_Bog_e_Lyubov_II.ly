@@ -91,10 +91,10 @@
         d''16 ( [  c''16  b'16
         c''16 )  ] d''16
       }
-      c''4  c''2 \break | % 45
+      c''4  c''2  | % 45
       \time 2/4  | % 45
       a'8.  a'16  a'8 ( [  b'8 ) ] | % 46
-      g'4  f'4 | % 47
+      g'4  f'4 | \break % 47
       f'8. (  g'16 )  e'4 | % 48
       a'4 \once \omit TupletBracket
       \times 2/3  {
@@ -159,7 +159,7 @@
 
       } % score
 
-
+  \markup \empty-two
 
       % include foreign translation(s) of the song
       \include "lyrics_de/166_bog_e_lyubov_lyrics_de.ly"

@@ -32,27 +32,27 @@
       b'2 b'8 ( [ c''8 ) ] | % 9
       \time 4/4  | % 9
       c''4 b'4 ^\markup{ \bold {rit.} }  a'4
-      b'8 ( [ cis''8 ) ] \break |
-      d''2 r2 \repeat volta 2 {
-        | % 11
-        \key g \minor \time 6/4 | % 11
-        \tempo "Lento" d'2 ( bes'2 )
-        a'2 | % 12
-        g'2.  \breathe fis'4  g'4  a'4 \break
-        | % 13
-        \time 4/4  | % 13
-        c''2 bes'2 | % 14
-        r4 bes'4 bes'4 c''4 | % 15
-        es''2. d''4 | % 16
-        \time 6/4  | % 16
-        d''2 r4 ^\fermata c''4 bes'4
-        g'4 \break | % 17
-        \time 4/4  | % 17
-        c''2 bes'2 | % 18
-        r4  d'4  d'4  d'4 | % 19
-        bes'2.  a'4 |
-        g'2 \fermata
-      }
+      b'8 ( [ cis''8 ) ]  |
+      d''2 r2   \bar ".|:-||"
+      | % 11
+      \key g \minor \time 6/4 \break | % 11
+      \tempo "Lento" d'2 ( bes'2 )
+      a'2 | % 12
+      g'2.  \breathe fis'4  g'4  a'4
+      | % 13
+      \time 4/4  | % 13
+      c''2 bes'2 \break | % 14
+      r4 bes'4 bes'4 c''4 | % 15
+      es''2. d''4 | % 16
+      \time 6/4  | % 16
+      d''2 r4 ^\fermata c''4 bes'4
+      g'4 \break | % 17
+      \time 4/4  | % 17
+      c''2 bes'2 | % 18
+      r4  d'4  d'4  d'4 | % 19
+      bes'2.  a'4 |
+      g'2 \fermata  \bar ":|."
+
     }
 
     \addlyrics {
@@ -64,15 +64,15 @@
       въ -- веж -- дай във из -- ку -- ше
       -- ни -- е, не ни въ -- веж -- дай
       във из -- ку -- ше -- ни -- е.}
-  \addlyrics {
-      Az šte pa -- zja to -- pli -- na --
-      ta na mo -- e -- to săr -- ce, ko --
-      ja -- to vna -- sja Bo -- ži -- i -- te
-      bla -- ga văv  mo -- ja -- ta du
-      -- ša. Ot -- če naš, ne ni
-      vă -- vež -- daj văv iz -- ku -- še
-      -- ni -- e, ne ni vă -- vež -- daj
-      văv iz -- ku -- še -- ni -- e.}
+      \addlyrics {
+        Az šte pa -- zja to -- pli -- na --
+        ta na mo -- e -- to săr -- ce, ko --
+        ja -- to vna -- sja Bo -- ži -- i -- te
+        bla -- ga văv  mo -- ja -- ta du
+        -- ša. Ot -- če naš, ne ni
+        vă -- vež -- daj văv iz -- ku -- še
+        -- ni -- e, ne ni vă -- vež -- daj
+        văv iz -- ku -- še -- ni -- e.}
 
         \header {
           title = \titleFunc "Отче наш, не ни въвеждай в изкушение" "Otče naš, ne ni văveždaj v izkušenie"
@@ -82,9 +82,9 @@
 
       } % score
 
-     \pageBreak
+      \pageBreak
 
-       \include "lyrics_de/216_otche_nash_ne_ni_vavezhday_lyrics_de.ly"
+      \include "lyrics_de/216_otche_nash_ne_ni_vavezhday_lyrics_de.ly"
 
     } % bookpart
 
