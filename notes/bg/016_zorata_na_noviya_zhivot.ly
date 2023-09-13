@@ -51,7 +51,7 @@
 
   \markup \fontsize #+1.7 {
     \hspace #5
-    \override #'(baseline-skip . 1.8)
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
       \line { 2. И птички въздуха изпълнят }
       \line {   "   " с възторг и сладки песни в хор, }
