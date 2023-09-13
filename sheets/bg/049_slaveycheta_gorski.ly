@@ -35,7 +35,7 @@
 
 \bookpart {
   \label #'ref049
-  \tocItem \markup "Славейчета горски – Slavejčeta gorski"
+  \tocItem \markup "Славейчета горски"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -71,11 +71,11 @@
   } % score
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+    \hspace #15
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
-      \line { 2.  Наш'те песни са ронливи,}
+      \line { 2.  Наш’те песни са ронливи,}
 
       \line {   "   " те ни носят радост вечно; }
 
@@ -112,10 +112,6 @@
     } \"rightBraces049"
 
   } % markup
-
-  \pageBreak
-
-  % include foreign translation(s) of the song
   
 
 } % bookpart

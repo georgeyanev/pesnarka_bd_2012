@@ -35,7 +35,7 @@
 
 \bookpart {
   \label #'ref063
-  \tocItem \markup "Дишай дълбоко – Dišaj dălboko"
+  \tocItem \markup "Дишай дълбоко"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -115,7 +115,7 @@
 
 
   \markup \fontsize #bgCoupletFontSize {
-    %\hspace #1
+    \hspace #15
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
@@ -147,10 +147,6 @@
     }
     \"rightBraces063"
   } % markup
-
-  \pageBreak
-
-  % include foreign translation(s) of the song
   
 
 } % bookpart

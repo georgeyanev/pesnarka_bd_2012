@@ -5,13 +5,13 @@
 
 \bookpart {
   \label #'ref008
-  \tocItem \markup "Über die Musik "
+  \tocItem \markup "Мисли за музиката "
   \paper {
     print-all-headers = ##f
     print-page-number = ##t
     print-first-page-number = ##f
 
-    % put page numbers on the bottom
+    % put page numbers on сthe bottom
     oddHeaderMarkup = \markup ""
     evenHeaderMarkup = \markup ""
     oddFooterMarkup = \markup

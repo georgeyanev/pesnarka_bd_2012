@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref055_2
-  \tocItem \markup "Ти си проявената Любов – Ti si projavenata Ljubov"
+  \tocItem \markup "Ти си проявената Любов"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -46,7 +46,37 @@
 
 
 
-  % include foreign translation(s) of the song
+ \label #'ref053
+  \tocItem \markup "Слава Божия"
+  \include "include/bookpart-paper.ily"
+  \score {
+    \include "include/score-layout.ily"
+
+    \new Voice \absolute  {
+      \clef treble
+      \key b \minor
+      \time 4/4
+      \tempoFunc "Andantino" 4 "72"
+      \autoBeamOff
+
+      d'8. cis'16 cis'4 b2 | fis'8. g'16 g'4 fis'2 | fis'8. fis'16 \tupletUp \tuplet 3/2 {  d''8 cis'' b'8 } ais'2 | \break
+      \times 2/3  { ais'8 b' cis''8 } cis''4 b'2 | cis''8 [( d'' e'' d'' cis'' b' )] ais'4 | b'8 [( cis'' )] b'2. \bar "|."
+    }
+
+    \addlyrics {
+      Не на ме -- не, не на ме -- не, но на И -- ме -- то Си
+      дай, Бо -- же, сла -- ва, сла -- ва, сла -- ва!
+    }
+
+    \header {
+      title = \titleFunc "Слава Божия" "Slava Božija"
+    }
+
+    \midi{}
+
+  } % score
+
+ 
   
 
 } % bookpart

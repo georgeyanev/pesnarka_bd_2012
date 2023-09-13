@@ -35,7 +35,7 @@
 
 \bookpart {
    \label #'ref050
-  \tocItem \markup "Небето се отваря – Nebeto se otvarja"
+  \tocItem \markup "Небето се отваря"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -71,7 +71,7 @@
   } % score
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+    \hspace #18
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line {   2. Христос отгоре слиза}
@@ -111,10 +111,6 @@
     }   \"rightBraces050"
 
   } % markup
-
-  \pageBreak
-
-  % include foreign translation(s) of the song
   
 
 } % bookpart

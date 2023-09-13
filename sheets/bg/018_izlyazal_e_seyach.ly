@@ -96,7 +96,7 @@
 
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+    \hspace #15
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
 
@@ -124,10 +124,6 @@
     }
     \"rightBraces018"
   }
-
-  \markup \empty-one
-
-  % include foreign translation(s) of the song
   
 
 } % bookpart

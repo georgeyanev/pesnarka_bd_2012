@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref024
-  \tocItem \markup "Благославяй – Blagoslavjaj"
+  \tocItem \markup "Благославяй"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -71,11 +71,5 @@
     \midi{}
 
   } % score
-
-  \pageBreak
-
-
-  % include foreign translation(s) of the song
-  
 
 } % bookpart

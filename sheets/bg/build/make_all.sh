@@ -28,8 +28,8 @@ cat \
     ../036_napred_da_hodim.ly \
     ../037_na_Uchitelya.ly \
     ../038_milosardieto.ly \
-    ../039_sardechen_zov.ly \
-    ../040_041_blagosloven_Gospod_za_nebesniya_zar.ly \
+    ../041_za_nebesniya_zar.ly \
+    ../039_040_sardechen_zov_blagosloven_Gospod.ly \
     ../042_vreme_e_da_varvim.ly \
     ../044_pozdrav_na_Uchitelya.ly \
     ../045_sine_moy_pazi_zhivota.ly \
@@ -40,21 +40,19 @@ cat \
     ../050_nebeto_se_otvarya.ly \
     ../051_o_Uchitelyu_blagati.ly \
     ../052_darzost_v_Hrista.ly \
-    ../053_054_slava_Bozhiya_kam_sion.ly \
+    ../054_kam_Sion.ly \
     ../055_1_slantseto_na_lyubovta.ly \
-    ../055_2_ti_si_proyavenata_lyubov.ly \
+    ../055_2_ti_si_proyavenata_lyubov_053_slava_Bozija.ly \
     ../056_1_056_2_idvat_dni_na_radost_kam_rila.ly \
     ../057_psalom_91.ly \
     ../058_na_beliya_tsvyat.ly \
     ../060_na_Hrista_zapeyte.ly \
     ../062_novi_drehi.ly \
     ../063_dishay_dalboko.ly \
+    ../066_1_066_2_taynata_vecherya_tebe_poem.ly \
     ../064_angel_vopiyashe.ly \
-    ../066_1_taynata_vecherya.ly \
-    ../066_2_tebe_poem.ly \
-    ../067_pesen_na_glasnite_bukvi.ly \
     ../068_shto_e_sashtnostta.ly \
-    ../069_pesni_ot_Uchitelya_blank.ly \
+    ../067_pesen_na_glasnite_bukvi.ly \
     ../069_pesni_ot_Uchitelya.ly \
     ../070_fir_fur_fen.ly \
     ../071_zgrjava_slunzeto_sila_zhiva_izvorna_techusta.ly \

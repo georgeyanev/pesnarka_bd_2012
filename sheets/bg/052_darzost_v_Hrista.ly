@@ -73,7 +73,7 @@
 
 \bookpart {
   \label #'ref052
-  \tocItem \markup "Дързост в Христа – Dărzost v Hrista"
+  \tocItem \markup "Дързост в Христа"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -159,11 +159,9 @@
       \line {   "   "}
 
     }\"rightBraces052_1"
-  } % markup
 
-  \pageBreak
 
-  \markup \fontsize #bgCoupletFontSize {
+
     \hspace #1
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
@@ -210,9 +208,6 @@
     \"rightBraces052_2"
   } % markup
 
-  \markup \empty-three
 
-  % include foreign translation(s) of the song
-  
 
 } % bookpart

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref067
-  \tocItem \markup "Песен на гласните букви – Pesen na glasnite bukvi"
+  \tocItem \markup "Песен на гласните букви"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -76,12 +76,6 @@
     \midi{}
 
   } % score
-
-
-
-  \markup \empty-two
-
-  % include foreign translation(s) of the song
   
 
 } % bookpart

@@ -36,7 +36,7 @@
   \markup \fontsize  #+2.5  { {  \vspace #5.5 } }
 
 
-  \markup \fontsize  #+6 { \fill-line \bold {"ПЕСНИ ОТ УЧИТЕЛЯ"} }
+  \markup \fontsize  #+7 { \fill-line \bold {"ПЕСНИ ОТ УЧИТЕЛЯ"} }
 
 
   \markup {

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref056_1
-  \tocItem \markup "Идват дни на радост – Idvat dni na radost"
+  \tocItem \markup "Идват дни на радост"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -35,14 +35,9 @@
 
   } % score
 
-  % include foreign translation(s) of the song
-  \markup \empty-two
-  
-
-  \markup \empty-two
 
     \label #'ref056_2
-  \tocItem \markup "Към Рила – Kăm Rila"
+  \tocItem \markup "Към Рила"
 
   \include "include/bookpart-paper.ily"
   \score {
@@ -80,7 +75,7 @@
   } % score
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #5
+    \hspace #8
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
      
@@ -95,16 +90,25 @@
       \line {   "   " защото с тях ще свири  }
       \line {   "   " Доброто, Любовта. }
 
-      \line { " " }
+    }
+
+      \hspace #5
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \column {
+     
+     
       \line { 4. Ще идем ний на Рила, }
       \line {   "   " ще видим Мусала, }
       \line {   "   " безкрайната Природа  }
       \line {   "   " и своя мил Баща. }
+
+  
     }
+
 
   } % markup
 
-  \markup \empty-two
+
 
   
 

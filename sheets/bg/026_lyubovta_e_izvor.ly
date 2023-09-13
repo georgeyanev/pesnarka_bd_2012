@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref026
-  \tocItem \markup "Любовта е извор – Ljubovta e izvor"
+  \tocItem \markup "Любовта е извор"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -41,9 +41,10 @@
 
   } % score
 
-  \markup \fontsize #+1.9 {
-    \hspace #10
-    \override #'(baseline-skip . 1.8)
+
+  \markup \fontsize #bgCoupletFontSize {
+    \hspace #9.5
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
 
       \line { 2. И туй непрестанно  }
@@ -54,18 +55,30 @@
       \line {   "   " семенцата драги,}
       \line {   "   " от които никнат}
       \line {   "   " Добрините благи.}
-     \vspace #0.3
-      \line { "   " \italic {Припев ...} }
+
 
 
     }
 
+    \hspace #4
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
+    \column {
+      \line { "   " \italic {Припев ...} }
+      \line {   "   "Работи със нея }
+      \line {   "   " в милости желани, }
+      \line {   "   "   помощта носи й }
+      \line {   "   "  за души страдални. }
+
+
+    } %column
+
   } % markup
 
   \pageBreak
-  \markup \fontsize #+1.9 {
-    \hspace #10
-    \override #'(baseline-skip . 1.8)
+
+  \markup \fontsize #bgCoupletFontSize {
+    \hspace #20
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
       \line { 3. Таз велика тайна }
       \line {   "   " кой добре разбира, }
@@ -75,9 +88,9 @@
       \line {   "   "на роса небесна}
       \line {   "   "и на слънчевата}
       \line {   "   "светлина чудесна.}
-     \vspace #0.3
+      \line {   "   "}
       \line { "   " \italic {Припев ...} }
-     \vspace #0.3
+      \line {   "   "}
       \line { 4. Слънцето, което }
       \line {   "   " оживотворява, }
       \line {   "   " овреме човека}
@@ -86,9 +99,9 @@
       \line {   "   "в него семенцата}
       \line {   "   "и му пълни тайно}
       \line {   "   "с Добрини душата.}
-     \vspace #0.3
+      \line {   "   "}
       \line { "   " \italic {Припев ...} }
-     \vspace #0.3
+      \line {   "   "}
       \line { 5. Плодове тъй сладки, }
       \line {   "   " в Любовта узрели, }
       \line {   "   "най-блажен ще бъде}
@@ -97,21 +110,11 @@
       \line {   "   "вечно ще живее,}
       \line {   "   "пред престола Божи}
       \line {   "   "песни ще да пее.}
-     \vspace #0.3
+      \line {   "   "}
       \line { "   " \italic {Припев ...} }
     }
 
   } % markup
 
-  \markup \empty-two
-
-  % include foreign translation(s) of the song
-  
 
 } % bookpart
-
-
-%{
-convert-ly (GNU LilyPond) 2.24.2  convert-ly: Processing `'...
-Applying conversion:     The document has not been changed.
-%}

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref057
-  \tocItem \markup "Псалм 91 – Psalm 91"
+  \tocItem \markup "Псалм 91"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -50,10 +50,6 @@
     \midi{}
 
   } % score
-
-
-
-  % include foreign translation(s) of the song
   
 
 } % bookpart

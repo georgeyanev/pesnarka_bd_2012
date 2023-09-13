@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref062
-  \tocItem \markup "Нови дрехи – Novi drehi"
+  \tocItem \markup "Нови дрехи"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -41,7 +41,7 @@
   \markup \empty-one
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #3
+    \hspace #18
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 

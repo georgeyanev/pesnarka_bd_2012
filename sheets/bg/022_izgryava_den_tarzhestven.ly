@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref022
-  \tocItem \markup "Изгрява вече ден тържествен – Izgrjava veče den tăržestven"
+  \tocItem \markup "Изгрява вече ден тържествен"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -51,7 +51,7 @@
   \pageBreak
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #3
+    \hspace #15
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
@@ -64,6 +64,18 @@
       \line { " " }
       \line { "   " \italic {Припев: } }
 
+      \line {   "   "  Елате да живеем }
+
+      \line {   "   " във Любовта чудесна. }
+
+      \line {   "   " Елате да приемем }
+
+      \line {   "   " таз благодат небесна, }
+
+      \line {   "   " що живота обновява }
+
+      \line {   "   " и вечно тя го подмладява. }
+
       \line { " " }
       \line {  3.  О, ден прекрасен, вечно благо, }
       \line {   "   " кому за тебе не е драго? }
@@ -74,12 +86,5 @@
       \line { "   " \italic {Припев: } }
     }
   } % markup
-
-
-  \markup \empty-two
-
-
-  % include foreign translation(s) of the song
-  
 
 } % bookpart

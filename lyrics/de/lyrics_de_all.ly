@@ -1,10 +1,10 @@
 \version "2.24.2"
 
 % include paper part and global functions
-\include "../../notes/international/include/globals.ily"
+\include "../../sheets/international/include/globals.ily"
 
 \bookpart {
-  \include "../../notes/international/include/bookpart-paper.ily"
+  \include "../../sheets/international/include/bookpart-paper.ily"
 
    \include "016_zorata_na_noviya_zhivot_lyrics_de.ly"
    \include "018_izlyazal_e_seyach_lyrics_de.ly"

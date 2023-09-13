@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref016
-  \tocItem \markup "Зората на Новия живот – Zorata na Novija život"
+  \tocItem \markup "Зората на Новия живот"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -49,8 +49,8 @@
 
   \pageBreak
 
-  \markup \fontsize #+1.7 {
-    \hspace #5
+  \markup \fontsize #bgCoupletFontSize {
+    \hspace #15
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
       \line { 2. И птички въздуха изпълнят }
@@ -95,10 +95,5 @@
       \line { " " }
     }
   } % markup
-
-  \markup \empty-one
-
-  % include foreign translation(s) of the song
-  
 
 } % bookpart

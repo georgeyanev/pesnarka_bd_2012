@@ -37,7 +37,7 @@
 
 \bookpart {
   \label #'ref047
-  \tocItem \markup "Аз съм бялото кокиче –  Az săm bjaloto kokiče"
+  \tocItem \markup "Аз съм бялото кокиче"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -76,7 +76,7 @@
       } % score
 
       \markup \fontsize #bgCoupletFontSize {
-        \hspace #1
+        \hspace #15
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
         \column {
           \line {    2. Радост нова ви показвам }
@@ -102,10 +102,5 @@
         }  \"rightBraces047"
 
       }  % markup
-
-      \pageBreak
-
-      % include foreign translation(s) of the song
-      
 
     } % bookpart

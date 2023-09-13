@@ -17,43 +17,10 @@
 
 
 \bookpart {
-  \label #'ref053
-  \tocItem \markup "Слава Божия – Slava Božija"
-  \include "include/bookpart-paper.ily"
-  \score {
-    \include "include/score-layout.ily"
-
-    \new Voice \absolute  {
-      \clef treble
-      \key b \minor
-      \time 4/4
-      \tempoFunc "Andantino" 4 "72"
-      \autoBeamOff
-
-      d'8. cis'16 cis'4 b2 | fis'8. g'16 g'4 fis'2 | fis'8. fis'16 \tupletUp \tuplet 3/2 {  d''8 cis'' b'8 } ais'2 | \break
-      \times 2/3  { ais'8 b' cis''8 } cis''4 b'2 | cis''8 [( d'' e'' d'' cis'' b' )] ais'4 | b'8 [( cis'' )] b'2. \bar "|."
-    }
-
-    \addlyrics {
-      Не на ме -- не, не на ме -- не, но на И -- ме -- то Си
-      дай, Бо -- же, сла -- ва, сла -- ва, сла -- ва!
-    }
-
-    \header {
-      title = \titleFunc "Слава Божия" "Slava Božija"
-    }
-
-    \midi{}
-
-  } % score
-
-  % include foreign translation(s) of the song
   
 
-  \markup \empty-three
-
    \label #'ref054
-  \tocItem \markup "Към Сион – Kăm Sion"
+  \tocItem \markup "Към Сион"
 
   \include "include/bookpart-paper.ily"
 
@@ -104,7 +71,7 @@
 
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+    \hspace #15
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line {   2. Плътта ще победиме}
@@ -127,7 +94,6 @@
     } \"rightBraces054"
 
   } % markup
-  \markup \empty-three
 
   
 

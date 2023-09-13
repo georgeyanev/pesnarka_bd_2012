@@ -4,8 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
-    \label #'ref044
-  \tocItem \markup "Поздрав на Учителя – Pozdrav na Učitelja"
+  \label #'ref044
+  \tocItem \markup "Поздрав на Учителя"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -51,7 +51,7 @@
   } % score
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #3
+    \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line { 2. Обвити в мрак до този час, }
@@ -63,15 +63,7 @@
       \line { "   " }
 
       \line { "   " \italic{Припев: Добре дошъл ...} }
-    }
-
-  } % markup
-  \pageBreak
-
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #3
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
+      \line { "   " }
       \line { 3. Учителю Благословен, }
 
       \line { "   " Ти ни сърцата обнови, }
@@ -83,8 +75,12 @@
       \line { "   " }
 
       \line { "   " \italic{Припев: Добре дошъл ...} }
-      \line { "   " }
 
+    }
+
+    \hspace #3
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \column {
       \line { 4. Учителю, наш скъпи гост, }
 
       \line { "   " привет от нас Ти приеми; }
@@ -94,11 +90,10 @@
       \line { "   " да жертваме живота свой. }
     }
 
+
+
   } % markup
 
-  \markup \empty-three
 
-  % include foreign translation(s) of the song
-  
 
 } % bookpart

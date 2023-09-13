@@ -29,8 +29,8 @@
     bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
   
-    tocTitleMarkup = \markup \fontsize  #+4.5 \bold \column {
-      \fill-line { \null "INHALT" \null }
+    tocTitleMarkup = \markup \fontsize  #+7 \bold \column {
+      \fill-line { \null "Съдържание" \null }
       \null
     }
 

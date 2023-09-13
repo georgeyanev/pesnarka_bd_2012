@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref038
-  \tocItem \markup "Милосърдието – Milosărdieto"
+  \tocItem \markup "Милосърдието"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -56,16 +56,7 @@
       \line {"   "Пролет, лято, есен и през цяла зима,}
 
       \line {"   "откогато хора на Земята има. (2)}
-      \vspace #0.4
-
-      \line {2. Vsičko drago, milo i v Ljubov živee,}
-
-      \line {"   "i căfti, i vărže, i raste, i zree  –}
-
-      \line {"   "Prolet, ljato, esen i prez cjala zima,}
-
-      \line {"   "otkogato hora na Zemjata ima. (2)}
-      \line { " " }
+       \line {"   "}
 
       \line {3. И щом пътник морен мине край градина,}
 
@@ -74,27 +65,7 @@
       \line {"   "плодове узрели без корист предлага}
 
       \line {"   "с непресторна нега и усмивка блага. (2)}
-      \vspace #0.4
-      \line {3. I štom pătnik moren mine kraj gradina,}
-
-      \line {"   "vsjako živo klonče veselo mu kima –}
-
-      \line {"   "plodove uzreli bez korist predlaga}
-
-      \line {"   "s neprestorna nega i usmivka blaga. (2)}
-
-
-    }
-
-
-  } % markup
-
-  \pageBreak
-
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #15
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
+      \line {"   "}
 
       \line {4. Бедни и богати, здрави или болни, }
 
@@ -103,15 +74,7 @@
       \line {"   "че сменяват в Радост грижите, хомота, }
 
       \line {"   " и с утеха виждат смисъл във живота. (2) }
-      \vspace #0.4
-      \line {4. Bedni i bogati, zdravi ili bolni, }
-
-      \line {"   "i po vsjako vreme tuka sa dovolni, }
-
-      \line {"   "če smenjavat v Radost grižite, homota, }
-
-      \line {"   " i s uteha viždat smisăl văv života. (2) }
-      \line { " " }
+       \line {"   "}
 
       \line {5. Затуй, който дири истинска победа,}
 
@@ -120,23 +83,14 @@
       \line {"   "няма да се свърши щастие за него,}
 
       \line {"   "ще го благославят и Земя, и Небо. (2)}
-      \vspace #0.4
-      \line {5. Zatuj, kojto diri istinska pobeda,}
 
-      \line {"   "raj takăv prekrasen neka si otgleda;}
 
-      \line {"   "njama da se svărši štastie za nego,}
 
-      \line {"   "šte go blagoslavjat i Zemja, i Nebo. (2)}
     }
 
 
   } % markup
 
 
-  \markup \empty-two
-
-  % include foreign translation(s) of the song
-  
 
 } % bookpart
