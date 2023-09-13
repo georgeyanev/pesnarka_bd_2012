@@ -6,7 +6,7 @@
 \bookpart {
   \label #'ref068
   \tocItem \markup "Що е същността"
-   \include "include/bookpart-paper.ily"
+  \include "include/bookpart-paper.ily"
 
   \header {
     tagline = ##f
@@ -31,7 +31,7 @@
 
       \time 5/4 d'4. d'8 cis'4 b2 | cis'2 b8 ais8 b4. r8 | \break
 
-     \bar ".|:-||" 
+      \bar ".|:-||"
 
       \time 4/4 b4 cis'4 d'4 b4 | \time 3/4 d'4 fis'2 | \time 4/4 e'4 fis' g' e' | \time 3/4 g'4 b'2  \break
 
@@ -47,7 +47,7 @@
       \time 3/4
 
 
-       \bar ".|:-||"  b8. cis'16 d'8 fis'4. | e'8. fis'16 g'8 fis'4. | fis'8 b'8 d''4. b'8| \break
+      \bar ".|:-||"  b8. cis'16 d'8 fis'4. | e'8. fis'16 g'8 fis'4. | fis'8 b'8 d''4. b'8| \break
 
       \time 4/4 cis''4. ais'8 b'4. r8 | \time 3/4 fis'8. b'16 a'8 g'4. | e'8. fis'16 g'8 fis'4. | \break
 
@@ -141,6 +141,80 @@
     \midi{}
 
   } % score
-  
+
+
+  \label #'ref067
+  \tocItem \markup "Песен на гласните букви"
+  \include "include/bookpart-paper.ily"
+  \score {
+    \include "include/score-layout.ily"
+
+    \new Voice \relative c' {
+      \clef treble
+      \key c \major
+      \time 7/16
+      \tempoFunc "Vivo" 4 "104"
+      \autoBeamOff
+      c8 e8 g8. | g8 c8 g8. | c,8 e8 g8. | g8 c8 g8. | \break
+      c,8 d8 e8. | d8 e8  \acciaccatura {d16[e16]} d8([c16]) | g'8 g8 g8. | c,8 d8 e8. | \break
+      d8 e8 \acciaccatura {d16[e16]} d8([c16]) | g'8 g8 g8. | c,8 d8 e8. | d8 e8 \acciaccatura {d16[e16]} d8([c16]) | c8~ c8~ c8. | \bar "|." \break
+    }
+
+    \addlyrics {
+      "1. a" -- a -- a  a -- a -- a  a -- a -- a  a -- a -- a
+      a -- a -- a  a -- a -- a  a -- a -- a  a -- a -- a
+      a -- a -- a  a -- a -- a  a -- a -- a  a -- a -- a a
+    }
+
+    \addlyrics {
+      "2. o" -- o -- o  o -- o -- o  o -- o -- o  o -- o -- o
+      o -- o -- o  o -- o -- o  o -- o -- o  o -- o -- o
+      o -- o -- o  o -- o -- o  o -- o -- o  o -- o -- o o
+    }
+
+    \addlyrics {
+      "3. у" -- у -- у  у -- у -- у  у -- у -- у  у -- у -- у
+      у -- у -- у  у -- у -- у  у -- у -- у  у -- у -- у
+      у -- у -- у  у -- у -- у  у -- у -- у  у -- у -- у у
+    }
+
+    \addlyrics {
+      "4. а" -- о -- у  а -- о -- у  а -- о -- у  а -- о -- у
+      а -- о -- у  а -- о -- у  а -- о -- у  а -- о -- у
+      а -- о -- у  а -- о -- у  а -- о -- у  а -- о -- у а
+    }
+
+    \addlyrics {
+      "5. a" -- a -- a  a -- a -- a  a -- a -- a  a -- a -- a
+      a -- a -- a  a -- a -- a  a -- a -- a  a -- a -- a
+      a -- a -- a  a -- a -- a  a -- a -- a  a -- a -- a a
+    }
+
+    \addlyrics {
+      "6. e" -- e -- e  e -- e -- e  e -- e -- e  e -- e -- e
+      e -- e -- e  e -- e -- e  e -- e -- e  e -- e -- e
+      e -- e -- e  e -- e -- e  e -- e -- e  e -- e -- e e
+    }
+
+    \addlyrics {
+      "7. и" -- и -- и  и -- и -- и  и -- и -- и  и -- и -- и
+      и -- и -- и  и -- и -- и  и -- и -- и  и -- и -- и
+      и -- и -- и  и -- и -- и  и -- и -- и  и -- и -- и и
+    }
+
+    \addlyrics {
+      "8. а" -- е -- и  а -- е -- и  а -- е -- и  а -- е -- и
+      а -- е -- и  а -- е -- и  а -- е -- и  а -- е -- и
+      а -- е -- и  а -- е -- и  а -- е -- и  а -- е -- и а
+    }
+
+    \header {
+      title = \titleFunc " Песен на гласните букви" "Pesen na glasnite bukvi"
+    }
+
+    \midi{}
+
+  } % score
+
 
 } % bookpart
