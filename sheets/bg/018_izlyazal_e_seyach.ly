@@ -34,7 +34,7 @@
 
 \bookpart {
   \label #'ref018
-  \tocItem \markup "Излязъл е сеяч – Izljazăl e sejač"
+  \tocItem \markup "Излязъл е сеяч"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
