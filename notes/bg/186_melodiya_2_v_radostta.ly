@@ -142,34 +142,6 @@
 
         }
 
-        \hspace #10
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-          \line {  2. Slănčevoto jato}
-
-          \line {   "   " Boga blagoslavja}
-
-          \line {   "   " i zari,}
-
-          \line {   "   " Božijata Slava}
-
-          \line {   "   " novija Svešten Život}
-
-          \line {   "   " da ozari.}
-
-          \line {   "   " Celijat vsemir e svetlina}
-
-          \line {   "   " i svetlinata}
-
-          \line {   "   " izvor e na radost,}
-
-          \line {   "   " sila i život.}
-          \line {   "   " }
-          \line \italic {   "      " Pripev:}
-          \line {   "      " Eto, go gree denjat ...}
-
-
-        }%column
       } % markup
 
       \pageBreak

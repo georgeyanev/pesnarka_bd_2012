@@ -129,20 +129,6 @@
       \line {   "   "    изгрява Радостта.}
     }
 
- \hspace #3
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line {   2. Nežni cvetja kraj nego căftjat,}
-      \line {   "   "  prikazki čudni tiho redjat,  }
-      \line {   "   " nimfi igrivi tuk tanci pletat,}
-      \line {   "   " v gubera rosen stăpki treptjat. }
-      \line {   "   "  Noštem se ogleždat}
-      \line {   "   "  v izvora  zvezdi.}
-      \line {   "   "  I blika, dava  toj bez spir,}
-      \line {   "   "  tăj dava Ljubovta. }
-      \line {   "   "   V sărceto na čoveka}
-      \line {   "   "    izgrjava Radostta.}
-    } %column
   } % markup
 
 

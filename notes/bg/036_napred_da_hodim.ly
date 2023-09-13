@@ -98,47 +98,6 @@
 
         }
 
-        \hspace #5
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-          \line {  2. Zemjata s čisti misli}
-
-          \line {   "   "da ogradime zdravo}
-
-          \line {   "   "i zloto vseporočno}
-
-          \line {   "   "da pobedime s Pravo.}
-          \line { "   "}
-
-          \line { "   " \italic {Pripev ... }}
-          \line { "   "}
-
-
-          \line {   3. Na slabite da nosim}
-
-          \line {   "   "podkrepa i obnova,}
-
-          \line {   "   "na straduštite – milost}
-
-          \line {   "   "i Svobodata nova.}
-
-          \line { "   "}
-          \line { "   " \italic {Pripev ...}}
-          \line { "   " }
-
-          \line {  4. Văv bezdnata da slezem,}
-
-          \line {   "   "horugva da postavim}
-
-          \line {   "   "i padnalite bratja}
-
-          \line {   "   "ot măka da izbavim.}
-
-          \line { "   "}
-          \line { "   " \italic {Pripev ...}}
-
-
-        } %column
       } % markup
 
 
@@ -167,24 +126,6 @@
 
         }
 
-        \hspace #5
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-
-
-          \line {   5. Togava da otvorim}
-
-          \line {   "   "na novij grad vratite,}
-
-          \line {   "   "v Ierusalim da vlezem –}
-
-          \line {   "   "sveta na Svetlinite.}
-          \line { "   "}
-
-          \line { "   " \italic  {Pripev ...}}
-          \line { "   "}
-
-        } %column
       } % markup
 
       % include foreign translation(s) of the song

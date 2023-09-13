@@ -125,42 +125,6 @@
 
 
     }    \"rightBraces058"
-
-    \hspace #5
-    \override #'(baseline-skip . 1.8)
-   \column {
-
-      \line {   2. Nagore ošte! Tam căfti }
-      \line {   "   " alpijska roza bjala, }
-      \line {   "   " zorata belite lăči }
-      \line {   "   " v taz roza e izljala. }
-      \line { " " }
-
-      \line { "        " \italic {Pripev: } }
-      \line { " " }
-
-
-      \line {  3. Nagore! Bjalo Slănce dnes }
-
-      \line {   "   "ot iztok šte izgree  – }
-
-      \line {   "   "emblema živa na onez,}
-
-      \line {   "   "v koito Bog živee.}
-      \line { " " }
-
-      \line { "        " \italic {Pripev: } }
-      \line { " " }
-      \line {   4. Nagore – v tazi belina!}
-
-      \line {   "   "Tja vsăde šte izpălni,}
-
-      \line {   "   "i gibelnata tămnina}
-
-      \line {   "   "v bjal den šte se prevărne.}
-
-
-    }   \"rightBraces058" %column
   } % markup
 
   \pageBreak
@@ -188,28 +152,6 @@
       \line { " " }
       \line { "        " \italic {Припев: } }
     }      \"rightBraces059"
-
-    \hspace #5
-    \override #'(baseline-skip . 1.8)
-    \column {
-
-
-
-
-      \line { "        " \italic {Pripev: } }
-      \line { " " }
-
-
-      \line {   5. Zemjata šte razhubavim,}
-
-      \line {   "   "na Raj šte ja napravim;}
-
-      \line {   "   "Nebeto šte razveselim}
-
-      \line {   "   "i Boga šte proslavim.}
-      \line { " " }
-      \line { "        " \italic {Pripev: } }
-    }    \"rightBraces059"
   } % markup
 
   % include foreign translation(s) of the song

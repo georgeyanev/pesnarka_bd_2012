@@ -84,20 +84,6 @@
       \line { "   "мощна е водата. }
     } \"rightBraces088"
 
-    \hspace #7
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line { 2. Kapkite dăždovni}
-      \line { "   "săšto tăj podnasjat}
-      \line { "   "izobilna vlaga – }
-      \line { "   "struja na života. }
-      \line { "   "Niknat semencata, }
-      \line { "   "păpki se raztvarjat,}
-      \line { "   "plodove uzrjavat.}
-      \line { "   "Vsičko se săbužda – }
-      \line { "   "moštna e vodata. }
-    } %column
-    \"rightBraces088"
   } % markup
 
  

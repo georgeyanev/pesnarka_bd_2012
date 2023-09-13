@@ -126,27 +126,6 @@
       \line {   "        "с дух ще се поклоним. }
     } \"rightBraces054"
 
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line {   2. Plătta šte pobedime}
-
-      \line {   "   "săs smelost v podvig nov;}
-
-      \line {   "   "sărcata šte stopime}
-
-      \line {   "   "s Hristovata Ljubov.}
-
-      \line { " " }
-
-      \line {   "        "Sijaj, sveti Sione,}
-
-      \line {   "        "nij bărzo več letim,}
-
-      \line {   "        "na Boga skoro v tebe,}
-
-      \line {   "        "s duh šte se poklonim. }
-    } \"rightBraces054"
   } % markup
   \markup \empty-three
 

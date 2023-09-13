@@ -105,44 +105,6 @@
       \line {   "   " в съвършенство и свят Нов.}
     }\"rightBraces045"
 
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-     \column {
-      \vspace #0.3
-
-      \line { 2. Ti si toz Život realen, }
-
-      \line {   "   " sinko, sebe si poznaj! }
-
-      \line {   "   " Tvojta sila e goljama, }
-
-      \line {   "   " dnite tvoi njamat kraj. }
-
-      \line {   "   " Ti săzdavaš vseki podtik, }
-
-      \line {   "   " blagorodnija stremež,}
-
-      \line {   "   " idealite visoki}
-
-      \line {   "   " i krasivija kopnež.}
-      \vspace #0.2
-
-      \line {   3. Tazi plăt ti e odežda,}
-
-      \line {   "   " a Zemjata — školen čin;}
-
-      \line {   "   " ti živeeš i se učiš,}
-
-      \line {   "   " kato malăk Boži Sin.}
-
-      \line {   "   " Dărzost, mili moj Živote,}
-
-      \line {   "   " s teb e Božata Ljubov!}
-
-      \line {   "   " Tja zove te vse nagore —}
-
-      \line {   "   " v săvăršenstvo i svjat Nov.}
-    } \"rightBraces045" %column
   } % markup
 
   % include foreign translation(s) of the song

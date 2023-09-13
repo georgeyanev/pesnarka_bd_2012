@@ -111,49 +111,6 @@
         \line {   "        " като тая душа блага.}
       }
 
-      \hspace #-2
-      \override #'(baseline-skip . 1.8)
-     
-      \column {
-
-        \line {   "   " 2. Da ne hodi večer, mamo, na češmata,}
-
-        \line {   "        " na momcite pălni stomni da podnasja,}
-
-        \line {   "        " rosni kitki da im obeštava,}
-
-        \line {   "        " a na bolni večer iz seloto} 
-
-        \line {   "        " neka tja voda raznasja.}
-
-        \line {   "        " Naša Donka, mila mamo, po duša e}
-
-        \line {   "        " blaga, krotka, milostiva,}
-
-        \line {   "        " no sărce si trjabva da nauči, mamo,}
-
-        \line {   "        " momcite da ne posmiva.}
-
-        \line {   "        " }
-
-        \line {   "   " 3. Sutrin rano na češmata da otiva,}
-
-        \line {   "        " v beli menci, mamo, voda da naliva}
-
-        \line {   "        " bodra, vesela, zasmjana,}
-
-        \line {   "        " s čista, bjala riza, s hubava premjana.}
-
-        \line {   "        " Ta za primer tja da stane.}
-
-        \line {   "        " Koj ja vidi kak raboti iz seloto,}
-
-        \line {   "        " kak na vsekimu pomaga,}
-
-        \line {   "        " da obikne i da projavi dobroto}
-
-        \line {   "        " kato taja duša blaga.}
-      } %column
     } % markup
 
    \markup \empty-two

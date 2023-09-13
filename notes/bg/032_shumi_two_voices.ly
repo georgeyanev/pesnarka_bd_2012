@@ -15,9 +15,6 @@
         % lyrics above a staff should have this override
         \override VerticalAxisGroup.staff-affinity = #DOWN
       }
-      \new Lyrics = "tempVoiceLyricsEN" \with {
-        \override VerticalAxisGroup.staff-affinity = #DOWN
-      }
       \new Voice = "mainVoice" \absolute  {
         \clef treble
         \key d \minor
@@ -76,12 +73,6 @@
         az slu -- sham tsyal svyat da shu -- mi!
       }
 
-      \context Lyrics = "tempVoiceLyricsEN" {
-        \lyricsto "tempVoice" {
-          "(4.) mis" -- li i nezh -- ni chuv -- stva
-        }
-      }
-
     >>
 
 
@@ -136,43 +127,6 @@
 
     }
 
-    \hspace #6
-    \override #'(baseline-skip . 1.8)
-    \column {
-      \line {   2.  "   "       I vyatar vee, }
-      \line {   "   "    "   "      kadeto si shte}
-
-      \line {   "   "Listata gorski otgovaryat}
-
-      \line {   "   "na negoviya zov, povtaryat}
-
-      \line {   "   "lyubimata si pesenchitsa,}
-
-      \line {   "   "igriva kato ladanchitsa.}
-
-      \line {   "   "    "   "      I vyatar vee, }
-      \line {   "   "    "   "     kadeto si shte}
-
-
-      \line { " " }
-      \line {  3. " " " " Moy vetre, buyno}
-
-      \line {    "   "    "   " zaduhay sega!}
-
-      \line {   "   "Nosi Bozhestvenata vlaga}
-
-      \line {   "   "i osvezhavashta prohlada;}
-
-      \line {   "   "prechistvay zadushlivi hizhi,}
-
-      \line {   "   "razseyvay tezhki zemni grizhi!}
-
-      \line {    "   "    "   "Moy vetre, buyno }
-
-      \line {    "   "    "   "zaduhay sega!}
-
-
-    } %column
   } % markup
 
   \pageBreak
@@ -200,29 +154,6 @@
       \line {   "   "    "   " света избистри}
     }
 
-
-
-    \hspace #3
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
-    \column {
-
-      \line {   4.  "   "         Zaduhay, vetre, }
-      \line {   "   "    "   "         sveta razvedri!}
-
-      \line {   "   "Pri chisti misli i nezhni chuvstva}
-
-      \line {   "   "tsaftyat Bozhestveni izkustva;}
-
-      \line {   "   "navred da prosiyae radost,}
-
-      \line {   "   "navred da disha svezha mladost.}
-
-      \line {  "   "    "   "Zaduhay, vetre, }
-
-      \line {  "   "    "   "sveta izbistri!}
-
-
-    } %column
   } % markup
 
   \markup \empty-two

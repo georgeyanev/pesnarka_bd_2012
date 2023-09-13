@@ -111,46 +111,6 @@
       \line {   "   " целий свят със вас да пее! }
     } \"rightBraces049"
 
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-     \column {
-
-      \line { 2.  Naš'te pesni sa ronlivi,}
-
-      \line {   "   " te ni nosjat radost večno; }
-
-      \line {   "   "  hem sa živi, hem igrivi}
-
-      \line {   "   " kat potoče bărzotečno.}
-      \line {   "   " }
-
-      \line {   3. Eto, čujte kak se lee}
-
-      \line {   "   " pesenta ni v tišinata,}
-
-      \line {   "   " i se lee, i ljulee}
-
-      \line {   "   " kato struja văv dušata.}
-      \line {   "   " }
-
-      \line {   4. Ot glasa ni tih i stroen}
-
-      \line {   "   " vsjako zlo šte se prokudi;}
-
-      \line {   "   "novij voin, mlad, dostoen, }
-
-      \line {   "   " s pesnite si šte probudim.}
-      \line {   "   " }
-
-      \line {   5. Pejte, pejte, mili ptički,}
-
-      \line {   "   "tăj se istinski živee,}
-
-      \line {   "   "pejte, pejte družno vsički – }
-
-      \line {   "   " celij svjat săs vas da pee! }
-    } %column
-    \"rightBraces049"
   } % markup
 
   \pageBreak

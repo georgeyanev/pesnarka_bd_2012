@@ -64,19 +64,6 @@
           \line {   "       " ний вярваме – ще победи.}
         }
 
-        \hspace #5
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-         \column {
-          \line {   2. Kogato se denjat probužda,}
-          \line {   "   " dolavjame nebesen zov – }
-          \line {   "   " vălnuva ni i vdăhnovjava}
-          \line {   "   " za svetăl i krasiv život.}
-          \line {   "       " Šte dojde toj sled burite, }
-          \line {   "       " borbite.}
-          \line {   "       " Zemjata šte zalee mir.}
-          \line {   "       " Mogăšta sila e Dobroto,}
-          \line {   "       " nij vjarvame – šte pobedi.}
-        } %column
       } % markup
 
       % include foreign translation(s) of the song

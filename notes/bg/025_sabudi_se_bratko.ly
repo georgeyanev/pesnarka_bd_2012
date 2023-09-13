@@ -91,24 +91,6 @@
 
     }
     \"rightBraces025"
-
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
-    \column {
-
-      \line { 2.  Napusni zatvori tămni, }
-      \line {   "   " văn e vredom svetlina, }
-      \line {   "   " Mir i Radost te očakvat }
-      \line {   "   " i blažena setnina. }
-      \line { " " }
-      \line { "   " \italic {Pripev: } }
-      \line { "   "Ljubovta e tvoj učitel, }
-      \line {   "   " živo Slovo da šte ti, }
-      \line {   "   " na Dobro šte te nauči, }
-      \line {   "   " v Mădrost šte te posveti. }
-
-    } %column
-    \"rightBraces025"
   } % markup
 
   \pageBreak
@@ -130,23 +112,6 @@
       \line {   "   " тя душата ти от гнета }
       \line {   "   " скоро ще освободи. }
     } \"rightBraces025"
-
-
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
-    \column {
-      \line { 3. I na brata si produmaj }
-      \line {   "   " sladka duma s podtik nov; }
-      \line {   "   " ti sărceto mu da stopliš }
-      \line {   "   " s tvojta iskrena ljubov. }
-      \line { " " }
-      \line { "   " \italic {Pripev: } }
-      \line { "   "Ljubovta e tvoj spasitel, }
-      \line {   "   " neja v pomošt prizovi: }
-      \line {   "   " tja dušata ti ot gneta }
-      \line {   "   " skoro šte osvobodi. }
-    } %column
-    \"rightBraces025"
   } % markup
 
   \markup \empty-two

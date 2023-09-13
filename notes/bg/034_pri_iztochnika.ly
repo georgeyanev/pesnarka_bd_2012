@@ -79,41 +79,6 @@
 
     }
 
-    \hspace #4
-    \override #'(baseline-skip . 1.8)
-    \column {
-      \line { 2. Kăm nego pătnik umoren}
-      \line {   "   " usilno se stremi s nadežda.}
-      \line {   "   " S dălboka skrăb obremenen,}
-      \line {   "   " toj nov život si tam otrežda,}
-      \line {   "   "  "   "  "   " otrežda, otrežda,}
-      \line {   "   " toj nov život si tam otrežda.}
-      \line { " " }
-      \line { 3. I pita toj: „Da pijna li}
-      \line {   "   " ot tvojata vodica čista, }
-      \line {   "   " da osveža očite si,}
-      \line {   "   " duša si stradna da očistja,}
-      \line {    "   "  "   "  "   " očistja, očistja,}
-      \line {   "   " duša si stradna da očistja?}
-      \line { " " }
-      \line { 4. Da otpočina li; răce,}
-      \line {   "   " lice, noze si da izmija}
-      \line {   "   " ot toz svetoven prah; sărce,}
-      \line {   "   " pokrito s rani, da razkrija,}
-      \line {    "   "  "   "  "   " razkrija, razkrija,}
-      \line {   "   " pokrito s rani, da razkrija?“}
-      \line { " " }
-      \line { 5.  „Skloni, o, pătniče zločest,}
-      \line {   "   " glava si morna; utoljavaj}
-      \line {   "   " bezmernata si žažda dnes}
-      \line {   "   " ot men i v men se ti nadjavaj,}
-      \line {   "   "  "   "  "   " nadjavaj, nadjavaj,}
-      \line {   "   " ot men i v men se ti nadjavaj!}
-
-
-
-
-    } %column
   } % markup
 
   \pageBreak
@@ -139,25 +104,6 @@
 
     }
 
-    \hspace #4
-    \override #'(baseline-skip . 1.8)
-    \column {
-
-      \line { 6. Glasa ti măčeniški čuh,}
-      \line {   "   " prieh i tvojta žalba mila.}
-      \line {   "   " Az săm velik Božestven duh}
-      \line {   "   " i šte ti dam život i sila,}
-      \line {   "   "  "   "  "   " i sila, i sila,}
-      \line {   "   " i šte ti dam život i sila.}
-      \line { " " }
-      \line { 7. Ela, ela i pij ot men,}
-      \line {   "   " o, milo Božie săzdanie!}
-      \line {   "   " Nastăpi več posleden den}
-      \line {   "   " na vsjaka măka i stradanje,}
-      \line {  "   "  "   "  "   " stradanje, stradanje,}
-      \line {   "   " na vsjaka măka i stradanje.“}
-
-    } %column
   } % markup
 
 

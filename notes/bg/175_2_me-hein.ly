@@ -89,15 +89,6 @@
         \line {   "   " над мене с Любов бдиш майчина.}
       }
 
-      \hspace #3
-      \override #'(baseline-skip . 1.8)
-      \column {
-
-        \line { 2. Probuždam se ot săn dălbok }
-        \line {   "   " i te zova kato dete.}
-        \line {   "   " Az vinagi vjarvam, če ti}
-        \line {   "   " nad mene s Ljubov bdiš majčina.}
-      } %column
     } % markup
 
 
@@ -120,14 +111,6 @@
         \line {   "   " аз винаги мисля  мисля за теб.}
       }
 
-      \hspace #3
-      \override #'(baseline-skip . 1.8)
-      \column {
-        \line { 1. V'dni na borba, v'dni na pečal, }
-        \line {   "   "  daleč ot teb moj roden kraj,}
-        \line {   "   "  az vinagi mislja za teb,}
-        \line {   "   " az vinagi mislja  mislja za teb.}
-      } %column
     } % markup
     \markup \empty-one
     

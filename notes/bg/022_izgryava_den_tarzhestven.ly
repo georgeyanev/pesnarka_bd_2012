@@ -73,30 +73,6 @@
       \line { " " }
       \line { "   " \italic {Припев: } }
     }
-
-    \hspace #1
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-
-      \line { 2. I nosi Radost za dušata, }
-      \line {   "   " i proglasjava Svobodata}
-      \line {   "   " i Mir s Ljubov presvjata}
-      \line {   "   " za vsički na zemjata. }
-
-
-      \line { " " }
-      \line { "   " \italic {Pripev: } }
-
-      \line { " " }
-      \line {  3.  O, den prekrasen, večno blago, }
-      \line {   "   " komu za tebe ne e drago? }
-      \line {   "   " Za vsičkite godini}
-      \line {   "   " po-skoro obnovi ni! }
-
-      \line { " " }
-      \line { "   " \italic {Pripev: } }
-    }    %column
-
   } % markup
 
 

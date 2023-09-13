@@ -159,58 +159,6 @@
       \line {   "   "}
 
     }\"rightBraces052_1"
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-
-
-      \line {   2.  Dărzost văv Hrista, drugari,}
-
-      \line {   "   " da vărvime vse napred!}
-
-      \line {   "   " Bog-Hristos ni v pătja vodi,}
-
-      \line {   "   " Toj e mošten car navred,}
-
-      \line {   "               " car navred.}
-      \line {   "   "}
-
-      \line {   3.  I tuk dolu, i tam gore, }
-
-      \line {   "   " v mirovete bez konec, }
-
-      \line {   "   " vsăde samo Toj caruva, }
-
-      \line {   "   " Toj e skiptăr i venec, }
-
-      \line {   "                 " i venec. }
-      \line {   "   "}
-      \line {   4.  Upravljava, blagoslavja – }
-
-      \line {   "   " vsičko v Mădrost da raste, }
-
-      \line {   "   " plodove na Pravda svjata }
-
-      \line {   "   " v žertva da Mu prinese, }
-
-      \line {   "              " prinese. }
-
-      \line {   "   "}
-
-
-      \line {   5. Eto dnes ni gore vikat, }
-
-      \line {   "   " kăm Nebeto da vărvim, }
-
-      \line {   "   " če tam Radost ni očakva, }
-
-      \line {   "   " nov grad da si săgradim, }
-
-      \line {   "              " săgradim. }
-
-      \line {   "   "}
-
-    } \"rightBraces052_1" %column
   } % markup
 
   \pageBreak
@@ -259,50 +207,6 @@
       \line {   "             " да живей. }
 
     }
-    \"rightBraces052_2"
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-     \column {
-
-
-
-      \line {   6. Ot smărtta se ne plašete, }
-
-      \line {   "   " ne zagiva săštnostta, }
-
-      \line {   "   " tuj, što smărt zoveme tuka, }
-
-      \line {   "   " za Nebeto e vrata, }
-
-      \line {   "              " e vrata. }
-
-      \line {   "   "}
-
-
-      \line {   7. S radost i hvalebni pesni }
-
-      \line {   "   " šte prekračim nejni prag, }
-
-      \line {   "   " a otvăd Hristos ni čaka, }
-
-      \line {   "   " vse tăj krotăk, vse tăj blag, }
-
-      \line {   "            " vse tăj blag. }
-
-      \line {   "   "}
-
-
-      \line {   8. I tam Toj šte ni nauči, }
-
-      \line {   "   " tlennoto kak da ne tlej, }
-
-      \line {   "   " kak s teloto si čoveka }
-
-      \line {   "   " večno može da živej, }
-
-      \line {   "             " da živej. }
-
-    } %column
     \"rightBraces052_2"
   } % markup
 

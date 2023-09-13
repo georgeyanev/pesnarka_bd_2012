@@ -97,36 +97,6 @@
       \line {   "   " всеки ден, во век веков.}
     }  \"rightBraces046"
 
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-   \column {
-      \line { 2. Vsjaka sutrin văv rosata }
-      \line {   "   " šte si kăpeme sărcata, }
-
-      \line {   "   " kato slănčevi lăči; (2)}
-
-      \line {   "   " i šte peem novi pesni}
-
-      \line {   "   " săs melodii čudesni,}
-
-      \line {   "   " svodăt krasen da eči.}
-
-      \line{" "}
-
-      \line {   3.  I tăj čisti, v beli drehi,}
-
-      \line {   "   " i prepasani s dospehi}
-
-      \line {   "   " na Velikata Ljubov, (2)}
-
-      \line {   "   " novo carstvo šte napravim,}
-
-      \line {   "   " Boga našego da slavim}
-
-      \line {   "   " vseki den, vo vek vekov.}
-    } %column
-
-    \"rightBraces046"
   } % markup
 
   % include foreign translation(s) of the song

@@ -84,45 +84,6 @@
 
         }
 
-        \hspace #5
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-          \line {   2. I gladuvam, i žaduvam,}
-
-          \line {   "   " tjah očakvam denonoštno.}
-
-          \line {   "   " Ti me, Bože, blagoslavjaj,}
-
-          \line {   "   " pri Teb blizo az da băda}
-
-          \line {   "   " i uteha v Teb da najda.}
-          \line { " " }
-
-          \line {   3. Tvoja svetăl lik da gledam}
-
-          \line {   "   " i veličieto Tvoe;}
-
-          \line {   "   " da nauča Teb da ljubja.}
-
-          \line {   "   " V taz Ljubov kăm Tebe, Bože,}
-
-          \line {   "   " da namerja moštna sila.}
-              \line { " " }
-
-                \line {   4. V podvizi i săvăršenstvo}
-
-          \line {   "   " da poznavam milostta Ti,}
-
-          \line {   "   " prevelikata Ti tajna,}
-
-          \line {   "   " što razkriva na čoveka}
-
-          \line {   "   " suetata na života.}
-      
-
-
-
-        } %column
       } % markup
 
       \pageBreak
@@ -147,21 +108,6 @@
 
         }
 
-        \hspace #5
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-    
-          \line {    5. Vsičko grešno na Zemjata}
-
-          \line {   "   " e prehodno, mimoletno.}
-
-          \line {   "   " Samo Ti si večen, Bože,}
-
-          \line {   "   " Tebe hvalim, Tebe slavim,}
-
-          \line {   "   " Teb šte slavjat vekovete.}
-
-        } %column
       } % markup
 
       \markup \empty-two

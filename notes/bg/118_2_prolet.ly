@@ -52,14 +52,6 @@
       \line {   "   " слушайте и пейте в пролетта, }
     }
 
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line { 2. Krasota, uhanie se lej,  }
-      \line {   "   "  izobilno blika radostta,}
-      \line {   "   " Slušajte i pejte v proletta, }
-      \line {   "   " slušajte i pejte v proletta, }
-    } %column
   } % markup
 
 \markup \empty-two

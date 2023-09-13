@@ -60,23 +60,6 @@
 
     }
 
-    \hspace #6
-    \override #'(baseline-skip . 1.8)
-    \column {
-
-      \line { 2. I tuj neprestanno  }
-      \line {   "   " vărši tja samata }
-      \line {   "   " kato nežna majka }
-      \line {   "   " vsekimu v dušata  }
-      \line {   "   " postojanno sadi}
-      \line {   "   " semencata dragi,}
-      \line {   "   " ot koito niknat}
-      \line {   "   " Dobrinite blagi.}
-     \vspace #0.3
-      \line { "   " \italic {Pripev ...} }
-
-
-    } %column
   } % markup
 
   \pageBreak
@@ -117,43 +100,6 @@
      \vspace #0.3
       \line { "   " \italic {Припев ...} }
     }
-
-    \hspace #6
-    \override #'(baseline-skip . 1.8)
-    \column {
-      \line { 3. Taz velika tajna }
-      \line {   "   " koj dobre razbira, }
-      \line {   "   " svojta duša mila }
-      \line {   "   " sutrina razkriva, }
-      \line {   "   " kakto krinăt beli}
-      \line {   "   "na rosa nebesna}
-      \line {   "   "i na slănčevata}
-      \line {   "   "svetlina čudesna.}
-     \vspace #0.3
-      \line { "   " \italic {Pripev ...} }
-     \vspace #0.3
-      \line { 4. Slănceto, koeto }
-      \line {   "   " oživotvorjava, }
-      \line {   "   " ovreme čoveka}
-      \line {   "   " toplo ozarjava, }
-      \line {   "   "budi i văzrastva}
-      \line {   "   "v nego semencata}
-      \line {   "   "i mu pălni tajno}
-      \line {   "   "s Dobrini dušata.}
-     \vspace #0.3
-      \line { "   " \italic {Pripev ...} }
-     \vspace #0.3
-      \line { 5. Plodove tăj sladki, }
-      \line {   "   " v Ljubovta uzreli, }
-      \line {   "   "naj-blažen šte băde}
-      \line {   "   "toz, kojto vi vkusi.}
-      \line {   "   "V žilišta nebesni}
-      \line {   "   "večno šte živee,}
-      \line {   "   "pred prestola Boži}
-      \line {   "   "pesni šte da pee.}
-     \vspace #0.3
-      \line { "   " \italic {Pripev ...} }
-    } %column
 
   } % markup
 

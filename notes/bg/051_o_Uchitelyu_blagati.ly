@@ -96,38 +96,6 @@
       \line {   "   "влей в сърца ни Топлина!}
     }\"rightBraces051"
 
-    \hspace #2
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-      \line {   2. Pratenik si ti ot Boga}
-
-      \line {   "   "vsred izmăčeni duši,}
-
-      \line {   "   "Mir, Ljubov ti v nas da vleeš,}
-
-      \line {   "   "Nov život, čestiti dni.}
-
-      \line {   "   "}
-
-      \line {   3. V skărbi, măki i nevoli }
-
-      \line {   "   "samo ti si naš podslon,}
-
-      \line {   "   "ti uteha ni donese,}
-
-      \line {   "   "moj Učitelju, poklon!}
-
-      \line {   "   "}
-
-      \line {   4. Tvoite dumi – biser čisti,}
-
-      \line {   "   "tvojat obraz – Svetlina,}
-
-      \line {   "   "o, Učitelju čestiti,}
-
-      \line {   "   "vlej v sărca ni Toplina!}
-    } %column
-    \"rightBraces051"
   } % markup
 
   \pageBreak

@@ -110,45 +110,6 @@
       \line {   "   " през всичките години.  }
     }   \"rightBraces050"
 
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-     \column {
-      \line {   2. Hristos otgore sliza}
-
-      \line {   "   " văv Svojata dăržava}
-
-      \line {   "   " s mogăštestvo i sila,}
-
-      \line {   "   " văv vsičkata Si slava.}
-      \line {   "   "}
-
-      \line {   3.  Elate, bratja, vsički,}
-
-      \line {   "   " oblečeni văv bjalo,}
-
-      \line {   "   " da Go posreštnem s Radost,}
-
-      \line {   "   " tăržestveno i slavno.}
-      \line {   "   "}
-
-      \line {   4.  Toj ide na Zemjata}
-
-      \line {   "   " bezkrajno da caruva,}
-
-      \line {   "   " život văv Istinata}
-
-      \line {   "   " na vsički da daruva.}
-      \line {   "   "}
-
-      \line {  5.  Blagosloveno carstvo}
-
-      \line {   "   " na Boga Triedinnij}
-
-      \line {   "   " ot sega i do veka,}
-
-      \line {   "   " prez vsičkite godini.  }
-    }  %column
-    \"rightBraces050"
   } % markup
 
   \pageBreak

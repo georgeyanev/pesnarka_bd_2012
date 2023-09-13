@@ -101,30 +101,6 @@
           \line {   "     " с песни най-красиви. }
         }  \"rightBraces047"
 
-        \hspace #5
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-       \column {
-          \line {    2. Radost nova vi pokazvam }
-          \line {   "   " s čaška ranobudna }
-          \line {   "   " i za proletta razkazvam }
-          \line {   "   " prikazčica čudna. }
-
-          \line {  "     " Če sled mene temenužka  }
-          \line {   "     " u vas šte gostuva, }
-          \line {   "     " če săs taja mila družka }
-          \line {   "     " slavej šte se čuva. }
-
-          \line { " " }
-          \line { 3. Če agănca šte zablejat  }
-          \line {   "   " v livadi zeleni, }
-          \line {   "   " če orači šte zasejat }
-          \line {   "   " nivi natoreni. }
-
-          \line { "     " Zlatni klasove šte zrejat  }
-          \line {   "     " v tezi čudni nivi, }
-          \line {   "     " Angeli šte slavjat Boga }
-          \line {   "     " s pesni naj-krasivi. }
-        }   \"rightBraces047" %column
       }  % markup
 
       \pageBreak

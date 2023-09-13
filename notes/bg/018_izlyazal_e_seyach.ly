@@ -29,8 +29,6 @@
 
     \translate #'(0 . -18.9 )
     2
-
-
   }
 }
 
@@ -125,38 +123,6 @@
       \line { "   " \italic {Припев ...} }
     }
     \"rightBraces018"
-
-    \hspace #3
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-
-    \column {
-
-      \line { 2. I kojto čue, v mig potrăpva }
-      \line {   "   " ot toja blag i mil napev; }
-      \line {   "   " i prosijava, i văzkrăsva, }
-      \line {   "   " i blagoslavja toz posev. }
-      \line { " " }
-      \line { "   " \italic {Pripev: } }
-      \line {  "   " Bezcenen dar e Ljubovta, }
-      \line { "   " krasivo čuvstvo – Običta }
-      \line { "   " i blago delo – Milostta, }
-      \line {  "   " obilen izvor – Mădrostta.}
-
-      \line { " " }
-      \line { "   " \italic {Pripev ...} }
-
-      \line { " " }
-      \line { 3. Ljubov vselenata obliva, }
-      \line {   "   " ot obič gree vsjaka tvar; }
-      \line {   "   " život v života se preliva, }
-      \line {   "   " tuk njama veče mlad i star. }
-      \line { " " }
-      \line { "   " \italic {Pripev ...} }
-    }
-    }
-    \"rightBraces018"
-
   }
 
   \markup \empty-one

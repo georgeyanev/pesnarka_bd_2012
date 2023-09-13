@@ -94,51 +94,6 @@
       \line { "   " \italic {Припев ...} }
       \line { " " }
     }
-
-    \hspace #5
-    \override #'(baseline-skip . 1.8)
-        \column {
-      \line { 2. I ptički văzduha izpălnjat }
-      \line {   "   " s văztorg i sladki pesni v hor, }
-      \line {   "   " Harmonijata da dopălnjat }
-      \line {   "   " V golemija nebesen dvor.}
-
-      \line { " " }
-      \line { "   " \italic {Pripev: } }
-      \line {  "   " V novija svetăl toz život, (2) }
-      \line { "   " Život na ljubovta, }
-      \line {  "   " V novija svetăl toz život,}
-      \line { "   " Život na blagostta, }
-      \line { "   "  V novija svetăl toz život,}
-      \line {  "   " Život na radostta.}
-      \line { " " }
-
-      \line { 3. Trepti zorata lekokrila  }
-      \line {   "   " i budi našite duši; }
-      \line {   "   " kato ljubjašta majka mila}
-      \line {   "   " podkanva vsekigo: „Stani!“}
-
-      \line { " " }
-      \line { "   " \italic {Pripev ...} }
-      \line { " " }
-
-      \line { 4. Lăči ot ljubovta ni vlivat }
-      \line {   "   " V gărdite živa toplina, }
-      \line {   "   " Săs sladka vjara ni povdigat }
-      \line {   "   " văv krepost i videlina. }
-
-      \line { " " }
-      \line { "   " \italic {Pripev ...} }
-      \line { " " }
-
-      \line { 5.  O, tez lăči ot Boga idat, }
-      \line {   "   " Te pălnjat našite sărca, }
-      \line {   "   " I šepnat sladko, kak Toj vika: }
-      \line {   "   " „Elate, moite deca!“ }
-      \line { " " }
-      \line { "   " \italic {Pripev ...} }
-      \line { " " }
-    } %column
   } % markup
 
   \markup \empty-one

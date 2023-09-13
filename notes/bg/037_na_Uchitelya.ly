@@ -98,29 +98,6 @@
     }
     \"rightBraces037"
 
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-     \column {
-      \line { 2.  Gospodi, Ti moj Učitel, }
-      \line {   "   " v stăpkite si me vodi, }
-      \line {   "   " i kat mošten pokrovitel }
-      \line {   "   " vsjakoga kăm men bădi. }
-      \line { " " }
-      \line { 3. Daj mi Tvojta Mădrost svjata }
-      \line {   "   " i Božestvena Ljubov; }
-      \line {   "   " za Ljubov kăm vsički bratja }
-      \line {   "   " vinagi da săm gotov. }
-      \line { " " }
-      \line { 4. I văv dni na izpitanie }
-      \line {   "   " Ti bădi mi kanara; }
-      \line {   "   " tăj za Tebe šte živeja }
-      \line {   "   " i za Tebe šte umra. }
-      \line { " " }
-      \line { 5. I kogato stana žitel }
-      \line {   "   " na Nevidimija svjat, }
-      \line {   "   " o, ljubezni moj Učitel,  }
-      \line {   "   " daj mi Tvojta blagodat! }
-    }  \"rightBraces037"  %column
   } % markup
 
   \pageBreak

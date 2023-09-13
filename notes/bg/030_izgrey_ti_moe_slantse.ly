@@ -93,48 +93,6 @@
           \line {   "   "ти вечно си света Любов.}
         }
 
-        \hspace #5
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-         \column {
-          \line {   2. Ogrej nebeto i Zemjata,}
-
-          \line {   "   "lazurni podnebesen šir,}
-
-          \line {   "   "razveseli mi dnes dušata}
-
-          \line {   "   "s treptenijata si bezspir.}
-
-          \line {   "   "O, daj mi toz Život i Mir!}
-          \line { " " }
-
-          \line { "   " \italic {Pripev:} }
-
-          \line {   "   "Život i Mir, Život i Mir,}
-
-          \line {   "   "i Mir, i Mir, Život i Mir,}
-
-          \line {   "   "o, daj mi toz Život i Mir!}
-
-          \line { " " }
-          \line {   3. Edinstveno si ti, koeto}
-
-          \line {   "   "izpălvaš vsičko săs Ljubov}
-
-          \line {   "   "i podnovjavaš vsičko vehto;}
-
-          \line {   "   "svetăt črez teb šte băde nov;}
-
-          \line {   "   "ti večno si sveta, Ljubov.}
-
-
-          \line { " " }
-          \line { "   " \italic {Pripev:} }
-          \line {   "   " Sveta Ljubov, sveta Ljubov,}
-
-          \line {   "   "Ljubov, Ljubov, sveta Ljubov,}
-
-          \line {   "   "ti večno si sveta Ljubov.}
-        } %column
       } % markup
 
       \markup \empty-two

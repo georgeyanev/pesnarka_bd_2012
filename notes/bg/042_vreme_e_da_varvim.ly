@@ -74,22 +74,6 @@
       \line { "   " \italic {Припев ... } }
     }
 
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-
-      \line { 2. Bărzo da poletim, }
-      \line {   "   " moštno da văztrăbim, }
-      \line {   "   " Radost da văzvestim,  }
-      \line {   "   " Vjara da săživim! }
-      \line {  "   " Šte ogrej pak sveta }
-      \line {   "   " v părvata krasota, }
-      \line {   "   " Svoboda, Mir i red  }
-      \line {   "   " šte vladejat vred. }
-      \line { "   " }
-      \line { "   " \italic {Pripev ... } }
-    }
-    %column
   } % markup
 
   \markup \empty-two

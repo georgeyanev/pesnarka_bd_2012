@@ -65,19 +65,6 @@
       \line { "   " \italic{Припев: Добре дошъл ...} }
     }
 
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line { 2. Obviti v mrak do tozi čas, }
-      \line { "   " nij bjahme robi na greha, }
-
-      \line { "   " no čuhme Tvoja krotăk glas }
-
-      \line { "   " i lăhna kăm nas Toplina. }
-      \line { "   " }
-
-      \line { "   " \italic{Pripev: Dobre došăl ...} }
-    } %column
   } % markup
   \pageBreak
 
@@ -107,30 +94,6 @@
       \line { "   " да жертваме живота свой. }
     }
 
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-     \column {
-      \line { 3. Učitelju Blagosloven, }
-
-      \line { "   " Ti ni sărcata obnovi, }
-
-      \line { "   " zapali Ogăn v nas svešten }
-
-      \line { "   " i sladki dumi oživi. }
-
-      \line { "   " }
-
-      \line { "   " \italic{Pripev: Dobre došăl ...} }
-      \line { "   " }
-
-      \line { 4. Učitelju, naš skăpi gost, }
-
-      \line { "   " privet ot nas Ti priemi; }
-
-      \line { "   " săs radost nij gotovi sme }
-
-      \line { "   " da žertvame života svoj. }
-    } %column
   } % markup
 
   \markup \empty-three

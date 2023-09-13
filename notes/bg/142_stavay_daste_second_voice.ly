@@ -38,9 +38,6 @@
         % lyrics above a staff should have this override
         \override VerticalAxisGroup.staff-affinity = #DOWN
       }
-      \new Lyrics = "tempVoiceLyricsEN" \with {
-        \override VerticalAxisGroup.staff-affinity = #DOWN
-      }
 
     \new Voice = "mainVoice" \absolute {
       \clef treble
@@ -113,30 +110,12 @@
       ка.“
    }
 
-   \new Lyrics \lyricsto "mainVoice" {
-        "1.V~le" -- ten
-        den, v~ran -- ni zo -- ri may -- ka mi ti -- ho se pri --
-        bli -- zhi. Sla -- dak glas bla -- ga du -- ma mi
-        ka -- za: „Sta -- vay, da -- shte, na ni -- va
-        tryab -- va da se ho -- di. Sta -- vay, che "ba-" --
-        shta ti van -- ka men i te -- be sas ko -- la --
-        ta cha -- ka. Sta -- vay, che "ba-" -- shta ti van --
-        ka men i te -- be sas ko -- la -- ta cha --
-        ka.“
-   }
-
    \context Lyrics = "tempVoiceLyricsBG" {
      \lyricsto "tempVoice" {
        "(3) жи" -- во -- тът
      }
    }
    
-   \context Lyrics = "tempVoiceLyricsEN" {
-     \lyricsto "tempVoice" {
-       "(3) zhi" -- vo -- tat
-     }
-   }
-
    >>
 
     \header {
@@ -176,29 +155,6 @@
         }
     
     \"rightBraces018"
-
-    \hspace #4
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-          \line {   2. Slantseto shtom izgrey,}
-          \line {   "   " ti na nivata tryabva da si.}
-          \line {   "   " S’ sarp v raka, s pesen ti}
-          \line {   "   " denya sreshtni. Stavay, dashte,}
-          \line {   "   " Slantse doma da ne te zavari.}
-          \line {   "   " Stavay, che momi i momtsi –}
-          \line {   "   " vsi kam nivata sa vech tragnali.}
-          \line {   "   " }
-          \line {   3.  Niva e, dashte, zhivotat,}
-          \line {   "   " de dobroto seme se sey.}
-          \line {   "   " Kat izrasne, zhivot vnasya}
-          \line {   "   " to vav nas. Stavay, dashte,}
-          \line {   "   " Lyubovta dnes men i tebe chaka.}
-          \line {   "   " Stavay, tya ni nosi}
-          \line {   "   " svoyata nova, zhiva premyana.}
-          \line {   "   "  Stavay, che zhivotat vanka men}
-          \line {   "   "  i tebe s blagost veche chaka.“}
-    }
-   \"rightBraces018"
 
   }
 

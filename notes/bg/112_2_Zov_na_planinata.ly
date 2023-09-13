@@ -53,17 +53,6 @@
       \line {   "   " Той зове ме кротко там нагоре.}
     }
 
-    \hspace #3
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line {  2. Zapyavam az  pesen chudna}
-      \line {   "   "  za Slantseto,}
-      \line {   "   "  bistri izvorcheta zashumyavat.}
-      \line {   "   " }
-      \line {3. I vizhdam az vrah izpraven}
-      \line {   "   " pred men stoi.}
-      \line {   "   " Toy zove me krotko tam nagore.}
-    } %column
   } % markup
 
  

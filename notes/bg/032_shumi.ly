@@ -89,44 +89,6 @@
 
     }
 
-   \hspace #5
-    \override #'(baseline-skip . 1.9)
-    \column {
-      \line {   2.  "   "  I vjatăr vee, }
-
-      \line {   "   "    "   "       kădeto si šte.}
-
-      \line {   "   "Listata gorski otgovarjat}
-
-      \line {   "   "na negovija zov, povtarjat}
-
-      \line {   "   "ljubimata si pesenčica,}
-
-      \line {   "   "igriva kato ladančica.}
-
-      \line {  "   "    "   "I vjatăr vee, }
-
-      \line {    "   "    "   "kădeto si šte.}
-
-
-      \line { " " }
-      \line {   3. "   "  Moj vetre, bujno }
-
-      \line {   "   "    "   "  zaduhaj sega!}
-
-      \line {   "   "Nosi Božestvenata vlaga}
-
-      \line {   "   "i osvežavašta prohlada;}
-
-      \line {   "   "prečistvaj zadušlivi hiži,}
-
-      \line {   "   "razsejvaj težki zemni griži!}
-
-      \line {    "   "    "   "Moj vetre, }
-
-      \line {    "   "    "   "bujno zaduhaj sega!}
-
-    } %column
   } % markup
 
   \pageBreak
@@ -150,26 +112,6 @@
       \line {   "   "    "   " света избистри}
     }
 
-
-
-    \hspace #5
-    \override #'(baseline-skip . 1.9)
-    \column {
-      \line {   4.  "   "        Zaduhaj, vetre, }
-      \line {   "   "    "   "         sveta razvedri!}
-
-      \line {   "   "Pri čisti misli, nežni čuvstva}
-
-      \line {   "   "căftjat Božestveni izkustva;}
-
-      \line {   "   "navred da prosijae radost,}
-
-      \line {   "   "navred da diša sveža mladost.}
-
-      \line {  "   "    "   " Zaduhaj, vetre, }
-      \line {   "   "    "   " sveta izbistri}
-    }
-    %column
   } % markup
  
 \markup \empty-two

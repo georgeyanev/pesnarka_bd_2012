@@ -102,27 +102,6 @@
       \line {   "   " и своя мил Баща. }
     }
 
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-      \column {
-     
-      \line { 2. Otnovo šte se sreštnem  }
-      \line {   "   " pri rilskite oči. }
-      \line {   "   " Tuk našata cigulka }
-      \line {   "   " s nov ton šte zazvuči. }
-
-      \line { " " }
-      \line { 3. Dušite ni  – cigulki }
-      \line {   "   " šte lejat krasota, }
-      \line {   "   " zaštoto s tjah šte sviri  }
-      \line {   "   " Dobroto, Ljubovta. }
-
-      \line { " " }
-      \line { 4. Šte idem nij na Rila, }
-      \line {   "   " šte vidim Musala, }
-      \line {   "   " bezkrajnata Priroda  }
-      \line {   "   " i svoja mil Bašta. }
-    } %column
   } % markup
 
   \markup \empty-two

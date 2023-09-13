@@ -73,19 +73,6 @@
           \line {   "   " озарява тази красота. (2)}
         }
 
-        \hspace #5
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-          \column {
-          \line {   2.  Blag život strui }
-          \line {   "   " v topli slănčevi lăči }
-          \line {   "   " i dušite slavjat v Svetlina }
-          \line {   "   " blagija Otec na Ljubovta. (2) }
-          \line {   "   " }
-          \line {   3. Vsičko e Ljubov, }
-          \line {   "   " radost, sila i život. }
-          \line {   "   " Svjata Božija videlina }
-          \line {   "   " ozarjava tazi krasota. (2)}
-        } %column
       } % markup
 
     

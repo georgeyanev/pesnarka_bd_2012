@@ -35,12 +35,6 @@
       \line {   "   " Текст на кирилица }
     }
 
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line { 2. Tekst na latinica }
-      \line {   "   " Tekst na latinica }
-    } %column
   } % markup
 
   % include foreign translation(s) of the song

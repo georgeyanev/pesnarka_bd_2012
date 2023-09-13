@@ -80,44 +80,6 @@
       \line {   "   "вечно Господа да слави! }
     }
 
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-
-      \line {   2. Toj minava svetovete}
-
-      \line {   "   "i văv tjah se văplătjava –}
-
-      \line {   "   "novi darbi da dobie,}
-
-      \line {   "   "Nov Život da ustrojava.}
-
-      \line {   "   "Tăj napredva toj bezkrajno}
-
-      \line {   "   "v krasota neizrazima}
-
-      \line {   "   "i dostiga Svetlinata – }
-
-      \line {   "   "tamo, de blaženstvo ima.}
-
-      \line {   "   "}
-
-      \line {   3. Tăj prekrasno i premădro}
-
-      \line {   "   "Gospod vsičko e napravil}
-
-      \line {   "   "i bez ustrem i nadežda}
-
-      \line {   "   "nikogo ne e ostavil.}
-
-      \line {   "   "I životăt e prijaten,}
-
-      \line {   "   "vsekimu se pak toj nravi,}
-
-      \line {   "   "vsičko živo, što văzdiša, }
-
-      \line {   "   "večno Gospoda da slavi! }
-    } %column
   } % markup
 
 

@@ -109,19 +109,6 @@
 
         }
 
-        \hspace #5
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-          \line {   2. Gospodi, nauči me}
-          \line {   "   " da ljubja vsičko živo,}
-          \line {   "   " tuj, koeto Ti săzdal si,}
-          \line {   "   "  i da raznasjam az navred}
-          \line {   "   "   Tvojata nežnost,}
-          \line {   "   " Radost i Ljubov. }
-          \line {   "   "  Da se nauča}
-          \line {   "   "  Teb  az da služa, da  blagodarja.}
-
-        } %column
       } % markup
     \pageBreak
 

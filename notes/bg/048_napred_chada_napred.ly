@@ -97,38 +97,6 @@
       \line {   "   " носете Правда, Мир, Любов!}
     }  \"rightBraces048"
 
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-  \column {
-      \line {   2. Ot novoto Nebe }
-
-      \line {   "   " Spasiteljat ni dnes zove: }
-
-      \line {   "   " Ja čujte toja zov –}
-
-      \line {   "   " nosete Pravda, Mir, Ljubov!}
-
-      \line {   "   "}
-
-      \line {   3.  Tuk dolu njama Mir,}
-
-      \line {   "   " nepravdata e v dlăž i šir;}
-
-      \line {   "   " razsejte bărzo dnes }
-
-      \line {   "   " za Mir i Pravda blaga vest!}
-
-      \line {   "   "}
-
-      \line {   4.  Napred, čada, napred,}
-
-      \line {   "   " nosete Slovoto navred!}
-
-      \line {   "   " Bez strah v Života nov,}
-
-      \line {   "   " nosete Pravda, Mir, Ljubov!}
-    }  %column
-    \"rightBraces048"
   } % markup
 
   \pageBreak

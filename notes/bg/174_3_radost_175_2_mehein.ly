@@ -184,14 +184,6 @@
           \line {   "   " аз винаги мисля  мисля за теб.}
         }
 
-        \hspace #3
-        \override #'(baseline-skip . 1.8)
-        \column {
-          \line { 1. V'dni na borba, v'dni na pečal, }
-          \line {   "   "  daleč ot teb moj roden kraj,}
-          \line {   "   "  az vinagi mislja za teb,}
-          \line {   "   " az vinagi mislja  mislja za teb.}
-        } %column
       } % markup
       \markup \empty-two
       

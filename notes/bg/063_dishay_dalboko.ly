@@ -95,25 +95,12 @@
         Въз -- ду -- хът е жи -- ва си -- ла ви -- на -- ги за нас.
         Ди -- шай, ди -- шай и пак ди -- шай, ди -- шай да си здрав!
       }
-      \new Lyrics \lyricsto "mainVoice" {
-        "1. Di" -- šaj dăl -- bo -- ko, s~ve -- se -- lo săr -- ce
-        i na ži -- vo -- ta rad -- vaj se, de -- te.
-        Văz -- du -- hăt e ži -- va si -- la vi -- na -- gi za nas.
-        Di -- šaj, di -- šaj i pak di -- šaj, di -- šaj da si zdrav!
-      }
-
       \new Lyrics \lyricsto "tempVoice1" {
         "(2.,3.)...ди" -- шаш, де -- те,...
-      }
-     \new Lyrics \lyricsto "tempVoice1" {
-        "(2.,3.)...di" -- šaš, de -- te,...
       }
 
       \new Lyrics \lyricsto "tempVoice2" {
         "(2.)...доб" -- ро, сър -- це.
-      }
-        \new Lyrics \lyricsto "tempVoice2" {
-        "(2.)...dob" -- ro, săr -- ce.
       }
     >>
 
@@ -158,37 +145,6 @@
 
       \line {   "   "дишай ти навред. }
     }
-    \"rightBraces063"
-    \hspace #1
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-
-      \line {   2.  Koga dălboko dišaš, dete,}
-
-      \line {   "   "šte imaš zdravo, dobro sărce.}
-
-      \line {   "   "Zdravo sărce, }
-
-      \line {   "   "dobro krăvoobraštenie,}
-
-      \line {   "   "silen stomah, zdravo tjalo}
-
-      \line {   "   "šte imaš, dete.}
-
-      \line {   "   "}
-
-      \line {   3. Koga dălboko dišaš, dete,}
-
-      \line {   "   "tjaloto ti izpraveno da e.}
-
-      \line {   "   "Prava stojka, bodra kračka,}
-
-      \line {   "   "s pogled vse napred.}
-
-      \line {   "   "Dišaj, dišaj i pak dišaj, }
-
-      \line {   "   "dišaj ti navred. }
-    } %column
     \"rightBraces063"
   } % markup
 

@@ -86,43 +86,6 @@
 
     }
 
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-   \column {
-      \line {   2.  Na Hrista zapejte himni  }
-
-      \line {   "   " novi v toz tăržestven čas, }
-
-      \line {   "   " Toj e Boži Sin, izpraten }
-
-      \line {   "   " na Zemjata zarad nas. }
-
-      \line {   "   " Toj života Si položi }
-
-      \line {   "   " ot greha da ni spasi, }
-
-      \line {   "   " kato smărtnik v groba sleze }
-
-      \line {   "   " mărtvite da văzkresi. }
-      \line {   "   "}
-
-      \line {   3.  I kogato se proslavi, }
-
-      \line {   "   " nov zavet ni dade Toj, }
-
-      \line {   "   " naj-velikija ot vsički, }
-
-      \line {   "   " Ljubovta – zakona Svoj. }
-
-      \line {   "   " Blagovestvuva i reče: }
-
-      \line {   "   " „Vij ste Moi, Az Săm vaš, }
-
-      \line {   "   " horata sa vsički bratja, }
-
-      \line {   "   " Bog Otec e tatko naš. }
-
-    } %column
   } % markup
 
   \pageBreak
@@ -166,46 +129,6 @@
 
       \line {   "   " тези Негови слова. }
     }
-
-
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-   \column {
-
-
-      \line {  4.  Edin drug se zaljubete, }
-
-      \line {   "   " tăj se služi na Otca; }
-
-      \line {   "   " i Otec vi vsički ljubi, }
-
-      \line {   "   " kato Negovi deca. }
-
-      \line {   "   " Az săm živ hljab ot Nebeto, }
-
-      \line {   "   " az săm istinska loza, }
-
-      \line {   "   " Slovoto Mi opazete, }
-
-      \line {   "   " zaživejte v Ljubovta! }
-      \line {   "   "}
-
-      \line {   5.  Samo v neja e života, }
-
-      \line {   "   " nejna e radostta, }
-
-      \line {   "   " tja săzdava vsjako blago, }
-
-      \line {   "   " tja ednička, Ljubovta.“ }
-
-      \line {   "   " Tăj ni učeše togava,  }
-
-      \line {   "   " tăj ni šepne i sega, }
-
-      \line {   "   " i văzkrăsvat mi v dušata }
-
-      \line {   "   " tezi Negovi slova. }
-    } %column
   } % markup
 
   \markup \empty-two
