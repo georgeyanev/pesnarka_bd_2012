@@ -3,6 +3,7 @@
 *.midi
 *.mid
 *.log
+*.tmp
 *~
 .idea
 *.iml
