@@ -4,7 +4,7 @@
 
 \bookpart {
   \label #'ref102
-  \tocItem \markup "Сила, Живот, здраве – Sila, Život, zdrave"
+  \tocItem \markup "Сила, Живот, здраве"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -73,12 +73,5 @@
     \midi{}
 
   } % score
-
-  \pageBreak
-
-
-
-  % include foreign translation(s) of the song
-  
 
 } % bookpart

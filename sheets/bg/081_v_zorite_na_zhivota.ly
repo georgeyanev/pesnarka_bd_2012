@@ -5,8 +5,39 @@
 
 \bookpart {
   \label #'ref081
-  \tocItem \markup "В зорите на Живота – V zorite na Života "
-  \include "include/bookpart-paper.ily"
+  \tocItem \markup "В зорите на Живота"
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 11)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -32,7 +63,7 @@
 
       d'4 f' e' d' | c'4 ( b ) c'2 \breathe | f'2 g'4 a' | g'4 g' c'' a' | \break
 
-      \time 3/4  a'4 g'2 | g'4 c''2 | b'4 a' g'4 \time 5/4 fis' g' a' g'2 | \time 3/4 
+      \time 3/4  a'4 g'2 | g'4 c''2 | b'4 a' g'4 \time 5/4 fis' g' a' g'2 | \time 3/4
 
       d''2 c''4 | b' a' g'4 | \time 5/4 fis' g' a' g'2 \breathe | \time 6/4 e'2 c'4 ( e' ) d'2 | \break
 
@@ -53,18 +84,13 @@
       бу -- ди, съ -- бу -- ди, и в~сър -- це ми Лю --
       бов съ -- бу -- ди.}
 
-        \header {
-          title = \titleFunc "В зорите на Живота" "V zorite na Života"
-        }
+      \header {
+        title = \titleFunc "В зорите на Живота" "V zorite na Života"
+      }
 
-        \midi{}
+      \midi{}
 
-      } % score
-
-      \markup \empty-two
+    } % score
 
 
-      % include foreign translation(s) of the song
-      
-
-    } % bookpart
+  } % bookpart

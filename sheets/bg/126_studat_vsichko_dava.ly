@@ -4,8 +4,39 @@
 
 \bookpart {
   \label #'ref126
-  \tocItem \markup "Студът всичко дава – Studăt vsičko dava"
-  \include "include/bookpart-paper.ily"
+  \tocItem \markup "Студът всичко дава"
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 10.5)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -36,10 +67,12 @@
       b'8  a'8  g'8  e'8  fis'8
       g'8 | % 13
       a'2. | % 14
-     
-        \afterGrace  d''2 ( {  cis''16  [  d''16
-        e''16 ] ) }  d''8.  cis''16 | % 15
-     
+
+      \afterGrace  d''2 ( {
+        cis''16  [  d''16
+        e''16 ] )
+      }  d''8.  cis''16 | % 15
+
       \time 2/4  | % 15
       d''4.  b'8 \break | % 16
       a'4.  a'8 | % 17
@@ -120,7 +153,7 @@
       f'8.  f'16  f'16 ( [  e'16 ) ]
       d'16  cis'16  d'8 ( [  bes8 ) ] | % 67
       a2  a4 \break \bar "||"  % 68
-     
+
       \times 2/3  {
         d'8 ( [ ^\markup{ \bold {Rubato} } cis'8\prall ) ]
         bes8
@@ -134,7 +167,7 @@
       d'2 \bar "||"
       \break | % 72
 
-     \tempoFunc "Più mosso" 4 "84" d''4 (bes'4)  | % 73
+      \tempoFunc "Più mosso" 4 "84" d''4 (bes'4)  | % 73
       a'8. gis'16  a'8  bes'8
       | % 74
       a'4.  g'8 | % 75
@@ -245,7 +278,7 @@
       \time 4/4  | % 115
       f'4  f'8  e'8  f'4  e'8.
       a16 | % 116
-      
+
       d'4  d'2 \bar "|."
 
     }
@@ -305,18 +338,13 @@
       чис -- то -- та при -- дру -- жа --
       ваш.}
 
-        \header {
-          title = \titleFunc "Студът всичко дава" "Studăt vsičko dava"
-        }
+      \header {
+        title = \titleFunc "Студът всичко дава" "Studăt vsičko dava"
+      }
 
-        \midi{}
+      \midi{}
 
-      } % score
-
-
+    } % score
 
 
-      % include foreign translation(s) of the song
-      
-
-    } % bookpart
+  } % bookpart

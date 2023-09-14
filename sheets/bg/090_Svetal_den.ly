@@ -4,8 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
-    \label #'ref090
-  \tocItem \markup "Светъл ден – Svetăl den "
+  \label #'ref090
+  \tocItem \markup "Светъл ден"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -17,11 +17,11 @@
       \tempoFunc "Moderato" 4 "88"
       \autoBeamOff
 
-        g8 b d'4 | g8 b d'4 | g'4 g' | g'2 |   \break
+      g8 b d'4 | g8 b d'4 | g'4 g' | g'2 |   \break
 
-        g'8 a'8 b'4 |  g'8 a'8 b'4 | d''4 d''4 | d''2 | \break
+      g'8 a'8 b'4 |  g'8 a'8 b'4 | d''4 d''4 | d''2 | \break
 
-        d''8 c'' b'4 | d''8 c'' b'4 | b'8 b'8 a'8 a'8 | \tempo "                    Fine" g'2
+      d''8 c'' b'4 | d''8 c'' b'4 | b'8 b'8 a'8 a'8 | \tempo "                    Fine" g'2
       \bar ":|." \break
 
       \time 3/4
@@ -33,9 +33,9 @@
       g'2 a'4 | b'2. | c''2 b'4 | a'2. | a'2 b'4 | \break
 
       c''2. | d''2 c''4 | b'2.    \bar ".|:"
-        g''2 d''4 | b'2. \break
+      g''2 d''4 | b'2. \break
 
-        c''2 b'4 | a'2. | g'2 a'4 | b'2. | a'2 g'4 | g'2.|
+      c''2 b'4 | a'2. | g'2 a'4 | b'2. | a'2 g'4 | g'2.|
       \bar ":|." \break
 
     }
@@ -63,12 +63,5 @@
   } % score
 
 
-\markup \dc-two "D.C. al Fine" " senza ripetizione"
-
-  
-
-
-  % include foreign translation(s) of the song
-  
-
+  \markup \dc-two "D.C. al Fine" " senza ripetizione"
 } % bookpart

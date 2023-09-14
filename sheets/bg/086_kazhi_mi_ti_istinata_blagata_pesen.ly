@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref086_1
-  \tocItem \markup "Кажи ми ти истината – Kaži mi ti istinata"
+  \tocItem \markup "Кажи ми ти истината"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -51,19 +51,13 @@
     \midi{}
 
   } % score
-  
-  \markup \italic \dc-one-nobold "attacca „Благата песен/Blagata pesen“"
-   \markup \empty-two
 
-  % include foreign translation(s) of the song
-  
+  \markup \italic \dc-one-nobold "attacca „Благата песен“"
 
-  \markup \empty-three
+  \label #'ref086_2
+  \tocItem \markup "Благата песен"
 
-   \label #'ref086_2
-  \tocItem \markup "Благата песен – Blagata pesen"
-
-   \include "include/bookpart-paper.ily"
+  \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
 
@@ -81,7 +75,7 @@
 
       \time 4/4  b'8. b'16 c''8. c''16 b'2 | d''4 c'' b' a' | a'2 g' \break |
 
-       \bar ".|:-|"  \time 6/4  fis'4 fis' fis'2 e' | e'4 e' e'2 d' |  \time 4/4  b'4 b' c'' a' | a'2 g' \bar ":|."
+      \bar ".|:-|"  \time 6/4  fis'4 fis' fis'2 e' | e'4 e' e'2 d' |  \time 4/4  b'4 b' c'' a' | a'2 g' \bar ":|."
     }
 
     \addlyrics {
@@ -100,13 +94,9 @@
     \midi{}
 
   } % score
-  
-  \markup \dc-two "D.C. al Fine „Кажи ми ти Истината“/„Kaži mi ti Istinata“" "senza ripetizione"
-  
-   \markup \empty-two
+
+  \markup \dc-two "D.C. al Fine „Кажи ми ти Истината“" "senza ripetizione"
 
 
-  % include foreign translation(s) of the song
-  
 
 } % bookpart

@@ -5,8 +5,39 @@
 
 \bookpart {
   \label #'ref077
-  \tocItem \markup "Скръбта си ти кажи – Skrăbta si ti kaži"
-  \include "include/bookpart-paper.ily"
+  \tocItem \markup "Скръбта си ти кажи"
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 10)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -18,7 +49,7 @@
       \omit Score.TimeSignature
       \cadenzaOn % allows custom bar lines
       \tempoFunc "Andante" 4 "63"
-       \override Staff.BarLine.gap = 0.5
+      \override Staff.BarLine.gap = 0.5
       \autoBeamOff
 
       g4 b d d8. e16 d 2  \bar "!"  d4 e e a g8. g16 fis2 \bar  "!" \break
@@ -58,21 +89,16 @@
       Ра -- дост ще "вне-" -- сат, Ра -- дост ще "вне-" -- сат,
       и в~ду -- "-ша" ти Ра -- дост ще "вне-" -- сат.}
 
- 
-        \header {
-          title = \titleFunc "Скръбта си ти кажи" "Skrăbta si ti kaži"
-        }
 
-        \midi{}
+      \header {
+        title = \titleFunc "Скръбта си ти кажи" "Skrăbta si ti kaži"
+      }
 
-      } % score
+      \midi{}
 
-     
-      \markup \dc-one "D.C. al Fine „Sila zhiva“ con ripetizioni (един път/ein Mal)"
+    } % score
 
-       \markup \empty-two
- 
-      % include foreign translation(s) of the song
-      
 
-    } % bookpart
+    \markup \dc-one "D.C. al Fine „Sila zhiva“ con ripetizioni (един път)"
+
+  } % bookpart

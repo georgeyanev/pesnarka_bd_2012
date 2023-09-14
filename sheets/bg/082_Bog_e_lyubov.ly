@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref082
-  \tocItem \markup "Бог е Любов – Bog e Ljubov"
+  \tocItem \markup "Бог е Любов"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -67,16 +67,13 @@
       път  на Свет -- ли -- | на -- та, на Свет -- ли -- | на -- та, на Свет -- ли | на -- та, в~ко -- |
       я -- то "ца-" -- ру -- ва | Бо -- жи -- я -- та "Лю-" -- бов, | Бо -- жи -- я -- та "Лю-" -- бов, |
       Бо -- жи -- я -- та "Лю-" -- бов, | Бо -- жи -- я -- та Лю -- | бов. Ний ще | бов.}
-     
-        \header {
-          title = \titleFunc "Бог е Любов" "Bog e Ljubov"
-        }
 
-        \midi{}
+      \header {
+        title = \titleFunc "Бог е Любов" "Bog e Ljubov"
+      }
 
-      } % score
+      \midi{}
 
-      % include foreign translation(s) of the song
-      
+    } % score
 
-    } % bookpart
+  } % bookpart

@@ -4,7 +4,7 @@
 
 \bookpart {
   \label #'ref117
-  \tocItem \markup "Там далече –  Tam daleče "
+  \tocItem \markup "Там далече"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -59,10 +59,5 @@
 
   } % score
 
-  \pageBreak
-
-
-  % include foreign translation(s) of the song
-  
 
 } % bookpart

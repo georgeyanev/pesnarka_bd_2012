@@ -5,8 +5,39 @@
 
 \bookpart {
   \label #'ref119
-  \tocItem \markup "Подмладяване – Podmladjavane"
-  \include "include/bookpart-paper.ily"
+  \tocItem \markup "Подмладяване"
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 11)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -52,22 +83,24 @@
       fis'8 e'8 e'8 fis'8 | % 34
       d'4. fis'8 | % 35
       a'4. g'8 | % 36
-       \tempo "rall." fis'8 e'8 b8 cis'8 | % 37
+      \tempo "rall." fis'8 e'8 b8 cis'8 | % 37
       d'2  \bar "|."
     }
 
-    \addlyrics {Аз   ще   се 
-   под  --  "мла-"  --  дя,   ти   ще   се   под  --  "мла-"  --  диш, 
-   той   ще   се   под  --  "мла-"  --  ди   то  --  ва   ми   каз  --
-   ва   Лю  --  бов  --  та,   то  --  ва   ми   каз  --  ва   Лю  --
-   бов  --  та.   Ний,   ко  --  и  --  то   след  --  ва  --  ме 
-   пъ  --  тя   на   До  --  бро  --  то,   ще   се   под  --  мла  --
-   дим;   вий,   ко  --  и  --  то   след  --  ва  --  те   пъ  --
-   тя   на   До  --  бро  --  то,   ще   се   под  --  мла  --  ди  --
-   те;   те,   ко  --  и  --  то   след  --  ват   пъ  --  тя   на 
-   До  --  бро  --  то,   ще   се   под  --  мла  --  дят   то  --
-   ва   ни   каз  --  ва   Лю  --  бов  --  та,   то  --  ва   ни 
-   каз  --  ва   Лю  --  бов  --  та. }
+    \addlyrics {
+      Аз   ще   се
+      под  --  "мла-"  --  дя,   ти   ще   се   под  --  "мла-"  --  диш,
+      той   ще   се   под  --  "мла-"  --  ди   то  --  ва   ми   каз  --
+      ва   Лю  --  бов  --  та,   то  --  ва   ми   каз  --  ва   Лю  --
+      бов  --  та.   Ний,   ко  --  и  --  то   след  --  ва  --  ме
+      пъ  --  тя   на   До  --  бро  --  то,   ще   се   под  --  мла  --
+      дим;   вий,   ко  --  и  --  то   след  --  ва  --  те   пъ  --
+      тя   на   До  --  бро  --  то,   ще   се   под  --  мла  --  ди  --
+      те;   те,   ко  --  и  --  то   след  --  ват   пъ  --  тя   на
+      До  --  бро  --  то,   ще   се   под  --  мла  --  дят   то  --
+      ва   ни   каз  --  ва   Лю  --  бов  --  та,   то  --  ва   ни
+      каз  --  ва   Лю  --  бов  --  та.
+    }
 
     \header {
       title = \titleFunc "Подмладяване" "Podmladjavane"
@@ -79,9 +112,6 @@
 
   \markup \dc-one "D.C."
 
-  \pageBreak
 
-  % include foreign translation(s) of the song
- 
 
 } % bookpart

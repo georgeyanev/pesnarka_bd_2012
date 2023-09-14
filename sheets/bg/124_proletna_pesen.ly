@@ -4,8 +4,39 @@
 
 \bookpart {
   \label #'ref124
-  \tocItem \markup "Пролетна песен – Proletna pesen"
-  \include "include/bookpart-paper.ily"
+  \tocItem \markup "Пролетна песен"
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 10)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -101,11 +132,11 @@
       bes8  as8  f8  c8  bes16 (
       [  d16  f16  as16 ) ]  % 31
       g4.  f8  f4  % 32
-      es2  | \break % 33
-      g'8 ( [f8 ) ] es2 |  % 34
+      es2  |  % 33
+      g'8 ( [f8 ) ] es2 | \break % 34
       es8 ( [d8 ) ]c2 | % 35
       d16 c16 b16 c16
-      as'2 ^\fermata | \break  % 36
+      as'2 ^\fermata |   % 36
       \times 2/3  {
         f8 ( [d8 ) ] bes8
       }
@@ -113,8 +144,8 @@
         as8 ( [  f8  d8 ) ]
       }
       bes4 ^\fermata | % 37
-      d8 f8 as2  | % 38
-      f8 as8  d2 \break | % 39
+      d8 f8 as2 \break | % 38
+      f8 as8  d2 | % 39
       as8  d8  f2 |
       bes,8 a8  bes8  c8
       d8  es8 | % 41
@@ -122,7 +153,6 @@
       es2 \fermata \bar "|."
 
     }
-
     \addlyrics {
       Ми  -- ли Бо -- же, чуй ни пе
       -- сен -- та: пе -- ем ний
@@ -136,7 +166,7 @@
       --  да. "Слън-" -- чи -- це, "Бо-" --
       жи дар, ти си из -- вор на Жи --
       вот, ти ни из -- пра -- щаш __
-      лъч, __ що раз -- тва -- ря све --
+      лъч, __ що раз -- тва -- ря "све-" --
       жи, неж --   ни лис -- тен
       -- ца. Про -- лет, про -- лет,
       "пъл-" -- на със "Жи-" -- вот, веч  --
@@ -152,10 +182,8 @@
 
     } % score
 
-    \markup \italic \dc-one-nobold "attaca „Слънчева песен/Slănčeva pesen“"
-    
+    \markup \italic \dc-one-nobold "attaca „Слънчева песен“"
 
-    % include foreign translation(s) of the song
-    
+
 
   } % bookpart

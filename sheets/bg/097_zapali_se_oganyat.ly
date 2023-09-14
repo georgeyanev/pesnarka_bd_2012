@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref097
-  \tocItem \markup "Запали се огънят – Zapali se ogănjat"
+  \tocItem \markup "Запали се огънят"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -56,12 +56,5 @@
     \midi{}
 
   } % score
-
-  %\markup \dc-one "D.C."
-  %
-
-  % include foreign translation(s) of the song
-  \pageBreak
-  
 
 } % bookpart

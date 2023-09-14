@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref108
-  \tocItem \markup "Мога да кажа – Moga da kaža "
+  \tocItem \markup "Мога да кажа"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -71,14 +71,8 @@
 
     \midi{}
 
-  } % score
-
-  %\markup \dc-one "D.C. al Fine"
-  %
-
-  % include foreign translation(s) of the song
+  }
 
 
-  
 
 } % bookpart

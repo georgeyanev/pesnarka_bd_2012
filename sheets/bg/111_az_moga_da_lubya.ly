@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref111
-  \tocItem \markup "Мога да любя – Moga da ljubja"
+  \tocItem \markup "Мога да любя"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -72,12 +72,7 @@
 
   } % score
 
-    \markup \dc-two "D.C.""con ripetizione"
-  %
+  \markup \dc-two "D.C.""con ripetizione"
 
-  % include foreign translation(s) of the song
-
-  \pageBreak
-  
 
 } % bookpart

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref069
-  \tocAct \markup "LIEDER VON PETAR DANOV"
+  \tocAct \markup "Песни от Учителя"
   \paper {
     print-all-headers = ##f
     print-page-number = ##f

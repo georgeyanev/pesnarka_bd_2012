@@ -5,8 +5,39 @@
 
 \bookpart {
   \label #'ref096
-  \tocItem \markup "Весел ти бъди – Vesel ti bădi "
-  \include "include/bookpart-paper.ily"
+  \tocItem \markup "Весел ти бъди"
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 11)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -32,7 +63,7 @@
 
       \slurUp g'4(  \acciaccatura { a'16[g' fis' g']} a'4)  \slurNeutral g'4 g'8. g'16 g'2 | c''4( \acciaccatura { d''16[ c'' b' c'' ]} d''4) c''4 \tempo "rit." b'8. b'16 c''2 | \time 2/4 \break
 
-        \bar ".|:-||" 
+      \bar ".|:-||"
 
 
       \tempoFunc   "            Più mosso" 4 "88"
@@ -65,12 +96,5 @@
     \midi{}
 
   } % score
-
-  %\markup \dc-one "D.C."
-  
-
-
-  % include foreign translation(s) of the song
-  
 
 } % bookpart

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref094
-  \tocItem \markup "В начало бе Словото – V načalo be Slovoto"
+  \tocItem \markup "В начало бе Словото"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -65,10 +65,5 @@
     \midi{}
 
   } % score
-
-
-
-  % include foreign translation(s) of the song
-  
 
 } % bookpart

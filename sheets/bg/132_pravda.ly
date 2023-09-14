@@ -4,7 +4,7 @@
 
 \bookpart {
   \label #'ref132
-  \tocItem \markup "Правда – Pravda"
+  \tocItem \markup "Правда"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -69,15 +69,13 @@
       да, Прав --
       да!}
 
-        \header {
-          title = \titleFunc "Правда" "Pravda"
-        }
+      \header {
+        title = \titleFunc "Правда" "Pravda"
+      }
 
-        \midi{}
+      \midi{}
 
-      } % score
-      \pageBreak
-      % include foreign translation(s) of the song
-      
+    } % score
 
-    } % bookpart
+
+  } % bookpart
