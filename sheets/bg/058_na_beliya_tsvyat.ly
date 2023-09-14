@@ -3,50 +3,53 @@
 % include paper part and global functions
 \include "include/globals.ily"
 
-"rightBraces058" = \markup {
+"rightBraces058_1" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -4.1 )
+    \translate #'(0 . -5.5 )
     \right-brace #20
 
-    \translate #'(0 . -9.9 )
+    \translate #'(0 . -15.3 )
     \right-brace #20
 
-    \translate #'(0 . -10.5 )
-    \right-brace #20
+   
 
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -4.5 )
+    \translate #'(0 . -6.1 )
     2
-    \translate #'(0 . -11.8 )
+    \translate #'(0 . -17.3 )
     2
-
-    \translate #'(0 . -12.2 )
-    2
-
   }
 }
 
-"rightBraces059" = \markup {
+"rightBraces058_2" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -8.3 )
+    \translate #'(0 . -5.5 )
     \right-brace #20
 
+    \translate #'(0 . -15.3 )
+    \right-brace #20
+
+   
 
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -9.2 )
+    \translate #'(0 . -6.1 )
+    2
+    \translate #'(0 . -17.3 )
     2
   }
 }
+
+
 
 \bookpart {
   \label #'ref058
-  \tocItem \markup "На белия цвят – Na belija cvjat"
+  \tocItem \markup "На белия цвят"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -89,9 +92,9 @@
   } % score
 
 
-  \markup \fontsize #+1.7 {
-    \hspace #6
-    \override #'(baseline-skip . 1.8)
+  \markup \fontsize #bgCoupletFontSize {
+    \hspace #3
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
       \line {   2. Нагоре още! Там цъфти }
@@ -112,9 +115,20 @@
 
       \line {   "   "в които Бог живее.}
       \line { " " }
+           \line { "        " \italic {Припев: } }
 
-      \line { "        " \italic {Припев: } }
-      \line { " " }
+   
+
+
+    }    \"rightBraces058_1"
+
+     \hspace #3
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+
+    \column {   
+
+    
+  
       \line {   4. Нагоре – в тази белина!}
 
       \line {   "   "Тя всъде ще изпълни,}
@@ -123,22 +137,9 @@
 
       \line {   "   "в бял ден ще се превърне.}
 
-
-    }    \"rightBraces058"
-  } % markup
-
-  \pageBreak
-
-
-  \markup \fontsize #+1.7 {
-    \hspace #6
-    \override #'(baseline-skip . 1.8)
-    \column {
-
-
-
-
-      \line { "        " \italic {Припев: } }
+        \line { " " }
+      
+       \line { "        " \italic {Припев: } }
       \line { " " }
 
 
@@ -151,11 +152,11 @@
       \line {   "   "и Бога ще прославим.}
       \line { " " }
       \line { "        " \italic {Припев: } }
-    }      \"rightBraces059"
-  } % markup
+      }\"rightBraces058_2"
+   
+   
+  }   % markup
 
-  % include foreign translation(s) of the song
-  \markup \empty-two
-  
+
 
 } % bookpart

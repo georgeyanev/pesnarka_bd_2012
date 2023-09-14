@@ -5,7 +5,7 @@
 
 \bookpart {
   
-   \tocAct \markup"BRÜDERLICHE LIEDER"
+   \tocAct \markup"БРАТСКИ ПЕСНИ"
     \paper {
     print-all-headers = ##f
     print-page-number = ##f
@@ -32,9 +32,9 @@
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
   }
 
-  \markup { {  \vspace #11.2 } }
+  \markup { {  \vspace #13.2 } }
 
- \markup \fontsize  #+6 { \fill-line \bold {"BRÜDERLICHE LIEDER"} }
+ \markup \fontsize  #+7 { \fill-line \bold {"БРАТСКИ ПЕСНИ"} }
 
   % include foreign translation(s) of the song
   %

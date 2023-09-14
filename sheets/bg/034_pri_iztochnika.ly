@@ -4,8 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
-   \label #'ref034
-  \tocItem \markup "При източника – Pri iztočnika"
+  \label #'ref034
+  \tocItem \markup "При източника"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -41,10 +41,9 @@
   } % score
 
 
-
-  \markup \fontsize #+1.7 {
-    \hspace #5
-    \override #'(baseline-skip . 1.8)
+  \markup \fontsize #bgCoupletFontSize {
+    \hspace #1
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line { 2. Към него пътник уморен}
       \line {   "   " усилно се стреми с надежда.}
@@ -66,27 +65,22 @@
       \line {   "   " покрито с рани, да разкрия,}
       \line {    "   "  "   "  "   " разкрия, разкрия,}
       \line {   "   " покрито с рани, да разкрия?“}
-      \line { " " }
+
+
+
+    }
+
+    \hspace #1
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \column {
+
       \line { 5.  „Склони, о, пътниче злочест,}
       \line {   "   " глава си морна; утолявай}
       \line {   "   " безмерната си жажда днес}
       \line {   "   " от мен и в мен се ти надявай,}
       \line {   "   "  "   "  "   " надявай, надявай,}
       \line {   "   " от мен и в мен се ти надявай!}
-
-
-
-
-    }
-
-  } % markup
-
-  \pageBreak
-
-  \markup \fontsize #+1.7 {
-    \hspace #5
-    \override #'(baseline-skip . 1.8)
-    \column {
+      \line { " " }
 
       \line { 6. Гласа ти мъченишки чух,}
       \line {   "   " приех и твойта жалба мила.}
@@ -104,13 +98,8 @@
 
     }
 
+
   } % markup
 
-
-  \markup \empty-two
-
-
-  % include foreign translation(s) of the song
-  
 
 } % bookpart

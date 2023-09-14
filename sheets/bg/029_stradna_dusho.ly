@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref029
-  \tocItem \markup "Страдна душо – Stradna dušo"
+  \tocItem \markup "Страдна душо"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -16,8 +16,8 @@
       \time 4/4
       \tempoFunc "Andante" 4 "60"
       \autoBeamOff
-      
-      d'8 d' g'8 ([ a' ]) a'2 | \time 2/4 bes'8 ([ a' ])  bes' ([ c'' ])  | 
+
+      d'8 d' g'8 ([ a' ]) a'2 | \time 2/4 bes'8 ([ a' ])  bes' ([ c'' ])  |
 
       \time 4/4 bes'4 a'2 a'8 a' | \break
       d''4. d''8 c'' ([ d'' ]) d'' ([ c'' ]) \time 3/4  bes'4 a'2 |
@@ -34,84 +34,74 @@
       ча -- кам и о -- бил -- на -- та Ти __ ми -- лост,
       за тях стра -- дам и коп -- не -- я.}
 
-        \header {
-          title = \titleFunc "Страдна душо" "Stradna dušo"
-        }
+      \header {
+        title = \titleFunc "Страдна душо" "Stradna dušo"
+      }
 
-        \midi{}
+      \midi{}
 
-      } % score
-
-
-
-      \markup \fontsize #bgCoupletFontSize {
-        \hspace #1
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-          \line {   2. И гладувам, и жадувам,}
-
-          \line {   "   " тях очаквам денонощно.}
-
-          \line {   "   " Ти ме, Боже, благославяй,}
-
-          \line {   "   " при Теб близо аз да бъда}
-
-          \line {   "   " и утеха в Теб да найда.}
-          \line { " " }
-
-          \line {   3. Твоя светъл лик да гледам}
-
-          \line {   "   " и величието Твое;}
-
-          \line {   "   " да науча Теб да любя.}
-
-          \line {   "   " В таз Любов към Тебе, Боже,}
-
-          \line {   "   " да намеря мощна сила.}
-          \line { " " }
-
-             \line {   4. В подвизи и съвършенство}
-
-          \line {   "   " да познавам милостта Ти,}
-
-          \line {   "   " превеликата Ти тайна,}
-
-          \line {   "   " що разкрива на човека}
-
-          \line {   "   " суетата на живота.}
+    } % score
 
 
 
-        }
+    \markup \fontsize #bgCoupletFontSize {
+      \hspace #4
+      \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+      \column {
+        \line {   2. И гладувам, и жадувам,}
 
-      } % markup
+        \line {   "   " тях очаквам денонощно.}
 
-      \pageBreak
+        \line {   "   " Ти ме, Боже, благославяй,}
+
+        \line {   "   " при Теб близо аз да бъда}
+
+        \line {   "   " и утеха в Теб да найда.}
+        \line { " " }
+
+        \line {   3. Твоя светъл лик да гледам}
+
+        \line {   "   " и величието Твое;}
+
+        \line {   "   " да науча Теб да любя.}
+
+        \line {   "   " В таз Любов към Тебе, Боже,}
+
+        \line {   "   " да намеря мощна сила.}
 
 
-      \markup \fontsize #bgCoupletFontSize {
-        \hspace #1
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
 
 
-       
-          \line {    5. Всичко грешно на Земята}
+      }
+      \hspace #1
+      \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+      \column {
 
-          \line {   "   " е преходно, мимолетно.}
 
-          \line {   "   " Само Ти си вечен, Боже,}
 
-          \line {   "   " Тебе хвалим, Тебе славим,}
+        \line {   4. В подвизи и съвършенство}
 
-          \line {   "   " Теб ще славят вековете.}
+        \line {   "   " да познавам милостта Ти,}
 
-        }
+        \line {   "   " превеликата Ти тайна,}
 
-      } % markup
+        \line {   "   " що разкрива на човека}
 
-      \markup \empty-two
-      % include foreign translation(s) of the song
-      
+        \line {   "   " суетата на живота.}
 
-    } % bookpart
+        \line { " " }
+
+        \line {    5. Всичко грешно на Земята}
+
+        \line {   "   " е преходно, мимолетно.}
+
+        \line {   "   " Само Ти си вечен, Боже,}
+
+        \line {   "   " Тебе хвалим, Тебе славим,}
+
+        \line {   "   " Теб ще славят вековете.}
+
+      }
+    } % markup
+
+  } % bookpart

@@ -114,11 +114,6 @@
   } % score
 
   \markup \dc-two "D.C. al Fine"""
-
-  \pageBreak
-
-
-  % include foreign translation(s) of the song
   
 
 } % bookpart

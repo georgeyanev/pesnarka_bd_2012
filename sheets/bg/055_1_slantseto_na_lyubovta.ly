@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref055_1
-  \tocItem \markup "Слънцето на Любовта – Slănceto na Ljubovta"
+  \tocItem \markup "Слънцето на Любовта"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -38,8 +38,6 @@
   } % score
 
   \markup \dc-one "D.C."
-
-  % include foreign translation(s) of the song
   
 
 } % bookpart

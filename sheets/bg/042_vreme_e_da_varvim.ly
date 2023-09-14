@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref042
-  \tocItem \markup "Време е да вървим – Vreme e da vărvim"
+  \tocItem \markup "Време е да вървим"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -15,7 +15,6 @@
       \key f \major
       \time 2/4
       \tempoFunc "Tempo di marcia" 4 "100"
-      \autoBeamOff
       \autoBeamOff
       \partial 4
 
@@ -44,7 +43,7 @@
       ще въ -- ве -- дем, Сво -- бо -- да ще да -- дем и през всич -- ки -- те
       дни вер -- ни ще сме ний. __  Да ца -- ру -- ва Лю -- бов -- та! __
       Да ца -- ру -- ва Бла -- гост -- та! __
-      Бог е ца -- рят на све -- та, __  Той в~пъ -- тя ни е Свет -- ли  -- на. __ Да ца -- на. __ 
+      Бог е ца -- рят на све -- та, __  Той в~пъ -- тя ни е Свет -- ли  -- на. __ Да ца -- на. __
     }
 
     \header {
@@ -55,10 +54,10 @@
 
   } % score
 
-  \pageBreak
+    \markup \empty-one
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #8
+    \hspace #20
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
@@ -76,8 +75,8 @@
 
   } % markup
 
-  \markup \empty-two
-  % include foreign translation(s) of the song
-  
+
+
+
 
 } % bookpart

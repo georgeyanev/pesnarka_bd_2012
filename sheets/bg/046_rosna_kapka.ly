@@ -23,7 +23,7 @@
 
 \bookpart {
   \label #'ref046
-  \tocItem \markup "Росна капка – Rosna kapka"
+  \tocItem \markup "Росна капка"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -68,7 +68,7 @@
   } % score
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+    \hspace #15
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line { 2. Всяка сутрин във росата }
@@ -98,8 +98,6 @@
     }  \"rightBraces046"
 
   } % markup
-
-  % include foreign translation(s) of the song
   
 
 } % bookpart

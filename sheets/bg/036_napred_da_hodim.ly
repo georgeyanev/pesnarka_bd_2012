@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref036
-  \tocItem \markup "Напред да ходим – Napred da hodim"
+  \tocItem \markup "Напред да ходим"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -45,90 +45,80 @@
       гър -- ди -- те на -- пред да по -- ле -- тим,
       све -- та да об -- но -- вим! Кат вим!}
 
-        \header {
-          title = \titleFunc "Напред да ходим " "Napred da hodim"
-        }
+      \header {
+        title = \titleFunc "Напред да ходим " "Napred da hodim"
+      }
 
-        \midi{}
+      \midi{}
 
-      } % score
-
-
-
-      \markup \fontsize #bgCoupletFontSize {
-        \hspace #5
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-          \line {  2. Земята с чисти мисли}
-
-          \line {   "   "да оградиме здраво}
-
-          \line {   "   "и злото всепорочно}
-
-          \line {   "   "да победиме с Право.}
-          \line { "   "}
-
-          \line { "   " \italic {Припев ... }}
-          \line { "   "}
-
-
-          \line {   3. На слабите да носим}
-
-          \line {   "   "подкрепа и обнова,}
-
-          \line {   "   "на страдущите – милост}
-
-          \line {   "   "и Свободата нова.}
-
-          \line { "   "}
-          \line { "   " \italic {Припев ...}}
-          \line { "   " }
-
-          \line {  4. Във бездната да слезем,}
-
-          \line {   "   "хоругва да поставим}
-
-          \line {   "   "и падналите братя}
-
-          \line {   "   "от мъка да избавим.}
-
-          \line { "   "}
-          \line { "   " \italic {Припев ...}}
-
-
-        }
-
-      } % markup
+    } % score
 
 
 
-      \pageBreak
+    \markup \fontsize #bgCoupletFontSize {
+      \hspace #5
+      \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+      \column {
+        \line {  2. Земята с чисти мисли}
+
+        \line {   "   "да оградиме здраво}
+
+        \line {   "   "и злото всепорочно}
+
+        \line {   "   "да победиме с Право.}
+        \line { "   "}
+
+        \line { "   " \italic {Припев ... }}
+        \line { "   "}
+
+
+        \line {   3. На слабите да носим}
+
+        \line {   "   "подкрепа и обнова,}
+
+        \line {   "   "на страдущите – милост}
+
+        \line {   "   "и Свободата нова.}
+
+        \line { "   "}
+        \line { "   " \italic {Припев ...}}
 
 
 
-      \markup \fontsize #bgCoupletFontSize {
-        \hspace #5
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
+      }
+
+      \hspace #5
+      \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+      \column {
 
 
-          \line {   5. Тогава да отворим}
+        \line {  4. Във бездната да слезем,}
 
-          \line {   "   "на новий град вратите,}
+        \line {   "   "хоругва да поставим}
 
-          \line {   "   "в Иерусалим да влезем –}
+        \line {   "   "и падналите братя}
 
-          \line {   "   "света на Светлините.}
-          \line { "   "}
+        \line {   "   "от мъка да избавим.}
 
-          \line { "   " \italic  {Припев ...}}
-          \line { "   "}
+        \line { "   "}
+        \line { "   " \italic {Припев ...}}
+        \line { "   " }
 
-        }
+        \line {   5. Тогава да отворим}
 
-      } % markup
+        \line {   "   "на новий град вратите,}
 
-      % include foreign translation(s) of the song
-      
+        \line {   "   "в Иерусалим да влезем –}
 
-    } % bookpart
+        \line {   "   "света на Светлините.}
+        \line { "   "}
+
+        \line { "   " \italic  {Припев ...}}
+  
+
+
+      }
+
+    } % markup
+
+  } % bookpart

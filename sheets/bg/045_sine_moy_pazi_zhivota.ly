@@ -24,7 +24,7 @@
 
 \bookpart {
   \label #'ref045
-  \tocItem \markup "Сине мой, пази живота – Sine moj, pazi života"
+  \tocItem \markup "Сине мой, пази живота"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -38,9 +38,9 @@
       \partial 4
 
 
-      e'8 e'8 | a'4 b' c''4 b' | a'4 gis'2 e'8 e' | e''4 f'' e''4 d'' | \break 
-      
-       c''2 r4 b'8 a'  |  gis'4 f'  e'4 dis' |  f'4 e'2  b'8 c'' \break |
+      e'8 e'8 | a'4 b' c''4 b' | a'4 gis'2 e'8 e' | e''4 f'' e''4 d'' | \break
+
+      c''2 r4 b'8 a'  |  gis'4 f'  e'4 dis' |  f'4 e'2  b'8 c'' \break |
 
       d''4 e'' c''4 b' | a'2 r4 g'8 g' \repeat volta 2 {
         |  c''4 g' c''4 d'' | e''4 c''2 e''8 f'' | g''4 f'' e''4 d'' | c''2 r4 e'8 e' | a'4 b'  c''4 d'' \break |
@@ -66,7 +66,7 @@
   } % score
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+    \hspace #15
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \vspace #0.3
@@ -86,7 +86,7 @@
       \line {   "   " идеалите високи}
 
       \line {   "   " и красивия копнеж.}
-      \vspace #0.2
+      \line {   "   "}
 
       \line {   3. Тази плът ти е одежда,}
 
@@ -107,7 +107,5 @@
 
   } % markup
 
-  % include foreign translation(s) of the song
-  
 
 } % bookpart

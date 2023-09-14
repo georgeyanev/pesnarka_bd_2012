@@ -40,6 +40,9 @@
       \line \bold {Allegro vivace} \override #`(baseline-skip . ,blineskip221)
       \justify {\italic"[Алегро виваче]" по-бързо от \italic"Allegro"; вж. \italic"Vivace"}
 
+      \line \bold { Ancora più mosso} \override #`(baseline-skip . ,blineskip221)
+       \justify { определение...}
+
       \line \bold {Andante} \override #`(baseline-skip . ,blineskip221)
       \justify {спокойно, букв. „ходом“; малко по-бавно от \italic"Moderato"}
 

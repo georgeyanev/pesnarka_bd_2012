@@ -34,7 +34,7 @@
 
 \bookpart {
   \label #'ref018
-  \tocItem \markup "Излязъл е сеяч – Izljazăl e sejač"
+  \tocItem \markup "Излязъл е сеяч"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -96,7 +96,7 @@
 
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+    \hspace #15
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
 
@@ -124,10 +124,6 @@
     }
     \"rightBraces018"
   }
-
-  \markup \empty-one
-
-  % include foreign translation(s) of the song
   
 
 } % bookpart

@@ -5,6 +5,7 @@
 
 \bookpart {
    \label #'ref032
+  \tocItem \markup "Шуми"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -48,9 +49,9 @@
   } % score
 
  
-  \markup \fontsize #+2.0 {
-    \hspace #2
-    \override #'(baseline-skip . 1.9)
+ \markup \fontsize #bgCoupletFontSize {
+    \hspace #1
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
       \line {   2.  "   "  И вятър вее, }
@@ -89,15 +90,10 @@
 
     }
 
-  } % markup
-
-  \pageBreak
-
-  \markup \fontsize #+2.0 {
-    \hspace #2
-    \override #'(baseline-skip . 1.9)
-    \column {
-      \line {   4.  "   "        Задухай, ветре, }
+      \hspace #1
+      \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+      \column {
+          \line {   4.  "   "        Задухай, ветре, }
       \line {   "   "    "   "         света разведри!}
 
       \line {   "   "При чисти мисли, нежни чувства}
@@ -110,14 +106,10 @@
 
       \line {  "   "    "   " Задухай, ветре, }
       \line {   "   "    "   " света избистри}
-    }
+
+      }
 
   } % markup
- 
-\markup \empty-two
-  % include foreign translation(s) of the song
-   
-
 } % bookpart
 
 % Più mosso

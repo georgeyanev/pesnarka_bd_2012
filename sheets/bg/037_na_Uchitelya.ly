@@ -37,7 +37,7 @@
 
 \bookpart {
   \label #'ref037
-  \tocItem \markup "На Учителя – Na Učitelja"
+  \tocItem \markup "На Учителя"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -73,7 +73,7 @@
 
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+    \hspace #15
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line { 2.  Господи, Ти мой Учител, }
@@ -99,10 +99,6 @@
     \"rightBraces037"
 
   } % markup
-
-  \pageBreak
-
-  % include foreign translation(s) of the song
   
 
 } % bookpart

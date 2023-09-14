@@ -30,7 +30,7 @@
 
 \bookpart {
   \label #'ref051
-  \tocItem \markup "О, Учителю благати – O, Učitelju blagati"
+  \tocItem \markup "О, Учителю благати"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -64,7 +64,7 @@
   } % score
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+    \hspace #15
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line {   2. Пратеник си ти от Бога}
@@ -97,9 +97,6 @@
     }\"rightBraces051"
 
   } % markup
-
-  \pageBreak
-  % include foreign translation(s) of the song
   
 
 } % bookpart

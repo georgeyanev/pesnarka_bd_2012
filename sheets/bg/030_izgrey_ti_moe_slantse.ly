@@ -6,7 +6,7 @@
 \bookpart {
 
   \label #'ref030
-  \tocItem \markup "Изгрей ти, мое Слънце – Izgrej ti, moe Slănce"
+  \tocItem \markup "Изгрей ти, мое Слънце"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -50,7 +50,7 @@
       \pageBreak
 
       \markup \fontsize #bgCoupletFontSize {
-        \hspace #2
+        \hspace #15
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
         \column {
           \line {   2. Огрей небето и Земята,}
@@ -94,11 +94,5 @@
         }
 
       } % markup
-
-      \markup \empty-two
-
-
-      % include foreign translation(s) of the song
-      
 
     } % bookpart

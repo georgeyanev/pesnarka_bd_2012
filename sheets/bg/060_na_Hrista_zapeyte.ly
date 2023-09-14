@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref060
-  \tocItem \markup "На Христа запейте – Na Hrista zapejte "
+  \tocItem \markup "На Христа запейте "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -86,11 +86,6 @@
 
     }
 
-  } % markup
-
-  \pageBreak
-
-  \markup \fontsize #bgCoupletFontSize {
     \hspace #3
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
@@ -128,12 +123,11 @@
       \line {   "   " и възкръсват ми в душата }
 
       \line {   "   " тези Негови слова. }
+
+
     }
+
   } % markup
 
-  \markup \empty-two
-
-  % include foreign translation(s) of the song
-  
 
 } % bookpart

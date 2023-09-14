@@ -6,7 +6,7 @@
 \bookpart {
 
   \label #'ref028
-  \tocItem \markup "Стани, стани – Stani, stani"
+  \tocItem \markup "Стани, стани"
 
   \include "include/bookpart-paper.ily"
   \score {
@@ -49,10 +49,6 @@
       } % score
 
       \markup \dc-two "D.C." "con ripetizione"
-
-      \pageBreak
-
-      % include foreign translation(s) of the song
       
 
     } % bookpart

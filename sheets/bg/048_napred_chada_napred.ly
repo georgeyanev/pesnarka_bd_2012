@@ -30,7 +30,7 @@
 
 \bookpart {
   \label #'ref048
-  \tocItem \markup "Напред, чада, напред – Napred, čada, napred"
+  \tocItem \markup "Напред, чада, напред"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -65,7 +65,7 @@
   } % score
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+    \hspace #18
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line {   2. От новото Небе }
@@ -98,10 +98,6 @@
     }  \"rightBraces048"
 
   } % markup
-
-  \pageBreak
-
-  % include foreign translation(s) of the song
   
 
 } % bookpart

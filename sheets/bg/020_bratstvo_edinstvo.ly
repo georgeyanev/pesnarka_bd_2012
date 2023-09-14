@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref020
-  \tocItem \markup "Братство, единство –  Bratstvo, edinstvo"
+  \tocItem \markup "Братство, единство"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -55,10 +55,5 @@
 
   } % score
   \markup \dc-two "D.C." "con ripetizione"
-
-  \pageBreak
-
-  % include foreign translation(s) of the song
-  
 
 } % bookpart
