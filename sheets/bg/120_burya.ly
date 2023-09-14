@@ -4,7 +4,7 @@
 
 \bookpart {
   \label #'ref120
-  \tocItem \markup "Буря – Burja"
+  \tocItem \markup "Буря"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -78,11 +78,5 @@
     \midi{}
 
   } % score
-
-  \pageBreak
-
-
-  % include foreign translation(s) of the song
-  
 
 } % bookpart

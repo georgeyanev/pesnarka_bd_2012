@@ -5,7 +5,7 @@
 
 \bookpart {
    \label #'ref104
-  \tocItem \markup "Химн на великата Душа – Himn na velikata Duša"
+  \tocItem \markup "Химн на великата Душа"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -42,7 +42,7 @@
      
       b'2 a'4 | fis'2 g'4 | a'2. | g'2 fis'4 | \break
 
-      g'2 b'4 | a'2. | a'2 a'4 | d''2 b'4 | a'2. | a'2 a'4 | \break
+      g'2 b'4 | a'2. | a'2 a'4 | d''2 b'4 | a'2. | a'2 a'4 | \pageBreak
 
       d''2 b'4 | b'2 ( cis''4 ) | a'2 g'4 |fis'2  fis'4 |
       \tempo "rit." g'2  e'4 | e'2 ( fis'4 ) | \break
@@ -125,11 +125,5 @@
   } % score
 
   \markup \dc-one "D.S. al Fine"
-  %
-
-  % include foreign translation(s) of the song
-
-  \pageBreak
-  
 
 } % bookpart

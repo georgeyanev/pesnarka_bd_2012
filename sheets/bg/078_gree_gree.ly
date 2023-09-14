@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref078
-  \tocItem \markup "Грее, грее – Gree, gree"
+  \tocItem \markup "Грее, грее"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -64,19 +64,14 @@
 
       ра -- дост но -- си за сър -- ца -- та.}
 
-        \header {
-          title = \titleFunc "Грее, грее" "Gree, gree"
-        }
+      \header {
+        title = \titleFunc "Грее, грее" "Gree, gree"
+      }
 
-        \midi{}
+      \midi{}
 
-      } % score
+    } % score
 
-      \markup \dc-one "D.C. al Fine"
+    \markup \dc-one "D.C. al Fine"
 
-      \pageBreak
-
-      % include foreign translation(s) of the song
-      
-
-    } % bookpart
+  } % bookpart

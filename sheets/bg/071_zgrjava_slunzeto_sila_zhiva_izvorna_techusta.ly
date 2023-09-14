@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref071_1
-  \tocItem \markup "Изгрява слънцето – Izgrjava slănceto"
+  \tocItem \markup "Изгрява слънцето"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -17,11 +17,11 @@
       \tempoFunc "Andandtinio" 4 "69"
       \partial 4
       \autoBeamOff
-        b4  |  d'2 d'4 | g'2 e'4 | d'2. | d'2 g'4 | b'2 a'4 \break |
+      b4  |  d'2 d'4 | g'2 e'4 | d'2. | d'2 g'4 | b'2 a'4 \break |
 
-        g'2. | a'2 b'4 | c''2 b'4 | d''2 c''4 | b'2 a'4^\markup { \concat {"              (" \fermata ")"}} |  g'2
-        \break \bar ":|."
-      
+      g'2. | a'2 b'4 | c''2 b'4 | d''2 c''4 | b'2 a'4^\markup { \concat {"              (" \fermata ")"}} |  g'2
+      \break \bar ":|."
+
     }
 
     \addlyrics {
@@ -37,22 +37,22 @@
     \midi{}
 
   } % score
-  
-  \markup \italic \dc-one-nobold "attacca „Сила жива, изворна/Sila živa, izvorna“"
-  
+
+  \markup \italic \dc-one-nobold "attacca „Сила жива, изворна“"
+
   % include foreign translation(s) of the song
-  
-    \markup \empty-one
 
-      \label #'ref071_2
-  \tocItem \markup "Сила жива, изворна – Sila živa, izvorna"
+  \markup \empty-one
 
-   \include "include/bookpart-paper.ily"
+  \label #'ref071_2
+  \tocItem \markup "Сила жива, изворна"
+
+  \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
 
     \new Voice \absolute {
-     \clef treble
+      \clef treble
       \key g \major
       \time 2/4
       \tempoFunc "Moderato" 4 "84"
@@ -86,10 +86,7 @@
 
     \midi{}
 
-  } % score
+  }
 
-  
-  % include foreign translation(s) of the song
-  
 
 } % bookpart

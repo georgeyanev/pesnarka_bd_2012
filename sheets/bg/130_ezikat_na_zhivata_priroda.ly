@@ -4,8 +4,40 @@
 
 \bookpart {
   \label #'ref130
-  \tocItem \markup "Езикът на живата природа – Ezikăt na živata priroda"
-  \include "include/bookpart-paper.ily"
+  \tocItem \markup "Езикът на живата природа"
+
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 8.5)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -82,10 +114,7 @@
       \time 2/4  | % 33
       bes'8  bes'8  cis''4 | % 34
       bes'4 \prall  a'4 |  \break % 35
-      
-      \pageBreak
       \time 4/4  | % 35
-
       \times 2/3  {
         bes'8  a'8  g'8
       }
@@ -140,7 +169,7 @@
       \tupletUp \times 2/3  {
         c''8   c''8  b'8
       } \tupletNeutral
-      c''8 ( [  d''8 ) ] | 
+      c''8 ( [  d''8 ) ] |
       b'2 | % 61
       b'8  a'4  g'8 | \break % 62
       g'8  fis'8  fis'8  e'8 | % 63
@@ -150,8 +179,8 @@
       b'2 | % 67
       b'8  a'4  g'8  | % 68
       fis'8  g'8  a'8  b'8 |  % 69
-      g'2 | 
-      c''8  e'4  e'8 | \pageBreak % 71
+      g'2 |
+      c''8  e'4  e'8 | \break % 71
       e'8  d'8  d'8  c''8 | % 72
       b'2  | % 73
       e'8  e'4. |   % 74
@@ -160,7 +189,7 @@
       e''8  a'4  b'8 | % 77
       c''8 ( [  b'8 ) ]  c''8  d''8 | % 78
       b'8  b'4. | % 79
-      b'8  a'4  g'8 |\break 
+      b'8  a'4  g'8 |\break
       fis'8  g'8  a'8  b'8 | % 81
       g'8  g'4. | % 82
       fis'8  e'4  d'8 |
@@ -235,12 +264,8 @@
 
       \midi{}
 
-    } % score
-
-    \pageBreak
+    }
 
 
-    % include foreign translation(s) of the song
-    
 
   } % bookpart

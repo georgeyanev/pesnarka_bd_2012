@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref091
-  \tocItem \markup "Нева сензу – Neva senzu"
+  \tocItem \markup "Нева сензу"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -31,10 +31,7 @@
 
       c'2-- bes8 a8  \tuplet 3/2 {g [(a bes )]}  a2.  r4 \bar "|."
 
-
     }
-
-
 
     \addlyrics {
       Не -- ва сен -- зу,
@@ -55,8 +52,6 @@
 
   } % score
 
-\markup \dc-one "D.C."
-  % include foreign translation(s) of the song
-  %
+  \markup \dc-one "D.C."
 
 } % bookpart

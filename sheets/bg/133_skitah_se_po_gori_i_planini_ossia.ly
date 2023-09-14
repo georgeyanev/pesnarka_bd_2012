@@ -4,7 +4,7 @@
 
 \bookpart {
   \label #'ref133
-  \tocItem \markup "Скитах се по гори и планини – Skitah se po gori i planini"
+  \tocItem \markup "Скитах се по гори и планини"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -58,62 +58,62 @@
       | % 11
       d4.  a8  c16  bes16
       a16  g16 | % 12
-      g2 r4    \bar ".|:-|"  
-        | % 13
-        \time 4/4  | % 13
-        d'8 ^\fermata
-        \times 2/3  {
-          d16  d16  d16 ]
-        }
-        d8 ( [  g8 ) ]  bes2 | % 14
+      g2 r4    \bar ".|:-|"
+      | % 13
+      \time 4/4  | % 13
+      d'8 ^\fermata
+      \times 2/3  {
+        d16  d16  d16 ]
+      }
+      d8 ( [  g8 ) ]  bes2 | % 14
 
-        <<
-          {a16  g16  fis16  g16 a8.  g16  g2}
+      <<
+        {a16  g16  fis16  g16 a8.  g16  g2}
 
-          \new Staff \with {
-            \override VerticalAxisGroup.default-staff-staff-spacing =
-            #'((basic-distance . 5.2)
-               (padding . -10))
-            \remove "Time_signature_engraver"
-            alignAboveContext = #"main"
-            fontSize = #-1
-            \override StaffSymbol.staff-space = #(magstep -3)
-            \override StaffSymbol.thickness = #(magstep -3)
-            firstClef = ##f
-          }
-          {\autoBeamOff a16 ^\markup { \huge \italic "ossia" \italic "според В. Несторова/nach V. Nestorova"} fis16 g a g8. fis16 g2}
-        >>
-        \break | % 15
+        \new Staff \with {
+          \override VerticalAxisGroup.default-staff-staff-spacing =
+          #'((basic-distance . 5.2)
+             (padding . -10))
+          \remove "Time_signature_engraver"
+          alignAboveContext = #"main"
+          fontSize = #-1
+          \override StaffSymbol.staff-space = #(magstep -3)
+          \override StaffSymbol.thickness = #(magstep -3)
+          firstClef = ##f
+        }
+        {\autoBeamOff a16 ^\markup { \huge \italic "ossia" \italic "според В. Несторова/nach V. Nestorova"} fis16 g a g8. fis16 g2}
+      >>
+      \break | % 15
 
-        \tempo "rall." f?16 es16
-        d16  cis16  d2
-        \times 2/3  {
-          \tempo "a tempo" c8 bes8
-          a8
-        }
-        | % 16
-        \time 3/4  | % 16
-        bes2
-        \times 2/3  {
-          a8  bes8  c8
-        }
-        \break | % 17
-        d4.  c8  d16 ( [  c16
-        ) ]  bes16  a16 | % 18
-        bes2
-        \times 2/3  {
-          a8   bes8  c8
-        } \time 2/4 \break | % 19
-        d4.  c8 |
-        \times 2/3  {
-          bes8   a8  g8
-        }
-        \times 2/3  {
-          fis8   g8    a8
-        } |
-        \tempo "rit." g2
-\bar ":|."
-      
+      \tempo "rall." f?16 es16
+      d16  cis16  d2
+      \times 2/3  {
+        \tempo "a tempo" c8 bes8
+        a8
+      }
+      | % 16
+      \time 3/4  | % 16
+      bes2
+      \times 2/3  {
+        a8  bes8  c8
+      }
+      \break | % 17
+      d4.  c8  d16 ( [  c16
+      ) ]  bes16  a16 | % 18
+      bes2
+      \times 2/3  {
+        a8   bes8  c8
+      } \time 2/4 \break | % 19
+      d4.  c8 |
+      \times 2/3  {
+        bes8   a8  g8
+      }
+      \times 2/3  {
+        fis8   g8    a8
+      } |
+      \tempo "rit." g2
+      \bar ":|."
+
     }
 
     \addlyrics {
@@ -141,9 +141,5 @@
 
   } % score
 
-
-
-  % include foreign translation(s) of the song
-  
 
 } % bookpart

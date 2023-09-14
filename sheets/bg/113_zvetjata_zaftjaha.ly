@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref113
-  \tocItem \markup "Цветята цъфтяха – Cvetjata căftjaha"
+  \tocItem \markup "Цветята цъфтяха"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -57,16 +57,4 @@
       \midi{}
 
     } % score
-    %\markup \dc-two "D.C.""con repitione"
-
-
-
-
-    %
-
-    % include foreign translation(s) of the song
-
-    \pageBreak
-    
-
   } % bookpart

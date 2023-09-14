@@ -57,11 +57,9 @@ cat \
     ../069_pesni_ot_Uchitelya.ly \
     ../070_fir_fur_fen.ly \
     ../071_zgrjava_slunzeto_sila_zhiva_izvorna_techusta.ly \
-    ../073_sladko_medeno.ly \
-    ../072_blagost.ly \
-    ../074_blaga_duma.ly \
-    ../075_076_aum_venir_benir.ly \
-    ../076_2_sila_ziva.ly \
+    ../072_073_blagost_sladko_medeno.ly \
+    ../074_076_blaga_duma_venir_benir.ly \
+    ../075_076_2_aum_sila_ziva.ly \
     ../077_skrabta_si_ti_kazhi.ly \
     ../078_gree_gree.ly \
     ../079_Duhat_Bozhii.ly \
@@ -73,40 +71,31 @@ cat \
     ../087_mussala.ly \
     ../088_hodi_hodi.ly \
     ../089_tagi_skarbi.ly \
-    ../090_Svetal_den.ly \
+    ../090_svetal_den.ly \
     ../091_neva_senzu.ly \
-    ../092_1_kiamet_zenu.ly \
+    ../092_1_2_3_kiamet_zenu_davai_davai_misli_pravo_misli.ly \
     ../092_2_davai_davai.ly \
     ../094_v_nachaloto_be_slovoto.ly \
-    ../093_misli_pravo_misli.ly \
-    ../095_vdahnovenie.ly \
+    ../095_1_2_vdahnovenie_dobar_den.ly \
     ../096_vesel_ti_badi.ly \
     ../097_zapali_se_oganyat.ly \
     ../098_bershid_ba.ly \
     ../099_malkiyat_izvor.ly \
-    ../095_2_dobar_den.ly \
-    ../100_vsichko_v_zjivota_e_postizhimo.ly \
-    ../101_1_tagi_skarbi_sa_bogatstvo.ly \
-    ../101_2_duhat_mi_shepne_tova.ly \
+    ../100_101_1_2_vsichko_v_zjivota_e_postizhimo_tagi_skarbi_sa_bogatstvo_duhat_mi_shepne_tova.ly \
     ../102_sila_zhivot_zdrave.ly \
     ../103_krasiv_e_zhivotat.ly \
-    ../106_pesen_na_zorata.ly \
-    ../107_pri_vsichkite_uslovija.ly \
     ../104_himn_na_velinata_dusha.ly \
+    ../106_107_pesen_na_zorata_pri_vsichkite_uslovija.ly \
     ../108_az_moga_da_kazha.ly \
     ../109_az_smeya_da_kaza.ly \
-    ../110_1_da_imash_vyara.ly \
-    ../110_2_V_pustinyata_na_zhivota.ly \
+    ../110_1_2_da_imash_vyara_v_pustinjata_na_zhivota.ly \
     ../111_az_moga_da_lubya.ly \
-    ../112_1_sila_zdrave_e_bogatstvo.ly \
-    ../112_2_Zov_na_planinata.ly \
+    ../112_1_2_sila_zdrave_e_bogatstvo_zov_na_planinata.ly \
     ../113_zvetjata_zaftjaha.ly \
-    ../114_toy_ide.ly \
-    ../115_pesen_na_svetliya_pat.ly \
+    ../114_115_toy_ide_pesen_na_svetliya_pat.ly \
     ../116_doste_den.ly \
     ../117_tam_daleche.ly \
-    ../118_1_denyat_ide.ly \
-    ../118_2_prolet.ly \
+    ../118_1_2_denyat_ide_prolet.ly \
     ../119_podmladyavane.ly \
     ../120_burya.ly \
     ../121_ranen_chas.ly \
@@ -114,12 +103,12 @@ cat \
     ../124_proletna_pesen.ly \
     ../125_slancheva_pesen.ly \
     ../126_studat_vsichko_dava.ly \
+    ../136_duhai_vetre.ly \
     ../130_ezikat_na_zhivata_priroda.ly \
     ../132_pravda.ly \
     ../133_skitah_se_po_gori_i_planini_ossia.ly \
     ../134_obetovana_zemya.ly \
     ../135_ain_fasi.ly \
-    ../136_duhai_vetre.ly \
     ../137_a_bre_sinko.ly \
     ../138_bashtina_pesen_ugledna_moma.ly \
     ../142_stavay_daste.ly \

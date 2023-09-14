@@ -27,7 +27,7 @@
 
 \bookpart {
   \label #'ref088
-  \tocItem \markup "Ходи, ходи –  Hodi, hodi"
+  \tocItem \markup "Ходи, ходи"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -64,11 +64,11 @@
     \midi{}
 
   } % score
-  
-  \markup \italic \dc-one-nobold "attacca „Тъги скърби“/attacca „Tăgi skărbi“"
+
+  \markup \italic \dc-one-nobold "attacca „Тъги скърби“"
 
   \markup \fontsize #bgCoupletFontSize {
-    \hspace #5
+    \hspace #18
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
@@ -84,14 +84,7 @@
       \line { "   "мощна е водата. }
     } \"rightBraces088"
 
-  } % markup
+  }
 
- 
- 
- 
-\pageBreak
-
-  % include foreign translation(s) of the song
-  
 
 } % bookpart

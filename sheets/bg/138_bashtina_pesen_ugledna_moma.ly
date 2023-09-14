@@ -5,8 +5,39 @@
 
 \bookpart {
   \label #'ref138
-  \tocItem \markup "Бащина песен – Угледна мома –  Baština pesen – Ugledna moma "
-  \include "include/bookpart-paper.ily"
+  \tocItem \markup "Бащина песен – Угледна мома"
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 11.5)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -31,9 +62,9 @@
       ees8 g8. |
       fis8 ees16 c8  |
       d8 d8. | \bar ":|.:" \break
-      
 
-    
+
+
       \tempoFunc "Poco più mosso" 8 "120"
       \key f \minor
       c'8 b8[(aes16)] |  |
@@ -129,7 +160,7 @@
       ees8. g8~ g8. |
       fis8. ees8~ ees8. |
       fis8. ees8(c8.) |
-      d8. d8~ d8. | 
+      d8. d8~ d8. |
       g8. g8~ g8. | \break
 
       bes8. bes8~ bes8. |
@@ -138,7 +169,7 @@
       bes8. bes8 g8. |
       a8. a8~ a8.\fermata | \break
 
-        \bar ".|:-||"  \tempo "Più mosso"
+      \bar ".|:-||"  \tempo "Più mosso"
       g8. g8~ g8. |
       fis8. ees8~ ees8. |
       fis8. ees8 c8. |
@@ -235,7 +266,7 @@
       e2 | % 152
 
       \time 4/4  | % 152
-      g4.f8 e8 ( [d8 ] ) 
+      g4.f8 e8 ( [d8 ] )
       c8 d8  | % 153
       e4 e2. \bar "||" \break
       \tempo "Allegretto"
@@ -252,7 +283,7 @@
 
       \break \repeat volta 1 {
         | % 164
-         \bar ".|:-||"  \key g \major \time 9/16 | % 164
+        \bar ".|:-||"  \key g \major \time 9/16 | % 164
         d8 ^\markup{ \bold {a tempo} } e16 ( [
         fis16 ) ] g8 fis8. | % 165
         g8 e8 e16 ( [ \stemDown
@@ -279,10 +310,10 @@
       тя до -- ма се връ -- ща, __ май -- ка си ми -- ло пре -- гръ -- ща.
       Тъй, пъл -- на и ве -- се -- ла,  тя до -- ма се връ -- ща, май -- ка __ си __
       ми -- ло пре -- гръ -- ща. Ху -- ба -- ва __ мо -- ма се, син -- ко, по --
-      зна -- ва, __ ко -- га __ ло -- зе ко -- па -- е __ и то __ 
-      и -- "зо-" -- бил -- но "гроз-" -- де да -- ва. Ло -- зе __ мо -- "мин-" -- ски ръ -- це __ 
+      зна -- ва, __ ко -- га __ ло -- зе ко -- па -- е __ и то __
+      и -- "зо-" -- бил -- но "гроз-" -- де да -- ва. Ло -- зе __ мо -- "мин-" -- ски ръ -- це __
       до -- бре по -- зна -- ва, __ ло -- зе мо -- мин -- ски ръ -- це
-      до -- бре по -- зна -- ва, ло -- зе мо -- мин -- ски ръ -- це __ 
+      до -- бре по -- зна -- ва, ло -- зе мо -- мин -- ски ръ -- це __
       до -- бре по -- зна -- ва. Ху -- ба -- ва мо -- ма __ се, син -- ко,
       на ни -- ва по -- зна -- ва, ко -- га ръ -- ко -- и __ ди -- га и
       сла -- га, __ и на  зе -- мя ги __ до -- бре по -- ла -- га, __
@@ -291,9 +322,9 @@
       не -- я __ жи -- то __ до -- бре по -- зна -- ва. __ Тя е, __
       син -- ко, гла -- со -- ви -- та, лич -- на пе -- ви -- ца; не -- я жи -- то
       до -- бре по -- зна -- ва, не -- я жи -- то до -- бре по -- зна -- ва.
-      Ху -- ба -- ва мо -- ма се, син -- ко, до -- бре по -- зна -- ва __ 
+      Ху -- ба -- ва мо -- ма се, син -- ко, до -- бре по -- зна -- ва __
       ко -- га на гум -- но __  жи -- то от -- вя -- ва __ и във ре --
-      ше -- то __ го пре -- ся -- ва, __ "в~жит-" -- "ни-" -- ци го ту -- ря __ 
+      ше -- то __ го пре -- ся -- ва, __ "в~жит-" -- "ни-" -- ци го ту -- ря __
       и на __  бед -- ни хляб да -- ва. __ Не -- я "всич-" -- ки,
       мал -- ки и го -- ле -- ми, до -- бре я по -- зна -- ват, __
       не -- я всич -- ки, мал -- ки и го -- ле -- ми, до -- бре
@@ -315,11 +346,5 @@
     \midi{}
 
   } % score
-
-
-\pageBreak
-
-  % include foreign translation(s) of the song
-  
 
 } % bookpart

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref098
-  \tocItem \markup "Бершид ба – Beršid ba"
+  \tocItem \markup "Бершид ба"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -25,18 +25,18 @@
 
       c''4 bes'8. a'16 bes'4 ges' f'8. e'16 | \time 3/4  f'2 ees'!4 \break |
 
-      des'8 des' c'4 bes8 a | \time 4/4  c'4 bes8. a16 bes2 \break | 
+      des'8 des' c'4 bes8 a | \time 4/4  c'4 bes8. a16 bes2 \break |
 
-      \bar ".|:-|" 
-        f'4 bes'8. bes'16 bes'4. bes'8 | \autoBeamOn c''8  ( bes')  a' ( bes' ) c''4 \autoBeamOff bes'8. a'16 \break |
+      \bar ".|:-|"
+      f'4 bes'8. bes'16 bes'4. bes'8 | \autoBeamOn c''8  ( bes')  a' ( bes' ) c''4 \autoBeamOff bes'8. a'16 \break |
 
-        \time 5/4  | bes'2 ( as'?4 )  ges' f'8. e'16 | \time 3/4  f'2 \times 2/3  {  f'8 [ ( ges' as'8 ) ] } \break |
+      \time 5/4  | bes'2 ( as'?4 )  ges' f'8. e'16 | \time 3/4  f'2 \times 2/3  {  f'8 [ ( ges' as'8 ) ] } \break |
 
-        \time 4/4  as'4 bes'2  \times 2/3  {  ges'8 ( [ f' es'8 ] ) } | \time 3/4  bes'4 ges'8 ges' f'8. e'16
+      \time 4/4  as'4 bes'2  \times 2/3  {  ges'8 ( [ f' es'8 ] ) } | \time 3/4  bes'4 ges'8 ges' f'8. e'16
 
-        f'2 \times 2/3 { c'8 [ ( des' ) ] es'?8  } | \break
+      f'2 \times 2/3 { c'8 [ ( des' ) ] es'?8  } | \break
 
-        f'4 ( es' ) des' | \times 2/3  { c'8 [ ( es' des'8 ) ] } c'4 bes8. a16  | \time 2/4  bes2  \break |
+      f'4 ( es' ) des' | \times 2/3  { c'8 [ ( es' des'8 ) ] } c'4 bes8. a16  | \time 2/4  bes2  \break |
 
       \bar ":|."
     }
@@ -58,12 +58,5 @@
     \midi{}
 
   } % score
-
-  %\markup \dc-one "D.C."
-  %
-
-  % include foreign translation(s) of the song
-  \pageBreak
-  
 
 } % bookpart

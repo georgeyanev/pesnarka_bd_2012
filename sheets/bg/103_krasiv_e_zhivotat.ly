@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref103
-  \tocItem \markup "Красив е животът – Krasiv e životătt"
+  \tocItem \markup "Красив е животът"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -80,8 +80,4 @@
     \midi{}
 
   } % score
-
-  \pageBreak
-  
-
 } % bookpart

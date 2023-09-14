@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref145
-  \tocAct \markup { "NACH 1944 VERÖFFENTLICHTE LIEDER"}
+  \tocAct \markup { "Песни, мелодии и теми непубликувани до 1944"}
   \paper {
     print-all-headers = ##f
     print-page-number = ##f
@@ -34,13 +34,13 @@
 
   }
 
-  \markup { {  \vspace #11.2 } }
+  \markup { {  \vspace #13.2 } }
 
-  \markup \fontsize  #+6 { \fill-line \bold {"NACH 1944"} }
-
-  \markup { {  \vspace #0.2 } }
-
-  \markup \fontsize  #+6 { \fill-line \bold {"VERÖFFENTLICHTE LIEDER"} }
+  \markup \fontsize  #+7 { \fill-line \bold {"ПЕСНИ, МЕЛОДИИ И"} }
+  \markup { {  \vspace #0.3 } }
+  \markup \fontsize  #+7 { \fill-line \bold {"ТЕМИ ОТ УЧИТЕЛЯ"} }
+  \markup { {  \vspace #0.3 } }
+  \markup \fontsize  #+7 { \fill-line \bold {"непубликувани до 1944 г."} }
 
 
 

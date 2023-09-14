@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref109
-  \tocItem \markup "Аз смея да кажа – Az smeja da kaža"
+  \tocItem \markup "Аз смея да кажа"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -65,12 +65,5 @@
 
   } % score
 
-  %\markup \dc-one "D.C. al Fine"
-  %
-
-  % include foreign translation(s) of the song
-
-  \pageBreak
-  
 
 } % bookpart

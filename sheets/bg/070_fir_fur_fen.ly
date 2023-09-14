@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref070
-  \tocItem \markup "Фир-фюр-фен – Благославай – Fir-fjur-fen – Blagoslavaj"
+  \tocItem \markup "Фир-фюр-фен – Благославай"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -47,19 +47,14 @@
       сла -- вяй, бла -- го -- сла -- вяй, бла -- го --
       сла -- вяй и не за -- бра -- вяй.}
 
-        \header {
-          title = \titleFunc "Фир-фюр-фен – Благославай" "Fir-fjur-fen – Blagoslavaj"
-        }
+      \header {
+        title = \titleFunc "Фир-фюр-фен – Благославай" "Fir-fjur-fen – Blagoslavaj"
+      }
 
-        \midi{}
+      \midi{}
 
-      } % score
+    } % score
 
-      \markup \dc-two "D.C. al Fine" "senza ripetizioni"
+    \markup \dc-two "D.C. al Fine" "senza ripetizioni"
 
-      \pageBreak
-
-      % include foreign translation(s) of the song
-      
-
-    } % bookpart
+  } % bookpart
