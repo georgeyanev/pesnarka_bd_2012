@@ -37,7 +37,7 @@
 
   \markup { {  \vspace #13.2 } }
 
- \markup \fontsize  #+7 { \fill-line \bold {"ПЕНСНИ ОТ УЧИТЕЛЯ"} }
+ \markup \fontsize  #+7 { \fill-line \bold {"ПЕСНИ ОТ УЧИТЕЛЯ"} }
 
 
   % include foreign translation(s) of the song
