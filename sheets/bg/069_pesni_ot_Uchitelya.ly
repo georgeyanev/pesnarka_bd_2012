@@ -35,9 +35,9 @@
   }
 
 
-  \markup { {  \vspace #11.2 } }
+  \markup { {  \vspace #13.2 } }
 
-  \markup \fontsize  #+6 { \fill-line \bold {"LIEDER VON PETAR DANOV"} }
+ \markup \fontsize  #+7 { \fill-line \bold {"ПЕНСНИ ОТ УЧИТЕЛЯ"} }
 
 
   % include foreign translation(s) of the song
