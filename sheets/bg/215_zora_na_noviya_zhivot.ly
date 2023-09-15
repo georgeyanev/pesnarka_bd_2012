@@ -5,8 +5,8 @@
 
 \bookpart {
 
-   \label #'ref215
-  \tocItem \markup "Зора на Новия живот – Zora na Novija život"
+  \label #'ref215
+  \tocItem \markup "Зора на Новия живот"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -62,19 +62,16 @@
       но -- ви -- я __
       жи -- вот.}
 
-    \header {
-      title = \titleFunc "Зора на Новия живот" "Zora na Novija život"
-    }
+      \header {
+        title = \titleFunc "Зора на Новия живот" "Zora na Novija život"
+      }
 
-    \midi{}
+      \midi{}
 
-  } % score
+    } % score
 
-  \markup \empty-one
-   % include foreign translation(s) of the song
-  
 
-} % bookpart
+  } % bookpart
 
-% Più mosso
-%
+  % Più mosso
+  %

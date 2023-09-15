@@ -5,39 +5,6 @@
 
 \bookpart {
 
-  \label #'ref075
-  \tocItem \markup "Аум"
-  \include "include/bookpart-paper.ily"
-  \score {
-    \include "include/score-layout.ily"
-
-    \new Voice \absolute {
-
-      \clef treble
-      \key c \major
-      \time 3/4
-      \tempoFunc "Andante" 4 "60"
-      \autoBeamOff
-      \partial 4
-
-      g4 |  c'2 g4 | e'2 c'4 | g'2. |  f'2. | e'2. | d'2. | c'2 \fermata s4 | \bar "|."
-    }
-
-    \addlyrics {
-      А -- ум, А
-      -- ум, А -- ум, Ом, Ом, Ау -- мен.
-    }
-
-    \header {
-      title = \titleFunc "Аум" "Aum"
-    }
-
-    \midi{}
-
-  } % score
-
-  \markup \dc-one "2 D.C."
-  \markup \italic \dc-one-nobold "(песентта се изпълнява три пъти)"
   \label #'ref076_2
   \tocItem \markup "Сила жива"
   \include "include/bookpart-paper.ily"
@@ -108,6 +75,40 @@
 
     \markup \italic \dc-one-nobold "(По желание песента се изпълнява два пъти.)"
     \markup \italic \dc-one-nobold "attacca „Скръбта си ти кажи“"
+
+      \label #'ref075
+  \tocItem \markup "Аум"
+  \include "include/bookpart-paper.ily"
+  \score {
+    \include "include/score-layout.ily"
+
+    \new Voice \absolute {
+
+      \clef treble
+      \key c \major
+      \time 3/4
+      \tempoFunc "Andante" 4 "60"
+      \autoBeamOff
+      \partial 4
+
+      g4 |  c'2 g4 | e'2 c'4 | g'2. |  f'2. | e'2. | d'2. | c'2 \fermata s4 | \bar "|."
+    }
+
+    \addlyrics {
+      А -- ум, А
+      -- ум, А -- ум, Ом, Ом, Ау -- мен.
+    }
+
+    \header {
+      title = \titleFunc "Аум" "Aum"
+    }
+
+    \midi{}
+
+  } % score
+
+    \markup \dc-one "2 D.C."
+  \markup \italic \dc-one-nobold "(песентта се изпълнява три пъти)"
 
 
   } % bookpart

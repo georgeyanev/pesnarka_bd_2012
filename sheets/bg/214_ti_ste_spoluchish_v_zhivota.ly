@@ -5,11 +5,10 @@
 
 \bookpart {
   \label #'ref214
-  \tocItem \markup "Ти ще сполучиш в Живота – Ti šte spolučiš v Života"
+  \tocItem \markup "Ти ще сполучиш в Живота"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
-
     \new Voice \absolute {
       \clef treble
       \key d \minor
@@ -30,11 +29,11 @@
 
       a'4^\mf g'8 f'8 e'8 d'8 d'8 cis'8 | d'4 ( e'4 ) d'2 | \time 3/4  | c''4^\mp bes'4 a'4 | \break
 
-      a'2 a'4 | \time 4/4  d''4 c''4 bes'4 ( g'4 ) | a'2. r4 | \time 3/4 | a'2^\mf f'8 d'8 | 
+      a'2 a'4 | \time 4/4  d''4 c''4 bes'4 ( g'4 ) | a'2. r4 | \time 3/4 | a'2^\mf f'8 d'8 |
 
       bes'2 a'4 ( | a'4 ) a4 a4 | \break  e'2 d'4 ( | d'4 ) r4 a4 |
-      
-      d'2^\p^\< e'8. e'16 \! | 
+
+      d'2^\p^\< e'8. e'16 \! |
 
 
       f'4^\> ( d'4 cis'8 [d'8] | \time 4/4  e'4 ) a4 \! ^\markup { "      " \fontsize #3 \musicglyph "comma"}
@@ -62,9 +61,7 @@
     \midi{}
 
   } % score
-  \pageBreak
-  % include foreign translation(s) of the song
-  
+
 
 
 } % bookpart

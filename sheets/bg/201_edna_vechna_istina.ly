@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref201
-  \tocItem \markup "Една вечна истина... – Edna večna istina..."
+  \tocItem \markup "Една вечна истина, която е Бог на Любовта"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -63,17 +63,16 @@
       ют, Ве -- ю, Ве -- ю, Ве --
       ю.}
 
-        \header {
-          title = \titleFunc "Една вечна истина, която е Бог на Любовта" "Edna večna istina, kojato e Bog na Ljubovta"
-        }
+      \header {
+        title = \titleFunc "Една вечна истина, която е Бог на Любовта" "Edna večna istina, kojato e Bog na Ljubovta"
+      }
 
-        \midi{}
+      \midi{}
 
-      } % score
+    } % score
 
-      % include foreign translation(s) of the song
-      
-    } % bookpart
 
-    % Più mosso
-    %
+  } % bookpart
+
+  % Più mosso
+  %

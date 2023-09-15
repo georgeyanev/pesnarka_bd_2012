@@ -5,8 +5,39 @@
 
 \bookpart {
   \label #'ref212
-  \tocItem \markup "Моето слънце днес ще изгрее – Moeto slănce dnes šte izgree "
-  \include "include/bookpart-paper.ily"
+  \tocItem \markup "Моето слънце днес ще изгрее"
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 11.5)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -79,7 +110,7 @@
 
       a'8. ~   a'8 ~  a'8.  ^\! \bar "||"
       \break | % 41
-       
+
       \tempo "Allegro" a'8. ^\p  e''8
       d''8. | % 42
       cis''8.  d''8 ~   d''8.  | % 43
@@ -89,8 +120,8 @@
       g'8 ( [  a'16 )  ] bes'8 ~  bes'8.  | % 46
       d''8 ( [  cis''16 ) ]  bes'16 ( [
       a'16 ] g'8. )  | % 47
-      a'8.  d''8 ~   d''8. 
-       | % 48
+      a'8.  d''8 ~   d''8.
+      | % 48
       g''8. ( ^\fermata  a''16 [  g''16 )
       ] f''8. ~ \break | % 49
       f''8. ~   f''8 ~  f''8.  |
@@ -170,12 +201,8 @@
 
     \midi{}
 
-  } % score
+  }
 
-
-
-  % include foreign translation(s) of the song
-  
 
 } % bookpart
 

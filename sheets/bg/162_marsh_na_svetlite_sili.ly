@@ -4,7 +4,7 @@
 \include "include/globals.ily"
 \bookpart {
   \label #'ref162
-  \tocItem \markup "Марш на светлите сили – Marš na svetlite sili"
+  \tocItem \markup "Марш на светлите сили"
   \paper {
     % the system system spacing is custom here so do not include bookpart-paper.ily
     print-all-headers = ##t
@@ -89,8 +89,8 @@
       a8 [d'8] g16 ([ a16 bes16 a16 ]) | % 21
       g8 g4 g8 \bar "||"
       \break | % 22
-       \time 5/4
-       \bar ".|:-||"  \repeat volta 2 {
+      \time 5/4
+      \bar ".|:-||"  \repeat volta 2 {
         d'8 d'4 d'4 d'8 bes'8[ \acciaccatura { a'16 ( [bes'16] } a'8] ) g'8
         [es'8] | % 23
         d'8 d'4 d'4 d'8 bes'8[ \acciaccatura { a'16 ( [bes'16] } a'8] ) g'8
@@ -123,11 +123,6 @@
 
   } % score
 
-   \markup \dc-two "D.C.""con ripetizione"
-  % include foreign translation(s) of the song
-  %
+  \markup \dc-two "D.C.""con ripetizione"
 
 } % bookpart
-
-% Più mosso
-%

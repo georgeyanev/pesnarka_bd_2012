@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref178
-  \tocItem \markup "Молитва (Чуй, Господи) – Molitva (Čuj, Gospodi)"
+  \tocItem \markup "Молитва (Чуй, Господи)"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -16,7 +16,7 @@
       \time 3/4
       \tempoFunc "Andantino" 4 "72"
       \autoBeamOff
-      
+
       b'2. | % 2
       b'4.  b'8  b'4 ~ | % 3
       b'2 ^\fermata  b'4 | % 4
@@ -74,7 +74,8 @@
     }
 
 
-    \addlyrics { Чуй, Гос -- по -- ди, __  към Те --
+    \addlyrics {
+      Чуй, Гос -- по -- ди, __  към Те --
       бе аз от -- пра -- вям мой -- та
       мо -- лит -- ва. Да се ос -- во --
       бо -- ди мо -- е -- то тя -- ло от __
@@ -88,21 +89,13 @@
       жи -- ве -- я о -- ще, Гос --
       по -- ди. __}
 
-   \header {
-      title = \titleFunc "Молитва" "Molitva"
-    }
+      \header {
+        title = \titleFunc "Молитва" "Molitva"
+      }
 
 
-    \midi{}
+      \midi{}
 
-  } % score
+    } % score
 
-
-
-  % include foreign translation(s) of the song
-  
-
-} % bookpart
-
-% Più mosso
-%
+  }

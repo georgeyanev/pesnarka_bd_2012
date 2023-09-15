@@ -4,7 +4,7 @@
 \include "include/globals.ily"
 
 \bookpart {
-    \paper {
+  \paper {
     print-all-headers = ##f
     print-page-number = ##f
     print-first-page-number = ##f
@@ -23,7 +23,7 @@
       ""
     }
 
-    \tocAct  \markup "ANHANG"
+    \tocAct  \markup "Приложения"
 
     left-margin = 1.5\cm
     right-margin = 1.5\cm
@@ -31,10 +31,12 @@
     bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
 
-  
+
   }
- 
- \markup\fontsize  #+8.5  {\bold {  \hspace #25  \vspace #13.5 ANHANG} }
+
+   \markup { {  \vspace #13.2 } }
+
+ \markup \fontsize  #+7 { \fill-line \bold {"ПРИЛОЖЕНИЯ"} }
 
 } % bookpart
 

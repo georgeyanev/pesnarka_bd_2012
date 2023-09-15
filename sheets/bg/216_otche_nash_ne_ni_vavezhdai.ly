@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref216
-  \tocItem \markup "Отче наш, не ни ... – Otče naš, ne ni ... "
+  \tocItem \markup "Отче наш, не ни въвеждай в изкушение"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -16,7 +16,6 @@
       \time 6/4
       \tempoFunc "Andante sustenuto" 4 "76"
       \autoBeamOff
-
       \partial 2
       d'4  d'4 | % 2
       b'2  a'2  g'4  fis'4 | % 3
@@ -65,19 +64,15 @@
       -- ни -- е, не ни въ -- веж -- дай
       във из -- ку -- ше -- ни -- е.}
 
-        \header {
-          title = \titleFunc "Отче наш, не ни въвеждай в изкушение" "Otče naš, ne ni văveždaj v izkušenie"
-        }
+      \header {
+        title = \titleFunc "Отче наш, не ни въвеждай в изкушение" "Otče naš, ne ni văveždaj v izkušenie"
+      }
 
-        \midi{}
+      \midi{}
 
-      } % score
+    } % score
 
-      \pageBreak
+  } % bookpart
 
-      
-
-    } % bookpart
-
-    % Più mosso
-    %
+  % Più mosso
+  %

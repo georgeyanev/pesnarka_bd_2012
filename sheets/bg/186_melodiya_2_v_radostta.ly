@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref186
-  \tocItem \markup "Мелодия – В радостта... – Melodija – V radostta..."
+  \tocItem \markup "Мелодия – В радостта на деня"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -103,53 +103,48 @@
       -- жен. Бо -- жи -- я -- та во -- ля
       да пре -- бъ -- де свя -- та в~то
       -- зи ден бла -- го -- сло -- вен.}
- 
-        \header {
-          title = \titleFunc "Мелодия – В радостта на деня" " Melodija – V radostta na denja"
-        }
 
-        \midi{}
+      \header {
+        title = \titleFunc "Мелодия – В радостта на деня" " Melodija – V radostta na denja"
+      }
 
-      } % score
+      \midi{}
 
-      \markup \fontsize #bgCoupletFontSize {
-        \hspace #3
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-          \line {  2. Слънчевото ято}
+    } % score
 
-          \line {   "   " Бога благославя}
+    \markup \fontsize #bgCoupletFontSize {
+      \hspace #20
+      \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+      \column {
+        \line {  2. Слънчевото ято}
 
-          \line {   "   " и зари,}
+        \line {   "   " Бога благославя}
 
-          \line {   "   " Божията Слава}
+        \line {   "   " и зари,}
 
-          \line {   "   " новия Свещен Живот}
+        \line {   "   " Божията Слава}
 
-          \line {   "   " да озари.}
+        \line {   "   " новия Свещен Живот}
 
-          \line {   "   " Целият всемир е светлина}
+        \line {   "   " да озари.}
 
-          \line {   "   " и светлината}
+        \line {   "   " Целият всемир е светлина}
 
-          \line {   "   " извор е на радост,}
+        \line {   "   " и светлината}
 
-          \line {   "   " сила и живот.}
-          \line {   "   " }
-          \line \italic {   "      " Припев:}
-          \line {   "      " Ето, го грее денят ...}
+        \line {   "   " извор е на радост,}
+
+        \line {   "   " сила и живот.}
+        \line {   "   " }
+        \line \italic {   "      " Припев:}
+        \line {   "      " Ето, го грее денят ...}
 
 
-        }
+      }
 
-      } % markup
+    } % markup
 
-      \pageBreak
+  } % bookpart
 
-      % include foreign translation(s) of the song
-      
-
-    } % bookpart
-
-    % Più mosso
-    %
+  % Più mosso
+  %

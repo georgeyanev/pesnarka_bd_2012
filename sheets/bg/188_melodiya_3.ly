@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref188
-  \tocItem \markup "Мелодия – Когато се денят... – Melodija – Kogato se denjat..."
+  \tocItem \markup "Мелодия – Когато се денят пробужда"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -41,35 +41,35 @@
       Към вър -- хо -- ве -- те о -- за -- ре -- ни
       по -- ли -- тат на -- ши -- те ду -- ши.}
 
-        \header {
-          title = \titleFunc "Мелодия – Когато се денят пробужда " "Melodija – Kogato se denjat probužda"
-        }
+      \header {
+        title = \titleFunc "Мелодия – Когато се денят пробужда " "Melodija – Kogato se denjat probužda"
+      }
 
-        \midi{}
+      \midi{}
 
-      } % score
+    } % score
 
-      \markup \fontsize #bgCoupletFontSize {
-        \hspace #2
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-          \line {   2. Когато се денят пробужда,}
-          \line {   "   " долавяме небесен зов – }
-          \line {   "   " вълнува ни и вдъхновява}
-          \line {   "   " за светъл и красив живот.}
-          \line {   "       " Ще дойде той след бурите, }
-          \line {   "       " борбите.}
-          \line {   "       " Земята ще залее мир.}
-          \line {   "       " Могъща сила е Доброто,}
-          \line {   "       " ний вярваме – ще победи.}
-        }
+    \markup \fontsize #bgCoupletFontSize {
+      \hspace #17
+      \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+      \column {
+        \line {   2. Когато се денят пробужда,}
+        \line {   "   " долавяме небесен зов – }
+        \line {   "   " вълнува ни и вдъхновява}
+        \line {   "   " за светъл и красив живот.}
+        \line {   "       " Ще дойде той след бурите, }
+        \line {   "       " борбите.}
+        \line {   "       " Земята ще залее мир.}
+        \line {   "       " Могъща сила е Доброто,}
+        \line {   "       " ний вярваме – ще победи.}
+      }
 
-      } % markup
+    } % markup
 
-      % include foreign translation(s) of the song
-      
+    % include foreign translation(s) of the song
 
-    } % bookpart
 
-    % Più mosso
-    %
+  } % bookpart
+
+  % Più mosso
+  %

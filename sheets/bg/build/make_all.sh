@@ -59,7 +59,7 @@ cat \
     ../071_zgrjava_slunzeto_sila_zhiva_izvorna_techusta.ly \
     ../072_073_blagost_sladko_medeno.ly \
     ../074_076_blaga_duma_venir_benir.ly \
-    ../075_076_2_aum_sila_ziva.ly \
+    ../075_076_2_sila_ziva_aum.ly \
     ../077_skrabta_si_ti_kazhi.ly \
     ../078_gree_gree.ly \
     ../079_Duhat_Bozhii.ly \
@@ -116,28 +116,24 @@ cat \
     ../145_pesni_sled_1944.ly \
     ../146_bylgarska_rapsodia_penjo_ganev.ly \
     ../150_balgarska_idiliya.ly \
-    ../154_ne_li_dimah.ly \
+    ../154_ne_li_dimah_.ly \
+    ../161_duhai_vetre_II.ly \
     ../156_mirat_ide.ly \
     ../158_mirat_ide_II.ly \
-    ../161_duhai_vetre_II.ly \
-    ../167_2_kazhi_mi_svetal_bozhii_lach.ly \
     ../162_marsh_na_svetlite_sili.ly \
-    ../162_mash_vtori_variant_tekst.ly \
+    ../162_mash_vtori_variant_tekst_165_malkiyat_planinski_izvor.ly \
+    ../166_Bog_e_Lyubov_II_167_kam_fir_fjur_fen.ly \
+    ../167_2_kazhi_mi_svetal_bozhii_lach_155_radost_za_dushata.ly \
     ../163_berhan_azi.ly \
-    ../164_pesen_na_deteto.ly \
-    ../165_malkiyat_planinski_izvor.ly \
-    ../166_Bog_e_Lyubov_II.ly \
-    ../155_1_radost_sa_dushata.ly \
-    ../167_kam_fir_fur_fen.ly \
     ../168_kazhi_mi_ti_istinata_II.ly \
-    ../169_1_kazhi_mi_ti_isinata_III.ly \
-    ../169_2_svoboda_e_potrebna_za_dushata.ly \
-    ../170_vyara_svetla_I_II_III.ly \
-    ../171_milost_blagost_az_moga_da_disham.ly \
+    ../169_1_2_kazhi_mi_ti_isinata_III_svoboda_e_portrebna_za_dushata.ly \
+    ../170_vyara_svetla_I_II_III_171_milost_blagost_az_moga_da_disham.ly \
+    ../173_malkata_bubolechka_174_3_radost.ly \
+    ../164_pesen_na_deteto.ly \
     ../172_igrata_na_potocheto.ly \
-    ../173_malkata_bubolechka.ly \
     ../174_3_radost_175_2_mehein.ly \
     ../174_1_da_bih_te_slushal_174_2_slusham_175_pismoto.ly \
+    ../175_mehein.ly \
     ../176_zhitno_zarno.ly \
     ../177_izvorche.ly  \
     ../178_molitva.ly \
@@ -146,21 +142,15 @@ cat \
     ../181_proletna_pesen.ly \
     ../182_deset_temi.ly \
     ../185_melodiya_i_krasiv_zhivot.ly \
-    ../189_osarenie.ly \
     ../186_melodiya_2_v_radostta.ly \
     ../188_melodiya_3.ly \
+    ../189_osarenie.ly \
     ../190_glasat_na_zhiviya_Gospod.ly \
-    ../191_nb_parvi_bozhestven_den.ly \
-    ../192_nb_vtori_bozhestven_den.ly \
-    ../193_194_nb_treti_bozhestven_den_chetvarti_bozhestven_den.ly \
-    ../195_196_nb_peti_bozhestven_den_shesti_bozhestven_den.ly \
-    ../199_nb_sedmi_bozhestven_den.ly \
+    ../191_novoto_bitie.ly \
     ../200_vatreshniyat_glas_na_Boga.ly \
     ../201_edna_vechna_istina.ly \
-    ../202_himni_na_slantzeto.ly \
-    ../204_molitva.ly \
-    ../206_bozhiyata_lyubov_me_osari.ly \
-    ../207_pesenta_na_angelite.ly \
+    ../202_204_himni_na_slantzeto_molitva.ly \
+    ../206_207_bozhiyata_lyubov_me_osari_pesen_na_angelite.ly \
     ../210_Gospodi_kolko_te_obicham.ly \
     ../211_kazhi_mi_svetlii_bozhi_lach.ly \
     ../212_moeto_slanze_dnes_ste_izgree.ly \

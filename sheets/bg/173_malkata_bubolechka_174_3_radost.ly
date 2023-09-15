@@ -6,7 +6,7 @@
 
 \bookpart {
   \label #'ref173
-  \tocItem \markup "Малката буболечица – Malkata bubolečica"
+  \tocItem \markup "Малката буболечица"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -110,11 +110,47 @@
 
   } % score
 
+  \label #'ref174_3
+  \tocItem \markup "Радост – Radost"
+  \include "include/bookpart-paper.ily"
+  \score {
+    \include "include/score-layout.ily"
 
+    \new Voice \absolute {
+      \clef treble
+      \key e \minor
+      \time 2/4
+      \tempoFunc "Andante" 4 "60"
+      \autoBeamOff
+      b'4 e'4 | % 2
+      b'4 e'4 | % 3
+      a'4. ( b'8 ) | % 4
+      g'4  e'8. fis'16 | % 5
+      g'8 ( [fis'8] ) e'8 ( [dis'8] ) | % 6
+      e'2 | % 7
+      c''4  b'8. ais'16 \break | % 8
+      b'4. e'8 | % 9
+      a'4  g'8. [( fis'16 )] |
+      e'2 | % 11
+      c''4  b'8. ais'16 | % 12
+      b'4. e'8 | % 13
+      fis'8 ([ a'8 ]) g'8 ( [fis'8] ) | % 14
+      e'2 \bar "|."
+    }
 
-  \markup \empty-two
+    \addlyrics {
+      Ра -- дост,
+      Ра -- дост, Ра -- дост на Жи -- во -- та __ ми, ти
+      ве -- се -- лиш сър -- це -- то __ ми, ти ве -- се
+      -- лиш сър -- це -- то __ ми.}
 
-  % include foreign translation(s) of the song
+        \header {
+          title = \titleFunc "Радост" "Radost"
+        }
+
+        \midi{}
+
+      } % score
   
 
 } % bookpart

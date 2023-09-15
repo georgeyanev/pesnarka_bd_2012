@@ -4,27 +4,27 @@
 \include "include/globals.ily"
 
 \bookpart {
-   \label #'ref200
-  \tocItem \markup "Вътрешният глас на Бога – Vătrešnijat glas na Boga "
+  \label #'ref200
+  \tocItem \markup "Вътрешният глас на Бога"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
 
     \new Voice \relative c' {
-     \clef treble
+      \clef treble
       \key g \minor
       \time 3/4
       \tempoFunc "Larghetto" 4 "60"
       \autoBeamOff
-       
+
       \partial 4
-       d4^\p | % 2
+      d4^\p | % 2
       d'2 c4 | % 3
       bes2 a4 | % 4
       g4 \times 2/3 {
         fis8 ( [g8] ) a8
       }
-       g4^\> ~ | % 5
+      g4^\> ~ | % 5
       g2 \! bes4 \break | % 6
       a2^\p g4 | % 7
       fis2 es4 | % 8
@@ -52,32 +52,26 @@
       g2 )\bar "|."
     }
 
-\addlyrics {
+    \addlyrics {
       Ве -- ну Ба
       -- хар са -- ли му -- се -- нет. __ Ту -- си Ба --
       хар. Ве -- ну се -- нет. Ту -- си Ба -- хар, Ве
       -- ну Ба -- хар Са -- ли му -- се -- нет. Ве --
       ну ил -- би -- ют. Би -- ют, Би -- ют, Би -- ют. __}
 
-    \header {
-      title = \titleFunc "Вътрешният глас на Бога – медитация " "Vătrešnijat glas na Boga – meditacija"       
-      
-    }
+      \header {
+        title = \titleFunc "Вътрешният глас на Бога – медитация " "Vătrešnijat glas na Boga – meditacija"
 
-    
+      }
 
-   
+      \midi{}
 
-    \midi{}
+    } % score
 
-  } % score
+    \markup \dc-one "D.C."
 
-  \markup \dc-one "D.C."
 
-  % include foreign translation(s) of the song
-  
+  } % bookpart
 
-} % bookpart
-
-% Più mosso
-%
+  % Più mosso
+  %

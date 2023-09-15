@@ -5,8 +5,39 @@
 
 \bookpart {
   \label #'ref190
-  \tocItem \markup "Гласът на Живия Господ – Glasăt na Živija Gospod"
-  \include "include/bookpart-paper.ily"
+  \tocItem \markup "Гласът на Живия Господ"
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 8)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -15,38 +46,38 @@
       \key g \minor
       \time 3/4
       \tempoFunc "Maestoso" 4 "66"
-     
+
       \partial 8
       d'8 | % 2
       a'4. g'8 \once \omit TupletBracket \tuplet 3/2 {
-        g'8 ( [ fis'8 ])  g'8 
+        g'8 ( [ fis'8 ])  g'8
       }
       | % 3
       a'4 c'4 r8 c'8 | % 4
-      es'2 \autoBeamOff d'8 c'8 \break | % 5
-      bes4 a4 r8 d'8 \bar "||" | % 6
+      es'2 \autoBeamOff d'8 c'8  | % 5
+      bes4 a4 r8 d'8 \bar "||" \break | % 6
       \time 5/4  | % 6
       \tempoFunc "Moderato" 4 "76"
       es'2 d'4 r4 d'8 d'8 | % 7
       \time 3/4  | % 7
       bes'4 ( a'4 ) g'4 | % 8
-      g'4 fis'4 g'4 \break | % 9
+      g'4 fis'4 g'4 | % 9
       a'4 a'4 a'4 |
-      a'2 g'4  | % 11
+      a'2 g'4 \break  | % 11
       g'4 r4 r8 d'8 | % 12
       \time 3/4  | % 12
       d''2 g'4 | \time 2/4 r2 |  % 13
-     \time 4/4 g'8 ( [ a'8 ) ]  bes'8 ( [  c''8 )
-      ]  d''4 g'4 | \break % 14
+      \time 4/4 g'8 ( [ a'8 ) ]  bes'8 ( [  c''8 )
+      ]  d''4 g'4 |  % 14
       es''2  d''4  c''4 | % 15
       \time 3/4  | % 15
-      bes'4 a'4 g'4 | % 16
+      bes'4 a'4 g'4 \break | % 16
       \time 4/4  | % 16
       fis'4 g'4 a'2 | % 17
       \time 3/4  | % 17
-      g'2 r4 | \break % 18
+      g'2 r4 | % 18
       \time 4/4  | % 18
-      g'2 d'4 r4 \bar "||" 
+      g'2 d'4 r4 \bar "||"
       \autoBeamOff
       \tempo "Lento"
       \times 2/3  {
@@ -62,7 +93,7 @@
       bes'8  bes'8 a'8 g'8
       d''4  c''8  bes'8  % 21
       a'4 g'8 d'8 | es'4 es'8. d'16 a'4 a'4 r2 \break \bar "||" | % 23
-     
+
       \key f \major
       c''8 a'8 a'4 a'4  g'8 f'8 a'8 a'8 a'4 | % 25
       a'4 a'4 g'8 f'8 g'8 g'8 g'4 r8 g'8 | \break  % 27
@@ -70,12 +101,12 @@
       \autoBeamOff
       a'8  bes'8  c''8  d''4
       d''8 f''8  d''8  c''8 | d''4.
-      d''4  d''8 
+      d''4  d''8
       d''8  c''8  bes'8 | \break
-       d''4.
-      d''4. g'8 a'8  bes'8 | 
+      d''4.
+      d''4. g'8 a'8  bes'8 |
       \time 6/8
-       c''4  d''8 e''8  d''8  c''8 |  d''4. (d''4) r8 | \bar "||" \break
+      c''4  d''8 e''8  d''8  c''8 |  d''4. (d''4) r8 | \bar "||" \break
       \key a \minor
       \autoBeamOff a'8 a'8 a'8 c''8 a'8 g'8 | a'4. a'4. |
       f''4.  e''4 a'8  | \break
@@ -83,20 +114,20 @@
       a'8 a'8  b'4  c''8 ( [
       b'8 ) ] a'8 ( [ gis'8 ) ] | % 36
       a'2 r4 r8 e'8 \bar "||"
-     | % 37
+      | % 37
       | % 37
       \tempoFunc "Moderato" 4 "72"
       e''2 a'4 r4 |  \break  % 38
 
       \autoBeamOn
-    
-      \time 5/4 a'8 (  [ b'8] )   c''8 (  [ d''8] )  e''4 a'4  a'4 | 
-      \time 3/4 
+
+      \time 5/4 a'8 (  [ b'8] )   c''8 (  [ d''8] )  e''4 a'4  a'4 |
+      \time 3/4
       f''2  \autoBeamOff e''8  d''8 |
       \time 4/4
       \tweak direction #up \once \omit TupletBracket \times 2/3 {
         \once \override Slur.positions = #'(1 . 1)
-        \tempo "         rit." c''8   ( [  b'8 ) ]  a'8 
+        \tempo "         rit." c''8   ( [  b'8 ) ]  a'8
       }
       \once \omit TupletBracket \times 2/3 {
         gis'8 ( [  a'8
@@ -115,7 +146,7 @@
       на -- ли. Ста -- не -- те, въз --
       "крес-" -- не -- те ви -- е, ко -- и
       -- то сте о -- жи -- ве -- ли. Чуй --
-      те, Гос -- под се -- га ви го --
+      те, "Гос-" -- под "се-" -- га ви "го-" --
       во -- ри: „Мо -- я -- та ръ -- ка
       не се е съ -- кра -- ти -- ла да
       да -- вам. "Пъ-" -- лен съм със и --
@@ -130,18 +161,15 @@
       кръс -- не -- те за но -- ви -- я
       път на "Лю-" -- "бов-" -- та.“}
 
-        \header {
-          title = \titleFunc "Гласът на Живия Господ – Новото Възкресение" " Glasăt na Živija Gospod – Novoto Văzkresenie"
-        }
+      \header {
+        title = \titleFunc "Гласът на Живия Господ – Новото Възкресение" " Glasăt na Živija Gospod – Novoto Văzkresenie"
+      }
 
-        \midi{}
+      \midi{}
 
-      } % score
+    } % score
 
-      \markup \empty-one
-      % include foreign translation(s) of the song
-      
-    } % bookpart
+  } % bookpart
 
-    % Più mosso
-    %
+  % Più mosso
+  %

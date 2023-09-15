@@ -3,7 +3,7 @@
 \include "include/globals.ily"
 \bookpart {
   \label #'ref163
-  \tocItem \markup "Берхан Ази – Berhan Azi"
+  \tocItem \markup "Берхан Ази"
   \paper {
     % the system system spacing is custom here so do not include bookpart-paper.ily
     print-all-headers = ##t

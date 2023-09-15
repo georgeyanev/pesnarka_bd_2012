@@ -16,7 +16,7 @@
     \override #'(baseline-skip . 3.6) % vertical distance
     \override #'(line-width . 42)
     \table #'(1 -1) {
-      \line {" "} 
+      \line {" "}
       \line {"                "}
 
       \line \bold {a tempo} \override #`(baseline-skip . ,blineskip221)
@@ -41,7 +41,7 @@
       \justify {\italic"[Алегро виваче]" по-бързо от \italic"Allegro"; вж. \italic"Vivace"}
 
       \line \bold { Ancora più mosso} \override #`(baseline-skip . ,blineskip221)
-       \justify { определение...}
+      \justify { определение...}
 
       \line \bold {Andante} \override #`(baseline-skip . ,blineskip221)
       \justify {спокойно, букв. „ходом“; малко по-бавно от \italic"Moderato"}

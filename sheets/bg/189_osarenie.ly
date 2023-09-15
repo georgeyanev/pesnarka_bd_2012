@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref189
-  \tocItem \markup "Мелодия – Озарение – Melodija – Ozarenie"
+  \tocItem \markup "Мелодия – Озарение"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -49,39 +49,33 @@
       си свя -- та Лю -- бов -- та без --
       спир.}
 
-        \header {
-          title = \titleFunc "Мелодия – Озарение" "Melodija – Ozarenie"
-        }
+      \header {
+        title = \titleFunc "Мелодия – Озарение" "Melodija – Ozarenie"
+      }
 
-        \midi{}
+      \midi{}
 
-      } % score
+    } % score
 
-      \markup \fontsize #bgCoupletFontSize {
-        \hspace #3
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
+    \markup \fontsize #bgCoupletFontSize {
+      \hspace #18
+      \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+      \column {
 
-          \line {   2.  Благ живот струи }
-          \line {   "   " в топли слънчеви лъчи }
-          \line {   "   " и душите славят в Светлина }
-          \line {   "   " благия Отец на Любовта. (2) }
-          \line {   "   " }
-          \line {   3. Всичко е Любов, }
-          \line {   "   " радост, сила и живот. }
-          \line {   "   " Свята Божия виделина }
-          \line {   "   " озарява тази красота. (2)}
-        }
+        \line {   2.  Благ живот струи }
+        \line {   "   " в топли слънчеви лъчи }
+        \line {   "   " и душите славят в Светлина }
+        \line {   "   " благия Отец на Любовта. (2) }
+        \line {   "   " }
+        \line {   3. Всичко е Любов, }
+        \line {   "   " радост, сила и живот. }
+        \line {   "   " Свята Божия виделина }
+        \line {   "   " озарява тази красота. (2)}
+      }
 
-      } % markup
+    } % markup
 
-    
+  } % bookpart
 
-    \markup \empty-two
-      % include foreign translation(s) of the song
-      
-
-    } % bookpart
-
-    % Più mosso
-    %
+  % Più mosso
+  %

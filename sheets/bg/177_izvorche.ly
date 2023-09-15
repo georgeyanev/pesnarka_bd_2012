@@ -29,7 +29,7 @@
       g'4 | % 6
       fis'8  e'8  dis'8  e'8  fis'4
       b4 \break | % 7
-      \bar ".|:-||" 
+      \bar ".|:-||"
       e'8  fis'8  g'8  a'8 b'8
       b'8 c''8 d''8 | % 8
       b'4. b'8 e''8 e''8
@@ -67,19 +67,16 @@
       ща и на ра -- бо -- та се хва --
       ща.“ __}
 
-        \header {
-          title = \titleFunc "Изворче" "Izvorče"
-        }
+      \header {
+        title = \titleFunc "Изворче" "Izvorče"
+      }
 
-        \midi{}
-      } % score
+      \midi{}
+    } % score
 
-      \markup \dc-two "D.C.""senza ripetizione"
-      \pageBreak
+    \markup \dc-two "D.C.""senza ripetizione"
 
-      % include foreign translation(s) of the song
-      
 
-    } % bookpart
+  } % bookpart
 
 
