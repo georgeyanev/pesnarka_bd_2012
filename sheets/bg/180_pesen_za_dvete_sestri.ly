@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref180
-  \tocItem \markup "Песен за двете сестри – Pesen za dvete sestri"
+  \tocItem \markup "Песен за двете сестри"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -108,21 +108,14 @@
       та сес -- тра Ра -- дост.
     }
 
-      \header {
-        title = \titleFunc "Песен за двете сестри" "Pesen za dvete sestri"
-      }
+    \header {
+      title = \titleFunc "Песен за двете сестри" "Pesen za dvete sestri"
+    }
 
-      \midi{}
+    \midi{}
 
-    } % score
-
-
-
-    % include foreign translation(s) of the song
-    
+  }
 
 
-  } % bookpart
 
-  % Più mosso
-  %
+}

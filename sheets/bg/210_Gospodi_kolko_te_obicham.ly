@@ -5,8 +5,39 @@
 
 \bookpart {
   \label #'ref210
-  \tocItem \markup "Господи, колко те обичам – Gospodi, kolko te običam "
-  \include "include/bookpart-paper.ily"
+  \tocItem \markup "Господи, колко те обичам"
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 11)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -76,7 +107,7 @@
       b4. \bar "||"
       \time 3/4  | % 35
       \tempoFunc "Moderato" 4 "80"
-      b4 ^\mf 
+      b4 ^\mf
       d'4 g'4 | % 36
       b'2 (  c''16 [  b'16  a'16
       b'16 ] | % 37
@@ -94,7 +125,7 @@
       e'2 fis'4 ^\! | % 48
       \override Hairpin.to-barline = ##f
       g'2 ^\> d'4 ^\mp ^\!
-      
+
       ^\<  | % 49
       b'2 ^\! a'4 ^\> \break |
       g'2 d'4 ^\! ^\pp  ^\< | % 51
@@ -122,20 +153,16 @@
       Гос -- по -- ди, ко -- е -- то Си __ съз -- дал. О
       -- би -- чам Те, о -- би -- чам Те, о -- би --
       чам Те, Гос -- по -- ди!}
-   
-        \header {
-          title = \titleFunc "Господи, колко те обичам" "Gospodi, kolko te običam"
-        }
 
-        \midi{}
+      \header {
+        title = \titleFunc "Господи, колко те обичам" "Gospodi, kolko te običam"
+      }
 
-      } % score
+      \midi{}
 
-      \markup \empty-one
+    } % score
 
-      % include foreign translation(s) of the song
-      
-    } % bookpart
+  } % bookpart
 
-    % Più mosso
-    %
+  % Più mosso
+  %

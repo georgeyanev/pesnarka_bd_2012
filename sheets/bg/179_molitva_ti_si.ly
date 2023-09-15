@@ -5,8 +5,39 @@
 
 \bookpart {
   \label #'ref179
-  \tocItem \markup "Молитва (Господи, Ти Си) – Molitva (Gospodi, Ti Si) "
-  \include "include/bookpart-paper.ily"
+  \tocItem \markup "Молитва (Господи, Ти Си) "
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 9.5)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -28,7 +59,7 @@
       f'4  es'2 | % 9
       \time 2/4  | % 9
 
-     des'16^\markup { \italic {sostenuto} }  
+      des'16^\markup { \italic {sostenuto} }
       c'16
       ([des'16])  es'16
       f'8  as'8 |
@@ -45,7 +76,7 @@
         as'8
       }
       bes'8.  as'16  ges'8  f'8 \break | % 14
-       f'8 ( [  es'8 ) ]  es'2
+      f'8 ( [  es'8 ) ]  es'2
       | % 15
 
       \times 2/3  {
@@ -53,7 +84,7 @@
       }
       f'4.  es'8 | % 16
       \time 2/4  | % 16
-      des'8  c'8 
+      des'8  c'8
       des'8  c'8 \break | % 17
       es'4  des'4 | % 18
       c'4.  a8 | % 19
@@ -77,8 +108,8 @@
       f'4  es'2 | % 9
       \time 2/4  | % 9
 
-      des'16^\markup { \italic {sostenuto} } 
-      c'16  
+      des'16^\markup { \italic {sostenuto} }
+      c'16
       des'16  es'16
       f'8  as'8 |
       f'4 ^\markup{ \italic {a tempo} }  es'4 \break | % 11
@@ -94,7 +125,7 @@
         as'8
       }
       bes'8.  as'16  ges'8  f'8 \break | % 14
-        f'8 es'8 es'2
+      f'8 es'8 es'2
       | % 15
 
       \times 2/3  {
@@ -102,7 +133,7 @@
       }
       f'4.  es'8 | % 16
       \time 2/4  | % 16
-       des'8 (  c'8 )
+      des'8 (  c'8 )
       des'8  c'8 \break | % 17
       es'4 ( des'4 )| % 18
       c'4.   a8  | % 19
@@ -114,7 +145,7 @@
     }
 
     \addlyrics {
-      "1. Гос" -- по -- ди, Ти си всич -- ко
+      "1. Гос-" -- по -- ди, Ти си всич -- ко
       за "ме-" -- не на Зе -- мя -- та. Тук
       до -- лу– тол -- коз скър --
       би, тъй "всич-" -- ко пус -- то е
@@ -142,10 +173,6 @@
 
   } % score
 
-
-
-  % include foreign translation(s) of the song
-  
 } % bookpart
 
 % Più mosso

@@ -5,8 +5,8 @@
 
 \bookpart {
   \label #'ref150
-  \tocItem \markup "Българска идилия –  Bălgarska idilija"
-  \include "include/bookpart-paper.ily"
+  \tocItem \markup "Българска идилия"
+ \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
 
@@ -239,10 +239,6 @@
 
     \midi{}
 
-  } % score
-
-
-  % include foreign translation(s) of the song
-  %
+  } 
 
 } % bookpart

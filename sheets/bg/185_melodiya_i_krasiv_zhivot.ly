@@ -5,8 +5,39 @@
 
 \bookpart {
   \label #'ref185
-  \tocItem \markup "Мелодия – Красив Живот – Melodija – Krasiv Život"
-  \include "include/bookpart-paper.ily"
+  \tocItem \markup "Мелодия – Красив Живот"
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 10)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -41,7 +72,7 @@
       bes'4  bes'4  bes'4  bes'4 | % 13
       \time 6/4  | % 13
       ces''8  bes'8  a'8  bes'8
-      ces''2  bes'2 | \break % 14 
+      ces''2  bes'2 | \break % 14
       es''2 d''4  ces''8.  bes'16
       bes'2 | % 15
       as'4  ges'4  f'4  es'8  f'8
@@ -94,20 +125,15 @@
       гъщ ле -- ти "в~слън-" -- че -- ва ро
       -- ди  -- на.}
 
-        \header {
-          title = \titleFunc "Мелодия – Красив Живот" "Melodija – Krasiv Život"
-        }
+      \header {
+        title = \titleFunc "Мелодия – Красив Живот" "Melodija – Krasiv Život"
+      }
 
-        \midi{}
+      \midi{}
 
-      } % score
+    } % score
 
+  } % bookpart
 
-      \markup \empty-one
-      % include foreign translation(s) of the song
-      
-
-    } % bookpart
-
-    % Più mosso
-    %
+  % Più mosso
+  %

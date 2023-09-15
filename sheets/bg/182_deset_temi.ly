@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref182
-  \tocItem \markup "Десет теми – Deset temi"
+  \tocItem \markup "Десет теми"
   \paper {
     print-all-headers = ##t
     print-page-number = ##t
@@ -73,7 +73,7 @@
       g'2
       \bar ".|:-|"
       \break
-     
+
       | % 6
       d'16 [  d'16  d'8 ]  d'16 [
       d'16  d'8 ] | % 7
@@ -96,7 +96,7 @@
 
   } % score
 
-  \markup \empty-three
+  \markup \empty-two
 
   \score {
     %2
@@ -135,7 +135,7 @@
 
   } % score
 
-  \markup \empty-three
+  \markup \empty-two
 
   \score {
     %3
@@ -166,7 +166,7 @@
 
   } % score
 
-  \markup \empty-three
+  \markup \empty-two
 
   \score {
     %4
@@ -219,7 +219,7 @@
 
   } % score
 
-  \markup \empty-three
+  \markup \empty-two
 
   \score {
     %5
@@ -252,7 +252,7 @@
 
   } % score
 
-  \markup \empty-three
+
 
   \score {
     %6
@@ -279,7 +279,7 @@
 
   } % score
 
-  \markup \empty-three
+  \markup \empty-two
 
   \score {
     %7
@@ -306,7 +306,7 @@
 
   } % score
 
-  \markup \empty-three
+  \markup \empty-two
 
   \score {
     %8
@@ -351,7 +351,7 @@
     \midi{}
   } % score
 
-  \markup \empty-three
+  \markup \empty-two
 
   \score {
     %9
@@ -389,7 +389,7 @@
     \midi{}
   } % score
 
-  \markup \empty-three
+  \markup \empty-two
 
   \score {
     %10
@@ -464,8 +464,6 @@
   } % score
 
 
-  \markup \empty-three
-  
 } % bookpart
 
 % Più mosso

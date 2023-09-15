@@ -6,7 +6,38 @@
 \bookpart {
   \label #'ref154
   \tocItem \markup "Не ли думах – Ne li dumah"
-  \include "include/bookpart-paper.ily"
+   \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 9)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -58,18 +89,18 @@
       що до -- бро да на -- у -- чи.
     }
 
-      \header {
-        title = \titleFunc "Не ли думах" "Ne li dumah"
-      }
+    \header {
+      title = \titleFunc "Не ли думах" "Ne li dumah"
+    }
 
-      \midi{}
+    \midi{}
 
-    } % score
+  } % score
 
-    \pageBreak
-
-   \markup \fontsize #+1.6 {
+ \markup \fontsize #+2.5 {
+   \hspace #12
     \override #'(baseline-skip . 1.8)
+      
       \column {
 
         \line {   "   " 2. Да не ходи вечер, мамо, на чешмата,}
@@ -89,10 +120,9 @@
         \line {   "        " но сърце си трябва да научи, мамо,}
 
         \line {   "        " момците да не посмива.}
+          \line {   "   "}
 
-        \line {   "        " }
-
-        \line {   "   " 3. Сутрин рано на чешмата да отива,}
+          \line {   "   " 3. Сутрин рано на чешмата да отива,}
 
         \line {   "        " в бели менци, мамо, вода да налива}
 
@@ -110,15 +140,7 @@
 
         \line {   "        " като тая душа блага.}
       }
-
     } % markup
 
-   \markup \empty-two
-   
-   
-   
 
-    % include foreign translation(s) of the song
-    
-
-  } % bookpart
+} % bookpart

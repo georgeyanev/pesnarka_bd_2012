@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref156
-  \tocItem \markup "Мирът иде – Mirăt ide"
+  \tocItem \markup "Мирът иде"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -155,11 +155,5 @@
     \midi{}
 
   } % score
-  %\markup \dc-two "D.C." "con repitione"
-
-  %\pageBreak
-
-  % include foreign translation(s) of the song
-  %
 
 } % bookpart

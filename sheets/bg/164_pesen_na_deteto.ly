@@ -4,7 +4,7 @@
 \include "include/globals.ily"
 \bookpart {
   \label #'ref164
-  \tocItem \markup "Песен на детето – Pesen na deteto"
+  \tocItem \markup "Песен на детето"
   \paper {
     % the system system spacing is custom here so do not include bookpart-paper.ily
     print-all-headers = ##t
@@ -69,7 +69,7 @@
       e''2 | % 12
       e'8 a'4 ( g'8 ) | % 13
       a'16 ( g'16 f'16 e'16 ) e'4 \break | % 14
-      \time 3/4   \bar ".|:-||" 
+      \time 3/4   \bar ".|:-||"
       a8 b8 c'4. ( b8 ) | % 15
       d'8 ( [c'8] ) b8 [a8] a4 \fermata
       \bar ":|."
@@ -161,11 +161,5 @@
     \midi{}
 
   } % score
-  %\markup \dc-two "D.C." "con repitione"
-
-  \pageBreak
-
-  % include foreign translation(s) of the song
-  %
 
 } % bookpart

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref181
-  \tocItem \markup "Пролетна песен – Proletna pesen"
+  \tocItem \markup "Пролетна песен"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -78,22 +78,17 @@
       -- га. Про -- лет, про -- лет е до --
       шла.}
 
-        \header {
-          title = \titleFunc "Пролетна песен" "Proletna pesen"
-        }
+      \header {
+        title = \titleFunc "Пролетна песен" "Proletna pesen"
+      }
 
-        \midi{}
+      \midi{}
 
-      } % score
+    } % score
 
-      \markup \dc-two "D.C.""con ripetizione"
+    \markup \dc-two "D.C.""con ripetizione"
 
+  } % bookpart
 
-      \pageBreak
-      % include foreign translation(s) of the song
-      
-
-    } % bookpart
-
-    % Più mosso
-    %
+  % Più mosso
+  %

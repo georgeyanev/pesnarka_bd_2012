@@ -4,7 +4,7 @@
 
 \bookpart {
   \label #'ref146
-  \tocItem \markup "Българска рапсодия – Bălgarska rapsodija"
+  \tocItem \markup "Българска рапсодия"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -276,9 +276,6 @@
     \midi{}
 
   } % score
-
-  \pageBreak
-  % include foreign translation(s) of the song
   
 
 } % bookpart
