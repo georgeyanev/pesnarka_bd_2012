@@ -51,7 +51,7 @@
 
 
   \label #'ref095_2
-  \tocItem \markup "Добър ден – Dobăr den"
+  \tocItem \markup "Добър ден"
 
 
   \paper {

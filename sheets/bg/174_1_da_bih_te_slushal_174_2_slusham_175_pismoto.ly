@@ -130,7 +130,7 @@
       \markup \dc-one "D.C."
 
       \label #'ref175
-      \tocItem \markup "Писмото – Pismoto "
+      \tocItem \markup "Писмото"
 
       \score {
         \include "include/score-layout.ily"

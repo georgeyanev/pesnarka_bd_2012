@@ -111,7 +111,7 @@
   } % score
 
   \label #'ref174_3
-  \tocItem \markup "Радост – Radost"
+  \tocItem \markup "Радост"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

@@ -113,7 +113,7 @@
     } % score
 
     \markup \fontsize #bgCoupletFontSize {
-      \hspace #20
+      \hspace #22
       \override #`(baseline-skip . ,bgCoupletBaselineSkip)
       \column {
         \line {  2. Слънчевото ято}
