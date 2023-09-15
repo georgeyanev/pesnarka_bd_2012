@@ -78,7 +78,7 @@
       a'2  fis'4 | % 88
       a'2  g'4 | % 89
       fis'2  e'4 |
-      d'2  a4 \bar "|."
+      d'2  a4 |
     }
 
     \addlyrics {
