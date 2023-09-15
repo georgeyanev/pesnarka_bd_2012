@@ -11,7 +11,7 @@
 
   \markup \fontsize  #+4.0 { \fill-line \bold {"РЕЧНИК НА МУЗИКАЛНИТЕ ТЕРМИНИ"} }
 
-  \markuplist \fontsize  #+2 {
+  \markuplist \fontsize  #+1.9 {
     \override #'(padding . 2) % horizontal distance
     \override #'(baseline-skip . 3.6) % vertical distance
     \override #'(line-width . 42)
@@ -41,7 +41,7 @@
       \justify {\italic"[Алегро виваче]" по-бързо от \italic"Allegro"; вж. \italic"Vivace"}
 
       \line \bold { Ancora più mosso} \override #`(baseline-skip . ,blineskip221)
-      \justify { определение...}
+      \justify { още малко по-бързо}
 
       \line \bold {Andante} \override #`(baseline-skip . ,blineskip221)
       \justify {спокойно, букв. „ходом“; малко по-бавно от \italic"Moderato"}
