@@ -687,7 +687,6 @@
               }
             }
 
-            \pageBreak
 
             \label #'ref199
             \tocItem \markup "     Седми божествен ден"

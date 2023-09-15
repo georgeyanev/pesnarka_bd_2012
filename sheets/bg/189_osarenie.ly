@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref189
-  \tocItem \markup "Мелодия – Озарение"
+  \tocItem \markup "Мелодия 4 – Озарение"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -50,7 +50,7 @@
       спир.}
 
       \header {
-        title = \titleFunc "Мелодия – Озарение" "Melodija – Ozarenie"
+        title = \titleFunc "Мелодия 4 – Озарение" "Melodija – Ozarenie"
       }
 
       \midi{}

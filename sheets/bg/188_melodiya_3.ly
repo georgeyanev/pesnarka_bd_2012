@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref188
-  \tocItem \markup "Мелодия – Когато се денят пробужда"
+  \tocItem \markup "Мелодия 3 – Когато се денят пробужда"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -42,7 +42,7 @@
       по -- ли -- тат на -- ши -- те ду -- ши.}
 
       \header {
-        title = \titleFunc "Мелодия – Когато се денят пробужда " "Melodija – Kogato se denjat probužda"
+        title = \titleFunc "Мелодия 3 – Когато се денят пробужда " "Melodija – Kogato se denjat probužda"
       }
 
       \midi{}

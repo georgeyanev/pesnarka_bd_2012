@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref185
-  \tocItem \markup "Мелодия – Красив Живот"
+  \tocItem \markup "Мелодия 1 – Красив Живот"
   \paper {
     print-all-headers = ##t
     print-page-number = ##t
@@ -126,7 +126,7 @@
       -- ди  -- на.}
 
       \header {
-        title = \titleFunc "Мелодия – Красив Живот" "Melodija – Krasiv Život"
+        title = \titleFunc "Мелодия 1 – Красив Живот" "Melodija 1 – Krasiv Život"
       }
 
       \midi{}
