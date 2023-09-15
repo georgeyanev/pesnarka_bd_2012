@@ -90,7 +90,7 @@
     \markup \empty-one
 
     \label #'ref174_2
-    \tocItem \markup "Слушам – Slušam"
+    \tocItem \markup "Слушам"
 
     \score {
       \include "include/score-layout.ily"

@@ -132,7 +132,7 @@ cat \
     ../164_pesen_na_deteto.ly \
     ../172_igrata_na_potocheto.ly \
     ../174_3_radost_175_2_mehein.ly \
-    ../174_1_da_bih_te_slushal_174_2_slusham_175_pismoto.ly \
+    ../174_1_da_bih_te_slusham_174_2_slusham_175_pismoto.ly \
     ../175_mehein.ly \
     ../176_zhitno_zarno.ly \
     ../177_izvorche.ly  \
