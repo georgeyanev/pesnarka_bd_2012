@@ -5,7 +5,38 @@
 \bookpart {
   \label #'ref146
   \tocItem \markup "Българска рапсодия"
-  \include "include/bookpart-paper.ily"
+   \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 11)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -40,7 +71,7 @@
 
       g,8 a16 \stemUp b \stemNeutral c8 d16 | \noBreak
       e8 e e8. ~ | \noBreak
-      e4 ~ e8. | \break
+      e4 ~ e8. | \noBreak
       d8 e16 d16 c8 b16 | \noBreak
       d8 d d8. ~ | \noBreak
 
@@ -53,7 +84,7 @@
       g8 a16 \stemUp b \stemNeutral c8 d16 | \noBreak
       e8 d c8([b16]) | \noBreak
 
-      d8 c b8. | \break
+      d8 c b8. | \noBreak
       c8 b a g16 | \noBreak
       a4 a8. ~| \noBreak
       a4 ~ a8. | \bar "||" \break
@@ -75,10 +106,10 @@
       e8\accent e e d16 | \noBreak
       g8\accent f e d16 | \noBreak
 
-      e8\accent d c b16 | \break
-      c8\accent d e d16 | \noBreak
       e8\accent d c b16 | \noBreak
-      a8^\accent \stemUp b \stemNeutral c d16 | \break
+      c8\accent d e d16 | \break
+      e8\accent d c b16 | \noBreak
+      a8^\accent \stemUp b \stemNeutral c d16 | \noBreak
 
       e8\accent d c b16 | \noBreak
       c8\accent d \stemUp b \stemNeutral g16 | \noBreak
@@ -108,8 +139,7 @@
       e'8\tenuto f\tenuto g\tenuto  g4 a4 |  \noBreak
 
       \acciaccatura {f16[g]}  f8 e g  f4\tenuto e4\tenuto | \noBreak
-      a4. d,2 | \break
-      g4 f e d8 | c b c4 d4. | e4 ~ e4 ~ e4. | \break
+      a4. d,2 | g4 f e d8 |   c b c4 d4. | \break e4 ~ e4 ~ e4. | \noBreak
 
       \tempo "rit." a,4 b c4. | \time 9/8 b4 d c b4. | \noBreak
       \time 7/8
@@ -123,9 +153,9 @@
       \acciaccatura { f16[g] } f8[e g] f4 e | \noBreak
 
       a4. d,4 ~ d4 | \noBreak
-      g4 f e d8 | \break
+      g4 f e d8 | \noBreak
 
-      c [b\tenuto] c4\tenuto d4.\tenuto| e4 e4 ~ e4. | \noBreak
+      c [b\tenuto] c4\tenuto d4.\tenuto| \break e4 e4 ~ e4. | 
       a,4 b c4. | \time 9/8 b4 d c b4. | \noBreak
       \time 7/8 a4.~ ( a4 ~ a4) | a'4. ~ a4 ~ a4 \fermata \breathe | \bar "|" \time 2/4 \break    \bar ".|:-||"
 
@@ -169,10 +199,10 @@
 
       d8\tenuto([e\tenuto]) \acciaccatura { d16\tenuto([e\tenuto] } d8\tenuto)[c\tenuto] b\tenuto [g\tenuto] | \noBreak
       a2 a4 \fermata \bar "||" \noBreak
-      \acciaccatura { dis8 } e2 d16\tenuto c\tenuto b\tenuto c\tenuto \breathe | \break
-      \acciaccatura { dis8 } e2 d16\tenuto c\tenuto b\tenuto c\tenuto  \breathe | \noBreak
+      \acciaccatura { dis8 } e2 d16\tenuto c\tenuto b\tenuto c\tenuto \breathe | \noBreak
+      \acciaccatura { dis8 } e2 d16\tenuto c\tenuto b\tenuto c\tenuto  \breathe | \break
 
-      \acciaccatura { dis8 } e2 d16 c b g | \break
+      \acciaccatura { dis8 } e2 d16 c b g | \noBreak
       a4. b8 c4 | \noBreak
       d8 e d c b\tenuto g\tenuto | \noBreak
       a2 a4 \fermata | \noBreak \bar "||" \time 2/4 \break
@@ -195,11 +225,11 @@
       e[f e d] c[d b g] | \noBreak
       \tempo "  rit." a4\>  a8 a \!  \fermata | \bar "||" \noBreak
       \tempoFunc "Allegretto" 4 "120" d^\accent e e e | \noBreak
-      e4 e | \break
-      d8^\accent c c c | \noBreak
+      e4 e | \noBreak
+      d8^\accent c c c | \break
 
       c4 c | \noBreak
-      d8^\accent e e e | \break
+      d8^\accent e e e | \noBreak
       e4 e | \noBreak
       d8^\accent c c c | \noBreak
       c4 c | \break \bar ".|:-|"
@@ -217,8 +247,8 @@
       \tempoFunc "A tempo" 8 "180" g8\f^\accent a16([b]) c8.~ | \noBreak
       c4~ c8. | \noBreak
       \acciaccatura { g8 } d'^\accent e c8. | \noBreak
-      \acciaccatura { g8 } d'^\accent e c8. | \break
-      b8 d a([g16]) | \noBreak
+      \acciaccatura { g8 } d'^\accent e c8. | \noBreak
+      b8 d a([g16]) | \break
       b4 b8. ~ | b4 ~ b8. |\noBreak
       g8 a16([b]) c8. | \noBreak
       b8 d a8. | \noBreak
@@ -240,14 +270,14 @@
       Там го -- ре __ край из -- во -- ра срещ -- нах мо -- ма за --
       смя -- на, __ там го -- ре "срещ-" -- нах Ли -- ля -- на. __ ""
       \repeat unfold 21 { \skip 1 }
-      Из -- во -- рът стру -- и, из -- ви -- ра __ и чис -- ти во -- ди раз -- ли -- ва, __
+      Из -- "во-" -- рът стру -- и, из -- ви -- ра __ и "чис-" -- ти во -- ди раз -- ли -- ва, __
       пла -- "нин-" -- ска пе -- сен раз -- низ -- ва. __
       \repeat unfold 1 { \skip 1 }
-      Mо -- ма -- та мен -- ци на -- ли -- ва, __
-      в~пе -- сен -- та ти -- хо се за -- слуш -- ва. __ ""
+      Mо -- "ма-" -- та мен -- ци на -- ли -- ва, __
+      "в~пе-" -- сен -- та ти -- хо се "за-" -- слуш -- ва. __ ""
       \repeat unfold 31 { \skip 1  }
       Ще о -- ти -- да та -- мо го -- ре, ще о -- ти -- да
-      в~пла -- ни -- на -- та, чис -- ти во -- ди да по -- гле -- дам, ти -- ха пе -- сен
+      "в~пла-" -- ни -- на -- та, чис -- ти во -- ди да по -- гле -- дам, ти -- ха пе -- сен
       да по -- слу -- шам, ще о -- ти -- да та -- мо.
       \repeat unfold 27 { \skip 2 }
       Чис -- ти во -- ди да по -- гле -- дам, ти -- ха пе -- сен да по -- слу -- шам,
@@ -256,14 +286,14 @@
       Ли -- ля -- но, не чу -- я, ах, __ от таз во -- да а -- ко не пи -- я, __
       скръб ще ми пъл -- ни сър -- це -- то. __ ""
       \repeat unfold 97 { \skip 1 }
-      Ли -- ля -- но мо -- ме, ти в~пла -- ни -- на -- та
+      Ли -- "ля-" -- но "мо-" -- ме, ти "в~пла-" -- "ни-" -- "на-" -- та
       там го -- ре ще ме за -- ве -- деш, из -- во -- рът де -- то из -- ви -- ра.
       \repeat unfold 30 { \skip 1 }
-      Го -- ре в~пла -- ни -- на -- та, Слън -- це дей о --
+      Го -- ре "в~пла-" -- ни -- на -- та, "Слън-" -- це дей о --
       гря -- ло сред тре -- ви зе -- ле -- ни, сред цве -- тя за -- сме -- ни.
       Го -- ре в~пла -- ни -- на -- та, Слън -- це дей о -- гря -- ло.
       \repeat unfold 5 { \skip 1 }
-      Там го -- ре __ край из -- во -- ра срещ -- нах мо -- ма зас -- мя -- на, __
+      Там го -- ре __ край из -- во -- ра "срещ-" -- нах мо -- ма зас -- мя -- на, __
       там го -- ре "срещ-" -- нах Ли -- ля -- на. __ ""
       \repeat unfold 13 { \skip 1 }
       Там го -- ре "срещ-" -- нах Ли -- ля -- на. __ ""

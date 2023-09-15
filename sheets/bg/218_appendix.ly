@@ -34,7 +34,9 @@
 
   }
 
-  \markup\fontsize  #+8.5  {\bold {  \hspace #25  \vspace #13.5 ПРИЛОЖЕНИЯ} }
+   \markup { {  \vspace #13.2 } }
+
+ \markup \fontsize  #+7 { \fill-line \bold {"ПРИЛОЖЕНИЯ"} }
 
 } % bookpart
 
