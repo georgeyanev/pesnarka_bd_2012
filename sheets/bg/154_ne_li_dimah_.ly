@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref154
-  \tocItem \markup "Не ли думах – Ne li dumah"
+  \tocItem \markup "Не ли думах"
    \paper {
     print-all-headers = ##t
     print-page-number = ##t

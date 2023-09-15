@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref177
-  \tocItem \markup "Изворче – Izvorče"
+  \tocItem \markup "Изворче"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
