@@ -4,16 +4,25 @@
 \include "include/globals.ily"
 
 \bookpart {
-    
-  \label #'ref191
+   \label #'ref191
   \tocItem \markup "Новото Битие"
   \label #'ref191_1
   \tocItem \markup "     Първи Божествен ден"
   \include "include/bookpart-paper.ily"
   \markup \center-column \normal-text \fontsize #6.5 {
     \center-align
-    \vspace #-1
     \line { "     Новото Битие – Създаването на новия Адам" }
+     \center-align
+   
+    \vspace #-0.1
+    \center-align
+   
+    \vspace #-0.1
+    \center-align
+     \hspace #5.1
+  
+    \center-align
+    \line \fontsize #-3 { " " }
   }
   \score {
     \include "include/score-layout.ily"
