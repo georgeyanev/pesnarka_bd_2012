@@ -51,7 +51,6 @@ cat \
     ../063_dishay_dalboko.ly \
     ../066_1_066_2_taynata_vecherya_tebe_poem.ly \
     ../064_angel_vopiyashe.ly \
-    ../068_shto_e_sashtnostta.ly \
     ../068_shto_e_sashtnostta_067_pesen_na_glasnite_bukvi.ly \
     ../069_pesni_ot_Uchitelya_blank.ly \
     ../069_pesni_ot_Uchitelya.ly \
@@ -74,7 +73,6 @@ cat \
     ../090_svetal_den.ly \
     ../091_neva_senzu.ly \
     ../092_1_2_3_kiamet_zenu_davai_davai_misli_pravo_misli.ly \
-    ../092_2_davai_davai.ly \
     ../094_v_nachaloto_be_slovoto.ly \
     ../095_1_2_vdahnovenie_dobar_den.ly \
     ../096_vesel_ti_badi.ly \
@@ -131,7 +129,6 @@ cat \
     ../173_malkata_bubolechka_174_3_radost.ly \
     ../164_pesen_na_deteto.ly \
     ../172_igrata_na_potocheto.ly \
-    ../174_3_radost_175_2_mehein.ly \
     ../174_1_da_bih_te_slusham_174_2_slusham_175_pismoto.ly \
     ../175_mehein.ly \
     ../176_zhitno_zarno.ly \
