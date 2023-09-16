@@ -3,7 +3,7 @@
 \include "include/globals.ily"
 \bookpart {
   \label #'ref163
-  \tocItem \markup "Берхан Ази – Berhan Azi"
+  \tocItem \markup "Берхан-Ази – Berhan-Azi"
   \paper {
     % the system system spacing is custom here so do not include bookpart-paper.ily
     print-all-headers = ##t
@@ -106,7 +106,7 @@
     }
 
     \header {
-      title = \titleFunc "Берхан Ази" "Berhan Azi"
+      title = \titleFunc "Берхан-Ази" "Berhan-Azi"
     }
     \midi { }
   } % score
