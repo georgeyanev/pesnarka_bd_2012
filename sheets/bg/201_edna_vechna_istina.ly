@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref201
-  \tocItem \markup "Една вечна истина, която е Бог на Любовта"
+  \tocItem \markup "Една вечна Истина, която е Бог на Любовта"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -64,7 +64,7 @@
       ю.}
 
       \header {
-        title = \titleFunc "Една вечна истина, която е Бог на Любовта" "Edna večna istina, kojato e Bog na Ljubovta"
+        title = \titleFunc "Една вечна Истина, която е Бог на Любовта" "Edna večna Istina, kojato e Bog na Ljubovta"
       }
 
       \midi{}

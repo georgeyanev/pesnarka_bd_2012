@@ -94,7 +94,7 @@
       \with-link #'ref079 \fill-with-pattern #1 #RIGHT . "Духът Божий" \page-ref #'ref079 "000" "?"
       \with-link #'ref101_2 \fill-with-pattern #1 #RIGHT . "Духът ми шепне това" \page-ref #'ref101_2 "000" "?"
       \with-link #'ref052 \fill-with-pattern #1 #RIGHT . "Дързост в Христа" \page-ref #'ref052 "000" "?"
-      \with-link #'ref201 \fill-with-pattern #1 #RIGHT . "Една вечна истина" \page-ref #'ref201 "000" "?"
+      \with-link #'ref201 \fill-with-pattern #1 #RIGHT . "Една вечна Истина" \page-ref #'ref201 "000" "?"
       \with-link #'ref130 \fill-with-pattern #1 #RIGHT . "Езикът на живата природа" \page-ref #'ref130 "000" "?"
       \with-link #'ref176 \fill-with-pattern #1 #RIGHT . "Житно зърно" \page-ref #'ref176 "000" "?"
       \with-link #'ref041 \fill-with-pattern #1 #RIGHT . "За Небесния цар" \page-ref #'ref041 "000" "?"
