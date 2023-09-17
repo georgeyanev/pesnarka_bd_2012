@@ -163,4 +163,4 @@ cat \
     ../245_index_bg.ly \
     > tmp.ly
 
-lilypond --include=../ -o danov_songbook tmp.ly
+lilypond --include=../ -o danov_songbook_bg tmp.ly

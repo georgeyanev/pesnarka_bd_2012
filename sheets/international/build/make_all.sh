@@ -189,4 +189,4 @@ cat \
     ../250_translit.ly \
     > tmp.ly
 
-lilypond --include=../ -o danov_songbook tmp.ly
+lilypond --include=../ -o danov_songbook_int tmp.ly

@@ -78,7 +78,7 @@
 
   } % score
 
-  \markup \italic \dc-one-nobold "attacca „В мрак тъмнота“/„V mrak tămnota“"
+  \markup \italic \dc-one-nobold "attacca „В мрак тъмнота“"
 
   \label #'ref080_1
   \tocItem \markup "В мрак тъмнота"
