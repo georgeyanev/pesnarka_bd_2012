@@ -123,6 +123,6 @@
 
   } % score
 
-  \markup \dc-two "D.C.""con ripetizione"
+  \markup \dcr-two "D.C." "con ripetizione" #6
 
 } % bookpart

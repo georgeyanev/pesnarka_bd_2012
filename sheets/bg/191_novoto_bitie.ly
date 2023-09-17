@@ -100,7 +100,7 @@
 
     } % score
 
-    \markup \raise #2.8 \override #'(baseline-skip . 2) {
+    \markup \raise #4.5 \override #'(baseline-skip . 2) {
       \column {
         \fill-line \italic { "" "" \concat {"attaca" "   " }}
       }
@@ -179,7 +179,7 @@
 
       } % score
 
-      \markup \raise #2.8 \override #'(baseline-skip . 2) {
+      \markup \raise #4.5 \override #'(baseline-skip . 2) {
         \column {
           \fill-line \italic { "" "" \concat {"attaca" "   " }}
         }
@@ -293,7 +293,7 @@
 
         } % score
 
-        \markup \raise #2.8 \override #'(baseline-skip . 2) {
+        \markup \raise #4.5 \override #'(baseline-skip . 2) {
           \column {
             \fill-line \italic { "" "" \concat {"attaca" "   " }}
           }
@@ -387,7 +387,7 @@
 
           } % score
 
-          \markup \raise #2.8 \override #'(baseline-skip . 2) {
+          \markup \raise #4.5 \override #'(baseline-skip . 2) {
             \column {
               \fill-line \italic { "" "" \concat {"attaca" "   " }}
             }
@@ -485,7 +485,7 @@
 
             } % score
 
-            \markup \raise #2.8 \override #'(baseline-skip . 2) {
+            \markup \raise #4.5 \override #'(baseline-skip . 2) {
               \column {
                 \fill-line \italic { "" "" \concat {"attaca" "   " }}
               }
@@ -690,7 +690,7 @@
 
             } % score
 
-            \markup \raise #2.8 \override #'(baseline-skip . 2) {
+            \markup \raise #4.5 \override #'(baseline-skip . 2) {
               \column {
                 \fill-line \italic { "" "" \concat {"attaca" "   " }}
               }

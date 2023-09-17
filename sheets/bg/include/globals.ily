@@ -54,7 +54,20 @@ titleFunc = #(define-scheme-function
   "After song text (usually D.C.) with one line."
   (interpret-markup layout props
     #{
-      \markup \raise #2.8 \override #'(baseline-skip . 2) {
+      \markup \raise #3.8 \override #'(baseline-skip . 2) {
+        \column {
+          \fill-line \bold { "" "" \concat {#text "   " }}
+        }
+      }
+    #}
+  )
+)
+
+#(define-markup-command (dcr-one layout props text raise) (markup? number?)
+  "After song text (usually D.C.) with one line."
+  (interpret-markup layout props
+    #{
+      \markup \raise #raise \override #'(baseline-skip . 2) {
         \column {
           \fill-line \bold { "" "" \concat {#text "   " }}
         }
@@ -67,7 +80,7 @@ titleFunc = #(define-scheme-function
   "After song text (usually D.C.) with one line."
   (interpret-markup layout props
     #{
-      \markup \raise #2.8 \override #'(baseline-skip . 2) {
+      \markup \raise #3.8 \override #'(baseline-skip . 2) {
         \column {
           \fill-line { "" "" \concat {#text "   " }}
         }
@@ -80,7 +93,21 @@ titleFunc = #(define-scheme-function
   "After song text (usually D.C.) with two lines."
   (interpret-markup layout props
     #{
-      \markup \raise #2.8 \override #'(baseline-skip . 2) {
+      \markup \raise #3.8 \override #'(baseline-skip . 2) {
+        \column {
+          \fill-line \bold { "" "" \concat {#textone "   " }}
+          \fill-line \bold { "" "" \concat {#texttwo "   " }}
+        }
+      }
+    #}
+  )
+)
+
+#(define-markup-command (dcr-two layout props textone texttwo raise) (markup? markup? number?)
+  "After song text (usually D.C.) with two lines."
+  (interpret-markup layout props
+    #{
+      \markup \raise #raise \override #'(baseline-skip . 2) {
         \column {
           \fill-line \bold { "" "" \concat {#textone "   " }}
           \fill-line \bold { "" "" \concat {#texttwo "   " }}

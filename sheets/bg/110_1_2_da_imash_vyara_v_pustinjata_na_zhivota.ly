@@ -54,8 +54,7 @@
 
     } % score
 
-    \markup \dc-one "D.C. con ripetizione"
-
+    \markup \dcr-one "D.C. con ripetizione" #2.1
 
     \label #'ref110_2
     \tocItem \markup "В пустинята на живота"

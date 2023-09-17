@@ -108,7 +108,7 @@
 
   } % score
 
-  \markup \dc-one "D.C."
+  \markup \dcr-one "D.C." #4.2
 } % bookpart
 
 % Più mosso

@@ -127,7 +127,7 @@
 
       } % score
 
-      \markup \dc-one "D.C."
+      \markup \dcr-one "D.C." #2.1
 
       \label #'ref175
       \tocItem \markup "Писмото"
