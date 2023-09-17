@@ -6,10 +6,10 @@
 "rightBraces058_1" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -5.5 )
+    \translate #'(0 . -5.8 )
     \right-brace #20
 
-    \translate #'(0 . -15.3 )
+    \translate #'(0 . -14.8 )
     \right-brace #20
 
    
@@ -17,9 +17,9 @@
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -6.1 )
+    \translate #'(0 . -6.5 )
     2
-    \translate #'(0 . -17.3 )
+    \translate #'(0 . -16.8 )
     2
   }
 }
@@ -27,10 +27,10 @@
 "rightBraces058_2" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -5.5 )
+    \translate #'(0 . -5.8 )
     \right-brace #20
 
-    \translate #'(0 . -15.3 )
+    \translate #'(0 . -14.8 )
     \right-brace #20
 
    
@@ -38,9 +38,9 @@
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -6.1 )
+  \translate #'(0 . -6.5 )
     2
-    \translate #'(0 . -17.3 )
+    \translate #'(0 . -16.8 )
     2
   }
 }
