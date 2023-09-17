@@ -40,7 +40,7 @@
 
     tocActMarkup = \markup \large \column {
       \vspace #0.7
-      \fill-line { \null \fontsize #+2 \bold \fromproperty #'toc:text \null }
+      \fill-line { \null \fontsize #+3 \bold \fromproperty #'toc:text \null }
       \vspace #0.7
     }
   }
