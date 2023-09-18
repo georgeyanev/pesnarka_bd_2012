@@ -41,12 +41,13 @@
 
   \markup \fontsize  #+5.5 {\hspace #25 \bold {"Петър Дънов"} }
 
-  \markup {  \vspace #5.5 }
+  \markup {  \vspace #3.5 }
   \markup {
+    \hspace #25
     \column {
-      \override #'(thickness . 2)
+      \override #'(thickness . 1.5)
       \override #'(span-factor . 1/2)
-      {\hspace #20 {\draw-hline }}
+      \draw-hline
 
     }
   }
@@ -54,40 +55,51 @@
   \markup \fontsize  #+2  { {  \vspace #0.2 } }
 
 
-  \markup \fontsize  #+7 { \hspace #25 \bold {"Песни от Учителя"} }
-  \markup \fontsize  #+2.5  { {  \vspace #0.5 } }
-  \markup \fontsize  #+2 {\hspace #25 {"Издадени от"} }
-  \markup \fontsize  #+2  { {  \vspace #0.1 } }
-  \markup \fontsize  #+2 { \hspace #25  {"Петър Ганев"} }
-  \markup \fontsize  #+2  { {  } }
-
+  \markup \fontsize  #+8 { \hspace #25 \bold {"Песни от Учителя"} }
   \markup {
-     \column {}
+    \hspace #25
     \column {
-      \override #'(thickness . 2)
+      \vspace #5.5
+      \override #'(thickness . 1.5)
       \override #'(span-factor . 1/2)
-       \draw-hline 
+      \draw-hline
 
     }
   }
+  \markup \fontsize  #+2  { {  \vspace #.5 } }
+  \markup \fontsize  #+2.5 {\hspace #25 {"Издадени от"} }
+  \markup \fontsize  #+2  { {  \vspace #0.1 } }
+  \markup \fontsize  #+2.5 { \hspace #25  {"Петър Ганев"} }
 
 
+
+  \markup \fontsize  #+2  { {  \vspace #8.5 } }
+
+  \markup \fontsize  #+4 {\hspace #25 {"Издателство Бяло Братство"} }
+  \markup \fontsize  #+2.5  { {  \vspace #0.5 } }
   \markup {
-    \vspace #14.5
-    \hspace #1
+    \hspace #-1
     \fill-line
     \general-align #Y #DOWN {
       \epsfile #X #8 #"../../img/logo_large.eps"
     }
   }
 
-  \markup \fontsize  #+2.5  { {  \vspace #1.5 } }
-  \markup \fontsize  #+2 {\hspace #25 {"Издателство Бяло Братство"} }
+  \markup \fontsize  #+2  { {  \vspace #1 } }
+
+  \markup {
+    \hspace #25
+    \column {
+      \override #'(thickness . 1.5)
+      \override #'(span-factor . 1/2)
+      \draw-hline
+
+    }
+  }
 
 
 
-  % include foreign translation(s) of the song
-  %
+
 
 } % bookpart
 

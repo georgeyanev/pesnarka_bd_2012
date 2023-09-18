@@ -2,7 +2,7 @@
 
 cat \
     ../001_title_page_bg.ly \
-    ../003_danov_img_bg.ly \
+    ../007_blank_page.ly \
     ../006_oldest_book_bg.ly \
     ../007_blank_page.ly \
     ../238_toc.ly \
