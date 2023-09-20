@@ -15,7 +15,7 @@
       \clef treble
       \key d \major
       \time 2/4
-      \tempoFunc "Allergetto" 4 "108"
+      \tempoFunc "Allegretto" 4 "108"
       \autoBeamOff
 
       d'4 fis'4 | a'8 g'8 fis'8 g'8| a'4 ( b' ) | a'2 |b'8. b'16 b'8 b'8 | \break

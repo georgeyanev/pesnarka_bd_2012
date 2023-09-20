@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref086_1
-  \tocItem \markup "Кажи ми ти истината"
+  \tocItem \markup "Кажи ми Ти Истината"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -39,13 +39,13 @@
 
     \addlyrics {
       Ка -- жи ми
-      ти Ис -- ти -- на -- та, ко -- я -- то но -- си
+      Ти Ис -- ти -- на -- та, ко -- я -- то но -- си
       Сво -- бо -- да за мо -- я -- та ду -- ша. Ка --
       та ду -- ша.
     }
 
     \header {
-      title = \titleFunc "Кажи ми ти истината" "Kaži mi ti istinata"
+      title = \titleFunc "Кажи ми Ти Истината" "Kaži mi Ti Istinata"
     }
 
     \midi{}

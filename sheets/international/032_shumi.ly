@@ -157,7 +157,7 @@
       \line {   "   "навред да диша свежа младост.}
 
       \line {  "   "    "   " Задухай, ветре, }
-      \line {   "   "    "   " света избистри}
+      \line {   "   "    "   " света избистри.}
     }
 
 
@@ -177,7 +177,7 @@
       \line {   "   "navred da diša sveža mladost.}
 
       \line {  "   "    "   " Zaduhaj, vetre, }
-      \line {   "   "    "   " sveta izbistri}
+      \line {   "   "    "   " sveta izbistri.}
     }
     %column
   } % markup

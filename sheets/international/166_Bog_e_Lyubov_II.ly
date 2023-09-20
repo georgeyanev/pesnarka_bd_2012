@@ -109,7 +109,7 @@
     \addlyrics {
       Бог __ е Лю -- бов,
       Бог е Лю -- бов, Бог __    е
-      "Лю-" -- бов, __  Бог __
+      "Лю-" -- бов, Бог __
       е Лю -- бов. Веч --
       на, без -- гра -- нич
       -- на, пъл -- на със "Жи-" --
@@ -131,7 +131,7 @@
       \addlyrics {
         Bog __ e Lju -- bov,
         Bog e Lju -- bov, Bog __    e
-        Lju -- bov, __ Bog __
+        Lju -- bov, Bog __
         e Lju -- bov. Več --
         na, bez -- gra -- nič
         -- na, păl -- na săs Ži --

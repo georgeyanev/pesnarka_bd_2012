@@ -20,7 +20,7 @@
 
       b4 d c (b8 a ) g2 | e 4 g a ( g8 fis ) g2 \break
 
-      e4 g f e e c | \time 4/4 d e c2 \break
+      e4 g f? e e c | \time 4/4 d e c2 \break
 
       \time 6/4  e4 g f e e c | \time 4/4 d e c2 \break
 

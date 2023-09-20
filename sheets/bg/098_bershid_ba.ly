@@ -23,7 +23,7 @@
 
       bes4 f'8. f'16 f'2 | \time 5/4  ges'4 f'8. e'16 f'2 des''4 \break |
 
-      c''4 bes'8. a'16 bes'4 ges' f'8. e'16 | \time 3/4  f'2 ees'!4 \break |
+      c''4 bes'8. a'16 bes'4 ges' f'8. e'16 | \time 3/4  f'2 ees'?4 \break |
 
       des'8 des' c'4 bes8 a | \time 4/4  c'4 bes8. a16 bes2 \break |
 

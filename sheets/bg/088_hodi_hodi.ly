@@ -36,7 +36,7 @@
       \clef treble
       \key d \major
       \time 7/16
-      \tempoFunc "Allergetto" 8 "160"
+      \tempoFunc "Allegretto" 8 "160"
       a8 a8 a8 a16 | a4 a8. | d'8 d'8 e'8 e'16 | e'4 e'8. | \break
 
       fis'8 fis'8 fis'8 g'16 | a'4 a'8. | b'8 a'8 g'8 fis'16 | a'4 a'8. | b'8 a'8 g'8 fis'16 | \break

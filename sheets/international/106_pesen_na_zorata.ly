@@ -50,7 +50,7 @@
     \addlyrics {
       Зо -- ра се свет -- ла за -- зо -- ря -- ва,
       зо -- ра се свет -- ла за -- зо -- ря -- ва,
-      за -- зо -- ря -- ва, за -- зо -- ря -- ва,
+      за -- зо -- ря -- ва, за -- зо -- ря -- ва.
 
       Пъл -- на 	Pа -- дост тя в~Жи -- во -- та вна -- ся.
 
@@ -79,7 +79,7 @@
     \addlyrics {
       Zo -- ra se svet -- la za -- zo -- rja -- va,
       zo -- ra se svet -- la za -- zo -- rja -- va,
-      za -- zo -- rja -- va, za -- zo -- rja -- va,
+      za -- zo -- rja -- va, za -- zo -- rja -- va.
 
       Păl -- na 	Ra -- dost tja v~Ži -- vo -- ta vna -- sja.
 

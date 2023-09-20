@@ -100,7 +100,7 @@
       a'16  a'8. e'16 e'8. cis'16 cis'8. a2 | % 29
       a'16 a'8. e'16 e'8. \once \override TupletBracket.stencil = ##f
       \times 2/3  {
-        b8 ( c'8 a8 )
+        b8 ( c'?8 a8 )
       }
       e'2 \break |
       a'16 a'8. e'16 e'8. \once \override TupletBracket.stencil = ##f
@@ -110,7 +110,7 @@
       cis'4. e'8 | % 31
       a'16 a'8. e'16 e'8. \once \override TupletBracket.stencil = ##f
       \times 2/3  {
-        c'8 d'8 b8
+        c'?8 d'8 b8
       }
       a2 ( | % 32
       \time 2/4  a4 ) e'4 \bar "||"

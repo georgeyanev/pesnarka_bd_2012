@@ -200,10 +200,10 @@
 
             \addlyrics {
               Вя -- ра свет --   ла,
-              вя -- ра сил --   на! Тя кре -- пи Ду -- ха, що Жи -- вот -- та раж -- да. Вя -- ра да.}
+              вя -- ра сил --   на! Тя кре -- пи Ду -- ха, що Жи -- во -- та раж -- да. Вя -- ра да.}
               \addlyrics {
                 Vja -- ra svet --   la,
-                vja -- ra sil --   na! Tja kre -- pi Du -- ha, što Ži -- vot -- ta raž -- da. Vja -- ra da.}
+                vja -- ra sil --   na! Tja kre -- pi Du -- ha, što Ži -- vo -- ta raž -- da. Vja -- ra da.}
                 \header {
                   title = \titleFunc "Вяра светла III" "Vjara svetla III"
                 }

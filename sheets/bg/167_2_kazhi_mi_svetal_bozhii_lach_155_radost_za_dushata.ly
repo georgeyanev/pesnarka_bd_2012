@@ -65,7 +65,7 @@
       c''8.  b'16  a'8.  gis'16
       a'2 | % 11
       \time 5/4  | % 11
-      g'4  fis'4  e'8.  e'16  e'2
+      g'?4  fis'4  e'8.  e'16  e'2
       \break | % 12
       d'4  c'4  c'8.  c'16  e'2 | % 13
       d'4  a4  a8.  a16  b2 ^\fermata

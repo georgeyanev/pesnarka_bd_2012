@@ -59,7 +59,7 @@
       ков -- ни от но -- зе -- те си сне -- ми.
       Лю -- бов -- та е тво -- я май -- ка, тво -- я си -- ла
       твой пи -- лот: тя ще те из -- пра -- ви
-      креп -- ко, тя ще ти да -- ри Жи -- вот. -- вот.
+      креп -- ко, тя ще ти да -- ри Жи -- вот. вот.
     }
    \addlyrics {
       Să -- bu -- di -- se, brat -- ko mi -- li,
@@ -67,7 +67,7 @@
       kov -- ni ot no -- ze -- te si sne -- mi.
       Lju -- bov -- ta e tvo -- ja maj -- ka, tvo -- ja si -- la
       tvoj pi -- lot: tja šte te iz -- pra -- vi
-      krep -- ko, tja šte ti da -- ri Ži -- vot. -- vot.
+      krep -- ko, tja šte ti da -- ri Ži -- vot. vot.
     }
 
     \header {

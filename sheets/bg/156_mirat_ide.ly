@@ -52,13 +52,13 @@
       g'8.[a16] bes8[a] | \noBreak
       a[g] g[fis] | \noBreak
       g2~ | \noBreak
-      g8[f] ees[d] | \noBreak
+      g8[f?] ees[d] | \noBreak
       d[c] d4 ~ | \noBreak
       d8[c] bes8.[a16] | \break
 
       bes8[c] d[ees] | \noBreak
       d[cis] d4~ | \noBreak
-      d8[c!] bes[a] | \noBreak
+      d8[c?] bes[a] | \noBreak
       fis8.[g16] a8[g] | \noBreak
       bes[a] c[bes] | \barNumberCheck #40 \noBreak
       a[g] fis[a] | \break

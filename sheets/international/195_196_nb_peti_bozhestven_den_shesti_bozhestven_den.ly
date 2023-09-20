@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref195
-  \tocItem \markup "     Пети божествен ден – Peti božestven den "
+  \tocItem \markup "     Пети Божествен ден – Peti Božestven den "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -104,7 +104,7 @@
 
 
         \header {
-          title = \titleFunc "Пети божествен ден" "Peti božestven den"
+          title = \titleFunc "Пети Божествен ден" "Peti Božestven den"
         }
 
         \midi{}
@@ -125,7 +125,7 @@
       \markup \empty-three
 
         \label #'ref195
-  \tocItem \markup "     Шести божествен ден – Šesti božestven den "
+  \tocItem \markup "     Шести Божествен ден – Šesti Božestven den "
 
       \include "include/bookpart-paper.ily"
       \score {
@@ -349,7 +349,7 @@
 
 
           \header {
-            title = \titleFunc " Шести божествен ден" "Šesti božestven den"
+            title = \titleFunc " Шести Божествен ден" "Šesti Božestven den"
           }
 
           \midi{}
