@@ -19,7 +19,7 @@
       \partial 4
       a4 | d4. cis8 d8 e8 fis8 g8 | a2 fis4 d4 | \break
 
-      b'4. a8 g fis a gis |g2. g4 | fis4. e8 dis e fis g | \break
+      b'4. a8 g fis a gis |g?2. g4 | fis4. e8 dis e fis g | \break
 
       b2 a4 a |d4. e,8 fis8 g8 e8. d16 | d2 r8 a8 b8 cis8 | \break
 

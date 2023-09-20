@@ -46,7 +46,7 @@
       \clef treble
       \key e \minor
       \time 3/4
-      \tempoFunc "Leno" 4 "50"
+      \tempoFunc "Lento" 4 "50"
       \autoBeamOff
       \partial 4
       \autoBeamOff

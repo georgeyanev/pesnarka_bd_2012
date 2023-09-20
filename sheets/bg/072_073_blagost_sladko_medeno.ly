@@ -88,7 +88,7 @@
       \clef treble
       \key g \major
       \time 2/4
-      \tempoFunc "Allergetto" 4 "104"
+      \tempoFunc "Allegretto" 4 "104"
       \autoBeamOff
 
 
@@ -113,7 +113,7 @@
     }
 
     \header {
-      title = \titleFunc "Сладко медено" "Sladko medeno"
+      title = \titleFunc "Сладко, медено" "Sladko, medeno"
     }
 
     \midi{}

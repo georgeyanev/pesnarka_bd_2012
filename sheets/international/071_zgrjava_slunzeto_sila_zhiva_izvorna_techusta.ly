@@ -14,7 +14,7 @@
       \clef treble
       \key g \major
       \time 3/4
-      \tempoFunc "Andandtinio" 4 "69"
+      \tempoFunc "Andantino" 4 "69"
       \partial 4
       \autoBeamOff
         b4  |  d'2 d'4 | g'2 e'4 | d'2. | d'2 g'4 | b'2 a'4 \break |

@@ -63,7 +63,7 @@
     \hspace #4
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
-      \line { "   " \italic {Припев ...} }
+      \line { "   " \italic {Припев:} }
       \line {   "   "Работи със нея }
       \line {   "   " в милости желани, }
       \line {   "   "   помощта носи й }

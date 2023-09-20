@@ -31,15 +31,15 @@
 
 
     \addlyrics {
-      Ки -- а мет __ Зе --  -- ну. Ма -- хар Бе  --  ну. Хай  --  ри ме  -- ши  --  на се  --
+      Ки -- а -- мет __ Зе --  -- ну. Ма -- хар Бе  --  ну. Хай  --  ри ме  -- ши  --  на се  --
       ват се  -- му  -- си бе  -- ни. Ха -- бе -- рим я -- ве су  -- бе  -- рим са  -- ве,
-      Ки -- а мет Зе --  -- ну. Ма -- хар Бе  --  ну, Ма -- хар Бе  --  ну.
+      Ки -- а -- мет Зе --  -- ну. Ма -- хар Бе  --  ну, Ма -- хар Бе  --  ну.
     }
 
    \addlyrics {
-      Ki -- a met __ Ze --  -- nu. Ma -- har Be  --  nu. Haj  --  ri me  -- ši  --  na se  --
+      Ki -- a -- met __ Ze --  -- nu. Ma -- har Be  --  nu. Haj  --  ri me  -- ši  --  na se  --
       vat se  -- mu  -- si be  -- ni. Ha -- be -- rim ja -- ve su  -- be  -- rim sa  -- ve,
-      Ki -- a met Ze --  -- nu. Ma -- har Be  --  nu, Ma -- har Be  --  nu.
+      Ki -- a -- met Ze --  -- nu. Ma -- har Be  --  nu, Ma -- har Be  --  nu.
     }
 
 

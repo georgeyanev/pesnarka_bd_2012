@@ -38,7 +38,7 @@
 
     \addlyrics {
       Не -- ва сен -- зу,
-      не -- ва сан -- зу би -- ю мен -- си,
+      не -- ва сен -- зу би -- ю мен -- си,
       ха -- ри -- ен ха -- ди хен -- зи.
       А -- ва Ма -- хар вен ха -- бер мен -- си,
       А -- ва Ма -- хар вен ха -- бер мен -- си,
@@ -49,7 +49,7 @@
 
   \addlyrics {
       Ne -- va sen -- zu,
-      ne -- va san -- zu bi -- ju men -- si,
+      ne -- va sen -- zu bi -- ju men -- si,
       ha -- ri -- en ha -- di hen -- zi.
       A -- va Ma -- har ven ha -- ber men -- si,
       A -- va Ma -- har ven ha -- ber men -- si,

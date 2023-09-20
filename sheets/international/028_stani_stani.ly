@@ -16,7 +16,7 @@
       \clef treble
       \key g \minor
       \time 3/4
-      \tempoFunc "Adantino" 4 "72"
+      \tempoFunc "Andantino" 4 "72"
       \autoBeamOff
       \partial 4
       d'4 | g'2 d'4 | bes'2 a'4 | g'4 fis' g' |  a'4 d' es'  \break

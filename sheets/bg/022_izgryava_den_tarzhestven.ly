@@ -83,7 +83,7 @@
       \line {   "   " по-скоро обнови ни! }
 
       \line { " " }
-      \line { "   " \italic {Припев: } }
+      \line { "   " \italic {Припев ... } }
     }
   } % markup
 

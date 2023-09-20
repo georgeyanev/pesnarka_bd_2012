@@ -13,7 +13,7 @@
     \new Voice \absolute {
       \clef treble
       \key d \minor
-      \tempoFunc "Addagio, ad libitum" 4 "56"
+      \tempoFunc "Adagio, ad libitum" 4 "56"
       \override Staff.BarLine.gap = 0.5
       \autoBeamOff
       \omit Score.TimeSignature
@@ -79,7 +79,7 @@
       де, дой -- де, __ о -- ти -- де, дой -- де, __ о -- ти
       -- де, дой -- де, __ дой -- де. __}
       \header {
-        title = \titleFunc "Вечер сутрин" "Večer sutrin"
+        title = \titleFunc "Вечер, сутрин" "Večer, sutrin"
       }
 
       \midi{}

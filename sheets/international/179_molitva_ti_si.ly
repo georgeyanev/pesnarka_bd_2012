@@ -102,7 +102,7 @@
       }
       f'4.  es'8 | % 16
       \time 2/4  | % 16
-       des'8 (  c'8 )
+       des'8 (  [c'8] )
       des'8  c'8 \break | % 17
       es'4 ( des'4 )| % 18
       c'4.   a8  | % 19
@@ -118,7 +118,7 @@
       за "ме-" -- не на Зе -- мя -- та. Тук
       до -- лу– тол -- коз скър --
       би, тъй "всич-" -- ко пус -- то е
-      без  Теб и са -- мо Ти му да
+      без__  Теб и са -- мо Ти му да
       -- ваш сми -- съл. Ед -- ни -- чък
       Ти ме лю -- биш, зна -- я, са -- мо
       Ти. И аз Теб лю -- бя. __
@@ -138,7 +138,7 @@
       za me -- ne na Ze -- mja -- ta. Tuk
       do -- lu– tol -- koz skăr --
       bi, tăj vsič -- ko pus -- to e
-      bez  Teb i sa -- mo Ti mu da
+      bez __  Teb i sa -- mo Ti mu da
       -- vaš smi -- săl. Ed -- ni -- čăk
       Ti me lju -- biš, zna -- ja, sa -- mo
       Ti. I az Teb lju -- bja. __

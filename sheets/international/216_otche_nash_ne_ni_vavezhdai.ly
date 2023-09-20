@@ -14,7 +14,7 @@
       \clef treble
       \key g \major
       \time 6/4
-      \tempoFunc "Andante sustenuto" 4 "76"
+      \tempoFunc "Andante sostennuto" 4 "76"
       \autoBeamOff
 
       \partial 2

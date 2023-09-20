@@ -76,6 +76,18 @@
       \line { " " }
       \line { "   " \italic {Припев: } }
 
+      \line {   "   "  Елате да живеем }
+
+      \line {   "   " във Любовта чудесна. }
+
+      \line {   "   " Елате да приемем }
+
+      \line {   "   " таз благодат небесна, }
+
+      \line {   "   " що живота обновява }
+
+      \line {   "   " и вечно тя го подмладява. }
+
       \line { " " }
       \line {  3.  О, ден прекрасен, вечно благо, }
       \line {   "   " кому за тебе не е драго? }
@@ -83,7 +95,7 @@
       \line {   "   " по-скоро обнови ни! }
 
       \line { " " }
-      \line { "   " \italic {Припев: } }
+      \line { "   " \italic {Припев ... } }
     }
 
     \hspace #1
@@ -96,8 +108,20 @@
       \line {   "   " za vsički na zemjata. }
 
 
-      \line { " " }
+       \line { " " }
       \line { "   " \italic {Pripev: } }
+
+      \line {   "   "  Elate da živeem }
+
+      \line {   "   " văv Ljubovta čudesna. }
+
+      \line {   "   " Elate da priemem }
+
+      \line {   "   " taz blagodat nebesna, }
+
+      \line {   "   " što života obnovjava }
+
+      \line {   "   " i večno tja go podmladjava. }
 
       \line { " " }
       \line {  3.  O, den prekrasen, večno blago, }
@@ -106,7 +130,7 @@
       \line {   "   " po-skoro obnovi ni! }
 
       \line { " " }
-      \line { "   " \italic {Pripev: } }
+      \line { "   " \italic {Pripev ... } }
     }    %column
 
   } % markup

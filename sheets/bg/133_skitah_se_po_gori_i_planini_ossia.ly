@@ -32,7 +32,7 @@
       | % 6
 
       \times 2/3  {
-        \stemUp bes8 (   a8 )  g8
+        \stemUp bes8 (   [a8] )  g8
       } \stemNeutral
       g2 \break | % 7
       d'4 (

@@ -67,7 +67,7 @@
       \times 2/3  {
         ais8 ( [  b8 )]  ais8
       }
-      gis8 [ fis8 ] gis8  ais8
+      gis8 fis8  gis8  ais8
       \times 2/3  {
         ais8 ( [  gis8 )  ] fis8
       }
@@ -132,7 +132,7 @@
       -- риш в~бъ -- де -- ще -- то. Да
       се  сла -- ви И -- ме --
       то Ти и във Тво -- я -- та
-      сла -- ва "да жи" -- ве -- ем ни
+      сла -- ва да жи -- ве -- ем ни
       -- е. Да се въ -- дво -- ри __
       Цар -- ство -- то Ти, __
       и ни -- е да у -- част -- ва -- ме
@@ -155,7 +155,7 @@
       -- riš v~bă -- de -- šte -- to. Da
       se  sla -- vi I -- me --
       to Ti i văv Tvo -- ja -- ta
-      sla -- va "da ži" -- ve -- em ni
+      sla -- va da ži -- ve -- em ni
       -- e. Da se vă -- dvo -- ri __
       Car -- stvo -- to Ti, __
       i ni -- e da u -- čast -- va -- me

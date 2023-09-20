@@ -93,7 +93,7 @@
       тръг -- нах път -- ник, где из
       -- ви -- рат из -- во -- ри, где те --
       кат ре -- ки -- те, где зре --
-      ят пло -- до -- ве,  где пти
+      ят пло -- до -- ве, __  где пти
       -- ци пе -- ят. Где хо -- ра -- та
       жи -- ве -- ят брат -- ски, где хо
       -- ра -- та жи -- ве -- ят брат --
@@ -110,7 +110,7 @@
       trăg -- nah păt -- nik, gde iz
       -- vi -- rat iz -- vo -- ri, gde te --
       kat re -- ki -- te, gde zre --
-      jat plo -- do -- ve,  gde pti
+      jat plo -- do -- ve, __  gde pti
       -- ci pe -- jat. Gde ho -- ra -- ta
       ži -- ve -- jat brat -- ski, gde ho
       -- ra -- ta ži -- ve -- jat brat --

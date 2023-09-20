@@ -108,7 +108,7 @@
       Гос -- по -- ди, Ти жи -- ве --
       еш в~ме -- не, Ти жи -- ве --
       еш в~ме -- не. Не -- ка Тво -- ят
-      благ   глас и ми -- лост --
+      благ __   глас и ми -- лост --
       та Ти, о, Бо -- же, се из -- я
       -- вят  чрез ме -- не.}
       \addlyrics {
@@ -125,7 +125,7 @@
         Gos -- po -- di, Ti ži -- ve --
         eš v~me -- ne, Ti ži -- ve --
         eš v~me -- ne. Ne -- ka Tvo -- jat
-        blag   glas i mi -- lost --
+        blag __  glas i mi -- lost --
         ta Ti, o, Bo -- že, se iz -- ja
         -- vjat  črez me -- ne.}
 

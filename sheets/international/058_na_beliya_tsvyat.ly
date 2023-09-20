@@ -107,7 +107,7 @@
       \line {   "   " в таз роза е изляла. }
       \line { " " }
 
-      \line { "        " \italic {Припев: } }
+      \line { "        " \italic {Припев ... } }
       \line { " " }
 
 
@@ -120,7 +120,7 @@
       \line {   "   "в които Бог живее.}
       \line { " " }
 
-      \line { "        " \italic {Припев: } }
+      \line { "        " \italic {Припев ... } }
       \line { " " }
       \line {   4. Нагоре – в тази белина!}
 
@@ -143,7 +143,7 @@
       \line {   "   " v taz roza e izljala. }
       \line { " " }
 
-      \line { "        " \italic {Pripev: } }
+      \line { "        " \italic {Pripev ... } }
       \line { " " }
 
 
@@ -156,7 +156,7 @@
       \line {   "   "v koito Bog živee.}
       \line { " " }
 
-      \line { "        " \italic {Pripev: } }
+      \line { "        " \italic {Pripev ... } }
       \line { " " }
       \line {   4. Nagore – v tazi belina!}
 
@@ -181,7 +181,7 @@
 
 
 
-      \line { "        " \italic {Припев: } }
+      \line { "        " \italic {Припев ... } }
       \line { " " }
 
 
@@ -193,7 +193,7 @@
 
       \line {   "   "и Бога ще прославим.}
       \line { " " }
-      \line { "        " \italic {Припев: } }
+      \line { "        " \italic {Припев ... } }
     }      \"rightBraces059"
 
     \hspace #5
@@ -203,7 +203,7 @@
 
 
 
-      \line { "        " \italic {Pripev: } }
+      \line { "        " \italic {Pripev ... } }
       \line { " " }
 
 
@@ -215,7 +215,7 @@
 
       \line {   "   "i Boga šte proslavim.}
       \line { " " }
-      \line { "        " \italic {Pripev: } }
+      \line { "        " \italic {Pripev ... } }
     }    \"rightBraces059"
   } % markup
 

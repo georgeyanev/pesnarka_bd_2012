@@ -354,7 +354,7 @@
             d''2 e''2 | % 32
             f''2. -- e''4 --  | % 33
             a'2. -- r4 | % 34
-            r4  fis'!4  fis'4  fis'4 \break | % 35
+            r4  fis'?4  fis'4  fis'4 \break | % 35
             fis'2  e'2 | % 36
             r4  fis'4  fis'4  fis'4 | % 37
             a'2.  fis'4 | % 38
@@ -394,7 +394,7 @@
           }
 
           \label #'ref195
-          \tocItem \markup "     Пети божествен ден "
+          \tocItem \markup "     Пети Божествен ден "
           \include "include/bookpart-paper.ily"
           \score {
             \include "include/score-layout.ily"
@@ -478,7 +478,7 @@
               ти ден.}
 
               \header {
-                title = \titleFunc "Пети божествен ден" "Peti božestven den"
+                title = \titleFunc "Пети Божествен ден" "Peti Božestven den"
               }
 
               \midi{}
@@ -493,7 +493,7 @@
 
 
             \label #'ref195
-            \tocItem \markup "     Шести божествен ден "
+            \tocItem \markup "     Шести Божествен ден "
 
             \include "include/bookpart-paper.ily"
             \score {
@@ -683,7 +683,7 @@
               }
 
               \header {
-                title = \titleFunc " Шести божествен ден" "Šesti božestven den"
+                title = \titleFunc " Шести Божествен ден" "Šesti Božestven den"
               }
 
               \midi{}
@@ -698,7 +698,7 @@
 
 
             \label #'ref199
-            \tocItem \markup "     Седми божествен ден"
+            \tocItem \markup "     Седми Божествен ден"
             \include "include/bookpart-paper.ily"
             \score {
               \include "include/score-layout.ily"
@@ -775,7 +775,7 @@
                 А -- у -- мен!}
 
                 \header {
-                  title = \titleFunc " Седми божествен ден" "Sedmi božestven den"
+                  title = \titleFunc " Седми Божествен ден" "Sedmi Božestven den"
                 }
 
                 \midi{}

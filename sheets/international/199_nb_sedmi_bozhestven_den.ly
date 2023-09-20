@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref199
- \tocItem \markup "     Седми божествен ден – Sedmi božestven den "
+ \tocItem \markup "     Седми Божествен ден – Sedmi Božestven den "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -96,7 +96,7 @@
 
 
         \header {
-          title = \titleFunc " Седми божествен ден" "Sedmi božestven den"
+          title = \titleFunc " Седми Божествен ден" "Sedmi Božestven den"
         }
 
         \midi{}

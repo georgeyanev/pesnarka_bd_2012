@@ -57,7 +57,7 @@
       \line { 2. Красота, ухание се лей,  }
       \line {   "   "  изобилно блика радостта,}
       \line {   "   " Слушайте и пейте в пролетта, }
-      \line {   "   " слушайте и пейте в пролетта, }
+      \line {   "   " слушайте и пейте в пролетта. }
     }
 
     \hspace #5
@@ -66,7 +66,7 @@
       \line { 2. Krasota, uhanie se lej,  }
       \line {   "   "  izobilno blika radostta,}
       \line {   "   " Slušajte i pejte v proletta, }
-      \line {   "   " slušajte i pejte v proletta, }
+      \line {   "   " slušajte i pejte v proletta. }
     } %column
   } % markup
 

@@ -115,26 +115,26 @@
       ди, кол -- ко Те лю -- бя! Бо -- же, Гос -- по
       -- ди мой, кол -- ко Те лю -- бя! О -- би -- чам
       Те, Гос -- по -- ди! О -- би -- чам Тво -- и --
-      те дръв -- че -- та, о -- би -- чам Тво -- и --
-      те цве -- тен -- ца, о -- би
+      те дръв -- че -- та, о -- би -- чам __ Тво -- и --
+      те цве -- тен -- ца, __ о -- би
       -- чам Тво -- и -- те ре -- кич -- ки, о -- би --
       чам Тво -- и -- те  пла -- ни -- ни всич -- ко,
       Гос -- по -- ди, ко -- е -- то Си __ съз -- дал. О
       -- би -- чам Те, о -- би -- чам Те, о -- би --
-      чам Те, Гос -- по -- ди!}
+      чам Те, Гос -- по -- ди! __}
    
     \addlyrics {
       Gos -- po --
       di, kol -- ko Te lju -- bja! Bo -- že, Gos -- po
       -- di moj, kol -- ko Te lju -- bja! O -- bi -- čam
       Te, Gos -- po -- di! O -- bi -- čam Tvo -- i --
-      te drăv -- če -- ta, o -- bi -- čam Tvo -- i --
-      te cve -- ten -- ca, o -- bi
+      te drăv -- če -- ta, o -- bi -- čam __ Tvo -- i --
+      te cve -- ten -- ca, __ o -- bi
       -- čam Tvo -- i -- te re -- kič -- ki, o -- bi --
       čam Tvo -- i -- te  pla -- ni -- ni vsič -- ko,
       Gos -- po -- di, ko -- e -- to Si __ săz -- dal. O
       -- bi -- čam Te, o -- bi -- čam Te, o -- bi --
-      čam Te, Gos -- po -- di!}
+      čam Te, Gos -- po -- di! __}
 
         \header {
           title = \titleFunc "Господи, колко те обичам" "Gospodi, kolko te običam"

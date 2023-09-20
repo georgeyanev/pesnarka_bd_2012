@@ -21,9 +21,9 @@
       f'4  e'8.  dis'16  e'2 | % 3
       r8  e'8  a'8  b'8  c''2 \break | % 4
       b'8 ( [  a'8  ])   gis'8 ( [  a'8 ])
-      \autoBeamOn b'4  ( ~  b'16   a'16  )   g'16 (
-      f'16  )  | % 5
-      e'2 r8 \autoBeamOff e'8  a'8  c''8 \break | % 6
+       b'4  ( ~  b'16  [ a'16]  )  g'16 (
+      [f'16 ]  )  | % 5
+      e'2 r8 e'8  a'8  c''8 \break | % 6
       e''4.  d''8 \tweak direction #up \times 2/3 {
         \once \override Slur.positions = #'(1 . 1) c''8  (  [ b'8 ])  a'8
       }
@@ -46,7 +46,7 @@
 
       e'2 r8 e'8 a'8 c''8 | e''4. d''8  \tweak direction #up \times 2/3 {
         \once \override Slur.positions = #'(1 . 1) c''8  [ ( b'8 ) ] a'8
-      } gis'16 f'?16 e'16 d'16 | f'2 e'2 | \break
+      } gis'16 f'16 e'16 d'16 | f'2 e'2 | \break
 
 
       a'4 g'8.  f'16  e'2 |  \bar ".|:" r8 c'8 e' g' a'4 a'4 |  c''16 b' a' g' f'8. ( e'16 ) d'2 (| \break
@@ -61,7 +61,7 @@
 
       e'2 r8 \autoBeamOff e'8 a'8 c''8 | e''4. d''8  \tweak direction #up \times 2/3 {
         \once \override Slur.positions = #'(1 . 1) c''8  ( [  b'8 ) ] a'8
-      } gis'16 [( f'?16 )] e'16 [(d'16) ] | f'2 e'2 | \break
+      } gis'16 [( f'16 )] e'16 [(d'16) ] | f'2 e'2 | \break
 
 
       a'4 g'8.  f'16  e'2 |  \bar ".|:" r8 c'8 e' g' a'4 a'8. c''16 | 
@@ -85,7 +85,7 @@
 
       "2. Тъй" бу -- "бо-" -- леч -- ка -- та "шеп-" -- ти
       и се стре -- ми по __ "на-" -- на -- гор -- ни -- я път,
-      и преч -- ки -- те ед -- на __ след дру -- га
+      и преч -- ки -- те ед -- на __ след "дру-" -- га
       "по-" -- беж -- да -- ва.
       Без -- брой "ска-" -- ли, по -- ля, до -- ли -- ни
       "сме-" -- ло "пре-" -- ми -- на -- ва __

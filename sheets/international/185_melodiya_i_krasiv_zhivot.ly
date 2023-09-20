@@ -49,7 +49,7 @@
       \time 4/4  | % 16
       f'8  es'8  d'8  es'8  f'4.
       f'8 | % 17
-      f'8 (  bes8 )  bes4.  f'8  ges'8
+      f'8 (  [bes8] )  bes4.  f'8  ges'8
       as'8 | % 18
       ges'4.  f'8  ges'2 | \break % 19
       f'8  es'8  d'8  es'8  f'4. (

@@ -94,7 +94,7 @@
       \time 2/4
       \tupletUp \tuplet 3/2 {a8  bes8  c8 }
       bes8 ( [  ges8 ) ] | % 27
-      \time 3/4 f2 aes!8.  as16 | % 28
+      \time 3/4 f2 aes?8.  as16 | % 28
       as2  as16  bes16  as16
       ges16 \break | % 29
       \time 2/4  | % 29

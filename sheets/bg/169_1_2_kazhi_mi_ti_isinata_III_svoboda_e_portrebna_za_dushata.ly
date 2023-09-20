@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref169_1
-  \tocItem \markup "Кажи ми ти Истината III"
+  \tocItem \markup "Кажи ми Ти Истината III"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -77,7 +77,7 @@
       ша.}
 
       \header {
-        title = \titleFunc "Кажи ми ти Истината III" "Kaži mi ti Istinata III"
+        title = \titleFunc "Кажи ми Ти Истината III" "Kaži mi Ti Istinata III"
       }
 
       \midi{}
