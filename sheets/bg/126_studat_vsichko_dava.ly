@@ -68,7 +68,7 @@
       g'8 | % 13
       a'2. | % 14
 
-      \afterGrace  d''2 ( {
+      \afterGrace 32/33 d''2 ( {
         cis''16  [  d''16
         e''16 ] )
       }  d''8.  cis''16 | % 15
