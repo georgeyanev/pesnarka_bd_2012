@@ -33,7 +33,7 @@
   }
 
   \tocItem \markup "Предговор"
-  \markup \fontsize  #+3.0 { \fill-line \bold {"ПЕДГОВОР"} }
+  \markup \fontsize  #+3.0 { \fill-line \bold {"ПРЕДГОВОР"} }
 
 
   \markup \fontsize #+2.5 {
