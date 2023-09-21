@@ -32,7 +32,7 @@
   }
 
   \markup \large \column {
-    \fill-line { \null \fontsize #+2.5 \bold "Азбучен показател" \null }
+    \fill-line { \null \fontsize #+2.5 \bold "АЗБУЧЕН ПОКАЗАТЕЛ" \null }
     \hspace #1
   }
 

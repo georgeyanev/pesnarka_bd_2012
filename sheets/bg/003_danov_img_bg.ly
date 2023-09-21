@@ -34,16 +34,16 @@
 
 
   \markup {
+    \fill-line 
     \general-align #Y #DOWN {
-      \epsfile #X #67 #"../../img/danov.eps"
+      \epsfile #X #51 #"../../img/danov_2.eps"
     }
   }
 
-  \markup { {  \vspace #0.7 } }
+  \markup { {  \vspace #0.4 } }
 
-  \markup \fontsize  #+5 { \fill-line \bold {" Петър Дънов – Беинса Дуно "} }
-  \markup { {  \vspace #0.2 } }
-  \markup \fontsize  #+2.5 { \fill-line \bold {" (1864  –  1944)" } }
+  \markup \fontsize  #+2.5 { \fill-line  {" Петър Дънов – Беинса Дуно "} }
+   \markup \fontsize  #+2 { \fill-line {" (1864  –  1944)" } }
 
   % include foreign translation(s) of the song
   %
