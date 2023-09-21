@@ -34,7 +34,7 @@
 
   \markup { {  \vspace #10.0 } }
 
-  \markup \fontsize  #+3.5 { \fill-line \bold {"Учителя Петър Дънов"} }
+  \markup \fontsize  #+3.5 { \fill-line \bold {"Петър Дънов"} }
 
 
   \markup { {  \vspace #0.1 } }
@@ -48,10 +48,6 @@
   \markup \fontsize  #+3.5 { \fill-line \bold {"Редактор" }}
   \markup \fontsize  #+3.0 { \fill-line {"Петър Ганев"} }
   \markup { {  \vspace #1.0 } }
-  \markup \fontsize  #+3.5 { \fill-line \bold {"Съставители"} }
-  \markup \fontsize  #+2.5 { \fill-line  {"Георги Стратев, Йоанна Стратева, Станка Желева,"} }
-  \markup \fontsize  #+2.5 { \fill-line {"Пенка Кадиева и Петър Ганев"} }
-  \markup { {  \vspace #1.0 } }
   \markup \fontsize  #+2 { \fill-line \bold {"Коректор на нотния текст"} }
   \markup \fontsize  #+1.5 { \fill-line  {"Райнхард Риддер"} }
   \markup { {  \vspace #0.5 } }
@@ -64,6 +60,8 @@
   \markup \fontsize  #+1.5 { \fill-line \bold {"Издателство Бяло Братство"} }
   \markup \fontsize  #+1.5 { \fill-line  {"izdatelstvo.bratstvo@gmail.com"} }
   \markup \fontsize  #+1.5 { \fill-line  {"www.bialobratstvo.bg"} }
+  \markup { {  \vspace #3.5 } }
+  \markup \fontsize  #+2 { \fill-line  {"ISBN-10 954-744-076-4"}}
 
 
 
