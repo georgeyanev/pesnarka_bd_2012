@@ -6,9 +6,9 @@ cat \
     ../001_title_page_bg.ly \
     ../007_blank_page.ly \
     ../006_oldest_book_bg.ly \
-     ../007_blank_page.ly \
+    ../007_blank_page.ly \
     ../238_toc.ly \
-    ../007_preface_bg.ly \
+    ../007_preface_bg_pg.ly \
     ../010_bratski_pesni.ly \
     ../016_zorata_na_noviya_zhivot.ly \
     ../018_izlyazal_e_seyach.ly \

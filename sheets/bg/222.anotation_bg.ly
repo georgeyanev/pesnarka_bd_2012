@@ -51,11 +51,11 @@
   \markup \fontsize  #+2 { \fill-line \bold {"Коректор на нотния текст"} }
   \markup \fontsize  #+1.5 { \fill-line  {"Райнхард Риддер"} }
   \markup { {  \vspace #0.5 } }
-  \markup \fontsize  #+2 { \fill-line \bold {"Редактор на лиричния текст"} }
-  \markup \fontsize  #+1.5 { \fill-line  {"Н.Н."} }
+  %\markup \fontsize  #+2 { \fill-line \bold {"Редактор на лиричния текст"} }
+  %\markup \fontsize  #+1.5 { \fill-line  {"Н.Н."} }
   \markup { {  \vspace #0.5 } }
   \markup \fontsize  #+2 { \fill-line \bold {"Компютърен дизайн"} }
-  \markup \fontsize  #+1.5 { \fill-line  {"Мария Кирева, Георги Янев"} }
+  \markup \fontsize  #+1.5 { \fill-line  {"Георги Янев"} }
   \markup { {  \vspace #0.5 } }
   \markup \fontsize  #+1.5 { \fill-line \bold {"Издателство Бяло Братство"} }
   
