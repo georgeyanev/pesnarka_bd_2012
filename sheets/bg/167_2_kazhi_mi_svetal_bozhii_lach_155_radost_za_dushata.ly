@@ -90,7 +90,7 @@
     } % score
 
     \label #'ref155_1
-    \tocItem \markup "Радост, радост за душата"
+    \tocItem \markup "Радост за душата"
     \score {
       \include "include/score-layout.ily"
 
@@ -157,7 +157,7 @@
       }
 
       \header {
-        title = \titleFunc "Радост, радост за душата" "Radost, radost za dušata"
+        title = \titleFunc "Радост за душата" "Radost za dušata"
       }
 
       \midi{}

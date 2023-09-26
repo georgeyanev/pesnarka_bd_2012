@@ -4,7 +4,7 @@
 
 \bookpart {
   \label #'ref125
-  \tocItem \markup "Слънчева песен – пчелна"
+  \tocItem \markup "Слънчева песен – пчелна мушичка"
   \paper {
     print-all-headers = ##t
     print-page-number = ##t
