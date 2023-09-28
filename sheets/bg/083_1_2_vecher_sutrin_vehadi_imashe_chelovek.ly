@@ -99,7 +99,7 @@
         \clef treble
         \key c \minor
         \time 4/4
-        \tempo "Andante"
+        \tempoFunc "Andante" 4 "66"
 
         \autoBeamOff
         g'4  g' ( ~ g'8 \times 2/3  { fis'16 [g'16 as'] } g'8 [ fis'] ) | g'1 | f'4 es' d'8 c' es' d' \break |

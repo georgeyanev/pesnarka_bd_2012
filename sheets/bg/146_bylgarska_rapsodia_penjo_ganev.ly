@@ -240,7 +240,7 @@
       \time 3/4 \break \bar ":|."
 
       \override TupletBracket.positions = #'(3 . 3)
-      \tempo "Tempo"
+      \tempo "ad libitum"
       \tuplet 3/2 8 { c16\>\mp([b g a b g]) c16([b g a b g]) c16([b g) b(a g\!\p])  } | \noBreak
       \tempo"rit." a4 a2 \fermata | \bar "||" \time 7/16 \break
 

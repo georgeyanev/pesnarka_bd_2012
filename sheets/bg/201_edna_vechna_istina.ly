@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref201
-  \tocItem \markup "Една вечна Истина, която е Бог на Любовта"
+  \tocItem \markup "Една вечна Истина, която е Бог на Любовта – (медитация) "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
