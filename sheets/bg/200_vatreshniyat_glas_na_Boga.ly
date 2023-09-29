@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref200
-  \tocItem \markup "Вътрешният глас на Бога  – (медитация)"
+  \tocItem \markup "Вътрешният глас на Бога"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -60,7 +60,7 @@
       ну ил -- би -- ют. Би -- ют, Би -- ют, Би -- ют. __}
 
       \header {
-        title = \titleFunc "Вътрешният глас на Бога – медитация " "Vătrešnijat glas na Boga – meditacija"
+        title = \titleFunc "Вътрешният глас на Бога " "Vătrešnijat glas na Boga"
 
       }
 
