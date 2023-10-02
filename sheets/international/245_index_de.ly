@@ -46,7 +46,7 @@
     \fill-with-pattern #1 #RIGHT . "Ангел вопияше – Angel vopijaše" \page-ref #'ref064 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Аум – Aum" \page-ref #'ref075 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Бащина песен – Угледна мома – Baština pesen – Ugledna moma" \page-ref #'ref138 "000" "?"
-    \fill-with-pattern #1 #RIGHT . "Берхан Ази – Berhan Azi" \page-ref #'ref163 "000" "?"
+    \fill-with-pattern #1 #RIGHT . "Берхан-Ази – Berhan-Azi" \page-ref #'ref163 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Бершид ба – Beršid ba" \page-ref #'ref098 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Блага дума – Blaga duma" \page-ref #'ref074 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Благата песен – Blagata pesen" \page-ref #'ref086_2 "000" "?"

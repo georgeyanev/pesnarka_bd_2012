@@ -1054,7 +1054,7 @@
       \vspace #0.4
       \line {
         \justify {
-          \concat {"129" . \bold " Берхан Ази – Berhan Azi."} Das Lied entstand 1936.
+          \concat {"129" . \bold " Берхан-Ази – Berhan-Azi."} Das Lied entstand 1936.
         }
       }
       \vspace #0.3
