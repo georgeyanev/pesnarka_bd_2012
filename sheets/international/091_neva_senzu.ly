@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref091
-  \tocItem \markup "Нева сензу – Neva senzu"
+  \tocItem \markup "Нева сaнзу – Neva sanzu"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -59,7 +59,7 @@
     }
 
     \header {
-      title = \titleFunc "Нева сензу" "Neva senzu"
+      title = \titleFunc "Нева санзу" "Neva sanzu"
     }
 
     \midi{}

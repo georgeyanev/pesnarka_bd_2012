@@ -156,7 +156,7 @@
       \with-link #'ref048 \fill-with-pattern #1 #RIGHT . "Напред, чада, напред" \page-ref #'ref048 "000" "?"
       \with-link #'ref154 \fill-with-pattern #1 #RIGHT . "Не ли думах" \page-ref #'ref154 "000" "?"
       \with-link #'ref050 \fill-with-pattern #1 #RIGHT . "Небето се отваря" \page-ref #'ref050 "000" "?"
-      \with-link #'ref091 \fill-with-pattern #1 #RIGHT . "Нева Сензу" \page-ref #'ref091 "000" "?"
+      \with-link #'ref091 \fill-with-pattern #1 #RIGHT . "Нева санзу" \page-ref #'ref091 "000" "?"
       \with-link #'ref062 \fill-with-pattern #1 #RIGHT . "Нови дрехи" \page-ref #'ref062 "000" "?"
       \with-link #'ref191 \fill-with-pattern #1 #RIGHT . "Новото Битие" \page-ref #'ref191 "000" "?"
       \with-link #'ref051 \fill-with-pattern #1 #RIGHT . "О, Учителю благати" \page-ref #'ref051 "000" "?"

@@ -155,7 +155,7 @@
     \fill-with-pattern #1 #RIGHT . "Напред, чада, напред – Napred, čada, napred" \page-ref #'ref048 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Не ли думах – Ne li dumah" \page-ref #'ref164 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Небето се отваря – Nebeto se otvarja" \page-ref #'ref050 "000" "?"
-    \fill-with-pattern #1 #RIGHT . "Нева Сензу – Neva Senzu" \page-ref #'ref091 "000" "?"
+    \fill-with-pattern #1 #RIGHT . "Нева Санзу – Neva Sanzu" \page-ref #'ref091 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Нови дрехи – Novi drehi" \page-ref #'ref062 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Новото Битие – Novoto Bitie" \page-ref #'ref191 "000" "?"
     \fill-with-pattern #1 #RIGHT . "О, Учителю благати – O, Učitelju blagati" \page-ref #'ref051 "000" "?"
