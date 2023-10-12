@@ -117,7 +117,7 @@
 
 
 
-  \markup \fill-line { \fontsize #deTitleFontSize "Ме-хейн II*" }
+  \markup \fill-line { \fontsize #deTitleFontSize "Ме-хейн II" }
 
   \markup  \fontsize #bgCoupletFontSize {
     \vspace #1

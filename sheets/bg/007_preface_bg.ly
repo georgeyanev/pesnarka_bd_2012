@@ -32,8 +32,8 @@
 
   }
 
-  \tocItem \markup "Предговор"
-  \markup \fontsize  #+3.0 { \fill-line \bold {"ПРЕДГОВОР"} }
+  \tocItem \markup "Предговор към настоящото издание"
+  \markup \fontsize  #+3.0 { \fill-line \bold {"ПРЕДГОВОР КЪМ НАСТОЯЩОТО ИЗДАНИЕ"} }
 
   \markup \fontsize #+2.5 {
     \vspace #1.5 \override #'(baseline-skip . 2.7)
