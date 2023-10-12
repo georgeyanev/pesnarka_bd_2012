@@ -54,7 +54,7 @@
   %\markup \fontsize  #+2 { \fill-line \bold {"Редактор на лиричния текст"} }
   %\markup \fontsize  #+1.5 { \fill-line  {"Н.Н."} }
    \markup { {  \vspace #0.5 } }
-   \markup \fontsize  #+2 { \fill-line \bold {"Компютърен дизайн"} }
+   \markup \fontsize  #+2 { \fill-line \bold {"Набор на нотния текст и дизайн"} }
    \markup \fontsize  #+1.5 { \fill-line  {"Мария Кирева, Георги Янев"} }
    \markup { {  \vspace #0.5 } }
   \markup \fontsize  #+1.5 { \fill-line \bold {"Издателство Бяло Братство"} }
