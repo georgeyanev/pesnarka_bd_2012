@@ -171,6 +171,8 @@
 
   \markup \fontsize #+3 \raise #0 \override #'(baseline-skip . 2.7) {
     \column {
+            \line {"  "}
+            \line {"  "}
 
       \fill-line { "" ""  \italic {"София, 1949 г.  "} }
     }

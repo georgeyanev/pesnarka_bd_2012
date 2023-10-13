@@ -89,7 +89,7 @@
 
   \markup \fontsize #+3 \raise #0 \override #'(baseline-skip . 2.7) {
     \column {
-
+      \line {"  "}
       \fill-line { "" ""  \italic {"Благовест Жеков  "} }
       \fill-line { "" ""  \italic {"София, 1999 г.  "} }
     }
