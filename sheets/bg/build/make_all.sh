@@ -73,7 +73,7 @@ cat \
     ../088_hodi_hodi.ly \
     ../089_tagi_skarbi.ly \
     ../090_svetal_den.ly \
-    ../091_neva_senzu.ly \
+    ../091_neva_sanzu.ly \
     ../092_1_2_3_kiamet_zenu_davai_davai_misli_pravo_misli.ly \
     ../094_v_nachaloto_be_slovoto.ly \
     ../095_1_2_vdahnovenie_dobar_den.ly \
