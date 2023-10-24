@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref179
-  \tocItem \markup "Молитва (Господи, Ти Си) "
+  \tocItem \markup "Тема "
   \paper {
     print-all-headers = ##t
     print-page-number = ##t
@@ -100,7 +100,7 @@
     }
 
     \header {
-      title = \titleFunc "Молитва" "Molitva"
+      title = \titleFunc "Тема" "Тема"
     }
 
     \midi{}
