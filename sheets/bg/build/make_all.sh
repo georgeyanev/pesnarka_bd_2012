@@ -121,7 +121,7 @@ cat \
     ../156_mirat_ide.ly \
     ../158_mirat_ide_II.ly \
     ../162_marsh_na_svetlite_sili.ly \
-    ../162_mash_vtori_variant_tekst_165_malkiyat_planinski_izvor.ly \
+    ../165_malkiyat_planinski_izvor.ly \
     ../166_Bog_e_Lyubov_II_167_kam_fir_fjur_fen.ly \
     ../167_2_kazhi_mi_svetal_bozhii_lach_155_radost_za_dushata.ly \
     ../163_berhan_azi.ly \
@@ -136,7 +136,7 @@ cat \
     ../176_zhitno_zarno.ly \
     ../177_izvorche.ly  \
     ../178_molitva.ly \
-    ../179_molitva_ti_si.ly \
+    ../179_tema_bez_tekst.ly \
     ../180_pesen_za_dvete_sestri.ly \
     ../181_proletna_pesen.ly \
     ../182_deset_temi.ly \
@@ -157,7 +157,10 @@ cat \
     ../214_ti_ste_spoluchish_v_zhivota.ly \
     ../216_otche_nash_ne_ni_vavezhdai.ly \
     ../217_strannik_sam.ly \
-    ../219_blank_page.ly \
+    ../249_new_songs.ly \
+    ../250_molitva_ti_si.ly \
+    ../251_dobrata_molitva.ly \
+    ../252_marsh_vtori_variant_tekst.ly \
     ../218_appendix.ly \
     ../220_description_bg.ly \
     ../221_dictionary_bg.ly \

@@ -5,7 +5,7 @@
 
 \bookpart {
   
-   \tocAct \markup"Нови братски песни"
+   \tocAct \markup"Допълнение – Ново творчество"
     \paper {
     print-all-headers = ##f
     print-page-number = ##f
@@ -34,7 +34,9 @@
 
   \markup { {  \vspace #13.2 } }
 
- \markup \fontsize  #+7 { \fill-line \bold {"НОВИ БРАТСКИ ПЕСНИ"} }
+ \markup \fontsize  #+7 { \fill-line \bold {"ДОПЪЛНЕНИЕ"} }
+ \markup { {  \vspace #0.3 } }
+ \markup \fontsize  #+6 { \fill-line \bold {"НОВО ТВОРЧЕСТВО"} }
 
   % include foreign translation(s) of the song
   %

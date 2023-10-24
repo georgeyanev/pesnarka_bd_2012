@@ -41,7 +41,9 @@
   \score {
     \include "include/score-layout.ily"
 
+
     \new Voice \absolute {
+      \override staff.keysignature.x-offse = #10
       \clef treble
       \key bes \minor
       \time 2/4
