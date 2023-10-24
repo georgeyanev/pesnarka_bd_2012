@@ -5,6 +5,7 @@
   \context {
     \Score
     \omit BarNumber %remove bar numbers
+    \override KeySignature.X-offset = #-1.2 %
   } % context
 
   \context {
