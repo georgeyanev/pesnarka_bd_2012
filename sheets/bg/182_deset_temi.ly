@@ -2,6 +2,7 @@
 
 % include paper part and global functions
 \include "include/globals.ily"
+ \layout { \override Staff.BarLine.thick-thickness = #4 }
 
 \bookpart {
   \label #'ref182

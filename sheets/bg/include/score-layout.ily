@@ -2,6 +2,7 @@
 \layout {
   indent = 0.0\cm % remove first line indentation
   ragged-last = ##f % do spread last line to fill the whole space
+  \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner 
   \context {
     \Score
     \omit BarNumber %remove bar numbers

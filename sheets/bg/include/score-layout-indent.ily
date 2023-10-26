@@ -5,6 +5,7 @@
       \context {
         \Score
         \omit BarNumber %remove bar numbers
+        \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars tiner 
       } % context
 
       \context {
