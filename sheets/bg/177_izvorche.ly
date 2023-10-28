@@ -19,11 +19,11 @@
       \partial 8
       e'8 | % 2
       b'4  a'8  g'8  fis'8  g'8
-      a'8 c''8 \break | % 3
+      a'8 c''8 | % 3
       b'4 b'8 b'8 e''8
       e''8 d''8 d''8 | % 4
-      \time 3/4  | % 4
-      g'8  a'8 b'4 b'4 \break | % 5
+      \time 3/4  |  \break % 4
+      g'8  a'8 b'4 b'4 | % 5
       \time 4/4  | % 5
       a'8  a'8  a'8 b'8  g'4
       g'4 | % 6
