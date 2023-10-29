@@ -133,6 +133,7 @@
       \with-link #'ref162_2 \fill-with-pattern #1 #RIGHT . "Марш на светлите сили II" \page-ref #'ref162_2 "000" "?"
       \with-link #'ref080 \fill-with-pattern #1 #RIGHT . "Махар Бену Аба" \page-ref #'ref080 "000" "?"
       \with-link #'ref175_2 \fill-with-pattern #1 #RIGHT . "Ме-хейн" \page-ref #'ref175_2 "000" "?"
+      \with-link #'ref175_2 \fill-with-pattern #1 #RIGHT . "Ме-хейн II" \page-ref #'ref175_2_2 "000" "?"
       \with-link #'ref185 \fill-with-pattern #1 #RIGHT . "Мелодия 1 – Красив Живот" \page-ref #'ref185 "000" "?"
       \with-link #'ref186 \fill-with-pattern #1 #RIGHT . "Мелодия 2 – В радостта" \page-ref #'ref186 "000" "?"
       \with-link #'ref188 \fill-with-pattern #1 #RIGHT . "Мелодия 3 – Когато се денят" \page-ref #'ref188 "000" "?"

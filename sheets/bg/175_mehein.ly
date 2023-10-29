@@ -7,7 +7,39 @@
 \bookpart {
   \label #'ref175_2
   \tocItem \markup "Ме-хейн"
-  \include "include/bookpart-paper.ily"
+
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 10)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -115,20 +147,80 @@
 
   } % score
 
+    \tocItem \markup "Ме-хейн II"
+     \label #'ref175_2_2
+
+   \score {
+    \include "include/score-layout.ily"
+
+    \new Voice \absolute {
+      \clef treble
+      \key g \minor
+      \time 3/4
+      \tempoFunc "Lento" 4 "50"
+      \autoBeamOff
 
 
-  \markup \fill-line { \fontsize #deTitleFontSize "Ме-хейн II" }
+      \times 2/3  {
+        g8  a8 bes8
+      }
+      a2 | % 2
 
-  \markup  \fontsize #bgCoupletFontSize {
-    \vspace #1
-    \hspace #15
-    \override #'(baseline-skip . 1.8)
-    \column {
-      \line { 1. В дни на борба, в дни на печал, }
-      \line {   "   "  далеч от теб мой роден край,}
-      \line {   "   " аз винаги мисля за теб,}
-      \line {   "   " аз винаги мисля  мисля за теб.}
+      \times 2/3  {
+        a8  bes8 c'8
+      }
+      bes2 | % 3
+
+      \times 2/3  {
+        bes8  c'8 d'8
+      }
+      es'2 \break | % 4
+
+      \times 2/3  {
+        d'8  e'8 fis'8
+      }
+      g'2 | % 5
+      a'4
+      \times 2/3  {
+        bes'8  a'8 g'8
+      }
+
+      \times 2/3  {
+        fis'8  g'8  a'8
+      }
+      | % 6
+      g'4 ^\fermata a'2 \break | % 7
+
+      \times 2/3  {
+        bes'8  a'8 g'8
+      }
+      \slurSolid
+      es'4
+
+       fis'4 | % 8
+      g'4 -- g'4 -- g'4 -- | % 9
+      g'2. \bar "|." \break
+
+
+      
     }
 
-  } % markup
+    \addlyrics {
+      В~дни на бор -- ба, в~дни на пе -- чал да -- леч от теб мой ро -- ден край, аз ви -- на -- ги мис -- ля за теб, аз ви -- на -- ги мис -- ля  мис -- ля за теб.
+    }
+
+    \header {
+      title = \titleFunc "Ме-хейн II" "Me-hejn II"
+    }
+
+    \midi{}
+
+  } % score
+
+
+  
+
+
+
+
 } % bookpart
