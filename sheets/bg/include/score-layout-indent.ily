@@ -2,10 +2,11 @@
     \layout {
       indent = 0.5\cm % first line indentation
       ragged-last = ##f % do spread last line to fill the whole space
+      \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars tiner 
       \context {
         \Score
         \omit BarNumber %remove bar numbers
-        \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars tiner 
+        \override KeySignature.X-offset = #-1.2 %
       } % context
 
       \context {
@@ -26,5 +27,6 @@
             (padding . 0.5)
         )
         \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
+        includeGraceNotes = ##t
       }
     } % layout
