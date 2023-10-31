@@ -116,7 +116,7 @@ cat \
     ../145_pesni_sled_1944.ly \
     ../146_bylgarska_rapsodia_penjo_ganev.ly \
     ../150_balgarska_idiliya.ly \
-    ../154_ne_li_dimah_.ly \
+    ../154_ne_li_dumah.ly \
     ../161_duhai_vetre_II.ly \
     ../156_mirat_ide.ly \
     ../158_mirat_ide_II.ly \
