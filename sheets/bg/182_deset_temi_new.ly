@@ -32,7 +32,7 @@
 
     % change distance between staves
     system-system-spacing =
-    #'((basic-distance . 8)
+    #'((basic-distance . 10)
        (minimum-distance . 6)
        (padding . 1)
        (stretchability . 10))
@@ -95,7 +95,7 @@
 
   } % score
 
-  \markup \empty-one
+
 
   \score {
     %2
@@ -135,7 +135,7 @@
   } % score
 
 
-  \markup \empty-one
+
 
   \score {
     %3
@@ -202,7 +202,7 @@
   } % score
 
 
-  \markup \empty-one
+
 
   \score {
     %3
@@ -233,7 +233,7 @@
 
   } % score
 
-  \markup \empty-one
+
 
   \score {
     %4
@@ -286,7 +286,7 @@
 
   } % score
 
-  \markup \empty-one
+
 
   \score {
     %5
@@ -319,7 +319,7 @@
 
   } % score
 
-  \markup \empty-one
+
 
   \score {
     %6
@@ -346,7 +346,7 @@
 
   } % score
 
-  \markup \empty-one
+
   \score {
     %7
     \include "include/score-layout-indent.ily"
@@ -372,7 +372,7 @@
 
   } % score
 
-  \markup \empty-one
+
 
   \score {
     %8
@@ -417,7 +417,7 @@
     \midi{}
   } % score
 
-  \markup \empty-one
+
 
   \score {
     %9
@@ -460,8 +460,6 @@
   \tocItem \markup "Музикален момент"
   \score {
     \include "include/score-layout.ily"
-   
-
      \new Voice \absolute {
       \clef treble
        \key g \major
