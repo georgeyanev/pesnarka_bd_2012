@@ -23,7 +23,7 @@
       ""
     }
 
-    \tocAct  \markup "Приложения"
+    \tocAct  \markup "Приложение"
 
     left-margin = 1.5\cm
     right-margin = 1.5\cm

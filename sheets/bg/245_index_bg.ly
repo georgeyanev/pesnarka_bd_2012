@@ -75,10 +75,11 @@
       \with-link #'ref170_1 \fill-with-pattern #1 #RIGHT . "Вяра светла I" \page-ref #'ref170_1 "000" "?"
       \with-link #'ref170_2 \fill-with-pattern #1 #RIGHT . "Вяра светла II" \page-ref #'ref170_2 "000" "?"
       \with-link #'ref170_3 \fill-with-pattern #1 #RIGHT . "Вяра светла III" \page-ref #'ref170_3 "000" "?"
+      \with-link #'ref190 \fill-with-pattern #1 #RIGHT . "Гласът на Живия Господ" \page-ref #'ref190 "000" "?"
     }
     \hspace #2.6
     \override #'(baseline-skip . 2.5) \column {
-      \with-link #'ref190 \fill-with-pattern #1 #RIGHT . "Гласът на Живия Господ" \page-ref #'ref190 "000" "?"
+     
       \with-link #'ref210 \fill-with-pattern #1 #RIGHT . "Господи, колко те обичам" \page-ref #'ref210 "000" "?"
       \with-link #'ref078 \fill-with-pattern #1 #RIGHT . "Грее, грее" \page-ref #'ref078 "000" "?"
       \with-link #'ref174_1 \fill-with-pattern #1 #RIGHT . "Да бих Тe слушал" \page-ref #'ref174_1 "000" "?"
@@ -87,6 +88,7 @@
       \with-link #'ref118_1 \fill-with-pattern #1 #RIGHT . "Денят иде" \page-ref #'ref118_1 "000" "?"
       \with-link #'ref182 \fill-with-pattern #1 #RIGHT . "Десет теми" \page-ref #'ref182 "000" "?"
       \with-link #'ref063 \fill-with-pattern #1 #RIGHT . "Дишай дълбоко" \page-ref #'ref063 "000" "?"
+       \with-link #'ref095_2 \fill-with-pattern #1 #RIGHT . "Добата молитва" \page-ref #'ref252 "000" "?"
       \with-link #'ref095_2 \fill-with-pattern #1 #RIGHT . "Добър ден" \page-ref #'ref095_2 "000" "?"
       \with-link #'ref116 \fill-with-pattern #1 #RIGHT . "Доще ден" \page-ref #'ref116 "000" "?"
       \with-link #'ref136 \fill-with-pattern #1 #RIGHT . "Духай ветре" \page-ref #'ref136 "000" "?"
@@ -115,12 +117,12 @@
       \with-link #'ref086_1 \fill-with-pattern #1 #RIGHT . "Кажи ми Ти Истината" \page-ref #'ref086_1 "000" "?"
       \with-link #'ref168 \fill-with-pattern #1 #RIGHT . "Кажи ми Ти Истината II" \page-ref #'ref168 "000" "?"
       \with-link #'ref169_1 \fill-with-pattern #1 #RIGHT . "Кажи ми Ти Истината III" \page-ref #'ref169_1 "000" "?"
+       \with-link #'ref092_1 \fill-with-pattern #1 #RIGHT . "Киамет Зену" \page-ref #'ref092_1 "000" "?"
     }
   }
 
   \markup \override #'(line-width . 32) \fontsize  #+2.5 {
     \override #'(baseline-skip . 2.5) \column {
-      \with-link #'ref092_1 \fill-with-pattern #1 #RIGHT . "Киамет Зену" \page-ref #'ref092_1 "000" "?"
       \with-link #'ref103 \fill-with-pattern #1 #RIGHT . "Красив е животът" \page-ref #'ref103 "000" "?"
       \with-link #'ref056_2 \fill-with-pattern #1 #RIGHT . "Към Рила" \page-ref #'ref056_2 "000" "?"
       \with-link #'ref054 \fill-with-pattern #1 #RIGHT . "Към Сион" \page-ref #'ref054 "000" "?"
@@ -130,7 +132,7 @@
       \with-link #'ref099 \fill-with-pattern #1 #RIGHT . "Малкият извор (Светъл лъч)" \page-ref #'ref099 "000" "?"
       \with-link #'ref165 \fill-with-pattern #1 #RIGHT . "Малкият планински извор" \page-ref #'ref165 "000" "?"
       \with-link #'ref162 \fill-with-pattern #1 #RIGHT . "Марш на светлите сили" \page-ref #'ref162 "000" "?"
-      \with-link #'ref162_2 \fill-with-pattern #1 #RIGHT . "Марш на светлите сили II" \page-ref #'ref162_2 "000" "?"
+      \with-link #'ref162_2 \fill-with-pattern #1 #RIGHT . "Марш на светлите сили II" \page-ref #'ref253 "000" "?"
       \with-link #'ref080 \fill-with-pattern #1 #RIGHT . "Махар Бену Аба" \page-ref #'ref080 "000" "?"
       \with-link #'ref175_2 \fill-with-pattern #1 #RIGHT . "Ме-хейн" \page-ref #'ref175_2 "000" "?"
       \with-link #'ref175_2 \fill-with-pattern #1 #RIGHT . "Ме-хейн II" \page-ref #'ref175_2_2 "000" "?"
@@ -147,7 +149,7 @@
       \with-link #'ref111 \fill-with-pattern #1 #RIGHT . "Мога да любя" \page-ref #'ref111 "000" "?"
       \with-link #'ref212 \fill-with-pattern #1 #RIGHT . "Моето слънце днес ще изгрее" \page-ref #'ref212 "000" "?"
       \with-link #'ref204 \fill-with-pattern #1 #RIGHT . "Молитва (Вярвам в теб)" \page-ref #'ref204 "000" "?"
-      \with-link #'ref179 \fill-with-pattern #1 #RIGHT . "Молитва (Господи, Ти Си)" \page-ref #'ref179 "000" "?"
+      \with-link #'ref179 \fill-with-pattern #1 #RIGHT . "Молитва (Господи, Ти Си)" \page-ref #'ref251 "000" "?"
       \with-link #'ref178 \fill-with-pattern #1 #RIGHT . "Молитва (Чуй, Господи)" \page-ref #'ref178 "000" "?"
       \with-link #'ref087 \fill-with-pattern #1 #RIGHT . "Мусала" \page-ref #'ref087 "000" "?"
       \with-link #'ref058 \fill-with-pattern #1 #RIGHT . "На белия цвят" \page-ref #'ref058 "000" "?"
