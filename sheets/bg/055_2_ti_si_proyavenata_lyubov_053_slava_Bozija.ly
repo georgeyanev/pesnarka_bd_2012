@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref055_2
-  \tocItem \markup "Ти си проявената Любов"
+  \tocItem \markup "Ти Си проявената Любов"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -30,13 +30,13 @@
     }
 
     \addlyrics {
-      Ти си про -- я -- ве -- на -- та Лю -- бов към мен, Гос -- по --
+      Ти Си про -- я -- ве -- на -- та Лю -- бов към мен, Гос -- по --
       ди. Ду -- ша -- та ми "коп-" -- ней за Твой -- та чис -- то --
       та. Ду -- ша -- та ми "коп-" -- ней за Твой -- та свет -- ли -- на.
     }
 
     \header {
-      title = \titleFunc " Ти си проявената Любов" "Ti si projavenata Ljubov"
+      title = \titleFunc " Ти Си проявената Любов" "Ti Si projavenata Ljubov"
     }
 
     \midi{}

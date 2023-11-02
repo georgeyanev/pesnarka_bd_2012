@@ -74,7 +74,7 @@
     \hspace #18
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-      \line {   2. Христос отгоре слиза}
+      \line {   2. Христос от Горе слиза}
 
       \line {   "   " във Своята държава}
 

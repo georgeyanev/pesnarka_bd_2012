@@ -77,7 +77,7 @@
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line { 2.  Господи, Ти мой Учител, }
-      \line {   "   " в стъпките си ме води, }
+      \line {   "   " в стъпките Си ме води }
       \line {   "   " и кат мощен покровител }
       \line {   "   " всякога към мен бъди. }
       \line { " " }

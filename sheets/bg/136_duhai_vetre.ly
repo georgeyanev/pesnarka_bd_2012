@@ -151,7 +151,7 @@
     }
 
     \header {
-      title = \titleFunc "Духай ветре" "Duhaj vetre"
+      title = \titleFunc "Духай, ветре" "Duhaj, vetre"
     }
 
     \midi{}

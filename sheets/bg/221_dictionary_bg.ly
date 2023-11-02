@@ -101,7 +101,7 @@
       \justify {бавно, букв. широко}
 
       \line \bold {Lento} \override #`(baseline-skip . ,blineskip221)
-      \justify { бавно, букв. протяжн}
+      \justify { бавно, букв. протяжно}
 
       \line \bold {L’istesso tempo} \override #`(baseline-skip . ,blineskip221)
       \justify { \italic "[листесо...]" същото темпо}
