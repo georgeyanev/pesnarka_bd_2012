@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref212
-  \tocItem \markup "Моето слънце днес ще изгрее"
+  \tocItem \markup "Моето Слънце днес ще изгрее"
   \paper {
     print-all-headers = ##t
     print-page-number = ##t
@@ -196,7 +196,7 @@
     }
 
     \header {
-      title = \titleFunc "Моето слънце днес ще изгрее" "Moeto slănce dnes šte izgree"
+      title = \titleFunc "Моето Слънце днес ще изгрее" "Moeto Slănce dnes šte izgree"
     }
 
     \midi{}

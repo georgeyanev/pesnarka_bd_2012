@@ -38,7 +38,7 @@
 
   \markup \fontsize  #+7 { \fill-line \bold {"ПЕСНИ, МЕЛОДИИ И"} }
   \markup { {  \vspace #0.3 } }
-  \markup \fontsize  #+7 { \fill-line \bold {"ТЕМИ ОТ УЧИТЕЛЯ"} }
+  \markup \fontsize  #+7 { \fill-line \bold {"ТЕМИ ОТ УЧИТЕЛЯ,"} }
   \markup { {  \vspace #0.3 } }
   \markup \fontsize  #+7 { \fill-line \bold {"непубликувани до 1944 г."} }
 

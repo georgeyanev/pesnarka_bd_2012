@@ -78,10 +78,10 @@
 
   } % score
 
-  \markup \italic \dc-one-nobold "attacca „В мрак тъмнота“"
+  \markup \italic \dc-one-nobold "attacca „В мрак, тъмнота“"
 
   \label #'ref080_1
-  \tocItem \markup "В мрак тъмнота"
+  \tocItem \markup "В мрак, тъмнота"
 
 
   \score {
@@ -117,7 +117,7 @@
     }
 
     \header {
-      title = \titleFunc "В мрак тъмнота" "V mrak tămnota"
+      title = \titleFunc "В мрак, тъмнота" "V mrak, tămnota"
     }
 
     \midi{}

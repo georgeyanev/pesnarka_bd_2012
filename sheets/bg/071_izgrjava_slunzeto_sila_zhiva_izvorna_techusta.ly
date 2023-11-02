@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref071_1
-  \tocItem \markup "Изгрява слънцето"
+  \tocItem \markup "Изгрява Слънцето"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -31,7 +31,7 @@
     }
 
     \header {
-      title = \titleFunc "Изгрява слънцето" "Izgrjava slănceto"
+      title = \titleFunc "Изгрява Слънцето" "Izgrjava Slănceto"
     }
 
     \midi{}

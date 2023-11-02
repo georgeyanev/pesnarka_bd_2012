@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref211
-  \tocItem \markup "Кажи ми светли Божи лъч II"
+  \tocItem \markup "Кажи ми, светли Божи лъч II"
   \paper {
     print-all-headers = ##t
     print-page-number = ##t
@@ -144,7 +144,7 @@
       -- вят __  чрез ме -- не.}
 
       \header {
-        title = \titleFunc "Кажи ми светли Божи лъч II  " "Kaži mi svetli Boži lăč II"
+        title = \titleFunc "Кажи ми, светли Божи лъч II  " "Kaži mi svetli, Boži lăč II"
       }
 
       \midi{}

@@ -50,7 +50,7 @@
 
   \include "include/bookpart-paper.ily"
   \label #'ref083_2
-  \tocItem \markup "Вечер сутрин"
+  \tocItem \markup "Вечер, сутрин"
   \score {
     \include "include/score-layout.ily"
 

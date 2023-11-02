@@ -57,7 +57,7 @@ cat \
     ../069_pesni_ot_Uchitelya_blank.ly \
     ../069_pesni_ot_Uchitelya.ly \
     ../070_fir_fur_fen.ly \
-    ../071_zgrjava_slunzeto_sila_zhiva_izvorna_techusta.ly \
+    ../071_izgrjava_slunzeto_sila_zhiva_izvorna_techusta.ly \
     ../072_073_blagost_sladko_medeno.ly \
     ../074_076_blaga_duma_venir_benir.ly \
     ../075_076_2_sila_ziva_aum.ly \

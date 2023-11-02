@@ -4,7 +4,7 @@
 
 \bookpart {
   \label #'ref136
-  \tocItem \markup "Духай ветре"
+  \tocItem \markup "Духай, ветре"
   \paper {
     print-all-headers = ##t
     print-page-number = ##t
