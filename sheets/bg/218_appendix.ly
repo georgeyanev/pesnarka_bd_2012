@@ -23,7 +23,7 @@
       ""
     }
 
-    \tocAct  \markup "Приложения"
+    \tocAct  \markup "Приложение"
 
     left-margin = 1.5\cm
     right-margin = 1.5\cm
@@ -36,7 +36,7 @@
 
    \markup { {  \vspace #13.2 } }
 
- \markup \fontsize  #+7 { \fill-line \bold {"ПРИЛОЖЕНИЯ"} }
+ \markup \fontsize  #+7 { \fill-line \bold {"ПРИЛОЖЕНИE"} }
 
 } % bookpart
 

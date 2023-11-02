@@ -60,8 +60,7 @@
       \time 2/4  | % 9
 
       des'16^\markup { \italic {sostenuto} }
-      c'16
-      ([des'16])  es'16
+      c'16 [des'16]  es'16
       f'8  as'8 |
       f'4 ^\markup{ \italic {a tempo} }  es'4 \break | % 11
       \time 3/4  | % 11
@@ -70,7 +69,7 @@
         as'8
       }
       bes'4  as'4 | % 12
-      f'4  ges'8 ( [  f'8 ) ]  f'4 | % 13
+      f'4  ges'8  [  f'8  ]  f'4 | % 13
       \times 2/3  {
         f'8 ^\markup{ \italic {sostenuto} }  ges'8
         as'8

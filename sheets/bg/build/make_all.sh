@@ -121,25 +121,24 @@ cat \
     ../156_mirat_ide.ly \
     ../158_mirat_ide_II.ly \
     ../162_marsh_na_svetlite_sili.ly \
-    ../162_mash_vtori_variant_tekst_165_malkiyat_planinski_izvor.ly \
-    ../166_Bog_e_Lyubov_II_167_kam_fir_fjur_fen.ly \
-    ../167_2_kazhi_mi_svetal_bozhii_lach_155_radost_za_dushata.ly \
     ../163_berhan_azi.ly \
+    ../164_pesen_na_deteto.ly \
+    ../166_Bog_e_Lyubov_II_167_kam_fir_fjur_fen.ly \
+    ../165_malkiyat_planinski_izvor.ly \
+    ../167_2_kazhi_mi_svetal_bozhii_lach_155_radost_za_dushata.ly \
     ../168_kazhi_mi_ti_istinata_II.ly \
     ../169_1_2_kazhi_mi_ti_isinata_III_svoboda_e_portrebna_za_dushata.ly \
     ../170_vyara_svetla_I_II_III_171_milost_blagost_az_moga_da_disham.ly \
-    ../173_malkata_bubolechka_174_3_radost.ly \
-    ../164_pesen_na_deteto.ly \
     ../172_igrata_na_potocheto.ly \
+    ../173_malkata_bubolechka_174_3_radost.ly \
     ../174_1_da_bih_te_slusham_174_2_slusham_175_pismoto.ly \
     ../175_mehein.ly \
     ../176_zhitno_zarno.ly \
     ../177_izvorche.ly  \
     ../178_molitva.ly \
-    ../179_molitva_ti_si.ly \
     ../180_pesen_za_dvete_sestri.ly \
     ../181_proletna_pesen.ly \
-    ../182_deset_temi.ly \
+    ../182_deset_temi_new.ly \
     ../185_melodiya_i_krasiv_zhivot.ly \
     ../186_melodiya_2_v_radostta.ly \
     ../188_melodiya_3.ly \
@@ -158,11 +157,16 @@ cat \
     ../216_otche_nash_ne_ni_vavezhdai.ly \
     ../217_strannik_sam.ly \
     ../219_blank_page.ly \
+    ../250_addendum.ly \
+    ../251_molitva_ti_si_strateva.ly \
+    ../252_dobrata_molitva.ly \
+    ../253_marsh_tekst_pg.ly \
+    ../219_blank_page.ly \
     ../218_appendix.ly \
     ../220_description_bg.ly \
     ../221_dictionary_bg.ly \
-    ../245_index_bg.ly \
     ../222.anotation_bg.ly \
+    ../245_index_bg.ly \
     > tmp.ly
 
 lilypond --include=../ -o danov_songbook_bg tmp.ly
