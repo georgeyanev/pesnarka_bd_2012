@@ -36,7 +36,7 @@
 
    \markup { {  \vspace #13.2 } }
 
- \markup \fontsize  #+7 { \fill-line \bold {"ПРИЛОЖЕНИЯ"} }
+ \markup \fontsize  #+7 { \fill-line \bold {"ПРИЛОЖЕНИE"} }
 
 } % bookpart
 
