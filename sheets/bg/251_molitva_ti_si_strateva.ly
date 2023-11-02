@@ -91,10 +91,8 @@
       es'2 |
       des'2 | % 21
       c'2 | % 22
-      bes2 ( | bes4 ) s4 | \break
-      \autoBeamOff
-      \partial 4
-      f'8.  f'16 | % 2
+      bes2 ( | bes4 ) 
+      f'8.  f'16 | \break % 2
       f'2 | % 3
       bes'4  as'4 | % 4
       ges'2 | % 5
