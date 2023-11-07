@@ -32,7 +32,7 @@
 
   }
 
-  \markup { {  \vspace #10.0 } }
+  \markup { {  \vspace #7.0 } }
 
   \markup \fontsize  #+3.5 { \fill-line \bold {"Петър Дънов"} }
 

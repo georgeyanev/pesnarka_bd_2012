@@ -34,7 +34,7 @@
 
   \markup { {  \vspace #13.2 } }
 
- \markup \fontsize  #+5 { \fill-line \bold {"ДОПЪЛНЕНИЕ"} }
+ \markup \fontsize  #+7 { \fill-line \bold {"ДОПЪЛНЕНИЕ"} }
 
   % include foreign translation(s) of the song
   %
