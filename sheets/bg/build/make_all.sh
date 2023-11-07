@@ -137,12 +137,12 @@ cat \
     ../177_izvorche.ly  \
     ../178_molitva.ly \
     ../180_pesen_za_dvete_sestri.ly \
+    ../181_proletna_pesen.ly \
     ../182_deset_temi_new.ly \
     ../185_melodiya_i_krasiv_zhivot.ly \
     ../186_melodiya_2_v_radostta.ly \
     ../188_melodiya_3.ly \
     ../189_osarenie.ly \
-     ../181_proletna_pesen.ly \
     ../190_glasat_na_zhiviya_Gospod.ly \
     ../191_novoto_bitie.ly \
     ../200_vatreshniyat_glas_na_Boga.ly \
