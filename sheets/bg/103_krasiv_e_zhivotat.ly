@@ -12,15 +12,12 @@
 
 
     \new Voice \absolute{
-
       \clef treble
       \key a \major
       \time 2/4
       \tempoFunc "Moderato" 4 "88"
       \autoBeamOff
-
       \partial 8
-
       \repeat volta 2 {
         e'8 | a'4 a'8. b'16 | cis''4 a'8. a'16 | cis''8 cis''8 d''8. cis''16 | b'2 | e''4 e''8. ( [ d''16 ] ) \break |
 
