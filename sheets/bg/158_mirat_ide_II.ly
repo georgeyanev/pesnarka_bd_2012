@@ -124,7 +124,7 @@
       \acciaccatura { c8 } bes([a]) bes c | \noBreak
       d2 | \break
 
-      d,8^\markup{ \italic { largamente } } ees16([d]) cis8 d | \noBreak
+      d,8^\markup{\huge \italic { largamente } } ees16([d]) cis8 d | \noBreak
       \acciaccatura { c' } bes4. a8 | \noBreak
       g4 g | \noBreak
       g2 | \bar "||" \break
@@ -133,17 +133,17 @@
       c,8. c16 c c c c | \break
 
       f8. ees16 d8 c | \noBreak
-      bes16 r bes r bes r bes r | \noBreak
+      bes8 r  bes r | bes r bes r | \noBreak
       ees8. d16 c bes c ees | \break
 
       a,8. a16 a a a a | \noBreak
       d8 d16([c]) bes8 a | \noBreak
-      g16 r g r g r g r | \break
+      g8 r g r | g r g r | \break
 
-      d4^\markup{ \italic { largamente } } e8 fis | \noBreak
+      d4^\markup{ \huge \italic { largamente } } e8 fis | \noBreak
       g4 bes8. a16 | \noBreak
       g4 g8 g | \noBreak
-      g2 \bar "|."
+      g2 \fermata \bar "|."
     }
 
     \addlyrics {
@@ -172,7 +172,7 @@
       Бо -- жи -- я вес -- | ти -- тел | ча -- ка | той. |
       И -- де ве -- че __ | Ан -- гел на Ми -- ра със |
       клон -- че пал -- мо -- | во и же -- зъл. | Сли -- за той от -- го -- ре, |
-      цар -- ствен и же -- лан кат | слън -- че -- ва ус -- | мив -- ка бла -- га |
+      цар -- ствен и "же-" -- лан кат | слън -- че -- ва ус -- | мив -- ка бла -- га |
       и "с~Ра" -- дост | пъл -- ни сър -- | ца -- та ни той. |
     }
 

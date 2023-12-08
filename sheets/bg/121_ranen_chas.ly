@@ -5,7 +5,7 @@
 \bookpart {
   \label #'ref121
   \tocItem \markup "Ранен час"
-    \paper {
+  \paper {
     print-all-headers = ##t
     print-page-number = ##t
     print-first-page-number = ##t
@@ -71,7 +71,7 @@
       f2 ^\fermata
       \tuplet 3/2 {   a,8 ( [  bes8 ) ]  c8 }
       | % 15
-      des4 ^\fermata  c4. ^\fermata  f8 | % 16
+      des4 ^\fermata  c4. ^\fermata \caesura f8 | % 16
       \time 4/4  | % 16
       bes4.  as8  bes8  as8
       ges8  f8 \break | % 17
@@ -87,7 +87,7 @@
       f4  des4 | % 23
       \tempo "rall." c16  des16  es16
       des16  c8.  des16 | % 24
-      \time 3/4 bes2  % 25
+      \time 3/4 bes2 \caesura % 25
       bes'8.  bes16 |
       \tempo "a tempo" bes2 % 26
       c16  des16  c16  bes16 |
@@ -130,14 +130,17 @@
       маш ти. Чуй __  гла -- са ми!
       Ти -- хи зву -- ци теб зо -- ват,
       веч -- на Лю -- бов там ца -- ри!}
+      \addlyrics {
+        \repeat unfold 52 { \skip 2 } (*Ве -- лик Жи -- вот се раж -- да са -- мо в~теж -- ка -- та скръб.)
+      }
 
-        \header {
-          title = \titleFunc "Ранен час" "Ranen čas"
-        }
+      \header {
+        title = \titleFunc "Ранен час" "Ranen čas"
+      }
 
-        \midi{}
+      \midi{}
 
-      } % score
-      
+    } % score
 
-    } % bookpart
+
+  } % bookpart

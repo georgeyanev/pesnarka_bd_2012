@@ -38,7 +38,7 @@
 
   } % score
 
-  \markup \italic \dc-one-nobold "attacca „Сила жива, изворна“"
+  \markup \huge \italic \dc-one-nobold "attacca „Сила жива, изворна“"
 
   % include foreign translation(s) of the song
 

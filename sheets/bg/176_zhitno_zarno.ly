@@ -48,22 +48,22 @@
       \tempoFunc "Moderato" 4 "72"
       \autoBeamOff
       \partial 4
-      c4 | c2 d4 es | c g'2 g4^\markup { \large \italic "sosten."} | bes8 as g f as2^\markup { \large \italic "a tempo"} | g2. g4 | \break
+      c4 | c2 d4 es | c g'2 g4^\markup { \huge \italic "sosten."} | bes8 as g f as2^\markup { \huge \italic "a tempo"} | g2. g4 | \break
 
-      c,4. c8 d2 (| d4) d^\markup { \large \italic "sosten."} f8 es d c | d4 d2 d4 |\break
+      c,4. c8 d2 (| d4) d^\markup { \huge \italic "sosten."} f8 es d c | d4 d2 d4 |\break
 
-      f8.^\markup { \large \italic "a tempo"} f16 g8. g16 c4. \fermata c8 | \time 3/4 bes as g f as4 \fermata | g2 f4 | \break
+      f8.^\markup { \huge \italic "a tempo"} f16 g8. g16 c4. \fermata c8 | \time 3/4 bes as g f as4 \fermata | g2 f4 | \break
 
-      f4. g8 es4 | c2 d4 | d2 b4 | c2 c4 | \repeat volta 2 {
+      f4. g8 es4 | c2 d4 | d2 b4 | c2 \fermata \caesura c4 | \repeat volta 2 {
 
         \tempoFunc "Allegro vivace" 2. "50"
         c8 -> d es d c b | |\break
 
         c -> d es d c  b | c -> d es d c 4 | \break
 
-        g'2. (|g4) f f8 g8 | as g f e f g | \break
+        g'2. (|g4.) f8 f8 f16 (g16) | as8 g f e f8 f16 g16 | \break
 
-        as8 g f e f g | as g f4 c'4 | c2. (| c4) c c | \break
+        as8 ( [g]) f e f f16 g16 | as8 ( [g ] ) f4 c'4 | c2. (| c4) c c | \break
 
         f -> es d | es -> d c | b -> c d | c2. ( | c4)  c c  | \break
 
@@ -97,7 +97,7 @@
 
       Днес -- ка за пър -- ви път, доб -- ре пре -- ме -- не -- на,
 
-      на ло -- зе -- на "пръч-" -- ка кац -- нах __ и от слад -- ко -- то гроз -- де
+      на ло -- зе -- на пръч -- ка кац -- нах __ и от слад -- ко -- то гроз -- де
 
       за пръв път хап -- нах, __ и от слад -- ко -- то гроз -- де
 
@@ -105,13 +105,13 @@
 
       Кол -- ко "ху-" -- бав е жи -- во -- тът, то -- га -- ва си ка -- зах.}
 
-        \header {
-          title = \titleFunc "Житно зърно" "Žitno zărno"
-        }
+      \header {
+        title = \titleFunc "Житно зърно" "Žitno zărno"
+      }
 
-        \midi{}
+      \midi{}
 
-      } % score
-      
+    } % score
 
-    } % bookpart
+
+  } % bookpart

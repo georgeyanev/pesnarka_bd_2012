@@ -77,29 +77,27 @@
       \once \override Hairpin.to-barline = ##f
       fis'4 ^\> e'8 \break | % 21
       e'4 ( fis'8 ) | % 22
-      d'4. ~ ^\! | % 23
-      d'8 r8 g'16 ( [ a'16 ) ] | % 24
-      b'4 \once \omit TupletBracket
+      d'4. ^\! | % 23
+      g'16 ( [ a'16 ) ]
+      b'4 | % 24
+      \once \omit TupletBracket
       \times 2/3  {
         a'16 ( [ b'16 a'16 ) ]
       }
-      | % 25
-      d''4 \once \omit TupletBracket
+      d''4 | \once \omit TupletBracket
       \times 2/3  {
         c''16 ( [  d''16  c''16 ) ]
       }
-      | % 26
-      b'4 \once \omit TupletBracket
+      b'4  | \once \omit TupletBracket
       \times 2/3  {
         a'16 ( [ g'16 fis'16 ) ]
-      }
-      \break | % 27
-      g'8 ( ~ [ g'16 a'16 b'16 c''16
-      ] | % 28
-      d''16 -. [  e''16 -.  fis''16 -.
-      g''16 -. ) ] d''8 ~  | % 29
-      d''4  b'16 ( [  c''16 ) ] |
-      b'4 a'8 | % 31
+      } g'4 ( ~
+      | \break
+      g'4 \times 2/3  { a'16 [b'16 c''16] }| % 28
+      \time 2/4 d''8 -.   e''8 -.  fis''8 -.
+      g''8 -.) | \time 3/8 d''4
+      b'16 ( [  c''16 ) ] |
+      b'4  a'8 | % 31
       g'8.  fis'16 ( a'32 [ g'32
       fis'32 e'32 ) ] | % 32
       d'4 c'8 \break | % 33
@@ -133,7 +131,7 @@
       d'2 ^\! r4 | % 53
       d'4 ( e'4 ) ^\fermata d'4
       ^\markup{
-        \italic
+        \huge \italic
         {rall.}
       }
       ^\ppp | % 54

@@ -21,7 +21,7 @@
 
       a'4 g'4 fis'4 | e'2. | e'2. | g'2. | b'4 cis''4 b'4 | b'2. | a'2. | \break
 
-      fis'2. | a'4 (g'4) e'4 | e'2. | d'2 \fermata
+      fis'2. | a'4 (g'4) e'4 | e'2. | d'2. (| d'4) r4
       \tempoFunc "Più mosso" 4 "88"
       fis'4  \bar "||" a'2 a'4 | b'2 fis'4 | \break
 
@@ -30,12 +30,12 @@
       d''2 b'4 | b'2 ( cis''4 ) | a'2. | fis'2 fis'4  | g'2 e'4 | e'2 fis'4 | \break
 
       d'2.  \bar "||"
-       \tempoFunc "Ancora più mosso" 4 "96"
+      \tempoFunc "Ancora più mosso" 4 "96"
 
-      a2 a4 | d'2 ( e'4 ) | fis'2 ( g'4 ) | a'2 \fermata a'4 | b'2 a'4 | \break
+      a2 a4 | d'2 ( e'4 ) | fis'2 ( g'4 ) | a'2. (| a'4 ) r4 a'4 | b'2 a'4 | \break
 
       a'2. | fis'2. |
-     
+
       b'2 a'4 | fis'2 g'4 | a'2. | g'2 fis'4 | \break
 
       g'2 b'4 | a'2. | a'2 a'4 | d''2 b'4 | a'2. | a'2 a'4 | \pageBreak
@@ -44,23 +44,23 @@
       \tempo "rit." g'2  e'4 | e'2 ( fis'4 ) | \break
       d'2. | \tempo "a tempo" fis'2 fis'4 | fis'2. | fis'4 ( g'4 )  a'4 | b'2 fis'4 |a'2.   \break
       | % 61
-      g'2 ^\fermata  \tempoFunc "Maestoso" 4 "72" a4 \mark \markup {\small \musicglyph "scripts.segno" }  \bar "||"
+      g'2. (| g'4) r4  \tempoFunc "Maestoso" 4 "72" a4 \mark \markup {\small \musicglyph "scripts.segno" }  \bar "||"
       a2  d'4 | % 63
       e'2. | % 64
       e'4 (  fis'4 )  g'4 | % 65
-      fis'2 ^\fermata  fis'4 | % 66
+      fis'2. (| fis'4) r4  fis'4 | % 66
       fis'2  g'4 \break | % 67
       a'2. | % 68
       b'2  g'4 | % 69
       g'2  a'4 |
-      fis'2 ^\fermata  b'4 | % 71
+      fis'2. (| fis'4) r4 b'4 | % 71
       b'2  b'4 | % 72
       d''2. \break | % 73
       cis''2  b'4 | % 74
       b'2 (  cis''4 ) | % 75
       a'2  g'4 | % 76
       fis'2 ( \tempo "rit." e'4 )  | % 77
-      \tempo "              Fine" d'2. \bar "|."
+      \tempo "            Fine" d'2. \bar "|."
       \break | % 78
       \tempo "a tempo" fis'2 g'4 | % 79
       a'2  a'4 |

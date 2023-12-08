@@ -7,6 +7,8 @@
         \Score
         \omit BarNumber %remove bar numbers
         \override KeySignature.X-offset = #-1.2 %
+
+        
       } % context
 
       \context {
@@ -16,6 +18,7 @@
         \override StaffSymbol.staff-space = #(magstep -3)
         \override StaffSymbol.thickness = #0.5
         \override BarLine.hair-thickness = #1
+
         %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
       }
 

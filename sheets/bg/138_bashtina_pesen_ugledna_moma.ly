@@ -2,7 +2,6 @@
 
 % include paper part and global functions
 \include "include/globals.ily"
-
 \bookpart {
   \label #'ref138
   \tocItem \markup "Бащина песен – Угледна мома"
@@ -258,9 +257,9 @@
       \bar "|"
       \time 3/4  | % 149
 
-      e'16_\markup \bold \italic {"(8_ _ _ _ _ _ _ _ _ _ _ _ _"} --e16 --e16 --
+      e'16 --e16 --e16 --
       e16 --a2   \break | % 151
-      g16_\markup \bold \italic {"(8)_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _| )"} f16 e16 d16
+      g16 f16 e16 d16
       e2 | % 152
 
       \time 4/4  | % 152
@@ -274,7 +273,7 @@
       d16 e16  c8 b16 |% 158
       d8 c8. | c8 b8 a16 | \break
       b8  g8. |
-      b8 ^\markup{ \bold {rall.} }d8. | % 161
+      \tempo"rall."b8 d8. | % 161
       cis8 bes8. | % 162
       cis16 bes16  a8  g16 | % 163
       a8  a8. \bar "||"
@@ -282,7 +281,7 @@
       \break \repeat volta 1 {
         | % 164
         \bar ".|:-||"  \key g \major \time 9/16 | % 164
-        d8 ^\markup{ \bold {a tempo} } e16 ( [
+        \tempo"a tempo" d8 e16 ( [
         fis16 ) ] g8 fis8. | % 165
         g8 e8 e16 ( [ \stemDown
         fis16 ) ]d8. | % 166

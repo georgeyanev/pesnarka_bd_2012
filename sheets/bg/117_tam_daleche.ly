@@ -18,7 +18,7 @@
       a'4. b'8 |  c''8 b'8 a'8 gis'8 | a'4 b'4 | e'2 |  f'4 e'8 d'8 \break |
 
 
-      c'8. b16 c'8 d'8 | e'2 | b4. d'8 | c'4 b4 | e'8 ( [d'8] ) c'8 b8 \break |
+      c'4. b8 | c'4 d'4 | e'2 | b4. d'8 | c'4 b4 | e'8 ( [d'8] ) c'8 b8 \break |
 
 
       a4 gis4 | a2 \bar ".|:"

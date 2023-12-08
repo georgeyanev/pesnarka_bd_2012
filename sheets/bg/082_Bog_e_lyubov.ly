@@ -36,7 +36,7 @@
 
       fis4 e8 e8 fis4 a8. a16 |
       g4. a8 b4 a8. a16 |
-      \time 3/4 g2 \tempo "Più mosso"  d8. d16 |
+      \time 3/4 g2 \breathe \tempo "Più mosso"  d8. d16 |
       \repeat volta 3 {
         g4 fis4 fis8. e16 | \break
 

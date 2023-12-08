@@ -42,6 +42,7 @@
     \include "include/score-layout.ily"
 
 
+
     \new Voice \absolute {
       \clef treble
       \key bes \major
@@ -79,8 +80,8 @@
 
       c''8. bes'16 a'2 | \time 4/4  bes'8 bes'8 ges'8 ges'8 f'2 | c'8 des'8 es'8 f'8 ges'2 | \break
 
-      f'8 es'8 des'8 c'8 bes2
-      \bar ":|." bes4 \tempo "       rit." c'4 des'4 c'4 | bes2. r4
+      f'8 es'8 des'8 c'8 bes2 |
+      \bar ":|." bes4 \tempo "       rit." c'4 des'2 | c'2  bes2 \fermata
       \bar "|."
     }
 

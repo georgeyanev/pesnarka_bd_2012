@@ -32,7 +32,7 @@
         \time 5/4  a'4 g' a'8 b' c''2 | \time 4/4  d''8 [( c'' )] b' [( a' )] g'2 \break
 
         d'8  [( e' )] f' [( e' )] g' [( f' )] e' d'
-      } \alternative { { | c'2. c''4 | } {c'2. r4 } } \bar "|."
+      } \alternative { { | c'2 r4 c''4 | } {c'2. r4 } } \bar "|."
     }
 
     \addlyrics {

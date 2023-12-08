@@ -42,12 +42,12 @@
 
       g'4 b'4 a'4 g'4 fis'4 b |  cis'8 d' fis' e' d'4 cis'4 b2 | \break
 
-   
+
 
       \time 3/4
 
 
-     \bar ":|.|:"  b8. cis'16 d'8 fis'4. | e'8. fis'16 g'8 fis'4. | fis'8 b'8 d''4. b'8| \break
+      \bar ":|.|:"  b8. cis'16 d'8 fis'4. | e'8. fis'16 g'8 fis'4. | fis'8 b'8 d''4. b'8| \break
 
       \time 4/4 cis''4. ais'8 b'4. r8 | \time 3/4 fis'8. b'16 a'8 g'4. | e'8. fis'16 g'8 fis'4. | \break
 
@@ -139,78 +139,46 @@
   } % score
 
 
-  \label #'ref067
-  \tocItem \markup "Песен на гласните букви"
+
+  \label #'ref055_2
+  \tocItem \markup "Ти Си проявената Любов"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
 
-    \new Voice \relative c' {
+    \new Voice \absolute  {
       \clef treble
-      \key c \major
-      \time 7/16
-      \tempoFunc "Vivo" 4 "104"
+      \key e \minor
+      \time 4/4
+      \tempoFunc "Adagio" 4 "56"
       \autoBeamOff
-      c8 e8 g8. | g8 c8 g8. | c,8 e8 g8. | g8 c8 g8. | \break
-      c,8 d8 e8. | d8 e8  \acciaccatura {d16[e16]} d8([c16]) | g'8 g8 g8. | c,8 d8 e8. | \break
-      d8 e8 \acciaccatura {d16[e16]} d8([c16]) | g'8 g8 g8. | c,8 d8 e8. | d8 e8 \acciaccatura {d16[e16]} d8([c16]) | c8~ c8~ c8. | \bar "|." \break
+      b4 e' g' b' | \time 3/4  a'4 g' fis'8. e'16 |
+      fis'2 fis'4 |
+
+      a'4 g' fis' \break |
+
+      e'2 c''4 |
+
+      \time 4/4  b'8. a'16 g'8. a'16 b'4. g'8   |
+      \time 3/4  fis'8. a'16 g'4 fis' \break|  e'2 c''4   |
+
+      \time 4/4  b'8. a'16 g'8. a'16 b'4. g'8 | \time 3/4  fis'8. a'16 g'4 fis' | e'2 r4 \bar "|."
     }
 
     \addlyrics {
-      "1. a" -- a -- a  a -- a -- a  a -- a -- a  a -- a -- a
-      a -- a -- a  a -- a -- a __  a -- a -- a  a -- a -- a
-      a -- a -- a __   a -- a -- a  a -- a -- a  a -- a -- a __ a __ 
-    }
-
-    \addlyrics {
-      "2. o" -- o -- o  o -- o -- o  o -- o -- o  o -- o -- o
-      o -- o -- o  o -- o -- o __  o -- o -- o  o -- o -- o
-      o -- o -- o __   o -- o -- o  o -- o -- o  o -- o -- o __ o __ 
-    }
-
-    \addlyrics {
-      "3. у" -- у -- у  у -- у -- у  у -- у -- у  у -- у -- у
-      у -- у -- у  у -- у -- у __  у -- у -- у  у -- у -- у
-      у -- у -- у __   у -- у -- у  у -- у -- у  у -- у -- у __ у __ 
-    }
-
-    \addlyrics {
-      "4. а" -- о -- у  а -- о -- у  а -- о -- у  а -- о -- у
-      а -- о -- у  а -- о -- у __  а -- о -- у  а -- о -- у
-      а -- о -- у __   а -- о -- у  а -- о -- у  а -- о -- у __ а __ 
-    }
-
-    \addlyrics {
-      "5. a" -- a -- a  a -- a -- a  a -- a -- a  a -- a -- a
-      a -- a -- a  a -- a -- a __  a -- a -- a  a -- a -- a
-      a -- a -- a __   a -- a -- a  a -- a -- a  a -- a -- a __ a __ 
-    }
-
-    \addlyrics {
-      "6. e" -- e -- e  e -- e -- e  e -- e -- e  e -- e -- e
-      e -- e -- e  e -- e -- e __  e -- e -- e  e -- e -- e
-      e -- e -- e __   e -- e -- e  e -- e -- e  e -- e -- e __ e __ 
-    }
-
-    \addlyrics {
-      "7. и" -- и -- и  и -- и -- и  и -- и -- и  и -- и -- и
-      и -- и -- и  и -- и -- и __  и -- и -- и  и -- и -- и
-      и -- и -- и __   и -- и -- и  и -- и -- и  и -- и -- и __ и __ 
-    }
-
-    \addlyrics {
-      "8. а" -- е -- и  а -- е -- и  а -- е -- и  а -- е -- и
-      а -- е -- и  а -- е -- и __  а -- е -- и  а -- е -- и
-      а -- е -- и __   а -- е -- и  а -- е -- и  а -- е -- и __ а __ 
+      Ти Си про -- я -- ве -- на -- та Лю -- бов към мен, Гос -- по --
+      ди. Ду -- ша -- та ми "коп-" -- ней за Твой -- та чис -- то --
+      та. Ду -- ша -- та ми "коп-" -- ней за Твой -- та свет -- ли -- на.
     }
 
     \header {
-      title = \titleFunc " Песен на гласните букви" "Pesen na glasnite bukvi"
+      title = \titleFunc " Ти Си проявената Любов" "Ti Si projavenata Ljubov"
     }
 
     \midi{}
 
   } % score
+  \markup \dc-one "D.C."
 
 
 } % bookpart

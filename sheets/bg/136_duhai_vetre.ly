@@ -67,7 +67,7 @@
         }
         {
           d8   b8 cis8  ais8  b4. \breathe b8 |
-          \mark\markup\italic {"                      maestoso, ad libitum"}
+          \mark \markup \huge\italic {"                      maestoso, ad libitum"}
           d2 cis4 b4 |
 
 

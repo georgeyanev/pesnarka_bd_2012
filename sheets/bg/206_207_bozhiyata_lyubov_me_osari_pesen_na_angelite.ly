@@ -26,7 +26,7 @@
       \time 3/4  | % 5
       a'2  e'8  ^\p  cis'8   | % 6
       \time 4/4  | % 6
-      fis'2 --  e'4   \breathe cis'4 | % 7
+      fis'2  e'4   \breathe cis'4 | % 7
       \time 6/4  | % 7
       e'4  d'4  cis'4  b4  cis'2 \bar
       "||"
@@ -151,10 +151,10 @@
         \autoBeamOff
         \override Hairpin.to-barline = ##f
         \override Hairpin.after-line-breaking = ##t
-        e'4  d'4  f'4  e'4 | % 2
-        d'8  d'8  c'8  d'8  e'4
-        e'4 | % 3
-        e'4  d'4  e'4 r4 | \break % 4
+        e'2  d'2 |  f'2  e'2 | % 2
+        d'4  d'4  c'4  d'4 |  e'2
+        e'2 | % 3
+        e'2  d'2 | e'2 r2 | \break % 4
         \time 6/8  | \bar"||" % 4
         \tempoFunc "" 4. "50"
         g'8  g'8 c''8 b'4.  | % 5
@@ -174,23 +174,23 @@
         a'4. ~  a'4  g'8 _\!  | % 14
         c''4.  r4  e'8 |  % 15
         \time 9/8  | % 15
-        f'4. ^\markup{ \italic {poco rall.} }  e'4. r4. \bar
+        f'4. ^\markup{ \huge \italic {poco rall.} }  e'4. r4. \bar
         "||" \break
         \key es \major \time 4/4 | % 16
-        \tempoFunc "Largo" 4 "46"
-        g'8 ^\<  g'8  g'8 c''8 d''8
-        es''8 d''8 c''8 ^\! | % 17
-        \grace {  c''16 ( [  d''16 ] } c''8 ) ^\>
-        bes'8  as'8 bes'8 c''8
-        as'8 \grace {  g'16 ( [  as'16 ] }  g'8 )
-        ^\! f'8 | \break % 18
-        g'8 ^\<  as'8 bes'8 c''8  ^\!
+        \tempoFunc "Andante" 4 "92"
+        g'4 ^\<  g'4  g'4 c''4 | d''4
+        es''4 d''4 c''4 ^\! | % 17
+        \grace {  c''16 ( [  d''16 ] } c''4 ) ^\>
+        bes'4  as'4 bes'4 | c''4
+        as'4 \grace {  g'16 ( [  as'16 ] }  g'4 )
+        ^\! f'4 | \break % 18
+        g'4 ^\<  as'4 bes'4 c''4  ^\!
         c''16 ( [ bes'16  as'16 )  ] g'16
-        f'8  es'8  \bar "||"
+        f'4  es'4  g'4 (\bar "||"
         \break | % 19
         \time 6/8  | % 19
         \tempoFunc "" 4. "46"
-        g'4. ^\>  g'4.  ^\! |
+        g'4. ^\> ) g'4.  ^\! |
         as''8 ( [ ^\p g''8 ) ] f''8
         es''8 ( [ d''8 ) ] c''8 | % 21
         bes'8 ( [  as'8 ) ]  g'8 c''8 ( [
@@ -210,12 +210,9 @@
         f'4. r4. \break| % 32
         c''8 ( [ es''8 ) ] d''8 c''4
         d''8 | % 33
-        bes'4. r8 r8  as'8 ^\< | % 34
-        c''4 ^\! bes'8  as'8 ^\>  g'8
-        f'8 | % 35
-        \times 3/2  {
-          es'8   d'8
-        }
+        bes'4. r8 r8 r8 | as'8 ^\<  % 34
+        c''4 ^\! bes'8  as'8 ^\>  g'8 |
+        f'8 es'8   d'8
         es'4. ^\! \break | % 36
         R2. | % 37
         g'8 d''8 c''8 bes'8
@@ -297,7 +294,7 @@
         cis''8 ( [ dis''8 cis''8 ]
         dis''8 [ e''8 dis''8 ) ] e''8 ( [
         fis''8 e''8 ) ] | % 71
-        b'8 ( [ ^\markup{ \italic {rit. molto} } cis''8
+        b'8 ( [ ^\markup{ \huge \italic {rit. molto} } cis''8
         b'8 ] cis''8 [ dis''8 cis''8
         ) ] dis''8 (  [e''8] ) dis''8  | % 72
 
@@ -308,31 +305,24 @@
         b'8 [( ais'8 )]
 
         b'4. \break | % 73
-        \time 4/4  | \bar "||" % 73
+        \time 3/4  | \bar "||" % 73
         \tempoFunc "Moderato" 4 "80"
         dis''16 ( [ cis''16 dis''16
         e''16 ] fis''16 [ e''16 fis''16
         gis''16 ] ais''16 [ gis''16
-        ais''16 b''16 ) ] cis'''16 ( -. [
-        dis'''16 -. e'''16 -. dis'''16 -. ] | % 74
-        \time 3/4  | % 74
+        ais''16 b''16  ] | cis'''16  -. [
+        dis'''16 -. e'''16 -. dis'''16 -. ]
         cis'''16 -. [ b''16 -. ais''16 -.
-        gis''16 ) -. ] fis''16 ( -. [ e''16 )
-        -. ] ^\markup{ \italic {rit.} } dis''16 -. cis''16
-        -. \acciaccatura {  cis''16 [  dis''16 ] } cis''8
-        b'8 \break | % 75
-        b'8  ais'8 b'4 r8
-        b'8^\<
-        \tempoFunc "Meno mosso" 4 "60"
-        \time 2/4  | \bar "||" % 76
-        cis''8 dis''8 e''8. cis''16
-        | % 77
-        \time 4/4  | % 77
-        fis''4. ^\! fis''8
-        <\parenthesize b'
-        b''>2 ^\>
-        \once \override Score.BarLine.break-visibility = ##(#f #f #f)
-        s^\ppp ^\! \bar "|."
+        gis''16  -. ] fis''16 -. [e''16] )
+        -.  ^\markup{ \huge \italic {rit.} } dis''16 -. cis''16 |
+
+        \time 4/4
+        \acciaccatura {  cis''8 [  dis''8 ] } cis''4
+        b'4 b'4 ais'4 \break |
+        b'2 r4 b'4 | cis''4 dis''4 e''4. cis''8
+        |
+
+        fis''2  r4. fis''8 | b''2 r4 \fermata \bar "|."
       }
 
       \addlyrics {
@@ -355,7 +345,7 @@
         ви __  го -- во -- ри. Слу -- "шай-"
         -- те Го. Слу -- шай -- те Го
         вий, и ни -- е съ -- що Го слу --
-        ша -- ме. Вър -- ше -- те Во -- ля --
+        ша -- ме. "Вър-" -- ше -- те Во -- ля --
         та Му, и ни -- е съ -- що вър --
         шим Во -- ля -- та __  Му. То -- зи
         е сми -- съ -- лът на  Жи -- во
@@ -373,8 +363,7 @@
         ва, __  сла --
         ва, __  сла --
         ва __     на на   -- "       ши" --
-        я "      Ба" -- ща. Сла -- "" -- "" --
-        ва на  "     на" -- ши -- я Ба
+        я "      Ба-" -- ща. Сла -- ва на  на -- ши -- я Ба
         -- ща, на на -- ши -- я Ве -- лик Ба
         -- ща.}
 

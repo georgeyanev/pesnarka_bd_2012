@@ -102,7 +102,7 @@
 
     \markup \raise #4.5 \override #'(baseline-skip . 2) {
       \column {
-        \fill-line \italic { "" "" \concat {"attaca" "   " }}
+        \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
       }
     }
 
@@ -133,7 +133,7 @@
         c''2 c''2 | % 9
         c''4 c''4 c''4 d''4 \break|
         es''2. d''4  | % 11
-        c''2 c''2^\markup { "     " \musicglyph "scripts.caesura.straight" } | % 12
+        c''2 c''2 \caesura | % 12
         c''4 -- c''4 -- c''4 -- d''4
         -- | % 13
         a'4 -- a'4 -- a'4 -- g'4 -- \break | % 14
@@ -153,7 +153,7 @@
         a'2 g'4 r4 | % 24
         r4 d''4 d''4 d''4 | % 25
         \time 3/2  | % 25
-        e''2. d''4 d'4 ^\markup{ \bold {rall.} }
+        e''2. d''4 \tempo "rall." d'4
         d'4 | % 26
         e'1 r4 \bar "|."
       }
@@ -181,7 +181,7 @@
 
       \markup \raise #4.5 \override #'(baseline-skip . 2) {
         \column {
-          \fill-line \italic { "" "" \concat {"attaca" "   " }}
+          \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
         }
       }
 
@@ -210,7 +210,7 @@
           r2  e'4  e'4  e'4  d'4 \break | % 8
           e'1 r2 \bar "||"
           \key a \minor | % 9
-          e'2 ^\markup{ \bold {Più mosso} }  f'?4  a'2
+          \tempo "Più mosso"e'2 f'?4  a'2
           gis'4 |
           b'4 ( d''4 ) c''4 b'2. \break | % 11
           b'4 c''4  a'2 b'4 b'4
@@ -223,22 +223,22 @@
           b'2 r4 b'4 | % 16
           d''2 c''4  a'4 | % 17
           b'1 | % 18
-          r2.  e'4 ^\markup{ \bold {Tempo I} } | % 19
+          r2.  \tempo "Tempo I" e'4 | % 19
           e'2  d'2 |
           e'1 \breathe  \break | % 21
           \time 3/4  | % 21
-          e'2  f'4  | % 22
+          e'2  e'4  | % 22
           a'2  gis'4 | % 23
           b'4 d''4 c''4 | % 24
           b'2 r4 | % 25
-          c''2 c''8 --  ^\markup{ \bold {sostenuto} }
+          c''2 \tempo"sostenuto" c''8 --
           c''8 -- \break | % 26
           \time 5/4  | % 26
           fis''2 fis''4 e''4 dis''4 | % 27
           \time 3/4  | % 27
           fis''2 e''4 ~ | % 28
           \time 4/4  | % 28
-          e''4 r4  e'4 ^\markup{ \bold {a tempo} }
+          e''4 r4  \tempo"a tempo"e'4
           b'4 | % 29
           \time 6/4  | % 29
           a'2.  a'4  a'4  a'4 \break |
@@ -263,7 +263,7 @@
           r4  e'4  e'4  e'4 | % 43
           \time 6/4  | % 43
           b'2.  a'4   % 44
-          e'4 ^\markup{ \bold {rall.} }  e'4 | e'2. \fermata
+          \tempo"rall."e'4 e'4 | e'2. \fermata
           \bar "|."
         }
 
@@ -295,7 +295,7 @@
 
         \markup \raise #4.5 \override #'(baseline-skip . 2) {
           \column {
-            \fill-line \italic { "" "" \concat {"attaca" "   " }}
+            \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
           }
         }
 
@@ -334,12 +334,12 @@
             c''4 (  a'4 ) b'4 ( c''4 ) | % 19
             b'2 r4 b'4 |
             \time 5/4  |
-            c''2 ^\markup{ \bold {poco rit.} } b'4
+            \tempo"poco rit." c''2 b'4
             f'4  d'4 \break | % 21
             \time 4/4  | % 21
             e'2. r4 | % 22
             \time 3/4  | % 22
-            e'2 ^\markup{ \bold {a tempo} }  f'4 | % 23
+            \tempo"a tempo"e'2 f'4 | % 23
             a'2 b'4 | % 24
             b'2 r8 b'8 | % 25
             \time 5/4  | % 25
@@ -347,7 +347,7 @@
             e''2 c''4 ( b'4 )  a'4 | % 27
             \time 4/4  | % 27
             d''4 d''4 c''4  a'4 | % 28
-            b'2 ^\fermata  e'4 ^\markup{ \bold {Poco lento} }
+            b'2 ^\fermata \tempo"Poco lento" e'4
             e'4 | % 29
             f'2 (  e'2 ) \break |
             a'2 b'4 ( c''4 ) | % 31
@@ -389,7 +389,7 @@
 
           \markup \raise #4.5 \override #'(baseline-skip . 2) {
             \column {
-              \fill-line \italic { "" "" \concat {"attaca" "   " }}
+              \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
             }
           }
 
@@ -487,7 +487,7 @@
 
             \markup \raise #4.5 \override #'(baseline-skip . 2) {
               \column {
-                \fill-line \italic { "" "" \concat {"attaca" "   " }}
+                \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
               }
             }
 
@@ -528,10 +528,7 @@
                 c''2 bes'8 ( [ g'8 ) ] \break | % 194
                 \time 4/4  | % 194
                 a'4  bes'4  c''4  d''4  | % 195
-
-                a'4.^\markup {
-                  \concat { "       " \musicglyph #"scripts.caesura.straight"}
-                } a'8 a'4 a'4 | % 196
+                a'4.\caesura a'8 a'4 a'4 | % 196
                 a''2.  g''8 f''8 \break | % 197
                 e''4 \tempo "poco rall." d''4
                 d''8 --  d''8 -- \once \omit TupletBracket
@@ -550,49 +547,49 @@
                 g'4 a'4  c''2  bes'2 | % 205
                 \time 4/4  | % 205
                 a'2 r2 ^\fermata \break | % 206
-                d'4 ^\markup{ \bold {Più mosso} } e'4 f'4
+                \tempo"Più mosso" d'4 e'4 f'4
                 g'4 | % 207
                 a'2 a'2 | % 208
                 d''4  b'4 g'4 g'4 | % 209
                 a'4  bes'?4  bes'2 |
-                a'2 d'4 e'4  ^\markup{ \bold {poco rall.} } \break  | % 211
+                a'2 \tempo"poco rall." d'4 e'4 \break  | % 211
                 f'2 ( e'2 ) | % 212
                 d'2 r2 ^\fermata | % 213
                 \time 6/4  | % 213
-                d'4. ^\markup{ \bold {a tempo} } a8 d'2
+                \tempo "a tempo" d'4. a8 d'2
                 cis'2 | % 214
                 f'4 d'4 g'2 a'2 \break | % 215
                 d'4 e'4 d'2 bes2 | % 216
                 f'4 e'4 d'2 cis'2 | % 217
                 e'4 -- e'4 -- f'2 e'4 -- r8
                 f'8 \break | % 218
-                a'4 ^\markup{ \bold {Più mosso} } a'4 a'2 r4
+                \tempo "Più mosso" a'4 a'4 a'2 r4
                 d'4 | % 219
                 \time 4/4  | % 219
                 f'2 e'2 |
                 d'1  | % 221
                 \time 3/4  | % 221
-                f'2. | % 222
+                d'2. | % 222
                 d'2. ~ \break | % 223
-                d'2 r8 a'8 ^\markup{ \italic {recitativo} } | % 224
+                d'2 r8  a'8^\markup{\huge \italic { recitativo } } | % 224
                 a'4 a'8 a'8 a'8 a'8 | % 225
                 a'8 g'16 ( [ a'16 ) ] g'4 f'8
-                f'8 | % 226
-                f'4 f'8 f'8 f'8 f'8 \break | % 227
+                f'8 \break | % 226
+                f'4 f'8 f'8 f'8 f'8  | % 227
                 \time 4/4  | % 227
-                f'8 e'16 ( [ f'16 ) ] d'4 e'4 ^\markup{ \bold {Più lento} }  e'4 |
-                \grace { e'16 [ ( f' ]  } g'2 ) f'2 |
+                f'8 e'16 ( [ f'16 ) ] d'4 \tempo"Più lento" e'4  e'4 |
+                \grace { e'16 [ ( f' ]  } g'2 ) f'2 | \break
                 e'4 d' \grace {
                   e'16 (
                 } d'2 ) |
                 d'2 \fermata r4 d'4 |
-                d'2 ^\markup{ \bold {Tempo I} } cis'2 | % 232
-                d'2 r2 | % 233
-                f'2 -- d'2 -- | \bar "||" % 234
+                \tempo"Tempo I" d'2 cis'2 | % 232
+                d'2 r2 | \break % 233
+                f'2 -- d'2 -- |  \bar "||"  % 234
                 \time 3/4  | % 234
-                \key d \major r2 a'8 ^\markup{ \bold {Più mosso} } a'8  | % 235
-                a'4 a'8 a'8 g'8 a'8 \break | % 236
-                \time 4/4  | % 236
+                \key d \major r2 \tempo"Più mosso" a'8 a'8  | % 235
+                a'4 a'8 a'8 g'8 a'8  | % 236
+                \time 4/4  | \break  % 236
                 fis'2
                 \times 2/3  {
                   fis'8  fis'8 fis'8
@@ -600,36 +597,34 @@
                 \times 2/3  {
                   a'8  gis'8 fis'8
                 }
-
-
-                | % 237
+                |  % 237
                 b'4  b'4 r2  | % 238
                 r4 fis'4 fis'4 fis'4  | \break % 239
-                d'4 ^\markup{ \bold {poco rall.} } e'4 cis'2~ |
+                \tempo "poco rall." d'4 e'4 cis'2~ |
                 \time 3/4  |
-                cis'4 cis'4 d'4 | % 241
+                cis'4 cis'4 d'4 |  % 241
                 \time 4/4  | % 241
-                b2 b2 | % 242
+                b2 b2 |  % 242
                 r4 fis'4 \times 2/3 {
                   a'4 a'4 a'4
                 }
                 | % 243
-                a'2. r4 \break | \bar "||"% 244
-                r4 gis'2 ^\markup{ \bold {Più mosso} } gis'4 -- | % 245
+                a'2. r4 | \bar "||" \break % 244
+                r4 \tempo "Più mosso" gis'2 gis'4 -- |  % 245
                 \time 6/4  | % 245
                 cis''2. --  b'4 --  b'4 --  b'4
-                -- | % 246
+                -- |  % 246
                 a'2 -- a'2 -- fis'4 fis'4
                 | % 247
-                b'2 a'2 ( fis'2 ) | % 248
+                b'2 a'2 ( fis'2 )  |  \break % 248
                 gis'2 r2 gis'4 gis'4 | % 249
                 \time 4/4  | % 249
                 e''1 |
                 \time 3/4  |
                 d''2  b'4 -- | % 251
-                \time 4/4  | \break % 251
+                \time 4/4  | % 251
                 b'4 --  b'4 --  cis''4 --  b'4
-                -- | % 252
+                -- | \break  % 252
                 a'4 -- a'4 -- gis'4 -- r8
                 ^\markup {
                   \musicglyph #"scripts.caesura.straight"
@@ -637,11 +632,11 @@
                 ^\fermata
                 cis''8  |  % 253
                 \key a \major
-                fis''2 ^\fermata r8  ^\markup{ \bold {Poco meno mosso} } cis''8
-                cis''8  cis''8  \break | % 254
+                fis''2 ^\fermata r8  \tempo"Poco meno mosso" cis''8
+                cis''8  cis''8 | \break % 254
                 cis''4 a'4 r8  cis''8  cis''8
                 cis''8 | % 255
-                e''4. ^\fermata  cis''8 ^\markup{ \bold {rall.} }
+                e''4. ^\fermata  \tempo"rall." cis''8
                 cis''4 --  b'4 -- | % 256
                 a'2. r4 \bar "|."
 
@@ -670,15 +665,15 @@
                 -- те __  си за хра --
                 на на че -- ло --  ве -- ка. И ре --
                 че Бог: „Да -- вам и на зем --
-                ни -- те "зве-" -- ро -- ве, и на "въз-"
+                ни -- те зве -- ро -- ве, и на "въз-"
                 -- душ -- ни -- те пти -- ци, и всич
                 -- ко, що пъл -- зи __ по зе -- мя
                 -- та и и -- ма жи -- вот, и чо --
                 век да не по -- ся -- га на жи --
                 во -- та __ им.“ И ви -- дя Бог,
-                че всич -- ко, що на -- пра -- ви,
-                бе доб -- ро. И ста -- на ве --
-                чер, и ста -- на ут -- ро, шес --
+                че всич -- ко, що на -- "пра-" -- ви,
+                бе доб -- ро. И "ста-" -- на ве --
+                чер, и "ста-" -- на ут -- ро, шес --
                 ти ден.
               }
 
@@ -692,7 +687,7 @@
 
             \markup \raise #4.5 \override #'(baseline-skip . 2) {
               \column {
-                \fill-line \italic { "" "" \concat {"attaca" "   " }}
+                \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
               }
             }
 
@@ -746,7 +741,7 @@
                 \time 4/4  | % 276
                 bes'2. r4 | % 277
                 \time 3/4  | % 277
-                g'8 ( [ a'8 bes'8 c''8 ) ]
+                g'8 ( [ a'8 bes'8 c''8  ])
                 d''4 | % 278
                 \time 4/4  | % 278
                 g''4  bes''2 ^\fermata  a''4 \break | % 279

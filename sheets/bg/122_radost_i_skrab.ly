@@ -40,7 +40,7 @@
   \score {
     \include "include/score-layout.ily"
 
-    \new Voice \relative c' {
+    \new Staff \relative c' {
       \clef treble
       \key a \minor
       \time 3/4
@@ -69,17 +69,17 @@
       g'8  f8  e8  d8
       \tuplet 3/2 { c8 ( [  b8] ) a8 }
       | % 16
-      a2 r4  \bar "||" % 17
-      a2 ^\markup{ \bold {Più mosso} }  e'4 | % 18
+      a2 r4 \bar "||" % 17
+      \tempo"Più mosso" a2 e'4 | % 18
       a2  g4 | % 19
       f2. |
       d2  e8 ( [  f8 ) ] | \break % 21
       g2  f4 |  % 22
       e2 (  d4 ) | % 23
       e2. \bar "||" |
-      e4 ^\markup{ \bold {Largamente} }  f4  c4  | % 25
+      \tempo"Largamente" e4 f4  c4  | % 25
       e2. \bar "||"
-      a2 ^\markup{ \bold {Più mosso} }  a4 | % 27
+      \tempo "Più mosso" a2 a4 | % 27
       c2  b4  | \break % 28
       b2 (  a8 [  b8 ) ] | % 29
       a2 (  g4 ) |
@@ -96,7 +96,7 @@
       b2. | % 41
       a2. \bar "||"
       \break  | % 42
-      a8. ^\markup{ \bold {Poco più agitato} }  b16
+      \tempo"Poco più agitato" a8. b16
       c8  d8  e8.  e16 | % 43
       \time 2/4  | % 43
       e2 | % 44
@@ -122,7 +122,7 @@
       b8.  a16 | % 55
       a2 \break \bar "||" | % 56
       \time 3/4  | % 56
-      f4 ^\markup{ \bold {Poco meno mosso} }  e4
+      \tempo "Poco meno mosso" f4 e4
       dis4 | % 57
       e2  e4 | % 58
       a4  gis4
@@ -137,7 +137,7 @@
       \time 4/4 e4.  d8  e16  d16  c16
       b16  a8  gis8 | % 64
       \time 2/4 a2 \bar "||"  \break | % 65
-      a'8. ^\markup{ \bold {Allegretto} }  b16
+      \tempo"Allegretto" a'8. b16
       c8  a8  | % 66
       b4  e,4  | % 67
       a2  | % 68

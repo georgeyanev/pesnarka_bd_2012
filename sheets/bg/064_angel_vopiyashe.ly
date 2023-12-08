@@ -6,7 +6,7 @@
 \bookpart {
   \label #'ref064
   \tocItem \markup "Ангел вопияше"
- \paper {
+  \paper {
     print-all-headers = ##t
     print-page-number = ##t
     print-first-page-number = ##t
@@ -76,7 +76,7 @@
 
       c8([ bes a g]) f([ e a g]) \bar "|"
       f4.( e8) d([ e16 f] d4) d2 r8 d \bar "|"  \break
-   
+
 
       g4( \acciaccatura { f16 [g] } f4 g a \acciaccatura { f16 [g] } f4 e8[  f]) \bar "|"
       d4.( e8) c4( d) \bar "|"  \break
@@ -148,6 +148,6 @@
     \midi{}
 
   } % score
-  
+
 
 } % bookpart

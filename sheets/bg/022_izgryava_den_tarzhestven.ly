@@ -39,11 +39,11 @@
       a8 d'8 e'8 |f'4 e'4 f'4 e'4 |d'4 a'4 ~ a'8 a'8 bes'8 a'8 \break |
       d''4 a'4 bes'4 a'4 |\time 3/4  g'4 a'2 | \time 4/4  g'4 a'8 g'8 f'4. e'8 \break
       g'4 f'2 f'4 |  e'4. d'8 f'4. e'8 | e'4 d'2 r8 \tempo "Più vivo" a8 | \bar "||" \time 2/4 \break
-      d'8 e'8 f'8 g'8 | \time 4/4  a'4 a'2 a'4 | bes'4 a'4 d''4. a'8 \break |
-      bes'4 a'4 ~ a'8 g'8 a'8 g'8 |  \time 6/4  f'4. e'8 g'4 f'2 f'4 | \time 4/4  e'4. d'8 f'4. e'8 \break |
-      e'4 d'4 ~ d'8 d''8 d''8 e''8 | \time 6/4  f''4. e''8 e''4 d''2 c''4 \break
+      d'8 e'8 f'8 g'8 | \time 4/4  a'4 \staccato a'2 a'4 | bes'4 a'4 d''4. a'8 \break |
+      bes'4 \staccato a'4 ~ a'8 g'8 a'8 g'8 |  \time 6/4  f'4. e'8 g'4 f'2 f'4 | \time 4/4  e'4. d'8 f'4. e'8 \break |
+      e'4 \staccato d'4 ~ d'8 d''8 d''8 e''8 | \time 6/4  f''4. e''8 e''4 d''2 c''4 \break
       \time 4/4  bes'4. a'8 a'4. g'8 |  \time 3/4  a'4 a'2 | \time 5/4  c''4. c''8 d''4 g'2 \break |
-      f'4. g'8 a'4 a'4. d'8 | f'4. d'8 f'4 e'2 | d'4. a8 d'4 d'2 \bar "|." \pageBreak
+      f'4. g'8 a'4 \staccato a'4. d'8 | f'4. d'8 f'4 e'2 | \time 2/4 d'4. a8 | \time 5/4 d'4 d'2 r8 \bar "|."
     }
     \addlyrics {
       Из -- гря -- ва ве -- че ден тър -- жест -- вен, __ пред -- ре -- че
@@ -102,7 +102,7 @@
       \line { " " }
       \line { "   " \italic {Припев ... } }
     }
-     \"rightBraces022"
+    \"rightBraces022"
   } % markup
 
 } % bookpart

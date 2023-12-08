@@ -69,7 +69,7 @@
         {
           f'2. (|  f'4 ) r4 g'4 | g'2 g'4 | a'2
           \override Score.RehearsalMark.outside-staff-priority = #599
-          \mark\markup\normalsize\bold { "rit." } % places rit. below alternative bracket
+          \tempo"rit."  % places rit. below alternative bracket
           a'4 | b'2 b'4 | c''2. ~ | c''2  \bar "|." \pageBreak
         }
       }
@@ -83,7 +83,7 @@
       це -- нен дар __ е Лю -- бов -- та, __ кра --  си -- во
       чув -- ство О -- бич -- та __  и бла -- го де -- ло Ми -- лост --
       та, __  о -- би -- лен из -- вор Мъд -- рост -- та. __ Без --
-      та  __  о -- би -- лен из -- вор Мъд -- рост -- та. __ 
+      та  __  о -- би -- лен из -- вор Мъд -- рост -- та. __
     }
 
     \header {
@@ -124,6 +124,6 @@
     }
     \"rightBraces018"
   }
-  
+
 
 } % bookpart

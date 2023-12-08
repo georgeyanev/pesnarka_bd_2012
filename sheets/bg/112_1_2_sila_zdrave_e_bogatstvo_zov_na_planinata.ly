@@ -76,7 +76,7 @@
 
       \time 2/4  e4. ( fis8 ) \break
 
-      | \time 3/4  d2 b'8. b16 | c4 e,4 fis8. d16 | \time 4/4  \stemUp b'2 ( \afterGrace  a2 { b16[ a] )} |
+      | \time 3/4  d2 b'8. b16 | c4 e,4 fis8. d16 | \time 4/4 \stemUp b'2 ( \afterGrace a2 )({ b16[ a] )} |
       \time 3/4  |
       g2. \bar "|."
 
@@ -116,16 +116,15 @@
 
       \clef treble
       \key es \major
-      \time 6/4
+      \time 3/8
       \tempoFunc "Moderato" 4 "88"
       \autoBeamOff
-      \partial 2.
-      bes4
-      es4.  g,8 |
-      bes2.  bes4  es4 g4 |
-      f2.  f4  g4 as4 \break |
-      bes2.  bes4  bes4 c4 | bes2.
-      as4  g2 | f4  bes,4 f'1 | es2. \bar "|."
+      bes8
+      es8.  g,16 |
+      bes4. |  bes8  es8. g16 |
+      f4.|  f8  g8 as8 \break |
+      bes4. | bes8  bes8 c8 | bes4
+      as8 |  g4. | f8 bes,8 f'8 | es4. \bar "|."
     }
 
     \addlyrics {
@@ -139,7 +138,7 @@
     \midi{}
 
   } % score
- 
+
   \markup \fontsize #bgCoupletFontSize {
     \hspace #12
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)

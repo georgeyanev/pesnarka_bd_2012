@@ -16,12 +16,12 @@
       \time 4/4
       \tempoFunc "Moderato" 4 "60"
       \autoBeamOff
-      a'8 g'8 f'8 e'8 d'4 d'4|g'8 a'8 bes'8 d''8 a'4 a'4 | \break
-      g'8 a'8 bes'8 d''8 a'4 a'4 | a'8 g'8 f'8 g'8 a'4 a'4| \break
-      bes'8 bes'8 bes'8 bes'8 bes'4 d''4 | d''8 c''8 c''8 bes'8 bes'4 a'4 | \break
-      g'8 a'8 bes'8 d''8 a'4 a'4 | d'8 e'8 f'8 e'8 d'4 d'4 | \break
-      a'8 a'8 d''8 c''8 bes'4 bes'4 | g'8 a'8 c''8 bes'8 a'4 a'4| \break
-      g'8 a'8 bes'8 d''8 a'4 a'4 | d'8 e'8 f'8 e'8 d'4 d'4 | \bar "|." \break
+      a'4 g' f' e'| d'2 d'2| g'4 a' bes' d''| a'2 a'2 | \break
+      g'4 a' bes' d''| a'2 a'2 | a'4 g'4 f'4 g'4 a'2 a'2| \break
+      bes'4 bes'4 bes'4 bes'4 | bes'2 d''2 | d''4 c''4 c''4 bes'4 bes'2 a'2 | \break
+      g'4 a'4 bes'4 d''4 | a'2 a'2 | d'4 e'4 f'4 e'4 | d'2 d'2 | \break
+      a'4 a'4 d''4 c''4 | bes'2 bes'2 | g'4 a'4 c''4 bes'4 | a'2 a'2 | \break
+      g'4 a'4 bes'4 d''4 | a'2 a'2 | d'4 e'4 f'4 e'4 | d'2 d'2 | \bar "|." \break
     }
 
     \addlyrics {

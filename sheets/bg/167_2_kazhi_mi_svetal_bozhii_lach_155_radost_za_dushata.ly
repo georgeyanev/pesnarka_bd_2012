@@ -129,18 +129,19 @@
           fis'8 ( [  e'8 ) ] fis'8
         }
         % 6
-        g'8  fis'8  e'4  d'4 \time 3/4 \break \repeat
-        volta 2 {
-          | % 7
-          d'4  d'4.  d'8 | % 8
-          d'4  d'2 | % 9
-          e'4  e'4.  g'8 |
-          fis'4  fis'2 \break | % 11
-          a'4  a'4.  a'8 | % 12
-          b'4  b'2 | % 13
-          cis''4  cis''4.  cis''8 | % 14
-          d''4  d''2
-        }
+        g'8  fis'8  e'4  d'4 \caesura \time 3/4 \break
+        \bar ".|:-||"
+        | % 7
+        \tempo "Più mosso"
+        d'4  d'4.  d'8 | % 8
+        d'4  d'2 | % 9
+        e'4  e'4.  g'8 |
+        fis'4  fis'2 \break | % 11
+        a'4  a'4.  a'8 | % 12
+        b'4  b'2 | % 13
+        cis''4  cis''4.  cis''8 | % 14
+        d''4  d''2
+        \bar ":|."
 
       }
 

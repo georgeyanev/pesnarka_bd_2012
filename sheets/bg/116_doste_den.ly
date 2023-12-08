@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref116
-  \tocItem \markup "Доще ден"
+  \tocItem \markup "До ще ден"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -62,8 +62,8 @@
     }
 
     \addlyrics {
-      До  --  ще
-      ден,   до  --  ще   ден,   до  --  ще   ден,   до  --  ще   ден.
+      До  ще
+      ден,   до  ще   ден,   до  ще   ден,   до  ще   ден.
       Той   ще   бъ  --  де   све  --  тъл   ден,   той   ще   бъ  --
       де   све  --  тъл   ден,   той   ще   бъ  --  де   све  --  тъл
       ден.   Са  --  ждай,   са  --  ждай!   Гра  --  ди,   гра  --  ди,
@@ -73,7 +73,7 @@
     }
 
     \header {
-      title = \titleFunc "Доще ден" "Došte den"
+      title = \titleFunc "До ще ден" "Do šte den"
     }
 
     \midi{}

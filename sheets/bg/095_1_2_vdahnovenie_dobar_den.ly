@@ -101,7 +101,7 @@
 
       g'4 e' a' f' | g'4 d' e'2 \fermata | a'4 a' c''4. b'8 | b'2 a' \break |
 
-      g'4 g' f' f' |  f'2 e' | a'4. a'8 c''4 b' | b'4 a' a' a' \break |
+      g'4 g' f' f' |  f'2 e' | \time 2/2 a'4. a'8 c''4 b' | b'4 a' a' a' \break |
 
       g'4 f' e' d' | d'2 c' |  \time 6/4  b4. c'8 d'4 ( e' f' ) e' \break |
 

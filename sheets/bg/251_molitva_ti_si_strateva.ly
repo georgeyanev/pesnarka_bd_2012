@@ -59,20 +59,20 @@
       f'4  es'2 | % 9
       \time 2/4  | % 9
 
-      des'16^\markup { \italic {sostenuto} }
+      des'16^\markup { \huge \italic {sostenuto} }
       c'16
       ([des'16])  es'16
       f'8  as'8 |
-      f'4 ^\markup{ \italic {a tempo} }  es'4 \break | % 11
+      f'4 ^\markup{\huge \italic {a tempo} }  es'4 \break | % 11
       \time 3/4  | % 11
       \times 2/3  {
-        f'8 ^\markup{ \italic {sostenuto} }  ges'8
+        f'8 ^\markup{\huge \italic {sostenuto} }  ges'8
         as'8
       }
       bes'4  as'4 | % 12
       f'4  ges'8 ( [  f'8 ) ]  f'4 | % 13
       \times 2/3  {
-        f'8 ^\markup{ \italic {sostenuto} }  ges'8
+        f'8 ^\markup{\huge \italic {sostenuto} }  ges'8
         as'8
       }
       bes'8.  as'16  ges'8  f'8 \break | % 14
@@ -103,20 +103,20 @@
       f'4  es'2 | % 9
       \time 2/4  | % 9
 
-      des'16^\markup { \italic {sostenuto} }
+      des'16^\markup { \huge \italic {sostenuto} }
       c'16
       des'16  es'16
       f'8  as'8 |
-      f'4 ^\markup{ \italic {a tempo} }  es'4 \break | % 11
+      f'4 ^\markup{ \huge \italic {a tempo} }  es'4 \break | % 11
       \time 3/4  | % 11
       \times 2/3  {
-        f'8 ^\markup{ \italic {sostenuto} }  ges'8
+        f'8 ^\markup{ \huge \italic {sostenuto} }  ges'8
         as'8
       }
       bes'4  as'4 | % 12
       f'4  ges'8 ( [  f'8 ) ]  f'4 | % 13
       \times 2/3  {
-        f'8 ^\markup{ \italic {sostenuto} }  ges'8
+        f'8 ^\markup{ \huge \italic {sostenuto} }  ges'8
         as'8
       }
       bes'8.  as'16  ges'8  f'8 \break | % 14
