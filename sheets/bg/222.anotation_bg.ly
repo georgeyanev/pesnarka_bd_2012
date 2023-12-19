@@ -60,7 +60,7 @@
   \markup \fontsize  #+1.5 { \fill-line  {"izdatelstvo.bratstvo@gmail.com"} }
   \markup \fontsize  #+1.5 { \fill-line  {"www.bialobratstvo.bg"} }
   \markup { {  \vspace #0.5 } }
-  \markup \fontsize  #+1.5 { \fill-line {"София 2023"} }
+  \markup \fontsize  #+1.5 { \fill-line {"София 2024"} }
   \markup { {  \vspace #3.5 } }
   \markup \fontsize  #+2 { \fill-line  {"ISBN-10 954-744-076-4"}}
 

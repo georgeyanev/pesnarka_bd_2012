@@ -85,7 +85,7 @@
       >>
       \break | % 15
 
-      \huge \tempo "rall." f?16 es16
+      \tempo "rall." f?16 es16
       d16  cis16  d2
       \times 2/3  {
         \tempo "a tempo" c8 bes8

@@ -21,7 +21,7 @@
 
       g'8 a'8 b'4 |  g'8 a'8 b'4 | d''4 d''4 | d''2 | \break
 
-      d''8 c'' b'4 | d''8 c'' b'4 | b'8 b'8 a'8 a'8 | \tempo "                    Fine" g'2
+      d''8 c'' b'4 | d''8 c'' b'4 | b'8 b'8 a'8 a'8 | \tempo "                  Fine" g'2
       \bar ":|." \break
 
       \time 3/4

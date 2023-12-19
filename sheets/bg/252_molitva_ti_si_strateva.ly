@@ -4,7 +4,7 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \label #'ref251
+  \label #'ref252
   \tocItem \markup "Молитва (Господи, Ти Си) "
   \paper {
     print-all-headers = ##t

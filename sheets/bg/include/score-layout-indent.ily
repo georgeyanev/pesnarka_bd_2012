@@ -7,6 +7,7 @@
         \Score
         \omit BarNumber %remove bar numbers
         \override KeySignature.X-offset = #-1.2 %
+         \override MetronomeMark.font-size = #1.5
 
         
       } % context

@@ -5,7 +5,7 @@
 
 \bookpart {
 
-  \label #'ref170_3
+  \label #'ref170_1
   \tocItem \markup "Вяра светла I "
 
   \include "include/bookpart-paper.ily"
@@ -130,7 +130,7 @@
 
 
 
-        } % bookpart
+    } % bookpart
 
-        % Più mosso
-        %
+    % Più mosso
+    %

@@ -179,7 +179,7 @@
 
   \markup \raise #2.8 \override #'(baseline-skip . 2) {
     \column {
-      \fill-line \italic { "" "" \concat {"attaca" "   " }}
+      \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
     }
   }
 

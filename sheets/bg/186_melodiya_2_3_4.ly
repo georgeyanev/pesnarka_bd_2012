@@ -70,7 +70,7 @@
       c''8. [bes'16]  as'16 bes'16 |
       as'4  ges'8   | % 21
       f'8.  [es'16]  des'16  es'16 | % 22
-      des'4. \bar "||"
+      des'4. |
       es'8  f'8  ges'8 \break| % 24
       as'4 bes'16 c''16  | % 25
       des''4  f'8 | % 26

@@ -4,9 +4,40 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \label #'ref186
+  \label #'ref251_1
   \tocItem \markup "Мелодия 2 – В радостта на деня"
-  \include "include/bookpart-paper.ily"
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 11)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -27,7 +58,6 @@
       es'8.  es'16  f'16  ges'16  | % 8
       bes'8.  as'16  as'16 bes'16 \break | % 9
       as'8.  ges'16  f'16  ges'16 |
-
       f'8.  es'16  des'16  es'16 | % 11
       des'4. | % 12
       as'4  as'8   | % 13
@@ -49,21 +79,21 @@
       ges'4. | % 28
       bes4  c'16  des'16   | % 29
       f'4  es'8  |
-      des'4  c'8  | % 31
+      des'4  c'8  \break | % 31
       es'4  des'8 | % 32
-      des'4. \break | % 33
+      des'4. | % 33
       as'16  as'16 f''8 f''8 | % 34
       ges''16 f''16 es''16 f''16
-      es''16 des''16  | % 35
+      es''16 des''16 \break  | % 35
       as'8 es''8 es''8 | % 36
-      es''4.  \break | % 37
+      es''4.  | % 37
       as'8 es''8 es''8   | % 38
       f''16 es''16 des''16 es''16
-      des''16 c''16 | % 39
+      des''16 c''16 \break| % 39
       des''16 c''16 bes'16 c''16
-      bes'16  as'16 \break|
+      bes'16  as'16 |
       as'8 des''8 des''8 | % 41
-      des''4. | % 42
+      des''4. \break | % 42
       as'16 des''16 des''16 des''16
       des''16 des''16  | % 43
       as'16 es''16 es''16 es''16
@@ -120,9 +150,9 @@
 
         \line {   "   " Божията Слава новия Свещен Живот да озари.}
 
-        \line {   "   " Целият всемир е светлина}
+        \line {   "   " Целият всемир е светлина и светлината}
 
-        \line {   "   " и светлината извор е на радост, сила и живот.}
+        \line {   "   " извор е на радост, сила и живот.}
         \line {   "   " }
         \line \italic {   "      " Припев:}
         \line {   "      " Ето го, грее денят ...}
@@ -131,12 +161,10 @@
       }
 
     } % markup
-
     \markup \empty-two
 
-    \label #'ref189
+    \label #'ref251_2
     \tocItem \markup "Мелодия 4 – Озарение"
-    \include "include/bookpart-paper.ily"
     \score {
       \include "include/score-layout.ily"
 
@@ -214,7 +242,6 @@
         }
 
       }
-
 
     } % bookpart
 

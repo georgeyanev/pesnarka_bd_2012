@@ -384,7 +384,7 @@
 
       g''4.fis''8 g''
       a'' bes'' a'' g''
-      fis'' es'' d'' c''
+      fis''! es'' d'' c''
       bes' a' c'' bes'  \break
       a' g' fis' g'
       a' g' fis'! es'
@@ -438,14 +438,14 @@
       b'4. a'8  a'2 g'2  % 89
       f'2  f'4
       f'8 [ a'8 ]  g'4  f'4  % 91
-      e'2. \bar "|."
+      e'2 \bar "|."
     }
     \midi{}
   } % score
 
-
+\markup \empty-two
   \label #'ref183
-  \tocItem \markup "Музикален момент"
+  \tocItem \markup "Вариации"
   \score {
     \include "include/score-layout.ily"
     \new Voice \absolute {
@@ -454,7 +454,7 @@
       \omit Score.TimeSignature
       \cadenzaOn % allows custom bar lines
       \tempo "Andantino"
-      g''4 \fermata fis''16 [g''16 a''16 g''16 ] fis''16 [e''16 d''16cis''16 ]
+      g''4 \fermata fis''16 [g''16 a''16 g''16  fis''16 e''16 d''16cis''16 ]
       d''4e''8. [d''16 ] d''2 \break
       e''4 \fermata d''16 [c''16 b'16 a'16 b'16 c''16 d''16 c''16
       b'16  a'16  b'16 ]
@@ -507,7 +507,7 @@
     \addlyrics {}
 
     \header {
-      title = \titleFunc "Музикален момент" "Zaglavie"
+      title = \titleFunc "Вариации" "Zaglavie"
     }
 
     \midi{}

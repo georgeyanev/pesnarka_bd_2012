@@ -4,7 +4,7 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \label #'ref253
+  \label #'ref254
   \tocItem \markup "Марш на светлите сили II"
   \include "include/bookpart-paper.ily"
   \score {

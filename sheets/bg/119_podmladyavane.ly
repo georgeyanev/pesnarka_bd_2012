@@ -60,7 +60,7 @@
       \time 2/4  d'4. fis'8 | % 12
       \time 3/4  a'8 g'8 fis'8 \tempo "poco rit." e'8 b8 cis'8
       | % 13
-        d'2 r4 | % 14
+      d'2 r4 | % 14
       \time 2/4
       \tempo "a tempo" a8. a16 b8 cis'8 \break | % 15
       d'8 e'8 fis'4 | % 16

@@ -19,7 +19,7 @@
       \autoBeamOff
       c'8 g c' g c' g | b8 g b g b g \break |
 
-      \time 4/4  g8 g a [( b )] c'2 |g8 g a [( b )] c'2 | g8 g a [( b )] \tempo"   Fine" c'2  \break |
+      \time 4/4  g8 g a [( b )] c'2 |g8 g a [( b )] c'2 | g8 g a [( b )]  \tempo"   Fine"c'2    \break |
 
       \bar ".|:-||"
       e'8 d' c' d' e' e' e' e' | g'8 f' e' d' e' d' c' b \break |
@@ -119,7 +119,7 @@
           \override StaffSymbol.thickness = #(magstep -4)
           firstClef = ##f
         }
-        { b'4^\markup { \huge \italic "ossia" } c'' | b'4 a' | }
+        { b'4^\markup { \huge \italic "ossia по М.Тодорова" } c'' | b'4 a' | }
       >>
 
 

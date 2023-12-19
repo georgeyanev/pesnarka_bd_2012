@@ -147,10 +147,10 @@
 
   } % score
 
-    \tocItem \markup "Ме-хейн II"
-     \label #'ref175_2_2
+  \tocItem \markup "Ме-хейн II"
+  \label #'ref175_2_2
 
-   \score {
+  \score {
     \include "include/score-layout.ily"
 
     \new Voice \absolute {
@@ -197,12 +197,12 @@
       \slurSolid
       es'4
 
-       fis'4 | % 8
+      fis'4 | % 8
       g'4 -- g'4 -- g'4 -- | % 9
       g'2. \bar "|." \break
 
 
-      
+
     }
 
     \addlyrics {
@@ -218,7 +218,7 @@
   } % score
 
 
-  
+
 
 
 

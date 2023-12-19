@@ -4,8 +4,6 @@
   ragged-last = ##f % do spread last line to fill the whole space
   \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
   \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-  
-
 
   \context {
     \Score
@@ -13,8 +11,6 @@
     \override KeySignature.X-offset = #-1.2 % decrease keysigniture offset
     \override TimeSignature.X-offset = #-1.8 % decrease time signiture offset
     \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
-
-
 
   } % context
 
@@ -26,9 +22,6 @@
     \override StaffSymbol.thickness = #0.5
     \override BarLine.hair-thickness = #1
     %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
-     
-  
-
   }
 
   \context {

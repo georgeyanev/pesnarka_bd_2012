@@ -48,7 +48,7 @@
   \markup \fontsize  #+2  { \hspace #5  \vspace #0.7 Пенка Кадиева}
   \markup \fontsize  #+2  { \hspace #5  \vspace #0.7 Петър Ганев}
 
-   \markup \fontsize  #+3.5  {  \hspace #3  \vspace #1.5 ©  Издателство Бяло Братство, София 2023 }
+   \markup \fontsize  #+3.5  {  \hspace #3  \vspace #1.5 ©  Издателство Бяло Братство, София 2024 }
 
   \markup \fontsize  #+2.5  { \hspace #3  \vspace #1.5  ISBN-10 954-744-076-4}
 

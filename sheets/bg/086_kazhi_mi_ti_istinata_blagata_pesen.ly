@@ -1,4 +1,4 @@
-\version "2.24.3"
+\version "2.24.2"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -18,9 +18,9 @@
       \tempoFunc "Andante" 4 "60"
       \autoBeamOff
 
-      d'8 b'4. a'8 g'4  fis'8. e'16 e'4 d'4.
+      d'8 b'4. a'8 g'4  fis'8. e'16 e'4 d'4. \bar"!" \break
 
-      d'8 e'8 fis' g' a' \break b' d'' (d''4) c''4.  b'8 a' g' b'4\tempo "rit." a' g'4. \bar ":|."
+      d'8 e'8 fis' g' a'  b' d'' (d''4) c''4.  b'8 a' g' b'4\tempo "rit." a' g'4. \bar ":|."
 
     }
 

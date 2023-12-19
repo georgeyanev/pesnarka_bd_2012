@@ -10,7 +10,7 @@
   \score {
     \include "include/score-layout.ily"
 
-    \new Voice \absolute {
+    \new Staff = main \absolute {
       \clef treble
       \key a \major
       \time 4/4
@@ -34,12 +34,27 @@
       | % 8
       \tempoFunc "Meno mosso" 4 "50"
       e'4.  d'8  cis'4  b4 | % 9
-      d'4  cis'8 ( [  b8 ) ]  e'4.  e'8
-      |
+      d'4  cis'8 ( [  b8 ) ]  e'4.  e'8 |
       \time 5/4  |
-      gis'4  fis'8   e'8  b'4 \tempo "rit." a'8
-      fis'8 ^\>  a'8  b'8
-      \break | % 11
+      <<
+        {
+          gis'4 fis'8 e'8 b'4 \tempo "rit." a'8 fis'8 ^\> a'8  b'8 \break |
+        }
+
+        \new Staff \with {
+          \override VerticalAxisGroup.default-staff-staff-spacing =
+          #'((basic-distance . 6.5)
+             (padding . -10))
+          \remove "Time_signature_engraver"
+          alignAboveContext = #"main"
+          fontSize = #-1
+          \override StaffSymbol.staff-space = #(magstep -4)
+          \override StaffSymbol.thickness = #(magstep -4)
+          firstClef = ##f
+        }
+        {  \time 5/4  \autoBeamOff g'!4^\markup { \huge \italic "ossia по Л.Т." } f'8 e'8 b'4 \tempo "rit." a'8 f'8 ^\> a'8  b'8^\!  \break |  }
+      >>
+
       a'2 ^\! ^\p r4 r2 \bar "||"
       \time 4/4   | % 12
       \tempoFunc "Più mosso" 4 "92" e'4 ^\mf
@@ -73,19 +88,42 @@
       ]  b'8 ( [ ^\>  a'8 ) ] | % 24
       cis''2 (  b'4 ) ^\! ^\mf  cis''8 ( [ ^\<
       dis''8 ) ] | % 25
-      e''4 ^\!  cis''4  b'4 ^\>  a'4 | % 26
-      gis'4 (  fis'2 ) ^\!  e'4 ^\p ^\< \break | % 27
+      e''4 ^\!  cis''4  b'4 ^\>  a'4 |\break % 26
+      gis'4 (  fis'2 ) ^\!  e'4 ^\p ^\<  | % 27
       fis'4  e'4 ^\! b'4  a'8 ( [
       gis'8 ) ] | % 28
       a'2.  e'4 ^\p | % 29
       g'4  fis'4  e'4  dis'8 ( [  e'8
-      ) ] |
-      fis'2.  g'4 ^\mf \break | % 31
-      b'4  a'4  cis''4  b'8 ( [  a'8
-      ) ] | % 32
+      ) ] | \break
+      fis'2.  g'4 ^\mf  | % 31
+
+      <<
+        {
+
+          b'4  a'4  cis''4  b'8 ( [  a'8 ])
+        }
+
+        \new Staff \with {
+          \override VerticalAxisGroup.default-staff-staff-spacing =
+          #'((basic-distance . 4.5)
+             (padding . -10))
+          \remove "Time_signature_engraver"
+          alignAboveContext = #"main"
+          fontSize = #-1
+          \override StaffSymbol.staff-space = #(magstep -4)
+          \override StaffSymbol.thickness = #(magstep -4)
+          firstClef = ##f
+        }
+        {  b'4^\markup { \huge \italic "ossia по Л.Т."}  a'4  c''!4  b'8 ( [  a'8 ])  }
+      >>
+
+
+      | % 32
+
+
       d''2.  cis''4 ^\ff  | % 33
-      e''4  b'4  a'4  gis'4 | % 34
-      a'2.  gis'8 ( [ ^\p  fis'8 ) ] \break | % 35
+      e''4  b'4  a'4  gis'4 | \break % 34
+      a'2.  gis'8 ( [ ^\p  fis'8 ) ]  | % 35
       e'4  d'4  cis'4  fis'8 ( [  gis'8
       ) ] | % 36
       a'2.  b'8 ( [ ^\pp  cis''8 ) ]

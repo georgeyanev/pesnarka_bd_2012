@@ -93,10 +93,9 @@
       es'8 ( [  d'8 ])  | c'2 | % 25
       a'4 bes'8 a'8  \break  | % 26
       g'4  c''4 ^\fermata  | % 27
-      \slurDown \stemUp bes'8 ([
-      \times 2/3  {
-        a'16   bes'16  a'16  ])
-      } \slurNeutral \stemNeutral
+      \slurDown \stemUp bes'16 (
+      [a'16 bes'16  a'16])
+      \slurNeutral \stemNeutral
       g'8 ( [  fis'8 ] )| % 28
       g'2  | % 29
       bes'2 |  d''4  bes'4 |

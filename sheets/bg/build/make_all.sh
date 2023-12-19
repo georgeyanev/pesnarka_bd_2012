@@ -155,10 +155,10 @@ cat \
     ../217_strannik_sam.ly \
     ../219_blank_page.ly \
     ../250_addendum.ly \
-    ../250_melodiya_2_v_radostta_ozarenie.ly \
-    ../251_molitva_ti_si_strateva.ly \
-    ../252_dobrata_molitva.ly \
-    ../253_marsh_tekst_pg.ly \
+    ../251_v_radostta_na_denya_ozarenie.ly \
+    ../252_molitva_ti_si_strateva.ly \
+    ../253_dobrata_molitva.ly \
+    ../254_marsh_tekst_pg.ly \
     ../219_blank_page.ly \
     ../218_appendix.ly \
     ../220_description_bg.ly \

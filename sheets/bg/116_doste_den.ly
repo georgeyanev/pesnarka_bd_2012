@@ -27,11 +27,11 @@
       \tempo \markup {
         % make tempo note smaller
         \concat {
-          \normal-text { "       ossia       "  }
+          \normal-text { "       ossia   "  }
           \fontsize #-4 \general-align #Y #DOWN \note {2} #0.8
-          \normal-text { "                "  }
+          \normal-text { "             "  }
           \fontsize #-4 \general-align #Y #DOWN \note {4} #0.8
-          "                                   Fine"
+          "                                 Fine"
         }
       }
 
@@ -70,6 +70,10 @@
       гра  --  ди,   доб  --  ре   съ  --  гра  --  ди   и   Ра  --
       "дост-"  --  та   ще   те   доб  --  ре   на  --  "гра-"  --  ди.   Гра
       --  бре   на  --  "гра-"  --  ди.
+    }
+
+    \addlyrics {
+      \repeat unfold 43 { \skip 2 } (*доб -- ро)
     }
 
     \header {

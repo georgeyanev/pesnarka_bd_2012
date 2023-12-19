@@ -255,9 +255,8 @@
       a4 a8. ~ | a4 ~ a8. \bar "||" \break
       g''8\mf\accent a16([b]) c8.~ | \noBreak
       c4~ c8. | \noBreak
-      \acciaccatura { g8 } d'8\accent e c8. | \noBreak
-
-      \acciaccatura { g8 } d'8\accent e c8. | \noBreak
+      d8\accent e c8. | \noBreak
+      d8\accent e c8. | \noBreak
       b8 d a[g16]| \break
       b4 b8. ~ | b4 ~ b8. | \noBreak
       g,8^\accent a16([b]) c8. | \noBreak
