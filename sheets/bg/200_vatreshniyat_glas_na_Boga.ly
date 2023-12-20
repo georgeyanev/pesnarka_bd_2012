@@ -61,8 +61,10 @@
 
       \header {
         title = \titleFunc "Вътрешният глас на Бога " "Vătrešnijat glas na Boga"
+        subtitle = \markup \normal-text \huge "(медитация)"
 
       }
+
 
       \midi{}
 

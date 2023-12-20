@@ -43,7 +43,7 @@
 
 
   \markup \fontsize  #+2  { \hspace #5  \vspace #0.7 Георги Стратев}
-  \markup \fontsize  #+2  { \hspace #5  \vspace #0.7 Йоанна Стратева}
+  \markup \fontsize  #+2  { \hspace #5  \vspace #0.7 Иоана Стратева}
   \markup \fontsize  #+2  { \hspace #5  \vspace #0.6 Станка Желева}
   \markup \fontsize  #+2  { \hspace #5  \vspace #0.7 Пенка Кадиева}
   \markup \fontsize  #+2  { \hspace #5  \vspace #0.7 Петър Ганев}

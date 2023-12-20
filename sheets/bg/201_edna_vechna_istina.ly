@@ -62,6 +62,7 @@
 
       \header {
         title = \titleFunc "Една вечна Истина, която е Бог на Любовта" "Edna večna Istina, kojato e Bog na Ljubovta"
+        subtitle = \markup \normal-text \huge "(медитация)"
       }
 
       \midi{}

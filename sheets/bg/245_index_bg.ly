@@ -136,14 +136,9 @@
   \markup \override #'(line-width . 32) \fontsize  #+2.2 {
     \override #'(baseline-skip . 2.2) \column {
       \with-link #'ref080 \fill-with-pattern #1 #RIGHT . "Махар Бену Аба" \page-ref #'ref080 "000" "?"
-
       \with-link #'ref175_2 \fill-with-pattern #1 #RIGHT . "Ме-хейн" \page-ref #'ref175_2 "000" "?"
-
       \with-link #'ref175_2 \fill-with-pattern #1 #RIGHT . "Ме-хейн II" \page-ref #'ref175_2_2 "000" "?"
-
-
       \with-link #'ref185 \fill-with-pattern #1 #RIGHT . "Мелодия 1 – Красив Живот" \page-ref #'ref185 "000" "?"
-
       \with-link #'ref186 \fill-with-pattern #1 #RIGHT . "Мелодия 2" \page-ref #'ref186 "000" "?"
       \with-link #'ref251_1 \fill-with-pattern #1 #RIGHT . "Мелодия 2 – В радостта" \page-ref #'ref251_1 "000" "?"
       \with-link #'ref188 \fill-with-pattern #1 #RIGHT . "Мелодия 3 – Когато се денят" \page-ref #'ref188 "000" "?"
@@ -192,11 +187,9 @@
     \hspace #2.6
     \override #'(baseline-skip . 2.2) \column {
       \with-link #'ref181 \fill-with-pattern #1 #RIGHT . "Пролетна песен (Ето пристига)" \page-ref #'ref181 "000" "?"
-
       \with-link #'ref124 \fill-with-pattern #1 #RIGHT . "Пролетна песен (Мили Боже)" \page-ref #'ref124 "000" "?"
       \with-link #'ref057 \fill-with-pattern #1 #RIGHT . "Псалом 91" \page-ref #'ref057 "000" "?"
       \with-link #'ref174_3 \fill-with-pattern #1 #RIGHT . "Радост" \page-ref #'ref174_3 "000" "?"
-
       \with-link #'ref122 \fill-with-pattern #1 #RIGHT . "Радост и скръб" \page-ref #'ref122 "000" "?"
       \with-link #'ref155_1 \fill-with-pattern #1 #RIGHT . "Радост, радост за душата" \page-ref #'ref155_1 "000" "?"
       \with-link #'ref121 \fill-with-pattern #1 #RIGHT . "Ранен час" \page-ref #'ref121 "000" "?"

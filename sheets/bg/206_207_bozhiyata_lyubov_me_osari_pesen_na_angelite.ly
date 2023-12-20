@@ -52,7 +52,7 @@
           \override StaffSymbol.thickness = #(magstep -4)
           firstClef = ##f
         }
-        {  \time 5/4  \autoBeamOff g'!4^\markup { \huge \italic "ossia по Л.Т." } f'8 e'8 b'4 \tempo "rit." a'8 f'8 ^\> a'8  b'8^\!  \break |  }
+        {  \time 5/4  \autoBeamOff g'!4^\markup { \huge \italic "ossia по Л.Т." } f'8 e'8 b'4 a'8_\markup { \large \bold "rit." } f'8 ^\> a'8  b'8^\!  \break |  }
       >>
 
       a'2 ^\! ^\p r4 r2 \bar "||"
