@@ -86,9 +86,7 @@
     \hspace #2.6
     \override #'(baseline-skip . 2.2) \column {
       \with-link #'ref118_1 \fill-with-pattern #1 #RIGHT . "Денят иде" \page-ref #'ref118_1 "000" "?"
-
       \with-link #'ref182 \fill-with-pattern #1 #RIGHT . "Десет теми" \page-ref #'ref182 "000" "?"
-
       \with-link #'ref063 \fill-with-pattern #1 #RIGHT . "Дишай дълбоко" \page-ref #'ref063 "000" "?"
       \with-link #'ref253 \fill-with-pattern #1 #RIGHT . "Добрата молитва" \page-ref #'ref253 "000" "?"
       \with-link #'ref095_2 \fill-with-pattern #1 #RIGHT . "Добър ден" \page-ref #'ref095_2 "000" "?"
