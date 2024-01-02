@@ -31,26 +31,26 @@
       f4. (f4) es8 | es2.   |
       \break
 
-      \key f \minor \bar ".|" \time 9/8 | % 15
+      \key f \minor \bar ".|"  | % 15
 
 
-      \bar ".|:-||"  \tempoFunc "            Più mosso" 4 "66" f4  f8  f4.  c'4. |
+      \bar ".|:-||"   \tempoFunc "     Più mosso" 4 "66" \time 9/8 f4  f8  f4.  c'4. |
 
       des4.  c2.|
       c8 ( [ des8  c8 ) ]  bes4.  as4. | \break
 
       f2. (f4.)| \bar ":|.|:"
 
-      \time 6/8 c'4. ( c8 ) c8  c8 |  
+      \time 6/8 c'4. ( c8 ) c8  c8 |
       f4. ~  f8  e8  f8 | % 21
 
-      g4. ( ~  g8 [  f8 des8 ) ] | \break 
+      g4. ( ~  g8 [  f8 des8 ) ] | \break
 
       \time 9/8
       c4. ~  c4  c8 bes8 -- as8 --  bes8 -- |
       as4. f2.   \bar ":|."  |  \key f \major
-      \bar ".|:" a8  bes8  c8  f,4  f8 d'4 (bes8 ) | \break 
-      g2. e8  [ (f8) ] g8 | 
+      \bar ".|:" a8  bes8  c8  f,4  f8 d'4 (bes8 ) | \break
+      g2. e8  [ (f8) ] g8 |
       \time 6/8 c4.  f,4. | a4.  g4  g8 | f2. \bar ":|."
 
 

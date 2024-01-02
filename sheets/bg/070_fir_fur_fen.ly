@@ -55,6 +55,6 @@
 
     } % score
 
-    \markup \dc-two "D.C. al Fine" "senza ripetizioni"
+    \markup \dc-two "D.C. al Fine" "senza ripetizione"
 
   } % bookpart

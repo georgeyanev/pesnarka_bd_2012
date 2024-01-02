@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref081
-  \tocItem \markup "В зорите на Живота"
+  \tocItem \markup "В зорите на живота"
   \paper {
     print-all-headers = ##t
     print-page-number = ##t
@@ -84,7 +84,7 @@
       бов съ -- бу -- ди.}
 
       \header {
-        title = \titleFunc "В зорите на Живота" "V zorite na Života"
+        title = \titleFunc "В зорите на живота" "V zorite na Života"
       }
 
       \midi{}

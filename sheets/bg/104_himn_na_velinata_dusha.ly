@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref104
-  \tocItem \markup "Химн на великата Душа"
+  \tocItem \markup "Химн на великата душа"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -47,30 +47,30 @@
       g'2. (| g'4) r4  \tempoFunc "Maestoso" 4 "72" a4 \mark \markup {\small \musicglyph "scripts.segno" }  \bar "||"
       a2  d'4 | % 63
       e'2. | % 64
-      e'4 (  fis'4 )  g'4 | % 65
-      fis'2. (| fis'4) r4  fis'4 | % 66
-      fis'2  g'4 \break | % 67
+      e'4 (  fis'4 )  g'4 |\break  % 65
+      fis'2. (|   fis'4) r4  fis'4 | % 66
+      fis'2  g'4 | % 67
       a'2. | % 68
       b'2  g'4 | % 69
-      g'2  a'4 |
+      g'2  a'4 | \break
       fis'2. (| fis'4) r4 b'4 | % 71
       b'2  b'4 | % 72
-      d''2. \break | % 73
+      d''2.  | % 73
       cis''2  b'4 | % 74
-      b'2 (  cis''4 ) | % 75
-      a'2  g'4 | % 76
+      b'2 (  cis''4 ) | \break % 75
+      a'2  g'4 |  % 76
       fis'2 ( \tempo "rit." e'4 )  | % 77
       \tempo "            Fine" d'2. \bar "|."
-      \break | % 78
+      | % 78
       \tempo "a tempo" fis'2 g'4 | % 79
-      a'2  a'4 |
+      a'2  a'4 | \break
       a'4 (  b'4 )  a'4 | % 81
-      fis'2  g'4 \break | % 82
+      fis'2  g'4 | % 82
       a'2. | % 83
       d''2. | % 84
       cis''2. | % 85
-      b'2 (  cis''4 ) | % 86
-      b'2. \break | % 87
+      b'2 (  cis''4 ) | \break % 86
+      b'2.  | % 87
       a'2  fis'4 | % 88
       a'2  g'4 | % 89
       fis'2  e'4 |
@@ -113,7 +113,7 @@
     }
 
     \header {
-      title = \titleFunc "Химн на великата Душа" "Himn na velikata Dusha"
+      title = \titleFunc "Химн на великата душа" "Himn na velikata Dusha"
     }
 
     \midi{}

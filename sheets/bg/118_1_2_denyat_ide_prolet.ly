@@ -98,17 +98,17 @@
 
   \markup \dc-one "D.C."
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #18
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line { 2. Красота, ухание се лей,  }
-      \line {   "   "  изобилно блика радостта,}
-      \line {   "   " Слушайте и пейте в пролетта, }
-      \line {   "   " слушайте и пейте в пролетта. }
-    }
+  % \markup \fontsize #bgCoupletFontSize {
+  %   \hspace #18
+  %   \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+  %   \column {
+  %     \line { 2. Красота, ухание се лей,  }
+  %     \line {   "   "  изобилно блика радостта,}
+  %     \line {   "   " Слушайте и пейте в пролетта, }
+  %     \line {   "   " слушайте и пейте в пролетта. }
+  %   }
 
-  } % markup
+  % } % markup
 
 
 } % bookpart

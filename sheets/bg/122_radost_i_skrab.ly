@@ -32,7 +32,7 @@
 
     % change distance between staves
     system-system-spacing =
-    #'((basic-distance . 10)
+    #'((basic-distance . 9)
        (minimum-distance . 6)
        (padding . 1)
        (stretchability . 12))

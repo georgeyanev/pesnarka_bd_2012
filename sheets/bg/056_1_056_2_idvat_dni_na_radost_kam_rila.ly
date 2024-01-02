@@ -16,9 +16,9 @@
       \time 3/4
       \autoBeamOff
       \tempoFunc "Andante" 4 "66"
-        a'8. a'16 a'4. bes'8 | a'4 g'2 | g'8. g'16 g'4. a'8 | \break
-        g'4 f'2 | e'8. e'16 e'4. f'8 | e'4 d'2 | \break
-        e'8 f'8 g'8 bes'4 bes'8 | a'4 g'4 f'8. f'16 | e'4 d'2 | \bar ":|."
+      a'8. a'16 a'4. bes'8 | a'4 g'2 | g'8. g'16 g'4. a'8 | \break
+      g'4 f'2 | e'8. e'16 e'4. f'8 | e'4 d'2 | \break
+      e'8 f'8 g'8 bes'4 bes'8 | a'4 g'4 f'8. f'16 | e'4 d'2 | \bar ":|."
     }
 
     \addlyrics {
@@ -36,7 +36,7 @@
   } % score
 
 
-    \label #'ref056_2
+  \label #'ref056_2
   \tocItem \markup "Към Рила"
 
   \include "include/bookpart-paper.ily"
@@ -63,7 +63,7 @@
     \addlyrics {
       "1. Към" Ри -- ла с~мощ -- на ми -- съл ле -- тим ний
       все -- ки ден. __ В~гър -- ди -- те с~туй же -- ла --
-      ние жи -- ве -- ем в~свят не -- тлен. В~гър -- тлен. __ 
+      ние жи -- ве -- ем в~свят не -- тлен. "В~гър -" тлен. __
     }
 
     \header {
@@ -78,7 +78,7 @@
     \hspace #8
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-     
+
       \line { 2. Отново ще се срещнем  }
       \line {   "   " при рилските очи. }
       \line {   "   " Тук нашата цигулка }
@@ -92,17 +92,17 @@
 
     }
 
-      \hspace #5
+    \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-     
-     
+
+
       \line { 4. Ще идем ний на Рила, }
       \line {   "   " ще видим Мусала, }
       \line {   "   " безкрайната Природа  }
       \line {   "   " и своя мил Баща. }
 
-  
+
     }
 
 
@@ -110,6 +110,6 @@
 
 
 
-  
+
 
 } % bookpart
