@@ -76,7 +76,7 @@
 
       \time 2/4  e4. ( fis8 ) \break
 
-      | \time 3/4  d2 b'8. b16 | c4 e,4 fis8. d16 | \time 4/4 \stemUp b'2 ( \afterGrace a2 )({ b16[ a] )} |
+      | \time 3/4  d2 b'8. b16 | c4 e,4 fis8. d16 | \time 4/4 \stemUp b'2 ( \afterGrace a2 { b16[ a] )} |
       \time 3/4  |
       g2. \bar "|."
 

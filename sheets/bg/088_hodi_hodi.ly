@@ -65,7 +65,7 @@
 
   } % score
 
-  \markup \huge \italic \dc-one-nobold "attacca „Тъги скърби“"
+  \markup \huge \italic \dc-one-nobold "attacca „Тъги, скърби“"
 
   \markup \fontsize #bgCoupletFontSize {
     \hspace #18

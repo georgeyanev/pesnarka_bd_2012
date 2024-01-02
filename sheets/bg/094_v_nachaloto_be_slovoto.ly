@@ -38,16 +38,16 @@
 
       a4 a'2 gis'4 a' bes'2 a'  g'4 ( a' ) f'2 e'4 f'  g'4 ( a' ) e'2. \bar "!" \break
 
-      e'4  f'4 g' a' e'     \tempo \markup {
+      e'4  f'4 g'   a'   \tempo \markup {
         % make tempo note smaller
         \concat {
-          \normal-text { "       ossia    "  }
+          \normal-text { " ossia    "  }
           \fontsize #-4 \general-align #Y #DOWN \note {4} #0.8
           \normal-text { "             "  }
 
         }
       }
-      g'2  f'2 e' d'2. \bar ":|."
+      e' g'2  f'2 e' d'2. \bar ":|."
     }
 
     \addlyrics {

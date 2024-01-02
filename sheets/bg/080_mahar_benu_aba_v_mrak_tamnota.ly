@@ -124,7 +124,7 @@
 
   }
 
-  \markup \dc-two "D.C. al Fine „Mahar Benu Aba“" "senza ripetizione"
+  \markup \dc-two "D.C. al Fine „ Махар Бену Аба“" "senza ripetizione"
 
 
 } % bookpart

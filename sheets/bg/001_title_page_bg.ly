@@ -67,9 +67,9 @@
     }
   }
   \markup \fontsize  #+2  { {  \vspace #.5 } }
-  \markup \fontsize  #+2.5 {\hspace #25 {"Издадени от"} }
+  \markup \fontsize  #+3 {\hspace #25 {"Издадени от"} }
   \markup \fontsize  #+2  { {  \vspace #0.1 } }
-  \markup \fontsize  #+2.5 { \hspace #25  {"Петър Ганев"} }
+  \markup \fontsize  #+3 { \hspace #25  {"Петър Ганев"} }
 
 
 

@@ -19,7 +19,7 @@
       \omit Score.TimeSignature
       \cadenzaOn % allows custom bar lines
 
-      \slurDown a'4^\p bes'8 [ ( a'] gis' [a'] bes'2 ) \slurNeutral  a'^\mp  d''4  e''8 ( [d''] cis'' [d''] bes' [a'] c''16 [bes' a' gis'!] ) a'2   \break
+      \slurDown a'4^\p bes'8 [ ( a'] gis' [a'] bes'2 ) \slurNeutral  a' d''4^\mp   e''8 ( [d''] cis'' [d''] bes' [a'] c''16 [bes' a' gis'!] ) a'2   \break
 
       \time 10/4 g'8 ([ f'] e' [f'] g'4 a' ) f'4. ( e'8 g'16 [f' e' f'] ) d'2 \break
 
@@ -54,7 +54,7 @@
 
       a4 cis' e' a'2 gis'4 |  \time 5/4  b'4. fis'8 fis'4 e'2 | \time 6/4  fis'4 e' d' cis'2 b4 \break |
 
-      \time 5/4  e'4. b8 b4 a2 | \bar ":|.|:" \time 8/8 \tempo  "      Più Mosso"
+      \time 5/4  e'4. b8 b4 a2 | \bar ":|.|:" \time 8/8 \tempo  "   Più Mosso"
 
       e'4. fis'4 d'4. | e'4. fis'4 ~ fis'4. | e'4. fis'4 d'4. \break |
 

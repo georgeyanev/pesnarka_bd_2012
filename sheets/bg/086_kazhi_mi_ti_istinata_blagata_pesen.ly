@@ -82,7 +82,7 @@
 
   } % score
 
-  \markup \dc-two "D.C. al Fine „Кажи ми ти Истината“" "senza ripetizione"
+  \markup \dc-two "D.C. al Fine „Кажи ми Tи Истината“" "senza ripetizione"
 
 
 

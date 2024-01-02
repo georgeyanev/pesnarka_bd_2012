@@ -47,18 +47,18 @@
       \key des \major
       \time 3/8
       \tempoFunc "Allegro" 4. "48"
-      des''8. [des''16] c''16 [des''16]
+      des''8. des''16 c''16 des''16
       | % 2
       es''4 des''8 | % 3
-      des''8. c''16 c''16 [des''16]
+      des''8. c''16 c''16 des''16
       | % 4
       c''4 bes'8  | % 5
       bes'4  as'8 | % 6
       as'4. \break| % 7
       es'4  f'16  ges'16  | % 8
-      bes'8.  [as'16 ] as'16 bes'16  | % 9
-      as'8.  [ges'16]  f'16  ges'16 |
-      f'8.  [es'16]  des'16  es'16 | % 11
+      bes'8.  as'16  as'16 bes'16  | % 9
+      as'8.  ges'16  f'16  ges'16 |
+      f'8.  es'16  des'16  es'16 | % 11
       des'4. \break | % 12
       as'4  as'8  | % 13
       as'8  g'8  as'8 | % 14
@@ -67,9 +67,9 @@
       des''4 des ''8 | % 17
       des''8 c''8 des''8 \break | % 18
       es''4 des''8  | % 19
-      c''8. [bes'16]  as'16 bes'16 |
+      c''8. bes'16  as'16 bes'16 |
       as'4  ges'8   | % 21
-      f'8.  [es'16]  des'16  es'16 | % 22
+      f'8. es'16 des'16  es'16 | % 22
       des'4. |
       es'8  f'8  ges'8 \break| % 24
       as'4 bes'16 c''16  | % 25

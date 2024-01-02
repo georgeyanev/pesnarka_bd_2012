@@ -34,7 +34,7 @@
 
 
   \markup {
-    \fill-line 
+    \fill-line
     \general-align #Y #DOWN {
       \epsfile #X #51 #"../../img/bd_image.eps"
     }
@@ -42,8 +42,8 @@
 
   \markup { {  \vspace #0.4 } }
 
-  \markup \fontsize  #+2.5 { \fill-line  {" Петър Дънов – Беинса Дуно "} }
-   %\markup \fontsize  #+2 { \fill-line {" (1864  –  1944)" } }
+  \markup \fontsize  #+3.5 { \fill-line \bold  {" Петър Дънов – Беинса Дуно "} }
+  %\markup \fontsize  #+2 { \fill-line {" (1864  –  1944)" } }
 
   % include foreign translation(s) of the song
   %
