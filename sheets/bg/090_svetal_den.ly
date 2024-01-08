@@ -10,7 +10,7 @@
   \score {
     \include "include/score-layout.ily"
 
-    \new Voice \absolute  {
+    \new Staff = main \absolute  {
       \clef treble
       \key g \major
       \time 2/4
@@ -21,7 +21,13 @@
 
       g'8 a'8 b'4 |  g'8 a'8 b'4 | d''4 d''4 | d''2 | \break
 
-      d''8 c'' b'4 | d''8 c'' b'4 | b'8 b'8 a'8 a'8 | \tempo "                  Fine" g'2
+      d''8 c'' b'4 | d''8 c'' b'4 |
+
+
+      b'4 a'4| \tempo "                Fine" g'2
+
+
+
       \bar ":|." \break
 
       \time 3/4
@@ -46,13 +52,14 @@
       Ве -- сел ден, ве -- сел ден,
       ден, ден, ден.
       Бо -- жи ден, Бо -- жи ден,
-      све -- тъл Бо -- жи ден.
+      ден, ден, ден.
       Све -- тъл ден, све -- тъл ден,
       све -- тъл ден, Бо -- жи ден.
       Све -- тъл ден, све -- тъл ден,
       све -- тъл ден, Бо -- жи ден.
 
     }
+
 
     \header {
       title = \titleFunc "Светъл ден" "Svetăl den"

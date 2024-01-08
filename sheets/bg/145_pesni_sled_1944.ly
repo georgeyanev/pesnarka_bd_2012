@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref145
-  \tocAct \markup { "Песни, мелодии и теми непубликувани до 1944 год."}
+  \tocAct \markup { "Песни, мелодии и теми, непубликувани до 1944 г."}
   \paper {
     print-all-headers = ##f
     print-page-number = ##f
@@ -40,7 +40,7 @@
   \markup { {  \vspace #0.3 } }
   \markup \fontsize  #+7 { \fill-line \bold {"ТЕМИ ОТ УЧИТЕЛЯ,"} }
   \markup { {  \vspace #0.3 } }
-  \markup \fontsize  #+7 { \fill-line \bold {"непубликувани до 1944 год."} }
+  \markup \fontsize  #+7 { \fill-line \bold {"непубликувани до 1944 г."} }
 
 
 

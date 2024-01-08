@@ -62,7 +62,7 @@
       \justify {напевно}
 
       \line \bold {D.C. (da capo)} \override #`(baseline-skip . ,blineskip221)
-      \justify {отначало; песента се изпълнява втори път.}
+      \justify {отначало; песента се изпълнява втори път}
 
       \line \bold {D.C. al Fine} \override #`(baseline-skip . ,blineskip221)
       \justify {отначало до думата \italic"Fine" (край)}

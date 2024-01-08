@@ -9,7 +9,7 @@
   \score {
     \include "include/score-layout.ily"
 
-    \new Voice \relative c' {
+    \new Staff = main  \relative c' {
       \clef treble
       \key bes \minor
       \time 9/8
@@ -17,8 +17,27 @@
       \autoBeamOff
       bes8 ( [  des8 ) ]  c8  bes4.  a4  bes8
       \override TextScript.extra-offset = #'(2.5 . 2)
-      c4.  f2.  | % 4
-      f8  ges8  f8  es8  des8 c8  es4. \break |
+      <<
+        {
+          c4.  f2.  |
+        }
+        \new Staff \with {
+          \override VerticalAxisGroup.default-staff-staff-spacing =
+          #'((basic-distance . 6.5)
+             (padding . -10))
+          \remove "Time_signature_engraver"
+          alignAboveContext = #"main"
+          fontSize = #-1
+          \override StaffSymbol.staff-space = #(magstep -4)
+          \override StaffSymbol.thickness = #(magstep -4)
+          firstClef = ##f
+        }
+        {  c4.^\markup { \huge \italic "ossia по К.Икономов" }  f,2.}
+      >>
+
+
+
+      f'8  ges8  f8  es8  des8 c8  es4. \break |
       c2. es8 ( [  d8 ) ]  es8 |
       \time 6/8
       f4.  bes,4. | % 8

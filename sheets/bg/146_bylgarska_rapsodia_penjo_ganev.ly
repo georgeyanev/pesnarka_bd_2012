@@ -132,11 +132,11 @@
       \tempo "rit." c8 d b g16 | \noBreak
       a4 a8. | \break \bar ":|."
 
-      \time 7/8  \tempoFunc "Andante" 8 "150" a4 (d8[e]) f8([ g f]) | e4 ~ e4 ~ e4. | \noBreak
+      \time 7/8  \tempoFunc "Andante" 8 "150" a,4 (d8[e]) f8([ g f]) | e4 ~ e4 ~ e4. | \noBreak
 
-      c4 \acciaccatura{ b16[c] } \stemUp b4 \stemNeutral a8 gis a8 |  b8([c b])  e,2 | \break
+      c'4 \acciaccatura{ b16[c] } \stemUp b4 \stemNeutral a8 gis a8 |  b8([c b])  e,2 | \break
 
-      e'8\tenuto f\tenuto g\tenuto  g4 a4 |  \noBreak
+      e8\tenuto f\tenuto g\tenuto  g4 a4 |  \noBreak
 
       \acciaccatura {f16[g]}  f8 e g  f4\tenuto e4\tenuto | \noBreak
       a4. d,2 | g4 f e d8 |   c b c4 d4. | \break e4 ~ e4 ~ e4. | \noBreak
@@ -144,7 +144,7 @@
       \tempo "rit." a,4 b c4. | \time 9/8 b4 d c b4. | \noBreak
       \time 7/8
       a4 ~ a4 ~ a4. ~ | a4 ~ a4 ~ a4. | \bar "||"  \break
-      \tempo "a tempo" a4  d8 e  f([ g f]) | e4. ~ e4 ~ e4 |  \noBreak
+      \tempo "a tempo" a'4  d8 e  f([ g f]) | e4. ~ e4 ~ e4 |  \noBreak
 
       c'4 \acciaccatura{ b16[c] } b4 a8 [gis  a] | b8 ( [c8 b]) e,4 ~ e4 | \break
 

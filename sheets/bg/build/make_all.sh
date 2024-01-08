@@ -162,7 +162,7 @@ cat \
     ../254_marsh_tekst_pg.ly \
     ../219_blank_page.ly \
     ../218_appendix.ly \
-    ../220_description_bg.ly \
+    ../220_alpha_description.ly \
     ../221_dictionary_bg.ly \
     ../245_index_bg.ly \
     ../222.anotation_bg.ly \

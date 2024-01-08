@@ -55,7 +55,7 @@
   \markup \fontsize  #+2 { \fill-line \bold {"Набор на нотния текст и дизайн"} }
   \markup \fontsize  #+1.5 { \fill-line  {"Мария Кирева, Георги Янев"} }
   \markup { {  \vspace #0.5 } }
-  \markup \fontsize  #+1.5 { \fill-line \bold {"Издателство Бяло Братство"} }
+  \markup \fontsize  #+1.5 { \fill-line \bold {"Издателство „Бяло Братство“"} }
 
   \markup \fontsize  #+1.5 { \fill-line  {"izdatelstvo.bratstvo@gmail.com"} }
   \markup \fontsize  #+1.5 { \fill-line  {"www.bialobratstvo.bg"} }
