@@ -331,7 +331,7 @@
         fis''8 ) ]  |
         cis''8 ( [ dis''8 cis''8 ]
         dis''8 [ e''8 dis''8 ) ] e''8 ( [
-        fis''8 e''8 ) ] | % 71
+        fis''8 e''8 ) ] | \break % 71
         b'8 ( [ ^\markup{ \huge \italic {rit. molto} } cis''8
         b'8 ] cis''8 [ dis''8 cis''8
         ) ] dis''8 (  [e''8] ) dis''8  | % 72
@@ -352,11 +352,10 @@
         dis'''16 -. e'''16 -. dis'''16 -. ]
         cis'''16 -. [ b''16 -. ais''16 -.
         gis''16  -. ] fis''16 -. [e''16] )
-        -.  ^\markup{ \huge \italic {rit.} } dis''16 -. cis''16 |
-
+        -.  ^\markup{ \huge \italic {rit.} } dis''16 -. cis''16 | \break
         \time 4/4
         \acciaccatura {  cis''8 [  dis''8 ] } cis''4
-        b'4 b'4 ais'4 \break |
+        b'4 b'4 ais'4  |
         b'2 r4 b'4 | cis''4 dis''4 e''4. cis''8
         |
 
@@ -401,9 +400,8 @@
         ва, __  сла --
         ва, __  сла --
         ва __ на на   -- "    ши" --
-        я "    Ба-" -- ща. Сла -- ва на  "    на" -- ши -- я Ба
-        -- ща, на на -- ши -- я Ве -- лик Ба
-        -- ща“.}
+        я "     Ба" -- ща. Сла -- ва на  "    на" -- ши -- я Ба
+        -- ща, на на -- ши -- я Ве -- лик Ба-- ща“.}
 
         \header {
           title = \titleFunc "Песента на ангелите" "Pesenta na angelite"
