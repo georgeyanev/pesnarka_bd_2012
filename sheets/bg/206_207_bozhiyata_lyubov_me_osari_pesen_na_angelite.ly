@@ -345,14 +345,14 @@
         b'4. \break | % 73
         \time 3/4  | \bar "||" % 73
         \tempoFunc "Moderato" 4 "80"
-        dis''16 ( [ cis''16 dis''16
+        \once \override Slur.positions = #'(1.5 . 2.6) dis''16 ( [ cis''16 dis''16
         e''16 ] fis''16 [ e''16 fis''16
         gis''16 ] ais''16 [ gis''16
         ais''16 b''16  ] | cis'''16  -. [
         dis'''16 -. e'''16 -. dis'''16 -. ]
         cis'''16 -. [ b''16 -. ais''16 -.
         gis''16  -. ] fis''16 -. [e''16] )
-        -.  ^\markup{ \huge \italic {rit.} } dis''16 -. cis''16 | \break
+        -. dis''16 -. cis''16 -. | \break
         \time 4/4
         \acciaccatura {  cis''8 [  dis''8 ] } cis''4
         b'4 b'4 ais'4  |
@@ -401,7 +401,7 @@
         ва, __  сла --
         ва __ на на   -- "    ши" --
         я "     Ба" -- ща. Сла -- ва на  "    на" -- ши -- я Ба
-        -- ща, на на -- ши -- я Ве -- лик Ба-- ща“.}
+        -- ща, на на -- ши -- я Ве -- лик Ба -- ща“.}
 
         \header {
           title = \titleFunc "Песента на ангелите" "Pesenta na angelite"
