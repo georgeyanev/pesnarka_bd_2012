@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.24.3"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Ein Tag wird kommen" }
 \markup \null

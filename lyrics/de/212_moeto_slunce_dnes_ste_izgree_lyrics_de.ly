@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.24.3"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Meine Sonne wird heute aufgehen" }
 \markup \null

@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.24.3"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -175,6 +175,6 @@
 
 
 %{
-convert-ly (GNU LilyPond) 2.24.2  convert-ly: Processing `'...
+convert-ly (GNU LilyPond) 2.24.3  convert-ly: Processing `'...
 Applying conversion:     The document has not been changed.
 %}
