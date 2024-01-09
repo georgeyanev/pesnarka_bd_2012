@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref202
-  \tocItem \markup "Химни на Слънцето"
+  \tocItem \markup "Химн на Слънцето"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -70,8 +70,8 @@
       e2  d4  | % 32
       \break g2  f8 ( [  e8 ) ] | % 33
       e2  a8 ( [  b8 ) ] | % 34
-      c2  b8  a8 | % 35
-      e'2  d8 ( [  c8 ) ] | % 36
+      \time 2/4 c4  b8  a8 | % 35
+      \time 3/4 e'2  d8 ( [  c8 ) ] | % 36
       c2 r4 \break | % 37
       \time 5/4  | % 37
       a4^\<  b8 ( [  c8 ) ] \!  a4
@@ -99,7 +99,7 @@
       \time 4/4  | % 52
       d2^\f  c4  bes4 | % 53
       \time 5/4  | % 53
-      a2 ^\markup \italic "decresc."  a4  g4  f4 | % 54
+      a2 ^\markup \italic \huge "decresc."  a4  g4  f4 | % 54
       \time 3/4  | % 54
       a2  g4 | % 55
       \time 4/4  | % 55
@@ -130,12 +130,12 @@
       \time 6/4  | % 75
       a4 ( ^\>  bes4 )  bes4  a2  \!
       r4 | % 76
-      a,4 ^\markup{ \bold {Più mosso} }  d4  e4
+      \tempo"Più mosso" a,4 d4  e4
       f2. \break | % 77
-      e4  d4 ^\markup{ \italic {poco accel.} }
-      fis4 ^\markup \italic "cresc."  a2. | % 78
-      a2  a4  a4 ^\mf  a4  a4 | % 79
-      d2. ~ ^\ff  d2 r4 \bar "|."
+      e4  d4 ^\markup{ \italic \huge {poco accel.} }
+      fis4 ^\markup \italic \huge "cresc."  a2. | % 78
+      \time 7/4 a2  a4 r4 a4 ^\mf  a4  a4 | % 79
+      \time 6/4 d2. ~ ^\ff  d2 r4 \bar "|."
     }
 
     \addlyrics {
@@ -148,29 +148,29 @@
       то. Да дой -- де Цар -- ство -- то
       Бо -- жи -- е. Бу -- ди. Из -- гря
       -- ва Слън -- це -- то __  на
-      мо -- я Дух. Да бъ -- де Во -- ля --
+      мо -- я дух. Да бъ -- де Во -- ля --
       та Бо -- жи -- я. Бу -- дим.
-      Из  -- гря -- ва Слън -- це --
-      то на __ на -- ши -- те Ан -- ге
+      Из -- гря -- ва Слън -- це --
+      то на __ на -- ши -- те ан -- ге
       -- ли. Да се __ въд -- во --
       ри Цар -- ство -- то на От --
       ца на -- ше -- го на __  свет --
       ли -- ни -- те. Бу -- ди -- те. __
       Из -- гря -- ва Слън -- це -- то __
       на Ве -- ли -- ки -- я Гос --
-      под на Ми -- ра във на -- ши -- те
+      под на ми -- ра във на -- ши -- те
       ду -- ши. Да об -- но -- ви __  на --
       ша -- та ду -- ша със Сво -- я --
       та Си -- ла. Бу -- дят. Из --
       гря -- ва Слън -- це -- то __ на
       всич -- ки Слън -- ца __ на на --
       ши -- те ду -- хо -- ве. Да ни
-      да -- де Гос -- под Жи -- вот, здра
-      -- вe и Сво -- бо -- да! __
+      да -- де Гос -- под жи -- вот, здра
+      -- вe и сво -- бо -- да! __
     }
 
     \header {
-      title = \titleFunc "Химни на Слънцето" "Himni na Slănceto"
+      title = \titleFunc "Химн на Слънцето" "Himn na Slănceto"
     }
 
     \midi{}
@@ -179,7 +179,7 @@
 
   \markup \raise #2.8 \override #'(baseline-skip . 2) {
     \column {
-      \fill-line \italic { "" "" \concat {"attaca" "   " }}
+      \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
     }
   }
 
@@ -228,13 +228,13 @@
       fis4 ~ | \break % 96
       fis2 r2 \! | % 97
       \time 4/4 gis4. (  ais8 )  b4  ais4 | % 98
-      gis4  fis4  e4. (  fis8 ) | % 99
-      dis2. r4  |
+      \time 3/4 gis4  fis4  e8. (  fis16 ) | % 99
+      \time 4/4 dis2. r4  |
       \time 3/4  |
-      cis4 ^\p  b4 ^\markup{ \bold {rall.} } ais4 | \break % 101
+      cis4 ^\p  \tempo "rall. " b4 ais4 | \break % 101
       b2 r4 | % 102
       \time 4/4  | % 102
-      dis4 ^\markup{ \bold {Largo} } ^\p  e4 \grace {
+      \tempo"Largo" dis4^\p  e4 \grace {
         dis16 ( [  e16 ]
       }
       fis4 )  dis4
@@ -248,7 +248,7 @@
       }
       gis8  fis8  gis8  ais8
       \times 2/3  {
-        ais8 ( [  gis8 )  ] fis8
+        ais8. ( [  gis16 )  ] fis8
       }
       | % 106
       ais8  ais8  b4 ^\<  ais4
@@ -256,14 +256,10 @@
       | % 107
       \key dis \minor | \break % 107
       ais4 (  fis'2. | % 108
-      eis4 )  dis4 ^\markup{ \bold {rall.} }
+      eis4 )  \tempo"rall." dis4
       cisis4  cisis4 ~
       ^\mf | % 109
-      cisis2. ^\fermata r8^\markup{\musicglyph "scripts.caesura.straight"} b8^\markup{
-        \bold {
-          Tempo I
-        }
-      }
+      cisis2. ^\fermata r8 \caesura \tempo"Tempo I" b8
       ^\> | \bar "||"
       \time 6/8  |
       ais4  gis8  fis4  dis8 \break | % 111
@@ -283,18 +279,16 @@
       fis,8 ^\pp | \break % 118
       ais4.  gis8  fis8 eis8
       dis8  cisis8  | % 119
-      eis2  dis4 r8  ais'8 ^\markup{
-        \bold {
-          Meno
-          mosso
-        }
-      } ^\pp | \break
+      eis2  dis4 r8  \tempo "Meno mosso" ais8^\pp
+
+
+      | \break
       b4  ais8.  ais16  gisis8 ( [
       ais8 ) ]  b8  b8 | % 121
       b4  ais4  ais4  gis?4 \break | % 122
       ais2 r4  gis4 ^\p | % 123
-      ais4.  ais8 ^\markup{ \bold {rall.} }  ais8
-      ais8  ais8 ( [ ^\>  dis8 ) ] | % 124
+      ais2.  \tempo "rall." ais4 |
+      ais4 ais4 ais4 ( dis4 ) | % 124
       dis2. \! ^\ppp r4 \bar "|."
 
 
@@ -302,7 +296,7 @@
     \addlyrics {
       Вяр --
       вам във Те -- бе, Гос -- по
-      -- ди, Кой -- то си ми го -- во
+      -- ди, Кой -- то Си ми го -- во
       -- рил в~ми -- на -- ло -- то. Вяр -- вам в~Те -- бе, Гос -- по
       -- ди, Кой -- то ми го -- во --
       риш се -- га. Вяр -- вам
@@ -313,9 +307,9 @@
       то Ти и във Тво -- я -- та
       сла -- ва да жи -- ве -- ем ни
       -- е. Да се въд -- во -- ри __
-      Цар -- ство -- то Ти, __
+      Цар -- ство -- то Ти __
       и ни -- е да у -- част -- ва -- ме
-      във Твой -- та __ Ра -- дост.
+      във Твой -- та __ ра -- дост.
       Да бъ -- де Во -- ля -- та Ти
       как -- то на Не -- бе -- то го --
       ре, та -- ка и до -- лу на Зе --

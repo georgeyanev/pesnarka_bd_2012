@@ -25,7 +25,7 @@
       }
       \alternative {
         {  a'4. e'8 | }
-        {  a'4\fermata a4 \tempoFunc "Andante sustenuto" 4 "63" }
+        {  a'4 \fermata \caesura a4 \tempoFunc "Andante sustenuto" 4 "63" }
       }
 
       \key a \minor \time 4/4 \repeat volta 2 {
@@ -59,7 +59,7 @@
 
       що из -- пъл -- ня ця -- ла -- та Зе -- мя. Кра -- мя.
 
-      Кра -- сив е Жи -- во -- тът на на -- ша -- та __ ду -- ша,
+      Кра -- сив е жи -- во -- тът на на -- ша -- та __ ду -- ша,
 
       що из -- пъл -- ня ця -- ла -- та Зе -- мя. Кра -- мя.
 

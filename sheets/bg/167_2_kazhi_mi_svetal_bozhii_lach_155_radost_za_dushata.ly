@@ -33,7 +33,7 @@
 
     % change distance between staves
     system-system-spacing =
-    #'((basic-distance . 10)
+    #'((basic-distance . 8)
        (minimum-distance . 6)
        (padding . 1)
        (stretchability . 12))
@@ -75,7 +75,7 @@
     \addlyrics {
       Ка -- жи ми, свет -- ли Бо --
       жи лъч, бла -- го -- то
-      на Жи -- во --   та, свет --
+      на жи -- во --   та, свет --
       ли -- я прав път на чис -- ти --
       те "ду-" -- ши, чис -- ти -- те "ду-" --
       ши, чис -- ти -- те ду -- ши, чис --
@@ -129,28 +129,29 @@
           fis'8 ( [  e'8 ) ] fis'8
         }
         % 6
-        g'8  fis'8  e'4  d'4 \time 3/4 \break \repeat
-        volta 2 {
-          | % 7
-          d'4  d'4.  d'8 | % 8
-          d'4  d'2 | % 9
-          e'4  e'4.  g'8 |
-          fis'4  fis'2 \break | % 11
-          a'4  a'4.  a'8 | % 12
-          b'4  b'2 | % 13
-          cis''4  cis''4.  cis''8 | % 14
-          d''4  d''2
-        }
+        g'8  fis'8  e'4  d'4 \caesura \time 3/4 \break
+        \bar ".|:-||"
+        | % 7
+        \tempo "Più mosso"
+        d'4  d'4.  d'8 | % 8
+        d'4  d'2 | % 9
+        e'4  e'4.  g'8 |
+        fis'4  fis'2 \break | % 11
+        a'4  a'4.  a'8 | % 12
+        b'4  b'2 | % 13
+        cis''4  cis''4.  cis''8 | % 14
+        d''4  d''2
+        \bar ":|."
 
       }
 
       \addlyrics {
-        Ра -- дост, "Ра-" -- дост за ду -- ша
+        Ра -- дост, "ра-" -- дост за ду -- ша
         --  та __  но -- си
-        Чис -- то -- та -- та. Ра -- дост,
-        "Ра-" -- дост, "Ра-" -- дост, "Ра-" -- дост
+        чис -- то -- та -- та. Ра -- дост,
+        "ра-" -- дост, "ра-" -- дост, "ра-" -- дост
         за ду -- ша -- та __  но -- си
-        Чис -- то -- та -- та. Чис -- ти бъ --
+        чис -- то -- та -- та. Чис -- ти бъ --
         де -- те ка -- то пче -- ли -- те.
         Чис -- ти бъ -- де -- те ка -- то
         цве -- тя -- та.
@@ -165,6 +166,17 @@
     } % score
 
 
+    \markup \fontsize #bgCoupletFontSize {
+      \hspace #15
+      \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
+      \column {
+        \line {   2. Радост, радост за душата носи Светлината. }
+        \line {   "   "  Светли бъдете като звездите,}
+        \line {   "   "   светли бъдете като слънцата. }
+
+      }
+
+    } % markup
   } % bookpart
 
   % Più mosso

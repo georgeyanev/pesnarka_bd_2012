@@ -13,6 +13,7 @@ cat \
     ../007_preface_bg_three.ly \
     ../007_preface_bg.ly \
     ../008_about_music_bg.ly \
+    ../007_blank_page.ly \
     ../010_bratski_pesni.ly \
     ../016_zorata_na_noviya_zhivot.ly \
     ../018_izlyazal_e_seyach.ly \
@@ -26,12 +27,11 @@ cat \
     ../029_stradna_dusho.ly \
     ../030_izgrey_ti_moe_slantse.ly \
     ../032_shumi.ly \
-    ../034_pri_iztochnika.ly \
     ../036_napred_da_hodim.ly \
     ../037_na_Uchitelya.ly \
     ../038_milosardieto.ly \
-    ../041_za_nebesniya_zar.ly \
     ../039_040_sardechen_zov_blagosloven_Gospod.ly \
+    ../041_za_nebesniya_zar.ly \
     ../042_vreme_e_da_varvim.ly \
     ../044_pozdrav_na_Uchitelya.ly \
     ../045_sine_moy_pazi_zhivota.ly \
@@ -43,8 +43,7 @@ cat \
     ../051_o_Uchitelyu_blagati.ly \
     ../052_darzost_v_Hrista.ly \
     ../054_kam_Sion.ly \
-    ../055_1_slantseto_na_lyubovta.ly \
-    ../055_2_ti_si_proyavenata_lyubov_053_slava_Bozija.ly \
+    ../055_1_slantseto_na_lyubovta_053_slava_Bozija.ly \
     ../056_1_056_2_idvat_dni_na_radost_kam_rila.ly \
     ../057_psalom_91.ly \
     ../058_na_beliya_tsvyat.ly \
@@ -53,8 +52,8 @@ cat \
     ../063_dishay_dalboko.ly \
     ../066_1_066_2_taynata_vecherya_tebe_poem.ly \
     ../064_angel_vopiyashe.ly \
-    ../068_shto_e_sashtnostta_067_pesen_na_glasnite_bukvi.ly \
-    ../069_pesni_ot_Uchitelya_blank.ly \
+    ../068_shto_e_sashtnostta_ti_si_proyavenata_lyubov.ly \
+    ../069_pesen_na_glasnite_bukvi.ly \
     ../069_pesni_ot_Uchitelya.ly \
     ../070_fir_fur_fen.ly \
     ../071_izgrjava_slunzeto_sila_zhiva_izvorna_techusta.ly \
@@ -127,12 +126,13 @@ cat \
     ../165_malkiyat_planinski_izvor.ly \
     ../167_2_kazhi_mi_svetal_bozhii_lach_155_radost_za_dushata.ly \
     ../168_kazhi_mi_ti_istinata_II.ly \
-    ../169_1_2_kazhi_mi_ti_isinata_III_svoboda_e_portrebna_za_dushata.ly \
-    ../170_vyara_svetla_I_II_III_171_milost_blagost_az_moga_da_disham.ly \
-    ../172_igrata_na_potocheto.ly \
+    ../169_1_2_kazhi_mi_ti_isinata_III_az_moga_da_disham.ly \
+    ../170_vyara_svetla_I_II.ly \
+    ../171_milost_blagost_svoboda_e_potrebna_za_dushata.ly \
     ../173_malkata_bubolechka_174_3_radost.ly \
     ../174_1_da_bih_te_slusham_174_2_slusham_175_pismoto.ly \
     ../175_mehein.ly \
+    ../172_igrata_na_potocheto.ly \
     ../176_zhitno_zarno.ly \
     ../177_izvorche.ly  \
     ../178_molitva.ly \
@@ -140,9 +140,7 @@ cat \
     ../181_proletna_pesen.ly \
     ../182_deset_temi_new.ly \
     ../185_melodiya_i_krasiv_zhivot.ly \
-    ../186_melodiya_2_v_radostta.ly \
-    ../188_melodiya_3.ly \
-    ../189_osarenie.ly \
+    ../186_melodiya_2_3_4.ly \
     ../190_glasat_na_zhiviya_Gospod.ly \
     ../191_novoto_bitie.ly \
     ../200_vatreshniyat_glas_na_Boga.ly \
@@ -158,15 +156,16 @@ cat \
     ../217_strannik_sam.ly \
     ../219_blank_page.ly \
     ../250_addendum.ly \
-    ../251_molitva_ti_si_strateva.ly \
-    ../252_dobrata_molitva.ly \
-    ../253_marsh_tekst_pg.ly \
+    ../251_v_radostta_na_denya_ozarenie.ly \
+    ../252_molitva_ti_si_strateva.ly \
+    ../253_dobrata_molitva.ly \
+    ../254_marsh_tekst_pg.ly \
     ../219_blank_page.ly \
     ../218_appendix.ly \
-    ../220_description_bg.ly \
+    ../220_alpha_description.ly \
     ../221_dictionary_bg.ly \
-    ../222.anotation_bg.ly \
     ../245_index_bg.ly \
+    ../222.anotation_bg.ly \
     > tmp.ly
 
 lilypond --include=../ -o danov_songbook_bg tmp.ly

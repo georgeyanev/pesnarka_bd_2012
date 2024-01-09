@@ -66,11 +66,11 @@
       b'2  a'4 | % 17
       g'2 r4 | % 18
       \time 4/4  | % 18
-      g'4 ^\markup{ \italic {sostenuto} }  fis'4  e'4
+      g'4 ^\markup{ \huge \italic {sostenuto} }  fis'4  e'4
       fis'8  e'8 | % 19
       e'8 ( [  fis'8 ) ]  d'2. \break |
 
-      b'2  ^\markup{ \bold {a tempo} }  a'4  g'4 | % 21
+      \tempo"a tempo" b'2  a'4  g'4 | % 21
       \once \omit TupletBracket
       \times 2/3  {
         fis'8 ( [  ^\<  g'8  a'8 ) ]
@@ -107,7 +107,7 @@
       e'2.  ^\> \break | % 39
       d'2. |
       d'2  ^\!  ^\<  d'4 | % 41
-      e'2  ^\! ^\markup \italic { "cresc." }  d'4 | % 42
+      e'2  ^\! ^\markup \huge \italic { "cresc." }  d'4 | % 42
       \once \omit TupletBracket
 
       c'4 (  b4
@@ -130,7 +130,7 @@
       еш в~ме -- не, Ти жи -- ве --
       еш в~ме -- не. "Ка-" -- жи ми ти,
       свет -- ли Бо -- жи лъч, ка --
-      жи ми ти бла -- го -- то на Жи --
+      жи ми ти бла -- го -- то на жи --
       во -- та, свет -- ли -- я прав
       път на чис -- ти -- те ду
       -- ши, из -- ми -- ти във во --

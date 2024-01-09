@@ -128,6 +128,6 @@
 
 
   % include foreign translation(s) of the song
-  
+
 
 } % bookpart

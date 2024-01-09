@@ -4,7 +4,7 @@
 \include "include/globals.ily"
 
 \bookpart {
-   \label #'ref032
+  \label #'ref032
   \tocItem \markup "Шуми"
   \include "include/bookpart-paper.ily"
   \score {
@@ -48,8 +48,8 @@
 
   } % score
 
- 
- \markup \fontsize #bgCoupletFontSize {
+
+  \markup \fontsize #bgCoupletFontSize {
     \hspace #1
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
@@ -90,24 +90,24 @@
 
     }
 
-      \hspace #1
-      \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-      \column {
-          \line {   4.  "   "        Задухай, ветре, }
+    \hspace #1
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \column {
+      \line {   4.  "   "        Задухай, ветре, }
       \line {   "   "    "   "         света разведри!}
 
       \line {   "   "При чисти мисли, нежни чувства}
 
-      \line {   "   "цъфтят Божествени изкуства;}
+      \line {   "   "цъфтят Божествени изкуства.}
 
-      \line {   "   "навред да просияе радост,}
+      \line {   "   "Навред да просияе радост,}
 
       \line {   "   "навред да диша свежа младост.}
 
       \line {  "   "    "   " Задухай, ветре, }
       \line {   "   "    "   " света избистри.}
 
-      }
+    }
 
   } % markup
 } % bookpart

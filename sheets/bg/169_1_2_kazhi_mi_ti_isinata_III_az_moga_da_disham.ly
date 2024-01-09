@@ -6,7 +6,38 @@
 \bookpart {
   \label #'ref169_1
   \tocItem \markup "Кажи ми Ти Истината III"
-  \include "include/bookpart-paper.ily"
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 9)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -30,7 +61,7 @@
       \time 2/4  | % 7
       b'4  a'4 | % 8
       g'2 ( | % 9
-      g'4 ) r4
+      g'4 ) r4 \bar ":|.|:"
       \repeat volta 2 {
         \time 4/4
         g''2  fis''4.  g''16 [
@@ -58,12 +89,12 @@
       fis'8.  e'16  e'4 \break \time 3/4  d'2 r8
       d'8  e'8  fis'8  g'8  a'8
       b'8  d''8 ^\fermata  c''4.  b'8
-      a'8  g'8 |  b'2  a'4
-      g'2 \bar "|."
+      a'8  g'8 | \time 2/4 b'4  a'4 | \time 3/4
+      g'2 s4 \bar "|."
     }
     \addlyrics {
       Ка -- жи ми Ти Ис -- ти -- на -- та,
-      ко -- я -- то но -- си "Сво-" -- бо --
+      ко -- я -- то но -- си "сво-" -- бо --
       да за мо -- я -- та ду -- ша. __ ""
 
       \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
@@ -72,7 +103,7 @@
 
 
       Ка -- жи ми Ти "Ис-" -- "ти-" --
-      на -- та, ко -- я -- то но -- си "Сво-"
+      на -- та, ко -- я -- то но -- си "сво-"
       -- бо -- да за мо -- я -- та ду --
       ша.}
 
@@ -84,50 +115,54 @@
 
     } % score
 
-    \label #'ref169_2
-    \tocItem \markup "Свобода е потребна за душата"
+
+    \label #'ref171_2
+    \tocItem \markup "Аз мога да дишам"
+
     \include "include/bookpart-paper.ily"
     \score {
       \include "include/score-layout.ily"
 
       \new Voice \absolute {
         \clef treble
-        \key d \minor
+        \key c \major
         \time 2/4
-        \tempoFunc "Andante" 4 "66"
+        \tempoFunc "Moderato" 4 "88"
         \autoBeamOff
+        \partial 4
+        g4 \repeat volta 2 {
+          |
+          c'4 c'8. d'16 | % 3
+          e'4 c'4 | % 4
+          g'4 e'8. f'16 | % 5
+          \time 3/4  g'2 a'4 |  \break
+          \time 2/4  g'4 e'8. f'16 | % 7
+          e'4 c'4 | % 8
+          d'4 e'8. d'16 | % 9
+          \time 3/4
+        }
+        \alternative {
+          {
+            c'2 g4 |
 
-        r4  d'8  d'8 | % 2
-        a'4  a'8  a'8 | % 3
-        c''4  bes'4 | % 4
-        a'4  g'4 | % 5
-        f'8 ( [  g'8 ) ]  a'4 ~ \break | % 6
-        a'4  a8  a8 |  % 7
-        d'4  e'8  e'8 | % 8
-        g'4  f'4 | % 9
-        e'4  d'4 |
-        d'2 | % 11
-        d'2 | \break % 12
-        a8  a8  a4 | % 13
-        d'2 | % 14
-        a8  a8  a4 | % 15
-        d'2
-        \bar ":|."
+          }
+          {c'2 \bar "|."  }
+        }
       }
+
       \addlyrics {
-        Сво -- бо -- да е по -- треб -- на
-        за ду -- ша -- та. Сво -- бо
-        -- да е по -- треб -- на за ду --
-        ша -- та, за ду -- ша -- та, за ду
-        -- ша -- та.}
+        Аз мо -- га
+        да ди -- шам ве -- че до -- бре, аз мо -- га
+        да ди -- шам ве -- че до -- бре. Аз  бре.}
 
         \header {
-          title = \titleFunc "Свобода е потребна за душата" "Svoboda e potrebna za dušata"
+          title = \titleFunc "Аз мога да дишам " "Az moga da dišam"
         }
 
         \midi{}
 
       } % score
+
 
 
     } % bookpart

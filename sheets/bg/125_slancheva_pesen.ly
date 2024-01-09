@@ -81,15 +81,14 @@
       f16 | % 66
       es16 d16 es16 f16 es4
       ^\fermata | \break % 67
-
       es'4  bes4 | % 68
       c4 f,4 | % 69
       g16 as16  bes16  c16
-      bes8 r8 \mark \markup \fontsize #-3 { \musicglyph "scripts.caesura.straight" }|
+      bes8 r8  |
       c4 as4 |   % 71
       g4 f4 |  \break % 72
       bes16 as16 g16 f16 es8
-      r8 \mark \markup \fontsize #-3 { \musicglyph "scripts.caesura.straight" } |  % 73
+      r8 |  % 73
       es4 bes4 |  % 74
       g'4 d4 | % 75
       c'16  bes16 as16 g16
@@ -98,7 +97,7 @@
       bes'16  c16  d16  es16
       d16  c16  bes16 as16 |  % 78
       g8 r8 r4 |
-      as16 -- ^\markup{ \bold {rubato} }  bes16
+      \tempo"rubato" as16 -- bes16
       c16  d16  es16  f16
       g16  f16 |
       es2 \break | % 81

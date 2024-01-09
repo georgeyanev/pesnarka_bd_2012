@@ -48,7 +48,7 @@
 
     }
     \addlyrics {
-      "1. Хо" -- ди хо -- ди хо -- ди за во -- да -- та хо -- ди
+      "1. Хо" -- ди, хо -- ди, хо -- ди, за во -- да -- та хо -- ди
 
       су -- трин -- на -- та ро -- са, през ре -- чи -- ца бис -- тра, по пъ -- те -- ка
 
@@ -65,7 +65,7 @@
 
   } % score
 
-  \markup \italic \dc-one-nobold "attacca „Тъги скърби“"
+  \markup \huge \italic \dc-one-nobold "attacca „Тъги, скърби“"
 
   \markup \fontsize #bgCoupletFontSize {
     \hspace #18

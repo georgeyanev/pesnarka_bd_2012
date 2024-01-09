@@ -2,14 +2,18 @@
 \layout {
   indent = 0.0\cm % remove first line indentation
   ragged-last = ##f % do spread last line to fill the whole space
-  \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner 
- %\override Score.VoltaBracket.font-size = #.001 % make the repeat number fontsize smaller
+  \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
+  \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
+  
 
   \context {
     \Score
     \omit BarNumber %remove bar numbers
     \override KeySignature.X-offset = #-1.2 % decrease keysigniture offset
     \override TimeSignature.X-offset = #-1.8 % decrease time signiture offset
+    \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
+    \override TupletNumber.font-size = #0.5 % increase the triol number
+
   } % context
 
   \context {

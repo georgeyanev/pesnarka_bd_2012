@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref116
-  \tocItem \markup "Доще ден"
+  \tocItem \markup "До ще ден"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -27,11 +27,11 @@
       \tempo \markup {
         % make tempo note smaller
         \concat {
-          \normal-text { "       ossia       "  }
+          \normal-text { "       ossia   "  }
           \fontsize #-4 \general-align #Y #DOWN \note {2} #0.8
-          \normal-text { "                "  }
+          \normal-text { "             "  }
           \fontsize #-4 \general-align #Y #DOWN \note {4} #0.8
-          "                                   Fine"
+          "                                 Fine"
         }
       }
 
@@ -62,18 +62,22 @@
     }
 
     \addlyrics {
-      До  --  ще
-      ден,   до  --  ще   ден,   до  --  ще   ден,   до  --  ще   ден.
+      До  ще
+      ден,   до  ще   ден,   до  ще   ден,   до  ще   ден.
       Той   ще   бъ  --  де   све  --  тъл   ден,   той   ще   бъ  --
       де   све  --  тъл   ден,   той   ще   бъ  --  де   све  --  тъл
       ден.   Са  --  ждай,   са  --  ждай!   Гра  --  ди,   гра  --  ди,
-      гра  --  ди,   доб  --  ре   съ  --  гра  --  ди   и   Ра  --
+      гра  --  ди,   доб  --  ре   съ  --  гра  --  ди   и   ра  --
       "дост-"  --  та   ще   те   доб  --  ре   на  --  "гра-"  --  ди.   Гра
       --  бре   на  --  "гра-"  --  ди.
     }
 
+    \addlyrics {
+      \repeat unfold 43 { \skip 2 } (*доб -- ро)
+    }
+
     \header {
-      title = \titleFunc "Доще ден" "Došte den"
+      title = \titleFunc "До ще ден" "Do šte den"
     }
 
     \midi{}

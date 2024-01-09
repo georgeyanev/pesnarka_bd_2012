@@ -10,7 +10,7 @@
   \score {
     \include "include/score-layout.ily"
 
-    \new Voice \relative  c'{
+    \new Staff = main \relative  c'{
       \clef treble
       \key c \major
       \time 3/4
@@ -21,7 +21,22 @@
       g2 f8 e8 | % 4
       f2. | % 5
       b2 a8  b8 | % 6
-      c2  b4 \break | % 7
+      <<
+        { c2  b4 }
+        \new Staff \with {
+          \override VerticalAxisGroup.default-staff-staff-spacing =
+          #'((basic-distance . 4.5)
+             (padding . -10))
+          \remove "Time_signature_engraver"
+          alignAboveContext = #"main"
+          fontSize = #-1
+          \override StaffSymbol.staff-space = #(magstep -4)
+          \override StaffSymbol.thickness = #(magstep -4)
+          firstClef = ##f
+        }
+        {\autoBeamOff c4. ^\markup { \huge \italic "ossia по М.Т." } b8 b4}
+      >>
+      \break | % 7
       b2 a8  b8 | % 8
       g2. | % 9
       g4. g8 g4 |
@@ -87,12 +102,12 @@
 
     \addlyrics {
       Бли -- ка и пе -- е из -- "во-" --
-      рът чист с~пог -- лед не -- ви --
+      рът чист, с~пог -- лед не -- ви --
       нен, ве -- дър, лъ -- чист. В~ску --
       та пла -- нин -- ски ро -- дил се
-      в~зо -- ри, тре -- "пет-" -- на Ра --
+      в~зо -- ри, тре -- "пет-" -- на ра --
       дост, бод -- рост зву -- чи. Бис --
-      три стру -- и пе -- ят, кап -- чи --
+      три стру -- и ле -- е, кап -- чи --
       ци блес -- тят. __   стят. __   Раз --
       ли -- ва све -- жест,  кра -- со
       -- та, мъл -- ви за Лю -- бов -- та. __
@@ -119,10 +134,10 @@
       \line {   2. Нежни цветя край него цъфтят, }
       \line {   "   "  приказки чудни тихо редят,  }
       \line {   "   " нимфи игриви тук танци плетат, }
-      \line {   "   "  в губера росен стъпки трептят. }
+      \line {   "   "  в губера росен стъпки редят. }
       \line {   "   "  Нощем се оглеждат в извора  звезди. (2)}
       \line {   "   "  И блика, дава  той безспир, тъй дава Любовта. }
-      \line {   "   "   В сърцето на човека изгрява Радостта. (2)}
+      \line {   "   "   В сърцето на човека изгрява радостта. (2)}
     }
 
   } % markup

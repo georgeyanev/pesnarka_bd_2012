@@ -30,7 +30,7 @@
       \time 3/4  | % 8
       b'2 b'8 ( [ c''8 ) ] | % 9
       \time 4/4  | % 9
-      c''4 b'4 ^\markup{ \bold {rit.} }  a'4
+      c''4 \tempo"rit." b'4 a'4
       b'8 ( [ cis''8 ) ]  |
       d''2 r2   \bar ".|:-||"
       | % 11

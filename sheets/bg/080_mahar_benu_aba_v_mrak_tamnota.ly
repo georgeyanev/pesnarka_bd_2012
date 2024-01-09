@@ -78,7 +78,7 @@
 
   } % score
 
-  \markup \italic \dc-one-nobold "attacca „В мрак, тъмнота“"
+  \markup \huge \italic \dc-one-nobold "attacca „В мрак, тъмнота“"
 
   \label #'ref080_1
   \tocItem \markup "В мрак, тъмнота"
@@ -89,28 +89,28 @@
     \new Voice \absolute {
       \clef treble
       \key c \minor
-      \time 3/4
+      \time 3/8
       \tempoFunc "Andante" 4 "66"
 
-      \partial 4
+      \partial 8
 
-      g4  | c'2 \autoBeamOff b8 c' | \autoBeamOn d'2 g4 | es'2 d'4 |  c'2 ( d'16 c' b c'  | \break
+      g8  | c'4 \autoBeamOff b16 c' | \autoBeamOn d'4 g8 | es'4 d'8 |  c'4 ( d'32 c' b c'  | \break
 
-      d'2 ) c'4 | c'2 f'4 |  \autoBeamOff f'2 es'8 d' | es'2 f'4 | g'2 as'4 |\break
+      d'4 ) c'8 | c'4 f'8 |  \autoBeamOff f'4 es'16 d' | es'4 f'8 | g'4 as'8 |\break
 
-      g'2 fis'4 | g'2 as'4 | g'2 f'4 |   \repeat volta 2 {
-        f'2 es'8 d' |  es'2 f'4 | \break
+      g'4 fis'8 | g'4 as'8 | g'4 f'8 |   \repeat volta 2 {
+        f'4 es'16 d' |  es'4 f'8 | \break
 
-        g'2 as'4 | g'2 f'4 | es'2 d'4
-      }  \alternative { { c'2 f'4 } {  c'2. } } \bar "||"  \break  |
+        g'4 as'8 | g'4 f'8 | es'4 d'8
+      }  \alternative { { c'4 f'8 } {  c'4. } } \bar "||"  \break  |
 
-      c'2 d'4 |  es'2. |  d'2 c'4 | c'2. | b2 b4 | c'2  \bar "|."
+      c'4 d'8 |  es'4. |  d'4 c'8 | c'4. | b4 b8 | c'4  \bar "|."
     }
 
     \addlyrics {
       Във мрак, тъм
       -- но -- та е бил жи -- во -- тът наш, но Слън
-      -- це -- то на Жи -- во -- та про -- си -- я у
+      -- це -- то на жи -- во -- та про -- си -- я у
       нас и ний "тръг-" -- нах -- ме във пъ -- тя чист
       и свят за нас, и нас. Свят за нас, свят за
       нас, свят за нас.
@@ -124,7 +124,7 @@
 
   }
 
-  \markup \dc-two "D.C. al Fine „Mahar Benu Aba“" "senza ripetizione"
+  \markup \dc-two "D.C. al Fine „ Махар Бену Аба“" "senza ripetizione"
 
 
 } % bookpart

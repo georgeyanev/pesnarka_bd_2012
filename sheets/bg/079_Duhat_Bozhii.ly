@@ -15,7 +15,7 @@
       \key c \major
       \time 6/4
       \tempoFunc "Andante" 4 "65"
-      
+
       c4 e g (a ) g2 | e4 g c4 ( \acciaccatura {d16c b c}) d4 c2 \break
 
       b4 d c (b8 a ) g2 | e 4 g a ( g8 fis ) g2 \break

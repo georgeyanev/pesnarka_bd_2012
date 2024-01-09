@@ -10,7 +10,7 @@
   \score {
     \include "include/score-layout.ily"
 
-    \new Voice \absolute {
+    \new Staff = main \absolute {
       \clef treble
       \key a \major
       \time 4/4
@@ -26,7 +26,7 @@
       \time 3/4  | % 5
       a'2  e'8  ^\p  cis'8   | % 6
       \time 4/4  | % 6
-      fis'2 --  e'4   \breathe cis'4 | % 7
+      fis'2  e'4   \breathe cis'4 | % 7
       \time 6/4  | % 7
       e'4  d'4  cis'4  b4  cis'2 \bar
       "||"
@@ -34,12 +34,27 @@
       | % 8
       \tempoFunc "Meno mosso" 4 "50"
       e'4.  d'8  cis'4  b4 | % 9
-      d'4  cis'8 ( [  b8 ) ]  e'4.  e'8
-      |
+      d'4  cis'8 ( [  b8 ) ]  e'4.  e'8 |
       \time 5/4  |
-      gis'4  fis'8   e'8  b'4 \tempo "rit." a'8
-      fis'8 ^\>  a'8  b'8
-      \break | % 11
+      <<
+        {
+          gis'4 fis'8 e'8 b'4 \tempo "rit." a'8 fis'8 ^\> a'8  b'8 \break |
+        }
+
+        \new Staff \with {
+          \override VerticalAxisGroup.default-staff-staff-spacing =
+          #'((basic-distance . 6.5)
+             (padding . -10))
+          \remove "Time_signature_engraver"
+          alignAboveContext = #"main"
+          fontSize = #-1
+          \override StaffSymbol.staff-space = #(magstep -4)
+          \override StaffSymbol.thickness = #(magstep -4)
+          firstClef = ##f
+        }
+        {  \time 5/4  \autoBeamOff g'!4^\markup { \huge \italic "ossia по Л.Т." } f'8 e'8 b'4 a'8_\markup { \large \bold "rit." } f'8 ^\> a'8  b'8^\!  \break |  }
+      >>
+
       a'2 ^\! ^\p r4 r2 \bar "||"
       \time 4/4   | % 12
       \tempoFunc "Più mosso" 4 "92" e'4 ^\mf
@@ -73,19 +88,42 @@
       ]  b'8 ( [ ^\>  a'8 ) ] | % 24
       cis''2 (  b'4 ) ^\! ^\mf  cis''8 ( [ ^\<
       dis''8 ) ] | % 25
-      e''4 ^\!  cis''4  b'4 ^\>  a'4 | % 26
-      gis'4 (  fis'2 ) ^\!  e'4 ^\p ^\< \break | % 27
+      e''4 ^\!  cis''4  b'4 ^\>  a'4 |\break % 26
+      gis'4 (  fis'2 ) ^\!  e'4 ^\p ^\<  | % 27
       fis'4  e'4 ^\! b'4  a'8 ( [
       gis'8 ) ] | % 28
       a'2.  e'4 ^\p | % 29
       g'4  fis'4  e'4  dis'8 ( [  e'8
-      ) ] |
-      fis'2.  g'4 ^\mf \break | % 31
-      b'4  a'4  cis''4  b'8 ( [  a'8
-      ) ] | % 32
+      ) ] | \break
+      fis'2.  g'4 ^\mf  | % 31
+
+      <<
+        {
+
+          b'4  a'4  cis''4  b'8 ( [  a'8 ])
+        }
+
+        \new Staff \with {
+          \override VerticalAxisGroup.default-staff-staff-spacing =
+          #'((basic-distance . 4.5)
+             (padding . -10))
+          \remove "Time_signature_engraver"
+          alignAboveContext = #"main"
+          fontSize = #-1
+          \override StaffSymbol.staff-space = #(magstep -4)
+          \override StaffSymbol.thickness = #(magstep -4)
+          firstClef = ##f
+        }
+        {  b'4^\markup { \huge \italic "ossia по Л.Т."}  a'4  c''!4  b'8 ( [  a'8 ])  }
+      >>
+
+
+      | % 32
+
+
       d''2.  cis''4 ^\ff  | % 33
-      e''4  b'4  a'4  gis'4 | % 34
-      a'2.  gis'8 ( [ ^\p  fis'8 ) ] \break | % 35
+      e''4  b'4  a'4  gis'4 | \break % 34
+      a'2.  gis'8 ( [ ^\p  fis'8 ) ]  | % 35
       e'4  d'4  cis'4  fis'8 ( [  gis'8
       ) ] | % 36
       a'2.  b'8 ( [ ^\pp  cis''8 ) ]
@@ -112,7 +150,7 @@
       и из -- пъл -- ни сър -- це -- то
       ми с~лъ -- чи. От "дъл-" -- бо -- ки
       глъ -- би -- ни пов -- диг -- на
-      Ду -- ха ми във ви -- си -- ни на
+      ду -- ха ми във ви -- си -- ни на
       кри -- ла -- та си бла -- го -- сло
       -- ве -- ни, от Бо -- жи -- я пог --
       лед о -- за -- ре -- ни, о -- за
@@ -151,10 +189,10 @@
         \autoBeamOff
         \override Hairpin.to-barline = ##f
         \override Hairpin.after-line-breaking = ##t
-        e'4  d'4  f'4  e'4 | % 2
-        d'8  d'8  c'8  d'8  e'4
-        e'4 | % 3
-        e'4  d'4  e'4 r4 | \break % 4
+        e'2  d'2 |  f'2  e'2 | % 2
+        d'4  d'4  c'4  d'4 |  e'2
+        e'2 | % 3
+        e'2  d'2 | e'2 r2 | \break % 4
         \time 6/8  | \bar"||" % 4
         \tempoFunc "" 4. "50"
         g'8  g'8 c''8 b'4.  | % 5
@@ -174,23 +212,23 @@
         a'4. ~  a'4  g'8 _\!  | % 14
         c''4.  r4  e'8 |  % 15
         \time 9/8  | % 15
-        f'4. ^\markup{ \italic {poco rall.} }  e'4. r4. \bar
+        f'4. ^\markup{ \huge \italic {poco rall.} }  e'4. r4. \bar
         "||" \break
         \key es \major \time 4/4 | % 16
-        \tempoFunc "Largo" 4 "46"
-        g'8 ^\<  g'8  g'8 c''8 d''8
-        es''8 d''8 c''8 ^\! | % 17
-        \grace {  c''16 ( [  d''16 ] } c''8 ) ^\>
-        bes'8  as'8 bes'8 c''8
-        as'8 \grace {  g'16 ( [  as'16 ] }  g'8 )
-        ^\! f'8 | \break % 18
-        g'8 ^\<  as'8 bes'8 c''8  ^\!
+        \tempoFunc "Andante" 4 "92"
+        g'4 ^\<  g'4  g'4 c''4 | d''4
+        es''4 d''4 c''4 ^\! | % 17
+        \grace {  c''16 ( [  d''16 ] } c''4 ) ^\>
+        bes'4  as'4 bes'4 | c''4
+        as'4 \grace {  g'16 ( [  as'16 ] }  g'4 )
+        ^\! f'4 | \break % 18
+        g'4 ^\<  as'4 bes'4 c''4  ^\!
         c''16 ( [ bes'16  as'16 )  ] g'16
-        f'8  es'8  \bar "||"
+        f'4  es'4  g'4 (\bar "||"
         \break | % 19
         \time 6/8  | % 19
         \tempoFunc "" 4. "46"
-        g'4. ^\>  g'4.  ^\! |
+        g'4. ^\> ) g'4.  ^\! |
         as''8 ( [ ^\p g''8 ) ] f''8
         es''8 ( [ d''8 ) ] c''8 | % 21
         bes'8 ( [  as'8 ) ]  g'8 c''8 ( [
@@ -210,12 +248,9 @@
         f'4. r4. \break| % 32
         c''8 ( [ es''8 ) ] d''8 c''4
         d''8 | % 33
-        bes'4. r8 r8  as'8 ^\< | % 34
-        c''4 ^\! bes'8  as'8 ^\>  g'8
-        f'8 | % 35
-        \times 3/2  {
-          es'8   d'8
-        }
+        bes'4. r8 r8 r8 | as'8 ^\<  % 34
+        c''4 ^\! bes'8  as'8 ^\>  g'8 |
+        f'8 es'8   d'8
         es'4. ^\! \break | % 36
         R2. | % 37
         g'8 d''8 c''8 bes'8
@@ -297,7 +332,7 @@
         cis''8 ( [ dis''8 cis''8 ]
         dis''8 [ e''8 dis''8 ) ] e''8 ( [
         fis''8 e''8 ) ] | % 71
-        b'8 ( [ ^\markup{ \italic {rit. molto} } cis''8
+        b'8 ( [ ^\markup{ \huge \italic {rit. molto} } cis''8
         b'8 ] cis''8 [ dis''8 cis''8
         ) ] dis''8 (  [e''8] ) dis''8  | % 72
 
@@ -308,38 +343,31 @@
         b'8 [( ais'8 )]
 
         b'4. \break | % 73
-        \time 4/4  | \bar "||" % 73
+        \time 3/4  | \bar "||" % 73
         \tempoFunc "Moderato" 4 "80"
         dis''16 ( [ cis''16 dis''16
         e''16 ] fis''16 [ e''16 fis''16
         gis''16 ] ais''16 [ gis''16
-        ais''16 b''16 ) ] cis'''16 ( -. [
-        dis'''16 -. e'''16 -. dis'''16 -. ] | % 74
-        \time 3/4  | % 74
+        ais''16 b''16  ] | cis'''16  -. [
+        dis'''16 -. e'''16 -. dis'''16 -. ]
         cis'''16 -. [ b''16 -. ais''16 -.
-        gis''16 ) -. ] fis''16 ( -. [ e''16 )
-        -. ] ^\markup{ \italic {rit.} } dis''16 -. cis''16
-        -. \acciaccatura {  cis''16 [  dis''16 ] } cis''8
-        b'8 \break | % 75
-        b'8  ais'8 b'4 r8
-        b'8^\<
-        \tempoFunc "Meno mosso" 4 "60"
-        \time 2/4  | \bar "||" % 76
-        cis''8 dis''8 e''8. cis''16
-        | % 77
-        \time 4/4  | % 77
-        fis''4. ^\! fis''8
-        <\parenthesize b'
-        b''>2 ^\>
-        \once \override Score.BarLine.break-visibility = ##(#f #f #f)
-        s^\ppp ^\! \bar "|."
+        gis''16  -. ] fis''16 -. [e''16] )
+        -.  ^\markup{ \huge \italic {rit.} } dis''16 -. cis''16 |
+
+        \time 4/4
+        \acciaccatura {  cis''8 [  dis''8 ] } cis''4
+        b'4 b'4 ais'4 \break |
+        b'2 r4 b'4 | cis''4 dis''4 e''4. cis''8
+        |
+
+        fis''2  r4. fis''8 | b''2. r4 \fermata \bar "|."
       }
 
       \addlyrics {
         А
         -- ко бя -- ха ва -- ши -- те у -- ши
         от -- во -- ре -- ни, щях -- те да
-        чу -- е -- те гла -- са на Ан
+        чу -- е -- те гла -- са на ан
         --  ге -- ли -- те, ко -- и
         --  то пе -- ят. Те пе --
         ят пе -- "сен-" -- та на Лю -- бов
@@ -355,16 +383,16 @@
         ви __  го -- во -- ри. Слу -- "шай-"
         -- те Го. Слу -- шай -- те Го
         вий, и ни -- е съ -- що Го слу --
-        ша -- ме. Вър -- ше -- те Во -- ля --
+        ша -- ме. "Вър-" -- ше -- те Во -- ля --
         та Му, и ни -- е съ -- що вър --
         шим Во -- ля -- та __  Му. То -- зи
-        е сми -- съ -- лът на  Жи -- во
+        е сми -- съ -- лът на  жи -- во
         -- та, то -- зи е сми -- съ -- лът
-        на Жи --  во -- та, сми -- съ
-        -- лът на __ Жи -- во -- та, на __
+        на жи --  во -- та, сми -- съ
+        -- лът на __ жи -- во -- та, на __
         без -- смър -- ти
-        -- е -- то.“ Е -- то пе -- сен --
-        та на Ан -- ге -- ли  --  те,
+        -- е -- то“. Е -- то пе -- сен --
+        та на ан -- ге -- ли  --  те,
         ко -- и -- то се -- га пе -- ят:
         „Сла --     ва на __
         на --
@@ -373,10 +401,9 @@
         ва, __  сла --
         ва, __  сла --
         ва __     на на   -- "       ши" --
-        я "      Ба" -- ща. Сла -- "" -- "" --
-        ва на  "     на" -- ши -- я Ба
+        я "      Ба-" -- ща. Сла -- ва на  на -- ши -- я Ба
         -- ща, на на -- ши -- я Ве -- лик Ба
-        -- ща.}
+        -- ща“.}
 
         \header {
           title = \titleFunc "Песента на ангелите" "Pesenta na angelite"

@@ -26,8 +26,8 @@
 
     \addlyrics {
       Из -- гря --
-      ва Слън -- це -- то, пра -- ща Свет -- ли -- на,
-      но -- си Ра -- дост за Жи -- во -- та тя.
+      ва Слън -- це -- то, пра -- ща свет -- ли -- на,
+      но -- си ра -- дост за жи -- во -- та тя.
     }
 
     \header {
@@ -38,7 +38,7 @@
 
   } % score
 
-  \markup \italic \dc-one-nobold "attacca „Сила жива, изворна“"
+  \markup \huge \italic \dc-one-nobold "attacca „Сила жива, изворна“"
 
   % include foreign translation(s) of the song
 

@@ -101,7 +101,7 @@
       \tempo "accel." e'8 ( [ f'8 ) ]
       g'8  a'8 \break | % 32
       bes'8 ( [  a'8 ) ]  g'8  f'8 | % 33
-      e'4  g'8 ^\markup{ \bold {rit.} }  f'8 | % 34
+      e'4  \tempo "rit."g'8 f'8 | % 34
       e'8  d'8  cis'8  e'8 | % 35
       d'2 | % 36
       d'2 \break | % 37
@@ -127,7 +127,7 @@
       f'2 | % 53
       \time 3/4  | % 53
       e'8 ( [  f'8 ) ]  g'8  a'8
-      bes'8 -- ^\markup{ \bold {(rit.)} }  d''8 -- | % 54
+      \tempo "(rit.)" bes'8 -- d''8 -- | % 54
       cis''2 ^\fermata  a4 \time 3/4 \break | \bar "||"  % 55
 
       \tempoFunc "Largamente" 4 "54"
@@ -155,7 +155,7 @@
       a2  a4 \break \bar "||"  % 68
 
       \times 2/3  {
-        d'8 ( [ ^\markup{ \bold {Rubato} } cis'8\prall ) ]
+        \tempo "Rubato" d'8 ( [ cis'8\prall ])
         bes8
       }
       a4. a'8
@@ -173,7 +173,7 @@
       a'4.  g'8 | % 75
       f'8.  e'16  f'8.  e'16 | % 76
       f'4.  e'8 \break | % 77
-      d'8. ^\markup{ \bold {rit.} }  cis'16  d'8.
+      \tempo"rit." d'8. cis'16  d'8.
       e'16 \bar "||"  % 78
       \time 3/4  | % 78
       \tempoFunc "Andante" 4 "66" d'2
@@ -189,7 +189,7 @@
       a4  bes8.  a16  a2 | % 82
       \time 3/4  | % 82
       \times 2/3  {
-        gis16 ( [ ^\markup{ \bold {Largamente} }  a16
+        \tempo "Largamente" gis16 ( [ a16
         bes16 )]
       }
       gis8  a2 ^\fermata \bar "||"
@@ -229,8 +229,7 @@
       |
       a'4  fis'4.  a'8  \break | % 101
       b'8  b'8  d''4  cis''4 | % 102
-      b'8 ( [  cis''8 ) ]  a'4  g'8
-      ^\markup{ \bold {rit.} }  fis'8 | % 103
+      b'8 ( [  cis''8 ) ]  a'4  \tempo"rit."g'8 fis'8 | % 103
       | % 103
       e'4 ^\fermata  d'2 \bar "||" |
       \break % 104
@@ -259,7 +258,7 @@
 
       \tempo "Meno mosso" a'16 ( [  gis'16  a'16  bes'16 ) ]
       a'4 | % 109
-      d''16 ( [  cis''16  bes'16  a'16
+      d''16-- ( [  cis''16--  bes'16--  a'16--
       ) ]  a'4 |
       bes'16 ( [  a'16  f'16 )]  d'16
       bes'8.  a'16 \break | % 111
@@ -325,7 +324,7 @@
       ден си ти, но ни спа -- ся -- ваш
       от сту -- да. И ко -- га --
       то про -- "лет-" -- та на -- ста
-      -- ва и Жи -- во -- тът се я --
+      -- ва и жи -- во -- тът се я --
       вя -- ва, ти пак ги "при-" -- дру --
       жа -- ваш и свой -- та свет -- ла
       дре -- ха им на -- дя -- ваш.

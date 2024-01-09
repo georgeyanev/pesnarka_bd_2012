@@ -24,7 +24,7 @@
 
       \time 3/4  c''8. c''16 c''2 | \time 4/4  d''8. c''16 bes'4 bes'2 | \time 3/4  a'8. a'16 a'2 \break |
 
-      \time 4/4  bes'8. a'16 g'4 g'2^\markup \bold "        Fine"
+      \time 4/4  bes'8. a'16 g'4 \tempo"       Fine" g'2
       | \bar ":|.|:" d'4 g'4 bes'4 a'4 |  \time 3/4  g'4 fis'8. fis'16 g'4 \break |
 
       es'8. es'16 d'2 | \time 4/4  a'4 bes'4 c''4 bes'4 | \time 3/4  a'4 g'4 fis'4 \break |
@@ -55,6 +55,6 @@
 
     } % score
 
-    \markup \dc-two "D.C. al Fine" "senza ripetizioni"
+    \markup \dc-two "D.C. al Fine" "senza ripetizione"
 
   } % bookpart

@@ -70,7 +70,7 @@
       b'16  b'8 ] | % 4
       d''8 [  a'8 ]  a'8 [  b'8 ] | % 5
       g'2
-      \bar ".|:-|"
+      \bar ":|.|:"
       \break
 
       | % 6
@@ -79,7 +79,7 @@
       g'8 [  d'8 ]  g'8 [  d'8 ] | % 8
       b16 [  b16  b8 ]  b16 [  b16
       b8 ] | % 9
-      d'8 [  a8 ]  d'8 [  a8 ] |
+      d'8 [  a8 ]  a8 [  b8 ] |
       g2
       \bar ":|."
       | % 11
@@ -378,43 +378,35 @@
     \new Voice \absolute {
       \set Staff.instrumentName = \markup \bold \fontsize #+5 {"9"}
       \key g \minor
-      \time 2/4
+      \omit Score.TimeSignature
+      \cadenzaOn % allows custom bar lines
       \tempoFunc "Andante" 4 "66"
-      \autoBeamOff
-      g''4.fis''16 [g''16 ] |
-      a''16 [bes''16a''16g''16
-      ]fis''16 [es''16d''16c''16
-      ] | % 61
-      bes'16 [a'16c''16bes'16 ]
-      a'16 [  g'16  fis'16  g'16 ] \break | % 62
-      a'16 [  g'16  fis'16  es'16 ]
-      d'16 [  c'16  bes16  a16 ] | % 63
-      \time 3/4  | % 63
-      c'16 [  bes16  a16  g16 ]  d'2
-      \break | % 64
-      d'4  g'4.  a'8 | % 65
-      bes'8 [c''8 ]d''8es''4
-      d''8 | % 66
-      \time 2/4  | % 66
-      d''4.d''8 \break | % 67
-      g''4.f''8 | % 68
-      es''8 [d''8 ]c''8 [d''8 ]
-      | % 69
-      bes'4.bes'8 |
-      \time 3/4  |
-      a'8 [  bes'8 ]c''8 [d''8 ]
-      es''8. [d''16 ] \break | % 71
-      d''2  d'4 | % 72
-      g'4.  a'8  bes'8 [  a'8 ] | % 73
-      bes'8 [  a'8 ]  g'8 [  fis'8 ]
-      a'8. [  g'16 ] | % 74
-      g'2. \bar "|."
-      \break | % 75
+
+      g''4.fis''8 g''
+      a'' bes'' a'' g''
+      fis''! es'' d'' c''
+      bes' a' c'' bes'  \break
+      a' g' fis' g'
+      a' g' fis'! es'
+      d' c' bes a
+      c' bes a g  \break
+      d'2 d'4  g'4. a'8
+      bes'8 c''8 d''8 es''4
+      d''8 d''4. d''8
+      g''4. f''8 \break
+      es''8 d''8  c''8 d''8 bes'4.bes'8
+      a'8 bes'8 c''8 d''8
+      es''8. d''16 d''2 d'4 \break
+      g'4.  a'8  bes'  a'
+      bes' a'  g' fis'!
+      a'8. g'16
+      g'4.\fermata
+      \bar "|." \break % 75
     }
     \midi{}
   } % score
 
-
+  \pageBreak
 
   \score {
     %9
@@ -423,105 +415,99 @@
     \new Voice \absolute {
       \set Staff.instrumentName = \markup \bold \fontsize #+5 {"10"}
       \key a \minor
-      \time 3/4
+      \omit Score.TimeSignature
+      \cadenzaOn % allows custom bar lines
       \tempoFunc "Andante" 4 "60"
       e''2d''16 [c''16b'16.
-      a'32 ] | % 76
-      a'8. [  g'16 ]  g'2 | % 77
-      f'2  f'8 [  g'16  a'16 ] | % 78
-      g'8 [  f'8 ]  e'2 \break | % 79
+      a'32 ]
+      a'8. [ g'16 ] g'2
+      f'2  f'8 [  g'16  a'16 ] % 78
+      g'8 [  f'8 ]  e'2 \break  % 79
       a'2b'16 [c''16d''16
-      e''16 ] |
-      f''8 [g''16f''16 ]e''2 | % 81
+      e''16 ]
+      f''8 [g''16f''16 ]e''2
       a''2g''16 [f''16e''16
-      g''16 ] | % 82
-      f''8. [e''16 ]e''2| \break % 83
-      d''2d''4 | % 84
+      g''16 ]  % 82
+      f''8. [e''16 ] e''2
+      d''2d''4  % 84
       d''8 [e''8 ]d''16 [c''8
-      b'16 ]b'4 | % 85
-      a'2  a'4 | % 86
+      b'16 ] b'4 \break
+      a'2  a'4  % 86
       a'8 [  b'8 ]c''8 [c''16
-      d''16 ]c''8. [b'16 ] \break | % 87
-      b'4.  a'8  a'4 ( | % 88
-      a'4 )  g'2 | % 89
-      f'2  f'4 |
-      f'8 [  a'8 ]  g'4  f'4 | % 91
-      e'2. \bar "|."
-      \break | % 92
+      d''16 ]c''8. [b'16 ]  % 87
+      b'4. a'8  a'2 g'2  % 89
+      f'2  f'4
+      f'8 [ a'8 ]  g'4  f'4  % 91
+      e'2 \bar "|."
     }
     \midi{}
   } % score
 
-
+\markup \empty-two
   \label #'ref183
-  \tocItem \markup "Музикален момент"
+  \tocItem \markup "Вариации"
   \score {
     \include "include/score-layout.ily"
-     \new Voice \absolute {
+    \new Voice \absolute {
       \clef treble
-       \key g \major
-      \time 4/4
+      \key g \major
+      \omit Score.TimeSignature
+      \cadenzaOn % allows custom bar lines
       \tempo "Andantino"
-       g''2 fis''16 [g''16 a''16 g''16 ] fis''16 [e''16 d''16cis''16 ]  |
-      d''4e''8. [d''16 ] d''2
-      \break | % 94
-      e''2 d''16 [c''16 b'16
-      a'16 ] b'16 [c''16 d''16
-      c''16 ] | % 95
-      \once \omit TupletBracket
-      \times 2/3  {
-        b'8 [  a'8  b'8 ]
-      }
-      a'8. [  g'16 ]  g'2 \break | % 96
-      e''2 d''16 [e''16 d''16
-      e''16 ] d''16 [c''16 b'16
-      a'16 ] | % 97
-      a'8. [  g'16 ]  g'2. \break | % 98
+      g''4 \fermata fis''16 [g''16 a''16 g''16  fis''16 e''16 d''16cis''16 ]
+      d''4e''8. [d''16 ] d''2 \break
+      e''4 \fermata d''16 [c''16 b'16 a'16 b'16 c''16 d''16 c''16
+      b'16  a'16  b'16 ]
+
+      a'8. [  g'16 ]  g'2 \break % 96
+      e''4 \fermata d''16 [e''16 d''16
+      e''16 d''16 c''16 b'16
+      a'16 ]  % 97
+      a'8. [  g'16 ]  g'2 % 98
       g16 [  a16  b16  c'16 ]  d'8. [
-      e'16 ]  e'2 | % 99
+      e'16 ]  e'2  \break
       \once \omit TupletBracket
       \times 4/5  {
         d'16 [  e'16  d'16  c'16  b16
         ]
       }
-      d'2. \break |
+      d'2
       \once \omit TupletBracket
       \times 4/6  {
         c'16 [  d'16  c'16  d'16  c'16
         b16 ]
       }
-      a2. | % 101
+      a2 % 101
       \once \omit TupletBracket
       \times 2/3  {
         b8 [  c'8  d'8 ]
       }
-      e'8. [  e'16 ]  g'2 \break | % 102
+      e'8. [  e'16 ]  g'2 \break
       d'16 [  c'16  b16  a16 ]  b16 [
       c'16  d'16  e'16 ] \once \omit TupletBracket
       \times 2/3  {
         fis'8 [  g'8  a'8 ]
       }
-      b'4 ( | % 103
-      b'4 ) \once \omit TupletBracket
+      b'2 \once \omit TupletBracket
       \times 4/5  {
         a'16 [  b'16  a'16  g'16
         fis'16 ]
       }
-      a'4  g'4 \break | % 104
+      a'4  g'4 \break
       g16 [  a16  b16  c'16 ] \once \omit
       TupletBracket
       \times 4/5  {
         d'16 [  e'16  d'16  c'16  b16
         ]
       }
-      a4.  g8 | % 105
-      g1 \bar "|."
+      a8. [ g16]  % 105
+      g2 \bar "|."
     }
 
     \addlyrics {}
 
     \header {
-      title = \titleFunc "Музикален момент" "Zaglavie"
+      title = \titleFunc "Вариации" "Zaglavie"
     }
 
     \midi{}

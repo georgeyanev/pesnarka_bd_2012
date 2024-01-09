@@ -20,27 +20,24 @@
 
       d'4 fis'4 | a'8 g'8 fis'8 g'8| a'4 ( b' ) | a'2 |b'8. b'16 b'8 b'8 | \break
 
-      \time 3/4 d''4 b'4 a'8. b'16 | \time 2/4 a'2 | \time 3/4 b'8 a'8 g'8 fis'8 a'8 g'8 | \time 2/4 fis'4 d'4 | \break
+      d''4 b'4 |  \time 3/4 a'8. b'16  a'2 | b'8 a'8 g'8 fis'8 a'8 g'8 | \time 2/4 fis'4 d'4 | \break
 
-      e'8 e'8 fis' fis' | \time 3/4 g'8 g' a' a' a'4| \time 2/4 b'8 a' g' fis' \break
+      \time 3/4 e'8 e'8 fis' fis' g'8 g' | \time 2/4 a' a' a'4 | b'8 a' g' fis' \break
 
-      a'8 g' fis' e' | d'4 e'8 e' | \repeat volta 2 {
-        e'4 fis'8 fis' | fis'4 g'8 g' |\break
+      \time 3/4 a'8 g' fis' e' d'4  |  \bar ".|:"
+      \time 2/4 e'8 e' e'4 | fis'8 fis'  fis'4 | g'8 g'  g'4 |\break
 
-        g'4 a'8 a' | b' a' g' fis' | a'4 fis'8 fis' |  a'8 g' fis' e' | \break
+      a'8 a' b' a' | g' fis'  a'4 | fis'8 fis' a'8 g'|  fis' e'  d'4| \break
 
-        d'4 e'8 e' | e' e' e' fis' | g'4 e'8 fis' | \break
+      e'8 e' e' e'| e' fis'  g'4 | e'8 fis' g'4 | b'8 b'8  b'8 a'8 \break |
 
-        g'4 b'8 b'8 | b'8 a'8 g'8 fis'8 | a'4 fis'8 fis' | \break
-
-        a'8 g' fis' e' |
-      } \alternative { { d'4 e'8 e'8 } { d'2 } } \bar "|."
+      g'8 fis'8 a'4 | fis'8 fis' a'8 g'| fis' e' d'4 | \bar ":|."
 
     }
 
     \addlyrics {
-      Све -- тъл лъч от го -- ре сли  --  за,
-      мал -- "ки-" -- те цве -- тя да о -- за -- ри;
+      Све -- тъл лъч от го -- ре сли  --  за
+      мал -- "ки-" -- те цве -- тя да о -- за -- ри,
       бли -- зо из -- вор -- че из -- ви -- ра,
       ле -- ко бли -- ка, шуш  -- не, шу -- мо -- ли
       и цве -- тя -- та веч -- но ве -- се -- ли.
@@ -60,6 +57,6 @@
 
   } % score
   \markup \dc-two "D.C.""con ripetizione"
-  
+
 
 } % bookpart

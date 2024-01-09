@@ -13,34 +13,21 @@
     \new Voice \absolute {
       \clef treble
       \key g \major
-      \time 3/4
+      \omit Score.TimeSignature
+      \cadenzaOn % allows custom bar lines
       \tempoFunc "Andante" 4 "60"
-
-      \partial 8
       \autoBeamOff
 
-      d'8 | \repeat volta 2 {
-        b'4. a'8 g'4 | \time 4/4  fis'8. e'16 e'4 d'4. d'8 | \break
+      d'8 b'4. a'8 g'4  fis'8. e'16 e'4 d'4. \bar"!" \break
 
-        e'8 fis' g' a' b' d'' ( d''4 ) | \time 3/4  c''4. b'8 a' g' | \break
-      }
+      d'8 e'8 fis' g' a'  b' d'' (d''4) c''4.  b'8 a' g' b'4\tempo "rit." a' g'4. \bar ":|."
 
-      \alternative {
-        { \time 4/4  b'4\tempo "rit.                                  a tempo"  a' g'4. d'8 }
-        {
-          b'4\tempo "rit." a'4
-          \override Staff.BarLine.stencil = ##f %hide bar line
-          g'4.^\markup \bold{"                   Fine" } \fermata
-          \revert Staff.BarLine.stencil
-          \bar "|."
-        }
-      }
     }
 
     \addlyrics {
       Ка -- жи ми
       Ти Ис -- ти -- на -- та, ко -- я -- то но -- си
-      Сво -- бо -- да за мо -- я -- та ду -- ша. Ка --
+      сво -- бо -- да за мо -- я -- та ду -- ша. Ка --
       та ду -- ша.
     }
 
@@ -80,7 +67,7 @@
 
     \addlyrics {
       Ти съз -- на -- вай, ти лю -- би,
-      без -- спир -- но сей, гра -- ди и в~Жи -- во --
+      без -- спир -- но сей, гра -- ди и в~жи -- во --
       та всич -- ко да -- вай. Та -- зи Ис -- ти --
       на, Бо -- га, ти по -- зна -- вай. Ти по -- зна
       -- вай, ти по -- зна -- вай, Бо -- га ти по --
@@ -95,7 +82,7 @@
 
   } % score
 
-  \markup \dc-two "D.C. al Fine „Кажи ми ти Истината“" "senza ripetizione"
+  \markup \dc-two "D.C. al Fine „Кажи ми Tи Истината“" "senza ripetizione"
 
 
 

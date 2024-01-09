@@ -19,7 +19,7 @@
       \autoBeamOff
       c'8 g c' g c' g | b8 g b g b g \break |
 
-      \time 4/4  g8 g a [( b )] c'2 |g8 g a [( b )] c'2 | g8 g a [( b )] c'2^\markup{ \bold {" " " "Fine} }  \break |
+      \time 4/4  g8 g a [( b )] c'2 |g8 g a [( b )] c'2 | g8 g a [( b )]  \tempo"   Fine"c'2    \break |
 
       \bar ".|:-||"
       e'8 d' c' d' e' e' e' e' | g'8 f' e' d' e' d' c' b \break |
@@ -51,11 +51,11 @@
     \addlyrics {
       Бла -- гост,
       бла -- гост, бла -- гост но -- си, но -- си, но --
-      си "Свет-" -- ли -- на -- та, "Свет-" -- ли -- на -- та,
-      "Свет-" -- ли -- на -- та. Ра -- дост но -- си за
-      Жи -- во -- та, Ра -- дост но -- си за Жи -- во
-      -- та, Ра -- дост но -- си за Жи -- во -- та, за
-      Жи -- во -- та тя, за Жи -- во -- та тя, за Жи
+      си "свет-" -- ли -- на -- та, "свет-" -- ли -- на -- та,
+      "свет-" -- ли -- на -- та. Ра -- дост но -- си за
+      жи -- во -- та, ра -- дост но -- си за жи -- во
+      -- та, ра -- дост но -- си за жи -- во -- та, за
+      жи -- во -- та тя, за жи -- во -- та тя, за жи
       -- во -- та тя. Ста -- ри вди -- га, мла -- ди
       вди -- га, ста -- ри вди -- га, мла -- ди вди --
       га от лег -- ло -- то тя, от лег -- ло -- то
@@ -84,7 +84,7 @@
   \score {
     \include "include/score-layout.ily"
 
-    \new Voice \absolute {
+    \new Staff = main \absolute {
       \clef treble
       \key g \major
       \time 2/4
@@ -92,20 +92,44 @@
       \autoBeamOff
 
 
-      d'8 d' e' fis' |g'2 | a'8 g' fis' e' | d'2  \bar ":|.:"   \break |
+      d'8 d' e' fis' |g'2 | a'8 g' fis' e' | d'2  \bar ":|.:"  |
 
-      a'8 a' a'4 | b'8 b' b'4 | d''8 c'' b' a' | \tempo "                 Fine" g'2  \bar ":|.:"  \break |
+      a'8 a' a'4 | \break  b'8 b' b'4 | d''8 c'' b' a' | \tempo "                 Fine" g'2  \bar ":|.:" |
 
 
 
-      d''4 g'' | fis''4 e'' | e''4 fis''8 e'' | d''2 \break |
+      d''4 g'' | fis''4 e'' | \break
 
-      b'4 d'' | c''4 b' | a'4 b'8 a' | g'2
+      e''4 fis''8 e'' | d''2  |
+
+      <<
+        {
+
+          b'4 d'' | c''4 b' |
+        }
+
+        \new Staff \with {
+          \override VerticalAxisGroup.default-staff-staff-spacing =
+          #'((basic-distance . 4.5)
+             (padding . -10))
+          \remove "Time_signature_engraver"
+          alignAboveContext = #"main"
+          fontSize = #-1
+          \override StaffSymbol.staff-space = #(magstep -4)
+          \override StaffSymbol.thickness = #(magstep -4)
+          firstClef = ##f
+        }
+        { b'4^\markup { \huge \italic "ossia по М.Тодорова" } c'' | b'4 a' | }
+      >>
+
+
+
+      a'4 b'8 a' | g'2
       \bar ":|."
     }
 
     \addlyrics {
-      Слад -- ко,
+      "Слад-" -- ко,
       ме -- де -- но, слад -- ко, ме -- де -- но, ме --
       де -- но, ме -- де -- но, слад -- ко, ме -- де --
       но. От Слън -- це -- то из -- пра -- те -- но,

@@ -50,7 +50,7 @@
   \markup \fontsize  #+2.5  { {  \vspace #1.5 } }
   \markup \fontsize  #+2.5  { \fill-line {"Издателство Бяло Братство"} }
   \markup { {  \vspace #0.1 } }
-  \markup \fontsize  #+2.5  { \fill-line {"София 2023"} }
+  \markup \fontsize  #+2.5  { \fill-line {"София 2024"} }
 
 
 

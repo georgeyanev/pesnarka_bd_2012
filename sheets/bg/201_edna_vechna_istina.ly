@@ -16,23 +16,20 @@
       \time 6/4
       \tempoFunc "Andantino" 4 "72"
       \autoBeamOff
-      d2^\p  g2  d2 | % 2
-      \time 4/2  | % 2
-      d2^\<  g2. (  a4 ) \! \>  g4 \!
+      d2^\p  g2  d2 |
+      d4^\<  g2 (  a4 ) \! \>  g4 \!
       \<  es4 | % 3
-      d2. (  es4 ) \! \>  c2 \! \<
-      bes4  a4\!  \break | % 4
-      bes2. (\!  c4  d4^\>  es4
-      d4  c4 | % 5
-      bes4  a4  bes2 ) \!  g2 r2 | % 6
-      g'4  a4  bes2  a2 (^\<  g2\!
-      ) \break | % 7
+      d1 (  es4 ) \! \>  c4 \! \<
+      | \break
+      bes8 a8 \! bes4 ~ ( \! bes8  [ c8 d8^\>  es8 d8  c8 bes8  a8] |
+      bes2 \!  ) g4 r4 r2 | \break % 6
+      \time 4/4 g'4 a4 bes2 |
+      \time 6/4 a2 (^\<  g4\! )
       \times 2/3  {
-        fis4 ( \!^\>  g4  a4 )
-      }
-      g1 r2 \! | % 8
+        fis8 ( \!^\>  g8  a8 )
+      } g4 r4 \! | % 8
       \time 4/4  | % 8
-      c4^\mf  bes4^\<  a2 | % 9
+      c4^\mf  bes4^\<  a2 | \break % 9
       c4  d4  es2 \! |
       bes4 ^\p  a4^\>  g2 | % 11
       f4 (  es4 )  d2 \! \break | % 12
@@ -56,7 +53,7 @@
       Ед -- на -- та, А -- дит -- на,
       Би от -- на Ам -- ри -- хал --
       на. А -- ме -- рун, Ше -- ме --  рун.
-      Ил "Би-" -- хар, Ил "Би-" -- хар, Ил "Би-"
+      Ил Би -- хар, Ил "Би-" -- хар, Ил "Би-"
       -- хар. Би -- хар, Ил __  Би --
       хар. __  Ил __    ме  --
       зун. Ве -- ю, Ве -- ю Ве -- ю, Та -- о Би Ом, Ом Би --
@@ -65,6 +62,7 @@
 
       \header {
         title = \titleFunc "Една вечна Истина, която е Бог на Любовта" "Edna večna Istina, kojato e Bog na Ljubovta"
+        subtitle = \markup \normal-text \huge "(медитация)"
       }
 
       \midi{}

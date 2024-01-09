@@ -5,39 +5,39 @@
 
 \bookpart {
 
-     \label #'ref075
-    \tocItem \markup "Аум"
-    \include "include/bookpart-paper.ily"
-    \score {
-      \include "include/score-layout.ily"
+  \label #'ref075
+  \tocItem \markup "Аум"
+  \include "include/bookpart-paper.ily"
+  \score {
+    \include "include/score-layout.ily"
 
-      \new Voice \absolute {
+    \new Voice \absolute {
 
-        \clef treble
-        \key c \major
-        \time 3/4
-        \tempoFunc "Andante" 4 "60"
-        \autoBeamOff
-        \partial 4
+      \clef treble
+      \key c \major
+      \time 3/4
+      \tempoFunc "Andante" 4 "60"
+      \autoBeamOff
+      \partial 4
 
-        g4 |  c'2 g4 | e'2 c'4 | g'2. |  f'2. | e'2. | d'2. | c'2 \fermata s4 | \bar "|."
-      }
+      g4 |  c'2 g4 | e'2 c'4 | g'2. |  f'2. | e'2. | d'2. | c'2 \fermata s4 | \bar "|."
+    }
 
-      \addlyrics {
-        А -- ум, А
-        -- ум, А -- ум, Ом, Ом, Ау -- мен.
-      }
+    \addlyrics {
+      А -- ум, А
+      -- ум, А -- ум, Ом, Ом, Ау -- мен.
+    }
 
-      \header {
-        title = \titleFunc "Аум" "Aum"
-      }
+    \header {
+      title = \titleFunc "Аум" "Aum"
+    }
 
-      \midi{}
+    \midi{}
 
-    } % score
+  } % score
 
-    \markup \dc-one "2 D.C."
-    \markup \italic \dc-one-nobold "(песентта се изпълнява три пъти)"
+  \markup \dc-one "2 D.C."
+  \markup \huge \italic \dc-one-nobold "(песентта се изпълнява три пъти)"
 
   \label #'ref076_2
   \tocItem \markup "Сила жива"
@@ -65,16 +65,16 @@
 
         \new Staff \with {
           \override VerticalAxisGroup.default-staff-staff-spacing =
-          #'((basic-distance . 5.2)
+          #'((basic-distance . 4.5)
              (padding . -10))
           \remove "Time_signature_engraver"
           alignAboveContext = #"main"
           fontSize = #-1
-          \override StaffSymbol.staff-space = #(magstep -3)
-          \override StaffSymbol.thickness = #(magstep -3)
+          \override StaffSymbol.staff-space = #(magstep -4)
+          \override StaffSymbol.thickness = #(magstep -4)
           firstClef = ##f
         }
-        {\autoBeamOff c''8 ^\markup { \huge \italic "ossia" }  d''8 b'8.}
+        {\autoBeamOff c''8 ^\markup { \huge \italic "ossia" по М.Тодорова}  d''8 b'8.}
       >>
 
 
@@ -91,7 +91,7 @@
 
     \addlyrics {
       Си -- ла жи
-      -- ва, Си -- ла жи -- ва, ка -- жи ми, ка -- жи
+      -- ва, си -- ла жи -- ва, ка -- жи ми, ка -- жи
       ми де во -- да из -- ви -- ра, де во -- да из
       -- ви -- ра. Из -- ви -- ра, из -- ви -- ра, де
       во -- да из -- ви -- ра. Ка -- жи ми, ка -- жи
@@ -107,12 +107,12 @@
 
     } % score
 
-    \markup \italic \dc-one-nobold "(По желание песента се изпълнява два пъти.)"
-    \markup \italic \dc-one-nobold "attacca „Скръбта си ти кажи“"
+    \markup \huge \italic \dc-one-nobold "(По желание песента се изпълнява два пъти.)"
+    \markup \huge \italic \dc-one-nobold "attacca „Скръбта си ти кажи“"
 
 
 
- 
+
 
 
   } % bookpart

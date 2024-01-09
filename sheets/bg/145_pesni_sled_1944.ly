@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref145
-  \tocAct \markup { "Песни, мелодии и теми непубликувани до 1944"}
+  \tocAct \markup { "Песни, мелодии и теми, непубликувани до 1944 г."}
   \paper {
     print-all-headers = ##f
     print-page-number = ##f

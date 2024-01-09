@@ -65,15 +65,15 @@
       \time 5/4 dis16([e) f e] gis8[f] e4..( e16\tenuto) a([gis f e]) | \noBreak
       \time 4/4 \acciaccatura { dis8 } e2 \acciaccatura { dis'8 } e2 | \break
 
-      \tuplet 6/4 { gis,16 ^\markup { \large \italic "poco a poco accelerando"} ([a gis f e dis]) } \tuplet 6/4 { gis([a gis f e dis]) } \tuplet 6/4 { gis([a gis f e dis]) } \tuplet 6/4 { gis ^\markup \italic "rit." ([a gis f e dis]) } | \noBreak
+      \tuplet 6/4 { gis,16 ^\markup { \huge \italic "poco a poco accelerando"} ([a gis f e dis]) } \tuplet 6/4 { gis([a gis f e dis]) } \tuplet 6/4 { gis([a gis f e dis]) } \tuplet 6/4 { gis ^\markup \huge \italic "rit." ([a gis f e dis]) } | \noBreak
       \time 4/4 \acciaccatura { dis8 } e2 \acciaccatura { dis'8 } e2 | \noBreak
-      a,,8^\markup { \large \italic "a tempo"}_\markup \italic { risoluto } ([b]) c[dis] c4(b) \time 5/4 \break
+      a,,8^\markup { \huge \italic "a tempo"}_\markup \huge \italic { risoluto } ([b]) c[dis] c4(b) \time 5/4 \break
 
       \acciaccatura { a8 } fis'4.\fermata( \tuplet 3/2 { e16[fis e]) } dis8[c] b2 | \noBreak
-      c16 ^\markup { \large \italic "poco a poco accelerando"} ([dis c b]) c([dis c b]) c([dis c b]) b8. ^\markup  \italic "rit." (a16) a4 |  \bar ".|:-|"  \time 4/4 \break
+      c16 ^\markup { \huge \italic "poco a poco accelerando"} ([dis c b]) c([dis c b]) c([dis c b]) b8. ^\markup \huge \italic "rit." (a16) a4 |  \bar ".|:-|"  \time 4/4 \break
 
 
-      e''16 ^\markup { \large \italic "a tempo"} [(f) gis a] b8 d,4. \acciaccatura { c16[d] } c4 | \noBreak
+      e''16 ^\markup { \huge \italic "a tempo"} [(f) gis a] b8 d,4. \acciaccatura { c16[d] } c4 | \noBreak
       \time 2/4 b2 | \noBreak
       \time 5/4 a,4 gis f'8.([e16]) e2 | \noBreak
       \time 4/4 d16([e) f a] gis4 f e8.([d16]) | \time 2/4 \break
@@ -82,9 +82,9 @@
 
       %\set Score.doubleRepeatType = #":|.|:"
 
-      \time 3/4 \tuplet 3/2 { a8^\markup { \large \italic "poco a poco accelerando"} ([f e] } \tuplet 3/2 { a[f e] } \tuplet 3/2 { a[f e]) } | \noBreak
+      \time 3/4 \tuplet 3/2 { a8^\markup { \huge \italic "poco a poco accelerando"} ([f e] } \tuplet 3/2 { a[f e] } \tuplet 3/2 { a[f e]) } | \noBreak
       d4 d2 \noBreak
-      \tuplet 3/2 { a'8\p([ f e] } \tuplet 3/2 { a[f e] } \tuplet 3/2 { a^\markup \raise #1.5 \italic "rit." [f e]) } | \noBreak
+      \tuplet 3/2 { a'8\p([ f e] } \tuplet 3/2 { a[f e] } \tuplet 3/2 { a^\markup \huge \raise #1.5 \italic "rit." [f e]) } | \noBreak
       dis4 e2 | \bar ":|."
 
       \time 9/16 \break

@@ -10,14 +10,34 @@
   \score {
     \include "include/score-layout.ily"
 
-    \new Voice \absolute {
+    \new Staff = main \absolute {
       \clef treble
       \key g \major
       \time 5/4
       \tempoFunc "Moderato" 4 "88"
       \autoBeamOff
 
-      d'8 d'8 g'8 g' g' a' b'4 b' | d''8 c''8 c''8 b' c'' b' a'4 a' \break |
+      <<
+        { d'8 d'8 g'8 g' g' a' b'4 b' | }
+        \new RhythmicStaff \with {
+          \override VerticalAxisGroup.default-staff-staff-spacing =
+          #'((basic-distance . 4.2)
+             (padding . -20))
+          \remove "Time_signature_engraver"
+          alignAboveContext = #"main"
+          fontSize = #-1
+          \override StaffSymbol.staff-space = #(magstep -4)
+          \override StaffSymbol.thickness = #(magstep -4)
+          firstClef = ##f
+        }
+        {
+          \autoBeamOff  d'8.^\markup { \huge \italic "ossia" \italic "според К. Икономов"}
+
+          d'16 g'8. g'16 g'8. a'16 b'4 b'4 |
+        }
+      >>
+
+      d''8 c''8 c''8 b' c'' b' a'4 a' \break |
 
       \time 6/4  b'8. b'16 b'4 b' c''8. c''16 c''4 c'' | d''8 c''8 b'8 a' b' a' g'4 g'2 \break |
 
@@ -35,7 +55,7 @@
 
 
       \repeat volta 2 {
-        d'8 d'8 c''4. b'8 a'8 g'8 a'4 g' | \time 5/4  fis'8. e'16 fis'8 e' fis' e' e'4 d' \break |
+        d'8 d'8 c''4. b'8 a'8 g'8 a'4 g' | \time 5/4  fis'8. e'16 fis'8. e'16 fis'8. e'16 e'4 d' \break |
 
         \time 6/4  e'4 e' fis' fis' g' g' | a'8. a'16 a'8 g' b' a' g'4 g'2 \break |
 
@@ -50,7 +70,7 @@
       -- ма на ус -- та -- "та      –" туй е "клю-" -- чът на
       сър -- ца -- та, на "сър-" -- ца -- та, на "сър-" --
       ца -- та, туй е "клю-" -- чът на сър -- ца -- та.
-      Ми -- ли пог -- лед на о -- чи -- те, туй е --
+      Ми -- ли пог -- лед на о -- чи -- "те –" туй е --
       зик е на ду -- ши -- те, на "ду-" -- ши -- те, на
       "ду-" -- ши -- те, туй е -- зик е на ду -- ши --
       те. Неж -- но "чув-" -- ство про -- я -- ве -- но,
@@ -60,12 +80,12 @@
       вен -- ча -- ва вся -- ко де -- ло и про -- я --
       ва, вся -- ко де -- ло, вся -- ко де -- ло, вся
       -- ко де -- ло и про -- я -- ва. "Лю-" -- "бов-" -- та
-      със тях "съ-" -- граж -- да тоз "Жи-" -- вот, що тук
+      със тях "съ-" -- граж -- да тоз "жи-" -- вот, що тук
       се раж -- да, раж -- да, раж -- да, раж -- да,
-      тоз "Жи-" -- вот, що тук се раж -- да, тоз "Жи-" --
-      вот, що тук се раж -- да, тоз "Жи-" -- вот, що
-      тук се раж -- да, тоз "Жи-" -- вот, що тук се раж
-      -- да, тоз "Жи-" -- вот, що тук се раж -- да.
+      тоз "жи-" -- вот, що тук се раж -- да, тоз "жи-" --
+      вот, що тук се раж -- да, тоз "жи-" -- вот, що
+      тук се раж -- да, тоз "жи-" -- вот, що тук се раж
+      -- да, тоз "жи-" -- вот, що тук се раж -- да.
     }
 
     \header {
@@ -118,7 +138,7 @@
 
   \markup \dc-two "D.C." "con ripetizione "
 
-  
+
 
 
 } % bookpart

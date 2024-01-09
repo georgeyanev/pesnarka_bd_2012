@@ -84,7 +84,7 @@
       Слу  --  шай  --
       те   гла  --  са   на   пе  --  сен  --  та,   що   раз  --  на  --
       ся   ве  --  че   про  --  лет  --  та.   Дар   ве  --  лик   е
-      за   Жи  --  во  --  та   тя,   дар   ве  --  лик   е   за   Жи  --
+      за   жи  --  во  --  та   тя,   дар   ве  --  лик   е   за   жи  --
       во  -- та тя.
     }
 
@@ -98,17 +98,17 @@
 
   \markup \dc-one "D.C."
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #18
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line { 2. Красота, ухание се лей,  }
-      \line {   "   "  изобилно блика радостта,}
-      \line {   "   " Слушайте и пейте в пролетта, }
-      \line {   "   " слушайте и пейте в пролетта. }
-    }
+  % \markup \fontsize #bgCoupletFontSize {
+  %   \hspace #18
+  %   \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+  %   \column {
+  %     \line { 2. Красота, ухание се лей,  }
+  %     \line {   "   "  изобилно блика радостта,}
+  %     \line {   "   " Слушайте и пейте в пролетта, }
+  %     \line {   "   " слушайте и пейте в пролетта. }
+  %   }
 
-  } % markup
+  % } % markup
 
 
 } % bookpart

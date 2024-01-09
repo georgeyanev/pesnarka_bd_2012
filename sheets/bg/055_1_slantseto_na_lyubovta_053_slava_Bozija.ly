@@ -4,49 +4,42 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \label #'ref055_2
-  \tocItem \markup "Ти Си проявената Любов"
+  \label #'ref055_1
+  \tocItem \markup "Слънцето на Любовта"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
 
     \new Voice \absolute  {
       \clef treble
-      \key e \minor
-      \time 4/4
-      \tempoFunc "Adagio" 4 "56"
+      \key f \major
+      \time 2/4
+      \tempoFunc "Moderato" 4 "88"
       \autoBeamOff
-      b4 e' g' b' | \time 3/4  a'4 g' fis'8. e'16 |
-       fis'2 fis'4 |
-       
-        a'4 g' fis' \break | 
-        
-        e'2 c''4 | 
-       
-      \time 4/4  b'8. a'16 g'8. a'16 b'4. g'8   | 
-       \time 3/4  fis'8. a'16 g'4 fis' \break|  e'2 c''4   |
-       
-        \time 4/4  b'8. a'16 g'8. a'16 b'4. g'8 | \time 3/4  fis'8. a'16 g'4 fis' | e'2 r4 \bar "|."
+      a'4 f'8 a' | g'4 e'8 g' | f'2 | bes'4 g'8 bes' \break | a'4 f'8 a' | g'2  |
+      c''4 c'' | d''4. c''8 | bes'8 a' g'4 \break | bes'4 bes'  | c''4. bes'8 | a'8 g' f'4  |
+      c'4 c' | a'4. g'8 | \break a'8 g' f'4 |   d'4 d' | bes'4. a'8 | bes'8 a' g'4 | \break
+      c''4 c'' | d''4. c''8 |  bes'8 a' g'4 | \break c'4 c' | a'4. g'8 | a'4 g' | f'2 |\break \bar "|."
     }
 
     \addlyrics {
-      Ти Си про -- я -- ве -- на -- та Лю -- бов към мен, Гос -- по --
-      ди. Ду -- ша -- та ми "коп-" -- ней за Твой -- та чис -- то --
-      та. Ду -- ша -- та ми "коп-" -- ней за Твой -- та свет -- ли -- на.
+      Слън -- це -- то на Лю -- бов -- та из -- гря -- ва веч във све -- та.
+      Вре -- дом пра -- ща свет -- ли -- на и раз -- на -- ся топ -- ли -- на.
+      Ний сме слън -- че -- ви лъ -- чи, но -- сим но -- ви -- я жи -- вот.
+      Ний сме слън -- че -- ви лъ -- чи, но -- сим но -- ви -- я жи -- вот.
     }
 
     \header {
-      title = \titleFunc " Ти Си проявената Любов" "Ti Si projavenata Ljubov"
+      title = \titleFunc "Слънцето на Любовта" "Slănceto na Ljubovta"
     }
 
     \midi{}
 
   } % score
+
   \markup \dc-one "D.C."
 
-
-
- \label #'ref053
+  \label #'ref053
   \tocItem \markup "Слава Божия"
   \include "include/bookpart-paper.ily"
   \score {
@@ -76,7 +69,5 @@
 
   } % score
 
- 
-  
 
 } % bookpart

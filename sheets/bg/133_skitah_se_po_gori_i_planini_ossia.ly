@@ -72,16 +72,16 @@
 
         \new Staff \with {
           \override VerticalAxisGroup.default-staff-staff-spacing =
-          #'((basic-distance . 5.2)
+          #'((basic-distance . 4.5)
              (padding . -10))
           \remove "Time_signature_engraver"
           alignAboveContext = #"main"
           fontSize = #-1
-          \override StaffSymbol.staff-space = #(magstep -3)
-          \override StaffSymbol.thickness = #(magstep -3)
+          \override StaffSymbol.staff-space = #(magstep -4)
+          \override StaffSymbol.thickness = #(magstep -4)
           firstClef = ##f
         }
-        {\autoBeamOff a16 ^\markup { \huge \italic "ossia" \italic "според В. Несторова"} fis16 g a g8. fis16 g2}
+        {\autoBeamOff a16 ^\markup { \huge \italic "ossia"} fis16 g a g8. fis16 g2}
       >>
       \break | % 15
 
@@ -130,7 +130,7 @@
       „Пом -- ни, че тряб -- ва го --
       ре да си, слез -- ни и знай -- на
       вси -- чки по -- ле -- зен бъ --
-      ди.“
+      ди“.
     }
 
     \header {

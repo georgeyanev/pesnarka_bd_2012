@@ -4,7 +4,7 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \label #'ref251
+  \label #'ref252
   \tocItem \markup "Молитва (Господи, Ти Си) "
   \paper {
     print-all-headers = ##t
@@ -59,20 +59,20 @@
       f'4  es'2 | % 9
       \time 2/4  | % 9
 
-      des'16^\markup { \italic {sostenuto} }
+      des'16^\markup { \huge \italic {sostenuto} }
       c'16
       ([des'16])  es'16
       f'8  as'8 |
-      f'4 ^\markup{ \italic {a tempo} }  es'4 \break | % 11
+      f'4 ^\markup{\huge \italic {a tempo} }  es'4 \break | % 11
       \time 3/4  | % 11
       \times 2/3  {
-        f'8 ^\markup{ \italic {sostenuto} }  ges'8
+        f'8 ^\markup{\huge \italic {sostenuto} }  ges'8
         as'8
       }
       bes'4  as'4 | % 12
       f'4  ges'8 ( [  f'8 ) ]  f'4 | % 13
       \times 2/3  {
-        f'8 ^\markup{ \italic {sostenuto} }  ges'8
+        f'8 ^\markup{\huge \italic {sostenuto} }  ges'8
         as'8
       }
       bes'8.  as'16  ges'8  f'8 \break | % 14
@@ -103,20 +103,20 @@
       f'4  es'2 | % 9
       \time 2/4  | % 9
 
-      des'16^\markup { \italic {sostenuto} }
+      des'16^\markup { \huge \italic {sostenuto} }
       c'16
       des'16  es'16
       f'8  as'8 |
-      f'4 ^\markup{ \italic {a tempo} }  es'4 \break | % 11
+      f'4 ^\markup{ \huge \italic {a tempo} }  es'4 \break | % 11
       \time 3/4  | % 11
       \times 2/3  {
-        f'8 ^\markup{ \italic {sostenuto} }  ges'8
+        f'8 ^\markup{ \huge \italic {sostenuto} }  ges'8
         as'8
       }
       bes'4  as'4 | % 12
       f'4  ges'8 ( [  f'8 ) ]  f'4 | % 13
       \times 2/3  {
-        f'8 ^\markup{ \italic {sostenuto} }  ges'8
+        f'8 ^\markup{ \huge \italic {sostenuto} }  ges'8
         as'8
       }
       bes'8.  as'16  ges'8  f'8 \break | % 14
@@ -140,9 +140,9 @@
     }
 
     \addlyrics {
-      "1. Гос-" -- по -- ди, Ти си всич -- ко
-      за "ме-" -- не на Зе -- мя -- та. Тук
-      до -- лу– тол -- коз скър --
+      "1. Гос-" -- по -- ди, Ти Си всич -- ко
+      за "ме-" -- не на Зе -- мя -- та. Тук,
+      до -- лу, тол -- коз скър --
       би, тъй "всич-" -- ко пус -- то е
       без __  Теб и са -- мо Ти му да
       -- ваш сми -- съл. Ед -- ни -- чък
@@ -151,10 +151,10 @@
 
       "2. Го-" -- спо -- ди, на -- у -- чи ме
       да "лю-" -- бя "всич-" -- ко жи -- во,
-      туй, ко -- е -- то Ти съз -- дал си,
+      туй, ко -- е -- то Ти съз -- дал Си,
       и да раз -- на -- сям аз на -- вред
       Тво -- я -- та "неж-" -- ност,
-      "Ра-" -- дост и Лю -- бов.
+      "ра-" -- дост и Лю -- бов.
       Да се на -- у -- ча
       Теб  аз да слу -- жа, да бла -- го --  да -- ря. __
     }
