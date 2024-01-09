@@ -30,7 +30,7 @@
         a'2 | % 8
         fis'4  e'4 | % 9
         a'4  g'4 |
-        g'4 (  a'4 ) \bar "!" |
+        g'4 (  a'4 ) |
       }  % 11
 
       \alternative {

@@ -4,7 +4,7 @@
 \include "include/globals.ily"
 
 \bookpart {
-    \label #'ref253
+  \label #'ref253
   \tocItem \markup "Добрата молитва "
   \include "include/bookpart-paper.ily"
   \score {
@@ -26,7 +26,7 @@
       c'4 | % 6
       b4.  c'8  d'4  b4 | % 7
       e'8 ( [  fis'8 ) ]  gis'8  a'8
-      b'4  gis'4 | \break % 8 
+      b'4  gis'4 | \break % 8
       a'2 r4  a'8 ( [  b'8 ) ] | % 9
       c''2  b'2 |
       a'2 r8  a'8  b'8  c''8 | % 11

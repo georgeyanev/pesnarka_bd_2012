@@ -53,7 +53,7 @@
       \key f \minor \bar ".|"  | % 15
 
 
-      \bar ".|:-||"   \tempoFunc "     Più mosso" 4 "66" \time 9/8 f4  f8  f4.  c'4. |
+      \bar ".|:-||"   \tempoFunc "   Più mosso" 4 "66" \time 9/8 f4  f8  f4.  c'4. |
 
       des4.  c2.|
       c8 ( [ des8  c8 ) ]  bes4.  as4. | \break

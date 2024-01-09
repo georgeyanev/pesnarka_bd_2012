@@ -98,7 +98,7 @@
       e4  e4  fis8 ( [  g8 ) ] b2 | \break
       ais4  g4  ais8 ( [  g8 ) ]  fis2 |
       \repeat volta 2 {
-        \time 9/8 \tempoFunc "     Allegretto" 4 "160"  d'4
+        \time 9/8 \tempoFunc "  Allegretto" 4 "160"  d'4
         d8  d8  cis4 d4. |
         cis4  b4  cis4 b4. | \break
         ais4  g8  g8 ais4  g4. |

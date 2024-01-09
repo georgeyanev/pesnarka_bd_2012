@@ -33,7 +33,7 @@
 
     % change distance between staves
     system-system-spacing =
-    #'((basic-distance . 10)
+    #'((basic-distance . 8)
        (minimum-distance . 6)
        (padding . 1)
        (stretchability . 12))
@@ -166,6 +166,17 @@
     } % score
 
 
+    \markup \fontsize #bgCoupletFontSize {
+      \hspace #15
+      \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
+      \column {
+        \line {   2. Радост, радост за душата носи Светлината. }
+        \line {   "   "  Светли бъдете като звездите,}
+        \line {   "   "   светли бъдете като слънцата. }
+
+      }
+
+    } % markup
   } % bookpart
 
   % Più mosso
