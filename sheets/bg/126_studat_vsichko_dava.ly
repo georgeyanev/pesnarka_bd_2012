@@ -132,6 +132,7 @@
 
       \tempoFunc "Largamente" 4 "54"
       \times 2/3  {
+        \once \override Slur.positions = #'(-1 . -3.2)
         d'8[ \=1( \grace { cis'16 \=2([ d'16 ]}  cis'8 \=1)\=2)] bes8
       }
       a2 | % 56
