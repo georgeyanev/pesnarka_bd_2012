@@ -39,7 +39,7 @@
 
 
 
-  \markup \fontsize  #+5.5 {\hspace #25 \bold {"Петър Дънов"} }
+  \markup \fontsize  #+6.5 {\hspace #25 \bold {"Петър Дънов"} }
 
   \markup {  \vspace #3.5 }
   \markup {
@@ -55,7 +55,7 @@
   \markup \fontsize  #+2  { {  \vspace #0.2 } }
 
 
-  \markup \fontsize  #+8 { \hspace #25 \bold {"Песни от Учителя"} }
+  \markup \fontsize  #+9 { \hspace #25 \bold {"Песни от Учителя"} }
   \markup {
     \hspace #25
     \column {
