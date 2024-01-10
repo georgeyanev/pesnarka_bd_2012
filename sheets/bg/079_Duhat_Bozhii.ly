@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref079
-  \tocItem \markup "Духът Божий"
+  \tocItem \markup "Духът Божи"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -69,7 +69,7 @@
     }
 
     \header {
-      title = \titleFunc "Духът Божий" "Duhăt Božij"
+      title = \titleFunc "Духът Божи" "Duhăt Božij"
     }
 
     \midi{}
