@@ -223,7 +223,7 @@
       a8.[g16] a[b c d] | \break
 
       e[f e d] c[d b g] | \noBreak
-      \tempo "  rit." a4\>  a8 a \!  \fermata | \bar "||" \noBreak
+      \tempo "rit." a4\>  a8 a \!  \fermata | \bar "||" \noBreak
       \tempoFunc "Allegretto" 4 "120" d^\accent e e e | \noBreak
       e4 e | \noBreak
       d8^\accent c c c | \break
