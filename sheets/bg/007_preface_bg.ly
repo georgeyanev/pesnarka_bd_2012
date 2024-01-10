@@ -98,11 +98,11 @@
 
 
   \markup \override #'(line-width . 62.5) \fontsize  #+2.5 {
-    \override #'(baseline-skip . 2.5) \column {
+    \override #'(baseline-skip . 2.7) \column {
       "    1."
     }
     \hspace #0.5
-    \override #'(baseline-skip . 2.5) \column {
+    \override #'(baseline-skip . 2.7) \column {
       \justify {
         \italic {Братски песни:  } това са всички вокални композиции, създадени предимно преди 1922 г. Повечето от тях се раждат от съвместната работа между Учителя и неговите ученици. Поради това много от мелодиите или текстовете в тази част на сборника са създадени от ученици по негови идеи. Някои от мелодиите и текстовете са заимствани от песни на Евангелските църкви; в репертоара присъстват също и популярни църковно-славянски напеви. В този период честа практика е била многогласното хорово изпълнение на песните. Към този дял са добавени и песни от директни негови ученици, създадени след заминаването на Учителя.
       }
@@ -110,11 +110,11 @@
   }
 
   \markup \override #'(line-width . 62.5) \fontsize  #+2.5 {
-    \vspace #0.9  \override #'(baseline-skip . 2.5) \column {
+    \vspace #0.9  \override #'(baseline-skip . 2.7) \column {
       "    2."
     }
     \hspace #0.5
-    \override #'(baseline-skip . 2.5) \column {
+    \override #'(baseline-skip . 2.7) \column {
       \justify {
         \italic { Песни от Учителя: } това са всички композиции, създадени между 1922 и 1944 г. в Окултната школа на \italic {Бялото}
         \italic {Братство.} Тук автор на мелодията и текста е Учителя. Много от композициите са на свещен език, който той
@@ -124,11 +124,11 @@
   }
 
   \markup \override #'(line-width . 62.5) \fontsize  #+2.5 {
-    \vspace #0.9  \override #'(baseline-skip . 2.5) \column {
+    \vspace #0.9  \override #'(baseline-skip . 2.7) \column {
       "    3."
     }
     \hspace #0.5
-    \override #'(baseline-skip . 2.5) \column {
+    \override #'(baseline-skip . 2.7) \column {
       \justify {
         \italic {Песни, публикувани след 1944 г.:  } това са всички композиции, издадени след заминаването на Учителя през 1944 г.
         Тази част съдържа както вокални, така и много чисто инструментални композиции и мелодии. Особено внимание тук
@@ -151,11 +151,11 @@
   }
 
   \markup \override #'(line-width . 62.5) \fontsize  #+2.5 {
-    \vspace #0.9  \override #'(baseline-skip . 2.5) \column {
+    \vspace #0.9  \override #'(baseline-skip . 2.7) \column {
       "    1."
     }
     \hspace #0.5
-    \override #'(baseline-skip . 2.5) \column {
+    \override #'(baseline-skip . 2.7) \column {
       \justify {
         Запазване на оригиналите и автентичността на музикалните композиции;
       }
@@ -163,11 +163,11 @@
   }
 
   \markup \override #'(line-width . 62.5) \fontsize  #+2.5 {
-    \vspace #0.9  \override #'(baseline-skip . 2.5) \column {
+    \vspace #0.9  \override #'(baseline-skip . 2.7) \column {
       "    2."
     }
     \hspace #0.5
-    \override #'(baseline-skip . 2.5) \column {
+    \override #'(baseline-skip . 2.7) \column {
       \justify {
         Професионализиране на нотописа посредством установяване на конвенции при нотния правопис според правилата на музикалната теория;
       }
@@ -176,11 +176,11 @@
 
 
   \markup \override #'(line-width . 62.5) \fontsize  #+2.5 {
-    \vspace #0.9 \override #'(baseline-skip . 2.5) \column {
+    \vspace #0.9 \override #'(baseline-skip . 2.7) \column {
       "    3."
     }
     \hspace #0.5
-    \override #'(baseline-skip . 2.5) \column {
+    \override #'(baseline-skip . 2.7) \column {
       \justify {
         Последователно прилагане на същите спрямо нотния текст.
       }
