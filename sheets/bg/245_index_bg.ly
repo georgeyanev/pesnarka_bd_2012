@@ -93,7 +93,7 @@
       \with-link #'ref116 \fill-with-pattern #1 #RIGHT . "До ще ден" \page-ref #'ref116 "000" "?"
       \with-link #'ref136 \fill-with-pattern #1 #RIGHT . "Духай, ветре" \page-ref #'ref136 "000" "?"
       \with-link #'ref161 \fill-with-pattern #1 #RIGHT . "Духай, ветре II" \page-ref #'ref161 "000" "?"
-      \with-link #'ref079 \fill-with-pattern #1 #RIGHT . "Духът Божий" \page-ref #'ref079 "000" "?"
+      \with-link #'ref079 \fill-with-pattern #1 #RIGHT . "Духът Божи" \page-ref #'ref079 "000" "?"
       \with-link #'ref101_2 \fill-with-pattern #1 #RIGHT . "Духът ми шепне това" \page-ref #'ref101_2 "000" "?"
       \with-link #'ref052 \fill-with-pattern #1 #RIGHT . "Дързост в Христа" \page-ref #'ref052 "000" "?"
       \with-link #'ref201 \fill-with-pattern #1 #RIGHT . "Една вечна Истина" \page-ref #'ref201 "000" "?"
