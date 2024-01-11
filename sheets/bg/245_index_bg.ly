@@ -223,7 +223,7 @@
       \with-link #'ref089 \fill-with-pattern #1 #RIGHT . "Тъги, скърби" \page-ref #'ref089 "000" "?"
       \with-link #'ref101_1 \fill-with-pattern #1 #RIGHT . "Тъги, скърби са богатство" \page-ref #'ref101_1 "000" "?"
       \with-link #'ref070 \fill-with-pattern #1 #RIGHT . "Фир-фюр-фен – Благославяй" \page-ref #'ref070 "000" "?"
-      \with-link #'ref104 \fill-with-pattern #1 #RIGHT . "Химн на великата душа" \page-ref #'ref104 "000" "?"
+      \with-link #'ref104 \fill-with-pattern #1 #RIGHT . "Химн на великата Душа" \page-ref #'ref104 "000" "?"
       \with-link #'ref202 \fill-with-pattern #1 #RIGHT . "Химн на Слънцето" \page-ref #'ref202 "000" "?"
       \with-link #'ref088 \fill-with-pattern #1 #RIGHT . "Ходи, ходи" \page-ref #'ref088 "000" "?"
       \with-link #'ref113 \fill-with-pattern #1 #RIGHT . "Цветята цъфтяха" \page-ref #'ref113 "000" "?"
