@@ -37,12 +37,12 @@ tocAct = #(define-music-function (label text) ((symbol-list-or-symbol? '()) mark
             (add-toc-item! 'tocActMarkup text label))
 
 titleFunc = #(define-scheme-function
-              (cyrTitle latTitle)
-              (string? string?)
+              (descPageRef cyrTitle latTitle)
+              (symbol? string? string?)
               #{
                 \markup \column \normal-text \fontsize #2.5 {
                   \center-align
-                  \line { #cyrTitle }
+                  \line { \with-link #descPageRef #cyrTitle }
                   \vspace #-0.8
                   \center-align
                   \line \fontsize #-3 { " " }

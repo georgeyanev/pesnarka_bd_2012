@@ -66,7 +66,7 @@
     }
 
     \header {
-      title = \titleFunc "Мога да кажа" "Moga da kaža"
+      title = \titleFunc #'ref_desc_11 "Мога да кажа" "Moga da kaža"
     }
 
     \midi{}

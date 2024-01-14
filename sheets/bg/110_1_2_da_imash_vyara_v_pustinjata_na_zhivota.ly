@@ -47,7 +47,7 @@
       маш вя -- ра, __ вя -- ра, __ вя -- ра. __}
 
       \header {
-        title = \titleFunc "Да имаш вяра" "Da imaš vjara"
+        title = \titleFunc #'ref_desc_11 "Да имаш вяра" "Da imaš vjara"
       }
 
       \midi{}
@@ -108,7 +108,7 @@
         рой, све -- ти -- я го зо -- ват. __}
 
         \header {
-          title = \titleFunc "В пустинята на живота" "V pustinjata na života"
+          title = \titleFunc #'ref_desc_11 "В пустинята на живота" "V pustinjata na života"
         }
 
         \midi{}

@@ -77,7 +77,7 @@
     }
 
     \header {
-      title = \titleFunc "До ще ден" "Do šte den"
+      title = \titleFunc #'ref_desc_12 "До ще ден" "Do šte den"
     }
 
     \midi{}

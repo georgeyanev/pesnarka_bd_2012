@@ -228,15 +228,8 @@
     \addlyrics {}
 
     \header {
-      title = \markup \column \normal-text \fontsize #2.5 {
-        \center-align
-        \line { Българска идилия }
-        \vspace #-0.8
-        \center-align
-        \line \fontsize #-3 { " " }
-      }
+      title = \titleFunc #'ref_desc_14 "Българска идилия" ""
     }
-
     \midi{}
 
   } 

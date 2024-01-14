@@ -103,7 +103,7 @@
     }
 
     \header {
-      title = \titleFunc "Малката буболечица" "Malkata bubolečica"
+      title = \titleFunc #'ref_desc_16 "Малката буболечица" "Malkata bubolečica"
     }
 
     \midi{}
@@ -146,7 +146,7 @@
        \addlyrics {\repeat unfold 23 { \skip 2 } (*ду -- ша -- та __ ми.)}
 
         \header {
-          title = \titleFunc "Радост" "Radost"
+          title = \titleFunc #'ref_desc_16 "Радост" "Radost"
         }
 
         \midi{}

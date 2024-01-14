@@ -63,7 +63,7 @@
     }
 
     \header {
-      title = \titleFunc "На Учителя" "Na Učitelja"
+      title = \titleFunc #'ref_desc_2 "На Учителя" "Na Učitelja"
     }
 
     \midi{}

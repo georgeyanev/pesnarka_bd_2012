@@ -42,7 +42,7 @@
 
 
       \header {
-        title = \titleFunc "Милост, благост" "Milost, blagost"
+        title = \titleFunc #'ref_desc_16 "Милост, благост" "Milost, blagost"
       }
 
       \midi{}
@@ -87,7 +87,7 @@
       }
 
       \header {
-        title = \titleFunc "Свобода е потребна за душата" "Svoboda e potrebna za dušata"
+        title = \titleFunc #'ref_desc_16 "Свобода е потребна за душата" "Svoboda e potrebna za dušata"
       }
 
       \midi{}

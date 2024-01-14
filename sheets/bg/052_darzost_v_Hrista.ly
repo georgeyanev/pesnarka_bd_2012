@@ -99,7 +99,7 @@
     }
 
     \header {
-      title = \titleFunc "Дързост в Христа" "Dărzost v Hrista"
+      title = \titleFunc #'ref_desc_3 "Дързост в Христа" "Dărzost v Hrista"
     }
 
     \midi{}

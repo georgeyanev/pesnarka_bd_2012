@@ -105,7 +105,7 @@
     \addlyrics {}
 
     \header {
-      title = \titleFunc "Мелодия 2" " Melodija 2 – V radostta na denja"
+      title = \titleFunc #'ref_desc_17 "Мелодия 2" " Melodija 2 – V radostta na denja"
     }
 
     \midi{}
@@ -150,7 +150,7 @@
       по -- ли -- тат на -- ши -- те ду -- ши.}
 
       \header {
-        title = \titleFunc "Мелодия 3 – Когато се денят пробужда " "Melodija – Kogato se denjat probužda"
+        title = \titleFunc #'ref_desc_17 "Мелодия 3 – Когато се денят пробужда " "Melodija – Kogato se denjat probužda"
       }
 
       \midi{}
@@ -213,7 +213,7 @@
       }
 
       \header {
-        title = \titleFunc "Мелодия 4" "Melodija – Ozarenie"
+        title = \titleFunc #'ref_desc_17 "Мелодия 4" "Melodija – Ozarenie"
       }
 
       \midi{}

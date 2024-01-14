@@ -41,7 +41,7 @@
     }
 
     \header {
-      title = \titleFunc "Зората на новия живот" "Zorata na Novija život"
+      title = \titleFunc #'ref_desc_1 "Зората на новия живот" "Zorata na Novija život"
     }
 
     \midi{}

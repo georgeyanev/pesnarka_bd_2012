@@ -58,7 +58,7 @@
     }
 
     \header {
-      title = \titleFunc "Ходи, ходи" "Hodi, hodi"
+      title = \titleFunc #'ref_desc_8 "Ходи, ходи" "Hodi, hodi"
     }
 
     \midi{}

@@ -36,7 +36,7 @@
     }
 
     \header {
-      title = \titleFunc "Милосърдието" "Milosărdieto"
+      title = \titleFunc #'ref_desc_2 "Милосърдието" "Milosărdieto"
     }
 
     \midi{}

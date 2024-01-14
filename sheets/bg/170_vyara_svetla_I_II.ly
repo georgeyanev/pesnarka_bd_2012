@@ -44,7 +44,7 @@
       Вя -- ра свет --   ла,
       вя -- ра сил --   на! Тя кре -- пи ду -- ха, що жи -- во -- та раж -- да. Вя -- ра да.}
       \header {
-        title = \titleFunc "Вяра светла I" "Vjara svetla I"
+        title = \titleFunc #'ref_desc_15 "Вяра светла I" "Vjara svetla I"
       }
 
       \midi{}
@@ -120,7 +120,7 @@
         ду -- ха, що жи -- вот но -- си.}
 
         \header {
-          title = \titleFunc "Вяра светла II " "Vjara svetla II "
+          title = \titleFunc #'ref_desc_16 "Вяра светла II " "Vjara svetla II "
         }
 
         \midi{}

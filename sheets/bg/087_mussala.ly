@@ -125,7 +125,7 @@
     }
 
     \header {
-      title = \titleFunc "Мусала" "Musala"
+      title = \titleFunc #'ref_desc_8 "Мусала" "Musala"
     }
 
     \midi{}

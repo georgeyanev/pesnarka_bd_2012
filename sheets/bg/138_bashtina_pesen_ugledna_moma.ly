@@ -337,7 +337,7 @@
     }
 
     \header {
-      title = \titleFunc "Бащина песен – Угледна мома" "Baština pesen – Ugledna moma"
+      title = \titleFunc #'ref_desc_13 "Бащина песен – Угледна мома" "Baština pesen – Ugledna moma"
     }
 
     \midi{}

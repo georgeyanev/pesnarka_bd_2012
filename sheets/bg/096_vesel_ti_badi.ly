@@ -92,7 +92,7 @@
     }
 
     \header {
-      title = \titleFunc "Весел ти бъди" "Vesel ti bădi"
+      title = \titleFunc #'ref_desc_10 "Весел ти бъди" "Vesel ti bădi"
     }
 
     \midi{}

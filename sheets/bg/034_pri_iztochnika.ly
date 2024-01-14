@@ -33,7 +33,7 @@
     }
 
     \header {
-      title = \titleFunc "При източника" "Pri iztočnika"
+      title = \titleFunc #'ref_desc "При източника" "Pri iztočnika"
     }
 
     \midi{}

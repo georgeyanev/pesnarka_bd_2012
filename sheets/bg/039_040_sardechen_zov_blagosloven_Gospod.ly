@@ -78,7 +78,7 @@
     }
 
     \header {
-      title = \titleFunc "Сърдечен зов" "Sărdečen zov"
+      title = \titleFunc #'ref_desc_2 "Сърдечен зов" "Sărdečen zov"
     }
 
     \midi{}
@@ -114,7 +114,7 @@
       на Свет -- ли -- те __ ду -- хо -- ве.}
 
       \header {
-        title = \titleFunc "Благословен Господ" "Blagosloven Gospod"
+        title = \titleFunc #'ref_desc_2 "Благословен Господ" "Blagosloven Gospod"
       }
 
       \midi{}

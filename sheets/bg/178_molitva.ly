@@ -90,7 +90,7 @@
       по -- ди. __}
 
       \header {
-        title = \titleFunc "Молитва" "Molitva"
+        title = \titleFunc #'ref_desc_16 "Молитва" "Molitva"
       }
 
 

@@ -49,7 +49,7 @@
     }
 
     \header {
-      title = \titleFunc "Запали се огънят" "Zapali se ogănjat"
+      title = \titleFunc #'ref_desc_10 "Запали се огънят" "Zapali se ogănjat"
     }
 
     \midi{}

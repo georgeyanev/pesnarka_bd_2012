@@ -31,7 +31,7 @@
     }
 
     \header {
-      title = \titleFunc "Нови дрехи" "Novi drehi"
+      title = \titleFunc #'ref_desc_3 "Нови дрехи" "Novi drehi"
     }
 
     \midi{}

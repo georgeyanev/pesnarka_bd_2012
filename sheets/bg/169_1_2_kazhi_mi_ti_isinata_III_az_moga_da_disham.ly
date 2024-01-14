@@ -108,7 +108,7 @@
       ша.}
 
       \header {
-        title = \titleFunc "Кажи ми Ти Истината III" "Kaži mi Ti Istinata III"
+        title = \titleFunc #'ref_desc_15 "Кажи ми Ти Истината III" "Kaži mi Ti Istinata III"
       }
 
       \midi{}
@@ -156,7 +156,7 @@
         да ди -- шам ве -- че до -- бре. Аз  бре.}
 
         \header {
-          title = \titleFunc "Аз мога да дишам " "Az moga da dišam"
+          title = \titleFunc #'ref_desc_15 "Аз мога да дишам " "Az moga da dišam"
         }
 
         \midi{}

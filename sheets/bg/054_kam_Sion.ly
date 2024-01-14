@@ -62,7 +62,7 @@
     }
 
     \header {
-      title = \titleFunc "Към Сион" "Kăm Sion"
+      title = \titleFunc #'ref_desc_3 "Към Сион" "Kăm Sion"
     }
 
     \midi{}

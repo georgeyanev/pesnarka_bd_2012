@@ -47,7 +47,7 @@
     }
 
     \header {
-      title = \titleFunc "Всичко в живота е постижимо" "Vsičko v života e postižimo"
+      title = \titleFunc #'ref_desc_10 "Всичко в живота е постижимо" "Vsičko v života e postižimo"
     }
 
     \midi{}
@@ -89,7 +89,7 @@
     }
 
     \header {
-      title = \titleFunc "Тъги, скърби са богатство" "Tăgi, skărbi sa bogatstvo"
+      title = \titleFunc #'ref_desc_10 "Тъги, скърби са богатство" "Tăgi, skărbi sa bogatstvo"
     }
 
     \midi{}
@@ -138,7 +138,7 @@
       то -- ва.}
 
       \header {
-        title = \titleFunc "Духът ми шепне това" "Duhăt mi šepne tova"
+        title = \titleFunc #'ref_desc_11 "Духът ми шепне това" "Duhăt mi šepne tova"
       }
 
       \midi{}

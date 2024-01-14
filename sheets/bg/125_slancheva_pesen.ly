@@ -139,7 +139,7 @@
     }
 
     \header {
-      title = \titleFunc "Слънчева песен – пчелна мушичка" "Slănčeva pesen – pčelna mušička"
+      title = \titleFunc #'ref_desc_13 "Слънчева песен – пчелна мушичка" "Slănčeva pesen – pčelna mušička"
     }
 
     \midi{}

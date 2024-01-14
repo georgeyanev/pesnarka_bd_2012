@@ -78,7 +78,7 @@
 
 
     \header {
-      title = \titleFunc "Шуми" "Shumi"
+      title = \titleFunc #'ref_desc "Шуми" "Shumi"
     }
 
     \midi{}

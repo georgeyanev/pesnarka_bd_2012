@@ -226,7 +226,7 @@
     }
 
     \header {
-      title = \titleFunc "Радост и скръб" "Radost i skrăb"
+      title = \titleFunc #'ref_desc_12 "Радост и скръб" "Radost i skrăb"
     }
 
     \midi{}

@@ -257,7 +257,7 @@
     }
     
     \header {
-      title = \titleFunc "Българска рапсодия" "Bălgarska rapsodija"
+      title = \titleFunc #'ref_desc_14 "Българска рапсодия" "Bălgarska rapsodija"
     }
 
     \midi{}

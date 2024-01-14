@@ -339,7 +339,7 @@
       ваш.}
 
       \header {
-        title = \titleFunc "Студът всичко дава" "Studăt vsičko dava"
+        title = \titleFunc #'ref_desc_13 "Студът всичко дава" "Studăt vsičko dava"
       }
 
       \midi{}

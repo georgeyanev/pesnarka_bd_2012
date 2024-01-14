@@ -73,7 +73,7 @@
     }
 
     \header {
-      title = \titleFunc "Песен на зората" "Pesen na zorata"
+      title = \titleFunc #'ref_desc_11 "Песен на зората" "Pesen na zorata"
     }
 
     \midi{}
@@ -130,7 +130,7 @@
     }
 
     \header {
-      title = \titleFunc "При всичките условия" "Pri vsičkite uslovija"
+      title = \titleFunc #'ref_desc_11 "При всичките условия" "Pri vsičkite uslovija"
     }
 
     \midi{}

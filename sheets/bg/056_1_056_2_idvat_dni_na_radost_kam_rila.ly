@@ -28,7 +28,7 @@
     }
 
     \header {
-      title = \titleFunc "  Идват дни на радост" "Idvat dni na radost"
+      title = \titleFunc #'ref_desc_3 "  Идват дни на радост" "Idvat dni na radost"
     }
 
     \midi{}
@@ -67,7 +67,7 @@
     }
 
     \header {
-      title = \titleFunc "Към Рила" "Kăm Rila"
+      title = \titleFunc #'ref_desc_3 "Към Рила" "Kăm Rila"
     }
 
     \midi{}

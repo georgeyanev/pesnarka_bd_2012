@@ -105,7 +105,7 @@
     >>
 
     \header {
-      title = \titleFunc "Дишай дълбоко" "Dišaj dălboko"
+      title = \titleFunc #'ref_desc_3 "Дишай дълбоко" "Dišaj dălboko"
     }
 
     \midi{}

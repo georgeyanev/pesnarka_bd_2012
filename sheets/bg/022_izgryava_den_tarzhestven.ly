@@ -58,7 +58,7 @@
       -- мла -- дя -- ва.
     }
     \header {
-      title = \titleFunc "Изгрява вече ден тържествен" "Izgrjava veče den tăržestven"
+      title = \titleFunc #'ref_desc_1 "Изгрява вече ден тържествен" "Izgrjava veče den tăržestven"
     }
 
     \midi{}
