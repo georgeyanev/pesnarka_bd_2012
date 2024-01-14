@@ -142,7 +142,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_3 "Ангел вопияше" "Angel vopijaše"
+      title = \titleFunc #'ref_desc_2 "Ангел вопияше" "Angel vopijaše"
     }
 
     \midi{}

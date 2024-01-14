@@ -62,7 +62,7 @@
 
 
     \header {
-      title = \titleFunc #'ref_desc_8 "Светъл ден" "Svetăl den"
+      title = \titleFunc #'ref_desc_12 "Светъл ден" "Svetăl den"
     }
 
     \midi{}

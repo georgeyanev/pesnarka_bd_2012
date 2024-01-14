@@ -116,7 +116,7 @@
     \addlyrics {}
 
     \header {
-      title = \titleFunc #'ref_desc_15 "Марш на светлите сили" "Marš na svetlite sili  – Marsch der lichen Mächte"
+      title = \titleFunc #'ref_desc_16 "Марш на светлите сили" "Marš na svetlite sili  – Marsch der lichen Mächte"
     }
 
     \midi{}

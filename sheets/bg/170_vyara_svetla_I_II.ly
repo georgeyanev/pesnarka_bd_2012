@@ -120,7 +120,7 @@
         ду -- ха, що жи -- вот но -- си.}
 
         \header {
-          title = \titleFunc #'ref_desc_16 "Вяра светла II " "Vjara svetla II "
+          title = \titleFunc #'ref_desc_15 "Вяра светла II " "Vjara svetla II "
         }
 
         \midi{}

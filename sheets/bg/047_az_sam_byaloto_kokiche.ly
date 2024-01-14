@@ -68,7 +68,7 @@
       Всич -- ко жи -- во да се чу -- ди,
       че съм ран -- но цве -- те.}
         \header {
-          title = \titleFunc #'ref_desc_2 "Аз съм бялото кокиче" "Az săm bjaloto kokiče"
+          title = \titleFunc #'ref_desc_1 "Аз съм бялото кокиче" "Az săm bjaloto kokiče"
         }
 
         \midi{}

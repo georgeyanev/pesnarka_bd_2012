@@ -80,7 +80,7 @@
       се про -- я -- ви. из -- я -- ви.}
 
       \header {
-        title = \titleFunc #'ref_desc_16 "Да бих Тe слушал " "Da bih Te slušal"
+        title = \titleFunc #'ref_desc_15 "Да бих Тe слушал " "Da bih Te slušal"
       }
 
       \midi{}
@@ -120,7 +120,7 @@
         шам.}
 
         \header {
-          title = \titleFunc #'ref_desc_16 "Слушам" "Slušam"
+          title = \titleFunc #'ref_desc_19 "Слушам" "Slušam"
         }
 
         \midi{}
@@ -190,7 +190,7 @@
           Ко -- зре -- е.}
 
           \header {
-            title = \titleFunc #'ref_desc_16 "Писмото" "Pismoto"
+            title = \titleFunc #'ref_desc_19 "Писмото" "Pismoto"
           }
 
           \midi{}

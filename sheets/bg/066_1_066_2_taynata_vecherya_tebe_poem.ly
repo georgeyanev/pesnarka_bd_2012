@@ -116,7 +116,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_3 "Тебе поем" "Tebe poem"
+      title = \titleFunc #'ref_desc_4 "Тебе поем" "Tebe poem"
     }
 
     \midi{}

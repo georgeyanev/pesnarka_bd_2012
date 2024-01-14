@@ -50,7 +50,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_10 "Бершид ба" "Beršid ba"
+      title = \titleFunc #'ref_desc_5 "Бершид ба" "Beršid ba"
     }
 
     \midi{}

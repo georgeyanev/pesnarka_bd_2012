@@ -70,7 +70,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_4 " Песен на гласните букви" "Pesen na glasnite bukvi"
+      title = \titleFunc #'ref_desc_2 " Песен на гласните букви" "Pesen na glasnite bukvi"
     }
 
     \midi{}

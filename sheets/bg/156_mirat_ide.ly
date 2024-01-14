@@ -149,7 +149,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_14 "Мирът иде" "Mirăt ide  –  Der Frieden kommt"
+      title = \titleFunc #'ref_desc_17 "Мирът иде" "Mirăt ide  –  Der Frieden kommt"
     }
 
     \midi{}

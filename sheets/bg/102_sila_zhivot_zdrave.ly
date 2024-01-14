@@ -68,7 +68,7 @@
       -- но. Слу -- но.}
 
       \header {
-        title = \titleFunc #'ref_desc_11 "Сила, живот, здраве" "Sila, Život, zdrave"
+        title = \titleFunc #'ref_desc_12 "Сила, живот, здраве" "Sila, Život, zdrave"
       }
 
       \midi{}

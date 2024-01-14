@@ -158,7 +158,7 @@
       }
 
       \header {
-        title = \titleFunc #'ref_desc_15 "Радост за душата" "Radost za dušata"
+        title = \titleFunc #'ref_desc_19 "Радост за душата" "Radost za dušata"
       }
 
       \midi{}

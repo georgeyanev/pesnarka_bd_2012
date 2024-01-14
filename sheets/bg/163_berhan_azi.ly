@@ -106,7 +106,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_15 "Берхан-Ази" "Berhan-Azi"
+      title = \titleFunc #'ref_desc_14 "Берхан-Ази" "Berhan-Azi"
     }
     \midi { }
   } % score

@@ -70,7 +70,7 @@
       де, дой -- де, __ о -- ти -- де, дой -- де, __ о -- ти
       -- де, дой -- де, __ дой -- де. __}
       \header {
-        title = \titleFunc #'ref_desc_8 "Вечер, сутрин" "Večer, sutrin"
+        title = \titleFunc #'ref_desc_7 "Вечер, сутрин" "Večer, sutrin"
       }
 
       \midi{}
@@ -159,7 +159,7 @@
         ка, но от Бо -- га се ро -- ди -- ха.}
 
         \header {
-          title = \titleFunc #'ref_desc_8 "Имаше человек" "Imaše čelovek"
+          title = \titleFunc #'ref_desc_9 "Имаше человек" "Imaše čelovek"
         }
 
         \midi{}

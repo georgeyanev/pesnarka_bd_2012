@@ -162,7 +162,7 @@
       път на "Лю-" -- "бов-" -- та“.}
 
       \header {
-        title = \titleFunc #'ref_desc_17 "Гласът на Живия Господ – Новото Възкресение" " Glasăt na Živija Gospod – Novoto Văzkresenie"
+        title = \titleFunc #'ref_desc_15 "Гласът на Живия Господ – Новото Възкресение" " Glasăt na Živija Gospod – Novoto Văzkresenie"
       }
 
       \midi{}

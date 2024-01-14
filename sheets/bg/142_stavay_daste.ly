@@ -130,7 +130,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_14 "Ставай, дъще!" "Stavaj, dăšte!"
+      title = \titleFunc #'ref_desc_13 "Ставай, дъще!" "Stavaj, dăšte!"
     }
 
     \midi{}

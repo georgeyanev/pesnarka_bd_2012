@@ -151,7 +151,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_13 "Духай, ветре" "Duhaj, vetre"
+      title = \titleFunc #'ref_desc_8 "Духай, ветре" "Duhaj, vetre"
     }
 
     \midi{}

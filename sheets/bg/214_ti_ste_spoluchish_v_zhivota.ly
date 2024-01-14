@@ -54,7 +54,7 @@
     }
 
     \header {
-      title = \titleFunc "Ти ще сполучиш в живота" "Ti šte spolučiš v Života"
+      title = \titleFunc #'ref_desc_19 "Ти ще сполучиш в живота" "Ti šte spolučiš v Života"
     }
 
     \midi{}

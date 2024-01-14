@@ -84,7 +84,7 @@
       бов съ -- бу -- ди.}
 
       \header {
-        title = \titleFunc #'ref_desc_7 "В зорите на живота" "V zorite na Života"
+        title = \titleFunc #'ref_desc_6 "В зорите на живота" "V zorite na Života"
       }
 
       \midi{}

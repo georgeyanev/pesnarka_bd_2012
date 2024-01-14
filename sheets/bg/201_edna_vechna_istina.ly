@@ -61,7 +61,7 @@
       ю.}
 
       \header {
-        title = \titleFunc #'ref_desc_18 "Една вечна Истина, която е Бог на Любовта" "Edna večna Istina, kojato e Bog na Ljubovta"
+        title = \titleFunc #'ref_desc_16 "Една вечна Истина, която е Бог на Любовта" "Edna večna Istina, kojato e Bog na Ljubovta"
         subtitle = \markup \normal-text \huge "(медитация)"
       }
 

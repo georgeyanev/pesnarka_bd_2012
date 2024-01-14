@@ -60,7 +60,7 @@
       ну ил -- би -- ют. Би -- ют, Би -- ют, Би -- ют. __}
 
       \header {
-        title = \titleFunc #'ref_desc_18 "Вътрешният глас на Бога " "Vătrešnijat glas na Boga"
+        title = \titleFunc #'ref_desc_15 "Вътрешният глас на Бога " "Vătrešnijat glas na Boga"
         subtitle = \markup \normal-text \huge "(медитация)"
 
       }

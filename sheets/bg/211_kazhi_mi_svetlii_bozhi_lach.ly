@@ -144,7 +144,7 @@
       -- вят __  чрез ме -- не.}
 
       \header {
-        title = \titleFunc "Кажи ми, светли Божи лъч II  " "Kaži mi svetli, Boži lăč II"
+        title = \titleFunc #'ref_desc_16 "Кажи ми, светли Божи лъч II  " "Kaži mi svetli, Boži lăč II"
       }
 
       \midi{}
