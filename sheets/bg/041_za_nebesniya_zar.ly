@@ -6,7 +6,7 @@
 \bookpart {
 
   \label #'ref041
-  \tocItem \markup "За небесния Цар"
+  \tocItem \markup "За Небесния Цар"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -47,7 +47,7 @@
       лю -- бов, лю -- бов, лю -- бов.}
 
       \header {
-        title = \titleFunc "За небесния Цар" "Za Nebesnija car"
+        title = \titleFunc "За Небесния Цар" "Za Nebesnija car"
       }
 
       \midi{}
