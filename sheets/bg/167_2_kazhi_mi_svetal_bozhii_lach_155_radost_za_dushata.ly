@@ -170,7 +170,7 @@
       \hspace #15
       \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
       \column {
-        \line {   2. Радост, радост за душата носи Светлината. }
+        \line {   2. Радост, радост за душата носи светлината. }
         \line {   "   "  Светли бъдете като звездите,}
         \line {   "   "   светли бъдете като слънцата. }
 
