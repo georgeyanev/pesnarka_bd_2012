@@ -1053,7 +1053,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref200 \bold "Вътрешният глас на Бога."} Дадена на 21 януари 1943 г. от Учителят на Лиляна Табакова. Според нея, Учителят казал: „Тези думи са на ватански език. Означават: \italic"Люби" \italic"и" \italic"свободен "\italic"бъди."\italic"Слушай"\italic"вътрешния" \italic"глас" \italic"на" \italic"Бога." \italic"Върви" \italic"напред" \italic"и" \italic"не" \italic"се" \italic"колебай" \italic"в" \italic"пътя" \italic"си“."
+          \concat {\with-link #'ref200 \bold "Вътрешният глас на Бога."} Дадена на 21 януари 1943 г. от Учителя на Лиляна Табакова. Според нея, Учителят казал: „Тези думи са на ватански език. Означават: \italic"Люби" \italic"и" \italic"свободен "\italic"бъди."\italic"Слушай"\italic"вътрешния" \italic"глас" \italic"на" \italic"Бога." \italic"Върви" \italic"напред" \italic"и" \italic"не" \italic"се" \italic"колебай" \italic"в" \italic"пътя" \italic"си“."
         }
       }
       \vspace #0.5
