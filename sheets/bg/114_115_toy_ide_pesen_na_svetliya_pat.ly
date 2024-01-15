@@ -103,7 +103,7 @@
     }
 
     \header {
-      title = \titleFunc "Той иде" "Toj ide"
+      title = \titleFunc #'ref_desc_13 "Той иде" "Toj ide"
     }
 
     \midi{}
@@ -156,7 +156,7 @@
     }
 
     \header {
-      title = \titleFunc "Песен на светлия път" "Pesen na svetlija păt"
+      title = \titleFunc #'ref_desc_11 "Песен на светлия път" "Pesen na svetlija păt"
     }
 
     \midi{}

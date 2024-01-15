@@ -40,7 +40,7 @@
       но -- сиш ми жи -- вот бла -- жен. __ }
 
         \header {
-          title = \titleFunc "Изгрей ти, мое Слънце" "Izgrej ti, moe Slănce"
+          title = \titleFunc #'ref_desc_2 "Изгрей ти, мое Слънце" "Izgrej ti, moe Slănce"
         }
 
         \midi{}

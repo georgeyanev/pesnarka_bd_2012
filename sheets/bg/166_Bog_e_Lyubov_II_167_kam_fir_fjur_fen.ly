@@ -131,14 +131,14 @@
       Лю -- бов.}
 
       \header {
-        title = \titleFunc "Бог е Любов II" "Bog e Ljubov II"
+        title = \titleFunc #'ref_desc_14 "Бог е Любов II" "Bog e Ljubov II"
       }
 
       \midi{}
 
     } % score
     \label #'ref167
-    \tocItem \markup "Към Фир-фюр-фен"
+    \tocItem \markup "Към „Фир-фюр-фен“"
     \include "include/bookpart-paper.ily"
     \score {
       \include "include/score-layout.ily"
@@ -168,7 +168,7 @@
         фен Тао -- би Aу -- мен.}
 
         \header {
-          title = \titleFunc "Към Фир-фюр-фен" "Kăm Fir-fjur-fen  – Zu Fir-fjur-fen"
+          title = \titleFunc #'ref_desc_17 "Към „Фир-фюр-фен“" "Kăm Fir-fjur-fen  – Zu Fir-fjur-fen"
         }
 
         \midi{}

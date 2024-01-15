@@ -43,7 +43,7 @@
     }
 
     \header {
-      title = \titleFunc "Нева санзу" "Neva sanzu"
+      title = \titleFunc #'ref_desc_10 "Нева санзу" "Neva sanzu"
     }
 
     \midi{}

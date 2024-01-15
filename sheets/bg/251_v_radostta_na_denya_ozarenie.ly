@@ -135,7 +135,7 @@
       -- зи ден бла -- го -- сло -- вен.}
 
       \header {
-        title = \titleFunc "Мелодия 2 – В радостта на деня" " Melodija 2 – V radostta na denja"
+        title = \titleFunc #'ref_desc_20 "Мелодия 2 – В радостта на деня" " Melodija 2 – V radostta na denja"
       }
 
       \midi{}
@@ -208,7 +208,7 @@
         спир.}
 
         \header {
-          title = \titleFunc "Мелодия 4 – Озарение" "Melodija – Ozarenie"
+          title = \titleFunc #'ref_desc_20 "Мелодия 4 – Озарение" "Melodija – Ozarenie"
         }
 
         \midi{}

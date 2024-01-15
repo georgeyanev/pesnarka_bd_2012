@@ -113,7 +113,7 @@
     }
 
     \header {
-      title = \titleFunc "Химн на Великата душа" "Himn na velikata Dusha"
+      title = \titleFunc #'ref_desc_14 "Химн на Великата душа" "Himn na velikata Dusha"
     }
 
     \midi{}

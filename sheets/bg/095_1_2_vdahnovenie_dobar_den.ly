@@ -42,7 +42,7 @@
     }
 
     \header {
-      title = \titleFunc "Вдъхновение" "Vdahnovenie"
+      title = \titleFunc #'ref_desc_6 "Вдъхновение" "Vdahnovenie"
     }
 
     \midi{}
@@ -122,7 +122,7 @@
     }
 
     \header {
-      title = \titleFunc "Добър ден" "Dobăr den"
+      title = \titleFunc #'ref_desc_8 "Добър ден" "Dobăr den"
     }
 
     \midi{}

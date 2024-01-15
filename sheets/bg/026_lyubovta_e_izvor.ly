@@ -34,7 +34,7 @@
     }
 
     \header {
-      title = \titleFunc "Любовта е извор" "Ljubovta e izvor"
+      title = \titleFunc #'ref_desc_2 "Любовта е извор" "Ljubovta e izvor"
     }
 
     \midi{}

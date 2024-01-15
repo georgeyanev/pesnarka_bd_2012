@@ -140,7 +140,7 @@
     }
 
     \header {
-      title = \titleFunc "Ме-хейн" "Me-hejn"
+      title = \titleFunc #'ref_desc_17 "Ме-хейн" "Me-hejn"
     }
 
     \midi{}
@@ -212,7 +212,7 @@
     }
 
     \header {
-      title = \titleFunc "Ме-хейн II" "Me-hejn II"
+      title = \titleFunc #'ref_desc_17 "Ме-хейн II" "Me-hejn II"
     }
 
     \midi{}

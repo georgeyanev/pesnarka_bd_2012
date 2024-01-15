@@ -11,7 +11,7 @@
   \include "include/bookpart-paper.ily"
   \markup \center-column \normal-text \fontsize #6.5 {
     \center-align
-    \line { "     Новото Битие – Създаването на новия Адам" }
+    \line { \with-link #'ref_desc_18 "     Новото Битие – Създаването на новия Адам" }
     \center-align
 
     \vspace #-0.1
@@ -93,7 +93,7 @@
       ста -- на ут -- ро, пър -- ви ден.}
 
       \header {
-        title = \titleFunc "Първи Божествен ден" "Părvi Božestven den"
+        title = \titleFunc #'ref_desc_18 "Първи Божествен ден" "Părvi Božestven den"
       }
 
       \midi{}
@@ -172,7 +172,7 @@
         вто -- ри ден.}
 
         \header {
-          title = \titleFunc "Втори Божествен ден" "Vtori Božestven den"
+          title = \titleFunc #'ref_desc_18 "Втори Божествен ден" "Vtori Božestven den"
         }
 
         \midi{}
@@ -286,7 +286,7 @@
           ро, тре -- ти ден.}
 
           \header {
-            title = \titleFunc "Трети Божествен ден" "Treti Božestven den"
+            title = \titleFunc #'ref_desc_18 "Трети Божествен ден" "Treti Božestven den"
           }
 
           \midi{}
@@ -380,7 +380,7 @@
             ут -- ро, ден чет -- вър -- ти.}
 
             \header {
-              title = \titleFunc " Четвърти Божествен ден" "Četvărti Božestven den"
+              title = \titleFunc #'ref_desc_18 " Четвърти Божествен ден" "Četvărti Božestven den"
             }
 
             \midi{}
@@ -478,7 +478,7 @@
               ти ден.}
 
               \header {
-                title = \titleFunc "Пети Божествен ден" "Peti Božestven den"
+                title = \titleFunc #'ref_desc_18 "Пети Божествен ден" "Peti Božestven den"
               }
 
               \midi{}
@@ -678,7 +678,7 @@
               }
 
               \header {
-                title = \titleFunc " Шести Божествен ден" "Šesti Božestven den"
+                title = \titleFunc #'ref_desc_18 " Шести Божествен ден" "Šesti Božestven den"
               }
 
               \midi{}
@@ -769,7 +769,7 @@
                 А -- у -- мен!}
 
                 \header {
-                  title = \titleFunc " Седми Божествен ден" "Sedmi Božestven den"
+                  title = \titleFunc #'ref_desc_18 " Седми Божествен ден" "Sedmi Božestven den"
                 }
 
                 \midi{}

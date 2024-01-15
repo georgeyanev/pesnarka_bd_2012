@@ -70,7 +70,7 @@
       да!}
 
       \header {
-        title = \titleFunc "Правда" "Pravda"
+        title = \titleFunc #'ref_desc_11 "Правда" "Pravda"
       }
 
       \midi{}

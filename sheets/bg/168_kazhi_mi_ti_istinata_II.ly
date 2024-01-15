@@ -99,7 +99,7 @@
       -- я -- та ду -- ша.}
 
       \header {
-        title = \titleFunc "Кажи ми Ти Истината II" "Kaži mi Ti Istinata II"
+        title = \titleFunc #'ref_desc_16 "Кажи ми Ти Истината II" "Kaži mi Ti Istinata II"
       }
 
       \midi{}

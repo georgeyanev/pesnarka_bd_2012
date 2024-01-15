@@ -29,7 +29,7 @@
     }
 
     \header {
-      title = \titleFunc "Аум" "Aum"
+      title = \titleFunc #'ref_desc_4 "Аум" "Aum"
     }
 
     \midi{}
@@ -100,7 +100,7 @@
       две. __}
 
       \header {
-        title = \titleFunc "Сила жива" "Sila živa"
+        title = \titleFunc #'ref_desc_12 "Сила жива" "Sila živa"
       }
 
       \midi{}

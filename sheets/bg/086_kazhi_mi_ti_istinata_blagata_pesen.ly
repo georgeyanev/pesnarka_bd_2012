@@ -32,7 +32,7 @@
     }
 
     \header {
-      title = \titleFunc "Кажи ми Ти Истината" "Kaži mi Ti Istinata"
+      title = \titleFunc #'ref_desc_9 "Кажи ми Ти Истината" "Kaži mi Ti Istinata"
     }
 
     \midi{}
@@ -75,7 +75,7 @@
     }
 
     \header {
-      title = \titleFunc "Благата песен" "Blagata pesen"
+      title = \titleFunc #'ref_desc_5 "Благата песен" "Blagata pesen"
     }
 
     \midi{}

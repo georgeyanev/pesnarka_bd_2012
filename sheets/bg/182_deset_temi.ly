@@ -88,7 +88,7 @@
     %    \addlyrics {}
 
     \header {
-      title = \titleFunc "Десет теми" "Deset temi  –  Zehn Themen"
+      title = \titleFunc #'ref_desc_17 "Десет теми" "Deset temi  –  Zehn Themen"
     }
 
     \midi{}
@@ -457,7 +457,7 @@
     \midi{}
 
     \header {
-      title = \titleFunc "Музикален момент" "Muzikalen moment  – Musikalischer Moment"
+      title = \titleFunc #'ref_desc_17 "Музикален момент" "Muzikalen moment  – Musikalischer Moment"
     }
 
   } % score

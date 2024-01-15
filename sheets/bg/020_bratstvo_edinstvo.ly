@@ -48,7 +48,7 @@
     }
 
     \header {
-      title = \titleFunc " Братство, единство " "Bratstvo, edinstvo"
+      title = \titleFunc #'ref_desc_1 " Братство, единство " "Bratstvo, edinstvo"
     }
 
     \midi{}

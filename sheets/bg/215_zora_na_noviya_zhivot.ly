@@ -63,7 +63,7 @@
       жи -- вот.}
 
       \header {
-        title = \titleFunc "Зора на новия живот" "Zora na Novija život"
+        title = \titleFunc #'ref_desc_16 "Зора на новия живот" "Zora na Novija život"
       }
 
       \midi{}

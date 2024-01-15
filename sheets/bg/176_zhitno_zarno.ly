@@ -105,7 +105,7 @@
       Кол -- ко "ху-" -- бав е жи -- во -- тът, то -- га -- ва си ка -- зах.}
 
       \header {
-        title = \titleFunc "Житно зърно" "Žitno zărno"
+        title = \titleFunc #'ref_desc_16 "Житно зърно" "Žitno zărno"
       }
 
       \midi{}

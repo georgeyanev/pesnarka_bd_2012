@@ -66,7 +66,7 @@
     }
 
     \header {
-      title = \titleFunc "В начало бе Словото" "V načalo be Slovoto"
+      title = \titleFunc #'ref_desc_6 "В начало бе Словото" "V načalo be Slovoto"
     }
 
     \midi{}

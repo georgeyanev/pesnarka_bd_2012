@@ -170,7 +170,7 @@
     }
 
     \header {
-      title = \titleFunc "Химн на Слънцето" "Himn na Slănceto"
+      title = \titleFunc #'ref_desc_20 "Химн на Слънцето" "Himn na Slănceto"
     }
 
     \midi{}
@@ -318,7 +318,7 @@
       -- мин. Та -- ка да бъ -- де.}
 
       \header {
-        title = \titleFunc "Молитва" "Molitva"
+        title = \titleFunc #'ref_desc_18 "Молитва" "Molitva"
       }
 
       \midi{}

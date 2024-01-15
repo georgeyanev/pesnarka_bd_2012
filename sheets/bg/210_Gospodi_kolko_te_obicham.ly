@@ -153,7 +153,7 @@
       чам Те, Гос -- по -- ди! __}
 
       \header {
-        title = \titleFunc "Господи, колко те обичам" "Gospodi, kolko te običam"
+        title = \titleFunc #'ref_desc_15 "Господи, колко те обичам" "Gospodi, kolko te običam"
       }
 
       \midi{}

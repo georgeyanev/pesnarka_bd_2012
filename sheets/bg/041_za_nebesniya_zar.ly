@@ -47,7 +47,7 @@
       лю -- бов, лю -- бов, лю -- бов.}
 
       \header {
-        title = \titleFunc "За Небесния Цар" "Za Nebesnija car"
+        title = \titleFunc #'ref_desc_1 "За Небесния Цар" "Za Nebesnija car"
       }
 
       \midi{}

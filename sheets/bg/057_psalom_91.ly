@@ -44,7 +44,7 @@
     }
 
     \header {
-      title = \titleFunc "Псалом 91" "Psalоm 91"
+      title = \titleFunc #'ref_desc_3 "Псалом 91" "Psalоm 91"
     }
 
     \midi{}

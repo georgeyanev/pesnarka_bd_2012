@@ -91,7 +91,7 @@
     }
 
     \header {
-      title = \titleFunc "Буря" "Burja"
+      title = \titleFunc #'ref_desc_6 "Буря" "Burja"
     }
 
     \midi{}

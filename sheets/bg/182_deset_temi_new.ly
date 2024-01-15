@@ -88,7 +88,7 @@
     %    \addlyrics {}
 
     \header {
-      title = \titleFunc "Десет теми" "Deset temi  –  Zehn Themen"
+      title = \titleFunc #'ref_desc_15 "Десет теми" "Deset temi  –  Zehn Themen"
     }
 
     \midi{}
@@ -507,7 +507,7 @@
     \addlyrics {}
 
     \header {
-      title = \titleFunc "Вариации" "Zaglavie"
+      title = \titleFunc #'ref_desc_15 "Вариации" "Zaglavie"
     }
 
     \midi{}

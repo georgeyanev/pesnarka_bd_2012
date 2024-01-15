@@ -79,7 +79,7 @@
       шла.}
 
       \header {
-        title = \titleFunc "Пролетна песен" "Proletna pesen"
+        title = \titleFunc #'ref_desc_19 "Пролетна песен" "Proletna pesen"
       }
 
       \midi{}

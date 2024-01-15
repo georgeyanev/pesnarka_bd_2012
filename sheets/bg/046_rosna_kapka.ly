@@ -60,7 +60,7 @@
     }
 
     \header {
-      title = \titleFunc "Росна капка" "Rosna kapka"
+      title = \titleFunc #'ref_desc_3 "Росна капка" "Rosna kapka"
     }
 
     \midi{}

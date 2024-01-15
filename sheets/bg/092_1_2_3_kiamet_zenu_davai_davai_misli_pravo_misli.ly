@@ -39,7 +39,7 @@
     }
 
     \header {
-      title = \titleFunc "Киамет Зену" "Kiamet Zenu"
+      title = \titleFunc #'ref_desc_9 "Киамет Зену" "Kiamet Zenu"
     }
 
     \midi{}
@@ -99,7 +99,7 @@
     }
 
     \header {
-      title = \titleFunc "Давай, давай" "Davaj, davaj"
+      title = \titleFunc #'ref_desc_8 "Давай, давай" "Davaj, davaj"
     }
 
     \midi{}
@@ -153,7 +153,7 @@
     }
 
     \header {
-      title = \titleFunc "Мисли, право мисли" "Misli, pravo misli"
+      title = \titleFunc #'ref_desc_10 "Мисли, право мисли" "Misli, pravo misli"
     }
 
     \midi{}

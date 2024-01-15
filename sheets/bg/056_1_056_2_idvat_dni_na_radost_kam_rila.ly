@@ -23,12 +23,12 @@
 
     \addlyrics {
       Ид -- ват дни на ра -- дост, ид -- ват дни на
-    ра -- дост, ид -- ват дни на ра -- дост
+      ра -- дост, ид -- ват дни на ра -- дост
       за о -- ни -- я, ко -- и -- то слу -- жат Бо -- гу.
     }
 
     \header {
-      title = \titleFunc "  Идват дни на радост" "Idvat dni na radost"
+      title = \titleFunc #'ref_desc_2 "  Идват дни на радост" "Idvat dni na radost"
     }
 
     \midi{}
@@ -67,7 +67,7 @@
     }
 
     \header {
-      title = \titleFunc "Към Рила" "Kăm Rila"
+      title = \titleFunc #'ref_desc_2 "Към Рила" "Kăm Rila"
     }
 
     \midi{}

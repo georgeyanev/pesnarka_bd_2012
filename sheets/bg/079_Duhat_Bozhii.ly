@@ -69,7 +69,7 @@
     }
 
     \header {
-      title = \titleFunc "Духът Божи" "Duhăt Božij"
+      title = \titleFunc #'ref_desc_8 "Духът Божи" "Duhăt Božij"
     }
 
     \midi{}

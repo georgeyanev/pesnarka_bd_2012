@@ -55,7 +55,7 @@
     }
 
     \header {
-      title = \titleFunc "Благославяй" "Blagoslavjaj"
+      title = \titleFunc #'ref_desc_1 "Благославяй" "Blagoslavjaj"
     }
 
     \midi{}
