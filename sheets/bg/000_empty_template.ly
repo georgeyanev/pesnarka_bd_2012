@@ -20,7 +20,7 @@
     \addlyrics {}
 
     \header {
-      title = \titleFunc "Заглавие" "Zaglavie"
+      title = \titleFunc #'ref "Заглавие" "Zaglavie"
     }
 
     \midi{}
