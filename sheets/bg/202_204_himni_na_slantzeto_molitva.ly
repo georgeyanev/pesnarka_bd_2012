@@ -170,7 +170,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_19 "Химн на Слънцето" "Himn na Slănceto"
+      title = \titleFunc #'ref_desc_20 "Химн на Слънцето" "Himn na Slănceto"
     }
 
     \midi{}

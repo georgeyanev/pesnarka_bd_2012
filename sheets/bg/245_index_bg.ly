@@ -121,7 +121,7 @@
       \with-link #'ref103 \fill-with-pattern #1 #RIGHT . "Красив е животът" \page-ref #'ref103 "000" "?"
       \with-link #'ref056_2 \fill-with-pattern #1 #RIGHT . "Към Рила" \page-ref #'ref056_2 "000" "?"
       \with-link #'ref054 \fill-with-pattern #1 #RIGHT . "Към Сион" \page-ref #'ref054 "000" "?"
-      \with-link #'ref167 \fill-with-pattern #1 #RIGHT . "Към Фир-фюр-фен" \page-ref #'ref167 "000" "?"
+      \with-link #'ref167 \fill-with-pattern #1 #RIGHT . "Към „Фир-фюр-фен“" \page-ref #'ref167 "000" "?"
       \with-link #'ref026 \fill-with-pattern #1 #RIGHT . "Любовта е извор" \page-ref #'ref026 "000" "?"
       \with-link #'ref173 \fill-with-pattern #1 #RIGHT . "Малката буболечица" \page-ref #'ref173 "000" "?"
       \with-link #'ref099 \fill-with-pattern #1 #RIGHT . "Малкият извор (Светъл лъч)" \page-ref #'ref099 "000" "?"

@@ -138,7 +138,7 @@
 
     } % score
     \label #'ref167
-    \tocItem \markup "Към Фир-фюр-фен"
+    \tocItem \markup "Към „Фир-фюр-фен“"
     \include "include/bookpart-paper.ily"
     \score {
       \include "include/score-layout.ily"
@@ -168,7 +168,7 @@
         фен Тао -- би Aу -- мен.}
 
         \header {
-          title = \titleFunc #'ref_desc_16 "Към Фир-фюр-фен" "Kăm Fir-fjur-fen  – Zu Fir-fjur-fen"
+          title = \titleFunc #'ref_desc_17 "Към „Фир-фюр-фен“" "Kăm Fir-fjur-fen  – Zu Fir-fjur-fen"
         }
 
         \midi{}

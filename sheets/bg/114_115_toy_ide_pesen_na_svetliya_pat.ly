@@ -156,7 +156,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_12 "Песен на светлия път" "Pesen na svetlija păt"
+      title = \titleFunc #'ref_desc_11 "Песен на светлия път" "Pesen na svetlija păt"
     }
 
     \midi{}

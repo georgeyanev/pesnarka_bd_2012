@@ -65,7 +65,7 @@
       във из -- ку -- ше -- ни -- е.}
 
       \header {
-        title = \titleFunc #'ref_desc_18 "Отче наш, не ни въвеждай в изкушение" "Otče naš, ne ni văveždaj v izkušenie"
+        title = \titleFunc #'ref_desc_19 "Отче наш, не ни въвеждай в изкушение" "Otče naš, ne ni văveždaj v izkušenie"
       }
 
       \midi{}

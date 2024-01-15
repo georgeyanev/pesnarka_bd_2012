@@ -82,7 +82,7 @@
       ти -- те ду -- ши.}
 
       \header {
-        title = \titleFunc #'ref_desc_15 "Кажи ми, светли Божи лъч" "Kaži mi, svetli Boži lăč"
+        title = \titleFunc #'ref_desc_16 "Кажи ми, светли Божи лъч" "Kaži mi, svetli Boži lăč"
       }
 
       \midi{}

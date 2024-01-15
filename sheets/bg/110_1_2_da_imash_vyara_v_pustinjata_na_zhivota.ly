@@ -108,7 +108,7 @@
         рой, све -- ти -- я го зо -- ват. __}
 
         \header {
-          title = \titleFunc #'ref_desc_11 "В пустинята на живота" "V pustinjata na života"
+          title = \titleFunc #'ref_desc_6 "В пустинята на живота" "V pustinjata na života"
         }
 
         \midi{}

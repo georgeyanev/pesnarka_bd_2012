@@ -156,7 +156,7 @@
         да ди -- шам ве -- че до -- бре. Аз  бре.}
 
         \header {
-          title = \titleFunc #'ref_desc_16 "Аз мога да дишам " "Az moga da dišam"
+          title = \titleFunc #'ref_desc_14 "Аз мога да дишам " "Az moga da dišam"
         }
 
         \midi{}

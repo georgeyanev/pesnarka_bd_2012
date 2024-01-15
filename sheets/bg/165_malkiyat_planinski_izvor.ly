@@ -118,7 +118,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_16 "Малкият планински извор" "Malkijat planinski izvor"
+      title = \titleFunc #'ref_desc_17 "Малкият планински извор" "Malkijat planinski izvor"
     }
 
     \midi{}
