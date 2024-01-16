@@ -228,7 +228,7 @@
     \addlyrics {}
 
     \header {
-      title = \titleFunc #'ref_desc_14 "Българска идилия" "Balgarska idiliya"
+      title = \titleFunc #'ref_desc_15 "Българска идилия" "Balgarska idiliya"
     }
     \midi{}
 

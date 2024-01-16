@@ -120,7 +120,7 @@
         шам.}
 
         \header {
-          title = \titleFunc #'ref_desc_19 "Слушам" "Slušam"
+          title = \titleFunc #'ref_desc_20 "Слушам" "Slušam"
         }
 
         \midi{}
