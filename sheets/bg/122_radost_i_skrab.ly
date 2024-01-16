@@ -69,7 +69,7 @@
     % adjust space between staff and lyrics and between the two lyric lines
     \Lyrics
     \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
-                                                                    (minimum-distance . 5)
+                                                                    (minimum-distance . 5.1)
                                                                     )
     \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'(
                                                                 (minimum-distance . 2)
