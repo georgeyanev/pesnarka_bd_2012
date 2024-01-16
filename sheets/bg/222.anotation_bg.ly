@@ -46,9 +46,9 @@
   \markup \fontsize  #+3.5 { \fill-line \bold {"Редактор" }}
   \markup \fontsize  #+3.0 { \fill-line {"Петър Ганев"} }
   \markup { {  \vspace #2.0 } }
-  \markup \fontsize  #+2 { \fill-line \bold {"Консултант"} }
-  \markup \fontsize  #+1.5 { \fill-line  {"Иоана Стратева"} }
-  \markup { {  \vspace #0.5 } }
+  %\markup \fontsize  #+2 { \fill-line \bold {"Консултант"} }
+  %\markup \fontsize  #+1.5 { \fill-line  {"Иоана Стратева"} }
+  % \markup { {  \vspace #0.5 } }
   \markup \fontsize  #+2 { \fill-line \bold {"Коректор на нотния текст"} }
   \markup \fontsize  #+1.5 { \fill-line  {"Райнхард Риддер"} }
   \markup { {  \vspace #0.5 } }
