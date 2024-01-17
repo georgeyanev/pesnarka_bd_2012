@@ -8,6 +8,7 @@
         \omit BarNumber %remove bar numbers
         \override KeySignature.X-offset = #-1.2 %
          \override MetronomeMark.font-size = #1.5
+         \override TupletNumber.font-size = #0.4 % increase the triol number
 
         
       } % context
