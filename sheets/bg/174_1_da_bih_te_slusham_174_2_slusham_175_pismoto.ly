@@ -197,7 +197,7 @@
           \context {
             % adjust space between staff and lyrics and between the two lyric lines
             \Lyrics
-            \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((padding . 0.7))
+            \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((padding . 0.6))
             \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
             includeGraceNotes = ##t
           }
