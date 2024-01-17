@@ -49,7 +49,7 @@
 
       \partial 8
       d'8 | % 2
-      a'4. g'8 \once \omit TupletBracket \tuplet 3/2 {
+      a'4. g'8 \tuplet 3/2 {
         g'8 ( [ fis'8 ])  g'8
       }
       | % 3
@@ -112,8 +112,8 @@
       f''4.  e''4 a'8  | \break
       \time 4/4  | % 35
       a'8 a'8  b'4  c''8 ( [
-      b'8 ) ] 
-      \shape #'((0 . 0) (0 . -1.5) (0 . -1.5) (0 . 0)) Slur 
+      b'8 ) ]
+      \shape #'((0 . 0) (0 . -1.5) (0 . -1.5) (0 . 0)) Slur
       a'8 ( [ gis'8 ) ] | % 36
       a'2 r4 r8 e'8 \bar "||"
       | % 37
@@ -127,7 +127,7 @@
       \time 3/4
       f''2  \autoBeamOff e''8  d''8 |
       \time 4/4
-      \tweak direction #up \once \omit TupletBracket \times 2/3 {
+      \tweak direction #up \times 2/3 {
         \once \override Slur.positions = #'(1 . 1)
         \tempo "         rit." c''8   ( [  b'8 ) ]  a'8
       }
