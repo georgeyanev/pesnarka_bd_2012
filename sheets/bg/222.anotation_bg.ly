@@ -34,7 +34,7 @@
 
   \markup { {  \vspace #7.0 } }
 
-  \markup \fontsize  #+4.5 { \fill-line \bold {"Петър Дънов"} }
+  \markup \fontsize  #+4.5 { \fill-line \bold {"Учителя Петър Дънов"} }
 
   \markup { {  \vspace #0.1 } }
   \markup \fontsize  #+6.5 { \fill-line \bold {"Песни от Учителя"} }
