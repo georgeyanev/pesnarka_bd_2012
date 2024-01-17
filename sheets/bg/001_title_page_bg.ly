@@ -39,7 +39,7 @@
 
 
 
-  \markup \fontsize  #+6.5 {\hspace #25 \bold {"Учителя Петър Дънов"} }
+  \markup \fontsize  #+6.5 {\hspace #25 \bold {"Петър Дънов"} }
 
   \markup {  \vspace #3.5 }
   \markup {
