@@ -65,7 +65,7 @@
   \markup { {  \vspace #0.5 } }
   \markup \fontsize  #+1.5 { \fill-line {"София 2024"} }
   \markup { {  \vspace #3.5 } }
-  \markup \fontsize  #+2 { \fill-line  {"ISBN-10 954-744-076-4"}}
+  \markup \fontsize  #+2 { \fill-line  {"ISMN 979-0-9016674-5-7"}}
 
 
 
