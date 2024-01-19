@@ -41,7 +41,7 @@
 
   \markup \fontsize  #+6.5 {\hspace #25 \bold {"Петър Дънов"} }
 
-  \markup {  \vspace #3.5 }
+  \markup {  \vspace #5.5 }
   \markup {
     \hspace #25
     \column {
@@ -66,14 +66,14 @@
 
     }
   }
-  \markup \fontsize  #+2  { {  \vspace #.5 } }
-  \markup \fontsize  #+3 {\hspace #25 {"Издадени от"} }
-  \markup \fontsize  #+2  { {  \vspace #0.1 } }
-  \markup \fontsize  #+3 { \hspace #25  {"Петър Ганев"} }
+  % \markup \fontsize  #+2  { {  \vspace #.5 } }
+  % \markup \fontsize  #+3 {\hspace #25 {"Издадени от"} }
+  % \markup \fontsize  #+2  { {  \vspace #0.1 } }
+  % \markup \fontsize  #+3 { \hspace #25  {"Петър Ганев" \char ##x00B7 "Мария Кирева" } }
 
 
 
-  \markup \fontsize  #+2  { {  \vspace #8.5 } }
+  \markup \fontsize  #+2  { {  \vspace #9.5 } }
 
   \markup \fontsize  #+4 {\hspace #25 {"Издателство „Бяло Братство“ "} }
   \markup \fontsize  #+2.5  { {  \vspace #0.5 } }
