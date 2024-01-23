@@ -41,11 +41,11 @@
   \markup { {  \vspace #0.1 } }
   \markup \fontsize  #+2.5 { \fill-line \italic {"Четвърто преработено и допълнено издание"} }
 
-  \markup { {  \vspace #1.5 } }
+  \markup { {  \vspace #2.5 } }
 
   \markup \fontsize  #+4.0 { \fill-line \bold {"Редактор" }}
   \markup \fontsize  #+3.5 { \fill-line {"Петър Ганев"} }
-  \markup { {  \vspace #3.0 } }
+  \markup { {  \vspace #2.0 } }
   \markup \fontsize  #+3 { \fill-line \bold {"Консултант"} }
   \markup \fontsize  #+2.5 { \fill-line  {"Иоана Стратева"} }
   \markup { {  \vspace #0.5 } }
@@ -58,7 +58,7 @@
   \markup \fontsize  #+3 { \fill-line \bold {"Набор на нотния текст и дизайн"} }
   \markup \fontsize  #+2.5 { \fill-line  {"Мария Кирева, Георги Янев"} }
   \markup { {  \vspace #0.5 } }
-  \markup \fontsize  #+2.5 { \fill-line \bold {"Издателство „Бяло Братство“"} }
+  \markup \fontsize  #+3 { \fill-line \bold {"Издателство „Бяло Братство“"} }
 
   \markup \fontsize  #+2.5 { \fill-line  {"izdatelstvo.bratstvo@gmail.com"} }
   \markup \fontsize  #+2.5 { \fill-line  {"www.bialobratstvo.bg"} }
