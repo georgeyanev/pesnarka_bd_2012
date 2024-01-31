@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref098
-  \tocItem \markup "Бершид ба"
+  \tocItem \markup "Бершид Ба"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -51,7 +51,7 @@
     }
 
     \header {
-      title = \titleFunc "Бершид ба" "Beršid ba"
+      title = \titleFunc "Бершид Ба" "Beršid ba"
     }
 
     \midi{}

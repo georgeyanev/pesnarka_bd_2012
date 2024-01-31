@@ -47,7 +47,7 @@
       \with-link #'ref075 \fill-with-pattern #1 #RIGHT . "Аум" \page-ref #'ref075 "000" "?"
       \with-link #'ref138 \fill-with-pattern #1 #RIGHT . "Бащина песен" \page-ref #'ref138 "000" "?"
       \with-link #'ref163 \fill-with-pattern #1 #RIGHT . "Берхан-Ази" \page-ref #'ref163 "000" "?"
-      \with-link #'ref098 \fill-with-pattern #1 #RIGHT . "Бершид ба" \page-ref #'ref098 "000" "?"
+      \with-link #'ref098 \fill-with-pattern #1 #RIGHT . "Бершид Ба" \page-ref #'ref098 "000" "?"
       \with-link #'ref074 \fill-with-pattern #1 #RIGHT . "Блага дума" \page-ref #'ref074 "000" "?"
       \with-link #'ref086_2 \fill-with-pattern #1 #RIGHT . "Благата песен" \page-ref #'ref086_2 "000" "?"
       \with-link #'ref024 \fill-with-pattern #1 #RIGHT . "Благославяй" \page-ref #'ref024 "000" "?"
