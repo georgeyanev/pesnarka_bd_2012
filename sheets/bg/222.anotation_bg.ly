@@ -32,7 +32,7 @@
 
   }
 
-  \markup { {  \vspace #6.0 } }
+  \markup { {  \vspace #4.0 } }
 
   \markup \fontsize  #+5 { \fill-line \bold {"Петър Дънов"} }
 
@@ -58,13 +58,16 @@
   \markup \fontsize  #+3 { \fill-line \bold {"Набор на нотния текст и дизайн"} }
   \markup \fontsize  #+2.5 { \fill-line  {"Мария Кирева, Георги Янев"} }
   \markup { {  \vspace #0.5 } }
+  \markup \fontsize  #+3 { \fill-line \bold {"Дизайн на корицата"} }
+  \markup \fontsize  #+2.5 { \fill-line  {"Стоил Вътев"} }
+  \markup { {  \vspace #0.5 } }
   \markup \fontsize  #+3 { \fill-line \bold {"Издателство „Бяло Братство“"} }
 
   \markup \fontsize  #+2.5 { \fill-line  {"izdatelstvo.bratstvo@gmail.com"} }
   \markup \fontsize  #+2.5 { \fill-line  {"www.bialobratstvo.bg"} }
   \markup { {  \vspace #0.5 } }
   \markup \fontsize  #+2.5 { \fill-line {"София 2024"} }
-  \markup { {  \vspace #3.5 } }
+  \markup { {  \vspace #2.5 } }
   \markup \fontsize  #+2.5 { \fill-line  {"ISMN 979-0-9016674-5-7"}}
 
 
