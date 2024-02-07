@@ -36,7 +36,7 @@
   \markup \fontsize  #+3.0 { \fill-line \bold {"ПРЕДГОВОР КЪМ ПЪРВОТО ИЗДАНИЕ"} }
 
   \markup \fontsize #+2.5 {
-    \vspace #1.5 \override #'(baseline-skip . 2.7)
+    \vspace #1.5 \override #'(baseline-skip . 2.8)
     \justify {
 
       Песните в този сборник са въплъщение на малка част от вниманието, любовта и значението, които Учителя отдава на музиката като средство за пробуждане на Божественото съзнание у хората – у тези, които живеят с Неговото слово. Тяхната поява на
@@ -45,7 +45,7 @@
     }
   }
   \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+    \vspace #0.6  \override #'(baseline-skip . 2.8)
     \justify {
       \hspace #1.5
 
@@ -60,7 +60,7 @@
   }
 
   \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+    \vspace #0.6  \override #'(baseline-skip . 2.8)
     \justify {
       \hspace #1.5
       И в първия раздел има много песни, също дадени от Учителя,
@@ -75,7 +75,7 @@
     }
   }
   \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+    \vspace #0.6  \override #'(baseline-skip . 2.8)
     \justify {
       \hspace #1.5
 
@@ -93,7 +93,7 @@
     }
   }
   \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+    \vspace #0.6  \override #'(baseline-skip . 2.8)
     \justify {
       \hspace #1.5
 
@@ -104,7 +104,7 @@
     }
   }
   \markup \fontsize #+2.5 {
-    \vspace #0.6 \override #'(baseline-skip . 2.7)
+    \vspace #0.6 \override #'(baseline-skip . 2.8)
     \justify {
 
 
@@ -115,7 +115,7 @@
 
 
   \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+    \vspace #0.6  \override #'(baseline-skip . 2.8)
     \justify {
       \hspace #1.5
 
@@ -128,7 +128,7 @@
   }
 
   \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+    \vspace #0.6  \override #'(baseline-skip . 2.8)
     \justify {
       \hspace #1.5
       Както всичко, което Учителя дава в работата си със своите
@@ -141,7 +141,7 @@
   }
 
   \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+    \vspace #0.6  \override #'(baseline-skip . 2.8)
     \justify {
       \hspace #1.5
 
@@ -153,7 +153,7 @@
   }
 
   \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+    \vspace #0.6  \override #'(baseline-skip . 2.8)
     \justify {
       \hspace #1.5
       Четците и любителите на тоя вид музика, присъствали при
@@ -168,7 +168,7 @@
   }
 
   \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+    \vspace #0.6  \override #'(baseline-skip . 2.8)
     \justify {
       \hspace #1.5
 
@@ -183,7 +183,7 @@
 
 
 
-  \markup \fontsize #+3 \raise #0 \override #'(baseline-skip . 2.7) {
+  \markup \fontsize #+3 \raise #0 \override #'(baseline-skip . 2.8) {
     \column {
       \line {"  "}
       \line {"  "}
