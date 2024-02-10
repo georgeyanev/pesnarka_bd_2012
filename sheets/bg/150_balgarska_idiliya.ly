@@ -14,7 +14,7 @@
       \clef treble
       \key g \minor
       \time 3/4
-      \tempoFunc "Lento" 4 "50"
+      \tempoFunc "Lento, ad libitum" 4 "50"
       \autoBeamOff
 
       d'4.( \tuplet 3/2 { ees16 [f ees]) } d8.([g16]) | \noBreak
