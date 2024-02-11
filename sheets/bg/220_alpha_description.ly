@@ -262,7 +262,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref055_1 \bold "Слънцето на Любовта."}  Музика и текст: Петко Епитропов.
+          \concat {\with-link #'ref055_1 \bold "Слънцето на Любовта."}  Музика и текст от ученик.
         }
       }
       \vspace #0.5
