@@ -34,7 +34,7 @@
           \override StaffSymbol.thickness = #(magstep -4)
           firstClef = ##f
         }
-        {\autoBeamOff c4. ^\markup { \huge \italic "ossia по М.Т." } b8 b4}
+        {\autoBeamOff c4. ^\markup { \huge \italic "ossia по М. Т." } b8 b4}
       >>
       \break | % 7
       b2 a8  b8 | % 8

@@ -119,7 +119,7 @@
           \override StaffSymbol.thickness = #(magstep -4)
           firstClef = ##f
         }
-        { b'4^\markup { \huge \italic "ossia по М.Тодорова" } c'' | b'4 a' | }
+        { b'4^\markup { \huge \italic "ossia по М. Тодорова" } c'' | b'4 a' | }
       >>
 
 

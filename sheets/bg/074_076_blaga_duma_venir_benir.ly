@@ -13,7 +13,7 @@
       ragged-last = ##f % do spread last line to fill the whole space
       \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
       \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-      
+
 
       \context {
         \Score
@@ -65,7 +65,7 @@
           firstClef = ##f
         }
         {
-          \autoBeamOff  d'8.^\markup { \huge \italic "ossia" \italic "според К. Икономов"}
+          \autoBeamOff  d'8.^\markup { \huge \italic "ossia според К. Икономов"}
 
           d'16 g'8. g'16 g'8. a'16 b'4 b'4 |
         }
