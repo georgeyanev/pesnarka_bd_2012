@@ -31,7 +31,7 @@
         }
         \new Staff \with {
           \override VerticalAxisGroup.default-staff-staff-spacing =
-          #'((basic-distance . 6.5)
+          #'((basic-distance . 7.5)
              (padding . -10))
           \remove "Time_signature_engraver"
           alignAboveContext = #"main"
@@ -41,8 +41,8 @@
           firstClef = ##f
         }
         {
-          g2 ^\markup { \huge \italic "ossia" \italic "по П. Ганев"}    \times 2/3 {
-            fis8 ( [g8] ) a8 \>
+          g2_\markup {  "ли -                        му      се -   нет.              Ту" }  ^\markup { \huge \italic "ossia по П. Ганев"}    \times 2/3 {
+            fis8 ( [g8] ) a8^\>
           } |
           g2 \! bes4 \break |
         }
