@@ -10,7 +10,7 @@
   \score {
     \include "include/score-layout.ily"
 
-    \new Voice \relative c' {
+    \new Staff = main \relative c' {
       \clef treble
       \key g \minor
       \time 3/4
@@ -21,11 +21,33 @@
       d4^\p | % 2
       d'2 c4 | % 3
       bes2 a4 | % 4
-      g4 \times 2/3 {
-        fis8 ( [g8] ) a8
-      }
-      g4^\> ~ | % 5
-      g2 \! bes4 \break | % 6
+      <<
+        {
+          g4 \times 2/3 {
+            fis8 ( [g8] ) a8
+          }
+          g4^\> ~ | % 5
+          g2 \! bes4 \break | % 6
+        }
+        \new Staff \with {
+          \override VerticalAxisGroup.default-staff-staff-spacing =
+          #'((basic-distance . 7.5)
+             (padding . -10))
+          \remove "Time_signature_engraver"
+          alignAboveContext = #"main"
+          fontSize = #-1
+          \override StaffSymbol.staff-space = #(magstep -4)
+          \override StaffSymbol.thickness = #(magstep -4)
+          firstClef = ##f
+        }
+        {
+          \key g \minor
+          g2_\markup {  "ли -                      му      се -   нет.            Ту" }  ^\markup { \huge \italic "ossia по П. Ганев"}    \times 2/3 {
+            fis8 ( [g8] ) a8^\>
+          } |
+          g2 \! bes4 \break |
+        }
+      >>
       a2^\p g4 | % 7
       fis2 es4 | % 8
       d2 c8 ( [es8] ) | % 9

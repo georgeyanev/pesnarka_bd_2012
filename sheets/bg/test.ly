@@ -41,7 +41,8 @@
           firstClef = ##f
         }
         {
-          g2_\markup {  "ли -                        му      се -   нет.              Ту" }  ^\markup { \huge \italic "ossia по П. Ганев"}    \times 2/3 {
+          \key g \minor
+          g2_\markup {  "ли -                      му      се -   нет.            Ту" }  ^\markup { \huge \italic "ossia по П. Ганев"}    \times 2/3 {
             fis8 ( [g8] ) a8^\>
           } |
           g2 \! bes4 \break |
