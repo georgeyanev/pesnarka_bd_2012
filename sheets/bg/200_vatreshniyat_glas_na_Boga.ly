@@ -43,9 +43,11 @@
         {
           \key g \minor
           g2_\markup {  "ли -                      му      се -   нет.            Ту" }  ^\markup { \huge \italic "ossia по П. Ганев"}     \times 2/3 {
-            fis8 ( [g8] ) a8
+            fis8 ( [g8] ) 
+            \once \override Hairpin.to-barline = ##f
+            a8^\>
           } |
-          g2^\markup \fontsize #+5 { ">" } bes4 \break |
+          g2\! bes4 \break |
         }
       >>
       a2^\p g4 | % 7
