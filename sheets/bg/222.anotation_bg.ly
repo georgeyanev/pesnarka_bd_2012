@@ -43,8 +43,9 @@
 
   \markup { {  \vspace #2.5 } }
 
-  \markup \fontsize  #+4.0 { \fill-line \bold {"Редактор" }}
-  \markup \fontsize  #+3.5 { \fill-line {"Петър Ганев"} }
+  \markup \fontsize  #+4.0 { \fill-line \bold {"Редактори" }}
+  \markup \fontsize  #+3.5 { \fill-line {"Петър Ганев" } }
+  \markup \fontsize  #+3.5 { \fill-line {"Мария Кирева" } }
   \markup { {  \vspace #2.0 } }
   \markup \fontsize  #+3 { \fill-line \bold {"Консултант"} }
   \markup \fontsize  #+2.5 { \fill-line  {"Иоана Стратева"} }
