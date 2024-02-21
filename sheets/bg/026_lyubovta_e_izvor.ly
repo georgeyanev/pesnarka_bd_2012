@@ -42,7 +42,7 @@
   } % score
 
 
-  \markup \fontsize #bgCoupletFontSize {
+  \markup \abs-fontsize #11 {
     \hspace #9.5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
@@ -76,7 +76,7 @@
 
   \pageBreak
 
-  \markup \fontsize #bgCoupletFontSize {
+  \markup \abs-fontsize #11 {
     \hspace #20
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {

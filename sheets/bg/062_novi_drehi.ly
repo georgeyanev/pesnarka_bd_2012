@@ -40,7 +40,7 @@
 
   \markup \empty-one
 
-  \markup \fontsize #bgCoupletFontSize {
+  \markup \abs-fontsize #11 {
     \hspace #20
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {

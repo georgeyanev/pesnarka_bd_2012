@@ -18,8 +18,8 @@
       \context {
         \Score
         \omit BarNumber %remove bar numbers
-        \override KeySignature.X-offset = #-1.2 % decrease keysigniture offset
-        \override TimeSignature.X-offset = #-1.8 % decrease time signiture offset
+        
+        
         \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
         \override TupletNumber.font-size = #0.4 % increase the triol number
 
@@ -28,8 +28,8 @@
       \context {
         % change staff size
         \Staff
-        fontSize = #+0 % affects notes size only
-        \override StaffSymbol.staff-space = #(magstep -3)
+        
+        
         \override StaffSymbol.thickness = #0.5
         \override BarLine.hair-thickness = #1
         %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)

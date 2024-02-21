@@ -33,7 +33,7 @@
 
     % change distance between staves
     system-system-spacing =
-    #'((basic-distance . 9)
+    #'((basic-distance . 13)
        (minimum-distance . 6)
        (padding . 1)
        (stretchability . 12))
@@ -97,9 +97,9 @@
 
   } % score
 
- \markup \fontsize #+2.5 {
+ \markup \abs-fontsize #11 {
    \hspace #12
-    \override #'(baseline-skip . 1.8)
+    \override #'(baseline-skip . 2.5)
       
       \column {
 

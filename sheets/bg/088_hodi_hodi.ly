@@ -67,7 +67,7 @@
 
   \markup \huge \italic \dc-one-nobold "attacca „Тъги, скърби“"
 
-  \markup \fontsize #bgCoupletFontSize {
+  \markup \abs-fontsize #11 {
     \hspace #18
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {

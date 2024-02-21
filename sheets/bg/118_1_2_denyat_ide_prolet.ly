@@ -41,7 +41,7 @@
   } % score
 
 
-  \markup \fontsize #bgCoupletFontSize {
+  \markup \abs-fontsize #11 {
     \hspace #13
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
@@ -98,7 +98,7 @@
 
   \markup \dc-one "D.C."
 
-  % \markup \fontsize #bgCoupletFontSize {
+  % \markup \abs-fontsize #11 {
   %   \hspace #18
   %   \override #`(baseline-skip . ,bgCoupletBaselineSkip)
   %   \column {

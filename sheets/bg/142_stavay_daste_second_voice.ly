@@ -131,7 +131,7 @@
   
     \pageBreak
 
-    \markup \fontsize #bgCoupletFontSize {
+    \markup \abs-fontsize #11 {
    
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {

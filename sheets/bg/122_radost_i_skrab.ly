@@ -4,15 +4,15 @@
 
 startParenthesis = {
   \once \override Parentheses.stencils = #(lambda (grob)
-        (let ((par-list (parentheses-interface::calc-parenthesis-stencils grob)))
-          (list (car par-list) point-stencil )))
+                                            (let ((par-list (parentheses-interface::calc-parenthesis-stencils grob)))
+                                              (list (car par-list) point-stencil )))
 }
 
 endParenthesis = {
   \once \override Parentheses.stencils = #(lambda (grob)
-        (let ((par-list (parentheses-interface::calc-parenthesis-stencils grob)))
-          (list point-stencil (cadr par-list))))
-} 
+                                            (let ((par-list (parentheses-interface::calc-parenthesis-stencils grob)))
+                                              (list point-stencil (cadr par-list))))
+}
 
 \bookpart {
   \label #'ref122
@@ -55,13 +55,13 @@ endParenthesis = {
       ragged-last = ##f % do spread last line to fill the whole space
       \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
       \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-      
+
 
       \context {
         \Score
         \omit BarNumber %remove bar numbers
-        \override KeySignature.X-offset = #-1.2 % decrease keysigniture offset
-        \override TimeSignature.X-offset = #-1.8 % decrease time signiture offset
+        
+        
         \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
         \override TupletNumber.font-size = #0.4 % increase the triol number
 
@@ -70,8 +70,8 @@ endParenthesis = {
       \context {
         % change staff size
         \Staff
-        fontSize = #+0 % affects notes size only
-        \override StaffSymbol.staff-space = #(magstep -3)
+        
+        
         \override StaffSymbol.thickness = #0.5
         \override BarLine.hair-thickness = #1
         %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
@@ -227,11 +227,11 @@ endParenthesis = {
       \time 2/4
       %\once \override TextScript.outside-staff-priority = ##f
       %\once \override TextScript.extra-offset = #'(3 . 3.0)
-      
+
       \once \override Staff.Parentheses.font-size = #+3
       \once \override Staff.Parentheses.padding = #1
       \endParenthesis \parenthesize a2%-\markup \bold \fontsize #+2 {")"}
-      
+
       \bar "|."
     }
 

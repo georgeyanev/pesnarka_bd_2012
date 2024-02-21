@@ -127,7 +127,7 @@
   %\markup \dc-two "D.C." "con repitione"
 
 
-  \markup \fontsize #bgCoupletFontSize {
+  \markup \abs-fontsize #11 {
     \hspace #10
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {

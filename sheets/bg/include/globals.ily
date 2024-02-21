@@ -1,4 +1,5 @@
 \version "2.24.3"
+#(set-global-staff-size 15) 
 
 \paper {
   #(set-paper-size "a5")
@@ -12,9 +13,18 @@
       #:sans "DejaVu Sans"
       #:typewriter "DejaVu Sans Mono"
       ; unnecessary if the staff size is default
-      #:factor (/ staff-height pt 29)
+      #:factor (/ staff-height pt 20)
       ))
 }
+
+#(define (defaultpaper-text-font-size)
+(module-ref
+(ly:output-def-scope (ly:parser-lookup '$defaultpaper))
+'text-font-size))
+#(define (abs->font-size size)
+(magnification->font-size
+(/ size (defaultpaper-text-font-size))))
+
 
 tempoFunc = #(define-music-function
               (tName tNote tNumber)
@@ -32,6 +42,8 @@ tempoFunc = #(define-music-function
                 }
               #}
               )
+
+
 
 tocAct = #(define-music-function (label text) ((symbol-list-or-symbol? '()) markup?)
             (add-toc-item! 'tocActMarkup text label))
@@ -159,8 +171,8 @@ titleFunc = #(define-scheme-function
                      )
    )
 
-#(define bgCoupletFontSize +2.5)
-#(define bgCoupletBaselineSkip 2.4)
+#(define bgCoupletFontSize +2.0)
+#(define bgCoupletBaselineSkip 3.3)
 
 #(define deTitleFontSize 5)
 #(define deCoupletFontSize +2.5)

@@ -157,7 +157,7 @@
 
     } % score
 
-    \markup \fontsize #bgCoupletFontSize {
+    \markup \abs-fontsize #11 {
       \hspace #17
       \override #`(baseline-skip . ,bgCoupletBaselineSkip)
       \column {
