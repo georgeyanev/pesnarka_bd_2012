@@ -56,6 +56,7 @@
 
 
   \markup \fontsize  #+9 { \hspace #25 \bold {"Песни от Учителя"} }
+   
   \markup {
     \hspace #25
     \column {
@@ -66,26 +67,27 @@
 
     }
   }
+   
   \markup \fontsize  #+2  { {  \vspace #.5 } }
-  \markup \fontsize  #+3.5 {\hspace #25 {"Издадени от"} }
+  \markup \fontsize  #+3 {\hspace #25 {"Издадени от"} }
   \markup \fontsize  #+2  { {  \vspace #0.1 } }
-  \markup \fontsize  #+3 { \hspace #25 {"Петър Ганев" \concat { \raise #-0.5 \fontsize #3 "·" } "Мария Кирева" } }
+  \markup \fontsize  #+2.5 { \hspace #25 {"Петър Ганев" \concat { \raise #-0.9 \fontsize #6 "·" } "Мария Кирева" } }
 
 
 
   \markup \fontsize  #+2  { {  \vspace #8.5 } }
 
-  \markup \fontsize  #+4 {\hspace #25 {"Издателство „Бяло Братство“ "} }
+  \markup \fontsize  #+4.5 {\hspace #25 {"Издателство „Бяло Братство“ "} }
   \markup \fontsize  #+2.5  { {  \vspace #0.5 } }
   \markup {
     \hspace #-1
     \fill-line
     \general-align #Y #DOWN {
-      \epsfile #X #8 #"../../img/logo_large.eps"
+      \epsfile #X #7 #"../../img/logo_large.eps"
     }
   }
 
-  \markup \fontsize  #+2  { {  \vspace #1 } }
+
 
   \markup {
     \hspace #25
