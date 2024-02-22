@@ -44,11 +44,11 @@
   \markup { {  \vspace #2.5 } }
 
   \markup \fontsize  #+4.0 { \fill-line \bold {"Редактори" }}
-  \markup \fontsize  #+3.5 { \fill-line {"Петър Ганев" } }
-  \markup \fontsize  #+3.5 { \fill-line {"Мария Кирева" } }
+  \markup \fontsize  #+3.5 { \fill-line {"Петър Ганев, Мария Кирева" } }
+  %\markup \fontsize  #+3.5 { \fill-line {"" } }
   \markup { {  \vspace #2.0 } }
-  \markup \fontsize  #+3 { \fill-line \bold {"Консултант"} }
-  \markup \fontsize  #+2.5 { \fill-line  {"Иоана Стратева"} }
+  \markup \fontsize  #+3 { \fill-line \bold {"Консултанти"} }
+  \markup \fontsize  #+2.5 { \fill-line  {"Иоана Стратева, Иво Бонев"} }
   \markup { {  \vspace #0.5 } }
   \markup \fontsize  #+3 { \fill-line \bold {"Коректор на нотния текст"} }
   \markup \fontsize  #+2.5 { \fill-line  {"Райнхард Риддер"} }
