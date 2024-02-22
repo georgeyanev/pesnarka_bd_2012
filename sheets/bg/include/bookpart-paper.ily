@@ -25,9 +25,9 @@
     bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
 
-    % change distance between staves
+    %change distance between staves
     system-system-spacing =
-    #'((basic-distance . 12)
+    #'((basic-distance . 15)
        (minimum-distance . 6)
        (padding . 1)
        (stretchability . 12))

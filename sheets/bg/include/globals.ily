@@ -1,4 +1,5 @@
 \version "2.24.3"
+#(set-global-staff-size 15)
 
 \paper {
   #(set-paper-size "a5")
@@ -12,7 +13,7 @@
       #:sans "DejaVu Sans"
       #:typewriter "DejaVu Sans Mono"
       ; unnecessary if the staff size is default
-      #:factor (/ staff-height pt 29)
+      #:factor (/ staff-height pt 20)
       ))
 }
 
@@ -24,7 +25,7 @@ tempoFunc = #(define-music-function
                   % make tempo note smaller
                   \concat {
                     #tName \normal-text { " (" }
-                    \teeny \general-align #Y #DOWN \note #tNote #0.7
+                    \teeny \general-align #Y #DOWN \note #tNote #1.0
                     \normal-text { " = " }
                     \normal-text \large { #tNumber  }
                     \normal-text { ")" }
@@ -40,10 +41,10 @@ titleFunc = #(define-scheme-function
               (descPageRef cyrTitle latTitle)
               (symbol? string? string?)
               #{
-                \markup \column \normal-text \fontsize #2.5 {
+                \markup \column \normal-text \fontsize #3 {
                   \center-align
                   \line { \with-link #descPageRef #cyrTitle }
-                  \vspace #-0.8
+                   %\vspace #0.2
                   \center-align
                   \line \fontsize #-3 { " " }
                 }
