@@ -42,7 +42,7 @@
 
   \markup { {  \vspace #0.4 } }
 
-  \markup \fontsize  #+4 { \fill-line \bold  {" Беинса Дуно "} }
+  \markup \fontsize  #+5 { \fill-line \bold  {" Беинса Дуно "} }
 
   % include foreign translation(s) of the song
   %
