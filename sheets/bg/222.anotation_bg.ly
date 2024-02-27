@@ -32,7 +32,7 @@
 
   }
 
-  \markup { {  \vspace #4.0 } }
+  \markup { {  \vspace #2.0 } }
 
   \markup \fontsize  #+5 { \fill-line \bold {"Петър Дънов"} }
 
@@ -43,12 +43,17 @@
 
   \markup { {  \vspace #2.5 } }
 
-  \markup \fontsize  #+4.0 { \fill-line \bold {"Редактори" }}
-  \markup \fontsize  #+3.5 { \fill-line {"Петър Ганев, Мария Кирева" } }
+  \markup \fontsize  #+4.0 { \fill-line \bold {"Главен редактор " }}
+  \markup \fontsize  #+3.5 { \fill-line {"Петър Ганев" } }
+  \markup { {  \vspace #0.1 } }
+  \markup \fontsize  #+4.0 { \fill-line \bold {"Редактор" }}
+  \markup \fontsize  #+3.5 { \fill-line {"Мария Кирева" } }
   %\markup \fontsize  #+3.5 { \fill-line {"" } }
   \markup { {  \vspace #2.0 } }
   \markup \fontsize  #+3 { \fill-line \bold {"Консултанти"} }
-  \markup \fontsize  #+2.5 { \fill-line  {"Иоана Стратева, Иво Бонев, Надежда Атанасова"} }
+  \markup \fontsize  #+2.5 { \fill-line  {"Иоана Стратева, Иво Бонев"} }
+  \markup \fontsize  #+2.5 { \fill-line  {"Надежда Атанасова, Виделин Джеджев"} }
+
   \markup { {  \vspace #0.5 } }
   \markup \fontsize  #+3 { \fill-line \bold {"Коректор на нотния текст"} }
   \markup \fontsize  #+2.5 { \fill-line  {"Райнхард Риддер"} }
