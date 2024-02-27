@@ -41,40 +41,40 @@
   \markup { {  \vspace #0.1 } }
   \markup \fontsize  #+2.5 { \fill-line \italic {"Четвърто преработено и допълнено издание"} }
 
-  \markup { {  \vspace #2.5 } }
+  \markup { {  \vspace #3.5 } }
 
-  \markup \fontsize  #+4.0 { \fill-line \bold {"Главен редактор " }}
+  \markup \fontsize  #+4.5 { \fill-line \bold {"Над изданието работиха: " }}
+  \markup { {  \vspace #0.1 } }
   \markup \fontsize  #+3.5 { \fill-line {"Петър Ганев" } }
   \markup { {  \vspace #0.1 } }
-  \markup \fontsize  #+4.0 { \fill-line \bold {"Редактор" }}
   \markup \fontsize  #+3.5 { \fill-line {"Мария Кирева" } }
-  %\markup \fontsize  #+3.5 { \fill-line {"" } }
-  \markup { {  \vspace #2.0 } }
-  \markup \fontsize  #+3 { \fill-line \bold {"Консултанти"} }
-  \markup \fontsize  #+2.5 { \fill-line  {"Иоана Стратева, Иво Бонев"} }
-  \markup \fontsize  #+2.5 { \fill-line  {"Надежда Атанасова, Виделин Джеджев"} }
+  \markup { {  \vspace #0.1 } }
+  \markup \fontsize  #+3.5 { \fill-line {"Райнхард Риддер" } }
+  \markup { {  \vspace #0.1 } }
+  \markup \fontsize  #+3.5 { \fill-line {"Георги Янев" } }
+  \markup { {  \vspace #0.1 } }
+  \markup \fontsize  #+3.5 { \fill-line {"Стела Рускова" } }
+  \markup { {  \vspace #0.1 } }
+  \markup \fontsize  #+3.5 { \fill-line {"Иоана Стратева" } }
+  \markup { {  \vspace #0.1 } }
+  \markup \fontsize  #+3.5 { \fill-line {"Иво Бонев" } }
+  \markup { {  \vspace #0.1 } }
+  \markup \fontsize  #+3.5 { \fill-line {"Надежда Атанасова" } }
+  \markup { {  \vspace #0.1 } }
+  \markup \fontsize  #+3.5 { \fill-line {"Стоил Вътев" } }
+
+
+  \markup { {  \vspace #4.0 } }
 
   \markup { {  \vspace #0.5 } }
-  \markup \fontsize  #+3 { \fill-line \bold {"Коректор на нотния текст"} }
-  \markup \fontsize  #+2.5 { \fill-line  {"Райнхард Риддер"} }
-  \markup { {  \vspace #0.5 } }
-  \markup \fontsize  #+3 { \fill-line \bold {"Коректор на лиричния текст"} }
-  \markup \fontsize  #+2.5 { \fill-line  {"Стела Рускова"} }
-  \markup { {  \vspace #0.5 } }
-  \markup \fontsize  #+3 { \fill-line \bold {"Набор на нотния текст и дизайн"} }
-  \markup \fontsize  #+2.5 { \fill-line  {"Мария Кирева, Георги Янев"} }
-  \markup { {  \vspace #0.5 } }
-  \markup \fontsize  #+3 { \fill-line \bold {"Дизайн на корицата"} }
-  \markup \fontsize  #+2.5 { \fill-line  {"Стоил Вътев"} }
-  \markup { {  \vspace #0.5 } }
-  \markup \fontsize  #+3 { \fill-line \bold {"Издателство „Бяло Братство“"} }
+  \markup \fontsize  #+3.5 { \fill-line \bold {"Издателство „Бяло Братство“"} }
 
-  \markup \fontsize  #+2.5 { \fill-line  {"izdatelstvo.bratstvo@gmail.com"} }
-  \markup \fontsize  #+2.5 { \fill-line  {"www.bialobratstvo.bg"} }
+  \markup \fontsize  #+3 { \fill-line  {"izdatelstvo.bratstvo@gmail.com"} }
+  \markup \fontsize  #+3 { \fill-line  {"www.bialobratstvo.bg"} }
   \markup { {  \vspace #0.5 } }
-  \markup \fontsize  #+2.5 { \fill-line {"София 2024"} }
+  \markup \fontsize  #+3 { \fill-line {"София 2024"} }
   \markup { {  \vspace #2.5 } }
-  \markup \fontsize  #+2.5 { \fill-line  {"ISMN 979-0-9016674-5-7"}}
+  \markup \fontsize  #+3 { \fill-line  {"ISMN 979-0-9016674-5-7"}}
 
 
 
