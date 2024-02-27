@@ -39,7 +39,7 @@
 
 
 
-  \markup \fontsize  #+6.5 {\hspace #25 \bold {"Петър Дънов"} }
+  \markup \fontsize  #+6 {\hspace #25 \bold {"Петър Дънов"} }
 
   \markup {  \vspace #5.5 }
   \markup {
@@ -55,7 +55,7 @@
   \markup \fontsize  #+2  { {  \vspace #0.2 } }
 
 
-  \markup \fontsize  #+9 { \hspace #25 \bold {"Песни от Учителя"} }
+  \markup \fontsize  #+8.6 { \hspace #25 \bold {"Песни от Учителя"} }
    
   \markup {
     \hspace #25
@@ -77,7 +77,7 @@
 
   \markup \fontsize  #+2  { {  \vspace #12 } }
 
-  \markup \fontsize  #+4.5 {\hspace #25 {"Издателство „Бяло Братство“ "} }
+  \markup \fontsize  #+4 {\hspace #25 {"Издателство „Бяло Братство“ "} }
   \markup \fontsize  #+2.5  { {  \vspace #0.5 } }
   \markup {
     \hspace #-1
@@ -85,6 +85,7 @@
     \general-align #Y #DOWN {
       \epsfile #X #7 #"../../img/logo_large.eps"
     }
+    \hspace #0.1
   }
 
 
