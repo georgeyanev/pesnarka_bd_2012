@@ -77,7 +77,7 @@
 
   \markup \fontsize  #+2  { {  \vspace #12 } }
 
-  \markup \fontsize  #+4 {\hspace #25 {"Издателство „Бяло Братство“ "} }
+  \markup \fontsize  #+3.5 {\hspace #25 {"Издателство „Бяло Братство“ "} }
   \markup \fontsize  #+2.5  { {  \vspace #0.5 } }
   \markup {
     \hspace #-1
