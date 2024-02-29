@@ -249,8 +249,8 @@
       \line {"  "}
       \line {"  "}
       %\fill-line { "" ""  \italic {"Петър Ганев, София    "} }
-      \fill-line { "" ""  \italic {"Мария Кирева, Мюнхен"} }
-      \fill-line { "" ""  \italic {"2024 г.                            "} }
+      \fill-line { "" ""  \italic {"Мария Кирева   "} }
+      \fill-line { "" ""  \italic {"Мюнхен, 2024 г."} }
     }
   } 
   
