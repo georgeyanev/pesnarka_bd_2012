@@ -1,5 +1,6 @@
 \version "2.24.3"
 
+#(set-global-staff-size 14)
 \paper {
   #(set-paper-size "a5")
 
@@ -12,26 +13,26 @@
       #:sans "DejaVu Sans"
       #:typewriter "DejaVu Sans Mono"
       ; unnecessary if the staff size is default
-      #:factor (/ staff-height pt 29)
+      #:factor (/ staff-height pt 20)
     ))
 }
 
 tempoFunc = #(define-music-function
-    (tName tNote tNumber)
-    (string? ly:duration? string?)
-    #{
-      \tempo \markup {
-        % make tempo note smaller
-        \concat {
-          #tName \normal-text { " (" }
-          \teeny \general-align #Y #DOWN \note #tNote #0.7
-          \normal-text { " = " }
-          \normal-text { #tNumber }
-          \normal-text { ")" }
-        }
-      }
-    #}
-)
+              (tName tNote tNumber)
+              (string? ly:duration? string?)
+              #{
+                \tempo \markup {
+                  % make tempo note smaller
+                  \concat {
+                    #tName \normal-text { " (" }
+                    \teeny \general-align #Y #DOWN \note #tNote #1.1
+                    \normal-text { " = " }
+                    \normal-text \large { #tNumber  }
+                    \normal-text { ")" }
+                  }
+                }
+              #}
+              )
 
 tocAct = #(define-music-function (label text) ((symbol-list-or-symbol? '()) markup?)
      (add-toc-item! 'tocActMarkup text label))
@@ -43,7 +44,7 @@ titleFunc = #(define-scheme-function
       \markup \column \normal-text \fontsize #2.5 {
         \center-align
         \line { #cyrTitle }
-        \vspace #-0.6
+        \vspace #-0.2
         \center-align
         \line \fontsize #-3 { #latTitle }
         \vspace #-0.8
@@ -139,8 +140,8 @@ titleFunc = #(define-scheme-function
 #(define bgCoupletBaselineSkip 2.4)
 
 #(define deTitleFontSize 5)
-#(define deCoupletFontSize +2.5)
-#(define deCoupletBaselineSkip 2)
+#(define deCoupletFontSize +2.3)
+#(define deCoupletBaselineSkip 2.4)
 
 #(define-bar-line "!!" "!!" #f "!")
 %The new bar line interface allows for easier extension and modification of the bar lines:

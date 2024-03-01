@@ -5,27 +5,27 @@
   \context {
     \Score
     \omit BarNumber %remove bar numbers
-    \override KeySignature.X-offset = #-1.2 %
+    \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
   } % context
 
   \context {
     % change staff size
     \Staff
-    fontSize = #+0 % affects notes size only
-    \override StaffSymbol.staff-space = #(magstep -3)
     \override StaffSymbol.thickness = #0.5
     \override BarLine.hair-thickness = #1
-    %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
+    %\override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
+    \override TupletNumber.font-size = #0.4 % increase the triol number
   }
 
   \context {
     % adjust space between staff and lyrics and between the two lyric lines
     \Lyrics
+    %\override LyricText.font-size = #-0.1
     \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
                                                                     (basic-distance . 4.5)
-                                                                    (padding . 0.5)
+                                                                    (padding . 1.5)
                                                                     )
-    \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
+    \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 3))
     includeGraceNotes = ##t
   }
 } % layout
