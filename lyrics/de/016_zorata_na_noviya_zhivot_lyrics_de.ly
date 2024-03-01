@@ -3,9 +3,9 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Die Morgenröte des neuen Lebens" }
 \markup \null
 \markup \null
-\markup \fontsize #+1.7 {
+\markup \fontsize #+2.3 {
 
-  \override #'(baseline-skip . 1.8)
+  \override #'(baseline-skip . 2.8)
 
   \column {
     \line { 1. Die wunderbare Morgenröte bricht an, }
@@ -32,7 +32,7 @@
 
   }
  \hspace #1
-  \override #'(baseline-skip . 1.8)
+  \override #'(baseline-skip . 2.8)
  
 
   \column {
