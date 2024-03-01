@@ -312,6 +312,6 @@
 
   \pageBreak
   % include foreign translation(s) of the song
-  \include "../../lyrics/de/146_bylgarska_rapsodia_lyrics_ de.ly"
+  \include "../../lyrics/de/146_bylgarska_rapsodia_lyrics_de.ly"
 
 } % bookpart
