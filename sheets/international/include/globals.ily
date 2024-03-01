@@ -141,7 +141,7 @@ titleFunc = #(define-scheme-function
 
 #(define deTitleFontSize 5)
 #(define deCoupletFontSize +2.3)
-#(define deCoupletBaselineSkip 2.4)
+#(define deCoupletBaselineSkip 2.8)
 
 #(define-bar-line "!!" "!!" #f "!")
 %The new bar line interface allows for easier extension and modification of the bar lines:
