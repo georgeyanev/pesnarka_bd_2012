@@ -44,7 +44,7 @@ titleFunc = #(define-scheme-function
       \markup \column \normal-text \fontsize #2.5 {
         \center-align
         \line { #cyrTitle }
-        \vspace #-0.2
+        %\vspace #-0.2
         \center-align
         \line \fontsize #-3 { #latTitle }
         \vspace #-0.8
