@@ -1,9 +1,9 @@
 #!/bin/bash
 
 cat \
-    ../001_title_page_de.ly \
-    ../002_anotation_de.ly \
+    ../005_blank_page.ly \
     ../003_danov_img.ly \
+    ../001_title_page_de.ly \
     ../005_blank_page.ly \
     ../006_oldest_book_de.ly \
     ../007_blank_page.ly \
