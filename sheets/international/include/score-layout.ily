@@ -3,7 +3,7 @@
   indent = 0.0\cm % remove first line indentation
   ragged-last = ##f % do spread last line to fill the whole space
  \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
-  \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
+  \override Score.VoltaBracket.font-size = #-2.3 % make the repeat number fontsize smaller
 
 
   \context {
@@ -24,7 +24,6 @@
   \context {
     % adjust space between staff and lyrics and between the two lyric lines
     \Lyrics
-
     %\override LyricText.font-size = #-0.1
     \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
                                                                     (basic-distance . 4.5)

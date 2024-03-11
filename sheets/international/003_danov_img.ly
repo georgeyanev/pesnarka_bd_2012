@@ -34,19 +34,18 @@
 
 
   \markup {
+    \fill-line
     \general-align #Y #DOWN {
-      \epsfile #X #67 #"../../img/danov.eps"
+      \epsfile #X #65 #"../../img/bd_image.eps"
     }
   }
 
-  \markup { {  \vspace #0.7 } }
+  \markup { {  \vspace #0.4 } }
 
-  \markup \fontsize  #+5 { \fill-line \bold {" Petar Danov – Beinsa Duno "} }
-  \markup { {  \vspace #0.2 } }
-  \markup \fontsize  #+2.5 { \fill-line \bold {" (1864  –  1944)" } }
+  \markup \fontsize  #+5 { \fill-line \bold  {" Беинса Дуно "} }
 
   % include foreign translation(s) of the song
-  %\include "../../lyrics/de/000_empty_template_lyrics_de.ly"
+  %
 
 } % bookpart
 

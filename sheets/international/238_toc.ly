@@ -39,9 +39,9 @@
     }  
 
     tocActMarkup = \markup \large \column {
-      \vspace #0.7
+      \vspace #0.9
       \fill-line { \null \fontsize #+2 \bold \fromproperty #'toc:text \null }
-      \vspace #0.7
+      \vspace #0.9
     }    
   }
  

@@ -41,7 +41,7 @@
   \score {
     \include "include/score-layout.ily"
 
-    \new Voice \absolute  {
+   \new Voice \absolute  {
       \clef treble
       \key c \major
       \time 3/4
@@ -79,24 +79,24 @@
 
     \addlyrics {
       Из -- ля -- зъл е се -- яч да се -- е __
-      пре -- крас -- но бла -- го нов Жи -- вот. __ И
-      се -- е той и ти -- хо пе -- е __ пред все -- ки
+      пре -- крас -- но бла -- "го  –" нов жи -- вот. __ И
+      се -- е той, и ти -- хо пе -- е __ пред все -- ки
       дом и все -- ки род, __  и все -- ки род: __ Без --
       це -- нен дар __ е Лю -- бов -- та, __ кра --  си -- во
-      чув -- ство О -- бич -- та __  и бла -- го де -- ло Ми -- лост --
-      та, __  о -- би -- лен из -- вор Мъд -- рост -- та. __ Без --
-      та  __  о -- би -- лен из -- вор Мъд -- рост -- та. __ 
+      чув -- "ство  –" о -- бич -- та __  и бла -- го де -- "ло  –" ми -- лост --
+      та, __  о -- би -- лен из -- "вор  –" Мъд -- рост -- та. __ Без --
+      та  __  о -- би -- лен из -- "вор  –" Мъд -- рост -- та. __
     }
 
      \addlyrics {
       Iz -- lja -- zăl e se -- jač da se -- e __
-      pre -- kras -- no bla -- go nov Ži -- vot. __ I
-      se -- e toj i ti -- ho pe -- e __  pred vse -- ki
-      dom i vse -- ki rod,  __ i vse -- ki rod: __ Bez --
+      pre -- kras -- no bla -- "go  –" nov ži -- vot. __ I
+      se -- e toj, i ti -- ho pe -- e __ pred vse -- ki
+      dom i vse -- ki rod, __  i vse -- ki rod: __ Bez --
       ce -- nen dar __ e Lju -- bov -- ta, __ kra --  si -- vo
-      čuv -- stvo O -- bič -- ta __  i bla -- go de -- lo Mi -- lost --
-      ta,  __ o -- bi -- len iz -- vor Măd -- rost -- ta. __ Bez --
-      ta __  o -- bi -- len iz -- vor Măd -- rost -- ta. __ 
+      čuv -- "stvo  –" o -- bič -- ta __  i bla -- go de -- "lo  –" mi -- lost --
+      ta, __  o -- bi -- len iz -- "vor  –" Măd -- rost -- ta. __ Bez --
+      ta  __  o -- bi -- len iz -- "vor  –" Măd -- rost -- ta. __
     }
 
 
@@ -112,7 +112,7 @@
   \markup \fontsize #bgCoupletFontSize {
     \hspace #1
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
-    \column {
+   \column {
 
       \line { 2. И който чуе, в миг потръпва }
       \line {   "   " от тоя благ и мил напев; }
@@ -121,15 +121,15 @@
       \line { " " }
       \line { "   " \italic {Припев: } }
       \line {  "   " Безценен дар е Любовта, }
-      \line { "   " красиво чувство – Обичта }
-      \line { "   " и благо дело – Милостта, }
+      \line { "   " красиво чувство – обичта }
+      \line { "   " и благо дело – милостта, }
       \line {  "   " обилен извор – Мъдростта.}
 
       \line { " " }
       \line { "   " \italic {Припев ...} }
 
       \line { " " }
-      \line { 3. Любов вселената облива, }
+      \line { 3. Любов Вселената облива, }
       \line {   "   " от обич грее всяка твар; }
       \line {   "   " живот в живота се прелива, }
       \line {   "   " тук няма вече млад и стар. }
@@ -142,7 +142,7 @@
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
-    \column {
+\column {
 
       \line { 2. I kojto čue, v mig potrăpva }
       \line {   "   " ot toja blag i mil napev; }
@@ -151,15 +151,15 @@
       \line { " " }
       \line { "   " \italic {Pripev: } }
       \line {  "   " Bezcenen dar e Ljubovta, }
-      \line { "   " krasivo čuvstvo – Običta }
-      \line { "   " i blago delo – Milostta, }
+      \line { "   " krasivo čuvstvo – običta }
+      \line { "   " i blago delo – milostta, }
       \line {  "   " obilen izvor – Mădrostta.}
 
       \line { " " }
       \line { "   " \italic {Pripev ...} }
 
       \line { " " }
-      \line { 3. Ljubov vselenata obliva, }
+      \line { 3. Ljubov Vselenata obliva, }
       \line {   "   " ot obič gree vsjaka tvar; }
       \line {   "   " život v života se preliva, }
       \line {   "   " tuk njama veče mlad i star. }

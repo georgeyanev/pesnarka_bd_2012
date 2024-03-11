@@ -5,6 +5,7 @@
 
 \bookpart {
   \paper {
+    #(set-paper-size "a5")
     print-all-headers = ##f
     print-page-number = ##f
     print-first-page-number = ##f
@@ -32,31 +33,77 @@
 
   }
 
-  \markup { {  \vspace #1.5 } }
-  \markup \fontsize  #+2.5 { \fill-line \bold {"PETAR DANOV"} }
+  \markup {  \vspace #4.5 }
 
-  \markup { {  \vspace #0.5 } }
 
-  \markup \fontsize  #+6 { \fill-line \bold {"LIEDERBUCH"} }
-  \markup  { {  \vspace #0.2 } }
-  \markup \fontsize  #1.5 { \fill-line {"Bulgarisch-Deutsch"} }
-  \markup { {  \vspace #4.5 } }
+
+
+
+
+  \markup \fontsize  #+5.6  {\hspace #40 \bold {"Petar Danov"} }
+
+  \markup {  \vspace #9.5 }
   \markup {
-    \vspace #21.5
-    \fill-line
-    \general-align #Y #DOWN {
-      \epsfile #X #13 #"../../img/logo_large.eps"
+    \hspace #40
+    \column {
+      \override #'(thickness . 1.5)
+      \override #'(span-factor . 1/2)
+      \draw-hline
+
     }
   }
-  \markup { {  \vspace #0.5 } }
 
-  \markup \fontsize  #+2.5  { \fill-line {"Verlag Bjalo Bratstvo"} }
-  \markup { {  \vspace #0.2 } }
-  \markup \fontsize  #+2.5  { \fill-line {"Sofia 2023"} }
+  \markup \fontsize  #+2  { {  \vspace #0.2 } }
 
 
-  % include foreign translation(s) of the song
-  %\include "../../lyrics/de/000_empty_template_lyrics_de.ly"
+  \markup \fontsize  #+5.6 { \hspace #40 \bold {"LIEDER DES MEISTERS"} }
+   
+  \markup {
+    \hspace #40
+    \column {
+      \vspace #5.5
+      \override #'(thickness . 1.5)
+      \override #'(span-factor . 1/2)
+      \draw-hline
+
+    }
+  }
+   
+  % \markup \fontsize  #+2  { {  \vspace #.5 } }
+  % \markup \fontsize  #+2.8 {\hspace #40 {"Herausgegeben von"} }
+  % \markup \fontsize  #+2  { {  \vspace #0.1 } }
+  % \markup \fontsize  #+1.7 { \hspace #40 {"Peter Ganev" \concat { \raise #-0.9 \fontsize #6 "·" } "Mariya Kireva" } }
+
+
+
+  \markup \fontsize  #+2  { {  \vspace #16 } }
+
+  \markup \fontsize  #+3 {\hspace #40 {"Verlag „Bjalo Bratstvo“ "} }
+  \markup \fontsize  #+2.5  { {  \vspace #0.5 } }
+  \markup {
+    \hspace #-1
+    \fill-line
+    \general-align #Y #DOWN {
+      \epsfile #X #7 #"../../img/logo_large.eps"
+    }
+    \hspace #0.1
+  }
+
+
+
+  \markup {
+    \hspace #40
+    \column {
+      \override #'(thickness . 1.5)
+      \override #'(span-factor . 1/2)
+      \draw-hline
+
+    }
+  }
+
+
+
+
 
 } % bookpart
 

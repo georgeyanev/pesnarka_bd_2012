@@ -36,7 +36,7 @@
 
   \markup \fontsize  #+3.0 { \fill-line \bold {"GEDANKEN ÜBER DIE MUSIK"} }
 
-  \markup \fontsize #+2.5 \override #'(baseline-skip . 2.7) {
+  \markup \abs-fontsize #10 \override #'(baseline-skip . 3.5) {
     \vspace #1.5
     \justify-string " Wir verstehen die Musik in einem etwas anderen Sinne. Ich spreche über die bewusste Musik und nicht über die statische. Wir haben den Bereich der statischen Musik schon verlassen und treten in die organische Musik ein, die sich ständig verändert. 
 
@@ -64,7 +64,7 @@ Die Natur arbeitet in jeder Hinsicht musikalisch. Es gibt keine großartigere Ku
 
   }
 
-  \markup \fontsize #+2.5 \override #'(baseline-skip . 2.7) {
+  \markup \abs-fontsize #10 \override #'(baseline-skip . 3.5) {
     \justify-string " 
 
 Diejenige Musik, die gleichermaßen das Herz, den Verstand und den Körper einstimmt, ist die Musik der Natur. Unter dem Begriff Natur verstehe ich die Welt der Harmonie, aus der die ganze Musik hervorgegangen ist.
@@ -98,7 +98,7 @@ In der okkulten Musik möchten wir nicht wie die Menschen, sondern wie die Engel
  "
   }
 
-  \markup \fontsize #+2.5 \override #'(baseline-skip . 2.7) {
+  \markup \abs-fontsize #10 \override #'(baseline-skip . 2.7) {
     \justify-string " 
     Ideelle Lieder gibt es auf der Erde nicht. Ideelle Lieder gibt es nur bei den Engeln.
 
