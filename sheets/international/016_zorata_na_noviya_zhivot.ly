@@ -61,7 +61,7 @@
   \pageBreak
 
   \markup \fontsize #+2.3 {
-    \hspace #5
+    \hspace #7
     \override #'(baseline-skip . 2.8)
     
     \column {
@@ -69,7 +69,6 @@
       \line {   "   " с възторг и сладки песни в хор, }
       \line {   "   " хармонията да допълнят }
       \line {   "   " в големия небесен двор.}
-
       \vspace #0.5
       \line { "   " \italic {Припев: } }
       \line {  "   " В новия светъл тоз живот, (2) }

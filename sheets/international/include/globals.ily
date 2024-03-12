@@ -56,93 +56,121 @@ titleFunc = #(define-scheme-function
 )
 
 #(define-markup-command (dc-one layout props text) (markup?)
-  "After song text (usually D.C.) with one line."
-  (interpret-markup layout props
-    #{
-      \markup \raise #2.8 \override #'(baseline-skip . 2) {
-        \column {
-          \fill-line \bold { "" "" \concat {#text "   " }}
-        }
-      }
-    #}
-  )
-)
+   "After song text (usually D.C.) with one line."
+   (interpret-markup layout props
+                     #{
+                       \markup \raise #3.8 \override #'(baseline-skip . 2) {
+                         \column {
+                           \fill-line \large \bold { "" "" \concat {#text "   " }}
+                         }
+                       }
+                     #}
+                     )
+   )
+
+#(define-markup-command (dcr-one layout props text raise) (markup? number?)
+   "After song text (usually D.C.) with one line."
+   (interpret-markup layout props
+                     #{
+                       \markup \raise #raise \override #'(baseline-skip . 2) {
+                         \column {
+                           \fill-line \large \bold { "" "" \concat {#text "   " }}
+                         }
+                       }
+                     #}
+                     )
+   )
 
 #(define-markup-command (dc-one-nobold layout props text) (markup?)
-  "After song text (usually D.C.) with one line."
-  (interpret-markup layout props
-    #{
-      \markup \raise #2.8 \override #'(baseline-skip . 2) {
-        \column {
-          \fill-line { "" "" \concat {#text "   " }}
-        }
-      }
-    #}
-  )
-)
+   "After song text (usually D.C.) with one line."
+   (interpret-markup layout props
+                     #{
+                       \markup \raise #3.8 \override #'(baseline-skip . 2) {
+                         \column {
+                           \fill-line \large { "" "" \concat {#text "   " }}
+                         }
+                       }
+                     #}
+                     )
+   )
 
 #(define-markup-command (dc-two layout props textone texttwo) (markup? markup?)
-  "After song text (usually D.C.) with two lines."
-  (interpret-markup layout props
-    #{
-      \markup \raise #2.8 \override #'(baseline-skip . 2) {
-        \column {
-          \fill-line \bold { "" "" \concat {#textone "   " }}
-          \fill-line \bold { "" "" \concat {#texttwo "   " }}
-        }
-      }
-    #}
-  )
-)
+   "After song text (usually D.C.) with two lines."
+   (interpret-markup layout props
+                     #{
+                       \markup \raise #3.8 \override #'(baseline-skip . 2) {
+                         \column {
+                           \fill-line \large \bold { "" "" \concat {#textone "   " }}
+                           \fill-line \large \bold { "" "" \concat {#texttwo "   " }}
+                         }
+                       }
+                     #}
+                     )
+   )
+
+#(define-markup-command (dcr-two layout props textone texttwo raise) (markup? markup? number?)
+   "After song text (usually D.C.) with two lines."
+   (interpret-markup layout props
+                     #{
+                       \markup \raise #raise \override #'(baseline-skip . 2) {
+                         \column {
+                           \fill-line \large \bold { "" "" \concat {#textone "   " }}
+                           \fill-line \large \bold { "" "" \concat {#texttwo "   " }}
+                         }
+                       }
+                     #}
+                     )
+   )
 
 #(define-markup-command (empty-one layout props) ()
-  "Adds one empty line."
-  (interpret-markup layout props
-    #{
-      \markup {
-        \column {
-          \line { " " }
-        }
-      }
-    #}
-  )
-)
+   "Adds one empty line."
+   (interpret-markup layout props
+                     #{
+                       \markup {
+                         \column {
+                           \line { " " }
+                         }
+                       }
+                     #}
+                     )
+   )
 
 #(define-markup-command (empty-two layout props) ()
-  "Adds two empty lines."
-  (interpret-markup layout props
-    #{
-      \markup {
-        \column {
-          \line { " " }
-          \line { " " }
-        }
-      }
-    #}
-  )
-)
+   "Adds two empty lines."
+   (interpret-markup layout props
+                     #{
+                       \markup {
+                         \column {
+                           \line { " " }
+                           \line { " " }
+                         }
+                       }
+                     #}
+                     )
+   )
 
 #(define-markup-command (empty-three layout props) ()
-  "Adds three empty lines."
-  (interpret-markup layout props
-    #{
-      \markup {
-        \column {
-          \line { " " }
-          \line { " " }
-          \line { " " }
-        }
-      }
-    #}
-  )
-)
+   "Adds three empty lines."
+   (interpret-markup layout props
+                     #{
+                       \markup {
+                         \column {
+                           \line { " " }
+                           \line { " " }
+                           \line { " " }
+                         }
+                       }
+                     #}
+                     )
+   )
 
-#(define bgCoupletFontSize +2.8)
-#(define bgCoupletBaselineSkip 3.2)
+#(define bgCoupletFontSize +2.3)
+#(define bgCoupletBaselineSkip 2.8)
 
 #(define deTitleFontSize 5)
-#(define deCoupletFontSize +2.8)
-#(define deCoupletBaselineSkip 3.2)
+#(define deTransTitleFontSize 5)
+#(define deCoupletFontSize +2.3)
+#(define deCoupletBaselineSkip 2.8)
 
 #(define-bar-line "!!" "!!" #f "!")
 %The new bar line interface allows for easier extension and modification of the bar lines:

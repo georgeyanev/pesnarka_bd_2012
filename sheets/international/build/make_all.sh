@@ -23,7 +23,6 @@ cat \
     ../029_stradna_dusho.ly \
     ../030_izgrey_ti_moe_slantse.ly \
     ../032_shumi.ly \
-    ../034_pri_iztochnika.ly \
     ../036_napred_da_hodim.ly \
     ../037_na_Uchitelya.ly \
     ../038_milosardieto.ly \

@@ -1,13 +1,11 @@
 \version "2.24.3"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Die Liebe ist eine Quelle" }
+\markup \fill-line { \fontsize #deTransTitleFontSize "Die Liebe ist eine Quelle" }
 
+\markup { {  \vspace #0.1 } }
+\markup \fontsize #+2.3 {
 
-\markup \fontsize #+1.5 {
-  
-  
-  \vspace #0.6
-  \override #'(baseline-skip . 1.8)
+  \override #'(baseline-skip . 2.8)
 
   \column {
 
@@ -15,7 +13,7 @@
     \line {   "   "sie gebiert das Leben}
 
     \line {   "   "und eine allheilige Pflicht }
-       \line {   "   " sät sie in ihm sanft: }
+    \line {   "   " sät sie in ihm sanft: }
 
     \line {   "   " auf dass es immer voranschreitet }
 
@@ -26,7 +24,7 @@
 
 
 
-    \line { " " }
+    \vspace #0.5
     \line { "   " \italic { Refrain:}  }
 
 
@@ -38,7 +36,7 @@
 
     \line {   "   "für die leidenden Seelen.}
 
-    \line { " " }
+    \vspace #0.5
 
     \line {   2. Dies vollbringt sie selbst unaufhörlich}
 
@@ -50,59 +48,59 @@
 
     \line {   "   " die gütigen Wohltaten sprießen.}
 
-    \line { " " }
+    \vspace #0.5
     \line { "   " \italic { Refrain ...}  }
 
 
   }
-\hspace #1
+  \hspace #1.5
 
-  \override #'(baseline-skip . 1.8)
+  \override #'(baseline-skip . 2.8)
 
 
   \column {
 
-    \line {   3. Dieses große Geheimnis,  }
-    
-    \line {   "   " wer es gut versteht,}
+    \line {   3. Dieses große Geheimnis, wer es gut }
 
-    \line {   "   "öffnet seine liebe Seele am Morgen,}
+    \line {   "   "  versteht, öffnet seine liebe Seele}
 
-    \line {   "   "wie die weiße Lilie im himmlischen Tau }
+    \line {   "   "am Morgen, wie die weiße Lilie}
+
+    \line {   "   " im himmlischen Tau }
 
     \line {   "   " und im wunderbaren Sonnenlicht.}
-    \line { " " }
+    \vspace #0.5
     \line { "   " \italic { Refrain ...}  }
-    \line { " " }
+    \vspace #0.5
 
-    \line {   4. Die Sonne, die den Menschen }
+    \line {   4. Die Sonne, die den Menschen zur }
 
-    \line {   "   "       zur rechten Zeit belebt,}
+    \line {   "   "       rechten Zeit belebt, scheint warm,}
 
-    \line {   "   " scheint warm, erweckt und lässt gedeihen}
+    \line {   "   "  erweckt und lässt gedeihen in ihm}
 
-    \line {   "   " in ihm die Samenkörnchen und füllt }
+    \line {   "   "  die Samenkörnchen und füllt geheim- }
 
-    \line {   "   "  geheimnisvoll  mit Tugenden seine Seele.}
+    \line {   "   "  nisvoll  mit Tugenden seine Seele.}
 
-    \line { " " }
+    \vspace #0.5
     \line { "   " \italic { Refrain ...}  }
 
-    \line { " " }
+    \vspace #0.5
 
 
 
-    \line {   5. Die so süßen Früchte, in der Liebe gereift: }
+    \line {   5. Die so süßen Früchte, in der Liebe  }
 
-    \line {   "   "Am seligsten wird der sein, der sie kostet.}
+    \line {   "   " gereift: Am seligsten wird der sein, }
 
 
 
-    \line {   "   "In himmlischen Wohnstätten}
+    \line {   "   "der sie kostet. In himmlischen Wohn-}
 
-    \line {   "   "wird er ewig leben, vor dem Thron Gottes}
+    \line {   "   " stätten wird er ewig leben, vor dem}
 
-    \line {   "   "wird er Lieder singen. }
+    \line {   "   " Thron Gottes wird er Lieder singen. }
 
 
     \line { "   " \italic { Refrain ...}  }
