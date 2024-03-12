@@ -24,7 +24,6 @@
   \context {
     % adjust space between staff and lyrics and between the two lyric lines
     \Lyrics
-    %\override LyricText.font-size = #-0.1
     \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
                                                                     (basic-distance . 4.5)
                                                                     (padding . 1.5)

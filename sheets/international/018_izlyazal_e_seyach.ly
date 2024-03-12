@@ -118,22 +118,22 @@
       \line {   "   " от тоя благ и мил напев; }
       \line {   "   " и просиява, и възкръсва, }
       \line {   "   " и благославя тоз посев. }
-      \line { " " }
+       \vspace #0.5
       \line { "   " \italic {Припев: } }
       \line {  "   " Безценен дар е Любовта, }
       \line { "   " красиво чувство – обичта }
       \line { "   " и благо дело – милостта, }
       \line {  "   " обилен извор – Мъдростта.}
 
-      \line { " " }
+       \vspace #0.5
       \line { "   " \italic {Припев ...} }
 
-      \line { " " }
+       \vspace #0.5
       \line { 3. Любов Вселената облива, }
       \line {   "   " от обич грее всяка твар; }
       \line {   "   " живот в живота се прелива, }
       \line {   "   " тук няма вече млад и стар. }
-      \line { " " }
+      \vspace #0.5
       \line { "   " \italic {Припев ...} }
     }
     \"rightBraces018"
@@ -148,22 +148,22 @@
       \line {   "   " ot toja blag i mil napev; }
       \line {   "   " i prosijava, i văzkrăsva, }
       \line {   "   " i blagoslavja toz posev. }
-      \line { " " }
+       \vspace #0.5
       \line { "   " \italic {Pripev: } }
       \line {  "   " Bezcenen dar e Ljubovta, }
       \line { "   " krasivo čuvstvo – običta }
       \line { "   " i blago delo – milostta, }
       \line {  "   " obilen izvor – Mădrostta.}
 
-      \line { " " }
+     \vspace #0.5
       \line { "   " \italic {Pripev ...} }
 
-      \line { " " }
+       \vspace #0.5
       \line { 3. Ljubov Vselenata obliva, }
       \line {   "   " ot obič gree vsjaka tvar; }
       \line {   "   " život v života se preliva, }
       \line {   "   " tuk njama veče mlad i star. }
-      \line { " " }
+      \vspace #0.5
       \line { "   " \italic {Pripev ...} }
     }
     }
