@@ -149,7 +149,7 @@
       \line {"  "}
       \line {"  "}
       \fill-line { "" ""  \italic {"Петър Ганев    "} }
-      \fill-line { "" ""  \italic {"София 2006 г.   "} }
+      \fill-line { "" ""  \italic {"София, 2006 г.   "} }
     }
   }
 
