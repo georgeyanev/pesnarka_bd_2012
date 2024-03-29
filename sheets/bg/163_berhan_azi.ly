@@ -90,17 +90,17 @@
       \time 9/16 \break
       \tempoFunc "Allegretto" 8 "108"
       dis16[dis] e[e] e8 a16[gis f] | \noBreak
-      \acciaccatura { f[gis] } f[e] f[gis!] f8 e16[e e] | \noBreak
-      e[f] gis[a] \acciaccatura { f[gis!] } f8 e16[e gis] | \break
+      \acciaccatura { f[gis] } f[e] f[gis?] f8 e16[e e] | \noBreak
+      e[f] gis[a] \acciaccatura { f[gis] } f8 e16[e gis] | \break
 
       \acciaccatura { f[gis] } f[e] dis[e] c8 c16[c c] | \bar ".|:" \noBreak
 
-      b[c] dis[e] \acciaccatura { c[dis!] } c8 b16[b dis] | \break
+      b[c] dis[e] \acciaccatura { c[dis] } c8 b16[b dis] | \break
 
       \acciaccatura { c[dis!] } c[b] b[gis]  a8 a16[a a] \bar ":|.|:" | \noBreak
 
 
-      g![c] b[g] a8 a16[a a] | \noBreak
+      g?[c] b[g] a8 a16[a a] | \noBreak
       g[c] b[g] a8 a16[a a] | \bar ":|."
 
     }
