@@ -39,6 +39,9 @@
       жи -- вот на бла -- гост -- та, __  в~но -- ви -- я све -- тъл
       тоз жи -- вот, __  жи -- вот на ра -- дост -- та. __
     }
+    \addlyrics {
+      \repeat unfold 32 { \skip 2 } (*жи -- вот.)
+    }
 
     \header {
       title = \titleFunc #'ref_desc_1 "Зората на новия живот" "Zorata na Novija život"
