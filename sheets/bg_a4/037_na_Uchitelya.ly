@@ -72,9 +72,9 @@
 
 
 
-  \markup \fontsize #bgCoupletFontSize {
+  \markup \abs-fontsize #12 {
     \hspace #15
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
       \line { 2.  Господи, Ти мой Учител, }
       \line {   "   " в стъпките Си ме води }
@@ -85,7 +85,13 @@
       \line {   "   " и Божествена Любов; }
       \line {   "   " за любов към всички братя }
       \line {   "   " винаги да съм готов. }
-      \line { " " }
+
+
+    }
+    \"rightBraces037"
+    \hspace #5
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
+    \column {
       \line { 4. И във дни на изпитание }
       \line {   "   " Ти бъди ми канара, }
       \line {   "   " тъй за Тебе ще живея }
@@ -96,9 +102,8 @@
       \line {   "   " о, любезни мой Учител,  }
       \line {   "   " дай ми Твойта благодат! }
     }
-    \"rightBraces037"
 
   } % markup
-  
+
 
 } % bookpart

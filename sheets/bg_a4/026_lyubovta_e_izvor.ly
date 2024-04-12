@@ -42,8 +42,8 @@
   } % score
 
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #9.5
+  \markup \abs-fontsize #12 {
+    \hspace #20
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
 
@@ -55,31 +55,14 @@
       \line {   "   " семенцата драги,}
       \line {   "   " от които никнат}
       \line {   "   " добрините благи.}
-
-
-
-    }
-
-    \hspace #4
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
-    \column {
+      \line {   "   "светлина чудесна.}
+      \line {   "   "}
       \line { "   " \italic {Припев:} }
       \line {   "   "Работи със нея }
       \line {   "   " в милости желани, }
       \line {   "   "   помощта носи ѝ }
       \line {   "   "  за души страдални. }
-
-
-    } %column
-
-  } % markup
-
-  \pageBreak
-
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #20
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
-    \column {
+      \line {   "   "}
       \line { 3. Таз велика тайна }
       \line {   "   " кой добре разбира, }
       \line {   "   " свойта душа мила }
@@ -87,10 +70,15 @@
       \line {   "   " както кринът бели}
       \line {   "   "на роса небесна}
       \line {   "   "и на слънчевата}
-      \line {   "   "светлина чудесна.}
-      \line {   "   "}
-      \line { "   " \italic {Припев ...} }
-      \line {   "   "}
+
+
+
+    }
+
+    \hspace #5
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
+    \column {
+
       \line { 4. Слънцето, което }
       \line {   "   " оживотворява }
       \line {   "   " овреме човека,}
@@ -102,6 +90,7 @@
       \line {   "   "}
       \line { "   " \italic {Припев ...} }
       \line {   "   "}
+
       \line { 5. Плодове тъй сладки, }
       \line {   "   " в Любовта узрели, }
       \line {   "   "най-блажен ще бъде}
@@ -112,9 +101,13 @@
       \line {   "   "песни ще да пее.}
       \line {   "   "}
       \line { "   " \italic {Припев ...} }
-    }
+
+
+
+    } %column
 
   } % markup
+
 
 
 } % bookpart

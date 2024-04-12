@@ -36,13 +36,13 @@
   \markup {
     \fill-line
     \general-align #Y #DOWN {
-      \epsfile #X #51 #"../../img/bd_image.eps"
+      \epsfile #X #68 #"../../img/bd_image.eps"
     }
   }
 
   \markup { {  \vspace #0.4 } }
 
-  \markup \fontsize  #+5 { \fill-line \bold  {" Беинса Дуно "} }
+  \markup \abs-fontsize #16 { \fill-line {" Беинса Дуно "} }
 
   % include foreign translation(s) of the song
   %

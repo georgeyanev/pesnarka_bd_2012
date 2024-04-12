@@ -23,29 +23,28 @@
       ""
     }
 
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
+    left-margin = 2\cm
+    right-margin = 2\cm
+    top-margin = 2\cm
+    bottom-margin = 2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
 
 
   }
 
   \tocItem \markup "Предговор към първото издание"
-  \markup \fontsize  #+3.0 { \fill-line \bold {"ПРЕДГОВОР КЪМ ПЪРВОТО ИЗДАНИЕ"} }
+  \markup \abs-fontsize #14 { \fill-line \bold {"ПРЕДГОВОР КЪМ ПЪРВОТО ИЗДАНИЕ"} }
 
-  \markup \fontsize #+2.5 {
-    \vspace #1.5 \override #'(baseline-skip . 2.8)
+  \markup \abs-fontsize #12 {
+    \vspace #1.5 \override #'(baseline-skip . 3.2)
     \justify {
-
       Песните в този сборник са въплъщение на малка част от вниманието, любовта и значението, които Учителя отдава на музиката като средство за пробуждане на Божественото съзнание у хората – у тези, които живеят с Неговото слово. Тяхната поява на
       бял свят е едно естествено явление, тъй като са рожба на свещен проблясък, в който една Божествена идея се превръща в музика.
 
     }
   }
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.8)
+  \markup \abs-fontsize #12 {
+    \vspace #0.8 \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
 
@@ -59,8 +58,8 @@
     }
   }
 
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.8)
+  \markup \abs-fontsize #12 {
+    \vspace #0.8 \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
       И в първия раздел има много песни, също дадени от Учителя,
@@ -74,8 +73,8 @@
       упование и чиста радост.
     }
   }
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.8)
+  \markup \abs-fontsize #12 {
+    \vspace #0.8 \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
 
@@ -92,8 +91,8 @@
       човешката душа нова стойност.
     }
   }
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.8)
+  \markup \abs-fontsize #12 {
+    \vspace #0.8 \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
 
@@ -103,8 +102,8 @@
 
     }
   }
-  \markup \fontsize #+2.5 {
-    \vspace #0.6 \override #'(baseline-skip . 2.8)
+  \markup \abs-fontsize #12 {
+    \vspace #0.8 \override #'(baseline-skip . 3.2)
     \justify {
 
 
@@ -114,8 +113,8 @@
   }
 
 
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.8)
+  \markup \abs-fontsize #12 {
+    \vspace #0.8 \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
 
@@ -127,8 +126,8 @@
     }
   }
 
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.8)
+  \markup \abs-fontsize #12 {
+    \vspace #0.8 \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
       Както всичко, което Учителя дава в работата си със своите
@@ -140,8 +139,8 @@
     }
   }
 
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.8)
+  \markup \abs-fontsize #12 {
+    \vspace #0.8 \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
 
@@ -151,24 +150,30 @@
       различава от това на останалите песни.
     }
   }
-
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.8)
+  \markup \abs-fontsize #12 {
+    \vspace #0.8 \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
       Четците и любителите на тоя вид музика, присъствали при
       раждането на тези песни (а те не са малко, защото Учителя, както
       бе споменато по-горе, пееше или свиреше на своята цигулка
       по време на някоя утринна беседа), са доловили най-добре
-      вътрешната психологична причина за тяхното появяване и прякото
+      вътрешната психологична причина за
+    }
+  }
+
+  \markup \abs-fontsize #12 {
+    \vspace #0.8 \override #'(baseline-skip . 3.2)
+    \justify {
+      тяхното появяване и прякото
       им въздействие върху себе си. Те са свидетели как Словото става
       песен, приобщило всички, които съзнателно вървят по пътя на
       ученичеството към изобилния Живот.
     }
   }
 
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.8)
+  \markup \abs-fontsize #12 {
+    \vspace #0.8 \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
 
@@ -183,7 +188,7 @@
 
 
 
-  \markup \fontsize #+3 \raise #0 \override #'(baseline-skip . 2.8) {
+  \markup \abs-fontsize #12 \raise #0 \override #'(baseline-skip . 3.2) {
     \column {
       \line {"  "}
       \line {"  "}

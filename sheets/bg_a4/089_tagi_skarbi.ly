@@ -22,11 +22,11 @@
       d''8 d'' e'' d'' d''8 c'' c'' b' b'8 a' a' g' | \bar ":.|.:" \break
 
 
-      \time 7/4 b' b' c'' a' a' g' g' fis' fis' e' e' d' d' d' | \bar ":|."
+      \time 7/4 b' b' c'' a' a' g' g' fis' fis' e' e' d' d' d' | \break \bar ":|."
 
       \time 5/4 b d' b d' b d'
 
-      g' fis' e' c' | \break
+      g' fis' e' c' |
 
       c' e' c' e'  c' e' fis' e' d' b  |  \break
 

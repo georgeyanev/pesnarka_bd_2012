@@ -28,11 +28,11 @@
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
 
     % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 14)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
+    % system-system-spacing =
+    % #'((basic-distance . 14)
+    %    (minimum-distance . 6)
+    %    (padding . 1)
+    %    (stretchability . 12))
   }
 
   \header {

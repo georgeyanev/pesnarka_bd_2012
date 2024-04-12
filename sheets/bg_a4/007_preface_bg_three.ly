@@ -23,18 +23,18 @@
       ""
     }
 
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
+    left-margin = 2\cm
+    right-margin = 2\cm
+    top-margin = 2\cm
+    bottom-margin = 2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
   }
 
   \tocItem \markup "Предговор към третото издание"
-  \markup \fontsize  #+3.0 { \fill-line \bold {"ПРЕДГОВОР КЪМ ТРЕТОТО ИЗДАНИЕ"} }
+  \markup  \abs-fontsize #14 { \fill-line \bold {"ПРЕДГОВОР КЪМ ТРЕТОТО ИЗДАНИЕ"} }
 
-  \markup \fontsize #+2.5 {
-    \vspace #1.5 \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #12 {
+    \vspace #1.5 \override #'(baseline-skip . 3.2)
     \justify {
 
       В тези встъпителни думи е представен процесът на
@@ -43,10 +43,10 @@
       екипът, осъществил редакторския процес.
     }
   }
- \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #12 {
+    \vspace #0.8  \override #'(baseline-skip . 3.2)
     \justify {
-     \hspace #1.5
+      \hspace #1.5
 
       Известно е, че Учителя Петър Дънов никога не е записвал
       лично своите песни. Най-често той е изсвирвал първоначално на
@@ -60,10 +60,10 @@
       много песни и мелодии са останали незаписани.
     }
   }
- \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #12 {
+    \vspace #0.8  \override #'(baseline-skip . 3.2)
     \justify {
-     \hspace #1.5
+      \hspace #1.5
 
       В нотописа на първото цялостно издание на песните на
       Учителя Петър Дънов, съставено и публикувано от Мария
@@ -74,10 +74,10 @@
       не винаги правени от професионални музиканти.
     }
   }
- \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #12 {
+    \vspace #0.8  \override #'(baseline-skip . 3.2)
     \justify {
-     \hspace #1.5
+      \hspace #1.5
       Ако сборникът на Мария Тодорова се сравни с предишното
       издание от 1938 г., могат да се открият доста разлики. На практика
       с течение на времето някои песни са претърпели два вида промени:
@@ -91,10 +91,10 @@
     }
   }
 
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #12 {
+    \vspace #0.8  \override #'(baseline-skip . 3.2)
     \justify {
-     \hspace #1.5
+      \hspace #1.5
 
       От гледна точка на нотния правопис настоящото трето
       издание се придържа към изискванията на съвременните нотни
@@ -106,23 +106,12 @@
     }
   }
 
-\markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #12 {
+    \vspace #0.8  \override #'(baseline-skip . 3.2)
     \justify {
-     \hspace #1.5
-     Целта на редакторската работа е оптимално да съхрани
-      музикалния и сло-
-     
-       }
-  }
-
-
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
-    \justify {
-    
-      
-весен текст, разполагайки го логично в съответни размери, съобразени с хармоничния строеж на мелодията. Според
+      \hspace #1.5
+      Целта на редакторската работа е оптимално да съхрани
+      музикалния и словесен текст, разполагайки го логично в съответни размери, съобразени с хармоничния строеж на мелодията. Според
       нас подборът на тоналностите при Учителя не е случаен. Той изразява връзката между цветове, тонове, планети и числа и всеки опит
       за по-удобно транспониране отнема нещо от цвета на звученето.
       От чисто историческа гледна точка, пръв Филип Стоицев
@@ -144,10 +133,9 @@
     }
   }
 
-    \markup \fontsize #+3 \raise #0 \override #'(baseline-skip . 2.7) {
+  \markup \abs-fontsize #12 \raise #0 \override #'(baseline-skip . 3.2) {
     \column {
-      \line {"  "}
-      \line {"  "}
+  
       \fill-line { "" ""  \italic {"Петър Ганев    "} }
       \fill-line { "" ""  \italic {"София, 2006 г.   "} }
     }
