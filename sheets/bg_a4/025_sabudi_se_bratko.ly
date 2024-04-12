@@ -74,8 +74,8 @@
 
   } % score
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #3.5
+  \markup \abs-fontsize #12 {
+    \hspace #13
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
 
@@ -93,7 +93,7 @@
     }
     \"rightBraces025"
 
-    \hspace #4
+    \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
 

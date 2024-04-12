@@ -39,11 +39,11 @@
 
 
 
-  \markup \fontsize  #+6 {\hspace #25 \bold {"Петър Дънов"} }
+  \markup \abs-fontsize #20 {\hspace #40 \bold {"Петър Дънов"} }
 
-  \markup {  \vspace #5.5 }
+  \markup {  \vspace #12.5 }
   \markup {
-    \hspace #25
+    \hspace #40
     \column {
       \override #'(thickness . 1.5)
       \override #'(span-factor . 1/2)
@@ -55,10 +55,10 @@
   \markup \fontsize  #+2  { {  \vspace #0.2 } }
 
 
-  \markup \fontsize  #+8.6 { \hspace #25 \bold {"Песни от Учителя"} }
-   
+  \markup \abs-fontsize #31 {  \hspace #40 \bold {"Песни от Учителя"} }
+
   \markup {
-    \hspace #25
+    \hspace #40
     \column {
       \vspace #5.5
       \override #'(thickness . 1.5)
@@ -67,23 +67,23 @@
 
     }
   }
-   
-  % \markup \fontsize  #+2  { {  \vspace #.5 } }
-  % \markup \fontsize  #+3.5 {\hspace #25 {"Издадени от"} }
-  % \markup \fontsize  #+2  { {  \vspace #0.1 } }
-  % \markup \fontsize  #+2.5 { \hspace #25 {"Петър Ганев" \concat { \raise #-0.9 \fontsize #6 "·" } "Мария Кирева" } }
+
+  \markup \fontsize  #+2  { {  \vspace #.5 } }
+  \markup \abs-fontsize #14 {\hspace #40 {"Издадени от"} }
+  \markup \fontsize  #+2  { {  \vspace #0.1 } }
+  \markup \abs-fontsize #14 {  \hspace #40 {"Петър Ганев" \concat { \raise #-0.9 \fontsize #6 "·" } "Мария Кирева" } }
 
 
 
-  \markup \fontsize  #+2  { {  \vspace #12 } }
+  \markup \fontsize  #+2  { {  \vspace #18 } }
 
-  \markup \fontsize  #+3.5 {\hspace #25 {"Издателство „Бяло Братство“ "} }
+  \markup \abs-fontsize #16 {\hspace #40 {"Издателство „Бяло Братство“ "} }
   \markup \fontsize  #+2.5  { {  \vspace #0.5 } }
   \markup {
     \hspace #-1
     \fill-line
     \general-align #Y #DOWN {
-      \epsfile #X #7 #"../../img/logo_large.eps"
+      \epsfile #X #10 #"../../img/logo_large.eps"
     }
     \hspace #0.1
   }
@@ -91,7 +91,7 @@
 
 
   \markup {
-    \hspace #25
+    \hspace #40
     \column {
       \override #'(thickness . 1.5)
       \override #'(span-factor . 1/2)

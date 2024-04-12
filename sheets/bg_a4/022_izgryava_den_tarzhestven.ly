@@ -7,15 +7,15 @@
 "rightBraces022" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -20.1 )
-    \right-brace #18
+    \translate #'(0 . -25.0 )
+    \right-brace #22
 
 
 
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -20.7 )
+    \translate #'(0 . -25.7 )
     2
   }
 }
@@ -65,12 +65,11 @@
 
   } % score
 
-  \pageBreak
-
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #15
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+  \markup \abs-fontsize #12 {
+    \hspace #13
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
+
 
       \line { 2. И носи радост за душата, }
       \line {   "   " и прогласява свободата,}
@@ -93,7 +92,10 @@
 
       \line {   "   " и вечно тя го подмладява. }
 
-      \line { " " }
+    }    \"rightBraces022"
+    \hspace #5
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
+    \column {
       \line {  3.  О, ден прекрасен, вечно благо, }
       \line {   "   " кому за тебе не е драго? }
       \line {   "   " За всичките години}
@@ -102,7 +104,7 @@
       \line { " " }
       \line { "   " \italic {Припев ... } }
     }
-    \"rightBraces022"
+
   } % markup
 
 } % bookpart

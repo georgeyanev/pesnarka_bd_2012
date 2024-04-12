@@ -1,6 +1,6 @@
 \version "2.24.3"
 \layout {
-  indent = 0.0\cm % remove first line indentation
+  indent = 0.5\cm % remove first line indentation
   ragged-last = ##f % do spread last line to fill the whole space
   \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
   \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
@@ -24,14 +24,16 @@
     %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
   }
 
-  \context {
-    % adjust space between staff and lyrics and between the two lyric lines
-    \Lyrics
-    \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
-                                                                    (basic-distance . 4.5)
-                                                                    (padding . 0.5)
-                                                                    )
-    \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-    includeGraceNotes = ##t
-  }
+  \override Lyrics.LyricText.font-size = #-0.1
+
+  % \context {
+  %   % adjust space between staff and lyrics and between the two lyric lines
+  %   \Lyrics
+  %   \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
+  %                                                                   (basic-distance . 4.5)
+  %                                                                   (padding . 0.5)
+  %                                                                   )
+  %   \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
+  %   includeGraceNotes = ##t
+  % }
 } % layout

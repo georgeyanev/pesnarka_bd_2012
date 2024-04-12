@@ -17,19 +17,18 @@
       \tempoFunc "Moderato" 8 "160"
       \partial 8
       \autoBeamOff
-      c'8 |e'4 g'8|c''4 g'8 |a'4 g'8 |c''4.| g'4. ~ |  g'4 g'8 |\break
-      c''4 c''8| \once \autoBeamOn c''8 ([  b'8  ])  \noBeam  c''8 |d''4 b'8  |c''4. ~ | c''4  a'8| a'4 a'8| \break
-      d''4  c''8| b'4 a'8| a'4. | g'4. ~ | g'4  g'8 | a'4 g'8 | g'4 f'8 | \break
+      c'8 |e'4 g'8|c''4 g'8 |a'4 g'8 |c''4.| g'4. ~ |  g'4 g'8 |
+      c''4 c''8| \once \autoBeamOn c''8 ([  b'8  ])  \noBeam  c''8 |  \break d''4 b'8  |c''4. ~ | c''4  a'8| a'4 a'8|
+      d''4  c''8| b'4 a'8| a'4. | g'4. ~ | g'4  g'8 | a'4 g'8 \break | g'4 f'8 |
       e'4 d'8| c'4. ~ | c'4.  | \bar "||"
       \tempoFunc "Più mosso" 8 "176"
-      g'8  fis'8 g'8 | a'4 g'8 | g'4 g'8 | c''4. ~ | \break
-      c''4.  | c''8 b'8 c''8| d''4 c''8 | b'4  b'8 | b'4. ~ | b'4   a'8| b'4 a'8 | \break
-      g'4 fis'8 | g'4. ~ | g'4.  | a'8 g'8 f'8 | f'4 f'8 | e'4 f'8 | g'4. ~ | \break
-      g'4  g'8 | a'4 g'8 | g'4 fis'8 | g'4. ~ | g'4. | d'8 e'8 f'?8| f'4 f'8 | \break
-      e'4 f'8 | g'4. ~ |g'4  e'8 | g'4 f'8 | e'4 d'8 | c'4. ~ | c' 4 s8 | \bar "|."
+      g'8  fis'8 g'8 | a'4 g'8 | g'4 g'8 | c''4. ~ |  \break
+      c''4.  | c''8 b'8 c''8| d''4 c''8 | b'4  b'8 | b'4. ~ | b'4   a'8| b'4 a'8 | g'4 fis'8 | g'4. ~ | g'4.  |  \break
+      a'8 g'8 f'8 | f'4 f'8 | e'4 f'8 | g'4. ~ | g'4  g'8 | a'4 g'8 | g'4 fis'8 | g'4. ~ | g'4. | \break
+      d'8 e'8 f'?8| f'4 f'8 | e'4 f'8 | g'4. ~ |g'4  e'8 | g'4 f'8 | e'4 d'8 | c'4. ~ | c' 4 s8 | \bar "|."
     }
 
-    \addlyrics {
+    \addlyrics  {
       "1. Зо" -- ра се чуд -- на за -- зо -- ря -- ва, __ зо --
       ра на све -- тъл нов жи -- вот; __ с~ве -- ли -- ко --
       ле -- пи -- е о -- гря -- ва __  по -- спре -- ли -- я се
@@ -50,10 +49,9 @@
     \midi{}
   } % score
 
-  \pageBreak
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #15
+  \markup \abs-fontsize #12 {
+    \hspace #10
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
       \line { 2. И птички въздуха изпълнят }
@@ -80,6 +78,10 @@
       \line { "   " \italic {Припев ...} }
       \line { " " }
 
+    }
+    \hspace #5
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
+    \column {
       \line { 4. Лъчи от  любовта ни вливат }
       \line {   "   " в гърдите жива топлина, }
       \line {   "   " със сладка вяра ни повдигат }

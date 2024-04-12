@@ -4,9 +4,9 @@
 \include "include/globals.ily"
 
 \bookpart {
-  
-   \tocAct \markup"Братски песни"
-    \paper {
+
+  \tocAct \markup"Братски песни"
+  \paper {
     print-all-headers = ##f
     print-page-number = ##f
     print-first-page-number = ##f
@@ -25,16 +25,16 @@
       ""
     }
 
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
+    left-margin = 2\cm
+    right-margin = 2\cm
+    top-margin = 2\cm
+    bottom-margin = 2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
   }
 
-  \markup { {  \vspace #13.2 } }
+  \markup { {  \vspace #22.2 } }
 
- \markup \fontsize  #+7 { \fill-line \bold {"БРАТСКИ ПЕСНИ"} }
+  \markup \abs-fontsize #24 { \fill-line \bold {"БРАТСКИ ПЕСНИ"} }
 
   % include foreign translation(s) of the song
   %

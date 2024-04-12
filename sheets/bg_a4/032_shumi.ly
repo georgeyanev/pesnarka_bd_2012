@@ -49,9 +49,9 @@
   } % score
 
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \markup \abs-fontsize #12 {
+    \hspace #15
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
 
       \line {   2.  "   "  И вятър вее, }

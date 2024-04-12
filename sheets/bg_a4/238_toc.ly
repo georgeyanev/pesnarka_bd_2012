@@ -23,24 +23,24 @@
       ""
     }
 
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
+    left-margin = 2\cm
+    right-margin = 2\cm
+    top-margin = 2\cm
+    bottom-margin = 2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
 
-    tocTitleMarkup = \markup \fontsize  #+7 \bold \column {
+    tocTitleMarkup = \markup \abs-fontsize #20 \bold \column {
       \fill-line { \null "Съдържание" \null }
        \vspace #1.5
     }
 
-    tocItemMarkup = \markup \fontsize  #+2.5 \fill-line {
-      \fromproperty #'toc:text \tocItemWithDotsMarkup \fromproperty #'toc:page
+    tocItemMarkup = \markup \abs-fontsize #12 {\fill-line {
+      \fromproperty #'toc:text \tocItemWithDotsMarkup \fromproperty #'toc:page }
     }
 
     tocActMarkup = \markup \large \column {
       \vspace #0.7
-      \fill-line { \null \fontsize #+3.5 \bold \fromproperty #'toc:text \null }
+      \fill-line { \null \abs-fontsize #16 { \bold \fromproperty #'toc:text \null } }
       \vspace #0.7
     }
   }

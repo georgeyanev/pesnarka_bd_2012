@@ -1,4 +1,5 @@
 \version "2.24.3"
+#(set-global-staff-size 19)
 
 \paper {
   #(set-paper-size "a4")

@@ -23,20 +23,20 @@
       ""
     }
 
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
+    left-margin = 2\cm
+    right-margin = 2\cm
+    top-margin = 2\cm
+    bottom-margin = 2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
 
 
   }
 
   \tocItem \markup "Предговор към второто издание"
-  \markup \fontsize  #+3.0 { \fill-line \bold {"ПРЕДГОВОР КЪМ ВТОРОТО ИЗДАНИЕ"} }
+  \markup \abs-fontsize #14  { \fill-line \bold {"ПРЕДГОВОР КЪМ ВТОРОТО ИЗДАНИЕ"} }
 
-  \markup \fontsize #+2.5 {
-    \vspace #1.5 \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #12 {
+    \vspace #1.5 \override #'(baseline-skip . 3.2)
     \justify {
 
       Настоящият сборник съдържа песни и инструментални
@@ -45,10 +45,10 @@
       Братство в България, и от негови ученици.
     }
   }
- \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #12 {
+    \vspace #0.8  \override #'(baseline-skip . 3.2)
     \justify {
-     \hspace #1.5
+      \hspace #1.5
 
       За база на това издание служи сборникът \italic"Песни" \italic"от" \italic"Учителя,"
       отпечатан през 1949 г. в София под редакцията на Мария
@@ -58,10 +58,10 @@
     }
   }
 
- \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #12 {
+    \vspace #0.8  \override #'(baseline-skip . 3.2)
     \justify {
-     \hspace #1.5
+      \hspace #1.5
 
       За първи път се публикуват шестнадесет творби от Учителя
       и шест текста към негови мелодии и теми. Включени са и десет
@@ -70,10 +70,10 @@
       Братство.
     }
   }
- \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #12 {
+    \vspace #0.8  \override #'(baseline-skip . 3.2)
     \justify {
-     \hspace #1.5
+      \hspace #1.5
 
       Направени са необходимите корекции на метроритмичната
       организация, съответстващи на строежа на музикалната мисъл.
@@ -90,7 +90,7 @@
 
 
 
-  \markup \fontsize #+3 \raise #0 \override #'(baseline-skip . 2.7) {
+  \markup \abs-fontsize #12 \raise #0 \override #'(baseline-skip . 3.2) {
     \column {
       \line {"  "}
       \fill-line { "" ""  \italic {"Благовест Жеков  "} }

@@ -33,7 +33,7 @@
   }
 
   \tocItem \markup "Предговор към настоящото издание"
-  \markup \abs-fontsize #14 { \fill-line \bold {"ПРЕДГОВОР КЪМ НАСТОЯЩОТО ИЗДАНИЕ"} }
+  \markup \abs-fontsize #16 { \fill-line \bold {"ПРЕДГОВОР КЪМ НАСТОЯЩОТО ИЗДАНИЕ"} }
 
 
 

@@ -6,28 +6,36 @@
 "rightBraces018" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -5.6 )
-    \right-brace #18
+    \translate #'(0 . -6.8 )
+    \right-brace #24
 
 
-    \translate #'(0 . -10 )
-    \right-brace #45
+    \translate #'(0 . -12.7 )
+    \right-brace #55
 
-    \translate #'(0 . -14.9 )
-    \right-brace #18
+  }
+  \column {
+    % repeat numbers
+    \translate #'(0 . -7.3 )
+    2
+
+    \translate #'(0 . -15.2 )
+    2
+  }
+}
+"rightBraces018_2" = \markup {
+  \column {
+    % repeat braces
+    \translate #'(0 . -6.8 )
+    \right-brace #24
+
 
 
 
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -6.2 )
-    2
-
-    \translate #'(0 . -12.2 )
-    2
-
-    \translate #'(0 . -18.9 )
+    \translate #'(0 . -7.3 )
     2
   }
 }
@@ -45,12 +53,12 @@
       \time 3/4
       \tempoFunc "Moderato" 4 "144"
 
-      \partial 4 g'4| e''2 d''4| c''2 b'4|d''2 c''4| b'2. (|a'2.) g'2. (| \break
+      \partial 4 g'4| e''2 d''4| c''2 b'4|d''2 c''4| b'2. (|a'2.) g'2. (|
 
-      g'4 ) r4 g'4 | a'2 a'4 | b'2 b'4 | c''2 d''4 | e''2.~ e''4 r4 e'' | \break
+      g'4 ) r4 g'4 | a'2 a'4 | \break  b'2 b'4 | c''2 d''4 | e''2.~ e''4 r4 e'' |
 
       \repeat volta 2 {
-        g''2 f''4 | e''2 d''4 | d''2 c''4 | e''2.| d''2. ( |d''4) r4 g'4| a'2 g'4| \break
+        g''2 f''4 | e''2 d''4 | d''2 c''4 | e''2.| d''2. ( |  \break d''4) r4 g'4| a'2 g'4|
 
         c''2 b'4 |
       }
@@ -61,8 +69,8 @@
 
       \repeat volta 2 {
         \tempoFunc "Più mosso" 4 "184"
-        \bar ".|:-||" c''2 c''4 | c''4 ( b'4 ) c''4 | d''2 c''4 | b'2. (| b'4 ) r4 b'4 | a'2 a'4 | \break
-        a'4 ( g'4 ) a'4 | b'2 a'4 | g'2. ( | g'4 ) r4 a'4 | a'2 a'4 | c''4 ( b'4) a'4 | a'2 e'4 |  \break
+        \bar ".|:-||" c''2 c''4 | c''4 ( b'4 ) c''4 | d''2 c''4 | b'2. (| b'4 ) r4 b'4 | a'2 a'4 |
+        a'4 ( g'4 ) a'4 | b'2 a'4 \break | g'2. ( | g'4 ) r4 a'4 | a'2 a'4 | c''4 ( b'4) a'4 | a'2 e'4 |  \break
       }
       \alternative {
         {  f'2. (|  f'4 )  r4 f'4 | f'2 f'4 | f'4 ( e'4 ) f'4 | g'2 f'4 |e'2. (| e'4 ) r4 g'4   \break }
@@ -70,7 +78,7 @@
           f'2. (|  f'4 ) r4 g'4 | g'2 g'4 | a'2
           \override Score.RehearsalMark.outside-staff-priority = #599
           \tempo"rit."  % places rit. below alternative bracket
-          a'4 | b'2 b'4 | c''2. ~ | c''2  \bar "|." \pageBreak
+          a'4 | b'2 b'4 | c''2. ~ | c''2  \bar "|."
         }
       }
     }
@@ -95,8 +103,8 @@
   } % score
 
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #15
+  \markup \abs-fontsize #12 {
+    \hspace #10
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
 
@@ -113,8 +121,12 @@
 
       \line { " " }
       \line { "   " \italic {Припев ...} }
+    }
+    \"rightBraces018"
+    \hspace #5
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
+    \column {
 
-      \line { " " }
       \line { 3. Любов Вселената облива, }
       \line {   "   " от обич грее всяка твар; }
       \line {   "   " живот в живота се прелива, }
@@ -122,7 +134,7 @@
       \line { " " }
       \line { "   " \italic {Припев ...} }
     }
-    \"rightBraces018"
+    \"rightBraces018_2"
   }
 
 

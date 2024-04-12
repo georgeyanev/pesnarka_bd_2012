@@ -55,10 +55,11 @@
 
 
 
-    \markup \fontsize #bgCoupletFontSize {
-      \hspace #5
-      \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \markup \abs-fontsize #12 {
+      \hspace #15
+      \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
       \column {
+
         \line {  2. Земята с чисти мисли}
 
         \line {   "   "да оградиме здраво}

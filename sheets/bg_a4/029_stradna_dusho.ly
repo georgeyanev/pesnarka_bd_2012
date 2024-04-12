@@ -19,10 +19,10 @@
 
       d'8 d' g'8 ([ a' ]) a'2 | \time 2/4 bes'8 ([ a' ])  bes' ([ c'' ])  |
 
-      \time 4/4 bes'4 a'2 a'8 a' | \break
-      d''4. d''8 c'' ([ d'' ]) d'' ([ c'' ]) \time 3/4  bes'4 a'2 |
-      \time 4/4  a'8 ([ bes' ]) c'' ([ d'' ]) c'' bes' a' g' |\break
-      \time 3/4  f'8 ([ g' ]) a'2 | \time 6/4  bes'4. a'8 bes' ([ a' ]) bes' ([ c'' ]) d'' ([ c'' ]) bes' ([ a' ]) \break |
+      \time 4/4 bes'4 a'2 a'8 a' |
+      d''4. d''8 c'' ([ d'' ]) d'' ([ c'' ]) | \break \time 3/4  bes'4 a'2 |
+      \time 4/4  a'8 ([ bes' ]) c'' ([ d'' ]) c'' bes' a' g' |
+      \time 3/4  f'8 ([ g' ]) a'2 | \break \time 6/4  bes'4. a'8 bes' ([ a' ]) bes' ([ c'' ]) d'' ([ c'' ]) bes' ([ a' ]) |
       \time 3/4  |a'8 ([ g'8 ]) a'2 | \time 6/4  d'4. e'8 f'4\staccato e'4\staccato d'\staccato cis'\staccato | \time 4/4  e'2 d' | \bar "|." \break
 
     }
@@ -43,10 +43,9 @@
     } % score
 
 
-
-    \markup \fontsize #bgCoupletFontSize {
-      \hspace #4
-      \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \markup \abs-fontsize #12 {
+      \hspace #15
+      \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
       \column {
         \line {   2. И гладувам, и жадувам,}
 

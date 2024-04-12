@@ -13,6 +13,7 @@ cat \
     ../007_preface_bg_three.ly \
     ../007_preface_bg.ly \
     ../008_about_music_bg.ly \
+    ../007_blank_page.ly \
     ../010_bratski_pesni.ly \
     ../016_zorata_na_noviya_zhivot.ly \
     ../018_izlyazal_e_seyach.ly \
