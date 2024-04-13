@@ -10,7 +10,7 @@
   \score {
     \include "include/score-layout.ily"
 
-   \new Voice \absolute {
+    \new Voice \absolute {
       \clef treble
       \key g \major
       \time 2/4
@@ -46,7 +46,7 @@
     }
 
     \addlyrics {
-       Brat -- stvo, e -- din -- stvo ni -- e is -- ka -- me,
+      Brat -- stvo, e -- din -- stvo ni -- e is -- ka -- me,
       zo -- va na Lju -- bov -- ta ni -- e pus -- ka -- me, mi -- ra na ra -- dost -- ta
       ni -- e vi -- ka-- me: blag ži -- vot v~nas da vli -- va -- me,
       blag ži -- vot v~nas da vli -- va -- me, blag ži -- vot v~nas
