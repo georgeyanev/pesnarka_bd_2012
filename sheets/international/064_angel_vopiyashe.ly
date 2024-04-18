@@ -45,7 +45,7 @@
 
       c8([ bes a g]) f([ e a g]) \bar "|"
       f4.( e8) d([ e16 f] d4) d2 r8 d \bar "|"  \break
-      \pageBreak
+
 
       g4( \acciaccatura { f16 [g] } f4 g a \acciaccatura { f16 [g] } f4 e8[  f]) \bar "|"
       d4.( e8) c4( d) \bar "|"  \break
@@ -110,6 +110,7 @@
       тва __ Тво -- е -- го. __
     }
 
+
     \addlyrics {
       An -- gel vo -- pi -- ja -- -- -- še
       Bla -- go -- dat -- nej: Čis -- ta -- ja __ De -- vo,
@@ -129,10 +130,9 @@
       o -- -- -- -- -- -- ne! Ti že,
       čis -- ta -- ja, kra -- suj -- -- sja,
       Bo -- go -- ro -- -- -- di -- ce, __
-      o vo -- sta -- "ni – i      " rož -- "des-"
+      o vo -- sta -- "ni – i      " rož -- "-des-"
       tva __ Tvo -- e -- go. __
     }
-
     \header {
       title = \titleFunc "Ангел вопияше" "Angel vopijaše"
     }
@@ -141,6 +141,7 @@
 
   } % score
 
+  \markup \empty-two
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/064_Angel_vopiashe_lyrics_de.ly"

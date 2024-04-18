@@ -105,14 +105,14 @@
       \new Lyrics \lyricsto "tempVoice1" {
         "(2.,3.)...ди" -- шаш, де -- те,...
       }
-     \new Lyrics \lyricsto "tempVoice1" {
+      \new Lyrics \lyricsto "tempVoice1" {
         "(2.,3.)...di" -- šaš, de -- te,...
       }
 
       \new Lyrics \lyricsto "tempVoice2" {
         "(2.)...доб" -- ро, сър -- це.
       }
-        \new Lyrics \lyricsto "tempVoice2" {
+      \new Lyrics \lyricsto "tempVoice2" {
         "(2.)...dob" -- ro, săr -- ce.
       }
     >>
@@ -127,8 +127,10 @@
 
 
 
-  \markup \fontsize #bgCoupletFontSize {
-    %\hspace #1
+  \markup \empty-two
+
+  \markup \abs-fontsize #10 {
+    \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
@@ -144,7 +146,7 @@
 
       \line {   "   "ще имаш, дете.}
 
-      \line {   "   "}
+      \vspace #0.5
 
       \line {   3. Кога дълбоко дишаш, дете,}
 
@@ -175,7 +177,7 @@
 
       \line {   "   "šte imaš, dete.}
 
-      \line {   "   "}
+      \vspace #0.5
 
       \line {   3. Koga dălboko dišaš, dete,}
 

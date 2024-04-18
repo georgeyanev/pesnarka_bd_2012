@@ -18,11 +18,11 @@
       \autoBeamOff
       \partial 4
 
-      d'8 fis'8 | a'4 d''4 | a'4 d'8 e'8 | fis'4 e'8 e'8 \break |
-      \time 3/4  d'2 d''8 cis''8 | b'4 a'4 fis'8 g'8 | \time 2/4  a'4 b'8 a'8 | \time 3/4  a'2 e''8 d''8 \break |
-      cis''4 b'4 a'8 b'8| \time 2/4 a'4 b'8 a'8 | \time 3/4 a'2 b'8 a'8 |\break
-      g'4 g'4 fis'8 g'8 | \time 2/4  a'4 b'8 a'8 | \time 3/4  a'2
-      a'8^\mf a'8  \break
+      d'8 fis'8 | a'4 d''4 | a'4 d'8 e'8 | fis'4 e'8 e'8  |
+      \time 3/4  d'2 d''8 cis''8 | \break b'4 a'4 fis'8 g'8 | \time 2/4  a'4 b'8 a'8 | \time 3/4  a'2 e''8 d''8 |
+      cis''4 b'4 a'8 b'8|  \break \time 2/4 a'4 b'8 a'8 | \time 3/4 a'2 b'8 a'8 |
+      g'4 g'4 fis'8 g'8 | \time 2/4  a'4 b'8 a'8 | \break \time 3/4  a'2
+      a'8^\mf a'8
       \repeat volta 3 {
         d''4 a'4 b'8 a'8 |  d''4 a'4 e''8 d''8 |  cis''4 b'4 a'8 b'8 \break |
         a'4 a'4 b'8 a'8 | g'4 g'4 fis'8 g'8 | a'4 a'4 d'8 e'8 \time 2/4 \break |
@@ -75,9 +75,9 @@
 
   } % score
 
-  \pageBreak
 
 
+  \markup \empty-two
   % include foreign translation(s) of the song
   \include "../../lyrics/de/024_blagoslavyay_lyrics_de.ly"
 

@@ -118,7 +118,7 @@
 
       \line {   "   " nosete pravda, mir, ljubov!“.}
 
-       \vspace #0.5
+      \vspace #0.5
 
       \line {   3.  Tuk dolu njama mir,}
 
@@ -128,7 +128,7 @@
 
       \line {   "   " za mir i pravda blaga vest!}
 
-       \vspace #0.5
+      \vspace #0.5
 
       \line {   4.  Napred, čada, napred,}
 

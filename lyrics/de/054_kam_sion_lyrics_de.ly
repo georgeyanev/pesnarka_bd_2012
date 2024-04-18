@@ -3,42 +3,55 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Nach Zion" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10 {
+
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
 
-    \line { 1. Mit Adlerschwingen, oh geliebtes Zion, }
+    \line { 1. Mit Adlerschwingen, unser geliebtes Zion, }
 
-    \line { "   " fliegen wir heute zielstrebig gemeinsam zu dir.}
+    \line { "   " fliegen wir heute zielstrebig }
+    
+    \line { "   " gemeinsam zu dir.}
 
     \line { "   "Der Tod erschreckt uns nicht mehr, }
 
     \line { "   "in uns lebt heiliger Geist, }
 
-    \line { "   "gleichermaßen erfreuen uns das Diesseits und das Jenseits.}
+    \line { "   "gleichermaßen erfreuen uns }
 
-    \line { " " }
+    \line { "   " das Diesseits und das Jenseits.}
+
+      \vspace #0.5
     \line { 2. Über das Fleisch werden wir siegen}
 
     \line { "   "mit Mut und mit neuer Heldentat, }
 
-    \line { "   " die Herzen werden wir zum Schmelzen bringen}
+    \line { "   " die Herzen werden wir zum Schmelzen }
 
-    \line { "   " mit der Liebe Christi.}
+    \line { "   " bringen mit der Liebe Christi.}
 
-    \line { " " }
-    \line { "   " Erstrahle, heiliges Zion,}
-
-    \line { "   "schnell fliegen wir schon.}
-
-    \line { "   "Vor dem Gott in dir werden wir uns bald }
-
-    \line { "   "mit Geist verneigen.}
+  
 
 
 
   }
+
+     \hspace #1
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+
+  \column {
+
+    \line { 3. Erstrahle, heiliges Zion,}
+
+    \line { "   "schnell fliegen wir schon.}
+
+    \line { "   "Vor dem Gott in dir werden wir }
+
+    \line { "   " uns bald mit Geist verneigen.}
+
+
+   }
 
 }

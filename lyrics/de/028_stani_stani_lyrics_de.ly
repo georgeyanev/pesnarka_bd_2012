@@ -4,7 +4,6 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-  \hspace #25
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
     \line { 1. Steh auf, steh auf }
@@ -15,16 +14,15 @@
     \line {   "   "und beginne mit Liebe;}
     \line {   "   "stehe auf, stehe auf }
     \line {   "   "und kleide dich in Wahrheit.}
-
-     \vspace #0.5
+  }
+  \hspace #1
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+    \column { 
     \line {  2. Kleide dich in Wahrheit}
     \line {   "   "und erbaue immer mit ihr,}
     \line {   "   "sie wird dich sogar erneuern}
     \line {   "   "und mit Geist dich erleuchten.}
-    \line { " " }
-
-
-  }
+    }
 }
 
 

@@ -4,8 +4,8 @@
 \markup \null
 \markup \null
 
-\markup \fontsize #deCoupletFontSize {
-  \hspace #15
+\markup \abs-fontsize #10 {
+   \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {

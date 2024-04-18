@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Ein Engel sang" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10 {
+   \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -20,7 +20,6 @@
     \line { " "auferstanden und erweckte die Toten zum Leben;}
 
     \line { " "Menschen, freut euch!}
-
 
     \line { " "Geheiligt, geheiligt seist du, neues Jerusalem, }
 

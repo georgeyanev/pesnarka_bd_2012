@@ -1,11 +1,12 @@
 \version "2.24.3"
 
-\markup \fill-line { \fontsize #deTransTitleFontSize "Die Liebe ist eine Quelle" }
 
-\markup { {  \vspace #0.1 } }
+\markup \fill-line { \fontsize #deTitleFontSize "Die Liebe ist eine Quelle" }
+\markup \null
+\markup \null
 \markup \abs-fontsize #10 {
-
-  \override #'(baseline-skip . 2.8)
+  
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
 
@@ -47,38 +48,43 @@
 
     \vspace #0.5
     \line { "   " \italic { Refrain ...}  }
+    \vspace #0.5
 
+    \line {   3. Dieses große Geheimnis,  }
+      \line {   "   "  wer es gut versteht, }
 
-  }
-  \hspace #1.5
+    \line {   "   "   öffnet seine liebe Seele am Morgen,}
 
-  \override #'(baseline-skip . 2.8)
-
-
-  \column {
-
-    \line {   3. Dieses große Geheimnis, wer es gut }
-
-    \line {   "   "  versteht, öffnet seine liebe Seele}
-
-    \line {   "   "am Morgen, wie die weiße Lilie}
+    \line {   "   " wie die weiße Lilie}
 
     \line {   "   " im himmlischen Tau }
 
     \line {   "   " und im wunderbaren Sonnenlicht.}
     \vspace #0.5
     \line { "   " \italic { Refrain ...}  }
-    \vspace #0.5
+    
+  
 
-    \line {   4. Die Sonne, die den Menschen zur }
+  }
+  \hspace #5
 
-    \line {   "   "       rechten Zeit belebt, scheint warm,}
+   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-    \line {   "   "  erweckt und lässt gedeihen in ihm}
 
-    \line {   "   "  die Samenkörnchen und füllt geheim- }
+  \column {
 
-    \line {   "   "  nisvoll  mit Tugenden seine Seele.}
+    \line {   4. Die Sonne, die den Menschen  }
+
+    \line {   "   "     zur  rechten Zeit belebt, }
+    
+    \line {   "   "     scheint warm, erweckt }
+    \line {   "   "     und lässt gedeihen}
+
+    \line {   "   "    in ihm die Samenkörnchen}
+
+    \line {   "   "   und füllt geheimnisvoll }
+
+    \line {   "   "    mit Tugenden seine Seele.}
 
     \vspace #0.5
     \line { "   " \italic { Refrain ...}  }
@@ -87,17 +93,21 @@
 
 
 
-    \line {   5. Die so süßen Früchte, in der Liebe  }
+    \line {   5. Die so süßen Früchte,   }
 
-    \line {   "   " gereift: Am seligsten wird der sein, }
+    \line {   "   " in der Liebe gereift: }
+    
+    \line {   "   "  Am seligsten wird der sein, }
 
+    \line {   "   "der sie kostet. }
+    
+   \line {   "   " In himmlischen Wohnstätten}
 
+    \line {   "   "  wird er ewig leben, }
 
-    \line {   "   "der sie kostet. In himmlischen Wohn-}
-
-    \line {   "   " stätten wird er ewig leben, vor dem}
-
-    \line {   "   " Thron Gottes wird er Lieder singen. }
+    \line {   "   " vor dem Thron Gottes }
+    
+   \line {   "   "  wird er Lieder singen. }
 
 
     \line { "   " \italic { Refrain ...}  }

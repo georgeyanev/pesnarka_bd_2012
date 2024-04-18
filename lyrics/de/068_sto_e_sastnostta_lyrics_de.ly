@@ -1,51 +1,45 @@
 \version "2.24.3"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Was ist das Wesen" }
+\markup \null
+\markup \null
+\markup \abs-fontsize #10 {
+  \hspace #10
 
-\markup \fontsize #+1.6 {
- 
-  \override #'(baseline-skip . 1.8)
-
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
 
-    \line { " "In meinem Verstand klopft ein Gedanke;}
-    \line { " "Täglich fragt er mich:}
-    \line { " "Was ist im Leben real, was ist das Wesen?}
-    \line { " " }
-    \line { " "Mein Geist flüstert mir zu:}
-    \line { " "Die Sonne, die scheint, der Vogel, der singt, }
-    \line { " "alles, was lebt, leidet und sich sehnt, }
-    \line { " "drückt das Wesen aus.}
-    \line { " " }
+     \line { "   "In meinem Verstand klopft ein Gedanke;}
+    \line { "   "Täglich fragt er mich: Was ist im Leben real, was ist das Wesen?}
+     \vspace #0.5
+     \line { "   "Mein Geist flüstert mir zu:}
+     \vspace #0.5
+    \line { 1. Die Sonne, die scheint, der Vogel, der singt, }
+    \line { "   "alles, was lebt, leidet und sich sehnt, }
+    \line { "   "drückt das Wesen aus.}
+      \vspace #0.5
 
-    \line { " "Gehe zu den Blumen,  auf das Feld, }
-    \line { " " in den Wald; schau die Schönheit an, }
-    \line { " "atme den Duft ein,}
-    \line { " "dort schaust du das Wesen an.}
-    \line { " " }
-
+    \line { 2. Gehe zu den Blumen,  auf das Feld, }
+    \line { "   "in den Wald; schau die Schönheit an, }
+    \line { "   "atme den Duft ein,}
+    \line { "   "dort schaust du das Wesen an.}
 
 
-  }
-  \hspace #1
-  \override #'(baseline-skip . 1.8)
-  \column {
+    \line { 3. Schau den Himmel an, frag das Herz:}
+    \line { "   "In dieser wunderbaren Schönheit}
+   \line { "   "und kosmischen Weisheit, }
+    \line { "   "schaust du nicht das Wesen?}
+    \vspace #0.5
 
-    \line { " "Schau den Himmel an, frag das Herz:}
-    \line { " "In dieser wunderbaren Schönheit}
-    \line { " "und kosmischen Weisheit, }
-    \line { " " schaust du nicht das Wesen?}
-    \line { " " }
+    \line { 4. Wenn sich die zärtliche Mutter }
+    \line { "   "für das Kind aufopfert,}
+   \line { "   "in dieser beispielhaften Liebe [Obič],}
+   \line { "   "und grenzenlosen Liebe [Ljubov],  }
+   \line { "   "schaust du nicht das Wesen an?}
+  \vspace #0.5
 
-    \line { " "Wenn sich die zärtliche Mutter }
-    \line { " "für das Kind aufopfert,}
-    \line { " "in dieser beispielhaften Liebe [Obič],}
-    \line { " "und grenzenlosen Liebe [Ljubov],  }
-    \line { " "schaust du nicht das Wesen an?}
-    %\line { " " }
-
-    \line { " "Schönheit, Wahrheit, Liebe [Ljubovta] }
-    \line { " " und Weisheit, das ist der Herr auf }
-    \line { " "Erden, das ist das Wesen. }
+    \line { "   "Schönheit, Wahrheit, Liebe [Ljubovta] }
+     \line { "   "und Weisheit, das ist der Herr auf }
+     \line { "   "Erden, das ist das Wesen. }
   }
 }

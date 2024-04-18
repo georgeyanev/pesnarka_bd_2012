@@ -24,16 +24,16 @@
 
     \addlyrics {
       Слън -- це -- то на Лю -- бов -- та из -- гря -- ва веч във све -- та.
-      Вре -- дом пра -- ща Свет -- ли -- на и раз -- на -- ся Топ -- ли -- на.
-      Ний сме слън -- че -- ви лъ -- чи, но -- сим Но -- ви -- я жи -- вот.
-      Ний сме слън -- че -- ви лъ -- чи, но -- сим Но -- ви -- я жи -- вот.
+      Вре -- дом пра -- ща свет -- ли -- на и раз -- на -- ся топ -- ли -- на.
+      Ний сме слън -- че -- ви лъ -- чи, но -- сим но -- ви -- я жи -- вот.
+      Ний сме слън -- че -- ви лъ -- чи, но -- сим но -- ви -- я жи -- вот.
     }
 
-   \addlyrics {
+    \addlyrics {
       Slăn -- ce -- to na Lju -- bov -- ta iz -- grja -- va več văv sve -- ta.
-      Vre -- dom pra -- šta Svet -- li -- na i raz -- na -- sja Top -- li -- na.
-      Nij sme slăn -- če -- vi lă -- či, no -- sim No -- vi -- ja ži -- vot.
-      Nij sme slăn -- če -- vi lă -- či, no -- sim No -- vi -- ja ži -- vot.
+      Vre -- dom pra -- šta svet -- li -- na i raz -- na -- sja top -- li -- na.
+      Nij sme slăn -- če -- vi lă -- či, no -- sim no -- vi -- ja ži -- vot.
+      Nij sme slăn -- če -- vi lă -- či, no -- sim no -- vi -- ja ži -- vot.
     }
     \header {
       title = \titleFunc "Слънцето на Любовта" "Slănceto na Ljubovta"

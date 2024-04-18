@@ -44,14 +44,16 @@
     }
 
     \addlyrics {
-      "2. Вси" -- чко е све -- тло, вси -- чко е о -- све -- те -- но
+      "2. Всич" -- ко е свет -- ло, вси -- чко е о -- све -- те -- но
       с~Мой -- та жи -- ва Ви -- де -- ли -- на.
     }
 
-  \addlyrics {
-      "2. Vsi" -- čko e sve -- tlo, vsi -- čko e o -- sve -- te -- no
+
+    \addlyrics {
+      "2. Vsič" -- ko e svet -- lo, vsi -- čko e o -- sve -- te -- no
       s~Moj -- ta ži -- va Vi -- de -- li -- na.
     }
+
 
     \header {
       title = \titleFunc "Тайната вечеря" "Tajnata večerja"
@@ -62,6 +64,7 @@
   } % score
   \markup \dc-two "D.C." "con ripetizione"
 
+  \markup \empty-two
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/066_1_taynata_vecherya_lyrics_de.ly"

@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Ruhm Gottes" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #20
+\markup \abs-fontsize #10 {
+   \hspace #30
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {

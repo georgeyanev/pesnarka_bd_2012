@@ -16,11 +16,11 @@
       \time 4/4
       \tempoFunc "Moderato" 4 "60"
       \autoBeamOff
-      a'4 g' f' e'| d'2 d'2| g'4 a' bes' d''| a'2 a'2 | \break
-      g'4 a' bes' d''| a'2 a'2 | a'4 g'4 f'4 g'4 a'2 a'2| \break
-      bes'4 bes'4 bes'4 bes'4 | bes'2 d''2 | d''4 c''4 c''4 bes'4 bes'2 a'2 | \break
-      g'4 a'4 bes'4 d''4 | a'2 a'2 | d'4 e'4 f'4 e'4 | d'2 d'2 | \break
-      a'4 a'4 d''4 c''4 | bes'2 bes'2 | g'4 a'4 c''4 bes'4 | a'2 a'2 | \break
+      a'4 g' f' e'| d'2 d'2| g'4 a' bes' d''| a'2 a'2 |
+      g'4 a' bes' d''| \break a'2 a'2 | a'4 g'4 f'4 g'4 a'2 a'2|
+      bes'4 bes'4 bes'4 bes'4 | bes'2 d''2 | \break d''4 c''4 c''4 bes'4 bes'2 a'2 |
+      g'4 a'4 bes'4 d''4 | a'2 a'2 | \break d'4 e'4 f'4 e'4 |  d'2 d'2 |
+      a'4 a'4 d''4 c''4 | bes'2 bes'2 | g'4 a'4 c''4 bes'4 | \break a'2 a'2 | 
       g'4 a'4 bes'4 d''4 | a'2 a'2 | d'4 e'4 f'4 e'4 | d'2 d'2 | \bar "|." \break
     }
 
@@ -36,7 +36,7 @@
     \addlyrics {
       Lju -- bov -- ta e iz -- vor: tja ži -- vo -- ta raž -- da
       i pre -- svja -- ta dlăž -- nost v~ne -- go krot -- ko vsaž -- "   da  –"
-      vse nap -- red da ho -- di "v~stre-" -- mež kăm Do -- bro -- to,
+      vse nap -- red da ho -- di v~stre -- mež kăm Do -- bro -- to,
       što e să -- văr -- še -- no go -- re na Ne -- be -- to.
       Ra -- bo -- ti săs ne -- ja v~mi -- los -- ti že -- la -- ni,
       po -- mošt -- ta no -- si i za du -- ši stra -- dal -- ni.
@@ -65,6 +65,19 @@
       \line {   "   " добрините благи.}
       \vspace #0.5
       \line { "   " \italic {Припев ...} }
+      \vspace #0.5
+
+      \line { 3. Таз велика тайна }
+      \line {   "   " кой добре разбира, }
+      \line {   "   " свойта душа мила }
+      \line {   "   " сутрина разкрива }
+      \line {   "   " както кринът бели}
+      \line {   "   "на роса небесна}
+      \line {   "   "и на слънчевата}
+      \line {   "   "светлина чудесна.}
+      \vspace #0.5
+      \line { "   " \italic {Припев ...} }
+
 
 
     }
@@ -83,6 +96,19 @@
       \line {   "   " dobrinite blagi.}
       \vspace #0.5
       \line { "   " \italic {Pripev ...} }
+      \vspace #0.5
+
+      \line { 3. Taz velika tajna }
+      \line {   "   " koj dobre razbira, }
+      \line {   "   " svojta duša mila }
+      \line {   "   " sutrina razkriva }
+      \line {   "   " kakto krinăt beli}
+      \line {   "   "na rosa nebesna}
+      \line {   "   "i na slănčevata}
+      \line {   "   "svetlina čudesna.}
+      \vspace #0.5
+      \line { "   " \italic {Pripev ...} }
+
 
 
 
@@ -95,17 +121,7 @@
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
 
-      \line { 3. Таз велика тайна }
-      \line {   "   " кой добре разбира, }
-      \line {   "   " свойта душа мила }
-      \line {   "   " сутрина разкрива }
-      \line {   "   " както кринът бели}
-      \line {   "   "на роса небесна}
-      \line {   "   "и на слънчевата}
-      \line {   "   "светлина чудесна.}
-      \vspace #0.5
-      \line { "   " \italic {Припев ...} }
-      \vspace #0.5
+
       \line { 4. Слънцето, което }
       \line {   "   " оживотворява }
       \line {   "   " овреме човека,}
@@ -133,17 +149,7 @@
     \override #'(baseline-skip . 2.8)
     \column {
 
-      \line { 3. Taz velika tajna }
-      \line {   "   " koj dobre razbira, }
-      \line {   "   " svojta duša mila }
-      \line {   "   " sutrina razkriva }
-      \line {   "   " kakto krinăt beli}
-      \line {   "   "na rosa nebesna}
-      \line {   "   "i na slănčevata}
-      \line {   "   "svetlina čudesna.}
-      \vspace #0.5
-      \line { "   " \italic {Pripev ...} }
-      \vspace #0.5
+
       \line { 4. Slănceto, koeto }
       \line {   "   " oživotvorjava }
       \line {   "   " ovreme čoveka,}
