@@ -1,4 +1,4 @@
-  \version "2.24.3"
+\version "2.24.3"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -7,16 +7,16 @@
   \column {
     % repeat braces
     \translate #'(0 . -3.1 )
-    \right-brace #44
+    \right-brace #35
 
-    \translate #'(0 . -5.2 )
-    \right-brace #44
+    \translate #'(0 . -5.9 )
+    \right-brace #35
 
-    \translate #'(0 . -7.6 )
-    \right-brace #44
+    \translate #'(0 . -7.8 )
+    \right-brace #35
 
-    \translate #'(0 . -5.2 )
-    \right-brace #44
+    \translate #'(0 . -6.4 )
+    \right-brace #35
 
   }
   \column {
@@ -24,13 +24,13 @@
     \translate #'(0 . -3.7 )
     2
 
-    \translate #'(0 . -9.3 )
+    \translate #'(0 . -10.7 )
     2
 
-    \translate #'(0 . -11.9 )
+    \translate #'(0 . -12.6 )
     2
 
-    \translate #'(0 . -9.7 )
+    \translate #'(0 . -10.9 )
     2
   }
 }
@@ -52,10 +52,10 @@
 
       f''16. e''32 d''8 bes' | a'16. g'32 a'8 f' | d'16. e'32 f'8 g' | a'4 a'8 \break |
       f''16. e''32 d''8 bes' | a'16. g'32 a'8 f' | e'16. bes'32 a'8 cis' | d'8 d' r | \bar ":|." \break
-      
-        \bar ":|.|:"
-        a'4 d''8 | cis''4 e''8 | d''4 bes'8 | a'4 g'8 | a'4 d''8 | cis''4 e''8 | d''4. |  d''4. \break | % 17
-        a'4 bes'8 | a'4 d''8 | cis''4 bes'8 |  a'4 g'8 | f'4 a'8 | e'4 a'8 |  d'4. | d'4.
+
+      \bar ":|.|:"
+      a'4 d''8 | cis''4 e''8 | d''4 bes'8 | a'4 g'8 | a'4 d''8 | cis''4 e''8 | d''4. |  d''4. \break | % 17
+      a'4 bes'8 | a'4 d''8 | cis''4 bes'8 |  a'4 g'8 | f'4 a'8 | e'4 a'8 |  d'4. | d'4.
       \bar ":|." \break |
     }
 
@@ -63,18 +63,18 @@
       "1. Аз" съм бя -- ло -- то ко -- ки -- че
       всред тре -- ви -- те гор -- ски,
       "сра-" -- "меж-" -- ли -- во кат "мо-" -- ми -- че
-      от "по-" -- гле -- ди хор -- ски. Зла ме ма -- ще -- ха съ -- бу -- ди
+      от "пог-" -- ле -- ди хор -- ски. Зла ме ма -- ще -- ха съ -- бу -- ди
       с~сне -- га, вет -- ро -- ве -- те.
       Всич -- ко жи -- во да се чу -- ди,
       че съм ран -- но цве -- те.}
-  \addlyrics {
-      "1. Az" săm bja -- lo -- то ko -- ki -- če
-      vsred tre -- vi -- te gor -- ski,
-      sra -- mež -- li -- vo kat "mo-" -- mi -- če
-      ot "po-" -- gle -- di hor -- ski. Zla me ma -- šte -- ha să -- bu -- di
-      s~sne -- ga, vet -- ro -- ve -- te.
-      Vsič -- ko ži -- vo da se ču -- di,
-      če săm ran -- no cve -- te.}
+      \addlyrics {
+        "1. Az" săm bja -- lo -- to ko -- ki -- če
+        vsred tre -- vi -- te gor -- ski,
+        "sra-" -- "mež-" -- li -- vo kat "mo-" -- mi -- če
+        ot "pog-" -- le -- di hor -- ski. Zla me ma -- šte -- ha să -- bu -- di
+        s~sne -- ga, vet -- ro -- ve -- te.
+        Vsič -- ko ži -- vo da se ču -- di,
+        če săm ran -- no cve -- te.}
         \header {
           title = \titleFunc "Аз съм бялото кокиче" "Az săm bjaloto kokiče"
         }
@@ -83,8 +83,10 @@
 
       } % score
 
-      \markup \fontsize #bgCoupletFontSize {
-        \hspace #1
+      \markup \empty-two
+
+      \markup \abs-fontsize #10 {
+        \hspace #7
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
         \column {
           \line {    2. Радост нова ви показвам }
@@ -97,7 +99,7 @@
           \line {   "     " че със тая мила дружка }
           \line {   "     " славей ще се чува. }
 
-          \line { " " }
+          \vspace #0.5
           \line { 3. Че агънца ще заблеят  }
           \line {   "   " в ливади зелени, }
           \line {   "   " че орачи ще засеят }
@@ -105,13 +107,13 @@
 
           \line { "     " Златни класове ще зреят  }
           \line {   "     " в тези чудни ниви, }
-          \line {   "     " Ангели ще славят Бога }
+          \line {   "     " ангели ще славят Бога }
           \line {   "     " с песни най-красиви. }
         }  \"rightBraces047"
 
         \hspace #5
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-       \column {
+        \column {
           \line {    2. Radost nova vi pokazvam }
           \line {   "   " s čaška ranobudna }
           \line {   "   " i za proletta razkazvam }
@@ -122,7 +124,7 @@
           \line {   "     " če săs taja mila družka }
           \line {   "     " slavej šte se čuva. }
 
-          \line { " " }
+          \vspace #0.5
           \line { 3. Če agănca šte zablejat  }
           \line {   "   " v livadi zeleni, }
           \line {   "   " če orači šte zasejat }
@@ -130,7 +132,7 @@
 
           \line { "     " Zlatni klasove šte zrejat  }
           \line {   "     " v tezi čudni nivi, }
-          \line {   "     " Angeli šte slavjat Boga }
+          \line {   "     " angeli šte slavjat Boga }
           \line {   "     " s pesni naj-krasivi. }
         }   \"rightBraces047" %column
       }  % markup

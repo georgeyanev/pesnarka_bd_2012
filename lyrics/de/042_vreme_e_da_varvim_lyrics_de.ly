@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Es ist Zeit, dass wir gehen" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10 {
+  \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -24,7 +24,7 @@
     \line { "   "und an allen Tagen}
 
     \line { "   "werden wir treu sein.}
-    \line { "   " }
+     \vspace #0.5
 
     \line { "   " \italic { Refrain:}  }
 
@@ -35,7 +35,7 @@
     \line { "   "Gott ist der König der Welt; }
 
     \line { "   "Er ist das Licht auf unserem Weg.}
-     \line { "   " }
+      \vspace #0.5
    
 
     \line { 2. "" Schnell, lasst uns losfliegen, }
@@ -53,7 +53,7 @@
     \line { "   "Freiheit, Frieden und Ordnung}
 
     \line { "   " werden überall walten!}
-    \line { "   " }
+    \vspace #0.5
 
     \line { "   " \italic { Refrain ... }  }
 

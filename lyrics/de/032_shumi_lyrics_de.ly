@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Es lärmt" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10 {
+  \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
 
@@ -26,7 +26,7 @@
 
     \line {   "   "die ganze Welt lärmen!}
 
-    \line { " " }
+   \vspace #0.5
     \line {   2.  "   " Und der Wind weht, }
 
     \line {   "   " "   "wohin er will. }
@@ -41,7 +41,7 @@
 
     \line {   "   " "   " wohin er will.}
 
-    \line { " " }
+      \vspace #0.5
 
     \line {   3. "   "Oh, mein Wind, }
 
@@ -59,7 +59,7 @@
 
     \line {   "   " "   "wehe nun stark!}
 
-    \line { " " }
+     \vspace #0.5
     \line {   4. "   " Wehe, Wind, }
 
     \line {   "   " "   " muntere die Welt auf! }

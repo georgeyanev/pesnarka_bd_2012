@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTransTitleFontSize "Die Liebe ist eine Quelle" }
 
 \markup { {  \vspace #0.1 } }
-\markup \fontsize #+2.3 {
+\markup \abs-fontsize #10 {
 
   \override #'(baseline-skip . 2.8)
 
@@ -20,9 +20,6 @@
     \line {   "   "im Streben nach dem Guten,}
 
     \line {   "   "das vollkommen ist oben im Himmel.}
-
-
-
 
     \vspace #0.5
     \line { "   " \italic { Refrain:}  }

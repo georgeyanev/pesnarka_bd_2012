@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Gelobt sei der Herr" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #18
+\markup \abs-fontsize #10 {
+  \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {

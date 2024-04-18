@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Ruf des Herzens" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10 {
+  \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -16,7 +16,7 @@
     \line { "   "Im diesem Lied schütten wir unsere Herzen aus }
 
     \line { "   "und flehen Dich an: Hochheiliger, verzeih!}
-    \line { "   " }
+   \vspace #0.5
 
 
     \line { 2. Vergiss unsere Sünden, }
@@ -26,7 +26,7 @@
     \line { "   "Allgütiger König der lichten Seelen,}
 
     \line { "   "empfange uns in Deinem Reich!}
-    \line { "   " }
+    \vspace #0.5
 
 
     \line { 3. Dort werden wir dich preisen in Ewigkeit,}

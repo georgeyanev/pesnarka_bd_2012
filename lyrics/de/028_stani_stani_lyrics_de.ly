@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Stehe auf, stehe auf" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10 {
+  \hspace #25
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
     \line { 1. Steh auf, steh auf }
@@ -16,7 +16,7 @@
     \line {   "   "stehe auf, stehe auf }
     \line {   "   "und kleide dich in Wahrheit.}
 
-    \line {   "   " }
+     \vspace #0.5
     \line {  2. Kleide dich in Wahrheit}
     \line {   "   "und erbaue immer mit ihr,}
     \line {   "   "sie wird dich sogar erneuern}

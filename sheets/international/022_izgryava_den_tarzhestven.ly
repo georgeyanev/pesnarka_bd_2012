@@ -62,8 +62,8 @@
 
   \pageBreak
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #3
+  \markup \abs-fontsize #10 {
+    \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
    \column {
 

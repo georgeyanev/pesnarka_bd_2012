@@ -34,9 +34,9 @@ cat \
     ../046_rosna_kapka.ly \
     ../047_az_sam_byaloto_kokiche.ly \
     ../048_napred_chada_napred.ly \
+    ../051_o_Uchitelyu_blagati.ly \
     ../049_slaveycheta_gorski.ly \
     ../050_nebeto_se_otvarya.ly \
-    ../051_o_Uchitelyu_blagati.ly \
     ../052_darzost_v_Hrista.ly \
     ../053_054_slava_Bozhiya_kam_sion.ly \
     ../055_1_slantseto_na_lyubovta.ly \

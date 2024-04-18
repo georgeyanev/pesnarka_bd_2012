@@ -29,26 +29,25 @@
     }
 
 
-
     \addlyrics {
       Из -- грей,
       из -- грей ти, мо -- е Слън -- це, __  за -- що --
       то ча -- кам все -- ки ден; __ за теб коп -- ней __ сър -- це -- то мо -- е __ и в~пъ -- тя си съм из
-       -- мо -- рен; __  ти но -- сиш ми Жи -- вот бла --
-      жен.  __ Жи -- вот бла -- жен, Жи -- вот бла -- жен, __ 
-      бла -- жен, бла -- жен, Жи -- вот бла -- жен; __ ти
-      но -- сиш ми Жи -- вот бла -- жен. __ }
-       \addlyrics {
+       -- мо -- рен; __  ти но -- сиш ми жи -- вот бла --
+      жен.  __ жи -- вот бла -- жен, жи -- вот бла -- жен, __ 
+      бла -- жен, бла -- жен, жи -- вот бла -- жен; __ ти
+      но -- сиш ми жи -- вот бла -- жен. __ }
+           \addlyrics {
       Iz -- grej,
       iz -- grej ti, mo -- e Slăn -- ce, __  za -- što --
-      to ča -- kam vse -- ki den; __ za teb kop -- nej __ săr -- ce -- to mo -- e __  i v~pă -- tja si săm iz
-       -- mo -- ren;  __ ti no -- siš mi Ži -- vot bla --
-      žen. __  Ži -- vot bla -- žen, Ži -- vot bla -- žen, __ 
-      bla -- žen, bla -- žen, Ži -- vot bla -- žen; __ ti
-      no -- siš mi Ži -- vot bla -- žen. __ }
+      to ča -- kam vse -- ki den; __ za teb kop -- nej __ săr -- ce -- to mo -- e __ i v~pă -- tja si săm iz
+       -- mo -- ren; __  ti no -- siš mi ži -- vot bla --
+      žen.  __ ži -- vot bla -- žen, ži -- vot bla -- žen, __ 
+      bla -- žen, bla -- žen, ži -- vot bla -- žen; __ ti
+      no -- siš mi ži -- vot bla -- žen. __ }
 
         \header {
-          title = \titleFunc "Изгрей ти, мое Слънце" "Izgrej ti, moe Slănce"
+          title = \titleFunc "Изгрей ти, мое Слънце" " Izgrej ti, moe Slănce"
         }
 
         \midi{}
@@ -57,11 +56,11 @@
 
       \pageBreak
 
-      \markup \fontsize #bgCoupletFontSize {
-        \hspace #2
+      \markup \abs-fontsize #10 {
+        \hspace #5
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
         \column {
-          \line {   2. Огрей небето и Земята,}
+           \line {   2. Огрей небето и Земята,}
 
           \line {   "   "лазурни поднебесен шир,}
 
@@ -69,18 +68,18 @@
 
           \line {   "   "с трептенията си безспир.}
 
-          \line {   "   "О, дай ми тоз Живот и Мир!}
-          \line { " " }
+          \line {   "   "О, дай ми тоз живот и мир!}
+          \vspace #0.5
 
           \line { "   " \italic {Припев:} }
 
-          \line {   "   "Живот и Мир, Живот и Мир,}
+          \line {   "   "Живот и мир, живот и мир,}
 
-          \line {   "   "и Мир, и Мир, Живот и Мир,}
+          \line {   "   "и мир, и мир, живот и мир,}
 
-          \line {   "   "о, дай ми тоз Живот и Мир!}
+          \line {   "   "о, дай ми тоз живот и мир!}
 
-          \line { " " }
+            \vspace #0.5
           \line {   3. Единствено си ти, което}
 
           \line {   "   "изпълваш всичко със Любов}
@@ -89,10 +88,10 @@
 
           \line {   "   "светът чрез теб ще бъде нов;}
 
-          \line {   "   "ти вечно си света, Любов.}
+          \line {   "   "ти вечно си свята Любов.}
 
 
-          \line { " " }
+          \vspace #0.5
           \line { "   " \italic {Припев:} }
           \line {   "   " Света Любов, света Любов,}
 
@@ -104,7 +103,9 @@
         \hspace #5
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
          \column {
-          \line {   2. Ogrej nebeto i Zemjata,}
+         
+
+         \line {   2. Ogrej nebeto i Zemjata,}
 
           \line {   "   "lazurni podnebesen šir,}
 
@@ -112,18 +113,18 @@
 
           \line {   "   "s treptenijata si bezspir.}
 
-          \line {   "   "O, daj mi toz Život i Mir!}
-          \line { " " }
+          \line {   "   "O, daj mi toz život i mir!}
+           \vspace #0.5
 
           \line { "   " \italic {Pripev:} }
 
-          \line {   "   "Život i Mir, Život i Mir,}
+          \line {   "   "Život i mir, život i mir,}
 
-          \line {   "   "i Mir, i Mir, Život i Mir,}
+          \line {   "   "i mir, i mir, život i mir,}
 
-          \line {   "   "o, daj mi toz Život i Mir!}
+          \line {   "   "o, daj mi toz život i mir!}
 
-          \line { " " }
+           \vspace #0.5
           \line {   3. Edinstveno si ti, koeto}
 
           \line {   "   "izpălvaš vsičko săs Ljubov}
@@ -132,10 +133,10 @@
 
           \line {   "   "svetăt črez teb šte băde nov;}
 
-          \line {   "   "ti večno si sveta, Ljubov.}
+          \line {   "   "ti večno si svjata Ljubov.}
 
 
-          \line { " " }
+           \vspace #0.5
           \line { "   " \italic {Pripev:} }
           \line {   "   " Sveta Ljubov, sveta Ljubov,}
 

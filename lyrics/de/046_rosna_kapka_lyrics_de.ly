@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Tautropfen" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #15
+\markup \abs-fontsize #10 {
+  \hspace #25
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -15,14 +15,12 @@
     \line { "   "rein, schön, still und ohne Sturm,}
 
     \line { "   "Frieden des paradiesischen Lebens,}
-
     \line { "   "Frieden des paradiesischen Lebens!}
-
     \line { "   "In dir, Tropfen, rufe ich }
      \line { "   "  alle lieben Brüder und Schwestern, }
 
     \line { "   "damit wir dein Volk werden.}
-    \line { "   " }
+   \vspace #0.5
 
     \line { 2. Jeden Morgen werden wir}
 
@@ -35,7 +33,7 @@
     \line { "   "mit wunderbaren Melodien,}
 
     \line { "   "auf dass das rote Himmelsgewölbe widerhallt.}
-    \line { "   " }
+  \vspace #0.5
 
     \line { 3. Und so  – rein, in weißen Kleidern}
 

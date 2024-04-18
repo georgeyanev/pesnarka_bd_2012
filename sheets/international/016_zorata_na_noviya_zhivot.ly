@@ -60,10 +60,10 @@
 
   \pageBreak
 
-  \markup \fontsize #+2.3 {
+  \markup \abs-fontsize #10 {
     \hspace #7
     \override #'(baseline-skip . 2.8)
-    
+
     \column {
       \line { 2. И птички въздуха изпълнят }
       \line {   "   " с възторг и сладки песни в хор, }
@@ -77,7 +77,7 @@
       \line { "   " живот на благостта, }
       \line { "   "  в новия светъл тоз живот,}
       \line {  "   " живот на радостта.}
-       \vspace #0.5
+      \vspace #0.5
 
       \line { 3. Трепти зората лекокрила  }
       \line {   "   " и буди нашите души; }
@@ -86,7 +86,7 @@
 
       \vspace #0.5
       \line { "   " \italic {Припев ...} }
-       \vspace #0.5
+      \vspace #0.5
 
       \line { 4. Лъчи от  любовта ни вливат }
       \line {   "   " в гърдите жива топлина, }
@@ -95,20 +95,20 @@
 
       \vspace #0.5
       \line { "   " \italic {Припев ...} }
-       \vspace #0.5
+      \vspace #0.5
 
       \line { 5.  О, тез лъчи от Бога идат, }
       \line {   "   " те пълнят нашите сърца }
       \line {   "   " и шепнат сладко как Той вика: }
       \line {   "   " „Елате, Mоите деца!“. }
-       \vspace #0.5
+      \vspace #0.5
       \line { "   " \italic {Припев ...} }
-     \vspace #0.5
+      \vspace #0.5
     }
 
     \hspace #4
     \override #'(baseline-skip . 2.8)
-     \column {
+    \column {
       \line { 2. I ptički văzduha izpălnjat }
       \line {   "   " s văztorg i sladki pesni v hor, }
       \line {   "   " harmonijata da dopălnjat }
@@ -122,7 +122,7 @@
       \line { "   " život na blagostta, }
       \line { "   "  v novija svetăl toz život,}
       \line {  "   " život na radostta.}
-       \vspace #0.5
+      \vspace #0.5
 
       \line { 3. Trepti zorata lekokrila  }
       \line {   "   " i budi našite duši; }
@@ -131,7 +131,7 @@
 
       \vspace #0.5
       \line { "   " \italic {Pripev ...} }
-       \vspace #0.5
+      \vspace #0.5
 
       \line { 4. Lăči ot  ljubovta ni vlivat }
       \line {   "   " v gărdite živa toplina, }
@@ -140,15 +140,15 @@
 
       \vspace #0.5
       \line { "   " \italic {Pripev ...} }
-       \vspace #0.5
+      \vspace #0.5
 
       \line { 5.  O, tez lăči ot Boga idat, }
       \line {   "   " te pălnjat našite sărca }
       \line {   "   " i šepnat sladko kak Toj vika: }
       \line {   "   " „Elate, Moite deca!“. }
-       \vspace #0.5
+      \vspace #0.5
       \line { "   " \italic {Pripev ...} }
-     \vspace #0.5
+      \vspace #0.5
     }
   } % markup
 

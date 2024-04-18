@@ -33,7 +33,7 @@
 
   }
 
-  \markup {  \vspace #4.5 }
+  \markup {  \vspace #2.5 }
 
 
 
@@ -58,8 +58,8 @@
 
   \markup \fontsize  #+5.6 { \hspace #40 \bold {"LIEDER DES MEISTERS"} }
 
-    \markup \fontsize  #+2  { {  \vspace #2.2 } }
-   
+  \markup \fontsize  #+2  { {  \vspace #2.2 } }
+
   \markup {
     \hspace #40
     \column {
@@ -70,15 +70,15 @@
 
     }
   }
-   
-  \markup \fontsize  #+2  { {  \vspace #.5 } }
-  \markup \fontsize  #+2.8 {\hspace #40 {"Herausgegeben von"} }
-  \markup \fontsize  #+2  { {  \vspace #0.1 } }
-  \markup \fontsize  #+1.7 { \hspace #40 {"Peter Ganev" \concat { \raise #-0.9 \fontsize #6 "·" } "Mariya Kireva" } }
+
+  % \markup \fontsize  #+2  { {  \vspace #.5 } }
+  % \markup \fontsize  #+2.8 {\hspace #40 {"Herausgegeben von"} }
+  % \markup \fontsize  #+2  { {  \vspace #0.1 } }
+  % \markup \fontsize  #+1.7 { \hspace #40 {"Peter Ganev" \concat { \raise #-0.9 \fontsize #6 "·" } "Mariya Kireva" } }
 
 
 
-  \markup \fontsize  #+2  { {  \vspace #14 } }
+  \markup \fontsize  #+2  { {  \vspace #18 } }
 
   \markup \fontsize  #+3 {\hspace #40 {"Verlag „Bjalo Bratstvo“ "} }
   \markup \fontsize  #+2.5  { {  \vspace #0.5 } }
@@ -86,7 +86,7 @@
     \hspace #-1
     \fill-line
     \general-align #Y #DOWN {
-      \epsfile #X #7 #"../../img/logo_large.eps"
+      \epsfile #X #9 #"../../img/logo_large.eps"
     }
     \hspace #0.1
   }

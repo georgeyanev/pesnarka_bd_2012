@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Du, leidende Seele" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10 {
+  \hspace #15
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
 
@@ -18,7 +18,7 @@
 
     \line {   "   "dessentwillen leide ich, nach ihnen sehne ich mich.}
 
-    \line { " " }
+     \vspace #0.5
     \line {   2.  Und ich hungere und ich dürste, }
 
     \line {   "   "ich erwarte sie Tag und Nacht. }
@@ -29,7 +29,7 @@
 
     \line {   "   "und Trost bei Dir finde.}
 
-    \line { " " }
+      \vspace #0.5
     \line {   3.  Dein lichtes Antlitz schaue ich und Deine Größe,}
 
     \line {   "   "auf dass ich Dich lieben lerne. }
@@ -37,7 +37,7 @@
     \line {   "   "In dieser Liebe zu Dir, oh Herr, }
      \line {   "   " möge ich machtvolle Kraft finden.}
 
-    \line { " " }
+    \vspace #0.5
     \line { 4.  In den Heldentaten und der Vollkommenheit }
 
     \line {   "   "möge ich Deine Barmherzigkeit erkennen,}
@@ -48,7 +48,7 @@
 
     \line {   "   "offenbart. }
 
-    \line { " " }
+      \vspace #0.5
     \line {   5. Alles Sündige auf der Erde}
 
     \line {   "   "ist vergänglich und flüchtig.}

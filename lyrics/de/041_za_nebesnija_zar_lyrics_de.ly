@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "An den Himmlischen König" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10 {
+  \hspace #15
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -20,7 +20,7 @@
     \line { " "des Friedens und der Liebe,}
     \line { " "des Friedens und der Liebe!}
 
-    \line { " " }
+   \vspace #0.5
     \line { " "Ruhm, Ruhm gebührt Dir;}
 
     \line { " "Du bist der König der Gerechtigkeit und des Friedens,}

@@ -10,7 +10,7 @@
   \score {
     \include "include/score-layout.ily"
 
-  \new Voice \absolute {
+    \new Voice \absolute {
       \clef treble
       \key d \minor
       \time 4/4
@@ -25,7 +25,7 @@
     }
 
     \addlyrics {
-     Лю -- бов -- та е из -- вор: тя жи -- во -- та раж -- да
+      Лю -- бов -- та е из -- вор: тя жи -- во -- та раж -- да
       и пре -- свя -- та длъж -- ност в~не -- го крот -- ко всаж -- "   да  –"
       все нап -- ред да хо -- ди "в~стре-" -- меж към До -- бро -- то,
       що е съ -- вър -- ше -- но го -- ре на Не -- бе -- то.
@@ -49,10 +49,10 @@
     \midi{}
 
   } % score
- \markup \vspace #0.3
-  \markup \fontsize #+2.3 {
+  \markup \vspace #0.3
+  \markup \abs-fontsize #10 {
     \hspace #15
-   \override #'(baseline-skip . 2.8)
+    \override #'(baseline-skip . 2.8)
     \column {
 
       \line { 2. И туй непрестанно  }
@@ -63,17 +63,17 @@
       \line {   "   " семенцата драги,}
       \line {   "   " от които никнат}
       \line {   "   " добрините благи.}
-           \vspace #0.5
+      \vspace #0.5
       \line { "   " \italic {Припев ...} }
 
 
     }
 
     \hspace #6
-   \override #'(baseline-skip . 2.8)
+    \override #'(baseline-skip . 2.8)
     \column {
 
-        \line { 2. I tuj neprestanno  }
+      \line { 2. I tuj neprestanno  }
       \line {   "   " vărši tja samata }
       \line {   "   " kato nežna majka }
       \line {   "   " vsekimu v dušata:  }
@@ -81,21 +81,21 @@
       \line {   "   " semencata dragi,}
       \line {   "   " ot koito niknat}
       \line {   "   " dobrinite blagi.}
-        \vspace #0.5
+      \vspace #0.5
       \line { "   " \italic {Pripev ...} }
-     
+
 
 
     } %column
   } % markup
 
   \pageBreak
-  \markup \fontsize #+2.3 {
+  \markup \abs-fontsize #10 {
     \hspace #15
-    \override #'(baseline-skip . 2.8)
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
-   
-        \line { 3. Таз велика тайна }
+
+      \line { 3. Таз велика тайна }
       \line {   "   " кой добре разбира, }
       \line {   "   " свойта душа мила }
       \line {   "   " сутрина разкрива }
@@ -103,7 +103,7 @@
       \line {   "   "на роса небесна}
       \line {   "   "и на слънчевата}
       \line {   "   "светлина чудесна.}
-       \vspace #0.5
+      \vspace #0.5
       \line { "   " \italic {Припев ...} }
       \vspace #0.5
       \line { 4. Слънцето, което }
@@ -126,14 +126,14 @@
       \line {   "   "пред престола Божи}
       \line {   "   "песни ще да пее.}
       \line { "   " \italic {Припев ...} }
-        \vspace #0.3
+      \vspace #0.3
     }
 
     \hspace #6
-   \override #'(baseline-skip . 2.8)
+    \override #'(baseline-skip . 2.8)
     \column {
-      
-        \line { 3. Taz velika tajna }
+
+      \line { 3. Taz velika tajna }
       \line {   "   " koj dobre razbira, }
       \line {   "   " svojta duša mila }
       \line {   "   " sutrina razkriva }
@@ -141,7 +141,7 @@
       \line {   "   "na rosa nebesna}
       \line {   "   "i na slănčevata}
       \line {   "   "svetlina čudesna.}
-       \vspace #0.5
+      \vspace #0.5
       \line { "   " \italic {Pripev ...} }
       \vspace #0.5
       \line { 4. Slănceto, koeto }
@@ -164,7 +164,7 @@
       \line {   "   "pred prestola Boži}
       \line {   "   "pesni šte da pee.}
       \line { "   " \italic {Pripev ...} }
-        \vspace #0.3
+      \vspace #0.3
     } %column
 
   } % markup

@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Lasst uns kühn vorwärtsgehen" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10 {
+  \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -12,10 +12,10 @@
     \line { 1. Vorwärts, lasst uns kühn vorangehen}
     \line { "   "in die stillen Paläste des geheimen Wissens,}
     \line { "   "erfüllt von Leben und Kraft.}
-    \line { "   " }
+    \vspace #0.5
 
     \line { "   " \italic { Refrain ...}  }
-    \line { "   " }
+     \vspace #0.5
 
     \line { "   "Wie ein Sturmwind über den Wäldern,}
 
@@ -24,7 +24,7 @@
     \line { "   "vorwärts, schwingen wir uns auf, }
 
     \line { "   "erneuern wir die Welt!}
-    \line { "   " }
+     \vspace #0.5
 
     \line { 2. Lasst uns die Erde }
 
@@ -33,10 +33,10 @@
     \line { "   "und das lasterhafte Böse}
 
     \line { "   "mit Recht besiegen.}
-    \line { "   " }
+      \vspace #0.5
 
     \line { "   " \italic { Refrain ...}  }
-    \line { "   " }
+  \vspace #0.5
     \line {3. Lasst uns den Schwachen}
 
     \line { "   "Stärkung und Erneuerung bringen,}
@@ -44,10 +44,10 @@
     \line { "   "den Leidenden Erbarmen}
 
     \line { "   "und die neue Freiheit.}
-    \line { "   " }
+     \vspace #0.5
 
     \line { "   " \italic { Refrain ...}  }
-    \line { "   " }
+       \vspace #0.5
 
     \line { 4. Lasst uns in den Abgrund steigen,}
 
@@ -56,10 +56,10 @@
     \line { "   "und die gefallenen Brüder}
 
     \line { "   "von der Qual erlösen.}
-    \line { "   " }
+      \vspace #0.5
 
     \line { "   " \italic { Refrain ...}  }
-    \line { "   " }
+      \vspace #0.5
 
     \line { 5. Dann lasst uns die Tore}
 
@@ -69,7 +69,7 @@
 
     \line { "   "die Welt der Lichter.}
 
-    \line { "   " }
+      \vspace #0.5
     \line { "   " \italic { Refrain ... }}
   }
 }

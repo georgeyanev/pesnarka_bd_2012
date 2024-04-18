@@ -6,28 +6,28 @@
 "rightBraces018" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -5.6 )
-    \right-brace #18
+    \translate #'(0 . -6.6 )
+    \right-brace #17
 
 
-    \translate #'(0 . -10 )
-    \right-brace #45
+    \translate #'(0 . -10.0 )
+    \right-brace #37
 
-    \translate #'(0 . -14.9 )
-    \right-brace #18
+    \translate #'(0 . -14.6 )
+    \right-brace #17
 
 
 
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -6.2 )
+    \translate #'(0 . -7.2 )
     2
 
-    \translate #'(0 . -12.2 )
+    \translate #'(0 . -12.8 )
     2
 
-    \translate #'(0 . -18.9 )
+    \translate #'(0 . -19.7 )
     2
 
 
@@ -41,7 +41,7 @@
   \score {
     \include "include/score-layout.ily"
 
-   \new Voice \absolute  {
+    \new Voice \absolute  {
       \clef treble
       \key c \major
       \time 3/4
@@ -88,7 +88,7 @@
       та  __  о -- би -- лен из -- "вор  –" Мъд -- рост -- та. __
     }
 
-     \addlyrics {
+    \addlyrics {
       Iz -- lja -- zăl e se -- jač da se -- e __
       pre -- kras -- no bla -- "go  –" nov ži -- vot. __ I
       se -- e toj, i ti -- ho pe -- e __ pred vse -- ki
@@ -109,26 +109,26 @@
   } % score
 
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+  \markup \abs-fontsize #10 {
+    \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
-   \column {
+    \column {
 
       \line { 2. И който чуе, в миг потръпва }
       \line {   "   " от тоя благ и мил напев; }
       \line {   "   " и просиява, и възкръсва, }
       \line {   "   " и благославя тоз посев. }
-       \vspace #0.5
+      \vspace #0.5
       \line { "   " \italic {Припев: } }
       \line {  "   " Безценен дар е Любовта, }
       \line { "   " красиво чувство – обичта }
       \line { "   " и благо дело – милостта, }
       \line {  "   " обилен извор – Мъдростта.}
 
-       \vspace #0.5
+      \vspace #0.5
       \line { "   " \italic {Припев ...} }
 
-       \vspace #0.5
+      \vspace #0.5
       \line { 3. Любов Вселената облива, }
       \line {   "   " от обич грее всяка твар; }
       \line {   "   " живот в живота се прелива, }
@@ -142,36 +142,36 @@
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
-\column {
+      \column {
 
-      \line { 2. I kojto čue, v mig potrăpva }
-      \line {   "   " ot toja blag i mil napev; }
-      \line {   "   " i prosijava, i văzkrăsva, }
-      \line {   "   " i blagoslavja toz posev. }
-       \vspace #0.5
-      \line { "   " \italic {Pripev: } }
-      \line {  "   " Bezcenen dar e Ljubovta, }
-      \line { "   " krasivo čuvstvo – običta }
-      \line { "   " i blago delo – milostta, }
-      \line {  "   " obilen izvor – Mădrostta.}
+        \line { 2. I kojto čue, v mig potrăpva }
+        \line {   "   " ot toja blag i mil napev; }
+        \line {   "   " i prosijava, i văzkrăsva, }
+        \line {   "   " i blagoslavja toz posev. }
+        \vspace #0.5
+        \line { "   " \italic {Pripev: } }
+        \line {  "   " Bezcenen dar e Ljubovta, }
+        \line { "   " krasivo čuvstvo – običta }
+        \line { "   " i blago delo – milostta, }
+        \line {  "   " obilen izvor – Mădrostta.}
 
-     \vspace #0.5
-      \line { "   " \italic {Pripev ...} }
+        \vspace #0.5
+        \line { "   " \italic {Pripev ...} }
 
-       \vspace #0.5
-      \line { 3. Ljubov Vselenata obliva, }
-      \line {   "   " ot obič gree vsjaka tvar; }
-      \line {   "   " život v života se preliva, }
-      \line {   "   " tuk njama veče mlad i star. }
-      \vspace #0.5
-      \line { "   " \italic {Pripev ...} }
-    }
+        \vspace #0.5
+        \line { 3. Ljubov Vselenata obliva, }
+        \line {   "   " ot obič gree vsjaka tvar; }
+        \line {   "   " život v života se preliva, }
+        \line {   "   " tuk njama veče mlad i star. }
+        \vspace #0.5
+        \line { "   " \italic {Pripev ...} }
+      }
     }
     \"rightBraces018"
 
   }
 
-  \markup \empty-one
+  \markup \empty-two
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/018_izlyazal_e_seyach_lyrics_de.ly"
