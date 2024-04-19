@@ -79,7 +79,7 @@
   \markup \empty-two
 
   \markup \abs-fontsize #10 {
-    \hspace #5
+    \hspace #10
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line {   2. Христос от Горе слиза}

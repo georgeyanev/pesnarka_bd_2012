@@ -50,14 +50,11 @@
     \line { "   " \italic { Refrain ...}  }
     \vspace #0.5
 
-    \line {   3. Dieses große Geheimnis,  }
-      \line {   "   "  wer es gut versteht, }
+    \line {   3. Dieses große Geheimnis, wer es gut versteht, }
 
     \line {   "   "   öffnet seine liebe Seele am Morgen,}
 
-    \line {   "   " wie die weiße Lilie}
-
-    \line {   "   " im himmlischen Tau }
+    \line {   "   " wie die weiße Lilie im himmlischen Tau }
 
     \line {   "   " und im wunderbaren Sonnenlicht.}
     \vspace #0.5
@@ -66,7 +63,7 @@
   
 
   }
-  \hspace #5
+  
 
    \override #`(baseline-skip . ,deCoupletBaselineSkip)
 

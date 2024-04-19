@@ -59,7 +59,7 @@ titleFunc = #(define-scheme-function
    "After song text (usually D.C.) with one line."
    (interpret-markup layout props
                      #{
-                       \markup \raise #3.8 \override #'(baseline-skip . 2.5) {
+                       \markup \raise #3.8 \override #'(baseline-skip . 2.8) {
                          \column {
                            \fill-line \large \bold { "" "" \concat {#text "   " }}
                          }
@@ -72,7 +72,7 @@ titleFunc = #(define-scheme-function
    "After song text (usually D.C.) with one line."
    (interpret-markup layout props
                      #{
-                       \markup \raise #raise \override #'(baseline-skip . 2.5) {
+                       \markup \raise #raise \override #'(baseline-skip . 2.8) {
                          \column {
                            \fill-line \large \bold { "" "" \concat {#text "   " }}
                          }
@@ -85,7 +85,7 @@ titleFunc = #(define-scheme-function
    "After song text (usually D.C.) with one line."
    (interpret-markup layout props
                      #{
-                       \markup \raise #3.8 \override #'(baseline-skip . 2.5) {
+                       \markup \raise #3.8 \override #'(baseline-skip . 2.8) {
                          \column {
                            \fill-line \large { "" "" \concat {#text "   " }}
                          }
@@ -98,7 +98,7 @@ titleFunc = #(define-scheme-function
    "After song text (usually D.C.) with two lines."
    (interpret-markup layout props
                      #{
-                       \markup \raise #3.8 \override #'(baseline-skip . 2.5) {
+                       \markup \raise #3.8 \override #'(baseline-skip . 2.8) {
                          \column {
                            \fill-line \large \bold { "" "" \concat {#textone "   " }}
                            \fill-line \large \bold { "" "" \concat {#texttwo "   " }}
@@ -112,7 +112,7 @@ titleFunc = #(define-scheme-function
    "After song text (usually D.C.) with two lines."
    (interpret-markup layout props
                      #{
-                       \markup \raise #raise \override #'(baseline-skip . 2.5) {
+                       \markup \raise #raise \override #'(baseline-skip . 2.8) {
                          \column {
                            \fill-line \large \bold { "" "" \concat {#textone "   " }}
                            \fill-line \large \bold { "" "" \concat {#texttwo "   " }}
@@ -165,12 +165,12 @@ titleFunc = #(define-scheme-function
    )
 
 #(define bgCoupletFontSize +2.3)
-#(define bgCoupletBaselineSkip 2.9)
+#(define bgCoupletBaselineSkip 3.2)
 
 #(define deTitleFontSize 5)
 #(define deTransTitleFontSize 5)
 #(define deCoupletFontSize +2.3)
-#(define deCoupletBaselineSkip 2.9)
+#(define deCoupletBaselineSkip 3.2)
 
 #(define-bar-line "!!" "!!" #f "!")
 %The new bar line interface allows for easier extension and modification of the bar lines:

@@ -33,8 +33,7 @@
 
     \line { "   "auf dass wir ihn mit Freude,}
 
-    \line { "   "feierlich und ehrerbietig}
-    \line { "   " willkommen heißen.}
+    \line { "   "feierlich und ehrerbietig willkommen heißen.}
     
 
 

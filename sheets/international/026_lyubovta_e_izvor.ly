@@ -52,7 +52,7 @@
   \markup \vspace #0.3
   \markup \abs-fontsize #10 {
     \hspace #15
-    \override #'(baseline-skip . 2.8)
+   \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
       \line { 2. И туй непрестанно  }
@@ -83,7 +83,7 @@
     }
 
     \hspace #6
-    \override #'(baseline-skip . 2.8)
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
       \line { 2. I tuj neprestanno  }
@@ -120,8 +120,6 @@
     \hspace #15
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
-
-
       \line { 4. Слънцето, което }
       \line {   "   " оживотворява }
       \line {   "   " овреме човека,}
@@ -146,7 +144,7 @@
     }
 
     \hspace #6
-    \override #'(baseline-skip . 2.8)
+   \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
 
@@ -170,7 +168,6 @@
       \line {   "   "pred prestola Boži}
       \line {   "   "pesni šte da pee.}
       \line { "   " \italic {Pripev ...} }
-      \vspace #0.3
     } %column
 
   } % markup

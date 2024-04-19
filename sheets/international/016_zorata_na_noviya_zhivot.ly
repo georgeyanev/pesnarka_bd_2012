@@ -17,15 +17,15 @@
       \tempoFunc "Moderato" 8 "160"
       \partial 8
       \autoBeamOff
-      c'8 |e'4 g'8|c''4 g'8 |a'4 g'8 |c''4.| g'4. ~ |  g'4 g'8 |\break
-      c''4 c''8| \once \autoBeamOn c''8 ([  b'8  ])  \noBeam  c''8 |d''4 b'8  |c''4. ~ | c''4  a'8| a'4 a'8| \break
-      d''4  c''8| b'4 a'8| a'4. | g'4. ~ | g'4  g'8 | a'4 g'8 | g'4 f'8 | \break
-      e'4 d'8| c'4. ~ | c'4.  | \bar "||"
+      c'8 |e'4 g'8|c''4 g'8 |a'4 g'8 |c''4.| g'4. ~ |  g'4 g'8 |
+      c''4 c''8| \break \once \autoBeamOn c''8 ([  b'8  ])  \noBeam  c''8 |d''4 b'8  |c''4. ~ | c''4  a'8| a'4 a'8|
+      d''4  c''8|  b'4 a'8| \break a'4. | g'4. ~ | g'4  g'8 | a'4 g'8 | g'4 f'8 |
+      e'4 d'8 | c'4. ~ | c'4.  |   \bar "||"
       \tempoFunc "Più mosso" 8 "176"
-      g'8  fis'8 g'8 | a'4 g'8 | g'4 g'8 | c''4. ~ | \break
-      c''4.  | c''8 b'8 c''8| d''4 c''8 | b'4  b'8 | b'4. ~ | b'4   a'8| b'4 a'8 | \break
-      g'4 fis'8 | g'4. ~ | g'4.  | a'8 g'8 f'8 | f'4 f'8 | e'4 f'8 | g'4. ~ | \break
-      g'4  g'8 | a'4 g'8 | g'4 fis'8 | g'4. ~ | g'4. | d'8 e'8 f'?8| f'4 f'8 | \break
+      g'8  fis'8 g'8 | \break a'4 g'8 | g'4 g'8 | c''4. ~ |
+      c''4.  |   c''8 b'8 c''8| d''4 c''8 |  \break b'4  b'8 | b'4. ~ | b'4   a'8| b'4 a'8 |
+      g'4 fis'8 | g'4. ~ | g'4.  |  a'8 g'8 f'8 | \break f'4 f'8 | e'4 f'8 | g'4. ~ |
+      g'4  g'8 | a'4 g'8 | g'4 fis'8 | g'4. ~ | g'4. | \break d'8 e'8 f'?8| f'4 f'8 |
       e'4 f'8 | g'4. ~ |g'4  e'8 | g'4 f'8 | e'4 d'8 | c'4. ~ | c' 4 s8 | \bar "|."
     }
 
@@ -36,7 +36,7 @@
       наш ки -- вот. __  В~но -- ви -- я све -- тъл тоз жи -- вот, __
       в~но -- ви -- я све -- тъл тоз жи -- вот, __  жи -- вот на
       Лю -- бов -- та, __   в~но -- ви -- я све -- тъл тоз жи -- вот, __
-      жи -- вот на бла -- гост -- та, __  в~но -- ви -- я све -- тъл
+      жи -- вот на бла -- гост -- та, __  "в~но-" -- ви -- я све -- тъл
       тоз жи -- вот, __  жи -- вот на ра -- дост -- та. __
     }
     \addlyrics {
@@ -55,20 +55,42 @@
     }
 
     \midi{}
-  } % score
+  }
 
-  \pageBreak
+  \markup \empty-two
 
   \markup \abs-fontsize #10 {
-    \hspace #7
-    \override #'(baseline-skip . 2.8)
+    \hspace #5
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
 
     \column {
+      % score
+
       \line { 2. И птички въздуха изпълнят }
       \line {   "   " с възторг и сладки песни в хор, }
       \line {   "   " хармонията да допълнят }
       \line {   "   " в големия небесен двор.}
-      \vspace #0.5
+
+    }
+
+    \hspace #4
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \column {
+      \line { 2. I ptički văzduha izpălnjat }
+      \line {   "   " s văztorg i sladki pesni v hor, }
+      \line {   "   " harmonijata da dopălnjat }
+      \line {   "   " v golemija nebesen dvor.}
+
+    }
+  } % m
+
+
+
+  \markup \abs-fontsize #10 {
+    \hspace #5
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+
+    \column {
       \line { "   " \italic {Припев: } }
       \line {  "   " В новия светъл тоз живот, (2) }
       \line { "   " живот на Любовта, }
@@ -106,14 +128,9 @@
     }
 
     \hspace #4
-    \override #'(baseline-skip . 2.8)
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-      \line { 2. I ptički văzduha izpălnjat }
-      \line {   "   " s văztorg i sladki pesni v hor, }
-      \line {   "   " harmonijata da dopălnjat }
-      \line {   "   " v golemija nebesen dvor.}
 
-      \vspace #0.5
       \line { "   " \italic {Pripev: } }
       \line {  "   " V novija svetăl toz život, (2) }
       \line { "   " život na Ljubovta, }

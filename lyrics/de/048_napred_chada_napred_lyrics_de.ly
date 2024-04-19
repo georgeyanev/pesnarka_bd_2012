@@ -30,7 +30,7 @@
 
   }
   \hspace #1
-  \override #'(baseline-skip . 2.8)
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
 
   \column {
