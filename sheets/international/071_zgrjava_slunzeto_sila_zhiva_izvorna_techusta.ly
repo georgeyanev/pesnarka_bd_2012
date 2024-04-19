@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref071_1
-  \tocItem \markup "Изгрява слънцето – Izgrjava slănceto"
+  \tocItem \markup "Изгрява Слънцето – Izgrjava Slănceto"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -17,47 +17,49 @@
       \tempoFunc "Andantino" 4 "69"
       \partial 4
       \autoBeamOff
-        b4  |  d'2 d'4 | g'2 e'4 | d'2. | d'2 g'4 | b'2 a'4 \break |
+      b4  |  d'2 d'4 | g'2 e'4 | d'2. | d'2 g'4 | b'2 a'4 \break |
 
-        g'2. | a'2 b'4 | c''2 b'4 | d''2 c''4 | b'2 a'4^\markup { \concat {"              (" \fermata ")"}} |  g'2
-        \break \bar ":|."
-      
+      g'2. | a'2 b'4 | c''2 b'4 | d''2 c''4 | b'2 a'4^\markup { \concat {"              (" \fermata ")"}} |  g'2
+      \break \bar ":|."
+
     }
 
     \addlyrics {
       Из -- гря --
-      ва Слън -- це -- то, пра -- ща Свет -- ли -- на,
-      но -- си Ра -- дост за Жи -- во -- та тя.
+      ва Слън -- це -- то, пра -- ща свет -- ли -- на,
+      но -- си ра -- дост за жи -- во -- та тя.
+    }
+    \addlyrics {
+
+      Iz -- grja --
+      va Slăn -- ce -- to, pra -- šta svet -- li -- na,
+      no -- si ra -- dost za ži -- vo -- ta tja.
     }
 
-     \addlyrics {
-      Iz -- grja --
-      va Slăn -- ce -- to, pra -- šta Svet -- li -- na,
-      no -- si Ra -- dost za Ži -- vo -- ta tja.
-    }
     \header {
-      title = \titleFunc "Изгрява слънцето" "Izgrjava slănceto"
+      title = \titleFunc "Изгрява Слънцето" "Izgrjava Slănceto"
     }
 
     \midi{}
 
   } % score
-  
+ \markup \empty-one
   \markup \italic \dc-one-nobold "attacca „Сила жива, изворна/Sila živa, izvorna“"
-  
+  \markup \empty-one
+
   % include foreign translation(s) of the song
   \include "../../lyrics/de/071_1_izgryava_slunzeto_lyrics_de.ly"
-    \markup \empty-one
+  \markup \empty-two
 
-      \label #'ref071_2
+  \label #'ref071_2
   \tocItem \markup "Сила жива, изворна – Sila živa, izvorna"
 
-   \include "include/bookpart-paper.ily"
+  \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
 
     \new Voice \absolute {
-     \clef treble
+      \clef treble
       \key g \major
       \time 2/4
       \tempoFunc "Moderato" 4 "84"
@@ -85,7 +87,7 @@
       чу -- ща. Зун ме -- зун, зун ме -- зун, би --
       ном ту ме -- то. Зун ме -- ме -- то.
     }
-     \addlyrics {
+    \addlyrics {
       Si --
       la ži -- va, iz -- vor -- na, te -- ču -- šta, si
       -- la ži -- va, iz -- vor -- na, te -- ču -- šta.
@@ -99,8 +101,8 @@
     \midi{}
 
   } % score
+  \markup \empty-one
 
-  
   % include foreign translation(s) of the song
   \include "../../lyrics/de/071_2_sila_zhiva_izvorna_lyrics_de.ly"
 
