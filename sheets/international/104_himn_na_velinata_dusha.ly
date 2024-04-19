@@ -159,6 +159,8 @@
 
   } % score
 
+    \markup \empty-one
+
   \markup \dc-one "D.S. al Fine"
   %
 

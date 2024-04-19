@@ -6,15 +6,15 @@
 "rightBraces025" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -19.1 )
-    \right-brace #37
+    \translate #'(0 . -21.7 )
+    \right-brace #41
 
   }
   \column {
     % repeat numbers
 
 
-    \translate #'(0 . -19.6 )
+    \translate #'(0 . -22.6 )
     2
 
   }
@@ -162,7 +162,7 @@
     \"rightBraces025"
   } % markup
 
-  \markup \empty-two
+  \markup \vspace #3
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/025_sabudi_se_bratko_lyrics_de.ly"

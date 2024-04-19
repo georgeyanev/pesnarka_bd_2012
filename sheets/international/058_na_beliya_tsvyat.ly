@@ -6,24 +6,24 @@
 "rightBraces058" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -4.1 )
+    \translate #'(0 . -7.1 )
     \right-brace #20
 
-    \translate #'(0 . -9.9 )
+    \translate #'(0 . -16.5 )
     \right-brace #20
 
-    \translate #'(0 . -10.5 )
+    \translate #'(0 . -16.1 )
     \right-brace #20
 
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -4.5 )
+    \translate #'(0 . -7.9 )
     2
-    \translate #'(0 . -11.8 )
+    \translate #'(0 . -18.9 )
     2
 
-    \translate #'(0 . -12.2 )
+    \translate #'(0 . -19.2 )
     2
 
   }
@@ -32,14 +32,14 @@
 "rightBraces059" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -8.3 )
+    \translate #'(0 . -7.7 )
     \right-brace #20
 
 
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -9.2 )
+    \translate #'(0 . -8.7 )
     2
   }
 }
@@ -226,7 +226,7 @@
   } % markup
 
   % include foreign translation(s) of the song
-  \markup \empty-two
+   \markup \vspace #3
   \include "../../lyrics/de/058_na_beliya_tsvyat_lyrics_de.ly"
 
 } % bookpart

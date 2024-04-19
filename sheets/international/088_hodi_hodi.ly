@@ -74,6 +74,7 @@
 
   } % score
   
+    \markup \empty-one
   \markup \italic \dc-one-nobold "attacca „Тъги скърби“/attacca „Tăgi skărbi“"
 
   \markup \fontsize #bgCoupletFontSize {

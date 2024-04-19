@@ -123,7 +123,8 @@
     \midi{}
 
   } % score
-
+  
+  \markup \empty-one
    \markup \dc-two "D.C.""con ripetizione"
   % include foreign translation(s) of the song
   %\include "../../lyrics/de/000_empty_template_lyrics_de.ly"

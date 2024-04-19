@@ -53,7 +53,11 @@
 
       } % score
 
+       \markup \empty-one
+
       \markup \dc-one "D.C."
+
+       \markup \empty-two
 
       % include foreign translation(s) of the song
       \include "../../lyrics/de/040_blagosloven_Gospod_lyrics_de.ly"

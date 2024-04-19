@@ -144,7 +144,7 @@
   } % markup
 
 
-  \markup \empty-two
+  \markup \vspace #3
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/038_milosardieto_lyrics_de.ly"

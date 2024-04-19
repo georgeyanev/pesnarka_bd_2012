@@ -7,31 +7,38 @@
 "rightBraces052_1" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -6.2 )
+    \translate #'(0 . -8.7 )
     \right-brace #30
 
-    \translate #'(0 . -11.6 )
+    \translate #'(0 . -13.1 )
     \right-brace #30
 
-    \translate #'(0 . -12.6 )
+    \translate #'(0 . -13.6 )
     \right-brace #30
 
-    \translate #'(0 . -10.7 )
+    \translate #'(0 . -12.7 )
+    \right-brace #30
+    
+      \translate #'(0 . -13.7 )
     \right-brace #30
 
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -6.7 )
+    \translate #'(0 . -9.4 )
     2
 
-    \translate #'(0 . -14.6 )
+    \translate #'(0 . -17.5 )
     2
 
-    \translate #'(0 . -15.6 )
+    \translate #'(0 . -18.1 )
     2
 
-    \translate #'(0 . -13.7)
+    \translate #'(0 . -16.9)
+    2
+
+
+   \translate #'(0 . -17.9)
     2
 
 
@@ -44,7 +51,7 @@
     % repeat braces
 
 
-    \translate #'(0 . -6.4 )
+    \translate #'(0 . -9.4 )
     \right-brace #30
 
     \translate #'(0 . -12.3 )
@@ -54,10 +61,10 @@
   \column {
     % repeat numbers
 
-    \translate #'(0 . -7.2 )
+    \translate #'(0 . -10.2 )
     2
 
-    \translate #'(0 . -14.7 )
+    \translate #'(0 . -16.7 )
     2
 
 
@@ -305,7 +312,7 @@
     \"rightBraces052_2"
   } % markup
 
-  \markup \empty-three
+ \markup \vspace #3
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/052_darzost_v_Hrista_lyrics_de.ly"

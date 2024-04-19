@@ -101,7 +101,7 @@
     \midi{}
 
   } % score
-  \markup \empty-one
+  \markup \empty-two
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/071_2_sila_zhiva_izvorna_lyrics_de.ly"

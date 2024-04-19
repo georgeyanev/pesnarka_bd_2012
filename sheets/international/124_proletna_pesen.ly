@@ -171,7 +171,8 @@
       \midi{}
 
     } % score
-
+  
+  \markup \empty-one
     \markup \italic \dc-one-nobold "attaca „Слънчева песен/Slănčeva pesen“"
     
 

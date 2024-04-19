@@ -119,7 +119,7 @@
       \line {    "   "    "   "kădeto si šte.}
 
 
-   \vspace #0.5
+      \vspace #0.5
       \line {   3. "   "  Moj vetre, bujno }
 
       \line {   "   "    "   "  zaduhaj sega!}
@@ -183,7 +183,7 @@
     %column
   } % markup
 
-  \markup \empty-two
+  \markup \vspace #3
   % include foreign translation(s) of the song
   \include "../../lyrics/de/032_shumi_lyrics_de.ly"
 

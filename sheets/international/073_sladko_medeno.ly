@@ -52,6 +52,8 @@
     \midi{}
 
   } % score
+  
+  \markup \empty-one
   \markup \dc-two "D.C. al Fine" "con ripetizioni"
 
   \markup \empty-two

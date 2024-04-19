@@ -6,24 +6,24 @@
 "rightBraces048" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -5.5 )
+    \translate #'(0 . -7.5 )
     \right-brace #20
 
-    \translate #'(0 . -10.0 )
+    \translate #'(0 . -11.5 )
     \right-brace #20
 
-    \translate #'(0 . -10.0 )
+    \translate #'(0 . -11.5 )
     \right-brace #20
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -6.1 )
+    \translate #'(0 . -8.1 )
     2
 
-    \translate #'(0 . -12.0 )
+    \translate #'(0 . -14.3 )
     2
 
-    \translate #'(0 . -12.0 )
+    \translate #'(0 . -14.7 )
     2
   }
 }
@@ -141,7 +141,7 @@
     \"rightBraces048"
   } % markup
 
-  \markup \empty-two
+   \markup \vspace #3
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/048_napred_chada_napred_lyrics_de.ly"

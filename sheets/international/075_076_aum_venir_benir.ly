@@ -41,6 +41,7 @@
 
   } % score
 
+  \markup \empty-one
   \markup \dc-one "2 D.C."
   \markup \italic \dc-one-nobold "(песентта се изпълнява три пъти / Das Lied wird drei Mal gesungen)"
 
@@ -93,7 +94,8 @@
     \midi{}
 
   } % score
-
+  
+  \markup \empty-one
   \markup \dc-two "D.C." "con ripetizione "
 
 

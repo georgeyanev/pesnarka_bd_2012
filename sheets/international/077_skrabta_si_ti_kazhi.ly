@@ -87,7 +87,7 @@
 
       } % score
 
-     
+       \markup \empty-one
       \markup \dc-one "D.C. al Fine „Sila živa“ con ripetizioni (един път/ein Mal)"
 
        \markup \empty-two

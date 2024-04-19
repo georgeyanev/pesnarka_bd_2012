@@ -47,6 +47,8 @@
     \midi{}
 
   } % score
+
+  \markup \empty-one
   \markup \dc-one "D.C."
 
 
@@ -89,7 +91,7 @@
     \midi{}
 
   } % score
-
+  \markup \vspace #2
   % include foreign translation(s) of the song
   \include "../../lyrics/de/053_slava_Bozhiya_lyrics_de.ly"
 

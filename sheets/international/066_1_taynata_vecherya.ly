@@ -62,9 +62,12 @@
     \midi{}
 
   } % score
+
+    \markup \empty-one
+    
   \markup \dc-two "D.C." "con ripetizione"
 
-  \markup \empty-two
+   \markup \vspace #2
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/066_1_taynata_vecherya_lyrics_de.ly"

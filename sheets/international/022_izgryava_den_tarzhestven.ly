@@ -65,7 +65,7 @@
   \markup \abs-fontsize #10 {
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-   \column {
+    \column {
 
       \line { 2. И носи радост за душата, }
       \line {   "   " и прогласява свободата,}
@@ -88,7 +88,7 @@
 
       \line {   "   " и вечно тя го подмладява. }
 
-       \vspace #0.5
+      \vspace #0.5
       \line {  3.  О, ден прекрасен, вечно благо, }
       \line {   "   " кому за тебе не е драго? }
       \line {   "   " За всичките години}
@@ -107,7 +107,7 @@
       \line {   "   " za vsički na Zemjata. }
 
 
-       \vspace #0.5
+      \vspace #0.5
       \line { "   " \italic {Pripev: } }
 
       \line {   "   "  Elate da živeem }
@@ -128,14 +128,14 @@
       \line {   "   " Za vsičkite godini}
       \line {   "   " po-skoro obnovi ni! }
 
-       \vspace #0.5
+      \vspace #0.5
       \line { "   " \italic {Pripev ... } }
     }    %column
 
   } % markup
 
 
-  \markup \empty-two
+  \markup \vspace #3
 
 
   % include foreign translation(s) of the song

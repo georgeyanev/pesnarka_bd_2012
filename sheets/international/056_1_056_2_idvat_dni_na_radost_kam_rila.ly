@@ -43,7 +43,7 @@
   } % score
 
   % include foreign translation(s) of the song
-  \markup \empty-two
+  \markup \vspace #3
   \include "../../lyrics/de/056_1_idvat_dni_na_radost_lyrics_de.ly"
 
   \pageBreak
@@ -138,7 +138,7 @@
   } % markup
 
  
- \markup \empty-two
+ \markup \vspace #3
   \include "../../lyrics/de/056_2_kam_rila_lyrics_de.ly"
 
 } % bookpart

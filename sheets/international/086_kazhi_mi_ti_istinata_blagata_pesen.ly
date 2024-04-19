@@ -58,6 +58,7 @@
 
   } % score
   
+    \markup \empty-one
   \markup \italic \dc-one-nobold "attacca „Благата песен/Blagata pesen“"
    \markup \empty-two
 
@@ -116,6 +117,7 @@
 
   } % score
   
+    \markup \empty-one
   \markup \dc-two "D.C. al Fine „Кажи ми ти Истината“/„Kaži mi ti Istinata“" "senza ripetizione"
   
    \markup \empty-two

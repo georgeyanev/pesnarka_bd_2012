@@ -6,24 +6,24 @@
 "rightBraces051" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -5.5 )
+    \translate #'(0 . -7.5 )
     \right-brace #20
 
-    \translate #'(0 . -10.0 )
+    \translate #'(0 . -11.7 )
     \right-brace #20
 
-    \translate #'(0 . -10.0 )
+    \translate #'(0 . -11.0 )
     \right-brace #20
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -6.1 )
+    \translate #'(0 . -8.1 )
     2
 
-    \translate #'(0 . -12.0 )
+    \translate #'(0 . -15.0 )
     2
 
-    \translate #'(0 . -12.0 )
+    \translate #'(0 . -13.5 )
     2
   }
 }
@@ -138,7 +138,8 @@
     } %column
     \"rightBraces051"
   } % markup
-  \markup \empty-two
+
+  \markup \vspace #3
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/051_o_Uchitelyu_blagati_lyric_de.ly"

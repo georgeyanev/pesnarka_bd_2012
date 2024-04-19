@@ -220,7 +220,7 @@
     } %column
   } % markup
 
-  \markup \empty-two
+  \markup \vspace #3
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/060_na_Hrista_zapeyte_lyrics_de.ly"

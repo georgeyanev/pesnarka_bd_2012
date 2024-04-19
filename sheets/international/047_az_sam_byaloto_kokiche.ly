@@ -6,31 +6,31 @@
 "rightBraces047" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -3.1 )
-    \right-brace #35
+    \translate #'(0 . -4 )
+    \right-brace #39
 
-    \translate #'(0 . -5.9 )
-    \right-brace #35
+    \translate #'(0 . -7.3 )
+    \right-brace #39
 
-    \translate #'(0 . -7.8 )
-    \right-brace #35
+    \translate #'(0 . -8.4 )
+    \right-brace #39
 
-    \translate #'(0 . -6.4 )
-    \right-brace #35
+    \translate #'(0 . -7.4 )
+    \right-brace #39
 
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -3.7 )
+    \translate #'(0 . -4.7 )
     2
 
-    \translate #'(0 . -10.7 )
+    \translate #'(0 . -12.9 )
     2
 
-    \translate #'(0 . -12.6 )
+    \translate #'(0 . -13.9 )
     2
 
-    \translate #'(0 . -10.9 )
+    \translate #'(0 . -12.9 )
     2
   }
 }

@@ -8,27 +8,27 @@
     \translate #'(0 . -0.7 )
     \right-brace #20
 
-    \translate #'(0 . -3.9 )
-    \right-brace #42
+    \translate #'(0 . -6.5 )
+    \right-brace #38
 
-    \translate #'(0 . -5.4 )
+    \translate #'(0 . -6.0 )
     \right-brace #20
 
-    \translate #'(0 . -5.0 )
-    \right-brace #43
+    \translate #'(0 . -6.5 )
+    \right-brace #38
   }
   \column {
     % repeat numbers
     \translate #'(0 . -1.2 )
     2
 
-    \translate #'(0 . -4.5 )
-    2
-
-    \translate #'(0 . -9.5 )
-    2
-
     \translate #'(0 . -7.0 )
+    2
+
+    \translate #'(0 . -11.9 )
+    2
+
+    \translate #'(0 . -9.0 )
     2
   }
 }

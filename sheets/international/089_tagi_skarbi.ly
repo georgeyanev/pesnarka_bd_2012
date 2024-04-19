@@ -84,7 +84,7 @@
   } % score
 
 
-
+  \markup \empty-one
   \markup \dc-two "D.C." " con ripetizione"
   \markup \italic \dc-one-nobold "attacca „Светъл ден/Svetăl den“"
   %

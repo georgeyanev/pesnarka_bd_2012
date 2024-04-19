@@ -6,28 +6,28 @@
 "rightBraces018" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -6.6 )
-    \right-brace #17
+    \translate #'(0 . -7.6 )
+    \right-brace #18
 
 
-    \translate #'(0 . -10.0 )
-    \right-brace #37
+    \translate #'(0 . -11.3 )
+    \right-brace #41
 
-    \translate #'(0 . -14.6 )
-    \right-brace #17
+    \translate #'(0 . -16.6 )
+    \right-brace #18
 
 
 
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -7.2 )
+    \translate #'(0 . -8.2 )
     2
 
-    \translate #'(0 . -12.8 )
+    \translate #'(0 . -13.9 )
     2
 
-    \translate #'(0 . -19.7 )
+    \translate #'(0 . -22.6 )
     2
 
 
@@ -171,7 +171,7 @@
 
   }
 
-  \markup \empty-two
+  \markup \vspace #3
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/018_izlyazal_e_seyach_lyrics_de.ly"

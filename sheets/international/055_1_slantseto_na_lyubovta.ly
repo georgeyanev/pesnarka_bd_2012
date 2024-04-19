@@ -42,9 +42,9 @@
     \midi{}
 
   } % score
-
+  \markup \empty-one
   \markup \dc-one "D.C."
-
+  \markup \vspace #1
   % include foreign translation(s) of the song
   \include "../../lyrics/de/055_1_slantseto_na_lyubovta_lyrics_de.ly"
 

@@ -65,7 +65,8 @@
     \midi{}
 
   } % score
-
+  
+  \markup \empty-one
 \markup \dc-one "D.C."
   % include foreign translation(s) of the song
   %\include "../../lyrics/de/000_empty_template_lyrics_de.ly"

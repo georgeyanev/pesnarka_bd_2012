@@ -55,6 +55,8 @@
 
   } % score
 
+    \markup \empty-one
+
   \markup \italic \dc-one-nobold "attacca „В мрак тъмнота“/„V mrak tămnota“"
 
     \label #'ref080_1
@@ -110,7 +112,8 @@
       \midi{}
 
     }
-
+    
+  \markup \empty-one
     \markup \dc-two "D.C. al Fine „Mahar Benu Aba“" "senza ripetizione"
 
     \markup \empty-two
