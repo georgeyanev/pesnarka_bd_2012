@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
-  \hspace #12
+  \hspace #15
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -13,12 +13,12 @@
   \line {   "   "  so dass sich jeder wundert, }
 
    \line {   "   "  wenn er mich sieht.}
-     \line { " "}
+    \vspace #0.5
 
     \line { 2.  Ich stimme ein wunderbares Lied über die Sonne an,}
 
      \line {   "   "  klare kleine Quellen beginnen zu murmeln.}
-    \line { " "}
+   \vspace #0.5
 
     \line { 3. Und ich sehe einen steilen Gipfel vor mir:}
 

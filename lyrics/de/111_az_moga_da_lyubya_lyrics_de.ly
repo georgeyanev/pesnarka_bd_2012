@@ -4,18 +4,15 @@
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
-  \hspace #12
+  \hspace #15
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " "Ich kann lieben [ljubia], }
-    \line { " " um gut zu werden, }
-    \line { " "ich kann lieben [običam], }
-    \line { " "  um stark zu werden.}
+    \line { " "Ich kann lieben [ljubia], um gut zu werden, }
+    \line { " "ich kann lieben [običam], um stark zu werden.}
     \line { " "  Die Liebe [Ljubovta] und die Liebe [Običta], }
     \line { " "  die Liebe [Ljubovta] und die Liebe [Običta], }
-    \line { " "  werden mich lehren, }
-    \line { " " Diener Gottes zu werden.}
+    \line { " "  werden mich lehren, Diener Gottes zu werden.}
 
 
   }

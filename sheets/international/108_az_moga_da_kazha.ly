@@ -5,11 +5,10 @@
 
 \bookpart {
   \label #'ref108
-  \tocItem \markup "Мога да кажа – Moga da kaža "
+  \tocItem \markup "Мога да кажа – Moga da kaža"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
-
 
     \new Voice \relative c' {
       \clef treble
@@ -18,22 +17,22 @@
       \tempoFunc "Moderato" 4 "72"
 
       \autoBeamOff
-      c4 e8. f16 |\time 3/4  g4 e  a4 |\time 2/4  g8 f8 e4 |  g8 f e f | \break
+      c4 e8. f16 |\time 3/4  g4 e  a4 |\time 2/4  g8 f8 e4 |  g8 f e f |
 
-      g2 | c4 b8 a8 | a4. (b8) | g4. b8 | d8 f, a g | \break
+      g2 | \break c4 b8 a8 | a4. (b8) | g4. b8 | d8 f, a g |
 
 
-      \time 3/4 c2 c,8. e16 | g4 a g8. e16 | \time 2/4 g4. c8 | \break
+      \time 3/4 c2 c,8. e16 | \break g4 a g8. e16 | \time 2/4 g4. c8 |
 
-      \time 3/4  b4  f4  a8.  b16 | \time 2/4  | c2 | c4  b8  a8 | a4. (  b8 ) \break |
+      \time 3/4  b4  f4  a8.  b16 | \time 2/4  | c2 | c4  b8  a8 | \break a4. (  b8 )  |
 
       g4.  e8 |  g8  f8  e8  d8 | c2
-      | \bar ".|:"  \key a \minor a'4  e4 \break |
-      a4  b8 ( [  c8 ) ] | a2 | b4  c4 | a2 | d4  e4 \break |
-      c4  a4 | b4  d8  c8 | b4  a4 ^\fermata
+      | \bar ".|:"  \key a \minor a'4  e4  |
+      a4  b8 ( [  c8 ) ] | \break  a2 | b4  c4 | a2 | d4  e4  |
+      c4  a4 | b4  d8  c8 |  b4  a4 ^\fermata
 
 
-      \tempoFunc "Meno mosso " 4 "63"| \bar ":|.|:" c4  b8  a8 \break |
+      \tempoFunc "Meno mosso " 4 "63"| \break  \bar ":|.|:" c4  b8  a8 |
 
       \time 3/4  | gis8 ( [  f8 ) ]  e4.  e8 | \time 2/4  | g?8  f8  e8  d8 | e2
       \bar ":|."
@@ -45,48 +44,49 @@
 
       че Слън -- "-це" -- то у -- тре ще из -- грей
 
-      и на зе -- мя -- та ли -- це -- то ще о -- грей.
+      и на Зе -- мя -- та ли -- це -- то ще ог -- рей.
 
-      То -- пли -- на то ще вне -- се
+      Топ -- ли -- на то ще вне -- се
 
       за всич -- ко, що ра -- сте.
 
-      Грей, мощ -- но слън -- це
+      Грей, "мощ-" -- но Слън -- це,
 
-      да у -- чим ний до -- бре.
+      да у -- чим ний доб -- ре.
 
       Всич -- ко ра  -- зум  -- но ще
 
       ста  -- не и на ра  -- бо  -- та ще
 
-      се хва  -- не. Грей, мощ  -- но слън
+      се хва  -- не. Грей, мощ  -- но Слън
 
-      -- це, да у  -- чим ний до  --
-      бре!
+      -- це, да у  -- чим ний доб  --
+      ре!
     }
+
     \addlyrics {
       Mo -- ga da ka -- ža,
 
       če Slăn -- ce -- to u -- tre šte iz -- grej
 
-      i na ze -- mja -- ta li -- ce -- to šte o -- grej.
+      i na Ze -- mja -- ta li -- ce -- to šte og -- rej.
 
-      To -- pli -- na to šte vne -- se
+      Top -- li -- na to šte vne -- se
 
       za vsič -- ko, što ra -- ste.
 
-      Grej, mošt -- no slăn -- ce
+      Grej, "mošt-" -- no Slăn -- ce,
 
-      da u -- čim nij do -- bre.
+      da u -- čim nij dob -- re.
 
       Vsič -- ko ra  -- zum  -- no šte
 
       sta  -- ne i na ra  -- bo  -- ta šte
 
-      se hva  -- ne. Grej, mošt  -- no slăn
+      se hva  -- ne. Grej, mošt  -- no Slăn
 
-      -- ce, da u  -- čim nij do  --
-      bre!
+      -- ce, da u  -- čim nij dob  --
+      re!
     }
 
     \header {
@@ -102,7 +102,7 @@
 
   % include foreign translation(s) of the song
 
-
+ \markup \vspace #3
   \include "../../lyrics/de/108_az_moga_da_kazha_lyrics_de.ly"
 
 } % bookpart

@@ -15,22 +15,20 @@
 
       \clef treble
       \key es \major
-      \time 6/4
-      \tempoFunc "Moderato" 4 "88"
+      \time 3/8
+      \tempoFunc "Moderato" 8 "88"
       \autoBeamOff
-      \partial 2.
-      bes4 
-      es4.  g,8 | 
-      bes2.  bes4  es4 g4 | 
-      f2.  f4  g4 as4 \break |
-      bes2.  bes4  bes4 c4 | bes2.
-      as4  g2 | f4  bes,4 f'1 | es2. \bar "|."
+      bes8
+      es8.  g,16 |
+      bes4. |  bes8  es8. g16 |
+      f4.|  f8  g8 as8 \break |
+      bes4. | bes8  bes8 c8 | bes4
+      as8 |  g4. | f8 bes,8 f'8 | es4. \bar "|."
     }
 
     \addlyrics {
       И ска -- чам аз ка -- то пти -- чка от клон на клон, да се чу -- ди вся -- кой, кат ме ви -- ди.
     }
-   
     \addlyrics {
       I ska -- čam az ka -- to pti -- čka ot klon na klon, da se ču -- di vsja -- koj, kat me vi -- di.
     }
@@ -42,16 +40,18 @@
     \midi{}
 
   } % score
-   %\markup \dc-two "D.C.""con repitione"
+  %\markup \dc-two "D.C.""con repitione"
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #3
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+  \markup \vspace #2
+
+  \markup \abs-fontsize #10 {
+    \hspace #8
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
       \line {  2. Запявам аз  песен чудна}
       \line {   "   "  за Слънцето,}
       \line {   "   "  бистри изворчета зашумяват.}
-      \line {   "   " }
+     \vspace #0.5
       \line {3. И виждам аз връх изправен}
       \line {   "   " пред мен стои.}
       \line {   "   " Той зове ме кротко там нагоре.}
@@ -63,19 +63,19 @@
       \line {  2. Zapyavam az  pesen chudna}
       \line {   "   "  za Slantseto,}
       \line {   "   "  bistri izvorcheta zashumyavat.}
-      \line {   "   " }
+        \vspace #0.5
       \line {3. I vizhdam az vrah izpraven}
       \line {   "   " pred men stoi.}
       \line {   "   " Toy zove me krotko tam nagore.}
     } %column
   } % markup
 
- 
-  
+
+
 
   % include foreign translation(s) of the song
 
-  \markup \empty-two
+  \markup \vspace #3
   \include "../../lyrics/de/112_2_zov_na_planinata_lyrics_de.ly"
 
 } % bookpart

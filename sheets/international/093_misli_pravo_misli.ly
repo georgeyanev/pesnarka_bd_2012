@@ -9,12 +9,10 @@
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
-
-  
-  \new Voice \absolute  {
-    \clef treble
-    \key d \major
-    \time 2/4 
+    \new Voice \absolute  {
+      \clef treble
+      \key d \major
+      \time 2/4
       \tempoFunc "Adagio" 4 "54"
 
       \partial 4
@@ -41,19 +39,21 @@
     }
 
     \addlyrics {
-      Ми -- сли, пра -- во ми -- сли! __  Ми -- сли, пра -- во ми -- сли!
+      Мис -- ли, пра -- во ми -- сли! __  Мис -- ли, пра -- во мис -- ли!
 
-      Све -- ще -- ни ми -- сли за Жи -- во -- та ти "кре-" -- пи, све -- ще -- ни ми -- сли за Жи -- во -- та ти кре -- пи. __ Све -- пи. __  Кре -- пи кре -- пи
+      Све -- ще -- ни мис -- ли за жи -- во -- та ти "кре-" -- пи, све -- ще -- ни мис -- ли за жи -- во -- та ти кре -- пи. __ Све -- пи. __  Кре -- пи кре -- пи
 
-      кре -- пи све -- ще -- ни ми -- сли за Жи -- во -- та ти кре -- пи. __  Кре -- пи. __ 
+      кре -- пи све -- ще -- ни мис -- ли за жи -- во -- та ти кре -- пи. __  Кре -- пи. __
     }
 
-   \addlyrics {
-      Mi -- sli, pra -- vo mi -- sli! __  Mi -- sli, pra -- vo mi -- sli!
 
-      Sve -- šte -- ni mi -- sli za Ži -- vo -- ta ti kre -- pi, sve -- šte -- ni mi -- sli za Ži -- vo -- ta ti kre -- pi. __ Sve -- pi. __  Kre -- pi kre -- pi
 
-      kre -- pi sve -- šte -- ni mi -- sli za Ži -- vo -- ta ti kre -- pi. __  Kre -- pi. __ 
+    \addlyrics {
+      Mis -- li, pra -- vo mi -- sli! __  Mis -- li, pra -- vo mis -- li!
+
+      Sve -- šte -- ni mis -- li za ži -- vo -- ta ti "kre-" -- pi, sve -- šte -- ni mis -- li za ži -- vo -- ta ti kre -- pi. __ Sve -- pi. __  Kre -- pi kre -- pi
+
+      kre -- pi sve -- šte -- ni mis -- li za ži -- vo -- ta ti kre -- pi. __  Kre -- pi. __
     }
 
 
@@ -64,11 +64,11 @@
     \midi{}
 
   } % score
- 
-   \markup \empty-one
-  \markup \dc-two "D.C.""con ripetizioni"
-  
 
+  \markup \empty-one
+  \markup \dc-two "D.C.""con ripetizioni"
+
+  \markup \empty-three
   % include foreign translation(s) of the song
   \include "../../lyrics/de/093_misli_pravo_misli_lyrics_de.ly"
 

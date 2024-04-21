@@ -3,9 +3,10 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Es scheint, es scheint" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-\hspace #10
-\override #`(baseline-skip . ,deCoupletBaselineSkip)
+
+\markup \abs-fontsize #10 {
+   \hspace #25
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
   \line {   "   " Es scheint, es scheint, es scheint das Licht,}

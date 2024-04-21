@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref116
-  \tocItem \markup "Доще ден – Došte den"
+  \tocItem \markup "До ще ден – Do šte den"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -89,19 +89,19 @@
     }
 
     \header {
-      title = \titleFunc "Доще ден" "Došte den"
+      title = \titleFunc "До ще ден" "Do šte den"
     }
 
     \midi{}
   } % score
 
-  \markup \empty-one
+  \markup \empty-two
   \markup \dc-one "D.C al Fine"
 
   %
 
   % include foreign translation(s) of the song
-
+  \markup \empty-two
 
   \include "../../lyrics/de/116_doste_den_lyrics_de.ly"
 

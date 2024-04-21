@@ -1,13 +1,14 @@
 \version "2.24.3"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Unter allen Bedingungen" }
+
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #12
+\markup \abs-fontsize #10 {
+  \hspace #15
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
+  \column {  
     \line { " "Unter allen Bedingungen des Lebens }
 
     \line { " "verliere nicht deinen Frieden, deinen Frieden!}

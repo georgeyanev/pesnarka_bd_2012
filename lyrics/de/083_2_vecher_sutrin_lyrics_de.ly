@@ -4,19 +4,14 @@
 
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+
+\markup \abs-fontsize #10 {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-
-
+\hspace #5
   \column {
-    \line { "   " Abend, Morgen, es ging, es kam. }
-    \line { "   " Abend, Morgen, es ging, es kam.}
-     \line { "   " }
-    \line { "   " Es ging, es kam,}
-    \line { "   " es ging, es kam,}
-    \line { "   " es ging, es kam, es kam.}
+
+    \line { "   " Abend, Morgen, es ging, es kam. Abend, Morgen, es ging, es kam.}
+    \line { "   " Es ging, es kam, es ging, es kam, es ging, es kam, es kam.}
 
   }
 }

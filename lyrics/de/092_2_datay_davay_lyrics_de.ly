@@ -3,10 +3,11 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Gib, gib" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
+\markup \abs-fontsize #10 {
+
+   \hspace #20
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
     \line { " "Gib, gib, gib alles, reine Saat, Weizenkorn. }
     \line { " "Auf dass es auf den Acker gesät wird, }

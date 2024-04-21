@@ -32,7 +32,7 @@
 
       \slurUp g'4(  \acciaccatura { a'16[g' fis' g']} a'4)  \slurNeutral g'4 g'8. g'16 g'2 | c''4( \acciaccatura { d''16[ c'' b' c'' ]} d''4) c''4 \tempo "rit." b'8. b'16 c''2 | \time 2/4 \break
 
-        \bar ".|:-||" 
+      \bar ".|:-||"
 
 
       \tempoFunc   "            Più mosso" 4 "88"
@@ -40,37 +40,39 @@
 
       e' f' g' g'  | a' g'16([f']) e'([f']) g'8 | a' g' \tempo "rit." a' b' | c''2 | \bar ":|." \time 6/4 \break
 
-      \tempo "      Tempo I" g'4(  \acciaccatura { a'16[g' fis' g']} a'4) g'4 g'8. g'16 g'2 | c''4( \acciaccatura { d''16[ c'' b' c'' ]} d''4) c''4 \tempo "rit." b'8. b'16 c''2 | \bar "|."
+      \tempo "      Tempo I"
+      \once \override Slur.positions = #'(0 . -1.5)
+      g'4(  \acciaccatura { a'16[g' fis' g']} a'4) g'4 g'8. g'16 g'2 | c''4( \acciaccatura { d''16[ c'' b' c'' ]} d''4) c''4 \tempo "rit." b'8. b'16 c''2 | \bar "|."
     }
 
     \addlyrics {
       Ве -- сел ти бъ -- "-ди," бо -- дър ти ста -- "-ни;"
       гри  -- жи -- те на жи -- во -- та
       са то -- вар без -- по -- ле -- зен.
-      Теб Жи -- во -- тът ми -- ло те зо -- ве:
+      Теб жи -- во -- тът ми -- ло те зо -- ве:
       Ве  -- сел ти бъ -- "-ди," бо -- дър ти ста -- "-ни"
-      и всич -- ко жи -- во ти с~Лю -- бов пов  -- диг -- ни.
+      и всич -- ко жи -- во ти с~лю -- бов пов  -- диг -- ни.
       Ве -- сел ти бъ -- "-ди," бо -- дър ти ста -- "-ни!"
       Ве -- сел бъ -- ди, бо -- дър ста -- ни,
-      във Жи -- во -- та Ра -- дост но -- си,
-      във Жи -- во -- та Ра -- дост но -- си
-      във Жи -- во -- та ти.
+      във жи -- во -- та ра -- дост но -- си,
+      във жи -- во -- та ра -- дост но -- си
+      във жи -- во -- та ти.
       Ве -- сел ти "бъ-" -- ди, бо -- дър ти ста -- "-ни!"
     }
 
     \addlyrics {
-      Ve -- sel ti bă -- di, bo -- dăr ti sta -- ni;
+      Ve -- sel ti bă -- "-di," bo -- dăr ti sta -- "-ni;"
       gri  -- ži -- te na ži -- vo -- ta
       sa to -- var bez -- po -- le -- zen.
-      Teb Ži -- vo -- tăt mi -- lo te zo -- ve:
-      Ve  -- sel ti bă -- di, bo -- dăr ti sta -- ni
-      i vsič -- ko ži -- vo ti s~Lju -- bov pov  -- dig -- ni.
-      Ve -- sel ti bă -- di, bo -- dăr ti sta -- ni!
+      Teb ži -- vo -- tăt mi -- lo te zo -- ve:
+      Ve  -- sel ti bă -- "-di," bo -- dăr ti sta -- "-ni"
+      i vsič -- ko ži -- vo ti s~lju -- bov pov  -- dig -- ni.
+      Ve -- sel ti bă -- "-di," bo -- dăr ti sta -- "-ni!"
       Ve -- sel bă -- di, bo -- dăr sta -- ni,
-      văv Ži -- vo -- ta Ra -- dost no -- si,
-      văv Ži -- vo -- ta Ra -- dost no -- si
-      văv Ži -- vo -- ta ti.
-      Ve -- sel ti bă -- di, bo -- dăr ti sta -- ni!
+      văv ži -- vo -- ta ra -- dost no -- si,
+      văv ži -- vo -- ta ra -- dost no -- si
+      văv ži -- vo -- ta ti.
+      Ve -- sel ti "bă-" -- di, bo -- dăr ti sta -- "-ni!"
     }
 
 
@@ -83,7 +85,7 @@
   } % score
 
   %\markup \dc-one "D.C."
-  
+
 
 
   % include foreign translation(s) of the song

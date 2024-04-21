@@ -23,7 +23,7 @@
     \line { "   "in den Wald; schau die Schönheit an, }
     \line { "   "atme den Duft ein,}
     \line { "   "dort schaust du das Wesen an.}
-
+   \vspace #0.5
 
     \line { 3. Schau den Himmel an, frag das Herz:}
     \line { "   "In dieser wunderbaren Schönheit}

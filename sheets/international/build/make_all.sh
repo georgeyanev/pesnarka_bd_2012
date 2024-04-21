@@ -55,18 +55,18 @@ cat \
     ../069_pesni_ot_Uchitelya.ly \
     ../070_fir_fur_fen.ly \
     ../071_zgrjava_slunzeto_sila_zhiva_izvorna_techusta.ly \
-    ../073_sladko_medeno.ly \
     ../072_blagost.ly \
     ../074_blaga_duma.ly \
     ../075_076_aum_venir_benir.ly \
     ../076_2_sila_ziva.ly \
     ../077_skrabta_si_ti_kazhi.ly \
     ../078_gree_gree.ly \
-    ../079_Duhat_Bozhii.ly \
     ../080_mahar_benu_aba_v_mrak_tamnota.ly \
     ../081_v_zorite_na_zhivota.ly \
     ../082_Bog_e_lyubov.ly \
-    ../083_1_2_vecher_sutrin_vehadi_imashe_chelovek.ly \
+    ../083_1_2_vehadi_vecher_sutrin.ly \
+    ../084_imashe_chelovek.ly \
+    ../079_Duhat_Bozhii.ly \
     ../086_kazhi_mi_ti_istinata_blagata_pesen.ly \
     ../087_mussala.ly \
     ../088_hodi_hodi.ly \
@@ -78,19 +78,19 @@ cat \
     ../094_v_nachaloto_be_slovoto.ly \
     ../093_misli_pravo_misli.ly \
     ../095_vdahnovenie.ly \
+    ../095_2_dobar_den.ly \
     ../096_vesel_ti_badi.ly \
     ../097_zapali_se_oganyat.ly \
     ../098_bershid_ba.ly \
     ../099_malkiyat_izvor.ly \
-    ../095_2_dobar_den.ly \
     ../100_vsichko_v_zjivota_e_postizhimo.ly \
     ../101_1_tagi_skarbi_sa_bogatstvo.ly \
     ../101_2_duhat_mi_shepne_tova.ly \
     ../102_sila_zhivot_zdrave.ly \
     ../103_krasiv_e_zhivotat.ly \
+    ../104_himn_na_velinata_dusha.ly \
     ../106_pesen_na_zorata.ly \
     ../107_pri_vsichkite_uslovija.ly \
-    ../104_himn_na_velinata_dusha.ly \
     ../108_az_moga_da_kazha.ly \
     ../109_az_smeya_da_kaza.ly \
     ../110_1_da_imash_vyara.ly \

@@ -39,7 +39,8 @@
       Би -- ла -- дер А -- дер Бе -- ну ше -- ла.
     }
 
-   \addlyrics {
+
+    \addlyrics {
       Ma -- har Be -- nu A -- ba, Ve -- jut
       Bi -- la -- der A -- der Be -- nu še -- la,
       Be -- nu še -- la, Be -- nu še -- la,
@@ -55,70 +56,73 @@
 
   } % score
 
-    \markup \empty-one
+  \markup \empty-one
 
   \markup \italic \dc-one-nobold "attacca „В мрак тъмнота“/„V mrak tămnota“"
 
-    \label #'ref080_1
+
+  \markup \empty-three
+
+  \label #'ref080_1
   \tocItem \markup "В мрак тъмнота – V mrak tămnota"
 
 
   \score {
     \include "include/score-layout.ily"
 
-
     \new Voice \absolute {
       \clef treble
       \key c \minor
-      \time 3/4
+      \time 3/8
       \tempoFunc "Andante" 4 "66"
 
-      \partial 4
+      \partial 8
 
-      g4  | c'2 \autoBeamOff b8 c' | \autoBeamOn d'2 g4 | es'2 d'4 | \break c'2 ( d'16 c' b c'  |
+      g8  | c'4 \autoBeamOff b16 c' | \autoBeamOn d'4 g8 | es'4 d'8 |  c'4 ( d'32 c' b c'  | \break
 
-      d'2 ) c'4 | c'2 f'4 |  \autoBeamOff f'2 es'8 d' | es'2 f'4 |\break g'2 as'4
+      d'4 ) c'8 | c'4 f'8 |  \autoBeamOff f'4 es'16 d' | es'4 f'8 | g'4 as'8 |\break
 
-      g'2 fis'4 | g'2 as'4 | g'2 f'4 | \break  \repeat volta 2 {
-        f'2 es'8 d' |  es'2 f'4
+      g'4 fis'8 | g'4 as'8 | g'4 f'8 |   \repeat volta 2 {
+        f'4 es'16 d' |  es'4 f'8 | \break
 
-        g'2 as'4 \break  | g'2 f'4 | es'2 d'4
-      }  \alternative { { c'2 f'4 } {  c'2. } } \bar "||"  \break  |
+        g'4 as'8 | g'4 f'8 | es'4 d'8
+      }  \alternative { { c'4 f'8 } {  c'4. } } \bar "||"  \break  |
 
-      c'2 d'4 |  es'2. |  d'2 c'4 | c'2. | b2 b4 | c'2  \bar "|."
+      c'4 d'8 |  es'4. |  d'4 c'8 | c'4. | b4 b8 | c'4  \bar "|."
     }
 
     \addlyrics {
       Във мрак, тъм
       -- но -- та е бил жи -- во -- тът наш, но Слън
-      -- це -- то на Жи -- во -- та про -- си -- я у
-      нас и ний тръг -- нах -- ме във пъ -- тя чист 
+      -- це -- то на жи -- во -- та про -- си -- я у
+      нас и ний "тръг-" -- нах -- ме във пъ -- тя чист
       и свят за нас, и нас. Свят за нас, свят за
       нас, свят за нас.
     }
-      \addlyrics {
+
+    \addlyrics {
       Văv mrak, tăm
       -- no -- ta e bil ži -- vo -- tăt naš, no Slăn
-      -- ce -- to na Ži -- vo -- ta pro -- si -- ja u
-      nas i nij trăg -- nah -- me văv pă -- tja čist
+      -- ce -- to na ži -- vo -- ta pro -- si -- ja u
+      nas i nij "trăg-" -- nah -- me văv pă -- tja čist
       i svjat za nas, i nas. Svjat za nas, svjat za
       nas, svjat za nas.
     }
 
-      \header {
-        title = \titleFunc "В мрак тъмнота" "V mrak tămnota"
-      }
-
-      \midi{}
-
+    \header {
+      title = \titleFunc "В мрак тъмнота" "V mrak tămnota"
     }
-    
+
+    \midi{}
+
+  }
+
   \markup \empty-one
-    \markup \dc-two "D.C. al Fine „Mahar Benu Aba“" "senza ripetizione"
+  \markup \dc-two "D.C. al Fine „Mahar Benu Aba“" "senza ripetizione"
 
-    \markup \empty-two
+  \markup \vspace #3
 
-    % include foreign translation(s) of the song
-    \include "../../lyrics/de/080_2_v_mrak_tamnota_lyrics_de.ly"
+  % include foreign translation(s) of the song
+  \include "../../lyrics/de/080_2_v_mrak_tamnota_lyrics_de.ly"
 
-  } % bookpart
+} % bookpart

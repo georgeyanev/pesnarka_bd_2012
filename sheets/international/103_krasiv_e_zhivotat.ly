@@ -10,17 +10,13 @@
   \score {
     \include "include/score-layout.ily"
 
-
     \new Voice \absolute{
-
       \clef treble
       \key a \major
       \time 2/4
       \tempoFunc "Moderato" 4 "88"
       \autoBeamOff
-
       \partial 8
-
       \repeat volta 2 {
         e'8 | a'4 a'8. b'16 | cis''4 a'8. a'16 | cis''8 cis''8 d''8. cis''16 | b'2 | e''4 e''8. ( [ d''16 ] ) \break |
 
@@ -28,7 +24,7 @@
       }
       \alternative {
         {  a'4. e'8 | }
-        {  a'4\fermata a4 \tempoFunc "Andante sustenuto" 4 "63" }
+        {  a'4 \fermata \caesura a4 \tempoFunc "Andante sustenuto" 4 "63" }
       }
 
       \key a \minor \time 4/4 \repeat volta 2 {
@@ -62,7 +58,7 @@
 
       що из -- пъл -- ня ця -- ла -- та Зе -- мя. Кра -- мя.
 
-      Кра -- сив е Жи -- во -- тът на на -- ша -- та __ ду -- ша,
+      Кра -- сив е жи -- во -- тът на на -- ша -- та __ ду -- ша,
 
       що из -- пъл -- ня ця -- ла -- та Зе -- мя. Кра -- мя.
 
@@ -72,6 +68,7 @@
 
       що из -- пъл -- ня ця -- ла -- та Зе -- мя.
     }
+
     \addlyrics {
       Kra -- siv e ži -- vo -- tăt na na -- ša -- ta du -- ša,
 
@@ -79,7 +76,7 @@
 
       što iz -- păl -- nja cja -- la -- ta Ze -- mja. Kra -- mja.
 
-      Kra -- siv e Ži -- vo -- tăt na na -- ša -- ta __ du -- ša,
+      Kra -- siv e ži -- vo -- tăt na na -- ša -- ta __ du -- ša,
 
       što iz -- păl -- nja cja -- la -- ta Ze -- mja. Kra -- mja.
 
@@ -98,8 +95,8 @@
     \midi{}
 
   } % score
+ \markup \vspace #1
 
-  \pageBreak
   \include "../../lyrics/de/103_krasiv_e_zhivota_lyrics_de.ly"
 
 } % bookpart

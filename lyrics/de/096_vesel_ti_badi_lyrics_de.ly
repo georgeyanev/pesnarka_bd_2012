@@ -3,10 +3,11 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Sei fröhlich" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #12
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
+\markup \abs-fontsize #10 {
+
+   \hspace #25
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
 \line { " "Sei fröhlich, werde munter;}
 

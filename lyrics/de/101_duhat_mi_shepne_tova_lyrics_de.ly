@@ -1,14 +1,14 @@
 \version "2.24.3"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Der Geist flüstert mir das zu" }
+
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10 {
+  \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
-   
+  \column { 
 
 \line { " " Mir wird es im Leben wohl ergehen, }
 

@@ -1,13 +1,14 @@
 \version "2.24.3"
 
 \markup \fill-line { \fontsize #deTitleFontSize "In der Wüste des Lebens" }
+
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #12
+\markup \abs-fontsize #10 {
+  \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
+  \column { 
   \line { " "  In der Wüste des Lebens,}
 
  \line { " " dort, wo Gewalt sich ausbreitet,}

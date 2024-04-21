@@ -80,7 +80,7 @@
       što v~ži -- vo -- ta e re -- al -- no, što e săšt -- nost -- ta.
       A du -- hăt mi šep  -- ne ta  -- ka:
 
-      "1.    Slăn"  -- ce  -- to, što gre -- e, ptič -- ka -- ta, što pe -- e,
+      "1.      Slăn"  -- ce  -- to, što gre -- e, ptič -- ka -- ta, što pe -- e,
 
       vsič -- ko, što ži -- ve -- e, stra -- da i kop -- ne -- e,
 
@@ -119,7 +119,7 @@
 
       " " " " " " " " " " " " " " " " " " " " " " " " " " " "
 
-      " " " " " " " " " " " " " " " " " " "2.    I    - " di pri cve -- tja -- ta, v~po -- le -- to, v~go -- ra -- ta,
+      " " " " " " " " " " " " " " " " " " "2.     I    - " di pri cve -- tja -- ta, v~po -- le -- to, v~go -- ra -- ta,
       gle -- daj kra -- so -- ta -- ta, di -- šaj a -- ro -- ma -- ta, tam šte vi -- diš săšt -- nost  -- ta;
       gle -- daj kra -- so -- ta -- ta, di -- šaj a -- ro -- ma -- ta, tam šte vi -- diš săšt -- nost  -- ta.
 

@@ -3,11 +3,11 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Alles im Leben ist erreichbar" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #18
+\markup \abs-fontsize #10 {
+  \hspace #25
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {   
+  \column { 
   \line { " "   Alles im Leben ist erreichbar, }
 
  \line { " " wenn die Zeit gut ist,  }

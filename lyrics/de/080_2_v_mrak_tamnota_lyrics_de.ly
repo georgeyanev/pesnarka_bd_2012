@@ -3,8 +3,9 @@
 \markup \fill-line { \fontsize #deTitleFontSize "In der Finsternis, in der Dunkelheit" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+
+\markup \abs-fontsize #10 {
+   \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {

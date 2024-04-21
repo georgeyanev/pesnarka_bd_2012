@@ -3,10 +3,11 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Denke! Denke gerade" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #16
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
+\markup \abs-fontsize #10 {
+
+   \hspace #20
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
     \line { " " Denke! Denke gerade! }
     \line { " " Denke! Denke gerade! }

@@ -20,9 +20,7 @@
     \line { " "er wird ein lichter Tag sein.}
     \line { " "Säe, säe!}
 
-    \line { " "Baue, Baue, baue }
-
-    \line { " "errichte gut!}
+    \line { " "Baue, Baue, baue errichte gut!}
 
     \line { " "Und die Freude wird dich gut belohnen.}
   }

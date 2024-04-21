@@ -10,14 +10,11 @@
   \score {
     \include "include/score-layout.ily"
 
-
-    \new Voice \relative c' {
+\new Voice \relative c' {
       \clef treble
       \key f \major
       \time 6/8
       \tempoFunc "Allegretto" 4. "84"
-
-
       \partial 8
       c'8 | c4 bes8 a4 g8 | f4 d8 c4. | g'4  g8 g8 (a b)  | \break
 
@@ -32,7 +29,7 @@
       }
       c2 \tuplet 3/2 { g4 g8} | c2 \tuplet 3/2 { a4 a8 } | d4 (c) \tupletUp \tuplet 3/2 { b b8 } | \tupletNeutral \break
 
-      c2 \mark \markup { \bold \fontsize #-2 { "Fine" } } \bar "!!" \key d \minor a8 ( f8 ) \autoBeamOff \repeat volta 2 {
+      \tempo "                  Fine" c2  \bar "!!" \key d \minor a8 ( f8 ) \autoBeamOff \repeat volta 2 {
         e4 d a8. a16 | \time 2/4 d4. f8 | \break
         e4 a,8. a16 | d8 [(e8)] f8 e |
       }
@@ -47,7 +44,7 @@
     \addlyrics {
       При всич -- ки -- те у -- сло -- ви -- я на жи -- во -- та
 
-      не гу -- би сво -- я Мир, сво -- я Мир.
+      не гу -- би сво -- я мир, сво -- я мир.
 
       Жи -- во -- тът е кра -- сив,
 
@@ -56,9 +53,9 @@
       Жи -- смел.
     }
    \addlyrics {
-      Pri vsič -- ki -- te u -- slo -- vi -- ja na ži -- vo -- ta
+    Pri vsič -- ki -- te u -- slo -- vi -- ja na ži -- vo -- ta
 
-      ne gu -- bi svo -- ja Mir, svo -- ja Mir.
+      ne gu -- bi svo -- ja mir, svo -- ja mir.
 
       Ži -- vo -- tăt e kra -- siv,
 
@@ -82,7 +79,7 @@
 
   % include foreign translation(s) of the song
 
-  %\pageBreak
+  \markup \vspace #3
   \include "../../lyrics/de/107_pri_vsichkite_uslovija_lyrics_de.ly"
 
 } % bookpart

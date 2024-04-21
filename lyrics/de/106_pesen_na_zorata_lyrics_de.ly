@@ -1,13 +1,14 @@
 \version "2.24.3"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Das Lied der Morgenröte" }
+
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10 {
+  \hspace #15
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
+  \column {  
     \line { " "Die lichte Morgenröte bricht an,}
 
     \line { " "die lichte Morgenröte bricht an,}

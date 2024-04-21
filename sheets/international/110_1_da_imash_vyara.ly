@@ -11,7 +11,7 @@
     \include "include/score-layout.ily"
 
 
-    \new Voice \relative c' {
+      \new Voice \relative c' {
       \clef treble
       \key g \minor
       \time 8/16
@@ -30,7 +30,7 @@
       bes8. a8 ( a8. ) | % 11
       bes8. ( a8 g8. ) | % 12
       d'8. ~ d8 ~ d8. \break | % 13
-      \bar ".|:-|" 
+      \bar ".|:-|"
       c,8. d8 es8. | % 14
       es8. d8 ~ d8. | % 15
       es8. c8 ~ c8. | % 16
@@ -45,11 +45,11 @@
       вя -- ра, __ вя -- ра, __ да и -- маш вя -- ра, __ вя --
       ра, __ да и -- маш вя -- ра, __ вя -- ра, __ да и --
       маш вя -- ра, __ вя -- ра, __ вя -- ра. __}
-      \addlyrics {
-        Da i -- maš
-        vja -- ra, __ vja -- ra, __ da i -- maš vja -- ra, __ vja --
-        ra, __ da i -- maš vja -- ra, __ vja -- ra, __ da i --
-        maš vja -- ra, __ vja -- ra, __ vja -- ra. __}
+       \addlyrics {
+      Da i -- maš
+      vja -- ra, __ vja -- ra, __ da i -- maš vja -- ra, __ vja --
+      ra, __ da i -- maš vja -- ra, __ vja -- ra, __ da i --
+      maš vja -- ra, __ vja -- ra, __ vja -- ra. __}
 
         \header {
           title = \titleFunc "Да имаш вяра" "Da imaš vjara"
@@ -59,13 +59,13 @@
 
       } % score
 
-  \markup \empty-one
+      \markup \empty-one
       \markup \dc-one "D.C. con ripetizione"
 
 
       % include foreign translation(s) of the song
 
-
+\markup \vspace #3
       \include "../../lyrics/de/110_da_imash_vyara_lyrics_de.ly"
 
     } % bookpart

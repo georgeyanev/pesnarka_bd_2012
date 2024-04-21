@@ -3,8 +3,9 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Der Geist Gottes" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #16
+
+\markup \abs-fontsize #10 {
+   \hspace #25
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {

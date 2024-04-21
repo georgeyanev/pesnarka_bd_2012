@@ -17,9 +17,6 @@
       \time 2/4
       \tempoFunc "Andante maestoso" 4 "60"
       \autoBeamOff
-
-
-      \autoBeamOff
       d'4 a8 b8 | a8 fis8 d e | fis4 ( e4 ) | a2 | g4 b8 b| \break
 
       a8 g fis d | e [ ( fis ] e4 )  | d2 | \time 4/4 \tuplet 3/2 { { g8 [ (   a8 ) ] b8 } } a4 a2 \break
@@ -38,7 +35,7 @@
 
       e8 [( d ] e [d ]) | d2 | a'4. g8  |  e8 [( d8  ] e8 [d8 ]) | d2 | \break
 
-      \time 3/4 d8 fis a a a a | d, fis a \tempo "rit." a a a \bar "||" \key d \major \time 2/4 \tempo "Tempo I" d4 a8 b | \break
+      \time 3/4 d8 fis a a a a | d, fis a \tempo "rit." a a a \bar "||" \key d \major \time 2/4 \tempo "Tempo I" d4 a8 b | \break \pageBreak
 
       a8 fis d e | fis fis e4| a2 | g4 b8 b | a g fis d | \break
 
@@ -52,22 +49,21 @@
       зо -- ра се свет -- ла за -- зо -- ря -- ва,
       за -- зо -- ря -- ва, за -- зо -- ря -- ва.
 
-      Пъл -- на 	Pа -- дост тя в~Жи -- во -- та вна -- ся.
+      Пъл -- на ра -- дост тя в~жи -- во -- та вна -- ся.
 
       На мла -- ди но -- си здра -- ве,
 
-      на ра -- бот -- ни дар Жи -- вот.
+      на ра -- бот -- "ни  –" дар жи -- вот.
 
-      Мъ -- дри -- те да до -- бру -- ват,
+      Мъд -- ри -- те да до -- бру -- ват,
 
-      до -- бри -- те да бла -- гу -- ват,
+      доб -- ри -- те да бла -- гу -- ват,
 
+      да доб -- ру -- ват, да бла -- гу -- ват;
 
-      да до -- бру -- ват, да бла -- гу -- ват;
+      мъд -- ри да доб -- ру -- ват,
 
-      мъд -- ри да до -- бру -- ват,
-
-      до -- бри да бла -- гу -- ват.
+      доб -- ри да бла -- гу -- ват.
 
       Зо -- ра за тях се свет -- ла за -- зо -- ря -- ва,
 
@@ -81,28 +77,28 @@
       zo -- ra se svet -- la za -- zo -- rja -- va,
       za -- zo -- rja -- va, za -- zo -- rja -- va.
 
-      Păl -- na 	Ra -- dost tja v~Ži -- vo -- ta vna -- sja.
+      Păl -- na ra -- dost tja v~ži -- vo -- ta vna -- sja.
 
       Na mla -- di no -- si zdra -- ve,
 
-      na ra -- bot -- ni dar Ži -- vot.
+      na ra -- bot -- "ni  –" dar ži -- vot.
 
-      Mă -- dri -- te da do -- bru -- vat,
+      Măd -- ri -- te da do -- bru -- vat,
 
-      do -- bri -- te da bla -- gu -- vat,
+      dob -- ri -- te da bla -- gu -- vat,
 
+      da dob -- ru -- vat, da bla -- gu -- vat;
 
-      da do -- bru -- vat, da bla -- gu -- vat;
+      măd -- ri da dob -- ru -- vat,
 
-      măd -- ri da do -- bru -- vat,
-
-      do -- bri da bla -- gu -- vat.
+      dob -- ri da bla -- gu -- vat.
 
       Zo -- ra za tjah se svet -- la za -- zo -- rja -- va,
 
       zo -- ra za tjah se svet -- la za -- zo -- rja -- va,
 
       za -- zo -- rja -- va, za -- zo -- rja -- va.
+
     }
 
 
@@ -118,6 +114,8 @@
 
 
   % include foreign translation(s) of the song
+
+  \markup \vspace #3
 
   \include "../../lyrics/de/106_pesen_na_zorata_lyrics_de.ly"
 

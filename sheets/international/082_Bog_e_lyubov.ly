@@ -9,7 +9,6 @@
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
-
     \new Voice \relative c' {
       \clef treble
       \key g \major
@@ -36,7 +35,7 @@
 
       fis4 e8 e8 fis4 a8. a16 |
       g4. a8 b4 a8. a16 |
-      \time 3/4 g2 \tempo "Più mosso"  d8. d16 |
+      \time 3/4 g2 \breathe \tempo "Più mosso"  d8. d16 |
       \repeat volta 3 {
         g4 fis4 fis8. e16 | \break
 
@@ -61,20 +60,22 @@
     \addlyrics {
       Бог __ е "Лю-" -- бов, | Бог е "Лю-" -- бов, | Бог е "Лю-" -- бов, Лю -- |
       бов, Лю -- бов  | веч -- на, | без -- гра -- нич -- на, |
-      пъл -- на | със Жи -- "-вот," Жи -- вот на | бла -- ги -- я Бо -- жи  Дух.
-      Дух на бла -- гост -- "-та," | Дух на свя -- тост -- "-та," | Дух на пъ -- лен Мир и |
-      Ра -- дост за вся -- ка ду -- ша, за вся -- ка ду -- | ша. Ний щe | хо -- дим в~то -- я |
-      път  на Свет -- ли -- | на -- та, на Свет -- ли -- | на -- та, на Свет -- ли | на -- та, в~ко -- |
+      пъл -- на | със жи -- "-вот," жи -- вот на | бла -- ги -- я Бо -- жи  Дух.
+      Дух на бла -- гост -- "-та," | Дух на свя -- тост -- "-та," | Дух на пъ -- лен мир и |
+      ра -- дост за вся -- ка ду -- ша, за вся -- ка ду -- | ша. Ний щe | хо -- дим в~то -- я |
+      път  на свет -- ли -- | на -- та, на свет -- ли -- | на -- та, на свет -- ли | на -- та, в~ко -- |
       я -- то "ца-" -- ру -- ва | Бо -- жи -- я -- та "Лю-" -- бов, | Бо -- жи -- я -- та "Лю-" -- бов, |
       Бо -- жи -- я -- та "Лю-" -- бов, | Бо -- жи -- я -- та Лю -- | бов. Ний ще | бов.}
+
+
       \addlyrics {
         Bog __ e "Lju-" -- bov, | Bog e "Lju-" -- bov, | Bog e "Lju-" -- bov, Lju -- |
         bov, Lju -- bov  | več -- na, | bez -- gra -- nič -- na, |
-        păl -- na | săs Ži -- vot, Ži -- vot na | bla -- gi -- ja Bo -- ži  Duh.
-        Duh na bla -- gost -- ta, | Duh na svja -- tost -- ta, | Duh na pă -- len Mir i |
-        Ra -- dost za vsja -- ka du -- ša, za vsja -- ka du -- | ša. Nij šte | ho -- dim v~to -- ja |
-        păt  na Svet -- li -- | na -- ta, na Svet -- li -- | na -- ta, na Svet -- li | na -- ta, v~ko -- |
-        ja -- to ca -- ru -- va | Bo -- ži -- ja -- ta "Lju-" -- bov, | Bo -- ži -- ja -- ta "Lju-" -- bov, |
+        păl -- na | săs ži -- "-vot," ži -- vot na | bla -- gi -- ja Bo -- ži  Duh.
+        Duh na bla -- gost -- "-ta," | Duh na svja -- tost -- "-ta," | Duh na pă -- len mir i |
+        ra -- dost za vsja -- ka du -- ša, za vsja -- ka du -- | ša. Nij šte | ho -- dim v~to -- ja |
+        păt  na svet -- li -- | na -- ta, na svet -- li -- | na -- ta, na svet -- li | na -- ta, v~ko -- |
+        ja -- to "ca-" -- ru -- va | Bo -- ži -- ja -- ta "Lju-" -- bov, | Bo -- ži -- ja -- ta "Lju-" -- bov, |
         Bo -- ži -- ja -- ta "Lju-" -- bov, | Bo -- ži -- ja -- ta Lju -- | bov. Nij šte | bov.}
         \header {
           title = \titleFunc "Бог е Любов" "Bog e Ljubov"
@@ -84,6 +85,7 @@
 
       } % score
 
+      \pageBreak
       % include foreign translation(s) of the song
       \include "../../lyrics/de/082_bog_e_ljubov_lyrics_de.ly"
 

@@ -1,10 +1,12 @@
 \version "2.24.3"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Gott ist Liebe" }
+
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+
+\markup \abs-fontsize #10 {
+   \hspace #25
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -23,7 +25,7 @@
 
     \line { " " Geist des vollen Friedens und der Freude für jede Seele.}
 
-    \line { " "}
+    \vspace #0.5
 
     \line { " " Wir werden auf diesem Weg des Lichtes,}
     \line { " " des Lichtes, des Lichtes, gehen,  }

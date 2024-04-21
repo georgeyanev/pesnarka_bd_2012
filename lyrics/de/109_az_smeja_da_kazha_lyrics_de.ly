@@ -1,36 +1,23 @@
 \version "2.24.3"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Ich wage zu sagen" }
+
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #20
+\markup \abs-fontsize #10 {
+
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
-    \line { " "Ich wage zu sagen, }
+  \column { 
+    \line { " "Ich wage zu sagen, dass die Sonne licht ist. }
 
-    \line { " "dass die Sonne licht ist. }
+    \line { " "Ich wage zu sagen, dass die Sonne licht ist.}
 
-    \line { " "Ich wage zu sagen, }
+    \line { " "Das lässt sich nicht leugnen. Dank ihr schmilzt alles, dank ihr wächst alles, }
 
-    \line { " "dass die Sonne licht ist.}
+    \line { " "dank ihr blüht alles immer, dank ihr reift alles. Dank ihr steht alles auf,}
 
-    \line { " "Das lässt sich nicht leugnen.}
-
-    \line { " "Dank ihr schmilzt alles, }
-
-    \line { " "dank ihr wächst alles, }
-
-    \line { " "dank ihr blüht alles immer,}
-
-    \line { " "dank ihr reift alles.}
-
-    \line { " " Dank ihr steht alles auf, }
-
-    \line { " "faltet seine Decken zusammen}
-
-    \line { " "und begibt sich an die Arbeit.  }
+    \line { " "  faltet seine Decken zusammen und begibt sich an die Arbeit.  }
 
   }
 
