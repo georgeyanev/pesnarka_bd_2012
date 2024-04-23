@@ -53,7 +53,7 @@
     \addlyrics {
       Cve -- tja -- ta căf -- tja -- ha pod slăn -- če -- vi lă -- či
 
-      i ve -- če văr -- za -- ha. I tăj o -- ble -- če -- ni "v~kra-" -- so -- ta,
+      i ve -- če văr -- za -- ha. I tăj o -- ble -- če -- ni v~kra -- so -- ta,
 
       i tăj o -- ble -- če -- ni v~čis -- to -- ta, te ni do -- na -- sjat
 

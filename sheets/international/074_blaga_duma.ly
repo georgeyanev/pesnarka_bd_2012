@@ -25,12 +25,12 @@
           \remove "Time_signature_engraver"
           alignAboveContext = #"main"
           fontSize = #-1.7
-          \override StaffSymbol.staff-space = #(magstep -1)
-          \override StaffSymbol.thickness = #(magstep -1)
+          \override StaffSymbol.staff-space = #(magstep -2)
+          \override StaffSymbol.thickness = #(magstep -2)
           firstClef = ##f
         }
         {
-          \autoBeamOff  d'8.^\markup { \huge \italic "ossia по К. Икономов"}
+          \autoBeamOff  d'8.^\markup { \large \italic "ossia по К. Икономов"}
 
           d'16 g'8. g'16 g'8. a'16 b'4 b'4 |
         }
@@ -90,25 +90,25 @@
 
     \addlyrics {
       Bla -- ga du
-      -- ma na us -- ta -- "ta      –" tuj e "klju-" -- čăt na
-      săr -- ca -- ta, na "săr-" -- ca -- ta, na "săr-" --
-      ca -- ta, tuj e "klju-" -- čăt na săr -- ca -- ta.
+      -- ma na us -- ta -- "ta      –" tuj e klju -- čăt na
+      săr -- ca -- ta, na săr -- ca -- ta, na săr --
+      ca -- ta, tuj e klju -- čăt na săr -- ca -- ta.
       Mi -- li pog -- led na o -- či -- "te –" tuj e --
-      zik e na du -- ši -- te, na "du-" -- ši -- te, na
-      "du-" -- ši -- te, tuj e -- zik e na du -- ši --
-      te. Než -- no "čuv-" -- stvo pro -- ja -- ve -- no,
-      vsja -- ko zlo e raz -- to -- pe -- no, raz -- "to-"
+      zik e na du -- ši -- te, na du -- ši -- te, na
+      du -- ši -- te, tuj e -- zik e na du -- ši --
+      te. Než -- no čuv -- stvo pro -- ja -- ve -- no,
+      vsja -- ko zlo e raz -- to -- pe -- no, raz -- to
       -- pe -- no, raz -- "to-" -- pe -- no, vsja -- ko zlo
       e raz -- to -- pe -- no. Sil -- na vo -- lja u --
       ven -- ča -- va vsja -- ko de -- lo i pro -- ja --
       va, vsja -- ko de -- lo, vsja -- ko de -- lo, vsja
-      -- ko de -- lo i pro -- ja -- va. "Lju-" -- "bov-" -- ta
-      săs tjah "să-" -- graž -- da toz "ži-" -- vot, što tuk
+      -- ko de -- lo i pro -- ja -- va. Lju -- bov -- ta
+      săs tjah să -- graž -- da toz ži -- vot, što tuk
       se raž -- da, raž -- da, raž -- da, raž -- da,
-      toz "ži-" -- vot, što tuk se raž -- da, toz "ži-" --
-      vot, što tuk se raž -- da, toz "ži-" -- vot, što
-      tuk se raž -- da, toz "ži-" -- vot, što tuk se raž
-      -- da, toz "ži-" -- vot, što tuk se raž -- da.
+      toz ži -- vot, što tuk se raž -- da, toz ži --
+      vot, što tuk se raž -- da, toz ži -- vot, što
+      tuk se raž -- da, toz ži -- vot, što tuk se raž
+      -- da, toz ži -- vot, što tuk se raž -- da.
 
     }
 

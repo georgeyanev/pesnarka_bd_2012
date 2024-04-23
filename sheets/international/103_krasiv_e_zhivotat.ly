@@ -95,7 +95,7 @@
     \midi{}
 
   } % score
- \markup \vspace #1
+  \markup \vspace #1
 
   \include "../../lyrics/de/103_krasiv_e_zhivota_lyrics_de.ly"
 

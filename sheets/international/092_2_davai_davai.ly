@@ -10,7 +10,7 @@
   \score {
     \include "include/score-layout.ily"
 
-   \new Voice \absolute  {
+    \new Voice \absolute  {
       \clef treble
       \key a \minor
       \time 5/4

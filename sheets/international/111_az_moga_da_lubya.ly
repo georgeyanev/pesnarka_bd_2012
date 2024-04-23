@@ -11,7 +11,7 @@
     \include "include/score-layout.ily"
 
 
-   \new Voice \relative c' {
+    \new Voice \relative c' {
       \clef treble
       \key f \major
       \time 2/4
@@ -81,14 +81,14 @@
     \midi{}
 
   } % score
-  
+
   \markup \empty-one
-    \markup \dc-two "D.C.""con ripetizione"
+  \markup \dc-two "D.C.""con ripetizione"
   %
 
   % include foreign translation(s) of the song
 
-    \markup \vspace #1
+  \markup \vspace #1
   \include "../../lyrics/de/111_az_moga_da_lyubya_lyrics_de.ly"
 
 } % bookpart

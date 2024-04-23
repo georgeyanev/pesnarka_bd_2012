@@ -31,9 +31,7 @@
       ees8 g8. |
       fis8 ees16 c8  |
       d8 d8. | \bar ":|.:" \break
-      
 
-    
       \tempoFunc "Poco più mosso" 8 "120"
       \key f \minor
       c'8 b8[(aes16)] |  |
@@ -129,7 +127,7 @@
       ees8. g8~ g8. |
       fis8. ees8~ ees8. |
       fis8. ees8(c8.) |
-      d8. d8~ d8. | 
+      d8. d8~ d8. |
       g8. g8~ g8. | \break
 
       bes8. bes8~ bes8. |
@@ -138,7 +136,7 @@
       bes8. bes8 g8. |
       a8. a8~ a8.\fermata | \break
 
-        \bar ".|:-||"  \tempo "Più mosso"
+      \bar ".|:-||"  \tempo "Più mosso"
       g8. g8~ g8. |
       fis8. ees8~ ees8. |
       fis8. ees8 c8. |
@@ -229,13 +227,13 @@
       \bar "|"
       \time 3/4  | % 149
 
-      e'16_\markup \bold \italic {"(8_ _ _ _ _ _ _ _ _ _ _ _ _"} --e16 --e16 --
+      e'16 --e16 --e16 --
       e16 --a2   \break | % 151
-      g16_\markup \bold \italic {"(8)_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _| )"} f16 e16 d16
+      g16 f16 e16 d16
       e2 | % 152
 
       \time 4/4  | % 152
-      g4.f8 e8 ( [d8 ] ) 
+      g4.f8 e8 ( [d8 ] )
       c8 d8  | % 153
       e4 e2. \bar "||" \break
       \tempo "Allegretto"
@@ -245,15 +243,15 @@
       d16 e16  c8 b16 |% 158
       d8 c8. | c8 b8 a16 | \break
       b8  g8. |
-      b8 ^\markup{ \bold {rall.} }d8. | % 161
+      \tempo"rall."b8 d8. | % 161
       cis8 bes8. | % 162
       cis16 bes16  a8  g16 | % 163
       a8  a8. \bar "||"
 
       \break \repeat volta 1 {
         | % 164
-         \bar ".|:-||"  \key g \major \time 9/16 | % 164
-        d8 ^\markup{ \bold {a tempo} } e16 ( [
+        \bar ".|:-||"  \key g \major \time 9/16 | % 164
+        \tempo"a tempo" d8 e16 ( [
         fis16 ) ] g8 fis8. | % 165
         g8 e8 e16 ( [ \stemDown
         fis16 ) ]d8. | % 166
@@ -276,13 +274,13 @@
       Тя е __ ра -- но -- буд -- ни -- ца, ра -- но __ ста -- ва
       и с~кър -- ча -- зи __ на из -- во -- ра о -- ти -- ва, и во -- да
       си на -- ли -- ва. __ Тъй, пъл -- на и ве -- се -- ла,
-      тя до -- ма се връ -- ща, __ май -- ка си ми -- ло пре -- гръ -- ща.
+      тя до -- ма се връ -- ща, __ май -- ка си ми -- ло прег -- ръ -- ща.
       Тъй, пъл -- на и ве -- се -- ла,  тя до -- ма се връ -- ща, май -- ка __ си __
-      ми -- ло пре -- гръ -- ща. Ху -- ба -- ва __ мо -- ма се, син -- ко, по --
-      зна -- ва, __ ко -- га __ ло -- зе ко -- па -- е __ и то __ 
-      и -- "зо-" -- бил -- но "гроз-" -- де да -- ва. Ло -- зе __ мо -- "мин-" -- ски ръ -- це __ 
-      до -- бре по -- зна -- ва, __ ло -- зе мо -- мин -- ски ръ -- це
-      до -- бре по -- зна -- ва, ло -- зе мо -- мин -- ски ръ -- це __ 
+      ми -- ло прег -- ръ -- ща. Ху -- ба -- ва __ мо -- ма се, син -- ко, по --
+      зна -- ва, __ ко -- га __ ло -- зе ко -- па -- е __ и то __
+      и -- "зо-" -- бил -- но "гроз-" -- де да -- ва. Ло -- зе __ мо -- "мин-" -- ски ръ -- це __
+      доб -- ре по -- зна -- ва, __ ло -- зе мо -- мин -- ски ръ -- це
+      до -- бре по -- зна -- ва, ло -- зе мо -- мин -- ски ръ -- це __
       до -- бре по -- зна -- ва. Ху -- ба -- ва мо -- ма __ се, син -- ко,
       на ни -- ва по -- зна -- ва, ко -- га ръ -- ко -- и __ ди -- га и
       сла -- га, __ и на  зе -- мя ги __ до -- бре по -- ла -- га, __
@@ -291,22 +289,23 @@
       не -- я __ жи -- то __ до -- бре по -- зна -- ва. __ Тя е, __
       син -- ко, гла -- со -- ви -- та, лич -- на пе -- ви -- ца; не -- я жи -- то
       до -- бре по -- зна -- ва, не -- я жи -- то до -- бре по -- зна -- ва.
-      Ху -- ба -- ва мо -- ма се, син -- ко, до -- бре по -- зна -- ва __ 
+      Ху -- ба -- ва мо -- ма се, син -- ко, до -- бре по -- зна -- ва, __
       ко -- га на гум -- но __  жи -- то от -- вя -- ва __ и във ре --
-      ше -- то __ го пре -- ся -- ва, __ "в~жит-" -- "ни-" -- ци го ту -- ря __ 
+      ше -- то __ го пре -- ся -- ва, __ "в~жит-" -- "ни-" -- ци го ту -- ря __
       и на __  бед -- ни хляб да -- ва. __ Не -- я "всич-" -- ки,
       мал -- ки и го -- ле -- ми, до -- бре я по -- зна -- ват, __
       не -- я всич -- ки, мал -- ки и го -- ле -- ми, до -- бре
       я по -- зна -- ват. __ Ум -- на мо -- ма, син -- ко, се по --
       зна -- ва, __ ко -- га кни -- га във ръ -- це си взе -- ма __
       и скри -- то бъ -- де -- ще раз -- га -- да -- ва. Тя всич -- ко във жи --
-      во -- та на мяс -- то по -- ста -- вя. "Ху-" -- "ба-" -- ва мо -- ма,
+      во -- та на мяс -- то по -- ста -- вя. "Ху-" -- "ба-" -- ва "мо-" -- ма,
       "син-" -- ко, е "ро-" -- са, що зе -- мя о -- ро -- ся ва.
-      Тя е Ан -- гел, що от го -- ре и -- де, при хо -- ра
-      сли -- за  и в~до -- ма им Мир и Ра -- дост вна -- ся.
+      Тя е ан -- гел, що от Го -- ре и -- де, при хо -- ра
+      сли -- за  и в~до -- ма им мир и ра -- дост вна -- ся.
       Тя е свет -- ла кат зо -- ра -- та, тя е ми -- ла
       кат во -- да -- та, тя е до -- бра кат хра -- на -- та.
     }
+
 
     \addlyrics {
       Ot sta -- ro vre -- me, __ sin -- ko, e znaj -- no --
@@ -315,25 +314,25 @@
       Tja e __ ra -- no -- bud -- ni -- ca, ra -- no __ sta -- va
       i s~kăr -- ča -- zi __ na iz -- vo -- ra o -- ti -- va, i vo -- da
       si na -- li -- va. __ Tăj, păl -- na i ve -- se -- la,
-      tja do -- ma se vră -- šta, __ maj -- ka si mi -- lo pre -- gră -- šta.
+      tja do -- ma se vră -- šta, __ maj -- ka si mi -- lo preg -- ră -- šta.
       Tăj, păl -- na i ve -- se -- la,  tja do -- ma se vră -- šta, maj -- ka __ si __
-      mi -- lo pre -- gră -- šta. Hu -- ba -- va __ mo -- ma se, sin -- ko, po --
-      zna -- va, __  ko -- ga __  lo -- ze ko -- pa -- e __ i to __ 
-      i -- zo -- bil -- no "groz-" -- de da -- va. Lo -- ze __ mo -- min -- ski ră -- ce __ 
-      do -- bre po -- zna -- va, __ lo -- ze mo -- min -- ski ră -- ce
-      do -- bre po -- zna -- va, lo -- ze mo -- min -- ski ră -- ce __ 
+      mi -- lo preg -- ră -- šta. Hu -- ba -- va __ mo -- ma se, sin -- ko, po --
+      zna -- va, __ ko -- ga __ lo -- ze ko -- pa -- e __ i to __
+      i -- zo -- bil -- no "groz-" -- de da -- va. Lo -- ze __ mo -- min -- ski ră -- ce __
+      dob -- re po -- zna -- va, __ lo -- ze mo -- min -- ski ră -- ce
+      do -- bre po -- zna -- va, lo -- ze mo -- min -- ski ră -- ce __
       do -- bre po -- zna -- va. Hu -- ba -- va mo -- ma __ se, sin -- ko,
       na ni -- va po -- zna -- va, ko -- ga ră -- ko -- i __ di -- ga i
-      sla -- ga, __ i na  ze -- mja gi __ do -- bre po -- la -- ga, __ 
-      i na __ Bo -- ga __ hva -- la __ da -- va. __ Tja e, __
-      sin -- ko, __ gla -- so -- vi -- ta, __ lič -- na pe -- vi -- ca;
+      sla -- ga, __ i na  ze -- mja gi __ do -- bre po -- la -- ga, __
+      i na __ Bo -- ga __  hva -- la __ da -- va. __ Tja e, __
+      sin -- ko, __ gla -- so -- vi -- ta, __  lič -- na pe -- vi -- ca;
       ne -- ja __ ži -- to __ do -- bre po -- zna -- va. __ Tja e, __
       sin -- ko, gla -- so -- vi -- ta, lič -- na pe -- vi -- ca; ne -- ja ži -- to
       do -- bre po -- zna -- va, ne -- ja ži -- to do -- bre po -- zna -- va.
-      "Hu-" -- ba -- va mo -- ma se, sin -- ko, do -- bre po -- zna -- va __ 
-      ko -- ga na gum -- no __ ži -- to ot -- vja -- va __ i văv re --
-      še -- to __ go pre -- sja -- va, __ v~žit -- ni -- ci go tu -- rja __ 
-      i na __ bed -- ni hljab da -- va. __ Ne -- ja vsič -- ki,
+      Hu -- ba -- va mo -- ma se, sin -- ko, do -- bre po -- zna -- va, __
+      ko -- ga na gum -- no __  ži -- to ot -- vja -- va __ i văv re --
+      še -- to __ go pre -- sja -- va, __ v~žit -- "ni-" -- ci go tu -- rja __
+      i na __  bed -- ni hljab da -- va. __ Ne -- ja vsič -- ki,
       mal -- ki i go -- le -- mi, do -- bre ja po -- zna -- vat, __
       ne -- ja vsič -- ki, mal -- ki i go -- le -- mi, do -- bre
       ja po -- zna -- vat. __ Um -- na mo -- ma, sin -- ko, se po --
@@ -341,12 +340,11 @@
       i skri -- to bă -- de -- šte raz -- ga -- da -- va. Tja vsič -- ko văv ži --
       vo -- ta na mjas -- to po -- sta -- vja. "Hu-" -- "ba-" -- va "mo-" -- ma,
       sin -- ko, e "ro-" -- sa, što ze -- mja o -- ro -- sja va.
-      Tja e An -- gel, što ot go -- re i -- de, pri ho -- ra
-      sli -- za  i v~do -- ma im Mir i Ra -- dost vna -- sja.
+      Tja e an -- gel, što ot Go -- re i -- de, pri ho -- ra
+      sli -- za  i v~do -- ma im mir i ra -- dost vna -- sja.
       Tja e svet -- la kat zo -- ra -- ta, tja e mi -- la
       kat vo -- da -- ta, tja e do -- bra kat hra -- na -- ta.
     }
-
     \header {
       title = \titleFunc "Бащина песен – Угледна мома" "Baština pesen – Ugledna moma"
     }
@@ -356,7 +354,7 @@
   } % score
 
 
-\pageBreak
+  \pageBreak
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/138_bashtina_pesen_ugledna_moma_lyrics_de.ly"

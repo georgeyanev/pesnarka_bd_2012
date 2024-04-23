@@ -14,14 +14,14 @@
     \line { " "die lichte Morgenröte bricht an,}
 
     \line { " "sie bricht an, sie bricht an.}
-     \line { " "}
+    \vspace #0.5
 
     \line { " "Alle Freude bringt sie in das Leben.}
 
     \line { " "Der Jugend bringt sie Gesundheit, }
 
     \line { " "den Arbeitenden eine Gabe –  das Leben. }
-      \line { " "}
+      \vspace #0.5
 
     \line { " "Möge es den Weisen wohlergehen, }
 
@@ -32,7 +32,7 @@
     \line { " "mögen die Weisen gut leben,}
 
     \line { " "die Guten in Wohlstand leben.}
-    \line { " "}
+ \vspace #0.5
 
     \line { " " Für sie bricht die lichte Morgenröte an,}
 

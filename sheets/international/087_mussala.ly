@@ -99,7 +99,7 @@
 
       Mu -- sa -- la, Mu -- sa -- la, moj Mu -- sa -- la.
 
-      Prez ja -- sen den na "pro-" -- let -- ta vi -- de -- li
+      Prez ja -- sen den na pro -- let -- ta vi -- de -- li
 
       li ste iz -- gre -- va ot Mu -- sa -- la,    Mu -- sa -- la,
 
@@ -119,7 +119,7 @@
   } % score
 
 
-   \markup \vspace #3
+  \markup \vspace #3
 
 
   % include foreign translation(s) of the song

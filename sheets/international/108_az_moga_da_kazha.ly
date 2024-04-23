@@ -102,7 +102,7 @@
 
   % include foreign translation(s) of the song
 
- \markup \vspace #3
+  \markup \vspace #3
   \include "../../lyrics/de/108_az_moga_da_kazha_lyrics_de.ly"
 
 } % bookpart

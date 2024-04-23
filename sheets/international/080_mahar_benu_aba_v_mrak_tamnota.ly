@@ -58,13 +58,13 @@
 
   \markup \empty-one
 
-  \markup \italic \dc-one-nobold "attacca „В мрак тъмнота“/„V mrak tămnota“"
+  \markup \italic \dc-one-nobold "attacca „В мрак, тъмнота“/„V mrak, tămnota“"
 
 
   \markup \empty-three
 
   \label #'ref080_1
-  \tocItem \markup "В мрак тъмнота – V mrak tămnota"
+  \tocItem \markup "В мрак, тъмнота – V mrak, tămnota"
 
 
   \score {
@@ -104,13 +104,13 @@
       Văv mrak, tăm
       -- no -- ta e bil ži -- vo -- tăt naš, no Slăn
       -- ce -- to na ži -- vo -- ta pro -- si -- ja u
-      nas i nij "trăg-" -- nah -- me văv pă -- tja čist
+      nas i nij trăg -- nah -- me văv pă -- tja čist
       i svjat za nas, i nas. Svjat za nas, svjat za
       nas, svjat za nas.
     }
 
     \header {
-      title = \titleFunc "В мрак тъмнота" "V mrak tămnota"
+      title = \titleFunc "В мрак, тъмнота" "V mrak, tămnota"
     }
 
     \midi{}

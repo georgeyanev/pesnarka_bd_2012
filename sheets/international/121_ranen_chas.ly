@@ -40,7 +40,7 @@
       f2 ^\fermata
       \tuplet 3/2 {   a,8 ( [  bes8 ) ]  c8 }
       | % 15
-      des4 ^\fermata  c4. ^\fermata  f8 | % 16
+      des4 ^\fermata  c4. ^\fermata \caesura f8 | % 16
       \time 4/4  | % 16
       bes4.  as8  bes8  as8
       ges8  f8 \break | % 17
@@ -56,7 +56,7 @@
       f4  des4 | % 23
       \tempo "rall." c16  des16  es16
       des16  c8.  des16 | % 24
-      \time 3/4 bes2  % 25
+      \time 3/4 bes2 \caesura % 25
       bes'8.  bes16 |
       \tempo "a tempo" bes2 % 26
       c16  des16  c16  bes16 |
@@ -89,36 +89,46 @@
       "скръб-" -- та и бу -- ри -- те чо --
       веш -- ки в~то -- я ди -- вен час.
       Чуй __  гла -- са ми! Ве -- ли --
-      ки -- ят Жи -- вот се раж -- да
+      ки -- ят жи -- вот се раж -- да
       в~теж -- ка -- та скръб. Ти -- ха
-      "Ра-" -- дост, нов Жи -- вот но -- си
+      "ра-" -- дост, нов жи -- вот но -- си
       та -- зи бу -- ря на све -- та.
-      Нов жи -- вот на "Лю-" -- бов ду --
+      Нов жи -- вот на "лю-" -- бов ду --
       ша ми да стоп -- ли. Сво -- бо
-      -- да, "си-" -- лен Дух и Мир ще и --
+      -- да, "си-" -- лен дух и мир ще и --
       маш ти. Чуй __  гла -- са ми!
       Ти -- хи зву -- ци теб зо -- ват,
       веч -- на Лю -- бов там ца -- ри!}
+
+
       \addlyrics {
         Ra -- nen čas e, vsič -- ko pej,
         trep -- ti. Slăn -- ce grej, rad --
         va se du -- ša -- ta na sve -- ta
         za ve -- li -- ka -- ta Lju -- bov.
-        Pej, săr -- ce, za -- bra -- vi
-        skrăb -- ta i bu -- ri -- te čo --
+        Pej, "săr-" -- ce, za -- bra -- vi
+        "skrăb-" -- ta i bu -- ri -- te čo --
         veš -- ki v~to -- ja di -- ven čas.
         Čuj __  gla -- sa mi! Ve -- li --
-        ki -- jat Ži -- vot se raž -- da
+        ki -- jat ži -- vot se raž -- da
         v~tež -- ka -- ta skrăb. Ti -- ha
-        "Ra-" -- dost, nov Ži -- vot no -- si
-        ta -- zi "bu-" -- rja na sve -- ta.
-        Nov ži -- vot na "Lju-" -- bov du --
+        "ra-" -- dost, nov ži -- vot no -- si
+        ta -- zi bu -- rja na sve -- ta.
+        Nov ži -- vot na "lju-" -- bov du --
         ša mi da stop -- li. Svo -- bo
-        -- da, si -- len Duh i Mir šte i --
-        maš ti. Čuj __ gla -- sa mi!
+        -- da, "si-" -- len duh i mir šte i --
+        maš ti. Čuj __  gla -- sa mi!
         Ti -- hi zvu -- ci teb zo -- vat,
         več -- na Lju -- bov tam ca -- ri!}
 
+
+        \addlyrics {
+          \repeat unfold 52 { \skip 2 } (*Ве -- лик жи -- вот се раж -- да са -- мо в~теж -- ка -- та скръб.)
+        }
+
+        \addlyrics {
+          \repeat unfold 52 { \skip 2 } (*Ve -- lik ži -- vot se raž -- da sa -- mo v~tež -- ka -- ta skrăb.)
+        }
         \header {
           title = \titleFunc "Ранен час" "Ranen čas"
         }
@@ -127,7 +137,7 @@
 
       } % score
 
-
+\markup \vspace #3
 
       % include foreign translation(s) of the song
       \include "../../lyrics/de/121_ranen_chas_lyrics_de.ly"

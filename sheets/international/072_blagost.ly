@@ -49,8 +49,8 @@
     \addlyrics {
       Бла -- гост,
       бла -- гост, бла -- гост но -- си, но -- си, но --
-      си "свет-" -- ли -- на -- та, "свет-" -- ли -- на -- та,
-      "свет-" -- ли -- на -- та. Ра -- дост но -- си за
+      си свет -- ли -- на -- та, свет -- ли -- на -- та,
+      свет -- ли -- на -- та. Ра -- дост но -- си за
       жи -- во -- та, ра -- дост но -- си за жи -- во
       -- та, ра -- дост но -- си за жи -- во -- та, за
       жи -- во -- та тя, за жи -- во -- та тя, за жи
@@ -69,8 +69,8 @@
     \addlyrics {
       Bla -- gost,
       bla -- gost, bla -- gost no -- si, no -- si, no --
-      si "svet-" -- li -- na -- ta, "svet-" -- li -- na -- ta,
-      "svet-" -- li -- na -- ta. Ra -- dost no -- si za
+      si svet -- li -- na -- ta, svet -- li -- na -- ta,
+      svet -- li -- na -- ta. Ra -- dost no -- si za
       ži -- vo -- ta, ra -- dost no -- si za ži -- vo
       -- ta, ra -- dost no -- si za ži -- vo -- ta, za
       ži -- vo -- ta tja, za ži -- vo -- ta tja, za ži

@@ -51,7 +51,7 @@
     \addlyrics {
       Mis -- li, pra -- vo mi -- sli! __  Mis -- li, pra -- vo mis -- li!
 
-      Sve -- šte -- ni mis -- li za ži -- vo -- ta ti "kre-" -- pi, sve -- šte -- ni mis -- li za ži -- vo -- ta ti kre -- pi. __ Sve -- pi. __  Kre -- pi kre -- pi
+      Sve -- šte -- ni mis -- li za ži -- vo -- ta ti kre -- pi, sve -- šte -- ni mis -- li za ži -- vo -- ta ti kre -- pi. __ Sve -- pi. __  Kre -- pi kre -- pi
 
       kre -- pi sve -- šte -- ni mis -- li za ži -- vo -- ta ti kre -- pi. __  Kre -- pi. __
     }

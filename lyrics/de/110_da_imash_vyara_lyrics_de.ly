@@ -3,16 +3,14 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Habe Glauben" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
+\markup \abs-fontsize #10 {
   \hspace #25
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
+  \column { 
     \line { " " Habe Glauben, Glauben,}
     \line { " " Habe Glauben, Glauben,}
-
     \line { " " Habe Glauben, Glauben,}
-
     \line { " " Habe Glauben, Glauben, Glauben. }
     \line { " " Habe Glauben, Glauben, Glauben. }
 

@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Frühe Stunde" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #16
+\markup \abs-fontsize #10 {
+  \hspace #25
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -18,7 +18,7 @@
  \line { " " die Seele erfreut sich an der Welt, }
 
  \line { " " um der großen Liebe willen.}
-  \line { " "}
+   \vspace #0.5
 
  \line { " " Singe Herz, vergiss das Leid}
 
@@ -27,7 +27,7 @@
  \line { " " in dieser wunderbaren Stunde.}
 
  \line { " " Höre meine Stimme! }
- \line { " "}
+  \vspace #0.5
 
  \line { " " Das große Leben wird }
 
@@ -36,7 +36,7 @@
  \line { " " Stille Freude, neues Leben}
 
  \line { " " bringt dieser Sturm der Welt.}
- \line { " "}
+  \vspace #0.5
 
  \line { " " Neues Leben der Liebe}
 

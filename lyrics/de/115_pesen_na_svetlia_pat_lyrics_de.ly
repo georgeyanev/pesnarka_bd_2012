@@ -3,12 +3,11 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Das Lied des lichten Weges" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
+\markup \abs-fontsize #10 {
   \hspace #14
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
-  
+  \column { 
 
 \line { " "Ich kann erreichen, was ich mir wünsche.  }
 

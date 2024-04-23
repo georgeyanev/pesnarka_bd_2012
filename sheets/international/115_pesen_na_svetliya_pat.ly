@@ -10,8 +10,6 @@
   \score {
     \include "include/score-layout.ily"
 
-
-
     \new Voice \relative c' {
       \clef treble
       \key c \major
@@ -38,21 +36,23 @@
 
     \addlyrics {
       Мо  --  га   да
-      по  --  стиг  --  на   що   же  --  ла  --  я.   Във   Жи  --  во
+      по  --  стиг  --  на,   що   же  --  ла  --  я. Във жи  --  во
       --  та   всич  --  ко   се   по  --  сти  --  га.   Ще   но  --  ся
       Бо  --  жи --  те   бла  --  га __   във   всич  --  ки   чо
       --  веш  --  ки   "сър-"  --  ца.   Там,   де  --  то   се   раж  --
-      да   Ра  --  дост  --  та,   там,   де  --  то   ца  --  ру  --
-      ва   Лю  --  бов  --  та.
+      да ра  --  дост  --  та,   там,   де  --  то   ца  --  ру  --
+      ва Лю  --  бов  --  та.
     }
+
+
     \addlyrics {
       Mo  --  ga   da
-      po  --  stig  --  na   što   že  --  la  --  ja.   Văv   Ži  --  vo
+      po  --  stig  --  na,   što   že  --  la  --  ja. Văv ži  --  vo
       --  ta   vsič  --  ko   se   po  --  sti  --  ga.   Šte   no  --  sja
-      Bo  --  ži --  te   bla  --  ga __  văv   vsič  --  ki   čo
+      Bo  --  ži --  te   bla  --  ga __   văv   vsič  --  ki   čo
       --  veš  --  ki   săr  --  ca.   Tam,   de  --  to   se   raž  --
-      da   Ra  --  dost  --  ta,   tam,   de  --  to   ca  --  ru  --
-      va   Lju  --  bov  --  ta.
+      da ra  --  dost  --  ta,   tam,   de  --  to   ca  --  ru  --
+      va Lju  --  bov  --  ta.
     }
 
     \header {
@@ -69,7 +69,7 @@
 
   % include foreign translation(s) of the song
 
-
+  \markup \vspace #3
   \include "../../lyrics/de/115_pesen_na_svetlia_pat_lyrics_de.ly"
 
 } % bookpart

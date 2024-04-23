@@ -40,7 +40,7 @@
       "в~жи-" -- во -- та е пос -- ти -- жи -- мо, ко --
       га -- то вре -- ме -- то е "доб-" -- ро и ний сме
       ра -- зум -- ни. За -- що -- то "доб-" -- ро -- то
-      е ос -- но -- ва, а ра -- "зум-" -- ност -- "та   –"
+      е ос -- но -- ва, а ра -- зум -- ност -- "та   –"
       цел, с~ко -- и -- то Ду -- хът гра -- ди бъд --
       ни -- ни, бъд -- ни -- ни, ве -- ли -- ки бъд --
       ни -- ни. За -- ни.
@@ -48,10 +48,10 @@
 
     \addlyrics {
       Vsič -- ko
-      "v~ži-" -- vo -- ta e pos -- ti -- ži -- mo, ko --
-      ga -- to vre -- me -- to e "dob-" -- ro i nij sme
-      ra -- zum -- ni. Za -- što -- to "dob-" -- ro -- to
-      e os -- no -- va, a ra -- "zum-" -- nost -- "ta   –"
+      v~ži -- vo -- ta e pos -- ti -- ži -- mo, ko --
+      ga -- to vre -- me -- to e dob -- ro i nij sme
+      ra -- zum -- ni. Za -- što -- to dob -- ro -- to
+      e os -- no -- va, a ra -- zum -- nost -- "ta   –"
       cel, s~ko -- i -- to Du -- hăt gra -- di băd --
       ni -- ni, băd -- ni -- ni, ve -- li -- ki băd --
       ni -- ni. Za -- ni.

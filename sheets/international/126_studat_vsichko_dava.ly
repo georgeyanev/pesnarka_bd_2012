@@ -36,10 +36,12 @@
       b'8  a'8  g'8  e'8  fis'8
       g'8 | % 13
       a'2. | % 14
-     
-        \afterGrace  d''2 ( {  cis''16  [  d''16
-        e''16 ] ) }  d''8.  cis''16 | % 15
-     
+
+      \afterGrace 32/33 d''2 ( {
+        cis''16  [  d''16
+        e''16 ] )
+      }  d''8.  cis''16 | % 15
+
       \time 2/4  | % 15
       d''4.  b'8 \break | % 16
       a'4.  a'8 | % 17
@@ -68,7 +70,7 @@
       \tempo "accel." e'8 ( [ f'8 ) ]
       g'8  a'8 \break | % 32
       bes'8 ( [  a'8 ) ]  g'8  f'8 | % 33
-      e'4  g'8 ^\markup{ \bold {rit.} }  f'8 | % 34
+      e'4  \tempo "rit."g'8 f'8 | % 34
       e'8  d'8  cis'8  e'8 | % 35
       d'2 | % 36
       d'2 \break | % 37
@@ -94,11 +96,12 @@
       f'2 | % 53
       \time 3/4  | % 53
       e'8 ( [  f'8 ) ]  g'8  a'8
-      bes'8 -- ^\markup{ \bold {(rit.)} }  d''8 -- | % 54
+      \tempo "(rit.)" bes'8 -- d''8 -- | % 54
       cis''2 ^\fermata  a4 \time 3/4 \break | \bar "||"  % 55
 
       \tempoFunc "Largamente" 4 "54"
       \times 2/3  {
+        \once \override Slur.positions = #'(-1 . -3.2)
         d'8[ \=1( \grace { cis'16 \=2([ d'16 ]}  cis'8 \=1)\=2)] bes8
       }
       a2 | % 56
@@ -120,9 +123,9 @@
       f'8.  f'16  f'16 ( [  e'16 ) ]
       d'16  cis'16  d'8 ( [  bes8 ) ] | % 67
       a2  a4 \break \bar "||"  % 68
-     
+
       \times 2/3  {
-        d'8 ( [ ^\markup{ \bold {Rubato} } cis'8\prall ) ]
+        \tempo "Rubato" d'8 ( [ cis'8\prall ])
         bes8
       }
       a4. a'8
@@ -134,13 +137,13 @@
       d'2 \bar "||"
       \break | % 72
 
-     \tempoFunc "Più mosso" 4 "84" d''4 (bes'4)  | % 73
+      \tempoFunc "Più mosso" 4 "84" d''4 (bes'4)  | % 73
       a'8. gis'16  a'8  bes'8
       | % 74
       a'4.  g'8 | % 75
       f'8.  e'16  f'8.  e'16 | % 76
       f'4.  e'8 \break | % 77
-      d'8. ^\markup{ \bold {rit.} }  cis'16  d'8.
+      \tempo"rit." d'8. cis'16  d'8.
       e'16 \bar "||"  % 78
       \time 3/4  | % 78
       \tempoFunc "Andante" 4 "66" d'2
@@ -156,7 +159,7 @@
       a4  bes8.  a16  a2 | % 82
       \time 3/4  | % 82
       \times 2/3  {
-        gis16 ( [ ^\markup{ \bold {Largamente} }  a16
+        \tempo "Largamente" gis16 ( [ a16
         bes16 )]
       }
       gis8  a2 ^\fermata \bar "||"
@@ -196,8 +199,7 @@
       |
       a'4  fis'4.  a'8  \break | % 101
       b'8  b'8  d''4  cis''4 | % 102
-      b'8 ( [  cis''8 ) ]  a'4  g'8
-      ^\markup{ \bold {rit.} }  fis'8 | % 103
+      b'8 ( [  cis''8 ) ]  a'4  \tempo"rit."g'8 fis'8 | % 103
       | % 103
       e'4 ^\fermata  d'2 \bar "||" |
       \break % 104
@@ -226,7 +228,7 @@
 
       \tempo "Meno mosso" a'16 ( [  gis'16  a'16  bes'16 ) ]
       a'4 | % 109
-      d''16 ( [  cis''16  bes'16  a'16
+      d''16-- ( [  cis''16--  bes'16--  a'16--
       ) ]  a'4 |
       bes'16 ( [  a'16  f'16 )]  d'16
       bes'8.  a'16 \break | % 111
@@ -245,7 +247,7 @@
       \time 4/4  | % 115
       f'4  f'8  e'8  f'4  e'8.
       a16 | % 116
-      
+
       d'4  d'2 \bar "|."
 
     }
@@ -292,7 +294,7 @@
       ден си ти, но ни спа -- ся -- ваш
       от сту -- да. И ко -- га --
       то про -- "лет-" -- та на -- ста
-      -- ва и Жи -- во -- тът се я --
+      -- ва и жи -- во -- тът се я --
       вя -- ва, ти пак ги "при-" -- дру --
       жа -- ваш и свой -- та свет -- ла
       дре -- ха им на -- дя -- ваш.
@@ -304,6 +306,7 @@
       ваш и все -- ки свой дар със
       чис -- то -- та при -- дру -- жа --
       ваш.}
+
       \addlyrics {
         Stu -- dăt vsič -- ko da -- va. Stu
         -- den si ti, no ni pred -- paz --
@@ -317,7 +320,7 @@
         do -- na -- sjaš čis -- to -- ta. Stu
         -- den si ti, stu -- den si ti,
         no ni do -- na -- sjaš čis -- to --
-        ta. Stu -- dăt __ vsič -- ko da
+        ta. Stu -- dăt __  vsič -- ko da
         --  va, toj __  e do -- bri
         -- jat slu -- ga, što Lju -- bov go
         vdăh -- no -- vja -- va. Za mno -- zi
@@ -328,12 +331,12 @@
         pred -- paz -- va ot stu -- da __
         i vsja -- ko -- ga slu -- ša gla
         -- sa na O -- bič -- ta. Stu --
-        den  --   si ti, no __ ni
+        den  --   si ti, no __  ni
         iz -- ba -- vjaš ot mra -- za i
         no -- siš sa -- mo
         to -- va, ko -- e -- to Svet -- li --
         na -- ta ti da -- va. Tvoj -- ta
-        dre  -- ha e bja -- la. Stu --
+        dre -- ha e bja -- la. Stu --
         den __  si ti, no ni iz -- ba
         -- vjaš ot mra -- za. Ot __  ve --
         ka sa bi -- li za -- tvo -- re --
@@ -341,12 +344,12 @@
         săr -- ca, za --  što --
         to să -- bli -- čaš sta --
         ro -- to, sta --  ro -- to i
-        za -- vi -- vaš mla -- "do-" -- to,
+        za -- vi -- vaš mla -- do -- to,
         mla -- do -- to, mla -- do -- to. Stu --
         den si ti, no ni spa -- sja -- vaš
         ot stu -- da. I ko -- ga --
         to pro -- let -- ta na -- sta
-        -- va i Ži -- vo -- tăt se ja --
+        -- va i ži -- vo -- tăt se ja --
         vja -- va, ti pak gi pri -- dru --
         ža -- vaš i svoj -- ta svet -- la
         dre -- ha im na -- dja -- vaš.
@@ -354,7 +357,7 @@
         vo -- riš, mno --
         go mis --   liš;
         mal -- ko o -- be -- šta -- vaš,
-        mno --   go __ da --
+        mno --   go __  da --
         vaš i vse -- ki svoj dar săs
         čis -- to -- ta pri -- dru -- ža --
         vaš.}
@@ -368,7 +371,7 @@
       } % score
 
 
-
+      \markup \vspace #3
 
       % include foreign translation(s) of the song
       \include "../../lyrics/de/126_studat_vsichko_dava_lyrics_de.ly"

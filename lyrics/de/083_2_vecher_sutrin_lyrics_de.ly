@@ -6,8 +6,8 @@
 \markup \null
 
 \markup \abs-fontsize #10 {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 \hspace #5
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
 
     \line { "   " Abend, Morgen, es ging, es kam. Abend, Morgen, es ging, es kam.}

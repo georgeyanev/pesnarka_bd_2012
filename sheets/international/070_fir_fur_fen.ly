@@ -49,9 +49,9 @@
       \addlyrics {
         Fir -- fjur --
         fen Tao Bi Au -- men, Tao Bi Au -- men, Tao Bi
-        Au -- men. Fir -- fjur -- "-fen" Tao Bi Au -- men.
-        Fir -- fjur -- "-fen" Tao Bi Au -- men, Fir -- fjur --
-        "-fen" Tao Bi Au -- men. Bla -- go -- sla -- vjaj,
+        Au -- men. Fir -- fjur -- fen Tao Bi Au -- men.
+        Fir -- fjur -- fen Tao Bi Au -- men, Fir -- fjur --
+        fen Tao Bi Au -- men. Bla -- go -- sla -- vjaj,
         du -- še mo -- ja, Gos -- po -- da; bla -- go --
         sla -- vjaj i ne zab -- ra -- vjaj. Bla -- go --
         sla -- vjaj, bla -- go -- sla -- vjaj, bla -- go --
@@ -64,7 +64,7 @@
         \midi{}
 
       } % score
-  
+
       \markup \empty-one
 
       \markup \dc-two "D.C. al Fine" "senza ripetizioni"

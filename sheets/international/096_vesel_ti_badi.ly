@@ -61,18 +61,18 @@
     }
 
     \addlyrics {
-      Ve -- sel ti bă -- "-di," bo -- dăr ti sta -- "-ni;"
+      Ve -- sel ti bă -- di, bo -- dăr ti sta -- ni;
       gri  -- ži -- te na ži -- vo -- ta
       sa to -- var bez -- po -- le -- zen.
       Teb ži -- vo -- tăt mi -- lo te zo -- ve:
-      Ve  -- sel ti bă -- "-di," bo -- dăr ti sta -- "-ni"
+      Ve  -- sel ti bă -- di, bo -- dăr ti sta -- ni
       i vsič -- ko ži -- vo ti s~lju -- bov pov  -- dig -- ni.
-      Ve -- sel ti bă -- "-di," bo -- dăr ti sta -- "-ni!"
+      Ve -- sel ti bă -- di, bo -- dăr ti sta -- ni!
       Ve -- sel bă -- di, bo -- dăr sta -- ni,
       văv ži -- vo -- ta ra -- dost no -- si,
       văv ži -- vo -- ta ra -- dost no -- si
       văv ži -- vo -- ta ti.
-      Ve -- sel ti "bă-" -- di, bo -- dăr ti sta -- "-ni!"
+      Ve -- sel ti bă -- di, bo -- dăr ti sta -- ni!
     }
 
 

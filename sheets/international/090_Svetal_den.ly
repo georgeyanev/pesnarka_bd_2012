@@ -4,13 +4,13 @@
 \include "include/globals.ily"
 
 \bookpart {
-    \label #'ref090
+  \label #'ref090
   \tocItem \markup "Светъл ден – Svetăl den "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
 
-   \new Staff = main \absolute  {
+    \new Staff = main \absolute  {
       \clef treble
       \key g \major
       \time 2/4
@@ -60,8 +60,8 @@
 
     }
 
-   
-     \addlyrics {
+
+    \addlyrics {
       Sve -- tăl den, sve  -- tăl den,
       den, den, den.
       Ve -- sel den, ve -- sel den,
@@ -75,7 +75,7 @@
 
     }
 
-  
+
 
     \header {
       title = \titleFunc "Светъл ден" "Svetăl den"
@@ -86,9 +86,9 @@
   } % score
 
   \markup \empty-one
-\markup \dc-two "D.C. al Fine" " senza ripetizione"
+  \markup \dc-two "D.C. al Fine" " senza ripetizione"
 
-  
+
 
 
   % include foreign translation(s) of the song

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref098
-  \tocItem \markup "Бершид ба – Beršid ba"
+  \tocItem \markup "Бершид Ба – Beršid Ba"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -62,7 +62,7 @@
 
 
     \header {
-      title = \titleFunc "Бершид ба" "Beršid ba"
+      title = \titleFunc "Бершид Ба" "Beršid Ba"
     }
 
     \midi{}
@@ -73,7 +73,7 @@
   %
 
   % include foreign translation(s) of the song
- \markup \empty-two
+  \markup \empty-two
   \include "../../lyrics/de/098_bershid_ba_lyrics_de.ly"
 
 } % bookpart

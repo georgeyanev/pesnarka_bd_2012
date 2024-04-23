@@ -52,7 +52,7 @@
 
     \addlyrics {
       Sve -- tăl lăč ot go -- re sli  --  za
-      mal -- "ki-" -- te cve -- tja da o -- "za-" -- ri,
+      mal -- ki -- te cve -- tja da o -- za -- ri,
       bli -- zo iz -- vor -- če iz -- vi -- ra,
       le -- ko bli -- ka, šuš  -- ne, šu -- mo -- li
       i cve -- tja -- ta več -- no ve -- se -- li.

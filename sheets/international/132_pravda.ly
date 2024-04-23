@@ -57,8 +57,8 @@
     }
 
     \addlyrics {
-      Прав -- да, Прав -- да, Прав -- да,
-      що вна -- сяш Сво -- бо -- да в~у
+      Прав -- да, прав -- да, прав -- да,
+      що вна -- сяш сво -- бо -- да в~у
       -- ма. __   Кра -- си --
       ва и мощ -- на си ти и раз --
       пре -- де -- ляш всич -- ко в~све --
@@ -66,19 +66,20 @@
       мощ -- на си ти и раз -- пре -- де
       -- ляш всич -- ко в~све -- та. __
       Прав --
-      да, Прав --
+      да, прав --
       да!}
+
       \addlyrics {
-        Prav -- da, Prav -- da, Prav -- da,
-        što vna -- sjaš Svo -- bo -- da v~u
-        -- ma.  __  Kra -- si --
+        Prav -- da, prav -- da, prav -- da,
+        što vna -- sjaš svo -- bo -- da v~u
+        -- ma. __   Kra -- si --
         va i mošt -- na si ti i raz --
         pre -- de -- ljaš vsič -- ko v~sve --
         ta; kra -- si --   va i
         mošt -- na si ti i raz -- pre -- de
         -- ljaš vsič -- ko v~sve -- ta. __
         Prav --
-        da, Prav --
+        da, prav --
         da!}
 
         \header {
@@ -88,7 +89,7 @@
         \midi{}
 
       } % score
-      \pageBreak
+      \markup \vspace #2
       % include foreign translation(s) of the song
       \include "../../lyrics/de/132_pravda_lyrics_de.ly"
 

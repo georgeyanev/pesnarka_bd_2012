@@ -72,12 +72,12 @@ cat \
     ../088_hodi_hodi.ly \
     ../089_tagi_skarbi.ly \
     ../090_Svetal_den.ly \
-    ../091_neva_senzu.ly \
-    ../092_1_kiamet_zenu.ly \
+    ../091_neva_sanzu.ly \
+    ../092_1_kiamet_zenu_prolet.ly \
     ../092_2_davai_davai.ly \
     ../094_v_nachaloto_be_slovoto.ly \
     ../093_misli_pravo_misli.ly \
-    ../095_vdahnovenie.ly \
+    ../095_vdahnovenie_sladko_medeno.ly \
     ../095_2_dobar_den.ly \
     ../096_vesel_ti_badi.ly \
     ../097_zapali_se_oganyat.ly \
@@ -99,16 +99,15 @@ cat \
     ../112_1_sila_zdrave_e_bogatstvo.ly \
     ../112_2_Zov_na_planinata.ly \
     ../113_zvetjata_zaftjaha.ly \
-    ../114_toy_ide.ly \
     ../115_pesen_na_svetliya_pat.ly \
+    ../114_toy_ide.ly \
     ../116_doste_den.ly \
     ../117_tam_daleche.ly \
     ../118_1_denyat_ide.ly \
-    ../118_2_prolet.ly \
     ../119_podmladyavane.ly \
     ../120_burya.ly \
-    ../121_ranen_chas.ly \
     ../122_radost_i_skrab.ly \
+    ../121_ranen_chas.ly \
     ../124_proletna_pesen.ly \
     ../125_slancheva_pesen.ly \
     ../126_studat_vsichko_dava.ly \

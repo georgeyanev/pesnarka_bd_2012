@@ -60,7 +60,7 @@
       го бе жи -- во -- тът и жи -- во -- тът бе ви
       -- де -- ли -- на на че -- ло -- ве -- ци -- те.
       И ви -- де -- ли -- на -- та све -- ти в~тъм
-      -- "-ни" -- на -- та, и тъм -- ни -- на -- та я не
+      -- ни -- на -- та, и тъм -- ни -- на -- та я не
       об -- зе. И зе.
 
     }
@@ -70,12 +70,12 @@
       lo be Slo -- vo -- to i Slo -- vo -- to be u
       Bo -- ga, i Slo -- vo -- to be Bog. To v~na --
       ča -- lo be u Bo -- ga. Vsič -- ko črez Ne --
-      go "sta-" -- na i ko -- e -- to e sta -- na --
+      go sta -- na i ko -- e -- to e sta -- na --
       lo, ni -- što bez Ne -- go ne sta -- na. V~Ne --
       go be ži -- vo -- tăt i ži -- vo -- tăt be vi
       -- de -- li -- na na če -- lo -- ve -- ci -- te.
       I vi -- de -- li -- na -- ta sve -- ti v~tăm
-      -- "-ni" -- na -- ta, i tăm -- ni -- na -- ta ja ne
+      -- ni -- na -- ta, i tăm -- ni -- na -- ta ja ne
       ob -- ze. I ze.
 
     }
@@ -89,7 +89,7 @@
 
   } % score
 
-\markup \empty-one
+  \markup \empty-one
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/094_v_nachaloto_be_slovoto_lyrics_de.ly"

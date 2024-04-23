@@ -52,13 +52,14 @@
       не -- го всич -- ко зре -- е. При
       не -- го всич -- ко ста -- ва, за --
       вив -- ки -- те си сви -- ва и
-      на ра -- бо -- та о -- ти -- ва. }
+      на ра -- бо -- та о -- ти -- ва.
+    }
 
 
 
-   \addlyrics {
+    \addlyrics {
 
-  Az sme -- ja da ka -- ža, če Slăn
+      Az sme -- ja da ka -- ža, če Slăn
       -- ce -- to e svet -- lo. Az sme
       -- ja da ka -- ža, če Slăn -- ce --
       to e svet -- lo. To -- va ne
@@ -66,7 +67,7 @@
       ne --   go vsič  --
       ko se to -- pi, pri ne -- go
       vsič -- ko tăj ra -- ste, pri ne --
-      go vsič -- ko vse "căf-" -- ti, pri
+      go vsič -- ko vse căf -- ti, pri
       ne -- go vsič -- ko zre -- e. Pri
       ne -- go vsič -- ko sta -- va, za --
       viv -- ki -- te si svi -- va i
@@ -88,7 +89,7 @@
 
   % include foreign translation(s) of the song
 
- \markup \empty-one
+  \markup \empty-three
   \include "../../lyrics/de/109_az_smeja_da_kazha_lyrics_de.ly"
 
 } % bookpart

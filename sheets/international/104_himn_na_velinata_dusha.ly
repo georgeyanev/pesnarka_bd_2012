@@ -17,32 +17,32 @@
       \tempoFunc "Moderato" 4 "72/80"
       \autoBeamOff
 
-      a2 d'4 | e'2 fis'8 [ (e'8) ]| d'2. | e'2 fis'4 | g'2. | 
+      a2 d'4 | e'2 fis'8 [ (e'8) ]| d'2. | e'2 fis'4 | g'2. |
 
-      a'4 g'4 fis'4 | e'2. |   e'2. | \break g'2. | b'4 cis''4 b'4 | b'2. | a'2. | 
+      a'4 g'4 fis'4 | e'2. |   e'2. | \break g'2. | b'4 cis''4 b'4 | b'2. | a'2. |
 
       fis'2. | a'4 (g'4) e'4 | e'2. |   d'2. (| \break d'4) r4
       \tempoFunc "Più mosso" 4 "88"
-      fis'4  \bar "||" a'2 a'4 | b'2 fis'4 | 
+      fis'4  \bar "||" a'2 a'4 | b'2 fis'4 |
 
-      a'2. | a'2 a'4 | b'2 b'4 |  b'2 ( cis''4 ) |  a'2. ( | \break a'4 ) r4 a'4 | 
+      a'2. | a'2 a'4 | b'2 b'4 |  b'2 ( cis''4 ) |  a'2. ( | \break a'4 ) r4 a'4 |
 
-      d''2 b'4 | b'2 ( cis''4 ) | a'2. | fis'2 fis'4  |  g'2 e'4 |  e'2 fis'4 | 
+      d''2 b'4 | b'2 ( cis''4 ) | a'2. | fis'2 fis'4  |  g'2 e'4 |  e'2 fis'4 |
 
       d'2.  \bar "||" \break
       \tempoFunc "Ancora più mosso" 4 "96"
 
-      a2 a4 | d'2 ( e'4 ) | fis'2 ( g'4 ) | a'2. (| a'4 ) r4 a'4 |  b'2 a'4 | 
+      a2 a4 | d'2 ( e'4 ) | fis'2 ( g'4 ) | a'2. (| a'4 ) r4 a'4 |  b'2 a'4 |
 
       a'2. | fis'2. | \break
 
-      b'2 a'4 | fis'2 g'4 | a'2. | g'2 fis'4 | 
+      b'2 a'4 | fis'2 g'4 | a'2. | g'2 fis'4 |
 
-      g'2 b'4 |  a'2. |  a'2 a'4 | d''2 b'4 | \break a'2.  | a'2 a'4 | 
+      g'2 b'4 |  a'2. |  a'2 a'4 | d''2 b'4 | \break a'2.  | a'2 a'4 |
 
       d''2 b'4 | b'2 ( cis''4 ) |  a'2 g'4  |  fis'2  fis'4 |
       \tempo "rit." g'2  e'4 | e'2 ( fis'4 ) | \break
-      d'2. | \tempo "a tempo" fis'2 fis'4 | fis'2. | fis'4 ( g'4 )  a'4 | b'2 fis'4 |  a'2.   
+      d'2. | \tempo "a tempo" fis'2 fis'4 | fis'2. | fis'4 ( g'4 )  a'4 | b'2 fis'4 |  a'2.
       | % 61
       g'2. (| \break g'4) r4  \tempoFunc "Maestoso" 4 "72" a4 \mark \markup {\small \musicglyph "scripts.segno" }  \bar "||"
       a2  d'4 | % 63
@@ -52,7 +52,7 @@
       fis'2  g'4 |  % 67
       a'2. | \break % 68
       b'2  g'4 | % 69
-      g'2  a'4 | 
+      g'2  a'4 |
       fis'2. (| fis'4) r4 b'4 | % 71
       b'2  b'4 | % 72
       d''2.  | % 73
@@ -60,10 +60,10 @@
       b'2 (  cis''4 ) |\break % 75
       a'2  g'4 |  % 76
       fis'2 ( \tempo "rit." e'4 )  | % 77
-      \tempo "            Fine" d'2. \bar "|."
+      \tempo "   Fine" d'2. \bar "|."
       | % 78
       \tempo "a tempo" fis'2 g'4 | % 79
-      a'2  a'4 | 
+      a'2  a'4 |
       a'4 (  b'4 )  a'4 | % 81
       fis'2  g'4 |  % 82
       a'2. | \break % 83
@@ -164,7 +164,7 @@
 
   % include foreign translation(s) of the song
 
-\markup \vspace #3
+  \markup \vspace #3
   \include "../../lyrics/de/104_himn_na_velikata_dusha_lyrics_de.ly"
 
 } % bookpart

@@ -4,6 +4,69 @@
 \include "include/globals.ily"
 
 \bookpart {
+
+  \markup \empty-two
+  \label #'ref095
+  \tocItem \markup "Вдъхновение – Vdăhnovenie"
+  \include "include/bookpart-paper.ily"
+  \score {
+    \include "include/score-layout.ily"
+
+
+    \new Voice \absolute  {
+      \clef treble
+      \key c \major
+      \time 6/4
+      \tempoFunc "Lento" 4 "50"
+      \autoBeamOff
+      \repeat volta 3 {
+        g4 c' e' c' g2 | g4 c' e' c' g2 | \time 4/4  e'4 g' c''2  |
+
+        b'4 ( a' ) g'2 | \break \time 6/4
+      } \alternative {
+        { a'4 f' a' g' e'2 | g'4 e' f' d' c'2 |  }
+        {
+          \once \override Score.TimeSignature.break-visibility = ##(#f #f #t)
+          \time 6/4 a'4 ( f' a' g' ) e'2 |  g'4 e'8 e' f'4 d' c'2
+        }
+      }
+      \bar "|."
+    }
+
+    \addlyrics {
+      Вдъх -- но -- ве -- ни -- е,
+      вдъх -- но -- ве -- ни -- е,
+      вдъх -- но -- ве -- ни -- е, "вдъх-" -- но -- ве -- ни -- е,
+      "вдъх-" -- но -- ве -- ни -- е, ти __ си бла -- "го-" --
+      "сло-" -- ве -- ни -- е.
+
+    }
+
+    \addlyrics {
+      Vdăh -- no -- ve -- ni -- e,
+      vdăh -- no -- ve -- ni -- e,
+      vdăh -- no -- ve -- ni -- e, vdăh -- no -- ve -- ni -- e,
+      vdăh -- no -- ve -- ni -- e, ti __ si bla -- go --
+      slo -- ve -- ni -- e.
+
+    }
+
+
+    \header {
+      title = \titleFunc "Вдъхновение" "Vdahnovenie"
+    }
+
+    \midi{}
+
+  } % score
+
+  \markup \empty-one
+
+  % include foreign translation(s) of the song
+  \include "../../lyrics/de/095_vdahnovenie_lyrics_de.ly"
+
+  \markup \empty-three
+
   \label #'ref073
   \tocItem \markup "Сладко медено – Sladko medeno"
   \include "include/bookpart-paper.ily"
@@ -36,16 +99,16 @@
 
         \new Staff \with {
           \override VerticalAxisGroup.default-staff-staff-spacing =
-          #'((basic-distance . 5.0)
-             (padding . -10))
+          #'((basic-distance . 5.5)
+             (padding . -20))
           \remove "Time_signature_engraver"
           alignAboveContext = #"main"
-          fontSize = #-1.5
+          fontSize = #-1.7
           \override StaffSymbol.staff-space = #(magstep -3)
           \override StaffSymbol.thickness = #(magstep -3)
           firstClef = ##f
         }
-        { b'4^\markup { \large \italic "ossia по М. Тодорова" } c'' | b'4 a' | }
+        { b'4^\markup { \large \italic "ossia по М. Тодорова/ossia nach M. Todorova " } c'' | b'4 a' | }
       >>
 
 
@@ -83,5 +146,9 @@
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/073_sladko_medeno_lyrics_de.ly"
+
+
+
+
 
 } % bookpart

@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Wehe, Wind!" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #14
+\markup \abs-fontsize #10 {
+  \hspace #15
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {

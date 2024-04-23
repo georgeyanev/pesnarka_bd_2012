@@ -6,10 +6,8 @@
 
 \markup \abs-fontsize #10 {
 
-   \hspace #5
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {   
-      \line {  Inspiration, Inspiration, Inspiration, Inspiration, Inspiration, }
-      \line {   du bist ein Segen. }      
+      \line {  Inspiration, Inspiration, Inspiration, Inspiration, Inspiration, du bist ein Segen. }      
     }   
 }

@@ -43,7 +43,7 @@
     \midi{}
 
   } % score
- \markup \empty-one
+  \markup \empty-one
   \markup \italic \dc-one-nobold "attacca „Сила жива, изворна/Sila živa, izvorna“"
   \markup \empty-one
 

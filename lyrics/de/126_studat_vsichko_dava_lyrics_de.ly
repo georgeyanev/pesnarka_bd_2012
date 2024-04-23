@@ -1,14 +1,17 @@
 \version "2.24.3"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Die Kälte gibt alles" }
+
 \markup \null
-\markup \fontsize #+1.7 {
+\markup \null
+\markup \abs-fontsize #10 {
 
-  \vspace #1
-  \override #'(baseline-skip . 1.8)
-
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
+
+
+
     \line { " "  Die Kälte gibt alles. Kalt bist du,}
 
     \line { " " aber schützt uns vor der Kälte.}
@@ -21,7 +24,7 @@
 
     \line { " "   Kalt bist du, aber bringst uns Reinheit}
 
-    \line { " "  }
+     \vspace #0.5
 
 
     \line { " "  Die Kälte gibt alles.}
@@ -45,18 +48,8 @@
     \line { " " und bringst nur das, was dir das Licht gibt.}
 
     \line { " " Dein Gewand ist weiß.}
-
-
-
-  }
-
-
-  \override #'(baseline-skip . 1.8)
- 
-  \column {
-
-
-    \line { " " Kalt bist du, }
+     \vspace #0.5
+   \line { " " Kalt bist du, }
     \line { " "   aber rettest uns vor dem Frost.}
 
     \line { " " Seit Ewigkeit waren die menschlichen  }
@@ -70,9 +63,12 @@
     \line { " "  Kalt bist du, }
     \line { " "        aber rettest uns vor der Kälte.}
 
+  }
 
-
-    \line { " "  }
+ \hspace #5
+\override #`(baseline-skip . ,deCoupletBaselineSkip)
+ 
+  \column {
 
     \line { " " Und wenn es Frühling wird}
 

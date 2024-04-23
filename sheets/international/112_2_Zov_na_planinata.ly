@@ -51,7 +51,7 @@
       \line {  2. Запявам аз  песен чудна}
       \line {   "   "  за Слънцето,}
       \line {   "   "  бистри изворчета зашумяват.}
-     \vspace #0.5
+      \vspace #0.5
       \line {3. И виждам аз връх изправен}
       \line {   "   " пред мен стои.}
       \line {   "   " Той зове ме кротко там нагоре.}
@@ -63,7 +63,7 @@
       \line {  2. Zapyavam az  pesen chudna}
       \line {   "   "  za Slantseto,}
       \line {   "   "  bistri izvorcheta zashumyavat.}
-        \vspace #0.5
+      \vspace #0.5
       \line {3. I vizhdam az vrah izpraven}
       \line {   "   " pred men stoi.}
       \line {   "   " Toy zove me krotko tam nagore.}

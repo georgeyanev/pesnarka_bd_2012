@@ -1,13 +1,14 @@
 \version "2.24.3"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Ruf des Gebirges" }
+
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #15
+\markup \abs-fontsize #10 {
+  \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
+  \column { 
     \line { 1. Und ich hüpfe wie ein Vöglein von Ast zu Ast, }
 
   \line {   "   "  so dass sich jeder wundert, }

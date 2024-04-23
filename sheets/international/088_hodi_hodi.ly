@@ -78,7 +78,7 @@
   \markup \italic \dc-one-nobold "attacca „Тъги скърби“/attacca „Tăgi skărbi“"
   \markup \empty-one
   \markup \abs-fontsize #10 {
-    \hspace #7
+    \hspace #10
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
@@ -109,7 +109,7 @@
     \"rightBraces088"
   } % markup
 
-\markup \empty-two
+  \markup \empty-two
   % include foreign translation(s) of the song
   \include "../../lyrics/de/088_hodi_hodi_lyrics_de.ly"
 

@@ -71,8 +71,8 @@
       \addlyrics {
         Bog __ e "Lju-" -- bov, | Bog e "Lju-" -- bov, | Bog e "Lju-" -- bov, Lju -- |
         bov, Lju -- bov  | več -- na, | bez -- gra -- nič -- na, |
-        păl -- na | săs ži -- "-vot," ži -- vot na | bla -- gi -- ja Bo -- ži  Duh.
-        Duh na bla -- gost -- "-ta," | Duh na svja -- tost -- "-ta," | Duh na pă -- len mir i |
+        păl -- na | săs ži -- vot, ži -- vot na | bla -- gi -- ja Bo -- ži  Duh.
+        Duh na bla -- gost -- "-ta," | Duh na svja -- tost -- ta, | Duh na pă -- len mir i |
         ra -- dost za vsja -- ka du -- ša, za vsja -- ka du -- | ša. Nij šte | ho -- dim v~to -- ja |
         păt  na svet -- li -- | na -- ta, na svet -- li -- | na -- ta, na svet -- li | na -- ta, v~ko -- |
         ja -- to "ca-" -- ru -- va | Bo -- ži -- ja -- ta "Lju-" -- bov, | Bo -- ži -- ja -- ta "Lju-" -- bov, |

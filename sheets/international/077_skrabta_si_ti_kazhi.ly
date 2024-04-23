@@ -58,19 +58,19 @@
 
 
       \addlyrics {
-        Skrăb -- ta si ti "ka-"  -- ži,
+        Skrăb -- ta si ti ka  -- ži,
         săr -- ce si ti ot -- vo -- ri
         na slăn -- če -- vi lă -- či,
-        na slăn -- če -- vi "lă-" -- či,
-        na slăn -- če -- vi "lă-" -- či,
-        na slăn -- če -- vi "lă-" -- či.
+        na slăn -- če -- vi lă -- či,
+        na slăn -- če -- vi lă -- či,
+        na slăn -- če -- vi lă -- či.
         Lă -- či ot Bo -- ga
-        bla -- gost šte ti do -- "ne-" -- sat
-        i v~du -- "-ša" ti ra -- dost šte "vne-" -- sat,
-        i v~du -- "-ša" ti ra -- dost šte "vne-" -- sat,
-        i v~du -- "-ša" ti ra -- dost šte "vne-" -- sat,
-        i v~du -- "-ša" ti ra -- dost šte "vne-" -- sat,
-        i v~du -- "-ša" ti ra -- dost šte "vne-" -- sat,
+        bla -- gost šte ti do -- ne -- sat
+        i v~du -- ša ti ra -- dost šte "vne-" -- sat,
+        i v~du -- ša ti ra -- dost šte "vne-" -- sat,
+        i v~du -- ša ti ra -- dost šte "vne-" -- sat,
+        i v~du -- ša ti ra -- dost šte "vne-" -- sat,
+        i v~du -- ša ti ra -- dost šte "vne-" -- sat,
         ra -- dost šte "vne-" -- sat, ra -- dost šte "vne-" -- sat,
         ra -- dost šte "vne-" -- sat, ra -- dost šte "vne-" -- sat,
         ra -- dost šte "vne-" -- sat, ra -- dost šte "vne-" -- sat,

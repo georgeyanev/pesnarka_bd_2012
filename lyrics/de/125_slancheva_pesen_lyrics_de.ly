@@ -1,14 +1,14 @@
 \version "2.24.3"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Sonnenlied – kleines Bienchen" }
+
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10 {
+  \hspace #15
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-
 
  \line { " "Es ist schon Frühling, hell und warm ist es  überall:}
 
@@ -21,7 +21,6 @@
  \line { " "Sie nehmen den blumigen Frühlingsduft wahr, }
 
  \line { " "sie fliegen geschwind zur aufgegangenen Blüte. }
- \line { " " }
 
  \line { " "Mit Freude sammeln sie den Pollen ein }
 
@@ -30,9 +29,6 @@
   \line { " "Die Freude sprudelt in unserem Bienenstock: ban. }
 
  \line { " "Alle eilen hinaus. }
-
- \line { " "}
-
  \line { " " Ban, zan, ban, zan, } 
  \line { " "einen süßen Honig bereiten wir für euch,}
 

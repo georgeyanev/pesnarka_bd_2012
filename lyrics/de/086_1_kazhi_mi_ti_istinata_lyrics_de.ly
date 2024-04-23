@@ -1,6 +1,6 @@
 \version "2.24.3"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Sag du mir die Wahrheit" }
+\markup \fill-line { \fontsize #deTitleFontSize "Sag Du mir die Wahrheit" }
 
 \markup \null
 \markup \null
@@ -10,6 +10,6 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-        \line { " "Sag du mir die Wahrheit, die Freiheit für meine Seele bringt. }
+        \line { " "Sag Du mir die Wahrheit, die Freiheit für meine Seele bringt. }
     }
 }

@@ -23,19 +23,21 @@
       ""
     }
 
-    left-margin = 1.5\cm
+   left-margin = 1.5\cm
     right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
+    top-margin = 1.2\cm
+    bottom-margin = 1.0\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
   
     tocTitleMarkup = \markup \abs-fontsize #14 \bold \column {
       \fill-line { \null "INHALT" \null }
       \null
     }
-
-    tocItemMarkup = \markup \abs-fontsize #10 {\fill-line {
-      \fromproperty #'toc:text \tocItemWithDotsMarkup \fromproperty #'toc:page }
+ 
+    tocItemMarkup = \markup \abs-fontsize #10 {\fill-line   {
+       
+    \fromproperty #'toc:text \tocItemWithDotsMarkup \fromproperty #'toc:page }
+     
     }
 
     tocActMarkup = \markup \large \column {

@@ -3,11 +3,11 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Ich kann lieben" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #15
+\markup \abs-fontsize #10 {
+  \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
+  \column { 
     \line { " "Ich kann lieben [ljubia], um gut zu werden, }
     \line { " "ich kann lieben [običam], um stark zu werden.}
     \line { " "  Die Liebe [Ljubovta] und die Liebe [Običta], }

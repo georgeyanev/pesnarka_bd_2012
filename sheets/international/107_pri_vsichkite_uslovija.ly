@@ -10,7 +10,7 @@
   \score {
     \include "include/score-layout.ily"
 
-\new Voice \relative c' {
+    \new Voice \relative c' {
       \clef treble
       \key f \major
       \time 6/8
@@ -52,8 +52,8 @@
 
       Жи -- смел.
     }
-   \addlyrics {
-    Pri vsič -- ki -- te u -- slo -- vi -- ja na ži -- vo -- ta
+    \addlyrics {
+      Pri vsič -- ki -- te u -- slo -- vi -- ja na ži -- vo -- ta
 
       ne gu -- bi svo -- ja mir, svo -- ja mir.
 

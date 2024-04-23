@@ -1,10 +1,11 @@
 \version "2.24.3"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Ach, du mein Sohn" }
+
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #13
+\markup \abs-fontsize #10 {
+  \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {

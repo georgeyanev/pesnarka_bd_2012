@@ -44,9 +44,9 @@
       Do -- băr
       den e svet -- li -- jat den. Hu -- bav i kra --
       siv e toj! Vsič -- ko o -- za -- rja -- va, vsič
-      -- ko o -- ži -- vja -- va i "v~ži-" -- vo -- ta Bo
+      -- ko o -- ži -- vja -- va i v~ži -- vo -- ta Bo
       -- ži -- e -- to bla -- go toj raz -- da -- va,
-      i "v~ži-" -- vo -- ta Bo -- ži -- e -- to bla -- go
+      i v~ži -- vo -- ta Bo -- ži -- e -- to bla -- go
       toj raz -- da -- va.
     }
 

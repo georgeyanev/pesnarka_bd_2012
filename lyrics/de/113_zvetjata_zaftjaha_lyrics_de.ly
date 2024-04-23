@@ -3,11 +3,11 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Die Blumen erblühten" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-
+\markup \abs-fontsize #10 {
+ 
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
+  \column { 
 
   \line { " "Die Blumen erblühten unter den Strahlen der Sonne, und schon trugen sie Früchte. }
 
