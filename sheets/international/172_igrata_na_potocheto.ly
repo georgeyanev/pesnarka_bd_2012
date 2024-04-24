@@ -6,42 +6,7 @@
 \bookpart {
   \label #'ref172
   \tocItem \markup "Играта на поточето – Igrata na potočeto"
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
-
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-      ""
-    }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 10.5)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 10.5))
-  }
-
-  \header {
-    tagline = ##f
-  }
+  \include "include/bookpart-paper.ily"
 
   \score {
     \include "include/score-layout.ily"
@@ -90,7 +55,7 @@
       fis'8 e'8 e'8 e'8 | % 36
       \time 3/4  g'16 fis'16 e'16 d'16 \autoBeamOff c'8 [c'8] c'8 [c'8] | \autoBeamOn % 37
       \time 2/4  e'8 d'8 d'4 \break | % 38
-     \bar ".|:-|" 
+      \bar ".|:-|"
       a8 b8 c'8 d'8 | % 39
       e'8 d'8 e'16 d'16 c'16 b16 |
       a8 b16 a16 b8 a8 | % 41
@@ -108,7 +73,7 @@
     \midi{}
 
   } % score
-  
+
   \markup \empty-one
   \markup \dc-one "D.C."
 

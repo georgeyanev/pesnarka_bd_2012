@@ -4,8 +4,6 @@
 \include "include/globals.ily"
 
 \bookpart {
-
-  \markup \empty-two
   \label #'ref095
   \tocItem \markup "Вдъхновение – Vdăhnovenie"
   \include "include/bookpart-paper.ily"

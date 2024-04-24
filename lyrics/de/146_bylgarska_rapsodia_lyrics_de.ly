@@ -3,9 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Bulgarische Rapsodie" }
 \markup \null
 \markup \null
-
-\markup \fontsize #deCoupletFontSize {
-  \hspace #15
+\markup \abs-fontsize #10 {
+   \hspace #15
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -16,7 +15,7 @@
 
     \line { " "dort oben habe ich Liljana getroffen.}
 
-    \line { " "   }
+    \vspace #0.5
 
     \line { " "Die Quelle strömt und quillt,}
 
@@ -28,7 +27,7 @@
 
     \line { " "und lauscht dem Lied.}
 
-    \line { " "   }
+     \vspace #0.5
 
     \line { " "Ich werde dort hinaufgehen,}
 
@@ -39,7 +38,7 @@
     \line { " "und dem leisen Lied lausche,}
 
     \line { " "ich gehe dorthin.}
-    \line { " "   }
+    \vspace #0.5
 
     \line { " "Damit ich dem reinen Wasser zuschaue,}
 
@@ -47,7 +46,7 @@
 
     \line { " " werde ich dorthin gehen.}
 
-    \line { " "   }
+    \vspace #0.5
 
     \line { " "Oh, Liliana, frühe Blume im Garten,}
 
@@ -57,7 +56,7 @@
 
     \line { " "wird Gram mein Herz erfüllen.}
 
-    \line { " "   }
+  \vspace #0.5
 
     \line { " "Oh, Liliana, Mädchen,}
 
@@ -65,7 +64,7 @@
 
     \line { " "dorthin, wo die Quelle entspringt.}
 
-    \line { " "   }
+     \vspace #0.5
 
     \line { " "Oben im Gebirge,}
 
@@ -81,7 +80,7 @@
     \line { " "Oben im Gebirge,}
 
     \line { " "wo die Sonne aufgeschienen hat.}
-    \line { " "   }
+   \vspace #0.5
 
     \line { " "Dort oben bei der Quelle }
 

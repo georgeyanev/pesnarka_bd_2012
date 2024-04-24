@@ -19,17 +19,17 @@
       \partial 8
       e'8 | % 2
       b'4  a'8  g'8  fis'8  g'8
-      a'8 c''8 \break | % 3
+      a'8 c''8 | % 3
       b'4 b'8 b'8 e''8
       e''8 d''8 d''8 | % 4
-      \time 3/4  | % 4
-      g'8  a'8 b'4 b'4 \break | % 5
+      \time 3/4  |  \break % 4
+      g'8  a'8 b'4 b'4 | % 5
       \time 4/4  | % 5
       a'8  a'8  a'8 b'8  g'4
       g'4 | % 6
       fis'8  e'8  dis'8  e'8  fis'4
       b4 \break | % 7
-      \bar ".|:-||" 
+      \bar ".|:-||"
       e'8  fis'8  g'8  a'8 b'8
       b'8 c''8 d''8 | % 8
       b'4. b'8 e''8 e''8
@@ -41,11 +41,11 @@
       fis'8 ( [  g'8 ] )   a'8 c''8
       b'2 | % 12
       e'8  fis'8  g'8  a'8 b'4
-      b'4 \break | % 13
+      b'4 | % 13
       c''8 c''8 c''8 d''8
-      b'4 b'8 b'8 | % 14
+      b'4 b'8 b'8 | \break % 14
       a'8  a'8  a'8 b'8  g'4
-      g'4 \break | % 15
+      g'4 | % 15
       fis'8  e'8  dis'8  e'8  fis'4.
       b8 | % 16
       e'4  e'2 (e'8)
@@ -53,8 +53,8 @@
     }
 
     \addlyrics {
-      Там го -- ре ви -- со -- ко в~пла
-      -- ни -- на -- та из -- ви -- ра из --
+      Там го -- ре, ви -- со -- ко в~пла
+      -- ни -- на -- та, из -- ви -- ра из --
       вор -- че кра -- си -- во, то си
       ти -- хо пе -- е и сър -- це си
       ле -- е: „Ка -- то ме -- не дру --
@@ -62,13 +62,13 @@
       си -- во ня -- ма. От мо -- и -- те
       нед -- ра из -- ви -- ра чис -- та
       жи -- ва во -- да. Кой от ме --
-      не пи -- е, нов Жи -- вот до -- би
+      не пи -- е, нов жи -- вот до -- би
       -- ва, у -- че -- ни -- е об -- гръ --
       ща и на ра -- бо -- та се хва --
-      ща.“ __}
+      ща“. __}
       \addlyrics {
-        Tam go -- re vi -- so -- ko v~pla
-        -- ni -- na -- ta iz -- vi -- ra iz --
+        Tam go -- re, vi -- so -- ko v~pla
+        -- ni -- na -- ta, iz -- vi -- ra iz --
         vor -- če kra -- si -- vo, to si
         ti -- ho pe -- e i săr -- ce si
         le -- e: „Ka -- to me -- ne dru --
@@ -76,10 +76,10 @@
         si -- vo nja -- ma. Ot mo -- i -- te
         ned -- ra iz -- vi -- ra čis -- ta
         ži -- va vo -- da. Koj ot me --
-        ne pi -- e, nov Ži -- vot do -- bi
+        ne pi -- e, nov ži -- vot do -- bi
         -- va, u -- če -- ni -- e ob -- gră --
         šta i na ra -- bo -- ta se hva --
-        šta.“ __}
+        šta“. __}
 
 
         \header {
@@ -88,10 +88,10 @@
 
         \midi{}
       } % score
-      
-  \markup \empty-one
+
+      \markup \empty-one
       \markup \dc-two "D.C.""senza ripetizione"
-      \pageBreak
+     \markup \empty-one
 
       % include foreign translation(s) of the song
       \include "../../lyrics/de/177_izvorche_lyrics_de.ly"

@@ -5,44 +5,9 @@
 \bookpart {
   \label #'ref162
   \tocItem \markup "Марш на светлите сили – Marš na svetlite sili"
-  \paper {
-    % the system system spacing is custom here so do not include bookpart-paper.ily
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
 
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-      ""
-    }
 
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 10)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 10))
-  }
-
-  \header {
-    tagline = ##f
-  }
-
+  \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
     \new Voice \absolute {
@@ -89,8 +54,8 @@
       a8 [d'8] g16 ([ a16 bes16 a16 ]) | % 21
       g8 g4 g8 \bar "||"
       \break | % 22
-       \time 5/4
-       \bar ".|:-||"  \repeat volta 2 {
+      \time 5/4
+      \bar ".|:-||"  \repeat volta 2 {
         d'8 d'4 d'4 d'8 bes'8[ \acciaccatura { a'16 ( [bes'16] } a'8] ) g'8
         [es'8] | % 23
         d'8 d'4 d'4 d'8 bes'8[ \acciaccatura { a'16 ( [bes'16] } a'8] ) g'8
@@ -123,9 +88,9 @@
     \midi{}
 
   } % score
-  
+
   \markup \empty-one
-   \markup \dc-two "D.C.""con ripetizione"
+  \markup \dc-two "D.C.""con ripetizione"
   % include foreign translation(s) of the song
   %\include "../../lyrics/de/000_empty_template_lyrics_de.ly"
 

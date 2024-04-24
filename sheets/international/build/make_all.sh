@@ -13,7 +13,7 @@ cat \
     ../016_zorata_na_noviya_zhivot.ly \
     ../018_izlyazal_e_seyach.ly \
     ../020_bratstvo_edinstvo.ly \
-     ../028_stani_stani.ly \
+    ../028_stani_stani.ly \
     ../021_shte_se_razveselya.ly \
     ../022_izgryava_den_tarzhestven.ly \
     ../024_blagoslavyay.ly \
@@ -128,34 +128,27 @@ cat \
     ../156_mirat_ide.ly \
     ../158_mirat_ide_II.ly \
     ../161_duhai_vetre_II.ly \
-    ../167_2_kazhi_mi_svetal_bozhii_lach.ly \
+    ../155_1_radost_sa_dushata.ly \
     ../162_marsh_na_svetlite_sili.ly \
-    ../162_mash_vtori_variant_tekst.ly \
     ../163_berhan_azi.ly \
     ../164_pesen_na_deteto.ly \
     ../165_malkiyat_planinski_izvor.ly \
     ../166_Bog_e_Lyubov_II.ly \
-    ../155_1_radost_sa_dushata.ly \
-    ../167_kam_fir_fur_fen.ly \
-    ../168_kazhi_mi_ti_istinata_II.ly \
-    ../169_1_kazhi_mi_ti_isinata_III.ly \
+    ../168_kazhi_mi_ti_istinata_II_III.ly \
+    ../167_1_2_kam_fir_fjur_fen_kazhi_mi_svetal_bozhii_lach.ly \
     ../169_2_svoboda_e_potrebna_za_dushata.ly \
-    ../170_vyara_svetla_I_II_III.ly \
-    ../171_milost_blagost_az_moga_da_disham.ly \
-    ../172_igrata_na_potocheto.ly \
+    ../170_vyara_svetla_I_II_171_milost_blagost_az_moga_da_disham.ly \
     ../173_malkata_bubolechka.ly \
     ../174_3_radost_175_2_mehein.ly \
     ../174_1_da_bih_te_slushal_174_2_slusham_175_pismoto.ly \
     ../176_zhitno_zarno.ly \
     ../177_izvorche.ly  \
-    ../178_molitva.ly \
-    ../179_molitva_ti_si.ly \
+    ../172_igrata_na_potocheto.ly \
     ../180_pesen_za_dvete_sestri.ly \
     ../181_proletna_pesen.ly \
-    ../182_deset_temi.ly \
-    ../185_melodiya_i_krasiv_zhivot.ly \
-    ../189_osarenie.ly \
-    ../186_melodiya_2_v_radostta.ly \
+    ../182_deset_temi_new.ly \
+    ../178_molitva.ly \
+    ../185_melodiya_i_krasiv_zhivot_186_melodia_2.ly \
     ../188_melodiya_3.ly \
     ../190_glasat_na_zhiviya_Gospod.ly \
     ../191_nb_parvi_bozhestven_den.ly \
@@ -177,6 +170,10 @@ cat \
     ../216_otche_nash_ne_ni_vavezhdai.ly \
     ../217_strannik_sam.ly \
     ../219_blank_page.ly \
+    ../179_molitva_ti_si.ly \
+    ../189_osarenie.ly \
+    ../186_melodiya_2_v_radostta.ly \
+    ../162_mash_vtori_variant_tekst.ly \
     ../218_appendix.ly \
     ../220_description_de.ly \
     ../221_dictionary_de.ly \

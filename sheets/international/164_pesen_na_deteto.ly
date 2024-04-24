@@ -27,16 +27,16 @@
 
     left-margin = 1.5\cm
     right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
+    top-margin = 1.2\cm
+    bottom-margin = 1.0\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
 
     % change distance between staves
     system-system-spacing =
-    #'((basic-distance . 9)
+    #'((basic-distance . 14)
        (minimum-distance . 6)
        (padding . 1)
-       (stretchability . 9))
+       (stretchability . 10))
   }
 
   \header {
@@ -45,7 +45,6 @@
 
   \score {
     \include "include/score-layout.ily"
-
     \new Voice \absolute {
       \clef treble
       \key a \minor
@@ -54,22 +53,22 @@
       a8 ( d'8 ) e'8 ( f'8 ) | % 2
       g'2 | % 3
       a'8 ( e'8 ) c'8 ( b8 ) | % 4
-      a2 \bar "||" | % 5
-      \tempo "Poco più mosso"
-      g'16
-      ( a'16 ) f'8 f'16 ( g'16 )
-      e'8 | % 6
-      e'16 ( f'16 ) d'8 d'16 ( e'16 ) c'8 \break | % 7
+      a2 | % 5
+      %\tempo "Poco più mosso"
+      g'8
+      ( a'8 ) f'4 | f'8 ( g'8 )
+      e'4 | % 6
+      e'8 ( f'8 ) d'4 | d'8 ( e'8 ) c'4 \break | % 7
       b8. ( c'16 ) d'8 e'8 | % 8
       f'4 e'8. ( dis'16 ) | % 9
 
       e'2 \bar "||"
       \tempo "Largamente"
-      a'8.  ( b'16 ) c''8 a'8 | % 11
+      a'8.  ( b'16 ) c''8. a'16 | % 11
       e''2 | % 12
       e'8 a'4 ( g'8 ) | % 13
       a'16 ( g'16 f'16 e'16 ) e'4 \break | % 14
-      \time 3/4   \bar ".|:-||" 
+      \time 3/4   \bar ".|:-||"
       a8 b8 c'4. ( b8 ) | % 15
       d'8 ( [c'8] ) b8 [a8] a4 \fermata
       \bar ":|."
@@ -93,7 +92,7 @@
       }
       d'8 [e'8] f'8 [e'8] | % 25
       e'2 d'8 ( e'16 d'16 ) \break | % 26
-      \time 2/4  c'8 b8 a8^\markup{ \bold {rit.} } gis8 | % 27
+      \time 2/4  c'8 b8 \tempo "rit." a8 gis8 | % 27
       a2 \bar "||"
       \time 5/4  | % 28
       \tempo "Animato"
@@ -150,6 +149,7 @@
       a'2 \bar "|."
     }
 
+
     \addlyrics {
 
     }
@@ -164,11 +164,5 @@
     \midi{}
 
   } % score
-  %\markup \dc-two "D.C." "con repitione"
-
-  \pageBreak
-
-  % include foreign translation(s) of the song
-  %\include "../../lyrics/de/020_bratstvo_edinstvo_lyrics_de.ly"
 
 } % bookpart

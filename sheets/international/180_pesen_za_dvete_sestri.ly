@@ -62,24 +62,24 @@
       \times 2/3  {
         c'8 c'8 c'8
       }
-      c'8. e'16 \break | % 18
+      c'8. e'16  | % 18
       \time 3/4  | % 18
       e'4 d'4. d'8 | % 19
-      \time 2/4  | % 19
+      \time 2/4 \break | % 19
       d'8 g'4. |
       \times 2/3  {
         g'8 g'8 g'8
       }
-      g'8. fis'16 \break | % 21
+      g'8. fis'16  | % 21
       \time 3/4  | % 21
       a'4 g'2 \bar "||"
       \time 2/4  | % 22
-      g'8. ^\markup{ \bold {Più mosso} } fis'16
-      g'8  b'8 | % 23
-      a'8 g'8 fis'8. e'16 \break | % 24
+      \tempo"Più mosso" g'8. fis'16
+      g'8  b'8 | \break % 23
+      a'8 g'8 fis'8. e'16 | % 24
       \time 3/4  | % 24
       fis'8 e'8 d'4.  c''8 ^\markup{
-        \italic {largamente}
+        \huge \italic  {largamente}
       }
       | % 25
       \times 2/3  {
@@ -91,57 +91,58 @@
     }
     \addlyrics {
       Аз  но -- ся "скръб-" -- та си
-      с~Ра -- дост във Жи -- во -- та;
+      с~ра -- дост във жи -- во -- та;
       тя ми е дру -- гар -- ка бла --
-      га, що "до-" -- бре ме у -- чи. Аз
+      га, що "доб-" -- ре ме у -- чи. Аз
       но -- ся "скръб-" -- та си
-      с~ра -- дост във Жи -- во -- та;
+      с~ра -- дост във жи -- во -- та;
       тя ми е дру -- гар -- ка, що ме
       у -- чи. Ма -- кар без -- спир -- но
       и да пъш -- кам, крот -- ко тя "на-"
-      -- пред ме во -- ди. И слад -- ки
+      -- пред ме во -- ди. И "слад-" -- ки
       ду -- ми ми го -- во -- ри тя за
-      сес -- тра си Ра -- дост, ко -- я --
-      то с~Ра -- дост ще ме по -- срещ
+      "сес-" -- тра си Ра -- дост, ко -- я --
+      то "с~ра-" -- дост ще ме по -- срещ
       -- не. Треп -- на пър -- ви път то
       -- газ сър -- це -- то ми за мой --
       та сес -- тра Ра -- дост.
     }
-      \addlyrics {
-      Az  no -- sja skrăb -- ta si
-      s~Ra -- dost văv Ži -- vo -- ta;
+
+    \addlyrics {
+      Az  no -- sja "skrăb-" -- ta si
+      s~ra -- dost văv ži -- vo -- ta;
       tja mi e dru -- gar -- ka bla --
-      ga, što "do-" -- bre me u -- či. Az
-      no -- sja skrăb -- ta si
-      s~ra -- dost văv Ži -- vo -- ta;
+      ga, što "dob-" -- re me u -- či. Az
+      no -- sja "skrăb-" -- ta si
+      s~ra -- dost văv ži -- vo -- ta;
       tja mi e dru -- gar -- ka, što me
       u -- či. Ma -- kar bez -- spir -- no
-      i da păš -- kam, krot -- ko tja na
-      -- pred me vo -- di. I slad -- ki
+      i da păš -- kam, krot -- ko tja "na-"
+      -- pred me vo -- di. I "slad-" -- ki
       du -- mi mi go -- vo -- ri tja za
-      ses -- tra si Ra -- dost, ko -- ja --
-      to s~Ra -- dost šte me po -- srešt
+      "ses-" -- tra si Ra -- dost, ko -- ja --
+      to "s~ra-" -- dost šte me po -- srešt
       -- ne. Trep -- na păr -- vi păt to
       -- gaz săr -- ce -- to mi za moj --
       ta ses -- tra Ra -- dost.
     }
 
 
-      \header {
-        title = \titleFunc "Песен за двете сестри" "Pesen za dvete sestri"
-      }
+    \header {
+      title = \titleFunc "Песен за двете сестри" "Pesen za dvete sestri"
+    }
 
-      \midi{}
+    \midi{}
 
-    } % score
+  } % score
+
+\pageBreak
+
+  % include foreign translation(s) of the song
+  \include "../../lyrics/de/180_pesenta_sa_dvete_sestri_lyrics_de.ly"
 
 
+} % bookpart
 
-    % include foreign translation(s) of the song
-    \include "../../lyrics/de/180_pesenta_sa_dvete_sestri_lyrics_de.ly"
-
-
-  } % bookpart
-
-  % Più mosso
-  %
+% Più mosso
+%

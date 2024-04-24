@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Frühlingslied" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
+\markup \abs-fontsize #10 {
   \hspace #14
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 

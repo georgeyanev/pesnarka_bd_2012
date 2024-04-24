@@ -31,7 +31,7 @@
       a'16 ) ] | % 13
       g'4  g'4 | % 14
       a'16 b'16 c''16 d''16
-      e''8 d''8  | % 15
+      e''8 d''8  | \break % 15
       c''4 c''4  | % 16
       g'4.  e'8 | % 17
       g'8  f'8  e'8  d'8 | % 18
@@ -72,11 +72,12 @@
       -- це в~не -- бе -- то слад -- ко
       чу -- ру -- ли -- ка, Слън -- це -- то
       при -- вет -- но це -- лий мир об --
-      ли -- ва с~Ра -- дост и Лю -- бов.
+      ли -- ва с~ра -- дост и лю -- бов.
       Тър -- жест -- ву -- ва це -- лий
       мир и бла -- го -- да -- ри на Бо
       -- га. Про -- лет, про -- лет е до --
       шла.}
+
       \addlyrics {
         E
         -- to pri -- sti -- ga čud -- na --
@@ -84,12 +85,12 @@
         -- grja -- va. Vsič -- ko se
         bu -- di, ras -- te, ži -- ve -- e i __
         se __  rad -- va, i "bla-" -- "go-" --
-        da -- ri na Bo -- ga. Pro -- let,
+        "da-" -- ri na Bo -- ga. Pro -- let,
         pro -- let e do -- šla. Pti -- čen
         -- ce v~ne -- be -- to slad -- ko
         ču -- ru -- li -- ka, Slăn -- ce -- to
         pri -- vet -- no ce -- lij mir ob --
-        li -- va s~Ra -- dost i Lju -- bov.
+        li -- va s~ra -- dost i lju -- bov.
         Tăr -- žest -- vu -- va ce -- lij
         mir i bla -- go -- da -- ri na Bo
         -- ga. Pro -- let, pro -- let e do --
@@ -103,7 +104,7 @@
 
       } % score
 
-        \markup \empty-one
+      \markup \empty-one
 
       \markup \dc-two "D.C.""con ripetizione"
 

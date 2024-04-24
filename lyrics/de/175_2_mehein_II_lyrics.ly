@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Me-hejn II" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #8
+\markup  \abs-fontsize #10 {
+  \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {

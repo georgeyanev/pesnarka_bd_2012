@@ -11,7 +11,7 @@
 
     \line { " " Ich werde mich verjüngen,  du wirst dich verjüngen,  er wird sich verjüngen.  }
 
-    \line { " " Das sagte mir die Liebe.  }
+    \line { " " Das sagte mir die Liebe.  Das sagte mir die Liebe.}
 
     \line { " " Wir, die wir dem Weg des Guten folgen, werden uns verjüngen,  }
 

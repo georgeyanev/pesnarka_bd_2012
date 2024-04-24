@@ -4,43 +4,28 @@
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
-  \hspace #17
+  \hspace #15
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
 
 \line { " "Schönes Leben – unendlicher Weg!}
 
-\line { " "Ich erinnere mich manchmal,}
+\line { " "Ich erinnere mich manchmal, es war irgendwo fern.}
 
-\line { " "es war irgendwo fern.}
+\line { " "Dort ging die Sonne nie unter, und der Himmel – }
 
-\line { " "Dort ging die Sonne nie unter }
+\line { " "immer azurblau Frieden und Licht.}
 
-\line { " "und der Himmel – immer azurblau,}
+\line { " "Hymnen der Liebe singen die Engel unaufhörlich,}
 
-\line { " "Frieden und Licht.}
+\line { " "schwingen, tönen im Einklang die Sternuniversen. }
 
-\line { " "Hymnen der Liebe}
+\line { " "Und die ermattete Seele erhebt sich – ewiges Streben.}
 
-\line { " "singen die Engel unaufhörlich,}
+\line { " "In Trauer, Freude und Tränen führt mein Weg hinaus, ich weiß.}
 
-\line { " "schwingen, tönen im Einklang }
-
-\line { " "die Sternuniversen. }
-
-
-\line { " "Und die ermattete Seele erhebt sich – }
-
-\line { " " ewiges Streben.}
-
-\line { " "In Trauer, Freude und Tränen}
-
-\line { " "führt mein Weg hinaus, ich weiß.}
-
-\line { " "Der mächtige Geist fliegt}
-
-\line { " "in die sonnige Heimat.}
+\line { " "Der mächtige Geist fliegt in die sonnige Heimat.}
 
   }
 }

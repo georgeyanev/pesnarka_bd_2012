@@ -9,8 +9,7 @@
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
-
-    \new Voice \relative c' {
+ \new Voice \relative c' {
       \clef treble
       \key g \minor
       \time 2/4
@@ -118,7 +117,7 @@
       c2 | \noBreak
       \acciaccatura { c8 } \tempo "rit." bes \tenuto[a\tenuto] bes\tenuto[c\tenuto] \noBreak
       d2\f \noBreak
-      d,8^\markup{ \italic {largamente} }\p[ees16 d] cis8[d]  | \noBreak
+      d,8^\markup{ \huge \italic {largamente} }\p[ees16 d] cis8[d]  | \noBreak
       \acciaccatura { c' } bes4. a8 | \noBreak
       <g bes,>4 <g bes,>8.[<g bes,>16] | \noBreak
       <g,, d' bes' g'>8 r r4 | \break
@@ -136,13 +135,13 @@
       g r g r | \noBreak
       g r g r | \break
 
-      d'4\mf^\markup{ \italic {largamente} } e!8\<[fis] | \noBreak
+      d'4\mf^\markup{ \huge \italic {largamente} } e!8\<[fis] | \noBreak
       <bes, g'>4 bes'8.[a16]\! | \noBreak
       <bes, g'>8 r <bes g'>[<bes g'>] \noBreak
       <bes g'> r <g d' bes' g'> r | \bar "|."
 
     }
-
+   
     \addlyrics {
 
 

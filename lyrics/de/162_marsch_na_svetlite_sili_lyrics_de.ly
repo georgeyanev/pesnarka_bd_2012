@@ -1,13 +1,15 @@
 \version "2.24.3"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Marsch der lichten Mächte" }
+
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #5
+\markup \abs-fontsize #10 {
+   \hspace #5
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
+
 
     \line { " "Geister des Lichtes schreiten leicht in der Stille. }
 

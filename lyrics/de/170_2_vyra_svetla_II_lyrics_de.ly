@@ -3,8 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Lichter Glaube II" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #7
+\markup \abs-fontsize #10 {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -13,9 +12,7 @@
 
 \line { " "Er führt uns zu Gott, }
 
-\line { " "zum Guten des Lebens,}
-
-\line { " "zur Liebe Gottes,}
+\line { " "zum Guten des Lebens, zur Liebe Gottes,}
 
 \line { " "wo der Frieden herrscht, }
 

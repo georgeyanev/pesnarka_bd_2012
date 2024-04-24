@@ -3,9 +3,10 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Der Frieden kommt" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-    \hspace #5
-    \override #`(baseline-skip . ,deCoupletBaselineSkip)
+\markup \abs-fontsize #10 {
+   \hspace #5
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+
   \column {
 
  \line { " "Er kommt schon, er kommt, mit dem Palmzweigchen des Friedens. }
@@ -20,7 +21,7 @@
 
  \line { " "mit seinem reinen Blick. }
 
-  \line { " "}
+   \vspace #0.5
 
  \line { " "Er begrüßt alle Seelen, }
 
@@ -39,7 +40,7 @@
  \line { " "und jeden Samen, jede Blume – ihre Kinder – erweckt. }
 
  \line { " "Die Feldblumen heißen ihn mit einem Duft willkommen. }
-  \line { " "}
+    \vspace #0.5
 
  \line { " "Die kleinen Waldvögel }
 
@@ -52,7 +53,7 @@
  \line { " "Die ganze Natur ist ein großer Tempel. }
 
  \line { " "Es kommt ein Engel des Friedens, um in diesem Tempel zu dienen. }
-  \line { " "}
+   \vspace #0.5
 
  \line { " "Und der Mensch steht vor dem heiligen Altar. }
 
@@ -61,7 +62,7 @@
  \line { " "Und mit einem Gebet in der Seele erwartet er }
 
  \line { " "den göttlichen Boten. }
-  \line { " "}
+  \vspace #0.5
 
  \line { " "Es kommt schon der Engel des Friedens }
 
