@@ -5,12 +5,11 @@
 
 \bookpart {
 
-   \label #'ref215
+  \label #'ref215
   \tocItem \markup "Зора на Новия живот – Zora na Novija život"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
-
     \new Voice \absolute {
       \clef treble
       \key g \major
@@ -53,38 +52,38 @@
 
     \addlyrics {
       Зо -- ра се чуд -- на за --
-      зо -- ря -- ва, зо -- ра на нов __
-      Жи -- вот, ко --
-      я -- то мен в~Жи -- во -- та
+      зо -- ря -- "ва  –" зо -- ра на нов __
+      жи -- вот, ко --
+      я -- то мен в~жи -- во -- та
       при -- зо -- ва -- ва. Зо --
       ра се чуд -- на за -- зо -- ря --
       ва, зо -- ра на
       но -- ви -- я __
       жи -- вот.}
-    \addlyrics {
-      Zo -- ra se čud -- na za --
-      zo -- rja -- va, zo -- ra na nov __
-      Ži -- vot, ko --
-      ja -- to men v~Ži -- vo -- ta
-      pri -- zo -- va -- va. Zo --
-      ra se čud -- na za -- zo -- rja --
-      va, zo -- ra na
-      no -- vi -- ja __
-      ži -- vot.}
+      \addlyrics {
+        Zo -- ra se čud -- na za --
+        zo -- rja -- "va  –" zo -- ra na nov __
+        ži -- vot, ko --
+        ja -- to men v~ži -- vo -- ta
+        pri -- zo -- va -- va. Zo --
+        ra se čud -- na za -- zo -- rja --
+        va, zo -- ra na
+        no -- vi -- ja __
+        ži -- vot.}
 
-    \header {
-      title = \titleFunc "Зора на Новия живот" "Zora na Novija život"
-    }
+        \header {
+          title = \titleFunc "Зора на Новия живот" "Zora na Novija život"
+        }
 
-    \midi{}
+        \midi{}
 
-  } % score
+      } % score
 
-  \markup \empty-one
-   % include foreign translation(s) of the song
-  \include "../../lyrics/de/215_zora_na_noviya_zhivot_lyrics_de.ly"
+      \markup \vspace #3
+      % include foreign translation(s) of the song
+      \include "../../lyrics/de/215_zora_na_noviya_zhivot_lyrics_de.ly"
 
-} % bookpart
+    } % bookpart
 
-% Più mosso
-%
+    % Più mosso
+    %

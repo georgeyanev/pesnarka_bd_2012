@@ -9,7 +9,6 @@
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
-
     \new Voice \absolute {
       \clef treble
       \key g \major
@@ -35,11 +34,11 @@
       b'2  a'4 | % 17
       g'2 r4 | % 18
       \time 4/4  | % 18
-      g'4 ^\markup{ \italic {sostenuto} }  fis'4  e'4
+      g'4 ^\markup{ \huge \italic {sostenuto} }  fis'4  e'4
       fis'8  e'8 | % 19
       e'8 ( [  fis'8 ) ]  d'2. \break |
 
-      b'2  ^\markup{ \bold {a tempo} }  a'4  g'4 | % 21
+      \tempo"a tempo" b'2  a'4  g'4 | % 21
       \once \omit TupletBracket
       \times 2/3  {
         fis'8 ( [  ^\<  g'8  a'8 ) ]
@@ -67,22 +66,22 @@
       \time 3/4  |
       d'4 (  ^\p  ^\<  b'4. )  a'8  ^\! | % 31
       g'2. | % 32
-      g'2  ^\>  d'4 \break | % 33
-      fis'2  e'4 | % 34
+      g'2  ^\>  d'4  | % 33
+      fis'2  e'4 | \break % 34
       e'2 (  fis'4 ) | % 35
       d'2.  ^\! | % 36
       c'2  ^\mp  ^\<  b4 | % 37
       c'2  e'4  ^\! | % 38
-      e'2.  ^\> \break | % 39
+      e'2.  ^\> | % 39
       d'2. |
       d'2  ^\!  ^\<  d'4 | % 41
-      e'2  ^\! ^\markup \italic { "cresc." }  d'4 | % 42
+      e'2  ^\! ^\markup \huge \italic { "cresc." }  d'4 |   % 42
       \once \omit TupletBracket
 
       c'4 (  b4
       c'4 )
       |
-      d'2. | % 43
+      d'2. | \break % 43
       e'4  e'4  fis'4  ^\< | % 44
       g'4  a'4  b'4  ^\!  | % 45
       d''2 ( ^\fermata  ^\mf  c''4 )  ^\> | % 46
@@ -99,7 +98,7 @@
       еш в~ме -- не, Ти жи -- ве --
       еш в~ме -- не. "Ка-" -- жи ми ти,
       свет -- ли Бо -- жи лъч, ка --
-      жи ми ти бла -- го -- то на Жи --
+      жи ми ти бла -- го -- то на жи --
       во -- та, свет -- ли -- я прав
       път на чис -- ти -- те ду
       -- ши, из -- ми -- ти във во --
@@ -108,15 +107,16 @@
       Гос -- по -- ди, Ти жи -- ве --
       еш в~ме -- не, Ти жи -- ве --
       еш в~ме -- не. Не -- ка Тво -- ят
-      благ __   глас и ми -- лост --
+      благ __   глас и "ми-" -- лост --
       та Ти, о, Бо -- же, се из -- я
-      -- вят  чрез ме -- не.}
+      -- вят __  чрез ме -- не.}
+
       \addlyrics {
         Gos -- po -- di, Ti ži -- ve --
         eš v~me -- ne, Ti ži -- ve --
-        eš v~me -- ne. Ka -- ži mi ti,
+        eš v~me -- ne. "Ka-" -- ži mi ti,
         svet -- li Bo -- ži lăč, ka --
-        ži mi ti bla -- go -- to na Ži --
+        ži mi ti bla -- go -- to na ži --
         vo -- ta, svet -- li -- ja prav
         păt na čis -- ti -- te du
         -- ši, iz -- mi -- ti văv vo --
@@ -125,9 +125,9 @@
         Gos -- po -- di, Ti ži -- ve --
         eš v~me -- ne, Ti ži -- ve --
         eš v~me -- ne. Ne -- ka Tvo -- jat
-        blag __  glas i mi -- lost --
+        blag __   glas i mi -- lost --
         ta Ti, o, Bo -- že, se iz -- ja
-        -- vjat  črez me -- ne.}
+        -- vjat __  črez me -- ne.}
 
 
         \header {

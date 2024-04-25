@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Eine ewige Wahrheit, die der Gott der Liebe ist" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
+\markup \abs-fontsize #10 {
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 

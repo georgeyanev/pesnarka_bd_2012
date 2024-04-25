@@ -31,7 +31,7 @@
       c''2 c''2 | % 9
       c''4 c''4 c''4 d''4 \break|
       es''2. d''4  | % 11
-      c''2 c''2^\markup { "     " \musicglyph "scripts.caesura.straight" } | % 12
+      c''2 c''2 \caesura | % 12
       c''4 -- c''4 -- c''4 -- d''4
       -- | % 13
       a'4 -- a'4 -- a'4 -- g'4 -- \break | % 14
@@ -39,8 +39,8 @@
       d'2. d'4  | % 16
       \time 3/4  | % 16
       d'4 d'4 c'4 | % 17
-      d'2. | % 18
-      r4 c'4 c'4 | % 19
+      d'2. |  % 18
+      r4 c'4 c'4 | \break % 19
       \time 6/4  | % 19
       f'2 g'2 bes'4 -- as'4 -- |
 
@@ -51,7 +51,7 @@
       a'2 g'4 r4 | % 24
       r4 d''4 d''4 d''4 | % 25
       \time 3/2  | % 25
-      e''2. d''4 d'4 ^\markup{ \bold {rall.} }
+      e''2. d''4 \tempo "rall." d'4
       d'4 | % 26
       e'1 r4 \bar "|."
     }
@@ -59,7 +59,7 @@
     \addlyrics {
       И
       ре -- че Бог: „Да бъ -- де прос --
-      тор сред во -- ди -- те.“ И на --
+      тор сред во -- ди -- те“. И на --
       пра -- ви Бог прос -- то -- ра, и
       раз -- де -- ли Бог во -- да -- та
       над прос -- то -- ра от во -- да --
@@ -68,18 +68,19 @@
       прос -- то -- ра не -- бе. И ста --
       на ве -- чер, и ста -- на ут -- ро,
       вто -- ри ден.}
+
       \addlyrics {
-      I
-      re -- če Bog: „Da bă -- de pros --
-      tor sred vo -- di -- te.“ I na --
-      pra -- vi Bog pros -- to -- ra, i
-      raz -- de -- li Bog vo -- da -- ta
-      nad pros -- to -- ra ot vo -- da --
-      ta pod pro -- sto -- ra. I sta --
-      na ta -- ka. I na -- re -- če Bog
-      pros -- to -- ra ne -- be. I sta --
-      na ve -- čer, i sta -- na ut -- ro,
-      vto -- ri den.}
+        I
+        re -- če Bog: „Da bă -- de pros --
+        tor sred vo -- di -- te“. I na --
+        pra -- vi Bog pros -- to -- ra, i
+        raz -- de -- li Bog vo -- da -- ta
+        nad pros -- to -- ra ot vo -- da --
+        ta pod pro -- sto -- ra. I sta --
+        na ta -- ka. I na -- re -- če Bog
+        pros -- to -- ra ne -- be. I sta --
+        na ve -- čer, i sta -- na ut -- ro,
+        vto -- ri den.}
 
         \header {
           title = \titleFunc "Втори Божествен ден" "Vtori Božestven den"
@@ -91,10 +92,10 @@
 
       \markup \raise #2.8 \override #'(baseline-skip . 2) {
         \column {
-          \fill-line \italic { "" "" \concat {"attaca" "   " }}
+          \fill-line \italic \huge { "" "" \concat {"attaca" "   " }}
         }
       }
-
+      \markup \vspace #3
       % include foreign translation(s) of the song
       \include "../../lyrics/de/192_nb_vtori_bozhestven_den_lyrics_de.ly"
 

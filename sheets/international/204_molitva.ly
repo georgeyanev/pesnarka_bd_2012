@@ -17,7 +17,7 @@
       \tempoFunc "Andante" 4 "66"
       \autoBeamOff
       \override Hairpin.to-barline = ##f
-      \override Hairpin.after-line-breaking = ##t 
+      \override Hairpin.after-line-breaking = ##t
 
       d'2  a2^\<
       a4 | % 81
@@ -49,13 +49,13 @@
       fis4 ~ | \break % 96
       fis2 r2 \! | % 97
       \time 4/4 gis4. (  ais8 )  b4  ais4 | % 98
-      gis4  fis4  e4. (  fis8 ) | % 99
-      dis2. r4  |
+      \time 3/4 gis4  fis4  e8. (  fis16 ) | % 99
+      \time 4/4 dis2. r4  |
       \time 3/4  |
-      cis4 ^\p  b4 ^\markup{ \bold {rall.} } ais4 | \break % 101
+      cis4 ^\p  \tempo "rall. " b4 ais4 | \break % 101
       b2 r4 | % 102
       \time 4/4  | % 102
-      dis4 ^\markup{ \bold {Largo} } ^\p  e4 \grace {
+      \tempo"Largo" dis4^\p  e4 \grace {
         dis16 ( [  e16 ]
       }
       fis4 )  dis4
@@ -67,9 +67,9 @@
       \times 2/3  {
         ais8 ( [  b8 )]  ais8
       }
-      gis8 fis8  gis8  ais8
+      gis8  fis8  gis8  ais8
       \times 2/3  {
-        ais8 ( [  gis8 )  ] fis8
+        ais8. ( [  gis16 )  ] fis8
       }
       | % 106
       ais8  ais8  b4 ^\<  ais4
@@ -77,17 +77,14 @@
       | % 107
       \key dis \minor | \break % 107
       ais4 (  fis'2. | % 108
-      eis4 )  dis4 ^\markup{ \bold {rall.} }
+      eis4 )  \tempo"rall." dis4
       cisis4  cisis4 ~
       ^\mf | % 109
-      cisis2. ^\fermata r8^\markup{\musicglyph "scripts.caesura.straight"} b8^\markup{
-        \bold {
-          Tempo I
-        }
-      }
+      cisis2. ^\fermata r8 \caesura \tempo"Tempo I" b8
       ^\> | \bar "||"
       \time 6/8  |
       ais4  gis8  fis4  dis8 \break | % 111
+
       eis4  \! fis8 \!  dis4  dis8 | % 112
       \time 3/4  | % 112
       b'4. (  ais8 )  b8 ( [  cis8
@@ -104,18 +101,16 @@
       fis,8 ^\pp | \break % 118
       ais4.  gis8  fis8 eis8
       dis8  cisis8  | % 119
-      eis2  dis4 r8  ais'8 ^\markup{
-        \bold {
-          Meno
-          mosso
-        }
-      } ^\pp | \break
+      eis2  dis4 r8  \tempo "Meno mosso" ais8^\pp
+
+
+      | \break
       b4  ais8.  ais16  gisis8 ( [
       ais8 ) ]  b8  b8 | % 121
       b4  ais4  ais4  gis?4 \break | % 122
       ais2 r4  gis4 ^\p | % 123
-      ais4.  ais8 ^\markup{ \bold {rall.} }  ais8
-      ais8  ais8 ( [ ^\>  dis8 ) ] | % 124
+      ais2.  \tempo "rall." ais4 |
+      ais4 ais4 ais4 ( dis4 ) | % 124
       dis2. \! ^\ppp r4 \bar "|."
 
 
@@ -123,7 +118,7 @@
     \addlyrics {
       Вяр --
       вам във Те -- бе, Гос -- по
-      -- ди, Кой -- то си ми го -- во
+      -- ди, Кой -- то Си ми го -- во
       -- рил в~ми -- на -- ло -- то. Вяр -- вам в~Те -- бе, Гос -- по
       -- ди, Кой -- то ми го -- во --
       риш се -- га. Вяр -- вам
@@ -133,39 +128,39 @@
       се  сла -- ви И -- ме --
       то Ти и във Тво -- я -- та
       сла -- ва да жи -- ве -- ем ни
-      -- е. Да се въ -- дво -- ри __
-      Цар -- ство -- то Ти, __
+      -- е. Да се въд -- во -- ри __
+      Цар -- ство -- то Ти __
       и ни -- е да у -- част -- ва -- ме
-      във Твой -- та __ Ра -- дост.
+      във Твой -- та __ ра -- дост.
       Да бъ -- де Во -- ля -- та Ти
       как -- то на Не -- бе -- то го --
       ре, та -- ка и до -- лу на Зе --
       мя -- та. И ни -- е да ра -- бо
       -- тим с~Те -- бе на -- ед -- но. А
       -- мин. Та -- ка да бъ -- де.}
- \addlyrics {
-      Vjar --
-      vam văv Te -- be, Gos -- po
-      -- di, Koj -- to si mi go -- vo
-      -- ril v~mi -- na -- lo -- to. Vjar -- vam v~Te -- be, Gos -- po
-      -- di, Koj -- to mi go -- vo --
-      riš se -- ga. Vjar -- vam
-      v~Te -- be, Gos -- po -- di,  __
-      Koj -- to šte mi -- go -- vo
-      -- riš v~bă -- de -- šte -- to. Da
-      se  sla -- vi I -- me --
-      to Ti i văv Tvo -- ja -- ta
-      sla -- va da ži -- ve -- em ni
-      -- e. Da se vă -- dvo -- ri __
-      Car -- stvo -- to Ti, __
-      i ni -- e da u -- čast -- va -- me
-      văv Tvoj -- ta __ Ra -- dost.
-      Da bă -- de Vo -- lja -- ta Ti
-      kak -- to na Ne -- be -- to go --
-      re, ta -- ka i do -- lu na Ze --
-      mja -- ta. I ni -- e da ra -- bo
-      -- tim s~Te -- be na -- ed -- no. A
-      -- min. Ta -- ka da bă -- de.}
+      \addlyrics {
+        Vjar --
+        vam văv Te -- be, Gos -- po
+        -- di, Koj -- to Si mi go -- vo
+        -- ril v~mi -- na -- lo -- to. Vjar -- vam v~Te -- be, Gos -- po
+        -- di, Koj -- to mi go -- vo --
+        riš se -- ga. Vjar -- vam
+        v~Te -- be, Gos -- po -- di, __
+        Koj -- to šte mi -- go -- vo
+        -- riš v~bă -- de -- šte -- to. Da
+        se  sla -- vi I -- me --
+        to Ti i văv Tvo -- ja -- ta
+        sla -- va da ži -- ve -- em ni
+        -- e. Da se văd -- vo -- ri __
+        Car -- stvo -- to Ti __
+        i ni -- e da u -- čast -- va -- me
+        văv Tvoj -- ta __ ra -- dost.
+        Da bă -- de Vo -- lja -- ta Ti
+        kak -- to na Ne -- be -- to go --
+        re, ta -- ka i do -- lu na Ze --
+        mja -- ta. I ni -- e da ra -- bo
+        -- tim s~Te -- be na -- ed -- no. A
+        -- min. Ta -- ka da bă -- de.}
 
         \header {
           title = \titleFunc "Молитва" "Molitva"
@@ -174,8 +169,7 @@
         \midi{}
 
       } % score
-
-   \pageBreak
+      \markup \vspace #3
 
       % include foreign translation(s) of the song
       \include "../../lyrics/de/204_molitva_lyrics_de.ly"

@@ -1,14 +1,13 @@
 \version "2.24.3"
 
-\markup \fill-line { \fontsize #5 "Die Stimme des lebendigen Herrn – Die Neue Auferstehung" }
+\markup \fill-line { \fontsize #deTitleFontSize "Die Stimme des lebendigen Herrn – Die Neue Auferstehung" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-\hspace #10
-\override #`(baseline-skip . ,deCoupletBaselineSkip)
+\markup \abs-fontsize #10 {
+\hspace #15
+ \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
 \column {
-\line { " " }
 
  \line { " "Steht auf, ihr Toten, steht auf aus dem Grab.}
 

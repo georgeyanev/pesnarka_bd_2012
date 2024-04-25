@@ -46,29 +46,27 @@
       \once \override Hairpin.to-barline = ##f
       fis'4 ^\> e'8 \break | % 21
       e'4 ( fis'8 ) | % 22
-      d'4. ~ ^\! | % 23
-      d'8 r8 g'16 ( [ a'16 ) ] | % 24
-      b'4 \once \omit TupletBracket
+      d'4. ^\! | % 23
+      g'16 ( [ a'16 ) ]
+      b'4 | % 24
+      \once \omit TupletBracket
       \times 2/3  {
         a'16 ( [ b'16 a'16 ) ]
       }
-      | % 25
-      d''4 \once \omit TupletBracket
+      d''4 | \once \omit TupletBracket
       \times 2/3  {
         c''16 ( [  d''16  c''16 ) ]
       }
-      | % 26
-      b'4 \once \omit TupletBracket
+      b'4  | \once \omit TupletBracket
       \times 2/3  {
         a'16 ( [ g'16 fis'16 ) ]
-      }
-      \break | % 27
-      g'8 ( ~ [ g'16 a'16 b'16 c''16
-      ] | % 28
-      d''16 -. [  e''16 -.  fis''16 -.
-      g''16 -. ) ] d''8 ~  | % 29
-      d''4  b'16 ( [  c''16 ) ] |
-      b'4 a'8 | % 31
+      } g'4 ( ~
+      | \break
+      g'4 \times 2/3  { a'16 [b'16 c''16] }| % 28
+      \time 2/4 d''8 -.   e''8 -.  fis''8 -.
+      g''8 -.) | \time 3/8 d''4
+      b'16 ( [  c''16 ) ] |
+      b'4  a'8 | % 31
       g'8.  fis'16 ( a'32 [ g'32
       fis'32 e'32 ) ] | % 32
       d'4 c'8 \break | % 33
@@ -76,33 +74,33 @@
       b4. \bar "||"
       \time 3/4  | % 35
       \tempoFunc "Moderato" 4 "80"
-      b4 ^\mf 
+      b4 ^\mf
       d'4 g'4 | % 36
       b'2 (  c''16 [  b'16  a'16
       b'16 ] | % 37
       d''4 )  c''4 a'4 | % 38
-      a'2  b'4 \break | % 39
+      a'2  b'4 | % 39
 
       g'2 r4 |
-      f'2. ^\mp | % 41
+      f'2. ^\mp |\break  % 41
       es'2. | % 42
       es'2 f'4 | % 43
       d'2. | % 44
-      d'4 ^\p c'4 b4 \break | % 45
+      d'4 ^\p c'4 b4  | % 45
       c'4 ( e'4 ) e'4 | % 46
       d'2 d'4 ^\p ^\< | % 47
-      e'2 fis'4 ^\! | % 48
+      e'2 fis'4 ^\! | \break % 48
       \override Hairpin.to-barline = ##f
       g'2 ^\> d'4 ^\mp ^\!
-      
+
       ^\<  | % 49
-      b'2 ^\! a'4 ^\> \break |
+      b'2 ^\! a'4 ^\>  |
       g'2 d'4 ^\! ^\pp  ^\< | % 51
       fis'2  ^\! e'4 ^\> | % 52
       d'2 ^\! r4 | % 53
       d'4 ( e'4 ) ^\fermata d'4
       ^\markup{
-        \italic
+        \huge \italic
         {rall.}
       }
       ^\ppp | % 54
@@ -118,23 +116,23 @@
       те дръв -- че -- та, о -- би -- чам __ Тво -- и --
       те цве -- тен -- ца, __ о -- би
       -- чам Тво -- и -- те ре -- кич -- ки, о -- би --
-      чам Тво -- и -- те  пла -- ни -- ни всич -- ко,
+      чам Тво -- и -- те  пла -- ни -- "ни      –" всич -- ко,
       Гос -- по -- ди, ко -- е -- то Си __ съз -- дал. О
       -- би -- чам Те, о -- би -- чам Те, о -- би --
       чам Те, Гос -- по -- ди! __}
-   
-    \addlyrics {
-      Gos -- po --
-      di, kol -- ko Te lju -- bja! Bo -- že, Gos -- po
-      -- di moj, kol -- ko Te lju -- bja! O -- bi -- čam
-      Te, Gos -- po -- di! O -- bi -- čam Tvo -- i --
-      te drăv -- če -- ta, o -- bi -- čam __ Tvo -- i --
-      te cve -- ten -- ca, __ o -- bi
-      -- čam Tvo -- i -- te re -- kič -- ki, o -- bi --
-      čam Tvo -- i -- te  pla -- ni -- ni vsič -- ko,
-      Gos -- po -- di, ko -- e -- to Si __ săz -- dal. O
-      -- bi -- čam Te, o -- bi -- čam Te, o -- bi --
-      čam Te, Gos -- po -- di! __}
+
+      \addlyrics {
+        Gos -- po --
+        di, kol -- ko Te lju -- bja! Bo -- že, Gos -- po
+        -- di moj, kol -- ko Te lju -- bja! O -- bi -- čam
+        Te, Gos -- po -- di! O -- bi -- čam Tvo -- i --
+        te drăv -- če -- ta, o -- bi -- čam __ Tvo -- i --
+        te cve -- ten -- ca, __ o -- bi
+        -- čam Tvo -- i -- te re -- kič -- ki, o -- bi --
+        čam Tvo -- i -- te  pla -- ni -- "ni      –" vsič -- ko,
+        Gos -- po -- di, ko -- e -- to Si __ săz -- dal. O
+        -- bi -- čam Te, o -- bi -- čam Te, o -- bi --
+        čam Te, Gos -- po -- di! __}
 
         \header {
           title = \titleFunc "Господи, колко те обичам" "Gospodi, kolko te običam"
@@ -144,7 +142,7 @@
 
       } % score
 
-      \markup \empty-one
+
 
       % include foreign translation(s) of the song
       \include "../../lyrics/de/210_Gospodi_kolko_te_obicham_lyrics_de.ly"

@@ -147,7 +147,7 @@
 
         } %column
       } % markup
-    \pageBreak
+      \pageBreak
 
       % include foreign translation(s) of the song
       \include "../../lyrics/de/179_molitva_lyrics_de.ly"

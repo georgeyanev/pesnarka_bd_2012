@@ -33,7 +33,7 @@
 
   }
 
-  \markup \fontsize  #+3.0 { \fill-line \bold {"GEDANKEN ÜBER DIE MUSIK"} }
+  \markup \abs-fontsize #12 { \fill-line \bold {"GEDANKEN ÜBER DIE MUSIK"} }
 
   \markup  \abs-fontsize #10  {
     \vspace #1.5 \override #'(baseline-skip . 3.2)

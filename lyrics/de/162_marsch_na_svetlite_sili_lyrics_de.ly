@@ -5,7 +5,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-   \hspace #5
+  \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -17,15 +17,15 @@
 
     \line { " "Sie kommen auf die Erde in die Herzen der Menschen. }
 
-    \line { " " }
+    \vspace #0.5
 
     \line { " "Und es werden geboren lichte, neue Ideen, }
 
-    \line { " "    wie wir die schweren Ketten }
+    \line { " "  wie wir die schweren Ketten }
     \line { " "  sinnloser, jahrhundertealter Feindschaften ablegen}
     \line { " "und in Frieden leben.  }
 
-    \line { " " }
+    \vspace #0.5
     \line {
       " "Und jeder wird mit Freude auf dem göttlichen Acker arbeiten,
     }
@@ -34,7 +34,7 @@
     \line { " "In Frieden und Liebe werden wir alle gemeinsam leben }
 
     \line { " "    und Gott mit Liedern lobpreisen.  }
-    \line { " " }
+    \vspace #0.5
 
     \line { " "Neue Lieder werden wir singen von der kosmischen Harmonie, }
 

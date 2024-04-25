@@ -21,7 +21,7 @@
 
       c8 \p e e g, | c8 e e g, | b d d g, | b d d g, | \break
 
-     c8 e e g, |c8 e e g, | b d d g, |  b d d g, | \break
+      c8 e e g, |c8 e e g, | b d d g, |  b d d g, | \break
 
       g8.^\p g16 a8. g16 | b8 b4 b8 | g8.^\< g16 a8. g16 |  c8 c4  \! c8 | \bar "||" \break
 
@@ -37,7 +37,7 @@
 
         d8^\mf  d4  d4 d8 c d es g |
 
-        d^\mp  d4 d4 d8 c8 d8 es g | \break
+        d^\mp  d4 d4 d8 c8 d8 es g |
 
         \time 3/4 d8 d4 d4 d8 | \time 2/4 g8 a bes a |c bes bes a | \break
 
@@ -54,7 +54,7 @@
     }
 
     \addlyrics {
-      Ду -- хо -- ве на Свет -- ли -- на -- та, стъп -- ват ле -- ко в~ти -- ши -- на -- та.
+      Ду -- хо -- ве на Свет -- ли -- на -- та стъп -- ват ле -- ко в~ти -- ши -- на -- та.
 
       Сли --  зат те в~ре -- ди -- ци бе -- ли от ви -- со -- ки -- те пре -- де -- ли.
 
@@ -76,15 +76,11 @@
 
       всич -- ки друж -- но и ще "про-" -- сла -- вим Бо -- га с~пе -- сен. Свет -- ли -- на -- та!
 
-
-
-
-
-
     }
 
+
     \addlyrics {
-      Du -- ho -- ve na Svet -- li -- na -- ta, stăp -- vat le -- ko v~ti -- ši -- na -- ta.
+      Du -- ho -- ve na Svet -- li -- na -- ta stăp -- vat le -- ko v~ti -- ši -- na -- ta.
 
       Sli --  zat te v~re -- di -- ci be -- li ot vi -- so -- ki -- te pre -- de -- li.
 
@@ -94,21 +90,19 @@
 
       kak da "smăk-" -- nem tež -- ki -- te o -- ko -- vi na
 
-      vraž -- di bez -- smis -- le -- ni, ve -- kov -- ni, v~mir da za -- ži -- ve -- em
+      "vraž-" -- di bez -- smis -- le -- ni, ve -- kov -- ni, v~mir da za -- ži -- ve -- em
 
 
 
-      i vse -- ki šte ra -- bo -- ti s~ra -- dost na Bo -- žest -- ve -- na -- ta ni -- va,
+      i vse -- ki šte ra -- bo -- ti "s~ra-" -- dost na Bo -- žest -- ve -- na -- ta ni -- va,
 
-      šte ca -- ru -- va več -- na mla -- dost, nja -- ma ni -- koj da u -- mi -- ra,
+      šte ca -- ru -- va več -- na "mla-" -- dost, nja -- ma ni -- koj da u -- mi -- ra,
 
       v~mir, v~Lju -- bov šte za -- ži -- ve -- em
 
-      vsič -- ki druž -- no i šte pro -- sla -- vim Bo -- ga s~pe -- sen. Svet -- li -- na -- ta!
+      vsič -- ki druž -- no i šte "pro-" -- sla -- vim Bo -- ga s~pe -- sen. Svet -- li -- na -- ta!
 
     }
-
-
     \addlyrics {
       " " " " " " " " " " " " " " " "
 
@@ -122,7 +116,7 @@
 
       " " " " " " " " " " " " " " " " " "    " " " " " " " " " " " " " " " " " " " " " " " " " " " "
 
-      "2.  Но-"   -- ви пе -- сни ще за -- пе -- ем, за хар -- мо -- ни -- я все -- "мир-" -- на.
+      "2. Но -"   -- ви пес -- ни ще за -- пе -- ем за хар -- мо -- ни -- я все -- "мир-" -- на.
 
       Нов жи -- вот ще за -- жи -- ве -- ем, тя -- ло -- то ни ще про -- свет -- не
 
@@ -147,7 +141,7 @@
 
       " " " " " " " " " " " " " " " " " "    " " " " " " " " " " " " " " " " " " " " " " " " " " " "
 
-      "2.  No-"   -- vi pe -- sni šte za -- pe -- em, za har -- mo -- ni -- ja "vse-" -- "mir-" -- na.
+      "2. No -"   -- vi pes -- ni šte za -- pe -- em za har -- mo -- ni -- ja vse -- "mir-" -- na.
 
       Nov ži -- vot šte za -- ži -- ve -- em, tja -- lo -- to ni šte pro -- svet -- ne
 
@@ -159,7 +153,6 @@
       " " " " " " " " " " " " " " " " " "
     }
 
-
     \header {
       title = \titleFunc "Марш на светлите сили II" "Marš na svetlite sili II"
     }
@@ -167,8 +160,8 @@
     \midi{}
 
   } % score
-  
-    \markup \empty-one
+
+  \markup \empty-one
 
   \markup \dc-one "D.C. con ripetizione"
 

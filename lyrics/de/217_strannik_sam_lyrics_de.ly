@@ -1,7 +1,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Ich bin ein Fremder in dieser Welt" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
+\markup \abs-fontsize #10 {
   \hspace #14
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
@@ -11,9 +11,7 @@
 
 \line { " "Ich kenne niemanden außer Dir. }
 
-\line { " "Du, oh Herr, mein Gott,}
-
-\line { " "hast alles für mich erschaffen. }
+\line { " "Du, oh Herr, mein Gott, hast alles für mich erschaffen. }
 
 \line { " "Ich richte meinen Dank an Dich. }
 

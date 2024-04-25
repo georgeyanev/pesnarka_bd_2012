@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Thema 6 und Thema 7 " }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
+\markup \abs-fontsize #10 {
   \hspace #17
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 

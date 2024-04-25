@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+  
+   \tocAct \markup"ADDENDUM"
     \paper {
     print-all-headers = ##f
     print-page-number = ##f
@@ -23,18 +25,19 @@
       ""
     }
 
-    \tocAct  \markup "ANHANG"
-
     left-margin = 1.5\cm
     right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
+    top-margin = 1.2\cm
+    bottom-margin = 1.0\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-  
   }
- 
- \markup\fontsize  #+8.5  {\bold {  \hspace #25  \vspace #13.5 ANHANG} }
+
+  \markup { {  \vspace #16.2 } }
+
+ \markup \abs-fontsize #15 { \fill-line \bold {"ADDENDUM"} }
+
+  % include foreign translation(s) of the song
+  %
 
 } % bookpart
 

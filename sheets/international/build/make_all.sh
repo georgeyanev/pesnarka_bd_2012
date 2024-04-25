@@ -149,7 +149,7 @@ cat \
     ../182_deset_temi_new.ly \
     ../178_molitva.ly \
     ../185_melodiya_i_krasiv_zhivot_186_melodia_2.ly \
-    ../188_melodiya_3.ly \
+    ../188_melodiya_3_4.ly \
     ../190_glasat_na_zhiviya_Gospod.ly \
     ../191_nb_parvi_bozhestven_den.ly \
     ../192_nb_vtori_bozhestven_den.ly \
@@ -162,22 +162,24 @@ cat \
     ../204_molitva.ly \
     ../206_bozhiyata_lyubov_me_osari.ly \
     ../207_pesenta_na_angelite.ly \
+    ../214_ti_ste_spoluchish_v_zhivota.ly \
     ../210_Gospodi_kolko_te_obicham.ly \
     ../211_kazhi_mi_svetlii_bozhi_lach.ly \
     ../212_moeto_slanze_dnes_ste_izgree.ly \
     ../215_zora_na_noviya_zhivot.ly \
-    ../214_ti_ste_spoluchish_v_zhivota.ly \
     ../216_otche_nash_ne_ni_vavezhdai.ly \
     ../217_strannik_sam.ly \
-    ../219_blank_page.ly \
-    ../179_molitva_ti_si.ly \
-    ../189_osarenie.ly \
-    ../186_melodiya_2_v_radostta.ly \
-    ../162_mash_vtori_variant_tekst.ly \
-    ../218_appendix.ly \
-    ../220_description_de.ly \
-    ../221_dictionary_de.ly \
-    ../245_index_de.ly \
+    ../218_blank_page.ly \
+    ../218_addendum.ly \
+    ../219_dobrata_molitva.ly \
+    ../220_molitva_ti_si_ioana.ly \
+    ../222_mash_vtori_variant_tekst.ly \
+    ../221_melodiya_2_v_radostta.ly \
+    ../223_osarenie.ly \
+    ../224_appendix.ly \
+    ../225_new_description_de.ly \
+    ../226_dictionary_de.ly \
+    ../227_index_de.ly \
     ../250_translit.ly \
     > tmp.ly
 
