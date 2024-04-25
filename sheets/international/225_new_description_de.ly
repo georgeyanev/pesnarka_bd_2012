@@ -8,17 +8,17 @@
 
   \label #'ref220
   \tocItem \markup "Anmerkungen"
-  \markup \abs-fontsize #11 { \fill-line \bold {"ANMERKUNGEN"} }
+  \markup \abs-fontsize #12 { \fill-line \bold {"ANMERKUNGEN"} }
 
   \label #'ref_desc_1
   \markup \abs-fontsize #10
   {
     \override #'(baseline-skip . 3.2)
     \column {
-      \vspace #0.6
+      \vspace #1.5
       \line {
         \justify {
-          \abs-fontsize #10 \bold { \fill-line { \bold"Brüderliche Lieder"} }
+          \abs-fontsize #11 \bold { \fill-line { \bold"Brüderliche Lieder"} }
         }
       }
       \vspace #0.5
@@ -239,7 +239,7 @@
 
       \line {
         \justify {
-          \concat {\with-link #'ref057 \bold "Псалом 91 – Psalom 91.."}  Musik von Christo Darzev, Text Psalm 91.
+          \concat {\with-link #'ref057 \bold "Псалом 91 – Psalom 91."}  Musik von Christo Darzev, Text Psalm 91.
         }
       }
       \vspace #0.5
@@ -307,13 +307,13 @@
           \concat {\with-link #'ref066_1 \bold "Тайната вечеря – Tajnata večerja."} Musik und Text von Vesela Nestorova, gesegnet von Petar Danov. Преводът на първия стих е: Die erste Strophe bedeutet folgendes: „Alles ist licht, alles ist in meinem Licht [das Licht Christi] erleuchtet“. Vesela Nestorova empfängt das Lied als Offenbarung. Nachdem sie den Vers aus dem Evangelium las, in dem es heißt: „Und als sie ein Lied gesungen hatten, gingen sie hinaus auf den Ölberg“ (Mt 26,30 und Mk 14,26), betet sie, um dieses Lied zu hören. Eines Nachts, im Halbschlaf, erscheint ihr Christus und singt das Lied, das er mit seinen Jüngern beim letzten Abendmahl gesungen hat. Petar Danov bestätigt die Echtheit des Liedes.
         }
       }
-         \vspace #0.5
- \line {
+      \vspace #0.5
+      \line {
         \justify {
           \concat {\with-link #'ref066_2 \bold "Тебе поем – Tebe poem."}  Bulgarischer Kirchengesang, populär in der Weißen Bruderschaft.
         }
       }
-   
+
     }
   }
   \label #'ref_desc_4
@@ -321,7 +321,7 @@
     \override #'(baseline-skip . 3.2)
     \column {
 
-     
+
 
       \line {
         \justify {
@@ -340,7 +340,7 @@
         \justify {
 
           \concat {\with-link #'ref021 \bold "Ще се развеселя – Šte se razveselja."}
-            Musik des Meisters, Text aus dem "Buch" des "Propheten" Jesaja, 61:10. Der Anlass war der Abschied von Velichka Stoycheva, einer seiner ersten Schülerinnen. Er sang oder spielte dieses Lied oft für seine Schüler. Die Aufführung erfolgt frei und durch Inspiration, wobei die Inspiration den Rhythmus bestimmt. Nachdem die Schüler das Lied notiert haben, spielt der Meister es entsprechend der Notation und sagt: „Wir haben dem Lied ein neues Gewand geschneidert, aber er ist ein wenig eng und es schänkt es ein.“
+          Musik des Meisters, Text aus dem "Buch" des "Propheten" Jesaja, 61:10. Der Anlass war der Abschied von Velichka Stoycheva, einer seiner ersten Schülerinnen. Er sang oder spielte dieses Lied oft für seine Schüler. Die Aufführung erfolgt frei und durch Inspiration, wobei die Inspiration den Rhythmus bestimmt. Nachdem die Schüler das Lied notiert haben, spielt der Meister es entsprechend der Notation und sagt: „Wir haben dem Lied ein neues Gewand geschneidert, aber er ist ein wenig eng und es schänkt es ein.“
         }
       }
 
@@ -354,7 +354,7 @@
       \vspace #0.8
       \line {
         \justify {
-          \fontsize  #+1 \bold { \fill-line { \bold"Lieder von Petar Danov"} }
+          \abs-fontsize #11 \bold { \fill-line { \bold"Lieder von Petar Danov"} }
         }
       }
       \vspace #0.6
@@ -367,15 +367,15 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref109 \bold  "Аз смея да кажа – Az smeja da kaža."} 
+          \concat {\with-link #'ref109 \bold  "Аз смея да кажа – Az smeja da kaža."}
           Gegeben am 2. Oktober 1935, Sofia, Allgemeine Okkultklasse, XV Jahr, 2. Vortrag „Die neue Lehre“.  „Ich wage zu sagen, dass die Sonne licht ist“ – sie ist licht, wo Vernünftigkeit vorhanden ist. Mit dem Wort \italic "Licht" ist eine vernünftige Welt gemeint, in der alles möglich ist. Alle vernunftbegabten Wesen sind bereit, dir zu helfen, sobald du dich ihnen vorstellst.“
-         
+
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref135 \bold  "Аин фаси – Ain fasi."} 
+          \concat {\with-link #'ref135 \bold  "Аин фаси – Ain fasi."}
           Ausgestellt am 7. Oktober 1931, Sofia, Allgemeine Оkkultklasse, XI. Jahrgang, 2. Vortrag „Lasst den Beutel“. Dieser Text wurde in einer uralten, heiligen Sprache überliefert. Die Grundidee dieses Liedes lautet: Du, der Du der Grund von allem bist, Du, der Du mit Deiner Liebe alles durchdringst und stützt, sei gesegnet! Möge ich in Deinem Licht und Deiner Liebe leben! Wie sehr möchte ich auf Deinen Spuren wandeln! Mein ganzes Leben diene deinem Ruhm! „Wer die Elemente der Worte des \italic"Ain fasi" versteht, kann zum Sinn des Lebens gelangen und davon profitieren.“
         }
       }
@@ -407,29 +407,34 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref074 \bold  "Блага дума."} Gegeben am 5. November 1922, Sofia, Allgemeine Okkultklasse, II. Jahrgang, 6. Vortrag „Keine Lüge“. \italic"Ред. бел.:" In diesem Sammelband wird das Lied in seiner gängigsten rhythmischen Fassung präsentiert. In der ersten Veröffentlichung des Liedes ist der punktierte Rhythmus im ganzen Lied enthalten, aber im Laufe der Zeit ändert sich der Rhythmus. Die beiden Rhythmusvarianten wurden mit \italic"ossia" markiert. Im Sammelband von Maria Todorova beginnt das Lied mit zwei gleichte Achteln. 
+          \concat {\with-link #'ref074 \bold  "Блага дума – Blaga duma."} Gegeben am 5. November 1922, Sofia, Allgemeine Okkultklasse, II. Jahrgang, 6. Vortrag „Keine Lüge“. \italic"Anm. d. Hrsg.:" In diesem Sammelband wird das Lied in seiner gängigsten rhythmischen Fassung präsentiert. In der ersten Veröffentlichung des Liedes ist der punktierte Rhythmus im ganzen Lied enthalten, aber im Laufe der Zeit ändert sich der Rhythmus. Die beiden Rhythmusvarianten wurden mit \italic"ossia" markiert. Im Sammelband von Maria Todorova beginnt das Lied mit zwei gleichte Achteln.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref086_2 \bold "Благата песен."} Дадена на 27 март 1929 г., София, Общ окултен клас, VIII година, 32. лекция „Втръсване“. Тази песен е превод от старинен език и е озаглавена \italic"Хади – х’ензи;" в превод на български тези думи означават  \italic"Благата песен." В нея е очертан един гладък път без препятствия. \italic"Ред. бел.:" По традиция тя се изпълнява комбинирана с песента „Кажи ми Ти Истината“ като среден дял, след който се повтаря песента „Кажи ми Ти Истината“ с малка промяна в текста: вместо „Кажи ми Ти Истината“ се пее „Казах ти веч Истината“.
-        }
-      }
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {\with-link #'ref072 \bold  "Благост."}  Първите пет такта са дадени на 19 декември 1923 г., София, Общ окултен клас, III година, 10. лекция „Окултната музика в живота“, а цялата песен – на 26 декември 1923 г., София, 11. лекция „Школата и развитието на ученика“. Учителя казва: „Силата на тази песен е в нейния ритъм. Тя има за цел да възстанови правилния ритъм на човешкото сърце“. \italic"Ред. бел.:" Според Мария Тодорова по традиция в песента \italic"Благост" накрая се провежда първият мотив за завършек на песента.
-        }
-      }
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {\with-link #'ref082 \bold  "Бог е Любов."} Първата част на песента е дадена на 10 декември 1922 г., София, Общ окултен клас, ІІ година, 11. лекция „Значение на гласните при окултното пеене“, а втората, \italic"Ний ще ходим" – на 17 декември 1922 г., в следващата лекция на същия клас със заглавие „Музиката – средство за концентриране“. Това упражнение е картинно, образно. Започва се съвсем тихо. Силата на песента е в преживяването. Човешката душа възприема отгоре вечната симфония, която иде от цялата Вселена като славословие на Безграничния. Това е изразено в първата част – Бог е Любов. Тази симфо-
-        }
-      }
+          \concat {\with-link #'ref086_2 \bold "Благата песен  – Blagata pesen."} 7. März 1929, Sofia, Allgemeine Okkultklasse, VIII Jahrgang, 32. Vortrag. „Überdruss“. Dieses Lied wurde aus einer sehr alten Sprache übersetzt. Das Lied wurde \italic"Hadi henzi" betitelt; Übersetzt bedeuten diese Worte: das gütige Lied. In ihm wurde ein ebener Weg ohne Hinderdnisse gezeichnet. \italic"Anm. d. Hrsg.:" Traditionell wird es zusammen mit dem Lied "Sage mir die Wahrheit" als Mittelteil gesungen, woraufhin das Lied "Sage mir die Wahrheit" mit einer leichten Änderung des Textes wiederholt wird: Statt „Кажи ми Ти Истината/Sag mir die Wahrheit“ wird „Казах ти веч Истината/Ich sagte dir die Wahrheit“ gesungen.
 
-
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          \concat {\with-link #'ref072 \bold "Благост– Blagost."} Die ersten fünf Takte des Liedes entstanden am 19. Dezember 1923, in der Allgemeinen Okkultklasse, III. Jahrgang, im 10. Vortrag „Die Okkulte Musik im Leben“. Das Lied wurde am 26. Dezember 1923, Sofia, 11. Vortrag „Die Schule und die Entwickling des Schülers“ vollendet. Petar Danov sagt: „Die Kraft dieses Liedes liegt in seinem Rhythmus. Es hat zum Ziel, den richtigen Rhythmus des menschlichen Herzens wiederherzusten. Laut Maria Todorova wird am Ende des Liedes das erste Motiv wiederholt.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          \concat {\with-link #'ref082 \bold  "Бог е Любов  – Bog e Ljubov."} Der erste Teil dieses Liedes entstand am 10. Dezember 1922, Allgemeine Okkultklasse, II. Jahrgang, 11. Vortrag „Die Bedeutung der Vokale beim okkulten Singen“, und der zweite \italic"Nij ste hodim" am 17. Dezember 1922, d. h. im Laufe des nachfolgenden Vortrages der gleichen Klasse mit dem Titel заглавие „Die Musik – ein Mittel des Sich-Konzentrierens“. Diese Übung enthält Bilder und Gestalten. Man beginnt leise zu singen. Die Kraft dieses Liedes liegt im Erleben verborgen. Die menschliche Seele empfängt aus den höheren Regionen die ewige Symphonie, welche aus dem ganzen Kosmos als Lobpreisung des Unendlichen [Gott] kommt. Dieser Gedanke wird im ersten Teil des Liedes \italic"Gott ist Liebe" ausgedrückt. Diese Symphonie erfüllt und verklärt die menschliche Seele, die nun freudig ihren Ruf nach oben sendet. Dies wird im zweiten Teil des Liedes ausgedrückt: „Wir werden auf dem Weg des Lichtes wandeln.“
+        }
+      }
+\vspace #0.5
+     \line {
+        \justify {
+          \concat {\with-link #'ref120 \bold  "Буря – Burja."} 15. Dezember 1935. Dieses Lied erinnert daran, dass es im Menschen eine Kraft gibt, die ihn stützt. Wenn der Mensch aufmerksam auf die vernünftige Stimme dieser Kraft horcht, wird er den Sinn allen Leides, aller Qualen und Stürme, die uns durchschütteln, verstehen; er wird ihren Stößen widerstehen.
+        }
+      }
 
     }
   }
@@ -438,51 +443,55 @@
     \override #'(baseline-skip . 3.2)
     \column {
 
+   
+ 
+      
       \line {
         \justify {
-          ния изпълва човешката душа, преобразява я и тогава тя радостна отправя своя зов нагоре; това е изразено във втората част – \italic"Ний ще ходим [...]."
+          \concat {\with-link #'ref081 \bold  "В зорите на живота – V zorite na Života."} Petar Danov gibt das Lied als okkulte Musikübung während des Zusammenkunftsvortrags vom 26. August 1922 „Lege dieses Gleichnis aus“ in Veliko Tarnovo. Danach wirde das Lied am 3. Dezember 1922 in Sofia, Allgemeine Okkultklasse ІI Jahrgang, 10. Vortrag „Die okkulte Musik“. \italic"Anm. d. Hrsg.:" Wegen seiner unsymetischen Struktur und im Hinblick darauf, die Melodie nicht durch das Einführen von ihr fremden Zeitmaße zu begrenzen, wurde das Lied senza misura notiert, indem die einzelnen Phrasen durch punktierte Taktstriche markiert wurden.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          \concat {\with-link #'ref080_1 \bold "В мрак, тъмнота – V mrak tămnota."} Gegeben am 3. März 1926, Sofia, Allgemeine Okkultklasse, V. Jahrgang, 16. Vortrag „Ausdrücke der Natur“. Dieses Lied ist der zweite Teil von „Mahar Benu Aba“ und seine  Übersetzung zugleich. Bildlich gesprochen, entspricht \italic"v’mrak = Mahar," dem Abstieg. „No slănceto na života“ entpricht „Benou“, dem Aufstieg. „I nij trăgvame v pătja čist i svjat za nas“ entspricht „Aba“, was bedeutet: an die Arbeit gehen.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          \concat {\with-link #'ref094 \bold "В начало бе Словото – V načalo be Slovoto."}
+          5. November 1924, Sofia, Allgemeine Okkultklasse. IV Jahrgang,  4. Vortrag „Verbindungen in den geometischen Formen.“. Der Text des Liedes stammt aus dem Johannesevangelium 1:1-5. Die ersten beiden Verse stehen für die Aktivität des Geistes, der dritte für die Aktion der Intelligenz, der vierte für die Aktion des Herzens und der fünfte für die materielle Welt. Die Finsternis stellt die materielle Welt dar, die das Licht durchdringt. Aus diesem göttlichen Ursprung aller Dinge ist das Wort in grandioser Schönheit erschienen. \italic"V'načalo be Slovoto, i Slovoto be u Boga" – dieser Vers ist enorm wichtig. Der Mensch sollte ihn morgens, direkt nach dem Aufstehen, lesen, singen und darüber meditieren, bis das Licht seinen Intellekt erleuchtet und er diese großartige Idee akzeptiert. Dann wird sich sein Herz verwandeln und milder werden, seine Intelligenz wird sich verändern, und er wird beginnen, gerader zu denken. Dieses Lied repräsentiert die neue Richtung, die in die Musik kommt; das ist die Musik der Liebe! \italic"Anm. d. Hrsg.:" Wegen seiner unsymetischen Struktur und im Hinblick darauf, die Melodie nicht durch das Einführen von ihr fremden Zeitmaße zu begrenzen, wurde das Lied senza misura notiert, indem die einzelnen Phrasen durch punktierte Taktstriche markiert wurden. Die Phrasen „V nego be zivotat [...]“ wurden im 2/4 Takt notiert. Mit \italic"ossia" wurde die Tondauer nach der Notation von Maria Todorova notiert.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          \concat {\with-link #'ref095 \bold "В пустинята на живота – V pustinjata na života."} Das Lied wurde am 19. Oktober 1934, Sofia, Jugendokkultklasse, XIV Jahrgang, 2. Vortrag „Die Walnuss und das Walnüsschen. Wasser und Dampf. Abstieg, Ausrutschen und Hinfallen“.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          \concat {\with-link #'ref095 \bold "Вдъхновение  – Vdăhnovenie."} 10. Dezember 1924, Sofia, Allgemeine Okkultklasse IV Jahr, 9. Vortrag. „Das Unverstandene“. Die Phrase „ti si blagoslovenie“ wurde später von Schülern hinzugefügt.
+        }
+      }
+ \vspace #0.5
 
-        }
-      }
-      \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref120 \bold  "Буря."} Дадена на 15 декември 1935 г. Тази песен напомня, че у човека има една Божествена сила, която го крепи. Ако се вслушва в разумния глас на тази сила, ще разбира значението на всички скърби, мъки, бури, които го разтърсват, и ще може да издържи на техните удари.
-        }
-      }
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {\with-link #'ref081 \bold  "В зорите на живота."} Учителя изпява песента като окултно музикално упражнение по време на съборната лекция от 26 август 1922 г. „Изтълкувай ни тази притча“ във Велико Търново. След това песента е изпята на 3 декември 1922 г., София, Общ окултен клас, ІI година, 10. лекция „Окултна музика“. \italic"Ред. бел.:" Поради несиметричната си структура и с оглед избягване на ограничаването на мелодията чрез въвеждане на чужди на нея размери, песента е нотирана безмензурно, като с пунктирани черти са маркирани отделните фрази.
-        }
-      }
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {\with-link #'ref080_1 \bold "В мрак, тъмнота."} Дадена на 3 март 1926 г., София, Общ окултен клас, V година, 16. лекция „Природни изрази“. Тази песен е втората част от упражнението \italic"Махар Бену Аба" и е негов превод. Образно „в мрак, тъмнота“ съответства на \italic"Махар" – слизане, „но Слънцето на живота“ съответства на \italic"Бену" – изкачване, „и ний тръгнахме в пътя чист и свят за нас“ съответства на \italic"Аба," значи отиване на работа.
+          \concat {\with-link #'ref076 \bold  "Венир Бенир – Venir Benir."} Gegeben am 22 Oktover 1922, Sofia, II Jahrgang, 6. Vortrag „Die okkulte Musik“ und am 5. November 1922. Allgemeine Okkultklasse, II. Jahrgang,
+          14. Vortrag „Keine Lüge“.  \italic"Venir Benir" ist ein okkultes, östliches Motiv, das von den westlichen Völkern aufgenommen wurde. Die mystische Bedeutung des Liedes ist die folgende:
+            \italic"Venir Benir"  – Du, der Große, der Du alle und alles segnest.
 
-        }
-      }
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {\with-link #'ref094 \bold "В начало бе Словото."} Дадена на 5 ноември 1924 г., София, Общ окултен клас, IV година, 4. лекция „Връзки в геометрическите форми“. Текстът на тази песен е взет от Евангелие от Йоан 1:1-5. Първите два стиха изразяват действие на Духа, третият стих – действие на ума, четвъртият стих – действие на сърцето, а петият стих изразява материалния свят. Тъмнината представлява материалния живот, в него прониква светлината. Из Божественото начало на нещата е излязло Словото във величествената си красота. „В начало бе Словото и Словото бе у Бога“ – този стих е много важен. Когато стане човек сутрин, ще го прочете, ще го изпее и ще мисли върху него, докато в ума му дойде светлина и той възприеме тази велика идея. Тогава неговото сърце ще се преобрази – ще стане по-меко, умът му ще се преобрази – ще започне да мисли по-право. Тази песен изразява новата насока, която иде в музиката – тя е музика на Любовта. \italic"Ред. бел.:" Поради несиметричността на фразите с оглед избягване на ограничаването на мелодията чрез въвеждане на чужди на нея размери, песента е нотирана безмензурно, като с пунктирани тактови черти са маркирани отделните фрази. Фразите „В него бе животът [...]“ са нотирани в 2/4 размер. С \italic"ossia" е отбелязана трайността на тона според нотацията на Мария Тодорова.
-        }
-      }
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {\with-link #'ref095 \bold "В пустинята на живота."} Дадена на 19 октомври 1934 г., София, Младежки окултен клас, XIV година, 2. лекция „Орехът и орехчето. Вода и пара. Слизане, хлъзгане и падане“.
-        }
-      }
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {\with-link #'ref095 \bold "Вдъхновение."}  Дадена на 10 декември 1924 г., София, Общ окултен клас, IV
-        }
-      }
+          \italic"Bihar Benum"  – Es sei gesegnet.
 
+          \italic"Il Bijut"  – Gott, segne das Große, die Jugend, den 
 
+         
+
+            }
+      }
 
     }
   }
@@ -491,32 +500,23 @@
     \override #'(baseline-skip . 3.2)
     \column {
 
-      \line {
+     \line {
         \justify {
-          година, 9. лекция „Неразбраното“. Фразата „ти си благословение“ е добавена по-късно от ученици.
 
-        }
-      }
-      \vspace #0.6
-      \line {
-        \justify {
-          \concat {\with-link #'ref076 \bold  "Венир Бенир."}  Дадена 22. октомври 1922 г., София, Общ окултен клас, II година, 6. лекция „Окултна музика“ и на 5 ноември 1922 г., София, Общ окултен клас, II година, 6. лекция „Никаква лъжа“. \italic"Венир Бенир" е окултен източен мотив, възприет от западните народи. Мистичното значение на песента е следното:
-          \italic"Венир Бенир"  – Ти, Велики, Който благославяш всички и всичко.
+            Ursprung des Lebens.
 
-          \italic"Бихар Бенум"  – Да бъде благословен.
+            \italic"Il Bezut" – Herr, segne den jungen Menschen, den Beginnenden, das göttliche Leben, segne das Göttliche, das in der Seele empfangen wird, den Atem Gottes, den wir usprünglich empfangen haben.
 
-          \italic"Ил Биют" – Боже, благослови Великото, младостта, началото на живота.
+       \italic"Om Bijut" – Er ist es selbst, der Einzige, der segnet.
 
-          \italic"Ил Безут" – Благослови младия,
-          начеващия, Божествения живот, благослови Божественото, което зачева в душата – диханието на Бога, което сме приели първоначално.
 
-          \italic"Ом Биют" – Той е сам, Единственият, Който благославя.
+        
 
-          \italic"Ил Безут, Ом Биют" – Той е всичко, Той е навред.
+          \italic"Il Bezut, Om Bijut" – Er ist alles, Er ist überall.
 
-          \italic"Зун Мезун" – Целият наш живот.
+          \italic"Zun Mezun" – User ganzes Leben.
 
-          \italic"Бином Ту Мето" – Сега така да бъде! Това е отношението на Великото към малкото – душата. И малкото се изпълва с мисъл за Великото, за Бога. Душата си спомня времето, когато е приела първия дъх от Божието дихание. (По Учителя, Общ окултен клас, 8 май 1940 г.). \italic"Ред. бел.:" При изпълнението на тази песен е важно да се издържа трайността на легатираната осминка във втория такт след знака за повторение на сричката „зун“.
+          \italic"Binom Tu Meto" – Er ist alles, Er ist überall. So soll es jetzt sein! Das ist das Verhältnis zwischen dem Großen und dem Kleinen – die Seele. Und das Kleine wird von einem Gedanken über das Große, über Gott erfüllt. Die Seele erinnert sich an die Zeit, als sie den ersten Hauch vom göttlichen Hauch empfangen hat. (Nach Danov: Allgemeine Okkultklasse, 8. Mai. 1940). \italic"Anm. d. Hrsg.:" Beim Vortrag dieses Liedes ist es wichtig, die Notendauer der legatierten Achtel im zweiten Takt nach dem Wiederholugszeichen auf der Sile „zun“ zu halten.
         }
       }
 
@@ -524,27 +524,41 @@
       \vspace #0.6
       \line {
         \justify {
-          \concat {\with-link #'ref096 \bold  "Весел ти бъди."}  Дадена на 21 август 1929 г., Рила, Седемте рилски езера. Вторият дял на песента е прибавен от ученик.
+          \concat {\with-link #'ref096 \bold  "Весел ти бъди – Vesel ti bădi."}   Gegeben am 21. August 1929, Rila, die Sieben Rila-Seen. Der zweite Teil der Liedes wurde von einem Schüler hinzugefügt.
         }
       }
 
       \vspace #0.6
       \line {
         \justify {
-          \concat {\with-link #'ref083_1 \bold  "Вехади."} Дадена на 17 юни 1925 г., София, Общ окултен клас, IV година, 28. лекция „Успоредните линии“. Думата \italic"Вехади" означава започване на определена работа. Мотивът е малък пасаж от една свещена песен. Тоновете са смесени: мажорни и минорни. Учителя дава думата \italic"Вехади" като музикално упражнение. Тя е окултен израз. В лекцията „Двете свещени положения“ той казва следното за думата \italic"Вехади:" „Ако знаехте езика на ангелите, бих ви казал \italic"Вехади." Вехади – това е свойство на Духа. Тази дума произтича от дълбочината на душата, отвътре произлиза тя. Съзнанието трябва да се пробуди. Как? Ще имате вяра. [...] при Вехади виждате как се отваря духът ви“. \italic"Ред. бел.:" Песента е нотирана безмензурно и без тактови черти. Темповите означения, знаците за динамика и тоналността тук са условни. При последната не се касае за \italic"ре минор," а по-скоро за компилация между стари ладове и маками. Песента не е фиксирана и предполага абсолютна свобода на интерпретацията, зависеща от способността на изпълнителя да отваря заложените в мелодията пространства на безкрайността, отивайки извън границите, указани му от нотацията относно темпо, динамика и нотни трайности. Тук става въпрос за жива музикална форма, търсеща всеки път своя първообраз, идващ от Божествения свят. Този първообраз е заложен в душата и тя го търси отново и отново чрез вътрешен мост към света на идеите.
+          \concat {\with-link #'ref083_1 \bold  "Вехади – Vehadi."} 17. Juni 1925, Allgemeine Okkultklasse, IV. Jahrgang, 28. Vortrag „Parallele Linien“. Das Wort \italic"Vehadi" bezeichnet den Beginn einer bestimmten Arbeit. Das Motiv stellt ein kleines Fragment eines heiligen Gesanges dar. Die Töne sind gemischt: Dur und moll. Petar Danov gibt das Wort \italic"Vehadi" als Musikübung. Es ist ein okkulter Ausdruck. Im Vortrag „Die beiden heiligen Grundsätze“ sagt er Folgendes Über das Wort \italic"Vehadi" „Könntet ihr die Sprache der Engel, würde ich euch \italic"Vehadi" sagen. \italic"Vehadi" – das ist die Eigenschaft des Geistes. Dieses Wort geht aus den Tiefen der Seele, aus dem Inneren hervor. Das Bewusstsein soll erwachen. Wie? Ihr sollt Glaube haben. [...] Bei \italic"Vehadi" seht ihr, wie sich euer Geist öffnet.“ \italic"Anm. d. Hrsg.:" Das Lied wurde senza misura und ohne Taktstriche notiert. Die Tempobezeichnungen, die Dynamikzeichen und die Tonart sind hier bedingt. Bei der letzteren handelt es sich nicht um D-Dur, sondern es geht vielmehr um eine Kompilation zwischen alten Tonarten und Maqamen. Das Lied ist nicht fixiert und setzt absolute Freiheit der Interpretation voraus, die von der Fähigkeit des Interpreten abhängt, die der Melodie zugrundeliegenen Räume der Unendlichkeit zu öffnen, indem er über die Grenzen, die ihm durch die Notation hinsichtlich Tempo, Dynamik und Notendauern auferlegt werden, hinausgeht. Es handelt sich hier um eine lebendige Musikform, die jedesmal nach ihrem aus der göttlichen Welt kommnenden Urbild sucht.  Dieses Urbild ist ursprünglich in der Seele enthalten und sie sucht nach ihm durch die innere Brücke zu der Welt der Ideen. 
         }
       }
 
-      \vspace #0.6
+      \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref083_2 \bold  "Вечер, сутрин."}  Дадена на 10 декември 1924 г., София, Общ окултен клас, IV година, 9. лекция „Неразбраното“.
+          \concat {\with-link #'ref083_2 \bold  "Вечер, сутрин – Večer, sutrin."}  10. Dezember 1924, Allgemeine Okkultklasse, IV. Jahrgang, 9. Vortrag „Das Unverstandene“.
         }
       }
-
-
-
-
+       \vspace #0.5
+      \line {
+        \justify {
+          \concat {\with-link #'ref100 \bold  "Всичко в живота е постижимо - Vsičko v života e postižimo."} Das Lied wurde am 16 Dezember 1932, Sofia, Jugendokkultklasse, XII Jahrgang, 13. Vortrag „Die Terz im Leben Терцата в живота“
+        }
+      }
+    \vspace #0.5
+          \line {
+        \justify {
+          \concat {\with-link #'ref078 \bold  "Грее, грее - Gree, gree."} Gegeben im Frühjahr 1924.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          \concat {\with-link #'ref110_1 \bold "Да имаш вяра – Da imaš vjara."}   Das Lied entstand 9. Oktober 1936.
+        }
+      }
     }
   }
 
@@ -552,26 +566,9 @@
   \markup \abs-fontsize #10  {
     \override #'(baseline-skip . 3.2)
     \column {
-
-      \line {
-        \justify {
-          \concat {\with-link #'ref100 \bold  "Всичко в живота е постижимо."}  Дадена на 16 декември 1932 г., София, Младежки окултен клас, XII година, 13. лекция „Терцата в живота“ МОК.
-        }
-      }
-      \vspace #0.5
-
-      \line {
-        \justify {
-          \concat {\with-link #'ref078 \bold  "Грее, грее."}  Дадена през пролетта на 1924 г.
-        }
-      }
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {\with-link #'ref110_1 \bold "Да имаш вяра."}  Дадена на 9 октомври 1936 г.
-        }
-      }
-      \vspace #0.5
+      
+  
+  
       \line {
 
         \justify {
@@ -588,7 +585,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref116 \bold "До ще ден."} Дадена на 7 февруари 1940 г, София, Общ окултен клас, ХIХ година, 19. лекция „Подмладяване“. \italic"Ред. бел.:" „До ще“ е архаизъм и означава \italic"ще дойде." В скоби е отбелязан вариант на текста на песента според Станка Желева.
+          \concat {\with-link #'ref116 \bold "До ще ден."} Дадена на 7 февруари 1940 г, София, Общ окултен клас, ХIХ година, 19. лекция „Подмладяване“. \italic"Anm. d. Hrsg.:" „До ще“ е архаизъм и означава \italic"ще дойде." В скоби е отбелязан вариант на текста на песента според Станка Желева.
         }
       }
       \vspace #0.5
@@ -640,7 +637,7 @@
       \vspace #0.4
       \line {
         \justify {
-          \concat {\with-link #'ref097 \bold  "Запали се огънят."}  Дадена на 8 август 1933 г., Витоша, Бивакът \italic"Ел Шадай."  \italic"Ред. бел.:" Поради несиметричната си структура и с оглед избягване на ограничаването на мелодията чрез въвеждане на чужди на нея размери, песента е нотирана безмензурно, като с пунктирани тактови черти са маркирани отделните фрази.
+          \concat {\with-link #'ref097 \bold  "Запали се огънят."}  Дадена на 8 август 1933 г., Витоша, Бивакът \italic"Ел Шадай."  \italic"Anm. d. Hrsg.:" Поради несиметричната си структура и с оглед избягване на ограничаването на мелодията чрез въвеждане на чужди на нея размери, песента е нотирана безмензурно, като с пунктирани тактови черти са маркирани отделните фрази.
         }
       }
       \vspace #0.4
@@ -660,19 +657,19 @@
       \vspace #0.4
       \line {
         \justify {
-          \concat {\with-link #'ref083_3 \bold  "Имаше человек."} Дадена на 30 ноември 1927 г., Общ окултен клас, VII година, 6. лекция „Вероятности и възможности“ със заглавие „Синът Божий“.  Текстът е от Йоан 1:6-13. На 19 ноември 1924 г., Общ окултен клас, IV година, 6. лекция „Несъизмеримите неща“ Учителя изпява песен по текст на същата тема. Мелодията спада според него към несъизмеримите величини. \italic"Ред. бел.:" Поради несиметричната си структура и с оглед избягване на ограничаването на мелодията чрез въвеждане на чужди на нея размери, песента е нотирана безмензурно, като с пунктирани тактови черти са маркирани отделните фрази.
+          \concat {\with-link #'ref083_3 \bold  "Имаше человек."} Дадена на 30 ноември 1927 г., Общ окултен клас, VII година, 6. лекция „Вероятности и възможности“ със заглавие „Синът Божий“.  Текстът е от Йоан 1:6-13. На 19 ноември 1924 г., Общ окултен клас, IV година, 6. лекция „Несъизмеримите неща“ Учителя изпява песен по текст на същата тема. Мелодията спада според него към несъизмеримите величини. \italic"Anm. d. Hrsg.:" Поради несиметричната си структура и с оглед избягване на ограничаването на мелодията чрез въвеждане на чужди на нея размери, песента е нотирана безмензурно, като с пунктирани тактови черти са маркирани отделните фрази.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          \concat {\with-link #'ref086_1 \bold  "Кажи ми Tи Истината."} Дадена на 26 ноември 1924 г., София, Общ окултен клас, IV година, 7. лекция „Пелените на живота. Радости и скърби“. Текст от Учителя, музика от ученик. За това упражнение Учителя казва следното: „Това е едно просто изречение. Как бихте го изпели? По различни начини. Всеки от вас би го изпял по особен начин. От кой тон бихте започнали? Това упражнение още не е завършено. Ако напишете едно завършено упражнение, вие ще страдате. Аз ви давам това упражнение като образец на несъизмеримо упражнение“. \italic"Ред. бел.:" Песента е нотирана безмензурно, като с пунктирани тактови черти са маркирани отделните фрази.
+          \concat {\with-link #'ref086_1 \bold  "Кажи ми Tи Истината."} Дадена на 26 ноември 1924 г., София, Общ окултен клас, IV година, 7. лекция „Пелените на живота. Радости и скърби“. Текст от Учителя, музика от ученик. За това упражнение Учителя казва следното: „Това е едно просто изречение. Как бихте го изпели? По различни начини. Всеки от вас би го изпял по особен начин. От кой тон бихте започнали? Това упражнение още не е завършено. Ако напишете едно завършено упражнение, вие ще страдате. Аз ви давам това упражнение като образец на несъизмеримо упражнение“. \italic"Anm. d. Hrsg.:" Песента е нотирана безмензурно, като с пунктирани тактови черти са маркирани отделните фрази.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref092_1 \bold  "Киамет Зену."} Дадена на 8 декември 1926 г., София, Общ окултен клас, VI година, 12. лекция „Последната постъпка“. \italic"Киамет Зену" означава, че влизаш в едно красиво място – толкова красиво, че се чудиш върху какво по-напред да спреш погледа си. Думата \italic"Киамет" означава великото в живота, онова, което се крие във времето и пространството – то е началото на нещата, онова, което дава подтик към творчество; означава също и силата, с чиято помощ трябва да се воюва, за да се победи ограничението и да почне възраждането. \italic"Махар Бену" е Великият, Който урежда и съгражда нещата – Той е неизменен и постоянен. Вземете например упражнението  „Киамет Зену“ – има източен характер. Силата  му седи в неговите тонове, в тяхното съчетание. \italic"Ред. бел.:" С оглед избягване на ограничаването на ме-
+          \concat {\with-link #'ref092_1 \bold  "Киамет Зену."} Дадена на 8 декември 1926 г., София, Общ окултен клас, VI година, 12. лекция „Последната постъпка“. \italic"Киамет Зену" означава, че влизаш в едно красиво място – толкова красиво, че се чудиш върху какво по-напред да спреш погледа си. Думата \italic"Киамет" означава великото в живота, онова, което се крие във времето и пространството – то е началото на нещата, онова, което дава подтик към творчество; означава също и силата, с чиято помощ трябва да се воюва, за да се победи ограничението и да почне възраждането. \italic"Махар Бену" е Великият, Който урежда и съгражда нещата – Той е неизменен и постоянен. Вземете например упражнението  „Киамет Зену“ – има източен характер. Силата  му седи в неговите тонове, в тяхното съчетание. \italic"Anm. d. Hrsg.:" С оглед избягване на ограничаването на ме-
         }
       }
 
@@ -746,7 +743,7 @@
     \column {
       \line {
         \justify {
-          ка, че служат за проводник на сили; ако те се преведат, ще изгубят силата си. Песента показва духовен път, който не е гладък, има препятствия. Тук  човек трябва да слезе от височина в долина, за да разреши някой труден въпрос в живота. Тя е от песните на адептите, чиято музика е създадена много време преди сегашната. Песента е дадена като \italic"Нева санзу" и в лекциите до 1929 г. се споменава с това име. В лекцията \italic"Живот и благо" от 18 ноември 1932 г. Учителя прави буквов разбор на думата \italic"сензу," обяснявайки значението на всяка отделна буква. Там заглавието на песента е изписано с \italic"е," а не с \italic"а." Песента се споменава след това в още в една беседа под заглавие \italic"Нева сензу." \italic"Ред. бел.:" Песента е нотирана безмензурно и без тактови черти като образец за \italic"окултно" \italic"музикално" \italic"упражнение." То предполага абсолютна свобода на интерпретацията, стремяща се към първообраза на упражнението, идващо от света на идеите.
+          ка, че служат за проводник на сили; ако те се преведат, ще изгубят силата си. Песента показва духовен път, който не е гладък, има препятствия. Тук  човек трябва да слезе от височина в долина, за да разреши някой труден въпрос в живота. Тя е от песните на адептите, чиято музика е създадена много време преди сегашната. Песента е дадена като \italic"Нева санзу" и в лекциите до 1929 г. се споменава с това име. В лекцията \italic"Живот и благо" от 18 ноември 1932 г. Учителя прави буквов разбор на думата \italic"сензу," обяснявайки значението на всяка отделна буква. Там заглавието на песента е изписано с \italic"е," а не с \italic"а." Песента се споменава след това в още в една беседа под заглавие \italic"Нева сензу." \italic"Anm. d. Hrsg.:" Песента е нотирана безмензурно и без тактови черти като образец за \italic"окултно" \italic"музикално" \italic"упражнение." То предполага абсолютна свобода на интерпретацията, стремяща се към първообраза на упражнението, идващо от света на идеите.
 
         }
       }
@@ -767,13 +764,13 @@
       \vspace #0.4
       \line {
         \justify {
-          \concat {\with-link #'ref115 \bold "Песен на светлия път."}  Дадена на 1 април 1942 г., София, Общ окултен клас, XXI година, 27. лекция „Живот и музика“. \italic"Ред. бел.:" Нотацията на тази песен е направена по архивна снимка. Когато Учителя представя тази песен на учениците, точкуваната фигура осмина с точка и шестнайсетина е на второ време – „да пос“. Обаче, като навлиза в музикалния живот на Братството, никой не я пее така. Най-често се пее с точкуваната група на първо време – „Мо-га“ или равни осминки, както е представена в сборника на Мария Тодорова.
+          \concat {\with-link #'ref115 \bold "Песен на светлия път."}  Дадена на 1 април 1942 г., София, Общ окултен клас, XXI година, 27. лекция „Живот и музика“. \italic"Anm. d. Hrsg.:" Нотацията на тази песен е направена по архивна снимка. Когато Учителя представя тази песен на учениците, точкуваната фигура осмина с точка и шестнайсетина е на второ време – „да пос“. Обаче, като навлиза в музикалния живот на Братството, никой не я пее така. Най-често се пее с точкуваната група на първо време – „Мо-га“ или равни осминки, както е представена в сборника на Мария Тодорова.
         }
       }
       \vspace #0.4
       \line {
         \justify {
-          \concat {\with-link #'ref119 \bold "Подмладяване."} Дадена на 8 септември 1943 г., София, Съборни беседи, 13. беседа „Възприемане и предаване“. В изданието от 1949 г. под заглавието на песента в скоби е записано „по мотиви от Учителя“. Според проф. Любомир Янков, цигулар и ученик на Учителя, песента е дадена на първата беседа след двумесечния траур по повод смъртта на цар Борис III за утеха на българския народ. \italic"Ред. бел.:" Акцентите в текста подсказват тривременния ритъм в началото на песента въпреки маршовия характер на песента.
+          \concat {\with-link #'ref119 \bold "Подмладяване."} Дадена на 8 септември 1943 г., София, Съборни беседи, 13. беседа „Възприемане и предаване“. В изданието от 1949 г. под заглавието на песента в скоби е записано „по мотиви от Учителя“. Според проф. Любомир Янков, цигулар и ученик на Учителя, песента е дадена на първата беседа след двумесечния траур по повод смъртта на цар Борис III за утеха на българския народ. \italic"Anm. d. Hrsg.:" Акцентите в текста подсказват тривременния ритъм в началото на песента въпреки маршовия характер на песента.
         }
       }
       \vspace #0.4
@@ -836,7 +833,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref076_2 \bold "Сила жива."} Дадена на 19 ноември 1922 г., София, Общ окултен клас, II година, 8. лекция „Музика и пеене – средство за тониране“. \italic"Ред. бел.:" Тук с \italic"ossia" е отбелязана поправката, която Мария Тодорова е направила в нейния личен екземпляр на сборника.
+          \concat {\with-link #'ref076_2 \bold "Сила жива."} Дадена на 19 ноември 1922 г., София, Общ окултен клас, II година, 8. лекция „Музика и пеене – средство за тониране“. \italic"Anm. d. Hrsg.:" Тук с \italic"ossia" е отбелязана поправката, която Мария Тодорова е направила в нейния личен екземпляр на сборника.
         }
       }
       \vspace #0.5
@@ -902,7 +899,7 @@
       \vspace #0.4
       \line {
         \justify {
-          \concat {\with-link #'ref142 \bold "Ставай, дъще!"}  Дадена през 1934 г. като българска народна песен, възстановена в своята първична чистота. Много от българските народни песни имат окултен произход. Тази песен е претърпяла развитие. Първоначално песента е дадена само с един куплет. По желание на Пеньо Ганев Учителя поръчва на сестра Весела Несторова да съчини втори куплет. След време той дава и трети куплет. Смислово песента е свързана със следния библейски цитат: „И казваше им: Жетвата е много, а работниците – малко“ Лука 10:2. \italic"Ред. бел.:" Тук песента е представена в трите куплета с мелодията, която в различните куплети има малки разлики.
+          \concat {\with-link #'ref142 \bold "Ставай, дъще!"}  Дадена през 1934 г. като българска народна песен, възстановена в своята първична чистота. Много от българските народни песни имат окултен произход. Тази песен е претърпяла развитие. Първоначално песента е дадена само с един куплет. По желание на Пеньо Ганев Учителя поръчва на сестра Весела Несторова да съчини втори куплет. След време той дава и трети куплет. Смислово песента е свързана със следния библейски цитат: „И казваше им: Жетвата е много, а работниците – малко“ Лука 10:2. \italic"Anm. d. Hrsg.:" Тук песента е представена в трите куплета с мелодията, която в различните куплети има малки разлики.
         }
       }
       \vspace #0.4
@@ -927,7 +924,7 @@
       \vspace #0.4
       \line {
         \justify {
-          \concat {\with-link #'ref089 \bold "Тъги, скърби."}  Дадена на 16 април 1924 г., София, Общ окултен клас, ІІІ година, 26. лекция „Любов към Бога“. Когато изпеете това упражнение, ще почувствате ободряване. \italic"Ред. бел.:" За по-голяма прегледност размерите на песента са уедрени.
+          \concat {\with-link #'ref089 \bold "Тъги, скърби."}  Дадена на 16 април 1924 г., София, Общ окултен клас, ІІІ година, 26. лекция „Любов към Бога“. Когато изпеете това упражнение, ще почувствате ободряване. \italic"Anm. d. Hrsg.:" За по-голяма прегледност размерите на песента са уедрени.
         }
       }
       \vspace #0.4
@@ -987,8 +984,8 @@
 
       \line {
         \justify {
-          \fontsize  #+1 \bold { \fill-line { \bold " Песни, мелодии и теми от Учителя, "} }
-          \fontsize  #+1 \bold { \fill-line { \bold " непубликувани до 1944 г."} }
+          \abs-fontsize #11 \bold { \fill-line { \bold " Песни, мелодии и теми от Учителя, "} }
+          \abs-fontsize #11 \bold { \fill-line { \bold " непубликувани до 1944 г."} }
         }
       }
       \vspace #0.6
@@ -1014,7 +1011,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref206 \bold "Божията Любов ме озари."} Дадена на 13 aприл 1927 г., Общ Окултен клас, София, VI година и на 13 март 1943 г. от Учителя на Лиляна Табакова. \italic"Ред. бел.:" С \italic"ossia" са отбелязани поправките, които Лиляна Табакова е нанесла лично в песнарката на Гита Стратева.
+          \concat {\with-link #'ref206 \bold "Божията Любов ме озари."} Дадена на 13 aприл 1927 г., Общ Окултен клас, София, VI година и на 13 март 1943 г. от Учителя на Лиляна Табакова. \italic"Anm. d. Hrsg.:" С \italic"ossia" са отбелязани поправките, които Лиляна Табакова е нанесла лично в песнарката на Гита Стратева.
         }
       }
 
@@ -1037,13 +1034,13 @@
       \line {
         \justify {
           \concat {\with-link #'ref146 \bold  "Българска рапсодия."}
-          Дадена през 1934 г. В красиви български мотиви Учителя е пресъздал най-възвишените образи от българския народен епос. В тях е вложена дълбока символика – това е мистичният път на човешката душа, която се стреми да влезе в допир с Божествената Любов. \italic"Ред. бел.:" Песента е нотирана по спомена на Пеньо Ганев, при който в частта \italic"Andante" е запазен типично българският неравноделен размер 7/8. Във варианта на Мария Тодорова тази част е нотирана в 3/4 размер, който е типичен за виенската класика. Така този дял губи народностния си характер.
+          Дадена през 1934 г. В красиви български мотиви Учителя е пресъздал най-възвишените образи от българския народен епос. В тях е вложена дълбока символика – това е мистичният път на човешката душа, която се стреми да влезе в допир с Божествената Любов. \italic"Anm. d. Hrsg.:" Песента е нотирана по спомена на Пеньо Ганев, при който в частта \italic"Andante" е запазен типично българският неравноделен размер 7/8. Във варианта на Мария Тодорова тази част е нотирана в 3/4 размер, който е типичен за виенската класика. Така този дял губи народностния си характер.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref183 \bold "Вариации."} Дадена на 27-ми и 29 януари 1933 г., София, Изгрева.\italic"Ред. бел.:" Вариациите са нотирани безмензурно с оглед избягване на ограничаването на мелодията чрез въвеждане на чужди на нея размери.
+          \concat {\with-link #'ref183 \bold "Вариации."} Дадена на 27-ми и 29 януари 1933 г., София, Изгрева.\italic"Anm. d. Hrsg.:" Вариациите са нотирани безмензурно с оглед избягване на ограничаването на мелодията чрез въвеждане на чужди на нея размери.
         }
       }
       \vspace #0.5
@@ -1096,13 +1093,13 @@
     }
   }
   \label #'ref_desc_16
-  \markup \fontsize  #+2.5  {
+  \markup \abs-fontsize #10   {
     \override #'(baseline-skip . 3.2)
     \column {
 
       \line {
         \justify {
-          дена на 3 септември 1940 г. В изданието от 1949 г. е публикувана със заглавие \italic"Тема 9." (4) Дадена на 27 януари 1933 г. В изданието от 1949 г. е публикувана със заглавие \italic"Тема 11." (5) Дадена на 5 юли 1938 г. В изданието от 1949 г. е публикувана със заглавие \italic"Тема 23." (6) Дадена от Учителя по фразата \italic"Ний ще се подмладим." В изданието от 1949 г. е публикувана със заглавие \italic"Тема 32." (7) и (8) Дадени на 28 май 1941 г., Общ окултен клас, по темата „Аз ще пазя топлината, която внася в моето сърце Божиите блага“. В изданието от 1949 г. са публикувани съответно със заглавия \italic"Тема 38" и \italic"Тема 37." (9) Дадена в първите години на Школата, в изданието от 1949 г. е публикувана със заглавие \italic"Тема 42."\italic"Ред. бел.:" Темата е нотирана безмензурно с оглед избягване на ограничаването на мелодията чрез въвеждане на чужди на нея размери. (10) Дадена от Учителя в първите години на Школата, в изданието от 1949 г. е публикувана със заглавие \italic"Тема 28." \italic"Ред. бел.:" Темата е нотирана безмензурно с оглед избягване на ограничаването на мелодията чрез въвеждане на чужди на нея размери.
+          дена на 3 септември 1940 г. В изданието от 1949 г. е публикувана със заглавие \italic"Тема 9." (4) Дадена на 27 януари 1933 г. В изданието от 1949 г. е публикувана със заглавие \italic"Тема 11." (5) Дадена на 5 юли 1938 г. В изданието от 1949 г. е публикувана със заглавие \italic"Тема 23." (6) Дадена от Учителя по фразата \italic"Ний ще се подмладим." В изданието от 1949 г. е публикувана със заглавие \italic"Тема 32." (7) и (8) Дадени на 28 май 1941 г., Общ окултен клас, по темата „Аз ще пазя топлината, която внася в моето сърце Божиите блага“. В изданието от 1949 г. са публикувани съответно със заглавия \italic"Тема 38" и \italic"Тема 37." (9) Дадена в първите години на Школата, в изданието от 1949 г. е публикувана със заглавие \italic"Тема 42."\italic"Anm. d. Hrsg.:" Темата е нотирана безмензурно с оглед избягване на ограничаването на мелодията чрез въвеждане на чужди на нея размери. (10) Дадена от Учителя в първите години на Школата, в изданието от 1949 г. е публикувана със заглавие \italic"Тема 28." \italic"Anm. d. Hrsg.:" Темата е нотирана безмензурно с оглед избягване на ограничаването на мелодията чрез въвеждане на чужди на нея размери.
         }
       }
       \vspace #0.5
@@ -1121,7 +1118,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref176 \bold "Житно зърно."} Тема от Учителя, дадена на 19 януари 1942 г., разработена от Весела Несторова и завършена на 4 февруари 1942 г. \italic"Ред. бел.:" Нотацията на песента е направена по документ от архива на Пеньо Ганев, съвпадащ със спомена на Иоана Стратева за звученето на песента.
+          \concat {\with-link #'ref176 \bold "Житно зърно."} Тема от Учителя, дадена на 19 януари 1942 г., разработена от Весела Несторова и завършена на 4 февруари 1942 г. \italic"Anm. d. Hrsg.:" Нотацията на песента е направена по документ от архива на Пеньо Ганев, съвпадащ със спомена на Иоана Стратева за звученето на песента.
         }
       }
       \vspace #0.5
@@ -1157,7 +1154,7 @@
     }
   }
   \label #'ref_desc_17
-  \markup \fontsize  #+2.5  {
+  \markup \abs-fontsize #10   {
     \override #'(baseline-skip . 3.2)
     \column {
 
@@ -1183,7 +1180,7 @@
       \vspace #0.4
       \line {
         \justify {
-          \concat {\with-link #'ref173 \bold "Малката буболечица."} Дадена на 27 май 1933 г. Текст Олга Славчева. \italic"Ред. бел.:" Тук е отпечатана оригиналната мелодия по спомени на Пеньо Ганев; мелодията е променена в изданието на Мария Тодорова от 1949 г. Песента е представена с мелодия и текст за трите куплета, тъй като има малки разлики в различните куплети в мелодията.
+          \concat {\with-link #'ref173 \bold "Малката буболечица."} Дадена на 27 май 1933 г. Текст Олга Славчева. \italic"Anm. d. Hrsg.:" Тук е отпечатана оригиналната мелодия по спомени на Пеньо Ганев; мелодията е променена в изданието на Мария Тодорова от 1949 г. Песента е представена с мелодия и текст за трите куплета, тъй като има малки разлики в различните куплети в мелодията.
         }
       }
       \vspace #0.4
@@ -1256,7 +1253,7 @@
     }
   }
   \label #'ref_desc_18
-  \markup \fontsize  #+2.5  {
+  \markup \abs-fontsize #10 {
     \override #'(baseline-skip . 3.2)
     \column {
       \line {
@@ -1272,7 +1269,7 @@
 
       \line {
         \justify {
-          \concat {\with-link #'ref212 \bold  "Моето Слънце днес ще изгрее."} Започната в Младежки окултен клас, 29 октомври 1943 г. София, XXIII година, 4. лекция „Млад и стар“, завършена в с. Мърчаево на 17 август 1944 г. Нотирана от Лиляна Табакова. \italic"Ред. бел.:" В подлистника с печатни грешки към сборника на Мария Тодорова смяната на тоналността от ре минор към сол минор е била отбелязана като печатна грешка. Цялата песен е в ре минор.
+          \concat {\with-link #'ref212 \bold  "Моето Слънце днес ще изгрее."} Започната в Младежки окултен клас, 29 октомври 1943 г. София, XXIII година, 4. лекция „Млад и стар“, завършена в с. Мърчаево на 17 август 1944 г. Нотирана от Лиляна Табакова. \italic"Anm. d. Hrsg.:" В подлистника с печатни грешки към сборника на Мария Тодорова смяната на тоналността от ре минор към сол минор е била отбелязана като печатна грешка. Цялата песен е в ре минор.
         }
       }
 
@@ -1306,7 +1303,7 @@
     }
   }
   \label #'ref_desc_19
-  \markup \fontsize  #+2.5  {
+  \markup \abs-fontsize #10   {
     \override #'(baseline-skip . 3.2)
     \column {
 
@@ -1378,7 +1375,7 @@
     }
   }
   \label #'ref_desc_20
-  \markup \fontsize  #+2.5  {
+  \markup \abs-fontsize #10   {
     \override #'(baseline-skip . 3.2)
     \column {
       \line {
@@ -1410,7 +1407,7 @@
       \vspace #0.8
       \line {
         \justify {
-          \fontsize  #+1 \bold { \fill-line { \bold " Допълнение "} }
+          \abs-fontsize #11 \bold { \fill-line { \bold " Допълнение "} }
         }
       }
       \vspace #0.6
