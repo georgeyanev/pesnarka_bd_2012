@@ -90,13 +90,13 @@
 
       kak da "smăk-" -- nem tež -- ki -- te o -- ko -- vi na
 
-      "vraž-" -- di bez -- smis -- le -- ni, ve -- kov -- ni, v~mir da za -- ži -- ve -- em
+      vraž -- di bez -- smis -- le -- ni, ve -- kov -- ni, v~mir da za -- ži -- ve -- em
 
 
 
-      i vse -- ki šte ra -- bo -- ti "s~ra-" -- dost na Bo -- žest -- ve -- na -- ta ni -- va,
+      i vse -- ki šte ra -- bo -- ti s~ra -- dost na Bo -- žest -- ve -- na -- ta ni -- va,
 
-      šte ca -- ru -- va več -- na "mla-" -- dost, nja -- ma ni -- koj da u -- mi -- ra,
+      šte ca -- ru -- va več -- na mla -- dost, nja -- ma ni -- koj da u -- mi -- ra,
 
       v~mir, v~Lju -- bov šte za -- ži -- ve -- em
 
@@ -141,7 +141,7 @@
 
       " " " " " " " " " " " " " " " " " "    " " " " " " " " " " " " " " " " " " " " " " " " " " " "
 
-      "2. No -"   -- vi pes -- ni šte za -- pe -- em za har -- mo -- ni -- ja vse -- "mir-" -- na.
+      "2. No -"   -- vi pes -- ni šte za -- pe -- em za har -- mo -- ni -- ja vse -- mir -- na.
 
       Nov ži -- vot šte za -- ži -- ve -- em, tja -- lo -- to ni šte pro -- svet -- ne
 

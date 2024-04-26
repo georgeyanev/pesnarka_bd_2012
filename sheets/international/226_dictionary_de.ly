@@ -4,7 +4,7 @@
 \include "include/globals.ily"
 
 \bookpart {
-  #(define blineskip221 2.3)
+  #(define blineskip221 3.2)
   \include "include/bookpart-paper.ily"
   \label #'ref221
   \tocItem \markup "Wörterbuch der Musikbegriffe"
@@ -13,7 +13,7 @@
 
   \markuplist \abs-fontsize #10 {
     \override #'(padding . 2) % horizontal distance
-    \override #'(baseline-skip . 3.6) % vertical distance
+    \override #'(baseline-skip . 4.6) % vertical distance
     \override #'(line-width . 58)
     \table #'(1 -1) {
       \line {"                                            "} \line {"                "}

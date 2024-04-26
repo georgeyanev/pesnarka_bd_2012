@@ -26,8 +26,8 @@
 
     left-margin = 1.5\cm
     right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
+    top-margin = 1.2\cm
+    bottom-margin = 1.0\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
   }
 
@@ -36,8 +36,8 @@
     \hspace #1
   }
 
-  \markup \override #'(baseline-skip . 2.5)
-  \column  \fontsize  #+2.5 {
+  \markup \override #'(baseline-skip . 3.2)
+  \column  \abs-fontsize #10 {
     \fill-with-pattern #1 #RIGHT . "А бре, синко – Abre,sinko" \page-ref #'ref137 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Аз мога да дишам – Az moga da dišam" \page-ref #'ref171_2 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Аз смея да кажа – Az smeja da kaža" \page-ref #'ref109 "000" "?"
@@ -77,8 +77,8 @@
     \fill-with-pattern #1 #RIGHT . "Гласът на Живия Господ – Glasăt na Živija Gospod" \page-ref #'ref190 "000" "?"
   }
 
-  \markup \override #'(baseline-skip . 2.5)
-  \column \fontsize  #+2.5 {
+  \markup \override #'(baseline-skip . 3.2)
+  \column \abs-fontsize #10 {
     \fill-with-pattern #1 #RIGHT . "Господи, колко те обичам – Gospodi, kolko te običam" \page-ref #'ref210 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Грее, грее – Gree, gree" \page-ref #'ref078 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Да бих Тe слушал – Da bih Te slušal" \page-ref #'ref174_1 "000" "?"
@@ -120,8 +120,8 @@
     \fill-with-pattern #1 #RIGHT . "Към Фир-фюр-фен – Kăm Fir-fjur-fen" \page-ref #'ref167 "000" "?"
   }
 
-  \markup \override #'(baseline-skip . 2.5)
-  \column \fontsize  #+2.5 {
+  \markup \override #'(baseline-skip . 3.2)
+  \column \abs-fontsize #10 {
     \fill-with-pattern #1 #RIGHT . "Към Рила – Kăm Rila" \page-ref #'ref056_2 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Към Сион – Kăm Sion" \page-ref #'ref054 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Любовта е извор – Ljubovta e izvor" \page-ref #'ref026 "000" "?"
@@ -164,8 +164,8 @@
 
   }
 
-  \markup \override #'(baseline-skip . 2.5)
-  \column \fontsize  #+2.5 {
+  \markup \override #'(baseline-skip . 3.2)
+  \column \abs-fontsize #10 {
     \fill-with-pattern #1 #RIGHT . "Песен за двете сестри – Pesen za dvete sestri" \page-ref #'ref180 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Песен на гласните букви – Pesen na glasnite bukvi" \page-ref #'ref067 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Песен на детето – Pesen na deteto" \page-ref #'ref164 "000" "?"
@@ -208,8 +208,8 @@
 
   }
 
-  \markup \override #'(baseline-skip . 2.5)
-  \column \fontsize  #+2.5 {
+  \markup \override #'(baseline-skip . 3.2)
+  \column \abs-fontsize #10 {
     \fill-with-pattern #1 #RIGHT . "Странник съм в този свят – Strannik săm v tozi svjat" \page-ref #'ref217 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Студът всичко дава – Studăt vsičko dava" \page-ref #'ref126 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Събуди се братко мили – Săbudi se bratko mili" \page-ref #'ref025 "000" "?"
