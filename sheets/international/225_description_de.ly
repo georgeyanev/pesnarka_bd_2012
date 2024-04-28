@@ -1384,7 +1384,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {"167" . \bold  " Божията Любов ме озари – Božijata Ljubov me ozari."}  Petar Danov komponierte das Lied am 13. März 1942 im Beisein von  Liljana Tabakova.
+          \concat {"167" . \bold  " Божията Любов ме озари – Božijata Ljubov me ozari."}  Petar Danov komponierte das Lied am 13. März 1942 im Beisein von Liljana Tabakova.
         }
       }
 

@@ -641,7 +641,7 @@
         }
       }
 
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref071_1 \bold "Изгрява Слънцето  – Izgrjava slănceto."}  Das Lied entstand am 22. Oktober 1922 in der Allgemeinen Okkultklasse, II. Jahrgang, 4. Vortrag  „Die okkulte Musik“. An dieser Stelle sagt Petar Danov Folgendes: „Hier wurde mit vollkommener Einfachheit des Tons und des Wortes das herrliche Bild der aufgehenden Sonne
@@ -656,19 +656,19 @@
     \column {
 
 
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           geschaffen. In der okkulten Musik werden niemals doppeldeutige Wörter und Töne zugelassen. In dieser Hinsicht ist das Lied  \italic "Izgrjava" \italic "slănceto" ein Vorbild.“
         }
       }
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref083_3 \bold  "Имаше человек  – Imaše čelovek."} Gegeben am 30 November 1927, Allgemeine Okkultklasse, VII Jahrgang, 6. Vortrag „Wahrscheinlichkeiten und Möglichkeiten“ mit dem Titel „Der Sohn Gottes“. Text Johannes 1,6-13. Am 19 November 1924, Allgemeine Okkultklasse, IV Jahrgang, 6. Vortrag „Inkommensurable Dinge“ singt Danov ein Lied nach einem Text zum selben Thema. Die Melodie gehört für ihn zu den inkommensurablen Größen. \italic"Anm. d. Hrsg.:" Wegen seiner unsymetrischen Struktur und im Hinblick darauf, die Melodie nicht durch das Einführung von ihr fremden Zeitmaße zu begrenzen, wurde das Lied \italic"senza misura" notiert, indem die einzelnen Phrasen durch punktierte Taktstriche markiert wurden.
         }
       }
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref086_1 \bold  "Кажи ми Tи Истината - Kaži mi Ti istinata."} 26. November 1924, Sofia, Allgemeine Okkultklasse, IV Jahrgang, 7. Vortrag „Die Verstrickungen des Lebens. Freuden und Leid“. Text von Petar Danov, Musik von einem Schüler. Über diese Übung sagt Danov Folgendes: „Das ist ein einfacher Satz. Wie würdet ihr ihn singen? In einer unterschiedlichen Weise. Jeder von euch würde ihn in einer besonderen Weise singen. Mit welchem Ton würdet ihr beginnen? Diese Übung ist nicht vollendet. Wenn ihr eine vollendete Übung niederschreibt, werdet ihr leiden. Ich gebe euch diese Übung als ein Urbild einer inkommensurablen Übung.“ \italic"Anm. d. Hrsg.:" Das Lied wurde  \italic"Senza misura" notiert, indem die einzelnen Phrasen durch punktierte Taktstriche markiert wurden.
@@ -771,37 +771,37 @@
 
         }
       }
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref115 \bold "Песен на светлия път – Pesen na svetlija păt."}  Gegeben am 1 April 1942, Sofia, Allgemeine Okkultklasse, XXI Jahrgang, 27. Vortrag „Leben und Musik“. \italic"Anm. d. Hrsg.:" Die Notation dieses Liedes wurde auf der Grundlage eines Archivfotos gemacht. Als Danov seinen Schülern das Lied vorstellt, befindet sich die punktierte Figur Achtel mit Punkt und Sechszehntel auf der zweite Zeit auf den Silben – „da pos“. Aber nachdem das Lied in das musikalische Leben der Bruderschaft kommt, wird es von niemandem so gesungen. Es wird meistens mit der punktierten Gruppe aud der ersten Zeit – „Mo-ga“ oder mit gleichen Achteln gesungen, wie das Lied im Sammelband von Maria Todorova notiert wurde.
         }
       }
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref119 \bold "Подмладяване – Podmladjavane."} Gegeben am 8 September 1943, Sofia, Zusammenkunftsvorträge, 13. Vortrag „Empfangen und Weitergeben“. In der Ausgabe von 1949 steht unter dem Titel geschrieben nach den Motiven von P. Danov“. Laut Prof. Ljubomir Jankov, Geiger und Schüler von Petar Danov, wurde das Lied im ersten Vortrag nach der zweimonativen Trauer anlässlich des Todes von Boris III. zur Beruhigung des bulgarischen Volkes. \italic"Anm. d. Hrsg.:" Die Akzente des Textes zeigen den dreizeitigen Rhytmus am Anfang des Liedes troz seines marschartigen Charakters.
         }
       }
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref132 \bold "Правда – Pravda."} Gegeben am 20 Dezember 1939, Sofia, Allgemeine Okkultklasse, XIX Jahrgang, 12. Vortrag „Gebt Freiheit!“
         }
       }
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref107 \bold "При всичките условия – Pri vsičkite uslovija."} Gegeben am 4. November 1934.
         }
       }
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref118_2 \bold "Пролет – Prolet."} Gegeben am 8. Januar 1942 г. an Vessela Nestorova: Sie war Lehrerin von Beruf und das Lied war für ihre Schüler bestimmt.
         }
       }
-        \vspace #0.5
+      \vspace #0.5
 
       \line {
         \justify {
@@ -820,7 +820,7 @@
       \line {
         \justify {
           \concat {\with-link #'ref121 \bold "Ранен час – Ranen čas."}
-         Zu diesem Lied gibt es keine Angaben, wann es entstanden ist. In Klammern wurde die Textvariante nach Vessela Nestorova angegeben.
+          Zu diesem Lied gibt es keine Angaben, wann es entstanden ist. In Klammern wurde die Textvariante nach Vessela Nestorova angegeben.
         }
       }
       \vspace #0.5
@@ -829,7 +829,7 @@
           \concat {\with-link #'ref090 \bold "Светъл ден – Svetăl den."} Gegeben am 16 April 1924, Sofia, Allgemeine Okkultklasse, III Jahrgang, 26. Vortrag „Liebe zu Gott“. Der zweite TEil des Liedes wurde von einem Schüler hinzugefügt. Es gibt die Tradition die Lieder „Hodi, hodi“, „Tagi skarbi“ und „Svetăl den“ nacheinander als Zyklus zu singen, indem am Ende der erste Teil „Svetăl den“ wiederholt wird.
         }
       }
-        \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref076_2 \bold "Сила жива."} Gegeben am 19 November 1922, Sofia, Allgemeine Okkultklasse, II Jahrgang, 8. Vortrag „Musik und Singen – ein Mittel des Stimmens“. \italic"Anm. d. Hrsg.:"  Mit \italic"ossia" wurde die Korrektur, die Maria Todorova in ihem eigenen Exeplar des Liederbuches gemacht hatte.
@@ -837,7 +837,7 @@
       }
     }
   }
-  
+
   \label #'ref_desc_12
   \markup \abs-fontsize #10  {
     \override #'(baseline-skip . 3.2)
@@ -864,25 +864,25 @@
           \concat {\with-link #'ref112_1 \bold "Сила, здраве е богатство – Sila, zdrave e bogatstvo."} Gegeben am 3 Januar 1940, Sofia, Allgemeine Okkultklasse, ХIХ Jahrgang, 14. Vortrag „Der innere Herr“.
         }
       }
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref133 \bold "Скитах се по гори и планини – Skitah se po gori i planini."}  Gegeben 1933.
         }
       }
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref077 \bold "Скръбта си ти кажи – Skrăbta si ti kaži."} Gegeben am 19 November 1922, Sofia, Allgemeine Okkultklasse, XI Jahrgang, 8. Vortrag „Musik und Singen – ein Mittel des Sich-Einstimmens“.   \italic"Sila živa" und \italic"Skrăbta si ti kaži" sind zwei Teile einer einzigen okkulten Übung. Peter Danov gab dazu folgende Erklärung: „ ‚Sila živa, Sila živa, kaži mi, kaži mi de voda izvira‘ – Hier suchen wir nach der Quelle. Es handelt sich um ein traditionelles bulgarisches Motiv. Es wurde dem Lauf des Wassers einer Quelle aus dem Hochgebirge entliehen, welches über die Steine springend nach und nach hinunterfließt. So habt ihr hier ein sehr angenehmes Bild vor Augen. Im bulgarischen Volkslied sind all diese Reigentanzlieder aus den Orten hervorgegagen, an denen Quellen entspringen. ‚Skrăbta si ti kaži, sărce si ti otvori na slănčevi lăči, [...]‘ – In diesem Ausschnitt haben wir ein negatives Wort, den Gram [skrăb]. Sobald jemand Leid empfindet, ist Dunkelheit in seinem Verstand und seinem Herzen; es gibt kein Licht mehr. Sobald das Licht erscheint, verschwindet das Leid. Die Sonne ist es, die heilt. Die Übung ist noch nicht vollendet, sondern ist so, wie es in der Natur existiert; es wurde okkult gegeben.“ Es gibt die Tradioton, dass das Lied „Sila živa“ gesunden wird. Das Lied wird frei und breit gesungen. Seine Struktur gehört zu den \italic"inkommensurablen" \italic"Größen".
         }
       }
- \vspace #0.5
-   \line {
+      \vspace #0.5
+      \line {
         \justify {
           \concat {\with-link #'ref073 \bold "Сладко медено – Sladko medeno."}  Gegeben am 29 Oktober 1922, Sofia, Allgemeine Okkultklasse, II Jahrgang, 5. Vortrag „Der Einfluss der Elektrizität“. Das ist eine positive Übung; jedes Bild ist aktiv.
         }
       }
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref125 \bold "Слънчева песен – пчелна мушичка – Slănčeva pesen – pčelna mušička."} Das Lied entstand im Februar 1935. Dieses Lied wurde von Petar Danov zum Lied \italic"Proletna pessen," hinzugefügt. Dieses Lied wird als sein Ende betrachtet.
@@ -890,7 +890,7 @@
       }
 
 
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref142 \bold "Ставай, дъще! – Stavaj, dăšte!"} Das Lied wurde 1934 als bulgarisches Volkslied, dessen ursprüngliche Reinheit wiederhergestellt wurde, gegeben. Viele bulgarische Volkslieder haben einen okkulten Ursprung. Dieses Lied unterlag einer Entwicklung. Ihre usprüngliche Fassung enthielt nur eine Strophe. Nach dem Wunsch von Penjo Ganev bestellt Petar Danov bei Vessela Nestorova eine zweite Strophe. Nach einer Zeit gibt er die dritte Strophe. Inhaltlich lehnt sich der Text stark an die Bibel: „Die Ernte ist groß, der Arbeiter aber sind wenige.“ Lk 10,2. \italic"Anm. d. Hrsg.:" Hier wurde das Lied mit den drei Strophen vorgestellt, weil sie kleine Unterschiede in der Melodie enthalten.
@@ -902,68 +902,68 @@
   \markup \abs-fontsize #10  {
     \override #'(baseline-skip . 3.2)
     \column {
-     
-   
 
- 
+
+
+
       \line {
         \justify {
-          \concat {\with-link #'ref126 \bold "Студът всичко дава  – Studat vsichko dava."}  Begonnen am 5. Jaunuar, Sofia, 
+          \concat {\with-link #'ref126 \bold "Студът всичко дава  – Studat vsichko dava."}  Begonnen am 5. Jaunuar, Sofia,
           Jugendokkultklasse, XIII Jahrgang, 12. Vortrag „Liebt das Positive“, beendet am 16 Januar 1934. Wenn das Bewusstsein des Menschen durch die innere Kälte des Hasses, der Dunkelheit, des Egoismus, der Begrenzung erstarrt ist, gelangt der Mensch durch die äußere Kälte, die ungünstigen Bedingungen, die Widerspüche, die Schwierigkeiten, die Kämpfe und das Leiden zum inneren Licht. Er steigt in eine höhere Welt auf, die durch die Ankunft des Frühlings symbolisiert wird.
 
         }
       }
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref117 \bold "Там далече – Tam daleče."} Das Lied entstand 1937.
         }
       }
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref114 \bold "Той иде – Toj ide."} Begonnen am 7. Januar, beendet am 5. Februar 1939.
         }
       }
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref089 \bold "Tăgi, skărbi."} Gegeben am 16. April 1924, Allgemeine Okkultklasse, III. Jahrgang, 26. Vortrag „Liebe zu Gott“. Wenn ihr diese Übung singt, werdet ihr eine Erfrischung spüren.  \italic"Anm. d. Hrsg.:" Für eine bessere Übersicht wurde das Metrum des Liedes vergrößert.
         }
       }
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref101_1 \bold "Тъги, скърби са богатство – Tăgi, skărbi sa bogatstvo."} Gegeben am 7. Dezember 1927., Sofia, Allgemeine Okkultklasse, VII Jahrgang, 7. Vortrag „Ewige Erneuerung“. Seid ihr traurig, so singt dieses Lied. Es ist wichtig, dass der Mensch weiß, wie er dieses Lied singen soll. Beim Singen dieses Liedes sollte man das Gesetz der Kontraste berücksichtigen. Einmal kann man das Lied leise, einmal laut singen. Wenn man es mehrmals auf dieselbe Art und Weise singt, wird es seine Bedeutung verlieren. Mit den Liedern, die im Volksmusikstil komponiert wurden, brachte Petar Danov Erneuerung in der bulgarischen Volksmusik.
         }
       }
- \vspace #0.5
- \line {
+      \vspace #0.5
+      \line {
         \justify {
           \concat {\with-link #'ref070 \bold "Фир-фюр-фен – Благославяй – Fir-fjur-fen – Blagoslavaj."} Das Lied entstand am 21. August 1922 während der Zusammenkunft in Veliko Tarnovo im Vortrag \italic"Musik, Arbeit, und Fasten."Dieses Lied dient der Harmonisierung und der Heilung. Es reguliert die Ströme und die Kräfte im Menschen und bringt sie in Harmonie mit dem Sein. Die Worte entstammen einer heiligen Sprache und können nicht wortwörtlich übersetzt werden. Petar Danov gibt nur eine ungefähre Übersetzung: Ohne Angst, ohne Finsternis.
-          
-           \italic "Fir-fjur"  dasjenige, was den Menschen leitet.
+
+          \italic "Fir-fjur"  dasjenige, was den Menschen leitet.
 
           \italic "fen"  beseitigt die Hindernisse und reinigt.
 
-         \italic "Tao"  umzäunt und beschützt den Menschen als Umgebung, in die er eingetaucht ist. \italic " Tao" ist außerdem das Absolute, das Nicht-Manifestierte, das Grenzenlose.
+          \italic "Tao"  umzäunt und beschützt den Menschen als Umgebung, in die er eingetaucht ist. \italic " Tao" ist außerdem das Absolute, das Nicht-Manifestierte, das Grenzenlose.
 
-         \italic "Bi"  dasjenige, was sich manifestiert.
+          \italic "Bi"  dasjenige, was sich manifestiert.
 
-      \italic "Aoumen"  alle Eigenschaften, die im Göttlichen enthalten sind;  alles, was wachsen und  sich in seiner Fülle manifestieren soll.
+          \italic "Aoumen"  alle Eigenschaften, die im Göttlichen enthalten sind;  alles, was wachsen und  sich in seiner Fülle manifestieren soll.
 
           \italic "Fir-fjur-fen" ist ein rhythmischer Satz, es sind
           rhythmische Wörter mit starker Schwingung, deren Wesen im Bewusstsein der Menschen, die im materiellen Leben versunken sind, etwas Neues erwecken kann. „Blagoslavjaj“ wurde etwas später gegeben und zu \italic "Fir-fjur-fen" hinzugefügt.
 
         }
       }
-   \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref104 \bold "Химн на Великата душа – Himn na Velikata duša.."} Gegeben am 29 März 1933, Sofia, Allgemeine Okkultklasse, XII Jahrgang 13. Vortrag „Grundlagen“. Das ist eine Lied für das menschliche Gesicht. Das Thema des Liedes wurde am 17 März 1933 , Jugendokkultklasse, XII Jahrgang, 5. Vortrag „Allgemeine und besondere Grundlagen“ gegeben. Dieses Lied lässt jene innere Sonne erahnen, die in allen Wesen arbeitet und sie von der Finsternis ins Licht, vom Tod ins Leben, von der Sklaverei in die Freiheit erhebt. Es endet mit einer Freudenhymne für den großen Einen, der allem zugrunde liegt.
         }
       }
-       
+
 
     }
   }
@@ -971,8 +971,8 @@
   \markup \abs-fontsize #10  {
     \override #'(baseline-skip . 3.2)
     \column {
-      
-     
+
+
       \line {
         \justify {
           \concat {\with-link #'ref088 \bold "Ходи, ходи – Hodi, hodi."} Gegeben am 23 April 1924, Sofia, Allgemeine Okkultklasse, III Jahrgang, 27. Vortrag „Der Schleifstein und das Messer“. Der Text der zweiten Strophe stammt von Stojanka Ilieva.
@@ -989,14 +989,13 @@
 
       \line {
         \justify {
-          \abs-fontsize #11 \bold { \fill-line { \bold "Песни, мелодии и теми от Учителя, "} }
-          \abs-fontsize #11 \bold { \fill-line { \bold "непубликувани до 1944 г."} }
+          \abs-fontsize #11 \bold { \fill-line { \bold "Nach 1944 veröffentlichte Lieder, Melodien und Themen "}  }
         }
       }
       \vspace #0.6
       \line {
         \justify {
-          \concat {\with-link #'ref171_2 \bold "Аз мога да дишам."} Музика и текст от Учителя, дадена на 4. февруари 1938 г., София, Младежки окултен клас, XVII година, 19. лекция „Законът на хармонията в тялото“. Работата над упражнението е започнала на 29. декември 1937 г., София, Общ окултен клас, XVII година 13. лекция „Пред радостите и зад страданията“.
+          \concat {\with-link #'ref171_2 \bold "Аз мога да дишам  – Az moga da dišam."}Musik und Text von Petar Danov, gegeben am 4. Februar 1938, Sofia, Allgemeine Okkultklasse, XVII Jahrgang, 19. Vortrag „Das Gesetz der Harmonie im Körper“. Die Arbeit an dieser Übung begann am  29. Dezember 1937, Sofia, Allgemeine Okkultklasse, XVII Jahrgang 13. Vortrag „Vor den Freuden und hinter dem Leid“.
         }
       }
 
@@ -1004,23 +1003,53 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref163 \bold "Берхан-Ази."} Дадена през 1936 г.
+          \concat {\with-link #'ref163 \bold "Берхан-Ази – Berhan Azi."} Das Lied entstand 1936.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref166 \bold "Бог е Любов II."} Дадена на 25 февруари 1934 г., София, Изгрева.
+          \concat {\with-link #'ref166 \bold "Бог е Любов II – Bog e Ljubov II."} Gegeben am 25. Februar 1934, in Sofia, Izgrev.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref206 \bold "Божията Любов ме озари."} Дадена на 13 aприл 1927 г., Общ Окултен клас, София, VI година и на 13 март 1943 г. от Учителя на Лиляна Табакова. \italic"Anm. d. Hrsg.:" С \italic"ossia" са отбелязани поправките, които Лиляна Табакова е нанесла лично в песнарката на Гита Стратева.
+          \concat {\with-link #'ref206 \bold "Божията Любов ме озари Božijata Ljubov me ozari."} Gegeben am 13 April 1927, Allgemeine Okkultklasse, Sofia, VI Jahrgang am 13 März 1943 an Liljana Tabakova.\italic"Anm. d. Hrsg.:" Mit \italic"ossia" wurden die Korrekturen markiert, die Liljana Tabakova in das Liederbuch von Gita Strateva eingetragen hatte.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          \concat {\with-link #'ref150 \bold "Българска идилия."} Notiert von einer Tonbandaufnahme von Petar Kamburov, redigiert von Georgi Stratev, Ioanna Strateva und Stanka Zeleva. Petar Danov gab dieses Lied Peter Kamburov im Februar 1920 in der Opălčenska Straße 66. Die Idylle beschreibt das Streben der bulgarischen Seele nach dem Ewigen im Leben. Sie will die ewige Gerechtigkeit, die ewige Liebe erreichen, die das Sein erfüllen. Sie erahnt die Existenz einer schönen Welt in sich und möchte sie Wirklichkeit werden lassen.
         }
       }
 
-
+      \vspace #0.5
+      \line {
+        \justify {
+          \concat {\with-link #'ref146 \bold  "Българска рапсодия – Bălgarska rapsodija."}
+          Das Lied entstand 1934. In diesem Lied stellte Petar Danov die erhabensten Gestalten aus dem bulgarischen Epos dar. Ihnen liegt eine tiefe Symbolik zugrunde: Das ist der mystische Weg der menschlichen Seele, die danach strebt, in Berührung mit der göttlichen Liebe zu kommen. \italic"Anm. d. Hrsg.:" Das Lied wurde nach der Erinnerung von Pejo Ganev notiert, bei dem im Andante Teil die typisch bulgarische unregelmäßiger Takt 7/8 erhalten wurde. In der Variante von Maria Todorova wurde dieser Teil im  3/4  Takt aufgeschrieben, der typisch für die Wiener Klassik ist. So verliert dieser Teil seinen Volkscharakter.
+        }
+      }
+       \vspace #0.5
+      \line {
+        \justify {
+          \concat {\with-link #'ref183 \bold "Вариации."} Gegeben am 27 и 29 Januar 1933, Sofia, Izgrev.\italic"Anm. d. Hrsg.:" Die Variationen wurden \italic"senza misura" notiert im Hinblick darauf, die Begrenzug der Melodie durhc die Einführung von ihr fremden Taktangaben vermeiden.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          \concat {\with-link #'ref200 \bold "Вътрешният глас на Бога – Vătrešnijat glas na Boga."} Gegeben am 21 Januar 1943 von Petar Danov an Liljana Tabakova. Laur ihr sagte Danov: „Diese Worte sind in vanischer Sprache. Sie bedeuten: Liebe und sei frei. Höre die innere Stimme Gottes. Gehe vorwärts und zweifle nicht auf deinem Weg.“
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          \concat {\with-link #'ref170_1 \bold "Вяра светла I – Vjara svetla I."} Gegeben am 20 April 1927, Sofia, Allgemeine Okktulklasse, VI Jahrgang, 10. Vortrag „Richtungen und Möglichkeiten“.
+        }
+      }
 
     }
   }
@@ -1029,70 +1058,57 @@
     \override #'(baseline-skip . 3.2)
     \column {
 
+
+
+
+     
+      \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref150 \bold "Българска идилия."} Песента е нотирана от магнетофонен запис на изпълнение на Петър Камбуров, редактирана от Георги Стратев, Иоана Стратева и Станка Желева. Учителя я предава лично на П. Камбуров през февруари 1920 г. на ул. „Опълченска“ № 66. Идилията описва копнежа на към вечното и великото в живота – тя иска да разбере вътрешния смисъл на живота, да постигне вечната правда, вечната Любов, която изпълва Битието. Тя съзира съществуването на един красив свят у себе си и иска да го направи реалност.
+          \concat {\with-link #'ref170_2 \bold "Вяра светла II – Vjara svetla II."} Eine andere Melodie, gegeben während des Gesprächs, das Danov mit den Gruppenleitern am 19 April 1927 in Sofia geführt hat. Das Lied fehlt im Liederbuch von 1949. Sie wurde von Peter Ganev nach den Erinnerungen seines Vaters Penjo Ganev notiert.
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          \concat {\with-link #'ref190 \bold "Гласът на Живия Господ – Новото Възкресение" } \bold "– Glasăt na  Živija  Gospod – Novoto  Văzkresenie" Das Lied fehlt im Liederbuch von Maria Todorova. Ihr Ursprung ist nicht gesichert. Wahrscheinlich wurde das Lied Liljana Tabakova gegeben, die es später als eigene Komposition entwickelt. Der erste Teil des Textes kommt im Vortra vom 29 Mai 1921, Sofia, Sontagsvorträge „Sie sollen geprüft werden“. Der zweite Teil ist eine passage aus dem eigenen Notitzbuch von Petar Danov. Die Notierung des Liedes wurde nach dem Vortrag des Liedes von Boris Nikolov von Peter Ganev in den 70. Jahre des 20. Jahrhunderts. 
+        }
+      }
+      \vspace #0.5
+      \line {
+        \justify {
+          \concat {\with-link #'ref210 \bold  "Господи, колко Те обичам! – Gospodi, kolko te običam!"} Petar Danov komponierte das Lied am 22. August 1943 im Beisein von Liljana Tabakova.
         }
       }
 
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref146 \bold  "Българска рапсодия."}
-          Дадена през 1934 г. В красиви български мотиви Учителя е пресъздал най-възвишените образи от българския народен епос. В тях е вложена дълбока символика – това е мистичният път на човешката душа, която се стреми да влезе в допир с Божествената Любов. \italic"Anm. d. Hrsg.:" Песента е нотирана по спомена на Пеньо Ганев, при който в частта \italic"Andante" е запазен типично българският неравноделен размер 7/8. Във варианта на Мария Тодорова тази част е нотирана в 3/4 размер, който е типичен за виенската класика. Така този дял губи народностния си характер.
-        }
-      }
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {\with-link #'ref183 \bold "Вариации."} Дадена на 27-ми и 29 януари 1933 г., София, Изгрева.\italic"Anm. d. Hrsg.:" Вариациите са нотирани безмензурно с оглед избягване на ограничаването на мелодията чрез въвеждане на чужди на нея размери.
-        }
-      }
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {\with-link #'ref200 \bold "Вътрешният глас на Бога."} Дадена на 21 януари 1943 г. от Учителя на Лиляна Табакова. Според нея, Учителя казал: „Тези думи са на ватански език. Означават: \italic"Люби" \italic"и" \italic"свободен "\italic"бъди."\italic"Слушай"\italic"вътрешния" \italic"глас" \italic"на" \italic"Бога." \italic"Върви" \italic"напред" \italic"и" \italic"не" \italic"се" \italic"колебай" \italic"в" \italic"пътя" \italic"си“."
-        }
-      }
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {\with-link #'ref170_1 \bold "Вяра светла I."}  Дадена на 20 април 1927 г., София, Общ окултен клас, VI година, 10. лекция „Посоки и възможности“.
-        }
-      }
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {\with-link #'ref170_2 \bold "Вяра светла II."} Друга мелодия, дадена в разговор с Учителя пред ръководителите на 19 април 1927 г., София. Песента липсва в сборника от 1949 г. Нотирана е от  Петър Ганев по спомен от баща му Пеньо Ганев.
-        }
-      }
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {\with-link #'ref190 \bold "Гласът на Живия Господ – Новото Възкресение. " } Песента липсва в сборника на Мария Тодорова. Произходът ѝ не е уточнен. Вероятно е дадена от Учителя на Лиляна Табакова, която тя впоследствие развива като своя композиция. Първата част от текста е произнесена на 29 май 1921 г., София, Неделни беседи, „Да ги изпита“. Втората част на текста е пасаж от личния бележник на Учителя. Нотацията на песента е направена по изпълнение на Борис Николов от Петър Ганев пред 70-те години на 20. век.
-        }
-      }
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {\with-link #'ref210 \bold  "Господи, колко Те обичам!"} Дадена на 22 август 1943 г. от Учителя на Лиляна Табакова.
-        }
-      }
-
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {\with-link #'ref174_1 \bold "Да бих Тe слушал."} Дадена на 14 март 1940 г., София, Изгрева.
+          \concat {\with-link #'ref174_1 \bold "Да бих Тe слушал – Da bih Te slušal."} Gegeben 14. März 1940, Sofia, Izgrev.
         }
       }
       \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref182 \bold  "Десет теми."}
-          (1) Весел мотив, хрумнал на Учителя по време на студентските му години в Америка. В изданието от 1949 г. е публикувана със заглавие \italic"Тема 3." (2) В изданието от 1949 г. е публикувана със заглавие \italic"Тема 6." (3) Да-
+          (1) Весел мотив, хрумнал на Учителя по време на студентските му години в Америка. В изданието от 1949 г. е публикувана със заглавие \italic"Тема 3." (2) В изданието от 1949 г. е публикувана със заглавие \italic"Тема 6." (3) Дадена на 3 септември 1940 г. В изданието от 1949 г. е публикувана със заглавие \italic"Тема 9." (4) Дадена на 27 януари 1933 г. В изданието от 1949 г. е публикувана със заглавие \italic"Тема 11." (5) Дадена на 5 юли 1938 г. В изданието от 1949 г. е публикувана със заглавие \italic"Тема 23." (6) Дадена от Учителя по фразата \italic"Ний ще се подмладим." В изданието от 1949 г. е публикувана със заглавие \italic"Тема 32." (7) и (8) Дадени на 28 май 1941 г., Общ окултен клас, по темата „Аз ще пазя топлината, която внася в моето сърце Божиите блага“. В изданието от 1949 г. са публикувани съответно със заглавия \italic"Тема 38" и \italic"Тема 37." (9) Дадена в първите години на Школата, в изданието от 1949 г. е публикувана със заглавие \italic"Тема 42."\italic"Anm. d. Hrsg.:" Темата е нотирана безмензурно с оглед избягване на ограничаването на мелодията чрез въвеждане на чужди на нея размери. (10) Дадена от Учителя в първите години на Школата, в изданието от 1949 г. е публикувана със заглавие \italic"Тема 28." \italic"Anm. d. Hrsg.:" Темата е нотирана безмензурно с оглед избягване на ограничаването на мелодията чрез въвеждане на чужди на нея размери.
         }
       }
 
+         \vspace #0.5
+      \line {
+        \justify {
+          \concat {\with-link #'ref161 \bold "Духай, ветре II."} Първата част, \italic"Божието Слънце грее днес," е дадена на 25 декември 1942 г., София, Младежки окултен клас, XII година, 12. лекция „Духай, ветре“; втората част, \italic"Хай-ди-ди..." е дадена на 30 декември 1942 г.,  София, Общ   окултен клас, XII година, 15. лекция „Два Божествени процеса“. Тази песен първоначално е дадена от Учителя в този вид. По-късно, по желание на някои ученици, Учителя е изменил първата ѝ част.
+        }
+      }
+
+
+      \vspace #0.5
+      \line {
+        \justify {
+          \concat {\with-link #'ref201 \bold "Една вечна Истина, която е Бог на Любовта."}  Дадена на 18 април 1943 г. от Учителя на Лиляна Табакова. Текстът е на старинен свещен и непреводим език. В нея се говори за Първата велика душа, носителка на Любовта. Тази песен трябва да се изпълнява като медитация – съсредоточено, с мистично вглъбяване.
+        }
+      }
 
 
     }
@@ -1102,24 +1118,8 @@
     \override #'(baseline-skip . 3.2)
     \column {
 
-      \line {
-        \justify {
-          дена на 3 септември 1940 г. В изданието от 1949 г. е публикувана със заглавие \italic"Тема 9." (4) Дадена на 27 януари 1933 г. В изданието от 1949 г. е публикувана със заглавие \italic"Тема 11." (5) Дадена на 5 юли 1938 г. В изданието от 1949 г. е публикувана със заглавие \italic"Тема 23." (6) Дадена от Учителя по фразата \italic"Ний ще се подмладим." В изданието от 1949 г. е публикувана със заглавие \italic"Тема 32." (7) и (8) Дадени на 28 май 1941 г., Общ окултен клас, по темата „Аз ще пазя топлината, която внася в моето сърце Божиите блага“. В изданието от 1949 г. са публикувани съответно със заглавия \italic"Тема 38" и \italic"Тема 37." (9) Дадена в първите години на Школата, в изданието от 1949 г. е публикувана със заглавие \italic"Тема 42."\italic"Anm. d. Hrsg.:" Темата е нотирана безмензурно с оглед избягване на ограничаването на мелодията чрез въвеждане на чужди на нея размери. (10) Дадена от Учителя в първите години на Школата, в изданието от 1949 г. е публикувана със заглавие \italic"Тема 28." \italic"Anm. d. Hrsg.:" Темата е нотирана безмензурно с оглед избягване на ограничаването на мелодията чрез въвеждане на чужди на нея размери.
-        }
-      }
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {\with-link #'ref161 \bold "Духай, ветре II."} Първата част, \italic"Божието Слънце грее днес," е дадена на 25 декември 1942 г., София, Младежки окултен клас, XII година, 12. лекция „Духай, ветре“; втората част, \italic"Хай-ди-ди..." е дадена на 30 декември 1942 г.,  София, Общ   окултен клас, XII година, 15. лекция „Два Божествени процеса“. Тази песен първоначално е дадена от Учителя в този вид. По-късно, по желание на някои ученици, Учителя е изменил първата ѝ част.
-        }
-      }
-
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {\with-link #'ref201 \bold "Една вечна Истина, която е Бог на Любовта."}  Дадена на 18 април 1943 г. от Учителя на Лиляна Табакова. Текстът е на старинен свещен и непреводим език. В нея се говори за Първата велика душа, носителка на Любовта. Тази песен трябва да се изпълнява като медитация – съсредоточено, с мистично вглъбяване.
-        }
-      }
+ 
+   
       \vspace #0.5
       \line {
         \justify {
@@ -1176,19 +1176,19 @@
           \concat {\with-link #'ref211 \bold "Кажи ми, светли Божи лъч II."} Дадена на 26 май 1943 г. от Учителя на Лиляна Табакова. Включва текст от песен под същото заглавие, която е дадена през 1923 г.
         }
       }
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref167 \bold "Към „Фир-фюр-фен“."} Дадена е в първите години на Школата.
         }
       }
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref173 \bold "Малката буболечица."} Дадена на 27 май 1933 г. Текст Олга Славчева. \italic"Anm. d. Hrsg.:" Тук е отпечатана оригиналната мелодия по спомени на Пеньо Ганев; мелодията е променена в изданието на Мария Тодорова от 1949 г. Песента е представена с мелодия и текст за трите куплета, тъй като има малки разлики в различните куплети в мелодията.
         }
       }
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref165 \bold "Малкият планински извор."} Дадена на 27 март 1937 г., София, Изгрева. Текстът е от Стоянка Илиева.
@@ -1200,13 +1200,13 @@
           \concat {\with-link #'ref162 \bold "Марш на светлите сили."} Дадена на 27 май 1936 г. Победен марш на светлите ангелски сили в живата природа, които шестват със своя характерен ритъм. С тази музика човекът се издига към ангелския свят.
         }
       }
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref185 \bold "Мелодия 1 – Красив живот."} Дадена през 1933 г., текст от Стоянка Илиева. В изданието от 1949 г. е публикувана със заглавие \italic"Мелодия 13."
         }
       }
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref186 \bold "Мелодия 2"} Дадена през 1933 г. В изданието от 1949 г. е публикувана със заглавие \italic"Мелодия 16."
@@ -1317,7 +1317,7 @@
           \italic"ден" започва с тона \italic"до." Това значи, че светлите сили, които са започнали създаването на новия свят, ще преустроят материята на стария живот в една по-висока гама и ще внесат в нея елемент на безсмъртие. По аналогия в Новия Адам ще се образуват нови кръвни телца, пропити с качествата на бъдещия живот. \italic"Вторият" \italic"Божествен" \italic"ден," който започва с тона \italic"ре," ще донесе преустройство в нервната система, костите и волята. Така всеки Божествен ден ще внесе нещо ново в устройството на Космоса и човека. И всеки човек поотделно ще изживее своето \italic"Ново Битие." Песента завършва с магическите слова на Мировия дух \italic"Аум" и на Мировата душа – \italic"Аумен" \italic"(Тълкуване" \italic"по" \italic"идеи," \italic"дадени" \italic"от" \italic"Учителя.)"
         }
       }
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref216 \bold "Отче наш, не ни въвеждай в изкушение."} Първата част от песента е дадена като музикално упражнение на 28 май 1941 г., София, Общ окултен клас, XX година, 33. лекция „Две състояния“, а окончателният вариант – на 17 август 1944 на Лиляна Табакова.
@@ -1330,7 +1330,7 @@
           \concat {\with-link #'ref180 \bold "Песен за двете сестри."} Дадена по време на евакуацията в с. Мърчаево през 1944 г. В изданието от 1949 г. под заглавието на песента в скоби е записано „последна и недовършена“.
         }
       }
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref164 \bold "Песен на детето."} Дадена през 1934 г. Учителя казва: „Тук е представено детето, което се мъчи да излезе от коритото – майката го залъгва, но то не е доволно. Най-сетне иде победата – детето излиза от коритото и е изпълнено с радост от това, то играе. По-късно детето отива на училище, учи се и получава читанка. То казва на читанката: „Както победих коритото, така ще победя и теб. Макар че срещам големи затруднения, и тях ще превъзмогна, но вече по друг начин“. В отделните части на пиесата са изразени различните преживявания на това дете. Те символизират етапите, през които преминава човешкото съзнание по пътя на своето пробуждане“.
