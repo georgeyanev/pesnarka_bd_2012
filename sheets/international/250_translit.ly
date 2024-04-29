@@ -9,7 +9,7 @@
   \label #'ref250
   \tocItem \markup "Alphabetische Tabelle"
 
-  \markup \fontsize  #+4.0 { \fill-line \bold {"ALPHABETISCHE TABELLE"} }
+  \markup \abs-fontsize #12 { \fill-line \bold {"ALPHABETISCHE TABELLE"} }
 
   \markuplist \fontsize  #+2 {
     \override #'(padding . 2) % horizontal distance

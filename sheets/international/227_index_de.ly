@@ -32,7 +32,7 @@
   }
 
   \markup \large \column {
-    \fill-line { \null \fontsize #+2.5 \bold "ALPHABETISCHER INDEX" \null }
+    \fill-line { \null \abs-fontsize #12 \bold "ALPHABETISCHER INDEX" \null }
     \hspace #1
   }
 
@@ -81,14 +81,15 @@
       \with-link #'ref174_1 \fill-with-pattern #1 #RIGHT . "Да бих Тe слушал – Da bih Te slušal" \page-ref #'ref174_1 "000" "?"
       \with-link #'ref110_1 \fill-with-pattern #1 #RIGHT . "Да имаш вяра – Da imaš vjara" \page-ref #'ref110_1 "000" "?"
       \with-link #'ref092_2 \fill-with-pattern #1 #RIGHT . "Давай, давай – Davaj, davaj" \page-ref #'ref092_2 "000" "?"
+       \with-link #'ref118_1 \fill-with-pattern #1 #RIGHT . "Денят иде – Denjat ide" \page-ref #'ref118_1 "000" "?"
+    
 
   }
 
   \markup \override #'(baseline-skip . 3.2)
   \column \abs-fontsize #10 {
    
-    \with-link #'ref118_1 \fill-with-pattern #1 #RIGHT . "Денят иде – Denjat ide" \page-ref #'ref118_1 "000" "?"
-      \with-link #'ref182 \fill-with-pattern #1 #RIGHT . "Десет теми – Deset temi" \page-ref #'ref182 "000" "?"
+     \with-link #'ref182 \fill-with-pattern #1 #RIGHT . "Десет теми – Deset temi" \page-ref #'ref182 "000" "?"
       \with-link #'ref063 \fill-with-pattern #1 #RIGHT . "Дишай дълбоко – Dišaj dălboko" \page-ref #'ref063 "000" "?"
       \with-link #'ref219 \fill-with-pattern #1 #RIGHT . "Добрата молитва – Dobrata molitva" \page-ref #'ref219 "000" "?"
       \with-link #'ref095_2 \fill-with-pattern #1 #RIGHT . "Добър ден – Dobăr den" \page-ref #'ref095_2 "000" "?"
@@ -130,14 +131,16 @@
       \with-link #'ref165 \fill-with-pattern #1 #RIGHT . "Малкият планински извор – Malkijat planinski izvor" \page-ref #'ref165 "000" "?"
       \with-link #'ref162 \fill-with-pattern #1 #RIGHT . "Марш на светлите сили – Marš na svetlite sili" \page-ref #'ref162 "000" "?"
       \with-link #'ref222 \fill-with-pattern #1 #RIGHT . "Марш на светлите сили II – Marš na svetlite sili II" \page-ref #'ref222 "000" "?"
+       \with-link #'ref080 \fill-with-pattern #1 #RIGHT . "Махар Бену Аба – Mahar Benu Aba" \page-ref #'ref080 "000" "?"
+      \with-link #'ref175_2 \fill-with-pattern #1 #RIGHT . "Ме-хейн – Me-hejn" \page-ref #'ref175_2 "000" "?"
+        \with-link #'ref175_3 \fill-with-pattern #1 #RIGHT . "Ме-хейн II – Me-hejn II" \page-ref #'ref175_3 "000" "?"
+      \with-link #'ref185 \fill-with-pattern #1 #RIGHT . "Мелодия 1 – Красив живот – Melodija 1 – Krasiv život" \page-ref #'ref185 "000" "?"
   }
 
   \markup \override #'(baseline-skip . 3.2)
   \column \abs-fontsize #10 {
-    \with-link #'ref080 \fill-with-pattern #1 #RIGHT . "Махар Бену Аба – Mahar Benu Aba" \page-ref #'ref080 "000" "?"
-      \with-link #'ref175_2 \fill-with-pattern #1 #RIGHT . "Ме-хейн – Me-hejn" \page-ref #'ref175_2 "000" "?"
-      \with-link #'ref175_3 \fill-with-pattern #1 #RIGHT . "Ме-хейн II – Me-hejn II" \page-ref #'ref175_3 "000" "?"
-      \with-link #'ref185 \fill-with-pattern #1 #RIGHT . "Мелодия 1 – Красив живот – Melodija 1 – Krasiv život" \page-ref #'ref185 "000" "?"
+   
+    
       \with-link #'ref186 \fill-with-pattern #1 #RIGHT . "Мелодия 2 – Melodija 2" \page-ref #'ref186 "000" "?"
       \with-link #'ref221 \fill-with-pattern #1 #RIGHT . "Мелодия 2 – В радостта – Melodija 2 – V radostta" \page-ref #'ref221 "000" "?"
       \with-link #'ref188 \fill-with-pattern #1 #RIGHT . "Мелодия 3 – Когато се денят – Melodija 3 – Kogato se denjat" \page-ref #'ref188 "000" "?"
@@ -180,15 +183,16 @@
       \with-link #'ref132 \fill-with-pattern #1 #RIGHT . "Правда – Pravda" \page-ref #'ref132 "000" "?"
       \with-link #'ref107 \fill-with-pattern #1 #RIGHT . "При всичките условия – Pri vsičkite uslovija" \page-ref #'ref107 "000" "?"
       \with-link #'ref118_2 \fill-with-pattern #1 #RIGHT . "Пролет – Prolet" \page-ref #'ref118_2 "000" "?"
+      \with-link #'ref181 \fill-with-pattern #1 #RIGHT . "Пролетна песен (Ето пристига) – Proletna pesen (Eto pristiga)" \page-ref #'ref181 "000" "?"
+      \with-link #'ref124 \fill-with-pattern #1 #RIGHT . "Пролетна песен (Мили Боже) – Proletna pesen (Mili Bože)" \page-ref #'ref124 "000" "?"
+      \with-link #'ref057 \fill-with-pattern #1 #RIGHT . "Псалом 91 – Psalom 91" \page-ref #'ref057 "000" "?"
+      \with-link #'ref174_3 \fill-with-pattern #1 #RIGHT . "Радост – Radost" \page-ref #'ref174_3 "000" "?"
 
   }
 
   \markup \override #'(baseline-skip . 3.2)
   \column \abs-fontsize #10 {
-     \with-link #'ref181 \fill-with-pattern #1 #RIGHT . "Пролетна песен (Ето пристига) – Proletna pesen (Eto pristiga)" \page-ref #'ref181 "000" "?"
-      \with-link #'ref124 \fill-with-pattern #1 #RIGHT . "Пролетна песен (Мили Боже) – Proletna pesen (Mili Bože)" \page-ref #'ref124 "000" "?"
-      \with-link #'ref057 \fill-with-pattern #1 #RIGHT . "Псалом 91 – Psalom 91" \page-ref #'ref057 "000" "?"
-      \with-link #'ref174_3 \fill-with-pattern #1 #RIGHT . "Радост – Radost" \page-ref #'ref174_3 "000" "?"
+
       \with-link #'ref122 \fill-with-pattern #1 #RIGHT . "Радост и скръб – Radost i skrăb" \page-ref #'ref122 "000" "?"
       \with-link #'ref155_1 \fill-with-pattern #1 #RIGHT . "Радост, радост за душата – Radost, radost za dušata" \page-ref #'ref155_1 "000" "?"
       \with-link #'ref121 \fill-with-pattern #1 #RIGHT . "Ранен час – Ranen čas" \page-ref #'ref121 "000" "?"
