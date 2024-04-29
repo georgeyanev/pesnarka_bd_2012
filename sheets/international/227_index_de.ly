@@ -47,7 +47,7 @@
     \fill-with-pattern #1 #RIGHT . "Аум – Aum" \page-ref #'ref075 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Бащина песен – Угледна мома – Baština pesen – Ugledna moma" \page-ref #'ref138 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Берхан-Ази – Berhan-Azi" \page-ref #'ref163 "000" "?"
-    \fill-with-pattern #1 #RIGHT . "Бершид ба – Beršid ba" \page-ref #'ref098 "000" "?"
+    \fill-with-pattern #1 #RIGHT . "Бершид Ба – Beršid Ba" \page-ref #'ref098 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Блага дума – Blaga duma" \page-ref #'ref074 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Благата песен – Blagata pesen" \page-ref #'ref086_2 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Благославяй – Blagoslavjaj" \page-ref #'ref024 "000" "?"
@@ -58,8 +58,8 @@
     \fill-with-pattern #1 #RIGHT . "Братство, единство – Bratstvo, edinstvo" \page-ref #'ref020 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Буря – Burja" \page-ref #'ref120 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Българска идилия – Bălgarska idilija" \page-ref #'ref150 "000" "?"
-    \fill-with-pattern #1 #RIGHT . "Българска рапсодия – Bălgarska rapsodija" \page-ref #'ref145 "000" "?"
-    \fill-with-pattern #1 #RIGHT . "В зорите на Живота – V zorite na Života" \page-ref #'ref081 "000" "?"
+    \fill-with-pattern #1 #RIGHT . "Българска рапсодия – Bălgarska rapsodija" \page-ref #'ref146 "000" "?"
+    \fill-with-pattern #1 #RIGHT . "В зорите на живота – V zorite na života" \page-ref #'ref081 "000" "?"
     \fill-with-pattern #1 #RIGHT . "В мрак тъмнота – V mrak tămnota" \page-ref #'ref080_1 "000" "?"
     \fill-with-pattern #1 #RIGHT . "В начало бе Словото – V načalo be Slovoto" \page-ref #'ref094 "000" "?"
     \fill-with-pattern #1 #RIGHT . "В пустинята на живота – V pustinjata na života" \page-ref #'ref095 "000" "?"
@@ -73,17 +73,17 @@
     \fill-with-pattern #1 #RIGHT . "Вътрешният глас на Бога – Vătrešnijat glas na Boga" \page-ref #'ref200 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Вяра светла I – Vjara svetla I " \page-ref #'ref170_1 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Вяра светла II – Vjara svetla II" \page-ref #'ref170_2 "000" "?"
-    \fill-with-pattern #1 #RIGHT . "Вяра светла III – Vjara svetla III" \page-ref #'ref170_3 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Гласът на Живия Господ – Glasăt na Živija Gospod" \page-ref #'ref190 "000" "?"
-  }
-
-  \markup \override #'(baseline-skip . 3.2)
-  \column \abs-fontsize #10 {
-    \fill-with-pattern #1 #RIGHT . "Господи, колко те обичам – Gospodi, kolko te običam" \page-ref #'ref210 "000" "?"
+  \fill-with-pattern #1 #RIGHT . "Господи, колко Те обичам – Gospodi, kolko Te običam" \page-ref #'ref210 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Грее, грее – Gree, gree" \page-ref #'ref078 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Да бих Тe слушал – Da bih Te slušal" \page-ref #'ref174_1 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Да имаш вяра – Da imaš vjara" \page-ref #'ref110_1 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Давай, давай – Davaj, davaj" \page-ref #'ref092_2 "000" "?"
+  }
+
+  \markup \override #'(baseline-skip . 3.2)
+  \column \abs-fontsize #10 {
+   
     \fill-with-pattern #1 #RIGHT . "Денят иде – Denjat ide" \page-ref #'ref118_1 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Десет теми – Deset temi" \page-ref #'ref182 "000" "?"
     \fill-with-pattern #1 #RIGHT . "Дишай дълбоко – Dišaj dălboko" \page-ref #'ref063 "000" "?"

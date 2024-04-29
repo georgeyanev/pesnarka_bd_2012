@@ -28,6 +28,8 @@
       \alternative {
         { d'4 e'8 d'8 | d'2 | \break d'4 c''8 b'8| a'2 }
         {
+          \override Score.MetronomeMark.outside-staff-priority = #99
+          \override Score.MetronomeMark.X-extent=#'(-4.5 . 0)
           \time 4/4
           \tempoFunc "Meno mosso" 4 "92"
           d'2 e'4 d'4 | b'1 | \tempo "rit." a'2 b'4 a'4 | g'1| \bar "|." \break

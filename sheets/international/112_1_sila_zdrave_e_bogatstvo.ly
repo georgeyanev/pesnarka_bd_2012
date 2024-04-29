@@ -26,6 +26,7 @@
         fis4 d2 |  c'8. c16 c8 b8 d8 c8 | b4 g2 | b8. c16 d4 d4 | \break
 
         c8. b16 c4 a4 |    d,8. d16 e8 e8 fis8 d8
+        \override Score.MetronomeMark.outside-staff-priority = #99
       } \alternative {
         { | g4 \tempo "         Fine" g2 | \break }
         {

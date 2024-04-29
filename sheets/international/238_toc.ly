@@ -33,12 +33,12 @@
       \fill-line { \null "INHALT" \null }
       \null
     }
- 
+  
     tocItemMarkup = \markup \abs-fontsize #10 {\fill-line   {
        
-    \fromproperty #'toc:text \tocItemWithDotsMarkup \fromproperty #'toc:page }
+  \override #`(baseline-skip . 3.2) \fromproperty #'toc:text \tocItemWithDotsMarkup \fromproperty #'toc:page }
      
-    }
+    } 
 
     tocActMarkup = \markup \large \column {
       \vspace #0.9
