@@ -76,7 +76,7 @@
       \with-link #'ref170_1 \fill-with-pattern #1 #RIGHT . "Вяра светла I" \page-ref #'ref170_1 "000" "?"
       \with-link #'ref170_2 \fill-with-pattern #1 #RIGHT . "Вяра светла II" \page-ref #'ref170_2 "000" "?"
       \with-link #'ref190 \fill-with-pattern #1 #RIGHT . "Гласът на Живия Господ" \page-ref #'ref190 "000" "?"
-      \with-link #'ref210 \fill-with-pattern #1 #RIGHT . "Господи, колко те обичам" \page-ref #'ref210 "000" "?"
+      \with-link #'ref210 \fill-with-pattern #1 #RIGHT . "Господи, колко Те обичам" \page-ref #'ref210 "000" "?"
       \with-link #'ref078 \fill-with-pattern #1 #RIGHT . "Грее, грее" \page-ref #'ref078 "000" "?"
       \with-link #'ref174_1 \fill-with-pattern #1 #RIGHT . "Да бих Тe слушал" \page-ref #'ref174_1 "000" "?"
       \with-link #'ref110_1 \fill-with-pattern #1 #RIGHT . "Да имаш вяра" \page-ref #'ref110_1 "000" "?"

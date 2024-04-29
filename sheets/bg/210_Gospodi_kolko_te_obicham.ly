@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref210
-  \tocItem \markup "Господи, колко те обичам"
+  \tocItem \markup "Господи, колко Те обичам"
   \paper {
     print-all-headers = ##t
     print-page-number = ##t
@@ -153,7 +153,7 @@
       чам Те, Гос -- по -- ди! __}
 
       \header {
-        title = \titleFunc #'ref_desc_15 "Господи, колко те обичам" "Gospodi, kolko te običam"
+        title = \titleFunc #'ref_desc_15 "Господи, колко Те обичам" "Gospodi, kolko Te običam"
       }
 
       \midi{}
