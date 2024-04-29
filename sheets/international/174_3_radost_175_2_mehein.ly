@@ -127,7 +127,7 @@
 
 
   \label #'ref175_3
-  \tocItem \markup "Ме-хейн – Me-hejn "
+  \tocItem \markup "Ме-хейн II – Me-hejn II "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -259,7 +259,7 @@
 
           } % score
 
-  \markup \vspace #1
+          \markup \vspace #1
 
           % include foreign translation(s) of the song
           \include "../../lyrics/de/174_radost_lyrics_de.ly"

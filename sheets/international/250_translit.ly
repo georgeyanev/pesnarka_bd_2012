@@ -4,7 +4,7 @@
 \include "include/globals.ily"
 
 \bookpart {
-  #(define blineskip250 2.3)
+  #(define blineskip250 3.2)
   \include "include/bookpart-paper.ily"
   \label #'ref250
   \tocItem \markup "Alphabetische Tabelle"
