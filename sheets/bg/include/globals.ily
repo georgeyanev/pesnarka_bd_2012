@@ -1,5 +1,7 @@
 \version "2.24.3"
 
+#(set-global-staff-size 15)
+
 \paper {
   #(set-paper-size "a5")
 
@@ -12,7 +14,7 @@
       #:sans "DejaVu Sans"
       #:typewriter "DejaVu Sans Mono"
       ; unnecessary if the staff size is default
-      #:factor (/ staff-height pt 29)
+      #:factor (/ staff-height pt 20)
       ))
 }
 
@@ -160,7 +162,7 @@ titleFunc = #(define-scheme-function
    )
 
 #(define bgCoupletFontSize +2.5)
-#(define bgCoupletBaselineSkip 2.4)
+#(define bgCoupletBaselineSkip 3.2)
 
 #(define deTitleFontSize 5)
 #(define deCoupletFontSize +2.5)

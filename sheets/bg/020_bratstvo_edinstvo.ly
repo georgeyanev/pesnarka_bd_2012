@@ -2,14 +2,12 @@
 
 % include paper part and global functions
 \include "include/globals.ily"
-
 \bookpart {
   \label #'ref020
   \tocItem \markup "Братство, единство"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
-
     \new Voice \absolute {
       \clef treble
       \key g \major
