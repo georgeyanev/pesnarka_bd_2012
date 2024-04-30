@@ -128,7 +128,7 @@
 
 
 
-      \vspace #0.5
+      
       \line {
         \justify {
           \concat {\with-link #'ref018 \bold "Излязъл е сеяч – Izljazăl e sejač."}
@@ -656,7 +656,7 @@
     \column {
 
 
-      \vspace #0.5
+     
       \line {
         \justify {
           geschaffen. In der okkulten Musik werden niemals doppeldeutige Wörter und Töne zugelassen. In dieser Hinsicht ist das Lied  \italic "Izgrjava" \italic "slănceto" ein Vorbild.“
@@ -710,7 +710,7 @@
     \column {
 
 
-      \vspace #0.5
+     
       \line {
         \justify {
           Große, \italic" Benu" der, der segnet und \italic"Aba" – der Vater aller Dinge. Im Vortrag „ Mahar Benu Aba“ aus dem Zyklus Jugenokkultklasse, 12 Dezember 1941, 12. Vortrag gibt Danov folgende Erläuterung des Liedes: \italic"Mahar" ist eine natürliche, nach unten gerichtete Bewegung. \italic"Benu" ist der Aufstieg nach oben. \italic"Aba" bedeutet, den Ort bestiegen zu haben, den du erstrebst. Dort ist es eben; es gibt genügend Raum und du kannst dich bewegen. Das bedeutet, dass es drei Konzepte gibt: den Abstieg, den Aufstieg und eine natürliche Bewegung, bei der die Hindernisse beseitigt werden. Die Hindernisse ergeben sich aus dem Auf- und Abstieg. Bei \italic"Aba" wird der Gang zu etwas Natürlichem. Dies bedeutet, dass du dich an die Arbeit machst.  \italic"Mahar" ist der schönste Ort, zu dem du hinabsteigen kannst;   \italic"Benu" ist der schönste Ort, zu dem du aufsteigen kannst;   \italic"Aba" ist der schönste ebene Ort, wo du arbeiten und leben kannst. (Kommentar vom 12. Dezember 1941, Allgemeine Okkultklasse, XXI. Jahrgang, 12. Vortrag.)
@@ -1062,7 +1062,7 @@
 
 
 
-      \vspace #0.5
+   
       \line {
         \justify {
           \concat {\with-link #'ref170_2 \bold "Вяра светла II – Vjara svetla II."} Eine andere Melodie, gegeben während des Gesprächs, das Danov mit den Gruppenleitern am 19 April 1927 in Sofia geführt hat. Das Lied fehlt im Liederbuch von 1949. Sie wurde von Peter Ganev nach den Erinnerungen seines Vaters Penjo Ganev notiert.
@@ -1074,10 +1074,10 @@
           \concat {\with-link #'ref190 \bold "Гласът на Живия Господ – Новото Възкресение – Glasăt na  Živija Gospod" } \bold "  – Novoto  Văzkresenie" Das Lied fehlt im Liederbuch von Maria Todorova. Ihr Ursprung ist nicht gesichert. Wahrscheinlich wurde das Lied Liljana Tabakova gegeben, die es später als eigene Komposition entwickelt. Der erste Teil des Textes kommt im Vortra vom 29 Mai 1921, Sofia, Sontagsvorträge „Sie sollen geprüft werden“. Der zweite Teil ist eine passage aus dem eigenen Notitzbuch von Petar Danov. Die Notierung des Liedes wurde nach dem Vortrag des Liedes von Boris Nikolov von Peter Ganev in den 70. Jahre des 20. Jahrhunderts.
         }
       }
-      \vspace #0.5
+      \vspace #0.9
       \line {
         \justify {
-          \concat {\with-link #'ref210 \bold  "Господи, колко Те обичам! – Gospodi, kolko te običam!"} Petar Danov komponierte das Lied am 22. August 1943 im Beisein von Liljana Tabakova.
+          \concat {\with-link #'ref210 \bold  "Господи, колко Те обичам! – Gospodi, kolko Te običam!"} Petar Danov komponierte das Lied am 22. August 1943 im Beisein von Liljana Tabakova.
         }
       }
 
@@ -1201,7 +1201,7 @@
 
 
 
-      \vspace #0.5
+  
       \line {
         \justify {
           \concat {\with-link #'ref162 \bold "Марш на светлите сили – Marš na svetlite sili."} 27. Mai. 1936. Siegreicher Marsch der lichten Engelmächte in der lebendigen Natur, die in ihrem charakteristischen Rhythmus schreiten. Mit dieser Musik erhebt sich der Mensch in die Welt der Engel.
@@ -1327,8 +1327,6 @@
     \override #'(baseline-skip . 3.2)
     \column {
 
-
-      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref164 \bold "Песен на детето – Pesen na deteto."} Gegeben  1934. Das Lied erzählt die Geschichte eines Kindes, das aus dem Zuber aussteigen will, in dem es badet. Seine Mutter möchte es daran hindern, und es ist unzufrieden.
@@ -1399,7 +1397,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref202 \bold  "Химн на Слънцето  –  Himn na Slănceto."} Das Lied wurde am 5. Mai 1942 von Petar Danov im Beisein von Liljana Tabakova komponiert. „Mit diesem Lied werdet ihr die aufgehende Sonne begrüßen. Dies ist das Gebet zum Sonnenaufgang. Es ist eine majestätische Hymne an alle Sonnen. Diese Hymnen werden auch von den Engeln gesungen.“ Dieses Lied wird zusammen mit dem nächsten Lied \italic"Molitva" ausgeführt.
+          \concat {\with-link #'ref202 \bold  "Химн на Слънцето  –  Himn na Slănceto."} Das Lied wurde am 5. Mai 1942 von Petar Danov im Beisein von Liljana Tabakova komponiert. „Mit diesem Lied werdet ihr die aufgehende Sonne begrüßen. Dies ist das Gebet zum Sonnenaufgang. Es ist eine majestätische Hymne an alle Sonnen. Diese Hymnen werden auch von den 
         }
       }
 
@@ -1412,8 +1410,14 @@
   \markup \abs-fontsize #10   {
     \override #'(baseline-skip . 3.2)
     \column {
-      
-      \vspace #0.8
+       
+      \line {
+        \justify {
+         Engeln gesungen.“ Dieses Lied wird zusammen mit dem nächsten Lied \italic"Molitva" ausgeführt.
+        }
+      }
+  \vspace #0.5
+   
       \line {
         \justify {
           \abs-fontsize #11 \bold { \fill-line { \bold "Addendum "} }
@@ -1422,13 +1426,13 @@
       \vspace #0.6
       \line {
         \justify {
-          \concat {\with-link #'ref253 \bold "Добрата молитва - Dobrata molitva."} Text Peter Danov, Musik Peter Ganev. Die Musik wurde 2011 geschrieben.
+          \concat {\with-link #'ref253 \bold "Добрата молитва – Dobrata molitva."} Text Peter Danov, Musik Peter Ganev. Die Musik wurde 2011 geschrieben.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref254 \bold "Марш на светлите сили II - Marš na svetlite sili II."} Musik von Peter Danov, Text Peter Ganev. Der Text wurde 2014 verfasst.
+          \concat {\with-link #'ref254 \bold "Марш на светлите сили II – Marš na svetlite sili II."} Musik von Peter Danov, Text Peter Ganev. Der Text wurde 2014 verfasst.
         }
       }
       \vspace #0.5
