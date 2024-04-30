@@ -239,7 +239,7 @@
         ču -- e -- te gla -- sa na an
         --  ge -- li -- te, ko -- i
         --  to pe -- jat. Te pe --
-        jat pe -- "sen-" -- ta na Lju -- bov
+        jat pe -- sen -- ta na Lju -- bov
         -- ta. Te pe -- jat: „Vi -- e, če --
         lo -- ve -- ci -- te, ko -- i --
         to ste săz -- da -- de -- ni --
@@ -249,10 +249,10 @@
         ši -- ja Tvo -- rec, __ slu --
         šaj -- te __  gla -- sa __  na va
         -- šija Ba -- šta, Koj -- to dnes
-        vi __  go -- vo -- ri. Slu -- "šaj-"
+        vi __  go -- vo -- ri. Slu -- šaj
         -- te Go. Slu -- šaj -- te Go
         vij, i ni -- e să -- što Go slu --
-        ša -- me. "Văr-" -- še -- te Vo -- lja --
+        ša -- me. Văr -- še -- te Vo -- lja --
         ta Mu, i ni -- e să -- što văr --
         šim Vo -- lja -- ta __  Mu. To -- zi
         e smi -- să -- lăt na  ži -- vo

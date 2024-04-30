@@ -85,7 +85,7 @@
         -- grja -- va. Vsič -- ko se
         bu -- di, ras -- te, ži -- ve -- e i __
         se __  rad -- va, i "bla-" -- "go-" --
-        "da-" -- ri na Bo -- ga. Pro -- let,
+        da -- ri na Bo -- ga. Pro -- let,
         pro -- let e do -- šla. Pti -- čen
         -- ce v~ne -- be -- to slad -- ko
         ču -- ru -- li -- ka, Slăn -- ce -- to

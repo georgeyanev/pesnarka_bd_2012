@@ -178,11 +178,11 @@
 
     \addlyrics {
       I -- de ve -- če, | i -- de | "s~pal" -- mo -- vo __ klon -- če |
-      na "mi-" -- ra. | Sli -- za toj ot -- | Go -- re, | sli -- za toj, ves -- |
-      ti -- tel blag. | I -- de ve -- če __ | "s~pal" -- mo -- vo "klon-" -- če |
+      na mi -- ra. | Sli -- za toj ot -- | Go -- re, | sli -- za toj, ves -- |
+      ti -- tel blag. | I -- de ve -- če __ | "s~pal" -- mo -- vo klon -- če |
       ka -- to si -- | ja -- ni -- e. | I -- de mi -- răt __ |
       o -- be -- štan săs | ne -- go -- vi -- ja __ | pog -- led čist. |
-      Vsič -- ki du -- ši __ | poz -- dra -- vja -- | va, | "vsič-" -- ki "săr-" -- ca "vdăh-" -- no -- vja -- |
+      Vsič -- ki du -- ši __ | poz -- dra -- vja -- | va, | vsič -- ki săr -- ca "vdăh-" -- no -- vja -- |
       va "s~li" -- | ka si | blag, mil, o -- za -- | ren. |
       "Ra-" -- dost i ve -- se -- li -- e raz -- | na -- sja toj na -- | vred, kă -- de --
       to mi -- ne. | I -- de toj văv  | ran -- ni -- te zo -- | ri, |
@@ -191,7 +191,7 @@
       svo -- i -- te de -- | ca. Pol -- ski -- te cve -- | tja săs __ |
       a -- ro -- mat __ | go po -- sre -- | štat. Mal -- ki -- te gor -- ski |
       ptič -- ki ot __ văz -- | torg __ | pes -- ni pe -- jat ne -- mu |
-      i sve -- ži -- te | stru -- i | na "pla-" -- nin -- ski | iz -- vor -- če -- ta |
+      i sve -- ži -- te | stru -- i | na pla -- nin -- ski | iz -- vor -- če -- ta |
       tuk li -- ku -- | vat. | Zlat -- ni ni -- vi | bla -- go -- go -- vej -- no |
       kla -- so -- ve na -- | vež -- dat. | Cja -- la -- ta Pri -- | ro -- da __ |
       e __ hram ve -- | lik. | I -- de an -- gel | na mi -- ra |
@@ -202,7 +202,7 @@
       Bo -- ži -- ja ves -- | ti -- tel | ča -- ka | toj. |
       I -- de ve -- če __ | an -- gel na mi -- ra săs |
       klon -- če pal -- mo -- | vo i že -- zăl. | Sli -- za toj ot -- go -- re, |
-      car -- stven i "že-" -- lan kat | slăn -- če -- va us -- | miv -- ka bla -- ga |
+      car -- stven i že -- lan kat | slăn -- če -- va us -- | miv -- ka bla -- ga |
       i "s~ra" -- dost | păl -- ni săr -- | ca -- ta ni toj. |
     }
     \header {

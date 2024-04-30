@@ -153,7 +153,7 @@
     }
 
     \addlyrics {
-      "1. V~le-" -- ten
+      "1. V~le" -- ten
       den, v~ran -- ni zo -- ri maj -- ka mi ti -- ho se prib --
       li -- ži. S~sla -- dăk glas bla -- ga du -- ma mi
       ka -- za: „Sta -- vaj, __ dă -- šte, __ na __ ni -- va

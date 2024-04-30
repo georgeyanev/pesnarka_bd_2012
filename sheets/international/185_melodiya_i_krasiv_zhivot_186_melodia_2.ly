@@ -76,7 +76,7 @@
 
     \addlyrics {
       Кра -- сив "жи-" -- вот в~без -- кра --
-      ен път! "При-" -- пом -- ням си по --
+      ен път! При -- пом -- ням си по --
       ня -- ко -- га, ня -- къ -- де да --
       леч бе то. Там "Слън-" -- це нив --
       га не за -- ляз -- ва -- ше __  и
@@ -97,22 +97,22 @@
 
       \addlyrics {
         Kra -- siv "ži-" -- vot v~bez -- kra --
-        en păt! "Pri-" -- pom -- njam si po --
+        en păt! Pri -- pom -- njam si po --
         nja -- ko -- ga, nja -- kă -- de da --
         leč be to. Tam Slăn -- ce niv --
         ga ne za -- ljaz -- va -- še __  i
         ne -- be -- to vi -- na -- gi la --
-        zur no, mir i svet -- "li-" -- na.
+        zur no, mir i svet -- li -- na.
         Him -- ni na Lju -- bov -- ta an --
-        ge -- li "bez-" -- spir -- no pe --
-        jat, "trep-" -- tjat, zvu -- čat "v~a-" --
-        kord "zvezd-" -- ni -- te vse -- le
+        ge -- li bez -- spir -- no pe --
+        jat, trep -- tjat, zvu -- čat "v~a-" --
+        kord zvezd -- ni -- te vse -- le
         -- ni. I văz -- ze -- ma se
         v~du -- ša -- ta mor -- na ve --
         čen kop -- než. V~skăr -- bi,
         ra -- dost, săl -- zi pă -- tjat mi
         iz -- vež -- da, znam.  "Du-" -- hăt mo --
-        găšt le -- ti "v~slăn-" -- če -- va ro
+        găšt le -- ti v~slăn -- če -- va ro
         -- di  -- na.}
 
         \header {
@@ -131,42 +131,42 @@
       \label #'ref186
       \tocItem \markup "Мелодия 2 – Melodija 2"
       \paper {
-    % the system system spacing is custom here so do not include bookpart-paper.ily
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
+        % the system system spacing is custom here so do not include bookpart-paper.ily
+        print-all-headers = ##t
+        print-page-number = ##t
+        print-first-page-number = ##t
 
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-      ""
-    }
+        % put page numbers on the bottom
+        oddHeaderMarkup = \markup ""
+        evenHeaderMarkup = \markup ""
+        oddFooterMarkup = \markup
+        \fill-line {
+          ""
+          \if \should-print-page-number \fromproperty #'page:page-number-string
+        }
+        evenFooterMarkup = \markup
+        \fill-line {
+          \if \should-print-page-number \fromproperty #'page:page-number-string
+          ""
+        }
 
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.2\cm
-    bottom-margin = 1.0\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+        left-margin = 1.5\cm
+        right-margin = 1.5\cm
+        top-margin = 1.2\cm
+        bottom-margin = 1.0\cm
+        ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
 
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 14)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 10))
-  }
+        % change distance between staves
+        system-system-spacing =
+        #'((basic-distance . 14)
+           (minimum-distance . 6)
+           (padding . 1)
+           (stretchability . 10))
+      }
 
-  \header {
-    tagline = ##f
-  }
+      \header {
+        tagline = ##f
+      }
       \score {
         \include "include/score-layout.ily"
 

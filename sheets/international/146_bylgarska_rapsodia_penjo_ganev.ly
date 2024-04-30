@@ -241,7 +241,7 @@
       Из -- во -- рът стру -- и, из -- ви -- ра __ и чис -- ти во -- ди раз -- ли -- ва, __
       пла -- "нин-" -- ска пе -- сен раз -- низ -- ва. __
       Mо -- ма -- та мен -- ци на -- ли -- ва, __
-      "в~пе-" -- сен -- та "ти-" -- хо се за -- слуш -- ва. __ ""
+      "в~пе-" -- сен -- та ти -- хо се за -- слуш -- ва. __ ""
       \repeat unfold 31 { \skip 1  }
       Ще о -- ти -- да та -- мо го -- ре, ще о -- ти -- да
       "в~пла-" -- ни -- на -- та, чис -- ти во -- ди да по -- гле -- дам, ти -- ха пе -- сен
@@ -253,7 +253,7 @@
       Ли -- ля -- но, не чу -- я, ах, __ от таз во -- да а -- ко не пи -- я, __
       скръб ще ми пъл -- ни сър -- це -- то. __ ""
       \repeat unfold 97 { \skip 1 }
-      Ли -- "ля-" -- но "мо-" -- ме, ти "в~пла-" -- "ни-" -- "на-" -- та
+      Ли -- "ля-" -- но мо -- ме, ти "в~пла-" -- "ни-" -- "на-" -- та
       там го -- ре ще ме за -- ве -- деш, из -- во -- рът де -- то из -- ви -- ра.
       \repeat unfold 30 { \skip 1 }
       Го -- ре "в~пла-" -- ни -- на -- та, "Слън-" -- це дей о --
@@ -272,7 +272,7 @@
       Iz -- vo -- răt stru -- i, iz -- vi -- ra __ i čis -- ti vo -- di raz -- li -- va, __
       pla -- nin -- ska pe -- sen raz -- niz -- va. __
       Mo -- ma -- ta men -- ci na -- li -- va, __
-      "v~pe-" -- sen -- ta "ti-" -- ho se za -- sluš -- va. __ ""
+      "v~pe-" -- sen -- ta ti -- ho se za -- sluš -- va. __ ""
       \repeat unfold 31 { \skip 1  }
       Šte o -- ti -- da ta -- mo go -- re, šte o -- ti -- da
       "v~pla-" -- ni -- na -- ta, čis -- ti vo -- di da po -- gle -- dam, ti -- ha pe -- sen
@@ -284,7 +284,7 @@
       Li -- lja -- no, ne ču -- ja, ah, __ ot taz vo -- da a -- ko ne pi -- ja, __
       skrăb šte mi păl -- ni săr -- ce -- to. __ ""
       \repeat unfold 97 { \skip 1 }
-      Li -- "lja-" -- no "mo-" -- me, ti "v~pla-" -- "ni-" -- "na-" -- ta
+      Li -- "lja-" -- no "mo-" -- me, ti v~pla -- ni -- na -- ta
       tam go -- re šte me za -- ve -- deš, iz -- vo -- răt de -- to iz -- vi -- ra.
       \repeat unfold 30 { \skip 1 }
       Go -- re v~pla -- ni -- na -- ta, Slăn -- ce dej o --

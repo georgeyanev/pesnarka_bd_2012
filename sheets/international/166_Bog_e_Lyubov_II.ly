@@ -135,7 +135,7 @@
         "Lju-" -- bov,  Bog __
         e Lju -- bov. Več --
         na, bez -- gra -- nič
-        -- na, păl -- na săs "ži-" --
+        -- na, păl -- na săs ži --
         vot, ži --  vot na bla -- gi
         -- ja Bo -- ži Duh. Duh na bla --
         gost -- ta, Duh __  na __  svja --
@@ -147,7 +147,7 @@
         ho -- dim văv to -- zi păt na
         svet -- li -- na -- ta, na svet --
         li -- na -- ta, na svet -- li -- na --
-        ta, na svet -- "li-" -- na --
+        ta, na svet -- li -- na --
         ta, văv ko -- ja -- to ca -- ru
         -- va Bo -- ži --  ja -- ta
         Lju -- bov.}

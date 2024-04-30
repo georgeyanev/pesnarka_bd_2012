@@ -331,7 +331,7 @@
       do -- bre po -- zna -- va, ne -- ja ži -- to do -- bre po -- zna -- va.
       Hu -- ba -- va mo -- ma se, sin -- ko, do -- bre po -- zna -- va, __
       ko -- ga na gum -- no __  ži -- to ot -- vja -- va __ i văv re --
-      še -- to __ go pre -- sja -- va, __ v~žit -- "ni-" -- ci go tu -- rja __
+      še -- to __ go pre -- sja -- va, __ v~žit -- ni -- ci go tu -- rja __
       i na __  bed -- ni hljab da -- va. __ Ne -- ja vsič -- ki,
       mal -- ki i go -- le -- mi, do -- bre ja po -- zna -- vat, __
       ne -- ja vsič -- ki, mal -- ki i go -- le -- mi, do -- bre

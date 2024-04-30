@@ -109,19 +109,19 @@
     }
 
     \addlyrics {
-      Az  no -- sja "skrăb-" -- ta si
+      Az  no -- sja skrăb -- ta si
       s~ra -- dost văv ži -- vo -- ta;
       tja mi e dru -- gar -- ka bla --
-      ga, što "dob-" -- re me u -- či. Az
-      no -- sja "skrăb-" -- ta si
+      ga, što dob -- re me u -- či. Az
+      no -- sja skrăb -- ta si
       s~ra -- dost văv ži -- vo -- ta;
       tja mi e dru -- gar -- ka, što me
       u -- či. Ma -- kar bez -- spir -- no
-      i da păš -- kam, krot -- ko tja "na-"
-      -- pred me vo -- di. I "slad-" -- ki
+      i da păš -- kam, krot -- ko tja na
+      -- pred me vo -- di. I slad -- ki
       du -- mi mi go -- vo -- ri tja za
-      "ses-" -- tra si Ra -- dost, ko -- ja --
-      to "s~ra-" -- dost šte me po -- srešt
+      ses -- tra si Ra -- dost, ko -- ja --
+      to s~ra -- dost šte me po -- srešt
       -- ne. Trep -- na păr -- vi păt to
       -- gaz săr -- ce -- to mi za moj --
       ta ses -- tra Ra -- dost.
@@ -136,7 +136,7 @@
 
   } % score
 
-\pageBreak
+  \pageBreak
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/180_pesenta_sa_dvete_sestri_lyrics_de.ly"

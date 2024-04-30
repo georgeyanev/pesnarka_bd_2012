@@ -137,12 +137,12 @@
         Sta -- ne -- te, o -- ži -- vej --
         te, vi -- e, ko -- i -- to ste sta --
         na -- li. Sta -- ne -- te, văz --
-        "kres-" -- ne -- te, vi -- e, ko -- i
+        kres -- ne -- te, vi -- e, ko -- i
         -- to ste o -- ži -- ve -- li. Čuj --
         te, "Gos-" -- pod "se-" -- ga vi "go-" --
         vo -- ri: „Mo -- ja -- ta ră -- ka
         ne se e să -- kra -- ti -- la da
-        da -- vam. "Pă-" -- len Săm săs i --
+        da -- vam. Pă -- len Săm săs i --
         zo -- bi -- li -- e i ne -- iz -- čer
         -- pa -- em Săm, ko -- e -- to dăr --
         ža za vsič -- ki o -- ne -- zi, ko

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref210
-  \tocItem \markup "Господи, колко те обичам – Gospodi, kolko te običam "
+  \tocItem \markup "Господи, колко Те обичам – Gospodi, kolko Te običam "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -135,7 +135,7 @@
         čam Te, Gos -- po -- di! __}
 
         \header {
-          title = \titleFunc "Господи, колко те обичам" "Gospodi, kolko te običam"
+          title = \titleFunc "Господи, колко Те обичам" "Gospodi, kolko Te običam"
         }
 
         \midi{}

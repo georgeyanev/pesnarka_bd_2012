@@ -57,7 +57,7 @@
 
   } % score
 
-\markup \vspace #3
+  \markup \vspace #3
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/169_2_svoboda_e_potrebna_sa_dushata_lyrics_de.ly"

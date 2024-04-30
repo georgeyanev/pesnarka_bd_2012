@@ -4,13 +4,13 @@
 \include "include/globals.ily"
 
 \bookpart {
-\label #'ref219
+  \label #'ref219
   \tocItem \markup "Добрата молитва – Dobrata molitva"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
 
-   \new Voice  \absolute {
+    \new Voice  \absolute {
       \clef treble
       \key c \major
       \time 4/4
@@ -183,61 +183,61 @@
       за -- кон. За -- що -- то на Теб при -- на --
       дле -- жи Цар -- "ство-" -- то, Си -- ла -- та и Сла
       -- ва -- та за -- ви -- на -- ги. А -- мин.}
-   
-    \addlyrics {
-      Gos -- po -- di Bo -- že naš,
-      "Bla-" -- gij ni "Ne-" -- "be-" -- sen Ba -- šta, "Koj-"
-      -- to Si ni po -- da -- ril ži -- vot i zdra --
-      ve da  __ Ti se rad -- va -- me, mo -- lim Ti se,
-      "iz-" -- "pro-" -- vo -- di ni Du --
-      hăt Si da ni pa -- zi i za -- kri -- lja ot vsja --
-      ko zlo i lu -- ka -- vo "po-" -- miš -- le -- ni
-      -- e. Na -- u -- či -- ni -- da pra -- vim Tvo
-      -- ja -- ta Vo -- lja, da os -- ve -- tja -- va
-      -- me Tvo -- e -- to I -- me i da Te sla --
-      vo -- slo -- vim vi -- na -- gi. Os -- ve -- tja
-      vaj du -- hăt __ ni, "pro-" -- sve -- šta -- vaj
-      "săr-"  -- ca -- ta i u -- măt ni, da "pa-" -- zim
-      Tvoi -- te za -- po -- ve -- di i po -- ve
-      -- le -- ni -- ja. "Vdăh-" -- vaj v~nas s~pri -- săst --
-      vi -- e -- to Si čis -- ti -- te Si mis -- li
-      i ni u -- păt -- vaj da Ti slu -- žim săs ra
-      -- dost. Ži -- vo -- tăt si, koj -- to po -- sve
-      -- šta -- va -- me na Teb, za dob -- ro -- to
-      na na -- ši -- te bra -- tja i  bliž
-      -- ni, Ti bla -- go -- sla -- vjaj. Po -- ma --
-      gaj ni i ni să -- dej -- stvaj da ras -- tem
-      văv vsja -- ko poz -- na -- ni -- e i Măd --
-      rost. Da se u -- čim ot Tvo -- e -- to Slo --
-      vo i da pre -- băd -- va -- me v Tvo -- ja --
-      ta Is -- ti -- na. Ră -- ko -- vo -- di __  ni
-      văv vsič -- ko, ko -- e -- to mis -- lim i văr
-      -- šim za Tvo -- e -- to I -- me, da e za
-      us pe -- ha na Tvo -- e -- to Car -- stvo
-      na Ze -- mja -- ta. Hra -- ni du -- ši -- te ni
-      s~ne -- bes -- ni -- ja Si hljab. "Uk-" -- re pja --
-      vaj ni săs Si -- la -- ta Si, da us -- pja
-      -- va -- me v~ži -- vo -- ta si. I ka -- to ni
-      da -- vaš vsič -- ki -- te Tvo -- i bla --
-      "go-" -- "slo-" -- ve -- ni -- ja, "pri-" -- lo -- ži
-      "Lju-" -- bov -- ta Si da  __ ni e ve -- čen --
-      za -- kon. Za -- što -- to na Teb pri -- na --
-      dle -- ži Car -- "stvo-" -- to, Si -- la -- ta i Sla
-      -- va -- ta za -- vi -- na -- gi. A -- min.}
 
-    \header {
-      title = \titleFunc "Добрата молитва" "Dobrata molitva"
-    }
+      \addlyrics {
+        Gos -- po -- di Bo -- že naš,
+        Bla -- gij ni "Ne-" -- "be-" -- sen Ba -- šta, Koj
+        -- to Si ni po -- da -- ril ži -- vot i zdra --
+        ve da  __ Ti se rad -- va -- me, mo -- lim Ti se,
+        iz -- pro -- vo -- di ni Du --
+        hăt Si da ni pa -- zi i za -- kri -- lja ot vsja --
+        ko zlo i lu -- ka -- vo po -- miš -- le -- ni
+        -- e. Na -- u -- či -- ni -- da pra -- vim Tvo
+        -- ja -- ta Vo -- lja, da os -- ve -- tja -- va
+        -- me Tvo -- e -- to I -- me i da Te sla --
+        vo -- slo -- vim vi -- na -- gi. Os -- ve -- tja
+        vaj du -- hăt __ ni, pro -- sve -- šta -- vaj
+        săr  -- ca -- ta i u -- măt ni, da "pa-" -- zim
+        Tvoi -- te za -- po -- ve -- di i po -- ve
+        -- le -- ni -- ja. Vdăh -- vaj v~nas s~pri -- săst --
+        vi -- e -- to Si čis -- ti -- te Si mis -- li
+        i ni u -- păt -- vaj da Ti slu -- žim săs ra
+        -- dost. Ži -- vo -- tăt si, koj -- to po -- sve
+        -- šta -- va -- me na Teb, za dob -- ro -- to
+        na na -- ši -- te bra -- tja i  bliž
+        -- ni, Ti bla -- go -- sla -- vjaj. Po -- ma --
+        gaj ni i ni să -- dej -- stvaj da ras -- tem
+        văv vsja -- ko poz -- na -- ni -- e i Măd --
+        rost. Da se u -- čim ot Tvo -- e -- to Slo --
+        vo i da pre -- băd -- va -- me v Tvo -- ja --
+        ta Is -- ti -- na. Ră -- ko -- vo -- di __  ni
+        văv vsič -- ko, ko -- e -- to mis -- lim i văr
+        -- šim za Tvo -- e -- to I -- me, da e za
+        us pe -- ha na Tvo -- e -- to Car -- stvo
+        na Ze -- mja -- ta. Hra -- ni du -- ši -- te ni
+        s~ne -- bes -- ni -- ja Si hljab. "Uk-" -- re pja --
+        vaj ni săs Si -- la -- ta Si, da us -- pja
+        -- va -- me v~ži -- vo -- ta si. I ka -- to ni
+        da -- vaš vsič -- ki -- te Tvo -- i bla --
+        "go-" -- "slo-" -- ve -- ni -- ja, pri -- lo -- ži
+        "Lju-" -- bov -- ta Si da  __ ni e ve -- čen --
+        za -- kon. Za -- što -- to na Teb pri -- na --
+        dle -- ži Car -- "stvo-" -- to, Si -- la -- ta i Sla
+        -- va -- ta za -- vi -- na -- gi. A -- min.}
 
-    \midi{}
+        \header {
+          title = \titleFunc "Добрата молитва" "Dobrata molitva"
+        }
 
-  } % score
+        \midi{}
 
- \pageBreak
-  % include foreign translation(s) of the song
-  \include "../../lyrics/de/219_dobrata_molitva_lyrics.ly"
+      } % score
 
-} % bookpart
+      \pageBreak
+      % include foreign translation(s) of the song
+      \include "../../lyrics/de/219_dobrata_molitva_lyrics.ly"
 
-% Più mosso
-%
+    } % bookpart
+
+    % Più mosso
+    %

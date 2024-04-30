@@ -171,7 +171,7 @@
         Bo -- žest -- ve -- na Lju -- bov __
         du -- ša mi raz -- ši -- ri
         i iz -- păl -- ni săr -- ce -- to
-        mi s~lă -- či. Ot "dăl-" -- bo -- ki
+        mi s~lă -- či. Ot dăl -- bo -- ki
         glă -- bi -- ni pov -- dig -- na
         du -- ha mi văv vi -- si -- ni na
         kri -- la -- ta si bla -- go -- slo

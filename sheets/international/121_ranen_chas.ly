@@ -107,16 +107,16 @@
         va se du -- ša -- ta na sve -- ta
         za ve -- li -- ka -- ta Lju -- bov.
         Pej, "săr-" -- ce, za -- bra -- vi
-        "skrăb-" -- ta i bu -- ri -- te čo --
+        skrăb -- ta i bu -- ri -- te čo --
         veš -- ki v~to -- ja di -- ven čas.
         Čuj __  gla -- sa mi! Ve -- li --
         ki -- jat ži -- vot se raž -- da
         v~tež -- ka -- ta skrăb. Ti -- ha
-        "ra-" -- dost, nov ži -- vot no -- si
+        ra -- dost, nov ži -- vot no -- si
         ta -- zi bu -- rja na sve -- ta.
-        Nov ži -- vot na "lju-" -- bov du --
+        Nov ži -- vot na lju -- bov du --
         ša mi da stop -- li. Svo -- bo
-        -- da, "si-" -- len duh i mir šte i --
+        -- da, si -- len duh i mir šte i --
         maš ti. Čuj __  gla -- sa mi!
         Ti -- hi zvu -- ci teb zo -- vat,
         več -- na Lju -- bov tam ca -- ri!}
@@ -137,7 +137,7 @@
 
       } % score
 
-\markup \vspace #3
+      \markup \vspace #3
 
       % include foreign translation(s) of the song
       \include "../../lyrics/de/121_ranen_chas_lyrics_de.ly"

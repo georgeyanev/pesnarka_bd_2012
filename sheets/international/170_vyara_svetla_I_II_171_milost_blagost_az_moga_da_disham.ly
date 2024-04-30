@@ -130,11 +130,11 @@
             Vja -- ra svet --   la,
             vja -- ra sil --   na!
             Tja vo -- di nas kăm Bo --
-            ga, bla -- "go-" -- to na ži -- vo
+            ga, bla -- go -- to na ži -- vo
             -- ta, Lju -- bov -- ta na Bo --
             ga, gde  mir vla -- de --
             e i Is -- ti -- na -- ta več
-            -- no grej. Vja -- ra "svet-" -- la,
+            -- no grej. Vja -- ra svet -- la,
             vja -- ra sil -- na! Tja kre -- pi
             du -- ha, što ži -- vot no -- si.}
 
@@ -147,7 +147,7 @@
           } % score
 
 
-      
+
           % include foreign translation(s) of the song
           \include "../../lyrics/de/170_2_vyra_svetla_II_lyrics_de.ly"
 

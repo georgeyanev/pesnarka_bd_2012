@@ -114,7 +114,7 @@
       \addlyrics {
         Gos -- po -- di, Ti ži -- ve --
         eš v~me -- ne, Ti ži -- ve --
-        eš v~me -- ne. "Ka-" -- ži mi ti,
+        eš v~me -- ne. Ka -- ži mi ti,
         svet -- li Bo -- ži lăč, ka --
         ži mi ti bla -- go -- to na ži --
         vo -- ta, svet -- li -- ja prav

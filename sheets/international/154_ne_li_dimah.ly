@@ -63,7 +63,7 @@
       -- mah, mi -- la ma -- mo, __ ne li __ kaz -- vah da
       ne __ se -- di na -- ša Don -- ka kraj og -- ni --
       šte, v~kă -- šti sa -- mo da se gu -- ši, a da
-      i -- de, ma -- mo, ve -- če na "ško-" -- lo -- to,
+      i -- de, ma -- mo, ve -- če na ško -- lo -- to,
       da za -- poč -- ne da se u -- či. Na -- ša __ Don
       -- ka, mi -- la ma -- mo, e ro -- de -- na mo --
       ma um -- na, da -- ro -- vi -- ta, ta e vre --

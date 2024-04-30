@@ -74,10 +74,10 @@
     }
 
     \addlyrics {
-      Ra -- dost, "ra-" -- dost za du -- ša
+      Ra -- dost, ra -- dost za du -- ša
       --  ta __  no -- si
       čis -- to -- ta -- ta. Ra -- dost,
-      "ra-" -- dost, "ra-" -- dost, "ra-" -- dost
+      ra -- dost, ra -- dost, ra -- dost
       za du -- ša -- ta __  no -- si
       čis -- to -- ta -- ta. Čis -- ti bă --
       de -- te ka -- to pče -- li -- te.

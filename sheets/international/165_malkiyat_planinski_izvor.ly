@@ -118,7 +118,7 @@
     }
 
     \addlyrics {
-      Bli -- ka i pe -- e iz -- "vo-" --
+      Bli -- ka i pe -- e iz -- vo --
       răt čist, s~pog -- led ne -- vi --
       nen, ve -- dăr, lă -- čist. V~sku --
       ta pla -- nin -- ski ro -- dil se
@@ -129,7 +129,7 @@
       li -- va sve -- žest,  kra -- so
       -- ta, măl -- vi za Lju -- bov -- ta. __
       V~săr -- ce -- to na čo -- ve
-      -- ka o -- "tek-" -- va pe -- sen -- ta. __
+      -- ka o -- tek -- va pe -- sen -- ta. __
       V~săr -- ta. __
 
     }

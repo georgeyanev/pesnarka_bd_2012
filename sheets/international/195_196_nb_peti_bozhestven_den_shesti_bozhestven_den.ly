@@ -94,7 +94,7 @@
         ču -- do -- vi -- šta __  i pti -- ci
         da hvăr -- kat nad __  ze -- mja --
         ta po ne -- bes -- ni -- ja pros --
-        tor, vsič -- ki __  "spo-" -- red vi --
+        tor, vsič -- ki __  spo -- red vi --
         da __ si“. __  I sta -- na ta --
         ka. I vi -- dja __  Bog, če vsič --
         ko be dob -- ro. I bla -- go --
@@ -334,7 +334,7 @@
           -- te __  si za hra --
           na na če -- lo --  ve -- ka“. I re --
           če Bog: „Da -- vam i na zem --
-          ni -- te zve -- ro -- ve, i na "văz-"
+          ni -- te zve -- ro -- ve, i na văz
           -- duš -- ni -- te pti -- ci, i vsič
           -- ko, što păl -- zi __ po ze -- mja
           -- ta i i -- ma ži -- vot, i čo --
@@ -354,7 +354,7 @@
         \midi{}
 
       } % score
- \markup \empty-one
+      \markup \empty-one
       \markup \raise #2.8 \override #'(baseline-skip . 2) {
         \column {
           \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}

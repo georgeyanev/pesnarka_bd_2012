@@ -113,12 +113,12 @@
       Šte vi -- dja tuj, __ du -- ša -- ta
       mi što lju -- bi i kop -- nej.
 
-      "2. Tăj" bu -- "bo-" -- leč -- ka -- ta "šep-" -- ti
+      "2. Tăj" bu -- bo -- leč -- ka -- ta šep -- ti
       i se stre -- mi po __ "na-" -- na -- gor -- ni -- ja păt,
       i preč -- ki -- te ed -- na __ sled "dru-" -- ga
-      "po-" -- bež -- da -- va.
-      Bez -- broj "ska-" -- li, po -- lja, do -- li -- ni
-      "sme-" -- lo "pre-" -- mi -- na -- va __
+      po -- bež -- da -- va.
+      Bez -- broj ska -- li, po -- lja, do -- li -- ni
+      "sme-" -- lo pre -- mi -- na -- va __
       i vse na -- pred __ se tja kăm văr -- ha
       văz -- vi -- sja -- va.
 

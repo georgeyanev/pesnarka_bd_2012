@@ -84,7 +84,7 @@
       ко -- я -- то но -- си "сво-" -- бо --
       да за мо -- я -- та ду -- ша. __
       Ка -- жи ми Ти Ис -- ти -- на -- та,
-      ко -- я -- то от "Лю-" -- бов -- та __
+      ко -- я -- то от Лю -- бов -- та __
       из -- ли --  за и от "Мъд-" --
       рост -- та __  про -- си -- я --
       ва. Са -- мо та -- зи Ис -- ти -- на
@@ -103,12 +103,12 @@
         ko -- ja -- to no -- si "svo-" -- bo --
         da za mo -- ja -- ta du -- ša. __
         Ka -- ži mi Ti Is -- ti -- na -- ta,
-        ko -- ja -- to ot "Lju-" -- bov -- ta __
-        iz -- li --  za i ot "Măd-" --
+        ko -- ja -- to ot Lju -- bov -- ta __
+        iz -- li --  za i ot Măd --
         rost -- ta __  pro -- si -- ja --
         va. Sa -- mo ta -- zi Is -- ti -- na
         no -- si Ve -- čen ži -- vot i
-        "svo-" -- bo -- da __  za čo -- veš --
+        svo -- bo -- da __  za čo -- veš --
         ka -- ta du -- ša. Šte ho -- dja
         v~to -- ja păt __ na Is -- ti --
         na -- ta i ži -- vo -- ta, Gos --
@@ -216,7 +216,7 @@
             \skip1 \skip1 \skip1
 
 
-            Ka -- ži mi Ti "Is-" -- "ti-" --
+            Ka -- ži mi Ti Is -- ti --
             na -- ta, ko -- ja -- to no -- si "svo-"
             -- bo -- da za mo -- ja -- ta du --
             ša.}

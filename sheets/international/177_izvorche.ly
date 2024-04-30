@@ -91,7 +91,7 @@
 
       \markup \empty-one
       \markup \dc-two "D.C.""senza ripetizione"
-     \markup \empty-one
+      \markup \empty-one
 
       % include foreign translation(s) of the song
       \include "../../lyrics/de/177_izvorche_lyrics_de.ly"

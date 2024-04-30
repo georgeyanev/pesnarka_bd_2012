@@ -97,8 +97,8 @@
       Доб -- ро да ви -- ди. __
     }
     \addlyrics {
-      Bo -- ži -- e -- to "Slăn-" -- ce gre --
-      e dnes, Bo -- ži -- e -- to "Slăn-" --
+      Bo -- ži -- e -- to Slăn -- ce gre --
+      e dnes, Bo -- ži -- e -- to Slăn --
       ce gre -- e dnes. Du -- haj, vet
       -- re, ti -- ho du  -- haj, ti
       -- ho du  -- haj, mi -- lo gle
