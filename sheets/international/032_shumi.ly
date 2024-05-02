@@ -5,6 +5,7 @@
 
 \bookpart {
   \label #'ref032
+   \tocItem \markup "Шуми – Šumi"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

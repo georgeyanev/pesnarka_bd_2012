@@ -49,7 +49,7 @@
     }
 
     \header {
-      title = \titleFunc "Изгрей ти, мое Слънце" " Izgrej ti, moe Slănce"
+      title = \titleFunc "Изгрей ти, мое Слънце" "Izgrej ti, moe Slănce"
     }
 
     \midi{}

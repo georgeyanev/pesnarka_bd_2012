@@ -46,7 +46,7 @@
 
 
     \header {
-      title = \titleFunc "Милосърдието" "Milosărdieto"
+      title = \titleFunc "Милосърдието " " Milosărdieto"
     }
 
     \midi{}

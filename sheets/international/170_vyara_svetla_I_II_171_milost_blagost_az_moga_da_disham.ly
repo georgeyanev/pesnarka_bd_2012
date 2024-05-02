@@ -255,7 +255,7 @@
                     da di -- šam ve -- če do -- bre. Az  bre.}
 
                     \header {
-                      title = \titleFunc "Аз мога да дишам " "Az moga da dišam"
+                      title = \titleFunc "Аз мога да дишам" "Az moga da dišam"
                     }
 
                     \midi{}

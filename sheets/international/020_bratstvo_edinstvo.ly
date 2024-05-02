@@ -57,7 +57,7 @@
       da vli -- va -- me, da vli -- va -- me.
     }
     \header {
-      title = \titleFunc " Братство, единство " "Bratstvo, edinstvo"
+      title = \titleFunc "Братство, единство " "Bratstvo, edinstvo"
     }
 
     \midi{}

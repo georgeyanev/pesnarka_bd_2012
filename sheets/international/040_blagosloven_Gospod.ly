@@ -46,7 +46,7 @@
         na Svet -- li -- te __ du -- ho -- ve.}
 
         \header {
-          title = \titleFunc "Благословен Господ" "Blagosloven Gospod"
+          title = \titleFunc "Благословен Господ "" Blagosloven Gospod"
         }
 
         \midi{}
