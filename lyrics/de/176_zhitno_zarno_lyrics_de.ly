@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-  \hspace #8
+  \hspace #15
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
 \column {

@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Das letzte Abendmahl" }
 \markup \null
 \markup \abs-fontsize #10 {
-   \hspace #20
+   \hspace #30
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {

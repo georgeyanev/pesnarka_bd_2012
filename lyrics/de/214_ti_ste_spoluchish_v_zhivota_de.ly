@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-    \hspace #14
+    \hspace #20
     \override #`(baseline-skip . ,deCoupletBaselineSkip)
     \column {
       \line {   "   " Schön ist das Leben der Engel.  }

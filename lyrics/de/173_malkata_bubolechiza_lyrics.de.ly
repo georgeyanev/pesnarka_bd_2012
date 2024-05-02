@@ -5,7 +5,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-  \hspace #8
+  \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
       \column {
   \line {1. Mich hat Gott geboren}

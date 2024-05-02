@@ -1,6 +1,6 @@
 \version "2.24.3"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Hymnen der Sonne" }
+\markup \fill-line { \fontsize #deTitleFontSize "Hymne der Sonne" }
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
