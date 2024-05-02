@@ -33,7 +33,7 @@
 
     \line { 4. Wenn sich die zärtliche Mutter }
     \line { "   "für das Kind aufopfert,}
-   \line { "   "in dieser beispielhaften Liebe [Obič],}
+   \line { "   "in dieser beispielhaften Liebe [obič],}
    \line { "   "und grenzenlosen Liebe [Ljubov],  }
    \line { "   "schaust du nicht das Wesen an?}
   \vspace #0.5

@@ -41,7 +41,7 @@
 
     \line { " " und hört immer auf die }
     
-    \line { " " Stimme der Liebe [Običta].}
+    \line { " " Stimme der Liebe [običta].}
 
     \line { " "  Kalt bist du, aber rettest uns vor dem Frost}
 
