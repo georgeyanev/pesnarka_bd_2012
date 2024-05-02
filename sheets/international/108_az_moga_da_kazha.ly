@@ -90,7 +90,7 @@
     }
 
     \header {
-      title = \titleFunc "Мога да кажа" "Moga da kaža"
+      title = \titleFunc "Мога да кажа "" Moga da kaža"
     }
 
     \midi{}

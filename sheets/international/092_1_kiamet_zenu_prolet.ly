@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref092_1
-  \tocItem \markup "Киамет Зену – Kiamet Zenu "
+  \tocItem \markup "Киамет Зену – Kiamet Zenu"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -46,7 +46,7 @@
 
 
     \header {
-      title = \titleFunc "Киамет Зену" "Kiamet Zenu"
+      title = \titleFunc "Киамет Зену "" Kiamet Zenu"
     }
 
     \midi{}
@@ -94,7 +94,7 @@
 
 
     \header {
-      title = \titleFunc "Пролет" "Prolet"
+      title = \titleFunc "Пролет "" Prolet"
     }
 
     \midi{}

@@ -39,7 +39,7 @@
     }
 
     \header {
-      title = \titleFunc "Кажи ми Ти Истината" "Kaži mi Ti Istinata"
+      title = \titleFunc "Кажи ми Ти Истината "" Kaži mi Ti Istinata"
     }
 
     \midi{}
@@ -97,7 +97,7 @@
     }
 
     \header {
-      title = \titleFunc "Благата песен" "Blagata pesen"
+      title = \titleFunc "Благата песен "" Blagata pesen"
     }
 
     \midi{}

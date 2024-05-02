@@ -45,7 +45,7 @@
         vja -- ra sil --   na! Tja kre -- pi du -- ha, što ži -- vo -- ta raž -- da. Vja -- ra da.}
 
         \header {
-          title = \titleFunc "Вяра светла I" "Vjara svetla I"
+          title = \titleFunc "Вяра светла I "" Vjara svetla I"
         }
 
         \midi{}
@@ -194,7 +194,7 @@
 
 
                 \header {
-                  title = \titleFunc "Милост, благост" "Milost, blagost"
+                  title = \titleFunc "Милост, благост "" Milost, blagost"
                 }
 
                 \midi{}
@@ -255,7 +255,7 @@
                     da di -- šam ve -- če do -- bre. Az  bre.}
 
                     \header {
-                      title = \titleFunc "Аз мога да дишам" "Az moga da dišam"
+                      title = \titleFunc "Аз мога да дишам "" Az moga da dišam"
                     }
 
                     \midi{}

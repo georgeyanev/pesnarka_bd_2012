@@ -78,7 +78,7 @@
         ja -- to "ca-" -- ru -- va | Bo -- ži -- ja -- ta "Lju-" -- bov, | Bo -- ži -- ja -- ta "Lju-" -- bov, |
         Bo -- ži -- ja -- ta "Lju-" -- bov, | Bo -- ži -- ja -- ta Lju -- | bov. Nij šte | bov.}
         \header {
-          title = \titleFunc "Бог е Любов" "Bog e Ljubov"
+          title = \titleFunc "Бог е Любов "" Bog e Ljubov"
         }
 
         \midi{}

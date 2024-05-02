@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref070
-  \tocItem \markup "Фир-фюр-фен – Благославай – Fir-fjur-fen – Blagoslavaj"
+  \tocItem \markup "Фир-фюр-фен – Благославяй – Fir-fjur-fen – Blagoslavjaj"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -58,7 +58,7 @@
         sla -- vjaj i ne zab -- ra -- vjaj.}
 
         \header {
-          title = \titleFunc "Фир-фюр-фен – Благославай" "Fir-fjur-fen – Blagoslavaj"
+          title = \titleFunc "Фир-фюр-фен – Благославяй "" Fir-fjur-fen – Blagoslavjaj"
         }
 
         \midi{}

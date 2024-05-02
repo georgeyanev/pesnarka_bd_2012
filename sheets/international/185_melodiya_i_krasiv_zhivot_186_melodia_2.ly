@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref185
-  \tocItem \markup "Мелодия – Красив Живот – Melodija – Krasiv Život"
+  \tocItem \markup "Мелодия 1 – Красив живот – Melodija 1 – Krasiv život"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -116,7 +116,7 @@
         -- di  -- na.}
 
         \header {
-          title = \titleFunc "Мелодия – Красив Живот" "Melodija – Krasiv Život"
+          title = \titleFunc "Мелодия 1 – Красив живот "" Melodija 1 – Krasiv život"
         }
 
         \midi{}

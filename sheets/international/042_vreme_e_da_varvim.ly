@@ -56,7 +56,7 @@
     }
 
     \header {
-      title = \titleFunc "Време е да вървим" "Vreme e da vărvim"
+      title = \titleFunc "Време е да вървим " " Vreme e da vărvim"
     }
 
     \midi{}

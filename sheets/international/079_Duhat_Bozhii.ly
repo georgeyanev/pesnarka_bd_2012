@@ -103,7 +103,7 @@
     }
 
     \header {
-      title = \titleFunc "Духът Божи" "Duhăt Boži"
+      title = \titleFunc "Духът Божи "" Duhăt Boži"
     }
 
     \midi{}

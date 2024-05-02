@@ -52,7 +52,7 @@
         maš vja -- ra, __ vja -- ra, __ vja -- ra. __}
 
         \header {
-          title = \titleFunc "Да имаш вяра" "Da imaš vjara"
+          title = \titleFunc "Да имаш вяра "" Da imaš vjara"
         }
 
         \midi{}

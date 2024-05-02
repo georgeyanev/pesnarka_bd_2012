@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref150
-  \tocItem \markup "Българска идилия –  Bălgarska idilija"
+  \tocItem \markup "Българска идилия – Bălgarska idilija"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -229,7 +229,7 @@
     \addlyrics {}
 
     \header {
-      title = \titleFunc "Българска идилия" "Bălgarska idilija  – Bulgarische Idylle"
+      title = \titleFunc "Българска идилия "" Bălgarska idilija – Bulgarische Idylle"
     }
 
     \midi{}

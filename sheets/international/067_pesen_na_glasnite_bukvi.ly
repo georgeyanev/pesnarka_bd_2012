@@ -70,7 +70,7 @@
     }
 
     \header {
-      title = \titleFunc " Песен на гласните букви" "Pesen na glasnite bukvi"
+      title = \titleFunc " Песен на гласните букви " " Pesen na glasnite bukvi"
     }
 
     \midi{}

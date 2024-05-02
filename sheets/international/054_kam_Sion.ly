@@ -70,7 +70,7 @@
     }
 
     \header {
-      title = \titleFunc "Към Сион" "Kăm Sion"
+      title = \titleFunc "Към Сион "" Kăm Sion"
     }
 
     \midi{}

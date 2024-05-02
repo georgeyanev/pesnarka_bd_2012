@@ -74,7 +74,7 @@
     }
 
     \header {
-      title = \titleFunc "Давай, давай" "Davaj, davaj"
+      title = \titleFunc "Давай, давай "" Davaj, davaj"
     }
 
     \midi{}

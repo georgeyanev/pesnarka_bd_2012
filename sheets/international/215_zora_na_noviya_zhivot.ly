@@ -6,7 +6,7 @@
 \bookpart {
 
   \label #'ref215
-  \tocItem \markup "Зора на Новия живот – Zora na Novija život"
+  \tocItem \markup "Зора на новия живот – Zora na novija život"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -72,7 +72,7 @@
         ži -- vot.}
 
         \header {
-          title = \titleFunc "Зора на Новия живот" "Zora na Novija život"
+          title = \titleFunc "Зора на новия живот "" Zora na novija život"
         }
 
         \midi{}

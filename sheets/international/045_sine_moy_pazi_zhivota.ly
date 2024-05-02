@@ -66,7 +66,7 @@
       mo -- ra, ne -- pre -- stan -- no v~teb gra -- di! Duh bez -- di.
     }
     \header {
-      title = \titleFunc "Сине мой, пази живота" "Sine moj, pazi života"
+      title = \titleFunc "Сине мой, пази живота "" Sine moj, pazi života"
     }
 
     \midi{}

@@ -153,7 +153,7 @@
         Lju -- bov.}
 
         \header {
-          title = \titleFunc "Бог е Любов II" "Bog e Ljubov II"
+          title = \titleFunc "Бог е Любов II "" Bog e Ljubov II"
         }
 
         \midi{}

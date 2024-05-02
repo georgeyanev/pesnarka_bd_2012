@@ -63,7 +63,7 @@
     }
 
     \header {
-      title = \titleFunc "О, Учителю благати" "O, Učitelju blagati "
+      title = \titleFunc "О, Учителю благати "" O, Učitelju blagati "
     }
 
     \midi{}

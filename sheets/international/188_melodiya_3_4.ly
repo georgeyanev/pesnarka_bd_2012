@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref188
-  \tocItem \markup "Мелодия – Когато се денят... – Melodija – Kogato se denjat..."
+  \tocItem \markup "Мелодия 3 – Когато се денят – Melodija 3 – Kogato se denjat"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -51,7 +51,7 @@
         po -- li -- tat na -- ši -- te du -- ši.}
 
         \header {
-          title = \titleFunc "Мелодия – Когато се денят пробужда " "Melodija – Kogato se denjat probužda"
+          title = \titleFunc "Мелодия 3 – Когато се денят пробужда "" Melodija 3 – Kogato se denjat probužda"
         }
 
         \midi{}
@@ -96,7 +96,7 @@
 
 
       \label #'ref189
-      \tocItem \markup "Мелодия 4"
+      \tocItem \markup "Мелодия 4 – Melodija 4"
       \score {
         \include "include/score-layout.ily"
 
@@ -133,7 +133,7 @@
         }
 
         \header {
-          title = \titleFunc "Мелодия 4" "Melodija 4"
+          title = \titleFunc "Мелодия 4 "" Melodija 4"
         }
 
         \midi{}

@@ -83,7 +83,7 @@
 
 
         \header {
-          title = \titleFunc "Изворче" "Izvorče"
+          title = \titleFunc "Изворче "" Izvorčee"
         }
 
         \midi{}

@@ -67,7 +67,7 @@
 
 
     \header {
-      title = \titleFunc "Малкият извор" "Malkiyat izvor"
+      title = \titleFunc "Малкият извор " " Malkijat izvor"
     }
 
     \midi{}

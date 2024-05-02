@@ -28,7 +28,7 @@
 
 \bookpart {
   \label #'ref142
-  \tocItem \markup "Ставай, дъще! – Stavay, dashte"
+  \tocItem \markup "Ставай, дъще! – Stavaj, dăšte!"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -140,7 +140,7 @@
    >>
 
     \header {
-      title = \titleFunc "Ставай, дъще!" "Stavay, dashte"
+      title = \titleFunc "Ставай, дъще! "" Stavaj, dăšte!"
     }
 
     \midi{}

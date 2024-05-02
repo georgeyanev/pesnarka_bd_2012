@@ -47,7 +47,7 @@
     }
 
     \header {
-      title = \titleFunc "На Христа запейте" "Na Hrista zapejte"
+      title = \titleFunc "На Христа запейте "" Na Hrista zapejte"
     }
 
     \midi{}

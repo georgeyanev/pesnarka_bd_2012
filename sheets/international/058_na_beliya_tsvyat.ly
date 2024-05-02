@@ -89,7 +89,7 @@
       ma, mrak ja ne ob -- zi -- ma. zi -- ma.
     }
     \header {
-      title = \titleFunc "На белия цвят" "Na belija cvjat"
+      title = \titleFunc "На белия цвят "" Na belija cvjat"
     }
 
     \midi{}

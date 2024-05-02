@@ -62,7 +62,7 @@
 
 
     \header {
-      title = \titleFunc "Бершид Ба" "Beršid Ba"
+      title = \titleFunc "Бершид Ба "" Beršid Ba"
     }
 
     \midi{}

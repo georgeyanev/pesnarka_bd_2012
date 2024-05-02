@@ -37,7 +37,7 @@
 
 \bookpart {
   \label #'ref047
-  \tocItem \markup "Аз съм бялото кокиче –  Az săm bjaloto kokiče"
+  \tocItem \markup "Аз съм бялото кокиче – Az săm bjaloto kokiče"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -76,7 +76,7 @@
         Vsič -- ko ži -- vo da se ču -- di,
         če săm ran -- no cve -- te.}
         \header {
-          title = \titleFunc "Аз съм бялото кокиче" "Az săm bjaloto kokiče"
+          title = \titleFunc "Аз съм бялото кокиче "" Az săm bjaloto kokiče"
         }
 
         \midi{}

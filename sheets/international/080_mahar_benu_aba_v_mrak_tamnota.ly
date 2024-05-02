@@ -49,7 +49,7 @@
     }
 
     \header {
-      title = \titleFunc "Махар Бену Аба" "Mahar Benu Aba"
+      title = \titleFunc "Махар Бену Аба "" Mahar Benu Aba"
     }
 
     \midi{}
@@ -64,7 +64,7 @@
   \markup \empty-three
 
   \label #'ref080_1
-  \tocItem \markup "В мрак, тъмнота – V mrak, tămnota"
+  \tocItem \markup "В мрак тъмнота – V mrak tămnota"
 
 
   \score {
@@ -110,7 +110,7 @@
     }
 
     \header {
-      title = \titleFunc "В мрак, тъмнота" "V mrak, tămnota"
+      title = \titleFunc "В мрак тъмнота "" V mrak tămnota"
     }
 
     \midi{}

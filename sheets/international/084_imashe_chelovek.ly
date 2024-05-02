@@ -7,7 +7,7 @@
 
   \include "include/bookpart-paper.ily"
   \label #'ref083_3
-  \tocItem \markup "Имаше человек  – Imaše čelovek"
+  \tocItem \markup "Имаше человек – Imaše čelovek"
   \score {
     \include "include/score-layout.ily"
 
@@ -106,7 +106,7 @@
         ka, no ot Bo -- ga se ro -- di -- ha.}
 
         \header {
-          title = \titleFunc "Имаше человек" "Imaše čelovek"
+          title = \titleFunc "Имаше человек "" Imaše čelovek"
         }
 
         \midi{}

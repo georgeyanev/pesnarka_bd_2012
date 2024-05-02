@@ -75,7 +75,7 @@
     }
 
     \header {
-      title = \titleFunc "Мога да любя" "Moga da ljubja"
+      title = \titleFunc "Мога да любя "" Moga da ljubja"
     }
 
     \midi{}

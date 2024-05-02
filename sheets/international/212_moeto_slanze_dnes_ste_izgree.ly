@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref212
-  \tocItem \markup "Моето слънце днес ще изгрее – Moeto slănce dnes šte izgree "
+  \tocItem \markup "Моето Слънце днес ще изгрее – Moeto Slănce dnes šte izgree "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -203,7 +203,7 @@
     }
 
     \header {
-      title = \titleFunc "Моето слънце днес ще изгрее" "Moeto slănce dnes šte izgree"
+      title = \titleFunc "Моето Слънце днес ще изгрее "" Moeto Slănce dnes šte izgree"
     }
 
     \midi{}

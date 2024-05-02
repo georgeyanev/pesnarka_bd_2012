@@ -73,6 +73,7 @@
 
         \header {
           title = \titleFunc "Една вечна Истина, която е Бог на Любовта" "Edna večna Istina, kojato e Bog na Ljubovta"
+          subtitle = "Eine ewige Wahrheit, die der Gott der Liebe ist"
         }
 
         \midi{}
@@ -80,7 +81,7 @@
       } % score
       \markup \vspace #2
       % include foreign translation(s) of the song
-      \include "../../lyrics/de/201_edna_vechna_istina_lyrics_de.ly"
+      %\include "../../lyrics/de/201_edna_vechna_istina_lyrics_de.ly"
     } % bookpart
 
     % Più mosso

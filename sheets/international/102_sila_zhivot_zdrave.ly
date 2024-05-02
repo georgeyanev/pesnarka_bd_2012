@@ -4,7 +4,7 @@
 
 \bookpart {
   \label #'ref102
-  \tocItem \markup "Сила, Живот, здраве – Sila, Život, zdrave"
+  \tocItem \markup "Сила, живот, здраве – Sila, život, zdrave"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -75,7 +75,7 @@
         -- no. Slu -- no..}
 
         \header {
-          title = \titleFunc "Сила, Живот, здраве" "Sila, Život, zdrave"
+          title = \titleFunc "Сила, живот, здраве " " Sila, život, zdrave"
         }
 
         \midi{}

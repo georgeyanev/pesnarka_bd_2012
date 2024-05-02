@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref104
-  \tocItem \markup "Химн на великата Душа – Himn na velikata Duša"
+  \tocItem \markup "Химн на Великата душа – Himn na Velikata duša"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -150,7 +150,7 @@
 
 
     \header {
-      title = \titleFunc "Химн на великата Душа" "Himn na velikata Dusha"
+      title = \titleFunc "Химн на Великата душа "" Himn na Velikata duša"
     }
 
     \midi{}

@@ -60,7 +60,7 @@
 
 
     \header {
-      title = \titleFunc "Всичко в живота е постижимо" "Vsičko v života e postižimo"
+      title = \titleFunc "Всичко в живота е постижимо "" Vsičko v života e postižimo"
     }
 
     \midi{}

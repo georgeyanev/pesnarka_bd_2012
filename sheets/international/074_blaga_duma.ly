@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref074
-  \tocItem \markup "Блага дума – Blaga duma "
+  \tocItem \markup "Блага дума – Blaga dum "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -113,7 +113,7 @@
     }
 
     \header {
-      title = \titleFunc "Блага дума" "Blaga duma"
+      title = \titleFunc "Блага дума "" Blaga dum"
     }
 
     \midi{}

@@ -71,7 +71,7 @@
 
 
     \header {
-      title = \titleFunc "Славейчета горски " "Slavejčeta gorski"
+      title = \titleFunc "Славейчета горски "" Slavejčeta gorski"
     }
 
     \midi{}

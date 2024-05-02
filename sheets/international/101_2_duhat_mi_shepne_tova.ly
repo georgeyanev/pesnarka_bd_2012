@@ -55,7 +55,7 @@
 
 
         \header {
-          title = \titleFunc "Духът ми шепне това" "Duhăt mi šepne tova"
+          title = \titleFunc "Духът ми шепне това "" Duhăt mi šepne tova"
         }
 
         \midi{}

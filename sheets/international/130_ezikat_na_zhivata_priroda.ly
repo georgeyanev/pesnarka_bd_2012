@@ -251,7 +251,7 @@
         -- bič da se raz -- be -- rem.“}
 
         \header {
-          title = \titleFunc "Езикът на живата природа" "Ezikăt na živata priroda"
+          title = \titleFunc "Езикът на живата природа "" Ezikăt na živata priroda"
         }
 
         \midi{}

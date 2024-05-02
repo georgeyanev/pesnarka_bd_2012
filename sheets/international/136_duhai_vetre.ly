@@ -4,7 +4,7 @@
 
 \bookpart {
   \label #'ref136
-  \tocItem \markup "Духай ветре –  Duhaj vetre "
+  \tocItem \markup "Духай, ветре – Duhaj, vetre "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -145,7 +145,7 @@
     }
 
     \header {
-      title = \titleFunc "Духай ветре" "Duhaj vetre"
+      title = \titleFunc "Духай, ветре "" Duhaj, vetre"
     }
 
     \midi{}

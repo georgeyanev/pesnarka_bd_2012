@@ -36,7 +36,7 @@
       Nij sme slăn -- če -- vi lă -- či, no -- sim no -- vi -- ja ži -- vot.
     }
     \header {
-      title = \titleFunc "Слънцето на Любовта" "Slănceto na Ljubovta"
+      title = \titleFunc "Слънцето на Любовта "" Slănceto na Ljubovta"
     }
 
     \midi{}

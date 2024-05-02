@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref211
-  \tocItem \markup "Кажи ми светли Божи лъч II  – Kaži mi svetli Boži lăč II "
+  \tocItem \markup "Кажи ми, светли Божи лъч II – Kaži mi, svetli Boži lăč II "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -131,7 +131,7 @@
 
 
         \header {
-          title = \titleFunc "Кажи ми светли Божи лъч II  " "Kaži mi svetli Boži lăč II"
+          title = \titleFunc "Кажи ми, светли Божи лъч II "" Kaži mi, svetli Boži lăč II"
         }
 
         \midi{}

@@ -51,7 +51,7 @@
 
 
     \header {
-      title = \titleFunc "Вдъхновение" "Vdahnovenie"
+      title = \titleFunc "Вдъхновение "" Vdăhnovenie"
     }
 
     \midi{}
@@ -130,7 +130,7 @@
       ot pče -- li -- te do -- ne -- se -- no.
     }
     \header {
-      title = \titleFunc "Сладко медено" "Sladko medeno"
+      title = \titleFunc "Сладко медено "" Sladko medeno"
     }
 
     \midi{}

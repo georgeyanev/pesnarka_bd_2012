@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref206
-  \tocItem \markup "Божията Любов ме озари – Božijata Ljubov me ozari  "
+  \tocItem \markup "Божията Любов ме озари – Božijata Ljubov me ozari"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -43,13 +43,13 @@
 
         \new Staff \with {
           \override VerticalAxisGroup.default-staff-staff-spacing =
-          #'((basic-distance . 20.5)
-             (padding . -30))
+          #'((basic-distance . 6.5)
+             (padding . -10))
           \remove "Time_signature_engraver"
           alignAboveContext = #"main"
           fontSize = #-1
-          \override StaffSymbol.staff-space = #(magstep -2)
-          \override StaffSymbol.thickness = #(magstep -2)
+          \override StaffSymbol.staff-space = #(magstep -1)
+          \override StaffSymbol.thickness = #(magstep 2)
           firstClef = ##f
         }
         {  \time 5/4  \autoBeamOff g'!4^\markup { \large \italic "ossia по Л. Т." } f'8 e'8 b'4 a'8_\markup { \large \bold "rit." } f'8 ^\> a'8  b'8^\!  \break |  }
@@ -192,7 +192,7 @@
 
 
         \header {
-          title = \titleFunc "Божията Любов ме озари " " Božijata Ljubov me ozari"
+          title = \titleFunc "Божията Любов ме озари "" Božijata Ljubov me ozari"
         }
 
         \midi{}

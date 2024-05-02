@@ -67,7 +67,7 @@
     }
 
     \header {
-      title = \titleFunc "Росна капка" "Rosna kapka"
+      title = \titleFunc "Росна капка "" Rosna kapka"
     }
 
     \midi{}

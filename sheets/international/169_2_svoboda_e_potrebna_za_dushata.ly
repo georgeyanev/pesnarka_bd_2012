@@ -50,7 +50,7 @@
       To -- va e za du -- ša -- ta. To -- va e za du -- ša -- ta.
     }
     \header {
-      title = \titleFunc "Свобода е потребна за душата" "Svoboda e potrebna za dušata"
+      title = \titleFunc "Свобода е потребна за душата "" Svoboda e potrebna za dušata"
     }
 
     \midi{}

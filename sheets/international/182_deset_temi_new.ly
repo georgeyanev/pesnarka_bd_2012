@@ -4,7 +4,7 @@
 \include "include/globals.ily"
 \bookpart {
   \label #'ref182
-  \tocItem \markup "Десет теми"
+  \tocItem \markup "Десет теми – Deset temi"
   \paper {
     print-all-headers = ##t
     print-page-number = ##t
@@ -88,7 +88,7 @@
     %    \addlyrics {}
 
     \header {
-      title = \titleFunc "Десет теми" "Deset temi  –  Zehn Themen"
+      title = \titleFunc "Десет теми "" Deset temi  –  Zehn Themen"
     }
 
     \midi{}
@@ -513,7 +513,7 @@
     \addlyrics {}
 
     \header {
-      title = \titleFunc "Вариации" "Variacii"
+      title = \titleFunc "Вариации "" Variacii"
     }
 
     \midi{}

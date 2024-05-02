@@ -38,7 +38,7 @@
     }
 
     \header {
-      title = \titleFunc "Нови дрехи" "Novi drehi"
+      title = \titleFunc "Нови дрехи "" Novi drehi"
     }
 
     \midi{}

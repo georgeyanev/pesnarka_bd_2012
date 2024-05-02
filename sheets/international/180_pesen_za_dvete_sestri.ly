@@ -129,7 +129,7 @@
 
 
     \header {
-      title = \titleFunc "Песен за двете сестри" "Pesen za dvete sestri"
+      title = \titleFunc "Песен за двете сестри "" Pesen za dvete sestri"
     }
 
     \midi{}

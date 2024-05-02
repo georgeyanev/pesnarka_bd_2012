@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref064
-  \tocItem \markup "Ангел вопияше – Angel vopijaše"
+  \tocItem \markup "Ангел вопияше –  Angel vopijaše"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -134,7 +134,7 @@
       tva __ Tvo -- e -- go. __
     }
     \header {
-      title = \titleFunc "Ангел вопияше" "Angel vopijaše"
+      title = \titleFunc "Ангел вопияше "" Angel vopijaše"
     }
 
     \midi{}
