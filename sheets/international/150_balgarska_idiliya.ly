@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref150
-  \tocItem \markup "Българска идилия –  Bălgarska idilija"
+  \tocItem \markup "Българска идилия – Bălgarska idilija"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -14,7 +14,7 @@
       \clef treble
       \key g \minor
       \time 3/4
-      \tempoFunc "Lento" 4 "50"
+      \tempoFunc "Lento, ad libitum" 4 "50"
       \autoBeamOff
 
       d'4.( \tuplet 3/2 { ees16 [f ees]) } d8.([g16]) | \noBreak
@@ -24,7 +24,7 @@
 
       bes8 [c] d8 d4.\trill | \noBreak
       \time 4/4 fis,16([g) a g] bes8.\trill([ a16]) c4.\trill( bes8) | \noBreak
-      \time 3/4  \tuplet 6/4 { a16([g fis g a bes]) }  a16.([g32) \slurDown g16.(\tieDown bes32~] \stemUp bes4) | \time 4/4 \break
+      \time 3/4  \tuplet 6/4 { a16([g fis g a bes]) }  a16.([g32) \slurDown g16.\tieDown bes32 ] \stemUp bes4 | \time 4/4 \break
 
       \tuplet 6/4 { a16\prall([g fis g a bes]) } a8.\prall([g16])  \acciaccatura { g16([ a] } g2) | \bar ":|.|:" \noBreak
 
@@ -229,16 +229,7 @@
     \addlyrics {}
 
     \header {
-      title = \markup \column \normal-text \fontsize #2.5 {
-        \center-align
-        \line { Българска идилия }
-        \vspace #-0.6
-        \center-align
-        \line \fontsize #-3 { Bălgarska idilija  – Bulgarische Idylle}
-        \vspace #-0.8
-        \center-align
-        \line \fontsize #-3 { " " }
-      }
+      title = \titleFunc "Българска идилия "" Bălgarska idilija – Bulgarische Idylle"
     }
 
     \midi{}

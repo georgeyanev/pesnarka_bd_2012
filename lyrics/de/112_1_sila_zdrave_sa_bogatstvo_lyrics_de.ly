@@ -1,13 +1,14 @@
 \version "2.24.3"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Kaft und Leben sind Reichtum" }
+
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #16
+\markup \abs-fontsize #10 {
+  \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
+  \column { 
     \line {  Kraft und Gesundheit sind Reichtum,}
     \line {  Kraft und Gesundheit sind Reichtum,}
     \line {  Kraft und Gesundheit sind Reichtum,}

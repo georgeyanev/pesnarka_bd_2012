@@ -29,8 +29,8 @@
 
     \addlyrics {
       Тъ -- ги, скър -- би са бо  --  гат -- ство
-      за Жи -- во -- та, в~ду -- ша скри -- ти
-      за бъд -- ни До -- бри -- ни,
+      за жи -- во -- та, в~ду -- ша скри -- ти
+      за бъд -- ни доб -- ри -- ни,
       за бла -- ги пло -- до -- ве,
       за свет -- ли дни,
       за свет -- ли дни,
@@ -38,14 +38,14 @@
       дни, дни, дни.
     }
 
-  \addlyrics {
+    \addlyrics {
       Tă -- gi, skăr -- bi sa bo  --  gat -- stvo
-      za Ži -- vo -- ta, v~du -- ša skri -- ti
-      za băd -- ni Do -- bri -- ni,
+      za ži -- vo -- ta, v~du -- ša skri -- ti
+      za băd -- ni dob -- ri -- ni,
       za bla -- gi plo -- do -- ve,
       za svet -- li dni,
       za svet -- li dni,
-      za svet -- li dni,
+      za "svet-" -- li dni,
       dni, dni, dni.
     }
 
@@ -57,10 +57,13 @@
 
   } % score
 
+  \markup \empty-one
+
   \markup \dc-one "D.C."
-  
+
 
   % include foreign translation(s) of the song
+  \markup \vspace #3
 
   \include "../../lyrics/de/101_tagi_skarbi_sa_bogatstvo_lyrics_de.ly"
 

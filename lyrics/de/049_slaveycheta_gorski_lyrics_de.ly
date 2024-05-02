@@ -3,8 +3,9 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Die Nachtigallen des Waldes" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10 {
+
+\hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -18,7 +19,7 @@
 
     \line { "   "vertreiben wir mit Liedern von der Erde.}
 
-    \line { " " }
+   \vspace #0.5
     \line { 2. Unsere Lieder sind schwungvoll, }
 
     \line { "   "sie bringen uns Freude ewiglich;}
@@ -27,7 +28,7 @@
 
     \line { "   "wie ein Bächlein in seinem schnellen Lauf.}
 
-    \line { " " }
+   \vspace #0.5
     \line { 3. Nun, hört, wie unser Lied }
 
     \line { "   "in der Stille fließt; }
@@ -36,7 +37,7 @@
 
     \line { "   "ein Strom in der Seele.}
 
-    \line { " " }
+    \vspace #0.5
     \line { 4. Durch unsere leise und richtige Stimme}
 
     \line { "   "wird alles Böse gebannt; }
@@ -45,7 +46,7 @@
 
     \line { "   "werden wir durch unsere Lieder erwecken.}
 
-    \line { " " }
+   \vspace #0.5
 
     \line { 5. Singt, singt ihr lieben Vögel, }
 

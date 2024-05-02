@@ -3,13 +3,14 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Lauf, lauf" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #14
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
+\markup \abs-fontsize #10 {
+
+   \hspace #5
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
 	 
-	   \line { 1. Lauf, lauf, lauf, }
+	\line { 1. Lauf, lauf, lauf, }
 
   \line { "   "lauf um das Wasser,}
 
@@ -25,11 +26,18 @@
 
   \line { "   "seinen kleinen Kindern.}
 
-   \line { "   " }
+  }
+
+   \hspace #1
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+
+  \column {
 
   \line {  2.	So bieten die Regentropfen }
 
- \line { "   " reichlich Feuchtigkeit, den Strom des Lebens. }
+ \line { "   " reichlich Feuchtigkeit, }
+ 
+  \line { "   "den Strom des Lebens. }
  
  \line { "   "Samenkörner sprießen, }
  
@@ -37,6 +45,8 @@
  
  \line { "   "Früchte reifen. }
  
- \line { "   "Alles erwacht; machtvoll ist das Wasser!  }
+ \line { "   "Alles erwacht; }
+ 
+  \line { "   " machtvoll ist das Wasser!  }
     }
 }

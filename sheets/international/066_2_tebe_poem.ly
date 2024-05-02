@@ -37,14 +37,16 @@
       мо -- лим Ти ся, o, Бо -- же наш. И __ o, Бо -- же наш.
     }
 
-    \addlyrics {
+
+   \addlyrics {
       Te -- be po -- em, Te -- be bla -- go -- da -- rim.
       Te -- be bla -- go -- slo -- vim, Bo -- že naš.  I __
       mo -- lim Ti sja, i __  mo -- lim Ti sja,  i __
       mo -- lim Ti sja, o, Bo -- že naš. I __ o, Bo -- že naš.
     }
+
     \header {
-      title = \titleFunc "Тебе поем" "Tebe poem"
+      title = \titleFunc "Тебе поем "" Tebe poem"
     }
 
     \midi{}
@@ -52,7 +54,7 @@
   } % score
 
 
-
+  \markup \vspace #3
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/066_2_tebe_poem_lyrics_de.ly"

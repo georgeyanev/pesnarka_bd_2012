@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Die göttliche Liebe hat mich erleuchtet" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10 {
+  \hspace #15
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {

@@ -41,14 +41,14 @@
 
       \time 4/4
       \tempoFunc "Andante" 4 "66"
-      \autoBeamOff 
+      \autoBeamOff
       \partial 4
       d'8. es'16 | % 2
       f'2 as'4 ges'8. f'16 | ges'2. f'8.es'16 | f'4 es'8.  d'16  es'4 d'8. ces'16 | \break
       ces'2. d'8. es'16 | \time 3/4 f'2 es'8. [( d'16 )] | % 7
       es'2  d'8. ces'16 | % 8
       ces'4 bes2 | % 9
-      as2 r4  \bar "||"  \break 
+      as2 r4  \bar "||"  \break
       \time 8/16  |
       \tempo "Allegretto" g8 [( as16 )] bes8 ( ces'8. ) | % 11
       d'8. es'8 ~ es'8. | % 12
@@ -70,16 +70,16 @@
       d'8 ces'16 d'8 ces'8. | % 28
       bes8 [(as16) ] bes8 ~ bes8. \bar "||" \break
       \tempo "Tempo I"
-      \time 4/4 r2 r4 d'8. es'16 | f'2 as'4 ges'8. f'16 | 
+      \time 4/4 r2 r4 d'8. es'16 | f'2 as'4 ges'8. f'16 |
       ges'2. f'8.es'16 | \break
-      
-       f'4 es'8. d'16  es'4 d'8. ces'16 |
+
+      f'4 es'8. d'16  es'4 d'8. ces'16 |
       ces'2. d'8. es'16 | \break
-       f'4 es'8. [(d'16 ) ]es'2 | 
+      f'4 es'8. [(d'16 ) ]es'2 |
       \time 3/4 d'8. ces'16 ces'4 bes8. as16 | as2 r4 | \bar "||"  \break
-      
+
       \time 8/16 \tempo "Allegretto" g8 [(as16 )] bes8 (ces'8. ) | d'8. es'8 (es'8.) |
-      
+
       f'8 es'16  d'8 ces'8. | d'8 ces'16 d'8 ces'8. | bes8 [(as16)] bes8 (bes8.) \break
 
       ces'8. ( ~ ces'8 bes8. ) |
@@ -96,15 +96,13 @@
       f'8 es'16 d'8 ces'8. | % 27
       d'8 ces'16 d'8 ces'8. | % 28
       bes8 [( as16 )] bes8 ~ bes8. | \bar "||"  \break
-
-     \tempo "Tempo I"
-
+      \tempo "Tempo I"
       \time 4/4 r2 r4  d'8. es'16 | f'2 as'4 ges'8. f'16 |
       ges'2. f'8.es'16 | f'4 es'8. d'16  es'4 d'8. ces'16 | \break
       ces'2. d'8. es'16 |
       f'4 es'8. d'16  es'2 |
-      \time 3/4 d'8. ces'16 ces'4 bes8. [(as16) ] | as2 r4 | \bar "||"  \pageBreak
-      \time 8/16 \tempo "Allegretto" g8 [(as16 )] bes8 (ces'8. ) | d'8. es'8 (es'8.) |  f'8 es'16 d'8 ces'8. | d'8 ces'16 d'8 ces'8. | \break  bes8 [(as16)] bes8 (bes8.) 
+      \time 3/4 d'8. ces'16 ces'4 bes8. [(as16) ] | as2 r4 | \bar "||"
+      \time 8/16 \tempo "Allegretto" g8 [(as16 )] bes8 (ces'8. ) | d'8. es'8 (es'8.) |  f'8 es'16 d'8 ces'8. | d'8 ces'16 d'8 ces'8. | \break  bes8 [(as16)] bes8 (bes8.)
 
       ces'8. ( ~ ces'8 bes8. ) |
       as8. ~ as8 ~ as8. | % 24
@@ -124,17 +122,17 @@
 
 
     \addlyrics {
-      "1.В~ле-" -- тен
-      ден, в~ран -- ни зо -- ри май -- ка ми ти -- хо се при --
-      бли -- жи. "С~сла-" -- дък глас бла -- га ду -- ма ми
+      "1. В~ле-" -- тен
+      ден, в~ран -- ни зо -- ри май -- ка ми ти -- хо се приб --
+      ли -- жи. "С~сла-" -- дък глас бла -- га ду -- ма ми
       ка -- за: „Ста -- вай, __ дъ -- ще, __ на __ ни -- ва
       тряб -- ва да се хо -- ди. __ Ста -- вай, __ че ба --
       ща ти вън -- ка __ мен и те -- бе със ко -- ла --
       та ча -- ка. __ Ста -- вай, __ че ба -- ща ти вън --
       ка __  мен и те -- бе със ко -- ла -- та ча --
-      ка. __ 
-      
-      "2.Слън" -- це -- то ко -- га из -- грей,
+      ка. __
+
+      "2. Слън" -- це -- то ко -- га из -- грей,
       ти на ни -- ва -- та тряб -- ва да си.
       "С~сърп" в~ръ -- ка, с~пе -- сен ти
       де -- ня за -- поч -- ни. Ста -- вай, __ дъ -- ще, __
@@ -142,46 +140,46 @@
       Ста -- вай, __ че мо -- ми и мом -- ци __ вси към ни -- ва -- та са веч тръг -- на -- ли. __
       Ста -- вай, __ че мо -- ми и мом -- ци __ вси към ни -- ва -- та са веч тръг -- на -- ли. __
 
-      "3. Ни" -- ва е, дъ -- ще, Жи -- во -- тът,
-      де до -- бро -- то се -- ме се сей.
-      Кат' из -- рас -- не, "Жи-" -- вот вна -- ся
+      "3. Ни- " -- ва е, дъ -- ще, жи -- во -- тът,
+      де доб -- ро -- то се -- ме се сей.
+      Кат' из -- рас -- не, "жи-" -- вот вна -- ся
       то във __ нас. Ста -- вай, __ дъ -- ще, __
       Лю -- бов -- та днес мен и те -- бе ча -- ка. __
       Ста -- вай! __ Тя ни но -- си
       свой -- та __ но -- ва, __ жи -- ва пре -- мя -- на. __
-      Ста -- вай! __ Че "Жи-" -- во -- тът вън -- ка __ мен
-      и те -- бе с~бла -- гост ве -- че ча -- ка.“ __
+      Ста -- вай! __ Че "жи-" -- во -- тът вън -- ка __ мен
+      и те -- бе с~бла -- гост ве -- че ча -- ка“. __
 
     }
 
-\addlyrics {
+    \addlyrics {
       "1. V~le" -- ten
-      den, v~ran -- ni zo -- ri maj -- ka mi ti -- ho se pri --
-      bli -- ži. "S~sla" -- dăk glas bla -- ga du -- ma mi
+      den, v~ran -- ni zo -- ri maj -- ka mi ti -- ho se prib --
+      li -- ži. S~sla -- dăk glas bla -- ga du -- ma mi
       ka -- za: „Sta -- vaj, __ dă -- šte, __ na __ ni -- va
       trjab -- va da se ho -- di. __ Sta -- vaj, __ če ba --
       šta ti văn -- ka __ men i te -- be săs ko -- la --
-      ta ča -- ka. __  Sta -- vaj, __ če ba -- šta ti văn --
-      ka __ men i te -- be săs ko -- la -- ta ča --
-      ka. __ 
-      
+      ta ča -- ka. __ Sta -- vaj, __ če ba -- šta ti văn --
+      ka __  men i te -- be săs ko -- la -- ta ča --
+      ka. __
+
       "2. Slăn" -- ce -- to ko -- ga iz -- grej,
       ti na ni -- va -- ta trjab -- va da si.
       "S~sărp" v~ră -- ka, s~pe -- sen ti
       de -- nja za -- poč -- ni. Sta -- vaj, __ dă -- šte, __
-      Slăn -- ce do -- ma da ne te za -- va -- ri. __ 
-      Sta -- vaj, __ če "mo-" -- mi i mom -- ci __ vsi kăm ni -- va -- ta sa več trăg -- na -- li. __
-      Sta -- vaj, __ če "mo-" -- mi i mom -- ci __ vsi kăm ni -- va -- ta sa več trăg -- na -- li. __
+      Slăn -- ce do -- ma da ne te za -- va -- ri. __
+      Sta -- vaj, __ če mo -- mi i mom -- ci __ vsi kăm ni -- va -- ta sa več trăg -- na -- li. __
+      Sta -- vaj, __ če mo -- mi i mom -- ci __ vsi kăm ni -- va -- ta sa več trăg -- na -- li. __
 
-      "3. Ni" -- va e, dă -- šte, Ži -- vo -- tăt,
-      de do -- bro -- to se -- me se sej.
-      Kat' iz -- ras -- ne, Ži -- vot vna -- sja
+      "3. Ni " -- va e, dă -- šte, ži -- vo -- tăt,
+      de dob -- ro -- to se -- me se sej.
+      Kat' iz -- ras -- ne, ži -- vot vna -- sja
       to văv __ nas. Sta -- vaj, __ dă -- šte, __
       Lju -- bov -- ta dnes men i te -- be ča -- ka. __
       Sta -- vaj! __ Tja ni no -- si
       svoj -- ta __ no -- va, __ ži -- va pre -- mja -- na. __
-      Sta -- vaj! __ Če Ži -- vo -- tăt văn -- ka __ men
-      i te -- be s~bla -- gost ve -- če ča -- ka.“ __
+      Sta -- vaj! __ Če ži -- vo -- tăt văn -- ka __ men
+      i te -- be s~bla -- gost ve -- če ča -- ka“. __
 
     }
 
@@ -195,7 +193,8 @@
 
 
   } % score
- \pageBreak
+
+  \markup \vspace #1
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/142_stavai_daste_lyrics_de.ly"

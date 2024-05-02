@@ -4,12 +4,12 @@
 \include "include/globals.ily"
 
 \bookpart {
-  #(define blineskip250 2.3)
+  #(define blineskip250 3.2)
   \include "include/bookpart-paper.ily"
   \label #'ref250
   \tocItem \markup "Alphabetische Tabelle"
 
-  \markup \fontsize  #+4.0 { \fill-line \bold {"ALPHABETISCHE TABELLE"} }
+  \markup \abs-fontsize #12 { \fill-line \bold {"ALPHABETISCHE TABELLE"} }
 
   \markuplist \fontsize  #+2 {
     \override #'(padding . 2) % horizontal distance

@@ -8,27 +8,27 @@
     \translate #'(0 . -0.7 )
     \right-brace #20
 
-    \translate #'(0 . -3.9 )
-    \right-brace #42
+    \translate #'(0 . -6.5 )
+    \right-brace #38
 
-    \translate #'(0 . -5.4 )
+    \translate #'(0 . -6.0 )
     \right-brace #20
 
-    \translate #'(0 . -5.0 )
-    \right-brace #43
+    \translate #'(0 . -6.5 )
+    \right-brace #38
   }
   \column {
     % repeat numbers
     \translate #'(0 . -1.2 )
     2
 
-    \translate #'(0 . -4.5 )
-    2
-
-    \translate #'(0 . -9.5 )
-    2
-
     \translate #'(0 . -7.0 )
+    2
+
+    \translate #'(0 . -11.9 )
+    2
+
+    \translate #'(0 . -9.0 )
     2
   }
 }
@@ -105,20 +105,20 @@
       \new Lyrics \lyricsto "tempVoice1" {
         "(2.,3.)...ди" -- шаш, де -- те,...
       }
-     \new Lyrics \lyricsto "tempVoice1" {
+      \new Lyrics \lyricsto "tempVoice1" {
         "(2.,3.)...di" -- šaš, de -- te,...
       }
 
       \new Lyrics \lyricsto "tempVoice2" {
         "(2.)...доб" -- ро, сър -- це.
       }
-        \new Lyrics \lyricsto "tempVoice2" {
+      \new Lyrics \lyricsto "tempVoice2" {
         "(2.)...dob" -- ro, săr -- ce.
       }
     >>
 
     \header {
-      title = \titleFunc "Дишай дълбоко" "Dišaj dălboko"
+      title = \titleFunc "Дишай дълбоко "" Dišaj dălboko"
     }
 
     \midi{}
@@ -127,8 +127,10 @@
 
 
 
-  \markup \fontsize #bgCoupletFontSize {
-    %\hspace #1
+  \markup \empty-two
+
+  \markup \abs-fontsize #10 {
+    \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
@@ -144,7 +146,7 @@
 
       \line {   "   "ще имаш, дете.}
 
-      \line {   "   "}
+      \vspace #0.5
 
       \line {   3. Кога дълбоко дишаш, дете,}
 
@@ -175,7 +177,7 @@
 
       \line {   "   "šte imaš, dete.}
 
-      \line {   "   "}
+      \vspace #0.5
 
       \line {   3. Koga dălboko dišaš, dete,}
 

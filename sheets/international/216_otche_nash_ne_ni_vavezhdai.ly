@@ -16,7 +16,6 @@
       \time 6/4
       \tempoFunc "Andante sostennuto" 4 "76"
       \autoBeamOff
-
       \partial 2
       d'4  d'4 | % 2
       b'2  a'2  g'4  fis'4 | % 3
@@ -31,7 +30,7 @@
       \time 3/4  | % 8
       b'2 b'8 ( [ c''8 ) ] | % 9
       \time 4/4  | % 9
-      c''4 b'4 ^\markup{ \bold {rit.} }  a'4
+      c''4 \tempo"rit." b'4 a'4
       b'8 ( [ cis''8 ) ]  |
       d''2 r2   \bar ".|:-||"
       | % 11
@@ -56,7 +55,7 @@
     }
 
     \addlyrics {
-      Аз ще па -- зя то -- пли -- на --
+      Аз ще па -- зя топ -- ли -- на --
       та на мо -- е -- то сър -- це, ко --
       я -- то вна -- ся Бо -- жи -- и -- те
       бла -- га във  мо -- я -- та ду
@@ -65,7 +64,7 @@
       -- ни -- е, не ни въ -- веж -- дай
       във из -- ку -- ше -- ни -- е.}
       \addlyrics {
-        Az šte pa -- zja to -- pli -- na --
+        Az šte pa -- zja top -- li -- na --
         ta na mo -- e -- to săr -- ce, ko --
         ja -- to vna -- sja Bo -- ži -- i -- te
         bla -- ga văv  mo -- ja -- ta du
@@ -82,7 +81,7 @@
 
       } % score
 
-      \pageBreak
+      \markup \vspace #3
 
       \include "../../lyrics/de/216_otche_nash_ne_ni_vavezhday_lyrics_de.ly"
 

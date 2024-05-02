@@ -4,12 +4,11 @@
 \include "include/globals.ily"
 
 \bookpart {
-   \label #'ref095_2
+  \label #'ref095_2
   \tocItem \markup "Добър ден – Dobăr den"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
-
 
     \new Voice \absolute  {
       \clef treble
@@ -21,9 +20,9 @@
 
       g'4 e' a' f' | g'4 d' e'2 \fermata | a'4 a' c''4. b'8 | b'2 a' \break |
 
-      g'4 g' f' f' |  f'2 e' | a'4. a'8 c''4 b' | b'4 a' a' a' \break |
+      g'4 g' f' f' |  f'2 e' | \time 2/2 a'4. a'8 c''4-- b'-- | b'4-- a'-- a'-- a'-- \break |
 
-      g'4 f' e' d' | d'2 c' |  \time 6/4  b4. c'8 d'4 ( e' f' ) e' \break |
+      g'4-- f'-- e'-- d'-- | d'2 c' |  \time 6/4  b4. c'8 d'4 ( e' f' ) e' \break |
 
       \time 4/4  g'4 e' a' g' | f'4 e' d' c' | c'2 ( b ) | a2. r4 \break |
 
@@ -32,22 +31,22 @@
 
     \addlyrics {
       До -- бър
-      ден е свет -- ли -- я ден. Ху -- бав и кра --
+      ден е свет -- ли -- ят ден. Ху -- бав и кра --
       сив е той! Всич -- ко о -- за -- ря -- ва, всич
-      -- ко о -- жи -- вя -- ва и "в~Жи-" -- во -- та Бо
+      -- ко о -- жи -- вя -- ва и "в~жи-" -- во -- та Бо
       -- жи -- е -- то бла -- го той раз -- да -- ва,
-      и "в~Жи-" -- во -- та Бо -- жи -- е -- то бла -- го
+      и "в~жи-" -- во -- та Бо -- жи -- е -- то бла -- го
       той раз -- да -- ва.
 
     }
 
-     \addlyrics {
+    \addlyrics {
       Do -- băr
-      den e svet -- li -- ja den. Hu -- bav i kra --
+      den e svet -- li -- jat den. Hu -- bav i kra --
       siv e toj! Vsič -- ko o -- za -- rja -- va, vsič
-      -- ko o -- ži -- vja -- va i v~Ži -- vo -- ta Bo
+      -- ko o -- ži -- vja -- va i v~ži -- vo -- ta Bo
       -- ži -- e -- to bla -- go toj raz -- da -- va,
-      i v~Ži -- vo -- ta Bo -- ži -- e -- to bla -- go
+      i v~ži -- vo -- ta Bo -- ži -- e -- to bla -- go
       toj raz -- da -- va.
     }
 
@@ -60,8 +59,9 @@
 
   } % score
 
+  \markup \empty-one
   \markup \dc-one "D.C."
-  
+
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/095_2_dobar_den_lyrics_de.ly"

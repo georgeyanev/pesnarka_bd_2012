@@ -1,13 +1,16 @@
 \version "2.24.3"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Da war ein Mensch" }
+
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #12
+
+\markup \abs-fontsize #10 {
+   \hspace #25
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
+
 
     \line { " " Da war ein Mensch, von Gott gesandt,  }
 

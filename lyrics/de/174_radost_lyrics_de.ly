@@ -3,16 +3,14 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Freude" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #16
+\markup \abs-fontsize #10 {
+  \hspace #6
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
 
     \line { " "Freude, Freude, Freude für mein Leben, }
-
-    \line { " "du erfreust mein Herz, }
-
-    \line { " "du erfreust mein Herz.}
+ \line { " "du erfreust mein Herz, }
+  \line { " " du erfreust mein Herz. (* du erfreust meine Seele.)}
   }
 }

@@ -4,12 +4,11 @@
 \include "include/globals.ily"
 
 \bookpart {
-   \label #'ref104
-  \tocItem \markup "Химн на великата Душа – Himn na velikata Duša"
+  \label #'ref104
+  \tocItem \markup "Химн на Великата душа – Himn na Velikata duša"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
-
 
     \new Voice \absolute {
       \clef treble
@@ -18,73 +17,70 @@
       \tempoFunc "Moderato" 4 "72/80"
       \autoBeamOff
 
+      a2 d'4 | e'2 fis'8 [ (e'8) ]| d'2. | e'2 fis'4 | g'2. |
 
+      a'4 g'4 fis'4 | e'2. |   e'2. | \break g'2. | b'4 cis''4 b'4 | b'2. | a'2. |
 
-      \autoBeamOff
-      a2 d'4 | e'2 fis'8 [ (e'8) ]| d'2. | e'2 fis'4 | g'2. | \break
-
-      a'4 g'4 fis'4 | e'2. | e'2. | g'2. | b'4 cis''4 b'4 | b'2. | a'2. | \break
-
-      fis'2. | a'4 (g'4) e'4 | e'2. | d'2 \fermata
+      fis'2. | a'4 (g'4) e'4 | e'2. |   d'2. (| \break d'4) r4
       \tempoFunc "Più mosso" 4 "88"
-      fis'4  \bar "||" a'2 a'4 | b'2 fis'4 | \break
+      fis'4  \bar "||" a'2 a'4 | b'2 fis'4 |
 
-      a'2. | a'2 a'4 | b'2 b'4 | b'2 ( cis''4 ) | a'2. ( | a'4 ) r4 a'4 | \break
+      a'2. | a'2 a'4 | b'2 b'4 |  b'2 ( cis''4 ) |  a'2. ( | \break a'4 ) r4 a'4 |
 
-      d''2 b'4 | b'2 ( cis''4 ) | a'2. | fis'2 fis'4  | g'2 e'4 | e'2 fis'4 | \break
+      d''2 b'4 | b'2 ( cis''4 ) | a'2. | fis'2 fis'4  |  g'2 e'4 |  e'2 fis'4 |
 
-      d'2.  \bar "||"
-       \tempoFunc "Ancora più mosso" 4 "96"
+      d'2.  \bar "||" \break
+      \tempoFunc "Ancora più mosso" 4 "96"
 
-      a2 a4 | d'2 ( e'4 ) | fis'2 ( g'4 ) | a'2 \fermata a'4 | b'2 a'4 | \break
+      a2 a4 | d'2 ( e'4 ) | fis'2 ( g'4 ) | a'2. (| a'4 ) r4 a'4 |  b'2 a'4 |
 
-      a'2. | fis'2. |
-     
-      b'2 a'4 | fis'2 g'4 | a'2. | g'2 fis'4 | \break
+      a'2. | fis'2. | \break
 
-      g'2 b'4 | a'2. | a'2 a'4 | d''2 b'4 | a'2. | a'2 a'4 | \break
+      b'2 a'4 | fis'2 g'4 | a'2. | g'2 fis'4 |
 
-      d''2 b'4 | b'2 ( cis''4 ) | a'2 g'4 |fis'2  fis'4 |
+      g'2 b'4 |  a'2. |  a'2 a'4 | d''2 b'4 | \break a'2.  | a'2 a'4 |
+
+      d''2 b'4 | b'2 ( cis''4 ) |  a'2 g'4  |  fis'2  fis'4 |
       \tempo "rit." g'2  e'4 | e'2 ( fis'4 ) | \break
-      d'2. | \tempo "a tempo" fis'2 fis'4 | fis'2. | fis'4 ( g'4 )  a'4 | b'2 fis'4 |a'2.   \break
+      d'2. | \tempo "a tempo" fis'2 fis'4 | fis'2. | fis'4 ( g'4 )  a'4 | b'2 fis'4 |  a'2.
       | % 61
-      g'2 ^\fermata  \tempoFunc "Maestoso" 4 "72" a4 \mark \markup {\small \musicglyph "scripts.segno" }  \bar "||"
+      g'2. (| \break g'4) r4  \tempoFunc "Maestoso" 4 "72" a4 \mark \markup {\small \musicglyph "scripts.segno" }  \bar "||"
       a2  d'4 | % 63
       e'2. | % 64
-      e'4 (  fis'4 )  g'4 | % 65
-      fis'2 ^\fermata  fis'4 | % 66
-      fis'2  g'4 \break | % 67
-      a'2. | % 68
+      e'4 (  fis'4 )  g'4 |  % 65
+      fis'2. (|   fis'4) r4  fis'4 |  % 66
+      fis'2  g'4 |  % 67
+      a'2. | \break % 68
       b'2  g'4 | % 69
       g'2  a'4 |
-      fis'2 ^\fermata  b'4 | % 71
+      fis'2. (| fis'4) r4 b'4 | % 71
       b'2  b'4 | % 72
-      d''2. \break | % 73
+      d''2.  | % 73
       cis''2  b'4 | % 74
-      b'2 (  cis''4 ) | % 75
-      a'2  g'4 | % 76
+      b'2 (  cis''4 ) |\break % 75
+      a'2  g'4 |  % 76
       fis'2 ( \tempo "rit." e'4 )  | % 77
-      \tempo "              Fine" d'2. \bar "|."
-      \break | % 78
+      \tempo "   Fine" d'2. \bar "|."
+      | % 78
       \tempo "a tempo" fis'2 g'4 | % 79
       a'2  a'4 |
       a'4 (  b'4 )  a'4 | % 81
-      fis'2  g'4 \break | % 82
-      a'2. | % 83
+      fis'2  g'4 |  % 82
+      a'2. | \break % 83
       d''2. | % 84
       cis''2. | % 85
       b'2 (  cis''4 ) | % 86
-      b'2. \break | % 87
+      b'2.  | % 87
       a'2  fis'4 | % 88
       a'2  g'4 | % 89
       fis'2  e'4 |
-      d'2  a4 | \bar "||"
+      d'2  a4 | \bar"||"
     }
 
     \addlyrics {
       Гре -- е Слън -- це -- то, свет -- ло е
 
-      на -- вся -- къ -- де,  об -- ви -- та е Зе -- мя -- та със то -- пла дре -- ха.
+      на -- вся -- къ -- де,  об -- ви -- та е Зе -- мя -- та със топ -- ла дре -- ха.
 
       Съ -- буж -- да всич  --  ко жи -- во,
 
@@ -92,13 +88,13 @@
 
       све -- жест лъ -- ха на -- всъ -- де.
 
-      Вси -- чко се __ дви -- жи, пъл -- зи и ла -- зи,
+      Всич -- ко се __ дви -- жи, пъл -- зи и ла -- зи,
 
       хвър -- кат пти -- ци -- те, бя -- гат сър -- ни -- те,
 
       ве -- е вя -- тъ -- рът, а чо -- ве -- кът сто -- и
 
-      и ми -- сли що да пра -- ви.
+      и мис -- ли що да пра -- ви.
 
       Чу -- ва се ра -- дост -- на -- та пе -- сен:
 
@@ -108,17 +104,19 @@
 
       ве -- ли -- ко е И -- ме -- то __ Ти над всич -- ко!
 
-      Ти ца -- риш във Си -- ла и Жи -- вот,
+      Ти ца -- риш във си -- ла и жи -- вот,
 
-      във Зна -- ни -- е, Мъд -- рост,
+      във зна -- ни -- е, Мъд -- рост,
 
-      Ис -- ти -- на, Лю -- бов.“ "„Ве - "
+      Ис -- ти -- на, Лю -- бов“. "„Ве - "
 
     }
+
+
     \addlyrics {
       Gre -- e Slăn -- ce -- to, svet -- lo e
 
-      na -- vsja -- kă -- de,  ob -- vi -- ta e Ze -- mja -- ta săs to -- pla dre -- ha.
+      na -- vsja -- kă -- de,  ob -- vi -- ta e Ze -- mja -- ta săs top -- la dre -- ha.
 
       Să -- buž -- da vsič  --  ko ži -- vo,
 
@@ -126,13 +124,13 @@
 
       sve -- žest lă -- ha na -- vsă -- de.
 
-      Vsi -- čko se __ dvi -- ži, păl -- zi i la -- zi,
+      Vsič -- ko se __ dvi -- ži, păl -- zi i la -- zi,
 
       hvăr -- kat pti -- ci -- te, bja -- gat săr -- ni -- te,
 
       ve -- e vja -- tă -- răt, a čo -- ve -- kăt sto -- i
 
-      i mi -- sli što da pra -- vi.
+      i mis -- li što da pra -- vi.
 
       Ču -- va se ra -- dost -- na -- ta pe -- sen:
 
@@ -142,29 +140,31 @@
 
       ve -- li -- ko e I -- me -- to __ Ti nad vsič -- ko!
 
-      Ti ca -- riš văv Si -- la i Ži -- vot,
+      Ti ca -- riš văv si -- la i ži -- vot,
 
-      văv Zna -- ni -- e, Măd -- rost,
+      văv zna -- ni -- e, Măd -- rost,
 
-      Is -- ti -- na, Lju -- bov.“ "„Ve - "
+      Is -- ti -- na, Lju -- bov“. "„Ve - "
 
     }
 
 
     \header {
-      title = \titleFunc "Химн на великата Душа" "Himn na velikata Dusha"
+      title = \titleFunc "Химн на Великата душа "" Himn na Velikata duša"
     }
 
     \midi{}
 
   } % score
 
+  \markup \empty-one
+
   \markup \dc-one "D.S. al Fine"
   %
 
   % include foreign translation(s) of the song
 
-  \pageBreak
+  \markup \vspace #3
   \include "../../lyrics/de/104_himn_na_velikata_dusha_lyrics_de.ly"
 
 } % bookpart

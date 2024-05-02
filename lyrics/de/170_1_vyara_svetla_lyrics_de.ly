@@ -3,18 +3,14 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Lichter Glaube I" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #21
+\markup \abs-fontsize #10 {
+  \hspace #5
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 %  \override #'(baseline-skip . 2)
 
 \column {
 
-  \line { " "Lichter Glaube, starker Glaube!}
-
-  \line { " "Er stützt den Geist, }
-   \line { " "er stützt den Geist, }
-  \line { " "der das Leben gebiert.}
+  \line { " "Lichter Glaube, starker Glaube! Er stützt den Geist, der das Leben gebiert.}
 
   }
 }

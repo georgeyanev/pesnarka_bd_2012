@@ -3,9 +3,9 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Brüderlichkeit, Einheit" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+ \markup \abs-fontsize #10 {
+  \hspace #17
+   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
     \line {  "   " Brüderlichkeit und Einheit wollen wir, }
     \line {   "   "den Ruf der Liebe senden wir aus, }

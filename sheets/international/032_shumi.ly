@@ -4,7 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
-   \label #'ref032
+  \label #'ref032
+   \tocItem \markup "Шуми – Šumi"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -48,7 +49,6 @@
       e pri -- liv v~do -- mo -- ve -- te. Šu -- mi,
       az slu -- šam cjal svjat da šu -- mi!
     }
-
     \header {
       title = \titleFunc "Шуми" "Šumi"
     }
@@ -57,10 +57,11 @@
 
   } % score
 
- 
-  \markup \fontsize #+2.0 {
-    \hspace #2
-    \override #'(baseline-skip . 1.9)
+  \markup \empty-two
+
+  \markup \abs-fontsize #10 {
+    \hspace #5
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
       \line {   2.  "   "  И вятър вее, }
@@ -80,7 +81,7 @@
       \line {    "   "    "   "където си ще.}
 
 
-      \line { " " }
+      \vspace #0.5
       \line {   3. "   "  Мой ветре, буйно }
 
       \line {   "   "    "   "  задухай сега!}
@@ -99,8 +100,8 @@
 
     }
 
-   \hspace #5
-    \override #'(baseline-skip . 1.9)
+    \hspace #5
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line {   2.  "   "  I vjatăr vee, }
 
@@ -119,7 +120,7 @@
       \line {    "   "    "   "kădeto si šte.}
 
 
-      \line { " " }
+      \vspace #0.5
       \line {   3. "   "  Moj vetre, bujno }
 
       \line {   "   "    "   "  zaduhaj sega!}
@@ -136,23 +137,24 @@
 
       \line {    "   "    "   "bujno zaduhaj sega!}
 
+
     } %column
   } % markup
 
   \pageBreak
 
-  \markup \fontsize #+2.0 {
+  \markup \abs-fontsize #10  {
     \hspace #2
-    \override #'(baseline-skip . 1.9)
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line {   4.  "   "        Задухай, ветре, }
       \line {   "   "    "   "         света разведри!}
 
       \line {   "   "При чисти мисли, нежни чувства}
 
-      \line {   "   "цъфтят Божествени изкуства;}
+      \line {   "   "цъфтят Божествени изкуства.}
 
-      \line {   "   "навред да просияе радост,}
+      \line {   "   "Навред да просияе радост,}
 
       \line {   "   "навред да диша свежа младост.}
 
@@ -163,16 +165,16 @@
 
 
     \hspace #5
-    \override #'(baseline-skip . 1.9)
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line {   4.  "   "        Zaduhaj, vetre, }
       \line {   "   "    "   "         sveta razvedri!}
 
       \line {   "   "Pri čisti misli, nežni čuvstva}
 
-      \line {   "   "căftjat Božestveni izkustva;}
+      \line {   "   "căftjat Božestveni izkustva.}
 
-      \line {   "   "navred da prosijae radost,}
+      \line {   "   "Navred da prosijae radost,}
 
       \line {   "   "navred da diša sveža mladost.}
 
@@ -181,10 +183,10 @@
     }
     %column
   } % markup
- 
-\markup \empty-two
+
+  \markup \vspace #3
   % include foreign translation(s) of the song
-   \include "../../lyrics/de/032_shumi_lyrics_de.ly"
+  \include "../../lyrics/de/032_shumi_lyrics_de.ly"
 
 } % bookpart
 

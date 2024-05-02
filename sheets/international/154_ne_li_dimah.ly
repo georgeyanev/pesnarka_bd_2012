@@ -54,127 +54,143 @@
       да за -- поч -- не да се у -- чи. На -- ша __ Дон
       -- ка, ми -- ла ма -- мо, е ро -- де -- на мо --
       ма ум -- на, да -- ро -- ви -- та, та е вре --
-      ме от шко -- ло -- то за Жи -- во -- та не --
+      ме от шко -- ло -- то за жи -- во -- та не --
       що до -- бро да на -- у -- чи.
     }
 
     \addlyrics {
       Ne li du
-      -- mah, mi -- la ma -- mo, __ ne __ li __ kaz -- vah da
+      -- mah, mi -- la ma -- mo, __ ne li __ kaz -- vah da
       ne __ se -- di na -- ša Don -- ka kraj og -- ni --
       šte, v~kă -- šti sa -- mo da se gu -- ši, a da
       i -- de, ma -- mo, ve -- če na ško -- lo -- to,
       da za -- poč -- ne da se u -- či. Na -- ša __ Don
       -- ka, mi -- la ma -- mo, e ro -- de -- na mo --
       ma um -- na, da -- ro -- vi -- ta, ta e vre --
-      me ot ško -- lo -- to za Ži -- vo -- ta ne --
+      me ot ško -- lo -- to za ži -- vo -- ta ne --
       što do -- bro da na -- u -- či.
     }
 
-      \header {
-        title = \titleFunc "Не ли думах" "Ne li dumah"
-      }
+    \header {
+      title = \titleFunc "Не ли думах" "Ne li dumah"
+    }
 
-      \midi{}
+    \midi{}
 
-    } % score
+  } % score
 
-    \pageBreak
+  \markup \empty-two
 
-   \markup \fontsize #+1.6 {
-    \override #'(baseline-skip . 1.8)
-      \column {
 
-        \line {   "   " 2. Да не ходи вечер, мамо, на чешмата,}
+  \markup \abs-fontsize #10 {
 
-        \line {   "        " на момците пълни стомни да поднася,}
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
+    \column {
 
-        \line {   "        " росни китки да им обещава,}
 
-        \line {   "        " а на болни вечер из селото} 
+      \line {   "   " 2. Да не ходи вечер, мамо, }
 
-        \line {   "        " нека тя вода разнася.}
+      \line {   "        " на чешмата, на момците пълни }
 
-        \line {   "        " Наша Донка, мила мамо, по душа е}
+      \line {   "        " стомни да поднася, росни китки да }
 
-        \line {   "        " блага, кротка, милостива,}
+      \line {   "        "  им обещава, а на болни вечер }
 
-        \line {   "        " но сърце си трябва да научи, мамо,}
+      \line {   "        " из селото нека тя вода разнася.}
 
-        \line {   "        " момците да не посмива.}
+      \line {   "        " Наша Донка, мила мамо, по душа }
 
-        \line {   "        " }
+      \line {   "        " е блага, кротка, милостива,}
 
-        \line {   "   " 3. Сутрин рано на чешмата да отива,}
+      \line {   "        " но сърце си трябва да научи, }
 
-        \line {   "        " в бели менци, мамо, вода да налива}
+      \line {   "        " мамо, момците да не посмива.}
+    }
 
-        \line {   "        " бодра, весела, засмяна,}
+    \hspace #-2
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
 
-        \line {   "        " с чиста, бяла риза, с хубава премяна.}
+    \column {
 
-        \line {   "        " Та за пример тя да стане.}
+      \line {   "   " 2. Da ne hodi večer, mamo,}
 
-        \line {   "        " Кой я види как работи из селото,}
+      \line {   "        "  na češmata, na momcite pălni  }
 
-        \line {   "        " как на всекиму помага,}
+      \line {   "        "stomni da podnasja, rosni kitki da }
 
-        \line {   "        " да обикне и да прояви доброто}
+      \line {   "        " im obeštava, a na bolni večer }
 
-        \line {   "        " като тая душа блага.}
-      }
+      \line {   "        " iz seloto neka tja voda raznasja.}
 
-      \hspace #-2
-      \override #'(baseline-skip . 1.8)
-     
-      \column {
+      \line {   "        " Naša Donka, mila mamo, po duša }
 
-        \line {   "   " 2. Da ne hodi večer, mamo, na češmata,}
+      \line {   "        " e blaga, krotka, milostiva,}
 
-        \line {   "        " na momcite pălni stomni da podnasja,}
+      \line {   "        " no sărce si trjabva da nauči,}
 
-        \line {   "        " rosni kitki da im obeštava,}
+      \line {   "        "  mamo, momcite da ne posmiva.}
 
-        \line {   "        " a na bolni večer iz seloto} 
+    } %column
+  } % markup
 
-        \line {   "        " neka tja voda raznasja.}
 
-        \line {   "        " Naša Donka, mila mamo, po duša e}
 
-        \line {   "        " blaga, krotka, milostiva,}
+  \markup \abs-fontsize #10 {
 
-        \line {   "        " no sărce si trjabva da nauči, mamo,}
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
+    \column {
 
-        \line {   "        " momcite da ne posmiva.}
 
-        \line {   "        " }
+      \line {   "   " 3. Сутрин рано на чешмата да отива,}
 
-        \line {   "   " 3. Sutrin rano na češmata da otiva,}
+      \line {   "        " в бели менци, мамо, вода да налива}
 
-        \line {   "        " v beli menci, mamo, voda da naliva}
+      \line {   "        " бодра, весела, засмяна,}
 
-        \line {   "        " bodra, vesela, zasmjana,}
+      \line {   "        " с чиста, бяла риза, с хубава }
 
-        \line {   "        " s čista, bjala riza, s hubava premjana.}
+      \line {   "        " премяна. Та за пример тя да стане.}
 
-        \line {   "        " Ta za primer tja da stane.}
+      \line {   "        " Кой я види как работи из селото,}
 
-        \line {   "        " Koj ja vidi kak raboti iz seloto,}
+      \line {   "        " как на всекиму помага,}
 
-        \line {   "        " kak na vsekimu pomaga,}
+      \line {   "        " да обикне и да прояви доброто}
 
-        \line {   "        " da obikne i da projavi dobroto}
+      \line {   "        " като тая душа блага.}
+    }
 
-        \line {   "        " kato taja duša blaga.}
-      } %column
-    } % markup
+    \hspace #-4
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
 
-   \markup \empty-two
-   
-   
-   
+    \column {
 
-    % include foreign translation(s) of the song
-    \include "../../lyrics/de/154_ne_li_dumah_lyrics_de.ly"
+      \line {   "   " 3. Sutrin rano na češmata da otiva,}
 
-  } % bookpart
+      \line {   "        " v beli menci, mamo, voda da naliva}
+
+      \line {   "        " bodra, vesela, zasmjana,}
+
+      \line {   "        " s čista, bjala riza, s hubava }
+
+      \line {   "        " premjana. Ta za primer tja da stane.}
+
+      \line {   "        " Koj ja vidi kak raboti iz seloto,}
+
+      \line {   "        " kak na vsekimu pomaga,}
+
+      \line {   "        " da obikne i da projavi dobroto}
+
+      \line {   "        " kato taja duša blaga.}
+    } %column
+  } % markup
+
+  \markup \empty-two
+
+
+
+
+  % include foreign translation(s) of the song
+  \include "../../lyrics/de/154_ne_li_dumah_lyrics_de.ly"
+
+} % bookpart

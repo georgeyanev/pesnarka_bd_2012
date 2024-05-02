@@ -4,7 +4,7 @@
 \include "include/globals.ily"
 
 \bookpart {
-   \label #'ref191
+  \label #'ref191
   \tocItem \markup "Новото Битие – Novoto Bitie"
   \label #'ref191_1
   \tocItem \markup "     Първи Божествен ден – Părvi Božestven den"
@@ -12,18 +12,19 @@
   \markup \center-column \normal-text \fontsize #6.5 {
     \center-align
     \line { "     Новото Битие – Създаването на новия Адам" }
-     \center-align
-   
-    \vspace #-0.1
+    \center-align
+
+    \vspace #0.5
     \center-align
     \line \fontsize #-3 { "     Novoto Bitie – Săzdavaneto na novija Adam" }
     \vspace #-0.1
     \center-align
-     \hspace #5.1
-    \line \fontsize #-3 \bold  { "Die Neue Genesis – Die Erschaffung des neuen Adam" }
+    \hspace #5.1
+    \line \abs-fontsize #13  { "Die Neue Genesis – Die Erschaffung des neuen Adam" }
     %\vspace #-0.8
     \center-align
-    \line \fontsize #-3 { " " }
+
+    \vspace #3
   }
   \score {
     \include "include/score-layout.ily"
@@ -35,7 +36,7 @@
       \tempoFunc "Andante cantabile" 2 "60"
       \autoBeamOff
       \partial 4
-      c'4 | f'2 g'2 
+      c'4 | f'2 g'2
       as'4 as'4 g'4 ( f'4 ) | \time 2/2 g'2 r4 g'4 | % 3
       \time 4/2 c''2 bes'2 as'2 f'2 \break | % 4
       g'4 ( as'4 ) g'1 \fermata g'4. a'8 | % 5
@@ -58,7 +59,7 @@
       bes'2 as'4 as'4 g'4 ( f'4 )  \tempo "rall." bes'4( as'4 )
       | % 22
       g'1 g'2. g'4 | % 23
-      g'2 c''1.  | % 24
+      g'2 c''1.  | \break % 24
       d''4 ( es''4 ) f''2 ( g''2 ) as''2 ~ | % 25
       as''4 g''4 c''1 g'2 | % 26
       \time 2/2  g'2 g'4 g'4 \break | % 27
@@ -85,29 +86,30 @@
       на -- та, и Дух Бо -- жий се но -- се -- ше
       над во -- ди -- те на жи -- во -- та. И ре --
       че Бог: „Да дой -- де кра -- си -- ва -- та ви
-      -- де -- ли -- на.“ И тя се я -- ви във сво --
+      -- де -- ли -- на“. И тя се я -- ви във сво --
       я -- та свет -- ли -- на. И ви -- дя Бог, че __
       тя __ бе __ до -- бро. И Бог раз -- де -- ли __ свет --
       ли -- на -- та от тъм -- ни -- на -- та. И на --
       ре -- че Бог свет -- ли -- на -- та ден, а тъм
       -- ни -- на -- та нощ. __ И ста -- на ве -- чер, и
       ста -- на ут -- ро, пър -- ви ден.}
-     \addlyrics {
-      V~na -- ča --
-      lo Bog săz -- da -- de ne -- be -- to i ze --
-      mja -- ta. A ze -- mja -- ta be pus -- ta i ne
-      -- us -- tro -- e -- na. Nja -- ma -- še red po
-      ne -- ja. I tăm -- ni -- na be văr -- hu bezd --
-      na -- ta, i Duh Bo -- žij se no -- se -- še
-      nad vo -- di -- te na ži -- vo -- ta. I re --
-      če Bog: „Da doj -- de kra -- si -- va -- ta vi
-      -- de -- li -- na.“ I tja se ja -- vi văv svo --
-      ja -- ta svet -- li -- na. I vi -- dja Bog, če __
-      tja __ be __ do -- bro. I Bog raz -- de -- li __ svet --
-      li -- na -- ta ot tăm -- ni -- na -- ta. I na --
-      re -- če Bog svet -- li -- na -- ta den, a tăm
-      -- ni -- na -- ta nošt. __ I sta -- na ve -- čer, i
-      sta -- na ut -- ro, păr -- vi den.}
+
+      \addlyrics {
+        V~na -- ča --
+        lo Bog săz -- da -- de ne -- be -- to i ze --
+        mja -- ta. A ze -- mja -- ta be pus -- ta i ne
+        -- us -- tro -- e -- na. Nja -- ma -- še red po
+        ne -- ja. I tăm -- ni -- na be văr -- hu bezd --
+        na -- ta, i Duh Bo -- žij se no -- se -- še
+        nad vo -- di -- te na ži -- vo -- ta. I re --
+        če Bog: „Da doj -- de kra -- si -- va -- ta vi
+        -- de -- li -- na“. I tja se ja -- vi văv svo --
+        ja -- ta svet -- li -- na. I vi -- dja Bog, če __
+        tja __ be __ do -- bro. I Bog raz -- de -- li __ svet --
+        li -- na -- ta ot tăm -- ni -- na -- ta. I na --
+        re -- če Bog svet -- li -- na -- ta den, a tăm
+        -- ni -- na -- ta nošt. __ I sta -- na ve -- čer, i
+        sta -- na ut -- ro, păr -- vi den.}
 
         \header {
           title = \titleFunc "Първи Божествен ден" "Părvi Božestven den"
@@ -119,10 +121,11 @@
 
       \markup \raise #2.8 \override #'(baseline-skip . 2) {
         \column {
-          \fill-line \italic { "" "" \concat {"attaca" "   " }}
+          \fill-line \italic \huge { "" "" \concat {"attaca" "   " }}
         }
       }
 
+      \markup \vspace #3
       % include foreign translation(s) of the song
       \include "../../lyrics/de/191_nb_parvi_bozhestven_den_lyrics_de.ly"
 

@@ -6,14 +6,14 @@
 "rightBraces018" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -5.6 )
+    \translate #'(0 . -7.6 )
     \right-brace #18
 
 
-    \translate #'(0 . -10 )
-    \right-brace #45
+    \translate #'(0 . -11.3 )
+    \right-brace #41
 
-    \translate #'(0 . -14.9 )
+    \translate #'(0 . -16.6 )
     \right-brace #18
 
 
@@ -21,13 +21,13 @@
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -6.2 )
+    \translate #'(0 . -8.2 )
     2
 
-    \translate #'(0 . -12.2 )
+    \translate #'(0 . -13.9 )
     2
 
-    \translate #'(0 . -18.9 )
+    \translate #'(0 . -22.6 )
     2
 
 
@@ -71,7 +71,7 @@
         {
           f'2. (|  f'4 ) r4 g'4 | g'2 g'4 | a'2
           \override Score.RehearsalMark.outside-staff-priority = #599
-          \mark\markup\normalsize\bold { "rit." } % places rit. below alternative bracket
+          \tempo"rit."  % places rit. below alternative bracket
           a'4 | b'2 b'4 | c''2. ~ | c''2  \bar "|." \pageBreak
         }
       }
@@ -79,24 +79,24 @@
 
     \addlyrics {
       Из -- ля -- зъл е се -- яч да се -- е __
-      пре -- крас -- но бла -- го нов Жи -- вот. __ И
-      се -- е той и ти -- хо пе -- е __ пред все -- ки
+      пре -- крас -- но бла -- "го  –" нов жи -- вот. __ И
+      се -- е той, и ти -- хо пе -- е __ пред все -- ки
       дом и все -- ки род, __  и все -- ки род: __ Без --
       це -- нен дар __ е Лю -- бов -- та, __ кра --  си -- во
-      чув -- ство О -- бич -- та __  и бла -- го де -- ло Ми -- лост --
-      та, __  о -- би -- лен из -- вор Мъд -- рост -- та. __ Без --
-      та  __  о -- би -- лен из -- вор Мъд -- рост -- та. __ 
+      чув -- "ство  –" о -- бич -- та __  и бла -- го де -- "ло  –" ми -- лост --
+      та, __  о -- би -- лен из -- "вор  –" Мъд -- рост -- та. __ Без --
+      та  __  о -- би -- лен из -- "вор  –" Мъд -- рост -- та. __
     }
 
-     \addlyrics {
+    \addlyrics {
       Iz -- lja -- zăl e se -- jač da se -- e __
-      pre -- kras -- no bla -- go nov Ži -- vot. __ I
-      se -- e toj i ti -- ho pe -- e __  pred vse -- ki
-      dom i vse -- ki rod,  __ i vse -- ki rod: __ Bez --
+      pre -- kras -- no bla -- "go  –" nov ži -- vot. __ I
+      se -- e toj, i ti -- ho pe -- e __ pred vse -- ki
+      dom i vse -- ki rod, __  i vse -- ki rod: __ Bez --
       ce -- nen dar __ e Lju -- bov -- ta, __ kra --  si -- vo
-      čuv -- stvo O -- bič -- ta __  i bla -- go de -- lo Mi -- lost --
-      ta,  __ o -- bi -- len iz -- vor Măd -- rost -- ta. __ Bez --
-      ta __  o -- bi -- len iz -- vor Măd -- rost -- ta. __ 
+      čuv -- "stvo  –" o -- bič -- ta __  i bla -- go de -- "lo  –" mi -- lost --
+      ta, __  o -- bi -- len iz -- "vor  –" Măd -- rost -- ta. __ Bez --
+      ta  __  o -- bi -- len iz -- "vor  –" Măd -- rost -- ta. __
     }
 
 
@@ -109,8 +109,8 @@
   } % score
 
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+  \markup \abs-fontsize #10 {
+    \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
 
@@ -118,22 +118,22 @@
       \line {   "   " от тоя благ и мил напев; }
       \line {   "   " и просиява, и възкръсва, }
       \line {   "   " и благославя тоз посев. }
-      \line { " " }
+      \vspace #0.5
       \line { "   " \italic {Припев: } }
       \line {  "   " Безценен дар е Любовта, }
-      \line { "   " красиво чувство – Обичта }
-      \line { "   " и благо дело – Милостта, }
+      \line { "   " красиво чувство – обичта }
+      \line { "   " и благо дело – милостта, }
       \line {  "   " обилен извор – Мъдростта.}
 
-      \line { " " }
+      \vspace #0.5
       \line { "   " \italic {Припев ...} }
 
-      \line { " " }
-      \line { 3. Любов вселената облива, }
+      \vspace #0.5
+      \line { 3. Любов Вселената облива, }
       \line {   "   " от обич грее всяка твар; }
       \line {   "   " живот в живота се прелива, }
       \line {   "   " тук няма вече млад и стар. }
-      \line { " " }
+      \vspace #0.5
       \line { "   " \italic {Припев ...} }
     }
     \"rightBraces018"
@@ -142,36 +142,36 @@
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
-    \column {
+      \column {
 
-      \line { 2. I kojto čue, v mig potrăpva }
-      \line {   "   " ot toja blag i mil napev; }
-      \line {   "   " i prosijava, i văzkrăsva, }
-      \line {   "   " i blagoslavja toz posev. }
-      \line { " " }
-      \line { "   " \italic {Pripev: } }
-      \line {  "   " Bezcenen dar e Ljubovta, }
-      \line { "   " krasivo čuvstvo – Običta }
-      \line { "   " i blago delo – Milostta, }
-      \line {  "   " obilen izvor – Mădrostta.}
+        \line { 2. I kojto čue, v mig potrăpva }
+        \line {   "   " ot toja blag i mil napev; }
+        \line {   "   " i prosijava, i văzkrăsva, }
+        \line {   "   " i blagoslavja toz posev. }
+        \vspace #0.5
+        \line { "   " \italic {Pripev: } }
+        \line {  "   " Bezcenen dar e Ljubovta, }
+        \line { "   " krasivo čuvstvo – običta }
+        \line { "   " i blago delo – milostta, }
+        \line {  "   " obilen izvor – Mădrostta.}
 
-      \line { " " }
-      \line { "   " \italic {Pripev ...} }
+        \vspace #0.5
+        \line { "   " \italic {Pripev ...} }
 
-      \line { " " }
-      \line { 3. Ljubov vselenata obliva, }
-      \line {   "   " ot obič gree vsjaka tvar; }
-      \line {   "   " život v života se preliva, }
-      \line {   "   " tuk njama veče mlad i star. }
-      \line { " " }
-      \line { "   " \italic {Pripev ...} }
-    }
+        \vspace #0.5
+        \line { 3. Ljubov Vselenata obliva, }
+        \line {   "   " ot obič gree vsjaka tvar; }
+        \line {   "   " život v života se preliva, }
+        \line {   "   " tuk njama veče mlad i star. }
+        \vspace #0.5
+        \line { "   " \italic {Pripev ...} }
+      }
     }
     \"rightBraces018"
 
   }
 
-  \markup \empty-one
+  \markup \vspace #3
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/018_izlyazal_e_seyach_lyrics_de.ly"

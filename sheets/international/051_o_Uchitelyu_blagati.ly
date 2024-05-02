@@ -6,24 +6,24 @@
 "rightBraces051" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -5.5 )
+    \translate #'(0 . -7.5 )
     \right-brace #20
 
-    \translate #'(0 . -10.0 )
+    \translate #'(0 . -11.7 )
     \right-brace #20
 
-    \translate #'(0 . -10.0 )
+    \translate #'(0 . -11.0 )
     \right-brace #20
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -6.1 )
+    \translate #'(0 . -8.1 )
     2
 
-    \translate #'(0 . -12.0 )
+    \translate #'(0 . -15.0 )
     2
 
-    \translate #'(0 . -12.0 )
+    \translate #'(0 . -13.5 )
     2
   }
 }
@@ -50,38 +50,41 @@
     }
 
     \addlyrics {
-      "1. О," У -- чи -- те -- лю бла -- га -- ти, теб из -- пъл -- ва До -- бри --
+      "1. О," У -- чи -- те -- лю бла -- га -- ти, теб из -- пъл -- ва доб -- ри --
       на. Твой -- те ду -- ми са кри -- ла -- ти, пъл -- ни
-      с~Мъ -- дрост, Свет -- ли -- на. Твой -- те на.
+      с~мъд -- рост, свет -- ли -- на. Твой -- те на.
     }
 
-  \addlyrics {
-      "1. O," U -- či -- te -- lju bla -- ga -- ti, teb iz -- păl -- va Do -- bri --
+
+    \addlyrics {
+      "1. O," U -- či -- te -- lju bla -- ga -- ti, teb iz -- păl -- va dob -- ri --
       na. Tvoj -- te du -- mi sa kri -- la -- ti, păl -- ni
-      s~Mă -- drost, Svet -- li -- na. Tvoj -- te na.
+      s~măd -- rost, svet -- li -- na. Tvoj -- te na.
     }
 
     \header {
-      title = \titleFunc "О, Учителю благати" "O, Učitelju blagati "
+      title = \titleFunc "О, Учителю благати "" O, Učitelju blagati "
     }
 
     \midi{}
 
   } % score
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+  \markup \empty-two
+
+  \markup \abs-fontsize #10 {
+    \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line {   2. Пратеник си ти от Бога}
 
       \line {   "   "всред измъчени души,}
 
-      \line {   "   "Мир, Любов ти в нас да влееш,}
+      \line {   "   "мир, любов ти в нас да влееш,}
 
-      \line {   "   "Нов живот, честити дни.}
+      \line {   "   "нов живот, честити дни.}
 
-      \line {   "   "}
+      \vspace #0.5
 
       \line {   3. В скърби, мъки и неволи }
 
@@ -91,29 +94,29 @@
 
       \line {   "   "мой Учителю, поклон!}
 
-      \line {   "   "}
+      \vspace #0.5
 
-      \line {   4. Твоите думи – бисер чисти,}
+      \line {   4. Твойте думи – бисер чисти,}
 
-      \line {   "   "твоят образ – Светлина,}
+      \line {   "   "твоят образ – светлина,}
 
       \line {   "   "о, Учителю честити,}
 
-      \line {   "   "влей в сърца ни Топлина!}
+      \line {   "   "влей в сърца ни топлина!}
     }\"rightBraces051"
 
     \hspace #2
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
+    \column {
       \line {   2. Pratenik si ti ot Boga}
 
       \line {   "   "vsred izmăčeni duši,}
 
-      \line {   "   "Mir, Ljubov ti v nas da vleeš,}
+      \line {   "   "mir, ljubov ti v nas da vleeš,}
 
-      \line {   "   "Nov život, čestiti dni.}
+      \line {   "   "nov život, čestiti dni.}
 
-      \line {   "   "}
+      \vspace #0.5
 
       \line {   3. V skărbi, măki i nevoli }
 
@@ -123,20 +126,21 @@
 
       \line {   "   "moj Učitelju, poklon!}
 
-      \line {   "   "}
+      \vspace #0.5
 
-      \line {   4. Tvoite dumi – biser čisti,}
+      \line {   4. Tvojte dumi – biser čisti,}
 
-      \line {   "   "tvojat obraz – Svetlina,}
+      \line {   "   "tvojat obraz – svetlina,}
 
       \line {   "   "o, Učitelju čestiti,}
 
-      \line {   "   "vlej v sărca ni Toplina!}
+      \line {   "   "vlej v sărca ni toplina!}
     } %column
     \"rightBraces051"
   } % markup
 
-  \pageBreak
+  \markup \vspace #3
+
   % include foreign translation(s) of the song
   \include "../../lyrics/de/051_o_Uchitelyu_blagati_lyric_de.ly"
 

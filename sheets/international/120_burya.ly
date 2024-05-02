@@ -9,7 +9,7 @@
   \score {
     \include "include/score-layout.ily"
 
-    \new Voice \relative c' {
+    \new Staff = main  \relative c' {
       \clef treble
       \key bes \minor
       \time 9/8
@@ -17,8 +17,27 @@
       \autoBeamOff
       bes8 ( [  des8 ) ]  c8  bes4.  a4  bes8
       \override TextScript.extra-offset = #'(2.5 . 2)
-      c4.  f2.  | % 4
-      f8  ges8  f8  es8  des8 c8  es4. \break |
+      <<
+        {
+          c4.  f2.  |
+        }
+        \new Staff \with {
+          \override VerticalAxisGroup.default-staff-staff-spacing =
+          #'((basic-distance . 8)
+             (padding . -20))
+          \remove "Time_signature_engraver"
+          alignAboveContext = #"main"
+          fontSize = #-1.5
+          \override StaffSymbol.staff-space = #(magstep -2)
+          \override StaffSymbol.thickness = #(magstep -2)
+          firstClef = ##f
+        }
+        {  c4.^\markup { \large \italic "ossia по К. Икономов/ossia nach K. Ikonomov"}  f,2.}
+      >>
+
+
+
+      f'8  ges8  f8  es8  des8 c8  es4. \break |
       c2. es8 ( [  d8 ) ]  es8 |
       \time 6/8
       f4.  bes,4. | % 8
@@ -31,26 +50,26 @@
       f4. (f4) es8 | es2.   |
       \break
 
-      \key f \minor \bar ".|" \time 9/8 | % 15
+      \key f \minor \bar ".|"  | % 15
 
 
-      \bar ".|:-||"  \tempoFunc "            Più mosso" 4 "66" f4  f8  f4.  c'4. |
+      \bar ".|:-||"   \tempoFunc "   Più mosso" 4 "66" \time 9/8 f4  f8  f4.  c'4. |
 
       des4.  c2.|
       c8 ( [ des8  c8 ) ]  bes4.  as4. | \break
 
       f2. (f4.)| \bar ":|.|:"
 
-      \time 6/8 c'4. ( c8 ) c8  c8 |  
+      \time 6/8 c'4. ( c8 ) c8  c8 |
       f4. ~  f8  e8  f8 | % 21
 
-      g4. ( ~  g8 [  f8 des8 ) ] | \break 
+      g4. ( ~  g8 [  f8 des8 ) ] | \break
 
       \time 9/8
       c4. ~  c4  c8 bes8 -- as8 --  bes8 -- |
       as4. f2.   \bar ":|."  |  \key f \major
-      \bar ".|:" a8  bes8  c8  f,4  f8 d'4 (bes8 ) | \break 
-      g2. e8  [ (f8) ] g8 | 
+      \bar ".|:" a8  bes8  c8  f,4  f8 d'4 (bes8 ) | \break
+      g2. e8  [ (f8) ] g8 |
       \time 6/8 c4.  f,4. | a4.  g4  g8 | f2. \bar ":|."
 
 
@@ -78,7 +97,7 @@
       v~men se pov --  di -- ga,
       no ni -- ko -- go ne ob -- vi -- nja
       -- vam az. Bu -- rja -- ta e bu -- rja,
-      no __ v~men e Toj. __ Bu --
+      no __  v~men e Toj. __  Bu --
       rja -- ta men  ne raz -- bi --
       ra, __ no az ja raz -- bi
       -- ram. Bu -- rja -- ta me raz --
@@ -94,8 +113,8 @@
 
   } % score
 
-  \pageBreak
 
+  \markup \vspace #1
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/120_burya_lyrics_de.ly"

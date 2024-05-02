@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Gebet" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10 {
+  \hspace #15
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column { 
@@ -19,9 +19,7 @@
 
     \line { " "über mich, über mich.}
 
-    \line { " "Ich, der ich noch nicht weiß,}
-
-    \line { " "wie ich leben soll.}
+    \line { " "Ich, der ich noch nicht weiß, wie ich leben soll.}
 
 
 }

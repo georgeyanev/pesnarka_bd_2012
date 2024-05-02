@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Singt an Christus" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
- 
+\markup \abs-fontsize #10 {
+   \hspace #3
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -25,7 +25,7 @@
 
     \line { "   "von Geschlecht zu Geschlecht.}
 
-    \line { " " }
+    \vspace #0.5
 
     \line { 2. Singt an Christus neue Hymnen}
 
@@ -43,7 +43,7 @@
 
     \line { "   " hinab, um die Toten auferstehen zu lassen. }
 
-    \line { " " }
+    \vspace #0.5
 
     \line { 3. Und als er gepriesen worden war,}
 
@@ -85,7 +85,7 @@
     \line { "   "bewahrt mein Wort und}
 
     \line { "   "lebt in Liebe!}
-    \line { " " }
+   \vspace #0.5
     \line { 5. Nur in ihr ist das Leben;}
 
     \line { "   "in ihr ist auch die Freude,}

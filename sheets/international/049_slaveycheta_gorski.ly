@@ -5,30 +5,30 @@
 "rightBraces049" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -5.5 )
+    \translate #'(0 . -7.5 )
     \right-brace #20
 
-    \translate #'(0 . -10.0 )
+    \translate #'(0 . -11.0 )
     \right-brace #20
 
-    \translate #'(0 . -10.0 )
+    \translate #'(0 . -11.7 )
     \right-brace #20
 
-    \translate #'(0 . -10.0 )
+    \translate #'(0 . -11.5 )
     \right-brace #20
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -6.1 )
+    \translate #'(0 . -8.1 )
     2
 
-    \translate #'(0 . -12.0 )
+    \translate #'(0 . -14.0 )
     2
 
-    \translate #'(0 . -12.0 )
+    \translate #'(0 . -14.6 )
     2
 
-    \translate #'(0 . -12.0 )
+    \translate #'(0 . -14.0 )
     2
   }
 }
@@ -40,6 +40,7 @@
   \score {
     \include "include/score-layout.ily"
 
+
     \new Voice \absolute  {
       \clef treble
       \key bes \major
@@ -47,12 +48,12 @@
       \tempoFunc "Tempo di marcia" 4 "112"
       \autoBeamOff
 
-      bes'4. a'8 | c''8 bes' a' g' |  g'2 |  f'2 \break | 
-       a'4. g'8  | a'8 g' es' g' |  f'2 |   d'2 | \break
-      \bar ".|:-||" 
-        es'4. es'8 | g'8 g' f' e' | f'2 | bes'2 | \break
-        
-        d''4. bes'8 | f'8 f' d'' d'' | c''2  bes'2 | \break
+      bes'4. a'8 | c''8 bes' a' g' |  g'2 |  f'2 \break |
+      a'4. g'8  | a'8 g' es' g' |  f'2 |   d'2 | \break
+      \bar ".|:-||"
+      es'4. es'8 | g'8 g' f' e' | f'2 | bes'2 | \break
+
+      d''4. bes'8 | f'8 f' d'' d'' | c''2  bes'2 | \break
       \bar ":|."
     }
 
@@ -62,7 +63,7 @@
       хор -- ски с~пес -- ни го -- ним от Зе -- мя -- та.
     }
 
-     \addlyrics {
+    \addlyrics {
       Nij sme sla -- vej -- če -- ta gor -- ski, s~pes -- ni
       sla -- vim Ne -- be -- sa -- ta, čuv -- stva rob -- ski, gri -- ži
       hor -- ski s~pes -- ni go -- nim ot Ze -- mja -- ta.
@@ -70,44 +71,45 @@
 
 
     \header {
-      title = \titleFunc "Славейчета горски " "Slavejčeta gorski "
+      title = \titleFunc "Славейчета горски "" Slavejčeta gorski"
     }
 
     \midi{}
 
   } % score
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+  \markup \empty-two
+
+  \markup \abs-fontsize #10 {
+    \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
+      \line { 2.  Наш’те песни са ронливи,}
 
-      \line { 2.  Наш'те песни са ронливи,}
-
-      \line {   "   " те ни носят радост вечно; }
+      \line {   "   " те ни носят радост вечно, }
 
       \line {   "   "  хем са живи, хем игриви}
 
       \line {   "   " кат поточе бързотечно.}
-      \line {   "   " }
+      \vspace #0.5
 
       \line {   3. Ето, чуйте как се лее}
 
-      \line {   "   " песента ни в тишината,}
+      \line {   "   " песента ни в тишината –}
 
       \line {   "   " и се лее, и люлее}
 
       \line {   "   " като струя във душата.}
-      \line {   "   " }
+    \vspace #0.5
 
       \line {   4. От гласа ни тих и строен}
 
-      \line {   "   " всяко зло ще се прокуди;}
+      \line {   "   " всяко зло ще се прокуди.}
 
-      \line {   "   "новий воин, млад, достоен, }
+      \line {   "   "Новий воин, млад, достоен, }
 
       \line {   "   " с песните си ще пробудим.}
-      \line {   "   " }
+      \vspace #0.5
 
       \line {   5. Пейте, пейте, мили птички,}
 
@@ -120,34 +122,34 @@
 
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-     \column {
+    \column {
 
-      \line { 2.  Naš'te pesni sa ronlivi,}
+      \line { 2.  Naš’te pesni sa ronlivi,}
 
-      \line {   "   " te ni nosjat radost večno; }
+      \line {   "   " te ni nosjat radost večno, }
 
       \line {   "   "  hem sa živi, hem igrivi}
 
       \line {   "   " kat potoče bărzotečno.}
-      \line {   "   " }
+     \vspace #0.5
 
       \line {   3. Eto, čujte kak se lee}
 
-      \line {   "   " pesenta ni v tišinata,}
+      \line {   "   " pesenta ni v tišinata –}
 
       \line {   "   " i se lee, i ljulee}
 
       \line {   "   " kato struja văv dušata.}
-      \line {   "   " }
+     \vspace #0.5
 
       \line {   4. Ot glasa ni tih i stroen}
 
-      \line {   "   " vsjako zlo šte se prokudi;}
+      \line {   "   " vsjako zlo šte se prokudi.}
 
-      \line {   "   "novij voin, mlad, dostoen, }
+      \line {   "   "Novij voin, mlad, dostoen, }
 
       \line {   "   " s pesnite si šte probudim.}
-      \line {   "   " }
+     \vspace #0.5
 
       \line {   5. Pejte, pejte, mili ptički,}
 

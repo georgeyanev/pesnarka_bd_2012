@@ -3,12 +3,11 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Melodie – Wenn der Tag erwacht" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10  {
+  \hspace #15
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " }
 
     \line { " "Wenn der Tag erwacht, }
 
@@ -26,7 +25,7 @@
 
     \line { " "fliegen unsere Seelen.}
 
-    \line { " " }
+   \vspace #0.5
 
     \line { " "Wenn der Tag erwacht,}
 

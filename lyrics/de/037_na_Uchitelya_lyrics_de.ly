@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "An den Meister" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10 {
+  \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -20,7 +20,7 @@
      \line { "   "Er ist für mich ein offener Weg, }
 
     \line { "   "der mich zum Vater führt.}
-    \line { "   " }
+     \vspace #0.5
 
     \line { 2. Herr, Du mein Meister, }
 
@@ -29,7 +29,7 @@
     \line { "   "und wie ein mächtiger Beschützer }
 
     \line { "   " sei immer bei mir.}
-    \line { "   " }
+     \vspace #0.5
 
     \line { 3. Gib mir Deine heilige Weisheit}
 
@@ -38,7 +38,7 @@
     \line { "   "auf dass ich für die Liebe zu all meinen Brüdern}
 
     \line { "   "immerdar bereit bin.}
-    \line { "   " }
+     \vspace #0.5
 
     \line { 4. Und in Tagen der Prüfung, }
 
@@ -47,7 +47,7 @@
     \line { "   "so werde ich für Dich leben}
 
     \line { "   "und für Dich sterben.}
-    \line { "   " }
+     \vspace #0.5
 
     \line { 5. Und wenn ich ein Bewohner }
 

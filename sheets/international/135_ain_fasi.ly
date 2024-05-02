@@ -55,7 +55,7 @@
       bes4 (  a4 )  d4 (  cis4 )
       bes4 (  a8 [  bes8 ) ] \break | % 11
       \time 3/4  | % 11
-      \tempo "                   Fine" a2 ^\fermata \bar "!!"
+      \tempo "            Fine" a2 ^\fermata \bar "!!"
       \tempoFunc "Più mosso" 4 "88" a'8. a16 | % 12
       \compoundMeter #'((4 3 4 ))  | % 12
       a4 bes4  a4  a8.   gis16 \bar "!"
@@ -100,16 +100,17 @@
       глъ -- би -- ни, във не -- бес -- ни
       -- те ви -- "си-" -- ни, де Свет --
       ли -- на __  о -- би -- та --
-      ва и в~Жи -- во
+      ва и в~жи -- во
       --  та веч -- но __   се __
       про -- я -- вя --   ва.
     }
+
     \addlyrics {
       A -- in fa -- si, me -- kri za --
       si, fin --   ze -- mru A -- šan
       --    me --  ru. Su
-      -- a si sin __     "me-" --
-      sul. Su -- ma si zen __   fe
+      -- a si sin __      "me-" --
+      sul. Su -- ma si zen __    fe
       --  sul, Su -- a si sin __
       me --  sul. Su -- ma si __
       zen __  fe --  sul, "Su-" --
@@ -119,8 +120,8 @@
       glă -- bi -- ni, văv ne -- bes -- ni
       -- te vi -- si -- ni, de Svet --
       li -- na __  o -- bi -- ta --
-      va i v~Ži -- vo
-      --  ta več -- no __  se __
+      va i v~ži -- vo
+      --  ta več -- no __   se __
       pro -- ja -- vja --   va.
     }
 
@@ -131,6 +132,8 @@
     \midi{}
 
   } % score
+
+  \markup \empty-one
 
   \markup \dc-two "D.C. al Fine"""
 

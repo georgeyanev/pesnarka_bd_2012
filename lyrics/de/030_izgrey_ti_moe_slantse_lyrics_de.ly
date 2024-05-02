@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Gehe auf, du, meine Sonne" }
 \markup \null
 \markup \null
-\markup \fontsize #+2.0 {
+\markup \abs-fontsize #10 {
   
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
@@ -18,7 +18,7 @@
     \line {   "   "und auf meinem Weg bin ich ermüdet;}
 
     \line {   "   "Du bringst mir seliges Leben.}
-    \line { " " }
+    \vspace #0.5
 
     \line {   "   "   \italic { Refrain:}  }
 
@@ -28,7 +28,7 @@
 
     \line {   "   " du, der du mir das selige Leben bringst.}
 
-    \line { " " }
+     \vspace #0.5
 
     \line {   2. Erleuchte den Himmel und die Erde,}
 
@@ -40,7 +40,7 @@
 
     \line {   "   "Oh, gib mir dieses Leben und Frieden!}
 
-    \line { " " }
+     \vspace #0.5
     \line {   "   "    \italic { Refrain:}  }
 
     \line {   "   "   Leben und Frieden, Leben und Frieden,}

@@ -5,18 +5,18 @@
 "rightBraces046" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -9.2 )
-    \right-brace #32
+    \translate #'(0 . -12.3 )
+    \right-brace #29
 
-    \translate #'(0 . -13.6 )
-    \right-brace #32
+    \translate #'(0 . -16.7 )
+    \right-brace #29
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -9.8 )
+    \translate #'(0 . -13.2 )
     2
 
-    \translate #'(0 . -16.8 )
+    \translate #'(0 . -21.0 )
     2
   }
 }
@@ -53,46 +53,47 @@
 
     \addlyrics {
       "1. Рос-" -- на кап -- ко, свят ла -- зу -- рен, чист, кра -- сив и тих, без --
-      бу -- рен, мир на рай -- ски -- я Жи -- вот, мир на рай -- ски -- я Жи --
+      бу -- рен, мир на рай -- ски -- я жи -- вот, мир на рай -- ски -- я жи --
       вот! В~те -- бе, кап -- ко, ви -- кам всич -- ки бра -- тя
       ми -- ли и се -- стрич -- ки, да ти ста -- не -- ме на -- род. "В~те -" -- бе,
       стрич -- ки, да ти ста -- не -- ме на -- род.
     }
-
-   \addlyrics {
+    \addlyrics {
       "1. Ros-" -- na kap -- ko, svjat la -- zu -- ren, čist, kra -- siv i tih, bez --
-      bu -- ren, mir na raj -- ski -- ja Ži -- vot, mir na raj -- ski -- ja Ži --
+      bu -- ren, mir na raj -- ski -- ja ži -- vot, mir na raj -- ski -- ja ži --
       vot! V~te -- be, kap -- ko, vi -- kam vsič -- ki bra -- tja
       mi -- li i se -- strič -- ki, da ti sta -- ne -- me na -- rod. "V~te -" -- be,
       strič -- ki, da ti sta -- ne -- me na -- rod.
     }
 
     \header {
-      title = \titleFunc "Росна капка" "Rosna kapka"
+      title = \titleFunc "Росна капка "" Rosna kapka"
     }
 
     \midi{}
 
   } % score
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+  \markup \empty-two
+
+  \markup \abs-fontsize #10 {
+    \hspace #7
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line { 2. Всяка сутрин във росата }
-      \line {   "   " ще си къпеме сърцата, }
+      \line {   "   " ще си къпеме сърцата }
 
-      \line {   "   " като слънчеви лъчи; (2)}
+      \line {   "   " като слънчеви лъчи (2)}
 
       \line {   "   " и ще пеем нови песни}
 
-      \line {   "   " със мелодии чудесни,}
+      \line {   "   " със мелодии чудесни –}
 
       \line {   "   " сводът красен да ечи.}
 
-      \line{" "}
+      \vspace #0.5
 
-      \line {   3.  И тъй чисти, в бели дрехи,}
+      \line {   3.  И тъй чисти, в бели дрехи}
 
       \line {   "   " и препасани с доспехи}
 
@@ -107,21 +108,21 @@
 
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-   \column {
+    \column {
       \line { 2. Vsjaka sutrin văv rosata }
-      \line {   "   " šte si kăpeme sărcata, }
+      \line {   "   " šte si kăpeme sărcata }
 
-      \line {   "   " kato slănčevi lăči; (2)}
+      \line {   "   " kato slănčevi lăči (2)}
 
       \line {   "   " i šte peem novi pesni}
 
-      \line {   "   " săs melodii čudesni,}
+      \line {   "   " săs melodii čudesni –}
 
       \line {   "   " svodăt krasen da eči.}
 
-      \line{" "}
+      \vspace #0.5
 
-      \line {   3.  I tăj čisti, v beli drehi,}
+      \line {   3.  I tăj čisti, v beli drehi}
 
       \line {   "   " i prepasani s dospehi}
 
@@ -136,6 +137,8 @@
 
     \"rightBraces046"
   } % markup
+
+  \pageBreak
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/046_rosna_kapka_lyrics_de.ly"

@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Gebet" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
+\markup \abs-fontsize #10 {
   \hspace #16
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 

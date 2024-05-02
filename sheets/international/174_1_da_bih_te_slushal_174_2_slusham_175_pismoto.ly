@@ -9,7 +9,6 @@
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
-
     \new Voice \absolute {
       \clef treble
       \key bes \minor
@@ -20,11 +19,11 @@
         f'4 bes'8. as'16 | % 2
         ges'4 es'4 | % 3
         f'4 as'8. ges'16 | % 4
-        f'4 c'4 \break | % 5
+        f'4 c'4 | % 5
         es'8. es'16 f'8. es'16 | % 6
-        des'4 bes4 | % 7
+        des'4 bes4 | \break  % 7
         c'4 es'8. des'16 | % 8
-        c'4 bes4 \break | % 9
+        c'4 bes4  | % 9
         des'4 c'8. c'16 |
       }
       \alternative {
@@ -42,33 +41,37 @@
     \addlyrics {
       Да бих Те
       слу -- шал, да бих Те слу -- шал! А -- ко бих
-      Те слу -- шал, До -- бро -- то ще -- ше в~мен да
+      Те слу -- шал, Доб -- ро -- то ще -- ше в~мен да
       се про -- я -- ви. из -- я -- ви.}
+
       \addlyrics {
         Da bih Te
         slu -- šal, da bih Te slu -- šal! A -- ko bih
-        Te slu -- šal, Do -- bro -- to šte -- še v~men da
+        Te slu -- šal, Dob -- ro -- to šte -- še v~men da
         se pro -- ja -- vi. iz -- ja -- vi.}
 
         \header {
-          title = \titleFunc "Да бих Тe слушал " "Da bih Te slušal"
+          title = \titleFunc "Да бих Тe слушал "" Da bih Te slušal"
         }
 
         \midi{}
 
       } % score
 
-
+      \markup \vspace #2
 
 
       % include foreign translation(s) of the song
       \include "../../lyrics/de/174_1_da_bih_te_slushal_lyrics_de.ly"
-      \markup \empty-two
+      \markup \vspace #3
 
 
       \label #'ref174_2
       \tocItem \markup "Слушам – Slušam"
       \include "include/bookpart-paper.ily"
+
+
+
       \score {
         \include "include/score-layout.ily"
         \new Voice \absolute {
@@ -104,19 +107,20 @@
 
 
             \header {
-              title = \titleFunc "Слушам" "Slušam"
+              title = \titleFunc "Слушам "" Slušam"
             }
 
             \midi{}
 
           } % score
 
+          \markup \empty-one
           \markup \dc-one "D.C."
-          \pageBreak
 
+          \markup \empty-one
           % include foreign translation(s) of the song
           \include "../../lyrics/de/174_2_sluscham_lyrics_de.ly"
-          \markup \empty-two
+          \pageBreak
 
           \label #'ref175
           \tocItem \markup "Писмото – Pismoto "
@@ -135,23 +139,23 @@
                 | % 2
                 g'4.  f'8  e'8  d'8  e'8
                 f'8 | % 3
-                a'2  g'4  d'8  e'8 \break| % 4
-                f'2  e'4 r8  e'8  | % 5
+                a'2  g'4  d'8  e'8 | \break % 4
+                f'2  e'4 r8  e'8  |  % 5
                 \time 5/4  | % 5
                 g'4.  f'8  e'8  d'8  e'4
                 f'8  a'8 | % 6
-                \time 4/4  \break| % 6
+                \time 4/4  | \break % 6
                 c''4 (  b'8 [  a'8 ])   g'4
-                ^\fermata  a'4  | % 7
+                ^\fermata  a'4  |  % 7
                 g'4  fis'4  a'4  c''8
-                b'8 | % 8
-                \time 3/4  | % 8
-                a'8 ( [  b'8 ])  g'4.  e'8  \break| % 9
+                b'8  % 8
+                \time 3/4    | % 8
+                a'8 ( [  b'8 ])  g'4.  e'8| \break % 9
                 \time 6/4  | % 9
                 f'4  g'4  a'4.  b'8  c''4
                 d''4 |
                 \time 4/4  |
-                e''2  d''4.  c''8 \break | % 11
+                e''2  d''4.  c''8 | \break % 11
                 \time 3/4  | % 11
                 b'8  a'8  b'8  e''4. |
               }
@@ -171,16 +175,17 @@
             \addlyrics {
               Ко -- га -- то Лю -- бов -- та ца --
               ру -- ва, смут не ста -- ва. Ко --
-              га -- то Мъ -- дрост -- та у -- прав
+              га -- то Мъд -- рост -- та у -- прав
               -- ля -- ва, ре -- дът не се
               на -- ру -- ша -- ва. Ко -- га --
               то Ис -- ти -- на -- та гре -- е,
               пло -- дът цъф -- ти и зре -- е.
               Ко -- зре -- е.}
+
               \addlyrics {
                 Ko -- ga -- to Lju -- bov -- ta ca --
                 ru -- va, smut ne sta -- va. Ko --
-                ga -- to Mă -- drost -- ta u -- prav
+                ga -- to Măd -- rost -- ta u -- prav
                 -- lja -- va, re -- dăt ne se
                 na -- ru -- ša -- va. Ko -- ga --
                 to Is -- ti -- na -- ta gre -- e,
@@ -188,17 +193,18 @@
                 Ko -- zre -- e.}
 
                 \header {
-                  title = \titleFunc "Писмото" "Pismoto"
+                  title = \titleFunc "Писмото "" Pismoto"
                 }
 
                 \midi{}
 
               } % score
-              \markup \empty-one
 
+              \markup \empty-two
 
               % include foreign translation(s) of the song
               \include "../../lyrics/de/175_pismoto_lyrics_de.ly"
+
 
             } % bookpart
 

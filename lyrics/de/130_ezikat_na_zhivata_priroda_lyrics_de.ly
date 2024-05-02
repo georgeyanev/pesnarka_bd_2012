@@ -3,11 +3,12 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Die Sprache der lebendigen Natur" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #12
+\markup \abs-fontsize #10 {
+
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
+
 
  \line { " " Furchtbar war der Wind,}
 
@@ -22,19 +23,23 @@
  \line { " " „Höre auf, Wind, höre auf Wind,}
 
  \line { " " freier Frühlingswind.}
- \line { " "}
+  \vspace #0.5
 
  \line { " " Hast du kein Mitleid mit uns?}
 
  \line { " " Höre auf, wehe nicht!}
 
- \line { " " Erst in diesem Jahr kamen wir hier zu Besuch.}
+ \line { " " Erst in diesem Jahr }
+ 
+ \line { " " kamen wir hier zu Besuch.}
 
- \line { " " Wehe nicht, oh Wind, wir werden herunterfallen.}
+ \line { " " Wehe nicht, oh Wind, }
+ 
+ \line { " " wir werden herunterfallen.}
 
  \line { " " Unsere Rippen werden brechen.“}
 
-\line { " "}
+  \vspace #0.5
 
  \line { " " „Hier seid ihr kleine Blättchen, }
 
@@ -42,9 +47,16 @@
 
  \line { " " und kam, euch zu sehen,}
 
- \line { " " mit euch zu spielen und euch zu umwehen.}
+ \line { " " mit euch zu spielen }
+ 
+  \line { " "und euch zu umwehen.}
 
- \line { " "}
+  }
+
+   \hspace #5
+   \override #`(baseline-skip . ,deCoupletBaselineSkip)
+
+  \column {
 
  \line { " " Dann hört mein Lied:}
 
@@ -60,9 +72,11 @@
 
  \line { " " bei diesen fröhlichen Spielen.}
 
-\line { " "}
+  \vspace #0.5
 
- \line { " " Von oben wird die Sonne beginnen zu scheinen,}
+ \line { " " Von oben wird die Sonne }
+ 
+ \line { " "  beginnen zu scheinen,}
 
  \line { " " und uns bescheinen und wärmen,}
 

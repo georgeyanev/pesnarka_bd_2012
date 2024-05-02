@@ -2,22 +2,19 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Psalm 91" }
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #18
+\markup \abs-fontsize #10 {
+   \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-
 
     \line { " "Wer im Schutz des Höchsten wohnt, }
 
     \line { " "bleibt im Schatten des Allmächtigen.}
 
-    \line { " "Ich sage zum Herrn:}
+    \line { " "Ich sage zum Herrn: Meine Zuflucht und meine Burg,}
 
-    \line { " "Meine Zuflucht und meine Burg, mein Gott, }
-
-    \line {  " "ich vertraue auf Ihn! }
+    \line { " " mein Gott, ich vertraue auf Ihn! }
 
   }
 

@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Neue Kleider" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10 {
+   \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -18,7 +18,7 @@
 
     \line { "   "und geht, um andere Bereiche zu erben.}
 
-    \line { " " }
+   \vspace #0.5
 
     \line { 2. So durchquert er die Welten}
 
@@ -36,7 +36,7 @@
 
     \line { "   "dort, wo es Seligkeit gibt. }
 
-    \line { " " }
+    \vspace #0.5
 
     \line { 3. So erhaben und allweise}
 

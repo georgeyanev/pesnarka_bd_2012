@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref199
- \tocItem \markup "     Седми Божествен ден – Sedmi Božestven den "
+  \tocItem \markup "     Седми Божествен ден – Sedmi Božestven den "
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -54,21 +54,21 @@
       \time 4/4  | % 276
       bes'2. r4 | % 277
       \time 3/4  | % 277
-      g'8 ( [ a'8 bes'8 c''8 ) ]
+      g'8 ( [ a'8 bes'8 c''8  ])
       d''4 | % 278
       \time 4/4  | % 278
-      g''4  bes''2 ^\fermata  a''4 \break | % 279
+      g''4  bes''2 ^\fermata  a''4  | % 279
       \time 5/4  | % 279
-      g''2  f''4  es''4  d''4 |
+      g''2  f''4  es''4  d''4 | \break
       \time 3/2  |
-      c''4  bes'4 a'2.  c''4 \break | % 281
+      c''4  bes'4 a'2.  c''4 | % 281
       bes'2 ^\fermata \breathe g'4 g'2 ^\fermata
       g'4 | % 282
       g'2. r4 g'4 a'4 | % 283
       g'1 r2 \bar "|."
     }
     \addlyrics {
-      И та -- ка, съз -- да -- де
+      И та -- ка съз -- да -- де
       Бог не -- бе -- то и зе -- мя --
       та, и всич -- ко -- то
       мно -- же -- ство съ -- ще -- ства __  във
@@ -78,21 +78,21 @@
       по -- чи -- на от всич -- ки -- те
       си де -- ла. И __    ви -- дя
       Бог, че всич -- ко, що на -- пра --
-      ви, бе до -- бро! А -- ум! А -- ум!
+      ви, бе доб -- ро! А -- ум! А -- ум!
       А -- у -- мен!}
-     \addlyrics {
-      I ta -- ka, săz -- da -- de
-      Bog  ne -- be -- to i ze -- mja --
-      ta, i vsič -- ko -- to
-      mno -- že -- stvo să -- šte -- stva __ văv
-      tjah. I bla -- go -- slo -- vi Bog
-      sed -- mi -- ja den i go o -- sve --
-      ti, za -- što -- to văv ne -- go si
-      po -- či -- na ot vsič -- ki -- te
-      si de -- la. I __    vi -- dja
-      Bog, če vsič -- ko, što na -- pra --
-      vi, be do -- bro! A -- um! A -- um!
-      A -- u -- men!}
+      \addlyrics {
+        I ta -- ka săz -- da -- de
+        Bog ne -- be -- to i ze -- mja --
+        ta, i vsič -- ko -- to
+        mno -- že -- stvo să -- šte -- stva __  văv
+        tjah. I bla -- go -- slo -- vi Bog
+        sed -- mi -- ja den i go o -- sve --
+        ti, za -- što -- to văv ne -- go si
+        po -- či -- na ot vsič -- ki -- te
+        si de -- la. I __    vi -- dja
+        Bog, če vsič -- ko, što na -- pra --
+        vi, be dob -- ro! A -- um! A -- um!
+        A -- u -- men!}
 
 
         \header {
@@ -102,8 +102,8 @@
         \midi{}
 
       } % score
-      \pageBreak
 
+      \markup \vspace #2
       % include foreign translation(s) of the song
       \include "../../lyrics/de/199_nb_sedmi_bozhestven_den_lyrics_de.ly"
     } % bookpart

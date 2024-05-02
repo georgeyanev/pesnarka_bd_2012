@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Sage du mir die Wahrheit" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
+\markup \abs-fontsize #10 {
   \hspace #17
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
@@ -11,11 +11,11 @@
 
     \line { " " Sage du mir die Wahrheit, }
 
-\line { " " die Freiheit bringt für meine Seele.}
+    \line { " " die Freiheit bringt für meine Seele.}
 
     \line { " " Sage du mir die Wahrheit, }
 
-\line { " " die Freiheit bringt für meine Seele.}
+    \line { " " die Freiheit bringt für meine Seele.}
 
   }
 }

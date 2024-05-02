@@ -1,15 +1,14 @@
 \version "2.24.3"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Ain fasi" }
+
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #16
+\markup \abs-fontsize #10 {
+  \hspace #30
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-
-
 
     \line { " " Ain fasi, mekri zаsi, }
     \line { " " finzemru Ašan meru. }
@@ -19,7 +18,7 @@
     \line { " " Suma si zen  fesul, }
     \line { " "  Suma si  zen  fesul. }
 
-    \line { " "}
+ \vspace #0.5
     \line { " "In den himmlischen Weiten,}
 
     \line { " "in den himmlischen Tiefen,}

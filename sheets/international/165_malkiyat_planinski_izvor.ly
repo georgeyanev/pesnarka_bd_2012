@@ -10,7 +10,7 @@
   \score {
     \include "include/score-layout.ily"
 
-    \new Voice \relative  c'{
+    \new Staff = main \relative  c'{
       \clef treble
       \key c \major
       \time 3/4
@@ -21,7 +21,22 @@
       g2 f8 e8 | % 4
       f2. | % 5
       b2 a8  b8 | % 6
-      c2  b4 \break | % 7
+      <<
+        { c2  b4 }
+        \new Staff \with {
+          \override VerticalAxisGroup.default-staff-staff-spacing =
+          #'((basic-distance . 5.5)
+             (padding . -10))
+          \remove "Time_signature_engraver"
+          alignAboveContext = #"main"
+          fontSize = #-1.5
+          \override StaffSymbol.staff-space = #(magstep -2)
+          \override StaffSymbol.thickness = #(magstep -2)
+          firstClef = ##f
+        }
+        {\autoBeamOff c4. ^\markup { \large \italic "ossia по М. Т." } b8 b4}
+      >>
+      \break | % 7
       b2 a8  b8 | % 8
       g2. | % 9
       g4. g8 g4 |
@@ -87,35 +102,35 @@
 
     \addlyrics {
       Бли -- ка и пе -- е из -- "во-" --
-      рът чист с~по -- глед не -- ви --
+      рът чист, с~пог -- лед не -- ви --
       нен, ве -- дър, лъ -- чист. В~ску --
       та пла -- нин -- ски ро -- дил се
-      в~зо -- ри, тре -- "пет-" -- на Ра --
-      дост, бо -- дрост зву -- чи. Бис --
-      три стру -- и пе -- ят, кап -- чи --
-      ци бле -- стят. __   стят. __   Раз --
+      в~зо -- ри, тре -- "пет-" -- на ра --
+      дост, бод -- рост зву -- чи. Бис --
+      три стру -- и ле -- е, кап -- чи --
+      ци блес -- тят. __   стят. __   Раз --
       ли -- ва све -- жест,  кра -- со
-      -- та, мъл -- ви за Лю -- бов -- та. __ 
+      -- та, мъл -- ви за Лю -- бов -- та. __
       В~сър -- це -- то на чо -- ве
-      -- ка о -- "тек-" -- ва пе -- сен -- та. __ 
-      В~сър -- та. __ 
+      -- ка о -- "тек-" -- ва пе -- сен -- та. __
+      В~сър -- та. __
 
     }
 
-     \addlyrics {
+    \addlyrics {
       Bli -- ka i pe -- e iz -- vo --
-      răt čist s~po -- gled ne -- vi --
+      răt čist, s~pog -- led ne -- vi --
       nen, ve -- dăr, lă -- čist. V~sku --
       ta pla -- nin -- ski ro -- dil se
-      v~zo -- ri, tre -- pet -- na Ra --
-      dost, bo -- drost zvu -- či. Bis --
-      tri stru -- i pe -- jat, kap -- či --
-      ci ble -- stjat. __ stjat. __ Raz --
+      v~zo -- ri, tre -- "pet-" -- na ra --
+      dost, bod -- rost zvu -- či. Bis --
+      tri stru -- i le -- e, kap -- či --
+      ci bles -- tjat. __   stjat. __   Raz --
       li -- va sve -- žest,  kra -- so
-      -- ta, măl -- vi za Lju -- bov -- ta. __ 
+      -- ta, măl -- vi za Lju -- bov -- ta. __
       V~săr -- ce -- to na čo -- ve
-      -- ka o -- "tek-" -- va pe -- sen -- ta. __ 
-      V~săr -- ta. __ 
+      -- ka o -- tek -- va pe -- sen -- ta. __
+      V~săr -- ta. __
 
     }
     \header {
@@ -127,41 +142,38 @@
   } % score
   %\markup \dc-two "D.C." "con repitione"
 
+  \markup \vspace #2
 
-
-  \markup \fontsize #bgCoupletFontSize {
- 
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+  \markup \abs-fontsize #10 {
+    \hspace #20
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
-      \line {   2. Нежни цветя край него цъфтят,}
+      \line {   2. Нежни цветя край него цъфтят, }
       \line {   "   "  приказки чудни тихо редят,  }
-      \line {   "   " нимфи игриви тук танци плетат,}
-      \line {   "   " в губера росен стъпки трептят. }
-      \line {   "   "  Нощем се оглеждат}
-      \line {   "   "  в извора  звезди.}
-      \line {   "   "  И блика, дава  той без спир,}
-      \line {   "   "  тъй дава Любовта. }
-      \line {   "   "   В сърцето на човека}
-      \line {   "   "    изгрява Радостта.}
+      \line {   "   " нимфи игриви тук танци плетат, }
+      \line {   "   "  в губера росен стъпки редят. }
+      \line {   "   "  Нощем се оглеждат в извора звезди. (2)}
+      \line {   "   "  И блика, дава  той безспир, }
+      \line {   "   " тъй дава Любовта. }
+      \line {   "   "   В сърцето на човека изгрява радостта. (2)}
     }
-
- \hspace #3
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+  } % markup
+  \pageBreak
+  \markup \abs-fontsize #10 {
+    \hspace #20
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
-      \line {   2. Nežni cvetja kraj nego căftjat,}
+      \line {   2. Nežni cvetja kraj nego căftjat, }
       \line {   "   "  prikazki čudni tiho redjat,  }
-      \line {   "   " nimfi igrivi tuk tanci pletat,}
-      \line {   "   " v gubera rosen stăpki treptjat. }
-      \line {   "   "  Noštem se ogleždat}
-      \line {   "   "  v izvora  zvezdi.}
-      \line {   "   "  I blika, dava  toj bez spir,}
-      \line {   "   "  tăj dava Ljubovta. }
-      \line {   "   "   V sărceto na čoveka}
-      \line {   "   "    izgrjava Radostta.}
+      \line {   "   " nimfi igrivi tuk tanci pletat, }
+      \line {   "   "  v gubera rosen stăpki redjat. }
+      \line {   "   "  Noštem se ogleždat v izvora  zvezdi. (2)}
+      \line {   "   "  I blika, dava  toj bezspir, tăj dava Ljubovta. }
+      \line {   "   "   V sărceto na čoveka izgrjava radostta. (2)}
     } %column
   } % markup
 
-
+  \markup \vspace #3
   % include foreign translation(s) of the song
   \include "../../lyrics/de/165_malkiyat_planinski_izvor_lyrics_de.ly"
 

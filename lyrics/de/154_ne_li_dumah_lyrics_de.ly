@@ -3,12 +3,11 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Habe ich es nicht gesagt" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #5
+\markup \abs-fontsize #10 {
+   \hspace #5
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-
 
     \line {  1. Habe ich es nicht gesagt, liebe Mutter, habe ich nicht gesprochen,}
 
@@ -25,7 +24,7 @@
 
     \line  {   "   "    in der Schule über das Leben etwas Gutes zu lernen.}
 
-    \line { " " }
+   \vspace #0.5
     \line { 2. Sie soll abends, liebe Mutter, nicht zum Brunnen gehen,}
 
     \line  {   "   " um den Jungen volle Krüge zu reichen,}
@@ -41,7 +40,7 @@
     \line  {   "   " aber sie soll ihr Herz, Mutter, lehren,}
 
     \line  {   "   " die Jungen nicht zum Lächeln zu bringen.}
-    \line { " " }
+     \vspace #0.5
 
     \line { 3. Morgens in der Früh soll sie zum Brunnen gehen,}
 

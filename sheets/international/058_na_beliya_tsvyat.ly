@@ -6,24 +6,24 @@
 "rightBraces058" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -4.1 )
+    \translate #'(0 . -7.1 )
     \right-brace #20
 
-    \translate #'(0 . -9.9 )
+    \translate #'(0 . -16.5 )
     \right-brace #20
 
-    \translate #'(0 . -10.5 )
+    \translate #'(0 . -16.1 )
     \right-brace #20
 
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -4.5 )
+    \translate #'(0 . -7.9 )
     2
-    \translate #'(0 . -11.8 )
+    \translate #'(0 . -18.9 )
     2
 
-    \translate #'(0 . -12.2 )
+    \translate #'(0 . -19.2 )
     2
 
   }
@@ -32,14 +32,14 @@
 "rightBraces059" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -8.3 )
+    \translate #'(0 . -7.7 )
     \right-brace #20
 
 
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -9.2 )
+    \translate #'(0 . -8.7 )
     2
   }
 }
@@ -74,21 +74,22 @@
 
     \addlyrics {
       На -- го -- ре о -- ще да вър -- вим, към вър -- хо -- ве -- те бе --
-      ли, е -- фи -- ра бял да поз -- дра -- вим и снеж -- ни -- те кри --
-      ста -- ли. е -- ли. Ху -- бост -- та на Бо -- жи свят,
+      ли, е -- фи -- ра бял да поз -- дра -- вим и снеж -- ни -- те крис --
+      та -- ли, е -- ли. Ху -- бост -- та на Бо -- жи свят,
       бе -- ли -- на -- та, наш е цвят;  веч -- на си -- ла и --
       ма, мрак я не об -- зи -- ма. зи -- ма.
     }
 
+
     \addlyrics {
       Na -- go -- re o -- šte da văr -- vim, kăm văr -- ho -- ve -- te be --
-      li, e -- fi -- ra bjal da poz -- dra -- vim i snež -- ni -- te kri --
-      sta -- li. e -- li. Hu -- bost -- ta na Bo -- ži svjat,
+      li, e -- fi -- ra bjal da poz -- dra -- vim i snež -- ni -- te kris --
+      ta -- li, e -- li. Hu -- bost -- ta na Bo -- ži svjat,
       be -- li -- na -- ta, naš e cvjat;  več -- na si -- la i --
       ma, mrak ja ne ob -- zi -- ma. zi -- ma.
     }
     \header {
-      title = \titleFunc "На белия цвят" "Na belija cvjat"
+      title = \titleFunc "На белия цвят "" Na belija cvjat"
     }
 
     \midi{}
@@ -96,19 +97,22 @@
   } % score
 
 
-  \markup \fontsize #+1.7 {
-    \hspace #6
-    \override #'(baseline-skip . 1.8)
+  \markup \empty-two
+
+  \markup \abs-fontsize #10 {
+    \hspace #5
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
+
 
       \line {   2. Нагоре още! Там цъфти }
       \line {   "   " алпийска роза бяла, }
       \line {   "   " зората белите лъчи }
       \line {   "   " в таз роза е изляла. }
-      \line { " " }
+      \vspace #0.5
 
       \line { "        " \italic {Припев ... } }
-      \line { " " }
+      \vspace #0.5
 
 
       \line {  3. Нагоре! Бяло Слънце днес }
@@ -118,33 +122,39 @@
       \line {   "   "емблема жива на онез,}
 
       \line {   "   "в които Бог живее.}
-      \line { " " }
-
+      \vspace #0.5
       \line { "        " \italic {Припев ... } }
-      \line { " " }
+
+      \vspace #0.5
       \line {   4. Нагоре – в тази белина!}
 
-      \line {   "   "Тя всъде ще изпълни,}
+      \line {   "   "Тя всъде ще изпълни}
 
       \line {   "   "и гибелната тъмнина}
 
       \line {   "   "в бял ден ще се превърне.}
 
+      \vspace #0.5
+
+      \line { "        " \italic {Припев ... } }
+
+
 
     }    \"rightBraces058"
 
+
     \hspace #5
-    \override #'(baseline-skip . 1.8)
-   \column {
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \column {
 
       \line {   2. Nagore ošte! Tam căfti }
       \line {   "   " alpijska roza bjala, }
       \line {   "   " zorata belite lăči }
       \line {   "   " v taz roza e izljala. }
-      \line { " " }
+      \vspace #0.5
 
       \line { "        " \italic {Pripev ... } }
-      \line { " " }
+      \vspace #0.5
 
 
       \line {  3. Nagore! Bjalo Slănce dnes }
@@ -154,17 +164,21 @@
       \line {   "   "emblema živa na onez,}
 
       \line {   "   "v koito Bog živee.}
-      \line { " " }
-
+      \vspace #0.5
       \line { "        " \italic {Pripev ... } }
-      \line { " " }
+
+      \vspace #0.5
       \line {   4. Nagore – v tazi belina!}
 
-      \line {   "   "Tja vsăde šte izpălni,}
+      \line {   "   "Tja vsăde šte izpălni}
 
       \line {   "   "i gibelnata tămnina}
 
       \line {   "   "v bjal den šte se prevărne.}
+
+      \vspace #0.5
+
+      \line { "        " \italic {Pripev ... } }
 
 
     }   \"rightBraces058" %column
@@ -173,16 +187,12 @@
   \pageBreak
 
 
-  \markup \fontsize #+1.7 {
-    \hspace #6
-    \override #'(baseline-skip . 1.8)
+  \markup \abs-fontsize #10 {
+    \hspace #5
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
 
-
-
-      \line { "        " \italic {Припев ... } }
-      \line { " " }
 
 
       \line {   5. Земята ще разхубавим,}
@@ -192,20 +202,13 @@
       \line {   "   "Небето ще развеселим}
 
       \line {   "   "и Бога ще прославим.}
-      \line { " " }
+      \vspace #0.5
       \line { "        " \italic {Припев ... } }
     }      \"rightBraces059"
 
     \hspace #5
-    \override #'(baseline-skip . 1.8)
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-
-
-
-
-      \line { "        " \italic {Pripev ... } }
-      \line { " " }
-
 
       \line {   5. Zemjata šte razhubavim,}
 
@@ -214,13 +217,16 @@
       \line {   "   "Nebeto šte razveselim}
 
       \line {   "   "i Boga šte proslavim.}
-      \line { " " }
+      \vspace #0.5
       \line { "        " \italic {Pripev ... } }
+
+
+
     }    \"rightBraces059"
   } % markup
 
   % include foreign translation(s) of the song
-  \markup \empty-two
+   \markup \vspace #3
   \include "../../lyrics/de/058_na_beliya_tsvyat_lyrics_de.ly"
 
 } % bookpart

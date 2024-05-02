@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Wache auf, lieber Bruder" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10 {
+  \hspace #18
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -13,21 +13,21 @@
     \line {   "   " und nimm die jahrhundertealten Ketten}
     \line {   "   " von deinen Füßen ab.}
 
-    \line { " " }
+     \vspace #0.5
     \line { "   " \italic { Refrain:}  }
     \line { "   "Die Liebe ist deine Mutter,}
     \line {   "   "deine Kraft, dein Pilot; }
     \line {   "   " sie wird dich stark aufrichten, }
     \line {   "   " dir Leben schenken. }
 
-    \line { " " }
+    \vspace #0.5
     \line {    2. Verlasse die düsteren Gefängnisse, }
     \line {   "   "draußen ist überall Licht; }
     \line {   "   " Frieden und Freude erwarten dich, }
     \line {   "   " und seliges Danach. }
 
 
-    \line { " " }
+    \vspace #0.5
     \line { "   " \italic { Refrain:}  }
     \line { "   " Die Liebe ist dein Meister, }
     \line {   "   " auf dass sie dir das lebendige Wort geben wird; }
@@ -35,13 +35,13 @@
     \line {   "   " und dich in die Weisheit einweihen. }
 
 
-    \line { " " }
+   \vspace #0.5
     \line { 3. Und sage deinem Bruder, }
     \line {   "   " ein süßes Wort mit neuer Regung; }
     \line {   "   " auf dass du sein Herz erwärmst }
     \line {   "   " mit deiner aufrichtigen Liebe.}
 
-    \line { " " }
+     \vspace #0.5
     \line { "   " \italic { Refrain: } }
     \line {"   "    Die Liebe ist dein Erlöser: }
     \line {   "   " Ruf sie zur Hilfe; }

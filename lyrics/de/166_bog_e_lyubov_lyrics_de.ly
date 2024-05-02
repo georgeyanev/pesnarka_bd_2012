@@ -1,11 +1,13 @@
 \version "2.24.3"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Gott ist Liebe II" }
+
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10 {
+   \hspace #15
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
+
   \column {
 
 

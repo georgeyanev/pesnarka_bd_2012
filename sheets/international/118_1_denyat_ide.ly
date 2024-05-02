@@ -25,18 +25,22 @@
     \addlyrics {
       Мо -- га аз да ка -- жа, че де -- нят и -- де веч.
 
-      Слън -- це ще из -- гре -- е, да по -- стъ -- пим до -- бре.
+      Слън -- це ще из -- гре -- е, да пос -- тъ -- пим доб -- ре.
     }
 
     \addlyrics {
       Mo -- ga az da ka -- ža, če de -- njat i -- de več.
 
-      Slăn -- ce šte iz -- gre -- e, da po -- stă -- pim do -- bre.
+      Slăn -- ce šte iz -- gre -- e, da pos -- tă -- pim dob -- re.
     }
 
     \addlyrics {
       " " " " " " " 3. [...]" зо-ра -- та
     }
+    \addlyrics {
+      " " " " " " " 3. [...]" zo-ra -- ta
+    }
+
 
     \header {
       title = \titleFunc "Денят иде" " Denjat ide"
@@ -45,27 +49,28 @@
     \midi{}
 
   } % score
+  \markup \empty-two
 
-
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #13
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+  \markup \abs-fontsize #10 {
+    \hspace #20
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
+
 
       \line {  2. Мога аз да кажа, че обича ме Бог.}
 
       \line {   "   " Слънчевите лъчи кротко шепнат това. (2)}
-      \line { " "}
+      \vspace #0.5
 
       \line {  2. Moga az da kaža, če običa me Bog.}
 
       \line {   "   " Slănčevite lăči krotko šepnat tova. (2)}
-      \line { " "}
+      \vspace #0.5
 
       \line {   3.  Диша свежест зората, пробужда се денят.}
 
       \line {   "   " Радост и надежда пълнят сърцата ни. (2) }
-      \line {   "   "}
+      \vspace #0.5
 
 
       \line {   3.  Diša svežest zorata, probužda se denjat.}
@@ -75,7 +80,7 @@
     }
   } % markup
 
-  \markup \empty-two
+  \markup \vspace #3
 
 
   % include foreign translation(s) of the song

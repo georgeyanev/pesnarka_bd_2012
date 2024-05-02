@@ -16,8 +16,8 @@
       \time 4/4
       \tempoFunc "Andante" 4 "60"
       \autoBeamOff
-      
-      d'8 d' g'8 ([ a' ]) a'2 | \time 2/4 bes'8 ([ a' ])  bes' ([ c'' ])  | 
+
+      d'8 d' g'8 ([ a' ]) a'2 | \time 2/4 bes'8 ([ a' ])  bes' ([ c'' ])  |
 
       \time 4/4 bes'4 a'2 a'8 a' | \break
       d''4. d''8 c'' ([ d'' ]) d'' ([ c'' ]) \time 3/4  bes'4 a'2 |
@@ -33,12 +33,14 @@
       риш и __ тле -- еш? Сло -- во -- то Ти, Бо -- же,
       ча -- кам и о -- бил -- на -- та Ти __ ми -- лост,
       за тях стра -- дам и коп -- не -- я.}
+
       \addlyrics {
         Strad -- na
         du -- šo, ti __ kop -- ne -- eš, za kak -- vo go --
         riš i __ tle -- eš? Slo -- vo -- to Ti, Bo -- že,
         ča -- kam i o -- bil -- na -- ta Ti __ mi -- lost,
         za tjah stra -- dam i kop -- ne -- ja.}
+
 
 
         \header {
@@ -49,10 +51,10 @@
 
       } % score
 
+      \markup \empty-two
 
-
-      \markup \fontsize #bgCoupletFontSize {
-        \hspace #1
+      \markup \abs-fontsize #10 {
+        \hspace #6
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
         \column {
           \line {   2. И гладувам, и жадувам,}
@@ -64,7 +66,7 @@
           \line {   "   " при Теб близо аз да бъда}
 
           \line {   "   " и утеха в Теб да найда.}
-          \line { " " }
+          \vspace #0.5
 
           \line {   3. Твоя светъл лик да гледам}
 
@@ -75,9 +77,9 @@
           \line {   "   " В таз Любов към Тебе, Боже,}
 
           \line {   "   " да намеря мощна сила.}
-          \line { " " }
+          \vspace #0.5
 
-             \line {   4. В подвизи и съвършенство}
+          \line {   4. В подвизи и съвършенство}
 
           \line {   "   " да познавам милостта Ти,}
 
@@ -87,61 +89,8 @@
 
           \line {   "   " суетата на живота.}
 
+          \vspace #0.5
 
-
-        }
-
-        \hspace #5
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-          \line {   2. I gladuvam, i žaduvam,}
-
-          \line {   "   " tjah očakvam denonoštno.}
-
-          \line {   "   " Ti me, Bože, blagoslavjaj,}
-
-          \line {   "   " pri Teb blizo az da băda}
-
-          \line {   "   " i uteha v Teb da najda.}
-          \line { " " }
-
-          \line {   3. Tvoja svetăl lik da gledam}
-
-          \line {   "   " i veličieto Tvoe;}
-
-          \line {   "   " da nauča Teb da ljubja.}
-
-          \line {   "   " V taz Ljubov kăm Tebe, Bože,}
-
-          \line {   "   " da namerja moštna sila.}
-              \line { " " }
-
-                \line {   4. V podvizi i săvăršenstvo}
-
-          \line {   "   " da poznavam milostta Ti,}
-
-          \line {   "   " prevelikata Ti tajna,}
-
-          \line {   "   " što razkriva na čoveka}
-
-          \line {   "   " suetata na života.}
-      
-
-
-
-        } %column
-      } % markup
-
-      \pageBreak
-
-
-      \markup \fontsize #bgCoupletFontSize {
-        \hspace #1
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-
-
-       
           \line {    5. Всичко грешно на Земята}
 
           \line {   "   " е преходно, мимолетно.}
@@ -157,7 +106,40 @@
         \hspace #5
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
         \column {
-    
+          \line {   2. I gladuvam, i žaduvam,}
+
+          \line {   "   " tjah očakvam denonoštno.}
+
+          \line {   "   " Ti me, Bože, blagoslavjaj,}
+
+          \line {   "   " pri Teb blizo az da băda}
+
+          \line {   "   " i uteha v Teb da najda.}
+          \vspace #0.5
+
+          \line {   3. Tvoja svetăl lik da gledam}
+
+          \line {   "   " i veličieto Tvoe;}
+
+          \line {   "   " da nauča Teb da ljubja.}
+
+          \line {   "   " V taz Ljubov kăm Tebe, Bože,}
+
+          \line {   "   " da namerja moštna sila.}
+          \vspace #0.5
+
+          \line {   4. V podvizi i săvăršenstvo}
+
+          \line {   "   " da poznavam milostta Ti,}
+
+          \line {   "   " prevelikata Ti tajna,}
+
+          \line {   "   " što razkriva na čoveka}
+
+          \line {   "   " suetata na života.}
+
+          \vspace #0.5
+
           \line {    5. Vsičko grešno na Zemjata}
 
           \line {   "   " e prehodno, mimoletno.}
@@ -171,7 +153,8 @@
         } %column
       } % markup
 
-      \markup \empty-two
+      \pageBreak
+
       % include foreign translation(s) of the song
       \include "../../lyrics/de/029_stradna_dusho_lyrics_de.ly"
 

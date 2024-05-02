@@ -3,10 +3,11 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Ein guter Tag" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #16
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
+\markup \abs-fontsize #10 {
+
+   \hspace #30
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
     \line { Ein guter Tag ist ein lichter Tag.  }
 

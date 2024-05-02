@@ -10,8 +10,8 @@
 
 
 
-    \translate #'(0 . -15.6 )
-    \right-brace #44
+    \translate #'(0 . -20.6 )
+    \right-brace #40
 
   }
   \column {
@@ -20,7 +20,7 @@
 
 
 
-    \translate #'(0 . -16.0 )
+    \translate #'(0 . -21.5 )
     2
   }
 }
@@ -48,20 +48,20 @@
 
     }
     \addlyrics {
-      "1. Хо" -- ди хо -- ди хо -- ди за во -- да -- та хо -- ди
+      "1. Хо" -- ди, хо -- ди, хо -- ди, за во -- да -- та хо -- ди
 
       су -- трин -- на -- та ро -- са, през ре -- чи -- ца бис -- тра, по пъ -- те -- ка
 
-      чис -- та. За -- до -- ма  си но -- си  таз во -- ди -- ца бис -- тра,
+      чис -- та. За до -- ма  си но -- си  таз во -- ди -- ца бис -- тра,
 
       за цве -- тен -- ца ми -- ли, ней -- ни -- те де -- чи -- ца.
     }
     \addlyrics {
-      "1. Ho" -- di ho -- di ho -- di za vo -- da -- ta ho -- di
+      "1. Ho" -- di, ho -- di, ho -- di, za vo -- da -- ta ho -- di
 
       su -- trin -- na -- ta ro -- sa, prez re -- či -- ca bis -- tra, po pă -- te -- ka
 
-      čis -- ta. Za -- do -- ma  si no -- si  taz vo -- di -- ca bis -- tra,
+      čis -- ta. Za do -- ma  si no -- si  taz vo -- di -- ca bis -- tra,
 
       za cve -- ten -- ca mi -- li, nej -- ni -- te de -- či -- ca.
     }
@@ -73,14 +73,14 @@
     \midi{}
 
   } % score
-  
-  \markup \italic \dc-one-nobold "attacca „Тъги скърби“/attacca „Tăgi skărbi“"
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #5
+  \markup \empty-one
+  \markup \italic \dc-one-nobold "attacca „Тъги скърби“/attacca „Tăgi skărbi“"
+  \markup \empty-one
+  \markup \abs-fontsize #10 {
+    \hspace #10
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-
 
       \line { 2. Капките дъждовни}
       \line { "   "също тъй поднасят}
@@ -109,11 +109,7 @@
     \"rightBraces088"
   } % markup
 
- 
- 
- 
-\pageBreak
-
+  \markup \empty-two
   % include foreign translation(s) of the song
   \include "../../lyrics/de/088_hodi_hodi_lyrics_de.ly"
 

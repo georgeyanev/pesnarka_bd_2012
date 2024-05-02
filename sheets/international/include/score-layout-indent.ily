@@ -10,8 +10,6 @@
       \context {
         % change staff size
         \Staff
-        fontSize = #+0 % affects notes size only
-        \override StaffSymbol.staff-space = #(magstep -3)
         \override StaffSymbol.thickness = #0.5
         \override BarLine.hair-thickness = #1
         %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
@@ -22,7 +20,7 @@
         \Lyrics
         \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
             (basic-distance . 4.5)
-            (padding . 0.5)
+            (padding . 1.5)
         )
         \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
       }

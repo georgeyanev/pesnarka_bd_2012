@@ -3,11 +3,11 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Trauer und Leid sind Reichtum" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10 {
+  \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
+  \column { 
     
      \line {   "   " Trauer und Leid sind Reichtum für das Leben, } 
 

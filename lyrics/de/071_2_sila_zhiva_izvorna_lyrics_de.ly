@@ -3,12 +3,11 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Lebendinge, quellende fließende Kraft" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #12
+\markup \abs-fontsize #10 {
+   \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-
     \line { " " Lebendige, quellende, fließende Kraft,}
 
     \line { " " lebendige, quellende, fließende Kraft. }

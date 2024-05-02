@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Die innere Stimme Gottes – Meditation" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
+\markup \abs-fontsize #10 {
   \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 

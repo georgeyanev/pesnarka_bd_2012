@@ -1,12 +1,14 @@
 \version "2.24.3"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Der Wind weht II" }
+
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-    \hspace #12
-    \override #`(baseline-skip . ,deCoupletBaselineSkip)
-    \column {
+\markup \abs-fontsize #10 {
+   \hspace #15
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+
+  \column {
 
   \line { " "Die göttliche Sonne scheint heute,  }
 

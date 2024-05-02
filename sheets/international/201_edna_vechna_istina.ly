@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref201
-  \tocItem \markup "Една вечна истина... – Edna večna istina..."
+  \tocItem \markup "Една вечна Истина... – Edna večna Istina..."
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -16,23 +16,20 @@
       \time 6/4
       \tempoFunc "Andantino" 4 "72"
       \autoBeamOff
-      d2^\p  g2  d2 | % 2
-      \time 4/2  | % 2
-      d2^\<  g2. (  a4 ) \! \>  g4 \!
+      d2^\p  g2  d2 |
+      d4^\<  g2 (  a4 ) \! \>  g4 \!
       \<  es4 | % 3
-      d2. (  es4 ) \! \>  c2 \! \<
-      bes4  a4\!  \break | % 4
-      bes2. (\!  c4  d4^\>  es4
-      d4  c4 | % 5
-      bes4  a4  bes2 ) \!  g2 r2 | % 6
-      g'4  a4  bes2  a2 (^\<  g2\!
-      ) \break | % 7
+      d1 (  es4 ) \! \>  c4 \! \<
+      | \break
+      bes8 a8 \! bes4 ~ ( \! bes8  [ c8 d8^\>  es8 d8  c8 bes8  a8] |
+      bes2 \!  ) g4 r4 r2 | \break % 6
+      \time 4/4 g'4 a4 bes2 |
+      \time 6/4 a2 (^\<  g4\! )
       \times 2/3  {
-        fis4 ( \!^\>  g4  a4 )
-      }
-      g1 r2 \! | % 8
+        fis8 ( \!^\>  g8  a8 )
+      } g4 r4 \! | % 8
       \time 4/4  | % 8
-      c4^\mf  bes4^\<  a2 | % 9
+      c4^\mf  bes4^\<  a2 | \break % 9
       c4  d4  es2 \! |
       bes4 ^\p  a4^\>  g2 | % 11
       f4 (  es4 )  d2 \! \break | % 12
@@ -56,33 +53,35 @@
       Ед -- на -- та, А -- дит -- на,
       Би от -- на Ам -- ри -- хал --
       на. А -- ме -- рун, Ше -- ме --  рун.
-      Ил "Би-" -- хар, Ил "Би-" -- хар, Ил "Би-"
+      Ил Би -- хар, Ил Би -- хар, Ил Би
       -- хар. Би -- хар, Ил __  Би --
       хар. __  Ил __    ме  --
       зун. Ве -- ю, Ве -- ю Ве -- ю, Та -- о Би Ом, Ом Би --
       ют, Ве -- ю, Ве -- ю, Ве --
       ю.}
-     \addlyrics {
-      Ed -- na -- ta, A -- dit -- na,
-      Bi ot -- na Am -- ri -- hal --
-      na. A -- me -- run, Še -- me --  run.
-      Il Bi -- har, Il Bi -- har, Il Bi
-      -- har. Bi -- har, Il __  Bi --
-      har. __ Il __    me  --
-      zun. Ve -- ju, Ve -- ju Ve -- ju, Ta -- o Bi Om, Om Bi --
-      jut, Ve -- ju, Ve -- ju, Ve --
-      ju.}
+
+      \addlyrics {
+        Ed -- na -- ta, A -- dit -- na,
+        Bi ot -- na Am -- ri -- hal --
+        na. A -- me -- run, Še -- me --  run.
+        Il Bi -- har, Il Bi -- har, Il Bi
+        -- har. Bi -- har, Il __  Bi --
+        har. __  Il __    me  --
+        zun. Ve -- ju, Ve -- ju Ve -- ju, Ta -- o Bi Om, Om Bi --
+        jut, Ve -- ju, Ve -- ju, Ve --
+        ju.}
 
         \header {
-          title = \titleFunc "Една вечна истина, която е Бог на Любовта" "Edna večna istina, kojato e Bog na Ljubovta"
+          title = \titleFunc "Една вечна Истина, която е Бог на Любовта" "Edna večna Istina, kojato e Bog na Ljubovta"
+          subtitle = "Eine ewige Wahrheit, die der Gott der Liebe ist"
         }
 
         \midi{}
 
       } % score
-
+      \markup \vspace #2
       % include foreign translation(s) of the song
-      \include "../../lyrics/de/201_edna_vechna_istina_lyrics_de.ly"
+      %\include "../../lyrics/de/201_edna_vechna_istina_lyrics_de.ly"
     } % bookpart
 
     % Più mosso

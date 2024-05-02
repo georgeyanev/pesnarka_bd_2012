@@ -101,11 +101,11 @@
       bes8  as8  f8  c8  bes16 (
       [  d16  f16  as16 ) ]  % 31
       g4.  f8  f4  % 32
-      es2  | \break % 33
-      g'8 ( [f8 ) ] es2 |  % 34
+      es2  |  % 33
+      g'8 ( [f8 ) ] es2 | \break % 34
       es8 ( [d8 ) ]c2 | % 35
       d16 c16 b16 c16
-      as'2 ^\fermata | \break  % 36
+      as'2 ^\fermata |   % 36
       \times 2/3  {
         f8 ( [d8 ) ] bes8
       }
@@ -113,8 +113,8 @@
         as8 ( [  f8  d8 ) ]
       }
       bes4 ^\fermata | % 37
-      d8 f8 as2  | % 38
-      f8 as8  d2 \break | % 39
+      d8 f8 as2 \break | % 38
+      f8 as8  d2 | % 39
       as8  d8  f2 |
       bes,8 a8  bes8  c8
       d8  es8 | % 41
@@ -122,7 +122,6 @@
       es2 \fermata \bar "|."
 
     }
-
     \addlyrics {
       Ми  -- ли Бо -- же, чуй ни пе
       -- сен -- та: пе -- ем ний
@@ -134,48 +133,51 @@
       -- ки от сън, мен __  пър -- во
       Слън -- це -- то ме  __ виж
       --  да. "Слън-" -- чи -- це, "Бо-" --
-      жи дар, ти си из -- вор на Жи --
+      жи дар, ти си из -- вор на жи --
       вот, ти ни из -- пра -- щаш __
-      лъч, __ що раз -- тва -- ря све --
+      лъч, __ що "раз-" -- тва -- ря "све-" --
       жи, неж --   ни лис -- тен
       -- ца. Про -- лет, про -- лет,
-      "пъл-" -- на със "Жи-" -- вот, веч  --
+      "пъл-" -- на със "жи-" -- вот, веч  --
       на про --  лет, ти си рай.
       Бо -- жи дар, Бо -- жи дар, сал
       за те -- бе аз жи -- ве -- я.}
-     \addlyrics {
-      Mi  -- li Bo -- že, čuj ni pe
-      -- sen -- ta: pe -- em nij
-      za Slăn -- ce -- to, za pro -- let
-      -- ta. Čuj ni pe -- sen -- ta: Pro
-      -- let i -- de, nov ži -- vot no
-      -- si. Păr -- vo cve -- te na
-      pro -- let -- ta: bu  -- dja vsič
-      -- ki ot săn, men __ păr -- vo
-      Slăn -- ce -- to me __ viž
-      --  da. Slăn -- či -- ce, Bo --
-      ži dar, ti si iz -- vor na Ži --
-      vot, ti ni iz -- pra -- štaš __
-      lăč, __ što raz -- tva -- rja sve --
-      ži, než --   ni lis -- ten
-      -- ca. Pro -- let, pro -- let,
-      păl -- na săs Ži -- vot, več  --
-      na pro --  let, ti si raj.
-      Bo -- ži dar, Bo -- ži dar, sal
-      za te -- be az ži -- ve -- ja.}
 
-      \header {
-        title = \titleFunc "Пролетна песен" "Proletna pesen"
-      }
+      \addlyrics {
+        Mi  -- li Bo -- že, čuj ni pe
+        -- sen -- ta: pe -- em nij
+        za Slăn -- ce -- to, za pro -- let
+        -- ta. Čuj ni pe -- sen -- ta: Pro
+        -- let i -- de, nov ži -- vot no
+        -- si. Păr -- vo cve -- te na
+        pro -- let -- ta: bu  -- dja vsič
+        -- ki ot săn, men __  păr -- vo
+        Slăn -- ce -- to me  __ viž
+        --  da. Slăn -- či -- ce, Bo --
+        ži dar, ti si iz -- vor na ži --
+        vot, ti ni iz -- pra -- štaš __
+        lăč, __ što raz -- tva -- rja sve --
+        ži, než --   ni lis -- ten
+        -- ca. Pro -- let, pro -- let,
+        păl -- na săs ži -- vot, več  --
+        na pro --  let, ti si raj.
+        Bo -- ži dar, Bo -- ži dar, sal
+        za te -- be az ži -- ve -- ja.}
 
-      \midi{}
+        \header {
+          title = \titleFunc "Пролетна песен "" Proletna pesen"
+        }
 
-    } % score
+        \midi{}
 
-    \markup \italic \dc-one-nobold "attaca „Слънчева песен/Slănčeva pesen“"
-    
+      } % score
 
-    % include foreign translation(s) of the song
-    \include "../../lyrics/de/124_proletna_pesen.ly"
+      \markup \vspace #1
+      \markup \italic \dc-one-nobold "attaca „Слънчева песен/Slănčeva pesen“"
 
-  } % bookpart
+      \markup \vspace #3
+
+      % include foreign translation(s) of the song
+      \include "../../lyrics/de/124_proletna_pesen.ly"
+
+    } % bookpart

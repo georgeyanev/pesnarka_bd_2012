@@ -1,52 +1,44 @@
 \version "2.24.3"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Das Lied des Vaters – schönes Mädchen" }
+
 \markup \null
 \markup \null
+\markup \abs-fontsize #10 {
+  \hspace #15
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-\markup \fontsize #deCoupletFontSize {
-    \hspace #15
-    \override #'(baseline-skip . 2.1)
-    \column {
-
+  \column {
 
   \line { " "Seit alten Zeiten, mein Sohn, ist bekannt,  }
 
-  \line { " "dass ein schönes Mädchen }
-          
-  \line { " "am hellen Tag erkannt wird,  }
+  \line { " "dass ein schönes Mädchen am hellen Tag erkannt wird,  }
 
   \line { " "wenn die Sonne morgens aufgeht,  }
 
   \line { " "wenn die Sonne morgens aufgeht.  }
-   \line { " " }
+   \vspace #0.5
 
   \line { " "Es ist frühaufstehend; es steht früh auf,   }
   
   \line { " "es ist frühaufstehend; es steht früh auf   }
 
-  \line { " "und geht mit den Krügen zur Quelle,  }
+  \line { " "und geht mit den Krügen zur Quelle,  und schöpft Wasser.  }
 
-  \line { " "und schöpft Wasser.  }
-
-  \line { " "So, erfüllt und fröhlich,  }
-
-  \line { " "geht es nach Hause  }
+  \line { " "So, erfüllt und fröhlich,  geht es nach Hause  }
 
   \line { " "und umarmt liebevoll seine Mutter.  }
-   \line { " " }
+   \vspace #0.5
 
   \line { " "Ein schönes Mädchen, mein Sohn, }
           
-  \line { " "erkennt man dann,  }
-
-  \line { " "wenn es den Weinberg umgräbt,  }
+  \line { " "erkennt man dann, wenn es den Weinberg umgräbt,  }
 
   \line { " "und er reichlich Trauben trägt.  }
 
   \line { " "Der Weinberg kennt gut die Hände des Mädchens.  }
 
-   \line { " " }
+  \vspace #0.5
 
   \line { " "Ein schönes Mädchen, mein Sohn, }
           
@@ -54,17 +46,16 @@
 
   \line { " "wenn es die Garben hebt und hinstellt,  }
 
-  \line { " "sie gut auf die Erde hinlegt  }
-
-  \line { " "und Gott lobpreist.  }
-   \line { " " }
+  \line { " "sie gut auf die Erde hinlegt  und Gott lobpreist.  }
+   \vspace #0.5
 
   \line { " "Es ist, mein Sohn, stimmgewaltig,  }
 
-  \line { " "eine schöne Sängerin;  }
+  \line { " "eine schöne Sängerin; }
+  
+  \line { " "der Weizen kennt es gut,}
 
-  \line { " "der Weizen kennt es gut,  }
-
+   
   \line { " "der Weizen kennt es gut.  }
 
    \line { " "Es ist, mein Sohn, stimmgewaltig,  }
@@ -75,35 +66,16 @@
 
   \line { " "der Weizen kennt es gut.  }
   
-  \line { " "}
+  \vspace #0.5
 
-  \line { " "Das schöne Mädchen, mein Sohn, }
-  \line { " "    erkennt man gut, }
+  \line { " "Das schöne Mädchen, mein Sohn, erkennt man gut, }
   \line { " "wenn es in der Tenne den Weizen drischt,  }
-
-  \line { " "ihn durchsiebt,  }
-
-  \line { " "ihn in den Speicher bringt   }
+  \line { " "ihn durchsiebt, ihn in den Speicher bringt   }
 
   \line { " "und den Armen Brot gibt.  }
 
   \line { " "Kleine und Große kennen es gut.  }
-   \line { " " }
-
-  }
-}
-
-
-\pageBreak
-
-
-
-\markup \fontsize #deCoupletFontSize {
-    \hspace #15
-    \override #'(baseline-skip . 1.9)
-    \column {
-   
-
+  \vspace #0.5
 
   \line { " "Ein kluges Mädchen, mein Sohn, erkennt man,  }
 
@@ -117,7 +89,7 @@
 
   \line { " "der den Boden benetzt.  }
   
-  \line { " " }
+   \vspace #0.5
 
   \line { " "Es ist ein Engel, der von oben kommt,  }
 
@@ -125,9 +97,7 @@
 
   \line { " "und Frieden und Freude in ihr Zuhause bringt.  }
 
-  \line { " "Es ist hell wie die Morgenröte,  }
-
-  \line { " "es ist sanft wie das Wasser,  }
+  \line { " "Es ist hell wie die Morgenröte,  es ist sanft wie das Wasser,  }
 
   \line { " "es ist gut wie das Essen.  }
 

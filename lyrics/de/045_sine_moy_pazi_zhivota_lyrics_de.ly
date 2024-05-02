@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Mein Sohn, bewahre das Leben" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10 {
+  \hspace #25
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -24,7 +24,7 @@
     \line { "   "und unermüdlich arbeitet,}
 
     \line { "   "unaufhörlich in dir erschafft.}
-    \line { "   " }
+     \vspace #0.5
 
     \line { 2. Du bist dieses wirkliche Leben; }
 
@@ -41,7 +41,7 @@
     \line { "   "die hohen Ideale }
 
     \line { "   "und die schöne Sehnsucht.}
-    \line { "   " }
+    \vspace #0.5
 
     \line { 3. Dieses Fleisch ist dein Gewand,}
 

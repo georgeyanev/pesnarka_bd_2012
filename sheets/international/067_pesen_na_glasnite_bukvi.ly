@@ -70,7 +70,7 @@
     }
 
     \header {
-      title = \titleFunc " Песен на гласните букви" "Pesen na glasnite bukvi"
+      title = \titleFunc " Песен на гласните букви " " Pesen na glasnite bukvi"
     }
 
     \midi{}
@@ -79,7 +79,7 @@
 
 
 
-  \markup \empty-two
+ \markup \vspace #3
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/067_pesen_na_glasnite_bukvi_lyrics_de.ly"

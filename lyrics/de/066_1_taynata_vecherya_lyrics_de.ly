@@ -2,8 +2,8 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Das letzte Abendmahl" }
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #16
+\markup \abs-fontsize #10 {
+   \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -14,7 +14,7 @@
     \line {   "   " zun meri manun dana, }
 
     \line {   "   " asavita nanda. }
-    \line {   "   "}
+    \vspace #0.5
 
     \line {   "   " Alles ist hell, }
 

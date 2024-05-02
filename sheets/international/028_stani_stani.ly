@@ -19,14 +19,13 @@
       \tempoFunc "Andantino" 4 "72"
       \autoBeamOff
       \partial 4
-      d'4 | g'2 d'4 | bes'2 a'4 | g'4 fis' g' |  a'4 d' es'  \break
-      d'2 d'4 |  d''2 g'4 | es''2 d''4 | c''4 bes' a' \break |
-      bes'4 c'' d'' | a'2 a'4 | f''2 d''4 |  g''2 \fermata f''4 \break |
-      es''4 d'' c'' | bes'4 c'' d'' ~ | d''4  r a' | c''2 a'4 \break |
-      d''2 a'4 | c''4 bes' a' | g'4 fis' a' | g'2 r4 | \time 2/4 \break |
-      \bar ".|:-||" d''8 d'' es'' es'' | d''8 c'' d''4 | c''8 c'' d'' c'' \break |
-      c''8 a' bes'4 | bes'8 c'' d'' es'' | es''8 es'' d''4 \break |
-      a'8 c'' bes' a' | fis'8 a' g'4  \bar ":|." \break
+      d'4 | g'2 d'4 | bes'2 a'4 | g'4 fis' g' |  a'4 d' es' | d'2 d'4 |  d''2 g'4 |  \break
+      es''2 d''4 | c''4 bes' a' | bes'4 c'' d'' | a'2 a'4 | f''2 d''4 |  g''2 \fermata f''4 \break |
+      es''4 d'' c'' | bes'4 c'' d'' ~ | d''4  r a' | c''2 a'4  | d''2 a'4 | c''4 bes' a' | \break
+      g'4 fis' a' | g'2 r4 | \time 2/4  |
+      \bar ".|:-||" d''4 d'' es'' es'' | d''4 c''|  d''2 |\break  c''4 c'' d'' c''  |
+      c'' a' | bes'2 | bes'4 c'' d'' es'' \break  | es''4 es'' | d''2 |
+      a'4 c'' bes' a' | fis'4 a' | g'2  \bar ":|." \break
     }
 
 
@@ -56,11 +55,10 @@
         \midi{}
 
       } % score
-
+  \markup \empty-one
       \markup \dc-two "D.C." "con ripetizione"
 
-      \pageBreak
-
+ \markup \empty-two
       % include foreign translation(s) of the song
       \include "../../lyrics/de/028_stani_stani_lyrics_de.ly"
 

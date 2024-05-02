@@ -3,31 +3,21 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Die Blumen erblühten" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10 {
+ 
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
+  \column { 
 
-  \line { " "Die Blumen erblühten unter den Strahlen der Sonne,}
+  \line { " "Die Blumen erblühten unter den Strahlen der Sonne, und schon trugen sie Früchte. }
 
-  \line { " "und schon trugen sie Früchte. }
+  \line { " "Und so, gekleidet in Schönheitund, und so, gekleidet in Reinheit,}
 
-  \line { " "Und so, gekleidet in Schönheit}
+  \line { " "bringen sie uns die Jugend. In ihr reifen süße Früchte.}
 
-  \line { " "und so, gekleidet in Reinheit,}
+  \line { " "Und so, wenn wir sie empfangen, erkennen wir, dass sie Gaben Gottes sind;}
 
-  \line { " "bringen sie uns die Jugend. }
-
-  \line { " "In ihr reifen süße Früchte.}
-
-  \line { " "Und so, wenn wir sie empfangen, }
-
-  \line { " "erkennen wir, dass sie Gaben Gottes sind;}
-
-  \line { " "und so, wenn wir sie empfangen,}
-
-  \line { " "erkennen wir, dass sie eine Gabe der Liebe sind!}
+  \line { " "und so, wenn wir sie empfangen, erkennen wir, dass sie eine Gabe der Liebe sind!}
 
     }
 

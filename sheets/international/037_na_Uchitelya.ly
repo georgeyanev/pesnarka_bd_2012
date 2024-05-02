@@ -6,31 +6,31 @@
 "rightBraces037" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -5.6 )
+    \translate #'(0 . -7.3 )
     \right-brace #18
 
-    \translate #'(0 . -10.2 )
+    \translate #'(0 . -11.5 )
     \right-brace #18
 
-    \translate #'(0 . -10.2 )
+    \translate #'(0 . -12.4 )
     \right-brace #18
 
-    \translate #'(0 . -10.2 )
+    \translate #'(0 . -11.6 )
     \right-brace #18
 
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -6.2 )
+    \translate #'(0 . -8 )
     2
 
-    \translate #'(0 . -12 )
+    \translate #'(0 . -13.9 )
     2
 
-    \translate #'(0 . -12 )
+    \translate #'(0 . -15 )
     2
 
-    \translate #'(0 . -12.1 )
+    \translate #'(0 . -14.8 )
     2
   }
 }
@@ -62,7 +62,8 @@
       е път от -- во -- рен, що ме во -- ди към От -- ца.
     }
 
-  \addlyrics {
+
+    \addlyrics {
       Na U --  či -- te -- lja po -- ko -- ren az šte slu -- ža
       do kon -- ca. Toj za men e păt ot -- vo --
       ren, što me vo -- di kăm Ot -- ca. Toj za men
@@ -70,34 +71,35 @@
     }
 
     \header {
-      title = \titleFunc "На Учителя" "Na Učitelja"
+      title = \titleFunc "На Учителя " " Na Učitelja"
     }
 
     \midi{}
 
   } % score
 
+  \markup \empty-two
 
-
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+  \markup \abs-fontsize #10 {
+    \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
+
       \line { 2.  Господи, Ти мой Учител, }
-      \line {   "   " в стъпките си ме води, }
+      \line {   "   " в стъпките Си ме води }
       \line {   "   " и кат мощен покровител }
       \line {   "   " всякога към мен бъди. }
-      \line { " " }
+      \vspace #0.5
       \line { 3. Дай ми Твойта Мъдрост свята }
       \line {   "   " и Божествена Любов; }
-      \line {   "   " за Любов към всички братя }
+      \line {   "   " за любов към всички братя }
       \line {   "   " винаги да съм готов. }
-      \line { " " }
+      \vspace #0.5
       \line { 4. И във дни на изпитание }
-      \line {   "   " Ти бъди ми канара; }
+      \line {   "   " Ти бъди ми канара, }
       \line {   "   " тъй за Тебе ще живея }
       \line {   "   " и за Тебе ще умра. }
-      \line { " " }
+      \vspace #0.5
       \line { 5. И когато стана жител }
       \line {   "   " на Невидимия свят, }
       \line {   "   " о, любезни мой Учител,  }
@@ -107,22 +109,23 @@
 
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-     \column {
+    \column {
+
       \line { 2.  Gospodi, Ti moj Učitel, }
-      \line {   "   " v stăpkite si me vodi, }
+      \line {   "   " v stăpkite Si me vodi }
       \line {   "   " i kat mošten pokrovitel }
       \line {   "   " vsjakoga kăm men bădi. }
-      \line { " " }
+      \vspace #0.5
       \line { 3. Daj mi Tvojta Mădrost svjata }
       \line {   "   " i Božestvena Ljubov; }
-      \line {   "   " za Ljubov kăm vsički bratja }
+      \line {   "   " za ljubov kăm vsički bratja }
       \line {   "   " vinagi da săm gotov. }
-      \line { " " }
+      \vspace #0.5
       \line { 4. I văv dni na izpitanie }
-      \line {   "   " Ti bădi mi kanara; }
+      \line {   "   " Ti bădi mi kanara, }
       \line {   "   " tăj za Tebe šte živeja }
       \line {   "   " i za Tebe šte umra. }
-      \line { " " }
+      \vspace #0.5
       \line { 5. I kogato stana žitel }
       \line {   "   " na Nevidimija svjat, }
       \line {   "   " o, ljubezni moj Učitel,  }

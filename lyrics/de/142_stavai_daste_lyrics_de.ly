@@ -3,10 +3,9 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Steh' auf, Tochter!" }
 \markup \null
 \markup \null
-
-\markup \fontsize #deCoupletFontSize {
-  \hspace #2
+\markup \abs-fontsize #10 {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
+
   \column {
     \line { 1. An einem Sommertag, in der frühen Morgenröte, }
 
@@ -19,7 +18,7 @@
     \line { "   "Stehe auf, }
 
     \line { "   " weil dein Vater draußen auf mich und auf dich mit dem Gespann wartet.“}
-    \line { " "}
+   \vspace #0.5
 
     \line { 2. Wenn die Sonne aufgeht, sollst du auf dem Acker sein.}
 
@@ -31,7 +30,7 @@
     
       \line { "   " weil alle Mädchen und Jungen schon zum Acker aufgebrochen sind.}
 
-    \line { " "}
+    \vspace #0.5
 
     \line { 3. Der Acker, meine Tochter, ist das Leben,}
 

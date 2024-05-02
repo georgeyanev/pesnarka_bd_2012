@@ -16,26 +16,26 @@
       \time 3/4
       \autoBeamOff
       \tempoFunc "Andante" 4 "66"
-        a'8. a'16 a'4. bes'8 | a'4 g'2 | g'8. g'16 g'4. a'8 | \break
-        g'4 f'2 | e'8. e'16 e'4. f'8 | e'4 d'2 | \break
-        e'8 f'8 g'8 bes'4 bes'8 | a'4 g'4 f'8. f'16 | e'4 d'2 | \bar ":|."
+      a'8. a'16 a'4. bes'8 | a'4 g'2 | g'8. g'16 g'4. a'8 | \break
+      g'4 f'2 | e'8. e'16 e'4. f'8 | e'4 d'2 | \break
+      e'8 f'8 g'8 bes'4 bes'8 | a'4 g'4 f'8. f'16 | e'4 d'2 | \bar ":|."
     }
 
     \addlyrics {
-      И -- дват дни на Ра -- дост, и -- дват дни на
-      Ра -- дост, и -- дват дни на Ра -- дост
+      Ид -- ват дни на ра -- дост, ид -- ват дни на
+      ра -- дост, ид -- ват дни на ра -- дост
       за о -- ни -- я, ко -- и -- то слу -- жат Бо -- гу.
     }
 
     \addlyrics {
-      I -- dvat dni na Ra -- dost, i -- dvat dni na
-      Ra -- dost, i -- dvat dni na Ra -- dost
+      Id -- vat dni na ra -- dost, id -- vat dni na
+      ra -- dost, id -- vat dni na ra -- dost
       za o -- ni -- ja, ko -- i -- to slu -- žat Bo -- gu.
     }
 
 
     \header {
-      title = \titleFunc "  Идват дни на радост" "Idvat dni na radost"
+      title = \titleFunc "Идват дни на радост "" Idvat dni na radost"
     }
 
     \midi{}
@@ -43,12 +43,12 @@
   } % score
 
   % include foreign translation(s) of the song
-  \markup \empty-two
+  \markup \vspace #3
   \include "../../lyrics/de/056_1_idvat_dni_na_radost_lyrics_de.ly"
 
-  \markup \empty-two
+  \pageBreak
 
-    \label #'ref056_2
+  \label #'ref056_2
   \tocItem \markup "Към Рила – Kăm Rila"
 
   \include "include/bookpart-paper.ily"
@@ -75,13 +75,13 @@
     \addlyrics {
       "1. Към" Ри -- ла с~мощ -- на ми -- съл ле -- тим ний
       все -- ки ден. __ В~гър -- ди -- те с~туй же -- ла --
-      ние жи -- ве -- ем в~свят не -- тлен. В~гър -- тлен. __ 
+      ние жи -- ве -- ем в~свят не -- тлен. "В~гър -" тлен. __
     }
 
-   \addlyrics {
+    \addlyrics {
       "1. Kăm" Ri -- la s~mošt -- na mi -- săl le -- tim nij
       vse -- ki den. __ V~găr -- di -- te s~tuj že -- la --
-      nie ži -- ve -- em v~svjat ne -- tlen. V~găr -- tlen. __ 
+      nie ži -- ve -- em v~svjat ne -- tlen. "V~găr -" tlen. __
     }
 
     \header {
@@ -91,55 +91,54 @@
     \midi{}
 
   } % score
+  \markup \empty-two
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #5
+  \markup \abs-fontsize #10 {
+    \hspace #15
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-     
+
       \line { 2. Отново ще се срещнем  }
       \line {   "   " при рилските очи. }
       \line {   "   " Тук нашата цигулка }
       \line {   "   " с нов тон ще зазвучи. }
 
-      \line { " " }
+      \vspace #0.5
       \line { 3. Душите ни  – цигулки }
       \line {   "   " ще леят красота, }
       \line {   "   " защото с тях ще свири  }
-      \line {   "   " Доброто, Любовта. }
-
-      \line { " " }
+      \line {   "   " доброто, Любовта. }
+       \vspace #0.5
       \line { 4. Ще идем ний на Рила, }
       \line {   "   " ще видим Мусала, }
-      \line {   "   " безкрайната Природа  }
+      \line {   "   " безкрайната природа  }
       \line {   "   " и своя мил Баща. }
     }
 
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-      \column {
-     
+    \column {
+
       \line { 2. Otnovo šte se sreštnem  }
       \line {   "   " pri rilskite oči. }
       \line {   "   " Tuk našata cigulka }
       \line {   "   " s nov ton šte zazvuči. }
 
-      \line { " " }
+       \vspace #0.5
       \line { 3. Dušite ni  – cigulki }
       \line {   "   " šte lejat krasota, }
       \line {   "   " zaštoto s tjah šte sviri  }
-      \line {   "   " Dobroto, Ljubovta. }
-
-      \line { " " }
+      \line {   "   " dobroto, Ljubovta. }
+      \vspace #0.5
       \line { 4. Šte idem nij na Rila, }
       \line {   "   " šte vidim Musala, }
-      \line {   "   " bezkrajnata Priroda  }
+      \line {   "   " bezkrajnata priroda  }
       \line {   "   " i svoja mil Bašta. }
     } %column
   } % markup
 
-  \markup \empty-two
-
+ 
+ \markup \vspace #3
   \include "../../lyrics/de/056_2_kam_rila_lyrics_de.ly"
 
 } % bookpart

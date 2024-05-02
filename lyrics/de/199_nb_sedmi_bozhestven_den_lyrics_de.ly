@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Siebter göttlicher Tag" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
+\markup \abs-fontsize #10 {
   \hspace #7
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 

@@ -4,9 +4,9 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \label #'ref069
-  \tocAct \markup "LIEDER VON PETAR DANOV"
-  \paper {
+  
+   \tocAct \markup"LIEDER DES MEISTERS"
+    \paper {
     print-all-headers = ##f
     print-page-number = ##f
     print-first-page-number = ##f
@@ -25,23 +25,19 @@
       ""
     }
 
-    left-margin = 1.5\cm
+     left-margin = 1.5\cm
     right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
+    top-margin = 1.2\cm
+    bottom-margin = 1.0\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-
   }
 
+  \markup { {  \vspace #16.2 } }
 
-  \markup { {  \vspace #11.2 } }
-
-  \markup \fontsize  #+6 { \fill-line \bold {"LIEDER VON PETAR DANOV"} }
-
+ \markup \abs-fontsize #15 { \fill-line \bold {"LIEDER DES MEISTERS"} }
 
   % include foreign translation(s) of the song
-  %\include "../../lyrics/de/000_empty_template_lyrics_de.ly"
+  %
 
 } % bookpart
 

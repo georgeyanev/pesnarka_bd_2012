@@ -61,7 +61,7 @@
       та, __  Лю -- бов -- та и О -- бич --
       та ще ме на -- у -- чат на Бо
       -- га слу -- га да ста -- на. __
-      Лю -- бов -- на. __
+      Лю -- "бов-" на. __
     }
     \addlyrics {
       Az mo -- ga da lju -- bja, do -- băr
@@ -71,23 +71,24 @@
       ta, __  Lju -- bov -- ta i O -- bič --
       ta šte me na -- u -- čat na Bo
       -- ga slu -- ga da sta -- na. __
-      Lju -- bov -- na. __
+      Lju -- "bov-" na. __
     }
 
     \header {
-      title = \titleFunc "Мога да любя" "Moga da ljubja"
+      title = \titleFunc "Мога да любя "" Moga da ljubja"
     }
 
     \midi{}
 
   } % score
 
-    \markup \dc-two "D.C.""con ripetizione"
+  \markup \empty-one
+  \markup \dc-two "D.C.""con ripetizione"
   %
 
   % include foreign translation(s) of the song
 
-  \pageBreak
+  \markup \vspace #1
   \include "../../lyrics/de/111_az_moga_da_lyubya_lyrics_de.ly"
 
 } % bookpart

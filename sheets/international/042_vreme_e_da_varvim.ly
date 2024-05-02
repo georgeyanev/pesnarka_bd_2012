@@ -16,17 +16,16 @@
       \time 2/4
       \tempoFunc "Tempo di marcia" 4 "100"
       \autoBeamOff
-      \autoBeamOff
       \partial 4
 
       f'8 a'8 | c''4 c''8. d''16 |  c''4 f'8 g'8 | a'4 a'8. a'16 | a'4 g'8 a'8  \break
 
       bes'4 bes'8. bes'16 | bes'4 a'8 bes'8 | d''4 c''8. b'16 | c''2 (| c''4) a'8 bes'8 | \break
 
-      c''4 c''8. d''16 | c''4 f'8 g'8 | a'4 a'8. a'16 | g'4 c''8 c''8 | b'4 c''8 d''8| \break
+      c''4 c''8. d''16 | c''4 f'8 g'8 | a'4 a'8. a'16 | g'4 c''8 c''8 | \time 3/4 b'4 c''8 d''8 e''4| \break
 
 
-      e''4 e''8 d''8 | c''8 b'8 c''4 (| c''4) a'8. bes'?16 | \repeat volta 2 {
+      \time 2/4 e''8 d''8 c''8 b'8 | c''2 (| c''8) r8 a'8. bes'?16 | \repeat volta 2 {
         c''2 (| c''8) c''8 d''8 bes'8  |\break
 
         g'2 (| g'4 ) g'8. a'16| bes'2 ( |  bes'8 ) bes'8 c''8 g'8|   a'2 ( | \break
@@ -39,46 +38,47 @@
     }
 
     \addlyrics {
-      Вре -- ме е да вър -- вим, зло -- то да по -- бе -- дим, Ми -- ра
-      да въ -- дво -- рим, Хри -- ста да въз -- ца -- рим! __   Прав -- да
-      ще въ -- ве -- дем, Сво -- бо -- да ще да -- дем и през всич -- ки -- те
+      Вре -- ме е да вър -- вим, зло -- то да по -- бе -- дим, ми -- ра
+      да въд -- во -- рим, Хри -- ста да въз -- ца -- рим! __   Прав -- да
+      ще въ -- ве -- дем, "сво-" -- бо -- да ще да -- дем и през всич -- ки -- те
       дни вер -- ни ще сме ний. __  Да ца -- ру -- ва Лю -- бов -- та! __
-      Да ца -- ру -- ва Бла -- гост -- та! __
-      Бог е ца -- рят на све -- та, __  Той в~пъ -- тя ни е Свет -- ли  -- на. __ Да ца -- на. __ 
+      Да ца -- ру -- ва бла -- гост -- та! __
+      Бог е Ца -- рят на све -- та, __  Той в~пъ -- тя ни е свет -- ли  -- на. __ Да ца -- на. __
     }
+
     \addlyrics {
-      Vre -- me e da văr -- vim, zlo -- to da po -- be -- dim, Mi -- ra
-      da vă -- dvo -- rim, Hri -- sta da văz -- ca -- rim! __   Prav -- da
-      šte vă -- ve -- dem, Svo -- bo -- da šte da -- dem i prez vsič -- ki -- te
-      dni ver -- ni šte sme nij. __  Da ca -- ru -- va Lju -- bov -- ta! __ 
-      Da ca -- ru -- va Bla -- gost -- ta! __ 
-      Bog e ca -- rjat na sve -- ta, __  Toj v~pă -- tja ni e Svet -- li  -- na. __ Da ca -- na. __ 
+      Vre -- me e da văr -- vim, zlo -- to da po -- be -- dim, mi -- ra
+      da văd -- vo -- rim, Hri -- sta da văz -- ca -- rim! __   Prav -- da
+      šte vă -- ve -- dem, "svo-" -- bo -- da šte da -- dem i prez vsič -- ki -- te
+      dni ver -- ni šte sme nij. __  Da ca -- ru -- va Lju -- bov -- ta! __
+      Da ca -- ru -- va bla -- gost -- ta! __
+      Bog e Ca -- rjat na sve -- ta, __  Toj v~pă -- tja ni e svet -- li  -- na. __ Da ca -- na. __
     }
 
     \header {
-      title = \titleFunc "Време е да вървим" "Vreme e da vărvim"
+      title = \titleFunc "Време е да вървим " " Vreme e da vărvim"
     }
 
     \midi{}
 
   } % score
 
-  \pageBreak
+  \markup \empty-two
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #8
+  \markup \abs-fontsize #10 {
+    \hspace #15
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
       \line { 2. Бързо да полетим, }
       \line {   "   " мощно да възтръбим, }
-      \line {   "   " Радост да възвестим,  }
-      \line {   "   " Вяра да съживим! }
+      \line {   "   " радост да възвестим,  }
+      \line {   "   " вяра да съживим! }
       \line {  "   " Ще огрей пак света }
       \line {   "   " в първата красота, }
-      \line {   "   " Свобода, Мир и ред  }
+      \line {   "   " свобода, мир и ред  }
       \line {   "   " ще владеят вред. }
-      \line { "   " }
+      \vspace #0.5
       \line { "   " \italic {Припев ... } }
     }
 
@@ -88,19 +88,19 @@
 
       \line { 2. Bărzo da poletim, }
       \line {   "   " moštno da văztrăbim, }
-      \line {   "   " Radost da văzvestim,  }
-      \line {   "   " Vjara da săživim! }
+      \line {   "   " radost da văzvestim,  }
+      \line {   "   " vjara da săživim! }
       \line {  "   " Šte ogrej pak sveta }
       \line {   "   " v părvata krasota, }
-      \line {   "   " Svoboda, Mir i red  }
+      \line {   "   " svoboda, mir i red  }
       \line {   "   " šte vladejat vred. }
-      \line { "   " }
+      \vspace #0.5
       \line { "   " \italic {Pripev ... } }
     }
     %column
   } % markup
 
-  \markup \empty-two
+
   % include foreign translation(s) of the song
   \include "../../lyrics/de/042_vreme_e_da_varvim_lyrics_de.ly"
 

@@ -25,19 +25,19 @@
 
     left-margin = 1.5\cm
     right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
+    top-margin = 1.2\cm
+    bottom-margin = 1.0\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
 
 
   }
 
   \tocItem \markup "Vorwort"
-  \markup \fontsize  #+3.0 { \fill-line \bold {"VORWORT"} }
+  \markup \abs-fontsize #12 { \fill-line \bold {"VORWORT"} }
 
 
-  \markup \fontsize #+2.5 {
-    \vspace #1.5 \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #10 {
+    \vspace #1.5 \override #'(baseline-skip . 3.5)
     \justify-string "
     
     Der gegenwärtige Sammelband enthält Lieder und Instrumentalwerke des spirituellen Lehrers Petar Danov – Beinsa Duno, dem Gründer der geistigen Bewegung „Weiße Bruderschaft“ in Bulgarien sowie Lieder seiner Schüler in bulgarischer und deutscher Sprache. 
@@ -50,7 +50,7 @@
 
 
 
-  \markup \fontsize #+2.5 \override #'(baseline-skip . 2.7){
+  \markup \abs-fontsize #10 \override #'(baseline-skip . 3.5){
     \justify-string " 
     die Rückkehr des teueren Gastes [auf dem verlorenen Sohn] gewartet. Ein anderes Beispiel sind Melodien, in denen Danov Mikrointervale einsetzte und so Viertelton-Musik komponierte. Die Mikrointervale, die viertel und die achtel Töne in der Musik thematisierte Danov in vielen Vorträgen. Sie können nach Danov in besonderem Maßen die Gefühle musikalisch zum Ausdruck bringen.
 
@@ -68,7 +68,7 @@
   }
 
 
-  \markup \fontsize #+2.5 \override #'(baseline-skip . 2.7) {
+  \markup \abs-fontsize #10 \override #'(baseline-skip . 3.5) {
     \justify-string "
    
 
@@ -98,14 +98,14 @@
 
 
 
-  \markup \fontsize #+2.5 \override #'(baseline-skip . 2.7) {
+  \markup \abs-fontsize #10 \override #'(baseline-skip . 3.5) {
     \justify-string "
   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
    "
   }
 
-    \markup \fontsize #+2.5 \override #'(baseline-skip . 2.7) {
+  \markup \abs-fontsize #10 \override #'(baseline-skip . 3.5) {
     \justify-string "
   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 

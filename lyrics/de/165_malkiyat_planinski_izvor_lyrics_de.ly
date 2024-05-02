@@ -1,14 +1,14 @@
 \version "2.24.3"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Die kleine Bergquelle" }
+
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10 {
+   \hspace #15
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-
 
  \line { 1.  Die reine Quelle sprudelt und singt}
 

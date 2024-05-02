@@ -3,8 +3,9 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Ein gütiges Wort auf den Lippen" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #15
+
+\markup \abs-fontsize #10 {
+   \hspace #25
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {

@@ -27,17 +27,17 @@
 
     left-margin = 1.5\cm
     right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
+    top-margin = 1.2\cm
+    bottom-margin = 1.0\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
   }
 
-  \markup { {  \vspace #11.2 } }
+  \markup { {  \vspace #16.2 } }
 
- \markup \fontsize  #+6 { \fill-line \bold {"BRÜDERLICHE LIEDER"} }
+ \markup \abs-fontsize #15 { \fill-line \bold {"BRÜDERLICHE LIEDER"} }
 
   % include foreign translation(s) of the song
-  %\include "../../lyrics/de/000_empty_template_lyrics_de.ly"
+  %
 
 } % bookpart
 

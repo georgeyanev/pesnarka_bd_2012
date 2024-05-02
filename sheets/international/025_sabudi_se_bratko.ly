@@ -6,15 +6,15 @@
 "rightBraces025" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -17.5 )
-    \right-brace #45
+    \translate #'(0 . -21.7 )
+    \right-brace #41
 
   }
   \column {
     % repeat numbers
 
 
-    \translate #'(0 . -17.9 )
+    \translate #'(0 . -22.6 )
     2
 
   }
@@ -23,7 +23,7 @@
 
 \bookpart {
   \label #'ref025
-  \tocItem \markup "Събуди се братко мили – Săbudi se bratko mili"
+  \tocItem \markup "Събуди се, братко мили – Săbudi se, bratko mili"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -40,17 +40,21 @@
       d''4 es''4 d''4 cis''4 d''4 es''4 | \time 3/4 d''2 c''8 c''8 | \time 4/4 bes'4 a'4 bes'4 c''4 \break
       d''4 a'2 c''8 c''8 | \time 6/4 bes'4 a'4 g'4 fis'4 g'2 | \time 3/4 \break
       \repeat volta 2 {
- \bar ".|:-||"
+        \bar ".|:-||"
 
         \tempoFunc "Più mosso " 2. "60"
         d''2 es''4 | d''2 cis''4| d''2  a'4 | bes'2 a'4 | bes'2 a'4 | g'2 fis'4 | \break
         g'2 a'4 | bes'2. | bes'2 a'4 | bes'2 a'4 | bes'2 a'4| \break
-        g'2 fis'4 | g'2 a'4 | bes'2 a'4 | g'2 fis'4 |  }
-        \alternative {
+        g'2 fis'4 | g'2 a'4 | bes'2 a'4 | g'2 fis'4 |
+      }
+      \alternative {
         {
-        g'2.| }   {
-        g'2 \bar "|." } }
-     
+          g'2.|
+        }   {
+          g'2 \bar "|."
+        }
+      }
+
     }
 
     \addlyrics {
@@ -61,7 +65,7 @@
       твой пи -- лот: тя ще те из -- пра -- ви
       креп -- ко, тя ще ти да -- ри Жи -- вот. вот.
     }
-   \addlyrics {
+    \addlyrics {
       Să -- bu -- di -- se, brat -- ko mi -- li,
       ot dăl -- bok săn ti sta -- ni i ve -- ri -- gi -- te ve --
       kov -- ni ot no -- ze -- te si sne -- mi.
@@ -71,26 +75,27 @@
     }
 
     \header {
-      title = \titleFunc "Събуди се братко мили" "Săbudi se bratko mili"
+      title = \titleFunc "Събуди се, братко мили" "Săbudi se, bratko mili"
     }
 
     \midi{}
 
   } % score
 
+  \markup \empty-two
 
 
-
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #2.5
+  \markup \abs-fontsize #10 {
+    \hspace #7
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
+
     \column {
 
       \line { 2.  Напусни затвори тъмни, }
       \line {   "   " вън е вредом светлина, }
       \line {   "   " Мир и Радост те очакват }
       \line {   "   " и блажена сетнина. }
-      \line { " " }
+      \vspace #0.5
       \line { "   " \italic {Припев: } }
       \line { "   "Любовта е твой учител, }
       \line {   "   " живо Слово да ще ти, }
@@ -108,7 +113,7 @@
       \line {   "   " văn e vredom svetlina, }
       \line {   "   " Mir i Radost te očakvat }
       \line {   "   " i blažena setnina. }
-      \line { " " }
+      \vspace #0.5
       \line { "   " \italic {Pripev: } }
       \line { "   "Ljubovta e tvoj učitel, }
       \line {   "   " živo Slovo da šte ti, }
@@ -121,8 +126,8 @@
 
   \pageBreak
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #2.5
+  \markup \abs-fontsize #10 {
+    \hspace #7
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
 
@@ -131,7 +136,7 @@
       \line {   "   " сладка дума с подтик нов; }
       \line {   "   " ти сърцето му да стоплиш }
       \line {   "   " с твойта искрена любов. }
-      \line { " " }
+      \vspace #0.5
       \line { "   " \italic {Припев: } }
       \line { "   "Любовта е твой спасител, }
       \line {   "   " нея в помощ призови: }
@@ -147,7 +152,7 @@
       \line {   "   " sladka duma s podtik nov; }
       \line {   "   " ti sărceto mu da stopliš }
       \line {   "   " s tvojta iskrena ljubov. }
-      \line { " " }
+      \vspace #0.5
       \line { "   " \italic {Pripev: } }
       \line { "   "Ljubovta e tvoj spasitel, }
       \line {   "   " neja v pomošt prizovi: }
@@ -157,7 +162,7 @@
     \"rightBraces025"
   } % markup
 
-  \markup \empty-two
+  \markup \vspace #3
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/025_sabudi_se_bratko_lyrics_de.ly"

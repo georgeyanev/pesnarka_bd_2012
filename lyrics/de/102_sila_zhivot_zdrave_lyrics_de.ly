@@ -3,25 +3,17 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Kraft, Leben, Gesundheit" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #20
+\markup \abs-fontsize #10 {
+  \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {    
+  \column { 
      
-  \line { " "Kraft, Leben, Gesundheit –}
+  \line { " "Kraft, Leben, Gesundheit – sie sind eins. }
 
-  \line { " "sie sind eins. }
+  \line { " "Diener des Geistes, Überbringer der Freude, }
 
-  \line { " "Diener des Geistes, }
-
-  \line { " "Überbringer der Freude, }
-
-  \line { " "Stütze der Jugend, }
-
-  \line { " "Stütze der Jugend, }
-
-  \line { " "sie sind eins. }
+  \line { " "Stütze der Jugend, Stütze der Jugend, sie sind eins. }
      
       
        

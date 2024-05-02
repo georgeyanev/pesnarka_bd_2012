@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "An die weiße Farbe" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #15
+\markup \abs-fontsize #10 {
+   \hspace #25
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -16,7 +16,7 @@
 
     \line { "   "und die Schneekristalle.}
 
-    \line { " " }
+     \vspace #0.5
 
     \line { "      " \italic { Refrain }:}
     \line { "      "Die Schönheit der göttlichen Welt,}
@@ -26,7 +26,7 @@
     \line { "      "hat ewige Kraft,}
 
     \line { "      "die Finsternis ergreift sie nicht.}
-    \line { " " }
+    \vspace #0.5
     \line { 2. Hinauf immer weiter! Dort blüht }
 
     \line { "   "die weiße Alpenrose,}
@@ -35,11 +35,11 @@
 
     \line { "   "  die weiße Farbe in diese Rose. }
 
-    \line { " " }
+     \vspace #0.5
 
     \line { "      " \italic { Refrain } ... }
 
-    \line { " " }
+    \vspace #0.5
 
     \line { 3. Hinauf! Eine weiße Sonne wird heute}
 
@@ -49,11 +49,11 @@
 
     \line { "   " in denen Gott lebt.}
 
-    \line { " " }
+     \vspace #0.5
 
     \line { "      " \italic { Refrain } ... }
 
-    \line { " " }
+    \vspace #0.5
 
     \line { 4. Hinauf – in dieses Weiß!}
 
@@ -63,11 +63,11 @@
 
     \line { "   " in weißen Tag verwandeln.}
 
-    \line { " " }
+     \vspace #0.5
 
     \line { "      " \italic { Refrain } ... }
 
-    \line { " " }
+    \vspace #0.5
     \line { 5. Wir werden die Erde verschönern,}
 
     \line { "   " wir werden sie zum Paradies machen;}
@@ -76,7 +76,7 @@
 
     \line { "   " und Gott lobpreisen. }
 
-    \line { " " }
+   \vspace #0.5
 
     \line { "      " \italic { Refrain } ... }
 

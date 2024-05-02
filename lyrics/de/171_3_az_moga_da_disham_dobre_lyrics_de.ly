@@ -3,15 +3,13 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Ich kann atmen" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #21
+\markup \abs-fontsize #10 {
+  \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
 
-\line { " "Ich kann schon gut atmen, }
-
-\line { " "ich kann schon gut atmen.}
+\line { " "Ich kann schon gut atmen, ich kann schon gut atmen.}
 
   }
 }

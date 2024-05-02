@@ -17,22 +17,12 @@
       \tempoFunc "Andante" 4 "68"
       \autoBeamOff
       \partial 4
-      \autoBeamOff
 
-      d'8 fis'8 | a'4 d''4 | a'4 d'8 e'8 | fis'4 e'8 e'8 \break |
-      \time 3/4  d'2 d''8 cis''8 | b'4 a'4 fis'8 g'8 | \time 2/4  a'4 b'8 a'8 | \time 3/4  a'2 e''8 d''8 \break |
-      cis''4 b'4 a'8 b'8| \time 2/4 a'4 b'8 a'8 | \time 3/4 a'2 b'8 a'8 |\break
-      g'4 g'4 fis'8 g'8 | \time 2/4  a'4 b'8 a'8 | \time 3/4  a'2
-      a'8 a'8^\markup {
-        \center-align \concat {
-          \dynamic mf
-          \normal-text { \bold { \italic " (" } }
-          \dynamic p
-          \normal-text { \bold { \italic "  " } }
-          \dynamic pp
-          \normal-text { \bold { \italic ")" } }
-        }
-      } \break
+      d'8 fis'8 | a'4 d''4 | a'4 d'8 e'8 | fis'4 e'8 e'8  |
+      \time 3/4  d'2 d''8 cis''8 | \break b'4 a'4 fis'8 g'8 | \time 2/4  a'4 b'8 a'8 | \time 3/4  a'2 e''8 d''8 |
+      cis''4 b'4 a'8 b'8|  \break \time 2/4 a'4 b'8 a'8 | \time 3/4 a'2 b'8 a'8 |
+      g'4 g'4 fis'8 g'8 | \time 2/4  a'4 b'8 a'8 | \break \time 3/4  a'2
+      a'8^\mf a'8
       \repeat volta 3 {
         d''4 a'4 b'8 a'8 |  d''4 a'4 e''8 d''8 |  cis''4 b'4 a'8 b'8 \break |
         a'4 a'4 b'8 a'8 | g'4 g'4 fis'8 g'8 | a'4 a'4 d'8 e'8 \time 2/4 \break |
@@ -53,41 +43,41 @@
     }
 
     \addlyrics {
-      Бла -- го --
-      сла -- вяй, ду -- ше мо -- я, Гос -- по -- да!
-      Не за -- бра -- вяй вси -- те Му ми -- ло --
-      сти, не за -- бра -- вяй вси -- те Му бла -- го
-      -- сти, не за -- бра -- вяй вси -- те Му до --
-      бри -- ни! Не за -- бра -- вяй ми -- лост -- та
-      Му, не за -- бра -- вяй бла -- гост -- та Му, не
-      за -- бра -- вяй О -- бич -- та Му, не за -- бра
-      -- вяй Лю -- бов -- та Му! Не за -- та Му!
+      Бла -- гос --
+      ла -- вяй, ду -- ше мо -- я, Гос -- по -- да!
+      Не заб -- ра -- вяй вси -- те Му ми -- ло --
+      сти, не заб -- ра -- вяй вси -- те Му бла -- го
+      -- сти, не заб -- ра -- вяй вси -- те Му доб --
+      ри -- ни! Не заб -- ра -- вяй ми -- лост -- та
+      Му, не заб -- ра -- вяй бла -- гост -- та Му, не
+      заб -- ра -- вяй о -- бич -- та Му, не заб -- ра
+      -- вяй Лю -- бов -- та Му! Не "заб -" та Му!
     }
 
     \addlyrics {
-      Bla -- go --
-      sla -- vjaj, du -- še mo -- ja, Gos -- po -- da!
-      Ne za -- bra -- vjaj vsi -- te Mu mi -- lo --
-      sti, ne za -- bra -- vjaj vsi -- te Mu bla -- go
-      -- sti, ne za -- bra -- vjaj vsi -- te Mu do --
-      bri -- ni! Ne za -- bra -- vjaj mi -- lost -- ta
-      Mu, ne za -- bra -- vjaj bla -- gost -- ta Mu, ne
-      za -- bra -- vjaj O -- bič -- ta Mu, ne za -- bra
-      -- vjaj Lju -- bov -- ta Mu! Ne za -- ta Mu!
+      Bla -- gos --
+      la -- vjaj, du -- še mo -- ja, Gos -- po -- da!
+      Ne zab -- ra -- vjaj vsi -- te Mu mi -- lo --
+      sti, ne zab -- ra -- vjaj vsi -- te Mu bla -- go
+      -- sti, ne zab -- ra -- vjaj vsi -- te Mu dob --
+      ri -- ni! Ne zab -- ra -- vjaj mi -- lost -- ta
+      Mu, ne zab -- ra -- vjaj bla -- gost -- ta Mu, ne
+      zab -- ra -- vjaj o -- bič -- ta Mu, ne zab -- ra
+      -- vjaj Lju -- bov -- ta Mu! Ne "zab -" ta Mu!
     }
 
 
     \header {
-      title = \titleFunc "Благославяй" "Blagoslavjaj"
+      title = \titleFunc "Благославяй" " Blagoslavjaj"
     }
 
     \midi{}
 
   } % score
 
-  \pageBreak
 
 
+  \markup \empty-three
   % include foreign translation(s) of the song
   \include "../../lyrics/de/024_blagoslavyay_lyrics_de.ly"
 

@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Sage mir du, heller göttlicher Strahl" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
+\markup \abs-fontsize #10 {
   \hspace #15
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {

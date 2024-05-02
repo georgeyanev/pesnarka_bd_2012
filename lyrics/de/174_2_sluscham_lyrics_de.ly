@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Ich höre" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
+\markup  \abs-fontsize #10 {
   \hspace #17
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 

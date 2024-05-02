@@ -3,8 +3,9 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Güte" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #15
+
+\markup \abs-fontsize #10 {
+   \hspace #30
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {

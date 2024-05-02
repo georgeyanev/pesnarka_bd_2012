@@ -15,7 +15,6 @@
       \key g \major
       \time 5/4
       \tempoFunc "Andantino" 4 "69"
-      \override Staff.BarLine.gap = 0.5
 
       \autoBeamOff
       b8 d b8 d b8 d  \bar "!" g fis e c | c e c e c e   \bar "!"  \break
@@ -50,45 +49,48 @@
 
       гре -- е, гре -- е, гре -- е свет -- ли -- на -- та,
 
-      гре -- е, гре -- е, гре -- е свет -- ли -- на -- та.
+      гре -- е, гре -- е, гре -- е гре -- е гре -- е.
 
       На тре --  ви -- те, на во -- ди -- те,
 
       на цве -- тя -- та, на де -- ца -- та
 
-      Ра -- дост но -- си за сър -- ца -- та.
+      ра -- дост но -- си за сър -- ца -- та.
 
       На тре -- ви -- те, на во -- ди -- те,
 
       на цве -- тя -- та, на де -- ца -- та
 
       ра -- дост но -- си за сър -- ца -- та.}
-    \addlyrics {
-      Gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
 
-      gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
 
-      gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
 
-      gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
+      \addlyrics {
+        Gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
 
-      gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
+        gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
 
-      gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
+        gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
 
-      gre -- e, gre -- e, gre -- e svet -- li -- na -- ta.
+        gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
 
-      Na tre --  vi -- te, na vo -- di -- te,
+        gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
 
-      na cve -- tja -- ta, na de -- ca -- ta
+        gre -- e, gre -- e, gre -- e svet -- li -- na -- ta,
 
-      Ra -- dost no -- si za săr -- ca -- ta.
+        gre -- e, gre -- e, gre -- e gre -- e gre -- e.
 
-      Na tre -- vi -- te, na vo -- di -- te,
+        Na tre --  vi -- te, na vo -- di -- te,
 
-      na cve -- tja -- ta, na de -- ca -- ta
+        na cve -- tja -- ta, na de -- ca -- ta
 
-      ra -- dost no -- si za săr -- ca -- ta.}
+        ra -- dost no -- si za săr -- ca -- ta.
+
+        Na tre -- vi -- te, na vo -- di -- te,
+
+        na cve -- tja -- ta, na de -- ca -- ta
+
+        ra -- dost no -- si za săr -- ca -- ta.}
 
 
 
@@ -99,7 +101,7 @@
         \midi{}
 
       } % score
-
+      \markup \empty-one
       \markup \dc-one "D.C. al Fine"
 
       \pageBreak

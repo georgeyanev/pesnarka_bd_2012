@@ -9,7 +9,6 @@
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
-
     \new Voice \absolute  {
       \clef treble
       \key d \major
@@ -25,32 +24,31 @@
     \addlyrics {
       "1. Как" -- то че -- ло -- век съ -- бли -- ча дре -- хи -- те си
       о -- вех -- те -- ли, за да мо -- же да на  -- де -- не
-      но -- ви дре -- хи, "чис-" -- ти, бе -- ли, тъй Ду -- хът "плът-" -- та о --
+      но -- ви дре -- хи, "чис-" -- ти, бе -- ли, тъй ду -- хът "плът-" -- та о --
       ста -- вя в~дру -- га плът да се за -- се -- ли и о --
       ти -- ва да на -- сле -- ди но -- ви ня -- ко -- и пре -- де -- ли.
     }
 
-
     \addlyrics {
       "1. Kak" -- to če -- lo -- vek să -- bli -- ča dre -- hi -- te si
       o -- veh -- te -- li, za da mo -- že da na  -- de -- ne
-      no -- vi dre -- hi, čis -- ti, be -- li, tăj Du -- hăt plăt -- ta o --
+      no -- vi dre -- hi, "čis-" -- ti, be -- li, tăj du -- hăt "plăt-" -- ta o --
       sta -- vja v~dru -- ga plăt da se za -- se -- li i o --
       ti -- va da na -- sle -- di no -- vi nja -- ko -- i pre -- de -- li.
     }
 
     \header {
-      title = \titleFunc "Нови дрехи" "Novi drehi"
+      title = \titleFunc "Нови дрехи "" Novi drehi"
     }
 
     \midi{}
 
   } % score
 
-  \markup \empty-one
+  \markup \empty-two
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #3
+  \markup \abs-fontsize #10 {
+    \hspace #8
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
@@ -60,17 +58,17 @@
 
       \line {   "   "нови дарби да добие,}
 
-      \line {   "   "Нов Живот да устроява.}
+      \line {   "   "нов живот да устроява.}
 
       \line {   "   "Тъй напредва той безкрайно}
 
       \line {   "   "в красота неизразима}
 
-      \line {   "   "и достига Светлината – }
+      \line {   "   "и достига светлината – }
 
       \line {   "   "тамо, де блаженство има.}
 
-      \line {   "   "}
+      \vspace #0.5
 
       \line {   3. Тъй прекрасно и премъдро}
 
@@ -99,17 +97,17 @@
 
       \line {   "   "novi darbi da dobie,}
 
-      \line {   "   "Nov Život da ustrojava.}
+      \line {   "   "nov život da ustrojava.}
 
       \line {   "   "Tăj napredva toj bezkrajno}
 
       \line {   "   "v krasota neizrazima}
 
-      \line {   "   "i dostiga Svetlinata – }
+      \line {   "   "i dostiga svetlinata – }
 
       \line {   "   "tamo, de blaženstvo ima.}
 
-      \line {   "   "}
+      \vspace #0.5
 
       \line {   3. Tăj prekrasno i premădro}
 
@@ -129,7 +127,7 @@
     } %column
   } % markup
 
-
+\pageBreak
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/062_novi_drehi_lyrics_de.ly"

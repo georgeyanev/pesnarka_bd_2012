@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Atme tief" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #15
+\markup \abs-fontsize #10 {
+ \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -18,7 +18,7 @@
 \line { "   "atme, atme und atme wieder,}
 
 \line { "   "atme, auf dass du gesund bleibst!}
- \line { " " }
+  \vspace #0.5
 \line { 2. Wenn du, Kind, tief atmest,}
 
 \line { "   " wirst du ein gesundes, gutes Herz haben.}
@@ -28,7 +28,7 @@
 \line { "   "einen starken Magen, einen starken Körper}
 
 \line { "   "wirst du, Kind, haben.}
- \line { " " }
+  \vspace #0.5
 \line { 3. Wenn du, Kind, tief atmest,}
 
 \line { "   "soll dein Körper aufgerichtet sein!}

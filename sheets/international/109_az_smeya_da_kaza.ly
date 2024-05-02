@@ -53,10 +53,11 @@
       не -- го всич -- ко ста -- ва, за --
       вив -- ки -- те си сви -- ва и
       на ра -- бо -- та о -- ти -- ва.
-
-
     }
-   \addlyrics {
+
+
+
+    \addlyrics {
 
       Az sme -- ja da ka -- ža, če Slăn
       -- ce -- to e svet -- lo. Az sme
@@ -76,7 +77,7 @@
     }
 
     \header {
-      title = \titleFunc "Аз смея да кажа" "Az smeja da kaža"
+      title = \titleFunc "Аз смея да кажа "" Az smeja da kaž"
     }
 
     \midi{}
@@ -88,7 +89,7 @@
 
   % include foreign translation(s) of the song
 
-  \pageBreak
+  \markup \empty-three
   \include "../../lyrics/de/109_az_smeja_da_kazha_lyrics_de.ly"
 
 } % bookpart

@@ -5,11 +5,10 @@
 
 \bookpart {
   \label #'ref161
-  \tocItem \markup "Духай ветре II – Duhaj vetre II"
+  \tocItem \markup "Духай, ветре II – Duhaj, vetre II"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
-
     \new Voice \absolute {
       \clef treble
       \key g \major
@@ -95,8 +94,9 @@
       да по -- лу -- чи, да по -- лу --
       чи, да се у -- чи. Хай ди ди ди
       ди, да си и -- ди, да си и -- ди,
-      До -- бро да ви -- ди. __ }
-     \addlyrics {
+      Доб -- ро да ви -- ди. __
+    }
+    \addlyrics {
       Bo -- ži -- e -- to Slăn -- ce gre --
       e dnes, Bo -- ži -- e -- to Slăn --
       ce gre -- e dnes. Du -- haj, vet
@@ -114,21 +114,22 @@
       da po -- lu -- či, da po -- lu --
       či, da se u -- či. Haj di di di
       di, da si i -- di, da si i -- di,
-      Do -- bro da vi -- di. __ }
+      Dob -- ro da vi -- di. __
+    }
 
-        \header {
-          title = \titleFunc "Духай ветре II" "Duhaj vetre II"
-        }
+    \header {
+      title = \titleFunc "Духай, ветре II "" Duhaj, vetre II"
+    }
 
-        \midi{}
+    \midi{}
 
-      } % score
+  } % score
 
 
-      % include foreign translation(s) of the song
-      \include "../../lyrics/de/161_duhai_vetre_ii_lyrics_de.ly"
+  % include foreign translation(s) of the song
+  \include "../../lyrics/de/161_duhai_vetre_ii_lyrics_de.ly"
 
-    } % bookpart
+} % bookpart
 
-    % Più mosso
-    %
+% Più mosso
+%

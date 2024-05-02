@@ -33,32 +33,34 @@
       "1. Но" -- ви хи -- мни на И -- су -- са да за -- пе -- ем
       в~то -- я час, Бо -- жи Син е Той пред -- ве --
       чен на Не -- бе -- то и във нас.  Наш У -- чи -- тел,
-      наш во -- ди -- тел, ис -- тин -- ски -- ят наш Жи -- вот, Не -- го --
+      наш во -- ди -- тел, ис -- тин -- ски -- ят наш жи -- вот, Не -- го --
       во -- то креп -- ко И -- ме да се сла -- ви в~род и род.
     }
 
-     \addlyrics {
+
+    \addlyrics {
       "1. No" -- vi hi -- mni na I -- su -- sa da za -- pe -- em
       v~to -- ja čas, Bo -- ži Sin e Toj pred -- ve --
       čen na Ne -- be -- to i văv nas.  Naš U -- či -- tel,
-      naš vo -- di -- tel, is -- tin -- ski -- jat naš Ži -- vot, Ne -- go --
+      naš vo -- di -- tel, is -- tin -- ski -- jat naš ži -- vot, Ne -- go --
       vo -- to krep -- ko I -- me da se sla -- vi v~rod i rod.
     }
 
     \header {
-      title = \titleFunc "На Христа запейте" "Na Hrista zapejte"
+      title = \titleFunc "На Христа запейте "" Na Hrista zapejte"
     }
 
     \midi{}
 
   } % score
 
-  \markup \empty-one
+  \markup \empty-two
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #3
+  \markup \abs-fontsize #10 {
+    \hspace #10
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
+
       \line {   2.  На Христа запейте химни  }
 
       \line {   "   " нови в тоз тържествен час, }
@@ -74,7 +76,7 @@
       \line {   "   " като смъртник в гроба слезе }
 
       \line {   "   " мъртвите да възкреси. }
-      \line {   "   "}
+      \vspace #0.5
 
       \line {   3.  И когато се прослави, }
 
@@ -92,11 +94,13 @@
 
       \line {   "   " Бог Отец е татко наш. }
 
+
+
     }
 
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-   \column {
+    \column {
       \line {   2.  Na Hrista zapejte himni  }
 
       \line {   "   " novi v toz tăržestven čas, }
@@ -112,7 +116,7 @@
       \line {   "   " kato smărtnik v groba sleze }
 
       \line {   "   " mărtvite da văzkresi. }
-      \line {   "   "}
+      \vspace #0.5
 
       \line {   3.  I kogato se proslavi, }
 
@@ -135,11 +139,10 @@
 
   \pageBreak
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #3
+  \markup \abs-fontsize #10 {
+    \hspace #10
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-
 
       \line {  4.  Един друг се залюбете, }
 
@@ -149,22 +152,22 @@
 
       \line {   "   " като Негови деца. }
 
-      \line {   "   " Аз съм жив хляб от Небето, }
+      \line {   "   " Аз Съм жив хляб от Небето, }
 
-      \line {   "   " аз съм истинска лоза, }
+      \line {   "   " аз Съм истинска лоза, }
 
       \line {   "   " Словото Ми опазете, }
 
       \line {   "   " заживейте в Любовта! }
-      \line {   "   "}
+      \vspace #0.5
 
       \line {   5.  Само в нея е живота, }
 
-      \line {   "   " нейна е радостта, }
+      \line {   "   " нейна е и радостта, }
 
       \line {   "   " тя създава всяко благо, }
 
-      \line {   "   " тя едничка, Любовта.“ }
+      \line {   "   " тя едничка, Любовта“. }
 
       \line {   "   " Тъй ни учеше тогава,  }
 
@@ -173,13 +176,14 @@
       \line {   "   " и възкръсват ми в душата }
 
       \line {   "   " тези Негови слова. }
+
+
     }
 
 
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-   \column {
-
+    \column {
 
       \line {  4.  Edin drug se zaljubete, }
 
@@ -189,22 +193,22 @@
 
       \line {   "   " kato Negovi deca. }
 
-      \line {   "   " Az săm živ hljab ot Nebeto, }
+      \line {   "   " Az Săm živ hljab ot Nebeto, }
 
-      \line {   "   " az săm istinska loza, }
+      \line {   "   " az Săm istinska loza, }
 
       \line {   "   " Slovoto Mi opazete, }
 
       \line {   "   " zaživejte v Ljubovta! }
-      \line {   "   "}
+      \vspace #0.5
 
       \line {   5.  Samo v neja e života, }
 
-      \line {   "   " nejna e radostta, }
+      \line {   "   " nejna e i radostta, }
 
       \line {   "   " tja săzdava vsjako blago, }
 
-      \line {   "   " tja ednička, Ljubovta.“ }
+      \line {   "   " tja ednička, Ljubovta“. }
 
       \line {   "   " Tăj ni učeše togava,  }
 
@@ -216,7 +220,7 @@
     } %column
   } % markup
 
-  \markup \empty-two
+  \markup \vspace #3
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/060_na_Hrista_zapeyte_lyrics_de.ly"

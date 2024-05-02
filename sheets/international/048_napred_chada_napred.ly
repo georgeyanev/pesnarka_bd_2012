@@ -6,24 +6,24 @@
 "rightBraces048" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -5.5 )
+    \translate #'(0 . -7.5 )
     \right-brace #20
 
-    \translate #'(0 . -10.0 )
+    \translate #'(0 . -11.5 )
     \right-brace #20
 
-    \translate #'(0 . -10.0 )
+    \translate #'(0 . -11.5 )
     \right-brace #20
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -6.1 )
+    \translate #'(0 . -8.1 )
     2
 
-    \translate #'(0 . -12.0 )
+    \translate #'(0 . -14.3 )
     2
 
-    \translate #'(0 . -12.0 )
+    \translate #'(0 . -14.7 )
     2
   }
 }
@@ -51,95 +51,97 @@
     }
 
     \addlyrics {
-      "1. На" -- пред, ча -- да, на -- пред, но -- се -- те Сло -- во -- то на --
-      вред! Без страх в~Жи -- во -- та нов __  но -- се -- те
-      Прав -- да, Мир, Лю -- бов. Без бов!
+      "1. Нап" -- ред, ча -- да, нап -- ред, но -- се -- те Сло -- во -- то нав --
+      ред! Без страх в~жи -- во -- та нов __  но -- се -- те
+      прав -- да, мир, лю -- бов. Без бов!
     }
 
-     \addlyrics {
-      "1. Na" -- pred, ča -- da, na -- pred, no -- se -- te Slo -- vo -- to na --
-      vred! Bez strah v~Ži -- vo -- ta nov __  no -- se -- te
-      Prav -- da, Mir, Lju -- bov. Bez bov!
+    \addlyrics {
+      "1. Nap" -- red, ča -- da, nap -- red, no -- se -- te Slo -- vo -- to nav --
+      red! Bez strah v~ži -- vo -- ta nov __  no -- se -- te
+      prav -- da, mir, lju -- bov. Bez bov!
     }
 
 
 
     \header {
-      title = \titleFunc "Напред, чада, напред " "Napred, čada, napred"
+      title = \titleFunc "Напред, чада, напред "" Napred, čada, napred"
     }
 
     \midi{}
 
   } % score
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #1
+  \markup \empty-one
+
+  \markup \abs-fontsize #10 {
+    \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line {   2. От новото Небе }
 
       \line {   "   " Спасителят ни днес зове: }
 
-      \line {   "   " Я чуйте тоя зов –}
+      \line {   "   " „Я чуйте тоя зов –}
 
-      \line {   "   " носете Правда, Мир, Любов!}
+      \line {   "   " носете правда, мир, любов!“.}
 
-      \line {   "   "}
+      \vspace #0.5
 
-      \line {   3.  Тук долу няма Mир,}
+      \line {   3.  Тук долу няма мир,}
 
-      \line {   "   " неправдата е в длъж и шир;}
+      \line {   "   " неправдата е в длъж и шир.}
 
-      \line {   "   " разсейте бързо днес }
+      \line {   "   " Разсейте бързо днес }
 
-      \line {   "   " за Мир и Правда блага вест!}
+      \line {   "   " за мир и правда блага вест!}
 
-      \line {   "   "}
+      \vspace #0.5
 
       \line {   4.  Напред, чада, напред,}
 
       \line {   "   " носете Словото навред!}
 
-      \line {   "   " Без страх в Живота нов,}
+      \line {   "   " Без страх в живота нов,}
 
-      \line {   "   " носете Правда, Мир, Любов!}
+      \line {   "   " носете правда, мир, любов!}
     }  \"rightBraces048"
 
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-  \column {
+    \column {
       \line {   2. Ot novoto Nebe }
 
       \line {   "   " Spasiteljat ni dnes zove: }
 
-      \line {   "   " Ja čujte toja zov –}
+      \line {   "   " „Ja čujte toja zov –}
 
-      \line {   "   " nosete Pravda, Mir, Ljubov!}
+      \line {   "   " nosete pravda, mir, ljubov!“.}
 
-      \line {   "   "}
+      \vspace #0.5
 
-      \line {   3.  Tuk dolu njama Mir,}
+      \line {   3.  Tuk dolu njama mir,}
 
-      \line {   "   " nepravdata e v dlăž i šir;}
+      \line {   "   " nepravdata e v dlăž i šir.}
 
-      \line {   "   " razsejte bărzo dnes }
+      \line {   "   " Razsejte bărzo dnes }
 
-      \line {   "   " za Mir i Pravda blaga vest!}
+      \line {   "   " za mir i pravda blaga vest!}
 
-      \line {   "   "}
+      \vspace #0.5
 
       \line {   4.  Napred, čada, napred,}
 
       \line {   "   " nosete Slovoto navred!}
 
-      \line {   "   " Bez strah v Života nov,}
+      \line {   "   " Bez strah v života nov,}
 
-      \line {   "   " nosete Pravda, Mir, Ljubov!}
+      \line {   "   " nosete pravda, mir, ljubov!}
     }  %column
     \"rightBraces048"
   } % markup
 
-  \pageBreak
+   \markup \vspace #3
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/048_napred_chada_napred_lyrics_de.ly"

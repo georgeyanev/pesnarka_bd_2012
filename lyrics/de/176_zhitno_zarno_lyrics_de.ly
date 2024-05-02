@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Das Weizenkorn" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
+\markup \abs-fontsize #10 {
   \hspace #8
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 

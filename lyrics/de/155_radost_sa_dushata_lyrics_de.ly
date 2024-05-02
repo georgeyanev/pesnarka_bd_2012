@@ -3,10 +3,11 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Freude, Freude für die Seele" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-    \hspace #10
-    \override #`(baseline-skip . ,deCoupletBaselineSkip)
-    \column {
+\markup \abs-fontsize #10 {
+   \hspace #15
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+
+  \column {
 
 \line { " "Freude, Freude für die Seele bringt die Reinheit. }
 

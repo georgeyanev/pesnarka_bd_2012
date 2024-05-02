@@ -20,17 +20,17 @@
 
       \partial 4
 
-      g'4 | g''2 fis''4 d''4 |e''2 d''2 | b'4  d''4 a'2| a'4 b'4 g'2 | \break
+      g'4 | g''2 fis''4 d''4 |e''2 d''2 | b'4  d''4 a'2| a'4 b'4 g'2 |
 
-      b'4 d''4 a'2 | a'4 b'4 g'2| b4 d'8 g'8 b'4. a'8 | a'4 b'8 b'8 g'2 | \break
+      b'4 d''4 a'2 | \break a'4 b'4 g'2| b4 d'8 g'8 b'4. a'8 | a'4 b'8 b'8 g'2 | \break
 
-      b4 d'8 g'8 b'4. a'8 | a'4 b'8 b'8 g'2 | g'4 fis'8. e'16 e'4. d'8 | \break
+      b4 d'8 g'8 b'4. a'8 |  a'4 b'8 b'8 g'2 | g'4 fis'8. e'16 e'4. d'8 | \break
 
-      b4 c'4 d'2 | d'4 g'8 a'8 b'4. a'8 | g'4 fis'4 a'4 a'4 |  \time 2/4 g'4. d'8 | \break
+      b4 c'4 d'2 |   d'4 g'8 a'8 b'4. a'8 | g'4 fis'4 a'4 a'4 |  \time 2/4 g'4. d'8 | \break
 
-      g'2 | fis'8. g'16 a'8 b'8 | c''4 d''4 | e''4.\fermata b'8 | d''4. c''8 | b'4 a'8 a'8 | \break
+      g'2 | fis'8. g'16 a'8 b'8 |  c''4 d''4 |  e''4.\fermata b'8 | d''4. c''8 | b'4 a'8 a'8 |  \break
 
-      b'8 a'8 g'8 fis'8 | g'4. d'8 | g'2 | fis'8. g'16 a'8 b'8 | c''4 d''4 | \break
+      b'8 a'8 g'8 fis'8 | g'4. d'8  | g'2 | fis'8. g'16 a'8 b'8 | c''4 d''4 | \break
 
       e''4.\fermata b'8 | d''4. c''8 | b'4 a'8 a'8 | b'8 a'8 g'8 fis'8 | g'2 ( | g'4 ) \bar "|."
     }
@@ -50,10 +50,10 @@
 
       тъй, ка -- то ги при -- е -- ма -- ме, поз -- на -- ва -- ме, че са дар на Лю -- бов -- та. __
     }
-      \addlyrics {
+    \addlyrics {
       Cve -- tja -- ta căf -- tja -- ha pod slăn -- če -- vi lă -- či
 
-      i ve -- če văr -- za -- ha. I tăj o -- ble -- če -- ni "v~kra-" -- so -- ta,
+      i ve -- če văr -- za -- ha. I tăj o -- ble -- če -- ni v~kra -- so -- ta,
 
       i tăj o -- ble -- če -- ni v~čis -- to -- ta, te ni do -- na -- sjat
 
@@ -65,23 +65,23 @@
 
       tăj, ka -- to gi pri -- e -- ma -- me, poz -- na -- va -- me, če sa dar na Lju -- bov -- ta. __
     }
-      \header {
-        title = \titleFunc "Цветята цъфтяха" "Cvetjata căftjaha"
-      }
+    \header {
+      title = \titleFunc "Цветята цъфтяха "" Cvetjata căftjaha"
+    }
 
-      \midi{}
+    \midi{}
 
-    } % score
-    %\markup \dc-two "D.C.""con repitione"
-
-
+  } % score
+  %\markup \dc-two "D.C.""con repitione"
 
 
-    %
 
-    % include foreign translation(s) of the song
 
-    \pageBreak
-    \include "../../lyrics/de/113_zvetjata_zaftjaha_lyrics_de.ly"
+  %
 
-  } % bookpart
+  % include foreign translation(s) of the song
+
+  \markup \vspace #2
+  \include "../../lyrics/de/113_zvetjata_zaftjaha_lyrics_de.ly"
+
+} % bookpart

@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Bei der Quelle" }
 \markup \null
 \markup \null
-\markup \fontsize #+1.7 {
+\markup \abs-fontsize #10 {
 
   \override #'(baseline-skip . 1.8)
 
@@ -20,7 +20,7 @@
     \line { "   " Seele, Seele,}
 
     \line { "   " und in Hymnen gießt sie ihre Seele aus.}
-    \line { "   " }
+     \vspace #0.5
 
     \line { 2. Zu ihr strebt mühsam ein müder }
 
@@ -33,7 +33,7 @@
     \line { "   " zuteil, zuteil}
 
     \line { "   " ihm wird dort neues Leben zuteil.}
-    \line { "   " }
+     \vspace #0.5
 
     \line { 3. Und er fragt: }
 
@@ -48,7 +48,7 @@
     \line { "   " reinige, reinige,}
 
     \line { "   " damit ich meine leidende Seele reinige?}
-    \line { "   " }
+      \vspace #0.5
 
     \line {  4. Darf ich mich erholen,}
 
@@ -61,7 +61,7 @@
     \line { "   " öffnen, öffnen,}
 
     \line { "   " mein mit Wunden bedecktes Herz öffnen?“}
-    \line { "   " }
+     \vspace #0.5
   \line {  5. „Neige dein Haupt, }
 
     \line { "   " oh, unglücklicher Wanderer: }
@@ -98,7 +98,7 @@
 
     \line { "   " und ich werde dir }
      \line { "   " Leben und Kraft geben.}
-    \line { "   " }
+     \vspace #0.5
 
     \line {  7. Komm, komm und trinke von mir}
 

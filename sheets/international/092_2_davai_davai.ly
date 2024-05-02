@@ -22,8 +22,9 @@
 
       a'4 b' a' gis'2 | f'4 gis' f' e'2 | a'4 a' f' gis'2 \break |
 
-      f'4 d' e' e'2  \bar ".|:"
-      | a'4 a' b'8 ( c'' ) d''2 |  e''4 c'' b' a'2 \break | % 13
+      f'4 d' e' e'2  \bar ".|:"|
+
+      a'4 a' b'8 ( c'' ) d''2 |  e''4 c'' b' a'2 \break | % 13
 
       b'4 a' gis' a'2 | f'4 d' e' e'2
       \bar ":|." | gis'4 f' f' gis'2 \break |
@@ -73,13 +74,14 @@
     }
 
     \header {
-      title = \titleFunc "Давай, давай" "Davaj, davaj"
+      title = \titleFunc "Давай, давай "" Davaj, davaj"
     }
 
     \midi{}
 
   } % score
 
+  \markup \empty-one
   \markup \dc-two "D.C.""con ripetizione"
 
   % include foreign translation(s) of the song

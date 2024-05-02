@@ -3,11 +3,11 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Die kleine Quelle" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #10
+\markup \abs-fontsize #10 {
+  \hspace #20
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
+  \column {  
     \line { " " Ein heller Strahl steigt von oben herab,  }
 
     \line { " " um die kleinen Blumen zu erleuchten.   }

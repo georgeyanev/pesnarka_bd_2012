@@ -58,62 +58,62 @@
       | % 11
       d4.  a8  c16  bes16
       a16  g16 | % 12
-      g2 r4    \bar ".|:-|"  
-        | % 13
-        \time 4/4  | % 13
-        d'8 ^\fermata
-        \times 2/3  {
-          d16  d16  d16 ]
-        }
-        d8 ( [  g8 ) ]  bes2 | % 14
+      g2 r4    \bar ".|:-|"
+      | % 13
+      \time 4/4  | % 13
+      d'8 ^\fermata
+      \times 2/3  {
+        d16  d16  d16 ]
+      }
+      d8 ( [  g8 ) ]  bes2 | % 14
 
-        <<
-          {a16  g16  fis16  g16 a8.  g16  g2}
+      <<
+        {a16  g16  fis16  g16 a8.  g16  g2}
 
-          \new Staff \with {
-            \override VerticalAxisGroup.default-staff-staff-spacing =
-            #'((basic-distance . 5.2)
-               (padding . -10))
-            \remove "Time_signature_engraver"
-            alignAboveContext = #"main"
-            fontSize = #-1
-            \override StaffSymbol.staff-space = #(magstep -3)
-            \override StaffSymbol.thickness = #(magstep -3)
-            firstClef = ##f
-          }
-          {\autoBeamOff a16 ^\markup { \huge \italic "ossia" \italic "според В. Несторова/nach V. Nestorova"} fis16 g a g8. fis16 g2}
-        >>
-        \break | % 15
+        \new Staff \with {
+          \override VerticalAxisGroup.default-staff-staff-spacing =
+          #'((basic-distance . 6.5)
+             (padding . -20))
+          \remove "Time_signature_engraver"
+          alignAboveContext = #"main"
+          fontSize = #-1.5
+          \override StaffSymbol.staff-space = #(magstep -2)
+          \override StaffSymbol.thickness = #(magstep -2)
+          firstClef = ##f
+        }
+        {\autoBeamOff a16 ^\markup { \large \italic "ossia по В. Несторова"} fis16 g a g8. fis16 g2}
+      >>
+      \break | % 15
 
-        \tempo "rall." f?16 es16
-        d16  cis16  d2
-        \times 2/3  {
-          \tempo "a tempo" c8 bes8
-          a8
-        }
-        | % 16
-        \time 3/4  | % 16
-        bes2
-        \times 2/3  {
-          a8  bes8  c8
-        }
-        \break | % 17
-        d4.  c8  d16 ( [  c16
-        ) ]  bes16  a16 | % 18
-        bes2
-        \times 2/3  {
-          a8   bes8  c8
-        } \time 2/4 \break | % 19
-        d4.  c8 |
-        \times 2/3  {
-          bes8   a8  g8
-        }
-        \times 2/3  {
-          fis8   g8    a8
-        } |
-        \tempo "rit." g2
-\bar ":|."
-      
+      \tempo "rall." f?16 es16
+      d16  cis16  d2
+      \times 2/3  {
+        \tempo "a tempo" c8 bes8
+        a8
+      }
+      | % 16
+      \time 3/4  | % 16
+      bes2
+      \times 2/3  {
+        a8  bes8  c8
+      }
+      \break | % 17
+      d4.  c8  d16 ( [  c16
+      ) ]  bes16  a16 | % 18
+      bes2
+      \times 2/3  {
+        a8   bes8  c8
+      } \time 2/4 \break | % 19
+      d4.  c8 |
+      \times 2/3  {
+        bes8   a8  g8
+      }
+      \times 2/3  {
+        fis8   g8    a8
+      } |
+      \tempo "rit." g2
+      \bar ":|."
+
     }
 
     \addlyrics {
@@ -122,7 +122,7 @@
       зна -- ен ме "при-" -- дру -- жа  --
       ва -- ше. Кач -- вах -- ме и сли
       -- зах -- ме "пла-" -- "нин-" -- ски свет --
-      ли вър -- хо -- ве и, хо -- дей --
+      ли вър -- хо -- ве и хо -- дей --
       ки, Той ви -- на -- ги с~мен бе.
       Там го -- ре ви -- дях __  аз Не --
       го -- ва -- та Свет -- ли -- на, що
@@ -130,15 +130,18 @@
       „Пом -- ни, че тряб -- ва го --
       ре да си, слез -- ни и знай -- на
       вси -- чки по -- ле -- зен бъ --
-      ди.“
+      ди“.
     }
+
+
+
     \addlyrics {
-      Ski -- tah __ se __ po go -- ri
+      Ski -- tah __  se __  po go -- ri
       i pla -- ni -- ni. E -- din Ne --
       zna -- en me pri -- dru -- ža  --
       va -- še. Kač -- vah -- me i sli
       -- zah -- me pla -- nin -- ski svet --
-      li văr -- ho -- ve i, ho -- dej --
+      li văr -- ho -- ve i ho -- dej --
       ki, Toj vi -- na -- gi s~men be.
       Tam go -- re vi -- djah __  az Ne --
       go -- va -- ta Svet -- li -- na, što
@@ -146,7 +149,7 @@
       „Pom -- ni, če trjab -- va go --
       re da si, slez -- ni i znaj -- na
       vsi -- čki po -- le -- zen bă --
-      di.“
+      di“.
     }
 
     \header {
@@ -157,7 +160,7 @@
 
   } % score
 
-
+  \pageBreak
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/133_skitah_se_po_gori_i_planini_lyrics_de.ly"

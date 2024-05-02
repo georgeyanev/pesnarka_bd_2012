@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Lobpreise" }
 \markup \null
 \markup \null
-\markup \fontsize #deCoupletFontSize {
-  \hspace #16
+\markup \abs-fontsize #10 {
+  \hspace #21
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -15,7 +15,7 @@
     \line {   "   " Vergiss nicht Seine Gnade, }
     \line {   "   " vergiss nicht Seine Güte, }
     \line {   "   "vergiss nicht Seine Liebe [Ljubov], }
-    \line {   "   " vergiss nicht Seine Liebe [Obič]!  }
+    \line {   "   " vergiss nicht Seine Liebe [obič]!  }
 
   }
 }
