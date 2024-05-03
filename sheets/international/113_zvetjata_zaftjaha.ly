@@ -66,7 +66,7 @@
       tăj, ka -- to gi pri -- e -- ma -- me, poz -- na -- va -- me, če sa dar na Lju -- bov -- ta. __
     }
     \header {
-      title = \titleFunc "Цветята цъфтяха "" Cvetjata căftjaha"
+      title = \titleFunc "Цветята цъфтяха" "Cvetjata căftjaha"
     }
 
     \midi{}

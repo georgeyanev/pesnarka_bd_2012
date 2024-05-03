@@ -65,7 +65,7 @@
     }
 
     \header {
-      title = \titleFunc "При всичките условия "" Pri vsičkite uslovija"
+      title = \titleFunc "При всичките условия" "Pri vsičkite uslovija"
     }
 
     \midi{}

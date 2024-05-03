@@ -51,7 +51,7 @@
         se pro -- ja -- vi. iz -- ja -- vi.}
 
         \header {
-          title = \titleFunc "Да бих Тe слушал "" Da bih Te slušal"
+          title = \titleFunc "Да бих Тe слушал" "Da bih Te slušal"
         }
 
         \midi{}
@@ -107,7 +107,7 @@
 
 
             \header {
-              title = \titleFunc "Слушам "" Slušam"
+              title = \titleFunc "Слушам" "Slušam"
             }
 
             \midi{}
@@ -193,7 +193,7 @@
                 Ko -- zre -- e.}
 
                 \header {
-                  title = \titleFunc "Писмото "" Pismoto"
+                  title = \titleFunc "Писмото" "Pismoto"
                 }
 
                 \midi{}

@@ -118,7 +118,7 @@
         -- ja -- ta du -- ša.}
 
         \header {
-          title = \titleFunc "Кажи ми Ти Истината II "" Kaži mi Ti Istinata II"
+          title = \titleFunc "Кажи ми Ти Истината II" "Kaži mi Ti Istinata II"
         }
 
         \midi{}

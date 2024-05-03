@@ -75,7 +75,7 @@
         -- no. Slu -- no..}
 
         \header {
-          title = \titleFunc "Сила, живот, здраве " " Sila, život, zdrave"
+          title = \titleFunc "Сила, живот, здраве" "Sila, život, zdrave"
         }
 
         \midi{}

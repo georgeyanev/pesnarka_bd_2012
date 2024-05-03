@@ -72,7 +72,7 @@
         ži -- vot.}
 
         \header {
-          title = \titleFunc "Зора на новия живот "" Zora na novija život"
+          title = \titleFunc "Зора на новия живот" "Zora na novija život"
         }
 
         \midi{}

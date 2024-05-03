@@ -202,7 +202,7 @@
 
 
     \header {
-      title = \titleFunc "Химн на Слънцето "" Himn na Slănceto"
+      title = \titleFunc "Химн на Слънцето" "Himn na Slănceto"
     }
 
     \midi{}

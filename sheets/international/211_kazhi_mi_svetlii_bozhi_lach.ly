@@ -131,7 +131,7 @@
 
 
         \header {
-          title = \titleFunc "Кажи ми, светли Божи лъч II "" Kaži mi, svetli Boži lăč II"
+          title = \titleFunc "Кажи ми, светли Божи лъч II" "Kaži mi, svetli Boži lăč II"
         }
 
         \midi{}

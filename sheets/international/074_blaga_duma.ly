@@ -113,7 +113,7 @@
     }
 
     \header {
-      title = \titleFunc "Блага дума "" Blaga dum"
+      title = \titleFunc "Блага дума" "Blaga dum"
     }
 
     \midi{}

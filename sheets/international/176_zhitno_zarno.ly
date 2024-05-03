@@ -96,7 +96,7 @@
         Kol -- ko "hu-" -- bav e ži -- vo -- tăt, to -- ga -- va si ka -- zah.}
 
         \header {
-          title = \titleFunc "Житно зърно "" Žitno zărno"
+          title = \titleFunc "Житно зърно" "Žitno zărno"
         }
 
         \midi{}

@@ -244,7 +244,7 @@
             ut -- ro, den čet -- văr -- ti.}
 
             \header {
-              title = \titleFunc " Четвърти Божествен ден" "Četvărti Božestven den"
+              title = \titleFunc "Четвърти Божествен ден" "Četvărti Božestven den"
             }
 
             \midi{}

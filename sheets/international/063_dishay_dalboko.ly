@@ -118,7 +118,7 @@
     >>
 
     \header {
-      title = \titleFunc "Дишай дълбоко "" Dišaj dălboko"
+      title = \titleFunc "Дишай дълбоко" "Dišaj dălboko"
     }
 
     \midi{}

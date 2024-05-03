@@ -229,7 +229,7 @@
     \addlyrics {}
 
     \header {
-      title = \titleFunc "Българска идилия "" Bălgarska idilija – Bulgarische Idylle"
+      title = \titleFunc "Българска идилия" "Bălgarska idilija – Bulgarische Idylle"
     }
 
     \midi{}

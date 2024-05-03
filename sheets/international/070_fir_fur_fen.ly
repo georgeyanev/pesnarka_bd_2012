@@ -58,7 +58,7 @@
         sla -- vjaj i ne zab -- ra -- vjaj.}
 
         \header {
-          title = \titleFunc "Фир-фюр-фен – Благославяй "" Fir-fjur-fen – Blagoslavjaj"
+          title = \titleFunc "Фир-фюр-фен – Благославяй" "Fir-fjur-fen – Blagoslavjaj"
         }
 
         \midi{}

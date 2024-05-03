@@ -82,7 +82,7 @@
 
 
     \header {
-      title = \titleFunc "В начало бе Словото "" V načalo be Slovoto"
+      title = \titleFunc "В начало бе Словото" "V načalo be Slovoto"
     }
 
     \midi{}

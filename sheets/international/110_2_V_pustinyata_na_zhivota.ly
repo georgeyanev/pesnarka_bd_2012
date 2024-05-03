@@ -64,7 +64,7 @@
         roj, sve -- ti -- ja go zo -- vat. __}
 
         \header {
-          title = \titleFunc "В пустинята на живота "" V pustinjata na života"
+          title = \titleFunc "В пустинята на живота" "V pustinjata na života"
         }
 
         \midi{}

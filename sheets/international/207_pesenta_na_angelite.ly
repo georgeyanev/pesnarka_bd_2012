@@ -274,7 +274,7 @@
         -- šta, na na -- ši -- ja Ve -- lik Ba -- šta“.}
 
         \header {
-          title = \titleFunc "Песента на ангелите "" Pesenta na angelitee"
+          title = \titleFunc "Песента на ангелите" "Pesenta na angelitee"
         }
 
         \midi{}

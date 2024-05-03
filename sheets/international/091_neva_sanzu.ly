@@ -54,7 +54,7 @@
     }
 
     \header {
-      title = \titleFunc "Нева санзу "" Neva sanzu"
+      title = \titleFunc "Нева санзу" "Neva sanzu"
     }
 
     \midi{}

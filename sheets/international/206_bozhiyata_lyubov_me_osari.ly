@@ -192,7 +192,7 @@
 
 
         \header {
-          title = \titleFunc "Божията Любов ме озари "" Božijata Ljubov me ozari"
+          title = \titleFunc "Божията Любов ме озари" "Božijata Ljubov me ozari"
         }
 
         \midi{}

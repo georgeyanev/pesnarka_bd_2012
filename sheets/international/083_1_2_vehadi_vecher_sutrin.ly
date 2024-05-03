@@ -35,7 +35,7 @@
       Ve -- ha -- di, Ve -- ha -- di, Ve -- ha -- di.
     }
     \header {
-      title = \titleFunc "Вехади "" Vehadi"
+      title = \titleFunc "Вехади" "Vehadi"
     }
 
     \midi{}

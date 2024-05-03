@@ -135,7 +135,7 @@
 
 
     \header {
-      title = \titleFunc "Малката буболечица "" Malkata bubolečica"
+      title = \titleFunc "Малката буболечица" "Malkata bubolečica"
     }
 
     \midi{}

@@ -37,7 +37,7 @@
     }
 
     \header {
-      title = \titleFunc "Изгрява Слънцето "" Izgrjava Slănceto"
+      title = \titleFunc "Изгрява Слънцето" "Izgrjava Slănceto"
     }
 
     \midi{}
@@ -95,7 +95,7 @@
       nom tu me -- to. Zun me -- me -- to.
     }
     \header {
-      title = \titleFunc "Сила жива, изворна "" Sila živa, izvorna"
+      title = \titleFunc "Сила жива, изворна" "Sila živa, izvorna"
     }
 
     \midi{}

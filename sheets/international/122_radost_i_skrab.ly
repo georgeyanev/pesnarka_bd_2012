@@ -243,7 +243,7 @@
     }
 
     \header {
-      title = \titleFunc "Радост и скръб "" Radost i skrăb"
+      title = \titleFunc "Радост и скръб" "Radost i skrăb"
     }
 
     \midi{}

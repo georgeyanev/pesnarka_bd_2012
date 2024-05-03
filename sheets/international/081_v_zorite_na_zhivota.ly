@@ -67,7 +67,7 @@
         bov să -- bu -- di.}
 
         \header {
-          title = \titleFunc "В зорите на живота "" V zorite na života"
+          title = \titleFunc "В зорите на живота" "V zorite na života"
         }
 
         \midi{}

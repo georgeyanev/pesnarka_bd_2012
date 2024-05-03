@@ -69,7 +69,7 @@
     }
 
     \header {
-      title = \titleFunc "Небето се отваря "" Nebeto se otvarja"
+      title = \titleFunc "Небето се отваря" "Nebeto se otvarja"
     }
 
     \midi{}

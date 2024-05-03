@@ -1,6 +1,6 @@
 \version "2.24.3"
 
-\markup \fill-line { \fontsize #deTransTitleFontSize "Die Morgenröte des neuen Lebens" }
+\markup \fill-line { \fontsize #deTitleFontSize "Die Morgenröte des neuen Lebens" }
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {

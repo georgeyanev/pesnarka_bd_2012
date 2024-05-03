@@ -88,7 +88,7 @@
     %    \addlyrics {}
 
     \header {
-      title = \titleFunc "Десет теми "" Deset temi  –  Zehn Themen"
+      title = \titleFunc "Десет теми" "Deset temi – Zehn Themen"
     }
 
     \midi{}

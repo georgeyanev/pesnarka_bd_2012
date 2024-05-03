@@ -58,7 +58,7 @@
         lju -- bov, lju -- bov, lju -- bov.}
 
         \header {
-          title = \titleFunc "За Небесния Цар "" Za Nebesnija Car"
+          title = \titleFunc "За Небесния Цар" "Za Nebesnija Car"
         }
 
         \midi{}

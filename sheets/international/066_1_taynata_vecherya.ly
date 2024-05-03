@@ -56,7 +56,7 @@
 
 
     \header {
-      title = \titleFunc "Тайната вечеря "" Tajnata večerja"
+      title = \titleFunc "Тайната вечеря" "Tajnata večerja"
     }
 
     \midi{}

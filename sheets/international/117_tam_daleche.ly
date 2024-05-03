@@ -67,7 +67,7 @@
     }
 
     \header {
-      title = \titleFunc "Там далече" " Tam daleče"
+      title = \titleFunc "Там далече" "Tam daleče"
     }
 
     \midi{}

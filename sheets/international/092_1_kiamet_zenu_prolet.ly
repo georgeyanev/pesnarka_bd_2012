@@ -46,7 +46,7 @@
 
 
     \header {
-      title = \titleFunc "Киамет Зену "" Kiamet Zenu"
+      title = \titleFunc "Киамет Зену" "Kiamet Zenu"
     }
 
     \midi{}
@@ -94,7 +94,7 @@
 
 
     \header {
-      title = \titleFunc "Пролет "" Prolet"
+      title = \titleFunc "Пролет" "Prolet"
     }
 
     \midi{}

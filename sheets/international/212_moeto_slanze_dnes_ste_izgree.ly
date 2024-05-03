@@ -203,7 +203,7 @@
     }
 
     \header {
-      title = \titleFunc "Моето Слънце днес ще изгрее "" Moeto Slănce dnes šte izgree"
+      title = \titleFunc "Моето Слънце днес ще изгрее" "Moeto Slănce dnes šte izgree"
     }
 
     \midi{}

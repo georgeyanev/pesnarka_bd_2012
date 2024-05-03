@@ -165,7 +165,7 @@
         za te -- be az ži -- ve -- ja.}
 
         \header {
-          title = \titleFunc "Пролетна песен "" Proletna pesen"
+          title = \titleFunc "Пролетна песен" "Proletna pesen"
         }
 
         \midi{}

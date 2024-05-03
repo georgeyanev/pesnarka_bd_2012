@@ -65,7 +65,7 @@
 
 
     \header {
-      title = \titleFunc "Напред, чада, напред "" Napred, čada, napred"
+      title = \titleFunc "Напред, чада, напред" "Napred, čada, napred"
     }
 
     \midi{}

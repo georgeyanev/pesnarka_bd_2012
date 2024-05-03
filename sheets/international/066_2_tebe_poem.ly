@@ -46,7 +46,7 @@
     }
 
     \header {
-      title = \titleFunc "Тебе поем "" Tebe poem"
+      title = \titleFunc "Тебе поем" "Tebe poem"
     }
 
     \midi{}

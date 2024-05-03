@@ -43,7 +43,7 @@
         fen Tao -- bi Au -- men.}
 
         \header {
-          title = \titleFunc "Към „Фир-фюр-фен“ "" Kăm „Fir-fjur-fen“ – Zu Fir-fjur-fen"
+          title = \titleFunc "Към „Фир-фюр-фен“" "Kăm „Fir-fjur-fen“ – Zu Fir-fjur-fen"
         }
 
         \midi{}
@@ -105,7 +105,7 @@
           }
 
           \header {
-            title = \titleFunc "Кажи ми, светли Божи лъч "" Kaži mi, svetli Boži lăč"
+            title = \titleFunc "Кажи ми, светли Божи лъч" "Kaži mi, svetli Boži lăč"
           }
 
           \midi{}

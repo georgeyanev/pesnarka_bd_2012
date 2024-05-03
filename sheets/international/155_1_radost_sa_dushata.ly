@@ -86,7 +86,6 @@
     }
     \header {
       title = \titleFunc "Радост, радост за душата "" Radost, radost za dušata"
-   subTitle = "Eine ewige Wahrheit, die der Gott der Liebe ist"
     }
 
     \midi{}

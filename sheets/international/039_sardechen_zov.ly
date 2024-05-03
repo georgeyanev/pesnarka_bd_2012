@@ -94,7 +94,7 @@
     }
 
     \header {
-      title = \titleFunc "Сърдечен зов " " Sărdečen zov"
+      title = \titleFunc "Сърдечен зов" "Sărdečen zov"
     }
 
     \midi{}

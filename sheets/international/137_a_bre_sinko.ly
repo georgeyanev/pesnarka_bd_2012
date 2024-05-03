@@ -83,7 +83,7 @@
         ne  iz -- bi -- ra. __}
 
         \header {
-          title = \titleFunc "А бре, синко "" A bre, sinko"
+          title = \titleFunc "А бре, синко" "A bre, sinko"
         }
 
         \midi{}

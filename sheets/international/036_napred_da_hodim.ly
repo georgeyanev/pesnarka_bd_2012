@@ -54,7 +54,7 @@
         sve -- ta da ob -- no -- vim! Kat vim!}
 
         \header {
-          title = \titleFunc "Напред да ходим "" Napred da hodim"
+          title = \titleFunc "Напред да ходим " "Napred da hodim"
         }
 
         \midi{}

@@ -67,7 +67,7 @@
     }
 
     \header {
-      title = \titleFunc "Ти ще сполучиш в живота "" Ti šte spolučiš v života"
+      title = \titleFunc "Ти ще сполучиш в живота" "Ti šte spolučiš v života"
     }
 
     \midi{}

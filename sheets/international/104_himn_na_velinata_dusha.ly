@@ -150,7 +150,7 @@
 
 
     \header {
-      title = \titleFunc "Химн на Великата душа "" Himn na Velikata duša"
+      title = \titleFunc "Химн на Великата душа" "Himn na Velikata duša"
     }
 
     \midi{}

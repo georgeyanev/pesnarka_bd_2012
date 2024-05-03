@@ -42,7 +42,7 @@ titleFunc = #(define-scheme-function
     (cyrTitle latTitle)
     (string? string?)
     #{
-      \markup \column \normal-text \fontsize #2.5 {
+      \markup \column \normal-text \abs-fontsize #16 {
         \center-align
         \line { #cyrTitle }
         %\vspace #-0.2
@@ -168,7 +168,6 @@ titleFunc = #(define-scheme-function
 #(define bgCoupletBaselineSkip 3.2)
 
 #(define deTitleFontSize 5)
-#(define deTransTitleFontSize 5)
 #(define deCoupletFontSize +2.3)
 #(define deCoupletBaselineSkip 3.2)
 

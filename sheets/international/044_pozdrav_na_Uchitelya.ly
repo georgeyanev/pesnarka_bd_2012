@@ -55,7 +55,7 @@
 
 
     \header {
-      title = \titleFunc "Поздрав на Учителя "" Pozdrav na Učitelja"
+      title = \titleFunc "Поздрав на Учителя" "Pozdrav na Učitelja"
     }
 
     \midi{}

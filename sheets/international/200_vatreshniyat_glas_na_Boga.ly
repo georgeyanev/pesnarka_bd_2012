@@ -93,7 +93,7 @@
 
 
         \header {
-          title = \titleFunc "Вътрешният глас на Бога "" Vătrešnijat glas na Boga  – Die innere Stimme Gottes"
+          title = \titleFunc "Вътрешният глас на Бога" "Vătrešnijat glas na Boga – Die innere Stimme Gottes"
 
         }
 

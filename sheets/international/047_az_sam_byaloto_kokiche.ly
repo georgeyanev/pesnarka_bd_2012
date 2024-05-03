@@ -76,7 +76,7 @@
         Vsič -- ko ži -- vo da se ču -- di,
         če săm ran -- no cve -- te.}
         \header {
-          title = \titleFunc "Аз съм бялото кокиче "" Az săm bjaloto kokiče"
+          title = \titleFunc "Аз съм бялото кокиче" "Az săm bjaloto kokiče"
         }
 
         \midi{}

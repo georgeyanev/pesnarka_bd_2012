@@ -106,7 +106,7 @@
         ka, no ot Bo -- ga se ro -- di -- ha.}
 
         \header {
-          title = \titleFunc "Имаше человек "" Imaše čelovek"
+          title = \titleFunc "Имаше человек" "Imaše čelovek"
         }
 
         \midi{}

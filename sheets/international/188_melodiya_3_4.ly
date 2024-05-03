@@ -51,7 +51,7 @@
         po -- li -- tat na -- ši -- te du -- ši.}
 
         \header {
-          title = \titleFunc "Мелодия 3 – Когато се денят пробужда "" Melodija 3 – Kogato se denjat probužda"
+          title = \titleFunc "Мелодия 3 – Когато се денят пробужда""Melodija 3 – Kogato se denjat probužda"
         }
 
         \midi{}

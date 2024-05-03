@@ -201,7 +201,7 @@
     }
 
     \header {
-      title = \titleFunc "Що е същността "" Što e săštnostta"
+      title = \titleFunc "Що е същността" "Što e săštnostta"
     }
 
     \midi{}

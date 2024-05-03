@@ -49,7 +49,7 @@
     }
 
     \header {
-      title = \titleFunc "Махар Бену Аба "" Mahar Benu Aba"
+      title = \titleFunc "Махар Бену Аба" "Mahar Benu Aba"
     }
 
     \midi{}

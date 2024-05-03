@@ -41,7 +41,7 @@
     }
 
     \header {
-      title = \titleFunc " Ти си проявената Любов "" Ti si projavenata Ljubov"
+      title = \titleFunc " Ти си проявената Любов" "Ti si projavenata Ljubov"
     }
 
     \midi{}

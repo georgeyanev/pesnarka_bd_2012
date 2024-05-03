@@ -78,7 +78,7 @@
         i v~du -- ša ti ra -- dost šte "vne-" -- sat.}
 
         \header {
-          title = \titleFunc "Скръбта си ти кажи "" Skrăbta si ti kaži"
+          title = \titleFunc "Скръбта си ти кажи" "Skrăbta si ti kaži"
         }
 
         \midi{}

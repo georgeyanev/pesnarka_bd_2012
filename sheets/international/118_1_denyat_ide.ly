@@ -43,7 +43,7 @@
 
 
     \header {
-      title = \titleFunc "Денят иде" " Denjat ide"
+      title = \titleFunc "Денят иде" "Denjat ide"
     }
 
     \midi{}

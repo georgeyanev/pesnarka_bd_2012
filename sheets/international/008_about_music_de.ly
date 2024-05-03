@@ -25,7 +25,7 @@
       ""
     }
 
-   left-margin = 1.5\cm
+    left-margin = 1.5\cm
     right-margin = 1.5\cm
     top-margin = 1.2\cm
     bottom-margin = 1.0\cm
@@ -152,6 +152,17 @@
     \justify {
       \hspace #1.5
 
+      Worin unterscheidet sich die okkulte Musik von der gewöhnlichen Musik? In ihrer absoluten Milde, Klarheit, Bildhaftigkeit und in den Naturbildern.
+
+
+    }
+  }
+
+  \markup \abs-fontsize #10 {
+    \vspace #1  \override #'(baseline-skip . 3.2)
+    \justify {
+      \hspace #1.5
+
       In der okkulten Musik möchten wir nicht wie die Menschen, sondern wie die Engel singen. Durch die Musik können wir die Engel anziehen – sie werden sich für uns interessieren. Ihr werdet ihnen sagen: Wir studieren eure Musik und möchten so singen, wie ihr singt. Sie werden sagen: „Sehr gut, wir werden euch unsere Gegenwart und unsere Unterstützung schenken.“
 
 
@@ -251,16 +262,7 @@
     }
   }
 
-  \markup \abs-fontsize #10 {
-    \vspace #1  \override #'(baseline-skip . 3.2)
-    \justify {
-      \hspace #1.5
 
-      Worin unterscheidet sich die okkulte Musik von der gewöhnlichen Musik? In ihrer absoluten Milde, Klarheit, Bildhaftigkeit und in den Naturbildern.
-
-
-    }
-  }
 
   \markup \abs-fontsize #10 {
     \vspace #1  \override #'(baseline-skip . 3.2)
@@ -311,7 +313,7 @@
     \justify {
       \hspace #1.5
 
-      Alle okkulten Schulen aus der Vergangenheit sowie diese von heute bedienen sich der Methode der Musik zur Erziehung und Selbsterziehung. Wenn der Mensch eine der musikalischen Methoden zur Transformierung des Bewusstseins anwendet, wird er sich in einer halben oder einer ganzen Stunde in einer anderen Tonleiter des Le-
+      Alle okkulten Schulen aus der Vergangenheit sowie diese von heute bedienen sich der Methode der Musik zur Erziehung und Selbsterziehung. Wenn der Mensch eine der musikalischen Methoden zur Transformierung des Bewusstseins anwendet, wird er sich in einer halben oder einer ganzen Stunde in einer anderen Tonleiter des Lebens, fern von seinen Schwierigkeiten befinden. Heutzutage, unter den Bedingungen, unter denen wir leben, müssen wir uns andauernd einstimmen, und die Musik ist eine der göttlichen Methoden zur Einstimmung. Wenn jemand die Übung „Gott ist Liebe“ ausführt, so wie sie gesungen werden soll, wird er sich verwandeln;
 
     }
   }
@@ -321,7 +323,7 @@
     \vspace #1  \override #'(baseline-skip . 3.2)
     \justify {
 
-      bens, fern von seinen Schwierigkeiten befinden. Heutzutage, unter den Bedingungen, unter denen wir leben, müssen wir uns andauernd einstimmen, und die Musik ist eine der göttlichen Methoden zur Einstimmung. Wenn jemand die Übung „Gott ist Liebe“ ausführt, so wie sie gesungen werden soll, wird er sich verwandeln; welche Leiden er auch immer hat, sie werden verschwinden; er wird fröhlich und munter sein und sich verjüngen.
+      welche Leiden er auch immer hat, sie werden verschwinden; er wird fröhlich und munter sein und sich verjüngen.
 
 
 

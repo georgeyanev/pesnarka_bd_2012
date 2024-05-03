@@ -134,7 +134,7 @@
       tva __ Tvo -- e -- go. __
     }
     \header {
-      title = \titleFunc "Ангел вопияше "" Angel vopijaše"
+      title = \titleFunc "Ангел вопияше" "Angel vopijaše"
     }
 
     \midi{}

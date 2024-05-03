@@ -74,7 +74,7 @@
     }
 
     \header {
-      title = \titleFunc "Сила, здраве е богатство "" Sila, zdrave e bogatstvoo"
+      title = \titleFunc "Сила, здраве е богатство" "Sila, zdrave e bogatstvoo"
     }
 
     \midi{}

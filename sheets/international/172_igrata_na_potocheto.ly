@@ -67,7 +67,7 @@
     %\addlyrics {}
 
     \header {
-      title = \titleFunc "Играта на поточето "" Igrata na potočeto  –  Das Spiel der Quelle"
+      title = \titleFunc "Играта на поточето" "Igrata na potočeto  –  Das Spiel des Quellleins"
     }
 
     \midi{}
