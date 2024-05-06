@@ -34,16 +34,16 @@
       \null
     }
   
-    tocItemMarkup = \markup \abs-fontsize #10 {\fill-line   {
+    tocItemMarkup = \markup   \abs-fontsize #10 { \vspace #1 \fill-line   { 
        
-  \override #`(baseline-skip . 3.2) \fromproperty #'toc:text \tocItemWithDotsMarkup \fromproperty #'toc:page }
+\fromproperty #'toc:text \tocItemWithDotsMarkup \fromproperty #'toc:page }
      
     } 
 
     tocActMarkup = \markup \large \column {
-      \vspace #0.9
+      \vspace #1.3
       \fill-line { \null \abs-fontsize #10 { \bold \fromproperty #'toc:text \null } }
-      \vspace #0.9
+      \vspace #1.3
     }
   }
 

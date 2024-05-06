@@ -22,11 +22,15 @@
 \line { " "Hauche uns durch Deine Gegenwart Deine reinen Gedanken ein }
 \line { " "und leite uns an, damit wir Dir mit Freude dienen.}
  \vspace #0.5
-\line { " "Segne unser Leben, das wir Dir weihen zum Wohle unserer Brüder und Nächsten.}
+\line { " "Segne unser Leben, das wir Dir weihen }
+
+ \line { " "zum Wohle unserer Brüder und Nächsten.}
  \vspace #0.5
 \line { " "Hilf uns und steh uns bei, }
 \line { " "auf dass wir wachsen an jeglicher Erkenntnis und Weisheit, }
-\line { " "auf dass wir durch Dein Wort lernen und auf ewig in Deiner Wahrheit sind.}
+\line { " "auf dass wir durch Dein Wort lernen }
+
+\line { " " und auf ewig in Deiner Wahrheit sind.}
  \vspace #0.5
 \line { " "Führe uns in allem, was wir denken und tun um Deines Namens willen, }
 \line { " "auf dass es Deinem Reich auf Erden zum Erfolg gereiche.}
@@ -39,7 +43,10 @@
  \vspace #0.5
 
 \line { " "Denn Dein ist das Reich und die Kraft, und die Herrlichkeit in Ewigkeit.}
-\line { " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " "Amen}
+ \vspace #0.5
+\line { " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " "
+
+" " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " "Amen}
 
 
   }

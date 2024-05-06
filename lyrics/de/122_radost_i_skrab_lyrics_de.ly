@@ -49,7 +49,7 @@
 
   }
 
-\hspace #-5
+\hspace #-6
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
     \line { " " Gram und Freude es ist gleich,  }

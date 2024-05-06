@@ -5,7 +5,7 @@
 
 \bookpart {
   
-   \tocAct \markup"BRÜDERLICHE LIEDER"
+   \tocAct \markup"NACH 1944 VERÖFFENTLICHTE LIEDER"
     \paper {
     print-all-headers = ##f
     print-page-number = ##f

@@ -6,7 +6,7 @@
 \bookpart {
 
   \label #'ref041
-  \tocItem \markup " За Небесния Цар – Za Nebesnija Car"
+  \tocItem \markup "За Небесния Цар – Za Nebesnija Car"
 
   \include "include/bookpart-paper.ily"
   \score {
