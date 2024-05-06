@@ -43,13 +43,13 @@
 
         \new Staff \with {
           \override VerticalAxisGroup.default-staff-staff-spacing =
-          #'((basic-distance . 6.5)
-             (padding . -10))
+          #'((basic-distance . 5.5)
+             (padding . 3))
           \remove "Time_signature_engraver"
           alignAboveContext = #"main"
           fontSize = #-1
-          \override StaffSymbol.staff-space = #(magstep -1)
-          \override StaffSymbol.thickness = #(magstep 2)
+          \override StaffSymbol.staff-space = #(magstep -2)
+          \override StaffSymbol.thickness = #(magstep -2)
           firstClef = ##f
         }
         {  \time 5/4  \autoBeamOff g'!4^\markup { \large \italic "ossia по Л. Т." } f'8 e'8 b'4 a'8_\markup { \large \bold "rit." } f'8 ^\> a'8  b'8^\!  \break |  }
@@ -106,7 +106,7 @@
         \new Staff \with {
           \override VerticalAxisGroup.default-staff-staff-spacing =
           #'((basic-distance . 5.5)
-             (padding . -10))
+             (padding . -3))
           \remove "Time_signature_engraver"
           alignAboveContext = #"main"
           fontSize = #-1
@@ -114,7 +114,7 @@
           \override StaffSymbol.thickness = #(magstep -2)
           firstClef = ##f
         }
-        {  b'4^\markup { \huge \italic "ossia по Л. Т."}  a'4  c''!4  b'8 ( [  a'8 ])  }
+        {  b'4^\markup { \large \italic "ossia по Л. Т."}  a'4  c''!4  b'8 ( [  a'8 ])  }
       >>
 
 
@@ -199,7 +199,7 @@
 
       } % score
 
-      \markup \vspace #3
+      \markup \vspace #1
 
       % include foreign translation(s) of the song
       \include "../../lyrics/de/206_bozhiyata_lyubob_me_ozari_lyrics_de.ly"

@@ -56,7 +56,7 @@
 
   } % score
 
-  \markup \empty-one
+  \markup \empty-two
 
   \markup \italic \dc-one-nobold "attacca „В мрак, тъмнота“/„V mrak, tămnota“"
 

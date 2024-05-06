@@ -5,14 +5,15 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
+  \hspace #5
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
   \column { 
-    \line { " "Dort, in der Ferne, kenne ich einen wunderbaren Ort: Sonne, Blumen und Früchte,  }
+    \line { " "Dort, in der Ferne, kenne ich einen wunderbaren Ort: }
+   \line { " " Sonne, Blumen und Früchte,  eine Quelle sprudelt – es ist ein Paradiesgarten.}
 
-    \line { " "eine Quelle sprudelt  – es ist ein Paradiesgarten. Du, sage mir, was du weißt, über}
+    \line { " "  Du, sage mir, was du weißt, über die Heimat, paradiesische Erde,}
 
-    \line { " " die Heimat, paradiesische Erde, wo der taubedeckte Kirschbaum blüht und reift.  }
+    \line { " "  wo der taubedeckte Kirschbaum blüht und reift.  }
 
     \line { " "Zu diesem schönen Ort zeige mir einen Weg. }
 

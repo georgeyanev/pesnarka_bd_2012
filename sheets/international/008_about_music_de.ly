@@ -307,29 +307,6 @@
 
     }
   }
-
-  \markup \abs-fontsize #10 {
-    \vspace #1  \override #'(baseline-skip . 3.2)
-    \justify {
-      \hspace #1.5
-
-      Alle okkulten Schulen aus der Vergangenheit sowie diese von heute bedienen sich der Methode der Musik zur Erziehung und Selbsterziehung. Wenn der Mensch eine der musikalischen Methoden zur Transformierung des Bewusstseins anwendet, wird er sich in einer halben oder einer ganzen Stunde in einer anderen Tonleiter des Lebens, fern von seinen Schwierigkeiten befinden. Heutzutage, unter den Bedingungen, unter denen wir leben, müssen wir uns andauernd einstimmen, und die Musik ist eine der göttlichen Methoden zur Einstimmung. Wenn jemand die Übung „Gott ist Liebe“ ausführt, so wie sie gesungen werden soll, wird er sich verwandeln;
-
-    }
-  }
-
-
-  \markup \abs-fontsize #10 {
-    \vspace #1  \override #'(baseline-skip . 3.2)
-    \justify {
-
-      welche Leiden er auch immer hat, sie werden verschwinden; er wird fröhlich und munter sein und sich verjüngen.
-
-
-
-    }
-  }
-
   \markup \abs-fontsize #10 {
     \vspace #1  \override #'(baseline-skip . 3.2)
     \justify {
@@ -339,6 +316,30 @@
 
     }
   }
+
+  \markup \abs-fontsize #10 {
+    \vspace #1  \override #'(baseline-skip . 3.2)
+    \justify {
+      \hspace #1.5
+
+      Alle okkulten Schulen aus der Vergangenheit sowie diese von heute bedienen sich der Methode der Musik zur Erziehung und Selbsterziehung. Wenn der Mensch eine der musikalischen Methoden zur Transformierung des Bewusstseins anwendet, wird er sich in einer halben oder einer ganzen Stunde in einer anderen Tonleiter des Lebens, fern von seinen Schwierigkeiten befinden. Heutzutage, unter den Bedingungen, unter denen wir leben, müssen wir uns andauernd einstimmen, und die
+
+    }
+  }
+
+
+  \markup \abs-fontsize #10 {
+    \vspace #1  \override #'(baseline-skip . 3.2)
+    \justify {
+
+      Musik ist eine der göttlichen Methoden zur Einstimmung. Wenn jemand die Übung „Gott ist Liebe“ ausführt, so wie sie gesungen werden soll, wird er sich verwandeln;welche Leiden er auch immer hat, sie werden verschwinden; er wird fröhlich und munter sein und sich verjüngen.
+
+
+
+    }
+  }
+
+
 
   \markup \abs-fontsize #10 {
     \vspace #1  \override #'(baseline-skip . 3.2)

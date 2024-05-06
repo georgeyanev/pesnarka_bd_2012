@@ -16,7 +16,7 @@
  \line { "   "Aber ein Sonnenstrahl kam, das Licht erreichte mich}
 
  \line { "   "und weckte mich mit seinem Ruf. }
- \line { " " }
+\vspace #0.5
 
  \line { "   "Vom Weizenkorn bin ich zum kleinen Vöglein geworden,}
 
@@ -27,7 +27,7 @@
  \line { "   "auf einem Rebstock niedergelassen }
 
  \line { "   "und zum ersten Mal von den süßen Weintrauben gekostet.}
- \line { " " }
+\vspace #0.5
 
  \line { "   "Wie schön ist das Leben, sagte ich mir dann. }
 

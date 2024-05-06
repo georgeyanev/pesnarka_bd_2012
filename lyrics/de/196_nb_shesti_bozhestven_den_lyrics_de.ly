@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-  \hspace #6
+  \hspace #10
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -31,11 +31,11 @@
 
 \line { " " und den Baum mit seinen Früchten zur Nahrung dem Menchen.“ }
 
-\line { " "Und Gott sprach: „Ich gebe allen Tieren auf Erden und allen }
+\line { " "Und Gott sprach: „Ich gebe allen Tieren auf Erden und allen Vögeln}
 
-\line { " "Vögeln unter dem Himmel und alles, was auf der Erde kriecht, }
+\line { " " unter dem Himmel und alles, was auf der Erde kriecht, und Leben hat,}
 
-\line { " " und Leben hat, auf dass der Mensch ihnen nicht nach dem Leben trachte.“ }
+\line { " "  auf dass der Mensch ihnen nicht nach dem Leben trachte.“ }
 
 \line { " " Und Gott sah, dass alles, was Er gemacht hatte, gut war.  }
 

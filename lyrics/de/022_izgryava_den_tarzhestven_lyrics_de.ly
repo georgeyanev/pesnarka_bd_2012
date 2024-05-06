@@ -6,7 +6,7 @@
 
 
 \markup \abs-fontsize #10 {
-  \hspace #17
+  \hspace #25
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
 

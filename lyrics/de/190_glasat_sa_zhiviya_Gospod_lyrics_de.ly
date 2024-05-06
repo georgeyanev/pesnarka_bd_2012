@@ -21,9 +21,7 @@
 
  \line { " "Hört, der Herr spricht jetzt zu euch:}
 
- \line { " "Meine Hand hat nicht aufgehört,}
-
- \line { " " zu geben.}
+ \line { " "Meine Hand hat nicht aufgehört, zu geben.}
 
  \line { " "Ich bin voll mit Überfluss}
 
