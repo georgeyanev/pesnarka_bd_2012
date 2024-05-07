@@ -5,7 +5,7 @@
 
 \bookpart {
   
-   \tocAct \markup"LIEDER DES MEISTERS"
+   \tocAct \markup"Lieder von Petar Danov"
     \paper {
     print-all-headers = ##f
     print-page-number = ##f
@@ -32,9 +32,9 @@
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
   }
 
-  \markup { {  \vspace #16.2 } }
+  \markup { {  \vspace #17.2 } }
 
- \markup \abs-fontsize #15 { \fill-line \bold {"LIEDER DES MEISTERS"} }
+ \markup \abs-fontsize #17 { \fill-line \bold {"Lieder von Petar Danov"} }
 
   % include foreign translation(s) of the song
   %

@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref008
-  \tocItem \markup "Über die Musik "
+  \tocItem \markup "Gedanken über die Musik "
   \paper {
     print-all-headers = ##f
     print-page-number = ##t
@@ -33,7 +33,7 @@
 
   }
 
-  \markup \abs-fontsize #12 { \fill-line \bold {"GEDANKEN ÜBER DIE MUSIK"} }
+  \markup \abs-fontsize #14 { \fill-line \bold {"Gedanken über die Musik"} }
 
   \markup  \abs-fontsize #10  {
     \vspace #1.5 \override #'(baseline-skip . 3.2)

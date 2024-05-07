@@ -5,7 +5,7 @@
 
 \bookpart {
   
-   \tocAct \markup"NACH 1944 VERÖFFENTLICHTE LIEDER"
+   \tocAct \markup"Nach 1944 veröffentlichte Lieder"
     \paper {
     print-all-headers = ##f
     print-page-number = ##f
@@ -32,13 +32,9 @@
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
   }
 
-  \markup { {  \vspace #16.2 } }
+  \markup { {  \vspace #17.2 } }
 
- \markup \abs-fontsize #15 { \fill-line \bold {"NACH 1944"} }
-
-  \markup { {  \vspace #0.2 } }
-
-\markup \abs-fontsize #15 { \fill-line \bold {"VERÖFFENTLICHTE LIEDER"} }
+\markup \abs-fontsize #17 { \fill-line \bold {"Nach 1944 veröffentlichte Lieder"} }
 
 
 

@@ -40,47 +40,47 @@
 
 
 
-  \markup \fontsize  #+4.6  {\hspace #43 \bold {"Petar Danov"} }
+  \markup \fontsize  #+4.6  {\hspace #35 \bold {"Petar Danov"} }
 
   \markup {  \vspace #9.5 }
   \markup {
-    \hspace #43
+    \hspace #35
     \column {
       \override #'(thickness . 1.5)
-      \override #'(span-factor . 2/5)
+      \override #'(span-factor . 2/3)
       \draw-hline
 
     }
   }
 
-  \markup \fontsize  #+2  { {  \vspace #0.2 } }
+  \markup \fontsize  #+2  { {  \vspace #0.5 } }
 
 
-  \markup \fontsize  #+8.3 { \hspace #43 \bold {"LIEDERBUCH"} }
+  \markup \fontsize  #+9 { \hspace #35 \bold {"Liederbuch"} }
 
   \markup \fontsize  #+2  { {  \vspace #2.8 } }
 
   \markup {
-    \hspace #43
+    \hspace #35
     \column {
       \vspace #5.5
       \override #'(thickness . 1.5)
-      \override #'(span-factor . 2/5)
+      \override #'(span-factor . 2/3)
       \draw-hline
 
     }
   }
 
   \markup \fontsize  #+2  { {  \vspace #.5 } }
-  \markup \fontsize  #+2.8 {\hspace #43 {"Herausgegeben von"} }
+  \markup \fontsize  #+2.5 {\hspace #35 {"Herausgegeben von"} }
   \markup \fontsize  #+2  { {  \vspace #0.1 } }
-  \markup \fontsize  #+1.7 { \hspace #43 {"Maria Kireva" \concat { \raise #-1.1 \fontsize #6 "·" } "Reihard Ridder" } }
+  \markup \fontsize  #+1.5 { \hspace #35 {"Maria Kireva" \concat { \raise #-1.1 \fontsize #6 "·" } "Reihard Ridder" } }
 
 
 
   \markup \fontsize  #+2  { {  \vspace #16 } }
 
-  \markup \fontsize  #+3.5 {\hspace #43 {"Verlag „Bjalo Bratstvo“ "} }
+  \markup \fontsize  #+3.5 {\hspace #35 {"Verlag „Bjalo Bratstvo“ "} }
   \markup \fontsize  #+2.5  { {  \vspace #0.5 } }
   \markup {
     \hspace #-1
@@ -94,10 +94,10 @@
 
 
   \markup {
-    \hspace #43
+    \hspace #35
     \column {
       \override #'(thickness . 1.5)
-      \override #'(span-factor . 2/5)
+      \override #'(span-factor . 2/3)
       \draw-hline
 
     }

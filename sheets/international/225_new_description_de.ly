@@ -8,7 +8,7 @@
 
   \label #'ref220
   \tocItem \markup "Anmerkungen"
-  \markup \abs-fontsize #12 { \fill-line \bold {"ANMERKUNGEN"} }
+  \markup \abs-fontsize #14 { \fill-line \bold {"Anmerkungen"} }
 
   \label #'ref_desc_1
   \markup \abs-fontsize #10
@@ -713,7 +713,7 @@
      
       \line {
         \justify {
-          Große, \italic" Benu" der, der segnet und \italic"Aba" – der Vater aller Dinge. Im Vortrag „ Mahar Benu Aba“ aus dem Zyklus Jugenokkultklasse, 12 Dezember 1941, 12. Vortrag gibt Danov folgende Erläuterung des Liedes: \italic"Mahar" ist eine natürliche, nach unten gerichtete Bewegung. \italic"Benu" ist der Aufstieg nach oben. \italic"Aba" bedeutet, den Ort bestiegen zu haben, den du erstrebst. Dort ist es eben; es gibt genügend Raum und du kannst dich bewegen. Das bedeutet, dass es drei Konzepte gibt: den Abstieg, den Aufstieg und eine natürliche Bewegung, bei der die Hindernisse beseitigt werden. Die Hindernisse ergeben sich aus dem Auf- und Abstieg. Bei \italic"Aba" wird der Gang zu etwas Natürlichem. Dies bedeutet, dass du dich an die Arbeit machst.  \italic"Mahar" ist der schönste Ort, zu dem du hinabsteigen kannst;   \italic"Benu" ist der schönste Ort, zu dem du aufsteigen kannst;   \italic"Aba" ist der schönste ebene Ort, wo du arbeiten und leben kannst. (Kommentar vom 12. Dezember 1941, Allgemeine Okkultklasse, XXI. Jahrgang, 12. Vortrag.)
+          Große, \italic" Benu" der, der segnet und \italic"Aba" – der Vater aller Dinge. Im Vortrag „Mahar Benu Aba“ aus dem Zyklus Jugenokkultklasse, 12 Dezember 1941, 12. Vortrag gibt Danov folgende Erläuterung des Liedes: \italic"Mahar" ist eine natürliche, nach unten gerichtete Bewegung. \italic"Benu" ist der Aufstieg nach oben. \italic"Aba" bedeutet, den Ort bestiegen zu haben, den du erstrebst. Dort ist es eben; es gibt genügend Raum und du kannst dich bewegen. Das bedeutet, dass es drei Konzepte gibt: den Abstieg, den Aufstieg und eine natürliche Bewegung, bei der die Hindernisse beseitigt werden. Die Hindernisse ergeben sich aus dem Auf- und Abstieg. Bei \italic"Aba" wird der Gang zu etwas Natürlichem. Dies bedeutet, dass du dich an die Arbeit machst.  \italic"Mahar" ist der schönste Ort, zu dem du hinabsteigen kannst;   \italic"Benu" ist der schönste Ort, zu dem du aufsteigen kannst;   \italic"Aba" ist der schönste ebene Ort, wo du arbeiten und leben kannst. (Kommentar vom 12. Dezember 1941, Allgemeine Okkultklasse, XXI. Jahrgang, 12. Vortrag.)
         }
       }
       \vspace #0.5

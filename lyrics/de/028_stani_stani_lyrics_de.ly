@@ -4,18 +4,20 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
+    \hspace #5
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
     \line {   "   " Steh auf, steh auf }
     \line {   "   " und der Herr wird dich beleben; }
     \line {   "   " steh auf, steh auf}
-    \line {   "   " und der Herr wird dich auferstehen lassen; }
+    \line {   "   " und der Herr wird dich }
+    \line {   "   " auferstehen lassen; }
     \line {   "   " steh auf, steh auf  }
     \line {   "   "und beginne mit Liebe;}
     \line {   "   "stehe auf, stehe auf }
     \line {   "   "und kleide dich in Wahrheit.}
   }
-  \hspace #1
+  \hspace #5
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
     \column { 
     \line {  "   " Kleide dich in Wahrheit}

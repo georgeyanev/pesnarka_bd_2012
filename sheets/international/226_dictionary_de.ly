@@ -9,7 +9,7 @@
   \label #'ref221
   \tocItem \markup "Wörterbuch der Musikbegriffe"
 
-  \markup \abs-fontsize #12 { \fill-line \bold {"WÖRTERBUCH DER MUSIKBEGRIFFE"} }
+  \markup \abs-fontsize #14 { \fill-line \bold {"Wörterbuch der Musikbegriffe"} }
 
   \markuplist \abs-fontsize #10 {
     \override #'(padding . 2) % horizontal distance

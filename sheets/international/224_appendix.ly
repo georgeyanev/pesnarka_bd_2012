@@ -5,7 +5,7 @@
 
 \bookpart {
   
-   \tocAct \markup"ANHANG"
+   \tocAct \markup"Anhang"
     \paper {
     print-all-headers = ##f
     print-page-number = ##f
@@ -34,7 +34,7 @@
 
   \markup { {  \vspace #16.2 } }
 
- \markup \abs-fontsize #15 { \fill-line \bold {"ANHANG"} }
+ \markup \abs-fontsize #17 { \fill-line \bold {"Anhang"} }
 
   % include foreign translation(s) of the song
   %

@@ -197,7 +197,7 @@
     }
 
     \header {
-      title = \titleFunc "Ме-хейн" "Me-hejn"
+      title = \titleFunc "Ме-хейн II" "Me-hejn II"
     }
 
     \midi{}
