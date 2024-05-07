@@ -14,8 +14,8 @@
     \line {   "   " vergiss nicht all Seine Wohltaten! }
     \line {   "   " Vergiss nicht Seine Gnade, }
     \line {   "   " vergiss nicht Seine Güte, }
-    \line {   "   "vergiss nicht Seine Liebe [Ljubov], }
-    \line {   "   " vergiss nicht Seine Liebe [obič]!  }
+    \line {   "   "vergiss nicht Seine Liebe [obič], }
+    \line {   "   " vergiss nicht Seine Liebe [Ljubov]!  }
 
   }
 }

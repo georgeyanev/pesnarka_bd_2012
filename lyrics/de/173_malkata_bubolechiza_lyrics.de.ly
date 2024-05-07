@@ -22,7 +22,7 @@
 
   \line { "   " was meine Seele liebt }
    \line { "   "und wonach sie trachtet.}
-  \line { "  " }
+    \vspace #0.5
 
   \line { 2. So flüstert das Käferchen,}
 
@@ -37,7 +37,7 @@
   \line { "   " und strebt immer vorwärts}
 
   \line { "   " und steigt hinauf bis zum Gipfel.}
-  \line { "  " }
+    \vspace #0.5
   \line { 3. So vergehen unzählige Jahrhunderte}
 
   \line { "   " und die Zeit verändert sich.}

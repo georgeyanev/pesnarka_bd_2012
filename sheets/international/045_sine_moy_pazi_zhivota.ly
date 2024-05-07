@@ -59,7 +59,7 @@
     }
 
     \addlyrics {
-      Si -- ne moj, pa -- zi ži -- vo -- ta, "skri-" -- ti -- ja u
+      Si -- ne moj, pa -- zi ži -- vo -- ta, skri -- ti -- ja u
       te -- be žar; toj bez -- ce -- nen e po smi -- săl i ve --
       li -- ko -- le -- pen dar. Duh bez -- smăr -- ten, Duh ne -- tle -- nen,
       tuj, ko -- e -- to več -- no bdi i ra -- bo -- ti bez u --

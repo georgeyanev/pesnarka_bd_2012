@@ -226,7 +226,7 @@
   } % markup
 
   % include foreign translation(s) of the song
-   \markup \vspace #3
+  \markup \vspace #3
   \include "../../lyrics/de/058_na_beliya_tsvyat_lyrics_de.ly"
 
 } % bookpart

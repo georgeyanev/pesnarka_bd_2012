@@ -16,7 +16,7 @@
     \line { "   " \italic { Refrain:}  }
 
   \line {   "   " Eine unschätzbare Gabe ist die Liebe [Ljubovta], }
-    \line {  "   "ein schönes Gefühl die Liebe [običta]*, }
+    \line {  "   "ein schönes Gefühl die Liebe [običta], }
     \line {   "   " und ein gutes Werk die Barmherzigkeit, }
     \line {   "   " eine üppige Quelle die Weisheit. }
      \vspace #0.5

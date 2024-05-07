@@ -165,7 +165,7 @@
 
           \line {   "   " izvor e na radost, sila i život.}
           \vspace #0.5
-          \line \italic {   "      " Pripev:}
+          \line \italic {   "      " Refrain:}
           \line {   "      " Eto go, gree denjat ...}
            
         }

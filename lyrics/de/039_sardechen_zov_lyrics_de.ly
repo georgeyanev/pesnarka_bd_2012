@@ -13,7 +13,7 @@
 
     \line { "   " mit reinen, bebenden Seelen.}
 
-    \line { "   "Im diesem Lied schütten wir unsere Herzen aus }
+    \line { "   "In diesem Lied schütten wir unsere Herzen aus }
 
     \line { "   "und flehen Dich an: Hochheiliger, verzeih!}
    \vspace #0.5

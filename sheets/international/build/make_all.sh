@@ -53,6 +53,7 @@ cat \
     ../064_angel_vopiyashe.ly \
     ../067_pesen_na_glasnite_bukvi.ly \
     ../068_shto_e_sashtnostta.ly \
+    ../005_blank_page.ly \
     ../069_pesni_ot_Uchitelya.ly \
     ../070_fir_fur_fen.ly \
     ../071_zgrjava_slunzeto_sila_zhiva_izvorna_techusta.ly \

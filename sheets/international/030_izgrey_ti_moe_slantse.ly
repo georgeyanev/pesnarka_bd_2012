@@ -118,7 +118,7 @@
       \line {   "   "O, daj mi toz život i mir!}
       \vspace #0.5
 
-      \line { "   " \italic {Pripev:} }
+      \line { "   " \italic {Refrain:} }
 
       \line {   "   "Život i mir, život i mir,}
 
@@ -139,7 +139,7 @@
 
 
       \vspace #0.5
-      \line { "   " \italic {Pripev:} }
+      \line { "   " \italic {Refrain:} }
       \line {   "   " Sveta Ljubov, sveta Ljubov,}
 
       \line {   "   "Ljubov, Ljubov, sveta Ljubov,}

@@ -47,9 +47,9 @@
       \time 3/4
 
 
-      \bar ":|.|:"  b8. cis'16 d'8 fis'4. | e'8. fis'16 g'8 fis'4. | fis'8 b'8 d''4. b'8| \break
+      \bar ":|.|:"  b8. cis'16 d'8 fis'4. | e'8. fis'16 g'8 fis'4. | fis'8 b'8 d''4. b'8|
 
-      \time 4/4 cis''4. ais'8 b'4. r8 | \time 3/4 fis'8. b'16 a'8 g'4. | e'8. fis'16 g'8 fis'4. | \break
+      \time 4/4 cis''4. ais'8 b'4. r8 |  \time 3/4 fis'8. b'16 a'8 g'4.  \break| e'8. fis'16 g'8 fis'4. |
 
       \time 5/4	fis'8 e' d'4 cis' b4. r8 \bar ":|." | \time 4/4 d'8. d'16 cis'4 b2 | \time 5/4 cis'2 b8 ais8 b2 |  \bar "|." \break
 
@@ -70,9 +70,9 @@
 
       и -- зя -- вя -- ва същ -- но -- ста.
 
-      Кра  -- со  -- та  -- та, Ис  -- ти  -- на  -- та, Лю -- бов  -- та и Мъд  -- рост  -- та,
+      "Кра-"  -- "со-"  -- "та-"  -- та, Ис  -- "ти-"  -- "на-"  -- та, "Лю-" -- "бов-"  -- та и "Мъд-" -- "рост-"  -- та,
 
-      туй е Гос  -- под на Зе  -- мя  -- та, туй е същ  -- но  -- ста! Днес "ду-"  -- хът ми шеп  -- не та  -- ка.
+      туй е "Гос-"  -- под на Зе  -- мя  -- та, туй е "същ-"  -- "ност-"  -- та! Днес "ду-"  -- хът ми шеп  -- не та  -- ка.
     }
     \addlyrics {
       Văv u -- ma mi mi -- săl ču -- ka, vse -- ki čas me pi -- ta
@@ -90,7 +90,7 @@
 
       Kra  -- so  -- ta  -- ta, Is  -- ti  -- na  -- ta, Lju -- bov  -- ta i Măd  -- rost  -- ta,
 
-      tuj e Gos  -- pod na Ze  -- mja  -- ta, tuj e săšt  -- no  -- sta! Dnes "du-"  -- hăt mi šep  -- ne ta  -- ka.
+      tuj e Gos  -- pod na "Ze-"  -- "mja-"  -- ta, tuj e săšt  -- nost  -- ta! Dnes du  -- hăt mi šep  -- ne ta  -- ka.
     }
 
     \addlyrics {
@@ -153,7 +153,7 @@
 
       " " " " " " " " " " " " " " " " " " " " " " " " " " " "
 
-      " " " " " " " " " " " " " " " " " " "3.    Pog -" -- led  -- ni ne -- be -- to i pi -- taj săr -- ce -- to,
+      " " " " " " " " " " " " " " " " " " "3.    Pog " -- led  -- ni ne -- be -- to i pi -- taj săr -- ce -- to,
       v~taz kra -- so -- ta div -- na i măd -- rost vse -- mir -- na ne vi -- dja li săšt -- nost -- ta;  v~taz kra -- so -- ta div -- na i măd -- rost vse -- mir -- na ne vi -- dja li săšt -- nost -- ta.
 
       " " " " " " " " " " " " " " " " " "
@@ -208,8 +208,8 @@
 
   } % score
 
-  \pageBreak
 
+  \markup \vspace #0.5
   % include foreign translation(s) of the song
   \include "../../lyrics/de/068_sto_e_sastnostta_lyrics_de.ly"
 

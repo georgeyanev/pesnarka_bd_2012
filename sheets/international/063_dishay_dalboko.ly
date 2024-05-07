@@ -130,7 +130,7 @@
   \markup \empty-two
 
   \markup \abs-fontsize #10 {
-    \hspace #5
+    \hspace #1
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
@@ -161,7 +161,7 @@
       \line {   "   "дишай ти навред. }
     }
     \"rightBraces063"
-    \hspace #1
+    \hspace #9
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 

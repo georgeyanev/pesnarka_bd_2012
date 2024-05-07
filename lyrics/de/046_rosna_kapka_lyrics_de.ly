@@ -26,7 +26,7 @@
 
     \line { "   "  unsere Herzen im Tau baden}
 
-    \line { "   "wie die Sonnenstrahlen, wie die Sonnenstrahlen}
+    \line { "   "wie die Sonnenstrahlen, wie die Sonnenstrahlen,}
 
     \line { "   "und wir werden neue Lieder singen,}
 

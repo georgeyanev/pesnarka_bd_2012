@@ -32,7 +32,7 @@
     \addlyrics {
       Ста -- ни, ста -- ни и Гос -- под ще те о -- жи -- ви;
       ста -- ни, ста -- ни и Гос -- под ще те въз --
-      кре -- си; ста -- ни, ста -- ни и с~Лю -- бов --
+      кре -- си; ста -- ни, ста -- ни и "с~Лю-" -- бов --
       та за -- поч -- ни; __ ста -- ни, ста -- ни и в~Ис
       -- ти -- на се об -- ле -- чи. В~Ис -- ти -- на
       се об -- ле -- чи и със не -- я все гра -- ди:
@@ -55,10 +55,10 @@
         \midi{}
 
       } % score
-  \markup \empty-one
+      \markup \empty-one
       \markup \dc-two "D.C." "con ripetizione"
 
- \markup \empty-two
+      \markup \empty-two
       % include foreign translation(s) of the song
       \include "../../lyrics/de/028_stani_stani_lyrics_de.ly"
 

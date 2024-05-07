@@ -76,7 +76,7 @@
 
   } % score
 
-  \markup \empty-two
+  \markup \vspace #0.5
 
   \markup \abs-fontsize #10 {
     \hspace #10
@@ -158,7 +158,7 @@
     \"rightBraces050"
   } % markup
 
-  \markup \empty-two
+  \markup \vspace #0.8
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/050_nebeto_se_otvarya_lyrics_de.ly"

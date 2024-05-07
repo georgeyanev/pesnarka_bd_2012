@@ -22,7 +22,7 @@
 
     \line {   "   "Es ist eine große Flut in den Häusern. }
 
-    \line {   "   "Es lärmt, ich höre,}
+    \line {   "   "Es lärmt, ich höre}
 
     \line {   "   "die ganze Welt lärmen!}
 

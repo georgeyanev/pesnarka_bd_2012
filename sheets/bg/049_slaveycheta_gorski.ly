@@ -47,17 +47,17 @@
       \tempoFunc "Tempo di marcia" 4 "112"
       \autoBeamOff
 
-      bes'4. a'8 | c''8 bes' a' g' |  g'2 |  f'2 \break | 
-       a'4. g'8  | a'8 g' es' g' |  f'2 |   d'2 | \break
-      \bar ".|:-||" 
-        es'4. es'8 | g'8 g' f' e' | f'2 | bes'2 | \break
-        
-        d''4. bes'8 | f'8 f' d'' d'' | c''2  bes'2 | \break
+      bes'4. a'8 | c''8 bes' a' g' |  g'2 |  f'2 \break |
+      a'4. g'8  | a'8 g' es' g' |  f'2 |   d'2 | \break
+      \bar ".|:-||"
+      es'4. es'8 | g'8 g' f' e' | f'2 | bes'2 | \break
+
+      d''4. bes'8 | f'8 f' d'' d'' | c''2  bes'2 | \break
       \bar ":|."
     }
 
     \addlyrics {
-      Ний сме сла -- вей -- че -- та гор -- ски, с~пес -- ни
+      "1. Ний" сме сла -- вей -- че -- та гор -- ски, с~пес -- ни
       сла -- вим Не -- бе -- са -- та, чув -- ства роб -- ски, гри -- жи
       хор -- ски с~пес -- ни го -- ним от Зе -- мя -- та.
     }
@@ -112,6 +112,6 @@
     } \"rightBraces049"
 
   } % markup
-  
+
 
 } % bookpart

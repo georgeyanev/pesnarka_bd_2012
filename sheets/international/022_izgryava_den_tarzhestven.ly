@@ -108,7 +108,7 @@
 
 
       \vspace #0.5
-      \line { "   " \italic {Pripev: } }
+      \line { "   " \italic {Refrain: } }
 
       \line {   "   "  Elate da živeem }
 

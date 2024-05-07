@@ -6,7 +6,7 @@
 \markup \abs-fontsize #10 {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
-    \line { 1. Steh auf, steh auf }
+    \line {   "   " Steh auf, steh auf }
     \line {   "   " und der Herr wird dich beleben; }
     \line {   "   " steh auf, steh auf}
     \line {   "   " und der Herr wird dich auferstehen lassen; }
@@ -18,7 +18,7 @@
   \hspace #1
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
     \column { 
-    \line {  2. Kleide dich in Wahrheit}
+    \line {  "   " Kleide dich in Wahrheit}
     \line {   "   "und erbaue immer mit ihr,}
     \line {   "   "sie wird dich sogar erneuern}
     \line {   "   "und mit Geist dich erleuchten.}

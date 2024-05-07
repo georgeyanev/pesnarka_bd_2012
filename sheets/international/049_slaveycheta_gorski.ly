@@ -58,13 +58,13 @@
     }
 
     \addlyrics {
-      Ний сме сла -- вей -- че -- та гор -- ски, с~пес -- ни
+      "1. Ний" сме сла -- вей -- че -- та гор -- ски, с~пес -- ни
       сла -- вим Не -- бе -- са -- та, чув -- ства роб -- ски, гри -- жи
       хор -- ски с~пес -- ни го -- ним от Зе -- мя -- та.
     }
 
     \addlyrics {
-      Nij sme sla -- vej -- če -- ta gor -- ski, s~pes -- ni
+      "1. Nij" sme sla -- vej -- če -- ta gor -- ski, s~pes -- ni
       sla -- vim Ne -- be -- sa -- ta, čuv -- stva rob -- ski, gri -- ži
       hor -- ski s~pes -- ni go -- nim ot Ze -- mja -- ta.
     }
@@ -100,7 +100,7 @@
       \line {   "   " и се лее, и люлее}
 
       \line {   "   " като струя във душата.}
-    \vspace #0.5
+      \vspace #0.5
 
       \line {   4. От гласа ни тих и строен}
 
@@ -131,7 +131,7 @@
       \line {   "   "  hem sa živi, hem igrivi}
 
       \line {   "   " kat potoče bărzotečno.}
-     \vspace #0.5
+      \vspace #0.5
 
       \line {   3. Eto, čujte kak se lee}
 
@@ -140,7 +140,7 @@
       \line {   "   " i se lee, i ljulee}
 
       \line {   "   " kato struja văv dušata.}
-     \vspace #0.5
+      \vspace #0.5
 
       \line {   4. Ot glasa ni tih i stroen}
 
@@ -149,7 +149,7 @@
       \line {   "   "Novij voin, mlad, dostoen, }
 
       \line {   "   " s pesnite si šte probudim.}
-     \vspace #0.5
+      \vspace #0.5
 
       \line {   5. Pejte, pejte, mili ptički,}
 

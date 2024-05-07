@@ -131,7 +131,7 @@
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
-      \line { "   " \italic {Pripev: } }
+      \line { "   " \italic {Refrain: } }
       \line {  "   " V novija svetăl toz život, (2) }
       \line { "   " život na Ljubovta, }
       \line {  "   " v novija svetăl toz život,}

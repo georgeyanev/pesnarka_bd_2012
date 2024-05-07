@@ -4,18 +4,22 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-  \hspace #10
 
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
 
      \line { "   "In meinem Verstand klopft ein Gedanke;}
-    \line { "   "Täglich fragt er mich: Was ist im Leben real, was ist das Wesen?}
-     \vspace #0.5
+    \line { "   " Täglich fragt er mich: }
+    
+     \line { "   "Was ist im Leben real, }
+      \line { "   " was ist das Wesen?}
      \line { "   "Mein Geist flüstert mir zu:}
      \vspace #0.5
-    \line { 1. Die Sonne, die scheint, der Vogel, der singt, }
-    \line { "   "alles, was lebt, leidet und sich sehnt, }
+    \line { 1. Die Sonne, die scheint, }
+     \line { "   " der Vogel, der singt, }
+    \line { "   "alles, was lebt, }
+    
+   \line { "   "  leidet und sich sehnt, }
     \line { "   "drückt das Wesen aus.}
       \vspace #0.5
 
@@ -23,7 +27,10 @@
     \line { "   "in den Wald; schau die Schönheit an, }
     \line { "   "atme den Duft ein,}
     \line { "   "dort schaust du das Wesen an.}
-   \vspace #0.5
+  }
+ \override #`(baseline-skip . ,deCoupletBaselineSkip)
+  \column {
+
 
     \line { 3. Schau den Himmel an, frag das Herz:}
     \line { "   "In dieser wunderbaren Schönheit}
@@ -38,7 +45,7 @@
    \line { "   "schaust du nicht das Wesen an?}
   \vspace #0.5
 
-    \line { "   "Schönheit, Wahrheit, Liebe [Ljubovta] }
+    \line { "   "Schönheit, Wahrheit, Liebe [Ljubov] }
      \line { "   "und Weisheit, das ist der Herr auf }
      \line { "   "Erden, das ist das Wesen. }
   }

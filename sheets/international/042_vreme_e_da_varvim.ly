@@ -40,7 +40,7 @@
     \addlyrics {
       Вре -- ме е да вър -- вим, зло -- то да по -- бе -- дим, ми -- ра
       да въд -- во -- рим, Хри -- ста да въз -- ца -- рим! __   Прав -- да
-      ще въ -- ве -- дем, "сво-" -- бо -- да ще да -- дем и през всич -- ки -- те
+      ще въ -- ве -- дем, сво -- бо -- да ще да -- дем и през всич -- ки -- те
       дни вер -- ни ще сме ний. __  Да ца -- ру -- ва Лю -- бов -- та! __
       Да ца -- ру -- ва бла -- гост -- та! __
       Бог е Ца -- рят на све -- та, __  Той в~пъ -- тя ни е свет -- ли  -- на. __ Да ца -- на. __
@@ -49,7 +49,7 @@
     \addlyrics {
       Vre -- me e da văr -- vim, zlo -- to da po -- be -- dim, mi -- ra
       da văd -- vo -- rim, Hri -- sta da văz -- ca -- rim! __   Prav -- da
-      šte vă -- ve -- dem, "svo-" -- bo -- da šte da -- dem i prez vsič -- ki -- te
+      šte vă -- ve -- dem, svo -- bo -- da šte da -- dem i prez vsič -- ki -- te
       dni ver -- ni šte sme nij. __  Da ca -- ru -- va Lju -- bov -- ta! __
       Da ca -- ru -- va bla -- gost -- ta! __
       Bog e Ca -- rjat na sve -- ta, __  Toj v~pă -- tja ni e svet -- li  -- na. __ Da ca -- na. __

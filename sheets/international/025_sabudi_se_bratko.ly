@@ -37,7 +37,7 @@
 
       \partial 4
       d'8 d'8 | \slurDown g'4(bes'4) \slurNeutral a'4 g'4 fis'4 | \time 3/4 a'4 d'2 | \time 6/4 \break
-      d''4 es''4 d''4 cis''4 d''4 es''4 | \time 3/4 d''2 c''8 c''8 | \time 4/4 bes'4 a'4 bes'4 c''4 \break
+      d''4 es''4 d''4 cis''4 d''4 es''4 | \time 3/4 d''2 c''?8 c''8 | \time 4/4 bes'4 a'4 bes'4 c''4 \break
       d''4 a'2 c''8 c''8 | \time 6/4 bes'4 a'4 g'4 fis'4 g'2 | \time 3/4 \break
       \repeat volta 2 {
         \bar ".|:-||"
@@ -114,7 +114,7 @@
       \line {   "   " Mir i Radost te očakvat }
       \line {   "   " i blažena setnina. }
       \vspace #0.5
-      \line { "   " \italic {Pripev: } }
+      \line { "   " \italic {Refrain: } }
       \line { "   "Ljubovta e tvoj učitel, }
       \line {   "   " živo Slovo da šte ti, }
       \line {   "   " na Dobro šte te nauči, }
@@ -153,7 +153,7 @@
       \line {   "   " ti sărceto mu da stopliš }
       \line {   "   " s tvojta iskrena ljubov. }
       \vspace #0.5
-      \line { "   " \italic {Pripev: } }
+      \line { "   " \italic {Refrain: } }
       \line { "   "Ljubovta e tvoj spasitel, }
       \line {   "   " neja v pomošt prizovi: }
       \line {   "   " tja dušata ti ot gneta }

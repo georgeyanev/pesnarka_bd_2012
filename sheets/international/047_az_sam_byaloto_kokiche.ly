@@ -71,7 +71,7 @@
         "1. Az" săm bja -- lo -- to ko -- ki -- če
         vsred tre -- vi -- te gor -- ski,
         "sra-" -- "mež-" -- li -- vo kat "mo-" -- mi -- če
-        ot "pog-" -- le -- di hor -- ski. Zla me ma -- šte -- ha să -- bu -- di
+        ot pog -- le -- di hor -- ski. Zla me ma -- šte -- ha să -- bu -- di
         s~sne -- ga, vet -- ro -- ve -- te.
         Vsič -- ko ži -- vo da se ču -- di,
         če săm ran -- no cve -- te.}

@@ -4,8 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
-   
-    \paper {
+
+  \paper {
     print-all-headers = ##f
     print-page-number = ##f
     print-first-page-number = ##f
@@ -30,10 +30,10 @@
     bottom-margin = 1.0\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
 
-  
+
   }
 
-\markup {  \vspace #9.5 }
+  \markup {  \vspace #13.5 }
 
   \markup \abs-fontsize #10 { \vspace #19.5 \italic{Wenn die Natur sich erneuert,  singen die Vögel.}}
 
@@ -42,7 +42,7 @@
   \markup \abs-fontsize #10 { \vspace #1.5 \italic{Wenn die Welt wieder erschaffen wird, dann singen die Engel.}}
 
 
-  \markup \abs-fontsize #10 { \vspace #1.5 \hspace #30.0 \italic{(Aus dem ältesten Buch der Welt.)}}
+  \markup \abs-fontsize #10 { \vspace #1.5 \hspace #30.0 \italic{(Aus dem ältesten Buch der Welt)}}
 
   \markup \abs-fontsize #10 { \vspace #3.5 \italic{ \justify-string " Der Weg, die Wahrheit und das Leben – das sind die ersten Grundtöne der ideellen Harmonie, die im Kosmos existiert. Auf sie gründet das vernünftige Leben."}}
 
@@ -50,7 +50,7 @@
 
 
 
-  
+
 
 } % bookpart
 

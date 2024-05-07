@@ -149,7 +149,7 @@
         \line {   "   " i prosijava, i văzkrăsva, }
         \line {   "   " i blagoslavja toz posev. }
         \vspace #0.5
-        \line { "   " \italic {Pripev: } }
+        \line { "   " \italic {Refrain: } }
         \line {  "   " Bezcenen dar e Ljubovta, }
         \line { "   " krasivo čuvstvo – običta }
         \line { "   " i blago delo – milostta, }

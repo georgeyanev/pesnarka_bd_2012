@@ -36,8 +36,8 @@
     }
     \addlyrics {
       Ti Si pro -- ja -- ve -- na -- ta Lju -- bov kăm men, Gos -- po --
-      di. Du -- ša -- ta mi "kop-" -- nej za Tvoj -- ta čis -- to --
-      ta. Du -- ša -- ta mi "kop-" -- nej za Tvoj -- ta svet -- li -- na.
+      di. Du -- ša -- ta mi kop -- nej za Tvoj -- ta čis -- to --
+      ta. Du -- ša -- ta mi kop -- nej za Tvoj -- ta svet -- li -- na.
     }
 
     \header {
@@ -91,7 +91,7 @@
     \midi{}
 
   } % score
-  \markup \vspace #2
+  \markup \vspace #1
   % include foreign translation(s) of the song
   \include "../../lyrics/de/053_slava_Bozhiya_lyrics_de.ly"
 

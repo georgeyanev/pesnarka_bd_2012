@@ -39,7 +39,7 @@
       Mi -- lo -- săr -- di -- e -- to e gra -- di -- na raj --
       ska, čud -- no pre -- me -- ne -- na, păl -- na
       s~hu -- bost maj -- ska. Bil -- ki i dăr -- ve --
-      ta, "v~kra-" -- so -- ta raz -- vi -- ti, s~i -- zo
+      ta, v~kra -- so -- ta raz -- vi -- ti, s~i -- zo
       -- bil -- na rož -- ba vsja -- ko -- ga po -- kri
       -- ti, s~i -- zo -- ti.
     }

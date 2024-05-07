@@ -20,7 +20,7 @@
       g'4 a' bes' d''| \break a'2 a'2 | a'4 g'4 f'4 g'4 a'2 a'2|
       bes'4 bes'4 bes'4 bes'4 | bes'2 d''2 | \break d''4 c''4 c''4 bes'4 bes'2 a'2 |
       g'4 a'4 bes'4 d''4 | a'2 a'2 | \break d'4 e'4 f'4 e'4 |  d'2 d'2 |
-      a'4 a'4 d''4 c''4 | bes'2 bes'2 | g'4 a'4 c''4 bes'4 | \break a'2 a'2 | 
+      a'4 a'4 d''4 c''4 | bes'2 bes'2 | g'4 a'4 c''4 bes'4 | \break a'2 a'2 |
       g'4 a'4 bes'4 d''4 | a'2 a'2 | d'4 e'4 f'4 e'4 | d'2 d'2 | \bar "|." \break
     }
 
@@ -52,7 +52,7 @@
   \markup \vspace #0.3
   \markup \abs-fontsize #10 {
     \hspace #15
-   \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
       \line { 2. И туй непрестанно  }
@@ -144,7 +144,7 @@
     }
 
     \hspace #6
-   \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
 
 

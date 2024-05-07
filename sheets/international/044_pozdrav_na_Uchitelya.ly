@@ -38,8 +38,8 @@
       в~те -- зи дни до -- не -- се мир и свет -- ли -- на.
       Доб -- ре до -- шъл, доб -- ре до -- шъл,
       У -- чи -- те -- лю на Лю -- бов -- та; доб --
-      ре "до -" -- шъл, до -- бре до -- шъл, У -- чи --
-      те -- лю на "Мъд -" -- "рост -" -- та.
+      ре "до-" -- шъл, до -- бре до -- шъл, У -- чи --
+      те -- лю на "Мъд -" -- рост -- та.
     }
 
 
@@ -49,8 +49,8 @@
       v~te -- zi dni do -- ne -- se mir i svet -- li -- na.
       Dob -- re do -- šăl, dob -- re do -- šăl,
       U -- či -- te -- lju na Lju -- bov -- ta; dob --
-      re "do -" -- šăl, do -- bre do -- šăl, U -- či --
-      te -- lju na "Măd -" -- "rost -" -- ta.
+      re do -- šăl, do -- bre do -- šăl, U -- či --
+      te -- lju na Măd -- rost -- ta.
     }
 
 
@@ -104,7 +104,7 @@
       \line { "   " i lăhna kăm nas toplina. }
       \vspace #0.5
 
-      \line { "   " \italic{Pripev: } Dobre došăl ... }
+      \line { "   " \italic{Refrain: } Dobre došăl ... }
       \vspace #0.5
 
       \line { 3. Učitelju blagosloven, }
@@ -117,7 +117,7 @@
 
       \vspace #0.5
 
-      \line { "   " \italic{Pripev:} Dobre došăl ... }
+      \line { "   " \italic{Refrain:} Dobre došăl ... }
     } %column
   } % markup
   \pageBreak
@@ -153,11 +153,11 @@
 
       \vspace #0.5
 
-      \line { "   " \italic{Pripev:} Dobre došăl ... }
+      \line { "   " \italic{Refrain:} Dobre došăl ... }
     } %column
   } % markup
 
-   \markup \vspace #3
+  \markup \vspace #3
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/044_pozdrav_na_Uchitelja_lyrics_de.ly"

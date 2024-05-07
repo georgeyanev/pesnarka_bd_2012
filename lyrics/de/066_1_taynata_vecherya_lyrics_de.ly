@@ -7,7 +7,7 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line {   "   "  Zun meri manu, }
+    \line {   1. Zun meri manu, }
     \line {   "   " zun meri manun dana, }
     \line {   "   " asavita vita nanda. }
     \line {   "   " Zun meri manu, }
@@ -16,7 +16,7 @@
     \line {   "   " asavita nanda. }
     \vspace #0.5
 
-    \line {   "   " Alles ist hell, }
+    \line {   2.  Alles ist hell, }
 
     \line {   "   " alles ist durchlichtet }
 
