@@ -34,14 +34,14 @@
        \vspace #1.5
     }
 
-    tocItemMarkup = \markup \abs-fontsize #11 \fill-line {
+    tocItemMarkup = \markup    \abs-fontsize #11 { \vspace #1 \fill-line {
       \fromproperty #'toc:text \tocItemWithDotsMarkup \fromproperty #'toc:page
-    }
+    } }
 
     tocActMarkup = \markup \large \column {
-      \vspace #0.7
+      \vspace #0.9
       \fill-line { \null \abs-fontsize #14 \bold \fromproperty #'toc:text \null }
-      \vspace #0.7
+      \vspace #0.9
     }
   }
 

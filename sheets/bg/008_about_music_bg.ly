@@ -35,16 +35,16 @@
   \tocItem \markup "Мисли за музиката"
   \markup \fontsize  #+3.0 { \fill-line \bold {"МИСЛИ ЗА МУЗИКАТА"} }
 
-  \markup \fontsize #+2.5 {
-    \vspace #1.5 \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #1.5 \override #'(baseline-skip . 3.2)
     \justify {
 
       Ние разбираме музиката в малко по-друг смисъл. Аз говоря за съзнателната музика, не за статичната. Вече излизаме от областта на механическата музика и влизаме в органичната, която постоянно се изменя.
 
     }
   }
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
       В новата органична музика първо ще внесете хармония в мислите, чувствата и постъпките си. Тогава, като певци, ще имате отзвук – от Невидимия свят ще ви дойдат на помощ.
@@ -52,23 +52,23 @@
     }
   }
 
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
       Вие не можете да бъдете музикални, ако мисълта ви не е музикална, ако чувствата ви не са музикални, ако постъпките ви не са музикални и ако музикално не гледате на всичко, което става в света. Ние живеем и се движим в Бога и в това движение има хармония.
     }
   }
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
 
       Песента не само трябва да има глас, но в нейните тонове трябва да се вложи съдържание и смисъл. За да може човек да пее или свири, той трябва да има някаква идея, някакъв дълбок вътрешен подтик. Без идея няма песен.
     }
   }
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
 
@@ -76,32 +76,32 @@
     }
   }
 
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
       Всяка песен трябва да носи светлина, топлина и сила. Природата цени тонове, които имат светлина, топлина и сила. Те са Божествено благословение на света.
     }
   }
 
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
 
       Музиката, пеенето имат смисъл само тогава, когато служат за облагородяването на човека. Чрез музиката можете да създадете в себе си характер.
     }
   }
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
       Вашето щастие в света зависи само от музиката. Защото животът е цяло изкуство – той е най-голямата музика, която съществува в света.
     }
   }
 
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
 
@@ -109,16 +109,16 @@
     }
   }
 
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
       Любовта – това е най-висшата музика. Ако не мислите, не можете да пеете. Мислете право, приемайте само чисти мисли, за да пеете и свирите добре.
     }
   }
 
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
 
@@ -129,8 +129,8 @@
   }
 
 
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
 
@@ -139,8 +139,8 @@
     }
   }
 
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
 
@@ -149,15 +149,35 @@
     }
   }
 
-  \markup \fontsize #+2.5 {
-    \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
+    \justify {
+      \hspace #1.5
+
+      Аз искам да се запознаете с окултната музика, да черпите сили и вдъхновение от Живата природа.
+    }
+  }
+
+
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
       Природата във всяко направление работи музикално. Няма по-велико изкуство, по-велика музика от изкуството и музиката на природата. Който спазва законите на природата, може да стане певец.
     }
   }
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+
+
+
+
+
+
+
+
+
+
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
 
@@ -165,51 +185,42 @@
 
     }
   }
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
       Когато Орфей свирел и пеел, цялата природа оживявала: растения, птички, животни, реки – всичко започвало да се движи и да играе. Такъв трябва да бъде истинският музикант.
 
     }
   }
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
       Бих желал, когато излизате в природата, да се вслушвате в нея. Един музикант, който има развито ухо, ще чуе там това, което никога в живота си не е чул.
 
     }
   }
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
       Вие не сте се вслушвали в течащите извори – каква приятна музика има между малките камъчета! Идете в гората – там ще чуете такива симфонии, арии!
 
     }
   }
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
       Музиката е един от начините природата да оживее във вас – камъните ще оживеят, дърветата, изворите, всичко наоколо ще оживее.
 
     }
   }
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
-    \justify {
-      \hspace #1.5
-
-      Аз искам да се запознаете с окултната музика, да черпите сили и вдъхновение от Живата природа.
-
-    }
-  }
 
 
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
       Окултната музика е музика на образи и картини. Когато пеем, винаги трябва да се произведе картина – да изпъкват не обикновени мъртви картини, а живи.
@@ -217,8 +228,8 @@
     }
   }
 
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
       По какво се отличава окултната музика от обикновената? По своята крайна мекота, яснота, картинност и природни образи.
@@ -227,8 +238,8 @@
   }
 
 
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
 
@@ -239,8 +250,8 @@
 
 
 
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
       В окултната музика ние искаме да пеем не както хората пеят, а както ангелите пеят. Чрез музиката можем да привлечем ангелите – те ще се заинтересуват от нас. Ще им кажете: „Ние изучаваме вашата музика, искаме да пеем като вас“. Те ще кажат: „Много добре, ние ще ви дадем нашето присъствие и съдействие“.
@@ -250,8 +261,8 @@
 
 
 
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
 
@@ -260,8 +271,8 @@
   }
 
 
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
       Аз искам да пеете за себе си – подразбирам не лично за себе си, а за Божественото вътре във вас. Като изпеете някоя песен за себе си, ще почувствате разположение на духа.
@@ -269,18 +280,26 @@
 
     }
   }
-  \markup \fontsize #+2.5 {
-    \override #'(baseline-skip . 2.7)
+
+  \markup \abs-fontsize #11 {
+    \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
-      Всички окултни школи на миналото и днес си служат с музиката като метод за възпитание и самовъзпитание. Ако човек употреби един от музикалните методи за трансформиране на съзнанието си, за половин или един час ще бъде в друга гама на живота, далеч от своята мъчнотия. Сега именно, при условията, в които живеем, трябва постоянно тониране, а музиката – това е един от Божествените методи за тониране. Ако някой изпее упражнението „Бог е Любов“ както трябва, той ще се преобрази – каквито болки има, ще изчезнат, ще бъде радостен, весел и ще се подмлади.
+      Всички окултни школи на миналото и днес си служат с музиката като метод за възпитание и самовъзпитание. Ако човек употреби един от музикалните методи за трансформиране на съзнанието си, за половин или един час ще бъде в друга гама на живота, далеч от своята мъчнотия.
+
+    }
+  }
+  \markup \abs-fontsize #11 {
+    \override #'(baseline-skip . 3.2)
+    \justify {
+      Сега именно, при условията, в които живеем, трябва постоянно тониране,  а музиката – това е един от Божествените методи за тониране. Ако някой изпее упражнението „Бог е Любов“ както трябва, той ще се преобрази – каквито болки има, ще изчезнат, ще бъде радостен, весел и ще се подмлади.
 
     }
   }
 
 
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
 
@@ -290,8 +309,8 @@
   }
 
 
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
       Нека всеки сам си каже: „Аз трябва да стана музикант, аз трябва да обичам, аз трябва да мисля право.“
@@ -300,8 +319,8 @@
   }
 
 
-  \markup \fontsize #+2.5 {
-    \vspace #0.6  \override #'(baseline-skip . 2.7)
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
 

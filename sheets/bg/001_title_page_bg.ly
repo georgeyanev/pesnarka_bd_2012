@@ -39,51 +39,55 @@
 
 
 
-  \markup \fontsize  #+6 {\hspace #25 \bold {"Петър Дънов"} }
+  \markup \fontsize  #+4.6 {\hspace #35 \bold {"Петър Дънов"} }
 
-  \markup {  \vspace #5.5 }
+  \markup {  \vspace #7.5 }
   \markup {
-    \hspace #25
+    \hspace #35
     \column {
       \override #'(thickness . 1.5)
-      \override #'(span-factor . 1/2)
+      \override #'(span-factor . 2/3)
       \draw-hline
 
     }
   }
 
-  \markup \fontsize  #+2  { {  \vspace #0.2 } }
+  \markup \fontsize  #+2  { {  \vspace #0.5 } }
 
 
-  \markup \fontsize  #+8.6 { \hspace #25 \bold {"Песни от Учителя"} }
-   
+  \markup \fontsize  #+7.6 { \hspace #35 \bold {"Песни от Учителя"} }
+  \markup \fontsize  #+2  { {  \vspace #2.8 } }
+
   \markup {
-    \hspace #25
+    \hspace #35
     \column {
       \vspace #5.5
       \override #'(thickness . 1.5)
-      \override #'(span-factor . 1/2)
+      \override #'(span-factor . 2/3)
       \draw-hline
 
     }
   }
-   
-  % \markup \fontsize  #+2  { {  \vspace #.5 } }
-  % \markup \fontsize  #+3.5 {\hspace #25 {"Издадени от"} }
-  % \markup \fontsize  #+2  { {  \vspace #0.1 } }
-  % \markup \fontsize  #+2.5 { \hspace #25 {"Петър Ганев" \concat { \raise #-0.9 \fontsize #6 "·" } "Мария Кирева" } }
+
+  \markup \fontsize  #+2  { {  \vspace #.5 } }
+  \markup \fontsize  #+2.5 {\hspace #35 {"Издадени от"} }
+  \markup \fontsize  #+2  { {  \vspace #0.1 } }
+  \markup \fontsize  #+1.5 { \hspace #35 {"Петър Ганев" \concat { \raise #-1.1 \fontsize #6 "·" } "Мария Кирева" } }
 
 
 
-  \markup \fontsize  #+2  { {  \vspace #12 } }
 
-  \markup \fontsize  #+3.5 {\hspace #25 {"Издателство „Бяло Братство“ "} }
+
+
+  \markup \fontsize  #+2  { {  \vspace #14 } }
+
+  \markup \fontsize  #+3.5 {\hspace #35 {"Издателство „Бяло Братство“ "} }
   \markup \fontsize  #+2.5  { {  \vspace #0.5 } }
   \markup {
     \hspace #-1
     \fill-line
     \general-align #Y #DOWN {
-      \epsfile #X #7 #"../../img/logo_large.eps"
+      \epsfile #X #9 #"../../img/logo_large.eps"
     }
     \hspace #0.1
   }
@@ -91,14 +95,15 @@
 
 
   \markup {
-    \hspace #25
+    \hspace #35
     \column {
       \override #'(thickness . 1.5)
-      \override #'(span-factor . 1/2)
+      \override #'(span-factor . 2/3)
       \draw-hline
 
     }
   }
+
 
 
 
