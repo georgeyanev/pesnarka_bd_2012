@@ -72,7 +72,7 @@
         -- te -- li na ra -- dost -- ta, kre -- pi -- te
         -- li na mla -- dost -- ta, kre -- pi -- te -- li
         na mla -- dost -- ta, te sa ed -- no, te sa ed
-        -- no. Slu -- no..}
+        -- no. Slu -- no.}
 
         \header {
           title = \titleFunc "Сила, живот, здраве" "Sila, život, zdrave"

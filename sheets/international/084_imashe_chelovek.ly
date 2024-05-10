@@ -95,7 +95,7 @@
         ta vi -- de -- li -- na, ko -- ja -- to o -- sve
         -- tja -- va vse -- ki -- go če -- lo -- ve -- ka,
         što i -- de na sve -- ta. V~sve -- ta be i sve
-        -- tăt črez Ne -- go "sta-" -- na i sve -- tăt Go
+        -- tăt črez Ne -- go sta -- na i sve -- tăt Go
         ne "poz-" -- na. V~Svo -- i -- te Si doj -- de, no
         Svo -- i -- te Mu Go ne pri -- e -- ha. A ko
         -- i -- to Go pri -- e -- ha, da -- de im vlast

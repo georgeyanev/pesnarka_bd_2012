@@ -8,9 +8,9 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column { 
-    \line { " "Schön ist das Leben unserer Seele, was die ganze Erde erfüllt. }
+    \line { " "Schön ist das Leben unserer Seele, das die ganze Erde erfüllt. }
 
-    \line { " "Schön ist das Leben unserer Seele, was die ganze Erde erfüllt. }
+    \line { " "Schön ist das Leben unserer Seele, das die ganze Erde erfüllt. }
 
     \line { " "Schön ist das Leben unserer Seele, das die ganze Erde erfüllt,  }
     \line { " "das die ganze Erde erfüllt.  }

@@ -58,7 +58,7 @@
         Văv pu -- sti -- nja -- ta na
         ži -- vo -- ta, gde na -- si -- li --
         e -- to se ši -- ri, tam stra --
-        da -- ni -- e i __ mă -- ka "ca-" --
+        da -- ni -- e i __ mă -- ka ca --
         ri. Vsja -- koj, s~koj -- to -- te
         dru -- žat, mă -- če -- nik, ge --
         roj, sve -- ti -- ja go zo -- vat. __}

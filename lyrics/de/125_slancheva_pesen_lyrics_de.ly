@@ -26,10 +26,10 @@
 
  \line { " "und tragen ihn zur aufgegangenen Blüte.}
 
-  \line { " "Die Freude sprudelt in unserem Bienenstock: ban. }
+  \line { " "Die Freude sprudelt in unserem Bienenstock: băn. }
 
  \line { " "Alle eilen hinaus. }
- \line { " " Ban, zan, ban, zan, } 
+ \line { " " Băn, zăn, băn, zăn, } 
  \line { " "einen süßen Honig bereiten wir für euch,}
 
  \line { " "liebet den gütigen Schöpfer. }
@@ -40,7 +40,7 @@
 
  \line { " "guten Schöpfer lieben!}
 
- \line { " "Ban! Zan! Ban! Zan!}
+ \line { " "Băn! Zăn! Băn! Zăn!}
 
   }
 }

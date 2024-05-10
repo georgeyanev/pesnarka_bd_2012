@@ -38,7 +38,7 @@
 
     \line { " " Liebt mich jedoch jemand und   }
     \line { " " denkt gut über mich,  }
-    \line { " " er wird ein Bürger aus einer }
+    \line { " " wird er ein Bürger aus einer }
     \line { " " vollkommen anderen Welt sein.“}
 
     \vspace #0.5
@@ -52,8 +52,8 @@
 \hspace #-6
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
-    \line { " " Gram und Freude es ist gleich,  }
-    \line { " " Gram und Freude es ist gleich,  }
+    \line { " " Gram und Freude: es ist gleich,  }
+    \line { " " Gram und Freude: es ist gleich,  }
     \line { " " wenn Liebe in ihnen herrscht.  }
     \line { " " Die Gerechtigkeit wird im Gram geschätzt  }
     \line { " " und das Gute in der Freude.   }

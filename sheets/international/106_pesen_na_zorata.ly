@@ -35,9 +35,9 @@
 
       e8 [( d ] e [d ]) | d2 | a'4. g8  |  e8 [( d8  ] e8 [d8 ]) | d2 | \break
 
-      \time 3/4 d8 fis a a a a | d, fis a \tempo "rit." a a a \bar "||" \key d \major \time 2/4 \tempo "Tempo I" d4 a8 b | \break \pageBreak
+      \time 3/4 d8 fis a a a a | d, fis a \tempo "rit." a a a \bar "||" \break \pageBreak \key d \major \time 2/4 \tempo "Tempo I" d4 a8 b |
 
-      a8 fis d e | fis fis e4| a2 | g4 b8 b | a g fis d | \break
+      a8 fis d e | fis fis e4| a2 | g4 b8 b | \break  a g fis d |
 
       e8 fis e4 | d2 | \time 4/4 \tuplet 3/2 { g8 [(a8)] b } a4 a2 | \tuplet 3/2 {d,8 [(e8)] fis8  }e4 d2 \bar "|."
 

@@ -75,7 +75,7 @@
   } % score
 
   \markup \empty-one
-  \markup \italic \dc-one-nobold "attacca „Тъги скърби“/attacca „Tăgi skărbi“"
+  \markup \italic \dc-one-nobold "attacca „Тъги скърби/Tăgi skărbi“"
   \markup \empty-one
   \markup \abs-fontsize #10 {
     \hspace #10

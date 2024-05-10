@@ -53,7 +53,7 @@
       Za -- tup -- ka mo -- e -- to săr -- ce. Hlja --
       băt e go -- tov, hlja -- băt e go -- tov. Za --
       pa -- li se no -- vi -- jat sve -- til -- nik.
-      Slo -- ži se "tra-" -- pe -- za -- ta. Ja -- vi se
+      Slo -- ži se tra -- pe -- za -- ta. Ja -- vi se
       mo -- ja -- ta mi -- săl: "hlja-" -- ba slad -- ki
       dnes da văz -- lju -- bja i slad -- ki -- te mu
       du -- mi az da ču -- ja.

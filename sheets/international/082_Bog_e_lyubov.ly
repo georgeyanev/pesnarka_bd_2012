@@ -75,7 +75,7 @@
         Duh na bla -- gost -- "-ta," | Duh na svja -- tost -- ta, | Duh na pă -- len mir i |
         ra -- dost za vsja -- ka du -- ša, za vsja -- ka du -- | ša. Nij šte | ho -- dim v~to -- ja |
         păt  na svet -- li -- | na -- ta, na svet -- li -- | na -- ta, na svet -- li | na -- ta, v~ko -- |
-        ja -- to "ca-" -- ru -- va | Bo -- ži -- ja -- ta "Lju-" -- bov, | Bo -- ži -- ja -- ta "Lju-" -- bov, |
+        ja -- to ca -- ru -- va | Bo -- ži -- ja -- ta "Lju-" -- bov, | Bo -- ži -- ja -- ta "Lju-" -- bov, |
         Bo -- ži -- ja -- ta "Lju-" -- bov, | Bo -- ži -- ja -- ta Lju -- | bov. Nij šte | bov.}
         \header {
           title = \titleFunc "Бог е Любов" "Bog e Ljubov"

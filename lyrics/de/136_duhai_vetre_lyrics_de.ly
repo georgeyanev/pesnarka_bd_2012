@@ -42,7 +42,7 @@
     \line { " "die göttliche Sonne scheint heute,  }
 
     \line { " "die göttliche Sonne scheint heute }
-     \line { " "für dich Bulgare. }
+     \line { " "für dich, Bulgare. }
 
   }
 }

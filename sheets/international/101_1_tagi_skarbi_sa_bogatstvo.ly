@@ -45,7 +45,7 @@
       za bla -- gi plo -- do -- ve,
       za svet -- li dni,
       za svet -- li dni,
-      za "svet-" -- li dni,
+      za svet -- li dni,
       dni, dni, dni.
     }
 

@@ -32,7 +32,7 @@
           \override StaffSymbol.thickness = #(magstep -2)
           firstClef = ##f
         }
-        {  c4.^\markup { \large \italic "ossia по К. Икономов/ossia nach K. Ikonomov"}  f,2.}
+        {  c4.^\markup { \large \italic "ossia по К. Икономов/nach K. Ikonomov"}  f,2.}
       >>
 
 

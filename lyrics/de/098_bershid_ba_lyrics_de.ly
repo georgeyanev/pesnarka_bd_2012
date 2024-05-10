@@ -1,6 +1,6 @@
 \version "2.24.3"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Bershid Ba" }
+\markup \fill-line { \fontsize #deTitleFontSize "Beršid Ba" }
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {

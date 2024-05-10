@@ -12,7 +12,7 @@
         \Staff
         \override StaffSymbol.thickness = #0.5
         \override BarLine.hair-thickness = #1
-        %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
+        \override TupletNumber.font-size = #0.3 % increase the triol number
       }
 
       \context {

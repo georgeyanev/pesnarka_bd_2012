@@ -66,7 +66,7 @@
   \markup \empty-three
 
   \label #'ref073
-  \tocItem \markup "Сладко медено – Sladko medeno"
+  \tocItem \markup "Сладко, медено – Sladko, medeno"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -106,7 +106,7 @@
           \override StaffSymbol.thickness = #(magstep -3)
           firstClef = ##f
         }
-        { b'4^\markup { \large \italic "ossia по М. Тодорова/ossia nach M. Todorova " } c'' | b'4 a' | }
+        { b'4^\markup { \large \italic "ossia по М. Тодорова/nach M. Todorova " } c'' | b'4 a' | }
       >>
 
 
@@ -123,14 +123,14 @@
       от пче -- ли -- те до -- не -- се -- но.
     }
     \addlyrics {
-      "Slad-" -- ko,
+      Slad -- ko,
       me -- de -- no, slad -- ko, me -- de -- no, me --
       de -- no, me -- de -- no, slad -- ko, me -- de --
       no. Ot Slăn -- ce -- to iz -- pra -- te -- no,
       ot pče -- li -- te do -- ne -- se -- no.
     }
     \header {
-      title = \titleFunc "Сладко медено" "Sladko medeno"
+      title = \titleFunc "Сладко, медено" "Sladko, medeno"
     }
 
     \midi{}

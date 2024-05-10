@@ -62,30 +62,30 @@
     \addlyrics {
       Аз   ще   се
       "под-"  --  "мла-"  --  дя,   ти   ще   се   "под-"  --  "мла-"  --  диш,
-      той   ще   се   под  --  "мла-"  --  "ди –"   то  --  ва   ми   каз  --
+      той   ще   се   под  --  "мла-"  --  "ди    –"   то  --  ва   ми   каз  --
       ва   Лю  --  бов  --  та,   то  --  ва   ми   каз  --  ва   Лю  --
       бов  --  та.   Ний,   ко  --  и  --  то   след  --  ва  --  ме
       пъ  --  тя   на   доб  --  ро  --  то,   ще   се   под  --  мла  --
       дим;   вий,   ко  --  и  --  то   след  --  ва  --  те   пъ  --
       тя   на   доб  --  ро  --  то,   ще   се   под  --  мла  --  ди  --
       те;   те,   ко  --  и  --  то   след  --  ват   пъ  --  тя   на
-      доб  --  ро  --  то,   ще   се   под  --  мла  --  дят,   то  --
+      доб  --  ро  --  то,   ще   се   под  --  мла  --  "дят   –"   то  --
       ва   ни   каз  --  ва   Лю  --  бов  --  та,   то  --  ва   ни
       каз  --  ва   Лю  --  бов  --  та.
     }
     \addlyrics {
       Az   šte   se
       pod  --  "mla-"  --  dja,   ti   šte   se   pod  --  mla  --  diš,
-      toj   šte   se   pod  --  mla  --  "di –"   to  --  va   mi   kaz  --
+      toj   šte   se   pod  --  mla  --  "di    –"   to  --  va   mi   kaz  --
       va   Lju  --  bov  --  ta,   to  --  va   mi   kaz  --  va   Lju  --
       bov  --  ta.   Nij,   ko  --  i  --  to   sled  --  va  --  me
       pă  --  tja   na   dob  --  ro  --  to,   šte   se   pod  --  mla  --
       dim;   vij,   ko  --  i  --  to   sled  --  va  --  te   pă  --
       tja   na   dob  --  ro  --  to,   šte   se   pod  --  mla  --  di  --
       te;   te,   ko  --  i  --  to   sled  --  vat   pă  --  tja   na
-      dob  --  ro  --  to,   šte   se   pod  --  mla  --  djat,   to  --
-      va   ni   kaz  --  va   Lju  --  bov  --  ta,   to  --  va   ni
-      kaz  --  va   Lju  --  bov  --  ta.
+      dob  --  ro  --  to,   šte   se   pod  --  mla  --  "djat   –"   to  --
+      va   ni   kaz  --  va   "Lju-"  --  bov  --  ta,   to  --  va   ni
+      kaz  --  va   "Lju-"  --  bov  --  ta.
     }
 
     \header {

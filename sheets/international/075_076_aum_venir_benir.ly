@@ -50,7 +50,7 @@
   % include foreign translation(s) of the song
 
   \label #'ref076
-  \tocItem \markup "Венир Бенир – Venir benir"
+  \tocItem \markup "Венир Бенир – Venir Benir"
 
   \score {
     \include "include/score-layout.ily"
@@ -88,7 +88,7 @@
 
 
     \header {
-      title = \titleFunc "Венир Бенир" "Venir benir"
+      title = \titleFunc "Венир Бенир" "Venir Benir"
     }
 
     \midi{}

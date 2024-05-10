@@ -22,7 +22,7 @@
 
     \line { " "  Kalt bist du, aber bringst uns Reinheit.}
 
-    \line { " "   Kalt bist du, aber bringst uns Reinheit}
+    \line { " "   Kalt bist du, aber bringst uns Reinheit.}
 
      \vspace #0.5
 

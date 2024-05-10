@@ -30,7 +30,7 @@
           firstClef = ##f
         }
         {
-          \autoBeamOff  d'8.^\markup { \large \italic "ossia по К. Икономов"}
+          \autoBeamOff  d'8.^\markup { \large \italic "ossia по К. Икономов/nach K. Ikonomov"}
 
           d'16 g'8. g'16 g'8. a'16 b'4 b'4 |
         }

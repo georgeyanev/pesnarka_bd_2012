@@ -44,7 +44,7 @@
       \time 6/4  \tempo \markup {
         % make tempo note smaller
         \concat {
-          \normal-text {"По мотиви на Учителя"}
+          \normal-text {"По мотиви на П. Дънов/Nach Motiven von P. Danov"}
         }
       } c'4. ( d'8 es'16 d'16 c'16 b16 c'8 d'8 ) g2 | \time 5/4  g'4 ( \once \override TupletBracket.stencil = ##f
       \times 4/5  {

@@ -5,7 +5,42 @@
 \bookpart {
   \label #'ref133
   \tocItem \markup "Скитах се по гори и планини – Skitah se po gori i planini"
-  \include "include/bookpart-paper.ily"
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.2\cm
+    bottom-margin = 1.0\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 16)
+       (minimum-distance . 8)
+       (padding . 2)
+       (stretchability . 12))
+  }
+
+  \header {
+    tagline = ##f
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -72,7 +107,7 @@
 
         \new Staff \with {
           \override VerticalAxisGroup.default-staff-staff-spacing =
-          #'((basic-distance . 6.5)
+          #'((basic-distance . 5.5)
              (padding . -20))
           \remove "Time_signature_engraver"
           alignAboveContext = #"main"
@@ -81,7 +116,7 @@
           \override StaffSymbol.thickness = #(magstep -2)
           firstClef = ##f
         }
-        {\autoBeamOff a16 ^\markup { \large \italic "ossia по В. Несторова"} fis16 g a g8. fis16 g2}
+        {\autoBeamOff a16 ^\markup { \large \italic "ossia по В. Несторова/nach V. Nestorova"} fis16 g a g8. fis16 g2}
       >>
       \break | % 15
 

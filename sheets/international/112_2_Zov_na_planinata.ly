@@ -60,13 +60,14 @@
     \hspace #3
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-      \line {  2. Zapyavam az  pesen chudna}
-      \line {   "   "  za Slantseto,}
-      \line {   "   "  bistri izvorcheta zashumyavat.}
+      \line {  2. Zapjavam az  pesen čudna}
+      \line {   "   "  za Slănceto,}
+      \line {   "   "  bistri izvorčeta zašumjavat.}
       \vspace #0.5
-      \line {3. I vizhdam az vrah izpraven}
+      \line {3. I viždam az vrăh izpraven}
       \line {   "   " pred men stoi.}
-      \line {   "   " Toy zove me krotko tam nagore.}
+      \line {   "   " Toj zove me krotko tam nagore.}
+
     } %column
   } % markup
 
