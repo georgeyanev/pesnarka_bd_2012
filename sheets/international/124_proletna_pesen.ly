@@ -107,7 +107,7 @@
       d16 c16 b16 c16
       as'2 ^\fermata |   % 36
       \times 2/3  {
-        \once \override Slur.positions = #'(-2 . -2) f8  (   [d8  ] ) bes8
+        \once \override Slur.positions = #'(-4 . -2) f8  (   [d8  ] ) bes8
       }
       \times 2/3  {
         as8 ( [  f8  d8 ) ]

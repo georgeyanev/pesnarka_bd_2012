@@ -20,7 +20,8 @@
 
     \vspace #0.5
 
-    \line { " " „Schwerlich kann mich jemand lieben.   }
+    \line { " " „Schwerlich kann mich}
+    \line { " "  jemand lieben.   }
     \line { " " Dort ist der Gram!  }
     \line { " " Wer mich liebt [običam] }
     \line { " " und mich gut empfängt,  }
@@ -34,7 +35,12 @@
     \line { " " und für den Sterblichen   }
     \line { " " ist das fast unmöglich.  }
 
-    \vspace #0.5
+
+  }
+
+\hspace #-5
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+  \column {
 
     \line { " " Liebt mich jedoch jemand und   }
     \line { " " denkt gut über mich,  }
@@ -46,12 +52,6 @@
     \line { " " Freude und Gram, das sind Wege,   }
     \line { " " das große Leben zu verstehen.   }
     \line { " " Die Liebe schätzt sie beide gleichermaßen.  }
-
-  }
-
-\hspace #-6
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-  \column {
     \line { " " Gram und Freude: es ist gleich,  }
     \line { " " Gram und Freude: es ist gleich,  }
     \line { " " wenn Liebe in ihnen herrscht.  }

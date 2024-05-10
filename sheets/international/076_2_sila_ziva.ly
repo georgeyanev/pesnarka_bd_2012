@@ -39,7 +39,7 @@
           \override StaffSymbol.thickness = #(magstep -2)
           firstClef = ##f
         }
-        {\autoBeamOff c''8 ^\markup { \large \italic "ossia по М. Тодорова/ossia nach M. Todorova"}  d''8 b'8.}
+        {\autoBeamOff c''8 ^\markup { \large \italic "ossia по М. Тодорова/nach M. Todorova"}  d''8 b'8.}
       >>
 
 

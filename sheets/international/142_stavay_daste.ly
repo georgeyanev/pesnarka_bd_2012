@@ -3,33 +3,45 @@
 % include paper part and global functions
 \include "include/globals.ily"
 
-"rightBraces018" = \markup {
-  \column {
-    % repeat braces
-    \translate #'(0 . -12.6 )
-    \right-brace #18
-
-    \translate #'(0 . -22.4 )
-    \right-brace #18
-
-
-  }
-  \column {
-    % repeat numbers
-    \translate #'(0 . -13.2 )
-    2
-
-    \translate #'(0 . -24.2 )
-    2
-
-
-  }
-}
-
 \bookpart {
   \label #'ref142
   \tocItem \markup "Ставай, дъще! – Stavaj, dăšte!"
-  \include "include/bookpart-paper.ily"
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.2\cm
+    bottom-margin = 1.0\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 16)
+       (minimum-distance . 8)
+       (padding . 1.5)
+       (stretchability . 12))
+  }
+
+  \header {
+    tagline = ##f
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -194,7 +206,7 @@
 
   } % score
 
-  \markup \vspace #1
+  \markup \vspace #0.5
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/142_stavai_daste_lyrics_de.ly"

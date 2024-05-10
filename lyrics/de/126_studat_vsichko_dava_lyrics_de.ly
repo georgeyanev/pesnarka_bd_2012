@@ -48,13 +48,22 @@
     \line { " " und bringst nur das, was dir das Licht gibt.}
 
     \line { " " Dein Gewand ist weiß.}
-     \vspace #0.5
+ 
+
+  }
+
+
+\override #`(baseline-skip . ,deCoupletBaselineSkip)
+ 
+  \column {
+    
    \line { " " Kalt bist du, }
     \line { " "   aber rettest uns vor dem Frost.}
 
-    \line { " " Seit Ewigkeit waren die menschlichen  }
+    \line { " " Seit Ewigkeit waren }
+     \line { " "  die menschlichen Herzen}
 
-    \line { " "  Herzen für dich verschlossen,}
+    \line { " "   für dich verschlossen,}
 
     \line { " " da du das Alte ausziehst, das Alte, }
 
@@ -62,13 +71,7 @@
 
     \line { " "  Kalt bist du, }
     \line { " "        aber rettest uns vor der Kälte.}
-
-  }
-
- \hspace #5
-\override #`(baseline-skip . ,deCoupletBaselineSkip)
- 
-  \column {
+        \vspace #0.5
 
     \line { " " Und wenn es Frühling wird}
 
@@ -77,6 +80,7 @@
     \line { " " begleitest du sie wieder,}
 
     \line { " " und kleidest sie }
+
      \line { " " in dein lichtes Gewand.}
 
     \line { " " Du sprichst wenig, denkst viel,}

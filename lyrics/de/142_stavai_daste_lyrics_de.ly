@@ -16,9 +16,9 @@
 
     \line { "   " „Stehe auf, Tochter, weil auf den Acker gegangen werden soll.}
 
-    \line { "   "Stehe auf, }
+    \line { "   "Stehe auf, weil dein Vater draußen auf mich}
 
-    \line { "   " weil dein Vater draußen auf mich und auf dich mit dem Gespann wartet.“}
+    \line { "   "  und auf dich mit dem Gespann wartet.“}
    \vspace #0.5
 
     \line { 2. Wenn die Sonne aufgeht, sollst du auf dem Acker sein.}
@@ -27,9 +27,9 @@
 
     \line { "   "Stehe auf, Tochter, damit die Sonne dich nicht im Hause findet.}
 
-    \line { "   "Stehe auf, Tochter, }
+    \line { "   "Stehe auf, Tochter, weil alle Mädchen und Jungen}
     
-      \line { "   " weil alle Mädchen und Jungen schon zum Acker aufgebrochen sind.}
+      \line { "   "  schon zum Acker aufgebrochen sind.}
 
     \vspace #0.5
 
@@ -43,8 +43,8 @@
 
     \line { "   "Stehe auf, sie bringt uns ihr neues, lebendiges Gewand.}
 
-    \line { "   "Stehe auf, }
+    \line { "   "Stehe auf, weil das Leben draußen schon auf mich}
 
-    \line { "   "weil das Leben draußen schon auf mich und auf dich mit Güte wartet.}
+    \line { "   " und auf dich mit Güte wartet.}
   }
 }
