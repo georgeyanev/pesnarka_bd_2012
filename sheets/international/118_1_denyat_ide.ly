@@ -23,13 +23,13 @@
     }
 
     \addlyrics {
-      Мо -- га аз да ка -- жа, че де -- нят и -- де веч.
+      "1. Мо" -- га аз да ка -- жа, че де -- нят и -- де веч.
 
       Слън -- це ще из -- гре -- е, да пос -- тъ -- пим доб -- ре.
     }
 
     \addlyrics {
-      Mo -- ga az da ka -- ža, če de -- njat i -- de več.
+      "1. Mo" -- ga az da ka -- ža, če de -- njat i -- de več.
 
       Slăn -- ce šte iz -- gre -- e, da pos -- tă -- pim dob -- re.
     }

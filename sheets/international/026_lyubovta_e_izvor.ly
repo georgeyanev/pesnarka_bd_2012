@@ -25,7 +25,7 @@
     }
 
     \addlyrics {
-      Лю -- бов -- та е из -- вор: тя жи -- во -- та раж -- да
+      "1. Лю" -- бов -- та е из -- вор: тя жи -- во -- та раж -- да
       и пре -- свя -- та длъж -- ност в~не -- го крот -- ко всаж -- "   да  –"
       все нап -- ред да хо -- ди "в~стре-" -- меж към До -- бро -- то,
       що е съ -- вър -- ше -- но го -- ре на Не -- бе -- то.
@@ -34,7 +34,7 @@
     }
 
     \addlyrics {
-      Lju -- bov -- ta e iz -- vor: tja ži -- vo -- ta raž -- da
+      "1. Lju" -- bov -- ta e iz -- vor: tja ži -- vo -- ta raž -- da
       i pre -- svja -- ta dlăž -- nost v~ne -- go krot -- ko vsaž -- "   da  –"
       vse nap -- red da ho -- di v~stre -- mež kăm Do -- bro -- to,
       što e să -- văr -- še -- no go -- re na Ne -- be -- to.

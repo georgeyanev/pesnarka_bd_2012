@@ -46,7 +46,7 @@
     }
 
     \addlyrics {
-      Не ли ду
+      "1. Не" ли ду
       -- мах, ми -- ла ма -- мо, __ не ли __ каз -- вах да
       не __ се -- ди на -- ша Дон -- ка край ог -- ни --
       ще, в~къ -- щи са -- мо да се гу -- ши, а да
@@ -59,7 +59,7 @@
     }
 
     \addlyrics {
-      Ne li du
+      "1. Ne" li du
       -- mah, mi -- la ma -- mo, __ ne li __ kaz -- vah da
       ne __ se -- di na -- ša Don -- ka kraj og -- ni --
       šte, v~kă -- šti sa -- mo da se gu -- ši, a da

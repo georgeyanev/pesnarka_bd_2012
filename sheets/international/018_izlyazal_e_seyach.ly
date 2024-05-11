@@ -78,7 +78,7 @@
     }
 
     \addlyrics {
-      Из -- ля -- зъл е се -- яч да се -- е __
+      "1. Из" -- ля -- зъл е се -- яч да се -- е __
       пре -- крас -- но бла -- "го  –" нов жи -- вот. __ И
       се -- е той, и ти -- хо пе -- е __ пред все -- ки
       дом и все -- ки род, __  и все -- ки род: __ Без --
@@ -89,7 +89,7 @@
     }
 
     \addlyrics {
-      Iz -- lja -- zăl e se -- jač da se -- e __
+      "1. Iz" -- lja -- zăl e se -- jač da se -- e __
       pre -- kras -- no bla -- "go  –" nov ži -- vot. __ I
       se -- e toj, i ti -- ho pe -- e __ pred vse -- ki
       dom i vse -- ki rod, __  i vse -- ki rod: __ Bez --
@@ -140,32 +140,32 @@
 
     \hspace #3
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+
+
     \column {
 
-      \column {
+      \line { 2. I kojto čue, v mig potrăpva }
+      \line {   "   " ot toja blag i mil napev; }
+      \line {   "   " i prosijava, i văzkrăsva, }
+      \line {   "   " i blagoslavja toz posev. }
+      \vspace #0.5
+      \line { "   " \italic {Refrain: } }
+      \line {  "   " Bezcenen dar e Ljubovta, }
+      \line { "   " krasivo čuvstvo – običta }
+      \line { "   " i blago delo – milostta, }
+      \line {  "   " obilen izvor – Mădrostta.}
 
-        \line { 2. I kojto čue, v mig potrăpva }
-        \line {   "   " ot toja blag i mil napev; }
-        \line {   "   " i prosijava, i văzkrăsva, }
-        \line {   "   " i blagoslavja toz posev. }
-        \vspace #0.5
-        \line { "   " \italic {Refrain: } }
-        \line {  "   " Bezcenen dar e Ljubovta, }
-        \line { "   " krasivo čuvstvo – običta }
-        \line { "   " i blago delo – milostta, }
-        \line {  "   " obilen izvor – Mădrostta.}
+      \vspace #0.5
+      \line { "   " \italic {Pripev ...} }
 
-        \vspace #0.5
-        \line { "   " \italic {Pripev ...} }
+      \vspace #0.5
+      \line { 3. Ljubov Vselenata obliva, }
+      \line {   "   " ot obič gree vsjaka tvar; }
+      \line {   "   " život v života se preliva, }
+      \line {   "   " tuk njama veče mlad i star. }
+      \vspace #0.5
+      \line { "   " \italic {Pripev ...} }
 
-        \vspace #0.5
-        \line { 3. Ljubov Vselenata obliva, }
-        \line {   "   " ot obič gree vsjaka tvar; }
-        \line {   "   " život v života se preliva, }
-        \line {   "   " tuk njama veče mlad i star. }
-        \vspace #0.5
-        \line { "   " \italic {Pripev ...} }
-      }
     }
     \"rightBraces018"
 

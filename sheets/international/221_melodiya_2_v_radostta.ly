@@ -80,7 +80,7 @@
     }
 
     \addlyrics {
-      Рад -- ва се Зе -- мя -- та, рад --
+      "1.Рад" -- ва се Зе -- мя -- та, рад --
       ва се Не -- бе -- то в~Свет -- ли
       -- на. Се -- ме -- то, по -- ся -- то
       "в~плод-" -- на ни -- ва, рас -- не
@@ -104,7 +104,7 @@
       -- зи ден бла -- го -- сло -- вен.}
 
       \addlyrics {
-        Rad -- va se Ze -- mja -- ta, rad --
+        "1. Rad" -- va se Ze -- mja -- ta, rad --
         va se Ne -- be -- to v~Svet -- li
         -- na. Se -- me -- to, po -- sja -- to
         v~plod -- na ni -- va, ras -- ne
@@ -129,17 +129,17 @@
 
 
         \header {
-          title = \titleFunc "Мелодия 3 – В радостта на деня" "Melodija 3 – V radostta na denja"
+          title = \titleFunc "Мелодия 2 – В радостта на деня" "Melodija 2 – V radostta na denja"
         }
 
         \midi{}
 
       } % score
-      
+
       \markup \vspace #1
 
       \markup \abs-fontsize #10 {
-\hspace #15
+        \hspace #15
         \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
         \column {
 
@@ -154,10 +154,10 @@
           \vspace #0.5
           \line \italic {   "      " Припев:}
           \line {   "      " Ето го, грее денят ...}
-           \vspace #0.5
-           
-           
-           \line {  2. Slănčevoto jato Boga blagoslavja i zari,}
+          \vspace #0.5
+
+
+          \line {  2. Slănčevoto jato Boga blagoslavja i zari,}
 
           \line {   "   " Božijata Slava novija svešten život da ozari.}
 
@@ -167,12 +167,12 @@
           \vspace #0.5
           \line \italic {   "      " Refrain:}
           \line {   "      " Eto go, gree denjat ...}
-           
+
         }
-      
+
       } % markup
 
-\markup \vspace #3
+      \markup \vspace #3
 
       % include foreign translation(s) of the song
       \include "../../lyrics/de/186_melodiya_2_radostta_na_denya_lyrics_de.ly"

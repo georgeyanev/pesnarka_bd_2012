@@ -62,7 +62,7 @@
     }
 
     \addlyrics {
-      Ра -- дост, "ра-" -- дост за ду -- ша
+      "1. Ра" -- дост, "ра-" -- дост за ду -- ша
       --  та __  но -- си
       чис -- то -- та -- та. Ра -- дост,
       "ра-" -- дост, "ра-" -- дост, "ра-" -- дост
@@ -74,7 +74,7 @@
     }
 
     \addlyrics {
-      Ra -- dost, ra -- dost za du -- ša
+      "1. Ra" -- dost, ra -- dost za du -- ša
       --  ta __  no -- si
       čis -- to -- ta -- ta. Ra -- dost,
       ra -- dost, ra -- dost, ra -- dost
@@ -91,6 +91,29 @@
     \midi{}
 
   } % score
+  \markup \vspace #1
+  \markup \abs-fontsize #10 {
+    \hspace #5
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
+    \column {
+
+      \line {   2. Радост, радост за душата }
+      \line {   "   "  носи светлината. }
+      \line {   "   "  Светли бъдете като звездите,}
+      \line {   "   "   светли бъдете като слънцата. }
+    }
+    \hspace #3
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+
+
+    \column {
+      \line {   2. Radost, radost za dušata }
+      \line {   "   "   nosi svetlinata. }
+      \line {   "   "  Svetli bădete kato zvezdite,}
+      \line {   "   "   svetli bădete kato slăncata. }
+
+    }
+  }
 
   \markup \vspace #3
 

@@ -73,7 +73,7 @@
     }
 
     \addlyrics {
-      На -- го -- ре о -- ще да вър -- вим, към вър -- хо -- ве -- те бе --
+      "1. На" -- го -- ре о -- ще да вър -- вим, към вър -- хо -- ве -- те бе --
       ли, е -- фи -- ра бял да поз -- дра -- вим и снеж -- ни -- те крис --
       та -- ли, е -- ли. Ху -- бост -- та на Бо -- жи свят,
       бе -- ли -- на -- та, наш е цвят;  веч -- на си -- ла и --
@@ -82,7 +82,7 @@
 
 
     \addlyrics {
-      Na -- go -- re o -- šte da văr -- vim, kăm văr -- ho -- ve -- te be --
+      "1. Na" -- go -- re o -- šte da văr -- vim, kăm văr -- ho -- ve -- te be --
       li, e -- fi -- ra bjal da poz -- dra -- vim i snež -- ni -- te kris --
       ta -- li, e -- li. Hu -- bost -- ta na Bo -- ži svjat,
       be -- li -- na -- ta, naš e cvjat;  več -- na si -- la i --

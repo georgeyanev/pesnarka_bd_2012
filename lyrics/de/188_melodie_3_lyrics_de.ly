@@ -9,39 +9,39 @@
 
   \column {
 
-    \line { " "Wenn der Tag erwacht, }
+    \line { 1. Wenn der Tag erwacht, }
 
-    \line { " "beginnen die Sonnenstrahlen zu singen.}
+    \line {   "   " beginnen die Sonnenstrahlen zu singen.}
 
-    \line { " "Aus den Quellen des Lebens}
+   \line {   "   " Aus den Quellen des Lebens}
 
-    \line { " "strömt in Fülle die Freude. }
+   \line {   "   " strömt in Fülle die Freude. }
 
-    \line { " "Und in dieser feierlichen Morgenstunde}
+    \line {   "   " Und in dieser feierlichen Morgenstunde}
 
-    \line { " "singt die ganze Natur.}
+    \line {   "   " singt die ganze Natur.}
 
-    \line { " "Zu den beschienenen Gipfeln}
+    \line {   "   " Zu den beschienenen Gipfeln}
 
-    \line { " "fliegen unsere Seelen.}
+   \line {   "   " fliegen unsere Seelen.}
 
    \vspace #0.5
 
-    \line { " "Wenn der Tag erwacht,}
+    \line { 2. Wenn der Tag erwacht,}
 
-    \line { " "vernehmen wir den himmlischen Ruf – }
+   \line {   "   " vernehmen wir den himmlischen Ruf – }
 
-    \line { " "er bewegt und inspiriert uns}
+   \line {   "   " er bewegt und inspiriert uns}
 
-    \line { " "zu einem lichten und schönen Leben.}
+    \line {   "   " zu einem lichten und schönen Leben.}
 
-    \line { " "Er wird kommen, nach den Stürmen, nach den Kämpfen.}
+    \line {   "   " Er wird kommen, nach den Stürmen, nach den Kämpfen.}
 
-    \line { " "Frieden wird die Erde überfluten.}
+    \line {   "   " Frieden wird die Erde überfluten.}
 
-    \line { " "Mächtige Kraft ist das Gute, }
+    \line {   "   " Mächtige Kraft ist das Gute, }
 
-    \line { " "wir glauben –  es wird siegen. }
+    \line {   "   " wir glauben –  es wird siegen. }
 
   }
 }

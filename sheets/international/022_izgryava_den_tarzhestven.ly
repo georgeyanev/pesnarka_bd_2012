@@ -29,7 +29,7 @@
       f'4. g'8 a'4 \staccato a'4. d'8 | f'4. d'8 f'4 e'2 | \time 2/4 d'4. a8 | \time 5/4 d'4 d'2 r8 \bar "|."
     }
     \addlyrics {
-      Из -- гря -- ва ве -- че ден тър -- жест -- вен, __ пред -- ре -- че
+      "1. Из" -- гря -- ва ве -- че ден тър -- жест -- вен, __ пред -- ре -- че
       -- ни -- ят ден Бо -- жест -- вен, на дни --
       те ди -- а -- де -- ма, със свет -- ли -- на го
       -- ля -- ма. Е -- ла -- те да жи -- ве -- ем във
@@ -41,7 +41,7 @@
       -- мла -- дя -- ва.
     }
     \addlyrics {
-      Iz -- grja -- va ve -- če den tăr -- žest -- ven, __ pred -- re -- če
+      "1. Iz" -- grja -- va ve -- če den tăr -- žest -- ven, __ pred -- re -- če
       -- ni -- jat den Bo -- žest -- ven, na dni --
       te di -- a -- de -- ma, săs svet -- li -- na go
       -- lja -- ma. E -- la -- te da ži -- ve -- em văv

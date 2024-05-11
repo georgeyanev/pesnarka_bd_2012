@@ -51,7 +51,7 @@
     }
 
     \addlyrics {
-      Си -- не мой, па -- зи жи -- во -- та, "скри-" -- ти -- я у
+      "1. Си" -- не мой, па -- зи жи -- во -- та, "скри-" -- ти -- я у
       те -- бе жар; той без -- це -- нен е по сми -- съл и ве --
       ли -- ко -- ле -- пен дар. Дух без -- смър -- тен, Дух не -- тле -- нен,
       туй, ко -- е -- то веч -- но бди и ра -- бо -- ти без у --
@@ -59,7 +59,7 @@
     }
 
     \addlyrics {
-      Si -- ne moj, pa -- zi ži -- vo -- ta, skri -- ti -- ja u
+      "1. Si" -- ne moj, pa -- zi ži -- vo -- ta, skri -- ti -- ja u
       te -- be žar; toj bez -- ce -- nen e po smi -- săl i ve --
       li -- ko -- le -- pen dar. Duh bez -- smăr -- ten, Duh ne -- tle -- nen,
       tuj, ko -- e -- to več -- no bdi i ra -- bo -- ti bez u --
