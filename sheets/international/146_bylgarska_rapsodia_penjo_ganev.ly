@@ -5,7 +5,42 @@
 \bookpart {
   \label #'ref146
   \tocItem \markup "Българска рапсодия – Bălgarska rapsodija"
-  \include "include/bookpart-paper.ily"
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.2\cm
+    bottom-margin = 1.0\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 16)
+       (minimum-distance . 8)
+       (padding . 2)
+       (stretchability . 12))
+  }
+
+  \header {
+    tagline = ##f
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -93,7 +128,7 @@
       e8\prall~ e8 e8 (d16) | \noBreak
       e8^\accent e e d16  |  \break
 
-      \bar ".|:"
+      \bar ".|:-||"
       c8 ^\markup{ \dynamic f } ^\mp d^\markup{ \large \italic{при повторението/bei der Wiederholung} } e d16 | \noBreak
       e8 d c b16 | \noBreak
       a8 b c d16 | \break
@@ -208,7 +243,7 @@
       a4 a |
       \time 3/4 \break \bar ":|."
 
-      \override TupletBracket.positions = #'(3 . 3)
+      %\override TupletBracket.positions = #'(3 . 3)
       \tempo "ad libitum"
       \tuplet 3/2 8 { c16\>\mp([b g a b g]) c16([b g a b g]) c16([b g) b(a g\!\p])  } | \noBreak
       \tempo"rit." a4 a2 \fermata | \bar "||" \time 7/16 \break
