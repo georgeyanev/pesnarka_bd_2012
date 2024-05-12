@@ -156,7 +156,7 @@
       \line {  "   " obilen izvor – Mădrostta.}
 
       \vspace #0.5
-      \line { "   " \italic {Pripev ...} }
+      \line { "   " \italic {Refrain ...} }
 
       \vspace #0.5
       \line { 3. Ljubov Vselenata obliva, }
@@ -164,7 +164,7 @@
       \line {   "   " život v života se preliva, }
       \line {   "   " tuk njama veče mlad i star. }
       \vspace #0.5
-      \line { "   " \italic {Pripev ...} }
+      \line { "   " \italic {Refrain ...} }
 
     }
     \"rightBraces018"

@@ -153,7 +153,7 @@
       \line {   "   " v taz roza e izljala. }
       \vspace #0.5
 
-      \line { "        " \italic {Pripev ... } }
+      \line { "        " \italic {Refrain ... } }
       \vspace #0.5
 
 
@@ -165,7 +165,7 @@
 
       \line {   "   "v koito Bog živee.}
       \vspace #0.5
-      \line { "        " \italic {Pripev ... } }
+      \line { "        " \italic {Refrain ... } }
 
       \vspace #0.5
       \line {   4. Nagore – v tazi belina!}
@@ -178,7 +178,7 @@
 
       \vspace #0.5
 
-      \line { "        " \italic {Pripev ... } }
+      \line { "        " \italic {Refrain ... } }
 
 
     }   \"rightBraces058" %column
@@ -218,7 +218,7 @@
 
       \line {   "   "i Boga šte proslavim.}
       \vspace #0.5
-      \line { "        " \italic {Pripev ... } }
+      \line { "        " \italic {Refrain ... } }
 
 
 

@@ -128,7 +128,7 @@
       e8\prall~ e8 e8 (d16) | \noBreak
       e8^\accent e e d16  |  \break
 
-      \bar ".|:-||"
+      \bar ".|:-|"
       c8 ^\markup{ \dynamic f } ^\mp d^\markup{ \large \italic{при повторението/bei der Wiederholung} } e d16 | \noBreak
       e8 d c b16 | \noBreak
       a8 b c d16 | \break
@@ -186,9 +186,9 @@
       e4\prall e | \noBreak  \bar ":|."
 
       e8\staccato[d]\staccato c\staccato[b]\staccato | \noBreak
-      c[d] e[d] | \break
+      c[d] e[d] | \noBreak
 
-      c[b] d[c] | \noBreak
+      c[b] d[c] | \break
       b[g] a4~ | \noBreak
       a8[b] c[d] | \noBreak
       \tempo "poco a poco rit." e [d] c[b] | \noBreak
@@ -197,16 +197,16 @@
       a4 a \! \fermata \breathe | \bar "||" \time 3/4 \break
 
       \tempoFunc "Andante" 4 "50" \acciaccatura { dis8\mp } e2 d16\tenuto([c\tenuto b\tenuto c\tenuto]) \breathe | \noBreak
-      \acciaccatura { dis8 } e2 d16\tenuto([c\tenuto  b\tenuto  c\tenuto]) \breathe | \noBreak
+      \acciaccatura { dis8 } e2 d16\tenuto([c\tenuto  b\tenuto  c\tenuto]) \breathe | \break
       \acciaccatura { dis8 } e2 d16\tenuto([c\tenuto b\tenuto g\tenuto]) | \noBreak
-      a4. b8 c4 \break
+      a4. b8 c4 \noBreak
 
       d8\tenuto([e\tenuto]) \acciaccatura { d16\tenuto([e\tenuto] } d8\tenuto)[c\tenuto] b\tenuto [g\tenuto] | \noBreak
-      a2 a4 \fermata \bar "||" \noBreak
+      a2 a4 \fermata \bar "||" \break
       \acciaccatura { dis8 } e2 d16\tenuto c\tenuto b\tenuto c\tenuto \breathe | \noBreak
-      \acciaccatura { dis8 } e2 d16\tenuto c\tenuto b\tenuto c\tenuto  \breathe | \break
+      \acciaccatura { dis8 } e2 d16\tenuto c\tenuto b\tenuto c\tenuto  \breathe | \noBreak
 
-      \acciaccatura { dis8 } e2 d16 c b g | \noBreak
+      \acciaccatura { dis8 } e2 d16 c b g | \break
       a4. b8 c4 | \noBreak
       d8 e d c b\tenuto g\tenuto | \noBreak
       a2 a4 \fermata | \noBreak \bar "||" \time 2/4 \break
@@ -288,7 +288,7 @@
       Ли -- ля -- но, не чу -- я, ах, __ от таз во -- да а -- ко не пи -- я, __
       скръб ще ми пъл -- ни сър -- це -- то. __ ""
       \repeat unfold 97 { \skip 1 }
-      Ли -- "ля-" -- но мо -- ме, ти "в~пла-" -- "ни-" -- "на-" -- та
+      Ли -- ля -- но мо -- ме, ти "в~пла-" -- ни -- на -- та
       там го -- ре ще ме за -- ве -- деш, из -- во -- рът де -- то из -- ви -- ра.
       \repeat unfold 30 { \skip 1 }
       Го -- ре "в~пла-" -- ни -- на -- та, "Слън-" -- це дей о --
@@ -319,7 +319,7 @@
       Li -- lja -- no, ne ču -- ja, ah, __ ot taz vo -- da a -- ko ne pi -- ja, __
       skrăb šte mi păl -- ni săr -- ce -- to. __ ""
       \repeat unfold 97 { \skip 1 }
-      Li -- "lja-" -- no "mo-" -- me, ti v~pla -- ni -- na -- ta
+      Li -- lja -- no "mo-" -- me, ti v~pla -- ni -- na -- ta
       tam go -- re šte me za -- ve -- deš, iz -- vo -- răt de -- to iz -- vi -- ra.
       \repeat unfold 30 { \skip 1 }
       Go -- re v~pla -- ni -- na -- ta, Slăn -- ce dej o --

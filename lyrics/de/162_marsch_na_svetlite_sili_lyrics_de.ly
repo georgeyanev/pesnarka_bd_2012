@@ -1,6 +1,6 @@
 \version "2.24.3"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Marsch der lichten Mächte" }
+\markup \fill-line { \fontsize #deTitleFontSize "Marsch der lichten Mächte II" }
 
 \markup \null
 \markup \null
@@ -29,7 +29,7 @@
     \line {
       " "Und jeder wird mit Freude auf dem göttlichen Acker arbeiten,
     }
-    \line { " "es wird ewige Jugend herrschen; niemad wird sterben. }
+    \line { " "es wird ewige Jugend herrschen; niemand wird sterben. }
 
     \line { " "In Frieden und Liebe werden wir alle gemeinsam leben }
 

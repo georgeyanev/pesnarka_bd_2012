@@ -95,7 +95,7 @@
       \line {   "   " svoboda, mir i red  }
       \line {   "   " šte vladejat vred. }
       \vspace #0.5
-      \line { "   " \italic {Pripev ... } }
+      \line { "   " \italic {Refrain ... } }
     }
     %column
   } % markup

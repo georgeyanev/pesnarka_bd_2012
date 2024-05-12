@@ -10,10 +10,10 @@
 
   \column {
 
-  \line { "Der Freiheit bedarf die Seele." }
-  \line { "Der Freiheit bedarf die Seele, die Seele, die Seele. " }
-   \line { " Sie befindet sich nur in der Liebe " }
-   \line { " Das ist nur für die Seele " }
+  \line { Der Freiheit bedarf die Seele. }
+  \line { Der Freiheit bedarf die Seele, die Seele, die Seele. }
+   \line { Sie befindet sich nur in der Liebe. }
+   \line { Das ist nur für die Seele }
 
   }
 }

@@ -21,7 +21,7 @@
 
  \line { " "Hört, der Herr spricht jetzt zu euch:}
 
- \line { " "Meine Hand hat nicht aufgehört, zu geben.}
+ \line { " "„Meine Hand hat nicht aufgehört, zu geben.}
 
  \line { " "Ich bin voll mit Überfluss}
 
@@ -33,7 +33,7 @@
 
  \line { " "Seid gesegnet ihr, die ihr mich liebt.}
 
- \line { " "Steht auf, aufersteht, für den neuen Weg der Liebe.}
+ \line { " "Steht auf, aufersteht, für den neuen Weg der Liebe.“}
 
 
 }

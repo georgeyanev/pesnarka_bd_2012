@@ -172,9 +172,9 @@
       та Ис -- ти -- на. Ръ -- ко -- во -- ди __  ни
       във всич -- ко, ко -- е -- то мис -- лим и вър
       -- шим за Тво -- е -- то И -- ме, да е за
-      ус пе -- ха на Тво -- е -- то Цар -- ство
+      ус -- пе -- ха на Тво -- е -- то Цар -- ство
       на Зе -- мя -- та. Хра -- ни ду -- ши -- те ни
-      с~не -- бес -- ни -- я Си хляб. "Ук-" -- ре пя --
+      с~не -- бес -- ни -- я Си хляб. "Ук-" -- ре -- пя --
       вай ни със Си -- ла -- та Си, да ус -- пя
       -- ва -- ме в~жи -- во -- та си. И ка -- то ни
       да -- ваш всич -- ки -- те Тво -- и бла --
@@ -213,16 +213,16 @@
         ta Is -- ti -- na. Ră -- ko -- vo -- di __  ni
         văv vsič -- ko, ko -- e -- to mis -- lim i văr
         -- šim za Tvo -- e -- to I -- me, da e za
-        us pe -- ha na Tvo -- e -- to Car -- stvo
+        us -- pe -- ha na Tvo -- e -- to Car -- stvo
         na Ze -- mja -- ta. Hra -- ni du -- ši -- te ni
-        s~ne -- bes -- ni -- ja Si hljab. "Uk-" -- re pja --
+        s~ne -- bes -- ni -- ja Si hljab. "Uk-" -- re -- pja --
         vaj ni săs Si -- la -- ta Si, da us -- pja
         -- va -- me v~ži -- vo -- ta si. I ka -- to ni
         da -- vaš vsič -- ki -- te Tvo -- i bla --
-        "go-" -- "slo-" -- ve -- ni -- ja, pri -- lo -- ži
+        "go-" -- slo -- ve -- ni -- ja, pri -- lo -- ži
         "Lju-" -- bov -- ta Si da  __ ni e ve -- čen --
         za -- kon. Za -- što -- to na Teb pri -- na --
-        dle -- ži Car -- "stvo-" -- to, Si -- la -- ta i Sla
+        dle -- ži Car -- stvo -- to, Si -- la -- ta i Sla
         -- va -- ta za -- vi -- na -- gi. A -- min.}
 
         \header {

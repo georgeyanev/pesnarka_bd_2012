@@ -39,7 +39,7 @@
 
 \line { " " Und Gott sah, dass alles, was Er gemacht hatte, gut war.  }
 
-\line { " " Da ward Abend und es ward Morgen, der sechste Tag.}
+\line { " " Und es ward Abend und es ward Morgen, der sechste Tag.}
 
   }
 }

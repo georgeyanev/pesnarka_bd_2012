@@ -15,7 +15,7 @@
 
     \line { " " Und Gott segnete den siebenten Tag und heiligte ihn,}
 
-    \line { " "weil er an ihm ruhte von allen seinen Werken.}
+    \line { " "weil Er an ihm ruhte von allen Seinen Werken.}
 
     \line { " "Und Gott sah, dass alles, was Er gemacht hatte, gut war.}
 

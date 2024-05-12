@@ -11,7 +11,7 @@
     \line { " " }
 
      \line { " Ich werde die Wärme bewahren." }
-     \line { " Ich werde die Wärme bewahren." }
+     \line { " Ich werde diese Wärme bewahren." }
 
   }
 }

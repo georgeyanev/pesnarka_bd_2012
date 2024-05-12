@@ -34,7 +34,7 @@
           \override StaffSymbol.thickness = #(magstep -2)
           firstClef = ##f
         }
-        {\autoBeamOff c4. ^\markup { \large \italic "ossia по М. Т." } b8 b4}
+        {\autoBeamOff c4. ^\markup { \large \italic "ossia по М. Т./nach M. T." } b8 b4}
       >>
       \break | % 7
       b2 a8  b8 | % 8
@@ -122,7 +122,7 @@
       răt čist, s~pog -- led ne -- vi --
       nen, ve -- dăr, lă -- čist. V~sku --
       ta pla -- nin -- ski ro -- dil se
-      v~zo -- ri, tre -- "pet-" -- na ra --
+      v~zo -- ri, tre -- pet -- na ra --
       dost, bod -- rost zvu -- či. Bis --
       tri stru -- i le -- e, kap -- či --
       ci bles -- tjat. __   stjat. __   Raz --

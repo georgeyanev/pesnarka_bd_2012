@@ -1,6 +1,6 @@
 \version "2.24.3"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Sage mir du, heller göttlicher Strahl" }
+\markup \fill-line { \fontsize #deTitleFontSize "Sage mir du, heller göttlicher Strahl II" }
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {

@@ -20,7 +20,7 @@
  \line { " " Und Gott machte, dass die Sterne leuchten}
  \line { " " an der Himmelsweite. Und Gott sah, dass alles gut war.}
  
-  \line { " " Da ward Abend und es ward Morgen, der vierte Tag.}
+  \line { " " Und es ward Abend und es ward Morgen, der vierte Tag.}
 
   }
 }

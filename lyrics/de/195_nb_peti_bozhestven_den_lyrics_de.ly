@@ -23,7 +23,7 @@
 
   \line { " "Und Gott segnete sie.}
 
-  \line { " " Da ward Abend und es ward Morgen, der fünfte Tag.}
+  \line { " " Und es ward Abend und es ward Morgen, der fünfte Tag.}
 
   }
 }

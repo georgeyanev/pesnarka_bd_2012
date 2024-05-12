@@ -152,7 +152,7 @@
         e, ko -- i -- to Me lju -- bi
         -- te. Sta -- ne -- te, văz --
         krăs -- ne -- te za no -- vi -- ja
-        păt na "Lju-" -- "bov-" -- ta“.}
+        păt na "Lju-" -- bov -- ta“.}
 
         \header {
           title = \titleFunc "Гласът на Живия Господ – Новото Възкресение" "Glasăt na Živija Gospod – Novoto Văzkresenie"

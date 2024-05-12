@@ -146,7 +146,7 @@
       \line {   "   " podkanva vsekigo: „Stani!“.}
 
       \vspace #0.5
-      \line { "   " \italic {Pripev ...} }
+      \line { "   " \italic {Refrain ...} }
       \vspace #0.5
 
       \line { 4. Lăči ot  ljubovta ni vlivat }
@@ -155,7 +155,7 @@
       \line {   "   " văv krepost i videlina. }
 
       \vspace #0.5
-      \line { "   " \italic {Pripev ...} }
+      \line { "   " \italic {Refrain ...} }
       \vspace #0.5
 
       \line { 5.  O, tez lăči ot Boga idat, }
@@ -163,7 +163,7 @@
       \line {   "   " i šepnat sladko kak Toj vika: }
       \line {   "   " „Elate, Moite deca!“. }
       \vspace #0.5
-      \line { "   " \italic {Pripev ...} }
+      \line { "   " \italic {Refrain ...} }
       \vspace #0.5
     }
   } % markup

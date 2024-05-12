@@ -129,7 +129,7 @@
       \line {   "   " po-skoro obnovi ni! }
 
       \vspace #0.5
-      \line { "   " \italic {Pripev ... } }
+      \line { "   " \italic {Refrain ... } }
     }    %column
 
   } % markup

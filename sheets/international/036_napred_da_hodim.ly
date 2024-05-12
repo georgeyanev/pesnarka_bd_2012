@@ -128,7 +128,7 @@
           \line {   "   "da pobedime s pravo.}
           \vspace #0.5
 
-          \line { "   " \italic {Pripev ... }}
+          \line { "   " \italic {Refrain ... }}
           \vspace #0.5
 
 
@@ -141,7 +141,7 @@
           \line {   "   "i svobodata nova.}
 
           \vspace #0.5
-          \line { "   " \italic {Pripev ...}}
+          \line { "   " \italic {Refrain ...}}
 
           \line {  4. Văv bezdnata da slezem,}
 
@@ -152,7 +152,7 @@
           \line {   "   "ot măka da izbavim.}
 
           \vspace #0.5
-          \line { "   " \italic {Pripev ...}}
+          \line { "   " \italic {Refrain ...}}
           \vspace #0.5
 
           \line {   5. Togava da otvorim}
@@ -164,7 +164,7 @@
           \line {   "   "sveta na Svetlinite.}
           \vspace #0.5
 
-          \line { "   " \italic  {Pripev ...}}
+          \line { "   " \italic  {Refrain ...}}
 
 
         } %column

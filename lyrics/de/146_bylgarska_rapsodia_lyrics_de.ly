@@ -17,7 +17,7 @@
 
     \vspace #0.5
 
-    \line { " "Die Quelle strömt und quillt,}
+    \line { " "Die Quelle strömt und quillt}
 
     \line { " "und vergießt das reine Wasser}
 

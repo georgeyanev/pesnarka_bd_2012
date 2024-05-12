@@ -95,7 +95,7 @@
       \line {   "   " ot koito niknat}
       \line {   "   " dobrinite blagi.}
       \vspace #0.5
-      \line { "   " \italic {Pripev ...} }
+      \line { "   " \italic {Refrain ...} }
       \vspace #0.5
 
       \line { 3. Taz velika tajna }
@@ -107,7 +107,7 @@
       \line {   "   "i na slănčevata}
       \line {   "   "svetlina čudesna.}
       \vspace #0.5
-      \line { "   " \italic {Pripev ...} }
+      \line { "   " \italic {Refrain ...} }
 
 
 
@@ -157,7 +157,7 @@
       \line {   "   "i mu pălni tajno}
       \line {   "   "s dobrini dušata.}
       \vspace #0.5
-      \line { "   " \italic {Pripev ...} }
+      \line { "   " \italic {Refrain ...} }
       \vspace #0.5
       \line { 5. Plodove tăj sladki, }
       \line {   "   " v Ljubovta uzreli, }
@@ -167,7 +167,7 @@
       \line {   "   "večno šte živee,}
       \line {   "   "pred prestola Boži}
       \line {   "   "pesni šte da pee.}
-      \line { "   " \italic {Pripev ...} }
+      \line { "   " \italic {Refrain ...} }
     } %column
 
   } % markup

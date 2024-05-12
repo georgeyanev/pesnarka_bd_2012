@@ -33,7 +33,7 @@
 
     \line { " "Und Gott nannte das Licht [svetlina] Tag und die Finsternis Nacht.}
 
-    \line { " "Es ward Abend und es ward Morgen, der erste Tag.}
+    \line { " "Und es ward Abend und es ward Morgen, der erste Tag.}
 
   }
 }

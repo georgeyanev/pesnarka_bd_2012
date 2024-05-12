@@ -122,10 +122,10 @@
       i vse na -- pred __ se tja kăm văr -- ha
       văz -- vi -- sja -- va.
 
-      "3. Tăj" ve -- "ko-" -- ve bez -- broj "le-" -- tjat
-      i vre -- me -- to ja pre -- "o-" -- "bra-" -- zja -- va.
+      "3. Tăj" ve -- "ko-" -- ve bez -- broj le -- tjat
+      i vre -- me -- to ja pre -- o -- bra -- zja -- va.
       I tăj po -- ras  -- na tja __ de -- vi -- ca __ mi -- la.
-      Či -- sta "ro-" -- sa, du -- ša kra -- si -- va,
+      Či -- sta ro -- sa, du -- ša kra -- si -- va,
       tvo -- re -- ni -- e na Bo -- ga, __
       raz -- li -- va mir __ i svet -- la ra -- dost
       po __ sve -- ta.

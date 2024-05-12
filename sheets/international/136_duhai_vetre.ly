@@ -35,8 +35,10 @@
           d8  b8  cis8 ais8  b2 | \break
         }
         {
-          d8 b8 cis8  ais8  b4. \breathe b8
-          \mark \markup \huge\italic {"                      maestoso, ad libitum"} |
+          d8 b8 cis8  ais8  b4. \breathe
+          \once \override Score.MetronomeMark.outside-staff-priority = #99
+          %\once \override Score.MetronomeMark.X-extent=#'(-3.5 . 0)
+          \tempo "maestoso, ad libitum" b8 |
           d2 cis4 b4 |
 
 

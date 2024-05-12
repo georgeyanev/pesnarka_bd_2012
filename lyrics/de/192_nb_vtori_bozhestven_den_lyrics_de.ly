@@ -17,7 +17,7 @@
   \line { " "über der Weite von dem Wasser unter der Weite.}
   \line { " "Und es geschah so.}
   \line { " "Und Gott nannte die Weite Himmel.  }
-  \line { " "Und es ward Abend und ward Morgen, der zweite Tag.}
+  \line { " "Und es ward Abend und es ward Morgen, der zweite Tag.}
 
   }
 }

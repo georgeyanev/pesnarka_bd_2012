@@ -160,7 +160,7 @@
       a2  a4 \break \bar "||"  % 68
 
       \times 2/3  {
-        \tempo "Rubato" d'8 ( [ cis'8\prall ])
+        \tempo "Rubato" d'8 ( [ cis'8 \prall ])
         bes8
       }
       a4. a'8

@@ -82,7 +82,7 @@
     \addlyrics {}
 
     \header {
-      title = \titleFunc "Марш на светлите сили" "Marš na svetlite sili  – Marsch der lichen Mächte"
+      title = \titleFunc "Марш на светлите сили" "Marš na svetlite sili  – Marsch der lichten Mächte"
     }
 
     \midi{}

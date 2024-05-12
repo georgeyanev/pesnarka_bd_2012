@@ -44,9 +44,7 @@
 
 \line { " "Denn Dein ist das Reich und die Kraft, und die Herrlichkeit in Ewigkeit.}
  \vspace #0.5
-\line { " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " "
-
-" " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " "Amen}
+\line { " " Amen}
 
 
   }

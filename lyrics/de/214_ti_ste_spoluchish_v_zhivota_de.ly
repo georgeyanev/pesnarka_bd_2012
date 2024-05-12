@@ -4,14 +4,12 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-    \hspace #25
+    \hspace #5
     \override #`(baseline-skip . ,deCoupletBaselineSkip)
     \column {
-      \line {   "   " Schön ist das Leben der Engel.  }
-      \line {   "   " Schön ist das Leben unserer Seele.  }
+      \line {   "   " Schön ist das Leben der Engel. Schön ist das Leben unserer Seele.}
       \line {   "   " Dir wird alles im Leben glücken. }
-      \line {   "   " Höre die Stimme der Engel  }
-      \line {   "   " und Dir wird alles im Leben glücken.  }
+      \line {   "   " Höre die Stimme der Engel und dir wird alles im Leben glücken. }
       \line {   "   " Schön ist das Leben der Engel.  }
     }
 }

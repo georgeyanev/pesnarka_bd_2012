@@ -1,6 +1,6 @@
 \version "2.24.3"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Melodie – Schönes Leben" }
+\markup \fill-line { \fontsize #deTitleFontSize "Melodie 1 – Schönes Leben" }
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {

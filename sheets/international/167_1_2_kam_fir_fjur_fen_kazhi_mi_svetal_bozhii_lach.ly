@@ -99,7 +99,7 @@
             ži lăč, bla -- go -- to
             na ži -- vo --   ta, svet --
             li -- ja prav păt na čis -- ti --
-            te "du-" -- ši, čis -- ti -- te "du-" --
+            te du -- ši, čis -- ti -- te du --
             ši, čis -- ti -- te du -- ši, čis --
             ti -- te du -- ši.
           }
