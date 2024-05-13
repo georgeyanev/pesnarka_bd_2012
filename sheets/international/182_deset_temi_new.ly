@@ -451,7 +451,7 @@
 
   \markup \empty-two
   \label #'ref183
-  \tocItem \markup "Вариации"
+  \tocItem \markup "Вариации – Variacii "
   \score {
     \include "include/score-layout.ily"
     \new Voice \absolute {

@@ -158,7 +158,7 @@
       f'8.  f'16  f'16 ( [  e'16 ) ]
       d'16  cis'16  d'8 ( [  bes8 ) ] | % 67
       a2  a4 \break \bar "||"  % 68
-
+      \override TupletBracket.positions = #'(4.5 . 4.5)
       \times 2/3  {
         \tempo "Rubato" d'8 ( [ cis'8 \prall ])
         bes8

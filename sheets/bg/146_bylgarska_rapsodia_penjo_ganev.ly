@@ -157,7 +157,7 @@
 
       c [b\tenuto] c4\tenuto d4.\tenuto| \break e4 e4 ~ e4. |
       a,4 b c4. | \time 9/8 b4 d c b4. | \noBreak
-      \time 7/8 a4.~ ( a4 ~ a4) | a'4. ~ a4 ~ a4 \fermata \breathe | \bar "|" \time 2/4 \break    \bar ".|:-||"
+      \time 7/8 a4.~ ( a4 ~ a4) | a'4. ~ a4 ~ a4 \fermata \override BreathingSign.extra-spacing-width = #'(-1.5 . 0) \breathe | \bar "|" \time 2/4 \break    \bar ".|:-||"
 
       \tempoFunc "Vivace" 4 "160"  c8_\markup{ \huge \italic {ordinario} }\accent[b] a[g] | \noBreak
       a\accent[g] f[e] | \noBreak

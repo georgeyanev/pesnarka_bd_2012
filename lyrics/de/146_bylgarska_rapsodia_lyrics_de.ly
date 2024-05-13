@@ -68,7 +68,7 @@
 
     \line { " "Oben im Gebirge,}
 
-    \line { " "wo die Sonne aufgeschienen hat,}
+    \line { " "wo die Sonne aufgegangen ist,}
 
     \line { " "zwischen den grünen Gräsern,}
 
@@ -76,10 +76,10 @@
 
     \line { " "Oben im Gebirge,}
 
-    \line { " "wo die Sonne aufgeschienen hat.}
+    \line { " "wo die Sonne aufgegangen ist.}
     \line { " "Oben im Gebirge,}
 
-    \line { " "wo die Sonne aufgeschienen hat.}
+    \line { " "wo die Sonne aufgegangen ist.}
    \vspace #0.5
 
     \line { " "Dort oben bei der Quelle }

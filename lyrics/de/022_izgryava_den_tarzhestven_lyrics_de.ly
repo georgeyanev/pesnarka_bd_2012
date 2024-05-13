@@ -38,7 +38,7 @@
     \line { 3. Oh, wunderschöner Tag, ewiges Wohl, }
     \line {   "   " wem ist das nicht wertvoll? }
     \line {   "   " Für all die Jahre}
-    \line {   "   " erneuere uns bald. }
+    \line {   "   " erneuere uns bald! }
   }
 }
 

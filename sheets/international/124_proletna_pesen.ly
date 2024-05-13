@@ -106,6 +106,7 @@
       es8 ( [d8 ) ]c2 | % 35
       d16 c16 b16 c16
       as'2 ^\fermata |   % 36
+      \override TupletBracket.positions = #'(4 . 4)
       \times 2/3  {
         \once \override Slur.positions = #'(-4 . -2) f8  (   [d8  ] ) bes8
       }

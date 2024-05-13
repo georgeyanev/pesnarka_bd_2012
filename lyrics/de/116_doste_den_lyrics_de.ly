@@ -15,7 +15,7 @@
 
     \line { " "Er wird ein lichter Tag sein, er wird ein lichter Tag sein,}
     \line { " "er wird ein lichter Tag sein.}
-    \line { " "Säe, säe! Baue, Baue, baue errichte gut!}
+    \line { " "Säe, säe! Baue, Baue, baue errichte gut! (*errichte Gutes!)}
 
     \line { " "Und die Freude wird dich gut belohnen.}
   }

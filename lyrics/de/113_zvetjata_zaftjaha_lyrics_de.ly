@@ -11,7 +11,7 @@
 
   \line { " "Die Blumen erblühten unter den Strahlen der Sonne, und schon trugen sie Früchte. }
 
-  \line { " "Und so, gekleidet in Schönheit und, und so, gekleidet in Reinheit,}
+  \line { " "Und so, gekleidet in Schönheit und so, gekleidet in Reinheit,}
 
   \line { " "bringen sie uns die Jugend. In ihr reifen süße Früchte.}
 

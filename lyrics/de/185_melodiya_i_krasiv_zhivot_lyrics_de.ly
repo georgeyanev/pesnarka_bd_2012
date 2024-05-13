@@ -15,7 +15,7 @@
 
 \line { " "Dort ging die Sonne nie unter, und der Himmel – }
 
-\line { " "immer azurblau Frieden und Licht.}
+\line { " "immer azurblau, Frieden und Licht.}
 
 \line { " "Hymnen der Liebe singen die Engel unaufhörlich,}
 
