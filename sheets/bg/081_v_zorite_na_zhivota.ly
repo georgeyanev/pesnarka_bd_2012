@@ -46,6 +46,7 @@
       \key c \major
       \omit Score.TimeSignature
       \cadenzaOn % allows custom bar lines
+      \override Staff.BarLine.gap = 0.5
       \tempoFunc "Andante" 4 "63"
 
       c '4  c'2 ( b4 c' ) d'   e'4 c' \times 2/3 { b4 ( c'4 d' ) }

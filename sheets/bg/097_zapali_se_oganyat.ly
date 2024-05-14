@@ -17,6 +17,7 @@
       \tempoFunc "Andante" 4 "60"
       \omit Score.TimeSignature
       \cadenzaOn % allows custom bar lines
+      \override Staff.BarLine.gap = 0.5
       \autoBeamOff
 
       d'4 g'4 a' a'2 bes'8 a' bes'4 c'' bes' a'4 gis' a'2 \bar"!" \break

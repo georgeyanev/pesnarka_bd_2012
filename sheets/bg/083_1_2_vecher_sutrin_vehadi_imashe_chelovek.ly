@@ -193,6 +193,7 @@
         \key c \minor
         \omit Score.TimeSignature
         \cadenzaOn % allows custom bar lines
+        \override Staff.BarLine.gap = 0.5
         \tempoFunc "Andante" 4 "66"
 
         \autoBeamOff

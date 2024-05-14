@@ -49,6 +49,7 @@
       \key c \major
       \omit Score.TimeSignature
       \cadenzaOn % allows custom bar lines
+      \override Staff.BarLine.gap = 0.5
       \tempoFunc "Andante" 4 "68"
 
 
