@@ -33,7 +33,7 @@
 
     % change distance between staves
     system-system-spacing =
-    #'((basic-distance . 16)
+    #'((basic-distance . 15)
        (minimum-distance . 6)
        (padding . 1)
        (stretchability . 12))
@@ -112,7 +112,7 @@
 
   \markup \dc-one "D.C al Fine"
 
-
+ \markup \vspace #1
 
   \label #'ref115
   \tocItem \markup "Песен на светлия път"

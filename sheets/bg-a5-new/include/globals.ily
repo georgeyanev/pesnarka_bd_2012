@@ -26,7 +26,7 @@ tempoFunc = #(define-music-function
                   % make tempo note smaller
                   \concat {
                     #tName \normal-text { " (" }
-                    \teeny \general-align #Y #DOWN \note #tNote #0.9
+                    \teeny \general-align #Y #DOWN \note #tNote #1.1
                     \normal-text { " = " }
                     \normal-text \large { #tNumber  }
                     \normal-text { ")" }
@@ -42,7 +42,7 @@ titleFunc = #(define-scheme-function
               (descPageRef cyrTitle latTitle)
               (symbol? string? string?)
               #{
-                \markup \column \normal-text \abs-fontsize #17 {
+                \markup \column \normal-text \abs-fontsize #16 {
                   \center-align
                   \line { \with-link #descPageRef #cyrTitle }
                   \vspace #-0.8
@@ -58,6 +58,7 @@ titleFunc = #(define-scheme-function
                      #{
                        \markup \raise #3.8 \override #'(baseline-skip . 2.5) {
                          \column {
+                           \fill-line \large \bold { "" "" \concat { "   " }}
                            \fill-line \large \bold { "" "" \concat {#text "   " }}
                          }
                        }
@@ -71,6 +72,7 @@ titleFunc = #(define-scheme-function
                      #{
                        \markup \raise #raise \override #'(baseline-skip . 2.5) {
                          \column {
+                           \fill-line \large \bold { "" "" \concat { "   " }}
                            \fill-line \large \bold { "" "" \concat {#text "   " }}
                          }
                        }
@@ -84,6 +86,7 @@ titleFunc = #(define-scheme-function
                      #{
                        \markup \raise #3.8 \override #'(baseline-skip . 2.5) {
                          \column {
+                           \fill-line \large \bold { "" "" \concat { "   " }}
                            \fill-line \large { "" "" \concat {#text "   " }}
                          }
                        }
@@ -97,6 +100,7 @@ titleFunc = #(define-scheme-function
                      #{
                        \markup \raise #3.8 \override #'(baseline-skip . 2.5) {
                          \column {
+                           \fill-line \large \bold { "" "" \concat { "   " }}
                            \fill-line \large \bold { "" "" \concat {#textone "   " }}
                            \fill-line \large \bold { "" "" \concat {#texttwo "   " }}
                          }
@@ -111,6 +115,7 @@ titleFunc = #(define-scheme-function
                      #{
                        \markup \raise #raise \override #'(baseline-skip . 2.5) {
                          \column {
+                           \fill-line \large \bold { "" "" \concat { "   " }}
                            \fill-line \large \bold { "" "" \concat {#textone "   " }}
                            \fill-line \large \bold { "" "" \concat {#texttwo "   " }}
                          }
