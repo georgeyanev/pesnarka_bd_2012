@@ -109,13 +109,7 @@
         }
       }
 
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {\with-link #'ref022 \bold "Изгрява вече ден тържествен – Igrjava veče den tăržestven."}
-          Musik von Petar Danov, Text von einem Schüler nach den Ideen von Petar Danov.
-        }
-      }
+   
 
     }
   }
@@ -126,8 +120,14 @@
 
 
 
-
-      
+  
+      \line {
+        \justify {
+          \concat {\with-link #'ref022 \bold "Изгрява вече ден тържествен – Igrjava veče den tăržestven."}
+          Musik von Petar Danov, Text von einem Schüler nach den Ideen von Petar Danov.
+        }
+      }
+       \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref018 \bold "Излязъл е сеяч – Izljazăl e sejač."}
@@ -282,7 +282,7 @@
       \line {
         \justify {
           \concat {\with-link #'ref029 \bold "Страдна душо – Stradna dušo."}
-          Musik von Petar Danov, Text von Michalaki Georgiev. In den Notizen von Bojan Boev wurde dieses Lied \italic "Das Lied der Seele" betitelt. Jede Strophe entspricht einer der Kardinaltugenden: dem Guten, der Gerechtigkeit, der Liebe, der Weisheit und der Wahrheit. \italic "Anm. d. Hrsg.:" Der Zwei-Achtel-Aauftakt ist im ersten Takt enthalten, um die Anrede "Leidenschaftliche Seele" mit dem Akzent in der ersten Zeit vollständig zu vereinen. Die gesamte Ansprache erklingt im harmonischen Plan auf dem Tonika-Dreiklang.
+          Musik von Petar Danov, Text von Michalaki Georgiev. In den Notizen von Bojan Boev wurde dieses Lied \italic "Das Lied der Seele" betitelt. Jede Strophe entspricht einer der Kardinaltugenden: dem Guten, der Gerechtigkeit, der Liebe, der Weisheit und der Wahrheit. \italic \bold "Anm. d. Hrsg.:" Der Zwei-Achtel-Aauftakt ist im ersten Takt enthalten, um die Anrede "Leidenschaftliche Seele" mit dem Akzent in der ersten Zeit vollständig zu vereinen. Die gesamte Ansprache erklingt im harmonischen Plan auf dem Tonika-Dreiklang.
         }
       }
       \vspace #0.5
