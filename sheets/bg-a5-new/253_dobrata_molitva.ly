@@ -1,0 +1,231 @@
+\version "2.24.3"
+
+% include paper part and global functions
+\include "include/globals.ily"
+
+\bookpart {
+  \label #'ref253
+  \tocItem \markup "Добрата молитва "
+  \include "include/bookpart-paper.ily"
+  \score {
+    \layout {
+      indent = 0.0\cm % remove first line indentation
+      ragged-last = ##f % do spread last line to fill the whole space
+      \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
+      \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
+
+
+      \context {
+        \Score
+        \omit BarNumber %remove bar numbers
+        \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
+        \override TupletNumber.font-size = #0.4 % increase the triol number
+
+      } % context
+
+      \context {
+        % change staff size
+        \Staff
+        \override StaffSymbol.thickness = #0.5
+        \override BarLine.hair-thickness = #1
+        %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
+      }
+
+      \context {
+        % adjust space between staff and lyrics and between the two lyric lines
+        \Lyrics
+        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((padding . 1))
+        \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
+        includeGraceNotes = ##t
+      }
+    } % layout
+
+    \new Voice  \absolute {
+      \clef treble
+      \key c \major
+      \time 4/4
+      \tempoFunc "Andante" 4 "60"
+      \autoBeamOff
+      e'4  d'8  c'8  d'4.
+      e'8 | % 2
+      e'2. r4 | % 3
+      e'8  f'8  g'8  a'8  g'8
+      f'8  e'8 ( [  d'8 ) ] | % 4
+      e'2 r4  f'8  g'8 \break | % 5
+      a'8  g'8  f'8  e'8  d'4
+      c'4 | % 6
+      b4.  c'8  d'4  b4 | % 7
+      e'8 ( [  fis'8 ) ]  gis'8  a'8
+      b'4  gis'4 | \break % 8
+      a'2 r4  a'8 ( [  b'8 ) ] | % 9
+      c''2  b'2 |
+      a'2 r8  a'8  b'8  c''8 | % 11
+      d''4  b'8  a'8  g'8 ( [  a'8
+      g'8  f'8 ) ] | \break % 12
+      e'2 r4  f'8  g'8 | % 13
+      a'8  g'8  f'8  e'8  d'4
+      e'8  f'8 | % 14
+      g'4  e'4  c'4  f'8  e'8 | \break % 15
+      d'8  c'8  b8  a8  gis4.
+      a8 | % 16
+      a2 r4  c'8  d'8 | % 17
+      e'4  d'8  c'8  b4  a4 | \break % 18
+      b4 (  c'4 )  d'4  f'4 | % 19
+      e'4  e'4 r8  g'8  a'8  b'8 |
+
+      c''4  b'8  c''8  d''4
+      c''8  b'8 |  \break % 21
+      c''4  c''4 r8  b'8  a'8
+      g'8 | % 22
+      f'4  g'4  a'4  f'4 | % 23
+      e'2  d'2  | % 24
+      c'2. r4 | \break % 25
+      r2 r4  e'8  f'8 | % 26
+      g'4  e'8  c'8  a'4 (  f'4 ) | % 27
+      g'2.  a'8  b'8 | % 28
+      c''4  d''8  c''8  b'8
+      c''8  d''8  b'8 \break | % 29
+      c''4  c''4 r8  b'8  c''8
+      a'8 |
+      g'4.  e'8  f'8  g'8  a'8
+      f'8 | % 31
+      e'4  d'8  c'8  b4.  c'8 | % 32
+      c'2 r4  c'8  d'8 \break | % 33
+      e'4  a4  b4  c'4 | % 34
+      d'4  f'4  e'2 | % 35
+      a'4  b'4  c''4  b'4 | % 36
+      a'2  a'8  a'8  g'8  f'8 | \break % 37
+      e'4  c'4  d'4  f'4  | % 38
+      e'2  d'4  c'4 | % 39
+      c'2  c'2 |
+      r2.  d'4 \bar "||"
+      \key g \major  b4  c'4  d'4 r4 |\break % 42
+      r4  d'8  e'8  d'4  d'4 | % 43
+      g'4  fis'4  g'4  a'4 | % 44
+      b'4  g'8  a'8  b'8 ( [  a'8 )
+      ]  g'8  fis'8 | \break % 45
+      e'2  fis'4  g'4 |  % 46
+      a'2 (  b'4 )  a'4 | % 47
+      fis'4 (  a'4 )  g'4 (  e'4 ) | % 48
+      d'4  d''4  c''4  b'4 | \break % 49
+      a'2  g'2 |
+      r2 r4  b'4 | % 51
+      b'4  b'4  a'8  g'8  fis'8
+      a'8 | % 52
+      g'4  e'4  fis'4  dis'4 | \break % 53
+      e'4  e'4  e'4  d'8  c'8  | % 54
+      b4  g'4  fis'4  dis'4 | % 55
+      e'2  e'2 | \break % 56
+      r2.  g'8  a'8 | % 57
+      b'4  a'8  g'8  fis'4  g'8
+      fis'8 | % 58
+      e'4  e'4 r8  e'8  fis'8  g'8
+      \break | % 59
+      a'8  gis'8  a'8  b'8  c''4
+      b'8  ais'8 |
+      b'4.  c''8  b'8  b'8
+      c''8  d''8 | % 61
+      e''8 ( [  d''8 ) ]  c''8  b'8
+      a'4  b'8  c''8 | \break % 62
+      d''4  b'4  g'4  a'8  b'8 | % 63
+      c''8 ( [  b'8 ) ]  a'8  g'8
+      fis'4  g'8  a'8 | % 64
+      b'4  g'4  e'8  fis'8  g'8
+      a'8 | \break % 65
+      b'4  a'8  g'8  fis'8 ( [  a'8
+      ) ]  g'8  fis'8 | % 66
+      e'4  dis'4  e'4  fis'4 | % 67
+      fis'1  | % 68
+      e'2. r4 | \break % 69
+      r2.  g'4 \bar "||"
+      \key b \minor  fis'4  d'4  b4  cis'4 | % 71
+      d'4  b4  cis'4  e'4 | % 72
+      d'2  cis'2 | % 73
+      b2 r4  b'8  cis''8 \break | % 74
+      d''8  cis''8  b'8  a'8
+      b'8  a'8  g'8  fis'8 | % 75
+      e'4  fis'8 ( [  g'8 ) ]  a'8
+      b'8  a'8  g'8 | % 76
+      fis'2  e'2 \break | % 77
+      d'2. r4  | % 78
+      d'8  e'8  fis'8  g'8  a'4
+      fis'4 | % 79
+      b'8 ( [  a'8 ) ]  g'8  a'8  fis'4
+      fis'4 |
+      d''4  cis''8  b'8  a'4
+      b'8 ( [  cis''8 ) ] | \break % 81
+      d''2.  d''8  cis''8  | % 82
+      b'4  a'8  g'8  fis'4  d'4 | % 83
+      e'4 (  g'4 )  fis'4  e'4 | % 84
+      d'2  cis'4.  d'8 |\break % 85
+      b2 r8  b8 \times 2/3 {
+        cis'8  d'8  e'8
+      }
+      | % 86
+      fis'8  fis'8  d'8  e'8  fis'2
+      | % 87
+      g'8.  fis'16  fis'2 r4   \break | % 88
+      b'4.  ais'8  b'4  cis''4 | % 89
+      d''4.  cis''8  d''4  d''4 |
+
+      cis''2  b'2 | % 91
+      b'2  ais'2 | % 92
+      b'1 \fermata \bar "|."
+    }
+
+    \addlyrics {
+      Гос -- по -- ди Бо -- же наш,
+      "Бла-" -- гий ни "Не-" -- "бе-" -- сен Ба -- ща, "Кой-"
+      -- то Си ни по -- да -- рил жи -- вот и здра --
+      ве да  __ Ти се рад -- ва -- ме, мо -- лим Ти се,
+      "из-" -- "про-" -- во -- ди ни Ду --
+      хът Си да ни па -- зи и за -- кри -- ля от вся --
+      ко зло и лу -- ка -- во "по-" -- миш -- ле -- ни
+      -- е. На -- у -- чи -- ни -- да пра -- вим Тво
+      -- я -- та Во -- ля, да ос -- ве -- тя -- ва
+      -- ме Тво -- е -- то И -- ме и да Те сла --
+      во -- сло -- вим ви -- на -- ги. Ос -- ве -- тя
+      вай ду -- хът __ ни, "про-" -- све -- ща -- вай
+      "сър-"  -- ца -- та и у -- мът ни, да "па-" -- зим
+      Твои -- те за -- по -- ве -- ди и по -- ве
+      -- ле -- ни -- я. "Вдъх-" -- вай в~нас с~при -- съст --
+      ви -- е -- то Си чис -- ти -- те Си мис -- ли
+      и ни у -- път -- вай да Ти слу -- жим със ра
+      -- дост. Жи -- во -- тът си, кой -- то по -- све
+      -- ща -- ва -- ме на Теб, за доб -- ро -- то
+      на на -- ши -- те бра -- тя и  ближ
+      -- ни, Ти бла -- го -- сла -- вяй. По -- ма --
+      гай ни и ни съ -- дей -- ствай да рас -- тем
+      във вся -- ко поз -- на -- ни -- е и Мъд --
+      рост. Да се у -- чим от Тво -- е -- то Сло --
+      во и да пре -- бъд -- ва -- ме в Тво -- я --
+      та Ис -- ти -- на. Ръ -- ко -- во -- ди __  ни
+      във всич -- ко, ко -- е -- то мис -- лим и вър
+      -- шим за Тво -- е -- то И -- ме, да е за
+      ус -- пе -- ха на Тво -- е -- то Цар -- ство
+      на Зе -- мя -- та. Хра -- ни ду -- ши -- те ни
+      с~не -- бес -- ни -- я Си хляб. "Ук-" -- ре -- пя --
+      вай ни със Си -- ла -- та Си, да ус -- пя
+      -- ва -- ме в~жи -- во -- та си. И ка -- то ни
+      да -- ваш всич -- ки -- те Тво -- и бла --
+      "го-" -- "сло-" -- ве -- ни -- я, "при-" -- ло -- жи
+      "Лю-" -- бов -- та Си да  __ ни е ве -- чен --
+      за -- кон. За -- що -- то на Теб при -- на --
+      дле -- жи Цар -- "ство-" -- то, Си -- ла -- та и Сла
+      -- ва -- та за -- ви -- на -- ги. А -- мин.}
+
+      \header {
+        title = \titleFunc #'ref_desc_20 "Добрата молитва" "Dobrata molitva"
+      }
+
+      \midi{}
+
+    } % score
+
+
+
+
+  } % bookpart
+
+  % Più mosso
+  %
