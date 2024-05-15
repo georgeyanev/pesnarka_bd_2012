@@ -92,7 +92,7 @@
       % include foreign translation(s) of the song
       \include "../../lyrics/de/188_melodie_3_lyrics_de.ly"
 
-      \markup \vspace #3
+      \markup \vspace #5
 
 
       \label #'ref189

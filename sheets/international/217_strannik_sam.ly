@@ -110,7 +110,7 @@
 
       } % score
 
-      \markup \vspace #1
+      \markup \vspace #1.5
       % include foreign translation(s) of the song
       \include "../../lyrics/de/217_strannik_sam_lyrics_de.ly"
 

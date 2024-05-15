@@ -129,7 +129,7 @@
       e8^\accent e e d16  |  \break
 
       \bar ".|:-|"
-      c8 ^\markup{ \dynamic f } ^\mp d^\markup{ \large \italic{при повторението/bei der Wiederholung} }  e d16 | \noBreak
+      c8 ^\markup{ \dynamic f } ^\mp d^\markup{ \hspace #-4.5 \large \italic{при повторението/bei der Wiederholung} }  e d16 | \noBreak
       e8 d c b16 | \noBreak
       a8 b c d16 | \break
       e8 d c b16 | \noBreak

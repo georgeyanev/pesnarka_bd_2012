@@ -56,12 +56,12 @@
 
   } % score
 
-  \markup \empty-two
+  \markup \empty-one
 
   \markup \italic \dc-one-nobold "attacca „В мрак, тъмнота“/„V mrak, tămnota“"
 
 
-  \markup \empty-three
+  \markup \vspace #1
 
   \label #'ref080_1
   \tocItem \markup "В мрак тъмнота – V mrak tămnota"
