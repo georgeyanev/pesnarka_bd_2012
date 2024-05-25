@@ -11,11 +11,11 @@
     oddFooterMarkup = \markup
     \fill-line {
       ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
+      \if \should-print-page-number \larger \fromproperty #'page:page-number-string
     }
     evenFooterMarkup = \markup
     \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
+      \if \should-print-page-number \larger \fromproperty #'page:page-number-string
       ""
     }
 
