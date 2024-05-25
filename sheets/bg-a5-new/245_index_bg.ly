@@ -63,7 +63,7 @@
       \with-link #'ref081 \fill-with-pattern #1 #RIGHT . "В зорите на живота" \page-ref #'ref081 "000" "?"
       \with-link #'ref080_1 \fill-with-pattern #1 #RIGHT . "В мрак тъмнота" \page-ref #'ref080_1 "000" "?"
       \with-link #'ref094 \fill-with-pattern #1 #RIGHT . "В начало бе Словото" \page-ref #'ref094 "000" "?"
-      \with-link #'ref095 \fill-with-pattern #1 #RIGHT . "В пустинята на живота" \page-ref #'ref095 "000" "?"
+      \with-link #'ref110_2 \fill-with-pattern #1 #RIGHT . "В пустинята на живота" \page-ref #'ref110_2 "000" "?"
       \with-link #'ref183 \fill-with-pattern #1 #RIGHT . "Вариации" \page-ref #'ref183 "000" "?"
       \with-link #'ref095 \fill-with-pattern #1 #RIGHT . "Вдъхновение" \page-ref #'ref095 "000" "?"
       \with-link #'ref076 \fill-with-pattern #1 #RIGHT . "Венир Бенир" \page-ref #'ref076 "000" "?"
