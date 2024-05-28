@@ -28,8 +28,6 @@
           \concat {\with-link #'ref047 \bold "Аз съм бялото кокиче – Az săm bjaloto kokiče."} Musik Hristo Dărzev, Text Penčo Slavejkov. In manchen populären Versionen wird statt „[...] böse Stiefmutter hat mich geweckt“ „[...] die Sonne hat mich geweckt“ gesungen. Der Text der dritten Strophe wurde später von einem Schüler hinzugefügt.
         }
       }
-
-
       \vspace #0.5
       \line {
         \justify {
@@ -38,7 +36,6 @@
 
         }
       }
-
       \vspace #0.5
       \line {
         \justify {
@@ -108,19 +105,12 @@
           Musik von Petar Danov, Text Stojan Rusev (Djado Blago).
         }
       }
-
-
-
     }
   }
   \label #'ref_desc_2
   \markup \abs-fontsize #10  {
     \override #'(baseline-skip . 3.4)
     \column {
-
-
-
-
       \line {
         \justify {
           \concat {\with-link #'ref022 \bold "Изгрява вече ден тържествен – Igrjava veče den tăržestven."}
@@ -134,7 +124,6 @@
           Musik von Petar Danov, Text von einem Schüler nach Ideen von Petar Danov. Die bulgarische Sprache hat zwei Wörter für \italic "Liebe,"  \italic "ljubov" und \italic "obič." Diesen Wörtern kommt eine unterschiedliche Bedeutung zu, die Danov in seinen Vorträgen darlegt. Wir weisen auf beide Begriffe durch das Hinzufügen des bulgarischen Wortes in eckigen Klammern hin. Dasselbe gilt auch für die Verben \italic "običam" und \italic "ljubja." Auf Deutsch würde man beide mit \italic "lieben" übersetzen, wobei sie auf Bulgarisch eine jeweils andere Konnotation aufweisen.
         }
       }
-
       \vspace #0.5
       \line {
         \justify {

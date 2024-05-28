@@ -29,7 +29,7 @@
  \line { " " Höre meine Stimme! }
   \vspace #0.5
 
- \line { " " Große Leben wird }
+ \line { " " Großes Leben wird }
 
  \line { " " in schwerem Leid geboren. }
   \line { " " (*Das große Leben wird }

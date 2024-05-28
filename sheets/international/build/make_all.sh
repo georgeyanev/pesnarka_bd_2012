@@ -8,7 +8,6 @@ cat \
     ../006_oldest_book_de.ly \
     ../007_blank_page.ly \
     ../238_toc.ly \
-    ../007_vorwort.ly \
     ../008_about_music_de.ly \
     ../005_blank_page.ly \
     ../010_bratski_pesni.ly \
