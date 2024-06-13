@@ -179,7 +179,7 @@ cat \
     ../221_melodiya_2_v_radostta.ly \
     ../223_osarenie.ly \
     ../224_appendix.ly \
-    ../225_new_description_de.ly \
+    ../225_alpha_de_description.ly \
     ../226_dictionary_de.ly \
     ../227_index_de.ly \
     ../250_translit.ly \

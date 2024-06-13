@@ -144,7 +144,7 @@
 
 
 
-  \markup \empty-two
+  \markup \vspace #4
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/173_malkata_bubolechiza_lyrics.de.ly"

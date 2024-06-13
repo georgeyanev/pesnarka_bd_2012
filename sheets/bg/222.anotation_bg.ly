@@ -55,9 +55,9 @@
   \markup { {  \vspace #0.5 } }
   \markup \fontsize  #+3 { \fill-line \bold {"Коректор на нотния текст"} }
   \markup \fontsize  #+2.5 { \fill-line  {"Райнхард Риддер"} }
-  \markup { {  \vspace #0.5 } }
-  \markup \fontsize  #+3 { \fill-line \bold {"Коректор на лиричния текст"} }
-  \markup \fontsize  #+2.5 { \fill-line  {"Стела Рускова"} }
+  %\markup { {  \vspace #0.5 } }
+  %\markup \fontsize  #+3 { \fill-line \bold {"Коректор на лиричния текст"} }
+  %\markup \fontsize  #+2.5 { \fill-line  {"Стела Рускова"} }
   \markup { {  \vspace #0.5 } }
   \markup \fontsize  #+3 { \fill-line \bold {"Набор на нотния текст и дизайн"} }
   \markup \fontsize  #+2.5 { \fill-line  {"Мария Кирева, Георги Янев"} }
@@ -72,7 +72,7 @@
   \markup { {  \vspace #0.5 } }
   \markup \fontsize  #+2.5 { \fill-line {"София 2024"} }
   \markup { {  \vspace #2.5 } }
-  \markup \fontsize  #+2.5 { \fill-line  {"ISMN 979-0-9016674-5-7"}}
+  \markup \fontsize  #+2.5 { \fill-line {"ISMN 979-0-9016674-5-7"}}
 
 
 
