@@ -248,7 +248,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref092_2 \bold " Davaj, Davaj – Давай, давай."}
+          \concat {\with-link #'ref092_2 \bold "Davaj, Davaj – Давай, давай."}
           28. Dezember 1926, Sofia, Allgemeine Okkultklasse, VI. Jahrgang, 15. Vortrag „Mannifestation der Musik im Bewusstsein“. Dieses Lied ist ein kraftvolles Motiv, welches Bilder und Gemälde im Bewusstseindes Menschen erweckt. Das Lied gibt dem Menschen den Impuls zu geben, auf dem Acker des Lebens zu säen. Mit dem Singen von \italic"Davaj, davaj" sagst du: „Ich muss geben“. Wer reine Weizenkörner gibt, zu dem kommt dasselbe zurück. \italic"Davaj, davaj" beginnt mit dem Ton A, der die Quelle symbolisiert; also bist du eine Quelle, die fließen soll. Du hast dich gedrückt: Stehe auf und verrichte deine Arbeit. Der Begriff \italic"Davaj, davaj" hat eine umfassende Bedeutung.
         }
       }
@@ -566,7 +566,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref080 \bold"Махар Бену Аба – Mahar Benu Aba."} 3. Dezember 1922, Sofia, Allgemeine Okkultklasse, II. Jahrgang, 10. Vortrag „Die okkulte Musik“. Peter Danov hat diese Übung \italic"Das Gebet des Schülers" genannt. Diese Übung sollte mit Konzentration, Aus-
+          \concat {\with-link #'ref080 \bold"Mahar Benu Aba – Махар Бену Аба."} 3. Dezember 1922, Sofia, Allgemeine Okkultklasse, II. Jahrgang, 10. Vortrag „Die okkulte Musik“. Peter Danov hat diese Übung \italic"Das Gebet des Schülers" genannt. Diese Übung sollte mit Konzentration, Aus-
         }
       }
     }
