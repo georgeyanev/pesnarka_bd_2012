@@ -20,7 +20,7 @@
       \line {
         \justify {
           \concat {
-            \with-link #'ref109 \bold"A bre, sinko– А бре, синко."
+            \with-link #'ref109 \bold"A bre, sinko – А бре, синко."
           } 28. November 1934, Sofia, Allgemeine Okkultklasse, XIV. Jahrgang, 10. Vortrag „Prinzipien und Bedingungen – Berg und Tal“. Das Lied wurde einem bulgarisches Volkslied entlehnt, dessen ursprüngliche Reinheit wiederhergestellt wurde.
         }
       }
@@ -49,7 +49,7 @@
 
       \line {
         \justify {
-          \concat {\with-link #'ref171_2 \bold "Az moga da dišam – Аз мога да дишам ."}Musik und Text von Petar Danov, 4. Februar 1938, Sofia, Allgemeine Okkultklasse, XVII. Jahrgang, 19. Vortrag „Das Gesetz der Harmonie im Körper“. Die Arbeit an dieser Übung begann am 29. Dezember 1937, Sofia, Allgemeine Okkultklasse, XVII. Jahrgang 13. Vortrag „Vor den Freuden und hinter dem Leid“.
+          \concat {\with-link #'ref171_2 \bold "Az moga da dišam – Аз мога да дишам."}Musik und Text von Petar Danov, 4. Februar 1938, Sofia, Allgemeine Okkultklasse, XVII. Jahrgang, 19. Vortrag „Das Gesetz der Harmonie im Körper“. Die Arbeit an dieser Übung begann am 29. Dezember 1937, Sofia, Allgemeine Okkultklasse, XVII. Jahrgang 13. Vortrag „Vor den Freuden und hinter dem Leid“.
         }
       }
       \vspace #0.5
@@ -103,7 +103,7 @@
 
       \line {
         \justify {
-          \concat {\with-link #'ref138 \bold"Baština pesen – Ugledna moma –Бащина песен – Угледна мома."} 21. Januar 1935. Dieses Lied ist die Fortsetzung des Liedes \italic"A bre, sinko." Es ist das Vorbild des bulgarischen Volksliedes, dessen ursprüngliche Reinheit und dessen ursprünglicher Geist wiederhergestellt wurden.
+          \concat {\with-link #'ref138 \bold"Baština pesen – Ugledna moma – Бащина песен – Угледна мома."} 21. Januar 1935. Dieses Lied ist die Fortsetzung des Liedes \italic"A bre, sinko." Es ist das Vorbild des bulgarischen Volksliedes, dessen ursprüngliche Reinheit und dessen ursprünglicher Geist wiederhergestellt wurden.
         }
       }
 
@@ -125,7 +125,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref074 \bold"Blaga duma– Блага дума."} 5. November 1922, Sofia, Allgemeine Okkultklasse, II. Jahrgang, 6. Vortrag „Keine Lüge“. \bold \italic"Anm. d. Hrsg.:" In diesem Sammelband wird das Lied in seiner gängigsten rhythmischen Fassung präsentiert. In der ersten Veröffentlichung des Liedes ist der punktierte Rhythmus im ganzen Lied enthalten, aber im Laufe der Zeit änderte sich der Rhythmus. Die beiden Rhythmusvarianten wurden mit \italic"ossia" markiert. Im Sammelband von Maria Todorova beginnt das Lied mit zwei gleichen Achteln.
+          \concat {\with-link #'ref074 \bold"Blaga duma – Блага дума."} 5. November 1922, Sofia, Allgemeine Okkultklasse, II. Jahrgang, 6. Vortrag „Keine Lüge“. \bold \italic"Anm. d. Hrsg.:" In diesem Sammelband wird das Lied in seiner gängigsten rhythmischen Fassung präsentiert. In der ersten Veröffentlichung des Liedes ist der punktierte Rhythmus im ganzen Lied enthalten, aber im Laufe der Zeit änderte sich der Rhythmus. Die beiden Rhythmusvarianten wurden mit \italic"ossia" markiert. Im Sammelband von Maria Todorova beginnt das Lied mit zwei gleichen Achteln.
         }
       }
       \vspace #0.4
@@ -206,7 +206,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref120 \bold "Burja– Буря."} 15. Dezember 1935. Dieses Lied erinnert daran, dass es im Menschen eine Kraft gibt, die ihn stützt. Wenn der Mensch aufmerksam auf die vernünftige Stimme dieser Kraft horcht, wird er den Sinn allen Leides, aller Qualen und Stürme, die uns durchschütteln, verstehen; er wird ihren Stößen widerstehen.
+          \concat {\with-link #'ref120 \bold "Burja – Буря."} 15. Dezember 1935. Dieses Lied erinnert daran, dass es im Menschen eine Kraft gibt, die ihn stützt. Wenn der Mensch aufmerksam auf die vernünftige Stimme dieser Kraft horcht, wird er den Sinn allen Leides, aller Qualen und Stürme, die uns durchschütteln, verstehen; er wird ihren Stößen widerstehen.
         }
       }
     }
@@ -221,7 +221,7 @@
 
       \line {
         \justify {
-          \concat {\with-link #'ref113 \bold "Cvetjata căftjaha –Цветята цъфтяха."} 22. Januar 1941. Die Blume, die sich geöffnet hat, kann die Sonnenstrahlen empfangen. Das Herz und der Verstand des Menschen müssen sich für die göttlichen Wohltaten öffnen; nur dann kann er wahre Errungenschaften erlangen.
+          \concat {\with-link #'ref113 \bold "Cvetjata căftjaha – Цветята цъфтяха."} 22. Januar 1941. Die Blume, die sich geöffnet hat, kann die Sonnenstrahlen empfangen. Das Herz und der Verstand des Menschen müssen sich für die göttlichen Wohltaten öffnen; nur dann kann er wahre Errungenschaften erlangen.
         }
       }
 
@@ -255,7 +255,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref118_1 \bold "Denjat ide–Денят иде."} 18. Februar 1938, Sofia, Jugendokkultklasse, XVII. Jahrgang, 21. Vortrag, „Das Programm im Leben“. Der Text der zweiten und der dritten Strophe ist von Stojanka Ilieva.
+          \concat {\with-link #'ref118_1 \bold "Denjat ide – Денят иде."} 18. Februar 1938, Sofia, Jugendokkultklasse, XVII. Jahrgang, 21. Vortrag, „Das Programm im Leben“. Der Text der zweiten und der dritten Strophe ist von Stojanka Ilieva.
         }
       }
 
@@ -285,13 +285,13 @@
 
       \line {
         \justify {
-          \concat {\with-link #'ref116 \bold "Do šte den–До ще ден."} 7. Februar 1940, Sofia, Allgemeine Okkultklasse, ХIХ. Jahrgang, 19. Vortrag „Verjüngung“. \bold \italic"Anm. d. Hrsg.:" In Klammern wurde die Textvariante nach Stanka Želeva geschrieben.
+          \concat {\with-link #'ref116 \bold "Do šte den – До ще ден."} 7. Februar 1940, Sofia, Allgemeine Okkultklasse, ХIХ. Jahrgang, 19. Vortrag „Verjüngung“. \bold \italic"Anm. d. Hrsg.:" In Klammern wurde die Textvariante nach Stanka Želeva geschrieben.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref095_2 \bold "Dobăr den–Добър ден."} 11. September 1933, Vitoša, \italic"El Šadaj."
+          \concat {\with-link #'ref095_2 \bold "Dobăr den – Добър ден."} 11. September 1933, Vitoša, \italic"El Šadaj."
         }
       }
       \vspace #0.5
@@ -303,7 +303,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref136 \bold "Duhaj vetre–Духай, ветре."} Das ist die zweite, erweiterte Variante des Liedes. Das Lied besteht aus zwei Teilen, die zu unterschiedlicher Zeit entstanden. Der erste Teil entstand 1944 in Mărčaevo, der zweite \italic"Hai-di-di" am 30. Dezember 1942, Sofia, Allgemeine Okkultklasse, XII. Jahrgang, 15. Vortrag „Zwei göttliche Prozesse“. Die ursprüngliche Variante des Liedes wurde unter dem Titel „Duhai, vetre II“ gedruckt. Laut den Erinnerungen der Musiker fügte Petar Danov als Ende des Liedes den Text \italic"Za teb bulgarino" (für dich, Bulgare) hinzu.
+          \concat {\with-link #'ref136 \bold "Duhaj vetre – Духай, ветре."} Das ist die zweite, erweiterte Variante des Liedes. Das Lied besteht aus zwei Teilen, die zu unterschiedlicher Zeit entstanden. Der erste Teil entstand 1944 in Mărčaevo, der zweite \italic"Hai-di-di" am 30. Dezember 1942, Sofia, Allgemeine Okkultklasse, XII. Jahrgang, 15. Vortrag „Zwei göttliche Prozesse“. Die ursprüngliche Variante des Liedes wurde unter dem Titel „Duhai, vetre II“ gedruckt. Laut den Erinnerungen der Musiker fügte Petar Danov als Ende des Liedes den Text \italic"Za teb bulgarino" (für dich, Bulgare) hinzu.
         }
       }
 
@@ -339,7 +339,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref130 \bold"Ezikăt na živata priroda – Езикът на живата природа ."} Die Arbeit am Lied begann am 18. Oktober und endete am 19. Oktober 1933.Durch schöne Symbole und Bilder, die aus dem Leben der Natur entnommen wurden, werden die inneren Erlebnisse der Seele beschrieben.
+          \concat {\with-link #'ref130 \bold"Ezikăt na živata priroda – Езикът на живата природа."} Die Arbeit am Lied begann am 18. Oktober und endete am 19. Oktober 1933.Durch schöne Symbole und Bilder, die aus dem Leben der Natur entnommen wurden, werden die inneren Erlebnisse der Seele beschrieben.
         }
       }
       \vspace #0.5
@@ -714,7 +714,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref212 \bold "Moeto Slănce dnes šte izgree –Моето Слънце днес ще изгрее."} Begonnen in der Jugendokkultklasse am 29. Oktober 1943, in Sofia, Izgrev, XXIII. Jahrgang, 4. Vortrag „Jung und alt“, beendet im Dorf Мărčaevo am 17. August 1944. Es wurde von Liljana Tabakova notiert. \bold \italic"Anm. d. Hrsg.:" Im Fehlerblatt zu der Ausgabe von 
+          \concat {\with-link #'ref212 \bold "Moeto Slănce dnes šte izgree – Моето Слънце днес ще изгрее."} Begonnen in der Jugendokkultklasse am 29. Oktober 1943, in Sofia, Izgrev, XXIII. Jahrgang, 4. Vortrag „Jung und alt“, beendet im Dorf Мărčaevo am 17. August 1944. Es wurde von Liljana Tabakova notiert. \bold \italic"Anm. d. Hrsg.:" Im Fehlerblatt zu der Ausgabe von 
         }
       }
     }
@@ -985,7 +985,7 @@
 
       \line {
         \justify {
-          \concat {\with-link #'ref124 \bold "Proletna pesen – Пролетна песен ."} Komponiert von Schülern nach Motiven von Petar Danov im Februar 1935.
+          \concat {\with-link #'ref124 \bold "Proletna pesen – Пролетна песен."} Komponiert von Schülern nach Motiven von Petar Danov im Februar 1935.
         }
       }
       \vspace #0.5
@@ -1003,7 +1003,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref174_3 \bold " Radost – Радост."}24. April 1935, Sofia, Allgemeine Okktultklasse, XIV. Jahrgang 30. Vortrag „Voraussetzungen der Musik“.
+          \concat {\with-link #'ref174_3 \bold "Radost – Радост."}24. April 1935, Sofia, Allgemeine Okktultklasse, XIV. Jahrgang 30. Vortrag „Voraussetzungen der Musik“.
         }
       }
       \vspace #0.5
@@ -1132,7 +1132,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref125 \bold "Slănčeva pesen – pčelna mušička– Слънчева песен – пчелна мушичка."} Das Lied entstand im Februar 1935. Dieses Lied wurde von Petar Danov zum Lied \italic"Proletna pesen," hinzugefügt. Dieses Lied wird als sein Ende betrachtet.
+          \concat {\with-link #'ref125 \bold "Slănčeva pesen – pčelna mušička – Слънчева песен – пчелна мушичка."} Das Lied entstand im Februar 1935. Dieses Lied wurde von Petar Danov zum Lied \italic"Proletna pesen," hinzugefügt. Dieses Lied wird als sein Ende betrachtet.
         }
       }
       \vspace #0.5
@@ -1265,7 +1265,7 @@
 
       \line {
         \justify {
-          \concat {\with-link #'ref066_1 \bold "Тайната вечеря – Tajnata večerja."} Musik und Text von Vesela Nestorova, gesegnet von Petar Danov. Die erste Strophe bedeutet Folgendes: „Alles ist licht, alles ist in meinem Licht [das Licht Christi] erleuchtet.“ Vesela Nestorova empfing das Lied als Offenbarung. Nachdem sie den Vers aus dem Evangelium las, in dem es heißt: „Und als sie ein Lied gesungen hatten, gingen sie hinaus auf den Ölberg“ (Mt 26,30 und Mk 14,26), betete sie, um dieses Lied zu hören. Eines Nachts, im Halbschlaf, erschien ihr Christus und sang das Lied, das er mit seinen Jüngern beim letzten Abendmahl gesungen hatte. Petar Danov bestätigte die Echtheit des Liedes.
+          \concat {\with-link #'ref066_1 \bold "Tajnata večerja – Тайната вечеря."} Musik und Text von Vesela Nestorova, gesegnet von Petar Danov. Die erste Strophe bedeutet Folgendes: „Alles ist licht, alles ist in meinem Licht [das Licht Christi] erleuchtet.“ Vesela Nestorova empfing das Lied als Offenbarung. Nachdem sie den Vers aus dem Evangelium las, in dem es heißt: „Und als sie ein Lied gesungen hatten, gingen sie hinaus auf den Ölberg“ (Mt 26,30 und Mk 14,26), betete sie, um dieses Lied zu hören. Eines Nachts, im Halbschlaf, erschien ihr Christus und sang das Lied, das er mit seinen Jüngern beim letzten Abendmahl gesungen hatte. Petar Danov bestätigte die Echtheit des Liedes.
         }
       }
       \vspace #0.5
@@ -1437,7 +1437,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref170_2 \bold "Vjara svetla II – Вяра светла II  ."} Eine andere Melodie, die während des Gesprächs, das Danov mit den Gruppenleitern am 19. April 1927 in Sofia geführt hat, entstand. Das Lied fehlt im Liederbuch von 1949. Diese Melodie wurde von Peter Ganev nach den Erinnerungen seines Vaters Penjo Ganev notiert.
+          \concat {\with-link #'ref170_2 \bold "Vjara svetla II – Вяра светла II."} Eine andere Melodie, die während des Gesprächs, das Danov mit den Gruppenleitern am 19. April 1927 in Sofia geführt hat, entstand. Das Lied fehlt im Liederbuch von 1949. Diese Melodie wurde von Peter Ganev nach den Erinnerungen seines Vaters Penjo Ganev notiert.
         }
       }
       \vspace #0.5
@@ -1510,7 +1510,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref112_2 \bold" Zov na planinata – Зов на планината."} Das Lied entstand 1937.
+          \concat {\with-link #'ref112_2 \bold"Zov na planinata – Зов на планината."} Das Lied entstand 1937.
         }
       }
 
