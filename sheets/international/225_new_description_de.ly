@@ -1195,7 +1195,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref155_1 \bold "Радост за душата – Radost za dušata."} In der Handschrift von Metodi Šivačev wurde das Lied „Čisti bădete – Seid rein“ betitelt – zu „Sladko medeno“.
+          \concat {\with-link #'ref155_1 \bold "Радост за душата – Radost za dušata."} In der Handschrift von Metodi Šivačev wurde das Lied „Čisti bădete – Seid rein“ betitelt – zu „Sladko, medeno“.
         }
       }
 
@@ -1327,7 +1327,7 @@
          \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref073 \bold "Сладко медено – Sladko medeno."} 29. Oktober 1922, Sofia, Allgemeine Okkultklasse, II. Jahrgang, 5. Vortrag „Der Einfluss der Elektrizität“. Das ist eine positive Übung; jedes Bild ist aktiv.
+          \concat {\with-link #'ref073 \bold "Сладко, медено – Sladko, medeno."} 29. Oktober 1922, Sofia, Allgemeine Okkultklasse, II. Jahrgang, 5. Vortrag „Der Einfluss der Elektrizität“. Das ist eine positive Übung; jedes Bild ist aktiv.
         }
       }
       

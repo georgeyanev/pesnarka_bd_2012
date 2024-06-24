@@ -79,7 +79,7 @@
 
   \markup \empty-two
   \label #'ref073
-  \tocItem \markup "Сладко медено"
+  \tocItem \markup "Сладко, медено"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

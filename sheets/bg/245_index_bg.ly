@@ -203,7 +203,7 @@
       \with-link #'ref077 \fill-with-pattern #1 #RIGHT . "Скръбта си ти кажи" \page-ref #'ref077 "000" "?"
       \with-link #'ref053 \fill-with-pattern #1 #RIGHT . "Слава Божия" \page-ref #'ref053 "000" "?"
       \with-link #'ref049 \fill-with-pattern #1 #RIGHT . "Славейчета горски" \page-ref #'ref049 "000" "?"
-      \with-link #'ref073 \fill-with-pattern #1 #RIGHT . "Сладко медено" \page-ref #'ref073 "000" "?"
+      \with-link #'ref073 \fill-with-pattern #1 #RIGHT . "Сладко, медено" \page-ref #'ref073 "000" "?"
       \with-link #'ref174_2 \fill-with-pattern #1 #RIGHT . "Слушам" \page-ref #'ref174_2 "000" "?"
       \with-link #'ref055_1 \fill-with-pattern #1 #RIGHT . "Слънцето на Любовта" \page-ref #'ref055_1 "000" "?"
       \with-link #'ref125 \fill-with-pattern #1 #RIGHT . "Слънчева песен" \page-ref #'ref125 "000" "?"

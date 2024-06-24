@@ -182,7 +182,7 @@
     \with-link #'ref045 \fill-with-pattern #1 #RIGHT . "Sine moj, pazi života – Сине мой, пази живота" \page-ref #'ref045 "000" "?"
     \with-link #'ref133 \fill-with-pattern #1 #RIGHT . "Skitah se po gori i planini – Скитах се по гори и планини" \page-ref #'ref133 "000" "?"
     \with-link #'ref077 \fill-with-pattern #1 #RIGHT . "Skrăbta si ti kaži – Скръбта си ти кажи" \page-ref #'ref077 "000" "?"
-    \with-link #'ref073 \fill-with-pattern #1 #RIGHT . "Sladko medeno – Сладко медено" \page-ref #'ref073 "000" "?"
+    \with-link #'ref073 \fill-with-pattern #1 #RIGHT . "Sladko, medeno – Сладко, медено" \page-ref #'ref073 "000" "?"
     \with-link #'ref055_1 \fill-with-pattern #1 #RIGHT . "Slănceto na Ljubovta – Слънцето на Любовта" \page-ref #'ref055_1 "000" "?"
     \with-link #'ref125 \fill-with-pattern #1 #RIGHT . "Slănčeva pesen – pčelna mušička– Слънчева песен – пчелна мушичка" \page-ref #'ref125 "000" "?"
   }

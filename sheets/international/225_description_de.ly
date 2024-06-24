@@ -389,7 +389,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {"49" . \bold  " Сладко медено – Sladko medeno."}  29. Oktober 1922, Allgemeine Okkultklasse, II. Jahrgang, 5. Vortrag. Das ist eine positive Übung; jedes Bild ist aktiv.
+          \concat {"49" . \bold  " Сладко, медено – Sladko, medeno."}  29. Oktober 1922, Allgemeine Okkultklasse, II. Jahrgang, 5. Vortrag. Das ist eine positive Übung; jedes Bild ist aktiv.
         }
       }
       \vspace #0.5
@@ -1097,7 +1097,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {"133" . \bold " Радост за душата  – Radost za dušata."} In der Niederschrift von Metodi Šivačev wurde das Lied \italic"Seid rein" betitelt. (zu \italic"Sladko medeno)"
+          \concat {"133" . \bold " Радост за душата  – Radost za dušata."} In der Niederschrift von Metodi Šivačev wurde das Lied \italic"Seid rein" betitelt. (zu \italic"Sladko, medeno)"
         }
       }
       \vspace #0.5

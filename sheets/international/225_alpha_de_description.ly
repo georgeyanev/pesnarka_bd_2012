@@ -28,14 +28,14 @@
       \line {
         \justify {
           \concat {\with-link #'ref135 \bold"Ain fasi – Аин фаси."}
-          7. Oktober 1931, Sofia, Allgemeine Okkultklasse, XI. Jahrgang, 2. Vortrag „Lasst den Beutel“. Dieser Text wurde in einer uralten, heiligen Sprache überliefert. Die Grundidee dieses Liedes lautet: Du, der Du der Grund von allem bist, Du, der Du mit Deiner Liebe alles durchdringst und stützt, sei gesegnet! Möge ich in Deinem Licht und Deiner Liebe leben! Wie sehr möchte ich auf Deinen Spuren wandeln! Mein ganzes Leben diene deinem Ruhm! „Wer die Elemente der Worte des \italic"Ain fasi" versteht, kann zum Sinn des Lebens gelangen und davon profitieren.“
+          7. Oktober 1931, Sofia, Allgemeine Okkultklasse, XI. Jahrgang, 2. Vortrag „Lasst den Beutel“. Dieser Text wurde in einer uralten, heiligen Sprache überliefert. Die Grundidee dieses Liedes lautet: Du, der Du der Grund von allem bist, Du, der Du mit Deiner Liebe alles durchdringst und stützt, sei gesegnet! Möge ich in Deinem Licht und Deiner Liebe leben! Wie sehr möchte ich auf Deinen Spuren wandeln! Mein ganzes Leben diene deinem Ruhm! „Wer die Elemente der Worte von \italic"Ain fasi" versteht, kann zum Sinn des Lebens gelangen und davon profitieren.“
         }
       }
       \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref064 \bold "Angel vopijaše – Ангел вопияше."}
-          Bulgarischer Kirchengesang, der zu Beginn des 20. Jahrhunderts sehr bekannt war. Text und Musik Konstantin Danovski, der Vater von Petar Danov. Es gibt unterschiedliche Varianten des Liedes. Das Lied wurde von Barnabi Braun nach dem Vortrag von Vesela Nestorova notiert.
+          Bulgarischer Kirchengesang, der zu Beginn des 20. Jahrhunderts sehr bekannt war. Text und Musik Konstantin Danovski, der Vater von Petar Danov. Es gibt unterschiedliche Varianten des Liedes. Das Lied wurde von Barnaby Brown nach dem Vortrag von Vesela Nestorova notiert.
 
         }
       }
@@ -49,7 +49,7 @@
 
       \line {
         \justify {
-          \concat {\with-link #'ref171_2 \bold "Az moga da dišam – Аз мога да дишам."}Musik und Text von Petar Danov, 4. Februar 1938, Sofia, Allgemeine Okkultklasse, XVII. Jahrgang, 19. Vortrag „Das Gesetz der Harmonie im Körper“. Die Arbeit an dieser Übung begann am 29. Dezember 1937, Sofia, Allgemeine Okkultklasse, XVII. Jahrgang 13. Vortrag „Vor den Freuden und hinter dem Leid“.
+          \concat {\with-link #'ref171_2 \bold "Az moga da dišam – Аз мога да дишам."}Musik und Text von Petar Danov, 4. Februar 1938, Sofia, Allgemeine Okkultklasse, XVII. Jahrgang, 19. Vortrag „Das Gesetz der Harmonie im Körper“. Die Arbeit an dieser Übung begann am 29. Dezember 1937, Sofia, Allgemeine Okkultklasse, XVII. Jahrgang 13. Vortrag „Vor den Freuden und nach dem Leid“.
         }
       }
       \vspace #0.5
@@ -96,7 +96,7 @@
       \line {
         \justify {
           \concat {\with-link #'ref146 \bold"Bălgarska rapsodija – Българска рапсодия."}
-          Das Lied entstand 1934. Musik und Text Petar Danov. In diesem Lied stellte Danov die erhabensten Gestalten aus dem bulgarischen Epos dar. Ihnen liegt eine tiefe Symbolik zugrunde: Dies ist der mystische Weg der menschlichen Seele, die danach strebt, in Berührung mit der göttlichen Liebe zu kommen. \bold \italic"Anm. d. Hrsg.:" Das Lied wurde nach der Erinnerung von Pejo Ganev notiert, bei dem im Andante der typisch bulgarische, unregelmäßige 7/8-Takt erhalten bleibt. In der Variante von Maria Todorova wurde dieser Teil in einem ¾-Takt notiert, der typisch für die Wiener Klassik ist. So verliert dieser Teil seinen volksartigen Charakter.
+          Das Lied entstand 1934. Musik und Text Petar Danov. In diesem Lied stellte Danov die erhabensten Gestalten aus dem bulgarischen Epos dar. Ihnen liegt eine tiefe Symbolik zugrunde: Dies ist der mystische Weg der menschlichen Seele, die danach strebt, in Berührung mit der göttlichen Liebe zu kommen. \bold \italic"Anm. d. Hrsg.:" Das Lied wurde nach der Erinnerung von Penjo Ganev notiert, bei dem im Andante der typisch bulgarische, unregelmäßige 7/8-Takt erhalten bleibt. In der Variante von Maria Todorova wurde dieser Teil in einem ¾-Takt notiert, der typisch für die Wiener Klassik ist. So verliert dieser Teil seinen volksartigen Charakter.
         }
       }
       \vspace #0.4
@@ -170,7 +170,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref072 \bold "Blagost – Благост."} Die ersten fünf Takte des Liedes entstanden am 19. Dezember 1923, in der Allgemeinen Okkultklasse, III. Jahrgang, im 10. Vortrag „Die okkulte Musik im Leben“. Das Lied wurde am 26. Dezember 1923, Sofia, 11. Vortrag „Die Schule und die Entwicklung des Schülers“ vollendet. Petar Danov sagte: „Die Kraft dieses Liedes liegt in seinem Rhythmus. Es hat zum Ziel, den richtigen Rhythmus des menschlichen Herzens wiederherzustellen. Laut Maria Todorova wird am Ende des Liedes das erste Motiv wiederholt.
+          \concat {\with-link #'ref072 \bold "Blagost – Благост."} Die ersten fünf Takte des Liedes entstanden am 19. Dezember 1923, in der Allgemeinen Okkultklasse, III. Jahrgang, im 10. Vortrag „Die okkulte Musik im Leben“. Das Lied wurde am 26. Dezember 1923, Sofia, 11. Vortrag „Die Schule und die Entwicklung des Schülers“ vollendet. Petar Danov sagte: „Die Kraft dieses Liedes liegt in seinem Rhythmus. Das Lied hat zum Ziel, den richtigen Rhythmus des menschlichen Herzens wiederherzustellen. Laut Maria Todorova wird am Ende des Liedes das erste Motiv wiederholt.
 
         }
       }
@@ -192,7 +192,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref206 \bold "Božijata Ljubov me ozari – Божията Любов ме озари."} Das Lied entstand 13. März 1943 im Beisein von Liljana Tabakova. Teile des Liedes wurden schon als Musikübung in Vorträgen aus dem Jahr 1926 übermittelt. Im Vortrag „Einen Schritt“ vom 13 April 1927, Allgemeine Okkultklasse, Sofia, VI. Jahrgang trägt Danov der vollständige Text der Musikübung vor. \bold \italic"Anm. d. Hrsg.:" Mit \italic"ossia" wurden die Korrekturen markiert, die Liljana Tabakova in das Liederbuch von Gita Strateva eingetragen hatte.
+          \concat {\with-link #'ref206 \bold "Božijata Ljubov me ozari – Божията Любов ме озари."} Das Lied entstand 13. März 1943 im Beisein von Liljana Tabakova. Teile des Liedes wurden schon als Musikübung in Vorträgen aus dem Jahr 1926 übermittelt. Im Vortrag „Einen Schritt“ vom 13. April 1927, Allgemeine Okkultklasse, Sofia, VI. Jahrgang, trägt Danov den vollständigen Text der Musikübung vor. \bold \italic"Anm. d. Hrsg.:" Mit \italic"ossia" wurden die Korrekturen markiert, die Liljana Tabakova in das Liederbuch von Gita Strateva eingetragen hatte.
         }
       }
       \vspace #0.5
@@ -249,7 +249,7 @@
       \line {
         \justify {
           \concat {\with-link #'ref092_2 \bold "Davaj, Davaj – Давай, давай."}
-          28. Dezember 1926, Sofia, Allgemeine Okkultklasse, VI. Jahrgang, 15. Vortrag „Mannifestation der Musik im Bewusstsein“. Dieses Lied ist ein kraftvolles Motiv, welches Bilder und Gemälde im Bewusstsein des Menschen erweckt. Das Lied gibt dem Menschen den Impuls zu geben, auf dem Acker des Lebens zu säen. Mit dem Singen von \italic"Davaj, davaj" sagst du: „Ich muss geben“. Wer reine Weizenkörner gibt, zu dem kommt dasselbe zurück. \italic"Davaj, davaj" beginnt mit dem Ton A, der die Quelle symbolisiert; also bist du eine Quelle, die fließen soll. Du hast dich gedrückt: Stehe auf und verrichte deine Arbeit. Der Begriff \italic"Davaj, davaj" hat eine umfassende Bedeutung.
+          28. Dezember 1926, Sofia, Allgemeine Okkultklasse, VI. Jahrgang, 15. Vortrag „Manifestation der Musik im Bewusstsein“. Dieses Lied ist ein kraftvolles Motiv, welches Bilder und Gemälde im Bewusstsein des Menschen erweckt. Das Lied gibt dem Menschen den Impuls zu geben, auf dem Acker des Lebens zu säen. Mit dem Singen von \italic"Davaj, davaj" sagst du: „Ich muss geben“. Wer reine Weizenkörner gibt, zu dem kommt dasselbe zurück. \italic"Davaj, davaj" beginnt mit dem Ton A, der die Quelle symbolisiert; also bist du eine Quelle, die fließen soll. Du hast dich gedrückt: Stehe auf und verrichte deine Arbeit. Der Begriff \italic"Davaj, davaj" hat eine umfassende Bedeutung.
         }
       }
       \vspace #0.5
@@ -311,7 +311,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref161 \bold "Duhaj, vetre II – Духай, ветре II."} Der erste Teil, \italic"Božieto Slănce gree dnes..." entstand am 25. Dezember 1942, Sofia, Jugendokkultklasse, XII. Jahrgang, 12. Vortrag „Wehe, Wind“; der zweite Teil, \italic"Haj-di-di..." entstand am 30. Dezember 1942, Sofia, Allgemeine Okkultklasse, XII. Jahrgang, 15. Vortrag „Die beiden göttlichen Prozesse“. Dieses Lied wurde ursprünglich in dieser Form von Petar Danov vorgetragen. Später veränderte Danov auf Wunsch einiger seiner Schüler dessen ersten Teil.
+          \concat {\with-link #'ref161 \bold "Duhaj, vetre II – Духай, ветре II."} Der erste Teil, \italic"Božieto Slănce gree dnes..." entstand am 25. Dezember 1942, Sofia, Jugendokkultklasse, XII. Jahrgang, 12. Vortrag „Wehe, Wind“; der zweite Teil, \italic"Haj-di-di..." entstand am 30. Dezember 1942, Sofia, Allgemeine Okkultklasse, XXII. Jahrgang, 15. Vortrag „Zwei göttliche Prozesse“. Dieses Lied wurde ursprünglich in dieser Form von Petar Danov vorgetragen. Später veränderte Danov auf Wunsch einiger seiner Schüler dessen ersten Teil.
         }
       }
 
@@ -346,7 +346,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref070 \bold "Fir-fjur-fen – Blagoslavaj – Фир-фюр-фен – Благославяй."} Das Lied entstand am 21. August 1922 während der Zusammenkunft in Veliko Tărnovo während des Vortrages \italic"Musik, Arbeit, und Fasten." Dieses Lied dient der Harmonisierung und der Heilung. Es reguliert die Ströme und die Kräfte im Menschen und bringt sie in Har-
+          \concat {\with-link #'ref070 \bold "Fir-fjur-fen – Blagoslavaj – Фир-фюр-фен – Благославяй."} Das Lied entstand am 21. August 1922 während der Zusammenkunft in Veliko Tărnovo während des Vortrages \italic"Musik, Arbeit, Fasten." Dieses Lied dient der Harmonisierung und der Heilung. Es reguliert die Ströme und die Kräfte im Menschen und bringt sie in Har-
 
         }
       }
@@ -367,13 +367,13 @@
 
           \italic "Fir-fjur"dasjenige, was den Menschen leitet.
 
-          \italic "fen"beseitigt die Hindernisse und reinigt.
+          \italic "Fen"beseitigt die Hindernisse und reinigt.
 
           \italic "Tao"umzäunt und beschützt den Menschen als Umgebung, in die er eingetaucht ist. \italic " Tao" ist außerdem das Absolute, das Nicht-Manifestierte, das Grenzenlose.
 
           \italic "Bi"dasjenige, was sich manifestiert.
 
-          \italic "Aoumen"alle Eigenschaften, die im Göttlichen enthalten sind; alles, was wachsen und sich in seiner Fülle manifestieren soll.
+          \italic "Aumen"alle Eigenschaften, die im Göttlichen enthalten sind; alles, was wachsen und sich in seiner Fülle manifestieren soll.
 
           \italic "Fir-fjur-fen" ist ein rhythmischer Satz, es sind
           rhythmische Wörter mit starker Schwingung, deren Wesen im Bewusstsein der Menschen, die im materiellen Leben versunken sind, etwas Neues erwecken kann. „Blagoslavjaj“ entstand etwas später und zu \italic "Fir-fjur-fen" hinzugefügt.
@@ -409,7 +409,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref104 \bold "Himn na Velikata duša – Химн на Великата душа."} 29. März 1933, Sofia, Allgemeine Okkultklasse, XII. Jahrgang 13. Vortrag „Grundlagen“. Das ist ein Lied für das menschliche Gesicht. Das Thema des Liedes entstand am 17. März 1933, Jugendokkultklasse, XII. Jahrgang, 5. Vortrag „Allgemeine und besondere Grundlagen“. Dieses Lied lässt jene innere Sonne erahnen, die in allen Wesen arbeitet und sie von der Finsternis ins Licht, vom Tod ins Leben, von der Sklaverei in die Freiheit erhebt. Es endet mit einer Freudenhymne für den großen Einen, der allem zugrunde liegt.
+          \concat {\with-link #'ref104 \bold "Himn na Velikata duša – Химн на Великата душа."} 29. März 1933, Sofia, Allgemeine Okkultklasse, XII. Jahrgang 13. Vortrag „Grundlagen“. Das ist ein Lied für das menschliche Antlitz. Das Thema des Liedes entstand am 17. März 1933, Jugendokkultklasse, XII. Jahrgang, 5. Vortrag „Allgemeine und besondere Grundlagen“. Dieses Lied lässt jene innere Sonne erahnen, die in allen Wesen arbeitet und sie von der Finsternis ins Licht, vom Tod ins Leben, von der Sklaverei in die Freiheit erhebt. Es endet mit einer Freudenhymne für den großen Einen, der allem zugrunde liegt.
         }
       }
       \vspace #0.5
@@ -442,7 +442,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref083_3 \bold"Imaše čelovek – Имаше человек."} 30. November 1927, Allgemeine Okkultklasse, VII. Jahrgang, 6. Vortrag „Wahrscheinlichkeiten und Möglichkeiten“ mit dem Titel „Der Sohn Gottes“. Text Johannes 1,6-13. Am 19. November 1924, Allgemeine Okkultklasse, IV. Jahrgang, 6. Vortrag „Inkommensurable Dinge“ singt Danov ein Lied nach einem Text zum selben Thema. Die Melodie gehört für ihn zu den inkommensurablen Größen. \bold  \italic"Anm. d. Hrsg.:" Wegen seiner unsymmetrischen Struktur und im Hinblick darauf, die Melodie nicht durch das Einführung von ihr fremden Taktangabe zu begrenzen, wurde das Lied \italic"senza misura" notiert, indem die einzelnen Phrasen durch punktierte Taktstriche markiert wurden.
+          \concat {\with-link #'ref083_3 \bold"Imaše čelovek – Имаше человек."} 30. November 1927, Allgemeine Okkultklasse, VII. Jahrgang, 6. Vortrag „Wahrscheinlichkeiten und Möglichkeiten“ mit dem Titel „Der Sohn Gottes“. Text Johannes 1,6-13. Am 19. November 1924, Allgemeine Okkultklasse, IV. Jahrgang, 6. Vortrag „Inkommensurable Dinge“ singt Danov ein Lied nach einem Text zum selben Thema. Die Melodie gehört für ihn zu den inkommensurablen Größen. \bold  \italic"Anm. d. Hrsg.:" Wegen seiner unsymmetrischen Struktur und im Hinblick darauf, die Melodie nicht durch die Einführung von ihr fremden Taktangaben zu begrenzen, wurde das Lied \italic"senza misura" notiert, indem die einzelnen Phrasen durch punktierte Taktstriche markiert wurden.
         }
       }
       \vspace #0.5
@@ -455,14 +455,14 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref071_1 \bold "Izgrjava Slănceto – Изгрява Слънцето."}Das Lied entstand am 22. Oktober 1922 in der Allgemeinen Okkultklasse, II. Jahrgang, 4. Vortrag „Die okkulte Musik“. An dieser Stelle sagt Petar Danov Folgendes: „Hier wurde mit vollkommener Einfachheit des Tons und des Wortes das herrliche Bild der aufgehenden Sonne geschaffen. In der okkulten Musik werden niemals doppeldeutige Wörter und Töne zugelassen. In dieser Hinsicht ist das Lied\italic "Izgrjava slănceto" ein Vorbild.“
+          \concat {\with-link #'ref071_1 \bold "Izgrjava Slănceto – Изгрява Слънцето."}Das Lied entstand am 22. Oktober 1922 in der Allgemeinen Okkultklasse, II. Jahrgang, 4. Vortrag „Die okkulte Musik“. An dieser Stelle sagt Petar Danov Folgendes: „Hier wurde mit vollkommener Einfachheit des Tons und des Wortes das herrliche Bild der aufgehenden Sonne geschaffen. In der okkulten Musik werden niemals doppeldeutige Wörter und Töne zugelassen. In dieser Hinsicht ist das Lied\italic "Izgrjava Slănceto" ein Vorbild.“
         }
       }
       \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref022 \bold "Igrjava veče den tăržestven – Изгрява вече ден тържествен."}
-          Musik von Petar Danov, Text von einem Schüler nach den Ideen von Petar Danov.
+          Musik von Petar Danov, Text von einem Schüler nach Ideen von Petar Danov.
         }
       }
       \vspace #0.5
@@ -539,14 +539,14 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref211 \bold "Kaži mi, svetli Boži – lăč II Кажи ми, светли Божи лъч II."}26. Mai 1943 an Liljana Tabakova. Schließt den Text eines anderen Liedes mit demselben Titel ein, das 1923 entstand.
+          \concat {\with-link #'ref211 \bold "Kaži mi, svetli Boži lăč II – Кажи ми, светли Божи лъч II."} Das Lied wurde am 26. Mai 1943 im Beisein von Liljana Tabakova vorgetragen. Schließt den Text eines anderen Liedes mit demselben Titel ein, das 1923 entstand.
         }
       }
       \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref092_1 \bold"Kiamet Zenu – Киамет Зену."}
-          8. Dezember 1926, Allgemeine Okkultklasse, VI. Jahrgang, 12. Vortrag „Die letzte Tat“. \italic"Kiamet Zenu" bedeutet, dass du einen Ort betrittst, der so schön, so außergewöhnlich ist, dass du staunst und nicht weißt, worauf du zuerst deinen Blick richten sollst. Das Wort \italic"Kiamet" bedeutet: das Große im Leben, dasjenige, was in Raum und Zeit verborgen liegt. Es ist der Beginn aller Dinge, dasjenige, das der schöpferischen Kraft Schwung gibt. Dieses Wort bedeutet auch die Kraft, mit deren Hilfe du kämpfst, um die Einschränkungen zu Beginn der Erneuerung zu besiegen. \italic"Mahar Benu" ist der Große, der die Dinge ordnet und aufbaut. Er ist unveränderlich und beständig. Nehmt z.B. die Übung „Kiamet Zenu“ – sie hat einen östlichen Charakter. Ihre Kraft liegt in ihren Tönen und in ihrer Zusammenstellung. \bold \italic"Anm. d. Hrsg.:" Wegen seiner unsymmetrischen Struktur und im Hinblick darauf, die Melodie nicht durch die Einführung von ihr fremden Taktangabe zu begrenzen, wurde das Lied \italic"senza misura" notiert, indem die einzelnen Phrasen durch punktierte Taktstriche markiert wurden.
+          8. Dezember 1926, Allgemeine Okkultklasse, VI. Jahrgang, 12. Vortrag „Die letzte Tat“. \italic"Kiamet Zenu" bedeutet, dass du einen Ort betrittst, der so schön, so außergewöhnlich ist, dass du staunst und nicht weißt, worauf du zuerst deinen Blick richten sollst. Das Wort \italic"Kiamet" bedeutet: das Große im Leben, dasjenige, was in Raum und Zeit verborgen liegt. Es ist der Beginn aller Dinge, dasjenige, das der schöpferischen Kraft Schwung gibt. Dieses Wort bedeutet auch die Kraft, mit deren Hilfe du kämpfst, um die Einschränkungen zu Beginn der Erneuerung zu besiegen. \italic"Mahar Benu" ist der Große, der die Dinge ordnet und aufbaut. Er ist unveränderlich und beständig. Nehmt z.B. die Übung „Kiamet Zenu“ – sie hat einen östlichen Charakter. Ihre Kraft liegt in ihren Tönen und in ihrer Zusammenstellung. \bold \italic"Anm. d. Hrsg.:" Wegen seiner unsymmetrischen Struktur und im Hinblick darauf, die Melodie nicht durch die Einführung von ihr fremden Taktangaben zu begrenzen, wurde das Lied \italic"senza misura" notiert, indem die einzelnen Phrasen durch punktierte Taktstriche markiert wurden.
         }
       }
 
@@ -582,7 +582,7 @@
 
       \line {
         \justify {
-          druck und Sanftheit gesungen werden. \italic"Mahar" bedeutet der Große, \italic" Benu" der, der segnet und \italic"Aba" der Vater aller Dinge. Im Vortrag „Mahar Benu Aba“ aus dem Zyklus \italic"Jugendokkultklasse," 12. Dezember 1941, 12. Vortrag gibt Danov folgende Erläuterung des Liedes: \italic"Mahar" ist eine natürliche, nach unten gerichtete Bewegung. \italic"Benu" ist der Aufstieg nach oben. \italic"Aba" bedeutet, den Ort bestiegen zu haben, den du erstrebst. Dort ist es eben; es gibt genügend Raum und du kannst dich bewegen. Das bedeutet, dass es drei Konzepte gibt: den Abstieg, den Aufstieg und eine natürliche Bewegung, bei der die Hindernisse beseitigt werden. Die Hindernisse ergeben sich aus dem Auf- und Abstieg. Bei \italic"Aba" wird der Gang zu etwas Natürlichem. Dies bedeutet, dass du dich an die Arbeit machst. \italic"Mahar" ist der schönste Ort, zu dem du hinabsteigen kannst; \italic"Benu" ist der schönste Ort, zu dem du aufsteigen kannst; \italic"Aba" ist der schönste ebene Ort, wo du arbeiten und leben kannst. (Kommentar vom 12. Dezember 1941, Allgemeine Okkultklasse, XXI. Jahrgang, 12. Vortrag.)
+          druck und Sanftheit gesungen werden. \italic"Mahar" bedeutet der Große, \italic" Benu" der, der segnet und \italic"Aba" der Vater aller Dinge. Im Vortrag „Mahar Benu Aba“ aus dem Zyklus Jugendokkultklasse, 12. Dezember 1941, 12. Vortrag gibt Danov folgende Erläuterung des Liedes: \italic"Mahar" ist eine natürliche, nach unten gerichtete Bewegung. \italic"Benu" ist der Aufstieg nach oben. \italic"Aba" bedeutet, den Ort bestiegen zu haben, den du erstrebst. Dort ist es eben; es gibt genügend Raum und du kannst dich bewegen. Das bedeutet, dass es drei Konzepte gibt: den Abstieg, den Aufstieg und eine natürliche Bewegung, bei der die Hindernisse beseitigt werden. Die Hindernisse ergeben sich aus dem Auf- und Abstieg. Bei \italic"Aba" wird der Gang zu etwas Natürlichem. Dies bedeutet, dass du dich an die Arbeit machst. \italic"Mahar" ist der schönste Ort, zu dem du hinabsteigen kannst; \italic"Benu" ist der schönste Ort, zu dem du aufsteigen kannst; \italic"Aba" ist der schönste ebene Ort, wo du arbeiten und leben kannst. (Kommentar vom 12. Dezember 1941, Allgemeine Okkultklasse, XXI. Jahrgang, 12. Vortrag.)
         }
       }
       \vspace #0.5
@@ -595,7 +595,7 @@
 
       \line {
         \justify {
-          \concat {\with-link #'ref099 \bold "Malkijat izvor – Малкият извор."} 28 Januar 1925, Sofia, Allgemeine Okkultklasse, IV. Jahrgang, 16. Vortrag „Richtiges Singen“. Das Lied erweckt die kindliche Reinheit im Menschen. Christus sagt: „Wenn ihr nicht werdet wie die Kinder, so werdet ihr nicht in das Reich Gottes eintreten.“
+          \concat {\with-link #'ref099 \bold "Malkijat izvor – Малкият извор."} 28. Januar 1925, Sofia, Allgemeine Okkultklasse, IV. Jahrgang, 16. Vortrag „Richtiges Singen“. Das Lied erweckt die kindliche Reinheit im Menschen. Christus sagt: „Wenn ihr nicht werdet wie die Kinder, so werdet ihr nicht in das Reich Gottes eintreten.“
         }
       }
 
@@ -623,7 +623,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref175_2 \bold "Me-hejn I – Me-хейн I."}29. Januar 1941, Text Stojanka Ilieva. In ihrem eigenen Exemplar korrigierte Maria Todorova den Titel zu „Me-heim“ und hat handschriftlich die zweite Variante des Textes hinzugefügt.
+          \concat {\with-link #'ref175_2 \bold "Me-hejn I – Me-хейн I."}29. Januar 1941, Text Stojanka Ilieva. In ihrem eigenen Exemplar korrigierte Maria Todorova den Titel zu „Me-hejm“ und hat handschriftlich die zweite Variante des Textes hinzugefügt.
         }
       }
       \vspace #0.5
@@ -768,7 +768,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref087 \bold "Musala – Мусала."} 3. Dezember 1922, Sofia, Allgemeine Okkultklasse, II. Jahrgang, 10. Vortrag „Okkulte Musik“.
+          \concat {\with-link #'ref087 \bold "Musala – Мусала."} 3. Dezember 1922, Sofia, Allgemeine Okkultklasse, II. Jahrgang, 10. Vortrag „Die okkulte Musik“.
         }
       }
       \vspace #0.5
@@ -806,7 +806,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref048 \bold "Napred, čada, napredv – Напред, чада, напред."}Musik und Text von einem Schüler.
+          \concat {\with-link #'ref048 \bold "Napred, čada, napred – Напред, чада, напред."}Musik und Text von einem Schüler.
         }
       }
       \vspace #0.5
@@ -984,13 +984,13 @@
 
       \line {
         \justify {
-          \concat {\with-link #'ref124 \bold "Proletna pesen – Пролетна песен."} Komponiert von Schülern nach Motiven von Petar Danov im Februar 1935.
+          \concat {\with-link #'ref124 \bold "Proletna pesen (Mili Bože) – Пролетна песен (Мили Боже)."} Komponiert von Schülern nach Motiven von Petar Danov im Februar 1935.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref181 \bold "Proletna pesen – Пролетна песен."}9. März 1933, in Sofia, Izgrev, Text Olga Slavčeva.
+          \concat {\with-link #'ref181 \bold "Proletna pesen (Eto pristiga ...) – Пролетна песен (Ето пристига ...)."}9. März 1933, in Sofia, Izgrev, Text Olga Slavčeva.
         }
       }
       \vspace #0.5
@@ -1014,7 +1014,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref155_1 \bold "Radost za dušata – Радост за душата."} In der Handschrift von Metodi Šivačev wurde das Lied „Čisti bădete – Seid rein“ betitelt – zu „Sladko medeno“.
+          \concat {\with-link #'ref155_1 \bold "Radost za dušata – Радост за душата."} In der Handschrift von Metodi Šivačev wurde das Lied „Čisti bădete – Seid rein“ betitelt – zu „Sladko, medeno“.
         }
       }
 
@@ -1062,13 +1062,13 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref076_2 \bold "Sila živa – Сила жива."} 19. November 1922, Sofia, Allgemeine Okkultklasse, II. Jahrgang, 8. Vortrag „Musik und Singen – ein Mittel des Sich-Stimmens“. \bold \italic"Anm. d. Hrsg.:" Mit \italic"ossia" wurde die Korrektur angegeben, die Maria Todorova in ihrem eigenen Exemplar des Liederbuches gemacht hatte.
+          \concat {\with-link #'ref076_2 \bold "Sila živa – Сила жива."} 19. November 1922, Sofia, Allgemeine Okkultklasse, II. Jahrgang, 8. Vortrag „Musik und Singen – ein Mittel des Sich-Einstimmens“. \bold \italic"Anm. d. Hrsg.:" Mit \italic"ossia" wurde die Korrektur angegeben, die Maria Todorova in ihrem eigenen Exemplar des Liederbuches gemacht hatte.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref071_2 \bold "Sila živa, izvorna – Сила жива, изворна."}12. Oktober 1922 г., Sofia, Allgemeine Okkultklasse, II. Jahrgang, 2. Vortrag „Praktische Anwendung der Musik“. An der Stelle sagt Petar Danov Folgendes: „Die Töne dieses Liedes zeigen die Bewegungen, ein Quellen nach oben und ein Erweitern. Das Unterdrückte im Menschen wird befreit; es wird in Gang gesetzt und ihm wird die richtige Richtung gegeben. Damit der Mensch diese Übung singen kann, muss er in einen harmonischen Kontakt mit der göttlichen Natur treten. Die Worte \italic"Zun mezun" regulieren in der okkulten Musik; sie sind die Gleichgewicht bringende Kraft; sie sind das Maß. \italic"Tu meto" hat einen der schönsten Inhalte.“
+          \concat {\with-link #'ref071_2 \bold "Sila živa, izvorna – Сила жива, изворна."}12. Oktober 1922, Sofia, Allgemeine Okkultklasse, II. Jahrgang, 2. Vortrag „Praktische Anwendung der Musik“. An der Stelle sagt Petar Danov Folgendes: „Die Töne dieses Liedes zeigen die Bewegungen, ein Quellen nach oben und ein Erweitern. Das Unterdrückte im Menschen wird befreit; es wird in Gang gesetzt und ihm wird die richtige Richtung gegeben. Damit der Mensch diese Übung singen kann, muss er in einen harmonischen Kontakt mit der göttlichen Natur treten. Die Worte \italic"Zun mezun" regulieren in der okkulten Musik; sie sind die Gleichgewicht bringende Kraft; sie sind das Maß. \italic"Tu meto" hat einen der schönsten Inhalte.“
         }
       }
       \vspace #0.5
@@ -1092,7 +1092,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref133 \bold "Skitah se po gori i planini – Скитах се по гори и планини."}Das Lied entstand 1933. Mit der \italic"ossia" wurde die Variante nach Vesela Nestorova angegeben.
+          \concat {\with-link #'ref133 \bold "Skitah se po gori i planini – Скитах се по гори и планини."}Das Lied entstand 1933. Mit \italic"ossia" wurde die Variante nach Vesela Nestorova angegeben.
         }
       }
       \vspace #0.5
@@ -1119,7 +1119,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref073 \bold "Sladko medeno – Сладко медено."} 29. Oktober 1922, Sofia, Allgemeine Okkultklasse, II. Jahrgang, 5. Vortrag „Der Einfluss der Elektrizität“. Das ist eine positive Übung; jedes Bild ist aktiv.
+          \concat {\with-link #'ref073 \bold "Sladko, medeno – Сладко, медено."} 29. Oktober 1922, Sofia, Allgemeine Okkultklasse, II. Jahrgang, 5. Vortrag „Der Einfluss der Elektrizität“. Das ist eine positive Übung; jedes Bild ist aktiv.
         }
       }
       \vspace #0.5
@@ -1131,7 +1131,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref125 \bold "Slănčeva pesen – pčelna mušička – Слънчева песен – пчелна мушичка."} Das Lied entstand im Februar 1935. Dieses Lied wurde von Petar Danov zum Lied \italic"Proletna pesen," hinzugefügt. Dieses Lied wird als sein Ende betrachtet.
+          \concat {\with-link #'ref125 \bold "Slănčeva pesen – pčelna mušička – Слънчева песен – пчелна мушичка."} Das Lied entstand im Februar 1935. Dieses Lied wurde von Petar Danov zum Lied \italic"Proletna pesen (Mili Bože)" hinzugefügt. Dieses Lied wird als sein Ende betrachtet.
         }
       }
       \vspace #0.5
@@ -1343,7 +1343,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref081 \bold "V zorite na Života – В зорите на живота."} Petar Danov gibt das Lied als okkulte Musikübung während des Vortrags vom 26. August 1922 „Lege dieses Gleichnis aus“ in Veliko Tărnovo. Danach wird das Lied am 3. Dezember 1922 in Sofia, Allgemeine Okkultklasse ІI. Jahrgang, 10. Vortrag „Die okkulte Musik“ gesungen. \bold \italic"Anm. d. Hrsg.:" Wegen seiner unsymmetrischen Struktur und im Hinblick darauf, die Melodie nicht durch die Einführung von ihr fremden Taktangaben zu begrenzen, wurde das Lied \italic"senza misura" notiert, indem die einzelnen Phrasen durch punktierte Taktstriche markiert wurden.
+          \concat {\with-link #'ref081 \bold "V zorite na života – В зорите на живота."} Petar Danov gibt das Lied als okkulte Musikübung während des Vortrags vom 26. August 1922 „Lege dieses Gleichnis aus“ in Veliko Tărnovo. Danach wird das Lied am 3. Dezember 1922 in Sofia, Allgemeine Okkultklasse ІI. Jahrgang, 10. Vortrag „Die okkulte Musik“ gesungen. \bold \italic"Anm. d. Hrsg.:" Wegen seiner unsymmetrischen Struktur und im Hinblick darauf, die Melodie nicht durch die Einführung von ihr fremden Taktangaben zu begrenzen, wurde das Lied \italic"senza misura" notiert, indem die einzelnen Phrasen durch punktierte Taktstriche markiert wurden.
         }
       }
 
@@ -1364,7 +1364,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref095 \bold "Vdăhnovenie – Вдъхновение."} 10. Dezember 1924, Sofia, Allgemeine Okkultklasse IV Jahr, 9. Vortrag. „Das Unverstandene“. Die Phrase „ti si blagoslovenie“ wurde später von Schülern hinzugefügt.
+          \concat {\with-link #'ref095 \bold "Vdăhnovenie – Вдъхновение."} 10. Dezember 1924, Sofia, Allgemeine Okkultklasse, IV. Jahrgang, 9. Vortrag. „Das Unverstandene“. Die Phrase „ti si blagoslovenie“ wurde später von Schülern hinzugefügt.
         }
       }
       \vspace #0.5
@@ -1400,7 +1400,7 @@
 
       \line {
         \justify {
-          \concat {\with-link #'ref076 \bold"Venir Benir – Венир Бенир."} 22. Oktober 1922, Sofia, II. Jahrgang, 6. Vortrag „Die okkulte Musik“ und am 5. November 1922. Allgemeine Okkultklasse, II. Jahrgang,
+          \concat {\with-link #'ref076 \bold"Venir Benir – Венир Бенир."} 22. Oktober 1922, Sofia, Allgemeine Okkultklasse, II. Jahrgang, 6. Vortrag „Die okkulte Musik“ und am 5. November 1922. Allgemeine Okkultklasse, II. Jahrgang,
           14. Vortrag „Keine Lüge“.\italic"Venir Benir" ist ein okkultes, östliches Motiv, das von den westlichen Völkern aufgenommen wurde. Die mystische Bedeutung des Liedes ist die folgende:
           \italic"Venir Benir"– Du, der Große, der Du alle und alles segnest.
 
@@ -1448,7 +1448,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref100 \bold"Vsičko v života e postižimo -  Всичко в живота е постижимо."} 16. Dezember 1932, Sofia, Jugendokkultklasse, XII. Jahrgang, 13. Vortrag „Die Terz im Leben“.
+          \concat {\with-link #'ref100 \bold"Vsičko v života e postižimo – Всичко в живота е постижимо."} 16. Dezember 1932, Sofia, Jugendokkultklasse, XII. Jahrgang, 13. Vortrag „Die Terz im Leben“.
         }
       }
 
@@ -1456,7 +1456,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref041 \bold "Za Nebesnija car – За Небесния Цар."} Musik und Text von Petar Danov, 1888, Hotanca. In den Notizen von Bojan Boev wurde das Lied mit \italic "Der zionische Marsch" betitelt.
+          \concat {\with-link #'ref041 \bold "Za Nebesnija Car – За Небесния Цар."} Musik und Text von Petar Danov, 1888, Hotanca. In den Notizen von Bojan Boev wurde das Lied mit \italic "Der zionische Marsch" betitelt.
         }
       }
       \vspace #0.5
@@ -1487,7 +1487,7 @@
       \line {
         \justify {
 
-          \concat {\with-link #'ref176 \bold "Žitno zărno – Житно зърно."} 19. Januar 1942, komponiert von Petar Danov, ausgearbeitet von Vesela Nestorova, vollendet am 4. Februar 1942. \bold  \italic"Anm. d. Hrsg.:" Die Notation des Liedes wurde nach dem Dokument aus dem Archiv von Penjo Ganev gemacht. Diese stimmt mit der Erinnerung von Ioana Strateva über den Klang des Liedes überein.
+          \concat {\with-link #'ref176 \bold "Žitno zărno – Житно зърно."} 19. Januar 1942, komponiert von Petar Danov, ausgearbeitet von Vesela Nestorova, vollendet am 4. Februar 1942. \bold  \italic"Anm. d. Hrsg.:" Die Notation des Liedes wurde nach einem Dokument aus dem Archiv von Penjo Ganev erstellt. Diese stimmt mit der Erinnerung von Ioana Strateva über den Klang des Liedes überein.
         }
       }
 
@@ -1501,7 +1501,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref016 \bold "Zorata na Novija život – Зората на новия живот."}
+          \concat {\with-link #'ref016 \bold "Zorata na novija život – Зората на новия живот."}
           Musik von Petar Danov, Text von einem Schüler nach den Ideen von Petar Danov. In der Ausgabe von 1949
           wurde in der ersten Strophe das Wort „Leben“ statt „Bundeslade“ verwendet.
         }
