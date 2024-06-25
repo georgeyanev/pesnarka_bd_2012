@@ -326,7 +326,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref101_2 \bold"Duhăt mi šepne tova – Духът ми шепне това."} 19. Januar 1934, Jugendokkult- klasse, XII. Jahrgang, 14. Vortrag „Das feste Seil“.
+          \concat {\with-link #'ref101_2 \bold"Duhăt mi šepne tova – Духът ми шепне това."} 19. Januar 1934, Jugendokkult- klasse, XIII. Jahrgang, 14. Vortrag „Das feste Seil“.
         }
       }
       \vspace #0.5
