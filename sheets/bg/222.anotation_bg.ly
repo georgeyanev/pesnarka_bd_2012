@@ -53,14 +53,14 @@
   \markup \fontsize  #+3 { \fill-line \bold {"Консултанти"} }
   \markup \fontsize  #+2.5 { \fill-line  {"Иоана Стратева, Иво Бонев, Надежда Атанасова"} }
   \markup { {  \vspace #0.5 } }
-  \markup \fontsize  #+3 { \fill-line \bold {"Коректор на нотния текст"} }
-  \markup \fontsize  #+2.5 { \fill-line  {"Райнхард Риддер"} }
-  %\markup { {  \vspace #0.5 } }
-  %\markup \fontsize  #+3 { \fill-line \bold {"Коректор на лиричния текст"} }
-  %\markup \fontsize  #+2.5 { \fill-line  {"Стела Рускова"} }
-  \markup { {  \vspace #0.5 } }
   \markup \fontsize  #+3 { \fill-line \bold {"Набор на нотния текст и дизайн"} }
   \markup \fontsize  #+2.5 { \fill-line  {"Мария Кирева, Георги Янев"} }
+  \markup { {  \vspace #0.5 } }
+  \markup \fontsize  #+3 { \fill-line \bold {"Коректор на нотния текст"} }
+  \markup \fontsize  #+2.5 { \fill-line  {"Райнхард Риддер"} }
+  \markup { {  \vspace #0.5 } }
+  \markup \fontsize  #+3 { \fill-line \bold {"Коректор на лиричния текст"} }
+  \markup \fontsize  #+2.5 { \fill-line  {"Стела Рускова"} }
   \markup { {  \vspace #0.5 } }
   \markup \fontsize  #+3 { \fill-line \bold {"Дизайн на корицата"} }
   \markup \fontsize  #+2.5 { \fill-line  {"Стоил Вътев"} }
