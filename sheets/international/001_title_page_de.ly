@@ -74,7 +74,7 @@
   \markup \fontsize  #+2  { {  \vspace #.5 } }
   \markup \fontsize  #+2.5 {\hspace #35 {"Herausgegeben von"} }
   \markup \fontsize  #+2  { {  \vspace #0.1 } }
-  \markup \fontsize  #+1.5 { \hspace #35 {"Maria Kireva" \concat { \raise #-1.1 \fontsize #6 "·" } "Reihard Ridder" } }
+  \markup \fontsize  #+1.5 { \hspace #35 {"Maria Kireva" \concat { \raise #-1.1 \fontsize #6 "·" } "N.N" } }
 
 
 
