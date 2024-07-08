@@ -147,6 +147,6 @@
     }
     \"rightBraces063"
   } % markup
-  
+
 
 } % bookpart

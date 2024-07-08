@@ -51,7 +51,7 @@
   \markup \dc-two "D.C." "con ripetizione"
 
 
- \label #'ref066_2
+  \label #'ref066_2
   \tocItem \markup "Тебе поем"
   \paper {
     print-all-headers = ##t
@@ -122,6 +122,6 @@
     \midi{}
 
   } % score
-  
+
 
 } % bookpart
