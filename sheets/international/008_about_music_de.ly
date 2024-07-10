@@ -39,7 +39,7 @@
     \vspace #1.5 \override #'(baseline-skip . 3.2)
     \justify {
 
-      Wir verstehen die Musik in einem etwas anderen Sinne. Ich spreche über die bewusste Musik und nicht über die statische. Wir haben den Bereich der statischen Musik schon verlassen und treten in die organische Musik ein, die sich ständig verändert
+      Wir verstehen die Musik in einem etwas anderen Sinne. Ich spreche über die bewusste Musik und nicht über die statische. Wir haben den Bereich der statischen Musik schon verlassen und treten in die organische Musik ein, die sich ständig verändert.
 
     }
   }
@@ -48,7 +48,7 @@
     \vspace #1  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
-      In die neue organische Musik werdet ihr an erster Stelle die Harmonie eurer Gedanken, Gefühle und Taten bringen. Dann werdet ihr als Sänger Widerhall finden – die unsichtbare Welt wird euch helfen.
+      In die neue organische Musik werdet ihr an erster Stelle die Harmonie in eure Gedanken, Gefühle und Taten bringen. Dann werdet ihr als Sänger Widerhall finden – die unsichtbare Welt wird euch helfen.
 
     }
   }
@@ -134,7 +134,7 @@
     \vspace #1  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
-      Diejenige Musik, die gleichermaßen das Herz, den Verstand und den Körper einstimmt, ist die Musik der Natur. Unter dem Begriff Natur verstehe ich die Welt der Harmonie – dort, wo die ganze Musik hervorgegangen ist.
+      Diejenige Musik, die gleichermaßen das Herz, den Verstand und den Körper einstimmt, ist die Musik der Natur. Unter dem Begriff Natur verstehe ich die Welt der Harmonie – an dem Ort, aus dem die ganze Musik hervorgegangen ist.
 
     }
   }
@@ -142,7 +142,7 @@
     \vspace #1  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
-      Die Natur arbeitet in jeder Hinsicht musikalisch. Es gibt keine großartigere Kunst, keine größere Musik, als die Kunst der Musik und die Musik der Natur. Wer die Gesetze der Natur beachtet, kann Sänger werden.
+      Die Natur arbeitet in jeder Hinsicht musikalisch. Es gibt keine großartigere Kunst, keine größere Musik als die Kunst der Musik und die Musik der Natur. Wer die Gesetze der Natur beachtet, kann Sänger werden.
 
     }
   }
@@ -163,31 +163,13 @@
     \justify {
       \hspace #1.5
 
-      In der okkulten Musik möchten wir nicht wie die Menschen, sondern wie die Engel singen. Durch die Musik können wir die Engel anziehen – sie werden sich für uns interessieren. Ihr werdet ihnen sagen: Wir studieren eure Musik und möchten so singen, wie ihr singt. Sie werden sagen: „Sehr gut, wir werden euch unsere Gegenwart und unsere Unterstützung schenken.“
+      In der okkulten Musik möchten wir nicht wie die Menschen, sondern wie die Engel singen. Durch die Musik können wir die Engel anziehen – sie werden sich für uns interessieren. Ihr werdet ihnen sagen: „Wir studieren eure Musik und möchten so singen, wie ihr singt.“ Sie werden sagen: „Sehr gut, wir werden euch unsere Gegenwart und unsere Unterstützung schenken.“
 
 
     }
   }
 
 
-
-  \markup \abs-fontsize #10 {
-    \vspace #1  \override #'(baseline-skip . 3.2)
-    \justify {
-      \hspace #1.5
-      Diejenige Musik, die gleichermaßen das Herz, den Verstand und den Körper einstimmt, ist die Musik der Natur. Unter dem Begriff Natur verstehe ich die Welt der Harmonie, aus der die ganze Musik hervorgegangen ist.
-
-    }
-  }
-
-  \markup \abs-fontsize #10 {
-    \vspace #1  \override #'(baseline-skip . 3.2)
-    \justify {
-      \hspace #1.5
-      Die Natur arbeitet in jeder Hinsicht musikalisch. Es gibt keine großartigere Kunst, keine größere Musik, als die Kunst der Musik und die Musik der Natur. Wer die Gesetze der Natur beachtet, kann Sänger werden.
-
-    }
-  }
 
   \markup \abs-fontsize #10 {
     \vspace #1  \override #'(baseline-skip . 3.2)
@@ -312,7 +294,7 @@
     \justify {
       \hspace #1.5
 
-      Die Musik soll im Menschen ein fröhliches Gefühl aufsteigenden Grades, ein Gefühl schöpferisch zu sein hervorrufen.
+      Die Musik soll im Menschen ein fröhliches Gefühl aufsteigenden Grades, ein Gefühl, schöpferisch zu sein, hervorrufen.
 
     }
   }
@@ -332,7 +314,7 @@
     \vspace #1  \override #'(baseline-skip . 3.2)
     \justify {
 
-      Musik ist eine der göttlichen Methoden zur Einstimmung. Wenn jemand die Übung „Gott ist Liebe“ ausführt, so wie sie gesungen werden soll, wird er sich verwandeln; welche Leiden er auch immer hat, sie werden verschwinden; er wird fröhlich und munter sein und sich verjüngen.
+      Musik ist eine der göttlichen Methoden zur Einstimmung. Wenn jemand die Übung „Gott ist Liebe“ ausführt, so wie sie gesungen werden soll, wird er sich wandeln; welche Leiden er auch immer hat, sie werden verschwinden; er wird fröhlich und munter sein und sich verjüngen.
 
 
 
@@ -346,17 +328,7 @@
     \justify {
       \hspace #1.5
 
-      Jeder soll sich selbst sagen: „Ich soll Musiker werden, ich soll lieben, ich soll gerade denken.“ In der Heiligen Schrift wurde gesagt: „Singt und lobpreist den Herrn in eurer Seele.“
-
-
-    }
-  }
-
-  \markup \abs-fontsize #10 {
-    \vspace #1  \override #'(baseline-skip . 3.2)
-    \justify {
-      \hspace #1.5
-      Ich aber sage: Singt und lobpreist den Herrn in eurem Geist, in eurem Herzen und in eurem Verstand. Alles in euch, von den Füßen bis zu den Haaren auf eurem Kopf, soll singen.
+      Jeder soll sich selbst sagen: „Ich soll Musiker werden, ich soll lieben, ich soll recgt denken.“ In der Heiligen Schrift wurde gesagt: „Singt und lobpreist den Herrn in eurer Seele.“ Ich aber sage: Singt und lobpreist den Herrn in eurem Geist, in eurem Herzen und in eurem Verstand. Alles in euch, von den Füßen bis zu den Haaren auf eurem Kopf, soll singen.
 
     }
   }
