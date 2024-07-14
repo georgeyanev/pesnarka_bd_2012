@@ -121,7 +121,7 @@
       e8^\accent e e8. | \noBreak
       g8^\accent a f e16 | \break
       e8^\accent g f d16 | \noBreak
-      e8\prall~ e8 e8 (d16) | \noBreak
+      e4\prall e8 (d16) | \noBreak
       e8^\accent e e d16  |  \noBreak
 
       \bar ".|:"
