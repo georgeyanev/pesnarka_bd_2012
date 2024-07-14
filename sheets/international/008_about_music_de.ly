@@ -289,32 +289,14 @@
 
     }
   }
-  \markup \abs-fontsize #10 {
-    \vspace #1  \override #'(baseline-skip . 3.2)
-    \justify {
-      \hspace #1.5
 
-      Die Musik soll im Menschen ein fröhliches Gefühl aufsteigenden Grades, ein Gefühl, schöpferisch zu sein, hervorrufen.
-
-    }
-  }
 
   \markup \abs-fontsize #10 {
     \vspace #1  \override #'(baseline-skip . 3.2)
     \justify {
       \hspace #1.5
 
-      Alle okkulten Schulen aus der Vergangenheit sowie diese von heute bedienen sich der Methode der Musik zur Erziehung und Selbsterziehung. Wenn der Mensch eine der musikalischen Methoden zur Transformierung des Bewusstseins anwendet, wird er sich in einer halben oder einer ganzen Stunde in einer anderen Tonleiter des Lebens, fern von seinen Schwierigkeiten befinden. Heutzutage, unter den Bedingungen, unter denen wir leben, müssen wir uns andauernd einstimmen, und die
-
-    }
-  }
-
-
-  \markup \abs-fontsize #10 {
-    \vspace #1  \override #'(baseline-skip . 3.2)
-    \justify {
-
-      Musik ist eine der göttlichen Methoden zur Einstimmung. Wenn jemand die Übung „Gott ist Liebe“ ausführt, so wie sie gesungen werden soll, wird er sich wandeln; welche Leiden er auch immer hat, sie werden verschwinden; er wird fröhlich und munter sein und sich verjüngen.
+      Alle okkulten Schulen aus der Vergangenheit sowie diese von heute bedienen sich der Methode der Musik zur Erziehung und Selbsterziehung. Wenn der Mensch eine der musikalischen Methoden zur Transformierung des Bewusstseins anwendet, wird er sich in einer halben oder einer ganzen Stunde in einer anderen Tonleiter des Lebens, fern von seinen Schwierigkeiten befinden. Heutzutage, unter den Bedingungen, unter denen wir leben, müssen wir uns andauernd einstimmen, und die Musik ist eine der göttlichen Methoden zur Einstimmung. Wenn jemand die Übung „Gott ist Liebe“ ausführt, so wie sie gesungen werden soll, wird er sich wandeln; welche Leiden er auch immer hat, sie werden verschwinden; er wird fröhlich und munter sein und sich verjüngen.
 
 
 
@@ -329,6 +311,16 @@
       \hspace #1.5
 
       Jeder soll sich selbst sagen: „Ich soll Musiker werden, ich soll lieben, ich soll recgt denken.“ In der Heiligen Schrift wurde gesagt: „Singt und lobpreist den Herrn in eurer Seele.“ Ich aber sage: Singt und lobpreist den Herrn in eurem Geist, in eurem Herzen und in eurem Verstand. Alles in euch, von den Füßen bis zu den Haaren auf eurem Kopf, soll singen.
+
+    }
+  }
+
+    \markup \abs-fontsize #10 {
+    \vspace #1  \override #'(baseline-skip . 3.2)
+    \justify {
+      \hspace #1.5
+
+      Die Musik soll im Menschen ein fröhliches Gefühl aufsteigenden Grades, ein Gefühl, schöpferisch zu sein, hervorrufen.
 
     }
   }
