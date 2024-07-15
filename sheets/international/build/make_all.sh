@@ -10,7 +10,6 @@ cat \
     ../238_toc.ly \
     ../007_vorwort.ly \
     ../008_about_music_de.ly \
-    ../005_blank_page.ly \
     ../010_bratski_pesni.ly \
     ../016_zorata_na_noviya_zhivot.ly \
     ../018_izlyazal_e_seyach.ly \

@@ -39,6 +39,7 @@
       жи -- вот на бла -- гост -- та, __  "в~но-" -- ви -- я све -- тъл
       тоз жи -- вот, __  жи -- вот на ра -- дост -- та. __
     }
+
     \addlyrics {
       "1. Zo" -- ra se čud -- na za -- zo -- rja -- va, __ zo --
       ra na sve -- tăl nov ži -- vot; __ s~ve -- li -- ko --
@@ -49,128 +50,132 @@
       ži -- vot na bla -- gost -- ta, __  v~no -- vi -- ja sve -- tăl
       toz ži -- vot, __  ži -- vot na ra -- dost -- ta. __
     }
+    \addlyrics {
+      \repeat unfold 32 { \skip 2 } (*жи -- вот)}
+      \addlyrics {
+        \repeat unfold 32 { \skip 2 } (*ži -- vot)}
 
-    \header {
-      title = \titleFunc "Зората на новия живот" "Zorata na novija život"
-    }
+        \header {
+          title = \titleFunc "Зората на новия живот" "Zorata na novija život"
+        }
 
-    \midi{}
-  }
+        \midi{}
+      }
 
-  \markup \empty-two
+      \markup \empty-two
 
-  \markup \abs-fontsize #10 {
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+      \markup \abs-fontsize #10 {
+        \hspace #5
+        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
 
-    \column {
-      % score
+        \column {
+          % score
 
-      \line { 2. И птички въздуха изпълнят }
-      \line {   "   " с възторг и сладки песни в хор, }
-      \line {   "   " хармонията да допълнят }
-      \line {   "   " в големия небесен двор.}
+          \line { 2. И птички въздуха изпълнят }
+          \line {   "   " с възторг и сладки песни в хор, }
+          \line {   "   " хармонията да допълнят }
+          \line {   "   " в големия небесен двор.}
 
-    }
+        }
 
-    \hspace #4
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line { 2. I ptički văzduha izpălnjat }
-      \line {   "   " s văztorg i sladki pesni v hor, }
-      \line {   "   " harmonijata da dopălnjat }
-      \line {   "   " v golemija nebesen dvor.}
+        \hspace #4
+        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+        \column {
+          \line { 2. I ptički văzduha izpălnjat }
+          \line {   "   " s văztorg i sladki pesni v hor, }
+          \line {   "   " harmonijata da dopălnjat }
+          \line {   "   " v golemija nebesen dvor.}
 
-    }
-  } % m
+        }
+      } % m
 
 
 
-  \markup \abs-fontsize #10 {
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+      \markup \abs-fontsize #10 {
+        \hspace #5
+        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
 
-    \column {
-      \line { "   " \italic {Припев: } }
-      \line {  "   " В новия светъл тоз живот, (2) }
-      \line { "   " живот на Любовта, }
-      \line {  "   " в новия светъл тоз живот,}
-      \line { "   " живот на благостта, }
-      \line { "   "  в новия светъл тоз живот,}
-      \line {  "   " живот на радостта.}
-      \vspace #0.5
+        \column {
+          \line { "   " \italic {Припев: } }
+          \line {  "   " В новия светъл тоз живот, (2) }
+          \line { "   " живот на Любовта, }
+          \line {  "   " в новия светъл тоз живот,}
+          \line { "   " живот на благостта, }
+          \line { "   "  в новия светъл тоз живот,}
+          \line {  "   " живот на радостта.}
+          \vspace #0.5
 
-      \line { 3. Трепти зората лекокрила  }
-      \line {   "   " и буди нашите души; }
-      \line {   "   " като любяща майка мила}
-      \line {   "   " подканва всекиго: „Стани!“.}
+          \line { 3. Трепти зората лекокрила  }
+          \line {   "   " и буди нашите души; }
+          \line {   "   " като любяща майка мила}
+          \line {   "   " подканва всекиго: „Стани!“.}
 
-      \vspace #0.5
-      \line { "   " \italic {Припев ...} }
-      \vspace #0.5
+          \vspace #0.5
+          \line { "   " \italic {Припев ...} }
+          \vspace #0.5
 
-      \line { 4. Лъчи от  любовта ни вливат }
-      \line {   "   " в гърдите жива топлина, }
-      \line {   "   " със сладка вяра ни повдигат }
-      \line {   "   " във крепост и виделина. }
+          \line { 4. Лъчи от  любовта ни вливат }
+          \line {   "   " в гърдите жива топлина, }
+          \line {   "   " със сладка вяра ни повдигат }
+          \line {   "   " във крепост и виделина. }
 
-      \vspace #0.5
-      \line { "   " \italic {Припев ...} }
-      \vspace #0.5
+          \vspace #0.5
+          \line { "   " \italic {Припев ...} }
+          \vspace #0.5
 
-      \line { 5.  О, тез лъчи от Бога идат, }
-      \line {   "   " те пълнят нашите сърца }
-      \line {   "   " и шепнат сладко как Той вика: }
-      \line {   "   " „Елате, Mоите деца!“. }
-      \vspace #0.5
-      \line { "   " \italic {Припев ...} }
-      \vspace #0.5
-    }
+          \line { 5.  О, тез лъчи от Бога идат, }
+          \line {   "   " те пълнят нашите сърца }
+          \line {   "   " и шепнат сладко как Той вика: }
+          \line {   "   " „Елате, Mоите деца!“. }
+          \vspace #0.5
+          \line { "   " \italic {Припев ...} }
+          \vspace #0.5
+        }
 
-    \hspace #4
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
+        \hspace #4
+        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+        \column {
 
-      \line { "   " \italic {Refrain: } }
-      \line {  "   " V novija svetăl toz život, (2) }
-      \line { "   " život na Ljubovta, }
-      \line {  "   " v novija svetăl toz život,}
-      \line { "   " život na blagostta, }
-      \line { "   "  v novija svetăl toz život,}
-      \line {  "   " život na radostta.}
-      \vspace #0.5
+          \line { "   " \italic {Refrain: } }
+          \line {  "   " V novija svetăl toz život, (2) }
+          \line { "   " život na Ljubovta, }
+          \line {  "   " v novija svetăl toz život,}
+          \line { "   " život na blagostta, }
+          \line { "   "  v novija svetăl toz život,}
+          \line {  "   " život na radostta.}
+          \vspace #0.5
 
-      \line { 3. Trepti zorata lekokrila  }
-      \line {   "   " i budi našite duši; }
-      \line {   "   " kato ljubjašta majka mila}
-      \line {   "   " podkanva vsekigo: „Stani!“.}
+          \line { 3. Trepti zorata lekokrila  }
+          \line {   "   " i budi našite duši; }
+          \line {   "   " kato ljubjašta majka mila}
+          \line {   "   " podkanva vsekigo: „Stani!“.}
 
-      \vspace #0.5
-      \line { "   " \italic {Refrain ...} }
-      \vspace #0.5
+          \vspace #0.5
+          \line { "   " \italic {Refrain ...} }
+          \vspace #0.5
 
-      \line { 4. Lăči ot  ljubovta ni vlivat }
-      \line {   "   " v gărdite živa toplina, }
-      \line {   "   " săs sladka vjara ni povdigat }
-      \line {   "   " văv krepost i videlina. }
+          \line { 4. Lăči ot  ljubovta ni vlivat }
+          \line {   "   " v gărdite živa toplina, }
+          \line {   "   " săs sladka vjara ni povdigat }
+          \line {   "   " văv krepost i videlina. }
 
-      \vspace #0.5
-      \line { "   " \italic {Refrain ...} }
-      \vspace #0.5
+          \vspace #0.5
+          \line { "   " \italic {Refrain ...} }
+          \vspace #0.5
 
-      \line { 5.  O, tez lăči ot Boga idat, }
-      \line {   "   " te pălnjat našite sărca }
-      \line {   "   " i šepnat sladko kak Toj vika: }
-      \line {   "   " „Elate, Moite deca!“. }
-      \vspace #0.5
-      \line { "   " \italic {Refrain ...} }
-      \vspace #0.5
-    }
-  } % markup
+          \line { 5.  O, tez lăči ot Boga idat, }
+          \line {   "   " te pălnjat našite sărca }
+          \line {   "   " i šepnat sladko kak Toj vika: }
+          \line {   "   " „Elate, Moite deca!“. }
+          \vspace #0.5
+          \line { "   " \italic {Refrain ...} }
+          \vspace #0.5
+        }
+      } % markup
 
-  \markup \empty-one
+      \markup \empty-one
 
-  % include foreign translation(s) of the song
-  \include "../../lyrics/de/016_zorata_na_noviya_zhivot_lyrics_de.ly"
+      % include foreign translation(s) of the song
+      \include "../../lyrics/de/016_zorata_na_noviya_zhivot_lyrics_de.ly"
 
-} % bookpart
+    } % bookpart
