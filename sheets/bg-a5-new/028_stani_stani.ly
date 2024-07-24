@@ -1,4 +1,4 @@
-\version "2.24.3"
+\version "2.24.4"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -40,15 +40,15 @@
       тя ще те и об -- но -- ви, и с~Дух ще те о
       -- за -- ри.}
 
-        \header {
-          title = \titleFunc #'ref_desc_3 "Стани, стани" "Stani, stani"
-        }
+      \header {
+        title = \titleFunc #'ref_desc_3 "Стани, стани" "Stani, stani"
+      }
 
-        \midi{}
+      \midi{}
 
-      } % score
+    } % score
 
-      \markup \dc-two "D.C." "con ripetizione"
-      
+    \markup \dc-two "D.C." "con ripetizione"
 
-    } % bookpart
+
+  } % bookpart

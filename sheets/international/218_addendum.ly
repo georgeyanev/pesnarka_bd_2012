@@ -1,12 +1,12 @@
-\version "2.24.3"
+\version "2.24.4"
 
 % include paper part and global functions
 \include "include/globals.ily"
 
 \bookpart {
-  
-   \tocAct \markup"Addendum"
-    \paper {
+
+  \tocAct \markup"Addendum"
+  \paper {
     print-all-headers = ##f
     print-page-number = ##f
     print-first-page-number = ##f
@@ -34,7 +34,7 @@
 
   \markup { {  \vspace #17.2 } }
 
- \markup \abs-fontsize #17 { \fill-line \bold {"Addendum"} }
+  \markup \abs-fontsize #17 { \fill-line \bold {"Addendum"} }
 
   % include foreign translation(s) of the song
   %

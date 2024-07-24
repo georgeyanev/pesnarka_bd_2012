@@ -1,12 +1,12 @@
-\version "2.24.3"
+\version "2.24.4"
 
 % include paper part and global functions
 \include "include/globals.ily"
 
 \bookpart {
-  
-   \tocAct \markup"Братски песни"
-    \paper {
+
+  \tocAct \markup"Братски песни"
+  \paper {
     print-all-headers = ##f
     print-page-number = ##f
     print-first-page-number = ##f
@@ -34,7 +34,7 @@
 
   \markup { {  \vspace #13.2 } }
 
- \markup \fontsize  #+7 { \fill-line \bold {"БРАТСКИ ПЕСНИ"} }
+  \markup \fontsize  #+7 { \fill-line \bold {"БРАТСКИ ПЕСНИ"} }
 
   % include foreign translation(s) of the song
   %

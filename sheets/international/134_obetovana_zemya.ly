@@ -1,11 +1,11 @@
-\version "2.24.3"
+\version "2.24.4"
 
 \include "include/globals.ily"
 
 \bookpart {
   \label #'ref134
   \tocItem \markup "Обетована земя – Obetovana zemja"
-   \paper {
+  \paper {
     print-all-headers = ##t
     print-page-number = ##t
     print-first-page-number = ##t

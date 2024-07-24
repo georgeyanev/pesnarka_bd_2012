@@ -1,4 +1,4 @@
-\version "2.24.3"
+\version "2.24.4"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -23,7 +23,7 @@
       ""
     }
 
-   left-margin = 1.5\cm
+    left-margin = 1.5\cm
     right-margin = 1.5\cm
     top-margin = 1.2\cm
     bottom-margin = 1.0\cm

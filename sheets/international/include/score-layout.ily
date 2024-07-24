@@ -1,8 +1,8 @@
-\version "2.24.3"
+\version "2.24.4"
 \layout {
   indent = 0.0\cm % remove first line indentation
   ragged-last = ##f % do spread last line to fill the whole space
- \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
+  \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
   \override Score.VoltaBracket.font-size = #-2.3 % make the repeat number fontsize smaller
 
 
@@ -10,7 +10,7 @@
     \Score
     \omit BarNumber %remove bar numbers
     \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
-     
+
   } % context
 
   \context {

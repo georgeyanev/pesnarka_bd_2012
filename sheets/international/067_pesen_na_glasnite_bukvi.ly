@@ -1,4 +1,4 @@
-\version "2.24.3"
+\version "2.24.4"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -79,7 +79,7 @@
 
 
 
- \markup \vspace #3
+  \markup \vspace #3
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/067_pesen_na_glasnite_bukvi_lyrics_de.ly"

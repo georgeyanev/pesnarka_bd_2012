@@ -1,4 +1,4 @@
-\version "2.24.3"
+\version "2.24.4"
 
 #(set-global-staff-size 14)
 
@@ -15,7 +15,7 @@
       #:typewriter "DejaVu Sans Mono"
       ; unnecessary if the staff size is default
       #:factor (/ staff-height pt 20)
-    ))
+      ))
 }
 
 tempoFunc = #(define-music-function
@@ -36,24 +36,24 @@ tempoFunc = #(define-music-function
               )
 
 tocAct = #(define-music-function (label text) ((symbol-list-or-symbol? '()) markup?)
-     (add-toc-item! 'tocActMarkup text label))
+            (add-toc-item! 'tocActMarkup text label))
 
 titleFunc = #(define-scheme-function
-    (cyrTitle latTitle)
-    (string? string?)
-    #{
-      \markup \column \normal-text \abs-fontsize #16 {
-        \center-align
-        \line { #cyrTitle }
-        %\vspace #-0.2
-        \center-align
-        \line \fontsize #-3 { #latTitle }
-        \vspace #-0.8
-        \center-align
-        \line \fontsize #-3 { " " }
-      }
-    #}
-)
+              (cyrTitle latTitle)
+              (string? string?)
+              #{
+                \markup \column \normal-text \abs-fontsize #16 {
+                  \center-align
+                  \line { #cyrTitle }
+                  %\vspace #-0.2
+                  \center-align
+                  \line \fontsize #-3 { #latTitle }
+                  \vspace #-0.8
+                  \center-align
+                  \line \fontsize #-3 { " " }
+                }
+              #}
+              )
 
 #(define-markup-command (dc-one layout props text) (markup?)
    "After song text (usually D.C.) with one line."
@@ -181,6 +181,6 @@ titleFunc = #(define-scheme-function
 %* To align span bars properly, the space character " " has a
 %  special meaning. When it occurs, the width of the resembling glyph in the bar line definition is used.
 %* New glyphs can be added easily.
-%* Volta brackets take the bar line dimensions into account. 
+%* Volta brackets take the bar line dimensions into account.
 
 

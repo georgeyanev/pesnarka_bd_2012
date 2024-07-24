@@ -1,4 +1,4 @@
-\version "2.24.3"
+\version "2.24.4"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -53,11 +53,11 @@
 
       } % score
 
-       \markup \empty-one
+      \markup \empty-one
 
       \markup \dc-one "D.C."
 
-       \markup \empty-two
+      \markup \empty-two
 
       % include foreign translation(s) of the song
       \include "../../lyrics/de/040_blagosloven_Gospod_lyrics_de.ly"

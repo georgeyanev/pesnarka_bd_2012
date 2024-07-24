@@ -1,4 +1,4 @@
-\version "2.24.3"
+\version "2.24.4"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Ein gütiges Wort auf den Lippen" }
 \markup \null

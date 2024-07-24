@@ -1,4 +1,4 @@
-\version "2.24.3"
+\version "2.24.4"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -18,8 +18,8 @@
 
     \translate #'(0 . -12.7 )
     \right-brace #30
-    
-      \translate #'(0 . -13.7 )
+
+    \translate #'(0 . -13.7 )
     \right-brace #30
 
   }
@@ -38,7 +38,7 @@
     2
 
 
-   \translate #'(0 . -17.9)
+    \translate #'(0 . -17.9)
     2
 
 
@@ -312,7 +312,7 @@
     \"rightBraces052_2"
   } % markup
 
- \markup \vspace #3
+  \markup \vspace #3
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/052_darzost_v_Hrista_lyrics_de.ly"

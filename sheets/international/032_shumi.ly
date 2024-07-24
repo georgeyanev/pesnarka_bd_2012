@@ -1,11 +1,11 @@
-\version "2.24.3"
+\version "2.24.4"
 
 % include paper part and global functions
 \include "include/globals.ily"
 
 \bookpart {
   \label #'ref032
-   \tocItem \markup "Шуми – Šumi"
+  \tocItem \markup "Шуми – Šumi"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

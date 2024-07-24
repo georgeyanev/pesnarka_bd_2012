@@ -1,4 +1,4 @@
-\version "2.24.3"
+\version "2.24.4"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -35,7 +35,7 @@
       за тях стра -- дам и коп -- не -- я.}
 
       \addlyrics {
-       "1. Strad" -- na
+        "1. Strad" -- na
         du -- šo, ti __ kop -- ne -- eš, za kak -- vo go --
         riš i __ tle -- eš? Slo -- vo -- to Ti, Bo -- že,
         ča -- kam i o -- bil -- na -- ta Ti __ mi -- lost,

@@ -1,4 +1,4 @@
-\version "2.24.3"
+\version "2.24.4"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -1311,26 +1311,26 @@
 
         }
       }
-    \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref053 \bold "Слава Божия."} Text und Musik Maria Todorova nach \italic"Psalm 115." Sie komponierte dieses Lied im August 1975 im Sommerlager in Zehirica im Rila-Gebirge.
         }
       }
-           \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref049 \bold "Славейчета горски  – Slavejčeta gorski"}  Musik von Atanas D. Kovačev, Text von Stojan Rusev (Djado Blago). Notiert am 20. April 1922.
         }
       }
-      
-         \vspace #0.5
+
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref073 \bold "Сладко, медено – Sladko, medeno."} 29. Oktober 1922, Sofia, Allgemeine Okkultklasse, II. Jahrgang, 5. Vortrag „Der Einfluss der Elektrizität“. Das ist eine positive Übung; jedes Bild ist aktiv.
         }
       }
-      
+
 
 
       \vspace #0.5
@@ -1339,41 +1339,41 @@
           \concat {\with-link #'ref174_2 \bold "Слушам – Slušam."} 17. Mai 1929. Das Lied ist eine musikalische Übung, Sofia, Allgemeine Okkultklasse, VIII. Jahrgang, 9. Vortrag „Die Einheit im Leben“.
         }
       }
-      
+
       \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref055_1 \bold "Слънцето на Любовта – Slănceto na Ljubovta"} Musik und Text von einem Schüler.
         }
       }
-        \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref125 \bold "Слънчева песен – пчелна мушичка – Slănčeva pesen – pčelna mušička."} Das Lied entstand im Februar 1935. Dieses Lied wurde von Petar Danov zum Lied \italic"Proletna pesen," hinzugefügt. Dieses Lied wird als sein Ende betrachtet.
         }
       }
-        
+
       \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref142 \bold "Ставай, дъще! – Stavaj, dăšte!"} Das Lied entstand 1934 als bulgarisches Volkslied, dessen ursprüngliche Reinheit wiederhergestellt wurde. Viele bulgarische Volkslieder haben einen okkulten Ursprung. Dieses Lied unterlag einer Entwicklung. Seine ursprüngliche Fassung enthielt nur eine Strophe. Auf Wunsch von Penjo Ganev bestellt Petar Danov bei Vesela Nestorova eine zweite Strophe. Nach einiger Zeit gibt er auch noch die dritte Strophe. Inhaltlich lehnt sich der Text stark an die Bibel: „Die Ernte ist groß, der Arbeiter aber sind wenige.“ Lk 10,2. \italic"Anm. d. Hrsg.:" Hier wurde das Lied mit den drei Strophen vorgestellt, weil sie kleine Unterschiede in der Melodie enthalten.
         }
       }
-        \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref028 \bold "Стани, стани – Stani, stani"}
           Musik und Text von Petar Danov. Das Lied entstand in Varna und ist in einem Brief, den Danov vom 9. Februar 1918 schrieb.
         }
       }
-          \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref029 \bold "Страдна душо – Stradna dušo."}
           Musik von Petar Danov, Text von  Mihalaki Georgiev. In den Notizen von Bojan Boev wurde dieses Lied mit \italic "Das Lied der Seele" betitelt. Jede Strophe entspricht einer der Kardinaltugenden: dem Guten, der Gerechtigkeit, der Liebe, der Weisheit und der Wahrheit. \italic \bold "Anm. d. Hrsg.:" Der Zwei-Achtel-Auftakt ist im ersten Takt enthalten, um die Anrede „Leidende Seele“ mit dem Akzent in der ersten Zeit vollständig zu vereinen. Die gesamte Ansprache erklingt im harmonischen Plan auf dem Tonika-Dreiklang.
         }
       }
-      
+
       \vspace #0.5
       \line {
         \justify {
@@ -1384,8 +1384,8 @@
 
     }
   }
-  
-  
+
+
   \label #'ref_desc_19
   \markup \abs-fontsize #10  {
     \override #'(baseline-skip . 3.4)
@@ -1396,14 +1396,14 @@
           Jugendokkultklasse, XIII. Jahrgang, 12. Vortrag „Liebt das Positive“, beendet am 16. Januar 1934. Wenn das Bewusstsein des Menschen durch die innere Kälte des Hasses, der Dunkelheit, des Egoismus, der Begrenzung erstarrt ist, gelangt der Mensch durch die äußere Kälte, die ungünstigen Bedingungen, die Widersprüche, die Schwierigkeiten, die Kämpfe und das Leiden zum inneren Licht. Er steigt in eine höhere Welt auf, die durch die Ankunft des Frühlings symbolisiert wird.
         }
       }
-          \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref025 \bold "Събуди се братко мили – Săbudi se bratko mili."}
           Musik von Petar Danov, Text von einem Schüler nach Ideen von Petar Danov.
         }
       }
-       \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref039 \bold "Сърдечен зов  – Sărdečen zov."} Musik von Atanas D. Kovačev, die während des Ersten Weltkrieges im Ort \italic"Dobro Pole" nach einem Motiv von Petar Danov komponiert wurde, Text von Ilija Zurkov. \italic \bold"Anm. d. Hrsg.:" Für diese Ausgabe wurde die Nichtübereinstimmung der Akzente im Rhythmus der Wörter und denen im Rhythmus der Melodie korrigiert. Dies machte an einigen Stellen eine geringfügige Änderung der Reihenfolge der Wörter erforderlich, um die natürliche Entsprechung der Akzente zu erhalten.
@@ -1417,42 +1417,42 @@
           \concat {\with-link #'ref066_1 \bold "Тайната вечеря – Tajnata večerja."} Musik und Text von Vesela Nestorova, gesegnet von Petar Danov. Die erste Strophe bedeutet Folgendes: „Alles ist licht, alles ist in meinem Licht [das Licht Christi] erleuchtet.“ Vesela Nestorova empfing das Lied als Offenbarung. Nachdem sie den Vers aus dem Evangelium las, in dem es heißt: „Und als sie ein Lied gesungen hatten, gingen sie hinaus auf den Ölberg“ (Mt 26,30 und Mk 14,26), betete sie, um dieses Lied zu hören. Eines Nachts, im Halbschlaf, erschien ihr Christus und sang das Lied, das er mit seinen Jüngern beim letzten Abendmahl gesungen hatte. Petar Danov bestätigte die Echtheit des Liedes.
         }
       }
-         \vspace #0.4
+      \vspace #0.4
       \line {
         \justify {
           \concat {\with-link #'ref117 \bold "Там далече – Tam daleče."} Das Lied entstand 1937.
         }
       }
-      
-      
+
+
       \vspace #0.4
       \line {
         \justify {
           \concat {\with-link #'ref066_2 \bold "Тебе поем – Tebe poem."}  Bulgarischer Kirchengesang, populär in der Weißen Bruderschaft.
         }
       }
-        \vspace #0.4
+      \vspace #0.4
 
       \line {
         \justify {
           \concat {\with-link #'ref055_2 \bold "Ти Си проявената Любов – Ti Si projavenata Ljubov."}  Text und Musik von Maria Savova.
         }
       }
-      
+
       \vspace #0.4
       \line {
         \justify {
           \concat {\with-link #'ref214 \bold "Ти ще сполучиш в живота – Ti šte spolučiš v života."}  24. Januar 1941, Sofia, Jugendokkultklasse, XX. Jahrgang, 14. Vortrag „Metaphysische Überlegungen“. Das Lied wurde notiert von Liljana Tabakova. Petar Danov sagt: „Wenn der Mensch singt und an die Engel und an ihr außergewöhnlich schönes Leben denkt, wird er im Leben immer erfolgreich sein.“
         }
       }
-      
-         \vspace #0.4
+
+      \vspace #0.4
       \line {
         \justify {
           \concat {\with-link #'ref114 \bold "Той иде – Toj ide."} Begonnen am 7. Januar, beendet am 5. Februar 1939.
         }
       }
-         
+
       \vspace #0.5
       \line {
         \justify {
@@ -1460,29 +1460,29 @@
         }
       }
 
-             \vspace #0.4
+      \vspace #0.4
       \line {
         \justify {
-          \concat {\with-link #'ref101_1 \bold "Тъги, скърби са богатство – Tăgi, skărbi sa bogatstvo."} 7. Dezember 1927, Sofia, Allgemeine Okkultklasse, VII. Jahrgang, 7. Vortrag „Ewige Erneuerung“. Seid ihr traurig, so singt dieses Lied. Es ist wichtig, dass der Mensch weiß, wie er dieses Lied singen soll. Beim Singen dieses Liedes sollte man das Gesetz der Kontraste 
+          \concat {\with-link #'ref101_1 \bold "Тъги, скърби са богатство – Tăgi, skărbi sa bogatstvo."} 7. Dezember 1927, Sofia, Allgemeine Okkultklasse, VII. Jahrgang, 7. Vortrag „Ewige Erneuerung“. Seid ihr traurig, so singt dieses Lied. Es ist wichtig, dass der Mensch weiß, wie er dieses Lied singen soll. Beim Singen dieses Liedes sollte man das Gesetz der Kontraste
         }
       }
-   }
+    }
   }
-  
-  
+
+
   \label #'ref_desc_20
   \markup \abs-fontsize #10  {
     \override #'(baseline-skip . 3.4)
     \column {
-      
-            
+
+
       \line {
         \justify {
-        berücksichtigen. Einmal kann man das Lied leise, einmal laut singen. Wenn man es mehrmals auf dieselbe Art und Weise singt, wird es seine Bedeutung verlieren. Mit den Liedern, die im Volksmusikstil komponiert wurden, brachte Petar Danov Erneuerung in die bulgarische Volksmusik.
+          berücksichtigen. Einmal kann man das Lied leise, einmal laut singen. Wenn man es mehrmals auf dieselbe Art und Weise singt, wird es seine Bedeutung verlieren. Mit den Liedern, die im Volksmusikstil komponiert wurden, brachte Petar Danov Erneuerung in die bulgarische Volksmusik.
         }
       }
 
-           \vspace #0.4
+      \vspace #0.4
       \line {
         \justify {
           \concat {\with-link #'ref070 \bold "Фир-фюр-фен – Благославяй – Fir-fjur-fen – Blagoslavaj."} Das Lied entstand am 21. August 1922 während der Zusammenkunft in Veliko Tărnovo während des Vortrages \italic"Musik, Arbeit, und Fasten." Dieses Lied dient der Harmonisierung und der Heilung. Es reguliert die Ströme und die Kräfte im Menschen und bringt sie in Harmonie mit dem Sein. Die Worte entstammen einer heiligen Sprache und können nicht wortwörtlich übersetzt werden. Petar Danov gibt nur eine ungefähre Übersetzung: Ohne Angst, ohne Finsternis.
@@ -1502,32 +1502,32 @@
 
         }
       }
-                \vspace #0.4
+      \vspace #0.4
       \line {
         \justify {
           \concat {\with-link #'ref104 \bold "Химн на Великата душа – Himn na Velikata duša."} 29. März 1933, Sofia, Allgemeine Okkultklasse, XII. Jahrgang 13. Vortrag „Grundlagen“. Das ist ein Lied für das menschliche Gesicht. Das Thema des Liedes entstand am 17. März 1933, Jugendokkultklasse, XII. Jahrgang, 5. Vortrag „Allgemeine und besondere Grundlagen“. Dieses Lied lässt jene innere Sonne erahnen, die in allen Wesen arbeitet und sie von der Finsternis ins Licht, vom Tod ins Leben, von der Sklaverei in die Freiheit erhebt. Es endet mit einer Freudenhymne für den großen Einen, der allem zugrunde liegt.
         }
       }
-         \vspace #0.4
+      \vspace #0.4
       \line {
         \justify {
           \concat {\with-link #'ref202 \bold  "Химн на Слънцето –  Himn na Slănceto."} Das Lied wurde am 5. Mai 1942 von Petar Danov im Beisein von Liljana Tabakova komponiert. „Mit diesem Lied werdet ihr die aufgehende Sonne begrüßen. Dies ist das Gebet zum Sonnenaufgang. Es ist eine majestätische Hymne an alle Sonnen. Diese Hymnen werden auch von den  Engeln gesungen.“ Dieses Lied wird zusammen mit dem nächsten Lied \italic"Molitva" ausgeführt.
         }
       }
-       \vspace #0.4
-           \line {
+      \vspace #0.4
+      \line {
         \justify {
           \concat {\with-link #'ref088 \bold "Ходи, ходи – Hodi, hodi."} 23. April 1924, Sofia, Allgemeine Okkultklasse, III. Jahrgang, 27. Vortrag „Der Schleifstein und das Messer“. Der Text der zweiten Strophe stammt von Stojanka Ilieva.
         }
       }
-     \vspace #0.4
+      \vspace #0.4
 
       \line {
         \justify {
           \concat {\with-link #'ref113 \bold "Цветята цъфтяха – Cvetjata căftjaha."} 22. Januar 1941. Die Blume, die sich geöffnet hat, kann die Sonnenstrahlen empfangen. Das Herz und der Verstand des Menschen müssen sich für die göttlichen Wohltaten öffnen; nur dann kann er wahre Errungenschaften erlangen.
         }
       }
-          
+
       \vspace #0.4
       \line {
         \justify {
@@ -1535,10 +1535,10 @@
           Musik von Petar Danov, Text von Stojan Rusev nach Ideen von Petar Danov. \italic"Ladančica" ist ein Mädchen, das rituelle Lieder und Tänze ausführt, die der heidnischen Göttin Lada gewidmet wurden.
         }
       }
-  
- }
+
+    }
   }
-  
+
 
   \label #'ref_desc_21
   \markup \abs-fontsize #10  {
@@ -1547,7 +1547,7 @@
 
 
 
-   
+
       \line {
         \justify {
 
@@ -1562,11 +1562,11 @@
           \concat {\with-link #'ref068 \bold "Що е същността – Što e săštnostta. "} Text und Musik Marin Kamburov. Das Lied wurde kurz nach dem Dahinscheiden von Petar Danov, 1945 oder 1946 komponiert.
         }
       }
-    
+
 
     }
   }
-  
+
 
 
 

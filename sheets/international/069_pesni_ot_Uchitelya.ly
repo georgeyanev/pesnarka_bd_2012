@@ -1,12 +1,12 @@
-\version "2.24.3"
+\version "2.24.4"
 
 % include paper part and global functions
 \include "include/globals.ily"
 
 \bookpart {
-  
-   \tocAct \markup"Lieder von Petar Danov"
-    \paper {
+
+  \tocAct \markup"Lieder von Petar Danov"
+  \paper {
     print-all-headers = ##f
     print-page-number = ##f
     print-first-page-number = ##f
@@ -25,7 +25,7 @@
       ""
     }
 
-     left-margin = 1.5\cm
+    left-margin = 1.5\cm
     right-margin = 1.5\cm
     top-margin = 1.2\cm
     bottom-margin = 1.0\cm
@@ -34,7 +34,7 @@
 
   \markup { {  \vspace #17.2 } }
 
- \markup \abs-fontsize #17 { \fill-line \bold {"Lieder von Petar Danov"} }
+  \markup \abs-fontsize #17 { \fill-line \bold {"Lieder von Petar Danov"} }
 
   % include foreign translation(s) of the song
   %

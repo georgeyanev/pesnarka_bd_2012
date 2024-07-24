@@ -1,4 +1,4 @@
-\version "2.24.3"
+\version "2.24.4"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -8,38 +8,38 @@
   \tocItem \markup "Ставай, дъще!"
   \include "include/bookpart-paper.ily"
   \score {
-      \layout {
-        indent = 0.0\cm % remove first line indentation
-        ragged-last = ##f % do spread last line to fill the whole space
-        \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
-        \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-        
+    \layout {
+      indent = 0.0\cm % remove first line indentation
+      ragged-last = ##f % do spread last line to fill the whole space
+      \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
+      \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
 
-        \context {
-          \Score
-          \omit BarNumber %remove bar numbers
-    
-          \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
-          \override TupletNumber.font-size = #0.4 % increase the triol number
 
-        } % context
+      \context {
+        \Score
+        \omit BarNumber %remove bar numbers
 
-        \context {
-          % change staff size
-          \Staff
-          \override StaffSymbol.thickness = #0.5
-          \override BarLine.hair-thickness = #1
-          %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
-        }
+        \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
+        \override TupletNumber.font-size = #0.4 % increase the triol number
 
-        \context {
-          % adjust space between staff and lyrics and between the two lyric lines
-          \Lyrics
-          \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((padding . 1))
-          \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-          includeGraceNotes = ##t
-        }
-      } % layout
+      } % context
+
+      \context {
+        % change staff size
+        \Staff
+        \override StaffSymbol.thickness = #0.5
+        \override BarLine.hair-thickness = #1
+        %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
+      }
+
+      \context {
+        % adjust space between staff and lyrics and between the two lyric lines
+        \Lyrics
+        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((padding . 1))
+        \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
+        includeGraceNotes = ##t
+      }
+    } % layout
 
 
     \new Voice \absolute {

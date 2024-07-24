@@ -1,4 +1,4 @@
-\version "2.24.3"
+\version "2.24.4"
 
 \include "include/globals.ily"
 
@@ -83,7 +83,7 @@
       e8^\accent g f d16 | \noBreak
       e4\prall~ e8[d16] | \noBreak
       e8^\accent e e d16 | \break
-    
+
       \bar ".|:-|"
 
       \repeat volta 1 {
@@ -106,7 +106,7 @@
 
       \tempo "rit." a,8 b c4 b8 d c b | \noBreak
       a2 r2 | \break
-      \tempo "a tempo" a'4  d8([e]) \tupletNeutral \tuplet 3/2 { f16([ g f] } e4.) \time 5/4 | 
+      \tempo "a tempo" a'4  d8([e]) \tupletNeutral \tuplet 3/2 { f16([ g f] } e4.) \time 5/4 |
 
       c'4\fermata \acciaccatura { b16[c] }  \tuplet 3/2 { b8[ a gis]} a8[ \tupletUp \tuplet 3/2 { b16(c b)] }  e,2 \tupletNeutral | \break
       \time 4/4 \tuplet 3/2 { e8\tenuto[f\tenuto g\tenuto] } g2 a4 | \noBreak
@@ -121,7 +121,7 @@
         a\accent[g] f[e] | \noBreak
         g\accent[f] e[d] | \noBreak
         e4\prall e | \noBreak \bar ":|."
-      } 
+      }
       e8[d] c[b] | \noBreak
       c[d] e[d] | \break
 
@@ -255,7 +255,7 @@
       Там го -- ре край из -- во -- ра срещ -- нах мо -- ма зас -- мя -- на,
       там го -- ре срещ -- нах Ли -- ля -- на.
     }
-    
+
     \addlyrics {
       Tam go -- re kraj iz -- vo -- ra srešt -- nah mo -- ma za --
       smja -- na, tam go -- re srešt -- nah Li -- lja -- na.

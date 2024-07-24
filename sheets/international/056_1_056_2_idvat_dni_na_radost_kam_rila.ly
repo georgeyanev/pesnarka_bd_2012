@@ -1,4 +1,4 @@
-\version "2.24.3"
+\version "2.24.4"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -108,7 +108,7 @@
       \line {   "   " ще леят красота, }
       \line {   "   " защото с тях ще свири  }
       \line {   "   " доброто, Любовта. }
-       \vspace #0.5
+      \vspace #0.5
       \line { 4. Ще идем ний на Рила, }
       \line {   "   " ще видим Мусала, }
       \line {   "   " безкрайната природа  }
@@ -124,7 +124,7 @@
       \line {   "   " Tuk našata cigulka }
       \line {   "   " s nov ton šte zazvuči. }
 
-       \vspace #0.5
+      \vspace #0.5
       \line { 3. Dušite ni  – cigulki }
       \line {   "   " šte lejat krasota, }
       \line {   "   " zaštoto s tjah šte sviri  }
@@ -137,8 +137,8 @@
     } %column
   } % markup
 
- 
- \markup \vspace #3
+
+  \markup \vspace #3
   \include "../../lyrics/de/056_2_kam_rila_lyrics_de.ly"
 
 } % bookpart

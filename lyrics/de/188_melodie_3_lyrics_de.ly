@@ -1,4 +1,4 @@
-\version "2.24.3"
+\version "2.24.4"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Melodie 3 – Wenn der Tag erwacht" }
 \markup \null

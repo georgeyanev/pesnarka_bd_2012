@@ -1,4 +1,4 @@
-\version "2.24.3"
+\version "2.24.4"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -38,7 +38,7 @@
     }
 
 
-   \addlyrics {
+    \addlyrics {
       Te -- be po -- em, Te -- be bla -- go -- da -- rim.
       Te -- be bla -- go -- slo -- vim, Bo -- že naš.  I __
       mo -- lim Ti sja, i __  mo -- lim Ti sja,  i __

@@ -1,4 +1,4 @@
-\version "2.24.3"
+\version "2.24.4"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -9,7 +9,7 @@
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
- \new Voice \relative c' {
+    \new Voice \relative c' {
       \clef treble
       \key g \minor
       \time 2/4
@@ -141,7 +141,7 @@
       <bes g'> r <g d' bes' g'> r | \bar "|."
 
     }
-   
+
     \addlyrics {
 
 

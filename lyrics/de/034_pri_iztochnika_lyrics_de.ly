@@ -1,4 +1,4 @@
-\version "2.24.3"
+\version "2.24.4"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Bei der Quelle" }
 \markup \null

@@ -1,4 +1,4 @@
-\version "2.24.3"
+\version "2.24.4"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -64,7 +64,7 @@
 
   } % score
 
- \markup \vspace #3
+  \markup \vspace #3
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/057_psalom_91_lyrics_de.ly"
