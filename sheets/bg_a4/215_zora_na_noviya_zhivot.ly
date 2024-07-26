@@ -1,4 +1,4 @@
-\version "2.24.3"
+\version "2.24.4"
 
 % include paper part and global functions
 \include "include/globals.ily"
