@@ -65,7 +65,7 @@
   \markup { {  \vspace #0.5 } }
 
   \markup \fontsize  #+3.0 { \fill-line \bold {"  Übersetzung aus dem Bulgarischen:" }}
-  \markup \fontsize  #+1.5 { \fill-line  {" Mariya Kireva"}}
+  \markup \fontsize  #+1.5 { \fill-line  {" Maria Kireva"}}
   \markup { {  \vspace #0.5 } }
 
   \markup \fontsize  #+3.0 { \fill-line \bold {"  Deutsches Lektorat:" }}
@@ -73,7 +73,7 @@
   \markup { {  \vspace #0.5 } }
 
   \markup \fontsize  #+3.0 { \fill-line \bold  {"  Layout:" }}
-  \markup \fontsize  #+1.5 { \fill-line {"  Mariya Kireva, George Yanev"}}
+  \markup \fontsize  #+1.5 { \fill-line {"  Maria Kireva, George Yanev"}}
   \markup { {  \vspace #0.5 } }
 
   \markup \fontsize  #+3.5  {\bold{  \hspace #20   \vspace #1.5 ISBN: } place the isbn later}

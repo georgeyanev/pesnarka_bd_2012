@@ -51,7 +51,7 @@
   \markup \fontsize  #+2  { \hspace #5  \vspace #0.5 Stanka Zheleva}
   \markup \fontsize  #+2  { \hspace #5  \vspace #0.5 Penka Kadieva}
   \markup \fontsize  #+2  { \hspace #5  \vspace #0.5 Peter Ganev}
-  \markup \fontsize  #+2  {  \bold{  \hspace #3  \vspace #1.5  Übersetzung aus dem Bulgarischen: } Mariya Kireva}
+  \markup \fontsize  #+2  {  \bold{  \hspace #3  \vspace #1.5  Übersetzung aus dem Bulgarischen: } Maria Kireva}
   \markup \fontsize  #+2  {  \bold{  \hspace #3 \hspace #0.8 Deutsches Lektorat: } Klaudia Wittich-Harz}
 
   \markup \fontsize  #+2  {  \bold{  \hspace #3  \vspace #1.5  Layout: } George Yanev}

@@ -302,6 +302,16 @@
     }
   }
 
+  \markup \abs-fontsize #10 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
+    \justify {
+      \hspace #1.5
+  Die Liebe, das ist die höchste Musik. Wenn ihr nicht denken könnt, könnt ihr nicht singen. Denkt recht, empfangt nur reine Gedanken, um gut singen und spielen zu können.
+
+    }
+  }
+
+
 
   \markup \abs-fontsize #10 {
     \vspace #0.9  \override #'(baseline-skip . 3.2)
@@ -322,7 +332,19 @@
     \justify {
       \hspace #1.5
 
-      Jeder soll sich selbst sagen: „Ich soll Musiker werden, ich soll lieben, ich soll recht denken.“ In der Heiligen Schrift wurde gesagt: „Singt und lobpreist den Herrn in eurer Seele.“ Ich aber sage: Singt und lobpreist den Herrn in eurem Geist, in eurem Herzen und in eurem Verstand. Alles in euch, von den Füßen bis zu den Haaren auf eurem Kopf, soll singen.
+      Jeder soll sich selbst sagen: „Ich soll Musiker werden, ich soll lieben, ich soll recht denken.“ In der Heiligen Schrift wurde gesagt: „Singt und lobpreist den Herrn in eurer Seele.“ Ich aber sage: Singt und lobpreist den Herrn in eurem Geist, in eurem 
+
+    }
+  }
+
+
+
+  \markup \abs-fontsize #10 {
+    \vspace #0.9  \override #'(baseline-skip . 3.2)
+    \justify {
+     
+
+       Herzen und in eurem Verstand. Alles in euch, von den Füßen bis zu den Haaren auf eurem Kopf, soll singen.
 
     }
   }
