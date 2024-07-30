@@ -9,7 +9,7 @@
   \context {
     \Score
     \omit BarNumber %remove bar numbers
-    \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
+    \override MetronomeMark.font-size = #1.4 % increase the tempo fontsize
     \override TupletNumber.font-size = #0.4 % increase the triol number
 
   } % context

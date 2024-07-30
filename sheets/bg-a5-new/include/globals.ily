@@ -26,9 +26,9 @@ tempoFunc = #(define-music-function
                   % make tempo note smaller
                   \concat {
                     #tName \normal-text { " (" }
-                    \teeny \general-align #Y #DOWN \note #tNote #1.1
+                    \teeny \general-align #Y #DOWN \note #tNote #0.9
                     \normal-text { " = " }
-                    \normal-text \large { #tNumber  }
+                    \normal-text { #tNumber  }
                     \normal-text { ")" }
                   }
                 }
@@ -42,7 +42,7 @@ titleFunc = #(define-scheme-function
               (descPageRef cyrTitle latTitle)
               (symbol? string? string?)
               #{
-                \markup \column \normal-text \abs-fontsize #16 {
+                \markup \column \normal-text \abs-fontsize #17 {
                   \center-align
                   \line { \with-link #descPageRef #cyrTitle }
                   \vspace #-0.8

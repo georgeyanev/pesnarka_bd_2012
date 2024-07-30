@@ -60,7 +60,7 @@
         \markup \abs-fontsize #11 {
     \override #'(baseline-skip . 3.4)
     \justify {
-        са музикално-природни картини, медитативни мелодии, микроинтервали, непрекъсната смяна на тоналности, ритми,  състояния и настроения, подредени в една композиция, в чиято основа стои принципът на абсолютната свобода като качество на \italic{окултната} \italic {музика.}
+        са музикално-природни картини, медитативни мелодии, микро- интервали, непрекъсната смяна на тоналности, ритми,  състояния и настроения, подредени в една композиция, в чиято основа стои принципът на абсолютната свобода като качество на \italic{окултната} \italic {музика.}
 
     }
   }
@@ -98,7 +98,7 @@
     }
   }
 
-  \markup \override #'(line-width . 82.5) \fontsize  #+2.5 {
+  \markup \override #'(line-width . 82.5) \abs-fontsize #11 {
   \override #'(baseline-skip . 3.4) \column {
       "    1."
     }
@@ -110,7 +110,7 @@
     }
   }
 
-  \markup \override #'(line-width . 82.5) \fontsize  #+2.5 {
+  \markup \override #'(line-width . 82.5) \abs-fontsize #11 {
     \vspace #0.9  \override #'(baseline-skip . 3.4) \column {
       "    2."
     }
@@ -124,7 +124,7 @@
     }
   }
 
-  \markup \override #'(line-width . 82.5) \fontsize  #+2.5 {
+  \markup \override #'(line-width . 82.5) \abs-fontsize #11 {
     \vspace #0.9  \override #'(baseline-skip . 3.4) \column {
       "    3."
     }
@@ -154,7 +154,7 @@
     }
   }
   
-      \markup \override #'(line-width . 82.5) \fontsize  #+2.5 {
+      \markup \override #'(line-width . 82.5) \abs-fontsize #11 {
     \vspace #1.3  \override #'(baseline-skip . 3.4) \column {
       "    1."
     }
@@ -166,7 +166,7 @@
     }
   }
   
-      \markup \override #'(line-width . 82.5) \fontsize  #+2.5 {
+      \markup \override #'(line-width . 82.5) \abs-fontsize #11 {
     \vspace #0.9  \override #'(baseline-skip . 3.4) \column {
       "    2."
     }
@@ -178,7 +178,7 @@
     }
   }
   
-     \markup \override #'(line-width . 82.5) \fontsize  #+2.5 {
+     \markup \override #'(line-width . 82.5) \abs-fontsize #11 {
     \vspace #0.9 \override #'(baseline-skip . 3.4) \column {
       "    3."
     }
