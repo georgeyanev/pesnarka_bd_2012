@@ -23,12 +23,14 @@
     \override StaffSymbol.staff-space = #(magstep -3)
     \override StaffSymbol.thickness = #0.5
     \override BarLine.hair-thickness = #1
+      
     %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
   }
 
   \context {
     % adjust space between staff and lyrics and between the two lyric lines
     \Lyrics
+    %\override StanzaNumber.font-series = #'normal % make stanza number font normal
     \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
                                                                     (basic-distance . 4.5)
                                                                     (padding . 0.5)

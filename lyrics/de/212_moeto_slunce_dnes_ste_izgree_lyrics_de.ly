@@ -4,13 +4,12 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-  \hspace #17
+   \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
 
  
-
 \line { " "Meine liebe Mutter, meine Sonne wird heute aufgehen. }
 
 \line { " "Sie wird mir Licht und Freude bringen.}
@@ -38,4 +37,5 @@
 \line { " "mit Freude erfüllen. }
 
   }
+   }
 }

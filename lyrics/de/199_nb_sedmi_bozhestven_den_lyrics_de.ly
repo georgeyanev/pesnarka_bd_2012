@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-  \hspace #7
+\fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -20,7 +20,7 @@
     \line { " "Und Gott sah, dass alles, was Er gemacht hatte, gut war.}
 
     \line { " "Aum, Aum, Aumen.}
-
+  }
 
   }
 }

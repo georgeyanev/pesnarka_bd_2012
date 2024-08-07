@@ -62,6 +62,7 @@ titleFunc = #(define-scheme-function
                        \markup \raise #3.8 \override #'(baseline-skip . 2.8) {
                          \column {
                            \fill-line \large \bold { "" "" \concat {#text "   " }}
+                           
                          }
                        }
                      #}
@@ -112,7 +113,7 @@ titleFunc = #(define-scheme-function
    "After song text (usually D.C.) with two lines."
    (interpret-markup layout props
                      #{
-                       \markup \raise #raise \override #'(baseline-skip . 2.8) {
+                       \markup \raise #raise \override #'(baseline-skip . 12.8) {
                          \column {
                            \fill-line \large \bold { "" "" \concat {#textone "   " }}
                            \fill-line \large \bold { "" "" \concat {#texttwo "   " }}

@@ -30,7 +30,7 @@
 
 
     \addlyrics {
-      "1. Из" -- грей,
+      \set stanza = "1." Из -- грей,
       из -- грей ти, мо -- е Слън -- це, __  за -- що --
       то ча -- кам все -- ки ден; __ за теб коп -- ней __ сър -- це -- то мо -- е __ и в~пъ -- тя си съм из
       -- мо -- рен; __  ти но -- сиш ми жи -- вот бла --
@@ -39,7 +39,7 @@
       но -- сиш ми жи -- вот бла -- жен. __
     }
     \addlyrics {
-      "1. Iz" -- grej,
+      \set stanza = "1." Iz -- grej,
       iz -- grej ti, mo -- e Slăn -- ce, __  za -- što --
       to ča -- kam vse -- ki den; __ za teb kop -- nej __ săr -- ce -- to mo -- e __ i v~pă -- tja si săm iz
       -- mo -- ren; __  ti no -- siš mi ži -- vot bla --
@@ -55,11 +55,9 @@
     \midi{}
 
   } % score
-
-  \pageBreak
-
-  \markup \abs-fontsize #10 {
-    \hspace #5
+  \markup \vspace #1
+   \markup \abs-fontsize #10 {
+    \hspace #10
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
       \line {   2. Огрей небето и Земята,}
@@ -71,7 +69,34 @@
       \line {   "   "с трептенията си безспир.}
 
       \line {   "   "О, дай ми тоз живот и мир!}
-      \vspace #0.5
+     
+    }
+
+    \hspace #5
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \column {
+
+
+      \line {   2. Ogrej nebeto i Zemjata,}
+
+      \line {   "   "lazurni podnebesen šir,}
+
+      \line {   "   "razveseli mi dnes dušata}
+
+      \line {   "   "s treptenijata si bezspir.}
+
+      \line {   "   "O, daj mi toz život i mir!}
+     
+    } %column
+  } % markup
+
+  \pageBreak
+
+  \markup \abs-fontsize #10 {
+    \hspace #5
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+    \column {
+     
 
       \line { "   " \italic {Припев:} }
 
@@ -105,18 +130,6 @@
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-
-
-      \line {   2. Ogrej nebeto i Zemjata,}
-
-      \line {   "   "lazurni podnebesen šir,}
-
-      \line {   "   "razveseli mi dnes dušata}
-
-      \line {   "   "s treptenijata si bezspir.}
-
-      \line {   "   "O, daj mi toz život i mir!}
-      \vspace #0.5
 
       \line { "   " \italic {Refrain:} }
 

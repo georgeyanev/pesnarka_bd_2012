@@ -52,17 +52,17 @@
     }
 
     \addlyrics {
-      "1. Рос-" -- на кап -- ко, свят ла -- зу -- рен, чист, кра -- сив и тих, без --
+       \set stanza = "1." Рос -- на кап -- ко, свят ла -- зу -- рен, чист, кра -- сив и тих, без --
       бу -- рен, мир на рай -- ски -- я жи -- вот, мир на рай -- ски -- я жи --
       вот! В~те -- бе, кап -- ко, ви -- кам всич -- ки бра -- тя
-      ми -- ли и се -- стрич -- ки, да ти ста -- не -- ме на -- род. "В~те -" -- бе,
+      ми -- ли и се -- стрич -- ки, да ти ста -- не -- ме на -- род. В~те -- бе,
       стрич -- ки, да ти ста -- не -- ме на -- род.
     }
     \addlyrics {
-      "1. Ros-" -- na kap -- ko, svjat la -- zu -- ren, čist, kra -- siv i tih, bez --
+       \set stanza = "1." Ros -- na kap -- ko, svjat la -- zu -- ren, čist, kra -- siv i tih, bez --
       bu -- ren, mir na raj -- ski -- ja ži -- vot, mir na raj -- ski -- ja ži --
       vot! V~te -- be, kap -- ko, vi -- kam vsič -- ki bra -- tja
-      mi -- li i se -- strič -- ki, da ti sta -- ne -- me na -- rod. "V~te -" -- be,
+      mi -- li i se -- strič -- ki, da ti sta -- ne -- me na -- rod. V~te -- be,
       strič -- ki, da ti sta -- ne -- me na -- rod.
     }
 

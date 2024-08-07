@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-\hspace #5
+    \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column { 
@@ -13,6 +13,6 @@
 
     \line {Sie ist eine große Gabe für das Leben, sie ist eine große Gabe für das Leben. }
 
-
+  }
   }
 }

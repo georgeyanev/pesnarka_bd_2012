@@ -101,16 +101,16 @@
     }
 
     \addlyrics {
-      "1. Без" теб е мрак, без теб е скръб. Бо -- "же-" -- ствен лъч,
+      \set stanza = "1." Без теб е мрак, без теб е скръб. Бо -- же -- ствен лъч,
       о -- грей ме ти. В~сър -- це -- то ми ти вне -- си, в~сър -- це -- то ми вне -- си ра -- дост, мир.
-      "2. Про-" -- буж -- дам се от сън дъл -- бок и те зо -- ва  ка -- то  де -- те.
+      \set stanza = "2." Про -- буж -- дам се от сън дъл -- бок и те зо -- ва  ка -- то  де -- те.
       Аз  ви -- на -- ги  вяр -- вам,  че  ти над  мен  със лю -- бов  бдиш  май -- чи -- на.
     }
     \addlyrics {
-      "1. Bez" teb e mrak, bez teb e skrăb. Bo -- že -- stven lăč,
+      \set stanza = "1." Bez teb e mrak, bez teb e skrăb. Bo -- že -- stven lăč,
       o -- grej me ti. V~săr -- ce -- to mi ti vne -- si, v~săr -- ce -- to mi vne -- si ra -- dost, mir.
-      "2. Pro" -- buž -- dam se ot săn dăl -- bok i te zo -- va  ka -- to  de -- te.
-      Az  vi -- na -- gi  "vjar-" -- vam,  če  ti nad  men  săs lju -- bov  bdiš  maj -- či -- na.
+      \set stanza = "1." Pro -- buž -- dam se ot săn dăl -- bok i te zo -- va  ka -- to  de -- te.
+      Az  vi -- na -- gi  vjar -- vam,  če  ti nad  men  săs lju -- bov  bdiš  maj -- či -- na.
     }
 
     \header {

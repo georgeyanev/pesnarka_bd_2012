@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-   \hspace #40
+    \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -18,4 +18,5 @@
 
     \line { " " a e i ...(12)}
   }
+    }
 }

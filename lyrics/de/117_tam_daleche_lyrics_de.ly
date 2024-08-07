@@ -5,7 +5,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-  \hspace #5
+      \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column { 
     \line { " "Dort, in der Ferne, kenne ich einen wunderbaren Ort: }
@@ -22,6 +22,7 @@
     \line { " "Pflücke dir reichlich Früchte und bringe sie allen mit Freude!  }
 
   }
+      }
 }
 
 

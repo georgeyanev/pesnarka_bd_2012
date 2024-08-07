@@ -6,7 +6,7 @@
 
 \markup \abs-fontsize #10 {
 
-   \hspace #20
+      \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
     \line { " "Gib, gib, gib alles, reine Saat, Weizenkorn. }
@@ -17,4 +17,5 @@
     \line { " "was auf dem Feld gesät wurde, am Leben erfreue, }
     \line { " "auf dem Feld, vom Himmel, auf dem Feld, vom Himmel. }
   }
+      }
 }

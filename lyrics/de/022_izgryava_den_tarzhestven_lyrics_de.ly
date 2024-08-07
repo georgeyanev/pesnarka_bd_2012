@@ -6,7 +6,7 @@
 
 
 \markup \abs-fontsize #10 {
-  \hspace #25
+  \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
 
@@ -39,6 +39,7 @@
     \line {   "   " wem ist das nicht wertvoll? }
     \line {   "   " Für all die Jahre}
     \line {   "   " erneuere uns bald! }
+  }
   }
 }
 

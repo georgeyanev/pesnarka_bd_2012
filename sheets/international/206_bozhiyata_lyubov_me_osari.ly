@@ -6,7 +6,7 @@
 \bookpart {
   \label #'ref206
   \tocItem \markup "Божията Любов ме озари – Božijata Ljubov me ozari"
-  \paper {
+     \paper {
     print-all-headers = ##t
     print-page-number = ##t
     print-first-page-number = ##t
@@ -33,9 +33,9 @@
 
     % change distance between staves
     system-system-spacing =
-    #'((basic-distance . 16)
+    #'((basic-distance . 18)
        (minimum-distance . 8)
-       (padding . 2)
+       (padding . 1)
        (stretchability . 12))
   }
 
@@ -140,7 +140,7 @@
 
         \new Staff \with {
           \override VerticalAxisGroup.default-staff-staff-spacing =
-          #'((basic-distance . 5.5)
+          #'((basic-distance . 6)
              (padding . -3))
           \remove "Time_signature_engraver"
           alignAboveContext = #"main"
@@ -183,7 +183,7 @@
       Бо -- жест -- ве -- на Лю -- бов __
       ду -- ша ми раз -- ши -- ри
       и из -- пъл -- ни сър -- це -- то
-      ми с~лъ -- чи. От "дъл-" -- бо -- ки
+      ми с~лъ -- чи. От дъл -- бо -- ки
       глъ -- би -- ни пов -- диг -- на
       ду -- ха ми във ви -- си -- ни на
       кри -- ла -- та си бла -- го -- сло

@@ -27,10 +27,10 @@
     }
 
     \addlyrics {
-      "1. И" ска -- чам аз ка -- то пти -- чка от клон на клон, да се чу -- ди вся -- кой, кат ме ви -- ди.
+      \set stanza = "1." И ска -- чам аз ка -- то пти -- чка от клон на клон, да се чу -- ди вся -- кой, кат ме ви -- ди.
     }
     \addlyrics {
-      "1. I" ska -- čam az ka -- to pti -- čka ot klon na klon, da se ču -- di vsja -- koj, kat me vi -- di.
+      \set stanza = "1." I ska -- čam az ka -- to pti -- čka ot klon na klon, da se ču -- di vsja -- koj, kat me vi -- di.
     }
 
     \header {

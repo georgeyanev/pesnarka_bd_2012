@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-  \hspace #25
+  \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -20,5 +20,6 @@
     \line { " "der lichtvollen Geister, der lichtvollen Geister,  }
     \line { " "der lichtvollen Geister, der lichtvollen Geister.  }
 
+  }
   }
 }

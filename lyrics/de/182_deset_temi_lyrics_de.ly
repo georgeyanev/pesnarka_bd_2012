@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-  \hspace #27
+  \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -12,6 +12,6 @@
 
      \line { " Ich werde die Wärme bewahren." }
      \line { " Ich werde diese Wärme bewahren." }
-
+  }
   }
 }

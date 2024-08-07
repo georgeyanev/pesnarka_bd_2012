@@ -7,7 +7,7 @@
 
 \markup \abs-fontsize #10 {
 
-   \hspace #20
+      \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
 
@@ -20,4 +20,5 @@
   \line { " "lichter Tag, lichter Tag, lichter, göttlicher Tag.}
 
   }
+      }
 }

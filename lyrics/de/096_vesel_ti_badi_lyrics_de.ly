@@ -6,7 +6,7 @@
 
 \markup \abs-fontsize #10 {
 
-   \hspace #30
+    \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
 \line { " "Sei fröhlich, werde munter;}
@@ -30,6 +30,6 @@
 \line { " " in das Leben bringe Freude, in das Leben, du. }
 
 \line { " "Sei fröhlich, werde munter! }
-
+  }
   }
 }

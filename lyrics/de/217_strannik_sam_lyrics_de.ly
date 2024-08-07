@@ -2,7 +2,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-  \hspace #20
+  \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -18,6 +18,6 @@
 \line { " "In Dich, Herr, setzte ich mein Vertrauen.}
 
 \line { " "Möge mein Gebet zu Dir hinaufsteigen.}
-
+  }
   }
 }

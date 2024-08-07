@@ -41,7 +41,7 @@
     }
 
     \addlyrics {
-      "1. Без" -- гра -- нич -- на шир, див
+      \set stanza = "1." Без -- гра -- нич -- на шир, див
       -- на кра -- со -- та и мир,
       Слън -- це за чо -- веш -- ки --
       те ду -- ши но -- си свя -- та
@@ -49,7 +49,7 @@
       си свя -- та Лю -- бов -- та без --
       спир.}
       \addlyrics {
-        "1. Bez" -- gra -- nič -- na šir, div
+        \set stanza = "1." Bez -- gra -- nič -- na šir, div
         -- na kra -- so -- ta i mir,
         Slăn -- ce za čo -- veš -- ki --
         te du -- ši no -- si svja -- ta

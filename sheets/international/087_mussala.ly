@@ -7,7 +7,42 @@
   \label #'ref087
   \tocItem \markup "Мусала – Musala"
 
-  \include "include/bookpart-paper.ily"
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.2\cm
+    bottom-margin = 1.0\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 19)
+       (minimum-distance . 8)
+       (padding . 2)
+       (stretchability . 12))
+  }
+
+  \header {
+    tagline = ##f
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -82,7 +117,7 @@
 
       Му -- са -- ла, Му -- са -- ла, мой Му -- са -- ла.
 
-      През я -- сен ден на "про-" -- лет -- та ви -- де -- ли
+      През я -- сен ден на про -- лет -- та ви -- де -- ли
 
       ли сте из -- гре -- ва от Му -- са -- ла,    Му -- са -- ла,
 

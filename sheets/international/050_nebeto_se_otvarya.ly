@@ -57,13 +57,13 @@
     }
 
     \addlyrics {
-      "1. Не" -- бе -- то се от -- ва -- ря и ан -- ге -- ли -- те
+      \set stanza = "1." Не -- бе -- то се от -- ва -- ря и ан -- ге -- ли -- те
       пе -- ят. И мол -- ни -- и блес -- тя --
       щи тъ -- ми и здрач пи -- ле -- ят. И ят.
     }
 
     \addlyrics {
-      "1. Ne" -- be -- to se ot -- va -- rja i an -- ge -- li -- te
+      \set stanza = "1." Ne -- be -- to se ot -- va -- rja i an -- ge -- li -- te
       pe -- jat. I mol -- ni -- i bles -- tja --
       šti tă -- mi i zdrač pi -- le -- jat. I jat.
     }

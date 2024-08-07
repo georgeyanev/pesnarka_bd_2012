@@ -5,7 +5,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-   \hspace #15
+ \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -13,4 +13,5 @@
     \line { " " den leuchtenden geraden Weg der reinen Seelen,}
     \line { " " der reinen Seelen, der reinen Seelen, der reinen Seelen.}
   }
+ }
 }

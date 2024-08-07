@@ -6,7 +6,43 @@
 \bookpart {
   \label #'ref176
   \tocItem \markup "Житно зърно – Žitno zărno "
-  \include "include/bookpart-paper.ily"
+  \paper {
+    % the system system spacing is custom here so do not include bookpart-paper.ily
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.2\cm
+    bottom-margin = 1.0\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 18)
+       (minimum-distance . 6)
+       (padding . 2)
+       (stretchability . 12))
+  }
+
+  \header {
+    tagline = ##f
+  }
   \score {
     \include "include/score-layout.ily"
     \new Voice \relative c' {
@@ -70,10 +106,10 @@
 
       за пръв път хап -- нах. __ От нах.
 
-      Кол -- ко "ху-" -- бав е жи -- во -- тът, то -- га -- ва си ка -- зах.}
+      Кол -- ко ху -- бав е жи -- во -- тът, то -- га -- ва си ка -- зах.}
 
       \addlyrics {
-        Bjah ži -- te -- no zăr -- no, za -- ro -- ve -- no "v~ze-" -- mja -- ta.
+        Bjah ži -- te -- no zăr -- no, za -- ro -- ve -- no v~ze -- mja -- ta.
 
         Văv săn dăl -- bok, __ ži -- vo -- ta ne poz -- na -- vah.
 
@@ -93,7 +129,7 @@
 
         za prăv păt hap -- nah. __ Ot nah.
 
-        Kol -- ko "hu-" -- bav e ži -- vo -- tăt, to -- ga -- va si ka -- zah.}
+        Kol -- ko hu -- bav e ži -- vo -- tăt, to -- ga -- va si ka -- zah.}
 
         \header {
           title = \titleFunc "Житно зърно" "Žitno zărno"

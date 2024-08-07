@@ -23,13 +23,13 @@
     }
 
     \addlyrics {
-      "1. Мо" -- га аз да ка -- жа, че де -- нят и -- де веч.
+      \set stanza = "1." Мо -- га аз да ка -- жа, че де -- нят и -- де веч.
 
       Слън -- це ще из -- гре -- е, да пос -- тъ -- пим доб -- ре.
     }
 
     \addlyrics {
-      "1. Mo" -- ga az da ka -- ža, če de -- njat i -- de več.
+      \set stanza = "1." Mo -- ga az da ka -- ža, če de -- njat i -- de več.
 
       Slăn -- ce šte iz -- gre -- e, da pos -- tă -- pim dob -- re.
     }

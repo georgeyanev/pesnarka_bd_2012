@@ -5,7 +5,7 @@
 \markup \null
 
 \markup \abs-fontsize #10 {
-   \hspace #30
+      \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -49,7 +49,7 @@
     \line { " "wenn sie kommt.  }
 
 
-
+  }
 
   }
 

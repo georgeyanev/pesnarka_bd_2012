@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-  \hspace #10
+  \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -21,6 +21,6 @@
     \line { " " Und Gott sah, dass alles gut war.}
     \line { " " Da ward Abend und es ward Morgen, der dritte Tag.}
 
-
+  }
   }
 }

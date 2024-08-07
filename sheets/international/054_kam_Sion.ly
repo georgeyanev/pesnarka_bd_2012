@@ -54,7 +54,7 @@
     }
 
     \addlyrics {
-      "1. С~кри" -- ла -- та на о -- ре -- ла, Си -- о -- не наш лю --
+      \set stanza = "1." С~кри -- ла -- та на о -- ре -- ла, Си -- о -- не наш лю --
       бим, стре -- ми -- тел -- но към те -- бе ний друж -- но днес ле --
       тим. Смърт -- та ни веч не пла -- ши, в~нас
       Дух жи -- ве -- е свят; ед -- на -- кво нас ни
@@ -62,7 +62,7 @@
     }
 
     \addlyrics {
-      "1. S~kri" -- la -- ta na o -- re -- la, Si -- o -- ne naš lju --
+      \set stanza = "1." S~kri -- la -- ta na o -- re -- la, Si -- o -- ne naš lju --
       bim, stre -- mi -- tel -- no kăm te -- be nij druž -- no dnes le --
       tim. Smărt -- ta ni več ne pla -- ši, v~nas
       Duh ži -- ve -- e svjat; ed -- na -- kvo nas ni

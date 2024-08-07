@@ -90,13 +90,13 @@
       }
 
       \new Lyrics \lyricsto "mainVoice" {
-        "1. Ди" -- шай дъл -- бо -- ко, с~ве -- се -- ло сър -- це
+        \set stanza = "1." Ди -- шай дъл -- бо -- ко, с~ве -- се -- ло сър -- це
         и на жи -- во -- та рад -- вай се, де -- те.
         Въз -- ду -- хът е жи -- ва си -- ла ви -- на -- ги за нас.
         Ди -- шай, ди -- шай и пак ди -- шай, ди -- шай да си здрав!
       }
       \new Lyrics \lyricsto "mainVoice" {
-        "1. Di" -- šaj dăl -- bo -- ko, s~ve -- se -- lo săr -- ce
+        \set stanza = "1." Di -- šaj dăl -- bo -- ko, s~ve -- se -- lo săr -- ce
         i na ži -- vo -- ta rad -- vaj se, de -- te.
         Văz -- du -- hăt e ži -- va si -- la vi -- na -- gi za nas.
         Di -- šaj, di -- šaj i pak di -- šaj, di -- šaj da si zdrav!

@@ -96,12 +96,12 @@
     }
 
     \addlyrics {
-      "1. Дър" -- зост във Хрис -- та, дру -- га -- ри, с~Не -- го
+      \set stanza = "1." Дър -- зост във Хрис -- та, дру -- га -- ри, с~Не -- го
       да вър -- вим нап -- ред, Той е ца -- рят на жи -- во -- та,
       цар -- ство -- то Му е нав -- ред, е нав -- ред.
     }
     \addlyrics {
-      "1. Dăr" -- zost văv Hris -- ta, dru -- ga -- ri, s~Ne -- go
+      \set stanza = "1." Dăr -- zost văv Hris -- ta, dru -- ga -- ri, s~Ne -- go
       da văr -- vim nap -- red, Toj e ca -- rjat na ži -- vo -- ta,
       car -- stvo -- to Mu e nav -- red, e nav -- red.
     }

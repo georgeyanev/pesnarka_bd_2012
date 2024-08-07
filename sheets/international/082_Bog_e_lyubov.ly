@@ -58,25 +58,25 @@
     }
 
     \addlyrics {
-      Бог __ е "Лю-" -- бов, | Бог е "Лю-" -- бов, | Бог е "Лю-" -- бов, Лю -- |
+      Бог __ е Лю -- бов, | Бог е Лю -- бов, | Бог е Лю -- бов, Лю -- |
       бов, Лю -- бов  | веч -- на, | без -- гра -- нич -- на, |
-      пъл -- на | със жи -- "-вот," жи -- вот на | бла -- ги -- я Бо -- жи  Дух.
-      Дух на бла -- гост -- "-та," | Дух на свя -- тост -- "-та," | Дух на пъ -- лен мир и |
+      пъл -- на | със жи -- вот, жи -- вот на | бла -- ги -- я Бо -- жи  Дух.
+      Дух на бла -- гост -- та, | Дух на свя -- тост -- та, | Дух на пъ -- лен мир и |
       ра -- дост за вся -- ка ду -- ша, за вся -- ка ду -- | ша. Ний щe | хо -- дим в~то -- я |
       път  на свет -- ли -- | на -- та, на свет -- ли -- | на -- та, на свет -- ли | на -- та, в~ко -- |
-      я -- то "ца-" -- ру -- ва | Бо -- жи -- я -- та "Лю-" -- бов, | Бо -- жи -- я -- та "Лю-" -- бов, |
-      Бо -- жи -- я -- та "Лю-" -- бов, | Бо -- жи -- я -- та Лю -- | бов. Ний ще | бов.}
+      я -- то ца -- ру -- ва | Бо -- жи -- я -- та Лю -- бов, | Бо -- жи -- я -- та Лю -- бов, |
+      Бо -- жи -- я -- та Лю -- бов, | Бо -- жи -- я -- та Лю -- | бов. Ний ще | бов.}
 
 
       \addlyrics {
-        Bog __ e "Lju-" -- bov, | Bog e "Lju-" -- bov, | Bog e "Lju-" -- bov, Lju -- |
+        Bog __ e Lju -- bov, | Bog e Lju -- bov, | Bog e Lju -- bov, Lju -- |
         bov, Lju -- bov  | več -- na, | bez -- gra -- nič -- na, |
         păl -- na | săs ži -- vot, ži -- vot na | bla -- gi -- ja Bo -- ži  Duh.
-        Duh na bla -- gost -- "-ta," | Duh na svja -- tost -- ta, | Duh na pă -- len mir i |
+        Duh na bla -- gost -- ta, | Duh na svja -- tost -- ta, | Duh na pă -- len mir i |
         ra -- dost za vsja -- ka du -- ša, za vsja -- ka du -- | ša. Nij šte | ho -- dim v~to -- ja |
         păt  na svet -- li -- | na -- ta, na svet -- li -- | na -- ta, na svet -- li | na -- ta, v~ko -- |
-        ja -- to ca -- ru -- va | Bo -- ži -- ja -- ta "Lju-" -- bov, | Bo -- ži -- ja -- ta "Lju-" -- bov, |
-        Bo -- ži -- ja -- ta "Lju-" -- bov, | Bo -- ži -- ja -- ta Lju -- | bov. Nij šte | bov.}
+        ja -- to ca -- ru -- va | Bo -- ži -- ja -- ta Lju -- bov, | Bo -- ži -- ja -- ta Lju -- bov, |
+        Bo -- ži -- ja -- ta Lju -- bov, | Bo -- ži -- ja -- ta Lju -- | bov. Nij šte | bov.}
         \header {
           title = \titleFunc "Бог е Любов" "Bog e Ljubov"
         }

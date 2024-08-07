@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-  \hspace #27
+ \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -28,4 +28,5 @@
  \line { " " Der Frühling, der Frühling ist da!}
 
   }
+ }
 }

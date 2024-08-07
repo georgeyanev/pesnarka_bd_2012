@@ -17,11 +17,11 @@
       \tempoFunc "Andante" 4 "69"
       \autoBeamOff
       \repeat volta 2 {
-        g8 a bes c d4 d4 | g8 f es d c4 c |  \break
+        g8 a bes c d4 d4 | g8 f es d c4 c |
 
-        f8 es d c bes 4 d 4 | g,8 a bes a g4 g4 | \break
+        f8 es d c bes 4 d 4 | g,8 a bes a g4 g4 | 
 
-        g8 a bes c d4 d4 | g8 f es d c4 c |  \break
+        g8 a bes c d4 d4 | g8 f es d c4 c |  
 
         f8 es d c bes 4 d 4 |  g,8 a bes a g4 g4 |
       }

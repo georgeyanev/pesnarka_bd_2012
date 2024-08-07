@@ -6,7 +6,42 @@
 \bookpart {
   \label #'ref219
   \tocItem \markup "Добрата молитва – Dobrata molitva"
-  \include "include/bookpart-paper.ily"
+   \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.2\cm
+    bottom-margin = 1.0\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 19)
+       (minimum-distance . 8)
+       (padding . 2)
+       (stretchability . 12))
+  }
+
+  \header {
+    tagline = ##f
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -145,20 +180,20 @@
 
     \addlyrics {
       Гос -- по -- ди Бо -- же наш,
-      "Бла-" -- гий ни "Не-" -- "бе-" -- сен Ба -- ща, "Кой-"
+      Бла -- гий ни Не -- бе -- сен Ба -- ща, Кой
       -- то Си ни по -- да -- рил жи -- вот и здра --
       ве да  __ Ти се рад -- ва -- ме, мо -- лим Ти се,
-      "из-" -- "про-" -- во -- ди ни Ду --
+      из -- про -- во -- ди ни Ду --
       хът Си да ни па -- зи и за -- кри -- ля от вся --
-      ко зло и лу -- ка -- во "по-" -- миш -- ле -- ни
+      ко зло и лу -- ка -- во по -- миш -- ле -- ни
       -- е. На -- у -- чи -- ни -- да пра -- вим Тво
       -- я -- та Во -- ля, да ос -- ве -- тя -- ва
       -- ме Тво -- е -- то И -- ме и да Те сла --
       во -- сло -- вим ви -- на -- ги. Ос -- ве -- тя
-      вай ду -- хът __ ни, "про-" -- све -- ща -- вай
-      "сър-"  -- ца -- та и у -- мът ни, да "па-" -- зим
+      вай ду -- хът __ ни, про -- све -- ща -- вай
+      сър -- ца -- та и у -- мът ни, да па -- зим
       Твои -- те за -- по -- ве -- ди и по -- ве
-      -- ле -- ни -- я. "Вдъх-" -- вай в~нас с~при -- съст --
+      -- ле -- ни -- я. Вдъх -- вай в~нас с~при -- съст --
       ви -- е -- то Си чис -- ти -- те Си мис -- ли
       и ни у -- път -- вай да Ти слу -- жим със ра
       -- дост. Жи -- во -- тът си, кой -- то по -- све
@@ -174,19 +209,19 @@
       -- шим за Тво -- е -- то И -- ме, да е за
       ус -- пе -- ха на Тво -- е -- то Цар -- ство
       на Зе -- мя -- та. Хра -- ни ду -- ши -- те ни
-      с~не -- бес -- ни -- я Си хляб. "Ук-" -- ре -- пя --
+      с~не -- бес -- ни -- я Си хляб. Ук -- ре -- пя --
       вай ни със Си -- ла -- та Си, да ус -- пя
       -- ва -- ме в~жи -- во -- та си. И ка -- то ни
       да -- ваш всич -- ки -- те Тво -- и бла --
-      "го-" -- "сло-" -- ве -- ни -- я, "при-" -- ло -- жи
-      "Лю-" -- бов -- та Си да  __ ни е ве -- чен --
+      го -- сло -- ве -- ни -- я, при -- ло -- жи
+      Лю -- бов -- та Си да  __ ни е ве -- чен --
       за -- кон. За -- що -- то на Теб при -- на --
-      дле -- жи Цар -- "ство-" -- то, Си -- ла -- та и Сла
+      дле -- жи Цар -- ство -- то, Си -- ла -- та и Сла
       -- ва -- та за -- ви -- на -- ги. А -- мин.}
 
       \addlyrics {
         Gos -- po -- di Bo -- že naš,
-        Bla -- gij ni "Ne-" -- "be-" -- sen Ba -- šta, Koj
+        Bla -- gij ni Ne -- be -- sen Ba -- šta, Koj
         -- to Si ni po -- da -- ril ži -- vot i zdra --
         ve da  __ Ti se rad -- va -- me, mo -- lim Ti se,
         iz -- pro -- vo -- di ni Du --
@@ -197,7 +232,7 @@
         -- me Tvo -- e -- to I -- me i da Te sla --
         vo -- slo -- vim vi -- na -- gi. Os -- ve -- tja
         vaj du -- hăt __ ni, pro -- sve -- šta -- vaj
-        săr  -- ca -- ta i u -- măt ni, da "pa-" -- zim
+        săr  -- ca -- ta i u -- măt ni, da pa -- zim
         Tvoi -- te za -- po -- ve -- di i po -- ve
         -- le -- ni -- ja. Vdăh -- vaj v~nas s~pri -- săst --
         vi -- e -- to Si čis -- ti -- te Si mis -- li
@@ -215,12 +250,12 @@
         -- šim za Tvo -- e -- to I -- me, da e za
         us -- pe -- ha na Tvo -- e -- to Car -- stvo
         na Ze -- mja -- ta. Hra -- ni du -- ši -- te ni
-        s~ne -- bes -- ni -- ja Si hljab. "Uk-" -- re -- pja --
+        s~ne -- bes -- ni -- ja Si hljab. Uk -- re -- pja --
         vaj ni săs Si -- la -- ta Si, da us -- pja
         -- va -- me v~ži -- vo -- ta si. I ka -- to ni
         da -- vaš vsič -- ki -- te Tvo -- i bla --
-        "go-" -- slo -- ve -- ni -- ja, pri -- lo -- ži
-        "Lju-" -- bov -- ta Si da  __ ni e ve -- čen --
+        go -- slo -- ve -- ni -- ja, pri -- lo -- ži
+        Lju -- bov -- ta Si da  __ ni e ve -- čen --
         za -- kon. Za -- što -- to na Teb pri -- na --
         dle -- ži Car -- stvo -- to, Si -- la -- ta i Sla
         -- va -- ta za -- vi -- na -- gi. A -- min.}

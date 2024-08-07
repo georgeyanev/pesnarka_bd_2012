@@ -30,7 +30,7 @@
     }
 
     \addlyrics {
-      "1. Но" -- ви хи -- мни на И -- су -- са да за -- пе -- ем
+      \set stanza = "1." Но -- ви хи -- мни на И -- су -- са да за -- пе -- ем
       в~то -- я час, Бо -- жи Син е Той пред -- ве --
       чен на Не -- бе -- то и във нас.  Наш У -- чи -- тел,
       наш во -- ди -- тел, ис -- тин -- ски -- ят наш жи -- вот, Не -- го --
@@ -39,7 +39,7 @@
 
 
     \addlyrics {
-      "1. No" -- vi hi -- mni na I -- su -- sa da za -- pe -- em
+      \set stanza = "1." No -- vi hi -- mni na I -- su -- sa da za -- pe -- em
       v~to -- ja čas, Bo -- ži Sin e Toj pred -- ve --
       čen na Ne -- be -- to i văv nas.  Naš U -- či -- tel,
       naš vo -- di -- tel, is -- tin -- ski -- jat naš ži -- vot, Ne -- go --

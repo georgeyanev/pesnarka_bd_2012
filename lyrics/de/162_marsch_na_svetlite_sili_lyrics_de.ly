@@ -5,7 +5,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-  \hspace #10
+  \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -42,5 +42,6 @@
 
     \line { " "und am Ende werden wir im Äther fliegen als Geister des Lichtes.  }
 
+  }
   }
 }

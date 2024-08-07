@@ -51,13 +51,13 @@
     }
 
     \addlyrics {
-      "1. Нап" -- ред, ча -- да, нап -- ред, но -- се -- те Сло -- во -- то нав --
+      \set stanza = "1." Нап -- ред, ча -- да, нап -- ред, но -- се -- те Сло -- во -- то нав --
       ред! Без страх в~жи -- во -- та нов __  но -- се -- те
       прав -- да, мир, лю -- бов. Без бов!
     }
 
     \addlyrics {
-      "1. Nap" -- red, ča -- da, nap -- red, no -- se -- te Slo -- vo -- to nav --
+      \set stanza = "1." Nap -- red, ča -- da, nap -- red, no -- se -- te Slo -- vo -- to nav --
       red! Bez strah v~ži -- vo -- ta nov __  no -- se -- te
       prav -- da, mir, lju -- bov. Bez bov!
     }

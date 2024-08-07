@@ -5,7 +5,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-\hspace #5
+    \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column { 
@@ -20,6 +20,6 @@
     \line { " "  faltet seine Decken zusammen und begibt sich an die Arbeit.  }
 
   }
-
+    }
 
 }

@@ -146,7 +146,7 @@
 
 
 
-      \markup \vspace #3
+      \markup \vspace #5
 
       \label #'ref194
       \tocItem \markup "     Четвърти Божествен ден – Četvărti Božestven den"

@@ -5,7 +5,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-   \hspace #20
+   \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -14,6 +14,6 @@
   \line { Der Freiheit bedarf die Seele, die Seele, die Seele. }
    \line { Sie befindet sich nur in der Liebe. }
    \line { Das ist nur für die Seele }
-
+  }
   }
 }

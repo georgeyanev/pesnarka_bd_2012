@@ -102,7 +102,7 @@
 
 
       \new Lyrics \lyricsto "mainVoice" {
-        "1.В~ле" -- тен
+        \set stanza = "1." В~ле -- тен
         ден, в~ран -- ни зо -- ри май -- ка ми ти -- хо се при --
         бли -- жи. Сла -- дък глас бла -- га ду -- ма ми
         ка -- за: „Ста -- вай, дъ -- ще, на ни -- ва
@@ -114,7 +114,7 @@
       }
 
       \new Lyrics \lyricsto "mainVoice" {
-        "1.V~le" -- ten
+        \set stanza = "1." V~le -- ten
         den, v~ran -- ni zo -- ri may -- ka mi ti -- ho se pri --
         bli -- zhi. Sla -- dak glas bla -- ga du -- ma mi
         ka -- za: „Sta -- vay, da -- shte, na ni -- va

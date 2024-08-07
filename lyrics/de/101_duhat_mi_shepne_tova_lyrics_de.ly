@@ -5,7 +5,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-  \hspace #20
+     \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column { 
@@ -18,6 +18,6 @@
 \line { " " Und der Geist flüstert mir das zu, flüstert mir das zu.}
 
 \line { " " Der Geist und die Seele flüstern mir das zu.}
-
+  }
   }
 }

@@ -6,10 +6,11 @@
 \markup \null
 
 \markup \abs-fontsize #10 {
-     \hspace #5
+      \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
         \line { " "Sag Du mir die Wahrheit, die Freiheit für meine Seele bringt. }
     }
+      }
 }

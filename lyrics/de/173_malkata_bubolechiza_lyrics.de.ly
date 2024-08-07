@@ -5,7 +5,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-  \hspace #20
+  \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
       \column {
   \line {1. Mich hat Gott geboren}
@@ -50,4 +50,5 @@
 
   \line { "   " sie ergießt Frieden und lichte Freude in die Welt.}
 }
+  }
 }

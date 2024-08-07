@@ -4,61 +4,62 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-  \hspace #25
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-  \column {
+  \fill-line {
+    \override #`(baseline-skip . ,deCoupletBaselineSkip)
+    \column {
 
-    \line {  1.  Du, leidende Seele, die du dich sehnst:}
+      \line {  1.  Du, leidende Seele, die du dich sehnst:}
 
-    \line {   "   " Wofür brennst und glühst du? }
+      \line {   "   " Wofür brennst und glühst du? }
 
-    \line {   "   "Auf Dein Wort, oh Gott, warte ich}
+      \line {   "   "Auf Dein Wort, oh Gott, warte ich}
 
-    \line {   "   "und auf Deine reiche Barmherzigkeit; }
+      \line {   "   "und auf Deine reiche Barmherzigkeit; }
 
-    \line {   "   "dessentwillen leide ich, nach ihnen sehne ich mich.}
-
-     \vspace #0.5
-    \line {   2.  Und ich hungere und ich dürste, }
-
-    \line {   "   "ich erwarte sie Tag und Nacht. }
-
-    \line {   "   "Segne mich, oh Gott, }
-
-    \line {   "   "auf dass ich Dir nahe bin }
-
-    \line {   "   "und Trost bei Dir finde.}
+      \line {   "   "dessentwillen leide ich, nach ihnen sehne ich mich.}
 
       \vspace #0.5
-    \line {   3.  Dein lichtes Antlitz schaue ich und Deine Größe,}
+      \line {   2.  Und ich hungere und ich dürste, }
 
-    \line {   "   "auf dass ich Dich lieben lerne. }
+      \line {   "   "ich erwarte sie Tag und Nacht. }
 
-    \line {   "   "In dieser Liebe zu Dir, oh Herr, }
-     \line {   "   " möge ich machtvolle Kraft finden.}
+      \line {   "   "Segne mich, oh Gott, }
 
-    \vspace #0.5
-    \line { 4.  In den Heldentaten und der Vollkommenheit }
+      \line {   "   "auf dass ich Dir nahe bin }
 
-    \line {   "   "möge ich Deine Barmherzigkeit erkennen,}
-
-    \line {   "   "Dein allmächtiges Geheimnis,}
-
-    \line {   "   "das dem Menschen die Eitelkeit des Lebens}
-
-    \line {   "   "offenbart. }
+      \line {   "   "und Trost bei Dir finde.}
 
       \vspace #0.5
-    \line {   5. Alles Sündige auf der Erde}
+      \line {   3.  Dein lichtes Antlitz schaue ich und Deine Größe,}
 
-    \line {   "   "ist vergänglich und flüchtig.}
+      \line {   "   "auf dass ich Dich lieben lerne. }
 
-    \line {   "   "Nur Du, Gott, bist ewig:}
+      \line {   "   "In dieser Liebe zu Dir, oh Herr, }
+      \line {   "   " möge ich machtvolle Kraft finden.}
 
-    \line {   "   "Dich loben wir, Dich lobpreisen wir,}
+      \vspace #0.5
+      \line { 4.  In den Heldentaten und der Vollkommenheit }
 
-    \line {   "   "Dich wird lobpreisen die Ewigkeit.}
+      \line {   "   "möge ich Deine Barmherzigkeit erkennen,}
 
+      \line {   "   "Dein allmächtiges Geheimnis,}
+
+      \line {   "   "das dem Menschen die Eitelkeit des Lebens}
+
+      \line {   "   "offenbart. }
+
+      \vspace #0.5
+      \line {   5. Alles Sündige auf der Erde}
+
+      \line {   "   "ist vergänglich und flüchtig.}
+
+      \line {   "   "Nur Du, Gott, bist ewig:}
+
+      \line {   "   "Dich loben wir, Dich lobpreisen wir,}
+
+      \line {   "   "Dich wird lobpreisen die Ewigkeit.}
+
+    }
   }
 }
 

@@ -4,15 +4,14 @@
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
-  \hspace #10
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+  \fill-line {
+    \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
-    \line { " " Der Frieden kommt schon,  der Frieden kommt schon, }
-     \line { " " der Frieden kommt schon, so hat unser Herr gesagt.  }
-
-    \line { " "So hat unser Herr gesagt: Der Frieden kommt schon, }
-  \line {" "der Frieden kommt schon, so hat unser Herr gesagt. }
-
+    \column {
+      \line { " " Der Frieden kommt schon,  der Frieden kommt schon, }
+      \line { " " der Frieden kommt schon, so hat unser Herr gesagt.  }
+      \line { " "So hat unser Herr gesagt: „Der Frieden kommt schon, }
+      \line {" "der Frieden kommt schon, so hat unser Herr gesagt.“ }
+    }
   }
 }

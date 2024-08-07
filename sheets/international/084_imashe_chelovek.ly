@@ -5,9 +5,45 @@
 
 \bookpart {
 
-  \include "include/bookpart-paper.ily"
+
   \label #'ref083_3
   \tocItem \markup "Имаше человек – Imaše čelovek"
+    \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.2\cm
+    bottom-margin = 1.0\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 19)
+       (minimum-distance . 8)
+       (padding . 2)
+       (stretchability . 12))
+  }
+
+  \header {
+    tagline = ##f
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -62,9 +98,9 @@
 
     \addlyrics {
       И -- ма --
-      ше че -- ло -- век, "про-" -- "во-" -- ден от Бо --
+      ше че -- ло -- век, про -- во -- ден от Бо --
       га, и -- ме -- то __ му И -- о -- ан. Той дой --
-      де "в~сви-" -- де -- тел -- ство да сви -- де -- "тел-"
+      де в~сви -- де -- тел -- ство да сви -- де -- тел
       -- ству -- ва за -- ра -- ди ви -- де -- ли -- на
       -- та, за да __ по -- вяр -- ват всич -- ки чрез не
       -- го. Не __ бе той ви -- де -- ли -- на -- та, но
@@ -73,8 +109,8 @@
       та ви -- де -- ли -- на, ко -- я -- то о -- све
       -- тя -- ва все -- ки -- го че -- ло -- ве -- ка,
       що и -- де на све -- та. В~све -- та бе и све
-      -- тът чрез Не -- го "ста-" -- на и све -- тът Го
-      не "поз-" -- на. В~Сво -- и -- те Си "дой-" -- де, но
+      -- тът чрез Не -- го ста -- на и све -- тът Го
+      не поз -- на. В~Сво -- и -- те Си дой -- де, но
       Сво -- и -- те Му Го не при -- е -- ха. А ко
       -- и -- то Го при -- е -- ха, да -- де им власт
       да бъ -- дат ча -- да Бо -- жии, си -- реч, ко
@@ -84,7 +120,7 @@
       ка, но от Бо -- га се ро -- ди -- ха.}
       \addlyrics {
         I -- ma --
-        še če -- lo -- vek, pro -- "vo-" -- den ot Bo --
+        še če -- lo -- vek, pro -- vo -- den ot Bo --
         ga, i -- me -- to __ mu I -- o -- an. Toj doj --
         de v~svi -- de -- tel -- stvo da svi -- de -- tel
         -- stvu -- va za -- ra -- di vi -- de -- li -- na
@@ -96,7 +132,7 @@
         -- tja -- va vse -- ki -- go če -- lo -- ve -- ka,
         što i -- de na sve -- ta. V~sve -- ta be i sve
         -- tăt črez Ne -- go sta -- na i sve -- tăt Go
-        ne "poz-" -- na. V~Svo -- i -- te Si doj -- de, no
+        ne poz -- na. V~Svo -- i -- te Si doj -- de, no
         Svo -- i -- te Mu Go ne pri -- e -- ha. A ko
         -- i -- to Go pri -- e -- ha, da -- de im vlast
         da bă -- dat ča -- da Bo -- žii, si -- reč, ko

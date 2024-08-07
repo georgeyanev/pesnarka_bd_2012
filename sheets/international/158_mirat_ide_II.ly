@@ -6,7 +6,43 @@
 \bookpart {
   \label #'ref158
   \tocItem \markup "Мирът иде II – Mirăt ide II"
-  \include "include/bookpart-paper.ily"
+  \paper {
+    % the system system spacing is custom here so do not include bookpart-paper.ily
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.2\cm
+    bottom-margin = 1.0\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 18)
+       (minimum-distance . 6)
+       (padding . 2)
+       (stretchability . 12))
+  }
+
+  \header {
+    tagline = ##f
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -99,11 +135,11 @@
       bes([c]) d ees | \noBreak
       d2 | \noBreak
       a8. a16 a8 a | \noBreak
-      a8. a16 c4 | \break
+      a8. a16 c4 | \noBreak
 
-      bes8([a]) g([fis]) | \noBreak
+      bes8([a]) g([fis]) | \break
       a8. g16 g4
-      g2\fermata \bar "||" | \break
+      g2\fermata \bar "||" | \noBreak
       d2 \noBreak
 
       cis8([d]) ees d | \noBreak
@@ -147,44 +183,44 @@
     }
 
     \addlyrics {
-      И -- де ве -- че, | и -- де | "с~пал" -- мо -- во __ клон -- че |
-      на "ми-" -- ра. | Сли -- за той от -- | Го -- ре, | сли -- за той, вес -- |
-      ти -- тел благ. | И -- де ве -- че __ | "с~пал" -- мо -- во "клон-" -- че |
+      И -- де ве -- че, | и -- де | с~пал -- мо -- во __ клон -- че |
+      на ми -- ра. | Сли -- за той от -- | Го -- ре, | сли -- за той, вес -- |
+      ти -- тел благ. | И -- де ве -- че __ | с~пал -- мо -- во клон -- че |
       ка -- то си -- | я -- ни -- е. | И -- де ми -- рът __ |
       о -- бе -- щан със | не -- го -- ви -- я __ | пог -- лед чист. |
-      Всич -- ки ду -- ши __ | поз -- дра -- вя -- | ва, | "всич-" -- ки "сър-" -- ца "вдъх-" -- но -- вя -- |
-      ва "с~ли" -- | ка си | благ, мил, о -- за -- | рен. |
-      "Ра-" -- дост и ве -- се -- ли -- е раз -- | на -- ся той на -- | вред, къ -- де --
+      Всич -- ки ду -- ши __ | поз -- дра -- вя -- | ва, | всич -- ки сър -- ца вдъх -- но -- вя -- |
+      ва с~ли -- | ка си | благ, мил, о -- за -- | рен. |
+      Ра -- дост и ве -- се -- ли -- е раз -- | на -- ся той на -- | вред, къ -- де --
       то ми -- не. | И -- де той във  | ран -- ни -- те зо -- | ри, |
       Слън -- це -- то ко -- | га -- то __ про -- сти -- ра свой -- те мил -- ва -- |
       щи ръ -- це __ и бу -- ди | вся -- ко се -- ме, | вся -- ко цвет -- че, |
       сво -- и -- те де -- | ца. Пол -- ски -- те цве -- | тя със __ |
       а -- ро -- мат __ | го по -- сре -- | щат. Мал -- ки -- те гор -- ски |
       птич -- ки от __ въз -- | торг __ | пес -- ни пе -- ят не -- му |
-      и све -- жи -- те | стру -- и | на "пла-" -- нин -- ски | из -- вор -- че -- та |
+      и све -- жи -- те | стру -- и | на пла -- нин -- ски | из -- вор -- че -- та |
       тук ли -- ку -- | ват. | Злат -- ни ни -- ви | бла -- го -- го -- вей -- но |
       кла -- со -- ве на -- | веж -- дат. | Ця -- ла -- та При -- | ро -- да __ |
       е __ храм ве -- | лик. | И -- де ан -- гел | на ми -- ра |
-      "в~то" -- зи __ | храм да слу -- | жи. | А |
+      в~то -- зи __ | храм да слу -- | жи. | А |
       сто -- и чо -- | ве -- | кът | пред | све -- ти -- я ол -- |
-      тар. | О -- гън го -- | ри | там, "в~све" -- | ще -- ни -- я ол -- |
-      тар. | И "с~мо" -- | лит -- | ва __ във ду -- | ша |
+      тар. | О -- гън го -- | ри | там, в~све -- | ще -- ни -- я ол -- |
+      тар. | И с~мо -- | лит -- | ва __ във ду -- | ша |
       Бо -- жи -- я вес -- | ти -- тел | ча -- ка | той. |
       И -- де ве -- че __ | ан -- гел на ми -- ра със |
       клон -- че пал -- мо -- | во и же -- зъл. | Сли -- за той от -- го -- ре, |
-      цар -- ствен и "же-" -- лан кат | слън -- че -- ва ус -- | мив -- ка бла -- га |
-      и "с~ра" -- дост | пъл -- ни сър -- | ца -- та ни той. |
+      цар -- ствен и же -- лан кат | слън -- че -- ва ус -- | мив -- ка бла -- га |
+      и с~ра -- дост | пъл -- ни сър -- | ца -- та ни той. |
     }
 
     \addlyrics {
-      I -- de ve -- če, | i -- de | "s~pal" -- mo -- vo __ klon -- če |
+      I -- de ve -- če, | i -- de | s~pal -- mo -- vo __ klon -- če |
       na mi -- ra. | Sli -- za toj ot -- | Go -- re, | sli -- za toj, ves -- |
-      ti -- tel blag. | I -- de ve -- če __ | "s~pal" -- mo -- vo klon -- če |
+      ti -- tel blag. | I -- de ve -- če __ | s~pal -- mo -- vo klon -- če |
       ka -- to si -- | ja -- ni -- e. | I -- de mi -- răt __ |
       o -- be -- štan săs | ne -- go -- vi -- ja __ | pog -- led čist. |
-      Vsič -- ki du -- ši __ | poz -- dra -- vja -- | va, | vsič -- ki săr -- ca "vdăh-" -- no -- vja -- |
-      va "s~li" -- | ka si | blag, mil, o -- za -- | ren. |
-      "Ra-" -- dost i ve -- se -- li -- e raz -- | na -- sja toj na -- | vred, kă -- de --
+      Vsič -- ki du -- ši __ | poz -- dra -- vja -- | va, | vsič -- ki săr -- ca vdăh -- no -- vja -- |
+      va s~li -- | ka si | blag, mil, o -- za -- | ren. |
+      Ra -- dost i ve -- se -- li -- e raz -- | na -- sja toj na -- | vred, kă -- de --
       to mi -- ne. | I -- de toj văv  | ran -- ni -- te zo -- | ri, |
       Slăn -- ce -- to ko -- | ga -- to __ pro -- sti -- ra svoj -- te mil -- va -- |
       šti ră -- ce __ i bu -- di | vsja -- ko se -- me, | vsja -- ko cvet -- če, |
@@ -195,15 +231,15 @@
       tuk li -- ku -- | vat. | Zlat -- ni ni -- vi | bla -- go -- go -- vej -- no |
       kla -- so -- ve na -- | vež -- dat. | Cja -- la -- ta Pri -- | ro -- da __ |
       e __ hram ve -- | lik. | I -- de an -- gel | na mi -- ra |
-      "v~to" -- zi __ | hram da slu -- | ži. | A |
+      v~to -- zi __ | hram da slu -- | ži. | A |
       sto -- i čo -- | ve -- | kăt | pred | sve -- ti -- ja ol -- |
-      tar. | O -- găn go -- | ri | tam, "v~sve" -- | šte -- ni -- ja ol -- |
-      tar. | I "s~mo" -- | lit -- | va __ văv du -- | ša |
+      tar. | O -- găn go -- | ri | tam, v~sve -- | šte -- ni -- ja ol -- |
+      tar. | I s~mo -- | lit -- | va __ văv du -- | ša |
       Bo -- ži -- ja ves -- | ti -- tel | ča -- ka | toj. |
       I -- de ve -- če __ | an -- gel na mi -- ra săs |
       klon -- če pal -- mo -- | vo i že -- zăl. | Sli -- za toj ot -- go -- re, |
       car -- stven i že -- lan kat | slăn -- če -- va us -- | miv -- ka bla -- ga |
-      i "s~ra" -- dost | păl -- ni săr -- | ca -- ta ni toj. |
+      i s~ra -- dost | păl -- ni săr -- | ca -- ta ni toj. |
     }
     \header {
       title = \titleFunc "Мирът иде II" "Mirăt ide II"

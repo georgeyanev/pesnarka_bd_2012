@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup  \abs-fontsize #10 {
-  \hspace #20
+  \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -17,5 +17,6 @@
 
 \line { " " hätte sich das Gute in mir offenbart.}
 
+  }
   }
 }

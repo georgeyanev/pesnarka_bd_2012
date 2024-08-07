@@ -6,7 +6,7 @@
 \markup \null
 
 \markup \abs-fontsize #10 {
-   \hspace #25
+      \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -55,7 +55,7 @@
     \line { " " auch nicht aus dem Willen des Mannes,  }
 
     \line { " " sondern aus Gott geboren sind.  }
-
+  }
   }
 }
 %}

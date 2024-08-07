@@ -16,8 +16,8 @@
       \time 3/4
       \autoBeamOff
       \tempoFunc "Andante" 4 "66"
-      a'8. a'16 a'4. bes'8 | a'4 g'2 | g'8. g'16 g'4. a'8 | \break
-      g'4 f'2 | e'8. e'16 e'4. f'8 | e'4 d'2 | \break
+      a'8. a'16 a'4. bes'8 | a'4 g'2 | g'8. g'16 g'4. a'8 |
+      g'4 f'2 | e'8. e'16 e'4. f'8 | e'4 d'2 | 
       e'8 f'8 g'8 bes'4 bes'8 | a'4 g'4 f'8. f'16 | e'4 d'2 | \bar ":|."
     }
 
@@ -43,10 +43,56 @@
   } % score
 
   % include foreign translation(s) of the song
-  \markup \vspace #3
+  \markup \vspace #1
   \include "../../lyrics/de/056_1_idvat_dni_na_radost_lyrics_de.ly"
+  \markup \vspace #2
+  \label #'ref155_2
+  \tocItem \markup "Мирът иде вече – Mirat ide veche"
+  \include "include/bookpart-paper.ily"
+  \score {
+    \include "include/score-layout.ily"
 
-  \pageBreak
+    \new Voice \relative c' {
+      \clef treble
+      \key g \minor
+      \time 4/4
+      \tempoFunc "Andante" 4 "69"
+      \autoBeamOff
+      \repeat volta 2 {
+        g8 a bes c d4 d4 | g8 f es d c4 c |
+
+        f8 es d c bes 4 d 4 | g,8 a bes a g4 g4 | 
+
+        g8 a bes c d4 d4 | g8 f es d c4 c |  
+
+        f8 es d c bes 4 d 4 |  g,8 a bes a g4 g4 |
+      }
+    }
+
+    \addlyrics {
+      „Ми -- рът и -- де ве -- че, Ми -- рът и -- де ве -- че, Ми -- рът и -- де ве -- че!“,
+      тъй наш Гос -- под ре -- че.
+      Tъй наш Гос -- под ре -- че: „Ми -- рът и -- де ве -- че, Ми -- рът и -- де ве -- че!“,
+      тъй наш Гос -- под ре -- че.
+    }
+    \addlyrics {
+      „Mi -- rat i -- de ve -- che, Mi -- rat i -- de ve -- che, Mi -- rat i -- de ve -- che!“,
+      tay nash Gos -- pod re -- che.
+      Tay nash Gos -- pod re -- che: „Mi -- rat i -- de ve -- che, Mi -- rat i -- de ve -- che!“,
+      tay nash Gos -- pod re -- che.}
+
+      \header {
+        title = \titleFunc "Мирът иде вече" "Mirat ide veche"
+      }
+
+      \midi{}
+
+    } % score
+
+  \markup \vspace #2
+
+    % include foreign translation(s) of the song
+    \include "../../lyrics/de/155_2_mirat_ide_veche.ly"
 
   \label #'ref056_2
   \tocItem \markup "Към Рила – Kăm Rila"
@@ -73,15 +119,15 @@
     }
 
     \addlyrics {
-      "1. Към" Ри -- ла с~мощ -- на ми -- съл ле -- тим ний
+      \set stanza = "1." Към Ри -- ла с~мощ -- на ми -- съл ле -- тим ний
       все -- ки ден. __ В~гър -- ди -- те с~туй же -- ла --
-      ние жи -- ве -- ем в~свят не -- тлен. "В~гър -" тлен. __
+      ние жи -- ве -- ем в~свят не -- тлен. В~гър -- тлен. __
     }
 
     \addlyrics {
-      "1. Kăm" Ri -- la s~mošt -- na mi -- săl le -- tim nij
+      \set stanza = "1." Kăm Ri -- la s~mošt -- na mi -- săl le -- tim nij
       vse -- ki den. __ V~găr -- di -- te s~tuj že -- la --
-      nie ži -- ve -- em v~svjat ne -- tlen. "V~găr -" tlen. __
+      nie ži -- ve -- em v~svjat ne -- tlen. V~găr -- tlen. __
     }
 
     \header {

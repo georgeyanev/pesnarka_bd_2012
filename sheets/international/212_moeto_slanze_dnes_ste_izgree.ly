@@ -34,7 +34,7 @@
 
     % change distance between staves
     system-system-spacing =
-    #'((basic-distance . 16)
+    #'((basic-distance . 18)
        (minimum-distance . 8)
        (padding . 2)
        (stretchability . 12))
@@ -137,28 +137,28 @@
       | % 51
       g''8 (  f''16 )  e''8 (  d''8.
       )  | % 52
-      cis''8.   cis''8 (  bes'8. )  \break | % 53
-      a'8.  g'8 ~ [  g'8. ] | % 54
+      cis''8.   cis''8 (  bes'8. )   | % 53
+      a'8.  g'8 ~ [  g'8. ] | \break % 54
       a'8. ~   a'8 ~  a'8.  | % 55
       R2 \bar "||"
       \time 9/16  | % 56
       \tempo "(Tempo I)"
-      d'8 ^\<  d'8  f'8  a'8. \break | % 57
+      d'8 ^\<  d'8  f'8  a'8.  | % 57
       d''8 ~ d''8  ^\!  d''8 ~ (  \once \override PhrasingSlur.direction = #down \afterGrace d''8. \fermata   \( { e''32  [d'' cis'' d''\))]}
-      | % 58
+      | \break % 58
       \time 8/16  | % 58
       g''8.  g''16 ( [  a''16 ) ]
       bes''32 ( ^\fermata [  a''32  g''32  f''32
       e''32  d''32 ) ] | % 59
       e''8. \acciaccatura {  f''16 [  e''16 ] }
-      d''8 ~  d''8. \break |
+      d''8 ~  d''8.  |
       cis''8.
       \shape #'((0 . -0.5) (0 . 1) (0 . 1) (0 . 0)) Slur
       bes'8 ( ~ bes'8.  ^\> | % 61
       a'16 [  bes'16  cis''16 ]  d''16
       [  cis''16 ]  bes'16 [  a'16 )  ] g'16
-      | % 62
-      bes'8.  a'8 ~   a'8. \break | % 63
+      | \break % 62
+      bes'8.  a'8 ~   a'8.  | % 63
       a'8. ^\!  a'8  f''8. ~ | % 64
       f''8. ~   f''8  a''8. ^\fermata  | % 65
       g''8. (   f''8 )   e''8. | % 66
@@ -190,7 +190,7 @@
       -- я -- вя  __ доб --  ро
       -- то  __  във све --
       та. __ Ще мис -- ля доб --
-      ре, __  ще "чув-" -- ствам доб --
+      ре, __  ще чув -- ствам доб --
       ре, __  ще  по -- стъп --
       вам __   доб -- ре, __  ма --
       мо.  __   Ти __  ще __
@@ -223,7 +223,7 @@
       -- ja -- vja  __ dob --  ro
       -- to  __  văv sve --
       ta. __ Šte mis -- lja dob --
-      re, __  šte "čuv-" -- stvam dob --
+      re, __  šte čuv -- stvam dob --
       re, __  šte  po -- stăp --
       vam __   dob -- re, __  ma --
       mo.  __   Ti __  šte __
@@ -246,7 +246,7 @@
 
   } % score
 
-  \markup \vspace #3
+   \pageBreak
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/212_moeto_slunce_dnes_ste_izgree_lyrics_de.ly"

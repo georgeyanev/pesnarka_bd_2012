@@ -5,10 +5,11 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-  \hspace #20
+  % \hspace #10
+  \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
+\column {
 
  \line { " "Es ist schon Frühling, hell und warm ist es  überall:}
 
@@ -29,18 +30,17 @@
   \line { " "Die Freude sprudelt in unserem Bienenstock: băn. }
 
  \line { " "Alle eilen hinaus. }
- \line { " " Băn, zăn, băn, zăn, } 
- \line { " "einen süßen Honig bereiten wir für euch,}
+
+ \line { " " Băn, zăn, băn, zăn, einen süßen Honig bereiten wir für euch,}
 
  \line { " "liebet den gütigen Schöpfer. }
 
- \line { " "Liebet den gütigen Schöpfer,}
-
- \line { " "lasst uns unseren großen, }
-
- \line { " "guten Schöpfer lieben!}
+ \line { " "Liebet den gütigen Schöpfer, }
+ 
+\line { " " lasst uns unseren großen, guten Schöpfer lieben!}
 
  \line { " "Băn! Zăn! Băn! Zăn!}
+}
 
   }
 }

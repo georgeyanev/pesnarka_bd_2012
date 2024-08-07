@@ -5,7 +5,38 @@
 \bookpart {
   \label #'ref130
   \tocItem \markup "Езикът на живата природа – Ezikăt na živata priroda"
-  \include "include/bookpart-paper.ily"
+   \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.2\cm
+    bottom-margin = 1.0\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 17)
+       (minimum-distance . 8)
+       (padding . 1)
+       (stretchability . 12))
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -171,7 +202,7 @@
       бе и си -- лен. Всич -- ки -- те __
       лис -- та шу --
       мо -- ля -- ха, шу -- мя -- ха и се
-      "мо-" -- ле -- ха: „Спри,  вет --
+      мо -- ле -- ха: „Спри,  вет --
       ре, спри,  вет -- ре, во -- лен
       раз -- ви -- гор! Не ни
       ли жа -- лиш?  По -- спри, не __
@@ -180,13 +211,13 @@
       ка сме -- дош -- ли на
       гос -- ти. Не ду -- хай, вет --
       ре, ще пад --
-      нем, ще ни се стро -- шат "ре-" --
-      "бър-" -- "ца-" -- "та“.      –" „Ой ви вас, __
-      "мал-" -- ки лис -- тен -- ца,
+      нем, ще ни се стро -- шат ре --
+      бър -- ца -- "та“.      –" „Ой ви вас, __
+      мал -- ки лис -- тен -- ца,
       за вас аз чух от -- да -- ле -- ко
-      и "дой-" -- дох да ви на -- ви
+      и дой -- дох да ви на -- ви
       --  дя, да __  по -- и -- гра --
-      я и ви "по-" -- "ду-" -- хам, да -- ре --
+      я и ви по -- ду -- хам, да -- ре --
       не да ви до -- не --  са.
       Слу -- шай -- те то -- га -- ва
       мой -- та пе -- сен: След ме --
@@ -202,7 +233,7 @@
       по -- троп -- нем то -- га  -- ва,
       да си по -- хап  -- нем, чис
       -- та во -- да да пи  -- ем,
-      с~ра -- дост да се раз -- "де-" --
+      с~ра -- дост да се раз -- де --
       лим. На -- но -- во да се срещ
       -- нем  пак и до -- бре с~о
       -- бич да се раз -- бе -- рем.“}
@@ -214,7 +245,7 @@
         be i si -- len. Vsič -- ki -- te __
         lis -- ta šu --
         mo -- lja -- ha, šu -- mja -- ha i se
-        "mo-" -- le -- ha: „Spri,  vet --
+        mo -- le -- ha: „Spri,  vet --
         re, spri,  vet -- re, vo -- len
         raz -- vi -- gor! Ne ni
         li ža -- liš?  Po -- spri, ne __

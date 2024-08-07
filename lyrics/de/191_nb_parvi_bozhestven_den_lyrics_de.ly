@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \fontsize #deCoupletFontSize {
-  \hspace #15
+  \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -34,7 +34,7 @@
     \line { " "Und Gott nannte das Licht [svetlina] Tag und die Finsternis Nacht.}
 
     \line { " "Und es ward Abend und es ward Morgen, der erste Tag.}
-
+  }
   }
 }
 

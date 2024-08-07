@@ -6,7 +6,7 @@
 
 \markup \abs-fontsize #10 {
 
-   \hspace #30
+      \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
     \line { Ein guter Tag ist ein lichter Tag.  }
@@ -18,7 +18,7 @@
     \line { und teilt im Leben das göttliche Gute aus.}
 
 
-
+  }
   }
 
 

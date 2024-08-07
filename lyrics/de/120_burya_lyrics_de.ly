@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-  \hspace #5
+      \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column { 
@@ -19,4 +19,5 @@
    \line { " " Der Sturm schüttelt mich durch, für das Gute, das in mir ist. }
 
   }
+      }
 }

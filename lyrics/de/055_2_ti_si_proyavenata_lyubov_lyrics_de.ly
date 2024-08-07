@@ -5,7 +5,7 @@
 \markup \null
 
 \markup \abs-fontsize #10 {
-   \hspace #20
+  \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -14,7 +14,7 @@
     \line { " "Meine Seele sehnt sich nach Deiner Reinheit,}
     \line { " "Meine Seele sehnt sich nach Deinem Licht.}
 
-
+  }
 
   }
 

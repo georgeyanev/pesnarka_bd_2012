@@ -61,7 +61,7 @@
       та, __  Лю -- бов -- та и О -- бич --
       та ще ме на -- у -- чат на Бо
       -- га слу -- га да ста -- на. __
-      Лю -- "бов-" на. __
+      Лю -- бов на. __
     }
     \addlyrics {
       Az mo -- ga da lju -- bja, do -- băr
@@ -71,7 +71,7 @@
       ta, __  Lju -- bov -- ta i O -- bič --
       ta šte me na -- u -- čat na Bo
       -- ga slu -- ga da sta -- na. __
-      Lju -- "bov-" na. __
+      Lju -- bov na. __
     }
 
     \header {

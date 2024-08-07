@@ -37,7 +37,42 @@
 \bookpart {
   \label #'ref018
   \tocItem \markup "Излязъл е сеяч – Izljazăl e sejač"
-  \include "include/bookpart-paper.ily"
+    \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.2\cm
+    bottom-margin = 1.0\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 19)
+       (minimum-distance . 8)
+       (padding . 2)
+       (stretchability . 12))
+  }
+
+  \header {
+    tagline = ##f
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -69,16 +104,14 @@
       \alternative {
         {  f'2. (|  f'4 )  r4 f'4 | f'2 f'4 | f'4 ( e'4 ) f'4 | g'2 f'4 |e'2. (| e'4 ) r4 g'4   \break }
         {
-          f'2. (|  f'4 ) r4 g'4 | g'2 g'4 | a'2
-          \override Score.RehearsalMark.outside-staff-priority = #599
-          \tempo"rit."  % places rit. below alternative bracket
-          a'4 | b'2 b'4 | c''2. ~ | c''2  \bar "|." \pageBreak
+          f'2. (|  f'4 ) r4 g'4 | g'2 g'4 | a'2  
+          a'4 ^\markup \huge \raise #1.5 \bold "rit." | b'2 b'4 | c''2. ~ | c''2  \bar "|." \pageBreak
         }
       }
     }
 
     \addlyrics {
-      "1. Из" -- ля -- зъл е се -- яч да се -- е __
+      \set stanza = "1." Из -- ля -- зъл е се -- яч да се -- е __
       пре -- крас -- но бла -- "го  –" нов жи -- вот. __ И
       се -- е той, и ти -- хо пе -- е __ пред все -- ки
       дом и все -- ки род, __  и все -- ки род: __ Без --
@@ -89,7 +122,7 @@
     }
 
     \addlyrics {
-      "1. Iz" -- lja -- zăl e se -- jač da se -- e __
+      \set stanza = "1." Iz -- lja -- zăl e se -- jač da se -- e __
       pre -- kras -- no bla -- "go  –" nov ži -- vot. __ I
       se -- e toj, i ti -- ho pe -- e __ pred vse -- ki
       dom i vse -- ki rod, __  i vse -- ki rod: __ Bez --

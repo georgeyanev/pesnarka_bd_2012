@@ -122,6 +122,4 @@
     } % score
 
 
-
-
   } % bookpart

@@ -56,7 +56,7 @@
     }
 
     \addlyrics {
-      "1. На" У --  чи -- те -- ля по -- ко -- рен аз ще слу -- жа
+      \set stanza = "1." На У --  чи -- те -- ля по -- ко -- рен аз ще слу -- жа
       до кон -- ца. Той за мен е път от -- во --
       рен, що ме во -- ди към От -- ца. Той за мен
       е път от -- во -- рен, що ме во -- ди към От -- ца.
@@ -64,7 +64,7 @@
 
 
     \addlyrics {
-      "1. Na" U --  či -- te -- lja po -- ko -- ren az šte slu -- ža
+      \set stanza = "1." Na U --  či -- te -- lja po -- ko -- ren az šte slu -- ža
       do kon -- ca. Toj za men e păt ot -- vo --
       ren, što me vo -- di kăm Ot -- ca. Toj za men
       e păt ot -- vo -- ren, što me vo -- di kăm Ot -- ca.

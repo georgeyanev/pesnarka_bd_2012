@@ -50,14 +50,14 @@
     }
 
     \addlyrics {
-      "1. О," У -- чи -- те -- лю бла -- га -- ти, теб из -- пъл -- ва доб -- ри --
+      \set stanza = "1." О, У -- чи -- те -- лю бла -- га -- ти, теб из -- пъл -- ва доб -- ри --
       на. Твой -- те ду -- ми са кри -- ла -- ти, пъл -- ни
       с~мъд -- рост, свет -- ли -- на. Твой -- те на.
     }
 
 
     \addlyrics {
-      "1. O," U -- či -- te -- lju bla -- ga -- ti, teb iz -- păl -- va dob -- ri --
+      \set stanza = "1." O, U -- či -- te -- lju bla -- ga -- ti, teb iz -- păl -- va dob -- ri --
       na. Tvoj -- te du -- mi sa kri -- la -- ti, păl -- ni
       s~măd -- rost, svet -- li -- na. Tvoj -- te na.
     }

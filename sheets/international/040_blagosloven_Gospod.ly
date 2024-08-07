@@ -27,9 +27,9 @@
       d''4 d'' d'' d''8 ([f'']) \fermata e''4. d''8 c''2 \bar"!" g'4 g' g' g'8 ([ bes' ]) \fermata a'4. g'8 f'2 \bar "|."
     }
     \addlyrics {
-      "1. Бла" -- гос --
-      "ло-" -- вен Гос -- под Бог наш на всич -- ки ве
-      -- ко -- ве; бла -- гос -- "ло-" -- вен Ба -- ща наш
+      \set stanza = "1." Бла -- гос --
+      ло -- вен Гос -- под Бог наш на всич -- ки ве
+      -- ко -- ве; бла -- гос -- ло -- вен Ба -- ща наш
       на Свет -- ли -- те ду -- хо -- ве, на Свет --
       ли -- те ду -- хо -- ве, на Свет -- ли -- те ду
       -- хо -- ве, на Свет -- ли -- те __ ду -- хо -- ве,
@@ -37,9 +37,9 @@
 
 
       \addlyrics {
-        "1. Bla" -- gos --
-        "lo-" -- ven Gos -- pod Bog naš na vsič -- ki ve
-        -- ko -- ve; bla -- gos -- "lo-" -- ven Ba -- šta naš
+        \set stanza = "1." Bla -- gos --
+        lo -- ven Gos -- pod Bog naš na vsič -- ki ve
+        -- ko -- ve; bla -- gos -- lo -- ven Ba -- šta naš
         na Svet -- li -- te du -- ho -- ve, na Svet --
         li -- te du -- ho -- ve, na Svet -- li -- te du
         -- ho -- ve, na Svet -- li -- te __ du -- ho -- ve,
@@ -52,10 +52,6 @@
         \midi{}
 
       } % score
-
-      \markup \empty-one
-
-      \markup \dc-one "D.C."
 
       \markup \empty-two
 

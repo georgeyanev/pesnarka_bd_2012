@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-  \hspace #5
+  \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -32,5 +32,6 @@
 
     \line { " " und ließ Güte in mich einziehen, und ließ Güte in mich einziehen.}
     
+  }
   }
 }

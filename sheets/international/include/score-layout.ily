@@ -24,6 +24,9 @@
   \context {
     % adjust space between staff and lyrics and between the two lyric lines
     \Lyrics
+    \override LyricHyphen.minimum-length = #0.5 %force a hyphen
+    \override LyricHyphen.minimum-distance = #1 %force a hyphen
+    \override StanzaNumber.font-series = #'normal % make stanza number font normal
     \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
                                                                     (basic-distance . 4.5)
                                                                     (padding . 1.5)

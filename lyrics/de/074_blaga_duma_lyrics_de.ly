@@ -5,7 +5,7 @@
 \markup \null
 
 \markup \abs-fontsize #10 {
-   \hspace #25
+       \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -32,6 +32,6 @@
     \line { " "und die Liebe erbaut mit ihnen dieses Leben, }
 
     \line { " "das hier geboren wird.}
-
+  }
   }
 }

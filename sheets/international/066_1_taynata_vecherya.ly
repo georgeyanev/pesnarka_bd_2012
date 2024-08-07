@@ -30,27 +30,27 @@
     }
 
     \addlyrics {
-      "1. Зун" __ ме -- ри ма -- ну, зун __ ме -- ри -- ма -- нун -- да -- на,
+       \set stanza = "1." Зун __ ме -- ри ма -- ну, зун __ ме -- ри -- ма -- нун -- да -- на,
       а -- са -- ви -- та ви -- та нан -- да. Зун __ ме -- ри
       ма -- ну, Зун __ ме -- ри ма -- нун -- да -- на, а -- са --
       ви -- та  нан -- да.  а -- са -- ви -- та  нан -- да.
     }
 
     \addlyrics {
-      "1. Zun" __ me -- ri ma -- nu, zun __ me -- ri -- ma -- nun -- da -- na,
+       \set stanza = "1." Zun __ me -- ri ma -- nu, zun __ me -- ri -- ma -- nun -- da -- na,
       a -- sa -- vi -- ta vi -- ta nan -- da. Zun __ me -- ri
       ma -- nu, Zun __ me -- ri ma -- nun -- da -- na, a -- sa --
       vi -- ta  nan -- da.  a -- sa -- vi -- ta  nan -- da.
     }
 
     \addlyrics {
-      "2. Всич" -- ко е свет -- ло, вси -- чко е о -- све -- те -- но
+       \set stanza = "2." Всич -- ко е свет -- ло, вси -- чко е о -- све -- те -- но
       с~Мой -- та жи -- ва Ви -- де -- ли -- на.
     }
 
 
     \addlyrics {
-      "2. Vsič" -- ko e svet -- lo, vsi -- čko e o -- sve -- te -- no
+      \set stanza = "1." Vsič -- ko e svet -- lo, vsi -- čko e o -- sve -- te -- no
       s~Moj -- ta ži -- va Vi -- de -- li -- na.
     }
 

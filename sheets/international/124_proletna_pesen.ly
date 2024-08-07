@@ -5,7 +5,42 @@
 \bookpart {
   \label #'ref124
   \tocItem \markup "Пролетна песен – Proletna pesen"
-  \include "include/bookpart-paper.ily"
+    \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.2\cm
+    bottom-margin = 1.0\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 19)
+       (minimum-distance . 8)
+       (padding . 2)
+       (stretchability . 12))
+  }
+
+  \header {
+    tagline = ##f
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -27,12 +62,12 @@
       \times 2/3  {
         g8 ( [  bes8 ) ] c8
       }
-      | % 5
+      | \break % 5
       d2
       \tupletUp \times 2/3  {
         g,8   bes8  c8
       }
-      \break
+     
       | % 6
       d2
       \times 2/3  {
@@ -41,7 +76,7 @@
       | % 7
       \time 4/4
       es2 d8 c8 bes8
-      g8 | % 8
+      g8 | \break  % 8
       \time 3/4  | % 8
       es2
       \times 2/3  {
@@ -49,21 +84,21 @@
       }
       | \time 3/4 % 9
 
-      \break
+      
       c4  as4  g8.  g16 |
 
       \time 2/4  |
       f4  g8. ( [  f16 ) ] | % 11
-      es2 | % 12
+      es2 | \break % 12
       bes'4 es4  | % 13
       d4 d4 | % 14
-      c4 bes8  g8 \break  | % 15
+      c4 bes8  g8  | % 15
       \time 3/4  | % 15
       es2
       \times 2/3  {
         c8 ( [  d8 ) ] es8
       }
-      | % 16
+      | \break  % 16
       \time 2/4  | % 16
       g4  f8.  f16 | % 17
       bes2 ^\fermata | % 18
@@ -126,20 +161,20 @@
     \addlyrics {
       Ми  -- ли Бо -- же, чуй ни пе
       -- сен -- та: пе -- ем ний
-      за "Слън-" -- це -- то, за "про-" -- лет
+      за Слън -- це -- то, за про -- лет
       -- та. Чуй ни пе -- сен -- та: Про
       -- лет и -- де, нов жи -- вот но
       -- си. Пър -- во цве -- те на
-      "про-" -- лет -- та: бу  -- дя всич
+      про -- лет -- та: бу  -- дя всич
       -- ки от сън, мен __  пър -- во
       Слън -- це -- то ме  __ виж
-      --  да. "Слън-" -- чи -- це, Бо --
+      --  да. Слън -- чи -- це, Бо --
       жи дар, ти си из -- вор на жи --
       вот, ти ни из -- пра -- щаш __
-      лъч, __ що "раз-" -- тва -- ря "све-" --
+      лъч, __ що раз -- тва -- ря све --
       жи, неж --   ни лис -- тен
       -- ца. Про -- лет, про -- лет,
-      "пъл-" -- на със "жи-" -- вот, веч  --
+      пъл -- на със жи -- вот, веч  --
       на про --  лет, ти си рай.
       Бо -- жи дар, Бо -- жи дар, сал
       за те -- бе аз жи -- ве -- я.}

@@ -6,7 +6,42 @@
 \bookpart {
   \label #'ref138
   \tocItem \markup "Бащина песен – Угледна мома –  Baština pesen – Ugledna moma "
-  \include "include/bookpart-paper.ily"
+    \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.2\cm
+    bottom-margin = 1.0\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 17)
+       (minimum-distance . 8)
+       (padding . 1)
+       (stretchability . 12))
+  }
+
+  \header {
+    tagline = ##f
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -278,7 +313,7 @@
       Тъй, пъл -- на и ве -- се -- ла,  тя до -- ма се връ -- ща, май -- ка __ си __
       ми -- ло прег -- ръ -- ща. Ху -- ба -- ва __ мо -- ма се, син -- ко, по --
       зна -- ва, __ ко -- га __ ло -- зе ко -- па -- е __ и то __
-      и -- "зо-" -- бил -- но "гроз-" -- де да -- ва. Ло -- зе __ мо -- "мин-" -- ски ръ -- це __
+      и -- зо -- бил -- но гроз -- де да -- ва. Ло -- зе __ мо -- мин -- ски ръ -- це __
       доб -- ре по -- зна -- ва, __ ло -- зе мо -- мин -- ски ръ -- це
       до -- бре по -- зна -- ва, ло -- зе мо -- мин -- ски ръ -- це __
       до -- бре по -- зна -- ва. Ху -- ба -- ва мо -- ма __ се, син -- ко,
@@ -291,15 +326,15 @@
       до -- бре по -- зна -- ва, не -- я жи -- то до -- бре по -- зна -- ва.
       Ху -- ба -- ва мо -- ма се, син -- ко, до -- бре по -- зна -- ва, __
       ко -- га на гум -- но __  жи -- то от -- вя -- ва __ и във ре --
-      ше -- то __ го пре -- ся -- ва, __ "в~жит-" -- "ни-" -- ци го ту -- ря __
-      и на __  бед -- ни хляб да -- ва. __ Не -- я "всич-" -- ки,
+      ше -- то __ го пре -- ся -- ва, __ в~жит -- ни -- ци го ту -- ря __
+      и на __  бед -- ни хляб да -- ва. __ Не -- я всич -- ки,
       мал -- ки и го -- ле -- ми, до -- бре я по -- зна -- ват, __
       не -- я всич -- ки, мал -- ки и го -- ле -- ми, до -- бре
       я по -- зна -- ват. __ Ум -- на мо -- ма, син -- ко, се по --
       зна -- ва, __ ко -- га кни -- га във ръ -- це си взе -- ма __
       и скри -- то бъ -- де -- ще раз -- га -- да -- ва. Тя всич -- ко във жи --
-      во -- та на мяс -- то по -- ста -- вя. "Ху-" -- "ба-" -- ва "мо-" -- ма,
-      "син-" -- ко, е "ро-" -- са, що зе -- мя о -- ро -- ся ва.
+      во -- та на мяс -- то по -- ста -- вя. Ху -- ба -- ва мо -- ма,
+      син -- ко, е ро -- са, що зе -- мя о -- ро -- ся ва.
       Тя е ан -- гел, що от Го -- ре и -- де, при хо -- ра
       сли -- за  и в~до -- ма им мир и ра -- дост вна -- ся.
       Тя е свет -- ла кат зо -- ра -- та, тя е ми -- ла
@@ -318,7 +353,7 @@
       Tăj, păl -- na i ve -- se -- la,  tja do -- ma se vră -- šta, maj -- ka __ si __
       mi -- lo preg -- ră -- šta. Hu -- ba -- va __ mo -- ma se, sin -- ko, po --
       zna -- va, __ ko -- ga __ lo -- ze ko -- pa -- e __ i to __
-      i -- zo -- bil -- no "groz-" -- de da -- va. Lo -- ze __ mo -- min -- ski ră -- ce __
+      i -- zo -- bil -- no groz -- de da -- va. Lo -- ze __ mo -- min -- ski ră -- ce __
       dob -- re po -- zna -- va, __ lo -- ze mo -- min -- ski ră -- ce
       do -- bre po -- zna -- va, lo -- ze mo -- min -- ski ră -- ce __
       do -- bre po -- zna -- va. Hu -- ba -- va mo -- ma __ se, sin -- ko,
@@ -338,8 +373,8 @@
       ja po -- zna -- vat. __ Um -- na mo -- ma, sin -- ko, se po --
       zna -- va, __ ko -- ga kni -- ga văv ră -- ce si vze -- ma __
       i skri -- to bă -- de -- šte raz -- ga -- da -- va. Tja vsič -- ko văv ži --
-      vo -- ta na mjas -- to po -- sta -- vja. "Hu-" -- "ba-" -- va "mo-" -- ma,
-      sin -- ko, e "ro-" -- sa, što ze -- mja o -- ro -- sja va.
+      vo -- ta na mjas -- to po -- sta -- vja. Hu -- ba -- va mo -- ma,
+      sin -- ko, e ro -- sa, što ze -- mja o -- ro -- sja va.
       Tja e an -- gel, što ot Go -- re i -- de, pri ho -- ra
       sli -- za  i v~do -- ma im mir i ra -- dost vna -- sja.
       Tja e svet -- la kat zo -- ra -- ta, tja e mi -- la

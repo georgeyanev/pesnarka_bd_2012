@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Psalm 91" }
 \markup \null
 \markup \abs-fontsize #10 {
-   \hspace #20
+   \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -17,5 +17,5 @@
     \line { " " mein Gott, ich vertraue auf Ihn! }
 
   }
-
+   }
 }

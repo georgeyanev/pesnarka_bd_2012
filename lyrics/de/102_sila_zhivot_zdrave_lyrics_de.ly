@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-  \hspace #15
+      \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column { 
@@ -15,7 +15,7 @@
 
   \line { " "Stütze der Jugend, Stütze der Jugend, sie sind eins. }
      
-      
+  }  
        
     }
     

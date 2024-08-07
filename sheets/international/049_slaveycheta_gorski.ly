@@ -58,13 +58,13 @@
     }
 
     \addlyrics {
-      "1. Ний" сме сла -- вей -- че -- та гор -- ски, с~пес -- ни
+      \set stanza = "1." Ний сме сла -- вей -- че -- та гор -- ски, с~пес -- ни
       сла -- вим Не -- бе -- са -- та, чув -- ства роб -- ски, гри -- жи
       хор -- ски с~пес -- ни го -- ним от Зе -- мя -- та.
     }
 
     \addlyrics {
-      "1. Nij" sme sla -- vej -- če -- ta gor -- ski, s~pes -- ni
+      \set stanza = "1." Nij sme sla -- vej -- če -- ta gor -- ski, s~pes -- ni
       sla -- vim Ne -- be -- sa -- ta, čuv -- stva rob -- ski, gri -- ži
       hor -- ski s~pes -- ni go -- nim ot Ze -- mja -- ta.
     }

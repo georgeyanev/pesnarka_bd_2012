@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-  \hspace #15
+ \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -13,4 +13,5 @@
  \line { " "du erfreust mein Herz, }
   \line { " " du erfreust mein Herz. (* du erfreust meine Seele.)}
   }
+ }
 }

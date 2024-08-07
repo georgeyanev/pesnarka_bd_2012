@@ -5,18 +5,14 @@
 \markup \null
 
 \markup \abs-fontsize #10 {
-   \hspace #27
+    \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { " " Es kommen die Tage der Freude, }
+    \line { " " Es kommen die Tage der Freude, es kommen die Tage der Freude,}
 
-    \line { " " es kommen die Tage der Freude,}
-
-    \line { " " es kommen die Tage der Freude,}
-
-    \line { " " für diejenigen, die Gott dienen. }
+    \line { " " es kommen die Tage der Freude, für diejenigen, die Gott dienen. }
 
   }
-
+  }
 }

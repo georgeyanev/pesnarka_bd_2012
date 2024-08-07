@@ -4,13 +4,10 @@
 \markup \null
 \markup \null
 \markup  \abs-fontsize #10 {
-  \hspace #20
+  \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-
-
-
     \line { 1.  Ohne dich ist Finsternis, ohne dich ist Gram.}
     \line { "   " Oh, göttlicher Strahl, bescheine mich.}
     \line { "   " Trage in mein Herz Freude und Frieden.}
@@ -19,6 +16,6 @@
     \line { "   " und rufe dich als Kind an.}
     \line { "   " Ich glaube immer, dass du}
     \line { "   " über mich mit mütterlicher Liebe wachst.}
-
+  }
   }
 }

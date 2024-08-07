@@ -6,7 +6,42 @@
 \bookpart {
   \label #'ref022
   \tocItem \markup "Изгрява вече ден тържествен – Izgrjava veče den tăržestven"
-  \include "include/bookpart-paper.ily"
+    \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup ""
+    evenHeaderMarkup = \markup ""
+    oddFooterMarkup = \markup
+    \fill-line {
+      ""
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+    }
+    evenFooterMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \fromproperty #'page:page-number-string
+      ""
+    }
+
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1.2\cm
+    bottom-margin = 1.0\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 19)
+       (minimum-distance . 8)
+       (padding . 2)
+       (stretchability . 12))
+  }
+
+  \header {
+    tagline = ##f
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -29,7 +64,7 @@
       f'4. g'8 a'4 \staccato a'4. d'8 | f'4. d'8 f'4 e'2 | \time 2/4 d'4. a8 | \time 5/4 d'4 d'2 r8 \bar "|."
     }
     \addlyrics {
-      "1. Из" -- гря -- ва ве -- че ден тър -- жест -- вен, __ пред -- ре -- че
+       \set stanza = "1." Из -- гря -- ва ве -- че ден тър -- жест -- вен, __ пред -- ре -- че
       -- ни -- ят ден Бо -- жест -- вен, на дни --
       те ди -- а -- де -- ма, със свет -- ли -- на го
       -- ля -- ма. Е -- ла -- те да жи -- ве -- ем във
@@ -41,7 +76,7 @@
       -- мла -- дя -- ва.
     }
     \addlyrics {
-      "1. Iz" -- grja -- va ve -- če den tăr -- žest -- ven, __ pred -- re -- če
+      \set stanza = "1." Iz -- grja -- va ve -- če den tăr -- žest -- ven, __ pred -- re -- če
       -- ni -- jat den Bo -- žest -- ven, na dni --
       te di -- a -- de -- ma, săs svet -- li -- na go
       -- lja -- ma. E -- la -- te da ži -- ve -- em văv

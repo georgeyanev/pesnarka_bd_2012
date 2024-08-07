@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-  \hspace #15
+  \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -19,5 +19,6 @@
   \line { " "Und Gott nannte die Weite Himmel.  }
   \line { " "Und es ward Abend und es ward Morgen, der zweite Tag.}
 
+  }
   }
 }

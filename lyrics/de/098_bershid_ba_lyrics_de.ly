@@ -4,7 +4,7 @@
 \markup \null
 \markup \null
 \markup \abs-fontsize #10 {
-  \hspace #30
+      \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {    
@@ -22,7 +22,7 @@
 
    \line { " " und meine Seele erhob.}
       
-       
+  }   
     }
     
     

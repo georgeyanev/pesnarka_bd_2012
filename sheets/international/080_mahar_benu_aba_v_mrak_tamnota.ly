@@ -78,15 +78,15 @@
 
       \partial 8
 
-      g8  | c'4 \autoBeamOff b16 c' | \autoBeamOn d'4 g8 | es'4 d'8 |  c'4 ( d'32 c' b c'  | \break
+      g8  | c'4 \autoBeamOff b16 c' | \autoBeamOn d'4 g8 | es'4 d'8 |  c'4 ( d'32 c' b c'  | 
 
-      d'4 ) c'8 | c'4 f'8 |  \autoBeamOff f'4 es'16 d' | es'4 f'8 | g'4 as'8 |\break
+      d'4 ) c'8 |\break  c'4 f'8 |  \autoBeamOff f'4 es'16 d' | es'4 f'8 | g'4 as'8 |
 
-      g'4 fis'8 | g'4 as'8 | g'4 f'8 |   \repeat volta 2 {
-        f'4 es'16 d' |  es'4 f'8 | \break
+      g'4 fis'8 | g'4 as'8 | \break g'4 f'8 | \repeat volta 2 {
+        f'4 es'16 d' |  es'4 f'8 | 
 
-        g'4 as'8 | g'4 f'8 | es'4 d'8
-      }  \alternative { { c'4 f'8 } {  c'4. } } \bar "||"  \break  |
+        g'4 as'8 | g'4 f'8 |  es'4 d'8 | \break
+      }  \alternative { { c'4 f'8 } {  c'4. } } \bar "||" | 
 
       c'4 d'8 |  es'4. |  d'4 c'8 | c'4. | b4 b8 | c'4  \bar "|."
     }
@@ -95,7 +95,7 @@
       Във мрак, тъм
       -- но -- та е бил жи -- во -- тът наш, но Слън
       -- це -- то на жи -- во -- та про -- си -- я у
-      нас и ний "тръг-" -- нах -- ме във пъ -- тя чист
+      нас и ний тръг -- нах -- ме във пъ -- тя чист
       и свят за нас, и нас. Свят за нас, свят за
       нас, свят за нас.
     }
@@ -117,10 +117,10 @@
 
   }
 
-  \markup \empty-one
+  \markup \empty-two
   \markup \dc-two "D.C. al Fine „Mahar Benu Aba“" "senza ripetizione"
 
-  \markup \vspace #3
+ \pageBreak
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/080_2_v_mrak_tamnota_lyrics_de.ly"
