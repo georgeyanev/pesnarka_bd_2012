@@ -67,8 +67,10 @@
   \markup { {  \vspace #0.5 } }
   \markup \fontsize  #+3 { \fill-line \bold {"Издателство „Бяло Братство“"} }
 
-  \markup \fontsize  #+2.5 { \fill-line  {"izdatelstvo.bratstvo@gmail.com"} }
-  \markup \fontsize  #+2.5 { \fill-line  {"www.bialobratstvo.bg"} }
+  %\markup \fontsize  #+2.5 { \fill-line  {"izdatelstvo.bratstvo@gmail.com"} }
+  %\markup \fontsize  #+2.5 { \fill-line  {"www.bialobratstvo.bg"} }
+  \markup { {  \vspace #0.5 } }
+   \markup \fontsize  #+2.5 { \fill-line  {"www.beinsasongs.eu"} }
   \markup { {  \vspace #0.5 } }
   \markup \fontsize  #+2.5 { \fill-line {"София 2024"} }
   \markup { {  \vspace #2.5 } }
