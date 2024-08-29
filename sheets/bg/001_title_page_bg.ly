@@ -32,7 +32,7 @@
 
   }
 
-  \markup {  \vspace #2.5 }
+  \markup {  \vspace #2 }
 
 
 
@@ -68,14 +68,14 @@
     }
   }
    
-  % \markup \fontsize  #+2  { {  \vspace #.5 } }
-  % \markup \fontsize  #+3.5 {\hspace #25 {"Издадени от"} }
-  % \markup \fontsize  #+2  { {  \vspace #0.1 } }
-  % \markup \fontsize  #+2.5 { \hspace #25 {"Петър Ганев" \concat { \raise #-0.9 \fontsize #6 "·" } "Мария Кирева" } }
+  \markup \fontsize  #+2  { {  \vspace #.5 } }
+  \markup \fontsize  #+3.5 {\hspace #25 {"Издадени от"} }
+  \markup \fontsize  #+2  { {  \vspace #0.1 } }
+  \markup \fontsize  #+2.5 { \hspace #25 {"Петър Ганев" \concat { \raise #-0.9 \fontsize #6 "·" } "Мария Кирева" } }
 
 
 
-  \markup \fontsize  #+2  { {  \vspace #12 } }
+  \markup \fontsize  #+2  { {  \vspace #10.5 } }
 
   \markup \fontsize  #+3.5 {\hspace #25 {"Издателство „Бяло Братство“ "} }
   \markup \fontsize  #+2.5  { {  \vspace #0.5 } }
