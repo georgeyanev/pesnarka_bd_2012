@@ -41,13 +41,11 @@
   \markup { {  \vspace #0.1 } }
   \markup \fontsize  #+2.5 { \fill-line \italic {"Четвърто преработено и допълнено издание"} }
 
-  \markup { {  \vspace #2.5 } }
+  \markup { {  \vspace #3.0 } }
 
-  \markup \fontsize  #+4.0 { \fill-line \bold {"Главен редактор" }}
-  \markup \fontsize  #+3.5 { \fill-line {"Петър Ганев" } }
+  \markup \fontsize  #+4.0 { \fill-line \bold {"Редактори" }}
+ \markup \fontsize  #+3.5 { \hspace #20 {"Петър Ганев" \concat { \raise #-0.9 \fontsize #6 "·" } "Мария Кирева" } }
   \markup { {  \vspace #0.1 } }
-  \markup \fontsize  #+4.0 { \fill-line \bold {"Редактор" }}
-  \markup \fontsize  #+3.5 { \fill-line {"Мария Кирева" } }
   %\markup \fontsize  #+3.5 { \fill-line {"" } }
   \markup { {  \vspace #2.5 } }
   \markup \fontsize  #+3 { \fill-line \bold {"Консултанти"} }

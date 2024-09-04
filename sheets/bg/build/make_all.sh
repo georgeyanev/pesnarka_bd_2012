@@ -164,7 +164,6 @@ cat \
     ../220_alpha_description.ly \
     ../221_dictionary_bg.ly \
     ../245_index_bg.ly \
-    ../222.anotation_bg.ly \
     > tmp.ly
 
 lilypond --include=../ -o danov_songbook_bg tmp.ly

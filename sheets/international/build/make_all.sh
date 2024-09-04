@@ -187,3 +187,5 @@ cat \
     > tmp.ly
 
 lilypond --include=../ -o danov_songbook_int tmp.ly
+rm -f *.midi
+rm -f tmp.ly
