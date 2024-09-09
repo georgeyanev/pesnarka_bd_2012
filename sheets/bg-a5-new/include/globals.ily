@@ -26,7 +26,7 @@ tempoFunc = #(define-music-function
                   % make tempo note smaller
                   \concat {
                     #tName \normal-text { " (" }
-                    \teeny \general-align #Y #DOWN \note #tNote #0.9
+                    \teeny \general-align #Y #DOWN \note #tNote #1
                     \normal-text { " = " }
                     \normal-text { #tNumber  }
                     \normal-text { ")" }
