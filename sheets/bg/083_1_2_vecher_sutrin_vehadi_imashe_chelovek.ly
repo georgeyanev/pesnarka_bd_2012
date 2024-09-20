@@ -203,7 +203,7 @@
 
         g'8 g' c''4 ( es'' d'' ) \tupletUp c''4 \tuplet 3/2 { b'8 ([ c''] ) d''8 } c''2  \tupletNeutral \bar "!" \break
 
-        bes'4 as' g'4. g'8 c''4 bes' as' as' as'8 as' bes' c'' g'2 \bar"!" \break
+        bes'?4 as' g'4. g'8 c''4 bes' as' as' as'8 as' bes' c'' g'2 \bar"!" \break
 
         as'4 bes' c''2 d''4 c'' bes' c'' g'2.  \bar"!" \break
 
@@ -221,19 +221,19 @@
 
         g'4 as' f'4 f' f' es'8. f'16 g'2 \bar"!" g'4 as' f'4 f' es'8. f'16 g'2 \bar"!" \break
 
-        g'4 c'' bes' as'8. bes'16 g'2 \bar"!" g'4 es''8. es''16 d''4 c'' bes' as'8 g' f'2 es'2. \bar"!" \break
+        g'4 c'' bes'? as'8. bes'16 g'2 \bar"!" g'4 es''8. es''16 d''4 c'' bes' as'8 g' f'2 es'2. \bar"!" \break
 
         es'2 d'4 c' b! c'8. c'16 d'4 c'2 \bar"!" \break
 
         es'8. es'16 f'4 g' as'4 g' fis' g'8. g'16 \noBeam as'4 g'2  \bar"!" \break
 
-        g'4 c''2 \bar"!" b'4  as'4 g' f' es' d'4 es' d' c'  \times 2/3  {
+        g'4 c''2 \bar"!" b'4  as'4 g' f'? es' d'4 es' d' c'  \times 2/3  {
           b!4 ( c'4 d' )
         } c'2  \bar"!" \break
 
         es'4 es'2 c'4 d'4 es' c'2  \bar"!" f'4 as' g'  fis'4 g' as' g'2  \bar"!" \break
 
-        g'4 c'' b'! c'' d'' es''4 c''2 \bar"!" g'4 bes' as' g' f' es'd'4 ( es' ) c'1 \bar "|."
+        g'4 c'' b'! c'' d'' es''4 c''2 \bar"!" g'4 bes'? as' g' f'? es'd'4 ( es' ) c'1 \bar "|."
 
       }
 

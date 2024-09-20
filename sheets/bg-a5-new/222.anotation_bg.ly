@@ -41,35 +41,38 @@
   \markup { {  \vspace #0.1 } }
   \markup \fontsize  #+2.5 { \fill-line \italic {"Четвърто преработено и допълнено издание"} }
 
-  \markup { {  \vspace #2.5 } }
+  \markup { {  \vspace #3.0 } }
 
-  \markup \fontsize  #+4.0 { \fill-line \bold {"Главен редактор" }}
-  \markup \fontsize  #+3.5 { \fill-line {"Петър Ганев" } }
+  \markup \fontsize  #+4.0 { \fill-line \bold {"Редактори" }}
+ \markup \fontsize  #+3.5 { \hspace #25 {"Петър Ганев" \concat { \raise #-0.9 \fontsize #6 "·" } "Мария Кирева" } }
   \markup { {  \vspace #0.1 } }
-  \markup \fontsize  #+4.0 { \fill-line \bold {"Редактор" }}
-  \markup \fontsize  #+3.5 { \fill-line {"Мария Кирева" } }
   %\markup \fontsize  #+3.5 { \fill-line {"" } }
   \markup { {  \vspace #2.5 } }
   \markup \fontsize  #+3 { \fill-line \bold {"Консултанти"} }
   \markup \fontsize  #+2.5 { \fill-line  {"Иоана Стратева, Иво Бонев, Надежда Атанасова"} }
   \markup { {  \vspace #0.5 } }
+  \markup \fontsize  #+3 { \fill-line \bold {"Набор на нотния текст и дизайн"} }
+  \markup \fontsize  #+2.5 { \fill-line  {"Мария Кирева, Георги Янев"} }
+  \markup { {  \vspace #0.5 } }
   \markup \fontsize  #+3 { \fill-line \bold {"Коректор на нотния текст"} }
   \markup \fontsize  #+2.5 { \fill-line  {"Райнхард Риддер"} }
   \markup { {  \vspace #0.5 } }
-  \markup \fontsize  #+3 { \fill-line \bold {"Набор на нотния текст и дизайн"} }
-  \markup \fontsize  #+2.5 { \fill-line  {"Мария Кирева, Георги Янев"} }
+  \markup \fontsize  #+3 { \fill-line \bold {"Коректор на лиричния текст"} }
+  \markup \fontsize  #+2.5 { \fill-line  {"Стела Рускова"} }
   \markup { {  \vspace #0.5 } }
   \markup \fontsize  #+3 { \fill-line \bold {"Дизайн на корицата"} }
   \markup \fontsize  #+2.5 { \fill-line  {"Стоил Вътев"} }
   \markup { {  \vspace #0.5 } }
   \markup \fontsize  #+3 { \fill-line \bold {"Издателство „Бяло Братство“"} }
 
-  \markup \fontsize  #+2.5 { \fill-line  {"izdatelstvo.bratstvo@gmail.com"} }
-  \markup \fontsize  #+2.5 { \fill-line  {"www.bialobratstvo.bg"} }
+  %\markup \fontsize  #+2.5 { \fill-line  {"izdatelstvo.bratstvo@gmail.com"} }
+  %\markup \fontsize  #+2.5 { \fill-line  {"www.bialobratstvo.bg"} }
+  \markup { {  \vspace #0.5 } }
+   \markup \fontsize  #+2.5 { \fill-line  {"www.beinsasongs.eu"} }
   \markup { {  \vspace #0.5 } }
   \markup \fontsize  #+2.5 { \fill-line {"София 2024"} }
   \markup { {  \vspace #2.5 } }
-  \markup \fontsize  #+2.5 { \fill-line  {"ISMN 979-0-9016674-5-7"}}
+  \markup \fontsize  #+2.5 { \fill-line {"ISMN 979-0-9016674-5-7"}}
 
 
 
