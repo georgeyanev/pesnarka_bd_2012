@@ -1,6 +1,6 @@
 \version "2.24.4"
 
-#(set-global-staff-size 15)
+#(set-global-staff-size 16)
 
 \paper {
   #(set-paper-size "a5")
@@ -42,7 +42,7 @@ titleFunc = #(define-scheme-function
               (descPageRef cyrTitle latTitle)
               (symbol? string? string?)
               #{
-                \markup \column \normal-text \abs-fontsize #17 {
+                \markup \column \normal-text \abs-fontsize #18 {
                   \center-align
                   \line { \with-link #descPageRef #cyrTitle }
                   \vspace #-0.8

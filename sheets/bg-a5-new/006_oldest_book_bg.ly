@@ -31,7 +31,7 @@
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
   }
 
-  \markup \abs-fontsize #11  { {  \vspace #10.5 } }
+  \markup \abs-fontsize #11  { {  \vspace #8.5 } }
 
   \markup \abs-fontsize #11 { \vspace #19.5 \italic{Когато природата се обновява, птичките пеят.}}
 

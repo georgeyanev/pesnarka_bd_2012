@@ -33,7 +33,7 @@
   }
 
   \tocItem \markup "Предговор към първото издание"
-  \markup \fontsize  #+3.0 { \fill-line \bold {"ПРЕДГОВОР КЪМ ПЪРВОТО ИЗДАНИЕ"} }
+  \markup \fontsize  #+4.5 { \fill-line \bold {"Предговор към първото издание"} }
 
   \markup \abs-fontsize #11 {
     \vspace #1.5 \override #'(baseline-skip . 3.4)
@@ -45,22 +45,21 @@
     }
   }
   \markup \abs-fontsize #11 {
-    \vspace #0.9  \override #'(baseline-skip . 3.4)
+   \vspace #0.8 \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
 
       Предлаганото издание е съставено от два раздела. Първият от тях, озаглавен \italic"Братски песни," съдържа произведения,
       които бяха дадени и имаха широка популярност преди още Учителя да открие
       окултната школа, в която по-късно добави и окултните упражнения,
-      съставящи втората част от сборника – \italic"Песни" \italic"от" \italic"Учителя." Тези
-      последни упражнения са родени по време на лекциите на Учителя,
+      съставящи втората част от сборника – \italic"Песни" \italic"от" \italic"Учителя." Тези последни упра- жнения са родени по време на лекциите на Учителя,
       когато той опитваше въздействието на една нова, непозната
       дотогава музика върху съзнанието на своите ученици.
     }
   }
 
   \markup \abs-fontsize #11 {
-    \vspace #0.9  \override #'(baseline-skip . 3.4)
+   \vspace #0.8 \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
       И в първия раздел има много песни, също дадени от Учителя,
@@ -75,7 +74,7 @@
     }
   }
   \markup \abs-fontsize #11 {
-    \vspace #0.9  \override #'(baseline-skip . 3.4)
+   \vspace #0.8 \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
 
@@ -87,51 +86,47 @@
       се свързват със Словото така, че изразяват неговата музикална
       еднозначност. Всички те са дадени от Учителя. Само някои от
       тях, при които това е отбелязано, са създадени в сътрудничество
-      с ученици музиканти. Песните имат духовно превъзпитателно
+      с ученици музиканти. Песните имат духовно пре- възпитателно
       значение. Те внасят в съзнанието нов елемент и вграждат в
       човешката душа нова стойност.
     }
   }
   \markup \abs-fontsize #11 {
-    \vspace #0.9  \override #'(baseline-skip . 3.4)
+   \vspace #0.8 \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
 
 
       Който познава дълбокия смисъл на Словото, лесно ще си обясни
-      как то може да се превърне в песен и магия – с власт да преобразява човека, като разширява хоризонта на мисълта, дава живителна топлина на чувствата и могъщ размах на творческата воля.
+      как то може да се превърне в песен и магия – с власт да преобразява човека, ка-
+
+    }
+  }
+
+    \markup \abs-fontsize #11 {
+   \vspace #0.8 \override #'(baseline-skip . 3.4)
+    \justify {
+  
+
+
+      то разширява хоризонта на мисълта, дава живителна топлина на чув- ствата и могъщ размах на творческата воля.
 
     }
   }
 
   \markup \abs-fontsize #11 {
-    \vspace #0.9  \override #'(baseline-skip . 3.4)
+   \vspace #0.8 \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
       В Школата на Бялото Братство музиката е едно от най-могъщите средства за духовна работа.
-      Затова всяко от предлаганите упражнения
-    }
-  }
-
-
-
-  \markup \abs-fontsize #11 {
-    \vspace #0.9  \override #'(baseline-skip . 3.4)
-    \justify {
-
-
-
-
-
-
-      със своята мелодия и ритъм оказва въздействие върху
+      Затова всяко от предлаганите упражнения със своята мелодия и ритъм оказва въздействие върху
       слушателя. То докосва определени струни в душата и поощрява
       духовната дейност в определена посока.
     }
   }
 
   \markup \abs-fontsize #11 {
-    \vspace #0.9  \override #'(baseline-skip . 3.4)
+   \vspace #0.8 \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
       Както всичко, което Учителя дава в работата си със своите
@@ -144,7 +139,7 @@
   }
 
   \markup \abs-fontsize #11 {
-    \vspace #0.9  \override #'(baseline-skip . 3.4)
+   \vspace #0.8 \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
 
@@ -156,7 +151,7 @@
   }
 
   \markup \abs-fontsize #11 {
-    \vspace #0.9  \override #'(baseline-skip . 3.4)
+   \vspace #0.9 \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
       Четците и любителите на тоя вид музика, присъствали при
@@ -171,7 +166,7 @@
   }
 
   \markup \abs-fontsize #11 {
-    \vspace #0.9  \override #'(baseline-skip . 3.4)
+   \vspace #0.8 \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
 
@@ -186,7 +181,7 @@
 
 
 
-  \markup \fontsize #+3 \raise #0 \override #'(baseline-skip . 3.4) {
+  \markup \abs-fontsize #11 \raise #0 \override #'(baseline-skip . 3.4) {
     \column {
       \line {"  "}
       \line {"  "}
