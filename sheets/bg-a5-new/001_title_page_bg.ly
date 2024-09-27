@@ -71,11 +71,11 @@
   \markup \fontsize  #+2  { {  \vspace #.5 } }
   \markup \fontsize  #+2.5 {\hspace #30 {"Издадени от"} }
   \markup \fontsize  #+2  { {  \vspace #0.1 } }
-  \markup \fontsize  #+1.5 { \hspace #30 {"Петър Ганев" \concat { \raise #-0.9 \fontsize #6 "·" } "Мария Кирева" } }
+  \markup \fontsize  #+1.5 { \hspace #30 {"Петър Ганев" \concat { \raise #-1.3 \fontsize #6 "·" } "Мария Кирева" } }
 
 
 
-  \markup \fontsize  #+2  { {  \vspace #15 } }
+  \markup \fontsize  #+2  { {  \vspace #17 } }
 
   \markup \fontsize  #+3 {\hspace #30 {"Издателство „Домисол“ "} }
   \markup \fontsize  #+2.5  { {  \vspace #0.5 } }
@@ -83,10 +83,12 @@
     \hspace #-1
     \fill-line
     \general-align #Y #DOWN {
-      \epsfile #X #7 #"../../img/logo_large.eps"
+      \epsfile #X #16 #"../../img/domisol.eps"
     }
-    \hspace #0.1
+    \hspace #0.5
   }
+
+  
 
 
 

@@ -29,18 +29,18 @@
     bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
 
-    tocTitleMarkup = \markup \fontsize  #+7 \bold \column {
+    tocTitleMarkup = \markup \abs-fontsize #17.5 \column {
       \fill-line { \null "Съдържание" \null }
        \vspace #1.5
     }
 
-    tocItemMarkup = \markup    \abs-fontsize #11 { \vspace #1 \fill-line {
+    tocItemMarkup = \markup  \abs-fontsize #11 { \vspace #1.1 \fill-line {
       \fromproperty #'toc:text \tocItemWithDotsMarkup \fromproperty #'toc:page
     } }
 
     tocActMarkup = \markup \large \column {
-      \vspace #0.9
-      \fill-line { \null \abs-fontsize #14 \bold \fromproperty #'toc:text \null }
+      \vspace #1
+      \fill-line { \null \abs-fontsize #14 \fromproperty #'toc:text \null }
       \vspace #0.9
     }
   }

@@ -13,7 +13,7 @@
     \translate #'(0 . -10 )
     \right-brace #45
 
-    \translate #'(0 . -14.9 )
+    \translate #'(0 . -10.2 )
     \right-brace #18
 
 
@@ -27,7 +27,7 @@
     \translate #'(0 . -12.2 )
     2
 
-    \translate #'(0 . -18.9 )
+    \translate #'(0 . -14.3 )
     2
   }
 }
@@ -68,7 +68,7 @@
         {  f'2. (|  f'4 )  r4 f'4 | f'2 f'4 | f'4 ( e'4 ) f'4 | g'2 f'4 |e'2. (| e'4 ) r4 g'4   \break }
         {
           f'2. (|  f'4 ) r4 g'4 | g'2 g'4 | a'2
-          \override Score.RehearsalMark.outside-staff-priority = #599
+          % \override Score.RehearsalMark.outside-staff-priority = #99
           \tempo"rit."  % places rit. below alternative bracket
           a'4 | b'2 b'4 | c''2. ~ | c''2  \bar "|." \pageBreak
         }
@@ -95,35 +95,86 @@
   } % score
 
 
+  % \markup \abs-fontsize #11 {
+  %   \hspace #25
+  %   \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
+  %   \column {
+
+  %     \line { 2. И който чуе, в миг потръпва }
+  %     \line {   "   " от тоя благ и мил напев; }
+  %     \line {   "   " и просиява, и възкръсва, }
+  %     \line {   "   " и благославя тоз посев. }
+  %     \line { " " }
+  %     \line { "   " \italic {Припев: } }
+  %     \line {  "   " Безценен дар е Любовта, }
+  %     \line { "   " красиво чувство – обичта }
+  %     \line { "   " и благо дело – милостта, }
+  %     \line {  "   " обилен извор – Мъдростта.}
+
+  %     \line { " " }
+  %     \line { "   " \italic {Припев ...} }
+
+  %     \line { " " }
+  %     \line { 3. Любов Вселената облива, }
+  %     \line {   "   " от обич грее всяка твар; }
+  %     \line {   "   " живот в живота се прелива, }
+  %     \line {   "   " тук няма вече млад и стар. }
+  %     \line { " " }
+  %     \line { "   " \italic {Припев ...} }
+  %   }
+  %   \"rightBraces018"
+  % }
+
+  \markup \vspace #0.8
+
   \markup \abs-fontsize #11 {
-    \hspace #25
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
-    \column {
+    \fill-line {
+      % moves the column off the left margin;
+      % can be removed if space on the page is tight
+      % \hspace #0.1
+      \column {
+        \line {
+          \bold "2."
+          \column {
+            "И който чуе, в миг потръпва"
+            "от тоя благ и мил напев;"
+            "и просиява, и възкръсва,"
+            "и благославя тоз посев."
+          }
+        }
+        % adds vertical spacing between verses
+        \vspace #1
+        \line{ \italic"    Припев:"}
+        %\vspace #0.3
+        \line {
+          "   "
+          \column {
+            "Безценен дар е Любовта,"
+            "красиво чувство – обичта"
+            "и благо дело – милостта,"
+            "обилен извор – Мъдростта."
+          }
+        }
+        \vspace #1
+        \line {
+          \bold "3."
+          \column {
+            "Любов Вселената облива,"
+            "от обич грее всяка твар;"
+            "живот в живота се прелива,"
+            "тук няма вече млад и стар."
 
-      \line { 2. И който чуе, в миг потръпва }
-      \line {   "   " от тоя благ и мил напев; }
-      \line {   "   " и просиява, и възкръсва, }
-      \line {   "   " и благославя тоз посев. }
-      \line { " " }
-      \line { "   " \italic {Припев: } }
-      \line {  "   " Безценен дар е Любовта, }
-      \line { "   " красиво чувство – обичта }
-      \line { "   " и благо дело – милостта, }
-      \line {  "   " обилен извор – Мъдростта.}
-
-      \line { " " }
-      \line { "   " \italic {Припев ...} }
-
-      \line { " " }
-      \line { 3. Любов Вселената облива, }
-      \line {   "   " от обич грее всяка твар; }
-      \line {   "   " живот в живота се прелива, }
-      \line {   "   " тук няма вече млад и стар. }
-      \line { " " }
-      \line { "   " \italic {Припев ...} }
-    }
-    \"rightBraces018"
+          }
+        }
+        \vspace #1
+        \line {
+          \bold " "
+          \column {
+            \italic "  Припев ..."
+          }
+        }
+      }  
+    } \"rightBraces018"
   }
-
 
 } % bookpart

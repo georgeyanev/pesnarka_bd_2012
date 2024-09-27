@@ -4,36 +4,55 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \paper {
-    print-all-headers = ##f
-    print-page-number = ##t
-    print-first-page-number = ##f
+ \paper {
+  print-all-headers = ##t
+  print-page-number = ##t
+  print-first-page-number = ##f
+  page-number-type = #'roman-upper
 
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
+
+  % put page numbers on the bottom
+  oddHeaderMarkup = \markup {
+
     \fill-line {
-      ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
+      """"
+      \if \should-print-page-number  \abs-fontsize #9 {
+        \fromproperty #'page:page-number-string
+
+      }
     }
-    evenFooterMarkup = \markup
+  }
+  evenHeaderMarkup = \markup {
+
     \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-      ""
+      \if \should-print-page-number \abs-fontsize #9 {
+         \fromproperty #'page:page-number-string
+        ""
+      }
     }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-
   }
 
+  oddFooterMarkup = \markup ""
+
+  evenFooterMarkup = ""
+  left-margin = 1.5\cm
+  right-margin = 1.5\cm
+  top-margin = 1\cm
+  bottom-margin = 1.2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+  top-markup-spacing.basic-distance = 8\mm
+  top-system-spacing.basic-distance = 10\mm
+
+  % change distance between staves
+  system-system-spacing =
+  #'((basic-distance . 16)
+     (minimum-distance . 6)
+     (padding . 1)
+     (stretchability . 12))
+}
+
   \tocItem \markup "Предговор към второто издание"
-  \markup \fontsize  #+4.5 { \fill-line \bold {"Предговор към второто издание"} }
+  \markup \abs-fontsize #15  { \fill-line {"Предговор към второто издание"} }
 
   \markup \abs-fontsize #11 {
     \vspace #1.5  \override #'(baseline-skip . 3.4)

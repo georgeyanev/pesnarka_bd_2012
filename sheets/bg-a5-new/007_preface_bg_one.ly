@@ -4,36 +4,55 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \paper {
-    print-all-headers = ##f
-    print-page-number = ##t
-    print-first-page-number = ##f
+ \paper {
+  print-all-headers = ##t
+  print-page-number = ##t
+  print-first-page-number = ##f
+  page-number-type = #'roman-upper
 
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
+
+  % put page numbers on the bottom
+  oddHeaderMarkup = \markup {
+
     \fill-line {
-      ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
+      """"
+      \if \should-print-page-number  \abs-fontsize #9 {
+        \fromproperty #'page:page-number-string
+
+      }
     }
-    evenFooterMarkup = \markup
+  }
+  evenHeaderMarkup = \markup {
+
     \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-      ""
+      \if \should-print-page-number \abs-fontsize #9 {
+         \fromproperty #'page:page-number-string
+        ""
+      }
     }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-
   }
 
+  oddFooterMarkup = \markup ""
+
+  evenFooterMarkup = ""
+  left-margin = 1.5\cm
+  right-margin = 1.5\cm
+  top-margin = 1\cm
+  bottom-margin = 1.2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+  top-markup-spacing.basic-distance = 8\mm
+  top-system-spacing.basic-distance = 10\mm
+
+  % change distance between staves
+  system-system-spacing =
+  #'((basic-distance . 16)
+     (minimum-distance . 6)
+     (padding . 1)
+     (stretchability . 12))
+}
+
   \tocItem \markup "Предговор към първото издание"
-  \markup \fontsize  #+4.5 { \fill-line \bold {"Предговор към първото издание"} }
+  \markup \abs-fontsize #15  { \fill-line {"Предговор към първото издание"} }
 
   \markup \abs-fontsize #11 {
     \vspace #1.5 \override #'(baseline-skip . 3.4)
@@ -45,7 +64,7 @@
     }
   }
   \markup \abs-fontsize #11 {
-   \vspace #0.8 \override #'(baseline-skip . 3.4)
+   \vspace #0.9 \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
 
@@ -59,7 +78,7 @@
   }
 
   \markup \abs-fontsize #11 {
-   \vspace #0.8 \override #'(baseline-skip . 3.4)
+   \vspace #0.9 \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
       И в първия раздел има много песни, също дадени от Учителя,
@@ -74,7 +93,7 @@
     }
   }
   \markup \abs-fontsize #11 {
-   \vspace #0.8 \override #'(baseline-skip . 3.4)
+   \vspace #0.9 \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
 
@@ -92,30 +111,21 @@
     }
   }
   \markup \abs-fontsize #11 {
-   \vspace #0.8 \override #'(baseline-skip . 3.4)
+   \vspace #0.9 \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
 
 
       Който познава дълбокия смисъл на Словото, лесно ще си обясни
-      как то може да се превърне в песен и магия – с власт да преобразява човека, ка-
+      как то може да се превърне в песен и магия – с власт да преобразява човека, като разширява хоризонта на мисълта, дава живителна топлина на чув- ствата и могъщ размах на творческата воля.
 
     }
   }
 
-    \markup \abs-fontsize #11 {
-   \vspace #0.8 \override #'(baseline-skip . 3.4)
-    \justify {
   
 
-
-      то разширява хоризонта на мисълта, дава живителна топлина на чув- ствата и могъщ размах на творческата воля.
-
-    }
-  }
-
   \markup \abs-fontsize #11 {
-   \vspace #0.8 \override #'(baseline-skip . 3.4)
+   \vspace #0.9 \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
       В Школата на Бялото Братство музиката е едно от най-могъщите средства за духовна работа.
@@ -126,7 +136,7 @@
   }
 
   \markup \abs-fontsize #11 {
-   \vspace #0.8 \override #'(baseline-skip . 3.4)
+   \vspace #0.9 \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
       Както всичко, което Учителя дава в работата си със своите
@@ -139,7 +149,7 @@
   }
 
   \markup \abs-fontsize #11 {
-   \vspace #0.8 \override #'(baseline-skip . 3.4)
+   \vspace #0.9 \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
 
@@ -166,7 +176,7 @@
   }
 
   \markup \abs-fontsize #11 {
-   \vspace #0.8 \override #'(baseline-skip . 3.4)
+   \vspace #0.9 \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
 
@@ -184,8 +194,6 @@
   \markup \abs-fontsize #11 \raise #0 \override #'(baseline-skip . 3.4) {
     \column {
       \line {"  "}
-      \line {"  "}
-
       \fill-line { "" ""  \italic {"София, 1949 г.  "} }
     }
   }

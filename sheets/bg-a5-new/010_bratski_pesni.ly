@@ -32,9 +32,9 @@
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
   }
 
-  \markup { {  \vspace #15 } }
+  \markup { {  \vspace #18 } }
 
-  \markup \abs-fontsize #20 { \fill-line \bold {"Братски песни"} }
+  \markup \abs-fontsize #21 { \fill-line {"Братски песни"} }
 
   % include foreign translation(s) of the song
   %

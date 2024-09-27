@@ -5,33 +5,53 @@
 
 \bookpart {
   \paper {
-    print-all-headers = ##f
+    print-all-headers = ##t
     print-page-number = ##t
     print-first-page-number = ##f
+    page-number-type = #'roman-upper
+
 
     % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
+    oddHeaderMarkup = \markup {
+
+      \fill-line {
+        """"
+        \if \should-print-page-number  \abs-fontsize #9 {
+          \fromproperty #'page:page-number-string
+
+        }
+      }
     }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-      ""
+    evenHeaderMarkup = \markup {
+
+      \fill-line {
+        \if \should-print-page-number \abs-fontsize #9 {
+          \fromproperty #'page:page-number-string
+          ""
+        }
+      }
     }
 
+    oddFooterMarkup = \markup ""
+
+    evenFooterMarkup = ""
     left-margin = 1.5\cm
     right-margin = 1.5\cm
-    top-margin = 1.6\cm
+    top-margin = 1\cm
     bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-  }
+    top-markup-spacing.basic-distance = 8\mm
+    top-system-spacing.basic-distance = 10\mm
 
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 16)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
   \tocItem \markup "Предговор към третото издание"
-  \markup \fontsize  #+4.5 { \fill-line \bold {"Предговор към третото издание"} }
+  \markup \abs-fontsize #15  { \fill-line {"Предговор към третото издание"} }
 
   \markup \abs-fontsize #11 {
     \vspace #1.5  \override #'(baseline-skip . 3.4)
@@ -44,7 +64,7 @@
     }
   }
   \markup \abs-fontsize #11 {
-    \vspace #0.9  \override #'(baseline-skip . 3.4)
+    \vspace #0.9 \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
       Известно е, че Учителя Петър Дънов никога не е записвал
@@ -54,13 +74,13 @@
       е присъствал музикант, той е записвал упражнението като нотен
       текст. Днешните поколения са признателни на всички музиканти,
       свършили тази толкова отговорна работа. Сред тях са проф. Асен
-      Арнаудов, Боян Икономов, Лиляна-Цветана Табакова, Мария
-      Тодорова, Матей Калудов, Христо Дързев и други. За съжаление
+      Арнаудов, Боян Икономов, Мария
+      Тодорова, Лиляна-Цветана Табакова, Матей Калудов, Христо Дързев и други. За съжаление
       много песни и мелодии са останали незаписани.
     }
   }
   \markup \abs-fontsize #11 {
-    \vspace #0.9  \override #'(baseline-skip . 3.4)
+    \vspace #0.9 \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
       В нотописа на първото цялостно издание на песните на
@@ -73,7 +93,7 @@
     }
   }
   \markup \abs-fontsize #11 {
-    \vspace #0.9  \override #'(baseline-skip . 3.4)
+    \vspace #0.9 \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
       Ако сборникът на Мария Тодорова се сравни с предишното
@@ -90,7 +110,7 @@
   }
 
   \markup \abs-fontsize #11 {
-    \vspace #0.9  \override #'(baseline-skip . 3.4)
+    \vspace #0.9 \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
 
@@ -99,39 +119,28 @@
       издателства, установени в правилата на музикалната теория. Това
       в най-голяма степен се отнася до логическите акценти в поетичния
       и музикалния текст, разпределени синхронно в дадения размер на
-      песента. Друг важен
-    }
-  }
-
-    \markup \abs-fontsize #11 {
-    \vspace #0.9  \override #'(baseline-skip . 3.4)
-    \justify {
-    
-
-     е хармоничният строеж на мелодията,
+      песента. Друг важен е хармоничният строеж на мелодията,
       чиито посоки оформят музика- лните образи.
     }
   }
 
   \markup \abs-fontsize #11 {
-    \vspace #0.9  \override #'(baseline-skip . 3.4)
+    \vspace #0.9 \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
       Целта на редакторската работа е оптимално да съхрани
       музикалния и словесен текст, разполагайки го логично в съответни размери, съобразе-
-
     }
   }
 
 
   \markup \abs-fontsize #11 {
-    \vspace #0.9  \override #'(baseline-skip . 3.4)
+    \vspace #0.9 \override #'(baseline-skip . 3.4)
     \justify {
 
-
       ни с хармоничния строеж на мелодията. Според
-      нас подборът на тоналностите при Учителя не е случаен. Той изразява връзката между цветове, тонове, планети и числа и всеки опит
-      за по-удобно транспониране отнема нещо от цвета на звученето.
+      нас подборът на тонал- ностите при Учителя не е случаен. Той изразява връзката между цветове, тонове, планети и числа и всеки опит
+      за по-удобно транс- пониране отнема нещо от цвета на звученето.
       От чисто историческа гледна точка, пръв Филип Стоицев
       сложи начало на редакторските бележки и обсъждания. По-късно
       един голям екип, в който участваха Георги Стратев, Иоана
@@ -155,6 +164,7 @@
     \column {
       \line {"  "}
       \line {"  "}
+
       \fill-line { "" ""  \italic {"Петър Ганев     "} }
       \fill-line { "" ""  \italic {"София, 2006 г.   "} }
     }

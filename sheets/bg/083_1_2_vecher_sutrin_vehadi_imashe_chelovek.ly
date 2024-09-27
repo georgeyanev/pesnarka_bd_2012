@@ -197,7 +197,7 @@
         \tempoFunc "Andante" 4 "66"
 
         \autoBeamOff
-        g'4  g' ( ~ g'8 \times 2/3  { fis'16 [g'16 as'] } g'8 [ fis'!] ) g'1 f'4 es' d'8 c' es' d'
+        g'4  g' ( ~ g'8 \times 2/3  { fis'16 [g'16 as'] } g'8 [ fis'] ) g'1 f'4 es' d'8 c' es' d'
 
         c'4  \times 2/3  { b8 ( [c' d'8] )  } c'2 \bar"!" \break
 
