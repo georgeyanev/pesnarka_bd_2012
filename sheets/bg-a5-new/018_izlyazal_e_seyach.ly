@@ -3,31 +3,44 @@
 % include paper part and global functions
 \include "include/globals.ily"
 
-"rightBraces018" = \markup {
+"rightBraces018a" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -5.6 )
-    \right-brace #18
-
-
-    \translate #'(0 . -10 )
-    \right-brace #45
-
-    \translate #'(0 . -10.2 )
-    \right-brace #18
-
-
+    \translate #'(0 . -9.7 )
+    \right-brace #22
 
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -6.2 )
+    \translate #'(0 . -10.9 )
     2
+  }
+}
 
-    \translate #'(0 . -12.2 )
+"rightBraces018b" = \markup {
+  \column {
+    % repeat braces
+    \translate #'(0 . -5.4 )
+    \right-brace #52
+
+  }
+  \column {
+    % repeat numbers
+    \translate #'(0 . -5.8 )
     2
+  }
+}
 
-    \translate #'(0 . -14.3 )
+"rightBraces018c" = \markup {
+  \column {
+    % repeat braces
+    \translate #'(0 . -9.7 )
+    \right-brace #22
+
+  }
+  \column {
+    % repeat numbers
+    \translate #'(0 . -11.2 )
     2
   }
 }
@@ -69,14 +82,15 @@
         {
           f'2. (|  f'4 ) r4 g'4 | g'2 g'4 | a'2
           % \override Score.RehearsalMark.outside-staff-priority = #99
+           \override Score.MetronomeMark.outside-staff-priority = #99
           \tempo"rit."  % places rit. below alternative bracket
-          a'4 | b'2 b'4 | c''2. ~ | c''2  \bar "|." \pageBreak
+          a'4 | b'2 b'4 | c''2. ~ | c''2  \bar "|."
         }
       }
     }
 
     \addlyrics {
-      "1. Из" -- ля -- зъл е се -- яч да се -- е __
+      \set stanza = "1." Из -- ля -- зъл е се -- яч да се -- е __
       пре -- крас -- но бла -- "го  –" нов жи -- вот. __ И
       се -- е той, и ти -- хо пе -- е __ пред все -- ки
       дом и все -- ки род, __  и все -- ки род: __ Без --
@@ -94,44 +108,10 @@
 
   } % score
 
-
-  % \markup \abs-fontsize #11 {
-  %   \hspace #25
-  %   \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
-  %   \column {
-
-  %     \line { 2. И който чуе, в миг потръпва }
-  %     \line {   "   " от тоя благ и мил напев; }
-  %     \line {   "   " и просиява, и възкръсва, }
-  %     \line {   "   " и благославя тоз посев. }
-  %     \line { " " }
-  %     \line { "   " \italic {Припев: } }
-  %     \line {  "   " Безценен дар е Любовта, }
-  %     \line { "   " красиво чувство – обичта }
-  %     \line { "   " и благо дело – милостта, }
-  %     \line {  "   " обилен извор – Мъдростта.}
-
-  %     \line { " " }
-  %     \line { "   " \italic {Припев ...} }
-
-  %     \line { " " }
-  %     \line { 3. Любов Вселената облива, }
-  %     \line {   "   " от обич грее всяка твар; }
-  %     \line {   "   " живот в живота се прелива, }
-  %     \line {   "   " тук няма вече млад и стар. }
-  %     \line { " " }
-  %     \line { "   " \italic {Припев ...} }
-  %   }
-  %   \"rightBraces018"
-  % }
-
-  \markup \vspace #0.8
+  \markup \vspace #1.2
 
   \markup \abs-fontsize #11 {
     \fill-line {
-      % moves the column off the left margin;
-      % can be removed if space on the page is tight
-      % \hspace #0.1
       \column {
         \line {
           \bold "2."
@@ -140,10 +120,10 @@
             "от тоя благ и мил напев;"
             "и просиява, и възкръсва,"
             "и благославя тоз посев."
-          }
+          }  \"rightBraces018a"
         }
-        % adds vertical spacing between verses
-        \vspace #1
+      
+        \vspace #1.1
         \line{ \italic"    Припев:"}
         %\vspace #0.3
         \line {
@@ -153,7 +133,7 @@
             "красиво чувство – обичта"
             "и благо дело – милостта,"
             "обилен извор – Мъдростта."
-          }
+          } \"rightBraces018b"
         }
         \vspace #1
         \line {
@@ -163,18 +143,17 @@
             "от обич грее всяка твар;"
             "живот в живота се прелива,"
             "тук няма вече млад и стар."
-
-          }
+          } \"rightBraces018a"
         }
         \vspace #1
         \line {
           \bold " "
           \column {
             \italic "  Припев ..."
-          }
-        }
-      }  
-    } \"rightBraces018"
+          } 
+        } 
+      } 
+    } 
   }
 
 } % bookpart
