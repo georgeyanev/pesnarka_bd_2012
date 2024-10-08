@@ -9,9 +9,6 @@
     % repeat braces
     \translate #'(0 . -20.1 )
     \right-brace #18
-
-
-
   }
   \column {
     % repeat numbers

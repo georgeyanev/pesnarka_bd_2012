@@ -44,7 +44,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_1 "Зората на новия живот" "Zorata na Novija život"
+      title = \titleFunc #'ref_desc_1 "Зората на новия живот" "Zorata na novija život"
     }
 
     \midi{}
@@ -103,9 +103,10 @@
   %   }
   % } % markup
 
-  \markup \vspace #0.8
+  \markup \vspace #1
 
   \markup \abs-fontsize #11 {
+    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \fill-line {
       % moves the column off the left margin;
       % can be removed if space on the page is tight
