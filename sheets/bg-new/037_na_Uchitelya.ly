@@ -6,34 +6,17 @@
 "rightBraces037" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -5.6 )
-    \right-brace #18
-
-    \translate #'(0 . -10.2 )
-    \right-brace #18
-
-    \translate #'(0 . -10.2 )
-    \right-brace #18
-
-    \translate #'(0 . -10.2 )
-    \right-brace #18
-
+    \translate #'(0 . -8 )
+    \right-brace #22
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -6.2 )
-    2
-
-    \translate #'(0 . -12 )
-    2
-
-    \translate #'(0 . -12 )
-    2
-
-    \translate #'(0 . -12.1 )
+    \translate #'(0 . -8.5 )
     2
   }
 }
+
+
 
 \bookpart {
   \label #'ref037
@@ -82,7 +65,7 @@
             "в стъпките Си ме води"
             "и кат мощен покровител"
             "всякога към мен бъди. "
-          }
+          }\"rightBraces037"
         }
         \vspace #1
         \line {
@@ -92,17 +75,17 @@
             "и Божествена Любов;"
             "за любов към всички братя"
             "винаги да съм готов."
-          }
+          }\"rightBraces037"
         }
         \vspace #1
         \line {
           \bold "4."
           \column {
             "И във дни на изпитание"
-            " Ти бъди ми канара,"
-            " тъй за Тебе ще живея "
+            "Ти бъди ми канара,"
+            "тъй за Тебе ще живея "
             "и за Тебе ще умра."
-          }
+          }\"rightBraces037"
         }
         \vspace #1
         \line {
@@ -112,7 +95,7 @@
             "на Невидимия свят, "
             "о, любезни мой Учител,"
             "дай ми Твойта благодат! "
-          }
+          }\"rightBraces037"
         }
       }
     }
