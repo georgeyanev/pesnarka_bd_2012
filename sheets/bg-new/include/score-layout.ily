@@ -21,7 +21,7 @@
     
   }
     \context {
-    % adjust space between staff and lyrics and between the two lyric lines
+    % adjust space between staff and lyrics and between the two lyric lines l
     \Lyrics
     \override LyricHyphen.minimum-length = #0.5 %force a hyphen
     \override LyricHyphen.minimum-distance = #1 %force a hyphen
