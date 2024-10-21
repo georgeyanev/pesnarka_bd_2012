@@ -5,75 +5,48 @@
 \bookpart {
   \label #'ref121
   \tocItem \markup "Ранен час"
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##t
+  print-first-page-number = ##t
 
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-      ""
-    }
 
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 10)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
+  % put page numbers on the top and change the font style.
+  oddHeaderMarkup = \markup
+  \fill-line {
+    ""
+    \unless \on-first-page-of-part \fromproperty #'header:instrument
+    \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
   }
+  %% evenHeaderMarkup would inherit the value of
+  %% oddHeaderMarkup if it were not defined here
+  evenHeaderMarkup = \markup
+  \fill-line {
+    \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+    \unless \on-first-page-of-part \fromproperty #'header:instrument
+    ""
+  }
+
+  oddFooterMarkup = \markup ""
+
+  evenFooterMarkup = ""
+  left-margin = 1.5\cm
+  right-margin = 1.5\cm
+  top-margin = 1\cm
+  bottom-margin = 1.2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+  top-markup-spacing.basic-distance = 0\mm % margin between page number and system for the first page
+  top-system-spacing.basic-distance = 10\mm % margin between page number and system for the other pages
+
+  % change distance between staves
+  system-system-spacing =
+  #'((basic-distance . 15)
+     (minimum-distance . 6)
+     (padding . 1)
+     (stretchability . 12))
+}
   \score {
-      \layout {
-        indent = 0.0\cm % remove first line indentation
-        ragged-last = ##f % do spread last line to fill the whole space
-        \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
-        \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-        
-
-        \context {
-          \Score
-          \omit BarNumber %remove bar numbers
-          \override KeySignature.X-offset = #-1.2 % decrease keysigniture offset
-          \override TimeSignature.X-offset = #-1.8 % decrease time signiture offset
-          \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
-          \override TupletNumber.font-size = #0.4 % increase the triol number
-
-        } % context
-
-        \context {
-          % change staff size
-          \Staff
-          fontSize = #+0 % affects notes size only
-          \override StaffSymbol.staff-space = #(magstep -3)
-          \override StaffSymbol.thickness = #0.5
-          \override BarLine.hair-thickness = #1
-          %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
-        }
-
-        \context {
-          % adjust space between staff and lyrics and between the two lyric lines
-          \Lyrics
-          \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((padding . 0.65))
-          \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-          includeGraceNotes = ##t
-        }
-      } % layout
-
+    \include "include/score-layout.ily"
 
     \new Voice \relative c' {
       \clef treble
@@ -85,23 +58,22 @@
       bes'4.  des8 | % 2
       c8  bes8  a8  c8 | % 3
       bes4.  f8 | % 4
-      bes2 \break | % 5
+      bes2  | % 5
       \time 3/4  | % 5
-      as8.  as16  as2 | % 6
+      as8.  as16  as2 | \break % 6
       as16  bes16  as16  ges16
       f8.  es16  des8  es8 | % 7
       \time 2/4  | % 7
-      f2 \break | % 8
+      f2  | % 8
       es4.  f8 | % 9
       ges8  ges8  as8 bes8 |
-      \barNumberCheck #10
-      f2 | % 11
+      f2 | \break % 11
       \time 3/4  | % 11
-      des'8.  des16  des2 \break | % 12
+      des'8.  des16  des2  | % 12
       c16  des16  es16  des16
       c16  bes16  a16  ges16
-      f16  es16  des16  c16 | % 13
-      bes8  a8  ges'4.  f8 \break | % 14
+      f16  es16  des16  c16 | \break % 13
+      bes8  a8  ges'4.  f8 | % 14
       f2 ^\fermata
       \tuplet 3/2 {   a,8 ( [  bes8 ) ]  c8 }
       | % 15
@@ -150,17 +122,17 @@
       треп -- ти. Слън -- це грей, рад --
       ва се ду -- ша -- та на све -- та
       за ве -- ли -- ка -- та Лю -- бов.
-      Пей, "сър-" -- це, за -- бра -- ви
-      "скръб-" -- та и бу -- ри -- те чо --
+      Пей, сър -- це, за -- бра -- ви
+      скръб -- та и бу -- ри -- те чо --
       веш -- ки в~то -- я ди -- вен час.
       Чуй __  гла -- са ми! Ве -- ли --
       ки -- ят жи -- вот се раж -- да
       в~теж -- ка -- та скръб. Ти -- ха
-      "ра-" -- дост, нов жи -- вот но -- си
+      ра -- дост, нов жи -- вот но -- си
       та -- зи бу -- ря на све -- та.
-      Нов жи -- вот на "лю-" -- бов ду --
+      Нов жи -- вот на лю -- бов ду --
       ша ми да стоп -- ли. Сво -- бо
-      -- да, "си-" -- лен дух и мир ще и --
+      -- да, си -- лен дух и мир ще и --
       маш ти. Чуй __  гла -- са ми!
       Ти -- хи зву -- ци теб зо -- ват,
       веч -- на Лю -- бов там ца -- ри!}

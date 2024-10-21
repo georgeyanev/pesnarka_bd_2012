@@ -137,7 +137,7 @@ cat \
     ../178_molitva.ly \
     ../180_pesen_za_dvete_sestri.ly \
     ../181_proletna_pesen.ly \
-    ../182_deset_temi_new.ly \
+    ../182_deset_temi.ly \
     ../185_melodiya_i_krasiv_zhivot.ly \
     ../186_melodiya_2_3_4.ly \
     ../190_glasat_na_zhiviya_Gospod.ly \

@@ -11,34 +11,41 @@
     print-page-number = ##t
     print-first-page-number = ##t
 
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
+
+    % put page numbers on the top and change the font style.
+    oddHeaderMarkup = \markup
     \fill-line {
       ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
     }
-    evenFooterMarkup = \markup
+    %% evenHeaderMarkup would inherit the value of
+    %% oddHeaderMarkup if it were not defined here
+    evenHeaderMarkup = \markup
     \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
       ""
     }
 
+    oddFooterMarkup = \markup ""
+
+    evenFooterMarkup = ""
     left-margin = 1.5\cm
     right-margin = 1.5\cm
-    top-margin = 1.6\cm
+    top-margin = 1\cm
     bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+    top-markup-spacing.basic-distance = 0\mm % margin between page number and system for the first page
+    top-system-spacing.basic-distance = 10\mm % margin between page number and system for the other pages
 
     % change distance between staves
     system-system-spacing =
-    #'((basic-distance . 9)
+    #'((basic-distance . 13.5)
        (minimum-distance . 6)
        (padding . 1)
        (stretchability . 12))
   }
-
   \score {
     \include "include/score-layout.ily"
 
@@ -157,23 +164,29 @@
 
     } % score
 
-    \markup \fontsize #bgCoupletFontSize {
-      \hspace #17
-      \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-      \column {
-        \line {   2. Когато се денят пробужда,}
-        \line {   "   " долавяме небесен зов – }
-        \line {   "   " вълнува ни и вдъхновява}
-        \line {   "   " за светъл и красив живот.}
-        \line {   "       " Ще дойде той след бурите, борбите. }
-        \line {   "       " Земята ще залее мир.}
-        \line {   "       " Могъща сила е доброто,}
-        \line {   "       " ний вярваме – ще победи.}
+    \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+      \fill-line {
+        \column {
+          \line {
+            \bold "2."
+            \column {
+              "Когато се денят пробужда,"
+              "долавяме небесен зов – "
+              "вълнува ни и вдъхновява"
+              "за светъл и красив живот."
+              "Ще дойде той след бурите, борбите."
+              "Земята ще залее мир."
+              "Могъща сила е доброто,"
+              "ний вярваме – ще победи."
+            }
+          }
+        }
       }
+    }
 
-    } % markup
 
-    \markup \empty-two
+
+    \markup \vspace #2
 
     \label #'ref189
     \tocItem \markup "Мелодия 4"

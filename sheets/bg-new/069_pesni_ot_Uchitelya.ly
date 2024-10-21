@@ -1,11 +1,13 @@
+
+
 \version "2.24.4"
 
 % include paper part and global functions
 \include "include/globals.ily"
 
 \bookpart {
-  \label #'ref069
-  \tocAct \markup "Песни от Учителя"
+
+  \tocAct \markup"Песни от Учителя"
   \paper {
     print-all-headers = ##f
     print-page-number = ##f
@@ -30,15 +32,11 @@
     top-margin = 1.6\cm
     bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-
   }
 
+  \markup { {  \vspace #18 } }
 
-  \markup { {  \vspace #13.2 } }
-
- \markup \fontsize  #+7 { \fill-line \bold {"ПЕСНИ ОТ УЧИТЕЛЯ"} }
-
+  \markup \abs-fontsize #21 { \fill-line {"Песни от Учителя"} }
 
   % include foreign translation(s) of the song
   %

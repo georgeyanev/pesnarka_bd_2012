@@ -31,7 +31,7 @@
     }
 
     \addlyrics {
-      \set stanza = "1." Шу -- ми,
+      \set stanza = "1. " Шу -- ми,
       аз слу -- шам цял свят да шу -- ми! Шу -- мят
       сър -- ца -- та че -- ло --  веш -- ки всред
       свой -- те и -- до -- ли и греш -- ки, шу -- мят
@@ -48,8 +48,8 @@
 
   } % score
 
-
-  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+\markup \vspace #0.5
+  \markup \abs-fontsize #11  \override #`(baseline-skip . ,bgCoupletBaselineSkip){
     \fill-line {
       \hspace #0.1
       \column {
@@ -91,8 +91,7 @@
   }
 
 
-  \markup \abs-fontsize #11 {
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
     \fill-line {
       \column {
         \vspace #1

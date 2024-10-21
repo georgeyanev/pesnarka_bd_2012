@@ -11,29 +11,37 @@
     print-page-number = ##t
     print-first-page-number = ##t
 
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
+
+    % put page numbers on the top and change the font style.
+    oddHeaderMarkup = \markup
     \fill-line {
       ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
     }
-    evenFooterMarkup = \markup
+    %% evenHeaderMarkup would inherit the value of
+    %% oddHeaderMarkup if it were not defined here
+    evenHeaderMarkup = \markup
     \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
       ""
     }
 
+    oddFooterMarkup = \markup ""
+
+    evenFooterMarkup = ""
     left-margin = 1.5\cm
     right-margin = 1.5\cm
-    top-margin = 1.6\cm
+    top-margin = 1\cm
     bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+    top-markup-spacing.basic-distance = 0\mm % margin between page number and system for the first page
+    top-system-spacing.basic-distance = 10\mm % margin between page number and system for the other pages
 
     % change distance between staves
     system-system-spacing =
-    #'((basic-distance . 8)
+    #'((basic-distance . 12)
        (minimum-distance . 6)
        (padding . 1)
        (stretchability . 12))
@@ -77,7 +85,7 @@
       жи лъч, бла -- го -- то
       на жи -- во --   та, свет --
       ли -- я прав път на чис -- ти --
-      те "ду-" -- ши, чис -- ти -- те "ду-" --
+      те ду -- ши, чис -- ти -- те ду --
       ши, чис -- ти -- те ду -- ши, чис --
       ти -- те ду -- ши.}
 
@@ -89,8 +97,50 @@
 
     } % score
 
+    \markup \vspace #1
+
     \label #'ref155_1
     \tocItem \markup "Радост за душата"
+    \paper {
+      print-all-headers = ##t
+      print-page-number = ##t
+      print-first-page-number = ##t
+
+
+      % put page numbers on the top and change the font style.
+      oddHeaderMarkup = \markup
+      \fill-line {
+        ""
+        \unless \on-first-page-of-part \fromproperty #'header:instrument
+        \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+      }
+      %% evenHeaderMarkup would inherit the value of
+      %% oddHeaderMarkup if it were not defined here
+      evenHeaderMarkup = \markup
+      \fill-line {
+        \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+        \unless \on-first-page-of-part \fromproperty #'header:instrument
+        ""
+      }
+
+      oddFooterMarkup = \markup ""
+
+      evenFooterMarkup = ""
+      left-margin = 1.5\cm
+      right-margin = 1.5\cm
+      top-margin = 1\cm
+      bottom-margin = 1.2\cm
+      ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+      top-markup-spacing.basic-distance = 0\mm % margin between page number and system for the first page
+      top-system-spacing.basic-distance = 10\mm % margin between page number and system for the other pages
+
+      % change distance between staves
+      system-system-spacing =
+      #'((basic-distance . 12)
+         (minimum-distance . 6)
+         (padding . 1)
+         (stretchability . 12))
+    }
     \score {
       \include "include/score-layout.ily"
 
@@ -146,10 +196,10 @@
       }
 
       \addlyrics {
-        "1. Ра" -- дост, "ра-" -- дост за ду -- ша
+        \set stanza = "1. " Ра -- дост, ра -- дост за ду -- ша
         --  та __  но -- си
         чис -- то -- та -- та. Ра -- дост,
-        "ра-" -- дост, "ра-" -- дост, "ра-" -- дост
+        ра -- дост, ра -- дост, ра -- дост
         за ду -- ша -- та __  но -- си
         чис -- то -- та -- та. Чис -- ти бъ --
         де -- те ка -- то пче -- ли -- те.
@@ -165,18 +215,20 @@
 
     } % score
 
+    \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){
+      \fill-line {
+        \column {
+          \line {
+            \bold "2."
+            \column {
+              "Радост, радост за душата носи светлината."
+              "Светли бъдете като звездите, светли бъдете като слънцата."
+            }
+          }
 
-    \markup \fontsize #bgCoupletFontSize {
-      \hspace #15
-      \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
-      \column {
-        \line {   2. Радост, радост за душата носи светлината. }
-        \line {   "   "  Светли бъдете като звездите,}
-        \line {   "   "   светли бъдете като слънцата. }
-
+        }
       }
-
-    } % markup
+    }
   } % bookpart
 
   % Più mosso

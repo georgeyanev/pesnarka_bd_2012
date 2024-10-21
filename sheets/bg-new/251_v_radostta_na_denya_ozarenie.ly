@@ -6,74 +6,9 @@
 \bookpart {
   \label #'ref251_1
   \tocItem \markup "Мелодия 2 – В радостта на деня"
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
-
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-      ""
-    }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 11)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
-  }
+  \include "include/bookpart-paper.ily"
   \score {
-      \layout {
-        indent = 0.0\cm % remove first line indentation
-        ragged-last = ##f % do spread last line to fill the whole space
-        \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
-        \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-        
-
-        \context {
-          \Score
-          \omit BarNumber %remove bar numbers
-          \override KeySignature.X-offset = #-1.2 % decrease keysigniture offset
-          \override TimeSignature.X-offset = #-1.8 % decrease time signiture offset
-          \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
-          \override TupletNumber.font-size = #0.4 % increase the triol number
-
-        } % context
-
-        \context {
-          % change staff size
-          \Staff
-          fontSize = #+0 % affects notes size only
-          \override StaffSymbol.staff-space = #(magstep -3)
-          \override StaffSymbol.thickness = #0.5
-          \override BarLine.hair-thickness = #1
-          %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
-        }
-
-        \context {
-          % adjust space between staff and lyrics and between the two lyric lines
-          \Lyrics
-          \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((padding . 1))
-          \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-          includeGraceNotes = ##t
-        }
-      } % layout
+    \include "include/score-layout.ily"
 
     \new Voice \absolute {
       \clef treble
@@ -145,19 +80,19 @@
     }
 
     \addlyrics {
-      "1. Рад" -- ва се Зе -- мя -- та, рад --
+      \set stanza = "1. " Рад -- ва се Зе -- мя -- та, рад --
       ва се Не -- бе -- то в~Свет -- ли
       -- на. Се -- ме -- то, по -- ся -- то
-      "в~плод-" -- на ни -- ва, "рас-" -- не
-      свя -- то "в~Лю-" -- бов -- та. Бог
+      в~плод -- на ни -- ва, рас -- не
+      свя -- то в~Лю -- бов -- та. Бог
       въз -- раст -- ва но -- ви -- я
-      жи -- вот "в~ра-" -- дост и мир и
+      жи -- вот в~ра -- дост и мир и
       ця -- ло -- то Не -- бе пре -- ли --
       ва от Лю -- бов. Е -- то го, гре --
       е де -- нят кра -- сив и свят и
-      "Лю-" -- бов -- та е жи -- ва бла --
-      го -- дат. Грей, "раз-" -- "пръск" -- вай
-      "ра-" -- дост, мир и о -- бич, свят
+      Лю -- бов -- та е жи -- ва бла --
+      го -- дат. Грей, раз -- пръск -- вай
+      ра -- дост, мир и о -- бич, свят
       Бо -- жи ден. Все -- благ, все --
       мъ -- дър Бог О -- тец в~ду -- ши
       -- те ми -- лост -- та Си да въз --
@@ -176,26 +111,31 @@
 
     } % score
 
-    \markup \fontsize #bgCoupletFontSize {
-      \hspace #10
-      \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-      \column {
-        \line {  2. Слънчевото ято Бога благославя и зари,}
 
-        \line {   "   " Божията Слава новия свещен живот да озари.}
+    \markup \abs-fontsize #11  \override #`(baseline-skip . ,bgCoupletBaselineSkip){
+      \fill-line {
+        \hspace #0.1
+        \column {
+          \line {
+            \bold "2."
+            \column {
+              "Слънчевото ято Бога благославя и зари,"
 
-        \line {   "   " Целият всемир е светлина и светлината}
+              "Божията Слава новия свещен живот да озари."
 
-        \line {   "   " извор е на радост, сила и живот.}
-        \line {   "   " }
-        \line \italic {   "      " Припев:}
-        \line {   "      " Ето го, грее денят ...}
+              "Целият всемир е светлина и светлината"
 
+              "извор е на радост, сила и живот."
+            }
+          }
+          \vspace #1
+          \line{ \italic"    Припев:" Ето го, грее денят ...}
 
+        }\hspace #0.1
       }
+    }
 
-    } % markup
-    \markup \empty-two
+    \markup \vspace #3
 
     \label #'ref251_2
     \tocItem \markup "Мелодия 4 – Озарение"
@@ -233,7 +173,7 @@
       }
 
       \addlyrics {
-        "1. Без" -- гра -- нич -- на шир, див
+        \set stanza = "1. " Без -- гра -- нич -- на шир, див
         -- на кра -- со -- та и мир,
         Слън -- це за чо -- веш -- ки --
         те ду -- ши но -- си свя -- та
@@ -250,34 +190,33 @@
       } % score
 
 
-
-
-
-      \markup \fontsize #bgCoupletFontSize {
-        \hspace #5
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-          \line {   2.  Благ живот струи }
-          \line {   "   " в топли слънчеви лъчи }
-          \line {   "   " и душите славят в светлина }
-          \line {   "   " благия Отец на Любовта. (2) }
-
-        }
-
-        \hspace #5
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-
-          \line {   3. Всичко е Любов, }
-          \line {   "   " радост, сила и живот. }
-          \line {   "   " Свята Божия виделина }
-          \line {   "   " озарява тази красота. (2)}
-
-        }
-
+      \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+        \fill-line {
+          \hspace #0.1
+          \column {
+            \line {
+              \bold "2."
+              \column {
+                "Благ живот струи "
+                "в топли слънчеви лъчи "
+                "и душите славят в светлина "
+                "благия Отец на Любовта. (2)"
+              }
+            }
+          }
+          \hspace #0.1
+          % adds horizontal spacing between columns
+          \column {
+            \line {
+              \bold "4."
+              \column {
+                "Всичко е Любов,"
+                "радост, сила и живот."
+                "Свята Божия виделина "
+                "озарява тази красота. (2)"
+  }
+          }
+        }\hspace #0.1
       }
-
-    } % bookpart
-
-    % Più mosso
-    %
+    }
+  } % bookpart

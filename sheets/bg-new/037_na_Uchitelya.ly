@@ -39,7 +39,7 @@
     }
 
     \addlyrics {
-      \set stanza = "1." На У --  чи -- те -- ля по -- ко -- рен аз ще слу -- жа
+      \set stanza = "1. " На У --  чи -- те -- ля по -- ко -- рен аз ще слу -- жа
       до кон -- ца. Той за мен е път от -- во --
       рен, що ме во -- ди към От -- ца. Той за мен
       е път от -- во -- рен, що ме во -- ди към От -- ца.
@@ -53,10 +53,10 @@
 
   } % score
 
-  \markup \abs-fontsize #11 {
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
 
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
     \fill-line {
+      \hspace #0.1
       \column {
         \line {
           \bold "2."
@@ -77,7 +77,10 @@
             "винаги да съм готов."
           }\"rightBraces037"
         }
-        \vspace #1
+      }
+      \hspace #0.1
+      % adds horizontal spacing between columns
+      \column {
         \line {
           \bold "4."
           \column {
@@ -87,6 +90,7 @@
             "и за Тебе ще умра."
           }\"rightBraces037"
         }
+        % adds vertical spacing between verses
         \vspace #1
         \line {
           \bold "5."
@@ -97,11 +101,47 @@
             "дай ми Твойта благодат! "
           }\"rightBraces037"
         }
-      }
+      }\hspace #0.1
     }
   }
+  \markup \vspace #1.5
+  \label #'ref155_2
+  \tocItem \markup "Мирът иде вече – Mirat ide veche"
+  \include "include/bookpart-paper.ily"
+  \score {
+    \include "include/score-layout.ily"
 
+    \new Voice \relative c' {
+      \clef treble
+      \key g \minor
+      \time 4/4
+      \tempoFunc "Andante" 4 "69"
+      \autoBeamOff
+      \repeat volta 2 {
+        g8 a bes c d4 d4 | g8 f es d c4 c |
 
+        f8 es d c bes 4 d 4 |  \break g,8 a bes a g4 g4 |
+
+        g8 a bes c d4 d4 | g8 f es d c4 c |  \break
+
+        f8 es d c bes 4 d 4 |  g,8 a bes a g4 g4 |
+      }
+    }
+
+    \addlyrics {
+      „Ми -- рът и -- де ве -- че, Ми -- рът и -- де ве -- че, Ми -- рът и -- де ве -- че!“,
+      тъй наш Гос -- под ре -- че.
+      Tъй наш Гос -- под ре -- че: „Ми -- рът и -- де ве -- че, Ми -- рът и -- де ве -- че!“,
+      тъй наш Гос -- под ре -- че.
+    }
+
+    \header {
+      title = \titleFunc #'ref_desc "Мирът иде вече" "Mirat ide veche"
+    }
+
+    \midi{}
+
+  } % score
 
 
 

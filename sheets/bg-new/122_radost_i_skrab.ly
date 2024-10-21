@@ -4,86 +4,62 @@
 
 startParenthesis = {
   \once \override Parentheses.stencils = #(lambda (grob)
-        (let ((par-list (parentheses-interface::calc-parenthesis-stencils grob)))
-          (list (car par-list) point-stencil )))
+                                            (let ((par-list (parentheses-interface::calc-parenthesis-stencils grob)))
+                                              (list (car par-list) point-stencil )))
 }
 
 endParenthesis = {
   \once \override Parentheses.stencils = #(lambda (grob)
-        (let ((par-list (parentheses-interface::calc-parenthesis-stencils grob)))
-          (list point-stencil (cadr par-list))))
-} 
+                                            (let ((par-list (parentheses-interface::calc-parenthesis-stencils grob)))
+                                              (list point-stencil (cadr par-list))))
+}
 
 \bookpart {
   \label #'ref122
   \tocItem \markup "Радост и скръб"
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##t
+  print-first-page-number = ##t
 
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-      ""
-    }
 
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 10)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
+  % put page numbers on the top and change the font style.
+  oddHeaderMarkup = \markup
+  \fill-line {
+    ""
+    \unless \on-first-page-of-part \fromproperty #'header:instrument
+    \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
   }
+  %% evenHeaderMarkup would inherit the value of
+  %% oddHeaderMarkup if it were not defined here
+  evenHeaderMarkup = \markup
+  \fill-line {
+    \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+    \unless \on-first-page-of-part \fromproperty #'header:instrument
+    ""
+  }
+
+  oddFooterMarkup = \markup ""
+
+  evenFooterMarkup = ""
+  left-margin = 1.5\cm
+  right-margin = 1.5\cm
+  top-margin = 1\cm
+  bottom-margin = 1.2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+  top-markup-spacing.basic-distance = 0\mm % margin between page number and system for the first page
+  top-system-spacing.basic-distance = 10\mm % margin between page number and system for the other pages
+
+  % change distance between staves
+  system-system-spacing =
+  #'((basic-distance . 14)
+     (minimum-distance . 6)
+     (padding . 2)
+     (stretchability . 12))
+}
   \score {
-    \layout {
-      indent = 0.0\cm % remove first line indentation
-      ragged-last = ##f % do spread last line to fill the whole space
-      \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
-      \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-      
+    \include "include/score-layout.ily"
 
-      \context {
-        \Score
-        \omit BarNumber %remove bar numbers
-        \override KeySignature.X-offset = #-1.2 % decrease keysigniture offset
-        \override TimeSignature.X-offset = #-1.8 % decrease time signiture offset
-        \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
-        \override TupletNumber.font-size = #0.4 % increase the triol number
-
-      } % context
-
-      \context {
-        % change staff size
-        \Staff
-        fontSize = #+0 % affects notes size only
-        \override StaffSymbol.staff-space = #(magstep -3)
-        \override StaffSymbol.thickness = #0.5
-        \override BarLine.hair-thickness = #1
-        %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
-      }
-
-      \context {
-        % adjust space between staff and lyrics and between the two lyric lines
-        \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((padding . 1))
-        includeGraceNotes = ##t
-      }
-    } % layout
 
     \new Staff \relative c' {
       \clef treble
@@ -126,7 +102,7 @@ endParenthesis = {
       e2. \bar "||"
       \tempo "Più mosso" a2 a4 | % 27
       c2  b4  | \break % 28
-      b2 (  a8 [  b8 ) ] | % 29
+      b2 ( a8 [  b8 ) ] | % 29
       a2 (  g4 ) |
       f2  e8 ( [  f8 ) ] | % 31
       g2  f4 | % 32
@@ -227,24 +203,24 @@ endParenthesis = {
       \time 2/4
       %\once \override TextScript.outside-staff-priority = ##f
       %\once \override TextScript.extra-offset = #'(3 . 3.0)
-      
+
       \once \override Staff.Parentheses.font-size = #+3
       \once \override Staff.Parentheses.padding = #1
       \endParenthesis \parenthesize a2%-\markup \bold \fontsize #+2 {")"}
-      
+
       \bar "|."
     }
 
     \addlyrics {
-      "Слу-" -- шал съм за те -- бе, скръб,
+      Слу -- шал съм за те -- бе, скръб,
       че жес -- то -- ка си би -- ла, че
-      стра -- да -- ни -- я "при-" -- чи -- ня
+      стра -- да -- ни -- я при -- чи -- ня
       -- ваш __  ти. Не зна -- еш ли ти,
       че съм бе -- ден стран -- ник? Ка
       -- жи що ис -- каш ти от ме -- не,
       скръб, ка -- жи! Ка -- жи що
       ис -- каш, не -- ка аз то -- ва __
-      да знам! "„Мъч" -- но мо -- же
+      да знам! „Мъч -- но мо -- же
       мен ня -- кой __  да о -- би
       -- ча. Там е скръб -- та! Кой --
       то мен о -- би  --  ча __
@@ -255,27 +231,27 @@ endParenthesis = {
       е пъ -- тят, по кой -- то вър --
       вя. Мъч -- но мо -- же да ме след
       -- ва ня -- кой там, а за __
-      смърт -- ни -- я "не-" -- "въз-" -- "мож-" --
+      смърт -- ни -- я не -- въз -- мож --
       но е поч -- ти. Ня -- кой пък да
       о -- би -- ча и до -- бре да мис --
-      ли за мен, "тряб -" -- ва той да бъ
-      -- де "жи-" -- тел "съ-" -- "вър-" -- ше -- но
-      от друг "свят.“" Ра -- дост и
-      "скръб –" то -- ва са пъ  -- ти --
+      ли за мен, тряб -- ва той да бъ
+      -- де жи -- тел съ -- вър -- ше -- но
+      от друг свят.“ Ра -- дост и
+      скръб то -- ва са пъ  -- ти --
       ща да се раз -- би -- ра ве --
-      ли -- ки -- ят жи -- вот. "Лю-"  --
-      бов -- та "ед-" -- "нак-" -- во и "две-" --
-      те це -- ни. Скръб и "ра-" -- дост
-      все ед -- но, скръб и "ра-" -- дост
-      все ед -- но, Лю -- "бов-" -- та щом
-      в~тях ца -- ри. "Прав-" -- "да-" -- та
-      в~скръб -- та се це -- ни, а "доб-"
+      ли -- ки -- ят жи -- вот. Лю  --
+      бов -- та ед -- нак -- во и две --
+      те це -- ни. Скръб и ра -- дост
+      все ед -- но, скръб и ра -- дост
+      все ед -- но, Лю -- бов -- та щом
+      в~тях ца -- ри. Прав -- да -- та
+      в~скръб -- та се це -- ни, а доб
       -- ро -- то в~ра -- дост  -- та.
-      Тях да "въз-" -- при -- е -- мем, "друж-"
-      -- но да "вър-" -- вим нап -- ред. Лю
-      -- бов -- та "ед-" -- "нак-" -- во и
-      "две-" -- те це -- ни. (Лю
-      -- бов -- та ед -- "нак-" -- во и
+      Тях да въз -- при -- е -- мем, друж
+      -- но да вър -- вим нап -- ред. Лю
+      -- бов -- та ед -- нак -- во и
+      две -- те це -- ни. (Лю
+      -- бов -- та ед -- нак -- во и
       две -- те це -- ни.)
     }
 

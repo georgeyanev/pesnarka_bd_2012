@@ -6,24 +6,12 @@
 "rightBraces048" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -5.5 )
-    \right-brace #20
-
-    \translate #'(0 . -10.0 )
-    \right-brace #20
-
-    \translate #'(0 . -10.0 )
+    \translate #'(0 . -8 )
     \right-brace #20
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -6.1 )
-    2
-
-    \translate #'(0 . -12.0 )
-    2
-
-    \translate #'(0 . -12.0 )
+    \translate #'(0 . -9 )
     2
   }
 }
@@ -51,7 +39,7 @@
     }
 
     \addlyrics {
-      "1. Нап" -- ред, ча -- да, нап -- ред, но -- се -- те Сло -- во -- то нав --
+      \set stanza = "1. " Нап -- ред, ча -- да, нап -- ред, но -- се -- те Сло -- во -- то нав --
       ред! Без страх в~жи -- во -- та нов __  но -- се -- те
       прав -- да, мир, лю -- бов. Без бов!
     }
@@ -64,40 +52,41 @@
 
   } % score
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #18
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line {   2. От новото Небе }
-
-      \line {   "   " Спасителят ни днес зове: }
-
-      \line {   "   " „Я чуйте тоя зов –}
-
-      \line {   "   " носете правда, мир, любов!“.}
-
-      \line {   "   "}
-
-      \line {   3.  Тук долу няма мир,}
-
-      \line {   "   " неправдата е в длъж и шир.}
-
-      \line {   "   " Разсейте бързо днес }
-
-      \line {   "   " за мир и правда блага вест!}
-
-      \line {   "   "}
-
-      \line {   4.  Напред, чада, напред,}
-
-      \line {   "   " носете Словото навред!}
-
-      \line {   "   " Без страх в живота нов,}
-
-      \line {   "   " носете правда, мир, любов!}
-    }  \"rightBraces048"
-
-  } % markup
 
 
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+    \fill-line {
+      \column {
+        \line {
+          \bold "2."
+          \column {
+            "От новото Небе"
+            "Спасителят ни днес зове:"
+            "„Я чуйте тоя зов –"
+            " носете правда, мир, любов!“."
+          }\"rightBraces048"
+        }
+        \vspace #1
+        \line {
+          \bold "3."
+          \column {
+            "Тук долу няма мир,"
+            " неправдата е в длъж и шир."
+            " Разсейте бързо днес"
+            " за мир и правда блага вест!"
+          }\"rightBraces048"
+        }
+        \vspace #1
+        \line {
+          \bold "4."
+          \column {
+            "Напред, чада, напред,"
+            " носете Словото навред!"
+            " Без страх в живота нов,"
+            " носете правда, мир, любов!"
+          }\"rightBraces048"
+        }
+      }
+    }
+  }
 } % bookpart

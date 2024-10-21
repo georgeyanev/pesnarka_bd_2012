@@ -15,7 +15,6 @@
       \key g \major
       \omit Score.TimeSignature
       \cadenzaOn % allows custom bar lines
-      \override Staff.BarLine.gap = 0.5
       \tempoFunc "Andante" 4 "60"
       \autoBeamOff
 
@@ -40,7 +39,7 @@
 
   } % score
 
-  %\markup \italic \dc-one-nobold "attacca „Благата песен“"
+  \markup \vspace #8
 
   \label #'ref086_2
   \tocItem \markup "Благата песен"

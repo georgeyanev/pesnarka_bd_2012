@@ -27,7 +27,7 @@
 
 
     \addlyrics {
-      \set stanza = "1." Ми -- ло -- сър -- ди -- е -- то е гра -- ди -- на рай --
+      \set stanza = "1. " Ми -- ло -- сър -- ди -- е -- то е гра -- ди -- на рай --
       ска, чуд -- но пре -- ме -- не -- на, пъл -- на
       с~ху -- бост май -- ска. Бил -- ки и дър -- ве --
       та, в~кра -- со -- та раз -- ви -- ти, с~и -- зо
@@ -43,8 +43,7 @@
 
   } % score
 
-  \markup \abs-fontsize #11 {
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
     \fill-line {
       \column {
         \line {

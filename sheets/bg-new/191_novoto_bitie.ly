@@ -9,9 +9,11 @@
   \label #'ref191_1
   \tocItem \markup "     Първи Божествен ден"
   \include "include/bookpart-paper.ily"
-  \markup \center-column \normal-text \fontsize #6.5 {
+  \markup \center-column \normal-text {
     \center-align
-    \line { \with-link #'ref_desc_18 "     Новото Битие – Създаването на новия Адам" }
+    \fill-line { \with-link #'ref_desc_18 \abs-fontsize #16  "Новото Битие – Създаването на новия Адам" }
+    % \vspace #1
+    % \fill-line {\abs-fontsize #14.5  "" }
     \center-align
 
     \vspace #-0.1
@@ -25,42 +27,7 @@
     \line \fontsize #-3 { " " }
   }
   \score {
-      \layout {
-        indent = 0.0\cm % remove first line indentation
-        ragged-last = ##f % do spread last line to fill the whole space
-        \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
-        \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-        
-
-        \context {
-          \Score
-          \omit BarNumber %remove bar numbers
-          \override KeySignature.X-offset = #-1.2 % decrease keysigniture offset
-          \override TimeSignature.X-offset = #-1.8 % decrease time signiture offset
-          \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
-          \override TupletNumber.font-size = #0.4 % increase the triol number
-
-        } % context
-
-        \context {
-          % change staff size
-          \Staff
-          fontSize = #+0 % affects notes size only
-          \override StaffSymbol.staff-space = #(magstep -3)
-          \override StaffSymbol.thickness = #0.5
-          \override BarLine.hair-thickness = #1
-          %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
-        }
-
-        \context {
-          % adjust space between staff and lyrics and between the two lyric lines
-          \Lyrics
-          \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((padding . 1))
-          \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-          includeGraceNotes = ##t
-        }
-      } % layout
-
+    \include "include/score-layout.ily"
     \new Voice \absolute {
       \clef treble
       \key c \minor
@@ -91,7 +58,7 @@
       bes'2 as'4 as'4 g'4 ( f'4 )  \tempo "rall." bes'4( as'4 )
       | % 22
       g'1 g'2. g'4 | % 23
-      g'2 c''1.  | % 24
+      g'2 c''1.  | \break % 24
       d''4 ( es''4 ) f''2 ( g''2 ) as''2 ~ | % 25
       as''4 g''4 c''1 g'2 | % 26
       \time 2/2  g'2 g'4 g'4 \break | % 27
@@ -139,47 +106,12 @@
         \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
       }
     }
-
+    \markup \vspace #3
     \label #'ref192
     \tocItem \markup "     Втори Божествен ден"
     \include "include/bookpart-paper.ily"
     \score {
-      \layout {
-        indent = 0.0\cm % remove first line indentation
-        ragged-last = ##f % do spread last line to fill the whole space
-        \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
-        \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-        
-
-        \context {
-          \Score
-          \omit BarNumber %remove bar numbers
-          \override KeySignature.X-offset = #-1.2 % decrease keysigniture offset
-          \override TimeSignature.X-offset = #-1.8 % decrease time signiture offset
-          \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
-          \override TupletNumber.font-size = #0.4 % increase the triol number
-
-        } % context
-
-        \context {
-          % change staff size
-          \Staff
-          fontSize = #+0 % affects notes size only
-          \override StaffSymbol.staff-space = #(magstep -3)
-          \override StaffSymbol.thickness = #0.5
-          \override BarLine.hair-thickness = #1
-          %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
-        }
-
-        \context {
-          % adjust space between staff and lyrics and between the two lyric lines
-          \Lyrics
-          \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((padding . 1))
-          \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-          includeGraceNotes = ##t
-        }
-      } % layout
-
+      \include "include/score-layout.ily"
       \new Voice \absolute {
         \clef treble
         \key g \major
@@ -252,46 +184,12 @@
           \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
         }
       }
-
+      \markup \vspace #3
       \label #'ref193
       \tocItem \markup "     Трети Божествен ден"
       \include "include/bookpart-paper.ily"
       \score {
-      \layout {
-        indent = 0.0\cm % remove first line indentation
-        ragged-last = ##f % do spread last line to fill the whole space
-        \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
-        \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-        
-
-        \context {
-          \Score
-          \omit BarNumber %remove bar numbers
-          \override KeySignature.X-offset = #-1.2 % decrease keysigniture offset
-          \override TimeSignature.X-offset = #-1.8 % decrease time signiture offset
-          \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
-          \override TupletNumber.font-size = #0.4 % increase the triol number
-
-        } % context
-
-        \context {
-          % change staff size
-          \Staff
-          fontSize = #+0 % affects notes size only
-          \override StaffSymbol.staff-space = #(magstep -3)
-          \override StaffSymbol.thickness = #0.5
-          \override BarLine.hair-thickness = #1
-          %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
-        }
-
-        \context {
-          % adjust space between staff and lyrics and between the two lyric lines
-          \Lyrics
-          \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((padding . 1))
-          \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-          includeGraceNotes = ##t
-        }
-      } % layout
+        \include "include/score-layout.ily"
 
         \new Voice \absolute {
           \clef treble
@@ -379,7 +277,7 @@
           -- бра -- на -- та __  во -- да на
           -- ре -- че мо -- ре. И ре -- че
           Бог, и из -- рас -- на све -- жа
-          тре -- ва със се -- ме -- на "спо-" --
+          тре -- ва със се -- ме -- на спо --
           ред ви -- да си __  и дър -- во
           със пло -- до -- ве спо -- ред ви --
           да си. И ви -- дя __  Бог, __ че __
@@ -400,46 +298,12 @@
             \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
           }
         }
-
+        \markup \vspace #3
         \label #'ref194
         \tocItem \markup "     Четвърти Божествен ден"
         \include "include/bookpart-paper.ily"
         \score {
-      \layout {
-        indent = 0.0\cm % remove first line indentation
-        ragged-last = ##f % do spread last line to fill the whole space
-        \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
-        \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-        
-
-        \context {
-          \Score
-          \omit BarNumber %remove bar numbers
-          \override KeySignature.X-offset = #-1.2 % decrease keysigniture offset
-          \override TimeSignature.X-offset = #-1.8 % decrease time signiture offset
-          \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
-          \override TupletNumber.font-size = #0.4 % increase the triol number
-
-        } % context
-
-        \context {
-          % change staff size
-          \Staff
-          fontSize = #+0 % affects notes size only
-          \override StaffSymbol.staff-space = #(magstep -3)
-          \override StaffSymbol.thickness = #0.5
-          \override BarLine.hair-thickness = #1
-          %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
-        }
-
-        \context {
-          % adjust space between staff and lyrics and between the two lyric lines
-          \Lyrics
-          \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((padding . 1))
-          \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-          includeGraceNotes = ##t
-        }
-      } % layout
+          \include "include/score-layout.ily"
 
           \new Voice \absolute {
             \clef treble
@@ -528,46 +392,12 @@
               \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
             }
           }
-
+          \markup \vspace #3
           \label #'ref195
           \tocItem \markup "     Пети Божествен ден "
           \include "include/bookpart-paper.ily"
           \score {
-      \layout {
-        indent = 0.0\cm % remove first line indentation
-        ragged-last = ##f % do spread last line to fill the whole space
-        \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
-        \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-        
-
-        \context {
-          \Score
-          \omit BarNumber %remove bar numbers
-          \override KeySignature.X-offset = #-1.2 % decrease keysigniture offset
-          \override TimeSignature.X-offset = #-1.8 % decrease time signiture offset
-          \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
-          \override TupletNumber.font-size = #0.4 % increase the triol number
-
-        } % context
-
-        \context {
-          % change staff size
-          \Staff
-          fontSize = #+0 % affects notes size only
-          \override StaffSymbol.staff-space = #(magstep -3)
-          \override StaffSymbol.thickness = #0.5
-          \override BarLine.hair-thickness = #1
-          %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
-        }
-
-        \context {
-          % adjust space between staff and lyrics and between the two lyric lines
-          \Lyrics
-          \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((padding . 1))
-          \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-          includeGraceNotes = ##t
-        }
-      } % layout
+            \include "include/score-layout.ily"
 
             \new Voice \absolute {
               \clef treble
@@ -639,7 +469,7 @@
               чу -- до -- ви -- ща __  и пти -- ци
               да хвър -- кат над __  зе -- мя --
               та по не -- бес -- ни -- я прос --
-              тор, всич -- ки __  "спо-" -- ред ви --
+              тор, всич -- ки __  спо -- ред ви --
               да __ си“. __  И ста -- на та --
               ка. И ви -- дя __  Бог, че всич --
               ко бе доб -- ро. И бла -- го --
@@ -660,48 +490,14 @@
                 \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
               }
             }
-
+            \markup \vspace #3
 
             \label #'ref195
             \tocItem \markup "     Шести Божествен ден "
 
             \include "include/bookpart-paper.ily"
             \score {
-      \layout {
-        indent = 0.0\cm % remove first line indentation
-        ragged-last = ##f % do spread last line to fill the whole space
-        \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
-        \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-        
-
-        \context {
-          \Score
-          \omit BarNumber %remove bar numbers
-          \override KeySignature.X-offset = #-1.2 % decrease keysigniture offset
-          \override TimeSignature.X-offset = #-1.8 % decrease time signiture offset
-          \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
-          \override TupletNumber.font-size = #0.4 % increase the triol number
-
-        } % context
-
-        \context {
-          % change staff size
-          \Staff
-          fontSize = #+0 % affects notes size only
-          \override StaffSymbol.staff-space = #(magstep -3)
-          \override StaffSymbol.thickness = #0.5
-          \override BarLine.hair-thickness = #1
-          %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
-        }
-
-        \context {
-          % adjust space between staff and lyrics and between the two lyric lines
-          \Lyrics
-          \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((padding . 1))
-          \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-          includeGraceNotes = ##t
-        }
-      } % layout
+              \include "include/score-layout.ily"
 
               \new Voice \absolute {
                 \clef treble
@@ -848,7 +644,7 @@
               }
               \addlyrics {
                 И ре -- че Бог: __  „Да
-                "дой-" -- дат над зе -- мя -- та жи --
+                дой -- дат над зе -- мя -- та жи --
                 вот -- ни и зве -- ро -- ве спо --
                 ред ви -- до -- ве -- те им“. И
                 ста -- на та -- ка. И ви -- дя Бог,
@@ -869,7 +665,7 @@
                 -- те __  си за хра --
                 на на че -- ло --  ве -- ка“. И ре --
                 че Бог: „Да -- вам и на зем --
-                ни -- те зве -- ро -- ве, и на "въз-"
+                ни -- те зве -- ро -- ве, и на въз
                 -- душ -- ни -- те пти -- ци, и всич
                 -- ко, що пъл -- зи __ по зе -- мя
                 -- та и и -- ма жи -- вот, и чо --
@@ -894,7 +690,7 @@
                 \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
               }
             }
-
+            \markup \vspace #3
             \label #'ref199
             \tocItem \markup "     Седми Божествен ден"
             \include "include/bookpart-paper.ily"
@@ -908,8 +704,8 @@
                 \tempo "Andante cantabile"
                 \autoBeamOff
                 b'4  b'4 e''2.  dis''4 | % 258
-                b''2.  a''4 \tupletUp  \times 2/3 {
-                  \once \override Slur.positions = #'(1 . 1) gis''4 (  fis''4 )  e''4
+                b''2.  a''4 \times 2/3 {
+                  gis''4 (  fis''4 )  e''4
                 }
                 | % 259
                 dis''4  cis''4  dis''4.  dis''8

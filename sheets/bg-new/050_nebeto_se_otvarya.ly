@@ -5,30 +5,12 @@
 "rightBraces050" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -5.5 )
-    \right-brace #20
-
-    \translate #'(0 . -10.0 )
-    \right-brace #20
-
-    \translate #'(0 . -10.0 )
-    \right-brace #20
-
-    \translate #'(0 . -10.0 )
+    \translate #'(0 . -7.8 )
     \right-brace #20
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -6.1 )
-    2
-
-    \translate #'(0 . -12.0 )
-    2
-
-    \translate #'(0 . -12.0 )
-    2
-
-    \translate #'(0 . -12.0 )
+    \translate #'(0 . -8.5 )
     2
   }
 }
@@ -57,7 +39,7 @@
     }
 
     \addlyrics {
-      "1. Не" -- бе -- то се от -- ва -- ря и ан -- ге -- ли -- те
+      \set stanza = "1. " Не -- бе -- то се от -- ва -- ря и ан -- ге -- ли -- те
       пе -- ят. И мол -- ни -- и блес -- тя --
       щи тъ -- ми и здрач пи -- ле -- ят. И ят.
     }
@@ -70,47 +52,52 @@
 
   } % score
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #18
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line {   2. Христос от Горе слиза}
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+    \fill-line {
+      \column {
+        \line {
+          \bold "2."
+          \column {
+            "Христос отгоре слиза"
+            "във Своята държава"
+            "с могъщество и сила,"
+            "във всичката Си слава."
 
-      \line {   "   " във Своята държава}
+          }\"rightBraces050"
+        }
+        \vspace #1
+        \line {
+          \bold "3."
+          \column {
+            "Елате, братя, всички,"
+            "облечени във бяло,"
+            "да Го посрещнем с радост,"
+            "тържествено и славно."
+          }\"rightBraces050"
+        }
+        \vspace #1
+        \line {
+          \bold "4."
+          \column {
+            "Той иде на Земята"
+            "безкрайно да царува,"
+            "живот във Истината"
+            "на всички да дарува."
+          }\"rightBraces050"
+        }
+        \vspace #1
 
-      \line {   "   " с могъщество и сила,}
-
-      \line {   "   " във всичката Си слава.}
-      \line {   "   "}
-
-      \line {   3.  Елате, братя, всички,}
-
-      \line {   "   " облечени във бяло,}
-
-      \line {   "   " да Го посрещнем с радост,}
-
-      \line {   "   " тържествено и славно.}
-      \line {   "   "}
-
-      \line {   4.  Той иде на Земята}
-
-      \line {   "   " безкрайно да царува,}
-
-      \line {   "   " живот във Истината}
-
-      \line {   "   " на всички да дарува.}
-      \line {   "   "}
-
-      \line {  5.  Благословено царство}
-
-      \line {   "   " на Бога Триединний}
-
-      \line {   "   " от сега и до века,}
-
-      \line {   "   " през всичките години.  }
-    }   \"rightBraces050"
-
-  } % markup
-
+        \line {
+          \bold "5."
+          \column {
+            "Благословено царство"
+            "на Бога Триединний"
+            "от сега и до века,"
+            "през всичките години."
+          }\"rightBraces050"
+        }
+      }
+    }
+  }
 
 } % bookpart

@@ -30,14 +30,14 @@
     }
 
     \addlyrics {
-      \set stanza = "1." Зун __ ме -- ри ма -- ну, зун __ ме -- ри -- ма -- нун -- да -- на,
+      \set stanza = "1. " Зун __ ме -- ри ма -- ну, зун __ ме -- ри -- ма -- нун -- да -- на,
       а -- са -- ви -- та ви -- та нан -- да. Зун __ ме -- ри
       ма -- ну, Зун __ ме -- ри ма -- нун -- да -- на, а -- са --
       ви -- та  нан -- да.  а -- са -- ви -- та  нан -- да.
     }
 
     \addlyrics {
-      \set stanza = "2." Всич -- ко е свет -- ло, вси -- чко е о -- све -- те -- но
+      \set stanza = "2. " Всич -- ко е свет -- ло, вси -- чко е о -- све -- те -- но
       с~Мой -- та жи -- ва Ви -- де -- ли -- на.
     }
 
@@ -50,41 +50,11 @@
   } % score
   \markup \dc-two "D.C." "con ripetizione"
 
+  \markup \vspace #1
 
   \label #'ref066_2
   \tocItem \markup "Тебе поем"
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
-
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-      ""
-    }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 9.5)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
-  }
+  \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
 

@@ -11,29 +11,37 @@
     print-page-number = ##t
     print-first-page-number = ##t
 
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
+
+    % put page numbers on the top and change the font style.
+    oddHeaderMarkup = \markup
     \fill-line {
       ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
     }
-    evenFooterMarkup = \markup
+    %% evenHeaderMarkup would inherit the value of
+    %% oddHeaderMarkup if it were not defined here
+    evenHeaderMarkup = \markup
     \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
       ""
     }
 
+    oddFooterMarkup = \markup ""
+
+    evenFooterMarkup = ""
     left-margin = 1.5\cm
     right-margin = 1.5\cm
-    top-margin = 1.6\cm
+    top-margin = 1\cm
     bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+    top-markup-spacing.basic-distance = 0\mm % margin between page number and system for the first page
+    top-system-spacing.basic-distance = 10\mm % margin between page number and system for the other pages
 
     % change distance between staves
     system-system-spacing =
-    #'((basic-distance . 9.5)
+    #'((basic-distance . 14.5)
        (minimum-distance . 6)
        (padding . 1)
        (stretchability . 12))
@@ -91,7 +99,7 @@
       es'2 |
       des'2 | % 21
       c'2 | % 22
-      bes2 ( | bes4 ) 
+      bes2 ( | bes4 )
       f'8.  f'16 | \break % 2
       f'2 | % 3
       bes'4  as'4 | % 4
@@ -140,21 +148,21 @@
     }
 
     \addlyrics {
-      "1. Гос-" -- по -- ди, Ти Си всич -- ко
-      за "ме-" -- не на Зе -- мя -- та. Тук,
+    \set stanza = "1. " Гос -- по -- ди, Ти Си всич -- ко
+      за ме -- не на Зе -- мя -- та. Тук,
       до -- лу, тол -- коз скър --
-      би, тъй "всич-" -- ко пус -- то е
+      би, тъй всич -- ко пус -- то е
       без __  Теб и са -- мо Ти му да
       -- ваш сми -- съл. Ед -- ни -- чък
       Ти ме лю -- биш, зна -- я, са -- мо
       Ти. И аз Теб лю -- бя. __
 
-      "2. Го-" -- спо -- ди, на -- у -- чи ме
-      да "лю-" -- бя "всич-" -- ко жи -- во,
+       \set stanza = "2. "  Го -- спо -- ди, на -- у -- чи ме
+      да лю -- бя всич -- ко жи -- во,
       туй, ко -- е -- то Ти съз -- дал Си,
       и да раз -- на -- сям аз на -- вред
-      Тво -- я -- та "неж-" -- ност,
-      "ра-" -- дост и Лю -- бов.
+      Тво -- я -- та неж -- ност,
+      ра -- дост и Лю -- бов.
       Да се на -- у -- ча
       Теб  аз да слу -- жа, да бла -- го --  да -- ря. __
     }

@@ -90,7 +90,7 @@
     }
 
     \addlyrics {
-      \set stanza = "1." Из -- ля -- зъл е се -- яч да се -- е __
+      \set stanza = "1. " Из -- ля -- зъл е се -- яч да се -- е __
       пре -- крас -- но бла -- "го  –" нов жи -- вот. __ И
       се -- е той, и ти -- хо пе -- е __ пред все -- ки
       дом и все -- ки род, __  и все -- ки род: __ Без --
@@ -108,10 +108,10 @@
 
   } % score
 
-  \markup \vspace #1.2
 
-  \markup \abs-fontsize #11 {
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+    
     \fill-line {
       \column {
         \line {

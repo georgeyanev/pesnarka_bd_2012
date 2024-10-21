@@ -25,7 +25,7 @@
     }
 
     \addlyrics {
-      \set stanza = "1."Лю -- бов -- та е из -- вор: тя жи -- во -- та раж -- да
+      \set stanza = "1. " Лю -- бов -- та е из -- вор: тя жи -- во -- та раж -- да
       и пре -- свя -- та длъж -- ност в~не -- го крот -- ко всаж -- "   да  –"
       все нап -- ред да хо -- ди в~стре -- меж към До -- бро -- то,
       що е съ -- вър -- ше -- но го -- ре на Не -- бе -- то.
@@ -41,11 +41,7 @@
 
   } % score
 
-  \markup \vspace #1
-
-  \markup \abs-fontsize #11 {
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){
     \fill-line {
       \column {
         \line {
@@ -66,14 +62,11 @@
     }
   }
 
-  \markup \vspace #1
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){
 
-  \markup \abs-fontsize #11 {
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
 
     \fill-line {
       \column {
-        \vspace #1
         \line{ \italic"    Припев:"}
         %\vspace #0.3
         \line {

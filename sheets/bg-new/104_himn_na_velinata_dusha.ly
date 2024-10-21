@@ -60,7 +60,7 @@
       b'2 (  cis''4 ) | \break % 75
       a'2  g'4 |  % 76
       fis'2 ( \tempo "rit." e'4 )  | % 77
-      \tempo "            Fine" d'2. \bar "|."
+      \tempo "          Fine" d'2. \bar "|."
       | % 78
       \tempo "a tempo" fis'2 g'4 | % 79
       a'2  a'4 | \break

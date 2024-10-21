@@ -44,7 +44,6 @@
     \new Voice \relative c' {
       \clef treble
       \key d \minor
-      \override Staff.BarLine.gap = 0.5
 
       \omit Score.TimeSignature
       \cadenzaOn % allows custom bar lines

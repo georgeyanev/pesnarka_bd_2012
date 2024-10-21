@@ -6,34 +6,43 @@
 \bookpart {
   \label #'ref154
   \tocItem \markup "Не ли думах"
-   \paper {
+  \paper {
     print-all-headers = ##t
     print-page-number = ##t
     print-first-page-number = ##t
 
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
+
+    % put page numbers on the top
+
+    oddHeaderMarkup = \markup
     \fill-line {
       ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
     }
-    evenFooterMarkup = \markup
+    %% evenHeaderMarkup would inherit the value of
+    %% oddHeaderMarkup if it were not defined here
+    evenHeaderMarkup = \markup
     \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
       ""
     }
 
+    oddFooterMarkup = \markup ""
+
+    evenFooterMarkup = ""
     left-margin = 1.5\cm
     right-margin = 1.5\cm
-    top-margin = 1.6\cm
+    top-margin = 1\cm
     bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+    top-markup-spacing.basic-distance = 0\mm % margin between page number and system for the first page
+    top-system-spacing.basic-distance = 10\mm % margin between page number and system for the other pages
 
     % change distance between staves
     system-system-spacing =
-    #'((basic-distance . 9)
+    #'((basic-distance . 13)
        (minimum-distance . 6)
        (padding . 1)
        (stretchability . 12))
@@ -77,11 +86,11 @@
     }
 
     \addlyrics {
-      "1. Не" ли ду
+      \set stanza = "1. " Не ли ду
       -- мах, ми -- ла ма -- мо, __ не ли __ каз -- вах да
       не __ се -- ди на -- ша Дон -- ка край ог -- ни --
       ще, в~къ -- щи са -- мо да се гу -- ши, а да
-      и -- де, ма -- мо, ве -- че на "шко-" -- ло -- то,
+      и -- де, ма -- мо, ве -- че на шко -- ло -- то,
       да за -- поч -- не да се у -- чи. На -- ша __ Дон
       -- ка, ми -- ла ма -- мо, е ро -- де -- на мо --
       ма ум -- на, да -- ро -- ви -- та, та е вре --
@@ -97,50 +106,36 @@
 
   } % score
 
- \markup \fontsize #+2.5 {
-   \hspace #12
-    \override #'(baseline-skip . 1.8)
-      
+  \markup \vspace #1
+
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+    \fill-line {
       \column {
-
-        \line {   "   " 2. Да не ходи вечер, мамо, на чешмата,}
-
-        \line {   "        " на момците пълни стомни да поднася,}
-
-        \line {   "        " росни китки да им обещава,}
-
-        \line {   "        " а на болни вечер из селото} 
-
-        \line {   "        " нека тя вода разнася.}
-
-        \line {   "        " Наша Донка, мила мамо, по душа е}
-
-        \line {   "        " блага, кротка, милостива,}
-
-        \line {   "        " но сърце си трябва да научи, мамо,}
-
-        \line {   "        " момците да не посмива.}
-          \line {   "   "}
-
-          \line {   "   " 3. Сутрин рано на чешмата да отива,}
-
-        \line {   "        " в бели менци, мамо, вода да налива}
-
-        \line {   "        " бодра, весела, засмяна,}
-
-        \line {   "        " с чиста, бяла риза, с хубава премяна.}
-
-        \line {   "        " Та за пример тя да стане.}
-
-        \line {   "        " Кой я види как работи из селото,}
-
-        \line {   "        " как на всекиму помага,}
-
-        \line {   "        " да обикне и да прояви доброто}
-
-        \line {   "        " като тая душа блага.}
+        \line {
+          \bold "2."
+          \column {
+            "Да не ходи вечер, мамо, на чешмата,"
+            "на момците пълни стомни да поднася,"
+            "росни китки да им обещава,"
+            "а на болни вечер из селото нека тя вода разнася."
+            "Наша Донка, мила мамо, по душа е блага, кротка, милостива,"
+            "но сърце си трябва да научи, мамо, момците да не посмива."
+          }
+        }
+        \vspace #1
+        \line {
+          \bold "3."
+          \column {
+            "Сутрин рано на чешмата да отива,"
+            "в бели менци, мамо, вода да налива"
+            "бодра, весела, засмяна, с чиста, бяла риза, с хубава премяна."
+            "Та за пример тя да стане. Кой я види как работи из селото,"
+            "как на всекиму помага, да обикне"
+            "и да прояви доброто като тая душа блага."
+          }
+        }
       }
-    } % markup
-
+    }
+  }
 
 } % bookpart

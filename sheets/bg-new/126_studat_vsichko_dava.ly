@@ -5,38 +5,46 @@
 \bookpart {
   \label #'ref126
   \tocItem \markup "Студът всичко дава"
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##t
+  print-first-page-number = ##t
 
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-      ""
-    }
 
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 10.5)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
+  % put page numbers on the top and change the font style.
+  oddHeaderMarkup = \markup
+  \fill-line {
+    ""
+    \unless \on-first-page-of-part \fromproperty #'header:instrument
+    \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
   }
+  %% evenHeaderMarkup would inherit the value of
+  %% oddHeaderMarkup if it were not defined here
+  evenHeaderMarkup = \markup
+  \fill-line {
+    \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+    \unless \on-first-page-of-part \fromproperty #'header:instrument
+    ""
+  }
+
+  oddFooterMarkup = \markup ""
+
+  evenFooterMarkup = ""
+  left-margin = 1.5\cm
+  right-margin = 1.5\cm
+  top-margin = 1\cm
+  bottom-margin = 1.2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+  top-markup-spacing.basic-distance = 0\mm % margin between page number and system for the first page
+  top-system-spacing.basic-distance = 10\mm % margin between page number and system for the other pages
+
+  % change distance between staves
+  system-system-spacing =
+  #'((basic-distance . 14.5)
+     (minimum-distance . 6)
+     (padding . 2)
+     (stretchability . 12))
+}
   \score {
     \include "include/score-layout.ily"
 
@@ -310,7 +318,7 @@
       ден  --   си ти, но __  ни
       из -- ба -- вяш от мра -- за и
       но -- сиш са -- мо
-      то -- ва, ко -- е -- то "Свет-" -- ли --
+      то -- ва, ко -- е -- то Свет -- ли --
       на -- та ти да -- ва. Твой -- та
       дре  -- ха е бя -- ла. Сту --
       ден __  си ти, но ни из -- ба
@@ -320,13 +328,13 @@
       сър -- ца, за --  що --
       то съ -- бли -- чаш ста --
       ро -- то, ста --  ро -- то и
-      за -- ви -- ваш мла -- "до-" -- то,
+      за -- ви -- ваш мла -- до -- то,
       мла -- до -- то, мла -- до -- то. Сту --
       ден си ти, но ни спа -- ся -- ваш
       от сту -- да. И ко -- га --
-      то про -- "лет-" -- та на -- ста
+      то про -- лет -- та на -- ста
       -- ва и жи -- во -- тът се я --
-      вя -- ва, ти пак ги "при-" -- дру --
+      вя -- ва, ти пак ги при -- дру --
       жа -- ваш и свой -- та свет -- ла
       дре -- ха им на -- дя -- ваш.
       Мал --  ко го --

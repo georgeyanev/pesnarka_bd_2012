@@ -8,41 +8,7 @@
   \tocItem \markup "Блага дума"
   \include "include/bookpart-paper.ily"
   \score {
-    \layout {
-      indent = 0.0\cm % remove first line indentation
-      ragged-last = ##f % do spread last line to fill the whole space
-      \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
-      \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-
-
-      \context {
-        \Score
-        \omit BarNumber %remove bar numbers
-        \override KeySignature.X-offset = #-1.2 % decrease keysigniture offset
-        \override TimeSignature.X-offset = #-1.8 % decrease time signiture offset
-        \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
-        \override TupletNumber.font-size = #0.4 % increase the triol number
-
-      } % context
-
-      \context {
-        % change staff size
-        \Staff
-        fontSize = #+0 % affects notes size only
-        \override StaffSymbol.staff-space = #(magstep -3)
-        \override StaffSymbol.thickness = #0.5
-        \override BarLine.hair-thickness = #1
-        %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
-      }
-
-      \context {
-        % adjust space between staff and lyrics and between the two lyric lines
-        \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((minimum-distance . 4.5))
-        \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-        includeGraceNotes = ##t
-      }
-    } % layout
+    \include "include/score-layout.ily"
 
     \new Staff = main \absolute {
       \clef treble
@@ -55,17 +21,17 @@
         { d'8 d'8 g'8 g' g' a' b'4 b' | }
         \new RhythmicStaff \with {
           \override VerticalAxisGroup.default-staff-staff-spacing =
-          #'((basic-distance . 4.2)
-             (padding . -20))
+          #'((basic-distance . 5.5)
+             (padding . -10))
           \remove "Time_signature_engraver"
           alignAboveContext = #"main"
-          fontSize = #-1
-          \override StaffSymbol.staff-space = #(magstep -4)
-          \override StaffSymbol.thickness = #(magstep -4)
+          fontSize = #-1.5
+          \override StaffSymbol.staff-space = #(magstep -2)
+          \override StaffSymbol.thickness = #(magstep -2)
           firstClef = ##f
         }
         {
-          \autoBeamOff  d'8.^\markup { \huge \italic "ossia по К. Икономов"}
+          \autoBeamOff  d'8.^\markup { \large \italic "ossia по К. Икономов"}
 
           d'16 g'8. g'16 g'8. a'16 b'4 b'4 |
         }
@@ -101,25 +67,25 @@
 
     \addlyrics {
       Бла -- га ду
-      -- ма на ус -- та -- "та      –" туй е "клю-" -- чът на
-      сър -- ца -- та, на "сър-" -- ца -- та, на "сър-" --
-      ца -- та, туй е "клю-" -- чът на сър -- ца -- та.
-      Ми -- ли пог -- лед на о -- чи -- "те –" туй е --
-      зик е на ду -- ши -- те, на "ду-" -- ши -- те, на
-      "ду-" -- ши -- те, туй е -- зик е на ду -- ши --
-      те. Неж -- но "чув-" -- ство про -- я -- ве -- но,
-      вся -- ко зло е раз -- то -- пе -- но, раз -- "то-"
-      -- пе -- но, раз -- "то-" -- пе -- но, вся -- ко зло
+      -- ма на ус -- та -- "та –" туй е клю -- чът на
+      сър -- ца -- та, на сър -- ца -- та, на сър --
+      ца -- та, туй е клю -- чът на сър -- ца -- та.
+      Ми -- ли пог -- лед на о -- чи -- те туй е --
+      зик е на ду -- ши -- те, на ду -- ши -- те, на
+      ду -- ши -- те, туй е -- зик е на ду -- ши --
+      те. Неж -- но чув -- ство про -- я -- ве -- но,
+      вся -- ко зло е раз -- то -- пе -- но, раз -- то
+      -- пе -- но, раз -- то -- пе -- но, вся -- ко зло
       е раз -- то -- пе -- но. Сил -- на во -- ля у --
       вен -- ча -- ва вся -- ко де -- ло и про -- я --
       ва, вся -- ко де -- ло, вся -- ко де -- ло, вся
-      -- ко де -- ло и про -- я -- ва. "Лю-" -- "бов-" -- та
-      със тях "съ-" -- граж -- да тоз "жи-" -- вот, що тук
+      -- ко де -- ло и про -- я -- ва. Лю -- бов -- та
+      със тях съ -- граж -- да тоз жи -- вот, що тук
       се раж -- да, раж -- да, раж -- да, раж -- да,
-      тоз "жи-" -- вот, що тук се раж -- да, тоз "жи-" --
-      вот, що тук се раж -- да, тоз "жи-" -- вот, що
-      тук се раж -- да, тоз "жи-" -- вот, що тук се раж
-      -- да, тоз "жи-" -- вот, що тук се раж -- да.
+      тоз жи -- вот, що тук се раж -- да, тоз жи --
+      вот, що тук се раж -- да, тоз жи -- вот, що
+      тук се раж -- да, тоз жи -- вот, що тук се раж
+      -- да, тоз жи -- вот, що тук се раж -- да.
     }
 
     \header {
@@ -131,7 +97,7 @@
   } % score
 
 
-  \markup \empty-two
+  \markup \vspace #12
 
   \label #'ref076
   \tocItem \markup "Венир Бенир"

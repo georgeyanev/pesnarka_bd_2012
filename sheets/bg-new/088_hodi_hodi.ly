@@ -6,21 +6,12 @@
 "rightBraces088" = \markup {
   \column {
     % repeat braces
-
-
-
-
-    \translate #'(0 . -15.6 )
-    \right-brace #44
-
+    \translate #'(0 . -19.5 )
+    \right-brace #56
   }
   \column {
     % repeat numbers
-
-
-
-
-    \translate #'(0 . -16.0 )
+    \translate #'(0 . -20.5 )
     2
   }
 }
@@ -48,7 +39,7 @@
 
     }
     \addlyrics {
-      "1. Хо" -- ди, хо -- ди, хо -- ди, за во -- да -- та хо -- ди
+      \set stanza = "1. " Хо -- ди, хо -- ди, хо -- ди, за во -- да -- та хо -- ди
 
       су -- трин -- на -- та ро -- са, през ре -- чи -- ца бис -- тра, по пъ -- те -- ка
 
@@ -67,24 +58,25 @@
 
   \markup \huge \italic \dc-one-nobold "attacca „Тъги, скърби“"
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #18
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-
-
-      \line { 2. Капките дъждовни}
-      \line { "   "също тъй поднасят}
-      \line { "   "изобилна влага – }
-      \line { "   "струя на живота. }
-      \line { "   "Никнат семенцата, }
-      \line { "   "пъпки се разтварят,}
-      \line { "   "плодове узряват.}
-      \line { "   "Всичко се събужда – }
-      \line { "   "мощна е водата. }
-    } \"rightBraces088"
-
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){
+    \fill-line {
+      \column {
+        \line {
+          \bold "3."
+          \column {
+            "Капките дъждовни"
+            "също тъй поднасят"
+            "изобилна влага – "
+            "струя на живота."
+            "Никнат семенцата,"
+            "пъпки се разтварят,"
+            "плодове узряват."
+            "Всичко се събужда –"
+            "мощна е водата."
+          } \"rightBraces088"
+        }
+      }
+    }
   }
-
 
 } % bookpart

@@ -8,47 +8,11 @@
   \tocItem \markup "Вехади"
   \include "include/bookpart-paper.ily"
   \score {
-      \layout {
-        indent = 0.0\cm % remove first line indentation
-        ragged-last = ##f % do spread last line to fill the whole space
-        \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
-        \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-        
-
-        \context {
-          \Score
-          \omit BarNumber %remove bar numbers
-          \override KeySignature.X-offset = #-1.2 % decrease keysigniture offset
-          \override TimeSignature.X-offset = #-1.8 % decrease time signiture offset
-          \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
-          \override TupletNumber.font-size = #0.4 % increase the triol number
-
-        } % context
-
-        \context {
-          % change staff size
-          \Staff
-          fontSize = #+0 % affects notes size only
-          \override StaffSymbol.staff-space = #(magstep -3)
-          \override StaffSymbol.thickness = #0.5
-          \override BarLine.hair-thickness = #1
-          %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
-        }
-
-        \context {
-          % adjust space between staff and lyrics and between the two lyric lines
-          \Lyrics
-          \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((padding . 1.5))
-          \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-          includeGraceNotes = ##t
-        }
-      } % layout
-
+    \include "include/score-layout.ily"
     \new Voice \absolute {
       \clef treble
       \key d \minor
       \tempoFunc "Adagio, ad libitum" 4 "56"
-      \override Staff.BarLine.gap = 0.5
       \autoBeamOff
       \omit Score.TimeSignature
       \cadenzaOn % allows custom bar lines
@@ -72,46 +36,12 @@
 
   } % score
   %
-
+  \markup \vspace #8
   \include "include/bookpart-paper.ily"
   \label #'ref083_2
   \tocItem \markup "Вечер, сутрин"
   \score {
-      \layout {
-        indent = 0.0\cm % remove first line indentation
-        ragged-last = ##f % do spread last line to fill the whole space
-        \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
-        \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-        
-
-        \context {
-          \Score
-          \omit BarNumber %remove bar numbers
-          \override KeySignature.X-offset = #-1.2 % decrease keysigniture offset
-          \override TimeSignature.X-offset = #-1.8 % decrease time signiture offset
-          \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
-          \override TupletNumber.font-size = #0.4 % increase the triol number
-
-        } % context
-
-        \context {
-          % change staff size
-          \Staff
-          fontSize = #+0 % affects notes size only
-          \override StaffSymbol.staff-space = #(magstep -3)
-          \override StaffSymbol.thickness = #0.5
-          \override BarLine.hair-thickness = #1
-          %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
-        }
-
-        \context {
-          % adjust space between staff and lyrics and between the two lyric lines
-          \Lyrics
-          \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((padding . 1))
-          \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-          includeGraceNotes = ##t
-        }
-      } % layout
+    \include "include/score-layout.ily"
 
     \new Voice \absolute {
       \clef treble
@@ -152,48 +82,12 @@
     \label #'ref083_3
     \tocItem \markup "Имаше человек"
     \score {
-      \layout {
-        indent = 0.0\cm % remove first line indentation
-        ragged-last = ##f % do spread last line to fill the whole space
-        \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
-        \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-        
-
-        \context {
-          \Score
-          \omit BarNumber %remove bar numbers
-          \override KeySignature.X-offset = #-1.2 % decrease keysigniture offset
-          \override TimeSignature.X-offset = #-1.8 % decrease time signiture offset
-          \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
-          \override TupletNumber.font-size = #0.4 % increase the triol number
-
-        } % context
-
-        \context {
-          % change staff size
-          \Staff
-          fontSize = #+0 % affects notes size only
-          \override StaffSymbol.staff-space = #(magstep -3)
-          \override StaffSymbol.thickness = #0.5
-          \override BarLine.hair-thickness = #1
-          %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
-        }
-
-        \context {
-          % adjust space between staff and lyrics and between the two lyric lines
-          \Lyrics
-          \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((minimum-distance . 5))
-          \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-          includeGraceNotes = ##t
-        }
-      } % layout
-
+      \include "include/score-layout.ily"
       \new Voice \absolute {
         \clef treble
         \key c \minor
         \omit Score.TimeSignature
         \cadenzaOn % allows custom bar lines
-        \override Staff.BarLine.gap = 0.5
         \tempoFunc "Andante" 4 "66"
 
         \autoBeamOff
@@ -223,7 +117,7 @@
 
         g'4 c'' bes'? as'8. bes'16 g'2 \bar"!" g'4 es''8. es''16 d''4 c'' bes' as'8 g' f'2 es'2. \bar"!" \break
 
-        es'2 d'4 c' b! c'8. c'16 d'4 c'2 \bar"!" \break
+        es'2 d'4 c' b! c'8. c'16 d'4 c'2 \bar"!"
 
         es'8. es'16 f'4 g' as'4 g' fis' g'8. g'16 \noBeam as'4 g'2  \bar"!" \break
 
@@ -240,9 +134,9 @@
 
       \addlyrics {
         И -- ма --
-        ше че -- ло -- век, "про-" -- "во-" -- ден от Бо --
+        ше че -- ло -- век, про -- во -- ден от Бо --
         га, и -- ме -- то __ му И -- о -- ан. Той дой --
-        де "в~сви-" -- де -- тел -- ство да сви -- де -- "тел-"
+        де в~сви -- де -- тел -- ство да сви -- де -- тел
         -- ству -- ва за -- ра -- ди ви -- де -- ли -- на
         -- та, за да __ по -- вяр -- ват всич -- ки чрез не
         -- го. Не __ бе той ви -- де -- ли -- на -- та, но
@@ -251,8 +145,8 @@
         та ви -- де -- ли -- на, ко -- я -- то о -- све
         -- тя -- ва все -- ки -- го че -- ло -- ве -- ка,
         що и -- де на све -- та. В~све -- та бе и све
-        -- тът чрез Не -- го "ста-" -- на и све -- тът Го
-        не "поз-" -- на. В~Сво -- и -- те Си "дой-" -- де, но
+        -- тът чрез Не -- го ста -- на и све -- тът Го
+        не поз -- на. В~Сво -- и -- те Си дой -- де, но
         Сво -- и -- те Му Го не при -- е -- ха. А ко
         -- и -- то Го при -- е -- ха, да -- де им власт
         да бъ -- дат ча -- да Бо -- жии, си -- реч, ко

@@ -10,14 +10,12 @@
   \score {
     \include "include/score-layout.ily"
 
-
     \new Voice \absolute  {
       \clef treble
       \key d \minor
       \tempoFunc "Andante" 4 "60"
       \omit Score.TimeSignature
       \cadenzaOn % allows custom bar lines
-      \override Staff.BarLine.gap = 0.5
       \autoBeamOff
 
       d'4 g'4 a' a'2 bes'8 a' bes'4 c'' bes' a'4 gis' a'2 \bar"!" \break
@@ -43,9 +41,9 @@
       За -- туп -- ка мо -- е -- то сър -- це. Хля --
       бът е го -- тов, хля -- бът е го -- тов. За --
       па -- ли се но -- ви -- ят све -- тил -- ник.
-      "Сло-" -- жи се "тра-" -- пе -- за -- та. Я -- ви се
-      мо -- я -- та ми -- съл: "хля-" -- ба слад -- ки
-      днес да "въз-" -- лю -- бя и слад -- ки -- те му
+      Сло -- жи се тра -- пе -- за -- та. Я -- ви се
+      мо -- я -- та ми -- съл: хля -- ба слад -- ки
+      днес да въз -- лю -- бя и слад -- ки -- те му
       ду -- ми аз да чу -- я.
     }
 

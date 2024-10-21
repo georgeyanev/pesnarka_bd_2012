@@ -8,43 +8,7 @@
   \tocItem \markup "Ставай, дъще!"
   \include "include/bookpart-paper.ily"
   \score {
-      \layout {
-        indent = 0.0\cm % remove first line indentation
-        ragged-last = ##f % do spread last line to fill the whole space
-        \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
-        \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-        
-
-        \context {
-          \Score
-          \omit BarNumber %remove bar numbers
-          \override KeySignature.X-offset = #-1.2 % decrease keysigniture offset
-          \override TimeSignature.X-offset = #-1.8 % decrease time signiture offset
-          \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
-          \override TupletNumber.font-size = #0.4 % increase the triol number
-
-        } % context
-
-        \context {
-          % change staff size
-          \Staff
-          fontSize = #+0 % affects notes size only
-          \override StaffSymbol.staff-space = #(magstep -3)
-          \override StaffSymbol.thickness = #0.5
-          \override BarLine.hair-thickness = #1
-          %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
-        }
-
-        \context {
-          % adjust space between staff and lyrics and between the two lyric lines
-          \Lyrics
-          \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((padding . 1))
-          \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-          includeGraceNotes = ##t
-        }
-      } % layout
-
-
+    \include "include/score-layout.ily"
     \new Voice \absolute {
       \clef treble
 
@@ -133,9 +97,9 @@
 
 
     \addlyrics {
-      "1. В~ле-" -- тен
+      \set stanza = "1. " В~ле -- тен
       ден, в~ран -- ни зо -- ри май -- ка ми ти -- хо се приб --
-      ли -- жи. "С~сла-" -- дък глас бла -- га ду -- ма ми
+      ли -- жи. С~сла -- дък глас бла -- га ду -- ма ми
       ка -- за: „Ста -- вай, __ дъ -- ще, __ на __ ни -- ва
       тряб -- ва да се хо -- ди. __ Ста -- вай, __ че ба --
       ща ти вън -- ка __ мен и те -- бе със ко -- ла --
@@ -143,22 +107,22 @@
       ка __  мен и те -- бе със ко -- ла -- та ча --
       ка. __
 
-      "2. Слън" -- це -- то ко -- га из -- грей,
+      \set stanza = "2. " Слън -- це -- то ко -- га из -- грей,
       ти на ни -- ва -- та тряб -- ва да си.
-      "С~сърп" в~ръ -- ка, с~пе -- сен ти
+      С~сърп в~ръ -- ка, с~пе -- сен ти
       де -- ня за -- поч -- ни. Ста -- вай, __ дъ -- ще, __
-      "Слън-" -- це до -- ма да не те за -- ва -- ри. __
+      Слън -- це до -- ма да не те за -- ва -- ри. __
       Ста -- вай, __ че мо -- ми и мом -- ци __ вси към ни -- ва -- та са веч тръг -- на -- ли. __
       Ста -- вай, __ че мо -- ми и мом -- ци __ вси към ни -- ва -- та са веч тръг -- на -- ли. __
 
-      "3. Ни- " -- ва е, дъ -- ще, жи -- во -- тът,
+      \set stanza = "3. " Ни -- ва е, дъ -- ще, жи -- во -- тът,
       де доб -- ро -- то се -- ме се сей.
-      Кат' из -- рас -- не, "жи-" -- вот вна -- ся
+      Кат' из -- рас -- не, жи -- вот вна -- ся
       то във __ нас. Ста -- вай, __ дъ -- ще, __
       Лю -- бов -- та днес мен и те -- бе ча -- ка. __
       Ста -- вай! __ Тя ни но -- си
       свой -- та __ но -- ва, __ жи -- ва пре -- мя -- на. __
-      Ста -- вай! __ Че "жи-" -- во -- тът вън -- ка __ мен
+      Ста -- вай! __ Че жи -- во -- тът вън -- ка __ мен
       и те -- бе с~бла -- гост ве -- че ча -- ка“. __
 
     }

@@ -7,38 +7,7 @@
   \label #'ref112_1
   \tocItem \markup "Сила, здраве е богатство"
 
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
-
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-      ""
-    }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 11)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
-  }
+  \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
 
@@ -59,12 +28,16 @@
 
         c8. b16 c4 a4 |    d,8. d16 e8 e8 fis8 d8
       } \alternative {
-        { | g4 \tempo "         Fine" g2 | \break }
+        {
+          | g4 \override Score.MetronomeMark.outside-staff-priority = #99
+          \override Score.MetronomeMark.X-extent=#'(5.5 . 0)
+          \tempo "         Fine" g2 | \break
+        }
         {
           \time 4/4 g4 g2
 
           \override Score.MetronomeMark.outside-staff-priority = #99
-          %\override Score.MetronomeMark.X-extent=#'(-4.5 . 0)
+          \override Score.MetronomeMark.X-extent=#'(0 . 10)
           \tempoFunc "Andante" 4 "60"
 
           e8. e16
@@ -105,6 +78,8 @@
 
   \markup \dc-two "D.C. al Fine" "senza ripetizione"
 
+  \markup \vspace #2
+
   \label #'ref112_2
   \tocItem \markup "Зов на планината"
 
@@ -128,7 +103,7 @@
     }
 
     \addlyrics {
-      "1. И" ска -- чам аз ка -- то пти -- чка от клон на клон, да се чу -- ди вся -- кой, кат ме ви -- ди.
+      \set stanza = "1. " И ска -- чам аз ка -- то пти -- чка от клон на клон, да се чу -- ди вся -- кой, кат ме ви -- ди.
     }
 
     \header {
@@ -139,21 +114,26 @@
 
   } % score
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #12
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line {  2. Запявам аз  песен чудна за Слънцето, }
-      \line {   "   "  бистри изворчета зашумяват.}
-      \line {   "   " }
-      \line {3. И виждам аз – връх изправен пред мен стои.}
-      \line {   "   "  Той зове ме кротко там, нагоре.}
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){
+    \fill-line {
+      \column {
+        \line {
+          \bold "2."
+          \column {
+            "Запявам аз  песен чудна за Слънцето,"
+            "бистри изворчета зашумяват."
+          }
+        }
+        \vspace #1
+        \line {
+          \bold "3."
+          \column {
+            "И виждам аз – връх изправен пред мен стои."
+            "Той зове ме кротко там, нагоре."
+          }
+        }
+      }
     }
-
-  } % markup
-
-
-
-
+  }
 
 } % bookpart

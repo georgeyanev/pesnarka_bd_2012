@@ -5,38 +5,46 @@
 \bookpart {
   \label #'ref124
   \tocItem \markup "Пролетна песен"
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##t
+  print-first-page-number = ##t
 
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-      ""
-    }
 
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 10)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
+  % put page numbers on the top and change the font style.
+  oddHeaderMarkup = \markup
+  \fill-line {
+    ""
+    \unless \on-first-page-of-part \fromproperty #'header:instrument
+    \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
   }
+  %% evenHeaderMarkup would inherit the value of
+  %% oddHeaderMarkup if it were not defined here
+  evenHeaderMarkup = \markup
+  \fill-line {
+    \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+    \unless \on-first-page-of-part \fromproperty #'header:instrument
+    ""
+  }
+
+  oddFooterMarkup = \markup ""
+
+  evenFooterMarkup = ""
+  left-margin = 1.5\cm
+  right-margin = 1.5\cm
+  top-margin = 1\cm
+  bottom-margin = 1.2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+  top-markup-spacing.basic-distance = 0\mm % margin between page number and system for the first page
+  top-system-spacing.basic-distance = 10\mm % margin between page number and system for the other pages
+
+  % change distance between staves
+  system-system-spacing =
+  #'((basic-distance . 14.5)
+     (minimum-distance . 6)
+     (padding . 1)
+     (stretchability . 12))
+}
   \score {
     \include "include/score-layout.ily"
 
@@ -156,20 +164,20 @@
     \addlyrics {
       Ми  -- ли Бо -- же, чуй ни пе
       -- сен -- та: пе -- ем ний
-      за "Слън-" -- це -- то, за "про-" -- лет
+      за Слън -- це -- то, за про -- лет
       -- та. Чуй ни пе -- сен -- та: Про
       -- лет и -- де, нов жи -- вот но
       -- си. Пър -- во цве -- те на
-      "про-" -- лет -- та: бу  -- дя всич
+      про -- лет -- та: бу  -- дя всич
       -- ки от сън, мен __  пър -- во
       Слън -- це -- то ме  __ виж
-      --  да. "Слън-" -- чи -- це, "Бо-" --
+      --  да. Слън -- чи -- це, Бо --
       жи дар, ти си из -- вор на жи --
       вот, ти ни из -- пра -- щаш __
-      лъч, __ що "раз-" -- тва -- ря "све-" --
+      лъч, __ що раз -- тва -- ря све --
       жи, неж --   ни лис -- тен
       -- ца. Про -- лет, про -- лет,
-      "пъл-" -- на със "жи-" -- вот, веч  --
+      пъл -- на със жи -- вот, веч  --
       на про --  лет, ти си рай.
       Бо -- жи дар, Бо -- жи дар, сал
       за те -- бе аз жи -- ве -- я.}

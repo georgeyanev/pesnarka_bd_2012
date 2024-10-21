@@ -31,18 +31,18 @@
         }
         \new Staff \with {
           \override VerticalAxisGroup.default-staff-staff-spacing =
-          #'((basic-distance . 7.5)
-             (padding . -10))
+          #'((basic-distance . 5.5)
+             (padding . 1))
           \remove "Time_signature_engraver"
           alignAboveContext = #"main"
-          fontSize = #-1
-          \override StaffSymbol.staff-space = #(magstep -4)
-          \override StaffSymbol.thickness = #(magstep -4)
+          fontSize = #-1.5
+          \override StaffSymbol.staff-space = #(magstep -2)
+          \override StaffSymbol.thickness = #(magstep -2)
           firstClef = ##f
         }
         {
           \key g \minor
-          g2_\markup {  "ли -                      му      се -   нет.            Ту" }  ^\markup { \huge \italic "ossia по П. Ганев"}     \times 2/3 {
+          g2_\markup {  "ли -                      му      се -   нет.            Ту" }  ^\markup { \large \italic "ossia по П. Ганев"}     \times 2/3 {
             fis8 ( [g8] )
             \once \override Hairpin.to-barline = ##f
             \once \override Hairpin.shorten-pair = #'(4 . -4)

@@ -31,7 +31,7 @@
 
 
     \addlyrics {
-      \set stanza = "1." Из -- грей,
+      \set stanza = "1. " Из -- грей,
       из -- грей ти, мо -- е Слън -- це, __  за -- що --
       то ча -- кам все -- ки ден; __ за теб коп -- ней __ сър -- це -- то мо -- е __ и в~пъ -- тя си съм из
       -- мо -- рен; __  ти но -- сиш ми жи -- вот бла --
@@ -50,10 +50,8 @@
 
   \pageBreak
 
-  \markup \vspace #1
-
-  \markup \abs-fontsize #11 {
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){
+    
 
     \fill-line {
       \column {

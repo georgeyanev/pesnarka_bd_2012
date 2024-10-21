@@ -4,17 +4,63 @@
 \include "include/globals.ily"
 
 \bookpart {
-  #(define blineskip221 2.2)
-  \include "include/bookpart-paper.ily"
+  #(define blineskip221 3.8)
+
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+
+    % put page numbers on the bottom
+    oddHeaderMarkup = \markup {
+
+      \fill-line {
+        ""
+        \if \should-print-page-number  \abs-fontsize #10 {
+          \bold \fromproperty #'page:page-number-string
+
+        }
+      }
+    }
+    evenHeaderMarkup = \markup {
+
+      \fill-line {
+        \if \should-print-page-number \abs-fontsize #10 {
+          \bold  \fromproperty #'page:page-number-string
+          ""
+        }
+      }
+    }
+
+    oddFooterMarkup = \markup ""
+
+    evenFooterMarkup = ""
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+    top-markup-spacing.basic-distance = 8\mm
+    top-system-spacing.basic-distance = 10\mm
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 16)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
+
+
   \label #'ref221
-  \tocItem \markup "Речник на музикалните понятия"
+  \tocItem \markup "Речник на музикалните термини"
 
-  \markup \fontsize  #+4.0 { \fill-line \bold {"РЕЧНИК НА МУЗИКАЛНИТЕ ТЕРМИНИ"} }
+  \markup \abs-fontsize #16 { \fill-line {"Речник на музикалните термини"} }
 
-  \markuplist \fontsize  #+1.9 {
+  \markuplist \abs-fontsize #11 {
     \override #'(padding . 2) % horizontal distance
-    \override #'(baseline-skip . 3.5) % vertical distance
-    \override #'(line-width . 42)
+    \override #'(baseline-skip . 3.8) % vertical distance
+    \override #'(line-width . 52)
     \table #'(1 -1) {
       \line {" "}
       \line {"                "}

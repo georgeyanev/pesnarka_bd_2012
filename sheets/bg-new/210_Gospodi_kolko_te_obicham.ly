@@ -6,38 +6,7 @@
 \bookpart {
   \label #'ref210
   \tocItem \markup "Господи, колко Те обичам"
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
-
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-      ""
-    }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 11)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
-  }
+  \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
 
@@ -63,8 +32,8 @@
       a'4.. ( ^\!  bes'16 ) g'4 f'4 | % 11
       es'4.. ( f'16 ) d'2 | % 12
       \time 3/4  | % 12
-      r2 b4 ^\p | % 13
-      d'2 ^\< c'4 ^\! \break | % 14
+      r2 b4 ^\p | \break % 13
+      d'2 ^\< c'4 ^\!  | % 14
       b2 r4 | % 15
       \once \override Hairpin.to-barline = ##f
       a2 ^\> b4 | % 16
@@ -73,9 +42,9 @@
       r8 r8 b16 ( [ ^\mp d'16 ) ] | % 18
       \once \override Hairpin.to-barline = ##f
       g'4 ^\< fis'16 ( [ g'16 ) ] | % 19
-      b'4 ^\! a'16 ( [ g'16 ) ] |
+      b'4 ^\! a'16 ( [ g'16 ) ] | \break
       \once \override Hairpin.to-barline = ##f
-      fis'4 ^\> e'8 \break | % 21
+      fis'4 ^\> e'8  | % 21
       e'4 ( fis'8 ) | % 22
       d'4. ^\! | % 23
       g'16 ( [ a'16 ) ]
@@ -88,19 +57,19 @@
       \times 2/3  {
         c''16 ( [  d''16  c''16 ) ]
       }
-      b'4  | \once \omit TupletBracket
+      b'4  |\break \once \omit TupletBracket
       \times 2/3  {
         a'16 ( [ g'16 fis'16 ) ]
       } g'4 ( ~
-      | \break
+      |
       g'4 \times 2/3  { a'16 [b'16 c''16] }| % 28
       \time 2/4 d''8 -.   e''8 -.  fis''8 -.
       g''8 -.) | \time 3/8 d''4
       b'16 ( [  c''16 ) ] |
       b'4  a'8 | % 31
       g'8.  fis'16 ( a'32 [ g'32
-      fis'32 e'32 ) ] | % 32
-      d'4 c'8 \break | % 33
+      fis'32 e'32 ) ] | \break % 32
+      d'4 c'8  | % 33
       c'4 ( d'8 ) | % 34
       b4. \bar "||"
       \time 3/4  | % 35

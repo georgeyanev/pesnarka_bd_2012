@@ -30,7 +30,7 @@
     }
 
     \addlyrics {
-      \set stanza = "1." Зо -- ра се чуд -- на за -- зо -- ря -- ва, __ зо --
+      \set stanza = "1. " Зо -- ра се чуд -- на за -- зо -- ря -- ва, __ зо --
       ра на све -- тъл нов жи -- вот; __ с~ве -- ли -- ко --
       ле -- пи -- е о -- гря -- ва __  по -- спре -- ли -- я се
       наш ки -- вот. __  В~но -- ви -- я све -- тъл тоз жи -- вот, __
@@ -52,11 +52,10 @@
 
   \pageBreak
 
-  \markup \vspace #1
-
-  \markup \abs-fontsize #11 {
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
     \fill-line {
+    
+
       \column {
         \line {
           \bold "2."

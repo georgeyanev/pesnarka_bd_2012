@@ -8,41 +8,7 @@
   \tocItem \markup "Мирът иде II"
   \include "include/bookpart-paper.ily"
   \score {
-    \layout {
-      indent = 0.0\cm % remove first line indentation
-      ragged-last = ##f % do spread last line to fill the whole space
-      \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
-      \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-      
-
-      \context {
-        \Score
-        \omit BarNumber %remove bar numbers
-        \override KeySignature.X-offset = #-1.2 % decrease keysigniture offset
-        \override TimeSignature.X-offset = #-1.8 % decrease time signiture offset
-        \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
-        \override TupletNumber.font-size = #0.4 % increase the triol number
-
-      } % context
-
-      \context {
-        % change staff size
-        \Staff
-        fontSize = #+0 % affects notes size only
-        \override StaffSymbol.staff-space = #(magstep -3)
-        \override StaffSymbol.thickness = #0.5
-        \override BarLine.hair-thickness = #1
-        %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
-      }
-
-      \context {
-        % adjust space between staff and lyrics and between the two lyric lines
-        \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((padding . 0.9))
-        \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-        includeGraceNotes = ##t
-      }
-    } % layout
+    \include "include/score-layout.ily"
 
     \new Voice \relative c' {
       \clef treble
@@ -181,33 +147,33 @@
     }
 
     \addlyrics {
-      И -- де ве -- че, | и -- де | "с~пал" -- мо -- во __ клон -- че |
-      на "ми-" -- ра. | Сли -- за той от -- | Го -- ре, | сли -- за той, вес -- |
-      ти -- тел благ. | И -- де ве -- че __ | "с~пал" -- мо -- во "клон-" -- че |
+      И -- де ве -- че, | и -- де | с~пал -- мо -- во __ клон -- че |
+      на ми -- ра. | Сли -- за той от -- | Го -- ре, | сли -- за той, вес -- |
+      ти -- тел благ. | И -- де ве -- че __ | с~пал -- мо -- во клон -- че |
       ка -- то си -- | я -- ни -- е. | И -- де ми -- рът __ |
       о -- бе -- щан със | не -- го -- ви -- я __ | пог -- лед чист. |
-      Всич -- ки ду -- ши __ | поз -- дра -- вя -- | ва, | "всич-" -- ки "сър-" -- ца "вдъх-" -- но -- вя -- |
-      ва "с~ли" -- | ка си | благ, мил, о -- за -- | рен. |
-      "Ра-" -- дост и ве -- се -- ли -- е раз -- | на -- ся той на -- | вред, къ -- де --
+      Всич -- ки ду -- ши __ | поз -- дра -- вя -- | ва, | всич -- ки сър -- ца вдъх -- но -- вя -- |
+      ва с~ли -- | ка си | благ, мил, о -- за -- | рен. |
+      Ра -- дост и ве -- се -- ли -- е раз -- | на -- ся той на -- | вред, къ -- де --
       то ми -- не. | И -- де той във  | ран -- ни -- те зо -- | ри, |
       Слън -- це -- то ко -- | га -- то __ про -- сти -- ра свой -- те мил -- ва -- |
       щи ръ -- це __ и бу -- ди | вся -- ко се -- ме, | вся -- ко цвет -- че, |
       сво -- и -- те де -- | ца. Пол -- ски -- те цве -- | тя със __ |
       а -- ро -- мат __ | го по -- сре -- | щат. Мал -- ки -- те гор -- ски |
       птич -- ки от __ въз -- | торг __ | пес -- ни пе -- ят не -- му |
-      и све -- жи -- те | стру -- и | на "пла-" -- нин -- ски | из -- вор -- че -- та |
+      и све -- жи -- те | стру -- и | на пла -- нин -- ски | из -- вор -- че -- та |
       тук ли -- ку -- | ват. | Злат -- ни ни -- ви | бла -- го -- го -- вей -- но |
       кла -- со -- ве на -- | веж -- дат. | Ця -- ла -- та При -- | ро -- да __ |
       е __ храм ве -- | лик. | И -- де ан -- гел | на ми -- ра |
-      "в~то" -- зи __ | храм да слу -- | жи. | А |
+      в~то -- зи __ | храм да слу -- | жи. | А |
       сто -- и чо -- | ве -- | кът | пред | све -- ти -- я ол -- |
-      тар. | О -- гън го -- | ри | там, "в~све" -- | ще -- ни -- я ол -- |
-      тар. | И "с~мо" -- | лит -- | ва __ във ду -- | ша |
+      тар. | О -- гън го -- | ри | там, в~све -- | ще -- ни -- я ол -- |
+      тар. | И с~мо -- | лит -- | ва __ във ду -- | ша |
       Бо -- жи -- я вес -- | ти -- тел | ча -- ка | той. |
       И -- де ве -- че __ | ан -- гел на ми -- ра със |
       клон -- че пал -- мо -- | во и же -- зъл. | Сли -- за той от -- го -- ре, |
-      цар -- ствен и "же-" -- лан кат | слън -- че -- ва ус -- | мив -- ка бла -- га |
-      и "с~ра" -- дост | пъл -- ни сър -- | ца -- та ни той. |
+      цар -- ствен и же -- лан кат | слън -- че -- ва ус -- | мив -- ка бла -- га |
+      и с~ра -- дост | пъл -- ни сър -- | ца -- та ни той. |
     }
 
     \header {

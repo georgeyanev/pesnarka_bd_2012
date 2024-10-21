@@ -4,9 +4,9 @@
 \include "include/globals.ily"
 
 \bookpart {
-  
-   \tocAct \markup"Допълнение"
-    \paper {
+
+  \tocAct \markup"Допълнение"
+  \paper {
     print-all-headers = ##f
     print-page-number = ##f
     print-first-page-number = ##f
@@ -32,9 +32,10 @@
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
   }
 
-  \markup { {  \vspace #13.2 } }
+  \markup { {  \vspace #18 } }
 
- \markup \fontsize  #+7 { \fill-line \bold {"ДОПЪЛНЕНИЕ"} }
+  \markup \abs-fontsize #21 { \fill-line {"Допълнение "} }
+
 
   % include foreign translation(s) of the song
   %

@@ -5,36 +5,45 @@
 \bookpart {
   \label #'ref146
   \tocItem \markup "Българска рапсодия"
+  \tocItem \markup "Обетована земя"
   \paper {
     print-all-headers = ##t
     print-page-number = ##t
     print-first-page-number = ##t
 
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
+
+    % put page numbers on the top and change the font style.
+    oddHeaderMarkup = \markup
     \fill-line {
       ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
     }
-    evenFooterMarkup = \markup
+    %% evenHeaderMarkup would inherit the value of
+    %% oddHeaderMarkup if it were not defined here
+    evenHeaderMarkup = \markup
     \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
       ""
     }
 
+    oddFooterMarkup = \markup ""
+
+    evenFooterMarkup = ""
     left-margin = 1.5\cm
     right-margin = 1.5\cm
-    top-margin = 1.6\cm
+    top-margin = 1\cm
     bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+    top-markup-spacing.basic-distance = 0\mm % margin between page number and system for the first page
+    top-system-spacing.basic-distance = 10\mm % margin between page number and system for the other pages
 
     % change distance between staves
     system-system-spacing =
-    #'((basic-distance . 11)
+    #'((basic-distance . 15)
        (minimum-distance . 6)
-       (padding . 1)
+       (padding . 3)
        (stretchability . 12))
   }
   \score {
@@ -239,7 +248,6 @@
       a4 a |
       \time 3/4 \break \bar ":|."
 
-      \override TupletBracket.positions = #'(3 . 3)
       \tempo "ad libitum"
       \tuplet 3/2 8 { c16\>\mp([b g a b g]) c16([b g a b g]) c16([b g) b(a g\!\p])  } | \noBreak
       \tempo"rit." a4 a2 \fermata | \bar "||" \time 7/16 \break
@@ -267,15 +275,15 @@
 
     \addlyrics {
       Там го -- ре __ край из -- во -- ра срещ -- нах мо -- ма за --
-      смя -- на, __ там го -- ре "срещ-" -- нах Ли -- ля -- на. __ ""
+      смя -- на, __ там го -- ре срещ -- нах Ли -- ля -- на. __ ""
       \repeat unfold 21 { \skip 1 }
-      Из -- "во-" -- рът стру -- и, из -- ви -- ра __ и "чис-" -- ти во -- ди раз -- ли -- ва, __
-      пла -- "нин-" -- ска пе -- сен раз -- низ -- ва. __
-      Mо -- "ма-" -- та мен -- ци на -- ли -- ва, __
-      "в~пе-" -- сен -- та "ти-" -- хо се за -- слуш -- ва. __ ""
+      Из -- во -- рът стру -- и, из -- ви -- ра __ и чис -- ти во -- ди раз -- ли -- ва, __
+      пла -- нин -- ска пе -- сен раз -- низ -- ва. __
+      Mо -- ма -- та мен -- ци на -- ли -- ва, __
+      в~пе -- сен -- та ти -- хо се за -- слуш -- ва. __ ""
       \repeat unfold 31 { \skip 1  }
       Ще о -- ти -- да та -- мо го -- ре, ще о -- ти -- да
-      "в~пла-" -- ни -- на -- та, чис -- ти во -- ди да по -- гле -- дам, ти -- ха пе -- сен
+      в~пла -- ни -- на -- та, чис -- ти во -- ди да по -- гле -- дам, ти -- ха пе -- сен
       да по -- слу -- шам, ще о -- ти -- да та -- мо.
       \repeat unfold 27 { \skip 2 }
       Чис -- ти во -- ди да по -- гле -- дам, ти -- ха пе -- сен да по -- слу -- шам,
@@ -284,17 +292,17 @@
       Ли -- ля -- но, не чу -- я, ах, __ от таз во -- да а -- ко не пи -- я, __
       скръб ще ми пъл -- ни сър -- це -- то. __ ""
       \repeat unfold 97 { \skip 1 }
-      Ли -- "ля-" -- но "мо-" -- ме, ти "в~пла-" -- "ни-" -- "на-" -- та
+      Ли -- ля -- но мо -- ме, ти в~пла -- ни -- на -- та
       там го -- ре ще ме за -- ве -- деш, из -- во -- рът де -- то из -- ви -- ра.
       \repeat unfold 30 { \skip 1 }
-      Го -- ре "в~пла-" -- ни -- на -- та, "Слън-" -- це дей о --
+      Го -- ре в~пла -- ни -- на -- та, Слън -- це дей о --
       гря -- ло сред тре -- ви зе -- ле -- ни, сред цве -- тя за -- сме -- ни.
       Го -- ре в~пла -- ни -- на -- та, Слън -- це дей о -- гря -- ло.
       \repeat unfold 5 { \skip 1 }
-      Там го -- ре __ край из -- во -- ра "срещ-" -- нах мо -- ма зас -- мя -- на, __
-      там го -- ре "срещ-" -- нах Ли -- ля -- на. __ ""
+      Там го -- ре __ край из -- во -- ра срещ -- нах мо -- ма зас -- мя -- на, __
+      там го -- ре срещ -- нах Ли -- ля -- на. __ ""
       \repeat unfold 13 { \skip 1 }
-      Там го -- ре "срещ-" -- нах Ли -- ля -- на. __ ""
+      Там го -- ре срещ -- нах Ли -- ля -- на. __ ""
     }
 
     \header {

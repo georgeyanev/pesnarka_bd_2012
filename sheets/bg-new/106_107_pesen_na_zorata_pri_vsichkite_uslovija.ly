@@ -10,7 +10,6 @@
   \score {
     \include "include/score-layout.ily"
 
-
     \new Voice \relative c' {
       \clef treble
       \key d \major
@@ -35,7 +34,7 @@
 
       e8 [( d ] e [d ]) | d2 | a'4. g8  |  e8 [( d8  ] e8 [d8 ]) | d2 | \break
 
-      \time 3/4 d8 fis a a a a | d, fis a \tempo "rit." a a a \bar "||" \key d \major \time 2/4 \tempo "Tempo I" d4 a8 b | \break \pageBreak
+      \time 3/4 d8 fis a a a a | d, fis a \tempo "rit." a a a \bar "||" \key d \major \time 2/4 \tempo "Tempo I" d4 a8 b | \break
 
       a8 fis d e | fis fis e4| a2 | g4 b8 b | a g fis d | \break
 
@@ -79,6 +78,8 @@
     \midi{}
 
   } % score
+
+  \markup \vspace #6
 
   \label #'ref107
   \tocItem \markup "При всичките условия"

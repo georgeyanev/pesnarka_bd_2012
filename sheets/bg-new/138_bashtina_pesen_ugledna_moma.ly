@@ -5,74 +5,10 @@
 \bookpart {
   \label #'ref138
   \tocItem \markup "Бащина песен – Угледна мома"
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
+  \include "include/bookpart-paper.ily"
 
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-      ""
-    }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 11.5)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
-  }
   \score {
-    \layout {
-      indent = 0.0\cm % remove first line indentation
-      ragged-last = ##f % do spread last line to fill the whole space
-      \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
-      \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-      
-
-      \context {
-        \Score
-        \omit BarNumber %remove bar numbers
-        \override KeySignature.X-offset = #-1.2 % decrease keysigniture offset
-        \override TimeSignature.X-offset = #-1.8 % decrease time signiture offset
-        \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
-        \override TupletNumber.font-size = #0.4 % increase the triol number
-
-      } % context
-
-      \context {
-        % change staff size
-        \Staff
-        fontSize = #+0 % affects notes size only
-        \override StaffSymbol.staff-space = #(magstep -3)
-        \override StaffSymbol.thickness = #0.5
-        \override BarLine.hair-thickness = #1
-        %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
-      }
-
-      \context {
-        % adjust space between staff and lyrics and between the two lyric lines
-        \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((padding . 1))
-        \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-        includeGraceNotes = ##t
-      }
-    } % layout
+    \include "include/score-layout.ily"
 
     \new Voice  \relative c' {
       \clef treble
@@ -342,7 +278,7 @@
       Тъй, пъл -- на и ве -- се -- ла,  тя до -- ма се връ -- ща, май -- ка __ си __
       ми -- ло прег -- ръ -- ща. Ху -- ба -- ва __ мо -- ма се, син -- ко, по --
       зна -- ва, __ ко -- га __ ло -- зе ко -- па -- е __ и то __
-      и -- "зо-" -- бил -- но "гроз-" -- де да -- ва. Ло -- зе __ мо -- "мин-" -- ски ръ -- це __
+      и -- зо -- бил -- но гроз -- де да -- ва. Ло -- зе __ мо -- мин -- ски ръ -- це __
       доб -- ре по -- зна -- ва, __ ло -- зе мо -- мин -- ски ръ -- це
       до -- бре по -- зна -- ва, ло -- зе мо -- мин -- ски ръ -- це __
       до -- бре по -- зна -- ва. Ху -- ба -- ва мо -- ма __ се, син -- ко,
@@ -355,15 +291,15 @@
       до -- бре по -- зна -- ва, не -- я жи -- то до -- бре по -- зна -- ва.
       Ху -- ба -- ва мо -- ма се, син -- ко, до -- бре по -- зна -- ва, __
       ко -- га на гум -- но __  жи -- то от -- вя -- ва __ и във ре --
-      ше -- то __ го пре -- ся -- ва, __ "в~жит-" -- "ни-" -- ци го ту -- ря __
-      и на __  бед -- ни хляб да -- ва. __ Не -- я "всич-" -- ки,
+      ше -- то __ го пре -- ся -- ва, __ в~жит -- ни -- ци го ту -- ря __
+      и на __  бед -- ни хляб да -- ва. __ Не -- я всич -- ки,
       мал -- ки и го -- ле -- ми, до -- бре я по -- зна -- ват, __
       не -- я всич -- ки, мал -- ки и го -- ле -- ми, до -- бре
       я по -- зна -- ват. __ Ум -- на мо -- ма, син -- ко, се по --
       зна -- ва, __ ко -- га кни -- га във ръ -- це си взе -- ма __
       и скри -- то бъ -- де -- ще раз -- га -- да -- ва. Тя всич -- ко във жи --
-      во -- та на мяс -- то по -- ста -- вя. "Ху-" -- "ба-" -- ва "мо-" -- ма,
-      "син-" -- ко, е "ро-" -- са, що зе -- мя о -- ро -- ся ва.
+      во -- та на мяс -- то по -- ста -- вя. Ху -- ба -- ва мо -- ма,
+      син -- ко, е ро -- са, що зе -- мя о -- ро -- ся ва.
       Тя е ан -- гел, що от Го -- ре и -- де, при хо -- ра
       сли -- за  и в~до -- ма им мир и ра -- дост вна -- ся.
       Тя е свет -- ла кат зо -- ра -- та, тя е ми -- ла

@@ -7,41 +7,7 @@
   \tocItem \markup "Скитах се по гори и планини"
   \include "include/bookpart-paper.ily"
   \score {
-      \layout {
-        indent = 0.0\cm % remove first line indentation
-        ragged-last = ##f % do spread last line to fill the whole space
-        \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
-        \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-        
-
-        \context {
-          \Score
-          \omit BarNumber %remove bar numbers
-          \override KeySignature.X-offset = #-1.2 % decrease keysigniture offset
-          \override TimeSignature.X-offset = #-1.8 % decrease time signiture offset
-          \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
-          \override TupletNumber.font-size = #0.4 % increase the triol number
-
-        } % context
-
-        \context {
-          % change staff size
-          \Staff
-          fontSize = #+0 % affects notes size only
-          \override StaffSymbol.staff-space = #(magstep -3)
-          \override StaffSymbol.thickness = #0.5
-          \override BarLine.hair-thickness = #1
-          %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
-        }
-
-        \context {
-          % adjust space between staff and lyrics and between the two lyric lines
-          \Lyrics
-          \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((padding . 1))
-          \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-          includeGraceNotes = ##t
-        }
-      } % layout
+    \include "include/score-layout.ily"
 
     \new Staff = main \relative c' {
       \clef treble
@@ -106,16 +72,16 @@
 
         \new Staff \with {
           \override VerticalAxisGroup.default-staff-staff-spacing =
-          #'((basic-distance . 4.5)
-             (padding . -10))
+          #'((basic-distance . 5.5)
+             (padding . -8))
           \remove "Time_signature_engraver"
           alignAboveContext = #"main"
-          fontSize = #-1
-          \override StaffSymbol.staff-space = #(magstep -4)
-          \override StaffSymbol.thickness = #(magstep -4)
+          fontSize = #-1.5
+          \override StaffSymbol.staff-space = #(magstep -2)
+          \override StaffSymbol.thickness = #(magstep -2)
           firstClef = ##f
         }
-        {\autoBeamOff a16 ^\markup { \huge \italic "ossia по В. Несторова"} fis16 g a g8. fis16 g2}
+        {\autoBeamOff a16 ^\markup { \large \italic "ossia по В. Несторова"} fis16 g a g8. fis16 g2}
       >>
       \break | % 15
 
@@ -153,9 +119,9 @@
     \addlyrics {
       Ски -- тах __  се __  по го -- ри
       и пла -- ни -- ни. Е -- дин Не --
-      зна -- ен ме "при-" -- дру -- жа  --
+      зна -- ен ме при -- дру -- жа  --
       ва -- ше. Кач -- вах -- ме и сли
-      -- зах -- ме "пла-" -- "нин-" -- ски свет --
+      -- зах -- ме пла -- нин -- ски свет --
       ли вър -- хо -- ве и хо -- дей --
       ки, Той ви -- на -- ги с~мен бе.
       Там го -- ре ви -- дях __  аз Не --

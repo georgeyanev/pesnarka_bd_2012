@@ -6,38 +6,7 @@
 \bookpart {
   \label #'ref169_1
   \tocItem \markup "Кажи ми Ти Истината III"
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
-
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-      ""
-    }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 9)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
-  }
+  \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
 
@@ -94,7 +63,7 @@
     }
     \addlyrics {
       Ка -- жи ми Ти Ис -- ти -- на -- та,
-      ко -- я -- то но -- си "сво-" -- бо --
+      ко -- я -- то но -- си сво -- бо --
       да за мо -- я -- та ду -- ша. __ ""
 
       \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
@@ -102,8 +71,8 @@
       \skip1 \skip1 \skip1
 
 
-      Ка -- жи ми Ти "Ис-" -- "ти-" --
-      на -- та, ко -- я -- то но -- си "сво-"
+      Ка -- жи ми Ти Ис -- ти --
+      на -- та, ко -- я -- то но -- си сво
       -- бо -- да за мо -- я -- та ду --
       ша.}
 
@@ -115,7 +84,7 @@
 
     } % score
 
-
+    \markup \vspace #4
     \label #'ref171_2
     \tocItem \markup "Аз мога да дишам"
 
@@ -144,7 +113,6 @@
         \alternative {
           {
             c'2 g4 |
-
           }
           {c'2 \bar "|."  }
         }

@@ -6,24 +6,12 @@
 "rightBraces051" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -5.5 )
-    \right-brace #20
-
-    \translate #'(0 . -10.0 )
-    \right-brace #20
-
-    \translate #'(0 . -10.0 )
+    \translate #'(0 . -7.7 )
     \right-brace #20
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -6.1 )
-    2
-
-    \translate #'(0 . -12.0 )
-    2
-
-    \translate #'(0 . -12.0 )
+    \translate #'(0 . -8.4 )
     2
   }
 }
@@ -50,53 +38,56 @@
     }
 
     \addlyrics {
-      "1. О," У -- чи -- те -- лю бла -- га -- ти, теб из -- пъл -- ва доб -- ри --
+      \set stanza = "1. " О, У -- чи -- те -- лю бла -- га -- ти, теб из -- пъл -- ва доб -- ри --
       на. Твой -- те ду -- ми са кри -- ла -- ти, пъл -- ни
       с~мъд -- рост, свет -- ли -- на. Твой -- те на.
     }
 
     \header {
-      title = \titleFunc #'ref_desc_2 "О, Учителю благати" "O, Učitelju blagati "
+      title = \titleFunc #'ref_desc_2 "О, Учителю благати" "O, Učitelju blagati"
     }
 
     \midi{}
 
   } % score
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #15
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line {   2. Пратеник си ти от Бога}
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+    
+    \fill-line {
+      \column {
+        \line {
+          \bold "2."
+          \column {
+            "Пратеник си ти от Бога"
+            "всред измъчени души,"
+            "мир, любов ти в нас да влееш,"
+            "нов живот, честити дни."
 
-      \line {   "   "всред измъчени души,}
+          }\"rightBraces051"
+        }
+        \vspace #1
+        \line {
+          \bold "3."
+          \column {
+            "В скърби, мъки и неволи"
+            "само ти си наш подслон,"
+            "ти утеха ни донесе,"
+            "мой Учителю, поклон!"
+          }\"rightBraces051"
+        }
+        \vspace #1
+        \line {
+          \bold "4."
+          \column {
+            "Твойте думи – бисер чисти,"
+            "твоят образ – светлина,"
+            "о, Учителю честити,"
+            "влей в сърца ни топлина!"
+          }\"rightBraces051"
+        }
 
-      \line {   "   "мир, любов ти в нас да влееш,}
-
-      \line {   "   "нов живот, честити дни.}
-
-      \line {   "   "}
-
-      \line {   3. В скърби, мъки и неволи }
-
-      \line {   "   "само ти си наш подслон,}
-
-      \line {   "   "ти утеха ни донесе,}
-
-      \line {   "   "мой Учителю, поклон!}
-
-      \line {   "   "}
-
-      \line {   4. Твойте думи – бисер чисти,}
-
-      \line {   "   "твоят образ – светлина,}
-
-      \line {   "   "о, Учителю честити,}
-
-      \line {   "   "влей в сърца ни топлина!}
-    }\"rightBraces051"
-
-  } % markup
-
+      }
+    }
+  }
 
 } % bookpart

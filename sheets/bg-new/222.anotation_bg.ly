@@ -44,7 +44,7 @@
   \markup { {  \vspace #3.0 } }
 
   \markup \fontsize  #+4.0 { \fill-line \bold {"Редактори" }}
- \markup \fontsize  #+3.5 { \hspace #20 {"Петър Ганев" \concat { \raise #-0.9 \fontsize #6 "·" } "Мария Кирева" } }
+  \markup \fontsize  #+3.5 { \hspace #26 {"Петър Ганев" \concat { \raise #-0.9 \fontsize #6 "·" } "Мария Кирева" } }
   \markup { {  \vspace #0.1 } }
   %\markup \fontsize  #+3.5 { \fill-line {"" } }
   \markup { {  \vspace #2.5 } }
@@ -68,7 +68,7 @@
   %\markup \fontsize  #+2.5 { \fill-line  {"izdatelstvo.bratstvo@gmail.com"} }
   %\markup \fontsize  #+2.5 { \fill-line  {"www.bialobratstvo.bg"} }
   \markup { {  \vspace #0.5 } }
-   \markup \fontsize  #+2.5 { \fill-line  {"www.beinsasongs.eu"} }
+  \markup \fontsize  #+2.5 { \fill-line  {"www.beinsasongs.eu"} }
   \markup { {  \vspace #0.5 } }
   \markup \fontsize  #+2.5 { \fill-line {"София 2024"} }
   \markup { {  \vspace #2.5 } }

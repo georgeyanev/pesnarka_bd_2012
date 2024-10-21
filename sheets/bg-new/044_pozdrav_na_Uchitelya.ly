@@ -33,7 +33,7 @@
     }
 
     \addlyrics {
-      \set stanza = "1."  Бла -- гос -- ло -- вен от Бо -- га ти, У -- чи -- те --
+      \set stanza = "1. "  Бла -- гос -- ло -- вен от Бо -- га ти, У -- чи -- те --
       лю на Лю -- бов -- та, за -- де -- то тък -- мо
       в~те -- зи дни до -- не -- се мир и свет -- ли -- на.
       Доб -- ре до -- шъл, доб -- ре до -- шъл,
@@ -50,56 +50,76 @@
 
   } % score
 
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+    \fill-line {
+      \hspace #0.1
+      \column {
+        \line {
+          \bold "2."
+          \column {
+            "Обвити в мрак до този час, "
+            "ний бяхме роби на греха, "
+            "но чухме Твоя кротък глас "
+            "и лъхна към нас топлина. "
+          }
+        }
 
-  
-
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line { 2. Обвити в мрак до този час, }
-      \line { "   " ний бяхме роби на греха, }
-
-      \line { "   " но чухме Твоя кротък глас }
-
-      \line { "   " и лъхна към нас топлина. }
-      \line { "   " }
-
-      \line { "   " \italic{Припев: } Добре дошъл ... }
-      \line { "   " }
-      \line { 3. Учителю благословен, }
-
-      \line { "   " Ти ни сърцата обнови, }
-
-      \line { "   " запали огън в нас свещен }
-
-      \line { "   " и сладки думи оживи. }
-
-      \line { "   " }
-
-      \line { "   " \italic{Припев:} Добре дошъл ... }
-
+        \vspace #1
+        \line {
+          \bold " "
+          \column {
+            \line {   \italic  "  Припев:" Добре дошъл ...}
+          }
+        }
+      }
+      \hspace #0.1
+      % adds horizontal spacing between columns
+      \column {
+        \line {
+          \bold "3."
+          \column {
+            "Учителю благословен,"
+            "Ти ни сърцата обнови,"
+            "запали огън в нас свещен"
+            "и сладки думи оживи."
+          }
+        }
+        \vspace #1
+        \line {
+          \bold " "
+          \column {
+            \line {   \italic  "  Припев:" Добре дошъл ...}
+          }
+        }
+        % adds vertical spacing between verses
+      }\hspace #0.1
     }
-
-    \hspace #3
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line { 4. Учителю, наш скъпи гост, }
-
-      \line { "   " привет от нас Ти приеми; }
-
-      \line { "   " със радост ний готови сме }
-
-      \line { "   " да жертваме живота свой. }
-
-        \line { "   " }
-
-      \line { "   " \italic{Припев:} Добре дошъл ... }
+  }
+  \markup \vspace #0.8
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+    
+    \fill-line {
+      \column {
+        \line {
+          \bold "4."
+          \column {
+            "Учителю, наш скъпи гост,"
+            "привет от нас Ти приеми; "
+            "със радост ний готови сме"
+            "да жертваме живота свой."
+          }
+        }
+        \vspace #1
+        \line {
+          \bold " "
+          \column {
+            \line {   \italic  "  Припев:" Добре дошъл ...}
+          }
+        }
+      }
     }
+  }
 
-
-
-  } % markup
 
 
 

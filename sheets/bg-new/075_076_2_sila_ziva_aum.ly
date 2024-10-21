@@ -39,6 +39,8 @@
   \markup \dc-one "2 D.C."
   \markup \huge \italic \dc-one-nobold "(песентта се изпълнява три пъти)"
 
+  \markup \vspace #5
+
   \label #'ref076_2
   \tocItem \markup "Сила жива"
   \include "include/bookpart-paper.ily"
@@ -65,16 +67,16 @@
 
         \new Staff \with {
           \override VerticalAxisGroup.default-staff-staff-spacing =
-          #'((basic-distance . 4.5)
+          #'((basic-distance . 5.5)
              (padding . -10))
           \remove "Time_signature_engraver"
           alignAboveContext = #"main"
-          fontSize = #-1
-          \override StaffSymbol.staff-space = #(magstep -4)
-          \override StaffSymbol.thickness = #(magstep -4)
+          fontSize = #-1.5
+          \override StaffSymbol.staff-space = #(magstep -2)
+          \override StaffSymbol.thickness = #(magstep -2)
           firstClef = ##f
         }
-        {\autoBeamOff c''8 ^\markup { \huge \italic "ossia по М. Тодорова"}  d''8 b'8.}
+        {\autoBeamOff c''8 ^\markup { \large \italic "ossia по М. Тодорова"}  d''8 b'8.}
       >>
 
 
@@ -84,7 +86,7 @@
       \key g \minor \repeat volta 2 { d'8 d'' d''8. | d'8 c'' c''8. | d'8 bes' bes'8. | a'8 g' g' g'16 | g'4 ~ g'8. } \break |
 
       \repeat volta 2 { a'8 a' a' c''16 | bes'4 ~ bes'8. | a'8 g' g' g'16 |}
-      \alternative { {  g'4 ( ~ g'8 f'16 )  | } { \override Score.MetronomeMark.outside-staff-priority = #99 \override Score.MetronomeMark.X-extent=#'(0.5 . 2) g'4~\tempo "   Fine" g'8. | \bar "|."} }
+      \alternative { {  g'4 ( ~ g'8 f'16 )  | } { \override Score.MetronomeMark.outside-staff-priority = #99 \override Score.MetronomeMark.X-extent=#'(0.5 . 2) g'4~\tempo " Fine" g'8. | \bar "|."} }
 
 
     }

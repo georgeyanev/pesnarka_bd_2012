@@ -28,8 +28,6 @@
 
       d'8 d' d' e' f'2 | g'8 f' e' d' c'2 \break \bar ":|.:"
 
-
-
       c''8 b' a' g' a' g' g' g' |  c''8 b' a' g' a' g' g' g' \break |
 
       a'8 g' f' e' g'2 | d'8 d' d' e' f'2 | g'8 f' e' d' c'2
@@ -51,8 +49,8 @@
     \addlyrics {
       Бла -- гост,
       бла -- гост, бла -- гост но -- си, но -- си, но --
-      си "свет-" -- ли -- на -- та, "свет-" -- ли -- на -- та,
-      "свет-" -- ли -- на -- та. Ра -- дост но -- си за
+      си свет -- ли -- на -- та, свет -- ли -- на -- та,
+      свет -- ли -- на -- та. Ра -- дост но -- си за
       жи -- во -- та, ра -- дост но -- си за жи -- во
       -- та, ра -- дост но -- си за жи -- во -- та, за
       жи -- во -- та тя, за жи -- во -- та тя, за жи
@@ -77,7 +75,7 @@
 
   \markup \dc-one "D.C. al Fine"
 
-  \markup \empty-two
+  \markup \vspace #14
   \label #'ref073
   \tocItem \markup "Сладко, медено"
   \include "include/bookpart-paper.ily"
@@ -91,17 +89,10 @@
       \tempoFunc "Allegretto" 4 "104"
       \autoBeamOff
 
-
       d'8 d' e' fis' |g'2 | a'8 g' fis' e' | d'2  \bar ":|.:"  |
-
       a'8 a' a'4 | \break  b'8 b' b'4 | d''8 c'' b' a' | \tempo "                 Fine" g'2  \bar ":|.:" |
-
-
-
       d''4 g'' | fis''4 e'' | \break
-
       e''4 fis''8 e'' | d''2  |
-
       <<
         {
 
@@ -110,16 +101,16 @@
 
         \new Staff \with {
           \override VerticalAxisGroup.default-staff-staff-spacing =
-          #'((basic-distance . 4.5)
+          #'((basic-distance . 5.5)
              (padding . -10))
           \remove "Time_signature_engraver"
           alignAboveContext = #"main"
-          fontSize = #-1
-          \override StaffSymbol.staff-space = #(magstep -4)
-          \override StaffSymbol.thickness = #(magstep -4)
+          fontSize = #-1.5
+          \override StaffSymbol.staff-space = #(magstep -2)
+          \override StaffSymbol.thickness = #(magstep -2)
           firstClef = ##f
         }
-        { b'4^\markup { \huge \italic "ossia по М. Тодорова" } c'' | b'4 a' | }
+        { b'4^\markup { \large \italic "ossia по М. Тодорова" } c'' | b'4 a' | }
       >>
 
 
@@ -129,7 +120,7 @@
     }
 
     \addlyrics {
-      "Слад-" -- ко,
+      Слад -- ко,
       ме -- де -- но, слад -- ко, ме -- де -- но, ме --
       де -- но, ме -- де -- но, слад -- ко, ме -- де --
       но. От Слън -- це -- то из -- пра -- те -- но,

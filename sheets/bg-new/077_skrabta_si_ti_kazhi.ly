@@ -11,29 +11,37 @@
     print-page-number = ##t
     print-first-page-number = ##t
 
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
+
+    % put page numbers on the top and change the font style.
+    oddHeaderMarkup = \markup
     \fill-line {
       ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
     }
-    evenFooterMarkup = \markup
+    %% evenHeaderMarkup would inherit the value of
+    %% oddHeaderMarkup if it were not defined here
+    evenHeaderMarkup = \markup
     \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
       ""
     }
 
+    oddFooterMarkup = \markup ""
+
+    evenFooterMarkup = ""
     left-margin = 1.5\cm
     right-margin = 1.5\cm
-    top-margin = 1.6\cm
+    top-margin = 1\cm
     bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+    top-markup-spacing.basic-distance = 0\mm % margin between page number and system for the first page
+    top-system-spacing.basic-distance = 10\mm % margin between page number and system for the other pages
 
     % change distance between staves
     system-system-spacing =
-    #'((basic-distance . 10)
+    #'((basic-distance . 14.5)
        (minimum-distance . 6)
        (padding . 1)
        (stretchability . 12))
@@ -49,7 +57,7 @@
       \omit Score.TimeSignature
       \cadenzaOn % allows custom bar lines
       \tempoFunc "Andante" 4 "63"
-      \override Staff.BarLine.gap = 0.5
+
       \autoBeamOff
 
       g4 b d d8. e16 d 2  \bar "!"  d4 e e a g8. g16 fis2 \bar  "!" \break
@@ -70,24 +78,24 @@
     }
 
     \addlyrics {
-      Скръб -- та си ти "ка-"  -- жи,
+      Скръб -- та си ти ка  -- жи,
       сър -- це си ти от -- во -- ри
-      на слън -- че -- ви "лъ-" -- чи,
-      на слън -- че -- ви "лъ-" -- чи,
-      на слън -- че -- ви "лъ-" -- чи,
-      на слън -- че -- ви "лъ-" -- чи.
+      на слън -- че -- ви лъ -- чи,
+      на слън -- че -- ви лъ -- чи,
+      на слън -- че -- ви лъ -- чи,
+      на слън -- че -- ви лъ -- чи.
       Лъ -- чи от Бо -- га
-      бла -- гост ще ти до -- "не-" -- сат
-      и в~ду -- "-ша" ти ра -- дост ще "вне-" -- сат,
-      и в~ду -- "-ша" ти ра -- дост ще "вне-" -- сат,
-      и в~ду -- "-ша" ти ра -- дост ще "вне-" -- сат,
-      и в~ду -- "-ша" ти ра -- дост ще "вне-" -- сат,
-      и в~ду -- "-ша" ти ра -- дост ще "вне-" -- сат,
-      ра -- дост ще "вне-" -- сат, ра -- дост ще "вне-" -- сат,
-      ра -- дост ще "вне-" -- сат, ра -- дост ще "вне-" -- сат,
-      ра -- дост ще "вне-" -- сат, ра -- дост ще "вне-" -- сат,
-      ра -- дост ще "вне-" -- сат, ра -- дост ще "вне-" -- сат,
-      и в~ду -- "-ша" ти ра -- дост ще "вне-" -- сат.}
+      бла -- гост ще ти до -- не -- сат
+      и в~ду -- ша ти ра -- дост ще вне -- сат,
+      и в~ду -- ша ти ра -- дост ще вне -- сат,
+      и в~ду -- ша ти ра -- дост ще вне -- сат,
+      и в~ду -- ша ти ра -- дост ще вне -- сат,
+      и в~ду -- ша ти ра -- дост ще вне -- сат,
+      ра -- дост ще вне -- сат, ра -- дост ще вне -- сат,
+      ра -- дост ще вне -- сат, ра -- дост ще вне -- сат,
+      ра -- дост ще вне -- сат, ра -- дост ще вне -- сат,
+      ра -- дост ще вне -- сат, ра -- дост ще вне -- сат,
+      и в~ду -- ша ти ра -- дост ще вне -- сат.}
 
 
       \header {

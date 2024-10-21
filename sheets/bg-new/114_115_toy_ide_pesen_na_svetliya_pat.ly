@@ -6,38 +6,7 @@
 \bookpart {
   \label #'ref114
   \tocItem \markup "Той иде"
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
-
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-      ""
-    }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 10)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
-  }
+  \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
 
@@ -94,9 +63,9 @@
       ят,   да   по  --  ма  --  га   Той, __  Мощ  --  ни  --  ят,
       Сил  --  ни  --  ят,   да   по  --  ма  --  га   Той, __    да   по  --
       ма  --  га   Той, __    да   по  --  ма  --  га   Той. __   Ний   ще   ра
-      --  "бо-"  --  тим   със   "лю-"  --  бов,   ще   ра  --  бо  --  тим
-      със   "лю-"  --  бов,   да   по  --  ма  --  га   Той,   да   по  --
-      ма  --  га    Той,   Мощ  --  "ни-"  --  ят,   Сил  --  ни  --
+      --  бо  --  тим   със   лю  --  бов,   ще   ра  --  бо  --  тим
+      със   лю  --  бов,   да   по  --  ма  --  га   Той,   да   по  --
+      ма  --  га    Той,   Мощ  --  ни  --  ят,   Сил  --  ни  --
       ят,   да   по  --  ма  --  га   Той,   да   по  --  ма  --  га
       Той,   да   по  --  ма  --  га   Той,   да   по  --  ма  --  га
       Той.
@@ -113,12 +82,10 @@
   \markup \dc-one "D.C al Fine"
 
 
-
   \label #'ref115
   \tocItem \markup "Песен на светлия път"
   \score {
     \include "include/score-layout.ily"
-
 
 
     \new Voice \relative c' {

@@ -8,42 +8,7 @@
   \tocItem \markup "Божията Любов ме озари"
   \include "include/bookpart-paper.ily"
   \score {
-    \layout {
-      indent = 0.0\cm % remove first line indentation
-      ragged-last = ##f % do spread last line to fill the whole space
-      \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
-      \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-
-
-      \context {
-        \Score
-        \omit BarNumber %remove bar numbers
-        \override KeySignature.X-offset = #-1.2 % decrease keysigniture offset
-        \override TimeSignature.X-offset = #-1.8 % decrease time signiture offset
-        \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
-        \override TupletNumber.font-size = #0.4 % increase the triol number
-
-      } % context
-
-      \context {
-        % change staff size
-        \Staff
-        fontSize = #+0 % affects notes size only
-        \override StaffSymbol.staff-space = #(magstep -3)
-        \override StaffSymbol.thickness = #0.5
-        \override BarLine.hair-thickness = #1
-        %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
-      }
-
-      \context {
-        % adjust space between staff and lyrics and between the two lyric lines
-        \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((padding . 1))
-        \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-        includeGraceNotes = ##t
-      }
-    } % layout
-
+    \include "include/score-layout.ily"
     \new Staff = main \absolute {
       \clef treble
       \key a \major
@@ -74,16 +39,15 @@
         {
           gis'4 fis'8 e'8 b'4 \tempo "rit." a'8 fis'8 ^\> a'8  b'8 \break |
         }
-
         \new Staff \with {
           \override VerticalAxisGroup.default-staff-staff-spacing =
-          #'((basic-distance . 6.5)
-             (padding . -10))
+          #'((basic-distance . 5.5)
+             (padding . 1))
           \remove "Time_signature_engraver"
           alignAboveContext = #"main"
-          fontSize = #-1
-          \override StaffSymbol.staff-space = #(magstep -4)
-          \override StaffSymbol.thickness = #(magstep -4)
+          fontSize = #-1.5
+          \override StaffSymbol.staff-space = #(magstep -2)
+          \override StaffSymbol.thickness = #(magstep -2)
           firstClef = ##f
         }
         {  \time 5/4  \autoBeamOff g'!4^\markup { \huge \italic "ossia по Л. Т." } f'8 e'8 b'4 a'8_\markup { \large \bold "rit." } f'8 ^\> a'8  b'8^\!  \break |  }
@@ -140,12 +104,12 @@
         \new Staff \with {
           \override VerticalAxisGroup.default-staff-staff-spacing =
           #'((basic-distance . 5.5)
-             (padding . -10))
+             (padding . 1))
           \remove "Time_signature_engraver"
           alignAboveContext = #"main"
-          fontSize = #-1
-          \override StaffSymbol.staff-space = #(magstep -4)
-          \override StaffSymbol.thickness = #(magstep -4)
+          fontSize = #-1.5
+          \override StaffSymbol.staff-space = #(magstep -2)
+          \override StaffSymbol.thickness = #(magstep -2)
           firstClef = ##f
         }
         {  b'4^\markup { \huge \italic "ossia по Л. Т."}  a'4  c''!4  b'8 ( [  a'8 ])  }
@@ -182,7 +146,7 @@
       Бо -- жест -- ве -- на Лю -- бов __
       ду -- ша ми раз -- ши -- ри
       и из -- пъл -- ни сър -- це -- то
-      ми с~лъ -- чи. От "дъл-" -- бо -- ки
+      ми с~лъ -- чи. От дъл -- бо -- ки
       глъ -- би -- ни пов -- диг -- на
       ду -- ха ми във ви -- си -- ни на
       кри -- ла -- та си бла -- го -- сло
@@ -213,41 +177,7 @@
     \tocItem \markup "Песента на ангелите "
     \include "include/bookpart-paper.ily"
     \score {
-      \layout {
-        indent = 0.0\cm % remove first line indentation
-        ragged-last = ##f % do spread last line to fill the whole space
-        \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
-        \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-
-
-        \context {
-          \Score
-          \omit BarNumber %remove bar numbers
-          \override KeySignature.X-offset = #-1.2 % decrease keysigniture offset
-          \override TimeSignature.X-offset = #-1.8 % decrease time signiture offset
-          \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
-          \override TupletNumber.font-size = #0.4 % increase the triol number
-
-        } % context
-
-        \context {
-          % change staff size
-          \Staff
-          fontSize = #+0 % affects notes size only
-          \override StaffSymbol.staff-space = #(magstep -3)
-          \override StaffSymbol.thickness = #0.5
-          \override BarLine.hair-thickness = #1
-          %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
-        }
-
-        \context {
-          % adjust space between staff and lyrics and between the two lyric lines
-          \Lyrics
-          \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((padding . 1))
-          \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-          includeGraceNotes = ##t
-        }
-      } % layout
+      \include "include/score-layout.ily"
 
       \new Voice \absolute {
         \clef treble
@@ -437,7 +367,7 @@
         чу -- е -- те гла -- са на ан
         --  ге -- ли -- те, ко -- и
         --  то пе -- ят. Те пе --
-        ят пе -- "сен-" -- та на Лю -- бов
+        ят пе -- сен -- та на Лю -- бов
         -- та. Те пе -- ят: „Ви -- е, че --
         ло -- ве -- ци -- те, ко -- и --
         то сте съз -- да -- де -- ни --
@@ -447,10 +377,10 @@
         ши -- я Тво -- рец, __ слу --
         шай -- те __  гла -- са __  на ва
         -- шия Ба -- ща, Кой -- то днес
-        ви __  го -- во -- ри. Слу -- "шай-"
+        ви __  го -- во -- ри. Слу -- шай
         -- те Го. Слу -- шай -- те Го
         вий, и ни -- е съ -- що Го слу --
-        ша -- ме. "Вър-" -- ше -- те Во -- ля --
+        ша -- ме. Вър -- ше -- те Во -- ля --
         та Му, и ни -- е съ -- що вър --
         шим Во -- ля -- та __  Му. То -- зи
         е сми -- съ -- лът на  жи -- во

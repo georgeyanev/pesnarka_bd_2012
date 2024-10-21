@@ -3,47 +3,19 @@
 % include paper part and global functions
 \include "include/globals.ily"
 
-"rightBraces058_1" = \markup {
+"rightBraces058" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -5.8 )
+    \translate #'(0 . -7.8 )
     \right-brace #20
-
-    \translate #'(0 . -14.8 )
-    \right-brace #20
-
-
-
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -6.5 )
-    2
-    \translate #'(0 . -16.8 )
+    \translate #'(0 . -8.5 )
     2
   }
 }
 
-"rightBraces058_2" = \markup {
-  \column {
-    % repeat braces
-    \translate #'(0 . -5.8 )
-    \right-brace #20
-
-    \translate #'(0 . -14.8 )
-    \right-brace #20
-
-
-
-  }
-  \column {
-    % repeat numbers
-    \translate #'(0 . -6.5 )
-    2
-    \translate #'(0 . -16.8 )
-    2
-  }
-}
 
 
 
@@ -76,7 +48,7 @@
     }
 
     \addlyrics {
-      "1. На" -- го -- ре о -- ще да вър -- вим, към вър -- хо -- ве -- те бе --
+      \set stanza = "1. "  На -- го -- ре о -- ще да вър -- вим, към вър -- хо -- ве -- те бе --
       ли, е -- фи -- ра бял да поз -- дра -- вим и снеж -- ни -- те крис --
       та -- ли, е -- ли. Ху -- бост -- та на Бо -- жи свят,
       бе -- ли -- на -- та, наш е цвят;  веч -- на си -- ла и --
@@ -92,71 +64,85 @@
   } % score
 
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #3
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){
+    \fill-line {
+      \hspace #0.1
+      \column {
+        \line {
+          \bold "2."
+          \column {
+            "Нагоре още! Там цъфти"
+            "алпийска роза бяла,"
+            "зората белите лъчи"
+            "в таз роза е изляла"
+          }\"rightBraces058"
+        }
 
-      \line {   2. Нагоре още! Там цъфти }
-      \line {   "   " алпийска роза бяла, }
-      \line {   "   " зората белите лъчи }
-      \line {   "   " в таз роза е изляла. }
-      \line { " " }
-
-      \line { "        " \italic {Припев ... } }
-      \line { " " }
-
-
-      \line {  3. Нагоре! Бяло Слънце днес }
-
-      \line {   "   "от изток ще изгрее  – }
-
-      \line {   "   "емблема жива на онез,}
-
-      \line {   "   "в които Бог живее.}
-      \line { " " }
-      \line { "        " \italic {Припев ... } }
-
-
-
-
-    }    \"rightBraces058_1"
-
-    \hspace #3
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-
-    \column {
-
-
-
-      \line {   4. Нагоре – в тази белина!}
-
-      \line {   "   "Тя всъде ще изпълни}
-
-      \line {   "   "и гибелната тъмнина}
-
-      \line {   "   "в бял ден ще се превърне.}
-
-      \line { " " }
-
-      \line { "        " \italic {Припев ... } }
-      \line { " " }
-
-
-      \line {   5. Земята ще разхубавим,}
-
-      \line {   "   "на Рай ще я направим;}
-
-      \line {   "   "Небето ще развеселим}
-
-      \line {   "   "и Бога ще прославим.}
-      \line { " " }
-      \line { "        " \italic {Припев ... } }
-    }\"rightBraces058_2"
-
-
-  }   % markup
-
+        \vspace #1
+        \line {
+          \bold " "
+          \column {
+            \italic "  Припев ..."
+          }
+        }
+        \vspace #0.5
+        \line {
+          \bold "3."
+          \column {
+            "Нагоре! Бяло Слънце днес"
+            "от изток ще изгрее  –"
+            "емблема жива на онез,"
+            "в които Бог живее."
+          }\"rightBraces058"
+        }
+        \vspace #1
+        \line {
+          \bold " "
+          \column {
+            \italic "  Припев ..."
+          }
+        }
+      }
+      \hspace #0.1
+      % adds horizontal spacing between columns
+      \column {
+        \line {
+          \bold "4."
+          \column {
+            "Нагоре – в тази белина!"
+            "Тя всъде ще изпълни"
+            "и гибелната тъмнина"
+            "в бял ден ще се превърне."
+          }\"rightBraces058"
+        }
+        \vspace #1
+        \line {
+          \bold " "
+          \column {
+            \italic "  Припев ..."
+          }
+        }
+        % adds vertical spacing between verses
+        \vspace #0.5
+        \line {
+          \bold "5."
+          \column {
+            "Земята ще разхубавим,"
+            "на Рай ще я направим;"
+            "Небето ще развеселим"
+            "и Бога ще прославим."
+          }\"rightBraces058"
+        }
+        \vspace #1
+        \line {
+          \bold " "
+          \column {
+            \italic "  Припев ..."
+          }
+        }
+      }\hspace #0.1
+    }
+  }
 
 
 } % bookpart

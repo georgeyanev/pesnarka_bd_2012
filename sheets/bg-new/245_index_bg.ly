@@ -6,38 +6,57 @@
 \bookpart {
   \tocItem \markup "Азбучен показател"
   \paper {
-    print-all-headers = ##f
-    print-page-number = ##f
-    print-first-page-number = ##f
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
 
     % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
+    oddHeaderMarkup = \markup {
+
+      \fill-line {
+        ""
+        \if \should-print-page-number  \abs-fontsize #10 {
+          \bold \fromproperty #'page:page-number-string
+
+        }
+      }
     }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-      ""
+    evenHeaderMarkup = \markup {
+
+      \fill-line {
+        \if \should-print-page-number \abs-fontsize #10 {
+          \bold  \fromproperty #'page:page-number-string
+          ""
+        }
+      }
     }
 
+    oddFooterMarkup = \markup ""
+
+    evenFooterMarkup = ""
     left-margin = 1.5\cm
     right-margin = 1.5\cm
-    top-margin = 1.6\cm
+    top-margin = 1\cm
     bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+    top-markup-spacing.basic-distance = 8\mm
+    top-system-spacing.basic-distance = 10\mm
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 16)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
   }
 
   \markup \large \column {
-    \fill-line { \null \fontsize #+2.5 \bold "АЗБУЧЕН ПОКАЗАТЕЛ" \null }
+    \fill-line { \null \abs-fontsize #16 "Азбучен показател" \null }
     \hspace #1
   }
 
-  \markup \override #'(line-width . 32) \fontsize  #+2.2 {
-    \override #'(baseline-skip . 2.2) \column {
+  \markup \override #'(line-width . 42) \abs-fontsize #10 {
+    \override #'(baseline-skip . 3) \column {
       \with-link #'ref137 \fill-with-pattern #1 #RIGHT . "А бре, синко" \page-ref #'ref137 "000" "?"
       \with-link #'ref171_2 \fill-with-pattern #1 #RIGHT . "Аз мога да дишам" \page-ref #'ref171_2 "000" "?"
       \with-link #'ref109 \fill-with-pattern #1 #RIGHT . "Аз смея да кажа" \page-ref #'ref109 "000" "?"
@@ -81,11 +100,13 @@
       \with-link #'ref174_1 \fill-with-pattern #1 #RIGHT . "Да бих Тe слушал" \page-ref #'ref174_1 "000" "?"
       \with-link #'ref110_1 \fill-with-pattern #1 #RIGHT . "Да имаш вяра" \page-ref #'ref110_1 "000" "?"
       \with-link #'ref092_2 \fill-with-pattern #1 #RIGHT . "Давай, давай" \page-ref #'ref092_2 "000" "?"
+      \with-link #'ref118_1 \fill-with-pattern #1 #RIGHT . "Денят иде" \page-ref #'ref118_1 "000" "?"
 
     }
     \hspace #2.6
-    \override #'(baseline-skip . 2.2) \column {
-      \with-link #'ref118_1 \fill-with-pattern #1 #RIGHT . "Денят иде" \page-ref #'ref118_1 "000" "?"
+    \override #'(baseline-skip . 3) \column {
+
+      
       \with-link #'ref182 \fill-with-pattern #1 #RIGHT . "Десет теми" \page-ref #'ref182 "000" "?"
       \with-link #'ref063 \fill-with-pattern #1 #RIGHT . "Дишай дълбоко" \page-ref #'ref063 "000" "?"
       \with-link #'ref253 \fill-with-pattern #1 #RIGHT . "Добрата молитва" \page-ref #'ref253 "000" "?"
@@ -128,13 +149,15 @@
       \with-link #'ref165 \fill-with-pattern #1 #RIGHT . "Малкият планински извор" \page-ref #'ref165 "000" "?"
       \with-link #'ref162 \fill-with-pattern #1 #RIGHT . "Марш на светлите сили" \page-ref #'ref162 "000" "?"
       \with-link #'ref254 \fill-with-pattern #1 #RIGHT . "Марш на светлите сили II" \page-ref #'ref254 "000" "?"
+     \with-link #'ref080 \fill-with-pattern #1 #RIGHT . "Махар Бену Аба" \page-ref #'ref080 "000" "?"
+    \with-link #'ref175_2 \fill-with-pattern #1 #RIGHT . "Ме-хейн" \page-ref #'ref175_2 "000" "?"
     }
   }
 
-  \markup \override #'(line-width . 32) \fontsize  #+2.2 {
-    \override #'(baseline-skip . 2.2) \column {
-      \with-link #'ref080 \fill-with-pattern #1 #RIGHT . "Махар Бену Аба" \page-ref #'ref080 "000" "?"
-      \with-link #'ref175_2 \fill-with-pattern #1 #RIGHT . "Ме-хейн" \page-ref #'ref175_2 "000" "?"
+  \markup \override #'(line-width . 42) \abs-fontsize #10 {
+    \override #'(baseline-skip . 3) \column {
+     
+      
       \with-link #'ref175_2 \fill-with-pattern #1 #RIGHT . "Ме-хейн II" \page-ref #'ref175_2_2 "000" "?"
       \with-link #'ref185 \fill-with-pattern #1 #RIGHT . "Мелодия 1 – Красив живот" \page-ref #'ref185 "000" "?"
       \with-link #'ref186 \fill-with-pattern #1 #RIGHT . "Мелодия 2" \page-ref #'ref186 "000" "?"
@@ -144,6 +167,7 @@
       \with-link #'ref251_2 \fill-with-pattern #1 #RIGHT . "Мелодия 4 – Озарение" \page-ref #'ref251_2 "000" "?"
       \with-link #'ref171_1 \fill-with-pattern #1 #RIGHT . "Милост, благост" \page-ref #'ref171_1 "000" "?"
       \with-link #'ref038 \fill-with-pattern #1 #RIGHT . "Милосърдието" \page-ref #'ref038 "000" "?"
+      \with-link #'ref155_2 \fill-with-pattern #1 #RIGHT . "Мирът иде вече" \page-ref #'ref155_2 "000" "?"
       \with-link #'ref156 \fill-with-pattern #1 #RIGHT . "Мирът иде" \page-ref #'ref156 "000" "?"
       \with-link #'ref158 \fill-with-pattern #1 #RIGHT . "Мирът иде II" \page-ref #'ref158 "000" "?"
       \with-link #'ref093 \fill-with-pattern #1 #RIGHT . "Мисли, право мисли" \page-ref #'ref093 "000" "?"
@@ -179,12 +203,12 @@
       \with-link #'ref132 \fill-with-pattern #1 #RIGHT . "Правда" \page-ref #'ref132 "000" "?"
       \with-link #'ref107 \fill-with-pattern #1 #RIGHT . "При всичките условия" \page-ref #'ref107 "000" "?"
       \with-link #'ref118_2 \fill-with-pattern #1 #RIGHT . "Пролет" \page-ref #'ref118_2 "000" "?"
+      \with-link #'ref181 \fill-with-pattern #1 #RIGHT . "Пролетна песен (Ето пристига)" \page-ref #'ref181 "000" "?"
 
     }
 
     \hspace #2.6
-    \override #'(baseline-skip . 2.2) \column {
-      \with-link #'ref181 \fill-with-pattern #1 #RIGHT . "Пролетна песен (Ето пристига)" \page-ref #'ref181 "000" "?"
+    \override #'(baseline-skip . 3) \column {
       \with-link #'ref124 \fill-with-pattern #1 #RIGHT . "Пролетна песен (Мили Боже)" \page-ref #'ref124 "000" "?"
       \with-link #'ref057 \fill-with-pattern #1 #RIGHT . "Псалом 91" \page-ref #'ref057 "000" "?"
       \with-link #'ref174_3 \fill-with-pattern #1 #RIGHT . "Радост" \page-ref #'ref174_3 "000" "?"

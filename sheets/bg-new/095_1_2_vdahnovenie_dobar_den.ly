@@ -11,7 +11,6 @@
   \score {
     \include "include/score-layout.ily"
 
-
     \new Voice \absolute  {
       \clef treble
       \key c \major
@@ -50,42 +49,10 @@
   } % score
 
 
+
   \label #'ref095_2
   \tocItem \markup "Добър ден"
-
-
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
-
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-      ""
-    }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 10)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
-  }
+  \include "include/bookpart-paper.ily"
 
   \score {
     \include "include/score-layout.ily"
@@ -114,9 +81,9 @@
       До -- бър
       ден е свет -- ли -- ят ден. Ху -- бав и кра --
       сив е той! Всич -- ко о -- за -- ря -- ва, всич
-      -- ко о -- жи -- вя -- ва и "в~жи-" -- во -- та Бо
+      -- ко о -- жи -- вя -- ва и в~жи -- во -- та Бо
       -- жи -- е -- то бла -- го той раз -- да -- ва,
-      и "в~жи-" -- во -- та Бо -- жи -- е -- то бла -- го
+      и в~жи -- во -- та Бо -- жи -- е -- то бла -- го
       той раз -- да -- ва.
 
     }

@@ -23,16 +23,16 @@
         }
         \new Staff \with {
           \override VerticalAxisGroup.default-staff-staff-spacing =
-          #'((basic-distance . 6.5)
-             (padding . -10))
+          #'((basic-distance . 5.5)
+             (padding . 1))
           \remove "Time_signature_engraver"
           alignAboveContext = #"main"
-          fontSize = #-1
-          \override StaffSymbol.staff-space = #(magstep -4)
-          \override StaffSymbol.thickness = #(magstep -4)
+          fontSize = #-1.5
+          \override StaffSymbol.staff-space = #(magstep -2)
+          \override StaffSymbol.thickness = #(magstep -2)
           firstClef = ##f
         }
-        {  c4.^\markup { \huge \italic "ossia по К. Икономов"}  f,2.}
+        {  c4.^\markup { \large \italic "ossia по К. Икономов"}  f,2.}
       >>
 
 

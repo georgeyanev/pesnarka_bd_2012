@@ -8,41 +8,7 @@
   \tocItem \markup "Добрата молитва "
   \include "include/bookpart-paper.ily"
   \score {
-    \layout {
-      indent = 0.0\cm % remove first line indentation
-      ragged-last = ##f % do spread last line to fill the whole space
-      \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
-      \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-
-
-      \context {
-        \Score
-        \omit BarNumber %remove bar numbers
-        \override KeySignature.X-offset = #-1.2 % decrease keysigniture offset
-        \override TimeSignature.X-offset = #-1.8 % decrease time signiture offset
-        \override MetronomeMark.font-size = #1.5 % increase the tempo fontsize
-        \override TupletNumber.font-size = #0.4 % increase the triol number
-
-      } % context
-
-      \context {
-        % change staff size
-        \Staff
-        fontSize = #+0 % affects notes size only
-        \override StaffSymbol.staff-space = #(magstep -3)
-        \override StaffSymbol.thickness = #0.5
-        \override BarLine.hair-thickness = #1
-        %\override StaffSymbol.ledger-line-thickness = #'(0 . 0)
-      }
-
-      \context {
-        % adjust space between staff and lyrics and between the two lyric lines
-        \Lyrics
-        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((padding . 1))
-        \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 2))
-        includeGraceNotes = ##t
-      }
-    } % layout
+    \include "include/score-layout.ily"
 
     \new Voice  \absolute {
       \clef treble
@@ -179,20 +145,20 @@
 
     \addlyrics {
       Гос -- по -- ди Бо -- же наш,
-      "Бла-" -- гий ни "Не-" -- "бе-" -- сен Ба -- ща, "Кой-"
+      Бла -- гий ни Не -- бе -- сен Ба -- ща, Кой
       -- то Си ни по -- да -- рил жи -- вот и здра --
       ве да  __ Ти се рад -- ва -- ме, мо -- лим Ти се,
-      "из-" -- "про-" -- во -- ди ни Ду --
+      из -- про -- во -- ди ни Ду --
       хът Си да ни па -- зи и за -- кри -- ля от вся --
-      ко зло и лу -- ка -- во "по-" -- миш -- ле -- ни
+      ко зло и лу -- ка -- во по -- миш -- ле -- ни
       -- е. На -- у -- чи -- ни -- да пра -- вим Тво
       -- я -- та Во -- ля, да ос -- ве -- тя -- ва
       -- ме Тво -- е -- то И -- ме и да Те сла --
       во -- сло -- вим ви -- на -- ги. Ос -- ве -- тя
-      вай ду -- хът __ ни, "про-" -- све -- ща -- вай
-      "сър-"  -- ца -- та и у -- мът ни, да "па-" -- зим
+      вай ду -- хът __ ни, про -- све -- ща -- вай
+      сър  -- ца -- та и у -- мът ни, да па -- зим
       Твои -- те за -- по -- ве -- ди и по -- ве
-      -- ле -- ни -- я. "Вдъх-" -- вай в~нас с~при -- съст --
+      -- ле -- ни -- я. Вдъх -- вай в~нас с~при -- съст --
       ви -- е -- то Си чис -- ти -- те Си мис -- ли
       и ни у -- път -- вай да Ти слу -- жим със ра
       -- дост. Жи -- во -- тът си, кой -- то по -- све
@@ -208,14 +174,14 @@
       -- шим за Тво -- е -- то И -- ме, да е за
       ус -- пе -- ха на Тво -- е -- то Цар -- ство
       на Зе -- мя -- та. Хра -- ни ду -- ши -- те ни
-      с~не -- бес -- ни -- я Си хляб. "Ук-" -- ре -- пя --
+      с~не -- бес -- ни -- я Си хляб. Ук -- ре -- пя --
       вай ни със Си -- ла -- та Си, да ус -- пя
       -- ва -- ме в~жи -- во -- та си. И ка -- то ни
       да -- ваш всич -- ки -- те Тво -- и бла --
-      "го-" -- "сло-" -- ве -- ни -- я, "при-" -- ло -- жи
-      "Лю-" -- бов -- та Си да  __ ни е ве -- чен --
+      го -- сло -- ве -- ни -- я, при -- ло -- жи
+      Лю -- бов -- та Си да  __ ни е ве -- чен --
       за -- кон. За -- що -- то на Теб при -- на --
-      дле -- жи Цар -- "ство-" -- то, Си -- ла -- та и Сла
+      дле -- жи Цар -- ство -- то, Си -- ла -- та и Сла
       -- ва -- та за -- ви -- на -- ги. А -- мин.}
 
       \header {

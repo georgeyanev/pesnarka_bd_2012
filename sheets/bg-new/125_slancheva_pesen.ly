@@ -5,38 +5,7 @@
 \bookpart {
   \label #'ref125
   \tocItem \markup "Слънчева песен – пчелна мушичка"
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
-
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-      ""
-    }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 11)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
-  }
+  \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
 
@@ -114,27 +83,27 @@
 
     \addlyrics {
       Про --
-      лет е веч, "свет-" -- ло и "топ-" -- ло
+      лет е веч, свет -- ло и топ -- ло
       е нав -- ред: Слън -- це гре --
-      е, да, "про-" -- лет е дош -- ла. Ра
-      -- дост бли -- ка "в~ко-" -- "ше-" -- ра
+      е, да, про -- лет е дош -- ла. Ра
+      -- дост бли -- ка в~ко -- ше -- ра
       ни: бън, всич -- ки бър -- зат да
-      "из-" -- "ля-" -- зат вън. Те до -- ла --
-      вят "про-" -- "лет-" -- ни -- я "цве-" -- тен
-      а -- ро -- мат, __ "спу-" -- щат се
-      към "цъф-" -- "на-" -- ли -- я цвят.
-      "С~ра-" -- дост те "пра-" -- шец съ --
-      би -- рат и "по-" -- "на-" -- сят го към
-      "цъф-" -- на -- ли -- я цвят. Ра --
-      дост бли -- ка "в~ко-" -- ше -- ра
+      из -- ля -- зат вън. Те до -- ла --
+      вят про -- лет -- ни -- я цве -- тен
+      а -- ро -- мат, __ спу -- щат се
+      към цъф -- на -- ли -- я цвят.
+      С~ра -- дост те пра -- шец съ --
+      би -- рат и по -- на -- сят го към
+      цъф -- на -- ли -- я цвят. Ра --
+      дост бли -- ка в~ко -- ше -- ра
       ни: бън, всич -- ки бър -- зат да
       из -- ля -- зат вън. Бън -- зън,
-      бън -- зън, "сла-" -- дък мед за ва --
-      зи ни -- е "гот-" -- вим, "въз-" -- "лю-" --
-      "бе-" -- те "бла-" -- "ги-" -- я "Тво-" -- рец.
-      "Въз-" -- "лю-" -- "бе-" -- те "бла-" -- "ги-" -- я
-      Тво -- рец. Да "въз-" -- "лю-" -- бим "на-"
-      -- ши -- я ве -- лик и благ "Тво-" --
+      бън -- зън, сла -- дък мед за ва --
+      зи ни -- е гот -- вим, въз -- лю --
+      бе -- те бла -- ги -- я Тво -- рец.
+      Въз -- лю -- бе -- те бла -- ги -- я
+      Тво -- рец. Да въз -- лю -- бим на
+      -- ши -- я ве -- лик и благ Тво --
       рец. Бън! Зън! Бън! Зън!
     }
 

@@ -61,7 +61,7 @@
     }
 
     \addlyrics {
-      "1. Към" Ри -- ла с~мощ -- на ми -- съл ле -- тим ний
+      \set stanza = "1. " Към Ри -- ла с~мощ -- на ми -- съл ле -- тим ний
       все -- ки ден. __ В~гър -- ди -- те с~туй же -- ла --
       ние жи -- ве -- ем в~свят не -- тлен. "В~гър -" тлен. __
     }
@@ -74,42 +74,55 @@
 
   } % score
 
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #8
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
+  \markup \abs-fontsize #11  \override #`(baseline-skip . ,bgCoupletBaselineSkip){
+    \fill-line {
+      \hspace #0.1
+      \column {
+        \line {
+          \bold "2."
+          \column {
+            "Отново ще се срещнем"
+            "при рилските очи."
+            "Тук нашата цигулка"
+            "с нов тон ще зазвучи."
+          }
+        }
 
-      \line { 2. Отново ще се срещнем  }
-      \line {   "   " при рилските очи. }
-      \line {   "   " Тук нашата цигулка }
-      \line {   "   " с нов тон ще зазвучи. }
+      }
+      \hspace #0.1
+      % adds horizontal spacing between columns
+      \column {
+        \line {
+          \bold "3."
+          \column {
+            "Душите ни  – цигулки"
+            "ще леят красота,"
+            "защото с тях ще свири"
+            "доброто, Любовта."
+          }
+        }
+        % adds vertical spacing between verses
 
-      \line { " " }
-      \line { 3. Душите ни  – цигулки }
-      \line {   "   " ще леят красота, }
-      \line {   "   " защото с тях ще свири  }
-      \line {   "   " доброто, Любовта. }
-
+      }\hspace #0.1
     }
-
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
+  }
 
 
-      \line { 4. Ще идем ний на Рила, }
-      \line {   "   " ще видим Мусала, }
-      \line {   "   " безкрайната природа  }
-      \line {   "   " и своя мил Баща. }
-
-
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){
+    
+    \fill-line {
+      \column {
+        \vspace #1
+        \line {
+          \bold "4."
+          \column {
+            "Ще идем ний на Рила,"
+            "ще видим Мусала,"
+            "безкрайната природа"
+            "и своя мил Баща."
+          }
+        }
+      }
     }
-
-
-  } % markup
-
-
-
-
-
+  }
 } % bookpart

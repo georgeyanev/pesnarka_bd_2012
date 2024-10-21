@@ -7,12 +7,12 @@
 "rightBraces022" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -7.7 )
-    \right-brace #18
+    \translate #'(0 . -8.2 )
+    \right-brace #20
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -8.7 )
+    \translate #'(0 . -9 )
     2
   }
 }
@@ -43,7 +43,7 @@
       f'4. g'8 a'4 \staccato a'4. d'8 | f'4. d'8 f'4 e'2 | \time 2/4 d'4. a8 | \time 5/4 d'4 d'2 r8 \bar "|."
     }
     \addlyrics {
-      \set stanza = "1." Из -- гря -- ва ве -- че ден тър -- жест -- вен, __ пред -- ре -- че
+      \set stanza = "1. " Из -- гря -- ва ве -- че ден тър -- жест -- вен, __ пред -- ре -- че
       -- ни -- ят ден Бо -- жест -- вен, на дни --
       те ди -- а -- де -- ма, със свет -- ли -- на го
       -- ля -- ма. Е -- ла -- те да жи -- ве -- ем във
@@ -64,9 +64,8 @@
 
   \pageBreak
 
-  \markup \vspace #1
-  \markup \abs-fontsize #11 {
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
     \fill-line {
       \column {
         \line {
@@ -75,7 +74,7 @@
             "И носи радост за душата,"
             "и прогласява свободата,"
             "и мир с Любов пресвята"
-            "за всички на Земята."
+            "за всички на земята."
           }
         }
         \vspace #1

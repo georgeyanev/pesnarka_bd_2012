@@ -4,6 +4,8 @@
 \include "include/globals.ily"
 
 \bookpart {
+
+  \tocAct \markup"Приложение"
   \paper {
     print-all-headers = ##f
     print-page-number = ##f
@@ -23,20 +25,20 @@
       ""
     }
 
-    \tocAct  \markup "Приложение"
-
     left-margin = 1.5\cm
     right-margin = 1.5\cm
     top-margin = 1.6\cm
     bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-
   }
 
-   \markup { {  \vspace #13.2 } }
+  \markup { {  \vspace #18 } }
 
- \markup \fontsize  #+7 { \fill-line \bold {"ПРИЛОЖЕНИE"} }
+  \markup \abs-fontsize #21 { \fill-line {"Приложение "} }
+
+
+  % include foreign translation(s) of the song
+  %
 
 } % bookpart
 

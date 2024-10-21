@@ -6,45 +6,13 @@
 \bookpart {
   \label #'ref135
   \tocItem \markup "Аин фаси"
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
-
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-      ""
-    }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.6\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 11.5)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
-  }
+   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
 
     \new Voice \relative c' {
       \clef treble
       \key d \minor
-      \override Staff.BarLine.gap = 0.5
 
       \time 5/4
       \tempoFunc "Andante" 4 "63"
@@ -120,16 +88,16 @@
       A -- ин фа -- си, ме -- кри за --
       си, фин --   зе -- мру А -- шан
       --    ме --  ру. Су
-      -- а си син __      "ме-" --
+      -- а си син __      ме --
       сул. Су -- ма си зен __    фе
       --  сул, Су -- а си син __
       ме --  сул. Су -- ма си __
-      зен __  фе --  сул, "Су-" --
+      зен __  фе --  сул, Су --
       ма си __  зен __  фе  --
       сул. Във не -- бес -- ни -- те ши --
       ри -- ни, във не -- бес -- ни -- те
       глъ -- би -- ни, във не -- бес -- ни
-      -- те ви -- "си-" -- ни, де Свет --
+      -- те ви -- си -- ни, де Свет --
       ли -- на __  о -- би -- та --
       ва и в~жи -- во
       --  та веч -- но __   се __

@@ -38,7 +38,7 @@
     }
 
     \addlyrics {
-      \set stanza = "1." Вре -- ме е да вър -- вим, зло -- то да по -- бе -- дим, ми -- ра
+      \set stanza = "1. " Вре -- ме е да вър -- вим, зло -- то да по -- бе -- дим, ми -- ра
       да въд -- во -- рим, Хри -- ста да въз -- ца -- рим! __   Прав -- да
       ще въ -- ве -- дем, сво -- бо -- да ще да -- дем и през всич -- ки -- те
       дни вер -- ни ще сме ний. __  Да ца -- ру -- ва Лю -- бов -- та! __
@@ -54,8 +54,8 @@
 
   } % score
   \markup \vspace #1
-  \markup \abs-fontsize #11 {
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+    
     \fill-line {
       \column {
         \line {

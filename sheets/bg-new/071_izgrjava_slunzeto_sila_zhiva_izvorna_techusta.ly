@@ -42,7 +42,7 @@
 
   % include foreign translation(s) of the song
 
-  \markup \empty-one
+  \markup \vspace #2
 
   \label #'ref071_2
   \tocItem \markup "Сила жива, изворна"

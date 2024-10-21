@@ -6,7 +6,46 @@
 \bookpart {
   \label #'ref254
   \tocItem \markup "Марш на светлите сили II"
-  \include "include/bookpart-paper.ily"
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+
+    % put page numbers on the top and change the font style.
+    oddHeaderMarkup = \markup
+    \fill-line {
+      ""
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+    }
+    %% evenHeaderMarkup would inherit the value of
+    %% oddHeaderMarkup if it were not defined here
+    evenHeaderMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
+      ""
+    }
+
+    oddFooterMarkup = \markup ""
+
+    evenFooterMarkup = ""
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+    top-markup-spacing.basic-distance = 0\mm % margin between page number and system for the first page
+    top-system-spacing.basic-distance = 10\mm % margin between page number and system for the other pages
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 18)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
   \score {
     \include "include/score-layout.ily"
 
@@ -54,7 +93,7 @@
     }
 
     \addlyrics {
-      Ду -- хо -- ве на Свет -- ли -- на -- та стъп -- ват ле -- ко в~ти -- ши -- на -- та.
+      \set stanza = "1. " Ду -- хо -- ве на Свет -- ли -- на -- та стъп -- ват ле -- ко в~ти -- ши -- на -- та.
 
       Сли --  зат те в~ре -- ди -- ци бе -- ли от ви -- со -- ки -- те пре -- де -- ли.
 
@@ -62,19 +101,19 @@
 
       и е -- то: __ раж -- дат се и -- де -- и, свет --  ли, но -- ви,
 
-      как да "смък-" -- нем теж -- ки -- те о -- ко -- ви на
+      как да смък -- нем теж -- ки -- те о -- ко -- ви на
 
-      "враж-" -- ди без -- смис -- ле -- ни, ве -- ков -- ни, в~мир да за -- жи -- ве -- ем
+      враж -- ди без -- смис -- ле -- ни, ве -- ков -- ни, в~мир да за -- жи -- ве -- ем
 
 
 
-      и все -- ки ще ра -- бо -- ти "с~ра-" -- дост на Бо -- жест -- ве -- на -- та ни -- ва,
+      и все -- ки ще ра -- бо -- ти с~ра -- дост на Бо -- жест -- ве -- на -- та ни -- ва,
 
-      ще ца -- ру -- ва веч -- на "мла-" -- дост, ня -- ма ни -- кой да у -- ми -- ра,
+      ще ца -- ру -- ва веч -- на мла -- дост, ня -- ма ни -- кой да у -- ми -- ра,
 
       в~мир, в~Лю -- бов ще за -- жи -- ве -- ем
 
-      всич -- ки друж -- но и ще "про-" -- сла -- вим Бо -- га с~пе -- сен. Свет -- ли -- на -- та!
+      всич -- ки друж -- но и ще про -- сла -- вим Бо -- га с~пе -- сен. Свет -- ли -- на -- та!
 
     }
 
@@ -91,7 +130,7 @@
 
       " " " " " " " " " " " " " " " " " "    " " " " " " " " " " " " " " " " " " " " " " " " " " " "
 
-      "2. Но -"   -- ви пес -- ни ще за -- пе -- ем за хар -- мо -- ни -- я все -- "мир-" -- на.
+      \set stanza = "2. " Но   -- ви пес -- ни ще за -- пе -- ем за хар -- мо -- ни -- я все -- мир -- на.
 
       Нов жи -- вот ще за -- жи -- ве -- ем, тя -- ло -- то ни ще про -- свет -- не
 

@@ -23,7 +23,7 @@
     }
 
     \addlyrics {
-      "1. Мо" -- га аз да ка -- жа, че де -- нят и -- де веч.
+      \set stanza = "1. " Мо -- га аз да ка -- жа, че де -- нят и -- де веч.
 
       Слън -- це ще из -- гре -- е, да пос -- тъ -- пим доб -- ре.
     }
@@ -40,25 +40,31 @@
 
   } % score
 
-
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #13
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-
-      \line {  2. Мога аз да кажа, че обича ме Бог.}
-
-      \line {   "   " Слънчевите лъчи кротко шепнат това. (2)}
-      \line { " "}
-
-      \line {   3.  Диша свежест зората, пробужда се денят.}
-
-      \line {   "   " Радост и надежда пълнят сърцата ни. (2) }
-
+ \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){
+    \fill-line {
+      \column {
+        \line {
+          \bold "2."
+          \column {
+            "Мога аз да кажа, че обича ме Бог."
+            "Слънчевите лъчи кротко шепнат това. (2)"
+          }
+        }
+        \vspace #1
+        \line {
+          \bold "3."
+          \column {
+            "Диша свежест зората, пробужда се денят."
+            "Радост и надежда пълнят сърцата ни. (2)"
+          }
+        }
+      }
     }
-  } % markup
+  }
 
-  \markup \empty-two
+
+
+  \markup \vspace #5
 
   \label #'ref118_2
   \tocItem \markup "Пролет"

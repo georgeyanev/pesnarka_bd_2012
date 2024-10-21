@@ -23,18 +23,19 @@
       b2 a8  b8 | % 6
       <<
         { c2  b4 }
+      
         \new Staff \with {
           \override VerticalAxisGroup.default-staff-staff-spacing =
-          #'((basic-distance . 4.5)
+          #'((basic-distance . 5.5)
              (padding . -10))
           \remove "Time_signature_engraver"
           alignAboveContext = #"main"
-          fontSize = #-1
-          \override StaffSymbol.staff-space = #(magstep -4)
-          \override StaffSymbol.thickness = #(magstep -4)
+          fontSize = #-1.5
+          \override StaffSymbol.staff-space = #(magstep -2)
+          \override StaffSymbol.thickness = #(magstep -2)
           firstClef = ##f
         }
-        {\autoBeamOff c4. ^\markup { \huge \italic "ossia по М. Т." } b8 b4}
+        {\autoBeamOff c4. ^\markup { \large \italic "ossia по М. Т." } b8 b4}
       >>
       \break | % 7
       b2 a8  b8 | % 8
