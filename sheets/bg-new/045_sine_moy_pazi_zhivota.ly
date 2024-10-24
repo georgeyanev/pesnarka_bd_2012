@@ -6,19 +6,17 @@
 "rightBraces045" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -13.9 )
+    \translate #'(0 . -17.9 )
     \right-brace #44
 
-    \translate #'(0 . -17.1 )
-    \right-brace #44
+
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -14.4 )
+    \translate #'(0 . -18.4 )
     2
 
-    \translate #'(0 . -21.5 )
-    2
+
   }
 }
 
@@ -80,7 +78,7 @@
             "благородния стремеж,"
             "идеалите високи"
             "и красивия копнеж."
-          }
+          }\"rightBraces045"
         }
       }
       \hspace #0.1
@@ -96,8 +94,8 @@
             "Дързост, мили мой животе,"
             "с теб е Божата Любов!"
             "Тя зове те все нагоре –"
-            "в съвършенство и свят Нов."
-          }
+            "в съвършенство и свят нов."
+          } \"rightBraces045"
         }
 
         % adds vertical spacing between verses

@@ -24,7 +24,7 @@
       d''8 c'' b'4 | d''8 c'' b'4 |
 
 
-      b'4 a'4| \tempo "                Fine" g'2
+      b'4 a'4| \tempo "              Fine" g'2
 
 
 

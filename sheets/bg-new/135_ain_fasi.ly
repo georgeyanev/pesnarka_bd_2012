@@ -6,7 +6,7 @@
 \bookpart {
   \label #'ref135
   \tocItem \markup "Аин фаси"
-   \include "include/bookpart-paper.ily"
+  \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
 
