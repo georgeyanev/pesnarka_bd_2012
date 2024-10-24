@@ -5,7 +5,7 @@
 
 \bookpart {
   \label #'ref071_1
-  \tocItem \markup "Изгрява Слънцето"
+  \tocItem \markup "Изгрява слънцето"
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
@@ -26,12 +26,12 @@
 
     \addlyrics {
       Из -- гря --
-      ва Слън -- це -- то, пра -- ща свет -- ли -- на,
+      ва слън -- це -- то, пра -- ща свет -- ли -- на,
       но -- си ра -- дост за жи -- во -- та тя.
     }
 
     \header {
-      title = \titleFunc #'ref_desc_9 "Изгрява Слънцето" "Izgrjava Slănceto"
+      title = \titleFunc #'ref_desc_9 "Изгрява слънцето" "Izgrjava Slănceto"
     }
 
     \midi{}

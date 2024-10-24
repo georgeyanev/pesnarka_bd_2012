@@ -63,7 +63,7 @@
     \addlyrics {
       \set stanza = "1. " Към Ри -- ла с~мощ -- на ми -- съл ле -- тим ний
       все -- ки ден. __ В~гър -- ди -- те с~туй же -- ла --
-      ние жи -- ве -- ем в~свят не -- тлен. "В~гър -" тлен. __
+      ние жи -- ве -- ем в~свят не -- тлен. В~гър -- тлен. __
     }
 
     \header {
@@ -109,7 +109,7 @@
 
 
   \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){
-    
+
     \fill-line {
       \column {
         \vspace #1
