@@ -37,7 +37,7 @@
     bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
     top-markup-spacing.basic-distance = 0\mm % margin between page number and system for the first page
-    top-system-spacing.basic-distance = 8\mm % margin between page number and system for the other pages
+    top-system-spacing.basic-distance = 10\mm % margin between page number and system for the other pages
 
     % change distance between staves
     system-system-spacing =

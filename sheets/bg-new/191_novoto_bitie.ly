@@ -11,20 +11,16 @@
   \include "include/bookpart-paper.ily"
   \markup \center-column \normal-text {
     \center-align
-    \fill-line { \with-link #'ref_desc_18 \abs-fontsize #16  "Новото Битие – Създаването на новия Адам" }
-    % \vspace #1
-    % \fill-line {\abs-fontsize #14.5  "" }
-    \center-align
 
-    \vspace #-0.1
-    \center-align
 
-    \vspace #-0.1
-    \center-align
-    \hspace #5.1
-
-    \center-align
-    \line \fontsize #-3 { " " }
+    \fill-line { \with-link #'ref_desc_18 \abs-fontsize #16  "Песни, дадени на" }
+    \vspace #0.3
+    \fill-line { \with-link #'ref_desc_18 \abs-fontsize #14  "Лиляна Табакова и Кръстьо Христов" }
+    \vspace #2
+    \fill-line { \with-link #'ref_desc_18 \abs-fontsize #17  "Новото Битие" }
+    \vspace #0.3
+    \fill-line { \with-link #'ref_desc_18 \abs-fontsize #16  "Създаването на новия Адам" }
+    \vspace #2
   }
   \score {
     \include "include/score-layout.ily"
@@ -106,7 +102,7 @@
         \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
       }
     }
-    \markup \vspace #3
+  \markup \vspace #1.3
     \label #'ref192
     \tocItem \markup "     Втори Божествен ден"
     \include "include/bookpart-paper.ily"
@@ -184,7 +180,7 @@
           \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
         }
       }
-      \markup \vspace #3
+    \markup \vspace #1.3
       \label #'ref193
       \tocItem \markup "     Трети Божествен ден"
       \include "include/bookpart-paper.ily"
@@ -298,7 +294,7 @@
             \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
           }
         }
-        \markup \vspace #3
+      \markup \vspace #1.3
         \label #'ref194
         \tocItem \markup "     Четвърти Божествен ден"
         \include "include/bookpart-paper.ily"
@@ -392,7 +388,7 @@
               \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
             }
           }
-          \markup \vspace #3
+        \markup \vspace #1.3
           \label #'ref195
           \tocItem \markup "     Пети Божествен ден "
           \include "include/bookpart-paper.ily"
@@ -490,7 +486,7 @@
                 \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
               }
             }
-            \markup \vspace #3
+          \markup \vspace #1.3
 
             \label #'ref195
             \tocItem \markup "     Шести Божествен ден "
@@ -690,7 +686,7 @@
                 \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
               }
             }
-            \markup \vspace #3
+          \markup \vspace #1.3
             \label #'ref199
             \tocItem \markup "     Седми Божествен ден"
             \include "include/bookpart-paper.ily"

@@ -138,8 +138,8 @@
 
   } % score
 
+  \markup \vspace #8
 
-\markup \vspace #12
 
   \label #'ref055_2
   \tocItem \markup "Ти Си проявената Любов"

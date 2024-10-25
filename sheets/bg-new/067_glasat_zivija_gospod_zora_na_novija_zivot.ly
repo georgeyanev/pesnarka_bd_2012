@@ -6,46 +6,7 @@
 \bookpart {
   \label #'ref190
   \tocItem \markup "Гласът на Живия Господ"
-  \paper {
-    print-all-headers = ##t
-    print-page-number = ##t
-    print-first-page-number = ##t
-
-
-    % put page numbers on the top and change the font style.
-    oddHeaderMarkup = \markup
-    \fill-line {
-      ""
-      \unless \on-first-page-of-part \fromproperty #'header:instrument
-      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
-    }
-    %% evenHeaderMarkup would inherit the value of
-    %% oddHeaderMarkup if it were not defined here
-    evenHeaderMarkup = \markup
-    \fill-line {
-      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
-      \unless \on-first-page-of-part \fromproperty #'header:instrument
-      ""
-    }
-
-    oddFooterMarkup = \markup ""
-
-    evenFooterMarkup = ""
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1\cm
-    bottom-margin = 1.2\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-    top-markup-spacing.basic-distance = 0\mm % margin between page number and system for the first page
-    top-system-spacing.basic-distance = 10\mm % margin between page number and system for the other pages
-
-    % change distance between staves
-    system-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
-  }
+  \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
 
@@ -171,9 +132,75 @@
       път на Лю -- бов -- та“.}
 
       \header {
-        title = \titleFunc #'ref_desc_15 "Гласът на Живия Господ – Новото Възкресение" " Glasăt na Živija Gospod – Novoto Văzkresenie"
+        title = \titleFunc #'ref_desc_15 "Гласът на Живия Господ" " Glasăt na Živija Gospod – Novoto Văzkresenie"
+        subtitle = \markup \normal-text \abs-fontsize #13 "Новото Възкресение"
+      }
 
-        % subtitle = \markup \normal-text \abs-fontsize #13 "Новото Възкресение"
+      \midi{}
+
+    } % score
+
+    \markup \vspace #4
+
+ \label #'ref215
+  \tocItem \markup "Зора на новия живот"
+  \include "include/bookpart-paper.ily"
+  \score {
+    \include "include/score-layout.ily"
+
+    \new Voice \absolute {
+      \clef treble
+      \key g \major
+      \time 2/4
+      \tempoFunc "Andante" 4 "66"
+      \autoBeamOff
+      r8  d'8  g'8  b'8 | % 2
+      d''4.  c''8 | % 3
+      \acciaccatura {  b'16 [  c''16 ] }  b'8
+      a'8  g'8 ( [  b'8 ) ] | % 4
+      a'2 \break | % 5
+      r8  d'8  e'8  fis'8 | % 6
+      g'4. (  a'32 [  g'32  fis'32  g'32
+      ] | % 7
+      b'4. )  c''8 | % 8
+      a'2 \break | % 9
+      r8  d'8  g'8  fis'8 |
+      b'8  a'8  d''8  c''8 | % 11
+      \acciaccatura {  b'16 [  c''16 ] }  b'8
+      a'8  a'8 ( [  b'8 ) ] | % 12
+      g'2 \break | % 13
+      r8  d'8  d'8  d'8 | % 14
+      c''4.  b'8 | % 15
+      a'8  g'8  a'16 ( [  g'32  a'32
+      b'32  a'32  g'32  a'32 ) ] | % 16
+      g'2 \break | % 17
+      r8  d'8  d'8  d'8 | % 18
+      d''8 ( ^\fermata [  e''16  d''16 ]
+      c''16 [  b'16 ) ]  a'16 ( [  g'16 )
+      ] | % 19
+      b'4. (  c''16 [  b'16 ) ] |
+      a'8 ( [ \once \omit TupletBracket
+      \times 2/3  {
+        b'16  a'16  g'16 ]
+      }
+      a'8 [  b'8 ) ] | % 21
+      g'2 \bar "|."
+    }
+
+
+    \addlyrics {
+      Зо -- ра се чуд -- на за --
+      зо -- ря -- "ва  –" зо -- ра на нов __
+      жи -- вот, ко --
+      я -- то мен в~жи -- во -- та
+      при -- зо -- ва -- ва. Зо --
+      ра се чуд -- на за -- зо -- ря --
+      ва, зо -- ра на
+      но -- ви -- я __
+      жи -- вот.}
+
+      \header {
+        title = \titleFunc #'ref_desc_16 "Зора на новия живот" "Zora na Novija život"
       }
 
       \midi{}
