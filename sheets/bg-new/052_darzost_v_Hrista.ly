@@ -6,12 +6,12 @@
 "rightBraces052" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -8 )
-    \right-brace #46
+    \translate #'(0 . -9.5 )
+    \right-brace #33
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -8.5 )
+    \translate #'(0 . -10 )
     2
   }
 }
