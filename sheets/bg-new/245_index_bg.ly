@@ -105,7 +105,6 @@
     }
     \hspace #2.6
     \override #'(baseline-skip . 3) \column {
-
       \with-link #'ref118_1 \fill-with-pattern #1 #RIGHT . "Денят иде" \page-ref #'ref118_1 "000" "?"
       \with-link #'ref182 \fill-with-pattern #1 #RIGHT . "Десет теми" \page-ref #'ref182 "000" "?"
       \with-link #'ref063 \fill-with-pattern #1 #RIGHT . "Дишай дълбоко" \page-ref #'ref063 "000" "?"
@@ -155,7 +154,6 @@
 
   \markup \override #'(line-width . 42) \abs-fontsize #10 {
     \override #'(baseline-skip . 3) \column {
-
       \with-link #'ref175_2 \fill-with-pattern #1 #RIGHT . "Ме-хейн" \page-ref #'ref175_2 "000" "?"
       \with-link #'ref175_2 \fill-with-pattern #1 #RIGHT . "Ме-хейн II" \page-ref #'ref175_2_2 "000" "?"
       \with-link #'ref185 \fill-with-pattern #1 #RIGHT . "Мелодия 1 – Красив живот" \page-ref #'ref185 "000" "?"
@@ -202,7 +200,6 @@
       \with-link #'ref132 \fill-with-pattern #1 #RIGHT . "Правда" \page-ref #'ref132 "000" "?"
       \with-link #'ref107 \fill-with-pattern #1 #RIGHT . "При всичките условия" \page-ref #'ref107 "000" "?"
       \with-link #'ref118_2 \fill-with-pattern #1 #RIGHT . "Пролет" \page-ref #'ref118_2 "000" "?"
-
     }
 
     \hspace #2.6
@@ -253,7 +250,6 @@
       \with-link #'ref032 \fill-with-pattern #1 #RIGHT . "Шуми" \page-ref #'ref032 "000" "?"
       \with-link #'ref021 \fill-with-pattern #1 #RIGHT . "Ще се развеселя" \page-ref #'ref021 "000" "?"
       \with-link #'ref068 \fill-with-pattern #1 #RIGHT . "Що е същността" \page-ref #'ref068 "000" "?"
-
     }
   }
 
