@@ -102,7 +102,7 @@
         \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
       }
     }
-  \markup \vspace #1.3
+  \markup \vspace #2
     \label #'ref192
     \tocItem \markup "     Втори Божествен ден"
     \include "include/bookpart-paper.ily"
@@ -180,7 +180,7 @@
           \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
         }
       }
-    \markup \vspace #1.3
+    \markup \vspace #2
       \label #'ref193
       \tocItem \markup "     Трети Божествен ден"
       \include "include/bookpart-paper.ily"
@@ -294,7 +294,7 @@
             \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
           }
         }
-      \markup \vspace #1.3
+      \markup \vspace #2
         \label #'ref194
         \tocItem \markup "     Четвърти Божествен ден"
         \include "include/bookpart-paper.ily"
@@ -388,7 +388,7 @@
               \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
             }
           }
-        \markup \vspace #1.3
+        \markup \vspace #2
           \label #'ref195
           \tocItem \markup "     Пети Божествен ден "
           \include "include/bookpart-paper.ily"
@@ -486,7 +486,7 @@
                 \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
               }
             }
-          \markup \vspace #1.3
+          \markup \vspace #2
 
             \label #'ref195
             \tocItem \markup "     Шести Божествен ден "
@@ -686,7 +686,7 @@
                 \fill-line \huge \italic { "" "" \concat {"attaca" "   " }}
               }
             }
-          \markup \vspace #1.3
+          \pageBreak
             \label #'ref199
             \tocItem \markup "     Седми Божествен ден"
             \include "include/bookpart-paper.ily"

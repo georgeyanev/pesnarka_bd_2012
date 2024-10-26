@@ -54,6 +54,7 @@ cat \
     ../067_glasat_zivija_gospod_zora_na_novija_zivot.ly \
     ../068_shto_e_sashtnostta_ti_si_proyavenata_lyubov.ly \
     ../069_pesen_na_glasnite_bukvi.ly \
+    ../007_blank_page.ly \
     ../069_pesni_ot_Uchitelya.ly \
     ../070_fir_fur_fen.ly \
     ../071_izgrjava_slunzeto_sila_zhiva_izvorna_techusta.ly \
@@ -151,9 +152,9 @@ cat \
     ../212_moeto_slanze_dnes_ste_izgree.ly \
     ../211_kazhi_mi_svetlii_bozhi_lach.ly \
     ../214_ti_ste_spoluchish_v_zhivota.ly \
+    ../215_zora_na_noviya_zhivot.ly \
     ../216_otche_nash_ne_ni_vavezhdai.ly \
     ../217_strannik_sam.ly \
-    ../219_blank_page.ly \
     ../250_addendum.ly \
     ../251_v_radostta_na_denya_ozarenie.ly \
     ../252_molitva_ti_si_strateva.ly \

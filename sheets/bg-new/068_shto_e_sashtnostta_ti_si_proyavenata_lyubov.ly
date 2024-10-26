@@ -138,48 +138,47 @@
 
   } % score
 
-  \markup \vspace #8
+     \markup \vspace #4
 
 
-  \label #'ref055_2
-  \tocItem \markup "Ти Си проявената Любов"
-  \include "include/bookpart-paper.ily"
-  \score {
-    \include "include/score-layout.ily"
+    \label #'ref055_2
+    \tocItem \markup "Ти Си проявената Любов"
+    \include "include/bookpart-paper.ily"
+    \score {
+      \include "include/score-layout.ily"
 
-    \new Voice \absolute  {
-      \clef treble
-      \key e \minor
-      \time 4/4
-      \tempoFunc "Adagio" 4 "56"
-      \autoBeamOff
-      b4 e' g' b' | \time 3/4  a'4 g' fis'8. e'16 |
-      fis'2 fis'4 |
+      \new Voice \absolute  {
+        \clef treble
+        \key e \minor
+        \time 4/4
+        \tempoFunc "Adagio" 4 "56"
+        \autoBeamOff
+        b4 e' g' b' | \time 3/4  a'4 g' fis'8. e'16 |
+        fis'2 fis'4 |
 
-      a'4 g' fis' \break |
+        a'4 g' fis' \break |
 
-      e'2 c''4 |
+        e'2 c''4 |
 
-      \time 4/4  b'8. a'16 g'8. a'16 b'4. g'8   |
-      \time 3/4  fis'8. a'16 g'4 fis' \break|  e'2 c''4   |
+        \time 4/4  b'8. a'16 g'8. a'16 b'4. g'8   |
+        \time 3/4  fis'8. a'16 g'4 fis' \break|  e'2 c''4   |
 
-      \time 4/4  b'8. a'16 g'8. a'16 b'4. g'8 | \time 3/4  fis'8. a'16 g'4 fis' | e'2 r4 \bar "|."
-    }
+        \time 4/4  b'8. a'16 g'8. a'16 b'4. g'8 | \time 3/4  fis'8. a'16 g'4 fis' | e'2 r4 \bar "|."
+      }
 
-    \addlyrics {
-      Ти Си про -- я -- ве -- на -- та Лю -- бов към мен, Гос -- по --
-      ди. Ду -- ша -- та ми коп -- ней за Твой -- та чис -- то --
-      та. Ду -- ша -- та ми коп -- ней за Твой -- та свет -- ли -- на.
-    }
+      \addlyrics {
+        Ти Си про -- я -- ве -- на -- та Лю -- бов към мен, Гос -- по --
+        ди. Ду -- ша -- та ми коп -- ней за Твой -- та чис -- то --
+        та. Ду -- ша -- та ми коп -- ней за Твой -- та свет -- ли -- на.
+      }
 
-    \header {
-      title = \titleFunc #'ref_desc_4 " Ти Си проявената Любов" "Ti Si projavenata Ljubov"
-    }
+      \header {
+        title = \titleFunc #'ref_desc_4 " Ти Си проявената Любов" "Ti Si projavenata Ljubov"
+      }
 
-    \midi{}
+      \midi{}
 
-  } % score
-  \markup \dc-one "D.C."
-
+    } % score
+    \markup \dc-one "D.C."
 
 } % bookpart

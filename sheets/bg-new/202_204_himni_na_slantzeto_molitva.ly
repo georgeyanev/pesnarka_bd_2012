@@ -6,7 +6,51 @@
 \bookpart {
   \label #'ref202
   \tocItem \markup "Химн на Слънцето"
-  \include "include/bookpart-paper.ily"
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
+
+
+    % put page numbers on the top and change the font style.
+    oddHeaderMarkup = \markup
+    \fill-line {
+      ""
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+    }
+    %% evenHeaderMarkup would inherit the value of
+    %% oddHeaderMarkup if it were not defined here
+    evenHeaderMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
+      ""
+    }
+
+    oddFooterMarkup = \markup ""
+
+    evenFooterMarkup = ""
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1\cm
+    bottom-margin = 1.2\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+    top-markup-spacing.basic-distance = 0\mm % margin between page number and system for the first page
+    top-system-spacing.basic-distance = 10\mm % margin between page number and system for the other pages
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 17)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
+
+  \header {
+    tagline = ##f
+  }
+
   \score {
     \include "include/score-layout.ily"
     \new Voice \relative c' {
@@ -24,7 +68,6 @@
       \override Hairpin.to-barline = ##f
       \override Hairpin.after-line-breaking = ##t
       e4^\< \break | % 5
-
       \time 4/4  | % 5
       g4 \! f4  e4^\>  d4  \! | % 6
       e2. r4 | % 7
@@ -119,7 +162,6 @@
       r2  d4 ^\< | % 68
       e2  f4 | % 69
       a4.  bes8  a4 ~  | \break
-
       a2  g4 | % 71
       a4  a4  a4 \! | % 72
       d2. ~  | % 73
@@ -184,7 +226,7 @@
 
   \label #'ref204
   \tocItem \markup "Молитва (Вярвам в теб)"
-  \include "include/bookpart-paper.ily"
+
   \score {
     \include "include/score-layout.ily"
 
