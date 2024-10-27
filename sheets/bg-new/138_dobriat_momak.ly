@@ -40,10 +40,10 @@
       g8 g8. | \bar ":|."
 
       \time 8/16 \break
-      \tempo "Meno mosso" c,8. d8(ees8.) |
+      \tempo "Meno mosso" c,8. d8 (ees8.) |
       fis8. g8 (g8.) |
-      fis8. ees8 (fis8.)   |
-      ees8 ( d16)  ees8 c8. |
+      fis8. ees8 fis8.  ( |
+      ees8  d16)  ees8 c8. |
       ees8. fis8 g8. | \break
 
       fis8.ees8(c8.) |
