@@ -34,7 +34,7 @@
 
   \markup { {  \vspace #18 } }
 
-  \markup \abs-fontsize #18 { \fill-line {"Братски песни"} }
+  \markup \abs-fontsize #20 { \fill-line {"Братски песни"} }
 
   % include foreign translation(s) of the song
   %

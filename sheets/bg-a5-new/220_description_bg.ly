@@ -9,7 +9,7 @@
   \label #'ref220
   \tocItem \markup "Обяснителни бележки"
   \markup \fontsize  #+3.5 { \fill-line \bold {"ОБЯСНИТЕЛНИ БЕЛЕЖКИ"} }
-  
+
   \label #'ref_desc_1
   \markup \fontsize #+2.5 \override #'(line-width . 66.5)
   {
@@ -478,7 +478,7 @@
       }
     }
   }
-  
+
   \label #'ref_desc_7
   \markup \fontsize  #+2.5  {
     \override #'(baseline-skip . 2.2)
@@ -870,7 +870,7 @@
       }
     }
   }
-  
+
   \label #'ref_desc_13
   \markup \fontsize  #+2.5  {
     \override #'(baseline-skip . 2.2)

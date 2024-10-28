@@ -34,9 +34,9 @@
 
   \markup { {  \vspace #18 } }
 
-  \markup \abs-fontsize #18 { \fill-line {"Песни, мелодии и теми, "} }
+  \markup \abs-fontsize #20 { \fill-line {"Песни, мелодии и теми, "} }
   \markup { {  \vspace #0.5 } }
-  \markup \abs-fontsize #18 { \fill-line {"непубликувани до 1944 г."} }
+  \markup \abs-fontsize #20 { \fill-line {"непубликувани до 1944 г."} }
 
   % include foreign translation(s) of the song
   %

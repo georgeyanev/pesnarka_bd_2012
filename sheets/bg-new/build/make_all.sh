@@ -13,6 +13,7 @@ cat \
     ../007_preface_bg_three.ly \
     ../007_preface_bg_four.ly \
     ../008_about_music_bg.ly \
+    ../007_blank_page.ly \
     ../010_bratski_pesni.ly \
     ../016_zorata_na_noviya_zhivot.ly \
     ../018_izlyazal_e_seyach.ly \
@@ -163,6 +164,7 @@ cat \
     ../219_blank_page.ly \
     ../218_appendix.ly \
     ../220_alpha_description.ly \
+    ../251_images.ly \
     ../221_dictionary_bg.ly \
     ../245_index_bg.ly \
     ../222.anotation_bg.ly \

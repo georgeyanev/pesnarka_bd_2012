@@ -34,7 +34,7 @@
 
   \markup { {  \vspace #18 } }
 
-  \markup \abs-fontsize #18 { \fill-line {"Приложение "} }
+  \markup \abs-fontsize #20 { \fill-line {"Приложение "} }
 
 
   % include foreign translation(s) of the song
