@@ -75,8 +75,8 @@
           d8  b8  cis8 ais8  b2 | \break
         }
         {
-          d8   \mark \markup \italic {"за край"}   b8 cis8  ais8  b4. \breathe b8 |
-          \mark \markup \huge\italic {"                      maestoso, ad libitum"}
+          d8^\markup \huge\italic {"  за край"}   b8 cis8  ais8  b4. \breathe b8^\markup \huge\italic {"maestoso, ad libitum"} |
+          
           d2 cis4 b4 |
 
 
