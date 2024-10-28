@@ -11,7 +11,7 @@
   \markup \fontsize  #+3.5 { \fill-line \bold {"ОБЯСНИТЕЛНИ БЕЛЕЖКИ"} }
 
   \label #'ref_desc_1
-  \markup \abs-fontsize #11 
+  \markup \abs-fontsize #11
   {
     \override #'(baseline-skip . 3.4)
     \column {

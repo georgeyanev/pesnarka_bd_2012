@@ -36,7 +36,7 @@
 
   \markup { {  \vspace #18 } }
 
-  \markup \abs-fontsize #18 { \fill-line {"Песни от Учителя"} }
+  \markup \abs-fontsize #20 { \fill-line {"Песни от Учителя"} }
 
   % include foreign translation(s) of the song
   %
