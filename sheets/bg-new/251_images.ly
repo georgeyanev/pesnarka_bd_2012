@@ -33,7 +33,11 @@
   }
 
 
+  \label #'ref251
+  \tocItem \markup "Архивни снимки"
+  \markup \abs-fontsize #16 { \fill-line {"Архивни снимки"} }
 
+  \markup { {  \vspace #1 } }
 
   \markup {
     \fill-line
@@ -41,38 +45,38 @@
       \epsfile #X #85 #"../../img/music_7.eps"
     }
   }
-\markup { {  \vspace #0.1 } }
+  \markup { {  \vspace #0.1 } }
 
   \markup \abs-fontsize #11 { \fill-line  {"Учителя Петър Дънов с цигулка в ръка"} }
-  
-  
+
+
   \markup { {  \vspace #1.5 } }
-  
+
   \markup {
     \fill-line
     \general-align #Y #DOWN {
-      \epsfile #X #85 #"../../img/music_3.eps"
+      \epsfile #X #80 #"../../img/music_3.eps"
     }
   }
-  
-   \markup { {  \vspace #0.1 } }
+
+  \markup { {  \vspace #0.1 } }
 
   \markup \abs-fontsize #11 { \fill-line  {"Учителя Петър Дънов обяснава"} }
-  
+
   \pageBreak
-  
-    \markup {
+
+  \markup {
     \fill-line
     \general-align #Y #DOWN {
-      \epsfile #X #75 #"../../img/music_5.eps"
+      \epsfile #X #70 #"../../img/music_5.eps"
     }
   }
-    \markup { {  \vspace #0.1 } }
-    
+  \markup { {  \vspace #0.1 } }
+
   \markup \abs-fontsize #11 { \fill-line  {"Архивна снимка „Песен на светлия път“"} }
-  
-      \markup { {  \vspace #1.5 } }
-  
+
+  \markup { {  \vspace #1.5 } }
+
   \markup {
     \fill-line
     \general-align #Y #DOWN {
@@ -82,7 +86,7 @@
   \markup { {  \vspace #0.1 } }
 
   \markup \abs-fontsize #11 { \fill-line  {"Архивна снимка с музикално упражнение"} }
-  
+
   \pageBreak
 
 
@@ -98,7 +102,7 @@
   \markup \abs-fontsize #11 { \fill-line  {"Архивна снимка с песента „На Учителя покорен“"} }
 
 
- \markup { {  \vspace #1.5 } }
+  \markup { {  \vspace #1.5 } }
 
   \markup {
     \fill-line
@@ -112,9 +116,9 @@
   \markup { {  \vspace #0.1 } }
 
   \markup \abs-fontsize #11 { \fill-line  {" Ръкопис на Пеньо Ганев на песента „Песен на житното зърно“"} }
-  
-  
-   \markup { {  \vspace #1.5 } }
+
+
+  \markup { {  \vspace #1.5 } }
 
   \markup {
     \fill-line
@@ -126,7 +130,7 @@
   \markup { {  \vspace #0.1 } }
 
   \markup \abs-fontsize #11 { \fill-line  {"Учителя Петър Дънов на Изгрева с"} }
-    \markup { {  \vspace #0.1 } }
+  \markup { {  \vspace #0.1 } }
 
   \markup \abs-fontsize #11 { \fill-line  {"Лилиана Табакова и Кръстьо Христов"} }
 
