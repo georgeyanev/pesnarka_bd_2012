@@ -115,10 +115,10 @@
 
   \markup { {  \vspace #0.1 } }
 
-  \markup \abs-fontsize #11 { \fill-line  {" Ръкопис на Пеньо Ганев на песента „Песен на житното зърно“"} }
+  \markup \abs-fontsize #11 { \fill-line  {"Ръкопис на Пеньо Ганев на песента „Песен на житното зърно“"} }
 
 
-  \markup { {  \vspace #1.5 } }
+  \pageBreak
 
   \markup {
     \fill-line
@@ -135,9 +135,18 @@
   \markup \abs-fontsize #11 { \fill-line  {"Лилиана Табакова и Кръстьо Христов"} }
 
 
+\pageBreak
+
+  \markup {
+    \fill-line
+    \general-align #Y #DOWN {
+      \epsfile #X #85 #"../../img/music-pen.eps"
+    }
+  }
+
   \markup { {  \vspace #0.1 } }
 
-  \markup \abs-fontsize #11 { \fill-line  {""} }
+  \markup \abs-fontsize #11 { \fill-line  {"Музикален пентаграм, даден на Лилиана Табакова"} }
 
 
   % include foreign translation(s) of the song
