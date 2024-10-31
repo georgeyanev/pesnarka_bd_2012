@@ -41,7 +41,7 @@
 
     % change distance between staves
     system-system-spacing =
-    #'((basic-distance . 14.5)
+    #'((basic-distance . 12)
        (minimum-distance . 6)
        (padding . 1)
        (stretchability . 12))
@@ -60,12 +60,10 @@
       \partial 4
 
       \repeat volta 2 {
-        g4 | c2 d4 | es2 c 4 |  g2 g'4 | g2 c8 c8 | c2 b4 |\break  c2 as4 |
-
-
-        g2 fis4 |g2 f?4 | es2 d4 |  es2 d4 | c2 b4 | c2 es4 | g2 f4 | \break
-
-        es2 d4 | c2 d8 d | f2 es4 | d2 c4 | es2 d4 | \tempo "          Fine" c2
+        g4 | c2 d4 | es2 c 4 |  g2 g'4 | g2 c8 c8 | \break
+        c2 b4 |  c2 as4 | g2 fis4 |g2 f?4 | es2 d4 | \break
+        es2 d4 | c2 b4 | c2 es4 | g2 f4 | es2 d4 |  \break
+        c2 d8 d | f2 es4 | d2 c4 | es2 d4 | \tempo "          Fine" c2
       }
 
     }

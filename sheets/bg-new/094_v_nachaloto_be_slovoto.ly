@@ -21,16 +21,16 @@
 
       a4 d'4 e' f' a4 a d'2 \bar "!" e'4  g'4 f' e' d'
 
-      a4 a d'2 \bar "!" e'4 g'4 f' e' d' d'2 \bar "!" \break   f'4 e' d' a bes bes  bes2 a \fermata \bar ".|:"
+      a4 a d'2 \bar "!"  \break e'4 g'4 f' e' d' d'2 \bar "!"  f'4 e' d' a bes bes  bes2 a \fermata \bar ".|:" \break
 
-      a'4  gis'8 a' bes'4 a'8. gis'16 a'2 \bar "!" \break g'8 f'
+      a'4  gis'8 a' bes'4 a'8. gis'16 a'2 \bar "!"  g'8 f'
 
-      e'4 g' f' f' e' d'2 \bar "!"  e'4 g'8 f' e'4 d' f'4 e' d'2 \bar ":|.|:" \break
+      e'4 g' f' f' e' d'2 \bar "!"  e'4 g'8 f' e'4 d' f'4 e' d'2 \bar ":|.|:"
 
       \cadenzaOff
       \undo \omit Score.TimeSignature
 
-      \time 2/4 d''8. cis''16 d''8 a' bes'4  a' g'8 f' e' f' \break g'4 a'8 a'
+      \time 2/4 d''8. cis''16 d''8 a' bes'4 a' \break g'8 f' e' f' g'4 a'8 a'
 
       d'8 e' f'4 e'8 d' e' f' d'2 \bar ":|.|:"  \break
       \cadenzaOn

@@ -130,8 +130,11 @@
 
       \line \bold {Fine} \override #`(baseline-skip . ,blineskip221)
       \justify {край \italic"(вж. D.C. al Fine)"}
-
-      \line \bold {Grave} \override #`(baseline-skip . ,blineskip221)
+      \line  \bold { " " } \override #`(baseline-skip . ,blineskip221)
+      \justify { " "}
+      \line  \bold { " " } \override #`(baseline-skip . ,blineskip221)
+      \justify { " "}
+      \line  \bold {Grave} \override #`(baseline-skip . ,blineskip221)
       \justify {много бавно, букв. тежко}
 
       \line \bold {grazioso} \override #`(baseline-skip . ,blineskip221)

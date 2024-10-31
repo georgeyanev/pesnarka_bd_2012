@@ -97,7 +97,7 @@
   } % score
 
 
-  \markup \vspace #12
+  \markup \vspace #4
 
   \label #'ref076
   \tocItem \markup "Венир Бенир"

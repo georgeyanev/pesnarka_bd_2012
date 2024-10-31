@@ -343,7 +343,7 @@
         b'4. \break | % 73
         \time 3/4  | \bar "||" % 73
         \tempoFunc "Moderato" 4 "80"
-        \once \override Slur.positions = #'(1.5 . 2.6) dis''16 ( [ cis''16 dis''16
+        \once \override Slur.positions = #'(1.5 . 3.4) dis''16 ( [ cis''16 dis''16
         e''16 ] fis''16 [ e''16 fis''16
         gis''16 ] ais''16 [ gis''16
         ais''16 b''16  ] | cis'''16  -. [

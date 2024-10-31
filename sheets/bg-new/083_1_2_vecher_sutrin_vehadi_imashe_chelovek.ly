@@ -36,7 +36,7 @@
 
   } % score
   %
-  \markup \vspace #8
+  \markup \vspace #4
   \include "include/bookpart-paper.ily"
   \label #'ref083_2
   \tocItem \markup "Вечер, сутрин"

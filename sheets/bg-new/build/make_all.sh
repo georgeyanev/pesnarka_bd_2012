@@ -131,8 +131,7 @@ cat \
     ../169_1_2_kazhi_mi_ti_isinata_III_az_moga_da_disham.ly \
     ../170_vyara_svetla_I_II.ly \
     ../171_milost_blagost_svoboda_e_potrebna_za_dushata.ly \
-    ../173_malkata_bubolechka_174_3_radost.ly \
-    ../174_1_da_bih_te_slusham_174_2_slusham_175_pismoto.ly \
+    ../173_malkata_bubolechka_174_3_radost_da_bih_te_slushal_slusham_pismoto.ly \
     ../175_mehein.ly \
     ../172_igrata_na_potocheto.ly \
     ../176_zhitno_zarno.ly \

@@ -79,7 +79,7 @@
 
   } % score
 
-  \markup \vspace #6
+  \markup \vspace #4
 
   \label #'ref107
   \tocItem \markup "При всичките условия"

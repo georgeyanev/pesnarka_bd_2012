@@ -39,7 +39,7 @@
   \markup \dc-one "2 D.C."
   \markup \huge \italic \dc-one-nobold "(песентта се изпълнява три пъти)"
 
-  \markup \vspace #5
+  \markup \vspace #4
 
   \label #'ref076_2
   \tocItem \markup "Сила жива"

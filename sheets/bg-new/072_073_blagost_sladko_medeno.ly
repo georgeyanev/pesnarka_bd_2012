@@ -75,7 +75,7 @@
 
   \markup \dc-one "D.C. al Fine"
 
-  \markup \vspace #14
+  \markup \vspace #4
   \label #'ref073
   \tocItem \markup "Сладко, медено"
   \include "include/bookpart-paper.ily"

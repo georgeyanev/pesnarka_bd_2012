@@ -39,7 +39,7 @@
 
   } % score
 
-  \markup \vspace #8
+  \markup \vspace #4
 
   \label #'ref086_2
   \tocItem \markup "Благата песен"
