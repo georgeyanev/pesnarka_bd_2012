@@ -10,6 +10,9 @@
   \score {
     \include "include/score-layout.ily"
 
+    \defineBarLine "heavyLight" #'( "!"
+                                     ".|:"
+                                     ".|:")
 
     \new Voice \absolute  {
       \clef treble
@@ -21,7 +24,7 @@
 
       a4 d'4 e' f' a4 a d'2 \bar "!" e'4  g'4 f' e' d'
 
-      a4 a d'2 \bar "!"  \break e'4 g'4 f' e' d' d'2 \bar "!"  f'4 e' d' a bes bes  bes2 a \fermata \bar ".|:" \break
+      a4 a d'2 \bar "!" \break e'4 g'4 f' e' d' d'2 \bar "!"  f'4 e' d' a bes bes   bes2 a \fermata \bar "heavyLight"  \break
 
       a'4  gis'8 a' bes'4 a'8. gis'16 a'2 \bar "!"  g'8 f'
 
