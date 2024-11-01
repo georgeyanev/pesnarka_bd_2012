@@ -51,7 +51,7 @@
 
   } % score
 
-  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \markup \abs-fontsize #12 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
 
     \fill-line {
       \column {

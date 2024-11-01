@@ -128,7 +128,7 @@
   %\markup \dc-two "D.C." "con repitione"
 
 
-  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \markup \abs-fontsize #12 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
     \fill-line {
       \column {
         \line {

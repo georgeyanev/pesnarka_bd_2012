@@ -47,7 +47,7 @@
   }
   \markup { {  \vspace #0.1 } }
 
-  \markup \abs-fontsize #11 { \fill-line  {"Учителя Петър Дънов с цигулка в ръка"} }
+  \markup \abs-fontsize #12 { \fill-line  {"Учителя Петър Дънов с цигулка в ръка"} }
 
 
   \markup { {  \vspace #1.5 } }
@@ -61,7 +61,7 @@
 
   \markup { {  \vspace #0.1 } }
 
-  \markup \abs-fontsize #11 { \fill-line  {"Учителя Петър Дънов обяснава"} }
+  \markup \abs-fontsize #12 { \fill-line  {"Учителя Петър Дънов обяснава"} }
 
   \pageBreak
 
@@ -73,7 +73,7 @@
   }
   \markup { {  \vspace #0.1 } }
 
-  \markup \abs-fontsize #11 { \fill-line  {"Архивна снимка „Песен на светлия път“"} }
+  \markup \abs-fontsize #12 { \fill-line  {"Архивна снимка „Песен на светлия път“"} }
 
   \markup { {  \vspace #1.5 } }
 
@@ -85,7 +85,7 @@
   }
   \markup { {  \vspace #0.1 } }
 
-  \markup \abs-fontsize #11 { \fill-line  {"Архивна снимка с музикално упражнение"} }
+  \markup \abs-fontsize #12 { \fill-line  {"Архивна снимка с музикално упражнение"} }
 
   \pageBreak
 
@@ -99,7 +99,7 @@
   }
   \markup { {  \vspace #0.4 } }
 
-  \markup \abs-fontsize #11 { \fill-line  {"Архивна снимка с песента „На Учителя покорен“"} }
+  \markup \abs-fontsize #12 { \fill-line  {"Архивна снимка с песента „На Учителя покорен“"} }
 
 
   \markup { {  \vspace #1.5 } }
@@ -115,7 +115,7 @@
 
   \markup { {  \vspace #0.1 } }
 
-  \markup \abs-fontsize #11 { \fill-line  {"Ръкопис на Пеньо Ганев на песента „Песен на житното зърно“"} }
+  \markup \abs-fontsize #12 { \fill-line  {"Ръкопис на Пеньо Ганев на песента „Песен на житното зърно“"} }
 
   \pageBreak
 
@@ -133,10 +133,10 @@
 
   %   \markup { {  \vspace #0.1 } }
 
-  %   \markup \abs-fontsize #11 { \fill-line  {"Учителя Петър Дънов на Изгрева с"} }
+  %   \markup \abs-fontsize #12 { \fill-line  {"Учителя Петър Дънов на Изгрева с"} }
   %   \markup { {  \vspace #0.1 } }
 
-  %   \markup \abs-fontsize #11 { \fill-line  {"Лилиана Табакова и Кръстьо Христов"} }
+  %   \markup \abs-fontsize #12 { \fill-line  {"Лилиана Табакова и Кръстьо Христов"} }
 
 
   %   \pageBreak
@@ -152,7 +152,7 @@
 
   %   \markup { {  \vspace #0.1 } }
 
-  %   \markup \abs-fontsize #11 { \fill-line  {"Музикален пентаграм, даден на Лилиана Табакова"} }
+  %   \markup \abs-fontsize #12 { \fill-line  {"Музикален пентаграм, даден на Лилиана Табакова"} }
 
 
   % include foreign translation(s) of the song

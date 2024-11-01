@@ -6,42 +6,36 @@
 \bookpart {
   \paper {
     print-all-headers = ##t
-    print-page-number = ##t
+    print-page-number = ##f
     print-first-page-number = ##f
-    page-number-type = #'roman-upper
 
 
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup {
-
-      \fill-line {
-        """"
-        \if \should-print-page-number  \abs-fontsize #9 {
-          \fromproperty #'page:page-number-string
-
-        }
-      }
+    % put page numbers on the top and change the font style.
+    oddHeaderMarkup = \markup
+    \fill-line {
+      ""
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
+      \if \should-print-page-number \abs-fontsize #9 { \number \fromproperty #'page:page-number-string }
     }
-    evenHeaderMarkup = \markup {
-
-      \fill-line {
-        \if \should-print-page-number \abs-fontsize #9 {
-          \fromproperty #'page:page-number-string
-          ""
-        }
-      }
+    %% evenHeaderMarkup would inherit the value of
+    %% oddHeaderMarkup if it were not defined here
+    evenHeaderMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \abs-fontsize #9 { \number \fromproperty #'page:page-number-string }
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
+      ""
     }
 
     oddFooterMarkup = \markup ""
 
     evenFooterMarkup = ""
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1\cm
-    bottom-margin = 1.2\cm
+    left-margin = 2.5\cm
+    right-margin = 2.5\cm
+    top-margin = 1.5\cm
+    bottom-margin = 2.5\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
-    top-markup-spacing.basic-distance = 8\mm
-    top-system-spacing.basic-distance = 10\mm
+    top-markup-spacing.basic-distance = 8\mm % margin between page number and system for the first page
+    top-system-spacing.basic-distance = 10\mm % margin between page number and system for the other pages
 
     % change distance between staves
     system-system-spacing =
@@ -51,10 +45,15 @@
        (stretchability . 12))
   }
 
+  \header {
+    tagline = ##f
+  }
+
+
   \tocItem \markup "Предговор към второто издание"
   \markup \abs-fontsize #15  { \fill-line {"Предговор към второто издание"} }
 
-  \markup \abs-fontsize #11 {
+  \markup \abs-fontsize #12 {
     \vspace #1.5  \override #'(baseline-skip . 3.4)
     \justify {
 
@@ -64,7 +63,7 @@
       Братство в България, и от негови ученици.
     }
   }
-  \markup \abs-fontsize #11 {
+  \markup \abs-fontsize #12 {
     \vspace #0.9  \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
@@ -76,7 +75,7 @@
     }
   }
 
-  \markup \abs-fontsize #11 {
+  \markup \abs-fontsize #12 {
     \vspace #0.9  \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
@@ -88,7 +87,7 @@
       Братство.
     }
   }
-  \markup \abs-fontsize #11 {
+  \markup \abs-fontsize #12 {
     \vspace #0.9  \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
@@ -107,7 +106,7 @@
 
 
 
-  \markup \abs-fontsize #11 \raise #0 \override #'(baseline-skip . 3.4) {
+  \markup \abs-fontsize #12 \raise #0 \override #'(baseline-skip . 3.4) {
     \column {
       \line {"  "}
       \line {"  "}

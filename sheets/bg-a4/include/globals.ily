@@ -1,8 +1,9 @@
 \version "2.24.4"
 
+#(set-global-staff-size 21)
+
 \paper {
   #(set-default-paper-size '(cons (* 310 mm) (* 235 mm)))
-
   % change lyrics and titles font (affects notes also)
   #(define fonts
      (set-global-fonts

@@ -168,6 +168,6 @@ cat \
     ../222.anotation_bg.ly \
     > tmp.ly
 
-lilypond --include=../ -o danov_songbook_bg_new tmp.ly
+lilypond --include=../ -o danov_songbook_bg_new_a4 tmp.ly
 rm -f *.midi
 rm -f tmp.ly

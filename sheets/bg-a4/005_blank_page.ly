@@ -4,7 +4,7 @@
 \include "include/globals.ily"
 
 \bookpart {
-    \paper {
+  \paper {
     print-all-headers = ##f
     print-page-number = ##f
     print-first-page-number = ##f

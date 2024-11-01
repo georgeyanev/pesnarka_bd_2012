@@ -57,7 +57,7 @@
 
   \markup \abs-fontsize #16 { \fill-line {"Речник на музикалните термини"} }
 
-  \markuplist \abs-fontsize #11 {
+  \markuplist \abs-fontsize #12 {
     \override #'(padding . 2) % horizontal distance
     \override #'(baseline-skip . 3.8) % vertical distance
     \override #'(line-width . 52)
