@@ -52,10 +52,9 @@ cat \
     ../063_dishay_dalboko.ly \
     ../066_1_066_2_taynata_vecherya_tebe_poem.ly \
     ../064_angel_vopiyashe.ly \
-    ../067_glasat_zivija_gospod_zora_na_novija_zivot.ly \
+    ../067_glasat_zivija_gospod_mirat_ide_veche.ly \
     ../068_shto_e_sashtnostta_ti_si_proyavenata_lyubov.ly \
     ../069_pesen_na_glasnite_bukvi.ly \
-    ../007_blank_page.ly \
     ../069_pesni_ot_Uchitelya.ly \
     ../070_fir_fur_fen.ly \
     ../071_izgrjava_slunzeto_sila_zhiva_izvorna_techusta.ly \

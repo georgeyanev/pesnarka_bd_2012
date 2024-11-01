@@ -59,11 +59,11 @@
   % \markup { {  \vspace #0.5 } }
   % \markup \fontsize  #+3 { \fill-line  {"Коректор на лиричния текст"} }
   % \markup \fontsize  #+2.5 { \fill-line  {"Стела Рускова"} }
+  % \markup { {  \vspace #0.5 } }
+  % \markup \fontsize  #+3 { \fill-line  {"Дизайн на корицата"} }
+  % \markup \fontsize  #+2.5 { \fill-line  {"Стоил Вътев"} }
   \markup { {  \vspace #0.5 } }
-  \markup \fontsize  #+3 { \fill-line  {"Дизайн на корицата"} }
-  \markup \fontsize  #+2.5 { \fill-line  {"Стоил Вътев"} }
-  \markup { {  \vspace #0.5 } }
-  \markup \fontsize  #+3 { \fill-line  {"Издателство „Бяло Братство“"} }
+  \markup \fontsize  #+3 { \fill-line  {"Издателство „Домисол“"} }
 
   %\markup \fontsize  #+2.5 { \fill-line  {"izdatelstvo.bratstvo@gmail.com"} }
   %\markup \fontsize  #+2.5 { \fill-line  {"www.bialobratstvo.bg"} }
