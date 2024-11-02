@@ -208,7 +208,7 @@
           % adds horizontal spacing between columns
           \column {
             \line {
-              \bold "4."
+              \bold "3."
               \column {
                 "Всичко е Любов,"
                 "радост, сила и живот."
