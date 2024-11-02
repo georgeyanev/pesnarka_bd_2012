@@ -64,7 +64,7 @@
       \with-link #'ref135 \fill-with-pattern #1 #RIGHT . "Аин фаси" \page-ref #'ref135 "000" "?"
       \with-link #'ref064 \fill-with-pattern #1 #RIGHT . "Ангел вопияше" \page-ref #'ref064 "000" "?"
       \with-link #'ref075 \fill-with-pattern #1 #RIGHT . "Аум" \page-ref #'ref075 "000" "?"
-      \with-link #'ref138 \fill-with-pattern #1 #RIGHT . "Бащина песен – Добрият момък" \page-ref #'ref138 "000" "?"
+      \with-link #'ref300 \fill-with-pattern #1 #RIGHT . "Бащина песен – Добрият момък" \page-ref #'ref300 "000" "?"
       \with-link #'ref138 \fill-with-pattern #1 #RIGHT . "Бащина песен – Угледна мома" \page-ref #'ref138 "000" "?"
       \with-link #'ref163 \fill-with-pattern #1 #RIGHT . "Берхан-Ази" \page-ref #'ref163 "000" "?"
       \with-link #'ref098 \fill-with-pattern #1 #RIGHT . "Бершид Ба" \page-ref #'ref098 "000" "?"

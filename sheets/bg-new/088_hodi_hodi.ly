@@ -62,7 +62,7 @@
     \fill-line {
       \column {
         \line {
-          \bold "3."
+          \bold "2."
           \column {
             "Капките дъждовни"
             "също тъй поднасят"

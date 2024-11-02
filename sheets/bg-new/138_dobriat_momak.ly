@@ -3,7 +3,7 @@
 % include paper part and global functions
 \include "include/globals.ily"
 \bookpart {
-  \label #'ref138
+  \label #'ref300
   \tocItem \markup "Бащина песен – Добрият момък"
   \include "include/bookpart-paper.ily"
 
