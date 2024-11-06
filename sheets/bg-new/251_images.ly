@@ -39,36 +39,11 @@
 
   \markup { {  \vspace #1 } }
 
-  \markup {
-    \fill-line
-    \general-align #Y #DOWN {
-      \epsfile #X #85 #"../../img/music_7.eps"
-    }
-  }
-  \markup { {  \vspace #0.1 } }
-
-  \markup \abs-fontsize #11 { \fill-line  {"Учителя Петър Дънов с цигулка в ръка"} }
-
-
-  \markup { {  \vspace #1.5 } }
 
   \markup {
     \fill-line
     \general-align #Y #DOWN {
-      \epsfile #X #80 #"../../img/music_3.eps"
-    }
-  }
-
-  \markup { {  \vspace #0.1 } }
-
-  \markup \abs-fontsize #11 { \fill-line  {"Учителя Петър Дънов обяснава"} }
-
-  \pageBreak
-
-  \markup {
-    \fill-line
-    \general-align #Y #DOWN {
-      \epsfile #X #70 #"../../img/music_5.eps"
+      \epsfile #X #65 #"../../img/music_5.eps"
     }
   }
   \markup { {  \vspace #0.1 } }
@@ -80,21 +55,7 @@
   \markup {
     \fill-line
     \general-align #Y #DOWN {
-      \epsfile #X #75 #"../../img/music_1.eps"
-    }
-  }
-  \markup { {  \vspace #0.1 } }
-
-  \markup \abs-fontsize #11 { \fill-line  {"Архивна снимка с музикално упражнение"} }
-
-  \pageBreak
-
-
-
-  \markup {
-    \fill-line
-    \general-align #Y #DOWN {
-      \epsfile #X #85 #"../../img/music_2.eps"
+      \epsfile #X #65 #"../../img/music_2.eps"
     }
   }
   \markup { {  \vspace #0.4 } }
@@ -102,57 +63,45 @@
   \markup \abs-fontsize #11 { \fill-line  {"Архивна снимка с песента „На Учителя покорен“"} }
 
 
+  \pageBreak
+
+  \markup {
+    \fill-line
+    \general-align #Y #DOWN {
+      \epsfile #X #75 #"../../img/music_6.eps"
+    }
+  }
+  \markup { {  \vspace #0.1 } }
+
+  \markup \abs-fontsize #11 { \fill-line  {"Ръкопис на Пеньо Ганев на песента „Песен на житното зърно“"} }
+
+
   \markup { {  \vspace #1.5 } }
 
   \markup {
     \fill-line
     \general-align #Y #DOWN {
-      \epsfile #X #85 #"../../img/music_6.eps"
+      \epsfile #X #75 #"../../img/music-pen.eps"
     }
   }
 
+  \markup { {  \vspace #0.1 } }
 
+  \markup \abs-fontsize #11 { \fill-line  {"Грфика на музикалния пентаграм, даден на Лилиана Табакова"} }
+  \pageBreak
+
+  \markup {
+    \fill-line
+    \general-align #Y #DOWN {
+      \epsfile #X #75 #"../../img/liliana3.eps"
+    }
+  }
 
   \markup { {  \vspace #0.1 } }
 
-  \markup \abs-fontsize #11 { \fill-line  {"Ръкопис на Пеньо Ганев на песента „Песен на житното зърно“"} }
-
-  \pageBreak
-
-  
+  \markup \abs-fontsize #11 { \fill-line  {"Учителя Петър Дънов, Цветана-Лилиана Табакова, Кръстьо Христов"} }
 
 
-%   \pageBreak
-%  \markup { {  \vspace #5 } }
-%   \markup {
-%     \fill-line
-%     \general-align #Y #DOWN {
-%       \epsfile #X #85 #"../../img/liliana3.eps"
-%     }
-%   }
-
-%   \markup { {  \vspace #0.1 } }
-
-%   \markup \abs-fontsize #11 { \fill-line  {"Учителя Петър Дънов на Изгрева с"} }
-%   \markup { {  \vspace #0.1 } }
-
-%   \markup \abs-fontsize #11 { \fill-line  {"Лилиана Табакова и Кръстьо Христов"} }
-
-
-%   \pageBreak
-
-%   \markup { {  \vspace #8 } }
-
-%   \markup {
-%     \fill-line
-%     \general-align #Y #DOWN {
-%       \epsfile #X #85 #"../../img/music-pen.eps"
-%     }
-%   }
-
-%   \markup { {  \vspace #0.1 } }
-
-%   \markup \abs-fontsize #11 { \fill-line  {"Музикален пентаграм, даден на Лилиана Табакова"} }
 
 
   % include foreign translation(s) of the song

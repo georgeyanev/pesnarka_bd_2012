@@ -140,7 +140,7 @@
       \midi{}
 
     } % score
-\markup \vspace #3
+\markup \vspace #5
 
 \label #'ref155_2
   \tocItem \markup "Мирът иде вече – Mirat ide veche"
