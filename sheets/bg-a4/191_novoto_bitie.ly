@@ -15,7 +15,7 @@
 
     \fill-line { \with-link #'ref_desc_18 \abs-fontsize #20  "Песни, дадени на" }
     \vspace #0.4
-    \fill-line { \with-link #'ref_desc_18 \abs-fontsize #18  "Лиляна Табакова и Кръстьо Христов" }
+    \fill-line { \with-link #'ref_desc_18 \abs-fontsize #18  "Лилиана Табакова и Кръстьо Христов" }
     \vspace #2
     \fill-line { \with-link #'ref_desc_18 \abs-fontsize #22  "Новото Битие" }
     \vspace #0.3
