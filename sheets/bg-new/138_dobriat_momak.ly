@@ -64,7 +64,7 @@
       c8 d16[(e)] f8 (e16) |
       f8 f e8. |
       g8 a f (e16) |
-      g4 g8 g16 |
+      g8 g8 g8. |
       c,8 d16[(e)] f8(e16) | \break
 
       \tempo "rit."
