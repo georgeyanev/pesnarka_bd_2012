@@ -1,7 +1,7 @@
-# :musical_note: Petar Danov's SongBook 
+# :musical_note: Petar Danov's Compositions - SongBook 
 
-This repository contains all Petar Danov songs in lilypond format bundled to a song book. The repository provides a german translation of the lyrics. 
+This repository contains all compositions of Petar Danov in lilypond format bundled to a song book.
 
-To compile the pdf please navigate in the terminal to the build folder and run ```bash make_all.sh```.
+To compile the last version of the pdf please navigate in the terminal to the ./sheets/bg-new/build folder and run ```bash make_all.sh```.
 
-ISBN-10 954-744-076-4
+ISMN 979-0-9016674-5-7
