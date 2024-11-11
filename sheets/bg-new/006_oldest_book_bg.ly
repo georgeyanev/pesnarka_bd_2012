@@ -6,7 +6,7 @@
 \bookpart {
 
   \paper {
-    print-all-headers = ##f
+    print-all-headers = ##t
     print-page-number = ##f
     print-first-page-number = ##f
 

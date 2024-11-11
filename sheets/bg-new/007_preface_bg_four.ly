@@ -8,7 +8,6 @@
     print-all-headers = ##t
     print-page-number = ##t
     print-first-page-number = ##f
-    print-first-page-number = ##f
     page-number-type = #'roman-upper
 
 
