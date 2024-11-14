@@ -6,7 +6,7 @@
 \bookpart {
   \paper {
     print-all-headers = ##t
-    print-page-number = ##t
+    print-page-number = ##f
     print-first-page-number = ##t
 
 
@@ -46,48 +46,34 @@
   }
 
 
-
-  \markup {
-    \fill-line
-    \general-align #Y #DOWN {
-      \epsfile #X #75 #"../../img/music_6.eps"
-    }
-  }
-  \markup { {  \vspace #0.1 } }
-
-  \markup \abs-fontsize #11 { \fill-line  {"Ръкопис на Пеньо Ганев на песента „Песен на житното зърно“"} }
-
+  \label #'ref251
+  \tocItem \markup "Архивни снимки"
+  \markup \abs-fontsize #16 { \fill-line {"Архивни снимки"} }
 
   \markup { {  \vspace #1 } }
 
-  \markup {
-    \fill-line
-    \general-align #Y #DOWN {
-      \epsfile #X #75 #"../../img/music-pen.eps"
-    }
-  }
-
-  \markup { {  \vspace #0.1 } }
-
-  \markup \abs-fontsize #11 { \fill-line  {"Грфика на музикалния пентаграм, даден на Лилиана Табакова"} }
-  \pageBreak
 
   \markup {
     \fill-line
     \general-align #Y #DOWN {
-      \epsfile #X #75 #"../../img/liliana3.eps"
+      \epsfile #X #65 #"../../img/music_5.eps"
     }
   }
-
   \markup { {  \vspace #0.1 } }
 
-  \markup \abs-fontsize #11 { \fill-line  {"Учителя Петър Дънов, Цветана-Лилиана Табакова, Кръстьо Христов"} }
+  \markup \abs-fontsize #11 { \fill-line  {"Архивна снимка „Песен на светлия път“"} }
 
+  \markup { {  \vspace #1.5 } }
 
+  \markup {
+    \fill-line
+    \general-align #Y #DOWN {
+      \epsfile #X #65 #"../../img/music_2.eps"
+    }
+  }
+  \markup { {  \vspace #0.4 } }
 
-
-  % include foreign translation(s) of the song
-  %
+  \markup \abs-fontsize #11 { \fill-line  {"Архивна снимка с песента „На Учителя покорен“"} }
 
 
 } % bookpart

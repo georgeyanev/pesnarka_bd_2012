@@ -8,10 +8,14 @@ cat \
     ../006_oldest_book_bg.ly \
     ../007_blank_page.ly \
     ../238_toc.ly \
+    ../007_preface_bg_one_first_page.ly \
     ../007_preface_bg_one.ly \
     ../007_preface_bg_two.ly \
+    ../007_preface_bg_three_first_page.ly \
     ../007_preface_bg_three.ly \
+    ../007_preface_bg_four_first_page.ly \
     ../007_preface_bg_four.ly \
+    ../008_about_music_bg_first_page.ly \
     ../008_about_music_bg.ly \
     ../007_blank_page.ly \
     ../010_bratski_pesni.ly \
@@ -161,9 +165,13 @@ cat \
     ../254_marsh_tekst_pg.ly \
     ../219_blank_page.ly \
     ../218_appendix.ly \
+    ../220_alpha_description_first_page.ly \
     ../220_alpha_description.ly \
+    ../251_images_first_page.ly  \
     ../251_images.ly \
+    ../221_dictionary_bg_first_page.ly \
     ../221_dictionary_bg.ly \
+    ../245_index_bg_first_page.ly \
     ../245_index_bg.ly \
     ../222.anotation_bg.ly \
     > tmp.ly
