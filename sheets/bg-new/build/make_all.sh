@@ -178,4 +178,3 @@ cat \
 
 lilypond --include=../ -o danov_songbook_bg_new tmp.ly
 rm -f *.midi
-rm -f tmp.ly

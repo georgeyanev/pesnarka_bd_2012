@@ -51,14 +51,14 @@
       Tъй наш Гос -- под ре -- че: „Ми -- рът дой -- де ве -- че, ми -- рът дой -- де ве -- че, ми -- рът дой -- де ве -- че!“,
       тъй наш Гос -- под ре -- че.
     }
-  
+
   >>
   \layout {
     indent = 0.5\cm
     ragged-last = ##f
     \override Staff.BarLine.thick-thickness = #4
     \override Score.VoltaBracket.font-size = #-1.7
-    
+
     \context {
       \Score
       \override MetronomeMark.font-size = #1.4
