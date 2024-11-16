@@ -350,7 +350,7 @@
       bookpart-level-page-numbering = ##t
       print-first-page-number = ##t
       bookpart-level-page-numbering = ##t
-      first-page-number = #1
+      first-page-number = #2
       print-first-page-number = ##t
 
 
