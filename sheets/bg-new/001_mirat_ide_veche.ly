@@ -8,6 +8,8 @@
 
 
 \paper {
+  first-page-number = #2
+
 
   #(define fonts
      (set-global-fonts

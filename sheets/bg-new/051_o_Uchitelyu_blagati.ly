@@ -20,7 +20,13 @@
   \label #'ref051
   \tocItem \markup "О, Учителю благати"
   \include "include/bookpart-paper.ily"
-  \score {
+  \paper {
+      print-first-page-number = ##t
+      bookpart-level-page-numbering = ##t
+  print-page-number = ##t
+      first-page-number = #33
+}
+\score {
     \include "include/score-layout.ily"
 
     \new Voice \absolute  {

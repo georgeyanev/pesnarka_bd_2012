@@ -7,9 +7,11 @@
   \label #'ref154
   \tocItem \markup "Не ли думах"
   \paper {
+      print-first-page-number = ##t
+      bookpart-level-page-numbering = ##t
     print-all-headers = ##t
     print-page-number = ##t
-    print-first-page-number = ##t
+      first-page-number = #137
 
 
     % put page numbers on the top

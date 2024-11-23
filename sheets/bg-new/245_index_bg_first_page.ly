@@ -6,9 +6,11 @@
 \bookpart {
   \tocItem \markup "Азбучен показател"
   \paper {
+      print-first-page-number = ##t
+      bookpart-level-page-numbering = ##t
     print-all-headers = ##t
     print-page-number = ##f
-    print-first-page-number = ##t
+      first-page-number = #228
 
 
     % put page numbers on the bottom

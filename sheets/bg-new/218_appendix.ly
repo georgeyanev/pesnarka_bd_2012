@@ -7,9 +7,11 @@
 
   \tocAct \markup"Приложение"
   \paper {
+      print-first-page-number = ##t
+      bookpart-level-page-numbering = ##t
     print-all-headers = ##f
     print-page-number = ##f
-    print-first-page-number = ##f
+      first-page-number = #198
 
     % put page numbers on the bottom
     oddHeaderMarkup = \markup ""

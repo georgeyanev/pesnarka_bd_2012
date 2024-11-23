@@ -5,6 +5,10 @@
   composer = "Петър Дънов"
 }
 \paper {
+      print-page-number = ##t
+      print-first-page-number = ##t
+      bookpart-level-page-numbering = ##t
+
   #(define fonts
      (set-global-fonts
       #:music "emmentaler"

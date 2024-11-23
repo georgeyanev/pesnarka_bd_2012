@@ -8,7 +8,13 @@
   \label #'ref030
   \tocItem \markup "Изгрей ти, мое слънце"
   \include "include/bookpart-paper.ily"
-  \score {
+  \paper {
+      print-first-page-number = ##t
+      bookpart-level-page-numbering = ##t
+  print-page-number = ##t
+      first-page-number = #16
+}
+\score {
     \include "include/score-layout.ily"
 
     \new Voice \absolute {

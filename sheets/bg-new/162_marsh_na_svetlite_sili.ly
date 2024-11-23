@@ -6,9 +6,11 @@
   \label #'ref162
   \tocItem \markup "Марш на светлите сили"
   \paper {
+      print-first-page-number = ##t
+      bookpart-level-page-numbering = ##t
     print-all-headers = ##t
     print-page-number = ##t
-    print-first-page-number = ##t
+      first-page-number = #144
 
 
     % put page numbers on the top and change the font style.

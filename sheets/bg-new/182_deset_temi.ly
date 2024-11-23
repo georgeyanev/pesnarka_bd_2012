@@ -7,7 +7,13 @@
   \tocItem \markup "Десет теми"
   \include "include/bookpart-paper.ily"
 
-  \score {
+  \paper {
+      print-first-page-number = ##t
+      bookpart-level-page-numbering = ##t
+  print-page-number = ##t
+      first-page-number = #165
+}
+\score {
     %1
     \include "include/score-layout-indent.ily"
 

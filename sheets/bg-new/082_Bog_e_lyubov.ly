@@ -7,7 +7,13 @@
   \label #'ref082
   \tocItem \markup "Бог е Любов"
   \include "include/bookpart-paper.ily"
-  \score {
+  \paper {
+      print-first-page-number = ##t
+      bookpart-level-page-numbering = ##t
+  print-page-number = ##t
+      first-page-number = #65
+}
+\score {
     \include "include/score-layout.ily"
 
     \new Voice \relative c' {

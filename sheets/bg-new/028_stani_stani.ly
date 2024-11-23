@@ -9,7 +9,13 @@
   \tocItem \markup "Стани, стани"
 
   \include "include/bookpart-paper.ily"
-  \score {
+  \paper {
+      print-first-page-number = ##t
+      bookpart-level-page-numbering = ##t
+  print-page-number = ##t
+      first-page-number = #14
+}
+\score {
     \include "include/score-layout.ily"
 
     \new Voice \absolute {

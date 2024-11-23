@@ -7,9 +7,11 @@
   #(define blineskip221 3.8)
 
   \paper {
+      print-first-page-number = ##t
+      bookpart-level-page-numbering = ##t
     print-all-headers = ##t
     print-page-number = ##f
-    print-first-page-number = ##t
+      first-page-number = #224
 
 
     % put page numbers on the bottom

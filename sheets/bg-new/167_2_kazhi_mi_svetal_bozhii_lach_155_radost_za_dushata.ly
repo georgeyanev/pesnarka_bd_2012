@@ -7,9 +7,11 @@
   \label #'ref167_2
   \tocItem \markup "Кажи ми, светли Божи лъч"
   \paper {
+      print-first-page-number = ##t
+      bookpart-level-page-numbering = ##t
     print-all-headers = ##t
     print-page-number = ##t
-    print-first-page-number = ##t
+      first-page-number = #150
 
 
     % put page numbers on the top and change the font style.

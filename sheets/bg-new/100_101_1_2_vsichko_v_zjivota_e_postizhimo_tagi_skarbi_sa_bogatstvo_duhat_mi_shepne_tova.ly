@@ -7,7 +7,13 @@
   \label #'ref100
   \tocItem \markup "Всичко в живота е постижимо"
   \include "include/bookpart-paper.ily"
-  \score {
+  \paper {
+      print-first-page-number = ##t
+      bookpart-level-page-numbering = ##t
+  print-page-number = ##t
+      first-page-number = #83
+}
+\score {
     \include "include/score-layout.ily"
 
 

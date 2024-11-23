@@ -22,7 +22,13 @@
     \fill-line { \with-link #'ref_desc_18 \abs-fontsize #16  "Създаването на новия Адам" }
     \vspace #2
   }
-  \score {
+  \paper {
+      print-first-page-number = ##t
+      bookpart-level-page-numbering = ##t
+  print-page-number = ##t
+      first-page-number = #171
+}
+\score {
     \include "include/score-layout.ily"
     \new Voice \absolute {
       \clef treble

@@ -7,7 +7,13 @@
   \label #'ref094
   \tocItem \markup "В начало бе Словото"
   \include "include/bookpart-paper.ily"
-  \score {
+  \paper {
+      print-first-page-number = ##t
+      bookpart-level-page-numbering = ##t
+  print-page-number = ##t
+      first-page-number = #77
+}
+\score {
     \include "include/score-layout.ily"
 
     \defineBarLine "heavyLight" #'( "!"

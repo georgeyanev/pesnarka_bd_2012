@@ -4,9 +4,11 @@
 \include "include/globals.ily"
 \bookpart {
   \paper {
+      print-first-page-number = ##t
+      bookpart-level-page-numbering = ##t
     print-all-headers = ##t
     print-page-number = ##f
-    print-first-page-number = ##f
+      first-page-number = #242
     page-number-type = #'roman-upper
 
 
@@ -350,8 +352,7 @@
       bookpart-level-page-numbering = ##t
       print-first-page-number = ##t
       bookpart-level-page-numbering = ##t
-      first-page-number = #2
-      print-first-page-number = ##t
+      first-page-number = #242
 
 
       % put page numbers on the top and change the font style.

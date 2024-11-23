@@ -7,7 +7,13 @@
   \label #'ref038
   \tocItem \markup "Милосърдието"
   \include "include/bookpart-paper.ily"
-  \score {
+  \paper {
+      print-first-page-number = ##t
+      bookpart-level-page-numbering = ##t
+  print-page-number = ##t
+      first-page-number = #21
+}
+\score {
     \include "include/score-layout.ily"
 
     \new Voice \absolute {

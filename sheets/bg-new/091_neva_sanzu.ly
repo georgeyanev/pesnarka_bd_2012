@@ -7,7 +7,13 @@
   \label #'ref091
   \tocItem \markup "Нева санзу"
   \include "include/bookpart-paper.ily"
-  \score {
+  \paper {
+      print-first-page-number = ##t
+      bookpart-level-page-numbering = ##t
+  print-page-number = ##t
+      first-page-number = #74
+}
+\score {
     \include "include/score-layout.ily"
 
     \new Voice \absolute {

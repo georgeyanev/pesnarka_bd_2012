@@ -18,9 +18,11 @@ endParenthesis = {
   \label #'ref122
   \tocItem \markup "Радост и скръб"
 \paper {
+      print-first-page-number = ##t
+      bookpart-level-page-numbering = ##t
   print-all-headers = ##t
   print-page-number = ##t
-  print-first-page-number = ##t
+      first-page-number = #105
 
 
   % put page numbers on the top and change the font style.

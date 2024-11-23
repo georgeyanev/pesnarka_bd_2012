@@ -7,7 +7,13 @@
   \label #'ref103
   \tocItem \markup "Красив е животът"
   \include "include/bookpart-paper.ily"
-  \score {
+  \paper {
+      print-first-page-number = ##t
+      bookpart-level-page-numbering = ##t
+  print-page-number = ##t
+      first-page-number = #86
+}
+\score {
     \include "include/score-layout.ily"
 
 

@@ -7,7 +7,13 @@
   \label #'ref078
   \tocItem \markup "Грее, грее"
   \include "include/bookpart-paper.ily"
-  \score {
+  \paper {
+      print-first-page-number = ##t
+      bookpart-level-page-numbering = ##t
+  print-page-number = ##t
+      first-page-number = #61
+}
+\score {
     \include "include/score-layout.ily"
 
     \new Voice \relative c' {

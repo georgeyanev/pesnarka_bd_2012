@@ -7,7 +7,13 @@
   \label #'ref251_1
   \tocItem \markup "Мелодия 2 – В радостта на деня"
   \include "include/bookpart-paper.ily"
-  \score {
+  \paper {
+      print-first-page-number = ##t
+      bookpart-level-page-numbering = ##t
+  print-page-number = ##t
+      first-page-number = #233
+}
+\score {
     \include "include/score-layout.ily"
 
     \new Voice \absolute {

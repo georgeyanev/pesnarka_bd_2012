@@ -5,7 +5,12 @@
 
 \bookpart {
   \include "include/bookpart-paper.ily"
-  \score {
+  \paper {
+  first-page-number = #1
+  print-page-number = ##t
+  print-first-page-number = ##t
+}
+\score {
     \include "include/score-layout.ily"
 
     \new Voice \relative c' {

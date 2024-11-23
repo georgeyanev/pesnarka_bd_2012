@@ -7,7 +7,13 @@
   \label #'ref181
   \tocItem \markup "Пролетна песен"
   \include "include/bookpart-paper.ily"
-  \score {
+  \paper {
+      print-first-page-number = ##t
+      bookpart-level-page-numbering = ##t
+  print-page-number = ##t
+      first-page-number = #164
+}
+\score {
     \include "include/score-layout.ily"
 
     \new Voice \absolute {
@@ -66,8 +72,8 @@
       та про -- лет, __  слън -- це из
       -- гря -- ва. Всич -- ко се
       бу -- ди, рас -- те, жи -- ве -- е и __
-      се __  рад -- ва, и бла-- го--
-      да-- ри на Бо -- га. Про -- лет,
+      се __  рад -- ва, и бла -- го--
+      да -- ри на Бо -- га. Про -- лет,
       про -- лет е до -- шла. Пти -- чен
       -- це в~не -- бе -- то слад -- ко
       чу -- ру -- ли -- ка, слън -- це -- то
