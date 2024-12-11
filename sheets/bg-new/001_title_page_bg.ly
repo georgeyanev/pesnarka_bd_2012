@@ -79,14 +79,15 @@
 
   \markup \fontsize  #+3 {\hspace #30 {"Издателство „Домисол“ "} }
   \markup \fontsize  #+2.5  { {  \vspace #0.5 } }
-  % \markup {
-  %   \hspace #-1
-  %   \fill-line
-  %   \general-align #Y #DOWN {
-  %     \epsfile #X #16 #"../../img/domisol.eps"
-  %   }
-  %   \hspace #0.5
-  % }
+
+  \markup {
+    \hspace #-1
+    \fill-line
+    \general-align #Y #DOWN {
+      \epsfile #X #9 #"../../img/logo-black.eps"
+    }
+    \hspace #0.5
+  }
 
 
 

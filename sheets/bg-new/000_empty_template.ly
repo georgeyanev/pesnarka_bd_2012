@@ -10,11 +10,11 @@
 
     \new Voice \relative c' {
       \clef treble
-      \key g \major
-      \time 4/4
-      \tempoFunc "Moderato" 4 "69"
+
       \autoBeamOff
-      c % notes here
+      \omit Score.TimeSignature
+      \cadenzaOn % allows custom bar lines
+      c2 e g   c2 e g   c2 e g   c2 e g   c2 e g   c2 e g   c2 e g   c2 e g 
     }
 
     \addlyrics {}
