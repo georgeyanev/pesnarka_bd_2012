@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Ins Rila fliegen wir" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #10 {
-   \hspace #5
+\markup \abs-fontsize #11 {
+  \hspace #5
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -14,7 +14,7 @@
     \line {   "   " Mit diesem Wunsch in der Brust }
     \line {   "   " leben wir in einer unvergänglichen Welt. }
 
-     \vspace #0.5
+    \vspace #0.5
     \line { 2. Wieder werden wir uns  }
     \line {   "   " bei den Rila-Augen treffen. }
     \line {   "   " Hier wird unsere Violine }
@@ -24,12 +24,12 @@
 
   }
 
-   \hspace #1
+  \hspace #1
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
- 
 
-  \column { 
-      
+
+  \column {
+
     \line { 3. Unsere Seelen – Geigen  }
     \line {   "   " werden Schönheit ausgießen, }
     \line {   "   " denn mit ihnen wird spielen  }

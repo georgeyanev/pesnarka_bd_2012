@@ -4,21 +4,21 @@
 \markup \null
 \markup \null
 
-\markup \abs-fontsize #10 {
-     \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+\markup \abs-fontsize #11 {
+  \fill-line {
+    \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
-    \line { " "Dir singen wir, Dir danken wir,}
+    \column {
+      \line { " "Dir singen wir, Dir danken wir,}
 
-    \line { " "Dich lobpreisen wir, unser Gott.}
+      \line { " "Dich lobpreisen wir, unser Gott.}
 
-    \line { " "Und wir beten zu Dir, }
-   \line { " " und wir beten zu Dir,}
-    \line { " " und wir beten zu Dir,}
+      \line { " "Und wir beten zu Dir, }
+      \line { " " und wir beten zu Dir,}
+      \line { " " und wir beten zu Dir,}
 
-    \line { " "oh, unser Gott.}
+      \line { " "oh, unser Gott.}
 
-  }
+    }
   }
 }

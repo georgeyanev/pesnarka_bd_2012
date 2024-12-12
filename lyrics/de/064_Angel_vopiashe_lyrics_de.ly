@@ -3,35 +3,35 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Ein Engel sang" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #10 {
-     \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+\markup \abs-fontsize #11 {
+  \fill-line {
+    \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
+    \column {
 
-    \line { " "Ein Engel rief der Mutter Gottes zu:}
+      \line { " "Ein Engel rief der Mutter Gottes zu:}
 
-    \line { " "„Reine Jungfrau, freue dich! }
-    
-    \line { " " Und ich sage dir wieder: Freue dich! }
+      \line { " "„Reine Jungfrau, freue dich! }
 
-    \line { " "Dein Sohn ist vom Grab am dritten Tag nach dem Tod}
+      \line { " " Und ich sage dir wieder: Freue dich! }
 
-    \line { " "auferstanden und erweckte die Toten zum Leben;}
+      \line { " "Dein Sohn ist vom Grab am dritten Tag nach dem Tod}
 
-    \line { " "Menschen, freut euch!}
+      \line { " "auferstanden und erweckte die Toten zum Leben;}
 
-    \line { " "Geheiligt, geheiligt seist du, neues Jerusalem, }
+      \line { " "Menschen, freut euch!}
 
-    \line { " "denn die Herrlichkeit Gottes ist über dich gekommen: }
+      \line { " "Geheiligt, geheiligt seist du, neues Jerusalem, }
 
-    \line { " "Frohlocke jetzt und jauchze, oh Zion!}
+      \line { " "denn die Herrlichkeit Gottes ist über dich gekommen: }
 
-    \line { " "Du, Reine, freue dich, Mutter Gottes}
+      \line { " "Frohlocke jetzt und jauchze, oh Zion!}
 
-    \line { " "über die Auferstehung des von dir Geborenen.“}
+      \line { " "Du, Reine, freue dich, Mutter Gottes}
+
+      \line { " "über die Auferstehung des von dir Geborenen.“}
 
 
+    }
   }
-     }
 }

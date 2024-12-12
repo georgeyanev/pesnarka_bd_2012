@@ -37,7 +37,7 @@
   }
 
   \markup \override #'(baseline-skip . 3.2)
-  \column  \abs-fontsize #10 {
+  \column  \abs-fontsize #11 {
     \with-link #'ref137 \fill-with-pattern #1 #RIGHT . "A bre, sinko – А бре, синко" \page-ref #'ref137 "000" "?"
     \with-link #'ref135 \fill-with-pattern #1 #RIGHT . "Ain fasi – Аин фаси" \page-ref #'ref135 "000" "?"
     \with-link #'ref064 \fill-with-pattern #1 #RIGHT . "Angel vopijaše – Ангел вопияше" \page-ref #'ref064 "000" "?"
@@ -86,7 +86,7 @@
   }
 
   \markup \override #'(baseline-skip . 3.2)
-  \column \abs-fontsize #10 {
+  \column \abs-fontsize #11 {
 
     \with-link #'ref104 \fill-with-pattern #1 #RIGHT . "Himn na Velikata duša – Химн на Великата душа " \page-ref #'ref104 "000" "?"
     \with-link #'ref088 \fill-with-pattern #1 #RIGHT . "Hodi, hodi – Ходи, ходи." \page-ref #'ref088 "000" "?"
@@ -137,7 +137,7 @@
   }
 
   \markup \override #'(baseline-skip . 3.2)
-  \column \abs-fontsize #10 {
+  \column \abs-fontsize #11 {
 
     \with-link #'ref087 \fill-with-pattern #1 #RIGHT . "Musala – Мусала" \page-ref #'ref087 "000" "?"
     \with-link #'ref058 \fill-with-pattern #1 #RIGHT . "Na belija cvjat – На белия цвят" \page-ref #'ref058 "000" "?"
@@ -188,7 +188,7 @@
   }
 
   \markup \override #'(baseline-skip . 3.2)
-  \column \abs-fontsize #10 {
+  \column \abs-fontsize #11 {
 
     \with-link #'ref053 \fill-with-pattern #1 #RIGHT . "Slava Božija – Слава Божия" \page-ref #'ref053 "000" "?"
     \with-link #'ref049 \fill-with-pattern #1 #RIGHT . "Slavejčeta gorski – Славейчета горски" \page-ref #'ref049 "000" "?"

@@ -59,7 +59,7 @@
 
   \markup \empty-two
 
-  \markup \abs-fontsize #10 {
+  \markup \abs-fontsize #11 {
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
@@ -143,7 +143,7 @@
 
   \pageBreak
 
-  \markup \abs-fontsize #10  {
+  \markup \abs-fontsize #11  {
     \hspace #2
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {

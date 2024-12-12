@@ -5,7 +5,7 @@
 
 \bookpart {
   \paper {
-    #(set-paper-size "a5")
+    #(set-paper-size "c5")
     print-all-headers = ##f
     print-page-number = ##f
     print-first-page-number = ##f
@@ -78,15 +78,15 @@
 
 
 
-  \markup \fontsize  #+2  { {  \vspace #16 } }
+  \markup \fontsize  #+2  { {  \vspace #19 } }
 
-  \markup \fontsize  #+3.5 {\hspace #35 {"Verlag „Bjalo Bratstvo“ "} }
+  \markup \fontsize  #+3.5 {\hspace #35 {"Verlag „Domisol“ "} }
   \markup \fontsize  #+2.5  { {  \vspace #0.5 } }
   \markup {
     \hspace #-1
     \fill-line
     \general-align #Y #DOWN {
-      \epsfile #X #9 #"../../img/logo_large.eps"
+      \epsfile #X #9 #"../../img/logowi.eps"
     }
     \hspace #0.1
   }

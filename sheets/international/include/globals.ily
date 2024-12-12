@@ -1,9 +1,11 @@
 \version "2.24.4"
 
-#(set-global-staff-size 14)
+#(set-global-staff-size 15)
+
+#(set! paper-alist (cons '("my size" . (cons (* 17 cm) (* 24 cm))) paper-alist))
 
 \paper {
-  #(set-paper-size "a5")
+  #(set-paper-size "my size")
 
   % change lyrics and titles font (affects notes also)
   #(define fonts
@@ -28,12 +30,13 @@ tempoFunc = #(define-music-function
                     #tName \normal-text { " (" }
                     \teeny \general-align #Y #DOWN \note #tNote #1.1
                     \normal-text { " = " }
-                    \normal-text \large { #tNumber  }
+                    \fontsize #-0.7 \normal-text { #tNumber  }
                     \normal-text { ")" }
                   }
                 }
               #}
               )
+
 
 tocAct = #(define-music-function (label text) ((symbol-list-or-symbol? '()) markup?)
             (add-toc-item! 'tocActMarkup text label))
@@ -165,12 +168,12 @@ titleFunc = #(define-scheme-function
                      )
    )
 
-#(define bgCoupletFontSize +2.3)
-#(define bgCoupletBaselineSkip 3.2)
+#(define bgCoupletFontSize +2.5)
+#(define bgCoupletBaselineSkip 3.4)
 
 #(define deTitleFontSize 5)
-#(define deCoupletFontSize +2.3)
-#(define deCoupletBaselineSkip 3.2)
+#(define deCoupletFontSize +2.5)
+#(define deCoupletBaselineSkip 3.4)
 
 #(define-bar-line "!!" "!!" #f "!")
 %The new bar line interface allows for easier extension and modification of the bar lines:

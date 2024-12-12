@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Hymne an die große Seele" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #10 {
+\markup \abs-fontsize #11 {
      \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 

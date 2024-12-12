@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Die Stimme des lebendigen Herrn – Die Neue Auferstehung" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #10 {
+\markup \abs-fontsize #11 {
 \fill-line {
  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 

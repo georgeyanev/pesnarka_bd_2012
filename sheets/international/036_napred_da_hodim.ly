@@ -63,7 +63,7 @@
 
       \markup \empty-two
 
-      \markup \abs-fontsize #10 {
+      \markup \abs-fontsize #11 {
         \hspace #10
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
         \column {

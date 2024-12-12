@@ -92,7 +92,7 @@
 
   } % score
   \markup \vspace #1
-  \markup \abs-fontsize #10 {
+  \markup \abs-fontsize #11 {
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {

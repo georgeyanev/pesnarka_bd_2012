@@ -144,7 +144,7 @@
 
   \markup \vspace #2
 
-  \markup \abs-fontsize #10 {
+  \markup \abs-fontsize #11 {
     \hspace #20
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
@@ -159,7 +159,7 @@
     }
   } % markup
   \pageBreak
-  \markup \abs-fontsize #10 {
+  \markup \abs-fontsize #11 {
     \hspace #20
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {

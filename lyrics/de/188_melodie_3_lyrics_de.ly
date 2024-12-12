@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Melodie 3 – Wenn der Tag erwacht" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #10  {
+\markup \abs-fontsize #11 {
  \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 

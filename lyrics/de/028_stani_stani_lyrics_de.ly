@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Stehe auf, stehe auf" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #10 {
+\markup \abs-fontsize #11 {
   \hspace #5
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {

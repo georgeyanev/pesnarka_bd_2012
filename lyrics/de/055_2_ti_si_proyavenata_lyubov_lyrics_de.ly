@@ -4,17 +4,17 @@
 \markup \null
 \markup \null
 
-\markup \abs-fontsize #10 {
+\markup \abs-fontsize #11 {
   \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+    \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
+    \column {
 
-    \line { " "Du bist die offenbarte Liebe zu mir, oh Herr.}
-    \line { " "Meine Seele sehnt sich nach Deiner Reinheit,}
-    \line { " "Meine Seele sehnt sich nach Deinem Licht.}
+      \line { " "Du bist die offenbarte Liebe zu mir, oh Herr.}
+      \line { " "Meine Seele sehnt sich nach Deiner Reinheit,}
+      \line { " "Meine Seele sehnt sich nach Deinem Licht.}
 
-  }
+    }
 
   }
 

@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Sage du mir die Wahrheit III" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #10 {
+\markup \abs-fontsize #11 {
    \fill-line {
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 

@@ -11,7 +11,7 @@
   \markup \abs-fontsize #14 { \fill-line \bold {"Anmerkungen"} }
 
   \label #'ref_desc_1
-  \markup \abs-fontsize #10
+  \markup \abs-fontsize #11
   {
     \override #'(baseline-skip . 3.4)
     \column {
@@ -74,7 +74,7 @@
 
 
   \label #'ref_desc_2
-  \markup \abs-fontsize #10
+  \markup \abs-fontsize #11
   {
     \override #'(baseline-skip . 3.4)
     \column {
@@ -149,7 +149,7 @@
   }
 
   \label #'ref_desc_3
-  \markup \abs-fontsize #10
+  \markup \abs-fontsize #11
   {
     \override #'(baseline-skip . 3.4)
     \column {
@@ -214,7 +214,7 @@
 
 
   \label #'ref_desc_4
-  \markup \abs-fontsize #10
+  \markup \abs-fontsize #11
   {
     \override #'(baseline-skip . 3.4)
     \column {
@@ -278,7 +278,7 @@
 
 
   \label #'ref_desc_4
-  \markup \abs-fontsize #10
+  \markup \abs-fontsize #11
   {
     \override #'(baseline-skip . 3.4)
     \column {
@@ -355,7 +355,7 @@
   }
 
   \label #'ref_desc_4
-  \markup \abs-fontsize #10
+  \markup \abs-fontsize #11
   {
     \override #'(baseline-skip . 3.4)
     \column {
@@ -429,7 +429,7 @@
   }
 
   \label #'ref_desc_4
-  \markup \abs-fontsize #10
+  \markup \abs-fontsize #11
   {
     \override #'(baseline-skip . 3.4)
     \column {
@@ -509,7 +509,7 @@
 
 
   \label #'ref_desc_4
-  \markup \abs-fontsize #10
+  \markup \abs-fontsize #11
   {
     \override #'(baseline-skip . 3.4)
     \column {
@@ -575,7 +575,7 @@
 
 
   \label #'ref_desc_4
-  \markup \abs-fontsize #10
+  \markup \abs-fontsize #11
   {
     \override #'(baseline-skip . 3.4)
     \column {
@@ -656,7 +656,7 @@
   }
 
   \label #'ref_desc_4
-  \markup \abs-fontsize #10
+  \markup \abs-fontsize #11
   {
     \override #'(baseline-skip . 3.4)
     \column {
@@ -723,7 +723,7 @@
 
 
   \label #'ref_desc_4
-  \markup \abs-fontsize #10
+  \markup \abs-fontsize #11
   {
     \override #'(baseline-skip . 3.4)
     \column {
@@ -831,7 +831,7 @@
   }
 
   \label #'ref_desc_4
-  \markup \abs-fontsize #10
+  \markup \abs-fontsize #11
   {
     \override #'(baseline-skip . 3.4)
     \column {
@@ -859,7 +859,7 @@
     }
   }
   \label #'ref_desc_4
-  \markup \abs-fontsize #10
+  \markup \abs-fontsize #11
   {
     \override #'(baseline-skip . 3.4)
     \column {
@@ -928,7 +928,7 @@
   }
 
   \label #'ref_desc_4
-  \markup \abs-fontsize #10
+  \markup \abs-fontsize #11
   {
     \override #'(baseline-skip . 3.4)
     \column {
@@ -1038,7 +1038,7 @@
 
 
   \label #'ref_desc_4
-  \markup \abs-fontsize #10
+  \markup \abs-fontsize #11
   {
     \override #'(baseline-skip . 3.4)
     \column {
@@ -1105,7 +1105,7 @@
   }
 
   \label #'ref_desc_18
-  \markup \abs-fontsize #10 {
+  \markup \abs-fontsize #11 {
     \override #'(baseline-skip . 3.4)
     \column {
 
@@ -1183,7 +1183,7 @@
 
 
   \label #'ref_desc_4
-  \markup \abs-fontsize #10
+  \markup \abs-fontsize #11
   {
     \override #'(baseline-skip . 3.4)
     \column {
@@ -1254,7 +1254,7 @@
 
 
   \label #'ref_desc_19
-  \markup \abs-fontsize #10 {
+  \markup \abs-fontsize #11 {
     \override #'(baseline-skip . 3.4)
     \column {
       \line {
@@ -1322,7 +1322,7 @@
 
 
   \label #'ref_desc_4
-  \markup \abs-fontsize #10
+  \markup \abs-fontsize #11
   {
     \override #'(baseline-skip . 3.4)
     \column {
@@ -1385,7 +1385,7 @@
 
 
   \label #'ref_desc_5
-  \markup \abs-fontsize #10
+  \markup \abs-fontsize #11
   {
     \override #'(baseline-skip . 3.4)
     \column {
@@ -1471,7 +1471,7 @@
   }
 
   \label #'ref_desc_8
-  \markup \abs-fontsize #10
+  \markup \abs-fontsize #11
   {
     \override #'(baseline-skip . 3.4)
     \column {

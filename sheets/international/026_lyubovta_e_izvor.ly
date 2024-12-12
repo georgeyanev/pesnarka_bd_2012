@@ -50,7 +50,7 @@
 
   } % score
   \markup \vspace #0.3
-  \markup \abs-fontsize #10 {
+  \markup \abs-fontsize #11 {
     \hspace #15
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
@@ -116,7 +116,7 @@
   } % markup
 
   \pageBreak
-  \markup \abs-fontsize #10 {
+  \markup \abs-fontsize #11 {
     \hspace #15
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {

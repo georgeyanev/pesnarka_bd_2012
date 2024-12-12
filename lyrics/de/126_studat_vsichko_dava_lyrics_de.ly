@@ -4,13 +4,11 @@
 
 \markup \null
 \markup \null
-\markup \abs-fontsize #10 {
+\markup \abs-fontsize #11 {
 
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-
-
 
     \line { " "  Die Kälte gibt alles. Kalt bist du,}
 

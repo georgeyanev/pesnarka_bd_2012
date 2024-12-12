@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Der Himmel öffnet sich" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #10 {
+\markup \abs-fontsize #11 {
   \hspace #15
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
@@ -18,7 +18,7 @@
     \line { "   "zerstreuen Dunkelheit }
     \line { "   " und Finsternis.}
 
-     \vspace #0.5
+    \vspace #0.5
 
     \line { 2. Christus kommt herab }
 
@@ -28,17 +28,17 @@
 
     \line { "   "in all seiner Herrlichkeit.}
 
-    
+
 
 
 
   }
   \hspace #5
 
-    \override #`(baseline-skip . ,deCoupletBaselineSkip)
+  \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column { 
-     
+  \column {
+
     \line { 3. Kommt, alle Brüder,}
 
     \line { "   "ganz in Weiß gekleidet,}
@@ -46,7 +46,7 @@
     \line { "   "auf dass wir ihn mit Freude,}
 
     \line { "   "feierlich und ehrerbietig }
-     \line { "   " willkommen heißen.}
+    \line { "   " willkommen heißen.}
     \vspace #0.5
     \line { 4. Er kommt auf die Erde, }
 
@@ -56,12 +56,12 @@
 
     \line { "   "in Wahrheit zu schenken.}
 
- }
+  }
 
 }
 
 
-\markup \abs-fontsize #10 {
+\markup \abs-fontsize #11 {
   \hspace #32
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
@@ -77,7 +77,7 @@
 
   }
 
-  
+
 
 }
 

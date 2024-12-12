@@ -3,8 +3,8 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Singt an Christus" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #10 {
-  
+\markup \abs-fontsize #11 {
+
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
@@ -25,7 +25,7 @@
 
     \line { "   "von Geschlecht zu Geschlecht.}
 
-   
+
 
     \vspace #0.5
 
@@ -40,19 +40,19 @@
     \line { "   "Er verkündete die frohe Botschaft }
 
     \line { "   "und sagte: „Ihr seid mein, }
-    
-   \line { "   " ich bin euer,}
+
+    \line { "   " ich bin euer,}
 
     \line { "   "alle Menschen sind Brüder,}
 
     \line { "   "Gottvater ist unser Vater.}
 
   }
-    
-   \hspace #1
+
+  \hspace #1
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
   \column {
-  
+
 
     \line { 2. Singt an Christus neue Hymnen}
 
@@ -69,7 +69,7 @@
     \line { "   "wie ein Sterbender stieg er in das Grab }
 
     \line { "   " hinab, um die Toten auferstehen zu lassen. }
-   \vspace #0.5
+    \vspace #0.5
 
     \line { 4. Liebet einander, }
 
@@ -94,12 +94,12 @@
 
 }
 
-\markup \abs-fontsize #10 {
-    \hspace #30
+\markup \abs-fontsize #11 {
+  \hspace #30
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column { 
-   \vspace #0.7
+  \column {
+    \vspace #0.7
     \line { 5. Nur in ihr ist das Leben;}
 
     \line { "   "in ihr ist auch die Freude,}
@@ -117,5 +117,5 @@
     \line { "   "diese seine Worte zum Leben. }
 
   }
-  
-  }
+
+}

@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Oh, gütiger Meister" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #10 {
+\markup \abs-fontsize #11 {
 \hspace #3
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 

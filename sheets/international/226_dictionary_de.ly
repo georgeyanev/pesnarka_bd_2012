@@ -11,7 +11,7 @@
 
   \markup \abs-fontsize #14 { \fill-line \bold {"Wörterbuch der Musikbegriffe"} }
 
-  \markuplist \abs-fontsize #10 {
+  \markuplist \abs-fontsize #11 {
     \override #'(padding . 2) % horizontal distance
     \override #'(baseline-skip . 4.6) % vertical distance
     \override #'(line-width . 58)

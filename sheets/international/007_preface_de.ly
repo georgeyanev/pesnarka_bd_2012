@@ -4,40 +4,54 @@
 \include "include/globals.ily"
 
 \bookpart {
-  \paper {
-    print-all-headers = ##f
-    print-page-number = ##t
-    print-first-page-number = ##f
-
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
-    \fill-line {
-      ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-    }
-    evenFooterMarkup = \markup
-    \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
-      ""
-    }
-
-    left-margin = 1.5\cm
-    right-margin = 1.5\cm
-    top-margin = 1.2\cm
-    bottom-margin = 1.0\cm
-    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##t
+  print-first-page-number = ##t
 
 
+  % put page numbers on the top and change the font style.
+  oddHeaderMarkup = \markup
+  \fill-line {
+    ""
+    \unless \on-first-page-of-part \fromproperty #'header:instrument
+    \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
   }
+  %% evenHeaderMarkup would inherit the value of
+  %% oddHeaderMarkup if it were not defined here
+  evenHeaderMarkup = \markup
+  \fill-line {
+    \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+    \unless \on-first-page-of-part \fromproperty #'header:instrument
+    ""
+  }
+
+  oddFooterMarkup = \markup ""
+
+  evenFooterMarkup = ""
+  left-margin = 1.5\cm
+  right-margin = 1.5\cm
+  top-margin = 1\cm
+  bottom-margin = 1.2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+  top-markup-spacing.basic-distance = 0\mm % margin between page number and system for the first page
+  top-system-spacing.basic-distance = 10\mm % margin between page number and system for the other pages
+
+  % change distance between staves
+  system-system-spacing =
+  #'((basic-distance . 16)
+     (minimum-distance . 6)
+     (padding . 1)
+     (stretchability . 12))
+}
+
 
   \tocItem \markup "Vorwort"
   \markup \abs-fontsize #12 { \fill-line \bold {"VORWORT"} }
 
 
-  \markup \abs-fontsize #10 {
-    \vspace #1.5 \override #'(baseline-skip . 3.2)
+  \markup \abs-fontsize #11 {
+    \vspace #1.5 \override #'(baseline-skip . 3.6)
     \justify-string "
     
     Der gegenwärtige Sammelband enthält Lieder und Instrumentalwerke des spirituellen Lehrers Petar Danov – Beinsa Duno, dem Gründer der geistigen Bewegung „Weiße Bruderschaft“ in Bulgarien sowie Lieder seiner Schüler in bulgarischer und deutscher Sprache. 
@@ -50,7 +64,7 @@
 
 
 
-  \markup \abs-fontsize #10 \override #'(baseline-skip . 3.2){
+  \markup \abs-fontsize #11 \override #'(baseline-skip . 3.6){
     \justify-string " 
     die Rückkehr des teueren Gastes [auf dem verlorenen Sohn] gewartet. Ein anderes Beispiel sind Melodien, in denen Danov Mikrointervale einsetzte und so Viertelton-Musik komponierte. Die Mikrointervale, die viertel und die achtel Töne in der Musik thematisierte Danov in vielen Vorträgen. Sie können nach Danov in besonderem Maßen die Gefühle musikalisch zum Ausdruck bringen.
 
@@ -68,7 +82,7 @@
   }
 
 
-  \markup \abs-fontsize #10 \override #'(baseline-skip . 3.2) {
+  \markup \abs-fontsize #11 \override #'(baseline-skip . 3.6) {
     \justify-string "
    
 
@@ -98,14 +112,14 @@
 
 
 
-  \markup \abs-fontsize #10 \override #'(baseline-skip . 3.2) {
+  \markup \abs-fontsize #11 \override #'(baseline-skip . 3.6) {
     \justify-string "
   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
    "
   }
 
-  \markup \abs-fontsize #10 \override #'(baseline-skip . 3.2) {
+  \markup \abs-fontsize #11 \override #'(baseline-skip . 3.6) {
     \justify-string "
   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 

@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Bei der Quelle" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #10 {
+\markup \abs-fontsize #11 {
 
   \override #'(baseline-skip . 1.8)
 

@@ -37,35 +37,43 @@
 \bookpart {
   \label #'ref018
   \tocItem \markup "Излязъл е сеяч – Izljazăl e sejač"
-    \paper {
+  \paper {
     print-all-headers = ##t
     print-page-number = ##t
     print-first-page-number = ##t
 
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
+
+    % put page numbers on the top and change the font style.
+    oddHeaderMarkup = \markup
     \fill-line {
       ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
     }
-    evenFooterMarkup = \markup
+    %% evenHeaderMarkup would inherit the value of
+    %% oddHeaderMarkup if it were not defined here
+    evenHeaderMarkup = \markup
     \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
       ""
     }
 
+    oddFooterMarkup = \markup ""
+
+    evenFooterMarkup = ""
     left-margin = 1.5\cm
     right-margin = 1.5\cm
-    top-margin = 1.2\cm
-    bottom-margin = 1.0\cm
+    top-margin = 1\cm
+    bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+    top-markup-spacing.basic-distance = 0\mm % margin between page number and system for the first page
+    top-system-spacing.basic-distance = 10\mm % margin between page number and system for the other pages
 
     % change distance between staves
     system-system-spacing =
     #'((basic-distance . 19)
-       (minimum-distance . 8)
+       (minimum-distance . 6)
        (padding . 2)
        (stretchability . 12))
   }
@@ -73,6 +81,7 @@
   \header {
     tagline = ##f
   }
+
   \score {
     \include "include/score-layout.ily"
 
@@ -104,7 +113,7 @@
       \alternative {
         {  f'2. (|  f'4 )  r4 f'4 | f'2 f'4 | f'4 ( e'4 ) f'4 | g'2 f'4 |e'2. (| e'4 ) r4 g'4   \break }
         {
-          f'2. (|  f'4 ) r4 g'4 | g'2 g'4 | a'2  
+          f'2. (|  f'4 ) r4 g'4 | g'2 g'4 | a'2
           a'4 ^\markup \huge \raise #1.5 \bold "rit." | b'2 b'4 | c''2. ~ | c''2  \bar "|." \pageBreak
         }
       }
@@ -142,7 +151,7 @@
   } % score
 
 
-  \markup \abs-fontsize #10 {
+  \markup \abs-fontsize #11 {
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {

@@ -82,7 +82,7 @@
   \markup \empty-two
 
 
-  \markup \abs-fontsize #10 {
+  \markup \abs-fontsize #11 {
 
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {
@@ -135,7 +135,7 @@
 
 
 
-  \markup \abs-fontsize #10 {
+  \markup \abs-fontsize #11 {
 
     \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
     \column {

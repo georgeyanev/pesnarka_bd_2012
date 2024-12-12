@@ -60,7 +60,7 @@
 
       \markup \vspace #2
 
-      \markup \abs-fontsize #10 {
+      \markup \abs-fontsize #11 {
         \hspace #2
         \override #`(baseline-skip . ,bgCoupletBaselineSkip)
         \column {
