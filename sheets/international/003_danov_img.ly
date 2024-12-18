@@ -36,7 +36,7 @@
   \markup {
     \fill-line
     \general-align #Y #DOWN {
-      \epsfile #X #65 #"../../img/bd_image.eps"
+      \epsfile #X #70 #"../../img/bd_image.eps"
     }
   }
 

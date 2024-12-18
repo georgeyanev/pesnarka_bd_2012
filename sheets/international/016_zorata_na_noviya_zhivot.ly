@@ -61,11 +61,12 @@
 
         \midi{}
       }
-      \markup \vspace #1
+
       \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
         \fill-line {
           \hspace #0.1
           \column {
+            \vspace #1
             \line {
               \bold "2."
               \column {
@@ -79,6 +80,7 @@
           \hspace #0.1
           % adds horizontal spacing between columns
           \column {
+            \vspace #1
             \line {
               \bold "2."
               \column {
@@ -93,6 +95,7 @@
         }
       }
       \pageBreak
+
       \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
         \fill-line {
           \hspace #0.1
@@ -221,7 +224,7 @@
         }
       }
 
-      \markup \vspace #1
+      \markup \vspace #2
       % include foreign translation(s) of the song
       \include "../../lyrics/de/016_zorata_na_noviya_zhivot_lyrics_de.ly"
 

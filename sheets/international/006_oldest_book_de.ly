@@ -47,7 +47,7 @@
   }
 
 
-  \markup {  \vspace #13.5 }
+  \markup {  \vspace #18 }
 
   \markup \abs-fontsize #11 { \vspace #19.5 \italic{Wenn die Natur sich erneuert,  singen die Vögel.}}
 

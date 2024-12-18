@@ -11,9 +11,9 @@
         \bold "1."
         \column {
           "Die wunderbare Morgenröte bricht an,"
-          "die Morgenröte des hellen, neuen Lebens,"
-          "mit Herrlichkeit bescheint sie"
-          "unsere ruhende Bundeslade."
+          "die Morgenröte des hellen, neuen "
+          "Lebens, mit Herrlichkeit bescheint"
+          "sie unsere ruhende Bundeslade."
         }
       }
       \vspace #1
@@ -22,8 +22,7 @@
       \line {
         "   "
         \column {
-          "In diesem neuen, leuchtenden Leben,"
-          "in diesem neuen, leuchtenden Leben,"
+          "In diesem neuen, leuchtenden Leben, (2)"
           "ein Leben der Liebe,"
           "in diesem neuen, leuchtenden Leben,"
           "ein Leben der Güte,"
@@ -35,8 +34,9 @@
       \line {
         \bold "2."
         \column {
-          "Und die Vögel erfüllen die Luft"
-          "mit Begeisterung und süßen Liedern im Chor,"
+          "Und die Vögel erfüllen"
+          " die Luft mit Begeisterung"
+          "und süßen Liedern im Chor,"
           "damit sie die Harmonie ergänzen"
           "im großen himmlischen Hof."
         }
@@ -67,7 +67,7 @@
       \line {
         \bold " "
         \column {
-          \italic"  Pripev ..."
+          \italic"  Refrain ..."
         }
       }
 
@@ -85,7 +85,7 @@
       \line {
         \bold " "
         \column {
-          \italic"  Pripev ..."
+          \italic"  Refrain ..."
         }
       }
 
@@ -103,7 +103,7 @@
       \line {
         \bold " "
         \column {
-          \italic"  Pripev ..."
+          \italic"  Refrain ..."
         }
       }
 

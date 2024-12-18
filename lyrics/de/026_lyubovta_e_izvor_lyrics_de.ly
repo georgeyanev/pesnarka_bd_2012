@@ -4,114 +4,124 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Die Liebe ist eine Quelle" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-  
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-
-    \line {   1. Die Liebe ist eine Quelle, }
-    \line {   "   "sie gebiert das Leben}
-
-    \line {   "   "und eine allheilige Pflicht }
-    \line {   "   " sät sie in ihm sanft: }
-
-    \line {   "   " auf dass es immer voranschreitet }
-
-    \line {   "   "im Streben nach dem Guten,}
-
-    \line {   "   "das vollkommen ist oben im Himmel.}
-
-    \vspace #0.5
-    \line { "   " \italic { Refrain:}  }
-
-
-    \line {   "   "Arbeite mit ihr, }
-
-    \line {   "   "in der gewünschten Barmherzigkeit,}
-
-    \line {   "   "und bringe ihre Hilfe}
-
-    \line {   "   "für die leidenden Seelen.}
-
-    \vspace #0.5
-
-    \line {   2. Dies vollbringt sie selbst unaufhörlich}
-
-    \line {   "   "wie eine zärtliche Mutter}
-
-    \line {   "   "in jedermanns Seele – sie sät immerdar}
-
-    \line {   "   "die lieben Samenkörnchen, aus denen}
-
-    \line {   "   " die gütigen Wohltaten sprießen.}
-
-    \vspace #0.5
-    \line { "   " \italic { Refrain ...}  }
-    \vspace #0.5
-
-    \line {   3. Dieses große Geheimnis, wer es gut versteht, }
-
-    \line {   "   "   öffnet seine liebe Seele am Morgen,}
-
-    \line {   "   " wie die weiße Lilie im himmlischen Tau }
-
-    \line {   "   " und im wunderbaren Sonnenlicht.}
-    \vspace #0.5
-    \line { "   " \italic { Refrain ...}  }
-    
-  
-
-  }
-  
-
-   \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-
-  \column {
-
-    \line {   4. Die Sonne, die den Menschen  }
-
-    \line {   "   "     zur  rechten Zeit belebt, }
-    
-    \line {   "   "     scheint warm, erweckt }
-    \line {   "   "     und lässt gedeihen}
-
-    \line {   "   "    in ihm die Samenkörnchen}
-
-    \line {   "   "   und füllt geheimnisvoll }
-
-    \line {   "   "    mit Tugenden seine Seele.}
-
-    \vspace #0.5
-    \line { "   " \italic { Refrain ...}  }
-
-    \vspace #0.5
 
 
 
-    \line {   5. Die so süßen Früchte,   }
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \fill-line {
+    \column {
+      \vspace #1
+      \line {
+        \bold "1."
+        \column {
+          "Die Liebe ist eine Quelle,"
+          "sie gebiert das Leben"
+          "und eine allheilige Pflicht"
+          "sät sie in ihm sanft:"
+          "auf dass es immer voranschreitet"
+          "im Streben nach dem Guten,"
+          "das vollkommen ist oben im Himmel."
+        }
+      }
+      \vspace #1
+      \line{ \italic"    Refrain:"}
+      \line {
+        \bold "   "
+        \column {
+          "Arbeite mit ihr,"
+          "in der gewünschten Barmherzigkeit,"
+          "und bringe ihre Hilfe"
+          "für die leidenden Seelen."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "2."
+        \column {
+          "Dies vollbringt sie selbst unaufhörlich"
+          "wie eine zärtliche Mutter"
+          "in jedermanns Seele – sie sät immerdar"
+          "die lieben Samenkörnchen, aus denen"
+          "die gütigen Wohltaten sprießen."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold " "
+        \column {
+          \italic "  Refrain ..."
+        }
+      }
+      \vspace #0.5
+      \line {
+        \bold "3."
+        \column {
+          "Dieses große Geheimnis, wer es gut versteht,"
+          "öffnet am Morgen seine liebe Seele "
+          "wie die weiße Lilie im himmlischen Tau"
+          "und im wunderbaren Sonnenlicht."
+        }
+      }
 
-    \line {   "   " in der Liebe gereift: }
-    
-    \line {   "   "  Am seligsten wird der sein, }
+    }
 
-    \line {   "   "der sie kostet. }
-    
-   \line {   "   " In himmlischen Wohnstätten}
+    % adds horizontal spacing between columns
+    \column {
+      % adds vertical spacing between verses
 
-    \line {   "   "  wird er ewig leben, }
-
-    \line {   "   " vor dem Thron Gottes }
-    
-   \line {   "   "  wird er Lieder singen. }
-
-
-    \line { "   " \italic { Refrain ...}  }
-
-
-
+      \vspace #1
+      \line {
+        \bold " "
+        \column {
+          \italic "  Refrain ..."
+        }
+      }
+      \vspace #0.5
+      \line {
+        \bold "4."
+        \column {
+          "Die Sonne, die den Menschen"
+          "zur rechten Zeit belebt, "
+          "scheint warm, erweckt "
+          "und lässt gedeihen"
+          "in ihm die Samenkörnchen"
+          "und füllt geheimnisvoll"
+          "mit Tugenden seine Seele."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold " "
+        \column {
+          \italic "  Refrain ..."
+        }
+      }
+      \vspace #0.5
+      \line {
+        \bold "5."
+        \column {
+          "Die so süßen Früchte, "
+          "in der Liebe gereift:"
+          "Am seligsten wird der sein,"
+          "der sie kostet."
+          "In himmlischen Wohnstätten "
+          "wird er ewig leben,"
+          "vor dem Thron Gottes"
+          "wird er Lieder singen."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold " "
+        \column {
+          \italic "  Refrain ..."
+        }
+      }
+    }
   }
 }
+
+
+
 
 

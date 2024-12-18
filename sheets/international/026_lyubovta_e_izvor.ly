@@ -25,7 +25,7 @@
     }
 
     \addlyrics {
-       \set stanza = "1." Лю -- бов -- та е из -- вор: тя жи -- во -- та раж -- да
+      \set stanza = "1." Лю -- бов -- та е из -- вор: тя жи -- во -- та раж -- да
       и пре -- свя -- та длъж -- ност в~не -- го крот -- ко всаж -- "   да  –"
       все нап -- ред да хо -- ди в~стре -- меж към До -- бро -- то,
       що е съ -- вър -- ше -- но го -- ре на Не -- бе -- то.
@@ -49,130 +49,191 @@
     \midi{}
 
   } % score
-  \markup \vspace #0.3
-  \markup \abs-fontsize #11 {
-    \hspace #15
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
 
-      \line { 2. И туй непрестанно  }
-      \line {   "   " върши тя самата }
-      \line {   "   " като нежна майка }
-      \line {   "   " всекиму в душата:  }
-      \line {   "   " постоянно сади}
-      \line {   "   " семенцата драги,}
-      \line {   "   " от които никнат}
-      \line {   "   " добрините благи.}
-      \vspace #0.5
-      \line { "   " \italic {Припев ...} }
-      \vspace #0.5
-
-      \line { 3. Таз велика тайна }
-      \line {   "   " кой добре разбира, }
-      \line {   "   " свойта душа мила }
-      \line {   "   " сутрина разкрива }
-      \line {   "   " както кринът бели}
-      \line {   "   "на роса небесна}
-      \line {   "   "и на слънчевата}
-      \line {   "   "светлина чудесна.}
-      \vspace #0.5
-      \line { "   " \italic {Припев ...} }
-
-
-
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+    \fill-line {
+      \hspace #0.1
+      \column {
+        \vspace #1
+        \line {
+          \bold "2."
+          \column {
+            "И туй непрестанно"
+            "върши тя самата"
+            "като нежна майка"
+            "всекиму в душата:"
+            "постоянно сади"
+            "семенцата драги,"
+            "от които никнат"
+            "добрините благи."
+          }
+        }
+        \vspace #1
+        \line {
+          \bold "3."
+          \column {
+            "Таз велика тайна"
+            "кой добре разбира,"
+            "свойта душа мила"
+            "сутрина разкрива"
+            "както кринът бели"
+            "на роса небесна"
+            "и на слънчевата"
+            "светлина чудесна."
+          }
+        }
+        \vspace #1
+        \line {
+          \bold " "
+          \column {
+            \italic "  Припев ..."
+          }
+        }
+      }
+      \hspace #0.1
+      % adds horizontal spacing between columns
+      \column {
+        % adds vertical spacing between verses
+        \vspace #1
+        \line {
+          \bold "2."
+          \column {
+            "I tuj neprestanno"
+            "vărši tja samata"
+            "kato nežna majka"
+            "vsekimu v dušata:"
+            "postojanno sadi"
+            "semencata dragi,"
+            "ot koito niknat"
+            "dobrinite blagi."
+          }
+        }
+        \vspace #1
+        \line {
+          \bold "3."
+          \column {
+            "Taz velika tajna"
+            "koj dobre razbira,"
+            "svojta duša mila"
+            "sutrina razkriva"
+            "kakto krinăt beli"
+            "na rosa nebesna"
+            "i na slănčevata"
+            "svetlina čudesna."
+          }
+        }
+        \vspace #1
+        \line {
+          \bold " "
+          \column {
+            \italic "  Refrain ..."
+          }
+        }
+      }\hspace #0.1
     }
-
-    \hspace #6
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-
-      \line { 2. I tuj neprestanno  }
-      \line {   "   " vărši tja samata }
-      \line {   "   " kato nežna majka }
-      \line {   "   " vsekimu v dušata:  }
-      \line {   "   " postojanno sadi}
-      \line {   "   " semencata dragi,}
-      \line {   "   " ot koito niknat}
-      \line {   "   " dobrinite blagi.}
-      \vspace #0.5
-      \line { "   " \italic {Refrain ...} }
-      \vspace #0.5
-
-      \line { 3. Taz velika tajna }
-      \line {   "   " koj dobre razbira, }
-      \line {   "   " svojta duša mila }
-      \line {   "   " sutrina razkriva }
-      \line {   "   " kakto krinăt beli}
-      \line {   "   "na rosa nebesna}
-      \line {   "   "i na slănčevata}
-      \line {   "   "svetlina čudesna.}
-      \vspace #0.5
-      \line { "   " \italic {Refrain ...} }
-
-
-
-
-    } %column
-  } % markup
-
+  }
   \pageBreak
-  \markup \abs-fontsize #11 {
-    \hspace #15
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
-    \column {
-      \line { 4. Слънцето, което }
-      \line {   "   " оживотворява }
-      \line {   "   " овреме човека,}
-      \line {   "   " топло озарява, }
-      \line {   "   "буди и възраства}
-      \line {   "   "в него семенцата}
-      \line {   "   "и му пълни тайно}
-      \line {   "   "с добрини душата.}
-      \vspace #0.5
-      \line { "   " \italic {Припев ...} }
-      \vspace #0.5
-      \line { 5. Плодове тъй сладки, }
-      \line {   "   " в Любовта узрели, }
-      \line {   "   "най-блажен ще бъде}
-      \line {   "   "тоз, който ви вкуси.}
-      \line {   "   "В жилища небесни}
-      \line {   "   "вечно ще живее,}
-      \line {   "   "пред престола Божи}
-      \line {   "   "песни ще да пее.}
-      \line { "   " \italic {Припев ...} }
-      \vspace #0.3
+
+
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+    \fill-line {
+      \hspace #0.1
+      \column {
+        \line {
+          \bold "4."
+          \column {
+            "Слънцето, което"
+            "оживотворява"
+            "овреме човека,"
+            "топло озарява,"
+            "буди и възраства"
+            "в него семенцата"
+            "и му пълни тайно"
+            "с добрини душата."
+          }
+        }
+        \vspace #1
+        \line {
+          \bold " "
+          \column {
+            \italic"  Припев ..."
+          }
+        }
+        \vspace #0.5
+        \line {
+          \bold "5."
+          \column {
+            "Плодове тъй сладки,"
+            "в Любовта узрели,"
+            "най-блажен ще бъде"
+            "тоз, който ви вкуси."
+            "В жилища небесни"
+            "вечно ще живее,"
+            "пред престола Божи"
+            "песни ще да пее."
+          }
+        }
+        \vspace #1
+        \line {
+          \bold " "
+          \column {
+            \italic"  Припев ..."
+          }
+        }
+      }
+      \hspace #0.1
+      % adds horizontal spacing between columns
+      \column {
+        % adds vertical spacing between verses
+        \line {
+          \bold "4."
+          \column {
+            "Slănceto, koeto"
+            "oživotvorjava"
+            "ovreme čoveka,"
+            "toplo ozarjava,"
+            "budi i văzrastva"
+            "v nego semencata"
+            "i mu pălni tajno"
+            "s dobrini dušata."
+
+          }
+        }
+        \vspace #1
+        \line {
+          \bold " "
+          \column {
+            \italic"  Refrain ..."
+          }
+        }
+        \vspace #0.5
+        \line {
+          \bold "5."
+          \column {
+            "Plodove tăj sladki,"
+            "v Ljubovta uzreli,"
+            "naj-blažen šte băde"
+            "toz, kojto vi vkusi."
+            "V žilišta nebesni"
+            "večno šte živee,"
+            "pred prestola Boži"
+            "pesni šte da pee."
+          }
+        }
+        \vspace #1
+        \line {
+          \bold " "
+          \column {
+            \italic"  Refrain ..."
+          }
+        }
+      }\hspace #0.1
     }
-
-    \hspace #6
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
+  }
 
 
-      \line { 4. Slănceto, koeto }
-      \line {   "   " oživotvorjava }
-      \line {   "   " ovreme čoveka,}
-      \line {   "   " toplo ozarjava, }
-      \line {   "   "budi i văzrastva}
-      \line {   "   "v nego semencata}
-      \line {   "   "i mu pălni tajno}
-      \line {   "   "s dobrini dušata.}
-      \vspace #0.5
-      \line { "   " \italic {Refrain ...} }
-      \vspace #0.5
-      \line { 5. Plodove tăj sladki, }
-      \line {   "   " v Ljubovta uzreli, }
-      \line {   "   "naj-blažen šte băde}
-      \line {   "   "toz, kojto vi vkusi.}
-      \line {   "   "V žilišta nebesni}
-      \line {   "   "večno šte živee,}
-      \line {   "   "pred prestola Boži}
-      \line {   "   "pesni šte da pee.}
-      \line { "   " \italic {Refrain ...} }
-    } %column
 
-  } % markup
-
-  \markup \empty-one
+  \markup \vspace #1
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/026_lyubovta_e_izvor_lyrics_de.ly"

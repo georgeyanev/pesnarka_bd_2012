@@ -40,7 +40,7 @@
 
 
 
-  \markup \fontsize  #+4.6  {\hspace #35 \bold {"Petar Danov"} }
+  \markup \abs-fontsize #15   {\hspace #35 \bold {"Petar Danov"} }
 
   \markup {  \vspace #9.5 }
   \markup {
@@ -56,7 +56,7 @@
   \markup \fontsize  #+2  { {  \vspace #0.5 } }
 
 
-  \markup \fontsize  #+9 { \hspace #35 \bold {"Liederbuch"} }
+  \markup \abs-fontsize #22  { \hspace #35 \bold {"Liederbuch"} }
 
   \markup \fontsize  #+2  { {  \vspace #2.8 } }
 
@@ -72,15 +72,15 @@
   }
 
   \markup \fontsize  #+2  { {  \vspace #.5 } }
-  \markup \fontsize  #+2.5 {\hspace #35 {"Herausgegeben von"} }
+  \markup \abs-fontsize #12 {\hspace #35 {"Herausgegeben von"} }
   \markup \fontsize  #+2  { {  \vspace #0.1 } }
-  \markup \fontsize  #+1.5 { \hspace #35 {"Maria Kireva" \concat { \raise #-1.1 \fontsize #6 "·" } "Reinhard Ridder" } }
+  \markup \abs-fontsize #11 { \hspace #35 {"Maria Kireva" \concat { \raise #-1.1 \fontsize #6 "·" } "Reinhard Ridder" } }
 
 
 
   \markup \fontsize  #+2  { {  \vspace #19 } }
 
-  \markup \fontsize  #+3.5 {\hspace #35 {"Verlag „Domisol“ "} }
+  \markup \abs-fontsize #13 {\hspace #35 {"Verlag „Domisol“ "} }
   \markup \fontsize  #+2.5  { {  \vspace #0.5 } }
   \markup {
     \hspace #-1
