@@ -6,7 +6,7 @@
 \bookpart {
   \label #'ref212
   \tocItem \markup "Моето слънце днес ще изгрее"
-   \include "include/bookpart-paper.ily"
+  \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
 
@@ -50,7 +50,7 @@
       a'8  a'8  a'8   f''8. ~  | % 22
       \time 8/16  | % 22
       f''8. ~   f''8   a''8. | % 23
-      g''8. ( [  f''8 ) ]  e''8. \break | % 24
+      g''8. (   f''8 )   e''8. \break | % 24
       \shape #'((0 . -2) (0 . 0) (0 . 0.5) (0 . -2)) Slur
       d''8.  \=1( e''8   fis''16 [
       e''16  d''16 ] | % 25
@@ -63,15 +63,15 @@
       \tempo "Moderato" g'8.^\<  a'8
       bes'8. |
       cis''8.  d''8 ~   d''8.  | % 31
-      e''8 (  ^\!  f''16 )   g''16 (
-      [f''16] )  e''8 ( ^\>  d''16 )  | % 32
+      e''8 ( [ ^\!  f''16] )   g''16 (
+      [f''16] )  e''8 ( [^\>  d''16 ])  | % 32
       cis''8.   bes'8 ( ~   bes'8 [  a'16
       ) ] ^\! \break | % 33
       bes'8 (    [a'16]   g'8 ~  g'8. )  | % 34
       g'8. ^\<  a'8  bes'8. | % 35
       cis''8. \acciaccatura {  e''8 ( }  d''8 )
       ~  d''8. | % 36
-      g''8 ( ^\fermata  _\!  f''16 )   e''8
+      g''8 ( [^\fermata  _\!  f''16 ])   e''8
       d''8.  | % 37
       cis''8. (   bes'8 ~  bes'8. )  | % 38
       a'16 ( [  bes'16  cis''16 ) ]
@@ -96,12 +96,12 @@
       g''8. ( ^\fermata  a''16 [  g''16 )
       ] f''8. ~ \break | % 49
       f''8. ~   f''8 ~  f''8.  |
-      e''8 (   d''16 )  d''8 ~  d''8.
+      e''8 (  [ d''16 ])  d''8 ~  d''8.
       | % 51
       g''8 (  f''16 )  e''8 (  d''8.
       )  | % 52
-      cis''8.   cis''8 (  bes'8. )  \break | % 53
-      a'8.  g'8 ~ [  g'8. ] | % 54
+      cis''8.   cis''8 ( [ bes'8. ])  \break | % 53
+      a'8.  g'8 ~   g'8.  | % 54
       a'8. ~   a'8 ~  a'8.  | % 55
       R2 \bar "||"
       \time 9/16  | % 56
@@ -115,7 +115,7 @@
       e''32  d''32 ) ] | % 59
       e''8. \acciaccatura {  f''16 [  e''16 ] }
       d''8 ~  d''8. \break |
-      cis''8.  
+      cis''8.
       \shape #'((0 . -0.5) (0 . 1) (0 . 1) (0 . 0)) Slur
       bes'8 ( ~ bes'8.  ^\> | % 61
       a'16 [  bes'16  cis''16 ]  d''16

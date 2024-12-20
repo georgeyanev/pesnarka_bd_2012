@@ -51,8 +51,8 @@
        (stretchability . 12))
   }
 
-  \tocItem \markup "Мисли за музиката"
-  \markup \abs-fontsize #15  { \fill-line {"Мисли за музиката"} }
+  \tocItem \markup "Мисли на Учителя за музиката"
+  \markup \abs-fontsize #15  { \fill-line {"Мисли на Учителя за музиката"} }
 
   \markup \abs-fontsize #11 {
     \vspace #1.5 \override #'(baseline-skip . 3.4)
