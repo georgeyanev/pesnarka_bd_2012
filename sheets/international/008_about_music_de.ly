@@ -48,7 +48,7 @@
   }
 
 
-  \markup \abs-fontsize #14 { \fill-line \bold {"Gedanken über die Musik"} }
+  \markup \abs-fontsize #15 { \fill-line {"Gedanken über die Musik"} }
 
   \markup  \abs-fontsize #11  {
     \vspace #1.5 \override #'(baseline-skip . 3.8)
@@ -214,7 +214,6 @@
 
       Als Orpheus spielte und sang, wurde die Natur lebendig: Die Pflanzen, die Vögel, die Tiere, die Flüsse – alles begann sich zu bewegen und zu spielen. Derart soll der wahre Musiker sein.
 
-
     }
   }
 
@@ -225,8 +224,6 @@
       \hspace #1.5
 
       Wenn ihr in die Natur hinausgeht, hätte ich gerne, dass ihr in sie hineinhört. Wenn ein Musiker ein entwickeltes Ohr hat, wird er selbst das hören, was er niemals in seinem Leben gehört hat.
-
-
     }
   }
 
@@ -342,24 +339,14 @@
 
 
 
+
+
+
   \markup \abs-fontsize #11 {
     \vspace #0.9  \override #'(baseline-skip . 3.8)
     \justify {
       \hspace #1.5
-
-      Jeder soll sich selbst sagen: „Ich soll Musiker werden, ich soll lieben, ich soll recht denken.“ In der Heiligen Schrift wurde gesagt: „Singt und lobpreist den Herrn in eurer Seele.“ Ich aber sage: Singt und lobpreist den Herrn in eurem Geist, in eurem
-
-    }
-  }
-
-
-
-  \markup \abs-fontsize #11 {
-    \vspace #0.9  \override #'(baseline-skip . 3.8)
-    \justify {
-
-
-      Herzen und in eurem Verstand. Alles in euch, von den Füßen bis zu den Haaren auf eurem Kopf, soll singen.
+      In der Musik gibt es inkommensurable Töne und ein Überfließen der Tönen in den Takten. Aber all jene Prozesse, die bewusst sind, sind inkommensurabel, sie unterliegen unserer Macht, wir gehen mit ihnen um. Also müssen alle unsere Ideen inkommensurabel sein!
 
     }
   }
@@ -368,7 +355,15 @@
     \vspace #0.9  \override #'(baseline-skip . 3.8)
     \justify {
       \hspace #1.5
-      Die Musik hat inkommensurable Töne und Überfließen der Tönen in den Takten. Aber all jene Prozesse, die bewusst sind, sind inkommensurabel, sie unterliegen unserer Macht, wir gehen mit ihnen um. Also müssen alle unsere Ideen inkommensurabel sein!
+      Wenn wir also zu den inkommensurablen und den kommensurablen Dingen kommen, müssen wir wissen, dass sie zwei Ideen im Leben sind, die sich grundlegend voneinander unterscheiden. Die Weisheit, die Wahrheit, alle Tugenden sind inkommensurable Größen.
+    }
+  }
+
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.8)
+    \justify {
+      \hspace #1.5
+      Die gute Musik sollte auch inkommensurabel sein. Ihr könnt ohne Takte noch nicht singen. Wisst ihr, was es bedeutet, ohne Takte zu singen? Nehmen wir an, ihr singt einen Ton – einen Viertelton oder einen Halbton oder einen Ganzton. Glaubt ihr, dass er aufhört zu tönen, nachdem ihr diesen Ton entsprechend seiner Dauer gesungen habt? Nein, es gibt gewisse Töne in der Natur, die ständig tönen. Es gibt Planeten, die speziell auf den Ton \italic"C" gestimmt wurden. Es gibt Sonnen, die mit dem Ton \italic"G" tönen. Diese Musik wird in der Natur ständig gespielt. Manchmal stimmen wir einen Ton an und unterbrechen ihn dann. Hat er dann aufgehört zu tönen? Nein, der Planet, zu dem dieser Ton gehört, zum Beispiel der Ton \italic"C," bewegt sich ständig auf und ab in diesen Kreisen vom oberen \italic"C" zum unteren \italic"C." In diesem Ton gibt es aber eine große Vielfalt. Was sind die besten Lieder in der Musik? Diejenigen Sänger, die Musik studieren, beginnen am Anfang, die Töne mechanisch zu reproduzieren; gelangen sie jedoch zu der okkulten Musik, müssen sie jeden Ton als lebendig betrachten und wissen, dass jeder Ton, nachdem sie aufgehört haben zu singen, weiter tönt. Nachdem ihr einem Musiker, einem hervorragenden Geiger, zugehört habt, werdet ihr, wenn ihr nach Hause zurückkehrt, weiterhin seinem Spiel zuhören. Auf der Bühne hat das Spiel aufgehört, aber es ist in dir am Abend, am Morgen – eine ganze Woche lang – gegenwärtig. Das heißt, diese Stimmen werden ununterbrochen gepredigt, bis sie sich irgendwo verlieren. Denn in der okkulten Musik müssen die Töne weitertönen. Und jeder von euch muss innerlich singen. Wenn ihr nicht lernt, innerlich, in euren Seelen zu singen, könnt ihr nicht singen lernen. Folglich sind einige von euch bessere Musiker; sie haben in der Vergangenheit mehr gelernt, so dass es leichter ist, sich zu manifestieren; andere hingegen haben nicht gelernt, sie  müssen es jetzt lernen. Musik wird für einen inneren Impuls benötigt. Sie ist ein Ruhepol. Nur durch Musik könnt ihr eurer Seele Ruhe verschaffen.
 
     }
   }
@@ -377,15 +372,7 @@
     \vspace #0.9  \override #'(baseline-skip . 3.8)
     \justify {
       \hspace #1.5
-      Wenn wir also zu den inkommensurablen und den kommensurablen Dingen kommen, müssen wir wissen, dass sie zwei Ideen im Leben sind, die sich genuin voneinander unterscheiden. Weisheit, Wahrheit, alle Tugenden sind inkommensurable Größen.
-    }
-  }
-
-  \markup \abs-fontsize #11 {
-    \vspace #0.9  \override #'(baseline-skip . 3.8)
-    \justify {
-      \hspace #1.5
-      Die Gute Musik sollte auch inkommensurabel sein. Ihr könnt ohne Takte noch nicht singen. Wisst ihr, was es bedeutet, ohne Takte zu singen? Nehmen wir an, ihr singt einen Ton - einen Viertelton oder einen Halbton oder einen Ganzton. Glaubt ihr, dass, nachdem ihr diesen Ton entsprechend seiner Dauer gesungen habt, er aufhört zu tönen? Nein, es gibt gewisse Töne in der Natur, die ständig tönen. Es gibt Planeten, die speziell auf den Ton \italic"do" gestimmt wurden. Es gibt Sonnen, die mit dem Ton \italic"sol" tönen. Diese Musik wird in der Natur ständig gespielt. Manchmal stimmen wir einen Ton ein und unterbrechen ihn dann. Hat er dann aufgehört zu tönen? Nein, der Planet, zu dem dieser Ton gehört, zum Beispiel der Ton \italic"do," bewegt sich ständig auf und ab in diesen Kreisen vom oberen \italic"do" zum unteren \italic"do." In diesem Ton gibt es aber eine große Vielfalt. Was sind die besten Lieder in der Musik? Diejenigen Sänger, die Musik studieren, beginnen am Anfang, die Töne mechanisch zu reproduzieren; gelangen sie jedoch zu der okkulten Musik, müssen sie jeden Ton als lebendig betrachten und wissen, dass jeder Ton, nachdem sie aufgehört haben zu singen, weiter tönt. Nachdem ihr einem Musiker, einem hervorragenden Geiger, zugehört habt, werdet ihr, wenn ihr nach Hause zurückkehrt, weiterhin seinem Spiel zuhören. Auf der Bühne hat das Spiel aufgehört, aber es ist in dir am Abend, am Morgen - eine ganze Woche lang - gegenwärtig. Das heißt, diese Stimmen werden ununterbrochen vorgetragen, bis sie sich irgendwo verlieren. Denn in der okkulten Musik müssen die Töne weitertönen. Und jeder von euch muss innerlich singen. Wenn ihr nicht lernt, innerlich, in euren Seelen zu singen, könnt ihr nicht singen lernen. Folglich sind einige von euch bessere Musiker; sie haben in der Vergangenheit mehr gelernt, so dass es leichter ist, sich zu manifestieren; andere hingegen haben nicht gelernt, jetzt müssen sie es lernen. Musik wird für einen inneren Impuls benötigt. Sie ist ein Ruhepol. Nur durch Musik könnt ihr eurer Seele Ruhe verschaffen.
+      Wie können wir nun diese Melodie [Imaše čelovek] übersetzen? Sie gehört zu den inkommensurablen Größen. Würde man es anders singen, in Takten, käme etwas anderes dabei heraus. Nicht dass es in den okkulten Liedern keine Takte gäbe, aber wann immer ihr einem okkulten Lied Ausdruck verleihen möchtet, müsst ihr notwendigerweise in das Lied die inkommensurablen Takte bringen, das heißt, solche Takte, die in eurem Verstand nicht genau definiert sind. In diesem Lied werde ich nicht auf die Takte schauen, sondern auf die Bedeutung. Wenn die Takte in einem Lied die Oberhand gewinnen, verliert das Lied seinen Sinn. Der Takt muss innen sein. Er ist ein inkommensurabler Maßstab.
 
     }
   }
@@ -394,7 +381,8 @@
     \vspace #0.9  \override #'(baseline-skip . 3.8)
     \justify {
       \hspace #1.5
-      Wie können wir nun diese Melodie [Imaše čelovek] übersetzen? Sie gehört zu den inkommensurablen Größen. Würde man es anders singen, in Takten, käme etwas anderes dabei heraus. Nicht dass es in den okkulten Liedern keine Takte gäbe, aber wann immer ihr einem okkulten Lied Ausdruck verleihen möchtet, müsst ihr notwendigerweise in das Lied die inkommensurablen Takte einlegen, das heißt, solche Takte, die in eurem Verstand nicht genau definiert sind. In diesem Lied werde ich nicht auf die Takte schauen, sondern auf die Bedeutung. Wenn die Takte in einem Lied die Oberhand gewinnen, verliert das Lied seinen Sinn. Der Takt muss drinnen sein. Er ist ein inkommensurabler Maßstab.
+
+      Jeder soll sich selbst sagen: „Ich soll Musiker werden, ich soll lieben, ich soll recht denken.“ In der Heiligen Schrift wurde gesagt: „Singt und lobpreist den Herrn in eurer Seele.“ Ich aber sage: Singt und lobpreist den Herrn in eurem Geist, in eurem Herzen und in eurem Verstand. Alles in euch, von den Füßen bis zu den Haaren auf eurem Kopf, soll singen.
 
     }
   }

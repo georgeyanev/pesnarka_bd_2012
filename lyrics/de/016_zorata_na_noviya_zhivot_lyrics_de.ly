@@ -35,7 +35,7 @@
         \bold "2."
         \column {
           "Und die Vögel erfüllen"
-          " die Luft mit Begeisterung"
+          "die Luft mit Begeisterung"
           "und süßen Liedern im Chor,"
           "damit sie die Harmonie ergänzen"
           "im großen himmlischen Hof."
