@@ -76,8 +76,8 @@
         \bold "4."
         \column {
           "Strahlen aus Liebe flößen"
-          "in unsere Brust lebendige Wärme"
-          "ein, mit süßem Glauben erheben sie "
+          "in unsere Brust lebendige Wärme ein,"
+          "mit süßem Glauben erheben sie "
           "uns in Stärke und Licht [videlina]."
         }
       }

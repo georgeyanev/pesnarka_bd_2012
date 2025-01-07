@@ -84,7 +84,7 @@
     \hspace #-1
     \fill-line
     \general-align #Y #DOWN {
-      \epsfile #X #9 #"../../img/logo-black.eps"
+      \epsfile #X #9 #"../../img/logowi.eps"
     }
     \hspace #0.5
   }

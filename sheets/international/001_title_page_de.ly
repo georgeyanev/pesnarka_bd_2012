@@ -56,7 +56,7 @@
   \markup \fontsize  #+2  { {  \vspace #0.5 } }
 
 
-  \markup \abs-fontsize #22  { \hspace #35 \bold {"Liederbuch"} }
+  \markup \abs-fontsize #22  { \hspace #35 \bold {"Lieder"} }
 
   \markup \fontsize  #+2  { {  \vspace #2.8 } }
 

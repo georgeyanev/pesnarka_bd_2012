@@ -88,9 +88,6 @@
     }
   }
 
-
-
-
   \markup  \abs-fontsize #11  {
     \vspace #0.9 \override #'(baseline-skip . 3.8)
     \justify {
