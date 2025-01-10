@@ -3,27 +3,28 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Stehe auf, stehe auf" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-  \hspace #5
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-  \column {
-    \line {   "   " Steh auf, steh auf }
-    \line {   "   " und der Herr wird dich beleben; }
-    \line {   "   " steh auf, steh auf}
-    \line {   "   " und der Herr wird dich }
-    \line {   "   " auferstehen lassen; }
-    \line {   "   " steh auf, steh auf  }
-    \line {   "   "und beginne mit Liebe;}
-    \line {   "   "stehe auf, stehe auf }
-    \line {   "   "und kleide dich in Wahrheit.}
-  }
-  \hspace #5
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-  \column {
-    \line {  "   " Kleide dich in Wahrheit}
-    \line {   "   "und erbaue immer mit ihr,}
-    \line {   "   "sie wird dich sogar erneuern}
-    \line {   "   "und mit Geist dich erleuchten.}
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "  "
+        \column {
+          "Steh auf, steh auf und der Herr wird dich beleben;"
+          "steh auf, steh auf und der Herr wird dich auferstehen lassen; "
+          "steh auf, steh auf und beginne mit Liebe;"
+          "stehe auf, stehe auf und kleide dich in Wahrheit."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "  "
+        \column {
+          "Kleide dich in Wahrheit und erbaue immer mit ihr,"
+          "sie wird dich sogar erneuern und mit Geist dich erleuchten."
+        }
+      }
+    }\hspace #0.1
   }
 }
 

@@ -56,7 +56,7 @@
 
   } % score
   \markup \vspace #1
-   \markup \abs-fontsize #11 {
+  \markup \abs-fontsize #11 {
     \hspace #10
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
@@ -69,7 +69,7 @@
       \line {   "   "с трептенията си безспир.}
 
       \line {   "   "О, дай ми тоз живот и мир!}
-     
+
     }
 
     \hspace #5
@@ -86,7 +86,7 @@
       \line {   "   "s treptenijata si bezspir.}
 
       \line {   "   "O, daj mi toz život i mir!}
-     
+
     } %column
   } % markup
 
@@ -96,7 +96,7 @@
     \hspace #5
     \override #`(baseline-skip . ,bgCoupletBaselineSkip)
     \column {
-     
+
 
       \line { "   " \italic {Припев:} }
 

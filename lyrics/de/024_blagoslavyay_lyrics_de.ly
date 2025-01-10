@@ -8,14 +8,19 @@
   \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
   \column {
-    \line { 1. Lobpreise den Herrn, meine Seele, }
-    \line {   "   " vergiss nicht all Seine Gnade, }
-    \line {   "   " vergiss nicht all Seine Güte,}
-    \line {   "   " vergiss nicht all Seine Wohltaten! }
-    \line {   "   " Vergiss nicht Seine Gnade, }
-    \line {   "   " vergiss nicht Seine Güte, }
-    \line {   "   "vergiss nicht Seine Liebe [obič], }
-    \line {   "   " vergiss nicht Seine Liebe [Ljubov]!  }
+    \line {
+      \bold "  "
+      \column {
+       "Lobpreise den Herrn, meine Seele,"
+       "vergiss nicht all Seine Gnade,"
+       "vergiss nicht all Seine Güte,"
+       "vergiss nicht all Seine Wohltaten!"
+       "Vergiss nicht Seine Gnade,"
+       "vergiss nicht Seine Güte,"
+       "vergiss nicht Seine Liebe [obič],"
+       "vergiss nicht Seine Liebe [Ljubov]!"
+      }
+    }
   }
   }
 }

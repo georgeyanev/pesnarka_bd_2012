@@ -184,7 +184,15 @@
 
     }
   }
+  \markup \abs-fontsize #11 {
+    \vspace #0.9  \override #'(baseline-skip . 3.8)
+    \justify {
+      \hspace #1.5
+      Ihr alle sollt beim Singen danach streben, dass es in eurem Singen Klarheit und Sanftheit gibt. Wenn ihr leise und sanft singt, dann werdet ihr um euch herum Wesen von einer höheren Kultur anziehen. Strebt danach, leise zu singen, denn das leise Singen veredelt. Das laute Singen geschieht willentlich.
 
+
+    }
+  }
   \markup \abs-fontsize #11 {
     \vspace #0.9  \override #'(baseline-skip . 3.8)
     \justify {
@@ -270,15 +278,7 @@
 
 
 
-  \markup \abs-fontsize #11 {
-    \vspace #0.9  \override #'(baseline-skip . 3.8)
-    \justify {
-      \hspace #1.5
-      Ihr alle sollt beim Singen danach streben, dass es in eurem Singen Klarheit und Sanftheit gibt. Wenn ihr leise und sanft singt, dann werdet ihr um euch herum Wesen von einer höheren Kultur anziehen. Strebt danach, leise zu singen, denn das leise Singen veredelt. Das laute Singen geschieht willentlich.
 
-
-    }
-  }
 
 
 

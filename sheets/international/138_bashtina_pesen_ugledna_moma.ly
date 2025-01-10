@@ -5,8 +5,8 @@
 
 \bookpart {
   \label #'ref138
-  \tocItem \markup "Бащина песен – Угледна мома –  Baština pesen – Ugledna moma "
-    \paper {
+  \tocItem \markup "Бащина песен – Угледна мома – Baština pesen – Ugledna moma"
+  \paper {
     print-all-headers = ##t
     print-page-number = ##t
     print-first-page-number = ##t
@@ -381,7 +381,7 @@
       kat vo -- da -- ta, tja e do -- bra kat hra -- na -- ta.
     }
     \header {
-      title = \titleFunc "Бащина песен – Угледна мома" "Baština pesen – Ugledna moma"
+      title = \titleFunc "Бащина песен – Угледна мома" "Baština pesen – Ugledna moma – Lied des Vaters - schönes Mädchen"
     }
 
     \midi{}

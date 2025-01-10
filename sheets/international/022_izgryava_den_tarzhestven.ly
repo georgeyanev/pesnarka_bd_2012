@@ -6,7 +6,7 @@
 \bookpart {
   \label #'ref022
   \tocItem \markup "Изгрява вече ден тържествен – Izgrjava veče den tăržestven"
-    \paper {
+  \paper {
     print-all-headers = ##t
     print-page-number = ##t
     print-first-page-number = ##t
@@ -64,7 +64,7 @@
       f'4. g'8 a'4 \staccato a'4. d'8 | f'4. d'8 f'4 e'2 | \time 2/4 d'4. a8 | \time 5/4 d'4 d'2 r8 \bar "|."
     }
     \addlyrics {
-       \set stanza = "1." Из -- гря -- ва ве -- че ден тър -- жест -- вен, __ пред -- ре -- че
+      \set stanza = "1." Из -- гря -- ва ве -- че ден тър -- жест -- вен, __ пред -- ре -- че
       -- ни -- ят ден Бо -- жест -- вен, на дни --
       те ди -- а -- де -- ма, със свет -- ли -- на го
       -- ля -- ма. Е -- ла -- те да жи -- ве -- ем във

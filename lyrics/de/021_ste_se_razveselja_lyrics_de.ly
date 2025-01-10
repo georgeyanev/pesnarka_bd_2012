@@ -1,38 +1,26 @@
 \version "2.24.4"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Ich werde mich erfreuen" }
+\markup \fill-line { \fontsize #deTitleFontSize  "Ich werde mich erfreuen" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,deCoupletBaselineSkip) {
   \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-  \column {
-    \line { "   " Ich werde mich sehr um des Herrn willen erfreuen; }
-    \line {  "   " meine Seele wird sich erfreuen in meinem Gott: }
-    \line {
-      "   " Denn Er hat mich bekleidet mit den Gewändern
-      des Heils,
-    }
-    \line {
-      "   " mich umhüllt mit dem Mantel der Gerechtigkeit,
-    }
-     \line {
-      "   " mich umhüllt mit dem Mantel der Gerechtigkeit,
-    }
-    \line {
-      "   " wie ein Bräutigam, geziert mit dem Kopfschmuck,
-      
-    }
-    \line {
-      "   " wie eine Braut, geschmückt mit ihrem Geschmeide,
-    
-    }
-    \line {
-      "   "wie eine Jungfrau, auserwählt unter
-      ihren Gefährtinnen.
-    }
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "  "
+        \column {
+          "Ich werde mich sehr um des Herrn willen erfreuen;"
+          "meine Seele wird sich erfreuen in meinem Gott:"
+          "Denn Er hat mich bekleidet mit den Gewändern des Heils,"
+          "mich umhüllt mit dem Mantel der Gerechtigkeit,"
+          "mich umhüllt mit dem Mantel der Gerechtigkeit,"
+          "wie ein Bräutigam, geziert mit dem Kopfschmuck,"
+          "wie eine Braut, geschmückt mit ihrem Geschmeide,"
+          "wie eine Jungfrau, auserwählt unter ihren Gefährtinnen."
+        }
+      }
 
+    }\hspace #0.1
   }
-  }
-
 }

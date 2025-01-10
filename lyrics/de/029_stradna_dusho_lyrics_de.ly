@@ -3,70 +3,62 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Du, leidende Seele" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
   \fill-line {
-    \override #`(baseline-skip . ,deCoupletBaselineSkip)
+    \hspace #0.1
     \column {
-
-      \line {  1.  Du, leidende Seele, die du dich sehnst:}
-
-      \line {   "   " Wofür brennst und glühst du? }
-
-      \line {   "   "Auf Dein Wort, oh Gott, warte ich}
-
-      \line {   "   "und auf Deine reiche Barmherzigkeit; }
-
-      \line {   "   "dessentwillen leide ich, nach ihnen sehne ich mich.}
-
-      \vspace #0.5
-      \line {   2.  Und ich hungere und ich dürste, }
-
-      \line {   "   "ich erwarte sie Tag und Nacht. }
-
-      \line {   "   "Segne mich, oh Gott, }
-
-      \line {   "   "auf dass ich Dir nahe bin }
-
-      \line {   "   "und Trost bei Dir finde.}
-
-      \vspace #0.5
-      \line {   3.  Dein lichtes Antlitz schaue ich und Deine Größe,}
-
-      \line {   "   "auf dass ich Dich lieben lerne. }
-
-      \line {   "   "In dieser Liebe zu Dir, oh Herr, }
-      \line {   "   " möge ich machtvolle Kraft finden.}
-
-      \vspace #0.5
-      \line { 4.  In den Heldentaten und der Vollkommenheit }
-
-      \line {   "   "möge ich Deine Barmherzigkeit erkennen,}
-
-      \line {   "   "Dein allmächtiges Geheimnis,}
-
-      \line {   "   "das dem Menschen die Eitelkeit des Lebens}
-
-      \line {   "   "offenbart. }
-
-      \vspace #0.5
-      \line {   5. Alles Sündige auf der Erde}
-
-      \line {   "   "ist vergänglich und flüchtig.}
-
-      \line {   "   "Nur Du, Gott, bist ewig:}
-
-      \line {   "   "Dich loben wir, Dich lobpreisen wir,}
-
-      \line {   "   "Dich wird lobpreisen die Ewigkeit.}
-
-    }
+      \line {
+        \bold "1."
+        \column {
+          "Du, leidende Seele, die du dich sehnst:"
+          "Wofür brennst und glühst du?"
+          "Auf Dein Wort, oh Gott, warte ich"
+          "und auf Deine reiche Barmherzigkeit;"
+          "dessentwillen leide ich, nach ihnen sehne ich mich."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "2."
+        \column {
+          "Und ich hungere und ich dürste,"
+          "ich erwarte sie Tag und Nacht."
+          "Segne mich, oh Gott,"
+          "auf dass ich Dir nahe bin"
+          "und Trost bei Dir finde."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "3."
+        \column {
+          "Dein lichtes Antlitz schaue ich und Deine Größe,"
+          "auf dass ich Dich lieben lerne."
+          "In dieser Liebe zu Dir, oh Herr,"
+          "möge ich machtvolle Kraft finden."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "4."
+        \column {
+          "In den Heldentaten und der Vollkommenheit"
+          "möge ich Deine Barmherzigkeit erkennen,"
+          "Dein allmächtiges Geheimnis,"
+          "das dem Menschen die Eitelkeit des Lebens offenbart."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "5."
+        \column {
+          "Alles Sündige auf der Erde"
+          "ist vergänglich und flüchtig."
+          "Nur Du, Gott, bist ewig:"
+          "Dich loben wir, Dich lobpreisen wir,"
+          "Dich wird lobpreisen die Ewigkeit."
+        }
+      }
+    }\hspace #0.1
   }
 }
-
-
-%{
-convert-ly (GNU LilyPond) 2.24.0  convert-ly: Processing `'...
-Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22,
-2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49,
-2.19.80, 2.24.0
-%}

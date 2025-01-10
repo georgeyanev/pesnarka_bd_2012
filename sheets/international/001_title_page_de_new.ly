@@ -35,48 +35,37 @@
 
   \markup {  \vspace #2.5 }
 
-  \markup \abs-fontsize #15   {\hspace #35 \bold {"Petar Danov"} }
-
-  \markup {  \vspace #9.5 }
-  \markup {
-    \hspace #35
-    \column {
-      \override #'(thickness . 1.5)
-      \override #'(span-factor . 2/3)
-      \draw-hline
-
-    }
-  }
-
-  \markup \fontsize  #+2  { {  \vspace #0.5 } }
 
 
-  \markup \abs-fontsize #22  { \hspace #35 \bold {"Lieder"} }
 
-  \markup \fontsize  #+2  { {  \vspace #2 } }
 
-  \markup {
-    \hspace #35
-    \column {
-      \vspace #5.5
-      \override #'(thickness . 1.5)
-      \override #'(span-factor . 2/3)
-      \draw-hline
 
-    }
-  }
+  \markup \abs-fontsize #15   {  \fill-line {\bold {"Petar Danov"} }}
+
+
+
+  \markup \fontsize  #+2  { {  \vspace #0.8 } }
+
+
+  \markup \abs-fontsize #24  {  \fill-line {\bold {"Lieder"} }}
+
+  \markup \fontsize  #+2  { {  \vspace #12 } }
+
 
   \markup \fontsize  #+2  { {  \vspace #.5 } }
-  \markup \abs-fontsize #12 {\hspace #35 {"Herausgegeben von"} }
+  \markup \abs-fontsize #11 {  \fill-line {"Übersetzt, herausgegeben"} }
   \markup \fontsize  #+2  { {  \vspace #0.1 } }
-  \markup \abs-fontsize #11 { \hspace #35 {"Maria Kireva" \concat { \raise #-1.1 \fontsize #6 "·" } "Reinhard Ridder" } }
-  \markup \fontsize  #+2  { {  \vspace #1 } }
-  \markup \abs-fontsize #12 {\hspace #35 {"Bulgarisch – Deutsch"} }
+  \markup \abs-fontsize #11 {  \fill-line {"und mit einem Vorwort versehen von"} }
+  \markup \fontsize  #+2  { {  \vspace #0.1 } }
+  \markup \abs-fontsize #11 { \fill-line {"Maria Kireva"} }
+  \markup \fontsize  #+2  { {  \vspace #3.1 } }
+  \markup \abs-fontsize #11 {  \fill-line {"Buglarisch – Deutsch"} }
 
 
-  \markup \fontsize  #+2  { {  \vspace #16 } }
 
-  \markup \abs-fontsize #13 {\hspace #35 {"Verlag „Domisol“ "} }
+  \markup \fontsize  #+2  { {  \vspace #17 } }
+
+  \markup \abs-fontsize #13 {  \fill-line {"Verlag „Domisol“ "} }
   \markup \fontsize  #+2.5  { {  \vspace #0.5 } }
   \markup {
     \hspace #-1
@@ -87,17 +76,6 @@
     \hspace #0.1
   }
 
-
-
-  \markup {
-    \hspace #35
-    \column {
-      \override #'(thickness . 1.5)
-      \override #'(span-factor . 2/3)
-      \draw-hline
-
-    }
-  }
 
 
 

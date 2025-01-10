@@ -74,39 +74,34 @@
     \justify {
       \hspace #1.5
 
-      \italic"Die okkulten Musikübungen," wie Petar Danov seine Musikkompositionen selbst nannte, erscheinen als Musikmethode in der 1922 von ihm eröffneten okkulten Schule der Weißen Bruderschaft. Diese Übungen begreift er als \italic"Urbilder" der \italic"okkulten Musik" – eine neue Musikgattung, die auf den Prinzipien und Gesetzen einer neuen, polydimensionalen Musiktheorie und Ästhetik basiert. Sie wurden in den zahlreichen Vorträgen, die er bis 1944 vor seinen Schülern hielt, sukzessive entwickelt. Die erste und grundlegendste Bestimmung dieser Übungen ist die individuelle und kollektive geistige Arbeit der Schüler auf ihrem Weg der geistigen Entwicklung und der Kultivierung geistiger Qualitäten und Tugenden. Die Methode ihres Erschaffens war äußerst kreativ und kollektiv. Während des Vortrags spielte Danov auf seiner Geige oder sang eine \italic"neue Musikübung," welche seine Schüler auswendig lernten und die anwesenden Musiker notierten. Ein anderes Mal gab er ein bestimmtes Wort oder einen Satz, zu dem die Schüler ihre eigene Melodie komponieren sollten. Einzelne Lieder, die entwickelt und vervollkommnet wurden, sind in mehreren Varianten erhalten; andere wurden bewusst unvollendet gelassen als Aufgaben für künftige Generationen und Epochen. \italic"Die Musikformen," die aus dem für die Schule charakteristischen schöpferischen Prinzip resultieren, sowie die Auffas-
+      \italic"Die okkulten Musikübungen," wie Petar Danov seine Musikkompositionen selbst nannte, erscheinen als Musikmethode in der 1922 von ihm eröffneten okkulten Schule der Weißen Bruderschaft. Diese Übungen begreift er als \italic"Urbilder" der \italic"okkulten Musik" – eine neue Musikgattung, die auf den Prinzipien und Gesetzen einer neuen, polydimensionalen Musiktheorie und Ästhetik basiert. Sie wurden in den zahlreichen Vorträgen, die er bis 1944 vor seinen Schülern hielt, sukzessive entwickelt. Die erste und grundlegendste Bestimmung dieser Übungen ist die individuelle und kollektive geistige Arbeit der Schüler auf ihrem Weg der geistigen Entwicklung und der Kultivierung geistiger Qualitäten und Tugenden. Die Methode ihres Erschaffens war äußerst kreativ und kollektiv. Während des Vortrags spielte Danov auf seiner Geige oder sang eine \italic"neue Musikübung," welche seine Schüler auswendig lernten und die anwesenden Musiker notierten. Ein anderes Mal gab er ein bestimmtes Wort oder einen Satz, zu dem die Schüler ihre eigene Melodie komponieren sollten. Einzelne Lieder, die entwickelt und vervollkommnet wurden, sind in mehreren Varianten erhalten; andere wurden bewusst unvollendet gelassen als Aufgaben für künftige Generationen und Epochen. \italic"Die Musikformen," die aus dem für die Schule charakteristisch-
 
     }
   }
-
+  
+  \markup  \abs-fontsize #11  {
+ \override #'(baseline-skip . 3.8)
+    \justify {
+      
+     en schöpferischen Prinzip resultieren, sowie die Auffassung des Liedes als \italic"Prozess" sind Bedingung der Möglichkeit der \italic"zukünftigen Kultur." Einige Kompositionen, darunter der Zyklus „Die neue Genesis“, entstanden während der speziellen Treffen, die Danov mit ausgewählten Schülern hatte; Anlass für die Entstehung anderer Musikübungen sind konkrete Erfahrungen des okkulten Schülers gewesen. Viele Melodien und Kompositionen wurden jedoch nicht notiert. Ein Beispiel hierfür ist das Stück für Sologeige „Der verlorene Sohn“, das Danov zum ersten Mal bei einem Studentenkonzert in Amerika spielte und ein paar Mal vor seinen Schülern dreißig Jahre nach der ersten Aufführung wiederholte. Laut den Erinnerungen der anwesenden Musiker unterlag diese Komposition keiner Notation. Es erklangen musikalische Naturbilder, meditative Melodien, Mikrointervalle, ein ständiger Wechsel der Tonarten, Rhythmen, Zustände und Stimmungen, die in einer Komposition geordnet wurden, der das Prinzip der absoluten Freiheit als Eigenschaft der okkulten Musik zugrunde liegt.
+    }
+  }
+  
   \markup  \abs-fontsize #11  {
     \vspace #0.9 \override #'(baseline-skip . 3.8)
     \justify {
-      sung des Liedes als \italic"Prozess" sind Bedingung der Möglichkeit der \italic"zukünftigen Kultur." Einige Kompositionen, darunter der Zyklus „Die neue Genesis“, entstanden während der speziellen Treffen, die Danov mit ausgewählten Schülern hatte; Anlass für die Entstehung anderer Musikübungen sind konkrete Erfahrungen des okkulten Schülers gewesen. Viele Melodien und Kompositionen wurden jedoch nicht notiert.
-      Ein Beispiel hierfür ist das Stück für Sologeige „Der verlorene Sohn“, das Danov zum ersten Mal bei einem Studentenkonzert in Amerika spielte und ein paar Mal vor seinen Schülern dreißig Jahre nach der ersten Aufführung wiederholte.
-      Laut den Erinnerungen der anwesenden Musiker unterlag diese Komposition keiner Notation. Es erklangen musikalische Naturbilder, meditative Melodien, Mikrointervalle, ein ständiger Wechsel der Tonarten, Rhythmen, Zustände und Stimmungen, die in einer Komposition geordnet wurden, der das Prinzip der absoluten Freiheit als Eigenschaft der okkulten Musik zugrunde liegt.
-    }
-  }
 
-  \markup  \abs-fontsize #11  {
-    \vspace #0.9 \override #'(baseline-skip . 3.8)
-    \justify {
-
-      \hspace #1.5 \italic"Die okkulten Musikübungen," in denen sich die \italic"Urbilder" als \italic"lebendige" \italic"Musikformen" unmittelbar und ununterbrochen manifestieren, gehen zwangsläufig über die Grenzen, die ihnen durch die musikalische Notation auferlegt werden, hinaus. Diese ist eine Bedingtheit, welche die freie, organische, den Sinn und die Bedeutung des Inhalts suchende Aufführung immer frei ist zu verlassen. \italic"Die" \italic"lebendigen" \italic"Musikformen," die die höchsten Regionen des Seins bewohnen, in denen es eine harmonische Verbindung zwischen Wort und Musik gibt, unterliegen nur schwer der Begrenzung, die aus den Rahmen eines fixierten Metrums, sowie fixierter Takte, Notendauer, Tempi und Dynamiken kommt. Dies ist einer der Momente, der ihren sakralen Charakter bedingt. Jede Notation des musikalischen Urbildes erscheint als seine natürliche Grenze. Davon zeugt auch die Tatsache, dass Danov nie selbst seine Musikkompositionen notierte, sondern unmittelbar mit den musikalischen Urbildern arbeitete, die er durch die lebendige Aufführung weitergab, indem er sie direkt in der Seele einpflanzte. Derart erhob er den Schüler in den Bereich des Urbildes, von dem die Seele eine klare Vorstellung hat. Der Fall, bei welchem die Schüler mehrfach die Übung „Vehadi“ singen, indem sie ununterbrochen unter Danovs konkreten Anweisungen die Art und Weise ihres Aufführens bis zum Erreichen eines zufriedenstellenden Ergebnisses, welches sich an das Urbild annähert, variieren, veranschaulicht diesen Sachverhalt. So bildet Danov eine Brücke zu der Welt der Ideen, die diese Musikurbilder bewohnen. Indem sie direkt auf die Seele einwirken, öffnen sie den diesen \italic"Musikübungen" zugrunde liegenden Raum der lebendigen Musiksubstanz. Aus diesem Grund widerspricht die Notenfixierung und Begrenzung der \italic"okkulten Musikübungen" ihrem sakralen Wesen und führt gewissermaßen zu ihrer Profanierung. Klares Beispiel hierfür sind all jene Kompositionen wie der Zyklus „Die neue Genesis“. Danov erlaubte es nicht, dass sie sofort notiert werden. Die Schüler sollten sie zuerst auswendig lernen, eher sie sie niederschreiben durften. Ein anderes Beispiel sind Lieder wie „Šte se razveselja“, über deren Notationen er symbolisch sagte: „Wir haben dem Lied ein Gewand geschneidert, aber es ist etwas zu eng.“ Warum die \italic"lebendigen" \italic"Musikformen" nur schwer einer Notation unterliegen, kann mit dem folgenden Beispiel veranschaulicht werden: Als die Schüler Danov darum baten, eine bestimme Musikübung zu wiederholen, damit sie sie genau notieren können, spielte er sie jedes Mal etwas anders. Das liegt laut Danov an den \italic"musikalischen Urbildern," die, wenn sie den Bereich der physischen Welt erreichen,
+      \hspace #1.5 \italic"Die okkulten Musikübungen," in denen sich die \italic"Urbilder" als \italic"lebendige" \italic"Musikformen" unmittelbar und ununterbrochen manifestieren, gehen zwangsläufig über die Grenzen, die ihnen durch die musikalische Notation auferlegt werden, hinaus. Diese ist eine Bedingtheit, welche die freie, organische, den Sinn und die Bedeutung des Inhalts suchende Aufführung immer frei ist zu verlassen. \italic"Die" \italic"lebendigen" \italic"Musikformen," die die höchsten Regionen des Seins bewohnen, in denen es eine harmonische Verbindung zwischen Wort und Musik gibt, unterliegen nur schwer der Begrenzung, die aus den Rahmen eines fixierten Metrums, sowie fixierter Takte, Notendauer, Tempi und Dynamiken kommt. Dies ist einer der Momente, der ihren sakralen Charakter bedingt. Jede Notation des musikalischen Urbildes erscheint als seine natürliche Grenze. Davon zeugt auch die Tatsache, dass Danov nie selbst seine Musikkompositionen notierte, sondern unmittelbar mit den musikalischen Urbildern arbeitete, die er durch die lebendige Aufführung weitergab, indem er sie direkt in der Seele einpflanzte. Derart erhob er den Schüler in den Bereich des Urbildes, von dem die Seele eine klare Vorstellung hat. Der Fall, bei welchem die Schüler mehrfach die Übung „Vehadi“ singen, indem sie ununterbrochen unter Danovs konkreten Anweisungen die Art und Weise ihres Aufführens bis zum Erreichen eines zufriedenstellenden Ergebnisses, welches sich an das Urbild annähert, variieren, veranschaulicht diesen Sachverhalt. So bildet Danov eine Brücke zu der Welt der Ideen, die diese Musikurbilder bewohnen. Indem sie direkt auf die Seele einwirken, öffnen sie den diesen \italic"Musikübungen" zugrunde liegenden Raum der lebendigen Musiksubstanz. Aus diesem Grund widerspricht die Notenfixierung und Begrenzung der \italic"okkulten Musikübungen" ihrem sakralen Wesen und führt gewissermaßen zu ihrer Profanierung. Klares Beispiel hierfür sind all jene Kompositionen wie der Zyklus „Die neue Genesis“. Danov erlaubte es nicht, dass sie sofort notiert werden. Die Schüler sollten sie zuerst auswendig lernen, eher sie sie niederschreiben durften. Ein anderes Beispiel sind Lieder wie „Šte se razveselja“, über deren Notationen er symbolisch sagte: „Wir haben dem Lied ein Gewand geschneidert, aber es ist etwas zu eng.“ Warum die \italic"lebendigen" \italic"Musikformen" nur schwer einer Notation unterliegen, kann mit dem folgenden Beispiel veranschaulicht werden: Als die Schüler Danov darum baten, eine bestimme Musikübung zu wiederholen, damit sie sie genau notieren können, spielte er sie jedes Mal etwas anders.
 
     }
   }
-
   \markup  \abs-fontsize #11  {
     \override #'(baseline-skip . 3.8)
     \justify {
-
-
-      gewissen Veränderungen unterliegen, d. h. sie finden jedes Mal einen anderen konkreten Ausdruck. Ihre Fixierung und Begrenzung in der Notation transformiert die lebendige Musiksubstanz, indem sie sie in einer vollendeten, kommensurablen Form verwandelt, in der sich das schöpferische Prinzip und das Prinzip der absoluten Freiheit nicht manifestieren können. Sie hören auf, begeistet zu sein, weil die lebendige Verbindung mit dem Göttlichen unterbrochen ist. Ein Beispiel hierfür ist das Lied „Kaži mi Ti Istinata – Sage mir die Wahrheit“, das in drei Varianten überliefert wurde. Es ist ein Vorbild für eine \italic"inkommensurable Übung," die Danov bewusst unvollendet lässt.
+     Das liegt laut Danov an den \italic"musikalischen Urbildern," die, wenn sie den Bereich der physischen Welt erreichen, gewissen Veränderungen unterliegen, d. h. sie finden jedes Mal einen anderen konkreten Ausdruck. Ihre Fixierung und Begrenzung in der Notation transformiert die lebendige Musiksubstanz, indem sie sie in einer vollendeten, kommensurablen Form verwandelt, in der sich das schöpferische Prinzip und das Prinzip der absoluten Freiheit nicht manifestieren können. Sie hören auf, begeistet zu sein, weil die lebendige Verbindung mit dem Göttlichen unterbrochen ist. Ein Beispiel hierfür ist das Lied „Kaži mi Ti Istinata – Sage mir die Wahrheit“, das in drei Varianten überliefert wurde. Es ist ein Vorbild für eine \italic"inkommensurable Übung," die Danov bewusst unvollendet lässt.
     }
   }
-
-
+  
   \markup  \abs-fontsize #11  {
     \vspace #0.9 \override #'(baseline-skip . 3.8)
     \justify {
@@ -116,8 +111,7 @@
 
     }
   }
-
-  \markup  \abs-fontsize #11  {
+    \markup  \abs-fontsize #11  {
     \vspace #0.9 \override #'(baseline-skip . 3.8)
     \justify {
       \hspace #1.5
@@ -125,8 +119,8 @@
       Der vorliegende Sammelband setzt die Linie der Achtung und der heiligen Verbindung zu Petar Danovs Musik der Musiker früherer Generationen fort, indem er ihre Authentizität und ihren Geist bewahrt. Der Sammelband besteht aus drei Teilen:
     }
   }
-
-  \markup \override #'(line-width . 90.5) \abs-fontsize #11  {
+  
+    \markup \override #'(line-width . 100) \abs-fontsize #11  {
     \override #'(baseline-skip . 3.8) \vspace #1.2 \column {
       "    1."
     }
@@ -138,36 +132,22 @@
       }
     }
   }
-
-
-  \markup \override #'(line-width . 90.5) \abs-fontsize #11   {
+  
+  \markup \override #'(line-width . 100) \abs-fontsize #11   {
     \override #'(baseline-skip . 3.8) \vspace #0.9 \column {
       "    2."
     }
     \hspace #0.5
     \override #'(baseline-skip . 3.8) \column {
       \justify {
-        \italic"Lieder von Petar Danov:" Das sind alle Kompositionen, die zwischen 1922 und
-
-      }
-    }
-  }
-
-  \markup \override #'(line-width . 90.5) \abs-fontsize #11   {
-    \override #'(baseline-skip . 3.8) \column {
-      "      "
-    }
-    \hspace #0.5
-    \override #'(baseline-skip . 3.8) \column {
-      \justify {
-        1944 in der okkulten Schule der Weißen Bruderschaft geschaffen wurden.
+        \italic"Lieder von Petar Danov:" Das sind alle Kompositionen, die zwischen 1922 und 1944 in der okkulten Schule der Weißen Bruderschaft geschaffen wurden.
         Autor der Melodie und des Textes hier ist Petar Danov. Viele der Kompositionen sind in einer heiligen Sprache, die er Watanisch nannte.
 
       }
     }
   }
 
-  \markup \override #'(line-width . 90.5) \abs-fontsize #11   {
+  \markup \override #'(line-width . 100) \abs-fontsize #11   {
     \override #'(baseline-skip . 3.8) \vspace #0.9 \column {
       "    3."
     }
@@ -191,7 +171,7 @@
     }
   }
 
-  \markup  \abs-fontsize #11  {
+\markup  \abs-fontsize #11  {
     \vspace #0.9 \override #'(baseline-skip . 3.8)
     \justify {
       \hspace #1.5
@@ -201,7 +181,7 @@
     }
   }
 
-  \markup \override #'(line-width . 90.5) \abs-fontsize #11   {
+  \markup \override #'(line-width . 100) \abs-fontsize #11   {
     \override #'(baseline-skip . 3.8) \vspace #1.2 \column {
       "    1."
     }
@@ -215,7 +195,7 @@
     }
   }
 
-  \markup \override #'(line-width . 90.5) \abs-fontsize #11  {
+  \markup \override #'(line-width . 100) \abs-fontsize #11  {
     \override #'(baseline-skip . 3.8) \vspace #0.9 \column {
       "    2."
     }
@@ -228,7 +208,7 @@
     }
   }
 
-  \markup \override #'(line-width . 90.5) \abs-fontsize #11   {
+  \markup \override #'(line-width . 100) \abs-fontsize #11   {
     \override #'(baseline-skip . 3.8) \vspace #0.9 \column {
       "    3."
     }
@@ -240,42 +220,38 @@
       }
     }
   }
-
   \markup  \abs-fontsize #11  {
     \vspace #1.2 \override #'(baseline-skip . 3.8)
     \justify {
       \hspace #1.5
 
-      Diese redaktionelle Linie machte das Überdenken der strukturellen Organisation mancher Lieder, die minimale Aktualisierung der lyrischen Texte gemäß der lexikalischen und syntaktischen Normen der modernen bulgarischen Sprache sowie Rechtschreibkorrekturen des Notentextes notwendig. Bei manchen Liedern mit unsymmetrischer Struktur und betont freiem Rhythmus wurde eine nichtmensurale Notation eingeführt, die dem Konzept der \italic"inkommensurablen Größen" in der okkulten Musik korrespondiert. Im redaktionellen Prozess wurden alle bekannten Quellen herangezogen. Dadurch wurden eine Reihe von Fehlern aus vorhergegangenen Redaktionen sowie einige frühere inadäquate redaktionelle Entscheidungen entfernt, die ganze Lieder oder Teile von Liedern betreffen. Dieser Prozess wurde durch die Anmerkungen mancher Musiker unterstützt, die die Objektivität und die Authentizität des Notentextes verbessert haben. Zum ersten Mal wurden auch Anmerkungen der Herausgeber eingeführt, die die vollzogenen redaktionellen Veränderungen im Notentext dokumentieren und argumentieren. Durch die breite Verwendung von \italic"ossia" wurden die Varianten der Lieder gekennzeichnet, die die Anmerkungen der direkten Musiker-Schüler von Danov entsprechen; diese wurden auch in den jeweiligen Anmerkungen festgehalten. In derselben Weise wurde auch mit den Varianten der lyrischen Texte verfahren. Alle Anmerkungen wurden überarbeitet und ergänzt. Entfernt wurden einige faktologischen Fehler. Die nicht klare Trennung zwischen authentischen Melodien und zeitgenössischen Texten als Praxis der bisherigen Ausgaben wurde vermieden, indem die authentischen Melodien im Hauptteil des Sammelbandes und die zeitgenössischen  Texte oder Melodien im
+      Diese redaktionelle Linie machte das Überdenken der strukturellen Organisation mancher Lieder, die minimale Aktualisierung der lyrischen Texte gemäß der lexikalischen und syntaktischen Normen der modernen bulgarischen Sprache sowie Rechtschreibkorrekturen des Notentextes notwendig. Bei manchen Liedern mit unsymmetrischer Struktur und betont freiem Rhythmus wurde eine nichtmensurale Notation eingeführt, die dem Konzept der \italic"inkommensurablen Größen" in der okkulten Musik korrespondiert. Im redaktionellen Prozess wurden alle bekannten Quellen herangezogen. Dadurch wurden eine Reihe von Fehlern aus vorhergegangenen Redaktionen sowie einige frühere inadäquate redaktionelle Entscheidungen entfernt, die ganze Lieder oder Teile von Liedern betreffen. Dieser Prozess wurde durch die Anmerkungen mancher Musiker unterstützt, die die Objektivität und die Authentizität des Notentextes verbessert haben. Zum ersten Mal wurden auch Anmerkungen der Herausgeber eingeführt, die die vollzogenen redaktionellen Veränderungen im Notentext dokumentieren und argumentieren. Durch die breite Verwendung von \italic"ossia" wurden die Varianten der Lieder gekennzeichnet, die die Anmerkungen der direkten Musiker-Schüler von Danov entsprechen; diese wurden auch in den jeweiligen Anmerkungen festgehalten. In derselben Weise wurde auch mit den Varianten der lyrischen Texte verfahren. Alle Anmerkungen wurden überarbeitet und ergänzt.   Entfernt wurden einige faktologischen Fehler. Die nicht klare Trennung zwischen authentischen Melodien und zeitgenössischen Texten als Praxis der bisherigen Ausgaben 
 
     }
   }
-
-  \markup  \abs-fontsize #11  {
+    \markup  \abs-fontsize #11  {
     \override #'(baseline-skip . 3.8)
     \justify {
-      Addendum platziert wurden. Die Tempobezeichnungen sollten als bedingt betrachtet werden, denn sie wurden nicht ursprünglich von Petar Danov angegeben, sondern stellen die Sicht der zeitgenössischen Musiker auf sie dar.
+     wurde vermieden, indem die authentischen Melodien im Hauptteil des Sammelbandes und die zeitgenössischen  Texte oder Melodien im Addendum platziert wurden. Die Tempobezeichnungen sollten als bedingt betrachtet werden, denn sie wurden nicht ursprünglich von Petar Danov angegeben, sondern stellen die Sicht der zeitgenössischen Musiker auf sie dar.
     }
   }
 
-  \markup  \abs-fontsize #11  {
+ \markup  \abs-fontsize #11  {
     \vspace #0.9 \override #'(baseline-skip . 3.8)
     \justify {
       \hspace #1.5
 
-      Das Ziel des vorliegenden Sammelbandes ist es, die Musikkompositionen des spirituellen Lehrers Petar Danov in einer professionellen Weise vorzustellen. Er ist sowohl an den professionellen Musikern als auch an den Laien gerichtet, d. h. an alle, die von der Schönheit und der Einzigartigkeit dieser Musik berührt werden möchten. Die große Vielfalt an Tonarten, von den einfacheren bis zu diesen mit sechs Vorzeichen, die mit ihnen verbundenen Farben, die Entsprechung zwischen Musik und Text, der oft freie Rhythmus der Melodie, die \italic"offenen" \italic"Intervale" die dominierenden inkommensurablen Größen – Aspekte der okkulten Musik, über die Danov in seinen Vorträgen sprach – bedingen ihren vielschichtigen Einfluss auf die Zuhörer und den Interpreten. Sie ist ein klangliches Abbild der Freiheit und der Asymmetrie der Naturlinien, die durch die strukturellen Merkmale des melodischen Aufbaus und durch die Abwesenheit eines symmetrischen Schemas der Phrasierung ausgedrückt sind. Ihre Bestandteile sind sowohl die kleinen Intervalle wie beispielsweise in den Liedern „Vehadi“ und „Neva sanzu“ sowie auch die großen Intervalle, die bis zur Oktave gehen, wie im Lied „Vătrešnijat glas na Boga – Die innere Stimme Gottes“. Vorhanden sind auch Intervalle, die für die östliche Musik eigentümlich sind, wie der Hiatus (übermäßige Sekunde) oder das Intervall der vergrößerten Quarte, das im Lied „Berhan-Azi“ verwendet wurde. Die Lieder ohne Mensur, für die Danov selbst die Empfehlung ausspricht, ohne Taktstriche notiert zu werden, sind ein zusätzliches Merkmal der absoluten Freiheit in der \italic"okkulten Musik." Das Inkommensurable als Maßstab für das Göttliche ist ihre strukturelle Grundeigenschaft, welche sie von der äußersten Bestimmtheit und Abgeschlossenheit befreit. Deshalb kann sie ihren adäquaten Ausdruck nur in den inkommensurablen Takten finden, die zu ihrem inneren inkommensurablen Maßstab werden. Die bestimmten Taktangaben im Allgemeinen, in welche sich die klassischen Musiker gewöhnlich gezwungen sehen, jede Melodie zu bringen, ist ein ihr fremdes Phänomen. Es gibt aber Kompositionen mit klassischem Aufbau der Melodie wie „Bog e Ljubov – Gott ist Liebe“, „Fir-fjur-fen“, „Me-hein“, „Venir Benir“, deren natürlicher harmonischer Klang Chorälen von J. S. Bach ähnelt. Sie würden eine Harmonisierung im Stil des Barocks nahelegen. Ein spezieller Platz in der \italic"okkulten Musik" wurde den typisch bulgarischen, unregelmäßigen Rhythmen wie beispielsweise 7/8, 5/8, 8/8 und melodischen Intonationen zugewiesen. Zu ihrer ursprünglichen Reinheit geführt, wurden sie zu Archetypen des neuen Musikgenres erhoben. So öffnete Danov nicht nur den geschlossenen Kreis der bulgarischen Musik, sondern gab ihr eine neue aufsteigende spiralförmige Richtung. Das natürliche Resultat dieser Öffnung und Befreiung war die Transformation des Bulgaren. Man kann noch viele weitere Beispiele, die die Mannigfaltigkeit der melodischen, harmonischen, der rhythmische Struktur der \italic"okkulten Musikübungen" anführen. Man kann auch viele weitere Fragen stellen, die ihre spezifischen Eigenschaften betreffen.  Dies wäre eine geeignete Aufgabe für eine weiterreichende Untersuchung über die \italic"okkulte Musik," welche die in ihr verborgen liegenden Schlüssel und Codes entdecken und erforschen würde.  Bedingung der Möglichkeit des wahren Verständnisses und der adäquaten Interpretation der  \italic"okkulten Musik"  blei-
+      Das Ziel des vorliegenden Sammelbandes ist es, die Musikkompositionen des spirituellen Lehrers Petar Danov in einer professionellen Weise vorzustellen. Er ist sowohl an den professionellen Musikern als auch an den Laien gerichtet, d. h. an alle, die von der Schönheit und der Einzigartigkeit dieser Musik berührt werden möchten. Die große Vielfalt an Tonarten, von den einfacheren bis zu diesen mit sechs Vorzeichen, die mit ihnen verbundenen Farben, die Entsprechung zwischen Musik und Text, der oft freie Rhythmus der Melodie, die \italic"offenen" \italic"Intervale" die dominierenden inkommensurablen Größen – Aspekte der okkulten Musik, über die Danov in seinen Vorträgen sprach – bedingen ihren vielschichtigen Einfluss auf die Zuhörer und den Interpreten. Sie ist ein klangliches Abbild der Freiheit und der Asymmetrie der Naturlinien, die durch die strukturellen Merkmale des melodischen Aufbaus und durch die Abwesenheit eines symmetrischen Schemas der Phrasierung ausgedrückt sind. Ihre Bestandteile sind sowohl die kleinen Intervalle wie beispielsweise in den Liedern „Vehadi“ und „Neva sanzu“ sowie auch die großen Intervalle, die bis zur Oktave gehen, wie im Lied „Vătrešnijat glas na Boga – Die innere Stimme Gottes“. Vorhanden sind auch Intervalle, die für die östliche Musik eigentümlich sind, wie der Hiatus (übermäßige Sekunde) oder das Intervall der vergrößerten Quarte, das im Lied „Berhan-Azi“ verwendet wurde. Die Lieder ohne Mensur, für die Danov selbst die Empfehlung ausspricht, ohne Taktstriche notiert zu werden, sind ein zusätzliches Merkmal der absoluten Freiheit in der \italic"okkulten Musik." Das Inkommensurable als Maßstab für das Göttliche ist ihre strukturelle Grundeigenschaft, welche sie von der äußersten Bestimmtheit und Abgeschlossenheit befreit. Deshalb kann sie ihren adäquaten Ausdruck nur in den inkommensurablen Takten finden, die zu ihrem inneren inkommensurablen Maßstab werden. Die bestimmten Taktangaben im Allgemeinen, in welche sich die klassischen Musiker gewöhnlich gezwungen sehen, jede Melodie zu bringen, ist ein ihr fremdes Phänomen. Es gibt aber Kompositionen mit klassischem Aufbau der Melodie wie „Bog e Ljubov – Gott ist Liebe“, „Fir-fjur-fen“, „Me-hein“, „Venir Benir“, deren natürlicher harmonischer Klang Chorälen von J. S. Bach ähnelt. Sie würden eine Harmonisierung im Stil des Barocks nahelegen. Ein spezieller Platz in der \italic"okkulten Musik" wurde den typisch bulgarischen, unregelmäßigen Rhythmen wie beispielsweise 7/8, 5/8, 8/8 und melodischen Intonationen zugewiesen. Zu ihrer ursprünglichen Reinheit geführt, wurden sie zu Archetypen des neuen Musikgenres erhoben. So öffnete Danov nicht nur den geschlossenen Kreis der bulgarischen Musik, sondern gab ihr eine neue aufsteigende spiralförmige Richtung. Das natürliche Resultat dieser Öffnung und Befreiung war die Transformation des Bulgaren. Man kann noch viele weitere Beispiele, die die Mannigfaltigkeit der melodischen, harmonischen, der rhythmische Struktur der \italic"okkulten Musikübungen" anführen. Man kann auch viele weitere Fragen stellen, die ihre spezifischen Eigenschaften betreffen.  Dies wäre eine geeignete Aufgabe für eine weiterreichende Untersuchung über 
     }
   }
 
-  \markup  \abs-fontsize #11  {
+    \markup  \abs-fontsize #11  {
     \vspace #0.9 \override #'(baseline-skip . 3.8)
     \justify {
-      bt aber die genaue Kenntnis der Vorträge sowie der Prinzipien,
+      die \italic"okkulte Musik," welche die in ihr liegenden Schlüssel und Codes entdecken und erforschen würde. Bedingung der Möglichkeit des wahren Verständnisses und der adäquaten Interpretation der  \italic"okkulten Musik"  blei-bt aber die genaue Kenntnis der Vorträge sowie der Prinzipien,
       auf die sie gründet. Die Vorträge und die okkulten Erfahrungen  zeigen ihren Kontext. Deshalb kann die \italic"okkulte Musik" nicht von der Gesamtheit und Einheit der Lehre getrennt werden. Die Vorträge sind ihr Koordinatensystem, indem sie die Bereicherung der \italic"okkulten Musik" mit Sinn und Inhalt ermöglichen. Sie ermöglichen auch die Bereicherung ihres Erlebens und ihre möglichen Interpretationen. Wichtig für alle Harmonisierungen und Orchestrierungen ist es, dass sie das Wichtigste in ihr – ihren Geist – bewahren. Sie ist kein Vergnügen, sondern der Ausdruck unserer heiligen Verbindung mir dem Schöpfer. Nur dann wird die \italic"okkulte Musik" ihre Schätze in Fülle zeigen.
     }
   }
-
-
   \markup  \abs-fontsize #11  {
     \vspace #0.9 \override #'(baseline-skip . 3.8)
     \justify {
@@ -292,12 +268,12 @@
       \line {"  "}
       %\fill-line { "" ""  \italic {"Петър Ганев, София    "} }
       \fill-line { "" ""  {"Maria Kireva   "} }
-      \fill-line { "" ""  {"München, 2024"} }
+      \fill-line { "" ""  {"München, 2025"} }
     }
   }
 
 
-
+  
 } % bookpart
 
 % Più mosso

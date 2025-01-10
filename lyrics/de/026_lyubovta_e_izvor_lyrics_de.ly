@@ -1,14 +1,11 @@
 \version "2.24.4"
 
-
 \markup \fill-line { \fontsize #deTitleFontSize "Die Liebe ist eine Quelle" }
 \markup \null
 \markup \null
-
-
-
 \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
   \fill-line {
+       \hspace #0.1
     \column {
       \vspace #1
       \line {
@@ -117,7 +114,7 @@
           \italic "  Refrain ..."
         }
       }
-    }
+    }   \hspace #0.1
   }
 }
 

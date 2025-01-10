@@ -5,45 +5,63 @@
 \markup \null
 
 
-\markup \abs-fontsize #11 {
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
   \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-
-  \column {
-    \line { 1. Der feierliche Tag bricht schon an, }
-    \line {   "   " der vorherbestimmte göttliche Tag, }
-    \line {   "   " ein Diadem der Tage,}
-    \line {   "   " mit seinem großen Licht. }
-
-
-     \vspace #0.5
-    \line { "   " \italic { Refrain:}  }
-    \line {"   " Kommt, auf dass wir }
-    \line {   "   "in der wunderbaren Liebe leben. }
-    \line {   "   " Kommt, auf dass wir  }
-    \line {   "   " diesen himmlischen Segen empfangen, }
-    \line {   "   " welcher das Leben erneuert }
-    \line {   "   " und es ewig verjüngt. }
-  \vspace #0.5
-      \line {2. Und er bringt Freude für die Seele }
-    \line {   "   "und verkündet die Freiheit }
-    \line {   "   " und den Frieden mit allheiliger Liebe }
-    \line {   "   " für alle auf der Erde. }
-
-     \vspace #0.5
-    \line { "   " \italic { Refrain } ... }
-
-    \vspace #0.5
-    \line { 3. Oh, wunderschöner Tag, ewiges Wohl, }
-    \line {   "   " wem ist das nicht wertvoll? }
-    \line {   "   " Für all die Jahre}
-    \line {   "   " erneuere uns bald! }
-  }
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "1."
+        \column {
+          "Der feierliche Tag bricht schon an,"
+          "der vorherbestimmte göttliche Tag,"
+          "ein Diadem der Tage,"
+          "mit seinem großen Licht."
+        }
+      }
+      \vspace #1
+      \line{ \italic"    Refrain:"}
+      \line {
+        "   "
+        \column {
+          "Kommt, auf dass wir"
+          "in der wunderbaren Liebe leben."
+          "Kommt, auf dass wir"
+          "diesen himmlischen Segen empfangen,"
+          "welcher das Leben erneuert"
+          "und es ewig verjüngt."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "2."
+        \column {
+          "Und er bringt Freude für die Seele"
+          "und verkündet die Freiheit"
+          "und den Frieden mit allheiliger Liebe"
+          "für alle auf der Erde."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold " "
+        \column {
+          \italic"  Refrain ..."
+        }
+      }
+      \vspace #0.5
+      \line {
+        \bold "3."
+        \column {
+          "Oh, wunderschöner Tag, ewiges Wohl,"
+          "wem ist das nicht wertvoll?"
+          "Für all die Jahre"
+          "erneuere uns bald!"
+        }
+      }
+    }\hspace #0.1
   }
 }
-
-
+  
 
 
 

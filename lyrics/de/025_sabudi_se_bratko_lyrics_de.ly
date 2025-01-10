@@ -3,52 +3,77 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Wache auf, lieber Bruder" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-   \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-    \line { 1. Wache auf, lieber Bruder, }
-    \line {   "   " erhebe dich vom tiefen Schlaf}
-    \line {   "   " und nimm die jahrhundertealten Ketten}
-    \line {   "   " von deinen Füßen ab.}
-
-     \vspace #0.5
-    \line { "   " \italic { Refrain:}  }
-    \line { "   "Die Liebe ist deine Mutter,}
-    \line {   "   "deine Kraft, dein Pilot; }
-    \line {   "   " sie wird dich stark aufrichten, }
-    \line {   "   " dir Leben schenken. }
-
-    \vspace #0.5
-    \line {    2. Verlasse die düsteren Gefängnisse, }
-    \line {   "   "draußen ist überall Licht; }
-    \line {   "   " Frieden und Freude erwarten dich, }
-    \line {   "   " und seliges Danach. }
-
-
-    \vspace #0.5
-    \line { "   " \italic { Refrain:}  }
-    \line { "   " Die Liebe ist dein Meister, }
-    \line {   "   " auf dass sie dir das lebendige Wort geben wird; }
-    \line {   "   " sie wird dich das Gute lehren }
-    \line {   "   " und dich in die Weisheit einweihen. }
-
-
-   \vspace #0.5
-    \line { 3. Und sage deinem Bruder, }
-    \line {   "   " ein süßes Wort mit neuer Regung; }
-    \line {   "   " auf dass du sein Herz erwärmst }
-    \line {   "   " mit deiner aufrichtigen Liebe.}
-
-     \vspace #0.5
-    \line { "   " \italic { Refrain: } }
-    \line {"   "    Die Liebe ist dein Erlöser: }
-    \line {   "   " Ruf sie zur Hilfe; }
-    \line {   "   " sie wird deine Seele vom Joch}
-    \line {   "   " bald befreien.}
-
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "1."
+        \column {
+          "Wache auf, lieber Bruder,"
+          "erhebe dich vom tiefen Schlaf"
+          "und nimm die jahrhundertealten Ketten"
+          "von deinen Füßen ab."
+        }
+      }
+      \vspace #1
+      \line{ \italic"    Refrain:"}
+      %\vspace #0.3
+      \line {
+        "   "
+        \column {
+          "Die Liebe ist deine Mutter,"
+          "deine Kraft, dein Pilot;"
+          "sie wird dich stark aufrichten,"
+          "dir Leben schenken."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "2."
+        \column {
+          "Verlasse die düsteren Gefängnisse,"
+          "draußen ist überall Licht;"
+          "Frieden und Freude erwarten dich,"
+          "und seliges Danach."
+        }
+      }
+      \vspace #1
+      \line{ \italic"    Refrain:"}
+      %\vspace #0.3
+      \line {
+        "   "
+        \column {
+          "Die Liebe ist dein Lehrer,"
+          "auf dass sie dir das lebendige Wort geben wird;"
+          "sie wird dich das Gute lehren"
+          "und dich in die Weisheit einweihen."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "3."
+        \column {
+          "Und sage deinem Bruder,"
+          "ein süßes Wort mit neuer Regung;"
+          "auf dass du sein Herz erwärmst"
+          "mit deiner aufrichtigen Liebe."
+        }
+      }
+      \vspace #1
+      \line{ \italic"    Refrain:"}
+      %\vspace #0.3
+      \line {
+        "   "
+        \column {
+          "Die Liebe ist dein Erlöser:"
+          "Ruf sie zur Hilfe;"
+          "sie wird deine Seele vom Joch"
+          "bald befreien."
+        }
+      }
+    }\hspace #0.1
   }
-   }
-
 }
+
+

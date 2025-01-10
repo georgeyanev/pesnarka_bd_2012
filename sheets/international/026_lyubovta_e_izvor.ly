@@ -231,8 +231,6 @@
     }
   }
 
-
-
   \markup \vspace #1
 
   % include foreign translation(s) of the song

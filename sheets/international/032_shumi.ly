@@ -41,7 +41,7 @@
     }
 
     \addlyrics {
-       \set stanza = "1." Šu -- mi,
+      \set stanza = "1." Šu -- mi,
       az slu -- šam cjal svjat da šu -- mi! Šu -- mjat
       săr -- ca -- ta če -- lo --  veš -- ki vsred
       svoj -- te i -- do -- li i greš -- ki, šu -- mjat

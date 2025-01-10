@@ -3,40 +3,68 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Der Sämann ist hinausgegangen" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-\fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-  \column {
-    \line { 1. Der Sämann ist hinausgegangen, }
-    \line {   "   " um das wunderbare Gute zu säen: das neue Leben!}
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "1."
+        \column {
+          "Der Sämann ist hinausgegangen,"
+          "um das wunderbare Gute zu säen: das neue Leben!"
+          "Und er sät und singt leise"
+          "vor jedem Haus und jeder Familie:"
+        }
+      }
+      \vspace #1
+      \line{ \italic"    Refrain:"}
+      %\vspace #0.3
+      \line {
+        "   "
+        \column {
+          "Eine unschätzbare Gabe ist die Liebe [Ljubovta],"
+          "ein schönes Gefühl die Liebe [običta],"
+          "und ein gutes Werk die Barmherzigkeit,"
+          "eine üppige Quelle die Weisheit."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "2."
+        \column {
+          "Und wer dies hört,"
+          "erschauert vor dieser guten, lieblichen Melodie;"
+          "und erstrahlt und aufersteht"
+          "und segnet diese Saat."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold " "
+        \column {
+          \italic"  Refrain ..."
+        }
+      }
+      \vspace #0.5
+      \line {
+        \bold "3."
+        \column {
+          "Die Liebe [Ljubov] ergießt sich in den Kosmos,"
+          "vor Liebe [običta] strahlt jedes Wesen,"
+          "das Leben quillt über in das Leben;"
+          "hier gibt es nicht mehr Jung noch Alt."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold " "
+        \column {
+          \italic"  Refrain ..."
+        }
+      }
 
-    \line {   "   " Und er sät und singt leise }
-    \line {   "   " vor jedem Haus und jeder Familie: }
-    \vspace #0.5
-    \line { "   " \italic { Refrain:}  }
-
-    \line {   "   " Eine unschätzbare Gabe ist die Liebe [Ljubovta], }
-    \line {  "   "ein schönes Gefühl die Liebe [običta],* }
-    \line {   "   " und ein gutes Werk die Barmherzigkeit, }
-    \line {   "   " eine üppige Quelle die Weisheit. }
-    \vspace #0.5
-    \line { 2. Und wer dies hört, }
-    \line {   "   "erschauert vor dieser guten, lieblichen Melodie; }
-    \line {   "   " und erstrahlt und aufersteht }
-    \line {   "   " und segnet diese Saat.}
-
-    \vspace #0.5
-    \line { "   " \italic { Refrain } ... }
-    \vspace #0.5
-    \line { 3. Die Liebe [Ljubov] ergießt sich in den Kosmos, }
-    \line {   "   " vor Liebe [običta] strahlt jedes Wesen, }
-    \line {   "   " das Leben quillt über in das Leben; }
-    \line {   "   " hier gibt es nicht mehr Jung noch Alt. }
-    \vspace #0.5
-    \line { "   " \italic { Refrain } ... }
-
-
+    }\hspace #0.1
   }
 }
 
-}
+

@@ -3,23 +3,21 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Gelobt sei der Herr" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
   \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-
-    \line { " "Gelobt sei der Herr, unser Gott,}
-
-    \line { " "der Herr aller Zeiten!}
-
-    \line { " "Gepriesen sei unser Vater,}
-
-    \line { " "der Vater der lichtvollen Geister}
-
-    \line { " "der lichtvollen Geister, der lichtvollen Geister,  }
-    \line { " "der lichtvollen Geister, der lichtvollen Geister.  }
-
-  }
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "  "
+        \column {
+         "Gelobt sei der Herr, unser Gott,"
+          "der Herr aller Zeiten!"
+          "Gepriesen sei unser Vater,"
+          "der Vater der lichtvollen Geister"
+          "der lichtvollen Geister, der lichtvollen Geister,"
+          "der lichtvollen Geister, der lichtvollen Geister."
+        }
+      }
+    }\hspace #0.1
   }
 }
