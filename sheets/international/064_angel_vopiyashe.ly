@@ -141,7 +141,7 @@
 
   } % score
 
-  \markup \vspace #3
+  \markup \vspace #2
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/064_Angel_vopiashe_lyrics_de.ly"

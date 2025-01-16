@@ -56,7 +56,7 @@
   % include foreign translation(s) of the song
   \include "../../lyrics/de/055_2_ti_si_proyavenata_lyubov_lyrics_de.ly"
 
-  \markup \empty-three
+  \markup \vspace #3
 
   \label #'ref053
   \tocItem \markup "Слава Божия – Slava Božija"
@@ -91,7 +91,7 @@
     \midi{}
 
   } % score
-  \markup \vspace #1
+  \markup \vspace #2
   % include foreign translation(s) of the song
   \include "../../lyrics/de/053_slava_Bozhiya_lyrics_de.ly"
 

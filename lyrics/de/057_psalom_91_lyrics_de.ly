@@ -1,21 +1,22 @@
 \version "2.24.4"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Psalm 91" }
+\markup \fill-line { \fontsize #deTitleFontSize "Psalom 91" }
 \markup \null
-\markup \abs-fontsize #11 {
+\markup \null
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
   \fill-line {
-    \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
+    \hspace #0.1
     \column {
-
-      \line { " "Wer im Schutz des Höchsten wohnt, }
-
-      \line { " "bleibt im Schatten des Allmächtigen.}
-
-      \line { " "Ich sage zum Herrn: Meine Zuflucht und meine Burg,}
-
-      \line { " " mein Gott, ich vertraue auf Ihn! }
-
-    }
+      \line {
+        \bold "  "
+        \column {
+          "Wer im Schutz des Höchsten wohnt,"
+          "bleibt im Schatten des Allmächtigen."
+          "Ich sage zum Herrn: Meine Zuflucht und meine Burg,"
+          "mein Gott, ich vertraue auf Ihn!"
+        }
+      }
+    }\hspace #0.1
   }
 }
+

@@ -3,22 +3,22 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Dir singen wir" }
 \markup \null
 \markup \null
-
-\markup \abs-fontsize #11 {
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
   \fill-line {
-    \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
+    \hspace #0.1
     \column {
-      \line { " "Dir singen wir, Dir danken wir,}
-
-      \line { " "Dich lobpreisen wir, unser Gott.}
-
-      \line { " "Und wir beten zu Dir, }
-      \line { " " und wir beten zu Dir,}
-      \line { " " und wir beten zu Dir,}
-
-      \line { " "oh, unser Gott.}
-
+      \line {
+        \bold "1."
+        \column {
+          "Dir singen wir, Dir danken wir,"
+          "Dich lobpreisen wir, unser Gott."
+          "Und wir beten zu Dir,"
+          "und wir beten zu Dir,"
+          "und wir beten zu Dir,"
+          "oh, unser Gott."
+        }
+      }
     }
+    \hspace #0.1
   }
 }

@@ -3,56 +3,48 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Neue Kleider" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
   \fill-line {
-    \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
+    \hspace #0.1
     \column {
-      \line { 1. Wie der Mensch seine alten Kleider auszieht,}
-
-      \line { "   "damit er neue, reine, weiße anziehen kann,}
-
-      \line { "   "so verlässt der Geist das Fleisch,}
-
-      \line { "   "um ein anderes Fleisch zu bewohnen }
-
-      \line { "   "und geht, um andere Bereiche zu erben.}
-
-      \vspace #0.5
-
-      \line { 2. So durchquert er die Welten}
-
-      \line { "   "und wird zu Fleisch in ihnen – }
-
-      \line { "   "auf dass er neue Talente entwickelt,}
-
-      \line { "   "auf dass er ein neues Leben erbaut. }
-
-      \line { "   "So schreitet er unaufhörlich voran,}
-
-      \line { "   "in der unausdrücklichen Schönheit – }
-
-      \line { "   "und erreicht das Licht – }
-
-      \line { "   "dort, wo es Seligkeit gibt. }
-
-      \vspace #0.5
-
-      \line { 3. So erhaben und allweise}
-
-      \line { "   "schuf Gott alles}
-
-      \line { "   "und ließ niemanden ohne Streben und Hoffnung.}
-
-      \line { "   "Und das Leben ist angenehm,}
-
-      \line { "   "jedem gefällt es immer wieder;}
-
-      \line { "   "möge alles Lebendige, das atmet,}
-
-      \line { "   "ewig den Herrn lobpreisen. }
-
-
+      \line {
+        \bold "1."
+        \column {
+          "Wie der Mensch seine alten Kleider auszieht,"
+          "damit er neue, reine, weiße anziehen kann,"
+          "so verlässt der Geist das Fleisch,"
+          "um ein anderes Fleisch zu bewohnen"
+          "und geht, um andere Bereiche zu erben."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "2."
+        \column {
+          "So durchquert er die Welten"
+          "und wird zu Fleisch in ihnen –"
+          "auf dass er neue Talente entwickelt,"
+          "auf dass er ein neues Leben erbaut."
+          "So schreitet er unaufhörlich voran,"
+          "in der unausdrücklichen Schönheit –"
+          "und erreicht das Licht –"
+          "dort, wo es Seligkeit gibt."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "3."
+        \column {
+          "So erhaben und allweise"
+          "schuf Gott alles"
+          "und ließ niemanden ohne Streben und Hoffnung."
+          "Und das Leben ist angenehm,"
+          "jedem gefällt es immer wieder;"
+          "möge alles Lebendige, das atmet,"
+          "ewig den Herrn lobpreisen."
+        }
+      }
     }
+    \hspace #0.1
   }
 }

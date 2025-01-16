@@ -44,7 +44,7 @@
 
 
     \addlyrics {
-     \set stanza = "1." Bla -- gos -- lo -- ven ot Bo -- ga ti, U -- či -- te --
+      \set stanza = "1." Bla -- gos -- lo -- ven ot Bo -- ga ti, U -- či -- te --
       lju na Lju -- bov -- ta, za -- de -- to tăk -- mo
       v~te -- zi dni do -- ne -- se mir i svet -- li -- na.
       Dob -- re do -- šăl, dob -- re do -- šăl,
@@ -157,7 +157,7 @@
     } %column
   } % markup
 
-  \markup \vspace #3
+  \markup \vspace #2
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/044_pozdrav_na_Uchitelja_lyrics_de.ly"

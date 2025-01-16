@@ -3,84 +3,98 @@
 \markup \fill-line { \fontsize #deTitleFontSize "An die weiße Farbe" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
   \fill-line {
-    \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
+    \hspace #0.1
     \column {
-      \line { 1. Hinauf, steigen wir immer weiter}
-
-      \line { "   "zu den weißen Gipfeln,}
-
-      \line { "   "grüßen wir den weißen Äther}
-
-      \line { "   "und die Schneekristalle.}
-
+      \line {
+        \bold "1."
+        \column {
+          "Hinauf, steigen wir immer weiter"
+          "zu den weißen Gipfeln,"
+          "grüßen wir den weißen Äther"
+          "und die Schneekristalle."
+        }
+      }
+      \vspace #1
+      \line{ \italic"    Refrain:"}
+      \line {
+        "   "
+        \column {
+          "Die Schönheit der göttlichen Welt,"
+          "das Weiße, unsere Farbe  –"
+          "hat ewige Kraft,"
+          "die Finsternis ergreift sie nicht."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "2."
+        \column {
+          "Hinauf immer weiter! Dort blüht "
+          "die weiße Alpenrose,"
+          "die Morgenröte ergoss  "
+          "die weiße Farbe in diese Rose."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold " "
+        \column {
+          \italic"  Refrain ..."
+        }
+      }
       \vspace #0.5
-
-      \line { "      " \italic { Refrain }:}
-      \line { "      "Die Schönheit der göttlichen Welt,}
-
-      \line { "      "das Weiße, unsere Farbe  –}
-
-      \line { "      "hat ewige Kraft,}
-
-      \line { "      "die Finsternis ergreift sie nicht.}
+      \line {
+        \bold "3."
+        \column {
+          "Hinauf! Eine weiße Sonne wird heute"
+          "von Osten aufgehen  –"
+          "das lebendige Emblem für jene,"
+          "in denen Gott lebt."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold " "
+        \column {
+          \italic"  Refrain ..."
+        }
+      }
       \vspace #0.5
-      \line { 2. Hinauf immer weiter! Dort blüht }
-
-      \line { "   "die weiße Alpenrose,}
-
-      \line { "   "die Morgenröte ergoss  }
-
-      \line { "   "  die weiße Farbe in diese Rose. }
-
+      \line {
+        \bold "4."
+        \column {
+          "Hinauf – in dieses Weiß!"
+          "Es wird alles ausfüllen"
+          "und die tödliche Dunkelheit"
+          "in weißen Tag verwandeln."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold " "
+        \column {
+          \italic"  Refrain ..."
+        }
+      }
       \vspace #0.5
-
-      \line { "      " \italic { Refrain } ... }
-
-      \vspace #0.5
-
-      \line { 3. Hinauf! Eine weiße Sonne wird heute}
-
-      \line { "   " von Osten aufgehen  –}
-
-      \line { "   " das lebendige Emblem für jene,}
-
-      \line { "   " in denen Gott lebt.}
-
-      \vspace #0.5
-
-      \line { "      " \italic { Refrain } ... }
-
-      \vspace #0.5
-
-      \line { 4. Hinauf – in dieses Weiß!}
-
-      \line { "   " Es wird alles ausfüllen}
-
-      \line { "   " und die tödliche Dunkelheit}
-
-      \line { "   " in weißen Tag verwandeln.}
-
-      \vspace #0.5
-
-      \line { "      " \italic { Refrain } ... }
-
-      \vspace #0.5
-      \line { 5. Wir werden die Erde verschönern,}
-
-      \line { "   " wir werden sie zum Paradies machen;}
-
-      \line { "   " wir werden den Himmel erfreuen}
-
-      \line { "   " und Gott lobpreisen. }
-
-      \vspace #0.5
-
-      \line { "      " \italic { Refrain } ... }
-    }
-
+      \line {
+        \bold "5."
+        \column {
+          "Wir werden die Erde verschönern,"
+          "wir werden sie zum Paradies machen;"
+          "wir werden den Himmel erfreuen"
+          "und Gott lobpreisen."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold " "
+        \column {
+          \italic"  Refrain ..."
+        }
+      }
+    }\hspace #0.1
   }
-
 }

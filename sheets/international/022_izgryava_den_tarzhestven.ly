@@ -170,7 +170,7 @@
   } % markup
 
 
-  \markup \vspace #3
+  \markup \vspace #2
 
 
   % include foreign translation(s) of the song

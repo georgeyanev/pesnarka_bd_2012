@@ -3,65 +3,75 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Gruß an den Meister" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
   \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-
-    \line { 1. Gesegnet bist du von Gott, }
-
-    \line { "   " oh Meister der Liebe, }
-
-    \line { "   " denn gerade in diesen Tagen}
-
-    \line { "   " hast du Frieden und Licht gebracht.}
-     \vspace #0.5
-
-    \line { "   " \italic { Refrain:}  }
-
-    \line { "   " Sei willkommen, sei willkommen,}
-
-    \line { "   " Meister der Liebe; }
-
-    \line { "   " sei willkommen, sei willkommen, }
-
-    \line { "   " Meister der Weisheit!}
-     \vspace #0.5
-
-    \line { 2. Bis zu dieser Stunde von Dunkelheit eingehüllt, }
-
-    \line { "   " waren wir Sklaven der Sünde,}
-
-    \line { "   " aber wir haben deine sanfte Stimme gehört, }
-
-    \line { "   " und Wärme hauchte uns an.}
-     \vspace #0.5
-
-    \line { "   " \italic { Refrain ...}  }
-     \vspace #0.5
-
-    \line { 3. Gesegneter Meister,}
-
-    \line { "   " du hast unsere Herzen erneuert, }
-
-    \line { "   " du hast in uns ein heiliges Feuer entfacht}
-
-    \line { "   " und die süßen Worte zum Leben erweckt.}
-    \vspace #0.5
-
-    \line { "   " \italic { Refrain ...}  }
-     \vspace #0.5
-
-
-    \line { 4. Meister, unser geschätzter Gast, }
-
-    \line { "   " empfange unseren Gruß; }
-
-    \line { "   " mit Freude sind wir bereit, }
-
-    \line { "   " unser Leben zu opfern.}
-
-  }
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "1."
+        \column {
+          "Gesegnet bist du von Gott,"
+          "oh Meister der Liebe,"
+          "denn gerade in diesen Tagen"
+          "hast du Frieden und Licht gebracht."
+        }
+      }
+      \vspace #0.5
+      \line { \italic"    Refrain:"}
+      \line {
+        "   "
+        \column {
+          "Sei willkommen, sei willkommen,"
+          "Meister der Liebe;"
+          "sei willkommen, sei willkommen,"
+          "Meister der Weisheit!"
+        }
+      }
+      \vspace #0.5
+      \line {
+        \bold "2."
+        \column {
+          "Bis zu dieser Stunde von Dunkelheit eingehüllt,"
+          "waren wir Sklaven der Sünde,"
+          "aber wir haben deine sanfte Stimme gehört,"
+          "und Wärme hauchte uns an."
+        }
+      }
+      \vspace #0.5
+      \line {
+        \bold " "
+        \column {
+          \italic"  Refrain ..."
+        }
+      }
+      \vspace #0.5
+      \line {
+        \bold "3."
+        \column {
+          "Gesegneter Meister,"
+          "du hast unsere Herzen erneuert,"
+          "du hast in uns ein heiliges Feuer entfacht"
+          "und die süßen Worte zum Leben erweckt."
+        }
+      }
+      \vspace #0.5
+      \line {
+        \bold " "
+        \column {
+          \italic"  Refrain ..."
+        }
+      }
+      \vspace #0.5
+      \line {
+        \bold "4."
+        \column {
+          "Meister, unser geschätzter Gast,"
+          "empfange unseren Gruß;"
+          "mit Freude sind wir bereit,"
+          "unser Leben zu opfern."
+        }
+      }
+    }
+    \hspace #0.1
   }
 }

@@ -209,7 +209,7 @@
   } % score
 
 
-  \markup \vspace #0.5
+  \markup \vspace #2
   % include foreign translation(s) of the song
   \include "../../lyrics/de/068_sto_e_sastnostta_lyrics_de.ly"
 

@@ -3,61 +3,47 @@
 \markup \fill-line { \fontsize #deTitleFontSize " Ich bin das weiße Schneeglöckchen" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-   \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
 
   \column {
-    \line {1. Ich bin das weiße Schneeglöckchen}
+    \line { \bold "1." \column {
+        "Ich bin das weiße Schneeglöckchen"
+        "inmitten der Gräser des Waldes,"
+        "schüchtern wie ein junges Mädchen"
+        "unter den Blicken der Menschen."
+        "  Die böse Stiefmutter hat mich geweckt,"
+        "  mit dem Schnee und mit dem Wind."
+        "  Alles Lebendige wundert sich,"
+        "  dass ich eine frühe Blume bin."
+      }
+    }
 
-    \line { "   "inmitten der Gräser des Waldes,}
-
-    \line { "   "schüchtern wie ein junges Mädchen }
-
-    \line { "   "unter den Blicken der Menschen. }
-
-    \line { "     "Die böse Stiefmutter hat mich geweckt, }
-
-    \line { "     "mit dem Schnee und mit dem Wind. }
-
-    \line { "     "Alles Lebendige wundert sich, }
-
-    \line { "     "dass ich eine frühe Blume bin.}
-
-     \vspace #0.5
-
-    \line { 2. Neue Freude zeige ich euch}
-
-    \line { "   "mit einem früh erwachten Glöckchen,}
-
-    \line { "   "und erzähle über den Frühling}
-
-    \line { "   "ein wunderbares Märchen,}
-
-    \line { "     "Dass nach mir das Veilchen}
-
-    \line { "     "bei euch Gast sein wird, }
-
-    \line { "     "und dass man mit dieser lieben Freundin}
-
-    \line { "     "die Nachtigall hören wird.}
-     \vspace #0.5
-
-    \line { 3. Dass Lämmer blöken werden}
-
-    \line { "   "auf grünen Weiden, }
-
-    \line { "   "die Bauern werden }
-
-    \line { "   "die gedüngten Felder säen.}
-
-    \line { "     "Goldene Ähren werden reifen,}
-
-    \line { "     "auf diesen wunderbaren Feldern.}
-
-    \line { "     "Engel werden Gott lobpreisen }
-
-    \line { "     "mit den allerschönsten Liedern.}
-  }
+     \vspace #1
+     \line { \bold "2." \column {
+         "Neue Freude zeige ich euch"
+         "mit einem früh erwachten Glöckchen,"
+         "und erzähle über den Frühling"
+         "ein wunderbares Märchen,"
+         "  Dass nach mir das Veilchen"
+         "  bei euch Gast sein wird,"
+         "  und dass man mit dieser lieben Freundin"
+         "  die Nachtigall hören wird."
+       }
+     }
+     \vspace #1
+     \line { \bold "3." \column {
+         "Dass Lämmer blöken werden"
+         "auf grünen Weiden,"
+         "die Bauern werden"
+         "die gedüngten Felder säen."
+         "  Goldene Ähren werden reifen,"
+         "  auf diesen wunderbaren Feldern."
+         "  Engel werden Gott lobpreisen"
+         "  mit den allerschönsten Liedern."
+       }
+     }
+  } \hspace #0.1
    }
 }

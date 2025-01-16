@@ -141,7 +141,7 @@
     \"rightBraces048"
   } % markup
 
-  \markup \vspace #3
+  \markup \vspace #2
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/048_napred_chada_napred_lyrics_de.ly"

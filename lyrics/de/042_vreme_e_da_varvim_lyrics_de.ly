@@ -3,61 +3,51 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Es ist Zeit, dass wir gehen" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-    \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
+    \column {
 
-  \column {
+      \line {
+        \bold "1." \column {
+          "Es ist Zeit, dass wir gehen,"
+          "dass wir das Böse besiegen,"
+          "dass wir den Frieden wiederherstellen,"
+          "dass wir Christus zum König machen!"
+          "Gerechtigkeit werden wir einführen,"
+          "Freiheit werden wir geben,"
+          "und an allen Tagen"
+          "werden wir treu sein."
+        }
+      }
+      \vspace #1
 
-    \line { 1. Es ist Zeit, dass wir gehen, }
+      \line { \italic"    Refrain:"}
 
-    \line { "   "dass wir das Böse besiegen, }
-
-    \line { "   "dass wir den Frieden wiederherstellen,}
-
-    \line { "   "dass wir Christus zum König machen! }
-
-    \line { "   "Gerechtigkeit werden wir einführen, }
-
-    \line { "   "Freiheit werden wir geben, }
-
-    \line { "   "und an allen Tagen}
-
-    \line { "   "werden wir treu sein.}
-     \vspace #0.5
-
-    \line { "   " \italic { Refrain:}  }
-
-    \line { "   "Möge die Liebe herrschen, }
-
-    \line { "   "möge die Güte herrschen!}
-
-    \line { "   "Gott ist der König der Welt; }
-
-    \line { "   "Er ist das Licht auf unserem Weg.}
-      \vspace #0.5
-   
-
-    \line { 2. "" Schnell, lasst uns losfliegen, }
-
-    \line { "   "mächtig posaunen, }
-
-    \line { "   "lasst uns die Freude verkünden,}
-
-    \line { "   "den Glauben wiederbeleben!}
-
-    \line { "   "Die Welt wird wieder erstrahlen}
-
-    \line { "   "in der ersten Schönheit, }
-
-    \line { "   "Freiheit, Frieden und Ordnung}
-
-    \line { "   " werden überall walten!}
-    \vspace #0.5
-
-    \line { "   " \italic { Refrain ... }  }
-
-  }
+      \line {
+        "   " \column {
+          "Möge die Liebe herrschen,"
+          "möge die Güte herrschen!"
+          "Gott ist der König der Welt;"
+          "Er ist das Licht auf unserem Weg."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "2." \column {
+          "Schnell, lasst uns losfliegen,"
+          "mächtig posaunen,"
+          "lasst uns die Freude verkünden,"
+          "den Glauben wiederbeleben!"
+          "Die Welt wird wieder erstrahlen"
+          "in der ersten Schönheit,"
+          "Freiheit, Frieden und Ordnung"
+          "werden überall walten!"
+        }
+      }
+      \vspace #1
+      \line { \italic"   Refrain ..."}
     }
-
+    \hspace #0.1
+  }
 }

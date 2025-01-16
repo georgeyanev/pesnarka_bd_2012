@@ -231,7 +231,7 @@
     }
   }
 
-  \markup \vspace #1
+  \markup \vspace #2
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/026_lyubovta_e_izvor_lyrics_de.ly"

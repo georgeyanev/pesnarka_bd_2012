@@ -54,7 +54,7 @@
   } % score
 
 
-  \markup \vspace #3
+  \markup \vspace #2
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/066_2_tebe_poem_lyrics_de.ly"

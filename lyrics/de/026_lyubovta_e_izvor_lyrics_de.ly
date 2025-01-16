@@ -3,11 +3,10 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Die Liebe ist eine Quelle" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,deCoupletBaselineSkip) {
   \fill-line {
        \hspace #0.1
     \column {
-      \vspace #1
       \line {
         \bold "1."
         \column {
@@ -65,8 +64,6 @@
     % adds horizontal spacing between columns
     \column {
       % adds vertical spacing between verses
-
-      \vspace #1
       \line {
         \bold " "
         \column {

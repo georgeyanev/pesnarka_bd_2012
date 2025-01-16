@@ -100,7 +100,7 @@
     %column
   } % markup
 
-
+  \pageBreak
   % include foreign translation(s) of the song
   \include "../../lyrics/de/042_vreme_e_da_varvim_lyrics_de.ly"
 

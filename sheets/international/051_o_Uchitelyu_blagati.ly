@@ -139,7 +139,7 @@
     \"rightBraces051"
   } % markup
 
-  \markup \vspace #3
+  \markup \vspace #2
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/051_o_Uchitelyu_blagati_lyric_de.ly"

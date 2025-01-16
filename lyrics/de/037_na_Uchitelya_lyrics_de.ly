@@ -3,60 +3,61 @@
 \markup \fill-line { \fontsize #deTitleFontSize "An den Meister" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-    \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-
-    \line { 1. Dem Meister werde ich ergeben }
-
-    \line { "   "bis zum Ende dienen.}
-
-    \line { "   "Er ist für mich ein offener Weg, }
-
-    \line { "   "der mich zum Vater führt.}
-    
-     \line { "   "Er ist für mich ein offener Weg, }
-
-    \line { "   "der mich zum Vater führt.}
-     \vspace #0.5
-
-    \line { 2. Herr, Du mein Meister, }
-
-    \line { "   "führe mich bei meinen Schritten, }
-
-    \line { "   "und wie ein mächtiger Beschützer }
-
-    \line { "   " sei immer bei mir.}
-     \vspace #0.5
-
-    \line { 3. Gib mir Deine heilige Weisheit}
-
-    \line { "   "und göttliche Liebe,}
-
-    \line { "   "auf dass ich für die Liebe zu all meinen Brüdern}
-
-    \line { "   "immerdar bereit bin.}
-     \vspace #0.5
-
-    \line { 4. Und in Tagen der Prüfung, }
-
-    \line { "   "sei Du mir ein Fels,}
-
-    \line { "   "so werde ich für Dich leben}
-
-    \line { "   "und für Dich sterben.}
-     \vspace #0.5
-
-    \line { 5. Und wenn ich ein Bewohner }
-
-    \line { "   "der unsichtbaren Welt werde, }
-
-    \line { "   "oh, mein geliebter Meister,}
-
-    \line { "   "gib mir Deinen Segen!}
-
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "1."
+        \column {
+          "Dem Meister werde ich ergeben"
+          "bis zum Ende dienen."
+          "Er ist für mich ein offener Weg,"
+          "der mich zum Vater führt."
+          "Er ist für mich ein offener Weg,"
+          "der mich zum Vater führt."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "2."
+        \column {
+          "Herr, Du mein Meister,"
+          "führe mich bei meinen Schritten,"
+          "und wie ein mächtiger Beschützer"
+          "sei immer bei mir."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "3."
+        \column {
+          "Gib mir Deine heilige Weisheit"
+          "und göttliche Liebe,"
+          "auf dass ich für die Liebe zu all meinen Brüdern"
+          "immerdar bereit bin."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "4."
+        \column {
+          "Und in Tagen der Prüfung,"
+          "sei Du mir ein Fels,"
+          "so werde ich für Dich leben"
+          "und für Dich sterben."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "5."
+        \column {
+          "Und wenn ich ein Bewohner"
+          "der unsichtbaren Welt werde,"
+          "oh, mein geliebter Meister,"
+          "gib mir Deinen Segen!"
+        }
+      }
+    }\hspace #0.1
   }
-    }
 }

@@ -58,6 +58,13 @@
           "erneuere uns bald!"
         }
       }
+        \vspace #1
+      \line {
+        \bold " "
+        \column {
+          \italic"  Refrain ..."
+        }
+      }
     }\hspace #0.1
   }
 }

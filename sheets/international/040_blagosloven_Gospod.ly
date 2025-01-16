@@ -53,7 +53,7 @@
 
       } % score
 
-      \markup \empty-two
+      \markup \vspace #2
 
       % include foreign translation(s) of the song
       \include "../../lyrics/de/040_blagosloven_Gospod_lyrics_de.ly"

@@ -3,45 +3,43 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Atme tief" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
   \fill-line {
-    \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
+    \hspace #0.1
     \column {
-
-      \line { 1. Atme tief mit fröhlichem Herzen,}
-
-      \line { "   "und erfreue dich, Kind, am Leben.}
-
-      \line { "   "Die Luft ist für uns immer eine lebendige Kraft,}
-
-      \line { "   "atme, atme und atme wieder,}
-
-      \line { "   "atme, auf dass du gesund bleibst!}
+      \line {
+        \bold "1."
+        \column {
+          "Atme tief mit fröhlichem Herzen,"
+          "und erfreue dich, Kind, am Leben."
+          "Die Luft ist für uns immer eine lebendige Kraft,"
+          "atme, atme und atme wieder,"
+          "atme, auf dass du gesund bleibst!"
+        }
+      }
       \vspace #0.5
-      \line { 2. Wenn du, Kind, tief atmest,}
-
-      \line { "   " wirst du ein gesundes, gutes Herz haben.}
-
-      \line { "   "Ein gesundes Herz, einen guten Kreislauf,}
-
-      \line { "   "einen starken Magen, einen starken Körper}
-
-      \line { "   "wirst du, Kind, haben.}
+      \line {
+        \bold "2."
+        \column {
+          "Wenn du, Kind, tief atmest,"
+          " wirst du ein gesundes, gutes Herz haben."
+          "Ein gesundes Herz, einen guten Kreislauf,"
+          "einen starken Magen, einen starken Körper"
+          "wirst du, Kind, haben."
+        }
+      }
       \vspace #0.5
-      \line { 3. Wenn du, Kind, tief atmest,}
-
-      \line { "   "soll dein Körper aufgerichtet sein!}
-
-      \line { "   "Aufrechte Haltung, ein munterer Schritt,}
-
-      \line { "   "mit dem Blick immer vorwärts.}
-
-      \line { "   "Atme, atme und atme wieder,}
-
-      \line { "   "atme du überall.}
-
-
-    }
+      \line {
+        \bold "3."
+        \column {
+          "Wenn du, Kind, tief atmest,"
+          "soll dein Körper aufgerichtet sein!"
+          "Aufrechte Haltung, ein munterer Schritt,"
+          "mit dem Blick immer vorwärts."
+          "Atme, atme und atme wieder,"
+          "atme du überall."
+        }
+      }
+    }\hspace #0.1
   }
 }

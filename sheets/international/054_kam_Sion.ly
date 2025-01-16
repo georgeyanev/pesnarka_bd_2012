@@ -124,7 +124,7 @@
     } \"rightBraces054"
   } % markup
 
-  \markup \empty-two
+    \markup \vspace #2
   \include "../../lyrics/de/054_kam_sion_lyrics_de.ly"
 
 } % bookpart

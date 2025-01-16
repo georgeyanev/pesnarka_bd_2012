@@ -1,18 +1,21 @@
 \version "2.24.4"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Es kommen Tage der Freude" }
+\markup \fill-line { \fontsize #deTitleFontSize "Es kommen die Tage der Freude" }
 \markup \null
 \markup \null
-
-\markup \abs-fontsize #11 {
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,deCoupletBaselineSkip) {
   \fill-line {
-    \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
+    \hspace #0.1
     \column {
-      \line { " " Es kommen die Tage der Freude, es kommen die Tage der Freude,}
-
-      \line { " " es kommen die Tage der Freude, für diejenigen, die Gott dienen. }
-
-    }
+      \vspace #1
+      \line {
+        \bold "  "
+        \column {   
+      "Es kommen die Tage der Freude, es kommen die Tage der Freude,"
+      "es kommen die Tage der Freude, für diejenigen, die Gott dienen."
+     
+        }
+      }
+    }\hspace #0.1
   }
 }

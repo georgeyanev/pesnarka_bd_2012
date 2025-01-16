@@ -2,31 +2,34 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Das letzte Abendmahl" }
 \markup \null
-\markup \abs-fontsize #11 {
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
   \fill-line {
-    \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
+    \hspace #0.1
     \column {
-      \line {   1. Zun meri manu, }
-      \line {   "   " zun meri manun dana, }
-      \line {   "   " asavita vita nanda. }
-      \line {   "   " Zun meri manu, }
-      \line {   "   " zun meri manun dana, }
-
-      \line {   "   " asavita nanda. }
-      \vspace #0.5
-
-      \line {   2.  Alles ist hell, }
-
-      \line {   "   " alles ist durchlichtet }
-
-      \line {   "   " mit meinem lebendigen Licht [videlina]. }
-
-      \line {   "   " Zun meri manu, }
-
-      \line {   "   " zun meri manundana, }
-
-      \line {   "   " asavita nanda. }
+      \line {
+        \bold "1."
+        \column {
+          "Zun meri manu,"
+          "zun meri manun dana,"
+          "asavita vita nanda."
+          "Zun meri manu,"
+          "zun meri manun dana,"
+          "asavita nanda."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "2."
+        \column {
+          "Alles ist hell,"
+          "alles ist durchlichtet"
+          "mit meinem lebendigen Licht [videlina]."
+          "Zun meri manu,"
+          "zun meri manundana,"
+          "asavita nanda."
+        }
+      }
     }
+    \hspace #0.1
   }
 }

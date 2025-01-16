@@ -66,7 +66,7 @@
   \markup \dc-two "D.C." "con ripetizione"
 
 
-  \markup \empty-one
+  \markup \vspace #2
   % include foreign translation(s) of the song
   \include "../../lyrics/de/020_bratstvo_edinstvo_lyrics_de.ly"
 

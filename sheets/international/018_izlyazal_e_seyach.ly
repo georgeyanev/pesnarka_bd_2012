@@ -213,7 +213,7 @@
 
   }
 
-  \markup \vspace #3
+  \markup \vspace #2
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/018_izlyazal_e_seyach_lyrics_de.ly"

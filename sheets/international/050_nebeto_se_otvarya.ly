@@ -2,33 +2,16 @@
 
 % include paper part and global functions
 \include "include/globals.ily"
+
 "rightBraces050" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -7.5 )
-    \right-brace #20
-
-    \translate #'(0 . -11.3 )
-    \right-brace #20
-
-    \translate #'(0 . -12.0 )
-    \right-brace #20
-
-    \translate #'(0 . -11.0 )
+    \translate #'(0 . -7.8 )
     \right-brace #20
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -8.1 )
-    2
-
-    \translate #'(0 . -14.0 )
-    2
-
-    \translate #'(0 . -15.0 )
-    2
-
-    \translate #'(0 . -14.0 )
+    \translate #'(0 . -8.5 )
     2
   }
 }
@@ -76,89 +59,100 @@
 
   } % score
 
-  \markup \vspace #0.5
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+    \fill-line {
+      \hspace #0.1
+      \column {
+        \vspace #1
+        \line {
+          \bold "2."
+          \column {
+            "Христос отгоре слиза"
+            "във Своята държава"
+            "с могъщество и сила,"
+            "във всичката Си слава."
+          }\"rightBraces050"
+        }
+        \vspace #1
+        \line {
+          \bold "3."
+          \column {
+            "Елате, братя, всички,"
+            "облечени във бяло,"
+            "да Го посрещнем с радост,"
+            "тържествено и славно."
+          }\"rightBraces050"
+        }
+        \vspace #1
+        \line {
+          \bold "4."
+          \column {
+            "Той иде на земята"
+            "безкрайно да царува,"
+            "живот във Истината"
+            "на всички да дарува."
+          }\"rightBraces050"
+        }
+        \vspace #1
+        \line {
+          \bold "5."
+          \column {
+            "Благословено царство"
+            "на Бога Триединний"
+            "от сега и до века,"
+            "през всичките години."
+          }\"rightBraces050"
+        }
+      }
+      \hspace #0.1
+      % adds horizontal spacing between columns
+      \column {
+        % adds vertical spacing between verses
+        \vspace #1
+        \line {
+          \bold "2."
+          \column {
+            "Hristos otgore sliza"
+            "văv Svojata dăržava"
+            "s mogăštestvo i sila,"
+            "văv vsičkata Si slava."
+          }\"rightBraces050"
+        }
+        \vspace #1
+        \line {
+          \bold "3."
+          \column {
+            "Elate, bratja, vsički,"
+            "oblečeni văv bjalo,"
+            "da Go posreštnem s radost,"
+            "tăržestveno i slavno."
+          }\"rightBraces050"
+        }
+        \vspace #1
+        \line {
+          \bold "4."
+          \column {
+            "Toj ide na zemjata"
+            "bezkrajno da caruva,"
+            "život văv Istinata"
+            "na vsički da daruva."
+          }\"rightBraces050"
+        }
+        \vspace #1
+        \line {
+          \bold "5."
+          \column {
+            "Blagosloveno carstvo"
+            "na Boga Triedinnij"
+            "ot sega i do veka,"
+            "prez vsičkite godini."
+          }\"rightBraces050"
+        }
+      }\hspace #0.1
+    }
+  }
 
-  \markup \abs-fontsize #11 {
-    \hspace #10
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line {   2. Христос от Горе слиза}
-
-      \line {   "   " във Своята държава}
-
-      \line {   "   " с могъщество и сила,}
-
-      \line {   "   " във всичката Си слава.}
-      \vspace #0.5
-
-      \line {   3.  Елате, братя, всички,}
-
-      \line {   "   " облечени във бяло,}
-
-      \line {   "   " да Го посрещнем с радост,}
-
-      \line {   "   " тържествено и славно.}
-      \vspace #0.5
-
-      \line {   4.  Той иде на Земята}
-
-      \line {   "   " безкрайно да царува,}
-
-      \line {   "   " живот във Истината}
-
-      \line {   "   " на всички да дарува.}
-      \vspace #0.5
-
-      \line {  5.  Благословено царство}
-
-      \line {   "   " на Бога Триединний}
-
-      \line {   "   " от сега и до века,}
-
-      \line {   "   " през всичките години.  }
-    }   \"rightBraces050"
-
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line {   2. Hristos ot Gore sliza}
-
-      \line {   "   " văv Svojata dăržava}
-
-      \line {   "   " s mogăštestvo i sila,}
-
-      \line {   "   " văv vsičkata Si slava.}
-      \vspace #0.5
-
-      \line {   3.  Elate, bratja, vsički,}
-
-      \line {   "   " oblečeni văv bjalo,}
-
-      \line {   "   " da Go posreštnem s radost,}
-
-      \line {   "   " tăržestveno i slavno.}
-      \vspace #0.5
-
-      \line {   4.  Toj ide na Zemjata}
-
-      \line {   "   " bezkrajno da caruva,}
-
-      \line {   "   " život văv Istinata}
-
-      \line {   "   " na vsički da daruva.}
-      \vspace #0.5
-      \line {  5.  Blagosloveno carstvo}
-
-      \line {   "   " na Boga Triedinnij}
-
-      \line {   "   " ot sega i do veka,}
-
-      \line {   "   " prez vsičkite godini.  }
-    }  %column
-    \"rightBraces050"
-  } % markup
-
-  \markup \vspace #0.8
+  \markup \vspace #1
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/050_nebeto_se_otvarya_lyrics_de.ly"

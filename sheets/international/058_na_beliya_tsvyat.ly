@@ -73,7 +73,7 @@
     }
 
     \addlyrics {
-       \set stanza = "1." На -- го -- ре о -- ще да вър -- вим, към вър -- хо -- ве -- те бе --
+      \set stanza = "1." На -- го -- ре о -- ще да вър -- вим, към вър -- хо -- ве -- те бе --
       ли, е -- фи -- ра бял да поз -- дра -- вим и снеж -- ни -- те крис --
       та -- ли, е -- ли. Ху -- бост -- та на Бо -- жи свят,
       бе -- ли -- на -- та, наш е цвят;  веч -- на си -- ла и --
@@ -226,7 +226,7 @@
   } % markup
 
   % include foreign translation(s) of the song
-  \markup \vspace #3
+  \markup \vspace #2
   \include "../../lyrics/de/058_na_beliya_tsvyat_lyrics_de.ly"
 
 } % bookpart

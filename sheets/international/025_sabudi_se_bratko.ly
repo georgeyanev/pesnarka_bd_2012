@@ -162,7 +162,7 @@
     \"rightBraces025"
   } % markup
 
-  \markup \vspace #3
+  \markup \vspace #2
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/025_sabudi_se_bratko_lyrics_de.ly"

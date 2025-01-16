@@ -77,7 +77,7 @@
 
 
 
-  \markup \empty-three
+  \markup \vspace #2
   % include foreign translation(s) of the song
   \include "../../lyrics/de/024_blagoslavyay_lyrics_de.ly"
 

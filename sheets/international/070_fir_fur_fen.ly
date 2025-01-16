@@ -69,7 +69,7 @@
 
       \markup \dc-two "D.C. al Fine" "senza ripetizioni"
 
-
+\markup \vspace #2
 
       % include foreign translation(s) of the song
       \include "../../lyrics/de/070_fir_fyur_fen_lyrics_de.ly"

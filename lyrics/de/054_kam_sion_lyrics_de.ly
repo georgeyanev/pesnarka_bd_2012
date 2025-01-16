@@ -3,61 +3,54 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Nach Zion" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-
-    \line { 1. Mit Adlerschwingen,  }
-
-    \line { "   "  unser geliebtes Zion, }
-
-    \line { "   "  fliegen wir heute zielstrebig }
-
-    \line { "   " gemeinsam zu dir.}
-     \vspace #0.5
-
-    \line {  "   "  "   " Der Tod erschreckt uns nicht mehr, }
-
-    \line {  "   "  "   " in uns lebt heiliger Geist, }
-
-    \line {  "   "  "   " gleichermaßen erfreuen uns }
-
-    \line {  "   "  "   " das Diesseits und das Jenseits.}
-
-
-
-
-
-
-
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,deCoupletBaselineSkip) {
+  \fill-line {
+    
+    \column {
+      \line {
+        \bold "1."
+        \column {
+          "Mit Adlerschwingen,"
+          "unser geliebtes Zion,"
+          "fliegen wir heute zielstrebig"
+          "gemeinsam zu dir."
+        }
+      }
+      \vspace #1
+     
+      \line {
+        \bold "   "
+        \column {
+          "   Der Tod erschreckt uns nicht mehr,"
+          "   in uns lebt heiliger Geist,"
+          "   gleichermaßen erfreuen uns"
+          "   das Diesseits und das Jenseits."
+        }
+      }
+      \vspace #1
+    }
+    \column {
+      \vspace #1
+      \line {
+        \bold "2."
+        \column {
+          "Über das Fleisch werden wir siegen"
+          "mit Mut und mit neuer Heldentat,"
+          "die Herzen werden wir zum Schmelzen"
+          "bringen mit der Liebe Christi."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "   "
+         \column {
+           "   Erstrahle, heiliges Zion,"
+           "   schnell fliegen wir schon."
+           "   Vor dem Gott in dir werden wir"
+           "   uns bald mit Geist verneigen."
+         }
+      }
+    }
   }
-
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-
-
-    \line { 2. Über das Fleisch werden wir siegen}
-
-    \line { "   "mit Mut und mit neuer Heldentat, }
-
-    \line { "   " die Herzen werden wir zum Schmelzen }
-
-    \line { "   " bringen mit der Liebe Christi.}
-
- \vspace #0.5
-    \line {  "   "  "   " Erstrahle, heiliges Zion,}
-
-    \line { "   "  "   " schnell fliegen wir schon.}
-
-    \line { "   " "   " Vor dem Gott in dir werden wir }
-
-    \line { "   "  "   "uns bald mit Geist verneigen.}
-
-
-  }
-
 }
 

@@ -36,7 +36,7 @@
 
 
     \addlyrics {
-       \set stanza = "1." Mi -- lo -- săr -- di -- e -- to e gra -- di -- na raj --
+      \set stanza = "1." Mi -- lo -- săr -- di -- e -- to e gra -- di -- na raj --
       ska, čud -- no pre -- me -- ne -- na, păl -- na
       s~hu -- bost maj -- ska. Bil -- ki i dăr -- ve --
       ta, v~kra -- so -- ta raz -- vi -- ti, s~i -- zo
@@ -55,96 +55,109 @@
 
   \markup \empty-two
 
-  \markup \abs-fontsize #11 {
-    \hspace #20
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line {2. Всичко драго, мило и в любов живее,}
+ 
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+    \fill-line {
 
-      \line {"   "и цъфти, и върже, и расте, и зрее  –}
+      \column {
+        \vspace #1
+        \line {
+          \bold "2."
+          \column {
+            "Всичко драго, мило и в любов живее,"
+            "и цъфти, и върже, и расте, и зрее  –"
+            "пролет, лято, есен и през цяла зима,"
+            "откогато хора на земята има. (2)"
+          }
+        }
 
-      \line {"   "пролет, лято, есен и през цяла зима,}
+        \vspace #1
+        \line {
+          \bold "3."
+          \column {
+            "И щом пътник морен мине край градина,"
+            "всяко живо клонче весело му кима –"
+            "плодове узрели без корист предлага"
+            "с непресторна нега и усмивка блага. (2)"
+          }
+        }
 
-      \line {"   "откогато хора на Земята има. (2)}
-      \vspace #0.5
+        \vspace #1
+        \line {
+          \bold "4."
+          \column {
+            "Бедни и богати, здрави или болни"
+            "и по всяко време тука са доволни,"
+            "че сменяват в радост грижите, хомота"
+            "и с утеха виждат смисъл във живота. (2)"
+          }
+        }
+        \vspace #1
 
-      \line {2. Vsičko drago, milo i v ljubov živee,}
+        \line {
+          \bold "5."
+          \column {
+            "Затуй, който дири истинска победа,"
+            "рай такъв прекрасен нека си отгледа!"
+            "Няма да се свърши щастие за него,"
+            "ще го благославят и земя, и небо. (2)"
+          }
+        }
+      }
 
-      \line {"   "i căfti, i vărže, i raste, i zree  –}
+      % adds horizontal spacing between columns
+      \column {
+        % adds vertical spacing between verses
 
-      \line {"   "prolet, ljato, esen i prez cjala zima,}
+        \vspace #1
 
-      \line {"   "otkogato hora na Zemjata ima. (2)}
-      \vspace #0.5
+        \line {
+          \bold "2."
+          \column {
+            "Vsičko drago, milo i v ljubov živee,"
+            "i căfti, i vărže, i raste, i zree  –"
+            "prolet, ljato, esen i prez cjala zima,"
+            "otkogato hora na zemjata ima. (2)"
+          }
+        }
 
-      \line {3. И щом пътник морен мине край градина,}
+        \vspace #1
 
-      \line {"   "всяко живо клонче весело му кима –}
+        \line {
+          \bold "3."
+          \column {
+            "I štom pătnik moren mine kraj gradina,"
+            "vsjako živo klonče veselo mu kima –"
+            "plodove uzreli bez korist predlaga"
+            "s neprestorna nega i usmivka blaga. (2)"
+          }
+        }
+        \vspace #1
 
-      \line {"   "плодове узрели без корист предлага}
-
-      \line {"   "с непресторна нега и усмивка блага. (2)}
-      \vspace #0.5
-      \line {3. I štom pătnik moren mine kraj gradina,}
-
-      \line {"   "vsjako živo klonče veselo mu kima –}
-
-      \line {"   "plodove uzreli bez korist predlaga}
-
-      \line {"   "s neprestorna nega i usmivka blaga. (2)}
-      \vspace #0.5
-
-      \line {4. Бедни и богати, здрави или болни }
-
-      \line {"   "и по всяко време тука са доволни, }
-
-      \line {"   "че сменяват в радост грижите, хомота }
-
-      \line {"   " и с утеха виждат смисъл във живота. (2) }
-
-
+        \line {
+          \bold "4."
+          \column {
+            "Bedni i bogati, zdravi ili bolni"
+            "i po vsjako vreme tuka sa dovolni,"
+            "če smenjavat v radost grižite, homota"
+            "i s uteha viždat smisăl văv života. (2)"
+          }
+        }
+        \vspace #1
+        \line {
+          \bold "5."
+          \column {
+            "Zatuj, kojto diri istinska pobeda,"
+            "raj takăv prekrasen neka si otgleda!"
+            "Njama da se svărši štastie za nego,"
+            "šte go blagoslavjat i zemja, i nebo. (2)"
+          }
+        }
+      }
     }
-
-
-  } % markup
+  }
 
   \pageBreak
-
-  \markup \fontsize #bgCoupletFontSize {
-    \hspace #20
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line {4. Bedni i bogati, zdravi ili bolni }
-
-      \line {"   "i po vsjako vreme tuka sa dovolni, }
-
-      \line {"   "če smenjavat v radost grižite, homota }
-
-      \line {"   " i s uteha viždat smisăl văv života. (2) }
-      \vspace #0.5
-
-      \line {5. Затуй, който дири истинска победа,}
-
-      \line {"   "рай такъв прекрасен нека си отгледа!}
-
-      \line {"   "Няма да се свърши щастие за него,}
-
-      \line {"   "ще го благославят и Земя, и Небо. (2)}
-      \vspace #0.5
-      \line {5. Zatuj, kojto diri istinska pobeda,}
-
-      \line {"   "raj takăv prekrasen neka si otgleda!}
-
-      \line {"   "Njama da se svărši štastie za nego,}
-
-      \line {"   "šte go blagoslavjat i Zemja, i Nebo. (2)}
-    }
-
-
-  } % markup
-
-
-  \markup \vspace #3
 
   % include foreign translation(s) of the song
   \include "../../lyrics/de/038_milosardieto_lyrics_de.ly"

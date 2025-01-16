@@ -65,7 +65,7 @@
 
       } % score
 
-      \markup \empty-two
+      \markup \vspace #2
 
       \include "../../lyrics/de/041_za_nebesnija_zar_lyrics_de.ly"
 
