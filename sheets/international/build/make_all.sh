@@ -53,6 +53,7 @@ cat \
     ../063_dishay_dalboko.ly \
     ../064_angel_vopiyashe.ly \
     ../067_pesen_na_glasnite_bukvi.ly \
+    ../190_glasat_na_zhiviya_Gospod.ly \
     ../068_shto_e_sashtnostta.ly \
     ../005_blank_page.ly \
     ../069_pesni_ot_Uchitelya.ly \
@@ -153,7 +154,6 @@ cat \
     ../178_molitva.ly \
     ../185_melodiya_i_krasiv_zhivot_186_melodia_2.ly \
     ../188_melodiya_3_4.ly \
-    ../190_glasat_na_zhiviya_Gospod.ly \
     ../191_nb_parvi_bozhestven_den.ly \
     ../192_nb_vtori_bozhestven_den.ly \
     ../193_194_nb_treti_bozhestven_den_chetvarti_bozhestven_den.ly \

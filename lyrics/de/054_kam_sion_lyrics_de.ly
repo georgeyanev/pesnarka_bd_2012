@@ -30,7 +30,7 @@
       \vspace #1
     }
     \column {
-      \vspace #1
+     
       \line {
         \bold "2."
         \column {
