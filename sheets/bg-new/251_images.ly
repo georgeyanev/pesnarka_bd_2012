@@ -69,9 +69,10 @@
 
   \markup { {  \vspace #0.1 } }
 
-  \markup \abs-fontsize #11 { \fill-line  {"Грфика на музикалния пентаграм, направена от Лилиана Табакова"} }
+  \markup \abs-fontsize #11 { \fill-line  {"Музикалния пентаграм, направен от Л. Табакова по идеи на Учителя"} }
+
   \pageBreak
-  \markup { {  \vspace #3 } }
+
 
   \markup {
     \fill-line
