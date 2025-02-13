@@ -8,28 +8,23 @@
     print-all-headers = ##t
     print-page-number = ##t
     print-first-page-number = ##f
-    page-number-type = #'roman-upper
+    % page-number-type = #'roman-upper
 
 
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup {
-
-      \fill-line {
-        """"
-        \if \should-print-page-number  \abs-fontsize #9 {
-          \fromproperty #'page:page-number-string
-
-        }
-      }
+    % put page numbers on the top and change the font style.
+    oddHeaderMarkup = \markup
+    \fill-line {
+      ""
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
     }
-    evenHeaderMarkup = \markup {
-
-      \fill-line {
-        \if \should-print-page-number \abs-fontsize #9 {
-          \fromproperty #'page:page-number-string
-          ""
-        }
-      }
+    %% evenHeaderMarkup would inherit the value of
+    %% oddHeaderMarkup if it were not defined here
+    evenHeaderMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
+      ""
     }
 
     oddFooterMarkup = \markup ""
@@ -51,9 +46,9 @@
        (stretchability . 12))
   }
 
-  
+
   \markup \abs-fontsize #11 {
-      \override #'(baseline-skip . 3.4)
+    \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
 
@@ -61,15 +56,15 @@
 
     }
   }
- \markup \abs-fontsize #11 {
+  \markup \abs-fontsize #11 {
     \vspace #0.9  \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
       Природата във всяко направление работи музикално. Няма по-велико изкуство, по-велика музика от изкуството и музиката на природата. Който спазва законите на природата, може да стане певец.
     }
   }
-  
-   \markup \abs-fontsize #11 {
+
+  \markup \abs-fontsize #11 {
     \vspace #0.9  \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
@@ -120,7 +115,7 @@
       По какво се отличава окултната музика от обикновената? По своята крайна мекота, яснота, картинност и природни образи.
     }
   }
-  
+
   \markup \abs-fontsize #11 {
     \vspace #0.9  \override #'(baseline-skip . 3.4)
     \justify {
@@ -158,8 +153,8 @@
 
     }
   }
-  
-    \markup \abs-fontsize #11 {
+
+  \markup \abs-fontsize #11 {
     \vspace #0.9  \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
@@ -169,21 +164,21 @@
     }
   }
   \markup \abs-fontsize #11 {
-     \override #'(baseline-skip . 3.4)
+    \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
       Музиката има несъизмерими тонове и преливане в тактове. Обаче всички онези процеси, които са съзнателни, те са несъизмерими, те са под нашата власт, ние боравим с тях. И тъй, всички наши идеи трябва да са несъизмерими!
     }
   }
-  
-   \markup \abs-fontsize #11 {
+
+  \markup \abs-fontsize #11 {
     \vspace #0.9  \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
       И тъй, когато дойдем до несъизмеримите и съизмеримите неща, трябва да знаем, че те са две идеи в живота, които напълно се различават. Мъдростта, Истината, всички добродетели са несъизмерими величини.
     }
   }
-  
+
   \markup \abs-fontsize #11 {
     \vspace #0.9  \override #'(baseline-skip . 3.4)
     \justify {
@@ -192,7 +187,7 @@
 
     }
   }
-  
+
   \markup \abs-fontsize #11 {
     \vspace #0.9  \override #'(baseline-skip . 3.4)
     \justify {
@@ -201,16 +196,17 @@
       Как ще преведете сега тази мелодия [Имаше человек]? Тя спада към несъизмеримите величини. Ако тя би се изпяла другояче, на тактове, щеше да излезе друго нещо от нея. Не че в окултните песни няма тактове, но всякога, когато вие искате да дадете израз на една окултна песен, непременно трябва да вложите в нея несъизмеримите тактове, т.е. такива тактове, които да не са точно определени в ума ви. В тази песнич-
     }
   }
-  
-    \markup \abs-fontsize #11 {
+
+  \markup \abs-fontsize #11 {
     \vspace #0.9  \override #'(baseline-skip . 3.4)
     \justify {
-     
-      ка няма да гледам тактовете, а смисъла. Когато тактовете в една песен вземат надмощие, песента изгубва своя смисъл. Тактът трябва да бъде вътре. Той е една несъизмерима мярка. 
-      
-    }}
-    
-    \markup \abs-fontsize #11 {
+
+      ка няма да гледам тактовете, а смисъла. Когато тактовете в една песен вземат надмощие, песента изгубва своя смисъл. Тактът трябва да бъде вътре. Той е една несъизмерима мярка.
+
+    }
+  }
+
+  \markup \abs-fontsize #11 {
     \vspace #0.9 \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
@@ -218,8 +214,8 @@
 
     }
   }
-  
-   \markup \abs-fontsize #11 {
+
+  \markup \abs-fontsize #11 {
     \vspace #0.9  \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
@@ -238,5 +234,5 @@
 
     }
   }
-  
-  }
+
+}
