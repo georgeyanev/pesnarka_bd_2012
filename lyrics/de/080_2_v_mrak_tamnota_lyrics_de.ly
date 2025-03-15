@@ -4,24 +4,23 @@
 \markup \null
 \markup \null
 
-\markup \abs-fontsize #11 {
-      \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-    \line { " " Das Leben war in Finsternis und Dunkelheit. }
-
-    \line { " " Aber die Sonne des Lebens leuchtete auf in uns.}
-
-    \line { " " Und wir gingen auf den Weg, rein und heilig für uns.}
-    \line { " " Und wir gingen auf den Weg, rein und heilig für uns.}
-
-    \line { " " Rein und heilig für uns,}
-
-    \line { " "rein und heilig für uns, }
-    \line { " " rein und heilig für uns. }
-
-  }
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "  "
+        \column {
+          "Das Leben war in Finsternis und Dunkelheit."
+          "Aber die Sonne des Lebens leuchtete auf in uns."
+          "Und wir gingen auf den Weg, rein und heilig für uns."
+          "Und wir gingen auf den Weg, rein und heilig für uns."
+          "Rein und heilig für uns,"
+          "rein und heilig für uns,"
+          "rein und heilig für uns."
+        }
       }
 
+    }\hspace #0.1
+  }
 }

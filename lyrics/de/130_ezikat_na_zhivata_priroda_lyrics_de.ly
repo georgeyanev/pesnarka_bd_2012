@@ -1,96 +1,119 @@
+
 \version "2.24.4"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Die Sprache der lebendigen Natur" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold " "
+        \column {
+          "Furchtbar war der Wind,"
 
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+          "der den Wald durchschüttelte."
 
-  \column {
+          "Furchtbar und stark war er."
 
+          "Alle Blätter raschelten,"
 
- \line { " " Furchtbar war der Wind,}
+          "sie raschelten und beteten:"
 
- \line { " " der den Wald durchschüttelte.}
+          "„Höre auf, Wind, höre auf Wind,"
 
- \line { " " Furchtbar und stark war er.}
+          "freier Frühlingswind."
+        }
+      }
 
- \line { " " Alle Blätter raschelten,}
+      \vspace #1
 
- \line { " " sie raschelten und beteten:}
+      \line {
+        \bold " "
+        \column {
 
- \line { " " „Höre auf, Wind, höre auf Wind,}
+          "Hast du kein Mitleid mit uns?"
 
- \line { " " freier Frühlingswind.}
-  \vspace #0.5
+          "Höre auf, wehe nicht!"
 
- \line { " " Hast du kein Mitleid mit uns?}
+          "Erst in diesem Jahr"
 
- \line { " " Höre auf, wehe nicht!}
+          "kamen wir hier zu Besuch."
 
- \line { " " Erst in diesem Jahr }
- 
- \line { " " kamen wir hier zu Besuch.}
+          "Wehe nicht, oh Wind,"
 
- \line { " " Wehe nicht, oh Wind, }
- 
- \line { " " wir werden herunterfallen.}
+          "wir werden herunterfallen."
 
- \line { " " Unsere Rippen werden brechen.“}
+          "Unsere Rippen werden brechen.“"
+        }
+      }
 
-  \vspace #0.5
+      \vspace #1
 
- \line { " " „Hier seid ihr kleine Blättchen, }
+      \line {
+        \bold " "
+        \column {
+          "„Hier seid ihr kleine Blättchen,"
 
- \line { " " ich hörte von ferne von euch}
+          "ich hörte von ferne von euch"
 
- \line { " " und kam, euch zu sehen,}
+          "und kam, euch zu sehen,"
 
- \line { " " mit euch zu spielen }
- 
-  \line { " "und euch zu umwehen.}
+          "mit euch zu spielen"
 
-  }
+          "und euch zu umwehen."
+        }
+      }
+    }
+    \hspace #0.1
+    % adds horizontal spacing between columns
+    \column {
+      \line {
+        \bold " "
+        \column {
 
-   \hspace #5
-   \override #`(baseline-skip . ,deCoupletBaselineSkip)
+          "Dann hört mein Lied:"
 
-  \column {
+          "Nach mir kommt mein treuer Freund,"
 
- \line { " " Dann hört mein Lied:}
+          "der Nieselregen."
 
- \line { " " Nach mir kommt mein treuer Freund,}
+          "Er wird den Acker gießen,"
 
- \line { " " der Nieselregen.}
+          "und ihn für Spiele vorbereiten."
 
- \line { " " Er wird den Acker gießen,}
+          "Damit kein Staub aufsteigt, ihr Blätter,"
 
- \line { " " und ihn für Spiele vorbereiten.}
+          "bei diesen fröhlichen Spielen."
+        }
+      }
 
- \line { " " Damit kein Staub aufsteigt, ihr Blätter,}
+      \vspace #1
 
- \line { " " bei diesen fröhlichen Spielen.}
+      \line {
+        \bold " "
+        \column {
 
-  \vspace #0.5
+          "Von oben wird die Sonne "
 
- \line { " " Von oben wird die Sonne }
- 
- \line { " "  beginnen zu scheinen,}
+          " beginnen zu scheinen,"
 
- \line { " " und uns bescheinen und wärmen,}
+          "und uns bescheinen und wärmen,"
 
- \line { " " damit wir dann tanzen, }
+          "damit wir dann tanzen,"
 
- \line { " " damit wir essen, }
+          "damit wir essen,"
 
- \line { " " damit wir reines Wasser trinken}
+          "damit wir reines Wasser trinken"
 
- \line { " " und in Freude auseinandergehen.}
+          "und in Freude auseinandergehen."
 
- \line { " " Auf dass wir uns wieder treffen}
+          "Auf dass wir uns wieder treffen"
 
- \line { " " und gut mit Liebe verstehen.“}
-
+          "und gut mit Liebe verstehen.“"
+        }
+      }
+    }\hspace #0.1
   }
 }

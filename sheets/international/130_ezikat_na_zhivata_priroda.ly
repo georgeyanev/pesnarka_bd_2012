@@ -5,8 +5,8 @@
 \bookpart {
   \label #'ref130
   \tocItem \markup "Езикът на живата природа – Ezikăt na živata priroda"
-   \paper {
-    print-all-headers = ##t
+  \paper {
+    print-all-headers = ##t 
     print-page-number = ##t
     print-first-page-number = ##t
 

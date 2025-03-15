@@ -3,66 +3,84 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Freude und Gram" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-      \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold " "
+        \column {
+          "Ich habe über dich, Gram, gehört,"
+          "dass du grausam wärst,"
+          "dass du Leid zufügst."
+          "Weißt du nicht,"
+          "dass ich ein armer Fremder bin?"
+          "Sage mir, was du von mir willst,"
+          "sage es mir!"
+          "Sage mir, was du von mir willst,"
+          "ich muss es wissen!"
+        }
+      }
 
-  \column {
+      \vspace #1
 
-    \line { " " Ich habe über dich, Gram, gehört,   }
-    \line { " " dass du grausam wärst,   }
-    \line { " " dass du Leid zufügst.   }
-    \line { " " Weißt du nicht,  }
-    \line { " " dass ich ein armer Fremder bin?   }
-    \line { " " Sage mir, was du von mir willst,   }
-    \line { " " sage es mir!  }
-    \line { " " Sage mir, was du von mir willst,   }
-    \line { " " ich muss es wissen!  }
+      \line {
+        \bold " "
+        \column {
+          "„Schwerlich kann mich"
+          "jemand lieben."
+          "Dort ist der Gram!"
+          "Wer mich liebt [običam]"
+          "und mich gut empfängt,"
+          "nur der kann das Leben verstehen."
+        }
+      }
 
-    \vspace #0.5
+      \vspace #1
 
-    \line { " " „Schwerlich kann mich}
-    \line { " "  jemand lieben.   }
-    \line { " " Dort ist der Gram!  }
-    \line { " " Wer mich liebt [običam] }
-    \line { " " und mich gut empfängt,  }
-    \line { " " nur der kann das Leben verstehen.   }
+      \line {
+        \bold " "
+        \column {
+          "Schwierig und steil ist der Weg,"
+          "auf dem ich gehe."
+          "Schwerlich kann mir dort jemand folgen"
+          "und für den Sterblichen"
+          "ist das fast unmöglich."
+        }
+      }
+    }
+    \hspace #0.1
+    % adds horizontal spacing between columns
+    \column {
+      \line {
+        \bold " "
+        \column {
+          "Liebt mich jedoch jemand und"
+          "denkt gut über mich,"
+          "wird er ein Bürger aus einer"
+          "vollkommen anderen Welt sein.“"
+        }
+      }
 
-    \vspace #0.5
+      \vspace #1
 
-    \line { " " Schwierig und steil ist der Weg,   }
-    \line { " " auf dem ich gehe.   }
-    \line { " " Schwerlich kann mir dort jemand folgen   }
-    \line { " " und für den Sterblichen   }
-    \line { " " ist das fast unmöglich.  }
-
-
+      \line {
+        \bold " "
+        \column {
+          "Freude und Gram, das sind Wege,"
+          "das große Leben zu verstehen."
+          "Die Liebe schätzt sie beide gleichermaßen."
+          "Gram und Freude: es ist gleich,"
+          "Gram und Freude: es ist gleich,"
+          "wenn Liebe in ihnen herrscht."
+          "Die Gerechtigkeit wird im Gram geschätzt"
+          "und das Gute in der Freude."
+          "Empfangen wir sie"
+          "und gehen gemeinsam vorwärts."
+          "Die Liebe schätzt sie beide gleichermaßen."
+        }
+      }
+    }\hspace #0.1
   }
-
-\hspace #-5
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-  \column {
-
-    \line { " " Liebt mich jedoch jemand und   }
-    \line { " " denkt gut über mich,  }
-    \line { " " wird er ein Bürger aus einer }
-    \line { " " vollkommen anderen Welt sein.“}
-
-    \vspace #0.5
-
-    \line { " " Freude und Gram, das sind Wege,   }
-    \line { " " das große Leben zu verstehen.   }
-    \line { " " Die Liebe schätzt sie beide gleichermaßen.  }
-    \line { " " Gram und Freude: es ist gleich,  }
-    \line { " " Gram und Freude: es ist gleich,  }
-    \line { " " wenn Liebe in ihnen herrscht.  }
-    \line { " " Die Gerechtigkeit wird im Gram geschätzt  }
-    \line { " " und das Gute in der Freude.   }
-    \line { " " Empfangen wir sie   }
-    \line { " " und gehen gemeinsam vorwärts.  }
-    \line { " " Die Liebe schätzt sie beide gleichermaßen.  }
-
-  }
-
 }
-}
+

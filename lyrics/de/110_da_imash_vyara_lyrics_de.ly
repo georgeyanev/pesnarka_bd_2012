@@ -3,19 +3,20 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Habe Glauben" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-    \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column { 
-    \line { " " Habe Glauben, Glauben,}
-    \line { " " Habe Glauben, Glauben,}
-    \line { " " Habe Glauben, Glauben,}
-    \line { " " Habe Glauben, Glauben, Glauben. }
-    \line { " " Habe Glauben, Glauben, Glauben. }
-
-
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold " "
+        \column {
+          "Habe Glauben, Glauben,"
+          "Habe Glauben, Glauben,"
+          "Habe Glauben, Glauben,"
+          "Habe Glauben, Glauben, Glauben."
+          "Habe Glauben, Glauben, Glauben."
+        }
+      }
+    }\hspace #0.1
   }
-
-    }
 }

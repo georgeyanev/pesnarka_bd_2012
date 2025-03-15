@@ -3,38 +3,28 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Das gelobte Land" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-      \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-
- \line { " " Tage des Leides und des Kummers}
-
- \line { " " haben meine Seele durchdrungen,}
-
- \line { " " Wogen und Stürme haben sie überschwemmt.}
-
- \line { " " Aber mein Geist des Lebens}
-
- \line { " " hat sich mit Kraft und Stärke über sie erhoben.}
-
- \line { " " Ins Gelobte Land bin ich }
-
- \line { " " als Reisender aufgebrochen  – }
-
- \line { " " dorthin, wo die Quellen sprudeln,}
-
- \line { " " wo die Flüsse fließen, }
-
- \line { " " wo die Früchte reifen,}
-
- \line { " " wo die Vögel singen.}
-
- \line { " " Dort, wo die Menschen brüderlich leben;}
-
- \line { " " dort, wo die Liebe herrscht.}
-
-  }
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,deCoupletBaselineSkip){
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold " "
+        \column {
+          "Tage des Leides und des Kummers"
+          "haben meine Seele durchdrungen,"
+          "Wogen und Stürme haben sie überschwemmt."
+          "Aber mein Geist des Lebens"
+          "hat sich mit Kraft und Stärke über sie erhoben."
+          "Ins Gelobte Land bin ich"
+          "als Reisender aufgebrochen  –"
+          "dorthin, wo die Quellen sprudeln,"
+          "wo die Flüsse fließen,"
+          "wo die Früchte reifen,"
+          "wo die Vögel singen."
+          "Dort, wo die Menschen brüderlich leben;"
+          "dort, wo die Liebe herrscht."
+        }
       }
+    }\hspace #0.1
+  }
 }

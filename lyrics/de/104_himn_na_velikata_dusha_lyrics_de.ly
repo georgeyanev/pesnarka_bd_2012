@@ -3,47 +3,43 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Hymne an die große Seele" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-     \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column { 
-    \line { " "Die Sonne scheint, hell ist es überall, }
-
-    \line { " "die Erde ist in ein warmes Gewand gehüllt. }
-
-    \line { " "Sie erweckt alles Lebendige; }
-
-    \line { " "das Wasser fließt, das Gras sprießt, }
-
-    \line { " " ein frischer Windhauch weht überall. }
- \vspace #0.5
-
-    \line { " "Alles bewegt sich, kriecht und krabbelt.}
-
-    \line { " "Die Vögel flattern, die Rehe laufen }
-
-    \line { " "und der Wind weht und der Mensch steht still}
-
-    \line { " "und denkt nach, was er tun soll. }
-    
- \vspace #0.5
-    \line { " "Es erklingt ein fröhliches Lied:}
-
-    \line { " "„Groß bist Du, oh Herr, groß sind Deine Werke, }
-
-    \line { " " groß ist Dein Name über allem!}
-  
-
-    \line { " "Du herrschst in der Kraft und im Leben,}
-
-    \line { " "im Wissen, in der Weisheit, der Wahrheit und der Liebe.}
-    
-
-    \line { " "Groß bist Du, oh Herr, groß sind Deine Werke, }
-
-    \line { " "groß ist Dein Name über allem!“}
-
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "  "
+        \column {
+          "Die Sonne scheint, hell ist es überall,"
+          "die Erde ist in ein warmes Gewand gehüllt."
+          "Sie erweckt alles Lebendige;"
+          "das Wasser fließt, das Gras sprießt,"
+          "ein frischer Windhauch weht überall."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "  "
+        \column {
+          "Alles bewegt sich, kriecht und krabbelt."
+          "Die Vögel flattern, die Rehe laufen"
+          "und der Wind weht und der Mensch steht still"
+          "und denkt nach, was er tun soll."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "  "
+        \column {
+          "Es erklingt ein fröhliches Lied:"
+          "„Groß bist Du, oh Herr, groß sind Deine Werke,"
+          "groß ist Dein Name über allem!“"
+          "Du herrschst in der Kraft und im Leben,"
+          "im Wissen, in der Weisheit, der Wahrheit und der Liebe."
+          "Groß bist Du, oh Herr, groß sind Deine Werke,"
+          "groß ist Dein Name über allem!“"
+        }
+      }
+    }\hspace #0.1
   }
-     }
 }

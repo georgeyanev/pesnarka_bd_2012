@@ -4,34 +4,25 @@
 \markup \null
 \markup \null
 
-\markup \abs-fontsize #11 {
-     \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-       
-  \line { " "Geist Gottes, ewiger Geist,  }
-
-  \line { " "heiliger Geist, gütiger Geist,   }
-
-  \line { " "Wer/Er* erfüllt unsere Herzen mit Liebe,   }
-
-  \line { " "Wer erfüllt unsere Herzen mit Liebe?!  }
-
-  \line { " "Wer erfüllt, Wer erfüllt, Wer erfüllt,  }
-
-  \line { " "Wer erfüllt unsere Herzen mit Liebe,  }
-
-  \line { " "Wer erfüllt unsere Herzen mit Liebe.  }
-
-
-  \line { " "Mit Liebe, mit Liebe, mit Liebe.  }
-
-  \line { " "Wer erfüllt unsere Herzen mit Liebe,  }
-
-  \line { " "Wer erfüllt unsere Herzen mit Liebe?!  }
-       
-    }
-     } 
-    
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "  "
+        \column {
+          "Geist Gottes, ewiger Geist,"
+          "heiliger Geist, gütiger Geist,"
+          "Wer/Er* erfüllt unsere Herzen mit Liebe,"
+          "Wer erfüllt unsere Herzen mit Liebe?!"
+          "Wer erfüllt, Wer erfüllt, Wer erfüllt,"
+          "Wer erfüllt unsere Herzen mit Liebe,"
+          "Wer erfüllt unsere Herzen mit Liebe."
+          "Mit Liebe, mit Liebe, mit Liebe."
+          "Wer erfüllt unsere Herzen mit Liebe,"
+          "Wer erfüllt unsere Herzen mit Liebe?!"
+        }
+      }
+    }\hspace #0.1
+  }
 }

@@ -1,32 +1,36 @@
 \version "2.24.4"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Ruf des Gebirges" }
-
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-      \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column { 
-    \line { 1. Und ich hüpfe wie ein Vöglein von Ast zu Ast, }
-
-  \line {   "   "  so dass sich jeder wundert, }
-
-   \line {   "   "  wenn er mich sieht.}
-    \vspace #0.5
-
-    \line { 2.  Ich stimme ein wunderbares Lied über die Sonne an,}
-
-     \line {   "   "  klare kleine Quellen beginnen zu murmeln.}
-   \vspace #0.5
-
-    \line { 3. Und ich sehe einen steilen Gipfel vor mir:}
-
-   \line {   "   "  Er ruft mich leise dort hinauf. }
-
-
-  }
-
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "1."
+        \column {
+          "Und ich hüpfe wie ein Vöglein von Ast zu Ast,"
+          "so dass sich jeder wundert,"
+          "wenn er mich sieht."
+        }
       }
+      \vspace #1
+      \line {
+        \bold "2."
+        \column {
+          "Ich stimme ein wunderbares Lied über die Sonne an,"
+          "klare kleine Quellen beginnen zu murmeln."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "3."
+        \column {
+          "Und ich sehe einen steilen Gipfel vor mir:"
+          "Er ruft mich leise dort hinauf."
+        }
+      }
+    }\hspace #0.1
+  }
 }

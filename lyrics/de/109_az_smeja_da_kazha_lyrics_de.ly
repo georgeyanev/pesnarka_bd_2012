@@ -4,22 +4,20 @@
 
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-    \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column { 
-    \line { " "Ich wage zu sagen, dass die Sonne licht ist. }
-
-    \line { " "Ich wage zu sagen, dass die Sonne licht ist.}
-
-    \line { " "Das lässt sich nicht leugnen. Dank ihr schmilzt alles, dank ihr wächst alles, }
-
-    \line { " "dank ihr blüht alles immer, dank ihr reift alles. Dank ihr steht alles auf,}
-
-    \line { " "  faltet seine Decken zusammen und begibt sich an die Arbeit.  }
-
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold " "
+        \column {
+          "Ich wage zu sagen, dass die Sonne licht ist."
+          "Ich wage zu sagen, dass die Sonne licht ist."
+          "Das lässt sich nicht leugnen. Dank ihr schmilzt alles, dank ihr wächst alles,"
+          "dank ihr blüht alles immer, dank ihr reift alles. Dank ihr steht alles auf,"
+          "faltet seine Decken zusammen und begibt sich an die Arbeit."
+        }
+      }
+    }\hspace #0.1
   }
-    }
-
 }

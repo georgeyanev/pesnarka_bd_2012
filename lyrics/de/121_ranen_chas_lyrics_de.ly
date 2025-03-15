@@ -3,58 +3,55 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Frühe Stunde" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-      \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-   
- \line { " " Es ist frühe Stunde, }
-
- \line { " " alles singt, alles schwingt.}
-
- \line { " " Die Sonne scheint,}
-
- \line { " " die Seele erfreut sich an der Welt, }
-
- \line { " " um der großen Liebe willen.}
-   \vspace #0.5
-
- \line { " " Singe Herz, vergiss das Leid}
-
- \line { " " und die menschlichen Stürme}
-
- \line { " " in dieser wunderbaren Stunde.}
-
- \line { " " Höre meine Stimme! }
-  \vspace #0.5
-
- \line { " " Großes Leben wird }
-
- \line { " " in schwerem Leid geboren. }
-  \line { " " (*Das große Leben wird }
-
- \line { " " nur in schwerem Leid geboren. )}
-
- \line { " " Stille Freude, neues Leben}
-
- \line { " " bringt dieser Sturm der Welt.}
-  \vspace #0.5
-
- \line { " " Neues Leben der Liebe}
-
- \line { " " wärme meine Seele! }
-
- \line { " " Freiheit, ein starker Geist }
-
- \line { " " und Frieden wird dein Eigen sein! }
-
- \line { " " Höre meine Stimme! }
-
- \line { " " Leise Töne rufen dich,}
-
- \line { " " ewige Liebe herrscht dort!}
-
-  }
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "  "
+        \column {
+          "Es ist frühe Stunde,"
+          "alles singt, alles schwingt."
+          "Die Sonne scheint,"
+          "die Seele erfreut sich an der Welt,"
+          "um der großen Liebe willen."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "  "
+        \column {
+          "Singe Herz, vergiss das Leid"
+          "und die menschlichen Stürme"
+          "in dieser wunderbaren Stunde."
+          "Höre meine Stimme!"
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "  "
+        \column {
+          "Großes Leben wird"
+          "in schwerem Leid geboren."
+          "(*Das große Leben wird"
+          "nur in schwerem Leid geboren.)"
+          "Stille Freude, neues Leben"
+          "bringt dieser Sturm der Welt."
+        }
+      }
+       \vspace #1
+      \line {
+        \bold "  "
+        \column {
+       "Neues Leben der Liebe"
+          "wärme meine Seele!"
+          "Freiheit, ein starker Geist"
+          "und Frieden wird dein Eigen sein!"
+          "Höre meine Stimme!"
+          "Leise Töne rufen dich,"
+          "ewige Liebe herrscht dort!"
+        }
+      }
+    }\hspace #0.1
   }
 }

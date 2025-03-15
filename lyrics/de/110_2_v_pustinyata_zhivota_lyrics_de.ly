@@ -4,22 +4,20 @@
 
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-      \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column { 
-  \line { " "  In der Wüste des Lebens,}
-
- \line { " " dort, wo Gewalt sich ausbreitet,}
-
- \line { " " dort herrscht Leid und Qual.}
-
- \line { " " Jeden, mit dem sie befreundet sind,}
-
- \line { " " nennen sie Märtyrer, Held, Heiliger.}
-
-    }
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold " "
+        \column {
+          "In der Wüste des Lebens,"
+          "dort, wo Gewalt sich ausbreitet,"
+          "dort herrscht Leid und Qual."
+          "Jeden, mit dem sie befreundet sind,"
+          "nennen sie Märtyrer, Held, Heiliger."
+        }
       }
-
+    }\hspace #0.1
+  }
 }

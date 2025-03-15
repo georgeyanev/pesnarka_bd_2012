@@ -4,22 +4,20 @@
 \markup \null
 \markup \null
 
-\markup \abs-fontsize #11 {
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "  "
+        \column {
+          "Ein guter Tag ist ein lichter Tag."
+          "Schön und erhaben ist er."
+          "Alles erleuchtet er, alles belebt er"
+          "und teilt im Leben das göttliche Gute aus."
+        }
+      }
 
-      \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-  \column {
-    \line { Ein guter Tag ist ein lichter Tag.  }
-
-    \line { Schön und erhaben ist er. }
-
-    \line { Alles erleuchtet er, alles belebt er}
-
-    \line { und teilt im Leben das göttliche Gute aus.}
-
-
+    }\hspace #0.1
   }
-  }
-
-
 }

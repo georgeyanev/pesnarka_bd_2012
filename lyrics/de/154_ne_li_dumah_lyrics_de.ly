@@ -3,62 +3,49 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Habe ich es nicht gesagt" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-       \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-
-    \line {  1. Habe ich es nicht gesagt, liebe Mutter, habe ich nicht gesprochen,}
-
-
-    \line  {   "   " dass unsere Donka nicht neben der Feuerstelle stehen}
-
-    \line  {   "   " und nur zuhause herumsitzen soll,}
-
-    \line  {   "   " sondern sie soll in die Schule gehen und beginnen zu lernen. }
-
-    \line  {   "   " Unsere Donka, liebe Mutter, wurde klug und begabt geboren,}
-
-    \line  {   "   " so dass es an der Zeit ist, }
-
-    \line  {   "   "    in der Schule über das Leben etwas Gutes zu lernen.}
-
-   \vspace #0.5
-    \line { 2. Sie soll abends, liebe Mutter, nicht zum Brunnen gehen,}
-
-    \line  {   "   " um den Jungen volle Krüge zu reichen,}
-
-    \line  {   "   " ihnen taufrische Blumen zu versprechen,}
-
-    \line  {   "   " sondern sie soll abends den Kranken Wasser hintragen.}
-
-    \line  {   "   " Unsere Donka, liebe Mutter,}
-
-    \line  {   "   " hat eine gute, sanftmütige und barmherzige Seele,}
-
-    \line  {   "   " aber sie soll ihr Herz, Mutter, lehren,}
-
-    \line  {   "   " die Jungen nicht zum Lächeln zu bringen.}
-     \vspace #0.5
-
-    \line { 3. Morgens in der Früh soll sie zum Brunnen gehen,}
-
-    \line  {   "   " in weiße Kupferkrüge Wasser füllen,}
-
-    \line  {   "   " in einer sauberen, weißen Bluse, mit einem schönen Gewand,}
-
-    \line  {   "   " soll sie zum Vorbild werden.}
-
-    \line  {   "   " Wer sie sieht, wie sie im Dorf arbeitet und wie sie jedem hilft,}
-
-    \line  {   "   " beginne das Gute zu lieben und es kundzutun, }
-    \line  {   "   " so wie diese gute Seele.}
-
-
-
-
-  }
-
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "1."
+        \column {
+          "Habe ich es nicht gesagt, liebe Mutter, habe ich nicht gesprochen,"
+          "dass unsere Donka nicht neben der Feuerstelle stehen"
+          "und nur zuhause herumsitzen soll,"
+          "sondern sie soll in die Schule gehen und beginnen zu lernen."
+          "Unsere Donka, liebe Mutter, wurde klug und begabt geboren,"
+          "so dass es an der Zeit ist,"
+          "in der Schule über das Leben etwas Gutes zu lernen."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "2."
+        \column {
+          "Sie soll abends, liebe Mutter, nicht zum Brunnen gehen,"
+          "um den Jungen volle Krüge zu reichen,"
+          "ihnen taufrische Blumen zu versprechen,"
+          "sondern sie soll abends den Kranken Wasser hintragen."
+          "Unsere Donka, liebe Mutter,"
+          "hat eine gute, sanftmütige und barmherzige Seele,"
+          "aber sie soll ihr Herz, Mutter, lehren,"
+          "die Jungen nicht zum Lächeln zu bringen."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "3."
+        \column {
+          "Morgens in der Früh soll sie zum Brunnen gehen,"
+          "in weiße Kupferkrüge Wasser füllen,"
+          "in einer sauberen, weißen Bluse, mit einem schönen Gewand,"
+          "soll sie zum Vorbild werden."
+          "Wer sie sieht, wie sie im Dorf arbeitet und wie sie jedem hilft,"
+          "beginne das Gute zu lieben und es kundzutun,"
+          "so wie diese gute Seele."
+        }
+      }
+    }\hspace #0.1
   }
 }

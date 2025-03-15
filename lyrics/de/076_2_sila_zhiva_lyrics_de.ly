@@ -3,30 +3,23 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Lebendige Kraft" }
 \markup \null
 \markup \null
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "  "
+        \column {
+          "Lebendige Kraft, lebendige Kraft,"
+          "sage mir, sage mir,"
+          "wo das Wasser entspringt, wo das Wasser entspringt."
+          "Entspringt, entspringt, wo das Wasser entspringt."
+          "Sage mir, sage mir, sage mir, süße Worte zwei,"
+          "deine Worte zwei,"
+          "süße Worte zwei."
+        }
+      }
 
-\markup \abs-fontsize #11 {
-      \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-    \line { " " Lebendige Kraft, lebendige Kraft, }
-
-    \line { " " sage mir, sage mir,}
-
-    \line { " " wo das Wasser entspringt, wo das Wasser entspringt.}
-
-    \line { " " Entspringt, entspringt, wo das Wasser entspringt.}
-
-    \line { " " Sage mir, sage mir, sage mir, süße Worte zwei,}
-
-    \line { " " deine Worte zwei,}
-
-    \line { " " süße Worte zwei.}
-
-
-
+    }\hspace #0.1
   }
-  }
-
-
 }

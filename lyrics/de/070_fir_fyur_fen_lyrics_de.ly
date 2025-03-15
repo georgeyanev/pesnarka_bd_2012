@@ -3,29 +3,35 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Fir-fjur-fen" }
 \markup \null
 \markup \null
-
-\markup \abs-fontsize #11 {
-   \hspace #5
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-
-
-    \line {   "   "Fir-fjur-fen Tao Bi Au-men,}
-    \line {   "   "Tao Bi Au-men, Tao Bi Au-men. }
-    \line {   "   "Fir-fjur-fen Tao Bi Au-men.}
-    \line {   "   "Fir-fjur-fen Tao Bi Aumen, }
-    \line {   "   "Fir-fjur-fen Tao Bi Au-men.}
-   
-  
-
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "  "
+        \column {
+         "Fir-fjur-fen Tao Bi Au-men,"
+          "Tao Bi Au-men, Tao Bi Au-men."
+          "Fir-fjur-fen Tao Bi Au-men."
+          "Fir-fjur-fen Tao Bi Aumen,"
+          "Fir-fjur-fen Tao Bi Au-men."
+        }
+      }
+     
+    }
+    \hspace #0.1
+    % adds horizontal spacing between columns
+    \column {
+      \line {
+        \bold "  "
+        \column {
+         "Lobpreise meine Seele den Herrn,"
+          "lobpreise und vergiss nicht"
+          "lobpreise, lobpreise, lobpreise"
+          "und vergiß nicht."
+        }
+      }
+      % adds vertical spacing between verses
+    }\hspace #0.1
   }
- \override #`(baseline-skip . ,deCoupletBaselineSkip)
-   \column {  \line {   "   "Lobpreise meine Seele den Herrn,}
-    \line {   "   "lobpreise und vergiss nicht}
-    \line {   "   "lobpreise, lobpreise, lobpreise }
-    \line {  "   " und vergiß nicht.}
- }
-
-
 }

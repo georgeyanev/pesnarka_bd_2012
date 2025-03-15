@@ -4,31 +4,21 @@
 
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-      \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-
-    \line { " " Ain fasi, mekri zаsi, }
-    \line { " " finzemru Ašan meru. }
-    \line { " " Sua si sin mesul.}
-    \line { " " Suma si zen fesul,}
-    \line { " " Sua si sin mesul. }
-    \line { " " Suma si zen  fesul, }
-    \line { " "  Suma si  zen  fesul. }
-
- \vspace #0.5
-    \line { " "In den himmlischen Weiten,}
-
-    \line { " "in den himmlischen Tiefen,}
-
-    \line { " "in den himmlischen Höhen,}
-
-    \line { " "dort, wo das Licht wohnt}
-
-    \line { " "und sich immerdar im Leben äußert. }
-
-  }
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold " "
+        \column {
+          "Ich werde mich verjüngen, du wirst dich verjüngen, er wird sich verjüngen."
+          "Das sagte mir die Liebe. Das sagte mir die Liebe."
+          "Wir, die wir dem Weg des Guten folgen, werden uns verjüngen,"
+          "ihr, die ihr dem Weg des Guten folgt, werdet euch verjüngen."
+          "sie, die dem Weg des Guten folgt, werden sich verjüngen."
+          "Das sagte uns die Liebe. Das sagte uns die Liebe."
+        }
+      }
+    }\hspace #0.1
   }
 }

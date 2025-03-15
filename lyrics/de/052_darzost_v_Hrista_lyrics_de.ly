@@ -5,7 +5,7 @@
 \markup \null
 \markup \abs-fontsize #11 \override #`(baseline-skip . ,deCoupletBaselineSkip) {
   \fill-line {
-
+ \hspace #0.1
     \column {
       \vspace #1
       \line {
@@ -42,8 +42,6 @@
         }
       }
       \vspace #1
-
-
       \line {
         \bold "4."
         \column {
@@ -56,6 +54,7 @@
         }
       }
     }
+     \hspace #0.1
     \column {
 
       \vspace #1
@@ -103,5 +102,6 @@
         }
       }
     }
+     \hspace #0.1
   }
 }

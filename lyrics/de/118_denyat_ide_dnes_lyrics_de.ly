@@ -3,27 +3,36 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Der Tag bricht an" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-      \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column { 
-
- \line { 1.	Ich kann sagen, dass der Tag schon anbricht;}
- \line { "   "die Sonne wird aufgehen, handeln wir gut,}
- \line { "   "die Sonne wird aufgehen, handeln wir gut.}
-\vspace #0.5
-
- \line { 2.	Ich kann sagen, dass Gott mich liebt.}
-
- \line { "   "Die Sonnenstrahlen flüstern es mir sanft zu.  }
- \line { "   "Die Sonnenstrahlen flüstern es mir sanft zu. }
-\vspace #0.5
-
- \line { 3.	Die Morgenröte atmet Frische, der Tag erwacht. }
- \line { "   "Freude und Hoffnung erfüllen unsere Herzen. }
- \line { "   "Freude und Hoffnung erfüllen unsere Herzen.}
-
-  }
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "1."
+        \column {
+          "Ich kann sagen, dass der Tag schon anbricht;"
+          "die Sonne wird aufgehen, handeln wir gut,"
+          "die Sonne wird aufgehen, handeln wir gut."
+        }
       }
+      \vspace #1
+      \line {
+        \bold "2."
+        \column {
+          "Ich kann sagen, dass Gott mich liebt."
+          "Die Sonnenstrahlen flüstern es mir sanft zu."
+          "Die Sonnenstrahlen flüstern es mir sanft zu."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "3."
+        \column {
+          "Die Morgenröte atmet Frische, der Tag erwacht."
+          "Freude und Hoffnung erfüllen unsere Herzen."
+          "Freude und Hoffnung erfüllen unsere Herzen."
+        }
+      }
+    }\hspace #0.1
+  }
 }

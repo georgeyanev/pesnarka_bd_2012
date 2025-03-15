@@ -2,45 +2,48 @@
 
 \markup \fill-line { \fontsize #deTitleFontSize "Sonnenlied – kleines Bienchen" }
 
+% \markup \fill-line { \fontsize #deTitleFontSize "Sonnenlied – kleines Bienchen" }
+
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-  % \hspace #10
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){
   \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+    \hspace #0.1
+    \column {
+      \line {
+        \bold " "
+        \column {
+          "Es ist schon Frühling, hell und warm ist es  überall:"
 
-\column {
+          "Die Sonne scheint – ja, der Frühling ist gekommen!"
 
- \line { " "Es ist schon Frühling, hell und warm ist es  überall:}
+          "Die Freude sprudelt in unserem Bienenstock: ban."
 
- \line { " "Die Sonne scheint – ja, der Frühling ist gekommen! }
+          "Alle eilen hinaus."
 
- \line { " "Die Freude sprudelt in unserem Bienenstock: ban. }
+          "Sie nehmen den blumigen Frühlingsduft wahr,"
 
- \line { " "Alle eilen hinaus. }
+          "sie fliegen geschwind zur aufgegangenen Blüte."
 
- \line { " "Sie nehmen den blumigen Frühlingsduft wahr, }
+          "Mit Freude sammeln sie den Pollen ein"
 
- \line { " "sie fliegen geschwind zur aufgegangenen Blüte. }
+          "und tragen ihn zur aufgegangenen Blüte."
 
- \line { " "Mit Freude sammeln sie den Pollen ein }
+          "Die Freude sprudelt in unserem Bienenstock: băn."
 
- \line { " "und tragen ihn zur aufgegangenen Blüte.}
+          "Alle eilen hinaus."
 
-  \line { " "Die Freude sprudelt in unserem Bienenstock: băn. }
+          " Băn, zăn, băn, zăn, einen süßen Honig bereiten wir für euch,"
 
- \line { " "Alle eilen hinaus. }
+          "liebet den gütigen Schöpfer."
 
- \line { " " Băn, zăn, băn, zăn, einen süßen Honig bereiten wir für euch,}
+          "Liebet den gütigen Schöpfer,"
+          
+          " lasst uns unseren großen, guten Schöpfer lieben!"
 
- \line { " "liebet den gütigen Schöpfer. }
-
- \line { " "Liebet den gütigen Schöpfer, }
- 
-\line { " " lasst uns unseren großen, guten Schöpfer lieben!}
-
- \line { " "Băn! Zăn! Băn! Zăn!}
-}
-
+          "Băn! Zăn! Băn! Zăn!"
+        }
+      }
+    }\hspace #0.1
   }
 }

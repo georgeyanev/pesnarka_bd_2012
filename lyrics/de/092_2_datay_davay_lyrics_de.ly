@@ -1,21 +1,27 @@
 \version "2.24.4"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Gib, gib" }
+
 \markup \null
 \markup \null
 
-\markup \abs-fontsize #11 {
-
-      \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-  \column {
-    \line { " "Gib, gib, gib alles, reine Saat, Weizenkorn. }
-    \line { " "Auf dass es auf den Acker gesät wird, }
-    \line { " "auf den schönen Acker. }
-    \line { " "Auf dass es im Winter gereinigt wird. }
-    \line { " "Auf dass sich alles,  }
-    \line { " "was auf dem Feld gesät wurde, am Leben erfreue, }
-    \line { " "auf dem Feld, vom Himmel, auf dem Feld, vom Himmel. }
-  }
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "  "
+        \column {
+          "Gib, gib, gib alles, reine Saat, Weizenkorn."
+          "Auf dass es auf den Acker gesät wird,"
+          "auf den schönen Acker."
+          "Auf dass es im Winter gereinigt wird."
+          "Auf dass sich alles,  "
+          "was auf dem Feld gesät wurde, am Leben erfreue,"
+          "auf dem Feld, vom Himmel, auf dem Feld, vom Himmel."
+        }
       }
+
+    }\hspace #0.1
+  }
 }

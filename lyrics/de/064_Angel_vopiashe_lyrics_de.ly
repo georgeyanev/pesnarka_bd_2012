@@ -12,7 +12,7 @@
         \column {
           "Ein Engel rief der Mutter Gottes zu:"
           "„Reine Jungfrau, freue dich!"
-          " Und ich sage dir wieder: Freue dich!"
+          "Und ich sage dir wieder: Freue dich!"
           "Dein Sohn ist vom Grab am dritten Tag nach dem Tod"
           "auferstanden und erweckte die Toten zum Leben;"
           "Menschen, freut euch!"

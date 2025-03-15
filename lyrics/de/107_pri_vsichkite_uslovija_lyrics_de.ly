@@ -4,21 +4,19 @@
 
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-     \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {  
-    \line { " "Unter allen Bedingungen des Lebens }
-
-    \line { " "verliere nicht deinen Frieden, deinen Frieden!}
-
-    \line { " "Das Leben ist schön, wenn der Mensch mutig ist.}
-    \line { " "Das Leben ist schön, wenn der Mensch mutig ist.}
-
-
-
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,deCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold " "
+        \column {
+          "Unter allen Bedingungen des Lebens"
+          "verliere nicht deinen Frieden, deinen Frieden!"
+          "Das Leben ist schön, wenn der Mensch mutig ist."
+          "Das Leben ist schön, wenn der Mensch mutig ist."
+        }
+      }
+    }\hspace #0.1
   }
-     }
-
 }

@@ -4,29 +4,21 @@
 
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-      \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
- \line { " "Ach, mein Sohn, weißt du,}
- 
-  \line { " "was die Nachbarn über dich sprechen?}
-
- \line { " "Dass du die Herde im Gebirge alleine gelassen hast }
-
- \line { " "und abends zurückgekehrt bist,}
- 
- \line { " " um Mädchen abends auf dem Dorfplatz zu treffen.}
-
- \line { " "Mädchen, die Treffen anzetteln, anzetteln}
-
- \line { " "sie zetteln sie an, aber sie verderben auch.}
-
- \line { " "Ein Mädchen, mein Sohn,}
- 
-  \line { " " wählt man nicht am Abend aus.}
-
-  }
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold " "
+        \column {
+          "Ich werde mich verjüngen, du wirst dich verjüngen, er wird sich verjüngen."
+          "Das sagte mir die Liebe. Das sagte mir die Liebe."
+          "Wir, die wir dem Weg des Guten folgen, werden uns verjüngen,"
+          "ihr, die ihr dem Weg des Guten folgt, werdet euch verjüngen."
+          "sie, die dem Weg des Guten folgt, werden sich verjüngen."
+          "Das sagte uns die Liebe. Das sagte uns die Liebe."
+        }
+      }
+    }\hspace #0.1
   }
 }

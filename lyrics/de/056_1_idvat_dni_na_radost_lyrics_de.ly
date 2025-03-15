@@ -10,10 +10,9 @@
       \vspace #1
       \line {
         \bold "  "
-        \column {   
-      "Es kommen die Tage der Freude, es kommen die Tage der Freude,"
-      "es kommen die Tage der Freude, für diejenigen, die Gott dienen."
-     
+        \column {
+          "Es kommen die Tage der Freude, es kommen die Tage der Freude,"
+          "es kommen die Tage der Freude, für diejenigen, die Gott dienen."
         }
       }
     }\hspace #0.1

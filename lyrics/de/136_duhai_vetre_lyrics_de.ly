@@ -3,47 +3,21 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Wehe, Wind!" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-      \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-
-    \line { " "Die göttliche Sonne scheint heute,  }
-
-    \line { " "die göttliche Sonne scheint heute,  }
-
-    \line { " "die göttliche Sonne scheint heute. }
-
-    \line { " "Wehe, Wind, wehe sanft,  }
-
-    \line { " "wehe sanft, blicke mild, }
-
-    \line { " "wehe sanft, lass das Blatt sich entfalten! }
-
-    \line { " "Lass das Blatt erzittern, öffne die Blüte,  }
-
-    \line { " "öffne die Blüte, verteile die Frucht, }
-
-    \line { " "öffne die Blüte, verteile die Frucht. }
-
-    \line { " "Auf, möge er gehen, }
-
-    \line { " " auf, möge er lernen, möge er lernen, möge er erhalten, }
-
-    \line { " "möge er erhalten, möge er lernen. }
-
-    \line { " "Auf, möge er gehen,  }
-
-    \line { " "damit es ihm wohl ergeht. }
-
-    \line { " "Die göttliche Sonne scheint heute,  }
-
-    \line { " "die göttliche Sonne scheint heute,  }
-
-    \line { " "die göttliche Sonne scheint heute }
-     \line { " "für dich, Bulgare. }
-
-  }
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold " "
+        \column {
+          "Ich werde mich verjüngen, du wirst dich verjüngen, er wird sich verjüngen."
+          "Das sagte mir die Liebe. Das sagte mir die Liebe."
+          "Wir, die wir dem Weg des Guten folgen, werden uns verjüngen,"
+          "ihr, die ihr dem Weg des Guten folgt, werdet euch verjüngen."
+          "sie, die dem Weg des Guten folgt, werden sich verjüngen."
+          "Das sagte uns die Liebe. Das sagte uns die Liebe."
+        }
       }
+    }\hspace #0.1
+  }
 }

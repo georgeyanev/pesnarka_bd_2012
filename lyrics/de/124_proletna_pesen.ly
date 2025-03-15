@@ -4,42 +4,44 @@
 
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-    \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold " "
+        \column {
+          "Lieber Herr, höre unser Lied:"
 
-  \column {
+          "Wir singen von der Sonne, vom Frühling."
 
-    \line { " " Lieber Herr, höre unser Lied:  }
+          "Höre unser Lied:"
 
-    \line { " " Wir singen von der Sonne, vom Frühling. }
+          "Der Frühling kommt, bringt neues Leben."
 
-    \line { " " Höre unser Lied: }
+          "Die erste Frühlingsblume:"
 
-    \line { " " Der Frühling kommt, bringt neues Leben.  }
+          "Ich erwecke alle aus dem Schlaf."
 
-    \line { " " Die erste Frühlingsblume:   }
+          "Mich sieht die Sonne zuerst an."
 
-    \line { " " Ich erwecke alle aus dem Schlaf.  }
+          "Liebe Sonne, Gottesgabe,"
 
-    \line { " " Mich sieht die Sonne zuerst an. }
+          "du bist der Quell des Lebens,"
 
-    \line { " " Liebe Sonne, Gottesgabe,  }
+          "du sendest uns einen Strahl,"
 
-    \line { " " du bist der Quell des Lebens,  }
+          "der die frischen, zarten Blättchen öffnet."
 
-    \line { " " du sendest uns einen Strahl,  }
+          "Frühling, Frühling, voller Leben;"
 
-    \line { " " der die frischen, zarten Blättchen öffnet. }
+          "ewiger Frühling, du bist ein Paradies,"
 
-    \line { " " Frühling, Frühling, voller Leben;  }
+          "eine Gottesgabe, eine Gottesgabe."
 
-    \line { " " ewiger Frühling, du bist ein Paradies,  }
-
-    \line { " " eine Gottesgabe, eine Gottesgabe. }
-
-    \line { " " Ich lebe nur für Dich! }
-
+          "Ich lebe nur für Dich!"
+        }
+      }
+    }\hspace #0.1
   }
-    }
 }

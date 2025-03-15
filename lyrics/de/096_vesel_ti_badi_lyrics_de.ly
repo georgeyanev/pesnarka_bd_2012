@@ -3,33 +3,37 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Sei fröhlich" }
 \markup \null
 \markup \null
-
-\markup \abs-fontsize #11 {
-
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
   \fill-line {
-    \override #`(baseline-skip . ,deCoupletBaselineSkip)
+    \hspace #0.1
     \column {
-      \line { " "Sei fröhlich, werde munter;}
-
-      \line { " "die Sorgen des Lebens}
-
-      \line { " "sind eine nutzlose Last.}
-      \vspace #0.5
-
-      \line { " "Liebevoll ruft dich das Leben: }
-
-      \line { " "Sei fröhlich, werde munter}
-
-      \line { " "und erhöhe alles Lebendige durch Liebe!}
-      \vspace #0.5
-
-      \line { " "Sei fröhlich, werde munter}
-
-      \line { " "bringe Freude in das Leben,}
-
-      \line { " " in das Leben bringe Freude, in das Leben, du. }
-
-      \line { " "Sei fröhlich, werde munter! }
-    }
+      \line {
+        \bold "  "
+        \column {
+          "Sei fröhlich, werde munter;"
+          "die Sorgen des Lebens"
+          "sind eine nutzlose Last."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "  "
+        \column {
+          "Liebevoll ruft dich das Leben: "
+          "Sei fröhlich, werde munter"
+          "und erhöhe alles Lebendige durch Liebe!"
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "  "
+        \column {
+          "Sei fröhlich, werde munter"
+          "bringe Freude in das Leben,"
+          "in das Leben bringe Freude, in das Leben, du."
+          "Sei fröhlich, werde munter!"
+        }
+      }
+    }\hspace #0.1
   }
 }

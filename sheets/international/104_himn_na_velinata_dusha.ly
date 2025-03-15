@@ -6,7 +6,7 @@
 \bookpart {
   \label #'ref104
   \tocItem \markup "Химн на Великата душа – Himn na Velikata duša"
-   \paper {
+  \paper {
     print-all-headers = ##t
     print-page-number = ##t
     print-first-page-number = ##t

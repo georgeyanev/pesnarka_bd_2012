@@ -3,50 +3,41 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Lauf, lauf" }
 \markup \null
 \markup \null
-
-\markup \abs-fontsize #11 {
-
-   \hspace #5
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-  \column {
-	 
-	\line { 1. Lauf, lauf, lauf, }
-
-  \line { "   "lauf um das Wasser,}
-
-  \line { "   "im Morgentau, }
-
-  \line { "   "durch ein klares Bächlein,}
-
-  \line { "   "auf dem reinen Pfad. }
-
-  \line { "   "Bringe dieses klare Wasser nach Hause, }
-
-  \line { "   "zu den lieben Blümlein, }
-
-  \line { "   "seinen kleinen Kindern.}
-
-  }
-
-   \hspace #1
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-
-  \line {  2.	So bieten die Regentropfen }
-
- \line { "   " reichlich Feuchtigkeit, }
- 
-  \line { "   "den Strom des Lebens. }
- 
- \line { "   "Samenkörner sprießen, }
- 
- \line { "   "Knospen öffnen sich, }
- 
- \line { "   "Früchte reifen. }
- 
- \line { "   "Alles erwacht; }
- 
-  \line { "   " machtvoll ist das Wasser!  }
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \fill-line {
+ \hspace #0.1
+    \column {
+      \line {
+        \bold "1."
+        \column {
+          "Lauf, lauf, lauf,"
+          "lauf um das Wasser,"
+          "im Morgentau,"
+          "durch ein klares Bächlein,"
+          "auf dem reinen Pfad."
+          "Bringe dieses klare Wasser nach Hause,"
+          "zu den lieben Blümlein,"
+          "seinen kleinen Kindern."
+        }
+      }
+      
     }
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "2."
+        \column {
+          "So bieten die Regentropfen"
+          "reichlich Feuchtigkeit,"
+          "den Strom des Lebens."
+          "Samenkörner sprießen,"
+          "Knospen öffnen sich,"
+          "Früchte reifen."
+          "Alles erwacht;"
+          "machtvoll ist das Wasser!"
+        }
+      }
+      \hspace #0.1
+    }
+  }
 }

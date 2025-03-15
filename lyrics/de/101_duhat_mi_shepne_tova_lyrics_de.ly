@@ -4,20 +4,20 @@
 
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-     \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column { 
-
-\line { " " Mir wird es im Leben wohl ergehen, }
-
-\line { " " mein Geist und meine Seele flüstern mir das zu, }
-\line { " " mein Geist und meine Seele flüstern mir das zu. }
-
-\line { " " Und der Geist flüstert mir das zu, flüstert mir das zu.}
-
-\line { " " Der Geist und die Seele flüstern mir das zu.}
-  }
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,deCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold " "
+        \column {
+        "Mir wird es im Leben wohl ergehen,"
+         "mein Geist und meine Seele flüstern mir das zu,"
+         "mein Geist und meine Seele flüstern mir das zu."
+         "Und der Geist flüstert mir das zu, flüstert mir das zu."
+         "Der Geist und die Seele flüstern mir das zu."
+        }
+      }
+    }\hspace #0.1
   }
 }

@@ -43,7 +43,7 @@
   } % score
   %
 
-  \markup \empty-two
+  \markup \vspace #2
 
   \include "include/bookpart-paper.ily"
   \label #'ref083_2
@@ -90,11 +90,10 @@
 
       } % score
 
-      \markup \empty-one
-      \markup \dc-two "D.C." "con ripetizioni"
+   \markup \dc-two "D.C." "con ripetizioni"
 
 
-      \markup \empty-two
+ \markup \vspace #2
       % include foreign translation(s) of the song
       \include "../../lyrics/de/083_2_vecher_sutrin_lyrics_de.ly"
 

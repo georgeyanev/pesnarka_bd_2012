@@ -3,31 +3,25 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Das Feuer entzündete sich" }
 \markup \null
 \markup \null
-
-\markup \abs-fontsize #11 {
-
-      \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-  \column {
-    \line { " " Es wurde entzündet das Feuer der Feuerstelle.  }
-
-    \line { " " Zu schlagen begann mein Herz.}
-    \line { " " Das Brot ist bereit, das Brot ist bereit. }
-
-    \line { " " Der neue Leuchter wurde angezündet.  }
-
-    \line { " "Die Tafel wurde gedeckt. }
-    \line { " " Mein Gedanke leuchtete auf:  }
-
-    \line { " "Möge ich heute das köstliche Brot lieben }
-
-    \line { " "und seine süßen Worte hören.}
-    \line { " "Möge ich heute das köstliche Brot lieben }
-
-    \line { " "und seine süßen Worte hören.}
-
-
-  }
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "  "
+        \column {
+          "Es wurde entzündet das Feuer der Feuerstelle."
+          "Zu schlagen begann mein Herz."
+          "Das Brot ist bereit, das Brot ist bereit."
+          "Der neue Leuchter wurde angezündet."
+          "Die Tafel wurde gedeckt."
+          "Mein Gedanke leuchtete auf:"
+          "Möge ich heute das köstliche Brot lieben"
+          "und seine süßen Worte hören."
+          "Möge ich heute das köstliche Brot lieben"
+          "und seine süßen Worte hören."
+        }
       }
-
+    }\hspace #0.1
+  }
 }
