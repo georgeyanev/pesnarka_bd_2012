@@ -157,8 +157,6 @@ cat \
     ../191_nb_parvi_bozhestven_den.ly \
     ../192_nb_vtori_bozhestven_den.ly \
     ../193_194_nb_treti_bozhestven_den_chetvarti_bozhestven_den.ly \
-    ../195_196_nb_peti_bozhestven_den_shesti_bozhestven_den.ly \
-    ../199_nb_sedmi_bozhestven_den.ly \
     ../200_vatreshniyat_glas_na_Boga.ly \
     ../201_edna_vechna_istina.ly \
     ../202_himni_na_slantzeto.ly \
@@ -168,6 +166,7 @@ cat \
     ../214_ti_ste_spoluchish_v_zhivota.ly \
     ../210_Gospodi_kolko_te_obicham.ly \
     ../211_kazhi_mi_svetlii_bozhi_lach.ly \
+    ../213_dobriat_momak.ly \
     ../212_moeto_slanze_dnes_ste_izgree.ly \
     ../215_zora_na_noviya_zhivot.ly \
     ../216_otche_nash_ne_ni_vavezhdai.ly \
