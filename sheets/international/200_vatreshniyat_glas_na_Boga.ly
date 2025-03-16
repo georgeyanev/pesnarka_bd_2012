@@ -100,9 +100,7 @@
         \midi{}
 
       } % score
-      \markup \empty-one
       \markup \dc-one "D.C."
-      \markup \vspace #2
       % include foreign translation(s) of the song
       %\include "../../lyrics/de/200_vatreshniya_glas_na_boga_lyrics_de.ly"
 

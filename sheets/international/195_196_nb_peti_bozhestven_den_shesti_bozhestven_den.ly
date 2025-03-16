@@ -22,7 +22,7 @@
       g'4 g'4 c''2 ^\fermata | % 147
       bes'4  c''4  d''4  es''4 | % 148
       c''2 a'2 | % 149
-      \acciaccatura {  a'16 [ bes' c''] } bes'2 f'2 |
+      \acciaccatura {  a'16 [ bes' c''] } bes'2 f'2 | \break
       \time 4/4
       r4  bes'4  bes'4  c''4 | % 151
       g'2 g'4 es'4 | % 152

@@ -3,20 +3,21 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Der Brief" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-\fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-
- \line { " "Wenn die Liebe herrscht, }
- \line { " " entsteht keine Unruhe. }
-
- \line { " "Wenn die Weisheit regiert, }
-  \line { " "wird die Ordnung nicht gestört.}
-
- \line { " "Wenn die Wahrheit scheint, }
-  \line { " "gedeiht und reift die Frucht. }
-  }
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "  "
+        \column {
+         "Wenn die Liebe herrscht,"
+          "entsteht keine Unruhe."
+          "Wenn die Weisheit regiert,"
+           "wird die Ordnung nicht gestört."
+          "Wenn die Wahrheit scheint,"
+           "gedeiht und reift die Frucht."
+        }
+      }
+    }\hspace #0.1
   }
 }

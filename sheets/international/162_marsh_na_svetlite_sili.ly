@@ -5,9 +5,52 @@
 \bookpart {
   \label #'ref162
   \tocItem \markup "Марш на светлите сили – Marš na svetlite sili"
+  \paper {
+    print-all-headers = ##t
+    print-page-number = ##t
+    print-first-page-number = ##t
 
 
-  \include "include/bookpart-paper.ily"
+    % put page numbers on the top and change the font style.
+    oddHeaderMarkup = \markup
+    \fill-line {
+      ""
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+    }
+    %% evenHeaderMarkup would inherit the value of
+    %% oddHeaderMarkup if it were not defined here
+    evenHeaderMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
+      ""
+    }
+
+    oddFooterMarkup = \markup ""
+
+    evenFooterMarkup = ""
+    left-margin = 1.5\cm
+    right-margin = 1.5\cm
+    top-margin = 1\cm
+    bottom-margin = 1.5\cm
+    ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+    top-markup-spacing.basic-distance = 0\mm % margin between page number and system for the first page
+    top-system-spacing.basic-distance = 10\mm % margin between page number and system for the other pages
+
+    % change distance between staves
+    system-system-spacing =
+    #'((basic-distance . 17.5)
+       (minimum-distance . 6)
+       (padding . 1)
+       (stretchability . 12))
+  }
+
+  \header {
+    tagline = ##f
+  }
+
+
   \score {
     \include "include/score-layout.ily"
     \new Voice \absolute {
@@ -89,7 +132,6 @@
 
   } % score
 
-  %\markup \empty-one
   \markup \dc-two "D.C.""con ripetizione"
   % include foreign translation(s) of the song
   %\include "../../lyrics/de/000_empty_template_lyrics_de.ly"

@@ -3,38 +3,29 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Die Stimme des lebendigen Herrn – Die Neue Auferstehung" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-\fill-line {
- \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-\column {
-
- \line { " "Steht auf, ihr Toten, steht auf aus dem Grab.}
-
- \line { " "Steht auf, erwacht zum Leben, ihr, }
-
- \line { " "die ihr aufgestanden seid.}
-
- \line { " "Steht auf, aufersteht, ihr,}
-
- \line { " "die ihr lebendig geworden seid.}
-
- \line { " "Hört, der Herr spricht jetzt zu euch:}
-
- \line { " "„Meine Hand hat nicht aufgehört, zu geben.}
-
- \line { " "Ich bin voll mit Überfluss}
-
- \line { " "und ich bin unerschöpflich   –  }
-
- \line { " " was ich für all jene aufbewahre,}
-
- \line { " "die mich lieben und sich vor meinem Namen fürchten.}
-
- \line { " "Seid gesegnet ihr, die ihr mich liebt.}
-
- \line { " "Steht auf, aufersteht, für den neuen Weg der Liebe.“}
-
-}
-}
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "  "
+        \column {
+          "Steht auf, ihr Toten, steht auf aus dem Grab,"
+          "Steht auf, erwacht zum Leben, ihr,"
+          "die ihr aufgestanden seid,"
+          "Steht auf, aufersteht, ihr,"
+          "die ihr lebendig geworden seid,"
+          "Hört, der Herr spricht jetzt zu euch:"
+          "„Meine Hand hat nicht aufgehört, zu geben,"
+          "Ich bin voll mit Überfluss"
+          "und ich bin unerschöpflich   –  "
+          "was ich für all jene aufbewahre,"
+          "die mich lieben und sich vor meinem Namen fürchten,"
+          "Seid gesegnet ihr, die ihr mich liebt,"
+          "Steht auf, aufersteht, für den neuen Weg der Liebe.“"
+        }
+      }
+      
+    }\hspace #0.1
+  }
 }

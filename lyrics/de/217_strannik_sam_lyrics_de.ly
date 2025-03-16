@@ -1,23 +1,24 @@
+\version "2.24.4"
+
 \markup \fill-line { \fontsize #deTitleFontSize "Ich bin ein Fremder in dieser Welt" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
   \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-
-\line { " "Ich bin ein Fremder in dieser Welt.}
-
-\line { " "Ich kenne niemanden außer Dir. }
-
-\line { " "Du, oh Herr, mein Gott, hast alles für mich erschaffen. }
-
-\line { " "Ich richte meinen Dank an Dich. }
-
-\line { " "In Dich, Herr, setzte ich mein Vertrauen.}
-
-\line { " "Möge mein Gebet zu Dir hinaufsteigen.}
-  }
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "  "
+        \column {
+          "Ich bin ein Fremder in dieser Welt."
+          "Ich kenne niemanden außer Dir."
+          "Du, oh Herr, mein Gott, hast alles für mich erschaffen."
+          "Ich richte meinen Dank an Dich."
+          "In Dich, Herr, setzte ich mein Vertrauen."
+          "Möge mein Gebet zu Dir hinaufsteigen."
+        }
+      }
+      
+    }\hspace #0.1
   }
 }

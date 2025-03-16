@@ -6,37 +6,44 @@
   \label #'ref164
   \tocItem \markup "Песен на детето – Pesen na deteto"
   \paper {
-    % the system system spacing is custom here so do not include bookpart-paper.ily
     print-all-headers = ##t
     print-page-number = ##t
     print-first-page-number = ##t
 
-    % put page numbers on the bottom
-    oddHeaderMarkup = \markup ""
-    evenHeaderMarkup = \markup ""
-    oddFooterMarkup = \markup
+
+    % put page numbers on the top and change the font style.
+    oddHeaderMarkup = \markup
     \fill-line {
       ""
-      \if \should-print-page-number \fromproperty #'page:page-number-string
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
     }
-    evenFooterMarkup = \markup
+    %% evenHeaderMarkup would inherit the value of
+    %% oddHeaderMarkup if it were not defined here
+    evenHeaderMarkup = \markup
     \fill-line {
-      \if \should-print-page-number \fromproperty #'page:page-number-string
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
       ""
     }
 
+    oddFooterMarkup = \markup ""
+
+    evenFooterMarkup = ""
     left-margin = 1.5\cm
     right-margin = 1.5\cm
-    top-margin = 1.2\cm
-    bottom-margin = 1.0\cm
+    top-margin = 1\cm
+    bottom-margin = 1.5\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+    top-markup-spacing.basic-distance = 0\mm % margin between page number and system for the first page
+    top-system-spacing.basic-distance = 10\mm % margin between page number and system for the other pages
 
     % change distance between staves
     system-system-spacing =
-    #'((basic-distance . 14)
+    #'((basic-distance . 17)
        (minimum-distance . 6)
        (padding . 1)
-       (stretchability . 10))
+       (stretchability . 12))
   }
 
   \header {
@@ -120,8 +127,8 @@
       -. e'8 -. e'8 ( -. e'8 ) -. | % 34
       cis'8 -. [e'8 -.] cis'8 -. [e'8 -.] cis'8 -. [e'8 -.] cis'8 -. cis'8 ( -.
       cis'8 ) -. | % 35
-      cis'8 -. [b8 -.] b8 -. [cis'8 -.] a4 ( a4. ) \break | % 36
-      cis'8 -. [ b8 -.] b8 -. [cis'8 -.] a4 ( a4. ) | % 37
+      cis'8 -. [b8 -.] b8 -. [cis'8 -.] a4 ( a4. )  | % 36
+      cis'8 -. [ b8 -.] b8 -. [cis'8 -.] a4 ( a4. ) | \break % 37
       \bar ".|:"
       e''4 -- a''8 -- [a''8 -- a''8 -- ] % 38
       a''8 [gis''8] a''8 [b''8] | gis''4 gis''8 [gis''8 gis''8]  % 39
@@ -137,9 +144,9 @@
       e'4
       a'8. ( a'16 ) -- | % 46
       a'2 | % 47
-      b'4 e''8. ( e''16 ) -- | % 48
+      b'4 e''8. ( e''16 ) -- | \break % 48
       e''2 | % 49
-      f''4 e''8 dis''8 \break |
+      f''4 e''8 dis''8  |
       e''2 | % 51
       e''4 f''8 e''8 | % 52
       \time 3/4  d''2 c''16 ( b'16 ) c''16 d''16 | % 53

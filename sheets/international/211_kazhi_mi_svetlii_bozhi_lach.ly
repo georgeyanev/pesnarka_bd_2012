@@ -138,8 +138,8 @@
 
       } % score
 
-      \markup \empty-one
 
+      \pageBreak
       % include foreign translation(s) of the song
       \include "../../lyrics/de/211_kazhi_mi_svetlii_bozhi_lach_lyrics_de.ly"
 

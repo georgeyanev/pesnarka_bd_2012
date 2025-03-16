@@ -1,53 +1,58 @@
+
 \version "2.24.4"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Die kleine Bergquelle" }
-
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-    \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "1."
+        \column {
+       "Die reine Quelle sprudelt und singt"
 
-  \column {
+"mit einem unschuldigen, munteren, hellen Blick."
 
- \line { 1.  Die reine Quelle sprudelt und singt}
+"Im Schoss des Gebirges in der Morgenröte geboren,"
 
-\line {   "   "mit einem unschuldigen, munteren, hellen Blick.}
+"bebende Freude, Munterkeit erklingt. "
 
-\line {   "   "Im Schoss des Gebirges in der Morgenröte geboren,}
+"Klare Rinnsale singen, ihre Tropfen funkeln. "
 
-\line {   "   "bebende Freude, Munterkeit erklingt. }
+"Klare Rinnsale singen, ihre Tropfen funkeln.  "
 
-\line {   "   "Klare Rinnsale singen, ihre Tropfen funkeln. }
+"Sie verbreitet Frische und Schönheit"
 
-\line {   "   "Klare Rinnsale singen, ihre Tropfen funkeln.  }
+ "Sie flüstert von der Liebe. "
 
-\line {   "   "Sie verbreitet Frische und Schönheit}
+"Im Herzen des Menschen hallt das Lied wider."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "2."
+        \column {
+         "Zarte Blumen blühen um sie herum,"
 
- \line {   "   "Sie flüstert von der Liebe. }
+"sie erzählen leise von wunderbaren Märchen."
 
-\line {   "   "Im Herzen des Menschen hallt das Lied wider.}
+ "Spielerische Nymphen stricken hier Tänze,"
 
-\line { " "}
+"auf einem taubedeckten Teppich schwingen Schritte. "
 
-\line { 2. Zarte Blumen blühen um sie herum,}
+"Nachts spiegeln sich die Sterne in der Quelle."
 
-\line {   "   "sie erzählen leise von wunderbaren Märchen.}
+"Und sie sprudelt und gibt unaufhörlich."
 
- \line {   "   "Spielerische Nymphen stricken hier Tänze,}
+"So gibt die Liebe. "
 
-\line {   "   "auf einem taubedeckten Teppich schwingen Schritte. }
+"In den Herzen der Menschen geht die Freude auf. "
 
-\line {   "   "Nachts spiegeln sich die Sterne in der Quelle.}
-
-\line {   "   "Und sie sprudelt und gibt unaufhörlich.}
-
-\line {   "   "So gibt die Liebe. }
-
-\line {   "   "In den Herzen der Menschen geht die Freude auf. }
-
-\line {   "   "In den Herzen der Menschen geht die Freude auf.}
+"In den Herzen der Menschen geht die Freude auf."
+        }
+      }
+    }\hspace #0.1
   }
-    }
 }
-

@@ -3,43 +3,44 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Sechster göttlicher Tag" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
   \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "  "
+        \column {
+         "Und Gott sprach: „Die Erde bringe hervor"
 
-  \column {
-    \line { " " }
+         " Tiere und scheußliches Getier, ein jedes nach seiner Art.“"
 
+         " Und es ward so. Und Gott sah, dass alles gut war."
 
-\line { " "Und Gott sprach: „Die Erde bringe hervor }
+         " Und Gott sprach und schuf den Menschen."
 
-\line { " " Tiere und scheußliches Getier, ein jedes nach seiner Art.“ }
+         "Er schuf ihn selbst, nach Seinem Bilde und Ihm ähnlich."
 
-\line { " " Und es ward so. Und Gott sah, dass alles gut war. }
+         "Und Er segnete ihn, auf dass er über alles herrsche,"
 
-\line { " " Und Gott sprach und schuf den Menschen. }
+         "was auf Erden lebt. Er soll lieben [običa] und schützen alle"
 
-\line { " "Er schuf ihn selbst, nach Seinem Bilde und Ihm ähnlich. }
+         "Geschöpfe im Wasser, auf der Erde und in der Luft."
 
-\line { " "Und Er segnete ihn, auf dass er über alles herrsche, }
+         " Und Gott sprach: „Ich gebe das Gras mit seinen Samen"
 
-\line { " "was auf Erden lebt. Er soll lieben [običa] und schützen alle }
+         " und den Baum mit seinen Früchten zur Nahrung dem Menchen.“"
 
-\line { " "Geschöpfe im Wasser, auf der Erde und in der Luft. }
+         "Und Gott sprach: „Ich gebe allen Tieren auf Erden und allen Vögeln"
 
-\line { " " Und Gott sprach: „Ich gebe das Gras mit seinen Samen}
+         " unter dem Himmel und alles, was auf der Erde kriecht, und Leben hat,"
 
-\line { " " und den Baum mit seinen Früchten zur Nahrung dem Menchen.“ }
+         "  auf dass der Mensch ihnen nicht nach dem Leben trachte.“"
 
-\line { " "Und Gott sprach: „Ich gebe allen Tieren auf Erden und allen Vögeln}
+         " Und Gott sah, dass alles, was Er gemacht hatte, gut war.  "
 
-\line { " " unter dem Himmel und alles, was auf der Erde kriecht, und Leben hat,}
-
-\line { " "  auf dass der Mensch ihnen nicht nach dem Leben trachte.“ }
-
-\line { " " Und Gott sah, dass alles, was Er gemacht hatte, gut war.  }
-
-\line { " " Und es ward Abend und es ward Morgen, der sechste Tag.}
-  }
+         " Und es ward Abend und es ward Morgen, der sechste Tag."
+        }
+      }
+    }\hspace #0.1
   }
 }

@@ -1,17 +1,20 @@
-\version "2.20.0"
+\version "2.24.4"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Thema 6 und Thema 7 " }
+\markup \fill-line { \fontsize #deTitleFontSize "Thema 6 und Thema 7" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
   \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-    \line { " " }
-
-     \line { " Ich werde die Wärme bewahren." }
-     \line { " Ich werde diese Wärme bewahren." }
-  }
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "  "
+        \column {
+          "Ich werde die Wärme bewahren."
+          "Ich werde diese Wärme bewahren."
+        }
+      }
+      
+    }\hspace #0.1
   }
 }

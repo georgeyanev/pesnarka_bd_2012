@@ -146,10 +146,12 @@
 
           } % score
 
-
+\pageBreak
 
           % include foreign translation(s) of the song
           \include "../../lyrics/de/170_2_vyra_svetla_II_lyrics_de.ly"
+
+          \markup \vspace #2
 
           \label #'ref171_1
           \tocItem \markup "Милост, благост – Milost, blagost"

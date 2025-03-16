@@ -4,37 +4,27 @@
 
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-   \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,deCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "  "
+        \column {
+          "Gott ist Liebe, Gott ist Liebe,"
+          "Gott ist Liebe, Liebe,"
+          "ewige, grenzenlose Liebe,"
+          "erfüllt mit Leben,"
+          "Leben des gütigen Geist Gottes."
+          "Der Geist der Güte,"
+          "der Geist der Heiligkeit,"
+          "der Geist des vollen Friedens und der Freude für jede Seele."
+          "Wir werden auf diesem Weg des Lichtes,"
+          "des Lichtes, des Lichtes gehen,"
+          "dort, wo die göttliche Liebe herrscht."
+        }
+      }
 
-  \column {
-
-
-    \line { " " Gott ist Liebe, Gott ist Liebe, }
-
-    \line { " " Gott ist Liebe, Liebe,}
-
-    \line { " " ewige, grenzenlose Liebe, }
-
-    \line { " " erfüllt mit Leben, }
-
-    \line { " " Leben des gütigen Geist Gottes. }
-
-    \line { " " Der Geist der Güte, }
-
-    \line { " " der Geist der Heiligkeit,}
-
-    \line { " " der Geist des vollen Friedens und der Freude für jede Seele.}
-
-    \line { " " Wir werden auf diesem Weg des Lichtes,}
-    \line { " "  des Lichtes, des Lichtes gehen,  }
-    
-    \line { " " dort, wo die göttliche Liebe herrscht.}
-
+    }\hspace #0.1
   }
-
-  }
-
-
 }

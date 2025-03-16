@@ -4,44 +4,47 @@
 
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,deCoupletBaselineSkip) {
   \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-
-
-    \line { " "Geister des Lichtes schreiten leicht in der Stille. }
-
-    \line { " "Sie steigen in weißen Reihen von den hohen Regionen herab. }
-
-    \line { " "Sie kommen auf die Erde in die Herzen der Menschen. }
-
-    \vspace #0.5
-
-    \line { " "Und es werden geboren lichte, neue Ideen, }
-
-    \line { " "  wie wir die schweren Ketten }
-    \line { " "  sinnloser, jahrhundertealter Feindschaften ablegen}
-    \line { " "und in Frieden leben.  }
-
-    \vspace #0.5
-    \line {
-      " "Und jeder wird mit Freude auf dem göttlichen Acker arbeiten,
-    }
-    \line { " "es wird ewige Jugend herrschen; niemand wird sterben. }
-
-    \line { " "In Frieden und Liebe werden wir alle gemeinsam leben }
-
-    \line { " "    und Gott mit Liedern lobpreisen.  }
-    \vspace #0.5
-
-    \line { " "Neue Lieder werden wir singen von der kosmischen Harmonie, }
-
-    \line { " "Ein neues Leben werden wir leben; unser Körper wird leuchten  }
-
-    \line { " "und am Ende werden wir im Äther fliegen als Geister des Lichtes.  }
-
-  }
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "  "
+        \column {
+          "Geister des Lichtes schreiten leicht in der Stille."
+          "Sie steigen in weißen Reihen von den hohen Regionen herab."
+          "Sie kommen auf die Erde in die Herzen der Menschen."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "  "
+        \column {
+          "Und es werden geboren lichte, neue Ideen,"
+          "wie wir die schweren Ketten"
+          "sinnloser, jahrhundertealter Feindschaften ablegen"
+          "und in Frieden leben."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "  "
+        \column {
+          "Und jeder wird mit Freude auf dem göttlichen Acker arbeiten,"
+          "es wird ewige Jugend herrschen; niemand wird sterben."
+          "In Frieden und Liebe werden wir alle gemeinsam leben"
+          "und Gott mit Liedern lobpreisen."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "  "
+        \column {
+          "Neue Lieder werden wir singen von der kosmischen Harmonie,"
+          "Ein neues Leben werden wir leben; unser Körper wird leuchten"
+          "und am Ende werden wir im Äther fliegen als Geister des Lichtes."
+        }
+      }
+    }\hspace #0.1
   }
 }

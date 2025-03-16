@@ -1,39 +1,41 @@
 \version "2.24.4"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Melodie 4 – Erleuchtung" }
+\markup \fill-line { \fontsize #deTitleFontSize "Steh' auf, Tochter!" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){
   \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-
-    \line { 1. Unendliche Weite, }
-
-    \line {   "   " wunderbare Schönheit und Frieden, }
-
-    \line {   "   " Sonne für die menschlichen Seelen }
-
-    \line {   "   " bringt unaufhörlich die Liebe. }
-     \vspace #0.5
-    \line {2. Das gute Leben strömt }
-
-    \line {   "   " in den warmen Sonnenstrahlen }
-
-    \line {   "   " und die Seelen lobpreisen im Licht }
-
-    \line {   "   " den gütigen Vater der Liebe. }
-    \vspace #0.5
-
-    \line {3. Alles ist Liebe, }
-
-    \line {   "   " Freude, Kraft und Leben. }
-
-    \line {   "   " Heiges, göttliches Licht [videlina] }
-
-    \line {   "   " erleuchtet diese Schönheit. }
-
-  }
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "1."
+        \column {
+          "Unendliche Weite,"
+          "wunderbare Schönheit und Frieden,"
+          "Sonne für die menschlichen Seelen"
+          "bringt unaufhörlich die Liebe."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "2."
+        \column {
+          "Das gute Leben strömt"
+          "in den warmen Sonnenstrahlen"
+          "und die Seelen lobpreisen im Licht"
+          "den gütigen Vater der Liebe."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "3."
+        \column {
+          "Alles ist Liebe,"
+          "Freude, Kraft und Leben."
+          "Heiges, göttliches Licht [videlina]"
+          "erleuchtet diese Schönheit."
+        }
+      }
+    }\hspace #0.1
   }
 }

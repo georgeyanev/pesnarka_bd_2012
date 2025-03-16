@@ -3,24 +3,24 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Dritter göttlicher Tag" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
   \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-    \line { " " }
-
-
-    \line { " "Und Gott sprach: „Es sammle sich das Wasser}
-    \line { " "unter dem Himmel.“ Und es geschah so.}
-    \line { " "Und es erschien das Trockene. Und Gott nannte es Erde.} 
-    \line { " " und die Sammlung der Wasser nannte er Meer.}
-    \line { " "Und Gott sprach, und es wuchs frisches Gras,}
-    \line { " "das Samen bringt, ein jedes nach seiner Art,}
-    \line { " " und Bäume, die da Früchte tragen, ein jeder nach seiner Art.}
-    \line { " " Und Gott sah, dass alles gut war.}
-    \line { " " Da ward Abend und es ward Morgen, der dritte Tag.}
-
-  }
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "  "
+        \column {
+         "Und Gott sprach: „Es sammle sich das Wasser"
+         "unter dem Himmel.“ Und es geschah so."
+         "Und es erschien das Trockene. Und Gott nannte es Erde."
+         "und die Sammlung der Wasser nannte er Meer."
+         "Und Gott sprach, und es wuchs frisches Gras,"
+         "das Samen bringt, ein jedes nach seiner Art,"
+         "und Bäume, die da Früchte tragen, ein jeder nach seiner Art."
+         "Und Gott sah, dass alles gut war."
+         "Da ward Abend und es ward Morgen, der dritte Tag."
+        }
+      }
+    }\hspace #0.1
   }
 }

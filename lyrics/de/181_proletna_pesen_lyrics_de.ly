@@ -3,30 +3,26 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Frühlingslied" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
- \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
- \line { " " Nun kommt der wundervolle Frühling; }
-
- \line { " " die Sonne geht auf. }
-
- \line { " " Alles erwacht, gedeiht, lebt, }
-
- \line { " " und freut sich und dankt Gott.}
-
- \line { " " Der Frühling, der Frühling ist da!}
-
- \line { " " Ein Vögelein am Himmel zwitschert süß, }
-
- \line { " " die Sonne übergießt freundlich }
- \line { " "die ganze Welt mit Freude und Liebe.}
-
- \line { " " Die ganze Welt frohlockt und dankt Gott! }
-
- \line { " " Der Frühling, der Frühling ist da!}
-
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold " "
+                \column {
+         "Nun kommt der wundervolle Frühling;"
+         "die Sonne geht auf."
+         "Alles erwacht, gedeiht, lebt,"
+         "und freut sich und dankt Gott."
+         "Der Frühling, der Frühling ist da!"
+         "Ein Vögelein am Himmel zwitschert süß,"
+         "die Sonne übergießt freundlich"
+         "die ganze Welt mit Freude und Liebe."
+         "Die ganze Welt frohlockt und dankt Gott!"
+         "Der Frühling, der Frühling ist da!"
+        }
+      }
+      
+    }\hspace #0.1
   }
- }
 }

@@ -3,34 +3,27 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Das Lied über die zwei Schwestern" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
-\fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-
-    \line { " "Ich trage in meinem Leben das Leid mit Freude – }
-
-    \line { " "es ist meine gute Freundin, die mich so gut lehrt. }
-
-    \line { " "Ich trage in meinem Leben das Leid mit Freude.}
-
-    \line { " "Es ist meine Freundin, die mich lehrt.}
-
-    \line { " "Obgleich ich unaufhörlich seufze, }
-
-    \line { " "bringt sie mich sanftmütig voran. }
-
-    \line { " "Und sie spricht zu mir süße Worte}
-
-    \line { " "über ihre Schwester Freude,}
-
-    \line { " "die mich mit Freude empfangen wird.}
-
-    \line { " "Dann erzitterte mein Herz zum ersten Mal }
-
-    \line { " "wegen meiner Schwester Freude.}
-
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \fill-line {
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "  "
+        \column {
+         "Ich trage in meinem Leben das Leid mit Freude –"
+         "es ist meine gute Freundin, die mich so gut lehrt."
+         "Ich trage in meinem Leben das Leid mit Freude."
+         "Es ist meine Freundin, die mich lehrt."
+         "Obgleich ich unaufhörlich seufze,"
+         "bringt sie mich sanftmütig voran."
+         "Und sie spricht zu mir süße Worte"
+         "über ihre Schwester Freude,"
+         "die mich mit Freude empfangen wird."
+         "Dann erzitterte mein Herz zum ersten Mal"
+         "wegen meiner Schwester Freude."
+        }
+      }
+      
+    }\hspace #0.1
   }
-}
 }

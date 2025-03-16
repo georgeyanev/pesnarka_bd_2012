@@ -3,7 +3,7 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Die Nachtigallen des Waldes" }
 \markup \null
 \markup \null
-\markup \abs-fontsize #11 {
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
 
   \fill-line {
     \hspace #0.1

@@ -3,19 +3,28 @@
 \markup \fill-line { \fontsize #deTitleFontSize "Me-hejn" }
 \markup \null
 \markup \null
-\markup  \abs-fontsize #11 {
+\markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){
   \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
-
-  \column {
-    \line { 1.  Ohne dich ist Finsternis, ohne dich ist Gram.}
-    \line { "   " Oh, göttlicher Strahl, bescheine mich.}
-    \line { "   " Trage in mein Herz Freude und Frieden.}
-    \vspace #0.5
-    \line {2. Ich erwache aus tiefem Schlaf }
-    \line { "   " und rufe dich als Kind an.}
-    \line { "   " Ich glaube immer, dass du}
-    \line { "   " über mich mit mütterlicher Liebe wachst.}
-  }
+    \hspace #0.1
+    \column {
+      \line {
+        \bold "1."
+        \column {
+          "Ohne dich ist Finsternis, ohne dich ist Gram."
+          "Oh, göttlicher Strahl, bescheine mich."
+          "Trage in mein Herz Freude und Frieden."
+        }
+      }
+      \vspace #1
+      \line {
+        \bold "2."
+        \column {
+          "Ich erwache aus tiefem Schlaf"
+          "und rufe dich als Kind an."
+          "Ich glaube immer, dass du"
+          "über mich mit mütterlicher Liebe wachst."
+        }
+      }
+    }\hspace #0.1
   }
 }
