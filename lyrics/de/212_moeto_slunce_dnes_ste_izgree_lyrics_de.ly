@@ -16,16 +16,13 @@
           "und sie wird lichte Freude in mein Leben bringen."
           "Dann werde ich, Mutter, mich bekunden,"
           "bereit sein, das Gute in der Welt zu bekunden."
-          "Ich werde gut denken,"
-          "ich werde gut fühlen,"
+          "Ich werde gut denken, ich werde gut fühlen,"
           "ich werde gut handeln, Mutter."
           "Du wirst, Mutter, einen guten Sohn haben."
           "Meine liebe Mutter, meine Sonne wird heute aufgehen"
-          "und sie wird mein Leben"
-          "mit Freude erfüllen."
+          "und sie wird mein Leben mit Freude erfüllen."
         }
       }
-      
     }\hspace #0.1
   }
 }

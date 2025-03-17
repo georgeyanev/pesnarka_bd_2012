@@ -3,29 +3,32 @@
 % include paper part and global functions
 \include "include/globals.ily"
 
+
 \bookpart {
   \label #'ref191
   \tocItem \markup "Новото Битие – Novoto Bitie"
   \label #'ref191_1
-  \tocItem \markup "     Първи Божествен ден – Părvi Božestven den"
+  \tocItem \markup "Първи Божествен ден – Părvi Božestven den"
   \include "include/bookpart-paper.ily"
-  \markup \center-column \normal-text \fontsize #6.5 {
-    \center-align
-    \line { "     Новото Битие – Създаването на новия Адам" }
+  \markup \center-column \normal-text {
     \center-align
 
+
+    \fill-line { \with-link #'ref_desc_18 \abs-fontsize #14  "Die nachfolgenden Lieder sind " }
     \vspace #0.5
-    \center-align
-    \line \fontsize #-3 { "     Novoto Bitie – Săzdavaneto na novija Adam" }
-    \vspace #-0.1
-    \center-align
-    \hspace #5.1
-    \line \abs-fontsize #13  { "Die Neue Genesis – Die Erschaffung des neuen Adam" }
-    %\vspace #-0.8
-    \center-align
-
-    \vspace #3
+    \fill-line { \with-link #'ref_desc_18 \abs-fontsize #14  "in der Zusammenarbeit zwischen Petar Danov," }
+    \vspace #0.5
+    \fill-line { \with-link #'ref_desc_18 \abs-fontsize #14  "Cvetana-Liliana Tabakova und Krăstjo Hristov entstanden" }
+    
+    \vspace #2
+    \fill-line { \with-link #'ref_desc_18 \abs-fontsize #17  "Новото Битие – Създаването на новия Адам" }
+    \vspace #0.5
+    \fill-line { \with-link #'ref_desc_18 \abs-fontsize #14  "Novoto Bitie – Săzdavaneto na novija Adam" }
+    \vspace #0.5
+    \fill-line { \with-link #'ref_desc_18 \abs-fontsize #14  "Die Neue Genesis – Die Erschaffung des neuen Adam" }
+    \vspace #2
   }
+
   \score {
     \include "include/score-layout.ily"
 
@@ -125,7 +128,7 @@
         }
       }
 
-      \markup \vspace #3
+      \markup \vspace #2
       % include foreign translation(s) of the song
       \include "../../lyrics/de/191_nb_parvi_bozhestven_den_lyrics_de.ly"
 

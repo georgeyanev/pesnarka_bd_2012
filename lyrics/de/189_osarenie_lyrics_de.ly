@@ -1,6 +1,6 @@
 \version "2.24.4"
 
-\markup \fill-line { \fontsize #deTitleFontSize "Steh' auf, Tochter!" }
+\markup \fill-line { \fontsize #deTitleFontSize "Erleuchtung" }
 \markup \null
 \markup \null
 \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){

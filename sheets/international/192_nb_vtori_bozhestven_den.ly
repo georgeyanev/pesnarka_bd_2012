@@ -95,7 +95,7 @@
           \fill-line \italic \huge { "" "" \concat {"attaca" "   " }}
         }
       }
-      \markup \vspace #3
+      \markup \vspace #1
       % include foreign translation(s) of the song
       \include "../../lyrics/de/192_nb_vtori_bozhestven_den_lyrics_de.ly"
 

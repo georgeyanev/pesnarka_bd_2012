@@ -143,7 +143,7 @@
       } % score
 
 
-
+      \markup \vspace #2
       % include foreign translation(s) of the song
       \include "../../lyrics/de/210_Gospodi_kolko_te_obicham_lyrics_de.ly"
     } % bookpart
