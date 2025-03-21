@@ -47,7 +47,7 @@
       \tempoFunc "Tempo di marcia" 4 "100"
       \autoBeamOff
 
-      a'4 b'8. a'16 | fis'4 d' | a'8. a'16 b'8 b' | a'2 b'4 a'8. g'16 | fis'4 d' | \break
+        a'4 b'8. a'16 | fis'4 d' | a'8. a'16 b'8 b' | a'2 b'4 a'8. g'16 | fis'4 d' | \break
       e'8. e'16 fis'8 e' | d'2 \bar ":|.|:" |
       a8 d' d' d' | a8 fis' fis' fis' | fis'8. e'16 fis'8 g' | \break  a'2 |
       b'8. b'16 b'8 b' | a'8 d'' a' g' |  fis'8 fis'8 e'8 e'8|  d'2 \bar ":|." \break |

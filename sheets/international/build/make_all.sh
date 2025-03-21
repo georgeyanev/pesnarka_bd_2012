@@ -171,7 +171,6 @@ cat \
     ../215_zora_na_noviya_zhivot.ly \
     ../216_otche_nash_ne_ni_vavezhdai.ly \
     ../217_strannik_sam.ly \
-    ../218_blank_page.ly \
     ../218_addendum.ly \
     ../219_dobrata_molitva.ly \
     ../220_molitva_ti_si_ioana.ly \
