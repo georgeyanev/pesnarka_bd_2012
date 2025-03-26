@@ -6,14 +6,84 @@
 \bookpart {
   \label #'ref068
   \tocItem \markup "Що е същността"
-  \include "include/bookpart-paper.ily"
+\paper {
+  print-all-headers = ##t
+  print-page-number = ##t
+  print-first-page-number = ##t
 
-  \header {
-    tagline = ##f
+
+  % put page numbers on the top and change the font style.
+  oddHeaderMarkup = \markup
+  \fill-line {
+    ""
+    \unless \on-first-page-of-part \fromproperty #'header:instrument
+    \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+  }
+  %% evenHeaderMarkup would inherit the value of
+  %% oddHeaderMarkup if it were not defined here
+  evenHeaderMarkup = \markup
+  \fill-line {
+    \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+    \unless \on-first-page-of-part \fromproperty #'header:instrument
+    ""
   }
 
+  oddFooterMarkup = \markup ""
+
+  evenFooterMarkup = ""
+  left-margin = 1.5\cm
+  right-margin = 1.5\cm
+  top-margin = 1\cm
+  bottom-margin = 1.2\cm
+  ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
+  top-markup-spacing.basic-distance = 0\mm % margin between page number and system for the first page
+  top-system-spacing.basic-distance = 10\mm % margin between page number and system for the other pages
+
+  % change distance between staves
+  system-system-spacing =
+  #'((basic-distance . 16)
+     (minimum-distance . 6)
+     (padding . 3)
+     (stretchability . 12))
+}
+
+\header {
+  tagline = ##f
+}
+
   \score {
-    \include "include/score-layout.ily"
+  \layout {
+  indent = 0.5\cm % remove first line indentation
+  ragged-last = ##f % do spread last line to fill the whole space
+  \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
+  \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
+  
+  \context {
+    \Score
+    \override MetronomeMark.font-size = #1.4 % increase the tempo fontsize
+    \override TupletNumber.font-size = #0.4 % increase the triol number
+  } % context
+
+  \context {
+    % change staff size
+    \Staff
+    \override StaffSymbol.thickness = #0.5
+    \override BarLine.hair-thickness = #1
+  }
+    \context {
+    % adjust space between staff and lyrics and between the two lyric lines l
+    \Lyrics
+    \override LyricHyphen.minimum-length = #0.5 %force a hyphen
+    \override LyricHyphen.minimum-distance = #1 %force a hyphen
+    %\override StanzaNumber.font-series = #'normal % make stanza number font normal
+        \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'(
+                                                                    (basic-distance . 4.5)
+                                                                    (padding . 1.5)
+                                                                    )
+    \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((minimum-distance . 3))
+    includeGraceNotes = ##t
+  }
+}
 
     \new Voice \absolute {
       \clef treble
