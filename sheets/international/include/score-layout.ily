@@ -1,6 +1,6 @@
 \version "2.24.4"
 \layout {
-  indent = 0.0\cm % remove first line indentation
+  indent = 0.7\cm % remove first line indentation
   ragged-last = ##f % do spread last line to fill the whole space
   \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
   \override Score.VoltaBracket.font-size = #-2.3 % make the repeat number fontsize smaller

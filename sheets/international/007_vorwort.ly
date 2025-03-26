@@ -121,13 +121,13 @@
   }
 
   \markup \override #'(line-width . 100) \abs-fontsize #11  {
-    \override #'(baseline-skip . 3.8) \vspace #1 \column {
+    \override #'(baseline-skip . 3.8) \vspace #1.2 \column {
       "    1."
     }
     \hspace #0.1
     \override #'(baseline-skip . 3.8) \column {
       \justify {
-        \italic"Brüderliche Lieder:" Dies sind alle Vokalkompositionen, die vorwiegend vor 1922 geschaffen wurden. Die meisten von ihnen sind aus der Zusammenarbeit zwischen Danov und seinen Schülern entstanden. Deshalb wurden viele der Melodien oder Texte in diesem Teil des Sammelbandes von ihnen nach seinen Ideen geschaffen. Manche Melodien und Texte wurden Liedern der protestantischen Kirchen entlehnt; ebenso gab es im Repertoire kirchenslawische Gesänge. In dieser Zeit war der mehrstimmige Gesang der Lieder gängige Praxis. Zu diesem Teil wurden einige Lieder seiner direkten Schüler hinzugefügt, die nach 1944 von ihnen komponiert wurden.
+        \italic"Brüderliche Lieder:" Dies sind alle Vokalkompositionen, die vorwiegend vor 1922 geschaffen wurden. Die meisten von ihnen sind aus der Zusammenarbeit zwischen Danov und seinen Schülern entstanden. Deshalb wurden viele der Melodien oder Texte in diesem Teil des Sammelbandes von ihnen nach seinen Ideen geschaffen. Manche Melodien und Texte wurden Liedern der protestantischen Kirchen entlehnt; ebenso gab es im Repertoire kirchenslawische Gesänge. In dieser Zeit war der mehrstimmige Gesang der Lieder gängige Praxis. Zu diesem Teil wurden einige Lieder seiner direkten Schüler hinzugefügt, die nach 1944 komponiert wurden.
 
       }
     }

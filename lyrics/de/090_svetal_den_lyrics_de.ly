@@ -1,6 +1,6 @@
 \version "2.24.4"
 
-\markup \fill-line { \fontsize #2.5 "Lichter Tag" }
+\markup \fill-line { \fontsize #deTitleFontSize "Lichter Tag" }
 
 \markup \null
 \markup \null
