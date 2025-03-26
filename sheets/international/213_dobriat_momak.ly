@@ -4,7 +4,7 @@
 \include "include/globals.ily"
 \bookpart {
   \label #'ref300
-  \tocItem \markup "Бащина песен – Добрият момък"
+  \tocItem \markup "Бащина песен – Добрият момък – Dobrijat momăk"
   \include "include/bookpart-paper.ily"
 
   \score {
@@ -422,7 +422,7 @@
     }
 
     \header {
-     title = \titleFunc  "Бащина песен – Добрият момък" "Baština pesen – Dobriat momak"
+     title = \titleFunc  "Бащина песен – Добрият момък" "Baština pesen – Dobrijat momăk"
     }
 
     \midi{}

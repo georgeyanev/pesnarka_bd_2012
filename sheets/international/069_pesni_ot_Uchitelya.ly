@@ -5,7 +5,7 @@
 
 \bookpart {
 
-  \tocAct \markup"Lieder des Meisters"
+  \tocAct \markup"Lieder von Petar Danov"
   \paper {
     print-all-headers = ##f
     print-page-number = ##f
@@ -34,7 +34,7 @@
 
   \markup { {  \vspace #18 } }
 
-  \markup \abs-fontsize #20 { \fill-line {"Lieder des Meisters"} }
+  \markup \abs-fontsize #20 { \fill-line {"Lieder von Petar Danov"} }
 
   % include foreign translation(s) of the song
   %

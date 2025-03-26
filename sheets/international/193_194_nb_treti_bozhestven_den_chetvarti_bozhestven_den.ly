@@ -370,7 +370,7 @@
                   \fill-line \italic { "" "" \concat {"attaca" "   " }}
                 }
               }
-\markup \vspace #2
+              \markup \vspace #2
               % include foreign translation(s) of the song
               \include "../../lyrics/de/195_nb_peti_bozhestven_den_lyrics_de.ly"
 

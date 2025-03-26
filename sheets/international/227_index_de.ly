@@ -48,6 +48,7 @@
     \with-link #'ref150 \fill-with-pattern #1 #RIGHT . "Bălgarska idilija – Българска идилия" \page-ref #'ref150 "000" "?"
     \with-link #'ref146 \fill-with-pattern #1 #RIGHT . "Bălgarska rapsodija – Българска рапсодия" \page-ref #'ref146 "000" "?"
     \with-link #'ref138 \fill-with-pattern #1 #RIGHT . "Baština pesen – Ugledna moma – Бащина песен – Угледна мома" \page-ref #'ref138 "000" "?"
+    \with-link #'ref138 \fill-with-pattern #1 #RIGHT . "Baština pesen – Dobrijat momăk – Бащина песен – Добрият момък" \page-ref #'ref138 "000" "?"
     \with-link #'ref163 \fill-with-pattern #1 #RIGHT . "Berhan-Azi – Берхан-Ази"  \page-ref #'ref163 "000" "?"
     \with-link #'ref098 \fill-with-pattern #1 #RIGHT . "Beršid Ba –Бершид Ба" \page-ref #'ref098 "000" "?"
     \with-link #'ref074 \fill-with-pattern #1 #RIGHT . "Blaga duma – Блага дума" \page-ref #'ref074 "000" "?"
@@ -82,15 +83,15 @@
     \with-link #'ref210 \fill-with-pattern #1 #RIGHT . "Gospodi, kolko Te običam! – Господи, колко Те обичам!" \page-ref #'ref210 "000" "?"
     \with-link #'ref078 \fill-with-pattern #1 #RIGHT . "Gree, gree – Грее, грее" \page-ref #'ref078 "000" "?"
     \with-link #'ref202 \fill-with-pattern #1 #RIGHT . "Himn na Slănceto – Химн на Слънцето" \page-ref #'ref202 "000" "?"
+    \with-link #'ref104 \fill-with-pattern #1 #RIGHT . "Himn na Velikata duša – Химн на Великата душа " \page-ref #'ref104 "000" "?"
+    \with-link #'ref088 \fill-with-pattern #1 #RIGHT . "Hodi, hodi – Ходи, ходи." \page-ref #'ref088 "000" "?"
+    \with-link #'ref056_1 \fill-with-pattern #1 #RIGHT . "Idvat dni na radost–Идват дни на радост" \page-ref #'ref056_1 "000" "?"
 
   }
 
   \markup \override #'(baseline-skip . 3.2)
   \column \abs-fontsize #11 {
 
-    \with-link #'ref104 \fill-with-pattern #1 #RIGHT . "Himn na Velikata duša – Химн на Великата душа " \page-ref #'ref104 "000" "?"
-    \with-link #'ref088 \fill-with-pattern #1 #RIGHT . "Hodi, hodi – Ходи, ходи." \page-ref #'ref088 "000" "?"
-    \with-link #'ref056_1 \fill-with-pattern #1 #RIGHT . "Idvat dni na radost–Идват дни на радост" \page-ref #'ref056_1 "000" "?"
     \with-link #'ref172 \fill-with-pattern #1 #RIGHT . "Igrata na potočeto – Играта на поточето" \page-ref #'ref172 "000" "?"
     \with-link #'ref083_3 \fill-with-pattern #1 #RIGHT . "Imaše čelovek – Имаше человек" \page-ref #'ref083_3 "000" "?"
     \with-link #'ref030 \fill-with-pattern #1 #RIGHT . "Izgrej ti, moe Slănce – Изгрей ти, мое Слънце" \page-ref #'ref030 "000" "?"
@@ -125,6 +126,7 @@
     \with-link #'ref223 \fill-with-pattern #1 #RIGHT . "Melodija 4 – Ozarenie –Мелодия 4 – Озарение" \page-ref #'ref223 "000" "?"
     \with-link #'ref038 \fill-with-pattern #1 #RIGHT . "Milosărdieto – Милосърдието" \page-ref #'ref038 "000" "?"
     \with-link #'ref171_1 \fill-with-pattern #1 #RIGHT . "Milost, blagost – Милост, благост" \page-ref #'ref171_1 "000" "?"
+    \with-link #'ref156 \fill-with-pattern #1 #RIGHT . "Mirăt ide veche – Мирът иде вече" \page-ref #'ref156 "000" "?"
     \with-link #'ref156 \fill-with-pattern #1 #RIGHT . "Mirăt ide I – Мирът иде I" \page-ref #'ref156 "000" "?"
     \with-link #'ref158 \fill-with-pattern #1 #RIGHT . "Mirăt ide II – Мирът иде II." \page-ref #'ref158 "000" "?"
     \with-link #'ref093 \fill-with-pattern #1 #RIGHT . "Misli, pravo misli – Мисли, право мисли" \page-ref #'ref093 "000" "?"
@@ -134,17 +136,17 @@
     \with-link #'ref178 \fill-with-pattern #1 #RIGHT . "Molitva (Čuj, Gospodi) – Молитва (Чуй, Господи)" \page-ref #'ref178 "000" "?"
     \with-link #'ref222 \fill-with-pattern #1 #RIGHT . "Molitva (Gospodi, Ти си...) – Молитва (Господи, Ти си ...)" \page-ref #'ref222 "000" "?"
     \with-link #'ref204 \fill-with-pattern #1 #RIGHT . "Molitva (Vjarvam văv Tebe ...) – Молитва (Вярвам във Тебе ...)." \page-ref #'ref204 "000" "?"
-  }
-
-  \markup \override #'(baseline-skip . 3.2)
-  \column \abs-fontsize #11 {
-
     \with-link #'ref087 \fill-with-pattern #1 #RIGHT . "Musala – Мусала" \page-ref #'ref087 "000" "?"
     \with-link #'ref058 \fill-with-pattern #1 #RIGHT . "Na belija cvjat – На белия цвят" \page-ref #'ref058 "000" "?"
     \with-link #'ref060 \fill-with-pattern #1 #RIGHT . "Na Hrista zapejte – На Христа запейте" \page-ref #'ref060 "000" "?"
     \with-link #'ref037 \fill-with-pattern #1 #RIGHT . "Na Učitelja – На Учителя" \page-ref #'ref037 "000" "?"
     \with-link #'ref036 \fill-with-pattern #1 #RIGHT . "Napred da hodim – Напред да ходим" \page-ref #'ref036 "000" "?"
     \with-link #'ref048 \fill-with-pattern #1 #RIGHT . "Napred, čada, napredv – Напред, чада, напред" \page-ref #'ref048 "000" "?"
+   
+  }
+
+  \markup \override #'(baseline-skip . 3.2)
+  \column \abs-fontsize #11 {
     \with-link #'ref154 \fill-with-pattern #1 #RIGHT . "Ne li dumah – Не ли думах" \page-ref #'ref154 "000" "?"
     \with-link #'ref050 \fill-with-pattern #1 #RIGHT . "Nebeto se otvarja – Небето се отваря" \page-ref #'ref050 "000" "?"
     \with-link #'ref091 \fill-with-pattern #1 #RIGHT . "Neva Sanzu – Нева санзу" \page-ref #'ref091 "000" "?"
@@ -185,11 +187,6 @@
     \with-link #'ref073 \fill-with-pattern #1 #RIGHT . "Sladko, medeno – Сладко, медено" \page-ref #'ref073 "000" "?"
     \with-link #'ref055_1 \fill-with-pattern #1 #RIGHT . "Slănceto na Ljubovta – Слънцето на Любовта" \page-ref #'ref055_1 "000" "?"
     \with-link #'ref125 \fill-with-pattern #1 #RIGHT . "Slănčeva pesen – pčelna mušička– Слънчева песен – пчелна мушичка" \page-ref #'ref125 "000" "?"
-  }
-
-  \markup \override #'(baseline-skip . 3.2)
-  \column \abs-fontsize #11 {
-
     \with-link #'ref053 \fill-with-pattern #1 #RIGHT . "Slava Božija – Слава Божия" \page-ref #'ref053 "000" "?"
     \with-link #'ref049 \fill-with-pattern #1 #RIGHT . "Slavejčeta gorski – Славейчета горски" \page-ref #'ref049 "000" "?"
     \with-link #'ref174_2 \fill-with-pattern #1 #RIGHT . "Slušam – Слушам" \page-ref #'ref174_2 "000" "?"
@@ -200,6 +197,11 @@
     \with-link #'ref029 \fill-with-pattern #1 #RIGHT . "Stradna dušo – Страдна душо" \page-ref #'ref029 "000" "?"
     \with-link #'ref217 \fill-with-pattern #1 #RIGHT . "Strannik săm v tozi svjat – Странник съм в този свят" \page-ref #'ref217 "000" "?"
     \with-link #'ref126 \fill-with-pattern #1 #RIGHT . "Studăt vsičko dava – Студът всичко дава" \page-ref #'ref126 "000" "?"
+  }
+
+  \markup \override #'(baseline-skip . 3.2)
+  \column \abs-fontsize #11 {
+
     \with-link #'ref032 \fill-with-pattern #1 #RIGHT . "Šumi – Шуми" \page-ref #'ref032 "000" "?"
     \with-link #'ref090 \fill-with-pattern #1 #RIGHT . "Svetăl den – Светъл ден" \page-ref #'ref090 "000" "?"
     \with-link #'ref169_2 \fill-with-pattern #1 #RIGHT . "Svoboda e potrebna za dušata – Свобода е потребна за душата" \page-ref #'ref169_2 "000" "?"
@@ -211,7 +213,6 @@
     \with-link #'ref055_2 \fill-with-pattern #1 #RIGHT . "Ti Si projavenata Ljubov – Ти Си проявената Любов" \page-ref #'ref055_2 "000" "?"
     \with-link #'ref214 \fill-with-pattern #1 #RIGHT . "Ti šte spolučiš v života – Ти ще сполучиш в живота"  \page-ref #'ref214 "000" "?"
     \with-link #'ref114 \fill-with-pattern #1 #RIGHT . "Toj ide – Той иде" \page-ref #'ref114 "000" "?"
-
     \with-link #'ref080_1 \fill-with-pattern #1 #RIGHT . "V mrak tămnota – В мрак, тъмнота" \page-ref #'ref080_1 "000" "?"
     \with-link #'ref094 \fill-with-pattern #1 #RIGHT . "V načalo be Slovoto – В начало бе Словото" \page-ref #'ref094 "000" "?"
     \with-link #'ref110_2 \fill-with-pattern #1 #RIGHT . "V pustinjata na života – В пустинята на живота" \page-ref #'ref110_2 "000" "?"

@@ -5,7 +5,7 @@
 
 \bookpart {
 
-  \tocAct \markup"Братски песни"
+  \tocAct \markup "Brüderliche Lieder"
   \paper {
     print-all-headers = ##f
     print-page-number = ##f

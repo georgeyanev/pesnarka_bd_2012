@@ -5,7 +5,7 @@
 
 \bookpart {
 
-  \tocAct \markup"Nach 1944 veröffentlichte Lieder"
+  \tocAct \markup "Nach 1944 veröffentlichte Lieder"
   \paper {
     print-all-headers = ##f
     print-page-number = ##f
@@ -27,19 +27,17 @@
 
     left-margin = 1.5\cm
     right-margin = 1.5\cm
-    top-margin = 1.2\cm
-    bottom-margin = 1.0\cm
+    top-margin = 1.6\cm
+    bottom-margin = 1.2\cm
     ragged-bottom = ##t % do not spread the staves to fill the whole vertical space
   }
 
-  \markup { {  \vspace #17.2 } }
+  \markup { {  \vspace #18 } }
 
-  \markup \abs-fontsize #17 { \fill-line \bold {"Nach 1944 veröffentlichte Lieder"} }
-
-
+  \markup \abs-fontsize #20 { \fill-line {"Nach 1944 veröffentlichte Lieder"} }
 
   % include foreign translation(s) of the song
-  %\include "../../lyrics/de/000_empty_template_lyrics_de.ly"
+  %
 
 } % bookpart
 

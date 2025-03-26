@@ -11,12 +11,15 @@
       \line {
         \bold " "
         \column {
-          "Ich werde mich verjüngen, du wirst dich verjüngen, er wird sich verjüngen."
-          "Das sagte mir die Liebe. Das sagte mir die Liebe."
-          "Wir, die wir dem Weg des Guten folgen, werden uns verjüngen,"
-          "ihr, die ihr dem Weg des Guten folgt, werdet euch verjüngen."
-          "sie, die dem Weg des Guten folgt, werden sich verjüngen."
-          "Das sagte uns die Liebe. Das sagte uns die Liebe."
+          "Ach, mein Sohn, weißt du,"
+          "was die Nachbarn ¸ber dich sprechen?"
+          "Dass du die Herde im Gebirge alleine gelassen hast"
+          "und abends zur¸ckgekehrt bist,"
+          "um M‰dchen abends auf dem Dorfplatz zu treffen."
+          "Mädchen, die Treffen anzetteln, anzetteln"
+          "sie zetteln sie an, aber sie verderben auch."
+          "Ein Mädchen, mein Sohn,"
+          "wählt man nicht am Abend aus."
         }
       }
     }\hspace #0.1

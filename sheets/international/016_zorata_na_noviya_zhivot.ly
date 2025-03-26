@@ -56,7 +56,7 @@
         \repeat unfold 32 { \skip 2 } (*ži -- vot)}
 
         \header {
-          title = \titleFunc "Зората на новия живот" "Zorata na novija život - Die Morgenrote des neuen Lebens"
+          title = \titleFunc "Зората на новия живот" "Zorata na novija život"
         }
 
         \midi{}
