@@ -100,7 +100,7 @@
         \fill-line {
           \hspace #0.1
           \column {
-            \vspace #1
+           
             \line{ \italic"    Припев:"}
             %\vspace #0.3
             \line {
@@ -163,7 +163,7 @@
           % adds horizontal spacing between columns
           \column {
             % adds vertical spacing between verses
-            \vspace #1
+          
             \line{ \italic"    Припев:"}
             \line {
               "   "

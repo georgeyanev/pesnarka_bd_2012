@@ -3,47 +3,7 @@
 % include paper part and global functions
 \include "include/globals.ily"
 
-"rightBraces018a" = \markup {
-  \column {
-    % repeat braces
-    \translate #'(0 . -8.1 )
-    \right-brace #22
 
-  }
-  \column {
-    % repeat numbers
-    \translate #'(0 . -8.9 )
-    2
-  }
-}
-
-"rightBraces018b" = \markup {
-  \column {
-    % repeat braces
-    \translate #'(0 . -4.4 )
-    \right-brace #48
-
-  }
-  \column {
-    % repeat numbers
-    \translate #'(0 . -5.2 )
-    2
-  }
-}
-
-"rightBraces018c" = \markup {
-  \column {
-    % repeat braces
-    \translate #'(0 . -9.7 )
-    \right-brace #22
-
-  }
-  \column {
-    % repeat numbers
-    \translate #'(0 . -11.2 )
-    2
-  }
-}
 
 \bookpart {
   \label #'ref018
@@ -141,7 +101,7 @@
       та  __  о -- би -- лен из -- "вор  –" Мъд -- рост -- та. __
     }
 
-     \addlyrics {
+    \addlyrics {
       \set stanza = "1. " Iz -- lja -- zăl e se -- jač da se -- e __
       pre -- kras -- no bla -- "go  –" nov ži -- vot. __ I
       se -- e toj, i ti -- ho pe -- e __ pred vse -- ki
@@ -161,97 +121,24 @@
 
   } % score
 
-       \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
-        \fill-line {
-          \hspace #0.1
-          \column {
-           \line {
-          \bold "2."
-          \column {
-            "И който чуе, в миг потръпва"
-            "от тоя благ и мил напев;"
-            "и просиява, и възкръсва,"
-            "и благославя тоз посев."
-          }  \"rightBraces018a"
-        }
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+    \fill-line {
+      \hspace #0.1
+      \column {
 
-        \vspace #1.1
-        \line{ \italic"    Припев:"}
-        %\vspace #0.3
-        \line {
-          "   "
-          \column {
-            "Безценен дар е Любовта,"
-            "красиво чувство – обичта"
-            "и благо дело – милостта,"
-            "обилен извор – Мъдростта."
-          } \"rightBraces018b"
-        }
-        \vspace #1
-        \line {
-          \bold "3."
-          \column {
-            "Любов вселената облива,"
-            "от обич грее всяка твар;"
-            "живот в живота се прелива,"
-            "тук няма вече млад и стар."
-          } \"rightBraces018a"
-        }
-        \vspace #1
-        \line {
-          \bold " "
-          \column {
-            \italic "  Припев ..."
-          }
-        }
-            
-          }
-          \hspace #0.1
-          % adds horizontal spacing between columns
-          \column {
-            % adds vertical spacing between verses
-             \line {
-          \bold "2."
-          \column {
-            "I kojto čue, v mig potrăpva"
-            "ot toja blag i mil napev;"
-            "i prosijava, i văzkrăsva,"
-            "i blagoslavja toz posev."
-          }  \"rightBraces018a"
-        }
+        %BULGARIAN TEXT
 
-        \vspace #1.1
-        \line{ \italic"    Pripev:"}
-        %\vspace #0.3
-        \line {
-          "   "
-          \column {
-            "Bezcenen dar e Ljubovta,"
-            "krasivo čuvstvo – običta"
-            "i blago delo – milostta,"
-            "obilen izvor – Mădrostta."
-          } \"rightBraces018b"
-        }
-        \vspace #1
-        \line {
-          \bold "3."
-          \column {
-            "Ljubov vselenata obliva,"
-            "ot obič gree vsjaka tvar;"
-            "život v života se preliva,"
-            "tuk njama veče mlad i star."
-          } \"rightBraces018a"
-        }
-        \vspace #1
-        \line {
-          \bold " "
-          \column {
-            \italic "  Pripev ..."
-          }
-        }
-          }\hspace #0.1
-        }
       }
+      \hspace #0.1
+      % adds horizontal spacing between columns
+      \column {
+        % adds vertical spacing between verses
+
+        %LATIN TEXT
+
+      }\hspace #0.1
+    }
+  }
 
   \markup \vspace #2
 

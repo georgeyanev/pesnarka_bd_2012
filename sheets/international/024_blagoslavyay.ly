@@ -51,7 +51,7 @@
       ри -- ни! Не заб -- ра -- вяй ми -- лост -- та
       Му, не заб -- ра -- вяй бла -- гост -- та Му, не
       заб -- ра -- вяй о -- бич -- та Му, не заб -- ра
-      -- вяй Лю -- бов -- та Му! Не заб та Му!
+      -- вяй Лю -- бов -- та Му! Не "заб -" та Му!
     }
 
     \addlyrics {
@@ -63,7 +63,7 @@
       ri -- ni! Ne zab -- ra -- vjaj mi -- lost -- ta
       Mu, ne zab -- ra -- vjaj bla -- gost -- ta Mu, ne
       zab -- ra -- vjaj o -- bič -- ta Mu, ne zab -- ra
-      -- vjaj Lju -- bov -- ta Mu! Ne zab ta Mu!
+      -- vjaj Lju -- bov -- ta Mu! Ne "zab -" ta Mu!
     }
 
 

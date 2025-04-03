@@ -34,7 +34,7 @@
        \vspace #1.5
     }
 
-    tocItemMarkup = \markup  \abs-fontsize #11 { \vspace #1.1 \fill-line {
+    tocItemMarkup = \markup  \abs-fontsize #11 { \vspace #1.2 \fill-line {
       \fromproperty #'toc:text \tocItemWithDotsMarkup \fromproperty #'toc:page
     } }
 

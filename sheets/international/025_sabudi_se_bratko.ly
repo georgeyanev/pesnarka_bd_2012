@@ -6,19 +6,16 @@
 "rightBraces025" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -21.7 )
-    \right-brace #41
-
+    \translate #'(0 . -4.5 )
+    \right-brace #48
   }
   \column {
     % repeat numbers
-
-
-    \translate #'(0 . -22.6 )
+    \translate #'(0 . -5.2 )
     2
-
   }
 }
+
 
 
 \bookpart {
@@ -58,20 +55,21 @@
     }
 
     \addlyrics {
-      \set stanza = "1." Съ -- бу -- ди -- се, брат -- ко ми -- ли,
+      \set stanza = "1. " Съ -- бу -- ди -- се, брат -- ко ми -- ли,
       от дъл -- бок сън ти ста -- ни и ве -- ри -- ги -- те ве --
-      ков -- ни от но -- зе -- те си сне -- ми.
-      Лю -- бов -- та е тво -- я май -- ка, тво -- я си -- ла
+      ков -- ни от но -- зе -- те си сне -- ми!
+      Лю -- бов -- та е тво -- я май -- ка, тво -- я си -- ла,
       твой пи -- лот: тя ще те из -- пра -- ви
-      креп -- ко, тя ще ти да -- ри Жи -- вот. вот.
+      креп -- ко, тя ще ти да -- ри жи -- вот. вот.
     }
-    \addlyrics {
-      \set stanza = "1." Să -- bu -- di -- se, brat -- ko mi -- li,
+
+     \addlyrics {
+      \set stanza = "1. " Să -- bu -- di -- se, brat -- ko mi -- li,
       ot dăl -- bok săn ti sta -- ni i ve -- ri -- gi -- te ve --
-      kov -- ni ot no -- ze -- te si sne -- mi.
-      Lju -- bov -- ta e tvo -- ja maj -- ka, tvo -- ja si -- la
+      kov -- ni ot no -- ze -- te si sne -- mi!
+      Lju -- bov -- ta e tvo -- ja maj -- ka, tvo -- ja si -- la,
       tvoj pi -- lot: tja šte te iz -- pra -- vi
-      krep -- ko, tja šte ti da -- ri Ži -- vot. vot.
+      krep -- ko, tja šte ti da -- ri ži -- vot. vot.
     }
 
     \header {
@@ -82,85 +80,123 @@
 
   } % score
 
-  \markup \empty-two
+  \markup \vspace #1
 
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+    \fill-line {
+      \hspace #0.1
+      \column {
+        \line {
+          \bold "2."
+          \column {
+            "Напусни затвори тъмни,"
+            "вън е вредом светлина,"
+            "мир и радост те очакват"
+            "и блажена сетнина."
+          }
+        }
+        \vspace #1
+        \line{ \italic"    Припев:"}
+        \line {
+          "   "
+          \column {
+            "Любовта е твой учител,"
+            "живо Слово да ще ти"
+            "на добро ще те научи,"
+            "в Мъдрост ще те посвети."
+          }\"rightBraces025"
+        }
+        \vspace #1
+        \line {
+          \bold "3."
+          \column {
+            "И на брата си продумай"
+            "сладка дума с подтик нов;"
+            "ти сърцето му да стоплиш"
+            "с твойта искрена любов."
+          }
+        }
+      }
+      \hspace #0.1
+      % adds horizontal spacing between columns
+      \column {
+        % adds vertical spacing between verses
 
-  \markup \abs-fontsize #11 {
-    \hspace #7
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
+        \column {
+          \line {
+            \bold "2."
+            \column {
+              "Napusni zatvori tămni,"
+              "văn e vredom svetlina,"
+              "mir i radost te očakvat"
+              "i blažena setnina."
+            }
+          }
+          \vspace #1
+          \line{ \italic"    Pripev:"}
+          \line {
+            "   "
+            \column {
+              "Ljubovta e tvoj učitel,"
+              "živo Slovo da šte ti"
+              "na dobro šte te nauči,"
+              "v Mădrost šte te posveti."
+            }\"rightBraces025"
+          }
+        }
+        \vspace #1
+        \line {
+          \bold "3."
+          \column {
+            "I na brata si produmaj"
+            "sladka duma s podtik nov;"
+            "ti sărceto mu da stopliš"
+            "s tvojta iskrena ljubov."
+          }
+        }
 
-    \column {
-
-      \line { 2.  Напусни затвори тъмни, }
-      \line {   "   " вън е вредом светлина, }
-      \line {   "   " Мир и Радост те очакват }
-      \line {   "   " и блажена сетнина. }
-      \vspace #0.5
-      \line { "   " \italic {Припев: } }
-      \line { "   "Любовта е твой учител, }
-      \line {   "   " живо Слово да ще ти, }
-      \line {   "   " на Добро ще те научи, }
-      \line {   "   " в Мъдрост ще те посвети. }
-
+      }\hspace #0.1
     }
-    \"rightBraces025"
-
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
-    \column {
-
-      \line { 2.  Napusni zatvori tămni, }
-      \line {   "   " văn e vredom svetlina, }
-      \line {   "   " Mir i Radost te očakvat }
-      \line {   "   " i blažena setnina. }
-      \vspace #0.5
-      \line { "   " \italic {Refrain: } }
-      \line { "   "Ljubovta e tvoj učitel, }
-      \line {   "   " živo Slovo da šte ti, }
-      \line {   "   " na Dobro šte te nauči, }
-      \line {   "   " v Mădrost šte te posveti. }
-
-    } %column
-    \"rightBraces025"
-  } % markup
+  }
 
   \pageBreak
 
-  \markup \abs-fontsize #11 {
-    \hspace #7
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
-    \column {
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+    \fill-line {
+      \hspace #0.1
+      \column {
 
+        \line{ \italic"    Припев:"}
+        \line {
+          "   "
+          \column {
+            "Любовта е твой спасител,"
+            "нея в помощ призови:"
+            "тя душата ти от гнета"
+            "скоро ще освободи."
+          } \"rightBraces025"
+        }
 
-      \line { 3. И на брата си продумай }
-      \line {   "   " сладка дума с подтик нов; }
-      \line {   "   " ти сърцето му да стоплиш }
-      \line {   "   " с твойта искрена любов. }
-      \vspace #0.5
-      \line { "   " \italic {Припев: } }
-      \line { "   "Любовта е твой спасител, }
-      \line {   "   " нея в помощ призови: }
-      \line {   "   " тя душата ти от гнета }
-      \line {   "   " скоро ще освободи. }
-    } \"rightBraces025"
+      }
+      \hspace #0.1
+      % adds horizontal spacing between columns
+      \column {
 
+        \line{ \italic"    Pripev:"}
+        \line {
+          "   "
+          \column {
+            "Ljubovta e tvoj spasitel,"
+            "neja v pomošt prizovi:"
+            "tja dušata ti ot gneta"
+            "skoro šte osvobodi."
+          } \"rightBraces025"
+        }
 
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip) % affects space between column lines
-    \column {
-      \line { 3. I na brata si produmaj }
-      \line {   "   " sladka duma s podtik nov; }
-      \line {   "   " ti sărceto mu da stopliš }
-      \line {   "   " s tvojta iskrena ljubov. }
-      \vspace #0.5
-      \line { "   " \italic {Refrain: } }
-      \line { "   "Ljubovta e tvoj spasitel, }
-      \line {   "   " neja v pomošt prizovi: }
-      \line {   "   " tja dušata ti ot gneta }
-      \line {   "   " skoro šte osvobodi. }
-    } %column
-    \"rightBraces025"
-  } % markup
+      }\hspace #0.1
+    }
+  }
+
 
   \markup \vspace #2
 

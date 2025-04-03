@@ -41,7 +41,7 @@
       a'4 g'4 | f'4 e'4 | d'4 a4 | d'4 e'4 | f'4 e'4 | d'2 | d'2 | \bar "|."
     }
 
-    \addlyrics {
+      \addlyrics {
       Ще се раз -- ве -- се -- ля пре -- мно -- го за --
       ра -- ди Гос -- по -- да, ду -- ша -- та ми ще се
       за -- ра -- ду -- ва в~Бо -- га мо -- е -- го, го: За --
@@ -54,7 +54,8 @@
       ви -- ца, пре -- из -- бра -- на от дру -- гар -- ки -- те си.
     }
 
-    \addlyrics {
+
+        \addlyrics {
       Šte se raz -- ve -- se -- lja pre -- mno -- go za --
       ra -- di Gos -- po -- da, du -- ša -- ta mi šte se
       za -- ra -- du -- va v~Bo -- ga mo -- e -- go, go: Za --
@@ -66,6 +67,7 @@
       na -- ki -- te -- na săs ut -- va -- ri -- te si, ka -- to de --
       vi -- ca, pre -- iz -- bra -- na ot dru -- gar -- ki -- te si.
     }
+
     \header {
       title = \titleFunc "Ще се развеселя" "Šte se razveselja"
     }

@@ -37,7 +37,7 @@
       }
     }
 
-    \addlyrics {
+   \addlyrics {
       Брат -- ство, е -- дин -- ство ни -- е ис -- ка -- ме,
       зо -- ва на Лю -- бов -- та ни -- е пус -- ка -- ме, ми -- ра на ра -- дост -- та
       ни -- е ви -- ка -- ме: благ жи -- вот в~нас да вли -- ва -- ме,
@@ -47,7 +47,7 @@
       да вли -- ва -- ме, да вли -- ва -- ме.
     }
 
-    \addlyrics {
+  \addlyrics {
       Brat -- stvo, e -- din -- stvo ni -- e is -- ka -- me,
       zo -- va na Lju -- bov -- ta ni -- e pus -- ka -- me, mi -- ra na ra -- dost -- ta
       ni -- e vi -- ka -- me: blag ži -- vot v~nas da vli -- va -- me,

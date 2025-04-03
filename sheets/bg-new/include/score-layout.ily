@@ -4,7 +4,7 @@
   ragged-last = ##f % do spread last line to fill the whole space
   \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
   \override Score.VoltaBracket.font-size = #-1.7 % make the repeat number fontsize smaller
-  
+
   \context {
     \Score
     \override MetronomeMark.font-size = #1.4 % increase the tempo fontsize
@@ -17,11 +17,12 @@
     \override StaffSymbol.thickness = #0.5
     \override BarLine.hair-thickness = #1
   }
-    \context {
+  \context {
     % adjust space between staff and lyrics and between the two lyric lines l
     \Lyrics
     \override LyricHyphen.minimum-length = #0.5 %force a hyphen
     \override LyricHyphen.minimum-distance = #1 %force a hyphen
     %\override StanzaNumber.font-series = #'normal % make stanza number font normal
+
   }
 } % layout

@@ -3,6 +3,19 @@
 % include paper part and global functions
 \include "include/globals.ily"
 
+"rightBraces022" = \markup {
+  \column {
+    % repeat braces
+    \translate #'(0 . -8.2 )
+    \right-brace #20
+  }
+  \column {
+    % repeat numbers
+    \translate #'(0 . -9 )
+    2
+  }
+}
+
 \bookpart {
   \label #'ref022
   \tocItem \markup "Изгрява вече ден тържествен – Izgrjava veče den tăržestven"
@@ -28,8 +41,8 @@
       \time 4/4  bes'4. a'8 a'4. g'8 |  \time 3/4  a'4 a'2 | \time 5/4  c''4. c''8 d''4 g'2 \break |
       f'4. g'8 a'4 \staccato a'4. d'8 | f'4. d'8 f'4 e'2 | \time 2/4 d'4. a8 | \time 5/4 d'4 d'2 r8 \bar "|."
     }
-    \addlyrics {
-      \set stanza = "1." Из -- гря -- ва ве -- че ден тър -- жест -- вен, __ пред -- ре -- че
+     \addlyrics {
+      \set stanza = "1. " Из -- гря -- ва ве -- че ден тър -- жест -- вен, __ пред -- ре -- че
       -- ни -- ят ден Бо -- жест -- вен, на дни --
       те ди -- а -- де -- ма, със свет -- ли -- на го
       -- ля -- ма. Е -- ла -- те да жи -- ве -- ем във
@@ -40,8 +53,8 @@
       та об -- но -- вя -- ва и веч -- но тя го под
       -- мла -- дя -- ва.
     }
-    \addlyrics {
-      \set stanza = "1." Iz -- grja -- va ve -- če den tăr -- žest -- ven, __ pred -- re -- če
+   \addlyrics {
+      \set stanza = "1. " Iz -- grja -- va ve -- če den tăr -- žest -- ven, __ pred -- re -- če
       -- ni -- jat den Bo -- žest -- ven, na dni --
       te di -- a -- de -- ma, săs svet -- li -- na go
       -- lja -- ma. E -- la -- te da ži -- ve -- em văv
@@ -62,78 +75,98 @@
 
   \pageBreak
 
-  \markup \abs-fontsize #11 {
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-
-      \line { 2. И носи радост за душата, }
-      \line {   "   " и прогласява свободата,}
-      \line {   "   " и мир с Любов пресвята}
-      \line {   "   " за всички на Земята. }
-
-
-      \vspace #0.5
-      \line { "   " \italic {Припев: } }
-
-      \line {   "   "  Елате да живеем }
-
-      \line {   "   " във Любовта чудесна. }
-
-      \line {   "   " Елате да приемем }
-
-      \line {   "   " таз благодат небесна, }
-
-      \line {   "   " що живота обновява }
-
-      \line {   "   " и вечно тя го подмладява. }
-
-      \vspace #0.5
-      \line {  3.  О, ден прекрасен, вечно благо, }
-      \line {   "   " кому за тебе не е драго? }
-      \line {   "   " За всичките години}
-      \line {   "   " по-скоро обнови ни! }
-
-      \vspace #0.5
-      \line { "   " \italic {Припев ... } }
-    }
-    \hspace #1
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-
-      \line { 2. I nosi radost za dušata, }
-      \line {   "   " i proglasjava svobodata,}
-      \line {   "   " i mir s Ljubov presvjata}
-      \line {   "   " za vsički na Zemjata. }
-
-
-      \vspace #0.5
-      \line { "   " \italic {Refrain: } }
-
-      \line {   "   "  Elate da živeem }
-
-      \line {   "   " văv Ljubovta čudesna. }
-
-      \line {   "   " Elate da priemem }
-
-      \line {   "   " taz blagodat nebesna, }
-
-      \line {   "   " što života obnovjava }
-
-      \line {   "   " i večno tja go podmladjava. }
-
-      \vspace #0.5
-      \line {  3.  O, den prekrasen, večno blago, }
-      \line {   "   " komu za tebe ne e drago? }
-      \line {   "   " Za vsičkite godini}
-      \line {   "   " po-skoro obnovi ni! }
-
-      \vspace #0.5
-      \line { "   " \italic {Refrain ... } }
-    }    %column
-
-  } % markup
-
+      \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+        \fill-line {
+          \hspace #0.1
+          \column {
+        \line {
+          \bold "2."
+          \column {
+            "И носи радост за душата,"
+            "и прогласява свободата,"
+            "и мир с Любов пресвята"
+            "за всички на земята."
+          }
+        }
+        \vspace #1
+        \line{ \italic"    Припев:"}
+        %\vspace #0.3
+        \line {
+          "   "
+          \column {
+            "Елате да живеем"
+            "във Любовта чудесна."
+            "Елате да приемем"
+            "таз благодат небесна,"
+            "що живота обновява"
+            "и вечно тя го подмладява."
+          }\"rightBraces022"
+        }
+        \vspace #1
+        \line {
+          \bold "3."
+          \column {
+            "О, ден прекрасен, вечно благо,"
+            "кому за тебе не е драго?"
+            "За всичките години"
+            "по-скоро обнови ни!"
+          }
+        }
+        \vspace #1
+        \line {
+          \bold " "
+          \column {
+            \italic "  Припев ..."
+          }
+        }
+            
+          }
+          \hspace #0.1
+          % adds horizontal spacing between columns
+          \column {
+        \line {
+          \bold "2."
+          \column {
+            "I nosi radost za dušata,"
+            "i proglasjava svobodata,"
+            "i mir s Ljubov presvjata"
+            "za vsički na zemjata."
+          }
+        }
+        \vspace #1
+        \line{ \italic"    Pripev:"}
+        %\vspace #0.3
+        \line {
+          "   "
+          \column {
+            "Elate da živeem"
+            "văv Ljubovta čudesna."
+            "Elate da priemem"
+            "taz blagodat nebesna,"
+            "što života obnovjava"
+            "i večno tja go podmladjava."
+          }\"rightBraces022"
+        }
+        \vspace #1
+        \line {
+          \bold "3."
+          \column {
+            "O, den prekrasen, večno blago,"
+            "komu za tebe ne e drago?"
+            "Za vsičkite godini"
+            "po-skoro obnovi ni!"
+          }
+        }
+        \vspace #1
+        \line {
+          \bold " "
+          \column {
+            \italic "  Pripev ..."
+          }
+        }
+          }\hspace #0.1
+        }
+      }
 
   \markup \vspace #2
 
