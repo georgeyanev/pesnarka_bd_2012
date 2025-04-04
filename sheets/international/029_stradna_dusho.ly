@@ -10,7 +10,7 @@
   \score {
     \include "include/score-layout.ily"
 
-    \new Voice \absolute {
+ \new Voice \absolute {
       \clef treble
       \key d \minor
       \time 4/4
@@ -27,19 +27,19 @@
 
     }
 
-    \addlyrics {
-      \set stanza = "1." Страд -- на
+   \addlyrics {
+      \set stanza = "1. " Страд -- на
       ду -- шо, ти __ коп -- не -- еш, за как -- во го --
       риш и __ тле -- еш? Сло -- во -- то Ти, Бо -- же,
       ча -- кам и о -- бил -- на -- та Ти __ ми -- лост,
       за тях стра -- дам и коп -- не -- я.}
 
       \addlyrics {
-        \set stanza = "1." Strad -- na
-        du -- šo, ti __ kop -- ne -- eš, za kak -- vo go --
-        riš i __ tle -- eš? Slo -- vo -- to Ti, Bo -- že,
-        ča -- kam i o -- bil -- na -- ta Ti __ mi -- lost,
-        za tjah stra -- dam i kop -- ne -- ja.}
+      \set stanza = "1. " Strad -- na
+      du -- šo, ti __ kop -- ne -- eš, za kak -- vo go --
+      riš i __ tle -- eš? Slo -- vo -- to Ti, Bo -- že,
+      ča -- kam i o -- bil -- na -- ta Ti __ mi -- lost,
+      za tjah stra -- dam i kop -- ne -- ja.}
 
 
 
@@ -51,107 +51,112 @@
 
       } % score
 
-      \markup \empty-two
+     \markup \vspace #2
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+    \fill-line {
+      \hspace #0.1
+      \column {
 
-      \markup \abs-fontsize #11 {
-        \hspace #6
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-          \line {   2. И гладувам, и жадувам,}
+      \line {
+            \bold "2."
+            \column {
+              "И гладувам, и жадувам,"
+              "тях очаквам денонощно."
+              "Ти ме, Боже, благославяй,"
+              "при Теб близо аз да бъда"
+              "и утеха в Теб да найда."
+            }
+          }
+          \vspace #1
+          \line {
+            \bold "3."
+            \column {
+              "Твоя светъл лик да гледам"
+              "и величието Твое;"
+              "да науча Теб да любя."
+              "В таз Любов към Тебе, Боже,"
+              "да намеря мощна сила."
+            }
+          }
+          \vspace #1
+           \line {
+            \bold "4."
+            \column {
+              "В подвизи и съвършенство"
+              "да познавам милостта Ти,"
+              "превеликата Ти тайна,"
+              "що разкрива на човека"
+              "суетата на живота."
+            }
+          }
+          % adds vertical spacing between verses
+          \vspace #1
+          \line {
+            \bold "5."
+            \column {
+              "Всичко грешно на земята"
+              "е преходно, мимолетно"
+              "Само Ти си вечен, Боже,"
+              "Тебе хвалим, Тебе славим,"
+              "Теб ще славят вековете."
+            }
+          }
 
-          \line {   "   " тях очаквам денонощно.}
+      }
+      \hspace #0.1
+      % adds horizontal spacing between columns
+      \column {
+        % adds vertical spacing between verses
 
-          \line {   "   " Ти ме, Боже, благославяй,}
+        \line {
+            \bold "2."
+            \column {
+              "I gladuvam, i žaduvam,"
+              "tjah očakvam denonoštno."
+              "Ti me, Bože, blagoslavjaj,"
+              "pri Teb blizo az da băda"
+              "i uteha v Teb da najda."
+            }
+          }
+          \vspace #1
+          \line {
+            \bold "3."
+            \column {
+              "Tvoja svetăl lik da gledam"
+              "i veličieto Tvoe;"
+              "da nauča Teb da ljubja."
+              "V taz Ljubov kăm Tebe, Bože,"
+              "da namerja moštna sila."
+            }
+          }
+          \vspace #1
+           \line {
+            \bold "4."
+            \column {
+              "V podvizi i săvăršenstvo"
+              "da poznavam milostta Ti,"
+              "prevelikata Ti tajna,"
+              "što razkriva na čoveka"
+              "suetata na života."
+            }
+          }
+          % adds vertical spacing between verses
+          \vspace #1
+          \line {
+            \bold "5."
+            \column {
+              "Vsičko grešno na zemjata"
+              "e prehodno, mimoletno"
+              "Samo Ti si večen, Bože,"
+              "Tebe hvalim, Tebe slavim,"
+              "Teb šte slavjat vekovete."
+            }
+          }
 
-          \line {   "   " при Теб близо аз да бъда}
-
-          \line {   "   " и утеха в Теб да найда.}
-          \vspace #0.5
-
-          \line {   3. Твоя светъл лик да гледам}
-
-          \line {   "   " и величието Твое;}
-
-          \line {   "   " да науча Теб да любя.}
-
-          \line {   "   " В таз Любов към Тебе, Боже,}
-
-          \line {   "   " да намеря мощна сила.}
-          \vspace #0.5
-
-          \line {   4. В подвизи и съвършенство}
-
-          \line {   "   " да познавам милостта Ти,}
-
-          \line {   "   " превеликата Ти тайна,}
-
-          \line {   "   " що разкрива на човека}
-
-          \line {   "   " суетата на живота.}
-
-          \vspace #0.5
-
-          \line {    5. Всичко грешно на Земята}
-
-          \line {   "   " е преходно, мимолетно.}
-
-          \line {   "   " Само Ти си вечен, Боже,}
-
-          \line {   "   " Тебе хвалим, Тебе славим,}
-
-          \line {   "   " Теб ще славят вековете.}
-
-        }
-
-        \hspace #5
-        \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-        \column {
-          \line {   2. I gladuvam, i žaduvam,}
-
-          \line {   "   " tjah očakvam denonoštno.}
-
-          \line {   "   " Ti me, Bože, blagoslavjaj,}
-
-          \line {   "   " pri Teb blizo az da băda}
-
-          \line {   "   " i uteha v Teb da najda.}
-          \vspace #0.5
-
-          \line {   3. Tvoja svetăl lik da gledam}
-
-          \line {   "   " i veličieto Tvoe;}
-
-          \line {   "   " da nauča Teb da ljubja.}
-
-          \line {   "   " V taz Ljubov kăm Tebe, Bože,}
-
-          \line {   "   " da namerja moštna sila.}
-          \vspace #0.5
-
-          \line {   4. V podvizi i săvăršenstvo}
-
-          \line {   "   " da poznavam milostta Ti,}
-
-          \line {   "   " prevelikata Ti tajna,}
-
-          \line {   "   " što razkriva na čoveka}
-
-          \line {   "   " suetata na života.}
-
-          \vspace #0.5
-
-          \line {    5. Vsičko grešno na Zemjata}
-
-          \line {   "   " e prehodno, mimoletno.}
-
-          \line {   "   " Samo Ti si večen, Bože,}
-
-          \line {   "   " Tebe hvalim, Tebe slavim,}
-
-          \line {   "   " Teb šte slavjat vekovete.}
-
-        } %column
-      } % markup
+      }\hspace #0.1
+    }
+  }
+     
 
       \pageBreak
 

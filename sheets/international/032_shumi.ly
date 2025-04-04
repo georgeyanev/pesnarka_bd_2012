@@ -9,8 +9,7 @@
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
-
-    \new Voice \absolute {
+\new Voice \absolute {
       \clef treble
       \key d \minor
       \time 3/4
@@ -31,7 +30,7 @@
     }
 
     \addlyrics {
-      \set stanza = "1."Шу -- ми,
+      \set stanza = "1. " Шу -- ми,
       аз слу -- шам цял свят да шу -- ми! Шу -- мят
       сър -- ца -- та че -- ло --  веш -- ки всред
       свой -- те и -- до -- ли и греш -- ки, шу -- мят
@@ -40,8 +39,9 @@
       аз слу -- шам цял свят да шу -- ми!
     }
 
-    \addlyrics {
-      \set stanza = "1." Šu -- mi,
+
+     \addlyrics {
+      \set stanza = "1. " Šu -- mi,
       az slu -- šam cjal svjat da šu -- mi! Šu -- mjat
       săr -- ca -- ta če -- lo --  veš -- ki vsred
       svoj -- te i -- do -- li i greš -- ki, šu -- mjat
@@ -49,6 +49,7 @@
       e pri -- liv v~do -- mo -- ve -- te. Šu -- mi,
       az slu -- šam cjal svjat da šu -- mi!
     }
+
     \header {
       title = \titleFunc "Шуми" "Šumi"
     }
@@ -57,133 +58,122 @@
 
   } % score
 
-  \markup \empty-two
+ \markup \vspace #2
+ 
+    \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+    \fill-line {
+      \hspace #0.1
+      \column {
 
-  \markup \abs-fontsize #11 {
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
+          \line {
+          \bold "2."
+          \column {
+            "   И вятър вее,"
+            "   където си ще."
+            "Листата горски отговарят"
+            "на неговия зов, повтарят"
+            "любимата си песенчица,"
+            "игрива като ладанчица."
+            "   И вятър вее,"
+            "   където си ще."
+          }
+        }
+         \vspace #1
+             \line {
+          \bold "3."
+          \column {
+            "   Мой ветре, буйно"
+            "   задухай сега!"
+            "Носи Божествената влага"
+            "и освежаваща прохлада;"
+            "пречиствай задушливи хижи,"
+            "разсейвай тежки земни грижи!"
+            "   Мой ветре,"
+            "   буйно задухай сега!"
+          }
+        }
 
-      \line {   2.  "   "  И вятър вее, }
+      }
+      \hspace #0.1
+      % adds horizontal spacing between columns
+      \column {
+        % adds vertical spacing between verses
 
-      \line {   "   "    "   "       където си ще.}
+        
+ \line {
+          \bold "2."
+          \column {
+            "   I vjatăr vee,"
+            "   kădeto si šte."
+            "Listata gorski otgovarjat"
+            "na negovija zov, povtarjat"
+            "ljubimata si pesenčica,"
+            "igriva kato ladančica."
+            "   I vjatăr vee,"
+            "   kădeto si šte."
+          }
+        }
+         \vspace #1
+             \line {
+          \bold "3."
+          \column {
+            "   Moj vetre, bujno"
+            "   zaduhaj sega!"
+            "Nosi Božestvenata vlaga"
+            "i osvežavašta prohlada;"
+            "prečistvaj zadušlivi hiži,"
+            "razsejvaj težki zemni griži!"
+            "   Moj vetre,"
+            "   bujno zaduhaj sega!"
+          }
+        }
 
-      \line {   "   "Листата горски отговарят}
-
-      \line {   "   "на неговия зов, повтарят}
-
-      \line {   "   "любимата си песенчица,}
-
-      \line {   "   "игрива като ладанчица.}
-
-      \line {  "   "    "   "И вятър вее, }
-
-      \line {    "   "    "   "където си ще.}
-
-
-      \vspace #0.5
-      \line {   3. "   "  Мой ветре, буйно }
-
-      \line {   "   "    "   "  задухай сега!}
-
-      \line {   "   "Носи Божествената влага}
-
-      \line {   "   "и освежаваща прохлада;}
-
-      \line {   "   "пречиствай задушливи хижи,}
-
-      \line {   "   "разсейвай тежки земни грижи!}
-
-      \line {    "   "    "   "Мой ветре, }
-
-      \line {    "   "    "   "буйно задухай сега!}
-
+      }\hspace #0.1
     }
+  }
 
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line {   2.  "   "  I vjatăr vee, }
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+    \fill-line {
+      \hspace #0.1
+      \column {
 
-      \line {   "   "    "   "       kădeto si šte.}
+         \line {
+          \bold "4."
+          \column {
+            "   Задухай, ветре, "
+            "   света разведри!"
+            "При чисти мисли, нежни чувства"
+            "цъфтят Божествени изкуства."
+            "Навред да просияе радост,"
+            "навред да диша свежа младост."
+            "   Задухай, ветре,"
+            "   света избистри."
+          }
+        }
 
-      \line {   "   "Listata gorski otgovarjat}
+      }
+      \hspace #0.1
+      % adds horizontal spacing between columns
+      \column {
+        % adds vertical spacing between verses
 
-      \line {   "   "na negovija zov, povtarjat}
+         \line {
+          \bold "4."
+          \column {
+            "   Zaduhaj, vetre, "
+            "   sveta razvedri!"
+            "Pri čisti misli, nežni čuvstva"
+            "căftjat Božestveni izkustva."
+            "Navred da prosijae radost,"
+            "navred da diša sveža mladost."
+            "   Zaduhaj, vetre,"
+            "   sveta izbistri."
+          }
+        }
 
-      \line {   "   "ljubimata si pesenčica,}
-
-      \line {   "   "igriva kato ladančica.}
-
-      \line {  "   "    "   "I vjatăr vee, }
-
-      \line {    "   "    "   "kădeto si šte.}
-
-
-      \vspace #0.5
-      \line {   3. "   "  Moj vetre, bujno }
-
-      \line {   "   "    "   "  zaduhaj sega!}
-
-      \line {   "   "Nosi Božestvenata vlaga}
-
-      \line {   "   "i osvežavašta prohlada;}
-
-      \line {   "   "prečistvaj zadušlivi hiži,}
-
-      \line {   "   "razsejvaj težki zemni griži!}
-
-      \line {    "   "    "   "Moj vetre, }
-
-      \line {    "   "    "   "bujno zaduhaj sega!}
-
-
-    } %column
-  } % markup
-
-  \pageBreak
-
-  \markup \abs-fontsize #11  {
-    \hspace #2
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line {   4.  "   "        Задухай, ветре, }
-      \line {   "   "    "   "         света разведри!}
-
-      \line {   "   "При чисти мисли, нежни чувства}
-
-      \line {   "   "цъфтят Божествени изкуства.}
-
-      \line {   "   "Навред да просияе радост,}
-
-      \line {   "   "навред да диша свежа младост.}
-
-      \line {  "   "    "   " Задухай, ветре, }
-      \line {   "   "    "   " света избистри.}
+      }\hspace #0.1
     }
-
-
-
-    \hspace #5
-    \override #`(baseline-skip . ,bgCoupletBaselineSkip)
-    \column {
-      \line {   4.  "   "        Zaduhaj, vetre, }
-      \line {   "   "    "   "         sveta razvedri!}
-
-      \line {   "   "Pri čisti misli, nežni čuvstva}
-
-      \line {   "   "căftjat Božestveni izkustva.}
-
-      \line {   "   "Navred da prosijae radost,}
-
-      \line {   "   "navred da diša sveža mladost.}
-
-      \line {  "   "    "   " Zaduhaj, vetre, }
-      \line {   "   "    "   " sveta izbistri.}
-    }
-    %column
-  } % markup
-
+  }
   \markup \vspace #2
   % include foreign translation(s) of the song
   \include "../../lyrics/de/032_shumi_lyrics_de.ly"
