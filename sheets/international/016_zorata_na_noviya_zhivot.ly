@@ -17,20 +17,20 @@
       \tempoFunc "Moderato" 8 "160"
       \partial 8
       \autoBeamOff
-      c'8 |e'4 g'8|c''4 g'8 |a'4 g'8 |c''4.| g'4. ~ |  g'4 g'8 |
-      c''4 c''8| \break \once \autoBeamOn c''8 ([  b'8  ])  \noBeam  c''8 |d''4 b'8  |c''4. ~ | c''4  a'8| a'4 a'8|
-      d''4  c''8|  b'4 a'8| \break a'4. | g'4. ~ | g'4  g'8 | a'4 g'8 | g'4 f'8 |
-      e'4 d'8 | c'4. ~ | c'4.  |   \bar "||"
+      c'8 |e'4 g'8|c''4 g'8 |a'4 g'8 |c''4.| g'4. ~ |  g'4 g'8 |\break
+      c''4 c''8| \once \autoBeamOn c''8 ([  b'8  ])  \noBeam  c''8 |d''4 b'8  |c''4. ~ | c''4  a'8| a'4 a'8| \break
+      d''4  c''8| b'4 a'8| a'4. | g'4. ~ | g'4  g'8 | a'4 g'8 | g'4 f'8 | \break
+      e'4 d'8| c'4. ~ | c'4.  | \bar "||"
       \tempoFunc "Più mosso" 8 "176"
-      g'8  fis'8 g'8 | \break a'4 g'8 | g'4 g'8 | c''4. ~ |
-      c''4.  |   c''8 b'8 c''8| d''4 c''8 |  \break b'4  b'8 | b'4. ~ | b'4   a'8| b'4 a'8 |
-      g'4 fis'8 | g'4. ~ | g'4.  |  a'8 g'8 f'8 | \break f'4 f'8 | e'4 f'8 | g'4. ~ |
-      g'4  g'8 | a'4 g'8 | g'4 fis'8 | g'4. ~ | g'4. | \break d'8 e'8 f'?8| f'4 f'8 |
+      g'8  fis'8 g'8 | a'4 g'8 | g'4 g'8 | c''4. ~ | \break
+      c''4.  | c''8 b'8 c''8| d''4 c''8 | b'4  b'8 | b'4. ~ | b'4   a'8| b'4 a'8 | \break
+      g'4 fis'8 | g'4. ~ | g'4.  | a'8 g'8 f'?8 | f'4 f'8 | e'4 f'8 | g'4. ~ | \break
+      g'4  g'8 | a'4 g'8 | g'4 fis'8 | g'4. ~ | g'4. | d'8 e'8 f'?8| f'4 f'8 | \break
       e'4 f'8 | g'4. ~ |g'4  e'8 | g'4 f'8 | e'4 d'8 | c'4. ~ | c' 4 s8 | \bar "|."
     }
 
     \addlyrics {
-      \set stanza = "1." Зо -- ра се чуд -- на за -- зо -- ря -- ва, __ зо --
+      \set stanza = "1. " Зо -- ра се чуд -- на за -- зо -- ря -- ва, __ зо --
       ра на све -- тъл нов жи -- вот; __ с~ве -- ли -- ко --
       ле -- пи -- е о -- гря -- ва __  по -- спре -- ли -- я се
       наш ки -- вот. __  В~но -- ви -- я све -- тъл тоз жи -- вот, __
@@ -41,7 +41,7 @@
     }
 
     \addlyrics {
-      \set stanza = "1." Zo -- ra se čud -- na za -- zo -- rja -- va, __ zo --
+      \set stanza = "1. " Zo -- ra se čud -- na za -- zo -- rja -- va, __ zo --
       ra na sve -- tăl nov ži -- vot; __ s~ve -- li -- ko --
       le -- pi -- e o -- grja -- va __  po -- spre -- li -- ja se
       naš ki -- vot. __  V~no -- vi -- ja sve -- tăl toz ži -- vot, __
@@ -50,6 +50,7 @@
       ži -- vot na bla -- gost -- ta, __  v~no -- vi -- ja sve -- tăl
       toz ži -- vot, __  ži -- vot na ra -- dost -- ta. __
     }
+
     \addlyrics {
       \repeat unfold 32 { \skip 2 } (*жи -- вот)}
       \addlyrics {
@@ -62,11 +63,13 @@
         \midi{}
       }
 
+      \markup \vspace #2
+
       \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
         \fill-line {
           \hspace #0.1
           \column {
-            \vspace #1
+            
             \line {
               \bold "2."
               \column {
@@ -80,7 +83,7 @@
           \hspace #0.1
           % adds horizontal spacing between columns
           \column {
-            \vspace #1
+           
             \line {
               \bold "2."
               \column {
@@ -100,7 +103,6 @@
         \fill-line {
           \hspace #0.1
           \column {
-           
             \line{ \italic"    Припев:"}
             %\vspace #0.3
             \line {
@@ -163,7 +165,6 @@
           % adds horizontal spacing between columns
           \column {
             % adds vertical spacing between verses
-          
             \line{ \italic"    Припев:"}
             \line {
               "   "

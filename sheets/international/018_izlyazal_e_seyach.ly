@@ -95,7 +95,6 @@
 
   \score {
     \include "include/score-layout.ily"
-
     \new Voice \absolute  {
       \clef treble
       \key c \major
@@ -125,7 +124,10 @@
         {  f'2. (|  f'4 )  r4 f'4 | f'2 f'4 | f'4 ( e'4 ) f'4 | g'2 f'4 |e'2. (| e'4 ) r4 g'4   \break }
         {
           f'2. (|  f'4 ) r4 g'4 | g'2 g'4 | a'2
-          a'4 ^\markup \huge \raise #1.5 \bold "rit." | b'2 b'4 | c''2. ~ | c''2  \bar "|." \pageBreak
+          % \override Score.RehearsalMark.outside-staff-priority = #99
+          \override Score.MetronomeMark.outside-staff-priority = #99
+          \tempo"rit."  % places rit. below alternative bracket
+          a'4 | b'2 b'4 | c''2. ~ | c''2  \bar "|."
         }
       }
     }
@@ -141,7 +143,8 @@
       та  __  о -- би -- лен из -- "вор  –" Мъд -- рост -- та. __
     }
 
-     \addlyrics {
+
+    \addlyrics {
       \set stanza = "1. " Iz -- lja -- zăl e se -- jač da se -- e __
       pre -- kras -- no bla -- "go  –" nov ži -- vot. __ I
       se -- e toj, i ti -- ho pe -- e __ pred vse -- ki
@@ -161,11 +164,13 @@
 
   } % score
 
-       \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
-        \fill-line {
-          \hspace #0.1
-          \column {
-           \line {
+
+
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+    \fill-line {
+      \hspace #0.1
+      \column {
+        \line {
           \bold "2."
           \column {
             "И който чуе, в миг потръпва"
@@ -204,13 +209,13 @@
             \italic "  Припев ..."
           }
         }
-            
-          }
-          \hspace #0.1
-          % adds horizontal spacing between columns
-          \column {
-            % adds vertical spacing between verses
-             \line {
+
+      }
+      \hspace #0.1
+      % adds horizontal spacing between columns
+      \column {
+        % adds vertical spacing between verses
+        \line {
           \bold "2."
           \column {
             "I kojto čue, v mig potrăpva"
@@ -249,9 +254,9 @@
             \italic "  Pripev ..."
           }
         }
-          }\hspace #0.1
-        }
-      }
+      }\hspace #0.1
+    }
+  }
 
   \markup \vspace #2
 

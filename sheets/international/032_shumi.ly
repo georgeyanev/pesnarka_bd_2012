@@ -9,7 +9,7 @@
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
-\new Voice \absolute {
+    \new Voice \absolute {
       \clef treble
       \key d \minor
       \time 3/4
@@ -40,7 +40,7 @@
     }
 
 
-     \addlyrics {
+    \addlyrics {
       \set stanza = "1. " Šu -- mi,
       az slu -- šam cjal svjat da šu -- mi! Šu -- mjat
       săr -- ca -- ta če -- lo --  veš -- ki vsred
@@ -58,14 +58,14 @@
 
   } % score
 
- \markup \vspace #2
- 
-    \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+  \markup \vspace #2
+
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
     \fill-line {
       \hspace #0.1
       \column {
 
-          \line {
+        \line {
           \bold "2."
           \column {
             "   И вятър вее,"
@@ -78,8 +78,8 @@
             "   където си ще."
           }
         }
-         \vspace #1
-             \line {
+        \vspace #1
+        \line {
           \bold "3."
           \column {
             "   Мой ветре, буйно"
@@ -99,8 +99,8 @@
       \column {
         % adds vertical spacing between verses
 
-        
- \line {
+
+        \line {
           \bold "2."
           \column {
             "   I vjatăr vee,"
@@ -113,8 +113,8 @@
             "   kădeto si šte."
           }
         }
-         \vspace #1
-             \line {
+        \vspace #1
+        \line {
           \bold "3."
           \column {
             "   Moj vetre, bujno"
@@ -137,7 +137,7 @@
       \hspace #0.1
       \column {
 
-         \line {
+        \line {
           \bold "4."
           \column {
             "   Задухай, ветре, "
@@ -157,7 +157,7 @@
       \column {
         % adds vertical spacing between verses
 
-         \line {
+        \line {
           \bold "4."
           \column {
             "   Zaduhaj, vetre, "
