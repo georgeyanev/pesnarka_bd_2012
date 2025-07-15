@@ -244,7 +244,7 @@
       -- бич да се раз -- бе -- рем.“}
 
       \header {
-        title = \titleFunc #'ref_desc_8 "Езикът на живата природа" "Ezikăt na živata priroda"
+        title = \titleFunc #'ref_desc_9 "Езикът на живата природа" "Ezikăt na živata priroda"
       }
 
       \midi{}

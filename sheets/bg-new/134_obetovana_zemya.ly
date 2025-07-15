@@ -139,7 +139,7 @@
       ски, там, де Лю -- бов ца -- ри.}
 
       \header {
-        title = \titleFunc #'ref_desc_11 "Обетована земя" "Obetovana zemja"
+        title = \titleFunc #'ref_desc_16 "Обетована земя" "Obetovana zemja"
       }
 
       \midi{}

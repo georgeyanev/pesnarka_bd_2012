@@ -65,7 +65,7 @@
       ра -- дост но -- си за сър -- ца -- та.}
 
       \header {
-        title = \titleFunc #'ref_desc_8 "Грее, грее" "Gree, gree"
+        title = \titleFunc #'ref_desc_7 "Грее, грее" "Gree, gree"
       }
 
       \midi{}

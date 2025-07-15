@@ -183,7 +183,7 @@
       за те -- бе аз жи -- ве -- я.}
 
       \header {
-        title = \titleFunc #'ref_desc_12 "Пролетна песен" "Proletna pesen"
+        title = \titleFunc #'ref_desc_18 "Пролетна песен" "Proletna pesen"
       }
 
       \midi{}

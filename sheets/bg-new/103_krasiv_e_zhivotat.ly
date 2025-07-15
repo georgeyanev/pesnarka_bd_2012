@@ -71,7 +71,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_10 "Красив е животът" "Krasiv e životăt"
+      title = \titleFunc #'ref_desc_11 "Красив е животът" "Krasiv e životăt"
     }
 
     \midi{}

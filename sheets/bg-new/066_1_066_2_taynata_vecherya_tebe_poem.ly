@@ -42,7 +42,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_3 "Тайната вечеря" "Tajnata večerja"
+      title = \titleFunc #'ref_desc_21 "Тайната вечеря" "Tajnata večerja"
     }
 
     \midi{}
@@ -86,7 +86,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_4 "Тебе поем" "Tebe poem"
+      title = \titleFunc #'ref_desc_21 "Тебе поем" "Tebe poem"
     }
 
     \midi{}

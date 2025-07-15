@@ -131,7 +131,7 @@
       Лю -- бов.}
 
       \header {
-        title = \titleFunc #'ref_desc_14 "Бог е Любов II" "Bog e Ljubov II"
+        title = \titleFunc #'ref_desc_3 "Бог е Любов II" "Bog e Ljubov II"
       }
 
       \midi{}
@@ -172,7 +172,7 @@
         фен Тао -- би Aу -- мен.}
 
         \header {
-          title = \titleFunc #'ref_desc_17 "Към „Фир-фюр-фен“" "Kăm Fir-fjur-fen  – Zu Fir-fjur-fen"
+          title = \titleFunc #'ref_desc_11 "Към „Фир-фюр-фен“" "Kăm Fir-fjur-fen  – Zu Fir-fjur-fen"
         }
 
         \midi{}

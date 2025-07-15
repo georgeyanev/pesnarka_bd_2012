@@ -61,7 +61,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_7 "Весел ти бъди" "Vesel ti bădi"
+      title = \titleFunc #'ref_desc_6 "Весел ти бъди" "Vesel ti bădi"
     }
 
     \midi{}

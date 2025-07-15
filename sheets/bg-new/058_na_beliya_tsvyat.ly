@@ -56,7 +56,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_2 "На белия цвят" "Na belija cvjat"
+      title = \titleFunc #'ref_desc_15 "На белия цвят" "Na belija cvjat"
     }
 
     \midi{}

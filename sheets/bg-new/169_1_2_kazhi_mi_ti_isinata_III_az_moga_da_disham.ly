@@ -77,7 +77,7 @@
       ша.}
 
       \header {
-        title = \titleFunc #'ref_desc_16 "Кажи ми Ти Истината III" "Kaži mi Ti Istinata III"
+        title = \titleFunc #'ref_desc_11 "Кажи ми Ти Истината III" "Kaži mi Ti Istinata III"
       }
 
       \midi{}
@@ -124,7 +124,7 @@
         да ди -- шам ве -- че доб -- ре. Аз  бре.}
 
         \header {
-          title = \titleFunc #'ref_desc_14 "Аз мога да дишам " "Az moga da dišam"
+          title = \titleFunc #'ref_desc_1 "Аз мога да дишам " "Az moga da dišam"
         }
 
         \midi{}

@@ -77,7 +77,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_10 "Махар Бену Аба" "Mahar Benu Aba"
+      title = \titleFunc #'ref_desc_12 "Махар Бену Аба" "Mahar Benu Aba"
     }
 
     \midi{}
@@ -123,7 +123,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_6 "В мрак, тъмнота" "V mrak, tămnota"
+      title = \titleFunc #'ref_desc_4 "В мрак, тъмнота" "V mrak, tămnota"
     }
 
     \midi{}

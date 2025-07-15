@@ -185,7 +185,7 @@
       -- ва -- та за -- ви -- на -- ги. А -- мин.}
 
       \header {
-        title = \titleFunc #'ref_desc_20 "Добрата молитва" "Dobrata molitva"
+        title = \titleFunc #'ref_desc_8 "Добрата молитва" "Dobrata molitva"
       }
 
       \midi{}

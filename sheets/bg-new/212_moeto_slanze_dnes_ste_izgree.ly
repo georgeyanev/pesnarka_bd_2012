@@ -169,7 +169,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_18 "Моето слънце днес ще изгрее" "Moeto Slănce dnes šte izgree"
+      title = \titleFunc #'ref_desc_14 "Моето слънце днес ще изгрее" "Moeto Slănce dnes šte izgree"
     }
 
     \midi{}

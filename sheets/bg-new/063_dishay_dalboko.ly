@@ -66,7 +66,7 @@
 
 
     \header {
-      title = \titleFunc #'ref_desc_1 "Дишай дълбоко" "Dišaj dălboko"
+      title = \titleFunc #'ref_desc_8 "Дишай дълбоко" "Dišaj dălboko"
     }
 
     \midi{}

@@ -33,7 +33,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_8 "Денят иде" " Denjat ide"
+      title = \titleFunc #'ref_desc_7 "Денят иде" " Denjat ide"
     }
 
     \midi{}
@@ -95,7 +95,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_11 "Пролет" "Prolet"
+      title = \titleFunc #'ref_desc_18 "Пролет" "Prolet"
     }
 
     \midi{}

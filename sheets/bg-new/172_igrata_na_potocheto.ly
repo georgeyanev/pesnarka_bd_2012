@@ -104,7 +104,7 @@
     %\addlyrics {}
 
     \header {
-      title = \titleFunc #'ref_desc_16 "Играта на поточето" "Igrata na potočeto  –  Das Spiel der Quelle"
+      title = \titleFunc #'ref_desc_10 "Играта на поточето" "Igrata na potočeto  –  Das Spiel der Quelle"
     }
 
     \midi{}

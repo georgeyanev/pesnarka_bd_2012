@@ -41,7 +41,7 @@
       -- за -- ри.}
 
         \header {
-          title = \titleFunc #'ref_desc_3 "Стани, стани" "Stani, stani"
+          title = \titleFunc #'ref_desc_20 "Стани, стани" "Stani, stani"
         }
 
         \midi{}

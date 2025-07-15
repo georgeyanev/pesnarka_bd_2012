@@ -68,7 +68,7 @@
       ща“. __}
 
       \header {
-        title = \titleFunc #'ref_desc_16 "Изворче" "Izvorče"
+        title = \titleFunc #'ref_desc_10 "Изворче" "Izvorče"
       }
 
       \midi{}

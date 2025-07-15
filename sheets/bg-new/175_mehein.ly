@@ -6,7 +6,7 @@
 
 \bookpart {
   \label #'ref175_2
-  \tocItem \markup "Ме-хейн"
+  \tocItem \markup "Ме-хейн I"
 
   \include "include/bookpart-paper.ily"
   \score {
@@ -107,7 +107,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_17 "Ме-хейн" "Me-hejn"
+      title = \titleFunc #'ref_desc_13 "Ме-хейн I" "Me-hejn I"
     }
 
     \midi{}
@@ -177,7 +177,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_17 "Ме-хейн II" "Me-hejn II"
+      title = \titleFunc #'ref_desc_13 "Ме-хейн II" "Me-hejn II"
     }
 
     \midi{}

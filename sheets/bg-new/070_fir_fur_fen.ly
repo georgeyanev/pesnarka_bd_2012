@@ -48,7 +48,7 @@
       сла -- вяй и не заб -- ра -- вяй.}
 
       \header {
-        title = \titleFunc #'ref_desc_14 "Фир-фюр-фен – Благославай" "Fir-fjur-fen – Blagoslavaj"
+        title = \titleFunc #'ref_desc_22 "Фир-фюр-фен – Благославай" "Fir-fjur-fen – Blagoslavaj"
       }
 
       \midi{}

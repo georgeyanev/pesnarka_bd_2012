@@ -69,7 +69,7 @@
       Бо -- жи -- я -- та Лю -- бов, | Бо -- жи -- я -- та Лю -- | бов. Ний ще | бов.}
 
       \header {
-        title = \titleFunc #'ref_desc_5 "Бог е Любов" "Bog e Ljubov"
+        title = \titleFunc #'ref_desc_3 "Бог е Любов" "Bog e Ljubov"
       }
 
       \midi{}

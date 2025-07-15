@@ -90,7 +90,7 @@
       ти -- те ду -- ши.}
 
       \header {
-        title = \titleFunc #'ref_desc_17 "Кажи ми, светли Божи лъч" "Kaži mi, svetli Boži lăč"
+        title = \titleFunc #'ref_desc_10 "Кажи ми, светли Божи лъч" "Kaži mi, svetli Boži lăč"
       }
 
       \midi{}
@@ -208,7 +208,7 @@
       }
 
       \header {
-        title = \titleFunc #'ref_desc_19 "Радост за душата" "Radost za dušata"
+        title = \titleFunc #'ref_desc_18 "Радост за душата" "Radost za dušata"
       }
 
       \midi{}

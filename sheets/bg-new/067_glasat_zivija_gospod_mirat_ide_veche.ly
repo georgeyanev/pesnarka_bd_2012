@@ -133,7 +133,7 @@
       път на Лю -- бов -- та“.}
 
       \header {
-        title = \titleFunc #'ref_desc_15 "Гласът на Живия Господ" " Glasăt na Živija Gospod – Novoto Văzkresenie"
+        title = \titleFunc #'ref_desc_7 "Гласът на Живия Господ" " Glasăt na Živija Gospod – Novoto Văzkresenie"
         subtitle = \markup \normal-text \abs-fontsize #13 "Новото Възкресение"
       }
 
@@ -142,7 +142,7 @@
     } % score
     \markup \vspace #5
 
-    \label #'ref155_2
+    \label #'ref067_2
     \tocItem \markup "Мирът иде вече"
     \include "include/bookpart-paper.ily"
     \score {
@@ -177,7 +177,7 @@
       }
 
       \header {
-        title = \titleFunc #'ref_desc "Мирът иде вече" "Mirat ide veche"
+        title = \titleFunc #'ref_desc_13 "Мирът иде вече" "Mirat ide veche"
       }
 
       \midi{}

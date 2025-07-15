@@ -134,7 +134,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_12 "Скитах се по гори и планини" "Skitah se po gori i planini"
+      title = \titleFunc #'ref_desc_19 "Скитах се по гори и планини" "Skitah se po gori i planini"
     }
 
     \midi{}

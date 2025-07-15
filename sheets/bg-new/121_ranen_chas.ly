@@ -141,7 +141,7 @@
       }
 
       \header {
-        title = \titleFunc #'ref_desc_12 "Ранен час" "Ranen čas"
+        title = \titleFunc #'ref_desc_18 "Ранен час" "Ranen čas"
       }
 
       \midi{}

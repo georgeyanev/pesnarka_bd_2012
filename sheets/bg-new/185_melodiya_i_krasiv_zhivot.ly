@@ -134,7 +134,7 @@
       -- ди  -- на.}
 
       \header {
-        title = \titleFunc #'ref_desc_17 "Мелодия 1 – Красив живот" "Melodija 1 – Krasiv Život"
+        title = \titleFunc #'ref_desc_13 "Мелодия 1 – Красив живот" "Melodija 1 – Krasiv Život"
       }
 
       \midi{}

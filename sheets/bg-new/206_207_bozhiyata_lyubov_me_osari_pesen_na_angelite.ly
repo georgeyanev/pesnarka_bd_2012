@@ -166,7 +166,7 @@
       гост в~мен все -- ли.}
 
       \header {
-        title = \titleFunc #'ref_desc_14 "Божията Любов ме озари " " Božijata Ljubov me ozari"
+        title = \titleFunc #'ref_desc_3 "Божията Любов ме озари " " Božijata Ljubov me ozari"
       }
 
       \midi{}
@@ -402,7 +402,7 @@
         -- ща, на на -- ши -- я Ве -- лик Ба -- ща“.}
 
         \header {
-          title = \titleFunc #'ref_desc_19 "Песента на ангелите" "Pesenta na angelite"
+          title = \titleFunc #'ref_desc_17 "Песента на ангелите" "Pesenta na angelite"
         }
 
         \midi{}

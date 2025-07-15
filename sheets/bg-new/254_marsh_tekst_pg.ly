@@ -143,7 +143,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_20 "Марш на светлите сили II" "Marš na svetlite sili II"
+      title = \titleFunc #'ref_desc_12 "Марш на светлите сили II" "Marš na svetlite sili II"
     }
 
     \midi{}

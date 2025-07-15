@@ -35,7 +35,7 @@
       за тях стра -- дам и коп -- не -- я.}
 
       \header {
-        title = \titleFunc #'ref_desc_3 "Страдна душо" "Stradna dušo"
+        title = \titleFunc #'ref_desc_20 "Страдна душо" "Stradna dušo"
       }
 
       \midi{}

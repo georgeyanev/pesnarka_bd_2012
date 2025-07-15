@@ -69,7 +69,7 @@
       не  из -- би -- ра. __}
 
       \header {
-        title = \titleFunc #'ref_desc_4 "А бре, синко " "A bre, sinko"
+        title = \titleFunc #'ref_desc_1 "А бре, синко " "A bre, sinko"
       }
 
       \midi{}

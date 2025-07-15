@@ -89,7 +89,7 @@
       Те -- бе.}
 
       \header {
-        title = \titleFunc #'ref_desc_20 "Странник съм в този свят" "Strannik săm v tozi svjat"
+        title = \titleFunc #'ref_desc_21 "Странник съм в този свят" "Strannik săm v tozi svjat"
       }
 
       \midi{}

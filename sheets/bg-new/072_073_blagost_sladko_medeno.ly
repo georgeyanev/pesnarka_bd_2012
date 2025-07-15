@@ -66,7 +66,7 @@
       и -- де тя, ко -- га и -- де тя.
     }
     \header {
-      title = \titleFunc #'ref_desc_5 "Благост" "Blagost"
+      title = \titleFunc #'ref_desc_3 "Благост" "Blagost"
     }
 
     \midi{}
@@ -128,7 +128,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_13 "Сладко, медено" "Sladko, medeno"
+      title = \titleFunc #'ref_desc_20 "Сладко, медено" "Sladko, medeno"
     }
 
     \midi{}

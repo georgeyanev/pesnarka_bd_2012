@@ -69,7 +69,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_12 "Сила, здраве е богатство" "Sila, zdrave e bogatstvo"
+      title = \titleFunc #'ref_desc_19 "Сила, здраве е богатство" "Sila, zdrave e bogatstvo"
     }
 
     \midi{}

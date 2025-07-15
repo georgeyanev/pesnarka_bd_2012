@@ -30,7 +30,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_3 "Слънцето на Любовта" "Slănceto na Ljubovta"
+      title = \titleFunc #'ref_desc_20 "Слънцето на Любовта" "Slănceto na Ljubovta"
     }
 
     \midi{}
@@ -62,7 +62,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_3 "Слава Божия" "Slava Božija"
+      title = \titleFunc #'ref_desc_20 "Слава Божия" "Slava Božija"
     }
 
     \midi{}

@@ -168,7 +168,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_20 "Молитва" "Molitva"
+      title = \titleFunc #'ref_desc_14 "Молитва" "Molitva"
     }
 
     \midi{}

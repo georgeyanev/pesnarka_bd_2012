@@ -50,7 +50,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_10 "Малкият извор" "Malkiyat izvor"
+      title = \titleFunc #'ref_desc_12 "Малкият извор" "Malkiyat izvor"
     }
 
     \midi{}

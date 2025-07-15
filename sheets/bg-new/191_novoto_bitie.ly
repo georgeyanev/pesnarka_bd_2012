@@ -13,13 +13,13 @@
     \center-align
 
 
-    \fill-line { \with-link #'ref_desc_18 \abs-fontsize #16  "Песни, дадени на" }
+    \fill-line { \with-link #'ref_desc_16 \abs-fontsize #16  "Песни, дадени на" }
     \vspace #0.3
-    \fill-line { \with-link #'ref_desc_18 \abs-fontsize #14  "Цветана-Лилиана Табакова и Кръстьо Христов" }
+    \fill-line { \with-link #'ref_desc_16 \abs-fontsize #14  "Цветана-Лилиана Табакова и Кръстьо Христов" }
     \vspace #2
-    \fill-line { \with-link #'ref_desc_18 \abs-fontsize #17  "Новото Битие" }
+    \fill-line { \with-link #'ref_desc_16 \abs-fontsize #17  "Новото Битие" }
     \vspace #0.3
-    \fill-line { \with-link #'ref_desc_18 \abs-fontsize #16  "Създаването на новия Адам" }
+    \fill-line { \with-link #'ref_desc_16 \abs-fontsize #16  "Създаването на новия Адам" }
     \vspace #2
   }
   \score {
@@ -90,7 +90,7 @@
       ста -- на ут -- ро, пър -- ви ден.}
 
       \header {
-        title = \titleFunc #'ref_desc_18 "Първи Божествен ден" "Părvi Božestven den"
+        title = \titleFunc #'ref_desc_16 "Първи Божествен ден" "Părvi Božestven den"
       }
 
       \midi{}
@@ -168,7 +168,7 @@
         вто -- ри ден.}
 
         \header {
-          title = \titleFunc #'ref_desc_18 "Втори Божествен ден" "Vtori Božestven den"
+          title = \titleFunc #'ref_desc_16 "Втори Божествен ден" "Vtori Božestven den"
         }
 
         \midi{}
@@ -282,7 +282,7 @@
           ро, тре -- ти ден.}
 
           \header {
-            title = \titleFunc #'ref_desc_18 "Трети Божествен ден" "Treti Božestven den"
+            title = \titleFunc #'ref_desc_16 "Трети Божествен ден" "Treti Božestven den"
           }
 
           \midi{}
@@ -376,7 +376,7 @@
             ут -- ро, ден чет -- вър -- ти.}
 
             \header {
-              title = \titleFunc #'ref_desc_18 " Четвърти Божествен ден" "Četvărti Božestven den"
+              title = \titleFunc #'ref_desc_16 " Четвърти Божествен ден" "Četvărti Božestven den"
             }
 
             \midi{}
@@ -474,7 +474,7 @@
               ти ден.}
 
               \header {
-                title = \titleFunc #'ref_desc_18 "Пети Божествен ден" "Peti Božestven den"
+                title = \titleFunc #'ref_desc_16 "Пети Божествен ден" "Peti Božestven den"
               }
 
               \midi{}
@@ -674,7 +674,7 @@
               }
 
               \header {
-                title = \titleFunc #'ref_desc_18 " Шести Божествен ден" "Šesti Božestven den"
+                title = \titleFunc #'ref_desc_16 " Шести Божествен ден" "Šesti Božestven den"
               }
 
               \midi{}
@@ -765,7 +765,7 @@
                 А -- у -- мен!}
 
                 \header {
-                  title = \titleFunc #'ref_desc_18 " Седми Божествен ден" "Sedmi Božestven den"
+                  title = \titleFunc #'ref_desc_16 " Седми Божествен ден" "Sedmi Božestven den"
                 }
 
                 \midi{}

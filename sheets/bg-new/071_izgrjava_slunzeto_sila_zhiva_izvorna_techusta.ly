@@ -31,7 +31,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_9 "Изгрява слънцето" "Izgrjava Slănceto"
+      title = \titleFunc #'ref_desc_10 "Изгрява слънцето" "Izgrjava Slănceto"
     }
 
     \midi{}
@@ -81,7 +81,7 @@
       ном ту ме -- то. Зун ме -- ме -- то.
     }
     \header {
-      title = \titleFunc #'ref_desc_12 "Сила жива, изворна" "Sila živa, izvorna"
+      title = \titleFunc #'ref_desc_19 "Сила жива, изворна" "Sila živa, izvorna"
     }
 
     \midi{}

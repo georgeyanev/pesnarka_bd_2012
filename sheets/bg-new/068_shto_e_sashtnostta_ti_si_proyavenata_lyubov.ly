@@ -201,7 +201,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_4 "Що е същността" "Što e săštnostta"
+      title = \titleFunc #'ref_desc_23 "Що е същността" "Što e săštnostta"
     }
 
     \midi{}
@@ -243,7 +243,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_4 " Ти Си проявената Любов" "Ti Si projavenata Ljubov"
+      title = \titleFunc #'ref_desc_21 "Ти Си проявената Любов" "Ti Si projavenata Ljubov"
     }
 
     \midi{}

@@ -256,7 +256,7 @@ endParenthesis = {
     }
 
     \header {
-      title = \titleFunc #'ref_desc_12 "Радост и скръб" "Radost i skrăb"
+      title = \titleFunc #'ref_desc_18 "Радост и скръб" "Radost i skrăb"
     }
 
     \midi{}

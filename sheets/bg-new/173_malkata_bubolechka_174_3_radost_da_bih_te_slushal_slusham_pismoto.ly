@@ -103,7 +103,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_17 "Малката буболечица" "Malkata bubolečica"
+      title = \titleFunc #'ref_desc_12 "Малката буболечица" "Malkata bubolečica"
     }
 
     \midi{}
@@ -147,7 +147,7 @@
         \repeat unfold 23 { \skip 2 } (*ду -- ша -- та __ ми.)}
 
         \header {
-          title = \titleFunc #'ref_desc_19 "Радост" "Radost"
+          title = \titleFunc #'ref_desc_18 "Радост" "Radost"
         }
 
         \midi{}
@@ -198,7 +198,7 @@
           се про -- я -- ви. из -- я -- ви.}
 
           \header {
-            title = \titleFunc #'ref_desc_15 "Да бих Тe слушал " "Da bih Te slušal"
+            title = \titleFunc #'ref_desc_7 "Да бих Тe слушал " "Da bih Te slušal"
           }
 
           \midi{}
@@ -309,7 +309,7 @@
               Ко -- зре -- е.}
 
               \header {
-                title = \titleFunc #'ref_desc_19 "Писмото" "Pismoto"
+                title = \titleFunc #'ref_desc_17 "Писмото" "Pismoto"
               }
 
               \midi{}

@@ -52,7 +52,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_13 "Там далече" " Tam daleče"
+      title = \titleFunc #'ref_desc_21 "Там далече" " Tam daleče"
     }
 
     \midi{}

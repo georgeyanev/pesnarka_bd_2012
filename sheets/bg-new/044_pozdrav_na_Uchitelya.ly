@@ -43,7 +43,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_3 "Поздрав на Учителя" "Pozdrav na Učitelja"
+      title = \titleFunc #'ref_desc_18 "Поздрав на Учителя" "Pozdrav na Učitelja"
     }
 
     \midi{}

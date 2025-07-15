@@ -51,7 +51,7 @@
       тъй ка -- то ги при -- е -- ма -- ме, поз -- на -- ва -- ме, че са дар на Лю -- бов -- та. __
     }
     \header {
-      title = \titleFunc #'ref_desc_14 "Цветята цъфтяха" "Cvetjata căftjaha"
+      title = \titleFunc #'ref_desc_23 "Цветята цъфтяха" "Cvetjata căftjaha"
     }
 
     \midi{}
