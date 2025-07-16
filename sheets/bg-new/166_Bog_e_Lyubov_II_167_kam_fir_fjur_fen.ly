@@ -138,7 +138,7 @@
 
     } % score
 
-    \markup \vspace #4
+    \markup \vspace #5
 
     
     \label #'ref167

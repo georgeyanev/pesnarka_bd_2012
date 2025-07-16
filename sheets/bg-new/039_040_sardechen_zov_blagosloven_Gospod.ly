@@ -85,7 +85,7 @@
 
   } % score
 
-\markup \vspace #4
+\markup \vspace #8
  
   \label #'ref040
   \tocItem \markup "Благословен Господ"

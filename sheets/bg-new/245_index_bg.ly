@@ -52,7 +52,7 @@
  
   \markup \override #'(line-width . 42) \abs-fontsize #10 {
     \override #'(baseline-skip . 3) \column {
-      \with-link #'ref175_2 \fill-with-pattern #1 #RIGHT . "Ме-хейн" \page-ref #'ref175_2 "000" "?"
+      \with-link #'ref175_2 \fill-with-pattern #1 #RIGHT . "Ме-хейн I" \page-ref #'ref175_2 "000" "?"
       \with-link #'ref175_2 \fill-with-pattern #1 #RIGHT . "Ме-хейн II" \page-ref #'ref175_2_2 "000" "?"
       \with-link #'ref185 \fill-with-pattern #1 #RIGHT . "Мелодия 1 – Красив живот" \page-ref #'ref185 "000" "?"
       \with-link #'ref186 \fill-with-pattern #1 #RIGHT . "Мелодия 2" \page-ref #'ref186 "000" "?"
@@ -62,7 +62,7 @@
       \with-link #'ref251_2 \fill-with-pattern #1 #RIGHT . "Мелодия 4 – Озарение" \page-ref #'ref251_2 "000" "?"
       \with-link #'ref171_1 \fill-with-pattern #1 #RIGHT . "Милост, благост" \page-ref #'ref171_1 "000" "?"
       \with-link #'ref038 \fill-with-pattern #1 #RIGHT . "Милосърдието" \page-ref #'ref038 "000" "?"
-      \with-link #'ref155_2 \fill-with-pattern #1 #RIGHT . "Мирът иде вече" \page-ref #'ref155_2 "000" "?"
+      \with-link #'ref067_2 \fill-with-pattern #1 #RIGHT . "Мирът иде вече" \page-ref #'ref067_2 "000" "?"
       \with-link #'ref156 \fill-with-pattern #1 #RIGHT . "Мирът иде" \page-ref #'ref156 "000" "?"
       \with-link #'ref158 \fill-with-pattern #1 #RIGHT . "Мирът иде II" \page-ref #'ref158 "000" "?"
       \with-link #'ref093 \fill-with-pattern #1 #RIGHT . "Мисли, право мисли" \page-ref #'ref093 "000" "?"
