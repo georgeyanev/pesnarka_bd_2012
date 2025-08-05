@@ -89,8 +89,8 @@
       \tempoFunc "Allegretto" 4 "104"
       \autoBeamOff
 
-      d'8 d' e' fis' |g'2 | a'8 g' fis' e' | d'2  \bar ":|.:"  |
-      a'8 a' a'4 | \break  b'8 b' b'4 | d''8 c'' b' a' | \tempo "                 Fine" g'2  \bar ":|.:" |
+      d'8 d' e' fis' |g'2 | a'8 g' fis' e' | d'2 \bar ":|.|:" |
+      a'8 a' a'4 | \break  b'8 b' b'4 | d''8 c'' b' a' | \tempo "                 Fine" g'2  \bar ":|.|:" 
       d''4 g'' | fis''4 e'' | \break
       e''4 fis''8 e'' | d''2  |
       <<

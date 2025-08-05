@@ -35,13 +35,13 @@
       \bar ".|:-||"
 
 
-      \tempoFunc   "            Più mosso" 4 "88"
+      \tempoFunc   "       Più mosso" 4 "88"
       c''8 g' e' g' | c' c' c' c' | c'' g' e' g' | c' c' c' c' | \break
 
       e' f' g' g'  | a' g'16([f']) e'([f']) g'8 | a' g' \tempo "rit." a' b' | c''2 | \bar ":|." \time 6/4 \break
 
       \tempo "      Tempo I"
-      \once \override Slur.positions = #'(0 . -1.5)
+      \once \override Slur.positions = #'(0 . -2)
       g'4(  \acciaccatura { a'16[g' fis' g']} a'4) g'4 g'8. g'16 g'2 | c''4( \acciaccatura { d''16[ c'' b' c'' ]} d''4) c''4 \tempo "rit." b'8. b'16 c''2 | \bar "|."
     }
 
@@ -55,7 +55,7 @@
       Ве -- сел ти бъ -- ди, бо -- дър ти ста -- ни!
       Ве -- сел бъ -- ди, бо -- дър ста -- ни,
       във жи -- во -- та ра -- дост но -- си,
-      във жи -- во -- та ра -- дост но -- си
+      във жи -- во -- та ра -- дост но -- си,
       във жи -- во -- та ти.
       Ве -- сел ти бъ -- ди, бо -- дър ти ста -- ни!
     }

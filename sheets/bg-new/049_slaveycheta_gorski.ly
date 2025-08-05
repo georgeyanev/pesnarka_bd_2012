@@ -5,31 +5,15 @@
 "rightBraces049" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -5.5 )
-    \right-brace #20
-
-    \translate #'(0 . -10.0 )
-    \right-brace #20
-
-    \translate #'(0 . -10.0 )
-    \right-brace #20
-
-    \translate #'(0 . -10.0 )
+    \translate #'(0 . -8 )
     \right-brace #20
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -6.1 )
+    \translate #'(0 . -8.8 )
     2
 
-    \translate #'(0 . -12.0 )
-    2
-
-    \translate #'(0 . -12.0 )
-    2
-
-    \translate #'(0 . -12.0 )
-    2
+   
   }
 }
 
@@ -82,7 +66,7 @@
             "хем са живи, хем игриви"
             "кат поточе бързотечно."
 
-          }
+          } \"rightBraces049"
         }
         \vspace #1
         \line {
@@ -92,7 +76,7 @@
             "песента ни в тишината –"
             "и се лее, и люлее"
             "като струя във душата."
-          }
+          }\"rightBraces049"
         }
         \vspace #1
         \line {
@@ -102,7 +86,7 @@
             "всяко зло ще се прокуди."
             "Новий воин, млад, достоен,"
             "с песните си ще пробудим."
-          }
+          }\"rightBraces049"
         }
         \vspace #1
 
@@ -113,7 +97,7 @@
             "тъй се истински живее,"
             "пейте, пейте дружно всички –"
             "целий свят със вас да пее! "
-          }
+          }\"rightBraces049"
         }
       }
     }

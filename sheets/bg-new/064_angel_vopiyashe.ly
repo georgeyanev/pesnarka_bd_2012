@@ -91,7 +91,7 @@
       d4.( e8) c4( d) \bar "|"  \break
 
       ees4.( d8 g8[ fis \acciaccatura { ees16 [fis] }  ees8 d]) d2\fermata \bar "|"
-      a'4.( g8 f?16[ g] \acciaccatura { a16 [b] } c4) \slurNeutral b!8([ c] a2) g4 a4 \bar "|"  \break
+      \once \override Slur.positions = #'(0 . -1.5) a'4. ( g8 f?16[ g] \acciaccatura { a16 [b] } c4) \slurNeutral b!8([ c] a2) g4 a4 \bar "|"  \break
 
       \stemUp a8([ bes?16 c] a8  [g]) f8([ e? a g]) f4.( e8 d[ e16 f] d4) d2 \bar "|"  \break
 

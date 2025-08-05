@@ -23,11 +23,11 @@
 
       e''16-- f''16-- g''16-- a''-- bes''2-- a''8-- g''8-- \tuplet 3/2 { f''8 ( [e''8 d''8] } \tuplet 3/2 { cis''!8 [d''8 e''8] ) } d''2--  \break
 
-      f''8-- f''-- e''-- d''-- cis''!4-- bes'8-- a'8-- \tuplet 3/2 {g'8-- ( [a' bes'--])} a'2-- \fermata   \break
+      f''8-- f''-- e''-- d''-- cis''!4-- bes'8-- a'8-- \tuplet 3/2 {g'8-- ( [a'-- bes'--])} a'2-- \fermata   \break
 
       g16-- a-- bes--  a-- c'2-- bes8 a8 \tuplet 3/2 {g [( a bes-. )] } a2 r4    \break
 
-      \tempo "rit. e morendo" g16 a bes  a c'2-- bes8 a8  \tuplet 3/2 {g [(a bes )]}  a2.  r4 \bar "|."
+      \tempo "rit. e morendo" g16 a bes  a c'2-- bes8 a8  \tuplet 3/2 {g [(a bes_. )]}  a2.  r4 \bar "|."
 
     }
 

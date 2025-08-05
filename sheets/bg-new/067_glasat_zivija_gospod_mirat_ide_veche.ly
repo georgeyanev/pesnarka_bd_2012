@@ -100,7 +100,7 @@
         \once \override Slur.positions = #'(1 . 1)
         \tempo "         rit." c''8   ( [  b'8 ) ]  a'8
       }
-      \once \omit TupletBracket \times 2/3 {
+     \times 2/3 {
         gis'8 ( [  a'8
         ) ] b'8
       }

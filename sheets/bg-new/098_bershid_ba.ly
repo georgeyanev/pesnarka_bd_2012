@@ -26,7 +26,7 @@
       des'8 des' c'4 bes8 a | \time 4/4  c'4 bes8. a16 bes2 \break |
 
       \bar ".|:-|"
-      f'4 bes'8. bes'16 bes'4. bes'8 | \autoBeamOn c''8  ( bes')  a' ( bes' ) c''4 \autoBeamOff bes'8. a'16 \break |
+      f'4 bes'8. bes'16 bes'4. bes'8 | \autoBeamOn c''8  ( bes')  a'4  c''4 \autoBeamOff bes'8. a'16 \break |
 
       \time 5/4  | bes'2 ( as'?4 )  ges' f'8. e'16 | \time 3/4  f'2 \times 2/3  {  f'8 [ ( ges' as'8 ) ] } \break |
 

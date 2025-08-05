@@ -5,19 +5,15 @@
 "rightBraces046" = \markup {
   \column {
     % repeat braces
-    \translate #'(0 . -9.2 )
+    \translate #'(0 . -13.2 )
     \right-brace #32
 
-    \translate #'(0 . -13.6 )
-    \right-brace #32
   }
   \column {
     % repeat numbers
-    \translate #'(0 . -9.8 )
+    \translate #'(0 . -13.8 )
     2
 
-    \translate #'(0 . -16.8 )
-    2
   }
 }
 
@@ -81,7 +77,7 @@
             "със мелодии чудесни –"
             "сводът красен да ечи."
 
-          }
+          }\"rightBraces046"
         }
         \vspace #1
         \line {
@@ -93,7 +89,7 @@
             "ново царство ще направим,"
             "Бога нашего да славим"
             "всеки ден, во век веков."
-          }
+          }\"rightBraces046"
         }
       }
     }

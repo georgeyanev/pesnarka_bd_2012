@@ -24,9 +24,9 @@
       bes'4 c'' d'' | a'2 a'4 | f''2 d''4 |  g''2 \fermata f''4 \break |
       es''4 d'' c'' | bes'4 c'' d'' ~ | d''4  r a' | c''2 a'4 \break |
       d''2 a'4 | c''4 bes' a' | g'4 fis' a' | g'2 r4 | \time 2/4 \break |
-      \bar ".|:-||" d''4 d'' es'' es'' | d''4 c''|  d''2 | c''4 c'' d'' c'' \break |
+      \bar ".|:-||"  \tempo"        Più vivo" d''4  d'' es'' es'' | d''4 c''|  d''2 | c''4 c'' d'' c'' \break |
       c'' a' | bes'2 | bes'4 c'' d'' es'' | es''4 es'' | d''2 \break |
-      a'4 c'' bes' a' | fis'4 a' | g'2  \bar ":|." \break
+      \tempo "rit." a'4 c'' bes' a' | fis'4 a' | g'2  \bar ":|." \break
     }
 
 

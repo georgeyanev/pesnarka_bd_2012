@@ -32,7 +32,7 @@
       g4 fis e | \time 2/4 d8 c b8 [(c8) ] | d2 |
       \bar ":|." g4. fis8 | \break
 
-      e8 [( d ] e [d ]) | d2 | a'4. g8  |  e8 [( d8  ] e8 [d8 ]) | d2 | \break
+      e8 [( d ] e [d ]) | d2 | a'4. g8  |  fis8 [( e8  ] fis8 [e8 ]) | d2 | \break
 
       \time 3/4 d8 fis a a a a | d, fis a \tempo "rit." a a a \bar "||" \key d \major \time 2/4 \tempo "Tempo I" d4 a8 b | \break
 

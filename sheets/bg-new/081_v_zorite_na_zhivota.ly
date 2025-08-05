@@ -28,13 +28,13 @@
 
       f'2 g'4 a' g' g'4 fis' g' a' a' g'4 fis' g'2 \bar "!" \break
 
-      g'4 c''2 d''4 e'' d''4 c'' b' c'' a' g'4 g' g'8 ( [ fis' g' a' ]  g'2  ) r4  \bar "!" \break
+      g'4 c''2 d''4 e'' d''4 c'' b' c'' a' g'4 g' g'8 ( [ fis'? g' a' ]  g'2  ) r4  \bar "!" \break
 
       e'2 d'4 c' d'4 f' e' d'  c'4 ( b ) c'2 \bar "!" \break f'2 g'4 a'  g'4 g' c'' a' a'4 g'2 \bar"!" \break
 
       g'4 c''2  b'4 a' g'4 fis' g' a' g'2 \bar "!"
 
-      d''2 c''4  b' a' g'4 fis' g' a' g'2  \bar "!" \break
+      d''2 c''4  b' a' g'4 fis'? g' a' g'2  \bar "!" \break
 
       e'2 c'4 ( e' ) d'2 \bar "!" g'2 a'4 ( g' ) g'2 \bar "!" c''2 b'4 \tempo "rit." a' g' f'8 ( [g'] )   e'4 d' c'8 ( [b c' d' ])   c'2 \bar "."
     }

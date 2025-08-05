@@ -96,7 +96,7 @@
       \clef treble
       \key c \minor
       \time 3/8
-      \tempoFunc "Andante" 4 "66"
+      \tempoFunc "Andante" 8 "66"
 
       \partial 8
 
@@ -130,7 +130,7 @@
 
   }
 
-  \markup \dc-two "D.C. al Fine „ Махар Бену Аба“" "senza ripetizione"
+  \markup \dc-two "D.C. al Fine „Махар Бену Аба“" "senza ripetizione"
 
 
 } % bookpart

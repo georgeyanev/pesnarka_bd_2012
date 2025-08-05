@@ -30,9 +30,9 @@
 
       a'4 d''4 d''2 bes'8 a' g'4 bes'4 a'2
 
-      \bar ".|:" a'8 bes' c''4 c''2 d''4 a'8 bes' c''4 c''2  \bar "!"\break
+      \bar ".|:" \tempo "Più vivo" a'8 bes' c''4 c''2 d''4 a'8 bes' c''4 c''2  \bar "!"\break
 
-      bes'4  bes'8 a' bes'4 d''  c''4 bes' a' e' f'4 d'2 \bar ":|."
+      bes'4  bes'8 a' bes'4 d''  c''4 \tempo"rall." bes' a' e' f'4 d'2 \bar ":|."
     }
 
     \addlyrics {
