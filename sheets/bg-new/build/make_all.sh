@@ -56,9 +56,10 @@ cat \
     ../063_dishay_dalboko.ly \
     ../066_1_066_2_taynata_vecherya_tebe_poem.ly \
     ../064_angel_vopiyashe.ly \
-    ../067_glasat_zivija_gospod_mirat_ide_veche.ly \
+    ../067_mirat_ide_veche.ly \
     ../068_shto_e_sashtnostta_ti_si_proyavenata_lyubov.ly \
     ../069_pesen_na_glasnite_bukvi.ly \
+    ../007_blank_page.ly \
     ../069_pesni_ot_Uchitelya.ly \
     ../070_fir_fur_fen.ly \
     ../071_izgrjava_slunzeto_sila_zhiva_izvorna_techusta.ly \
@@ -151,13 +152,14 @@ cat \
     ../201_edna_vechna_istina.ly \
     ../202_204_himni_na_slantzeto_molitva.ly \
     ../206_207_bozhiyata_lyubov_me_osari_pesen_na_angelite.ly \
+    ../208_glasat_na_zivija_gospod_zora_na_novija_zhivot.ly \
     ../138_dobriat_momak.ly \
     ../212_moeto_slanze_dnes_ste_izgree.ly \
     ../211_kazhi_mi_svetlii_bozhi_lach.ly \
     ../214_ti_ste_spoluchish_v_zhivota.ly \
-    ../215_zora_na_noviya_zhivot.ly \
     ../216_otche_nash_ne_ni_vavezhdai.ly \
     ../217_strannik_sam.ly \
+    ../007_blank_page.ly \
     ../250_addendum.ly \
     ../251_v_radostta_na_denya_ozarenie.ly \
     ../252_molitva_ti_si_strateva.ly \
