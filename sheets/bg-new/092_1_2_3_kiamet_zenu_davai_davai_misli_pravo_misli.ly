@@ -109,58 +109,47 @@
 
   \markup \dc-two "D.C.""con ripetizione"
 
-  \markup \vspace #5
+  \markup \vspace #4
 
-  \label #'ref093
-  \tocItem \markup "Мисли, право мисли"
+  \label #'ref086_2
+  \tocItem \markup "Благата песен"
+
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
-    \new Voice \absolute  {
+
+    \new Voice \absolute {
       \clef treble
-      \key d \major
-      \time 2/4
-      \tempoFunc "Adagio" 4 "54"
+      \key g \major
+      \time 3/4
+      \tempoFunc "Moderato" 4 "72"
 
       \partial 4
       \autoBeamOff
+      b8. c'16 | d'4 g' fis'8. e'16 | \time 2/4  e'4. e'8 | \time 3/4  e'4 c' e'8. e'16 \break |
 
-      a4 | d'2 | \time 3/4 b'4 a' fis' | \time 4/4 a'2 ( a'8 ) r8 a4 | \time 2/4 d'2 | \time 3/4 b'4 a'4 fis'4 \break
+      d'2 b'8. b'16 | c''4 b' b'8. a'16 | a'4 g'2 \break |
 
-      a'2 r8
+      \time 4/4  b'8. b'16 c''8. c''16 b'2 | d''4 c'' b' a' | a'2 g' \break |
 
-      \tempoFunc "Più mosso" 4 "58"
-      fis'8 | \repeat volta 2 {
-        \time 9/8 fis'4 fis'8 fis'4 fis'8 fis'4 g'8 | a'4 a'8 b'4 a'8 a'4 fis'8 | \break
-
-        a'4 g'8 g'4 fis'8 fis'4 e'8 | \time 6/8 e'4 e'8 fis'4 e'8 |
-      } \alternative {
-        {d'4. (d'4 ) fis'8 \break}
-        {d'4. (d'4) a8 }
-      } \repeat volta 2 {
-        \time 9/8 a4 a8 a4 a8 a4 a8 | g'4 fis'8 e'4 e'8 e'4 e'8 | \break
-
-        \time 6/8  fis'4 e'8 d'4 cis'8 |
-      } \alternative { { d'4. ( d'4 ) a8 } { d'4. ( d'8 ) } } \bar "|."
-
+      \bar ".|:-|"  \time 6/4  fis'4 fis' fis'2 e' | e'4 e' e'2 d' |  \time 4/4  b'4 b' c'' a' | a'2 g' \bar ":|."
     }
 
     \addlyrics {
-      Мис -- ли, пра -- во ми -- сли! __  Мис -- ли, пра -- во мис -- ли!
-
-      Све -- ще -- ни мис -- ли за жи -- во -- та ти кре -- пи, све -- ще -- ни мис -- ли за жи -- во -- та ти кре -- пи. __ Све -- пи. __  Кре -- пи кре -- пи
-
-      кре -- пи све -- ще -- ни мис -- ли за жи -- во -- та ти кре -- пи. __  Кре -- пи. __
+      Ти съз -- на -- вай, ти лю -- би,
+      без -- спир -- но сей, гра -- ди и в~жи -- во --
+      та всич -- ко да -- вай. Та -- зи Ис -- ти --
+      на, Бо -- га, ти по -- зна -- вай. Ти по -- зна
+      -- вай, ти по -- зна -- вай, Бо -- га ти по --
+      зна -- вай.
     }
 
     \header {
-      title = \titleFunc #'ref_desc_14 "Мисли, право мисли" "Misli, pravo misli"
+      title = \titleFunc #'ref_desc_2 "Благата песен" "Blagata pesen"
     }
 
     \midi{}
 
   } % score
-
-  \markup \dc-two "D.C.""con ripetizioni"
 
 } % bookpart
