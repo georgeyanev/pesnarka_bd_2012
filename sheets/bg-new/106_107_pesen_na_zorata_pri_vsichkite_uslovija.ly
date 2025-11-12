@@ -52,7 +52,7 @@
 
       На мла -- ди но -- си здра -- ве,
 
-      на ра -- бот -- "ни  –" дар жи -- вот.
+      на ра -- бот -- "ни -" дар жи -- вот.
 
       Мъд -- ри -- те да до -- бру -- ват,
 
@@ -106,7 +106,7 @@
       }
       c2 \tuplet 3/2 { g4 g8} | c2 \tuplet 3/2 { a4 a8 } | d4 (c) \tupletUp \tuplet 3/2 { b b8 } | \tupletNeutral \break
 
-      \tempo "                  Fine" c2  \bar "!!" \key d \minor a8 ( f8 ) \autoBeamOff \repeat volta 2 {
+      \tempo "                  Fine" c2  \bar "!!" a8 ( f8 ) \autoBeamOff \repeat volta 2 {
         e4 d a8. a16 | \time 2/4 d4. f8 | \break
         e4 a,8. a16 | d8 [(e8)] f8 e |
       }

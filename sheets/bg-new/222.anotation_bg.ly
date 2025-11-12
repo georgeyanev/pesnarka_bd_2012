@@ -64,11 +64,11 @@
   \markup \fontsize  #+3 { \fill-line  {"Издателство „Домисол“"} }
 
   \markup { {  \vspace #0.8 } }
-  \markup \fontsize  #+2.5 { \fill-line  {"www.beinsasongs.eu"} }
+  \markup \fontsize  #+2.5 { \fill-line  {"www.beinsamusic.eu"} }
   \markup { {  \vspace #0.8 } }
-  \markup \fontsize  #+2.5 { \fill-line {"София"} }
+  \markup \fontsize  #+2.5 { \fill-line {"Мюнхен"} }
     \markup { {  \vspace #0.8 } }
-  \markup \fontsize  #+2.5 { \fill-line {"2025"} }
+  \markup \fontsize  #+2.5 { \fill-line {"2026"} }
   \markup { {  \vspace #2.5 } }
   \markup \fontsize  #+2.5 { \fill-line {"ISMN 979-0-9016674-5-7"}}
 } % bookpart

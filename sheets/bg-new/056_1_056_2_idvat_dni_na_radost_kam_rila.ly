@@ -3,6 +3,19 @@
 % include paper part and global functions
 \include "include/globals.ily"
 
+"rightBraces056" = \markup {
+  \column {
+    % repeat braces
+    \translate #'(0 . -8 )
+    \right-brace #22
+  }
+  \column {
+    % repeat numbers
+    \translate #'(0 . -8.5 )
+    2
+  }
+}
+
 \bookpart {
   \label #'ref056_1
   \tocItem \markup "Идват дни на радост"
@@ -34,6 +47,8 @@
     \midi{}
 
   } % score
+
+
 
 
   \label #'ref056_2
@@ -85,7 +100,7 @@
             "при рилските очи."
             "Тук нашата цигулка"
             "с нов тон ще зазвучи."
-          }
+          } \"rightBraces056"
         }
 
       }
@@ -99,7 +114,7 @@
             "ще леят красота,"
             "защото с тях ще свири"
             "доброто, Любовта."
-          }
+          } \"rightBraces056"
         }
         % adds vertical spacing between verses
 
@@ -120,7 +135,7 @@
             "ще видим Мусала,"
             "безкрайната природа"
             "и своя мил Баща."
-          }
+          } \"rightBraces056"
         }
       }
     }

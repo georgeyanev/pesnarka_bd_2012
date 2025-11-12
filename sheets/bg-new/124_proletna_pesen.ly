@@ -148,7 +148,7 @@
       \tupletDown \times 2/3  {
         f8 ( [d8 ) ] bes8
       }
-      \times 2/3  {
+      \tupletUp \times 2/3  {
         as8 ( [  f8  d8 ) ]
       }
       bes4 ^\fermata | % 37

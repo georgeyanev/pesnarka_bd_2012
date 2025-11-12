@@ -33,7 +33,7 @@
       \key bes \major
       \time 2/4
 
-      \tempoFunc "Tempo di marcia" 4 "112"
+      \tempoFunc "Tempo di marcia" 8 "112"
       \autoBeamOff
 
       \partial 8
@@ -89,7 +89,7 @@
           \column {
             "     Сияй, свети Сионе,"
             "     ний бързо веч летим,"
-            "     на Бога скоро в тебе,"
+            "     на Бога скоро в тебе"
             "     с дух ще се поклоним."
           }\"rightBraces054"
         }
