@@ -54,7 +54,9 @@ cat \
     ../060_na_Hrista_zapeyte.ly \
     ../062_novi_drehi.ly \
     ../063_dishay_dalboko.ly \
+    ../255_izgreva_svesten.ly \
     ../066_1_066_2_taynata_vecherya_tebe_poem.ly \
+    ../256_velikoto_slavoslovie.ly \
     ../064_angel_vopiyashe.ly \
     ../067_mirat_ide_veche.ly \
     ../068_shto_e_sashtnostta_ti_si_proyavenata_lyubov.ly \

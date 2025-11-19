@@ -52,6 +52,8 @@
  
   \markup \override #'(line-width . 42) \abs-fontsize #10 {
     \override #'(baseline-skip . 3) \column {
+       \with-link #'ref254 \fill-with-pattern #1 #RIGHT . "Марш на светлите сили II" \page-ref #'ref254 "000" "?"
+      \with-link #'ref080 \fill-with-pattern #1 #RIGHT . "Махар Бену Аба" \page-ref #'ref080 "000" "?"
       \with-link #'ref175_2 \fill-with-pattern #1 #RIGHT . "Ме-хейн I" \page-ref #'ref175_2 "000" "?"
       \with-link #'ref175_2 \fill-with-pattern #1 #RIGHT . "Ме-хейн II" \page-ref #'ref175_2_2 "000" "?"
       \with-link #'ref185 \fill-with-pattern #1 #RIGHT . "Мелодия 1 – Красив живот" \page-ref #'ref185 "000" "?"
@@ -97,11 +99,12 @@
       \with-link #'ref044 \fill-with-pattern #1 #RIGHT . "Поздрав на Учителя" \page-ref #'ref044 "000" "?"
       \with-link #'ref132 \fill-with-pattern #1 #RIGHT . "Правда" \page-ref #'ref132 "000" "?"
       \with-link #'ref107 \fill-with-pattern #1 #RIGHT . "При всичките условия" \page-ref #'ref107 "000" "?"
-      \with-link #'ref118_2 \fill-with-pattern #1 #RIGHT . "Пролет" \page-ref #'ref118_2 "000" "?"
+  
     }
 
     \hspace #2.6
     \override #'(baseline-skip . 3) \column {
+          \with-link #'ref118_2 \fill-with-pattern #1 #RIGHT . "Пролет" \page-ref #'ref118_2 "000" "?"
       \with-link #'ref181 \fill-with-pattern #1 #RIGHT . "Пролетна песен (Ето пристига)" \page-ref #'ref181 "000" "?"
       \with-link #'ref124 \fill-with-pattern #1 #RIGHT . "Пролетна песен (Мили Боже)" \page-ref #'ref124 "000" "?"
       \with-link #'ref057 \fill-with-pattern #1 #RIGHT . "Псалом 91" \page-ref #'ref057 "000" "?"
