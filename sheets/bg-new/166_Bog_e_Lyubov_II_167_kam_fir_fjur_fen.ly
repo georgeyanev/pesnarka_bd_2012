@@ -42,7 +42,7 @@
         f'8 ( [  e'8  f'8 ) ]
       }
       |  % 18
-      g'4  g'4  a'4 \once \omit TupletBracket
+      g'4  g'4  a'4 
       \times 2/3  {
         f'8 ( [  e'8 )  ] f'8
       }
@@ -96,7 +96,7 @@
       \time 2/4  | % 45
       a'8.  a'16  a'8 ( [  b'8 ) ] | \break % 46
       g'4  f'4 |  % 47
-      f'8. (  g'16 )  e'4 | % 48
+      f'8. ( [ g'16 ])  e'4 | % 48
       a'4 \once \omit TupletBracket
       \times 2/3  {
         g'8 ( [  a'8  g'8 ) ]
@@ -140,7 +140,7 @@
 
     \markup \vspace #5
 
-    
+
     \label #'ref167
     \tocItem \markup "Към „Фир-фюр-фен“"
     \include "include/bookpart-paper.ily"

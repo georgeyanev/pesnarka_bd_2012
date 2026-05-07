@@ -352,12 +352,12 @@
         gis''16  -. ] fis''16 -. [e''16] )
         -. dis''16 -. cis''16 -. | \break
         \time 4/4
-        \acciaccatura {  cis''8 [  dis''8 ] } cis''4
+        \acciaccatura {  cis''16 [  dis''16 ] } cis''4
         b'4 b'4 ais'4  |
-        b'2 r4 b'4 | cis''4 dis''4 e''4. cis''8
+        b'2 r4  \tempoFunc "Meno" 4 "60"   b'4 ^\< | cis''4 dis''4 e''4. cis''8  
         |
 
-        fis''2  r4. fis''8 | b''2. r4 \fermata \bar "|."
+        fis''2 \! r4. fis''8 ^\> |  b''2. \! r4 \fermata \bar "|."
       }
 
       \addlyrics {

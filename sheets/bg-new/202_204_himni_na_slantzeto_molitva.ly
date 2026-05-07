@@ -212,6 +212,7 @@
 
     \header {
       title = \titleFunc #'ref_desc_20 "Химн на Слънцето" "Himn na Slănceto"
+      subtitle = \markup \normal-text \huge "(Молитва при изгряване на слънцето)"
     }
 
     \midi{}

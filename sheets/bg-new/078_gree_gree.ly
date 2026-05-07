@@ -15,7 +15,7 @@
       \key g \major
       \time 5/4
       \tempoFunc "Andantino" 4 "69"
-      
+
 
       \autoBeamOff
       b8 d b8 d b8 d  \bar "!" g fis e c | c e c e c e   \bar "!"  \break

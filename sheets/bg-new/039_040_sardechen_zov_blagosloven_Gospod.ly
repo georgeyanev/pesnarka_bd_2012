@@ -85,8 +85,8 @@
 
   } % score
 
-\markup \vspace #8
- 
+  \markup \vspace #8
+
   \label #'ref040
   \tocItem \markup "Благословен Господ"
   \include "include/bookpart-paper.ily"

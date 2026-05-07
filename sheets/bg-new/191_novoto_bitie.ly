@@ -626,7 +626,7 @@
                   \musicglyph #"scripts.caesura.straight"
                 }
                 ^\fermata
-                cis''8  |  % 253
+                cis''8   \bar "||" % 253
                 \key a \major
                 fis''2 ^\fermata r8  \tempo"Poco meno mosso" cis''8
                 cis''8  cis''8 | \break % 254

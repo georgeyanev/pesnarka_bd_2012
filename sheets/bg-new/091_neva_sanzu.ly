@@ -25,7 +25,7 @@
 
       f''8-- f''-- e''-- d''-- cis''!4-- bes'8-- a'8-- \tuplet 3/2 {g'8-- ( [a'-- bes'--])} a'2-- \fermata   \break
 
-      g16-- a-- bes--  a-- c'2-- bes8 a8 \tuplet 3/2 {g [( a bes-. )] } a2 r4    \break
+      g16-- a-- bes--  a-- c'2-- bes8 a8 \tuplet 3/2 {g [( a bes_. )] } a2 r4    \break
 
       \tempo "rit. e morendo" g16 a bes  a c'2-- bes8 a8  \tuplet 3/2 {g [(a bes_. )]}  a2.  r4 \bar "|."
 
@@ -52,3 +52,5 @@
 
   \markup \dc-one "D.C."
 } % bookpart
+
+

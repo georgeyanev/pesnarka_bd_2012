@@ -78,7 +78,7 @@
       \alternative {
         {
           c2. ( | c4)  r4 c,4  |
-        }  {c'2. \bar "||"  \break }
+        }  {c'2. \fermata \bar "||"  \break }
       }
 
 

@@ -21,7 +21,7 @@
       a8 g fis d | e [ ( fis ] e4 )  | d2 | \time 4/4 \tuplet 3/2 { { g8 [ (   a8 ) ] b8 } } a4 a2 \break
 
       \tuplet 3/2 {    { d,8 [( e8 )] } fis8 } e4 d2 \bar "||"  \key g \major \time 2/4
-      \tempoFunc "Più mosso" 4 "184"
+      \tempoFunc "Più mosso" 4 "84"
       g4. ( fis8 | e4 ) d4 | c4. e8 |  d4 c | \break
 
       b4 c | d (e) | \time 3/4 d2 d4 | b'4. a8 g8. fis16 | e4 d c8. c16  | \break
@@ -52,7 +52,7 @@
 
       На мла -- ди но -- си здра -- ве,
 
-      на ра -- бот -- "ни -" дар жи -- вот.
+      на ра -- бот -- " ни -" дар жи -- вот.
 
       Мъд -- ри -- те да до -- бру -- ват,
 

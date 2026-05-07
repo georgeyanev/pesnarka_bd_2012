@@ -16,7 +16,7 @@
       \time 8/16
       \tempoFunc "Lento" 8 "112"
       \autoBeamOff
-      g'8. a8 f(e16) |
+      g'8. a8 f[(e16)] |
       g8. g8(g8.) |
       fis8. ees8 d8. |
       ees8. c8(c8.) | \break
@@ -56,7 +56,7 @@
 
       g8 a f e16 |
       g8 f(f8.) |
-      e8 g f(e16) |
+      e8 g f[(e16)] |
       \tempo "rall." f8 e c8. |
       d4 d8. | \bar "||" \break
 
@@ -65,7 +65,7 @@
       f8 f e8. |
       g8 a f e16 |
       g4 g8. |
-      c,8 d16[(e)] f8(e16) | \break
+      c,8 d16[(e)] f8[(e16)] | \break
 
       \tempo "rit."
       f8 e c8. |
@@ -94,7 +94,7 @@
       \key c \major
       \time 5/16
       \tempo "Allegretto"
-      c8 d e 16 |
+      c8 d e16 |
       f8 e8. |
       f8 e8. | \break
 
@@ -145,10 +145,10 @@
       \key c \major
       \time 5/16
       \tempo "Allegretto"
-      c8 d(e16) | \break
+      c8 d[(e16)] | \break
 
       f8 e8. |
-      g8 f8(e16) |
+      g8 f8[(e16)] |
       f8 e8. |
       g8 a f16 |
       f8 e8. |
@@ -255,12 +255,12 @@
         fis16 ) ] g8 fis8. | % 165
         g8 e8 e16 ( [ \stemDown
         fis16 ) ]d8. | % 166
-        d8 e16 ( [d16 ) ] \stemUp
+        d8 e16 ( [d16 ) ]
         c8 b8. \break | % 167
-        g8 a16 ( [  b16 ) ]c16 (
+        \stemUp g8  a16 ( [  b16 ) ] \stemDown c16 (
         [d16 ) ]c8. | % 168
-        d8 e16 ( [d16 ) ] \stemUp
-        c16 ( [d16 ) ]b8. | % 169
+        d8 e16 ( [d16 ) ] 
+        c16 ( [d16 ) ]b8. | \stemUp% 169
         g8  a8  a8  a8. \bar ":|."
       }
 
@@ -268,7 +268,7 @@
     }
 
     \addlyrics {
-      От ста -- ро вре -- ме, __ син -- ко, е знай -- но --
+      От ста -- ро вре -- ме, __ син -- ко, е знай -- "но –"
       ху -- ба -- ва мо -- ма __ на све -- тъл ден се по --
       зна -- ва, __ ко -- га слън -- це сут -- рин из -- гря -- ва.
       Тя е __ ра -- но -- буд -- ни -- ца, ра -- но __ ста -- ва

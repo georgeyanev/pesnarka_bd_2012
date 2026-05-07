@@ -71,7 +71,7 @@
 
 
   \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip){
-    
+
     \fill-line {
       \column {
         \line {
