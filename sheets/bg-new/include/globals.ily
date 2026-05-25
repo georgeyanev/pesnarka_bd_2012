@@ -1,22 +1,18 @@
-\version "2.24.4"
+\version "2.26.0"
 
-#(set-global-staff-size 15)
+ #(set-global-staff-size 15)
+
 
 \paper {
   #(set-paper-size "a5")
 
   % change lyrics and titles font (affects notes also)
-  #(define fonts
-     (set-global-fonts
-      #:music "emmentaler"
-      #:brace "emmentaler"
-      #:roman "Times New Roman"
-      #:sans "DejaVu Sans"
-      #:typewriter "DejaVu Sans Mono"
-      ; unnecessary if the staff size is default
-      #:factor (/ staff-height pt 20)
-      ))
+  property-defaults.fonts.roman = "Times New Roman"
+  property-defaults.fonts.serif = "DejaVu Serif"
+  property-defaults.fonts.sans = "DejaVu Sans"
+  property-defaults.fonts.typewriter = "DejaVu Sans Mono"
 }
+
 
 tempoFunc = #(define-music-function
               (tName tNote tNumber)
@@ -189,5 +185,4 @@ titleFunc = #(define-scheme-function
 %  special meaning. When it occurs, the width of the resembling glyph in the bar line definition is used.
 %* New glyphs can be added easily.
 %* Volta brackets take the bar line dimensions into account.
-
 

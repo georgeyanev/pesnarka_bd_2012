@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -101,7 +101,7 @@
       \with-link #'ref078 \fill-with-pattern #1 #RIGHT . "Грее, грее" \page-ref #'ref078 "000" "?"
       \with-link #'ref174_1 \fill-with-pattern #1 #RIGHT . "Да бих Тe слушал" \page-ref #'ref174_1 "000" "?"
       \with-link #'ref110_1 \fill-with-pattern #1 #RIGHT . "Да имаш вяра" \page-ref #'ref110_1 "000" "?"
-      
+
 
     }
     \hspace #2.6
@@ -150,8 +150,8 @@
       \with-link #'ref099 \fill-with-pattern #1 #RIGHT . "Малкият извор (Светъл лъч)" \page-ref #'ref099 "000" "?"
       \with-link #'ref165 \fill-with-pattern #1 #RIGHT . "Малкият планински извор" \page-ref #'ref165 "000" "?"
       \with-link #'ref162 \fill-with-pattern #1 #RIGHT . "Марш на светлите сили" \page-ref #'ref162 "000" "?"
-     
-     
+
+
     }
   }
 

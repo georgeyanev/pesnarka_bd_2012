@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -10,7 +10,7 @@
   \score {
     \include "include/score-layout.ily"
 
-     \new Voice \absolute {
+    \new Voice \absolute {
       \clef treble
       \key g \major
       \time 2/4

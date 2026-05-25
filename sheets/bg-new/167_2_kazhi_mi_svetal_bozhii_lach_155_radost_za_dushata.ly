@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -223,7 +223,7 @@
             \column {
               "Радост, радост за душата носи светлината."
               "Светли бъдете като звездите,"
-               "светли бъдете като слънцата."
+              "светли бъдете като слънцата."
             }
           }
 

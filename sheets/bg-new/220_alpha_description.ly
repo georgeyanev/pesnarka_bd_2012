@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -584,7 +584,7 @@
           Музика от Учителя, текст от Стоян Русев (Дядо Благо).
         }
       }
-        \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref030 \bold "Изгрява вече ден тържествен."}
