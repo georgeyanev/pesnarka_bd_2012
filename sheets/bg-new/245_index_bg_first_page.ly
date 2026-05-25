@@ -86,7 +86,6 @@
       \with-link #'ref110_2 \fill-with-pattern #1 #RIGHT . "В пустинята на живота" \page-ref #'ref110_2 "000" "?"
       \with-link #'ref183 \fill-with-pattern #1 #RIGHT . "Вариации" \page-ref #'ref183 "000" "?"
       \with-link #'ref095 \fill-with-pattern #1 #RIGHT . "Вдъхновение" \page-ref #'ref095 "000" "?"
-      \with-link #'ref256 \fill-with-pattern #1 #RIGHT . "Великото славословие" \page-ref #'ref256 "000" "?"
       \with-link #'ref076 \fill-with-pattern #1 #RIGHT . "Венир Бенир" \page-ref #'ref076 "000" "?"
       \with-link #'ref096 \fill-with-pattern #1 #RIGHT . "Весел ти бъди" \page-ref #'ref096 "000" "?"
       \with-link #'ref083_1 \fill-with-pattern #1 #RIGHT . "Вехади" \page-ref #'ref083_1 "000" "?"
@@ -101,12 +100,13 @@
       \with-link #'ref078 \fill-with-pattern #1 #RIGHT . "Грее, грее" \page-ref #'ref078 "000" "?"
       \with-link #'ref174_1 \fill-with-pattern #1 #RIGHT . "Да бих Тe слушал" \page-ref #'ref174_1 "000" "?"
       \with-link #'ref110_1 \fill-with-pattern #1 #RIGHT . "Да имаш вяра" \page-ref #'ref110_1 "000" "?"
+       \with-link #'ref092_2 \fill-with-pattern #1 #RIGHT . "Давай, давай" \page-ref #'ref092_2 "000" "?"
 
 
     }
     \hspace #2.6
     \override #'(baseline-skip . 3) \column {
-      \with-link #'ref092_2 \fill-with-pattern #1 #RIGHT . "Давай, давай" \page-ref #'ref092_2 "000" "?"
+     
       \with-link #'ref118_1 \fill-with-pattern #1 #RIGHT . "Денят иде" \page-ref #'ref118_1 "000" "?"
       \with-link #'ref182 \fill-with-pattern #1 #RIGHT . "Десет теми" \page-ref #'ref182 "000" "?"
       \with-link #'ref063 \fill-with-pattern #1 #RIGHT . "Дишай дълбоко" \page-ref #'ref063 "000" "?"
@@ -129,7 +129,6 @@
       \with-link #'ref172 \fill-with-pattern #1 #RIGHT . "Играта на поточето" \page-ref #'ref172 "000" "?"
       \with-link #'ref056_1 \fill-with-pattern #1 #RIGHT . "Идват дни на радост" \page-ref #'ref056_1 "000" "?"
       \with-link #'ref177 \fill-with-pattern #1 #RIGHT . "Изворче" \page-ref #'ref177 "000" "?"
-      \with-link #'ref255 \fill-with-pattern #1 #RIGHT . "Изгрева свещен" \page-ref #'ref255 "000" "?"
       \with-link #'ref030 \fill-with-pattern #1 #RIGHT . "Изгрей ти, мое слънце" \page-ref #'ref030 "000" "?"
       \with-link #'ref022 \fill-with-pattern #1 #RIGHT . "Изгрява вече ден тържествен" \page-ref #'ref022 "000" "?"
       \with-link #'ref071_1 \fill-with-pattern #1 #RIGHT . "Изгрява слънцето" \page-ref #'ref071_1 "000" "?"
@@ -150,6 +149,9 @@
       \with-link #'ref099 \fill-with-pattern #1 #RIGHT . "Малкият извор (Светъл лъч)" \page-ref #'ref099 "000" "?"
       \with-link #'ref165 \fill-with-pattern #1 #RIGHT . "Малкият планински извор" \page-ref #'ref165 "000" "?"
       \with-link #'ref162 \fill-with-pattern #1 #RIGHT . "Марш на светлите сили" \page-ref #'ref162 "000" "?"
+       \with-link #'ref254 \fill-with-pattern #1 #RIGHT . "Марш на светлите сили II" \page-ref #'ref254 "000" "?"
+      \with-link #'ref080 \fill-with-pattern #1 #RIGHT . "Махар Бену Аба" \page-ref #'ref080 "000" "?"
+
 
 
     }
