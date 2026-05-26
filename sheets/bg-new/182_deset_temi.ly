@@ -401,7 +401,7 @@
     \midi{}
   } % score
 
-  \markup \empty-two
+  \markup \vspace #2
   \label #'ref183
   \tocItem \markup "Вариации"
   \score {
