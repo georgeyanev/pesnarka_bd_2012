@@ -1,6 +1,6 @@
 \version "2.26.0"
 
- #(set-global-staff-size 15)
+#(set-global-staff-size 15)
 
 
 \paper {
@@ -94,7 +94,7 @@ titleFunc = #(define-scheme-function
                      )
    )
 
-   #(define-markup-command (dc-one-nobold-b layout props text) (markup?)
+#(define-markup-command (dc-one-nobold-b layout props text) (markup?)
    "After song text (usually D.C.) with one line."
    (interpret-markup layout props
                      #{
@@ -140,48 +140,6 @@ titleFunc = #(define-scheme-function
                      #}
                      )
    )
-
-% #(define-markup-command (empty-one layout props) ()
-%    "Adds one empty line."
-%    (interpret-markup layout props
-%                      #{
-%                        \markup {
-%                          \column {
-%                            \line { " " }
-%                          }
-%                        }
-%                      #}
-%                      )
-%    )
-
-% #(define-markup-command (empty-two layout props) ()
-%    "Adds two empty lines."
-%    (interpret-markup layout props
-%                      #{
-%                        \markup {
-%                          \column {
-%                            \line { " " }
-%                            \line { " " }
-%                          }
-%                        }
-%                      #}
-%                      )
-%    )
-
-% #(define-markup-command (empty-three layout props) ()
-%    "Adds three empty lines."
-%    (interpret-markup layout props
-%                      #{
-%                        \markup {
-%                          \column {
-%                            \line { " " }
-%                            \line { " " }
-%                            \line { " " }
-%                          }
-%                        }
-%                      #}
-%                      )
-%    )
 
 #(define bgCoupletFontSize +2.5)
 #(define bgCoupletBaselineSkip 3.4)
