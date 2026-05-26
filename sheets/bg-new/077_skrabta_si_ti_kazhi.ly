@@ -107,6 +107,6 @@
     } % score
 
 
-    \markup \dc-one "D.C. al Fine „Сила жива“ con ripetizioni (един път)"
+     \markup \dc-two "D.C. al Fine „Сила жива“" "con ripetizioni (един път)"
 
   } % bookpart

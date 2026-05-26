@@ -94,6 +94,21 @@ titleFunc = #(define-scheme-function
                      )
    )
 
+   #(define-markup-command (dc-one-nobold-b layout props text) (markup?)
+   "After song text (usually D.C.) with one line."
+   (interpret-markup layout props
+                     #{
+                       \markup \raise #3.8 \override #'(baseline-skip . 2.8) {
+                         \column {
+                           \vspace #0.2
+                           %  \fill-line \large \bold { "" "" \concat { "   " }}
+                           \fill-line \large { "" "" \concat {\hspace #-5 #text "   " }}
+                         }
+                       }
+                     #}
+                     )
+   )
+
 #(define-markup-command (dc-two layout props textone texttwo) (markup? markup?)
    "After song text (usually D.C.) with two lines."
    (interpret-markup layout props
@@ -126,47 +141,47 @@ titleFunc = #(define-scheme-function
                      )
    )
 
-#(define-markup-command (empty-one layout props) ()
-   "Adds one empty line."
-   (interpret-markup layout props
-                     #{
-                       \markup {
-                         \column {
-                           \line { " " }
-                         }
-                       }
-                     #}
-                     )
-   )
+% #(define-markup-command (empty-one layout props) ()
+%    "Adds one empty line."
+%    (interpret-markup layout props
+%                      #{
+%                        \markup {
+%                          \column {
+%                            \line { " " }
+%                          }
+%                        }
+%                      #}
+%                      )
+%    )
 
-#(define-markup-command (empty-two layout props) ()
-   "Adds two empty lines."
-   (interpret-markup layout props
-                     #{
-                       \markup {
-                         \column {
-                           \line { " " }
-                           \line { " " }
-                         }
-                       }
-                     #}
-                     )
-   )
+% #(define-markup-command (empty-two layout props) ()
+%    "Adds two empty lines."
+%    (interpret-markup layout props
+%                      #{
+%                        \markup {
+%                          \column {
+%                            \line { " " }
+%                            \line { " " }
+%                          }
+%                        }
+%                      #}
+%                      )
+%    )
 
-#(define-markup-command (empty-three layout props) ()
-   "Adds three empty lines."
-   (interpret-markup layout props
-                     #{
-                       \markup {
-                         \column {
-                           \line { " " }
-                           \line { " " }
-                           \line { " " }
-                         }
-                       }
-                     #}
-                     )
-   )
+% #(define-markup-command (empty-three layout props) ()
+%    "Adds three empty lines."
+%    (interpret-markup layout props
+%                      #{
+%                        \markup {
+%                          \column {
+%                            \line { " " }
+%                            \line { " " }
+%                            \line { " " }
+%                          }
+%                        }
+%                      #}
+%                      )
+%    )
 
 #(define bgCoupletFontSize +2.5)
 #(define bgCoupletBaselineSkip 3.4)

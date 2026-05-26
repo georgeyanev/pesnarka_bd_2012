@@ -109,7 +109,7 @@
 
     } % score
 
-    \markup \huge \italic \dc-one-nobold "(По желание песента се изпълнява два пъти.)"
+    \markup \huge \italic  \dc-one-nobold-b"(По желание песента се изпълнява два пъти.)"
     \markup \huge \italic \dc-one-nobold "attacca „Скръбта си ти кажи“"
 
 
