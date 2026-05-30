@@ -7,9 +7,7 @@
   #(set-paper-size "a5")
 
   % change lyrics and titles font (affects notes also)
-  property-defaults.fonts.music = "emmentaler"
-  property-defaults.fonts.roman = "Times New Roman"
-  property-defaults.fonts.serif = "DejaVu Serif"
+ property-defaults.fonts.serif = "Linux Libertine O"
   property-defaults.fonts.sans = "DejaVu Sans"
   property-defaults.fonts.typewriter = "DejaVu Sans Mono"
 }

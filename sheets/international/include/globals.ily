@@ -8,16 +8,22 @@
   #(set-paper-size "my size")
 
   % change lyrics and titles font (affects notes also)
-  #(define fonts
-     (set-global-fonts
-      #:music "emmentaler"
-      #:brace "emmentaler"
-      #:roman "Times New Roman"
-      #:sans "DejaVu Sans"
-      #:typewriter "DejaVu Sans Mono"
-      ; unnecessary if the staff size is default
-      #:factor (/ staff-height pt 20)
-      ))
+  % #(define fonts
+  %    (set-global-fonts
+  %     #:music "emmentaler"
+  %     #:brace "emmentaler"
+  %     #:roman "Times New Roman"
+  %     #:sans "DejaVu Sans"
+  %     #:typewriter "DejaVu Sans Mono"
+  %     ; unnecessary if the staff size is default
+  %     #:factor (/ staff-height pt 20)
+  %     ))
+
+  property-defaults.fonts.music = "emmentaler"
+ property-defaults.fonts.serif = "Linux Libertine O"
+  property-defaults.fonts.sans = "DejaVu Sans"
+  property-defaults.fonts.typewriter = "DejaVu Sans Mono"
+
 }
 
 tempoFunc = #(define-music-function
@@ -65,7 +71,7 @@ titleFunc = #(define-scheme-function
                        \markup \raise #3.8 \override #'(baseline-skip . 2.8) {
                          \column {
                            \fill-line \large \bold { "" "" \concat {#text "   " }}
-                           
+
                          }
                        }
                      #}
