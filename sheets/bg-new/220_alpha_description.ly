@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -574,17 +574,11 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref177 \bold "Изгрева свещен."} Песен от Лазар Опев, съчинена през 1944 г в Калофер.
-        }
-      }
-      \vspace #0.5
-      \line {
-        \justify {
           \concat {\with-link #'ref030 \bold "Изгрей ти, мое слънце."}
           Музика от Учителя, текст от Стоян Русев (Дядо Благо).
         }
       }
-        \vspace #0.5
+      \vspace #0.5
       \line {
         \justify {
           \concat {\with-link #'ref030 \bold "Изгрява вече ден тържествен."}

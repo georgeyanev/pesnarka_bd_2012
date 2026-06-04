@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -11,21 +11,21 @@
     % page-number-type = #'roman-upper
 
 
-  % put page numbers on the top and change the font style.
-  oddHeaderMarkup = \markup
-  \fill-line {
-    ""
-    \unless \on-first-page-of-part \fromproperty #'header:instrument
-    \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
-  }
-  %% evenHeaderMarkup would inherit the value of
-  %% oddHeaderMarkup if it were not defined here
-  evenHeaderMarkup = \markup
-  \fill-line {
-    \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
-    \unless \on-first-page-of-part \fromproperty #'header:instrument
-    ""
-  }
+    % put page numbers on the top and change the font style.
+    oddHeaderMarkup = \markup
+    \fill-line {
+      ""
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+    }
+    %% evenHeaderMarkup would inherit the value of
+    %% oddHeaderMarkup if it were not defined here
+    evenHeaderMarkup = \markup
+    \fill-line {
+      \if \should-print-page-number \abs-fontsize #7 { \number \fromproperty #'page:page-number-string }
+      \unless \on-first-page-of-part \fromproperty #'header:instrument
+      ""
+    }
     oddFooterMarkup = \markup ""
 
     evenFooterMarkup = ""
@@ -45,7 +45,7 @@
        (stretchability . 12))
   }
 
-  
+
   \markup \abs-fontsize #11 {
     \vspace #0.9 \override #'(baseline-skip . 3.4)
     \justify {

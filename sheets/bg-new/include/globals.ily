@@ -1,22 +1,17 @@
-\version "2.24.4"
+\version "2.26.0"
 
 #(set-global-staff-size 15)
+
 
 \paper {
   #(set-paper-size "a5")
 
   % change lyrics and titles font (affects notes also)
-  #(define fonts
-     (set-global-fonts
-      #:music "emmentaler"
-      #:brace "emmentaler"
-      #:roman "Times New Roman"
-      #:sans "DejaVu Sans"
-      #:typewriter "DejaVu Sans Mono"
-      ; unnecessary if the staff size is default
-      #:factor (/ staff-height pt 20)
-      ))
+  property-defaults.fonts.serif = "Linux Libertine O"
+  property-defaults.fonts.sans = "DejaVu Sans"
+  property-defaults.fonts.typewriter = "DejaVu Sans Mono"
 }
+
 
 tempoFunc = #(define-music-function
               (tName tNote tNumber)
@@ -98,6 +93,21 @@ titleFunc = #(define-scheme-function
                      )
    )
 
+#(define-markup-command (dc-one-nobold-b layout props text) (markup?)
+   "After song text (usually D.C.) with one line."
+   (interpret-markup layout props
+                     #{
+                       \markup \raise #3.8 \override #'(baseline-skip . 2.8) {
+                         \column {
+                           \vspace #0.2
+                           %  \fill-line \large \bold { "" "" \concat { "   " }}
+                           \fill-line \large { "" "" \concat {\hspace #-5 #text "   " }}
+                         }
+                       }
+                     #}
+                     )
+   )
+
 #(define-markup-command (dc-two layout props textone texttwo) (markup? markup?)
    "After song text (usually D.C.) with two lines."
    (interpret-markup layout props
@@ -130,48 +140,6 @@ titleFunc = #(define-scheme-function
                      )
    )
 
-#(define-markup-command (empty-one layout props) ()
-   "Adds one empty line."
-   (interpret-markup layout props
-                     #{
-                       \markup {
-                         \column {
-                           \line { " " }
-                         }
-                       }
-                     #}
-                     )
-   )
-
-#(define-markup-command (empty-two layout props) ()
-   "Adds two empty lines."
-   (interpret-markup layout props
-                     #{
-                       \markup {
-                         \column {
-                           \line { " " }
-                           \line { " " }
-                         }
-                       }
-                     #}
-                     )
-   )
-
-#(define-markup-command (empty-three layout props) ()
-   "Adds three empty lines."
-   (interpret-markup layout props
-                     #{
-                       \markup {
-                         \column {
-                           \line { " " }
-                           \line { " " }
-                           \line { " " }
-                         }
-                       }
-                     #}
-                     )
-   )
-
 #(define bgCoupletFontSize +2.5)
 #(define bgCoupletBaselineSkip 3.4)
 
@@ -189,5 +157,4 @@ titleFunc = #(define-scheme-function
 %  special meaning. When it occurs, the width of the resembling glyph in the bar line definition is used.
 %* New glyphs can be added easily.
 %* Volta brackets take the bar line dimensions into account.
-
 

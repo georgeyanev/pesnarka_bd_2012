@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -401,7 +401,7 @@
     \midi{}
   } % score
 
-  \markup \empty-two
+  \markup \vspace #2
   \label #'ref183
   \tocItem \markup "Вариации"
   \score {

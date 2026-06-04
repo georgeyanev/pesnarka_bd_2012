@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -42,7 +42,7 @@
         f'8 ( [  e'8  f'8 ) ]
       }
       |  % 18
-      g'4  g'4  a'4 
+      g'4  g'4  a'4
       \times 2/3  {
         f'8 ( [  e'8 )  ] f'8
       }

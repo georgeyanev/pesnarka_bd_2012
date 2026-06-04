@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -109,7 +109,7 @@
 
     } % score
 
-    \markup \huge \italic \dc-one-nobold "(По желание песента се изпълнява два пъти.)"
+    \markup \huge \italic  \dc-one-nobold-b"(По желание песента се изпълнява два пъти.)"
     \markup \huge \italic \dc-one-nobold "attacca „Скръбта си ти кажи“"
 
 

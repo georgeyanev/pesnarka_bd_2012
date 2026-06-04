@@ -1,19 +1,11 @@
-\version "2.24.4"
+\version "2.26.0"
 \header {
   tagline = "Нотацията е направена по записа."
   title = "Мирът иде вече"
   composer = "Петър Дънов"
 }
 \paper {
-  #(define fonts
-     (set-global-fonts
-      #:music "emmentaler"
-      #:brace "emmentaler"
-      #:roman "Times New Roman"
-      #:sans "DejaVu Sans"
-      #:typewriter "DejaVu Sans Mono"
-      #:factor (/ staff-height pt 20)
-      ))
+
   top-margin = 12
   paper-height = 4\in
   paper-width = 10.5\in

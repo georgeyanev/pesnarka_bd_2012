@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -8,7 +8,7 @@
     print-all-headers = ##t
     print-page-number = ##f
     print-first-page-number = ##f
-    page-number-type = #'roman-upper
+    % page-number-type = #'roman-upper
 
 
     % put page numbers on the bottom
@@ -62,7 +62,7 @@
 
     }
   }
-  
+
   \markup \abs-fontsize #11 {
     \vspace #0.9  \override #'(baseline-skip . 3.4)
     \justify {
@@ -119,7 +119,7 @@
       Вашето щастие в света зависи само от музиката. Защото животът е цяло изкуство – той е най-голямата музика, която съществува в света.
     }
   }
-  
+
   \markup \abs-fontsize #11 {
     \vspace #0.9  \override #'(baseline-skip . 3.4)
     \justify {
@@ -147,7 +147,7 @@
     }
   }
 
- \markup \abs-fontsize #11 {
+  \markup \abs-fontsize #11 {
     \vspace #0.9  \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
@@ -164,7 +164,7 @@
       Аз искам да се запознаете с окултната музика, да черпите сили и вдъхновение от живата природа.
     }
   }
-    \markup \abs-fontsize #11 {
+  \markup \abs-fontsize #11 {
     \vspace #0.9  \override #'(baseline-skip . 3.4)
     \justify {
       \hspace #1.5
@@ -173,6 +173,6 @@
 
     }
   }
-  
-  
-  }
+
+
+}

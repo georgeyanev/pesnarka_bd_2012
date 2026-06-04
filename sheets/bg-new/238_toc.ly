@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -31,12 +31,14 @@
 
     tocTitleMarkup = \markup \abs-fontsize #17.5 \column {
       \fill-line { \null "Съдържание" \null }
-       \vspace #1.5
+      \vspace #1.5
     }
 
-    tocItemMarkup = \markup  \abs-fontsize #11 { \vspace #1.1 \fill-line {
-      \fromproperty #'toc:text \tocItemWithDotsMarkup \fromproperty #'toc:page
-    } }
+    tocItemMarkup = \markup \abs-fontsize #11 {
+      \vspace #1.1 \fill-line {
+        \tocItemWithDotsMarkup \fromproperty #'toc:page
+      }
+    }
 
     tocActMarkup = \markup \large \column {
       \vspace #1

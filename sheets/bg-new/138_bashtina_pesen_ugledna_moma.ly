@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -259,7 +259,7 @@
         c8 b8. \break | % 167
         \stemUp g8  a16 ( [  b16 ) ] \stemDown c16 (
         [d16 ) ]c8. | % 168
-        d8 e16 ( [d16 ) ] 
+        d8 e16 ( [d16 ) ]
         c16 ( [d16 ) ]b8. | \stemUp% 169
         g8  a8  a8  a8. \bar ":|."
       }

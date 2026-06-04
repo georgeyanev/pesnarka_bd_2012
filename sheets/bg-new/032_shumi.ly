@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -48,7 +48,7 @@
 
   } % score
 
-\markup \vspace #0.5
+  \markup \vspace #0.5
   \markup \abs-fontsize #11  \override #`(baseline-skip . ,bgCoupletBaselineSkip){
     \fill-line {
       \hspace #0.1

@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -214,9 +214,9 @@
                 "радост, сила и живот."
                 "Свята Божия виделина "
                 "озарява тази красота. (2)"
-  }
-          }
-        }\hspace #0.1
+              }
+            }
+          }\hspace #0.1
+        }
       }
-    }
-  } % bookpart
+    } % bookpart

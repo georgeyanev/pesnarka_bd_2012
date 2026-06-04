@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \header {
   tagline = "Нотацията е направена по записа, като мелодията е транспонирана в сол минор."
@@ -8,17 +8,10 @@
 
 
 \paper {
-
-  #(define fonts
-     (set-global-fonts
-      #:music "emmentaler"
-      #:brace "emmentaler"
-      #:roman "Times New Roman"
-      #:sans "DejaVu Sans"
-      #:typewriter "DejaVu Sans Mono"
-      ; unnecessary if the staff size is default
-      #:factor (/ staff-height pt 20)
-      ))
+  property-defaults.fonts.roman = "Times New Roman"
+  property-defaults.fonts.serif = "DejaVu Serif"
+  property-defaults.fonts.sans = "DejaVu Sans"
+  property-defaults.fonts.typewriter = "DejaVu Sans Mono"
 
 
   top-margin = 12

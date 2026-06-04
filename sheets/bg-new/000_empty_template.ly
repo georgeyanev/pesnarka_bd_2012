@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -14,7 +14,7 @@
       \autoBeamOff
       \omit Score.TimeSignature
       \cadenzaOn % allows custom bar lines
-      c2 e g   c2 e g   c2 e g   c2 e g   c2 e g   c2 e g   c2 e g   c2 e g 
+      c2 e g   c2 e g   c2 e g   c2 e g   c2 e g   c2 e g   c2 e g   c2 e g
     }
 
     \addlyrics {}
@@ -38,7 +38,7 @@
   } % markup
 
   % include foreign translation(s) of the song
-  
+
 
 } % bookpart
 

@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -130,7 +130,7 @@
 
       \line \bold {Fine} \override #`(baseline-skip . ,blineskip221)
       \justify {край \italic"(вж. D.C. al Fine)"}
-     
+
     }
   }
 } % bookpart
