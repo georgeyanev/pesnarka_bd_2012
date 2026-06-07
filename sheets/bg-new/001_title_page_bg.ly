@@ -71,7 +71,7 @@
   \markup \fontsize  #+2  { {  \vspace #.5 } }
   \markup \fontsize  #+2.5 {\hspace #30 {"Издадени от"} }
   \markup \fontsize  #+2  { {  \vspace #0.1 } }
-  \markup \fontsize  #+1.5 { \hspace #30 {"Петър Ганев" \concat { \raise #-1.3 \fontsize #6 "·" } "Мария Кирева" } }
+  \markup \fontsize  #+1.5 { \hspace #30 {"Петър Ганев" \concat { \raise #-0.8 \fontsize #6 "·" } "Мария Кирева" } }
 
 
 

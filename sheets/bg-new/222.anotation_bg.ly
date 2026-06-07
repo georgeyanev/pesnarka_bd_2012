@@ -45,7 +45,7 @@
 
   \markup \fontsize  #+4.0 { \fill-line  {"Редактори" }}
   \markup { {  \vspace #0.1 } }
-  \markup \fontsize  #+3.5 { \hspace #26 {"Петър Ганев" \concat { \raise #-1.5 \fontsize #6 "·" } "Мария Кирева" } }
+  \markup \fontsize  #+3.5 { \hspace #26 {"Петър Ганев" \concat { \raise #-0.9 \fontsize #6 "·" } "Мария Кирева" } }
 
   %\markup \fontsize  #+3.5 { \fill-line {"" } }
   \markup { {  \vspace #3.5 } }
