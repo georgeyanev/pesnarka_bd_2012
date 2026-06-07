@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Der Freiheit bedarf die Seele." }
 \markup \null
@@ -16,7 +16,7 @@
           "Das ist nur für die Seele"
         }
       }
-      
+
     }\hspace #0.1
   }
 }

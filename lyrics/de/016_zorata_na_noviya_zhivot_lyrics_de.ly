@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Die Morgenröte des neuen Lebens" }
 \markup \null
@@ -56,7 +56,7 @@
       \line {
         \bold "3."
         \column {
-          "Es flimmert" 
+          "Es flimmert"
           "die leichtbeschwingtе Morgenröte"
           "und erweckt unsere Seelen;"
           "wie die liebe, liebevolle Mutter"

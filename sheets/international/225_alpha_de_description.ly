@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -873,7 +873,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref191 \bold "Novoto Bitie. Săzdavaneto na novija Adam – Новото Битие. Създаването на новия"} \bold"Адам." Der Zyklus \italic "Novoto Bitie" entstand in einer Reihe von persönlichen Gesprächen, die Danov mit Liljana Tabakova hatte. Er bestand darauf, dass sie die Lieder auswendig lernt und erlaubte nicht, dass sie sofort notiert werden. Der Zyklus wurde zum ersten Mal 1949 publiziert, ohne jeglichen redaktionellen Eingriff. Die in dem gegenwärtigen Band publizierte Notation stellt die redaktionelle Sicht und Organisation des Zyklus \italic"Novoto Bitie" nach Peter Ganev vor, der seine eigene Harmonisierung und Orchestrierung des Zyklus machte und es mehrfach in Bulgarien aufführte. \italic"Novoto Bitie" entstand zeitlich betrachtet in der folgenden Reihenfolge: „Erster göttlicher Tag“ am 7. Dezember 1941, „Zweiter göttlicher Tag“ am 28. Juli 1942, „Dritter göttlicher Tag“ am 1. Oktober 1942, „Vierter göttlicher Tag“ am 12. November 1942, „Fünfter göttlicher Tag“ am 30. Mai 1943, „Sechster göttlicher Tag“ am 21. Juli 1943 und „Siebter Göttlicher Tag“ am 15. September 
+          \concat {\with-link #'ref191 \bold "Novoto Bitie. Săzdavaneto na novija Adam – Новото Битие. Създаването на новия"} \bold"Адам." Der Zyklus \italic "Novoto Bitie" entstand in einer Reihe von persönlichen Gesprächen, die Danov mit Liljana Tabakova hatte. Er bestand darauf, dass sie die Lieder auswendig lernt und erlaubte nicht, dass sie sofort notiert werden. Der Zyklus wurde zum ersten Mal 1949 publiziert, ohne jeglichen redaktionellen Eingriff. Die in dem gegenwärtigen Band publizierte Notation stellt die redaktionelle Sicht und Organisation des Zyklus \italic"Novoto Bitie" nach Peter Ganev vor, der seine eigene Harmonisierung und Orchestrierung des Zyklus machte und es mehrfach in Bulgarien aufführte. \italic"Novoto Bitie" entstand zeitlich betrachtet in der folgenden Reihenfolge: „Erster göttlicher Tag“ am 7. Dezember 1941, „Zweiter göttlicher Tag“ am 28. Juli 1942, „Dritter göttlicher Tag“ am 1. Oktober 1942, „Vierter göttlicher Tag“ am 12. November 1942, „Fünfter göttlicher Tag“ am 30. Mai 1943, „Sechster göttlicher Tag“ am 21. Juli 1943 und „Siebter Göttlicher Tag“ am 15. September
         }
       }
     }
@@ -886,7 +886,7 @@
     \column {
       \line {
         \justify {
-           1943. Unter \italic"Neuer Genesis" verstehen wir das neue Leben, welches sich jetzt für die gesamte Menschheit und jedes einzelne Individuum an sich aufzubauen beginnt. Die erste „Genesis“, die in der Bibel beschrieben wurde, symbolisiert das alte Leben. Der alte Adam hat gesündigt. Musikalisch gesprochen, hat er die Note F nicht sauber genommen, das dem Materiellen in dieser Welt entspricht. Der neue Adam wird diesen Fehler des alten Adam korrigieren. Er wird keine Fehler mehr begehen und nicht mehr sterben. Musikalisch betrachtet bedeutet dies: Er wird die Noten der Tonleiter bis zum A richtig singen. Das A entspricht der 6. Rasse. Es bleibt dann nur noch die Note H, die reife Frucht. Diese Frucht symbolisiert die 7. Rasse. Die sieben Tage Gottes aus der Genesis entsprechen den sieben Noten der Tonleiter. So beginnt der erste Tag Gottes mit der Note C. Dies bedeutet, dass die Mächte des Lichts, die die Schöpfung der neuen Welt begonnen haben, die Materie des alten Lebens in eine neue, höhere Tonleiter umformen und in sie das Element der Unsterblichkeit einfügen werden. Nach dieser Analogie werden sich im Blut des neuen Adam neue rote Blutkörperchen formen, die von den Eigenschaften des neuen Lebens durchdrungen sein werden. Der zweite Tag Gottes, der mit dem Ton D beginnt, wird das Nervensystem, die Knochen und den Willen transformieren. So wird jeder göttliche Tag etwas Neues in die Struktur des Kosmos und des Menschen hineinbringen. Jeder Mensch wird seine neue Existenz individuell leben. Das Lied endet mit den magischen Worten des kosmischen Geistes \italic"Aum" und der Universalseele \italic"Aumen."Die bulgarische Sprache hat zwei Wörter für \italic"Licht," \italic"svetlina" und \italic"videlina." Diesen Wörtern kommt eine unterschiedliche Bedeutung zu, die Danov in seinen Vorträgen darlegt.
+          1943. Unter \italic"Neuer Genesis" verstehen wir das neue Leben, welches sich jetzt für die gesamte Menschheit und jedes einzelne Individuum an sich aufzubauen beginnt. Die erste „Genesis“, die in der Bibel beschrieben wurde, symbolisiert das alte Leben. Der alte Adam hat gesündigt. Musikalisch gesprochen, hat er die Note F nicht sauber genommen, das dem Materiellen in dieser Welt entspricht. Der neue Adam wird diesen Fehler des alten Adam korrigieren. Er wird keine Fehler mehr begehen und nicht mehr sterben. Musikalisch betrachtet bedeutet dies: Er wird die Noten der Tonleiter bis zum A richtig singen. Das A entspricht der 6. Rasse. Es bleibt dann nur noch die Note H, die reife Frucht. Diese Frucht symbolisiert die 7. Rasse. Die sieben Tage Gottes aus der Genesis entsprechen den sieben Noten der Tonleiter. So beginnt der erste Tag Gottes mit der Note C. Dies bedeutet, dass die Mächte des Lichts, die die Schöpfung der neuen Welt begonnen haben, die Materie des alten Lebens in eine neue, höhere Tonleiter umformen und in sie das Element der Unsterblichkeit einfügen werden. Nach dieser Analogie werden sich im Blut des neuen Adam neue rote Blutkörperchen formen, die von den Eigenschaften des neuen Lebens durchdrungen sein werden. Der zweite Tag Gottes, der mit dem Ton D beginnt, wird das Nervensystem, die Knochen und den Willen transformieren. So wird jeder göttliche Tag etwas Neues in die Struktur des Kosmos und des Menschen hineinbringen. Jeder Mensch wird seine neue Existenz individuell leben. Das Lied endet mit den magischen Worten des kosmischen Geistes \italic"Aum" und der Universalseele \italic"Aumen."Die bulgarische Sprache hat zwei Wörter für \italic"Licht," \italic"svetlina" und \italic"videlina." Diesen Wörtern kommt eine unterschiedliche Bedeutung zu, die Danov in seinen Vorträgen darlegt.
         }
       }
       \vspace #0.5
@@ -1071,7 +1071,7 @@
           \concat {\with-link #'ref046 \bold "Rosna kapka – Росна капка."} Musik und Text von Ivan G. Popov, notiert am 1. August 1921.
         }
       }
-       \vspace #0.7
+      \vspace #0.7
       \line {
         \justify {
           \concat {\with-link #'ref025 \bold "Săbudi se bratko mili – Събуди се братко мили."}
@@ -1142,7 +1142,7 @@
 
       \line {
         \justify {
-       isches Motiv. Es wurde dem Lauf des Wassers einer Quelle aus dem Hochgebirge entliehen, welches über die Steine springend nach und nach hinunterfließt. So habt ihr hier ein sehr angenehmes Bild vor Augen. Im bulgarischen Volkslied sind all diese Reigentanzlieder aus den Orten hervorgeganen, an denen Quellen entspringen. ‚Skrăbta si ti kaži, sărce si ti otvori na slănčevi lăči, [...]‘ – in diesem Ausschnitt haben wir ein negatives Wort, den Gram [skrăb]. Sobald jemand Leid empfindet, ist Dunkelheit in seinem Verstand und seinem Herzen; es gibt kein Licht mehr. Sobald das Licht erscheint, verschwindet das Leid. Die Sonne ist es, die heilt. Die Übung ist noch nicht vollendet, sondern ist so, wie es in der Natur existiert; es wurde okkult gegeben.“ Es gibt die Tradition, dass das Lied mit „Sila živa“ gesungen wird. Das Lied wird frei und breit gesungen. Seine Struktur gehört zu den \italic"inkommensurablen" \italic"Größen."
+          isches Motiv. Es wurde dem Lauf des Wassers einer Quelle aus dem Hochgebirge entliehen, welches über die Steine springend nach und nach hinunterfließt. So habt ihr hier ein sehr angenehmes Bild vor Augen. Im bulgarischen Volkslied sind all diese Reigentanzlieder aus den Orten hervorgeganen, an denen Quellen entspringen. ‚Skrăbta si ti kaži, sărce si ti otvori na slănčevi lăči, [...]‘ – in diesem Ausschnitt haben wir ein negatives Wort, den Gram [skrăb]. Sobald jemand Leid empfindet, ist Dunkelheit in seinem Verstand und seinem Herzen; es gibt kein Licht mehr. Sobald das Licht erscheint, verschwindet das Leid. Die Sonne ist es, die heilt. Die Übung ist noch nicht vollendet, sondern ist so, wie es in der Natur existiert; es wurde okkult gegeben.“ Es gibt die Tradition, dass das Lied mit „Sila živa“ gesungen wird. Das Lied wird frei und breit gesungen. Seine Struktur gehört zu den \italic"inkommensurablen" \italic"Größen."
         }
       }
 
@@ -1222,7 +1222,7 @@
   {
     \override #'(baseline-skip . 3.4)
     \column {
-         
+
 
       \line {
         \justify {
@@ -1281,7 +1281,7 @@
 
       \line {
         \justify {
-          \concat {\with-link #'ref066_1 \bold "Tajnata večerja – Тайната вечеря."} Musik und Text von Vesela Nestorova, gesegnet von Petar Danov. Die erste Strophe bedeutet Folgendes: „Alles ist licht, alles ist in meinem Licht [das Licht Christi] erleuchtet.“ Vesela Nestorova empfing das Lied als Offenbarung. 
+          \concat {\with-link #'ref066_1 \bold "Tajnata večerja – Тайната вечеря."} Musik und Text von Vesela Nestorova, gesegnet von Petar Danov. Die erste Strophe bedeutet Folgendes: „Alles ist licht, alles ist in meinem Licht [das Licht Christi] erleuchtet.“ Vesela Nestorova empfing das Lied als Offenbarung.
         }
       }
     }
@@ -1357,7 +1357,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref081 \bold "V zorite na života – В зорите на живота."} Petar Danov gibt das Lied als okkulte Musikübung während des Vortrags vom 26. August 1922 „Lege dieses Gleichnis aus“ in Veliko Tărnovo. Danach wird das Lied am 3. Dezember 1922 in Sofia, Allgemeine Okkult- 
+          \concat {\with-link #'ref081 \bold "V zorite na života – В зорите на живота."} Petar Danov gibt das Lied als okkulte Musikübung während des Vortrags vom 26. August 1922 „Lege dieses Gleichnis aus“ in Veliko Tărnovo. Danach wird das Lied am 3. Dezember 1922 in Sofia, Allgemeine Okkult-
         }
       }
     }
@@ -1427,7 +1427,7 @@
 
           \italic"Zun mezun" – Unser ganzes Leben.  \italic"Binom tu"
 
-         
+
         }
       }
     }
@@ -1445,7 +1445,7 @@
 
       \line {
         \justify {
-           \italic"meto" – Er ist alles, Er ist überall. So soll es jetzt sein! Das ist das Verhältnis zwischen dem Großen und dem Kleinen – die Seele. Und das Kleine wird von einem Gedanken über das Große, über Gott erfüllt. Die Seele erinnert sich an die Zeit, als sie den ersten Hauch vom göttlichen Hauch empfangen hat. (Nach Danov: Allgemeine Okkultklasse, 8. Mai 1940). \italic"Anm. d. Hrsg.:" Beim Vortrag dieses Liedes ist es wichtig, die Notendauer der angebundenen Achtel im zweiten Takt nach dem Wiederholungszeichen auf der Silbe „zun“ zu halten.
+          \italic"meto" – Er ist alles, Er ist überall. So soll es jetzt sein! Das ist das Verhältnis zwischen dem Großen und dem Kleinen – die Seele. Und das Kleine wird von einem Gedanken über das Große, über Gott erfüllt. Die Seele erinnert sich an die Zeit, als sie den ersten Hauch vom göttlichen Hauch empfangen hat. (Nach Danov: Allgemeine Okkultklasse, 8. Mai 1940). \italic"Anm. d. Hrsg.:" Beim Vortrag dieses Liedes ist es wichtig, die Notendauer der angebundenen Achtel im zweiten Takt nach dem Wiederholungszeichen auf der Silbe „zun“ zu halten.
         }
       }
 

@@ -1,6 +1,4 @@
-
-
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Lichter Glaube III" }
 \markup \null
@@ -14,12 +12,12 @@
         \column {
           "Lichter Glaube, starker Glaube!"
 
-"Er stützt den Geist,"
+          "Er stützt den Geist,"
 
-"der das Leben gebiert"
+          "der das Leben gebiert"
         }
       }
-      
+
     }\hspace #0.1
   }
 }

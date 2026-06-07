@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Fir-fjur-fen" }
 \markup \null
@@ -10,14 +10,14 @@
       \line {
         \bold "  "
         \column {
-         "Fir-fjur-fen Tao Bi Au-men,"
+          "Fir-fjur-fen Tao Bi Au-men,"
           "Tao Bi Au-men, Tao Bi Au-men."
           "Fir-fjur-fen Tao Bi Au-men."
           "Fir-fjur-fen Tao Bi Aumen,"
           "Fir-fjur-fen Tao Bi Au-men."
         }
       }
-     
+
     }
     \hspace #0.1
     % adds horizontal spacing between columns
@@ -25,7 +25,7 @@
       \line {
         \bold "  "
         \column {
-         "Lobpreise meine Seele den Herrn,"
+          "Lobpreise meine Seele den Herrn,"
           "lobpreise und vergiss nicht"
           "lobpreise, lobpreise, lobpreise"
           "und vergiß nicht."

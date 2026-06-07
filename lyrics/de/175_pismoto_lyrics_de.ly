@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Der Brief" }
 \markup \null
@@ -10,12 +10,12 @@
       \line {
         \bold "  "
         \column {
-         "Wenn die Liebe herrscht,"
+          "Wenn die Liebe herrscht,"
           "entsteht keine Unruhe."
           "Wenn die Weisheit regiert,"
-           "wird die Ordnung nicht gestört."
+          "wird die Ordnung nicht gestört."
           "Wenn die Wahrheit scheint,"
-           "gedeiht und reift die Frucht."
+          "gedeiht und reift die Frucht."
         }
       }
     }\hspace #0.1

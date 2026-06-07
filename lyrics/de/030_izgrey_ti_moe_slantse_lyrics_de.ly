@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Gehe auf, du, meine Sonne" }
 \markup \null
@@ -65,16 +65,16 @@
           "du bist auf ewig heilige Liebe!"
         }
       }
-   
+
       \vspace #1
       \line{ \italic"    Refrain:"}
       %\vspace #0.3
       \line {
         "   "
         \column {
-        "Heilige Liebe, heilige Liebe,"
-        "Liebe, Liebe, heilige Liebe,"
-        "du bist auf ewig heilige Liebe."
+          "Heilige Liebe, heilige Liebe,"
+          "Liebe, Liebe, heilige Liebe,"
+          "du bist auf ewig heilige Liebe."
         }
       }
       % adds vertical spacing between verses

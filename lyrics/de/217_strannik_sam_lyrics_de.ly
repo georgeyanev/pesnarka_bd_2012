@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Ich bin ein Fremder in dieser Welt" }
 \markup \null
@@ -18,7 +18,7 @@
           "Möge mein Gebet zu Dir hinaufsteigen."
         }
       }
-      
+
     }\hspace #0.1
   }
 }

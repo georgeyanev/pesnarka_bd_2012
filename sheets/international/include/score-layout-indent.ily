@@ -1,10 +1,10 @@
-\version "2.24.4"
+\version "2.26.0"
 \layout {
   indent = 0.7\cm % first line indentation
   ragged-last = ##f % do spread last line to fill the whole space
   \override Staff.BarLine.thick-thickness = #4 %make the end and repeat bars thiner
   \override Score.VoltaBracket.font-size = #-2.3 % make the repeat number fontsize smaller
-  
+
   \context {
     \Score
     \omit BarNumber %remove bar numbers

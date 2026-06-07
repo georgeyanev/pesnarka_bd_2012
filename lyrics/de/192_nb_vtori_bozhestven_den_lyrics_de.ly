@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 
 \markup \fill-line { \fontsize #deTitleFontSize "Zweiter göttlicher Tag" }
@@ -11,12 +11,12 @@
       \line {
         \bold "  "
         \column {
-         "Und Gott sprach: „Es werde Weite zwischen den Wassern.“"
-         "Und da machte Gott die Weite und schied Gott das Wasser"
-         "über der Weite von dem Wasser unter der Weite."
-         "Und es geschah so."
-         "Und Gott nannte die Weite Himmel."
-         "Und es ward Abend und es ward Morgen, der zweite Tag."
+          "Und Gott sprach: „Es werde Weite zwischen den Wassern.“"
+          "Und da machte Gott die Weite und schied Gott das Wasser"
+          "über der Weite von dem Wasser unter der Weite."
+          "Und es geschah so."
+          "Und Gott nannte die Weite Himmel."
+          "Und es ward Abend und es ward Morgen, der zweite Tag."
         }
       }
     }\hspace #0.1

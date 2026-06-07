@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Was ist das Wesen" }
 \markup \null
@@ -20,7 +20,7 @@
       }
       \vspace #1
       \line {
-         \bold "1."
+        \bold "1."
         \column {
           "Die Sonne, die scheint,"
           "der Vogel, der singt,"
@@ -63,8 +63,8 @@
           "schaust du nicht das Wesen an?"
         }
       }
-       \vspace #1
-       \line {
+      \vspace #1
+      \line {
         \bold "  "
         \column {
           "Schönheit, Wahrheit, Liebe [Ljubov]"

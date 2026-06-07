@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Me-hejn II" }
 \markup \null
@@ -10,13 +10,13 @@
       \line {
         \bold "  "
         \column {
-         "In Tagen des Kampfes, in Tagen der Trauer,"
-         "weit weg von dir oh, mein Heimatland,"
-         "ich denke immer an dich,"
-         "ich denke, ich denke immer an dich."
+          "In Tagen des Kampfes, in Tagen der Trauer,"
+          "weit weg von dir oh, mein Heimatland,"
+          "ich denke immer an dich,"
+          "ich denke, ich denke immer an dich."
         }
       }
-      
+
     }\hspace #0.1
   }
 }

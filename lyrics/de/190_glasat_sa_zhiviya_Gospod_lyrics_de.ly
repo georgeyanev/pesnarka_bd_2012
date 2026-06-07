@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Die Stimme des lebendigen Herrn – Die Neue Auferstehung" }
 \markup \null
@@ -25,7 +25,7 @@
           "Steht auf, aufersteht, für den neuen Weg der Liebe.“"
         }
       }
-      
+
     }\hspace #0.1
   }
 }

@@ -1,11 +1,11 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \include "include/globals.ily"
 
 \bookpart {
   \label #'ref136
   \tocItem \markup "Духай, ветре – Duhaj, vetre "
-   \include "include/bookpart-paper.ily"
+  \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
 

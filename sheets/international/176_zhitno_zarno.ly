@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -6,7 +6,7 @@
 \bookpart {
   \label #'ref176
   \tocItem \markup "Житно зърно – Žitno zărno "
-   \include "include/bookpart-paper.ily"
+  \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
     \new Voice \relative c' {

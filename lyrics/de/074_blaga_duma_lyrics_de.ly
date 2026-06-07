@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Ein gütiges Wort auf den Lippen" }
 \markup \null
@@ -35,7 +35,7 @@
           "das hier geboren wird."
         }
       }
-       
+
     }\hspace #0.1
   }
 }

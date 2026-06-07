@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -42,7 +42,7 @@
     \midi{}
 
   } % score
-   \markup \dc-one "D.C."
+  \markup \dc-one "D.C."
   \markup \vspace #2
   % include foreign translation(s) of the song
   \include "../../lyrics/de/055_1_slantseto_na_lyubovta_lyrics_de.ly"

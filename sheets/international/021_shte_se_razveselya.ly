@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -41,7 +41,7 @@
       a'4 g'4 | f'4 e'4 | d'4 a4 | d'4 e'4 | f'4 e'4 | d'2 | d'2 | \bar "|."
     }
 
-      \addlyrics {
+    \addlyrics {
       Ще се раз -- ве -- се -- ля пре -- мно -- го за --
       ра -- ди Гос -- по -- да, ду -- ша -- та ми ще се
       за -- ра -- ду -- ва в~Бо -- га мо -- е -- го, го: За --
@@ -55,7 +55,7 @@
     }
 
 
-        \addlyrics {
+    \addlyrics {
       Šte se raz -- ve -- se -- lja pre -- mno -- go za --
       ra -- di Gos -- po -- da, du -- ša -- ta mi šte se
       za -- ra -- du -- va v~Bo -- ga mo -- e -- go, go: Za --

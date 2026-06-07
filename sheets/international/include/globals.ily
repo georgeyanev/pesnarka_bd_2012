@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 #(set-global-staff-size 15)
 
@@ -20,7 +20,7 @@
   %     ))
 
   property-defaults.fonts.music = "emmentaler"
- property-defaults.fonts.serif = "Linux Libertine O"
+  property-defaults.fonts.serif = "Linux Libertine O"
   property-defaults.fonts.sans = "DejaVu Sans"
   property-defaults.fonts.typewriter = "DejaVu Sans Mono"
 

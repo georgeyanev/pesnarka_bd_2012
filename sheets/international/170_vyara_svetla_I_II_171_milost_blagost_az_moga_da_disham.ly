@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -146,7 +146,7 @@
 
           } % score
 
-\pageBreak
+          \pageBreak
 
           % include foreign translation(s) of the song
           \include "../../lyrics/de/170_2_vyra_svetla_II_lyrics_de.ly"

@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Meine Sonne wird heute aufgehen" }
 \markup \null
@@ -10,7 +10,7 @@
       \line {
         \bold "  "
         \column {
-         "Meine liebe Mutter, meine Sonne wird heute aufgehen."
+          "Meine liebe Mutter, meine Sonne wird heute aufgehen."
           "Sie wird mir Licht und Freude bringen."
           "Meine liebe Mutter, meine Sonne wird heute aufgehen"
           "und sie wird lichte Freude in mein Leben bringen."

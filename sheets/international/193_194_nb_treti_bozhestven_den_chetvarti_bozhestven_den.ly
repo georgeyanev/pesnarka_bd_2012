@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -603,7 +603,7 @@
 
               } % score
 
-             \markup \raise #2.8 \override #'(baseline-skip . 2) {
+              \markup \raise #2.8 \override #'(baseline-skip . 2) {
                 \column {
                   \fill-line \italic { "" "" \concat {"attaca" "   " }}
                 }

@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -39,7 +39,7 @@
       \partial 4
 
 
-      e'8 e'8 | a'4 b' c''4 b' | a'4 gis'2 e'8 e' | \break e''4 f'' e''4 d'' | 
+      e'8 e'8 | a'4 b' c''4 b' | a'4 gis'2 e'8 e' | \break e''4 f'' e''4 d'' |
 
       c''2 r4 b'8 a'  |  gis'4 f'  e'4 dis' |  f'4 e'2  b'8 c'' \break |
 
@@ -51,7 +51,7 @@
     }
 
     \addlyrics {
-     \set stanza = "1. "  Си -- не мой, па -- зи жи -- во -- та, скри -- ти -- я у
+      \set stanza = "1. "  Си -- не мой, па -- зи жи -- во -- та, скри -- ти -- я у
       те -- бе жар; той без -- це -- нен е по сми -- съл и ве --
       ли -- ко -- ле -- пен дар. Дух без -- смър -- тен, Дух не -- тле -- нен,
       туй, ко -- е -- то веч -- но бди и ра -- бо -- ти без у --

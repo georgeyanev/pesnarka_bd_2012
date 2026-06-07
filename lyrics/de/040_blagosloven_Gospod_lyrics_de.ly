@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Gelobt sei der Herr" }
 \markup \null
@@ -10,7 +10,7 @@
       \line {
         \bold "  "
         \column {
-         "Gelobt sei der Herr, unser Gott,"
+          "Gelobt sei der Herr, unser Gott,"
           "der Herr aller Zeiten!"
           "Gepriesen sei unser Vater,"
           "der Vater der lichtvollen Geister"

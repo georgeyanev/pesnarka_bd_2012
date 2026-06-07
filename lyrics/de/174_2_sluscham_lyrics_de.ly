@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Ich höre" }
 \markup \null
@@ -10,10 +10,10 @@
       \line {
         \bold "  "
         \column {
-         "Ich höre, ich höre, ich höre, ich höre."
+          "Ich höre, ich höre, ich höre, ich höre."
         }
       }
-      
+
     }\hspace #0.1
   }
 }

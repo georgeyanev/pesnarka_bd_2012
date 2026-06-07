@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Der feierliche Tag bricht schon an" }
 \markup \null
@@ -58,7 +58,7 @@
           "erneuere uns bald!"
         }
       }
-        \vspace #1
+      \vspace #1
       \line {
         \bold " "
         \column {
@@ -68,7 +68,7 @@
     }\hspace #0.1
   }
 }
-  
+
 
 
 

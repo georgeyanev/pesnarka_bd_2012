@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Sage mir, du heller göttlicher Strahl" }
 
@@ -11,12 +11,12 @@
       \line {
         \bold "  "
         \column {
-         "Sage mir, du heller göttlicher Strahl, das Gute des Lebens,"
+          "Sage mir, du heller göttlicher Strahl, das Gute des Lebens,"
           "den leuchtenden geraden Weg der reinen Seelen,"
           "der reinen Seelen, der reinen Seelen, der reinen Seelen."
         }
       }
-      
+
     }\hspace #0.1
   }
 }

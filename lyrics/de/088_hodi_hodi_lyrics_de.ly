@@ -1,11 +1,11 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Lauf, lauf" }
 \markup \null
 \markup \null
 \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
   \fill-line {
- \hspace #0.1
+    \hspace #0.1
     \column {
       \line {
         \bold "1."
@@ -20,7 +20,7 @@
           "seinen kleinen Kindern."
         }
       }
-      
+
     }
     \hspace #0.1
     \column {

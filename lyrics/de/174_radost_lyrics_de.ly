@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Freude" }
 \markup \null
@@ -10,9 +10,9 @@
       \line {
         \bold "  "
         \column {
-         "Freude, Freude, Freude für mein Leben,"
-         "du erfreust mein Herz,"
-         "du erfreust mein Herz. (* du erfreust meine Seele.)"
+          "Freude, Freude, Freude für mein Leben,"
+          "du erfreust mein Herz,"
+          "du erfreust mein Herz. (* du erfreust meine Seele.)"
         }
       }
     }\hspace #0.1

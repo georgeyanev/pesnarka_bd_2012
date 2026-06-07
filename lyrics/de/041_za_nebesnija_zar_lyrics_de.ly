@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "An den Himmlischen König" }
 \markup \null
@@ -20,7 +20,7 @@
         }
       }
       \vspace #1
-           \line {
+      \line {
         "   "
         \column {
           "Ruhm, Ruhm gebührt Dir;"

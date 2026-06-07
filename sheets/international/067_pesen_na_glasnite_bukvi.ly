@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -22,25 +22,25 @@
     }
 
     \addlyrics {
-       \set stanza = "1." a -- a -- a  a -- a -- a  a -- a -- a  a -- a -- a
+      \set stanza = "1." a -- a -- a  a -- a -- a  a -- a -- a  a -- a -- a
       a -- a -- a  a -- a -- a  a -- a -- a  a -- a -- a
       a -- a -- a  a -- a -- a  a -- a -- a  a -- a -- a a
     }
 
     \addlyrics {
-       \set stanza = "2." o -- o -- o  o -- o -- o  o -- o -- o  o -- o -- o
+      \set stanza = "2." o -- o -- o  o -- o -- o  o -- o -- o  o -- o -- o
       o -- o -- o  o -- o -- o  o -- o -- o  o -- o -- o
       o -- o -- o  o -- o -- o  o -- o -- o  o -- o -- o o
     }
 
     \addlyrics {
-       \set stanza = "3." у -- у -- у  у -- у -- у  у -- у -- у  у -- у -- у
+      \set stanza = "3." у -- у -- у  у -- у -- у  у -- у -- у  у -- у -- у
       у -- у -- у  у -- у -- у  у -- у -- у  у -- у -- у
       у -- у -- у  у -- у -- у  у -- у -- у  у -- у -- у у
     }
 
     \addlyrics {
-       \set stanza = "4." а -- о -- у  а -- о -- у  а -- о -- у  а -- о -- у
+      \set stanza = "4." а -- о -- у  а -- о -- у  а -- о -- у  а -- о -- у
       а -- о -- у  а -- о -- у  а -- о -- у  а -- о -- у
       а -- о -- у  а -- о -- у  а -- о -- у  а -- о -- у а
     }
@@ -52,19 +52,19 @@
     }
 
     \addlyrics {
-       \set stanza = "7." e -- e -- e  e -- e -- e  e -- e -- e  e -- e -- e
+      \set stanza = "7." e -- e -- e  e -- e -- e  e -- e -- e  e -- e -- e
       e -- e -- e  e -- e -- e  e -- e -- e  e -- e -- e
       e -- e -- e  e -- e -- e  e -- e -- e  e -- e -- e e
     }
 
     \addlyrics {
-       \set stanza = "8." и -- и -- и  и -- и -- и  и -- и -- и  и -- и -- и
+      \set stanza = "8." и -- и -- и  и -- и -- и  и -- и -- и  и -- и -- и
       и -- и -- и  и -- и -- и  и -- и -- и  и -- и -- и
       и -- и -- и  и -- и -- и  и -- и -- и  и -- и -- и и
     }
 
     \addlyrics {
-       \set stanza = "9." а -- е -- и  а -- е -- и  а -- е -- и  а -- е -- и
+      \set stanza = "9." а -- е -- и  а -- е -- и  а -- е -- и  а -- е -- и
       а -- е -- и  а -- е -- и  а -- е -- и  а -- е -- и
       а -- е -- и  а -- е -- и  а -- е -- и  а -- е -- и а
     }

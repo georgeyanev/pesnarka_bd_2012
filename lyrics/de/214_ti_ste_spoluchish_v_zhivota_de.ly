@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Dir wird alles im Leben glücken" }
 \markup \null
@@ -10,13 +10,13 @@
       \line {
         \bold "  "
         \column {
-         "Schön ist das Leben der Engel. Schön ist das Leben unserer Seele."
-         "Dir wird alles im Leben glücken."
-         "Höre die Stimme der Engel und dir wird alles im Leben glücken."
-         "Schön ist das Leben der Engel."
+          "Schön ist das Leben der Engel. Schön ist das Leben unserer Seele."
+          "Dir wird alles im Leben glücken."
+          "Höre die Stimme der Engel und dir wird alles im Leben glücken."
+          "Schön ist das Leben der Engel."
         }
       }
-      
+
     }\hspace #0.1
   }
 }

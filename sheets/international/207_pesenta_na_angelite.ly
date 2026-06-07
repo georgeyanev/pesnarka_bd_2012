@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -6,7 +6,7 @@
 \bookpart {
   \label #'ref207
   \tocItem \markup "Песента на ангелите – Pesenta na angelite "
- ##f
+  ##f
   \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"

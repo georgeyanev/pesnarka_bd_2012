@@ -1,11 +1,11 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Nach Zion" }
 \markup \null
 \markup \null
 \markup \abs-fontsize #11 \override #`(baseline-skip . ,deCoupletBaselineSkip) {
   \fill-line {
-    
+
     \column {
       \line {
         \bold "1."
@@ -17,7 +17,7 @@
         }
       }
       \vspace #1
-     
+
       \line {
         \bold "   "
         \column {
@@ -30,7 +30,7 @@
       \vspace #1
     }
     \column {
-     
+
       \line {
         \bold "2."
         \column {
@@ -43,12 +43,12 @@
       \vspace #1
       \line {
         \bold "   "
-         \column {
-           "   Erstrahle, heiliges Zion,"
-           "   schnell fliegen wir schon."
-           "   Vor dem Gott in dir werden wir"
-           "   uns bald mit Geist verneigen."
-         }
+        \column {
+          "   Erstrahle, heiliges Zion,"
+          "   schnell fliegen wir schon."
+          "   Vor dem Gott in dir werden wir"
+          "   uns bald mit Geist verneigen."
+        }
       }
     }
   }

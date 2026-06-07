@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Das Lied der Engel" }
 \markup \null
@@ -10,7 +10,7 @@
       \line {
         \bold "  "
         \column {
-         "Wenn eure Ohren offen wären, würdet ihr die Stimme der Engel hören, die singen."
+          "Wenn eure Ohren offen wären, würdet ihr die Stimme der Engel hören, die singen."
           "Sie singen das Lied der Liebe."
           "Sie singen: „Ihr, die Menschen, die ihr geschaffen wurdet nach dem Ebenbild Gottes,"
           "hört die Stimme eures Schöpfers, hört die Stimme eures Vaters."
@@ -23,7 +23,7 @@
           "Ruhm unserem Vater, unserem großen Vater.“"
         }
       }
-      
+
     }\hspace #0.1
   }
 }

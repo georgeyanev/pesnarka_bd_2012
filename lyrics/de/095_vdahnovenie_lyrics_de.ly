@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Ein guter Tag" }
 \markup \null
@@ -11,7 +11,7 @@
       \line {
         \bold "  "
         \column {
-           "Inspiration, Inspiration, Inspiration, Inspiration, Inspiration, du bist ein Segen."
+          "Inspiration, Inspiration, Inspiration, Inspiration, Inspiration, du bist ein Segen."
         }
       }
     }\hspace #0.1

@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -344,9 +344,9 @@
       той е слад -- ък кат хра -- на -- та.
     }
 
-        \addlyrics {
+    \addlyrics {
 
-        Ot sta -- ro vre -- me, __ dă -- šte, e znaj -- no: __
+      Ot sta -- ro vre -- me, __ dă -- šte, e znaj -- no: __
 
       dob -- ri -- jat mo -- măk __ na sve -- tăl den se po -- zna -- va, __
 
@@ -422,7 +422,7 @@
     }
 
     \header {
-     title = \titleFunc  "Бащина песен – Добрият момък" "Baština pesen – Dobrijat momăk"
+      title = \titleFunc  "Бащина песен – Добрият момък" "Baština pesen – Dobrijat momăk"
     }
 
     \midi{}

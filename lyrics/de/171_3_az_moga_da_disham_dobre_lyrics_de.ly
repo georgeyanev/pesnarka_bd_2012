@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Ich kann atmen" }
 \markup \null
@@ -10,10 +10,10 @@
       \line {
         \bold "  "
         \column {
-         "Ich kann schon gut atmen, ich kann schon gut atmen."
+          "Ich kann schon gut atmen, ich kann schon gut atmen."
         }
       }
-      
+
     }\hspace #0.1
   }
 }

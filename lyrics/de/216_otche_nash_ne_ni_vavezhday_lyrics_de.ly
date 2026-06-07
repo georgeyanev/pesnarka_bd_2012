@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Vater unser, führe uns nicht in Versuchung" }
 \markup \null
@@ -10,13 +10,13 @@
       \line {
         \bold "  "
         \column {
-         "Ich werde die Wärme meines Herzens bewahren,"
-         "die die göttlichen Güter in meine Seele bringt."
-         "Herr, führe uns nicht in Versuchung,"
-         "führe uns nicht in Versuchung."
+          "Ich werde die Wärme meines Herzens bewahren,"
+          "die die göttlichen Güter in meine Seele bringt."
+          "Herr, führe uns nicht in Versuchung,"
+          "führe uns nicht in Versuchung."
         }
       }
-      
+
     }\hspace #0.1
   }
 }

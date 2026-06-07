@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -57,7 +57,7 @@
       } % score
       \markup \dc-two "D.C." "con ripetizione"
 
-    \markup \vspace #2
+      \markup \vspace #2
       % include foreign translation(s) of the song
       \include "../../lyrics/de/028_stani_stani_lyrics_de.ly"
 

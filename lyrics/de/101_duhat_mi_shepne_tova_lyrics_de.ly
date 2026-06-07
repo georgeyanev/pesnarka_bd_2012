@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Der Geist flüstert mir das zu" }
 
@@ -11,11 +11,11 @@
       \line {
         \bold " "
         \column {
-        "Mir wird es im Leben wohl ergehen,"
-         "mein Geist und meine Seele flüstern mir das zu,"
-         "mein Geist und meine Seele flüstern mir das zu."
-         "Und der Geist flüstert mir das zu, flüstert mir das zu."
-         "Der Geist und die Seele flüstern mir das zu."
+          "Mir wird es im Leben wohl ergehen,"
+          "mein Geist und meine Seele flüstern mir das zu,"
+          "mein Geist und meine Seele flüstern mir das zu."
+          "Und der Geist flüstert mir das zu, flüstert mir das zu."
+          "Der Geist und die Seele flüstern mir das zu."
         }
       }
     }\hspace #0.1

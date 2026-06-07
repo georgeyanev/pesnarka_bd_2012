@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -63,7 +63,7 @@
       креп -- ко, тя ще ти да -- ри жи -- вот. вот.
     }
 
-     \addlyrics {
+    \addlyrics {
       \set stanza = "1. " Să -- bu -- di -- se, brat -- ko mi -- li,
       ot dăl -- bok săn ti sta -- ni i ve -- ri -- gi -- te ve --
       kov -- ni ot no -- ze -- te si sne -- mi!

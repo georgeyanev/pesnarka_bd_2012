@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Thema 6 und Thema 7" }
 \markup \null
@@ -14,7 +14,7 @@
           "Ich werde diese Wärme bewahren."
         }
       }
-      
+
     }\hspace #0.1
   }
 }

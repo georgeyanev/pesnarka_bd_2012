@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -142,7 +142,7 @@
     \with-link #'ref037 \fill-with-pattern #1 #RIGHT . "Na Učitelja – На Учителя" \page-ref #'ref037 "000" "?"
     \with-link #'ref036 \fill-with-pattern #1 #RIGHT . "Napred da hodim – Напред да ходим" \page-ref #'ref036 "000" "?"
     \with-link #'ref048 \fill-with-pattern #1 #RIGHT . "Napred, čada, napredv – Напред, чада, напред" \page-ref #'ref048 "000" "?"
-   
+
   }
 
   \markup \override #'(baseline-skip . 3.2)

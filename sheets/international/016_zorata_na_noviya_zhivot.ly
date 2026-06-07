@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -69,7 +69,7 @@
         \fill-line {
           \hspace #0.1
           \column {
-            
+
             \line {
               \bold "2."
               \column {
@@ -83,7 +83,7 @@
           \hspace #0.1
           % adds horizontal spacing between columns
           \column {
-           
+
             \line {
               \bold "2."
               \column {

@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -41,7 +41,7 @@
       \time 4/4  bes'4. a'8 a'4. g'8 |  \time 3/4  a'4 a'2 | \time 5/4  c''4. c''8 d''4 g'2 \break |
       f'4. g'8 a'4 \staccato a'4. d'8 | f'4. d'8 f'4 e'2 | \time 2/4 d'4. a8 | \time 5/4 d'4 d'2 r8 \bar "|."
     }
-     \addlyrics {
+    \addlyrics {
       \set stanza = "1. " Из -- гря -- ва ве -- че ден тър -- жест -- вен, __ пред -- ре -- че
       -- ни -- ят ден Бо -- жест -- вен, на дни --
       те ди -- а -- де -- ма, със свет -- ли -- на го
@@ -53,7 +53,7 @@
       та об -- но -- вя -- ва и веч -- но тя го под
       -- мла -- дя -- ва.
     }
-   \addlyrics {
+    \addlyrics {
       \set stanza = "1. " Iz -- grja -- va ve -- če den tăr -- žest -- ven, __ pred -- re -- če
       -- ni -- jat den Bo -- žest -- ven, na dni --
       te di -- a -- de -- ma, săs svet -- li -- na go
@@ -75,10 +75,10 @@
 
   \pageBreak
 
-      \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
-        \fill-line {
-          \hspace #0.1
-          \column {
+  \markup \abs-fontsize #11 \override #`(baseline-skip . ,bgCoupletBaselineSkip) {
+    \fill-line {
+      \hspace #0.1
+      \column {
         \line {
           \bold "2."
           \column {
@@ -119,11 +119,11 @@
             \italic "  Припев ..."
           }
         }
-            
-          }
-          \hspace #0.1
-          % adds horizontal spacing between columns
-          \column {
+
+      }
+      \hspace #0.1
+      % adds horizontal spacing between columns
+      \column {
         \line {
           \bold "2."
           \column {
@@ -164,9 +164,9 @@
             \italic "  Pripev ..."
           }
         }
-          }\hspace #0.1
-        }
-      }
+      }\hspace #0.1
+    }
+  }
 
   \markup \vspace #2
 

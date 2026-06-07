@@ -1,11 +1,11 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \include "include/globals.ily"
 
 \bookpart {
   \label #'ref124
   \tocItem \markup "Пролетна песен – Proletna pesen"
-     \include "include/bookpart-paper.ily"
+  \include "include/bookpart-paper.ily"
   \score {
     \include "include/score-layout.ily"
 
@@ -32,7 +32,7 @@
       \tupletUp \times 2/3  {
         g,8   bes8  c8
       }
-     
+
       | % 6
       d2
       \times 2/3  {
@@ -49,7 +49,7 @@
       }
       | \time 3/4 % 9
 
-      
+
       c4  as4  g8.  g16 |
 
       \time 2/4  |

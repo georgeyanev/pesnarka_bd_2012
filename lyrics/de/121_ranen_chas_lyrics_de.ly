@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Frühe Stunde" }
 \markup \null
@@ -39,11 +39,11 @@
           "bringt dieser Sturm der Welt."
         }
       }
-       \vspace #1
+      \vspace #1
       \line {
         \bold "  "
         \column {
-       "Neues Leben der Liebe"
+          "Neues Leben der Liebe"
           "wärme meine Seele!"
           "Freiheit, ein starker Geist"
           "und Frieden wird dein Eigen sein!"

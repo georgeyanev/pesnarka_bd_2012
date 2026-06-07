@@ -1,15 +1,15 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Eine ewige Wahrheit, die der Gott der Liebe ist" }
 \markup \null
 \markup \null
 \markup \abs-fontsize #11 {
   \fill-line {
-  \override #`(baseline-skip . ,deCoupletBaselineSkip)
+    \override #`(baseline-skip . ,deCoupletBaselineSkip)
 
-  \column {
+    \column {
 
-  \line { " " Titel in bulgarischer, Text in vatanischer Sprache.}
-  }
+      \line { " " Titel in bulgarischer, Text in vatanischer Sprache.}
+    }
   }
 }

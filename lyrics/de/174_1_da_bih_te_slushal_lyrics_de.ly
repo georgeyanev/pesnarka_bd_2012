@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Hätte ich auf Dich gehört" }
 \markup \null
@@ -10,13 +10,13 @@
       \line {
         \bold "  "
         \column {
-         "Hätte ich auf Dich gehört, hätte ich auf Dich gehört,"
+          "Hätte ich auf Dich gehört, hätte ich auf Dich gehört,"
           "wenn ich auf dich gehört hätte,"
           "hätte sich das Gute in mir manifestiert,"
           "hätte sich das Gute in mir offenbart."
         }
       }
-      
+
     }\hspace #0.1
   }
 }

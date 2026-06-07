@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -68,7 +68,7 @@
 
 
 
-       \set stanza = "1." и все -- ки ще ра -- бо -- ти с~ра -- дост на Бо -- жест -- ве -- на -- та ни -- ва,
+      \set stanza = "1." и все -- ки ще ра -- бо -- ти с~ра -- дост на Бо -- жест -- ве -- на -- та ни -- ва,
 
       ще ца -- ру -- ва веч -- на мла -- дост, ня -- ма ни -- кой да у -- ми -- ра,
 
@@ -94,7 +94,7 @@
 
 
 
-       \set stanza = "1." i vse -- ki šte ra -- bo -- ti s~ra -- dost na Bo -- žest -- ve -- na -- ta ni -- va,
+      \set stanza = "1." i vse -- ki šte ra -- bo -- ti s~ra -- dost na Bo -- žest -- ve -- na -- ta ni -- va,
 
       šte ca -- ru -- va več -- na mla -- dost, nja -- ma ni -- koj da u -- mi -- ra,
 
@@ -116,7 +116,7 @@
 
       " " " " " " " " " " " " " " " " " "    " " " " " " " " " " " " " " " " " " " " " " " " " " " "
 
-       \set stanza = "2."Но -- ви пес -- ни ще за -- пе -- ем за хар -- мо -- ни -- я все -- мир -- на.
+      \set stanza = "2."Но -- ви пес -- ни ще за -- пе -- ем за хар -- мо -- ни -- я все -- мир -- на.
 
       Нов жи -- вот ще за -- жи -- ве -- ем, тя -- ло -- то ни ще про -- свет -- не
 
@@ -141,7 +141,7 @@
 
       " " " " " " " " " " " " " " " " " "    " " " " " " " " " " " " " " " " " " " " " " " " " " " "
 
-       \set stanza = "2." No -- vi pes -- ni šte za -- pe -- em za har -- mo -- ni -- ja vse -- mir -- na.
+      \set stanza = "2." No -- vi pes -- ni šte za -- pe -- em za har -- mo -- ni -- ja vse -- mir -- na.
 
       Nov ži -- vot šte za -- ži -- ve -- em, tja -- lo -- to ni šte pro -- svet -- ne
 

@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Gebet" }
 \markup \null
@@ -20,7 +20,7 @@
           "Amen. So sei es."
         }
       }
-      
+
     }\hspace #0.1
   }
 }

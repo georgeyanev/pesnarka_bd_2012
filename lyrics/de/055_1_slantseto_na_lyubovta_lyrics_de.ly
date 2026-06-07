@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Die Sonne der Liebe" }
 \markup \null
@@ -7,7 +7,7 @@
   \fill-line {
     \hspace #0.1
     \column {
-    
+
       \line {
         \bold "  "
         \column {

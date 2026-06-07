@@ -1,5 +1,5 @@
 
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Die kleine Bergquelle" }
 \markup \null
@@ -11,46 +11,46 @@
       \line {
         \bold "1."
         \column {
-       "Die reine Quelle sprudelt und singt"
+          "Die reine Quelle sprudelt und singt"
 
-"mit einem unschuldigen, munteren, hellen Blick."
+          "mit einem unschuldigen, munteren, hellen Blick."
 
-"Im Schoss des Gebirges in der Morgenröte geboren,"
+          "Im Schoss des Gebirges in der Morgenröte geboren,"
 
-"bebende Freude, Munterkeit erklingt. "
+          "bebende Freude, Munterkeit erklingt. "
 
-"Klare Rinnsale singen, ihre Tropfen funkeln. "
+          "Klare Rinnsale singen, ihre Tropfen funkeln. "
 
-"Klare Rinnsale singen, ihre Tropfen funkeln.  "
+          "Klare Rinnsale singen, ihre Tropfen funkeln.  "
 
-"Sie verbreitet Frische und Schönheit"
+          "Sie verbreitet Frische und Schönheit"
 
- "Sie flüstert von der Liebe. "
+          "Sie flüstert von der Liebe. "
 
-"Im Herzen des Menschen hallt das Lied wider."
+          "Im Herzen des Menschen hallt das Lied wider."
         }
       }
       \vspace #1
       \line {
         \bold "2."
         \column {
-         "Zarte Blumen blühen um sie herum,"
+          "Zarte Blumen blühen um sie herum,"
 
-"sie erzählen leise von wunderbaren Märchen."
+          "sie erzählen leise von wunderbaren Märchen."
 
- "Spielerische Nymphen stricken hier Tänze,"
+          "Spielerische Nymphen stricken hier Tänze,"
 
-"auf einem taubedeckten Teppich schwingen Schritte. "
+          "auf einem taubedeckten Teppich schwingen Schritte. "
 
-"Nachts spiegeln sich die Sterne in der Quelle."
+          "Nachts spiegeln sich die Sterne in der Quelle."
 
-"Und sie sprudelt und gibt unaufhörlich."
+          "Und sie sprudelt und gibt unaufhörlich."
 
-"So gibt die Liebe. "
+          "So gibt die Liebe. "
 
-"In den Herzen der Menschen geht die Freude auf. "
+          "In den Herzen der Menschen geht die Freude auf. "
 
-"In den Herzen der Menschen geht die Freude auf."
+          "In den Herzen der Menschen geht die Freude auf."
         }
       }
     }\hspace #0.1

@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 \markup \fill-line { \fontsize #deTitleFontSize "Alles im Leben ist erreichbar" }
 \markup \null
@@ -10,13 +10,13 @@
       \line {
         \bold " "
         \column {
-         "Alles im Leben ist erreichbar,"
-         "wenn die Zeit gut ist,"
-         "und wir vernünftig sind."
-         "Denn das Gute ist das Fundament,"
-         "und die Vernünftigkeit ein Ziel,"
-         "mit denen der Geist die Zukunft aufbaut,"
-         "die Zukunft, die große Zukunft."
+          "Alles im Leben ist erreichbar,"
+          "wenn die Zeit gut ist,"
+          "und wir vernünftig sind."
+          "Denn das Gute ist das Fundament,"
+          "und die Vernünftigkeit ein Ziel,"
+          "mit denen der Geist die Zukunft aufbaut,"
+          "die Zukunft, die große Zukunft."
         }
       }
     }\hspace #0.1

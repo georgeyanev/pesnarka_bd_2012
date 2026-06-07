@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 % include paper part and global functions
 \include "include/globals.ily"
@@ -19,7 +19,7 @@
     \fill-line { \with-link #'ref_desc_18 \abs-fontsize #14  "in der Zusammenarbeit zwischen Petar Danov," }
     \vspace #0.5
     \fill-line { \with-link #'ref_desc_18 \abs-fontsize #14  "Cvetana-Liliana Tabakova und Krăstjo Hristov entstanden" }
-    
+
     \vspace #2
     \fill-line { \with-link #'ref_desc_18 \abs-fontsize #17  "Новото Битие – Създаването на новия Адам" }
     \vspace #0.5
