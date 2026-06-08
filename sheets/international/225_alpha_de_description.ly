@@ -46,77 +46,9 @@
   }
 
 
-  \label #'ref220
-  \tocItem \markup "Anmerkungen"
-  \markup \abs-fontsize #14 { \fill-line \bold {"Anmerkungen"} }
 
-  \label #'ref_desc_1
-  \markup \abs-fontsize #11
-  {
-    \override #'(baseline-skip . 3.4)
-    \column {
-      \vspace #2
 
-      \line {
-        \justify {
-          \concat {
-            \with-link #'ref109 \bold"A bre, sinko – А бре, синко."
-          } 28. November 1934, Sofia, Allgemeine Okkultklasse, XIV. Jahrgang, 10. Vortrag „Prinzipien und Bedingungen – Berg und Tal“. Das Lied wurde einem bulgarisches Volkslied entlehnt, dessen ursprüngliche Reinheit wiederhergestellt wurde.
-        }
-      }
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {\with-link #'ref135 \bold"Ain fasi – Аин фаси."}
-          7. Oktober 1931, Sofia, Allgemeine Okkultklasse, XI. Jahrgang, 2. Vortrag „Lasst den Beutel“. Dieser Text wurde in einer uralten, heiligen Sprache überliefert. Die Grundidee dieses Liedes lautet: Du, der Du der Grund von allem bist, Du, der Du mit Deiner Liebe alles durchdringst und stützt, sei gesegnet! Möge ich in Deinem Licht und Deiner Liebe leben! Wie sehr möchte ich auf Deinen Spuren wandeln! Mein ganzes Leben diene deinem Ruhm! „Wer die Elemente der Worte von \italic"Ain fasi" versteht, kann zum Sinn des Lebens gelangen und davon profitieren.“
-        }
-      }
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {\with-link #'ref064 \bold "Angel vopijaše – Ангел вопияше."}
-          Bulgarischer Kirchengesang, der zu Beginn des 20. Jahrhunderts sehr bekannt war. Text und Musik Konstantin Danovski, der Vater von Petar Danov. Es gibt unterschiedliche Varianten des Liedes. Das Lied wurde von Barnaby Brown nach dem Vortrag von Vesela Nestorova notiert.
-
-        }
-      }
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {\with-link #'ref075 \bold "Aum – Аум."} 2. Dezember 1925, Sofia, Allgemeine Okkultklasse, V. Jahrgang, 3. Vortrag „Aumen“. Durch diese Übung soll der Mensch das Heilige in sich aufrechterhalten. Es ist aus einem alten, heiligen Lied entnommen worden. Petar Danov sagt: „Hätte ich euch dieses Lied in seiner ursprünglichen Moll-Tonart vorgetragen, könntet ihr seiner Schwingung nicht standhalten; euer Puls wird sich verändern.“ Petar Danov gab das Lied in Dur. Er sagte: „Es gibt heilige Wörter. Solch ein Wort ist auch das Wort \italic"Aum," das oft ausgesprochen werden soll, auch dann, wenn man seine Bedeutung nicht versteht. Seid ihr traurig, seid ihr krank, befindet ihr euch geistig nicht in einer guten Verfassung, sprecht ein paar Mal das Wort \italic"Aum" – es ist das Wort des Geistes. Singt ihr das Wort in seiner Sprache, wird er euch verstehen und helfen, denn er versteht und kennt eure Bedürfnisse.“ Das Lied „Aum“ wird in der Paneurhythmie viermal und als eigenständiges Lied dreimal aufgeführt.
-        }
-      }
-      \vspace #0.5
-
-      \line {
-        \justify {
-          \concat {\with-link #'ref171_2 \bold "Az moga da dišam – Аз мога да дишам."}Musik und Text von Petar Danov, 4. Februar 1938, Sofia, Allgemeine Okkultklasse, XVII. Jahrgang, 19. Vortrag „Das Gesetz der Harmonie im Körper“. Die Arbeit an dieser Übung begann am 29. Dezember 1937, Sofia, Allgemeine Okkultklasse, XVII. Jahrgang 13. Vortrag „Vor den Freuden und nach dem Leid“.
-        }
-      }
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {\with-link #'ref047 \bold "Az săm bjaloto kokiče – Аз съм бялото кокиче."} Musik Hristo Dărzev, Text Penčo Slavejkov. In manchen populären Versionen wird statt „[...] böse Stiefmutter hat mich geweckt“ „[...] die Sonne hat mich geweckt“ gesungen. Der Text der dritten Strophe wurde später von einem Schüler hinzugefügt.
-        }
-      }
-
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {\with-link #'ref109 \bold"Az smeja da kaža – Аз смея да кажа."}
-          2. Oktober 1935, Sofia, Allgemeine Okkultklasse, XV. Jahrgang, 2. Vortrag „Die neue Lehre“. „Ich wage zu sagen, dass die Sonne licht ist“ – sie ist licht, wo Vernünftigkeit vorhanden ist. Mit dem Wort \italic "Licht" ist eine vernünftige Welt gemeint, in der alles möglich ist. Alle vernunftbegabten Wesen sind bereit, dir zu helfen, sobald du dich ihnen vorstellst.“
-        }
-      }
-
-      \vspace #0.5
-      \line {
-        \justify {
-          \concat {\with-link #'ref150 \bold "Bălgarska idilija – Българска идилия."} Notiert von einer Tonbandaufnahme von Petăr Kamburov, redigiert von Georgi Stratev, Ioana Strateva und Stanka Zeleva. Petar Danov gab dieses Lied Peter Kamburov im Februar 1920 in der Opălčenska Straße 66. Die Idylle
-        }
-      }
-
-    }
-  }
-
+ 
 
   \label #'ref_desc_2
   \markup \abs-fontsize #11
@@ -125,7 +57,7 @@
     \column {
       \line {
         \justify {
-          beschreibt das Streben der bulgarischen Seele nach dem Ewigen im Leben. Sie will die ewige Gerechtigkeit, die ewige Liebe erreichen, die das Sein erfüllen. Sie erahnt die Existenz einer schönen Welt in sich und möchte sie Wirklichkeit werden lassen.
+          Idylle beschreibt das Streben der bulgarischen Seele nach dem Ewigen im Leben. Sie will die ewige Gerechtigkeit, die ewige Liebe erreichen, die das Sein erfüllen. Sie erahnt die Existenz einer schönen Welt in sich und möchte sie Wirklichkeit werden lassen.
         }
       }
       \vspace #0.5
@@ -251,7 +183,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref113 \bold "Cvetjata căftjaha – Цветята цъфтяха."} 22. Januar 1941. Die Blume, die sich geöffnet hat, kann die Sonnenstrahlen empfangen. Das Herz und der Verstand des Menschen müssen
+          \concat {\with-link #'ref113 \bold "Cvetjata căftjaha – Цветята цъфтяха."} 22. Januar 1941. Die Blume, die sich geöffnet hat, kann die Sonnenstrahlen empfangen. Das Herz und der Verstand des Menschen müs-
         }
       }
     }
@@ -266,7 +198,7 @@
 
       \line {
         \justify {
-          sich für die göttlichen Wohltaten öffnen; nur dann kann er wahre Errungenschaften erlangen.
+         sen sich für die göttlichen Wohltaten öffnen; nur dann kann er wahre Errungenschaften erlangen.
         }
       }
 
@@ -371,13 +303,13 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref101_2 \bold"Duhăt mi šepne tova – Духът ми шепне това."} 19. Januar 1934, Jugendokkult- klasse, XIII. Jahrgang, 14. Vortrag „Das feste Seil“.
+          \concat {\with-link #'ref101_2 \bold"Duhăt mi šepne tova – Духът ми шепне това."} 19. Januar 1934, Jugendokkultklasse, XIII. Jahrgang, 14. Vortrag „Das feste Seil“.
         }
       }
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref201 \bold "Edna večna Istina, kojato e Bog na Ljubovta – Една вечна Истина, която е Бог на"}\concat {\bold "Любовта."} Das Lied wurde am 18. April 1943 im Beisein von Liljana Tabakova komponiert. Der Text ist in einer alten, nicht übersetzbaren Sprache geschrieben. Es geht um die erste große Seele, die Mittlerin der Liebe. Dieses Lied muss als Meditation gesungen werden, mit Konzentration und mystischer Andacht.
+          \concat {\with-link #'ref201 \bold "Edna večna Istina, kojato e Bog na Ljubovta – Една вечна Истина, която е Бог "}\concat {\bold "на Любовта."} Das Lied wurde am 18. April 1943 im Beisein von Liljana Tabakova komponiert. Der Text ist in einer alten, nicht übersetzbaren Sprache geschrieben. Es geht um die erste große Seele, die Mittlerin der Liebe. Dieses Lied muss als Meditation gesungen werden, mit Konzentration und mystischer Andacht.
         }
       }
 
@@ -419,7 +351,7 @@
     \column {
       \line {
         \justify {
-          \concat {\with-link #'ref190 \bold "Glasăt na Živija Gospod – NovotoVăzkresenie – Гласът на Живия Господ – Новото" } \bold "Възкресение." Das Lied fehlt im Liederbuch von Maria Todorova. Sein Ursprung ist nicht gesichert. Wahrscheinlich entstand das Lied im Gespräch mit Liljana Tabakova, die es später als eigene Komposition entwickelt. Der erste Teil des Textes kommt im Vortrag vom 29. Mai 1921, Sofia, Sonntagsvorträge „Sie sollen geprüft werden“ vor. Der zweite Teil ist eine Passage aus dem eigenen Notizbuch von Petar Danov. Die Notierung des Liedes erfolgte nach dem Vortrag des Liedes durch Boris Nikolov von Peter Ganev in den 70er Jahren des 20. Jahrhunderts.
+          \concat {\with-link #'ref190 \bold "Glasăt na Živija Gospod – NovotoVăzkresenie – Гласът на Живия Господ – Но-" } \bold "вото Възкресение." Das Lied fehlt im Liederbuch von Maria Todorova. Sein Ursprung ist nicht gesichert. Wahrscheinlich entstand das Lied im Gespräch mit Liljana Tabakova, die es später als eigene Komposition entwickelt. Der erste Teil des Textes kommt im Vortrag vom 29. Mai 1921, Sofia, Sonntagsvorträge „Sie sollen geprüft werden“ vor. Der zweite Teil ist eine Passage aus dem eigenen Notizbuch von Petar Danov. Die Notierung des Liedes erfolgte nach dem Vortrag des Liedes durch Boris Nikolov von Peter Ganev in den 70er Jahren des 20. Jahrhunderts.
         }
       }
 
@@ -531,7 +463,7 @@
       \vspace #0.8
       \line {
         \justify {
-          \concat {\with-link #'ref056_2 \bold "Kăm Rila – Към Рила."} Musik und Text von Ivan G. Popov, notiert am 15. Juni 1921.
+          \concat {\with-link #'ref056_2 \bold "Kăm Rila – Към Рила."} Musik und Text von Ivan G. Popov, 15. Juni 1921.
         }
       }
       \vspace #0.8
@@ -873,7 +805,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref191 \bold "Novoto Bitie. Săzdavaneto na novija Adam – Новото Битие. Създаването на новия"} \bold"Адам." Der Zyklus \italic "Novoto Bitie" entstand in einer Reihe von persönlichen Gesprächen, die Danov mit Liljana Tabakova hatte. Er bestand darauf, dass sie die Lieder auswendig lernt und erlaubte nicht, dass sie sofort notiert werden. Der Zyklus wurde zum ersten Mal 1949 publiziert, ohne jeglichen redaktionellen Eingriff. Die in dem gegenwärtigen Band publizierte Notation stellt die redaktionelle Sicht und Organisation des Zyklus \italic"Novoto Bitie" nach Peter Ganev vor, der seine eigene Harmonisierung und Orchestrierung des Zyklus machte und es mehrfach in Bulgarien aufführte. \italic"Novoto Bitie" entstand zeitlich betrachtet in der folgenden Reihenfolge: „Erster göttlicher Tag“ am 7. Dezember 1941, „Zweiter göttlicher Tag“ am 28. Juli 1942, „Dritter göttlicher Tag“ am 1. Oktober 1942, „Vierter göttlicher Tag“ am 12. November 1942, „Fünfter göttlicher Tag“ am 30. Mai 1943, „Sechster göttlicher Tag“ am 21. Juli 1943 und „Siebter Göttlicher Tag“ am 15. September
+          \concat {\with-link #'ref191 \bold "Novoto Bitie. Săzdavaneto na novija Adam – Новото Битие. Създаването на но-"} \bold"вия Адам." Der Zyklus \italic "Novoto Bitie" entstand in einer Reihe von persönlichen Gesprächen, die Danov mit Liljana Tabakova hatte. Er bestand darauf, dass sie die Lieder auswendig lernt und erlaubte nicht, dass sie sofort notiert werden. Der Zyklus wurde zum ersten Mal 1949 publiziert, ohne jeglichen redaktionellen Eingriff. Die in dem gegenwärtigen Band publizierte Notation stellt die redaktionelle Sicht und Organisation des Zyklus \italic"Novoto Bitie" nach Peter Ganev vor, der seine eigene Harmonisierung und Orchestrierung des Zyklus machte und es mehrfach in Bulgarien aufführte. \italic"Novoto Bitie" entstand zeitlich betrachtet in der folgenden Reihenfolge: „Erster göttlicher Tag“ am 7. Dezember 1941, „Zweiter göttlicher Tag“ am 28. Juli 1942, „Dritter göttlicher Tag“ am 1. Oktober 1942, „Vierter göttlicher Tag“ am 12. November 1942, „Fünfter göttlicher Tag“ am 30. Mai 1943, „Sechster göttlicher Tag“ am 21. Juli 1943 und „Siebter Göttlicher Tag“ am 
         }
       }
     }
@@ -886,7 +818,7 @@
     \column {
       \line {
         \justify {
-          1943. Unter \italic"Neuer Genesis" verstehen wir das neue Leben, welches sich jetzt für die gesamte Menschheit und jedes einzelne Individuum an sich aufzubauen beginnt. Die erste „Genesis“, die in der Bibel beschrieben wurde, symbolisiert das alte Leben. Der alte Adam hat gesündigt. Musikalisch gesprochen, hat er die Note F nicht sauber genommen, das dem Materiellen in dieser Welt entspricht. Der neue Adam wird diesen Fehler des alten Adam korrigieren. Er wird keine Fehler mehr begehen und nicht mehr sterben. Musikalisch betrachtet bedeutet dies: Er wird die Noten der Tonleiter bis zum A richtig singen. Das A entspricht der 6. Rasse. Es bleibt dann nur noch die Note H, die reife Frucht. Diese Frucht symbolisiert die 7. Rasse. Die sieben Tage Gottes aus der Genesis entsprechen den sieben Noten der Tonleiter. So beginnt der erste Tag Gottes mit der Note C. Dies bedeutet, dass die Mächte des Lichts, die die Schöpfung der neuen Welt begonnen haben, die Materie des alten Lebens in eine neue, höhere Tonleiter umformen und in sie das Element der Unsterblichkeit einfügen werden. Nach dieser Analogie werden sich im Blut des neuen Adam neue rote Blutkörperchen formen, die von den Eigenschaften des neuen Lebens durchdrungen sein werden. Der zweite Tag Gottes, der mit dem Ton D beginnt, wird das Nervensystem, die Knochen und den Willen transformieren. So wird jeder göttliche Tag etwas Neues in die Struktur des Kosmos und des Menschen hineinbringen. Jeder Mensch wird seine neue Existenz individuell leben. Das Lied endet mit den magischen Worten des kosmischen Geistes \italic"Aum" und der Universalseele \italic"Aumen."Die bulgarische Sprache hat zwei Wörter für \italic"Licht," \italic"svetlina" und \italic"videlina." Diesen Wörtern kommt eine unterschiedliche Bedeutung zu, die Danov in seinen Vorträgen darlegt.
+          15. September 1943. Unter \italic"Neuer Genesis" verstehen wir das neue Leben, welches sich jetzt für die gesamte Menschheit und jedes einzelne Individuum an sich aufzubauen beginnt. Die erste „Genesis“, die in der Bibel beschrieben wurde, symbolisiert das alte Leben. Der alte Adam hat gesündigt. Musikalisch gesprochen, hat er die Note F nicht sauber genommen, das dem Materiellen in dieser Welt entspricht. Der neue Adam wird diesen Fehler des alten Adam korrigieren. Er wird keine Fehler mehr begehen und nicht mehr sterben. Musikalisch betrachtet bedeutet dies: Er wird die Noten der Tonleiter bis zum A richtig singen. Das A entspricht der 6. Rasse. Es bleibt dann nur noch die Note H, die reife Frucht. Diese Frucht symbolisiert die 7. Rasse. Die sieben Tage Gottes aus der Genesis entsprechen den sieben Noten der Tonleiter. So beginnt der erste Tag Gottes mit der Note C. Dies bedeutet, dass die Mächte des Lichts, die die Schöpfung der neuen Welt begonnen haben, die Materie des alten Lebens in eine neue, höhere Tonleiter umformen und in sie das Element der Unsterblichkeit einfügen werden. Nach dieser Analogie werden sich im Blut des neuen Adam neue rote Blutkörperchen formen, die von den Eigenschaften des neuen Lebens durchdrungen sein werden. Der zweite Tag Gottes, der mit dem Ton D beginnt, wird das Nervensystem, die Knochen und den Willen transformieren. So wird jeder göttliche Tag etwas Neues in die Struktur des Kosmos und des Menschen hineinbringen. Jeder Mensch wird seine neue Existenz individuell leben. Das Lied endet mit den magischen Worten des kosmischen Geistes \italic"Aum" und der Universalseele \italic"Aumen."Die bulgarische Sprache hat zwei Wörter für \italic"Licht," \italic"svetlina" und \italic"videlina." Diesen Wörtern kommt eine unterschiedliche Bedeutung zu, die Danov in seinen Vorträgen darlegt.
         }
       }
       \vspace #0.5
@@ -899,7 +831,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref134 \bold"Obetovana zemja – Обетована земя."} 8. Dezember 1933, Sofia, Jugendokkult- klasse, XIII. Jahrgang, 8. Vortrag „Das Wesentliche im Leben“. Dieses Lied beschreibt den Weg aller Seelen, die das alte Leben verlassen und sich dem schönen Leben des Lichtes, der Freude und der Wahrheit zuwenden.
+          \concat {\with-link #'ref134 \bold"Obetovana zemja – Обетована земя."} 8. Dezember 1933, Sofia, Jugendokkultklasse, XIII. Jahrgang, 8. Vortrag „Das Wesentliche im Leben“. Dieses Lied beschreibt den Weg aller Seelen, die das alte Leben verlassen und sich dem schönen Leben des Lichtes, der Freude und der Wahrheit zuwenden.
         }
       }
       \vspace #0.5
@@ -925,7 +857,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref115 \bold "Pesen na svetlija păt – Песен на светлия път."} 1. April 1942, Sofia, Allgemeine Okkultklasse, XXI. Jahrgang, 27. Vortrag „Leben und Musik“.  \italic"Anm. d. Hrsg.:" Die Notation dieses Liedes wurde auf der Grundlage eines Archivfotos vorgenommen. Als Danov seinen Schülern das Lied vorstellt, befindet sich die punktierte Figur Achtel mit Punkt und Sechs-
+          \concat {\with-link #'ref115 \bold "Pesen na svetlija păt – Песен на светлия път."} 1. April 1942, Sofia, Allgemeine Okkultklasse, XXI. Jahrgang, 27. Vortrag „Leben und Musik“.  \italic"Anm. d. Hrsg.:" Die Notation dieses Liedes wurde auf der Grundlage eines Archivfotos vorgenommen. Als Danov sei-
         }
       }
     }
@@ -937,7 +869,7 @@
     \column {
       \line {
         \justify {
-          zehntel auf dem zweiten Schlag, auf den Silben „da pos“. Aber nachdem das Lied in das musikalische Leben der Bruderschaft kommt, wird es von niemandem so gesungen. Es wird meistens mit der punktierten Gruppe auf dem ersten Schlag „Mo-ga“ oder mit gleichen Achteln gesungen, wie das Lied im Sammelband von Maria Todorova notiert wurde.
+          nen Schülern das Lied vorstellt, befindet sich die punktierte Figur Achtel mit Punkt und Sechszehntel auf dem zweiten Schlag, auf den Silben „da pos“. Aber nachdem das Lied in das musikalische Leben der Bruderschaft kommt, wird es von niemandem so gesungen. Es wird meistens mit der punktierten Gruppe auf dem ersten Schlag „Mo-ga“ oder mit glei- chen Achteln gesungen, wie das Lied im Sammelband von Maria Todorova notiert wurde.
         }
       }
       \vspace #0.5
@@ -974,7 +906,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref119 \bold "Podmladjavane – Подмладяване."} 8. September 1943, Sofia, Zusammenkunfts- vorträge, 13. Vortrag „Empfangen und Weitergeben“. In der Ausgabe von 1949 steht unter dem Titel geschrieben „nach Motiven von P. Danov“. Laut Prof. Ljubomir Jankov, Geiger und Schüler von Petar Danov, entstand das Lied im ersten Vortrag nach der zweimonatigen Trauer anlässlich des Todes von Boris III. zur Beruhigung des bulgarischen Volkes. \italic"Anm. d. Hrsg.:" Die Akzente des Textes zeigen den Dreier-Rhythmus am Anfang des Liedes trotz seines marschartigen Charakters.
+          \concat {\with-link #'ref119 \bold "Podmladjavane – Подмладяване."} 8. September 1943, Sofia, Zusammenkunftsvor- träge, 13. Vortrag „Empfangen und Weitergeben“. In der Ausgabe von 1949 steht unter dem Titel geschrieben „nach Motiven von P. Danov“. Laut Prof. Ljubomir Jankov, Geiger und Schüler von Petar Danov, entstand das Lied im ersten Vortrag nach der zweimonatigen Trauer anlässlich des Todes von Boris III. zur Beruhigung des bulgarischen Volkes. \italic"Anm. d. Hrsg.:" Die Akzente des Textes zeigen den Dreier-Rhythmus am Anfang des Liedes trotz seines marschartigen Charakters.
         }
       }
 
@@ -1031,7 +963,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref122 \bold "Radost i skrăb – Радост и скръб."} Begonnen am 9. November, beendet am 16. November 1933. Im Lied wird der Grundidee Ausdruck verliehen, dass Gram und Freude die zwei Lebenswege darstellen. Im Gram erlangt der Mensch bestimmte Errungenschaften, andere
+          \concat {\with-link #'ref122 \bold "Radost i skrăb – Радост и скръб."} Begonnen am 9. November, beendet am 16. No- vember 1933. Im Lied wird der Grundidee Ausdruck verliehen, dass Gram und Freude die 
         }
       }
     }
@@ -1045,7 +977,7 @@
 
       \line {
         \justify {
-          in der Freude. Deshalb werden im großen Leben der Liebe beide Wege gleichermaßen geschätzt.
+         zwei Lebenswege darstellen. Im Gram erlangt der Mensch bestimmte Errungenschften, andere in der Freude. Deshalb werden im großen Leben der Liebe beide Wege gleichermaßen geschätzt.
         }
       }
 
@@ -1108,7 +1040,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref112_1 \bold "Sila, zdrave e bogatstvo – Сила, здраве е богатство."} 3. Januar 1940, Sofia, Allgemeine Okkultklasse, ХIХ. Jahrgang, 14. Vortrag „Der innere Herr“.
+          \concat {\with-link #'ref112_1 \bold "Sila, zdrave e bogatstvo – Сила, здраве е богатство."} 3. Januar 1940, Sofia, Allge- meine Okkultklasse, ХIХ. Jahrgang, 14. Vortrag „Der innere Herr“.
         }
       }
       \vspace #0.5
@@ -1126,7 +1058,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref077 \bold "Skrăbta si ti kaži – Скръбта си ти кажи."} 19. November 1922, Sofia, Allgemeine Okkultklasse, II. Jahrgang, 8. Vortrag „Musik und Singen – ein Mittel des Sich-Einstimmens“. \italic"Sila živa" und \italic"Skrăbta si ti kaži" sind zwei Teile einer einzigen okkulten Übung. Peter Danov gab dazu folgende Erklärung: „‚Sila živa, Sila živa, kaži mi, kaži mi de voda izvira‘ – hier suchen wir nach der Quelle. Es handelt sich um ein traditionelles bulgar-
+          \concat {\with-link #'ref077 \bold "Skrăbta si ti kaži – Скръбта си ти кажи."} 19. November 1922, Sofia, Allgemeine Okkultklasse, II. Jahrgang, 8. Vortrag „Musik und Singen – ein Mittel des Sich-Einstimmens“. \italic"Sila živa" und \italic"Skrăbta si ti kaži" sind zwei Teile einer einzigen okkulten Übung. Peter Danov gab dazu folgende Erklärung: „‚Sila živa, Sila živa, kaži mi, kaži mi de 
         }
       }
 
@@ -1142,7 +1074,7 @@
 
       \line {
         \justify {
-          isches Motiv. Es wurde dem Lauf des Wassers einer Quelle aus dem Hochgebirge entliehen, welches über die Steine springend nach und nach hinunterfließt. So habt ihr hier ein sehr angenehmes Bild vor Augen. Im bulgarischen Volkslied sind all diese Reigentanzlieder aus den Orten hervorgeganen, an denen Quellen entspringen. ‚Skrăbta si ti kaži, sărce si ti otvori na slănčevi lăči, [...]‘ – in diesem Ausschnitt haben wir ein negatives Wort, den Gram [skrăb]. Sobald jemand Leid empfindet, ist Dunkelheit in seinem Verstand und seinem Herzen; es gibt kein Licht mehr. Sobald das Licht erscheint, verschwindet das Leid. Die Sonne ist es, die heilt. Die Übung ist noch nicht vollendet, sondern ist so, wie es in der Natur existiert; es wurde okkult gegeben.“ Es gibt die Tradition, dass das Lied mit „Sila živa“ gesungen wird. Das Lied wird frei und breit gesungen. Seine Struktur gehört zu den \italic"inkommensurablen" \italic"Größen."
+          voda izvira‘ – hier suchen wir nach der Quelle. Es handelt sich um ein traditionelles bulgarisches Motiv. Es wurde dem Lauf des Wassers einer Quelle aus dem Hochgebirge entliehen, welches über die Steine springend nach und nach hinunterfließt. So habt ihr hier ein sehr angenehmes Bild vor Augen. Im bulgarischen Volkslied sind all diese Reigentanzlieder aus den Orten hervorgeganen, an denen Quellen entspringen. ‚Skrăbta si ti kaži, sărce si ti otvori na slănčevi lăči, [...]‘ – in diesem Ausschnitt haben wir ein negatives Wort, den Gram [skrăb]. Sobald jemand Leid empfindet, ist Dunkelheit in seinem Verstand und seinem Herzen; es gibt kein Licht mehr. Sobald das Licht erscheint, verschwindet das Leid. Die Sonne ist es, die heilt. Die Übung ist noch nicht vollendet, sondern ist so, wie es in der Natur existiert; es wurde okkult gegeben.“ Es gibt die Tradition, dass das Lied mit „Sila živa“ gesungen wird. Das Lied wird frei und breit gesungen. Seine Struktur gehört zu den \italic"inkommensurablen" \italic"Größen."
         }
       }
 
@@ -1351,7 +1283,7 @@
       \vspace #0.5
       \line {
         \justify {
-          \concat {\with-link #'ref095 \bold "V pustinjata na života – В пустинята на живота."} 19. Oktober 1934, Sofia, Ju- gendokkultklasse, XIV. Jahrgang, 2. Vortrag „Die Walnuss und das Walnüsschen. Wasser und Dampf. Abstieg, Ausrutschen und Hinfallen“.
+          \concat {\with-link #'ref095 \bold "V pustinjata na života – В пустинята на живота."} 19. Oktober 1934, Sofia, Jugendokkultklasse, XIV. Jahrgang, 2. Vortrag „Die Walnuss und das Walnüsschen. Wasser und Dampf. Abstieg, Ausrutschen und Hinfallen“.
         }
       }
       \vspace #0.5

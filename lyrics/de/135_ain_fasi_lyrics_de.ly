@@ -11,14 +11,13 @@
       \line {
         \bold " "
         \column {
-          "Ich werde mich verjüngen, du wirst dich verjüngen, er wird sich verjüngen."
-          "Das sagte mir die Liebe. Das sagte mir die Liebe."
-          "Wir, die wir dem Weg des Guten folgen, werden uns verjüngen,"
-          "ihr, die ihr dem Weg des Guten folgt, werdet euch verjüngen."
-          "sie, die dem Weg des Guten folgt, werden sich verjüngen."
-          "Das sagte uns die Liebe. Das sagte uns die Liebe."
+          "In den Himmelsweiten, in den Himmelstiefen, in den Himmelshöhen,"
+          "wo das Licht wohnt, und im Leben sich auf ewig manifestiert."
+        
         }
       }
     }\hspace #0.1
   }
 }
+
+      
