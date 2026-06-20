@@ -167,8 +167,8 @@ cat \
     ../254_marsh_tekst_pg.ly \
     ../219_blank_page.ly \
     ../218_appendix.ly \
-    ../220_alpha_description_first_page.ly \
-    ../220_alpha_description.ly \
+    ../220_descriptions_first_page.ly \
+    ../220_descriptions.ly \
     ../251_images_first_page.ly  \
     ../251_images.ly \
     ../221_dictionary_bg_first_page.ly \
