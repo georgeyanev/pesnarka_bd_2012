@@ -23,7 +23,7 @@
       g2 | c4 b8 a8 | a4. (b8) | g4. b8 | d8 f, a g | \break
 
 
-      \time 3/4 c2 c,8. e16 | g4 a g8. e16 | \time 2/4 g4. c8 | \break
+      \time 3/4 c2 c,8. e16 | g4 a g8. e16 | \time 2/4 g4. c8 | \break 
 
       \time 3/4  b4  f4  a8.  b16 | \time 2/4  | c2 | c4  b8  a8 | a4. (  b8 ) \break |
 
