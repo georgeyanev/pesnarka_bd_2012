@@ -4,8 +4,7 @@
 
 \bookpart {
   \label #'ref146
-  \tocItem \markup "Българска рапсодия"
-  \tocItem \markup "Обетована земя"
+  \tocItem \markup "Българска рапсодия II"
   \paper {
     print-all-headers = ##t
     print-page-number = ##t
@@ -306,7 +305,7 @@
     }
 
     \header {
-      title = \titleFunc #'ref_desc_4 "Българска рапсодия" "Bălgarska rapsodija"
+      title = \titleFunc #'ref_desc_4 "Българска рапсодия II" "Bălgarska rapsodija"
     }
 
     \midi{}
