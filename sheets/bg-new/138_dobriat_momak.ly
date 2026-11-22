@@ -43,7 +43,7 @@
       \tempo "Meno mosso" c,8. d8 (ees8.) |
       fis8. g8 (g8.) |
       fis8. ees8 fis8.  (|
-      ees8  d16)  ees8 c8. |
+      ees8  [d16])  ees8 c8. |
       ees8. fis8 g8. | \break
 
       fis8.ees8(c8.) |
@@ -51,19 +51,19 @@
       \time 7/16
       \key c \major
       \tempoFunc "Allegretto" 8 "160"
-      g8 a f (e16) |
+      g8 a f ([e16]) |
       g8 g f8. | \break
 
-      g8 a f (e16) |
+      g8 a f ([e16]) |
       g8 f f8. |
-      e8 g f(e16) |
+      e8 g f([e16]) |
       \tempo "rall." f8 e c8. |
       d4 d8. | \bar "||" \break
 
       \tempo "a tempo"
-      c8 d16[(e)] f8 (e16) |
+      c8 d16[(e)] f8 ([e16]) |
       f8 f e8. |
-      g8 a f (e16) |
+      g8 a f ([e16]) |
       g8 g8 g8. |
       c,8 d16[(e)] f8(e16) | \break
 
@@ -257,7 +257,7 @@
         fis16 ) ]d8. | % 166
         d8 e16 ( [d16 ) ] \stemUp
         c8 b8. \break | % 167
-        g8 a16 ( [  b16 ) ]c16 (
+        g8 a16 ( [   b16 ) ] \stemDown c16 (
         [d16 ) ]c8. | % 168
         d8 e16 ( [d16 ) ] \stemUp
         c16 ( [d16 ) ]b8. | % 169

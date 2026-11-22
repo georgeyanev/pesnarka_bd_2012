@@ -57,8 +57,8 @@
       g8^\accent a16([b]) c8. ~ | \noBreak
       c4 ~ c8. | \noBreak
       \acciaccatura {g8} d'^\accent e c8. | \noBreak
-      \acciaccatura {g8} d'^\accent e c8. | \break
-      b8 d a([g16]) | \noBreak
+      \acciaccatura {g8} d'^\accent e c8. | \noBreak
+      b8 d a([g16]) | \break
 
       b4 b8. ~| b4 ~ b8. | \noBreak
       g8 a16([b]) c8. | \noBreak
@@ -81,9 +81,9 @@
       e8 e e8. ~ | \noBreak
       e4 ~ e8. | \noBreak
       d8 e16 d16 c8 b16 | \noBreak
-      d8 d d8. ~ | \noBreak
+      d8 d d8. ~ | \break
 
-      d4 ~ d8. | \break
+      d4 ~ d8. | \noBreak
 
       d8 e16 d16 c8 b16 | \noBreak
       d8 c8  c8. ~ \( |\noBreak
@@ -154,18 +154,18 @@
       a4 ~ a4 ~ a4. ~ | a4 ~ a4 ~ a4. | \bar "||"  \break
       \tempo "a tempo" a'4  d8 e  f([ g f]) | e4. ~ e4 ~ e4 |  \noBreak
 
-      c'4 \acciaccatura{ b16[c] } b4 a8 [gis  a] | b8 ( [c8 b]) e,4 ~ e4 | \break
+      c'4 \acciaccatura{ b16[c] } b4 a8 [gis  a] | b8 ( [c8 b]) e,2 | \break
 
 
       e8\tenuto[f\tenuto g\tenuto] g4 a4 | \noBreak
       \acciaccatura { f16[g] } f8[e g] f4 e | \noBreak
 
-      a4. d,4 ~ d4 | \noBreak
+      a4. d,2 | \noBreak
       g4 f e d8 | \noBreak
 
-      c [b\tenuto] c4\tenuto d4.\tenuto| \break e4 e4 ~ e4. |
+      c [b\tenuto] c4\tenuto d4.\tenuto| \break e4 ~ e4 ~ e4. |
       a,4 b c4. | \time 9/8 b4 d c b4. | \noBreak
-      \time 7/8 a4.~ ( a4 ~ a4) | a'4. ~ a4 ~ a4 \fermata \override BreathingSign.extra-spacing-width = #'(-1.5 . 0) \breathe | \bar "|" \time 2/4 \break    \bar ".|:-||"
+      \time 7/8 a4.~ a4 ~ a4 | a'4. ~ a4 ~ a4 \fermata \override BreathingSign.extra-spacing-width = #'(-1.5 . 0) \breathe | \bar "|" \time 2/4 \break    \bar ".|:-||"
 
       \tempoFunc "Vivace" 4 "160"  c8_\markup{ \huge \italic {ordinario} }\accent[b] a[g] | \noBreak
       a\accent[g] f[e] | \noBreak
@@ -177,7 +177,7 @@
 
       c\tenuto[b]\tenuto d\tenuto[c]\tenuto | \noBreak
       b\tenuto[g]\tenuto a4\tenuto~ | \noBreak
-      a8\tenuto[b]\tenuto c\tenuto[d]\tenuto | \noBreak
+      a8 [b]\tenuto c\tenuto[d]\tenuto | \noBreak
       e\tenuto[d]\tenuto c\tenuto[b]\tenuto | \noBreak
       d\tenuto[c]\tenuto b\tenuto[g]\tenuto | \noBreak
       a2\tenuto | \noBreak
@@ -205,7 +205,7 @@
       \acciaccatura { dis8 } e2 d16\tenuto([c\tenuto b\tenuto g\tenuto]) | \noBreak
       a4. b8 c4 \break
 
-      d8\tenuto([e\tenuto]) \acciaccatura { d16\tenuto([e\tenuto] } d8\tenuto)[c\tenuto] b\tenuto [g\tenuto] | \noBreak
+      d8\tenuto([e\tenuto]) \acciaccatura { d16([e] } d8\tenuto)[c\tenuto] b\tenuto [g\tenuto] | \noBreak
       a2 a4 \fermata \bar "||" \noBreak
       \acciaccatura { dis8 } e2 d16\tenuto c\tenuto b\tenuto c\tenuto \breathe | \noBreak
       \acciaccatura { dis8 } e2 d16\tenuto c\tenuto b\tenuto c\tenuto  \breathe | \break
@@ -251,7 +251,7 @@
       \tuplet 3/2 8 { c16\>\mp([b g a b g]) c16([b g a b g]) c16([b g) b(a g\!\p])  } | \noBreak
       \tempo"rit." a4 a2 \fermata | \bar "||" \time 7/16 \break
 
-      \tempoFunc "A tempo" 8 "180" g,8\f^\accent a16([b]) c8.~ | \noBreak
+      \tempoFunc "Tempo I" 8 "160" g,8^\f^\accent a16([b]) c8.~ | \noBreak
       c4~ c8. | \noBreak
       \acciaccatura { g8 } d'^\accent e c8. | \noBreak
       \acciaccatura { g8 } d'^\accent e c8. | \noBreak

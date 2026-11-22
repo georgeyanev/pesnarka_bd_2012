@@ -52,7 +52,7 @@
         <g d'>8\stopped \stemNeutral d''8 d8. | \noBreak
         <g,, d'>8\stopped c'8 c8. | \break
 
-        <g, d'>8\stopped \acciaccatura { bes'16([c] } bes8) bes8. | \noBreak
+        <g, d'>8\stopped bes'8 \acciaccatura { bes16([c] } bes8.)  | \noBreak
         a8 g \acciaccatura { g16([a]} g8)([f16]) | \noBreak
       }
       \alternative {
@@ -147,7 +147,7 @@
 
       ees8([d c bes] a4\prall) d8([a] | \noBreak
       d8[a d a]) g8([a bes a\prall] | \noBreak
-      g[ d') g,( a] bes[a g) g'~(] | \time 5/4 \break
+      g[ d') g,( a] bes[a\prall g) g'~(] | \time 5/4 \break
 
       g[g, g' g,]  g'[g, g' g,] g'[g,]) | \noBreak
       \time 4/4 g'([f ees\prall	 d] c) c4 c8 | \noBreak

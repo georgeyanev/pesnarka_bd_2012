@@ -103,26 +103,26 @@
 
       bes8([a]) g([fis]) | \noBreak
       a8. g16 g4
-      g2\fermata \bar "||" | \break
+      g2\fermata \bar "||" | \noBreak
       d2 \noBreak
 
       cis8([d]) ees d | \noBreak
-      d2 | \noBreak
+      d2 | \break
       d | \noBreak
       g | \noBreak
-      fis8 g a g | \break
+      fis8 g a g | \noBreak
 
       g2 | \noBreak
       g4 g8 a | \noBreak
-      bes2 | \noBreak
+      bes2 | \break
       a4 g | \noBreak
-      fis8 g a g | \break
+      fis8 g a g | \noBreak
 
       g2 | \noBreak
       a4. bes8 | \noBreak
       c2 | \noBreak
-      \acciaccatura { c8 } bes([a]) bes c | \noBreak
-      d2 | \break
+      \acciaccatura { c8 } bes([a]) bes c | \break
+      d2 | \noBreak
 
       d,8^\markup{\huge \italic { largamente } } ees16([d]) cis8 d | \noBreak
       \acciaccatura { c' } bes4. a8 | \noBreak

@@ -57,7 +57,7 @@
         \line {
           \bold "2."
           \column {
-            "Обвити в мрак до този час, "
+            "Обвити в мрак до този час,"
             "ний бяхме роби на греха, "
             "но чухме Твоя кротък глас "
             "и лъхна към нас топлина. "
@@ -68,7 +68,7 @@
         \line {
           \bold " "
           \column {
-            \line {   \italic  "  Припев:" Добре дошъл ...}
+            \line {   \italic  "  Припев:"}
           }
         }
       }
@@ -88,7 +88,7 @@
         \line {
           \bold " "
           \column {
-            \line {   \italic  "  Припев:" Добре дошъл ...}
+            \line {   \italic  "  Припев:"}
           }
         }
         % adds vertical spacing between verses
@@ -113,7 +113,7 @@
         \line {
           \bold " "
           \column {
-            \line {   \italic  "  Припев:" Добре дошъл ...}
+            \line {   \italic  "  Припев:"}
           }
         }
       }
