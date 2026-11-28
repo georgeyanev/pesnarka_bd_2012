@@ -132,7 +132,7 @@ cat \
     ../166_Bog_e_Lyubov_II_167_kam_fir_fjur_fen.ly \
     ../165_malkiyat_planinski_izvor.ly \
     ../167_2_kazhi_mi_svetal_bozhii_lach_155_radost_za_dushata.ly \
-    ../168_kazhi_mi_ti_istinata_II.ly \
+    ../168_kazhi_mi_ti_istinata_II_sensa.ly \
     ../169_1_2_kazhi_mi_ti_isinata_III_az_moga_da_disham.ly \
     ../170_vyara_svetla_I_II.ly \
     ../171_milost_blagost_svoboda_e_potrebna_za_dushata.ly \
